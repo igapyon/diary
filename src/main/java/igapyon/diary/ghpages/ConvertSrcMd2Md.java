@@ -2,6 +2,9 @@ package igapyon.diary.ghpages;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
 
 /**
  * java -jar target/IgapyonDiaryGhPages-jar-with-dependencies.jar
@@ -22,7 +25,7 @@ public class ConvertSrcMd2Md {
 		}
 	}
 
-	void processDir(final File dir) {
+	void processDir(final File dir) throws IOException {
 		final File[] files = dir.listFiles();
 		if (files == null) {
 			return;
@@ -33,8 +36,16 @@ public class ConvertSrcMd2Md {
 			} else if (file.isFile()) {
 				if (file.getName().endsWith(".src.md")) {
 					System.out.println(file.getName());
+					processFile(file);
 				}
 			}
+		}
+	}
+
+	void processFile(final File file) throws IOException {
+		final List<String> lines = FileUtils.readLines(file, "UTF-8");
+		for (String line : lines) {
+			System.out.println("  " + line);
 		}
 	}
 }
