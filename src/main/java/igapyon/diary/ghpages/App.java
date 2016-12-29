@@ -12,7 +12,9 @@ public class App {
 		System.out.println("Convert .src.md to .md");
 
 		try {
-			new ConvertSrcMd2Md().process();
+			new ConvertDiarySrcMd2Md().process();
+
+			new GenerateIndexDiaryMd().process();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

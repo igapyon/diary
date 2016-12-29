@@ -10,7 +10,7 @@ import org.apache.commons.io.FileUtils;
  * java -jar target/IgapyonDiaryGhPages-jar-with-dependencies.jar
  * 
  */
-public class ConvertSrcMd2Md {
+public class ConvertDiarySrcMd2Md {
 	public void process() throws IOException {
 		File dir = new File(".");
 		dir = dir.getCanonicalFile();
