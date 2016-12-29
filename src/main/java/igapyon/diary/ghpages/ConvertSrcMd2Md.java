@@ -34,7 +34,7 @@ public class ConvertSrcMd2Md {
 			if (file.isDirectory()) {
 				processDir(file);
 			} else if (file.isFile()) {
-				if (file.getName().endsWith(".src.md")) {
+				if (file.getName().startsWith("ig") && file.getName().endsWith(".src.md")) {
 					System.out.println(file.getName());
 					processFile(file);
 				}
@@ -45,7 +45,17 @@ public class ConvertSrcMd2Md {
 	void processFile(final File file) throws IOException {
 		final List<String> lines = FileUtils.readLines(file, "UTF-8");
 		for (String line : lines) {
-			System.out.println("  " + line);
+			// System.out.println(" " + line);
 		}
+
+		lines.add(0, "2010-09-27 diary: よれよれ");
+		lines.add(1,
+				"=====================================================================================================");
+		lines.add(2,
+				"[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg \"いがぴょん\")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。");
+
+		String newName = file.getName().substring(0, file.getName().length() - (".src.md".length())) + ".md";
+		FileUtils.writeLines(new File(file.getParentFile(), newName), lines);
+		System.out.println("NEWMANE [" + newName + "]");
 	}
 }
