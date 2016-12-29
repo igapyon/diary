@@ -9,3 +9,8 @@
 ## source
 * [Igapyon Diary on github](https://igapyon.github.io/diary/index.html)
 * [Source of Igapyon Diary on github](https://github.com/igapyon/diary/)
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/index.html)
