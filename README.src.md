@@ -2,9 +2,9 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-## 最近更新した日記
+## 比較的最近の日記
 
-{igapyon.diary.ghpages.dialylist}
+{igapyon.diary.ghpages.dialylist.recent}
 
 ## source
 * [Igapyon Diary on github](https://igapyon.github.io/diary/index.html)

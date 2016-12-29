@@ -20,8 +20,16 @@ public class ProcessIndexListing {
 			wrk += "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n";
 		}
 
-		final String origin = FileUtils.readFileToString(fileTarget, "UTF-8");
-		final String target = StringUtils.replace(origin, "{igapyon.diary.ghpages.dialylist}", wrk);
+		String wrkRecent = "";
+		for (DiaryItemInfo itemInfo : diaryItemInfoList) {
+			if (itemInfo.getTitle().startsWith("2016-") || itemInfo.getTitle().startsWith("2017-")) {
+				wrkRecent += "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n";
+			}
+		}
+
+		String target = FileUtils.readFileToString(fileTarget, "UTF-8");
+		target = StringUtils.replace(target, "{igapyon.diary.ghpages.dialylist}", wrk);
+		target = StringUtils.replace(target, "{igapyon.diary.ghpages.dialylist.recent}", wrkRecent);
 		FileUtils.writeStringToFile(new File(fileTarget.getParentFile() + "/" + newName), target, "UTF-8");
 	}
 }
