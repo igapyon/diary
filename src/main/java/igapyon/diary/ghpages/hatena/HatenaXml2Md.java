@@ -11,9 +11,9 @@ import org.w3c.dom.NodeList;
 
 import igapyon.diary.ghpages.DiaryItemInfo;
 
-public class HatenaXmlParser {
+public class HatenaXml2Md {
 	public static final void main(final String[] args) throws IOException {
-		new HatenaXmlParser().processFile(new File("/tmp/igapyon.xml"), new File("/tmp/output"));
+		new HatenaXml2Md().processFile(new File("/tmp/igapyon.xml"), new File("/tmp/output"));
 	}
 
 	public void processFile(final File sourceXml, final File targetMdDir) throws IOException {
@@ -25,7 +25,13 @@ public class HatenaXmlParser {
 
 		final List<DiaryItemInfo> diaryItemList = parseRoot(rootElement);
 		for (DiaryItemInfo item : diaryItemList) {
-			System.out.println(item.getTitle() + ":" + item.getBody());
+			System.out.println(item.getTitle() /* + ":" + item.getBody() */);
+			final String yyyymmdd = item.getTitle().substring(0, 4) + item.getTitle().substring(5, 7)
+					+ item.getTitle().substring(8, 10);
+			final File yearDir = new File(targetMdDir, yyyymmdd.substring(0, 4));
+			yearDir.mkdirs();
+			final File targetFile = new File(yearDir, "ig" + yyyymmdd.substring(2) + ".src.hatenadiary");
+			FileUtils.write(targetFile, item.getTitle() + "\n" + item.getBody(), "UTF-8");
 		}
 
 	}
