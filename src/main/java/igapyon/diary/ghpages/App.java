@@ -1,12 +1,11 @@
 package igapyon.diary.ghpages;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 /**
- *
- * java -jar target/IgapyonDiaryGhPages-jar-with-dependencies.jar
- * 
+ * mvn install exec:java
  */
 public class App {
 	public static void main(String[] args) {
@@ -16,9 +15,9 @@ public class App {
 			new ConvertDiarySrcMd2Md().process();
 
 			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().process();
-			for (DiaryItemInfo info : diaryItemInfoList) {
-				System.out.println(info.getUri() + " : " + info.getTitle());
-			}
+
+			new ProcessIndexListing().process(new File("README.src.md"), diaryItemInfoList);
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

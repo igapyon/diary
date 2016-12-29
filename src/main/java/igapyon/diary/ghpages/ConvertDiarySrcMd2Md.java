@@ -7,7 +7,6 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 
 /**
- * java -jar target/IgapyonDiaryGhPages-jar-with-dependencies.jar
  * 
  */
 public class ConvertDiarySrcMd2Md {
