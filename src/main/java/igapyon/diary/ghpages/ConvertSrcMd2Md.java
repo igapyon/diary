@@ -46,6 +46,14 @@ public class ConvertSrcMd2Md {
 		final List<String> lines = FileUtils.readLines(file, "UTF-8");
 
 		String firstH2Line = null;
+		String year1 = "20";
+		String year2 = file.getName().substring(2, 4);
+		if (year2.startsWith("9")) {
+			year1 = "19";
+		}
+
+		String month = file.getName().substring(4, 6);
+		String day = file.getName().substring(6, 8);
 		for (String line : lines) {
 			if (firstH2Line == null) {
 				if (line.startsWith("## ")) {
@@ -55,11 +63,19 @@ public class ConvertSrcMd2Md {
 			// System.out.println(" " + line);
 		}
 
-		lines.add(0, "2010-09-27 diary: " + firstH2Line);
+		lines.add(0, year1 + year2 + "-" + month + "-" + day + " diary: " + firstH2Line);
 		lines.add(1,
 				"=====================================================================================================");
 		lines.add(2,
 				"[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg \"いがぴょん\")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。");
+		lines.add(3, "");
+
+		lines.add(
+				"----------------------------------------------------------------------------------------------------");
+		lines.add("");
+		lines.add("## この日記について");
+		lines.add(
+				"[いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)");
 
 		String newName = file.getName().substring(0, file.getName().length() - (".src.md".length())) + ".md";
 		FileUtils.writeLines(new File(file.getParentFile(), newName), lines);
