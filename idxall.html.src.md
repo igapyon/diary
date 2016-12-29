@@ -4,7 +4,6 @@
 
 ## 日記を全て
 
-* [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
 {igapyon.diary.ghpages.dialylist}
 
 ## source

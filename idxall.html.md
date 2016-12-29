@@ -4,7 +4,6 @@
 
 ## 日記を全て
 
-* [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
 * [2010-09-27 diary: よれよれ](https://igapyon.github.io/diary/2010/ig100927.html)
 * [2010-09-30 diary: Benten 1.4 ビルド完了](https://igapyon.github.io/diary/2010/ig100930.html)
 * [2010-10-03 diary: Benten に gettext の PO 形式への対応を追加](https://igapyon.github.io/diary/2010/ig101003.html)

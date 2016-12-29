@@ -82,6 +82,7 @@
 			</plugin>
 
 			<!-- set java as runnable -->
+			<!-- mvn install exec:java -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
