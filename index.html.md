@@ -1,5 +1,4 @@
-# Diary
+# Igapyon Diary
 
-
-*[2016-12-29 diary](https://igapyon.github.io/diary/2016/1229.html)
+* [2016-12-29 diary: 試験的github日記](https://igapyon.github.io/diary/2016/ig161229.html)
 
