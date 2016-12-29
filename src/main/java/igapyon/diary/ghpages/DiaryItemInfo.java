@@ -3,6 +3,15 @@ package igapyon.diary.ghpages;
 public class DiaryItemInfo {
 	private String uri;
 	private String title;
+	private String body;
+
+	public String getBody() {
+		return body;
+	}
+
+	public void setBody(String body) {
+		this.body = body;
+	}
 
 	public String getUri() {
 		return uri;
