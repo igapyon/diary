@@ -17,13 +17,13 @@ public class ProcessIndexListing {
 
 		String wrk = "";
 		for (DiaryItemInfo itemInfo : diaryItemInfoList) {
-			wrk += "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n";
+			wrk = "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n" + wrk;
 		}
 
 		String wrkRecent = "";
 		for (DiaryItemInfo itemInfo : diaryItemInfoList) {
 			if (itemInfo.getTitle().startsWith("2016-") || itemInfo.getTitle().startsWith("2017-")) {
-				wrkRecent += "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n";
+				wrkRecent = "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n" + wrkRecent;
 			}
 		}
 
