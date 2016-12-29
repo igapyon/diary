@@ -44,7 +44,7 @@ public class GenerateIndexDiaryMd {
 
 		final String url = "https://igapyon.github.io/diary" + path + "/"
 				+ file.getName().substring(0, file.getName().length() - 3);
-System.out.println(url);
+		System.out.println(url);
 		System.out.println(lines.get(0));
 	}
 }
