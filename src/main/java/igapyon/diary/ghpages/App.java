@@ -1,6 +1,7 @@
 package igapyon.diary.ghpages;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  *
@@ -14,7 +15,10 @@ public class App {
 		try {
 			new ConvertDiarySrcMd2Md().process();
 
-			new GenerateIndexDiaryMd().process();
+			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().process();
+			for (DiaryItemInfo info : diaryItemInfoList) {
+				System.out.println(info.getUri() + " : " + info.getTitle());
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

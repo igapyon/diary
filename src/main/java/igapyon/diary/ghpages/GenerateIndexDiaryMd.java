@@ -2,12 +2,15 @@ package igapyon.diary.ghpages;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 
 public class GenerateIndexDiaryMd {
-	public void process() throws IOException {
+	private List<DiaryItemInfo> diaryItemInfoList = new ArrayList<DiaryItemInfo>();
+
+	public List<DiaryItemInfo> process() throws IOException {
 		File dir = new File(".");
 		dir = dir.getCanonicalFile();
 		System.out.println(dir.getPath());
@@ -17,8 +20,9 @@ public class GenerateIndexDiaryMd {
 			processDir(dir, "");
 		} else {
 			System.out.println("期待とは違うディレクトリ:" + dir.getName());
-			return;
 		}
+
+		return diaryItemInfoList;
 	}
 
 	void processDir(final File dir, String path) throws IOException {
@@ -44,7 +48,11 @@ public class GenerateIndexDiaryMd {
 
 		final String url = "https://igapyon.github.io/diary" + path + "/"
 				+ file.getName().substring(0, file.getName().length() - 3);
-		System.out.println(url);
-		System.out.println(lines.get(0));
+
+		final DiaryItemInfo diaryItemInfo = new DiaryItemInfo();
+		diaryItemInfo.setUri(url);
+		diaryItemInfo.setTitle(lines.get(0));
+
+		diaryItemInfoList.add(diaryItemInfo);
 	}
 }
