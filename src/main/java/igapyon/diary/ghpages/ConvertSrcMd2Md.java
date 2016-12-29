@@ -70,6 +70,9 @@ public class ConvertSrcMd2Md {
 				"[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg \"いがぴょん\")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。");
 		lines.add(3, "");
 
+		// 本体
+
+		lines.add("");
 		lines.add(
 				"----------------------------------------------------------------------------------------------------");
 		lines.add("");
