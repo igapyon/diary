@@ -87,14 +87,14 @@ public class GenerateIndexDiaryHtml {
 
 			final XPath xpath = XPathFactory.newInstance().newXPath();
 
-			title = (String) xpath.evaluate("/HTML/HEAD/TITLE/text()", document, XPathConstants.STRING);
-			System.out.println("title:" + title);
+			title = (String) xpath.evaluate("/html/head/title/text()", document, XPathConstants.STRING);
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SAXException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println("html:" + source);
+			throw new IllegalArgumentException("BREAK!");
 		} catch (XPathExpressionException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -42,7 +42,7 @@ public class SimpleTagSoupUtil {
 				+ "</html>"));
 
 		// 出力を (xhtmlではなく) html にセットします。
-		serializer.setOutputProperty(XMLWriter.METHOD, "html");
+		serializer.setOutputProperty(XMLWriter.METHOD, "xhtml");
 
 		// XML宣言の出力を抑制します。
 		serializer.setOutputProperty(XMLWriter.OMIT_XML_DECLARATION, "yes");
@@ -85,7 +85,7 @@ public class SimpleTagSoupUtil {
 		input.setCharacterStream(new StringReader(source));
 
 		// 出力を (xhtmlではなく) html にセットします。
-		serializer.setOutputProperty(XMLWriter.METHOD, "html");
+		serializer.setOutputProperty(XMLWriter.METHOD, "xhtml");
 
 		// XML宣言の出力を抑制します。
 		serializer.setOutputProperty(XMLWriter.OMIT_XML_DECLARATION, "yes");
