@@ -8,7 +8,7 @@
 
 ## source
 * [Igapyon Diary on github](https://igapyon.github.io/diary/idxall.html)
-* [Source of Igapyon Diary on github](https://github.com/igapyon/diary/idxall.html.md)
+* [Source on github](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.md)
 
 ----------------------------------------------------------------------------------------------------
 
