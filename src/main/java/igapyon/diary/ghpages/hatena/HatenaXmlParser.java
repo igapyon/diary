@@ -13,13 +13,14 @@ import igapyon.diary.ghpages.DiaryItemInfo;
 
 public class HatenaXmlParser {
 	public static final void main(final String[] args) throws IOException {
-		new HatenaXmlParser().processFile(new File("./test/data/src/hatena/diary/001/test901.xml"),
-				new File("./test/data/output/hatena/diary/001/"));
+		new HatenaXmlParser().processFile(new File("/tmp/igapyon.xml"), new File("/tmp/output"));
 	}
 
 	public void processFile(final File sourceXml, final File targetMdDir) throws IOException {
 
-		final String inputXmlString = FileUtils.readFileToString(sourceXml, "UTF-8");
+		String inputXmlString = FileUtils.readFileToString(sourceXml, "UTF-8");
+		inputXmlString = inputXmlString.replace('\u001c', '−');
+		inputXmlString = inputXmlString.replace('\u001a', '?');
 		final Element rootElement = SimpleXmlUtil.stringToElement(inputXmlString);
 
 		final List<DiaryItemInfo> diaryItemList = parseRoot(rootElement);
@@ -43,8 +44,7 @@ public class HatenaXmlParser {
 		final DiaryItemInfo item = new DiaryItemInfo();
 
 		String dateString = dayElement.getAttribute("date");
-		System.out.println(dateString);
-		item.setTitle(dayElement.getAttribute("title"));
+		item.setTitle(dateString + " " + dayElement.getAttribute("title"));
 
 		final NodeList nodeList = dayElement.getElementsByTagName("body");
 		for (int index = 0; index < nodeList.getLength(); index++) {
