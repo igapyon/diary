@@ -1,0 +1,20 @@
+2012-03-14 MySQL + JDBC ではまり中。。。接続文字列
+
+*p1*MySQL + JDBC ではまり中。。。接続文字列
+
+>|xml|
+jdbc:mysql://localhost/<DBNAME>?useUnicode=true&characterEncoding=UTF-8&useCursorFetch=true&defaultFetchSize=128&useServerPrepStmts=true&dontTrackOpenResources=true
+||<
+
+後日談。この設定でも某問題現象は発生します(T_T)
+
+一方で、MySQL の JDBC 接続文字列については熟慮する価値があるように認識してきました。
+
+*p2*有償 MySQL 問い合わせ先
+ - http://www-jp.mysql.com/products/
+   \217,391.- (年間サブスクリプション)
+検討中。。。
+
+*p3* 後日談: そもそも本件 Java HotSpot のバグであり、MySQL のバグではない可能性が出てきました。
+後日談: そもそも本件 Java HotSpot のバグであり、MySQL のバグではない可能性が出てきました。
+

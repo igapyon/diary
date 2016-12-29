@@ -1,0 +1,31 @@
+2014-02-16 [Python] プログラミング言語 Python を体験してみる
+
+*p1*[Python] プログラミング言語 Python を体験してみる
+ふと、プログラミング言語 Python を体験してみることにしました。
+
+-Pythonが最高である3つの理由
+--http://ascii.jp/elem/000/000/537/537868/
+
+-Google Python スタイルガイド (日本語訳)
+--http://works.surgo.jp/translation/pyguide.html
+
+-【追記】Python人気継続 - PYPLプログラミング言語人気(2014/02)
+--http://news.mynavi.jp/news/2014/02/17/006/
+
+*p2*[Python] Python のハローワールド
+はじめての Python なのですが、Java にこだわって Jython で体験してみます。
+**ソース test.py
+>|python|
+# coding: utf-8
+print u"Hello."
+||<
+
+**実行方法
+>|sh|
+jython -C utf-8 test.py
+||<
+
+**くじけたこと
+Windows 上の Jython で日本語を sjis に print できません。。。
+なんでも、ちょっと難しい話題らしいです。
+

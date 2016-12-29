@@ -1,0 +1,96 @@
+2014-02-27 [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)
+
+*p1*[Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)
+Java Servlet 3.0 では、それまでの Servlet に比べ、記述量が劇的に簡単になっています。これのシンプルサンプルをメモします。
+
+**最低限必要なディレクトリおよびファイルの構造
+極端に最小限なファイル一覧を示します。
+★web.xml すら省略しています。
+>|sh|
+src/simple/SimpleServlet.java
+WebContent/index.html
+build.xml
+||<
+
+**サーブレット (SimpleServlet.java)
+>|java|
+package simple;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet(name = "SimpleServlet", urlPatterns = { "/simple" })
+public class SimpleServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    @Override
+    protected void doGet(final HttpServletRequest req, final HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html; charset=UTF-8");
+        res.addHeader("Cache-Control", "no-cache");
+        res.addHeader("Pragma", "no-cache");
+        res.addHeader("Expires", "0");
+
+        final PrintWriter writer = res.getWriter();
+        writer.print("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+        writer.print("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n");
+        writer.print("<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\">\n");
+        writer.print("<head>\n");
+        writer.print("<title>Hello World!</title>\n");
+        writer.print("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n");
+        writer.print("<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\n");
+        writer.print("<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n");
+        writer.print("<meta http-equiv=\"Pragma\" content=\"no-cache\" />\n");
+        writer.print("<meta http-equiv=\"Expires\" content=\"0\" />\n");
+        writer.print("</head>\n");
+        writer.print("<body>\n");
+        writer.print("<p>Hello World!</p>\n");
+        writer.print("</body>\n");
+        writer.print("</html>\n");
+    }
+}
+||<
+
+**Ant スクリプト (build.xml)
+>|xml|
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="simple" default="war" basedir=".">
+	<property name="encoding" value="UTF-8" />
+
+	<target name="war" depends="compile">
+		<copy todir="build" preservelastmodified="true">
+			<fileset dir="./WebContent/">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+		<delete file="simple.war" />
+		<war destfile="simple.war" basedir="build" needxmlfile="false" />
+	</target>
+
+	<target name="compile">
+		<delete dir="build" />
+		<mkdir dir="build" />
+		<mkdir dir="build/WEB-INF/classes" />
+		<javac destdir="build/WEB-INF/classes" debug="true" source="1.6" target="1.6" fork="true" encoding="${encoding}">
+			<classpath>
+				<fileset dir="C:/glassfish4/glassfish/lib" includes="javaee.jar" />
+			</classpath>
+			<src path="src/" />
+			<include name="**/*.java" />
+		</javac>
+	</target>
+</project>
+||<
+
+**アクセス URL
+これをベースに単純に GlassFish 4.0 にデプロイすると、URL は以下のようになります。
+>|sh|
+http://localhost:8080/simple/simple
+||<
+

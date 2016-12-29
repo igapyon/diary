@@ -1,0 +1,10 @@
+2012-10-24 robots.txt メモ
+
+*p1*robots.txt メモ
+すべてを許可する robots.txt 
+
+>|sh|
+User-agent: *
+Disallow:
+||<
+

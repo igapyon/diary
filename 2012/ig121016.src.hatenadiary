@@ -1,0 +1,11 @@
+2012-10-16 Windows スペックテキスト出力【dxdiag】
+
+*p1*Windows スペックテキスト出力【dxdiag】
+Windows XP から Windows 7 まで、デフォルトで dxdiag というコマンドがあり、これを用いると Windows スペックをテキスト出力できます。
+
+>|sh|
+dxdiag.exe
+||<
+「情報をすべて保存(S)」でテキスト出力も可能です。
+これはすごい。
+

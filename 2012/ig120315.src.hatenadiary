@@ -1,0 +1,27 @@
+2012-03-15 MySQL 接続文字列調査中...
+
+*p1*MySQL 接続文字列調査中...
+
+これも調べ中。
+-profileSQL=true
+-emulateUnsupportedPstmts=false
+
+それらを混ぜると接続文字列は以下のように...
+
+>|xml|
+jdbc:mysql://localhost/<DBNAME>?useUnicode=true&characterEncoding=UTF-8&useCursorFetch=true&defaultFetchSize=128&useServerPrepStmts=true&emulateUnsupportedPstmts=false&dontTrackOpenResources=true&profileSQL=true
+||<
+
+*p2*それ以外にも接続パラメータが、、、
+>|xml|
+characterSetResults=UTF-8
+||<
+これは何? というか、指定したほうがよさそうですね...
+
+あと、dontTrackOpenResources=true は指定しなくても良いような気がしてきました。
+それらを混ぜると接続文字列は以下のように...
+
+>|xml|
+jdbc:mysql://localhost/<DBNAME>?useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&useCursorFetch=true&defaultFetchSize=128&useServerPrepStmts=true&emulateUnsupportedPstmts=false&profileSQL=true
+||<
+

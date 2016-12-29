@@ -1,0 +1,39 @@
+2012-09-16 JavaFX 2: シンプルなビルド用 Ant スクリプト
+
+*p1*[JavaFX] シンプルなビルド用 Ant スクリプト
+JavaFX 2 として Java プログラムを駆動させるには *.java ファイルから JAR ファイルを生成する必要があります。
+この手順を実現するための Ant スクリプトを以下に示します。
+**<build.xml>
+>|xml|
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Sample" default="build" basedir=".">
+	<property name="jrehome" value="C:/Program Files (x86)/Java/jre7/lib/" />
+	<property name="encoding" value="Windows-31J" />
+	<property name="javaver" value="1.7" />
+
+	<target name="jar">
+		<delete file="Sample001.jar" />
+		<jar destfile="Sample001.jar">
+			<zipfileset dir="bin" includes="**/*" />
+			<zipfileset dir="src" includes="**/*" prefix="src" />
+		</jar>
+	</target>
+
+	<target name="compile">
+		<delete dir="bin" />
+		<mkdir dir="bin" />
+		<javac destdir="bin" debug="true" source="${javaver}" target="${javaver}" fork="true" encoding="${encoding}">
+			<src path="src/" />
+			<classpath>
+				<fileset dir="${jrehome}" includes="jfxrt.jar" />
+			</classpath>
+			<include name="**/*.java" />
+		</javac>
+	</target>
+
+	<target name="build" depends="compile,jar" />
+</project>
+||<
+ポイント
+-ソースコードの文字エンコーディングや Java JRE 導入先ディレクトリなどは適宜変更して利用します。
+

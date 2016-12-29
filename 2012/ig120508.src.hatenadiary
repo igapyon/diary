@@ -1,0 +1,15 @@
+2012-05-08 Ubuntu インストール直後で最初に投入するコマンド
+
+*p1*Ubuntu インストール直後で最初に投入するコマンド
+>|bash|
+sudo apt-get update
+sudo apt-get install linux-headers-$(uname -r)
+sudo apt-get install ibus-mozc
+||<
+これが、よく忘れるのです。
+
+*p2*もしかしたら利用するであろうパッケージ
+>|bash|
+sudo apt-get install ubuntu-restricted-extras
+||<
+

@@ -1,0 +1,3 @@
+2010-09-29 Ubuntu: tcpdump を使ったネットワーク覗き見
+
+sudo tcpdump -i eth0 

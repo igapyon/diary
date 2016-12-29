@@ -1,0 +1,27 @@
+2015-05-20 [Delphi] Delphi に関わるソースコード
+
+*p1*[Delphi] Delphi に関わるソースコード
+Delphi に関わるソースコードには、以下のような種類があります。
+-ユーザーが作成したソースコード
+--次のようなディレクトリに配置されます: C:\Users\ユーザー名\Documents\Embarcadero\Studio\Projects
+-Delphi をインストールすることにより入手できるソースコード
+--RTL, VCL, FireMonkey といったランタイムライブラリに関するソースコード
+---次のようなディレクトリに配置されます: C:\Program Files (x86)\Embarcadero\Studio\16.0\source
+---ただし、体験版やStarter版などでは、これらソースコードはインストールされません。このため、体験版としてインストールしたあと製品シリアル番号を入力したとしてもソースコードは配置されません。インストール時にソースコードを対象から除外した場合も同様です。
+--サンプルのソースコード
+---次のようなディレクトリに配置されます: C:\Users\Public\Documents\Embarcadero\Studio\16.0\Samples
+-インターネット上に公開されているソースコード
+--サンプルのソースコード: http://sourceforge.net/p/radstudiodemos/code/HEAD/tree/branches/
+---過去バージョンのサンプルも公開されているので、それらを入手したい場合にはとても便利です。
+--Delphi 向けコードエグザンプルの全リスト
+---http://docwiki.embarcadero.com/CodeExamples/XE8/en/Category:Delphi
+-サードパーティ製コンポーネントに関するソースコード
+--ソースコード付きのコンポーネントを購入するなどすると、入手できる場合があります。
+
+**一覧に戻る
+-[http://d.hatena.ne.jp/igapyon/20150511:title=Delphi 概要 (2015/05)]
+
+**コンテンツ・メタ情報
+-キーワード: [[Delphi]], [[RAD Studio]], XE8, [http://twitter.com/hashtag/Embt:title=#Embt], [http://twitter.com/hashtag/Delphi:title=#Delphi], [http://twitter.com/hashtag/RADStudio:title=#RADStudio], [http://twitter.com/ToshikiIga:title=@ToshikiIga]
+-更新情報
+--2015/05/20 新規公開

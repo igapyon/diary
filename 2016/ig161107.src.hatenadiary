@@ -1,0 +1,9 @@
+2016-11-07 PHPメモ：配列をロギング
+
+*p1*[PHP] PHPメモ：配列をロギング
+>|php|
+	    foreach (array_keys($something) as $look) {
+			\Common\Logger::info('TRACE: [' . $look . ']');
+		}
+||<
+

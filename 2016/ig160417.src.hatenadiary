@@ -1,0 +1,24 @@
+2016-04-17 [Linux] crontab で毎日03:00にシャットダウンするメモ
+
+*p1*[Linux] crontab で毎日03:00にシャットダウンするメモ
+crontab の書き方を良く忘れがちなのでメモ。自宅のPCは シャットダウンし忘れ対策としてこれを設定しています。
+
+**編集する
+>|sh|
+sudo crontab -e
+||<
+
+**記入する
+>||
+00 3 * * * sudo shutdown -h now
+||<
+
+**確認する
+>|sh|
+sudo crontab -l
+||<
+
+*p2*伊方原発メモ
+-[http://www.yonden.co.jp/energy/atom/ikata/index1.html:title=四国電力、伊方発電所について]
+-[http://www.kochinews.co.jp/article/6773/:title=伊方原発の使用済み核燃料について、プールの燃料は1422体]
+

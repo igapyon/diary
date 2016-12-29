@@ -1,0 +1,43 @@
+2011-10-14 Eclipse 内臓 Java コンパイラーをちょっとメモ
+
+*p1*EclipseのASTParserを試す
+http://www.ibm.com/developerworks/jp/opensource/library/os-ast/
+
+**関連する日記
+-http://d.hatena.ne.jp/igapyon/20161023
+-http://d.hatena.ne.jp/igapyon/20161022
+
+*p2*Eclipse JDT Core Component
+org.eclipse.jdt.core.compiler
+
+*p3*Eclipse: Java Code Formatter
+http://help.eclipse.org/galileo/index.jsp?topic=/org.eclipse.jdt.doc.isv/guide/jdt_api_options.htm
+
+*p4*実際のコード?
+ASTParser parser = ASTParser.newParser(AST.JLS2);
+parser.setKind(ASTParser.K_COMPILATION_UNIT);
+parser.setSource(sourceString.toCharArray());
+CompilationUnit node = (CompilationUnit) parser.createAST(null);
+
+*p6*実際のコード2
+org.eclipse.jdt.internal.compiler.Compiler
+
+Compiler compiler = new Compiler(new NameEnvironmentImpl(unit),
+                     DefaultErrorHandlingPolicies.proceedWithAllProblems(),
+                     settings,requestor,new Default\
+                     ProblemFactory(Locale.getDefault()));
+compiler.compile(new ICompilationUnit[] { unit });
+
+*p5*さらにメモ
+http://www.masatom.in/pukiwiki/Eclipse/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%B3%AB%C8%AF%A4%CETIPS%BD%B8/%A5%BD%A1%BC%A5%B9%A5%B3%A1%BC%A5%C9%A4%F2%B2%F2%C0%CF%A4%B9%A4%EB%A5%D1%A1%BC%A5%B5ASTParser/
+
+*p7*もっとメモ
+Eclipse JDT でバッチ・コンパイル
+http://www.eclipse.org/forums/index.php/m/657704/
+
+ASTParser の JavaDoc
+http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2Fdom%2FASTParser.html
+
+
+
+

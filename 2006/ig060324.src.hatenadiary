@@ -1,0 +1,6 @@
+2006-03-24 blancoDbのiBatis対応
+
+*p1*blancoDbのiBatis対応
+とある事情により、blancoDbをiBatis対応させることになりました。
+iBatis対応といっても、単に SQL定義書というExcel形式のファイルを入力として、iBatisの設定ファイル(XML形式)と JavaのPOJOを自動生成するという、他愛のないものとなる予定です。
+今仕事がピークなので、このピークが終わってからと考えています。

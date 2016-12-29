@@ -1,0 +1,16 @@
+2006-02-02 blancoCodeGenerator(DotNet)にアノテーション機能を追加
+
+*p1*blancoCodeGenerator(DotNet)にアノテーション機能を追加
+blanco FrameworkのJava/C#.NETソースコード自動生成機能である blancoCodeGeneratorおよびblancoCodeGeneratorDotNetに、アノテーションを生成することができる機能追加をしました。
+blancoSOAPのC#.NETソースコード自動生成時に アノテーションが必要になったからです。
+加えて blancoCodeGeneratorDotNetにオーバライド修飾ができるように機能追加しました。
+今晩あたりにSourceForge.jpにアップロードしようと思います。
+
+*p2*.NET Framework: Webサービス SOAP例外
+◆.NETにおける例外処理 http://www.microsoft.com/japan/msdn/net/bda/exceptdotnet.asp
+
+この中の、SoapExceptionが SOAPの例外にマッピングされている。
+サーバの例外がクライアントに伝達される模様。処理されない例外は SoapExceptionに詰め替えられて伝達するとのことです。
+
+ServerFaultCodeやMessageプロパティが、見るべきところとのこと。
+明日、もう少し追ってみます。

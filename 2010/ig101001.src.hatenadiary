@@ -1,0 +1,9 @@
+2010-10-01 Ubuntu インストールソフト・メモ
+
+basic software:
+sudo apt-get install -y ssh virtualbox-ose thunderbird-locale-ja vlc ubuntu-restricted-extras ibus-mozc eclipse gnome-device-manager
+
+game: 
+sudo apt-get install -y supertux kobodeluxe pingus penguin-command
+
+

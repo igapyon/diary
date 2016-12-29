@@ -1,0 +1,18 @@
+2013-08-05 メモ: Amateras StepCounter を Ant で利用する
+
+*p1*メモ: Amateras StepCounter を Ant で利用する
+最近の Amateras StepCounter は GitHub 上で開発されています。最新版は以下。
+-https://github.com/takezoe/stepcounter/blob/master/eclipse-plugin/jp.sf.amateras.stepcounter/lib/stepcounter-3.0.2-jar-with-dependencies.jar
+ここから stepcounter-3.0.2-jar-with-dependencies.jar をダウンロードします。
+
+あとは、http://d.hatena.ne.jp/igapyon/20130121 のような感じで Ant から起動します。
+
+*p2*メモ: 自分用ファイル削除用 Ant タスクメモ
+>|xml|
+	<target name="deleteClassFiles">
+		<delete verbose="true">
+			<fileset dir="対象ディレクトリ" includes="**/*.class" />
+		</delete>
+	</target>
+||<
+

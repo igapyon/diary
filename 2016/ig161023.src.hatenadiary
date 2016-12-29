@@ -1,0 +1,26 @@
+2016-10-23 Eclipse AST を利用した PHP ソースコード解析
+
+*p1*Eclipse AST を利用した PHP ソースコード解析
+Eclipse AST を利用した PHP ソースコード解析をざっと調べてみました。
+-https://github.com/igapyon/simple-EclipseAstPHP
+
+Java ソースコード解析とは ちと API 構造が異なるようで、インタフェース互換性はない模様です。
+
+**関連箇所抜粋
+>|Java|
+import org.eclipse.php.internal.core.PHPVersion;
+import org.eclipse.php.internal.core.ast.nodes.ASTParser;
+import org.eclipse.php.internal.core.ast.nodes.Program;
+
+		final ASTParser parser = ASTParser.newParser(PHPVersion.PHP7_1);
+		parser.setSource(buf.toString().toCharArray());
+
+		final Program node = parser.createAST(null);
+
+		final SimpleVisitor visitor = new SimpleVisitor();
+		node.accept(visitor);
+||<
+
+**関連する日記
+-http://d.hatena.ne.jp/igapyon/20161022
+

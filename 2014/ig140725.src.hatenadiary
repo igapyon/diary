@@ -1,0 +1,7 @@
+2014-07-25 [Appmethod] LGPL なバーコードリーダー
+
+*p1*[Appmethod] LGPL なバーコードリーダー
+[[Appmethod]] でバーコードを読み込みたいことがあり、OSS 系ライブラリをざっくり調べました。これをメモします。
+-ZBar bar code reader
+--http://sourceforge.net/projects/zbar/
+--http://zbar.sourceforge.net/

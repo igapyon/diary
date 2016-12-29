@@ -13,7 +13,7 @@ import igapyon.diary.ghpages.DiaryItemInfo;
 
 public class HatenaXml2Md {
 	public static final void main(final String[] args) throws IOException {
-		new HatenaXml2Md().processFile(new File("/tmp/igapyon.xml"), new File("/tmp/output"));
+		new HatenaXml2Md().processFile(new File("/tmp/igapyon.xml"), new File("."));
 	}
 
 	public void processFile(final File sourceXml, final File targetMdDir) throws IOException {
@@ -33,7 +33,6 @@ public class HatenaXml2Md {
 			final File targetFile = new File(yearDir, "ig" + yyyymmdd.substring(2) + ".src.hatenadiary");
 			FileUtils.write(targetFile, item.getTitle() + "\n" + item.getBody(), "UTF-8");
 		}
-
 	}
 
 	public static List<DiaryItemInfo> parseRoot(final Element rootElement) throws IOException {

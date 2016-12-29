@@ -1,0 +1,21 @@
+2014-02-23 [Python][Sphinx] Sphinx のインストール
+
+*p1*[Python][Sphinx] Sphinx のインストール
+Ubuntu 12.04 に Sphinx のインストール時のメモ。
+>|sh|
+ez_setup.py を入手
+||<
+
+*p2*Python のインストール
+Python をインストールします。なお、私の環境ではすでにインストール済みでした。
+>|sh|
+sudo apt-get install python
+||<
+
+*p3*Sphinx のインストール
+easy_install をインストールして、そして Sphinx をインストールします。
+>|sh|
+sudo python ez_setup.py
+sudo easy_install sphinx
+||<
+
