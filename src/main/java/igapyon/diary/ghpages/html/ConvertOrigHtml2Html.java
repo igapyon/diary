@@ -58,6 +58,8 @@ public class ConvertOrigHtml2Html {
 
 		data = StringUtils.replace(data, "charset=Shift_JIS", "charset=UTF-8");
 
+		data = StringUtils.replace(data, "../../image/", "../images/");
+
 		File newFile = new File(file.getParent(), file.getName().substring(0, file.getName().length() - 5));
 		FileUtils.write(newFile, data, "UTF-8");
 	}
