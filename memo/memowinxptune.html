@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="DESCRIPTION" content="私のための Windows XP 設定やチューニングのメモです。とりあえず今回は あまりデフォルトからは変更しないという方針で考えています。">
+<META name="KEYWORDS" content="Windows XP,設定,チューニング">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:51+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+
+
+<TITLE>資料: Windows XP 設定＆チューニングメモ</TITLE>
+</HEAD>
+<BODY bgcolor="#eeddcc"><H2><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>の日記v2: 資料: Windows XP 設定＆チューニングメモ</H2>
+<P>[Windows XP,設定,チューニング] 私のための Windows XP 設定やチューニングのメモです。とりあえず今回は あまりデフォルトからは変更しないという方針で考えています。</P>
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">日記インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../../index.html">いがぴょんのウェブページトップへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>基本的な設定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>パスワードを設定<BR>
+  (デフォルトにおいてパスワード無しでインストールされるっていうのに驚愕)
+  <LI>登録された拡張子の非表示をOFF化
+  <LI>全てのファイルを表示するように変更
+  <LI>リモートデスクトップを有効化
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>サービスパック</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Windows XP SP2を適用しました (2004.10.11)
+  <LI>ファイアウォール設定およびウイルス対策については、Norton Internet Security
+  2004 を使用するせっていにしました (2004.10.11)
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>デスクトップ周り設定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>壁紙をコーヒーカップに変更。
+  <LI>キーボードの反応速度を最速に変更
+  <LI>スクリーンセーバー → モニタ電源 について、
+  <UL>
+    <LI>モニタの電源を切る : 5分後
+    <LI>ハードディスクの電源を切る : 5分後
+  </UL>
+</UL>
+<P>サービスを片っ端から停止したいところですけれども、その技は とりあえず後回しにしています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>カーネル周りチューニング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>よくあるカーネル周りチューニングのメモです。Windows XP に関しては、どうしてもしょうがないものだけチューニングする方針です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>Windows Registry Editor Version 5.00<BR>
+<BR>
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]<BR>
+      &quot;DisablePagingExecutive&quot;=dword:00000001<BR>
+      &quot;IoPageLockLimit&quot;=dword:00010000<BR>
+      <BR>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]<BR>
+      &quot;NtfsDisableLastAccessUpdate&quot;=dword:00000001</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>カーネルを実メモリのみに展開 : DisablePagingExecutive<BR>
+  デフォルト : &quot;DisablePagingExecutive&quot;=dword:00000000
+  <LI>ファイルシステム割り当てメモリを増加 : IoPageLockLimit<BR>
+  デフォルト : なし<BR>
+  <FONT size="-1">キロバイト表記だそうです。dword:00010000 は 16進表記で、10進換算で 64MBに相当します。(こう考えると
+  ディスクキャッシュを有効にメモリ展開するunixに比べると どうも Windows は気に入りません)
+  あと 綴りに注意。<STRONG>lo</STRONG>ではなく<STRONG>Io</STRONG>だったのです。というのも、インターネットでざっくり検索したら、<STRONG>lo</STRONG>で間違っているページが幾つも見つかったのですもの。(私は当初<STRONG>lo</STRONG>で書いて 効果が全く出ずに 大変不思議に思ったから 特にそのように思います)</FONT>
+  <LI>アクセス日時の更新をOFF : NtfsDisableLastAccessUpdate<BR>
+  デフォルト : なし<BR>
+  <FONT size="-1" color="#ff0000">★</FONT><FONT size="-1"> ずいぶんI/O削減効果が出るように感じました。なにせOSデフォルト状態では
+  ファイルの読み込みだけなのに書き込みが発生するのですから。ファイル読み込みだけでもプリプリとHDDアクセスが発生してしまうデフォルト状態に比べると
+  ものすごく良いです。そしてそのデフォルト挙動は ふつうに(unix的に)考えると
+  とても悪いことですよねぇ。</FONT>
+</UL>
+<P>あと、書き込みキャッシュ遅延とか あるはずなんだけれども、ちょっと見つけられず…。というか
+あんましきわどいチューニングは止めておきましょう (苦笑)</P>
+<P><FONT color="#ff0000">2001/12/01</FONT> <A HREF="http://www.angelwaltz.net/" TITLE="いがぴょんの日記に いつもツッコミをして下さる方。">林信一</A>さんからツッコミ<BR>
+<CITE>こんにちは、林です。<BR>
+偶然ですが、私もXPへ開発環境をしています。<BR>
+ドキュメント作らないといけないのですが、officeがすこぶる不調で、仕方なくHD増設してXPをインストールしています。<BR>
+今までの環境は、NT３．５１からアップグレードを続けてきたWin2000だったからか、HDの速度の違いか、体感速度が格段にアップしました（苦笑）<BR>
+また、こんなページもみつけました。高速化などいろいろあります。QAとしてもなかなかいい感じです。</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://pc-information.com/">http://pc-information.com/</A></CITE>
+</UL>
+<P><CITE>では。</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>導入ソフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>秀丸エディタ
+  <LI>鶴亀メール
+  <LI>LHMelting
+  <LI>プリンタドライバ (CANON BJ F660)
+  <LI>Matrox G400 ディスプレイドライバ<BR>
+  (Matroxからダウンロードの最新版)
+  <LI>たいむぼっか～ん<BR>
+  Windows XP 付属のNTPクライアントは イマイチでした
+  <LI>Googleツールバー for IE
+  <LI>一太郎V11
+  <LI>ウィルスバスター2001<BR>
+  (インストール直後に最新版へネットワーク経由で更新)
+  <LI>IBM ホームページビルダー V6 (アップグレード版)
+  <LI>IBM WorkPad Desktop<BR>
+  ただし HotSyncプログラムの常駐時には CPU消費バグが発生してしまう模様なのですが…<BR>
+  →Palm Desktop 4.0.1がPalmからダウンロード可能になっていて、これを利用したら、CPU消費バグは改善されて、大変快適になりました。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Windows XP 上で動作しなかったソフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI><STRONG><FONT color="#ff0000">×</FONT></STRONG>Adaptec Easy CD Creator 4 (結構昔から愛用してきたもの)<BR>
+  仕方がないのでバージョンアップ版の購入を検討。なれど XP対応 Easy CD Creator
+  5 は いつ出てくるのだろうか… (苦笑)<BR>
+  # 後日談: Windows XP側にパッチを当てたら動作した可能性があります…。今さら知っても…
+  <LI><STRONG><FONT color="#ff0000">×</FONT></STRONG>B's Recorder GOLD 1.99 (CD-R購入時に付いてきたもの)
+</UL>
+<P>CD-R焼き付けソフトは 悲しいかな予想通り全滅です。<BR>
+昔購入したバージョンを ず～っと使い続けるというのは 難しいことなのですね
+(T_T)</P>
+<P><FONT color="#ff0000">2002/02/15</FONT> 読者の方からツッコミ<BR>
+<CITE>わらやです。いつもどうもです。<BR>
+ツッコミというより、情報なのですが・・・<BR>
+いがぴょんさんは「Windows XP 上で動作しなかったソフト」として「B's Recorder
+GOLD 1.99」をあげてらっしゃいますが、このソフトは確か無償で3.19(2/15時点)にバージョンアップすることができ,かつこれはWindowsXPに対応しているようです。</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://www.bha.co.jp/download/gold_w/index.html">http://www.bha.co.jp/download/gold_w/index.html</A></CITE>
+</UL>
+<P><CITE>私自身はXPにまだ触れたことがないので本当に動作するかはわからないのですが。<BR>
+BHAは無償で(現在のところ)最新版にバージョンアップしてくれるので個人的にはスキです。というか、商売っ気がないですね。<BR>
+ではでは。</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>感想</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows 2000に比べて I/O周りの体感速度が向上しています。というのも バスマスタI/Oとか
+まじめに設定せずに OS認識のまま利用することが多かったので、デフォルトで
+バスマスタI/Oなどを自動認識する Windows XP は Windows 2000に比べると I/O周りが高速なのです。結構
+気に入ってきました。</P>
+<P>ただし タスクマネージャを呼びだしたときの反応速度などは低下しているようです。これは不満。OSのタイムスライスが長く設定されている？
+のでしょうか。# いいかげんな事を言ったらいけませんが :-P<BR>
+あと やっぱり Windows 2000 に比べると安定感が低下しているように思います。</P>
+<P>特に気に入ったのは 『リモートデスクトップ』機能です。これは<STRONG>欲しい</STRONG>機能です。VNCとはひと味違った Xサーバ的挙動が とっても気に入りました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>更新履歴</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>2004/10/11 Windows XP SP2に関する説明を ほんの少しだけ追記
+  <LI>2002/02/15 バグ修正
+  <LI>2001/11/30 新規作成
+</UL>
+<P>
+<HR>
+<address><A HREF="memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:51 $</address>
+
+</P>
+</BODY>
+</HTML>
