@@ -44,11 +44,18 @@ public class ConvertSrcMd2Md {
 
 	void processFile(final File file) throws IOException {
 		final List<String> lines = FileUtils.readLines(file, "UTF-8");
+
+		String firstH2Line = null;
 		for (String line : lines) {
+			if (firstH2Line == null) {
+				if (line.startsWith("## ")) {
+					firstH2Line = line.substring(3);
+				}
+			}
 			// System.out.println(" " + line);
 		}
 
-		lines.add(0, "2010-09-27 diary: よれよれ");
+		lines.add(0, "2010-09-27 diary: " + firstH2Line);
 		lines.add(1,
 				"=====================================================================================================");
 		lines.add(2,
