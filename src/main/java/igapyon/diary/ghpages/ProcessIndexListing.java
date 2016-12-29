@@ -9,9 +9,13 @@ import org.apache.commons.lang3.StringUtils;
 
 public class ProcessIndexListing {
 	public void process(final File fileTarget, final List<DiaryItemInfo> diaryItemInfoList) throws IOException {
+		String wrk = "";
+		for (DiaryItemInfo itemInfo : diaryItemInfoList) {
+			wrk += "* [" + itemInfo.getTitle() + "](" + itemInfo.getUri() + ")\n";
+		}
+
 		final String origin = FileUtils.readFileToString(fileTarget, "UTF-8");
-		final String target = StringUtils.replace(origin, "{igapyon.diary.ghpages.dialylist}",
-				"aaaaaaaaaaaaaaaaaaaa");
+		final String target = StringUtils.replace(origin, "{igapyon.diary.ghpages.dialylist}", wrk);
 		FileUtils.writeStringToFile(new File("README.md"), target, "UTF-8");
 	}
 }
