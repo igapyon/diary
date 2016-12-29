@@ -11,6 +11,9 @@ import org.w3c.dom.NodeList;
 
 import igapyon.diary.ghpages.DiaryItemInfo;
 
+/**
+ * 基本的に、移行バッチとして一度のみ実行。
+ */
 public class HatenaXml2Md {
 	public static final void main(final String[] args) throws IOException {
 		new HatenaXml2Md().processFile(new File("/tmp/igapyon.xml"), new File("."));
