@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/11/26 日記: TERASOLUNA Server Framework for Java (Web版) 調べ中</TITLE>
+<META name="DESCRIPTION" content="インターネット上で公開されている範囲の情報で TERASOLUNA Server Framework for Java (Web版) を調べ中です。">
+<META name="KEYWORDS" content="TERASOLUNA,Server,Framework,Java,Web,Struts">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/11/26 日記: TERASOLUNA Server Framework for Java (Web版) 調べ中</H2>
+    <P>[TERASOLUNA,Server,Framework,Java,Web,Struts] インターネット上で公開されている範囲の情報で TERASOLUNA Server Framework for Java (Web版) を調べ中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TERASOLUNA Server Framework for Java (Web版) 調べ中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>インターネット上で<STRONG>公開されている範囲</STRONG>の情報で TERASOLUNA Server Framework for Java (Web版) を調べ中です。</P>
+<UL>
+  <LI>TERASOLUNAフレームワーク<BR>
+  <A HREF="http://terasoluna.sourceforge.jp/">http://terasoluna.sourceforge.jp/</A>
+  <LI>TERASOLUNA Server Framework for Java (Web版)<BR>
+  <A HREF="http://sourceforge.jp/projects/terasoluna/wiki/Server_Framework_for_Java_Web">http://sourceforge.jp/projects/terasoluna/wiki/Server_Framework_for_Java_Web</A>
+  <LI>＠IT連載記事: オープンソースTERASOLUNAで作るWebアプリ
+  <UL>
+    <LI><A href="http://www.atmarkit.co.jp/fjava/rensai4/teraweb01/teraweb01_1.html">(1) Strutsの諸問題を解決するWebフレームワークとは？</A>
+    <LI><A href="http://www.atmarkit.co.jp/fjava/rensai4/teraweb02/teraweb02_1.html">(2) Hello World！で理解する、Webアプリ開発の分業化</A>
+  </UL>
+</UL>
+<P><STRONG><FONT color="#ff00ff">BLogic</FONT></STRONG></P>
+<P>TERASOLUNA の該当するチュートリアルには 「BLogicインタフェース」と「POJOビジネスロジック」という 2 通りの実装方法が存在すると紹介されています。とりあえず、どちらを利用したらよいのか悩みます。<BR>
+＠IT記事 <A href="http://www.atmarkit.co.jp/fjava/rensai4/teraweb02/teraweb02_1.html">(2) Hello World！で理解する、Webアプリ開発の分業化</A> には、BLogicインタフェースによる実装方法が紹介されています。こちらがお勧めなのだと理解しました。また、ざっとドキュメントを見たところの範囲では、BLogicインタフェースを
+implements する実装方法のほうが クラス数やソースコード行数が少なくて済むように読み取れました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>＠IT記事に従って TERASOLUNA を試してみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.atmarkit.co.jp/fjava/rensai4/teraweb02/teraweb02_1.html">(2) Hello World！で理解する、Webアプリ開発の分業化</A> の記事に従って TERASOLUNA を試してみました。</P>
+<P><STRONG><FONT color="#ff0000">記事バグかしら(?)</FONT></STRONG></P>
+<P>記事にしたがってプログラムを作ってみたのですが、残念なことに、<STRONG>うまく動作しませんでした</STRONG>。<BR>
+悶絶… (苦笑)</P>
+<P>以下の点が記事バグと思われました。</P>
+<UL>
+  <LI><A HREF="http://www.atmarkit.co.jp/fjava/rensai4/teraweb02/teraweb02_2.html">http://www.atmarkit.co.jp/fjava/rensai4/teraweb02/teraweb02_2.html</A><BR>
+  →「リスト4 struts-config.xmlのaction-mapping要素の設定」<BR>
+  こちらの題名ですが、タイトル誤りと思われます。struts-config.xml ではなく moduleContext.xml が正しいものと読み取りました。(そうでないと
+  内容のつじつまが合いません)<BR>
+  (☆リスト3 のタイトルを そのままコピーした間違いのように見えます)
+  <LI>同じく リスト4 の中の以下の記述について<BR>
+  <TABLE border="1">
+    <TBODY>
+      <TR>
+        <TD>
+        <pre>&lt;bean class=&quot;sample.concatBLogic&quot;
+  id=&quot;concatBLogic&quot; scope=&quot;singleton&quot; /&gt;</pre>
+        </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  「sample.concatBLogic」→「sample.ConcatBLogic」の間違いであるように見えます。ConcatBLogic
+  の最初の文字は大文字じゃないと、クラス名と XML内記述とのずれが発生してしまい、動作しません。(この手の XMLファイルは 大文字／小文字間違いは致命的なのです)
+</UL>
+<P>一方、上記 2箇所の間違いを修正したら、プログラムは動くようになりました。<BR>
+☆関係者のどなたか、事実関係を確認の上 ＠IT編集部に修正依頼を出して欲しいです (意図的に間違えて 読者の力量をはかろうという意図では無いですよね…)</P>
+<P>上記２点を修正すると、はれて動作するようになります。、、、動作するのですが、一点の問題が残っています…。入力テキストに英文字を入れている間は問題ありません。ところが、入力テキストに日本語を入力しようとした途端、なぜか、文字化けしてしまいます
+(悶絶 x2)。まあ、この手の文字化けは、私はビミョウに詳しいので、何とか解決できるだろうとは思いますが…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

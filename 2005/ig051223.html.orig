@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/23 日記: ValueObjectを適切に用いていない blancoValueObjectプロジェクト</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの次期ロードマップに従い、まずは blancoValueObjectについて JUnitコードの自動生成に着手しました。そこでびっくり、blancoValueObjectのソースコードそのものが、ValueObjectを適切に利用していないことが発覚しました。純粋に私の赤っ恥です (苦笑)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/23 日記: ValueObjectを適切に用いていない blancoValueObjectプロジェクト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの次期ロードマップに従い、まずは blancoValueObjectについて JUnitコードの自動生成に着手しました。そこでびっくり、blancoValueObjectのソースコードそのものが、ValueObjectを適切に利用していないことが発覚しました。純粋に私の赤っ恥です (苦笑)</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ValueObjectを適切に用いていない blancoValueObjectプロジェクト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blanco Frameworkの次期ロードマップに従い、まずは blancoValueObjectについて JUnitコードの自動生成に着手しはじめました。現在は開発中でして、java.lang.String型のフィールドに対する単体試験
+(JUnit)が やっと自動生成されるようになったところです。</P>
+<UL>
+  <LI><A href="ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+</UL>
+<P>その対応をしていてびっくりしたのですが、blancoValueObjectのソースコードそのものが、ValueObjectを適切に利用していないことが明らかになりました。現状の
+blancoValueObjectのプログラミングは 基本的に私が担当しました。この恥ずかしい実装は私のせいです。反省しました。</P>
+<P>しかし、この事象を もう少し深く掘り下げて考えてみたところ、そもそも blancoValueObjectが 定義書様式に対応していなくて、そして私が簡単に活用できなかったという点が本質的な問題であろうことが理解できてきました。現時点での
+ValueObjectの自動生成は XMLファイルのみを入力ファイルとしていました。blancoDbやblancoCsv そしてblancoSOAPから呼び出されるだけの用途であれば、それだけで事足りると考えていたし、実際にそうだったからです。しかし
+これを XLS形式の定義書様式に対応することで、少なくとも私が ValueObjectを適切に利用できるようになることが期待できます。簡単にすることにより私のプログラミングが
+おのずと適正化されるのです。</P>
+<P>そういえば、昔のバージョンの blancoResourceBundleのソースコードはリソースバンドルに対応していませんでした。blancoResourceBundleのプログラミングも
+基本的に私が担当しました。あれも 恥ずかしい実装だったので、大急ぎで blancoResourceBundleを blancoResourceBundleに対応
+(つまりはリソースバンドル対応) させた記憶がよみがえってきました。なお、blancoAntTaskは 適切に blancoAntTask対応しています。</P>
+<P><FONT color="#ff0000">2005.12.26追記</FONT> blancoValueObjectは 適切に ValueObjectを利用するように修正しました。その作業に併せて、ValueObjectのJUnitテストコードの自動生成機能を試作しました。</P>
+<UL>
+  <LI>BlancoValueObjectClassStructureバリューオブジェクト
+  <UL>
+    <LI>バリューオブジェクト定義<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/meta/program/BlancoValueObjectClassStructure.xls">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/meta/program/BlancoValueObjectClassStructure.xls</A>
+    <LI>自動生成されるJavaソースコード<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/main/blanco/valueobject/valueobject/BlancoValueObjectClassStructure.java">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/main/blanco/valueobject/valueobject/BlancoValueObjectClassStructure.java</A>
+    <LI>自動生成されるJUnit用Javaソースコード<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/test/blanco/valueobject/valueobject/BlancoValueObjectClassStructureTest.java">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/test/blanco/valueobject/valueobject/BlancoValueObjectClassStructureTest.java</A>
+  </UL>
+  <LI>BlancoValueObjectFieldStructureバリューオブジェクト
+  <UL>
+    <LI>バリューオブジェクト定義<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/meta/program/BlancoValueObjectFieldStructure.xls">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/meta/program/BlancoValueObjectFieldStructure.xls</A>
+    <LI>自動生成されるJavaソースコード<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/main/blanco/valueobject/valueobject/BlancoValueObjectFieldStructure.java">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/main/blanco/valueobject/valueobject/BlancoValueObjectFieldStructure.java</A>
+    <LI>自動生成されるJUnit用Javaソースコード<BR>
+    <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/test/blanco/valueobject/valueobject/BlancoValueObjectFieldStructureTest.java">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObject/blanco/test/blanco/valueobject/valueobject/BlancoValueObjectFieldStructureTest.java</A>
+  </UL>
+</UL>
+<P>JUnit用Javaソースコード自動生成は 意外にも手間がかかりました。たったこれだけの型に対応するために半日以上も時間がかかってしまいました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoConcreteSaxの利点と欠点 → blancoConcreteXPath構想へ…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blancoの多くのプロダクトは blancoConcreteSaxをベースに作成されています。blancoConcreteSaxの良いところは、XML構造の変更が
+Javaのコンパイラに適切に伝達されることです。すなわち XML構造と Javaソースコードとがずれているとコンパイルエラーが発生するようになっています。むろん
+SAXベースであるので 量が増えたときに DOMベースよりも圧倒的に高速に動作する点も魅力です。<BR>
+これはこれで良いのですが、一方で XML構造の変更が入ると Javaのソースコードが大幅に変更が必要になる場合があることです。実際に運用していて
+それが面倒だと感じることもあります。(修正漏れが確実に防止できているので 良いと言えば良いのですけれども…) そこで 間を取って DOMベースの具象化ができないかどうか構想中です。すなわち
+XPath指定をもとに DOMアクセサのJavaソースコードを自動生成するのです。こうすると DOMベースになるぶん速度低下が発生してしまうことは予想されますが、一方でXPath単位でのアクセサ提供になるので、変更点が確実にコンパイルエラーで補足できるとともにXML構造に変更が入った場合の修正量を少なくすることが出来ます。…暇なときにでもつくりたいと思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoEclipseInstallerのバージョンアップ予定…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WTP 1.0のリリースにともない、blancoEclipseInstallerもバージョンアップしようと思っています。合わせて blancoEclipseInstallerに含まれる
+blanco Frameworkの各モジュールもバージョンアップしていきたいです。年内には対応したいですが、忙しいので手が回らないかも知れません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

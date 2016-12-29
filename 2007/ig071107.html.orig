@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/11/07 日記: Java: プロパティ、ログ</TITLE>
+<META name="DESCRIPTION" content="Javaのプロパティ、ログについて調べ中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/11/07 日記: Java: プロパティ、ログ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Javaのプロパティ、ログについて調べ中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: プロパティ、ログ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Java: プロパティ、ログについて調べ中。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>プロパティ、リソースバンドル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>プロパティ</P>
+<P>リソースバンドル</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ログ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふつうは Jakarta Log4Jを使うなぁ…</P>
+<P><FONT color="#ff0000">2007.11.08追記</FONT> ざっくりと java.util.logging を調べ中。</P>
+<UL>
+  <LI>TODO ログレベルによるログ出力コードのON/OFF
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">LogSample3.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.IOException;
+import java.io.InputStream;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+public class LogSample3 {
+    /**
+     * ログ設定プロパティファイルのファイル名。
+     */
+    protected static final String LOGGING_PROPERTIES = &quot;javalog.properties&quot;;
+    static {
+        // クラスパスの中から ログ設定プロパティファイルを取得。
+        // java起動時に外から与える方法もある！
+
+        // static initializer によるログ設定の初期化。
+        final Logger log = Logger.getLogger(&quot;LogSample3&quot;);
+        log.fine(&quot;ログ設定: &quot; + LOGGING_PROPERTIES + &quot; をもとにログを設定します。&quot;);
+        final InputStream inStream = LogSample3.class.getClassLoader()
+                .getResourceAsStream(LOGGING_PROPERTIES);
+        if (inStream == null) {
+            log.info(&quot;ログ設定: &quot; + LOGGING_PROPERTIES + &quot; はクラスパス上に見つかりませんでした。&quot;);
+        } else {
+            try {
+                LogManager.getLogManager().readConfiguration(inStream);
+                log.info(&quot;ログ設定: &quot; + LOGGING_PROPERTIES
+                        + &quot; をもとに LogManagerを設定しました。&quot;); // or configレベルか(?)
+            } catch (IOException e) {
+                log.warning(&quot;ログ設定: &quot; + LOGGING_PROPERTIES
+                        + &quot; による LogManager設定の際に例外が発生しました。:&quot; + e.toString());
+            }
+            try {
+                inStream.close();
+            } catch (IOException e) {
+                log.severe(&quot;ログ設定: ログ設定プロパティファイルのストリームクローズ時に例外が発生しました。:&quot;
+                        + e.toString());
+            }
+        }
+    }
+
+    private void process() {
+        final Logger log = Logger.getLogger(&quot;LogSample3&quot;);
+        log.entering(LogSample3.class.toString(), &quot;main&quot;);
+
+        log.finest(&quot;ふつー:&quot; + Level.FINEST.intValue());
+        log.finer(&quot;ふつー:&quot; + Level.FINER.intValue());
+        log.fine(&quot;ふつー:&quot; + Level.FINE.intValue());
+        log.config(&quot;config:&quot; + Level.CONFIG.intValue());
+        log.info(&quot;ちょっとした情報。:&quot; + Level.INFO.intValue());
+        log.warning(&quot;ちょっとやばい:&quot; + Level.WARNING.intValue());
+        log.severe(&quot;まずい:ERRORレベル(?):&quot; + Level.SEVERE.intValue());
+
+        log.exiting(LogSample3.class.toString(), &quot;main&quot;, &quot;&quot; + Level.FINER.intValue());
+    }
+
+    public static void main(String[] args) {
+        new LogSample3().process();
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>プロパティファイルをソースコードから与える方法。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+public class LogSample4 {
+    /**
+     * ログ設定プロパティファイルのファイル内容。
+     */
+    protected static final String LOGGING_PROPERTIES_DATA = &quot;handlers= java.util.logging.ConsoleHandler\n&quot;
+            + &quot;.level=FINEST\n&quot;
+            + &quot;java.util.logging.ConsoleHandler.level=FINEST\n&quot;
+            + &quot;java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter&quot;;
+    static {
+        // ログ設定プロパティファイルを取得。
+
+        // static initializer によるログ設定の初期化。
+        final Logger log = Logger.getLogger(&quot;LogSample&quot;);
+        log.fine(&quot;ログ設定: ログを設定します。&quot;);
+        InputStream inStream = null;
+        inStream = new ByteArrayInputStream(LOGGING_PROPERTIES_DATA.getBytes());
+
+        try {
+            LogManager.getLogManager().readConfiguration(inStream);
+            log.config(&quot;ログ設定: LogManagerを設定しました。&quot;);
+        } catch (IOException e) {
+            log.warning(&quot;ログ設定: LogManager設定の際に例外が発生しました。:&quot; + e.toString());
+        }
+        try {
+            inStream.close();
+        } catch (IOException e) {
+            log.severe(&quot;ログ設定: ログ設定プロパティファイルのストリームクローズ時に例外が発生しました。:&quot;
+                    + e.toString());
+        }
+    }
+
+    private void process() {
+        final Logger log = Logger.getLogger(&quot;LogSample&quot;);
+        log.entering(LogSample4.class.toString(), &quot;main&quot;);
+
+        log.finest(&quot;ふつー:&quot; + Level.FINEST.intValue());
+        log.finer(&quot;ふつー:&quot; + Level.FINER.intValue());
+        log.fine(&quot;ふつー:&quot; + Level.FINE.intValue());
+        log.config(&quot;config:&quot; + Level.CONFIG.intValue());
+        log.info(&quot;ちょっとした情報。:&quot; + Level.INFO.intValue());
+        log.warning(&quot;ちょっとやばい:&quot; + Level.WARNING.intValue());
+        log.severe(&quot;まずい:ERRORレベル(?):&quot; + Level.SEVERE.intValue());
+
+        log.exiting(LogSample4.class.toString(), &quot;main&quot;, &quot;&quot;
+                + Level.FINER.intValue());
+    }
+
+    public static void main(String[] args) {
+        new LogSample4().process();
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

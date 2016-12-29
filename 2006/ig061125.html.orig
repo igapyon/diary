@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/25 日記: 第２世代 blancoDb を設計中…</TITLE>
+<META name="DESCRIPTION" content="SQL定義書、モジュール構成、内部構造などを考察中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/25 日記: 第２世代 blancoDb を設計中…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] SQL定義書、モジュール構成、内部構造などを考察中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb を設計中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>第２世代 blancoDbの設計をしはじめています。ようやっと最近 考えがまとまってきました。モジュール構成や内部構造について、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>を実プロジェクトに投入したうえでの
+さまざまなノウハウをもとに、効果的なモジュール分割や内部構造を再設計できることを期待しています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQL定義書の改善案</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>SQL定義書について、プログラミング言語非依存化する。
+</UL>
+<P>DSL実装のひとつとして blancoDbを見た場合、対象とするものはリレーショナルデータベースやSQLです。このため、プログラミング言語非依存化し、登場する用語もリレーショナルデータベース関連用語だけにするのが望ましいと考えています。定義書をプログラミング言語非依存にすることにより、SQL定義書記入者に求められるスキルを
+より限定することができ、導入コスト削減が期待できます。</P>
+<P>具体的には、下記のような改良が考えられます。</P>
+<UL>
+    <LI>SQL入出力パラメータの型指定について、データベースの論理型を指定。<BR>ただし、ドロップダウンについて従来の型表現も残しておいて互換性確保は実施したい。
+    <LI>SQL入出力パラメータに 非NULLを指定する列を追加。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb のモジュール構成設計</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>第２世代 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> のモジュール構成は 下記のような分割が妥当かと考えています。</P>
+<UL>
+  <LI>データベースから表情報を抽出する。
+  <UL>
+    <LI>blancoDbMetaData が担当
+    <LI>プログラミング言語に非依存
+  </UL>
+  <LI>データベースの表情報をもとに、単一表アクセス用SQLを作成する。
+  <UL>
+    <LI>blancoDbSimpleTable (?) (名称は未決定)
+    <LI>プログラミング言語に ほぼ 非依存。ただし、プログラミング言語によって SQLの作成・非作成などを切りかえる能力は必要。
+  </UL>
+  <LI>SQL定義書(*.xls形式) を読み込んで XMLファイルに変換する。
+  <UL>
+    <LI>blancoDb本体、あるいは これも別モジュールにすべきかどうか検討。blancoDbForm (?) (名称は未決定)
+    <LI>プログラミング言語に ほぼ 非依存<BR>
+    非依存になるかどうかは様式の内容次第。依存度によって別モジュール化するかどうかの最終的な判断がなされる。
+  </UL>
+  <LI>SQL文をデータベースに対して試し打ちをし、SQL文に関するメタ情報を取得する。
+  <UL>
+    <LI>blancoDbMetaData が担当
+    <LI>プログラミング言語に ほぼ 非依存
+  </UL>
+  <LI>SQL文に対するメタ情報をもとに、ソースコードを自動生成する。
+  <UL>
+    <LI>blancoDb本体。あるいは、Java版 blancoDbとでも呼ばれる
+    <LI>プログラミング言語に依存
+  </UL>
+</UL>
+<P>このうち、blancoDbMetaData については既に実装は終わっています。blancoDbMetaData は、全く最初から書きおろしました。一から書き下ろしたことにより、とても多くのことを学ぶことができました。ちなみに、blancoDbMetaDataを利用すると
+表定義エクスポートツールのようなものが、ごく簡単に作成できます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb の内部構造</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>現在 プログラミング言語型で駆動している内部構造を、java.sql.Types ベースへと変更。
+  <LI>マッピングについて、クラス一箇所に集合させて 可読性を向上させる。あるいはそもそも マッピングを blancoStringConverter定義化して外部化する。<BR>
+  → java.sql.Types と プログラミング言語型 とのマッピングを blancoStringConverterベースに移行。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

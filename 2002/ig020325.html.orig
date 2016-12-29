@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/03/25 日記: 今日もOracle会</TITLE>
+<META name="DESCRIPTION" content="いやがおうにも少しずつOracleに詳しくなってきてます">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/03/25 日記: 今日もOracle会</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] いやがおうにも少しずつOracleに詳しくなってきてます</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日もOracle会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日もOracle会でした。<BR>
+Windows 2000 のパフォーマンスモニタの物理I/Oとにらめっこしていました。改めて
+ロールバック領域と表領域とは ぜったい別の物理デバイスであるべきとの認識を得ました。社内のORACLE専門家から
+いろいろ配置方法を教えて貰いました。<BR>
+# Oracleの難しげなログに関する技能については 依然 全く使う能力を持っていません。また
+あまり覚えたく無いなぁ、と思いつつ まずはパフォーマンスモニタとにらめっこ
+:-P</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>夜間に営業している耳鼻科 (救急)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>和音(子ども)が中耳炎にかかりやすいので、たまに救急で営業している耳鼻科を持った病院
+『<A href="http://www4.ocn.ne.jp/~oj-ikai/er-map.htm">中央急病診療所</A>』のお世話になることがあります。大阪府内では (少なくとも豊中市を起点に考えると) <A href="http://www4.ocn.ne.jp/~oj-ikai/er-map.htm">中央急病診療所</A> くらいしか救急の耳鼻科は無い模様です。<BR>
+今日も和音は耳が痛いと泣き出してしまいました。22時から営業とのことなので、21頃になったら車で出かけようと思います。関連して
+<A href="http://www4.ocn.ne.jp/~oj-ikai/index.html">大阪府耳鼻咽喉科医会</A> のホームページを見つけました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

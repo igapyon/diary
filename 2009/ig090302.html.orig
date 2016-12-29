@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/02 日記: GlassFish Server 2.1 インストール手順 (Windows 版)</TITLE>
+<META name="DESCRIPTION" content="GlassFish Server 2.1 のインストール手順を簡単にメモしました。">
+<META name="KEYWORDS" content="GlassFish,Server,2.1,install,インストール,手順,セットアップ,Windows">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/02 日記: GlassFish Server 2.1 インストール手順 (Windows 版)</H2>
+    <P>[GlassFish,Server,2.1,install,インストール,手順,セットアップ,Windows] GlassFish Server 2.1 のインストール手順を簡単にメモしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1 インストール手順 (Windows 版)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>※この日記は実際には <FONT color="#ff0000">2009-03-03</FONT> に記述されました。</P>
+
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish は、Java EE 実装のオープンソース・アプリケーション・サーバです。Java EE プラットフォームには、JavaServer Pages (JSP)、JavaServer Faces (JSF)、Servlet、Enterprise JavaBeans (EJB)、Java API for Web Services(JAX-WS)、Java Architecture for XML Binding (JAXB) などが含まれます。">GlassFish</A> Server 2.1 を Windows XP にインストールする手順を簡単にメモしました。</P>
+<P><FONT color="#ff00ff">インストール準備</FONT></P>
+<P>あらかじめ Java SDK をセットアップしておきます。</P>
+<P>次に、GlassFish のインストール・モジュールを手に入れます。2009-03-03時点の最新安定版は 2.1 (2009-01-23 リリース)
+となっているので、これを利用します。</P>
+<UL>
+  <LI>GlassFish<BR>
+  <A HREF="https://glassfish.dev.java.net/ja/">https://glassfish.dev.java.net/ja/</A>
+</UL>
+
+<P>そして、GlassFish をインストールするディレクトリを準備します。ここでは「glassfishv2」という名前のディレクトリとすることとします。<BR>※空白を含まないディレクトリを指定するのが得策のようです。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>次に、そのディレクトリに GlassFish のインストール jar ファイルを配置します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf001.png" border="0"></BLOCKQUOTE>
+<P><FONT color="#ff00ff">インストール開始</FONT></P>
+<P>それではいよいよ、インストール jar を実行します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2&gt;<STRONG>java -Xmx256m -jar glassfish-installer-v2.1-b60e-windows-ml.jar</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf002.png" border="0"></BLOCKQUOTE>
+<P>すると、ライセンス条項への同意を求める画面が開きます。<BR>
+内容を読みながらスクロールつまみを使って一番下までスクロールさせると「Accept」ボタンが有効になります。<BR>
+ライセンス条項を同意できる場合には「Accept」ボタンを押下してください。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf003.png" border="0"></BLOCKQUOTE>
+<P>「Accept」を押下すると、モジュールの展開処理が動作します。<BR>
+「installation complete」が表示されたらインストール完了です。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf004.png" border="0"></BLOCKQUOTE>
+<P>続いて、インストール直後のセットアップ処理をおこないます。</P>
+<P>インストールによって作成された glassfish ディレクトリに移動します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2&gt;<STRONG>cd glassfish</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ant を使って、setup.xml を処理します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2\glassfish&gt;<STRONG>lib\ant\bin\ant -f setup.xml</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf005.png" border="0"></BLOCKQUOTE>
+<P>一連のセットアップ処理が動作し、最後に「BUILD SUCCESSFUL」が表示されたらセットアップ処理完了となります。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf006.png" border="0"></BLOCKQUOTE>
+<P>※こういった処理過程のメッセージについても日本語化済みであるというのは、とても嬉しいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1 起動手順</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff00ff">ドメインの起動</FONT></P>
+<P>それでは、いよいよ GlassFish サーバを動作させてみましょう。</P>
+<P>bin ディレクトリに移動します。<BR>※正しくは glassfish/bin ディレクトリーにパスを通すのが正しい方法です。ここでは その手順を割愛しています。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2\glassfish&gt;<STRONG>cd bin</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>asadmin コマンドを利用してドメインを起動します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2\glassfish\bin&gt;<STRONG>asadmin start-domain</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf011.png" border="0"></BLOCKQUOTE>
+<P>起動処理がすべて一段落すると、コマンドプロンプトが戻ってきます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf012.png" border="0"></BLOCKQUOTE>
+<P><FONT color="#ff00ff">管理コンソール</FONT></P>
+<P>それでは、管理コンソールに接続してみましょう。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>http://localhost:4848/</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※本来は、「localhost」ではなく適切なドメイン名であるのが望ましいです。特に OpenSSO などと併用する場合には「localhost」のままだと不都合が生じる場合があるので、hosts
+ファイルを編集するなどしてドメイン名を指定するようにする必要があります。</BLOCKQUOTE>
+<UL>
+  <LI>ユーザー名: admin
+  <LI>パスワード: adminadmin<BR>
+  ※セットアップ直後のデフォルトです。実際に運用するサーバでは、パスワードなどを適切に変更するようにしましょう。
+</UL>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf013.png" border="0"></BLOCKQUOTE>
+<P>ログインが成功すると以下のような画面が表示されます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf014.png" border="0"></BLOCKQUOTE>
+<P>ここで、画面上に広がる「登録してください」画面を操作できなくて困る場合があります。(私は困りました。この状況ですが、翻訳作業の結果としてメッセージ文字列が長くなってしまい、画面からダイアログがはみ出してしまったために発生しているものと想像します)<BR>
+スクロールつまみを使うと、以下のように「登録してください」画面のボタンが表示されます。あなたが希望する内容のボタンを選択して下さい。すると、この画面は閉じられます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf015.png" border="0"></BLOCKQUOTE>
+<P>あとは、一般的な Web アプリケーション・サーバーの管理コンソールと同様の操作によって利用していくことができます。<BR>
+※以下は Web アプリケーションのデプロイなどを行う画面です。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090302gf016.png" border="0"></BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1 停止手順</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>GlassFish を停止するには、以下のコマンドを実行します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\glassfishv2\glassfish\bin&gt;<STRONG>asadmin stop-domain</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<p><font color="#ff00ff">関連する日記</font></p>
+<ul>
+  <li><a href="ig091217.html">2009/12/17 日記: GlassFish v3 インストール手順 (Windows 版)</a>
+</ul>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

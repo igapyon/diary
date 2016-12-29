@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</TITLE>
+<META name="DESCRIPTION" content="blanco単体試験項目表自動生成(名称検討中), blancoJUnitは年内にも開発しそうです , 今朝の NHK総合テレビ おはよう日本において、静岡の あるプラモデルメーカーのガンプラ工場が放映されていました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco単体試験項目表自動生成(名称検討中), blancoJUnitは年内にも開発しそうです , 今朝の NHK総合テレビ おはよう日本において、静岡の あるプラモデルメーカーのガンプラ工場が放映されていました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[blanco] Frameworkの一部として提案されている blanco単体試験項目表自動生成(名称検討中), blancoJUnitは
+どうやら年内にも開発に着手することになりそうです。仕事上の身近な人々からは「ぜひ作るべき」との反応を得ました。</P>
+<UL>
+  <LI>blanco単体試験項目表自動生成(名称検討中)<BR>
+  単体試験項目表をプログラムから自動生成。単体試験工程の劇的な生産性向上をはかります。ただし初版についてはツール自体の使い方は かなり難易度の高いものになる予定です。
+  <LI>blancoJUnit<BR>
+  JUnitソースコードから単体試験項目表を自動生成。Antタスクを呼び出すだけで、単体試験項目表が ずんどこ自動生成されるようなツールです。
+</UL>
+<P>現在 [blanco] Frameworkのコアメンバーからの最終的な合意を待つステータスです。</P>
+<P><FONT color="#ff0000">2005.12.01追記</FONT> 名称については継続して悩み中です。blancoDocListingという名前で、「ドキュメント一覧」作成機能というのが既に存在しますが、これとの名称の一貫性を考えてみると、blancoDocJUnitとか
+blancoDocUnitTestGeneratorといった名称を付与するのが妥当な気もしてきます。…と徒然に考え中です。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig051115.html">2005/11/15 日記: blancoJUnitの提案 , blancoApacheDistributionの構想</A>
+  <LI><A href="ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoAntTask</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Antタスクを作っていると、ファイルをコピーペーストしたうえで、Eclipseの力を使ってセッター・ゲッターを自動生成する手順が私にとっては一般的です。ということで、[blanco]
+Frameworkに blancoAntTaskというものをプロジェクト提案します。</P>
+<UL>
+  <LI>タスク名
+  <LI>サフィックス
+  <LI>オプション名、必須ON/OFF
+</UL>
+<P>これら情報をもとに、Antタスクの抽象親クラスを自動生成させることを目的としたツールです。</P>
+<P><FONT color="#ff0000">関係する日記</FONT></P>
+<UL>
+  <LI><A href="ig051210.html">2005/12/10 日記: blancoAntTask の効能</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NHK総合 おはよう日本にて、ガンプラ工場が放映される</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今朝の NHK総合テレビ おはよう日本 (AM 08:00前後) において、静岡の あるプラモデルメーカーのガンプラ工場が放映されていました。CAD上のガンダムのパーツや
+金型職人さんがドムの金型を造っているところなどがアップで映っていました。</P>
+<P>ニュースの主題は「原油高に対応するための玩具メーカーの工夫。パーツのスリム化などによる原料削減」といった話題だったのですが、カメラさんのアングルは
+ひたすらガンプラ・ガンプラ金型・ガンプラ金型職人さんへとそそがれていました。ああ、すばらしい。<BR>
+ガンプラの金型作成過程において、人手による細部へのやすりがけなどの工程があるということを 映像で まのあたりにし 強い印象を感じました。パーツの強度維持の説明のところでは、パーツへの鎹などの工夫の話題がありましたが、私の印象に残ったのは
+むしろレポーターの操作による 初代ガンダムとグフとの交戦でした。そんなことされたら、アニメの<STRONG>あるシーン</STRONG>などが よみがえってきてしまうのですもの。はい。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

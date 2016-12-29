@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/12/18 日記: lprやWindows直接印刷など、印刷系を少し調べる</TITLE>
+<META name="DESCRIPTION" content="Jakarta Tomcat 5.0.x 初体験 , アルファシステムズの菅村さん">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:47+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2003/12/18 日記: lprやWindows直接印刷など、印刷系を少し調べる</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Jakarta Tomcat 5.0.x 初体験 , アルファシステムズの菅村さん</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アルファシステムズ菅村さんという方と仕事しています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在 <A href="http://www.alpha.co.jp/">アルファシステムズ</A>の菅村さんという方と一緒に仕事をしています。すてきな技術力を持たれた方です。今日
+忘年会で話していて 菅村さんは 『ある開発者の日記』時代からのコアないがぴょんの日記読者であることが判明しました。C言語時代からの(5年程度もの)ハードコア読者ですね。菅村さん、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>印刷系の調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょびっと印刷系を調査しました。</P>
+<UL>
+  <LI>Line Printer Daemon Protocol (LPR)<BR>
+  <A HREF="http://www.allied-telesis.co.jp/support/list/switch/8724xl8748xl/rfc/rfc1179.txt">http://www.allied-telesis.co.jp/support/list/switch/8724xl8748xl/rfc/rfc1179.txt</A>
+  <LI>いがぴょんが 昔 LPRを扱っていたころ<BR>
+  <A HREF="http://www.nttd-bb.com/solution/igapyon1/ig000303.html">http://www.nttd-bb.com/solution/igapyon1/ig000303.html</A>
+</UL>
+<P>ちょこっとJavaで印刷プログラミングしたく思いました。なんか、懐かしいなぁ、、、</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows C言語で印刷</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>それとは別に C言語での印刷プログラミングネタを探しました。</P>
+<UL>
+  <LI>猫でもわかるプログラミング : 第79章 印刷 プリンタの設定<BR>
+  <A HREF="http://www.kumei.ne.jp/c_lang/sdk/sdk_79.htm">http://www.kumei.ne.jp/c_lang/sdk/sdk_79.htm</A><BR>
+  Win32APIのEnumPrinters()をキーにたどり着く。つぎは StartDoc() StartPage() あたりですが… 
+  <LI>RICOH: 指定したジョブの印刷状態を得る方法<BR>
+  <A HREF="http://www.ricoh.co.jp/tohoku/barcode/printer/driver/ntdocs/support/getjob.html">http://www.ricoh.co.jp/tohoku/barcode/printer/driver/ntdocs/support/getjob.html</A><BR>
+  これもとても参考になる。
+</UL>
+<P>印刷したジョブのキュー状態確認方法は 以前書いた事があり、良く知っているのですが、そうではなくって、と あるバイナリーデータを直接 Windowsの印刷スプールにつっこむ方法がわからず、また 見つかりませんでした。GDIを経由しないで直接印刷するというルートに関する方法です。</P>
+<UL>
+  <LI><STRONG>どなたか、GDIを経由しないで プリンタへ直接印刷する方法を ご存じ有りませんか？</STRONG>
+</UL>
+<P>このページを見よ、とかで大歓迎です。<BR>
+個人的妄想としては、hDCは実は 単にファイルへのハンドラーで、ここに そのまんまFileWriteする、とかだったら
+とってもうれしいのですが…</P>
+<P><FONT color="#ff0000">2003.12.19</FONT> 読者のKuramochiさんからのツッコミ</P>
+<UL>
+  <LI><A HREF="http://www.cisnet.or.jp/home/tsuneoka/win32tech/22.html">http://www.cisnet.or.jp/home/tsuneoka/win32tech/22.html</A>
+</UL>
+<P>これが参考になるかと思います。<BR>
+私も以前、バーコードプリンターに制御コードを送るのに苦労しました。<BR>
+<BR>
+// Kuramochi<BR>
+<BR>
+以上</P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+早速のツッコミ、凄くうれしいです。大変感謝します。<BR>
+すばらしいです。</P>
+<P>早速メモ書き</P>
+<OL>
+  <LI>標準プリンタの設定(?)
+  <LI>OpenPrinter
+  <LI>StartDocPrinter
+  <LI>StartPagePrinter
+  <LI>PRN_INIT<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>WritePrinter
+  <LI>STDPRN_FLUSH<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>PRN_EXIT<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>EndPagePrinter
+  <LI>EndDocPrinter
+  <LI>ClosePrinter
+</OL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Win32サブルーチンズ という書籍</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>この印刷サンプルが載っていたのは、Win32サブルーチンズという書籍でした。</P>
+<UL>
+  <LI><A HREF="http://www.cisnet.or.jp/home/tsuneoka/index.html">http://www.cisnet.or.jp/home/tsuneoka/index.html</A>
+</UL>
+<P>これはすごい本です。絶版なんて とっても惜しいです！<BR>
+今増刷したとしても 喜ぶ人は沢山いると思うのですが… ねぇ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 5.0.x系 初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Jakarta Tomcat 5.0.16 EXE版を試してみました。インストーラーがさくさく動作します。<BR>
+で、、、とりあえず まず最初に 管理コンソールの出来栄えの良さに驚かされました。素晴らしい…<BR>
+う～ん。うなってしまいました。 これは便利だなぁ。Tomcat 5.0、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>あおのさんのツッコミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あおの さんのツッコミ<BR>
+(O) が追加されてうれしいです。</P>
+<P>ここから<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+あおのさんのツッコミとっても嬉しいです。だって これはそもそも、あおの さんの仕様による
+あおのさんのための新機能なのですもの！<BR>
+そして 実は 私自身 (O)の機能を結構使い込んでいます。別ウインドウオープンって
+便利だったんですね…。びっくりです。あおのさん達に指摘いただいた仕様を
+とても便利に使わせて頂いております！</P>
+<P><FONT color="#ff0000">2004.01.01</FONT> 自分用メモ<BR>
+次に実装すべき機能として、前の日記、次の日記 への移動を想定した (前へ)
+(次へ) が欲しい。当然RSSと連動して動作するようなもの。… ヒマが無いので当分実装は無理っぽいか…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenCms</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社の先輩に頼まれて、OpenCms <A HREF="http://www.opencms.org/">http://www.opencms.org/</A> というWebサイトコンテンツ管理システムを模索。う～ん。とりあえずライセンスが
+良くわかりません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>朝風呂</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>寮で朝風呂が流行っている事が判明。夜より朝の方が風呂が混んでいます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>サンダーバードセット</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社のパソコンは 小さい筐体のデスクトップパソコンです。これは 緊急発進の際の運びやすさを主眼に考えています。当然
+購入時の箱を大事に保管しています。<BR>
+このサンダーバード２号の格納庫のようなデスクトップパソコン箱に、新たに電源タップとLANケーブルを加えたいと
+強く思いました。あと クロスケーブルもオプションで付いていると完璧です。(緊急発進の事ばかり考えているなぁ…
+でも実際 役立っています)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>洗濯かご</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>りんもん さんのツッコミ<BR>
+洗濯物かごはダイソーにも売っていると思いますが。。。(^^ゞ</P>
+<P>ここから<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+ご指摘ありがとうございます。100円ショップを最大限活用したく思います。(ただし
+ここんところ午前様が多く 100円ショップは閉まっていたりします…)</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig031218.src.html' , result='ig031218.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig031218-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa03.html">社内から必要とされるITスタッフを育成するには</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>これまた印象的な記事。なるほどITスタッフの育成は難しいのですねぇ。<LI><A HREF="http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba03/devgenba01.html">第3回　システム開発の真の目的を見失わない</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba03/devgenba01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ぎょぎょっ、目的を見失ったシステム開発って 意外に存在しそうですからね。<LI><A HREF="http://www.atmarkit.co.jp/news/200312/17/juas.html">「UML採用は15％以下」、新技術を警戒するユーザー企業</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/news/200312/17/juas.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ははは。同意します。『「効果がわかりにくい」「必要性を感じない」』あたりが 適切に世間を表現しています。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062895,00.htm">2003年Linux重大ニュースを振り返る</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062895,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>『多くの企業がLinuxはビジネスになると認識したようだ』が今年のできごとを象徴していると思います。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:47 $</address>
+</BODY>
+</HTML>

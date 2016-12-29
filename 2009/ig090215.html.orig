@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/02/15 日記: OSC2009 Tokyo/Spring 用の資料を作成 , iSCSI 勉強開始</TITLE>
+<META name="DESCRIPTION" content="OSC2009 Tokyo/Spring における blanco Framework の配付資料を作成してみました。関係者の方、レビューをお願いします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/02/15 日記: OSC2009 Tokyo/Spring 用の資料を作成 , iSCSI 勉強開始</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] OSC2009 Tokyo/Spring における blanco Framework の配付資料を作成してみました。関係者の方、レビューをお願いします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OSC2009 Tokyo/Spring 用の資料を作成…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.ospn.jp/osc2009-spring/">OSC2009 Tokyo/Spring</A> における <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の配布資料を作成してみました。関係者の方、レビューをお願いします。</P>
+<UL>
+  <LI>主たる配布資料<BR>
+  137枚
+  <UL>
+    <LI><A href="http://svn.sourceforge.jp/view/blancoMisc/trunk/doc/blancoFrameworkBrochure.ppt?view=co&amp;root=blancofw">ブローシャ (blancoFrameworkBrochure.ppt)</A>
+  </UL>
+  <LI>補助的な配布資料<BR>
+  40枚 - 両面印刷 (実際には不足しました)<BR>
+  ※主たる配布資料の 1/10 程度を印刷
+  <UL>
+    <LI><A href="http://svn.sourceforge.jp/view/blancoMisc/trunk/doc/blancoFrameworkMainProducts.ppt?view=co&amp;root=blancofw">主要プロダクト (blancoFrameworkMainProducts.ppt)</A>
+    <LI><A href="http://svn.sourceforge.jp/view/blancoMisc/trunk/doc/blancoFrameworkCodeGenerationArchitecture.ppt?view=co&amp;root=blancofw">動作原理 (blancoFrameworkCodeGenerationArchitecture.ppt)</A>
+  </UL>
+  <LI>配布しない資料<BR>
+  ※各 20部
+  <UL>
+    <LI><A href="http://svn.sourceforge.jp/view/blancoMisc/trunk/doc/blancoFrameworkAbstract.ppt?view=co&amp;root=blancofw">概要紹介 (blancoFrameworkAbstract.ppt)</A><BR>
+    2ページ集約 + 両面印刷 + ホチキス留め (実際には不足しました)
+    <LI><A href="http://svn.sourceforge.jp/view/blancoMisc/trunk/doc/blancoFrameworkProductList.xls?view=co&root=blancofw">プロダクト一覧 (blancoFrameworkProductList.xls)</A>
+  </UL>
+</UL>
+<P>2008年は 資料を 100部準備したものの、全然足りなかったです。この反省＋今年はブースの場所がものすごく良いことを考え、多めに準備しようと考えます。</P>
+<P><FONT color="#ff0000">2009-02-18追記</FONT> OpenOffice.org では問題なかったのですが Microsoft Office では正常に表示されない問題のある状態になっていました。すみません。これを修正し、Microsoft
+Office でも適切に表示できるように改善しました。</P>
+<P><FONT color="#ff0000">2009-02-22追記</FONT> 沢山の方にお越し頂きました。ありがとうございます。実績は 137枚配布でした。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>iSCSI 勉強開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仮想化などのキーワードに引きずらる格好で、そろそろ iSCSI というものを勉強しておかないとまずいような気がしてきたので、まずはメモ。</P>
+<UL>
+  <LI>五つの新常識で柔軟なストレージ・ネットを作る: 新常識(3) iSCSIで安価に構築<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20070718/277792/">http://itpro.nikkeibp.co.jp/article/COLUMN/20070718/277792/</A>
+  <LI>Microsoft Storage Technologies - iSCSI<BR>
+  <A HREF="http://www.microsoft.com/windowsserver2003/technologies/storage/iscsi/default.mspx">http://www.microsoft.com/windowsserver2003/technologies/storage/iscsi/default.mspx</A>
+</UL>
+<P>余った PC に <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> を入れて iSCSI の target としてセットアップするなどしたら、iSCSI
+を手軽に試すことができるものと思いました。ただし LAN ボードや HDD が高速でないと不満を感じる可能性は高そうですけれども。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

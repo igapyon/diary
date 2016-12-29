@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/19 日記: Jakarta BCEL 試用</TITLE>
+<META name="DESCRIPTION" content="あるバイトコードをリバースエンジニアリングする必要があり、Jakarta BCELを試用しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/19 日記: Jakarta BCEL 試用</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] あるバイトコードをリバースエンジニアリングする必要があり、Jakarta BCELを試用しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta BCEL 試用</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あるバイトコード(*.class)をリバースエンジニアリングする必要があり、BCELを試用しました。BCELを用いると jadとはまた違った観点でバイトコードの内容をチェックすることが出来ます。</P>
+<UL>
+  <LI>Jakarta BCEL<BR>
+  <A HREF="http://jakarta.apache.org/bcel/index.html">http://jakarta.apache.org/bcel/index.html</A>
+</UL>
+<P><FONT color="#ff00ff">簡易な実行環境メモ</FONT></P>
+<UL>
+  <LI>BCEL 5.1
+  <LI>JDK 1.5.0_03 Windows版
+</UL>
+<P><FONT color="#ff00ff">実行コマンド</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">単に解析して classファイルをHTML化するためのサンプル</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>java -classpath bcel-5.1.jar org.apache.bcel.util.Class2HTML 解析したいクラス.class</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>このコマンドを実行するだけで、 classファイル内容の HTML化が実現できます。バイトコードがヴィジュアルに表示できます！<BR>
+私にとっては BCELが提供する機能は 結構インパクトがありました。BCELのAPIを詳しく知っていくと、もっと多くの機能が利用できるのですよね。とても興味深いAPIセットだと思いました。</P>
+<P><FONT color="#ff00ff">関係するリソース</FONT></P>
+<UL>
+  <LI>dW : Java technology : Javaプログラミングのダイナミックス 第8回: リフレクションに取って代わるコード生成<BR>
+  <A HREF="http://www-6.ibm.com/jp/developerworks/java/040730/j_j-dyn0610.html">http://www-6.ibm.com/jp/developerworks/java/040730/j_j-dyn0610.html</A><BR>
+  Javassistと Jakarta BCEL についての言及があります。、、、リフレクションよりもコード生成の方が、ずっと高速に動作するのですね。数値で示されて、結構インパクトがあります。
+  <LI>Sun Developer News<BR>
+  <A HREF="http://sdc.sun.co.jp/news/200304/ktaijava02.html">http://sdc.sun.co.jp/news/200304/ktaijava02.html</A><BR>
+  Class2HTMLの駆動方法が載っていました。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig060106.html">2006/01/06 日記: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</A>
+</UL>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>IT Pro: ITサービス企業 業績分析（1）: 売上高ランキング・トップ100: 「利益なき繁忙」が業界を覆う、勝ち組・負け組の二極化鮮明に<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/WAT/NEWS/20050715/1/">http://itpro.nikkeibp.co.jp/free/WAT/NEWS/20050715/1/</A><BR>
+  「利益なき繁栄」のフレーズが心にうったえられるように感じました。悩ましいです…。
+  <LI>IT Pro: データで見る中堅・中小企業のIT導入実態2005(2)：戦略系アプリケーションの導入率は低い<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/smbit/smbit/20050715/164742/">http://itpro.nikkeibp.co.jp/free/smbit/smbit/20050715/164742/</A><BR>
+  基幹系のアプリケーション＋情報系のグループウェア のあたりの分析情報がとても嬉しいです。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

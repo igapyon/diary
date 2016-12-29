@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/06/10 日記: Java: OpenOffice.org SDKを用いた Excelファイルを新規作成するサンプル</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org SDK を用いた Excelファイルを新規作成するﾄｲﾌﾟﾛｸﾞﾗﾑを作りました。サンプルソースコードをメモしておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/06/10 日記: Java: OpenOffice.org SDKを用いた Excelファイルを新規作成するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel] OpenOffice.org SDK を用いた Excelファイルを新規作成するﾄｲﾌﾟﾛｸﾞﾗﾑを作りました。サンプルソースコードをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org SDK を用いた Excelファイルを新規作成するためのサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> SDK を用いた Excelファイルを新規作成するためのサンプルです。</P>
+<UL>
+  <LI><A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> 1.1.4 をインストールする。
+  <LI>「スタートアップ」から「OpenOffice」を除去する。
+  <LI>タスクトレイ内の「クイック起動」を終了する。
+  <LI>OpenOffice を UNOのポートソケット付きで起動する。
+  <UL>
+    <LI>例: &quot;C:\Program Files\OpenOffice.org1.1.4\program\soffice&quot; &quot;-accept=socket,port=8100;urp;&quot;
+    <LI><A href="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html">OOoLauncherによるUNOのポートソケット付き起動</A>という起動方法も存在します。
+  </UL>
+</UL>
+<P>確認に利用した動作環境</P>
+<UL>
+  <LI>Sun Java2 SDK 1.5.0_03 (Windows版)
+  <LI>OpenOffice.org 1.1.4 (Windows版)
+</UL>
+<P>動作条件</P>
+<UL>
+  <LI>OpenOffice.org SDK への jarファイルにクラスパスが通してあること
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">OOoWriteExcelSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * OpenOffice.org: Excelファイルの新規作成サンプル
+ * Copyright (C) 2005 伊賀敏樹 作成日: 2005/06/10
+ */
+
+import java.io.File;
+
+import com.sun.star.beans.Property;
+import com.sun.star.beans.PropertyValue;
+import com.sun.star.beans.XPropertySet;
+import com.sun.star.beans.XPropertySetInfo;
+import com.sun.star.bridge.XBridge;
+import com.sun.star.bridge.XBridgeFactory;
+import com.sun.star.comp.helper.Bootstrap;
+import com.sun.star.connection.ConnectionSetupException;
+import com.sun.star.connection.NoConnectException;
+import com.sun.star.connection.XConnection;
+import com.sun.star.connection.XConnector;
+import com.sun.star.frame.XComponentLoader;
+import com.sun.star.frame.XController;
+import com.sun.star.frame.XModel;
+import com.sun.star.frame.XStorable;
+import com.sun.star.lang.XComponent;
+import com.sun.star.lang.XMultiComponentFactory;
+import com.sun.star.sheet.XSpreadsheet;
+import com.sun.star.sheet.XSpreadsheetDocument;
+import com.sun.star.sheet.XSpreadsheetView;
+import com.sun.star.sheet.XSpreadsheets;
+import com.sun.star.text.XText;
+import com.sun.star.uno.UnoRuntime;
+import com.sun.star.uno.XComponentContext;
+
+/**
+ * @author Tosiki IGA
+ */
+public class OOoWriteExcelSample {
+    /**
+     * UNO接続で利用する接続先情報
+     */
+    public static final String DEFAULT_CONNECTION_STRING = &quot;socket,host=localhost,port=8100,tcpNoDelay=1&quot;;
+
+    /**
+     * UNO接続で利用するソケットコネクション
+     */
+    private XConnection connection = null;
+
+    public static void main(String[] args) {
+        try {
+            new OOoWriteExcelSample().process();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public void process() throws Exception {
+        System.out.println(&quot;Excelブックを新規作成してファイル保存します.&quot;);
+
+        File fileTarget = new File(&quot;./sample.xls&quot;);
+        if (fileTarget.exists()) {
+            fileTarget.delete();
+        }
+
+        System.out.println(&quot;OpenOfficeに接続するための前準備を実施します.&quot;);
+        XBridge bridge = createOOoBridge(DEFAULT_CONNECTION_STRING);
+        if (bridge == null) {
+            return;
+        }
+        Object desktop = createDesktopInstance(bridge);
+        if (desktop == null) {
+            return;
+        }
+        System.out.println(&quot;OpenOfficeに接続するための前準備が完了しました.&quot;);
+
+        XComponentLoader componentLoader = (XComponentLoader) UnoRuntime
+                .queryInterface(XComponentLoader.class, desktop);
+
+        System.out.println(&quot;Calcドキュメントを新規作成します.&quot;);
+        PropertyValue[] loadProps = new PropertyValue[1];
+        loadProps[0] = new PropertyValue();
+        loadProps[0].Name = &quot;Hidden&quot;;
+        loadProps[0].Value = new Boolean(false);
+
+        XComponent component = componentLoader.loadComponentFromURL(
+                &quot;private:factory/scalc&quot;, &quot;_blank&quot;, 0, loadProps);
+        XSpreadsheetDocument document = (XSpreadsheetDocument) UnoRuntime
+                .queryInterface(XSpreadsheetDocument.class, component);
+
+        System.out.println(&quot;Calcシートを新規作成します.&quot;);
+        XSpreadsheets sheets = document.getSheets();
+        sheets.insertNewByName(&quot;Sheet1&quot;, (short) 0);
+        XSpreadsheet sheet = (XSpreadsheet) UnoRuntime.queryInterface(
+                XSpreadsheet.class, sheets.getByName(&quot;Sheet1&quot;));
+
+        System.out.println(&quot;Sheet1をアクティブに設定します.&quot;);
+        XModel model = (XModel) UnoRuntime.queryInterface(XModel.class,
+                component);
+        XController controller = model.getCurrentController();
+        XSpreadsheetView view = (XSpreadsheetView) UnoRuntime.queryInterface(
+                XSpreadsheetView.class, controller);
+        view.setActiveSheet(sheet);
+
+        System.out.println(&quot;A1に値をセット. (XText経由)&quot;);
+        XText text = (XText) UnoRuntime.queryInterface(XText.class, sheet
+                .getCellByPosition(0, 0));
+        text.setString(&quot;test&quot;);
+
+        System.out.println(&quot;A2に値をセット. (setValue経由)&quot;);
+        sheet.getCellByPosition(0, 1).setValue(123456);
+
+        System.out.println(&quot;A3に値をセット. (セルのプロパティFormulaLocal経由)&quot;);
+        XPropertySet prop = (XPropertySet) UnoRuntime.queryInterface(
+                XPropertySet.class, sheet.getCellByPosition(0, 2));
+        prop.setPropertyValue(&quot;FormulaLocal&quot;, &quot;256,512&quot;);
+        prop.setPropertyValue(&quot;CellBackColor&quot;, new Integer(0xC0C0C0));
+
+        if (false) {
+            System.out.println(&quot;PropertySetInfoをデバッグ表示します.&quot;);
+            XPropertySetInfo propinfo = prop.getPropertySetInfo();
+            Property[] props = propinfo.getProperties();
+            for (int index = 0; index &lt; props.length; index++) {
+                System.out.println(&quot;propertySet:&quot; + props[index].Name + &quot;=&quot;
+                        + prop.getPropertyValue(props[index].Name).toString());
+            }
+        }
+
+        Thread.sleep(2000);
+
+        System.out.println(&quot;Calcドキュメントを指定のファイル(&quot; + fileTarget.getAbsolutePath()
+                + &quot;)に保存処理します.&quot;);
+        XStorable storable = (XStorable) UnoRuntime.queryInterface(
+                XStorable.class, component);
+
+        PropertyValue[] saveProps = new PropertyValue[1];
+        saveProps[0] = new PropertyValue();
+        saveProps[0].Name = &quot;FilterName&quot;;
+        saveProps[0].Value = &quot;MS Excel 97&quot;;
+
+        storable.storeToURL(fileTarget.toURL().toString(), saveProps);
+        component.dispose();
+
+        System.out.println(&quot;OpenOfficeへの接続の後処理(UNO接続のクローズ処理)を実施します.&quot;);
+        connection.close();
+
+        System.out.println(&quot;Excelブックを新規作成してファイル保存の一連の処理を終了します.&quot;);
+    }
+
+    /**
+     * OpenOfficへのブリッジ接続(UNO接続)をオープンします
+     * 
+     * @param 接続先情報
+     * @return
+     */
+    public XBridge createOOoBridge(String connectionString) {
+        System.out.println(&quot;OpenOfficへのブリッジ接続(UNO接続)をオープンします.&quot;);
+        try {
+            XComponentContext localContext = Bootstrap
+                    .createInitialComponentContext(null);
+            XMultiComponentFactory localServiceManager = localContext
+                    .getServiceManager();
+            XConnector connector = (XConnector) UnoRuntime.queryInterface(
+                    XConnector.class, localServiceManager
+                            .createInstanceWithContext(
+                                    &quot;com.sun.star.connection.Connector&quot;,
+                                    localContext));
+            try {
+                connection = connector.connect(connectionString);
+            } catch (NoConnectException ex) {
+                System.err.println(&quot;UNO接続に失敗しました:&quot; + ex.toString());
+                return null;
+            } catch (ConnectionSetupException ex) {
+                System.err.println(&quot;UNO接続のセットアップに失敗しました:&quot; + ex.toString());
+                return null;
+            }
+            XBridgeFactory bridgeFactory = (XBridgeFactory) UnoRuntime
+                    .queryInterface(XBridgeFactory.class, localServiceManager
+                            .createInstanceWithContext(
+                                    &quot;com.sun.star.bridge.BridgeFactory&quot;,
+                                    localContext));
+            return bridgeFactory.createBridge(&quot;&quot;, &quot;urp&quot;, connection, null);
+        } catch (Exception ex) {
+            System.err.println(&quot;ブリッジ作成処理全般を通して例外が発生しました.:&quot; + ex.toString());
+            return null;
+        }
+    }
+
+    /**
+     * OpenOfficeのデスクトップインスタンスを作成します.
+     * 
+     * @param bridge
+     * @return
+     */
+    public static Object createDesktopInstance(XBridge bridge) {
+        System.out.println(&quot;OpenOfficeのデスクトップインスタンスを作成します.&quot;);
+        try {
+            XMultiComponentFactory serviceManager = (XMultiComponentFactory) UnoRuntime
+                    .queryInterface(XMultiComponentFactory.class, bridge
+                            .getInstance(&quot;StarOffice.ServiceManager&quot;));
+            XPropertySet propertySet = (XPropertySet) UnoRuntime
+                    .queryInterface(XPropertySet.class, serviceManager);
+            XComponentContext remoteContext = (XComponentContext) UnoRuntime
+                    .queryInterface(XComponentContext.class, propertySet
+                            .getPropertyValue(&quot;DefaultContext&quot;));
+            XMultiComponentFactory remoteServiceManager = remoteContext
+                    .getServiceManager();
+            return remoteServiceManager.createInstanceWithContext(
+                    &quot;com.sun.star.frame.Desktop&quot;, remoteContext);
+        } catch (Exception ex) {
+            System.err.println(&quot;OpenOfficeのデスクトップインスタンス作成において例外が発生しました.:&quot;
+                    + ex.toString());
+            return null;
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A>Reportの基礎技術調査の過程で、調べる必要が出てきました。OpenOffice.org SDK
+の情報は まだまだ不足気味でした。</P>
+<P><FONT color="#ff00ff">参考資料</FONT></P>
+<UL>
+  <LI>api: First Steps<BR>
+  <A HREF="http://api.openoffice.org/docs/DevelopersGuide/FirstSteps/FirstSteps.htm#1+First+Steps">http://api.openoffice.org/docs/DevelopersGuide/FirstSteps/FirstSteps.htm#1+First+Steps</A>
+  <LI>api: Module text<BR>
+  <A HREF="http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html">http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html</A>
+  <LI>上記APIなどの日本語訳サイトなども参考にさせていただきました。しかし URLを失念してしまいました。
+</UL>
+<P><FONT color="#ff00ff">他のAPIによる同様の実装</FONT></P>
+<UL>
+  <LI><A href="ig050213.html">2005/02/13 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルを新規作成するサンプル</A>
+  <LI><A href="ig050221.html">2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</A>
+</UL>
+<P><FONT color="#ff00ff">この日記へのツッコミ</FONT></P>
+<UL>
+  <LI><A href="http://d.hatena.ne.jp/a-san/20050614">a-sanの日記: 2005/06/14: OpenOffice.org SDK を用いた Excelファイルを新規作成するためのサンプル</A><BR>
+  ※補足: <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A> は <A href="http://sourceforge.net/projects/jcom">JCom (Java-COM Bridge)</A> 初期バージョン開発者という人でもあります。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><a href="../2009/ig091208.html">2009/12/08 日記: Java: iText を用いた PDF ファイルを新規作成するサンプル</a>
+  <LI><A href="ig050612.html">2005/06/12 日記: Java: OpenOffice.org SDKを用いた PDFファイルを新規作成するサンプル</A>
+  <LI><A href="ig050614.html">2005/06/14 日記: OpenOffice.org SDKのAPIが なぜあのような姿をしているのかについてのメモ</A>
+  <LI><A href="ig050225.html">2005/02/25 日記: OpenOffice.org SDKへの道のり , KNOPPIX+Webサーバでクラック耐性運用が可能に</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>NECがハイエンドストレージで狙う「第1グループ入り」<BR>
+  <A HREF="http://www.atmarkit.co.jp/news/200506/10/nec.html">http://www.atmarkit.co.jp/news/200506/10/nec.html</A><BR>
+  とっても大きなストレージ。魅力的です。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

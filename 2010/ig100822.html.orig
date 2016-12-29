@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/08/22 日記: Ubuntu: Sun Java SE 6 を Ubuntu 10.04 にインストールする方法</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 10.04 に Sun Java SE をインストールするには、ソフトウェア・ソースに「Canonical パートナー」を追加する必要があります。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
+<meta name="DATE" content="2010-08-22T16:37:22+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/08/22 日記: Ubuntu: Sun Java SE 6 を Ubuntu 10.04 にインストールする方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ubuntu 10.04 に Sun Java SE をインストールするには、ソフトウェア・ソースに「Canonical パートナー」を追加する必要があります。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: Sun Java SE を Ubuntu 10.04 にインストールする方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> 10.04 に Sun Java SE をインストールするには、ソフトウェア・ソースに「Canonical
+パートナー」を追加する必要があります。</p>
+<BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100822ubujdk001.png" border="0"><br>
+★上記スクリーンショットの 上 2 つについてチェックを ON にします。<br>
+★「閉じる」ボタンを押下してはじめて、設定変更が有効になります。</BLOCKQUOTE>
+<p>Sun Java JDK 6 をインストールします。<br>
+「端末」から以下のコマンドを実行します。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>sudo apt-get install sun-java6-jdk</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>インストールの過程でライセンス合意の確認画面が現れます。内容を確認のうえ、TAB キーと ENTER キーを押下してインストールを続行します。</p>
+<p>OpenJDK 6 が入っていたら、それを除去します。</p>
+<p>インストール後、以下のように表示されたらインストールは完成です。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>&gt; <strong>java -version</strong>
+java version &quot;1.6.0_20&quot;
+Java(TM) SE Runtime Environment (build 1.6.0_20-b02)
+Java HotSpot(TM) Server VM (build 16.3-b01, mixed mode)</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>★残課題: この手順を実施すると、なぜか OpenJDK が強制的にインストールされるように見えました。なぜだか、現時点ではわかっていません。</p>
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Oracle GlassFish 3.0.1 と OpenJDK 6 との相性</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>どうも、Oracle GlassFish 3.0.1 と OpenJDK 6 とは相性が悪いようです。この組み合わせだと XML まわりのエラーが発生して管理コンソールを開くことができない場合があります。</p>
+<p>これを回避するには、OpenJDK 6 の代わりに Sun Java 6 JDK を利用する方法があります。</p>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<ul>
+  <li>ニフティ、技術者向け勉強会の会場提供や動画配信協力などを無料で行う「＠niftyエンジニアサポート」開始<br>
+  <A HREF="http://www.rbbtoday.com/article/2010/08/11/69814.html">http://www.rbbtoday.com/article/2010/08/11/69814.html</A><br>
+  OSS コミュニティ集会などで利用してみたいと思いました。
+  <li>ASCII.jp: Kindle/iPad対応！電子書籍の作り方<br>
+  <A HREF="http://ascii.jp/elem/000/000/543/543785/">http://ascii.jp/elem/000/000/543/543785/</A><br>
+  とても興味深い記事！
+  <li>ITPro: 見積もり2億円のIP電話を820万円で構築した秋田県大館市から学べること 【OSS の電話交換機】<br>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/OPINION/20090209/324420/">http://itpro.nikkeibp.co.jp/article/OPINION/20090209/324420/</A><br>
+  OSS 電話交換機という観点で興味深いです。
+  <li>ITPro: ゆうちょ銀ダウン、真因は切り替え失敗<br>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20100803/350962/">http://itpro.nikkeibp.co.jp/article/COLUMN/20100803/350962/</A>
+</ul>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/08/22 16:37:22 $</address>
+</BODY>
+</HTML>

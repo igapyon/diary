@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/11/13 日記: PuTTY(ぱてぃ)というTelnetクライアントソフト</TITLE>
+<META name="DESCRIPTION" content="TeraTermとは別のTelnetクライアント実装に出会いました。 , Eclipse 3.0.1体験 , Tomcat 5.5.4試用体験">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/11/13 日記: PuTTY(ぱてぃ)というTelnetクライアントソフト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] TeraTermとは別のTelnetクライアント実装に出会いました。 , Eclipse 3.0.1体験 , Tomcat 5.5.4試用体験</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PuTTY (ぱてぃ) というTelnetクライアントソフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>PuTTYというTelnetクライアント実装に知り合いました。</P>
+<UL>
+  <LI>PuTTY 日本語化パッチ<BR>
+  <A HREF="http://hp.vector.co.jp/authors/VA024651/#PuTTYkj_top">http://hp.vector.co.jp/authors/VA024651/#PuTTYkj_top</A>
+  <LI>PuTTY β 0.56 ごった煮版 (ぱてぃ) <BR>
+  <A HREF="http://yebisuya.dip.jp/Software/PuTTY/">http://yebisuya.dip.jp/Software/PuTTY/</A><BR>
+  １つのインストーラに混ぜられたアーカイブ版
+</UL>
+<P>とても良くできたソフトです。<BR>
+今まで TeraTermというソフトを愛用していたのですが、とある理由によりPuTTYを知ることになりました。</P>
+<P>ざっくりと調べてみると、＠ITでも取り上げられていました。</P>
+<UL>
+  <LI>＠IT: Windowsからssh 2でLinuxにログインするには<BR>
+  <A HREF="http://www.atmarkit.co.jp/flinux/rensai/linuxtips/416usessh2.html">http://www.atmarkit.co.jp/flinux/rensai/linuxtips/416usessh2.html</A>
+</UL>
+<P>ssh2対応が<STRONG>最初から同梱</STRONG>されている点などがポイントなのですね。ふむふむ。勉強になります。</P>
+<P><FONT color="#ff0000">2004.11.20</FONT><BR>
+haradatsさま、ツッコミありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>自宅PCに Eclipse 3.0.1 をインストール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とても格好良く変わっていました。すごいです Eclipse 3.0.1。<BR>
+ただ、Eclipse 2.1系に比べて ちょっと重いように感じます。ファイルを解凍するだけでも時間がかかりました。これは自宅PCを更新するタイミングかしら
+(苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Jakarta Tomcat 5.5.4 試用体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>3.2や3.3の頃は ものすごくディープにTomcatに従事していたのですが、最近ご無沙汰でした。ちょっとした試用のニーズがあったので最新版安定版という位置づけの
+5.5.4 をインストールして体験しました。</P>
+<P><FONT color="#ff0000">2004.11.20追記</FONT> Tomcatのバージョンと JSP/Servletのバージョンの関連がmuimyさんの日記に載っていました。</P>
+<UL>
+  <LI>muimyさんの日記: 2004-11-10 Tomcatのバージョン<BR>
+  <A HREF="http://d.hatena.ne.jp/muimy/20041110#1100078903">http://d.hatena.ne.jp/muimy/20041110#1100078903</A>
+  <UL>
+    <LI>5.x Servlet2.4/JSP2.0
+    <LI>4.x   Servlet2.3/JSP1.2
+    <LI>3.x   Servlet2.2/JSP1.1
+  </UL>
+  そうだったのですね。知りませんでした。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日も休日出勤しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>忙しいです。体調を崩し始めています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LDAPプログラミングめも</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>むいみこむ:LDAPdでLDAPを使ってみる<BR>
+  <A HREF="http://muimi.com/j/ldap/">http://muimi.com/j/ldap/</A>
+</UL>
+<P>Muimyさんの記事。すばらしい。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

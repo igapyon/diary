@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/05/19 日記: FindBugs 0.7.3 リリース , 日本語化パッチが別途提供</TITLE>
+<META name="DESCRIPTION" content="NIFTYは大手プロバイダの中で最安値価格帯">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,FindBugs">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/05/19 日記: FindBugs 0.7.3 リリース , 日本語化パッチが別途提供</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,FindBugs] NIFTYは大手プロバイダの中で最安値価格帯</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugs 0.7.3 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>FindBugs 0.7.3 リリース<BR>
+  <A HREF="http://findbugs.sourceforge.net/">http://findbugs.sourceforge.net/</A><BR>
+  不具合が残存しているとの情報 via <A HREF="http://d.hatena.ne.jp/dragon3/">http://d.hatena.ne.jp/dragon3/</A>
+</UL>
+<P>さて、私は裏をとる作業をしていませんが…。0.7.3で新たに対応すべき定義情報が増えて、不都合など起きてしまったのかしら…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugs 0.7.3 日本語化パッチ @2004/05/19版 </STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>FindBugs 0.7.3 日本語化パッチ @2004/05/19版<BR>
+  <A HREF="http://www.simeji.com/wiki/pukiwiki.php?FindBugs">http://www.simeji.com/wiki/pukiwiki.php?FindBugs</A>
+</UL>
+<P>すばらしい。最新版を日本語化対応して下さった方がいらっしゃいます！ </P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>バリウム後遺症</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とりあえず、夜、よく眠れませんでした。おなかが張り続けたり、もうふらふらです。もちろん徐々に改善しつつありますが…。バリウムの際に併せて飲む炭酸が原因という可能性も考えられます。健康診断がとてもきらいになりました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig050803.html">2005/08/03 日記: バリウム効果</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NIFTYは意外に安い → 大手では最安値クラス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>妻の実家のインターネット接続を頼まれて、ひととおり大手プロバイダによる最低金額のADSLを探してみました。すると意外や意外、なんとNIFTYが最安値を提供していました。Yahoo BBよりもNIFTYの方がトータルの月額料金が安価だったのです。ほお、NIFTYって意外にも大手の中では最も安いのですね。私の中でNIFTYは安定品質かつ最安値との印象が付きました。(最安価ADSLだとクダリ1Mbpsが最大速度なのですが、義理の父によると「めったに使わないから最も安いものを」との指示だったんです :-P</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>AH-K3001Vが入手できなくて販売機会の損失があるとの記事<BR>
+  <A HREF="http://www.hourin.com/takayuki/column/se3_diary/60.html">http://www.hourin.com/takayuki/column/se3_diary/60.html</A><BR>
+  AH-K3001Vの発売がヘタクソなのだそうな(T_T) DDIポケットユーザの私としては、これを機にユーザが増えて欲しいのです。だからヘタを打たないでほしいのですけれども…。がんばれ
+  DDIポケット！
+  <LI>リンクメモ Java based FTP client<BR>
+  <A HREF="http://www.ds.cs.toyo.ac.jp/~uehara/javaws/JFTP/">http://www.ds.cs.toyo.ac.jp/~uehara/javaws/JFTP/</A><BR>
+  意味もなく、なぜだか印象に残りました。というか私のサイトに対する逆リンクが印象的だったのです(笑)
+  起動するとJava Web Startベースでダウンロードされて実行されて、その動きなどがとても印象的だったです。なるほど
+  JWSって ふと訪れたエンドユーザーには このように見えるのですね。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/11/03 日記: 安藤さんの手による RSS リーダー・Eclipse プラグイン をメモ</TITLE>
+<META name="DESCRIPTION" content="「ざっぷ、ざっぷ」などの擬音を駆使した「あの」伝説の Java記事で有名なテクニカル・ライター 安藤さんが作った Eclipse プラグインについて、これをメモしておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/11/03 日記: 安藤さんの手による RSS リーダー・Eclipse プラグイン をメモ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 「ざっぷ、ざっぷ」などの擬音を駆使した「あの」伝説の Java記事で有名なテクニカル・ライター 安藤さんが作った Eclipse プラグインについて、これをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>安藤さんの手による RSS リーダー・Eclipse プラグイン をメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>「ざっぷ、ざっぷ」などの擬音を駆使した「あの」伝説の Java記事で有名なテクニカル・ライター 安藤さんが作った Eclipse プラグインについて、これをメモしておきます。<BR>
+# この記述で 意図が通じてしまうあなたは、かなりの経験を持つ Java中毒テクノロジストだと思います。</P>
+<UL>
+  <LI>安藤さん RSSリーダー<BR>
+  <A HREF="http://park.ruru.ne.jp/ando/work/yggd/index_ja.html">http://park.ruru.ne.jp/ando/work/yggd/index_ja.html</A>
+</UL>
+<P>派生もとの日記</P>
+<UL>
+  <LI><A href="http://www.foobar.boo.jp/?eid=768585">安藤さん専用ブログ: 2008.11.03: EclipseにRSSリーダ移植かんせー</A>
+</UL>
+<P>私は、いま丁度、より良い Eclipse プラグインの UI について考察していて、ちょうどのタイミングで作られた このソフトが気になりました。時間を作ってチェックしてみたいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>じゃばこプロジェクト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふと、最近記載のあった Servlet姫こと はらだようこ さんの日記エントリを思わず思い出しました。</P>
+<UL>
+  <LI>Servlet Garden＠はてな: 2008-10-25 曇りで寒い。来週は雪が降るらしい。<BR>
+  <A HREF="http://d.hatena.ne.jp/yokolet/20081025">http://d.hatena.ne.jp/yokolet/20081025</A>
+</UL>
+<P>この日記エントリの <A href="http://javaco.org">じゃばこプロジェクト</A> が衝撃的に感じられました。</P>
+<UL>
+  <LI>じゃばこプロジェクト<BR>
+  <A HREF="http://javaco.org">http://javaco.org</A>
+  <LI>じゃばこ: ギャラリー<BR>
+  <A HREF="http://javaco.org/gallery/">http://javaco.org/gallery/</A>
+</UL>
+<P>これは ものすごいです。</P>
+<P>ところが、私が ちょうどその時期に忙しかったからかも知れませんか、じゃばこ さんについての記憶がありません。はて、あるいは記憶が すっぽり抜け落ちているのかしら。または、私がイメージ・キャラクター類の重要性について、昔は認識できなかったものが、今は認識できる、というものなのかも知れません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

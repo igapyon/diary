@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/09/12 日記: 「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkとして「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoCharacterGroup">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/09/12 日記: 「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoCharacterGroup] blanco Frameworkとして「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCharacterGroup</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>として「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール
+<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A>を新規作成しました。</P>
+<UL>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/meta/program/BlancoCharacterGroupSampleHanKatakana.xls">文字グループ定義書の記入例 (半角カタカナ判定)</A>
+  <UL>
+    <LI>上記の定義書から自動生成したソースコード<UL>
+    <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/blanco/main/blanco/sample/charactergroup/SampleHanKatakanaCharacterGroup.java">Java</A>
+    <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/blanco.cs/main/blanco/sample/charactergroup/SampleHanKatakanaCharacterGroup.cs">C#.NET</A>
+    <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/blanco.js/main/blanco/sample/charactergroup/SampleHanKatakanaCharacterGroup.js">JavaScript</A>
+    </UL>
+  </UL>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/meta/program/BlancoCharacterGroupSampleZenKatakana.xls">文字グループ定義書の記入例 (全角カタカナ判定)</A>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoCharacterGroup/meta/program/BlancoCharacterGroupSampleZenHiragana.xls">文字グループ定義書の記入例 (全角ひらがな判定)</A>
+</UL>
+
+<P>これが実現する環境の便利さを知る／気がつく人は少ないでしょうけれども、これが便利だとヒットする人にとっては、感動的なツールであることでしょう。もちろん私はこのツールがとても役に立つであろうことと想定しています。</P>
+<P>今回は<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>ネィテイブのソースコード生成を採用しました。blancoCharacterGroupの処理そのものが単純であったこともあり、blancoCharacterGroupは 単一プロジェクトで Java / C#.NET / JavaScriptの3言語ソースコード自動生成に対応しています。これは今までの blanco Frameworkのプロジェクト分割方針からは変わっている点です。(そもそも blancoCgネィティブではない実装であったため、単一プロジェクトの多言語対応は不可能でした)</P>
+<UL>
+  <LI><FONT color="#ff0000">2006.09.12時点</FONT>: Eclipseプラグイン化などは未実施です。レベルとしては、これから単体試験を実施するところです。メソッドのnull入力に関する単体試験が不足していると感じます。SourceForge.jpからダウンロードは可能ですが、説明用ホームページなどは準備できていません。
+  <LI><FONT color="#ff0000">2006.10.06時点</FONT>: Eclipseプラグイン化が実施完了しました。ひととおりの単体試験を通過しました。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060929.html">2006/09/29 日記: 「文字列変換定義書」というExcel様式を入力として、文字列変換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成</A>
+  <LI><A href="ig060913.src.html">2006/09/13 日記: 「文字列グループ定義書」というExcel様式を入力として、文字列グループを処理するクラス・ソースコードを作成するツール「blancoStringGroup」を新規作成</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStringGroup</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>「文字グループ定義書」に続き、「文字列グループ定義書」というExcel様式を入力として、文字列グループを処理するクラス・ソースコードを作成するツール「blancoStringGroup」の構想に着手しました。Excel様式の素案とサンプルソースコードは、とりあえずできました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

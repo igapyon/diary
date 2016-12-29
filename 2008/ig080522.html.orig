@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/05/22 日記: Eclipse Classic (SDK) 3.4 RC1 リリース , 翻訳ブレインを購入</TITLE>
+<META name="DESCRIPTION" content="Eclipse の次期版 3.4 の出荷候補版がリリースされました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/05/22 日記: Eclipse Classic (SDK) 3.4 RC1 リリース , 翻訳ブレインを購入</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Eclipse の次期版 3.4 の出荷候補版がリリースされました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Classic (SDK) 3.4 RC1 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse の次期版 3.4 の出荷候補版がリリースされました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse  3.4  日本語言語パック (サードパーティ版) 進捗メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A>
+による Eclipse 3.4 日本語化言語パックの現時点での翻訳進捗をメモしておきます。Eclipse Classic (SDK) 3.4
+に取りかかっています。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00" align="center"><STRONG>日付</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>モジュール</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>翻訳率</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>hit</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>all</STRONG></TD>
+    </TR>
+    <TR>
+      <TD>2008-05-22</TD>
+      <TD>NLpackja-eclipse-SDK-3.4RC1-win32-blancofw20080522.zip</TD>
+      <TD align="right">86.33%</TD>
+      <TD align="right">25147</TD>
+      <TD align="right">29126</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> 側の進捗が目覚ましく、ここ数日で 3%ほど進みました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig080602.html">2008/06/02 日記: Eclipse 3.4 (Ganymede) サードパーティ版 翻訳進捗</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversive 1.1.9_02 は Eclipse Classic (SDK) 3.4RC1 では うまく動かず…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>愛用してきた Subversive 1.1.9_02 は Eclipse Classic (SDK) 3.4RC1 ではうまく動かない模様です。<BR>
+SWT関連で クラスが見つからない系エラーが発生してしまいます。</P>
+<P>と思ったら Eclipse Subversive 0.7.0.v20080521 [21 May 2008] の changelog に 同様の修正が加えられていました。同じ修正を
+Subversive 1.1.9_02 に適用すれば回避できる模様です。</P>
+<P><FONT color="#ff0000">2008.05.24追記</FONT> Eclipse Subversive 0.7.0 もある程度は安定してきたようなので、私のターゲット Subversive を Eclipse
+Subversive に切り替えようと思います。とりあえず 簡単な範囲で Subversive 言語パックを作って適用して使い始めてみました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>翻訳メモリソフトを購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>翻訳メモリを利用するために ジャストシステムの翻訳ブレインというソフトを購入しました。</P>
+<UL>
+    <LI><A href="http://www.justsystems.com/jp/software/dt/honyaku/">ジャストシステム：日英・英日翻訳ソフト 翻訳ブレイン</A>
+</UL>
+<P>LISA TMX 1.4 の読み書きを試したところ、翻訳ブレインの TMX 読み込みは 以下のような 変わった制限があるように観察されました。</P>
+<UL>
+  <LI>ファイルのエンコーディングは UTF-16 決め打ちになっている
+  <LI>XMLの字下げが あるルールに則っていないと読み込めない
+  <LI>言語指定は大文字でおこなう必要がある
+</UL>
+<P>作成する TMX の仕様を 翻訳ブレインに合わせることで、読み込みおよび利用が可能なことを確認しました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

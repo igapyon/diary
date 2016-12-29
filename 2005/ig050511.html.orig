@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/05/11 日記: blancoDb Enterprise Edition 0.8.25 β2 リリース</TITLE>
+<META name="DESCRIPTION" content="R/Oマッピングツール blancoDb Enterprise Edition (EE) について、β2リリースを公開します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/05/11 日記: blancoDb Enterprise Edition 0.8.25 β2 リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] R/Oマッピングツール blancoDb Enterprise Edition (EE) について、β2リリースを公開します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) 0.8.25 を β2としてリリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition (以降 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>)
+について、インタフェースや仕様が ほぼ確定してきました。これをβ2としてリリースさせていただきます。今回のリリースは ある程度詳しい Java系方式技術屋さんが試用・検討されることを想定しています。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition ホームページ
+</UL>
+<P>ただし、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>のドキュメントは 現時点においても不足しています。JavaとJDBCとSQLがわかる方式屋さんなら
+Excelブックの準備を省略して<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を単純に実行して自動生成されるソースコードを見れば、比較的すんなりと全貌がわかる可能性はあります。(それは希望的観測なのでしょうけれどもね…)</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050526.html">2005/05/26 日記: blancoDb Enterprise Edition 1.0.0 正式版リリース</A>
+  <LI><A href="ig050421.html">2005/04/21 日記: blancoDb Enterprise Edition 0.8.1 β1リリース</A>
+  <LI><A href="ig050426.html">2005/04/26 日記: 「低機能」・「自由度の低さ」に価値があるというパラダイムシフト</A>
+  <LI><A href="ig050317.html">2005/03/17 日記: blancoDb 0.5.0 EA1 (早期アクセスプログラム1) リリース</A>
+  <LI><A href="../2004/ig040121.html">2004/01/21 日記: ソースコード生成タイプのR-Oマッピングを開発しませんか？</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JDBCにおける絶対・相対カーソル移動</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JDBC APIに カーソルによる絶対位置・相対位置移動の命令 (ResultSetオブジェクトの absolute, relativeメソッド)があります。意外にこれが
+ちゃんと機能することが 今日調べていてわかりました。結構びっくりしました。<BR>
+Microsoft SQL Server 2000で 10万件のデータに対して 適切にスクロールカーソルが機能していました。ただし 10万件の結果セット(ResultSet)の生成そのものには
+そこそこ時間がかかっていましたけれども (そして これは JDBCとは関係のない リレーショナルデータベースにおけるパフォーマンス上の課題です)。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

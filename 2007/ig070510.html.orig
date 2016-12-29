@@ -1,0 +1,361 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/05/10 日記: Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</TITLE>
+<META name="DESCRIPTION" content="Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。">
+<META name="KEYWORDS" content="DES,DESede,トリプルDES,暗号化,Java,JSSE,JCA">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/05/10 日記: Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</H2>
+    <P>[DES,DESede,トリプルDES,暗号化,Java,JSSE,JCA] Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。これのソースコードをメモしておきます。</P>
+<P>ポイント</P>
+<UL>
+  <LI>JDK 5.0 のAPIのみで構成
+  <LI>暗号化鍵を SHA-256ダイジェスト値で作成<BR>
+  短い暗号化鍵の種の種を入力したとしても、ダイジェスト値採用によって十分なビット長を得ることが出来ます。
+  <LI>パスワードを間違った場合には<STRONG>無警告で正常終了</STRONG><BR>
+  総当りによるパスワードクラックのリスクを低減化するために必要なことだと私は考えました。
+  <LI>トリプルDESアルゴリズム採用<BR>
+  AESは Java 6以降での提供になっています。JDK 5.0が全盛の現状では トリプルDESアルゴリズムの採用が妥当と考えました。
+  <LI>TODO: ファイルが既に存在するときの復号化について、現在は強行するようになっています。<BR>
+  これは、異常終了扱いとするのが良いかもしれいません。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">BlancoDesede.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツール。
+ */
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.security.InvalidKeyException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
+
+import javax.crypto.Cipher;
+import javax.crypto.CipherInputStream;
+import javax.crypto.CipherOutputStream;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESedeKeySpec;
+
+/**
+ * トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツール。
+ * 
+ * ファイルの拡張子により、暗号化／復号化の判断をおこなうようになっています。
+ * 
+ * @author 伊賀敏樹
+ * @version 2007.05.10
+ */
+public class BlancoDesede {
+    /**
+     * 利用するアルゴリズム。
+     */
+    private static final String ALGORITHM = &quot;DESede&quot;;
+
+    /**
+     * 暗号化後のファイルに付与される文字列。
+     */
+    private static final String ENCRYPTED_FILE_EXT = &quot;.blancodesede&quot;;
+
+    private static final String KEY_DIGEST_ALGORITHM = &quot;SHA-256&quot;;
+
+    /**
+     * パスワード。一時的に記憶しておくためにこのフィールド変数を利用します。
+     */
+    private String fPass = null;
+
+    /**
+     * パスワードを設定します。
+     * 
+     * @param argPass
+     */
+    public void setPass(final String argPass) {
+        fPass = argPass;
+    }
+
+    /**
+     * このツールの使い方説明です。
+     */
+    private static final void usage() {
+        System.out.println(&quot;Usage:&quot;);
+        System.out.println(&quot;  暗号化: java BlancoDesede 入力ファイル password&quot;);
+        System.out.println(&quot;  復号化: java BlancoDesede 入力ファイル&quot;
+                + ENCRYPTED_FILE_EXT + &quot; password&quot;);
+        System.out.println(&quot;※ファイル名には空白を含まないようにしてください。&quot;);
+        System.out.println(&quot;※拡張子が [&quot; + ENCRYPTED_FILE_EXT + &quot;]&quot;
+                + &quot; の場合には復号化モードと判断します。&quot;);
+    }
+
+    /**
+     * このクラスのエントリポイント。
+     * 
+     * @param args
+     */
+    public static void main(final String[] args) {
+        if (args.length &lt; 2) {
+            // 引数の数が足りません。
+            usage();
+            return;
+        }
+
+        final BlancoDesede angou = new BlancoDesede();
+        angou.setPass(args[1]);
+
+        final String inFileName = args[0];
+
+        System.out.println(&quot;ファイルを処理します。入力[&quot; + inFileName + &quot;]&quot;);
+
+        if (new File(inFileName).exists() == false) {
+            System.out.println(&quot;指定のファイル[&quot; + inFileName + &quot;]は見つかりません。処理中断します。&quot;);
+            return;
+        }
+
+        try {
+            if (inFileName.endsWith(ENCRYPTED_FILE_EXT) == false) {
+                System.out.println(&quot;  モード:暗号化&quot;);
+                angou.encrypt(new File(inFileName), new File(inFileName
+                        + ENCRYPTED_FILE_EXT));
+            } else {
+                System.out.println(&quot;  モード:復号化&quot;);
+                angou.decrypt(new File(inFileName), new File(inFileName
+                        .substring(0, inFileName.length()
+                                - ENCRYPTED_FILE_EXT.length())));
+            }
+
+            System.out.println(&quot;処理完了。&quot;);
+        } catch (IOException e) {
+            System.out.println(&quot;入出力例外が発生しました。処理中断します。:&quot; + e.toString());
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 与えられた文字列をもとに秘密鍵を作成します。
+     * 
+     * @param strKey
+     *            秘密鍵の種となる文字列。
+     * @return
+     */
+    private SecretKey getSecretKey(final String strKey) {
+        // 鍵の種をダイジェスト化して鍵として利用します。
+        // ポイント: SHA-256は32バイトあるので、DESedeで必要となる24バイトより長いので都合が良い。
+        final byte[] digestedKey;
+        try {
+            final MessageDigest msgDigest = MessageDigest
+                    .getInstance(KEY_DIGEST_ALGORITHM);
+            msgDigest.update(strKey.getBytes());
+            digestedKey = msgDigest.digest();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;ダイジェスト[&quot; + KEY_DIGEST_ALGORITHM
+                    + &quot;]取得に失敗しました。:&quot; + e.toString());
+        }
+
+        // 実際に利用するキーを作成します。
+        final byte[] keySeed = new byte[24];
+        for (int index = 0; index &lt; keySeed.length; index++) {
+            keySeed[index] = digestedKey[index];
+        }
+
+        try {
+            final SecretKeyFactory factory = SecretKeyFactory
+                    .getInstance(ALGORITHM);
+            return factory.generateSecret(new DESedeKeySpec(keySeed));
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
+                    + e.toString());
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;秘密鍵が不正です。:&quot; + e.toString());
+        } catch (InvalidKeySpecException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;秘密鍵の仕様が不正です。:&quot; + e.toString());
+        }
+    }
+
+    /**
+     * 暗号化をおこないます。
+     * 
+     * @param inFile
+     * @param outFile
+     * @throws IOException
+     */
+    private void encrypt(final File inFile, final File outFile)
+            throws IOException {
+        final Cipher cipher;
+        try {
+            final InputStream inStream = new BufferedInputStream(
+                    new FileInputStream(inFile));
+
+            cipher = Cipher.getInstance(ALGORITHM);
+            cipher.init(Cipher.ENCRYPT_MODE, getSecretKey(fPass));
+
+            final OutputStream outStream = new CipherOutputStream(
+                    new BufferedOutputStream(new FileOutputStream(outFile)),
+                    cipher);
+
+            copy(inStream, outStream);
+
+            outStream.flush();
+            outStream.close();
+
+            inStream.close();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
+                    + e.toString());
+        } catch (NoSuchPaddingException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;パディング不正で失敗しました。:&quot;
+                    + e.toString());
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;秘密鍵不正で失敗しました。:&quot; + e.toString());
+        }
+    }
+
+    /**
+     * 復号化を行います。
+     * 
+     * @param inFile
+     * @param outFile
+     * @throws IOException
+     */
+    private void decrypt(final File inFile, final File outFile)
+            throws IOException {
+        try {
+            final Cipher cipher = Cipher.getInstance(ALGORITHM);
+            cipher.init(Cipher.DECRYPT_MODE, getSecretKey(fPass));
+            final InputStream inStream = new CipherInputStream(
+                    new BufferedInputStream(new FileInputStream(inFile)),
+                    cipher);
+
+            final OutputStream outStream = new BufferedOutputStream(
+                    new FileOutputStream(outFile));
+
+            copy(inStream, outStream);
+
+            inStream.close();
+
+            outStream.flush();
+            outStream.close();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
+                    + e.toString());
+        } catch (NoSuchPaddingException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;パディング不正で失敗しました。:&quot;
+                    + e.toString());
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+            throw new IllegalArgumentException(&quot;秘密鍵不正で失敗しました。:&quot; + e.toString());
+        }
+    }
+
+    /**
+     * ストリームをコピーします。
+     * 
+     * @param inStream
+     * @param outStream
+     * @throws IOException
+     */
+    private void copy(final InputStream inStream, final OutputStream outStream)
+            throws IOException {
+        final byte[] byteBuf = new byte[1024];
+        for (;;) {
+            int length = inStream.read(byteBuf);
+            if (length &lt;= 0) {
+                break;
+            }
+            outStream.write(byteBuf, 0, length);
+        }
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff0000">2007.10.17追記</FONT> このソースコードは <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption" TITLE="暗号化・復号化を簡単に利用できるようにするためのJavaライブラリ(jarファイル)です。
+">blancoEncryption</A>
+へと発展しました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

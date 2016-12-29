@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/02/26 日記: Eclipse Classic (SDK) 3.4.2 リリース , OSC2009 Tokyo/Spring
+ふりかえり</TITLE>
+<META name="DESCRIPTION" content="Eclipse Classic (SDK) 3.4.2 が (内部向けに) リリースされました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/02/26 日記: Eclipse Classic (SDK) 3.4.2 リリース , OSC2009 Tokyo/Spring
+ふりかえり</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Eclipse Classic (SDK) 3.4.2 が (内部向けに) リリースされました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Classic (SDK) 3.4.2 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse Classic (SDK) 3.4.2 が (内部向けに) リリースされました。</P>
+<P>とはいえ、一般ユーザ向けには、まだリリースは告知しない状態のようです。</P>
+<UL>
+  <LI>Eclipse Ganymede SR2 ビルドは未リリース状態です。<BR>
+  phoenix についても Ganymede SR1 のままになっていました。
+  <LI>一般ユーザが訪れるサイトは、まだ 旧バージョンの Eclipse 3.4.1 のままです。
+  <LI>ミラーなどについて、これも未整備です。
+</UL>
+<P>とりあえず、これで Eclipse SDK 部分については翻訳作業着手可能な状態になったと判断します。<BR>
+この翻訳結果は、<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse 日本語化言語パック (サードパーティ版)</A> や <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> 、そして最終的には Eclipse Babel などから公開する予定です。</P>
+<P><FONT color="#ff0000">2009-02-27追記</FONT> Eclipse Ganymede SR2 についても、ミラーに行き渡りつつあります。トップページは SR1 のまま、まだ変更されていませんが、近いうちに一般の人もダウンロードできるようになることでしょう。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig090228.html">2009/02/28 日記: Eclipse Ganymede SR2 リリース</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OSC2009 Tokyo/Spring ふりかえり</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><STRONG><FONT color="#ff00ff">お会いした方</FONT></STRONG></P>
+<P>いろいろな方にお会いしました。こういう出会いが沢山あるのは、オープンソース・イベントならではの魅力です。</P>
+<UL>
+  <LI><A href="http://blogs.sun.com/katakai/">Masaki Katakai</A> さん
+  <LI><A href="http://blogs.itmedia.co.jp/barbaro/">藤井等</A>さん
+  <LI><A href="http://blogs.embarcadero.com/teamj/2009/02/12/385/">Jose Leon</A> さん<BR>
+  →「スペイン語では blanco は白だよ!」というツッコミをされていかれました。これがもっとも印象的です。
+  <LI><A href="http://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8E%9F%E5%BE%B9">宮原徹</A>さん
+  <LI>他にも多数の方々… (思い出しながら執筆中…)
+</UL>
+<P>みなさん、どうもありがとうございます。</P>
+<P><STRONG><FONT color="#ff00ff">Pleiades</FONT></STRONG></P>
+<P><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> 利用者の方々からのご要望 (のなかから主なものを…)</P>
+<UL>
+  <LI>「<A href="http://mergedoc.sourceforge.jp/jstyle.html">JStyle</A> を Windows で愛用してきました。Linux 上でも是非使いたいので対応して下さい!」というご意見が多数!
+  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> All in One について、Windows 以外の他 OS 対応して欲しい。
+  <UL>
+    <LI>Linux 版が欲しいです (8 票ほど)。
+    <LI>Mac 版が欲しいです (2 票ほど)。
+    <LI>→なお、この件は、技術的には All in One を解凍して SDK を上書きしたら動作すると考えます。(かしはらさんにお聞きしました)
+  </UL>
+  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> の動作不良ネタ… (1 票ほど)。
+</UL>
+<P>OSC 来場者の傾向としては、Ubuntu の登場によって Windows ユーザから <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> への移行が結構浸透してきているように感じられました。とはいえ、これは
+あくまでも、先端的な技術者の多くが Windows から Ubuntu に流れている、というだけの話です。一般ユーザは まだまだこれからでしょうね…。</P>
+<P><FONT color="#ff00ff">関連する情報</FONT></P>
+<UL>
+  <LI><A href="http://d.hatena.ne.jp/cypher256/20090227">C/pHeR Memo: 2009-02-27 Pleiades All in One (Eclipse 3.4.2 Ganymede SR2)</A>
+</UL>
+<P><STRONG><FONT color="#ff00ff">blanco Framework</FONT></STRONG></P>
+<P>地味ながらも <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の知名度が徐々に上がってきた模様です。ユーザの方々、どうもありがとうございます。<BR>
+一方、<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse 日本語化言語パック (サードパーティ版)</A> への取り組みが知名度向上に大きく影響しているようです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig090215.html">2009/02/15 日記: OSC2009 Tokyo/Spring 用の資料を作成 , iSCSI 勉強開始</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/16 日記: Eclipseプラグイン開発技術に取り組むにあたり、GUI関連技術およびデザインパターン利用を解禁</TITLE>
+<META name="DESCRIPTION" content="リソースの集約に関する戦略的な都合、私は 意図的に GUI関連技術およびデザインパターン利用を制限していました。今回、Eclipseプラグイン開発技術に取り組んでいくにあたり、GUI関連技術およびデザインパターン利用について 制限を解除します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/16 日記: Eclipseプラグイン開発技術に取り組むにあたり、GUI関連技術およびデザインパターン利用を解禁</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] リソースの集約に関する戦略的な都合、私は 意図的に GUI関連技術およびデザインパターン利用を制限していました。今回、Eclipseプラグイン開発技術に取り組んでいくにあたり、GUI関連技術およびデザインパターン利用について 制限を解除します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseプラグイン開発技術に取り組むにあたり、GUI関連技術およびデザインパターン利用を解禁</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は 持ち合わせている能力リソース集約の戦略的な都合として、普段から いくつも自分に制限をかけています。私は基本的に ネットワークプログラミングとかミドルウェア関連技術とかの、裏の技術に対して自らのリソースを集中配分してきています。このため、例えば
+前世紀から Java言語に従事しているのにもかかわらず、JSP+Strutsのプログラミングについて、ほとんどスキルを持っていないのはそのためです。私は自らに
+GUI関連技術には時間を割り当てないと制限をかけているのです。JSP+Struts専門家は別に専門家を育てているのです。しかし一方で Java
+Servletに関するプログラミングスキルについては、積極的に身につけてきました。それは Java Servletが 本当の基盤技術のひとつであると判断したからです。(しかし
+どこを基盤技術たるものとして判断するかについては、人によって、立場によって異なります。そこがおもしろいところです)</P>
+<P>今回 Eclipseプラグイン開発技術について考えを巡らせた結果、Eclipseプラグイン開発技術は 私の立場にとっては重要な基盤技術であることが判断し、そして理解できてきました。私にとってはEclipseプラグイン開発技術が
+Java言語の登場や Java Servletの登場、JDBCドライバの登場などと同じくらいインパクトのある基盤技術として普及していくものと予測したからです。ここで重要なのは、Eclipseプラグイン開発技術は
+昔から存在する技術であるということです。新たに登場したということに価値があるのでは無く、Eclipseプラグイン開発技術が 次の世代のコンピュータソフトウェア開発技術の中で
+中核となる基盤技術として普及するための各種条件が整った、ということにあるのです。私は新技術に興味があるのでは無くって、それら新技術がある程度枯れた技術になり、そして<STRONG>収穫の時期</STRONG>が訪れたそのタイミングに 関連する開発技術を身につけておいて対応できるような体制を取っておきたいのです。とにかく重要なことは、Java ServletやJDBCといったインタフェースと同等のものとして
+Eclipseプラグイン開発技術が位置づけられるという点です。(そしておそらく私は GUI関連はほどほどに、根っこの方の技術に やはり注力していくのでしょうね…)</P>
+<P>次に Eclipseプラグイン開発技術に手を染めるためには、デザインパターンについて これを理解して利用する必要があります。今まで私は私自身にデザインパターンに対して時間を割り当てないように制限をかけてきました。少なくとも
+デザインパターンによって実装・構築されたナニカを利用するために 最低限の理解は行おうとは考えていましたが、みずからが ナニかデザインパターンを適用したクラスを作成することは極力避けてきました。これは
+自分でなにかデザインパターンを適用した新しいクラスを作成すると、それに対して説明のためのドキュメントやサンプルプログラムそして教育など、各種の周囲の導入のためのコストが発生することと認識していたからです。原則として、デザインパターンの導入はコスト高のリスクがとても高いのです。<BR>
+しかし Eclipseプラグイン開発技術の利用・理解のためには デザインパターン導入は必須です。それは構造上の都合からくるものなのです。そして
+Eclipseプラグイン開発技術の実現のためには こってこてのデザインパターンの導入はどうしても必要なものだったことだとも追認できます。デザインパターンというものが存在しているからこそ、Eclipseプラグイン開発技術が
+あのように整理されてシンプルに提供できているのです。そのような背景から、私は Eclipseプラグイン開発技術に関してだけは、みずからにデザインパターンの利用を許可することとします。Eclipseプラグイン開発技術に結びついたデザインパターンについては、いくつかのサンプルが提供されていて、書籍も提供されており、そして何よりも
+それを利用して開発された具体的なプロダクトである Eclipseが ソースコード付きで公開されているのです。こんな頼もしい デザインパターン適用サンプルは
+私は今まで見たことがありません。</P>
+<P>そのようなことで、私は 自分自身に課していた GUI関連技術およびデザインパターン利用に関する制限を、限定付きながら解除することとします。(そのように宣言しないと、自分自身で
+自分のスキルマップを見失いがちなのです) Eclipseプラグイン開発技術は 天変地異に近いものがあるものですからね…。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050715.html">2005/07/15 日記: IBM Workplace Client Technologyの衝撃</A>
+  <LI><A href="ig050509.html">2005/05/09 日記: オブジェクト指向レス開発</A>
+  <LI><A href="ig050615.html">2005/06/15 日記: コンピュータ・ソフトウェアの本質</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DIやAOPは リッチクライアント駆動のための技術としても重要</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某 著名なライターさんと話をしていて、「DIやAOPは リッチクライアント駆動のための技術としても重要」ということに気がつきました。この目的の実現のためには、DIコンテナは
+リッチクライアント側でも動作させることが必要になります。例えば リッチクライアントの動作を DIの機能によって 単体試験の際にはダミーのクラスを、結合試験の際には
+Webサービスを それぞれ呼び出させる、なんてことが自然に しかし効果的に実現できます。これに気がついたときには、目から鱗でした。それまでは
+DIコンテナについて、ついついサーバサイドで駆動させることという先入観が働いていたのです。DIコンテナは リッチクライアントの際にはクライアントサイドとしても重要な実装技術のひとつになる可能性が高いのです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseプラグイン開発のためには、ずいぶんと贅沢な開発環境が必要なことが判明…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipseプラグイン開発のためには、ずいぶんと贅沢な開発環境が必要なことがわかってきました…<BR>
+これはパソコンを更新する必要があるかも、ってくらい重い処理であるようです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseプラグインにおける印刷環境の考察</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2005.07.20追記</FONT> Eclipseプラグインベースの業務システムを開発する際には、何かしら帳票ツールが必要であることに気がつきました。<BR>
+そういえば、先日 Eclipseプロジェクトに帳票ツールが加わったというニュースを見たような見なかったような… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ようやく某記事の構成案作成に着手しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>編集者さま、ごめんなさい。ようやく某記事の構成案作成に着手しました。いましばらくお待ちください。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>ITmedia: フリーソフトでお金を稼ぐには<BR>
+  <A HREF="http://www.itmedia.co.jp/news/articles/0507/15/news027.html">http://www.itmedia.co.jp/news/articles/0507/15/news027.html</A><BR>
+  オープンソースとはビジネスモデルではなく配布の手法を指しているのにすぎない、のところがとても参考になりました。
+</UL>
+<P><BR>
+</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

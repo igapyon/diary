@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/03/15 日記: OSC2007 Tokyo/Spring に blanco Framework を展示</TITLE>
+<META name="DESCRIPTION" content="オープンソースカンファレンス 2007 Tokyo/Spring の 2007/03/17(土)日程にて blanco Frameworkを展示します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/03/15 日記: OSC2007 Tokyo/Spring に blanco Framework を展示</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] オープンソースカンファレンス 2007 Tokyo/Spring の 2007/03/17(土)日程にて blanco Frameworkを展示します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OSC2007 Tokyo/Spring に blanco Frameworkを展示</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>オープンソースカンファレンス 2007 Tokyo/Spring の 2007/03/17(土)日程にて <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> を展示します。</P>
+<P>日本電子専門学校(東京都新宿区・JR大久保駅徒歩2分)で開催されるOSC2007 Tokyo/Spring の 2007/03/17(土)日程にて、blanco
+Framework のセミナー発表および展示を行います。お越しの方は、是非お立ち寄りください。</P>
+<UL>
+  <LI>オープンソースカンファレンス 2007 Tokyo/Spring<BR>
+  <A HREF="http://www.ospn.jp/osc2007-spring/">http://www.ospn.jp/osc2007-spring/</A>
+  <LI>セミナー: オープンソース下流開発フレームワーク 「blanco Framework (ブランコ・フレームワーク)」の最新動向<BR>
+  2007/03/17(土) <STRONG><FONT color="#ff0000">10:00-10:45</FONT></STRONG><BR>
+  会場：7号館 9F 実習室<BR>
+  <A HREF="http://www.ospn.jp/osc2007-spring/modules/eguide/event.php?eid=46">http://www.ospn.jp/osc2007-spring/modules/eguide/event.php?eid=46</A>
+  <UL>
+    <LI>※こちらのセミナーの中で、JExcelApi日本語化パッチへの取り組みに関する話題を扱う予定です。
+  </UL>
+  <LI>展示: blanco Framework Community会<BR>
+2007/03/17(土) 10:00-16:00 (但し 10:00-11:00までは説明員が不在)<BR>
+会場：7号館 6F-A(言語/フレームワーク)<BR>
+  <A HREF="http://www.ospn.jp/osc2007-spring/modules/xfsection/article.php?articleid=2">http://www.ospn.jp/osc2007-spring/modules/xfsection/article.php?articleid=2</A>
+  <UL>
+    <LI>※JExcelApi日本語化パッチに取り組んでいるメンバーと意見交流ができます
+  </UL>
+</UL>
+<P>前回の OSC2006 Tokyo/Fallでのご要望に対応し、Java / C#.NET / JavaScript に加えて、VB.NET
+/ PHP ソースコード自動生成に対応しました。<BR>
+皆様のお越しを、お待ちしております。</P>
+<P>なお、この日は blanco Frameworkコミッタ (3名) が全員集まる予定です。</P>
+<P><FONT color="#ff00ff">JExcelApiに対する取り組み</FONT></P>
+<P>blanco Frameworkは <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>に支えられて成り立っているオープンソースです。そのため、blanco
+Frameworkとして JExcelApi日本語化パッチについても取り組んでいます。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig061028.html">2006/10/28 日記: オープンソースカンファレンス2006 (OSC2006) Tokyo/Fall のライトニングトークにて発表をさせていただきました</A>
+  <LI><A href="../2006/ig060624.html">2006/06/24 日記: オープンソースカンファレンス2006 .DB (OSC2006 .DB) に参加 , 五嶋龍さんのヴァイオリン弦の種類</A>
+  <LI><A href="../2006/ig060318.html">2006/03/18 日記: OSC2006 ライトニングトーク</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

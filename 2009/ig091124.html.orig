@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/11/24 日記: Java JDK 1.6 の XML SAX 読み込みに発生する某悩ましいバグの発動条件が判明</TITLE>
+<META name="DESCRIPTION" content="某アプリケーションが JDK 1.6 上で適切に XML ファイルを読み込めない不具合の原因がわかりました。(原因というか、バグ発動条件)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/11/24 日記: Java JDK 1.6 の XML SAX 読み込みに発生する某悩ましいバグの発動条件が判明</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 某アプリケーションが JDK 1.6 上で適切に XML ファイルを読み込めない不具合の原因がわかりました。(原因というか、バグ発動条件)</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java JDK 1.6 の XML SAX 読み込みに発生する某悩ましいバグの発動条件が判明</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某アプリケーションが JDK 1.6 上で適切に XML ファイルを SAX 経由で読み込めない不具合の原因がわかりました。(原因というか、バグ発動条件)</P>
+<P>Java JDK 1.6 の XML 処理系は、XML バージョン 1.1 のファイルがある特定条件を満たしたときに読み込みが稀にバグるようです。要素の部分が
+characters に渡ってきてしまうのです。Sun の Windows XP 向け Java JDK で確認しました。これを XML バージョン
+1.0 とバージョン番号をデグレード(?) すると、この現象は発生しなくなります。</P>
+<P>原因がわかって良かったです。</P>
+<P>が、、、さて、はて、その某アプリケーションは XML 1.1 の利用が必須だったのかどうか、記憶があやふやです。何か理由があったような…。<BR>
+現状の状況だと、JDK 1.6 に対応するのメサキの対応としては、XML 1.0 に戻すことが手っ取り早そうです。<BR>
+XML の内容が不適切であるという可能瀬も無いことはありませんのですけれども。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/05/17 日記: Informix 調べ中, BlancoSqlEditorPlugin出荷候補版リリース</TITLE>
+<META name="DESCRIPTION" content="商用リレーショナルデータベース Informix を調べています。 , フリーなSQL編集・整形プラグイン BlancoSqlEditorPlugin出荷候補版をリリースしました。">
+<META name="KEYWORDS" content="Informix,ESQL/C,PostgreSQL">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/05/17 日記: Informix 調べ中, BlancoSqlEditorPlugin出荷候補版リリース</H2>
+    <P>[Informix,ESQL/C,PostgreSQL] 商用リレーショナルデータベース Informix を調べています。 , フリーなSQL編集・整形プラグイン BlancoSqlEditorPlugin出荷候補版をリリースしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Informix 調べ中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>商用リレーショナルデータベース Informix を調べています。</P>
+<UL>
+  <LI>Informix<BR>
+  <A HREF="http://www-06.ibm.com/jp/software/data/informix/">http://www-06.ibm.com/jp/software/data/informix/</A>
+  <LI>IBM、次期Informixデータベースのベータ版を公開 <BR>
+  <A HREF="http://www.computerworld.jp/news/sw/58329.html">http://www.computerworld.jp/news/sw/58329.html</A>
+</UL>
+<P>私は 仕事として最初に携わったリレーショナルデータベースが Informixだったです。懐かしい気持ちがします。</P>
+<P>調べていく過程で、PostgreSQLの Informix互換モードなるものを発見。PostgreSQL の ECPG プリコンパイラを Informix互換モード
+で動作させることができる模様です。</P>
+<UL>
+  <LI>PostgreSQL 8.2.0文書<BR>
+  <A HREF="http://www.postgresql.jp/document/pg820doc/html/ecpg-informix-compat.html">http://www.postgresql.jp/document/pg820doc/html/ecpg-informix-compat.html</A><BR>
+  ちょうど Informix の ESQL/C に相当するものである模様。
+</UL>
+<P>もとをたどれば、PostgreSQLとInformixとは親戚関係のようなものなのだそうです。</P>
+<UL>
+  <LI><A HREF="http://www.atmarkit.co.jp/fdb/rensai/dbwatch2004/dbwatch200410_2.html">http://www.atmarkit.co.jp/fdb/rensai/dbwatch2004/dbwatch200410_2.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BlancoSqlEditorPlugin出荷候補版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancosqleditorplugin.html" TITLE="SQL文を整形するEcilpseプラグインです。Eclipse上で sql拡張子と関連づけられた SQLエディタとして動作します。">BlancoSqlEditorPlugin</A> 出荷候補版 (1.0.0) をリリースしました。関係者と自覚される方は最終チェックをお願いします。日本語以外のロケールでの動作を中心にチェックをお願いします。特に問題がないようでしたら、正式リリースへと昇格させます。</P>
+<P>ちなみに Eclipseを日本語以外のロケールに切りかえる方法は 下記の記事をご覧下さい。</P>
+<UL>
+  <LI><A href="http://www.atmarkit.co.jp/fjava/rensai4/programer05/programer05_1.html">＠IT: プログラマーの常識をJavaで身につける（5）: 国際化プログラミングの常識</A>
+</UL>
+<P><FONT color="#ff0000">2007.05.19追記</FONT> フィードバックをお寄せいただき、ありがとうございます。正式版としてリリースします。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

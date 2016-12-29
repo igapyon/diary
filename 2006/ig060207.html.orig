@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/02/07 日記: blancoDb Enterprise Editionの英語対応を検討</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Editionの英語対応を検討してみました。いろいろ範囲が広範です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/02/07 日記: blancoDb Enterprise Editionの英語対応を検討</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDb Enterprise Editionの英語対応を検討してみました。いろいろ範囲が広範です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Editionの英語対応について</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> FrameworkのblancoDb Enterprise Editionの英語対応について、ざっくり検討しました。<BR>
+さしあたり下記の対応について実施が必要と考えられます。</P>
+<UL>
+  <LI>SQL定義書様式の英語対応
+  <LI>生成するソースコードの英語対応
+  <UL>
+    <LI>blancoDb本体
+    <LI>blancoValueObject
+    <LI>blancoAntTask
+  </UL>
+  <LI>blancoDbの処理そのもののメッセージ類の英語対応
+  <LI>blancoAntTaskのAntTask定義書の英語対応
+  <LI>Eclipseプラグインの英語対応
+</UL>
+<P>さしあたり SQL定義書を英語対応してみました。blancoCalcParserのおかげで、様式の英語対応は ちょっとの時間で実施することが出来ました。</P>
+<UL>
+  <LI>SQL定義書(Java) 英語版<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/meta/db/template/blancoDbTemplate.xls">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/meta/db/template/blancoDbTemplate.xls</A>
+</UL>
+<P>Eclipseプラグインの英語対応に目をつぶるとしたら、生成するソースコードの英語対応および精製時のメッセージだけ何とかすれば良いのか、と妄想しています。でも時間がないので
+なかなか実施は難しそうです。blancoAntTaskの英語対応など、blancoDbが依存する、地味で小降りなプロジェクトから対応していきたいと考えています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet (.NET Framework版 R/Oマッピング)のリビジョン・リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blancoDbDotNetについて、微細なバグが発見されたのでこれを修正してリビジョンアップ・リリースしました。<BR>
+思えば、blancoDbDotNetは一般向けの「正式版」なるリリースをまだ実施していないことを思い出しました。はてはて、実施せねば… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JSONネタをメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>naoyaのはてなダイアリー: 2006.02.07: JSON を Template-Toolkit で展開する Jemplate<BR>
+  <A HREF="http://d.hatena.ne.jp/naoya/20060207/">http://d.hatena.ne.jp/naoya/20060207/</A><BR>
+  AjaxやJSONのネタを集めていたので、この日記がとても気になりました。(via <A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんの日記)
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/08/16 日記: メールによる汎用的インタフェース仕様</TITLE>
+<META name="DESCRIPTION" content="メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoMail">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/08/16 日記: メールによる汎用的インタフェース仕様</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoMail] メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールによる汎用的インタフェース仕様ドラフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。<BR>
+※このメモは <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> の仕様検討に該当します。</P>
+<UL>
+  <LI>認証
+  <UL>
+    <LI>メールアドレスによる認証
+    <UL>
+      <LI>ユーザID = メールアドレス。パスワードは無し(?)なぜならMD5などで担保。
+    </UL>
+    <LI>接続に対して セッションID の発行・管理
+    <UL>
+      <LI>MD5などのダイジェストによるセッションIDの生成
+      <LI>タイムアウト指定によるセッションIDのクリア
+    </UL>
+    <LI>セッションIDによる通信許可／遮断
+  </UL>
+  <LI>コマンド
+  <UL>
+    <LI>login
+    <LI>logout
+    <LI>mail ls -l みたいなもの (?) UNIX的な短いコマンドが希望。
+    <LI>set -v みたいな verboseモード
+    <LI>電文例:
+    <TABLE border="1">
+      <TBODY>
+        <TR>
+          <TD>Subject: blancoMail #37<BR>
+          digest=CA:FE:BA:BE<BR>
+          ==begin==<BR>
+          mail ls -l<BR>
+          ==end==</TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+    <LI>電文例:
+    <TABLE border="1">
+      <TBODY>
+        <TR>
+          <TD>Subject: blancoMail #38<BR>
+          digest=CA:FE:BA:BE<BR>
+          message=8/5の予定を受諾しますか？<BR>
+          ==begin==<BR>
+          schedule question yes<BR>
+          schedule question no<BR>
+          ==end==</TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </UL>
+  <LI>機能
+  <UL>
+    <LI>Yes/No 選択
+    <LI>ラジオボタン選択
+    <LI>承認機能
+    <LI>ユーザ登録、削除
+    <UL>
+      <LI>ユーザ登録の際に、画像ファイルを添付データとして送り、その画像に含まれる文字をタイプしてもらって、確実な認証を実現するという仕様の可能性を検討
+      (<FONT color="#ff0000">2007.08.26追記</FONT>)
+    </UL>
+    <LI>タイムアウト機能<BR>
+    滞留していたメールについて、期限切れを起こしていたらコマンド実行を抑制する機能。<BR>
+    あるいは、次のコマンドが先に来たら、古いコマンドは破棄する機能かも知れない。
+  </UL>
+  <LI>メール送信
+  <UL>
+    <LI>煩雑にならないために
+    <UL>
+      <LI>同じメールを連続して送付しない
+      <LI>メールを所定時間内に連続して送付しない
+      <LI>時間帯指定: 夜はメールを送らない
+      <LI>ログイン失敗の通知は限定的に
+    </UL>
+    <LI>指定サイズを超える場合の対処 (<FONT color="#ff0000">2007.08.21追記</FONT>)
+    <UL>
+      <LI>パターン1: 送らない
+      <LI>パターン2: 分割して送る
+      <LI>ポイント: 送信先デバイスの特性に合わせたサイズ考慮。
+    </UL>
+    <LI>指定の宛先数を超える場合の対処 (<FONT color="#ff0000">2007.09.05追記</FONT>)
+    <UL>
+      <LI>パターン1: (セキュリティ上のリスクを考え) 送らない
+    </UL>
+    <LI>TOやCC内で同一アドレスが重複して与えられた場合 (SMTPの際に エラーとして扱われるため考慮が必要かも)
+  </UL>
+  <LI>メール受信 (<FONT color="#ff0000">2007.08.21追記</FONT>)
+  <UL>
+    <LI>テキストとHTMLとが両方送られてきた場合にはテキストを読み込む
+    <LI>テキストのないHTMLメールの場合にはHTMLをパースしてテキストのみを読み込む<BR>
+    →それでは、HTMLでプレーンテキストな文字を優先して制御文字としなくては… エンコードされるのは避けたい。
+    <LI>指定のサイズ数を超える場合の対処 (<FONT color="#ff0000">2007.09.05追記</FONT>)
+    <UL>
+      <LI>パターン1: 受け取らない。
+    </UL>
+    <LI>指定のアドレス以外からのメールは受け取らない。
+  </UL>
+  <LI>ストレージ
+  <UL>
+    <LI>Tracのデータベーススキーマを転用することを検討<BR>
+    →そうすると 当面 UIが無くても Tracから操作できる！
+    <LI>Hinemosのデータベーススキーマの転用も検討
+    <LI>とにかく、自分で新たなものを創造しないように気をつける。
+  </UL>
+  <LI>トランザクション
+  <UL>
+    <LI>応答に対応した再確認アクション → これでトランザクション風
+    <LI>どのようなメールが飛ぶのかを、自分宛メールで確認する 確認アクション → メール暴発の防止
+  </UL>
+</UL>
+<P>その他機能</P>
+<UL>
+  <LI>メール送受信の単体試験モード<BR>
+  ※単体試験用に メール送受信の依頼に対して 実際には動作せずに トレースを黙々と吐く機能。(<FONT color="#ff0000">2007.09.03追記</FONT>)
+  <LI>リモートアドレス帳<BR>
+  リクエストに応じて該当者の連絡先をメールで戻す。
+  <LI>メール内容下書き機能<BR>
+  PCなどでメール内容を下書きしておく機能。→ただし、このためには Web画面のほうの実現が必要。
+  <LI>(<FONT color="#ff0000">2007.08.20追記</FONT>) 指定アドレスからのメールのみを別メールアドレスに転送。
+</UL>
+<P>メモ</P>
+<UL>
+  <LI>構造としてはプロデューサ・コンシューマパターンか？
+  <LI>RIA時代 (Java FX時代) には、このような汎用的インタフェースというものの存在意義があるはず、と考えます。
+  <LI>TODO管理機能なども欲しい。TODOをRSS出力。、、、ああ、これは Tracのチケットかしら？ 公開区分とかは どうなっているのかしら。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070904.html">2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</A>
+  <LI><A href="ig070905.html">2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</A>
+  <LI><A href="ig070815.html">2007/08/15 日記: メールによる汎用的インタフェース構想 (blancoMail)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>「Vista Capable」は不当表示？ - ITmedia アンカーデスク<BR>
+  <A HREF="http://www.itmedia.co.jp/anchordesk/articles/0708/14/news031.html">http://www.itmedia.co.jp/anchordesk/articles/0708/14/news031.html</A><BR>
+  記事中にあるように、「800MHzのプロセッサと512MバイトのRAM」環境下では、Windows Vistaを動作させるのは かなりの困難を伴うように思います。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

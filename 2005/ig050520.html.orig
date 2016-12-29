@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/05/20 日記: TPOに合わせたオブジェクト指向適用の必要性 , ExcelMessageResourceリリース</TITLE>
+<META name="DESCRIPTION" content="結局のところ、TPOに合わせてオブジェクト指向を適用していく必要がある、という とても当たり前な だけれども非常に重要なことがわかってきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/05/20 日記: TPOに合わせたオブジェクト指向適用の必要性 , ExcelMessageResourceリリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 結局のところ、TPOに合わせてオブジェクト指向を適用していく必要がある、という とても当たり前な だけれども非常に重要なことがわかってきました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TPOに合わせたオブジェクト指向の適用</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>結局のところ、TPOに合わせてオブジェクト指向を適用していく必要がある、という とても当たり前な だけれども非常に重要なことがわかってきました。</P>
+<UL>
+  <LI>開発するソフトウェアの種類<BR>
+  業務システムなのか、基盤システム（フレームワーク類）なのか、ミドルウェア層アプリなのか…
+  <LI>開発期間
+  <LI>同時参画人数<BR>
+  いきなし大量に人が投入されるかどうか
+  <LI>設計時に参画する人のスキル
+  <LI>開発時に参画する人のスキル
+  <LI>運用時に参画する人のスキル<BR>
+  TCOの観点からは、じつはここのフェーズがとても重要なのです。
+</UL>
+<P>TPOに合わせてオブジェクト指向を適用する範囲や濃度を決定しないと、とんでもなく大変ひどいことになります。短期の間に 優秀なオブジェクト指向技術者を集めることは容易なことではありません。かといって、設計・運用までスキルのある人で固めたとしても、運用時にまで
+優秀なオブジェクト指向技術者を配置できるかどうかは、難しい現場もあることでしょう。そもそも、業務系の開発現場では、オブジェクト指向技術やJava言語技術よりも、むしろSQL関連技術や業務スキルの方が重要である局面もあるでしょうから…。</P>
+<P>オブジェクト指向の適用のさじ加減、ひいては、そもそも「美しい」・「醜い」システムまたはソースコードは どういうものを指すのかについても、やはりTPOと深い関わりがあります。カリカリのフレームワーク類やミドルウェア類における「美しい」実装と、<STRONG>どろどろ</STRONG>の業務システムにおける「美しい」実装との間にも、大きなかけはなれがあります。私は 運良くか運悪くか定かではありませんが両方の世界に身を置いているので、双方の美意識や価値観をビミョウに知っています。</P>
+<P>そういう<STRONG>どろどろ</STRONG>の現場における適切なオブジェクト指向の適用に関する記事って、あまり見かけないのが残念です。ちなみに私は 現状の オブジェクト指向言語を用いた業務システム開発において、オブジェクト指向設計はほとんど不要で無用だと考えています。(端的に言うとそういう主張になるというだけで、掘り下げて表現すると、長い長い話になりますけれどもね)
+あまり世間的にオブジェクト指向設計不要論というのは出てきていませんね。でも<STRONG>どろどろ</STRONG>の業務システム開発現場では、オブジェクト指向設計不要論は そこそこ一般的な思想なのです。そこのギャップが、また味わい深いです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オブジェクト指向のデザインパターンを業務システムに適用すると、その人はプロジェクト体制の上でもパターンが適用される</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>オブジェクト指向のある種のデザインパターンを業務システムに適用すると、そのモデルを適用した人が プロジェクト体制の上でも そのデザインパターンが適用されるのではないかという恐ろしいルールに、ふと気がつきました。<BR>
+通信部分にファサード・デザインパターンを適用すると、通信系でQ&amp;Aが発生した際に、その人に問い合わせが行きます。だって その箇所がファサードであ、調べるためには
+そのファサードを作った人に聞かないと解決できなくって、だからその人はファサードになるのです。プロジェクトが24時間体制になった際に、ファサードを作成した人も24時間体制にならないといけない、これが一番恐ろしい現象です。(たとえ話です。人間は睡眠を適切に採らないと活動できませんものね…)<BR>
+他のデザインパターンについても、オブジェクト指向のデザインパターンとプロジェクト体制の上でのデザインパターンとの間の関連については、考察を深める必要がありそうです。</P>
+<P>フレームワーク類にデザインパターンを適用する際には、そのデザインパターンが自分の職制・生活・未来にも適用されるという重要な事実を、アーキテクト／方式屋さんは適切に理解しておく必要があります。ああ、なんて恐ろしい…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ExcelMessageResource: Excelブックに格納されたメッセージリソースをJava から利用可能にするライブラリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://tidus.ultimania.org/diary/" TITLE="すごい技術者の方。JavaもDebianも そしてそれ以外も とても詳しく そしてすばらしい方です。">tidus</A>さんがExcelMessageResourceという Excelブックに格納されたメッセージリソースをJava
+から利用可能にするライブラリのファーストリリースを実施されました。</P>
+<UL>
+  <LI><A HREF="http://tidus.ultimania.org/diary/" TITLE="すごい技術者の方。JavaもDebianも そしてそれ以外も とても詳しく そしてすばらしい方です。">tidus</A>さんの日記: 2005/05/20<BR>
+  <A HREF="http://tidus.ultimania.org/diary/tb.rb/20050520">http://tidus.ultimania.org/diary/tb.rb/20050520</A>
+</UL>
+<P>ああ、すばらしい。ExcelブックとJavaプログラムがどんどん親和性を持ち始めています！</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PuTTY</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とある場面にて、PuTTYをダウンロードしました。</P>
+<UL>
+  <LI>Yebisuya Hompo / 蛭子屋本舗(一応本店)<BR>
+  <A HREF="http://yebisuya.dip.jp/">http://yebisuya.dip.jp/</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

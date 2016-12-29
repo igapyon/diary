@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/04/29 日記: JCom (JavaからCOM呼出ライブラリ) , VBとC#/Javaとの相違点とは</TITLE>
+<META name="DESCRIPTION" content="「キューポラのある街」に住んでいます(!)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/04/29 日記: JCom (JavaからCOM呼出ライブラリ) , VBとC#/Javaとの相違点とは</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 「キューポラのある街」に住んでいます(!)</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JCom (Java-COM Bridge) ライセンスよもやま話</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Java言語からCOM呼び出しを可能にする素敵なライブラリ実装の一つであるJCom (http://sourceforge.net/projects/jcom/)について、渡辺さんの日記 <A HREF="http://d.hatena.ne.jp/a-san/20040426#1082993245">http://d.hatena.ne.jp/a-san/20040426#1082993245</A> に利用者の要求により ライセンスが一部調整されたと書かれてありました。<BR>
+ちなみに、私はJComに対して、雑務面(単にアップロード係)で参加していました。いま
+SourceForgeを見たら、なるほど参加者が増えていました。おおって思ってしまいました(笑)<BR>
+それにしても、国産オープンソースソフトだって、いろいろあるんだぞ～って誇らしく思いました。国産なのに海外勢も開発に参加してくれるのは、とっても嬉しいです。むふふっ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>キューポラのある街</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>キューポラのある街<BR>
+  <A HREF="http://www.city.ueda.nagano.jp/shogaigakushu/movie2002/kaikan/arumati.htm">http://www.city.ueda.nagano.jp/shogaigakushu/movie2002/kaikan/arumati.htm</A>
+</UL>
+<P>うちのすぐ近くに、もくもくと煙を吐く工場があります。電気炉ではない模様です。ものすごく煙が出てきます。ごうごうです。しなびたパチンコ屋もすぐ近くに…。私の住んでいる場所って、映画の舞台そのものか？ 近いうちに映画を観てみようと思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語からFlashの実行ファイルを作成するためのライブラリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>DrawSWF<BR>
+  <A HREF="http://d.hatena.ne.jp/habuakihiro/20040428#1083151389">http://d.hatena.ne.jp/habuakihiro/20040428#1083151389</A><BR>
+  <A HREF="http://drawswf.sourceforge.net/index.html">http://drawswf.sourceforge.net/index.html</A><BR>
+  おおっ、これは面白そう。JavaでFlash実行ファイル(swfファイル)を作成できるんですねぇ。おもしろそうです。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcatを複数起動し、サイトを一時的にも落としたくない状態にする方法 via オレンジニュース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Tomcatを複数起動し、サイトを一時的にも落としたくない状態にする方法 via
+オレンジニュース<BR>
+  <A HREF="http://d.hatena.ne.jp/habuakihiro/20040428#1083160638">http://d.hatena.ne.jp/habuakihiro/20040428#1083160638</A><BR>
+  これまた萌える記事。貧乏人のためのノンストップシステム実現方法のひとつですね。
+</UL>
+<P>それにしても、羽生さんの日記、今日は私のハートを激しくヒットしました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>VBとC#/Javaとの相違点とは？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>第3回 VBがC#やJavaよりもさえている1つの事例 -他言語では陥りやすい問題を言語仕様レベルで回避済み！-<BR>
+  <A HREF="http://www.atmarkit.co.jp/fdotnet/vbcheer/vbcheer03/vbcheer03.html">http://www.atmarkit.co.jp/fdotnet/vbcheer/vbcheer03/vbcheer03.html</A>
+</UL>
+<P>私は、言語仕様は 限りなくシンプルであるほうが、情報システム部門の現場で利用しやすいと考えています。言語仕様はThinであればあるほうが良いのです。だから
+Java言語よりリッチなC#はイヤだし、さらにリッチなVBには、「私は」閉口します。困ったことに、Javaは
+J2SE 1.5にて Javaは言語仕様が よりリッチになります。この点、以前から私は不安でしょうがないのです。言語仕様がリッチになればなるほど教育コストは増大するのです。言語をリッチ化させるのは最低限にとどめておいて、ライブラリ群で利用しがってを向上させれさへすれば良いのです…。私の考えって、特殊なのかなぁ。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

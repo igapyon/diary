@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/11/21 日記: アプリケーションのキャッシュ領域って、そこらへんにあるのですね</TITLE>
+<META name="DESCRIPTION" content="Windows上のアプリケーションのキャッシュ領域が そこいら中に点在している事に気が付きました。設定漏れすると 巨大ファイルがファイルシステム上に残ったままになります。そういえばデータ領域も点在していますね。 , Oracleチューニング記事メモ">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/11/21 日記: アプリケーションのキャッシュ領域って、そこらへんにあるのですね</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Windows上のアプリケーションのキャッシュ領域が そこいら中に点在している事に気が付きました。設定漏れすると 巨大ファイルがファイルシステム上に残ったままになります。そういえばデータ領域も点在していますね。 , Oracleチューニング記事メモ</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アプリケーションのキャッシュ領域って そこらへんにあるのですね</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>パソコン内のデータをバックアップ取得しようとして内容を整理していたら、どうもキャッシュ領域が
+そこいら中に点在していることがわかりました。これはあまり喜ばしいことではありません。<BR>
+そもそも Windows向けアプリケーションって データとプログラム、そして時によってはキャッシュや一時ファイルがアプリケーション間で統一性もなく
+そこいら中に散らばっています。最悪です。ふと冷静に考えると、私たちユーザに必要なものはアプリケーションデータそのものであるはずです。これが
+アプリケーションにかかわらず一箇所に 法則性をもって並んでいると嬉しいのでは、と思いました。ふむ
+そういえば「マイドキュメント」が それに該当するようにも思えます。でも うまく働いていないようにも思えます。</P>
+<P>私たちが作成あるいは利用する「データ」って、いったいどのように扱うともっとも意味的に正しいのでしょうか？
+「日別」という観点は正しそうです。「自分が作成した」かどうかも重要でしょう。どのようなアプリケーションを利用したとしても、データが一元的に扱われると良いように、そんな感じがしました。とはいえ、MPEGファイルや写真データのように、メールデータのようなテキストデータとはサイズの桁が違う物を
+一次元で表すことは困難であるようにも思えます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>サッカーの練習</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>午前中、午後と 子どもと一緒にサッカーの練習をしました。とても良い運動になりました。普段から運動不足なだけに
+こういう運動は体にとても必要なものです。<BR>
+運動の後昼寝をしました。これで少しからだがマシになったような気がします。でも
+尿が糖分臭いのが気になります。腎臓は相変わらず調子悪そうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>「弘法筆を選ばず」の意味を完全に誤解していました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>「弘法筆を選ばず」の意味を完全に誤解していました。達人は道具の善し悪しによらず素晴らしい仕事をする、という意味だったのですね。<BR>
+ちょうど ３号サイズのサッカーボールを買ったばかりで、道具が良いことは素晴らしいなぁ、などと思って
+「弘法筆を選ばず」を誤った用法で使ったら、妻からダメ出しを食らいました。</P>
+<P>ちなみにGoogleで検索したら 下記のようなページを見つけました</P>
+<UL>
+  <LI>藤井眞吾さんのエッセイ: 弘法筆を選ばず<BR>
+  <A HREF="http://homepage3.nifty.com/shingogt/Essay/23.html">http://homepage3.nifty.com/shingogt/Essay/23.html</A>
+</UL>
+<P>そうなんです。私はこんな感じのひとつのように、用法を間違って理解していたのです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>櫻庭さんの日記から</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>櫻庭さんの日記から: Tigerのインパクト<BR>
+  <A HREF="http://www5.airnet.ne.jp/sakuraba/java/publication/20041118-J2EEConf/20041118j2ee.html">http://www5.airnet.ne.jp/sakuraba/java/publication/20041118-J2EEConf/20041118j2ee.html</A><BR>
+  ううむ。すばらしいプレゼン資料です。感動しました。J2SE 5.0を利用したい気持ちでいっぱいになりました。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>CrossOver Officeっていうもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>LinuxでiTunesが動く「CrossOver Office 4.0」リリース<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2004/11/18/002.html">http://pcweb.mycom.co.jp/news/2004/11/18/002.html</A>
+</UL>
+<P>私が知らなかったこと。</P>
+<OL>
+  <LI>CrossOver Officeは<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/wine.html" TITLE="Windowsエミュレータ実装のひとつ。">WINE</A>ベースであること。
+  <LI>日本語にも対応しているらしいとのこと。
+</OL>
+<P>ということは 今時の<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/wine.html" TITLE="Windowsエミュレータ実装のひとつ。">WINE</A>って 日本語アプリが利用できるのかしら？ 興味津々。時間があったら試したい…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Oracle SQLチューニング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Oracle SQLチューニング講座（6）:パフォーマンスを向上させるSQLの記述法<BR>
+  <A HREF="http://www.atmarkit.co.jp/fdb/rensai/orasql06/orasql06_1.html">http://www.atmarkit.co.jp/fdb/rensai/orasql06/orasql06_1.html</A>
+</UL>
+<P>前回のOracleトレースの話題に続き、今回は記述法によるOracleのパフォーマンスチューニングネタです。勉強になります。</P>
+<UL>
+  <LI>SQLチューニングの基盤となる統計情報<BR>
+  <A HREF="http://www.atmarkit.co.jp/fdb/rensai/orasql05/orasql05_1.html">http://www.atmarkit.co.jp/fdb/rensai/orasql05/orasql05_1.html</A><BR>
+  前回の記事。SQLトレースにまつわる話題が載っていて、とても嬉しい記事です。
+</UL>
+<P>類似の記事で、他のライターさんが書いた記事もあります。ANALYZEコマンドについて解説があるので嬉しいです。</P>
+<UL>
+  <LI>Oracleパフォーマンス障害の克服（4）:オプティマイザの判断ミスを疑ってみよう<BR>
+  <A HREF="http://www.atmarkit.co.jp/fdb/rensai/oraobstacle04/oraobstacle04_1.html">http://www.atmarkit.co.jp/fdb/rensai/oraobstacle04/oraobstacle04_1.html</A>
+</UL>
+<P>なににせよOracleは私には難しいです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

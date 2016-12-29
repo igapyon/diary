@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/05/28 日記: Tomcat商用版が日本で発売開始されることに！</TITLE>
+<META name="DESCRIPTION" content="オープンソースをビジネスとして提供する、日本初としては珍しいサービスが開始されます。有識者の方々は、これの動向に注目していることでしょう。すなわち、オープンソースを箱に詰めて値付けして販売することが日本でも可能かどうか、という点についてです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/05/28 日記: Tomcat商用版が日本で発売開始されることに！</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] オープンソースをビジネスとして提供する、日本初としては珍しいサービスが開始されます。有識者の方々は、これの動向に注目していることでしょう。すなわち、オープンソースを箱に詰めて値付けして販売することが日本でも可能かどうか、という点についてです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SRA、オープンソースのアプリケーションサーバーを商品化して6月に販売</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>SRA、オープンソースのアプリケーションサーバーを商品化して6月に販売<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/WAT/NEWS/20040526/1/">http://itpro.nikkeibp.co.jp/free/WAT/NEWS/20040526/1/</A>
+</UL>
+<P>Tomcat商用版がリリースとのこと。私は素直にTomcat商用版の提供開始を歓迎しています。祝Tomcat商用版リリース。SRAさん、すてきなサービスの提供を、どうもありがとうございいます！<BR>
+Tomcatを\787,500.-という値付けで商用販売するとのことです。<BR>
+実は 以前 <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="情報技術の開発現場で働く凄腕技術者で、且つ情報技術ライターをされている方。直接的な面識もあり とても強い影響を与えて貰っています。Flash MXを業務システムで使うという世界に私をいざなったのも羽生さん その人です。">羽生章洋</A>さんと、かなり本気でTomcat商用版の検討を行ったのですが、結局発売にこぎつけることができなかった経緯があります。ちなみに、その時に
+すでに私たちの間では SRAさんに話を持ち込もうか、なあんてマジで検討したものでした。とにかくフリーソフト＆オープンソースの老舗であるSRAからのリリースであれば、みな安心して購入できるようになることでしょう。これでTomcatの普及にさらに弾みがつくと嬉しいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語でLDAPプログラミングが簡単に理解できる情報源を調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Java言語でLDAPプログラミングが簡単に理解できる情報源について、ざっくり調べ中です。</P>
+<P>それにしても、J2SE 1.4系には、(1.3の時代から) 既にLDAPインタフェースがjavax.naming.ldap
+として標準装備されているのですね。しかも実働する実装も付属して配布されているという。まあ、なんて便利な時代になっていることなのでしょう。びっくり仰天です。(私が無知すぎるのでしょうけれども…)</P>
+<UL>
+  <LI><A HREF="http://java.sun.com/j2se/1.4/ja/docs/ja/api/javax/naming/ldap/package-summary.html">http://java.sun.com/j2se/1.4/ja/docs/ja/api/javax/naming/ldap/package-summary.html</A>
+</UL>
+<P>ちなみに、具体的なお相手は、「Tivoli Directory Server」です。はい。</P>
+<P>引き続き ちょっと探してみたら下記のものを発見しました。</P>
+<UL>
+  <LI>@IT: LDAPプログラミングの基本<BR>
+  <A HREF="http://www.atmarkit.co.jp/fnetwork/rensai/ldap06/ldap1.html">http://www.atmarkit.co.jp/fnetwork/rensai/ldap06/ldap1.html</A>
+  <LI>Javaネットワークプログラミング[プロトコル編] LDAPツール<BR>
+  <A HREF="http://homepage2.nifty.com/drpanda/tech/writing/javaldap_c1_s3_ss2.html#doc1_104">http://homepage2.nifty.com/drpanda/tech/writing/javaldap_c1_s3_ss2.html#doc1_104</A>
+</UL>
+<P>なんだかんだ試行錯誤していたら、なんとなくLDAP接続が動き出した模様です。ふむ。良かった良かった。</P>
+<P><STRONG><FONT color="#ff00ff">ツッコミ</FONT></STRONG></P>
+<P><SPAN class=canchor>#</SPAN> <A href="http://d.hatena.ne.jp/matobaa/"><SPAN 
+class=commentator>matobaa</SPAN></A> 
+『http://java.sun.com/products/jndi/tutorial/index.html とか』</P>
+<P><SPAN class=canchor>#</SPAN> <A href="http://d.hatena.ne.jp/matobaa/"><SPAN 
+class=commentator>matobaa</SPAN></A> 
+『http://java.sun.com/j2se/1.4/ja/docs/ja/guide/jndi/jndi-ldap.html とか』</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Tapestryは、私が責任を持って流行らせます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Tapestryはなぜ流行らないのか <BR>
+  <A HREF="http://www.fuka.info.waseda.ac.jp/~k_ogino/study/fwzemi/b4/b4_04.htm">http://www.fuka.info.waseda.ac.jp/~k_ogino/study/fwzemi/b4/b4_04.htm</A>
+</UL>
+<P>日本国内でのJakarta Tapestryについては、私が責任を持って流行らせます！
+(きっぱり) … たぶん、に変更。私、忙しいうえに忘れっぽいからなぁ(苦笑)
+っていうか、Tapestryの激しく易しい入門本って存在するのかしら？ (無かったら執筆してしまおうという…)<BR>
+とりあえず Tapestryを世間に先駆けて手を染めておいて、あとで そこそこもうけさせてもらおうという腹でいっぱいです。</P>
+<P>すかさず、まさたかさんが反応されてらっしゃいまいた。そもそも、今 Jakarta
+Tapestryを実務につっこんでいる人たちって、基本的に先駆者なのです。最先端なんですよ。ちなみに私がTapestryに傾倒しはじめたきっかけは、まさたかさんの影響です。</P>
+<UL>
+  <LI>まさたか日記<BR>
+  <A HREF="http://d.hatena.ne.jp/masataka_k/20040527#p1">http://d.hatena.ne.jp/masataka_k/20040527#p1</A>
+</UL>
+<P><STRONG><FONT color="#ff00ff">ツッコミ</FONT></STRONG></P>
+<P><A href="http://d.hatena.ne.jp/igapyon/"><SPAN 
+class=commentator>igapyon</SPAN></A> 
+『みんな、時代の先端を行きすぎているんですっ。だからTapestryは何故はやらない、なあんて思っちゃうんです。』</P>
+<P><A href="http://d.hatena.ne.jp/igapyon/"><SPAN 
+class=commentator>igapyon</SPAN></A> 『ちなみに、、、「本当の」現場の事情っていうのがあります。これは先端を行っている人にはわからないことでしょうね。今
+多くの現場では ようやっとStrutsが普及し始めているというところが結構多いように感じています。それどころか、ようやくJava言語での開発が普及し始めた感の職場も多いことでしょう。そのような環境下においては、Struts使うだけでも、これは大変に労力がかかる状況になります。みんなStrutsを使えるようになるべく、四苦八苦とがんばっているんです。Java言語をはじめたてのアーキテクトが仕切っているような現場では、Tapestryなんて使える可能性は低いです。というか、身の程もわきまえずに、いきなしTapestryをつっこんだら、やっぱり失敗しそうですね…。その一方で、ある程度先進的な人々にとっては
+Tapestryが現実的に安心して利用できる技術だと認識していることでしょう。今が、ちょうど、その境界の時期であるように思っています。』</P>
+<P><A href="http://d.hatena.ne.jp/makotan/"><SPAN 
+class=commentator>makotan</SPAN></A> 『ついでにJooも付けてくれないかなぁ～』</P>
+<P><A href="http://d.hatena.ne.jp/igapyon/"><SPAN 
+class=commentator>igapyon</SPAN></A> 『JooTemplatesが、絶対に流行りそうなところまで、様々な側面において完備されてきたら、そしたら力強く応援しますね q(^o^)P』</P>
+<P><FONT color="#ff0000">2005.02.18 後日談</FONT> 現時点では <A HREF="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html" TITLE="Java帳票ソリューションを実現するためのオープンソースツールのひとつ。OpenOffice.orgと協調動作してExcelファイルからPDFファイルを作成できます。もちろん、それ以外にも多彩な利用方法があります。">JooConverter</A>に強い興味を感じています。JooTemplatesも関心は持っています。、、、それにしても、この時点で
+Jooに着眼している makotanさんは凄いなぁ。makotanさんの先見の明のすごさに、あらためて びっくりします。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseは実行環境なのだろうか？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>もっとEclipse関連技術についての勉強しなくては、どうも世間同行が理解できませんね。<BR>
+ここで重要なのは、Eclipseベースで全てJavaとSWTとで記述されたら WindowsでもLinuxでもMACでも動作するアプリケーションが開発できるという点です。この点は、すごいなぁ。</P>
+<P><STRONG><FONT color="#ff00ff">ツッコミ</FONT></STRONG></P>
+<P><SPAN class=commentator>Saisse</SPAN> 
+『でも、MacのSWTは遅すぎてEclipseが使い物にならないってogino.さんが言われてました。』</P>
+<P><A href="http://d.hatena.ne.jp/igapyon/"><SPAN 
+class=commentator>igapyon</SPAN></A> 
+『ほう、そうなんだ。SWTって環境によっては低速なんですね。ちなみにその対象となるMACは、OS/Xですか？』</P>
+<P><A href="http://d.hatena.ne.jp/skimura/"><SPAN 
+class=commentator>skimura</SPAN></A> 
+『速度よりもUI周りが激しいほど違うと感じました。EclipseからMainメソッドなどを実行時のダイアログが画面からはみ出してる。。。設定画面は普通なので、実装の問題かもしれませんが。(MacOSX)』</P>
+<P><A href="http://d.hatena.ne.jp/igapyon/"><SPAN 
+class=commentator>igapyon</SPAN></A> 『MacOSX環境下においてがダメなんですね。IBMさんにはがんばって欲しいです。』</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>疲労たまりまくり</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>主に精神的な疲れかしら。つかれてます。<BR>
+ふと気づいたら10時からの某定例会への出席を忘れきっていました。10階に急いで行き、ぎりぎり開始に間に合いました。あぶないあぶない。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>この方の10のアプリ、結構参考になります。<BR>
+  <A HREF="http://d.hatena.ne.jp/goodjob/20040523#p2">http://d.hatena.ne.jp/goodjob/20040523#p2</A>
+  <LI>米CAがオープンソース戦略を発表、RDBMS「Ingres」のソースを公開<BR>
+  <A HREF="http://nikkeibp.jp/wcs/leaf/CID/onair/biztech/comp/309328">http://nikkeibp.jp/wcs/leaf/CID/onair/biztech/comp/309328</A><BR>
+  ここ最近の動向として、あるパッケージソフトが市場で敗戦感が混んでくると、やぶれかぶれっぽくオープンソースとしてリリースされる、というのが良く見かける構図となりつつあります。なるほどたしかにオープンソースとしてリリースされるのはすばらしいことなのですが、オープンソースライセンス下でリリースすることが、伝家の宝刀や万能薬としてプロダクトに強い鼓動を与えるかどうか、というと、その点は疑問です。まあ、存在が消え去るよりは、オープンソースとして公開された方がよっぽど救われるのは確かなのですけれどもね。
+  <LI>原田季栄の仕事ページ<BR>
+  <A HREF="http://www11.plala.or.jp/tsh/">http://www11.plala.or.jp/tsh/</A><BR>
+  NTTデータさんって、ほんとうに色々な活躍されている方がいらっしゃるのですね。人の層の分厚さに、びっくりです。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

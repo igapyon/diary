@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/02/23 日記: blancoEclipseBabel -&gt; blancoNLpackGenerator へ名称変更 , Eclipse
+3.3 日本語化言語パックについてオフミ＠大阪梅田</TITLE>
+<META name="DESCRIPTION" content="大変申し訳ないのですが、blancoEclipseBabel のプロジェクト名を blancoNLpackGenerator へと名称変更させていただきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/02/23 日記: blancoEclipseBabel -> blancoNLpackGenerator へ名称変更 , Eclipse
+3.3 日本語化言語パックについてオフミ＠大阪梅田</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 大変申し訳ないのですが、blancoEclipseBabel のプロジェクト名を blancoNLpackGenerator へと名称変更させていただきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoEclipseBabel -&gt; blancoNLpackGenerator へ名称変更</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>大変申し訳ないのですが、<A HREF="http://www.igapyon.jp/blanco/blancoeclipsebabel.html" TITLE="Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。">blancoEclipseBabel</A> のプロジェクト名を <A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A>
+へと名称変更させていただきます。</P>
+<P><FONT color="#ff00ff">名称変更の理由</FONT></P>
+<UL>
+  <LI>このツールを話題にする度に、「言語パックを自動生成するツールです」と説明している自分に気がついた。
+  <UL>
+    <LI>その事実から、ツールの名称に「言語パック」「生成」という用語が含まれているべきと はっきり理解しました。
+  </UL>
+  <LI>このツールが ものすごく重要なものであることに ようやく本人が気がつき始めた。
+  <UL>
+    <LI>最初は 瞬間芸＋冗談のつもりで作ったので、命名も 非常に てきとーだったです。すみません。
+  </UL>
+  <LI>Eclipse へのコントリビュートを念頭においた考慮
+  <UL>
+    <LI>Eclipse へのコントリビュートが成功した際に、プロダクト名が跡形もなく無くなってしまうことに気がついた。<BR>
+    (blancoEclipseBabel から Eclipse と Babel を取り除くと blanco しか残らない！。というか 名称に内容が無いですね…)
+    <LI>Eclipseへのコントリビュートに失敗した際に、やはりプロダクト名の取り扱いに困りそう…
+  </UL>
+  <LI>Eclipse Babel に関する取り組み以外の 様々な用途においても、このツールの利用価値が高いことに気がついた。
+</UL>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の PMC メンバー (3名) で協議の上、名称変更することを決定しました。</P>
+<P>そのようなことでして、関係される方々、すみませんが、名称変更にご理解とご協力をお願いいたします。<BR>
+αリリース期間中における名称変更なので、ダメージは最小限であることを祈ります。なお、旧名称の説明Webページは 半永久的に存在し続けるようにします。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoNLpackGenerator: Eclipse 3.3 日本語化言語パックについてのオフミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2008.02.20 に 大阪梅田にて 「Eclipse 3.3 日本語化言語パックについてオフミ」を開催しました。</P>
+<P><FONT color="#ff00ff">出席者</FONT></P>
+<UL>
+  <LI><A href="http://d.hatena.ne.jp/cypher256/">柏原真二(かしはらしんじ)</A>さん＠<A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>
+  <LI>せの さん＠<A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>
+  <LI>森 さん＠<A href="http://www.eclipse.org/babel/">Eclipse Babel</A>
+  <LI><A href="http://www.eclipse.org/dsdp/nab/jp/development/contributors.php">森出</A>さん＠<A href="http://www.eclipse.org/dsdp/nab/jp/">Eclipse NAB</A>
+  <LI>内林 さん＠<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>＠<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>
+</UL>
+<P>幾つか重要な話題があったり、また決定事項などありましたが、それら まとめは 後日おこないます。</P>
+<P>※この「決定事項まとめ」作業は 私は実施しないかも知れません。すみません。</P>
+<UL>
+  <LI>Eclipse用の各種言語パック提供という形で、結果的には結実するので ある意味問題無いのかとも考えています。
+  <LI>ああ、出席者の誰かが まとめを実施してくれることを微妙に期待しています → なんとなく森さんに期待信号を送ってみる (苦笑)
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoNLpackGenerator: C/C++, RCP, PDT の言語パックを自動生成対象に追加</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A> の自動生成対象に、C/C++, RCP, PDT の言語パックを加えました。そのような要望(ニーズ)をお寄せいただき、それにお応えした格好になります。(thx
+せのさん)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoNLpackGenerator: blanco Frameworkへの依存度</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実行時にも blanco Frameworkのランタイムライブラリに一部依存していることが判明しました。近日中に改善します。(EPL対応の一環)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

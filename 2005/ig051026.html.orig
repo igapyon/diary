@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/10/26 日記: 関西オープンソース2005 でblanco Frameworkを発表(10/28)</TITLE>
+<META name="DESCRIPTION" content="関西オープンソース2005 の 10/28に枠を頂き、blanco Frameworkの発表をさせていただきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/10/26 日記: 関西オープンソース2005 でblanco Frameworkを発表(10/28)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 関西オープンソース2005 の 10/28に枠を頂き、blanco Frameworkの発表をさせていただきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>関西オープンソース2005 でblanco Frameworkを発表させていただきます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://k-of.jp/kof.html">関西オープンソース</A>2005 の 10/28 に枠を頂き <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの発表をさせていただきます。大勢の方の前で
+プレゼンテーション形式による<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkについての発表をさせていただくのは これが初めてのことです。このような機会を与えてくださった関係者の方々に大変感謝を致します。</P>
+<P>大手のメディアということでは、つい最近発売された <A href="http://www.gihyo.co.jp/magazines/wdpress/contents">WEB+DB PRESS</A> Vol.29 (現時点での最新号)に <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>の記事が掲載されています。メディアへの初出としては Web系媒体の
+<A href="http://www.atmarkit.co.jp/farc/special/auto/auto02.html">＠ITにおいて blancoStrutsに関して言及があった</A>が該当すると考えています。</P>
+<P>今が頑張り時だと思うので、頑張ってプレゼンテーションしたいと決意を強めるところです。… さて、プレゼンテーション用資料を更新しなくてはいけませんね
+(苦笑)</P>
+<P><FONT color="#ff0000">2005.10.27追記</FONT> 私が発表する直前の時間帯に、＠ITの記事執筆などで著名な あの<A HREF="http://www.atmarkit.co.jp/fjava/rensai3/eclipseplgn01/eclipseplgn01_1.html" TITLE="JavaやDebianライターとして有名な技術者の方。">岡本隆史</A>さんが Debian + Java の話題をひっさげて出演されるということを
+今日ようやく気がつきました。ありがたく聴講させていただきます。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

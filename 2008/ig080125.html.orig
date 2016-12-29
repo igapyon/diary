@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/25 日記: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会</TITLE>
+<META name="DESCRIPTION" content="私は最近 SSPI (Security Service Provider Interface) に 注目しています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,SSPI,Security Service Provider Interface">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/25 日記: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,SSPI,Security Service Provider Interface] 私は最近 SSPI (Security Service Provider Interface) に 注目しています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LDAP, NTLM, そして SSPI による認証</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache HTTP Server における認証の方法として 幾つか選択肢があります。LDAP, NTLM そして SSPI などが有名であるようです。<BR>
+その中でも 私は最近 SSPI (Security Service Provider Interface) に 注目しています。</P>
+<UL>
+  <LI><A href="http://www.microsoft.com/japan/Terminology/query.aspx?id=1501&q=SSPI&kbid=&key=&ui=L&dev=&site=">SSPI (1)</A>
+  <LI><A href="http://mtbeta.msdn.microsoft.com/ja-jp/library/bb416442.aspx?altlang=ja-jp">SSPI (2)</A>
+  <LI><A href="http://itpro.nikkeibp.co.jp/word/page/10005186/">SSPI (3)</A>
+</UL>
+<P><FONT color="#ff00ff">関連</FONT></P>
+<UL>
+  <LI><A href="http://otndnld.oracle.co.jp/tech/linux_win/htdocs/8i_nt_native_auth/oracle8i_nt_native_authentication.htm">Oracle 8i で SSPI</A>
+  <LI><A href="http://edocs.beasys.co.jp/e-docs/wls/docs91/dvspisec/pv.html">WebLogic で SSPI</A>
+  <LI><A href="http://www.ianywhere.com/developer/product_manuals/sqlanywhere/1001/ja/html/dbdaja10/da-connect-s-5142524.html">iAnywhereでSSPI</A>
+</UL>
+<P>Apache的には mod_auth_sspi.so がモジュール名となるようです。<BR>
+Windowsに限ってしまうのであれば SSPIが 最もすんなり導入できるのではないかとも考えています。(確信を持つまでには至っていませんが…)</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig080128.html">2008/01/28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security Support Providers Interface (SSPI)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日本中将棋連盟 東京支部例会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日は 千駄ヶ谷 将棋会館において <A href="http://www.chushogi-renmei.com/">日本中将棋連盟</A> 東京支部 の例会 (対局会) が開催される日です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

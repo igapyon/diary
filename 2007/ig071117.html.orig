@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/11/17 日記: Windows Installer XML (WiX) toolset</TITLE>
+<META name="DESCRIPTION" content="Windows Installer XML (WiX) toolset という、Windowsインストーラ作成ツールものを軽く調べ中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,インストーラ,作成,オープンソース">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/11/17 日記: Windows Installer XML (WiX) toolset</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,インストーラ,作成,オープンソース] Windows Installer XML (WiX) toolset という、Windowsインストーラ作成ツールものを軽く調べ中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows Installer XML (WiX) toolset</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<P>Windows Installer XML (WiX) toolset という、Windowsインストーラ作成ツールものを軽く調べ中です。</P>
+<UL>
+  <LI>Windows Installer XML (WiX) toolset<BR>
+  <A HREF="http://sourceforge.net/projects/wix">http://sourceforge.net/projects/wix</A><BR>
+  <A HREF="http://enterprise.watch.impress.co.jp/cda/foreign/2004/04/07/1934.html">http://enterprise.watch.impress.co.jp/cda/foreign/2004/04/07/1934.html</A>
+</UL>
+<P>オープンソースらしいです。Inno Setup と競合するようなものかも知れません。なお、これを使うと msi形式のファイルが出来るらしいです。<BR>
+※なお、現時点では 私は一度も動かしていません。</P>
+<P><FONT color="#ff0000">2007.11.18追記</FONT> Windows Installer XML (WiX)についての、いくつかの紹介記事を見かけました。これをメモしておきます。</P>
+<UL>
+  <LI>WiXではじめるWindows Installer作成入門 第1回<BR>
+  <A HREF="http://codezine.jp/a/article.aspx?aid=428">http://codezine.jp/a/article.aspx?aid=428</A>
+  <LI>MSBuild と Windows Installer XML を使ったリリースの自動化<BR>
+  <A HREF="http://msdn.microsoft.com/msdnmag/issues/07/03/WixTricks/default.aspx?loc=jp">http://msdn.microsoft.com/msdnmag/issues/07/03/WixTricks/default.aspx?loc=jp</A>
+</UL>
+<P><FONT color="#ff0000">2007.12.02追記</FONT> WiXを利用すると Platform SDK などが必要になることがわかり、面倒臭くなってきました。Apache httpd の msiは
+どうやっているかな、と思ったのですが、やはり同様に Platform SDK などのインストールは どうやら必要なものである雰囲気です。</P>
+<UL>
+  <LI>Apache httpd の msi のソースコードのありか。<BR>
+  <A HREF="http://svn.apache.org/repos/asf/httpd/httpd/win32-msi/trunk/">http://svn.apache.org/repos/asf/httpd/httpd/win32-msi/trunk/</A>
+</UL>
+<P>ということで、簡単ではないことがわかりました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>
