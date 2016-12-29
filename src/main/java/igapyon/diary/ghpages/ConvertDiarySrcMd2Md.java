@@ -63,6 +63,7 @@ public class ConvertDiarySrcMd2Md {
 			// System.out.println(" " + line);
 		}
 
+		// ヘッダ追加
 		lines.add(0, year1 + year2 + "-" + month + "-" + day + " diary: " + firstH2Line);
 		lines.add(1,
 				"=====================================================================================================");
@@ -72,6 +73,7 @@ public class ConvertDiarySrcMd2Md {
 
 		// 本体
 
+		// フッタ追加
 		lines.add("");
 		lines.add(
 				"----------------------------------------------------------------------------------------------------");

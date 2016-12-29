@@ -22,6 +22,12 @@ public class GenerateIndexDiaryMd {
 			System.out.println("期待とは違うディレクトリ:" + dir.getName());
 		}
 
+		java.util.Collections.sort(diaryItemInfoList, new java.util.Comparator<DiaryItemInfo>() {
+			public int compare(DiaryItemInfo obj1, DiaryItemInfo obj2) {
+				return obj1.getUri().compareTo(obj2.getUri());
+			}
+		});
+
 		return diaryItemInfoList;
 	}
 
