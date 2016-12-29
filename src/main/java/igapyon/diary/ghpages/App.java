@@ -17,6 +17,7 @@ public class App {
 			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().process();
 
 			new ProcessIndexListing().process(new File("README.src.md"), diaryItemInfoList);
+			new ProcessIndexListing().process(new File("idxall.html.src.md"), diaryItemInfoList);
 
 		} catch (IOException e) {
 			e.printStackTrace();
