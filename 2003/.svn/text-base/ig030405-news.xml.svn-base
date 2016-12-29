@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030405.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030405.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030331/1/">
+    <title>気になるVisual Basic/VBAの今後</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030331/1/</link>
+    <description>私も大変興味があります。VBプログラマーはどうなったのでしょう。この記事ではそれらの方々はJavaなどのWeb系言語に移行と分析しています。また そういった傾向を反映してJavaの記事を増やしているのだそうな。ふむふむ。ものすごい記事でした。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/04/nebt_07.html">
+    <title>Mozilla、コードスリム化へ「Phoenix」採用</title>
+    <link>http://www.zdnet.co.jp/news/0304/04/nebt_07.html</link>
+    <description>MozillaがPhoenixベースでリリースされるとのこと。ちょっとびっくりです。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.soumu.go.jp/s-news/2003/030402_1.html">
+    <title>有料番組等の情報料の架空請求トラブル―利用した覚えのない情報料の請求にご注意ください―</title>
+    <link>http://www.soumu.go.jp/s-news/2003/030402_1.html</link>
+    <description>世間的にこういう内容の問題が発生しているのだそうです。ご注意を。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.meti.go.jp/report/data/g21226aj.html">
+    <title>ＩＴスキル標準－ＩＴサービス・プロフェッショナル育成の基盤構築に向けて－（ＩＴスキル・スタンダード協議会報告書）</title>
+    <link>http://www.meti.go.jp/report/data/g21226aj.html</link>
+    <description>私って いったいどれに分類される人なんだろう…。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+</rdf:RDF>

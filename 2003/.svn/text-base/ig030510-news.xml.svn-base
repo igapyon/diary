@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030510.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030510.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ebiz/story/0,2000047658,20054209,00.htm">
+    <title>ジャパンネット銀行でまたシステム障害</title>
+    <link>http://japan.cnet.com/news/ebiz/story/0,2000047658,20054209,00.htm</link>
+    <description>Webベースシステムって アクセス集中やトラブルにいかに対応できるのか、というのはとても大切な命題ですね。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/06/epn28.html">
+    <title>Gartner Column：第91回 いいとこどりアーキテクチャのNUMAとRAC</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/06/epn28.html</link>
+    <description>Oracle9i Real Application Clustersは いつか仕事で使ってみたいものの一つです。興味深い。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+  <item rdf:about="http://www.vector.co.jp/soft/win95/util/se081985.html">
+    <title>シャットダウンタイマー 1.29</title>
+    <link>http://www.vector.co.jp/soft/win95/util/se081985.html</link>
+    <description>Windows XPを自動シャットダウンさせたくてツールを探しました。このツールが私には一番しっくりしました。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+</rdf:RDF>

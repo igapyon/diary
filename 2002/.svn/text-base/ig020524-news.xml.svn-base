@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020524.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020524.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/24/nebt_21.html">
+    <title>Mozilla 1.0 RC3リリース</title>
+    <link>http://www.zdnet.co.jp/news/0205/24/nebt_21.html</link>
+    <description>およよRC3まで行きましたか。正式版リリースまで 関係者のみなさま、頑張って下さいませ。</description>
+    <dc:date>2002-05-24T22:04:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/international/update/0524/010.html?2002">
+    <title>「印パに核戦争の可能性」　英軍が対応策検討　英紙報道</title>
+    <link>http://www.asahi.com/international/update/0524/010.html?2002</link>
+    <description>何とか核兵器の使用だけは避けて欲しいものです…</description>
+    <dc:date>2002-05-24T22:04:56</dc:date>
+  </item>
+
+</rdf:RDF>

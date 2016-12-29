@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021115.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021115.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.gihyo.co.jp/books/syoseki-contents.php/4-7741-1612-2">
+    <title>Javaプログラミング[アプリケーション編] ステップアップラーニング</title>
+    <link>http://www.gihyo.co.jp/books/syoseki-contents.php/4-7741-1612-2</link>
+    <description>私の書いた本。技術評論社のサイトに掲載開始されました。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www2s.biglobe.ne.jp/~t-susumu/toclip/library/tpad.html">
+    <title>TeraPad</title>
+    <link>http://www2s.biglobe.ne.jp/~t-susumu/toclip/library/tpad.html</link>
+    <description>寺尾進さんという方が作成された無料のテキストエディタ。先日 お客さんが使っていて 興味を持ちました。</description>
+    <dc:date>2002-11-15T09:45:06</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/14/njbt_14.html">
+    <title>ボーランド、Java統合開発環境「JBuilder 8日本語版」を発表</title>
+    <link>http://www.zdnet.co.jp/news/0211/14/njbt_14.html</link>
+    <description>J2SE 1.4対応、Apache Strutsをに対応してウィザード・ビジュアルツールが付属。これは興味があります。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/216236">
+    <title>NEC、Linuxクラスタの新製品を発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/216236</link>
+    <description>CLUSTERPRO FastSync Option for Linux という商品だそうです。40万円。興味があります。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/14/nebt_08.html">
+    <title>次期Windowsサーバ版のリリースに遅れ</title>
+    <link>http://www.zdnet.co.jp/news/0211/14/nebt_08.html</link>
+    <description>Windows .NET Serverの次の版に関する話題です。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/commons/cli/">
+    <title>Apacke Jakarta CLI</title>
+    <link>http://jakarta.apache.org/commons/cli/</link>
+    <description>コマンドライン引数を扱うためのAPIなんですって。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/216287">
+    <title>WindowsはLinuxよりも安い、Microsoftが主張</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/216287</link>
+    <description>実際の所 Linuxに慣れた技術者が少ないので、慣れない間での運用面ではWindowsよりLinuxの方がコスト高であるように思います。むろん慣れている人が増えてきたら リモートメンテナンス性やシンプルさからLinuxの方がず～っとコストが低くなると思われます。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/13/nebt_06.html">
+    <title>MSがインドに投資、Linux阻止が狙い？</title>
+    <link>http://www.zdnet.co.jp/news/0211/13/nebt_06.html</link>
+    <description>インドがLinux一色になったらMSもお困りになることでしょう。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+</rdf:RDF>

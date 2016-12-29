@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020830.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020830.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-30T07:25:42</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/08/29/638245-000.html">
+    <title>『Netscape 7』いよいよリリース!</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/08/29/638245-000.html</link>
+    <description>Mozilla 1.0.1ベース。</description>
+    <dc:date>2002-08-30T08:58:55</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/commons/beanutils.html">
+    <title>Jakarta Commons BeanUtils 1.4.1 リリース</title>
+    <link>http://jakarta.apache.org/commons/beanutils.html</link>
+    <description>リビジョンアップ版がリリースです。1.4リリースから まだそんなに間がないのですけれども… (苦笑)</description>
+    <dc:date>2002-08-30T11:36:08</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/08/28/638226-000.html">
+    <title>『Mozilla 1.1』公開</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/08/28/638226-000.html</link>
+    <description>今までにない安定感が期待をふくらませます。Mozillaは今や順調に進んでいますね。</description>
+    <dc:date>2002-08-30T08:58:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/0829/wss.htm">
+    <title>Netscapeのシェアが4％を切る～米WebSideStory最新調査結果</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/0829/wss.htm</link>
+    <description>いまやInternet Explorer全盛の時代ですものねぇ。</description>
+    <dc:date>2002-08-30T08:58:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/29/njbt_15.html">
+    <title>「Oracle 9i」がMac OS Xに対応</title>
+    <link>http://www.zdnet.co.jp/news/0208/29/njbt_15.html</link>
+    <description>BSDベースなだけに いろいろ移植しやすくなって便利そうですね。</description>
+    <dc:date>2002-08-30T08:58:55</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031217.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031217.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.geocities.co.jp/SilkRoad/7507/win/winpe/pebuilder.html">
+    <title>PE BuilderでWindowsXPブータブルCDROMを作ろう</title>
+    <link>http://www.geocities.co.jp/SilkRoad/7507/win/winpe/pebuilder.html</link>
+    <description>Windows XP のブータブルCD-Rが作成できるのはうれしいですね。KNOPPIXが心にしみる私としては かなり気になります。</description>
+    <dc:date>2003-12-17T07:05:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/08/cjad_kodera.html">
+    <title>デジタル放送時代の正しいビデオレコーダー学</title>
+    <link>http://www.zdnet.co.jp/news/0312/08/cjad_kodera.html</link>
+    <description>小寺信良さんのシビレる記事。なるほどDVDですねぇ。あの解像度は諸般の事情にて保存できませんねぇ。</description>
+    <dc:date>2003-12-17T07:05:28</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/survey/survey11/linux11.html">
+    <title>オープンソースのシステム採用／活用状況は？ (読者調査結果)</title>
+    <link>http://www.atmarkit.co.jp/flinux/survey/survey11/linux11.html</link>
+    <description>すっごくおもしろそうな結果なのですが、深く考察して分析するヒマが無い。相変わらず 小柴さんの記事は心に染み渡ります。</description>
+    <dc:date>2003-12-17T07:05:28</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hcn.zaq.ne.jp/no-ji/javamemo/org_apache_log4j.html">
+    <title>渡辺義則さんの Apache Jakarta Log4j のメモ</title>
+    <link>http://www.hcn.zaq.ne.jp/no-ji/javamemo/org_apache_log4j.html</link>
+    <description>知人の書いたメモ。コンパクトにまとまっています。</description>
+    <dc:date>2003-12-17T07:05:28</dc:date>
+  </item>
+
+</rdf:RDF>

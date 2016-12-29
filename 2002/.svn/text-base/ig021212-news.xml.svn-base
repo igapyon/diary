@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021212.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021212.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://channel.goo.ne.jp/news/kyodo/kokusai/20021121/20021121a3170.html">
+    <title>ウィンドウズ、８６％が利益　米マイクロソフト初公表</title>
+    <link>http://channel.goo.ne.jp/news/kyodo/kokusai/20021121/20021121a3170.html</link>
+    <description>『約８６％という高い利益率』とは あまりにも凄すぎますね。それだけもうけているのなら、もう少し手を入れて 『安定して良いOS』に改良したら良いのに…。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/10/xert_meta.html">
+    <title>2004年、MSはLinux対応に踏み切る――？</title>
+    <link>http://www.zdnet.co.jp/news/0212/10/xert_meta.html</link>
+    <description>技術的には .NET Framework を打ち上げた時点で 可能性は随分高まっています。.NET Framework SDK ベースでソフトウェア (例えば MS Officeなど) を開発していけば、あとは .NET Framework のみをLinuxに移植しさへすれば良いのですから。営業的には 現時点では Linux対応は無意味でしょうね…。(もちろん OpenOfficeはアタマの痛い競合ソフトでしょうね)</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/10/njbt_05.html">
+    <title>ハンマーで叩いても割れない超強化ガラス製タッチパネル</title>
+    <link>http://www.zdnet.co.jp/news/0212/10/njbt_05.html</link>
+    <description>「世界最強のタッチパネル」とは良く言ったものです。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.ichitaro.com/viewer/download.html">
+    <title>一太郎Web：一太郎ビューア</title>
+    <link>http://www.ichitaro.com/viewer/download.html</link>
+    <description>Acrobat Readerみたいなソフト。そんなものがこの世に存在していたのですね。大変面白い試みです。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/1209/grey.htm">
+    <title>「Microsoftのセキュリティーホール深刻度の評価は信用できない」～GreyMagic指摘</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/1209/grey.htm</link>
+    <description>セキュリティホールってアタマの痛い問題ですね。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/special/proctune/proctune01a.html">
+    <title>/procによるLinuxチューニング ［前編］～ /procで理解するOSの状態 ～</title>
+    <link>http://www.atmarkit.co.jp/flinux/special/proctune/proctune01a.html</link>
+    <description>少しだけでもLinuxに詳しくなろうとしたら /procはぜひ修得したいですよねっ。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+  <item rdf:about="http://www.mainichi.co.jp/digital/computing/archive/200211/27/1.html">
+    <title>MS、電子政府・自治体のオープンソース採用の動きに反論</title>
+    <link>http://www.mainichi.co.jp/digital/computing/archive/200211/27/1.html</link>
+    <description>MSの主張『「オープンソース」という言葉の定義がはっきりしていない』とありますが、オープンソースという用語は OSIという標準化団体が定義しているれっきとした標準です。オープンソースとして認定されたライセンスに基づいて配布されているのが オープンソースなソフトウェアです。</description>
+    <dc:date>2002-12-12T09:08:44</dc:date>
+  </item>
+
+</rdf:RDF>

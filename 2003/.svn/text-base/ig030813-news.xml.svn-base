@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030813.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030813.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0308/12/epn01.html">
+    <title>Windows RPCの脆弱性狙ったワームが拡散を開始</title>
+    <link>http://www.zdnet.co.jp/enterprise/0308/12/epn01.html</link>
+    <description>パッチ適用していないと大惨事が予想されます。</description>
+    <dc:date>2003-08-13T17:58:33</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/12/njbt_01.html">
+    <title>CE LinuxフォーラムにMontaVistaが参加</title>
+    <link>http://www.zdnet.co.jp/news/0308/12/njbt_01.html</link>
+    <description>Linux頑張っていますなぁ。</description>
+    <dc:date>2003-08-13T17:58:33</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/column/market/story/0,2000047993,20060405,00.htm">
+    <title>東芝、四半期決算発表の導入で株価大波乱</title>
+    <link>http://japan.cnet.com/column/market/story/0,2000047993,20060405,00.htm</link>
+    <description>四半期決算の功罪なのだそうな。</description>
+    <dc:date>2003-08-13T17:58:33</dc:date>
+  </item>
+
+</rdf:RDF>

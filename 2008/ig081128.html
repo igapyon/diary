@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/11/28 日記: イベントハンドリング・ベースの HTML パーサ、blancoHtmlParser を作成</TITLE>
+<META name="DESCRIPTION" content="a-san の日記に触発され、また、とある局面で必要になったので、私も ざっくりと HTML パーサーを作ってみました。">
+<META name="KEYWORDS" content="blanco,Framework,html,parser">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/11/28 日記: イベントハンドリング・ベースの HTML パーサ、blancoHtmlParser を作成</H2>
+    <P>[blanco,Framework,html,parser] a-san の日記に触発され、また、とある局面で必要になったので、私も ざっくりと HTML パーサーを作ってみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>イベントハンドリング・ベースの HTML パーサ、blancoHtmlParser を作成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>の日記に触発され、また、とある局面で必要になったので、私も ざっくりと HTML パーサーを作ってみました。のべ
+2時間程度 かかりました。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A>
+</UL>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> の特徴は XML の SAX イベントハンドラ似の構造になっている点です。HTMLのパースのみに責務を限定し、それ以外の部分は別途自前で作るという哲学になっています。責務が限定されているので、パーサーそのものは
+とてもシンプルです。ずっと このような仕様の HTML パーサーを作りたいと思っていて、あたためてきて、そして今回ようやく作ることができました。<BR>
+※なお、現状では 仕様はかなり限定的です。HTMLのエンコーディング判定などは未実装です。一方で、簡単なテストの範囲では、一定の可逆性があることまでは確認しました。</P>
+<P>作るに至った、困った ある局面というのは、HTMLファイルの属性値に &quot; や ' が付いていない困ったものを、簡単にハンドリングできるようにするためです。というのも、このような規格外の
+HTML を JSP 化しようとすると、該当箇所でコンパイルエラーが発生してしまい、作業が止まってしまうので、このような自前のHTMLパーサーがどうしても必要になったのです。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> を利用すると、ちょこっと (おそらく 20行ほど?) のコーディングを行うだけで、属性値が
+&quot; や ' で囲まれていないもの<STRONG>だけ</STRONG> &quot; を付与するというコーディングなどを簡単に行うことができます。、、、ええと、簡単に利用できるといっても、簡単に利用できるためには
+SAX イベントハンドリングのノウハウが必要になります。でも、SAX イベントハンドリングに慣れ親しんだ人は、少数派ですよね… (苦笑)<BR>
+まあ、思うに <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> は少数の人のための 超便利ツール、といったところです。また、<STRONG>似た</STRONG>ような哲学の HTMLパーサーは 他にも存在することは知っています。(似てはいるのですが、残念ながら、既存のプロダクトと 私の希望とは完全には一致しませんでした。)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

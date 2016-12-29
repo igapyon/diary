@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020807.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020807.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/xml/downloads/javaxmlpack.html">
+    <title>Sun Java XML Pack - Summer 02 Update Release</title>
+    <link>http://java.sun.com/xml/downloads/javaxmlpack.html</link>
+    <description>Java XML Pack Summer 02 にアップデートリリースが出ました。どんな点が更新されたか把握していません。</description>
+    <dc:date>2002-08-07T17:11:16</dc:date>
+  </item>
+  <item rdf:about="http://java.sun.com/webservices/downloads/webservicespack.html">
+    <title>Sun Java Web Services Developer Pack 1.0_01</title>
+    <link>http://java.sun.com/webservices/downloads/webservicespack.html</link>
+    <description>Java WSDP にリビジョンアップリリースが出ました。</description>
+    <dc:date>2002-08-07T17:11:16</dc:date>
+  </item>
+
+</rdf:RDF>

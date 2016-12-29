@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020627.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020627.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://auto.ascii24.com/auto24/issue/2002/0624/06niv_si9999_06.html">
+    <title>【MES】コピーコントロールCDは聞くに堪えない---高級機でわかったその実力</title>
+    <link>http://auto.ascii24.com/auto24/issue/2002/0624/06niv_si9999_06.html</link>
+    <description>まあ技術的に そうなんでしょうかね。悲しいことです。そもそもCDそのものの音質に違和感を感じるので、その上 何らかのノイズを載せるというのは どうも嫌です。少なくともクラシック音楽の鑑賞はしたくないなあ</description>
+    <dc:date>2002-06-28</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/0625/onstat.htm">
+    <title>IEのシェアは95.3％、MozillaとNetscapeは好発進を見せる～OneStat調査</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/0625/onstat.htm</link>
+    <description>今度は IEがシェアを喰われる番なのかも知れませんね。まあ そもそも 95.3%もシェアを持っていたら、今度は喰われる番しか回ってこないでしょうけれどもね。</description>
+    <dc:date>2002-06-27T13:11:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/0620/wsdp.htm">
+    <title>「JavaWSDP」正式発表、JavaによるWebサービス開発ツールを統合</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/0620/wsdp.htm</link>
+    <description>Java Web Services Developer Packに関するショートな紹介記事。</description>
+    <dc:date>2002-06-27T13:11:29</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020625/1/">
+    <title>無駄な会議が多過ぎませんか？</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020625/1/</link>
+    <description>無駄な会議 多いでしょうね。削減の努力を試みましょう。でも、その逆として、必要な際にはどんどんスポット会議を開催する必要があります。頑張りましょう。</description>
+    <dc:date>2002-06-27T13:11:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/27/njbt_05.html">
+    <title>ドコモ、迷惑メール業者を初提訴</title>
+    <link>http://www.zdnet.co.jp/news/0206/27/njbt_05.html</link>
+    <description>ドコモにとって初めての提訴なのだそうです。</description>
+    <dc:date>2002-06-27T18:21:02</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/27/njbt_07.html">
+    <title>EIZO、Macにも対応したPC切替器を店頭販売</title>
+    <link>http://www.zdnet.co.jp/news/0206/27/njbt_07.html</link>
+    <description>3万円前後か。むうう (苦笑)</description>
+    <dc:date>2002-06-27T18:21:02</dc:date>
+  </item>
+
+</rdf:RDF>

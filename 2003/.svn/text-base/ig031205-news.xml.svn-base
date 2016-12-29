@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031205.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031205.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/news/200312/04/wily.html">
+    <title>J2EEアプリの不調の原因、すぐに突き止められますか？</title>
+    <link>http://www.atmarkit.co.jp/news/200312/04/wily.html</link>
+    <description>Javaシステムの動作不良って 追跡するのは難しそうですねぇ…</description>
+    <dc:date>2003-12-05T22:55:14</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062454,00.htm">
+    <title>米サン、Eclipseへの参加を断念</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062454,00.htm</link>
+    <description>かなしいニュースです。…そしてEclipseの一人勝ちが より鮮明になってしまうように思えますが… どうなのかしらん。</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20062467,00.htm">
+    <title>仏マンドレイク(Mandrake)から、外出先のパソコンでも自分のシステムを使えるLinux登場</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20062467,00.htm</link>
+    <description>ああっ、これ これが欲しかったんです。CD-ROM起動して、USBに固有の情報を保持しておく、これが理想です。どこでもマイOSという 究極の目的に対する 一つの解ですね。</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/ten10/ten01.html">
+    <title>第10回　技術スキルへの強い不安から3度目の転職に</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/ten10/ten01.html</link>
+    <description>これまた読ませる記事だなぁ。良くできています。恐るべし ＠IT</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/smb/01/01.html">
+    <title>“何か”がおかしい 情報化の進め方（前編）--中堅・中小企業のIT化課題を考える 第1回</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cinvest/opinion/smb/01/01.html</link>
+    <description>う～む。考えさせられる内容です。</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/column/suematsu/story/0,2000048844,20062456,00.htm">
+    <title>第7回 Windowsとは違うビジネスモデルに挑戦するNEC</title>
+    <link>http://japan.cnet.com/column/suematsu/story/0,2000048844,20062456,00.htm</link>
+    <description>NECもLinuxに賭けていますね…。びっくりです。</description>
+    <dc:date>2003-12-05T22:55:14</dc:date>
+  </item>
+
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/279593">
+    <title>NTTドコモが携帯版リナックス仕様を共通化、FOMAに搭載へ◇ロイター</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/279593</link>
+    <description>ふ～む。そう来るのか…。これってLinux普及の目的にとって かなりインパクトが大きいように思えます。とりあえずLinux搭載に成功してほしいです。</description>
+    <dc:date>2003-12-05T06:31:27</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031201/1/">
+    <title>街を裸で歩きますか？</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031201/1/</link>
+    <description>無線LANホットスポットは丸見えだから危ない、という話題。なるほどねぇ。</description>
+    <dc:date>2003-12-05T06:31:27</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/rensai2/xmltool02/01.html">
+    <title>JAXBでデータバインディングに挑戦しよう</title>
+    <link>http://www.atmarkit.co.jp/fxml/rensai2/xmltool02/01.html</link>
+    <description>原田洋子さんの手によるJAXB記事。サーブレットガーデンを彷彿とさせるgifファイルが気になりました。、、、それはさておき、JAXBも いつかは試してみたいと思いました。</description>
+    <dc:date>2003-12-05T06:31:27</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/tutor/sql01/sql01_01.html">
+    <title>第1回　データベースの基礎とSQL Server 2000</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/tutor/sql01/sql01_01.html</link>
+    <description>データベースの入門(?)記事。なんだかちょっと難しかったです…。</description>
+    <dc:date>2003-12-05T06:31:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/04/njbt_08.html">
+    <title>Windows Updateに障害</title>
+    <link>http://www.zdnet.co.jp/news/0312/04/njbt_08.html</link>
+    <description>ま、そういうこともありますって。腐ったパッチが流れたのでなければ 気にしなくても良い？ (かもしれない…)</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/04/njbt_06.html">
+    <title>日立、ミューチップ社内ベンチャーを事業部に昇格</title>
+    <link>http://www.zdnet.co.jp/news/0312/04/njbt_06.html</link>
+    <description>社内ベンチャーが事業部に昇格って、すんごい話ですね… </description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062450,00.htm">
+    <title>調査報告：「スパムの3分の1はRATに汚染されたPCが原因」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062450,00.htm</link>
+    <description>迷惑な話だなぁ… スパムって ここ数ヶ月 特にひどくなっていると思います。</description>
+    <dc:date>2003-12-05T06:55:23</dc:date>
+  </item>
+
+</rdf:RDF>

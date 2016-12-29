@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011122.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011122.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-22</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.mozilla.org/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 0.9.6 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Netscapeのエンジンとしておなじみの Mozilla がリビジョンアップ</description>
+    <dc:date>2001-11-22T07:34:01</dc:date>
+  </item>
+</rdf:RDF>

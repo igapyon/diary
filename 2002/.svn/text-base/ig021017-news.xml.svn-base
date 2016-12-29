@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021017.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021017.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021009/1/">
+    <title>覚えやすさと美しさ，開発者にとってどちらが大事？</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021009/1/</link>
+    <description>ものすごい良い記事。また共感しました。簡単に言うと Visual Studio .NETは 『美しくない』のです。ただ 私は Visual Studio .NETが 『覚えやすさ』のために『美しくない』のではなく 突貫工事で開発されたが故に『美しくない』のだと思っています。いずれにしても Visual Studio .NET (というか C# や ASP.NET、ADO.NET) が『美しくない』のは 広く一般的に認知されていることであるようですね。(と強引に考えているのであった…)</description>
+    <dc:date>2002-10-17T12:09:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0210/15/nw02.html">
+    <title>日本IBM、J2EEオープンソースフレームワーク「Struts」の拡張機能を無償提供へ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0210/15/nw02.html</link>
+    <description>いまや Java＝IBMって感じです。ものすごくIBMが頑張っていますねぇ。</description>
+    <dc:date>2002-10-17T12:09:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/16/nebt_17.html">
+    <title>Gateway、MS Office離れに追随</title>
+    <link>http://www.zdnet.co.jp/news/0210/16/nebt_17.html</link>
+    <description>Microsoft Office離れは 米国のトレンドの一つとなりつつあるのか？</description>
+    <dc:date>2002-10-17T12:09:24</dc:date>
+  </item>
+
+</rdf:RDF>

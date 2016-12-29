@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031022.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031022.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/10/epn05.html">
+    <title>Microsoft、“ウィークリーパッチ”をやめて毎月のアップデートへ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/10/epn05.html</link>
+    <description>ここのところのセキュリティホール禍は あまりにもヒドいですから…。マンスリーなアップデートに変わって せめて パッチそのものの品質が向上するように、切に祈ります。</description>
+    <dc:date>2003-10-22T07:35:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/20/epn14.html">
+    <title>Gartner Column：第115回 SunはMicrosoftに学ぶべきだ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/20/epn14.html</link>
+    <description>LinuxがUNIXを打ち負かしている、というのは妥当な判断だと思います。しかし 2年半前に 既に Sunの没落を予想していたとは Gartner恐るべし、ですね。</description>
+    <dc:date>2003-10-22T07:35:20</dc:date>
+  </item>
+
+</rdf:RDF>

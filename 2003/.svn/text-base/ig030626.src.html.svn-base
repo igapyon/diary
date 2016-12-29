@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/26 日記: Flash業務画面の結合テスト , gvimというvi的テキストエディタ</TITLE>
+<META name="DESCRIPTION" content="今日は原稿執筆と併せて Flash業務画面の結合テストです。 , Windows でviが快適に利用できるソフトの存在を知る。ああっ、興味深い。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Flash業務画面の結合テスト・チェックシート</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は 外注さんが納品した Flash業務画面の結合テストです。<BR>
+普通のテスト内容に加え、下記のような内容でテストしようと思っています。</P>
+<UL>
+  <LI>各画面をタスクマネージャを用いてCPU消費量チェック
+  <LI>低速回線経由でも正常に動作するかどうか<BR>
+  (32Kbps回線とか持っていないので 超低速なジャンルはテスト困難です…)
+  <LI>ファイアーウォール越えで動作するかどうか
+  <LI>いろんなサーバにインストールしてみて動作するかどうか<BR>
+  (接続先サーバのURIがハードコードされていないかどうか)
+  <LI>登録件数を増やして 動作の各種チェック
+</UL>
+<P>私は Flash MX (ビルド環境) を持っていないので 指をくわえて、というかテストして文句を言うだけですが…。</P>
+<P><FONT color="#ff0000">18:56</FONT> すっごく頑張りました。おかげで かなりクオリティ上がりました。これで なんとか納品しても恥ずかしくない状態までグレードアップしました。あと
+もうちょいで 納品好適レベルのクオリティです。<BR>
+私の所属チームも これでようやっとFlash業務画面 レベル1 といったところでしょうかねっ
+(笑)</P>
+<P><FONT color="#ff0000">2003.06.27</FONT> 結合テストで Flash業務画面を ずいぶん見ていました。Flashによる リッチなWebクライアント画面って罪作りですね。私は
+最初 FlashなリッチWebクライアントを見たときは それは びっくりして感動して
+新鮮さに驚きました。、、、昨日 丸１日結合テストしていて、既に目が慣れてしまいました。リッチはFlash製Webクライアントは
+既に私の中では 『ふつ～』なものになってしまいました。淡々と動作する ごくありふれたものになってしまいました。ここで重要なのは、既に
+FlashなリッチWebクライアントに 私の目が慣れてしまったという点です。これは重要です。Flash製リッチWebクライアントの価値は
+高まりはしませんでしたが、リッチでない普通のHTMLベースWeb画面の価値が ものすごく下がったのです。…
+これは 私の中だけではなく 今後世間的に広まっていくおそれがあります。つまり
+普通のHTMLベースのWeb画面の価値は デフレスパイラルの渦へと巻き込まれるがごとく暴落し、FlashベースのリッチWeb画面が
+普通のものと化していくおそれが強いです。『ああ、私たちは 現時点で Flashに着手していて、本当に良かった』と
+素朴に感じました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WebLogic記事を今日中にフィニッシュ…させたい気持ちで一杯</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>締め切りがぁ…。ぐはあぁぁぁ…。<BR>
+<FONT color="#ff0000">18:55</FONT> ところがどっこい Flash業務画面の結合テストで 丸１日つぶれてしまいました。ぐはぁ、困っています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>gvimを試す暇は無し</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.kaoriya.net/">gvimエディタ</A>というGUI付きvimテキストエディタ日本語版を 昨日 外注さんに教えて貰いました。試したい気持ちで一杯で
+また インストールも終わっているのですが、いかんせん仕事が忙しすぎて触る暇がありません。ああっ
+試したい、使ってみたい。と思いつつ 原稿を書き進めるのであった (意味不明)</P>
+<UL>
+  <LI>香り屋<BR>
+  [replace-href:http://www.kaoriya.net/]<BR>
+  gvim日本語版がダウンロードできます。
+  <LI>Vim Tips (日本語)<BR>
+  [replace-href:http://pinna.cside4.jp/tips/vim/index.html]<BR>
+  vimの一般的なキー操作技が載っていました。vimには最初からdiff機能も付いているんですね。
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030626-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

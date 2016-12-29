@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/10/14 日記: Apache Jakarta Commons Sandboxといふもの</TITLE>
+<META name="DESCRIPTION" content="明日から東京出張です。それまでに書籍執筆をクリアせねば…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Jakarta Commons Sandboxといふもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://yamaguch.sytes.net/~tora/diary/">とらねこ放浪記</A>に <A href="http://jakarta.apache.org/commons/sandbox/">commons-sandbox</A>の記載があり、それを<A href="http://jakarta.apache.org/commons/sandbox/">見てみました</A>。オープンな作業場ということで、SourceForgeのApacheライセンス版といったところかしらん。とにかく非常に盛況です。<BR>
+ビジネス用途には Apacheライセンスは便利なので、ビジネスな方のコントリビュートって
+Apache系に流れるんかしらん。(私は GNU LGPLが好きなのですけれどもね…)</P>
+<P>でも一方で 例えば データベースへのコネクションプール一つ取っても いったいどのオープンソースプロダクトを利用すれば良いのか
+(世間的におすすめなのか) という点に関しては、どんどん難易度が上がっているようにも思えます。まあ
+寡占化が進んでおらず 選択肢があるということは素晴らしいことなのですけれどもね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>いがぴょん合コン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日の いがぴょん合コン <A href="http://r.gnavi.co.jp/g415301/">いとはん日本橋店</A>で開催の旨 了解しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>明日から東京出張</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日、あさってと東京出張です。ということで、明日、あさってと 日記更新できない予定です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍原稿書き書き</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふうむ。いくら書いても 全く 終息の気配がありません。やや弱気になるも とりあえず
+メサキのことだけを考えて ひたすら書き書き。</P>
+<P><FONT color="#ff0000">13:53</FONT> 2章1節をリライト作業していくと、1章もリライト範囲に含まれていることが判明。作業量自体は当初想像と同じくらいなのですが、範囲が広がって
+どんどんブルーになっていく… (苦笑)</P>
+<P><FONT color="#ff0000">20:12</FONT> ようやっと 1章のリライト対象箇所の処理が終了。やっとこれから 2章1節に着手とは…
+とほほ。(ほんとうは編集者さまに20時にメール送付する予定だったのであった)</P>
+<P><FONT color="#ff0000">22:19</FONT> だんだん 自分が嫌になってくる (苦笑) なんで私は 計画的に執筆作業ができないのだろうか？
+いつか コツコツタイプへと成長したいと思う 今日この頃…。</P>
+<P><FONT color="#ff0000">23:16</FONT> 徐々に衰弱してくる。ああ、そういえば 1年前の同じ頃 やはり同じような事を言っていたなぁ、などと 一瞬だけ物思いにふける。そういえば、去年 『もう二度と書籍は書かない！』などと心に固く誓っていたなぁ… (苦笑)</P>
+<P><FONT color="#ff0000">2003.10.15 00:01</FONT> 1章および2章1節のリライト作業完了。編集者様にメール送信完了。ふう。さっそく寝ます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Turbolinux 10 Desktop 欲しい…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2003/10/24 に発売予定の <A href="http://www.turbolinux.co.jp/10d/">Turbolinux 10 Desktop</A> に 微妙に惹かれています。買おうか しばらく様子見ようか 心揺れています。太古の
+Turbolinux 4.0を購入してあるので、バージョンアップ版購入が可能なので、『買うぞ』と意気込んでサイトに接続したものの
+税別・送料別 で それら合計した金額を見て 萎えてしまいました (苦笑) (シリアル番号紛失でメールして
+シリアル番号を再送付してもらったにも関わらず、です)</P>
+<P>思えば、第一期 Linuxバブル (私が勝手に銘々) の時には、Linuxデスクトップの可能性に賭けて
+各種Linuxディストリビューション(主にRedHat系)や Vine Linux 、そして Turbolinuxなどを入手および購入などして、がんがんインストールしまくりました。(インストールして、そして使わなかったようにも思いますが…)
+頑張ってみたものの 基本的には Windows系オフィスソフトなどを使う必要性があり
+LinuxをメインOSにすることは 私にはとても不可能でした。(いがぴょんは 現時点では
+ばりばりの Window ユーザーです)</P>
+<P>しかし、<A href="http://www.turbolinux.co.jp/10d/">Turbolinux 10 Desktop</A>は 第二期Linuxバブル (いがぴょん銘々) を起こしてくれる、そんな期待を私は持って見守っています。OpenOfficeや
+Linux Kernel 2.6系など、私のような 親Windowsユーザであっても Linuxをデスクトップ利用できるのでは？
+そんな期待で一杯です。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031014-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

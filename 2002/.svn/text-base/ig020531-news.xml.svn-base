@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020531.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020531.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-31</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/james/">
+    <title>Jakarta James 2.0a3 リリース</title>
+    <link>http://jakarta.apache.org/james/</link>
+    <description>全てJava言語で書かれたメールサーバのリビジョンアップ。デモ用に希に利用することがあります。今回のリビジョンは安定性が向上したのだそうな。</description>
+    <dc:date>2002-05-31T09:59:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/30/njbt_06.html">
+    <title>asahi.comツールバーが登場</title>
+    <link>http://www.zdnet.co.jp/news/0205/30/njbt_06.html</link>
+    <description>私のハートをヒット。Googleツールバーと共に かなり私には衝撃でした。</description>
+    <dc:date>2002-05-31T10:10:29</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html">
+    <title>【速報】新ディストリビューション『United Linux』? -Caldera、Conectiva、SuSE、Turbolinuxが共同で開発団体を設立</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html</link>
+    <description>Linux陣営の力が結集されていくことは大変に喜ばしいことです。効率が向上することが期待できます。頑張って欲しいです。</description>
+    <dc:date>2002-05-31T10:10:29</dc:date>
+  </item>
+
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/">
+    <title>続・みずほ銀行システム障害に見る「動かないコンピュータ」の根本原因</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/</link>
+    <description>みずほ銀行、大変だなぁ。</description>
+    <dc:date>2002-05-31T09:59:35</dc:date>
+  </item>
+  <item rdf:about="http://coin.nikkeibp.co.jp/coin/nc/mizuho/">
+    <title>システム障害はなぜ起きたか～みずほの教訓</title>
+    <link>http://coin.nikkeibp.co.jp/coin/nc/mizuho/</link>
+    <description>みずほ銀行システム障害は、別冊として一冊の本になるまでになりました。</description>
+    <dc:date>2002-05-31T09:59:35</dc:date>
+  </item>
+  <item rdf:about="http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html">
+    <title>全日空と日テレ関連会社でも個人情報が流出</title>
+    <link>http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html</link>
+    <description>実は そこいら中のWebサーバは 設計上のセキュリティ丸出しのところが多い、なあんてことが現実にあり得るかも知れません。世間一般の方々が おいそれとはWebページに個人情報が書き込めなくなりますよね。</description>
+    <dc:date>2002-05-31T09:59:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/30/njbt_16.html">
+    <title>Linux有力4ベンダーが連合、統一ディストリビューションを開発へ</title>
+    <link>http://www.zdnet.co.jp/news/0205/30/njbt_16.html</link>
+    <description>中心部分が統一されることは 喜ばしいことだと私は思います。</description>
+    <dc:date>2002-05-31T17:39:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/31/njbt_04.html">
+    <title>カシオ、「CCCDは再生保証できない」</title>
+    <link>http://www.zdnet.co.jp/news/0205/31/njbt_04.html</link>
+    <description>また一社 再生保証なしのお墨付きを出しました。</description>
+    <dc:date>2002-05-31T17:39:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html">
+    <title>日本国債格付け ２段階下がる</title>
+    <link>http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html</link>
+    <description>借金だらけだと信頼されないですね。</description>
+    <dc:date>2002-05-31T18:07:50</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020827.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020827.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.junit.org/index.htm">
+    <title>JUnit 3.8 リリース</title>
+    <link>http://www.junit.org/index.htm</link>
+    <description>単体テストツールのJUnitがバージョンアップです。</description>
+    <dc:date>2002-08-27T09:47:06</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/cactus/">
+    <title>Jakarta Cactus 1.4 リリース</title>
+    <link>http://jakarta.apache.org/cactus/</link>
+    <description>サーバサイド単体テストフレームワークのCactusの新版リリースです。</description>
+    <dc:date>2002-08-27T10:25:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www3.justsystem.co.jp/download/atok/up/win/020319.html">
+    <title>Justsystem: ATOK15 for Windowsアップデートモジュール新版公開開始</title>
+    <link>http://www3.justsystem.co.jp/download/atok/up/win/020319.html</link>
+    <description>早速ダウンロード</description>
+    <dc:date>2002-08-27T10:25:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/public/news/20020820/1.html">
+    <title>松坂市、ホンモノの松阪牛をサイトで確認するシステムをスタート</title>
+    <link>http://japan.internet.com/public/news/20020820/1.html</link>
+    <description>生産者主導による食の流通の適正化ですね。興味深い試みです。</description>
+    <dc:date>2002-08-27T10:25:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/27/nebt_03.html">
+    <title>HP、コンシューマーPCにWordPefect採用</title>
+    <link>http://www.zdnet.co.jp/news/0208/27/nebt_03.html</link>
+    <description>ほう。WordPerfectを採用？ 興味深い動きです。</description>
+    <dc:date>2002-08-27T09:58:44</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/Enterprise/News/2002/Item/020823-2.html">
+    <title>暴露されたLinux開発者の私生活</title>
+    <link>http://japan.cnet.com/Enterprise/News/2002/Item/020823-2.html</link>
+    <description>統計的な観点からのLinux開発者像。デビアン派が多いんですねぇ。</description>
+    <dc:date>2002-08-27T10:25:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/27/nebt_02.html">
+    <title>Intel、P4新版発表。2.53GHz版を大幅値下げ</title>
+    <link>http://www.zdnet.co.jp/news/0208/27/nebt_02.html</link>
+    <description>近いうちに3GHz版も出る模様なんですって。どんどん高速化していきますねぇ。あっという間に 10GHzは突破してしまう っていうほどの勢いですね。どんどん周波数が高くなるのは 電磁波という面で あまり良いことでは無いかも知れませんが…</description>
+    <dc:date>2002-08-27T09:58:44</dc:date>
+  </item>
+
+
+</rdf:RDF>

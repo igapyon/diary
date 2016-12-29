@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020428.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020428.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/cactus/">
+    <title>Jakarta Cactus 1.3 リリース</title>
+    <link>http://jakarta.apache.org/cactus/</link>
+    <description>Apache版テストツールの新バージョン登場です。</description>
+    <dc:date>2002-04-28T18:39:06</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/04/26/635481-000.html">
+    <title>『Microsoft.NET Passport SDK』にLinux版登場!</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/04/26/635481-000.html</link>
+    <description>出るだろうとは聞いていましたが、実際にリリースされると印象的です。</description>
+    <dc:date>2002-04-28T18:39:06</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0204/19/02041988.html">
+    <title>REALITY CHECK：IBMの強力な武器――オープンソース</title>
+    <link>http://www.zdnet.co.jp/enterprise/0204/19/02041988.html</link>
+    <description>IBMは オープンソースを上手く活用し、市場でかなりの優位性を得ました。時代を象徴していますね。</description>
+    <dc:date>2002-04-28T18:39:06</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0422/006.html?2002">
+    <title>ネット接続で提携　ＮＥＣ、松下電器、ＫＤＤＩなど４社</title>
+    <link>http://www.asahi.com/business/update/0422/006.html?2002</link>
+    <description>ぎょぎょ、これまた巨大連合ですね。</description>
+    <dc:date>2002-04-28T18:39:06</dc:date>
+  </item>
+
+</rdf:RDF>

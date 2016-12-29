@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/17 日記: FOAF</TITLE>
+<META name="DESCRIPTION" content="結城浩さんの日記に触発されて FOAFなるものを作ってみる。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FOAF作成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:結城浩]さんの日記に触発されてFOAFを作ってみました。</P>
+<UL>
+  <LI><A href="../memo/memofoaf.html">資料: FOAFメモ</A>
+</UL>
+
+<P>ちゃんと妥当に作られているかどうか やや微妙 (苦笑)<BR>
+お友達リストっていうのの作り方は 雰囲気で ちょっと作ってみました。[replace-link:結城浩]さんのお友達希望
+(笑)</P>
+<P><FONT color="#ff0000">15:34</FONT> さっそく[replace-link:結城浩]さんにお友達登録いただきました。すっごく嬉しいです
+q(^o^)P</P>
+<P><FONT color="#ff0000">2003.06.19</FONT> (連絡) <STRONG>しの</STRONG>さんへ。[replace-link:結城浩]さんと私は FOAFの拡張子について *.rdfに変更させて頂きました。</P>
+<P><FONT color="#ff0000">2003.06.20</FONT> (連絡) <STRONG>しの</STRONG>さんの*.rdfへのファイル名変更に対応させて頂きました q(^o^)P</P>
+<P><FONT color="#ff0000">2003.06.21</FONT> [replace-link:結城浩]さんや しのさんは 既にFOAFを XSL対応にされていました。みなさん
+素早いなぁ。XSLが ほぼ初体験状態な私は まだ おろおろしています… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C#によるSAXベースXML作成サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C#によるSAXベースのXML作成サンプルです。私の中では XML作成は SAXプログラムしか許せません。<BR>
+昔 全く同じ内容のサンプルを書いた記憶がおぼろげにあるのですが、とりあえず
+また メモしておきます。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">C#によるSAXベースのXML作成サンプル</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>    // SAXベースによる書き込み。
+    System.Xml.XmlTextWriter saxWriter =
+        new System.Xml.XmlTextWriter(&quot;sample.xml&quot;, System.Text.Encoding.UTF8);
+    saxWriter.Formatting = System.Xml.Formatting.Indented;
+    saxWriter.WriteStartDocument();
+    saxWriter.WriteStartElement(&quot;ルートエレメント&quot;);
+    saxWriter.WriteAttributeString(&quot;何かアトリビュート&quot;, &quot;その値&quot;);
+    saxWriter.WriteStartElement(&quot;子供のエレメント&quot;);
+    saxWriter.WriteString(&quot;ここに文字列を挿入&quot;);
+    saxWriter.WriteEndElement();
+    saxWriter.WriteEndElement();
+    saxWriter.WriteEndDocument();
+    saxWriter.Close();
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030617-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

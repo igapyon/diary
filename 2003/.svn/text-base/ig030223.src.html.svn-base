@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/02/23 日記: JScreenSaver: Java言語でWindows用スクリーンセーバーを作成するためのSDK</TITLE>
+<META name="DESCRIPTION" content="Windows用スクリーンセーバーがJavaだけで開発できるようにするソフトウェア開発キットをリリースしました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語だけを用いてWindows用スクリーンセーバーを作成することを可能にするためのSDKをリリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="../../soft/jssaver_ja.html">JScreenSaver</A>という、Java言語だけを用いてWindows用スクリーンセーバーを作成することを可能にするためのソフトウェア開発キットを正式リリースしました。(ドキュメントを
+α版からstable版へと更新しただけです…) ずいぶん以前に作って α版扱いで公開したまま
+ず～っと ほったらかしにしていました。関係者の方 すんません。なお リリースするのは私ですが
+開発はほとんど[replace-link:渡辺義則]さんの手による物です。<BR>
+JavaだけでWindows用スクリーンセーバーを作成するっていう切り口のアプローチは
+あまり見かけないので、意外にブレークするかも って思っていたりします。いろいろ使えそうな気がするのですが…
+そういう実用的な物は私にはと～ぜん思いつきません (苦笑)</P>
+<P>ＸＸでJavaを起動ということでは 残るは 『通知領域(タスクトレイ)からJava起動』
+が 思いついたけれど実装できていない 最後の一つです。実用性が全くイメージできないので
+これはもう 作らないかも知れません。(潜在的なニーズはあるのやも知れませんが
+そもそも 通知領域(タスクトレイ)プログラミングをどのように行うか ってことを完全に忘却しかかっているから
+かなり実現性は低そうです)</P>
+<P><FONT color="#ff0000">2005.06.15追記</FONT> [replace-link:a-san]が SWT版の JScreenSaverを作成されました。</P>
+<UL>
+  <LI>SwtScreenSaver (Javaスクリーンセーバー SWT版)<BR>
+  [replace-href:http://www.hcn.zaq.ne.jp/no-ji/javasss/index.html]
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>自宅で加入しているケーブルテレビ形式インターネット接続サービスの契約を更新</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>自宅で加入している<A href="http://www.tcct.co.jp/">ケーブルテレビ形式インターネット接続サービス</A>について、500円アップで ものすごく速度向上が得られると判断して、これに申し込みました。この工事が終了すれば、下記のようになります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD></TD>
+      <TD bgcolor="#ffff00">上り</TD>
+      <TD bgcolor="#ffff00">下り</TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#ffff00">現状</TD>
+      <TD align="right">128K bps</TD>
+      <TD align="right">10M bps</TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#ffff00">変更後</TD>
+      <TD align="right">2M bps</TD>
+      <TD align="right">20M bps</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>特に上りの速度がアップするのが ホームページをやっている人としては嬉しいです。さて
+早く工事施工しないかしらん。楽しみ。楽しみ。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030223-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

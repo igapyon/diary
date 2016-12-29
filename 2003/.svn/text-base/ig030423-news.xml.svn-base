@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030423.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030423.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.ipa.go.jp/security/fy14/contents/high-availability/guide.html">
+    <title>インターネットサーバーの安全性向上策に関する調査（アベイラビリティ確保）</title>
+    <link>http://www.ipa.go.jp/security/fy14/contents/high-availability/guide.html</link>
+    <description>熟読中… これはすばらしい資料です。可用性向上のためのハウツーが 惜しげもなく片っ端から書かれています。ページ数が膨大なのが難点ですが それだけの価値があります。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030420/1/">
+    <title>デジタル機器には「自明の使い勝手」がほしい</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030420/1/</link>
+    <description>いろんなインタフェースを統一して欲しいです。携帯電話の操作性も各キャリア毎に統一してほしいです。もっと基本的なところでは、例えば 充電器の形状も統一して欲しいです。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/21/njbt_04.html">
+    <title>東芝、地上デジタル対応へアップグレード可能なデジタルTV</title>
+    <link>http://www.zdnet.co.jp/news/0304/21/njbt_04.html</link>
+    <description>ということは 普通のデジタルTVって、地上波デジタルに対応するために何かしなくてはならないのですね。地上波デジタル時代って、危険な香りがします。(大変興味深い) もしかすると TVキャプチャーカードが不要？ なのでしょうか。その点も興味津々。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/21/njbt_05.html">
+    <title>インテル、組み込み向けPentium M発表</title>
+    <link>http://www.zdnet.co.jp/news/0304/21/njbt_05.html</link>
+    <description>ここのところの傾向として、CPUの速度よりも 電力消費量や熱量の低減が重視される傾向があるように思えます。時代の流れかしら。(基本的に CPUの速度がそこそこあっての話でもありますが…)</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://www.holonlinux.com/product/xonwin/xow2.html">
+    <title>X on Windows 2</title>
+    <link>http://www.holonlinux.com/product/xonwin/xow2.html</link>
+    <description>Cygwin+αなものであると思います。売り物としてリリースされているのは便利である場合もあることでしょう。いきなりOSをLinuxに変更する、ということが出来ない場合に、こういうツールを入れて部分的に *NIX化していくのは面白そうですね。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20053826,00.htm">
+    <title>三菱重工業の家庭用ロボットにMontaVista Linuxを採用</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20053826,00.htm</link>
+    <description>組み込み系はLinuxがデファクトスタンダードですねっ。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/243177">
+    <title>フリーソフトは“自由なソフト”と呼ぼう--リチャード・ストールマン氏</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/243177</link>
+    <description>『自由なソフト』と訳す案に強く同意します。</description>
+    <dc:date>2003-04-24T11:25:03</dc:date>
+  </item>
+
+</rdf:RDF>

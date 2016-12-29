@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/10/31 日記: Linuxシフト実行開始</TITLE>
+<META name="DESCRIPTION" content="世間動向に対応するため、私のチームもLinuxシフトに着手することになりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linuxシフト開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>世間的に『Linuxを扱っていないとソフトウェア会社では無い』と言われる時代の到来を強く感じたので、私のチームもいよいよLinuxシフトに着手することにしました。</P>
+<UL>
+  <LI>とりあえず、ヨドバシカメラで <A href="http://www.turbolinux.co.jp/10d/">Turbolinux 10 Desktop</A> Basic を購入してから会社に出社することにしました。<BR>
+  ところが ヨドバシカメラ梅田では 『Turbolinux 10 Desktopは 不具合のため回収された』などと言われ
+  購入することが出来ませんでした。Turbolinuxのページを見たら、なるほど深刻な不具合に関する記載がありました。…私は
+  Linuxのみの環境を作成したいだけなのだから、この不具合は関係ないので、それでも欲しいのですが…
+  <LI>しかたなく Red Hat Linux 9 を約\7,000.-で購入しました。
+</UL>
+<HR>
+<P>読者からツッコミ</P>
+<P><CITE>Tです。ご無沙汰いたしております。</CITE></P>
+<P><CITE>日記はいつも読ませていただいております。<BR>
+Linux を導入されるようなのですが、Turbo は避けられたほうが良いかと思います。理由は簡単で、ディレクトリ構成が独自仕様だからです。結果、rpm
+パッケージが Turbo 独自となってしまっています。又各種ツールも独自のものが多く、Linux(および
+unix)を理解するというより、Turbo Linux のみの理解となってしまいます。</CITE></P>
+<P><CITE>デスクトップ環境のみの評価でしたら、別に製品を購入しなくても雑誌の付録
+CD で十分です。</CITE></P>
+<P><CITE>私はとある書籍の査読のお手伝いをさせていただいたりしておりましたので、現在は
+Redhat 9 を自宅で使っております。近々 debian に移行する予定です。やはり商用のディストリビューションはどれもこれも押しつけがましいところがあり、結局は
+Windows と変らないではないかと思う今日この頃です。<BR>
+とっつき易さという事では、Vine の評判が良いようです。私は触ってもおりませんので判りません。</CITE></P>
+<P><CITE>なお、GNOME や KDE といった最新のデスクトップ環境を使われる事を予定されているなら、CPU
+メモリ共に 1G 越かつヴィデオカードと NIC が Linux対応というマシンでないと処理の重さに驚くかまともにインストールできずにおしまいということになりますので御注意ください。特に
+OpenOffice の評価を考えておられるのなら、CPUは最新最強かつメモリは積めるだけ積まないと欲求不満に陥ること請合いです。</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>関西オープンソース+フリーウェア2003</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社のすぐ近くで 関西オープンソース+フリーウェア2003 というものが開催されたので、それに ちょびっとだけ行ってきました。<BR>
+[replace-link:KNOPPIX] 日本語版 の作者の方と会って話をしてきました。(先方は私のことは知りませんでした。少しがっかり。)<BR>
+[replace-link:KNOPPIX] のCD-Rを 内容を変更して焼き直す手法などについて質問などしてきました。英語版ページを見たらわかるのだそうです。大変興味深いと思いました。</P>
+<P>で、KNOPPIX 3.3日本語版のCD-Rをもらってきたので ヒトミ先輩が早速体験しました。Linux
+OSが CD-ROMでいきなりブートして利用可能なのに とても驚いていました。Linux初心者がLinuxを体験するには
+すばらしく最適な環境であろうとの結論を得ました。</P>
+<P>一方 実行するパソコンのCD-ROM装置が低速だと体感速度が極めて遅くなるという
+当然な難点も指摘していました。OpenOfficeを起動しようとしたらCD-ROMがアクセスしまくって起動にとても時間がかかりました。まあ
+当たり前といえば当たり前なのですけれどもね。</P>
+<P>KNOPPIXのページに KNOPPIXの本が紹介してありました。こちらの本についても
+買ってみたいと思いました。</P>
+<UL>
+  <LI>KNOPPIXでLinuxを使いこなそう<BR>
+  [replace-href:http://www.cbook24.com/bm_detail.asp?sku=4886487092]
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031031-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030320.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030320.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://support.microsoft.com/default.aspx?scid=kb;[LN];331958">
+    <title>マイクロソフトサポート技術情報-331958: スタンバイまたは休止状態に入るとハード ディスクが破損する</title>
+    <link>http://support.microsoft.com/default.aspx?scid=kb;[LN];331958</link>
+    <description>そんなことでハードディスクが破損するのは嫌だなぁ。</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+  <item rdf:about="http://www.cyberpolice.go.jp/">
+    <title>@police</title>
+    <link>http://www.cyberpolice.go.jp/</link>
+    <description>日本国警察庁のページ。これは すばらしいページです！一見の価値あり。</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/21/nebt_10.html">
+    <title>NetscapeのRSS技術、最新情報提供手段として復活</title>
+    <link>http://www.zdnet.co.jp/news/0303/21/nebt_10.html</link>
+    <description>ようやっとRDF/RSS技術が流行出す…か？</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/21/nebt_11.html">
+    <title>Sun、オープンソースのJavaサーバソフトに互換性テスト提供</title>
+    <link>http://www.zdnet.co.jp/news/0303/21/nebt_11.html</link>
+    <description>Sunがオープンソースに協力し続けることを祈る。</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/21/nebt_14.html">
+    <title>MSの新ライセンス、加入者の60％が料金増大</title>
+    <link>http://www.zdnet.co.jp/news/0303/21/nebt_14.html</link>
+    <description>ふむふむ。</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/03/21/642620-000.html">
+    <title>『MontaVista Linux』搭載の携帯電話が登場─日本でも「いくつかのプロジェクトがある」</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/03/21/642620-000.html</link>
+    <description>日本でもLinux搭載携帯電話プロジェクトが進行しているんですね。楽しみに待っています。</description>
+    <dc:date>2003-03-24T15:47:46</dc:date>
+  </item>
+
+</rdf:RDF>

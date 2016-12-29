@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021204.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021204.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">
+    <title>Javaの理論と実践: スレッドはどこへ消えた?</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html</link>
+    <description>RuntimeException系例外などで スレッドが音もなく消えてしまう問題への考察。随分昔ですが私も これに悩まされたことがあります。(その時は Error系だったですけれどもね)</description>
+    <dc:date>2002-12-05T10:50:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.2.1 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>さて ダウンロードっ</description>
+    <dc:date>2002-12-05T10:50:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">
+    <title>WindowsサーバはLinuxより安上がり？</title>
+    <link>http://www.zdnet.co.jp/news/0212/03/xert_toc.html</link>
+    <description>Microsoftがスポンサーとなった調査の報告では Windowsの方が安上がりなんですって。価格面での争いに持ち込もうとしているのですね…。ものすごいことです。</description>
+    <dc:date>2002-12-05T10:50:59</dc:date>
+  </item>
+
+</rdf:RDF>

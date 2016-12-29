@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030606.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030606.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055001,00.htm">
+    <title>「Linuxを狙え!」--マイクロソフトCEOバルマーが全社に号令</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055001,00.htm</link>
+    <description>マイクロソフトにとって それほどに Linuxが目障りになってきているのですね。興味深いです。</description>
+    <dc:date>2003-06-06T08:47:08</dc:date>
+  </item>
+
+  <item rdf:about="http://pcweb.mycom.co.jp/news/2002/12/20/13.html">
+    <title>[昔] 3G対応、Palm OS搭載、Outlookと同期も取れる携帯電話「Kyocera 7135」発売</title>
+    <link>http://pcweb.mycom.co.jp/news/2002/12/20/13.html</link>
+    <description>米京セラの Palm OS搭載携帯電話。日本で発売して欲しいなぁ…。何にせよ Palm OS搭載電話がリリースされたら、私 おそらく すぐに買います。</description>
+    <dc:date>2003-06-06T08:47:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/game/docs/20030530/yumeb.htm">
+    <title>ナムコ、PS2「ゆめりあ」のWindows用ベンチマークプログラムを「ゆめりあ.こむ」で無料配布</title>
+    <link>http://www.watch.impress.co.jp/game/docs/20030530/yumeb.htm</link>
+    <description>ある意味 次世代ベンチマーク計測ソフト。アクセス集中で ダウンロードは一時停止中なのだそうな。</description>
+    <dc:date>2003-06-06T08:47:08</dc:date>
+  </item>
+
+</rdf:RDF>

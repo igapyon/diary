@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020604.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020604.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.asahi.com/national/update/0603/031.html">
+    <title>協和香料化学、「違法と知りながら使った」</title>
+    <link>http://www.asahi.com/national/update/0603/031.html</link>
+    <description>2002年は 『食の信頼見直し年』になってしまう勢いですね。</description>
+    <dc:date>2002-06-04T09:14:50</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/News/Infostand/Item/2002-0531-J-4.html">
+    <title>5月30日以降は『Windows XP』がインストールできない？</title>
+    <link>http://japan.cnet.com/News/Infostand/Item/2002-0531-J-4.html</link>
+    <description>今度は 2002年05月30日問題という新たな問題が発生する？のかしらん。大事でなければ良いのですが…。</description>
+    <dc:date>2002-06-04T08:53:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0603/013.html">
+    <title>通勤電車は電磁波充満？携帯電話、電源オンで重複・反射</title>
+    <link>http://www.asahi.com/national/update/0603/013.html</link>
+    <description>大変な話で… 電磁波キライの私には いやな話です。</description>
+    <dc:date>2002-06-04T09:42:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0603/012.html">
+    <title>グリコ製品計約１２７万個を回収　無認可香料使用</title>
+    <link>http://www.asahi.com/national/update/0603/012.html</link>
+    <description>香料製造会社に問題があったそうです。</description>
+    <dc:date>2002-06-04T09:42:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0603/011.html">
+    <title>ブルボンのクッキーなど自主回収　禁止物質使用</title>
+    <link>http://www.asahi.com/national/update/0603/011.html</link>
+    <description>香料製造会社の問題。グリコと同じ件。</description>
+    <dc:date>2002-06-04T09:42:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/04/nebt_07.html">
+    <title>東芝、1～3月のノート市場で首位に</title>
+    <link>http://www.zdnet.co.jp/news/0206/04/nebt_07.html</link>
+    <description>東芝がノートパソコンで世界第一位だったのですね。知りませんでした。</description>
+    <dc:date>2002-06-04T09:35:45</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/News/Flash/2002/2002-0530-F-3.html">
+    <title>【フラッシュ】NTTなど5社がリバティー・アライアンスに参加</title>
+    <link>http://japan.cnet.com/News/Flash/2002/2002-0530-F-3.html</link>
+    <description>反MS Passport陣営も 徐々に頑張っている…模様。</description>
+    <dc:date>2002-06-04T08:53:53</dc:date>
+  </item>
+
+</rdf:RDF>

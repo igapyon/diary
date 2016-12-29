@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030110.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030110.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/09/nebt_06.html">
+    <title>家電向けLinux、カラオケや3G携帯にも</title>
+    <link>http://www.zdnet.co.jp/news/0301/09/nebt_06.html</link>
+    <description>家電Linuxって かなり勢いありそうなんでしょうか。組み込み系に全く見識がないので分かりませんが、そういうトコロからLinuxが頑張ってくれるのは喜ばしいです。</description>
+    <dc:date>2003-01-10T09:31:30</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/09/nebt_07.html">
+    <title>AppleのSafari、ブラウザ市場に与える影響は？</title>
+    <link>http://www.zdnet.co.jp/news/0301/09/nebt_07.html</link>
+    <description>AppleがKDEの方を向いている？ のでしょうかねぇ。</description>
+    <dc:date>2003-01-10T09:31:30</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/09/nebt_13.html">
+    <title>音楽ファイル交換、エルビス・プレスリーなら合法？</title>
+    <link>http://www.zdnet.co.jp/news/0301/09/nebt_13.html</link>
+    <description>音声録音の著作権保護対象期間について、米国で95年間であるのに対し欧州などでは50年間であるという期間の違いがあるんだそうです。知りませんでした。</description>
+    <dc:date>2003-01-10T09:31:30</dc:date>
+  </item>
+
+</rdf:RDF>

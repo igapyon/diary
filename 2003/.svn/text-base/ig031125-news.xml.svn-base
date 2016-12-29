@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031125.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031125.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-25</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/special/story/0,2000047679,20062035,00.htm">
+    <title>Longhornに潜むマイクロソフトの戦略</title>
+    <link>http://japan.cnet.com/news/special/story/0,2000047679,20062035,00.htm</link>
+    <description>これはすごい記事です。なるほどマイクロソフトの戦略がうまく説明されています。読み応えのある記事でした。おもわずうなってしまいました。</description>
+    <dc:date>2003-11-25T22:46:07</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/column/suematsu/story/0,2000048844,20062116,00.htm">
+    <title>末松千尋・オープンソース戦略：第5回 組込Linuxで成長するモンタビスタ</title>
+    <link>http://japan.cnet.com/column/suematsu/story/0,2000048844,20062116,00.htm</link>
+    <description>これまた読み応えのあるインタビュー記事。オープンソースという切り口とビジネスとの共存について よくよく考えさせられます。</description>
+    <dc:date>2003-11-25T22:46:07</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/devs/roundtable01/roundtable01.html">
+    <title>第1回 オブジェクト指向の弱点 浅海智晴×平鍋健児×原田洋子×村田真</title>
+    <link>http://www.atmarkit.co.jp/fjava/devs/roundtable01/roundtable01.html</link>
+    <description>なんだかすんごいメンバーで対談したんですねぇ。Javaやオブジェクト指向の重要人物による対談記事。いやはや、すごいなぁ。</description>
+    <dc:date>2003-11-25T22:46:07</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20062147,00.htm">
+    <title>ニフティ、Blogサービス参入を正式表明---TypePadを採用</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20062147,00.htm</link>
+    <description>使いやすいのかどうか とっても興味が沸きます。だって私はNiftyユーザー。</description>
+    <dc:date>2003-11-25T22:46:07</dc:date>
+  </item>
+
+</rdf:RDF>

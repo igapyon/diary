@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030515.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030515.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054335,00.htm">
+    <title>「情報家電にはWindowsよりLinux」と経済産業省</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054335,00.htm</link>
+    <description>日常的にフリーズしやすいOSを家電には利用できませんよね。事実／現実を追認しただけのことでしょうか？</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/special/ctl_as/javaas01.html">
+    <title>Linuxで動く Javaアプリケーションサーバ・カタログ</title>
+    <link>http://www.atmarkit.co.jp/flinux/special/ctl_as/javaas01.html</link>
+    <description>ほうほう。ちなみに、この比較記事は『有償』のものの比較記事です。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/13/epn03.html">
+    <title>IBM Software World直前レポート：第1回 WebSphereは信頼のブランド</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/13/epn03.html</link>
+    <description>前バージョンのWebSphere内蔵コネクションプールを利用すると SELECTを行った際にも commit(あるいはrollback)を行わないとコネクションが解放されないという とんでもない仕様(バグ)があるのだそうな。あまりにも酷い話だと思いました。これって本当の事ですか？</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054296,00.htm">
+    <title>日本IBM、目黒区役所の庁内ネットワークをLinuxで構築</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054296,00.htm</link>
+    <description>サーバーサイドはLinuxで決まり！ っかしら (笑)</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030506/1/">
+    <title>.NETの強さと弱さ</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030506/1/</link>
+    <description>この記事とは同意できない点があります。C#.NETは 言語として Java言語に劣ります。プリミティブ型と参照型とが C#では言語仕様として混同されています。例外のcatchが強制されない点も C#.NETが大きくJavaに劣っている点です。言語単体として C#.NETは 明らかに Java言語に劣ります。後発であるのに なぜ？ Java言語を研究し尽くしてから開発できるはずなのに、なぜか Java言語よりC#.NET言語は劣っているのです。この記事を書いた方が そういった 現実的な問題をちゃんと把握しているのかどうか大変疑問です。(おおかた マイクロソフト社のキャッチフレーズをそのまま鵜呑みにしたのでしょうけれども) あと 圧倒的に異なるのが APIの充実度です。.NET Frameworkは 初期バージョンとしては随分がんばってAPIを提供しているとは思いますが、明らかに Java言語のAPI充実度に見劣りします。APIが少ないと これまた 開発の生産性は低下しますものね。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://premium.nikkeibp.co.jp/linux/">
+    <title>日経Linuxソリューション</title>
+    <link>http://premium.nikkeibp.co.jp/linux/</link>
+    <description>ページの内容がLinuxで染まっておりました (あたりまえか…)</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/13/epn17.html">
+    <title>NECシステムテクノロジーとミラクル・リナックス、「VMware」のLinux市場対応で提携</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/13/epn17.html</link>
+    <description>NECシステムテクノロジーさんも、面白い商品に手を染めますね。興味深い。</description>
+    <dc:date>2003-05-15T09:12:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.takeya.co.jp/">
+    <title>多慶屋</title>
+    <link>http://www.takeya.co.jp/</link>
+    <description>新御徒町近辺のホテルに宿泊しているのですが、そこに向かう途中に やたらにぎわっているディスカウントショップを見かけました。強く印象づけられました。</description>
+    <dc:date>2003-05-15T09:23:41</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054196,00.htm">
+    <title>MSのPassportに欠陥：ユーザーアカウント乗っ取りの恐れ</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054196,00.htm</link>
+    <description>あなおそろしや。</description>
+    <dc:date>2003-05-15T09:23:41</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/07/nebt_14.html">
+    <title>MSのVisual Basicは衰退へ？</title>
+    <link>http://www.zdnet.co.jp/news/0305/07/nebt_14.html</link>
+    <description>VB見切り組のうち、39％はC#への移行、31％はJavaへの移行を検討なのだそうな。</description>
+    <dc:date>2003-05-15T09:23:41</dc:date>
+  </item>
+
+</rdf:RDF>

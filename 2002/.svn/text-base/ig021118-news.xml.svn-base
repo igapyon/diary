@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021118.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021118.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/15/njbt_02.html">
+    <title>シャープとIBM、Linuxザウルス活用の企業向けモバイルシステムを世界展開</title>
+    <link>http://www.zdnet.co.jp/news/0211/15/njbt_02.html</link>
+    <description>Linux版ザウルスが世界を席巻する可能性が出てきました。一方 WorkPad (IBM版Palm)のユーザである私としては 複雑な気持ちもします (苦笑)</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://cruel.org/freeware/halloween7j.html">
+    <title>ハロウィーン VII: 調査曰く</title>
+    <link>http://cruel.org/freeware/halloween7j.html</link>
+    <description>山形さんの手によるハロウィーン VII文書の翻訳</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/commons/dbcp.html">
+    <title>Jakarta  DBCP Component</title>
+    <link>http://jakarta.apache.org/commons/dbcp.html</link>
+    <description>DBCPというコネクションプール実装に興味。これがデファクトなのだそうな。(私といえば いつも手作りしがちです)</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/1115/009.html">
+    <title>社内LANと外のパソコン結ぶサービス開始　日本IBM</title>
+    <link>http://www.asahi.com/business/update/1115/009.html</link>
+    <description>日本IBM自身が在宅勤務制度を導入したので そのようなサービスを提供するようになったのだそうです。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/15/nebt_11.html">
+    <title>Intelサーバ、RISCサーバをしのぐ見通し</title>
+    <link>http://www.zdnet.co.jp/news/0211/15/nebt_11.html</link>
+    <description>サーバ市場で 初めて IntelベースがRISCベースを上回るのだそうです。これも時代の流れですね…。また Linuxが成長しているのも これを後押ししているんですって。実際に数字として出てくるとは、これにはびっくり。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0211/14/n16.html">
+    <title>オラクル、Itanium 2上のTPC-CベンチマークでSQL Serverを上回る</title>
+    <link>http://www.zdnet.co.jp/enterprise/0211/14/n16.html</link>
+    <description>Linux上で実現したとのこと。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/15/nebt_10.html">
+    <title>米国のサーバ売上、IBM/Dellが増大</title>
+    <link>http://www.zdnet.co.jp/news/0211/15/nebt_10.html</link>
+    <description>Dellが頑張っているんですね…。またIntelベースも増大傾向なんですね。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/16/nebt_13.html">
+    <title>「3年でPC買い替え」は過去の話</title>
+    <link>http://www.zdnet.co.jp/news/0211/16/nebt_13.html</link>
+    <description>不景気などでPC買い換え需要が弱まるとのこと。なるほど、さもありなん という感じです。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/16/nebt_15.html">
+    <title>Napsterの資産、Roxioが買収</title>
+    <link>http://www.zdnet.co.jp/news/0211/16/nebt_15.html</link>
+    <description>Easy CD Creator のRoxioがNapsterの資産をゲット。すごい話ですね。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.kanzaki.com/music/symphonies.html">
+    <title>交響曲に関するいくつかの情報</title>
+    <link>http://www.kanzaki.com/music/symphonies.html</link>
+    <description>作曲年の作曲家を横断して見る表が興味深いです。</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.studyinghttp.net/uri.html">
+    <title>Uniform Resource Identifiers (日本語)</title>
+    <link>http://www.studyinghttp.net/uri.html</link>
+    <description>日本語によるRFC解説を見つける。早速メモ</description>
+    <dc:date>2002-11-18T15:33:13</dc:date>
+  </item>
+
+</rdf:RDF>

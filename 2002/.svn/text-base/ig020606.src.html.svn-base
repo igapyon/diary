@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/06 日記: Mozilla 1.0 リリース</TITLE>
+<META name="DESCRIPTION" content="待望の Mozilla 1.0 リリースです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020606-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍執筆</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ノっています。ばりばりです。尻に火が付いています。どんどんスムーズに文章が出てきます。流ちょうです。後でのデバッグが大変そうです
+(苦笑)<BR>
+尻に火が付かないと 書き出さない自分が嫌になりますが、それはそれとして 今
+書いているから まあ それで良いのだ。(たぶん)<BR>
+、、、既に一回 しかも初っぱなの締切を伸ばして貰っているのですもの。編集者さま
+すみません。今 私 頑張っていますから～ m(_._)m<BR>
+<FONT color="#ff0000">14:28</FONT> 燃え尽きました…。まだ終わっていません。<BR>
+<FONT color="#ff0000">16:51</FONT> 2章の執筆が終わりました。しかし 一応終わったものの、これが素人さんに理解できるのかどうか
+不安だなぁ。明日は 3章の章立てを もう少し手を入れて見通しを良くする作業があります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>vCard形式といふもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.imc.org/pdi/">vCard</A>というものを理解し(というか初めて使い)ました。電子名刺ですね。これは便利です。さっそく私の<A href="../../igapyon.vcf">vCard</A>を作ってみました。<BR>
+同じ要領にて vCalendarというのでスケジュールも交換できるんですね。おおおっ。結構気に入りました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Mozilla 1.0 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>teikさんからツッコミ<BR>
+<CITE>Subject:  [igapyon:00964] Mozilla1.0 リリース！</CITE></P>
+<UL>
+  <LI><CITE>ついに Mozilla 1.0 リリースしました。<BR>
+  [replace-href:http://www.mozilla.org/releases/]</CITE>
+  <LI><CITE>すでに日本語パックも出てます。<BR>
+  [replace-href:http://jlpmoz.sourceforge.net/]</CITE>
+</UL>
+<P><CITE>-----<BR>
+teik</CITE></P>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT>[replace-link:いがぴょん]<BR>
+情報ありがとうございます。早速ダウンロード中。<BR>
+それにしても Mozilla といいい OpenOffice といい、ここのところキーとなるオープンソースソフトのファーストリリースが次々とリリースされていますね。どきどきします。</P>
+<P><FONT color="#ff0000">09:21</FONT> Mozilla 1.0 使いました。これは なかなか快適です。『普通にちゃんと動くじゃん(思わず本音が出る)』。さすがは <STRONG>1.0＝正式リリース</STRONG> ということなんですね。しかもこれが 沢山のプラットフォーム上で動作するというのも魅力です。Mozilla
+結構好きになれそうな予感がします。ということで 現在 使い始めました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 3.3.1 で NTサービスの注意点</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>teikさんのツッコミ<BR>
+<CITE>Subject: [igapyon:00962] Tomcat 3.3.1 の NTサービス問題<BR>
+teik です。<BR>
+Tomcat3.3.1 の NT サービスで、ちょっとはまりました。原因と対策まで調べたので、一応お知らせします。<BR>
+Tomcat3.3.1 は、wrapper.properties にトラップがあって 気をつけないと NT
+サービスが正しく動かないみたいです。<BR>
+<BR>
+バージョンが 3.3a から 3.3.1 に上がったときに新しいプロパティ wrapper.jvm.options
+が追加されていますが、このプロパティが空に設定されている場合に、サービスを動かしてもすぐに異常終了してしまいます。<BR>
+適当な値を設定してやれば OK です。</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>例）wrapper.jvm.options=-server</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>Tomcat3.3.x 使ってる人、お気を付けくださいまし。<BR>
+-----<BR>
+teik</CITE></P>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT>[replace-link:いがぴょん]<BR>
+Tomcat 3.3.1 は 何かと難しいですね。web.xmlでハマった記憶もあります。<BR>
+そういえば、Tomcat 4.0.x は NTサービスが最初からTomcatインストーラーに組み込まれていました。あれは印象的でした。(でも
+そういやまだこっちの方は試していません…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ant 1.5 beta 2 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>うらもとさんからツッコミ<BR>
+<CITE>Subject: [igapyon:00963] Ant 1.5 beta 2 Release<BR>
+Ant ファンのうらもとです。<BR>
+Ant のベータが着々とリリースされていますね。7月の正式リリースに向けて、順調そうです。<BR>
+1.5 で、Copy や Move、FixCRLF などに encoding 属性がついたのが、個人的にすごくでかいです。<BR>
+これで、文字化けしなくなる ^^;<BR>
+(まぁ、Windows で EUC つかってるのが悪いちゃ悪いんですが)<BR>
+--<BR>
+うらもと </CITE></P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020606-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030708.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030708.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059787,00.htm">
+    <title>NRI、オープンソース関連のドキュメントを無償公開</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059787,00.htm</link>
+    <description>とりあえず Eclipseの一般的なノウハウが公開されるらしい。良い傾向です。</description>
+    <dc:date>2003-07-08T22:35:29</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059740,00.htm">
+    <title>日立とNEC、COBOL2002準拠の.NET対応COBOL開発環境を共同開発</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059740,00.htm</link>
+    <description>もう 富士通が出しているのだから いいじゃん、って思ったりして…。話題を変えて、JavaVM対応 COBOL開発環境 なんて話は そういえば聞きませんね。</description>
+    <dc:date>2003-07-08T08:43:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.oreilly.co.jp/BOOK/regex2/">
+    <title>オライリー: 詳説 正規表現 第2版</title>
+    <link>http://www.oreilly.co.jp/BOOK/regex2/</link>
+    <description>欲しい！買いたい！</description>
+    <dc:date>2003-07-08T08:43:19</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/special/story/0,2000047679,20059743,00.htm">
+    <title>マイクロソフトの次のターゲットはグーグルだ</title>
+    <link>http://japan.cnet.com/news/special/story/0,2000047679,20059743,00.htm</link>
+    <description>GoogleがNetscapeで起きたような競争の末 やられたりしたら 悲しいです。</description>
+    <dc:date>2003-07-08T08:43:19</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.59757">
+    <title>だからマイクロソフトは嫌われる？-セキュリティ担当者の呆れた弁解</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.59757</link>
+    <description>総行数も多いでしょうし、そりゃセキュリティホールもたくさんあることでしょう。</description>
+    <dc:date>2003-07-08T08:43:19</dc:date>
+  </item>
+
+  <item rdf:about="http://blog.cnetnetworks.jp/umeda/archives/000480.html">
+    <title>Linuxが攻撃しているのはMSではなくアップルかもしれない</title>
+    <link>http://blog.cnetnetworks.jp/umeda/archives/000480.html</link>
+    <description>Linuxがアップルを誤爆するのではないか？ というコラム。微妙に面白い。</description>
+    <dc:date>2003-07-08T13:30:27</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/08/nebt_06.html">
+    <title>MSがLinux推進ベンダーに報復措置？</title>
+    <link>http://www.zdnet.co.jp/news/0307/08/nebt_06.html</link>
+    <description>そのような動きもあるんだそうです。</description>
+    <dc:date>2003-07-08T13:30:27</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20059771,00.htm">
+    <title>アドビ、新製品ではMacをサポートせず</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20059771,00.htm</link>
+    <description>マルチメディアに強いMacという印象が また一段と薄れていきます…。</description>
+    <dc:date>2003-07-08T13:30:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/08/njbt_06.html">
+    <title>Internet Explorer 6が「c:\aux」でフリーズするバグ</title>
+    <link>http://www.zdnet.co.jp/news/0307/08/njbt_06.html</link>
+    <description>「concon問題」をFIXした際に AUXまでは気が回らなかったのですね…。</description>
+    <dc:date>2003-07-08T22:35:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/08/njbt_09.html">
+    <title>三菱、地上デジタル対応フラットTVを発売</title>
+    <link>http://www.zdnet.co.jp/news/0307/08/njbt_09.html</link>
+    <description>地上波デジタル時代が 微妙に気になる私…。当面 ぜったい購入しないでしょうけれどもね…。</description>
+    <dc:date>2003-07-08T22:35:29</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/10/30 日記: Eclipse続報</TITLE>
+<META name="DESCRIPTION" content="Eclipse凄すぎます , 窓の手 という定番ソフトに興味を持ちました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse続報</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:Eclipse]の日本語化は とっても簡単に実施できる模様。というか最初の配布の時点から 国際化パックを同梱して配布すればよいのに、と思いました。<BR>
+つぎに、Strutsとの連携が どのくらい自動化できるのかが興味深い点です。これはまだ調査してません。</P>
+<P>とりあえず前に見つけた情報ページは下記</P>
+<UL>
+  <LI>Eclipse環境 日本語化インストール<BR>
+  [replace-href:http://www.ne.jp/asahi/smatra/branch/samples/j2se/Eclipse/env/jainstall/index.html]
+  <LI>Eclipse環境 Easy Struts設定<BR>
+  [replace-href:http://www.ne.jp/asahi/smatra/branch/samples/j2ee/Eclipse/plugin/Struts/index.html]
+</UL>
+<P>[replace-href:Eclipse]を上司の人見さんたちと操作していて、『これはものすごいなぁ』との結論を得ました。次の仕事では ほぼ確実に [replace-link:Eclipse]を利用することになるでしょう。<BR>
+しかしこれは オープンソースの成果物がうんぬんというシロモノではなく、むしろ単に
+『製品レベルの とある商用パッケージソフトについて、ライセンスをオープンソースに変更しただけのもの』であるように思えて仕方がありません。ものすごく品質が高いです。機能性も充分です。しかしこれは
+草の根の手作り感は あまり感じられません。プロが作った単なる商用パッケージソフトって感じしか感じられません。う～む。でもありがたいから使ってしまうのであった。<BR>
+Eclipseで割を食うのは JBuilderかなぁ なあんて考えたりしました。</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">スガさんのツッコミ</FONT></STRONG><BR>
+eclipse は JAVA Developer 11 月号の特集を見て、私もちょっと使ってみました。<BR>
+いがぴょんさんが挙げられていること以外では、JUnit との統合やScrap も便利な機能ですね。試してはいませんが、CVS
+のクライアント機能もあるようで。<BR>
+……でも、結局今まで通りの方法でプログラミングしています (^^;</P>
+<UL>
+  <LI>テキストエディタで書いて、bat やマクロから Ant を実行。
+  <LI>リファクタリング支援機能などが必要なときだけ eclipse を起動、
+</UL>
+<P>という感じになっています。<BR>
+<BR>
+# ちなみに ViVi というエディタを使用しています。<BR>
+# <A href="http://vivi.dyndns.org/">http://vivi.dyndns.org/</A><BR>
+# eclipse のコード補完機能を考慮しても、vi モードの便利さを捨てられません。<BR>
+<BR>
+開発ツールを皆で合わせるとなると、eclipse はかなり良い選択肢ですね。<BR>
+そのうち CVS クライアント機能等も試してみようとは思いつつ……。</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">高相さんのツッコミ</FONT></STRONG><BR>
+Subject:  [igapyon:01037] Eclipse 続報<BR>
+こんにちは</P>
+<P><CITE>&gt;むしろ単に『製品レベルの とある商用パッケージソフトについて、ライセンスをオープンソースに変更しただけのもの』</CITE></P>
+<UL>
+  <LI>IBM が『WebSphere』の基盤部分をオープンソースにした物のようです。<BR>
+  [replace-href:http://www-6.ibm.com/jp/developerworks/opensource/020125/j_l-erick.html]
+</UL>
+<P><CITE>&gt;Eclipseで割を食うのは JBuilderかなぁ なあんて考えたりしました</CITE><BR>
+<BR>
+まさに、そーですね。<BR>
+私の会社はとある業界向けのパッケージソフトを作っていますが、「競合しているソフトがオープン化されたら」と考えるとちょと怖くなります。<BR>
+オープンソース化の流れは良いとは思うのですが...</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">碇さんのツッコミ</FONT></STRONG><BR>
+Subject:  [igapyon:01038] Re: eclipse<BR>
+碇と申します。<BR>
+<BR>
+<CITE>&gt; # ちなみに ViVi というエディタを使用しています。<BR>
+&gt; # http://vivi.dyndns.org/<BR>
+&gt; # eclipse のコード補完機能を考慮しても、vi モードの便利さを捨てられません。<BR>
+</CITE><BR>
+ぜひgvimを試してみるとよろしいかと。<BR>
+win版 Mac OSX版もあります。ただしtar.bz2なのでちょっと注意。<BR>
+<BR>
+衝撃をうけますよ&gt;gvim</P>
+<UL>
+  <LI>gvim<BR>
+  [replace-href:http://www.kaoriya.net/]
+</UL>
+<P>使ったことありませんが、ctagsという便利なものもあるみたいです</P>
+<UL>
+  <LI>ctags<BR>
+  [replace-href:http://hp.vector.co.jp/authors/VA025040/ctags/]
+</UL>
+<P>vと^Wvとハイライトシンタックスが便利。</P>
+<P>eclipseはちょっと見たんですが、なにやらtomcat pluginとかC# plugin とかあるみたいです。眺めただけですけど魅力満載<BR>
+碇　永志</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">やまぐーさんよりツッコミ</FONT></STRONG><BR>
+件名  ：  【ツッコミ】いがぴょんの日記 10/30<BR>
+To:いがぴょんさん<BR>
+<BR>
+はじめまして、ハンドルネーム やまぐーです。<BR>
+<BR>
+Eclipse続報で<BR>
+<CITE>『製品レベルの とある商用パッケージソフトについて、ライセンスをオープンソースに変更しただけのもの』</CITE>と推定されてますが、そういうものです。<BR>
+もともとIBMのVisual Age for Java だったと思います。<BR>
+なもんで、たしかEclipseになる前のはIBMのAlphaWorksからダウンロードできたような気がします。ここらへんは不正確なのでつっこまれるかも・・・<BR>
+でこれの後継がWebSpereの開発ツールでして、これからSwing等のGUI作成機能を省いてIBMがeclipse.orgに提供したものがEclipseです。<BR>
+また、GUI作成機能もそのうちEclipseにくっつくとかしないとか<BR>
+<BR>
+<CITE>＞Eclipseで割を食うのは JBuilderかなぁ</CITE><BR>
+JBuilderで割を食ったのがVisual Age for Javaだったわけで、仕返しにただでくばったのかもしれませんね。<BR>
+<BR>
+僕の勘違いが入っている可能性もありますので、他の人からのツッコミも参考にしてください。<BR>
+以上です。よろしくお願いします。</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+みなさま、怒濤のようなツッコミを どうもありがとうございました。<BR>
+また Java界の有識者の方々が 結構 Eclipseに注目しているという事実もわかり
+とても参考になります。(寄らば大樹の陰的発想ですなぁ…)</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021025.html">2002/10/25 日記: Eclipse初体験 , Java言語入門本探索</A>
+  <LI><A href="ig021101.html">2002/11/01 日記: SWT (Standard Widget Toolkit) という選択肢</A>
+  <LI><A href="ig021115.html">2002/11/15 日記: 某社システムの火消しから復帰 , Eclipse 2.0.2 リリース</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>窓の手</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>コマンドプロンプト を自らレジストリ操作はせずに ツールを使って操作した方が簡単なような気がしてきたので、定番ソフトに手を出してみることにしました。</P>
+<UL>
+  <LI>「窓の手」公式サイト<BR>
+  [replace-href:http://www.asahi-net.or.jp/%7Evr4m-ikw/]
+</UL>
+<P>これが結構面白そうです。でも あんまり深入りするのは止そうとも思いました
+(だって仕事忙しいんだもの) と言いつつ 既にかなり気に入ってきてしまいました。<BR>
+さしあたり コマンドプロンプトもさることながら、 『自動実行』タブは重宝しそうです。世のソフトは勝手にレジストリ書き換えて自らを自動実行するものが多いですから。(スタートメニューに入っているモノはかわいいものです。それにスタートメニュー内だったらユーザがデフォルトで削除可能ですから…)<BR>
+あと アンインストール情報の削除も重宝しそうです。<BR>
+…世の定番ソフトってのも たまには試してみるものですねぇ。反省しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>会社の入っているビルの一階が 『蔵人』 という飲食店になりました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私の入っているビルの一階が 『蔵人』 という飲食店に変わりました。(私の会社は二階にあります)
+メニューは ちょっと高めの価格設定になる模様です。今日から営業開始とのこと。ちょっと楽しみにしていたりします。<BR>
+普段 私は <A href="http://www.ureshiya.kansai.walkerplus.com/">うれし家 本町店</A> というお店で昼飯を食べるのがデフォルトなのですが、蔵人オープンセール中は ちょっと <STRONG>一階の店</STRONG> に行ってしまいそうな予感がします。(位置は 社員食堂のような場所にありますからねぇ)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>和音のページを更新しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>久しぶりに 和音(子ども)のページを更新しました。</P>
+<UL>
+  <LI>いがかずね のウェブページ<BR>
+  [replace-href:http://www.tcct.zaq.ne.jp/iga/kazune/]
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C# + ADO.NET: 特定のテーブルの内容を全て取り出す方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょっと必要があって、テーブルの内容を全て抜き出すプログラムサンプルを作成しました。<BR>
+さしあたりCSVのダブルクオーテーション無しで作ってみました…。<BR>
+ちょっと自信無いので載っけてみました。バグっていたらどなたかツッコミ下さい
+(苦笑)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>        System.Data.SqlClient.SqlConnection conn = 
+                new System.Data.SqlClient.SqlConnection(
+                &quot;server=iga-pc1;database=dbsample;UID=igapyon;PWD=pass&quot;);
+        try
+        {
+                conn.Open();
+                System.Data.SqlClient.SqlDataReader reader = null;
+                System.IO.StreamWriter writer = null;
+                try
+                {
+                        System.Data.SqlClient.SqlCommand command = 
+                                new System.Data.SqlClient.SqlCommand(&quot;SELECT * FROM tblperson ORDER BY username&quot;, conn);
+                        reader = command.ExecuteReader();
+                        writer = new System.IO.StreamWriter(
+                                &quot;tblperson.txt&quot;, false, System.Text.Encoding.Unicode);
+                        for(;reader.Read();)
+                        {
+                                Object[] objResult = new Object[100];
+                                int fieldCount = reader.GetValues(objResult);
+                                for(int index = 0; index &lt; fieldCount; index++) 
+                                {
+                                        if(index != 0)
+                                        {
+                                                writer.Write(',');
+                                        }
+                                        writer.Write(objResult[index].ToString());
+                                }
+                                writer.Write(writer.NewLine);
+                        }
+                }
+                finally
+                {
+                        if(reader != null)
+                        {
+                                reader.Close();
+                        }
+                        if(writer!=null)
+                        {
+                                writer.Close();
+                        }
+                }
+        } 
+        catch(System.Data.SqlClient.SqlException ex)
+        {
+                Console.WriteLine(ex.ToString());
+        }
+        finally
+        {
+                conn.Close();
+        }</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2003.08.19 追記</FONT> ここでSystem.Data.SqlClient.SqlCommand をクローズしていない点に不審を感じる人もいることでしょう。私もそうでした。ところがどっこい
+現状 SqlCommandには Close()メソッドは無いのです。強いて言えば Dispose()メソッドはありますが、呼び出しは必須ではない模様です。Javaで慣れていると
+この点 とても気持ち悪いです。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig020823.html">2002/08/23 日記: 
+System.Data.SqlClientを直接使ったDB入出力サンプル</A> 
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C# : 一日に一度 という表現</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>一日に一度という処理のサンプルを下記にメモ。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>     const int TARGET_HOUR = 17;
+     const int TARGET_MINUTE = 06;
+     for(;;)
+     {
+         System.DateTime current = System.DateTime.Now;
+         System.DateTime target = new System.DateTime(
+             current.Year, current.Month, current.Day, TARGET_HOUR, TARGET_MINUTE, 0);
+         Console.WriteLine(&quot;カレント:&quot; + current.ToString());
+         Console.WriteLine(&quot;ターゲット:&quot; + target.ToString());
+         if(current.CompareTo(target) &gt; 0)
+         {
+             target = target.AddDays(1);
+             Console.WriteLine(&quot;新ターゲット:&quot; + target.ToString());
+         }
+         System.TimeSpan span = target.Subtract(current);
+         Console.WriteLine(&quot;待ちます:&quot; + span.ToString());
+         System.Threading.Thread.Sleep(span);
+     }</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021030-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

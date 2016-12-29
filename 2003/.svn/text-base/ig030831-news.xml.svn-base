@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030831.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030831.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-31</dc:date>
+  </channel>
+
+  <item rdf:about="http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/enduser-security.shtml">
+    <title>篠田伸夫さん: エンド・ユーザ向け: ネットワーク・セキュリティ・ニュース</title>
+    <link>http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/enduser-security.shtml</link>
+    <description>一般ユーザ向けセキュリティニュースの定番サイト。私はいつも このページにお世話になっています。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/enduser-security-table.shtml">
+    <title>篠田伸夫さん: OS 別ネットワーク・セキュリティ早見表</title>
+    <link>http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/enduser-security-table.shtml</link>
+    <description>「エンド・ユーザ向けネットワーク・セキュリティ・ニュース」を表形式でまとめた、素晴らしい資料！ 時系列で セキュリティホール内容／対象OSが きちんと表形式でまとめあげられています。今日初めて このページの存在を知りました。思わず その資料の重みにうなってしまいました。篠田伸夫さん、すばらしい資料を どうも ありがとう！</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/windows-update-qa/">
+    <title>篠田伸夫さん: Windows Update による重要な更新 Ｑ＆Ａ</title>
+    <link>http://isl.educ.fukushima-u.ac.jp/~shinoda/net-docs/windows-update-qa/</link>
+    <description>「エンド・ユーザ向けネットワーク・セキュリティ・ニュース」で有名な篠田さんが書かれた 短いながらポイントをついている すばらしい啓蒙記事。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0308/26/epn13.html">
+    <title>組み込みOSにも存在したRPCの脆弱性</title>
+    <link>http://www.zdnet.co.jp/enterprise/0308/26/epn13.html</link>
+    <description>組み込み機器にWindowsが使われていたら Windows用ウイルスの影響が出てしまう場合があるんですね…。勉強になります。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/kyujin/kyujin08.html">
+    <title>採用ニーズは2カ月連続で増加！ 最新DATAで見る「IT系エンジニア」求人動向</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/kyujin/kyujin08.html</link>
+    <description>私が普段やっている仕事って、『パッケージソフト・ミドルウェア開発』というジャンルに分類される、のかしらん？ このように私の仕事って分類される程度のジャンルなんだ、というのは 素朴に意外な驚きがあります。そして 『汎用機系』というジャンルと同程度の募集数なんだってのも驚き。意外にも 『ミドルウェア』ジャンルも 世間的に健闘しているんですね。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/dbsec02/dbsec01.html">
+    <title>第2回 データベースの設置場所および接続時の勘所</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/dbsec02/dbsec01.html</link>
+    <description>ネットワークセキュリティの上で データベースをどのような場所に設置するのか、という話題。Oracleを使う上での実際のセキュリティ設定カンドコロなど載っていて、これはとても刺激的な記事でした。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/special/rss/rss_01.html">
+    <title>サイトの更新情報を提供する標準言語RSS -.NETでRSSを活用する-</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/special/rss/rss_01.html</link>
+    <description>「RSSとは何か」という基本的な概念の説明から入り いろいろ話題が展開している。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060667,00.htm">
+    <title>「困った時のLinux頼み」-Linuxサーバを使う米マイクロソフト</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060667,00.htm</link>
+    <description>単にAkamaiがLinuxサーバを用いている、ということ。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/264163">
+    <title>米Lindows.com、キオスク端末向けのLinux PCを発表</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/264163</link>
+    <description>CD-ROMから直接起動できるOSというのは、とてもインパクトがあるシロモノであるということが 一番印象的で、そして同意できます。</description>
+    <dc:date>2003-08-31T17:19:38</dc:date>
+  </item>
+
+</rdf:RDF>

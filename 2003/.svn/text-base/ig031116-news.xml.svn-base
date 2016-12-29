@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031116.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031116.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/12/nj00_accs.html">
+    <title>「足元から火がついた」──ACCSの個人情報流出は1184件、脆弱性を3年以上放置</title>
+    <link>http://www.zdnet.co.jp/news/0311/12/nj00_accs.html</link>
+    <description>コンピュータソフトウェア著作権協会のWebサイトから個人情報が流出してしまったのだそうです。それにしても いったい どんな業者が制作しているのでしょうか。私なんかが 多少なりとも というか ごく普通にセキュリティに工夫して開発したら、そんな単純にWebサイトから個人情報が流出する、なんて出来事は起こらないと思うのですが… そもそもDBを使うでしょうし、ポート番号やらなにやらで ガードするでしょうから。ねえ。コストダウンを追求しつくした末に 安全性やら何やらは無視されるようになっているのかしらん？？？</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.accsjp.or.jp/release/031111.html">
+    <title>リリース: ACCS運営ホームページのセキュリティ問題について（2003/11/11）</title>
+    <link>http://www.accsjp.or.jp/release/031111.html</link>
+    <description>最低限の常識なセキュリティ規定というのは どこかに存在しないものでしょうか… なぜ この手の 簡単っぽい系のWebサイトからのセキュリティホール＆情報流出ネタは 繰り返されるのでしょうか… 謎は深まるばかり。(もしかしたら いくつかの情報流出に関しては 適切な対応があったのにもかかわらず流出している、のかもしれませんけれどもね)</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0311/14/epn02.html">
+    <title>MS03-049が危険な理由</title>
+    <link>http://www.zdnet.co.jp/enterprise/0311/14/epn02.html</link>
+    <description>MSBlaster級ウイルスを招きかねないセキュリティホールがWindowsに見つかっています。みなさまもご注意を。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/14/njbt_04.html">
+    <title>警察庁、MS03-049を突く攻撃プログラムを確認</title>
+    <link>http://www.zdnet.co.jp/news/0311/14/njbt_04.html</link>
+    <description>なにとぞみなさん WindowsUpdate適用などの適切な運用を。ともすれば大変流行りますよぉ。とっても危険です。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031112/2/">
+    <title>NEC，夜間にPCの電源を入れパッチを一括適用するソフトを発表</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031112/2/</link>
+    <description>Windowsのセキュリティホール＆パッチがホットな話題なので、それの適用自動ツールもホットになっていく、のかしらん。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.meti.go.jp/policy/netsecurity/Alert_win-03-049_031114.html">
+    <title>警察庁、総務省、経済産業省:MS03-049の脆弱性を攻撃するプログラムへの緊急の対応について</title>
+    <link>http://www.meti.go.jp/policy/netsecurity/Alert_win-03-049_031114.html</link>
+    <description>WindowsUpdateを行わないと、以前のMSBlaster級のウイルス禍が起こります。それにしても最近の日本政府の対応は とても素早くなりましたね。ここのところの変化は 結構 感動的です。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.src-j.com/book_no/190.htm">
+    <title>Eclipse,JBoss,Tomcat,Strutsから最新のXML/WebServicesまで　JAVAオープンソース徹底攻略</title>
+    <link>http://www.src-j.com/book_no/190.htm</link>
+    <description>岡本さん達が書かれた本。発見次第 購入しようと思います。ISBN4-88373-190-1。CVSやSSLについても言及があるってのは とても興味が惹かれます。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/13/nebt_11.html">
+    <title>Linux大手、デスクトップバージョンに取り組み結集</title>
+    <link>http://www.zdnet.co.jp/news/0311/13/nebt_11.html</link>
+    <description>来年はいよいよ デスクトップLinuxネタで盛り上がる事になるのだろうか。興味津々。</description>
+    <dc:date>2003-11-16T18:20:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.ipa.go.jp/security/fy14/contents/high-availability/guide.html">
+    <title>インターネットサーバーの安全性向上策に関する調査 - アベイラビリティ確保の啓発コンテンツ</title>
+    <link>http://www.ipa.go.jp/security/fy14/contents/high-availability/guide.html</link>
+    <description>再度リンクメモ。インターネットサーバーの安全性向上に関する とてもすばらしい資料です。この資料にあるような情報は "情報処理従事者の常識" になってほしい気持ちでいっぱいです。</description>
+    <dc:date>2003-11-16T18:49:23</dc:date>
+  </item>
+
+</rdf:RDF>

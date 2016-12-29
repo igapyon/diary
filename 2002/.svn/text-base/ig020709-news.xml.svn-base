@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020709.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020709.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-09</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/09/nebt_10.html">
+    <title>「Visual Cafe」のWebGainが音信不通</title>
+    <link>http://www.zdnet.co.jp/news/0207/09/nebt_10.html</link>
+    <description>Visual Cafeが 最後に近づきつつあるのでしょうか…。</description>
+    <dc:date>2002-07-09T11:48:20</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20020708/2.html">
+    <title>Mandrake、フランス政府と契約</title>
+    <link>http://japan.internet.com/linuxtoday/20020708/2.html</link>
+    <description>Linuxも公共系において少しずつ頑張っています。</description>
+    <dc:date>2002-07-09T11:15:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/09/nebt_04.html">
+    <title>MS、LinuxWorldにブース設置へ</title>
+    <link>http://www.zdnet.co.jp/news/0207/09/nebt_04.html</link>
+    <description>LinuxWorldでWindowsを展示して、一体何の効果があるのでしょう???</description>
+    <dc:date>2002-07-09T11:48:20</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/07/07/637062-000.html">
+    <title>ミラクル・リナックス、『Red Hat Linux Advanced Server 2.1 powered by MIRACLE』を発表</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/07/07/637062-000.html</link>
+    <description>「Oracle9i Database」や「Oracle9i Application Server」への『対応が付属』しているのだそうな。まあ 何はともあれ Red Hat Linux全盛のご時世ですねぇ。</description>
+    <dc:date>2002-07-09T13:06:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/operation/sus1/sus1_01.html">
+    <title>Microsoft Software Update Servicesの実力を探る（前編）</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/operation/sus1/sus1_01.html</link>
+    <description>企業内で重要な更新について均質化させるための無料のアドオンソフトなんだそうな。でも Windows Meはダメなんだそうな。</description>
+    <dc:date>2002-07-09T11:15:13</dc:date>
+  </item>
+
+</rdf:RDF>

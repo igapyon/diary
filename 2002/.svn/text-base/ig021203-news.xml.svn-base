@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021203.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021203.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.memtest86.com/">
+    <title>Memtest86</title>
+    <link>http://www.memtest86.com/</link>
+    <description>GPLなメモリ診断ツール。さっそく動きの怪しい私の会社PCをテストしてみましたが、エラーは発見できませんでした。</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/219630">
+    <title>ツタヤ オンライン、基幹データベースシステムをLinuxに</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/219630</link>
+    <description>TIS、デル、日本オラクルなどがLinuxベースによるソリューション提供を行うんですって。</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021127/4.html">
+    <title>SRA が Windows RDBMS 市場に参入</title>
+    <link>http://japan.internet.com/linuxtoday/20021127/4.html</link>
+    <description>PowerGresという商品名で販売開始するんですって。ぜひ購入してみたいです。でも 当初はオープンソースでは無いらしいです。</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/27/njbt_02.html">
+    <title>MS、「GPLは国内ソフト産業発展を制限」</title>
+    <link>http://www.zdnet.co.jp/news/0211/27/njbt_02.html</link>
+    <description>「マイクロソフト産業発展を制限」の間違いでは(笑) 客観的に見て Linuxなどのおかげで、日本の情報ソフト産業は不景気ながらもなんとか持ちこたえているように思っています。それとは別に 公共システムは ぜひオープンソースで構築してほしいものです。公共システムは 多くの場合寿命が長いですから、多くの商用OSが 提供期間を勝手に決定して終了してしまう現状では困る場合が多いからです。オープンソースなら ソースコードさへあれば勝手に 『永遠に』サポートを実現することができます。</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/26/nj00_cdr.html">
+    <title>CD-Rの「音」を考える 48倍速メディアの音は、なぜ悪いのか（1/2）</title>
+    <link>http://www.zdnet.co.jp/news/0211/26/nj00_cdr.html</link>
+    <description>デジタルだから デジタルであって欲しい…のですけれども 実際の所は そう簡単では無いんですって。やだなあ。</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+  <item rdf:about="http://www.ne.jp/asahi/fa/efu/media/media.html">
+    <title>CD-R メディア別、再生波形集 -CD-R で作成したCD-DA(音楽CD)は音質が悪い、という話-</title>
+    <link>http://www.ne.jp/asahi/fa/efu/media/media.html</link>
+    <description>しかもメディア毎に 音質にもばらつきはあり得る という話。う～ん。(大学の後輩の近藤さんのページからジャンプしました)</description>
+    <dc:date>2002-12-04T13:52:29</dc:date>
+  </item>
+
+</rdf:RDF>

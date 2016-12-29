@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/01/23 日記: ファイル分割プログラムの試作</TITLE>
+<META name="DESCRIPTION" content="ファイル分割プログラムを試作してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>静岡出張から帰ってきました。明日は東京出張です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>1泊2日の静岡出張から帰ってきました。明日は日帰りの東京出張です。先々週から
+出張シリーズ続きだなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ファイル分割プログラムを試作してみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>必要に駆られて ちょっとファイル分割プログラムを作成しました。分割と復元の2パターン両方を準備してみました。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * ファイル分割プログラム
+ * Copyright (C) 2002  Tosiki IGA
+ *
+ *   @author Tosiki IGA
+ *   @version 2002.01.23
+ *   (http://homepage2.nifty.com/igat/igapyon/index.html)
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+import java.io.*;
+
+public class Split
+{
+        public static final void main(String[] args)
+        {
+                if(args.length==0){
+                        System.out.println(&quot;Split&quot;);
+                        System.out.println(&quot;  usage: java Split FILENAME&quot;);
+                        System.out.println(&quot;  usage: java Split -r FILENAME&quot;+SZ_SPLIT_SUFFIX+&quot;1&quot;);
+                }else if(args[0].equals(&quot;-r&quot;) &amp;&amp; args.length&gt;1){
+                        if(args[1].endsWith(SZ_SPLIT_SUFFIX+&quot;1&quot;)==false){
+                                System.out.println(&quot;*&quot;+SZ_SPLIT_SUFFIX+&quot;1 ファイルを指定してください.&quot;);
+                        }else{
+                                try{
+                                        merge(new File(args[1]));
+                                }catch(IOException ex){
+                                        System.out.println(ex.toString());
+                                        ex.printStackTrace();
+                                }
+                        }
+                }else{
+                        try{
+                                split(new File(args[0]));
+                        }catch(IOException ex){
+                                System.out.println(ex.toString());
+                                ex.printStackTrace();
+                        }
+                }
+
+        }
+
+        public static final int SPLIT_SIZE=1440000;
+        public static final String SZ_SPLIT_SUFFIX=&quot;-split-&quot;;
+
+        public static final void split(File fileInput)
+                throws IOException
+        {
+                boolean isEndOfFile=false;
+                BufferedInputStream inStream=null;
+                try{
+                        inStream=new BufferedInputStream(new FileInputStream(fileInput));
+
+                        for(int iFileCounter=1;isEndOfFile==false;iFileCounter++){
+                                File fileTarget=new File(fileInput.getName()+SZ_SPLIT_SUFFIX+iFileCounter);
+                                BufferedOutputStream outStream=null;
+                                outStream=new BufferedOutputStream(new FileOutputStream(fileTarget));
+                                System.out.println(&quot;  generating [&quot;+fileTarget+&quot;]&quot;);
+                                for(int iSplitCounter=0;iSplitCounter&lt;SPLIT_SIZE;iSplitCounter++){
+                                        int iRead=inStream.read();
+                                        if(iRead==(-1)){
+                                                isEndOfFile=true;
+                                                break;
+                                        }
+                                        outStream.write(iRead);
+                                }
+                                outStream.flush();
+                                outStream.close();
+                        }
+
+                }finally{
+                        inStream.close();
+                }
+        }
+
+        public static final void merge(File fileInput)
+                throws IOException
+        {
+                String strOriginalFileName=fileInput.getName().substring(0,fileInput.getName().length()-SZ_SPLIT_SUFFIX.length()-1);
+
+                BufferedOutputStream outStream=null;
+
+                try{
+                        outStream=new BufferedOutputStream(new FileOutputStream(strOriginalFileName));
+
+                        for(int iFileCounter=1;;iFileCounter++){
+                                BufferedInputStream inStream=null;
+                                File fileRead=new File(strOriginalFileName+SZ_SPLIT_SUFFIX+iFileCounter);
+                                if(fileRead.exists()==false){
+                                        break;
+                                }
+
+                                inStream=new BufferedInputStream(new FileInputStream(fileRead));
+                                System.out.println(&quot;  merging [&quot;+fileRead+&quot;]&quot;);
+
+                                for(;;){
+                                        int iRead=inStream.read();
+                                        if(iRead==(-1)){
+                                                break;
+                                        }
+                                        outStream.write(iRead);
+                                }
+                                inStream.close();
+                        }
+
+                }finally{
+                        outStream.flush();
+                        outStream.close();
+                }
+        }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicodeの半角カタカナが0xff以上でびっくり (というかこの誤解が元でバグを作っていました)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Unicodeでの半角カタカナって 0xff以上のところにマップされているんですね。これを誤認していて、バグを作り込んでいました。EUCと同じような注意が必要なんですね。…
+Unicodeの文字コードにおいて、ある文字コードが 半角・全角いずれであるのかを判定する命令って、Java言語APIにあるのかしらん、、、私は見つけられませんでした。</P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> 読者のまつもとさんからのツッコミ<BR>
+<CITE>まつもとです。<BR>
+半角、全角を弁別するお手軽な方法はありません:)<BR>
+Unicode にはそのような概念はありませんから:)<BR>
+# 確かはるか昔に Java-House ML でも話があったような…。<BR>
+<BR>
+マットウにやるならStringをShift_JISだかのバイト列に変換して長さを見るということになるでしょうし(unmapped
+が困りそう?)、はしょるなら<BR>
+&quot; 012345..abc....&quot;.indexOf(src.charAt(..))<BR>
+なんてことになるんですかね:)</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+みなさんお困りのネタだったのですね。べんきょうになります。とりあえず私は半角かな領域の大小比較という
+ものすごくはしょった技を使って回避してしまいました。でも、それを調べる過程で
+Unicodeのコード表をみながら がくぜんとしてしまいましたが…。というのも
+0xff以下でも 旧来日本語処理において全角な文字が幾つか見つかってしまったのですもの。およよ…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>派生元のメソッド内で 子クラスのオーバーライド済みメソッドが呼ばれない…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>妙なことで悩んでいました。時間切れで調査はあきらめましたが…<BR>
+派生先に派生元と同じ引数なメソッドAをオーバライドしたとします。で 派生元の中にある別のメソッドBを呼び出した際に、このオーバライドしたメソッドAは呼び出されるかどうか、ということです。で
+メソッドBの中からはオーバライドしたはずの派生先メソッドAは呼び出されず、親クラス内のメソッドAが呼び出されました。はて、私の勘違いだったのかしら。ちなみに環境は
+Windows版 J2SE 1.3.1_02 ですが…。</P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> 読者のまつもとさんからのツッコミ<BR>
+<CITE>まつもとです。<BR>
+メソッドが static か private だった、とかいうオチはないですか？<BR>
+static も private も呼び出し（というか呼び出され？）が自クラスに固定され<BR>
+ますので。</CITE></P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> [replace-link:結城弘]さんからのツッコミ<BR>
+<CITE>結城です。</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>class Parent {
+    public void execute() {
+        System.out.println(&quot;Parent&quot;);
+    }
+    public static void main(String[] args) {
+        Child obj1 = new Child();
+        obj1.execute();     // =&gt; Child
+
+        Parent obj2 = new Child();
+        obj2.execute();     // =&gt; Child
+
+        Parent obj3 = new Parent();
+        obj3.execute();     // =&gt; Parent
+    }
+}
+
+class Child extends Parent {
+    public void execute() {
+        System.out.println(&quot;Child&quot;);
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>の実行結果は、<BR>
+</CITE><CITE><BR>
+Child<BR>
+Child<BR>
+Parent<BR>
+</CITE><CITE><BR>
+になりますね。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+う～む。そのとおりです。とりあえず私のケースでは 呼び出され側メソッドでpublic
+staticなメソッドが絡んでいたので それが一端となっているように思えます。…結合テストラッシュが終わったら
+もうちょっとマジメに調べてみます。…しかしそれはいつのことだろう (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020123-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

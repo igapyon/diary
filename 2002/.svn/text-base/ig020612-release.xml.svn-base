@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020612.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020612.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4/ja/download.html">
+    <title>SUN Java2 SDK, Standard Edition, 1.4日本語版ドキュメントリリース</title>
+    <link>http://java.sun.com/j2se/1.4/ja/download.html</link>
+    <description>J2SE 1.4 ドキュメントの日本語版リリースです。とても嬉しいです。今までは 1.3用日本語ドキュメントで代用していました。Java屋で1.4をお使いのみなさまには入手をお勧めします。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/webservices/webservicespack.html">
+    <title>Java Web Services Developer Pack 1.0 リリース</title>
+    <link>http://java.sun.com/webservices/webservicespack.html</link>
+    <description>Sunによるウェブサービスキットのファーストリリースです。JSP標準タグライブラリ(JSTL) 1.0 やAnt, Tomcatなどまで含まれます。結構重要なリリース物かも知れません。便利なパック物であるようにも見えますから。要チェック。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/xml/">
+    <title>Java XML Pack Summer 02 リリース</title>
+    <link>http://java.sun.com/xml/</link>
+    <description>JAXP 1.2 などが含まれる様子。これはこれで大変興味有ります。Xerces-Jがどうなったか、などなど。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/webservices/docs/1.0/tutorial/index.html">
+    <title>The Java Web Services Tutorial</title>
+    <link>http://java.sun.com/webservices/docs/1.0/tutorial/index.html</link>
+    <description>ウェブサービスの作成方法に関するイロハ的チュートリアル。XML I/Oのサンプルがあったり、これもまた大変面白そう。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.1 Alpha リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Mozilla作業の方も 早速1.1の方に移ってきている様子です。みなさん頑張ってますね。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+</rdf:RDF>

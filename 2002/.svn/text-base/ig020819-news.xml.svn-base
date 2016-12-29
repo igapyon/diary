@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020819.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020819.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/17/nebt_23.html">
+    <title>Red HatとSunがデスクトップLinuxに本腰</title>
+    <link>http://www.zdnet.co.jp/news/0208/17/nebt_23.html</link>
+    <description>とりあえず頑張ってみて欲しいです。</description>
+    <dc:date>2002-08-19T09:39:10</dc:date>
+  </item>
+
+  <item rdf:about="http://jcp.org/aboutJava/communityprocess/first/jsr152/index.html">
+    <title>JSR-000152 JavaServer Pages Specification v2.0 Proposed Final Draft</title>
+    <link>http://jcp.org/aboutJava/communityprocess/first/jsr152/index.html</link>
+    <description>JSP 2.0 の仕様に興味深々。でも 415ページもあるので 全てのページを印刷するのは断念。.jspxという拡張子のあたりの説明に興味。あと JSPコンテナ側の実装の説明もあるのでタグライブラリなどの自作の際には この情報は(正式版が出たら)さぞ有用である模様です。</description>
+    <dc:date>2002-08-19T09:39:10</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/201176">
+    <title>トレンドマイクロ、Linux版Domino用ウイルス対策ソフト</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/201176</link>
+    <description>Linux用各種ソフトが揃っていくのは 好ましい傾向です。</description>
+    <dc:date>2002-08-19T09:39:10</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/17/nebt_39.html">
+    <title>3種のLinuxに初のLSB認定</title>
+    <link>http://www.zdnet.co.jp/news/0208/17/nebt_39.html</link>
+    <description>Linux分裂回避のための地道な取り組み…。</description>
+    <dc:date>2002-08-19T09:39:10</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/Enterprise/News/2002/Item/020624-3.html">
+    <title>MS『ドット・ネット』の隠れたコスト</title>
+    <link>http://japan.cnet.com/Enterprise/News/2002/Item/020624-3.html</link>
+    <description>素朴で単純なことですが、およそ移行にはコストが必要なものです。</description>
+    <dc:date>2002-08-19T19:21:50</dc:date>
+  </item>
+
+</rdf:RDF>

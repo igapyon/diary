@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020129.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020129.html</link>
+    <language>ja</language>
+    <dc:date>2002-01-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.internet.com/isreport/20020114/8.html">
+    <title>採用面接で差別をしていませんか</title>
+    <link>http://japan.internet.com/isreport/20020114/8.html</link>
+    <description>参考になります。記事そのものは特に米国を意識していますけれども、世界に共通する示唆があります。注意しましょう。でも 日本には『履歴書』制度がありますね。いろいろ考えさせられます。</description>
+    <dc:date>2002-01-29T11:11:39</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0201/16/e_dotnet.html">
+    <title>Windows Updateサイト障害の落とす影</title>
+    <link>http://www.zdnet.co.jp/news/0201/16/e_dotnet.html</link>
+    <description>マイクロソフト社って、セキュリティとか安定性とか 昔っから苦手なんですよね。まあ まずはがんばって改善していって欲しいですね。</description>
+    <dc:date>2002-01-29T11:11:39</dc:date>
+  </item>
+
+</rdf:RDF>

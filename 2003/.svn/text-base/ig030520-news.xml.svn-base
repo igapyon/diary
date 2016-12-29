@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030520.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030520.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/opensource/030516/j_os-ecshare.html">
+    <title>Eclipse Platformを使用したコードの共有</title>
+    <link>http://www-6.ibm.com/jp/developerworks/opensource/030516/j_os-ecshare.html</link>
+    <description>EclipseでのCVSの利用に関する記事です。ここのところEclipse関連記事が多いですね。利用者も急増していることでしょう。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/devs/xpd06/xpd06.html">
+    <title>第6回 Eclipseによるリファクタリング</title>
+    <link>http://www.atmarkit.co.jp/fjava/devs/xpd06/xpd06.html</link>
+    <description>Eclipseのリファクタリングメニューを使ったリファクタリングの紹介。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/246925">
+    <title>米BEAが2003年2月～4月期決算を発表、前年同期と比べて増収増益</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/246925</link>
+    <description>儲けまくっておりますなぁ。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/jakarta06/jakarta06.html">
+    <title>DBのコネクションプールを簡単に実現する</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/jakarta06/jakarta06.html</link>
+    <description>JakartaプロジェクトCommons内のDBCPを使ったコネクションプールの利用方法の紹介。JSP内での利用って、こんな感じになるのですね。びっくりです。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/16/nebt_09.html">
+    <title>Intuit、「TurboTax」のコピー防止技術を廃止</title>
+    <link>http://www.zdnet.co.jp/news/0305/16/nebt_09.html</link>
+    <description>プロダクトアクティべーションの仕組みが腐っていて問題に発展した例。プロダクトアクティベーション機能を搭載したソフトウェアの末路の一つとしてとても参考になります。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20054385,00.htm">
+    <title>「何があってもLinuxには負けるな」：MSナンバー3の極秘メモが流出</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20054385,00.htm</link>
+    <description>マイクロソフト製品を『無料での販売を許可する』のクダリが強烈ですね。印象的です。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054397,00.htm">
+    <title>SCNが「エバークエスト日本語版」のシステムにIBM eServer xSeriesを採用</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054397,00.htm</link>
+    <description>『数百台のIBM eServer xSeriesサーバを採用』が凄いですね。数百台ですって。で、OSは何を採用したのでしょう。その点も気になる。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054400,00.htm">
+    <title>独SuSE、「米SCOの行動は不可解」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054400,00.htm</link>
+    <description>私思うのですが、良識ある人々は米SCO製品を買わなくなるのでは無いでしょうか。SCO製品不買運動なんてものが 心理的な水面下で発生しても不思議でないと思いますが、どうなるのか、これは歴史が結論を出すことでしょう。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20054396,00.htm">
+    <title>NECが新型パソコンを発売、DVD製作機能や世界初の水冷デスクトップなど</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20054396,00.htm</link>
+    <description>コンシューマー向け大手ベンダー製パソコンで水冷デスクトップとは印象的ですね。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/16/njbt_10.html">
+    <title>IBMメインフレーム（現状渡し）、ヤフオクで売ってます</title>
+    <link>http://www.zdnet.co.jp/news/0305/16/njbt_10.html</link>
+    <description>日本での話。ネタではなく実話である模様。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/mobile/0305/15/n_jblend.html">
+    <title>JBlend搭載製品が2000万台突破</title>
+    <link>http://www.zdnet.co.jp/mobile/0305/15/n_jblend.html</link>
+    <description>地味なところで JavaVMおよび実行環境の実装の一つが超ヒットしているんですね。全然知らないジャンルなので うなずくことしかできません。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054439,00.htm">
+    <title>日本HP、Itanium2対応版BEA WebLogic Serverの販売、サポートを開始</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054439,00.htm</link>
+    <description>7.0を用いたサポートである点に注目。8.1ではなくって 7.0が 今が丁度旬かも (笑)</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+  <item rdf:about="http://www.kangetsu.com/">
+    <title>観月</title>
+    <link>http://www.kangetsu.com/</link>
+    <description>和室の布団で東京に宿泊してみようと、和室ホテルを後輩に調べてもらいました。次回の東京出張時に宿泊しようと思います。</description>
+    <dc:date>2003-05-20T06:51:53</dc:date>
+  </item>
+
+</rdf:RDF>

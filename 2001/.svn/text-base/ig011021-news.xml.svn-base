@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011021.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011021.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-21T16:44:35</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/19/toy108.html"/>
+        <rdf:li resource="http://japan.cnet.com/News/2001/Item/011019-8.html"/>
+        <rdf:li resource="http://japan.internet.com/linuxtoday/20011020/1.html"/>
+        <rdf:li resource="http://www.hcn.zaq.ne.jp/no-ji/reseach/20011008-2.htm"/>
+        <rdf:li resource="http://japan.internet.com/public/news/20011017/9.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/05/e_mslicense_m.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/19/toy108.html">
+    <title>真のWindows時代の始まり～連載終了のご挨拶に代えて</title>
+    <link>http://www.zdnet.co.jp/news/0110/19/toy108.html</link>
+    <description>山田祥平さんの連載記事の締めくくり。パソコンOSの歴史に触れられていて、そして良くできていて、何だか心に染み渡りました。仰るように Windows XP は 『ようやく(待ち望んだ)』Windows 2000/NT系列OSのコンシューマー向けリリースですよね。これで あの不安定で出来損ないで おもちゃとしての質すら低い Windows Me/98系OSが この世から抹消できると思うと、嬉しく感じます。</description>
+    <dc:date>2001-10-21T17:12:44</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/News/2001/Item/011019-8.html">
+    <title>IBM、メインフレームをアップグレード</title>
+    <link>http://japan.cnet.com/News/2001/Item/011019-8.html</link>
+    <description>汎用機指向の高い私としては、その内容が興味津々。電気入れたままメモリ追加は良いですねぇ。Linux対応強化ってのも、笑えそうですねぇ。汎用機市場が 年30%成長っていう経済的位置づけも興味深いです。とにかく Unix系では とても現在汎用機が担っている高可用性は実現できっこ無いっていうのが素朴な感覚です。</description>
+    <dc:date>2001-10-21T17:12:44</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20011020/1.html">
+    <title>Mozilla 1.0 の開発計画が明らかに</title>
+    <link>http://japan.internet.com/linuxtoday/20011020/1.html</link>
+    <description>6ヶ月以内のリリース予定、、、だそうです。米国式で2Q、ということになるのでしょうか。何にせよ楽しみです。</description>
+    <dc:date>2001-10-21T17:12:44</dc:date>
+  </item>
+  <item rdf:about="http://www.hcn.zaq.ne.jp/no-ji/reseach/20011008-2.htm">
+    <title>2001/10/08 [Java,JCom]Javaを使ってExcelのグラフを画像ファイルに落とす。</title>
+    <link>http://www.hcn.zaq.ne.jp/no-ji/reseach/20011008-2.htm</link>
+    <description>知人の渡辺さんの Excelでグラフ作成してそれをWebとかで自動的に使う際の技紹介。JIMI (Java Image Management Interface) の話題も挙がっていて、ソースコード公開と連動している模様。JIMI関連情報が出回ると Web上での見栄え用データ動的作成がどんどん簡単になるから良いですね。</description>
+    <dc:date>2001-10-21T17:12:44</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/public/news/20011017/9.html">
+    <title>国交省、XMLによる観光情報データベースを構築</title>
+    <link>http://japan.internet.com/public/news/20011017/9.html</link>
+    <description>いいですなぁ。XMLの普及には その具体例そのものの存在が不可避です。こういう具体例を提供して貰える事は とっても嬉しいことです。</description>
+    <dc:date>2001-10-21T17:12:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/05/e_mslicense_m.html">
+    <title>もうMicrosoftのソフトは買えない――やっぱり不評な新ライセンス(1)</title>
+    <link>http://www.zdnet.co.jp/news/0110/05/e_mslicense_m.html</link>
+    <description>こういったマイクロソフトの施策が 功を奏するかどうか 楽しみに傍観しています。</description>
+    <dc:date>2001-10-21T17:52:51</dc:date>
+  </item>
+
+</rdf:RDF>

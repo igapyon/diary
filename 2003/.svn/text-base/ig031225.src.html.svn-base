@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/12/25 日記: Javaパフォーマンス調査ふたたび</TITLE>
+<META name="DESCRIPTION" content="USBフラッシュメモリが欲しい…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaパフォーマンス調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaのパフォーマンスの調査を行おうとしたら、以前の自分の日記に行き当たる。</P>
+<UL>
+  <LI><A href="ig030114.html">2003/01/14 日記: Javaパフォーマンス調査</A>
+</UL>
+<P>お勧め書籍や メモリ消費量調査などが 結構詳しくかかれていてびっくり仰天。特にメモリ系の調査ツールのソースコードは
+活用できそうに思いました。<BR>
+ちょうど お仕事で パフォーマンスネタを扱うので、以前の活動が役立つのでした。</P>
+<P>…そう考えると 私って実は Javaパフォーマンスに関して 実力を持った人材なのかも知れません。(今
+実際に Javaパフォーマンスの仕事に従事していますものね) 『[replace-link:いがぴょん]って、結構やるじゃん』って
+素朴に思いました。そういえば 3年くらい前かしら、Javaパフォーマンスで ミリ秒を削った経験がありますし、コンサルティングを行った事もありますからね…。</P>
+<P>また、それと同じ事を Swingについても思いました。私 Swingの経験なんて無いと思っていたのに、なぜだか Swingの様々な事を知っていて、よくよく思い出してみたら、Swingベースでパッケージソフトを開発した経験がありました。これまたびっくり仰天。そ…そうなんだ、みたいな (苦笑)</P>
+<P><FONT color="#ff0000">関連する日記</FONT></P>
+<UL>
+  <LI><A href="http://www.nttd-bb.com/solution/igapyon1/ig000518.html">いがぴょんの日記: 2000/05/18 日記: Java 3D API 1.2 リリース</A><BR>
+  後輩がJavaアプリケーションの実行速度にハマっていて、いろいろ応援してあげて、そして新しい事実も知った
+  というのが丁度この頃です。なるほど HotSpotやJIT無しのインタプリターモードでパフォーマンスチューニングを行ったら
+  パフォーマンス向上には効果的であるように思えますね。
+  <LI><A href="http://www.nttd-bb.com/solution/igapyon1/ig990428.htm">いがぴょんの日記: 1999/04/28 日記: Java HotSpotリリース間近 , HP-UX10.20ネタ</A><BR>
+  思い起こせば、この頃から Java言語のパフォーマンスに従事し始めていました。(この日記には該当する記載はありませんが…)
+  当時 必死にミリ秒を削っていっていました。この頃の経験が 私にとってのパフォーマンス技術の原点です。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: 第九セカンドヴァイオリン初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>12/23に 伊勢・志摩第九コンサートなる演奏会を弾いてきました。今年は セカンドヴァイオリンを弾かせて頂きました。第九のセカンドヴァイオリンは初体験だったので、刺激的でした。まあ
+単に 難しかったです。弾き比べると ぜったいファーストヴァイオリンの譜面の方が簡単です。特に
+4楽章のセカンドヴァイオリンの譜面といったら…。セカンドヴァイオリン、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>USBフラッシュメモリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今持っている USBフラッシュメモリは 32MBなのですが、かなり手狭に感じだしています。ヒトミ先輩が
+今ならもっと安く買える、と言うので、調べてみたらびっくり。512MBでも 2万円をきっているではありませんか！
+256MBなら 定価でも\13,300.-程度と 思わず買ってしまう価格帯です。</P>
+<UL>
+  <LI>RUF-X256M/U2<BR>
+  [replace-href:http://buffalo.melcoinc.co.jp/products/catalog/item/r/ruf-x_u2/index.html]<BR>
+  USB2.0対応
+</UL>
+<P>う～ん。間違って買ってしまいそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>P505iのデータリンク調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>P505iデータリンクソフト<BR>
+  [replace-href:http://panasonic.jp/mobile/p505i/datalink/datalink.html]
+  <LI>USBデータリンクケーブル F001
+</UL>
+<P>これもヒマができたら買ってしまいそうで</P>
+<P><FONT color="#ff0000">2003.12.28</FONT> 豊中駅付近のDoCoMoショップに行って USBデータリンクケーブル F001 を買ってきました。\5,000.-もしました。その値段の上
+充電機能はありません。でも 一応 良く分からないので純正品を手に入れようという判断が働きました。<BR>
+で、F001ケーブルを使って P携線4(最新版)でのP505i住所録読み出しに成功しました。すっごくうれしいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>スリッパとはさみを購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>新小岩商店街の100円ショップにて スリッパとハサミとを買いました。かなり快適になりました。また
+ハンガーを買い足しました。肌着を 広げて干すという アイデア商品みたいなハンガーがあって、これが
+ハートをヒットして買いました。実際に洗濯して干してみたら、なるほど うまく広がります。ありがとう
+100円ショップ。結構夜遅くまで開店していてくれて 大変感謝です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>生活関連諸作業</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は 比較的早く 20:30頃に 勤務先から脱出したので、生活関連諸作業を行いました。とりあえず洗濯ですねっ！ でも ご飯を食べたり 日記を書いたりいろいろしていたら 23:30位になってしまいました。ふ～む。20:30に帰っても けっこう スケジュール的には いっぱいいっぱいですねぇ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>RSSビューア探索</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>同僚の菅村さんが RSSビューアで良さそうなモノを教えてくれました。</P>
+<UL>
+  <LI>RSSViewer<BR>
+  [replace-href:http://glucose.dip.jp/Zope/]
+</UL>
+<P>暇を見つけてさわってみたく思いました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031225-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

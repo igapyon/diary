@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011031.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011031.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-31</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://home.netscape.com/ja/browsers/6/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://home.netscape.com/ja/browsers/6/">
+    <title>Netscape 6.2 Windows版日本語版 ダウンロード開始</title>
+    <link>http://home.netscape.com/ja/browsers/6/</link>
+    <description>早速ダウンロード。</description>
+    <dc:date>2001-10-31T16:03:23</dc:date>
+  </item>
+</rdf:RDF>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030129.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030129.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/27/xert_linux.html">
+    <title>開発者の目を集めるLinux――いずれMSの歯止めに？</title>
+    <link>http://www.zdnet.co.jp/news/0301/27/xert_linux.html</link>
+    <description>いずれはMicrosoftの歯止めに、、、なるや否や。</description>
+    <dc:date>2003-01-29T08:41:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/27/cead_cooper.html">
+    <title>MSのLinux観は正しかった: Linuxの洞察に関して、5年前のMicrosoftの戦略家たちが…</title>
+    <link>http://www.zdnet.co.jp/news/0301/27/cead_cooper.html</link>
+    <description>今振り返ると感慨深いということを示唆する記事。</description>
+    <dc:date>2003-01-29T08:41:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/28/epn25.html">
+    <title>メガソフト、Linux日本語コンソール上で動作するエディタのベータダウンロード開始</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/28/epn25.html</link>
+    <description>MIFES for ConsoleっていうLinux用ソフトなんですって！ これは日本でのLinux普及に対してインパクトが大きそうです。メガソフトさん、ありがとう！</description>
+    <dc:date>2003-01-29T08:41:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/special/wse02/wse02_01.html">
+    <title>@IT: 次世代XML Webサービスを試す Part 2 － WS-Security詳細解説 － １．WS-SecurityとWeb Services Enhancements</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/special/wse02/wse02_01.html</link>
+    <description>仕事でWebサービスに従事しているのですが、WS-Securityが話題に上がったりするので ちょうどぴったりのタイミングの記事です！</description>
+    <dc:date>2003-01-29T08:23:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/webopt08/webopt08.html">
+    <title>@IT: 文字化け“???”の法則とその防止策</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/webopt08/webopt08.html</link>
+    <description>未だにJavaの世界で 文字化け が問題として浮上しがちなのですね。少し悲しい。</description>
+    <dc:date>2003-01-29T08:23:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/28/epn04.html">
+    <title>Domino DesignerのRAD環境がWebSphere Studioで利用可能に、J2EE化が一気に加速</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/28/epn04.html</link>
+    <description>いよいよ実際にLotus DominoがJ2EEベースに移行しつつあるのですね。感慨深いです！</description>
+    <dc:date>2003-01-29T08:23:41</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/rensai/webserv03/webserv03a.html">
+    <title>@IT: 第3回　Webサービス・クライアントを作ろう</title>
+    <link>http://www.atmarkit.co.jp/flinux/rensai/webserv03/webserv03a.html</link>
+    <description>Webサービスの構造のおさらいに、私にはちょうど良かったです。</description>
+    <dc:date>2003-01-29T08:23:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/28/ne00_houston.html">
+    <title>Officeを捨てるヒューストン市の場合</title>
+    <link>http://www.zdnet.co.jp/news/0301/28/ne00_houston.html</link>
+    <description>MS Officeを捨てて Webベースのアプリケーションに移行する旨の記事。</description>
+    <dc:date>2003-01-29T08:41:24</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020604.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020604.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4/download.html">
+    <title>SUN Java2 SDK, Standard Edition, 1.4.0_01 リリース</title>
+    <link>http://java.sun.com/j2se/1.4/download.html</link>
+    <description>J2SE 1.4.0_01リリースです。現時点では 『英語版』ページからのみ1.4.0_01がダウンロード可能です。</description>
+    <dc:date>2002-06-04T09:14:50</dc:date>
+  </item>
+
+  <item rdf:about="http://xml.apache.org/soap/index.html">
+    <title>Apache SOAP 2.3 リリース</title>
+    <link>http://xml.apache.org/soap/index.html</link>
+    <description>期待のSOAP実装がリビジョンアップです。</description>
+    <dc:date>2002-06-04T20:13:46</dc:date>
+  </item>
+
+</rdf:RDF>

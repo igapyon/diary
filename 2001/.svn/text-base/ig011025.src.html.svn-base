@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/10/25 日記: WebSite Design Vol.1 を買ってきてネタ仕込み</TITLE>
+<META name="DESCRIPTION" content="配色を変えてみました。MS製品で Windows XP対応版ってのは実在しますか？ 素朴に疑問を感じました。っていうのも Windows 2000の時に 何かしら対応しないと Office 2000が導入できなかった記憶が、、、">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Website,Design,Windows XP,アクティべーション">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WebSite Design Vol.1を買ってきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>で 私のサイトの色について 再構築してみました。<BR>
+私の色センスは 最低最悪なのですけれども、この本で多少の知恵が付きました。さて
+多少見栄えは良くなりましたでしょうか？</P>
+<P>ちなみに、カラーパレット向きな色指定ということを 私は知りませんでした。(そういやC言語でプログラミングしている時は気にしていたのにねぇ)</P>
+<UL>
+  <LI>カラーパレット共通色<BR>
+  [replace-href:http://dennou.gihyo.co.jp/books/4-7741-0933-9/color1.html]
+</UL>
+<P>なのですけれども、ある理由にて、背景色とかで この色リストからははずれています。色バケしたらすみません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>素朴な疑問: Microsoft製品って Windows XP 対応版とかリリースされないのでしょうか？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふと疑問に思ったのですが、Microsoft Office などのMS製品って Windows XP
+対応版(または対応パッチ) ってリリースされないのでしょうか?<BR>
+そりゃまあ 内部構造が 『ほぼ Windows 2000 そっくりそのまま』 なのだとしたら、そんなパッチ必要ないのでしょうけれども、<BR>
+、、、昔 Windows 2000 に Office 2000がインストール出来ない不具合が発生するという
+理解不能な問題が発生していたことを思い出しましたもので、、、。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig011025-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

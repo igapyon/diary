@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020320.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020320.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.justsystem.co.jp/download/atok/up/win/020319.html">
+    <title>ATOK15 for Windows アップデートモジュール 提供開始</title>
+    <link>http://www.justsystem.co.jp/download/atok/up/win/020319.html</link>
+    <description>さっそくATOK15 for Windows にアップデートモジュール提供開始。ちなみに 現状の日本語入力は ATOK無しでは考えられません。生産性向上を言うなら まずATOKの利用が肝心です。</description>
+    <dc:date>2002-03-20T16:35:38</dc:date>
+  </item>
+
+  <item rdf:about="http://xml.apache.org/xindice/">
+    <title>Apache Xindice XML Database 1.0 リリース</title>
+    <link>http://xml.apache.org/xindice/</link>
+    <description>XMLデータを格納するデータベースなのだそうな。当然Java言語で書かれています。</description>
+    <dc:date>2002-03-20T15:30:04</dc:date>
+  </item>
+
+</rdf:RDF>

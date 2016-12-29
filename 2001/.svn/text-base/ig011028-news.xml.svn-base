@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011028.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011028.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-28</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/27/b_1026_08.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/26/ms.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/27/b_1026_08.html">
+    <title>インターネットの過去を保管，Webアーカイブが公開される</title>
+    <link>http://www.zdnet.co.jp/news/0110/27/b_1026_08.html</link>
+    <description>真実性の継続化、とか言うのでしたっけ。永続化される、素晴らしいことです。(そして内容は慎重に…)</description>
+    <dc:date>2001-10-28T20:22:51</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/26/ms.html">
+    <title>MS，既存WindowsにもXPと同様のサポート</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/26/ms.html</link>
+    <description>おおっ。結構頑張っています。意外性がある記事ですね。</description>
+    <dc:date>2001-10-28T20:22:51</dc:date>
+  </item>
+</rdf:RDF>

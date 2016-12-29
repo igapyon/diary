@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021127.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021127.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.2 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>早速ダウンロード。後日談 1.2はバグがあるとのことでリリース取りやめになりました。1.2.1が出るから待っていてねとのことです。</description>
+    <dc:date>2002-11-27</dc:date>
+  </item>
+
+</rdf:RDF>

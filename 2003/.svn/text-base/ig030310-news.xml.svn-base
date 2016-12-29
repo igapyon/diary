@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030310.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030310.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/webservices/webservicespack.html">
+    <title>Sun: Java Web Services Developer Pack 1.1 リリース</title>
+    <link>http://java.sun.com/webservices/webservicespack.html</link>
+    <description>Java Web Service Developer Pack が 0.1台でリビジョンアップです。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://sdc.sun.co.jp/news/200303/danwa01.html">
+    <title>Sun Developer NEWS: コードの中では、平気なの。</title>
+    <link>http://sdc.sun.co.jp/news/200303/danwa01.html</link>
+    <description>原田洋子さんへのインタビュー記事。先日 原田さんに紹介頂きサインをもらいました。とっても嬉しいです。大変美しい方でした。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0302/26/epn10.html">
+    <title>マイクロフォーカス、Linux稼働メインフレーム向けのCOBOLを販売開始</title>
+    <link>http://www.zdnet.co.jp/enterprise/0302/26/epn10.html</link>
+    <description>LinuxメインフレームCOBOLをリリースしたのだそうな。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/28/nebt_16.html">
+    <title>Linux新興企業、OS分割ソフトのWindows版</title>
+    <link>http://www.zdnet.co.jp/news/0302/28/nebt_16.html</link>
+    <description>なにやら謎めいた方法のOS分割ですね。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/233978">
+    <title>So-net、会員向けにブロードバンドAVルータを発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/233978</link>
+    <description>これって ものすごい製品なのではないかと思ってしまいました。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/08/nebt_14.html">
+    <title>Sun、主要Linux企業との提携検討</title>
+    <link>http://www.zdnet.co.jp/news/0303/08/nebt_14.html</link>
+    <description>ふふむ。方向転換かしらん。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://akiba.ascii24.com/akiba/news/2003/03/07/642322-000.html">
+    <title>初のIEEE1394接続！アイ・オー・データ機器のTVチューナ／キャプチャボックス「GV-1394TV」が発売に</title>
+    <link>http://akiba.ascii24.com/akiba/news/2003/03/07/642322-000.html</link>
+    <description>ず～っとねらっていた商品が発売開始。</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+  <item rdf:about="http://home.impress.co.jp/magazine/dosvpr/mag/0304/">
+    <title>DOS/V POWER REPORT 2003年4月号</title>
+    <link>http://home.impress.co.jp/magazine/dosvpr/mag/0304/</link>
+    <description>今一番欲しいハードウェアである GV-1394TV記事が載っています</description>
+    <dc:date>2003-03-10T21:27:42</dc:date>
+  </item>
+
+</rdf:RDF>

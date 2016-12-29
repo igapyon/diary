@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020208.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020208.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/07/07.html">
+    <title>富士通に公取が警告　電子政府“激安入札”で</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/07/07.html</link>
+    <description>(おそらく)大規模システムであろう入札にて 303万円実装とは やるなぁ。ハードウェアが0円だったとして、もし仮に101人月な仕事だったとしたら 人月＝3万円の換算…。そこまでエブリデイ激安単価だったら 私の外注先として 優先して使ってあげますのに (爆笑)</description>
+    <dc:date>2002-02-08T09:09:54</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/jdk/1.2/ja/">
+    <title>SUN Java 2 SDK SE 1.2.2_011 リリース</title>
+    <link>http://java.sun.com/products/jdk/1.2/ja/</link>
+    <description>なかなか 1.2.3というゴロのよいバージョンが出ないなぁ (苦笑)。リリースノートを見ていて、『Oracle 9i対応バグ修正』っていうのが またなんとも渋い修正点ですね。うならせてくれます (笑)</description>
+    <dc:date>2002-02-08T10:07:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mha.go.jp/s-news/2002/020207_1.html">
+    <title>不正アクセス行為の発生状況及びアクセス制御機能に関する技術の研究開発の状況</title>
+    <link>http://www.mha.go.jp/s-news/2002/020207_1.html</link>
+    <description>日本国政府の不正アクセスに関する資料。これが意外に味わい深い。(インターネットが交通事故とかと同じレベルで論じられ始めている…のですよねぇ)</description>
+    <dc:date>2002-02-08T10:07:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/02/08/grri84000000a3cv.html">
+    <title>携帯電話の新規契約 過去最低</title>
+    <link>http://www.nhk.or.jp/news/2002/02/08/grri84000000a3cv.html</link>
+    <description>そりゃまぁ 市場規模は決まっているから 新規契約数も減るでしょう。さて これからは通話料値下げ合戦が起こるのかしら。</description>
+    <dc:date>2002-02-08T09:09:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0207/028.html">
+    <title>IP電話が飛躍的普及の兆し 企業が次々採用、個人にも</title>
+    <link>http://www.asahi.com/business/update/0207/028.html</link>
+    <description>ADSLが爆発的に普及すると、なるほどIP電話につながりますねぇ。</description>
+    <dc:date>2002-02-08T09:09:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/international/update/0208/002.html">
+    <title>旧ソ連核実験場の周辺住民、生殖細胞の突然変異一時２倍</title>
+    <link>http://www.asahi.com/international/update/0208/002.html</link>
+    <description>恐ろしい話です、、、</description>
+    <dc:date>2002-02-08T09:09:54</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20020206/3/">
+    <title>「3文字言葉がIT業界の発展を妨げる」，松井証券社長が吼える</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20020206/3/</link>
+    <description>まあ、IT歴史という観点からは 3文字言葉がIT産業を支えてきたからなぁ。(おっと ITったって 3文字言葉の仲間ですなぁ) とゆ～か 実のある情報処理産業の振興をみんなで考えて実行していきたいものです。</description>
+    <dc:date>2002-02-08T10:07:27</dc:date>
+  </item>
+
+</rdf:RDF>

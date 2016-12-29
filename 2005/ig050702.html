@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/02 日記: Java: Jakarta Commons VFSを用いた ディレクトリ一覧を取得するサンプル , ファイルをコピーするサンプル</TITLE>
+<META name="DESCRIPTION" content="Jakarta Commons VFSを用いた極めて初歩的なトイプログラムを作成しました。ファイルの一覧およびファイルのコピーです。VFSベースなので、ローカルファイルとftp, そしてhttpとが透過的に相互乗り入れできるのが非常に興味深いです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,コピー,一覧">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/02 日記: Java: Jakarta Commons VFSを用いた ディレクトリ一覧を取得するサンプル , ファイルをコピーするサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,コピー,一覧] Jakarta Commons VFSを用いた極めて初歩的なトイプログラムを作成しました。ファイルの一覧およびファイルのコピーです。VFSベースなので、ローカルファイルとftp, そしてhttpとが透過的に相互乗り入れできるのが非常に興味深いです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFSを用いた ディレクトリ一覧を取得するサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私がもっとも注目しているJava系オープンソースAPIのひとつが Jakarta Commons VFSです。さっそくとてもプリみぃてぃぶな検証プログラムを作成しました。</P>
+<P>Jakarta Commons VFSを用いた ディレクトリ一覧を取得するための<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>・サンプルです。</P>
+
+<P>確認に利用した動作環境</P>
+<UL>
+  <LI>Sun Java2 SDK 1.5.0_03 (Windows版)
+  <LI>commons-vfs-1.0-RC1.jar
+  <LI>commons-logging.jar (1.0.4)
+  <LI>ftpの場合は 下記２ファイルが 実行時にクラスパスへの追加が必要です。
+  <UL>
+    <LI>commons-net-1.4.0.jar
+    <LI>jakarta-oro-2.0.8.jar
+  </UL>
+  ※これらファイルがクラスパスに含まれていない場合には 読解しにくい例外が発生する場合があります。 <BR>
+  例外のサンプル「org.apache.commons.vfs.FileSystemException: Could not list the
+  contents of &quot;ftp://ftp.jp.ibm.com/&quot; because it is not a folder.」
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">VfsListSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * Jakarta Commons VSF: ファイル/ftp一覧の取得サンプル
+ * Copyright (C) 2005 伊賀敏樹 作成日: 2005/07/02
+ */
+
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.VFS;
+
+/**
+ * @author Tosiki IGA
+ */
+public class VfsListSample {
+    public static void main(String[] args) {
+        try {
+            FileSystemManager manager = VFS.getManager();
+            FileObject fileObject = manager.resolveFile(&quot;file://c:/&quot;);
+            // FileObject fileObject = manager.resolveFile(&quot;ftp://ftp.jp.ibm.com/&quot;);
+
+            FileObject[] children = fileObject.getChildren();
+            for (int index = 0; index &lt; children.length; index++) {
+                if (children[index].getType() == FileType.FOLDER) {
+                    System.out.println(&quot;ディレクトリ:&quot;
+                            + children[index].getName().getURI());
+                } else if (children[index].getType() == FileType.FILE) {
+                    System.out.println(&quot;ファイル:&quot;
+                            + children[index].getName().getURI());
+                } else if (children[index].getType() == FileType.IMAGINARY) {
+                    System.out.println(&quot;イメージ:&quot;
+                            + children[index].getName().getURI());
+                } else {
+                    System.out.println(&quot;知らないファイル形式です: &quot;
+                            + children[index].getName().getURI() + &quot;: &quot;
+                            + children[index].getType());
+                }
+            }
+            fileObject.close();
+        } catch (FileSystemException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
+<UL>
+  <LI>Jakarta Commons VFS<BR>
+  <A HREF="http://jakarta.apache.org/commons/vfs/">http://jakarta.apache.org/commons/vfs/</A>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>
+</UL>
+<P><FONT color="#ff00ff">不明点 / TODO</FONT></P>
+<UL>
+  <LI>FileObject#close()の呼び出しに関するルールについて調査が不足しています。というか現在のトイプログラムはバグっています。
+  <LI>FileObject#close()さへ呼び出せば、ストリームのclose()は呼び出し不要かも知れません。(ソースコードを見たら、それを示唆する感じに実装されています)
+  <LI>ファイル一覧については httpでは利用できない様子…
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050701.html">2005/07/01 日記: ローカルファイル更新をRSSで表現というプチアイデア , VFSベースのGUIファイラーが欲しい</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFSを用いた ファイルをコピーするサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Jakarta Commons VFSを用いた ファイルをコピーするための<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>・サンプルです。</P>
+<P>確認に利用した動作環境</P>
+<UL>
+  <LI>Sun Java2 SDK 1.5.0_03 (Windows版)
+  <LI>commons-vfs-1.0-RC1.jar
+  <LI>commons-logging.jar (1.0.4)
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">VfsCopySample</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * Jakarta Commons VSF: ファイルコピーのサンプル
+ * Copyright (C) 2005 伊賀敏樹 作成日: 2005/07/02
+ */
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.VFS;
+
+/**
+ * @author Tosiki IGA
+ */
+public class VfsCopySample {
+    public static void main(String[] args) {
+        InputStream inStream = null;
+        OutputStream outStream = null;
+        try {
+            FileSystemManager manager = VFS.getManager();
+            FileObject fileObjectSrc = manager
+                    .resolveFile(&quot;http://homepage2.nifty.com/igat/igapyon/diary/index.html&quot;);
+            FileObject fileObjectDist = manager
+                    .resolveFile(&quot;file://c:/temp/work.txt&quot;);
+
+            System.out.println(&quot;ソース[&quot; + fileObjectSrc.getURL() + &quot;]をターゲット[&quot;
+                    + fileObjectDist.getURL() + &quot;]にコピーします.&quot;);
+
+            if (fileObjectDist.exists()) {
+                System.out.println(&quot;ターゲットのファイル[&quot; + fileObjectDist.getURL()
+                        + &quot;]はすでに存在します.&quot;);
+            }
+
+            byte[] byteBuf = new byte[8192];
+            inStream = fileObjectSrc.getContent().getInputStream();
+            outStream = fileObjectDist.getContent().getOutputStream();
+            for (;;) {
+                int result = inStream.read(byteBuf, 0, byteBuf.length);
+                if (result &lt;= 0) {
+                    break;
+                }
+                outStream.write(byteBuf, 0, result);
+            }
+            outStream.flush();
+
+            fileObjectSrc.close();
+            fileObjectDist.close();
+        } catch (FileSystemException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                inStream.close();
+                outStream.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>IT Pro ニュース: MozillaベースのオープンソースHTMLエディタ「Nvu 1.0」正式リリース<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050630/163728/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050630/163728/</A><BR>
+  Nvuって、HTMLエディタだったのですね。ようやく認識しました。単に私の不勉強なのでしょう。
+  <LI>japan.linux.com : LinuxにRexxが必要な理由<BR>
+  <A HREF="http://japan.linux.com/desktop/05/06/30/0222227.shtml">http://japan.linux.com/desktop/05/06/30/0222227.shtml</A><BR>
+  Rexxというプログラミング言語も 私は初耳です。さて、これも私の不勉強なのでしょう。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

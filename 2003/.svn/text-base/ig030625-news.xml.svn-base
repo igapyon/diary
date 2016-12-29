@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030625.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030625.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-25</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.kaoriya.net/">
+    <title>香り屋</title>
+    <link>http://www.kaoriya.net/</link>
+    <description>gvimエディタというGUI付きvim日本語版を配布されています。ちょうど今お世話になっている外注さんに教えて貰いました。早速ダウンロード。(いがぴょんは viが好きだったのです)</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+
+  <item rdf:about="http://o46.net:8080/">
+    <title>大城ネット - 楽修情報館</title>
+    <link>http://o46.net:8080/</link>
+    <description>Googleで いがぴょん をキーワードに検索したら、こんなサイトを見つけました。何か 直感が このサイトは気になる と訴えています。XOOPS (ゾープ)というのも キーワードでしか知りませんでしたが… う～ん 気になる。</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/njbt_03.html">
+    <title>「Windows Server 2003」日本語版、発売</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/njbt_03.html</link>
+    <description>今日 会社に Visual Studio .NET 2003 日本語版が届いていました。その中に Windows Server 2003 日本語版が含まれていて、『あれ？ もう出荷開始だっけ？』なんて思っていたら、今日が丁度出荷開始日だったのですね。びっくりです。</description>
+    <dc:date>2003-06-25T17:51:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/nebt_16.html">
+    <title>W3C、SOAP 1.2を勧告</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/nebt_16.html</link>
+    <description>SOAP 1.2 が 今日初めて勧告状態になったのですね。</description>
+    <dc:date>2003-06-25T17:51:25</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030623/3/">
+    <title>@niftyの電子掲示板に「クロスサイト・スクリプティングぜい弱性」，緊急メンテナンスを実施</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030623/3/</link>
+    <description>HTMLを便利に使えるというのは とても危険なことなのですね。</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/LIN/NEWS/20030624/1/index.shtml">
+    <title>フリーのフォントに著作権侵害の問題が見つかる</title>
+    <link>http://itpro.nikkeibp.co.jp/free/LIN/NEWS/20030624/1/index.shtml</link>
+    <description>フリーなものが 実は著作権を侵害して作られたものであった… という事件です。頭痛い事件です。</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+  <item rdf:about="http://pcweb.mycom.co.jp/news/2003/06/24/04.html">
+    <title>【コラム】ハイテクウォーカー 第76回 執筆＝佐藤晃洋 「PNG不要論」への反論</title>
+    <link>http://pcweb.mycom.co.jp/news/2003/06/24/04.html</link>
+    <description>私は PNG積極利用派です。問題がない限りPNGを利用するように努めています。</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+  <item rdf:about="http://www.mhlw.go.jp/houdou/2003/05/h0520-3.html">
+    <title>厚生労働省:労働者の疲労蓄積度自己診断チェックリスト</title>
+    <link>http://www.mhlw.go.jp/houdou/2003/05/h0520-3.html</link>
+    <description>疲労の蓄積を予防しましょう。</description>
+    <dc:date>2003-06-25T17:39:17</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/nebt_08.html">
+    <title>大手17社、家電デジタルコンテンツ共有推進で「DHWG」結成</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/nebt_08.html</link>
+    <description>IP や UPnP や Wi-Fi を使って 相互接続可能なものを作りましょう、ということである模様。</description>
+    <dc:date>2003-06-25T17:51:25</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20056981,00.htm">
+    <title>CNET Japan:米ノベル、Linuxのネットワーキングにフォーカス</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20056981,00.htm</link>
+    <description>ファイル共有や印刷用などのサーバ側ソフトを提供するものである様子。NetWare機能の一部のLinux版、のようなものであるのと同時に、ディレクトリ・メッセージング・管理などの機能があるのだそうです。</description>
+    <dc:date>2003-06-25T17:51:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/nebt_15.html">
+    <title>米国でオンラインDVDレンタル事業に特許認定</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/nebt_15.html</link>
+    <description>オンラインDVDレンタルに特許が出たんですって。びっくりです。</description>
+    <dc:date>2003-06-25T17:51:25</dc:date>
+  </item>
+
+</rdf:RDF>

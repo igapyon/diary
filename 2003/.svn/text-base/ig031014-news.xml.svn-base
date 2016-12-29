@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031014.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031014.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-14</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/11/nebt_11.html">
+    <title>CDコピー防止技術回避の学生提訴は取りやめ</title>
+    <link>http://www.zdnet.co.jp/news/0310/11/nebt_11.html</link>
+    <description>むしろ、なにげにパソコンに音楽CDを挿入した途端、一般消費者が意図しないプログラムが勝手に＆自動的に実行される事実のほうが恐ろしいです。Autorunを利用したCD-ROM付属型ウイルスなんてものが発生しないことを祈ります。</description>
+    <dc:date>2003-10-14T08:44:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/14/nebt_12.html">
+    <title>スパムは読まずに削除するユーザーが増加</title>
+    <link>http://www.zdnet.co.jp/news/0310/14/nebt_12.html</link>
+    <description>自宅メールにて、英語メールで添付ファイルのあるもの (含むHTMLメール)は ほぼ無条件で削除してしまっています…。世のスパムメールは 早く何かしら対策がうたれて改善されてくれれば良いのですが…。</description>
+    <dc:date>2003-10-14T09:04:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/14/nebt_24.html">
+    <title>「OracleのSun買収はない」とエリソン氏</title>
+    <link>http://www.zdnet.co.jp/news/0310/14/nebt_24.html</link>
+    <description>最近 とみに Sun Microsystemsが元気無いので、何かと 『どこかの企業がSunを買収するのでは？』との観測が流れます。… 私としては Java部門だけは どこかに引き受けて欲しい気持ちでいっぱいです。そしてそれは IBMかも…、などと勝手な観測を書いてはいけませんね。</description>
+    <dc:date>2003-10-14T11:28:12</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031008/1/">
+    <title>オープンソースはビジネスになる--ただし「タダでは使うな」</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031008/1/</link>
+    <description>『オープンソースは無料では無いんだよ』ということを多くの企業所属の人々が分かってくれると 随分良い方向になっていくものと思います。しかし 米持幸寿さんも 盛んに活動されていますね。びっくりです。(ちょうどいま 本を書いていて 本を書く苦しみを味わいまくっているため…)</description>
+    <dc:date>2003-10-14T13:16:28</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/14/njbt_02.html">
+    <title>ボーダフォン、TV内蔵携帯「V601N」発表</title>
+    <link>http://www.zdnet.co.jp/news/0310/14/njbt_02.html</link>
+    <description>テレビチューナー内蔵ケータイの時代到来なんですねっ！ びっくりです。ただ 当然の事ながら テレビ視聴をしたらバッテリーが急速に消耗する模様。カラオケリモコン機能のクダリは、旧世代PHSを利用している私には理解不能。</description>
+    <dc:date>2003-10-14T18:35:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/14/njbt_03.html">
+    <title>フルカラー毎分105枚の世界最速プリンタ、オリンパスと理想科学が開発</title>
+    <link>http://www.zdnet.co.jp/news/0310/14/njbt_03.html</link>
+    <description>理想科学って インク辺りは強そうですね。在りし日のプリントゴッコ全盛時代を忍びつつ…</description>
+    <dc:date>2003-10-14T18:35:59</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061377,00.htm">
+    <title>日立など、国内株式公開企業の財務情報をXBRL形式で提供／利用するサービスを発表</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061377,00.htm</link>
+    <description>微妙にそそられる記事。XML関連記事でもある。ただウェブサービスとは関係ない模様。</description>
+    <dc:date>2003-10-14T18:35:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/14/nebt_28.html">
+    <title>CloneCDが開発停止か　EU著作権法強化で見切り</title>
+    <link>http://www.zdnet.co.jp/news/0310/14/nebt_28.html</link>
+    <description>CDなどの私的複製に関してどのように認識するのかっていうことを考えることは ことのほか難しいですね。例えば 異常になったCDやDVDを メーカーが無期限で 正常に動作するものと取り替えてくれる、そんなサービスがあれば、私的複製は まあ多くの局面にいおいて不要になるとも思えます。それを実施して欲しい気持ちで一杯です。</description>
+    <dc:date>2003-10-14T20:13:31</dc:date>
+  </item>
+
+</rdf:RDF>

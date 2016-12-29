@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/01/22 日記: 即席JavaベースSOAP体験</TITLE>
+<META name="DESCRIPTION" content="MS SQL Server 2000 SP3 リリース">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030122-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>即席でJavaベースSOAPを体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaベースのSOAPもおさらい。</P>
+<UL>
+  <LI>Apache Axis<BR>
+  [replace-href:http://xml.apache.org/axis/index.html]<BR>
+  Apache SOAPの後に続くSOAP実装なのだそうな
+  <LI>Apache SOAP<BR>
+  [replace-href:http://xml.apache.org/soap/index.html]<BR>
+  IBM SOAP4Jベースなのだそうな
+</UL>
+<P>Apacheベースで2つもSOAP実装があるとびっくりしてしまいます。<BR>
+とりあえず Axisベースで体験してみます。<BR>
+まずはリソース探し。Googleで探してみたら</P>
+<UL>
+  <LI>dW: Web servicesの進化と革命: 第2回<BR>
+  [replace-href:http://www-6.ibm.com/jp/developerworks/webservices/010302/j_ws-peer2.html
+  <LI>JavaでHello World　SOAP編<BR>
+  [replace-href:http://www.hellohiro.com/soap.htm]<BR>
+  田中宏和さんという方が書かれた 各トピック向け入門用記事が載っていました。結構このサイト
+  良くできていました。頑張っていますね…
+  <LI>Webサービスを試す<BR>
+  [replace-href:http://chen.silkroad.net/research/my/soap.html]<BR>
+  AxisベースとMicrosoft SOAP Toolkit Version 2 とに簡単な言及があります。私は結構こういう記載も好きです。
+</UL>
+<P>ざっくりと探したのですが Axisベースのは あんまり無かったです。でもAxisベースで体験しようと思ってみました。<BR>
+で、とりあえずSOAP実装やらTomcatやらの最新版をゲットしようとしだしたら、これが結構時間がかかります。上流側で
+転送効率が 9KB/sec(バイト換算)程度に制限されている模様。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030122-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030703.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030703.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.eclipse.org/">
+    <title>Eclipse Release 2.1.1 リリース</title>
+    <link>http://www.eclipse.org/</link>
+    <description>人気鰻登りの オープンソースなJava統合開発環境である Eclipse の最新リビジョンがリリースです。</description>
+    <dc:date>2003-07-03T20:26:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/03/njbt_02.html">
+    <title>Windows 2000 SP4日本語版リリース</title>
+    <link>http://www.zdnet.co.jp/news/0307/03/njbt_02.html</link>
+    <description>素直に嬉しい。早速ダウンロード。Windows 2000 も安定期に入った、のかどうか 楽しみにします。…後日談 世間的には 早速 W2K SP4の致命的不具合が数多く報告されています。偶数番号のSPだけに 安定版ではなく開発版だったのか。しばらく導入は見合わせて 世間の果敢な挑戦者のなれの果てを観察していた方が良さそうです。</description>
+    <dc:date>2003-07-03T21:12:26</dc:date>
+  </item>
+
+
+</rdf:RDF>

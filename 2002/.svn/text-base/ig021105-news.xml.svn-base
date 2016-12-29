@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021105.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021105.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021030/1/">
+    <title>「動かないコンピュータ」とコンサルタントの関係</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021030/1/</link>
+    <description>谷島宣之さんの手による、とても良くできた記事。コンサルタントが人月300～400万円という高額な単価でやって来て、使い物にならないバインダを多数生成して帰っていく という良くある話などが載っています。経営トップの判断ミスも原因の一つであるとも指摘しています。</description>
+    <dc:date>2002-11-05T14:57:40</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021002/1/">
+    <title>システムズ・エンジニアが日本を救う</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20021002/1/</link>
+    <description>谷島宣之さんの手による記事。『「動かないコンピュータ」とコンサルタントの関係』を読んだ後、改めて読み直してみました。う～む、すばらしい記事です。</description>
+    <dc:date>2002-11-05T14:57:40</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/05/nebt_13.html">
+    <title>Borland、Java開発ツール新版JBuilder 8発表</title>
+    <link>http://www.zdnet.co.jp/news/0211/05/nebt_13.html</link>
+    <description>新版ではJakarta Strutsをサポートしているんですって！ 日本のページに行ったら まだ 旧バージョンのJBuilder 7 状態でした。(とてもめまぐるしいバージョンアップであるような印象を受けます)</description>
+    <dc:date>2002-11-05T15:09:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/05/nebt_16.html">
+    <title>MS、欧州とアフリカでLinuxに手痛い敗北</title>
+    <link>http://www.zdnet.co.jp/news/0211/05/nebt_16.html</link>
+    <description>Linuxの足音が少しずつ大きくなってきている、のでしょうねぇ。</description>
+    <dc:date>2002-11-05T15:09:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/20021031203.html">
+    <title>60年代の生物化学兵器実験を認めた米国防総省、湾岸戦争時にも疑惑</title>
+    <link>http://www.hotwired.co.jp/news/news/20021031203.html</link>
+    <description>アメリカでのお話…</description>
+    <dc:date>2002-11-05T15:09:37</dc:date>
+  </item>
+
+</rdf:RDF>

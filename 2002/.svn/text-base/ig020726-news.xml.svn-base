@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020726.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020726.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/25/njbt_07.html">
+    <title>自治体サーバは危ない？</title>
+    <link>http://www.zdnet.co.jp/news/0207/25/njbt_07.html</link>
+    <description>日本の自治体のWebサーバやメールサーバの調査したら…、という内容の記事。Linuxサーバも自治体内では結構普及しているんですね。</description>
+    <dc:date>2002-07-26T14:43:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/26/njbt_07.html">
+    <title>NTTコム、定額PHSデータ通信に参入　DDIポケット回線を利用</title>
+    <link>http://www.zdnet.co.jp/news/0207/26/njbt_07.html</link>
+    <description>意外にDDIは健闘しているんですねぇ。H"ユーザとしては嬉しいのであった。</description>
+    <dc:date>2002-07-26T17:56:45</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/pc/198017">
+    <title>実力診断：Linuxで生まれ変わった新ザウルス</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/pc/198017</link>
+    <description>単に欲しい (苦笑)</description>
+    <dc:date>2002-07-26T14:43:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/25/ne00_apache.html">
+    <title>Apacheの世界に手を伸ばす.NET</title>
+    <link>http://www.zdnet.co.jp/news/0207/25/ne00_apache.html</link>
+    <description>基本的には AJP13ベースの接続が提供されるだけ、なのでは？？？</description>
+    <dc:date>2002-07-26T14:43:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/25/nebt_09.html">
+    <title>Mac OS X 10.2とWinXP SP1のテスト進展</title>
+    <link>http://www.zdnet.co.jp/news/0207/25/nebt_09.html</link>
+    <description>お願いだから 順調に Windows XP SP1 をリリースして欲しいです。</description>
+    <dc:date>2002-07-26T14:43:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/25/njbt_01.html">
+    <title>PCの安全度を診断する無償ソフト「McAfee.com セキュリティセンター」</title>
+    <link>http://www.zdnet.co.jp/news/0207/25/njbt_01.html</link>
+    <description>「無償」ってのが良いですねぇ。</description>
+    <dc:date>2002-07-26T14:43:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/25/njbt_10.html">
+    <title>PS2、国内累計1000万台突破</title>
+    <link>http://www.zdnet.co.jp/news/0207/25/njbt_10.html</link>
+    <description>プレステ全盛ですなぁ。</description>
+    <dc:date>2002-07-26T15:51:06</dc:date>
+  </item>
+
+</rdf:RDF>

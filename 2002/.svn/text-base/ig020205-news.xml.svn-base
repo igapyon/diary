@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020205.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020205.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/02/05/grri84000000a0um.html">
+    <title>東証株価 バブル後最安値更新</title>
+    <link>http://www.nhk.or.jp/news/2002/02/05/grri84000000a0um.html</link>
+    <description>下げ止まらず。</description>
+    <dc:date>2002-02-05T19:51:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0205/013.html">
+    <title>株安続く　ＴＯＰＩＸ、日経平均ともバブル後安値を更新</title>
+    <link>http://www.asahi.com/business/update/0205/013.html</link>
+    <description>様々な材料からどんどん落ちていきます。</description>
+    <dc:date>2002-02-05T17:37:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0205/015.html">
+    <title>雪印乳業また格下げ　ムーディーズ</title>
+    <link>http://www.asahi.com/business/update/0205/015.html</link>
+    <description>どんどん下がっていきます…</description>
+    <dc:date>2002-02-05T19:51:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/02/b_0201_01.html">
+    <title>Windows XP用USB 2.0ドライバ提供開始</title>
+    <link>http://www.zdnet.co.jp/news/0202/02/b_0201_01.html</link>
+    <description>経緯はともかく まずは提供開始されたようで良かった良かった。</description>
+    <dc:date>2002-02-05T17:37:19</dc:date>
+  </item>
+
+</rdf:RDF>

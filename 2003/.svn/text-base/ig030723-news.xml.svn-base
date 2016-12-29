@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030723.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030723.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.parkcity.ne.jp/~takezawa/scripts/videoserver.html">
+    <title>Linux video server (Video server report)</title>
+    <link>http://www.parkcity.ne.jp/~takezawa/scripts/videoserver.html</link>
+    <description>日本語で書かれた Linuxでビデオサーバを組む記事</description>
+    <dc:date>2003-07-23T15:56:56</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.60049">
+    <title>Webサーバ用OS、WindowsがLinuxの伸びを上回る</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.60049</link>
+    <description>LinuxとWindows以外にBSDも増加傾向にあるのだそうな。Webサーバ用OSとしても BSDは健在なのですねっ！</description>
+    <dc:date>2003-07-23T15:56:56</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/22/nebt_03.html">
+    <title>Compuware、Javaプログラミングツール新版</title>
+    <link>http://www.zdnet.co.jp/news/0307/22/nebt_03.html</link>
+    <description>OptimalJにまつわる記事。私 仕事上関係を持たされそうなソフトなんです。</description>
+    <dc:date>2003-07-23T15:56:56</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/maker/story/0,2000047861,20059894,00.htm">
+    <title>給与削減の波にさらされるIT技術者たち</title>
+    <link>http://japan.cnet.com/news/maker/story/0,2000047861,20059894,00.htm</link>
+    <description>興味深い記事。</description>
+    <dc:date>2003-07-23T15:56:56</dc:date>
+  </item>
+
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031104.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031104.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://slashdot.jp/article.pl?sid=03/11/04/084208&amp;topic=61">
+    <title>Red HatがユーザにRed Hat Linuxの終焉を通知</title>
+    <link>http://slashdot.jp/article.pl?sid=03/11/04/084208&amp;topic=61</link>
+    <description>し、、、知らなかった。Red Hat って エンタープライズ版に収れんされていってしまうのですか…。ネタなのかしら、やっぱり本当なのかしら。4/1では無いから やっぱり本当なのかしらん。</description>
+    <dc:date>2003-11-04T21:41:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/04/njbt_02.html">
+    <title>NTTデータ、大規模な無料Blogサービスをスタート</title>
+    <link>http://www.zdnet.co.jp/news/0311/04/njbt_02.html</link>
+    <description>およよ。全く 知りませんでした。</description>
+    <dc:date>2003-11-04T21:41:19</dc:date>
+  </item>
+
+</rdf:RDF>

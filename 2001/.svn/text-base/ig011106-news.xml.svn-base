@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011106.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011106.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-06</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/02/01110205.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/05/e_wallet.html"/>
+        <rdf:li resource="http://www.microsoft.com/JAPAN/technet/WIN2000/win2ksrv/lapa2iis.asp"/>
+        <rdf:li resource="http://pcweb.mycom.co.jp/news/2001/11/02/03.html"/>
+        <rdf:li resource="http://www.roxio.co.jp/"/>
+        <rdf:li resource="http://japan.cnet.com/News/2001/Item/011105-6.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/02/01110205.html">
+    <title>マイクロソフトが欠陥パッチを発行，テスト方法にユーザー怒る</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/02/01110205.html</link>
+    <description>すごいなぁ。マイクロソフトって ごく普通のテストもせずにパッチをリリースしているのでしょうか。これは凄いぞ。とても真似できないなぁ。しかし こういう『動作不能にしてしまう』系ミスが多発しているパッチを 『自動ダウンロード＆自動更新』が働くメカニズムに載せてしまおうというのは、ものすごく恐ろしいことですよね。しかも そういう事が 2回や3回どころじゃなく 多数回発生している (苦笑)</description>
+    <dc:date>2001-11-06T07:57:16</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/05/e_wallet.html">
+    <title>Passportのセキュリティホールで，“財布”の中身が丸見えに</title>
+    <link>http://www.zdnet.co.jp/news/0111/05/e_wallet.html</link>
+    <description>マイクロソフト社製品のセキュリティホール対策は 前途超多難ですね (苦笑)</description>
+    <dc:date>2001-11-06T07:57:16</dc:date>
+  </item>
+  <item rdf:about="http://www.microsoft.com/JAPAN/technet/WIN2000/win2ksrv/lapa2iis.asp">
+    <title>Linux/Apache Server の Windows 2000/IIS 5.0 への移行</title>
+    <link>http://www.microsoft.com/JAPAN/technet/WIN2000/win2ksrv/lapa2iis.asp</link>
+    <description>IISからApacheへの移行とか論調のニュースばっかり出てくるから対抗したくなるのでしょうか (笑)</description>
+    <dc:date>2001-11-06T07:57:16</dc:date>
+  </item>
+  <item rdf:about="http://pcweb.mycom.co.jp/news/2001/11/02/03.html">
+    <title>【コラム】理系のための恋愛論 第48回 執筆＝酒井冬雪 彼のメールを読むとカチンときてしまう</title>
+    <link>http://pcweb.mycom.co.jp/news/2001/11/02/03.html</link>
+    <description>恋愛のどうのこうのはともかく、それ以前のメール書き方エチケット講座ですなぁ。自分のメールがどうなっているのか、ちょっと気を付けてみよう。</description>
+    <dc:date>2001-11-06T07:57:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.roxio.co.jp/">
+    <title>ロキシオ (Roxio Japan)</title>
+    <link>http://www.roxio.co.jp/</link>
+    <description>Easy CD Creatorを販売している会社。昔は Adaptec印で販売していたのになぁ。(世間動向に鈍い私…) それはともかく Easy CD Creatorは愛用CD-R焼き付けソフトなんです。ver 5 をバージョンアップ購入したい衝動にかられる…XPリリース後まで待とうかしら (苦笑)</description>
+    <dc:date>2001-11-06T08:36:42</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/News/2001/Item/011105-6.html">
+    <title>『VMware』、『Windows XP』対応の最新バージョン</title>
+    <link>http://japan.cnet.com/News/2001/Item/011105-6.html</link>
+    <description>なんでもWindows版の方がビジネスとして美味しいのだそうな。</description>
+    <dc:date>2001-11-06T11:21:54</dc:date>
+  </item>
+</rdf:RDF>

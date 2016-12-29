@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/07 日記: blanco Frameworkに PHP対応を追加開始しました</TITLE>
+<META name="DESCRIPTION" content="blanco FrameworkにPHP対応を追加開始しました。ターゲットとなるバージョンは PHP5です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/07 日記: blanco Frameworkに PHP対応を追加開始しました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco FrameworkにPHP対応を追加開始しました。ターゲットとなるバージョンは PHP5です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkに PHP対応を追加開始しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> にPHP対応を追加開始しました。(ターゲットとなるバージョンは PHP5です)</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>にPHPソースコード生成機能を追加
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>にPHPソースコード生成機能を追加
+</UL>
+<P>自動生成したソースコードを PHPLintにかけながら、ちょっとだけは調整し、PHPっぽいソースコードが自動生成されるようには努力してみました。</P>
+<UL>
+  <LI>PHPLint<BR>
+  <A HREF="http://www.icosaedro.it/phplint/phplint-on-line.html">http://www.icosaedro.it/phplint/phplint-on-line.html</A>
+</UL>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>が自動生成したソースコードは PHPのソースコードのように見えます。(ちなみに、一回もPHPの上で動作させていません)<BR>
+しかし いかんせん 私は PHPを 全く理解していません。<STRONG>JavaとPHP5が両方わかる方のフィードバックを強く期待します。</STRONG>Java版ソースコード生成と同等のPHPソースコードが自動生成されることを最初のゴールと考えています。</P>
+<P>なお、blanco Frameworkの PHP対応についてのロードマップは 下記のように考えています。これは VB.NET対応も同様に考えています。</P>
+<OL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>や<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。">blancoStringConverter</A>などのPHPソースコード生成機能を追加
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>のPHPソースコード生成機能を作成
+</OL>
+<P>ニーズが強いのは PHP対応のR/Oマッピングであろう、と予想しています。なのですが、まずは<A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>や<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。">blancoStringConverter</A>などの小物の
+PHPソースコード生成機能を追加するところから ちょっとずつ進めていって blancoCgの機能拡張 および PHP対応ノウハウを構築するのが、結果的には近道であろうと考えています。</P>
+<P><FONT color="#ff00ff">関係する日記</FONT></P>
+<UL>
+  <LI><A href="ig061031.html">2006/10/31 日記: blanco Frameworkに VB.NET対応追加を実験</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

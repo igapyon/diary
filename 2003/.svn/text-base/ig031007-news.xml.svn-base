@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031007.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031007.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml">
+    <title>サン，PDF作成機能を備えた9800円のMS Office互換ソフトをバージョンアップ</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml</link>
+    <description>MS Officeとの互換性の水準に大変興味があります。PDF作成機能の標準装備っていうのはとても魅力的ですねっ。</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/07/njbt_01.html">
+    <title>ソニー「PSX」は7万9800円から</title>
+    <link>http://www.zdnet.co.jp/news/0310/07/njbt_01.html</link>
+    <description>PS2にHDD＆DVDレコーダー機能を付けて160GバイトHDDで\79,800.-なのだそうな。ゴーストリダクションも搭載だとか。これは売れそうな商品です…</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.iodata.jp/lib/product/g/911_winxp.htm">
+    <title>I-O DATA: GV-1394TV DigitalTV Recorder 1.12 (2003/10/06) リリース</title>
+    <link>http://www.iodata.jp/lib/product/g/911_winxp.htm</link>
+    <description>これを適用したら、なんと、２個以上の予約が正常に予約録画できるようになる模様です。これは画期的。(今までのバージョンでは 私の環境では １個以上の予約録画が正常に実施できませんでした！！！) アイオーデータを「哀王」なんて訳す人がいます。私は GV-1394TV を利用するまでは そんなにアイオーデータの印象は悪くありませんでした…。GV-1394TVを利用して アイオーデータの印象はずんどこ低下しました。哀王の略称もうなずくことができました。でも今回のリビジョンアップで ほんの少し印象が改善しました。なんとこのリビジョンアップを適用したら ２個以上の予約録画が正常に終了するように思えているのですもの。</description>
+    <dc:date>2003-10-07T16:26:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/01/epn16.html">
+    <title>日本コンピュウェア、J2EEアプリケーション開発環境を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/01/epn16.html</link>
+    <description>私 このOptimalJというのを使って パイロットプログラム なるプロジェクトに参画しています。(それで東京出張が やたら多いのであった…)</description>
+    <dc:date>2003-10-07T16:26:29</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm">
+    <title>Linuxはデスクトップにも普及するか？---ターボリナックス社長に聞く</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm</link>
+    <description>3980円から、という価格設定なのだそうな。</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/">
+    <title>産総研の実験に見るオープンソース・デスクトップの“可能性”</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/</link>
+    <description>メールにはSylpheedを利用する、というのが目をひきました。(単にLinux用メーラーの主流が知りたいだけ…)</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.linux.com/opensource/03/10/02/0955207.shtml">
+    <title>SGIからオープンソース・コミュニティへの公開書簡</title>
+    <link>http://japan.linux.com/opensource/03/10/02/0955207.shtml</link>
+    <description>SGIがLinuxにコントリビュートしたソースファイルに関する公開書簡。また XSFはSystem Vの一部ではなく SGI独自のプロダクトであるとも主張しています。そりゃそうでしょうね。</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml">
+    <title>OpenOffice.orgがオープンソース版オフィス・スイート「OpenOffice.org 1.1」の最終版を公開</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml</link>
+    <description>1.1系は これが最終版なのだそうな。ダウンロードして試すヒマは無し。</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml">
+    <title>「SCOが権利侵害と主張する部分はLinuxから取り除いた」と米SGI</title>
+    <link>http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml</link>
+    <description>記事のタイトルの通りの内容。XFSに関する件について言及している箇所も含まれる。</description>
+    <dc:date>2003-10-07T15:44:45</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593">
+    <title>東大がiMacを選んだ理由/安東孝二助手に聞く</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593</link>
+    <description>ものすごい内容の記事です。妙に納得してしまいました。</description>
+    <dc:date>2003-10-07T16:26:29</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm">
+    <title>.NETは本当にオープンスタンダードか</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm</link>
+    <description>オープンスタンダードというからには、オープンでスタンダードでないといけないのでしょうね。特にオープンという面では シングルベンダではなくマルチベンダの状況になっていないと クローズドソースなだけあってオープンとは言い難いです。幸い .NET開発環境という意味では ボーランドからの製品も含め 幾つか出てきていますから、一応及第点かしら。でも 実行環境という面では まだ 私は マイクロソフト製.NET実行環境しか及第点と思っていないので、その点 オープンとは言い難いです…。</description>
+    <dc:date>2003-10-07T16:26:29</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030524.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030524.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054523,00.htm">
+    <title>NEC、「信頼性の高いLinuxは全ての分野で採用を進めるべき」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054523,00.htm</link>
+    <description>世の中はLinux色が強くなってきていますね。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054522,00.htm">
+    <title>富士通、ニフティのシステムをSolarisからLinuxへ移行中</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054522,00.htm</link>
+    <description>既に1割はLinuxベースなのだそうです。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/22/nebt_09.html">
+    <title>MS、データベース市場でシェア大幅拡大</title>
+    <link>http://www.zdnet.co.jp/news/0305/22/nebt_09.html</link>
+    <description>記事の内容とは別に、IBMがOracleから売上高ベースで首位を奪ったなどと書いてあります。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20054524,00.htm">
+    <title>Linuxに対して仕掛けられた心理戦</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20054524,00.htm</link>
+    <description>SCOの対IBM訴訟などに対するコメントがかかれています。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.vector.jp/soft/win95/util/se233359.html">
+    <title>納入助</title>
+    <link>http://www.vector.jp/soft/win95/util/se233359.html</link>
+    <description>ファイルの作成日・更新日などを一括変更できる便利なツール。結構気に入りました。というか実際に仕事で利用しました。外部業者さんが送付してきたソースファイルの作成日時が なぜか2099年になっていて、それが起因してCVSへのcommitが正常に動作しなかったのです。これは私にとって必携ツールのひとつになる、やも知れません。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.grapecity.com/japan/support/database/P7_212.htm">
+    <title>ActiveReports for .NET Professional</title>
+    <link>http://www.grapecity.com/japan/support/database/P7_212.htm</link>
+    <description>.NET対応WEB帳票作成ツール。PDF作成なども可能。グレープシティ製なだけに 興味惹かれます。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.grapecity.com/japan/support/database/P7_224.htm">
+    <title>SPREAD for .NET Web Forms Ed.</title>
+    <link>http://www.grapecity.com/japan/support/database/P7_224.htm</link>
+    <description>.NET用サーバサイド表計算コンポーネント。VB用スプレッドシート製品の.NET版なのだそうな。仕事でとりあえず検証に携わる可能性大。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054551,00.htm">
+    <title>米マクロメディアとACCESS、情報家電向けブラウザ分野で提携</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054551,00.htm</link>
+    <description>Flash全盛時代に向けて いろいろ出来事が起こっています。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20054558,00.htm">
+    <title>SARSに揺れる中国PC市場の「陰と陽」</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20054558,00.htm</link>
+    <description>SARSをきっかけに在宅勤務という仕事スタイルが発生したのだそうな。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054553,00.htm">
+    <title>日本IBM、「国内最大級」のLinux検証施設を開設</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054553,00.htm</link>
+    <description>昔 私のつくったJavaアプリケーションをAIX上動作検証の際に 同じ場所にある検証施設を利用させていただいたことがあります。懐かしいです。</description>
+    <dc:date>2003-05-24T13:26:57</dc:date>
+  </item>
+
+</rdf:RDF>

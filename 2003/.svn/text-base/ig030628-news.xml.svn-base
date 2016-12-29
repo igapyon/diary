@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030628.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030628.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.2/ja/changes.html">
+    <title>Sun: Java 2 SDK, Standard Edition Version 1.4.2 での拡張および変更点</title>
+    <link>http://java.sun.com/j2se/1.4.2/ja/changes.html</link>
+    <description>たくさん書いてあって 理解不能…。</description>
+    <dc:date>2003-06-28T21:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/01/nebt_15.html">
+    <title>デスクトップ向けJava新版リリース</title>
+    <link>http://www.zdnet.co.jp/news/0307/01/nebt_15.html</link>
+    <description>高速化やルックアンドフィールの改善など、らしいのですが… 私としては バグフィックスリリースかもっ (苦笑) それはさておき Swing改善は 一回見てみる価値はあることだとも思います。暇を作って見てみたいです。</description>
+    <dc:date>2003-07-01T21:44:49</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059381,00.htm">
+    <title>サンから新しいJavaが登場：狙いは使いやすさ</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059381,00.htm</link>
+    <description>インテルCPUの 新しめな命令に対応しているという売りも ちょっと興味あります。そういった点は 中間コード形式の形態を持っているJavaのメリットでもあります。</description>
+    <dc:date>2003-07-01T21:44:49</dc:date>
+  </item>
+
+</rdf:RDF>

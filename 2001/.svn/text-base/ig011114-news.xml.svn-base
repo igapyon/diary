@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011114.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011114.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-14</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://cnet.sphere.ne.jp/News/2001/Item/011113-7.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fdotnet/special/jsb1_intvw/jsb1_intvw_01.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/13/01111305.html"/>
+        <rdf:li resource="http://www.forest.impress.co.jp/article/2001/11/14/opera60beta.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/14/b_1113_03.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/13/01111313.html"/>
+        <rdf:li resource="http://www.hatena.org/JavaPerformanceTuning/newsletter008.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://cnet.sphere.ne.jp/News/2001/Item/011113-7.html">
+    <title>ソニーがAOLとブラウザーを開発、ノキアとも提携</title>
+    <link>http://cnet.sphere.ne.jp/News/2001/Item/011113-7.html</link>
+    <description>とても気になるソニーとAOLとの連合の記事。</description>
+    <dc:date>2001-11-14T14:49:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/special/jsb1_intvw/jsb1_intvw_01.html">
+    <title>Part 1　インタビュー： Javaプログラマに.NETの世界を開くJ#</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/special/jsb1_intvw/jsb1_intvw_01.html</link>
+    <description>そんなにJavaプログラマ人口が多いとも思えず。一方 JDK 1.1.4レベルって 全く使い物にならないという印象も強いです。かといって Visual J++プログラマ人口なんて 多いとはとても考えられません。謎ですなぁ。</description>
+    <dc:date>2001-11-14T18:39:55</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/13/01111305.html">
+    <title>すべてのプラットフォームを標準技術で統合するボーランド</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/13/01111305.html</link>
+    <description>JBuilder新版とかの記事です。なるほど ボーランドは上手くやっているなぁ。</description>
+    <dc:date>2001-11-14T18:39:55</dc:date>
+  </item>
+  <item rdf:about="http://www.forest.impress.co.jp/article/2001/11/14/opera60beta.html">
+    <title>Webブラウザー「Opera 6.0」Beta 1がリリース</title>
+    <link>http://www.forest.impress.co.jp/article/2001/11/14/opera60beta.html</link>
+    <description>ほほう。日本語対応ですか。興味深いです。</description>
+    <dc:date>2001-11-14T18:39:55</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/14/b_1113_03.html">
+    <title>DellでP4/2GHzマシンが売り切れに</title>
+    <link>http://www.zdnet.co.jp/news/0111/14/b_1113_03.html</link>
+    <description>高速マシン、私も欲しいなぁ。</description>
+    <dc:date>2001-11-14T18:39:55</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/13/01111313.html">
+    <title>サンと日本HP，JavaとOpenViewのトレーニングライセンスを相互に供給</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/13/01111313.html</link>
+    <description>企業の組み合わせ (SUNとHP)が ちょっと目をひきました。</description>
+    <dc:date>2001-11-14T18:39:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hatena.org/JavaPerformanceTuning/newsletter008.html">
+    <title>「Java パフォーマンスチューニングニュースレター no.8」リリース</title>
+    <link>http://www.hatena.org/JavaPerformanceTuning/newsletter008.html</link>
+    <description>今回のは これまた力作＆大作です。実のある内容も多いように思いました。みなさま 翻訳ご苦労様です。</description>
+    <dc:date>2001-11-14T18:51:23</dc:date>
+  </item>
+
+</rdf:RDF>

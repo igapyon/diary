@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031231.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031231.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-31</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20063448,00.htm">
+    <title>2003年総集編--歩み寄り？全面対決？接近する家電とPC</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20063448,00.htm</link>
+    <description>家電とパソコンとが歩み寄る (というか強制的に集約していく) なんて 少し前までは考えられなかった現象です。びっくりです。</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+
+</rdf:RDF>

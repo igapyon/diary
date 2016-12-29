@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031205.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031205.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/tomcat/">
+    <title>Jakarta Tomcat 5.0.16 リリース (初の5.0系安定版)</title>
+    <link>http://jakarta.apache.org/tomcat/</link>
+    <description>Tomcat 5.x 安定版の 最初の バージョンがリリースです。Servlet 2.4 と JSP 2.0 のサポートが売りです。、、、仕事が超忙しく 遊ぶ暇はとても無し。</description>
+    <dc:date>2003-12-05T22:55:14</dc:date>
+  </item>
+
+</rdf:RDF>

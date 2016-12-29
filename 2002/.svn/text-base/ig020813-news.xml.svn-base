@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020813.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020813.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/commons/beanutils.html">
+    <title>Jakarta Commons BeanUtils 1.4 リリース</title>
+    <link>http://jakarta.apache.org/commons/beanutils.html</link>
+    <description>setterやgetterをXMLリソースを元に自動生成してくれるツールなのだそうな。基本機能について、私が作った jscwizと 酷似しているように感じられます (苦笑)</description>
+    <dc:date>2002-08-13T16:50:11</dc:date>
+  </item>
+
+  <item rdf:about="http://namazu.org/~satoru/cdfax/">
+    <title>cdfax: CD-ROMをFAXのように送受信するツール</title>
+    <link>http://namazu.org/~satoru/cdfax/</link>
+    <description>すげ～。CD-ROMが転送されるんですね。その挙動が SFっぽく感じてしまいます。</description>
+    <dc:date>2002-08-13T15:52:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.compuware.co.jp/corporate/pressroom/2002/020806.html">
+    <title>Windows XP完全サポートのデバイス･ドライバ開発支援ツール DriverStudio 2.6 ／SoftICE Driver Suite 2.6 日本語版販売開始</title>
+    <link>http://www.compuware.co.jp/corporate/pressroom/2002/020806.html</link>
+    <description>日本コンピュウェアが また異色な商品を販売開始しました。コンピュウェア恐るべし。(とゆ～のも 現在所属している部署が日本コンピュウェアと親しいので 気になるのです…) それはともかくとして デバドラ開発も 結構 アングラでは無くなってきたのですね。良かったです。(デバドラ開発は 少し前まではものすごく情報が少なく 全くの口伝秘術な世界でしたから…)</description>
+    <dc:date>2002-08-13T16:45:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0208/09/n_07.html">
+    <title>サンがJavaアプリ統合開発環境の最新版「Sun ONE Studio 4」</title>
+    <link>http://www.zdnet.co.jp/enterprise/0208/09/n_07.html</link>
+    <description>Forte for Javaのアップグレード版であると考えられるそうです。</description>
+    <dc:date>2002-08-13T08:37:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/insiderseye/20020810win2ksp3/win2ksp3_01.html">
+    <title>@IT: Windows 2000 Service Pack 3 日本語版がついに登場</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/insiderseye/20020810win2ksp3/win2ksp3_01.html</link>
+    <description>ようやく出ましたねぇ。でも 大量の変更が加わっている模様で、いつもにもまして適用には勇気が必要っぽいです。</description>
+    <dc:date>2002-08-13T14:51:06</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/insiderseye/20020809dotnetfwsp2/dotnetfwsp2.html">
+    <title>@IT: .NET Framework Service Pack 2のダウンロード・サービスが開始</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/insiderseye/20020809dotnetfwsp2/dotnetfwsp2.html</link>
+    <description>.NETで仕事を始めたので このリリースは嬉しいです。</description>
+    <dc:date>2002-08-13T14:51:06</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/10/nebt_08.html">
+    <title>暗号技術研究者が素数の問題を克服</title>
+    <link>http://www.zdnet.co.jp/news/0208/10/nebt_08.html</link>
+    <description>数学と情報技術って深い関係があるんだって改めて思い知りました。</description>
+    <dc:date>2002-08-13T08:37:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/12/njbt_04.html">
+    <title>イースト、XML Webサービス対応辞書検索サイトを開設</title>
+    <link>http://www.zdnet.co.jp/news/0208/12/njbt_04.html</link>
+    <description>大変面白そうなのですが、暇がないので遊ぶことはかないません (笑)</description>
+    <dc:date>2002-08-13T08:37:24</dc:date>
+  </item>
+
+</rdf:RDF>

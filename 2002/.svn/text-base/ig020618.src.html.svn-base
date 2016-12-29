@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/18 日記: HTTPサーバの自作</TITLE>
+<META name="DESCRIPTION" content="リクエストヘッダが見たかったので超シンプル&サンプルなhttpd(Webサーバ)を自作しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,http,sample,java">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日はひたすら執筆する予定です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さあて がんばるぞ～。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>上司がおたふく風邪にかかってしまいました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>上司は 当分 会社に来られないことになる予定。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>読み上げソフト欲しい…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>単純に読み上げソフトが欲しい。IBM ViaVoice for Windows Pro USB Version9
+日本語版(USBマイク付) \17,100 に興味深々。<BR>
+ボーナスが出たら よくよく考えてみます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>超簡単HTTPサーバの自作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Webブラウザが発信するリクエストヘッダが見たかったので、超簡単ウェブサーバを自作しました。たったこれだけの行数で
+Webサーバとして最低限の動作をします。(ほんとに最低の機能です)<BR>
+ただし、言うまでもないことですが、そもそも論として Webサーバ機能+αを実現したい場合には、Jakarta
+Tomcatなどのサーバソフトの利用が簡単で便利です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* TinyHttpd (for Socket Sample)
+* Copyright (C) 2002  Tosiki IGA
+*/
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class TinyHttpd {
+    public static final String SERVER_NAME = &quot;TinyHttpd(0.0.1)&quot;;
+    public static final String HTTP_VERSION = &quot;HTTP/1.0&quot;;
+
+    public static void main(String[] args) {
+        new TinyHttpd().process();
+    }
+
+    public void process() {
+        try {
+            System.out.println(SERVER_NAME + &quot;: Copyright (C) 2002 Tosiki IGA&quot;);
+            ServerSocket server = new ServerSocket(80);
+            System.out.println(&quot;port: &quot; + server.getLocalPort());
+            for (;;) {
+                Socket socket = server.accept();
+                new TinyHttpdThread(socket).start();
+            }
+        } catch (Exception ex) {
+            System.out.println(ex);
+            ex.printStackTrace();
+        }
+    }
+}
+
+class TinyHttpdThread extends Thread {
+    private Socket socket;
+    private String strCommand = null;
+    private String strFileName = null;
+
+    public TinyHttpdThread(Socket socket) {
+        this.socket = socket;
+    }
+
+    public void run() {
+        System.out.println(&quot;begin: &quot; + socket.toString());
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+
+            for (int iLine = 0;;iLine++) {
+                String strLine = reader.readLine();
+                if (strLine == null
+                        || strLine.length() == 0) {
+                    break;
+                }
+                if (iLine == 0) {
+                    StringTokenizer token = new StringTokenizer(strLine, &quot; &quot;);
+                    if (token.hasMoreTokens()) {
+                        strCommand = token.nextToken().toUpperCase();
+                    }
+                    if (token.hasMoreTokens()) {
+                        strFileName = token.nextToken();
+                    }
+                }
+                System.out.println(&quot;R:&quot; + strLine);
+            }
+
+            if (strCommand.equals(&quot;GET&quot;)) {
+                doGet(writer);
+            } else if (strCommand.equals(&quot;POST&quot;)) {
+                doPost(writer);
+            } else {
+                writeLine(TinyHttpd.HTTP_VERSION + &quot; 501 Not Implemented&quot;, writer);
+            }
+
+            writer.flush();
+            writer.close();
+            reader.close();
+            socket.close();
+        } catch (Exception ex) {
+            System.out.println(ex);
+            ex.printStackTrace();
+        }
+        System.out.println(&quot;end: &quot; + socket);
+    }
+
+    private void writeLine(String strLine, BufferedWriter writer)
+    throws IOException {
+        writer.write(strLine);
+        writer.newLine();
+        System.out.println(&quot;S:&quot; + strLine);
+    }
+
+    protected void doGet(BufferedWriter writer)
+    throws IOException {
+        if (true) {
+            writeLine(TinyHttpd.HTTP_VERSION + &quot; 200 OK&quot;, writer);
+            writeLine(&quot;Server &quot; + TinyHttpd.SERVER_NAME, writer);
+            writeLine(&quot;Content-type: text/html&quot;, writer);
+            writeLine(&quot;&quot;, writer);
+        }
+        writeLine(&quot;&lt;HTML lang=\&quot;ja\&quot;&gt;&quot;, writer);
+        writeLine(&quot;&lt;HEAD&gt;&lt;TITLE&gt;なんにもなしページ&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;, writer);
+        writeLine(&quot;&lt;BODY bgcolor=\&quot;#eeddcc\&quot;&gt;&lt;P&gt;なんにもなしページ。&lt;BR&gt;要求されたファイル名[&quot; + strFileName + &quot;]&lt;/P&gt;&lt;/BODY&gt;&quot;, writer);
+        writeLine(&quot;&lt;/HTML&gt;&quot;, writer);
+    }
+
+    protected void doPost(BufferedWriter writer)
+    throws IOException {
+        doGet(writer);
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これを超機能拡張していくと Tomcat みたいなソフトになる可能性はあります。(意味無いので
+誰もしないと思いますけれどもね)</P>
+<P><FONT color="#ff0000">2002.06.27 読者からツッコミ</FONT><BR>
+<CITE>Subject:  超簡単HTTPサーバの自作について<BR>
+いがぴょんさん<BR>
+はじめまして bataです。<BR>
+開発でブラウザーのリクエストヘッダーを調べる時に　Apache Axis のTCPモニターを使用しています。</CITE></P>
+<UL>
+  <LI><CITE>※org.apache.axis.utils.tcpmon <BR>
+  [replace-href:http://cvs.apache.org/viewcvs.cgi/~checkout~/xml-axis/java/docs/developers-guide.html#Debugging]</CITE>
+</UL>
+<P><CITE>簡易Proxy となるので、お手軽に使えるのですが…日本語対応していないので△です。<BR>
+では。<BR>
+----------------------------------------<BR>
+T.Kawabata</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+いろいろなソフトがあるものですね。勉強になります。<BR>
+Apache Axis は SOAP実装ですが、なるほどその開発にTCPヘッダー解析が必要になってくるのですね。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020618-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

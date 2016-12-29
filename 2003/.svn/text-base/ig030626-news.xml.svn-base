@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030626.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030626.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20057281,00.htm">
+    <title>Windows Server 2003日本語版発売：「Linuxは安くない」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20057281,00.htm</link>
+    <description>『Linuxは安くない』という点に関して、Microsoft社が説明してくれることは非常に嬉しいことです。Linuxはタダでは無いのです。利用するにしてもお金がかかるのです。少なくとも適切なサポートを受けるためには それ相応のコストがかかります。当然です。そうであるのに 『Linuxは無料』とか『フリーソフト(自由ソフト)は無料』などと間違ったイメージが先行している現状を打破するために マイクロソフト社ががんばってくれるのは これは素直に喜びます。ただ、究極のセキュリティや究極の安定性のためには 自由にできるソースコード付ソフトウェアが必要なのは確かです。ソースコードが提供されない、あるいは自由にコンパイルして再配布できない Windowsでは 究極のセキュリティや究極の安定性は実現できないと私は思っています。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20057321,00.htm">
+    <title>セキュリティ版「紺屋の白袴」：シマンテックのオンラインサービスに脆弱性</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20057321,00.htm</link>
+    <description>そもそも論として ActiveXのようなクライアントにインストールするタイプのモジュールは セキュリティ的に 常にリスクをはらんでいるのです。サンドボックス的なセキュリティ機能を併せ持った 少数のActiveXなモジュール (Acrobat Reader、JavaアプレットやFlashプレイヤーなど) を選択し、そしてそれを集中的に利用するように心がけなければ、思わぬところに セキュリティ的な脆弱性が産まれてしまうのです。とにかく ActiveXの類はインストールしてはならない、と私は常日頃から思っています。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/26/nebt_11.html">
+    <title>MSの次の標的はGoogle？</title>
+    <link>http://www.zdnet.co.jp/news/0306/26/nebt_11.html</link>
+    <description>Microsoftが 次の標的として Googleを捉えるのだとしたら、それは正道です。全く、そしてもっとも正しい着眼点です。例えば 現時点に於いて 私にとってのインターネットは Google検索エンジンそのものです。私にとっての2番目のポータルも やはりGoogleでしょう。一番イケてる検索エンジンを所有しているということは 非常なる力になります。まずそこで検索でしょうから。そしてそのジャンルを Microsoftが狙おうなどと言うのなら… とても正しい着眼点ではありますが、ぞっとします。Microsoftは資金も潤沢なだけに Googleの敵としては 強大最強ですね。</description>
+    <dc:date>2003-06-26T18:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/commons/fileupload/">
+    <title>Jakarta Commons FileUpload 1.0 リリース</title>
+    <link>http://jakarta.apache.org/commons/fileupload/</link>
+    <description>ファイルアップロードに関するオープンソースな実装。Jakarta Commons は ftpクライアントといい、今回の FileUploadといい、欲しいときにはとても必要になる小物が どんどんと揃ってきましたね。こういうオープンソースな小物ツールが多いのも Javaの特徴ですね。こういったツールのお陰で 私たちは開発がとても楽で安全になります。(そして もしバグっていても ソースコードを広げて修正できますものね！)</description>
+    <dc:date>2003-06-26T18:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20057861,00.htm">
+    <title>日本政府vs.コミュニティ：オープンソースの発展を目指す討論会</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20057861,00.htm</link>
+    <description>先の討論会の要約が出ています。</description>
+    <dc:date>2003-06-26T18:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/njbt_09.html">
+    <title>産総研、透明な太陽電池の試作に成功</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/njbt_09.html</link>
+    <description>発電する窓ガラスへの応用は大変期待できます。なんたって私はガラス屋さんがらみの会社に勤務しているものですから (笑)</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/njbt_12.html">
+    <title>メルコ、2980円の無線LANカード</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/njbt_12.html</link>
+    <description>IEEE 802.11bで \3,000.-を切る価格帯に突入してしまっているとは恐れ入ります。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030620/2/">
+    <title>「日本のJava開発者に“JDO”のよさを知ってほしい」</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030620/2/</link>
+    <description>私はJDBCのような 『原始的』APIが好きなので、上位層APIには興味湧きません。特にSQL文を自分でコントロールしないAPIで 今までロクなものを見たことがないので、全く興味湧きません。自動SQL生成のタグイは さっぱり がっくり・がっかりなのです。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030619/2/">
+    <title>Java発展を狙うSunの“超”積極策--その真意と死角を探る</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030619/2/</link>
+    <description>デスクトップでのJava流行のためには SWT取り込みが不可避だと私は考えています。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/tecs/002writexslt/02.html">
+    <title>XSLTスタイルシートを迷わず記述する6つのポイント</title>
+    <link>http://www.atmarkit.co.jp/fxml/tecs/002writexslt/02.html</link>
+    <description>XSLTの使い方を とりあえず知るために 良い情報だと思いました。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://store.yahoo.co.jp/yamagiwa-soft/ff-179pibc1079.html">
+    <title>ヤマギワソフト:名指揮者の軌跡 Vol.5 ノリトンのモーツァルト:交響曲第39番</title>
+    <link>http://store.yahoo.co.jp/yamagiwa-soft/ff-179pibc1079.html</link>
+    <description>神崎さんに影響受けました。ノリントンさんのDVD。聞いてみたい。買いたい。欲しい。妻と交渉の後購入したく思います。また、このシリーズのクライバーさんのDVDにも興味津々。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/25/epn30.html">
+    <title>パートナー各社が「Windows Server 2003」対応製品を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/25/epn30.html</link>
+    <description>サービスパックが出る出ない以前に、まず アプリケーションソフトが Windows Server 2003に対応していかなくてはならないのですね。Windows Server 2003が実際に利用されはじめるのは いつ頃のことになるのだろう？</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/25/xedj_beijing.html">
+    <title>［WSJ］北京市、Linuxの採用拡大へ</title>
+    <link>http://www.zdnet.co.jp/news/0306/25/xedj_beijing.html</link>
+    <description>お役所にLinuxという組み合わせのニュースが このごろ 増えてきていますね。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/20030624305.html">
+    <title>マクドナルド、食肉への抗生物質使用を段階的に廃止</title>
+    <link>http://www.hotwired.co.jp/news/news/20030624305.html</link>
+    <description>そもそも食肉に抗生物質を使うというのが 私には感覚的に許容できません。(そんなこともあり 有機農産物宅配を利用しているのですが…) 段階的に廃止するんじゃなくって さっさと廃止すれば良いし、人間向け以外の抗生物質についても 廃止すべきだと私は ふつうに思っています。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.lawson.co.jp/b_lawson/newsrelease/newsview/news_cprev.htm?serial=622">
+    <title>ローソン:顧客情報の流出について</title>
+    <link>http://www.lawson.co.jp/b_lawson/newsrelease/newsview/news_cprev.htm?serial=622</link>
+    <description>ローソンがカード会員の顧客情報を流出させてしまったそうです。個人情報保護って とっても大変そうですね。</description>
+    <dc:date>2003-06-26T18:47:52</dc:date>
+  </item>
+
+
+  <item rdf:about="http://www.tepco.co.jp/setsuden/corp-com/forecast/index-j.html">
+    <title>TEPCO: でんき予報</title>
+    <link>http://www.tepco.co.jp/setsuden/corp-com/forecast/index-j.html</link>
+    <description>本格運用開始されていました。早速見ました。… 夏が怖い。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/06/25/644536-000.html">
+    <title>日本IBM、中小システム向けに低価格版DB2を発表</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/06/25/644536-000.html</link>
+    <description>廉価版で \1,071,000.-なのだそうな。… 価格面というところだけでも PostgreSQLを選択するって気持ちも ちょっとわかってきてしまいそうです…。</description>
+    <dc:date>2003-06-26T09:13:48</dc:date>
+  </item>
+
+</rdf:RDF>

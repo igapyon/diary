@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011218.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011218.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-18</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://jakarta.apache.org/jetspeed/site/index.html"/>
+        <rdf:li resource="http://jakarta.apache.org/bcel/"/>
+        <rdf:li resource="http://jakarta.apache.org/builds/jakarta-avalon/release/framework/"/>
+        <rdf:li resource="http://www.forest.impress.co.jp/article/2001/12/14/netscape621j.html"/>
+        <rdf:li resource="http://java.sun.com/products/archive/j2se/1.3.0_05/index.html"/>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/12/14/632069-000.html"/>
+        <rdf:li resource="http://java.sun.com/products/j2mewtoolkit/ja_download.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/jetspeed/site/index.html">
+    <title>Jakarta Jetspeed 1.3a2リリース</title>
+    <link>http://jakarta.apache.org/jetspeed/site/index.html</link>
+    <description>ポータルに興味を持っている私は要チェック、なのですが忙しいので手が付けられません。</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/bcel/">
+    <title>Jakarta BCEL 5.0 リリース</title>
+    <link>http://jakarta.apache.org/bcel/</link>
+    <description>Javaバイトコード操作ライブラリの新版。これも興味あり。</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/builds/jakarta-avalon/release/framework/">
+    <title>Jakarta Avalon Framework 4.1 リリース</title>
+    <link>http://jakarta.apache.org/builds/jakarta-avalon/release/framework/</link>
+    <description>忙しすぎて 全くフォローできず (苦笑)</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+  <item rdf:about="http://www.forest.impress.co.jp/article/2001/12/14/netscape621j.html">
+    <title>Netscape 6.2.1日本語版 リリース</title>
+    <link>http://www.forest.impress.co.jp/article/2001/12/14/netscape621j.html</link>
+    <description>じわじわと Netscape 6.xが 『良さそう』なソフトに成長していくのであった。</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+  <item rdf:about="http://java.sun.com/products/archive/j2se/1.3.0_05/index.html">
+    <title>SUN Java 2 SDK SE 1.3.0_05 リリース</title>
+    <link>http://java.sun.com/products/archive/j2se/1.3.0_05/index.html</link>
+    <description>1.3.0系も 小刻みにバージョンアップしていっていますね。ちなみに私は 1.3.1系を愛用してます。</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/12/14/632069-000.html">
+    <title>『Kondara MNU/Linux 2.1』登場</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/12/14/632069-000.html</link>
+    <description>xfs, jfs対応などに魅力を感じます。雑誌付録CD-ROMなど入手できたら、インストール体験してみたく思います。</description>
+    <dc:date>2001-12-18T19:25:26</dc:date>
+  </item>
+  <item rdf:about="http://java.sun.com/products/j2mewtoolkit/ja_download.html">
+    <title>J2ME Wireless Toolkit 1.0.3 日本語版</title>
+    <link>http://java.sun.com/products/j2mewtoolkit/ja_download.html</link>
+    <description>おおっ。日本語版 J2ME Wireless Toolkit 1.0.3 リリースですかっ。暇があれば遊びたい (苦笑)</description>
+    <dc:date>2001-12-18T19:25:26</dc:date>
+  </item>
+
+</rdf:RDF>

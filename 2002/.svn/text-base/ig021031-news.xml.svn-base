@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021031.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021031.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-31</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/29/ne00_linux.html">
+    <title>成熟へ向かうLinux開発、カーネル2.6は「来年第2四半期」</title>
+    <link>http://www.zdnet.co.jp/news/0210/29/ne00_linux.html</link>
+    <description>Linuxも次期リリースのスケジュールが見えてきていますねぇ。</description>
+    <dc:date>2002-10-31T10:11:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.gihyo.co.jp/books/syoseki.php/4-7741-1608-4">
+    <title>「基本情報技術試験らくらく突破　Java」</title>
+    <link>http://www.gihyo.co.jp/books/syoseki.php/4-7741-1608-4</link>
+    <description>私の尊敬するライターの一人 菊田英明さんが書かれた基本情報技術試験対策用のJava本</description>
+    <dc:date>2002-10-31T10:11:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/31/nebt_11.html">
+    <title>MS Office新版、旧Windowsには対応せず</title>
+    <link>http://www.zdnet.co.jp/news/0210/31/nebt_11.html</link>
+    <description>Windows 2000 と Windows XP のみが対応OSになるんですって。すごいですね。</description>
+    <dc:date>2002-10-31T10:25:10</dc:date>
+  </item>
+
+</rdf:RDF>

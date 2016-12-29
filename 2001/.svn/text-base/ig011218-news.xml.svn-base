@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011218.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011218.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-18</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0112/18/08.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/18/b_1217_05.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/18/b_1217_01.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/12/b_1211_08.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0112/18/08.html">
+    <title>東芝，汎用DRAM製造から撤退　米拠点をMicronに売却へ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0112/18/08.html</link>
+    <description>メモリメーカーって 一世を風靡しましたが、、、世の流れですね。</description>
+    <dc:date>2001-12-18T19:25:26</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/18/b_1217_05.html">
+    <title>組み込みLinux大手のLineoがMS発言は「事実と異なる」</title>
+    <link>http://www.zdnet.co.jp/news/0112/18/b_1217_05.html</link>
+    <description>比較広告への反論なのだそうです。</description>
+    <dc:date>2001-12-18T19:25:26</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/18/b_1217_01.html">
+    <title>Windows 2000 Professionalの引退スケジュールが発表されていた</title>
+    <link>http://www.zdnet.co.jp/news/0112/18/b_1217_01.html</link>
+    <description>2004.03.31でWindows 2000が無くなるってのは…。それはちょっと寿命短すぎですよね。それまでに Windows XPが安定してくるとも思えないですものねっ (苦笑)</description>
+    <dc:date>2001-12-18T19:25:26</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/12/b_1211_08.html">
+    <title>BEA会長，「.NETはJavaに負けた」</title>
+    <link>http://www.zdnet.co.jp/news/0112/12/b_1211_08.html</link>
+    <description>負けたも何も そもそも .NETって スタート地点に立っているのですか？</description>
+    <dc:date>2001-12-18T16:00:28</dc:date>
+  </item>
+
+</rdf:RDF>

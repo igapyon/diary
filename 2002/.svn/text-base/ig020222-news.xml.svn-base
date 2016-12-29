@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020222.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020222.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/22/b_0221_01.html">
+    <title>Microsoft，Windows Media Playerのプライバシー方針を修正</title>
+    <link>http://www.zdnet.co.jp/news/0202/22/b_0221_01.html</link>
+    <description>Microsoft Windows Media PlayerでDVDを再生すると、何のソフトを再生したかがマイクロソフトのサーバに報告されるという、とんでもないプライバシー侵害機能があるのだそうな。それはマズイだろうと思うのですが…。</description>
+    <dc:date>2002-02-28T06:30:45</dc:date>
+  </item>
+</rdf:RDF>

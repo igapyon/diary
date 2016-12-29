@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030403.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030403.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.eclipse.org/">
+    <title>Eclipse.org 2.1 リリース</title>
+    <link>http://www.eclipse.org/</link>
+    <description>現在最もホットな Java統合開発環境の最新版がリリースです。ダウンロードは大変混み合っている模様です。雑誌の付録CDに添付されるのを待つのが無難かも…</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20030326/3.html">
+    <title>NEC が Linux ソリューションを強化、全国拠点にサポートセンターを設置</title>
+    <link>http://japan.internet.com/linuxtoday/20030326/3.html</link>
+    <description>この記事の雰囲気だと、公共系主導でLinuxが活躍しているようですね。EWS4800の後釜にHP-UXを投入せずにLinuxを投入する、という向きでもあるのでしょうか？ 興味深いです。(勘ぐりすぎかしら)</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030326/1/index.shtml">
+    <title>NEC役員が初めてLinuxへの注力を公式発表</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030326/1/index.shtml</link>
+    <description>実際の所導入実績って 結構重要だと思います。Linuxビジネスの際にハードウェア主導とはならずにソフトウェア・あるいはソリューションに重心を置いたサービスが享受できるのであれば、NECからLinuxサービスを受けるメリットは十二分にあると私は思います。</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0303/27/epn01.html">
+    <title>NEC、実績を元にLinuxで200億規模を目指す</title>
+    <link>http://www.zdnet.co.jp/enterprise/0303/27/epn01.html</link>
+    <description>2003年はLinuxがビジネスシーンで大ブレイクするって予感がします。楽しみ。</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/238836">
+    <title>米Macromedia、「Flash」サーバー・ソフト新版</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/238836</link>
+    <description>どうしてもサーバーサイド・ソフトウェアが売りたいんですねぇ…</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/238747">
+    <title>国内企業のオープン・ソース・ソフト導入率は34.6％</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/238747</link>
+    <description>この調査によると 今後は基幹系でのオープンソース導入がすすむんですって。</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+  <item rdf:about="http://ascii24.com/news/i/tech/article/2003/03/31/642800-000.html">
+    <title>【特別企画】特別研究シリーズ：Banias＝Pentium Mはなぜ速いのか？</title>
+    <link>http://ascii24.com/news/i/tech/article/2003/03/31/642800-000.html</link>
+    <description>Pentium M って クロック数の割に、ずいぶん高速だったんですね。ぜんぜん知りませんでした。</description>
+    <dc:date>2003-04-03T10:21:01</dc:date>
+  </item>
+
+</rdf:RDF>

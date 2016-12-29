@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030601.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030601.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.1/ja/index.html">
+    <title>Sun Java 2 SDK, Standard Edition, 1.4.1_03 リリース</title>
+    <link>http://java.sun.com/j2se/1.4.1/ja/index.html</link>
+    <description>J2SEの最新版である1.4.1に最新リビジョンがリリースです。『4692867:ネットワーク接続が復旧しても UnknowHostException が発生する』は かなり重要かも。『4787943:-client オプションを指定して long データのシフト演算を実行すると、間違った結果が得られる』は嫌なバグですね。… バグがまだまだ多いのですね。1.4.1系は まだ枯れる時期は遠そうですね。困ったものだ。もしかして 1.3.x系も 同じバグが埋没しているのやも…って考えると もっと頭が痛くなります。なににせよ 新機能は置いておいていいので、はやくバグつぶしだけを考えたリビジョンアップを繰り返すことに専念して 安心してバージョンアップできるような 安定したバージョンを出してほしいものです。(バグをつまびらかに公開しているその姿勢そのものは大いに評価しているんですよ。そして定期リビジョンアップで 可能な限りFIXしていっているので、だからJavaはとても信頼できる実行環境なのです。私が言いたいのはは 1.4.1系を 『いつ信じたら良いのか？』ということなんです。その上、1.4.1で導入された 一部の日本語エンコードマッピング変更の影響も 私はまだ実験していませんことですし)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+
+</rdf:RDF>

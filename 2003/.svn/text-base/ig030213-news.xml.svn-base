@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030213.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030213.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/12/nebt_28.html">
+    <title>企業の姿勢変化、IT業界の“常識”に疑いの目</title>
+    <link>http://www.zdnet.co.jp/news/0302/12/nebt_28.html</link>
+    <description>「PCの寿命は3年」とか、「常に最新のOSを導入する必要」なんてのは 追従する意味なんて全然無いんだ ということに 企業が気がつき始めている という旨の記事。特に ここ最近のパソコンのスペックは 充分に高いので 3年でリプレース なんてことを行わないでも実用に耐えるように変わってきている、と私も思います。(ただし ソフトウェア開発者を行っている限り 1～2年でパソコンをリプレースする必要がある という別の側面もあることは確かです)</description>
+    <dc:date>2003-02-13T08:44:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/12/nebt_33.html">
+    <title>MS、.NET関連で広範な特許申請</title>
+    <link>http://www.zdnet.co.jp/news/0302/12/nebt_33.html</link>
+    <description>Microsoft社が.NET関連で ずんどこ特許を出すのは ごく自然な動きですよね。</description>
+    <dc:date>2003-02-13T08:44:23</dc:date>
+  </item>
+
+</rdf:RDF>

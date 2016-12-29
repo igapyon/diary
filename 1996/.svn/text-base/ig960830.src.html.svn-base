@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>1996/08/30 日記: いがぴょんの日記...手前味噌、家庭内LAN</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>いがぴょんの日記...手前味噌、家庭内LAN</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はじめに</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>最近のパソコン関連のハードウェア・ソフトウェアの環境はどんどん便利になってきています。それに呼応するかのように、価格帯が値ごろ感豊かになってきています。以前は大変高価だったLAN機器も、例に漏れず低価格になってきました。ある機会をきっかけに、長年の夢の家庭内LANが構築できました。内容自身は私事で恐縮なのですが(^^;)、この場所を借りて紹介させて頂きます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LANに至った経緯</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私の妻の生業がら、携帯端末を購入することになりました。検討した結果、Toshibaから発売されている、とても軽い携帯端末(Libretto20)を購入することになりました。大変軽量(840g)な上にWidnows95が動作するので、携帯するには最適です。（Windows95の動作する、最も軽量な携帯端末を選択しました）。反面、周辺機器増設が難しいのです。この問題点を機会として利用し、我が家で家庭内LANを敷設・利用する事になりました。なお、自宅の機器構成はこちらです。LAN敷設以前から、主力PCはWindowsNT
+Server3.51であったので、LAN敷設に一層はずみがつきました。</P>
+<P>なお、一般論としては、IrDAやWindows95ケーブル接続等があります。これらの方法も検討したのですが、簡便さと速度からLANにすることにしました。ただし、一般の方は、IrDAやWindows95ケーブル接続が良いのでしょうね(^^)</P>
+<P>＃ただし、LANで構成すれば、Windows95から透過で利用できるのです。大変便利です。 </P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LAN機器構成と敷設の経過</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>値段と若干の将来性から、WindowsNT Serverには、100base-TのLANボードを購入しました。Libretto20には、マルチI/OのPCMCIAカードをも考慮したのですが、危険性を省みてあきらめました。（注意：Libretto20には、PCMCIA
+TYPE 2が1スロットしかありません。）面白いことに、外付けFDDはPCMCIAを利用するのです。LANのPCMCIAのドライバは予めHDDにコピーしておきました。なお、現在でも不明なのが、Windows95のインストールの際に、FDDがどのように動作するかです(^^;)。摩訶不思議ですね(^^)。</P>
+<P>なお、作業前にLibretto20のバックアップを行いました。メニューの中からバックアップを選択すると、FDDにHDD内のシステム等をバックアップするのです。FDDを60枚程度抜き差ししました。大変な手間と時間が必要でした(^_^;)。</P>
+<P>なお、自宅LANは、利用者と利用時間が限られるので、スイッチ付き電源タップにてWindowsNT ServerとHUBとが電源連動するように構築しました。（ただし、外からPPPする際には連続運用になるのですが、、、）</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LAN導入による変化</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>LAN以前でも利用可能だったこと</P>
+<UL>
+  <LI>WWW環境<BR>
+  NIFTY-Serve の HYPER ROAD を用いて、ダイアルアップPPPにて接続しています。
+  <LI>Microsoft インターネットエクスプローラ 1.5
+</UL>
+<P>LAN以降に、新たに利用可能になったこと。</P>
+<UL>
+  <LI>LANにより利用簡便性が大変高いことになります。LANの転送速度は大変高速で、しかも自宅LANなのでコリジョンが発生しませんq(^^;)P
+  <LI>Windows95ブリーフケースを用いて、ファイル同期更新機能が利用可能になりました。
+  <LI>ブリーフケースの操作はとても簡単で便利なので、びっくりしました。
+  <LI>Libretto20から、WindowsNT Server3.51に接続されている各種増設機機が利用可能になりました。
+  <UL>
+    <LI>NTに接続されているCANON BJ-10v
+    <LI>NTに接続されているCD-ROM
+    <LI>NTに接続されている HDD
+  </UL>
+</UL>
+<P>LAN敷設により、Libretto20に10base-Tケーブルを接続するだけで、快適に印刷・CD-ROMの利用・他のＰＣで作成・編集したファイルの同期更新が可能になるのです。<BR>
+# これをLANを利用せずに構築すると、利用時の手間と購入周辺機器の金額の増加がおこります。 </P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今後の計画</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Libretto20 + 携帯電話 で、モービル環境を完成することを計画しています。これにより、出先からのメール・NIFTY-Serve・WWWが可能になります。</P>
+<P>Libretto20 + 自宅NT Serverのダイアルアップルーティングを用いて、 WWW環境を構築することを計画しています。この場合、WindowsNTはルータとしてダイアルアップネットワークしてWindows95からWWWするようなスタイルになります。<BR>
+屋外からの、自宅NotesDBとのレプリケーションを計画しています。現在、DBの選定に迷っているのですが、多分LotusNotesになるでしょう(^^)。こちらと、出先のLibretto20とでNotesDBのレプリケーションができれば面白いですね(^^)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>おわりに</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>自宅にLANを敷設し、大変便利になりました。<BR>
+長年の家庭内LANですが、思ったよりあっけなく終わりました。純粋に作業時間だけで終了してしまいました。歯ごたえが欲しかったです。ただし、私自身が普段からLAN環境を作成したり運用したりしているので大変簡単だったのだともおもいます。一般の方が家庭内LANを構築する時代は、まだ訪れていないのだとも思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>機械構成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>自宅の機械構成は、退役パソコンを含めると、下記のような陣容になります。<BR>
+<BR>
+なお、構成はLAN敷設後の姿になっています。</P>
+<UL>
+  <LI>Toshiba Libretto20
+  <UL>
+    <LI>CPU Intel 486 DX4 75 MHz 相当
+    <LI>メモリ 20 MB (基本8 MB + 増設12 MB)
+    <LI>HDD (IDE) 270 MB
+    <LI>FDD (PCMCIA) 購入しました。
+    <LI>OS Microsoft Windows95
+    <LI>LAN CONTEC C-NET(PC)C
+    <LI>概要 今回新規購入した 850g の携帯パソコン 妻の所有物<BR>
+    → ゆえに、一太郎マシン(^_^;)
+  </UL>
+  <LI>JCS Vintage P5-90
+  <UL>
+    <LI>CPU Intel Pentium 90 MHz
+    <LI>メモリ 32 MB
+    <LI>HDD (IDE) 850 MB
+    <LI>SCSI Adaptec AHA-2940
+    <LI>CD-ROM Toshiba
+    <LI>OS Microsoft WindowsNT Server3.51
+    <LI>LAN CONTEC C-NET(PI)-100X
+    <LI>概要 自宅の主力ＰＣ 妻の所有物<BR>
+    → ゆえに、一太郎マシン(^_^;)
+  </UL>
+  <LI>NEC PC-9801BA3
+  <UL>
+    <LI>CPU Intel 486 DX2 66 MHz
+    <LI>メモリ 8 MB
+    <LI>HDD (IDE) 220 MB
+    <LI>OS Microsoft Windows95
+    <LI>概要 私のＷＷＷブラウズマシン
+  </UL>
+  <LI>EPSON PC386 Note
+  <UL>
+    <LI>概要 退役
+  </UL>
+  <LI>NEC PC-8001<BR>
+  概要 退役
+  <LI>LAN機器
+  <UL>
+    <LI>アライドテレシス4ポートHUB
+    <LI>カテゴリー5 10base-T ケーブルx 2
+  </UL>
+</UL>
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

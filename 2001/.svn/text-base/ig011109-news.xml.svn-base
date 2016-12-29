@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011109.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011109.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-09</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/help/howto/security/j06/index.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/06/01110688.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/08/01110805.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fsecurity/rensai/pki09/pki01.html"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153421"/>
+        <rdf:li resource="http://japan.cnet.com/News/Infostand/Item/2001-1108-J-2.html"/>
+        <rdf:li resource="http://www.hotwired.co.jp/news/news/20011108301.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/08/toshiba.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/08/nifty.html"/>
+        <rdf:li resource="http://www.asahi.com/business/update/1108/021.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/help/howto/security/j06/index.html">
+    <title>ネットワークの盗聴は可能か</title>
+    <link>http://www.zdnet.co.jp/help/howto/security/j06/index.html</link>
+    <description>おおっそうか、『ネットワークは盗聴できるんですよ。丸見えなんですよ』っていうのを一般の方々はご存じ無いこともあるんですね。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/06/01110688.html">
+    <title>Gartner Column：第21回 マイクロソフトのセキュリティ対応についてさらに語ろう</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/06/01110688.html</link>
+    <description>前回の記事の続編 (と私は感じた)。この記事も シャープで良い感じです。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/08/01110805.html">
+    <title>SAPがサンのLiberty Allianceに参加へ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/08/01110805.html</link>
+    <description>ビジネス的な技術判断って 難しいですよね。どちらを取るかで企業の死活が左右されるんですよね。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/pki09/pki01.html">
+    <title>最終回　キーワードで学ぶ電子政府 ～電子政府とPKIの関係を整理しよう</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/pki09/pki01.html</link>
+    <description>かなり良さそうな記事。私のようなPKI素人でも 何となくわかったような気がします。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153421">
+    <title>米ブロードコムのSSLアダプタがRed Hat LinuxにPnPで導入可能に</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153421</link>
+    <description>プラグ＆プレイで SSLアダプタが使えるっていうのは すっごく良いですねっ。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/News/Infostand/Item/2001-1108-J-2.html">
+    <title>カシオ、『FIVA』にWindows/Linuxデュアルブート新モデル</title>
+    <link>http://japan.cnet.com/News/Infostand/Item/2001-1108-J-2.html</link>
+    <description>ほほう。デュアルブートマシンですか…。そういうマシンが 出てくる時代なんですね。Linuxとして Midori Linux搭載ってのも印象的です。Red Hat とかじゃあ無いんですね。でも Midori Linuxがクルーソーの省電力機能『LongRun』未対応っていうクダリが 不思議です。</description>
+    <dc:date>2001-11-09T08:18:54</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/20011108301.html">
+    <title>ブラウザーが暴走？ IEセキュリティーホールの新しい罠</title>
+    <link>http://www.hotwired.co.jp/news/news/20011108301.html</link>
+    <description>セキュリティホール、ネットワーク時代の素朴な迷惑ですねぇ。</description>
+    <dc:date>2001-11-09T08:02:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/08/toshiba.html">
+    <title>“TVで見たあのお店は？”東芝が新情報サイト</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/08/toshiba.html</link>
+    <description>うまいっ。このビジネス成功しそうな予感を覚えます。</description>
+    <dc:date>2001-11-09T08:47:17</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/08/nifty.html">
+    <title>@niftyが宿泊予約サイトの横断検索サービス</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/08/nifty.html</link>
+    <description>ニフティが手がけるだけに、そこそこ繁盛しそうに思います。しかもこれ自身は単なるポータルで、バックエンド側には 複数の予約サイトが構えているという塩梅です。ただし 複数サイト横断だけに 単純な使い勝手は いまいちかなぁ…って思ってしまいました。(仕組構造上やむを得ないのでしょうけれども)</description>
+    <dc:date>2001-11-09T08:47:17</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/business/update/1108/021.html">
+    <title>９月の携帯電話出荷大幅ダウン　初の２ケタ割れ</title>
+    <link>http://www.asahi.com/business/update/1108/021.html</link>
+    <description>がんがん節操無く買い換えるっていう現象そのもののほうが異常だったのですから、これは正常化プロセスの一つの経過なのでしょう。</description>
+    <dc:date>2001-11-09T08:47:17</dc:date>
+  </item>
+</rdf:RDF>

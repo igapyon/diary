@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021102.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021102.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://ringonoki.net/sub/anti.html">
+    <title>アンチウィルス検出力調査</title>
+    <link>http://ringonoki.net/sub/anti.html</link>
+    <description>フリーソフトのウイルス検出力調査なのだそうです。</description>
+    <dc:date>2002-11-04T20:32:52</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/research/20021030/1.html">
+    <title>コピーコントロール CD、「買わない」が３割</title>
+    <link>http://japan.internet.com/research/20021030/1.html</link>
+    <description>コピーコントロールCDだから買わない人も多いでしょうね。</description>
+    <dc:date>2002-11-04T20:32:52</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20021017/1/index.shtml">
+    <title>「オープンソースで町おこし」，北海道・伊達市議の挑戦</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20021017/1/index.shtml</link>
+    <description>SRAやNTTコムウェアなどが応援しているようで 成功が期待できます。</description>
+    <dc:date>2002-11-04T20:32:52</dc:date>
+  </item>
+
+</rdf:RDF>

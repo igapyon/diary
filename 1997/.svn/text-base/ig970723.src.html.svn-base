@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>1997/07/23 日記: CList・CArrayを挿入ソートするライブラリ (関数テンプレート編)</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P align="JUSTIFY"><FONT FACE="ＭＳ 明朝" LANG="JA">関数テンプレートを利用して改良してみました。関数テンプレートって、すっごく便利ですね(^^) 今後どんどん活用しようと思いました。関数テンプレートを使って作成したライブラリを、下記に添付します。</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>// 挿入ソート関数テンプレートライブラリ for MFC
+//
+// 作成 (1997/07/22) by t.iga
+
+#ifndef _BBSORT_H_
+#define _BBSORT_H_
+
+
+
+// CListのアイテムを挿入ソートします。
+template &lt;class TYPE&gt;
+void funcInsertSortCList(
+        CList&lt;TYPE,TYPE&gt;* plistTest,
+        int (__cdecl *compare)(const void *elem1,const void *elem2))
+{
+        // 挿入ソートの注目要素
+        TYPE keyitem;
+
+        for(POSITION posLoopOut=plistTest-&gt;GetHeadPosition();
+                posLoopOut;
+                plistTest-&gt;GetNext(posLoopOut))
+        {
+                // 挿入ソートの注目要素を取り出します。
+                keyitem=plistTest-&gt;GetAt(posLoopOut);
+
+                POSITION posPrev=posLoopOut;
+                POSITION posLoopIn=posLoopOut;
+                for(plistTest-&gt;GetPrev(posLoopIn);
+                        posLoopIn;
+                        plistTest-&gt;GetPrev(posLoopIn))
+                {
+                        TYPE&amp; lookitem=plistTest-&gt;GetAt(posLoopIn);
+
+                        // 比較を行います。
+                        if(compare(&amp;lookitem,&amp;keyitem)&lt;=0)
+                        {
+                                break;
+                        }
+
+                        // 注目要素より大きいものを、右に移動します。
+                        plistTest-&gt;GetAt(posPrev)=lookitem;
+
+                        // 以前のポジションを記憶しておきます。
+                        posPrev=posLoopIn;
+                }
+
+                // 挿入ソートの注目要素を格納します。
+                plistTest-&gt;GetAt(posPrev)=keyitem;
+        }
+}
+
+
+
+// CArrayのアイテムを挿入ソートします。
+template &lt;class TYPE&gt;
+void funcInsertSortCArray(
+        CArray&lt;TYPE,TYPE&gt;* parrayTest,
+        int (__cdecl *compare)(const void *elem1,const void *elem2))
+{
+        int iMaxCount=parrayTest-&gt;GetSize();
+
+        // 挿入ソートの注目要素
+        TYPE keyitem;
+
+        for(int iLoopOut=1;iLoopOut&lt;iMaxCount;iLoopOut++)
+        {
+                // 挿入ソートの注目要素を取り出します。
+                keyitem=(*parrayTest)[iLoopOut];
+
+                for(int iLoopIn=iLoopOut-1;iLoopIn&gt;=0;iLoopIn--)
+                {
+                        // 比較を行います。
+                        if(compare(&amp;((*parrayTest)[iLoopIn]),&amp;keyitem)&lt;=0)
+                        {
+                                break;
+                        }
+
+                        // 注目要素より大きいものを、右に移動します。
+                        (*parrayTest)[iLoopIn+1]=(*parrayTest)[iLoopIn];
+                }
+
+                // 挿入ソートの注目要素を格納します。
+                (*parrayTest)[iLoopIn+1]=keyitem;
+        }
+}
+
+
+
+#endif _BBSORT_H_</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>// CList
+#include &lt;afxtempl.h&gt;
+
+#include &quot;bbsort.h&quot;
+
+typedef struct tagTESTITEM
+{
+        int m_iA;
+        long m_lB;
+}TestItem;
+
+
+
+// 比較関数：qsort()の場合と ほぼ同様の実装になっています。
+int __cdecl compareFunc(const void *elem1, const void *elem2 )
+{
+        TestItem* pElem1=(TestItem*)elem1;
+        TestItem* pElem2=(TestItem*)elem2;
+        if(pElem1-&gt;m_lB&gt;pElem2-&gt;m_lB)
+        {
+                return 1;
+        }
+        return (-1);
+}
+
+
+
+void CMainFrame::OnTestTestgo() 
+{
+        // TODO: この位置にコマンド ハンドラ用のコードを追加してください
+        
+        CList&lt;TestItem,TestItem&gt; listTest;
+        TestItem test;
+        test.m_lB=1;
+        listTest.AddTail(test);
+        test.m_lB=3;
+        listTest.AddTail(test);
+        test.m_lB=5;
+        listTest.AddTail(test);
+        test.m_lB=6;
+        listTest.AddTail(test);
+        test.m_lB=4;
+        listTest.AddTail(test);
+        test.m_lB=2;
+        listTest.AddTail(test);
+
+        funcInsertSortCList(&amp;listTest,compareFunc);
+
+        for(POSITION posLoop=listTest.GetHeadPosition();
+                posLoop;
+                listTest.GetNext(posLoop))
+        {
+                TestItem&amp; item=listTest.GetAt(posLoop);
+                CString strFormat;
+                strFormat.Format(&quot;%ld&quot;,item.m_lB);
+                MessageBox(strFormat);
+        }
+}
+
+
+
+void CMainFrame::OnTestTestgo2() 
+{
+        // TODO: この位置にコマンド ハンドラ用のコードを追加してください
+
+        CArray&lt;TestItem,TestItem&gt; arrayTest;
+        TestItem test;
+        test.m_lB=1;
+        arrayTest.Add(test);
+        test.m_lB=3;
+        arrayTest.Add(test);
+        test.m_lB=5;
+        arrayTest.Add(test);
+        test.m_lB=6;
+        arrayTest.Add(test);
+        test.m_lB=4;
+        arrayTest.Add(test);
+        test.m_lB=2;
+        arrayTest.Add(test);
+
+        funcInsertSortCArray(&amp;arrayTest,compareFunc);
+
+        for(long lLoop=0;
+                lLoop&lt;arrayTest.GetSize();
+        lLoop++)
+        {
+                CString strFormat;
+                strFormat.Format(&quot;%ld&quot;,arrayTest[lLoop].m_lB);
+                MessageBox(strFormat);
+        }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

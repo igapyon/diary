@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020322.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020322.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-22T08:22:10</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/22/b_0321_12.html">
+    <title>PS3開発，力点はグリッドコンピューティング</title>
+    <link>http://www.zdnet.co.jp/news/0203/22/b_0321_12.html</link>
+    <description>ゲーム専用機も分散処理の時代なんでしょうか…</description>
+    <dc:date>2002-03-22T14:49:41</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/22/b_0321_03.html">
+    <title>Javaアプリケーションサーバ市場，IBMがBEAと同率首位に</title>
+    <link>http://www.zdnet.co.jp/news/0203/22/b_0321_03.html</link>
+    <description>IBMとBEAで34%ずつのシェアなのだそうです。数字だけ見ていると 両プロダクトにてほぼ独占の感が…。</description>
+    <dc:date>2002-03-22T14:49:41</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/21/b_0320_19.html">
+    <title>Oracleと顧客の間で料金論争</title>
+    <link>http://www.zdnet.co.jp/news/0203/21/b_0320_19.html</link>
+    <description>バッチ処理の『ユーザ数』をどのようにカウントするかという問題。</description>
+    <dc:date>2002-03-22T14:49:41</dc:date>
+  </item>
+
+</rdf:RDF>

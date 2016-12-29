@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/15 日記: Apache Xalan-Java 2.3.0リリース</TITLE>
+<META name="DESCRIPTION" content="Xalan-Javaも地道にこつこつリビジョンアップしていっています。なんたって J2SE 1.4 の一部ですものねぇ。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Xalan-Java 2.3.0リリースについて、読者の方からツッコミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2002/02/15</FONT> 石神覚司さんからツッコミ<BR>
+<CITE>久々に投稿します。<BR>
+ふと思ったのですが、XalanってJ2SE 1.4のrt.jarに含まれているようなのですが、</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://java.sun.com/j2se/1.4/ja/docs/ja/tooldocs/findingclasses.html]</CITE>
+</UL>
+<P><CITE>を見ても分かるようにブートストラップクラスって一番最初に参照されるクラスパスだと思っていました。ってことは「バージョンアップしたXalanを使ってみよう!!」って時にJDK1.4では、どうすりゃ良いのでしょうかね？<BR>
+XSLTInfo.propertiesを見てみると、J2SE 1.4にはXalan-J 2.2.D11が含まれてるようですけど、Xalan-J
+2.3.0が出たならそれを使いたいなぁと思ったものですから。。。<BR>
+少なくとも、Xalan-J 2.3.0をダウンロードして、以下を実行したのですが、</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>&gt; java -cp xalan.jar org.apache.xalan.Version<BR>
+      Xalan Java 2.2.D11</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>と表示されてしまいました。。。もちろんJDK1.3相当で行えば、</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>&gt; java -cp xalan.jar org.apache.xalan.Version<BR>
+      Xalan Java 2.3.0</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>と表示してくれます。なんか簡単にXalan-J 2.3.0を使う設定が J2SE 1.4でできる気がするのですが、どうやってやるのでしょうかね？<BR>
+＃これができないと、TomcatのlibディレクトリにXalanを入れても J2SE 1.4付属のXalanを読みにいってしまうのかなぁ？とかも思ってみました。でも、これはなんかはずしてるかも。<BR>
+---<BR>
+石神 覚司(Satoshi Ishigami)</CITE></P>
+<P><FONT color="#ff0000">2002/02/15</FONT> 石神覚司さんから自己レス<BR>
+<CITE>自己レスです。<BR>
+バグパレードを見てみたところ同様の投稿がいくつかありました。</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://developer.java.sun.com/developer/bugParade/bugs/4624775.html]</CITE>
+  <LI><CITE>[replace-href:http://developer.java.sun.com/developer/bugParade/bugs/4634803.html]</CITE>
+  <LI>
+</UL>
+<P><CITE>BUG ID # 4624775 から引用<BR>
+| See the Endorsed Standards Mechanism in the JDK 1.4 documentation.<BR>
+<BR>
+となっておりましたが、なんと、このドキュメントは、未だ日本語版J2SE 1.4ドキュメントには含まれていませんでした
+(ベータ版だからしかたないですが)。英語版は下記で見ることができます。</CITE></P>
+<UL>
+  <LI><CITE>Endorsed Standards Override Mechanism<BR>
+  [replace-href:http://java.sun.com/j2se/1.4/docs/guide/standards/index.html]</CITE>
+</UL>
+<P><CITE>本ドキュメントによると、</CITE></P>
+<OL>
+  <LI><CITE>-Djava.endorsed.dirs=&lt;xalan.jarの格納ディレクトリ&gt;</CITE>
+  <LI><CITE>&lt;java-home&gt;\lib\endorsed [Win32]<BR>
+  &lt;java-home&gt;/lib/endorsed [Solaris or Linux]<BR>
+  ディレクトリ内にXalan2.3.0のxalan.jarを入れる</CITE>
+</OL>
+<P><CITE>とすることにより、Xalan 2.3.0 を使用することができるようです。<BR>
+＃もちろん、Xalan だけでなく、他の内部標準APIも置き換える事が可能です。<BR>
+<BR>
+j2se1.4\jre\lib\endorsedディレクトリを作成し、そこにxalan.jar を入れてみたところ、見事、</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>&gt; java org.apache.xalan.Version<BR>
+      Xalan Java 2.3.0</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>と表示してくれました。また、カレントディレクトリにxalan.jarを置き</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>&gt; java -Djava.endorsed.dirs=. org.apache.xalan.Version<BR>
+      Xalan Java 2.3.0</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>でも上手くいきました。まずはバグパレードを見るべきでした (^^;<BR>
+どうも、お騒がせしました。<BR>
+---<BR>
+石神 覚司(Satoshi Ishigami)</CITE></P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020215-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

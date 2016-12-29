@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030812.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030812.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.sansaibooks.co.jp/temps/moetan.html">
+    <title>萌える英単語 もえたん</title>
+    <link>http://www.sansaibooks.co.jp/temps/moetan.html</link>
+    <description>印象的なのであった…</description>
+    <dc:date>2003-08-13T17:58:33</dc:date>
+  </item>
+
+</rdf:RDF>

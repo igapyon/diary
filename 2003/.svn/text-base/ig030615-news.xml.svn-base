@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030615.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030615.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/13/njbt_07.html">
+    <title>神代、P4/2.4C GHz搭載で9万円切るミドルタワー</title>
+    <link>http://www.zdnet.co.jp/news/0306/13/njbt_07.html</link>
+    <description>私が愛用している、通販パソコン販売の フロンティア神代のマシンの記事。Intel 865Gチップセット の時代が来ていますねぇ。</description>
+    <dc:date>2003-06-15T10:32:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/14/nebt_11.html">
+    <title>Microsoft、Mac用IEの開発を停止</title>
+    <link>http://www.zdnet.co.jp/news/0306/14/nebt_11.html</link>
+    <description>ある日突然 開発が停止されてしまう なんてことがあると とっても驚いて不安になりますよね。MacユーザのIE浸透度が どの程度のものか 私は全然知りませんが。また、こういうニュースを見るに付け、『オープンソースなソフトウェアは安全だなぁ』と思います。最悪ベンダーが無くなったとしても オープンソースであれば、誰かががんばって引き続きサポートや開発を継続できますからね。それはさておき ようやっとこれからは Mozillaの時代到来か！</description>
+    <dc:date>2003-06-15T10:32:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/13/epn21.html">
+    <title>有線ブロードネットワークス、基幹業務システムに「TurboDB」を採用</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/13/epn21.html</link>
+    <description>QueryMasterというものを使って 複数のTurboDBサーバで負荷分散機能と大規模仮想DBが構築できるんだそうな。名称とはうらはらに 更新系も発行して良い模様。興味深いが効果なので 気軽に実験用に購入できるモノでは無さそうです。既存のシステムが15億円だったのが、新システムは 1億円で構築できる見込みなのだそうな。びっくりです。</description>
+    <dc:date>2003-06-15T10:32:03</dc:date>
+  </item>
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/xml/030613/j_x-tipbigdoc3.html">
+    <title>ヒント: 巨大なXML文書を出力する 第3回 -XMLFilterの使い方-</title>
+    <link>http://www-6.ibm.com/jp/developerworks/xml/030613/j_x-tipbigdoc3.html</link>
+    <description>org.xml.sax.helpers.XMLFilterImplというのを継承したら、簡単にSAXベースのお好みフィルターが作成できるのだそうな。私は もっとプリミティブなところを継承して いつもフィルターを作成していたので、こういうアプローチもあるのかと ちょっとびっくりしました。</description>
+    <dc:date>2003-06-15T10:32:03</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030925.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030925.html</link>
+    <language>ja</language>
+    <dc:date>2003-09-25</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/25/njbt_01.html">
+    <title>Googleツールバー2.0日本語版リリース</title>
+    <link>http://www.zdnet.co.jp/news/0309/25/njbt_01.html</link>
+    <description>さっそくダウンロード</description>
+    <dc:date>2003-09-25T20:37:23</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20061089,00.htm">
+    <title>デロイトトウシュトーマツ、日本の急成長企業50社を発表</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20061089,00.htm</link>
+    <description>日本の急成長企業リストとして大変に興味深い</description>
+    <dc:date>2003-09-25T20:37:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/25/njbt_03.html">
+    <title>全国大学生協連がCentrinoノートを推奨</title>
+    <link>http://www.zdnet.co.jp/news/0309/25/njbt_03.html</link>
+    <description>私もCentrinoノートがほしいなあ…</description>
+    <dc:date>2003-09-25T20:37:23</dc:date>
+  </item>
+  <item rdf:about="http://d.hatena.ne.jp/wildcats0201/">
+    <title>修行僧の日記</title>
+    <link>http://d.hatena.ne.jp/wildcats0201/</link>
+    <description>最近購読を始めた日記の作者さんは、なんといがぴょんの日記MLに参加されているとのこと。しかも以前豊中在住だったとは！ これは びっくり。、、、ちなみに java.util.ArrayListの使い方は どうも私 よく間違えてしまいます。直感とずれている点があり とても難しい…</description>
+    <dc:date>2003-09-25T20:37:23</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061076,00.htm">
+    <title>米IBMと米JBossが検討中の、新たなJava計画とは?</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061076,00.htm</link>
+    <description>IBMとJBossとがアスペクト指向プログラミングを軸に歩み寄っているのだそうな。</description>
+    <dc:date>2003-09-25T20:37:23</dc:date>
+  </item>
+
+</rdf:RDF>

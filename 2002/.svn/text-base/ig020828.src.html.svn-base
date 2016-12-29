@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/08/28 日記: Mozilla 1.1 リリース</TITLE>
+<META name="DESCRIPTION" content="Mozilla 1.1 がリリースです。1.0が難産だっただけに 1.1リリースは極めて順調なタイミングで行われました。 , Visual C# + ASP.NET + ADO.NET について DataSetの部分を理解中…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt] [replace-param:htmlstyle=tabletitle][replace-rdf:ig020828-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# + ASP.NET: ADO.NETについて、SqlDataAdapter および DataSetについて学習中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C# + ASP.NET によるWeb開発のキモの1つとして SqlDataAdapter および DataSetについて
+着眼しています。(とゆ～か 着眼せざるを得ないというトコロです) ようやく
+DataSetと 画面の内容が 連動し始めているところです。</P>
+<P>ちなみに 現在 Visual C# + ASP.NET + ADO.NET の学習には、下記の書籍を利用しています。<BR>
+もし現時点において あなたが C# や ASP.NET, ADO.NETに手を染める必要があるのでしたら、下記の2冊はお薦めです。</P>
+<UL>
+  <LI><FONT size="-1">.NETプログラマーズライブラリシリーズ</FONT> C#.NET プログラミングマニュアル<BR>
+  [replace-href:http://www2.gihyo.co.jp/books/bookinfo.asp?ID=4-7741-1553-3]<BR>
+吉松 史彰+山崎 明子 共著<BR>
+ISBN4-7741-1553-3<BR>
+  初版 2002年9月発行<BR>
+  →C#の言語仕様を学び 勢いで ASP.NET, ADO.NETまでを概観する、というところまでを一冊で網羅してしまう本。ちょっとの時間で言語仕様を理解するという私の目的に とてもフィットして役立っています。
+  <LI>Visual C# .NETによる [基本]データベースプログラミング<BR>
+  [replace-href:http://www2.gihyo.co.jp/books/bookinfo.asp?ID=4-7741-1483-9]<BR>谷尻 かおり 著<BR>
+ISBN4-7741-1483-9<BR>
+  初版 2002年7月発行<BR>
+  →この本は まるまる ADO.NETの本でした。ものすごく印象的で かつ 私の仕事に役立ちました。何より
+  Java言語の経験を除くと 私は生粋の Visual C++屋だったのですが、そのような経験が
+  ADO.NETの世界観の受け入れを阻んでいたのです。この本を ざざっと斜め読みすることにより
+  ADO.NETに対する偏見や拒絶反応が かなり薄まりました。おかげで 現在では快く
+  ADO.NETに取り組むことが出来ています。
+</UL>
+<P>この本のおかげで かなり効率よく Visual C# + ASP.NET + ADO.NET を学習することが出来ています。技術評論社さん
+すてきな本を出して下さり どうもありがとうございます。<BR>
+以前購入した 翔泳社のC#の本は 私はどうも馴染むことが出来ませんでした。上記の技術評論社の
+2冊は 後発であるだけのこともあるのでしょうか、私はとても理解しやすかったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>cbook24.com初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さっそく 上記2冊をインターネットで注文しました。本をインターネットで買うのは初めての体験です。送料無料を売りにしていて、代引き手数料以外は課金されない模様です。便利なものですね。<BR>
+# そういえば、ヴァイオリン弦は 良くインターネット経由で購入しています。</P>
+<P><FONT color="#ff0000">2002.08.29</FONT> 後日談<BR>
+その本は 注文の26時間後に到着しました。とっても便利ですね。びっくりしました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020828-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

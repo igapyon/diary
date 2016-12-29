@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/11/15 日記: 某社システムの火消しから復帰 , Eclipse 2.0.2 リリース</TITLE>
+<META name="DESCRIPTION" content="私は火消しモードを終えました。 , Eclipse 2.0.2 リリースです。2.0.2を日本語メニューで利用する方法を教えて貰いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt] [replace-param:htmlstyle=tabletitle][replace-rdf:ig021115-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>某社システムの火消しから復帰しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>同僚の内林さんを残して 私は戻ってきました。このシステム開発も 今後は順調に推移してくれることでしょう。<BR>
+楽しかったです。<BR>
+さて、身の回りの普段の仕事を どんどんかたづけていくぞ～。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021107.html">2002/11/07 日記: 某社システムの火消しに動員される模様</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 2.0.2 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>オープンソースの統合開発環境[replace-link:Eclipse]最新版のリリースです。早速ダウンロードしてみました。各国語用リソースは
+2.0.2用のものは現時点ではまだ提供開始されていません。日本語メニューなど、メッセージに日本語を使いたい場合には、依然2.0.1を利用する必要がありそうです。</P>
+<HR>
+<P><FONT color="#ff00ff">中西さんからのツッコミ</FONT><BR>
+Subject: Eclipse 2.0.2の日本語化について<BR>
+はじめまして、中西([replace-link:Saisse])といいます。<BR>
+いがぴょんさんのページは2年前くらいから拝見していまして、XPやリファクタリングなどいろいろ勉強させてもらっています。<BR>
+おかげで社内ではオブジェクト指向に関しては右に出てくる人がいなくなってしまいました（笑）<BR>
+<BR>
+Eclipseは2.0がリリースされたころから使っていますが素晴らしいですね。<BR>
+SDK + 秀丸 + Ant + JUnitで開発しているようなリファクタリング派にはお勧めです。リファクタリングの概念がない人はあまりはまらないようですが．．．<BR>
+<BR>
+題記の件ですがEclipse2.0.2を日本語化することは可能です。<BR>
+具体的には2.0.1を日本語化した状態でメニューから [ヘルプ]-&gt;[ソフトウェア更新]-&gt;[新規更新]を選んでみてください。<BR>
+ネットワークを検索しに行って2.0.2が見つかるはずなのでGUIの言うとおりにすれば日本語のまま2.0.2に移行できます。<BR>
+(たぶん日本語化パックに互換性があるのかもしれません)<BR>
+<BR>
+以上、お役に立てば幸いです。<BR>
+これからも日記を楽しみにしていますので頑張ってください。<BR>
+<BR>
+それでは。<BR>
+--</P>
+<HR>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT>[replace-link:いがぴょん]<BR>
+中西さん どうもありがとうございます。その手順で試してみます。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021025.html">2002/10/25 日記: Eclipse初体験 , Java言語入門本探索</A>
+  <LI><A href="ig021030.html">2002/10/30 日記: Eclipse続報</A>
+  <LI><A href="ig021101.html">2002/11/01 日記: SWT (Standard Widget Toolkit) という選択肢</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>あかぺら</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>唐突ですが アカペラって 『ア・カペラ』なのだそうな。語源は 教会の歌 という意味だそうです。題名のない音楽会で
+そのように言ってました。<BR>
+『赤ぺら』では無かったのですね。<BR>
+そういえば カラオケの語源も興味深い。Google検索したら 何かヒットするかしらん。私は『空オケ』だと勝手に思っていますが…。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021115-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

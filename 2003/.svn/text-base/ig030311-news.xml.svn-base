@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030311.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030311.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-11T07:07:18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/special/kernel26/kernel26_01a.html">
+    <title>全貌を現したLinuxカーネル2.6［第1章］～ エンタープライズ向けに刷新されたカーネル・コア ～</title>
+    <link>http://www.atmarkit.co.jp/flinux/special/kernel26/kernel26_01a.html</link>
+    <description>変更点を見ていると、Linuxカーネルの成熟を感じさせられました。これがGPLライセンスで提供されているなんて とってもすばらしいことですね。一方でカーネルソースコードが500万ステップにも及ぶとは これまた驚きです。これは パッとソースコードを見て ちょいと理解する なんてことは 私には不可能そうです。(というか 2.6での変更点そのものが 『へ～。そうなんだ』的にしか理解できませんでした)</description>
+    <dc:date>2003-03-12T07:07:55</dc:date>
+  </item>
+
+</rdf:RDF>

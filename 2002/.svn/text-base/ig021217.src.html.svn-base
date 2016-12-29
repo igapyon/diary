@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/17 日記: SWTのおかげでKylixを見ても悔しくない?</TITLE>
+<META name="DESCRIPTION" content="最近SWTにハマっていました。とりあえず一通りSWTを理解できました。SWTのソースコードが これまた味わい深いんです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTのおかげで Kylixを見ても悔しくなくなりました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここんところ SWTにハマっていて 一通り堪能しました。(もちろんソースコードも堪能してます。そしてそのソースコードが大変味わい深いのです)<BR>
+いがぴょんの日記MLで盛り上がったSWTネタは またいつかホームページに転載します。<BR>
+とにかく SWTのおかげで デスクトップアプリケーションとしてのJava言語の可能性が大いに広がると
+私は確信しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NIO試用: CharBufferを使ってみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ガベのこととか実行速度のこととかを考える必要があったので J2SE 1.4で導入されたNIOのCharBufferを試用してみました。<BR>
+java.lang.StringBufferとjava.lang.Stringと そしてjava.nio.CharBufferとを比べてみよう、という企画です。乱暴なベンチマークみたいなものですが、この実験は
+とっても乱暴なものであるということを予め認識してから 後続の記載をお読み下さい。</P>
+<UL>
+  <LI>Windows XP Pro SP1
+  <LI>Sun J2SE SDK 1.4.1_01 (Windows版)
+</UL>
+<P>調べてみてわかったのですが CharBufferは StringBufferを使うより高速でした。ざっくり2倍でしょうか。<BR>
+一方 Stringは 結果が戻ってきませんでした (苦笑)。ハナっからダメだったです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Test.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.nio.*;
+
+public class Test {
+    private static final int LOOP = 5000000;
+    //private static final int LOOP = 10;
+    private static final boolean SHOW_RESULT_STRING = false;
+
+    public static final void main(String[] args) {
+        System.out.println(&quot;☆☆☆CharBuffer速度調査 超簡単サンプル☆☆☆&quot;);
+        System.out.println(&quot;まず最初に、可能ならメモリをきれいに掃除します。&quot;);
+        myGC();
+        showMemoryStatus();
+        System.out.println();
+
+        long start = System.currentTimeMillis();
+        testCharBuffer();
+        long end = System.currentTimeMillis();
+        System.out.println(&quot;CharBufferテスト所用ミリ秒:&quot; + (end - start));
+        showMemoryStatus();
+        myGC();
+        showMemoryStatus();
+        System.out.println();
+
+        start = System.currentTimeMillis();
+        testStringBuffer();
+        end = System.currentTimeMillis();
+        System.out.println(&quot;StringBufferテスト所用ミリ秒:&quot; + (end - start));
+        showMemoryStatus();
+        myGC();
+        showMemoryStatus();
+        System.out.println();
+
+        start = System.currentTimeMillis();
+        testString();
+        end = System.currentTimeMillis();
+        System.out.println(&quot;Stringテスト所用ミリ秒:&quot; + (end - start));
+        showMemoryStatus();
+        myGC();
+        showMemoryStatus();
+        System.out.println();
+    }
+
+    private static final void myGC() {
+        System.out.println(&quot;ガベー時コレクション起動依頼&quot;);
+        Runtime.getRuntime().runFinalization();
+        Runtime.getRuntime().gc();
+    }
+
+    private static final void showMemoryStatus() {
+        Runtime rt = Runtime.getRuntime();
+        long totalMemory = rt.totalMemory();
+        long usingMemory = totalMemory - rt.freeMemory();
+        System.out.println(&quot;Memory: &quot; + (usingMemory / 1024) + &quot;/&quot;
+                           + (totalMemory / 1024) + &quot; KB (&quot; + (usingMemory*100 / totalMemory) + &quot;%)&quot;);
+    }
+
+    private static final void testString() {
+        String buf = new String();
+        for (int loop = 0;loop &lt; LOOP;loop++) {
+            buf += &quot;AB&quot;;
+        }
+        String result = buf;
+        if (SHOW_RESULT_STRING) {
+            System.out.println(&quot;結果:&quot; + result);
+        }
+    }
+
+    private static final void testStringBuffer() {
+        StringBuffer buf = new StringBuffer();
+        for (int loop = 0;loop &lt; LOOP;loop++) {
+            buf.append(&quot;AB&quot;);
+        }
+        String result = buf.toString();
+        if (SHOW_RESULT_STRING) {
+            System.out.println(&quot;結果:&quot; + result);
+        }
+    }
+
+    private static final void testCharBuffer() {
+        CharBuffer buf = CharBuffer.allocate(LOOP * 2);
+        for (int loop = 0;loop &lt; LOOP;loop++) {
+            buf = buf.put(&quot;AB&quot;);
+        }
+        String result = new String(buf.array());
+        if (SHOW_RESULT_STRING) {
+            System.out.println(&quot;結果:&quot; + result);
+        }
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実行結果、、、ここで判明したのですが、Stringの方が 数十分待っても処理が戻ってきません。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>D:\temp\test3&gt;java Test
+☆☆☆CharBuffer速度調査 超簡単サンプル☆☆☆
+まず最初に、可能ならメモリをきれいに掃除します。
+ガベー時コレクション起動依頼
+Memory: 153/1984 KB (7%)
+
+CharBufferテスト所用ミリ秒:484
+Memory: 39216/54840 KB (71%)
+ガベー時コレクション起動依頼
+Memory: 153/56376 KB (0%)
+
+StringBufferテスト所用ミリ秒:1219
+Memory: 55450/64576 KB (85%)
+ガベー時コレクション起動依頼
+Memory: 153/65088 KB (0%)
+
+…処理が戻ってこない
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ということでループ回数を減らしてみて実行してみました。が、50000回にまで減らしても
+一向に戻ってきません。ということで java.lang.Stringクラスは論外ということに結論付きました
+(苦笑)</P>
+<P><STRONG><FONT color="#ff00ff">乱暴な結論</FONT></STRONG></P>
+<UL>
+  <LI>基本的に 速度やガベージコレクションが気になる場合には java.lang.Stringは極力利用しない
+  <LI>J2SE 1.4以上であれば CharBufferのような メモリ確保領域を意識しながら利用することが出来る高速なクラスが存在する
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021217-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

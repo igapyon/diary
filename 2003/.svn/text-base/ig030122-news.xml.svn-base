@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030122.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030122.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/nebt_03.html">
+    <title>盛り返すLinuxWorld</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/nebt_03.html</link>
+    <description>実際の所 ビジネスな世界でのLinux浸透度って どんなもんなのでしょうね。</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/nebt_09.html">
+    <title>SuSE、LinuxでMS Officeを利用できるソフト</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/nebt_09.html</link>
+    <description>ほえ？ 仮想マシンとかWINEとかとは異なるアプローチであるような雰囲気。さしあたり理解不能でした (苦笑) でも MS OfficeがLinuxで利用できるようになると それはそれで便利だと思えます。→ どうも CrossOver Office というものである模様。更にそれはWineベースであるのだそうです。</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/nebt_12.html">
+    <title>IBM、Linux PDAの参照仕様を提供</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/nebt_12.html</link>
+    <description>2003年度のトレンドの一つに Linux PDAが興隆するのでしょうか。興味深いです。</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/nebt_10.html">
+    <title>Java搭載のWindows、4カ月以内に出荷命令</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/nebt_10.html</link>
+    <description>Windows XP SP2などにSun製JavaVMが載るようになれば 私はとても嬉しいのですが… とりあえず この件に関して MSは消費者を向いていない対応をしていますね…</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/20/njbt_07.html">
+    <title>クリエイティブ、「Audigy 2」最上位モデルを発売</title>
+    <link>http://www.zdnet.co.jp/news/0301/20/njbt_07.html</link>
+    <description>う～む。欲しい # そればっか… :-P</description>
+    <dc:date>2003-01-22T09:28:17</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/20/njbt_03.html">
+    <title>OpenOffice日本ユーザー会がOpenOffice.orgに合流</title>
+    <link>http://www.zdnet.co.jp/news/0301/20/njbt_03.html</link>
+    <description>オープンソースムーブメントは 原則としては結束した方が効果が高いですものね。</description>
+    <dc:date>2003-01-22T09:28:17</dc:date>
+  </item>
+
+</rdf:RDF>

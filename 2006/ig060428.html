@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/04/28 日記: blancoValueObjectのEclipseプラグイン版をリリース , Apache Axis 1.4</TITLE>
+<META name="DESCRIPTION" content="バリューオブジェクト定義書から対応するJavaバリューオブジェクト・ソースコードを自動生成する blancoValueObjectについて、Eclipseプラグイン対応版を新たにリリースします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/04/28 日記: blancoValueObjectのEclipseプラグイン版をリリース , Apache Axis 1.4</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] バリューオブジェクト定義書から対応するJavaバリューオブジェクト・ソースコードを自動生成する blancoValueObjectについて、Eclipseプラグイン対応版を新たにリリースします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoValueObjectのEclipseプラグイン版をリリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>バリューオブジェクト定義書から対応するJavaバリューオブジェクト・ソースコードを自動生成する <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>について、Eclipseプラグイン対応版を新たにリリースします。</P>
+<P>今日の午前中の間に、リリース作業の妥当性に関する最終チェックをおこないます。<BR>
+→関係者の方：今日の午前中にリリース作業の妥当性に関して最終チェックを行ってくださいますよう、お願いいたします。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>は バリューオブジェクト定義書からValueObjectソースコードを自動生成するという地味な仕様のツールなのですけれども、私は
+<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のラインナップのなかでも大変気に入っているもののひとつです。特に 最近追加された
+toStringメソッドの自動生成機能は 私にとってもインパクトが大きかったです。</P>
+<P><FONT color="#ff0000">2006.05.01追記</FONT> 某K氏のご助力により、<A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>を 無事 オフショアのブリッジSEにトランスファーすることができました。某K氏に感謝します。このオフショア開発では
+<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のプロダクト群のうち <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>と<A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>が適用されました。<BR>
+別の某オフショア開発では <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のうち <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>、<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>、<A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A>、<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>が適用されています。ふと気がついたのですが、この両オフショア開発は
+現時点では足並みが丁度 揃っています。ちょっと びっくりしました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Axis を久しぶりに調べてみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>必要が出てきたので、Apache Axisについて久しぶりに調べてみました。現時点での最新安定版は 1.4なのですね。<BR>
+changelogを見ていたら、</P>
+<UL>
+  <LI>1.3→1.4 たくさんのバグを直しました。
+  <LI>1.2.1→1.3 各種依存するjarファイルを更新しました。パフォーマンスやメモリリークを修正しました。
+</UL>
+<P>などと(英語で)書かれていました。(私の英語力は貧弱です) それらの改善がすばらしい成果であることを強く期待します。</P>
+<P>Googleで検索したところ、自分が書いた日記を見つけました。</P>
+<UL>
+  <LI><A href="../2005/ig050801.html">2005/08/01 日記: Java: Apache Axis: クラスの配列を送受信したい → WSDLからWebサービスを作成</A>
+</UL>
+<P>自分で書いた日記のはずなのに、ほとんど内容の記憶がありません。びっくりです。<BR>
+それはさておき、とりあえず同じ手順を Axis 1.4で再生してみて、性能やメモリ消費量に関する問題が解決されているかどうか調べてみようと思います。</P>
+<P><FONT color="#ff0000">2006.05.15追記</FONT> そうこうしているうちに Apache Axis2 1.0がリリースされました。まずは Axis2 1.0の検討を優先して調査を進めることになりました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>2006.04.02 N響アワー: レーピンが肩当て無し！</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2006.04.02放送のN響アワーで、レーピンのベートーベンＶｎ協奏曲を放送していました。(録画していたものを今日 初めて観ました。)</P>
+<P>レーピンさん、音色がきれいです。私好みです。また、私のヴァイオリンの音色と類似点が多いと考えました。<BR>
+ものすごく気になったのが、肩当て使わずにコンチェルトを演奏されていた点です。私も普段 肩当て無しでヴァイオリンを演奏していますが、ヴァイオリン協奏曲で肩当て無しで演奏できるというのは印象的です。映像で観たところ、簡単な滑り止めを貼り付けて、それで演奏されていました。肩当て無しでヴァイオリン協奏曲が演奏可能というのは
+とても印象的でした。</P>
+<P>ヴァイオリンの弦は 緑＋黒 のものを Ｄ線／Ｇ線にはってました。EVAH PIRAZZI (エヴァ・ピラッジ) という弦の種類かも知れませんが、私は
+この弦については 詳しくありません。とても弦の発音が良く 先弓で軽く弾いていても、ばんばん音が粒立っていました。いつか この弦も試してみたいと思いました。(私が現在使っているのはオブリガート弦です)</P>
+<P><FONT color="#ff0000">2007.05.07追記</FONT> その後 私も ピラストロ社の EVAH PIRAZZI (エヴァ・ピラッジ) を利用するようになりました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

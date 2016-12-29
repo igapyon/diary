@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031218.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031218.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa03.html">
+    <title>社内から必要とされるITスタッフを育成するには</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa03.html</link>
+    <description>これまた印象的な記事。なるほどITスタッフの育成は難しいのですねぇ。</description>
+    <dc:date>2003-12-18T01:19:21</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba03/devgenba01.html">
+    <title>第3回　システム開発の真の目的を見失わない</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba03/devgenba01.html</link>
+    <description>ぎょぎょっ、目的を見失ったシステム開発って 意外に存在しそうですからね。</description>
+    <dc:date>2003-12-18T01:19:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/news/200312/17/juas.html">
+    <title>「UML採用は15％以下」、新技術を警戒するユーザー企業</title>
+    <link>http://www.atmarkit.co.jp/news/200312/17/juas.html</link>
+    <description>ははは。同意します。『「効果がわかりにくい」「必要性を感じない」』あたりが 適切に世間を表現しています。</description>
+    <dc:date>2003-12-18T07:14:39</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062895,00.htm">
+    <title>2003年Linux重大ニュースを振り返る</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062895,00.htm</link>
+    <description>『多くの企業がLinuxはビジネスになると認識したようだ』が今年のできごとを象徴していると思います。</description>
+    <dc:date>2003-12-18T07:14:39</dc:date>
+  </item>
+
+</rdf:RDF>

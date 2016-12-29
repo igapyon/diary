@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020219.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020219.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www3.coara.or.jp/~agt/struts/index.html">
+    <title>入門Struts (Toshitaka Agataさん作)</title>
+    <link>http://www3.coara.or.jp/~agt/struts/index.html</link>
+    <description>とても良くできた Jakarta Strutsチュートリアル記事。私 この記事を読んで 初めてStrutsが具体的にどうゆうものかが理解できました。やっぱり日本語で書いてあると とっても分かりやすいですね。Strutsの具体的な動きを知りたいStruts初心者な方に この記事はお勧めだと思いました。(概念図までは無いので そこを理解しようとしたら 別の記事とか漁るというのも手でしょう) …で、Strutsって 結構良いですね。Servletがダメなところと JSPがダメなところ 双方の欠点を埋めてくれて すっきり解決してくれそうなのですものっ！！！ (しかし私はいまだにタグライブラリの類には 馴染めそうに無いのですけれども)</description>
+    <dc:date>2002-02-19T09:17:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/18/07.html">
+    <title>2001年EC市場規模はB2Bが34兆円，B2Cが1.5兆円</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/18/07.html</link>
+    <description>6～8割増の急成長産業なんですって。まぁ 私ですら B2Bシステム開発/B2Cシステム開発に携わったものなぁ (笑)</description>
+    <dc:date>2002-02-19T09:47:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/tanpatsu/13protocol/xmlprotocol03.html">
+    <title>@IT: XMLビジネスプロトコル ～ 第3部 BtoBの理想を目指したebXML</title>
+    <link>http://www.atmarkit.co.jp/fxml/tanpatsu/13protocol/xmlprotocol03.html</link>
+    <description>ebXMLの説明。むつかしい概念図が無いので、ebXML初心者にとっても 比較的理解しやすい記事だと思いました。</description>
+    <dc:date>2002-02-19T09:17:38</dc:date>
+  </item>
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/020215/j_j-webstart.html">
+    <title>Java Web Start : クライアント・サイドのJavaアプリケーションの開発と配布</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/020215/j_j-webstart.html</link>
+    <description>Java Web Startの記事。JNLPなどにも具体的なサンプルソースコードとともに言及していて、いい感じだと思いました。</description>
+    <dc:date>2002-02-19T09:17:38</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai/jsp2_03/jsp2_03_1.html">
+    <title>@IT: 新人SEのためのJava講座 第3回 文字列処理と入力チェック</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai/jsp2_03/jsp2_03_1.html</link>
+    <description>文字列操作に関する いろいろな小技を紹介しています。サンプルソースコードを見て 『おやっ？』っと思う箇所もありましたが、まずはこういった情報が 広く世間に知られる事は喜ばしいことです。また正規表現の話題まで扱ってくれているのは いいじゃんって思いました。</description>
+    <dc:date>2002-02-19T09:17:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0219/004.html">
+    <title>ＢＣＧの接種は１回だけ、ＷＨＯが「日本向け」に勧告</title>
+    <link>http://www.asahi.com/national/update/0219/004.html</link>
+    <description>世界標準と日本標準とのハザマにて… そういうのって 他にも沢山ありますよねぇ。</description>
+    <dc:date>2002-02-19T10:20:47</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/19/b_0218_05.html">
+    <title>iモードがドイツ進出</title>
+    <link>http://www.zdnet.co.jp/news/0202/19/b_0218_05.html</link>
+    <description>海外に進出…。今後の動向に興味があります。</description>
+    <dc:date>2002-02-19T20:01:04</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/19/b_0218_07.html">
+    <title>Corel，オープンソースソフトから撤退</title>
+    <link>http://www.zdnet.co.jp/news/0202/19/b_0218_07.html</link>
+    <description>景気減退などが起因して オープンソース参画企業が 消えていったり撤退したりしています。少し悲しいことです。</description>
+    <dc:date>2002-02-19T20:01:04</dc:date>
+  </item>
+
+</rdf:RDF>

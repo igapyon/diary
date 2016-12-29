@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020614.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020614.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-14</dc:date>
+  </channel>
+
+  <item rdf:about="http://member.nifty.ne.jp/village/">
+    <title>西村めぐみさんのウェブページ</title>
+    <link>http://member.nifty.ne.jp/village/</link>
+    <description>ITライターさんです。結城浩さんの日記から飛んでいって、このページを知りました。沢山の本を書かれていらっしゃる方です。うち数冊について 本屋で見つけた記憶があります。UNIX系の本だったので、買わなかったような記憶が… (仕事でLinuxを扱っているわけでは無いので 立ち読みで済ましてしまったようなかすかな記憶)</description>
+    <dc:date>2002-06-14T14:29:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/11/nj00_tempstaff.html">
+    <title>テンプスタッフ、ITエンジニア派遣で「若者の雇用創出」</title>
+    <link>http://www.zdnet.co.jp/news/0206/11/nj00_tempstaff.html</link>
+    <description>JavaProねえ。Javaエンジニアを捜したりする身として ちょっとアンテナにひっかかりました。</description>
+    <dc:date>2002-06-14T14:29:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/14/nebt_02.html">
+    <title>MSが3つの警告、うちRAS関連が「深刻」</title>
+    <link>http://www.zdnet.co.jp/news/0206/14/nebt_02.html</link>
+    <description>Windows NT4.0/2000/XP のRASに深刻なセキュリティ不具合があったのだそうです。、、、早期に XP SP1リリースが待たれます。(というかSP1に このセキュリティ不具合パッチが含まれることを祈る)</description>
+    <dc:date>2002-06-14T14:40:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/14/njbt_01.html">
+    <title>国内ITサービス市場、今年の成長率は過去最低へ</title>
+    <link>http://www.zdnet.co.jp/news/0206/14/njbt_01.html</link>
+    <description>特にハードウェアはダメで 一方ソフトウェア産業の一部で気の利いたトコロは2桁成長なのだそうです。</description>
+    <dc:date>2002-06-14T14:40:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/13/njbt_09.html">
+    <title>「ホームページ・ビルダー」に認定資格　日本IBM</title>
+    <link>http://www.zdnet.co.jp/news/0206/13/njbt_09.html</link>
+    <description>いよいよホームページ・ビルダーにも認定資格が。私の愛用ソフトだけに 妙な興味が沸きます (苦笑)</description>
+    <dc:date>2002-06-14T10:09:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0614/011.html">
+    <title>ウルトラマンコスモス、放送打ち切り　毎日放送</title>
+    <link>http://www.asahi.com/national/update/0614/011.html</link>
+    <description>残念なニュースでした…。</description>
+    <dc:date>2002-06-14T14:40:22</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/06/14/grri84000000cuj0.html">
+    <title>関東地方で震度４の地震</title>
+    <link>http://www.nhk.or.jp/news/2002/06/14/grri84000000cuj0.html</link>
+    <description>津波の心配は無いとこのとです。</description>
+    <dc:date>2002-06-14T14:40:22</dc:date>
+  </item>
+
+</rdf:RDF>

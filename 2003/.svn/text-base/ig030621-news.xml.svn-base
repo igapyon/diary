@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030621.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030621.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/20/nebt_14.html">
+    <title>DVDレンタル本数、米国で初めてビデオを上回る</title>
+    <link>http://www.zdnet.co.jp/news/0306/20/nebt_14.html</link>
+    <description>DVDがビデオを抜く時代が到来しているのですね。びっくりです。</description>
+    <dc:date>2003-06-21T06:52:50</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055781,00.htm">
+    <title>GPLソフトウェアの採用に「待った」：英国の業界団体が政府に</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055781,00.htm</link>
+    <description>GPLは 特に注目されますね。それだけ 哲学が強いライセンスなのです。自由を手に入れるためには 哲学が強くなくてはならないのです。一方 ビジネスとGPLとは共存共栄できると私は思っています。</description>
+    <dc:date>2003-06-21T06:52:50</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055782,00.htm">
+    <title>Linux潰しか、それとも自己防衛か？：タイで激安販売にでるマイクロソフト</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055782,00.htm</link>
+    <description>地域によって激安販売とは ビジネスとしては妥当ですが、激安ではない地域に住んでいると 嫉妬しますよね。</description>
+    <dc:date>2003-06-21T06:52:50</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20055841,00.htm">
+    <title>増加するメール利用、上司は実情を把握している？</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20055841,00.htm</link>
+    <description>勤務時間の４分の１を電子メールに費やしているんだそうな。困ったモノです。</description>
+    <dc:date>2003-06-21T06:52:50</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/20/njbt_07.html">
+    <title>「ぴちょんくん」育成ゲー、今年も公開</title>
+    <link>http://www.zdnet.co.jp/news/0306/20/njbt_07.html</link>
+    <description>ダイキン工業が 登録すれば無料の育成ゲームを公開しているのだそうな。Flashベースですね。</description>
+    <dc:date>2003-06-21T07:10:40</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20055881,00.htm">
+    <title>「地上波テレビやDVDもFlashで」--コンテンツ不況を救うビジネスモデルになるか</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20055881,00.htm</link>
+    <description>Flash全盛時代到来を予感 (笑)</description>
+    <dc:date>2003-06-21T07:10:40</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031206.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031206.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cstaff/serial/competency/01/01.html">
+    <title>コンピテンシーの正しい理解と使い方 -強いIT部門になるためのコンピテンシー（1）-</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cstaff/serial/competency/01/01.html</link>
+    <description>なんか、ものすごい記事でした。なるほど 企業の人材採用には 「言語能力や数的処理能力を測る」ことを行いますね。ふうむ、なっとくします。「期待通りに活躍するのは3割程度」のクダリが、これまた しびれます。びっくり仰天。それとは別に 外向、内向にまつわる記載が これまたハートを揺さぶります。内向がヒトミ先輩で、外向がいがぴょんって関係が 脳裏をよぎりました。そうですよね。外向タイプと内向タイプって、職場では両方必要ですから。実際のところ 内向タイプが 情報システムにおいては 基本的に重要な働きを行うと 私は思っています。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.wnishida.com/~wmemo/?date=20031202#p01">
+    <title>Technical writer に求められるもの</title>
+    <link>http://www.wnishida.com/~wmemo/?date=20031202#p01</link>
+    <description>ふうむ。いい記事ですね。私も なるべく平易な文章を書く事ができる能力を磨こうと 日夜努力しております。もともと私は 難解な文章はキライですからね。でも これがどっこい、いざ テクニカル文書などを作成しようとしたら ついつい 平易ではない文章を書いてしまいがちなんです。びっくりぎょうてんです。とにかく なるべく 初心者の気持ちになって自分の文章を読み直す、という習慣を身につける事が大事だとおもう今日この頃。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/06/nebt_08.html">
+    <title>Linuxカーネル2.6移行勧め、2.4は“純メンテナンス”モードへ</title>
+    <link>http://www.zdnet.co.jp/news/0312/06/nebt_08.html</link>
+    <description>「枯れる」時期の到来が必要なんです。純メンテナンスモードは歓迎しますけれどもねぇ。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/06/nebt_10.html">
+    <title>連邦裁、SCOに著作権侵害の証拠提出命じる</title>
+    <link>http://www.zdnet.co.jp/news/0312/06/nebt_10.html</link>
+    <description>「IBMが戦術的な勝利を手にした格好だ。 」のクダリが 端的に記事内容を表しています。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062500,00.htm">
+    <title>GPLは契約として成り立つか---日本法との整合性を検証する</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062500,00.htm</link>
+    <description>日本国の法律とGPLとの親和性は 各種解釈と 実際の運用によって 証明されていく事でしょう。ここ最近 GPLというライセンスの解釈について 取り上げられる事が 急に増えてきました。取り上げられる事自体 とても喜ばしい事です。(そういえば ほかのライセンスは ほとんど 妥当性に関する話題が挙がりませんね…)</description>
+    <dc:date>2003-12-06T09:58:42</dc:date>
+  </item>
+  <item rdf:about="http://www.sbpnet.jp/vwalker/series/testlab/art.asp?newsid=5959">
+    <title>最新USB接続サウンドデバイス10製品を比較する DOS/V magazine 2003/10/15号より</title>
+    <link>http://www.sbpnet.jp/vwalker/series/testlab/art.asp?newsid=5959</link>
+    <description>ず～っと USBサウンドデバイスが 欲しい欲しいと思っているので、この記事が 気になります。</description>
+    <dc:date>2003-12-06T09:58:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/05/njbt_03.html">
+    <title>bk1にオライリー専門コーナー</title>
+    <link>http://www.zdnet.co.jp/news/0312/05/njbt_03.html</link>
+    <description>ほほう。うまいこと特徴を出そうと努力していますね。</description>
+    <dc:date>2003-12-06T09:58:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/06/nebt_02.html">
+    <title>IBM、ブラジルにLinuxセンター開設</title>
+    <link>http://www.zdnet.co.jp/news/0312/06/nebt_02.html</link>
+    <description>オープンソース開発が職業になる、と考えたら とってもおもしろい構図ですね。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/06/nebt_07.html">
+    <title>記録型DVD、ディスクとドライブの互換性わずか85％</title>
+    <link>http://www.zdnet.co.jp/news/0312/06/nebt_07.html</link>
+    <description>ううっ。それは嫌だなぁ。すてきな発展のために互換性は確保して欲しいものです。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai3/struts01/struts01_1.html">
+    <title>Strusを使うWebアプリケーション構築術（1）- フレームワーク・プログラミングの準備</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai3/struts01/struts01_1.html</link>
+    <description>なんだ、この記事は？ う～む。固まってしまいました。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/beginner01/beginner01.html">
+    <title>第1回 それはある日突然に…… -にわか管理者奮闘記-</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/beginner01/beginner01.html</link>
+    <description>新機軸な記事。従来 よくありがちな情報技術記事とは一線を画しています。思わず固まってしまいます。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/tools/devpartner/devpartner_01.html">
+    <title>プログラムを仕上げるときの強力な助っ人DevPartner</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/tools/devpartner/devpartner_01.html</link>
+    <description>そういえば、DevPartnerシリーズは C++版とJava版は利用した事がありますが、.NET版は利用した事がありません。</description>
+    <dc:date>2003-12-06T17:40:42</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20062498,00.htm">
+    <title>マイクロソフトが脱税--韓国当局から2700万ドルの追徴金</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20062498,00.htm</link>
+    <description>脱税、してしまったのかしらん。いわゆる「見解の相違」というやつかも知れません。</description>
+    <dc:date>2003-12-06T09:58:42</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062496,00.htm">
+    <title>法人需要の拡大に照準を定める米IBM</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062496,00.htm</link>
+    <description>法人が儲かる、のかしらん。私には わからないことがたくさんあります。</description>
+    <dc:date>2003-12-06T09:58:42</dc:date>
+  </item>
+
+</rdf:RDF>

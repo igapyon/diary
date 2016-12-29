@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030222.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030222.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/20/nebt_05.html">
+    <title>組み込みLinuxの統一仕様リリース</title>
+    <link>http://www.zdnet.co.jp/news/0302/20/nebt_05.html</link>
+    <description>組み込みLinuxって 仕様を統一するように心がけないかぎり どんどん独自仕様が群雄割拠してしまうんですね。恐れ入ります。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0302/17/epn18.html">
+    <title>オープンソースがJavaサーバメーカーを脅かす、そのときマイクロソフトは？</title>
+    <link>http://www.zdnet.co.jp/enterprise/0302/17/epn18.html</link>
+    <description>TomcatやJBossが WebLogicなどの市場を侵食するっていう指摘。なるほど。無料ということでは ASP.NETなどを有するマイクロソフトだって無料です。TomcatやJBossの良い点は オープンソースっていう点です。オープンソースだったら どうしようにもないときに私たちの手によって修正が可能であるという点なのです。その点が最大の注目点なのに…。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20030218/3.html">
+    <title>日本オラクルが Linux 版「Oracle9i」対応を強化、メインフレーム市場に参入</title>
+    <link>http://japan.internet.com/linuxtoday/20030218/3.html</link>
+    <description>メインフレームOracleが 2,000万円（最小構成）という価格付きで提供開始とのこと。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/20/xert_connectix.html">
+    <title>MS、Connectix資産の大半を買収</title>
+    <link>http://www.zdnet.co.jp/news/0302/20/xert_connectix.html</link>
+    <description>Virtual PCというものと Virtual Server製品というものを Microsoftが買収したのだそうな。う～む。戦略的に これは重要な買収劇だったのでは…</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/21/nebt_18.html">
+    <title>オープンソース製品の質の高さ、調査で判明</title>
+    <link>http://www.zdnet.co.jp/news/0302/21/nebt_18.html</link>
+    <description>ソースコードベース比較した場合のOSの質の比較に関する記事。OSのソースコードは オープンソースである場合の方が クローズドソースのものよりも質が高いという結果なのだそうです。私にとっては当然の結果なのですが… これがにわかには信じられないような人だって 世には存在するのでしょうねぇ。(そのことの方が不思議です) むろん私にとってのオープンソース性の優位性というのは 「自分の手で修正することができる」メリットです。(結果的に 質の高さにつながります) また そうやって自ら修正したものが オープンソースの場合には本流に反映されるので質の高さにつながるのです。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0302/21/epn12.html">
+    <title>Linuxのソースコードは質が高い、リーズニングが調査結果を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0302/21/epn12.html</link>
+    <description>ソースコードの品質は、単にそのソースコードを閲覧している目の数に見合っただけ向上します。オープンソースの場合 ソースコードを閲覧する人数はとっても多いですから、自ずと品質が向上します。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0302/21/epn18.html">
+    <title>オープンソースのセキュリティは高いか――デベロッパーズサミット 2003レポート</title>
+    <link>http://www.zdnet.co.jp/enterprise/0302/21/epn18.html</link>
+    <description>「結局はソースがあるか、ないかに尽きる」のクダリに加え、そのソースコードを改変して自由に配布することができるかどうか、というところがポイントですね。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://yamaguch.sytes.net/~tora/java/axis.xml">
+    <title>とらぷろじぇくと: Axis</title>
+    <link>http://yamaguch.sytes.net/~tora/java/axis.xml</link>
+    <description>JakartaによるSOAP実装の一つであるAxisに関する記事。メモメモ。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/21/njbt_05.html">
+    <title>2002年国内サーバ市場、台数で初のマイナス成長</title>
+    <link>http://www.zdnet.co.jp/news/0302/21/njbt_05.html</link>
+    <description>実は ふつ～のデスクトップパソコンにLinuxを導入した「サーバ」が増える傾向にあったのであった…などというオチがあるのやも知れませぬ。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/19/xert_hack.html">
+    <title>500万人超のVISA/MasterCard顧客情報が漏洩</title>
+    <link>http://www.zdnet.co.jp/news/0302/19/xert_hack.html</link>
+    <description>すごく嫌なニュースです。</description>
+    <dc:date>2003-02-22T17:45:14</dc:date>
+  </item>
+
+</rdf:RDF>

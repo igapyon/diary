@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030609.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030609.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-09</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/08/epn01.html">
+    <title>NovellとSCOの争いに油を注ぐUNIXの売買契約書</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/08/epn01.html</link>
+    <description>奥が深い。</description>
+    <dc:date>2003-06-09T21:11:34</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055109,00.htm">
+    <title>日本HP、国内IAサーバのLinux市場で出荷額が首位になったと発表</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055109,00.htm</link>
+    <description>日本ではHPが出荷額ベースで首位なんだそうな。へええ。</description>
+    <dc:date>2003-06-09T21:11:34</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/05/epn01.html">
+    <title>Webアプリの「利便性」は誰のため？産総研高木氏が指摘するセッション追跡の問題</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/05/epn01.html</link>
+    <description>Vulnagra(別名Moroyowa)やAppScanといったツールを使って Webアプリのセキュリティ欠陥をチェックしよう、なんていう興味深いことが書いてあります。</description>
+    <dc:date>2003-06-09T21:11:34</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.55106">
+    <title>「Linuxなら経費を節減できる」：米メリルリンチ</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.55106</link>
+    <description>この方によると、『Windowsは、インフラの管理作業に最も多く経費が必要で、とにかく人間に金がかかる』のだそうです。TCO的にWindowsは不利との論調の記事です。</description>
+    <dc:date>2003-06-09T21:11:34</dc:date>
+  </item>
+
+</rdf:RDF>

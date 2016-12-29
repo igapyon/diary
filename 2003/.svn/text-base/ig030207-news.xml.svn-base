@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030207.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030207.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/229554">
+    <title>ソニー、手帳サイズのファイルサーバーを発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/229554</link>
+    <description>無線LAN対応お手軽ファイルサーバとは…。予想実勢価格\70,000.-前後で 無線LANサーバな20GBハードディスク提供とは…。すごく興味深いソリューションを提供するものですね。で 当然ですけれどOSはLinux。でも Linuxと全面に出てこないところが ソニーの巧さを 改めて感じさせられる点です。また 客観的に考えて 地味ながらソニーが ものすごい勢いでLinux企業化している点も見逃すことが出来ません。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0302/03/epn24.html">
+    <title>ハイエンドサーバ搭載への道を切り開いたLinux</title>
+    <link>http://www.zdnet.co.jp/enterprise/0302/03/epn24.html</link>
+    <description>NUMA対応が カーネル2.6から本流に加わるのだそうです。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/229549">
+    <title>NEC、仮想マシン「VMWare」の企業向けソリューション</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/229549</link>
+    <description>私は 細かい仕事を沢山こなしているので、物理的なマシンがどうしても多数必要になりがちです。そういうところに VMWareのようなソリューションはぴったりマッチする期待が持てますね。85万円から… ということなので、検討の価値あり です。(NECから購入するかどうかはわかりませんが)</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/06/nebt_11.html">
+    <title>MS、「オープンソースは自社業績に脅威」と警告</title>
+    <link>http://www.zdnet.co.jp/news/0302/06/nebt_11.html</link>
+    <description>Microsoft社の凄いところは 現状分析が大変鋭く正確なところです。そして適時 必要な対応策をとってくるところです。ここまで認識しているとなると 次の出方は オープンソースにとって 驚くような内容になる、かも知れませんね。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/06/nebt_06.html">
+    <title>南ア政府、オープンソフト採用を推奨</title>
+    <link>http://www.zdnet.co.jp/news/0302/06/nebt_06.html</link>
+    <description>単一ソースコードによる商用アプリケーションの限界というものも考えられます。単一ソースコードで各国語版を作成していることそものは 大変すばらしいことなのですが…</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/31/epn14.html">
+    <title>Slammerが残した真の問題点と教訓</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/31/epn14.html</link>
+    <description>どうしてSlammerのようなウイルスが蔓延したのかを説明してくれています。ご指摘のように サービスパックならともかく HotFixの類って適用できない場合が多いのです。しかも そもそもサービスパックが適用できないっていうケースもあるんですね。これは知りませんでした。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/229499">
+    <title>英ロイター、Linux対応の金融情報処理ソフト</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/229499</link>
+    <description>金融業界にも ずんどこLinuxが進出していっているのですね。びっくりです。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/04/nebt_08.html">
+    <title>重要インフラの制御ソフトにLinux採用</title>
+    <link>http://www.zdnet.co.jp/news/0302/04/nebt_08.html</link>
+    <description>金融はおろかインフラ関連にもLinuxが堅調に入り込みだしていますね。</description>
+    <dc:date>2003-02-07T15:35:36</dc:date>
+  </item>
+
+</rdf:RDF>

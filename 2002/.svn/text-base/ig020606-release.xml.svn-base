@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020606.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020606.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.0 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Mozilla 1.0 がリリースです。これが最初のメジャーバージョンリリースです。オープンソースWebブラウザとして 高い期待が持たれています。</description>
+    <dc:date>2002-06-06T08:08:31</dc:date>
+  </item>
+
+</rdf:RDF>

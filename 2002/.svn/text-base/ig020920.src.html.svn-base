@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/20 日記: Windows XP SP1 リリース</TITLE>
+<META name="DESCRIPTION" content="仕事で超忙しいです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# .NET で Javaのsynchronizedに相当するモノ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C#でのlockというのが Java のsynchronizedに相当する模様。<BR>
+staticメソッド内でのlockには、</P>
+<UL>
+  <LI>lock(typeof(クラス名))
+</UL>
+<P>のようにすると ロックが可能である模様。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>明日からの3連休 同僚は仕事をする権利を得たようで…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日からの3連休 同僚のみんなは 仕事をする権利を得たようです。確定です。<BR>
+私も… 頑張らなくっちゃ。ここが正念場。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP SP1 後日談</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2002.11.10 追記</FONT> ようやっと Windows XP SP1 を利用開始することになりました。何度もSP1を適用して
+不安定化してSP1をアンインストールして、としていたのですが、ようやっと安定した環境が得られたのです。<BR>
+今回導入したSP1は なんとなく安定しています。全体的な傾向として、<A href="http://www.asahi-net.or.jp/~vr4m-ikw/">窓の手</A> を入れてから なんだか私のPCは安定して動作しています。(窓の手が そういうソフトで無いことだけは良く知っています。しかし
+なぜだか理解できませんが 窓の手導入以降 とても安定しています)<BR>
+関連して、Service Packの類をインストールする際には ウイルス対策ソフトをOFFにすることが必要なんだ、との認識を
+更に強くしました。しかし 今回不安定だったSP導入時に ウイルス対策ソフトをOFFにしていなかったかどうか
+ちと記憶が定かではありません。普段は OS導入直後にSP適用するので、そんなこと気にもとめたことがなかったです。(ということはウイルス対策ソフトのリアルタイム検索を入れっぱなしで導入していたのでしょうかね…)
+もしくは ウイルスバスターに何か不具合があって なんてこともあるのでしょうか?
+謎は深まるばかりです (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020920-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

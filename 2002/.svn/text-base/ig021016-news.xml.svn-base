@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021016.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021016.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/15/njbt_04.html">
+    <title>ソニー、「EverQuest」日本語版サービスを今冬スタート</title>
+    <link>http://www.zdnet.co.jp/news/0210/15/njbt_04.html</link>
+    <description>ソニーが各方面で攻勢に出てきていますねぇ。</description>
+    <dc:date>2002-10-16T14:17:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/15/ne00_csharp.html">
+    <title>ISOのお墨付きで「C#」勢力拡大を狙うMS</title>
+    <link>http://www.zdnet.co.jp/news/0210/15/ne00_csharp.html</link>
+    <description>なるほど ISOの標準化で扱われているのは CLIのみ なのですね。.NET Frameworkそのものは ISOとは現状では関係ない模様です。</description>
+    <dc:date>2002-10-16T14:17:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/15/njbt_12.html">
+    <title>中国に「コンピュータゲーム病」矯正センター</title>
+    <link>http://www.zdnet.co.jp/news/0210/15/njbt_12.html</link>
+    <description>コンピュータゲームは危険なのですね。みなさん適度なゲームプレイ時間を守りましょう。</description>
+    <dc:date>2002-10-16T14:17:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0210/15/op02.html">
+    <title>Opinion：Apacheは頂上に達したか？</title>
+    <link>http://www.zdnet.co.jp/enterprise/0210/15/op02.html</link>
+    <description>Apache 2.0 の世間一般での浸透度にツッコミを入れる記事。</description>
+    <dc:date>2002-10-16T14:17:01</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/04 日記: 自宅が上の階から水漏れ</TITLE>
+<META name="DESCRIPTION" content="C/C++用MD5実装を調査">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今朝起きたら自宅が上の階側から水漏れしてきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>妻がびっくりして 『雨漏り』と言っていて 私もびっくりしておきました。なんと
+二階から水が漏れだしてきています。トイレと洗面所の天井から ぽたぽた、ぼたぼたと水が落ちてきます。鉄筋コンクリート製マンションなのですが、雨漏りとは驚き、と思いました
+(その時点では寝ぼけていました)<BR>
+後で分かったのですが、上の階の洗濯機のホースがはずれたとのこと。上の階のご自宅は大惨事になっていたそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5実装などを調査…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Visual C++.NETには MD5 APIが無いっぽいので、世のMD5実装をざっくり検索してみました。</P>
+<UL>
+  <LI>RFC1321-based (RSA-free) MD5 library<BR>
+  [replace-href:http://sourceforge.net/projects/libmd5-rfc/]<BR>
+  zlib/libpng ライセンスなMD5実装。
+  <LI>Crypto++ Library 5.0<BR>
+  [replace-href:http://www.eskimo.com/~weidai/cryptlib.html]<BR>
+  沢山のラインナップが印象的。
+  <LI>MD5 Homepage (unofficial)<BR>
+  [replace-href:http://userpages.umbc.edu/~mabzug1/cs/md5/md5.html]<BR>
+  ここに種々の言語用MD5実装のリストが載っていました。
+  <LI>Visual C++によるMD5実装<BR>
+  [replace-href:http://www.langfine.com/rsa_md5.htm]
+</UL>
+<P>GZIPも調べてみました。こちらは どんぴしゃみたいな感じのページがありました。が
+とうぜんながらライセンスがGNU GPLです。ふ～む。</P>
+<UL>
+  <LI>The gzip home page<BR>
+  [replace-href:http://www.gzip.org/]<BR>
+  GNU GPLライセンス。
+</UL>
+<P>MIME base64 実装は 気の利いたものはありませんでした。たいしたこと無いので自作は簡単ですが、できれば手を抜きたい
+(苦笑)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">読者のタキーさんからのツッコミ</FONT></STRONG><BR>
+はじめまして。タキーと申します。<BR>
+いつも楽しく拝見させていただいております。</P>
+<UL>
+  <LI>Visual C++.NETでMD5実装がないっぽいということですがちゃんとあるようです。<BR>
+  [replace-href:http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemSecurityCryptographyMD5CryptoServiceProviderClassTopic.asp]
+</UL>
+<P>当方で試してはいないのですが、ご参考になれば幸いです。</P>
+<HR>
+<P><FONT color="#ff0000">ここから</FONT>[replace-link:いがぴょん]<BR>
+ATL ServerベースのMD5実装ですね。ツッコミありがとうございます。<BR>
+配布周りで 今回の仕事案件内容に合致するかどうか よくよく見てみます。(今回のは
+クライアントが不特定多数というハードな案件なので 配布の方法が 気になるところなのです)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">読者の木村さんからのツッコミ</FONT></STRONG><BR>木村です。年末が近くなると気が滅入るのは私だけ?<BR>
+<BR>
+&gt;&gt;GZIPも調べてみました。</P>
+<UL>
+  <LI>お仕事でzip使うならばJavaにも使われている(?)zlibでしょう。<BR>
+  [replace-href:http://www.gzip.org/zlib/]
+</UL>
+<P># はずしてたらごめんなさい。</P>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+めちゃめちゃヒットです。とってもありがとうございます。zlibのZIPで行きます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 4.1.12 をインストールしてみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>影響を受けて 私も とりあえず単体ですが Tomcat 4.1.12 をインストールしてみました。Windows
+XP Pro + J2SE 1.4.0_01 に exeタイプの配布モジュールを使ってインストールしました。まあ、これは簡単にインストールできるようになったものですね。クリック数回でTomcatがインストールできます。<BR>
+ところがインストールして実施したのは Sampleサーブレットを動かしただけ という
+(苦笑) WinInetベースのC++クライアント実装をしようとしているのですが、それの簡単テストサーバということで
+Tomcatを入れたのでした。ちゃんちゃん。(むろん いつかマジメに Tomcatと向き合う必要があるように思うのでした)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021204-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

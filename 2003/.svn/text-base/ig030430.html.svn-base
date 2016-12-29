@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/04/30 日記: ヴァイオリン発表会</TITLE>
+<META name="DESCRIPTION" content="Ghost三昧">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:47+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2003/04/30 日記: ヴァイオリン発表会</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ghost三昧</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ヴァイオリン発表会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 無事 (かどうかは不明ですが) ヴァイオリン発表会を終えました。<BR>
+バッハ作曲 無伴奏ヴァイオリン パルティータ３番 第３楽章でした。メジャーな曲だけに
+アラがモロバレですな (苦笑)<BR>
+今年も<A href="http://www.page.sannet.ne.jp/kmura/orchestra/top.html">吹田市交響楽団</A>の何名かに 聴かれてしまいました (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ghost三昧</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は会社で サーバをGhostかけてバックアップしていました。USB2.0 + IEEE1394ボードをサーバに追加したり
+ディスプレイ切り替え装置を設置したりと ばたばた活動しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>東京出張宿泊先開拓</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>東京出張の際に 今回はホテルに泊まる必要があり、宿泊先を探索してみる。</P>
+<UL>
+  <LI>ホテルヴィラフォンテーヌ 上野<BR>
+  <A HREF="http://www.villa-fontaine.co.jp/ueno/index.html">http://www.villa-fontaine.co.jp/ueno/index.html</A><BR>
+  ダブルルーム 7,600円から。5/7～5/9まで2泊3日で宿泊します。
+</UL>
+<P>後輩のアカイさんに教えてもらいました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DVD-Videoノウハウ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>最近 結構 DVD-Video作成に詳しくなりつつあります (苦笑)</P>
+<UL>
+  <LI>PC-DVD講座<BR>
+  <A HREF="http://pcdvd.lib.net/pcdvd_1.htm">http://pcdvd.lib.net/pcdvd_1.htm</A><BR>
+  よくできた情報源。メモっ！
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IO-DATA の GV-1394TVの録画ソフトが腐っています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>IEEE1394接続の テレビチューナー GV-1394TVですが、重要な機能の一つであるはずの予約録画が腐っています。とても悲しいです。</P>
+<OL>
+  <LI>最新バージョンの 1.04だと 予約された時刻に キャプチャフレーム数が０のまま だんまりになります。
+  <LI>一つ前のバージョンの 1.02だと 予約終了時刻に一般保護例外が発生して そのまま録画をえんえんと続けます？
+  (えんえんと続けるから一般保護例外が発生するのかどうかも不明)
+</OL>
+<P>いろいろ試した結果、まだ 1.02の方が1.04よりは安定しています。<BR>
+私だから良いようなものの、初心者な方が購入したら、かなり困ると思います。代替手段が限られるというのも困ったを加速させる一因です。(IEEE1394接続によるTVキャプチャー装置って
+珍しい方ですから) 早期に修正版がリリースされることを祈る。(今のリリースペースだと
+5/14あたりが次回バージョンリリースのタイミングか…)<BR>
+代替ソフトとして『ふぬああ』も検討してみましたが、どうもうまくいかず こちらは断念。内容は既に忘却しました。でも
+こちらは構造的に 近日中に ふぬああ の方から改善される かも知れない。<BR>
+う～む、困ったものだ。IO-DATAにはがんばって欲しいです。GV-1394TVというハードウェアそのものは
+価格と機能・性能のバランスの良い 大変すばらしい商品だと思います。困ったポイントは
+付属ソフトウェアだけなんです。代替手段があれば、ぜんぜん困らないのですが、GV-1394TV付属の録画予約ソフトの代わりって
+ほとんど入手できそうにないからです。… いっそのこと 自作してしまおうかしら
+(爆笑)</P>
+<P>2003.05.01追記 1.04も使い方や設定方法によっては 1.02より安定しているように思えてきました。</P>
+<UL>
+  <LI>予約録画時の画面・音のモニタリング出力をＯＦＦ化
+  <LI>予約録画時間前には DigitalTVを終了しておく
+  <LI>予約録画時間同士はくっつかないようにする (連続した番組の録画は とりあえずはあきらめる)
+</UL>
+<P>これだと安定して録画できるように、今は思えています。ああっ 早く安定したリビジョンをリリースして欲しいです。</P>
+<P>2003.05.02 追記 05/02付けの最新リビジョン 1.04B において、この問題は 解消されている確率が高いです。かなり不満が減ってきました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:47 $</address>
+</BODY>
+</HTML>

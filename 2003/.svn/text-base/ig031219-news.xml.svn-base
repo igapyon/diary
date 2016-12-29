@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031219.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031219.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/18/njbt_02.html">
+    <title>“本気”のFOMA「900i」発表</title>
+    <link>http://www.zdnet.co.jp/news/0312/18/njbt_02.html</link>
+    <description>FOMAが頑張ってくる、のでしょうか？私には予測不能。</description>
+    <dc:date>2003-12-19T00:39:30</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20062946,00.htm">
+    <title>東京フォレックス、Turbolinux 10 Desktop搭載ノートPCを発売</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20062946,00.htm</link>
+    <description>12万8000円のノートパソコンという値付けが印象的です。</description>
+    <dc:date>2003-12-19T00:39:30</dc:date>
+  </item>
+
+</rdf:RDF>

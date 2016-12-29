@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/05/28 日記: hsqldbことはじめ , blancoDb EE および blancoStrutsが自動生成したコードの占める割合を分析
+, 疲労蓄積…</TITLE>
+<META name="DESCRIPTION" content="疲れ溜まっています…。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/05/28 日記: hsqldbことはじめ , blancoDb EE および blancoStrutsが自動生成したコードの占める割合を分析
+, 疲労蓄積…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 疲れ溜まっています…。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>hsqldb (HSQL Database Engine) ことはじめ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>100% Pure Javaな オープンソース・データベースエンジンとのことで、触ってみよう・調べてみようと常日頃から考えていました。今日、ようやっと試用してみます。</P>
+<UL>
+  <LI><A HREF="http://hsqldb.sourceforge.net/">http://hsqldb.sourceforge.net/</A>
+  <LI><A HREF="http://sourceforge.net/projects/hsqldb/">http://sourceforge.net/projects/hsqldb/</A>
+</UL>
+<P>ライセンスを確認して、そして時間切れ (苦笑)<BR>
+さて 続きは またこんど…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb EE および blancoStruts がソースコード中に占める割合のサンプリング分析</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とあるプロジェクトの一部分を用いて、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> EE と <A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="「画面定義書」という Excelブックから、Struts用のソースコードを自動生成します。">blancoStruts</A>が全ソースコードに占める割合のサンプリング分析を
+<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんに分析してもらいました。</P>
+<P><STRONG><FONT color="#ff00ff">前提条件</FONT></STRONG></P>
+<UL>
+  <LI>総行数: 90キロ程度
+  <LI>コメント行や空行を除き、実行数のみをカウント
+  <LI>システム内容 : ふつうの Web系 基幹系業務
+  <LI>Java + Struts + JDBC がターゲット環境。Java言語部分のみを分析。スキーマから自動生成される分の単純なDAOは除いて分析を実施。あえて
+  SQL文が明示的に与えられた結果作成されたJavaソースコードを分析しました。(そもそもJSP上で スクリプトレットは利用していない)
+  <LI>blanco Frameworkが そもそもソースコードの完全生成を行う特色を持っている (実行時に jarファイルのたぐいのライブラリ類を必要としない)
+  ので、行数は多めに現れることがわかっている。
+</UL>
+<P><STRONG><FONT color="#ff00ff">割合</FONT></STRONG></P>
+<UL>
+  <LI>blancoDbが生成したソースコード 63%
+  <LI>blancoStrutsが生成したソースコード 10%
+  <LI>業務部分 : 27%
+</UL>
+<P>単一表に対する単純なSQL文は除いての集計であるのにもかかわらず、blancoDbが生成した行数は 私の想像がはるかに超える割合で存在していることが分かりました。(SQL文を明示的に指定した場合と異なり、単一表に対する各種アクセスは
+自動生成されても利用しない可能性が高いからです) 確かに JDBCプログラミングを手動で行うと大変ですものね…。一本のSQL文あたり 260行程度が自動生成されている格好です。(SQL文ごとに
+アクセサクラス、そして検索型SQLでは POJOが作成されるようになっています)</P>
+<P><STRONG><FONT color="#ff00ff">JDBC関連コーディングを除いた割合</FONT></STRONG></P>
+<P>次に blancoDbが生成したソースコードを除いて分析してみました。</P>
+<UL>
+  <LI>業務部分 : 73%
+  <LI>blancoStrutsが生成したソースコード : 27%
+</UL>
+<P>blancoStrutsも 意外にも行数割合を占めていることがわかりました。 これは すなわち開発の自動化が実現できていることを示します。これもびっくりです。感覚的には
+15%程度のつもりだったのですけれどもね…。まあ Form には セッター・ゲッター以外にバリデーションのためのコードが自動生成されていることも割合を押し上げている一因なのでしょうね。でもバリデーションも
+自動化しなかったら やはり手動で記述しないといけませんものね。… (そう、だから blancoStrutsを開発したのでした…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>業務連絡 : blancoDb EE および blancoStruts の社内横展開</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>および<A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="「画面定義書」という Excelブックから、Struts用のソースコードを自動生成します。">blancoStruts</A>について 低いリスクでいながら 飛躍的な開発の自動化を実現することが分かりました。社内横展開を図りたいと考えますので、説明を聞きたい、あるいは技術の横展開を希望する部署の方は
+ぜひ声をかけてくださいませ。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

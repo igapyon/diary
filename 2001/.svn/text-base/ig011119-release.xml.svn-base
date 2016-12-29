@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011119.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011119.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-19</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://java.sun.com/xml/downloads/javaxmlpack.html"/>
+        <rdf:li resource="http://xml.apache.org/xerces-j/index.html"/>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/11/16/631347-000.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/xml/downloads/javaxmlpack.html">
+    <title>Java XML Pack Fall 01 リリース</title>
+    <link>http://java.sun.com/xml/downloads/javaxmlpack.html</link>
+    <description>JAXM, JAXP, JAXB, JAXR, JAX-RPCなどの1セットがファーストリリースです。XML屋なら要チェックですねっ。</description>
+    <dc:date>2001-11-19T08:18:16</dc:date>
+  </item>
+
+  <item rdf:about="http://xml.apache.org/xerces-j/index.html">
+    <title>Apache Xerces-J 1.4.4 リリース</title>
+    <link>http://xml.apache.org/xerces-j/index.html</link>
+    <description>バグフィックスリリース。2.x系はさておき、1.x系も 地道にリビジョンアップしていっています。ただし 一般的には J2SE 1.4にデフォルトで含まれる予定である Crimsonに興味が行く人も多いでしょうけれども…。</description>
+    <dc:date>2001-11-19T07:06:52</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/11/16/631347-000.html">
+    <title>ホロン、Windows上でLinux用のソフトウェアが使用できる「X on Windows」を発売</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/11/16/631347-000.html</link>
+    <description>Cygwin の有償ディストリビューションであると判断して良さそうなソフト。X端末も梱包されてる。私のような へぼLinux興味ユーザーには ちょうど良さそうな感じに思えます。欲しいなぁ。買おうかなぁ #給料衝動買いかっ :-P</description>
+    <dc:date>2001-11-19T15:24:22</dc:date>
+  </item>
+</rdf:RDF>

@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/09/14 日記: Java: Unicode文字コード出力サンプル</TITLE>
+<META name="DESCRIPTION" content="久しぶりに文字コードネタに遭遇したので、これをメモしました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,サンプル,Unicode">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/09/14 日記: Java: Unicode文字コード出力サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,サンプル,Unicode] 久しぶりに文字コードネタに遭遇したので、これをメモしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicode文字コード復習</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>久しぶりに文字コードネタに遭遇したので、検証用の<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>をさくっと作成してメモしておきます。<BR>
+このプログラムは、Unicode文字を範囲指定でファイル出力するものです。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Unicodeコード範囲検証トイプログラム</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * Unicodeコード検証クラス
+ * @author iga
+ */
+public class UnicodeCodeGen {
+    /** ターゲットとする文字コード */
+    private final static String CODE_PAGE = &quot;Unicode&quot;;
+
+    /**
+     * Unicocd値をもってどの文字コードに割り当てられているかをファイルに出力します。
+     * なお、ファイルにはUnicodeのコードで書き出される点に注意ください。
+     * @throws IOException
+     */
+    public static void generateCodeMap() throws IOException {
+        BufferedOutputStream outStream = null;
+        try {
+            outStream =
+                new BufferedOutputStream(
+                    new FileOutputStream(&quot;UnicodeChar.txt&quot;));
+
+            writeLine(&quot;★★★文字コード範囲検証プログラム★★★&quot;, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+            writeLine(&quot;【半角英字】 0x41から0x5A および 0x61から0x7A&quot;, outStream);
+            newLine(outStream);
+            writeUnicodeChar(0x41, 0x5A, outStream);
+            writeUnicodeChar(0x61, 0x7A, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+            writeLine(&quot;【半角数字】 0x30から0x39&quot;, outStream);
+            newLine(outStream);
+            writeUnicodeChar(0x30, 0x39, outStream);
+            newLine(outStream);
+            writeLine(&quot;　※当然だがハイフンおよびピリオドを含んでいない点に注意&quot;, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+            writeLine(&quot;【半角カナ】 Unicodeで 0xFF66 から 0xFF9F&quot;, outStream);
+            newLine(outStream);
+            writeUnicodeChar(0xFF66, 0xFF9F, outStream);
+            newLine(outStream);
+            writeLine(&quot;　※半角カナの小さい字は含む点に注意&quot;, outStream);
+            newLine(outStream);
+            writeLine(&quot;　※半角カナの長音(ハイフンにあらず)は含む点に注意&quot;, outStream);
+            newLine(outStream);
+            writeLine(&quot;　※半角空白を含まない点に注意&quot;, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+            writeLine(&quot;【半角カナおよび半角カナ句読点】 Unicodeで 0xFF61 から 0xFF9F&quot;, outStream);
+            newLine(outStream);
+            writeUnicodeChar(0xFF61, 0xFF9F, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+            writeLine(
+                &quot;【半角英数字】 0x30から0x39 および 0x41から0x5A および 0x61から0x7A&quot;,
+                outStream);
+            newLine(outStream);
+            writeUnicodeChar(0x30, 0x39, outStream);
+            writeUnicodeChar(0x41, 0x5A, outStream);
+            writeUnicodeChar(0x61, 0x7A, outStream);
+            newLine(outStream);
+            newLine(outStream);
+
+        } finally {
+            if (outStream != null) {
+                outStream.flush();
+                outStream.close();
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+        try {
+            generateCodeMap();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    /**
+     * 与えられたコード範囲のUnicodeをファイルに出力します。
+     * リトルエンディアン(little endian)で格納します
+     * http://www.atmarkit.co.jp/icd/root/00/49717200.html
+     * 
+     * @param min 下限値
+     * @param max 上限値
+     * @param writer 出力先ライタ
+     * @throws IOException
+     */
+    public static void writeUnicodeChar(
+        int min,
+        int max,
+        BufferedOutputStream outStream)
+        throws IOException {
+        for (int code = min; code &lt;= max; code++) {
+            // リトルエンディアンとするためビットマスク
+            byte lower = (byte) (code &amp; 0xFF);
+            byte upper = (byte) ((code &amp; 0xFF00) &gt;&gt; 8);
+            outStream.write((char) lower);
+            outStream.write((char) upper);
+            System.out.print((char) code);
+        }
+    }
+
+    /**
+     * １行を出力します。
+     * @param line
+     * @param outStream
+     * @throws IOException
+     */
+    public final static void writeLine(
+        String line,
+        BufferedOutputStream outStream)
+        throws IOException {
+        System.out.print(line);
+        outStream.write(line.getBytes(CODE_PAGE));
+    }
+
+    /**
+     * 改行を行います。
+     * TODO:改行コードの処理が少しうまくいっていません。
+     * @param outStream
+     * @throws IOException
+     */
+    public final static void newLine(BufferedOutputStream outStream)
+        throws IOException {
+        System.out.println();
+        outStream.write(&quot;\n&quot;.getBytes(CODE_PAGE));
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>リトルエンディアンで格納しています。</P>
+<UL>
+  <LI>リトルエンディアン<BR>
+  <A href="http://www.atmarkit.co.jp/icd/root/00/49717200.html">http://www.atmarkit.co.jp/icd/root/00/49717200.html</A>
+</UL>
+<P>、、、昔の日記と比べると、カナの範囲指定はどうも不適切っぽいです。これは再度検証する必要がありそうです。</P>
+<P>あと、もっとおおざっぱな実装もメモしておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Unicodeのコードを検証するためのトイプログラム (おおざっぱ版)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+/**
+ * Unicodeコード検証クラス
+ * @author iga
+ */
+public class MojiCodeGen {
+
+    public static void main(String[] args) {
+        try {
+            generateCodeMap();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    /**
+     * Unicocd値をもってどの文字コードに割り当てられているかをファイルに出力します。
+     * なお、ファイルにはローカルマシンのコードで書き出される点に注意が必要です。
+     * @throws IOException
+     */
+    public static void generateCodeMap() throws IOException {
+        BufferedWriter writer = null;
+        try {
+            writer =
+                new BufferedWriter(
+                    new OutputStreamWriter(
+                        new FileOutputStream(&quot;UnicodeCharList.txt&quot;)));
+
+            writer.write(&quot;★★★文字コード範囲検証プログラム★★★&quot;);
+            writer.newLine();
+            writer.newLine();
+
+            writer.write(&quot;【半角英字】 0x41から0x5A および 0x61から0x7A&quot;);
+            writer.newLine();
+            writer.write(&quot;  [&quot;);
+            writeUnicodeChar(0x41, 0x5A, writer);
+            writeUnicodeChar(0x61, 0x7A, writer);
+            writer.write(&quot;]&quot;);
+            writer.newLine();
+            writer.newLine();
+            System.out.println();
+
+            writer.write(&quot;【半角数字】 0x30から0x39&quot;);
+            writer.newLine();
+            writer.write(&quot;  [&quot;);
+            writeUnicodeChar(0x30, 0x39, writer);
+            writer.write(&quot;]&quot;);
+            writer.newLine();
+            writer.write(&quot;　※ハイフンおよびピリオドを含んでいない点に注意&quot;);
+            writer.newLine();
+            writer.newLine();
+            System.out.println();
+
+            writer.write(&quot;【半角カナ】 Unicodeで 0xFF66 から 0xFF9F&quot;);
+            writer.newLine();
+            writer.write(&quot;  [&quot;);
+            writeUnicodeChar(0xFF66, 0xFF9F, writer);
+            writer.write(&quot;]&quot;);
+            writer.newLine();
+            writer.write(&quot;　※半角カナの小さい字は含む点に注意&quot;);
+            writer.newLine();
+            writer.write(&quot;　※半角カナの長音(ハイフンにあらず)は含む点に注意&quot;);
+            writer.newLine();
+            writer.write(&quot;　※半角空白を含まない点に注意&quot;);
+            writer.newLine();
+            writer.newLine();
+            System.out.println();
+
+            writer.write(&quot;【半角カナおよび半角カナ句読点】 Unicodeで 0xFF61 から 0xFF9F&quot;);
+            writer.newLine();
+            writer.write(&quot;  [&quot;);
+            writeUnicodeChar(0xFF61, 0xFF9F, writer);
+            writer.write(&quot;]&quot;);
+            writer.newLine();
+            writer.newLine();
+            System.out.println();
+
+            writer.write(&quot;【半角英数】 0x30から0x39 および 0x41から0x5A および 0x61から0x7A&quot;);
+            writer.newLine();
+            writer.write(&quot;  [&quot;);
+            writeUnicodeChar(0x30, 0x39, writer);
+            writeUnicodeChar(0x41, 0x5A, writer);
+            writeUnicodeChar(0x61, 0x7A, writer);
+            writer.write(&quot;]&quot;);
+            writer.newLine();
+            writer.newLine();
+            System.out.println();
+        } finally {
+            if (writer != null) {
+                writer.close();
+            }
+        }
+
+    }
+
+    /**
+     * 与えられたコード範囲のUnicodeをファイルに出力します。
+     * @param min 下限値
+     * @param max 上限値
+     * @param writer 出力先ライタ
+     * @throws IOException
+     */
+    public static void writeUnicodeChar(
+        int min,
+        int max,
+        BufferedWriter writer)
+        throws IOException {
+        for (int code = min; code &lt;= max; code++) {
+            writer.write((char) code);
+            System.out.print((char) code);
+        }
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI>2000/07/06 日記: Java言語コンバータ(コード変換)挙動調査 (v1)<BR>
+  <A HREF="http://www.nttd-bb.com/solution/igapyon1/ig000706.html">http://www.nttd-bb.com/solution/igapyon1/ig000706.html</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

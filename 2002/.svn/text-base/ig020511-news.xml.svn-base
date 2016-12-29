@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020511.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020511.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.0 RC2 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>2度目のRCリリースです。多くのバグが修正されたようです。正式リリースも もう間近という所でしょうか。</description>
+    <dc:date>2002-05-11</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0205/10/02051003.html">
+    <title>IBM，2001年度の世界データベース管理ソフト市場で首位に</title>
+    <link>http://www.zdnet.co.jp/enterprise/0205/10/02051003.html</link>
+    <description>私の身近な所では そんなにDB2は入っていないのですけれどもねぇ。(最近DB2で提案したが却下されてOracleになったという案件も…)</description>
+    <dc:date>2002-05-11T18:05:15</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/10/njbt_11.html">
+    <title>オンキヨー、USBオーディオアンプを発売</title>
+    <link>http://www.zdnet.co.jp/news/0205/10/njbt_11.html</link>
+    <description>3万1000円でUSB接続アンプとスピーカーがセットなのは興味あり。</description>
+    <dc:date>2002-05-11T18:05:15</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20020509/1.html">
+    <title>日本語も使えるフリーのワードプロセッサ AbiWord 1.0 公開</title>
+    <link>http://japan.internet.com/linuxtoday/20020509/1.html</link>
+    <description>OpenOfficeの印象が強いですが、それ以外にもいろいろフリーなワープロってあるんですねぇ。</description>
+    <dc:date>2002-05-11T18:05:15</dc:date>
+  </item>
+
+</rdf:RDF>

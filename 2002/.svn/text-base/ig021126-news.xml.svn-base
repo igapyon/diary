@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021126.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021126.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://cnet.sphere.ne.jp/Enterprise/News/2002/Item/021119-3.html">
+    <title>『.NET Server』、3度目の延期</title>
+    <link>http://cnet.sphere.ne.jp/Enterprise/News/2002/Item/021119-3.html</link>
+    <description>2003/04になるのだそうです。ここまで延期するとは さすがに私も予想できませんでした。</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/26/njbt_01.html">
+    <title>ZDNN: エニックスとスクウェア、来年4月に合併</title>
+    <link>http://www.zdnet.co.jp/news/0211/26/njbt_01.html</link>
+    <description>ファイナルファンタジーとドラゴンクエストが同じ会社から出る時代が到来しようとは…</description>
+    <dc:date>2002-11-26T17:42:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.enterprisedt.com/downloads/ftp.html">
+    <title>Java FTP Client Library</title>
+    <link>http://www.enterprisedt.com/downloads/ftp.html</link>
+    <description>JavaによるFTPクライアント実装。GNU LGPLライセンスなので 何かの機会に使えそうです。</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+  <item rdf:about="http://www.bea.com/products/weblogic/jrockit/index.shtml">
+    <title>BEA WebLogic JRockit</title>
+    <link>http://www.bea.com/products/weblogic/jrockit/index.shtml</link>
+    <description>サーバサイドJava高速化ツール</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/20/ne00_ms.html">
+    <title>MS、大黒柱は相変わらずWindows/Office</title>
+    <link>http://www.zdnet.co.jp/news/0211/20/ne00_ms.html</link>
+    <description>Microsoft社の利益構造が とても分かりやすく説明してあります。</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/News/2002/Item/021122-5.html">
+    <title>ATIがLinux用グラフィックス・ドライバーをリリース</title>
+    <link>http://japan.cnet.com/News/2002/Item/021122-5.html</link>
+    <description>少しずつLinux用ドライバが出そろいつつあるようですね。</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/25/ne00_msserver.html">
+    <title>“ビッグアイアン”に本気で乗り出すMicrosoft</title>
+    <link>http://www.zdnet.co.jp/news/0211/25/ne00_msserver.html</link>
+    <description>多CPUハードウェアジャンルでの各ハードウェアベンダーの足取りが説明されていて面白いです。</description>
+    <dc:date>2002-11-26T08:42:46</dc:date>
+  </item>
+
+</rdf:RDF>

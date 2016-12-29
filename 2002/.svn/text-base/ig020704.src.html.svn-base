@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/07/04 日記: nakka WWWC 1.0.2 リリース , Opera使い初め</TITLE>
+<META name="DESCRIPTION" content="nakkaさんの WWWCがリビジョンアップされていました。, Operaブラウザを試しに使ってみました。これが結構面白く…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>さあ 今日もお仕事がんばるぞ～</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>頑張ろうと強く決意するのであった。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OperaといふWebブラウザ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Opera をざっくり使ってみました。現状 Windows日本語版 は 6.03が最新だった模様。</P>
+<UL>
+  <LI>Opera6.03 for Windows日本語版リリース<BR>
+  [replace-href:http://www.jp.opera.com/pressroom/20020530.html]
+</UL>
+<P>Java実行環境<STRONG>無し版</STRONG>を 単に入れてみました。単に動作しました。環境に既存だったJava実行環境ともうまく連動してるようです。なんていうか、難なく動きますね。</P>
+<P>また IE 6.0よりも ブラウザの起動やページ表示などが 意外なほどに高速に動作します。<BR>
+これは Opera側のふれこみ通りでしたが、私にとっては意外性がありました。結構イケていますねぇ。そこそこ気に入ってきました。<BR>
+Infoseekとの連動もそこそこイケてますし、Google検索とかに 簡単に切り替えられたのも
+うれしかったです。<BR>
+これは結構ブレークするのでは無いでしょうか。<BR>
+# 難を言えば Googleツールバーが無い点でしょうか。(Google内でのランクを表示する機能が欲しいのであった…)</P>
+<P><FONT color="#ff0000">読者の方からツッコミ</FONT><BR>
+<CITE>Subject: [igapyon:00999] Opera の小ワザ<BR>
+初めまして。<BR>
+橋本と申します。</CITE></P>
+<P><CITE>大阪の淀屋橋でJava他でお仕事しています。<BR>
+いがぴょんさんのページで以前からいろいろ勉強させていただいてます。<BR>
+よろしくお願いします。</CITE></P>
+<P><CITE>さて、私も最近はかなりOperaを使うようになりました。<BR>
+IE:Operaで3:7くらいの割合でしょうか。（IEはお仕事向けブラウザ ^^;）<BR>
+マウスジェスチャーに慣れると、やめられなくなりますね。</CITE></P>
+<P><CITE>あまり知られていないようですが、Operaのホットリスト（左側のパネル）にRDFを表示できるのが個人的に気に入ってます。</CITE></P>
+<OL>
+  <LI><CITE>表示(V) → ホットリスト → カスタムパネルを追加(A)...</CITE>
+  <LI><CITE>で現れるダイアログで、アドレスを</CITE>
+  <LI><CITE>http://my.opera.com/customize/panels/?rdf=http://slashdot.jp/slashdot.rdf</CITE>
+</OL>
+<P><CITE>のように設定すればOKです。<BR>
+URIを見れば分かるとおり、opera.comのサーバーで変換されているので、最初にちょっと待たされるのが難点ですが。</CITE></P>
+<P><CITE>では。<BR>
+-- <BR>
+* 橋本 敏 / HASHIMOTO Satoshi</CITE></P>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT>[replace-link:いがぴょん]<BR>
+さっそくのツッコミありがとうございます。<BR>
+RSS表示機能を提供とは恐れ入りました。これは早速試してみます。<BR>
+…<BR>
+おおっ RSSがホットリスト内に表示できますねっ。これはびっくり仰天。仕組み的には
+「サーバで RSS→HTML変換」ですけれども RSS普及の足がかりの期待が持てます。また
+逆に 『RSSを生で提供では無くって、最低限展開されたHTMLの方が便利な場合がある』ということも理解しました。RSSが劇的に普及するまでは
+HTML展開して用意しておくのは便利そうですね。勉強になります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>マウスジェスチャで盛り上がる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>Subject:  [igapyon:01000] Re: Opera の小ワザ<BR>
+Ant ファンのうらもとです。<BR>
+<BR>
+&gt; マウスジェスチャーに慣れると、やめられなくなりますね。<BR>
+<BR>
+確かに便利ですよね、この機能。IE とかでもついやってしまいます ^^;<BR>
+そこで、この機能を IE や Mozilla でも使えるようにする Browser Assistant
+というアプリケーションが以下のサイトにあります。</CITE></P>
+<UL>
+  <LI><CITE>Browser Assistant<BR>
+  [replace-href:http://bearfactory.hotspace.jp/]</CITE>
+</UL>
+<P><CITE>ただ、上下左右だけですので、Opear と同じように設定ができないのが残念ではありますが、とても便利です。<BR>
+ちなみに、Sleipnir というタブブラウザは、Opera と同じマウスジェスチャが登録できるのでなかなかお勧めです。<BR>
+--<BR>
+うらもと </CITE></P>
+<HR>
+<P><CITE>Subject:  [igapyon:01001] Re: Operaの小ワザ<BR>
+神部です。<BR>
+<BR>
+&gt; &gt; マウスジェスチャーに慣れると、やめられなくなりますね。<BR>
+<BR>
+以前 Sensiva という同じようなアプリケーションがあったなあと思いましたが、探してみたらパッケージ製品になってました。</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://www.panda.co.jp/sc/]</CITE>
+</UL>
+<P><CITE>一方 Mozilla にゼスチャーを実装しようというプロジェクトは</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://optimoz.mozdev.org/gestures/]</CITE>
+  <LI><CITE>[replace-href:http://surfmind.com/mozgest/]</CITE>
+</UL>
+<P><CITE>あたりにあるようです。<BR>
+-- <BR>
+Ryuzi Kambe</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows タスクトレイ プログラミング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows タスクトレイ(TaskTray)プログラミングについて、ざざっとGoogleで調べてみました。単にメモしておきます。</P>
+<UL>
+  <LI>タスクトレイにアイコンを表示する<BR>
+  [replace-href:http://www14.big.or.jp/~ken1/tech/tech1.html]
+  <LI>タスクトレイで起こったマウスイベントに対する処理を行う<BR>
+  [replace-href:http://www14.big.or.jp/~ken1/tech/tech2.html]
+  <LI>タスクトレイアイコンを使用したアプリケーションの作成 (C++Builder)<BR>
+  [replace-href:http://www.borland.co.jp/tips/cbuilder/cb008/index.html]
+  <LI>タスクトレイを利用するには？<BR>
+  [replace-href:http://isweb9.infoseek.co.jp/computer/fumiyuki/tech/tech001/index.html]
+  <LI>だめかもしれないWin32APIテクニック No3 タスクトレイを使いこなしたい!!<BR>
+  [replace-href:http://kotan.ec.hokudai.ac.jp/~hiyohiyo/vc/tec003.html]
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020704-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

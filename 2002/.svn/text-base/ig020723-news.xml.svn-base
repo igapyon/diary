@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020723.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020723.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://monolog.laox.ne.jp/back_oa_img/oa0207/oa020722_2.html">
+    <title>シャープは、OSにLinuxを採用したPOSターミナル「RZ-A370L」を7月29日に発売</title>
+    <link>http://monolog.laox.ne.jp/back_oa_img/oa0207/oa020722_2.html</link>
+    <description>開発言語はJavaなんですって。POSも Java+Linuxな時代なんでしょうか。(そこいらへんの事情は知りません)</description>
+    <dc:date>2002-07-23T19:03:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.1 Beta リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Mozilla 1.1 も 地道に進捗していっています。Betaリリースが 予定より5日遅れ程度のトコロである模様。このまま順調にいくと 8月に1.1正式版リリースの運びに。Mozilla 1.0が出た後の進捗はスムーズっぽいですね。</description>
+    <dc:date>2002-07-23T19:08:05</dc:date>
+  </item>
+
+  <item rdf:about="http://objectclub.esm.co.jp/eXtremeProgramming/PetitXPReport/">
+    <title>わたしたちの、プチXP体験談</title>
+    <link>http://objectclub.esm.co.jp/eXtremeProgramming/PetitXPReport/</link>
+    <description>XP体験談。面白く読むことが出来ました。初出は JAVA PRESS Vol.24 なのだそうです。</description>
+    <dc:date>2002-07-23T19:17:14</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/23/nebt_03.html">
+    <title>自己管理機能を備えた「DB2 v8」</title>
+    <link>http://www.zdnet.co.jp/news/0207/23/nebt_03.html</link>
+    <description>自己管理という響きは心地よいですね。データベース商品として自己管理・自己修復できるっていうのだったら魅力を感じてしまいますねぇ。</description>
+    <dc:date>2002-07-23T09:37:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/23/nebt_10.html">
+    <title>スター・ウォーズ特撮会社、Intelに切り替え</title>
+    <link>http://www.zdnet.co.jp/news/0207/23/nebt_10.html</link>
+    <description>タイトルの初期印象とは異なり、内容は SGIのUNIXから DellのLinuxへの移行に関する記事です。ふうむ 特撮ジャンルでは Linuxが流行っているのでしょうか？</description>
+    <dc:date>2002-07-23T13:39:50</dc:date>
+  </item>
+
+</rdf:RDF>

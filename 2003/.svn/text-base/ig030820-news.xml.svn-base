@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030820.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030820.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.aozora.gr.jp/">
+    <title>インターネットの電子図書館、青空文庫</title>
+    <link>http://www.aozora.gr.jp/</link>
+    <description>改めて閲覧しました。これはすばらしい。歴史的名著がオンラインでダウンロードできるなんて！</description>
+    <dc:date>2003-08-20T13:52:08</dc:date>
+  </item>
+
+  <item rdf:about="http://k-of.jp/pr-kof2003.html">
+    <title>関西オープンソース+フリーウェア2003 (同時開催: Linux Conference 2003) 2003.10.31(金) - 11.01(土)</title>
+    <link>http://k-of.jp/pr-kof2003.html</link>
+    <description>会社のすぐ近くだし 入場料無料だし、興味を持ちました。ただし、日程が ちとマズイかも知れませんけれどもね… (東京に行っている可能性が高いです)</description>
+    <dc:date>2003-08-20T13:49:00</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/05/15 日記: BEA WebLogic Server 8.1J新製品説明会に参加</TITLE>
+<META name="DESCRIPTION" content="東京出張が続き やや疲れ気味です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BEA WebLogic Server 8.1J新製品説明会 行ってきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 BEA WebLogic Server 8.1J新製品説明会 の大阪バージョンに行ってきました。</P>
+<UL>
+  <LI>[replace-href:http://www.hotelmonterey.co.jp/osaka/index.html]
+</UL>
+<P>とりあえず とてもきれいなホテルが会場でした。<BR>
+内容は…、WebLogic Server 8.1Jの機能を知りたい気持ちで一杯だったのに、内容のほとんどは
+WebLogic Platformおよび 中に含まれる 他の製品群に偏っていました。WebLogic
+Serverの話が聞きたくてセミナーに行った人は 不満な内容だったに違いないと思いました。<BR>
+まあ BEA社が何を考えているのかについて まとまって知る 良い機会でした。</P>
+<P>一方 WebLogic Server関連としては 某社の社員の方で、京都に出向いて勤務なさっている
+WebLogic Serverのスペシャリストの方に再会しました。これは有意義な出会いです。記事執筆や某銀行展開の際に
+ご助力頂ける旨 口頭で約束を取り付けてきました。すごく力強かったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>長崎でトラブル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 私の作ったパッケージソフトが長崎でトラブルを発生させていました。セミナー会場で
+PHSに着信があったのを見て、すごく嫌な予感がしたのですが、まさにそれは的中しました。セミナーの後
+会社に戻り トラブル対応しました。原因不明なのですが、レコードが論理的に不整合を起こしていました。なぜだろう…。とりあえず
+該当レコードを削除して まずは事なきを得ました。また 後ほど動作ログを送ってもらうようお願いしました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>東京ぼけ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さすがに 東京に行ったり来たりを繰り返していると 疲れがたまってきています。毎週東京に行く勢いですもの…。とりあえず来週は東京に行かなくても良いかな…、と少し期待をしつつ
+(苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はり治療</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>近いうちに はり治療に行こうと思います。連休とかがあって、はり治療にしばらく行けていませんでした。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>検索エンジンにヒットしやすいサイトとは？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Wikiに 『いがぴょんさんのサイトは どうしてGoogleで上位ランクインされるのでしょうか？』
+と聞かれました。どうしてなんでしょうね？ (笑)<BR>
+Googleはよりランクの高いサイトからのより多くのリンクがあるとランクが向上する、ということを書いているのを見た記憶がありますが、私は下記の理由だと思っています…
+(Googleのランク決定の仕組みなんて ぜんぜん理解していませんし、理解しようとも思いませんでした)</P>
+<UL>
+  <LI>いわゆる『リンク集』にリンクを張って頂いていることがあります。みなさまに感謝。
+  <LI>そこそこ前からRDF/RSSを提供しています。そもそもは RDF/RSSを使って サイトのインディックスページを自動生成するというのが主たる目的であったのですが、意外や意外、私のサイトのRDF/RSSをWebページに貼って下さっているサイトがそこそこ存在しているようでして、結果被リンク数が増加している模様
+  (RDF/RSSを紹介して下さった[replace-link:結城浩]さんに感謝)
+  <LI>ミラーサイト同士がリンクを張っているので、相互的に被リンク数を向上する効果がある。(Googleはミラーサイトは検知しない、ような気がする)
+  <LI>日付毎にページを分けていて、かつ複数の切り口によるインディックスを用意していますが、これが同一サイト内であるとはいえリンク数カウントをそこそこ上昇させている。(同一サイトのリンクは
+  Google的には価値が低かったはずです)
+  <LI>更新頻度が高い。(実際には日記を書いていない、という場合も多いのですが、私自身の利便性のために、他のサイトのRDF/RSS取り込みなどの目的も兼ねて日記バッチ更新だけは
+  結構マメに行っています。これが意外に更新頻度向上につながっている？かしらん)
+</UL>
+<P>あくまでも全て推測です。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030515-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

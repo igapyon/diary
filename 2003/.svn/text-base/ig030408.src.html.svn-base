@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/04/08 日記: GV-1394TV購入 , DV編集コトハジメ</TITLE>
+<META name="DESCRIPTION" content="テレビキャプチャー機器購入にてDV編集に興味が…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GV-1394TV購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先週の土曜日、ヨドバシカメラ梅田店にて<A href="http://www.iodata.co.jp/products/video/2003/gv-1394tv/">GV-1394TV</A>を購入しました。DV機器として認識されるテレビキャプチャー機器です。調子の悪い自宅用ビデオの代替候補として購入しました。こいつが困ったことに
+電源は(当然だけれども)パソコンとは別に投入する必要があります。(意外にもその点が最大の嫌な点です)<BR>
+それはともかく、その影響で、DVD編集などに関心が出てきました。</P>
+<P>MPEGエンコードソフト</P>
+<UL>
+  <LI>TMPGEnc Plus<BR>
+  [replace-href:http://www.pegasys-inc.com/j_tmpgenc.html]
+  <LI>Cinema Craft Encoder Lite<BR>
+  [replace-href:http://www.ctech.co.jp/mm/product/cce.html#lite]
+  <LI>Honestech MPEG Encoder 5.0<BR>
+  [replace-href:http://www.vector.co.jp/swreg/catalogue/sr033418/]
+
+</UL>
+<P>関連リソース</P>
+<UL>
+  <LI>テレビ王国<BR>
+  [replace-href:http://www.so-net.ne.jp/tv/]<BR>
+  2003.04時点で最も使い勝手の良かったiEPG対応TV番組表
+  <LI>DVD-Videoを作ろう！ 記録型DVD活用ガイド<BR>
+  [replace-href:http://www.gihyo.co.jp/books/syoseki.php/4-7741-1525-8]
+</UL>
+<P>AVI → MPEG変換って かなりCPUを喰うのですね。知りませんでした。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030408-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

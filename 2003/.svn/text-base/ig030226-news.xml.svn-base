@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030226.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030226.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/26/nebt_17.html">
+    <title>米プリンタ市場、5台に3台がHP製品</title>
+    <link>http://www.zdnet.co.jp/news/0302/26/nebt_17.html</link>
+    <description>ちなみに私の自宅のプリンタはエプソン製インクジェットプリンタです。</description>
+    <dc:date>2003-02-26T14:17:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/26/nebt_19.html">
+    <title>MS、Windows XPへの移行促進サイト立ち上げ</title>
+    <link>http://www.zdnet.co.jp/news/0302/26/nebt_19.html</link>
+    <description>一般の方々って OSをインストールし直しを自分では行わないでしょうから…。移行といっても基本的に買い換え以外では なかなか移行は難しいでしょうね。</description>
+    <dc:date>2003-02-26T14:17:22</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031008.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031008.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm">
+    <title>クリスマスプレゼントにいかが？ ソニー、業界最大級のHDD搭載DVDレコーダーPSXを発表</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm</link>
+    <description>ああっ。売れそう。というか とりあえず 欲しい！ (苦笑) ソニーお得意のおまかせ録画機能は無い模様。</description>
+    <dc:date>2003-10-08T09:32:44</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm">
+    <title>デジタル放送の「善意の嘘」は許されるか</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm</link>
+    <description>経済産業研究所・上席研究員の方が書かれた記事。『「自業自得」ですむBSデジタルとは違って、地上波デジタルは国民全員に迷惑を及ぼす。』のクダリが説得力あります。</description>
+    <dc:date>2003-10-08T09:32:44</dc:date>
+  </item>
+
+  <item rdf:about="http://pcweb.mycom.co.jp/news/2003/10/07/22.html">
+    <title>【CEATEC JAPAN 2003レポート】坂村教授、公演前に異例の「FAQ」</title>
+    <link>http://pcweb.mycom.co.jp/news/2003/10/07/22.html</link>
+    <description>週刊ダイヤモンドに ものすごい誤解記事が載ったのだそうな。これの訂正プレスリリース(?) コンピュータのことを良く分かっていない一般大衆紙記者が記事を書くと とんでもない間違い (あるいは意図的＆恣意的な間違い？) が発生するのかしら？ 私には理解不能。</description>
+    <dc:date>2003-10-08T09:47:36</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html">
+    <title>ネットワークエンジニアを目指せ！: いまネットワークで求められる技術とは</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html</link>
+    <description>最近のネットワーク関連技術には全く追従できておりません。日進月歩なんだもん。でも TCP/IPにまつわる技術が根っこに存在しているという点は 昔も今も変わりありません。その点だけは安心できます。</description>
+    <dc:date>2003-10-08T09:47:36</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/">
+    <title>「Javaが流行っていても開発者はいつか4GLに戻ってくる」</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/</link>
+    <description>Javaは確かに、4GLと比べると いくつも問題点が見えます。ただし いわゆる4GL言語が搭載している生産性向上のための取り組みをJavaに取り組むことは可能だし そういったパッケージソフトな開発環境も 今まで幾つも見たことがあります。とてもJavaから従来型4GLへの回帰が起こるとは考えられません。むしろJavaに4GL的要素を盛り込んだ商品は売れるだろうと私は読んでいるのですが…</description>
+    <dc:date>2003-10-08T09:32:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/game/docs/20030502/21th.htm">
+    <title>サイバーフロント、「A列車で行こう」を6月19日に発売</title>
+    <link>http://www.watch.impress.co.jp/game/docs/20030502/21th.htm</link>
+    <description>Windows版としてA列車が戻ってきたのだそうです！ びっくりです。でもヒマが無いからとても遊べなさそうですが…。</description>
+    <dc:date>2003-10-08T21:07:26</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872">
+    <title>“和解”で図る競合つぶし--トロンに屈したMSにリナックスの影</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872</link>
+    <description>この記事中では、参加発表の遅れを『大企業病』と読み解いています。</description>
+    <dc:date>2003-10-08T21:07:26</dc:date>
+  </item>
+  <item rdf:about="http://www.ochato.or.jp/">
+    <title>お茶の水図書館</title>
+    <link>http://www.ochato.or.jp/</link>
+    <description>妻がたまに利用する図書館。2003年10月1日リニューアルオープンにて営業再開。ずいぶん長い間、リニューアル作業にて閉館していました。無事に再開できて良かったです。</description>
+    <dc:date>2003-10-08T21:07:26</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/17 日記: SQLServer 2000用JDBCドライバ リリース</TITLE>
+<META name="DESCRIPTION" content="Microsoft SQL Server 2000用JDBCドライバがリリースされました。 , 身近なところでデマウイルスの影響が出ました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日もいろいろ仕事が…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>沢山いろいろ仕事が…。法務関連の1件についても 質問メールを出して これは完了…。ふう。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>章立て案送付終了</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>執筆している本とは<STRONG>別の本</STRONG>に関する章立ての案を送付しました。没ネタになる可能性も大いにありますけれどもね
+(苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2000 Driver for JDBC</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">Sekiyaさんから情報提供</FONT><BR>
+<CITE>Subject: Microsoft SQL Server 2000 Driver for JDBC リリース (2.2.0022)<BR>
+はじめまして、<BR>
+「いがぴょんの日記v2」いつも、楽しみにしています。<BR>
+<BR>
+いつも、参考にさせていただくばかりなので、もう、ご存知かも、知れませんが、お知らせを。<BR>
+Microsoft SQL Server 2000 Driver for JDBC がリリースされていました。。。<BR>
+なんか、ひっそりですね。<BR>
+以下、URLです。。。</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://msdn.microsoft.com/downloads/default.asp?URL=/downloads/sample.asp?url=/MSDN-FILES/027/001/779/msdncompositedoc.xml]</CITE>
+</UL>
+<P><CITE>では、では。。<BR>
+-------------------------------<BR>
+Masahiro Sekiya</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+初めて知りました。情報提供ありがとうございます。<BR>
+私は SQLServer用JDBCドライバを待ち望んでいた人間の一人なので、Type4ドライバがリリースされたという
+このニュースはとっても嬉しいです。<BR>
+Windows用とUNIX用の2種類のJDBCドライバがリリースされていました。早速ダウンロードしてみました。結果的に
+Windows用とUNIX用の内容は ほぼ同一であるようですね。</P>
+<P><FONT color="#ff0000">2004.02.24 追記</FONT> 2004/01/25 時点での情報をここに加筆<BR>
+米国サイトでは、SQL Server 2000 用JDBCドライバは SP2という最新版があり、このドライバは
+一層 日本語に対応しています。ところが、マイクロソフト日本法人のサイトには
+このドライバはリストアップされておらず SP無しの初期バージョンのみがリストアップされていました。</P>
+<UL>
+  <LI><A href="http://www.microsoft.com/downloads/details.aspx?displaylang=ja&amp;FamilyID=9f1874b6-f8e1-4bd6-947c-0fc5bf05bf71">SQL 
+Server 2000 Driver for JDBC Service Pack 2 (SP2)</A> (2.2.0037)<BR>
+  2003/11/06リリース
+</UL>
+<P>これを使うと エラーメッセージの一部で発生する文字化けが改善される模様。山本(Y-moto)さん、ツッコミ
+ありがとう。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig050429.html">2005/04/29 日記: Java: Microsoft SQL Server 2000 + JDBC における更新ロックを伴った検索および更新の実現方法</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>姉がデマウイルスに翻弄されました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日の夜 姉から電話があり、『パソコンがウイルスに感染したとメールが…』との事でした。このウイルスの件で
+結構困惑していました。<BR>
+で、私はGoogle検索をかけてみたら、それがデマウイルスであるということが判明しました。</P>
+<UL>
+  <LI>IPA/ISEC:「jdbgmgr.exe」に関するデマメール情報<BR>
+  [replace-href:http://www.ipa.go.jp/security/topics/alert140515.html]<BR>
+  IPAのこの活動には大変感謝しています。適切な情報が的確に載っています。
+  <LI>トレンドマイクロ: JDBGMGR.EXE HOAX<BR>
+  [replace-href:http://www.trendmicro.co.jp/vinfo/virusencyclo/default5.asp?VName=JDBGMGR.EXE%20HOAX]<BR>
+  電子メール版不幸の手紙、とは上手く表現したものです。
+</UL>
+<P>姉のパソコンはウイルスバスター2001で防御していますし、メールソフトも適切な物を利用しているので、まあ
+並大抵ではウイルス感染しないようになっています。これで大丈夫でしょう。<BR>
+それよりも 昨晩 私の眠りが妨げられた事のほうが印象強いです。ウイルスやデマウイルスって、本当に世の中の迷惑ですね。</P>
+<P><FONT color="#ff0000">14:00</FONT> ZDNETにも載っていました。流行っているんですね。</P>
+<UL>
+  <LI>「jdbgmgr.exe」について警告するにせの電子メールに注意<BR>
+  [replace-href:http://www.zdnet.co.jp/news/0205/17/nebt_14.html]
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020517-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

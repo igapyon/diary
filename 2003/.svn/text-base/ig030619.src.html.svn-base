@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/19 日記: XSL初体験</TITLE>
+<META name="DESCRIPTION" content="システムトラブル対応中 , 今度の土曜日、JR日根野駅に関空快速・紀州路快速の増結・分離を見に行きます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XSL初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>XSLを初めて使ってみる。いがぴょんの日記RSSをXSL対応に加工してみる。ほほう、これは面白い。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今度の土曜日、関空快速・紀州路快速の増結・分離を見に行きます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>和音は 電車の増結・分離に興味があるのだそうで、それなら ということで <A href="ig030621.html">今度の土曜日 (2003年06月21日)</A> に、和音と 関空快速・紀州路快速の 増結・分離を観察に日根野に行きます。<BR>
+和音が 電車の増結・分離を直接見るのは初めてなので、今からとても楽しみにしているようです。</P>
+<UL>
+  <LI><A href="ig030621.html">2003/06/21 日記: JR日根野駅に、関空快速・紀州路快速の増結・分離ウォッチングへGO!</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual Studio .NET / C# / ADO.NET</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>SqlCommandのタイムアウトは SqlCommandのプロパティでセットする方式であるのを知りました。Web.configで簡単設定とは行きませんでした。それに
+SQL文のタイムアウトなんだから、SQL文ごとに設定できてしかるべきとも思えてきました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Macromedia Flash Remoting MXメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昔羽生さんに言われていたとおりでした。<A href="http://www.macromedia.com/jp/software/flashremoting/">Flash Remoting MX</A> を使ったWebサービス呼び出しは、現状のバージョンでは オブジェクトの戻しができず、一旦プリミティブ型に落としてからしか受信できませんでした。羽生さんの言われたとおりだってのを
+裏を取っただけでした (苦笑) でも自部署で試すことは大事なことです。</P>
+<P>一方 XMLをHTTPベースでWebサービスに直接投げつけることにより Webサービスが呼び出せることがわかりました。これはびっくり。戻りもXMLで戻して
+それをパースしたら Webサービスベースの送受信ができるって塩梅です。これは便利。しかも
+スマート。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ぐはあ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>システムトラブル対応中。</P>
+<P><FONT color="#ff0000">20:39</FONT> なんとか鎮火。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>明日は和歌山出張</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日の朝、阪急豊中 7:33発 急行に乗車予定。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030619-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

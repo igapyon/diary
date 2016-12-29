@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021011.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021011.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html">
+    <title>.NET戦略の命運握るIIS 6.0</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html</link>
+    <description>この記事にあるように、IISはイントラネットでは使う物の インターネット環境では使いたくない という世間一般の認識がありますね。私も同意します。</description>
+    <dc:date>2002-10-11T14:19:15</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614">
+    <title>「.NET」と「Java」、来年はともに約60％の開発者が使用</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614</link>
+    <description>実質上の標準言語としてJava言語は君臨することでしょう。でも ASP.NET + C# も これがなかなか小規模イントラネット向けにはベストチョイスであるようにも思えます。</description>
+    <dc:date>2002-10-11T14:19:15</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021010/3.html">
+    <title>個人から企業に移るカーネル開発</title>
+    <link>http://japan.internet.com/linuxtoday/20021010/3.html</link>
+    <description>Linuxカーネル開発が企業に移っていく、のは当然の流れです。喜ぶべき事である反面、ちょっぴり寂しさをも感じます (苦笑)</description>
+    <dc:date>2002-10-11T16:57:30</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021009/3.html">
+    <title>Vine Linux 2.6R 予約販売を開始</title>
+    <link>http://japan.internet.com/linuxtoday/20021009/3.html</link>
+    <description>Vine Linux も次のバージョンが出る季節なんですねぇ (仕事の忙しさにやられて Linuxディストリビューションを追う暇が無い…)</description>
+    <dc:date>2002-10-11T16:57:30</dc:date>
+  </item>
+
+  <item rdf:about="http://www.ipa.go.jp/security/txt/2002_10outline.html">
+    <title>IPA/ISEC: 2002年9月の届出状況</title>
+    <link>http://www.ipa.go.jp/security/txt/2002_10outline.html</link>
+    <description>行政のありがたい資料。こういった資料を通じて、世間一般の方々にウイルス対策が浸透することを祈る。</description>
+    <dc:date>2002-10-11T14:19:15</dc:date>
+  </item>
+
+</rdf:RDF>

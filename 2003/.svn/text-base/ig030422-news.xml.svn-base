@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030422.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030422.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-22T06:46:41</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/15/njbt_05.html">
+    <title>MSI、875Pマザーを発売</title>
+    <link>http://www.zdnet.co.jp/news/0304/15/njbt_05.html</link>
+    <description>Intelチップセットも875の時代到来ですね。出てくると欲しいという気持ちがわいてきますね (苦笑)</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/15/njbt_03.html">
+    <title>Linuxニュースサイト「japan.linux.com」オープン</title>
+    <link>http://www.zdnet.co.jp/news/0304/15/njbt_03.html</link>
+    <description>暖かく見守りたいと思います。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/16/njbt_10.html">
+    <title>NECエレ、デジタル放送受信機能も統合するDVDレコーダ向けLSIを開発</title>
+    <link>http://www.zdnet.co.jp/news/0304/16/njbt_10.html</link>
+    <description>こういうチップが 数ヶ月後の実製品につながる、と思うと面白いですね。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0304/16/lp05.html">
+    <title>メルコ、無線LAN製品におけるIEEE802.11g製品の出荷構成比率が急上昇</title>
+    <link>http://www.zdnet.co.jp/broadband/0304/16/lp05.html</link>
+    <description>世間的には IEEE802.11g に向いて流れている模様。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.synapse.ne.jp/komurano/taiki/sen/">
+    <title>千と千尋DVDが赤い理由 -こうして、千と千尋のDVDは赤くなった-</title>
+    <link>http://www.synapse.ne.jp/komurano/taiki/sen/</link>
+    <description>大変勉強になりました。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/17/nebt_06.html">
+    <title>Sun、少額ながら黒字</title>
+    <link>http://www.zdnet.co.jp/news/0304/17/nebt_06.html</link>
+    <description>なんとか黒字でがんばって欲しいです。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/19/nebt_01.html">
+    <title>Roxio、「GoBack」をSymantecに売却</title>
+    <link>http://www.zdnet.co.jp/news/0304/19/nebt_01.html</link>
+    <description>ソフトの所在地が『適正化』された、ということでしょうか？</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/19/nebt_11.html">
+    <title>HP、ブレードサーバにPentium M採用</title>
+    <link>http://www.zdnet.co.jp/news/0304/19/nebt_11.html</link>
+    <description>サーバに停電力消費CPUが有利なのは論理的に正論です。そこに、トランスメタ製品ではなくIntel製品が選択されてしまう…のでしょうか？ と思ったら 既存製品のグレードアップだったのですね。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/21/ne00_browser.html">
+    <title>MSがブラウザ戦争で失ったもの、得たもの</title>
+    <link>http://www.zdnet.co.jp/news/0304/21/ne00_browser.html</link>
+    <description>ブラウザ戦争の歴史を振り返る 面白い読み物。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/webopt11/webopt11.html">
+    <title>JDBC接続を高速化する - PreparedStatementキャッシュの威力 -</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/webopt11/webopt11.html</link>
+    <description>PreparedStatementを利用したら動作は高速になります。この記事では PreparedStatementをキャッシュするアプリケーションサーバについて説明しています。</description>
+    <dc:date>2003-04-22T06:46:44</dc:date>
+  </item>
+
+</rdf:RDF>

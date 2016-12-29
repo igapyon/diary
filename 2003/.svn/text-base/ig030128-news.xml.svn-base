@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030128.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030128.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/commons/httpclient/">
+    <title>Jakarta HttpClient Component</title>
+    <link>http://jakarta.apache.org/commons/httpclient/</link>
+    <description>いろいろやろうとしたら java.net以下のHTTPクライアントでは機能不足なんだそうです。興味深い。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://gigazine.net/News/html/lg/000854.htm">
+    <title>ポート1434にアタックがいっぱい来た方へ -「Slammer」というワーム-</title>
+    <link>http://gigazine.net/News/html/lg/000854.htm</link>
+    <description>「Slammer」というワームに関する情報ページ。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NOS/NEWS/20030124/2/">
+    <title>Tomcat最新版でメモリー・リーク問題を回避</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NOS/NEWS/20030124/2/</link>
+    <description>Tomcat 4.x系は まだまだだなぁ… (悲)</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/wbsrvic06/wbsrvic06_0.html">
+    <title>@IT: 第6回　WSDLでWebサービスを記述する</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/wbsrvic06/wbsrvic06_0.html</link>
+    <description>最近 仕事がWebサービス付いているので WSDLとかの情報には敏感になってしまいます (苦笑)</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/devs/xpd02/xpd02.html">
+    <title>@IT: 第2回 CVSとEclipseで「コードの共同所有」</title>
+    <link>http://www.atmarkit.co.jp/fjava/devs/xpd02/xpd02.html</link>
+    <description>2000/XP上で動作するCVSサーバの利用方法紹介が載っています。興味深々。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/28/nebt_01.html">
+    <title>Borland、MSの.NET Framework SDKをライセンス</title>
+    <link>http://www.zdnet.co.jp/news/0301/28/nebt_01.html</link>
+    <description>Delphiなどが.NET Framework上で動作するようになったら、どうなるんだろう なあんて いろいろ面白いことがイメージできます。それとも Delphi.NET とかが登場するのかしらん。</description>
+    <dc:date>2003-01-28T20:16:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/28/nebt_07.html">
+    <title>MS、Windows NT 4のサポート延長</title>
+    <link>http://www.zdnet.co.jp/news/0301/28/nebt_07.html</link>
+    <description>旧製品のサポートを延長するというのは マイクロソフトらしからぬ(?)決断と思えてしまいますね。反面 利用者にとっては 旧製品のサポートが伸びるのは喜ばしいケースが多いことでしょう。</description>
+    <dc:date>2003-01-28T20:16:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/24/epn17.html">
+    <title>Linuxと共存の道を歩むIBM</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/24/epn17.html</link>
+    <description>IBMって Linuxにヒトとカネを ふんだんに突っ込んでいるんですよね…。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/24/njbt_01.html">
+    <title>富士通とIntel、Linux対応の基幹業務システム向けIAサーバ開発で協業</title>
+    <link>http://www.zdnet.co.jp/news/0301/24/njbt_01.html</link>
+    <description>富士通もIBMにならってLinuxによる汎用機・UNIXのリプレースへと動き出しつつあるんですね。びっくりです。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/24/epn11.html">
+    <title>IBMの基調講演は、大がかりなコマーシャル</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/24/epn11.html</link>
+    <description>LinuxWorldが 純粋なビジネスの話題を提供する向きにあるんですか…。びっくりです。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/24/epn14.html">
+    <title>サン、「SUN Linux」にSun Oneソフトウェアを展開</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/24/epn14.html</link>
+    <description>いよいよサンが "観念" してLinuxに重心を移し始めつつあるんですね。世も世ですねぇ。</description>
+    <dc:date>2003-01-28T08:52:52</dc:date>
+  </item>
+
+</rdf:RDF>

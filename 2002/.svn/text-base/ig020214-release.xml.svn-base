@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020214.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020214.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-14</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4/ja/download.html">
+    <title>SUN J2SE 1.4 リリース</title>
+    <link>http://java.sun.com/j2se/1.4/ja/download.html</link>
+    <description>待望の最新版Javaである、Java2 Standard Edition 1.4 がリリースされました！</description>
+    <dc:date>2002-02-14T09:10:20</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/jndi/">
+    <title>SUN JNDI DNS service provider 1.2, LDAP service provider 1.2.4  メンテナンスリリース</title>
+    <link>http://java.sun.com/products/jndi/</link>
+    <description>DNSおよびLDAPのサービスプロバイダのメンテナンスリリース。ちなみに J2SE 1.4 には 新たにDNSサービスプロバイダが含まれてリリースされているそうです。</description>
+    <dc:date>2002-02-14T17:00:16</dc:date>
+  </item>
+
+</rdf:RDF>

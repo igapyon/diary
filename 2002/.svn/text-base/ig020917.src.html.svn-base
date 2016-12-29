@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/17 日記: ASP.NETでハマりまくり</TITLE>
+<META name="DESCRIPTION" content="開発で ひいひい 言っています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# + ASP.NET: 繰り返し行の編集表示には System.Web.UI.WebControls.DataListの利用が良い模様</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>System.Web.UI.WebControls.Repeaterで繰り返し行編集機能を実装しようと思っていたのですが、それは無理でした。Repeaterは表示のみ機能するようです。<BR>
+編集機能を実現するには、System.Web.UI.WebControls.DataList の利用が良いようです。ただし
+これは Jakarta Struts と異なり 1行ずつ 自前で処理する必要があるようなのです。同僚のプログラマーに1週間近く
+これが原因で消費させてしまいました。すみません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>妻の電話機を更新</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>妻の電話機を 私の電話機と同じ機種に機種変更しました。KX-HV50 という機種です。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig020228.html">2002/02/28 日記: PHS買い換え衝動 , スプリットキーレイアウトキーボード</A>
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020917-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

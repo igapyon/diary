@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030822.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030822.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/21/nebt_12.html">
+    <title>SCOの「証拠コード」にLinux関係者から批判続出</title>
+    <link>http://www.zdnet.co.jp/news/0308/21/nebt_12.html</link>
+    <description>この記事によると、1970年代のBSDライセンスのコードについて SCOが主張をしているのだそうな。</description>
+    <dc:date>2003-08-22T12:24:00</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060511,00.htm">
+    <title>「米SCOの『決定的証拠』は裏目に出る」とリーナス</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060511,00.htm</link>
+    <description>この記事によると、SCOは単に UNIXのコードとLinuxのコードとを、単にパターン認識的に 同一かどうかを調べただけであるようですね。そのソースコードが 過去 どのようなライセンス下でリリースされていて、そして どのような経緯で UNIXとLinuxとに含まれているか、なあんて歴史には ぜんぜん無頓着だったのでしょう。</description>
+    <dc:date>2003-08-22T12:24:00</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060495,00.htm">
+    <title>米IBM、ラショナルをオープンソースのEclipseに対応させる戦略</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060495,00.htm</link>
+    <description>ものすごく刺激的な戦略だと思います。Eclipse人気に乗じ、かつEclipseの人気を更に高める画期的な戦略です。</description>
+    <dc:date>2003-08-22T12:24:00</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011029.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011029.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-29</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0110/26/01102621.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/27/b_1026_04.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0110/26/01102621.html">
+    <title>カスミ，ebXMLベースのB2Bシステムを構築</title>
+    <link>http://www.zdnet.co.jp/enterprise/0110/26/01102621.html</link>
+    <description>仕事でB2Bシステム開発経験があるので、ebXMLネタとかには反応してしまいがちです(苦笑) カスミと言えば 筑波に住んでいた頃お世話になったのを思い出します。</description>
+    <dc:date>2001-10-29</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/27/b_1026_04.html">
+    <title>Windows XP用の20Mバイトのアップデート</title>
+    <link>http://www.zdnet.co.jp/news/0110/27/b_1026_04.html</link>
+    <description>リリースされたばかりの Windows XP に さっそくアップデートがかかるんだそうな。しかし、これって勝手にアップデートぶちかまして かえって新たなバグでバグバグになってしまうって可能性は無いのだろうか。</description>
+    <dc:date>2001-10-29</dc:date>
+  </item>
+
+</rdf:RDF>

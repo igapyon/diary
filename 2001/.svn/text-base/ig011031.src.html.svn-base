@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/10/31 日記: Netscape 6.2 Windows版日本語版リリース</TITLE>
+<META name="DESCRIPTION" content="Netscape 6.2 Windows日本語版リリース。早速ダウンロード">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt] [replace-param:htmlstyle=tabletitle][replace-rdf:ig011031-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ダウンロード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Netscape 6.2 Windows版日本語版は 下記からフルインストール版がダウンロード可能<BR>
+  [replace-href:ftp://ftp.netscape.com/pub/netscape6/japanese/6.2/windows/win32/sea/N6SetupB.exe]
+</UL>
+<P>ちなみに、Netscape 6.1 と Netscape 6.2 との相違は Windows XP 対応、のみでしょうか…
+(苦笑)<BR>
+</P>
+<P><FONT color="#ff0000">2001/11/01</FONT> Kambeさんからツッコミ<BR>
+<CITE>そんなことはないですよ。元となったMozillaのマイルストーンの差分から見ても、相当な起動速度、動作速度の改善は見られます。<BR>
+他の具体的な改善点が知りたければ</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://home.netscape.com/eng/mozilla/ns62/relnotes/62.html]</CITE>
+</UL>
+<P><CITE>にリリースノートがあります。<BR>
+<BR>
+確かに目立つ新機能はないですが、普通の人にも安心して勧められるようになった分、重要なリリースだと思います。<BR>
+どうか(苦笑)などと書かないで下さい。QAした何十数もの人が泣きますよ(^-^;</CITE></P>
+<UL>
+  <LI><CITE>FYI:<BR>
+  [replace-href:http://www.mozilla.gr.jp/ml/logs/moz-users/3900/3972.html]</CITE>
+</UL>
+<P><CITE>Ryuzi Kambe</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+Mozilla 0.9.4ベースに更新だったのですか。(それすら知りませんでした)<BR>
+手を抜いて Netscapeの日本語ドキュメントだけ見ていた私が悪かったです。(その時点での日本語ドキュメントは
+6.1ベース+αだった、、、ような)<BR>
+Mozilla 0.9.4ベースだとすると かなりの改善が期待できますね。<BR>
+すんませんです。ご指摘 ありがとうございます。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig011031-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

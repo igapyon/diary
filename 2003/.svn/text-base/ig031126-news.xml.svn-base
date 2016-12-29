@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031126.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031126.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/25/njbt_04.html">
+    <title>「CE Linux」試験版ソースコードを公開</title>
+    <link>http://www.zdnet.co.jp/news/0311/25/njbt_04.html</link>
+    <description>GPL下にてリリースされたんですって。これは惹かれるなぁ。</description>
+    <dc:date>2003-11-26T06:34:22</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062195,00.htm">
+    <title>日本オラクルとサン、セガのオンラインゲーム用データベースサーバの構築を担当</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062195,00.htm</link>
+    <description>「ダービーオーナーズクラブ オンライン」はOracle9i およびRACで動作するんですって！</description>
+    <dc:date>2003-11-26T06:34:22</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062201,00.htm">
+    <title>Java開発ツールに、ベンダ間で相互運用性改善の動き</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062201,00.htm</link>
+    <description>EclipseとNetBeansの間でプラグインなどの相互運用がなされるとってもうれしいのですが…。</description>
+    <dc:date>2003-11-26T06:34:22</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/column/career/20031120/1.html">
+    <title>漢方採用の妙</title>
+    <link>http://japan.internet.com/column/career/20031120/1.html</link>
+    <description>企業の人材採用が『漢方』的に行われている、という記事。まあ西洋医学の薬だって 不要なものが たくさん入っていますけれどもね。</description>
+    <dc:date>2003-11-26T22:13:44</dc:date>
+  </item>
+  <item rdf:about="http://www.oreilly.co.jp/BOOK/linuxsckbk/">
+    <title>Linuxセキュリティ クックブック - システム防御のためのレシピ集</title>
+    <link>http://www.oreilly.co.jp/BOOK/linuxsckbk/</link>
+    <description>単純に手元に欲しい</description>
+    <dc:date>2003-11-26T22:13:44</dc:date>
+  </item>
+  <item rdf:about="http://www.mainichi.co.jp/eye/kishanome/200311/20.html">
+    <title>医薬品のコンビニ販売　副作用被害深刻化の恐れ</title>
+    <link>http://www.mainichi.co.jp/eye/kishanome/200311/20.html</link>
+    <description>基本的に よほどひどい病気以外の際に、薬はのまないということが肝心です。</description>
+    <dc:date>2003-11-26T22:13:44</dc:date>
+  </item>
+
+</rdf:RDF>

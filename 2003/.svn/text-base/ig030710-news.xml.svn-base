@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030710.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030710.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/webhole03/webhole01.html">
+    <title>セキュアなWebサイトを運営するためのWebアプリケーションに潜むセキュリティホール: 第3回 気を付けたい貧弱なセッション管理</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/webhole03/webhole01.html</link>
+    <description>セッションに積む文字列はクラックできるんだよ という記事。セキュリティ初心者向けのすばらしい記事です。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/09/njbt_09.html">
+    <title>サイトにAmazonの機能を取り込めるサービスを開始</title>
+    <link>http://www.zdnet.co.jp/news/0307/09/njbt_09.html</link>
+    <description>日本のアマゾンが 自身の機能をWebサービス公開した旨の記事。普段Webサービスを仕事にしている私にとって、これは興味深い。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/07/08/644820-000.html">
+    <title>【人気記事ランキング(6月30日～7月6日)】『Netscape 7.1』/『Mozilla 1.4』が話題に</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/07/08/644820-000.html</link>
+    <description>Mozilla 1.4は安定版フェーズに入り、そこから開発版がブランチし (どちらが幹かはさておき) また 開発版全盛なナマメカシイ時代が到来します！ 楽しそうですね。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030707/1/">
+    <title>ずさんな個人情報の管理が企業経営を揺さぶる</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030707/1/</link>
+    <description>ローソンの個人情報漏洩が記憶に新しいですね。この記事では そういった個人情報管理に関する話題を展開しています。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/09/ne00_torvalds.html">
+    <title>トーバルズ氏、SCO問題とLinuxのこれからを語る</title>
+    <link>http://www.zdnet.co.jp/news/0307/09/ne00_torvalds.html</link>
+    <description>がんばれ トーバルズ、がんばれ Linux。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://it.nikkei.co.jp/it/sp/win_vs_linux.cfm?i=2003070810250wb">
+    <title>(7/8)政府、人事・給与システムにリナックス採用</title>
+    <link>http://it.nikkei.co.jp/it/sp/win_vs_linux.cfm?i=2003070810250wb</link>
+    <description>日本国も Linuxに取り組んでいるようで…</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20030710/3/">
+    <title>Windowsに3種類の深刻なセキュリティ・ホール，すべてのユーザーが対策を</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20030710/3/</link>
+    <description>またまた やばそうなセキュリティホールが発見されたのだそうです。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.59829">
+    <title>MS Windowsにまたしてもセキュリティホール</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.59829</link>
+    <description>最高レベルのセキュリティホールなんだそうです。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/256366">
+    <title>アマゾン、Amazon.co.jpのコンテンツが組み込めるWebサービス</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/256366</link>
+    <description>Webサービス系は 大変興味深い。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/08/epi02.html">
+    <title>Linksysが自社無線LAN機器のファームウェアをGPLに基づき公開</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/08/epi02.html</link>
+    <description>公開に至ったことは すばらしい。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20059840,00.htm">
+    <title>米グーグルのキャッシュ機能は著作権侵害？</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20059840,00.htm</link>
+    <description>Googleにキャッシュされていて、そしてランクが上がれば サイト側には有利なことだと思うのですが…。</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059847,00.htm">
+    <title>米ウォルマート、RFIDタグ実験をドタキャン</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059847,00.htm</link>
+    <description>セキュリティ面の問題を技術的に払拭しないと 『実験です』でやってしまうのは危険だなぁ…</description>
+    <dc:date>2003-07-10T21:17:51</dc:date>
+  </item>
+
+</rdf:RDF>

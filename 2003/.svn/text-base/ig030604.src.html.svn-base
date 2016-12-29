@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/04 日記: 今日も執筆活動予定</TITLE>
+<META name="DESCRIPTION" content="別の執筆が始動しだしている。やばい (苦笑)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日も執筆活動にいそしむ…予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今週 記事執筆にさけそうなのは 残り今日だけなので、今日はすっごくがんばる予定。<BR>
+<FONT color="#ff0000">16:20</FONT> いちおう脱稿する。これを あさっての金曜日に自己査読して 編集さまに正規版を送れば
+目先の一つは片が付く</P>
+<P><FONT color="#ff0000">16:21</FONT> と思ったら 別件の方の書籍出版の編集さまからメールが来てしまう。そういえば 6月頃からやりましょうと決めていたのであった。おろおろ (苦笑)<BR>
+すんません。とりあえず FIFO(先入れ先出し)でがんばりますので、もう少しお待ち下さいませ。</P>
+<P><FONT color="#ff0000">20:20</FONT> WebLogic の原稿は第二章へと突入する。がんがん画面イメージを取っていく。png形式が非圧縮で(原稿データとしては)よろしい旨どこかで指摘されたので、bmpをpngに変換して
+それをimageディレクトリに入れる。で これをアーカイブバックアップ。さて、今日はこのくらいでおしまいにするか…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Macromedia Flash MX + Webサービスの仕事を 本当に受注してしまいそう…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>がんばった甲斐あってか なんと 本当に Macromedia Flash MX + Webサービスの仕事を受注してしまいそうです。しかもエンドが6月末とゆう
+(笑)<BR>
+う～む。思わず 『分身の術』 とか口走りそうです。(※いがぴょんに 忍術の心得はありません)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IO-DATA GV-1394TVの録画ソフト、まだ腐っています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>最新パッチ バージョン1.04Bで かなり改善されましたが、まだ 録画予約が正常に動作しないことがあります。う～ん。困ったシロモノだなぁ。<BR>
+あと 困るのが Windows XPで録画終了時に、『終了時に休止状態にする』チェックボックスを入れていると、なぜか
+サスペンド状態に入ってしまう点です。休止状態とサスペンド状態とは違うモードなのですが…。ちょっと
+フラグを書き間違えているだけだとは思います。これが 正常に休止状態になってくれないと
+深夜に番組を予約録画した後、パソコンが電気入りっぱなしになってしまい、部屋がもんわりと暖かくなったり
+ファンの音がうるさかったりと、大変良くないのです。<BR>
+あともうちょい、IO-DATAがんばれ q(^o^)P<BR>
+# 何か代替ソフトに手を出す方が正道なのだろうか、と悩み始めてしまいそうになるほど
+IO-DATA の GV-1394TV録画ソフトは腐っています。ハードウェアそのものは気に入っているだけに残念です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>株式会社メディアフュージョンの方が来社されました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日、大阪事務所の方に <A href="http://www.mediafusion.co.jp/">株式会社メディアフュージョン</A> の方が来社されました。XMLデータベースエンジンYggdrasillなどの紹介をされて帰って行かれました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030604-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

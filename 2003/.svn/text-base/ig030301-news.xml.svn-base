@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030301.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030301.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://yamaguch.sytes.net/~tora/java/axis.xml">
+    <title>WEB+DB PRESS Vol.13 次世代Webサービスエンジン Axis詳解 入稿原稿？</title>
+    <link>http://yamaguch.sytes.net/~tora/java/axis.xml</link>
+    <description>入稿原稿が載っかっています。これはすばらしい！</description>
+    <dc:date>2003-03-01T18:40:43</dc:date>
+  </item>
+  <item rdf:about="http://savannah.gnu.org/projects/classpath/">
+    <title>GNU Classpath</title>
+    <link>http://savannah.gnu.org/projects/classpath/</link>
+    <description>GPLなJava互換classpathを作成するとゆ～プロジェクト。興味深い。</description>
+    <dc:date>2003-03-01T18:40:43</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/27/njbt_07.html">
+    <title>手書きの“くせ”もオリジナルフォントに</title>
+    <link>http://www.zdnet.co.jp/news/0302/27/njbt_07.html</link>
+    <description>興味深い。</description>
+    <dc:date>2003-03-01T18:40:43</dc:date>
+  </item>
+
+</rdf:RDF>

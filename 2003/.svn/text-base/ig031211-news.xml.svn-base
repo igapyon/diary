@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031211.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031211.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-11</dc:date>
+  </channel>
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cinvest/seminar/0312/seminar0312.html">
+    <title>説明責任を果たし、主体性のあるIT部門へ --「ROI測定手法」と「オープンソース活用体制」の整備が急務</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cinvest/seminar/0312/seminar0312.html</link>
+    <description>なんだかものすごい記事です。『値ごろ感』とは良く言ったものです。また、オープンソースのメリットについて論じている点も興味深いです。なるほど商用ソフトのほとんどは、サポート期限切れなどで、ベンダが勝手に決めるロードマップに服従する必要がありますものね。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/column/ana05/ana01.html">
+    <title>第5回　引っ越しを伴う転職のメリット、デメリット</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/column/ana05/ana01.html</link>
+    <description>転職誌『type』にたずさわっている方の記事。これまた濃い記事ですねぇ。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/special/jvmhistory/jvmhistory01.html">
+    <title>実行スピードに挑戦する - Javaアーキテクチャの変遷をたどる</title>
+    <link>http://www.atmarkit.co.jp/fjava/special/jvmhistory/jvmhistory01.html</link>
+    <description>Javaのアーキテクチャーに関する 読みやすい記事。日本HPの人材の奥深さを垣間見ました。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/news/200312/10/ibm.html">
+    <title>「ようやくVBを超えた」、IBMの新開発ツールが提供開始</title>
+    <link>http://www.atmarkit.co.jp/news/200312/10/ibm.html</link>
+    <description>JSFベースですね。JSFベースのリッチクライアントって記載も気になります。とりあえずVB.NETやC#.NETも超えているのでしょうか。興味あります。またJSF仕様未確定時点なので、ツールそのものはベータ版あつかいなのだそうな。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+  <item rdf:about="http://www.beasys.co.jp/dev2dev/products/wlserver81/articles/index.html">
+    <title>Eclipse を使用した WebLogic アプリケーションのデバッグ</title>
+    <link>http://www.beasys.co.jp/dev2dev/products/wlserver81/articles/index.html</link>
+    <description>BEAの方が書いたWebLogicアプリケーションをEclipseでデバッグするための方法。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/09/njbt_09.html">
+    <title>電通 今年のヒット商品トップは「ブロードバンド」</title>
+    <link>http://www.zdnet.co.jp/news/0312/09/njbt_09.html</link>
+    <description>アミノ酸飲料、小型デジカメ、トリビア、ハリーポッター、と続いています。なるほどねぇ。大いにうなずいてしまいます。今年はそんな単語が流行りましたね…</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031204/1/">
+    <title>Windowsがセキュアになる日は来るか</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031204/1/</link>
+    <description>当面訪れない事でしょう。Windowsって デフォルトが 初心者便利設定になっていて キケンが一杯なのですもの。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/10/njbt_06.html">
+    <title>NTTデータ、不動産情報サイトの個人情報4300人分を紛失</title>
+    <link>http://www.zdnet.co.jp/news/0312/10/njbt_06.html</link>
+    <description>恐ろしいです。明日は我が身、気を引き締めます。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hyuki.com/yukiwiki/wiki.cgi?RSS">
+    <title>RSS</title>
+    <link>http://www.hyuki.com/yukiwiki/wiki.cgi?RSS</link>
+    <description>RSSに関する良くまとまったページ。人気RSS一覧も載っている。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/rensai/consult/consult022.html">
+    <title>つながっていないはずのネットワークの向こう側</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/rensai/consult/consult022.html</link>
+    <description>ザルなネットワークセキュリティの話題など。私はガチガチ運用の社内ネットワークに慣れているので、そんなザルなネットワークが世間に存在するんだっていうのがまったく理解不能です。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nikkei.co.jp/news/shakai/20031114AT1F1301D13112003.html">
+    <title>海外版音楽ＣＤの逆輸入禁止、２００５年にも</title>
+    <link>http://www.nikkei.co.jp/news/shakai/20031114AT1F1301D13112003.html</link>
+    <description>逆輸入… ねぇそもそもの内外価格差とは 何なんだろう、とも悩みます。貨幣価値って 何なんだろう？ 経済って不思議です。</description>
+    <dc:date>2003-12-16T01:23:20</dc:date>
+  </item>
+
+</rdf:RDF>

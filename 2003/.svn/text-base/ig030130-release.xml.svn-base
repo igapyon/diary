@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030130.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030130.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.3/ja/index.html">
+    <title>Sun Java2 Platform, Standard Editio 1.3.1_07リリース</title>
+    <link>http://java.sun.com/j2se/1.3/ja/index.html</link>
+    <description>1.3系の最新リビジョンアップである 1.3.1_07がリリースされました。ばりばりのバグフィックスリリースである模様です。</description>
+    <dc:date>2003-01-30T09:10:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/29/njbt_01.html">
+    <title>Windows Media 9日本語版、正式リリース</title>
+    <link>http://www.zdnet.co.jp/news/0301/29/njbt_01.html</link>
+    <description>私も早速ダウンロードしました！</description>
+    <dc:date>2003-01-30T09:10:36</dc:date>
+  </item>
+
+</rdf:RDF>

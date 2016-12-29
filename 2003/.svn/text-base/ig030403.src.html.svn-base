@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/04/03 日記: Eclipse 2.1 リリース</TITLE>
+<META name="DESCRIPTION" content="無料Java統合開発環境であるEclipseの最新版がリリースです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 2.1 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在最もホットな オープンソースJava統合開発環境であるEclipseの最新版 2.1
+がリリースです。ダウンロードは 現時点でも大変混み合っており、ダウンロードできないケースも想定されます。</P>
+<P>こうやって 『ダウンロードできないほど混む』というのも 久しぶりに出くわしたように思います。今
+世間的に Eclipseは十分にホットな話題だったのですね。恐れ入りました。</P>
+<P><FONT color="#ff0000">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig030405.html">2003/04/05 日記: ビブラートといふ奏法</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>最近興味のあるもの → 強いて挙げると Norton Ghostです…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ヒトミ先輩から 『いがくんの最近興味があるものって何？』と聞かれて、なるほど
+悩みました。Java言語に手を染め始めた時期は そりゃ～も～Java一色だったですし、Linux熱の時も
+果てはC#熱の時もありました。でも 最近の興味事って何でしょうね。</P>
+<P>一応Flashが いま 一番ホット、ということにはしているのですが、、、実際には
+Flashは同僚の うっち～ さんが担当しています。見ていて楽しそうですけれども、これで画面を書くと思うと、ぞっとします(苦笑)
+そうそう、強いて言えば <A href="http://www.symantec.com/region/jp/products/ghost/">Norton Ghost</A>に最近はお熱です。かなり入れ込んでいます。このツールを使って うまく行くと
+超安価な ディザスター・リカバリー風 バックアップ環境が実現できるんです。OSが壊れようが何しようが、瞬時に前回のセーブポイントへと復元できます。大変に気に入っています。自称パワーユーザなのに
+<A href="http://www.symantec.com/region/jp/products/ghost/">Norton Ghost</A>のタグイをご存じない方は このソフト 一見の価値があります。おすすめです。</P>
+<P>あと 時間が工面できたら Linuxで何か遊びたいです。ファイルサーバを作るも良し、デスクトップ環境にトライして見るのも良し。いろいろやってみたいですが、これまた時間がありませんです。あと
+Eclipse統合開発環境も これまたやってみたいけれど またまた手が出ていません。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030403-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

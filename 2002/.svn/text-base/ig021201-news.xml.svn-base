@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021201.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021201.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.surutto.com/">
+    <title>スルッとKANSAI</title>
+    <link>http://www.surutto.com/</link>
+    <description>関西の私鉄各線の共通カード</description>
+    <dc:date>2002-12-01T10:10:00</dc:date>
+  </item>
+
+</rdf:RDF>

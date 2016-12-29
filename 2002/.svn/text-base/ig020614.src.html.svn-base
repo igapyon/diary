@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/14 日記: オープンソースなJava言語で書かれたPDF作成ソフトを調べたいのですが…</TITLE>
+<META name="DESCRIPTION" content="オープンソースなPDF作成ライブラリを探しています。 , 今日も営業活動になってしまいました。予想通り(苦笑)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オープンソースなJava言語で書かれたPDF作成ソフトの現状を調べたいのですが…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>GPL, LGPL, BSD, Apacheライセンスなどの[replace-link:オープンソース]ライセンスを採用しているJava言語で書かれたPDF作成ソフト(ライブラリ)を調べようと思いました。<BR>
+これは<A href="http://www.nttd-bb.com/solution/igapyon1/ig010131.html">過去の日記v1</A> にツッコミが入ったことから 現状の最新版について調べようか という気になりました。それに世間の方々でPDF作成でお困りの方も多いと思っています。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ソフト名</TD>
+      <TD bgcolor="#ffff00">ライセンス</TD>
+      <TD bgcolor="#ffff00">PDF</TD>
+      <TD bgcolor="#ffff00">日本語対応</TD>
+      <TD bgcolor="#ffff00">コメント</TD>
+    </TR>
+    <TR>
+      <TD>Apache FOP<BR>
+      [replace-href:http://xml.apache.org/fop/]</TD>
+      <TD>Apacheライセンス</TD>
+      <TD>PDF1.3</TD>
+      <TD>日本語対応OK</TD>
+      <TD>XMLからPDFを変換＆作成 (XSL) SVG 対応。<BR>
+      jpeg、gif、bmp を組み込み可能。<BR>
+      (いがぴょん感想) XMLを先に作らないといけないのですが、結構敷居が高いように感じてます。</TD>
+    </TR>
+    <TR>
+      <TD>iText : JAVA-PDF library<BR>
+      [replace-href:http://www.lowagie.com/iText/]</TD>
+      <TD>MPL, [replace-link:LGPL]</TD>
+      <TD>PDF1.3</TD>
+      <TD>日本語対応OK</TD>
+      <TD>PDF の他に RTF HTML も作成可能。jpeg、gif を組み込み可能。 </TD>
+    </TR>
+    <TR>
+      <TD>「こびとさん」のPDF ライブラリ<BR>
+      [replace-href:http://www.puzzle.gr.jp/programming/pdf/doc/index.html.ja]</TD>
+      <TD>[replace-link:GPL]</TD>
+      <TD></TD>
+      <TD>日本語対応OK</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>retepPDF<BR>
+      [replace-href:http://sourceforge.net/projects/reteppdf/]</TD>
+      <TD>[replace-link:LGPL]</TD>
+      <TD>PDF1.2</TD>
+      <TD>非対応？<BR>
+      Type1 Font のみ表示可能</TD>
+      <TD>？？？私はまだ理解できていません。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>この資料の元ネタは 石神さんの作品投稿だったと覚えています。(ちなみに石神さんは
+Apache FOPの日本語化作業に大きな影響を与えられた方です)<BR>
+さて、思い起こせば 他にも幾つかあったと思います。みなさま、もしお勧めPDF作成オープンソースソフトがありましたら、ポストして下さいね。<BR>
+# 上記の既存情報も 結構怪しい… そこのツッコミもお願いします。<BR>
+# # 実は そこが力点。そこがホンネ :-P うまくまとめて、<STRONG>資料</STRONG>への格上げを狙っています。</P>
+<P><FONT color="#ff0000">2002.06.15</FONT> 読者の方のツッコミ<BR>
+Subject: PDF生成ライブラリ<BR>
+はじめまして。<BR>
+八木洋一と申します。<BR>
+いつも日記ウェブページを読ませて頂いております。<BR>
+6月14日のオープンソースなJava言語で書かれたPDF作成ソフトについてです。<BR>
+<BR>
+私が知っているものをひとつご紹介させていただきます。<BR>
+（メーリングリストへのポストでなくてすみません）<BR>
+<BR>
+「プログラミングのたのしみ」というWebサイトにある 「こびとさんのPDF ライブラリ」
+というものです。</P>
+<UL>
+  <LI>「こびとさん」のPDF ライブラリ<BR>
+  [replace-href:http://www.puzzle.gr.jp/programming/pdf/doc/index.html.ja]
+</UL>
+<P>まだ、殆ど使っていなく、詳しいことを説明できなくて申し訳ないのですが、数少ないオープンソースのPDF生成ソフトのひとつとしてご紹介させていただきました。<BR>
+それでは。</P>
+<P><FONT color="#ff0000">2002.06.15</FONT> 『Javaでごはん』メーリングリストにて えんどうさんからも 同様のツッコミを頂きました。(こっちにてのツッコミには 少し動揺 (苦笑)</P>
+<UL>
+  <LI>Subject: [Java_GOHAN 669] 「こびとさん」のPDFライブラリ
+</UL>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT>[replace-link:いがぴょん]<BR>
+単純に抜けておりました。すみません。すぐに追記させて頂きました。(また こびとさんのPDFライブラリのファン層の厚さをかいま見ました)</P>
+<P><FONT color="#ff0000">2005.02.19</FONT> 後日談 : 現時点では [replace-link:JooConverter]を利用したPDF作成が もっとも簡便で生産性が高いと考えています。特にJava帳票という観点においては、[replace-link:Jakarta
+POI]などと組み合わせることによって効果的な帳票開発環境を得ることが出来ます。</P>
+<P><FONT color="#ff0000">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2004/ig040507.html">2004/05/07 日記: Java言語からPDF生成を行うオープンソースライブラリ調査</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日も営業活動になってしまいました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ぎりぎりのトコロということろのせめぎ合いを…。今日も営業活動に出動することになりそうです。</P>
+<P><FONT color="#ff0000">14:09</FONT> 行ってきました。帰ってきました。疲れました。(内容的に…) ギリギリの交渉というところのギリギリをしてきました。<BR>
+あとは ○か×かなので、私は携わらなくても話が進む模様。<BR>
+とゆことで、今からようやく章立て作業に入ります。</P>
+<P><FONT color="#ff0000">23:06</FONT> ×でした (苦笑) </P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020614-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

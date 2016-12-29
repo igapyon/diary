@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/04 日記: SUN Java2 SDK, Standard Edition, 1.4.0_01 リリース</TITLE>
+<META name="DESCRIPTION" content="J2SE 1.4.0_01がリビジョンアップリリースです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig020604-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SUN J2SE 1.4.0_01 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>早速ダウンロード中…。ただし変更点など把握できていません。<BR>
+ちなみに Netscape 7.0 PR1 付属のJREは 1.4.0_01だったのだそうです。先行リリースか
+あるいは Netscape 7.0 PR1作成時に不具合が発生して それを修正したのが 1.4.0_01なのか、大変興味深いところです。</P>
+<P><FONT color="#ff0000">15:04</FONT> teikさんのつっこみ<BR>
+<I>いつものように、小さなバグフィックスのようです。</I></P>
+<P><FONT color="#ff0000">16:53</FONT> [replace-link:林信一]さんのツッコミ<BR>
+<CITE>こんにちは、林です。</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://java.sun.com/j2se/1.4/ReleaseNotes.html]</CITE>
+</UL>
+<P><CITE>JVM周りの修正が多いように思います。netscape7.0にあわせているのでしょうか。<BR>
+#ファイル名がj2sdk-1_4_0_01-windows-i586.exeになったことも興味深いです。（linuxにあわせただけかもしれませんが(汗))<BR>
+では。<BR>
+--<BR>
+林 信一 Shinichi Hayashi</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍執筆</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ようやっと 『はじめに』が書き終わりました。とはいえ 私はスタイルとして はじめに は最後に書く人なので、最後に再度大幅変更されることでしょう。とはいえ、先に はじめに を書き ずいぶん頭の整理が付きました。でもそれはそもそも章立ての際にくっきりと決定していないといかんのでは… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ヒマシ油とは食用に適したものなのでしょうか？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>協和香料化学社さんが香料に アセトアルデヒドとヒマシ油を混ぜて出荷していて 最近事件になっている件で、素朴に それは原料は どんな食材なのか興味本位で調べてみました。</P>
+<UL>
+  <LI>ヒマシ油<BR>
+  [replace-href:http://www.interq.or.jp/ox/dwm/se/se23/se2356002.html]<BR>
+  下剤、浣腸剤として有名な物質である模様。
+  <LI>アセトアルデヒド<BR>
+  [replace-href:http://www.jpca.or.jp/61msds/j7cb09.htm]<BR>
+  単に毒？ ほんとにこれは食べ物？ 何のために入れていたのでしょうか？ 私の理解をはるかに超えるのであった
+</UL>
+<P>あまり食用適合品では無い物質である模様。今時の世の中 ナニを食べさせられているか分かったものではありませんね。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020604-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

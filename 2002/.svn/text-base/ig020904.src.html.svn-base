@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/04 日記: Apache Xalan-Java 2.4.0 リリース</TITLE>
+<META name="DESCRIPTION" content="Xalan-Java が待望のバージョンアップリリースです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig020904-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# + ASP.NET + ADO.NET: DataSetを利用しない方が 現時点では 私は生産性が高いです</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>DataSetが意外に足かせになっていて、私は現時点では DataSetを利用せずに SqlAdapterのみで開発した方が生産性が高い模様です。<BR>
+興味深い傾向なので もうしばらくたってから再び意識して観察してみます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: 交響曲に関するいくつかの情報</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>The Web KANZAKI: 交響曲に関するいくつかの情報<BR>
+  [replace-href:http://kanzaki.com/music/symphonies.html]<BR>
+  面白いページがあったのでこれをメモ。自身もアマチュアのベース奏者でいらっしゃるようです。
+</UL>
+<P>シューマンの交響曲が駄作だとは思いませんが、確かにオーケストレーションの都合上、演奏がやりにくいのは確かなのだと思います。演奏者が何も考えずに
+漫然と譜面通り演奏したら シューマンの交響曲では ひどいことが起きます。シューマンの交響曲は
+演奏家が いつにもまして いろいろ頭脳を駆使しないといけない曲ですし、それこそがシューマンを演奏する楽しみでもあります。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020904-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/01 日記: ディレクトリ鳥瞰ツール , J2EE 1.3.1 リリース</TITLE>
+<META name="DESCRIPTION" content="ちょっと必要に駆られてディレクトリ鳥瞰ツールを作ってみました。J2EE 1.3.1 がリリースです！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020201-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>昨日の静岡出張は疲れました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日の静岡出張は疲れました。結合テストだったのですが、どたばたで 静岡駅的に最終の
+ひかり号で帰ってくる羽目に遭いました。<BR>
+さらに 充実感が無かっただけに 疲れ倍増。入力データの不備にて こっちは本来の目的の作業が出来ず。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ディレクトリ鳥瞰ツールの自作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ざざっとディレクトリを鳥瞰するツールを自作してみました。さしあたり日付で比較して
+24時間以内に更新されたファイルをレポートする機能を付けてみています。いろいろ機能追加できそうでおもしろそうです。(それをGNUツールではなく自作するのが
+私らしくて良いです)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * ディレクトリ鳥瞰プログラム
+ * Copyright (C) 2002  Tosiki IGA
+ *
+ *   @author Tosiki IGA
+ *   @version 2002.02.01
+ *   (http://homepage2.nifty.com/igat/igapyon/index.html)
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+import java.io.*;
+import java.util.*;
+
+public class DirView
+{
+        public static final int HOUR=24;
+
+        public static void main(String[] args)
+        {
+                if(args.length==0){
+                        System.out.println(&quot;鳥瞰したいディレクトリ名を入力してください&quot;);
+                        System.out.println(&quot;ex: java DirView [ディレクトリ名]&quot;);
+                        System.out.println(&quot; 本当は、鳥瞰以外の各種機能が欲しい&quot;);
+                        System.exit(-1);
+                }
+                File fileLook=new File(args[0]);
+                if(fileLook.exists()==false){
+                        System.out.println(&quot;指定のディレクトリ[&quot;+args[0]+&quot;]が見つかりませんでした.&quot;);
+                        System.exit(-2);
+                }else if(fileLook.isDirectory()==false){
+                        System.out.println(&quot;指定のディレクトリ名[&quot;+args[0]+&quot;]は妥当ではありません.&quot;);
+                        System.exit(-3);
+                }
+                try{
+                        new DirView().process(fileLook);
+                }catch(IOException ex){
+                        System.out.println(ex.toString());
+                }
+        }
+
+        String strRoot=&quot;&quot;;
+        int iTotalFileCount=0;
+        ArrayList listFiles=new ArrayList();
+
+        protected void process(File fileLook)
+                throws IOException
+        {
+                strRoot=fileLook.getAbsolutePath();
+                System.out.println(&quot;基準ディレクトリ:&quot;+strRoot);
+
+                processDirectory(fileLook);
+                System.out.println(&quot;ファイル数:&quot;+iTotalFileCount);
+
+                java.util.Collections.sort(listFiles,new java.util.Comparator(){
+                        public int compare(Object obj1, Object obj2)
+                        {
+                                File arg1=(File)obj1;
+                                File arg2=(File)obj2;
+                                return arg1.lastModified()&gt;arg2.lastModified()?-1:1;
+                        }
+                });
+
+                report();
+        }
+
+        protected void processDirectory(File fileLook)
+                throws IOException
+        {
+                File[] fileDirs=fileLook.listFiles();
+                for(int index=0;index&lt;fileDirs.length;index++){
+                        if(fileDirs[index].isDirectory()){
+                                processDirectory(fileDirs[index]);
+                        }else{
+                                processFile(fileDirs[index]);
+                        }
+                }
+        }
+
+        protected void processFile(File fileLook)
+                throws IOException
+        {
+                iTotalFileCount++;
+                listFiles.add(fileLook);
+        }
+
+        protected void report()
+        {
+                Date dateNow=new Date();
+                for(int index=0;index&lt;listFiles.size();index++){
+                        File fileLook=(File)listFiles.get(index);
+                        if(dateNow.getTime()-fileLook.lastModified()&gt;1000*60*60*HOUR)break;
+                        System.out.println(getDiff(fileLook.lastModified()-dateNow.getTime())+&quot;:&quot;+fileLook.getAbsolutePath().substring(strRoot.length()+1));
+                }
+        }
+
+        protected static String getDiff(long lDiff)
+        {
+                String strSuffix=&quot;後&quot;;
+                if(lDiff&lt;0){
+                        lDiff=(-lDiff);
+                        strSuffix=&quot;前&quot;;
+                }
+                if(lDiff&lt;60*1000){
+                        return &quot;&quot;+(lDiff/1000)+&quot;秒&quot;+strSuffix;
+                }else if(lDiff&lt;60*60*1000){
+                        return &quot;&quot;+(lDiff/60/1000)+&quot;分&quot;+strSuffix;
+                }else if(lDiff&lt;24*60*60*1000){
+                        return &quot;&quot;+(lDiff/60/60/1000)+&quot;時&quot;+strSuffix;
+                }else{
+                        return &quot;&quot;+(lDiff/24/60/60/1000)+&quot;日&quot;+strSuffix;
+                }
+        }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.<BR>
+</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020201-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

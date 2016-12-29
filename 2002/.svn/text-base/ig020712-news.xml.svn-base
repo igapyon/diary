@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020712.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020712.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/195709">
+    <title>シマンテック、Linux版ノーツ対応ウイルス対策ソフト</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/195709</link>
+    <description>Linuxまわりも少しずつ整備されてきていますねぇ。</description>
+    <dc:date>2002-07-12T17:55:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/11/njbt_05.html">
+    <title>T・ZONE.が秋葉原にコスプレ喫茶</title>
+    <link>http://www.zdnet.co.jp/news/0207/11/njbt_05.html</link>
+    <description>なにごと。</description>
+    <dc:date>2002-07-12T17:26:39</dc:date>
+  </item>
+
+</rdf:RDF>

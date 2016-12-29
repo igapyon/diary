@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020828.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020828.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/27/ne00_office.html">
+    <title>価格競争激化でPCの“MS Office離れ”が進む？</title>
+    <link>http://www.zdnet.co.jp/news/0208/27/ne00_office.html</link>
+    <description>なるほど 価格競争激化ゆえに MS Officeバンドルを止める という 理にかなった流れなのですね。びっくりしてしまいます。</description>
+    <dc:date>2002-08-28T09:11:50</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/Enterprise/News/2002/Item/020827-2.html">
+    <title>『Office』を避け始めたPCメーカー</title>
+    <link>http://japan.cnet.com/Enterprise/News/2002/Item/020827-2.html</link>
+    <description>これも MS Officeバンドルを止めるPCメーカーが増えているという事に関する記事。</description>
+    <dc:date>2002-08-28T09:11:50</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/27/njbt_12.html">
+    <title>ソニー、民生用ベータマックスVTR事業から撤退</title>
+    <link>http://www.zdnet.co.jp/news/0208/27/njbt_12.html</link>
+    <description>時代の流れを感じさせられました。</description>
+    <dc:date>2002-08-28T09:11:50</dc:date>
+  </item>
+
+</rdf:RDF>

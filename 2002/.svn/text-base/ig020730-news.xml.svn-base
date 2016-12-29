@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020730.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020730.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.matsusaka-u.ac.jp/~okumura/compression/jpegpat.html">
+    <title>JPEG特許問題</title>
+    <link>http://www.matsusaka-u.ac.jp/~okumura/compression/jpegpat.html</link>
+    <description>奥村晴彦さんがまとめていらっしゃるJPEG特許問題関連ページ。</description>
+    <dc:date>2002-07-30T19:20:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/29/njbt_14.html">
+    <title>アイ・オー、IEEE 1394接続のDVD+R/RWドライブ</title>
+    <link>http://www.zdnet.co.jp/news/0207/29/njbt_14.html</link>
+    <description>DVD+R/RWドライブ が \49,800.-。う～ん 衝動買いを誘う微妙な価格帯だなぁ。</description>
+    <dc:date>2002-07-30T08:28:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/30/nebt_02.html">
+    <title>ホンダ、IBMの組み込みViaVoice採用</title>
+    <link>http://www.zdnet.co.jp/news/0207/30/nebt_02.html</link>
+    <description>IBMの音声認識技術 頑張っていますね。ちなみに ViaVoice V9 Pro USBを買いましたが、どうもうまく私の声を認識してくれません。自動車は そんなに認識すべき単語が辞書に無いから うまくいく、のかしらん？</description>
+    <dc:date>2002-07-30T13:14:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mainichi.co.jp/digital/network/archive/200207/29/5.html">
+    <title>三重県四日市市職員　住民情報をのぞき見、職場でうわさ話</title>
+    <link>http://www.mainichi.co.jp/digital/network/archive/200207/29/5.html</link>
+    <description>およよ ITって恐ろしいですね。</description>
+    <dc:date>2002-07-30T13:08:34</dc:date>
+  </item>
+  <item rdf:about="http://www.mainichi.co.jp/digital/network/archive/200207/29/11.html">
+    <title>不正アクセスの東芝社員に懲役10月を求刑　東京地裁初公判</title>
+    <link>http://www.mainichi.co.jp/digital/network/archive/200207/29/11.html</link>
+    <description>単なる不正アクセスでは無い出来事である模様。もっと情報が無いと判断は出来ませんが…。</description>
+    <dc:date>2002-07-30T13:08:34</dc:date>
+  </item>
+
+</rdf:RDF>

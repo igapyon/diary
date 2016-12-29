@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020214.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020214.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-14T08:27:56</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/14/b_0213_01.html">
+    <title>Visual Studio .NETリリース――Java開発者取り込みも視野に</title>
+    <link>http://www.zdnet.co.jp/news/0202/14/b_0213_01.html</link>
+    <description>VS.NETも正式リリースですね。J2SE1.4とタイミングを同じくしているのが 失笑を誘います。</description>
+    <dc:date>2002-02-14T09:37:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/14/b_0213_04.html">
+    <title>IBMのWorkPad，生産中止へ</title>
+    <link>http://www.zdnet.co.jp/news/0202/14/b_0213_04.html</link>
+    <description>WorkPadユーザとしては 少し悲しいことです</description>
+    <dc:date>2002-02-14T09:37:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/13/b_0212_02.html">
+    <title>IBM，米サーバ市場で売上トップに返り咲き</title>
+    <link>http://www.zdnet.co.jp/news/0202/13/b_0212_02.html</link>
+    <description>IBMって 強いんですねぇ。</description>
+    <dc:date>2002-02-14T08:46:06</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0202/01/02020103.html">
+    <title>DominoのJ2EEサポートにデベロッパーが猛反発</title>
+    <link>http://www.zdnet.co.jp/enterprise/0202/01/02020103.html</link>
+    <description>ほほう。将来のバージョンにて Notes Domino が J2EEになろうとしているんですね。これは驚きました。何でもかんでもJavaへと向かっているんですねぇ。</description>
+    <dc:date>2002-02-14T08:46:06</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/13/b_0212_08.html">
+    <title>Linuxパッチ作業を自動化</title>
+    <link>http://www.zdnet.co.jp/news/0202/13/b_0212_08.html</link>
+    <description>電子メールからパッチをずばっと当てる…。ほええ。(私の全く理解できない領域だなぁ)</description>
+    <dc:date>2002-02-14T08:46:06</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/13/b_0212_17.html">
+    <title>Microsoftのロビー活動資金はEnron以上</title>
+    <link>http://www.zdnet.co.jp/news/0202/13/b_0212_17.html</link>
+    <description>企業と政治のお金によるつながりのニュースです…</description>
+    <dc:date>2002-02-14T08:46:06</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/13/b_0212_05.html">
+    <title>IEにセキュリティホールが6つ――Microsoftがパッチ群をリリース</title>
+    <link>http://www.zdnet.co.jp/news/0202/13/b_0212_05.html</link>
+    <description>ずんどこセキュリティホールが出てくるなぁ。まあ どんどんプログラム上の不具合が修正されて堅牢になってくれさへすれば良いのですが、その場しのぎ的な修正をパッチパッチ当てていると、セキュリティホールは埋まっても堅牢性は低下するおそれがありますから、その点には注意して作業して欲しいと思いました。</description>
+    <dc:date>2002-02-14T08:46:06</dc:date>
+  </item>
+
+</rdf:RDF>

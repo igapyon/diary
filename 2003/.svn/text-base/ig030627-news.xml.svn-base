@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030627.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030627.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/26/nebt_11.html">
+    <title>MSの次の標的はGoogle？</title>
+    <link>http://www.zdnet.co.jp/news/0306/26/nebt_11.html</link>
+    <description>Microsoftが 次の標的として Googleを捉えるのだとしたら、それは正道です。全く、そしてもっとも正しい着眼点です。例えば 現時点に於いて 私にとってのインターネットは Google検索エンジンそのものです。私にとっての2番目のポータルも やはりGoogleでしょう。一番イケてる検索エンジンを所有しているということは 非常なる力になります。まずそこで検索でしょうから。そしてそのジャンルを Microsoftが狙おうなどと言うのなら… とても正しい着眼点ではありますが、ぞっとします。Microsoftは資金も潤沢なだけに Googleの敵としては 強大最強ですね。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/commons/fileupload/">
+    <title>Jakarta Commons FileUpload 1.0 リリース</title>
+    <link>http://jakarta.apache.org/commons/fileupload/</link>
+    <description>ファイルアップロードに関するオープンソースな実装。Jakarta Commons は ftpクライアントといい、今回の FileUploadといい、欲しいときにはとても必要になる小物が どんどんと揃ってきましたね。こういうオープンソースな小物ツールが多いのも Javaの特徴ですね。こういったツールのお陰で 私たちは開発がとても楽で安全になります。(そして もしバグっていても ソースコードを広げて修正できますものね！)</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://www.lawson.co.jp/b_lawson/newsrelease/newsview/news_cprev.htm?serial=622">
+    <title>ローソン:顧客情報の流出について</title>
+    <link>http://www.lawson.co.jp/b_lawson/newsrelease/newsview/news_cprev.htm?serial=622</link>
+    <description>ローソンがカード会員の顧客情報を流出させてしまったそうです。個人情報保護って とっても大変そうですね。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20057861,00.htm">
+    <title>日本政府vs.コミュニティ：オープンソースの発展を目指す討論会</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20057861,00.htm</link>
+    <description>先の討論会の要約が出ています。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/26/njbt_04.html">
+    <title>ショップブランドPCのリサイクルへ制度拡充　JEITA</title>
+    <link>http://www.zdnet.co.jp/news/0306/26/njbt_04.html</link>
+    <description>ショップブランド愛用者の私としては 興味がある記事。自作ＰＣはどうなるのか なども問題です。少なくとも捨てるなら 今年９月に捨てておけということも含み置かれるのかも。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/26/njbt_05.html">
+    <title>ローソンカード会員情報56万件が流出</title>
+    <link>http://www.zdnet.co.jp/news/0306/26/njbt_05.html</link>
+    <description>生年月日や自宅・携帯の電話番号が流出とはイヤですねぇ。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/26/njbt_06.html">
+    <title>BIGLOBE、個人向けにWebフィルタリングサービス</title>
+    <link>http://www.zdnet.co.jp/news/0306/26/njbt_06.html</link>
+    <description>大手プロバイダでWebフィルタリングのサービスとは 初めて耳にしました。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20057941,00.htm">
+    <title>NEC三菱電機ビジュアル、米で折りたたみ可能な液晶ディスプレイを発売</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20057941,00.htm</link>
+    <description>折りたたみ可能な液晶ディスプレイって 何だかSFっぽく感じます。</description>
+    <dc:date>2003-06-27T08:54:57</dc:date>
+  </item>
+
+</rdf:RDF>

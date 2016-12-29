@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011204.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011204.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-04</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://xml.apache.org/cocoon/index.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://xml.apache.org/cocoon/index.html">
+    <title>Apache XML Cocoon 2.0 リリース</title>
+    <link>http://xml.apache.org/cocoon/index.html</link>
+    <description>XMLでWebプログラムをつくってしまう Cocoon のメジャーバージョンアップ 2.0 が いよいよリリースのようです。</description>
+    <dc:date>2001-12-04T12:02:37</dc:date>
+  </item>
+
+</rdf:RDF>

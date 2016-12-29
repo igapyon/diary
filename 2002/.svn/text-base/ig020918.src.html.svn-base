@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/18 日記: Sun Java2 Platform, Standard Edition 1.4.1 リリース</TITLE>
+<META name="DESCRIPTION" content="次の演奏会でジュラシックパークを演奏することになったので それを勉強中…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig020918-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 1.4.1 リリースメモを読む</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>J2SE 1.4.1 プラットフォームでの拡張および変更点<BR>
+  [replace-href:http://java.sun.com/j2se/1.4.1/ja/changes.html]
+</UL>
+<P>これから ざっくりと 下記のようなことが読みとれました。</P>
+<UL>
+  <LI>Java Web Start 1.2 が同梱されている
+  <LI>Java言語仕様に忠実になるように javacが改良された
+  <LI>ネットワークに関して 私が遭遇したことのあるバグが改善されている模様です。
+  <UL>
+    <LI>java.net.InetAddress.getLocalHost() が不正にキャッシュするバグが改善されている
+    <LI>InetAddress.getByName でネームサービスに対する検索が失敗すると、それ以降不正な値がキャッシュされてしまうバグが改善された
+  </UL>
+  <LI>シフト JIS 文字エンコーディングの変更<BR>
+  ドキュメントを読む限りでは 意外にも この変更は影響が少ない模様。ただし
+  少なくとも windows-31j という名称が MS932の別名である という点は 良く理解しておく必要があるようです。
+  <LI>デッドロック検出機能<BR>
+  ctrl+break を押すことにより デッドロック検出を行う機能が追加されたようです。
+</UL>
+<P>こう読むと 変更範囲は大きいものの そんなに私が以前思っていたほどは警戒しないでも良いようにも読みとれます…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: ジュラシックパークの勉強中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>次の演奏会でジュラシックパークを演奏することになったので それの勉強中。ちなみにスターウォーズも併せて演奏する予定です。<BR>
+レンタルビデオ屋でサウンドトラックCDやビデオを借りてきました。サウンドトラックCDを聴いていると、これがなかなか良い曲ですねぇ。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020918-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

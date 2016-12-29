@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030901.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030901.html</link>
+    <language>ja</language>
+    <dc:date>2003-09-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://it.nikkei.co.jp/it/news/index.cfm?i=2003083006879j0">
+    <title>「脱ウインドウズ」で日中韓連携--経済相会合で合意</title>
+    <link>http://it.nikkei.co.jp/it/news/index.cfm?i=2003083006879j0</link>
+    <description>3ヶ国官民一体で「ウィンドウズ」に代わる新たなＯＳづくりに乗り出すのだそうな。ぱっと見は 刺激的な内容ですなぁ。内容の詳細は私には把握不能。</description>
+    <dc:date>2003-09-01T09:49:33</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030829/2/">
+    <title>郵政公社のブラスター感染はNECの作業ミスが原因--損害賠償も検討</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030829/2/</link>
+    <description>ぎょっとするニュースです。他山の石として 深く心に刻みます。</description>
+    <dc:date>2003-09-01T08:45:48</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/special/story/0,2000047679,20060542,00.htm">
+    <title>CNET Japan: Blog戦争: RSSはどこへ行く?</title>
+    <link>http://japan.cnet.com/news/special/story/0,2000047679,20060542,00.htm</link>
+    <description>RSSの標準作成などで なんだか盛り上がっているのだそうな。私は とにもかくにも仕様をシンプルに保ってくれさへすれば嬉しいのですが…</description>
+    <dc:date>2003-09-01T08:45:48</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060570,00.htm">
+    <title>米モトローラが初のLinuxスマートフォンを発売</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060570,00.htm</link>
+    <description>ケータイでLinuxが流行る方向性にある、と読み取れる記事だと思って良いのかしら？ ケータイ事情は 良く分からないのでした。日本の動向も全然わかりません…</description>
+    <dc:date>2003-09-01T08:45:48</dc:date>
+  </item>
+
+</rdf:RDF>

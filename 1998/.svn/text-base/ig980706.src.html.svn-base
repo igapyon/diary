@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>1998/07/06 日記: Java狂: Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>意外な結果が出ました。VC5++より Javaの方が高速(?) まずは条件と結果を示します。</P>
+<BLOCKQUOTE>
+  <P><A href="ig980706.jar">ソースコードおよびロードモジュールを公開します。<FONT SIZE="-2">10360
+  byte</FONT> <FONT SIZE="-1">(C++部分はソースコードの一部分のみ)。jarファイルとして圧縮されています。LHMelting
+  などを用いて解凍してください。</FONT></A></P>
+  <UL>
+    <LI>実行には JDK1.1.6 および JFC 1.1 (including Swing 1.0.2) のインストールとセットアップが必要です。
+    <LI>JDK1.1.6 + JFC 1.1 のみを利用して コンパイル可能です。
+    <LI>付属のソースコードは JBuilder2にて もっとも扱いやすいです。
+  </UL>
+</BLOCKQUOTE>
+<TABLE WIDTH="919" BORDER="1" CELLSPACING="2" CELLPADDING="0"
+HEIGHT="111">
+  
+    <TR>
+    <TD WIDTH="25%" HEIGHT="26"></TD>
+    <TD WIDTH="15%" HEIGHT="26">
+    VisualC++5.0j</TD> 
+    <TD WIDTH="11%" HEIGHT="26">
+    JDK1.1.6</TD> 
+    <TD WIDTH="14%" HEIGHT="26">
+    対C++比性能</TD> 
+    <TD WIDTH="14%" HEIGHT="26">
+    JDK(nojit)</TD> 
+    <TD WIDTH="21%" HEIGHT="26">
+    対C++比性能</TD> 
+  </TR>
+  <TR>
+    <TD WIDTH="25%" HEIGHT="24">
+    32bit整数演算</TD> 
+    <TD WIDTH="15%" HEIGHT="24">
+    1302</TD> 
+    <TD WIDTH="11%" HEIGHT="24">
+    460</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    2.83倍</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    7601</TD> 
+    <TD WIDTH="21%" HEIGHT="24">
+    0.17倍</TD> 
+  </TR>
+  <TR>
+    <TD WIDTH="25%" HEIGHT="24">
+    32bit浮動小数点演算</TD> 
+    <TD WIDTH="15%" HEIGHT="24">
+    3115</TD> 
+    <TD WIDTH="11%" HEIGHT="24">
+    1562</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    1.99倍</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    16304</TD> 
+    <TD WIDTH="21%" HEIGHT="24">
+    0.19倍</TD> 
+  </TR>
+  <TR>
+    <TD WIDTH="25%" HEIGHT="24">
+    ファイル書出</TD> 
+    <TD WIDTH="15%" HEIGHT="24">
+    90</TD> 
+    <TD WIDTH="11%" HEIGHT="24">
+    120</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    0.75倍</TD> 
+    <TD WIDTH="14%" HEIGHT="24">
+    150</TD> 
+    <TD WIDTH="21%" HEIGHT="24">
+    0.6倍</TD> 
+  </TR>
+
+</TABLE>
+<P>単位:ミリ秒。数が多いほうが性能が低いことをあらわします。</P>
+<UL>
+  <LI>ソースコードにあるように、単純な演算ではありません。これは最適化のプロセスでソースコードが消えてしまうのを避ける工夫です。
+  <LI>32bit整数は、Javaではint . C++ではintかlong . 32bit浮動小数点は Javaでは float
+  . C++では doubleとなります。混乱してしまいそうです。<FONT SIZE="-1">(もしかしたら 依然混乱しているかもしれ増せん)</FONT>
+  <LI>nojitは java -nojit のように指定して JITコンパイラを無効化していることをあらわします。
+</UL>
+<P>Microsoft VisualC++5.0j と JDK とで比較しました。</P>
+<P>なお<A href="http://java.sun.com/products/jdk/1.1/">JDK</A>環境は</P>
+<UL>
+  <LI><A href="http://java.sun.com/products/jdk/1.1/">JDK</A>1.1.6
+  (Symantec Java! <A href="http://www.javacats.com/jp/articles/chuckmcmanis091696.html">JustInTime
+  Compiler</A> Version 3.00.039(x) for JDK 1.1.x が付属しているバージョン)
+  <LI>JIT Update for JDKTM 1.1.6 Software, Early Access 2 を適用
+</UL>
+<P><FONT COLOR="#ff00ff" SIZE="+2">考察</FONT></P>
+<P>まず、私の<FONT COLOR="#ff0000" SIZE="+1">常識を破壊</FONT>しています。</P>
+<UL>
+  <LI>数の演算で、なぜ Java は VisualC++5.0 より高速な実行速度を実現するのでしょうか?
+</UL>
+<P><FONT COLOR="#ff0000" SIZE="+1">常識内:</FONT></P>
+<UL>
+  <LI>ファイル出力は C++の方が Javaより高速。Javaは3割引程度のようです。
+  <LI>JIT無しを設定したら、C++の5倍程度時間がかかる。→2割程度の性能しか持たない。(これが従来のJavaの速度)
+</UL>
+<P>これは悩みます。現状のJavaは ずいぶんスループットが出ている模様です。継続的にまじめに調べる必要性を感じました。</P>
+<P>なお、GUIに関しては、依然VisualC++5.0の方が高速なのだと予測しています。これも近々プロトタイピングを行ってみようと思っています。私が仕事で扱うような、現実的なGUIプログラムが
+VC5.0++と同様のスループットを出すのだとしたら、天変地異になります(^^)</P>
+<P><FONT COLOR="#ff00ff" SIZE="+1">関連する日記</FONT></P>
+<UL>
+  <LI>
+  <P><A href="http://www.nsg.co.jp/nbb/ss/joy/ig981005.htm">http://www.nsg.co.jp/nbb/ss/joy/ig981005.htm</A>
+. <FONT SIZE="-1">日記: Java狂: HP-UXにおける Java と C言語 を速度比較 </FONT></P>
+</UL>
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

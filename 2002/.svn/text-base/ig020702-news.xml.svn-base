@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020702.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020702.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/01/ne00_opera.html">
+    <title>Operaは“第2次ブラウザ戦争”を制するか？</title>
+    <link>http://www.zdnet.co.jp/news/0207/01/ne00_opera.html</link>
+    <description>Operaって私使ったこと無いです。この記事は読み応えありました。面白かったです。Operaを試用してみようかって気持ちにさせられました。(でも暇は無い)</description>
+    <dc:date>2002-07-02T10:15:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/01/njbt_02.html">
+    <title>Kondara Projectが解散</title>
+    <link>http://www.zdnet.co.jp/news/0207/01/njbt_02.html</link>
+    <description>それは寂しいニュースです。かわりに Momonga Linux というのが立ち上がる予定なのだそうな。</description>
+    <dc:date>2002-07-02T09:30:05</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/01/njbt_08.html">
+    <title>めたりっく通信サービスがYahoo！BBに統合</title>
+    <link>http://www.zdnet.co.jp/news/0207/01/njbt_08.html</link>
+    <description>各地の『めたりっく』も Yahoo! BB に合流するのだそうな。</description>
+    <dc:date>2002-07-02T09:30:05</dc:date>
+  </item>
+
+  <item rdf:about="http://asagi1.nichibun.ac.jp/youkaidb/">
+    <title>怪奇・妖怪伝承データベース</title>
+    <link>http://asagi1.nichibun.ac.jp/youkaidb/</link>
+    <description>妖怪がデータベース化されたそうです。それにしても重いページだなぁ。現状文字ベースな模様…。</description>
+    <dc:date>2002-07-02T09:30:05</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/rensai/apache15/apache15a.html">
+    <title>@IT: Apacheパフォーマンス・チューニングのポイント</title>
+    <link>http://www.atmarkit.co.jp/flinux/rensai/apache15/apache15a.html</link>
+    <description>へええ、そんなチューニングを施すのですね。負荷テストってのは いつも興味深いものです。</description>
+    <dc:date>2002-07-02T10:15:23</dc:date>
+  </item>
+
+</rdf:RDF>

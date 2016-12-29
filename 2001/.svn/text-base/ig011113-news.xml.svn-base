@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011113.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011113.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-13</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/12/01111213.html"/>
+        <rdf:li resource="http://japan.internet.com/research/20011112/1.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/12/nttcom.html"/>
+        <rdf:li resource="http://www.nhk.or.jp/news/2001/11/13/grri84000000865u.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/13/sony.html"/>
+        <rdf:li resource="http://homepage2.nifty.com/winfaq/wxp/"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fwin2k/xp_feature/013commandtool/commandtool.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fwin2k/xp_feature/012remotedesktop/remotedesktop_01.html"/>
+        <rdf:li resource="http://www.microsoft.com/japan/windowsxp/pro/evaluation/upfromhome/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/12/01111213.html">
+    <title>トレンドマイクロ，Linuxサーバ対応ウイルス対策ソフト「ServerProtect for Linux」を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/12/01111213.html</link>
+    <description>Linux用商用ソフトが増加するのは非常に嬉しいです。</description>
+    <dc:date>2001-11-13T08:24:46</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/research/20011112/1.html">
+    <title>４割以上の消費者がEメール受信をきっかけとした購入経験あり</title>
+    <link>http://japan.internet.com/research/20011112/1.html</link>
+    <description>私のような購買ものぐさ人間ですら e-mail受信をきっかけとした商品の購入経験があるものなぁ。</description>
+    <dc:date>2001-11-13T08:24:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/12/nttcom.html">
+    <title>OCNのIPv6接続サービスがフレッツ対応に</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/12/nttcom.html</link>
+    <description>具体的な IPv6の足音が聞こえだしているのですね。恐れ入ります。</description>
+    <dc:date>2001-11-13T12:41:29</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2001/11/13/grri84000000865u.html">
+    <title>株価 再び１万円割れ</title>
+    <link>http://www.nhk.or.jp/news/2001/11/13/grri84000000865u.html</link>
+    <description>およよ 再び 1万円割れしてしまいました。</description>
+    <dc:date>2001-11-13T12:53:40</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/13/sony.html">
+    <title>ソニーとAOLが提携，ホームゲートウェイやブラウザを共同開発</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/13/sony.html</link>
+    <description>ぎょぎょっ。どういう事を示唆しているのだろう。とりあえず 勝者同士の連合であるように見えるなぁ。Netscapeとの関連にも興味津々。でも それに加えて Nokiaとも提携するのだから 話が強烈です。</description>
+    <dc:date>2001-11-13T16:22:36</dc:date>
+  </item>
+  <item rdf:about="http://homepage2.nifty.com/winfaq/wxp/">
+    <title>Windows XP.FAQ</title>
+    <link>http://homepage2.nifty.com/winfaq/wxp/</link>
+    <description>少しは Windows XP に興味を持ってみようと思うのであった…。</description>
+    <dc:date>2001-11-13T16:22:36</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/xp_feature/013commandtool/commandtool.html">
+    <title>Windows XPの正体 強化されたコマンドライン・ツール（前編）</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/xp_feature/013commandtool/commandtool.html</link>
+    <description>コマンドラインツールが増加するのは喜ばしいことです。GUIのみの提供ってのは最低最悪ですからね。</description>
+    <dc:date>2001-11-13T16:22:36</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/xp_feature/012remotedesktop/remotedesktop_01.html">
+    <title>Windows XPの正体 リモート デスクトップで遠隔操作する</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/xp_feature/012remotedesktop/remotedesktop_01.html</link>
+    <description>Windows XP 新機能で興味深いのが このリモートデスクトップ機能です。リモートヘルプという機能も興味深い。こちらは Home EditionでもOKなんですって。なるほど。</description>
+    <dc:date>2001-11-13T16:22:36</dc:date>
+  </item>
+  <item rdf:about="http://www.microsoft.com/japan/windowsxp/pro/evaluation/upfromhome/">
+    <title>Windows XP Home Edition からWindows XP Professional へのアップグレード方法</title>
+    <link>http://www.microsoft.com/japan/windowsxp/pro/evaluation/upfromhome/</link>
+    <description>ほほう。期間限定ながら Windows XP Home Edition → Professional へのアップグレードパスを用意せざるを得ないと判断しはじめている模様です。</description>
+    <dc:date>2001-11-13T16:22:36</dc:date>
+  </item>
+
+</rdf:RDF>

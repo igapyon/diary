@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/07/09 日記: バグつぶし</TITLE>
+<META name="DESCRIPTION" content="今日は 昨日客先で出てしまった障害のバグつぶし予定">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,KNOPPIX">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日は昨日のバグつぶし予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さて、がんばるぞ～</P>
+<P><FONT color="#ff0000">13:48</FONT> ２パターン目の不具合を発見できた可能性が大。</P>
+<P><FONT color="#ff0000">14時ころ</FONT> ２パターン目の不具合は 旧バージョンにおいてのみ発生する現象でした。原因解明。</P>
+<P><FONT color="#ff0000">17:08</FONT> そして両方の不具合について ようやっと 修正完了。ヒトミさんに修正ソースコードを送付しました。ふう。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>KNOPPIX 3.2 日本語版を試用してみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:KNOPPIX] 3.2 日本語版 (クノーピクス) を一瞬試用してみました。何と CD-ROMブートで Linuxデスクトップが起動できるんです。これは
+本当に すばらしい。<BR>
+CD-ROMでインストーラーが起動するのでは無いのですよ！ OSが 一気に起動するんです。こういう芸当は
+オープンソースなOSを使っているからこそ出来る芸当ですね。<BR>
+また、うがった利用方法として 『壊れたWindowsマシンからデータを救う裏技』(日経Windowsプロ
+2003/0７) なんてことも考えられるのだそうです。CD-ROMブートできて FATやNTFSをマウントできるんだから
+復旧用CD-ROMとして とても重宝しそうです。</P>
+<P>今まで 一度も Linuxに触れたことが無い方も 機会があれば ぜひ ブートしてみることをおすすめします。びっくりしますよ。</P>
+<P>ところで、クノーピクスをちょっと使っていると UNIX系における 日本語入力の方法を
+しれっと忘れてしまいました。すっぽり すっきり忘れていました。はて どうやったら日本語が入力できるんだっけ…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クリア電球で簡単リフォーム気分</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>飛蚊症の症状が 幾分緩和されるので、自宅は 蛍光灯は極力減らして 電球を付けています。<BR>
+部屋の照明を電球に変更するだけで かなり部屋の雰囲気が変わります。特に 最近は
+クリア電球を好んで採用しています。ワット数の少ないクリア電球は とても風情があって趣があります。(でも
+カンデラ数の都合 ワット数を下げると 本を読むなどの用途には向いてこなくなります)<BR>
+今日 部屋の常夜灯を 試しにクリア電球に変えてみました。これがまた 趣が異なり
+とても興味深いです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>私の体調不良の傾向</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私の場合 左側の腎臓が壊れてくると 左目がひどい飛蚊症になります。肝臓が壊れると
+右目に 光の玉が飛び始めます。最近 傾向が見えてきました。<BR>
+とりあえず ひどい飛蚊症もさることながら、光の玉は 要注意です。光の玉以降
+かなり体調悪くなります。<BR>
+ここのところ 世間的に 冷房ききまくっていて これが肝臓の調子に悪い影響を与える模様。こういうシグナルをきっかけに、さっさと
+はり治療に行くのが 私にとっては肝要です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>自宅ケーブルテレビ・インターネット不調</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実効速度がえらく低速。インターネット側の不調か 加入するケーブルテレビ・インターネットの不調なのかは定かにあらず。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030709-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

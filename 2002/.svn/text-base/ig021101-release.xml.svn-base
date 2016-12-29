@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021101.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021101.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/jdk/1.2/ja/index.html">
+    <title>Sun Java2 SDK, Standard Edition 1.2.2_014 リリース</title>
+    <link>http://java.sun.com/products/jdk/1.2/ja/index.html</link>
+    <description>2世代前のJ2SE SDK のリビジョンアップリリースです。微細な不具合修正などが行われているようです。</description>
+    <dc:date>2002-11-01T10:57:08</dc:date>
+  </item>
+
+</rdf:RDF>

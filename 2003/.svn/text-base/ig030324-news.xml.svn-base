@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030324.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030324.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0303/19/epn14.html">
+    <title>2002年国内IAサーバ市場は前年比11.7％減--IDC Japan調べ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0303/19/epn14.html</link>
+    <description>一方で、デルコンピュータが台数で前年比12.0%成長なのだそうな。デルのブレードサーバって良く見かけますから…</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/235380">
+    <title>ターボリナックス、基幹業務システム向けに24時間365日のサポートサービス開始</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/235380</link>
+    <description>120万円からという値付けだそうです。</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0303/12/epn20.html">
+    <title>日本IBM、約束どおり「Informix」の新バージョンを投入</title>
+    <link>http://www.zdnet.co.jp/enterprise/0303/12/epn20.html</link>
+    <description>私はInformixが初めて遭遇するRDBMSであったので、まだ残っていると知り とてもうれしいです。</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20030319/5.html">
+    <title>2006年にはシェア15％に――IDC が国内Linuxサーバー市場動向を発表</title>
+    <link>http://japan.internet.com/linuxtoday/20030319/5.html</link>
+    <description>サーバサイドOSとしてLinuxが 今後とも堅調にシェアを伸ばすんだという意味の記事。</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://slashdot.jp/article.pl?sid=03/03/22/1344234&amp;topic=27">
+    <title>子供に見せたいWeb版科学館は？</title>
+    <link>http://slashdot.jp/article.pl?sid=03/03/22/1344234&amp;topic=27</link>
+    <description>子どもに安心して見せることが出来るWeb科学館を探していたので、すぐにメモ！</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://sc-smn.jst.go.jp/8/bangumi.asp?i_series_code=B010602&amp;i_renban_code=004">
+    <title>７００系新幹線ができるまで</title>
+    <link>http://sc-smn.jst.go.jp/8/bangumi.asp?i_series_code=B010602&amp;i_renban_code=004</link>
+    <description>和音は新幹線が好きなので…</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+  <item rdf:about="http://sc-smn.jst.go.jp/8/bangumi.asp?i_series_code=B990602&amp;i_renban_code=001">
+    <title>ボーイング７７７のできるまで</title>
+    <link>http://sc-smn.jst.go.jp/8/bangumi.asp?i_series_code=B990602&amp;i_renban_code=001</link>
+    <description>和音は飛行機も好きなので…</description>
+    <dc:date>2003-03-24T15:52:51</dc:date>
+  </item>
+
+</rdf:RDF>

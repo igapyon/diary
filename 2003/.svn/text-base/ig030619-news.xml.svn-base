@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030619.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030619.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055545,00.htm">
+    <title>SCO、IBMへの賠償請求額を3倍に：L・トーバルズを名指しで非難も</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055545,00.htm</link>
+    <description>SCOも 行くところまで行っていますね。もう収まるべきさやは無いでしょう。ちょっとしくじったら 途端に会社がつぶれて無くなるってところまで行ってしまったのかも知れません。UnixWareを使っている人は 気が気じゃないかも知れませんね。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/17/njbt_01.html">
+    <title>シャープ、地上デジタルチューナー内蔵「AQUOS」発表</title>
+    <link>http://www.zdnet.co.jp/news/0306/17/njbt_01.html</link>
+    <description>地上デジタルハイビジョンチューナーを内蔵らしいですが、やたら価格が高額ですなぁ。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/252743">
+    <title>Linuxの生みの親がTransmetaを退社、OSDLへ</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/252743</link>
+    <description>不思議な気がするニュースです。で LinusさんはLinux作成が本業になったわけですね。それは凄いことです。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20055645,00.htm">
+    <title>国内HDDレコーダーの普及率は2007年で30％まで拡大：IDC Japan</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20055645,00.htm</link>
+    <description>HDDレコーダーって とても売れそうな商品ですよね。TVチューナーをパソコンに付けただけで、私は その使い勝手に感動したのですが、民生品としてHDDレコーダーとして手元にあったら、すっごく便利そうです。しかし 今 丁度地上波デジタルというキーワードがちらついている時期なので、そこでHDDレコーダーを買うかどうかって言われると 微妙だとも思うのですが…。世間の人々はどう考えているんでしょうね。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20055361,00.htm">
+    <title>Winnyの不正コピーでTVCMが成り立たなくなる理由</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20055361,00.htm</link>
+    <description>丁度 ファイル交換ソフトの記事が載っていました。ふむふむ。とても勉強になりました。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.55628">
+    <title>ファイル交換ソフトの国内利用実態、利用者数は40万人増の185.6万人に</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.55628</link>
+    <description>ファイル交換ソフトって 一度も利用したことがないので、そんなに増えているのか、ってのが不思議です。</description>
+    <dc:date>2003-06-19T12:14:27</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20030618/3.html">
+    <title>ARMA aka Omoikane GNU/Linux 2.2 リリース</title>
+    <link>http://japan.internet.com/linuxtoday/20030618/3.html</link>
+    <description>HDD ビデオレコーダを間単に構築できるようになっているのだそうな。興味深い。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20030613/1/">
+    <title>【JavaOne2003速報】Java開発者数の拡大へ向け，言語仕様，API，ツールの各レベルで「簡単さ」を追求</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20030613/1/</link>
+    <description>Swingでがんばるのも結構ですが、SWTをJavaAPIに取り込んで欲しいと思う今日この頃。まあ Swingが『本当に』高速になってちゃんとした動きをするようになったのであれば、多少は興味も持ちますが…。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030613/3/">
+    <title>【JavaOne2003速報】JSFはWebアプリケーションのUIにおける共通基盤になる</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030613/3/</link>
+    <description>JSFについては とても興味を持っています。ほんとうに ちゃんと 仕様が決定されて具体的なモノがリリースされたら まず使ってみるような気がします。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030611/2/">
+    <title>【JavaOne2003速報】今後のJavaは「強力」よりも「シンプル」を重視</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030611/2/</link>
+    <description>え！ printfがJavaに導入？ 全く関知していませんでした。すっごくすっごく楽しみになってきました。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://medwave2.nikkeibp.co.jp/wcs/med/leaf?CID=onair/medwave/tpic/252711">
+    <title>厚労省、水銀を含む魚介類の安全性について一般向けQ&amp;A公開</title>
+    <link>http://medwave2.nikkeibp.co.jp/wcs/med/leaf?CID=onair/medwave/tpic/252711</link>
+    <description>マグロなどは水銀含有量が多いのだそうです。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/252488">
+    <title>行員激白「『りそな』は絶対に再生しない！」</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/252488</link>
+    <description>銀行冬の時代は まだまだ続きそうですね。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/win2ktips/306openfiles/openfiles.html">
+    <title>@IT: オープンしているファイルを調査する</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/win2ktips/306openfiles/openfiles.html</link>
+    <description>いい話でした。レジストリへのアクセスをモニタする方法にも 少し触れています。すばらしい記事です。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/19/njbt_05.html">
+    <title>クリエイティブのUSBオーディオデバイスにブラックモデル</title>
+    <link>http://www.zdnet.co.jp/news/0306/19/njbt_05.html</link>
+    <description>Sound Blaster Digital Musicというものだそうです。EXTIGYシリーズの方しか知りませんでした。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/19/njbt_06.html">
+    <title>マクロメディアとセルシス、TVアニメのFlash化で協力</title>
+    <link>http://www.zdnet.co.jp/news/0306/19/njbt_06.html</link>
+    <description>うまくつながれば TVアニメが簡単にFlash化できるのだそうな。恐るべし Flash人気。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055703,00.htm">
+    <title>「日本にはオープンソースの伝道師が必要」---ブルース・ペレンス氏が来日</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055703,00.htm</link>
+    <description>エバンジェリストが必要ねぇ…。それが原因なのだろうか？私にはわかりません。</description>
+    <dc:date>2003-06-19T19:56:41</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,470 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/10/03 日記: Java: 圧縮・解凍API調べ中…</TITLE>
+<META name="DESCRIPTION" content="＠ITの記事執筆のために、Javaの 圧縮・解凍APIを調べ中です。 , Eclipse 3.3言語パックを待望中…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/10/03 日記: Java: 圧縮・解凍API調べ中…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ＠ITの記事執筆のために、Javaの 圧縮・解凍APIを調べ中です。 , Eclipse 3.3言語パックを待望中…</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: 圧縮・解凍API調べ中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.atmarkit.co.jp/fjava/index/index_programer.html">＠ITの記事執筆</A>のために、Javaの 圧縮・解凍APIを調べ中です。</P>
+<UL>
+  <LI>Java 2 Platform Standard Edition 5.0 API仕様<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/</A>
+</UL>
+<P>今回記事内容として扱うのは下記</P>
+<UL>
+  <LI>java.util.zip<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/util/zip/package-summary.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/util/zip/package-summary.html</A><BR>
+  標準の ZIP および GZIP ファイル形式の読み込みおよび書き込み用クラス。
+  <LI>java.util.jar<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/util/jar/package-summary.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/util/jar/package-summary.html</A><BR>
+  JAR (Javaアーカイブ) ファイルの読み込みおよび書き出しに使うクラス。
+</UL>
+<P>ああ、java.util.zipは GZIPもサポートするのですね…。今思い出しました。</P>
+<P>さて、imageioのほうは、、、</P>
+<UL>
+  <LI>パッケージ javax.imageio<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/javax/imageio/package-summary.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/javax/imageio/package-summary.html</A><BR>jpeg (jpg), png, bmp, wbmp, gif をサポート
+</UL>
+<P>なんか 難しそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ZIPファイルの作成および読み込み</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>結構 ZIPファイル入出力だけでも どっしりとした内容です。UTF-8によるファイル名 文字エンコーディングも 頭が痛い内容です。</P>
+<P>作成</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+
+/**
+ * ZIPファイルを作成するサンプルです。
+ * 
+ * 前提条件: ファイル名は UTF-8でエンコードされているものと仮定します。一般的に流通している Windowsアーカイバでは
+ * 日本語ファイル名を正しく読み込むことは出来ません。
+ * 
+ * @author iga
+ * 
+ */
+public class CreateZipSample {
+    public static void main(String[] args) {
+        try {
+            final File file = new File(&quot;zipsample.zip&quot;);
+            System.out.println(&quot;ZIPファイル作成: 開始: &quot; + file.getAbsolutePath());
+            new CreateZipSample().process(file);
+            System.out.println(&quot;ZIPファイル作成: 終了&quot;);
+        } catch (IOException e) {
+            System.out.println(&quot;ZIPファイル作成中に例外が発生しました。処理中断します:&quot; + e.toString());
+        }
+    }
+
+    /**
+     * ZIPファイルを作成します。
+     * 
+     * @param file
+     *            出力するZIPファイル。
+     * @throws IOException
+     *             入出力例外が発生した場合。
+     */
+    public void process(final File file) throws IOException {
+        final ZipOutputStream zipOutStream = new ZipOutputStream(
+                new BufferedOutputStream(new FileOutputStream(file)));
+        try {
+            {
+                final ZipEntry entry = new ZipEntry(&quot;ABC/ABC.txt&quot;);
+                zipOutStream.putNextEntry(entry);
+                // ファイルデータの書き込み。
+                zipOutStream.write(new String(&quot;あいうえお&quot;).getBytes());
+                zipOutStream.closeEntry();
+            }
+
+            {
+                final ZipEntry entry = new ZipEntry(&quot;ABC/DEF.txt&quot;);
+                zipOutStream.putNextEntry(entry);
+                // ファイルデータの書き込み。
+                zipOutStream.write(new String(&quot;かきくけこ&quot;).getBytes());
+                zipOutStream.closeEntry();
+            }
+
+            {
+                final ZipEntry entry = new ZipEntry(&quot;DEF.txt&quot;);
+                zipOutStream.putNextEntry(entry);
+                // ファイルデータの書き込み。
+                zipOutStream.write(new String(&quot;さしすせそ&quot;).getBytes());
+                zipOutStream.closeEntry();
+            }
+
+            zipOutStream.finish();
+        } finally {
+            zipOutStream.close();
+        }
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>読み込み</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+/**
+ * ZIPファイルを読み込むサンプルです。
+ * 
+ * 
+ * 前提条件1: ファイル名は UTF-8でエンコードされているものと仮定します。一般的に流通している
+ * Windowsアーカイバで書き出された日本語ファイル名は正しく読み込めません。
+ * 
+ * 前提条件2: このサンプルは、CreateZipSampleが作成した
+ * ZIPファイルを読み込むという仮定のもとに作られています。具体的には、読み込んだデータがテキストファイルであると仮定しています。
+ */
+public class ReadZipSample {
+    public static void main(final String[] args) throws IOException {
+        try {
+            final File file = new File(&quot;zipsample.zip&quot;);
+            System.out.println(&quot;ZIPファイル読込: 開始: &quot; + file.getAbsolutePath());
+            new ReadZipSample().process(file);
+            System.out.println(&quot;ZIPファイル読込: 終了&quot;);
+        } catch (IOException e) {
+            System.out.println(&quot;ZIPファイル読込中に例外が発生しました。処理中断します:&quot; + e.toString());
+        }
+    }
+
+    /**
+     * ZIPファイルを読み込みます。
+     * 
+     * @param file
+     *            入力するZIPファイル。
+     * @throws IOException
+     *             入出力例外が発生した場合。
+     */
+    public void process(final File file) throws IOException {
+        final ZipInputStream zipInStream = new ZipInputStream(
+                new BufferedInputStream(new FileInputStream(file)));
+        try {
+            for (;;) {
+                final ZipEntry entry = zipInStream.getNextEntry();
+                if (entry == null)
+                    break;
+
+                System.out.println(&quot;  ファイル名: [&quot; + entry.getName() + &quot;]&quot;);
+
+                // ファイルデータの読み込み。
+                final ByteArrayOutputStream outStream = new ByteArrayOutputStream();
+                for (;;) {
+                    int iRead = zipInStream.read();
+                    if (iRead &lt; 0)
+                        break;
+                    outStream.write(iRead);
+                }
+                outStream.flush();
+                outStream.close();
+                System.out.println(&quot;    内容: [&quot;
+                        + new String(outStream.toByteArray()) + &quot;]&quot;);
+
+                zipInStream.closeEntry();
+            }
+        } finally {
+            zipInStream.close();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Antが jarファイルをどうやって作っているのか</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache Ant が どうやって jarファイルを作っているのか 簡単に調べてみました。</P>
+<UL>
+  <LI>Apache Ant: Manifest.java<BR>
+  <A HREF="http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Manifest.java?view=markup">http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Manifest.java?view=markup</A><BR>
+  getDefaultManifest() あたりが参考になります。
+</UL>
+<P>関係ない話に飛びます。こうやって ソースコードがインターネットで簡単に閲覧して指し示すことができるというのは、とても便利ですね。そのアクセスの容易さに気がついて、びっくりしました。<BR>
+※なお、該当箇所を検索して探し出す際には、ソースコードのアーカイブ一式を取得して検索して見つけ出しました。そういった検索は 手もとにソースコード一式がある方が
+やはり便利です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: イメージ変換サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>イメージファイルを変換するサンプルです。でも、記事としては没ネタになるかも…。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ImageConverterSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.IIOException;
+import javax.imageio.ImageIO;
+
+public class ImageConverterSample {
+    public static void main(final String[] args) throws IOException {
+        System.out.println(&quot;イメージコンバータ: 開始&quot;);
+        final File input = new File(&quot;sample.png&quot;);
+        final File output = new File(&quot;sample.jpeg&quot;);
+        System.out.println(&quot;  変換元: [&quot; + input.getAbsolutePath() + &quot;]&quot;);
+        System.out.println(&quot;  変換先: [&quot; + output.getAbsolutePath() + &quot;]&quot;);
+        new ImageConverterSample().convert(input, output);
+        System.out.println(&quot;イメージコンバータ: 終了&quot;);
+    }
+
+    /**
+     * イメージファイルを変換します。
+     * 
+     * @param input
+     * @param output
+     * @throws IOException
+     */
+    public void convert(final File input, final File output) throws IOException {
+        BufferedImage bufImg = null;
+        try {
+            bufImg = ImageIO.read(input);
+        } catch (IIOException e) {
+            throw new IllegalArgumentException(&quot;ファイル[&quot;
+                    + input.getAbsolutePath() + &quot;]の読み込み処理の過程で例外が発生しました: &quot;
+                    + e.toString());
+        }
+        if (bufImg == null) {
+            throw new IllegalArgumentException(&quot;ファイル[&quot;
+                    + input.getAbsolutePath() + &quot;]をイメージファイルとして読み込みできませんでした。&quot;);
+        }
+
+        final String outFormatName = getSuffix(output.getAbsoluteFile());
+        if (ImageIO.write(bufImg, outFormatName, output) == false) {
+            throw new IllegalArgumentException(&quot;ファイル[&quot;
+                    + output.getAbsolutePath() + &quot;]に 形式[&quot; + outFormatName
+                    + &quot;]で書き込みしようとしましたが失敗しました。&quot;);
+        }
+    }
+
+    /**
+     * ファイル名から拡張子を取得。
+     * 
+     * @param file
+     *            ファイル。
+     * @return 拡張子。
+     * @throws IllegalArgumentException
+     *             ファイル名から拡張子を取得できない場合。
+     */
+    private static String getSuffix(final File file) {
+        String name = file.getName();
+        final int lastDot = name.lastIndexOf('.');
+        if (lastDot &lt;= 0) {
+            // 処理できません。
+            throw new IllegalArgumentException(
+                    &quot;ファイル名[&quot;
+                            + file.getName()
+                            + &quot;]の拡張子が判定できませんでした。[.]が含まれないファイル名などは処理できません。[.jpeg]のような拡張子付きファイル名を指定してください。&quot;);
+        }
+        if (lastDot == name.length() - 1) {
+            // これも処理できません。
+            throw new IllegalArgumentException(
+                    &quot;ファイル名[&quot;
+                            + file.getName()
+                            + &quot;]の拡張子が判定できませんでした。[.]で終わるファイル名は処理できません。[.jpeg]のような拡張子付きファイル名を指定してください。&quot;);
+        }
+        return name.substring(lastDot + 1);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: イメージ表示シンプルサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ざっくりと イメージ表示サンプルを作成してみました。ただし、これは＠IT記事には掲載しないと思います。没ネタ…。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ImageViewerSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
+
+public class ImageViewerSample extends JPanel {
+    private static final File fFile = new File(&quot;sample.png&quot;);
+
+    private BufferedImage fImage = null;
+
+    public ImageViewerSample() {
+        // 背景色を白色にします
+        setBackground(Color.white);
+
+        try {
+            fImage = ImageIO.read(fFile);
+        } catch (IOException e) {
+            System.out.println(&quot;イメージファイル[&quot; + fFile.getAbsolutePath()
+                    + &quot;]の読み込みに失敗:&quot; + e.toString());
+            e.printStackTrace();
+        }
+    }
+
+    public void paintComponent(final Graphics argGraphics) {
+        super.paintComponent(argGraphics);
+
+        argGraphics.drawImage(fImage, 0, 0, null);
+    }
+
+    private static void createAndShowGUI() {
+        // JFrameを作成して自分自身を張り付け、これを表示します
+        final JFrame frame = new JFrame(&quot;イメージ表示: &quot; + fFile.getAbsolutePath());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(new ImageViewerSample());
+        frame.setLocationRelativeTo(null);
+        frame.setSize(400, 400);
+        frame.setVisible(true);
+    }
+
+    public static void main(final String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                createAndShowGUI();
+            }
+        });
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.3用の Language Packは まだかなぁ…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse 3.3 用の Language Pack はまだかなぁ…</P>
+<UL>
+  <LI>eclipse project downloads<BR>
+  <A HREF="http://download.eclipse.org/eclipse/downloads/">http://download.eclipse.org/eclipse/downloads/</A>
+  <UL>
+    <LI><A HREF="http://ring.maffin.ad.jp/archives/misc/eclipse/downloads/drops/">http://ring.maffin.ad.jp/archives/misc/eclipse/downloads/drops/</A><BR>
+    Ring Serverからのダウンロードが高速で快適だと思います。
+  </UL>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011221.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011221.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-21T07:40:17</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.ipa.go.jp/security/topics/alert131218.html"/>
+        <rdf:li resource="http://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20011218/"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/18/e_lineo.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0112/14/01121414.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/19/e_ibm.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.ipa.go.jp/security/topics/alert131218.html">
+    <title>IPA/ISEC:ウイルス届出急増　年末緊急警報 －12月の届出件数は過去最悪のペース－</title>
+    <link>http://www.ipa.go.jp/security/topics/alert131218.html</link>
+    <description>良くできた ウイルス近況報告。</description>
+    <dc:date>2001-12-21T09:05:11</dc:date>
+  </item>
+  <item rdf:about="http://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20011218/">
+    <title>RDF/XML Syntax Specification (Revised) Working Draft 18 December 2001</title>
+    <link>http://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20011218/</link>
+    <description>RSSに興味を持っている私としては RDFの動向も興味津々。今回のバージョンにて、sequence &lt;rdf:Seq idAttr, inlineItem &lt;rdf:liなどの文法は削除なんですね。暇なときにでも対応しようと思います。</description>
+    <dc:date>2001-12-21T09:05:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/18/e_lineo.html">
+    <title>Microsoftとオープンソース陣営の「組み込みOS論争」さらに過熱</title>
+    <link>http://www.zdnet.co.jp/news/0112/18/e_lineo.html</link>
+    <description>組み込み系はLinuxで決まりでしょう？ なぜわざわざ今更組み込み系にWindowsを (???)</description>
+    <dc:date>2001-12-21T09:05:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0112/14/01121414.html">
+    <title>マイクロソフトのC#とCLIが「標準」に</title>
+    <link>http://www.zdnet.co.jp/enterprise/0112/14/01121414.html</link>
+    <description>C#や.NETは 『全く駄目』だと決めつけていますが、標準化されたというのはさすがに気になる (苦笑)</description>
+    <dc:date>2001-12-21T09:05:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/19/e_ibm.html">
+    <title>IBMがLinuxサーバの無料お試しプログラム</title>
+    <link>http://www.zdnet.co.jp/news/0112/19/e_ibm.html</link>
+    <description>こういうIBMの地道 (だが金が沢山かかる) 施策は、数年後には 多くの富として戻ってくることでしょう。</description>
+    <dc:date>2001-12-21T09:05:11</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020319.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020319.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-19T08:11:03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.asahi.com/national/update/0319/005.html">
+    <title>１０年近く前から偽装　丸紅畜産関係者が公取委に話す</title>
+    <link>http://www.asahi.com/national/update/0319/005.html</link>
+    <description>日本の食物自給率では 鶏肉に限らず 国産がこんなにあるわけ無いです。食物に関して 『適正』な表示を ぜひ実現して欲しいです。私は 有機農産物宅配をしているので、まあ 適正な表示をされているものを口に出来ているわけですけれども、世間一般の人は ず～っとだまされ続けてきているわけですよね。また そういった適正でない表示が 日本国内の農業・畜産従事者の生活を脅かしているのです。</description>
+    <dc:date>2002-03-19T11:05:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0203/11/02031101.html">
+    <title>Interview：伝説の「カーネルハッカー」がLinuxを語る</title>
+    <link>http://www.zdnet.co.jp/enterprise/0203/11/02031101.html</link>
+    <description>アラン・コックスさんのお話。読み物としてかなりおもしろかったです。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0319/002.html">
+    <title>０２年度の設備投資計画２年連続の減少、ＩＴ大幅減</title>
+    <link>http://www.asahi.com/business/update/0319/002.html</link>
+    <description>およよ。情報技術への投資が減るってのは影響受けるなぁ。でも ハードウェアへの投資が抑制されてソフトウェアへの投資に充てられる、ってのだったら影響少ないのですけれども。</description>
+    <dc:date>2002-03-19T11:05:31</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/03/19/grri84000000ayd7.html">
+    <title>日中の賃金格差 最大で５７倍</title>
+    <link>http://www.nhk.or.jp/news/2002/03/19/grri84000000ayd7.html</link>
+    <description>57倍ってのは 大変きついですね。安い労働力に魅力を感じるのもいたしかたないです。困ったものです。</description>
+    <dc:date>2002-03-19T11:05:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/0315/rdf.htm">
+    <title>W3C、RDFを視覚的に記述できるツール「IsAViz」を発表</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/0315/rdf.htm</link>
+    <description>IsAVizというソフトは完全にJavaで書かれているのだそうな。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/tech/asahinews/K2002031500663.html">
+    <title>脱税の疑いでマイクロソフト元常務を告発</title>
+    <link>http://www.asahi.com/tech/asahinews/K2002031500663.html</link>
+    <description>およそ企業の経営に携わる人は、一層の適切な処理を行うよう心がけるべきでしょうね。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.grapecity.com/japan/support/database/P2_154_10441_News.htm">
+    <title>サーバーサイドJavaをサポートする帳票作成ツール(Elixir Report 3.0J)を発売</title>
+    <link>http://www.grapecity.com/japan/support/database/P2_154_10441_News.htm</link>
+    <description>私は Javaをサポートする電子帳票システム(含む帳票作成機能)パッケージソフトの作者でもあるので、このニュースは興味あります。さしあたり この Elixir Report は電子帳票システムでは無いようです。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0203/14/02031402.html">
+    <title>Sun Tech Days Keynote：「ミッションクリティカルは“Solaris”で……」を再確認したオラクルのデモ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0203/14/02031402.html</link>
+    <description>ひどい話だなぁ (笑) でも 某OSは「青い画面」が出やすいように設計されているからなぁ。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/09/b_0308_03.html">
+    <title>家電の世界へようこそ――Xbox騒動。米でもトラブルが</title>
+    <link>http://www.zdnet.co.jp/news/0203/09/b_0308_03.html</link>
+    <description>マイクロソフトってハードウェアには不慣れだからなぁ。(サービスパックで修正できないから :-P)</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/07/xbox_comment.html">
+    <title>Xboxのトラブル，ハードウェアメーカー関係者は「信じがたい」</title>
+    <link>http://www.zdnet.co.jp/news/0203/07/xbox_comment.html</link>
+    <description>ハードウェアメーカーの「常識」ってあるんですよねぇ。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20020308/1.html">
+    <title>世界第3位の広告代理店、Linux を導入</title>
+    <link>http://japan.internet.com/linuxtoday/20020308/1.html</link>
+    <description>IBM DB2 Enterprise Edition for Linux と SteelEye のクラスタ LifeKeeper とを採用なのだそうです。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/08/b_0307_11.html">
+    <title>PS2用Linux，米国でも受注開始</title>
+    <link>http://www.zdnet.co.jp/news/0203/08/b_0307_11.html</link>
+    <description>PS2Linuxが花開くかどうか 楽しみにしています。</description>
+    <dc:date>2002-03-19T10:28:01</dc:date>
+  </item>
+
+</rdf:RDF>

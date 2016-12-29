@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030405.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030405.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/archive/j2se/1.4.0_04/">
+    <title>Sun Java2 SDK, Standard Edition (J2SE) 1.4.0_04 リリース</title>
+    <link>http://java.sun.com/products/archive/j2se/1.4.0_04/</link>
+    <description>私にとってのJ2SE安定版の最新リビジョンがリリースです。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/j2mewtoolkit/">
+    <title>Sun: J2ME Wireless Toolkit 2.0 リリース</title>
+    <link>http://java.sun.com/products/j2mewtoolkit/</link>
+    <description>MIDP 2.0などをサポートするのだそうです。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/products/eclipse21/eclipse21_1.html">
+    <title>@IT: 完成度を高め商用ツールの機能にさらに迫るEclipse 2.1</title>
+    <link>http://www.atmarkit.co.jp/fjava/products/eclipse21/eclipse21_1.html</link>
+    <description>Eclipseの最新版リリースはJava屋なら皆気になる所でしょう。</description>
+    <dc:date>2003-04-05T08:59:58</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/28 日記: 今日は書籍執筆します！</TITLE>
+<META name="DESCRIPTION" content="今日は書籍執筆します。日々のお仕事さん、邪魔しないでね , Linuxにビジネスチャンスを賭けるNEC関連会社">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日は 何が何と言おうと 書籍執筆を行います</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日はぜったい書籍執筆を行います。<BR>
+これまで、日々の仕事に追われ、まだ 1行たりとも書けていないのでした。明日が締切だというのに…
+(苦笑)</P>
+<P>ああ、、、でも 明日は 日々の仕事も少しはしないといけないなぁ。それはともかく
+まずは今日 執筆するのだ (と心の中で強く決意をするのであった…)</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021113.html">2002/11/13 日記: Javaプログラミング[アプリケーション編] ステップアップラーニング</A><BR>
+  <FONT size="-1">後日談: 通称『チューリップ本』は 11月中旬にようやく出版されました</FONT>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Struts Console といふもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Struts Consoleというソフトを見かけたのでダウンロード。</P>
+<UL>
+  <LI>Struts Console<BR>
+  [replace-href:http://www.jamesholmes.com/struts/console/]
+</UL>
+<P>設定ファイルをGUIで設定できるそうです。なんだか 一応 一通り動作しました。#
+仕事でこれを利用するかどうかは 保留します :-P</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linuxにビジネスチャンスを賭けるNEC関連会社</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日の下記のニュースを見ていると NEC関連会社のLinuxビジネス推進のうねりをうかがい知ることが出来ます。</P>
+<UL>
+  <LI><A href="http://www.zdnet.co.jp/enterprise/0205/27/02052713.html">NEC関連3社，Linuxによる基幹システムの構築を容易にするソリューションを体系化</A>
+  <LI><A href="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/187432">NEC、Linux利用の基幹システム向けソリューション</A>
+  <LI><A href="http://japan.internet.com/webtech/20020523/4.html">NECソフト、Lutris の 
+Javaアプリケーションサーバーを継承</A>
+</UL>
+<P>今まで 内部的には Linux支持の機運はあったものの そんなに大々的には Linux寄りな行動は取ってこなかったように思っています。ここに来て
+『LinuxビジネスもNEC関連会社へ』というアピールを出しているように思えます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows Update は使うべからず</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>NECサポートが 『このWindows Updateを適用するとフリーズが発生しやすくなる』という現象を調査して下さいました。</P>
+<UL>
+  <LI><SPAN class=title>Windows XP で、Windows Update を実行した後、フリーズが多発するようになった場合の対処方法</SPAN><BR>
+  [replace-href:http://121ware.com/support/pc/r2/data/kb/004/004785/004785.htm]
+</UL>
+<P>私の中では 『Windows Updateは使うべからず』なのですが、それはさておき、個別のトラブルを調査してくれたのは大変嬉しいです。<BR>
+、、、早期に Windows XP SP1をリリースして欲しいのですが… (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020528-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

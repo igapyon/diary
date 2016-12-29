@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/06/14 日記: OpenOffice.org SDKのAPIが なぜあのような姿をしているのかについてのメモ</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org SDKのAPIは なぜあのような姿をしているのかについて、書き下ろしコラム風にメモをしておきます。 , のだめカンタービレを衝動買い">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/06/14 日記: OpenOffice.org SDKのAPIが なぜあのような姿をしているのかについてのメモ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] OpenOffice.org SDKのAPIは なぜあのような姿をしているのかについて、書き下ろしコラム風にメモをしておきます。 , のだめカンタービレを衝動買い</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org SDK の APIが何故 あのような姿をしているのか</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> 1.1.x SDK の APIが なぜ あのような姿(および実装) になっているのかについて、強制的に思い出して説明しなくてはならない目に遭ったので、これを機に私が知っている
+(もしくは判る) 範囲を書き留めておきます。なお、私は別に OpenOffice.org SDK の開発や保守に携わっているわけではありません。単に常識で妥当と考えられる範囲で
+こういう理由であろうということを書き留めるにすぎません。</P>
+<P>まず Javaから OpenOffice.org SDKを用いると、一般的には 下記のようなコーディングを行うことになります。</P>
+<UL>
+  <LI><A href="ig050610.html">2005/06/10 日記: Java: OpenOffice.org SDKを用いた Excelファイルを新規作成するサンプル</A>
+</UL>
+<P>このようなトイプログラムをざっくりと書いてみて、そもそも 型が<STRONG>安全ではない</STRONG>姿をとっているし、<STRONG>呪文数が多い</STRONG>し、などと、とりあえずプログラミングしていて ふらふら感を禁じ得ません。ですが、これは OpenOffice.org SDK を作った方々が編み出したものではなく、そもそものAPIのルーツによるところが多いです。</P>
+<P>そもそもの OpenOfficeは Microsoft Office を意識しているものと考えられます。それは生い立ちやマーケティング (StarOfficeを含む)
+などの進め方から まあ自明のことです。そして OpenOffice.org SDK の APIについても、やはり Microsoft Office
+の COM/DCOMインタフェースおよび複合ドキュメントの仕様 (マーケティングの都合、ActiveX Documentと呼ばれたり OLEドキュメントと呼ばれたりもします)
+を強く意識しているものと考えられます。私は以前 Microsoft Office の OLEインタフェースを用いたパッケージソフトのプロデュース／マネージメントをしていたことがあり、だから
+Microsoft Officeの OLEインタフェースと OpenOffice.org SDK APIインタフェースとが なんだかキョウレツに結びつけられて見えてしまってしかたがありません。</P>
+<P>COMとかのコーディングを ざっくりGoogleで探したら、下記のページなどが見つかりました。(引用させていただきます)</P>
+<UL>
+  <LI><A HREF="http://www.eonet.ne.jp/~nakanishia/Hidetaka/Software/Windows/COM.htm">http://www.eonet.ne.jp/~nakanishia/Hidetaka/Software/Windows/COM.htm</A>
+</UL>
+<P>ここにあるように QueryInterfaceという呪文は 別段新しい呪文なのではなくって、そもそもの COM/DCOMなどの基盤となるところの呪文なのです。WindowsでOLE複合ドキュメントやActiveXコントロールなどと付き合っていると、とても良く見かける呪文です。その根底にはプログラム間通信とかソフトウェア再利用性、そして果てはマイクロカーネルといった思想もあるのでしょうね。というようなことで
+Windowsで複合ドキュメントなどを実現するための Microsoft Officeについても、当然 Windows上の基盤技術である COM/DCOMを使っていて、だから
+QueryInterfaceは ごく普通に登場します。</P>
+<P>、、、で OpenOfficeはというと なんと Windows以外の Linuxや Solaris、果ては Macまで動作環境とするので、OpenOffice.org
+SDKについても、これら各種OSをサポートする必要があるのだから大変です。APIとして、各OS (というよりは GNOMEやKDEといったGUI環境)のコンポーネント技術・分散技術をサポートしておく必要があるのです。GNOMEやKDEのコンポーネント技術・分散技術について
+私は別段見識を持っているわけではありませんけれども、Windowsと全く同じ実装になっている可能性が低いことぐらいは容易に想像できます。このために、OpenOffice.org
+SDKのAPIは queryInterfaceの嵐のような姿をしている必要が出てくるのです。コンポーネント技術・分散技術におけるプロセス境界や概念上の境界について
+自由度を持たせておく必要があるからなのです。これは大変なことでして、だから結果として APIセットについて どうしても呪文数が多くなりがちだったり、型セーフでなくなっていったりするのでしょう。</P>
+<P>型セーフという観点からは、そもそもOSやGUI環境がサポートする型についても考慮する必要が出てきます。それもあってか OpenOffice.org
+1.1.4では セルへの値のセットについて なんと StringとdoubleしかAPIが提供されていません。これはびっくりしますけれども、サポートすべきOSやGUI環境に思いを巡らせると、妥当性が高い、ある意味当然の選択肢であるともいえます。ただしセットする方法がProperty経由になるというのは
+すんなりとは納得できません。しかし Microsoft OfficeのOLE経由での操作の際に、全く同じプロパティ名によるアクセスが提供されていることについては、これは見逃すわけにはいきません。そして
+Microsoft Office OLE経由プログラミング経験者にとっては常識レベルのアクセス方法であろうことも確かです。(一方 OpenOffice.org
+SDKには Any型も提供されています。こちらも善し悪しなのですが、Java系のAPIでは 素直には Any型が利用できませんでした。まあ 型マップが隠蔽されたところで動作しそうな感じもあるので、ある程度のスキルのある人は、型が厳格なパスを利用するであろうことでしょうけれども)</P>
+<P>加えて、別の観点を加えますが、一般的にマイクロカーネルという思想にあこがれてプロセス間通信を透過で利用するといった実装を行った人なら常識的に判ることなのですが、プロセス間通信のコストは境界が多ければ多いほどコスト高になりがちです。OpenOffice.orgについても
+再利用性やコンポーネント性を考えた上でAPIを作っているのだから、自然に実装してしまうと境界が多く通信過多になりがちです。そこのところで OpenOffice.org
+SDKのおもしろいところは、分散技術の途中の部分に UNOというソケット通信を導入していることです。(これゆえに余計にAPIは煩雑になっているのですが、実効性というか実行速度の観点からは、かなり有利に働いています)
+このためOpenOffice.org SDK APIを直接利用するプログラマはかなり注意しないといけない (ソケットを開けっ放しにしないこと)
+のですが、実行速度の面では有利であると考えます。(ここで私は OpenOffice内でJavaを動作させるという観点は あえて除外しています)
+概念モデル上としてはコンポーネント指向を貫き通し、だけれども実効性を確保するために途中の部分にソケット通信を挟み込んでおくのです。</P>
+<P>まとめると、下記のような理由から OpenOffice.org SDKのAPIは 現在のような仕様となっているものと考えます。</P>
+<UL>
+  <LI>歴史的な経緯
+  <LI>マーケティング上の理由
+  <LI>多くのOSをサポートする必要があるという制約
+  <LI>実効性能の確保
+</UL>
+<P>このような理由があった上で、OpenOffice.org SDK APIは あのような姿をもっているのであると考えます。だから OpenOffice.org
+SDK を使って一儲けを行いたいと考える会社は、Microsoft OfficeのActiveX (OLE/COM) インタフェースに精通した人を雇用するというのも有益な選択肢であろうと考えます。ただし
+Microsoft OfficeのActiveXに精通した C言語技術者とかになってくると、やはり供給は少なめであろうとも思えますけれどもね…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>わたしはプロセス間通信の実装に詳しいのかも…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>よくよく考えてみたら、私はモジューラビリティとかプロセス間通信とかの仕事に意外にも多く携わっていたのだということが判ってきました。そういえば前世紀ですら
+HTTP + XMLベースの信頼性通信 (SOAPにACK/NCKが付いたようなやつ) の実際の商用ベースミドルウェア開発に携わりました。(商用ベースというのがポイントです)
+ジョブとかメールとかインタプリタとか、商用ベースの様々なものを いろいろやっています…。思い起こしてみて、びっくりです。(ただし、プロデュースだけというのも含まれていて、全てのコードを書きまくっていたわけではありませんけれどもね)
+</P>
+<P>、、、昔 あるミドルウェアをコンポーネントベースのマイクロカーネルばりばりで設計・実装して、性能が全然でなくって、土日で一気に単純な C++言語ヘッダーファイルのインクルードに書き直した記憶が…。あのときは
+COM/DCOMベースのものを C++言語のヘッダーファイル(これがクラスでもある)とTCPソケットに書き直して、性能が劇的に改善されましたです。あのころは若かったなぁ…。。。だから
+UNOの実装とかが ビミョーにわかるのですね。自分でもびっくりです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ajaxを勉強開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某システムに Ajaxが適用できないかどうか考察を開始しました。とりあえず基本なところが全くを理解できていないので、Googleを利用して勉強開始です。</P>
+<UL>
+  <LI><A HREF="http://japan.cnet.com/special/story/0,2000050158,20082580,00.htm">http://japan.cnet.com/special/story/0,2000050158,20082580,00.htm</A>
+  <LI><A HREF="http://someeda.mydns.jp/pw/?Ajax">http://someeda.mydns.jp/pw/?Ajax</A>
+  <LI>JSFでAjaxを簡単に実現 - AjaxFaces 1.0公開<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2005/06/07/025.html">http://pcweb.mycom.co.jp/news/2005/06/07/025.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun J2SE 1.4.2がサポートする Windowsのバージョンは ?</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふと Sunの J2SE 1.4.2がサポートする Windowsのバージョンを調べようとしたら、なかなか調べられません。なんてことでしょう。<BR>
+例えば Windows 95とか Windows98 をサポートする Sun J2SEは存在するのか、などなどが疑問・調査ポイントです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>本屋で「のだめカンタービレ」を購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日 本屋で のだめカンタービレ  の第1巻を購入しました。何かの新聞の書評に誘われての購入です。<BR>
+とても良くできた漫画です。、、、私はアマチュア・クラシック音楽家という立場を持っています。身内・親類・知り合いに何人ものプロの(職業の) クラシック音楽の演奏家がいます。そういう立場からこの本を読むと、とても複雑な気持ちがしたというのも正直な感想です。なんていうか
+随所に現在のプロのクラシック音楽界に対する何か指摘・示唆といったものがちりばめられているのです。なんていうか、なんだかリアル感あふれていますです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

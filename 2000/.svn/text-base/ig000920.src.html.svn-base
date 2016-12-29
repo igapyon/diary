@@ -1,0 +1,348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2000/09/20 日記: JSSE 1.0.2 ハマり中 -&gt; 解決</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SUN Java Secure Socket Extension (JSSE) で ちとハマってます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とある業界の B2B を XMLトランザクション実装する仕事を実装しています。(<FONT color="#ff0000" size="-1">2007.08.12一部変更</FONT><FONT size="-1"> 現在の価値観に従い、表現を一部変更しました。</FONT>)<BR>
+Mime Base64 とか 圧縮・伸張とかは難なくクリアーできたのですが、根っこのセキュリティ部分でハマってます。HTTP
+on SSL (つまりは https) の箇所です。</P>
+<P>基本的に SUN <A href="http://java.sun.com/products/jsse/">Java Secure Socket Extension (JSSE)</A> 1.0.2 ベースで考えています。これは まぁ妥当であろうと思えます。<BR>
+ところが、なぜか <A href="http://java.sun.com/products/jsse/">JSSE 1.0.2</A> 付属のサンプルではうまく動作しなかったりするためです。(URLConnection
+に https を渡すスタイルのサンプル) Microsoft
+Internet Explorer5.0 では httpsベースで接続できているので、サーバ側の設定ミスでは無い模様です。(ってことはクライアント側の設定や何かお膳立てが抜けているんでしょうねぇ)<BR>
+現在、適当な資料や講習会を知りたく 探しているところです。メサキ的には
+『動く』サンプルソースコード(及びその設定)
+が載っかっているウェブページなど見つかれば良いのですが、、、。<BR>
+どなたか ご存じの方、一発突っ込みを入れていただけませんでしょうか?
+ウェブページの場合 英語でもOKです。(ドイツ語とかイタリア語とかは
+ちょっとダメです)<BR>
+(というか ごく初歩的な クライアント側の設定ミスであるようにも思えるので、余計に恐縮です)<BR>
+<BR>
+詳しい方、、、ど～ぞよろしく お願いいたします。</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> 師匠に </P>
+<UL>
+  <LI><A href="http://www.jnetcom.jeida.or.jp/ec/papers/1-05/W1SSLSHTTP.htm">http://www.jnetcom.jeida.or.jp/ec/papers/1-05/W1SSLSHTTP.htm</A>
+</UL>
+<P>を教えてもらいました。うう～ん (苦笑)</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> 読者群からの『どと～』な突っ込み群</P>
+<P><CITE>件名：JSSEの情報について<BR>
+いがびょん様、<BR>
+<BR>
+はじめまして、M.Yと申します。<BR>
+<BR>
+いつも楽しく日記を読ませて頂いています。<BR>
+今日の日記にJSSEについての記述があり、資料を探しているとのことでしたのでメールさせていただきました。<BR>
+<BR>
+私が知っているのは、Java WORLDの 2000.4月号にJSSEの記事が載っています。<BR>
+Java API徒然草 第十六段にJSSEの紹介がされています。<BR>
+<BR>
+私自身、この記事を参考にHTTPSによるWebへのアクセスをするJavaクライアントを作成し、成功しています。<BR>
+<BR>
+毎日日記を読ませて頂いており、非常に勉強になっています。何かおかえしをしたくメールさせて頂きました。<BR>
+＃きっと他にもたくさんの人からリプライがあるかもしれませんが、重複してたらすみません。<BR>
+これからも日記を楽しみにしています。</CITE></P>
+<P><CITE>このメールを載せるときは匿名でお願いいたします。<BR>
+--</CITE></P>
+<P><FONT color="#ff0000">別の方からのお便り</FONT></P>
+<P><CITE>件名：JSSE について<BR>
+<A href="ig000120.html">bata</A>と申します。<BR>
+※２回目の登場となるかと思いますが・・・<BR>
+<A href="ig000120.html">前回はＮｏｔｅｓの時</A>だったと思います。<BR>
+<BR>
+では、本題にはいって・・・<BR>
+<BR>
+JSSEのクライアント動作ですがこれはＳＳＬの動作どうりなのですが、ドキュメントに詳しくかかれていないのでみなさんの
+悩み所 だと思います。<BR>
+<BR>
+ＩＥの場合、ＳＳＬ通信発生時にダイアロクが表示されると思いますが
+この時、サーバから証明書が送られてきています、このダイアロクで証明書の確認をしています。<BR>
+ＯＫの場合、この証明書を認証したとして以後の通信がＯＫとなると言う訳です。<BR>
+<BR>
+ＪＳＳＥの場合、ＳＳＬ通信が発生すると、デフォルトの証明書(KeyStoreファイル）を見に行ってしまいます。KeyStoreファイルにサーバの証明書が無い場合、証明書の認証がＮＧとなって、通信が切断されます。<BR>
+<BR>
+ここで、ＪＳＳＥのクラス（インタフェース）をラップして無条件に証明書を認証してしまえばＯＫとなります。<BR>
+メソッド的には isServerTrusted のあるクラスをラップすればＯＫだったと思います。<BR>
+※ここをいろいろ変更すれば自由にサーバの認証が出来ます。<BR>
+<BR>
+こんなもんでお役にたちましたでしょうか？？？<BR>
+<BR>
+では、また『いがぴょんの日記』を楽しみにしています。</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+早速 怒濤のようなご教授いただき恐縮です。こ～ゆ～時
+日記やってて 本当に良かったと思います。また
+私の日記は投稿ページなので、みなさんの突っ込みこそがエンジンです。<BR>
+特に 今回のは仕事そのまんまでのハマりなので、すっごく助かります。,,,
+さしあたり JAVA WORLD 2000/04 を探さねば,,,
+(苦笑)<BR>
+<BR>
+<FONT color="#ff0000">2000/09/22</FONT> 該当ページのコピーを入手。なるほど サンプルコードが載っていますですね。どうもありがとうございます。。。と書きつつ
+この作業は ヒトミ先輩が作業されますので、結果など顛末記は今しばらくお待ち下さい。</P>
+<P><FONT color="#ff0000">2000/09/26</FONT> httpsに単に接続するだけの動作確認は済みました。上手く行きました。情報をお寄せいただきありがとうございました。<BR>
+なお 私の利用環境はファイアウォール内なので、ファイアウォールの指定があります。(443では無くって
+8080になってます)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.*;
+import java.net.*;
+import java.security.*;
+
+public final class HttpsReader
+{
+        public static final void main(String[] args)
+        {
+                try{
+                        Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+                        System.setProperty(&quot;java.protocol.handler.pkgs&quot;,&quot;com.sun.net.ssl.internal.www.protocol&quot;);
+                        System.setProperty(&quot;https.proxyHost&quot;,&quot;<STRONG>&lt;秘密なファイアウォールのIPアドレス&gt;</STRONG>&quot;);
+                        System.setProperty(&quot;https.proxyPort&quot;,&quot;8080&quot;);
+                        URL urlRead=new URL(&quot;https://www.sun.com/&quot;);
+                        BufferedReader reader=new BufferedReader(new InputStreamReader(urlRead.openStream()));
+                        for(;;)
+                        {
+                                String readLine=reader.readLine();
+                                if(readLine==null)break;
+                                System.out.println(readLine);
+                        }
+                        reader.close();
+                }catch(IOException ex){
+                        System.out.println(ex.toString());
+                        ex.printStackTrace();
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>コンパイルと実行は下記の如し。(Windows2000なので、クラスパスの区切り文字がセミコロンになってますです。)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>javac *.java<BR>
+      pause<BR>
+      SET CLASS_PATH=.;jcert.jar;jnet.jar;jsse.jar<BR>
+      java -classpath %CLASS_PATH% HttpsReader</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>こんな感じで、外部のサーバには接続可能になりました。</P>
+<P>それはいいやってことで、次は社内で自分で立てたサーバへのhttps接続です。今度はこいつでハマっています。</P>
+<P>その 社内認証サーバへの接続サンプル(コンパイル・実行方法は
+HttpsReader.java と同様)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import java.io.*;
+import java.net.*;
+import java.security.*;
+import javax.net.ssl.*;
+import com.sun.net.ssl.*;
+
+public final class HttpsReader2
+{
+        public static final void main(String[] args)
+        {
+                try{
+                        Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+                        System.setProperty(&quot;java.protocol.handler.pkgs&quot;,&quot;com.sun.net.ssl.internal.www.protocol&quot;);
+
+                        char[] passvalue=&quot;password&quot;.toCharArray();
+                        SSLContext sslContext=SSLContext.getInstance(&quot;SSL&quot;);
+                        KeyManagerFactory keymanagerFactory=KeyManagerFactory.getInstance(&quot;SunX509&quot;);
+                        KeyStore keyStore=KeyStore.getInstance(&quot;JKS&quot;);
+                        keyStore.load(new FileInputStream(&quot;O2-PC132155_NBB.crt&quot;), passvalue);
+                        keymanagerFactory.init(keyStore,passvalue);
+                        sslContext.init(keymanagerFactory.getKeyManagers(),null,null);
+                        SSLSocketFactory factory=sslContext.getSocketFactory();
+                }catch(IOException ex){
+                        System.out.println(ex.toString());
+                        ex.printStackTrace();
+                }catch(Exception ex){
+                        System.out.println(ex.toString());
+                        ex.printStackTrace();
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>発生する例外は下記の通り。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>java.io.IOException: Invalid keystore format
+        at sun.security.provider.JavaKeyStore.engineLoad(Unknown Source)
+        at java.security.KeyStore.load(Unknown Source)
+        at HttpsReader2.main(HttpsReader2.java:20)</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>サーバは WindowsNT4.0 Server + OptionPack
+って構成で、Webサーバは IIS4.0 + 認証サーバ
+です (T_T)<BR>
+例外のメッセージをそのまま信じると、KeyStoreのフォーマットが妥当では無いということで、こいつがそのまま理由と思われます。<BR>
+こいつの証明書(公開鍵) をぶち込む設定などの段で
+やっぱし何かしらしくじっているのでしょう。JSSE
+1.0.2 の KeyStore は デフォルトの &quot;JKS&quot;
+または指定して &quot;PKCS12&quot; が選択可能なのですが、OptionPack付属の認証サーバは
+DER(又はBase64) な X.509 か PKCS #7 かしか選択できず、それが原因かどうか不明ですが、うまく接続できません。(例は
+デフォルトのDERなX.509の証明書) 認証サーバ側で
+PKCS #12が選べそうに列挙されているものの
+『灰色』表示なんです (T_T)</P>
+<P>はて、これの本番環境が 公的認証サーバに証明書を登録してもらえれば、さしあたりそのまんまイケるんですけれども、そうじゃあ無い設定での運用だったら、このままだったら動作させることができません。更に別の手だてにて
+調査依頼中...<BR>
+<BR>
+、、、それ以前に SSLに もう少し詳しくならなくては
+対応不能なような気もします。ってことで、継続中
+(苦笑)</P>
+<P><FONT color="#ff0000">2000/09/27</FONT> 社内の認証サーバへの接続問題ですが、一応解決できました。この場で報告いたします。<BR>
+そもそも IIS+認証サーバの証明書を JSSE 1.0.2
+の JKS に &quot;そのまま&quot; ぶち込もうとしていたのが間違っていました。これは
+一旦読み込んで書き出すことにより JSSE 1.0.2ネィティブな形式
+(JKS形式) なファイルとして書き出すことができます。<BR>
+下記のコードが それの実現コードです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.*;
+import java.net.*;
+import java.security.Security;
+import java.security.KeyStore;
+import javax.net.ssl.*;
+import com.sun.net.ssl.*;
+
+import java.util.*;
+
+import java.security.cert.*;
+
+public final class HttpsReader3
+{
+        public static final void main(String[] args)
+        {
+                try{
+                        Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+                        System.setProperty(&quot;java.protocol.handler.pkgs&quot;,&quot;com.sun.net.ssl.internal.www.protocol&quot;);
+
+                        final String FILE_NAME_CRT=&quot;O2-PC132155_NBB.crt&quot;;
+                        FileInputStream inStream=new FileInputStream(FILE_NAME_CRT);
+                        CertificateFactory cerFactory=CertificateFactory.getInstance(&quot;X.509&quot;);
+                        Iterator iter=cerFactory.generateCertificates(inStream).iterator();
+                        inStream.close();
+                        KeyStore keyStore=KeyStore.getInstance(&quot;JKS&quot;);
+                        char[] passvalue=&quot;passphrase&quot;.toCharArray();
+                        keyStore.load(null,passvalue);
+
+                        for(int index=1;iter.hasNext();index++)
+                        {
+                                Certificate cert=(Certificate)iter.next();
+                                keyStore.setCertificateEntry(&quot;&quot;+index,cert);
+                                System.out.println(&quot;セット(&quot;+index+&quot;):&quot;+cert);
+                        }
+
+                        // 書き出し
+                        {
+                                OutputStream outStream=new BufferedOutputStream(new FileOutputStream(FILE_NAME_CRT+&quot;.keystore&quot;));
+                                keyStore.store(outStream,passvalue);
+                                outStream.flush();
+                                outStream.close();
+                        }
+                }catch(IOException ex){
+                        System.out.println(ex.toString());
+                        ex.printStackTrace();
+                }catch(Exception ex){
+                        System.out.println(ex.toString());
+                        ex.printStackTrace();
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>手順的には IIS側(認証サーバ) の証明書を java.security.cert.CertificateFactory
+を用いてJava側に取り込み (java.security.cert.CertificateFactory.generateCertificates()
+) 生成された認証(リスト)を 新たに生成した
+KeyStore にぶち込んでファイル書き出ししたら、JKSが認識可能(読み込み可能)なものが作り出すという手順です。<BR>
+このファイルを そのまんま プログラミングで操作するのも1手法なのですが、手抜き的発想で、できあがったJKSな証明書を
+&quot;C:\Program Files\JavaSoft\JRE\1.3\lib\security\jssecacerts&quot;
+に名前変更したら、URLアクセスが 素で行きました。(ディレクトリ名や環境は
+適当に読み替えてください)<BR>
+<BR>
+このファイルが該当ディレクトリにあれば、そのまんま
+HttpsReaderサンプル は動作します。またこのファイルは
+HttpsReader2 サンプルでも読み込み可能です。(当然ですけど
+ファイル名指定のファイル名は変更の必要があります
+:-)</P>
+<P>これに関する情報は下記のページに載っていました。(そして
+どのクラスをどのように使うかが やっとこさっとこ理解できたんです)
+ということで、<A href="http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html">詳細はそのページ</A>を見られよ。</P>
+<UL>
+  <LI><A href="http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html">http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html</A>
+</UL>
+<P>いやはや、今回は疲れました。<BR>
+また どうにか動作するところまでこぎ着けることが出来たのは、ひとえに皆様のご助言のおかげです。<BR>
+みなさま、どうもありがとうございました m(_._)m</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>レベルアップ: <A href="../../../../igat-v1-hagitori/2000/igapyon.htm">いがぴょん</A>は 新たに 『SSL初級』 の呪文を覚えた</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>例えるなら、 『ヒャド』 レベルですね (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#33cccb" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaでコマンドシェルプログラミング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ご存じの方はご存じでしょうが、趣味でコマンドシェルプログラムをJava言語で作ってます。(さすがに ユーザは このページの読者の中では、ほんの数名と予想してますが,,,)<BR>ごく最近 マッチングの処理の殆どの箇所を、正規表現 (<A href="http://www.cacas.org/~wes/java/">http://www.cacas.org/~wes/java/</A>を利用) に書き換えてみました。(今までは ファイル名のマッチング処理のみ 正規表現で、あとはCollatorでの実装だった)<BR>
+あと ディレクトリのヒストリなんてものを実装してみました。[replace-link:いがぴょん]的には 結構便利な感じになってきましたです。<BR>
+<BR>もうちょっと機能が追加されて ドキュメント整備が済んだら <A href="http://sourceforge.net">http://sourceforge.net</A> にポストしようと企んでいます。(既に JavaCats や Vectorには登録済み、そういえば安藤さんの所には未ポスト) もちろん 最大の難関は 英語作文能力の不足です。致命的です。(それより前に LINUX対応も事前に済ませておくべきだろうか)<BR>
+<BR>趣味で自分の時間でポツポツ作っているから、なかなかに進捗が遅いです。さしあたり パイプライン処理とリダイレクション処理が欲しいのですが、ファイルコピー機能などの基本機能も先に欲しいです。(じゃないと ファイルコピーの際に わざわざ ネィティブのシェル環境に戻らなくてはいけないもので,,,)<BR>どなたか コマンドラインシェルに命かけてて、そしてヒマで実力派で なおかつ奇特な開発協力者が現れることを希望します (苦笑)</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> さっそく共同開発への参加希望者の方からメール来ました。どうもどうも、ありがとうございます。力を合わせて頑張りましょう q(^o^)Pppp</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> 読者からの突っ込み</P>
+<P><CITE>件名：Javaでコマンドシェルプログラミング<BR>いがぴょん様<BR>いつも日記を拝見させて頂いています。<BR>
+<BR>私も以前同じようなものを作りかけたのですが、作っているところを『地味だね』ということで一蹴されて、それ以来作っていません。JavaPressでも似たようなものを作っていた号がありましたが、非常に簡単なものにとどまっていました。<BR>
+<BR>さて、Linuxのカーネルの再構築のときには、シェルから直接Javaのクラスをwrapperで実行できるようにするオプションがあります。<BR>
+<BR>つまり<BR>shell$ chmod 700 execute.class<BR>shell$ ./execute.class<BR>などとできるものです。<BR>
+<BR>今後は汎用的にバイナリをwrapperで実行できる機能がカーネルに加わり、javaは数あるバイナリの中のmiscという位置付けになるために、現在はobsoleteになっていますが、リダイレクトしたりとか、一応感覚的な使い方ができます。<BR>
+<BR>そもそもどこでも利用できる汎用的なシェルを作りたいと言うことですので、ネイティブなシェルにJavaを近づけるこれとは そもそも出発点が違いますが、新たに開発の協力者を発掘するという意味でも、改めてここでその意義を、両者を比較することにより明らかにしてもらえたら、javaユーザとしても読者としても嬉しいなあと、思います。期待してもいいでしょうか。<BR>
+<BR>なお、余談ですが、クロスプラットフォームなシェル環境としては、Mozilla上に構築されるXMLTerm</CITE></P>
+<UL>
+  <LI><A href="http://xmlterm.com/"><CITE>http://xmlterm.com/</CITE></A> </UL>
+<P><CITE>があります。XUL+Javascrptの実装であまり興味はないかと思いますが、一応MozillaとJavaの橋渡しを実装するBlackwoodProjectもありますので、よろしければ参考にしてください。<BR>BlackwoodProjectのWWWの和訳：</CITE></P>
+<UL>
+  <LI><A href="http://jt.mozilla.gr.jp/projects/blackwood/index.html"><CITE>http://jt.mozilla.gr.jp/projects/blackwood/index.html</CITE></A> </UL>
+<P><CITE>Ryuzi Kambe</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>ただいま返信を書き書き中,,,<BR>(と書きつつ 今日はこのまま放置かも (T_T)</P>
+<P><FONT color="#ff0000">2000/09/21</FONT> 今日は激烈に忙しかったので、やっぱり更新できず。ただ このシェル開発用のMLは立ち上げました。そっちの方のウェブページ (つまり この一連の日記ページではありません) を 今晩反映しようと思います。</P>
+
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

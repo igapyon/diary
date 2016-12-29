@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031127.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031127.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fsys/zunouhoudan/042zunou/embedded_os.html">
+    <title>第42回 組み込みOSの世界にもWindowsとLinux？</title>
+    <link>http://www.atmarkit.co.jp/fsys/zunouhoudan/042zunou/embedded_os.html</link>
+    <description>組み込みOSの覇者は いったいどれになるのでしょう？ 歴史が証明するだけなのですけれどもね。</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/26/nebt_08.html">
+    <title>IBMとBEA、Javaサーバ用の共通仕様発表</title>
+    <link>http://www.zdnet.co.jp/news/0311/26/nebt_08.html</link>
+    <description>オープンソースJ2EEサーバへの対策かしらん？ 呉越同舟が どこまでうまくいくのか はらはらしながら傍観したいです。</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/26/nebt_09.html">
+    <title>Linuxカーネル2.6.0、12月登場へ</title>
+    <link>http://www.zdnet.co.jp/news/0311/26/nebt_09.html</link>
+    <description>いよいよ2.6時代の到来の予感を感じさせられますねっ！</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/hagimoto02/hagimoto01.html">
+    <title>第2回　エンジニアとして生き残るには</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/hagimoto02/hagimoto01.html</link>
+    <description>豆蔵の萩本順三さんの記事。この文章 読ませるなぁ。</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/techreview/off2003dotnet/off2003dotnet_01.html ">
+    <title>Office 2003で変わる業務アプリケーション</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/techreview/off2003dotnet/off2003dotnet_01.html </link>
+    <description>有識者の間ではOffice 2003が業務アプリケーションのフロントエンドの本命のひとつといわれています。さてどうなることやら。それも歴史が証明することでしょう。</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062236,00.htm">
+    <title>日立ソフト、Jakarta Struts対応Javaアプリ開発フレームワークを発売</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062236,00.htm</link>
+    <description>画面遷移図や画面詳細定義書などのドキュメントから、ソースコードなどのリソースを自動生成する というシロモノである模様。最近自動生成系に興味を持っているためでしょうか、ここのところ こういう切り口のフレームワークを多く見かけます。</description>
+    <dc:date>2003-11-27T23:51:08</dc:date>
+  </item>
+
+</rdf:RDF>

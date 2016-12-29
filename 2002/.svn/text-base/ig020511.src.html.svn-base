@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/11 日記: IBM Robocode(ロボコード)を試してみる</TITLE>
+<META name="DESCRIPTION" content="IBM alphaWorksのJavaプログラム対戦システム Robocode(ロボコード)を試してみました！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBM alphaWorks のRobocode(ロボコード)を触ってみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<P><A href="http://cnet.sphere.ne.jp/News/Flash/2002/2002-0510-F-1.html">【フラッシュ】IBMがJava戦闘ロボットコンテスト開催</A> の記事に触発されました。Java言語でプログラミング対戦できるんならすごいなあって思い
+早速試してみました。J2SE 1.4 SDK が入っていると 比較的安易に試すことが出来ます。しかも
+ちょっとしたロボット統合開発環境が付いてきます (笑)</P>
+<UL>
+  <LI>ロボコード (Robocode)<BR>
+  [replace-href:http://robocode.alphaworks.ibm.com/home/home.html]
+</UL>
+<P>JDKは、J2SE 1.4.0がお勧めだそうです。それ以下のバージョンでも動くとも書いてました。<BR>
+で、私の環境は Windows XP + J2SE 1.4 だったのですが、かなり簡単にインストール＆実行できました。ぱっと使った感じ、これは面白いです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <P><FONT color="#ff0000">2002.05.16追記</FONT> 後で気づいたのですが、IBMの手によるRobocodeの解説書がありました！ そちらの記事の方は良くできています。</P>
+<UL>
+  <LI>IBM developerWorks: 闘え、Robocode (ロボコード) !<BR>
+  [replace-href:http://www-6.ibm.com/jp/developerworks/java/020329/j_j-robocode.html]
+</UL>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>【インストール】</P>
+<UL>
+  <LI>ロボコード・セットアップ<BR>
+  [replace-href:http://robocode.alphaworks.ibm.com/robocode-setup.jar]
+</UL>
+<P>をダウンロードして、任意のディレクトリに格納し、その後 コマンドプロンプトを起動して
+そのディレクトリで下記のコマンドを実行します。<BR>
+# むろん Webページの内容に従ってダウンロードする方が より良い方法です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -jar robocode-setup.jar</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これでGUIベースのインストーラーが起動します。</P>
+<OL>
+  <LI>License Agreement を読んで 『Accept』ボタンを押す
+  <LI>次に導入先ディレクトリを指定し、『はい』を押す
+  <LI>スタートメニューにショートカットを追加で 『はい』を押す
+</OL>
+<P>と、インストールは完了です。</P>
+<P>【実行】<BR>
+デスクトップ上にできた Robocodeアイコンをダブルクリックすると GUIベースで画面が起動します。<BR>
+『Battle』メニューから 『New』 を選択し、Robotsから 幾つかをAdd (例えば、sample.TrackFire
+と sample.Crazyを２つ)して 『Start Battle』を押すと GUIで ロボコード同士の対戦が開始されます。<BR>
+なるほどソースコード通りに動作しているんだなあという感じです。</P>
+<P>【自分のロボコードを作成する】<BR>
+RobotメニューからEditorを選択して起動します。<BR>
+『Robot Editor』プログラムの Fileメニュー → New → Robot で、新規に自分のロボコードを作成することができます。<BR>
+指示通り、とりあえず ロボット名に MyFirstRobotを入力、パッケージ名に tiなどイニシャル名を入力すると、新規ロボットが作成できます。続いて、Compilerメニューから
+Compileを押すと コンパイルが開始されます。コードを保存していなかったら、ここで
+保存の旨の『はい』ボタンを押します。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>Compiling...<BR>
+      Compiled successfully.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>と出たらコンパイル完了です。『Robot Editor』を閉じます。</P>
+<P>そうすると、『Battle』メニューから 『New』を選択した際に、自分が作成したロボットが現れるようになります。sample.TrackFireと対戦させてみましょう。<BR>
+なるほど、プログラム通りに動いています。</P>
+<P>Robocode APIを使うと、いろいろ複雑な判断をプログラミング出来るようです。また
+原則コールバック形式のプログラミングになるので、単にプログラミングとしても面白いです。</P>
+<P>【リーグで強いロボコードを試してみる】<BR>
+その後は リーグ上でランクの高いロボコードと自作ロボコードとを対戦させていくと
+より強いロボコードを開発することが出来るようです。でも まだ私はぜんぜんコーディングしていないですけれど、まずは強いロボコードをダウンロードしてみます。</P>
+<UL>
+  <LI>IBM alphaWorks: RoboCode Rumble<BR>
+  [replace-href:http://apps.alphaworks.ibm.com/rumble/]
+</UL>
+<P>トップ5のRobocodeを とりあえずダウンロードしてみました。jar形式でダウンロード後、RobotメニューからImport
+downloaded robotでJARファイルを選択するとインポートできます。そしたら早速対戦できます。おおっ、このRobocodeっていうシステム、良くできていますね。<BR>
+、、、ちなみに リーグで強いRobocodeのソースコードを見てみましたが、そのロジックを見ても
+何がなにやらさっぱり理解不能です (苦笑) 強いRobocodeを作るのは難しそうですねぇ。</P>
+<P>ということで マイクロソフトのテラリウムを見て憧れていた(嫉妬していた)Javaプログラマーの方には、IBM
+Robocodeはお勧めです。Java言語で対戦プログラムを実装できます。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020511-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

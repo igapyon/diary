@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/23 日記: blancoDb Enterprise Editionの構造整理に着手しました</TITLE>
+<META name="DESCRIPTION" content="PHP版 blancoDbである blancoDbPhpを実装するのに先立ち、まずは Java版の blancoDbである blancoDb Enterprise Editionの構造整理に着手しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/23 日記: blancoDb Enterprise Editionの構造整理に着手しました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] PHP版 blancoDbである blancoDbPhpを実装するのに先立ち、まずは Java版の blancoDbである blancoDb Enterprise Editionの構造整理に着手しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Editionの構造整理に着手しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>PHP版 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>である <A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のための PHPソースコードを自動生成します。">blancoDbPhp</A>を実装するのに先立ち、まずは
+Java版の blancoDbである blancoDb Enterprise Editionの構造整理に着手しました。</P>
+<P>普段は 既存ソースコードを ほんの少しずつ変更するようにしてしています。限られた時間のなかで試験をおこなう必要などから、極力変更内容を少なくすることは大切なことです。</P>
+<P>しかし、今回は、気になっていたところや、試みてみたかったことなど、ソースコードに大幅な変更を加えています。Java版、.NET Framework版の
+blancoDbを作ったうえで わかったことは多くあります。今日一日かけて、まずはおおざっぱ変更実施をおこないました。まだまだ やってみたい試みは
+たくさん残っています。変更後のモジュールについて少ないスキーマによる疎通レベルの試験をおこなったところでは、従来版(1.6.9)と全く同じソースコードが生成されるところまでは確認とりました。</P>
+<P><FONT color="#ff0000">2006.11.25追記</FONT> ソースコードの内容について さらに大幅に変更しました。ソースファイルを整理したり、フィールド変数名を調整したりなど、いわゆるリファクタリングを実施しました。私なりのソースコード整理により、私にとっては、ずいぶんソースコードの見通しが良くなった、と感じます。<BR>
+変更後のバージョンは blancoDbEE (1.7.3) となります。この 1.7.3 は開発版です。ただいま変更の真っ最中のリビジョンです。単体試験などは全く実施されていません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

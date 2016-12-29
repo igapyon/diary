@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/23 日記: Visual C# + ASP.NET時のいがぴょん的フレームワーク</TITLE>
+<META name="DESCRIPTION" content="この3連休で 結構 Visual C# + ASP.NETでの開発に詳しくなりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C#: Stringとstringでは いずれを利用したら良いのだろう</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C#でプログラミングしていて、Stringとstringや Decimal と decimal のように、プリミティブ型と参照型
+(C#での正式な名前かどうかチェックしていないなぁ) の2種類あります。私は
+Javaの経験があったから、反射的に 大文字から始まる方を利用していましたが、もしかすると
+小文字スタートの型を好んで利用した方が良いのかも知れません。(困ったことに
+Stringはstringの単なる別名というわけでは無いのです)<BR>
+TextBox.Text などは 小文字のstringであるようなので、私が利用するのも 小文字スタート版であるのが望ましいのかなぁ…って思ってみたりします。しかし
+C#のプリミティブ型と参照型って 言語としての垣根がすごく低くって キャストが双方向に動作する模様です。Javaの経験があると
+この所作が気持ち悪くて仕方が無いのですが、、、CLRとかいう仕組みに準じているから
+これはこういうものなのかも知れませんね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# + ASP.NET: いがぴょん的フレームワーク</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私なりの ASP.NET + C# 開発時のフレームワークらしきものが見えてきたので
+これをメモ</P>
+<UL>
+  <LI>テーブル毎にデータベースアクセサを準備する。これは コンポーネントクラスとして実装する。
+  <LI>LabelMessage というエラーメッセージ用ラベルフィールドを準備
+  <LI>画面上のTextBoxなどは テーブルの項目名と対応させる。『TextBox項目名』のようにネーミングする。
+</UL>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>    private void Page_Load(object sender, System.EventArgs e)
+    {
+        // ログイン済チェック
+        if(Session[&quot;ログイン情報など&quot;]==null)
+        {
+            Response.Redirect(&quot;最初の画面.aspx&quot;);
+        }
+
+        if(IsPostBack)
+        {
+            GetFormValues();
+        }
+        else
+        {
+            SetInitialFormValues();
+        }
+
+        SetFormValues();
+    }
+
+    /// &lt;summary&gt;
+    /// 最初の一回だけのフォームの初期化を行います。
+    /// &lt;/summary&gt;
+    private void SetInitialFormValues()
+    {
+
+    }
+
+    /// &lt;summary&gt;
+    /// フォーム内容の設定を行います。
+    /// &lt;/summary&gt;
+    private void SetFormValues()
+    {
+        ClearErrorMessages();
+            
+        // 初期化処理
+    }
+
+    /// &lt;summary&gt;
+    /// フォームにユーザが入力＆選択した情報を吸い上げます。
+    /// &lt;/summary&gt;
+    private void GetFormValues()
+    {
+        
+    }
+
+    /// &lt;summary&gt;
+    /// エラーメッセージ類をクリアします。
+    /// &lt;/summary&gt;
+    private void ClearErrorMessages()
+    {
+        LabelMessage.Text = &quot;&quot;;
+    }
+
+    /// &lt;summary&gt;
+    /// 入力項目の妥当性をチェックします。
+    /// &lt;/summary&gt;
+    /// &lt;returns&gt;&lt;/returns&gt;
+    public bool ValidateFormValues()
+    {
+        ClearErrorMessages();
+
+        // ここに入力項目チェック機能を実装します。
+
+        return true;
+    }
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>しばらくこれで使ってみて様子を見てみようと思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C# + ASP.NET: DataListなどを必要以上にDataBind()すると イベントが挙がってこなくなる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2時間ほど この現象の理解に時間を消費させられました。<BR>
+とにかく 基本的に Page_Load()が自動的に呼ばれるという点などを よく考える必要があります。IsPostBack変数に対する考慮も重要です。なまじ
+ASP.NET がブラックボックス化しているだけに こいつの理解は ちと難易度が高かったです。<BR>
+暇が捻出できたら インフラとしてのASP.NETに関する資料を読みたいと思いました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020923-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

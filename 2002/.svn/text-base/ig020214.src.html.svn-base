@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/14 日記: SUN J2SE 1.4 リリース</TITLE>
+<META name="DESCRIPTION" content="SUNから 最新版Javaである Java2 Standard Edition 1.4 がリリースされました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt] [replace-param:htmlstyle=tabletitle][replace-rdf:ig020214-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>とうとう SUN J2SE 1.4が出ました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>J2SE 1.4 がリリースされました。で、早速ダウンロード中。これが起因して ネットワーク帯域が圧迫されて
+ちと苦しい (苦笑)<BR>
+でも、今日の午後くらいからは J2SE 1.4 のリリースを知った人たちが どっと殺到して、私のような貧弱回線経由によるダウンロードは不能になる恐れが高いので、ダウンロードは今の内
+だと思ったりします (笑)</P>
+<P><FONT color="#ff0000">…</FONT> J2SE 1.4 SDK ダウンロード完了。J2SE 1.3.1_02 SDK よりもサイズが小さくなっているのが興味深いです。(というか J2SE 1.3.1_02が大きすぎました)<BR>
+まずは リリースノートで相違点を確認。</P>
+<UL>
+  <LI>J2SE 1.4 と 以前のバージョンとの相違点<BR>
+  [replace-href:http://java.sun.com/j2se/1.4/compatibility.html]
+</UL>
+<P>特に私が気にする所の J2SE 1.4 が生成するJavaバイトコードの以前のバージョンとの相違点についても載っていました。基本的に
+1.2からのJavaバイトコードに寄り添っている、と考えて良さそうです。ふむ、と
+勝手に納得する。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 1.4を入れてみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事が超忙しいので、J2SE 1.4 をじっくり遊んでやる時間がありません。でも、その
+J2SE 1.4はインストールしてしまって、いきなし仕事で使い始めてしまいました
+(爆笑)</P>
+<P>J2SE 1.4 SDK 第一印象</P>
+<UL>
+  <LI>インストーラ編
+  <UL>
+    <LI>インストーラの Install Shieldのバージョンが上がっている<BR>
+    →大変うれしい
+    <LI>インストール先のデフォルトディレクトリ名が jdkからj2sdkに変更されている<BR>
+    →ようやくJ2SEというネーミングにディレクトリ名が追いついた格好です。
+    <LI>Java Web Startがデフォルトでインストールされて、デスクトップに張り付く
+  </UL>
+  <LI>コンパイラ
+  <UL>
+    <LI>コンパイルの際のメモリ消費量が 1.3以前に比べて大幅に減る<BR>
+    →結果的にコンパイルが早くなっています。これは便利で、即効性の効果があります。
+  </UL>
+  <LI>とりあえず使っていて
+  <UL>
+    <LI>Jakarta Ant と相性良く動作しています。
+  </UL>
+</UL>
+<P>…ざざっと使ってみて思ったのですが、J2SE 1.4 のリリースって Java系ソフトウェア業界において結構センセーショナルな出来事だったのではないでしょうか。(それは歴史が証明することでしょうけれども)
+Java Web Start、ブラウザのJavaVMの置き換え、そしてXML系APIの統合など 地味ながら決定打的な機能追加がなされているように感じました。結構気に入ってきましたです
+(笑)<BR>
+、、、ああっ、暇が無い。J2SE 1.4 と遊んでみたいっっ。でも 仕事の忙しさが容赦無いのであった
+(笑)</P>
+<P>で、なにげに 今更ながら J2SE 1.4 に正規表現が新機能として追加されたことを知る。げげげ…。そりゃ
+大変なこった。ソケットも非同期モード、、、<BR>
+こりゃあかん…ということで、今更ながら(ほんとに今更ながら)、J2SE 1.4 の新機能を知ろうと、Google検索したら、下記が最初にヒットしました。</P>
+<UL>
+  <LI>Java2 SDK Standard Edition v1.4 の新機能<BR>
+  [replace-href:http://www5.airnet.ne.jp/sakuraba/java/laboratory/JDK1.4/contents.html]<BR>
+  Yuichi SAKURABAさんの手による J2SE 1.4新機能の紹介。
+</UL>
+<P>とても読みやすかったです。これは大変に重要なリリースであるように思えてきました。というのも
+J2SE 1.3 は そんなに印象的では無かったですからねぇ (苦笑) <BR>
+# むろん J2SE 1.3 での実行時性能向上や こまめなバグフィックスなどは とってもうれしかったのは確かですけれどもね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 1.4 の新機能を概観してみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これは新機能一覧を概観しておかないとヤバイということで、<A href="http://java.sun.com/j2se/1.4/ja/docs/ja/relnotes/features.html">Java 2 SDK, Standard Edition, version 1.4 の新機能および機能拡張の概要</A> を見てみました。私が気になるのは下記機能です。</P>
+<UL>
+  <LI>XML (DOM/SAX) APIの追加
+  <LI>新I/O APIの追加
+  <LI>正規表現APIの追加
+  <LI>セキュリティ関連各種APIの追加 (含む SSL,暗号化)
+  <LI>ネットワークサポートの強化 (サーバ側ソケットAPIが強化されたのは大変うれしいし
+  IPv6対応も興味深い)
+  <LI>ドラッグ＆ドロップAPIの追加
+  <LI>ロギングAPI・アサートAPIの追加
+  <LI>JDBC3.0 APIへ更新
+  <LI>Unicode 3.0対応
+  <LI>Java Web Startの追加
+  <LI>Java Plug-inの追加
+  <LI>JavaVMのメモリ使用量を なるべく減らした
+</UL>
+<P>これらの機能の中の幾つかは、今まで バラバラに提供されていたものです。確かに
+J2SEに追加したら使えたものの、J2SE 1.4のように最初からデフォルトで入っていてくれると
+とてもうれしいです。XML,SSL,ロギング,正規表現などは 仕事柄 特にうれしいです。<BR>
+あと JavaVMの -serverオプションも是非試してみたく思いました。</P>
+<P><FONT color="#ff0000">2002/02/15</FONT> 石神覚司さんからツッコミ<BR>
+<CITE>私は、ベータ版の頃にほんの少し触ったのですが、全体的にパフォーマンスが向上していたのが、大変嬉しかったです。<BR>
+特にリフレクションは、今までパフォーマンス上の<STRONG>悪</STRONG>だったので、面白い機能であるにも関わらず、使用を控えていたのですが、JDK1.4でパフォーマンスが劇的に向上したみたいなので、どのくらい実用的になったのか、また時間がある時に調べてみようかと思いました。</CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>汎用機のファイルレイアウト表とにらめっこ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>汎用機のファイルレイアウト表とにらめっこ中。数字の桁を1桁読み間違えている事が判明。汎用機のデータをJavaプログラムで読み込む際に、DBインサート時点でExceptionで吹き飛ぶのと格闘中です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>あまりにも寒いので 石油ファンヒーターを利用し始めました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここのところ あまりにも寒いので 石油ファンヒーターを利用し始めました。<BR>
+子どもが小さかったので、なるべく電気系暖房器具に絞って利用していたのですが、あまりにも寒いのと
+子供もようやく <STRONG>危険</STRONG> は理解できるようになってきたので、封印していた石油ファンヒーターの再登場です。…
+やはり石油ファンヒーターは暖かい (笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020214-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

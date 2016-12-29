@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020724.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020724.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/24/nebt_07.html">
+    <title>カーネル2.4対応のDebian Linux 3.0</title>
+    <link>http://www.zdnet.co.jp/news/0207/24/nebt_07.html</link>
+    <description>Woodyと呼ばれていた次期バージョンのDebian GNU/Linuxがリリースなんだそうです。Debianが出てくると カーネル2.4も いよいよ円熟かしらって思ってしまったりします。</description>
+    <dc:date>2002-07-24T17:23:02</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20020719/2/">
+    <title>Microsoftの今夏はアップデートやプレリリースがいっぱい</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20020719/2/</link>
+    <description>とりあえず Windows XP SP1 が待望のSPです。</description>
+    <dc:date>2002-07-24T17:09:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/24/nebt_12.html">
+    <title>MS、.NETのOracle対応強化</title>
+    <link>http://www.zdnet.co.jp/news/0207/24/nebt_12.html</link>
+    <description>およよ、ADO.NET よりも 、.NET Framework Data Provider for Oracle と呼ばれる別の技術経由の方が高速に動作するんでしょうか？ 興味津々。</description>
+    <dc:date>2002-07-24T17:23:02</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/24/njbt_01.html">
+    <title>「ATOK15」に「Office連携版」が登場</title>
+    <link>http://www.zdnet.co.jp/news/0207/24/njbt_01.html</link>
+    <description>シブい商品だなぁ。こういう機能が意外にもキラーソフトとして必要なものかも知れませんね。</description>
+    <dc:date>2002-07-24T17:23:02</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/shiten/197667">
+    <title>視点：その携帯、データ復旧できますか？(1)</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/shiten/197667</link>
+    <description>記事にあるように ぜひ 自分の携帯電話の内容は こまめに自分でバックアップしましょう。ちなみに私は P携線4ユーザです。</description>
+    <dc:date>2002-07-24T17:09:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mainichi.co.jp/digital/netfile/archive/200207/23-6.html">
+    <title>大阪と兵庫の電話混乱、「ワン切リ」の大量発信が原因か？</title>
+    <link>http://www.mainichi.co.jp/digital/netfile/archive/200207/23-6.html</link>
+    <description>私もその日電話がかからないのを体験しました。ワン切りが原因の可能性があるとは…。あ～ゆ～迷惑な発信は 規制してほしいです。そういや ず～っと昔 パソコン通信の時代に モデムに 規定時間内の発信回数規制が組み込まれていました。そういう記憶がよみがえってきました。</description>
+    <dc:date>2002-07-24T17:09:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mainichi.co.jp/digital/network/archive/200207/23/1.html">
+    <title>ワキ甘い住基ネット　簡単ID・パスワード、情報漏れる恐れ？</title>
+    <link>http://www.mainichi.co.jp/digital/network/archive/200207/23/1.html</link>
+    <description>全国の方々に同一のユーザ名・パスワードを使わせるのは止めましょう。</description>
+    <dc:date>2002-07-24T17:09:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/24/nebt_14.html">
+    <title>Borland、Linuxアプリ開発ツール新版</title>
+    <link>http://www.zdnet.co.jp/news/0207/24/nebt_14.html</link>
+    <description>Kylix 3 のリリースに関するニュース記事です。</description>
+    <dc:date>2002-07-24T17:23:02</dc:date>
+  </item>
+
+</rdf:RDF>

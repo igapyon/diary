@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020613.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020613.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/13/njbt_05.html">
+    <title>NTT東、IPビデオ通信サービス「フレッツ・コネクト」の商用サービスを8月に</title>
+    <link>http://www.zdnet.co.jp/news/0206/13/njbt_05.html</link>
+    <description>いいなぁ。大阪在住なので とりあえず恩恵無し。</description>
+    <dc:date>2002-06-13T21:32:41</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/13/njbt_10.html">
+    <title>玄人志向のドライバディスクにElkernウイルス混入</title>
+    <link>http://www.zdnet.co.jp/news/0206/13/njbt_10.html</link>
+    <description>出荷作業PCにウイルス対策がなされていたのかどうか興味有ります。</description>
+    <dc:date>2002-06-13T21:32:41</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/life/food/020607d.html">
+    <title>食品添加物って何？　無認可香料、広がる回収</title>
+    <link>http://www.asahi.com/life/food/020607d.html</link>
+    <description>とにかくいろいろな物が添加されているということはよく分かりました。</description>
+    <dc:date>2002-06-13T21:32:41</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020811.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020811.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/10/nebt_11.html">
+    <title>AOLが「Winamp3」でメディアプレーヤー競争に参戦？</title>
+    <link>http://www.zdnet.co.jp/news/0208/10/nebt_11.html</link>
+    <description>Windows Media Player と Real Player に続き Winamp3 が頑張ろうとしている？ のでしょうか？</description>
+    <dc:date>2002-08-11T18:19:40</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/10/nebt_06.html">
+    <title>ネット利用の拡大がホテル宿泊料のプレッシャーに</title>
+    <link>http://www.zdnet.co.jp/news/0208/10/nebt_06.html</link>
+    <description>インターネットの宿泊予約が宿泊料を下げる方向につながる とは 大変なことですね。インターネット恐るべし。</description>
+    <dc:date>2002-08-11T18:19:40</dc:date>
+  </item>
+  <item rdf:about="http://tv.goo.ne.jp/">
+    <title>goo テレビ番組ナビ</title>
+    <link>http://tv.goo.ne.jp/</link>
+    <description>テレビ番組表が ひょいと閲覧できるのは便利そうです。地域＋ジャンルでの検索もあり けっこう驚きました。ものぐさな私には好適な機能かも。</description>
+    <dc:date>2002-08-11T18:19:40</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/news/200208/08/sybase.html">
+    <title>[Sybase TechWave 2002開催] 攻勢をかけるサイベース、「勢いは我々にある」</title>
+    <link>http://www.atmarkit.co.jp/news/200208/08/sybase.html</link>
+    <description>PowerBuilderの Microsoft .NET Framework対応は興味有ります。(社内に PowerBuilderエンジニアが存在するので)</description>
+    <dc:date>2002-08-11T18:19:40</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2002_07.html">
+    <title>Visual Studio .NETは魔法の杖か？</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2002_07.html</link>
+    <description>実際 Visual Studio .NET で ASP.NET 対応ソースコードを作成するのは 大変便利で生産性の高い作業です。結構気に入っているのであった。</description>
+    <dc:date>2002-08-11T18:19:40</dc:date>
+  </item>
+
+</rdf:RDF>

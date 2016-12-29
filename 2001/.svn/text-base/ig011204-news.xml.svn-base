@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011204.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011204.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-04</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://it.nikkei.co.jp/it/top/topCh.cfm?id=20011129eimi148929"/>
+        <rdf:li resource="http://www.cqpub.co.jp/interface/column/Utsurigi/24.htm"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/flinux/rensai/theory06/theory06a.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://it.nikkei.co.jp/it/top/topCh.cfm?id=20011129eimi148929">
+    <title>サーバーＯＳ市場、Ｌｉｎｕｘの国内普及率35％・民間調査で３位に</title>
+    <link>http://it.nikkei.co.jp/it/top/topCh.cfm?id=20011129eimi148929</link>
+    <description>ウェブサーバ・DNSサーバ・ファイル共有サーバとしての利用が 結構普及してきているのだそうです。</description>
+    <dc:date>2001-12-04T12:02:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.cqpub.co.jp/interface/column/Utsurigi/24.htm">
+    <title>インタフェースコラム:第24回:10年後にも生きている技術の法則</title>
+    <link>http://www.cqpub.co.jp/interface/column/Utsurigi/24.htm</link>
+    <description>まぢで マイクロソフト＆Windowsが 10年後に存在するかどうか不明です。(まあ 残っている確率は高いでしょうけれども…) ちょっと前は NetWare全盛な時代もあったものなぁ。さて、私の愛用する Java言語は さすがに10年後くらいは存在して動作する、と思っていますが、さてどうでしょうか？ (苦笑)</description>
+    <dc:date>2001-12-04T12:02:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/rensai/theory06/theory06a.html">
+    <title>第6回　使うほどに良さが分かる正規表現</title>
+    <link>http://www.atmarkit.co.jp/flinux/rensai/theory06/theory06a.html</link>
+    <description>素人向け正規表現入門ページ。良くできています。</description>
+    <dc:date>2001-12-04T12:02:37</dc:date>
+  </item>
+</rdf:RDF>

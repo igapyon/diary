@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/01/15 日記: シンプルな NSIS (Nullsoft Scriptable Install System) 利用サンプル</TITLE>
+<META name="DESCRIPTION" content="NSIS という Windows インストーラ作成ソフトの簡単な利用サンプルを作成しました。 , 会社事務所の室温が異常に高い">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,NSIS,Windows,インストーラ">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc" id="c">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/01/15 日記: シンプルな NSIS (Nullsoft Scriptable Install System) 利用サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,NSIS,Windows,インストーラ] NSIS という Windows インストーラ作成ソフトの簡単な利用サンプルを作成しました。 , 会社事務所の室温が異常に高い</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルな NSIS (Nullsoft Scriptable Install System) 利用サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>NSIS という Windows インストーラ作成ソフトの簡単な利用サンプルを作成しました。</P>
+<UL>
+  <LI>NSIS<BR>
+  <A HREF="http://nsis.sourceforge.net/">http://nsis.sourceforge.net/</A><BR>
+  <A HREF="http://sourceforge.net/projects/nsis/">http://sourceforge.net/projects/nsis/</A><BR>
+  ライセンスは zlib/libpng License となっていました。
+</UL>
+<P>このサンプルの簡単な仕様など</P>
+<UL>
+  <LI>この例では アイコン登録処理などは 省略されています。
+  <LI>動作確認は NSIS 2,23 というバージョンに対して実施しました。
+  <LI>※注意！: このサンプルを動作させるとファイルのコピーやレジストリアクセスなどが発生します。<BR>
+  (そもそも インストーラとは そういうものです)
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleNsis.nsi</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>;;-------------------------------------------------------------------
+;; シンプルな NSIS インストーラ サンプル
+;;
+;; Copyright (C) 2007 いがぴょん
+;;
+;; このサンプルは NSIS というインストーラ作成ソフトのためのシンプルなサンプルです。
+;;-------------------------------------------------------------------
+
+;------------------
+; 一般
+  ; プロダクト名
+  !Define Product &quot;SimpleNsis&quot;
+  Name &quot;${Product}&quot;
+
+  ; インストーラーのファイル名
+  OutFile &quot;${Product}.exe&quot;
+
+  ; インストール先ディレクトリ
+  InstallDir &quot;$PROGRAMFILES\${Product}&quot;
+
+  ; このプログラムのレジストリ
+  InstallDirRegKey HKCU &quot;Software\${Product}&quot; &quot;&quot;
+
+  ; Windowsのアンインストールレジストリ
+  !Define RegUninstall &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\${Product}&quot;
+
+;------------------
+; モダンUI を利用
+  !Include &quot;MUI.nsh&quot;
+
+;------------------
+; ページ
+  ; ライセンス契約書画面 (ほんとうはここでライセンスに関するテキストファイルを指定します)
+  !InsertMacro MUI_PAGE_LICENSE &quot;SimpleNsis.nsi&quot;
+
+  ; コンポーネント選択画面
+  !InsertMacro MUI_PAGE_COMPONENTS
+
+  ; インストール先ディレクトリ選択画面
+  !InsertMacro MUI_PAGE_DIRECTORY
+
+  ; ファイルのインストール (インストーラにとっては主たる処理)
+  !InsertMacro MUI_PAGE_INSTFILES
+
+  ; アンインストーラの確認画面
+  !InsertMacro MUI_UNPAGE_CONFIRM
+
+  ; アンインストーラのアンインストール
+  !InsertMacro MUI_UNPAGE_INSTFILES
+
+;------------------
+; 言語選択 (日本語のみ利用可能)
+  !InsertMacro MUI_LANGUAGE &quot;Japanese&quot;
+
+;------------------
+; インストーラ・セクション
+Section &quot;Standard&quot; SecStandard
+  SetOutPath &quot;$INSTDIR&quot;
+
+  ; とりあえず自分自身をインストール
+  File &quot;SimpleNsis.nsi&quot;
+
+  ; インストール先ディレクトリを記憶
+  WriteRegStr HKCU &quot;Software\${Product}&quot; &quot;&quot; $INSTDIR
+
+  ; アンインストーラを作成
+  WriteUninstaller &quot;$INSTDIR\Uninstall.exe&quot;
+  WriteRegStr   HKLM &quot;${RegUninstall}&quot; &quot;DisplayName&quot;     &quot;${Product}&quot;
+  WriteRegStr   HKLM &quot;${RegUninstall}&quot; &quot;UninstallString&quot; &quot;$INSTDIR\Uninstall.exe&quot;
+  WriteRegStr   HKLM &quot;${RegUninstall}&quot; &quot;HelpLink&quot;        &quot;http://homepage2.nifty.com/igat/igapyon/diary/2007/ig070115.html&quot;
+  WriteRegDWORD HKLM &quot;${RegUninstall}&quot; &quot;NoModify&quot;        1
+  WriteRegDWORD HKLM &quot;${RegUninstall}&quot; &quot;NoRepair&quot;        1
+SectionEnd
+
+;------------------
+; アンインストーラ・セクション
+Section &quot;Uninstall&quot;
+  ; インストーラがインストールしたファイルを削除
+  Delete &quot;$INSTDIR\SimpleNsis.nsi&quot;
+
+  ; アンインストーラ自身を削除
+  Delete &quot;$INSTDIR\Uninstall.exe&quot;
+  DeleteRegKey HKLM &quot;${RegUninstall}&quot;
+
+  ; インストール先ディレクトリを削除
+  RmDir &quot;$INSTDIR&quot;
+SectionEnd</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>下記のページによって NSISに興味を持ったのがきっかけです。素晴らしいソフトと出会うきっかけを与えてくださったことを感謝します。</P>
+<UL>
+  <LI>Heretic Programmer: Windows用インストーラ作成のTips<BR>
+  <A HREF="http://tidus.ultimania.org/diary/?date=20070106">http://tidus.ultimania.org/diary/?date=20070106</A>
+</UL>
+<P>NSIS は Inno Setup に比べて、細かい記述が実現可能であることについて、私も確認しました。</P>
+<P><FONT color="#ff0000">2007.10.24追記</FONT> 現時点では、オープンソースによる Windows インストーラ作成ソフトとしては、NSIS が最も最初に検討すべきソフトウェアであると考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig051106.html">2005/11/06 日記: フリーなWindows用インストーラ作成ソフト「Inno Setup」を体験</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NSIS のショートカットアイコン追加サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.01.16追記</FONT> ショートカットの追加についても その後調べました。これをメモしておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ショートカットの登録</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>  ; ショートカットの登録
+  ; デスクトップアイコンの登録
+  CreateShortCut  &quot;$DESKTOP\${Product}.lnk&quot; &quot;$INSTDIR\uninstall.exe&quot; &quot;&quot;
+  ; スタートメニューの登録
+  CreateDirectory &quot;$SMPROGRAMS\${Product}&quot;
+  CreateShortCut  &quot;$SMPROGRAMS\${Product}\${Product}.lnk&quot; &quot;$INSTDIR\uninstall.exe&quot; &quot;&quot;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※インストーラ・セクションに追加します。</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ショートカットの削除</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>  ; ショートカットの削除
+  ; デスクトップアイコンの削除
+  Delete &quot;$DESKTOP\${Product}.lnk&quot;
+  ; スタートメニューの削除
+  Delete &quot;$SMPROGRAMS\${Product}\${Product}.lnk&quot;
+  RmDir  &quot;$SMPROGRAMS\${Product}&quot;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※アンインストーラ・セクションに追加します。</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>会社の東京事務所が暑い</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>この冬は 会社の東京事務所が非常に暑いです。純粋に室温が高いです。</P>
+<P>私の会社の東京事務所は 基本的に夏寒く 冬暑い傾向があります。夏の室温 ＜ 冬の室温 になっている日すら あります。かねてより これには閉口していたのですが、この冬は
+特にすざまじいです。</P>
+<P>室温の最高記録の数々。(手元の簡易な室温計 <A href="http://www.yodobashi.com/enjoy/more/i/cat_208_25419212_20363526/27771372.html">セイコークロック SQ650S (温度・湿度計付き電波時計)</A> で計測しました。事務所全体が均質に この室温になっているわけでは無いと考えられます)</P>
+<UL>
+  <LI>2006.12.21 摂氏 29.8度
+  <LI>2007.01.12 摂氏 28.6度
+  <LI>2007.01.16 摂氏 27.4度 (<FONT color="#ff0000">2007.01.16追記</FONT>)
+  <LI>2007.03.09 摂氏 29.7度 (<FONT color="#ff0000">2007.03.11追記</FONT>)
+</UL>
+<P>このところの室温推移は、ウォームビズというよりクールビズを思い起こさせるような室温です。パソコンが多く またこの冬は暖冬であることも影響しているのでしょう。難しいですね…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

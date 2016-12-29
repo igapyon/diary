@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031028.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031028.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/cri-think/think03.html">
+    <title>@IT: 連載：「問題解決力」を高める思考スキル（3）-クリティカル・シンキングで身に付く「考える力」-</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/cri-think/think03.html</link>
+    <description>論理的思考ができない人と会話していると 気を失いそうになりますよねっ。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.pumatech.co.jp/intellisync/">
+    <title>Intellisync製品概要</title>
+    <link>http://www.pumatech.co.jp/intellisync/</link>
+    <description>中西さん情報。Palmとケータイとでデータ同期を行うパッケージソフトなのだそうな。かねてより Palmと携帯電話とのシンクロの必要性を感じている私のハートに響きました。USBケーブル同梱版で\9,980.-なのだそうな。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nttdata.co.jp/release/2003/102700.html">
+    <title>セイコーインスツルメンツとNTTデータによる資本提携について -新たな協業体制の構築へ-</title>
+    <link>http://www.nttdata.co.jp/release/2003/102700.html</link>
+    <description>私の仕事先に続き、こんどはセイコーインスツルメンツ株式会社(SII)の情報子会社 『セイコーアイテック』さんがNTTデータの資本傘下に入るようです。外販比率 約50% というのはすばらしい売上比率ですね。また 社員数 300名強という点も目をひきました。</description>
+    <dc:date>2003-10-28T21:29:25</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20031024/135886/">
+    <title>NECソフトが中国でのオフショア開発に失敗で20億円の損</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20031024/135886/</link>
+    <description>ソフトウェアベンダーの価値に『品質』という項目があります。…恐らくあるはずです。でも なかなかに 発注時には それが理解されないことが多いように思う今日この頃。それにしても 20億円という金額は すごいなぁ…。私のチームなんて 年商そのものが XXXX円程度なんですけれどねぇ…。</description>
+    <dc:date>2003-10-28T21:29:25</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/study/study003.html">
+    <title>ITエンジニアが語る わたしの勉強法 第3回 状況に合った学習こそスキルアップの早道</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/study/study003.html</link>
+    <description>会社が丸ごと売却されちゃう のクダリが なんだか境遇が似ています。ちなみに私は 小学生時代の NEC 8001時代のマシン語＋BASICからが パソコン経験です。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://yoshi.homelinux.org/~yoshi/?date=20031027#p01">
+    <title>Gentoo Linuxって？</title>
+    <link>http://yoshi.homelinux.org/~yoshi/?date=20031027#p01</link>
+    <description>パッケージをすべてコンパイルしてインストールするというLinuxディストリビューション。以前大阪でお世話になった派遣さんが しきりに私に勧めていました。KNOPPIXのような CD-ROMブート可能なLinuxとは ある意味対照的なディストリビューションですね。いずれも気になっています。(ヒマさへあれば遊んであげたい逸品です)</description>
+    <dc:date>2003-10-28T10:32:11</dc:date>
+  </item>
+
+  <item rdf:about="http://unit.aist.go.jp/it/knoppix/">
+    <title>KNOPPIX 3.3日本語版</title>
+    <link>http://unit.aist.go.jp/it/knoppix/</link>
+    <description>KNOPPIXのリビジョンが 3.2から3.3へと変わっていることに今頃 気が付きました。ヒマさへあれば遊んであげたい逸品の一つです。UserModeLinuxに対応 という私には理解できないナゾの記載がありました。</description>
+    <dc:date>2003-10-28T10:32:11</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/news/200310/18/rich.html">
+    <title>@IT: SIerが危機感、Webアプリの限界がくる</title>
+    <link>http://www.atmarkit.co.jp/news/200310/18/rich.html</link>
+    <description>私はHTMLベースのWebアプリ黎明期から、HTMLベースによるアプリケーション構築に疑問を感じ続けてきました。でも世間的には 猫も杓子も HTMLベースによるWebアプリでしたからねぇ…。Flashアプリによるリッチクライアントが それら不満を改善してくれることを強く希望しています。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20061600,00.htm?ref=rss">
+    <title>台湾エイサー：「タブレットPC用OSは高すぎる」</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20061600,00.htm?ref=rss</link>
+    <description>組み込み機器におけるOSの"適正"価格っていうメッセージのようにも読み取れます。そして…そういった点では 価格という意味においてもLinuxの優位性があるように思えます。組み込みっぽいところでは デスクトップ用アプリケーション(Windows専用という意味合い)は動かなくても良い場合も多いでしょうから。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/14/epn14.html">
+    <title>NTTデータBBと翼システム、基幹システムオープン化へ移行する企業の電子帳票分野で協業</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/14/epn14.html</link>
+    <description>私が以前作っていた電子帳票システムパッケージソフトにまつわる話題。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/27/njbt_04.html">
+    <title>パケットロス回復技術採用のコンテンツ配信を実験　NTT-BBなど</title>
+    <link>http://www.zdnet.co.jp/news/0310/27/njbt_04.html</link>
+    <description>ちなみに NTT-BBは 私の勤務先企業では『ありません』。私の勤務先は 敢えて省略するのなら NTTD-BBって感じかしら (?意味不明?)</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://ekitan.com/info/b2b/intra/">
+    <title>駅前探検倶楽部:イントラネット版乗り換え案内ASPサービス</title>
+    <link>http://ekitan.com/info/b2b/intra/</link>
+    <description>一連のサービスのなかにWebサービス版によるASPサービスがあるんだそうな。ウェブサービス好奇心な私のハートをヒットしました。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061572,00.htm">
+    <title>日本BEAシステムズ、開発者支援プログラム「BEA dev2devプログラム」を開始</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061572,00.htm</link>
+    <description>無償開発ライセンスの提供のクダリが目にとまりました。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/column/suematsu/story/0,2000048844,20061521,00.htm">
+    <title>末松千尋・オープンソース戦略を探る： 第1回　CE Linuxは松下を変えるか</title>
+    <link>http://japan.cnet.com/column/suematsu/story/0,2000048844,20061521,00.htm</link>
+    <description>Linux系記事で 少しハートをヒット。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://mizz.lolipop.jp/galmoji/">
+    <title>ギャル文字変換</title>
+    <link>http://mizz.lolipop.jp/galmoji/</link>
+    <description>いがぴょん を"とことん"モードで変換したら、『ﾚヽヵゞひoょω』になりました。なるほど、解読できなくも無いか…。(低レベル暗号化、、、なのかしらん)</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031020/1/">
+    <title>「研究者も街に出よ」，“技術オタク”を金に換えるIBM</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031020/1/</link>
+    <description>企業の本質は 金儲けにある、、、のかしらん。と悩む今日この頃。</description>
+    <dc:date>2003-10-28T09:42:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/28/epn01.html">
+    <title>Symantec、ON Technologyを買収</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/28/epn01.html</link>
+    <description>最近のWindows用ウイルス騒動の影響で、Symantecは 現金をざくざく持っているのでしょうね…。そこいら中の イケてるソフトハウスを ばんばん買収しまくっています。あまりにも強大な企業へと成長していったら 逆に警戒しなくてはならないかも知れません。</description>
+    <dc:date>2003-10-28T10:32:11</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/28/nebt_12.html">
+    <title>Linuxカーネル2.6完成間近</title>
+    <link>http://www.zdnet.co.jp/news/0310/28/nebt_12.html</link>
+    <description>さて、年内にリリースされるや否や。</description>
+    <dc:date>2003-10-28T10:32:11</dc:date>
+  </item>
+
+</rdf:RDF>

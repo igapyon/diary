@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/12/09 日記: Java: iText を用いた フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプル</TITLE>
+<meta name="DESCRIPTION" content="iText を使って、フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプルです。このサンプルは、任意座標に文字や線を出力することを目的としています。">
+<meta name="KEYWORDS" content="Java,サンプル,iTextPDF,API,フォーム">
+<meta name="GENERATOR" content="igapyon diary generator">
+<meta name="DATE" content="2010-09-27T20:42:50+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/12/09 日記: Java: iText を用いた フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプル</H2>
+    <P>[Java,サンプル,iTextPDF,API,フォーム] iText を使って、フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプルです。このサンプルは、任意座標に文字や線を出力することを目的としています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Java: iText を用いた フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプル</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>iText を使って、フォーム PDF ファイルをもちいて PDF ファイルを作成するサンプルです。このサンプルは、任意座標に文字や線を出力することを目的としています。</p>
+<p>確認に利用した動作環境。</p>
+<ul>
+  <li>Sun Java2 SDK 1.6.0_17 (Windows版)
+  <li>iText<br><A HREF="http://sourceforge.net/projects/itext/">http://sourceforge.net/projects/itext/</A><br>
+  <A HREF="http://itextpdf.com/">http://itextpdf.com/</A>
+  <li>iText-2.1.7.jar
+</ul>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>WritePdfWithFormSample</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>//*
+ * iText: フォーム PDF ファイルをもちいた PDF 作成サンプル
+ * Copyright (C) 2009 伊賀敏樹
+ * 作成日: 2009/12/09
+ */
+
+import java.awt.Color;
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+import com.lowagie.text.Document;
+import com.lowagie.text.pdf.BaseFont;
+import com.lowagie.text.pdf.PdfContentByte;
+import com.lowagie.text.pdf.PdfImportedPage;
+import com.lowagie.text.pdf.PdfReader;
+import com.lowagie.text.pdf.PdfWriter;
+
+public class WritePdfWithFormSample {
+    public static final int MARGIN_X = 20;
+    public static final int MARGIN_Y = 20;
+
+    public static void main(final String[] args) throws Exception {
+        // フォームとなる PDF ファイルの読み込み。
+        final PdfReader form = new PdfReader(&quot;form.pdf&quot;);
+
+        final BufferedOutputStream outStream = new BufferedOutputStream(
+                new FileOutputStream(&quot;sample2.pdf&quot;));
+
+        try {
+            new WritePdfWithFormSample().writePdf(form, outStream);
+
+            outStream.flush();
+        } finally {
+            outStream.close();
+            form.close();
+        }
+    }
+
+    void writePdf(final PdfReader form, final OutputStream outStream)
+            throws Exception {
+        // 注意: 単一フォームのみに対応。
+        final Document document = new Document(form.getPageSizeWithRotation(1));
+        final PdfWriter writer = PdfWriter.getInstance(document, outStream);
+
+        document.open();
+
+        for (int page = 1; page &lt;= 2; page++) {
+            if (page != 1) {
+                document.newPage();
+            }
+
+            applyForm(form, writer);
+
+            writePage(writer);
+        }
+
+        document.close();
+
+        writer.close();
+    }
+
+    void applyForm(final PdfReader form, final PdfWriter writer) {
+        final PdfImportedPage importedPage = writer.getImportedPage(form, 1);
+
+        final PdfContentByte cb = writer.getDirectContent();
+        cb.saveState();
+        cb.addTemplate(importedPage, 0, 0);
+        cb.restoreState();
+    }
+
+    void writePage(final PdfWriter writer) throws Exception {
+        final BaseFont bf = BaseFont.createFont(
+                &quot;c:\\windows\\fonts\\msgothic.ttc,1&quot;, BaseFont.IDENTITY_H,
+                BaseFont.EMBEDDED);
+
+        for (int x = 0; x &lt; 10; x++) {
+            for (int y = 0; y &lt; 10; y++) {
+                final PdfContentByte cb = writer.getDirectContent();
+                cb.saveState();
+
+                cb.setColorFill(Color.RED);
+                cb.beginText();
+                cb.moveText(MARGIN_X + x * 100, MARGIN_Y + y * 100);
+                cb.setFontAndSize(bf, 10);
+                cb.showText(&quot;&quot; + x + &quot;, &quot; + y);
+                cb.endText();
+
+                cb.restoreState();
+            }
+        }
+
+        for (int x = 0; x &lt;= 10; x++) {
+            final PdfContentByte cb = writer.getDirectContent();
+            cb.saveState();
+
+            cb.setColorStroke(Color.RED);
+            cb.setLineDash(3, 3, 0);
+            cb.moveTo(MARGIN_X + x * 100, MARGIN_Y + 0);
+            cb.lineTo(MARGIN_X + x * 100, MARGIN_Y + 500);
+            cb.stroke();
+
+            cb.restoreState();
+        }
+
+        for (int y = 0; y &lt;= 10; y++) {
+            final PdfContentByte cb = writer.getDirectContent();
+            cb.saveState();
+
+            cb.setColorStroke(Color.RED);
+            cb.setLineDash(3, 3, 0);
+            cb.moveTo(MARGIN_X + 0, MARGIN_Y + y * 100);
+            cb.lineTo(MARGIN_X + 800, MARGIN_Y + y * 100);
+            cb.stroke();
+
+            cb.restoreState();
+        }
+    }
+}</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>PDF の内容が新規 PDF のページにコピーされることを確認できました。</p>
+<p><font color="#ff00ff">関連する日記</font></p>
+<ul>
+  <li><a href="ig091208.html">2009/12/08 日記: Java: iText を用いた PDF ファイルを新規作成するサンプル</a>
+  <li><a href="../2005/ig050612.html">2005/06/12 日記: Java: OpenOffice.org SDKを用いた PDFファイルを新規作成するサンプル</a>
+</ul>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

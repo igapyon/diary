@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/08/08 日記: ブロードバンドルータ購入 , SQLServer 2000 の timestamp型にハマる</TITLE>
+<META name="DESCRIPTION" content="仕事 忙しいです。 , メルコ Broad Station BLR3-TX4 を購入しました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>自宅用ブロードバンドルータの購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日 自宅用に ブロードバンドルータを購入しました。</P>
+<P>BUFFALO 株式会社メルコ</P>
+<UL>
+  <LI>Broad Station BLR3-TX4
+</UL>
+<P>自宅にケーブルテレビインターネットが来たので、フレッツISDNは解約しました。ただし
+ISDN回線経由のインターネット接続は、ケーブルテレビインターネット側に障害が発生した際のバックアップ回線として
+今後とも重要な役割を担います。</P>
+<P><FONT color="#ff0000">2003.01.06</FONT> 帰省した際に、義理の姉に BLR3-TX4を薦めました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig060128.html">2006/01/28 日記: 自宅用 無線ブロードバンドルーター購入</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事追い込み中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>明日納品のソフトウェアをひたすら変更中…<BR>
+、、、<BR>
+後輩の作ったソースファイルを見ていて 愕然とする。とても変更しにくい。オブジェクト指向的にも
+まずい。普段からの教育に問題があるのだろうか？ ペアプログラミングなどの導入を真剣に考えないと
+これはダメだなあと思いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQLServer 2000 の timestamp型とは…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>SQLServer 2000 + SP2 で仕事をしていて、SQLServer 2000 の timestamp型が
+ふつ～では無いということに遭遇。なんでも SQLServer 2000 の timestamp型とは
+行IDのようなものらしいのです。自動的に更新されたりする 行をユニークに保つための型なんですって。びっくり仰天。<BR>
+近い将来 SQLServer 2000 の timestamp型は ANSI SQL の timestamp型と同等なものにそろえる予定なんですって。これまた困惑。<BR>
+SQLServer 恐るべし。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020808-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

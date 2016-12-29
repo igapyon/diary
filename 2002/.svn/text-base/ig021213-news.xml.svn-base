@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021213.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021213.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-13</dc:date>
+  </channel>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/12/nebt_05.html">
+    <title>OMG、Eclipseに加入</title>
+    <link>http://www.zdnet.co.jp/news/0212/12/nebt_05.html</link>
+    <description>Eclipseの勢いはとどまるところを知らず…</description>
+    <dc:date>2002-12-13T11:51:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/">
+    <title>Eclipse 2.1M3(Win32版)のメモ</title>
+    <link>http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/</link>
+    <description>菊田英明さんが書かれたEclipseメモ。</description>
+    <dc:date>2002-12-13T13:55:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/13/nebt_02.html">
+    <title>オープンソースの.NETアプリ開発ツール</title>
+    <link>http://www.zdnet.co.jp/news/0212/13/nebt_02.html</link>
+    <description>Monoのアップデート版リリースの記事。ASP.NET Serverが今回加わったとのこと。記事の行間からは ADO.NETのサポートが追加されたような感じが読みとれる(原文やwebページを読む暇がありません…)</description>
+    <dc:date>2002-12-13T11:51:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html">
+    <title>今後の携帯標準Java「MIDP2.0」がスタート</title>
+    <link>http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html</link>
+    <description>困った状態のMIDPも MIDP2.0登場で改善するや否や…</description>
+    <dc:date>2002-12-13T11:51:36</dc:date>
+  </item>
+
+</rdf:RDF>

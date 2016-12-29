@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031018.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031018.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/11/epn10.html">
+    <title>年内リリース目指すLinuxカーネル2.6概要をモートン氏が語る</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/11/epn10.html</link>
+    <description>Linux 2.6 の概要が書いてある記事。斜め読みしましたが、結構読み応えがありました。</description>
+    <dc:date>2003-10-18T16:44:55</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/272116">
+    <title>日本ユニシス、企業向けLinux事業への本格参入を発表</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/272116</link>
+    <description>メモっ</description>
+    <dc:date>2003-10-18T16:44:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/column/andoh/andoh22.html">
+    <title>安藤幸央のランダウン[22]: Amazon Webサービスの可能性</title>
+    <link>http://www.atmarkit.co.jp/fjava/column/andoh/andoh22.html</link>
+    <description>安藤さんの手による アマゾン・ウェブサービスに関する記事</description>
+    <dc:date>2003-10-18T16:44:55</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061470,00.htm">
+    <title>IT管理者：「テロリストより、従業員のほうが心配」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061470,00.htm</link>
+    <description>ディザスタリカバリも大事なのだけれど、それ以上に従業員の失態とか各種故障が頭痛の種なのだそうです。</description>
+    <dc:date>2003-10-18T16:44:55</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20061464,00.htm">
+    <title>NTT東西、「法人向けIP電話サービス」の提供を開始</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20061464,00.htm</link>
+    <description>IP電話な時代が到来しつつあるんですね…。感慨深いです。私は未だに自宅はISDN電話であるべき、と判断しています。</description>
+    <dc:date>2003-10-18T16:44:55</dc:date>
+  </item>
+
+</rdf:RDF>

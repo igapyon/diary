@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/02/26 日記: SOAP相互接続性で悩む…</TITLE>
+<META name="DESCRIPTION" content="パソコンインストールし直しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>相互接続性</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Microsoft の .NETによるSOAPクライアントが 妙な挙動をします。utf-8でSOAPリクエストを投げつけるのですが、なぜか、日本語が
+Unicodeでエンコードされてポストされてしまうのです。しかも ASP.NETで作成した
+Webサービスは それでも正常に動作している模様です。意味不明???<BR>
+時間を作って もう少し追ってみます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>うそSOAP</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>引き続き うそSOAP実装を継続中。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>パソコン インストールし直し</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私のマシンのWindows XP Proの挙動が怪しいので、昨日の夜から OSから入れ直ました。ふう。<BR>
+さて これで治るや否や。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>パソコン梱包サービス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>パソコンポ<BR>
+  [replace-href:http://www.nittsu.co.jp/pasocompo/]<BR>会社のマシンルームでメールを書いていて、ふと左を見ると 『パソコンポ』なる文字が書かれた箱が置いてあります。そのネーミングなどから
+ぴぴ～んと反応。（パソコン梱包の語呂でしょうから） 日通のパソコン梱包運送サービスで
+こういう商品名のものがあるのですね。ディスプレイ17インチで1,500程度の価格帯で梱包してくれるサービスがあるんですね。勉強になります。いつか利用することもあるだろうと
+興味深く見ました。
+  <LI>パソコン宅急便<BR>
+  [replace-href:http://www.kuronekoyamato.co.jp/pasotaku/pasotaku_pr.html]<BR>
+  日通にあるんだったら クロネコヤマトにも存在するのでは？ と思ったら案の定存在しました。モニタ（17インチ）で\1,200.-程度の価格帯である模様。すごいや！
+  大変興味を持ちました。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DVDを勉強中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>キャプチャカード徹底検証 DVD-Videoに焼くならこれだ! <BR>
+  [replace-href:http://pcweb.mycom.co.jp/special/2002/capture/]<BR>
+  上司のヒトミさんに教えてもらったページ。ちょうど キャプチャーハードウェア購入を検討しているので
+  びびっと反応しました！
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030226-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

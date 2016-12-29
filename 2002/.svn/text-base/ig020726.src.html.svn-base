@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/07/26 日記: ホワイトスペース除去ツール , 今日から5章</TITLE>
+<META name="DESCRIPTION" content="尻に火が付きまくり , Javaソースファイルからホワイトスペースを除去(Strip.java)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日から5章執筆</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>うひゃあ 忙しいなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ホワイトスペース除去サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaのソースファイルからホワイトスペースを除去するサンプルプログラム。このプログラムはぜんぜんちゃんとしていません。動かすのはお勧めできません
+(苦笑) <BR>
+いつかまじめな ホワイトスペース除去PGを作りたく思っているのであった。</P>
+<UL>
+  <LI>[replace-href:../../pub/strip-200208151908.zip]
+</UL>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Strip.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.io.*;
+
+public class Strip {
+    public static void main(String[] args) {
+        try {
+            if (args.length == 0) {
+                usage();
+            } else {
+                new Strip().process(args[0], args[0] + &quot;.st&quot;);
+            }
+        } catch (EOFException ex) {
+            ;
+        } catch (IOException ex) {
+            System.out.println(ex.toString());
+            ex.printStackTrace();
+        }
+    }
+
+    public static void usage() {
+        System.out.println(&quot;java Strip SourceFile.java&quot;);
+    }
+
+    public void process(String fileIn, String fileOut) throws IOException {
+        try {
+            reader =
+                new BufferedReader(
+                    new InputStreamReader(
+                        new FileInputStream(fileIn)));
+            writer =
+                new BufferedWriter(
+                    new OutputStreamWriter(
+                        new FileOutputStream(fileOut)));
+
+            getToken();
+        } finally {
+            try {
+                reader.close();
+                writer.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    private CharArrayWriter writerWord = new CharArrayWriter();
+    private BufferedReader reader = null;
+    private BufferedWriter writer = null;
+
+    public void getToken() throws IOException {
+        for (; ;) {
+            int read = reader.read();
+            if (read &lt; 0) {
+                throw new EOFException(&quot;End of file.&quot;);
+            }
+
+            try {
+                switch (read) {
+                case 0x0a:
+                case 0x0d:
+                case 0x0c:
+                    flushWord();
+                    processWhiteSpace();
+                    break;
+                case '\t':
+                    flushWord();
+                    processWhiteSpace();
+                    break;
+                case ' ':
+                    flushWord();
+                    processWhiteSpace();
+                    break;
+
+                case ';':
+                    // line end.
+                    writerWord.write(read);
+                    flushWord();
+                    break;
+
+                case '\'':
+                    flushWord();
+                    processChar();
+                    break;
+
+                case '&quot;':
+                    flushWord();
+                    processString();
+                    break;
+
+                case '{':
+                    flushWord();
+                    writer.write(read);
+                    break;
+                case '}':
+                    flushWord();
+                    writer.write(read);
+                    break;
+                case '+':
+                    flushWord();
+                    writer.write(read);
+                    break;
+                case '-':
+                    flushWord();
+                    writer.write(read);
+                    break;
+                default:
+                    withoutFlushWord();
+                    writerWord.write(read);
+                    break;
+                }
+            } catch (EOFException ex) {
+                flushWord();
+            }
+        }
+    }
+
+    private boolean isPastFlushWord = false;
+
+    public void flushWord() throws IOException {
+        //if (isPastFlushWord) {
+        //if (writerWord.size() &gt; 0) {
+        writer.write(' ');
+        //}
+        //}
+        isPastFlushWord = true;
+        System.out.println(&quot;flushWord(): &quot; + writerWord.toString());
+        writer.write(writerWord.toString());
+        writer.flush();
+        writerWord.reset();
+    }
+
+    public void withoutFlushWord() {
+        //System.out.println(&quot;withoutFlushWord()&quot;);
+        isPastFlushWord = false;
+    }
+
+
+    public void processWhiteSpace() throws IOException {
+        for (; ;) {
+            reader.mark(1);
+            int read = reader.read();
+            if (read &lt; 0) {
+                throw new EOFException(&quot;End of file.&quot;);
+            }
+
+            switch (read) {
+            case 0x0a:
+            case 0x0d:
+            case 0x0c:
+            case '\t':
+            case ' ':
+                break;
+            default:
+                reader.reset();
+                return ;
+            }
+        }
+    }
+
+    public void processChar() throws IOException {
+        writerWord.write('\'');
+        boolean isPastEscape = false;
+        for (; ;) {
+            int read = reader.read();
+            if (read &lt; 0) {
+                throw new EOFException(&quot;End of file.&quot;);
+            }
+
+            switch (read) {
+            case '\'':
+                writerWord.write(read);
+                if (isPastEscape) {
+                    isPastEscape = false;
+                    break;
+                } else {
+                    return ;
+                }
+            case '\\':
+                // escape
+                writerWord.write(read);
+                if (isPastEscape) {
+                    isPastEscape = false;
+                } else {
+                    isPastEscape = true;
+                }
+                break;
+            default:
+                isPastEscape = false;
+                writerWord.write(read);
+                break;
+            }
+        }
+    }
+
+    public void processString() throws IOException {
+        writerWord.write('&quot;');
+        boolean isPastEscape = false;
+        for (; ;) {
+            int read = reader.read();
+            if (read &lt; 0) {
+                throw new EOFException(&quot;\&quot;end\&quot; of file.&quot;);
+            }
+
+            switch (read) {
+            case '&quot;':
+                writerWord.write(read);
+                if (isPastEscape) {
+                    isPastEscape = false;
+                    break;
+                } else {
+                    return ;
+                }
+            case '\\':
+                // escape
+                writerWord.write(read);
+                if (isPastEscape) {
+                    isPastEscape = false;
+                } else {
+                    isPastEscape = true;
+                }
+                break;
+            default:
+                isPastEscape = false;
+                writerWord.write(read);
+                break;
+            }
+        }
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020726-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

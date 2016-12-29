@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020329.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020329.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/03/27/634729-000.html">
+    <title>『Vine Linux 2.5CR』、4月26日に発売</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/03/27/634729-000.html</link>
+    <description>カーネル2.4.xベースの日本発『安心して使える』Linux製品版の1つが登場。大変期待しています。私は旧バージョン登録ユーザだから安く買える模様。</description>
+    <dc:date>2002-03-31T09:53:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.ipa.go.jp/security/awareness/administrator/secure-web/index.html">
+    <title>セキュアなWebサーバーの構築と運用に関するコンテンツ</title>
+    <link>http://www.ipa.go.jp/security/awareness/administrator/secure-web/index.html</link>
+    <description>IPAの手によるWebサーバセキュリティ向上ノウハウ。良くできた資料です。これは是非読んでみたい資料です。(暇が無いので後回し…)</description>
+    <dc:date>2002-03-29T10:31:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0203/27/02032701.html">
+    <title>JavaOne 2002 San Francisco Keynote：デベロッパーらと高らかに勝利宣言するサンのマクニーリCEO</title>
+    <link>http://www.zdnet.co.jp/enterprise/0203/27/02032701.html</link>
+    <description>思えば Javaって結構流行りましたよねぇ。びっくりです。あとは JCPでApacheなどと上手くやっていって欲しいです。</description>
+    <dc:date>2002-03-29T09:53:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/03/29/grri84000000b6xg.html">
+    <title>輸入鶏肉 高級ブランドに偽装</title>
+    <link>http://www.nhk.or.jp/news/2002/03/29/grri84000000b6xg.html</link>
+    <description>大手商社、丸紅の子会社が鶏肉サギ事件を起こしていたのだそうです。とにかく流通が偽装してしまっては、末端で頑張っても本当に食べたい食べ物を得ることが出来ません。こまったものです。私は有機農産物の宅配を利用しています。そのような生産＆流通が一体化しているシステムを利用しない限り、日本では額面通りの食べ物を得ることが出来ないのでしょうか。嘆かわしいことです。また そのような偽装があるかぎり、日本の農業・畜産業従事者がかわいそうです。</description>
+    <dc:date>2002-03-29T09:53:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/28/b_0327_02.html">
+    <title>IE 6のシェアが3割近くに拡大</title>
+    <link>http://www.zdnet.co.jp/news/0203/28/b_0327_02.html</link>
+    <description>ううむ。確かに私もIE6を使っているものなぁ。</description>
+    <dc:date>2002-03-29T09:53:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/29/b_0328_19.html">
+    <title>UnisysとMicrosoft，反UNIXキャンペーンを展開</title>
+    <link>http://www.zdnet.co.jp/news/0203/29/b_0328_19.html</link>
+    <description>ぎょぎょっ。ユニシスだって過去にUNIXを売ってきたでしょうに…</description>
+    <dc:date>2002-03-29T15:12:39</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0203/28/02.html">
+    <title>XP向けオンラインプリントにキヤノンも参加</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0203/28/02.html</link>
+    <description>支払いに「.NET Passport」を利用するってのが凄く嫌だなぁ (笑) オンラインプリントそのものには大変興味を持っています。</description>
+    <dc:date>2002-03-29T09:53:59</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/29/b_0328_15.html">
+    <title>Echelonに対する問題意識はどこに</title>
+    <link>http://www.zdnet.co.jp/news/0203/29/b_0328_15.html</link>
+    <description>通信傍受組織の問題です…</description>
+    <dc:date>2002-03-29T15:12:39</dc:date>
+  </item>
+
+</rdf:RDF>

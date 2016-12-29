@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030924.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030924.html</link>
+    <language>ja</language>
+    <dc:date>2003-09-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/survey/survey0309/java0309.html">
+    <title>Java Solution: エンタープライズJavaシステムの課題とは？</title>
+    <link>http://www.atmarkit.co.jp/fjava/survey/survey0309/java0309.html</link>
+    <description>よくできたJavaの現状を表す記事。負荷テストツールとしては、Apache JMeterが 結構利用されている、または検討されているんですね。いつか私も使ってみたいです。ちなみに この記事を書いている小柴豊さんと 今日 お会いしました！</description>
+    <dc:date>2003-09-24T22:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fsys/kaisetsu/028v2iprotector/v2iprotector_01.html">
+    <title>Windowsからのイメージ・バックアップが可能となった「V2i Protector 2.0」: Windows対応アプリケーションになったDrive Imageの後継製品</title>
+    <link>http://www.atmarkit.co.jp/fsys/kaisetsu/028v2iprotector/v2iprotector_01.html</link>
+    <description>Norton Ghost の対抗商品なのですって。Ghostの欠点も 使ってるだけにわかっているだけに、こっちの商品も興味を感じてしまいます。私としては ブータブルLinuxベースのイメージ・バックアップ商品なんてものが どこからか出てくれたら 非常に興味を感じそう、なあんて思いました。</description>
+    <dc:date>2003-09-24T22:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/webhole05/webhole01.html">
+    <title>セキュアなWebサイトを運営するためのWebアプリケーションに潜むセキュリティホール: 第5回 Webアプリケーションの検査テクニック</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/webhole05/webhole01.html</link>
+    <description>これはすばらしい！ セキュリティホールを探し出す各種具体的なテクニックが載っています！ これは要チェック記事です。</description>
+    <dc:date>2003-09-24T22:41:33</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061045,00.htm">
+    <title>米JBoss、Java Community Process へ参加</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061045,00.htm</link>
+    <description>とうとうJBossが Sunと仲良しになりつつあるようです。JBossは 今後 J2EEコンテナとして もっともっと注目されていくことになるのでしょうね。</description>
+    <dc:date>2003-09-24T22:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/10/nebt_08.html">
+    <title>Sun共同創業者ビル・ジョイ氏が退社</title>
+    <link>http://www.zdnet.co.jp/news/0309/10/nebt_08.html</link>
+    <description>時代の流れを感じてしまいました。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+  <item rdf:about="http://www.watch.impress.co.jp/av/docs/20030725/dev034.htm">
+    <title>「おまかせ録画」の実力は? リモコンを省いて低価格化した新キャプチャカード NEC 「SmartVision HG2」</title>
+    <link>http://www.watch.impress.co.jp/av/docs/20030725/dev034.htm</link>
+    <description>SmartVision HG2で検索して、この記事が一番興味深く読めました。(後日談)このキャプチャーカード買いました！ソフトウェア・ハードウェアともに かなり満足しています。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://health.nikkei.co.jp/meneki/">
+    <title>やる気が免疫力を高める</title>
+    <link>http://health.nikkei.co.jp/meneki/</link>
+    <description>いよいよ西洋医学も『病は気から』という古来のことわざ領域まで追いついて来ましたか…。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0309/08/lp15.html">
+    <title>「20MbpsオーバーADSL」と書くのもはばかられる24M ADSL</title>
+    <link>http://www.zdnet.co.jp/broadband/0309/08/lp15.html</link>
+    <description>私のような情報技術従事者であったって 素朴に 20Mbpsオーバーと聞いたら 20Mbpsは超えると期待しちゃいます。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030904/1/">
+    <title>マイクロソフトはサービス・パックの提供を早めるべきだ</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030904/1/</link>
+    <description>そういえば Windows XP のSPタイミングは 従来のOSに比べて鈍重ですね…。まあ 頻繁に出たとしても それはそれで困りますけれども。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nifty.com/ap/airh.htm">
+    <title>@niftyのAirH"対応</title>
+    <link>http://www.nifty.com/ap/airh.htm</link>
+    <description>フレックスチェンジ方式(最高64kbps-PIAFS/32kbps-パケット通信方式)とかいう方式が利用できるのだそうな。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/266168">
+    <title>「OpenOffice.org 1.1」近く正式版へ</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/266168</link>
+    <description>すごく楽しみです。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/rensai/consult/consult021.html">
+    <title>外資系コンサルタントのつぶやき 第21回 国内の大手ITベンダのスキルは低い？</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/rensai/consult/consult021.html</link>
+    <description>一般的にIT業界って どこであってもスキルの高い人以外は スキル低いです。ただ 大きい組織ほど そのギャップが大きいように思えています。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/16/njbt_04.html">
+    <title>「Norton 2004」8製品発表、スパム対策ソフトが加わる</title>
+    <link>http://www.zdnet.co.jp/news/0309/16/njbt_04.html</link>
+    <description>スパムメール対策ソフトに興味がありますが、反面アクティベーション機能の影響が気がかりです。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/16/njbt_06.html">
+    <title>パイオニア、PC用記録型DVDドライブ出荷500万台に一番乗り</title>
+    <link>http://www.zdnet.co.jp/news/0309/16/njbt_06.html</link>
+    <description>パイオニアがもっとも出荷台数が多かったなんて知りませんでした。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/266301">
+    <title>デスクトップLinux移行は大きなコスト削減が期待できず---米Gartner</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/266301</link>
+    <description>CD-ROMブートLinuxの類は大幅なTCO削減を予感させます。何か新ジャンルでないとLinuxデスクトップというのは単なるコストダウンにはつながらないと私は考えています。CD-ROMブート可能OSなんて今後とても必要な技術の一つになると思ってます。</description>
+    <dc:date>2003-09-24T01:05:58</dc:date>
+  </item>
+
+</rdf:RDF>

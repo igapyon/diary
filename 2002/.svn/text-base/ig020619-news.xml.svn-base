@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020619.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020619.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-19T08:06:39</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/tomcat/">
+    <title>Jakarta Tomcat 4.0.4 リリース</title>
+    <link>http://jakarta.apache.org/tomcat/</link>
+    <description>Tomcat安定版最新版がリリースです。早速ダウンロード。</description>
+    <dc:date>2002-06-19T08:06:39</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/19/nebt_05.html">
+    <title>Windows XP SP1、再びJavaをネイティブサポート</title>
+    <link>http://www.zdnet.co.jp/news/0206/19/nebt_05.html</link>
+    <description>MS製のものを載せる などの中途半端なことはせずに、SUNのJava2実行環境を搭載してくれれば良いのですが…。その点残念です。</description>
+    <dc:date>2002-06-19T16:10:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0108/10/e_ibmpc.html">
+    <title>すべては「IBMのマニュアル」から始まった――PC業界の20周年</title>
+    <link>http://www.zdnet.co.jp/news/0108/10/e_ibmpc.html</link>
+    <description>パソコンの歴史なんて たった20年なんですね。『オープン』などのキーワードも 昔を思い起こさせられます。また この記事 読み物としても面白いと感じました。</description>
+    <dc:date>2002-06-19T17:26:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/19/nebt_12.html">
+    <title>IBM、中国ソフト市場でライバルを凌ぐ成績</title>
+    <link>http://www.zdnet.co.jp/news/0206/19/nebt_12.html</link>
+    <description>IBMさん 頑張っていますなぁ。</description>
+    <dc:date>2002-06-19T16:10:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/19/nebt_09.html">
+    <title>Apacheセキュリティ警告でISSに批判</title>
+    <link>http://www.zdnet.co.jp/news/0206/19/nebt_09.html</link>
+    <description>セキュリティホール通知後 たった2時間で公表されたらたまったものではありませんね。その点 同意します。</description>
+    <dc:date>2002-06-19T16:10:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/19/xert_sue.html">
+    <title>MSにはピンチ？　ソフトにも製造責任を求める動き</title>
+    <link>http://www.zdnet.co.jp/news/0206/19/xert_sue.html</link>
+    <description>私も一介のソフト屋として ソフトの製造責任動向には興味有ります。はたして その方向性が正しいのかどうか 私には分かりません。</description>
+    <dc:date>2002-06-19T17:26:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/19/nebt_08.html">
+    <title>ウイルス感染、早くも昨年1年間の数字を突破</title>
+    <link>http://www.zdnet.co.jp/news/0206/19/nebt_08.html</link>
+    <description>ウイルスが猛威をふるっているのですね。おそろしいことです。また 一般ユーザにとって とても迷惑なことです。</description>
+    <dc:date>2002-06-19T16:10:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/06/19/grri84000000cyoj.html">
+    <title>音楽家の山本直純さん 死去</title>
+    <link>http://www.nhk.or.jp/news/2002/06/19/grri84000000cyoj.html</link>
+    <description>一年生になったら が山本直純さんの作品とは存じませんでした。こぶた・たぬき・きつね・ねこ なども山本直純さんの作品ですよね。クラシック音楽の大衆への普及に尽力された すばらしい方でした。</description>
+    <dc:date>2002-06-19T16:10:46</dc:date>
+  </item>
+
+</rdf:RDF>

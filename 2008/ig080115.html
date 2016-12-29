@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/15 日記: Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ</TITLE>
+<META name="DESCRIPTION" content="Apache HTTP Server 2.2.6 および 2.0.61 の LDAP不具合を修正するためのパッチおよび作成方法をメモしておきます。">
+<META name="KEYWORDS" content="apache,http,server,mod,ldap,module,バグ">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/15 日記: Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ</H2>
+    <P>[apache,http,server,mod,ldap,module,バグ] Apache HTTP Server 2.2.6 および 2.0.61 の LDAP不具合を修正するためのパッチおよび作成方法をメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2008.01.17作成</FONT> この日記は 2008.01.17に作成したものです。</P>
+<P>Apache HTTP Server 2.2.6 および 2.0.61 の LDAP不具合を修正するためのパッチおよび作成方法をメモしておきます。</P>
+<P>このパッチが無いとLDAPと<STRONG>連携動作させることができない</STRONG>ことを確認した環境は以下の通りです。(ただし内容がら 他の環境でも同様の問題が発生するものと考えています)</P>
+<UL>
+  <LI>Webサーバ
+  <UL>
+    <LI>Apache HTTP Server 2.2.6 + mod_ldap.so
+  </UL>
+  <LI>OS
+  <UL>
+    <LI>Microsoft Windows 2003
+    <LI>Microsoft Windows XP SP2
+  </UL>
+  <LI>LDAP サーバ
+  <UL>
+    <LI>ApacheDS 1.5.1
+    <LI>ApacheDS 1.0.2
+    <LI>OpenLDAP 2.2.29
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">モジュール・ダウンロード</FONT></P>
+<UL>
+  <LI><A href="http://prdownloads.sourceforge.jp/blancofw/28988/apache-win32-mod_ldap-patch-20080118.zip">apache-win32-mod_ldap-patch-20080118.zip</A><BR>
+  Apache 2.2.6 および Apache 2.0.61用の パッチ適用済 Apacheモジュール例
+</UL>
+<P><FONT color="#ff00ff">環境</FONT></P>
+<UL>
+  <LI>対象とした Apache : httpd-2.2.6-win32-src-r2.zip
+  <LI>利用したコンパイラ: Microsoft VisualStudio 2005
+</UL>
+<P><FONT color="#ff00ff">解凍およびリネーム</FONT></P>
+<UL>
+  <LI>httpd-2.2.6-win32-src-r2.zip を解凍
+  <LI>ファイル名変更 (人力 configure)
+  <UL>
+    <LI>httpd-2.2.6\srclib\apr\include
+    <UL>
+      <LI>    apr.hw -&gt; apr.h
+    </UL>
+    <LI>httpd-2.2.6\srclib\apr-util\include
+    <UL>
+      <LI>apu.hw -&gt; apu.h
+      <LI>apr_ldap.hw -&gt; apr_ldap.h
+      <LI>apu_want.hw -&gt; apu_want.h
+    </UL>
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">VisualStudio 起動</FONT></P>
+<UL>
+  <LI>Apache 2.2.6
+  <UL>
+    <LI>ディレクトリ: httpd-2.2.6\modules\ldap
+    <LI>プロジェクトファイル名: mod_ldap.dsp
+  </UL>
+  <LI>Apache 2.0.61
+  <UL>
+    <LI>ディレクトリ: httpd-2.0.61\modules\experimental
+    <LI>プロジェクトファイル名: util_ldap.dsp
+  </UL>
+</UL>
+
+<P><FONT color="#ff00ff">VisualStudio 設定</FONT></P>
+<UL>
+  <LI>ターゲット: Releaseに切り替え
+  <LI>構成プロパティ
+  <UL>
+    <LI>C/C++ → 全般 → 追加のインクルードディレクトリ<BR>
+    <STRONG>httpd-2.2.6\os\win32</STRONG> を追加
+    <LI>リソース → リソースファイル名<BR>
+    リソースファイル名を<STRONG>空欄</STRONG>にする。<BR>
+    ※原因不明なエラー。仕方なく 無理矢理回避。(VS2005, VS2003 いずれにおいても発生、、、)
+    <LI>リンカ → 全般 → 追加のライブラリディレクトリ<BR>
+    C:\Program Files\Apache Software Foundation\<STRONG>Apache2.2\lib</STRONG><BR>
+    ※<STRONG>本物</STRONG>の Apache HTTP Server の libディレクトリを指定
+    <LI>リンカ → 入力 → 追加の依存ファイル
+    <UL>
+      <LI>Apache 2.2.6 : <STRONG>libapr-1.lib libaprutil-1.lib libhttpd.lib</STRONG> の３ファイルを追加。
+      <LI>Apache 2.0.61: libapr.lib libaprutil.lib libhttpd.lib の３ファイルを追加。
+    </UL>
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">実際のパッチ作業</FONT></P>
+<UL>
+  <LI>ソースコード変更
+  <UL>
+    <LI>対象: util_ldap.c
+    <LI>内容: ※-1 を <STRONG>0 に変更</STRONG>
+    <UL>
+      <LI>    Apache 2.2.6の場合
+      <TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD>
+            <pre>#define APR_LDAP_SIZELIMIT   0</pre>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <LI>Apache 2.0.61の場合<BR>
+      該当箇所 3箇所について -1 から 0 に変更。.
+    </UL>
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">感想</FONT></P>
+<P>私に C++言語スキル (というか VisualStudioスキル) が備わっていて、本当に便利だと思いました。<BR>
+というのも、普段 私は自分に C++スキルがあるということを忘れているのです。というか C++は忘れたいプログラミング言語です… (苦笑)</P>
+<P><FONT color="#ff00ff">関係あると考えているリソース</FONT></P>
+<UL>
+  <LI><A href="http://blog.tsukuba-bunko.jp/ppoi/archives/2007/11/win32_apache_ht.html">つくば日記 (仮): Win32版 Apache HTTP Server 2.2.x で LDAP 認証できない</A><BR>
+  「ApacheDS の方のログを見ると，LDAPメッセージのパーズに失敗してるんでエラーなんじゃーって出ている。発生しているエラーは &quot;sizeLimit
+  が真っ当な整数じゃないよ&quot; という内容。」との記載があります。私が遭遇しているのと まさに同じ現象です。
+  <LI>関係がありそうな Bugzilla (バグジラ)
+  <UL>
+    <LI><A href="http://issues.apache.org/bugzilla/show_bug.cgi?id=37814">http://issues.apache.org/bugzilla/show_bug.cgi?id=37814</A>
+    <LI><A href="http://issues.apache.org/bugzilla/show_bug.cgi?id=43577">http://issues.apache.org/bugzilla/show_bug.cgi?id=43577</A>
+  </UL>
+  <LI>この問題の発端は、sizeLimitとして -1 を飛ばすような実装になっている点なのだそうです。別のWebページにて、-1 ではなく 0 を与えるのが
+  LDAP的に正しい仕様なのだとの記載がありました。これは、Apacheのログ上で ldap_search_ext_s() が失敗するということによって気がつきます。(文字化けがありますので解読が面倒なのですけれども…)
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig080111.html">2008/01/11 日記: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作</A>
+  <LI><A href="ig080110.html">2008/01/10 日記: Shibuya.trac ミーティング1.0 (2008.01.19＠豊洲) , 「第四期 中将棋全国大会・名人戦」に参戦</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaでLDAPプログラミング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実際に Active Directoryと接続する際には 更にハマりそうだと考え始めました。私にとっての馴染みの言語 Javaで どのようなコーディングになるのか
+調べておく必要があるように考えています。</P>
+<UL>
+  <LI>javax.naming.ldap<BR>
+  <A HREF="http://java.sun.com/javase/6/docs/api/javax/naming/ldap/package-summary.html">http://java.sun.com/javase/6/docs/api/javax/naming/ldap/package-summary.html</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

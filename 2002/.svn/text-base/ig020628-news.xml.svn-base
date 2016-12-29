@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020628.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020628.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/28/nebt_01.html">
+    <title>OpenSSHに深刻なセキュリティホール</title>
+    <link>http://www.zdnet.co.jp/news/0206/28/nebt_01.html</link>
+    <description>セキュリティ的不具合の無いソフトを開発するというのはとっても難しいことなのですね。</description>
+    <dc:date>2002-06-28T10:15:47</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2002_06.html">
+    <title>Visual Studio .NETの非技術的影響</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2002_06.html</link>
+    <description>川俣さんのご感想はさておき、再来月から 私はC#を仕事として携わる模様なのです。結構楽しみにしていたりして (笑)</description>
+    <dc:date>2002-06-28T09:02:04</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/26/ne00_code.html">
+    <title>MSが心変わり？　Palladiumのソースコードを一部公開へ</title>
+    <link>http://www.zdnet.co.jp/news/0206/26/ne00_code.html</link>
+    <description>ソースコードを公開した方がセキュリティを向上しやすい、という事に気が付いた のでしょうかねぇ。</description>
+    <dc:date>2002-06-28T13:10:40</dc:date>
+  </item>
+
+</rdf:RDF>

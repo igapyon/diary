@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/10/28 日記: いがぴょんのシゴトって…</TITLE>
+<META name="DESCRIPTION" content="いがぴょんが普段行っているシゴトって何なんでしょう。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig031028-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>いがぴょんのシゴトとは…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いがぴょんのやっている仕事って、細分化して分類した際には いったい何と呼ばれる作業をしているのだろうかって、外注さんと話していました。<BR>
+ぱっと出てきたのは『システム・アーキテクト』や『プロジェクト・マネージャー』って区分に相当するんじゃないかっていう、<STRONG><FONT color="#ff00ff">ナゾ</FONT></STRONG>の結論を得ました。というのも 私が普段実施している、そして得意としている仕事内容について、意外にも
+ぴったりフィットする単語が 現状は見あたらないのですもの。そういえば 随分前に
+どなたかから 『本とかお書きになるのだから、ピ エロ になりきって 仕事を取りまくったら良いのに～』というナゾの言葉を頂いたことがあります。<BR>
+＃チナミに その過程で 『中小企業の社長さんみたい』という表現を聞き、意外にも
+これが もっともフィットしているかも??? なんて 不思議な納得もしました。</P>
+<P>よりマジメな話として、今年度下半期 (2003/10から) 私は 原則として製造には入らず、技術営業
+的な立ち回りを主たる業務とするように変更していくことになりました。これは私の素朴な判断です。そして実は
+今までも 実態は 技術営業に近い側面もあったのです。<BR>
+なににせよ、シゴトを探す担当を受け持った人が、製造のピーク時にべったり製造に入っていると
+結果的に それ以降の(次の)シゴトのアテが全く無いという 悲惨な状態に陥る
+ということがわかってきたのです。(いやいや 実は 前回も分かっていたようにも思えます。はい。いつも喉元過ぎれば熱さを忘れるんですねぇ…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>業務連絡: JavaチームのLinuxシフト開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.nttd-bb.com/">某社</A> Web版勤怠システムについて、入力系画面のFlash化 + フルLinux対応 などの改造する超短期ジョブ
+(2W～4W) をねつ造しつつあります。</P>
+<UL>
+  <LI>環境変更 (Windows版をLinux版へと変更)
+  <UL>
+    <LI>turbolinux 10 desktop<BR>
+    (現状: Windows 2000)
+    <LI>PostgreSQL<BR>
+    (現状: Oracle)
+    <LI>Sun Java2 SDK 1.4.x
+    <LI>Apache HTTP Server
+    <LI>Jakarta Tomcat 4.x
+    <LI>Jakarta Axis<BR>
+    (新規)
+  </UL>
+  <LI>プログラム変更
+  <UL>
+    <LI>業務ロジックのWebサービス化<BR>
+    (後述のFlash化に必要な範囲で…)
+    <LI>フロントエンドのFlash版作成
+  </UL>
+</UL>
+<P>昨日 飲み会の席で 勝手に 社長様や事業部長様と交渉して盛り上がってしまいました。順調にいけば
+指示が来ますのでヨロシク！</P>
+<P><FONT color="#ff0000">2003.12.30</FONT> 結局 2003年の間は Windowsベースで突っ走る傾向にあります。実際に仕事で従事しそうなのは
+2004年度以降かなぁ…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBM ホームページビルダー7のCD-ROMを発掘</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>個人で IBM ホームページビルダー7を購入して所有しています。私は HTMLを作成する場合にはデフォルトで
+IBM ホームページビルダー7を利用しています。ところが これのCD-ROM媒体が
+最近見あたらず とても困っていました。<BR>
+…ところが これをようやく発見しました。何と パッケージの箱の中に 素直に 入っていました！ (なんてヒドいオチなのだろう)<BR>
+ふう、良かった、良かった。、、、というのも 先日 身の回りのゴミ整理で turbolinux
+4.0 のパッケージの箱および 中に入っていた CD-ROMを処分したばっかり、という絶妙なタイミングだったからなのです。(ホームページビルダーをCD-ROMごと捨てなくって
+ほんとうに良かったです)</P>
+<P>ちなみに 書籍執筆の際には 画像処理には デジカメの達人V3を利用しています。これは
+特にこだわりはありません。パックのセットもので ホームページビルダーを購入した際に
+オマケで付いてきたものを ありがたく使っているだけです。慣れてしまうと 意外にも他のソフトには行かないものですね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>内林さんが Jakarta POIを検証しました。ExcelブックがJavaアプリケーションから作成できて
+結構 よろこんでました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事メモ: Xシリーズ調査完了 → 報告メール送付済み</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Xシリーズ調査完了。報告メール送付済み。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>明日から東京シリーズ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>木曜日までは東京。金曜日は大阪に存在する予定。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>意味不明ブロック<BR>
+      </STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>『ユウナ ＸＸ は...他の日記に感染する。』トリビア実現プロジェクトに私も参画。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031028-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

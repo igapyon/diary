@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/07/02 日記: 今日から各種執筆活動に従事 (予定)</TITLE>
+<META name="DESCRIPTION" content="今日から執筆関連に従事します。仕事は片づきました！ , 不安定なWindows XPに対する対策とは？">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日から記事執筆…できるかも</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>出版関係のみなさま、すみませんです。<BR>
+昨日で 抱えていた仕事が全てフィニッシュしました。今日から 執筆活動に専念できます。みなさま、すみませんです。頑張りますです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ : リンフォルツァンド</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>音楽雑記帖: rfの謎<BR>
+  [replace-href:http://www.kanzaki.com/music/cahier/rinforzando0307]
+</UL>
+<P>ちなみに、私にとっては</P>
+<UL>
+  <LI>スフォルツァンド<BR>
+  → ざっ。つぁっ。
+  <LI>リンフォルツァンド<BR>
+  → ぅうわん。ぁよん。
+</UL>
+<P>って感じです。(全く意味不明)</P>
+<P><FONT color="#ff0000">2003.07.06 追記</FONT></P>
+<UL>
+  <LI>音楽雑記帖: リンフォルツァンド再び<BR>
+  [replace-href:http://www.kanzaki.com/music/cahier/rinf0307-2]
+</UL>
+<P>神崎さんは 『<SMALL>ぶ</SMALL><STRONG>う</STRONG><SMALL>ん</SMALL>』 と表現されていました (笑)<BR>
+それにしても 自筆譜まで戻って 裏を取っていくその姿勢は すばらしいです。</P>
+<P>音楽の世界をご存じない方へ…: オーケストラで演奏するということは、楽器が音符通り弾けるというのは 音楽という作業の中の ほんの一部の要素なんです。いろんな要素があって いろんな作業があるのですが、『譜面に忠実に弾く』という事を考えるだけでも とっても難しく奥が深く、そして楽しい作業なんです。自分の楽器の譜面だけ見ていても とても 全体像が分からないので、普通は全ての楽器の譜面が載ったスコアを見ます。でも 『譜面』に立ち戻る際に、『原典』に手を出す(戻る)という作業までは 私はとても手が出ていません。そもそも入手方法すら分からなかったりして… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラッシュ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows XP の explorer (というかシェル) が ぽかぽか落ちるので、試しに Windows
+Updateを使って 『重要な更新とService Pack』 を全て適用してみる。(むろん事前に
+Norton Ghostを使ってバックアップを取得した後に)<BR>
+取得したら サイズが 25.4MBもあります。しかも (回線速度にかかわらず) ダウンロードがとても低速です。</P>
+<HR>
+<P><FONT color="#ff0000">読者の方からツッコミ</FONT><BR>Subject:  [いがぴょんの日記] XPが落ちるとありましたので、メールしました<BR>
+<BR>
+ 初めまして、石野と申します。<BR>
+<BR>
+ 毎日、日記の方を楽しく拝見させて頂いています。<BR>
+2003/07/02の日記に、エクスプローラーが落ちるとありましたので もしかしたら、このパッチを当てる事により直るのではないかな？<BR>
+と思いまして、メールをしました。私のところは、DDEエラーがこれでなくなりました。</P>
+<UL>
+  <LI>[replace-href:http://support.microsoft.com/default.aspx?scid=kb;ja;436752]
+</UL>
+<P>本当は、MLの方に送信すればいいのでしょうが、 残念ながら参加していませんので、ダイレクトに送信させていただきました。<BR>
+<BR>
+いがぴょんさんのHPは、MFC の頃に見つけて ずーーっと楽しみに拝見させて頂いていました。一時期更新が止まった時期もあったと思うのですが、なぜか諦めずに
+よく見ていたんですよね。<BR>
+V2になってからも 毎日のように来ています。ただ、いがぴょんさんはJavaの方へ進まれたみたいですが
+私はMicrosoftべったりで、C#に進んでしまいました。<BR>
+なぜに方向が違うのに、楽しみに見ているのか 自分でも理解できていなかったりします。<BR>
+きっと楽しいんです。 同じ技術者として<BR>
+<BR>
+ついでですが、 私も、ちょっと HPを持ちましたのでよかったら 見てください。
+C#関係のHPになっています。いがぴょんさんのスキルですと、必要ないとは思うのですが・・・</P>
+<UL>
+  <LI>[replace-href:http://www.ailight.jp]
+</UL>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+ツッコミありがとうございます。早速 Norton Ghost後 適用を試してみます。<BR>
+言われてみると 私は Javaに行きましたね。でも 最近は C#.NETも よく使っています。そこに仕事があるから
+(笑)<BR>
+で 私は C#のスキルって ぼろぼろなので 喜んで参考にさせて頂きますね。</P>
+<P><FONT color="#ff0000">2003.07.09</FONT> 実際に Q329692ってのを適用してみる。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030702-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

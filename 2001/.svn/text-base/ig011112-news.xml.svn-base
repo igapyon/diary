@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011112.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011112.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-12</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://japan.internet.com/linuxtoday/20011110/3.html"/>
+        <rdf:li resource="http://japan.internet.com/linuxtoday/20011110/1.html"/>
+        <rdf:li resource="http://www.nhk.or.jp/news/2001/11/12/grri840000008568.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20011110/3.html">
+    <title>独 SuSE、IBM ソフトウェアの欧州・中東における配布に合意</title>
+    <link>http://japan.internet.com/linuxtoday/20011110/3.html</link>
+    <description>ヨーロッパでは SuSEが『強い』ので、そこにIBMのソフトが載っかってきて、という塩梅なのでしょう。</description>
+    <dc:date>2001-11-12T15:08:57</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20011110/1.html">
+    <title>最新 Netscape 6.2 はアップグレードが中心？</title>
+    <link>http://japan.internet.com/linuxtoday/20011110/1.html</link>
+    <description>Netscape 6.2 に関する情報が 少し載っています。</description>
+    <dc:date>2001-11-12T15:08:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2001/11/12/grri840000008568.html">
+    <title>ＪＡＬとＪＡＳ 経営統合決定</title>
+    <link>http://www.nhk.or.jp/news/2001/11/12/grri840000008568.html</link>
+    <description>『虹の翼』デザインの前途が心配になりました。(虹の翼ファンなのであった…)</description>
+    <dc:date>2001-11-12T15:24:35</dc:date>
+  </item>
+</rdf:RDF>

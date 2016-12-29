@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/04/18 日記: 今日はドキュメント作成日</TITLE>
+<META name="DESCRIPTION" content="今日はドキュメント作成日です。何事にもじゃまされず 淡々とドキュメント作成できることを祈りつつ…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日はドキュメント作成…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日はドキュメント作成です。さあて 頑張るぞうっ! (ソースコードから詳細設計に該当するものの一部のドキュメント起こしです)<BR>
+開発したソフトの性格柄、このように逆生成せざるを得ないのでした。</P>
+<P><FONT color="#ff0000">12:06</FONT> 小休止<BR>
+小物な申し訳仕様風ゴミドキュメント類は全て完了。カット＆ペーストしまくり。(ミスっていないかどうかは
+後でチェックしようっと…)<BR>
+で 残っているのが 大物1本 (中くらい程度のプログラム4本で構成されている)
+を仕上げたらほぼ終わりなのですが…。大物だけに これが厄介っぽいなあ (苦笑)</P>
+<P><FONT color="#ff0000">19:19</FONT> 今日は途中だけれど とりあえずおしまい。<BR>
+ソースコードから仕様書を起こしているのですけれど、モノがモノだけに 詳細設計狙いなのに
+内容がプログラム仕様書みたいになってしまいます。しかもif文の細かい条件や
+代入値などをきめ細かく書いています。う～ん。当然といえば当然か。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020418-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

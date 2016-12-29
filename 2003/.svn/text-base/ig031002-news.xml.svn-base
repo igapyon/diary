@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031002.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031002.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/25/njbt_06.html">
+    <title>OSDLにNTTデータ先端技術が参加</title>
+    <link>http://www.zdnet.co.jp/news/0309/25/njbt_06.html</link>
+    <description>NTT系では初めての参加なんですって。NTTデータ関連会社に勤めることに変化があった私としては なにげに気になります。… Linuxでも勉強してみようかしら (苦笑)</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061127,00.htm">
+    <title>Linux戦争-- 米IBM、SCO反訴の内容を拡大</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061127,00.htm</link>
+    <description>SCOのLinux関連にまつわる新たな話題</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/030926/j_j-beck.html">
+    <title>あくせく働くのではなく賢く働こう: Kent Beck氏へのインタビュー</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/030926/j_j-beck.html</link>
+    <description>エクストリームプログラミングで有名なケント・ベックさんへのインタビュー記事。なんだか話がぽんぽん飛びまくるように感じますが…。でも良い記事です。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/30/njbt_07.html">
+    <title>BSデジタル放送、コピーワンス信号を来春から送信</title>
+    <link>http://www.zdnet.co.jp/news/0309/30/njbt_07.html</link>
+    <description>どうもBSデジタルっていうのがどんな仕様で どんな使い勝手なのかさっぱりわかりません。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.compuware.co.jp/corporate/pressrelease/2003/031001.html">
+    <title>日本コンピュウェア、MDA実装のJ2EEアプリケーション開発環境、新製品「OptimalJ」を発表</title>
+    <link>http://www.compuware.co.jp/corporate/pressrelease/2003/031001.html</link>
+    <description>この中のパイロットプログラムというやつに私は参画しています。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030924/134996/index.shtml">
+    <title>ローソンチケットでLinuxベースの音声応答システムが稼働</title>
+    <link>http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030924/134996/index.shtml</link>
+    <description>音声応答システムって微妙に興味ひかれるものがあります。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030925/135052/index.shtml">
+    <title>「Linuxでソフトの輸入超過を打破せよ」</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030925/135052/index.shtml</link>
+    <description>まあこの記事、OSDLの宣伝文句が大半を占めていますねぇ</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0309/30/epn03.html">
+    <title>第7回「DB2 ICEこそ真のLinuxクラスタソリューション」と日本IBM</title>
+    <link>http://www.zdnet.co.jp/enterprise/0309/30/epn03.html</link>
+    <description>Linux用クラスタDBでがんばっているのだそうな。LinuxならIBMというところも狙っているんですって。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061194,00.htm">
+    <title>オープンソースが日本のIT産業に与える影響とは？</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061194,00.htm</link>
+    <description>なににせよ技術者育成がカギですなぁ。</description>
+    <dc:date>2003-10-07T14:26:23</dc:date>
+  </item>
+
+</rdf:RDF>

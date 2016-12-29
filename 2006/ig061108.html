@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/08 日記: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</TITLE>
+<META name="DESCRIPTION" content="シンプルな C言語からJava言語を呼び出すJNIサンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/08 日記: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] シンプルな C言語からJava言語を呼び出すJNIサンプルを作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>シンプルな C言語からJava言語を呼び出すJNIサンプル・トイプログラムを作成しました。</P>
+<P>C言語を久しぶりに触ったのですが、もはや かなり忘れてしまっていることが判明しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">C言語ソースコード</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * シンプルなJNIサンプル。
+ */
+#include &quot;stdafx.h&quot;
+#include &quot;jni.h&quot;
+
+int main(int argc, char* argv[])
+{
+    JNIEnv *jnienv;
+    JavaVM *javavm;
+    JavaVMInitArgs vm_args;
+
+    JavaVMOption options[1];
+    options[0].optionString = &quot;-Djava.class.path=.&quot;;
+    vm_args.version = JNI_VERSION_1_2;
+    vm_args.options = options;
+    vm_args.nOptions = 1;
+    vm_args.ignoreUnrecognized = true;
+
+    printf(&quot;JavaVMを作成.\n&quot;);
+    int result = JNI_CreateJavaVM(&amp;javavm, (void **)&amp;jnienv, &amp;vm_args);
+
+    if (result != 0) {
+        printf(&quot;JavaVMの作成に失敗しました(%d).\n&quot;, result);
+        return 1;
+    }
+
+    printf(&quot;クラス検索.\n&quot;);
+    jclass cls = jnienv-&gt;FindClass(&quot;MyClass&quot;);
+    if (cls == 0) {
+        printf(&quot;クラス検索に失敗しました.\n&quot;);
+        return 1;
+    }
+
+    printf(&quot;メソッド取得.\n&quot;);
+    jmethodID mid = jnienv-&gt;GetStaticMethodID(cls, &quot;process&quot;, &quot;()Ljava/lang/String;&quot;);
+    if (mid == 0) {
+        printf(&quot;メソッド取得に失敗しました.\n&quot;);
+        return 1;
+    }
+
+    printf(&quot;メソッド呼出.\n&quot;);
+    jobject objResult = jnienv-&gt;CallStaticObjectMethod(cls, mid);
+
+    jthrowable throwResult = jnienv-&gt;ExceptionOccurred();
+    if (throwResult != NULL) {
+        printf(&quot;例外が発生しました.\n&quot;);
+        jnienv-&gt;ExceptionDescribe();
+        jnienv-&gt;ExceptionClear();
+        return 1;
+    }
+
+    if (objResult == NULL) {
+        printf(&quot;メソッドの戻り値がnullでした.\n&quot;);
+    } else {
+        jstring strResult = (jstring) objResult;
+        printf(&quot;[%s]\n&quot;, jnienv-&gt;GetStringUTFChars(strResult, NULL));
+    }
+    
+    printf(&quot;JavaVMを破棄.\n&quot;);
+    result = javavm-&gt;DestroyJavaVM();
+    if (result != 0) {
+        printf(&quot;JavaVMの破棄に失敗しました(%d).\n&quot;, result);
+        return 1;
+    }
+
+    return 0;
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<UL>
+  <LI>jvm.dllにあらかじめパスを通しておく必要があります。職業プログラミングの世界では、もっと賢い実装をおこなうでしょう。でも、そうすると行数が増えるので今回のトイプログラムの主旨とは異なるため実装を割愛しました。
+  <LI>JNIにまつわる異常系は、ひととおりおりこんで実装したつもりです。Java側の例外がC言語側で捕捉できることは確認しました。
+  <LI>GetStaticMethodID の第3引数は *.classファイルのなかから文字列を複写して活用するのが簡単で確実な方法です。これを一から手で書き起こすのは、かなり難しいです。
+  <LI>この例では、アタッチ・デタッチ関連のAPIを呼んでいません。
+  <LI>文字列の受け渡しまわりについて、実装が割愛されています。もっと賢い実装があるはずです。加えて、文字列のメモリ解放など留意点があるはずですが、これも割愛しています。
+</UL>
+<P>呼び出される Javaのサンプルは下記のようなものになります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">MyClass.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class MyClass {
+    public static String process() {
+        return &quot;Hello world.&quot;;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig051228.html">2005/12/28 日記: SWTを用いた JavaからWin32APIへのアクセス サンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoMessageのPHPソースコード生成機能</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>のPHPソースコード生成機能ですが、最低限の単体試験をパスする状態にまで進みました。</P>
+<P>自動生成されるソースコード</P>
+<UL>
+  <LI>PHP<BR>
+  <A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.php/main/blanco/sample/message/SampleMessage.php">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.php/main/blanco/sample/message/SampleMessage.php</A>
+  <LI>VB.NET<BR>
+  <A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.vb/main/blanco/sample/message/SampleMessage.vb">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.vb/main/blanco/sample/message/SampleMessage.vb</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

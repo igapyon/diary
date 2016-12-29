@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030130.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030130.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/29/njbt_06.html">
+    <title>アイ・オー、DVエンコーダ搭載TVキャプチャボックス</title>
+    <link>http://www.zdnet.co.jp/news/0301/29/njbt_06.html</link>
+    <description>GV-1394TV (\34,800.-) IEEE1394でテレビ鑑賞＋録画。ハードウェアDVコーデック。パソコンからはDV機器として認識されるというのも興味深い。3D Y/C分離機能やゴーストリデューサも搭載ですって。う～ん、カノープスの製品を買おうと思っていたのが ゆらゆらと揺らいでしまいます (苦笑) USB2.0ではなく、IEEE1394接続っていうのが これまたいいなぁ。MTV800 HXを買おうと思っていた心が ぐらぐらぐらっと揺らぎます。</description>
+    <dc:date>2003-01-30T09:10:36</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/29/nebt_14.html">
+    <title>通話しながらの運転で視野は大幅に狭窄</title>
+    <link>http://www.zdnet.co.jp/news/0301/29/nebt_14.html</link>
+    <description>集中力が 別の所に行ってしまうのですね。みなさま くれぐれも通話しながらＸＸ というのは注意しましょうね。</description>
+    <dc:date>2003-01-30T09:10:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.netlaputa.ne.jp/~ayu/labo/win32/timeb/">
+    <title>みずき工房: たいむぼっか～ん 5.10</title>
+    <link>http://www.netlaputa.ne.jp/~ayu/labo/win32/timeb/</link>
+    <description>無料なNTPクライアント/サーバソフト。NTPクライアントというのは、インターネットから正確な時間を取得するツールです。2000/XPなどではサービスとして動作してくれて、しかも無料で提供されているのが大変嬉しいです。お気に入りの逸品ソフトです。(NTPサーバとしては利用経験ありません…) で、今日 久しぶりに最新版を調べてみたら 5.10というのが最新版だったです。早速ゲットして適用。</description>
+    <dc:date>2003-01-30T13:43:09</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/30/nebt_12.html">
+    <title>「.com」も「e-」も時代遅れ</title>
+    <link>http://www.zdnet.co.jp/news/0301/30/nebt_12.html</link>
+    <description>海外企業では .comやe-が時代遅れ扱いされだしているのだそうな。この記事では独SAPの例が紹介されています。</description>
+    <dc:date>2003-01-30T13:43:09</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/30/nebt_13.html">
+    <title>IBMのLinux推進、いずれAIXの代替に？</title>
+    <link>http://www.zdnet.co.jp/news/0301/30/nebt_13.html</link>
+    <description>IBMの方が 論理的には LinuxはAIXの後継たり得ると述べられたのだそうな。AIXレンジにすっぽりとLinuxが載っかる時代が到来したら…。ものすごいことですね。しかもそれをIBMが表名するってのが 大変興味深いニュースです。</description>
+    <dc:date>2003-01-30T13:43:09</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/30/nebt_16.html">
+    <title>Webサービス、舞台裏で活躍</title>
+    <link>http://www.zdnet.co.jp/news/0301/30/nebt_16.html</link>
+    <description>Webサービスって、最初は この記事にあるような 裏側で地味～なところで流行すると私は予想しています。企業同士を接続するために とっても簡便で有益であると思えるのですもの。</description>
+    <dc:date>2003-01-30T13:43:09</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/28/xert_worm.html">
+    <title>タイミングが悪すぎたSlammerワーム</title>
+    <link>http://www.zdnet.co.jp/news/0301/28/xert_worm.html</link>
+    <description>HotFixを一つずつ吟味して適用するなんてことは 普通は実施できません。やはりService Pack の形態で配布されているものの適用に どうしても依存しがちです。ちょうど SQL Server SP3がリリースされた後だったから、まだ良かったです。</description>
+    <dc:date>2003-01-30T09:10:36</dc:date>
+  </item>
+
+</rdf:RDF>

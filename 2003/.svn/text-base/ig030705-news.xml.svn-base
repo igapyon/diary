@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030705.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030705.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/02/epn26.html">
+    <title>WebLogicで知る JSP/Servlet入門: 特集：第1回　なぜWebLogic Serverが選ばれるのか</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/02/epn26.html</link>
+    <description>拙稿がZDNETに載っかりました。やや事件が発生したのですが、その件に関しては様子見状態です。</description>
+    <dc:date>2003-07-05T11:01:28</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/special/java2cs/java2cs_01.html">
+    <title>私がJavaからC#に乗り換えた10の理由</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/special/java2cs/java2cs_01.html</link>
+    <description>つい先日 .NET Framework 1.0 と 1.1 の非互換性に苦しめられて、C#にサメてしまいました。それはともかく 私にとって最大のC#.NETのダメな点って、データベースアクセスの際の値の取り出しが Valiant型になっている点です。これだと実際にデータベースに接続して動作させてみるまで クラスキャスト例外が出るかどうかわからないんです。この点は最悪です。言語仕様はさておき API仕様が腐っていると ダメダメです。この点 APIやオープンソースライブラリが充実しているJavaは とっても楽ちんですね。</description>
+    <dc:date>2003-07-05T10:50:55</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/ad/macromedia/cfmx/cfmx01.html">
+    <title>次に来るWebコンピューティングの未来像とは ～Flashが実現するリッチインターネットアプリケーションの可能性を探る～</title>
+    <link>http://www.atmarkit.co.jp/ad/macromedia/cfmx/cfmx01.html</link>
+    <description>私も最近 Flash + Webサービス の構図に すっぽしハマっています。…でも、ColdFusionってのは 検討すらしたことありません。</description>
+    <dc:date>2003-07-05T10:50:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/30/epn02.html">
+    <title>.NETの知られざる脅威 「難読化せずに.NET向けパッケージを出してはいけない」エージーテック鈴木氏</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/30/epn02.html</link>
+    <description>ソースコードを醜く(見にくく)書き直せ、という事ではありません (苦笑) それはさておき リバースエンジニアリングの驚異は Javaでも歴然とありました。例えばjadなどの無料逆コンパイラを利用すれば かなり完璧なソースコード復元が可能です。むしろインデントなんかの都合 逆コンパイルした方が 元のソースコードよりも美しかったりする場合もあったりして…。幸いというな何というか Javaはサーバーサイドで流行したので、Webブラウザで接続する限りは リバースエンジニアリングの驚異は発生しえなかった側面があります。さて .NETは クライアントサイドアプリケーションで流行するかどうか… どうなるかは歴史のみぞ知る。</description>
+    <dc:date>2003-07-05T20:24:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/03/epi01.html">
+    <title>Mac OS、AIX、HP-UXが狙われる――「国際ハッキングコンテスト」で被害のおそれ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/03/epi01.html</link>
+    <description>インターネット側にさらされているコンピュータってのは とても注意が必要なのですね。ルータなどを介せず 直接ブロードバンド接続している 無知な方々のパソコンは 大丈夫なのだろうか…。</description>
+    <dc:date>2003-07-05T20:24:08</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030703/4/">
+    <title>マイクロソフト，Windows 2000 Service Pack4の配布を開始</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NBY/NEWS/20030703/4/</link>
+    <description>USB 2.0対応が同梱されているのは とても魅力です。</description>
+    <dc:date>2003-07-05T20:24:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/operation/hotfixman/hotfixman_01.html">
+    <title>@IT: HotFix管理を始めよう</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/operation/hotfixman/hotfixman_01.html</link>
+    <description>そもそも HotFixなんて管理したくないんですが…。バグやセキュリティ対策って ほんとにアタマが痛い環境ですね。</description>
+    <dc:date>2003-07-05T20:24:08</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/01/05 日記: シンプルなJFC/Swingのフレームサンプル</TITLE>
+<META name="DESCRIPTION" content="基準となるシンプルな Swingフレーム (JFrame) サンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/01/05 日記: シンプルなJFC/Swingのフレームサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 基準となるシンプルな Swingフレーム (JFrame) サンプルを作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルなJFC/Swingのフレームサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleSwingFrame.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Rectangle;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class SimpleSwingFrame extends JPanel {
+    public SimpleSwingFrame() {
+        // 背景色を白色にします。
+        setBackground(Color.white);
+    }
+
+    public void paintComponent(final Graphics argGraphics) {
+        super.paintComponent(argGraphics);
+
+        // 赤色で画面の大きさいっぱいに円を描画します。
+        argGraphics.setColor(Color.red);
+        final Rectangle rect = getBounds();
+        argGraphics.drawOval(0, 0, rect.width, rect.height);
+    }
+
+    public static void main(final String[] args) {
+        // JFrameを作成して自分自身を貼り付け、これを表示します。
+        final JFrame frame = new JFrame(&quot;シンプルなSwingフレームサンプル&quot;);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(new SimpleSwingFrame());
+        frame.setLocationRelativeTo(null);
+        frame.setSize(400, 400);
+        frame.setVisible(true);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff0000">2007.01.21追記</FONT> <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さんから下記のツッコミがありました。</P>
+<P><CITE>チョット気になるところがあったのでメールします。</CITE></P>
+<P><CITE>getClipBounds()はウィンドウの矩形ではなく、描画する矩形が返されます。</CITE></P>
+<P><CITE>ウィンドウが半分隠れている場合は、その部分は含まれません。<BR>
+なので、このプログラムを実行し、別のウィンドウで部分的に隠してやると描画が乱れます。</CITE></P>
+<P><CITE>こうすればよいでしょう。<BR>
+//final Rectangle rect = argGraphics.getClipBounds();  ←ココ☆<BR>
+final Rectangle rect = getBounds();</CITE></P>
+<P><CITE>ではでは。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A></P>
+<P>ツッコミ ありがとうございます。感謝の気持ちでいっぱいです。<BR>
+ご指摘の通りです。さっそく修正しました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

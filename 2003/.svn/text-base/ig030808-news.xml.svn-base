@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030808.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030808.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/06/nebt_24.html">
+    <title>「Linux導入で最大80％費用削減」と米企業</title>
+    <link>http://www.zdnet.co.jp/news/0308/06/nebt_24.html</link>
+    <description>80%削減っていうのは何かおかしいだろう、なあんて思いました。</description>
+    <dc:date>2003-08-08T09:15:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/01/nebt_07.html">
+    <title>JBoss、Java互換論争で歩み寄り</title>
+    <link>http://www.zdnet.co.jp/news/0308/01/nebt_07.html</link>
+    <description>歩み寄るのだそうです </description>
+    <dc:date>2003-08-08T09:15:23</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060381,00.htm">
+    <title>DBにもオープンソース化の波：PostgreSQLの商用ディストリビューション</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060381,00.htm</link>
+    <description>売り物として入手できる点が非常に興味深い </description>
+    <dc:date>2003-08-08T09:15:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/08/nebt_04.html">
+    <title>高解像度でのWebサーフィンが主流に</title>
+    <link>http://www.zdnet.co.jp/news/0308/08/nebt_04.html</link>
+    <description>Webブラウジングが 800x600時代から1024x768時代へと移行しつつあるのだそうな。</description>
+    <dc:date>2003-08-08T12:45:06</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060398,00.htm">
+    <title>とうとうビッグブルーが動いた--米IBM、米SCOを訴える</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060398,00.htm</link>
+    <description>IBMさん 頑張っています。</description>
+    <dc:date>2003-08-08T12:45:06</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0308/08/nebt_08.html">
+    <title>Apache、アプリケーションサーバ開発へ</title>
+    <link>http://www.zdnet.co.jp/news/0308/08/nebt_08.html</link>
+    <description>Apache Geronimoプロジェクトとかいうアプリケーションサーバを新たに打ち上げるのだそうな。</description>
+    <dc:date>2003-08-08T12:45:06</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/09/24 日記: 東京長期出張ロード:日記執筆環境取得</TITLE>
+<META name="DESCRIPTION" content="なんとか日記執筆環境を構築！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="igapyon diary generator">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日記執筆環境構築</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>なんとか構築しましたです。<BR>
+ノートパソコンにメール＆ホームページ作成環境を作りこんだのですが、CPU: Intel Pentium 200MHz MMX , メモリ64MBという構成なので、かなりきついです。ずばずばページングが起きまくります。、、、使い込んでいくと フラストレーション溜まりそうだなぁ (苦笑) というか 現在の目的は 長期ロードでも不便を解消する能力がノートパソコンに備わっているか、などの ノートパソコンの優位性や利便性の概念を 私のハートが理解できるかどうかを試すため、とりあえず低いスペックであってもノートパソコンなるものを まずは使って 体験する、というのが最初のゴールです。</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JR中野駅周辺ショック</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>東京に引っ越した父と母の陣中見舞いに行きました。ところが行ったとたん まず 父のパソコンは MSブラスターウィルスに汚染されていることが判明しました。初めて実際にMSブラスターウイルスに汚染されたパソコンを見ました。これを一生懸命復旧しました。そういえば、電話代がナニガシと言っていましたが、話がつながりました。それでこんどは 父のパソコンをISDNからADSLに変更するということで、LANボードが必要だということが判明しました。そこでこんどは、父が住んでいる西武新宿線「沼袋」から、最寄で大きそうな駅ということで地図をにらめっこしていたら JR中野駅くらいしか思いつかなかったので、ちょっと足を伸ばしてJR中野駅に行きました。(あとで考えると この時点で間違っています) 商店街を抜けていくと なんとなくSEっぽい人たちが俳諧して歩いているので、それについていくと、なんと <A HREF="http://www.nakano-broadway.jp/">中野ブロードウェイ</A>なる場所に行きました。なんとなく秋葉原のジャンクショップに似ているのですが、よくよく見ていたら なぜか、アニメ関連ショップしかありません。コスチュームショップからポスター、レコードまで アニメ一色。こ、、、こんなディープな場所が存在するんだ、と しばらく呆然としました。上の階に行っても行っても やっぱりアニメ関連ショップが主体です。、、、さんざん中野ブロードウェイを歩き回った挙句、あきらめて 新宿まで出てヨドバシカメラでLANボードとLANケーブルを買いました。東京の奥の深さを改めて知りました。</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>＠IT編集者さまと遭遇</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今週通っている某講習会の会場にて、別件で隣の講習会部屋にいらっしゃっていた＠IT編集者さまの方々と遭遇しました。いつも日記を見ていただいているとのこと 大変感謝しています。名刺交換をして 私は とっても嬉しかったです。さっそく いがぴょんの日記執筆再開についてツッコミを受けました (笑)。『＠IT 大変好きです。愛読しています』と平素からの感謝の気持ちを伝えました。
+</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>EJB撲滅委員会の解散？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は1998年からJavaで仕事をしてきました。その仕事経験の中で EJBといふものの評価は 私の中で ものすごく低いものでした。今の今まで 自称『EJB撲滅委員会』(委員はいがぴょん１名かしら)と称して この世から EJBを消し去るべく 公私共々がんばって参りました。というのも およそEJBを利用したシステムって 私の経験範囲内では ほぼ片っ端から失敗しているのですもの。ところが今週 とある講習会で とある開発環境にどっぷりと触れていて その考えは ずいぶん変化してきています。とりあえず EJB撲滅委員会は解散の時期を迎えつつあるように思っています。いやあ、EJBも使いようなんですねぇ。
+</P>
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ムーアの法則 の行く末</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.zdnet.co.jp/news/0309/16/nebt_26.html">ムーアの法則「経済的に持続不可能」とTSMC</A> ムーアの法則が減速するとパソコンの相対的スペックダウンが減り結果的にはパソコンを購入しやすくなると私は思います。<BR>
+突っ込み: あおしまさん: ムーアの法則が崩れると、私は連鎖倒産を起点とする一大不況と技術停滞がやって来るのではないかと思うので非常に怖いです。<BR>
+いがぴょん: そ、、、そうなんですか…。それは予想できませんでしたです。</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows Updateのいちげき</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows Updateで Windows 2000 に Intel 845Gグラフィックドライバの更新を適用したらブルースクリーンに陥ってしまいました (苦笑) Windows Update恐るべし… なぜこんなことが (結局 OSの入れなおしをしました…)
+</P>
+
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030924-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

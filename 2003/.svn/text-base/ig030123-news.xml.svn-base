@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030123.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030123.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/21/epn07.html">
+    <title>日本IBM、邦銀初の本格的Webサービスシステムを東京三菱銀行と共同開発</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/21/epn07.html</link>
+    <description>すごく格好良いですねぇ。『Webサービスのほか、電子署名によるセキュリティーを活用し、OSにはLinuxを採用する。』のクダリも興味深い。電子署名などの技術が無いと 基本的になりすましが防止できませぬものねぇ。</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/226283">
+    <title>MSとソニー、デジタル家電で覇権争い激化</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/226283</link>
+    <description>素朴にソニーには頑張って欲しいです。</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/227082">
+    <title>ミニQ&amp;A：壊れたHDDを自力で復旧できない場合はどうするか？</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/227082</link>
+    <description>アルファ・オメガソフト「FINALDATA スタンダード」というソフトが紹介されていました。</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/20/xedj_orange.html">
+    <title>［WSJ］ MSの携帯電話にバグ、一部顧客から苦情</title>
+    <link>http://www.zdnet.co.jp/news/0301/20/xedj_orange.html</link>
+    <description>携帯電話がバグっていて フリーズしたり勝手に電話帳からランダムに電話をかけるというのは大変困りますよね。</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.codeweavers.com/products/office/">
+    <title>CrossOver Office 1.3.1</title>
+    <link>http://www.codeweavers.com/products/office/</link>
+    <description>WineベースなWindowsアプリケーション実行環境である模様。</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/xert_real.html">
+    <title>RealNetworks、コンテンツ配信ソフトのコード公開</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/xert_real.html</link>
+    <description>Microsoftの攻勢を ソースコード公開などで凌ぐという思惑なのでしょうか…</description>
+    <dc:date>2003-01-23T18:09:34</dc:date>
+  </item>
+
+</rdf:RDF>

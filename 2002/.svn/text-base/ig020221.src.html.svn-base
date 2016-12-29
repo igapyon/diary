@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/21 日記: SUN JDK 1.1.8_009 Windows版リリース</TITLE>
+<META name="DESCRIPTION" content="SUN の Java Development Kit 1.1.8_009 Windows版がリリースされました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig020221-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Ant の使い方 (素人的)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日、Jakarta Ant の画期的な使い方をマスターする。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><STRONG>&gt;</STRONG> build compile testrun</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>build の時のターゲット名を複数書くと、ターゲットを順に処理していくという事を収得。わざわざ build.xmlを修正しなくても いきなし複数ターゲットを一括機動できるのは大変嬉しかったです。… えっ、常識? (爆笑)<BR>
+# Windowsたたき上げなので、unix風習慣が身に付いていないのです (^o^)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020221-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

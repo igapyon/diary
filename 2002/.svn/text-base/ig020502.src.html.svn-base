@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/02 日記: OpenOffice.org 1.0リリース , 今日はプレ本番日です</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org 1.0 初リリースです! , 今日は かねてから携わってきた原価計算システムのプレ本番日です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org 1.0 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WindowsでもLinuxでも動作する オープンソースなオフィスソフトの初リリースです。ライセンスはLGPLとSISSLとによるデュアルライセンスです。大変期待されているソフトなのですが、日本語版のリリースはまだのようです。</P>
+<P><FONT color="#ff0000">2002/05/16追記</FONT> 2週間遅れで、ようやく日本語版がリリースです。まずは日本語版リリースを祝福したいです。(そして早速ダウンロード中…)</P>
+<UL>
+  <LI><A href="http://www.openoffice.org">OpenOffice.org 1.0 日本語版 リリース</A><BR>
+一部のミラーにおいて、日本語版がダウンロード可能になっています 
+(でも大変混んでいます)
+</UL>
+<P><FONT color="#ff0000">2002/05/17追記</FONT><BR>
+[replace-link:OpenOffice.org] 1.0 日本語版のダウンロードが無事終了したので、とりあえずということで Windows
+XP Pro にインストールしてみました。</P>
+<UL>
+  <LI>ちゃんとした出来映えインストーラーが付いています。初印象は大変良いです。
+  <LI>インストール時に、デフォルトで*.doc *.xls などの関連づけをしようとしますが、それはチェックボックスではずしました。
+  <LI>スタートメニューには追加が無くて タスクトレイ右側にクイックランチが載っかる
+  というのが個性的です (最初 どこから起動したらよいのか分かりませんでした)
+  <LI>ちょっと触ったり Microsoft Officeのデータを読み込ませてみたりしました。結構ちゃんと動作しています。
+  <UL>
+    <LI>Excelのシート名に日本語名称を利用していたら、これはOpenOffice.org 1.0 では表示できませんでした。
+  </UL>
+</UL>
+<P>まあ 動作するということが分かったので アンインストールして これはこれで
+おしまい。<BR>
+それはさておき これがLGPLで提供されるというのは大変喜ばしいです。それにLinux版も存在するんですよねぇ。これって凄いことだと思います。<BR>
+# 世間の雑誌にCD-ROMで添付されるのかどうか という点も大変興味ありますし、そもそもLGPLだったら
+Linuxディストリビューションに加えてもらえる可能性も大ですよね。</P>
+<P><FONT color="#ff0000">2002/05/17 16:45追記</FONT> 今見てみたら 私がダウンロードしたサイトすら 接続不能になっていました。大変な混雑が発生しているのでしょうか。何にせよ
+今はダウンロードはできない模様です。私はダウンロードできて運が良かったようですね。</P>
+<P><FONT color="#ff0000">2002/05/19 21:12追記</FONT> 今見てみたら 若干ながら混み具合は改善されてきた模様です。ただ 日本のミラーサイトに日本語版が載っていなかったのは
+ちと残念だと思いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日はプレ本番日です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>かねてから携わってきた原価計算システム再構築のプレ本番日です。気が抜けません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ダウンロードツール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>OpenOfficeに興味を向けると ついでにダウンロードマネージャなるジャンルに目を向けさせられました。</P>
+<UL>
+  <LI>フリーのダウンロードマネージャー「NetAnts」<BR>
+  [replace-href:http://www.forest.impress.co.jp/article/2001/07/04/netants.html]
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020502-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

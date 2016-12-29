@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030611.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030611.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/10/ne00_sco.html">
+    <title>SCO、Linuxソースコードとの比較をアナリストに見せる</title>
+    <link>http://www.zdnet.co.jp/news/0306/10/ne00_sco.html</link>
+    <description>BSDをベースに System V と Linuxとの両方を作成したのなら、当然 類似コードはあって然るべきですねぇ。SCOの人たちって、そういう歴史を知らないのかしらん。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://www.mikeneko.ne.jp/~lab/grp/png/">
+    <title>わかりやすい PNG の話 for Web</title>
+    <link>http://www.mikeneko.ne.jp/~lab/grp/png/</link>
+    <description>PNGとGIFの比較など 興味深い話題が載っておりました。また JPEGは非可逆圧縮だけれどGIFは可逆圧縮だったんですね…。知りませんでした。(私は PNGならいいんだ的に 思いこんでおりました) また PNGって 昔のバージョンであるInternet Explorerは4から対応済みだったのですね。それも知りませんでした。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://d.hatena.ne.jp/HiromitsuTakagi/20030607">
+    <title>高木浩光さん日記:Webバグについて復習する</title>
+    <link>http://d.hatena.ne.jp/HiromitsuTakagi/20030607</link>
+    <description>Webバグって、ちゃんと日本語訳したら 『Web盗聴器』だったのですね。これはびっくりです。バグの方が印象的で、何か不具合なんかと誤解していました。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030604/1/">
+    <title>ITPro:フレームワークStrutsでの処理の流れをGUIで設計するツール</title>
+    <link>http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030604/1/</link>
+    <description>「Scioworks Camino（サイオワークス カミノ）日本版3.0.3J」というツール。Strutsが苦行無しで使える期待が大きい。ああっ、このツール欲しいかも。5万円か、ええい、会社で買ってしまえぇ (笑) 一方 JSPのカスタムタグ・デザインは、このツールではサポート範囲外である模様。ふうむ 惜しいなぁ。もうちょいで完璧ツールなのにぃ。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030604/2/">
+    <title>Java言語用の性能テスト・ツール新版，処理時間を大幅短縮</title>
+    <link>http://itpro.nikkeibp.co.jp/free/SI/NEWS/20030604/2/</link>
+    <description>グレープシティ社のJProbe Suite 5.0Jに関するニュース。JProbe Suiteの太古のバージョンを持っていたのですが、グレープシティ社にバージョンアップ購入を断られ、購入を断念した経緯があります。(そして その後 DevPartnerに鞍替えしました)</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/10/njbt_05.html">
+    <title>MS、シンプルなキーボード＆マウスを発売</title>
+    <link>http://www.zdnet.co.jp/news/0306/10/njbt_05.html</link>
+    <description>私は今や Logitech派ですので、とりあえずこのハードウェアはパス。とはいえ、低価格帯にMSキーボードやMSマウスが登場したら、ショップブランドPCに搭載される可能性は高そうですね。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20055171,00.htm">
+    <title>日本通信、月額1900円のPDA専用つなぎ放題サービス開始</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20055171,00.htm</link>
+    <description>1社当り50ID以上が条件。回線はDDIポケット通信ネットワークを使用するとのこと。PHS電話としてDDIを利用している私としては DDIが流行るのは嬉しい (苦笑) 販売条件はさておき、月額\1,900.-とは とても割安感があります。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/11/nebt_10.html">
+    <title>Mac OS X対応のQuarkXPressようやく登場</title>
+    <link>http://www.zdnet.co.jp/news/0306/11/nebt_10.html</link>
+    <description>DTPジャンルで 高い支持を受けている QuarkXPress が ようやっとMac OS Xに対応したという旨の記事。私自身は QuarkXPress の利用経験は無いです。(以前 某編集さんが 雑誌編集でQuarkXPressを利用されていました。) これで Mac OS X に移行する最大の障壁が無くなったという人も多いんですって。びっくりです。</description>
+    <dc:date>2003-06-11T10:16:05</dc:date>
+  </item>
+
+</rdf:RDF>

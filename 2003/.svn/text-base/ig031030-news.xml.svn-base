@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031030.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031030.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061707,00.htm?ref=rss">
+    <title>OSDLジャパン、自治体のオープンソース利用状況などに関する調査報告書を作成</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061707,00.htm?ref=rss</link>
+    <description>自治体案件ゲットのためにオープンソース技術が重要な位置づけになりつつある世相。</description>
+    <dc:date>2003-10-31T09:04:39</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061712,00.htm?ref=rss">
+    <title>マクロメディア、MXファミリーでリッチインターネットアプリケーションの普及を目指す</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061712,00.htm?ref=rss</link>
+    <description>製品パッケージが到着次第 早速 じっくり観察することを楽しみにしています。</description>
+    <dc:date>2003-10-31T09:04:39</dc:date>
+  </item>
+
+</rdf:RDF>

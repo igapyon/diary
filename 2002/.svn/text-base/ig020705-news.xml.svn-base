@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020705.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020705.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/04/njbt_13.html">
+    <title>DVD-R/RW製品の互換性確認へ“総当たりテスト”</title>
+    <link>http://www.zdnet.co.jp/news/0207/04/njbt_13.html</link>
+    <description>DVD-R/RWの互換性確認のために業界が力を合わせる。良い傾向です。</description>
+    <dc:date>2002-07-05T08:05:47</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/technology/story/20020704303.html">
+    <title>独、仏、中のリナックス大手が『オペラ』ブラウザーをバンドル</title>
+    <link>http://www.hotwired.co.jp/news/news/technology/story/20020704303.html</link>
+    <description>Operaブラウザも頑張っていますねぇ。</description>
+    <dc:date>2002-07-05T14:16:10</dc:date>
+  </item>
+
+</rdf:RDF>

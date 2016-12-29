@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030202.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030202.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.openoffice.org/">
+    <title>OpenOffice 1.0.2 リリース</title>
+    <link>http://www.openoffice.org/</link>
+    <description>オープンソースなMicrosoft Office互換機能付きオフィスソフトがリビジョンアップリリースです。</description>
+    <dc:date>2003-02-02T20:03:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/28/njbt_10.html">
+    <title>「駆動静か」でマシンも“無言”</title>
+    <link>http://www.zdnet.co.jp/news/0301/28/njbt_10.html</link>
+    <description>パソコン静音化ツールなんだそうです。\5,800.-程度程度ってことなら かなり興味をそそります。また車などのマフラーと同じ原理によるファン騒音抑止というのも興味深いです。わくわく。</description>
+    <dc:date>2003-02-02T20:03:25</dc:date>
+  </item>
+
+  <item rdf:about="http://homepage2.nifty.com/%7Eamaki/">
+    <title>週刊アマキー</title>
+    <link>http://homepage2.nifty.com/%7Eamaki/</link>
+    <description>こ…これは凄い。</description>
+    <dc:date>2003-02-02T20:03:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0301/30/epn16.html">
+    <title>パーソナルメディア、HDDデータ抹消ツール「ディスクシュレッダー・ライト」を販売</title>
+    <link>http://www.zdnet.co.jp/enterprise/0301/30/epn16.html</link>
+    <description>HDDからの情報流出が ちょうど世間で問題になっていますから、この手のツールは急速に市場が拡大する期待が持てます。</description>
+    <dc:date>2003-02-02T20:03:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/30/njbt_05.html">
+    <title>ビデオのカレンダーが16年前に逆戻り　松下が対応を告知</title>
+    <link>http://www.zdnet.co.jp/news/0301/30/njbt_05.html</link>
+    <description>私の自宅のビデオデッキも 初期の日時設定で2000年以降が指定できない不便さがあります。(これが余計にパソコン用TVチューナー物欲をそそっています…) 世間のビデオデッキもいろいろあるんですねぇ。</description>
+    <dc:date>2003-02-02T20:03:25</dc:date>
+  </item>
+
+</rdf:RDF>

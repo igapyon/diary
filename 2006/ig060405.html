@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/04/05 日記: eclipse.exe -cleanオプションのデフォルト利用化の薦め , まだまだ花粉症</TITLE>
+<META name="DESCRIPTION" content="関東では花粉のピークは過ぎた、とNHKのニュースにて報道されていましたが、昨日も私は 花粉症でした。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/04/05 日記: eclipse.exe -cleanオプションのデフォルト利用化の薦め , まだまだ花粉症</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 関東では花粉のピークは過ぎた、とNHKのニュースにて報道されていましたが、昨日も私は 花粉症でした。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>eclipse.exe -cleanオプションのデフォルト利用化の薦め</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とあるプロジェクトにて Eclipseのキャッシュを起因とした プラグイン導入に関するトラブルに遭遇しました。これは eclipse.exe
+-clean としてキャッシュ破棄によるEclipse起動をおこなえば すぐに解決できる問題でした。…しかし、-clean忘れによるトラブルは意外にも発生頻度が高いのだ、ということが
+改めてわかりました。</P>
+<P>ある程度のEclipse熟練者であっても、plugin入れかえ時などの-cleanによるcacheクリアを忘れがちなのではないかと思います。…熟練者の場合には
+トラブル遭遇時に、すぐに自己解決できる場合が多いので顕在化しないのでしょうけれどもね…。ある程度 ソフトウェア開発に関わる人間の数が増えてくると、メンバーが増加し、プラグイン入換回数も増加し、そして
+-clean忘れによるトラブルの解決に所用する時間の総量は 目に余る規模になるのでは、と考えました。</P>
+<P>そこで、私としてお勧めしたいのが、Eclipseを起動する際の eclipse.exe -clean オプションについて、これを普段から付けておいて起動することです。現状の最新安定バージョンである
+Eclipseを -cleanオプションを付けて利用しているのですが、キャッシュを毎回破棄していることによる速度低下は (私が普段関わるようなマシン環境＋プラグイン数においては)
+さほど気にする必要は無いものであると考えます。むしろ キャッシュを毎回破棄しないことによるデメリットの方が はるかに大きいと考えています。-cleanをデフォルトで利用しさえしていれば、そんなトラブルを知る必要すら無いのです。</P>
+<P>ちなみに、<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>としてのEclipseディストリビューションに該当する <A HREF="http://www.igapyon.jp/blanco/blancoeclipsedistribution.html" TITLE="Eclipse SDK, Eclipse 言語パック, 数本のプラグイン を Windowsインストーラー形式で提供します。">BlancoEclipseDistribution</A>では、インストーラーが作成するアイコンのうち
+デフォルトで利用される起動用アイコンは -cleanを設定しています。もちろん 「Eclipse (cache)」のような -cleanを含まない起動用アイコンもセットアップ時に生成するようには
+しています。ポイントとしては デフォルトで何気なく利用するアイコンを -clean でキャッシュ破棄するものを提供しているという点です。デフォルトを何のオプションで提供するのかについては、ディストリビューションとしての重要な判断要素であろうと考えています。</P>
+<P>欲張って希望を述べさせていただくと、世の中に存在する他の Eclipseディストリビューションも、-cleanをデフォルトとして扱ってくれるようになれば
+世のEclipseキャッシュ破棄忘れのトラブルが減ってくれるものと期待します。まあ これは欲張りすぎでしょうけれどもね…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>まだまだ花粉症</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日も花粉症でした。よれよれです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition 1.6.x系のリリースに向けて</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition (Java版) 1.6.x系の出荷候補版 (1.6.0
+RC1)について、利用者の方から 単一表の自動生成まわりで従来発見されていたバグが修正されずにそのまま残ってしまっているという指摘を頂きました。ご報告をお寄せいただき、どうもありがとうございます。</P>
+<P>この不具合の概要ですが、blancoDbが自動生成する単一表アクセサについて、blancoDb上で InputStreamまたは Readerにマッピングされる型
+(すなわちBLOB, CLOB系の型) が 全件検索系の行バリューオブジェクトに含まれてしまう、という不具合です。JDBCの仕様に、複数の列をハンドリングしている際に
+InputStreamまたはReaderを扱おうとすると、それらストリームが次の列を処理した途端破棄されるという不思議な仕様があります。(JDBCの特徴的な仕様と、それを回避するための自動生成指針のようなものです)
+この仕様を回避するためには、そもそもひとつの Iteratorにおいて 複数の列と InputStream, Readerを混在させないという運用上のルール付が必要になります。blancoDbが
+全くの自動生成をおこなう単一表アクセサにおいて、誤って 複数の列と InputStream, Readerとを混在させてしまっている、というのが不具合の内容となります。</P>
+<P>1.6.x系の正式リリースのためには、この不具合は解消されていることが最低条件であると考えています。近日中に修正後の出荷候補版 (RC2)をリリースしたく考えています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

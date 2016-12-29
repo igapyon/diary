@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021008.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021008.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.3/ja/index.html">
+    <title>Java2 Platform, Standard Edition 1.3.1_05 リリース</title>
+    <link>http://java.sun.com/j2se/1.3/ja/index.html</link>
+    <description>1世代前のJ2SEである1.3系について、リビジョンアップリリースが行われました。バグの修正などがされていました。</description>
+    <dc:date>2002-10-08T08:50:53</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/ant/">
+    <title>Apache Ant 1.5.1 リリース</title>
+    <link>http://jakarta.apache.org/ant/</link>
+    <description>Java版makeとして とっても重要なAntが リビジョンアップリリースです。</description>
+    <dc:date>2002-10-08T08:50:53</dc:date>
+  </item>
+  <item rdf:about="http://xml.apache.org/axis/">
+    <title>Apache Axis 1.0 リリース</title>
+    <link>http://xml.apache.org/axis/</link>
+    <description>ApacheによるSOAP実装の一つであるAxisの1.0がリリースです。</description>
+    <dc:date>2002-10-08T08:50:53</dc:date>
+  </item>
+
+</rdf:RDF>
