@@ -2,12 +2,25 @@ package igapyon.diary.ghpages.html;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
+
 import org.apache.commons.io.FileUtils;
+import org.w3c.dom.Document;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 import igapyon.diary.ghpages.DiaryItemInfo;
+import igapyon.diary.ghpages.tagsoup.SimpleTagSoupUtil;
 
 public class GenerateIndexDiaryHtml {
 	private List<DiaryItemInfo> diaryItemInfoList = new ArrayList<DiaryItemInfo>();
@@ -59,13 +72,39 @@ public class GenerateIndexDiaryHtml {
 	}
 
 	void processFile(final File file, final String path) throws IOException {
-		final String source = FileUtils.readFileToString(file, "Windows-31J");
+		String source = FileUtils.readFileToString(file, "Windows-31J");
+		try {
+			source = SimpleTagSoupUtil.formatHtml(source);
+		} catch (SAXException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		String title = "N/A";
+		try {
+			final DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+			final Document document = documentBuilder.parse(new InputSource(new StringReader(source)));
+
+			final XPath xpath = XPathFactory.newInstance().newXPath();
+
+			title = (String) xpath.evaluate("/HTML/HEAD/TITLE/text()", document, XPathConstants.STRING);
+			System.out.println("title:" + title);
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		final String url = "https://igapyon.github.io/diary" + path + "/" + file.getName();
 
 		final DiaryItemInfo diaryItemInfo = new DiaryItemInfo();
 		diaryItemInfo.setUri(url);
-		diaryItemInfo.setTitle("NOT IMPLEMENTED");
+		diaryItemInfo.setTitle(title);
 
 		diaryItemInfoList.add(diaryItemInfo);
 	}

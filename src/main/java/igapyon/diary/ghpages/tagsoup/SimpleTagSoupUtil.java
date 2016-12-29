@@ -29,7 +29,7 @@ public class SimpleTagSoupUtil {
 		// TODO 確認した時点では、これが期待通りには機能せず。
 		// parser.setDTDHandler(serializer);
 		// 仕方が無いので、以下の記述により DOCTYPE を強制的に出力させる。(html用)
-		serializer.setOutputProperty(XMLWriter.DOCTYPE_PUBLIC, "-//W3C//DTD HTML 4.01 Transitional//EN");
+//		serializer.setOutputProperty(XMLWriter.DOCTYPE_PUBLIC, "-//W3C//DTD HTML 4.01 Transitional//EN");
 
 		// <html> に名前空間をあらわす属性が付かないようにする。
 		parser.setFeature(Parser.namespacesFeature, false);
@@ -76,7 +76,7 @@ public class SimpleTagSoupUtil {
 		// TODO 確認した時点では、これが期待通りには機能せず。
 		// parser.setDTDHandler(serializer);
 		// 仕方が無いので、以下の記述により DOCTYPE を強制的に出力させる。(html用)
-		serializer.setOutputProperty(XMLWriter.DOCTYPE_PUBLIC, "-//W3C//DTD HTML 4.01 Transitional//EN");
+//		serializer.setOutputProperty(XMLWriter.DOCTYPE_PUBLIC, "-//W3C//DTD HTML 4.01 Transitional//EN");
 
 		// <html> に名前空間をあらわす属性が付かないようにする。
 		parser.setFeature(Parser.namespacesFeature, false);
