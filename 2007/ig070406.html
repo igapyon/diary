@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/04/06 ���L: Java ���ۉ� �Ɋւ��钲�׃���</TITLE>
-<META name="DESCRIPTION" content="Java����ɂ�鍑�ۉ�(i18n)�v���O���~���O �Ɋւ��Ē��ׂ����Ƃ��������Ă����܂��B">
-<META name="KEYWORDS" content="igapyon,Java,i18n,���ۉ�,API">
+<TITLE>2007/04/06 日記: Java 国際化 に関する調べメモ</TITLE>
+<META name="DESCRIPTION" content="Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。">
+<META name="KEYWORDS" content="igapyon,Java,i18n,国際化,API">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/04/06 ���L: Java ���ۉ� �Ɋւ��钲�׃���</H2>
-    <P>[igapyon,Java,i18n,���ۉ�,API] Java����ɂ�鍑�ۉ�(i18n)�v���O���~���O �Ɋւ��Ē��ׂ����Ƃ��������Ă����܂��B</P>
+    <H2>2007/04/06 日記: Java 国際化 に関する調べメモ</H2>
+    <P>[igapyon,Java,i18n,国際化,API] Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,39 +60,39 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java ���ۉ� �Ɋւ��钲�׃���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java 国際化 に関する調べメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java����ɂ�鍑�ۉ�(i18n)�v���O���~���O �Ɋւ��Ē��ׂ����Ƃ��������Ă����܂��B</P>
-<P>�܂��AJava�ɂƂ��Ă̌��T�𒲂ׂĂ݂悤�A�Ƃ������Ƃ� Sun�ɂ��Java���ۉ��Ɋւ�������̎����𒲂ׂ܂����B</P>
+<P>Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。</P>
+<P>まず、Javaにとっての原典を調べてみよう、ということで SunによるJava国際化に関する公式の資料を調べました。</P>
 
 <UL>
-  <LI>JDK 5.0 �h�L�������g: ���ۉ� (���{��)<BR>
+  <LI>JDK 5.0 ドキュメント: 国際化 (日本語)<BR>
   <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/index.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/index.html</A><BR>
-  ���ۉ��֘A�̃C���f�B�b�N�X�ɂ��Ȃ��Ă���B
+  国際化関連のインディックスにもなっている。
   <UL>
-    <LI>JDK 5.0 �h�L�������g: ���ۉ��̊T�v (���{��)<BR>
+    <LI>JDK 5.0 ドキュメント: 国際化の概要 (日本語)<BR>
     <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/overview.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/overview.html</A><BR>
-    JDK�̃h�L�������g�Ȃ̂ŁA�d�v�Ȉꎟ��񌹁B�����ɋM�d�ȏ�񂪑�����
+    JDKのドキュメントなので、重要な一次情報源。☆特に貴重な情報が多数☆
   </UL>
-  <LI>Sun: Java Internationalization (�p��)<BR>
+  <LI>Sun: Java Internationalization (英語)<BR>
   <A HREF="http://java.sun.com/javase/technologies/core/basic/intl/">http://java.sun.com/javase/technologies/core/basic/intl/</A><BR>
-  ��������A�C���f�B�b�N�X�̂悤�ɂȂ��Ă���B(�����ăr�~���E�ɈقȂ�c)
+  こちらも、インディックスのようになっている。(そしてビミョウに異なる…)
 </UL>
-  <P>�������N�_�ɁA���낢�뒲�ׂĂ����Ɓc</P>
+  <P>ここを起点に、いろいろ調べていくと…</P>
 <UL>
-  <LI>Java ���ۉ� FAQ (���{��)<BR>
+  <LI>Java 国際化 FAQ (日本語)<BR>
   <A HREF="http://java.sun.com/javase/technologies/core/basic/intl/faq_ja.jsp">http://java.sun.com/javase/technologies/core/basic/intl/faq_ja.jsp</A><BR>
-  ���{��ɂ�鍑�ۉ��Ɋւ���ǂ�����p���`�W�B���΂炵���B
-  <LI>The Java Tutorials: Trail: Internationalization (�p��)<BR>
+  日本語による国際化に関する良くあるＱ＆Ａ集。すばらしい。
+  <LI>The Java Tutorials: Trail: Internationalization (英語)<BR>
   <A HREF="http://java.sun.com/docs/books/tutorial/i18n/index.html">http://java.sun.com/docs/books/tutorial/i18n/index.html</A><BR>
-  �`���[�g���A���V���[�Y�ɂ�鍑�ۉ��̐����B�������p��B
+  チュートリアルシリーズによる国際化の説明。ただし英語。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>java.util.Locale�Ɋւ��郁��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>java.util.Localeに関するメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -123,7 +123,7 @@ public class LocaleSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>������ł̎��s����</P>
+<P>ある環境での実行結果</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -135,7 +135,7 @@ public class LocaleSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���̏�Ԃ��������邽�߂� java�R�}���h���� (����)</P>
+<P>この状態を実現するための javaコマンド引数 (部分)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -148,20 +148,20 @@ public class LocaleSample {
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�֘A���郁��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>関連するメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>java�R�}���h�̈���<BR>
+  <LI>javaコマンドの引数<BR>
   <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/tooldocs/windows/java.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/tooldocs/windows/java.html</A>
 </UL>
 <UL>
   <LI><A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/lang/System.html#getProperties()">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/lang/System.html#getProperties()</A><BR>
-  user.language �̓��X�g�ɍڂ��Ă��Ȃ��B
+  user.language はリストに載っていない。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

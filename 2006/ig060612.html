@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/06/12 ���L: blancoCg��JavaScript�Ή��ɂ��āAAPI���t�@�����X�p�̃R�����g��JSDoc�Ή������܂���</TITLE>
-<META name="DESCRIPTION" content="blancoCg ��JavaScript�Ή��ɂ��āAAPI���t�@�����X�̂��߂̃R�����g (����h�L�������g) �ɂ��� JSDoc�ւ̑Ή���Ƃ��s���܂����B�����̎��_�ł� �P�̎����͖����{�ł��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoCg,JSDoc,JavaScript">
+<TITLE>2006/06/12 日記: blancoCgのJavaScript対応について、APIリファレンス用のコメントをJSDoc対応させました</TITLE>
+<META name="DESCRIPTION" content="blancoCg のJavaScript対応について、APIリファレンスのためのコメント (言語ドキュメント) について JSDocへの対応作業を行いました。今日の時点では 単体試験は未実施です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoCg,JSDoc,JavaScript">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/06/12 ���L: blancoCg��JavaScript�Ή��ɂ��āAAPI���t�@�����X�p�̃R�����g��JSDoc�Ή������܂���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoCg,JSDoc,JavaScript] blancoCg ��JavaScript�Ή��ɂ��āAAPI���t�@�����X�̂��߂̃R�����g (����h�L�������g) �ɂ��� JSDoc�ւ̑Ή���Ƃ��s���܂����B�����̎��_�ł� �P�̎����͖����{�ł��B</P>
+    <H2>2006/06/12 日記: blancoCgのJavaScript対応について、APIリファレンス用のコメントをJSDoc対応させました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoCg,JSDoc,JavaScript] blancoCg のJavaScript対応について、APIリファレンスのためのコメント (言語ドキュメント) について JSDocへの対応作業を行いました。今日の時点では 単体試験は未実施です。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,37 +60,37 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCg��JavaScript�Ή��ɂ��āAAPI���t�@�����X�p�̃R�����g��JSDoc�Ή������܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCgのJavaScript対応について、APIリファレンス用のコメントをJSDoc対応させました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="�ƂĂ��y�ʂȃ\�[�X�R�[�h�����������C�u�����ł��B �����̃v���O���~���O���� (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) �̃\�[�X�R�[�h�����ɑΉ����Ă��܂��B">blancoCg</A>��JavaScript�Ή��ɂ��āAAPI���t�@�����X�̂��߂̃R�����g (����h�L�������g) �ɂ���
-JSDoc�ւ̑Ή���Ƃ��s���܂����B(����̕ύX�ɂ����āA�Ή����錾��h�L�������g�̃c�[���L�b�g�� HeaderDoc���� JSDoc�ւƕύX���܂���)</P>
-<P>�܂��A����̕ύX�ł� ���\�b�h�̈����`�F�b�N�̎d�g�݂̎��������ȂǏ��@�\���ǉ�����Ă��܂��B(<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="�ƂĂ��y�ʂȃ\�[�X�R�[�h�����������C�u�����ł��B �����̃v���O���~���O���� (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) �̃\�[�X�R�[�h�����ɑΉ����Ă��܂��B">blancoCg</A>��JavaScript�Ή���
-���݂͎������̃X�e�[�^�X�ƂȂ�܂��B)</P>
-<P>�Ȃ��A�����_�ł� �P�̎����͖����{�ł��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>のJavaScript対応について、APIリファレンスのためのコメント (言語ドキュメント) について
+JSDocへの対応作業を行いました。(今回の変更において、対応する言語ドキュメントのツールキットを HeaderDocから JSDocへと変更しました)</P>
+<P>また、今回の変更では メソッドの引数チェックの仕組みの自動生成など諸機能が追加されています。(<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>のJavaScript対応は
+現在は実装中のステータスとなります。)</P>
+<P>なお、現時点では 単体試験は未実施です。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060601.html">2006/06/01 ���L: JavaScript�R�����g����̃h�L�������g������ JSDoc�𗘗p����</A>
+  <LI><A href="ig060601.html">2006/06/01 日記: JavaScriptコメントからのドキュメント生成に JSDocを利用する</A>
 </UL>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�����̂���/hyoshiok�̓��L: ���m��/hogehoge-jp<BR>
+  <LI>未来のいつか/hyoshiokの日記: 豆知識/hogehoge-jp<BR>
   <A HREF="http://d.hatena.ne.jp/hyoshiok/20060611#p1">http://d.hatena.ne.jp/hyoshiok/20060611#p1</A><BR>
-  �ȂɂȂ�ja �� �ȂɂȂ�jp �Ƃ̎g�������Ɋւ��郁���ł��B���� ja��jp�Ƃ̎g���������������Ă��܂������Ȃ̂ŁA���̂悤�ȏ��� �ƂĂ��Q�l�ɂȂ�܂��B���̓��L�ɂ���悤�ɁuISO-2022-JP�v��
-  �Ȃ�ق� �c�O�Ȃ��̂̂ЂƂȂ̂ł��ˁc�B�׋��ɂȂ�܂��B
-  <LI>���؍_��������̓��L: Winny�̉����Ɩ��f�����N�֎~�~�̋��ʊ֌W�Ɍ�����̖{��<BR>
+  なになにja と なになにjp との使い分けに関するメモです。私も jaとjpとの使い分けが混乱してしまいがちなので、このような情報は とても参考になります。この日記にあるように「ISO-2022-JP」も
+  なるほど 残念なもののひとつなのですね…。勉強になります。
+  <LI>高木浩光＠自宅の日記: Winnyの可視化と無断リンク禁止厨の共通関係に見る問題の本質<BR>
   <A HREF="http://takagi-hiromitsu.jp/diary/20060611.html#p01">http://takagi-hiromitsu.jp/diary/20060611.html#p01</A><BR>
-  ���̋L���A�ƂĂ��Q�l�ɂȂ�܂����B���Ƃ� ������x �n�ǂ������Ƃ��v���܂����B
+  この記事、とても参考になりました。あとで もう一度 熟読したいとも思いました。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/01/19 ���L: Java�\�[�X�t�@�C���̑Ó����`�F�b�N�̃c�[�� (Checkstyle�ق�)</TITLE>
-<META name="DESCRIPTION" content="FIT�Ƃ�����Ђ�K�₵�܂����BSVF�̊J������Ђɂ�����܂��B�����������r�̎В����񂪂�������Ⴂ�܂����B��ۂɋ����c��܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/01/19 日記: Javaソースファイルの妥当性チェックのツール (Checkstyleほか)</TITLE>
+<META name="DESCRIPTION" content="FITという会社を訪問しました。SVFの開発元会社にあたります。すっごく凄腕の社長さんがいらっしゃいました。印象に強く残りました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/01/19 ���L: Java�\�[�X�t�@�C���̑Ó����`�F�b�N�̃c�[�� (Checkstyle�ق�)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] FIT�Ƃ�����Ђ�K�₵�܂����BSVF�̊J������Ђɂ�����܂��B�����������r�̎В����񂪂�������Ⴂ�܂����B��ۂɋ����c��܂����B</P>
+    <H2>2004/01/19 日記: Javaソースファイルの妥当性チェックのツール (Checkstyleほか)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] FITという会社を訪問しました。SVFの開発元会社にあたります。すっごく凄腕の社長さんがいらっしゃいました。印象に強く残りました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,41 +59,41 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SVF��������ЖK��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SVF製造元会社訪問</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�d����<A href="http://www.fit.co.jp/">FIT</A>�Ƃ�����Зl��K�₵�܂����BReport Director��<A href="http://www.tsubasa-tool.com/doc/products/detail/d01.html">Super Visual Formade</A> (SVF)�̐������Ƃ��ėL���ȉ�Ђł��B(���̂Ƃ��� �����͂��߂Ēm��܂������c)<BR>
-�H�t�� ��ʔ����ق̂����߂��Ƃ��� ��ۓI�ȏꏊ�Ɏ�����������܂����B�W�H�����Ԃ����H�t�����Ԃ̂ق������̋Ζ��悩��͌�ʂ̕ւ��֗��ł���悤�ł��B�Ƃ肠�����y�����ւȎ�������
-���ꂾ���Ŏ��̈�ۂɓ˂��h����܂����B</P>
-<P>����������̒��ŁA�В����񂪐��r�� �Ƃ��Ă���ۓI�ł����B�ٗʌ�������A���i�ɂƂĂ��ڂ����A�Z�p�͂������Ă��āA�����ă��[�_�[�V�b�v������Ƃ���
-�o�P���m�̂悤�ɃX�S�C�В�����ł����B����������؏��i�𐻑����Ă��邾���̂��Ƃ�����܂��B<BR>
-����\�����[�V�����Ƃ������ƂŁA�����ȑO�v���f���[�X���Ă����p�b�P�[�W�\�t�g�Q�Ƌ���������ۊǂ�����ƁA���ł͎��̉�Ђ̐��i�Q��
-Super Visual Formade (SVF)�Ƃ̘A�W�@�\���������킹�Ă���̂� �s�v�c�ȋC���������܂��B</P>
+<P>仕事で<A href="http://www.fit.co.jp/">FIT</A>という会社様を訪問しました。Report Directorや<A href="http://www.tsubasa-tool.com/doc/products/detail/d01.html">Super Visual Formade</A> (SVF)の製造元として有名な会社です。(実のところ 今日はじめて知りましたが…)<BR>
+秋葉原 交通博物館のすぐ近くという 印象的な場所に事務所がありました。淡路町下車よりも秋葉原下車のほうが私の勤務先からは交通の便が便利であるようです。とりあえず土足厳禁な事務所は
+それだけで私の印象に突き刺さりました。</P>
+<P>お会いした方の中で、社長さんが凄腕で とっても印象的でした。裁量権があり、製品にとても詳しく、技術力を持っていて、そしてリーダーシップがあるという
+バケモノのようにスゴイ社長さんでした。さすが売れ筋商品を製造しているだけのことがあります。<BR>
+印刷ソリューションということで、私が以前プロデュースしていたパッケージソフト群と競合したり保管したりと、今では私の会社の製品群が
+Super Visual Formade (SVF)との連係機能も持ち合わせているので 不思議な気持ちがします。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java�\�[�X�t�@�C���̑Ó����`�F�b�N�ɖ𗧂c�[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaソースファイルの妥当性チェックに役立つツール</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI><A href="http://www.wikiroom.com/kerochan/?Checkstyle">Checkstyle ���{����� by kerochan</A><BR>
-  �\�[�X�t�@�C���̑Ó����`�F�b�N�ŗ��s���Ă���̂� Checkstyle�ł��B�ȑO�������ڂ��Ă������͖����c�[���������̂ł�����ǂ��ˁc�B
+  <LI><A href="http://www.wikiroom.com/kerochan/?Checkstyle">Checkstyle 日本語説明 by kerochan</A><BR>
+  ソースファイルの妥当性チェックで流行っているのは Checkstyleです。以前私が注目していた頃は無名ツールだったのですけれどもね…。
   <LI><A href="http://pmd.sourceforge.net/">PMD</A> (<A HREF="http://pmd.sourceforge.net/">http://pmd.sourceforge.net/</A>)<BR>
-  Checkstyle���� ���������������ȂƂ�����`�F�b�N���Ă����c�[���ł���͗l�B�c�b�R�~�������� �����̂���� Checkstyle�Ƌ��� ����PMD�Ƃ����c�[���𕹗p����Ă���Ƃ̂��ƁB(�c�b�R�~ by �����̂���)
+  Checkstyleよりも もう少し高水準なところをチェックしてくれるツールである模様。ツッコミ下さった あおのさんは Checkstyleと共に このPMDというツールを併用されているとのこと。(ツッコミ by あおのさん)
   <LI>using Jlint <A HREF="http://www.alles.or.jp/~torutk/oojava/maneuver/2001/jlint/jlint.html">http://www.alles.or.jp/~torutk/oojava/maneuver/2001/jlint/jlint.html</A>
-  (<FONT color="#ff0000">2004.01.21</FONT>�ǋL)<BR>
-  Java�\�[�X�t�@�C���̑Ó����`�F�b�N�ɖ𗧂c�[���Ƃ��āAJlint�Ƃ������̂�����܂��͔@���ł��傤�H
-  (�c�b�R�~ by �Ƃ����남 ����)
+  (<FONT color="#ff0000">2004.01.21</FONT>追記)<BR>
+  Javaソースファイルの妥当性チェックに役立つツールとして、Jlintというものもありますは如何でしょう？
+  (ツッコミ by ともくろお さん)
 </UL>
-<P>���낢�날����̂Ȃ̂ł��˂��B�׋��ɂȂ�܂��B</P>
+<P>いろいろあるものなのですねぇ。勉強になります。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig040119.src.html' , result='ig040119.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig040119-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://javanews.jp/">��������� Java News (Java�Ɋւ���ŐV�j���[�X) �n��</A> <FONT size="-2"><A target="_blank" HREF="http://javanews.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>���{���\����Java�̃j���[�X�T�C�g���n�����܂����B���� Java FAQ (What's New)���x�[�X�ɂ���Java�̃j���[�X�T�C�g�ł��BRSS���Q�n���o����Ă���̂�����ɁA�����G���W���֘A�����������ꂽ�̂�����B�Ƃ��Ă�����������܂��B��� by �����̂���B�����̂���A���w�E���肪�Ƃ��������܂��B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063729,00.htm">�Ē����F�u3�N�ȓ��Ƀf�X�N�g�b�vPC�͔����ȉ��v</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063729,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�Ђ傦?�B�Ȃ� �Ռ��I�ȓ��e������ǂ� ���ۂɂR�N�����Ă΃f�X�N�g�b�v�p�\�R���𗘗p����l���� �m���ɂǂ�ǂ񌸂��Ă��������ł��B�Ƃ����� �P�[�^�C�d�b�Ȃǂ̋@�킪 �����Ƃ����ƕ��y������Ă������ɂ������܂��B�Ƃɂ����f�X�N�g�b�vPC���Ȏ���̓����Ȃ̂ł��ˁB�Y�܂����ł��B������OS�̑��l�����i�߂� ������ HTML���Java���̑��݈Ӌ`������w�����������ł��B��?�ށBJava������ēx�׋����Ă������������BSwing��SWT�Ȃǂ̃��b�`�N���C�A���g�n�Z�p���d�v�ɂȂ��ė����肵�āc�B<LI><A HREF="http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp03/noeinjp01.html">��3��@�����Ŋ��􂷂�C�OIT�G���W�j�A�̍ŏI�ڕW�Ƃ́H -���{�lIT�G���W�j�A�͂��Ȃ��Ȃ�H-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp03/noeinjp01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�Ȃ񂩂܂��X�S�C���e���Ȃ��c�B������������ �C�O�I�t�V���A�J�����Ă����̂� �����ɗ������s���Ă��Ȃ��󋵂Ȃ̂Łc�B���܂ǂ���IT�ƊE���ē�Փx�����ł��B<LI><A HREF="http://www.kanzaki.com/music/cahier/hagen-bach2003">�n�[�Q���l�d�t�c�̃o�b�n</A> <FONT size="-2"><A target="_blank" HREF="http://www.kanzaki.com/music/cahier/hagen-bach2003">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�����������Ă����x�������t�B�����t��ł� �x�������t�B���Ƃ��Ă͈ӊO�Ȃقǂɏ����ȉ��F�ł����B���������� �������� �������Ƃ��Ɨ��p���Ă���m���r�u���[�g�t�@�Ƃ����X�r�u���[�g�t�@���Ă����̂����s���Ă���̂������B<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20063712,00.htm">�C���e���ACentrino������802.11b�^g�����R���|�[�l���g���ʏo�ׂ�</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20063712,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>��?�ށBCentrino�`�b�v�����s���Ă���̂������B���ꂩ��͖����̎���Ȃ̂˂��c<LI><A HREF="http://www.amazon.co.jp/exec/obidos/classical-artist-search/%E3%83%9C%E3%83%AD%E3%83%87%E3%82%A3%E3%83%B3%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E5%9B%A3/249-1450693-2522755">�{���f�B�����y�l�d�t�c��Amazon</A> <FONT size="-2"><A target="_blank" HREF="http://www.amazon.co.jp/exec/obidos/classical-artist-search/%E3%83%9C%E3%83%AD%E3%83%87%E3%82%A3%E3%83%B3%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E5%9B%A3/249-1450693-2522755">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�������A�{���f�B�����y�l�d�t�c��CD�𔃂��Ă��܂������c<LI><A HREF="http://d.hatena.ne.jp/tpircs/">tpircs�̓��L</A> <FONT size="-2"><A target="_blank" HREF="http://d.hatena.ne.jp/tpircs/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�w�ǊJ�n<LI><A HREF="http://www.wikiroom.com/kerochan/?Checkstyle">Checkstyle�̓��{����� (kerochan)</A> <FONT size="-2"><A target="_blank" HREF="http://www.wikiroom.com/kerochan/?Checkstyle">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�ӊO�ɂ�Checkstyle�����s���Ă��Ă���͗l�ł��B�ȑO�������ڂ��Ă������͖����c�[���������̂ł�����ǂ��ˁc�B<LI><A HREF="http://it.age.jp/">It�z�[���y�[�W (����z�[���؁[�W�H)</A> <FONT size="-2"><A target="_blank" HREF="http://it.age.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>FTP�N���C�A���g���W���[��(java)�Ŏ��������I�Ɉӎ��������Ă���y�[�W�B�����̓��L���ĊJ�����悤�ł��B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig040119-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://javanews.jp/">安藤さんの Java News (Javaに関する最新ニュース) 始動</A> <FONT size="-2"><A target="_blank" HREF="http://javanews.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>日本を代表するJavaのニュースサイトが始動しました。旧称 Java FAQ (What's New)をベースにしたJavaのニュースサイトです。RSSを２系統出されているのを見るに、生成エンジン関連を自動化されたのかしら。とっても興味があります。情報 by あおのさん。あおのさん、ご指摘ありがとうございます。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063729,00.htm">米調査：「3年以内にデスクトップPCは半分以下」</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063729,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>ひょえ?。なんか 衝撃的な内容だけれども 実際に３年もたてばデスクトップパソコンを利用する人って 確かにどんどん減っていきそうです。というか ケータイ電話などの機器が もっともっと普及するっていう風にも感じます。とにかくデスクトップPC受難な時代の到来なのですね。悩ましいです。ここでOSの多様化が進めば 自ずと HTMLやらJavaやらの存在意義がより一層増加しそうです。う?む。Java言語を再度勉強しておこうかしらん。SwingやSWTなどのリッチクライアント系技術が重要になって来たりして…。<LI><A HREF="http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp03/noeinjp01.html">第3回　国内で活躍する海外ITエンジニアの最終目標とは？ -日本人ITエンジニアはいなくなる？-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp03/noeinjp01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>なんかまたスゴイ内容だなぁ…。だいたい私は 海外オフショア開発っていうのに 未だに理解が行っていない状況なので…。いまどきのIT業界って難易度高いです。<LI><A HREF="http://www.kanzaki.com/music/cahier/hagen-bach2003">ハーゲン四重奏団のバッハ</A> <FONT size="-2"><A target="_blank" HREF="http://www.kanzaki.com/music/cahier/hagen-bach2003">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>昨日放送されていたベルリンフィル演奏会でも ベルリンフィルとしては意外なほどに純粋な音色でした。もしかして 今時って 私がもともと利用しているノンビブラート奏法とかレスビブラート奏法っていうのが流行っているのかしらん。<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20063712,00.htm">インテル、Centrino向けの802.11b／g統合コンポーネントを大量出荷へ</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20063712,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>う?む。Centrinoチップが流行っているのかしらん。これからは無線の時代なのねぇ…<LI><A HREF="http://www.amazon.co.jp/exec/obidos/classical-artist-search/%E3%83%9C%E3%83%AD%E3%83%87%E3%82%A3%E3%83%B3%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E5%9B%A3/249-1450693-2522755">ボロディン弦楽四重奏団＠Amazon</A> <FONT size="-2"><A target="_blank" HREF="http://www.amazon.co.jp/exec/obidos/classical-artist-search/%E3%83%9C%E3%83%AD%E3%83%87%E3%82%A3%E3%83%B3%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E5%9B%A3/249-1450693-2522755">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>ああっ、ボロディン弦楽四重奏団のCDを買ってしまいそう…<LI><A HREF="http://d.hatena.ne.jp/tpircs/">tpircsの日記</A> <FONT size="-2"><A target="_blank" HREF="http://d.hatena.ne.jp/tpircs/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>購読開始<LI><A HREF="http://www.wikiroom.com/kerochan/?Checkstyle">Checkstyleの日本語説明 (kerochan)</A> <FONT size="-2"><A target="_blank" HREF="http://www.wikiroom.com/kerochan/?Checkstyle">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>意外にもCheckstyleが流行ってきている模様です。以前私が注目していた頃は無名ツールだったのですけれどもね…。<LI><A HREF="http://it.age.jp/">Itホームページ (それホームぺージ？)</A> <FONT size="-2"><A target="_blank" HREF="http://it.age.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>FTPクライアントモジュール(java)で私が強制的に意識させられているページ。ここの日記が再開したようです。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

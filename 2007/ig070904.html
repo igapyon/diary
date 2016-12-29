@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/09/04 ���L: Java: JavaMail ���� , JavaMail�ɂ��V���v���ȃ��[�����M�T���v��</TITLE>
-<META name="DESCRIPTION" content="JavaMail�𒲍����܂����B , �V���v���ȃ��[�����M�T���v���ɂ��� SSL����A�Ȃ��̗��������삵�܂����B�܂��Y�t�t�@�C���ɂ��Ă����ׂ܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,JavaMail,Java,mail,���[��,�T���v��,blancoMail">
+<TITLE>2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</TITLE>
+<META name="DESCRIPTION" content="JavaMailを調査しました。 , シンプルなメール送信サンプルについて SSLあり、なしの両方を試作しました。また添付ファイルについても調べました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,JavaMail,Java,mail,メール,サンプル,blancoMail">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/09/04 ���L: Java: JavaMail ���� , JavaMail�ɂ��V���v���ȃ��[�����M�T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,JavaMail,Java,mail,���[��,�T���v��,blancoMail] JavaMail�𒲍����܂����B , �V���v���ȃ��[�����M�T���v���ɂ��� SSL����A�Ȃ��̗��������삵�܂����B�܂��Y�t�t�@�C���ɂ��Ă����ׂ܂����B</P>
+    <H2>2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,JavaMail,Java,mail,メール,サンプル,blancoMail] JavaMailを調査しました。 , シンプルなメール送信サンプルについて SSLあり、なしの両方を試作しました。また添付ファイルについても調べました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,20 +60,20 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JavaMail ����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JavaMail 調査</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> �� <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail�́A���[������M�ɂ܂�鏔�����������邽�߂̃��[���\�����[�V��������уt���[�����[�N�ł��B">blancoMail</A> �Ɋւ��� ��i�̋��𓾂��̂�
-�J���ɒ��肷�邱�ƂɂȂ�܂����B</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail�́A���[������M�ɂ܂�鏔�����������邽�߂̃��[���\�����[�V��������уt���[�����[�N�ł��B">blancoMail</A> �̊J���ɐ旧���A�܂��� JavaMail�̈ꎟ��񌹂͉����𒲂ׂ܂����B����� ���R�ł��� Sun�̃T�C�g�ɍs�������܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> に関して 上司の許可を得たので
+開発に着手することになりました。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> の開発に先立ち、まずは JavaMailの一次情報源は何かを調べました。すると 当然ですが Sunのサイトに行き着きます。</P>
 <UL>
   <LI>JavaMail<BR>
   <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
 </UL>
-<P>�����_�ł� JavaMail API 1.4 �����[�X�Ƃ̋L�ڂ�����A�ŐV�ł� 1.4�Ƃ̂��Ƃł��B<BR>
-�܂��A2006.04.19���_�� JavaMail�̓I�[�v���\�[�X������Ă���悤�ł��B�I�[�v���\�[�X���ɂ��Ă� �m��܂���ł��� (���邢�͖Y�ꋎ���Ă��܂���)�B���̂悤�ȑf���炵���v���_�N�g���I�[�v���\�[�X������邱�Ƃ͊�΂������Ƃł��B</P>
-<P>�����āAJavaMail�ɂ��Ă� �u�����ȁv �h�L�������g�y�у`���[�g���A���ɂ��Ă͉��L�ɂ���܂��B</P>
+<P>現時点では JavaMail API 1.4 リリースとの記載があり、最新版は 1.4とのことです。<BR>
+また、2006.04.19時点で JavaMailはオープンソース化されているようです。オープンソース化については 知りませんでした (あるいは忘れ去っていました)。このような素晴らしいプロダクトがオープンソース化されることは喜ばしいことです。</P>
+<P>そして、JavaMailについての 「公式な」 ドキュメント及びチュートリアルについては下記にあります。</P>
 <UL>
   <LI>JavaMail API documentation<BR>
   <A HREF="http://java.sun.com/products/javamail/javadocs/index.html">http://java.sun.com/products/javamail/javadocs/index.html</A>
@@ -84,21 +84,21 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail �̃C���X�g�[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail のインストール</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaMail�� �_�E�����[�h���ė��p���邱�ƂɂȂ�܂��B (������ Java SE �ɓ�������邱�Ƃ���]���Ă��܂�)</P>
-<P>�����_�ł� �ŐV����ł� �ȉ��̃o�[�W�����ƂȂ�܂��B</P>
+<P>JavaMailは ダウンロードして利用することになります。 (早期に Java SE に統合されることを希望しています)</P>
+<P>現時点では 最新安定版は 以下のバージョンとなります。</P>
 <UL>
   <LI>JavaMail 1.4
   <UL>
     <LI>URL <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
-    <LI>�o�[�W����: 1.4
-    <LI>�t�@�C����: javamail-1_4.zip
-    <LI>�����[�X���t: 2006.04.25
+    <LI>バージョン: 1.4
+    <LI>ファイル名: javamail-1_4.zip
+    <LI>リリース日付: 2006.04.25
     
-    <LI>�ړ��ĂƂȂ�t�@�C��<UL>
+    <LI>目当てとなるファイル<UL>
       <LI>dsn.jar
       <LI>imap.jar
       <LI>mailapi.jar
@@ -107,30 +107,30 @@
     </UL>
   </UL>
 </UL>
-<P>JavaMail�𗘗p���邽�߂ɂ́AJavaMail�{�̂Ƃ͕ʂ� JavaBeans Activation Framework (JAF) �ƌĂ΂����̂��K�v�ł��B</P>
+<P>JavaMailを利用するためには、JavaMail本体とは別に JavaBeans Activation Framework (JAF) と呼ばれるものが必要です。</P>
 <UL>
   <LI>JavaBeans Activation Framework (JAF)
   <UL>
     <LI>URL: <A HREF="http://java.sun.com/products/javabeans/jaf/">http://java.sun.com/products/javabeans/jaf/</A>
-    <LI>�o�[�W����: 1.1
-    <LI>�t�@�C����: jaf-1_1-fr.zip
+    <LI>バージョン: 1.1
+    <LI>ファイル名: jaf-1_1-fr.zip
     
-    <LI>�ړ��ĂƂȂ�t�@�C��
+    <LI>目当てとなるファイル
     <UL>
       <LI>activation.jar
     </UL>
   </UL>
 </UL>
-<P>�����œ���ꂽ�t�@�C���ɂ��āAclasspath���ʂ��Ă����ꏊ�Ɋi�[���܂��B����� JavaMail API �����p�\�ɂȂ�܂��B</P>
+<P>ここで得られたファイルについて、classpathが通っているる場所に格納します。これで JavaMail API が利用可能になります。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�V���v���� JavaMail ���[�����M�T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルな JavaMail メール送信サンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����܂œ���ꂽ��񌹂Ȃǂ����ƂɁA���Ȃ�� �V���v���� JavaMail �ɂ�郁�[�����M�T���v��������Ă݂܂����B</P>
-<P>�܂� SSL�����ł̃��[�����M�T���v�������܂����B</P>
+<P>ここまで得られた情報源などをもとに、私なりに シンプルな JavaMail によるメール送信サンプルを作ってみました。</P>
+<P>まず SSL無し版のメール送信サンプルを作りました。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -159,68 +159,68 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * �V���v���ȃ��[�����M�T���v���B
+ * シンプルなメール送信サンプル。
  */
 public class SimpleSendMail {
-    // ���{�ꃁ�[���̏ꍇ�ɂ� ISO-2022-JP���I�X�X���B
-    // UTF-8���Ǝ�M���ɕ����������Ă��܂����[�������̒��ɂ͈ˑR�Ƃ��đ��݂��Ă��܂��B
+    // 日本語メールの場合には ISO-2022-JPがオススメ。
+    // UTF-8だと受信時に文字化けしてしまうメーラが世の中には依然として存在しています。
     private static final String ENCODE = &quot;ISO-2022-JP&quot;;
 
     public static void main(final String[] args) {
-        System.out.println(&quot;���[�����M�J�n&quot;);
+        System.out.println(&quot;メール送信開始&quot;);
 
         new SimpleSendMail().process();
 
-        System.out.println(&quot;���[�����M�I��&quot;);
+        System.out.println(&quot;メール送信終了&quot;);
     }
 
     public void process() {
         final Properties props = new Properties();
 
-        // ��{���B�����ł� nifty�ւ̐ڑ���������܂��B
+        // 基本情報。ここでは niftyへの接続例を示します。
         props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.nifty.com&quot;);
         props.setProperty(&quot;mail.smtp.port&quot;, &quot;25&quot;);
 
-        // �^�C���A�E�g�ݒ�
+        // タイムアウト設定
         props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
         props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
 
-        // �F��
+        // 認証
         props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
 
         final Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(&quot;NIFTY��ID&quot;, &quot;password&quot;);
+                return new PasswordAuthentication(&quot;NIFTYのID&quot;, &quot;password&quot;);
             }
         });
 
-        // �f�o�b�O���s���܂��B�W���o�͂Ƀg���[�X���o�܂��B
+        // デバッグを行います。標準出力にトレースが出ます。
         session.setDebug(true);
 
-        // ���b�Z�[�W���e�̐ݒ�B
+        // メッセージ内容の設定。
         final MimeMessage message = new MimeMessage(session);
         try {
             final Address addrFrom = new InternetAddress(
-                    &quot;���M�ҁ�����@nifty.ne.jp&quot;, &quot;���M�҂̕\����&quot;, ENCODE);
+                    &quot;送信者○○○@nifty.ne.jp&quot;, &quot;送信者の表示名&quot;, ENCODE);
             message.setFrom(addrFrom);
 
-            final Address addrTo = new InternetAddress(&quot;��M�ҁ�����@gmail.com&quot;,
-                    &quot;��M�҂̕\����&quot;, ENCODE);
+            final Address addrTo = new InternetAddress(&quot;受信者○○○@gmail.com&quot;,
+                    &quot;受信者の表示名&quot;, ENCODE);
             message.addRecipient(Message.RecipientType.TO, addrTo);
 
-            // ���[����Subject
-            message.setSubject(&quot;���߂Ẵ��[��&quot;, ENCODE);
+            // メールのSubject
+            message.setSubject(&quot;初めてのメール&quot;, ENCODE);
 
-            // ���[���{���BsetText��p����� �����I��[text/plain]�ƂȂ�B
-            message.setText(&quot;����ɂ��́B\n��������悤�B\n���悤�Ȃ�B&quot;, ENCODE);
+            // メール本文。setTextを用いると 自動的に[text/plain]となる。
+            message.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
 
-            // ���΍�: �J�n
-            // setText���Ăяo������ɁA�w�b�_�[�� 7bit�ւƏ㏑�����܂��B
-            // ����́A�ꕔ�̃P�[�^�C���[���� quoted-printable �������ł��Ȃ����Ƃւ̑΍�ƂȂ�܂��B
+            // 仮対策: 開始
+            // setTextを呼び出した後に、ヘッダーを 7bitへと上書きします。
+            // これは、一部のケータイメールが quoted-printable を処理できないことへの対策となります。
             message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
-            // ���΍�: �I��
+            // 仮対策: 終了
 
-            // ���̑��̕t�����B
+            // その他の付加情報。
             message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
             message.setSentDate(new Date());
         } catch (MessagingException e) {
@@ -229,16 +229,16 @@ public class SimpleSendMail {
             e.printStackTrace();
         }
 
-        // ���[�����M�B
+        // メール送信。
         try {
             Transport.send(message);
         } catch (AuthenticationFailedException e) {
-            // �F�؎��s�� �����ɓ���܂��B
-            System.out.println(&quot;�w��̃��[�U���E�p�X���[�h�ł̔F�؂Ɏ��s���܂����B&quot;
+            // 認証失敗は ここに入ります。
+            System.out.println(&quot;指定のユーザ名・パスワードでの認証に失敗しました。&quot;
                 + e.toString());
         } catch (MessagingException e) {
-            // smtp�T�[�o�ւ̐ڑ����s�� �����ɓ���܂��B
-            System.out.println(&quot;�w���smtp�T�[�o�ւ̐ڑ��Ɏ��s���܂����B&quot; + e.toString());
+            // smtpサーバへの接続失敗は ここに入ります。
+            System.out.println(&quot;指定のsmtpサーバへの接続に失敗しました。&quot; + e.toString());
             e.printStackTrace();
         }
     }
@@ -248,8 +248,8 @@ public class SimpleSendMail {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���� SSL�𗘗p�����ł����܂����B(��L�̃\�[�X�R�[�h�ɒǋL�����`�ɂȂ��Ă��܂��B)<BR>
-smtp�T�[�o�̐ڑ����ɂ���� SSL�����A�L��� ������̃\�[�X�R�[�h�𗘗p����̂���I�����Ă��������B</P>
+<P>次に SSLを利用した版を作りました。(上記のソースコードに追記した形になっています。)<BR>
+smtpサーバの接続情報によって SSL無し、有りの いずれのソースコードを利用するのかを選択してください。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -278,74 +278,74 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * �V���v���ȃ��[�����M�T���v���B
+ * シンプルなメール送信サンプル。
  */
 public class SimpleSendMail {
-    // ���{�ꃁ�[���̏ꍇ�ɂ� ISO-2022-JP���I�X�X���B
-    // UTF-8���Ǝ�M���ɕ����������Ă��܂����[�������̒��ɂ͈ˑR�Ƃ��đ��݂��Ă��܂��B
+    // 日本語メールの場合には ISO-2022-JPがオススメ。
+    // UTF-8だと受信時に文字化けしてしまうメーラが世の中には依然として存在しています。
     private static final String ENCODE = &quot;ISO-2022-JP&quot;;
 
     public static void main(final String[] args) {
-        System.out.println(&quot;���[�����M�J�n&quot;);
+        System.out.println(&quot;メール送信開始&quot;);
 
         new SimpleSendMail().process();
 
-        System.out.println(&quot;���[�����M�I��&quot;);
+        System.out.println(&quot;メール送信終了&quot;);
     }
 
     public void process() {
         final Properties props = new Properties();
 
-        // ��{���B�����ł� gmail�ւ̐ڑ���������܂��B
+        // 基本情報。ここでは gmailへの接続例を示します。
         props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.gmail.com&quot;);
-        // SSL�p�Ƀ|�[�g�ԍ���ύX�B
+        // SSL用にポート番号を変更。
         props.setProperty(&quot;mail.smtp.port&quot;, &quot;465&quot;);
 
-        // �^�C���A�E�g�ݒ�
+        // タイムアウト設定
         props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
         props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
 
-        // �F��
+        // 認証
         props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
 
-        // SSL�֘A�ݒ�
+        // SSL関連設定
         props.setProperty(&quot;mail.smtp.socketFactory.class&quot;, &quot;javax.net.ssl.SSLSocketFactory&quot;);
         props.setProperty(&quot;mail.smtp.socketFactory.fallback&quot;, &quot;false&quot;);
         props.setProperty(&quot;mail.smtp.socketFactory.port&quot;, &quot;465&quot;);
 
         final Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(&quot;���M�ҁ�����@gmail.com&quot;, &quot;password&quot;);
+                return new PasswordAuthentication(&quot;送信者○○○@gmail.com&quot;, &quot;password&quot;);
             }
         });
 
-        // �f�o�b�O���s���܂��B�W���o�͂Ƀg���[�X���o�܂��B
+        // デバッグを行います。標準出力にトレースが出ます。
         session.setDebug(true);
 
-        // ���b�Z�[�W���e�̐ݒ�B
+        // メッセージ内容の設定。
         final MimeMessage message = new MimeMessage(session);
         try {
             final Address addrFrom = new InternetAddress(
-                    &quot;���M�ҁ�����@gmail.com&quot;, &quot;���M�҂̕\����&quot;, ENCODE);
+                    &quot;送信者○○○@gmail.com&quot;, &quot;送信者の表示名&quot;, ENCODE);
             message.setFrom(addrFrom);
 
-            final Address addrTo = new InternetAddress(&quot;��M�ҁ�����@gmail.com&quot;,
-                    &quot;��M�҂̕\����&quot;, ENCODE);
+            final Address addrTo = new InternetAddress(&quot;受信者○○○@gmail.com&quot;,
+                    &quot;受信者の表示名&quot;, ENCODE);
             message.addRecipient(Message.RecipientType.TO, addrTo);
 
-            // ���[����Subject
-            message.setSubject(&quot;���߂Ẵ��[��&quot;, ENCODE);
+            // メールのSubject
+            message.setSubject(&quot;初めてのメール&quot;, ENCODE);
 
-            // ���[���{���BsetText��p����� �����I��[text/plain]�ƂȂ�B
-            message.setText(&quot;����ɂ��́B\n��������悤�B\n���悤�Ȃ�B&quot;, ENCODE);
+            // メール本文。setTextを用いると 自動的に[text/plain]となる。
+            message.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
 
-            // ���΍�: �J�n
-            // setText���Ăяo������ɁA�w�b�_�[�� 7bit�ւƏ㏑�����܂��B
-            // ����́A�ꕔ�̃P�[�^�C���[���� quoted-printable �������ł��Ȃ����Ƃւ̑΍�ƂȂ�܂��B
+            // 仮対策: 開始
+            // setTextを呼び出した後に、ヘッダーを 7bitへと上書きします。
+            // これは、一部のケータイメールが quoted-printable を処理できないことへの対策となります。
             message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
-            // ���΍�: �I��
+            // 仮対策: 終了
 
-            // ���̑��̕t�����B
+            // その他の付加情報。
             message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
             message.setSentDate(new Date());
         } catch (MessagingException e) {
@@ -354,16 +354,16 @@ public class SimpleSendMail {
             e.printStackTrace();
         }
 
-        // ���[�����M�B
+        // メール送信。
         try {
             Transport.send(message);
         } catch (AuthenticationFailedException e) {
-            // �F�؎��s�� �����ɓ���܂��B
-            System.out.println(&quot;�w��̃��[�U���E�p�X���[�h�ł̔F�؂Ɏ��s���܂����B&quot;
+            // 認証失敗は ここに入ります。
+            System.out.println(&quot;指定のユーザ名・パスワードでの認証に失敗しました。&quot;
                 + e.toString());
         } catch (MessagingException e) {
-            // smtp�T�[�o�ւ̐ڑ����s�� �����ɓ���܂��B
-            System.out.println(&quot;�w���smtp�T�[�o�ւ̐ڑ��Ɏ��s���܂����B&quot; + e.toString());
+            // smtpサーバへの接続失敗は ここに入ります。
+            System.out.println(&quot;指定のsmtpサーバへの接続に失敗しました。&quot; + e.toString());
             e.printStackTrace();
         }
     }
@@ -373,51 +373,51 @@ public class SimpleSendMail {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�����z�����Ă������́A����Ȃ�Ɠ��삳���邱�Ƃ��o���܂����B</P>
+<P>当初想像していたよりは、すんなりと動作させることが出来ました。</P>
 
-<P>���Ȃ݂ɁAsession.setDebug(true) ���w�肵�� ���ۂ�smtp�v���g�R���̂��Ƃ���ώ@���邱�Ƃ� �ƂĂ��d�v�ł��B�����
-JavaMail�𗘗p���Ď�������l�̐Ӗ����ƍl���܂��B<BR>
-�Ⴆ�΁A���̃T���v���\�[�X�̎��s�������ۂɂ́A�f�o�b�O�g���[�X�� true �Ɏw�肵�āA�ǂ̂悤�Ȃ��Ƃ肪 smtp�T�[�o�Ƃ̊Ԃōs���Ă���̂����ώ@���ׂ��ł��B������
-���M��̃��[���\�t�g���Ŏ��ۂɎ�M���ꂽ���[���̓��e���`�F�b�N���邱�Ƃ��Y��Ă͂Ȃ�܂���B���[���\�t�g�ɂ���Ă� ���ۂ̃��[���̃w�b�_������\������@�\������Ă��܂��̂ŁA�w�b�_�����̕\����ON�ɐݒ肵��
-�Ӑ}�����Ƃ���̃��[���d������M���ɓ͂��Ă��邩�ǂ������m�F���Ă����܂��傤�B</P>
-<P><FONT color="#ff00ff">�֘A���郊�\�[�X</FONT></P>
+<P>ちなみに、session.setDebug(true) を指定して 実際のsmtpプロトコルのやりとりを観察することは とても重要です。これは
+JavaMailを利用して実装する人の責務だと考えます。<BR>
+例えば、このサンプルソースの実行を試す際には、デバッグトレースを true に指定して、どのようなやりとりが smtpサーバとの間で行われているのかを観察すべきです。そして
+送信先のメールソフト側で実際に受信されたメールの内容をチェックすることも忘れてはなりません。メールソフトによっては 実際のメールのヘッダ部分を表示する機能を備えていますので、ヘッダ部分の表示をONに設定して
+意図したとおりのメール電文が受信側に届いているかどうかを確認しておきましょう。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
 <UL>
-  <LI>�e���f�Ŋw�ԕ����R�[�h�ƕ��������̏펯<BR>
+  <LI>‘愛’で学ぶ文字コードと文字化けの常識<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html">http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig070905.html">2007/09/05 ���L: Java: JavaMail�ɂ��V���v���ȃ��[����M�T���v��</A>
+  <LI><A href="ig070905.html">2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail ���[�����M�̍ۂ̕�������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail メール送信の際の文字化け</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2007.09.05�ǋL</FONT> �P�[�^�C���[���Ȃǂł́AContent-Transfer-Encoding �� quoted-printable �̂��̂�K�؂ɏ����ł��Ȃ����̂�
-���݂��܂��B��r�I�V�����@��ł� ���̂悤�Ȏ����̂��̂�����܂����B(���ꂪ�[�����̖��Ȃ̂��A�ʐM�L�����A���̃T�[�o�̕ϊ����̖��Ȃ̂��ɂ��ẮA���͔c�����Ă��܂���)<BR>
-�����܂łŎ������T���v�����x���ł��Aquoted-printable �ɋN�����郁�[���̕��������΍�ɂ��Ă̍l�����K�v�Ȃ̂��A�Ƃ������Ƃł�
-(�����������̂ŁA�T���v���\�[�X�ɂ͓��ʂ̑΍�� �قǂ����܂���)�Bquoted-printable �̃��x���Ń_���ƂȂ�ƁA��Փx�������ł��ˁc�B<BR>
-�Ƃ肠���� quoted-printable �������ł��Ȃ����[���\�t�g�Ȃ�Ă��̂��A���܂��ɐ��̒��ɑ������݂��Ă���̂��A�Ƃ����̂� ���ɂ�
-�ƂĂ��ӊO�ł����Bquoted-printable �Ȃ�� ���Ȃ�Â��������瑶�݂��Ă����w����e�������悤�ɋL�����Ă���̂ł����c (�ł�
-������ ����o���ł�)</P>
+<P><FONT color="#ff0000">2007.09.05追記</FONT> ケータイメールなどでは、Content-Transfer-Encoding が quoted-printable のものを適切に処理できないものが
+存在します。比較的新しい機種でも そのような実装のものがありました。(それが端末側の問題なのか、通信キャリア側のサーバの変換時の問題なのかについては、私は把握していません)<BR>
+ここまでで示したサンプルレベルでも、quoted-printable に起因するメールの文字化け対策についての考慮が必要なのだ、ということです
+(問題を見つけたので、サンプルソースには当面の対策を ほどこしました)。quoted-printable のレベルでダメとなると、難易度が高いですね…。<BR>
+とりあえず quoted-printable を処理できないメールソフトなんてものが、いまだに世の中に多く存在しているのだ、というのは 私には
+とても意外でした。quoted-printable なんて かなり古い時期から存在していた指定内容だったように記憶しているのですが… (でも
+ここは うろ覚えです)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�Y�t�t�@�C���t���� JavaMail ���[�����M�T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>添付ファイル付きの JavaMail メール送信サンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�Y�t�t�@�C�������ɂ��� �ȒP�Ɏ������Ă݂܂����B</P>
-<P>�������̕��� �v���[���e�L�X�g���[���̑��M�ɔ�ׂ�� ������ �����ł����BAPI�d�l�Ƀg���b�v������悤�Ɋ����܂��� (���)�B<BR>
-�܂��A��x����Ă��܂����Ƃ��ł����̂ŁA���Ƃ̉��p�� ��r�I�ȒP�����ł��B</P>
+<P>添付ファイル処理について 簡単に実装してみました。</P>
+<P>こっちの方は プレーンテキストメールの送信に比べると 実装が やや厄介でした。API仕様にトラップがあるように感じました (苦笑)。<BR>
+まあ、一度作ってしまうことができたので、あとの応用は 比較的簡単そうです。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">�ύX�_�̂�</TD>
+      <TD bgcolor="#ffff00">変更点のみ</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -450,90 +450,90 @@ import javax.mail.internet.MimeMultipart;
 import javax.mail.internet.MimeUtility;
 import javax.mail.util.ByteArrayDataSource;
 
-�c�����c
+…中略…
 
-            // �ύX�_: ��������
-            // message.setText�̑���ɁA�Y�t�t�@�C���������L�q����
+            // 変更点: ここから
+            // message.setTextの代わりに、添付ファイル処理を記述する
 
             final Multipart multipart = new MimeMultipart();
 
-            // �e�L�X�g����
+            // テキスト部分
             final MimeBodyPart textPart = new MimeBodyPart();
-            textPart.setText(&quot;����ɂ��́B\n��������悤�B\n���悤�Ȃ�B&quot;, ENCODE);
+            textPart.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
 
-            // TODO Content-Transfer-Encoding �� 7bit �ւ̏㏑�����K�v���ǂ����͖������B
+            // TODO Content-Transfer-Encoding の 7bit への上書きが必要かどうかは未調査。
 
             multipart.addBodyPart(textPart);
 
-            // �Y�t�t�@�C������
+            // 添付ファイル部分
             final BodyPart attachmentPart = new MimeBodyPart();
-            // ��Ƀo�C�i���f�[�^�ł�����̂Ƃ��ăt�@�C����Y�t����B
+            // 常にバイナリデータであるものとしてファイルを添付する。
             try {
                 attachmentPart.setDataHandler(new DataHandler(
                         new ByteArrayDataSource(new BufferedInputStream(
-                                new FileInputStream(&quot;�Y�t�t�@�C����.txt&quot;)),
+                                new FileInputStream(&quot;添付ファイル名.txt&quot;)),
                                 &quot;application/octet-stream&quot;)));
             } catch (IOException e) {
                 e.printStackTrace();
                 return;
             }
 
-            // �Y�t�t�@�C�������Z�b�g
-            // MimeUtility.encodeText �� �Y�t�t�@�C������ascii�ȊO�̕���������ꍇ�̑΍�B
-            attachmentPart.setFileName(MimeUtility.encodeText(&quot;�Y�t�t�@�C����.txt&quot;, ENCODE, null));
+            // 添付ファイル名をセット
+            // MimeUtility.encodeText は 添付ファイル名にascii以外の文字が入る場合の対策。
+            attachmentPart.setFileName(MimeUtility.encodeText(&quot;添付ファイル名.txt&quot;, ENCODE, null));
             multipart.addBodyPart(attachmentPart);
 
             message.setContent(multipart);
 
-            // �ύX�_: �����܂�</pre>
+            // 変更点: ここまで</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>MimeUtility.encodeText �̓����� �ƂĂ��ǂ��ł��Ă��܂��B�^����ꂽ������ɂ��āA�G���R�[�h���K�v�ȏꍇ�̂݃G���R�[�h���A�G���R�[�h���s�v�ȏꍇ�ɂ�
-�G���R�[�h���Ȃ��A�Ƃ����d�l�ɂȂ��Ă��܂����B�������������ȋC������ ���[�����M�̎����ɂ͕K�v�Ȃ̂ł��I</P>
+<P>MimeUtility.encodeText の動きは とても良くできています。与えられた文字列について、エンコードが必要な場合のみエンコードし、エンコードが不要な場合には
+エンコードしない、という仕様になっていました。こういう小さな気遣いが メール送信の実装には必要なのです！</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�h���C���t���z�X�g�����v�������ꍇ�ւ̑Ή�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ドメイン付きホスト名が要求される場合への対応</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff00ff">���m�F���</FONT></P>
-<P>���[���T�[�o�ɂ���ẮA�h���C���t���z�X�g�����v�������ꍇ������܂��BJavaMail �̃f�t�H���g�ł� ���̃R���s���[�^�̃z�X�g�����Z�b�g�����̂ł����A���ꂪ
-�h���C���t�ł͖����ꍇ�� ���[���T�[�o�ւ� HELLO�R�}���h���ɋ��ۂ����ꍇ������悤�ł��B���̏ꍇ�ɂ� ���z�X�g�����h���C���t���z�X�g���ɕς��Ă��Ηǂ��ł��B�v���p�e�B�Ƀz�X�g�����Z�b�g����ƁA���̖�������ł���悤�ł��B(�������A���͎茳�ɍČ����������̂Ŋm�F������Ă��܂���)</P>
+<P><FONT color="#ff00ff">未確認情報</FONT></P>
+<P>メールサーバによっては、ドメイン付きホスト名が要求される場合があります。JavaMail のデフォルトでは そのコンピュータのホスト名がセットされるのですが、これが
+ドメイン付では無い場合に メールサーバへの HELLOコマンド時に拒否される場合があるようです。この場合には 自ホスト名をドメイン付きホスト名に変えてやれば良いです。プロパティにホスト名をセットすると、この問題を回避できるようです。(ただし、私は手元に再現環境が無いので確認を取っていません)</P>
 <UL>
-  <LI>mail.smtp.localhost �v���p�e�B: ������ �h���C���t���z�X�g�����Z�b�g�B
+  <LI>mail.smtp.localhost プロパティ: ここに ドメイン付きホスト名をセット。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���������΍�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>文字化け対策</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ISO-2022-JP �Ɋ֘A���ĕ��������ɑ�������ꍇ������܂��BMicrosoft Outlook�Ɠ����̋������ǂ����Ă������������A�����������ꍇ�ɂ́AISO-2022-JP
-�� x-windows-iso2022jp �Ƃ��� JavaVM���Ɠ��삳����Ƃ����r�Z������܂��B</P>
+<P>ISO-2022-JP に関連して文字化けに遭遇する場合があります。Microsoft Outlookと同等の挙動をどうしても実現したい、そういった場合には、ISO-2022-JP
+を x-windows-iso2022jp として JavaVMごと動作させるという荒技があります。</P>
 <UL>
-  <LI><A href="ig070427.html">2007/04/27 ���L: Java: Outlook ���� JIS�R�[�h (ISO-2022-JP) �𗘗p���邽�߂� x-windows-iso2022jp
-  �Ƃ����G���R�[�f�B���O</A>
+  <LI><A href="ig070427.html">2007/04/27 日記: Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp
+  というエンコーディング</A>
 </UL>
-<P>���̕��@�𐄏����Ă���킯�ł͖����ł��B�������A���̒��ɂ� �ǂ����Ă� Outlook�Ƌ��������킹�����Ƃ����j�[�Y���ӊO�ɑ����悤�Ȃ̂ł��c�B</P>
+<P>この方法を推奨しているわけでは無いです。しかし、世の中には どうしても Outlookと挙動を合わせたいというニーズが意外に多いようなのです…。</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>GNU GPLv3 ���{���<BR>
+  <LI>GNU GPLv3 日本語訳<BR>
   <A HREF="http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237">http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237</A><BR>
-  GNU GNU General Public License�o�[�W����3 (GPLv3)�̓��{��S��Ƃ̂��Ƃł��B
+  GNU GNU General Public Licenseバージョン3 (GPLv3)の日本語全訳とのことです。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

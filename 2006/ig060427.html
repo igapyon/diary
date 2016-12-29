@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/04/27 ���L: ����͑��o�� , JavaScript��JavaDoc�݂����Ȏd�g�݂��ȒP�ɒ�����</TITLE>
-<META name="DESCRIPTION" content="����͑��o���ł����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/04/27 日記: 昨日は大阪出張 , JavaScriptのJavaDocみたいな仕組みを簡単に調査中</TITLE>
+<META name="DESCRIPTION" content="昨日は大阪出張でした。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/04/27 ���L: ����͑��o�� , JavaScript��JavaDoc�݂����Ȏd�g�݂��ȒP�ɒ�����</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ����͑��o���ł����B</P>
+    <H2>2006/04/27 日記: 昨日は大阪出張 , JavaScriptのJavaDocみたいな仕組みを簡単に調査中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 昨日は大阪出張でした。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,47 +60,47 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>����͑��o��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>昨日は大阪出張</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����͓��A��̑��o���ł����B<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>��������Ă��܂����B</P>
+<P>昨日は日帰りの大阪出張でした。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>を説明してきました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCg��JavaScript�Ή�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCgのJavaScript対応</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����A���o������A���Ă��Ă���A<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="�ƂĂ��y�ʂȃ\�[�X�R�[�h�����������C�u�����ł��B �����̃v���O���~���O���� (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) �̃\�[�X�R�[�h�����ɑΉ����Ă��܂��B">blancoCg</A>�� ���傱���傱���� JavaScript�Ή��̋@�\�ǉ��������Ȃ��܂����B���������H�̑O��
-���傱���ƒǋL���܂����B<BR>
-�̂�2���Ԏ�������Ď��������Ƃ���A�Ƃ肠���� JavaScript�Ƃ��ăG���[�ɂȂ�Ȃ����x�� JavaScript�\�[�X�R�[�h�����������ł���悤�ɂȂ�܂����B(blancoCg-0.2.5���Y���̃��W���[���ł�)</P>
-<P>���̂Ƃ���c��̋C�ɂȂ�_�͉��L�̂悤�Ȋ����ł��B</P>
+<P>昨日、大阪出張から帰ってきてから、<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>に ちょこちょこっと JavaScript対応の機能追加をおこないました。今朝も朝食の前に
+ちょこっと追記しました。<BR>
+のべ2時間弱をかけて実装したところ、とりあえず JavaScriptとしてエラーにならない程度の JavaScriptソースコードを自動生成できるようになりました。(blancoCg-0.2.5が該当のモジュールです)</P>
+<P>今のところ残りの気になる点は下記のような感じです。</P>
 <UL>
-  <LI>���\�b�h (���ۂɂ�function) �̈����`�F�b�N���W�b�N�̎��������B
-  <LI>���\�b�h (���ۂɂ�function) �̌���h�L�������g�̐����B(JavaScript�ł̏펯�̒���)
+  <LI>メソッド (実際にはfunction) の引数チェックロジックの自動生成。
+  <LI>メソッド (実際にはfunction) の言語ドキュメントの精査。(JavaScriptでの常識の調査)
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaScript�̌���h�L�������g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaScriptの言語ドキュメント</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaScript��Java�����JavaDoc�݂����Ȃ��̂��������ǂ��� �ȒP�ɒ��ׂĂ݂܂����B�I�[�v���\�[�X�n�𒆐S�� �Q�C�ɂȂ���̂�����܂����B</P>
+<P>JavaScriptにJava言語のJavaDocみたいなものが無いかどうか 簡単に調べてみました。オープンソース系を中心に ２つ気になるものがありました。</P>
 <UL>
   <LI>HeaderDoc<BR>
   <A HREF="http://developer.apple.com/opensource/tools/headerdoc.html">http://developer.apple.com/opensource/tools/headerdoc.html</A>
   <LI>JSDoc - JavaScript Documentation Tool<BR>
   <A HREF="http://jsdoc.sourceforge.net/">http://jsdoc.sourceforge.net/</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060526.html">2006/05/26 ���L: 3rd. Developers' Lounge�ɎQ�� , Apple HeaderDoc�� Windows�Ŏg��</A><BR>
-  ���� HeaderDoc���̗p���邱�Ƃɂ��܂����B
+  <LI><A href="ig060526.html">2006/05/26 日記: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</A><BR>
+  結局 HeaderDocを採用することにしました。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

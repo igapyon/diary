@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/10/11 ���L: Microsoft Office 2000 �̃C���^�[�l�b�g���s��ɑ���</TITLE>
-<META name="DESCRIPTION" content="Office 2000 �̃o�O�̂����ő�ςȖڂɑ����܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/10/11 日記: Microsoft Office 2000 のインターネット時不具合に遭遇</TITLE>
+<META name="DESCRIPTION" content="Office 2000 のバグのせいで大変な目に遭いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/10/11 ���L: Microsoft Office 2000 �̃C���^�[�l�b�g���s��ɑ���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Office 2000 �̃o�O�̂����ő�ςȖڂɑ����܂����B</P>
+    <H2>2002/10/11 日記: Microsoft Office 2000 のインターネット時不具合に遭遇</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Office 2000 のバグのせいで大変な目に遭いました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,60 +59,60 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft Office 2000 + Internet Explorer��IIS��̃t�@�C�����J�����Ƃ���ƃp�X���[�h��v�������s��ɑ���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft Office 2000 + Internet ExplorerでIIS上のファイルを開こうとするとパスワードを要求される不具合に遭遇</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����̘b���ł����A����J���Ɍg����Ă����E�F�u�x�[�X�C���g���l�b�g�V�X�e���\�z���e�X�g�œ��삳���Ă�����A��̕s��ɑ������Ă��܂��܂����B<BR>
-Web�x�[�X�V�X�e���͒��[�̎d�g�݂Ƃ��� Excel ���[���̗p���Ă���̂ł����AWindows
-2000 SP3 + IIS (+ ASP.NET) ��� ���̍쐬���ꂽExcel�t�@�C���� Internet
-Explorer 5.x + Office 2000 �𓱓������N���C�A���g����A�N�Z�X���悤�Ƃ�����A�ꕔ�̃N���C�A���g�ɉ�����
-�Ȃ������O�C����ʂ��o�Ă��ĕ\���ł��Ȃ��ƌ�����肪���������̂ł��B<BR>
-���������������� ���Ƃ̑��̉�Ђ̕������L��URI�������Ă��܂����B</P>
+<P>昨日の話しですが、今回開発に携わっていたウェブベースイントラネットシステム構築をテストで動作させていたら、謎の不具合に遭遇してしまいました。<BR>
+Webベースシステムは帳票の仕組みとして Excel 帳票を採用しているのですが、Windows
+2000 SP3 + IIS (+ ASP.NET) 上の その作成されたExcelファイルを Internet
+Explorer 5.x + Office 2000 を導入したクライアントからアクセスしようとしたら、一部のクライアントに於いて
+なぜかログイン画面が出てきて表示できないと言う問題が発生したのです。<BR>
+半日困ったあげく 協業の他の会社の方が下記のURIを見つけてきました。</P>
 <UL>
-  <LI>[IE5] Office �h�L�������g���J���ƔF�؃_�C�A���O���\�������<BR>
+  <LI>[IE5] Office ドキュメントを開くと認証ダイアログが表示される<BR>
   <A HREF="http://support.microsoft.com/default.aspx?scid=kb;ja;JP415541">http://support.microsoft.com/default.aspx?scid=kb;ja;JP415541</A>
-  <LI>OFF2000: �u���E�U�� Office �h�L�������g���J���ƁA�p�X���[�h�̓��͂����߂���<BR>
+  <LI>OFF2000: ブラウザで Office ドキュメントを開くと、パスワードの入力を求められる<BR>
   <A HREF="http://support.microsoft.com/default.aspx?scid=kb;ja;JP225234">http://support.microsoft.com/default.aspx?scid=kb;ja;JP225234</A>
 </UL>
-<P>���ꂪ�q�b�g�������悤�ŁAOffice 2000����ł̂ݏ�L��肪�������AOffice
-97 �� Office 2000 SR-1�ȍ~����� Office XP �ł� ���̖��͔������Ȃ��Ƃ����X�����킩���Ă��܂����B</P>
-<P>���� ���߂� �Г��ɍČ������������ �m���� Office 2000 ����ɂ����āA���̕s����������܂����B(�����ɂ��ǂ蒅���܂ł�
-�������̂�ł����c)<BR>
-Microsoft�Ђ̌��������Ƃ��ẮAOffice 2000 SR-1�ȍ~�Ɉڍs����Ƃ������̂ł����A����͔��������̂ŁA�T�[�o���ŉ��Ƃ��A�Ƃ������@��T����
-�Ȃ�Ƃ����L�̉����������܂����c</P>
-<P>�C���^�[�l�b�g �C���t�H�[���[�V���� �T�[�r�X�̃v���p�e�B���J���A</P>
+<P>これがヒットだったようで、Office 2000無印でのみ上記問題が発生し、Office
+97 や Office 2000 SR-1以降および Office XP では この問題は発生しないという傾向がわかってきました。</P>
+<P>今日 改めて 社内に再現環境を作ったら 確かに Office 2000 無印において、この不具合が発生しました。(ここにたどり着くまでが
+長い道のりでした…)<BR>
+Microsoft社の公式見解としては、Office 2000 SR-1以降に移行せよというものですが、これは避けたいので、サーバ側で何とか、という方法を探すと
+なんとか下記の回避策を見つけました…</P>
+<P>インターネット インフォーメーション サービスのプロパティを開き、</P>
 <UL>
-  <LI>Windows�����F�؂�Off�ɂ���B
-  <LI>Server Extentions �̃`�F�b�N�{�b�N�X��Off�ɂ���B
+  <LI>Windows統合認証をOffにする。
+  <LI>Server Extentions のチェックボックスをOffにする。
 </UL>
-<P>�����Ȗ��̂� ���͂킩��܂��񂪁A���ɂ��� ���̃`�F�b�N�{�b�N�X���͂�����
-���ۂ��������Ȃ��Ȃ�܂����B<BR>
-ASP.NET �� Excel���[�̗̍p�A�Ȃ�� �������ʂ̎�荇�킹���Ǝv���̂ł����A�����
-����Ȍ��ۂ��o��͍̂��������̂ł��B</P>
-<P>�ł��U��Ԃ��čl���Ă݂�� IIS ���� �f�t�H���g�� ����Ȃ��̂���R�����オ���Ă���̂ł��ˁB�т����肵�܂����B�f�t�H���g��
-���������@�\�� Off��Ԃŏo�ׂ��ė~���������Ǝv���܂����B(Server Extentions
-�� ASP.NET�̎��s�����ڂ����ۂɓ��������A�����m��܂��񂪁c)</P>
+<P>正式な名称は 今はわかりませんが、何にせよ このチェックボックスをはずすと
+現象が発生しなくなりました。<BR>
+ASP.NET で Excel帳票の採用、なんて ごく普通の取り合わせだと思うのですが、これで
+こんな現象が出るのは困ったものです。</P>
+<P>でも振り返って考えてみると IIS って デフォルトで 勝手なものが沢山立ち上がっているのですね。びっくりしました。デフォルトで
+こういう機能は Off状態で出荷して欲しい物だと思いました。(Server Extentions
+は ASP.NETの実行環境を載せた際に入った物、かも知れませんが…)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP SP1���A���C���X�g�[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP SP1をアンインストール</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Windows XP SP1�ł����A�ǂ����Ă��s����Ȃ̂ŁA������A���C���X�g�[������
-Windows XP ����ɖ߂��܂����B<BR>
-�����͂��Ă��� ���Ǝ��̊��ł� Windows XP SP1�͕s����߂��܂����B</P>
-<P><STRONG><FONT color="#ff00ff">�֘A������L</FONT></STRONG></P>
+<P>Windows XP SP1ですが、どうしても不安定なので、これをアンインストールして
+Windows XP 無印に戻しました。<BR>
+原因はさておき ちと私の環境では Windows XP SP1は不安定過ぎました。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
 <UL>
-  <LI><A href="ig020920.html">2002/09/20 ���L: Windows XP SP1 �����[�X</A>
+  <LI><A href="ig020920.html">2002/09/20 日記: Windows XP SP1 リリース</A>
 </UL>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig021011.src.html' , result='ig021011.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig021011-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html">.NET�헪�̖��^����IIS 6.0</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���̋L���ɂ���悤�ɁAIIS�̓C���g���l�b�g�ł͎g������ �C���^�[�l�b�g���ł͎g�������Ȃ� �Ƃ������Ԉ�ʂ̔F��������܂��ˁB�������ӂ��܂��B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614">�u.NET�v�ƁuJava�v�A���N�͂Ƃ��ɖ�60���̊J���҂��g�p</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>������̕W������Ƃ���Java����͌N�Ղ��邱�Ƃł��傤�B�ł� ASP.NET + C# �� ���ꂪ�Ȃ��Ȃ����K�̓C���g���l�b�g�����ɂ̓x�X�g�`���C�X�ł���悤�ɂ��v���܂��B<LI><A HREF="http://japan.internet.com/linuxtoday/20021010/3.html">�l�����ƂɈڂ�J�[�l���J��</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021010/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Linux�J�[�l���J������ƂɈڂ��Ă����A�͓̂��R�̗���ł��B��Ԃׂ����ł��锽�ʁA������҂�₵�����������܂� (���)<LI><A HREF="http://japan.internet.com/linuxtoday/20021009/3.html">Vine Linux 2.6R �\��̔����J�n</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021009/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Vine Linux �����̃o�[�W�������o��G�߂Ȃ�ł��˂� (�d���̖Z�����ɂ���� Linux�f�B�X�g���r���[�V������ǂ��ɂ������c)<LI><A HREF="http://www.ipa.go.jp/security/txt/2002_10outline.html">IPA/ISEC: 2002�N9���̓͏o��</A> <FONT size="-2"><A target="_blank" HREF="http://www.ipa.go.jp/security/txt/2002_10outline.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�s���̂��肪���������B����������������ʂ��āA���Ԉ�ʂ̕��X�ɃE�C���X�΍􂪐Z�����邱�Ƃ��F��B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig021011-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html">.NET戦略の命運握るIIS 6.0</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fwin2k/opinion/ogawa/ogawa_200210.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>この記事にあるように、IISはイントラネットでは使う物の インターネット環境では使いたくない という世間一般の認識がありますね。私も同意します。<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614">「.NET」と「Java」、来年はともに約60％の開発者が使用</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/prom/210614">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>実質上の標準言語としてJava言語は君臨することでしょう。でも ASP.NET + C# も これがなかなか小規模イントラネット向けにはベストチョイスであるようにも思えます。<LI><A HREF="http://japan.internet.com/linuxtoday/20021010/3.html">個人から企業に移るカーネル開発</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021010/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Linuxカーネル開発が企業に移っていく、のは当然の流れです。喜ぶべき事である反面、ちょっぴり寂しさをも感じます (苦笑)<LI><A HREF="http://japan.internet.com/linuxtoday/20021009/3.html">Vine Linux 2.6R 予約販売を開始</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021009/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Vine Linux も次のバージョンが出る季節なんですねぇ (仕事の忙しさにやられて Linuxディストリビューションを追う暇が無い…)<LI><A HREF="http://www.ipa.go.jp/security/txt/2002_10outline.html">IPA/ISEC: 2002年9月の届出状況</A> <FONT size="-2"><A target="_blank" HREF="http://www.ipa.go.jp/security/txt/2002_10outline.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>行政のありがたい資料。こういった資料を通じて、世間一般の方々にウイルス対策が浸透することを祈る。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/12/12 ���L: blancoDbDotNet �d�l�h���t�g</TITLE>
-<META name="DESCRIPTION" content="blancoDbDotNet�d�l�h���t�g">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/12/12 日記: blancoDbDotNet 仕様ドラフト</TITLE>
+<META name="DESCRIPTION" content="blancoDbDotNet仕様ドラフト">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/12/12 ���L: blancoDbDotNet �d�l�h���t�g</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] blancoDbDotNet�d�l�h���t�g</P>
+    <H2>2005/12/12 日記: blancoDbDotNet 仕様ドラフト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDbDotNet仕様ドラフト</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,48 +60,48 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet �d�l�h���t�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet 仕様ドラフト</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�x�[�X�̎d�l�� blancoDb Enterprise Edition�ł���Ƃ��āA���L�̂悤�ȕω��_������܂��B</P>
+<P>ベースの仕様は blancoDb Enterprise Editionであるとして、下記のような変化点があります。</P>
 <UL>
-  <LI>�J�[�\���͏������J�[�\���݂̂Ƃ���
-  <LI>�g�����U�N�V�����̓R���X�g���N�^�ɃR�l�N�V�����ƂƂ��Ɉ����n��<BR>
-  ��.NET Framework�Ȃ�ł͂̎d�l�Ȃ̂ł��B
-  <LI>�v���p�e�B�A�N�Z�X�Ȃǂ� .NET�炵����<STRONG>�o���Ȃ�</STRONG><BR>
-  ���Z�b�^�[�Q�b�^�[��ʏ�̃��\�b�h��p���� �������ʂ̎�����I�т܂��B���\�b�h������ăv���p�e�B�𑽗p����ƁA���ʓI�Ƀ\�[�X�R�[�h�����ɂ����Ȃ邩��ł��B
-  <LI>�X�V�\�Ȍ�����<STRONG>�������Ȃ�</STRONG><BR>
-  ��API�Ƃ��Ă� ��������API�񋟂������͗l�ł��B�P���ɍX�V�\�J�[�\���t���Ō��������Ȃ���A����g�����U�N�V�����ōX�V����Γ��l�̎d�l�͎����ł���͗l�ł͂���܂��B
+  <LI>カーソルは順方向カーソルのみとする
+  <LI>トランザクションはコンストラクタにコネクションとともに引き渡す<BR>
+  →.NET Frameworkならではの仕様なのです。
+  <LI>プロパティアクセスなどで .NETらしさは<STRONG>出さない</STRONG><BR>
+  →セッターゲッターや通常のメソッドを用いた ごく普通の実装を選びます。メソッドを避けてプロパティを多用すると、結果的にソースコードが見にくくなるからです。
+  <LI>更新可能な検索は<STRONG>実装しない</STRONG><BR>
+  →APIとしての そういうAPI提供が無い模様です。単純に更新可能カーソル付きで検索させながら、同一トランザクションで更新すれば同様の仕様は実現できる模様ではあります。
 </UL>
-<P>���̎d�l�ŁA�Ƃ肠�������b�N�A�b�v���쐬���Ă݂܂��B�֌W����K�v�Ȏ����́A���L�̂悤�ɂȂ�܂��B</P>
+<P>この仕様で、とりあえずモックアップを作成してみます。関係する必要な実装は、下記のようになります。</P>
 <UL>
-  <LI>blancoCodeGeneratorDotNet (�\�[�X�R�[�h������)<BR>
-  �Ƃ肠�����ł��쐬�ς�
-  <LI>blancoValueObjectDotNet (ValueObject�̎���������)<BR>
-  ������ �� <FONT color="#ff0000">2005.12.15�X�V</FONT> �Ƃ肠�����ł���������
-  <LI>blancoDbDotNet�{��<BR>
-  ������ �� <FONT color="#ff0000">2005.12.15�X�V</FONT> �Ƃ肠�����ł���������
-  <LI>Eclipse�v���O�C��<BR>
-  ������
+  <LI>blancoCodeGeneratorDotNet (ソースコード生成部)<BR>
+  とりあえず版が作成済み
+  <LI>blancoValueObjectDotNet (ValueObjectの自動生成部)<BR>
+  未実装 → <FONT color="#ff0000">2005.12.15更新</FONT> とりあえず版が実装完了
+  <LI>blancoDbDotNet本体<BR>
+  未実装 → <FONT color="#ff0000">2005.12.15更新</FONT> とりあえず版が実装完了
+  <LI>Eclipseプラグイン<BR>
+  未実装
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2009/ig091001.html">2009/10/01 ���L: blancoDbDotNet (blancoDb .NET Framework��) �� ODP.NET �Ή�</A>
+  <LI><A href="../2009/ig091001.html">2009/10/01 日記: blancoDbDotNet (blancoDb .NET Framework版) の ODP.NET 対応</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb�̃X�g�A�h�v���V�[�W���Ή��ɋC�ɂȂ��肪�c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbのストアドプロシージャ対応に気になる問題が…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����� blancoDb (�Ƃ����Ă� 1.3.x�n�ł����c)�̃X�g�A�h�v���V�[�W���Ή��ł����A�o�̓p�����[�^��1�����w��ł��܂���B�������A�ǂ������̎d�l�͋�������Ƃ�
-���ŋ߂킩���Ă��܂����B<BR>
-����(�����炭���N����x)�o�̓p�����[�^�𕡐��w��\�Ȃ悤�Ɏd�l�ύX�������Ǝv���܂��ł��B</P>
+<P>現状の blancoDb (といっても 1.3.x系ですが…)のストアドプロシージャ対応ですが、出力パラメータが1個しか指定できません。しかし、どうもこの仕様は具合悪いことが
+つい最近わかってきました。<BR>
+将来(おそらく半年後程度)出力パラメータを複数指定可能なように仕様変更したいと思いますです。</P>
 
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 
 </BODY>

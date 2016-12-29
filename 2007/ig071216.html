@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/12/16 ���L: ���L�r���h�V�X�e���� Subversion�Ɉڍs -&gt; ���s(���)</TITLE>
-<META name="DESCRIPTION" content="���̓��L�̃r���h�V�X�e���̃o�[�W�����Ǘ��ɂ���  Subversion �Ɉڍs���Ă݂܂����B�A�A�A���̌��� �ꕔ���s���Ă��܂��Ă��܂��B���� ���L�r���h�V�X�e���̓t�@�C�����t�𒆐S�Ɋe�폈�������Ȃ��Ă��܂��B�ŁASubversion�Ɋi�[���Ď��o���ƁA�t�@�C�����t���������Ƀ��Z�b�g����Ă��܂��܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/12/16 日記: 日記ビルドシステムを Subversionに移行 -&gt; 失敗(苦笑)</TITLE>
+<META name="DESCRIPTION" content="この日記のビルドシステムのバージョン管理について  Subversion に移行してみました。、、、その結果 一部失敗してしまっています。現在 日記ビルドシステムはファイル日付を中心に各種処理をこなしています。で、Subversionに格納して取り出すと、ファイル日付が処理日にリセットされていまいます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/12/16 ���L: ���L�r���h�V�X�e���� Subversion�Ɉڍs -> ���s(���)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ���̓��L�̃r���h�V�X�e���̃o�[�W�����Ǘ��ɂ���  Subversion �Ɉڍs���Ă݂܂����B�A�A�A���̌��� �ꕔ���s���Ă��܂��Ă��܂��B���� ���L�r���h�V�X�e���̓t�@�C�����t�𒆐S�Ɋe�폈�������Ȃ��Ă��܂��B�ŁASubversion�Ɋi�[���Ď��o���ƁA�t�@�C�����t���������Ƀ��Z�b�g����Ă��܂��܂��B</P>
+    <H2>2007/12/16 日記: 日記ビルドシステムを Subversionに移行 -> 失敗(苦笑)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] この日記のビルドシステムのバージョン管理について  Subversion に移行してみました。、、、その結果 一部失敗してしまっています。現在 日記ビルドシステムはファイル日付を中心に各種処理をこなしています。で、Subversionに格納して取り出すと、ファイル日付が処理日にリセットされていまいます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,22 +60,22 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���L�r���h�V�X�e���̃o�[�W�����Ǘ��� Subversion�Ɉڍs -&gt; ���s(���)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日記ビルドシステムのバージョン管理を Subversionに移行 -&gt; 失敗(苦笑)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���̓��L�̃r���h�V�X�e���̃o�[�W�����Ǘ��ɂ���  Subversion �Ɉڍs���Ă݂܂����B<BR>
-�A�A�A���̌��� �ꕔ���s���Ă��܂��Ă��܂��B���� ���L�r���h�V�X�e���̓t�@�C�����t�𒆐S�Ɋe�폈�������Ȃ��Ă��܂��B�ŁASubversion�Ɋi�[���Ď��o���ƁA�t�@�C�����t���������Ƀ��Z�b�g����Ă��܂��܂��B</P>
-<P>�����A���s���܂����B���̓��L�� RSS�ŎQ�Ƃ��Ă���݂Ȃ���A���݂܂���ł��B���P�܂łɂ� �����΂炭���Ԃ������錩���݂ł��B</P>
-<P><FONT color="#ff0000">2007.12.17�ǋL</FONT> ������@�ɁA���{�I�� ���L�V�X�e�������������Ă݂悤���ƍl���Ă��܂��B</P>
-<P>���낢��ȕ������v�����܂��B���āA�ǂ�ɂ��悤������B</P>
+<P>この日記のビルドシステムのバージョン管理について  Subversion に移行してみました。<BR>
+、、、その結果 一部失敗してしまっています。現在 日記ビルドシステムはファイル日付を中心に各種処理をこなしています。で、Subversionに格納して取り出すと、ファイル日付が処理日にリセットされていまいます。</P>
+<P>ああ、失敗しました。私の日記を RSSで参照しているみなさん、すみませんです。改善までには 今しばらく時間がかかる見込みです。</P>
+<P><FONT color="#ff0000">2007.12.17追記</FONT> これを機に、抜本的に 日記システムを見直ししてみようかと考えています。</P>
+<P>いろいろな方式が思いつきます。さて、どれにしようかしら。</P>
 <UL>
-  <LI>XML�x�[�X
-  <LI>Wiki�̂悤�ȃe�L�X�g�x�[�X
-  <LI>���܂Œʂ� html�x�[�X
+  <LI>XMLベース
+  <LI>Wikiのようなテキストベース
+  <LI>今まで通り htmlベース
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

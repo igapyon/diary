@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/03/17 ���L: Java Servlet�̃V���v�����`�\�[�X�R�[�h�̒T��</TITLE>
-<META name="DESCRIPTION" content="Java Servlet (�W���o�E�T�[�u���b�g)�̃V���v���T���v�� �\�[�X�R�[�h���쐬���Ă��܂��B�ł��V���v���Ȃ��̂�����Ă���͂��Ȃ̂ɁA�ӊO�ɂ��X�e�b�v��������܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/03/17 日記: Java Servletのシンプル雛形ソースコードの探求</TITLE>
+<META name="DESCRIPTION" content="Java Servlet (ジャバ・サーブレット)のシンプルサンプル ソースコードを作成しています。最もシンプルなものを作っているはずなのに、意外にもステップ数があります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/03/17 ���L: Java Servlet�̃V���v�����`�\�[�X�R�[�h�̒T��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Java Servlet (�W���o�E�T�[�u���b�g)�̃V���v���T���v�� �\�[�X�R�[�h���쐬���Ă��܂��B�ł��V���v���Ȃ��̂�����Ă���͂��Ȃ̂ɁA�ӊO�ɂ��X�e�b�v��������܂��B</P>
+    <H2>2004/03/17 日記: Java Servletのシンプル雛形ソースコードの探求</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Java Servlet (ジャバ・サーブレット)のシンプルサンプル ソースコードを作成しています。最もシンプルなものを作っているはずなのに、意外にもステップ数があります。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,11 +58,11 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��{�`�T�[�u���b�g�\�[�X�R�[�h�̒T��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>基本形サーブレットソースコードの探求</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�������P���� Java Servlet�̃\�[�X�R�[�h�Ƃ� �ǂ̂悤�ɂȂ�̂��ɂ��ăT���v���\�[�X���������Ă����܂��B�������߃V���v���T�[�u���b�g�v��Ƃł��Ăт܂��傤���B</P>
+<P>すごく単純な Java Servletのソースコードとは どのようになるのかについてサンプルソースをメモしておきます。さしずめシンプルサーブレット計画とでも呼びましょうか。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -76,8 +76,8 @@
     <TR>
       <TD>
       <pre>/*
- * �������P���� Java Servlet�T���v���\�[�X�R�[�h�\�z�v��
- * Copyright (C) 2004-2005 �����҂��
+ * すごく単純な Java Servletサンプルソースコード構築計画
+ * Copyright (C) 2004-2005 いがぴょん
  */
 
 import java.io.BufferedReader;
@@ -91,7 +91,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * �������P���� Java Servlet�T���v���\�[�X�R�[�h
+ * すごく単純な Java Servletサンプルソースコード
  * 
  * @author iga
  * @version 2004.11.13
@@ -99,12 +99,12 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleServlet extends HttpServlet {
 
     /**
-     * &lt;code&gt;ENCODING&lt;/code&gt; HTML�ň��������R�[�h��^���܂��B
+     * &lt;code&gt;ENCODING&lt;/code&gt; HTMLで扱う文字コードを与えます。
      */
     public static final String ENCODING = &quot;ISO-2022-JP&quot;;
 
     /**
-     * Java Servlet�̃G���g���|�C���g�ł��B
+     * Java Servletのエントリポイントです。
      * 
      * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
      *      javax.servlet.http.HttpServletResponse)
@@ -138,9 +138,9 @@ public class SampleServlet extends HttpServlet {
                             + &quot;&lt;META http-equiv=\&quot;Cache-Control\&quot; content=\&quot;no-cache\&quot;&gt;\n&quot;
                             + &quot;&lt;META http-equiv=\&quot;Pragma\&quot; content=\&quot;no-cache\&quot;&gt;\n&quot;
                             + &quot;&lt;META http-equiv=\&quot;Expires\&quot; content=\&quot;0\&quot;&gt;\n&quot;
-                            + &quot;&lt;TITLE&gt;�V���v���ȃT�[�u���b�g�T���v���ł�&lt;/TITLE&gt;\n&lt;/HEAD&gt;\n&quot;);
+                            + &quot;&lt;TITLE&gt;シンプルなサーブレットサンプルです&lt;/TITLE&gt;\n&lt;/HEAD&gt;\n&quot;);
             writer.write(&quot;&lt;BODY&gt;\n&quot;);
-            writer.write(&quot;&lt;P&gt;�V���v���T�[�u���b�g&lt;/P&gt;\n&quot;);
+            writer.write(&quot;&lt;P&gt;シンプルサーブレット&lt;/P&gt;\n&quot;);
 
             for (Enumeration enum = request.getHeaderNames(); enum
                     .hasMoreElements();) {
@@ -168,20 +168,20 @@ public class SampleServlet extends HttpServlet {
             writer
                     .write(&quot;&lt;INPUT type=\&quot;text\&quot; name=\&quot;INPUTVALUE\&quot; size=\&quot;20\&quot;&gt;\n&quot;);
             writer
-                    .write(&quot;&lt;INPUT type=\&quot;submit\&quot; value=\&quot;����\&quot; name=\&quot;execute\&quot;&gt;\n&quot;);
+                    .write(&quot;&lt;INPUT type=\&quot;submit\&quot; value=\&quot;実験\&quot; name=\&quot;execute\&quot;&gt;\n&quot;);
             writer.write(&quot;&lt;/FORM&gt;\n&quot;);
             writer.write(&quot;&lt;/BODY&gt;\n&quot;);
 
         } finally {
-            // Reader��Writer���N���[�Y���܂���Bflush���Ăяo���Ă͂Ȃ�܂���B(2005.03.13�ɔ���)
+            // ReaderもWriterもクローズしません。flushも呼び出してはなりません。(2005.03.13に判明)
         }
     }
 
     /**
-     * �f�t�H���g�ƂȂ郌�X�|���X�w�b�_�[�̕t�^
+     * デフォルトとなるレスポンスヘッダーの付与
      * 
      * @param response
-     *            ���X�|���X�I�u�W�F�N�g��^���܂��B
+     *            レスポンスオブジェクトを与えます。
      */
     private void setResponseDefault(final HttpServletResponse response) {
         response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
@@ -197,194 +197,194 @@ public class SampleServlet extends HttpServlet {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���ɂƂ��Ă̋^��_</P>
+<P>私にとっての疑問点</P>
 <UL>
-  <LI>Java Servlet�� Request �� Response���瓾���� Reader �� Writer�� �N���[�Y���Ȃ��ėǂ��̂��H ����͂Ȃ����H<BR>
-  �̂��� ���`���ƕs�v�c�Ȃ̂ł��B�A�A�A�������ABluePrint������Ηǂ��ł��ˁB<BR>
-  <FONT color="#ff0000">2005.03.13</FONT> �� ���̖��͉������܂����B���_���猾���ƁA�N���[�Y���Ȃ��Ă��ǂ��̂ł��B�ނ���N���[�Y����ƗL�Q�ł��B�ڍׂ͌�q�B
-  <LI>�Ȃ�� ���������Ή����s��Ȃ��Ă͂Ȃ�Ȃ��̂��H<BR>
-  ���`�ށB����܂���Փx���������ł��B
+  <LI>Java Servletの Request や Responseから得られる Reader や Writerは クローズしなくて良いのか？ それはなぜか？<BR>
+  昔から ず～っと不思議なのです。、、、そうか、BluePrintを見れば良いですね。<BR>
+  <FONT color="#ff0000">2005.03.13</FONT> → この問題は解決しました。結論から言うと、クローズしなくても良いのです。むしろクローズすると有害です。詳細は後述。
+  <LI>なんで 文字化け対応を行わなくてはならないのか？<BR>
+  う～む。これまた難易度が高そうです。
 </UL>
-<P>�Q�l�����N</P>
+<P>参考リンク</P>
 <UL>
   <LI>RFC2616 HTTP/1.1<BR>
   <A HREF="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html</A>
 </UL>
-<P>�Q�l���L</P>
+<P>参考日記</P>
 <UL>
-  <LI>muimy����̓��L: 2004-11-11 Tomcat��URL�p�����[�^��������<BR>
+  <LI>muimyさんの日記: 2004-11-11 TomcatのURLパラメータ文字化け<BR>
   <A HREF="http://d.hatena.ne.jp/muimy/20041111#1100172516">http://d.hatena.ne.jp/muimy/20041111#1100172516</A><BR>
-  �Ȃ�قǁA�����������ƂȂ�ł��ˁB(muimy����͗L����Java�̃��C�^�[����ł�)
+  なるほど、そういうことなんですね。(muimyさんは有名なJavaのライターさんです)
 </UL>
-<P><FONT color="#ff0000">2004.11.13</FONT> �G���R�[�f�B���O�� ISO-2022-JP �ɕύX���܂����BMETA�^�O�ɃG���R�[�f�B���O��ǉ����܂����B�ꕔ
-�L���b�V���܂��œs�s�`���݂����ȃR�[�h���c���Ă��܂�����ǂ��ˁB<BR>
-Expires��0��ݒ肷��悤�ɂ��܂����B-1�Ƃ����͓̂s�s�`���������͗l�BRFC�� 0 �������ł��邱�Ƃ��m�F���܂����B<BR>
-����ɂ��Ă��A�Œ჌�x�����A�Ȃ�����Ȃɑ�R�̃R�[�h���K�v�Ȃ̂ł��傤�B�s�v�c�ȋC�����ł����ς��ł��B</P>
-<P><FONT color="#ff0000">2005.03.13</FONT> Request �� Response���瓾���� Reader �� Writer�� �N���[�Y���Ȃ��̂���@�Ƃ������Ƃ��킩��܂����B�ނ���N���[�Y���Ă͂����܂���B�܂�flush���Ăяo���Ă͂Ȃ�܂���B�uJava
-Computing 2005 Spring�v �� JaJakarta BOF�ɂ����āA���L�̕��X�ɋ����Ă��������܂����B</P>
+<P><FONT color="#ff0000">2004.11.13</FONT> エンコーディングを ISO-2022-JP に変更しました。METAタグにエンコーディングを追加しました。一部
+キャッシュまわりで都市伝説みたいなコードが残っていますけれどもね。<BR>
+Expiresに0を設定するようにしました。-1というのは都市伝説だった模様。RFCで 0 が正解であることを確認しました。<BR>
+それにしても、最低レベルが、なぜこんなに沢山のコードが必要なのでしょう。不思議な気持ちでいっぱいです。</P>
+<P><FONT color="#ff0000">2005.03.13</FONT> Request や Responseから得られる Reader や Writerは クローズしないのが作法ということがわかりました。むしろクローズしてはいけません。まだflushも呼び出してはなりません。「Java
+Computing 2005 Spring」 の JaJakarta BOFにおいて、下記の方々に教えていただきました。</P>
 <UL>
-  <LI><A HREF="http://www.netpotlet.com/" TITLE="���{��Servlet/JSP�̑��l�҂̕��B����ȊO��Java�̃W�������ɂ� �����e���͂������Ă��܂��B�����Ăǂ���� ���̓��L������񒸂��Ă���͗l�B�ƂĂ����肪�Ƃ��������܂��B">���c�m�q</A>����
-  <LI><A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="���Z�p�̊J������œ������r�Z�p�҂ŁA�����Z�p���C�^�[������Ă�����B���ړI�Ȗʎ������� �ƂĂ������e����^���Ė���Ă��܂��BFlash MX���Ɩ��V�X�e���Ŏg���Ƃ������E�Ɏ��������Ȃ����̂��H������ ���̐l�ł��B">�H���͗m</A>����
-  <LI>�^���\�t�g�E�F�A��Ђ�Java�n�C���X�g���N�^�[���� x2
+  <LI><A HREF="http://www.netpotlet.com/" TITLE="日本のServlet/JSPの第一人者の方。それ以外のJavaのジャンルにも 強い影響力を持っています。そしてどうやら 私の日記をごらん頂いている模様。とてもありがとうございます。">原田洋子</A>さん
+  <LI><A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="情報技術の開発現場で働く凄腕技術者で、且つ情報技術ライターをされている方。直接的な面識もあり とても強い影響を与えて貰っています。Flash MXを業務システムで使うという世界に私をいざなったのも羽生さん その人です。">羽生章洋</A>さん
+  <LI>某大手ソフトウェア会社のJava系インストラクターさん x2
 </UL>
-<P>�Ȃ�ł��̂̓N���[�Y���Ȃ��Ƃ����Ȃ������̂������ł����AHTTP 1.1 �̎���ɂȂ������] ���x�̓N���[�Y���Ă͂����Ȃ��Ȃ����̂������ł��B�����
-HTTP 1.1�ɂ����Ă� Keep Alive���f�t�H���g�ł����Aclose�𖾎��I�ɌĂяo���� �\�P�b�g���N���[�Y���Ă��܂���肪��������
-(�ꍇ������) �Ƃ̂��Ƃł��B�����ɃN���[�Y���Ă��܂��ƁA�N���C�A���g�����ُ�����m���Ă��܂����Ƃ�����Ƃ̂��ƁB�A�A�A���̖��� ��Փx�����������ł��B�ł�
-����ׂ��p��m�邱�Ƃ��o���ĂƂĂ��������ł��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>なんでも昔はクローズしないといけなかったのだそうですが、HTTP 1.1 の時代になったら一転 今度はクローズしてはいけなくなったのだそうです。これは
+HTTP 1.1においては Keep Aliveがデフォルトですが、closeを明示的に呼び出すと ソケットをクローズしてしまう問題が発生する
+(場合がある) とのことです。無理にクローズしてしまうと、クライアント側が異常を検知してしまうことがあるとのこと。、、、この問題は 難易度が高かったです。でも
+あるべき姿を知ることが出来てとても嬉しいです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050315.html">2005/03/15 ���L: �V���v���ȃ_�E�����[�h�T�[�u���b�g�̐��` , Jakarta POI��Excel�����o���ɋꂵ�߂���</A>
+  <LI><A href="../2005/ig050315.html">2005/03/15 日記: シンプルなダウンロードサーブレットの雛形 , Jakarta POIのExcel書き出しに苦しめられる</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�u�͂��߂Ɂv�����M�ł��Ă��܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>「はじめに」が執筆できていません</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���҃v���t�B�[���Ƃ��тƂ��̏����͏����܂����B</P>
+<P>著者プロフィールとか帯とかの小物は書きました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�i�����p�� �j���[�u���b�W�Ƃ����i���X</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>喫茶＆パン ニューブリッジという喫茶店</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�x�{����� �i���X�ŏ��Бł����킹�B<BR>
-�j���[�u���b�W�̈Ӗ����l���Ă݂�B���� �Ȃ�ق� �u�V���v�̂��Ƃ��c (���)</P>
+<P>Ｙ本さんと 喫茶店で書籍打ち合わせ。<BR>
+ニューブリッジの意味を考えてみる。ああ なるほど 「新橋」のことか… (苦笑)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Tomcat�v���O�C��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Tomcatプラグイン</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����āA�����J�n (�����O���������Ƃ������Ă����悤�ȋC���c)</P>
+<P>さあて、調査開始 (少し前も同じことを言っていたような気が…)</P>
 <UL>
   <LI><A HREF="http://eclipsewiki.net/eclipse/index.php?Tomcat%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">http://eclipsewiki.net/eclipse/index.php?Tomcat%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3</A>
   <LI>Sysdeo Eclipse Tomcat Launcher plugin
   <UL>
     <LI><A HREF="http://www.sysdeo.com/eclipse/tomcatPlugin.html">http://www.sysdeo.com/eclipse/tomcatPlugin.html</A><BR>
-    2.2.1�������BtomcatPluginV221.zip�B�Ȃ�Ɠ��{�ꉻ���Ȃ���Ă��܂��I �т�����I
+    2.2.1を試す。tomcatPluginV221.zip。なんと日本語化がなされています！ びっくり！
   </UL>
 </UL>
-<P>�菇</P>
+<P>手順</P>
 <UL>
-  <LI>Eclispe��(���������Ă�����)��~
-  <LI>%eclipse_home%/plugins �� �𓀂����t�@�C�����R�s�[ (�悭����v���O�C���̓������@�ł���)
-  <LI>Eclipse���N��
-  <LI>�u�v���O�C���̗L�����v
+  <LI>Eclispeが(もし動いていたら)停止
+  <LI>%eclipse_home%/plugins に 解凍したファイルをコピー (よくあるプラグインの導入方法ですね)
+  <LI>Eclipseを起動
+  <LI>「プラグインの有効化」
   <UL>
-    <LI>�E�B���h�E(W) �� �p�[�X�y�N�e�B�u�̃J�X�^�}�C�Y(Z)
-    <LI>���̑� �� Tomcat �Ƀ`�F�b�N������
-    <LI>OK������
+    <LI>ウィンドウ(W) → パースペクティブのカスタマイズ(Z)
+    <LI>その他 → Tomcat にチェックを入れる
+    <LI>OKを押す
   </UL>
-  <LI>�uTomcat �z�[���f�B���N�g���̐ݒ�v
+  <LI>「Tomcat ホームディレクトリの設定」
   <UL>
-    <LI>�E�B���h�E(W) �� �ݒ�(P)
-    <LI>Tomcat�c���[�m�[�h��I��
-    <LI>�o�[�W������I��
+    <LI>ウィンドウ(W) → 設定(P)
+    <LI>Tomcatツリーノードを選択
+    <LI>バージョンを選択
     <UL>
-      <LI>Tomcat�z�[���� �u���E�Y(B) �������đI�� <BR>
-      �� C:\Program Files\Apache Group\Tomcat 4.1
+      <LI>Tomcatホームを ブラウズ(B) を押して選択 <BR>
+      例 C:\Program Files\Apache Group\Tomcat 4.1
       <LI>OK
     </UL>
   </UL>
-  <LI>�E�B���h�E(W)���ݒ�(P)
+  <LI>ウィンドウ(W)→設定(P)
   <UL>
-    <LI>[Java]�c���[�m�[�h���� [�C���X�g�[���ς� JRE] �c���[�m�[�h��I��
-    <LI>[�ǉ�]�{�^��
-    <LI>[JRE�̍쐬]�E�B���h�E
+    <LI>[Java]ツリーノード内の [インストール済み JRE] ツリーノードを選択
+    <LI>[追加]ボタン
+    <LI>[JREの作成]ウィンドウ
     <UL>
-      <LI>JRE�̌^ : �W��VM
-      <LI>JRE�� : J2SE SDK
-      <LI>JRE�̃z�[���f�B���N�g���[ : C:\j2sdk1.4.2
-      <LI>OK�{�^��
+      <LI>JREの型 : 標準VM
+      <LI>JRE名 : J2SE SDK
+      <LI>JREのホームディレクトリー : C:\j2sdk1.4.2
+      <LI>OKボタン
     </UL>
   </UL>
-  <LI>�E�B���h�E(W)���ݒ�(P)
+  <LI>ウィンドウ(W)→設定(P)
   <UL>
-    <LI>[Tomcat]�c���[�m�[�h���� [JVM�̐ݒ�] �c���[�m�[�h��I��
+    <LI>[Tomcat]ツリーノード内の [JVMの設定] ツリーノードを選択
     <UL>
-      <LI>JRE [J2SE SDK]��I��
-      <LI>OK�{�^��
+      <LI>JRE [J2SE SDK]を選択
+      <LI>OKボタン
     </UL>
   </UL>
 </UL>
-<P>����������ŁAEclipse���炤�܂��N���E�I���Ȃǂ͂ł���̂ł����A�͂āA�Ȃ����u���[�N�|�C���g�𗘗p�����f�o�b�O���s�����Ƃ��o���܂���B�͂āB</P>
+<P>しかしこれで、Eclipseからうまく起動・終了などはできるのですが、はて、なぜかブレークポイントを利用したデバッグを行うことが出来ません。はて。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTP�v���g�R���̃���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTPプロトコルのメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�������ׂĂ͌�����HTTP�v���g�R����RFC���{���</P>
+<P>いつも調べては見つけるHTTPプロトコルのRFC日本語訳</P>
 <UL>
   <LI>RFC-Translations related HTTP<BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/">http://www.studyinghttp.net/rfc_ja/</A>
   <LI>Hypertext Transfer Protocol -- HTTP/1.1 [RFC2616] <BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html">http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html</A>
-  <LI>�L���b�V���R���g���[��<BR>
+  <LI>キャッシュコントロール<BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/2616/sec14.html#sec14.9">http://www.studyinghttp.net/rfc_ja/2616/sec14.html#sec14.9</A>
 </UL>
-<P>(�Ɩ��A��) ���������ƁACache-Control �� Pragma: no-cache�Ƃ̈ʒu�Â����킩��܂��� �� ���ނۂ�</P>
+<P>(業務連絡) これを見ると、Cache-Control と Pragma: no-cacheとの位置づけがわかりますね ＞ たむぽん</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Web�u���E�U�̒ʐM���e������肷��\�t�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Webブラウザの通信内容を横取りするソフト</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���͉�Ђ̂��ނۂ񂳂񂩂� �\�t�g�������Ă��炤�B</P>
+<P>協力会社のたむぽんさんから ソフトを教えてもらう。</P>
 <UL>
-  <LI>������<BR>
+  <LI>横取り丸<BR>
   <A HREF="http://hide.maruo.co.jp/software/ydm.html">http://hide.maruo.co.jp/software/ydm.html</A><BR>
-  HTTP�d�����b�Z�[�W������肷��\�t�g�B�G�ۃ\�t�g�̎o���i�B
+  HTTP電文メッセージを横取りするソフト。秀丸ソフトの姉妹品。
   <LI>InetSpy<BR>
   <A HREF="http://hide.maruo.co.jp/software/inetspy.html">http://hide.maruo.co.jp/software/inetspy.html</A><BR>
-  �����ۂ𗘗p����ۂɈꏏ�ɃC���X�g�[������B
+  横取り丸を利用する際に一緒にインストールする。
 </UL>
-<P>�l�b�g���[�N���L���v�`�������O���ĉ{������Ƃ�����A�̗�����A�ƂĂ��X���[�Y�Ɏ��{�\�ł��B���΂炵���BWeb�n�J���̌���ɂ͂ƂĂ��֗����Ǝv���܂����B��{�I�ɂ̓l�b�g���[�N�L���v�`���\�t�g���D���Ȃ̂ł����A���������ȕւȃ\�t�g����ʂɂ���Ă͂��g�����肪�悢�悤�ł��ˁB�c������
-���̊J���҂̕��ɂ� arton����� FreePeek�������Ă����܂����B�܂� <A href="http://www.vector.co.jp/soft/winnt/net/se125800.html">FreePeek</A>���[�U�𑝂₷���Ƃɐ��������悤�ł��B</P>
+<P>ネットワークをキャプチャリングして閲覧するという一連の流れを、とてもスムーズに実施可能です。すばらしい。Web系開発の現場にはとても便利だと思いました。基本的にはネットワークキャプチャソフトが好きなのですが、こういう簡便なソフトも場面によってはより使い勝手がよいようですね。…ただし
+その開発者の方には artonさんの FreePeekを教えておきました。また <A href="http://www.vector.co.jp/soft/winnt/net/se125800.html">FreePeek</A>ユーザを増やすことに成功したようです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�X�V�p�x�̒Ⴂ�T�C�g���{���R��ɂȂ肪��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>更新頻度の低いサイトが閲覧漏れになりがち</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI><A HREF="http://d.hatena.ne.jp/satoshis/20040309#p1">http://d.hatena.ne.jp/satoshis/20040309#p1</A>
 </UL>
-<P>�ӂ��ށB���������v���܂��B�ł́A��������P���ׂ��A�A���e�i�ˑ��ǉ������u���H�v���āA���Ƃ��΁A�O��̉{�����Ԃ��L�����āA���������T�C�g���X�V�����ΗD��I�ɏ�ʂɕ\������悤�ȁA����Ȏ肪�����΂Ƃ��Ă��֗��ł����B(��
-����Ɋ�]�d�l�������Ă�����A��҂��񂪂������ܔ�������Ă��܂���)</P>
+<P>ふうむ。私もそう思います。では、これを改善すべく、アンテナ依存症加速装置を工夫して、たとえば、前回の閲覧時間を記憶して、そういうサイトが更新されれば優先的に上位に表示するような、そんな手が加わればとっても便利ですう。(と
+勝手に希望仕様を書いていたら、作者さんがすぐさま反応されてられました)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�I�[�P�X�g���ւ̂����Ȃ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オーケストラへのいざない</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���L�Ɉ����z���ȂǂƏ����Ă�����A�̏������Ă����I�[�P�X�g������ ���U�̃��[�����͂��܂����B</P>
+<P>日記に引っ越しなどと書いていたら、昔所属していたオーケストラから 勧誘のメールが届きました。</P>
 <UL>
-  <LI>�k�斯�I�[�P�X�g��<BR>
+  <LI>北区民オーケストラ<BR>
   <A HREF="http://www.bea.hi-ho.ne.jp/sasaki-fy/kitaorch/kitaorch.html">http://www.bea.hi-ho.ne.jp/sasaki-fy/kitaorch/kitaorch.html</A><BR>
-  ���L�p���[�A������ׂ��I
+  日記パワー、おそるべし！
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�A���t�@�V�X�e���Y�A����@�֌�����Linux�J�X�^�}�C�Y�T�[�r�X���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アルファシステムズ、教育機関向けのLinuxカスタマイズサービスを提供</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI><A HREF="http://enterprise.watch.impress.co.jp/cda/software/2004/03/15/1658.html">http://enterprise.watch.impress.co.jp/cda/software/2004/03/15/1658.html</A>
 </UL>
-<P>�قق��B<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂB">KNOPPIX</A>�x�[�X�ł����B���Ȃ��B</P>
+<P>ほほう。<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>ベースですか。やるなあ。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

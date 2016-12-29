@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/02/19 ���L: FindBugs �o�O�p�^�[�����m�c�[�� (Eclipse Plug-in�Ή�)</TITLE>
-<META name="DESCRIPTION" content="�o�O�p�^�[�������m���Ă����A���������֗��ȃc�[��������̂������ł��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/02/19 日記: FindBugs バグパターン検知ツール (Eclipse Plug-in対応)</TITLE>
+<META name="DESCRIPTION" content="バグパターンを検知してくれる、そういう便利なツールもあるのだそうです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/02/19 ���L: FindBugs �o�O�p�^�[�����m�c�[�� (Eclipse Plug-in�Ή�)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �o�O�p�^�[�������m���Ă����A���������֗��ȃc�[��������̂������ł��B</P>
+    <H2>2004/02/19 日記: FindBugs バグパターン検知ツール (Eclipse Plug-in対応)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] バグパターンを検知してくれる、そういう便利なツールもあるのだそうです。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,82 +59,82 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugs �o�O�p�^�[�����m�c�[�� (Eclipse Plug-in�Ή�)�Ƃ����I�[�v���\�[�X�\�t�g�E�F�A</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugs バグパターン検知ツール (Eclipse Plug-in対応)というオープンソースソフトウェア</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI>FindBugs - A Bug Pattern Detector for Java<BR>
   <A HREF="http://findbugs.sourceforge.net/">http://findbugs.sourceforge.net/</A><BR>
-  �o�O�p�^�[���ƏƂ炵���킹�āA�o�O�̉\���̂���\�[�X�R�[�h�����m���Ă����c�[���ł��B�z���C�g�{�b�N�X�e�X�g����������c�[���ł��B���΂炵������ Eclipse Plug-in���񋟂���Ă��܂��BLGPL���C�Z���X�� �Ή�����J2SE��1.4.0�ȍ~�Ƃ̂��ƁB�悭���肪����Java�̃o�O�����̊����ߑ����Ă���܂��BPMD�ł͕ߑ��ł��Ȃ����̂������ł��܂��B����͕֗��ł��ˁB
+  バグパターンと照らし合わせて、バグの可能性のあるソースコードを検知してくれるツールです。ホワイトボックステストを実現するツールです。すばらしい事に Eclipse Plug-inも提供されています。LGPLライセンスで 対応するJ2SEは1.4.0以降とのこと。よくありがちなJavaのバグ原因の幾つかを捕捉してくれます。PMDでは捕捉できないものも発見できます。これは便利ですね。
   <UL>
-    <LI>���͉��LWeb���L���瓾�܂����B�o�R���l�X�g���Ă��܂� (���)
+    <LI>情報は下記Web日記から得ました。経由がネストしています (苦笑)
     <LI>dot.Diary<BR>
-    <A HREF="http://d.hatena.ne.jp/dot/20040217#c">http://d.hatena.ne.jp/dot/20040217#c</A>�o�R
-    <LI>�˂ނ˂ޑ�<BR>
-    <A HREF="http://tkyk.tdiary.net/20040217.html#p01">http://tkyk.tdiary.net/20040217.html#p01</A>�o�R
+    <A HREF="http://d.hatena.ne.jp/dot/20040217#c">http://d.hatena.ne.jp/dot/20040217#c</A>経由
+    <LI>ねむねむ草<BR>
+    <A HREF="http://tkyk.tdiary.net/20040217.html#p01">http://tkyk.tdiary.net/20040217.html#p01</A>経由
   </UL>
 </UL>
-<P>������C���X�g�[�����邽�߂ɂ́A���L�̂Q�̃R���|�[�l���g���K�v�ɂȂ�܂��B</P>
+<P>これをインストールするためには、下記の２つのコンポーネントが必要になります。</P>
 <UL>
   <LI>Core Eclipse plugin
   <LI>UI Eclipse plugin 
 </UL>
-<P>��ʓI��Eclipse Plug-in�̃C���X�g�[�����@�ŃC���X�g�[�����s���̂ł����A�v���W�F�N�g�ŗL���ɂ��邽�߂�
-�v���W�F�N�g�m�[�h���E�N���b�N���āAFindBugs�m�[�h��I��� �`�F�b�N�{�b�N�X�Ƀ`�F�b�N������K�v������܂��B���̐ݒ���@��
-���܂茩����Ȃ����@�ł������AFindBugs��Web�y�[�W�ɍڂ��Ă��܂����B<BR>
-���̃c�[���̊������_�́A���b�Z�[�W�ɓ��{�ꉻ����Ă��邱�Ƃł��B���̓_�͓��Ɋ������ł��ˁB</P>
-<P>�����_�ł́A���L�̑g�ݍ��킹�œ��삷�鎖���m�F���܂����B</P>
+<P>一般的なEclipse Plug-inのインストール方法でインストールを行うのですが、プロジェクトで有効にするために
+プロジェクトノードを右クリックして、FindBugsノードを選んで チェックボックスにチェックを入れる必要があります。この設定方法は
+あまり見慣れない方法でしたが、FindBugsのWebページに載っていました。<BR>
+このツールの嬉しい点は、メッセージに日本語化されていることです。この点は特に嬉しいですね。</P>
+<P>現時点では、下記の組み合わせで動作する事を確認しました。</P>
 <UL>
   <LI>de.tobject.findbugs_0.0.3.zip
   <LI>edu.umd.cs.findbugs_0.7.0.zip
 </UL>
-<P>���ӓ_�ł����A�ŐV�ł� edu.umd.cs.findbugs_0.7.1.zip ��g�ݍ��킹�悤�Ƃ����Ƃ���A�c�O�Ȏ���
-����ł͂��܂������܂���ł��� (���) ������ �����Ȃ��������Ƃ����b�Z�[�W�{�b�N�X�Ȃǂŕ\�����ꂽ�肵�Ȃ��̂ŁA���̓_
-���ӂ��K�v�ł��B�� <A href="ig040406.html">���̌��ۂ̓^���ɂ��Ă͌���̓��L���Q��</A>�B</P>
-<P>�Ȃ񂾂� ������Ƃ��� Eclipse Plug-in�ɏڂ����Ȃ��Ă��Ă��܂��B���傤�Ǎ������Ă���d����
-Eclipse�n�̕����݌v�Ȃ��̂� (���)<BR>
-���Ԃ̕��X�̃I�[�v���\�[�X�ւ̂��s�͂ɂ���āAEclipse Plug-in���g���₷���Ȃ��Ă��܂��ˁB(���Ƀ��b�Z�[�W�̓��{�ꉻ�ɂ͂т�����)
-�݂Ȃ���̂��s�͂Ɋ��ӂ��܂��B</P>
-<P><FONT color="#ff0000">2005.03.05</FONT> �v���Ԃ�� Eclipse���FindBugs�𗘗p���܂����B����� Eclipse 3.0.1 + ���ۉ��p�b�N�̑g�ݍ��킹�ł��B�{�Ƃ���_�E�����[�h�������W���[����
-���̂܂ܓ��{��łƂ��ē��삷��悤�ɂȂ��Ă��܂����B�֌W�҂݂̂Ȃ��܁A�ǂ������肪�Ƃ��������܂��B</P>
+<P>注意点ですが、最新版の edu.umd.cs.findbugs_0.7.1.zip を組み合わせようとしたところ、残念な事に
+これではうまく動きませんでした (苦笑) しかも 動かなかったことがメッセージボックスなどで表示されたりしないので、この点
+注意が必要です。→ <A href="ig040406.html">この現象の顛末については後日の日記を参照</A>。</P>
+<P>なんだか ここんところ Eclipse Plug-inに詳しくなってきています。ちょうど今扱っている仕事が
+Eclipse系の方式設計なもので (苦笑)<BR>
+世間の方々のオープンソースへのご尽力によって、Eclipse Plug-inが使いやすくなっていますね。(特にメッセージの日本語化にはびっくり)
+みなさんのご尽力に感謝します。</P>
+<P><FONT color="#ff0000">2005.03.05</FONT> 久しぶりに Eclipse上でFindBugsを利用しました。今回は Eclipse 3.0.1 + 国際化パックの組み合わせです。本家からダウンロードしたモジュールが
+そのまま日本語版として動作するようになっていました。関係者のみなさま、どうもありがとうございます。</P>
 <UL>
   <LI>FindBugs (SourceForge)<BR>
   <A HREF="http://sourceforge.net/projects/findbugs">http://sourceforge.net/projects/findbugs</A>
-  <LI>FindBugs Ecilpse�v���O�C�� : de.tobject.findbugs.0.0.13.zip<BR>
-  de.tobject.findbugs.0.0.13.zip���_�E�����[�h��A�𓀂��� Eclipse�̒ʏ�̃v���O�C�������菇�𓥂݂܂��B
+  <LI>FindBugs Ecilpseプラグイン : de.tobject.findbugs.0.0.13.zip<BR>
+  de.tobject.findbugs.0.0.13.zipをダウンロード後、解凍して Eclipseの通常のプラグイン導入手順を踏みます。
 </UL>
-<P>�Ȃ��A���� PMD Ecilpse�v���O�C�������p���悤�Ɗ撣���Ă݂��̂ł����A���̃}�V���ł͏d�����Ďg�����ɂȂ�܂���ł����BFindBugs�Ȃ�A�܂����삵�Ă��܂��B�����ĂȂɂ����A�V���b�L���O�ȃo�O�𔭌����Ă���܂��B</P>
-<P><B><FONT color="#ff00ff">�֘A���鎑��</FONT></B></P>
+<P>なお、今回 PMD Ecilpseプラグインも利用しようと頑張ってみたのですが、私のマシンでは重すぎて使い物になりませんでした。FindBugsなら、まあ動作しています。そしてなによりも、ショッキングなバグを発見してくれます。</P>
+<P><B><FONT color="#ff00ff">関連する資料</FONT></B></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Java�ŏ����ꂽ�I�[�v���\�[�X�ȓ����J�����BJava����ɂ��J���ɂ����Ĉ��|�I�ȃ��[�U�̎x���𓾂Ă��܂��B">Eclipse</A>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaで書かれたオープンソースな統合開発環境。Java言語による開発において圧倒的なユーザの支持を得ています。">Eclipse</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MS Project�����]</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MS Project入手希望</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���悢��d���� MS Project�������͎g��Ȃ��Ă͂Ȃ�Ȃ�����ɂȂ��Ă����悤�ł��B(���܂ł�
-�Ȃ�ƂȂ������ł�肭�肵�Ă����̂ł����A�������Ɏ��͂ɖ��f�������Ă���܂�)
-�Ƃ������ƂŁA�w������Ȃ�Ȃ�Ȃ肵�āAMS Project�𗘗p�������ł��B�c
-��Ђ̂ǂȂ����A�w����z�����肢�������܂��B</P>
+<P>いよいよ仕事で MS Projectを少しは使わなくてはならない立場になってきたようです。(今までも
+なんとなく無しでやりくりしてきたのですが、さすがに周囲に迷惑をかけております)
+ということで、購入するなりなんなりして、MS Projectを利用したいです。…
+会社のどなたか、購入手配をお願いいたします。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���͉�Ѓ]�[���ƍs����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>協力会社ゾーンと行き来</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�A���t�@�V�X�e���Y(<A HREF="http://www.alpha.co.jp/">http://www.alpha.co.jp/</A>)����B�� �����̒[�����ŁA���͔�r�I���Α��̕����̒[�����ŁA�s�������Ă��܂��B�����ł��B�ł�
-�s�������鎖�� ���ꂪ�ӊO�ɂ��ǂ��^���ɂȂ�܂��B</P>
+<P>アルファシステムズ(<A HREF="http://www.alpha.co.jp/">http://www.alpha.co.jp/</A>)さん達が 部屋の端っこで、私は比較的反対側の部屋の端っこで、行き来しています。遠いです。でも
+行き来する事で これが意外にも良い運動になります。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig040219.src.html' , result='ig040219.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig040219-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://jakarta.apache.org/commons/httpclient/">Jakarta HttpClient 2.0 �����Ń����[�X</A> <FONT size="-2"><A target="_blank" HREF="http://jakarta.apache.org/commons/httpclient/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>���\���Ԃŗǂ����p����Ă���Jakarta HttpClient 2.0�̐����ł� (�����I�ɂ�)�悤����ƍ��񃊃��[�X�̉^�тƂȂ�܂����B<LI><A HREF="http://jibun.atmarkit.co.jp/lcareer01/special/nensyu-up/nensyu01.html">SE�N���A�b�v���� -26�΁A35�΂ŕ���_������Ă���I-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lcareer01/special/nensyu-up/nensyu01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>����̔N��Ƀt�H�[�J�X�������ϔN���Ȃ�Ă����L�P���Ȏ������ڂ��Ă��܂��B���Ȃ݂� ���͎����Ƃ��� �v���Z�[���X��R���T���e�B���O�𐶋ƂƂ��Ă��܂��B�ӂނӂށB���Ă͂߂Ă݂�Ǝ��̉p��̖͂����� �܂��v���I�ł��鎖���킩��܂��� (���) �j�āA���͂��������q���[�}���X�L���n�̋L������D���Ȃ�ł��B<LI><A HREF="http://www.nttd-bb.com/corporate/news/2004-0216.html">��Ђ̓d�q���[���A�h���X�̕ύX�ɂ���</A> <FONT size="-2"><A target="_blank" HREF="http://www.nttd-bb.com/corporate/news/2004-0216.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>���[�������������ۂɂ́A�V�A�h���X�ɂ����肭�������܂��B�l�p���[���A�h���X�͏]���ʂ�ł��B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040217/139953/">����Java AP�T�[�o�[JBoss�̃T�|�[�g�⋳��T�[�r�X�C�A�C�I�i�����{�ŊJ�n��</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040217/139953/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�قق��BJBoss���T�|�[�g�����Ђ����{�ł�����Ă����̂ł��ˁB<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20064324,00.htm">�uJava�R�[�h���I�[�v���Ɂv--E�E���C�����h�A�T���ɗL�����s�����߂�</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20064324,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�R���g���[������Ă��邩�炱���ǂ��_������܂��̂Łc�B�\�[�X�R�[�h���̂��̂̌��J�͂����Ԃ�ƑO�����������Ă��܂����ˁB�Ȃ�ɂ���JCP�����܂��@�\���Ă���΁A�ǂ��̂��Ȃ��A�Ȃ���Ďv���Ă��܂��B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig040219-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://jakarta.apache.org/commons/httpclient/">Jakarta HttpClient 2.0 正式版リリース</A> <FONT size="-2"><A target="_blank" HREF="http://jakarta.apache.org/commons/httpclient/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>結構世間で良く利用されているJakarta HttpClient 2.0の正式版が (現実的には)ようやっと今回リリースの運びとなりました。<LI><A HREF="http://jibun.atmarkit.co.jp/lcareer01/special/nensyu-up/nensyu01.html">SE年収アップ大作戦 -26歳、35歳で分岐点がやってくる！-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lcareer01/special/nensyu-up/nensyu01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>特定の年齢にフォーカスした平均年収なんていうキケンな資料が載っています。ちなみに 私は実務として プリセールスやコンサルティングを生業としています。ふむふむ。当てはめてみると私の英語力の無さが まず致命的である事がわかりました (苦笑) 嗚呼、私はこういうヒューマンスキル系の記事が大好きなんです。<LI><A HREF="http://www.nttd-bb.com/corporate/news/2004-0216.html">会社の電子メールアドレスの変更について</A> <FONT size="-2"><A target="_blank" HREF="http://www.nttd-bb.com/corporate/news/2004-0216.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>メールをいただく際には、新アドレスにお送りくださいませ。個人用メールアドレスは従来通りです。<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040217/139953/">無償Java APサーバーJBossのサポートや教育サービス，アイオナが日本で開始へ</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040217/139953/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>ほほう。JBossをサポートする会社が日本でも現れてきたのですね。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20064324,00.htm">「Javaコードをオープンに」--E・レイモンド、サンに有言実行を求める</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20064324,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>コントロールされているからこそ良い点もありますので…。ソースコードそのものの公開はずいぶんと前から実現されていますしね。なんにせよJCPがうまく機能していれば、良いのかなぁ、なあんて思っています。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

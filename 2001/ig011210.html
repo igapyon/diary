@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2001/12/10 ���L: ���Ԃ�DB�R�l�N�V�����v�[������������</TITLE>
-<META name="DESCRIPTION" content="�t���[��DB�R�l�N�V�����v�[�������̂����߂�T����PoolMan�ɗ������������ł�">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,�R�l�N�V�����v�[��,JDBC,PoolMan,�T���v���\�[�X�R�[�h,Oracle">
+<TITLE>2001/12/10 日記: 世間のDBコネクションプール実装を試す</TITLE>
+<META name="DESCRIPTION" content="フリーなDBコネクションプール実装のお勧めを探索→PoolManに落ち着きそうです">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,コネクションプール,JDBC,PoolMan,サンプルソースコード,Oracle">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:45+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2001/12/10 ���L: ���Ԃ�DB�R�l�N�V�����v�[������������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,�R�l�N�V�����v�[��,JDBC,PoolMan,�T���v���\�[�X�R�[�h,Oracle] �t���[��DB�R�l�N�V�����v�[�������̂����߂�T����PoolMan�ɗ������������ł�</P>
+    <H2>2001/12/10 日記: 世間のDBコネクションプール実装を試す</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,コネクションプール,JDBC,PoolMan,サンプルソースコード,Oracle] フリーなDBコネクションプール実装のお勧めを探索→PoolManに落ち着きそうです</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,101 +58,101 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Palm Desktop 4.0.1 �Ƀo�[�W�����A�b�v</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Palm Desktop 4.0.1 にバージョンアップ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Windows XP ��� ���o�[�W������ Palm HotSync����CPU��������Ă��܂��s��ɑς����˂āA����
-Palm Desktop 4.0.1 �ւƃo�[�W�����A�b�v���Ă��܂��܂����B(���\�ȁc) �ł�
-�Ȃ�ƂȂ������Ɠ��삵�Ă��܂��B����� CPU�U��؂�o�O�Ɋւ��Ă� �ς킳�ꂸ�ɍς݂����ł��B�Ȃ񂽂���
-Palm Desktop �� HotSync �� ���ɂƂ��ĂƂ��Ă��d�v�ȃ\�t�g�E�F�A�Ȃ�ł����́B</P>
+<P>Windows XP 上で 旧バージョンの Palm HotSyncが超CPU消費をしてしまう不具合に耐えかねて、ついに
+Palm Desktop 4.0.1 へとバージョンアップしてしまいました。(乱暴な…) でも
+なんとなくちゃんと動作しています。これで CPU振り切りバグに関しては 煩わされずに済みそうです。なんたって
+Palm Desktop と HotSync は 私にとってとっても重要なソフトウェアなんですもの。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DB�R�l�N�V�����v�[������ ���y�����ׂ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DBコネクションプール実装 を軽く調べる</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�R�l�N�V�����v�[���ŉ����������K�v�Ȃ̂ŁA<BR>
-��n�߂� ����`�� Avalon Excalibur: Pool���� �𒭂߂܂����B�ł� �������DB�R�l�N�V�����v�[���Ƃ��Ă͎g�����ɂȂ肻���ɂ���܂���ł����B</P>
+<P>コネクションプールで何か実装が必要なので、<BR>
+手始めに かる～く Avalon Excalibur: Pool実装 を眺めました。でも ちょっとDBコネクションプールとしては使い物になりそうにありませんでした。</P>
 <UL>
-  <LI>Jakarta Avalon Excalibur: Pool����<BR>
+  <LI>Jakarta Avalon Excalibur: Pool実装<BR>
   <A HREF="http://jakarta.apache.org/avalon/excalibur/pool.html">http://jakarta.apache.org/avalon/excalibur/pool.html</A>
 </UL>
-<P>���� Jakarta Commons �� DBCP�����Ă݂܂����B�� ���� CVS�݂̂ł̒񋟂Ȃ̂ŁA����̓X�L�b�v�B</P>
+<P>次に Jakarta Commons の DBCPを見てみました。が 現状 CVSのみでの提供なので、これはスキップ。</P>
 <UL>
   <LI>Jakarta Commons: DBCP<BR>
   <A HREF="http://jakarta.apache.org/commons/index.html">http://jakarta.apache.org/commons/index.html</A>
 </UL>
-<P>�c�A�f�l�ڂɂ� Jakarta�n�� �܂��܂��g�����Ƃ��o�����ԂƂ� �v���܂���B���āA�H������
-�����̋L���� �w�R�l�N�V�����v�[���� ���̃��C�u�����������߁x �Ə�����Ă����悤�ɋL�����܂����A�����
-��̂ǂ��������ł��傤���H # �Âɕ����Ă���̂ł������c (��)</P>
-<P><FONT color="#ff0000">2001/12/11</FONT> �X�K���񂩂�c�b�R�~<BR>
-<CITE>�X�K�ł��B<BR>
-�H������łȂ��čς݂܂���(��)<BR>
-<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">WEB+DB PRESS Vol.5</A> �̋L���ŉH������ PoolMan ���Љ��Ă��܂��ˁB</CITE></P>
+<P>…、素人目には Jakarta系は まだまだ使うことが出来る状態とは 思えません。さて、羽生さんが
+何かの記事で 『コネクションプールは このライブラリがお勧め』 と書かれていたように記憶しますが、それは
+一体どこだったでしょうか？ # 暗に聞いているのであった… (笑)</P>
+<P><FONT color="#ff0000">2001/12/11</FONT> スガさんからツッコミ<BR>
+<CITE>スガです。<BR>
+羽生さんでなくて済みませんが(笑)<BR>
+<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">WEB+DB PRESS Vol.5</A> の記事で羽生さんが PoolMan を紹介されていますね。</CITE></P>
 <UL>
   <LI><CITE>PoolMan Object Pooling Library and JDBC Driver<BR>
   <A HREF="http://www.codestudio.com/">http://www.codestudio.com/</A></CITE>
   <LI><CITE>PoolMan on SourceForge : LGPL</CITE><BR>
   <CITE><A HREF="http://sourceforge.net/projects/poolman/">http://sourceforge.net/projects/poolman/</A></CITE>
 </UL>
-<P><CITE>�F�X�Ȑl���������Ă���̂ł���ł͂Ȃ����ƁB���͎g�������Ƃ�����܂��񂯂�ǁB<BR>
+<P><CITE>色々な人が挙げられているのでこれではないかと。私は使ったことがありませんけれど。<BR>
 <BR>
-# �܂����������ǂł� &gt; Vol.5<BR>
-# �Ƃ��������ݎR�̂悤�Ȑϓǂ�(���)</CITE></P>
-<P><FONT color="#ff0000">2001/12/11</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="���Z�p�̊J������œ������r�Z�p�҂ŁA�����Z�p���C�^�[������Ă�����B���ړI�Ȗʎ������� �ƂĂ������e����^���Ė���Ă��܂��BFlash MX���Ɩ��V�X�e���Ŏg���Ƃ������E�Ɏ��������Ȃ����̂��H������ ���̐l�ł��B">�H���͗m</A>���񂩂�c�b�R�~<BR>
-<CITE>�H�����M�������Ē��v���i�F���񂭂ꂮ������C�����āj�ł�(^^;<BR>
-���@����Ȏ��𖜔������ɘA��o�����䂪�Ƃ̕P���Ă�(T_T)<BR>
+# まだ八割方未読です &gt; Vol.5<BR>
+# というか現在山のような積読が(苦笑)</CITE></P>
+<P><FONT color="#ff0000">2001/12/11</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="情報技術の開発現場で働く凄腕技術者で、且つ情報技術ライターをされている方。直接的な面識もあり とても強い影響を与えて貰っています。Flash MXを業務システムで使うという世界に私をいざなったのも羽生さん その人です。">羽生章洋</A>さんからツッコミ<BR>
+<CITE>羽生＠熱があって沈没中（皆さんくれぐれもお気をつけて）です(^^;<BR>
+＃　そんな私を万博公園に連れ出した我が家の姫ってば(T_T)<BR>
 <BR>
-&gt; �H������łȂ��čς݂܂���(��)<BR>
-�t�H���[���肪�Ƃ��������܂����`(^^)<BR>
+&gt; 羽生さんでなくて済みませんが(笑)<BR>
+フォローありがとうございますぅ～(^^)<BR>
 <BR>
-&gt; WEB+DB PRESS Vol.5 �̋L���ŉH������ PoolMan ���Љ��Ă��܂��ˁB<BR>
-&gt; �F�X�Ȑl���������Ă���̂ł���ł͂Ȃ����ƁB<BR>
+&gt; WEB+DB PRESS Vol.5 の記事で羽生さんが PoolMan を紹介されていますね。<BR>
+&gt; 色々な人が挙げられているのでこれではないかと。<BR>
 <BR>
-�Ƃ肠�����A�������������ł��E�߂��ꂽ���F�X�Ǝ����Ă݂��̂ŁA�܂��͂���ő��v���Ǝv���܂��B<BR>
+とりあえず、私もあちこちでお薦めされた＆色々と試してみたので、まずはこれで大丈夫だと思います。<BR>
 <BR>
-���@Oracle��JDBC�h���C�o�ɂ��W���ł��Ă܂���ˁA���Ęb�ł͂Ȃ���ł��傤��(^^;<BR>
+＃　OracleのJDBCドライバにも標準でついてますよね、って話ではないんでしょうね(^^;<BR>
 <BR>
-���āAAvalon�n�Ƃ����΁A�ŋ߂̃}�C�u�`����C2�iCocoon2�j�ł��B<BR>
-����`�A�ʔ����I�����y�I�֗��I�ō��I�@���̂悤�ɋZ�p3���蔲��1���̐l�Ԃ̂��߂ɂ���悤�Ȏd�g�݂ł�(^^;<BR>
+さて、Avalon系といえば、最近のマイブ～ムはC2（Cocoon2）です。<BR>
+いや～、面白い！つぅか楽！便利！最高！　私のように技術3流手抜き1流の人間のためにあるような仕組みです(^^;<BR>
 <BR>
-&gt; # �܂����������ǂł� &gt; Vol.5<BR>
-&gt; # �Ƃ��������ݎR�̂悤�Ȑϓǂ�(���)<BR>
+&gt; # まだ八割方未読です &gt; Vol.5<BR>
+&gt; # というか現在山のような積読が(苦笑)<BR>
 <BR>
-�ŋߐϓǂ𐏕��Ɖ������܂���(^^)v�@�����E���𖈏T��������̂ňړ����Ԃ̊Ԃɐ����Ə������܂����ł��A�͂��B<BR>
-�Ƃ����킯�ŁA���v���܂��B�B�B�ł�ł�B�B�B</CITE></P>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�݂Ȃ��� �����̃c�b�R�~���肪�Ƃ��������܂��B�������� PoolMan 2.0.4 �������Ă݂܂��B���Ă݂���
-�����_�� 13,654�_�E�����[�h������܂����B�����������Ȃ��B<BR>
-# ���Ȃ݂ɁAOracle JDBC �ɃR�l�N�V�����v�[������������Ă�����Ă̂� �S���c���ł��Ă܂���ł����B<BR>
-�A�A�A<BR>
-Cocoon2�� �H������̂��Ƃ����� �����ƃn�}���Ă���ɈႢ�Ȃ��Ǝv���Ă���܂����B��͂�n�}���Ă܂�����
-(��)<BR>
+最近積読を随分と解消しました(^^)v　東京・大阪を毎週往復するので移動時間の間に随分と消化しましたです、はい。<BR>
+というわけで、沈没します。。。でわでわ。。。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+みなさま 早速のツッコミありがとうございます。さっそく PoolMan 2.0.4 を試してみます。見てみたら
+現時点で 13,654ダウンロードもありました。すごい数だなぁ。<BR>
+# ちなみに、Oracle JDBC にコネクションプールが実装されているってのは 全く把握できてませんでした。<BR>
+、、、<BR>
+Cocoon2は 羽生さんのことだから きっとハマっているに違いないと思っておりました。やはりハマってましたね
+(笑)<BR>
 <BR>
-# ���Ȃ݂ɉ䂪�Ƃ̃}�C�u�[���� �w����ߒr�V���n�x</P>
+# ちなみに我が家のマイブームは 『あやめ池遊園地』</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PoolMan���g���Ă݂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PoolManを使ってみる</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">12/11 11:20��</FONT> PoolMan�����������c<BR>
-Web+DB Press Vol.3�� �������͂��Ȃ̂ł����A�����邱�Ƃ��o���� (���)</P>
+<P><FONT color="#ff0000">12/11 11:20頃</FONT> PoolMan少し試し中…<BR>
+Web+DB Press Vol.3は 買ったはずなのですが、見つけることが出来ず (苦笑)</P>
 <UL>
-  <LI>JNDI�����œ��삷��̂��ǂ����������B
-  <LI>�Œ���K�v��JAR�́Ajta.jar, poolman.jar �ł���͗l�B
+  <LI>JNDI無しで動作するのかどうか試し中。
+  <LI>最低限必要なJARは、jta.jar, poolman.jar である模様。
 </UL>
-<P>�K�v�ȕύX�͉��L</P>
+<P>必要な変更は下記</P>
 <UL>
-  <LI>�� DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());<BR>
-  �� DriverManager.registerDriver(new com.codestudio.sql.PoolMan());
-  <LI>�� Connection conn=DriverManager.getConnection(DNS,USER,PASS);<BR>
-  �� Connection conn=DriverManager.getConnection(&quot;jdbc:poolman&quot;);
+  <LI>元 DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());<BR>
+  後 DriverManager.registerDriver(new com.codestudio.sql.PoolMan());
+  <LI>元 Connection conn=DriverManager.getConnection(DNS,USER,PASS);<BR>
+  後 Connection conn=DriverManager.getConnection(&quot;jdbc:poolman&quot;);
 </UL>
-<P>�Ƃ肠������ poolman.xml �ݒ�͉��L�B</P>
+<P>とりあえずの poolman.xml 設定は下記。</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -179,24 +179,24 @@ Web+DB Press Vol.3�� �������͂��Ȃ̂ł����A�����邱�Ƃ��o���� (���)</P>
     </TR>
   </TBODY>
 </TABLE>
-<P>�f�t�H���g�ݒ�ɉ����āA������ nativeResults ����� maximumSoft ��ǉ����Ă݂܂����B<BR>
-�������A���� ���ڂ���INSERT���s���� OutOfMemoryError ���������č����Ă��܂��B�^�X�N�}�l�[�W�������Ă����
-���킶�탁�����g�p�ʂ������Ă����āA���ɔj�]���� OutOfMemoryError���������Ă��܂��܂��B�R�l�N�V�����v�[�����g�킸�ɐ��ŗ��p���Ă�����
-����Ȃ��Ɩ����̂ł����c�B���� �����͋C���ɒ������邵������������c�B���Ƃ܂����Ă��܂��B</P>
-<P><FONT color="#ff0000">2001/12/11 12:53</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="���Z�p�̊J������œ������r�Z�p�҂ŁA�����Z�p���C�^�[������Ă�����B���ړI�Ȗʎ������� �ƂĂ������e����^���Ė���Ă��܂��BFlash MX���Ɩ��V�X�e���Ŏg���Ƃ������E�Ɏ��������Ȃ����̂��H������ ���̐l�ł��B">�H���͗m</A>���񂩂�c�b�R�~<BR>
-<CITE>�H�����S�R���ׂ�����Ȃ��A�ł��B<BR>
+<P>デフォルト設定に加えて、試しに nativeResults および maximumSoft を追加してみました。<BR>
+ただし、現状 ずぼずぼINSERTを行うと OutOfMemoryError が発生して困っています。タスクマネージャを見ていると
+じわじわメモリ使用量が増えていって、ついに破綻して OutOfMemoryErrorが発生してしまいます。コネクションプールを使わずに生で利用していたら
+こんなこと無いのですが…。さて 原因は気長に調査するしか無いかしら…。ちとつまずいています。</P>
+<P><FONT color="#ff0000">2001/12/11 12:53</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="情報技術の開発現場で働く凄腕技術者で、且つ情報技術ライターをされている方。直接的な面識もあり とても強い影響を与えて貰っています。Flash MXを業務システムで使うという世界に私をいざなったのも羽生さん その人です。">羽生章洋</A>さんからツッコミ<BR>
+<CITE>羽生＠全然風邪が治らない、です。<BR>
 <BR>
-&gt; Web+DB Press Vol.3�� �������͂��Ȃ̂ł����A�����邱�Ƃ��o���� <BR>
+&gt; Web+DB Press Vol.3は 買ったはずなのですが、見つけることが出来ず <BR>
 <BR>
-���Ƃ��ƁA<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>�ł�(^^;�@���AVol.3�ɂ́AFlash��Web�N���C�A���g�ɂ���Ƃ����L���������Ă��܂��i�ŁA����͂����������\�ʔ������̂����J�ł���\��ł��j�B<BR>
-���@��`��`(^^;</CITE></P>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�������A3��5�����ԈႦ (���)�B<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>�� ��Ђ̐�y �q�g�~���񂪍w�����������ł�������A���� ������@�ɔ����Ă݂悤�Ǝv���܂��ł��BJDBC����̗ǂ��L������������ڂ��Ă��܂��ˁB����͔������Ȃ��B</P>
+えとえと、<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>です(^^;　尚、Vol.3には、FlashをWebクライアントにするという記事を書いています（で、これはもうすぐ結構面白いものを公開できる予定です）。<BR>
+＃　宣伝宣伝(^^;</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+ああっ、3と5を見間違え (苦笑)。<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>は 会社の先輩 ヒトミさんが購入しただけでしたから、私も これを機に買ってみようと思いますです。JDBC周りの良い記事がたくさん載っていますね。これは買いだなぁ。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig011210.src.html' , result='ig011210.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig011210-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">Mac OS X��Java 1.4�Ή���2002�N5���Ƀv���r���[��8���ɐ�����</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>2002/02 J2SE 1.3.1�A�b�v�f�[�g1 �B2002/05 J2SE 1.3.1�A�b�v�f�[�g2�B2002/02 J2SE 1.4�B<LI><A HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">�Г��d�q���[���̃v���C�o�V�[�͌���I�c�����n�ٔ���</A> <FONT size="-2"><A target="_blank" HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>���������ɂ͏\�����ӂ��܂��傤�B<LI><A HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">Windows NT Server 4.0�C2003�N7���ɑS�ʈ���</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Windows NT 4.0 �� ���������C�ɓ����Ă��܂����B</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig011210-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">Mac OS XのJava 1.4対応は2002年5月にプレビューで8月に正式版</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>2002/02 J2SE 1.3.1アップデート1 。2002/05 J2SE 1.3.1アップデート2。2002/02 J2SE 1.4。<LI><A HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">社内電子メールのプライバシーは限定的…東京地裁判決</A> <FONT size="-2"><A target="_blank" HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>誤った宛先には十分注意しましょう。<LI><A HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">Windows NT Server 4.0，2003年7月に全面引退</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Windows NT 4.0 は そこそこ気に入っていました。</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:45 $</address>
 </BODY>
 </HTML>

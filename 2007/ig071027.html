@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/10/27 ���L: blancoAntTask �ɃR�}���h���C���Ή��\�[�X�R�[�h����������ǉ�</TITLE>
-<META name="DESCRIPTION" content="blanco Framework �� blancoAntTask �� �R�}���h���C���Ή��\�[�X�R�[�h����������ǉ����܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/10/27 日記: blancoAntTask にコマンドライン対応ソースコード自動生成を追加</TITLE>
+<META name="DESCRIPTION" content="blanco Framework の blancoAntTask に コマンドライン対応ソースコード自動生成を追加しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/10/27 ���L: blancoAntTask �ɃR�}���h���C���Ή��\�[�X�R�[�h����������ǉ�</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] blanco Framework �� blancoAntTask �� �R�}���h���C���Ή��\�[�X�R�[�h����������ǉ����܂����B</P>
+    <H2>2007/10/27 日記: blancoAntTask にコマンドライン対応ソースコード自動生成を追加</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Framework の blancoAntTask に コマンドライン対応ソースコード自動生成を追加しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,72 +60,72 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoAntTask �ɃR�}���h���C���Ή��\�[�X�R�[�h����������ǉ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoAntTask にコマンドライン対応ソースコード自動生成を追加</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> �� blancoAntTask �� �R�}���h���C���Ή��\�[�X�R�[�h����������ǉ����܂����B<BR>
-��blancoAntTask �� ������ Ant�^�X�N���쐬����l�̂��߂̃c�[���ł��B�ʏ�̐l�� ���O�� Ant�^�X�N���쐬���Ȃ��̂ŁA�قƂ�ǂ̐l�ɂ́A����͊֌W�̖������̂ł��B�����
-���O�� Ant�^�X�N���쐬����悤�Ȑl�ɂ� blancoAntTask�� �ƂĂ������߂̃c�[���ł��B</P>
-<P>blancoAntTask �� Apache Ant �̂��߂� AntTask��`������ Ant�^�X�N�������ŊJ������ۂɕK�v�ƂȂ�\�[�X�R�[�h��������������c�[���ł��B���̃c�[����������������\�[�X�R�[�h��
-�V���� �R�}���h���C���Ή���ǉ����܂����B</P>
-<P>����ɂ��AAntTask��`�����L������ Ant�^�X�N���쐬����ƁA���ꂪ���̂܂� �R�}���h���C���Ή������邱�Ƃ��ł���悤�ɂȂ�܂��BAnt���N������܂ł��Ȃ��A��y�Ƀo�b�`�N���������A������������ʂŁA���̃R�}���h���C���Ή��͈З͂𔭊����܂��B�������A�R�}���h���C���Ή����������A������������\�[�X�R�[�h�̓�Փx���オ���Ă��܂��Ă��܂����A����͂�ނ𓾂Ȃ����Ƃł��傤�B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の blancoAntTask に コマンドライン対応ソースコード自動生成を追加しました。<BR>
+※blancoAntTask は 自分で Antタスクを作成する人のためのツールです。通常の人は 自前で Antタスクを作成しないので、ほとんどの人には、これは関係の無いものです。一方で
+自前で Antタスクを作成するような人には blancoAntTaskは とてもお奨めのツールです。</P>
+<P>blancoAntTask は Apache Ant のための AntTask定義書から Antタスクを自分で開発する際に必要となるソースコードを自動生成するツールです。このツールが自動生成するソースコードへ
+新たに コマンドライン対応を追加しました。</P>
+<P>これにより、AntTask定義書を記入して Antタスクを作成すると、それがそのまま コマンドライン対応をすることができるようになります。Antを起動するまでもなく、手軽にバッチ起動したい、そういった場面で、このコマンドライン対応は威力を発揮します。ただし、コマンドライン対応をした分、自動生成するソースコードの難易度が上がってしまっていますが、これはやむを得ないことでしょう。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���{�������A���̗��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日本中将棋連盟の例会</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����A���{�������A���̗��� (�q����) �Q�����܂����B(�����{�����A���ł͂���܂���B���{�������A���ł��I)</P>
-<P>���������΁A<A href="http://www.shogi.or.jp/">���{�����A��</A>��<A href="http://www.shogi.or.jp/~doujou/">����������ٓ���</A>�̏����̋�A�؂̋�ɂȂ��Ă��܂����B�ƂĂ��w���S�n���ǂ������ł��B</P>
+<P>先日、日本中将棋連盟の例会に (子供が) 参加しました。(※日本将棋連盟ではありません。日本中将棋連盟です！)</P>
+<P>そういえば、<A href="http://www.shogi.or.jp/">日本将棋連盟</A>の<A href="http://www.shogi.or.jp/~doujou/">東京将棋会館道場</A>の将棋の駒が、木の駒になっていました。とても指し心地が良かったです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>お買い物</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�J���}�[�]�t�̌Z���DVD���w���B</P>
+<P>カラマーゾフの兄弟のDVDを購入。</P>
 <UL>
-  <LI>�J���}�[�]�t�̌Z�� DVD<BR>
+  <LI>カラマーゾフの兄弟 DVD<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig071027.src.html' , result='ig071027.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/B000NVTIYU/igapyondiary-22">amazon.co.jp: B000NVTIYU</A>
 </UL>
-<P>����ȊO�́A�������̂��̂��w���B</P>
+<P>それ以外の、もろもろのものを購入。</P>
 <UL>
-  <LI>���[�r�b�N�L���[�u<BR>
+  <LI>ルービックキューブ<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/B0007LBEE8/igapyondiary-22">amazon.co.jp: B0007LBEE8</A>
-  <LI>�@����m�K���_����N�푈�S�j
+  <LI>機動戦士ガンダム一年戦争全史
   <UL>
-    <LI>�@����m�K���_����N�푈�S�j(��)<BR>
+    <LI>機動戦士ガンダム一年戦争全史(上)<BR>
     <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4056045038/igapyondiary-22">amazon.co.jp: 4056045038</A>
-    <LI>�@����m�K���_����N�푈�S�j(��)<BR>
+    <LI>機動戦士ガンダム一年戦争全史(下)<BR>
     <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/405604614X/igapyondiary-22">amazon.co.jp: 405604614X</A>
   </UL>
-  ���ƂĂ���ۓI�Ō��I�ȃK���_���֘A���ЁB
+  ※とても印象的で個性的なガンダム関連書籍。
 </UL>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�d�͖�肪�㉟��: �u���C���t���[���v�����̒����A���s�T�C�N�����ꏄ�H<BR>
+  <LI>電力問題が後押し: 「メインフレーム」復活の兆し、流行サイクルが一巡？<BR>
   <A HREF="http://www.atmarkit.co.jp/news/200709/20/mainframe.html">http://www.atmarkit.co.jp/news/200709/20/mainframe.html</A>
-  <LI>Eclipse�v���O�C��: Spring IDE���g���Ă݂悤<BR>
+  <LI>Eclipseプラグイン: Spring IDEを使ってみよう<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/rensai4/spring2_01/spring2_01_1.html">http://www.atmarkit.co.jp/fjava/rensai4/spring2_01/spring2_01_1.html</A><BR>
-���� Spring��Seasar�� �قƂ�ǐG�������Ƃ���܂���B�������Ԃ�����ĐG���Ă݂����ł��B
-  <LI>Oisix�A�uEdy�v�𓱓����N���W�b�g�J�[�h���ς̕s���ɑΉ�<BR>
+私は SpringやSeasarを ほとんど触ったことありません。いつか時間を取って触ってみたいです。
+  <LI>Oisix、「Edy」を導入しクレジットカード決済の不安に対応<BR>
   <A HREF="http://journal.mycom.co.jp/news/2007/10/23/038/index.html">http://journal.mycom.co.jp/news/2007/10/23/038/index.html</A><BR>
-  �d�q�}�l�[���y�̉ߒ��́A�ЂƂ̃|�C���g�ł���悤�Ɏv���܂����B
+  電子マネー普及の過程の、ひとつのポイントであるように思えました。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

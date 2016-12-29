@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/06/09 ���L: blanco Framework�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�̃��[�h�}�b�v</TITLE>
-<META name="DESCRIPTION" content="blanco Framework�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�ɂ��� �A����̎����ɂ��Ă̕��j�������܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoDbDotNet">
+<TITLE>2006/06/09 日記: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetについて 、今後の実装についての方針を示します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoDbDotNet">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/06/09 ���L: blanco Framework�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�̃��[�h�}�b�v</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoDbDotNet] blanco Framework�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�ɂ��� �A����̎����ɂ��Ă̕��j�������܂��B</P>
+    <H2>2006/06/09 日記: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoDbDotNet] blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetについて 、今後の実装についての方針を示します。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,62 +60,62 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�̃��[�h�}�b�v</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�� .NET Framework�p R/O�}�b�s���O�c�[���ł��� blancoDbDotNet�ɂ��āA����̎����ɂ��Ă̕��j�������܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の .NET Framework用 R/Oマッピングツールである blancoDbDotNetについて、今後の実装についての方針を示します。</P>
 <UL>
-  <LI>�Ή����� .NET Framework �� 1.1 / 2.0 �̗����Ƃ��܂��B(�����_�̍ŐV�ł� .NET Framework 1.1�̂ݑΉ�)<BR>
-  �^�[�Q�b�g�Ƃ��Ă� .NET Framework 1.1�Ƃ��A.NET Framework 2.0�ł̓���m�F���s���ɂƂǂ߂܂��B(.NET
-  Framework 2.0�ł̃R���p�C�����̌x���͖������邱�ƂƂ��܂��B)
-  <LI>�Ή����� SQL Server �� 2000 / 2005 �̗����Ƃ��܂��B(�����_�̍ŐV�ł� SQL Server 2000�̂ݑΉ�)
-  <LI>Oracle�Ή��� ���ʌ�����܂��B(�����_�̍ŐV�ł� Oracle�̓T�|�[�g�O)<BR>
-  ��Oracle�Ή��̂��߂ɂ� .NET Framework 2.0�ȍ~�݂̂̃T�|�[�g���Ή��_�@�ƍl���Ă��܂��B<BR>
-  ��<FONT color="#ff0000">2009.10.01�ǋL</FONT> ODP.NET �ɑΉ��ς݂ł��B
+  <LI>対応する .NET Framework は 1.1 / 2.0 の両方とします。(現時点の最新版は .NET Framework 1.1のみ対応)<BR>
+  ターゲットとしては .NET Framework 1.1とし、.NET Framework 2.0での動作確認を行うにとどめます。(.NET
+  Framework 2.0でのコンパイル時の警告は無視することとします。)
+  <LI>対応する SQL Server は 2000 / 2005 の両方とします。(現時点の最新版は SQL Server 2000のみ対応)
+  <LI>Oracle対応は 当面見送ります。(現時点の最新版は Oracleはサポート外)<BR>
+  ※Oracle対応のためには .NET Framework 2.0以降のみのサポートが対応契機と考えています。<BR>
+  ※<FONT color="#ff0000">2009.10.01追記</FONT> ODP.NET に対応済みです。
 </UL>
-<P>��L�̕��j�ɉ������`�ŁA���΂炭�^�p���Ă������ƂƂ��܂��B</P>
-<P>�܂��A2006/06���܂łɎ�������\��̋@�\�͉��L�̒ʂ�Ƃ��܂��B</P>
+<P>上記の方針に沿った形で、しばらく運用していくこととします。</P>
+<P>また、2006/06末までに実装する予定の機能は下記の通りとします。</P>
 <UL>
-  <LI>�����^�C���N���X���w��̃t�H���_�ɏo�͂���@�\��ǉ����܂��B
-  <LI>�f�b�h���b�N�A�^�C���A�E�g�Ή��@�\��ǉ����܂��B(������ 6�����܂łɎ����ł���m���� 50%���x�̌����݂ł�)
-  <LI>Eclipse�v���O�C���Ή�
-  <LI>Java�łɎ������ꂽ�@�\�̂����̊���ɂ��Ďd�l�𓯊������Ƃ������Ȃ��܂��B
+  <LI>ランタイムクラスを指定のフォルダに出力する機能を追加します。
+  <LI>デッドロック、タイムアウト対応機能を追加します。(ただし 6月末までに実現できる確率は 50%程度の見込みです)
+  <LI>Eclipseプラグイン対応
+  <LI>Java版に実装された機能のうちの幾つかについて仕様を同期する作業をおこないます。
 </UL>
-<P>�����@�\�ǉ��ɂ��ẮAblancoDbDotNet�̌����_�̍ŐV����ł��x�[�X�ɋ@�\�������s���Ă����Ƃ������j�̂��ƂŐi�߂����l���Ă��܂��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>これら機能追加については、blancoDbDotNetの現時点の最新安定版をベースに機能強化を行っていくという方針のもとで進めたく考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2009/ig091001.html">2009/10/01 ���L: blancoDbDotNet (blancoDb .NET Framework��) �� ODP.NET �Ή�</A>
-  <LI><A href="ig060524.html">2006/05/24 ���L: .NET Framework: ADO.NET 2.0 �֘A�����N���� , �d�����z��O�ɖZ�����Ȃ�܂����B</A>
-  <LI><A href="ig060111.html">2006/01/11 ���L: blancoDbDotNet �d�l�T�v (blancoDb��.NET Framework��)</A>
-  <LI><A href="../2005/ig051203.html">2005/12/03 ���L: blancoDbDotNet (blancoDb�� .NET Framework��) ��������</A>
+  <LI><A href="../2009/ig091001.html">2009/10/01 日記: blancoDbDotNet (blancoDb .NET Framework版) の ODP.NET 対応</A>
+  <LI><A href="ig060524.html">2006/05/24 日記: .NET Framework: ADO.NET 2.0 関連リンクメモ , 仕事が想定外に忙しくなりました。</A>
+  <LI><A href="ig060111.html">2006/01/11 日記: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</A>
+  <LI><A href="../2005/ig051203.html">2005/12/03 日記: blancoDbDotNet (blancoDbの .NET Framework版) 製造着手</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework�� 2006.06�ɂ��Ă� .NET Framework�łɕ��i�����ғ��𑽂��U�蕪���܂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkは 2006.06については .NET Framework版に普段よりも稼働を多く振り分けます</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>blancoDbDotNet�̋@�\�����Ȃǂ̌v�������A<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�� 2006.06�ɂ��Ă�
-.NET Framework�ł̋@�\�����ɕ��i�����ғ��𑽂��U�蕪���܂��B</P>
-<P>���� blancoCg�� JavaScript�Ή��ɂ��Ă� 2006.06�̂������� ���������u���b�V���A�b�v���s���Ă��������C����������܂��B(����
-JSDoc�Ή�������ɂ��� ��������������Ă����˂΂ƍl���Ă��܂�)</P>
-<P>���̂Ԃ� 2006.07���� Java�łւƉғ���U�蕪����S�Â���ł��B</P>
+<P>blancoDbDotNetの機能強化などの計画もあり、<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>は 2006.06については
+.NET Framework版の機能強化に普段よりも稼働を多く振り分けます。</P>
+<P>ただ blancoCgの JavaScript対応についても 2006.06のあいだに もう少しブラッシュアップを行っておきたい気持ちもあります。(特に
+JSDoc対応あたりについて もう少し手を入れておかねばと考えています)</P>
+<P>そのぶん 2006.07から Java版へと稼働を振り分ける心づもりです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>@IT: Eclipse�Ŏg���郁�g���N�X�v���c�[��<BR>
+  <LI>@IT: Eclipseで使えるメトリクス計測ツール<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/rensai3/eclipsetst03/eclipsetst03_1.html">http://www.atmarkit.co.jp/fjava/rensai3/eclipsetst03/eclipsetst03_1.html</A><BR>
-  Eclipse�p���g���N�X�v���c�[����r�L���B���̂悤�ȑ�ϗL�v�ȏ���񋟂��������A�ƂĂ�������܂��B���肪�Ƃ��������܂��B
+  Eclipse用メトリクス計測ツール比較記事。このような大変有益な情報を提供いただき、とても助かります。ありがとうございます。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/01/26 ���L: WSDL����͂Ƃ��� .NET Framework�� �T�[�o�^�N���C�A���g������ C#.NET�\�[�X�R�[�h�𐶐�������</TITLE>
-<META name="DESCRIPTION" content="�킽�����r�W�l�X���̋Z�p�ҁH ������c">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/01/26 日記: WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NETソースコードを生成させる</TITLE>
+<META name="DESCRIPTION" content="わたしもビジネス寄りの技術者？ かしら…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/01/26 ���L: WSDL����͂Ƃ��� .NET Framework�� �T�[�o�^�N���C�A���g������ C#.NET�\�[�X�R�[�h�𐶐�������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �킽�����r�W�l�X���̋Z�p�ҁH ������c</P>
+    <H2>2006/01/26 日記: WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NETソースコードを生成させる</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] わたしもビジネス寄りの技術者？ かしら…</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,73 +59,73 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDL����͂Ƃ��� .NET Framework�� �T�[�o�^�N���C�A���g������ C#.NET�\�[�X�R�[�h�𐶐�������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NETソースコードを生成させる</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>WSDL����͂Ƃ��� .NET Framework�� �T�[�o�^�N���C�A���g������ C#.NET �\�[�X�R�[�h������������������@���������Ă����܂��B</P>
+<P>WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NET ソースコードを自動生成させる方法をメモしておきます。</P>
 <UL>
-  <LI>�T�[�o<BR>
+  <LI>サーバ<BR>
   wsdl.exe /server XXXXXXXX.wsdl
-  <LI>�N���C�A���g<BR>
+  <LI>クライアント<BR>
   wsdl.exe XXXXXXXX.wsdl
 </UL>
-<P>�������菇�͉��L�̂悤�ɂȂ�܂��B</P>
+<P>試した手順は下記のようになります。</P>
 <OL>
-  <LI>�d��������`���^�d����`�� (Excel�l��) �ɏ����L������B
-  <LI>��`�� (Excel�l��) ����͂Ƃ��� <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A>�𗘗p���� WSDL/xsd��������������B
-  <LI>.NET Framework SDK (1.1) �� wsdl.exe���[�e�B���e�B��p���� �T�[�o�^�N���C�A���g������ C#.NET�\�[�X�R�[�h��������������B
+  <LI>電文処理定義書／電文定義書 (Excel様式) に情報を記入する。
+  <LI>定義書 (Excel様式) を入力として <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>を利用して WSDL/xsdを自動生成する。
+  <LI>.NET Framework SDK (1.1) の wsdl.exeユーティリティを用いて サーバ／クライアント両方の C#.NETソースコードを自動生成する。
 </OL>
-<P>����̂��߂̏���</P>
+<P>動作のための条件</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A> 0.7.0�ȍ~���K�v�ł��B
-  <LI>�d��������`���Ɠd����`�� (���Ȃ킿 WSDL��xsd) �̖��O��Ԃ͈�v�����Ă����K�v������܂��B<BR>
-  ������� .NET Framework SDK 1.1�̌��E�����ł���ƍl�����܂��B
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A> 0.7.0以降が必要です。
+  <LI>電文処理定義書と電文定義書 (すなわち WSDLとxsd) の名前空間は一致させておく必要があります。<BR>
+  ※これは .NET Framework SDK 1.1の個性・特徴であると考えられます。
 </UL>
-<P>���� VisualStudio .NET 2003�̋L���̑����́AC#.NET�\�[�X�R�[�h�̃A�m�e�[�V�������� WSDL��������������؂���̂��̂������A�Ȃ��Ȃ�
-WSDL/xsd����͂Ƃ���������@�̏��͓��ɂ��������ł��B</P>
+<P>世の VisualStudio .NET 2003の記事の多くは、C#.NETソースコードのアノテーションから WSDLを自動生成する切り口のものが多く、なかなか
+WSDL/xsdを入力とした動作方法の情報は得にくかったです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAP�̉\��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAPの可能性</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>WSDL/xsd�� .NET Framework SDK �ɐH�킹�ē���m�F�����Ă݂āA���炽�߂� <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A>�̑傫�ȉ\���������܂����B���b�`�N���C�A���g����A���邢��SOA����ɂ�����
-<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A>�� �ƂĂ��d�v�Ȃ��̂ɂȂ��Ă����̂ł͂Ȃ����ƍl���܂��B���ꂪ�d��������`���^�d����`���Ƃ���
-Excel�l���݂̂����������ɋ쓮�ł���̂�����A����͔��ɕ֗��ł��B<BR>
-�Ƃ��낪�AblancoSOAP���ǂ��������̂Ȃ̂������������̂͂قƂ�ǖ����̂ŁA�ق�Ƃ��Ɍ���ꂽ�����̐l�ɂ��� blancoSOAP�͗����ł��Ȃ����̂ł���悤�ɂ������Ă��܂��B���̏󋵂����P�������̂ł�����ǁA�h�L�������g���L�q����\�Z�Ǝ��Ԃ��m�ۂł��܂���ł��c�B</P>
+<P>WSDL/xsdを .NET Framework SDK に食わせて動作確認をしてみて、あらためて <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>の大きな可能性を感じました。リッチクライアント時代、あるいはSOA時代において
+<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>は とても重要なものになっていくのではないかと考えます。これが電文処理定義書／電文定義書という
+Excel様式のみをきっかけに駆動できるのだから、これは非常に便利です。<BR>
+ところが、blancoSOAPがどういうものなのかを説明するものはほとんど無いので、ほんとうに限られた条件の人にしか blancoSOAPは理解できないものであるようにも感じています。その状況を改善したいのですけれど、ドキュメントを記述する予算と時間が確保できませんです…。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�킽�����r�W�l�X���̋Z�p�ҁH ������c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>わたしもビジネス寄りの技術者？ かしら…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��IT�̋L�������Ă��Ď䂩��܂����B</P>
+<P>＠ITの記事を見ていて惹かれました。</P>
 <UL>
-  <LI>��IT: IT�A�[�L�e�N�g��T���āi6�j<BR>
+  <LI>＠IT: ITアーキテクトを探して（6）<BR>
   <A HREF="http://www.atmarkit.co.jp/farc/rensai/lookingfor06/lookingfor06.html">http://www.atmarkit.co.jp/farc/rensai/lookingfor06/lookingfor06.html</A>
 </UL>
-<P>�L���̖{�ӂ���� ���Ƃ͂���܂����c�B�����A�킽�����r�W�l�X���̋Z�p�҂������B���� IT�A�[�L�e�N�g�Ƃ͌ĂׂȂ����낤�Ȃ��A�A�A�Ȃǂ� �ڂ���ƍl���܂����B</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A> Framework�̂悤�� �����I�[�v���\�[�X�̊J���Ɍg����Ă���̂�����A���炩�Ɏ��͉�����S������l�Ȃ̂ł��傤�B</P>
+<P>記事の本意からは ちとはずれますが…。さあ、わたしもビジネス寄りの技術者かしらん。私は ITアーキテクトとは呼べないだろうなぁ、、、などと ぼんやりと考えました。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのような 下流オープンソースの開発に携わっているのだから、明らかに私は下流を担当する人なのでしょう。</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>��IT: WinFS��Windows�̃f�[�^�^�t�@�C���Ǘ��͂ǂ��ς��H<BR>
+  <LI>＠IT: WinFSでWindowsのデータ／ファイル管理はどう変わる？<BR>
   <A HREF="http://www.atmarkit.co.jp/fwin2k/insiderseye/20060126winfs/winfs_01.html">http://www.atmarkit.co.jp/fwin2k/insiderseye/20060126winfs/winfs_01.html</A><BR>
-  WinFS�̏������W���Ă��������Ǝv���Ă��܂��B�c�Z�����đS�R�׋��ł��Ă��܂���B
-  <LI>��IT: VS 2005�ŕϊv���ꂽASP.NET�AWindows�t�H�[���AADO.NET�𑍗�<BR>
+  WinFSの情報を収集しておきたいと思っています。…忙しくて全然勉強できていません。
+  <LI>＠IT: VS 2005で変革されたASP.NET、Windowsフォーム、ADO.NETを総覧<BR>
   <A HREF="http://www.atmarkit.co.jp/fdotnet/special/vs2005_03/vs2005_03_01.html">http://www.atmarkit.co.jp/fdotnet/special/vs2005_03/vs2005_03_01.html</A><BR>
-  ���傤�Ǎ��AVisualStudio.NET 2005�̏����W�����Ă��܂��B
+  ちょうど今、VisualStudio.NET 2005の情報収集をしています。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

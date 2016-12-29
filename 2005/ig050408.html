@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/04/08 ���L: �u���b�p�[�N���X�E�f�U�C���p�^�[���v�Ƃ������̂̑���</TITLE>
-<META name="DESCRIPTION" content="���b�p�[�N���X�̍����ɂ��f�U�C���p�^�[�������݂���悤�ȋC�����܂����B���� SWT���� ����������܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/04/08 日記: 「ラッパークラス・デザインパターン」というものの存在</TITLE>
+<META name="DESCRIPTION" content="ラッパークラスの作り方にもデザインパターンが存在するような気がしました。特に SWTから それを感じます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/04/08 ���L: �u���b�p�[�N���X�E�f�U�C���p�^�[���v�Ƃ������̂̑���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ���b�p�[�N���X�̍����ɂ��f�U�C���p�^�[�������݂���悤�ȋC�����܂����B���� SWT���� ����������܂��B</P>
+    <H2>2005/04/08 日記: 「ラッパークラス・デザインパターン」というものの存在</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ラッパークラスの作り方にもデザインパターンが存在するような気がしました。特に SWTから それを感じます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,52 +60,52 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���b�p�[�N���X�E�f�U�C���p�^�[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ラッパークラス・デザインパターン</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���ɂ����̂Ƃ��� �A���b�p�[�N���X�̍쐬�Ƃ��Ɍg��邱�Ƃ�����܂��B�����ŋC�������̂ł����A���b�p�[�N���X�̃f�U�C���̎d���ɂ��A�����ɓ���������悤�Ɋ����܂��B����΃��b�p�[�N���X�E�f�U�C���p�^�[���Ƃł������̂ł��傤���B(����
-���b�p�[�N���X�E�f�U�C���p�^�[���Ƃ����͎̂��̑���ł��傤) SWT�AR/O�}�b�s���O�ATCP/IP�̂悤�ȃl�b�g���[�N���C���[�Ȃǂɑ΂��郉�b�p�[�N���X�ȂǁA���b�s���O����Ώۂ���I�u�W�F�N�g�w���̂��̂ł���ꍇ�ɂ́A���f�����O�Ƀ��b�p�[�N���X�Ȃ�ł͂̓������o�Ă��܂��B</P>
+<P>特にここのところ 、ラッパークラスの作成とかに携わることがあります。そこで気がついたのですが、ラッパークラスのデザインの仕方にも、微妙に特徴があるように感じます。いわばラッパークラス・デザインパターンとでも言うのでしょうか。(多分
+ラッパークラス・デザインパターンというのは私の造語でしょう) SWT、R/Oマッピング、TCP/IPのようなネットワークレイヤーなどに対するラッパークラスなど、ラッピングする対象が非オブジェクト指向のものである場合には、モデリングにラッパークラスならではの特徴が出てきます。</P>
 <UL>
-  <LI>���S�B���^�E���b�p�[�N���X�E�f�U�C���p�^�[�� : �Ђ�����B�����܂���<BR>
-  ���b�p�[�N���X�ɂ���ĉ��ʑw�̓s�����S�������Ȃ�����݌v�ł��B����͈��̃I�u�W�F�N�g�w�����K�����Ă���� �N�ɂł��݌v�ł��܂��B
-  <LI>����^�E���b�p�[�N���X�E�f�U�C���p�^�[�� : �▭�ȃo�����X�����<BR>
-  ���ʑw�̐���A���x�I�Ȑ���⌻���I�ȗ��p���@�Ȃǂƃo�����X�����Ȃ���A�▭�ɐ݌v���s���B����͑�ςɓ�Փx�������ł��B������ ���������݌v���ł���l��
-  �����_�ł͑�ςɏ��Ȃ��ł��B
+  <LI>完全隠蔽型・ラッパークラス・デザインパターン : ひたすら隠蔽しまくる<BR>
+  ラッパークラスによって下位層の都合が全く見えなくする設計です。これは一定のオブジェクト指向を習得していれば 誰にでも設計できます。
+  <LI>薄皮型・ラッパークラス・デザインパターン : 絶妙なバランスを取る<BR>
+  下位層の制約、速度的な制約や現実的な利用方法などとバランスを取りながら、絶妙に設計を行う。これは大変に難易度が高いです。そして こういう設計をできる人が
+  現時点では大変に少ないです。
 </UL>
-<P>����^�E���b�p�[�N���X�E�f�U�C���p�^�[���������l������������̂̂ЂƂ� SWT�ł��BSWT�� �▭�ȃo�����X�Ő݌v���s���Ă��܂��B����܂ł̉�ʌn�c�[���L�b�g�Ɣ�ׂ��
-��ςɑO�q�I�Ȑ݌v�ɂȂ��Ă��܂��B</P>
+<P>薄皮型・ラッパークラス・デザインパターンを強く考えさせられるもののひとつが SWTです。SWTは 絶妙なバランスで設計が行われています。それまでの画面系ツールキットと比べると
+大変に前衛的な設計になっています。</P>
 <UL>
-  <LI>���b�Z�[�W���[�v�����[�U�v���O���~���O���ɑ��݂���<BR>
-  ��SWT�Ŏ�������� Display�Ƃ����N���X����I�u�W�F�N�g�����o���ă��b�Z�[�W���[�v�������s���悤�ɂȂ��Ă��܂��B�Ȃ��AJFace�x�[�X�ɂ����āA�܂��قȂ����������\�ł�����ǂ��ˁB
-  <LI>�p���������Ȃ�<BR>
-  �т����肵�܂����B
+  <LI>メッセージループがユーザプログラミング側に存在する<BR>
+  生SWTで実装すると Displayというクラスからオブジェクトを取り出してメッセージループ処理を行うようになっています。なお、JFaceベースにおいて、また異なった実装が可能ですけれどもね。
+  <LI>継承を許さない<BR>
+  びっくりしました。
 </UL>
-<P>SWT�͔���^�E���b�p�[�N���X�E�f�U�C���p�^�[���ɂ���Ď�������Ă���̂ŁA���̂悤�ɋ@�q�ɁA�����ĕ��ʂɑ���ł���GUI���\�z�ł���̂ł��傤�BSWT�����̂悤�Ȑ݌v�ɂ�����ŁA����ɏ�ʑw�ɂ��郉�b�p�[�N���X�ł���JFace�ł�
-��荂�����ȃf�U�C�����Ȃ���Ă��܂��B</P>
-<P>�����Ȃ̂ł��B����� JFace�ɂ����Ă͊��S�B���^�E���b�p�[�N���X�E�f�U�C���p�^�[���������܂��BJFace�w (RCP�w�Ƃł������̂�����?)
-�ɂ����ẮA���܂ǂ��̃f�U�C���p�^�[�����ӂ񂾂�Ɋ��p����Ă��܂��BJFace�̓f�U�C���p�^�[����<STRONG>�Z�̃f�p�[�g</STRONG>�̂悤�ȍ��ɂȂ��Ă��܂��B�f�U�C���p�^�[���̊w�K�Ƃ����ړI�ɂ����ẮAJFace��RCP�͗L�v�ł���悤�ɍl���܂��B</P>
-<P>���̂悤�� ����^�E���b�p�[�N���X�E�f�U�C���p�^�[���� ���S�B���^�E���b�p�[�N���X�E�f�U�C���p�^�[���Ƃ��g�������Đ݌v������̂��A���b�p�[�N���X�̐݌v�ɍœK�Ȃ̂ł͖������ƍl���܂����B���b�p�[�N���X����
-�����[���ł��ˁc�B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>SWTは薄皮型・ラッパークラス・デザインパターンによって実装されているので、あのように機敏に、そして普通に操作できるGUIが構築できるのでしょう。SWTをあのような設計にした上で、さらに上位層にあるラッパークラスであるJFaceでは
+より高水準なデザインがなされています。</P>
+<P>そうなのです。一方の JFaceにおいては完全隠蔽型・ラッパークラス・デザインパターンを感じます。JFace層 (RCP層とでも言うのかしら?)
+においては、いまどきのデザインパターンがふんだんに活用されています。JFaceはデザインパターンの<STRONG>技のデパート</STRONG>のような作りになっています。デザインパターンの学習という目的においては、JFaceやRCPは有益であるように考えます。</P>
+<P>このように 薄皮型・ラッパークラス・デザインパターンと 完全隠蔽型・ラッパークラス・デザインパターンとを使い分けて設計をするのが、ラッパークラスの設計に最適なのでは無いかと考えました。ラッパークラスって
+奥が深いですね…。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050219.html">2005/02/19 ���L: �u�g�C�v���O�����E�f�U�C���p�^�[���v�Ƃ������̂͑��݂���̂�����H</A>
+  <LI><A href="ig050219.html">2005/02/19 日記: 「トイプログラム・デザインパターン」というものは存在するのかしら？</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SourceForge.jp��CVS�Őڑ����邽�߂̎���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SourceForge.jpにCVSで接続するための呪文</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>SourceForge.jp��CVS�����߂ė��p���܂����B���L�̃y�[�W�𗊂�ɐڑ��ɐ������܂����B</P>
+<P>SourceForge.jpのCVSを初めて利用しました。下記のページを頼りに接続に成功しました。</P>
 <UL>
-  <LI>SourceForge��CVS�ڑ����@(Cygwin+Eclipse)<BR>
+  <LI>SourceForgeのCVS接続方法(Cygwin+Eclipse)<BR>
   <A href="http://t-struts.sourceforge.jp/wiki/index.php?SourceForge%A4%CECVS%C0%DC%C2%B3%CA%FD%CB%A1(Cygwin%2BEclipse)">http://t-struts.sourceforge.jp/wiki/index.php?SourceForge%A4%CECVS%C0%DC%C2%B3%CA%FD%CB%A1(Cygwin%2BEclipse)</A>
 </UL>
-<P>���̃y�[�W���Ȃ������玄�ɂ͐ݒ肪�ł��܂���ł����B�L�v�ȃy�[�W�Ɋ��ӂ��܂��B</P>
+<P>このページがなかったら私には設定ができませんでした。有益なページに感謝します。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

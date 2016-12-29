@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/06/16 ���L: �u���P�[�V����ID�v�Ƃ����T�O�̒�`</TITLE>
-<META name="DESCRIPTION" content="�\�[�X�R�[�h�エ��ѕ����݌v����̓���̈ʒu��\���u���P�[�V����ID�v�Ƃ����T�O���K�v�Ȃ̂ł͂Ȃ����ƍl���܂����B , Ajax�����̂ЂƂł��� �y�XFramework�Ƃ����p�b�P�[�W�\�t�g�B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,���P�[�V����ID">
+<TITLE>2005/06/16 日記: 「ロケーションID」という概念の定義</TITLE>
+<META name="DESCRIPTION" content="ソースコード上および物理設計書上の特定の位置を表す「ロケーションID」という概念が必要なのではないかと考えました。 , Ajax実装のひとつである 楽々Frameworkというパッケージソフト。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,ロケーションID">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/06/16 ���L: �u���P�[�V����ID�v�Ƃ����T�O�̒�`</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,���P�[�V����ID] �\�[�X�R�[�h�エ��ѕ����݌v����̓���̈ʒu��\���u���P�[�V����ID�v�Ƃ����T�O���K�v�Ȃ̂ł͂Ȃ����ƍl���܂����B , Ajax�����̂ЂƂł��� �y�XFramework�Ƃ����p�b�P�[�W�\�t�g�B</P>
+    <H2>2005/06/16 日記: 「ロケーションID」という概念の定義</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,ロケーションID] ソースコード上および物理設計書上の特定の位置を表す「ロケーションID」という概念が必要なのではないかと考えました。 , Ajax実装のひとつである 楽々Frameworkというパッケージソフト。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,40 +60,40 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�\�[�X�R�[�h��̓���̈ʒu������ �u���P�[�V����ID�v �Ƃ����T�O</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ソースコード上の特定の位置を示す 「ロケーションID」 という概念</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�\�[�X�R�[�h��̓���̈ʒu���������߂Ɂu���P�[�V����ID�v�Ƃ����T�O�𓱓����鉿�l�������ʂɏ����܂����B</P>
-<P>��r�I�K�͂̑傫���V�X�e���ł́A�ʒu���������߂� ���OID�܂��͉�ʃ��b�Z�[�WID����ӂɕۂ悤�Ƀ��[�����߂��s���A�����ID�����Ƀ\�[�X�R�[�h��̈ʒu�ƕ����݌v���̈ʒu�Ƃ���ӂɕ\�����Ƃ�����܂��B�Ƃ��낪�A���OID�ɂ��Ă���ʃ��b�Z�[�WID�ɂ��Ă��A��ӂɂȂ�悤�ɂ���ƕʂ̐��񂪔�������
-�Ȃ��Ȃ� ���܂����܂���B</P>
-<P>�����ōl������̂��u���P�[�V����ID�v�Ƃ����T�O�ł��B��������@���ɑ������R�[�h�̌n�������� �ʒu��\�����邽�߂̈�ӂȃR�[�h�ł���u���P�[�V����ID�v�𓱓�����΁A�\�[�X�R�[�h��̈ʒu�ƕ����݌v���̈ʒu�Ƃ���ӂɕ\�����Ƃ��ł��܂��B<BR>
-# ���������T�O�����o�̂��̂��ǂ����ɂ��ẮA���͒m��܂���B</P>
-<P>�����ŁAJava����Ȃǂł̓��t�@�N�^�����O�Ȃǂ��s���邱�Ƃ�����̂ŁA�t�@�C������N���X���Ƃ͈�����悵�Ă����K�v������܂��B�����܂ł�
-������R�[�h�̌n�ɉ����ăR�[�h���`���܂��B�����V�X�e���̑傫�ȈӖ��ł̃R�[�h�̌n�ɂ��āAJava����Ȃǂɂ����ăp�b�P�[�W�\���Ɗ֘A�Â����s���Ă�����A�p�b�P�[�W�\���ƃ��P�[�V����ID�Ƃ�
-�֘A���o�Ă�����̂ƍl���܂��B</P>
-<P>���̃��P�[�V����ID�ɂ́A��ʃ��b�Z�[�WID�⃍�OID���֘A�Â��邱�Ƃ��ł��܂��B���P�[�V����ID�����Ƃ� ��ʃ��b�Z�[�WID�⃍�OID�̈������Ă��ł���悤�ɂ��Ă����܂��B(�Ђ��t����ʃ��b�Z�[�WID�⃍�OID�����݂��Ȃ��ꍇ�ɂ͋󗓂ɂ��Ă���)</P>
-<P>�܂��A���̂悤�ȃ��P�[�V����ID�������ł���΁A�����݌v���ƃ\�[�X�R�[�h�Ƃ̘������`�F�b�N���邽�߂̃h�L�������g�R���p�C���E�c�[�� (<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A>
-Framework�Ƃ��č\�z������) �̍쐬���e�ՂɂȂ� (���邢�͐ݒ�ɂ��Ď����ɂȂ�) ���̂ƍl�����܂��B</P>
-<P><FONT color="#ff0000">2005.06.17�ǋL</FONT> ���P�[���Ή��ɂ��ă���������Ă����܂��B���P�[�V����ID�𓱓������Ƃ��āA�������Ă����ʃ��b�Z�[�W�ɂ��Ă̓��P�[��(Locale)�Ή����Ă����悤�ɂ��܂��B�Ƃ����̂��A��ʃ��b�Z�[�W�̓��P�[���Ή����s�����Ƃɂ���Ċe����ɂ���ʕ\���Ή����s���K�v�����邩��ł��B���
-�V�X�e���ێ���s���l���{������ł��낤���O���b�Z�[�W�ɂ��ẮA���P�[���Ή��͕K�v�Ȃ� �P�ɌŒ�̃��P�[���œ��삵�ėǂ��̂ł��B</P>
+<P>ソースコード上の特定の位置を示すために「ロケーションID」という概念を導入する価値がある場面に巡り会いました。</P>
+<P>比較的規模の大きいシステムでは、位置を示すために ログIDまたは画面メッセージIDを一意に保つようにルール決めを行い、それらIDを元にソースコード上の位置と物理設計書の位置とを一意に表すことがあります。ところが、ログIDにしても画面メッセージIDにしても、一意になるようにすると別の制約が発生して
+なかなか うまく回りません。</P>
+<P>そこで考えられるのが「ロケーションID」という概念です。何かある法則に則ったコード体系をもって 位置を表現するための一意なコードである「ロケーションID」を導入すれば、ソースコード上の位置と物理設計書の位置とを一意に表すことができます。<BR>
+# そういう概念が既出のものかどうかについては、私は知りません。</P>
+<P>ここで、Java言語などではリファクタリングなどが行われることがあるので、ファイル名やクラス名とは一線を画しておく必要があります。あくまでも
+いわゆるコード体系に沿ってコードを定義します。もしシステムの大きな意味でのコード体系について、Java言語などにおいてパッケージ構成と関連づけが行われていたら、パッケージ構成とロケーションIDとは
+関連が出てくるものと考えます。</P>
+<P>このロケーションIDには、画面メッセージIDやログIDを関連づけることができます。ロケーションIDをもとに 画面メッセージIDやログIDの引き当てができるようにしておきます。(ひも付く画面メッセージIDやログIDが存在しない場合には空欄にしておく)</P>
+<P>また、このようなロケーションIDが導入できれば、物理設計書とソースコードとの乖離をチェックするためのドキュメントコンパイラ・ツール (<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A>
+Frameworkとして構想が存在) の作成が容易になる (あるいは設定について自明になる) ものと考えられます。</P>
+<P><FONT color="#ff0000">2005.06.17追記</FONT> ロケール対応についてメモを取っておきます。ロケーションIDを導入したとして、引き当てられる画面メッセージについてはロケール(Locale)対応しておくようにします。というのも、画面メッセージはロケール対応を行うことによって各国語による画面表示対応を行う必要があるからです。一方
+システム保守を行う人が閲覧するであろうログメッセージについては、ロケール対応は必要なく 単に固定のロケールで動作して良いのです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ajax�����̂ЂƂł��� �y�XFramework�Ƃ����p�b�P�[�W�\�t�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ajax実装のひとつである 楽々Frameworkというパッケージソフト</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Ajax��������Ƃ��׋����Ă�������A�ǂ���� �ȑO���� ���̑��쐫�̃X�}�[�g���ɏՌ����󂯂� �y�XFramework�Ƃ��� Java�A�v���P�[�V�����J������
-Ajax�����̂ЂƂł���̂� �Ƃ������ƂɋC�����܂����B</P>
+<P>Ajaxをちょっとずつ勉強していったら、どうやら 以前見て その操作性のスマートさに衝撃を受けた 楽々Frameworkという Javaアプリケーション開発環境が
+Ajax実装のひとつであるのだ ということに気がつきました。</P>
 <UL>
-  <LI><A href="ig050202.html">2005/02/02 ���L: �u�y�XFrameworkII�v�f���X�g���[�V�����������Ē����܂���</A>
+  <LI><A href="ig050202.html">2005/02/02 日記: 「楽々FrameworkII」デモストレーションを見せて頂きました</A>
 </UL>
-<P>Web�u���E�U������p���ă��b�`�ȑ�����𓾂邽�߂̎�i�̂ЂƂƂ��� Ajax������܂��B�����_�� Ajax�𓱓�����ɂ� JavaScript�̃v���O���~���O�𔺂��ꍇ���������̂ƍl���܂��B�Ƃ��낪�A�y�XFramework��p����΁AJava�����p���ă��b�`�ȑ������
-Web�u���E�U�݂̂Ŏ����Ƃ����g�ݍ��킹���AJavaScript�̃R�[�f�B���O�𔺂�Ȃ��� �����ɓ����ł���悤�Ɋ����܂����B(������ ���͕ʂ�
-�y�XFramework��p�������J���̌o��������킯�ł͂���܂���B�����܂ł� ���̂悤�Ɋ������ɂ����܂���B)</P>
+<P>Webブラウザだけを用いてリッチな操作環境を得るための手段のひとつとして Ajaxがあります。現時点で Ajaxを導入するには JavaScriptのプログラミングを伴う場合が多いものと考えます。ところが、楽々Frameworkを用いれば、Java言語を用いてリッチな操作環境を
+Webブラウザのみで実現という組み合わせが、JavaScriptのコーディングを伴わないで すぐに導入できるように感じました。(ただし 私は別に
+楽々Frameworkを用いた実開発の経験があるわけではありません。あくまでも そのように感じたにすぎません。)</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

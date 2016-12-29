@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/11/10 ���L: blancoCharacterGroup, blancoStringGroup�� VB.NET, PHP�Ή��̃x�[�^�ł����J</TITLE>
-<META name="DESCRIPTION" content="�����O���[�v��`������ѕ�����O���[�v��`������ Java, C#.NET, JavaScript, VB.NET, PHP�̃\�[�X�R�[�h�����������ł���悤�ɂȂ�܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/11/10 日記: blancoCharacterGroup, blancoStringGroupの VB.NET, PHP対応のベータ版を公開</TITLE>
+<META name="DESCRIPTION" content="文字グループ定義書および文字列グループ定義書から Java, C#.NET, JavaScript, VB.NET, PHPのソースコードを自動生成できるようになります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/11/10 ���L: blancoCharacterGroup, blancoStringGroup�� VB.NET, PHP�Ή��̃x�[�^�ł����J</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �����O���[�v��`������ѕ�����O���[�v��`������ Java, C#.NET, JavaScript, VB.NET, PHP�̃\�[�X�R�[�h�����������ł���悤�ɂȂ�܂��B</P>
+    <H2>2006/11/10 日記: blancoCharacterGroup, blancoStringGroupの VB.NET, PHP対応のベータ版を公開</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 文字グループ定義書および文字列グループ定義書から Java, C#.NET, JavaScript, VB.NET, PHPのソースコードを自動生成できるようになります。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,26 +60,26 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCharacterGroup, blancoStringGroup�� VB.NET, PHP�Ή��̃x�[�^�ł����J</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCharacterGroup, blancoStringGroupの VB.NET, PHP対応のベータ版を公開</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> �� <A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="�u�����O���[�v��`���v�Ƃ��� Excel�u�b�N����A�����O���[�v�������\�[�X�R�[�h�������������܂��B">blancoCharacterGroup</A> �����
-<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="�u������O���[�v��`���v�Ƃ��� Excel�u�b�N����A������O���[�v �������\�[�X�R�[�h�������������܂��B">blancoStringGroup</A> �ɂ��āAVB.NET ����� PHP�\�[�X�R�[�h���������Ή��̃x�[�^�ł����J���܂��B����ɂ��A�����O���[�v��`������ѕ�����O���[�v��`������
-Java, C#.NET, JavaScript, VB.NET, PHP��5��ނ̃\�[�X�R�[�h�����������ł���悤�ɂȂ�܂��B</P>
-<P>�����̉ߒ��� PHP�̕�������API�� �����n�}��܂����Bstrlen�ł͂Ȃ��Amb_strlen �Ȃǂ� i18n�n�����񑀍�API�𗘗p����K�v�����邱�Ƃ�F�����܂����BC����݂�����API�Z�b�g�ł��ˁB�����_�ł�
-����� mb_���v���t�B�b�N�X�Ƃ��ĕt�^����� i18n�nAPI�𗘗p����\�[�X�R�[�h�𐶐�����悤�ɑΉ��ς݂ƂȂ��Ă��܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は <A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A> および
+<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A> について、VB.NET および PHPソースコード自動生成対応のベータ版を公開します。これにより、文字グループ定義書および文字列グループ定義書から
+Java, C#.NET, JavaScript, VB.NET, PHPの5種類のソースコードを自動生成できるようになります。</P>
+<P>製造の過程で PHPの文字操作APIに 少しハマりました。strlenではなく、mb_strlen などの i18n系文字列操作APIを利用する必要があることを認識しました。C言語みたいなAPIセットですね。現時点では
+それら mb_がプレフィックスとして付与される i18n系APIを利用するソースコードを生成するように対応済みとなっています。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�Ή����ꂪ 5����ɂȂ��� blanco Framework�v���_�N�g�́A�\�[�X�R�[�h�̓ǉ�������Ȃ��Ă��܂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>対応言語が 5言語になった blanco Frameworkプロダクトは、ソースコードの読解が難しくなっています</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> �̃v���_�N�g�Q�̂����AJava, C#.NET, JavaScript, VB.NET, PHP�� 5����ɑΉ����� <A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="�u���b�Z�[�W��`���v�Ƃ��� Excel�u�b�N����A���b�Z�[�W�������\�[�X�R�[�h�������������܂��B">blancoMessage</A>�A<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="�u�����O���[�v��`���v�Ƃ��� Excel�u�b�N����A�����O���[�v�������\�[�X�R�[�h�������������܂��B">blancoCharacterGroup</A>�A<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="�u������O���[�v��`���v�Ƃ��� Excel�u�b�N����A������O���[�v �������\�[�X�R�[�h�������������܂��B">blancoStringGroup</A>�ɂ��āA����炪 Java, C#.NET, JavaScript��3����ɂ̂ݑΉ����Ă����������A�\�[�X�R�[�h�̓ǉ��������Ɠ���Ȃ��Ă��܂��B�Ȃ�ׂ��V���v���ɕۂ����������̂ł����A��������5����Ή��ƂȂ�� ��ނ����Ȃ��̂��Ƃ��l���܂��B���� VB.NET�Ή����C���p�N�g�傫���ł��BVB.NET�ł� If xxx Then , End If �ȂǂƂȂ�AC�����c��Ƃ���v���O���~���O����Ƃ͂��Ȃ�قȂ邩��ł��B������z�����邽�߂̋��ʉ����A���ʓI�Ƀ\�[�X�R�[�h�̓ǂ݂₷����ቺ�����Ă��܂��B</P>
-<P>���ꂩ�� blanco Framework�̃\�[�X�R�[�h��ǂ݂����Ǝv��ꂽ���� Java, C#.NET, JavaScript��3����ɂ̂ݑΉ����Ă������̃o�[�W�����̃\�[�X�R�[�h��ǂ܂��̂��A�܂��S�̑������ނ��߂ɂ͗ǂ��Ǝv���܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のプロダクト群のうち、Java, C#.NET, JavaScript, VB.NET, PHPの 5言語に対応した <A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>、<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A>、<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>について、それらが Java, C#.NET, JavaScriptの3言語にのみ対応していた頃よりも、ソースコードの読解が随分と難しくなっています。なるべくシンプルに保ちたかったのですが、さすがに5言語対応となると やむをえないのかとも考えます。特に VB.NET対応がインパクト大きいです。VB.NETでは If xxx Then , End If などとなり、C言語を祖先とするプログラミング言語とはかなり異なるからです。これを吸収するための共通化が、結果的にソースコードの読みやすさを低下させています。</P>
+<P>これから blanco Frameworkのソースコードを読みたいと思われた方は Java, C#.NET, JavaScriptの3言語にのみ対応していた頃のバージョンのソースコードを読まれるのが、まず全体像をつかむためには良いと思います。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/08/23 ���L: Java�Ŏ������ꂽ HTML Parser (HTML�p�[�T) �𒲂ׂĂ݂܂���</TITLE>
-<META name="DESCRIPTION" content="Java�Ŏ������ꂽ HTML Parser �ɂ��� �I�[�v���\�[�X�̂��̌���Ŋ�����ׂĂ݂܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,HTML,Parser,Java,�p�[�T">
+<TITLE>2007/08/23 日記: Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</TITLE>
+<META name="DESCRIPTION" content="Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,HTML,Parser,Java,パーサ">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/08/23 ���L: Java�Ŏ������ꂽ HTML Parser (HTML�p�[�T) �𒲂ׂĂ݂܂���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,HTML,Parser,Java,�p�[�T] Java�Ŏ������ꂽ HTML Parser �ɂ��� �I�[�v���\�[�X�̂��̌���Ŋ�����ׂĂ݂܂����B</P>
+    <H2>2007/08/23 日記: Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,HTML,Parser,Java,パーサ] Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,17 +60,17 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java�Ŏ������ꂽ HTML Parser (HTML�p�[�T) �𒲂ׂĂ݂܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java�Ŏ������ꂽ HTML Parser �ɂ��� �I�[�v���\�[�X�̂��̌���Ŋ�����ׂĂ݂܂����B</P>
+<P>Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD>
-      <P>���̃��X�g�쐬�̂��߂ɎQ�l�ɂ����Ă����������y�[�W�͉��L�ł��B</P>
+      <P>このリスト作成のために参考にさせていただいたページは下記です。</P>
       <UL>
         <LI>Open Source HTML Parsers in Java<BR>
         <A HREF="http://www.java-source.net/open-source/html-parsers">http://www.java-source.net/open-source/html-parsers</A>
@@ -83,11 +83,11 @@
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00" align="center"><B>�Ȃ܂�</B></TD>
-      <TD bgcolor="#ffff00" align="center"><B>���</B></TD>
-      <TD bgcolor="#ffff00" align="center"><B>���C�Z���X</B></TD>
-      <TD bgcolor="#ffff00" align="center"><B>�ŏI�X�V��</B></TD>
-      <TD bgcolor="#ffff00" align="center"><B>����</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>なまえ</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>情報源</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>ライセンス</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>最終更新日</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>メモ</B></TD>
     </TR>
     <TR>
       <TD>HTML Parser</TD>
@@ -101,9 +101,9 @@
       <TD>LGPL<BR>
       CPL</TD>
       <TD>2006.07.10 (1.6)</TD>
-      <TD>�����o���@�\����B<BR>
-      HTML���`�@�\����B<BR>
-      �����N�Ȃǂ̃n���h�����O�����ӂ����B</TD>
+      <TD>書き出し機能あり。<BR>
+      HTML整形機能あり。<BR>
+      リンクなどのハンドリングも得意そう。</TD>
     </TR>
     <TR>
       <TD>Jericho HTML Parser</TD>
@@ -117,7 +117,7 @@
       <TD>LGPL<BR>
       EPL</TD>
       <TD>2007.05.20 (2.4)</TD>
-      <TD>HTML�ɉ����� JSP�Ȃǂ̃T�[�o�T�C�h�^�O�ɂ��Ή��B<BR>�����o���@�\����BHTML���`�@�\����BAPI�̎g�����肪���D�݂��ۂ��B</TD>
+      <TD>HTMLに加えて JSPなどのサーバサイドタグにも対応。<BR>書き出し機能あり。HTML整形機能あり。APIの使い勝手が私好みっぽい。</TD>
     </TR>
     <TR>
       <TD>HtmlCleaner</TD>
@@ -129,7 +129,7 @@
       </TD>
       <TD>BSD</TD>
       <TD>2007.07.12 (1.3)</TD>
-      <TD>HTML���`�@�\������Bjar�t�@�C�����������B�^�O���J�X�^�����鍷����������B</TD>
+      <TD>HTML整形機能が売り。jarファイルが小さい。タグをカスタムする差込口があり。</TD>
     </TR>
     <TR>
       <TD>Java Mozilla Html Parser</TD>
@@ -142,7 +142,7 @@
       LGPL<BR>
       MPL</TD>
       <TD>2007.07.30 (0.1.7)</TD>
-      <TD>Java�ɉ��� C����𗘗p�B</TD>
+      <TD>Javaに加え C言語を利用。</TD>
     </TR>
     <TR>
       <TD>CyberNeko HTML Parser</TD>
@@ -151,8 +151,8 @@
         <LI><FONT size="-1"><A href="http://people.apache.org/~andyc/neko/doc/html/">http://people.apache.org/~andyc/neko/doc/html/</A></FONT>
       </UL>
       </TD>
-      <TD>BSD��<BR>
-      �Ǝv����</TD>
+      <TD>BSD風<BR>
+      と思われる</TD>
       <TD>2005.07.18 (0.9.5)</TD>
       <TD></TD>
     </TR>
@@ -163,7 +163,7 @@
         <LI><A href="http://jtidy.sourceforge.net/">http://jtidy.sourceforge.net/</A>
       </UL>
       </TD>
-      <TD>�Ǝ�</TD>
+      <TD>独自</TD>
       <TD>2001.08.01<BR>
       (04aug2000r7-dev)</TD>
       <TD></TD>
@@ -177,13 +177,13 @@
       </TD>
       <TD></TD>
       <TD></TD>
-      <TD>Java����HTML�p�[�T</TD>
+      <TD>Java純正HTMLパーサ</TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���̂����A��{�I�d�l�⃉�C�Z���X�̓s�� (���� LGPL�ł���ق����s���ǂ�) �Ȃǂ��� HTML Parser �� Jericho HTML
-Parser �Ƃɒ��Ⴕ�AHTML�t�H�[�}�b�^�̋@�\���ȒP�Ɏ����܂����B</P>
-<P><FONT color="#ff00ff">HTML Parser�ɂ�� HTML�t�H�[�}�b�e�B���O�̎�����</FONT></P>
+<P>このうち、基本的仕様やライセンスの都合 (私は LGPLであるほうが都合良い) などから HTML Parser と Jericho HTML
+Parser とに着眼し、HTMLフォーマッタの機能を簡単に試しました。</P>
+<P><FONT color="#ff00ff">HTML Parserによる HTMLフォーマッティングの実装例</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -207,7 +207,7 @@ import java.io.OutputStreamWriter;
 import org.htmlparser.util.Translate;
 
 /**
- * HTML Parser��HTML���`���s�T���v���B
+ * HTML ParserのHTML整形実行サンプル。
  */
 public class FormatHtmlSample {
     static final String ENCODING = &quot;EUC-JP&quot;;
@@ -258,7 +258,7 @@ public class FormatHtmlSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">Jericho HTML Parser�ɂ�� HTML�t�H�[�}�b�e�B���O�̎�����</FONT></P>
+<P><FONT color="#ff00ff">Jericho HTML Parserによる HTMLフォーマッティングの実装例</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -283,7 +283,7 @@ import au.id.jericho.lib.html.Source;
 import au.id.jericho.lib.html.SourceFormatter;
 
 /**
- * Jericho HTML Parser��HTML���`���s�T���v���B
+ * Jericho HTML ParserのHTML整形実行サンプル。
  */
 public class JerichoFormatHtmlSample {
     void process(final String sourceUrlString, final String targetFileName)
@@ -318,10 +318,10 @@ public class JerichoFormatHtmlSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>����т��Ə����Ă݂������̊������ƁA���� Jericho HTML Parser�̃R�[�f�B���O�X�^�C�����D�݂��ۂ��悤�Ɋ����܂����B<BR>
-�Ƃ肠������������ƐG���������̊��z�ł��B�����Ǝg���Ă݂�ƈقȂ銴�G�ɂȂ�\��������܂��B</P>
+<P>ちょびっと書いてみただけの感じだと、私は Jericho HTML Parserのコーディングスタイルが好みっぽいように感じました。<BR>
+とりあえずざっくりと触った初見の感想です。もっと使ってみると異なる感触になる可能性があります。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

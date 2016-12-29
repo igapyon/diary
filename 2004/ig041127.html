@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/11/27 ���L: ���o�[�W������Java�v���O�C���ɃZ�L�����e�B��̐Ǝ㐫 ,
-Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</TITLE>
-<META name="DESCRIPTION" content="���낢�뒲�ׂĂ݂������Ƃ��������� �����ÁX�B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/11/27 日記: 旧バージョンのJavaプラグインにセキュリティ上の脆弱性 ,
+Linuxが世界サーバ市場を牽引する時代の到来 , Firefoxの拡張機能</TITLE>
+<META name="DESCRIPTION" content="いろいろ調べてみたいことが見つかって 興味津々。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,13 +15,13 @@ Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</TITLE>
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/11/27 ���L: ���o�[�W������Java�v���O�C���ɃZ�L�����e�B��̐Ǝ㐫 ,
-Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ���낢�뒲�ׂĂ݂������Ƃ��������� �����ÁX�B</P>
+    <H2>2004/11/27 日記: 旧バージョンのJavaプラグインにセキュリティ上の脆弱性 ,
+Linuxが世界サーバ市場を牽引する時代の到来 , Firefoxの拡張機能</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] いろいろ調べてみたいことが見つかって 興味津々。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@ Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@ Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,104 +60,104 @@ Linux�����E�T�[�o�s����������鎞��̓��� , Firefox�̊g���@�\</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java�v���O�C�� (JRE) �ɃZ�L�����e�B��̐Ǝ㐫</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaプラグイン (JRE) にセキュリティ上の脆弱性</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>ITmedia: Windows�ALinux��Java�ɏd��ȐƎ㐫<BR>
+  <LI>ITmedia: Windows、LinuxのJavaに重大な脆弱性<BR>
   <A HREF="http://www.itmedia.co.jp/enterprise/articles/0411/24/news014.html">http://www.itmedia.co.jp/enterprise/articles/0411/24/news014.html</A><BR>
-  JRE 1.4.2_05�ȑO�A1.4.1�A1.4.0�����[�X�A1.3.1_12�ȑO��Java�v���O�C���̕��͖�肪����̂������ł��B
-  <LI>Sun��Java�v���O�C���ɃZ�L�����e�B�E�z�[���CWeb�y�[�W�̉{���Ŕ�Q���󂯂�<BR>
+  JRE 1.4.2_05以前、1.4.1、1.4.0リリース、1.3.1_12以前のJavaプラグインの方は問題があるのだそうです。
+  <LI>SunのJavaプラグインにセキュリティ・ホール，Webページの閲覧で被害を受ける<BR>
   <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20041124/153003/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20041124/153003/</A>
 </UL>
-<P>Java���s���̃A�b�v�f�[�g�� �Z�L�����e�B��̓s���ɂ��K�v�ɂȂ��Ă���A���̂悤�ɔF�����܂����B</P>
+<P>Java実行環境のアップデートが セキュリティ上の都合により必要になっている、そのように認識しました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linux�����E�T�[�o�s����������鎞�オ���� </STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linuxが世界サーバ市場を牽引する時代が到来 </STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Linux�����E�T�[�o�s����������鎞�オ�������Ă����̂ł��ˁB���񂺂�m��܂���ł����B</P>
+<P>Linuxが世界サーバ市場を牽引する時代が到来していたのですね。ぜんぜん知りませんでした。</P>
 <UL>
-    <LI>2004�NQ3�̐��E�T�[�o�[�s���5.5�������ALinux��42.6����<BR>
+    <LI>2004年Q3の世界サーバー市場は5.5％成長、Linuxが42.6％増<BR>
     <A HREF="http://nikkeibp.jp/wcs/leaf/CID/onair/jp/it/345701">http://nikkeibp.jp/wcs/leaf/CID/onair/jp/it/345701</A><BR>
     <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20041125/153046/">http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20041125/153046/</A><BR>
-    ��̓I�Ȑ��l���ڂ��Ă��āA�ƂĂ��f���炵���L���ł��B������ Linux���T�[�o�s����������Ă���l�q���͂�����ƌ���Ă��܂��B
-    <LI>��3�l�����T�[�o�s��AIBM�����[�h���g��--�Ē���<BR>
+    具体的な数値が載っていて、とても素晴らしい記事です。ここで Linuxがサーバ市場を牽引している様子がはっきりと現れています。
+    <LI>第3四半期サーバ市場、IBMがリードを拡大--米調査<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20076486,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20076486,00.htm</A><BR>
-  Linux�T�[�o���V�F�A�g��ɍv�����鎞�オ�������Ă���̂ł��ˁB�т����肵�܂��B��ςȎ��オ�����������̂ł��B
+  Linuxサーバがシェア拡大に貢献する時代が到来しているのですね。びっくりします。大変な時代が到来したものです。
   </UL>
-<P>���͂� �T�[�o��Linux�Ȃ�č\�}��<STRONG>�펯��</STRONG>���鎞�オ�������Ă��܂����̂ł��傤���B���˂Ă�� Linux���L�߂������̗��ꂾ�����l�ԂƂ��Ă͊����ʂł��B</P>
+<P>もはや サーバ＝Linuxなんて構図が<STRONG>常識化</STRONG>する時代が到来してしまったのでしょうか。かねてより Linuxを広めたい側の立場だった人間としては感無量です。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�N���V�b�N���y�l�^: XML�֘A���ЂȂǂ̒���ŗL���Ȑ_�萳�p����ɂ�郍�W���[�E�m�����g���ւ̃C���^�r���[�L��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: XML関連書籍などの著作で有名な神崎正英さんによるロジャー・ノリントンへのインタビュー記事</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>The Web KANZAKI: ���W���[�E�m�����g���ɃC���^�r���[�I 2004<BR>
+  <LI>The Web KANZAKI: ロジャー・ノリントンにインタビュー！ 2004<BR>
   <A HREF="http://www.kanzaki.com/norrington/roger-interview2004.html">http://www.kanzaki.com/norrington/roger-interview2004.html</A>
 </UL>
-<P>XML�֘A���ЂȂǂ̒���Œ��L���� <A HREF="http://www.kanzaki.com/" TITLE="���y�Ƃł��e�N�j�J�����C�^�[�̕��BXML�֘A�ő����̒��삪����A�܂������Web�Ō��J����Ă��܂��B���΂炵���L���̐��X��Web�Ō��J������ �ǂ������肪�Ƃ��B">�_�萳�p</A>����ɂ��A�w����
-���W���[�E�m�����g���ւ̃C���^�r���[�L���ł��B���΂炵���B���Q���܂����B�L���̓��e�����΂炵���̂͂������Ȃ̂ł����A�_�肳�����
-XML�̐��Ƃł���Ȃ��� ���y����������Ă��� ���������h�Ȃ̂ł����́B</P>
+<P>XML関連書籍などの著作で超有名な <A HREF="http://www.kanzaki.com/" TITLE="音楽家でかつテクニカルライターの方。XML関連で多くの著作があり、またそれをWebで公開されています。すばらしい記事の数々をWebで公開下さり どうもありがとう。">神崎正英</A>さんによる、指揮者
+ロジャー・ノリントンへのインタビュー記事です。すばらしい。感嘆しました。記事の内容がすばらしいのはもちろんなのですが、神崎さんって
+XMLの専門家でありながら 音楽活動をされていて すごく立派なのですもの。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Firefox���� �ǉ��\�t�g������ƕ֗��Ȃ̂ł����H �m��܂���ł���(�Ƃ������l���������܂���ł���)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Firefoxって 追加ソフトを入れると便利なのですか？ 知りませんでした(というか考えつきもしませんでした)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>/.J�̉��L�̋L�������Ăт����肵�܂����B</P>
+<P>/.Jの下記の記事を見てびっくりしました。</P>
 <UL>
-  <LI>/.J: Firefox�ɂǂ�ȃG�N�X�e���V��������Ă܂����H<BR>
+  <LI>/.J: Firefoxにどんなエクステンション入れてますか？<BR>
   <A href="http://slashdot.jp/article.pl?sid=04/11/26/042208&topic=51">http://slashdot.jp/article.pl?sid=04/11/26/042208&amp;topic=51</A>
 </UL>
-<P>���� �f�� <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���I�[�v���\�[�X�ȃE�F�u�u���E�U�����̂ЂƂB">Mozilla Firefox</A> 1.0�� ���̕s�����Ȃ����p���Ă��܂����B�ł�
-�g���@�\(�G�N�X�e���V����)���Ă����̂�����I��œ����� Firefox�͂���ɕ֗��ȃc�[���ɂȂ�悤�ɏ�����Ă��܂��B���݂܂���
-�����ł� (��)</P>
-<P>�L��������� ���L�̃G�N�X�e���V�������C�ɂȂ�܂����B</P>
+<P>私は 素の <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="最近 世間での期待がもっとも集まっているオープンソースなウェブブラウザ実装のひとつ。">Mozilla Firefox</A> 1.0で 何の不満もなく利用していました。でも
+拡張機能(エクステンション)っていうのを幾つか選んで入れると Firefoxはさらに便利なツールになるように書かれています。すみません
+初耳です (笑)</P>
+<P>記事中からは 下記のエクステンションが気になりました。</P>
 <UL>
   <LI>Web Developer
   <LI>Live HTTP Headers
   <LI>ForecastFox
 </UL>
-<P>�Ƃ肠���� ���L�T�C�g�ŕ׋����Ă݂܂��B</P>
+<P>とりあえず 下記サイトで勉強してみます。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���I�[�v���\�[�X�ȃE�F�u�u���E�U�����̂ЂƂB">Mozilla Firefox</A> �܂Ƃ߃T�C�g<BR>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="最近 世間での期待がもっとも集まっているオープンソースなウェブブラウザ実装のひとつ。">Mozilla Firefox</A> まとめサイト<BR>
   <A HREF="http://firefox.geckodev.org/">http://firefox.geckodev.org/</A>
 </UL>
-<P>�C�ɂȂ����ǉ��̋@�\�g���Ȃǂ� <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���I�[�v���\�[�X�ȃE�F�u�u���E�U�����̂ЂƂB">Mozilla Firefox</A> �ɒǋL���Ă����܂����B</P>
+<P>気になった追加の機能拡張なども <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/firefox.html" TITLE="最近 世間での期待がもっとも集まっているオープンソースなウェブブラウザ実装のひとつ。">Mozilla Firefox</A> に追記しておきました。</P>
 
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�\�t�g�o���N�E�A�C�e�B���f�B�A�Ɓ�IT��3���ɍ���<BR>
+  <LI>ソフトバンク・アイティメディアと＠ITが3月に合併<BR>
   <A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20076443,00.htm">http://japan.cnet.com/news/media/story/0,2000047715,20076443,00.htm</A><BR>
-  ITmedia�Ɓ�IT�Ƃ����������ł����āI �т�����ł��B
-  <LI>ODP.NET��Oracle�ŗL�̋@�\�����p����<BR>
+  ITmediaと＠ITとが合併するんですって！ びっくりです。
+  <LI>ODP.NETでOracle固有の機能を活用する<BR>
   <A HREF="http://www.atmarkit.co.jp/fdb/rensai/odpdotnet01/odpdotnet01.html">http://www.atmarkit.co.jp/fdb/rensai/odpdotnet01/odpdotnet01.html</A><BR>
-  ���� .NET��Oracle�������̂ł���� ���Ȃ�ϋɓI�� ODP.NET�̗p���������邱�Ƃ����߂܂��B���ꂪ�ł��@�\�I�ň��芴�����������邩��ł��B�����ȑO ODP.NET�Ɍg��������� �܂� ODP.NET�̏����̂��̂ł����B������ ODP.NET��ADO.NET�Ƃ̊Ԃ� ���̓�����API���قȂ��Ă��܂����B����.NET�t���[�����[�N�Ɋ������ő�̕s���̈���AODP.NET��ADO.NET�Ƃ�API�`��̑���ł��B������ ����͂ǂ��Ȃ̂������B
-  <LI>�G�s�\�[�h2�F�f�U�C�i�[�Ƃ̖O���Ȃ������i�O����j<BR>
+  私は .NETでOracleを扱うのであれば かなり積極的に ODP.NET採用を検討することを勧めます。それが最も機能的で安定感を感じさせるからです。私が以前 ODP.NETに携わった頃は まだ ODP.NETの初期のものでした。ただし ODP.NETとADO.NETとの間で その当時はAPIが異なっていました。私が.NETフレームワークに感じた最大の不満の一つが、ODP.NETとADO.NETとのAPI形状の相違です。さあて 現状はどうなのかしらん。
+  <LI>エピソード2：デザイナーとの飽くなき闘争（前哨戦）<BR>
   <A HREF="http://www.atmarkit.co.jp/fdotnet/aspdevura/aspdevura02/aspdevura02_01.html">http://www.atmarkit.co.jp/fdotnet/aspdevura/aspdevura02/aspdevura02_01.html</A><BR>
-  �f�U�C�i�[����Ƃ̋�����Ƃ��āA�������������̈Ⴂ�Ƃ����̂������������܂���ˁB���Ȃ񂩂̓f�U�C���Z���X�E�[���n�Ȃ̂�
-  �f�U�C�i�[���񂪍ׂ������Ƃɂ�������� �Ȃ��Ȃ��f�U�C�����������Ȃ��Ƃ��ɁA�u�܂���������Ȃ��v�Ȃ���Ďv�������ł��B�ӂށA���ȁB�L����ǂ�ł��āA���N���O��
-  �f�U�C���ƃv���O�����Ƃ̃n�U�}���o�������悤�ȋL�����A�ق�̂�Ƃ�݂�����܂����B���̎���
-  Java����Č��������Ȃ��B
-  <LI>������NEC�A�uCOBOL2002 for .NET Framework�v�������Ő��i��<BR>
+  デザイナーさんとの共同作業って、こういう感性の違いというのを感じさせられますよね。私なんかはデザインセンス・ゼロ系なので
+  デザイナーさんが細かいことにこだわって なかなかデザインが完成しないときに、「まあいいじゃない」なあんて思いがちです。ふむ、反省。記事を読んでいて、何年か前に
+  デザインとプログラムとのハザマを経験したような記憶が、ほんのりとよみがえりました。その時は
+  Java言語案件だったなぁ。
+  <LI>日立とNEC、「COBOL2002 for .NET Framework」を共同で製品化<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20076487,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20076487,00.htm</A><BR>
-  �� ���˂Ă�� COBOL for .NET �Ɋ֐S������܂��B���̐��i�� ���i�Ƃ��� ���܂��������ė~�����Ɗ��҂��Ă��܂��B
+  私 かねてより COBOL for .NET に関心があります。この製品が 商品として うまく成功して欲しいと期待しています。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/01/18 ���L: blancoStringConv�v���W�F�N�g(��)</TITLE>
-<META name="DESCRIPTION" content="������ϊ��ɓ������� blanco�T�u�v���W�F�N�g���\�z��">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/01/18 日記: blancoStringConvプロジェクト(案)</TITLE>
+<META name="DESCRIPTION" content="文字列変換に特化した blancoサブプロジェクトを構想中">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/01/18 ���L: blancoStringConv�v���W�F�N�g(��)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ������ϊ��ɓ������� blanco�T�u�v���W�F�N�g���\�z��</P>
+    <H2>2006/01/18 日記: blancoStringConvプロジェクト(案)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 文字列変換に特化した blancoサブプロジェクトを構想中</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,75 +60,75 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStringConv�v���W�F�N�g(��)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStringConvプロジェクト(案)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>������ϊ��ɓ������� blanco�T�u�v���W�F�N�g���\�z���ł��BExcel�ɃR�[�h�ϊ��\�������Ă����� Java�\�[�X�R�[�h���������������Ƃ����V���v���Ȃ��̂ł��B<BR>
-�����񃆁[�e�B���e�B���āA�v���W�F�N�g���ɕς��ꍇ�������̂ŁA������h�L�������g�����C�Ƀ\�[�X�R�[�h�������悤�Ƃ����_���ł��B</P>
-<P>��ԓ���̂�Excel�l���̍���ŁA��Ԗڂɓ���̂̓v���W�F�N�g�ւ̖����ł��B���ۂ� Excel��ǂݍ��񂾂�Java�̃\�[�X���������������肷��Ƃ���̃��C�u�����͊��ɑ����Ă���̂ŁA�����͂��܂�傫���H���͂�����܂���B</P>
+<P>文字列変換に特化した blancoサブプロジェクトを構想中です。Excelにコード変換表を書いておけば Javaソースコードが自動生成されるというシンプルなものです。<BR>
+文字列ユーティリティって、プロジェクト毎に変わる場合が多いので、それをドキュメントから一気にソースコード生成しようという狙いです。</P>
+<P>一番難しいのはExcel様式の策定で、二番目に難しいのはプロジェクトへの命名です。実際に Excelを読み込んだりJavaのソースを自動生成したりするところのライブラリは既に揃っているので、そこはあまり大きい工数はかかりません。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�����R�[�h�E�����N����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>文字コード・リンクメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���΂炵��Web�y�[�W�������܂����B</P>
+<P>すばらしいWebページを見つけました。</P>
 <UL>
-  <LI>�}���و��̃R���s���[�^��b�u��
+  <LI>図書館員のコンピュータ基礎講座
   <UL>
-    <LI>JIS��{�����iJIS X 0208�j<BR>
+    <LI>JIS基本漢字（JIS X 0208）<BR>
     <A HREF="http://www.asahi-net.or.jp/~ax2s-kmtn/ref/jisx0208.html">http://www.asahi-net.or.jp/~ax2s-kmtn/ref/jisx0208.html</A>
-    <LI>ASCII��ANK�iJIS X 0201�j<BR>
+    <LI>ASCIIとANK（JIS X 0201）<BR>
     <A HREF="http://www.asahi-net.or.jp/~ax2s-kmtn/ref/codes.html">http://www.asahi-net.or.jp/~ax2s-kmtn/ref/codes.html</A>
   </UL>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java�N���X�t�@�C���̓ǉ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaクラスファイルの読解</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java�N���X�t�@�C���̓ǉ��ɂ́ASun��Java VM Spec���Q�Ƃ���̂��֗��ł��B</P>
+<P>Javaクラスファイルの読解には、SunのJava VM Specを参照するのが便利です。</P>
 <UL>
-  <LI>Java�N���X�t�@�C�� �t�H�[�}�b�g�̐���<BR>
+  <LI>Javaクラスファイル フォーマットの説明<BR>
   <A HREF="http://java.sun.com/docs/books/vmspec/2nd-edition/html/ClassFile.doc.html">http://java.sun.com/docs/books/vmspec/2nd-edition/html/ClassFile.doc.html</A>
-  <LI>Java VM�̃C���X�g���N�V�����̐��� : The Java Virtual Machine Instruction Set<BR>
+  <LI>Java VMのインストラクションの説明 : The Java Virtual Machine Instruction Set<BR>
   <A HREF="http://java.sun.com/docs/books/vmspec/2nd-edition/html/Instructions.doc.html">http://java.sun.com/docs/books/vmspec/2nd-edition/html/Instructions.doc.html</A>
   <UL>
-    <LI>Java VM �C���X�g���N�V�����ꗗ<BR>
+    <LI>Java VM インストラクション一覧<BR>
     <A HREF="http://java.sun.com/docs/books/vmspec/2nd-edition/html/Instructions2.doc.html">http://java.sun.com/docs/books/vmspec/2nd-edition/html/Instructions2.doc.html</A>
   </UL>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���{�ꕶ���R�[�h�l�^</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日本語文字コードネタ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���{�ꕶ���R�[�h�܂��ł͂܂����ۂ� ���̖{���Q�Ƃ������Ǝv���܂����B</P>
+<P>日本語文字コードまわりではまった際に この本を参照したいと思いました。</P>
 <UL>
-  <LI>CJKV�����؉z��񏈗�<BR>
+  <LI>CJKV日中韓越情報処理<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig060118.src.html' , result='ig060118.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4873111080/igapyondiary-22">amazon.co.jp: 4873111080</A>
 </UL>
-<P>�����ȑO���p���Ă����u���{���񏈗��v�̒��҂ɂ��V�����{�B�l�ōw������̂ɂ͒l�i�����ƍ��߂Ɗ����܂����B</P>
+<P>私が以前愛用していた「日本語情報処理」の著者による新しい本。個人で購入するのには値段がちと高めと感じました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework�̃h�L�������g�쐬�w�j</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkのドキュメント作成指針</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���낢�댟���������ʁA<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A> Framework�̃h�L�������g�́AWORD�`���Ńh�L�������g���쐬���邱�ƂƂ��܂��BWORD�`����
-blancoReport�����p����<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0�ȍ~�ō̗p����Ă���h�L�������g�t�H�[�}�b�g�BXML�̐��E�ł͗L����OASIS�Ƃ����W�����c�̂ɂ���ĕW������Ƃ������Ȃ��Ă��܂��B">OpenDocument</A>�o�R�ɂ� HTML/PDF/TEXT�ϊ�������j�ōl���Ă��܂��B</P>
+<P>いろいろ検討した結果、<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのドキュメントは、WORD形式でドキュメントを作成することとします。WORD形式を
+blancoReportを応用して<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0以降で採用されているドキュメントフォーマット。XMLの世界では有名なOASISという標準化団体によって標準化作業がおこなわれています。">OpenDocument</A>経由にて HTML/PDF/TEXT変換する方針で考えています。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

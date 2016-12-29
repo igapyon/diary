@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/06/30 ���L: Ubuntu: Ubuntu 10.04 �ɐV�����\�t�g�E�F�A���C���X�g�[��������@ (Ubuntu�\�t�g�E�F�A�Z���^�[��)</TITLE>
-<meta name="DESCRIPTION" content="Ubuntu 10.04 �� Ubuntu�\�t�g�E�F�A�Z���^�[���g���Ă݂�菇�̃����������܂��B">
-<meta name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2010/06/30 日記: Ubuntu: Ubuntu 10.04 に新しいソフトウェアをインストールする方法 (Ubuntuソフトウェアセンター版)</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 10.04 で Ubuntuソフトウェアセンターを使ってみる手順のメモを示します。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.2.0 for Windows">
 <meta name="DATE" content="2010-06-30T22:44:50+09:00">
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/06/30 ���L: Ubuntu: Ubuntu 10.04 �ɐV�����\�t�g�E�F�A���C���X�g�[��������@ (Ubuntu�\�t�g�E�F�A�Z���^�[��)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Ubuntu 10.04 �� Ubuntu�\�t�g�E�F�A�Z���^�[���g���Ă݂�菇�̃����������܂��B</P>
+    <H2>2010/06/30 日記: Ubuntu: Ubuntu 10.04 に新しいソフトウェアをインストールする方法 (Ubuntuソフトウェアセンター版)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ubuntu 10.04 で Ubuntuソフトウェアセンターを使ってみる手順のメモを示します。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp �𓌋��ŊJ��! �c�Ȃ킸���B�\���������ԋ߁B�Q����]�҂͍������\�����݂�!
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,66 +61,66 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu 10.04 �ɐV�����\�t�g�E�F�A���C���X�g�[��������@ (Ubuntu�\�t�g�E�F�A�Z���^�[��)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu 10.04 に新しいソフトウェアをインストールする方法 (Ubuntuソフトウェアセンター版)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debian�x�[�X��Linux�f�B�X�g���r���[�V�����̂ЂƂ�">Ubuntu</A> 10.04 �ɐV�����\�t�g�E�F�A���C���X�g�[��������@���������܂��BUbuntu 10.04 �ł́A�V�����\�t�g�E�F�A���C���X�g�[�����邽�߂ɂ́A�uUbuntu�\�t�g�E�F�A�Z���^�[�v���g���Ă����Ȃ��܂��B</p>
-<p><font color="#ff00ff">�O�����</font></p>
+<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> 10.04 に新しいソフトウェアをインストールする方法をメモします。Ubuntu 10.04 では、新しいソフトウェアをインストールするためには、「Ubuntuソフトウェアセンター」を使っておこないます。</p>
+<p><font color="#ff00ff">前提条件</font></p>
 <ul>
-  <li>Ubuntu 10.04 LTS Desktop ���{�� Remix ���n�[�h�f�B�X�N�ȂǂɃC���X�g�[���ς݂ł��邱��
+  <li>Ubuntu 10.04 LTS Desktop 日本語 Remix がハードディスクなどにインストール済みであること
   
-  <li>�C���^�[�l�b�g�E�l�b�g���[�N�ɐڑ��ς݂ł��邱��
-  <li>������: �����ŏЉ�鑀��ɂ��ẮA���p�҂̔��f����ѐӔC�̂��ƂɎ��{���Ă��������B�M�҂͉��̕ۏ؂��^���Ă��܂���B
+  <li>インターネット・ネットワークに接続済みであること
+  <li>★注意: ここで紹介する操作については、利用者の判断および責任のもとに実施してください。筆者は何の保証も与えていません。
 </ul>
-<p><font color="#ff00ff">�C���X�g�[�����@</font></p>
+<p><font color="#ff00ff">インストール方法</font></p>
 <ul>
-  <li>�u�A�v���P�[�V�����v���uUbuntu�\�t�g�E�F�A�Z���^�[�v��I�т܂��B
+  <li>「アプリケーション」→「Ubuntuソフトウェアセンター」を選びます。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu001.png" border="0">
 </ul>
 <ul>
-  <li>�uUbuntu�\�t�g�E�F�A�Z���^�[�v�͈ȉ��̂悤�ȉ�ʂł��B���̉�ʂ���A3 ���𒴂��閳���Ŏ��R�ȃ\�t�g�E�F�A���������ăC���X�g�[�����邱�Ƃ��ł��܂��B
+  <li>「Ubuntuソフトウェアセンター」は以下のような画面です。この画面から、3 万個を超える無料で自由なソフトウェアを検索してインストールすることができます。
   <ul>
-    <li>���Q�[���̃J�e�S�������ł� 488 �̃\�t�g�E�F�A����������Ă��܂��B
+    <li>★ゲームのカテゴリだけでも 488 個のソフトウェアが準備されています。
   </ul>
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu002.png" border="0">
 </ul>
 <ul>
-  <li>�\�t�g�E�F�A�̖��̂Ȃǂ��킩���Ă���ꍇ�ɂ́A�uUbuntu�\�t�g�E�F�A�Z���^�[�v�̉�ʉE�ケ����e�L�X�g�{�b�N�X�ɊY�����镶�������͂��܂��B�L�[���[�h�ɏ]���ă\�t�g�E�F�A���i�荞�ނ��Ƃ��ł��܂��B�\�t�g�E�F�A�̑I�����m�肵����A�u�C���X�g�[���v�{�^�����������܂��B
+  <li>ソフトウェアの名称などがわかっている場合には、「Ubuntuソフトウェアセンター」の画面右上こあるテキストボックスに該当する文字列を入力します。キーワードに従ってソフトウェアを絞り込むことができます。ソフトウェアの選択が確定したら、「インストール」ボタンを押下します。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu003.png" border="0"><br>
-  �������ł́APingus �Ƃ����Q�[����I������菇���Ƃ��Ď����Ă��܂��B
+  ★ここでは、Pingus というゲームを選択する手順を例として示しています。
 </ul>
 <ul>
-  <li>�\�t�g�E�F�A�̐������m�F���A�Y���\�t�g�E�F�A���C���X�g�[�����邱�Ƃ����܂�΁u�C���X�g�[���v�{�^�����������܂��B
+  <li>ソフトウェアの説明を確認し、該当ソフトウェアをインストールすることが決まれば「インストール」ボタンを押下します。
   <ul>
-    <li>�u�t���[�v�ƋL�ڂ���Ă���_���|�C���g�ł��BUbuntu �ɂ�����u�t���[�v�ɂ́A�����Ǝ��R�� 2 �̈Ӗ����������Ă��܂��B�܂�A���̃\�t�g�E�F�A�́A���R�ɖ����ŃC���X�g�[���ł���Ƃ������Ƃ������Ă���̂ł��B
+    <li>「フリー」と記載されている点がポイントです。Ubuntu における「フリー」には、無料と自由の 2 つの意味がかけられています。つまり、このソフトウェアは、自由に無料でインストールできるということを示しているのです。
   </ul>
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu004.png" border="0">
 </ul>
 <ul>
-  <li>�K�v�ɉ����āu�F�؁v�_�C�A���O���J���܂��B�����ł́A�u�p�X���[�h�v�e�L�X�g�{�b�N�X�փp�X���[�h����͂��܂��B
+  <li>必要に応じて「認証」ダイアログが開きます。ここでは、「パスワード」テキストボックスへパスワードを入力します。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu005.png" border="0">
 </ul>
 <ul>
-  <li>�C���X�g�[�����I���� &quot;�C���X�g�[���ς�&quot; �ƕ\������܂��B
+  <li>インストールが終わると &quot;インストール済み&quot; と表示されます。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu006.png" border="0">
 </ul>
 <ul>
-  <li>����ł́A�C���X�g�[�����ꂽ�A�v���P�[�V�����𗘗p���Ă݂܂��BPingus �́u�Q�[���v�ɕ��ނ����\�t�g�E�F�A�ł��B���̂��߁A�u�A�v���P�[�V�����v���u�Q�[���v���uPingus�v��I�����āAPingus
-  ���N�����܂��B
+  <li>それでは、インストールされたアプリケーションを利用してみます。Pingus は「ゲーム」に分類されるソフトウェアです。このため、「アプリケーション」→「ゲーム」→「Pingus」を選択して、Pingus
+  を起動します。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu007.png" border="0">
 </ul>
 <ul>
-  <li>Pingus �͋N������ƈȉ��̂悤�ȉ�ʂ��\������܂��B
+  <li>Pingus は起動すると以下のような画面が表示されます。
   <li><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100630ubu008.png" border="0">
 </ul>
-<p>���̂悤�ɁAUbuntu 10.04 �ł� �uUbuntu�\�t�g�E�F�A�Z���^�[�v�𗘗p���āA�ƂĂ���y�ɊȒP�ɁA�����Ŏ��R�ȃ\�t�g�E�F�A���������ăC���X�g�[�����āA�����ė��p���邱�Ƃ��ł��܂��B</p>
+<p>このように、Ubuntu 10.04 では 「Ubuntuソフトウェアセンター」を利用して、とても手軽に簡単に、無料で自由なソフトウェアを検索してインストールして、そして利用することができます。</p>
 <hr>
-<p>�Ȃ��AUbuntu �ɍŏ����珀������Ă���\�t�g�E�F�A�ȊO�ɂ��A���E�ɂ͑�R�̃\�t�g�E�F�A���񋟂���Ă��܂��B<br>
-�����̃A�v���P�[�V�����̂������́A�uUbuntu�\�t�g�E�F�A�Z���^�[�v�ł͂Ȃ��A���̃C���X�g�[�����@�𗘗p����K�v������ꍇ������܂��B�����ɂ��ẮA�\�t�g�E�F�A�񋟎҂������ʂ̃C���X�g�[�����@�𗘗p����K�v�͂���܂��B<br>
-�܂��A�܂��� Ubuntu �ŕW���I�ɗ��p�ł���A�v���P�[�V�������uUbuntu�\�t�g�E�F�A�Z���^�[�v���o�R���ė��p����̂��A����Ƃ��Ă͑Ó����ƍl���܂��B</p>
+<p>なお、Ubuntu に最初から準備されているソフトウェア以外にも、世界には沢山のソフトウェアが提供されています。<br>
+それらのアプリケーションのいくつかは、「Ubuntuソフトウェアセンター」ではなく、他のインストール方法を利用する必要がある場合があります。それらについては、ソフトウェア提供者が示す個別のインストール方法を利用する必要はあります。<br>
+まあ、まずは Ubuntu で標準的に利用できるアプリケーションを「Ubuntuソフトウェアセンター」を経由して利用するのが、入門としては妥当だと考えます。</p>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/06/30 22:44:50 $</address>
 </BODY>
 </HTML>

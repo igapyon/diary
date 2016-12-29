@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/07/12 ���L: Sun Java JCE 1.2.1�� 2005/07/28�����ɂ���</TITLE>
-<META name="DESCRIPTION" content="Sun Java JCE 1.2.1 �� 2005/07/28�ɓ��삵�Ȃ��Ȃ�Ƃ��������ȒP�ɒ������܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/07/12 日記: Sun Java JCE 1.2.1の 2005/07/28日問題について</TITLE>
+<META name="DESCRIPTION" content="Sun Java JCE 1.2.1 が 2005/07/28に動作しなくなるという問題を簡単に調査しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/07/12 ���L: Sun Java JCE 1.2.1�� 2005/07/28�����ɂ���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Sun Java JCE 1.2.1 �� 2005/07/28�ɓ��삵�Ȃ��Ȃ�Ƃ��������ȒP�ɒ������܂����B</P>
+    <H2>2005/07/12 日記: Sun Java JCE 1.2.1の 2005/07/28日問題について</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Sun Java JCE 1.2.1 が 2005/07/28に動作しなくなるという問題を簡単に調査しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,25 +60,25 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java JCE 1.2.1 �� 2005/07/28�����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java JCE 1.2.1 の 2005/07/28日問題</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Sun Java�̃Z�L�����e�B�֘A�p�b�P�[�W JCE �� �Y�܂�����肪�\������Ă���悤�ł��B</P>
+<P>Sun Javaのセキュリティ関連パッケージ JCE に 悩ましい問題が予見されているようです。</P>
 <UL>
-  <LI>ITmedia: Java�Í��������W���[���́u7��28�����v�Ɍx��<BR>
+  <LI>ITmedia: Java暗号処理モジュールの「7月28日問題」に警告<BR>
   <A HREF="http://www.itmedia.co.jp/enterprise/articles/0507/09/news008.html">http://www.itmedia.co.jp/enterprise/articles/0507/09/news008.html</A>
-  <LI>JCE 1.2.1 �̏ؖ��������؂�Ɋւ��钍�ӊ��N<BR>
+  <LI>JCE 1.2.1 の証明書期限切れに関する注意喚起<BR>
   <A HREF="http://www.ipa.go.jp/security/vuln/20050708_jce.html">http://www.ipa.go.jp/security/vuln/20050708_jce.html</A>
-  <LI>ZDNet Japan: ���}JCE 1.2.2�ɃA�b�v�O���[�h��--7��28���ɏؖ��������؂���}����JCE 1.2.1��JPCERT/CC�Ȃ�3�c�̂��ŏI�x��<BR>
+  <LI>ZDNet Japan: 至急JCE 1.2.2にアップグレードを--7月28日に証明書期限切れを迎えるJCE 1.2.1をJPCERT/CCなど3団体が最終警告<BR>
   <A HREF="http://japan.zdnet.com/news/sec/story/0,2000052528,20085177,00.htm">http://japan.zdnet.com/news/sec/story/0,2000052528,20085177,00.htm</A>
 </UL>
-<P>�ǂ��� JCE 1.2.1 �̃��W���[�����T�C�������ؖ������g���ؖ��������؂���}���Ă��܂��悤�ł��BJCE 1.2.1���̂��̂��ؖ��������Ă��܂��Ƃ������̂悤�ł��B</P>
-<P>���������� JDK 1.4�ȍ~�ł� JCE���W���Y�t����Ă���̂ł����A1.4�ȍ~�ł���� ���̖��ɂ��Ă͍���͉e�����󂯂Ȃ��Ƃ̂��Ƃł��B�����ȑO�]���������Ƃ̂���^�v���_�N�g�́A�ʌ��ɂ�
-���� JDK �� 1.4.x�ւƃo�[�W�����A�b�v������Ȃ̂ŁA���ړI�ɂ� ���̖��͉e���������悤�ł��B</P>
-<P>�c���ɂ͓�Փx�����������ł��B</P>
+<P>どうも JCE 1.2.1 のモジュールをサインした証明書自身が証明書期限切れを迎えてしまうようです。JCE 1.2.1そのものが証明を失ってしまうという問題のようです。</P>
+<P>さしあたり JDK 1.4以降では JCEが標準添付されているのですが、1.4以降であれば この問題については今回は影響を受けないとのことです。私が以前従事したことのある某プロダクトは、別件にて
+既に JDK が 1.4.xへとバージョンアップした後なので、直接的には この問題は影響が無いようです。</P>
+<P>…私には難易度が高かったです。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

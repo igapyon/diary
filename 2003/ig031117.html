@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2003/11/17 ���L: O-R�}�b�s���O�����ɒ��� , Sun Java System Application
-Server 8 (J2EE) ���������[�X��</TITLE>
-<META name="DESCRIPTION" content="�a�J�Ń��V��H�����Ă��ȓX�������ς�킩��܂���ł����B , Apache Torque�����J�n">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2003/11/17 日記: O-Rマッピング調査に着手 , Sun Java System Application
+Server 8 (J2EE) 無償リリース化</TITLE>
+<META name="DESCRIPTION" content="渋谷でメシを食うすてきな店がさっぱりわかりませんでした。 , Apache Torque調査開始">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:47+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,13 +15,13 @@ Server 8 (J2EE) ���������[�X��</TITLE>
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2003/11/17 ���L: O-R�}�b�s���O�����ɒ��� , Sun Java System Application
-Server 8 (J2EE) ���������[�X��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �a�J�Ń��V��H�����Ă��ȓX�������ς�킩��܂���ł����B , Apache Torque�����J�n</P>
+    <H2>2003/11/17 日記: O-Rマッピング調査に着手 , Sun Java System Application
+Server 8 (J2EE) 無償リリース化</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 渋谷でメシを食うすてきな店がさっぱりわかりませんでした。 , Apache Torque調査開始</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@ Server 8 (J2EE) ���������[�X��</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@ Server 8 (J2EE) ���������[�X��</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,71 +60,71 @@ Server 8 (J2EE) ���������[�X��</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Torque�����J�n</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Torque調査開始</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>O-R�}�b�s���O�𒲂ׂĂ݂悤�ƌ������ŁA������<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Framework�R�~�b�^�̂ЂƂ�B">ymoto</A>����� <A href="http://db.apache.org/torque/">Apache Torque</A>��<A href="http://www.asahi-net.or.jp/~dp8t-asm/java/tools/Relaxer/index_ja.html">Relaxer</A>�𒲍����Ă�����Ă��܂��B���LOFF�Ń\�[�X�R�[�h�����������b��ɋ������Ă����̂ŁA���̘b��ɗ��������A���݉�I�ɂ�
-Relaxer�ŗ��������Ă����̂ł�����ǂ� �D�݂Ƃ��������� Apache DB Project�̈�ł���
-Torque���������Ă��������Ƃ����v���ł��B�i�g���N�Ɣ�������炵���c�j<BR>
-���Ȃ݂� Torque��Turbine�t���[�����[�N�̈ꕔ�Ȃ̂������ȁB</P>
-<P>�� <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Framework�R�~�b�^�̂ЂƂ�B">ymoto</A>����ɂ��� �u�Ƃ肠�����h�L�������g�����Ȃ��v �̂������ł��B�P�O�̃o�[�W�����ł���3.0����
-�������h�L�������g������̂������ȁB�n�c���m�Ńh�L�������g�������� ���񑩂� �w�\�[�X�R�[�h���h�L�������g�x��Ԃł� ���ƃL�c�C�Ƃ������ƂŁA�܂�
-3.0�őË����܂� (���)<BR>
-����͂Ƃ����� O-R�}�b�s���O�Ȃ̂� R-O�}�b�s���O(����ȗp��͎��͑��݂��܂���) �Ȃ̂��A�Ƃ������Ƃ� �S�[���͊ԈႢ�Ȃ������Ȃ̂ł����A�r���o�߂Ƃ��āA����ς�f�[�^�x�[�X�w�����������̂̕���
-���͎g�����肪�ǂ��Ǝv���Ă��܂��̂ŁA��������� Torque���˂���Ă��܂��B���̈Ӑ}�� <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Framework�R�~�b�^�̂ЂƂ�B">ymoto</A>����ɂ��������������Ă��炢�o�������Ȃ��Ă����͗l�ł��B</P>
-<P>���� Torque���C�P�Ă�����A���N���s�炷�A�C�e���̈�ɂ��悤�Ǝv���܂��B���s�点��Ƃ����΁A2003�N��
-SWT��FOAF�����s�点�邱�Ƃ������ł����BSWT�� Eclipse�����s�����������Ŏ����I�ɗ��s������������܂��BFOAF��
-�ꉞ���s�����������B�������s�点���̂��ǂ����͂��Ă����A�܂� ���s����̂�\������
-�Ƃ����Ӗ��ł� �ꉞ�����������B</P>
-<P><FONT color="#ff0000">2003.11.18</FONT> Apache Torque�� ���C�u�������肪��ˑ��ȃ\�[�X�t�@�C�������������̂Ō��ŁBRelaxer�� ���̃C���[�W (�Ƃ����������ȑO�쐬����O-R�\�[�X�t�@�C�����������̃\�[�X�t�@�C��)�ɂ��Ȃ�߂��Ƃ������Ƃ������BO-R�}�b�s���O�Ƃ����P��ł�������Ƃ͂����A���ۂɐ��������\�[�X�t�@�C���͂��̓N�w�͐獷���ʂł���Ƃ������Ƃ�Ɋ����܂����B<BR>
-�c����ɂ��Ă� ���̂Ƃ��� Relaxer����������\�[�X�t�@�C���� insert��delete�͂���̂�
-�Ȃ��� update����������܂���B�Ȃ�ł��낤�` (?)</P>
-<P>�������܂� ���܂� O-R�}�b�s���O���� �������܂����Ă��܂������A����⎄�̃j�[�Y�ɂ���߂ċ߂��V�����m�������Ƃ�c�B����ɂ�
-EJB�Ɍ��ł���Java�G���W�j�A��O-R�}�b�s���O�ɂȂ��ꂱ�񂾁A���������b������̂������ȁB#
-�^�U�͕s�� :-P</P>
-<P><FONT color="#ff0000">2005.02.14 �ǋL</FONT> ���� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDB</A>�Ƃ���R-O�}�b�s���O�ɂ��A�v���[�`�ɗ��������܂����B</P>
+<P>O-Rマッピングを調べてみようと言う事で、東京の<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんに <A href="http://db.apache.org/torque/">Apache Torque</A>と<A href="http://www.asahi-net.or.jp/~dp8t-asm/java/tools/Relaxer/index_ja.html">Relaxer</A>を調査してもらっています。日記OFFでソースコード自動生成が話題に挙がっていたので、その話題に落ち着き、飲み会的には
+Relaxerで落ち着いていたのですけれども 好みというか勢い Apache DB Projectの一つである
+Torqueも押さえておきたいという思いです。（トルクと発音するらしい…）<BR>
+ちなみに TorqueはTurbineフレームワークの一部なのだそうな。</P>
+<P>で <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんによると 「とりあえずドキュメントが少ない」 のだそうです。１つ前のバージョンである3.0だと
+いくつかドキュメントがあるのだそうな。ハツモノでドキュメント無しだと お約束の 『ソースコードがドキュメント』状態では ちとキツイということで、まあ
+3.0で妥協します (苦笑)<BR>
+それはともかく O-Rマッピングなのか R-Oマッピング(そんな用語は実は存在しません) なのか、ということで ゴールは間違いなく同じなのですが、途中経過として、やっぱりデータベース指向が強いものの方が
+私は使い勝手が良いと思っていますので、それもあり Torqueをねらっています。その意図は <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんにも少しずつ理解してもらい出せたかなっていう模様です。</P>
+<P>もし Torqueがイケていたら、来年流行らすアイテムの一つにしようと思います。流行らせるといえば、2003年は
+SWTとFOAFが流行らせることが抱負でした。SWTは Eclipseが流行ったおかげで自動的に流行った感があります。FOAFも
+一応流行ったかしらん。私が流行らせたのかどうかはさておき、まあ 流行るものを予見した
+という意味では 一応成功かしらん。</P>
+<P><FONT color="#ff0000">2003.11.18</FONT> Apache Torqueは ライブラリがりがり依存なソースファイルが生成されるので幻滅。Relaxerは 私のイメージ (というか私が以前作成したO-Rソースファイル自動生成のソースファイル)にかなり近いということが判明。O-Rマッピングという単語でくくられるとはいえ、実際に生成されるソースファイルはその哲学は千差万別であるということを痛感しました。<BR>
+…それにしても 今のところ Relaxerが生成するソースファイルに insertやdeleteはあるのに
+なぜか updateが見当たりません。なんでだろう～ (?)</P>
+<P>しかしまあ 今まで O-Rマッピングって 無視しまくっていましたが、よもや私のニーズにきわめて近いシロモノだったとわ…。一説には
+EJBに幻滅したJavaエンジニアがO-Rマッピングになだれこんだ、そういう話もあるのだそうな。#
+真偽は不明 :-P</P>
+<P><FONT color="#ff0000">2005.02.14 追記</FONT> 結局 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDB</A>というR-Oマッピングによるアプローチに落ち着きました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�u�K��O����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>講習会前準備</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����͍u�K��̑O������Ƃɏ]������\��ł��B�I��������Ō����̎������ɖ߂�܂��B<BR>
-<FONT color="#ff0000">22:37</FONT> ���� 21���܂Ō��n�ɂ��܂����B</P>
+<P>今日は講習会の前準備作業に従事する予定です。終了したら芝公園の事務所に戻ります。<BR>
+<FONT color="#ff0000">22:37</FONT> 結局 21時まで現地にいました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�j�����o����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>曜日感覚混乱</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��� �����ɗ����̂ŁA(���i�͌��j���ɓ����Ɉړ����Ă���̂�) �j�����o���������Ă��܂��B����
-�W�����v�A�W�����v�B</P>
+<P>昨日 東京に来たので、(普段は月曜日に東京に移動しているので) 曜日感覚が混乱しています。さて
+ジャンプ、ジャンプ。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�a�J�Ń��V</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>渋谷でメシ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��꓌��O�Ŏd���������̂ŁA���V�͏a�J�ŐH�ׂ悤�Ǝv���Ă��܂����B�c �Ƃ��낪
-�a�J�� �ǂ�ȐH�ו���������̂� �����ς�킩��܂���ł����B�����H���������̂悤�ȓX�ŐH�ׂ܂����B�Ӂ`�ށA����
-���C�ɓ���H���X��T���˂΁c�B</P>
+<P>駒場東大前で仕事だったので、メシは渋谷で食べようと思っていました。… ところが
+渋谷で どんな食べ物屋があるのか さっぱりわかりませんでした。立ち食い蕎麦屋のような店で食べました。ふ～む、何か
+お気に入り食事店を探さねば…。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>����_���񂪂ƂĂ����Z�������l�q</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>結城浩さんがとてもお忙しいご様子</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>���� �Ƃ��Ă����Z�������l�q�B���L�� Keep Alive������t���Ă��܂����B�A�A�A����Ȏ������͖Z�����̂ł�����ǂ��˂��B</P>
+<P><A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんが とってもお忙しいご様子。日記に Keep Aliveが張り付いていました。、、、そんな私も実は忙しいのですけれどもねっ。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig031117.src.html' , result='ig031117.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig031117-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">�ăT���AJ2EE�����uJava System Application Server 8�v�𖳏������[�X��</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>J2EE 1.4�����̏����i�Ȃ񂾂����ȁB���������������[�X�Ƃ́c Sun����J2EE�T�[�o�\�t�g�������ŗ��p�\�Ƃ����̂� �ǂ�ȃC���p�N�g��ǂ�ȉe��������̂������B�Ƃ��Ă������[���ł��B<LI><A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">���{�ł�Blog�ւ̊�ƎQ���������A����̍s���́H</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>���̓��L��Blog�ɕ��ނ����A�̂������B�Ȃ���Ďv�����肵�āB����͂Ƃ����� Blog����ʉ����Ă����̂��ǂ����A�����[���ώ@���Ă��܂��B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">�I�[�v���\�[�X�œ����؂��A�g�A�����E�x�m�ʁENEC�������݂̍����c�̂�</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�����銿�����ŗ͂����킹�ăI�[�v���\�[�X�̊����Ή��ȂǂɎ��g�ނ��Ƃ� �ƂĂ������[���ł��B<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">NEC�A�e���r�����^�^��Ɖf���z�M�@�\�������PCI�g���{�[�h�𔭔�</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>���掿�`���[�����ꂽSmartVision HG2/R�BSmartVision HG2�������Ă��鎄�Ƃ��Ă͕��G�ȋC�����ł��B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">�ă}�C�N���\�t�g�A�O�l�����Ɛт̓�������\</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�f�X�N�g�b�v�pWindows��Office�ɉA�肪������̂������ȁB�������܂� ���̂�����������Ђł��ˁB</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig031117-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">米サン、J2EE準拠「Java System Application Server 8」を無償リリースへ</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>J2EE 1.4準拠の初製品なんだそうな。しかし無償リリースとは… Sun純正J2EEサーバソフトが無償で利用可能というのは どんなインパクトやどんな影響があるのかしらん。とっても興味深いです。<LI><A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">日本でもBlogへの企業参入相次ぐ、今後の行方は？</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>私の日記もBlogに分類される、のかしらん。なあんて思ったりして。それはともかく Blogが一般化していくのかどうか、興味深く観察しています。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">オープンソースで日中韓が連携、日立・富士通・NEC揃い踏みの国内団体も</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>いわゆる漢字圏で力を合わせてオープンソースの漢字対応などに取り組むことは とても興味深いです。<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">NEC、テレビ視聴／録画と映像配信機能を備えるPCI拡張ボードを発売</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>高画質チューンされたSmartVision HG2/R。SmartVision HG2を持っている私としては複雑な気持ちです。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">米マイクロソフト、前四半期業績の内訳を公表</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>デスクトップ用WindowsやOfficeに陰りが見えるのだそうな。しかしまあ ものすごく強い会社ですね。</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:47 $</address>
 </BODY>
 </HTML>

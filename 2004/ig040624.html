@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/06/24 ���L: JUnit����PL/SQL�R�[�h�̒P�̎����͉\���H</TITLE>
-<META name="DESCRIPTION" content="�A�C�f�A�̃����ł��BJUnit����PL/SQL�ŏ����ꂽ�\�[�X�R�[�h�̃e�X�e�B���O�͉\���ǂ����A�ɂ��Ăł��B �� ���J���� JUnit�����PL/SQL�P�̎������������A���Ȃ���ʂ��������Ƃ��킩��܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,JUnit,PL/SQL,���j�b�g�e�X�g,XP,�P�̎���">
+<TITLE>2004/06/24 日記: JUnitからPL/SQLコードの単体試験は可能か？</TITLE>
+<META name="DESCRIPTION" content="アイデアのメモです。JUnitからPL/SQLで書かれたソースコードのテスティングは可能かどうか、についてです。 → 実開発に JUnitからのPL/SQL単体試験を実装し、かなり効果が高いことがわかりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,JUnit,PL/SQL,ユニットテスト,XP,単体試験">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/06/24 ���L: JUnit����PL/SQL�R�[�h�̒P�̎����͉\���H</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,JUnit,PL/SQL,���j�b�g�e�X�g,XP,�P�̎���] �A�C�f�A�̃����ł��BJUnit����PL/SQL�ŏ����ꂽ�\�[�X�R�[�h�̃e�X�e�B���O�͉\���ǂ����A�ɂ��Ăł��B �� ���J���� JUnit�����PL/SQL�P�̎������������A���Ȃ���ʂ��������Ƃ��킩��܂����B</P>
+    <H2>2004/06/24 日記: JUnitからPL/SQLコードの単体試験は可能か？</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,JUnit,PL/SQL,ユニットテスト,XP,単体試験] アイデアのメモです。JUnitからPL/SQLで書かれたソースコードのテスティングは可能かどうか、についてです。 → 実開発に JUnitからのPL/SQL単体試験を実装し、かなり効果が高いことがわかりました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,155 +59,155 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�A�C�f�A����: JUnit����PL/SQL�R�[�h�̒P�̎����͉\���H</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アイデアメモ: JUnitからPL/SQLコードの単体試験は可能か？</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JUnit��DBUnit�𗘗p���� PL/SQL�R�[�h��P�̎����ł��Ȃ����ǂ����l�@���ł��BJDBC��CallableStatement�o�R�ŌĂяo���Ď�������A�Ƃ�������΂��ł��BsetUp�ȂǂɑO�����Ƃ��Ẵe�[�u���f�[�^��ǂݍ��܂��Ď������܂��B<BR>
-�A�A�A������Đ��Ԉ�ʓI�� �����ӂ`�̃A�C�f�A�Ȃ̂��Ȃ��c�B�ƁA�ځ`���ƍl�@���B</P>
-<P>Oracle���̊��ɂ͉����C���X�g�[���ł��Ȃ��\��������̂ŁAPL/SQL�l�B�e�B�u�ȒP�̎����c�[���ł͓s���������悤�ɑz�����Ă��܂��B</P>
-<P><FONT color="#ff0000">2004.06.25 �ǋL</FONT> �؏~����� ��{�I�� CallableStatement�̎g������𒲂ׂĂ��炢�܂����B</P>
+<P>JUnitやDBUnitを利用して PL/SQLコードを単体試験できないかどうか考察中です。JDBCのCallableStatement経由で呼び出して試験する、というあんばいです。setUpなどに前準備としてのテーブルデータを読み込ませて試験します。<BR>
+、、、これって世間一般的に ごくふつ～のアイデアなのかなぁ…。と、ぼ～っと考察中。</P>
+<P>Oracle側の環境には何もインストールできない可能性もあるので、PL/SQLネィティブな単体試験ツールでは都合が悪いように想像しています。</P>
+<P><FONT color="#ff0000">2004.06.25 追記</FONT> 青木淳さんに 基本的な CallableStatementの使い勝手を調べてもらいました。</P>
 <UL>
   <LI><A HREF="http://www.idevelopment.info/data/Programming/java/jdbc/PLSQL_and_JDBC/SUB_PLSQLAndJDBC.shtml">http://www.idevelopment.info/data/Programming/java/jdbc/PLSQL_and_JDBC/SUB_PLSQLAndJDBC.shtml</A>
 </UL>
-<P>���́APL/SQL�R�[�h��� Java�ƃ}�b�s���O�\�Ȉ����̌^�̐􂢏o���ł��B�|�C���g��</P>
+<P>次は、PL/SQLコード上で Javaとマッピング可能な引数の型の洗い出しです。ポイントは</P>
 <UL>
-  <LI>java.sql.*�ȉ������ɐ��������͈͂ŁAPL/SQL���̈������K�肷�ׂ����ǂ����H
-  <LI>�P�̎����s���Ȃ̂�����oracle.*�𗘗p���Ă��ǂ��A�Ɣ��f���� oracle.*��JDBC�͈̔͂ŁAPL/SQL���̈������K�肵�Ă��ǂ��̂��ǂ����H
-  <LI>�܂�����JDBC������̌Ăяo���Ɍ����Ă��Ȃ� PL/SQL���̌^�͑��݂���̂��ǂ����H
-  ���Ƃ��Δz��^�Ƃ��� JDBC����Ăяo����̂��H
+  <LI>java.sql.*以下だけに制限した範囲で、PL/SQL側の引数を規定すべきかどうか？
+  <LI>単体試験行程なのだからoracle.*を利用しても良い、と判断して oracle.*のJDBCの範囲で、PL/SQL側の引数を規定しても良いのかどうか？
+  <LI>まったくJDBC側からの呼び出しに向いていない PL/SQL側の型は存在するのかどうか？
+  たとえば配列型とかは JDBCから呼び出せるのか？
 </UL>
-<P>�ȂǂȂǁB</P>
-<P><FONT color="#ff0000">2004.06.26�ǋL</FONT> �؏~����Ɉ����������ׂĂ��炢�܂����B</P>
+<P>などなど。</P>
+<P><FONT color="#ff0000">2004.06.26追記</FONT> 青木淳さんに引き続き調べてもらいました。</P>
 <UL>
-  <LI>Java Programming Examples (JDBC�ɂ��PL/SQL �R�[���̃T���v��)<BR>
+  <LI>Java Programming Examples (JDBCによるPL/SQL コールのサンプル)<BR>
   <A HREF="http://www.idevelopment.info/data/Programming/java/PROGRAMMING_Java_Programming.shtml">http://www.idevelopment.info/data/Programming/java/PROGRAMMING_Java_Programming.shtml</A>
-  <LI>JDBC API ����(SUN�̃T�C�g)<BR>
+  <LI>JDBC API 入門(SUNのサイト)<BR>
   <A HREF="http://java.sun.com/j2se/1.4/ja/docs/ja/guide/jdbc/getstart/GettingStartedTOC.fm.html">http://java.sun.com/j2se/1.4/ja/docs/ja/guide/jdbc/getstart/GettingStartedTOC.fm.html</A>
-  <LI>JUnit, JDBC, PL-SQL Procedures(JUnit, JDBC, PL/SQL�@�ł̋L��)<BR>
+  <LI>JUnit, JDBC, PL-SQL Procedures(JUnit, JDBC, PL/SQL　での記事)<BR>
   <A HREF="http://www.bikle.com/TThier/Languages/java/JUnitDemo/">http://www.bikle.com/TThier/Languages/java/JUnitDemo/</A>
-  <LI>Oracle�̂��߂�Java �J���Z�@(���̖{�̑�R�͂Ƒ�S�͂����Ă݂����B�B�B)<BR>
+  <LI>OracleのためのJava 開発技法(この本の第３章と第４章を見てみたい。。。)<BR>
   <A HREF="http://www.pearsoned.co.jp/washo/db/wa_db34-j.html">http://www.pearsoned.co.jp/washo/db/wa_db34-j.html</A>
-  <LI>JDBC�EORACLE �X�g�A�h�v���V�[�W���R�[���i�ꉞ�T���v�����f�ڂ���Ă�̂Ń`�F�b�N�j<BR>
+  <LI>JDBC・ORACLE ストアドプロシージャコール（一応サンプルが掲載されてるのでチェック）<BR>
   <A HREF="http://kamakura.cool.ne.jp/oppama/swjd/jdbccstmt.html">http://kamakura.cool.ne.jp/oppama/swjd/jdbccstmt.html</A>
-  <LI>SQLUnit Project Home Page(PL/SQL �ɂ��g����Unit�e�X�g�̂悤�ł��B�Q�l�ɂȂ肻���ł�)<BR>
+  <LI>SQLUnit Project Home Page(PL/SQL にも使えるUnitテストのようです。参考になりそうです)<BR>
   <A HREF="http://sqlunit.sourceforge.net/">http://sqlunit.sourceforge.net/</A>
-  <LI>utPLSQL�v���W�F�N�g�ւ悤����(PL/SQL�f�x���b�p�[�̂��߂̃��j�b�g�e�X�g�c�[���������ł�)<BR>
+  <LI>utPLSQLプロジェクトへようこそ(PL/SQLデベロッパーのためのユニットテストツールだそうです)<BR>
   <A HREF="http://www.geocities.co.jp/SiliconValley-Oakland/8038/utplsql_sourceforge.html">http://www.geocities.co.jp/SiliconValley-Oakland/8038/utplsql_sourceforge.html</A>
 </UL>
-<P>Oracle9i JDBC�J���҃K�C�h����у��t�@�����X (����̓_�E�����[�h���ĉ{������)</P>
+<P>Oracle9i JDBC開発者ガイドおよびリファレンス (これはダウンロードして閲覧する)</P>
 <UL>
-  <LI>��R�͂Ƀf�[�^�^�̃}�b�s���O���ڂ����f�ڂ���Ă��܂��B
-  <LI>��P�X�͂ɂ��ƁAJDBC���g����PL/SQL�X�g�A�h�v���V�[�W���R�[���ł́A�p�����[�^��
-  Boolean�^���܂ރv���V�[�W���̓R�[���ł��Ȃ��悤�ł��B
-  <LI>INTEGER�^�̈��������X�g�A�h�v���V�[�W�����쐬���āA���̒��ŊԐړI��Boolean�^�̃p�����^�����X�g�A�h�v���V�[�W�����R�[������悤�ɂ��ĉ������Ƃ���܂��B�v����ɁAINTEGER�^�X�g�A�h�v���V�[�W�����쐬���ă��b�v���Ȃ����Ƃ̂��Ƃł��B
+  <LI>第３章にデータ型のマッピングが詳しく掲載されています。
+  <LI>第１９章によると、JDBCを使ったPL/SQLストアドプロシージャコールでは、パラメータに
+  Boolean型を含むプロシージャはコールできないようです。
+  <LI>INTEGER型の引数を持つストアドプロシージャを作成して、その中で間接的にBoolean型のパラメタを持つストアドプロシージャをコールするようにして下さいとあります。要するに、INTEGER型ストアドプロシージャを作成してラップしなさいとのことです。
 </UL>
 
 <HR>
-<P><FONT color="#ff0000">2004.06.25</FONT> �X�K����̃c�b�R�~<BR>Subject:  [igapyon:01300] 2004/06/24 ���L : JUnit ���� PL/SQL �R�[�h�̒P�̎����͉\���H<BR>
-�X�K�ł��B<BR>
+<P><FONT color="#ff0000">2004.06.25</FONT> スガさんのツッコミ<BR>Subject:  [igapyon:01300] 2004/06/24 日記 : JUnit から PL/SQL コードの単体試験は可能か？<BR>
+スガです。<BR>
 <BR>
-DAO �N���X�̃��\�b�h�� PL/SQL �̃��b�p�[�ƌ��Ȃ��āA�P�̃e�X�g������Ă��܂��B���܂��ɁB<BR>
-# PL/SQL �̒P�̃e�X�g�Ƃ͂����Ȃ������B<BR>
-# �{�Ԃł����̂܂܎g�����\�b�h�ł����B<BR>
+DAO クラスのメソッドを PL/SQL のラッパーと見なして、単体テストをやっています。今まさに。<BR>
+# PL/SQL の単体テストとはいえないかも。<BR>
+# 本番でもそのまま使うメソッドですし。<BR>
 <BR>
-&gt; �܂�����JDBC������̌Ăяo���Ɍ����Ă��Ȃ� PL/SQL���̌^��<BR>
-&gt; ���݂���̂��ǂ����H���Ƃ��Δz��^�Ƃ��� JDBC����Ăяo����̂��H<BR>
+&gt; まったくJDBC側からの呼び出しに向いていない PL/SQL側の型は<BR>
+&gt; 存在するのかどうか？たとえば配列型とかは JDBCから呼び出せるのか？<BR>
 </P>
 <UL>
-  <LI>RECORD �^�̓_���ł��B
-  <LI>���̏󋵂ł́A���K�V�[�� PL/SQL �����̂܂܎g���Ƃ����O��Ȃ̂ŁAOBJECT
-�^�ɕϊ����ČĂяo�����b�p�[�� PL/SQL �����܂����B<BR>
-  JPublisher �̃h�L�������g�ɍڂ��Ă�����@�ł��B
-  <LI>OBJECT �^�ɂ� java.sql.SQLData �����������N���X���g���Ă��܂��B
-  <LI>TABLE �^�ɂ� java.sql.ARRAY �����������N���X���g���A�͂� (���m�F)�B
+  <LI>RECORD 型はダメです。
+  <LI>私の状況では、レガシーな PL/SQL をそのまま使うという前提なので、OBJECT
+型に変換して呼び出すラッパーな PL/SQL を作りました。<BR>
+  JPublisher のドキュメントに載っている方法です。
+  <LI>OBJECT 型には java.sql.SQLData を実装したクラスを使っています。
+  <LI>TABLE 型には java.sql.ARRAY を実装したクラスを使う、はず (未確認)。
 </UL>
 <P>--------------------------------------------------------------<BR>
-�X�K<BR>
+スガ<BR>
 --------------------------------------------------------------</P>
 <HR>
-<P>��������<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�Ȃ�قǁI ���̃l�^�́A�ʏ���ۂ��A������ �������R�Ƀj�[�Y�̂���b�肾�����̂ł��ˁB���S���܂����B</P>
-<P><FONT color="#ff0000">2005.06.17�ǋL</FONT> ����k���L�ڂ��܂��B���� JUnit����PL/SQL�̃R�[�h�̒P�̎����ɂ���<STRONG>�{�J���ł΂�΂�Ɋ��p</STRONG>���܂����B���v���΁AJUnit�ɂ�� PL/SQL�P�̎����Ƃ����������@�����ł�PL/SQL�R�[�h�̒P�̎����͎��{�����ɍ���ł��������ƂƑz�����܂��BJUnit�����
-PL/SQL�P�̎������\�ł������̂ŁAPL/SQL�̊e�R�[�h�ɑ΂��鎎�����ƂĂ����{���₷�������ł��B�܂� JUnit���� PL/SQL�̒P�����������{�\�ł��邱�Ƃ����؂ł����̂ŁAPL/SQL������̃V�X�e���J���ɓ������₷���Ȃ�܂����BPL/SQL�ŒP�̎��������{�ł�����𓾂邱�Ƃ��ł����̂ŁAPL/SQL�͗��p�������̂���<STRONG>�f���炵������</STRONG>�Ƃ����ʒu�Â��Ɏ��̒��ŕς��܂����B</P>
-<P><FONT color="#ff0000">2005.06.14�ǋL</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> EE �� �X�g�A�h�v���V�[�W���Ή���������ۂɕK�v�ɂȂ�̂ŁA�ēx���̃y�[�W���`�F�b�N���܂����BCallableStatement�ɂ��ẮA����قǎd���ň��������Ƃ͂���̂ł����A�܂����̑̂ɓ����ł��Ȃ��̂ł��B</P>
+<P>ここから<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+なるほど！ このネタは、通常っぽく、そして ごく自然にニーズのある話題だったのですね。安心しました。</P>
+<P><FONT color="#ff0000">2005.06.17追記</FONT> 後日談を記載します。結局 JUnitからPL/SQLのコードの単体試験について<STRONG>本開発でばりばりに活用</STRONG>しました。今思えば、JUnitによる PL/SQL単体試験という試験方法無しではPL/SQLコードの単体試験は実施が非常に困難であったことと想像します。JUnitからの
+PL/SQL単体試験が可能であったので、PL/SQLの各コードに対する試験がとても実施しやすかったです。また JUnitから PL/SQLの単多試験が実施可能であることが実証できたので、PL/SQLを今後のシステム開発に導入しやすくなりました。PL/SQLで単体試験が実施できる環境を得ることができたので、PL/SQLは利用しがいのある<STRONG>素晴らしい言語</STRONG>という位置づけに私の中で変わりました。</P>
+<P><FONT color="#ff0000">2005.06.14追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> EE に ストアドプロシージャ対応を加える際に必要になるので、再度このページをチェックしました。CallableStatementについては、数回ほど仕事で扱ったことはあるのですが、まだ私の体に馴染んでいないのです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>����: �₳����Oracle PL/SQL����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍: やさしいOracle PL/SQL入門</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�}� PL/SQL�̓�����s�����ƂɂȂ����̂ŁA��Ԃ�PL/SQL����{��~�c�I�ɍ����Ŕ����Ă��܂����B</P>
+<P>急遽 PL/SQLの入門を行うことになったので、定番のPL/SQL入門本を梅田紀伊国屋で買ってきました。</P>
 <UL>
-  <LI>�₳����Oracle PL/SQL����<BR>
+  <LI>やさしいOracle PL/SQL入門<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig040624.src.html' , result='ig040624.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4798102253/igapyondiary-22">amazon.co.jp: 4798102253</A>
 </UL>
-<P>���Ȃ݂ɂ��̖{�́A�ȑO <A href="ig040420.html">Oracle Java Extreme 2004 (2004-04-23�J��)��Java Guru</A>�� �p�l���X�g�Ƃ��Ď��ƈꏏ�ɎQ������Ă�ꂽ��u�B�炳�܂����҂���ł��B���e��ǂ�ł���ƁA��������
-��u���񂪌�肩���Ă���悤�ȁA����Ȋ��������܂����B<BR>
-���̂̍D�݂Ƃł������̂ł��傤���A���\���̕��̂̍D�݂Ǝ��Ă��܂��B�ƂĂ��ǂݐi�߂₷�������܂����B</P>
+<P>ちなみにこの本は、以前 <A href="ig040420.html">Oracle Java Extreme 2004 (2004-04-23開催)のJava Guru</A>に パネリストとして私と一緒に参加されてられた一志達也さまが著者さんです。内容を読んでいると、あたかも
+一志さんが語りかけてくるような、そんな感じがしました。<BR>
+文体の好みとでもいうのでしょうか、結構私の文体の好みと似ています。とても読み進めやすく感じました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Web�A�v���P�[�V�����T�[�o����ɂ́A�~�h���E�F�A�̃\�[�X�R�[�h�͕K�{�A�C�e���ł�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Webアプリケーションサーバ時代には、ミドルウェアのソースコードは必須アイテムです</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ǂ����AJava�n�̃T�[�o�T�C�h�J���ɂ����Č����Ȃ悤�Ɋ����邱�Ƃ̈���A��{�I�ȃ~�h���E�F�A�̓\�[�X�R�[�h���񋟂���Ă���Ƃ����̂��Ƃ��Ă���؂ł��B�ُ���\�[�X�R�[�h��p���ĉ�͂ł��邩��ł��BEclipse���g������A�ȒP�ɃX�e�b�v�C�����s���\�ł����̂ˁB�\�[�X�R�[�h���񋟂���Ă��āA�������I�[�v���\�[�X�Ƃ����`�Ԃ�����Ă��邩�炱���A�͂��߂�Java��Web�J�����\�ɂȂ�悤�ȁc����Ȉ�ۂ�������o�����ɁA�����A�d���ŏo����Ă��܂��܂����B</P>
+<P>どうも、Java系のサーバサイド開発において顕著なように感じることの一つが、基本的なミドルウェアはソースコードが提供されているというのがとっても大切です。異常をソースコードを用いて解析できるからです。Eclipseを使ったら、簡単にステップイン実行が可能ですものね。ソースコードが提供されていて、しかもオープンソースという形態を取っているからこそ、はじめてJavaでWeb開発が可能になるような…そんな印象を感じる出来事に、今日、仕事で出会ってしまいました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�j ��Ԃł��ς��{ ��������Ŋ��s</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>祝 定番でざぱた本 増補改訂版刊行</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>����̃f�U�C���p�^�[���{����������łƂ��Ċ��s����܂����B</P>
+<P><A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんのデザインパターン本が増補改訂版として刊行されました。</P>
 <UL>
-  <LI>���������Java����Ŋw�ԃf�U�C���p�^�[������<BR>
+  <LI>増補改訂版Java言語で学ぶデザインパターン入門<BR>
   <A HREF="http://www.hyuki.com/dp/">http://www.hyuki.com/dp/</A>
 </UL>
-<P>�f�U�C���p�^�[���Ɋւ��l�ɋ��������߂�������Ԗ{�������������Ċ��s���ꂽ�̂ł��B���͔��Ɋ������ł��B�܂��A������Ƃ��s��ꂽ<A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>����Ɋ��ӂ��܂��B����J�𔺂�ꂽ���Ƃł��傤�B</P>
+<P>デザインパターンに関わる人に強くお勧めしたい定番本が増補改訂されて刊行されたのです。私は非常に嬉しいです。また、改訂作業を行われた<A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんに感謝します。ご苦労を伴われたことでしょう。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�͂Ԃ���{</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はぶさん本</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>������������d���Ƃ��C�̂���� -�K����IT�p�[�\���ɂȂ邽�߂�-<BR>
+  <LI>いきいきする仕事とやる気のつくり方 -幸せなITパーソンになるための-<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4883731995/igapyondiary-22">amazon.co.jp: 4883731995</A><BR>
-  Web+DB PRESS�ł��Ȃ��݂� <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="���Z�p�̊J������œ������r�Z�p�҂ŁA�����Z�p���C�^�[������Ă�����B���ړI�Ȗʎ������� �ƂĂ������e����^���Ė���Ă��܂��BFlash MX���Ɩ��V�X�e���Ŏg���Ƃ������E�Ɏ��������Ȃ����̂��H������ ���̐l�ł��B">�H���͗m</A>���񂪏����ꂽSE�{�ł��B���\����Ă���悤�ł��B�ǂ������ł��ˁB
+  Web+DB PRESSでおなじみの <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="情報技術の開発現場で働く凄腕技術者で、且つ情報技術ライターをされている方。直接的な面識もあり とても強い影響を与えて貰っています。Flash MXを業務システムで使うという世界に私をいざなったのも羽生さん その人です。">羽生章洋</A>さんが書かれたSE本です。結構売れているようです。良かったですね。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�����͑��o���ł�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>明日は大阪出張です</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�^�V�X�e���̕ύX���s���Ă��܂��B<BR>
-�c�Ƃ���ōŋ߁A�A�����M�і�ł��B��A�܂Ƃ��ɖ��邱�Ƃ��ł��܂���B�ӂ�ӂ�ł��B</P>
+<P>某システムの変更を行ってきます。<BR>
+…ところで最近、連日が熱帯夜です。夜、まともに眠ることができません。ふらふらです。</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�u�g���݃\�t�g�E�F�A�X�L���W���v�Ƃ́H<BR>
+  <LI>「組込みソフトウェアスキル標準」とは？<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20069399,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20069399,00.htm</A><BR>
-  �X�L���W���V���[�Y�l�^�ł��B���A���������X�L���W���l�^���D���Ȃ̂ł��B�ŁA�Z�����̂łƂ肠���������B��łЂ܂������ēǂ݂����̂����c
-  <LI>�p�t�H�[�}���X����̍ŒZ�R�[�X��m��<BR>
+  スキル標準シリーズネタです。私、こういうスキル標準ネタが好きなのです。で、忙しいのでとりあえずメモ。後でひまをつくって読みたいのだが…
+  <LI>パフォーマンス向上の最短コースを知る<BR>
   <A HREF="http://www.atmarkit.co.jp/fdb/rensai/orasql01/orasql01_1.html">http://www.atmarkit.co.jp/fdb/rensai/orasql01/orasql01_1.html</A><BR>
-  ���񂺂񂩂񂯂��Ȃ��̂ł����A�A�Q�n����̕����A���̃r����9�K�ɂ���������悤�ɕ����܂����B(�L���������������ǂ����͒m��܂���)
+  ぜんぜんかんけいないのですが、アゲハさんの方が、このビルの9階にいらっしゃるように聞きました。(記事を書いた方かどうかは知りませんが)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

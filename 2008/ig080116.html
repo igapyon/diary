@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/01/16 ���L: Sun Java SE (JDK) 6 �ɂ�� Web�T�[�r�X �T�|�[�g</TITLE>
-<META name="DESCRIPTION" content="Sun Java SE (JDK) 6�ɂ�� Web�T�[�r�X �T�|�[�g���ȒP�ɒ��ׂ܂����B�Ώۂ� Java API for XML Web Services (JAX-WS) 2.0 �T�|�[�g�ɂ��Ăł��B">
-<META name="KEYWORDS" content="Java,JDK,Web�T�[�r�X,6,JAX-WS">
+<TITLE>2008/01/16 日記: Sun Java SE (JDK) 6 による Webサービス サポート</TITLE>
+<META name="DESCRIPTION" content="Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services (JAX-WS) 2.0 サポートについてです。">
+<META name="KEYWORDS" content="Java,JDK,Webサービス,6,JAX-WS">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/01/16 ���L: Sun Java SE (JDK) 6 �ɂ�� Web�T�[�r�X �T�|�[�g</H2>
-    <P>[Java,JDK,Web�T�[�r�X,6,JAX-WS] Sun Java SE (JDK) 6�ɂ�� Web�T�[�r�X �T�|�[�g���ȒP�ɒ��ׂ܂����B�Ώۂ� Java API for XML Web Services (JAX-WS) 2.0 �T�|�[�g�ɂ��Ăł��B</P>
+    <H2>2008/01/16 日記: Sun Java SE (JDK) 6 による Webサービス サポート</H2>
+    <P>[Java,JDK,Webサービス,6,JAX-WS] Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services (JAX-WS) 2.0 サポートについてです。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,29 +60,29 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java SE (JDK) 6 �ɂ�� Web�T�[�r�X �T�|�[�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java SE (JDK) 6 による Webサービス サポート</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Sun Java SE (JDK) 6�ɂ�� Web�T�[�r�X �T�|�[�g���ȒP�ɒ��ׂ܂����B�Ώۂ� Java API for XML Web Services
-(JAX-WS) 2.0 �T�|�[�g�ɂ��Ăł��B<BR>
-��Java SE Development Kit 6 Update 4 (Windows) ��p���Ċm�F���܂����B</P>
+<P>Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services
+(JAX-WS) 2.0 サポートについてです。<BR>
+※Java SE Development Kit 6 Update 4 (Windows) を用いて確認しました。</P>
 
 <UL>
-  <LI>Java Web Services �c�[��<BR>
+  <LI>Java Web Services ツール<BR>
   <A HREF="http://java.sun.com/javase/ja/6/docs/ja/technotes/tools/index.html#webservices">http://java.sun.com/javase/ja/6/docs/ja/technotes/tools/index.html#webservices</A>
   <UL>
-    <LI>��̓I�ɂ� ���L�̂悤�ȃf�B���N�g���Ƀc�[��������܂��B
+    <LI>具体的には 下記のようなディレクトリにツールがあります。
     <UL>
       <LI>C:\Program Files\Java\jdk1.6.0_04\bin\wsgen.exe
       <LI>C:\Program Files\Java\jdk1.6.0_04\bin\wsimport.exe
     </UL>
   </UL>
 </UL>
-<P>JDK 6 �� <STRONG>�{����</STRONG> Web�T�[�r�X���T�|�[�g���Ă���Ƃ������Ƃ�m��A��͂� ���� �т����肵�܂����B����ɂ��AWeb�T�[�r�X�Ɋւ��ẮA����� .NET Framework�ɒǂ����� �Ƃ�����������܂��B(.NET Framework �� Web�T�[�r�X�T�|�[�g�����Ă��� ������Ɖ����������̂ł��B<FONT color="#ff0000">2008.01.17�ǋL</FONT> �A�A�A���A��� �܂� Java�� Web�T�[�r�X�T�|�[�g�ɂ� ���낢���肪���邱�Ƃ��������Ă��܂����c)</P>
-<P>���āA�����Ŏ�����́AJava�\�[�X�R�[�h���� Web�T�[�r�X���쐬���邽�߂̎菇�ł��BWSDL����\�[�X�R�[�h���������������Ȃ��菇�͒��ׂĂ��܂���B</P>
+<P>JDK 6 で <STRONG>本当に</STRONG> Webサービスをサポートしているということを知り、やはり ちと びっくりしました。これにより、Webサービスに関しては、やっと .NET Frameworkに追いついた という感があります。(.NET Framework の Webサービスサポートを見ていて ちょっと悔しかったのです。<FONT color="#ff0000">2008.01.17追記</FONT> 、、、が、後で まだ Javaの Webサービスサポートには いろいろ問題があることが分かってきました…)</P>
+<P>さて、ここで示す例は、Javaソースコードから Webサービスを作成するための手順です。WSDLからソースコード自動生成をおこなう手順は調べていません。</P>
 <HR>
-<P><FONT color="#ff00ff">�T�[�o��</FONT></P>
+<P><FONT color="#ff00ff">サーバ側</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -105,14 +105,14 @@ public class SampleWebService {
 
     @WebMethod()
     public String hello(final String name, final int value) {
-        return &quot;����ɂ��� Web�T�[�r�X [&quot; + name + &quot;:&quot; + value + &quot;]&quot;;
+        return &quot;こんにちは Webサービス [&quot; + name + &quot;:&quot; + value + &quot;]&quot;;
     }
 }</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
-���R���p�C������ю��s�ɂ� JDK 6 ���K�v�B</BLOCKQUOTE>
+※コンパイルおよび実行には JDK 6 が必要。</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -131,12 +131,12 @@ import javax.xml.ws.Endpoint;
 
 public class SampleWS {
     public static void main(String[] args) {
-        System.out.println(&quot;Web�T�[�r�X: [SampleWS]����: begin&quot;);
+        System.out.println(&quot;Webサービス: [SampleWS]処理: begin&quot;);
 
-        System.out.println(&quot;  [SampleWebService]�����J�B&quot;);
+        System.out.println(&quot;  [SampleWebService]を公開。&quot;);
         Endpoint.publish(&quot;http://localhost:8080/test&quot;, new SampleWebService());
 
-        System.out.println(&quot;Web�T�[�r�X: [SampleWS]����: end&quot;);
+        System.out.println(&quot;Webサービス: [SampleWS]処理: end&quot;);
     }
 }</PRE>
       </TD>
@@ -144,7 +144,7 @@ public class SampleWS {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>������ Apache Ant��p���ăr���h���܂��B</P>
+<P>これらを Apache Antを用いてビルドします。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -208,12 +208,12 @@ public class SampleWS {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�ł��������� jar �t�@�C�������s���܂��B</P>
+<P>できあがった jar ファイルを実行します。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">�R�}���h���C��</TD>
+      <TD bgcolor="#ffff00">コマンドライン</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -226,10 +226,10 @@ public class SampleWS {
     </TR>
   </TBODY>
 </TABLE>
-��Web�T�[�r�X���풓�N��</BLOCKQUOTE>
+※Webサービスを常駐起動</BLOCKQUOTE>
 <HR>
-<P><FONT color="#ff00ff">�N���C�A���g��</FONT></P>
-<P>�N���C�A���g���� WSDL����͂��� �X�^�u�������������܂��B</P>
+<P><FONT color="#ff00ff">クライアント側</FONT></P>
+<P>クライアント側は WSDLを入力して スタブを自動生成します。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -282,7 +282,7 @@ public class SampleWS {
     </TR>
   </TBODY>
 </TABLE>
-��Web�T�[�r�X���� wsdl���擾���� Web�T�[�r�X�Ăяo���̂��߂̃\�[�X�R�[�h�������������܂��B</BLOCKQUOTE>
+※Webサービスから wsdlを取得して Webサービス呼び出しのためのソースコードを自動生成します。</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -302,16 +302,16 @@ public class SampleClient {
     public static void main(final String[] args) {
         SampleWebServiceService service = new SampleWebServiceService();
         SampleWebService servicePort = service.getSampleWebServicePort();
-        System.out.println(servicePort.hello(&quot;������&quot;, 123));
+        System.out.println(servicePort.hello(&quot;あいう&quot;, 123));
     }
 }</PRE>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
-��Web�T�[�r�X���Ăяo�����߂̃N���C�A���g�R�[�h�B</BLOCKQUOTE>
+※Webサービスを呼び出すためのクライアントコード。</BLOCKQUOTE>
 <HR>
-<P>Web�T�[�r�X�T�|�[�g�� JDK 6 �ɍŏ�����܂܂�Ă���Ƃ������Ƃ� �ƂĂ�����I�Ȃł����Ƃł���A��΂����Ǝv���܂����B</P>
+<P>Webサービスサポートが JDK 6 に最初から含まれているということは とても画期的なできごとであり、喜ばしいと思いました。</P>
 <UL>
   <LI>The Java Web Services Tutorial<BR>
   <A HREF="http://java.sun.com/webservices/docs/2.0/tutorial/doc/">http://java.sun.com/webservices/docs/2.0/tutorial/doc/</A>
@@ -319,32 +319,32 @@ public class SampleClient {
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDL����T�[�o�T�C�h�̃\�[�X�R�[�h�����������Ȃ��p�X�𔭌��ł���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDLからサーバサイドのソースコード生成をおこなうパスを発見できず</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�Ƃ��낪�ǂ������AWSDL���� �T�[�o�T�C�h�̃\�[�X�R�[�h���������������Ȃ����@�𔭌��ł����ɂ��܂��B���̃p�X���������̂� ���� �܂����̂ł��c�B</P>
-<P>�����Ƃ��āA�A�m�e�[�V�����t���C���^�t�F�[�X���p�������� Web�T�[�r�X����������悤�ȍ\�������ׂĂ݂܂������A������� ���܂������܂���B����͍���Ȃ��c�B</P>
+<P>ところがどっこい、WSDLから サーバサイドのソースコード自動生成をおこなう方法を発見できずにいます。このパスがが無いのは ちと まずいのです…。</P>
+<P>回避策として、アノテーション付きインタフェースを継承させて Webサービスを実装するような構成も調べてみましたが、こちらも うまく動きません。これは困るなぁ…。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���̑��� JAX-WS�Ɋւ���ŐV�n���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>その他の JAX-WSに関する最新系情報</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JAX-WS 2.1�̎Q�Ǝ��� (���t�@�����X�E�C���v�������e�[�V����)�����݂���̂������ł��B<BR>
-�ł��A������ƌ����Ƃ��� WSDL����T�[�o��������������I�v�V�����͌�������܂���ł����c�B</P>
+<P>JAX-WS 2.1の参照実装 (リファレンス・インプリメンテーション)が存在するのだそうです。<BR>
+でも、ちょっと見たところ WSDLからサーバを自動生成するオプションは見あたりませんでした…。</P>
 <UL>
-  <LI>�uJAX-WS 2.1�v�����n�o�� - �A�[�L�e�N�`���č\�z�Ő��\&amp;�g�������A�b�v<BR>
+  <LI>「JAX-WS 2.1」実装系登場 - アーキテクチャ再構築で性能&amp;拡張性がアップ<BR>
   <A HREF="http://journal.mycom.co.jp/news/2007/02/07/361.html">http://journal.mycom.co.jp/news/2007/02/07/361.html</A>
   <UL>
     <LI>GlassFish -&gt; Metro -&gt; JAX-WS<BR>
     <A HREF="http://jax-ws.dev.java.net/">http://jax-ws.dev.java.net/</A>
   </UL>
 </UL>
-<P>������� ���������ǂ��Ă݂܂��B</P>
+<P>こちらも 少しだけ追ってみます。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

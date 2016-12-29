@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/08/03 ���L: Java: XML�t�@�C���������I�ɍ쐬������@ (SAX2�x�[�X)</TITLE>
-<META name="DESCRIPTION" content="Xerces-J�̍ۂɗ��p���Ă���ContentHandler�x�[�X�ɂ��XML�쐬���@�� Java API�ł̃����ł��B , �o���E���ɂĂ����ł��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</TITLE>
+<META name="DESCRIPTION" content="Xerces-Jの際に利用していたContentHandlerベースによるXML作成方法の Java API版のメモです。 , バリウムにてよれよれです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/08/03 ���L: Java: XML�t�@�C���������I�ɍ쐬������@ (SAX2�x�[�X)</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Xerces-J�̍ۂɗ��p���Ă���ContentHandler�x�[�X�ɂ��XML�쐬���@�� Java API�ł̃����ł��B , �o���E���ɂĂ����ł��B</P>
+    <H2>2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Xerces-Jの際に利用していたContentHandlerベースによるXML作成方法の Java API版のメモです。 , バリウムにてよれよれです。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,12 +59,12 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML�t�@�C���������I�ɍ쐬������@ (SAX2�x�[�X)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XMLファイルを効率的に作成する方法 (SAX2ベース)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>XML�t�@�C����SAX2�x�[�X�Ō����I�ɍ쐬������@���������Ă����܂��B<BR>
-�������΂炭 ���̕��@�������炸�ɁA���[���ƋC�ɂȂ��Ă����̂ł��B�悤�₭���� �킩��܂����B</P>
+<P>XMLファイルをSAX2ベースで効率的に作成する方法をメモしておきます。<BR>
+ここしばらく この方法が分からずに、ずーっと気になっていたのです。ようやく今日 わかりました。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -78,8 +78,8 @@
     <TR>
       <TD>
       <pre>/*
- * ���ɃV���v���Ō����I�� SAX2���C�^�[�E�n���h��
- * Copyright (C) 2005 �����҂��
+ * 非常にシンプルで効率的な SAX2ライター・ハンドラ
+ * Copyright (C) 2005 いがぴょん
  */
 
 import java.io.FileNotFoundException;
@@ -95,8 +95,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.AttributesImpl;
 
 /**
- * ���ɃV���v����SAX2�n���h���E���C�^�[ &lt;br&gt;
- * �����������ǂ�XML�t�@�C����SAX�x�[�X�ō쐬����ۂɕK�v�ɂȂ���@�ł��B
+ * 非常にシンプルなSAX2ハンドラ・ライター &lt;br&gt;
+ * メモリ効率良くXMLファイルをSAXベースで作成する際に必要になる方法です。
  * 
  * @author Tosiki Iga 2005.08.03
  */
@@ -107,7 +107,7 @@ public class SimpleSaxWriter {
         TransformerFactory tf = TransformerFactory.newInstance();
         SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;
         TransformerHandler saxHandler = saxTf.newTransformerHandler();
-        saxHandler.setResult(new StreamResult(new FileOutputStream(&quot;��[��.xml&quot;)));
+        saxHandler.setResult(new StreamResult(new FileOutputStream(&quot;わーく.xml&quot;)));
 
         saxHandler.startDocument();
         AttributesImpl attributes = new AttributesImpl();
@@ -130,7 +130,7 @@ public class SimpleSaxWriter {
         attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xmlns&quot;,
                 &quot;xmlns&quot;, &quot;CDATA&quot;, &quot;&quot;);
         saxHandler.startElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;, attributes);
-        char[] charMsg = &quot;����ɂ���&quot;.toCharArray();
+        char[] charMsg = &quot;こんにちは&quot;.toCharArray();
         saxHandler.characters(charMsg, 0, charMsg.length);
         saxHandler.endElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;);
         attributes = new AttributesImpl();
@@ -152,32 +152,32 @@ public class SimpleSaxWriter {
     </TR>
   </TBODY>
 </TABLE>
-��<FONT color="#ff0000">2005.08.11�ǋL</FONT> .translate()�𗘗p���Ȃ��̂ŁA�Ō�Ƀ��C�^�[�𖾎��I�ɃN���[�Y����K�v������܂��B���̖��͏�L�R�[�h�ɖ����f�ł��B</BLOCKQUOTE>
-<P>����SAX2�n���h���ɂ��XML�쐬���@�͔��ɑ厖�Ȃ��̂ł��B���Ȃ��Ƃ����ɂƂ��Ă͏d�v�Ȕ����ł����B</P>
-<P><FONT color="#ff00ff">�֘A���郊�\�[�X</FONT></P>
+※<FONT color="#ff0000">2005.08.11追記</FONT> .translate()を利用しないので、最後にライターを明示的にクローズする必要があります。この問題は上記コードに未反映です。</BLOCKQUOTE>
+<P>このSAX2ハンドラによるXML作成方法は非常に大事なものです。少なくとも私にとっては重要な発見でした。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding" TITLE="XML���o�����[�I�u�W�F�N�g�}�b�s���O�������Ȃ����߂̃��C�u�����ł��B">blancoXmlBinding</A><BR>
-  ���̃T���v���𔭓W���������e�� XML �������C�u�����B
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding" TITLE="XML→バリューオブジェクトマッピングをおこなうためのライブラリです。">blancoXmlBinding</A><BR>
+  このサンプルを発展させた内容の XML 処理ライブラリ。
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050802.html">2005/08/02 ���L: ����SOAP�T�[�o�E�T�[�u���b�g�������̖͍�</A>
+  <LI><A href="ig050802.html">2005/08/02 日記: うそSOAPサーバ・サーブレット実現性の模索</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���N�f�f�o���E������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>健康診断バリウム効果</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���N�f�f�Ńo���E���𒸂��܂����B<BR>
-�o���E���̌�ɂ������� �Ƃ�����܂̌��ʂ����Q�ł��āA������ �����_�����ۂ��ł��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>健康診断でバリウムを頂きました。<BR>
+バリウムの後にいただく とある錠剤の効果が抜群でして、今日は もうダメっぽいです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2004/ig040519.html">2004/05/19 ���L: FindBugs 0.7.3 �����[�X , ���{�ꉻ�p�b�`���ʓr��</A>
+  <LI><A href="../2004/ig040519.html">2004/05/19 日記: FindBugs 0.7.3 リリース , 日本語化パッチが別途提供</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

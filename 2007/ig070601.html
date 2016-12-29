@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/06/01 ���L: Java: ISO/IEC 646 �͈͂��t�@�C���ɏo�͂���T���v��</TITLE>
-<META name="DESCRIPTION" content="�^���������L���̂��߂Ɋ�b�����쐬���c�B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/06/01 日記: Java: ISO/IEC 646 範囲をファイルに出力するサンプル</TITLE>
+<META name="DESCRIPTION" content="某文字化け記事のために基礎情報を作成中…。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/06/01 ���L: Java: ISO/IEC 646 �͈͂��t�@�C���ɏo�͂���T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �^���������L���̂��߂Ɋ�b�����쐬���c�B</P>
+    <H2>2007/06/01 日記: Java: ISO/IEC 646 範囲をファイルに出力するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 某文字化け記事のために基礎情報を作成中…。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,12 +60,12 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ISO/IEC 646 �͈͂��t�@�C���ɏo�͂���T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ISO/IEC 646 範囲をファイルに出力するサンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ISO/IEC 646 �͈͂��t�@�C���ɏo�͂���T���v���������܂����B</P>
-<P>�܂��̓��[�e�B���e�B���쐬���܂����B���e����A���̎�̃_���v���[�e�B���e�B���K�v�ɂȂ�܂��B</P>
+<P>ISO/IEC 646 範囲をファイルに出力するサンプルを書きました。</P>
+<P>まずはユーティリティを作成しました。内容がら、この手のダンプユーティリティが必要になります。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -78,30 +78,30 @@
   <TBODY>
     <TR>
       <TD><pre>/**
- * 16�i�\�L������̂��߂̃��[�e�B���e�B�B
+ * 16進表記文字列のためのユーティリティ。
  * 
- * byte �� �����񉻂��邽�߂̊e�탆�[�e�B���e�B���܂܂�܂��B
+ * byte を 文字列化するための各種ユーティリティが含まれます。
  * 
  * @version 2007.06.01
- * @author �ɉ�q��
+ * @author 伊賀敏樹
  */
 public final class HexStringUtil {
     /**
-     * �^����ꂽ�o�C�g�z���16�i�\�L�̕�����ɕϊ����܂��B
+     * 与えられたバイト配列を16進表記の文字列に変換します。
      * 
-     * 2�o�C�g�ڈȍ~�ɂ́A�O�̃o�C�g�Ƃ̋�؂�̂��߂ɔ��p�󔒂�t�^���܂��B
+     * 2バイト目以降には、前のバイトとの区切りのために半角空白を付与します。
      * 
-     * �ϊ���B����:[���A��]��Shift_JIS���o�C�g�z�� �� �o��:[88 a4 90 41 89 aa]
+     * 変換例。入力:[愛植岡]のShift_JIS化バイト配列 → 出力:[88 a4 90 41 89 aa]
      * 
      * @param argBytes
-     *            �o�C�g�z��B
-     * @return 16�i�\�L�̕�����B
+     *            バイト配列。
+     * @return 16進表記の文字列。
      */
     public static String bytesToHexString(final byte[] argBytes) {
         final StringBuffer buffer = new StringBuffer();
         for (int byteIndex = 0; byteIndex &lt; argBytes.length; byteIndex++) {
             if (byteIndex != 0) {
-                // 2�o�C�g�ڈȍ~�ɂ͔��p�󔒂���؂蕶���Ƃ��ĕt�^�B
+                // 2バイト目以降には半角空白を区切り文字として付与。
                 buffer.append(' ');
             }
 
@@ -111,24 +111,24 @@ public final class HexStringUtil {
     }
 
     /**
-     * �^����ꂽ�o�C�g��16�i�\�L�̕�����ɕϊ����܂��B
+     * 与えられたバイトを16進表記の文字列に変換します。
      * 
-     * �K��2�������߂�܂��B
+     * 必ず2文字が戻ります。
      * 
      * @param argByte
-     *            �o�C�g�l�B
-     * @return 16�i�\�L�̕�����B
+     *            バイト値。
+     * @return 16進表記の文字列。
      */
     public static String byteToHexString(final byte argByte) {
         int wrkValue = argByte;
         if (wrkValue &lt; 0) {
-            // ���̒l�̏ꍇ�ɂ͐��̒l�ɕϊ����܂��B
+            // 負の値の場合には正の値に変換します。
             wrkValue += 0x100;
         }
 
         String result = Integer.toHexString(wrkValue);
         if (result.length() &lt; 2) {
-            // 1�����̏ꍇ�ɂ� 0 �̕����������� 2�����ɂȂ�悤�ɂ��܂��B
+            // 1文字の場合には 0 の文字を加えて 2文字になるようにします。
             result = &quot;0&quot; + result;
         }
         return result;
@@ -138,7 +138,7 @@ public final class HexStringUtil {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�����炪�{�́B</P>
+<P>こちらが本体。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -157,17 +157,17 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * ISO/IEC 646 �͈͂��t�@�C���ɏo�͂���T���v���B
+ * ISO/IEC 646 範囲をファイルに出力するサンプル。
  * 
  * @version 2007.06.02
- * @author �ɉ�q��
+ * @author 伊賀敏樹
  */
 public class ListIso646 {
     public static void main(final String[] args) {
         try {
             new ListIso646().process();
         } catch (IOException ex) {
-            System.out.println(&quot;���o�͗�O[&quot; + ex.toString() + &quot;]���������܂����B&quot;);
+            System.out.println(&quot;入出力例外[&quot; + ex.toString() + &quot;]が発生しました。&quot;);
             ex.printStackTrace();
         }
     }
@@ -178,22 +178,22 @@ public class ListIso646 {
             outStream = new BufferedOutputStream(new FileOutputStream(
                     &quot;ListIso646.txt&quot;));
 
-            outStream.write(&quot;��ISO/IEC 646 �͈́B0x20����0x7e�܂ŁB&quot;.getBytes());
+            outStream.write(&quot;●ISO/IEC 646 範囲。0x20から0x7eまで。&quot;.getBytes());
 
-            // Windows�Ɖ��肵�ĉ��s�R�[�h���o�́B
+            // Windowsと仮定して改行コードを出力。
             outStream.write(0x0d);
             outStream.write(0x0a);
 
             for (int codeLoop = 0x20; codeLoop &lt;= 0x7e; codeLoop++) {
-                // ���l�𒼐ڃX�g���[���ɏo�́B
+                // 数値を直接ストリームに出力。
                 outStream.write(codeLoop);
 
-                // �����R�[�h�̒l��ǂ߂�`�ŏo�́B
+                // 文字コードの値を読める形で出力。
                 outStream.write((&quot;: &quot; + HexStringUtil
                         .byteToHexString((byte) codeLoop))
                         .getBytes(&quot;Shift_JIS&quot;));
 
-                // Windows�Ɖ��肵�ĉ��s�R�[�h���o�́B
+                // Windowsと仮定して改行コードを出力。
                 outStream.write(0x0d);
                 outStream.write(0x0a);
             }
@@ -210,13 +210,13 @@ public class ListIso646 {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���s����</P>
+<P>実行結果</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD>
-      <pre>��ISO/IEC 646 �͈́B0x20����0x7e�܂ŁB
+      <pre>●ISO/IEC 646 範囲。0x20から0x7eまで。
  : 20
 !: 21
 &quot;: 22
@@ -320,14 +320,14 @@ z: 7a
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��IT�L�����M �� �啝�x�ꒆ�c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>＠IT記事執筆 → 大幅遅れ中…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�{��T���āA�����ǂ�ŁA���J��Ԃ����B<BR>
-���������L���A��Փx�����ł��B</P>
+<P>本を探して、それを読んで、を繰り返し中。<BR>
+文字化け記事、難易度高いです。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

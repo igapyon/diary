@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/03/06 ���L: blancoClass (�N���X��`) ������</TITLE>
-<META name="DESCRIPTION" content="�N���X�̒�`��Excel�V�[�g�ł����Ȃ��ƁAJava/C#�N���X�E�\�[�X�R�[�h�̎����������ł���c�[�����������ł��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/03/06 日記: blancoClass (クラス定義) 検討中</TITLE>
+<META name="DESCRIPTION" content="クラスの定義をExcelシートでおこなうと、Java/C#クラス・ソースコードの自動生成ができるツールを検討中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/03/06 ���L: blancoClass (�N���X��`) ������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �N���X�̒�`��Excel�V�[�g�ł����Ȃ��ƁAJava/C#�N���X�E�\�[�X�R�[�h�̎����������ł���c�[�����������ł��B</P>
+    <H2>2006/03/06 日記: blancoClass (クラス定義) 検討中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] クラスの定義をExcelシートでおこなうと、Java/C#クラス・ソースコードの自動生成ができるツールを検討中です。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,46 +60,46 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoClass (�N���X��`) ������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoClass (クラス定義) 検討中</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�N���X�̒�`��Excel�V�[�g�ł����Ȃ��ƁAJava/C#�N���X�E�\�[�X�R�[�h�̎����������ł���Ƃ��� blancoClass�Ƃ����c�[�����������ł��B</P>
-<P>�ӊO�Ǝv���邩���m��܂��񂪁A������ <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�c�[���Q�� �������ʂɗ��p���鋤�ʋ@�\�Ƃ��Ă܂��L�v�ł���ƍl���܂��B���邢�͋Ɩ��𗎂Ƃ����ނƂ��̋��菊�Ƃ��Ă̗l������ъJ���K��̋���c�[���Ƃ��Ă��A��ʏ�ʂɂ���Č��\�g�����肪����̂ł͂Ȃ����Ǝ��͑z�����Ă��܂��B(blancoValueObject�Ȃǂ̃x�[�X�c�[���Ƃ��Ă�����̏ꂪ���肻���ł��B)</P>
-<P>���܂̂Ƃ���́A���L�� 3�V�[�g����\������邱�Ƃ�z�肵�Ă��܂��B</P>
+<P>クラスの定義をExcelシートでおこなうと、Java/C#クラス・ソースコードの自動生成ができるという blancoClassというツールを検討中です。</P>
+<P>意外と思われるかも知れませんが、既存の <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>ツール群が ごく普通に利用する共通機能としてまず有益であると考えます。あるいは業務を落とし込むときの拠り所としての様式および開発規約の具現化ツールとしても、場面場面によって結構使い勝手があるのではないかと私は想像しています。(blancoValueObjectなどのベースツールとしても活躍の場がありそうです。)</P>
+<P>いまのところは、下記の 3シートから構成されることを想定しています。</P>
 <UL>
-  <LI>�N���X��`��
+  <LI>クラス定義書
   <UL>
-    <LI>Interface����ђ��ۃN���X��I�� (�����I�����\)
-    <LI>�p�b�P�[�W�w��
-    <LI>�e�N���X
-    <LI>�e�C���^�t�F�[�X
-    <LI>�N���X��
-    <LI>�N���X����
+    <LI>Interfaceおよび抽象クラスを選択 (両方選択も可能)
+    <LI>パッケージ指定
+    <LI>親クラス
+    <LI>親インタフェース
+    <LI>クラス名
+    <LI>クラス説明
   </UL>
-  <LI>�N���X�t�B�[���h��`��
+  <LI>クラスフィールド定義書
   <UL>
-    <LI>�ϐ��E�萔�̑I��
-    <LI>�A�N�Z�X�w��
-    <LI>�Q�b�^�[����уZ�b�^�[��I�� (�����I�����\)
-    <LI>�����N���X��
-    <LI>�t�B�[���h����
-    <LI>�i�����\�b�h : progress(int current, int total, String message) �̐�����ON/OFF
+    <LI>変数・定数の選択
+    <LI>アクセス指定
+    <LI>ゲッターおよびセッターを選択 (両方選択も可能)
+    <LI>所属クラス名
+    <LI>フィールド説明
+    <LI>進捗メソッド : progress(int current, int total, String message) の生成のON/OFF
   </UL>
-  <LI>�N���X���\�b�h������`��
+  <LI>クラスメソッド処理定義書
   <UL>
-    <LI>static�w�� (����d�l�I�ɉ\���ǂ����̒������K�v)
-    <LI>�A�N�Z�X�w��
-    <LI>���̓p�����[�^�w�� (���� ValueObject���w��)
-    <LI>�o�̓p�����[�^�w�� (���� ValueObject���w��)
+    <LI>static指定 (言語仕様的に可能かどうかの調査が必要)
+    <LI>アクセス指定
+    <LI>入力パラメータ指定 (原則 ValueObjectを指定)
+    <LI>出力パラメータ指定 (原則 ValueObjectを指定)
   </UL>
-  ���l���̃C���[�W�Ƃ��Ă� ����̓d��������`�� (blancoSOAP) �̗l���Ɏ������̂ɂȂ�ƍl���Ă��܂��B
+  ※様式のイメージとしては 現状の電文処理定義書 (blancoSOAP) の様式に似たものになると考えています。
 </UL>
-<P>�����V�[�g��g�ݍ��킹�邱�Ƃɂ��N���X�̊�{�I�ȏ�񂪑����܂��B(���邢�̓c�[���̏o�͂� �����V�[�g�ɂȂ�̂ł��ǂ��ł�) �������� �C���^�t�F�[�X�܂��͒��ۃN���X�̎��������������Ȃ����Ƃ��ł��܂��B�����������I�������́A�W�F�l���[�V�����M���b�v�E�f�U�C���p�^�[����p����
-���ʂɎ蓮�ɂĊJ�����s���Ă������Ƃ��ł��܂��B</P>
-<P>���������ɂ��A�Q�b�^�[�E�Z�b�^�[�Ƃ��������̂������������̃\�[�X�R�[�h�ɉB���������邱�Ƃ��ł��邾���ł��A���Ƃ��Ă͍K���Ȋ�����������悤�ȋC�����Ă��܂��B�����ĂȂɂ����f���炵�����Ƃ́A���̃c�[���𓱓����邱�Ƃɂ��h�L�������g���K���쐬�����悤�ɂȂ�A�܂��h�L�������g�Ǝ����Ƃ���������\�����قƂ�ǖ����Ȃ�Ƃ������Ƃł��B</P>
+<P>これらシートを組み合わせることによりクラスの基本的な情報が揃います。(あるいはツールの出力が これらシートになるのでも良いです) そこから インタフェースまたは抽象クラスの自動生成をおこなうことができます。自動生成が終わった後は、ジェネレーションギャップ・デザインパターンを用いて
+普通に手動にて開発を行っていくことができます。</P>
+<P>自動生成により、ゲッター・セッターといったものが自動生成側のソースコードに隠蔽化させることができるだけでも、私としては幸せな感じが得られるような気がしています。そしてなによりも素晴らしいことは、このツールを導入することによりドキュメントが必ず作成されるようになり、またドキュメントと実装とが乖離する可能性がほとんど無くなるということです。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/02/13 ���L: Java: Jakarta POI (HSSF) ��p����Excel�t�@�C����V�K�쐬����T���v��</TITLE>
-<META name="DESCRIPTION" content="Jakarta POI��p����Excel�t�@�C����V�K�쐬����g�C�v���O���������܂����B�T���v���\�[�X�R�[�h���������Ă����܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,Java,�T���v��,HSSF,POI,Excel.API">
+<TITLE>2005/02/13 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルを新規作成するサンプル</TITLE>
+<META name="DESCRIPTION" content="Jakarta POIを用いたExcelファイルを新規作成するトイプログラムを作りました。サンプルソースコードをメモしておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/02/13 ���L: Java: Jakarta POI (HSSF) ��p����Excel�t�@�C����V�K�쐬����T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,Java,�T���v��,HSSF,POI,Excel.API] Jakarta POI��p����Excel�t�@�C����V�K�쐬����g�C�v���O���������܂����B�T���v���\�[�X�R�[�h���������Ă����܂��B</P>
+    <H2>2005/02/13 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルを新規作成するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API] Jakarta POIを用いたExcelファイルを新規作成するトイプログラムを作りました。サンプルソースコードをメモしておきます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,19 +60,19 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) ��p����Excel�t�@�C����V�K�쐬����T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) を用いたExcelファイルを新規作成するサンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u����">Jakarta POI</A>���g����Excel�u�b�N��V�K�쐬����T���v���ł��B</P>
-<P>�m�F�ɗ��p���������</P>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>を使ってExcelブックを新規作成するサンプルです。</P>
+<P>確認に利用した動作環境</P>
 <UL>
-  <LI>Sun Java2 SDK 1.4.2_02 (Windows��)
+  <LI>Sun Java2 SDK 1.4.2_02 (Windows版)
   <LI><A href="http://www.meisei-u.ac.jp/mirror/apache/dist/jakarta/poi/">Jakarta POI 2.5.1 final 20040804</A>
 </UL>
-<P>�������</P>
+<P>動作条件</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u����">Jakarta POI</A> �ɃN���X�p�X���ʂ��Ă��邱��
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> にクラスパスが通してあること
   <UL>
     <LI>poi-2.5.1-final-20040804.jar 
     <LI>poi-contrib-2.5.1-final-20040804.jar
@@ -91,9 +91,9 @@
     <TR>
       <TD>
       <pre>/*
- * Jakarta POI: Excel�t�@�C���̐V�K�쐬�T���v��
- * Copyright (C) 2005 �ɉ�q��
- * �쐬��: 2005/02/13
+ * Jakarta POI: Excelファイルの新規作成サンプル
+ * Copyright (C) 2005 伊賀敏樹
+ * 作成日: 2005/02/13
  */
 
 import java.io.BufferedOutputStream;
@@ -113,48 +113,48 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 public class PoiWriteExcelSample {
 
         public static void main(String[] args) {
-                System.out.println(&quot;Excel�u�b�N��V�K�쐬���ăt�@�C���ۑ����܂�.&quot;);
+                System.out.println(&quot;Excelブックを新規作成してファイル保存します.&quot;);
                 HSSFWorkbook hssfWorkbook = null;
                 hssfWorkbook = new HSSFWorkbook();
-                System.out.println(&quot;Excel�V�[�g��V�K�쐬���܂�.&quot;);
+                System.out.println(&quot;Excelシートを新規作成します.&quot;);
                 HSSFSheet hssfSheet = hssfWorkbook.createSheet(&quot;Sheet1&quot;);
                 if (hssfSheet == null) {
-                        System.err.println(&quot;�\�����ʗ�O.�w���Excel�V�[�g�쐬�Ɏ��s���܂���.&quot;);
+                        System.err.println(&quot;予期せぬ例外.指定のExcelシート作成に失敗しました.&quot;);
                         return;
                 }
-                System.out.println(&quot;�V�[�g�ɍs��V�K�쐬���܂�.&quot;);
+                System.out.println(&quot;シートに行を新規作成します.&quot;);
                 HSSFRow hssfRow = hssfSheet.createRow(0);
                 if (hssfRow == null) {
-                        System.err.println(&quot;�w���Excel�s�̍쐬�Ɏ��s���܂���. &quot;
-                                        + &quot;�Ȃ��A�s��0�I���W���ƂȂ��Ă��܂��B�܂�1�s�ڂ� 0 �Ǝw�肵�܂��B&quot;);
+                        System.err.println(&quot;指定のExcel行の作成に失敗しました. &quot;
+                                        + &quot;なお、行は0オリジンとなっています。つまり1行目は 0 と指定します。&quot;);
                         return;
                 }
 
-                System.out.println(&quot;�s��A���V�K�쐬���܂�.&quot;);
+                System.out.println(&quot;行にA列を新規作成します.&quot;);
                 HSSFCell hssfCell = hssfRow.createCell((short) 0);
                 if (hssfCell == null) {
-                        System.err.println(&quot;�w���Excel��̍쐬�Ɏ��s���܂���. &quot;
-                                        + &quot;�Ȃ��A���0�I���W���ƂȂ��Ă��܂��B�܂�A��� 0 �Ǝw�肵�܂��B&quot;);
+                        System.err.println(&quot;指定のExcel列の作成に失敗しました. &quot;
+                                        + &quot;なお、列は0オリジンとなっています。つまりA列は 0 と指定します。&quot;);
                         return;
                 }
                 hssfCell.setEncoding(HSSFCell.ENCODING_UTF_16);
-                hssfCell.setCellValue(&quot;�l�̃Z�b�g&quot;);
+                hssfCell.setCellValue(&quot;値のセット&quot;);
 
-                System.out.println(&quot;�s��B���V�K�쐬���܂�.&quot;);
+                System.out.println(&quot;行にB列を新規作成します.&quot;);
                 hssfCell = hssfRow.createCell((short) 1);
                 if (hssfCell == null) {
-                        System.err.println(&quot;�w���Excel��̍쐬�Ɏ��s���܂���. &quot;
-                                        + &quot;�Ȃ��A���0�I���W���ƂȂ��Ă��܂��B�܂�B��� 1 �Ǝw�肵�܂��B&quot;);
+                        System.err.println(&quot;指定のExcel列の作成に失敗しました. &quot;
+                                        + &quot;なお、列は0オリジンとなっています。つまりB列は 1 と指定します。&quot;);
                         return;
                 }
                 hssfCell.setEncoding(HSSFCell.ENCODING_UTF_16);
                 hssfCell.setCellValue(123456.78);
 
-                System.out.println(&quot;�s��C���V�K�쐬���܂�.&quot;);
+                System.out.println(&quot;行にC列を新規作成します.&quot;);
                 hssfCell = hssfRow.createCell((short) 2);
                 if (hssfCell == null) {
-                        System.err.println(&quot;�w���Excel��̍쐬�Ɏ��s���܂���. &quot;
-                                        + &quot;�Ȃ��A���0�I���W���ƂȂ��Ă��܂��B�܂�C��� 2 �Ǝw�肵�܂��B&quot;);
+                        System.err.println(&quot;指定のExcel列の作成に失敗しました. &quot;
+                                        + &quot;なお、列は0オリジンとなっています。つまりC列は 2 と指定します。&quot;);
                         return;
                 }
                 hssfCell.setEncoding(HSSFCell.ENCODING_UTF_16);
@@ -165,7 +165,7 @@ public class PoiWriteExcelSample {
                         outStream = new BufferedOutputStream(new FileOutputStream(
                                         &quot;OutputExcel.xls&quot;));
                         hssfWorkbook.write(outStream);
-                        System.out.println(&quot;�V�K�쐬����Excel�u�b�N�̃t�@�C���ۑ��ɐ������܂���.&quot;);
+                        System.out.println(&quot;新規作成したExcelブックのファイル保存に成功しました.&quot;);
                 } catch (IOException ex) {
                         ex.printStackTrace();
                 } finally {
@@ -182,17 +182,17 @@ public class PoiWriteExcelSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">����Jakarta POI�̃T���v��</FONT></P>
+<P><FONT color="#ff00ff">他のJakarta POIのサンプル</FONT></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u����">Jakarta POI</A>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>
 </UL>
-<P><FONT color="#ff00ff">����API�ɂ�铯�l�̎���</FONT></P>
+<P><FONT color="#ff00ff">他のAPIによる同様の実装</FONT></P>
 <UL>
-  <LI><A href="ig050221.html">2005/02/21 ���L: Java: JExcelApi (Java Excel API) ��p����Excel�t�@�C����V�K�쐬����T���v��</A>
-  <LI><A href="ig050610.html">2005/06/10 ���L: Java: OpenOffice.org SDK��p���� Excel�t�@�C����V�K�쐬����T���v��</A>
+  <LI><A href="ig050221.html">2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</A>
+  <LI><A href="ig050610.html">2005/06/10 日記: Java: OpenOffice.org SDKを用いた Excelファイルを新規作成するサンプル</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

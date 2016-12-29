@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/08/08 ���L: Java: �T���v��: �����̃X���b�h�̋�������</TITLE>
-<META name="DESCRIPTION" content="���̃j�K�e�� wait + notify , blanco Framework�� ����Ƃ����΂炭�̊Ԃ� Sun JDK 1.4.2���r���h���Ƃ��܂�">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/08/08 日記: Java: サンプル: 複数のスレッドの協調動作</TITLE>
+<META name="DESCRIPTION" content="私のニガテな wait + notify , blanco Frameworkは 今後ともしばらくの間は Sun JDK 1.4.2をビルド環境とします">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/08/08 ���L: Java: �T���v��: �����̃X���b�h�̋�������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ���̃j�K�e�� wait + notify , blanco Framework�� ����Ƃ����΂炭�̊Ԃ� Sun JDK 1.4.2���r���h���Ƃ��܂�</P>
+    <H2>2007/08/08 日記: Java: サンプル: 複数のスレッドの協調動作</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 私のニガテな wait + notify , blanco Frameworkは 今後ともしばらくの間は Sun JDK 1.4.2をビルド環境とします</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,21 +60,21 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: �T���v��: �����̃X���b�h�̋�������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: サンプル: 複数のスレッドの協調動作</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="�m�l�̓n�ӂ���B�ȑO�̎d���Ńr�W�l�X�p�[�g�i�[�ł����B���̍ۂɂ� �n�ӂ`����ƌĂ΂�Ă��܂����B">a-san</A>�̓��L�ɐG������A�����̃X���b�h�̋�������������ȒP�ɒ��ׂ܂����B������ ���� ���܂��� wait +
-notify �ɂ��Ċ��S�ɗ����ł��Ă���킯�ł͂���܂���B</P>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>の日記に触発され、複数のスレッドの協調動作を私も簡単に調べました。ただし 私は いまだに wait +
+notify について完全に理解できているわけではありません。</P>
 <UL>
   <LI><A HREF="http://d.hatena.ne.jp/a-san/20070807">http://d.hatena.ne.jp/a-san/20070807</A>
 </UL>
-<P>����ʉ�����ƁA���������������ɂȂ�Ǝv���܂����B(�Ԉ���Ă��邩���m��܂��񂯂�ǂ�)</P>
-<P>�|�C���g��</P>
+<P>より一般化すると、こういった感じになると思いました。(間違っているかも知れませんけれども)</P>
+<P>ポイントは</P>
 <UL>
-  <LI>synchronized �u���b�N�ɓ����Ă������_�� ���łɃ��b�N�͎擾���Ă���B<BR>
-  ���Ȃ��A���̗�ł� �����N���X�̋�������ł���̂� synchronized���\�b�h�ł̓_���B
-  <LI>notify ������ ������ wait���� ���̃X���b�h�ɓ���𑡗^����B
+  <LI>synchronized ブロックに入ってきた時点で すでにロックは取得している。<BR>
+  ※なお、この例では 複数クラスの協調動作であるので synchronizedメソッドではダメ。
+  <LI>notify したら すぐに waitして 他のスレッドに動作を贈与する。
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -90,7 +90,7 @@ notify �ɂ��Ċ��S�ɗ����ł��Ă���킯�ł͂���܂���B</P>
       <TD>
       <pre>public class SampleThreadNotify {
     /**
-     * �����̏������������삳���邽�߂̃��b�N�I�u�W�F�N�g�B
+     * 複数の処理を協調動作させるためのロックオブジェクト。
      */
     private static final Object lockObject = new Object();
 
@@ -142,7 +142,7 @@ notify �ɂ��Ċ��S�ɗ����ł��Ă���킯�ł͂���܂���B</P>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>����́A�s�v�c�Ȃ��ƂɁA���L�̂悤�� synchronized�ň͂����L�@�ł����l�̌��ʂ�������̂Ǝv���܂��B</P>
+<P>これは、不思議なことに、下記のような synchronizedで囲った記法でも同様の効果があるものと思います。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -157,7 +157,7 @@ notify �ɂ��Ċ��S�ɗ����ł��Ă���킯�ł͂���܂���B</P>
       <TD>
       <pre>public class SampleThreadNotify2 {
     /**
-     * �����̏������������삳���邽�߂̃��b�N�I�u�W�F�N�g�B
+     * 複数の処理を協調動作させるためのロックオブジェクト。
      */
     private static final Object lockObject = new Object();
 
@@ -209,28 +209,28 @@ notify �ɂ��Ċ��S�ɗ����ł��Ă���킯�ł͂���܂���B</P>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���Ԃ�����āA<A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>���܂̃X���b�h�{�� ��L���e�̑Ó������m�F���Ă��������A�ƍl���܂����B�A�A�A���Ԃ��m�ۂ��˂΁c�B</P>
+<P>時間を作って、<A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さまのスレッド本で 上記内容の妥当性を確認しておきたい、と考えました。、、、時間を確保せねば…。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�Ċm�F: blanco Framework�� ����Ƃ����΂炭�̊Ԃ� Sun JDK 1.4.2���r���h���Ƃ��܂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>再確認: blanco Frameworkは 今後ともしばらくの間は Sun JDK 1.4.2をビルド環境とします</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JRuby�Ɋւ��鉺�L�̋L�����݂āA�L�����ĂыN���������܂����B</P>
+<P>JRubyに関する下記の記事をみて、記憶を呼び起こさせられました。</P>
 <UL>
-  <LI>JRuby�ł��c�_�AJava 1.4.2����Java 5�ւ̈ڍs���<BR>
+  <LI>JRubyでも議論、Java 1.4.2からJava 5への移行問題<BR>
   <A HREF="http://journal.mycom.co.jp/news/2007/07/30/013/index.html">http://journal.mycom.co.jp/news/2007/07/30/013/index.html</A>
 </UL>
-<P>Java���s���ɂ����āA�^�[�Q�b�g���� 1.4.2�n����菜���� (��������) �ǂ�����Ƃ������̂́A���܂��������Ă��Ȃ̂ł���ƁA���B�͍l���Ă���̂ł��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>Java実行環境において、ターゲットから 1.4.2系を取り除いて (無視して) 良い時代というものは、いまだ到来していなのであると、私達は考えているのです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2008/ig080318.html">2008/03/18 ���L: blanco Framework �� Java SDK 1.5.0 �Ɉڍs���܂�</A>
-  <LI><A href="../2006/ig061212.html">2006/12/12 ���L: Sun Java SE 6 (JDK 1.6) �����[�X</A><BR>
-  ���̓��L�ŁAblanco Framework �� 1.4.2�x�[�X�œ��ʐi�ނƂ������Ƃ��錾����Ă��܂��B
+  <LI><A href="../2008/ig080318.html">2008/03/18 日記: blanco Framework は Java SDK 1.5.0 に移行します</A>
+  <LI><A href="../2006/ig061212.html">2006/12/12 日記: Sun Java SE 6 (JDK 1.6) リリース</A><BR>
+  この日記で、blanco Framework が 1.4.2ベースで当面進むということが宣言されています。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

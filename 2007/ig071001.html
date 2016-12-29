@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/10/01 ���L: blancoMail �\�z���X�V</TITLE>
-<META name="DESCRIPTION" content="blancoMailCore �̎����ɖړr���t�����̂ŁA�x�[�X�ƂȂ� blancoMail�\�z�ɂ��āA������X�V���܂����B�X�V���e����L�̂ق��ɂ��]�L���Ă����܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoMail">
+<TITLE>2007/10/01 日記: blancoMail 構想を更新</TITLE>
+<META name="DESCRIPTION" content="blancoMailCore の実装に目途が付いたので、ベースとなる blancoMail構想について、これを更新しました。更新内容を日記のほうにも転記しておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoMail">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/10/01 ���L: blancoMail �\�z���X�V</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoMail] blancoMailCore �̎����ɖړr���t�����̂ŁA�x�[�X�ƂȂ� blancoMail�\�z�ɂ��āA������X�V���܂����B�X�V���e����L�̂ق��ɂ��]�L���Ă����܂��B</P>
+    <H2>2007/10/01 日記: blancoMail 構想を更新</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoMail] blancoMailCore の実装に目途が付いたので、ベースとなる blancoMail構想について、これを更新しました。更新内容を日記のほうにも転記しておきます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,70 +60,70 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMail �\�z���X�V</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMail 構想を更新</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="���[������M�����S�Ŋm���Ɏ������邽�߂̃R�A���C�u�����ł��B">blancoMailCore</A>�̎����ɖړr���t�����̂ŁA�x�[�X�ƂȂ� blancoMail�\�z�ɂ��āA������X�V���܂����B�X�V���e����L�̂ق��ɂ��]�L���Ă����܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A>の実装に目途が付いたので、ベースとなる blancoMail構想について、これを更新しました。更新内容を日記のほうにも転記しておきます。</P>
 <HR>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail�́A���[������M�ɂ܂�鏔�����������邽�߂̃��[���\�����[�V��������уt���[�����[�N�ł��B">blancoMail</A>�́A���[������M�ɂ܂�鏔�����������邽�߂̃��[���\�����[�V��������уt���[�����[�N�ł��B</P>
-<P>���L�̂悤�Ȃ��̂��������邱�Ƃ��S�[���Ƃ��܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A>は、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。</P>
+<P>下記のようなものを実現することをゴールとします。</P>
 <UL>
-  <LI>��ʓI�ȋƖ��V�X�e���J���ɁA���[������M���ȒP�ň��S�ɑg�ݍ��ނ��Ƃ���������B
-  <LI>��ʓI�ȃ��[���ɂ܂�������������B���[���N���C�A���g�̎�ށE�@��ɂ�镶�������g���u���� TO���ACC���̃��[���A�h���X��ݒ�ɂ��l��񗬏o�Ȃǂ�\�h����B
-  <LI>���[���ɂ�郏�[�N�t���[����������B
+  <LI>一般的な業務システム開発に、メール送受信を簡単で安全に組み込むことを実現する。
+  <LI>一般的なメールにまつわる問題を解決する。メールクライアントの種類・機種による文字化けトラブルや TO欄、CC欄のメールアドレス誤設定による個人情報流出などを予防する。
+  <LI>メールによるワークフローを実現する。
 </UL>
-<P>���̖ړI�̂��߂ɁA���L�̂悤�ȃv���_�N�g���J�����A�J���\��A�A�C�f�A�o������Ă��܂��B</P>
-<P><FONT color="#ff00ff">�J����</FONT></P>
+<P>この目的のために、下記のようなプロダクトが開発中、開発予定、アイデア出しされています。</P>
+<P><FONT color="#ff00ff">開発中</FONT></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="���[������M�����S�Ŋm���Ɏ������邽�߂̃R�A���C�u�����ł��B">blancoMailCore</A> (����) : ���[������M���������邽�߂�API�BJavaMail API�����b�s���O���ĒP��������B<BR>
-  ���S�ŊȒP�ȃ��[�����M�^���[����M�v���O���~���O����񋟁B ��JavaMail API �𒼐ڗ��p�����v���O���~���O�̓�Փx�͍����̂ł��B<BR>
-  �f�o�b�O���[�h��񋟁B�������쎞�̃��[���둗�M��h���B
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A> (α版) : メール送受信を実現するためのAPI。JavaMail APIをラッピングして単純化する。<BR>
+  安全で簡単なメール送信／メール受信プログラミング環境を提供。 ※JavaMail API を直接利用したプログラミングの難易度は高いのです。<BR>
+  デバッグモードを提供。試験動作時のメール誤送信を防ぐ。
 </UL>
-<P><FONT color="#ff00ff">�J���\��</FONT></P>
+<P><FONT color="#ff00ff">開発予定</FONT></P>
 <UL>
-  <LI>blancoMailDb (�d�l����̂�) : ���[������M�V�X�e���\�z�̂��߂̊�ՂƂȂ�f�[�^�x�[�X�i�����w��񋟂��܂��B
+  <LI>blancoMailDb (仕様策定のみ) : メール送受信システム構築のための基盤となるデータベース永続化層を提供します。
   <UL>
-    <LI>blancoMailMessageID�Ƃ������j�[�N�L�[�̒�
-    <LI>���[�����M�L���[
-    <LI>���[����M�L���[
-    <LI>�Y�t�t�@�C���͕ʃe�[�u��
-    <LI>���[���̃G���g���ɂ��Ă��ʃe�[�u���H
-    <LI>���[�����M�f�[�^�̃_�C�W�F�X�g�l�̕ێ�
-    <LI>���[�����M�G���[�����߂�e�[�u��
+    <LI>blancoMailMessageIDというユニークキーの提供
+    <LI>メール送信キュー
+    <LI>メール受信キュー
+    <LI>添付ファイルは別テーブル
+    <LI>メールのエントリについても別テーブル？
+    <LI>メール送信データのダイジェスト値の保持
+    <LI>メール送信エラーをためるテーブル
   </UL>
-  <LI>blancoMailQueue: ���[������M�L���[�̏��� (���邢�� blancoMailPump ���H ���̌������c)
+  <LI>blancoMailQueue: メール送受信キューの処理 (あるいは blancoMailPump か？ 名称検討中…)
   <UL>
-    <LI>�J�n�E�I���L�� YMD ����� �J�n�E�I�� �L�� HM �̎w�� �@�\���~����
-    <LI>�Ƃɂ��� �����̃L���[�ɓ��ꂽ�� �فX�Ƒ���M�����悤�Ȏd�l�B
+    <LI>開始・終了有効 YMD および 開始・終了 有効 HM の指定 機能も欲しい
+    <LI>とにかく そこのキューに入れたら 黙々と送受信されるような仕様。
   </UL>
-  <LI>���|�C���g: blancoMailDb��blancoMailQueue�ɂ��Ă͓����ɊJ�����Ȃ��Ǝd�l���ł܂�Ȃ������݁B
-  <LI>blancoMailCommand (�d�l����̂�) : ���[�����ʂɃR�}���h�𖄂ߍ��ދ@�\�B ���[���ɂ�鏳���E���ہE�I���E�Z�����͂Ȃǂ���������@�\�B
+  <LI>※ポイント: blancoMailDbとblancoMailQueueについては同時に開発しないと仕様が固まらない見込み。
+  <LI>blancoMailCommand (仕様策定のみ) : メール文面にコマンドを埋め込む機能。 メールによる承諾・拒否・選択・短文入力などを実現する機能。
   <BR>
-  �I��: Yes/No �̂��� Yes�����c���ĕԐM������T�u�~�b�g�Ɠ��l�B�ȂǁB
+  選択: Yes/No のうち Yesだけ残して返信したらサブミットと同様。など。
 </UL>
-<P><FONT color="#ff00ff">�A�C�f�A�̂�</FONT></P>
+<P><FONT color="#ff00ff">アイデアのみ</FONT></P>
 <UL>
-  <LI>blancoMailAgent (�d�l����̂�) : ���[���ɂ�郏�[�N�t���[�Ɋւ����{�@�\�B���ԑт��l���������[�����M�@�\�B ���[���ɂ�����E�މ�Ƃ������A�h���X�Ǘ��@�\�B���[�����M���e�̎��O�`�F�b�N�@�\�B(�Ǘ��҂̏��F��ɑ��M)
-  <LI>blancoMailWorkflow: ���[���̃��[�N�t���[�̂��ẮA�ʃv���_�N�g���H<BR>
-  ���M���[�����e�̏��F�@�\�ɂ��ẮA������X�ɕʃv���_�N�g���H
-  <LI>blancoMailSession: ���[���̃Z�b�V�����Ǘ��@�\�͕ʃv���_�N�g���H<BR>
-  �Z�b�V�����ɂ��ă^�C���A�E�g�ŋ������O�A�E�g������@�\���K�v�B<BR>
-  ���[���ɃZ�b�V�����̊T�O (�Z�b�V����ID) ��t�^����@�\�B
+  <LI>blancoMailAgent (仕様策定のみ) : メールによるワークフローに関する基本機能。時間帯を考慮したメール送信機能。 メールによる入会・退会といったアドレス管理機能。メール送信内容の事前チェック機能。(管理者の承認後に送信)
+  <LI>blancoMailWorkflow: メールのワークフローのついては、別プロダクトか？<BR>
+  送信メール内容の承認機能については、これも更に別プロダクトか？
+  <LI>blancoMailSession: メールのセッション管理機能は別プロダクトか？<BR>
+  セッションについてタイムアウトで強制ログアウトさせる機能も必要。<BR>
+  メールにセッションの概念 (セッションID) を付与する機能。
   <UL>
     <LI><A HREF="http://www.igapyon.jp/igapyon/diary/2007/ig070816.html">http://www.igapyon.jp/igapyon/diary/2007/ig070816.html</A>
   </UL>
-  <LI>blancoMailRpc: ���[���ɂ�郊���[�g�v���V�[�W���R�[�� (�A�C�f�A�̂�)
-  <LI>blancoMailSql: ���[���L���[��SQL�ő��삷�邽�߂�JDBC�h���C�o�B��Փx���������B
-  <LI>blancoMailSubversion: ���[���ɂ��\���Ǘ��B<BR>
-  �N�����\�[�X�����o�������̃��X�g��߂��@�\�B�R�~�b�g�����[���Ŏ����B
-  <LI>blancoMailWebService: �E�F�u�T�[�r�X�ɂ�郁�[������M�B(�d�l�����Ƃ���)
-  <LI>���[�����M�ɂ��ẮA�X�g���[���`�F�C���̂悤�Ȏ����������������B
+  <LI>blancoMailRpc: メールによるリモートプロシージャコール (アイデアのみ)
+  <LI>blancoMailSql: メールキューをSQLで操作するためのJDBCドライバ。難易度が高そう。
+  <LI>blancoMailSubversion: メールによる構成管理。<BR>
+  誰がリソースを取り出したかのリストを戻す機能。コミットもメールで実現。
+  <LI>blancoMailWebService: ウェブサービスによるメール送受信。(仕様検討として)
+  <LI>メール送信については、ストリームチェインのような実装を検討したい。
 </UL>
-<P>�������̃v���_�N�g�� ���̑����� blanco Framework�v���_�N�g�ƈقȂ�A<STRONG>�\�[�X�R�[�h���������@�\�͒񋟂��܂���</STRONG>�B</P>
+<P>※これらのプロダクトは 他の多くの blanco Frameworkプロダクトと異なり、<STRONG>ソースコード自動生成機能は提供しません</STRONG>。</P>
 <HR>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

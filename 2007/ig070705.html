@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/07/05 ���L: FizzBuzz ��� - �Z�����Ă�����</TITLE>
-<META name="DESCRIPTION" content="�ł́A���� FuzzBuzz������Z�����Ă����ł�����Ă݂܂��B">
-<META name="KEYWORDS" content="FizzBuzz,Java,���,problem,short">
+<TITLE>2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</TITLE>
+<META name="DESCRIPTION" content="では、次に FuzzBuzz実装を短くしていく版を作ってみます。">
+<META name="KEYWORDS" content="FizzBuzz,Java,問題,problem,short">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/07/05 ���L: FizzBuzz ��� - �Z�����Ă�����</H2>
-    <P>[FizzBuzz,Java,���,problem,short] �ł́A���� FuzzBuzz������Z�����Ă����ł�����Ă݂܂��B</P>
+    <H2>2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</H2>
+    <P>[FizzBuzz,Java,問題,problem,short] では、次に FuzzBuzz実装を短くしていく版を作ってみます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,13 +60,13 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz ��� - �Z�����Ă�����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz 問題 - 短くしていく版</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ł́A���� FuzzBuzz������Z�����Ă����ł�����Ă݂܂��B</P>
-<P>������: �����ŋ����Ă����� <STRONG>�u���b�N���[���A</STRONG>�ł��B</P>
-<P>�ŏ��Ɏv�����̂� ������A���ɂ��\�[�X�R�[�h�̒Z�k�ɂ��Ăł��B</P>
+<P>では、次に FuzzBuzz実装を短くしていく版を作ってみます。</P>
+<P>※注意: ここで挙げている例は <STRONG>ブラックユーモア</STRONG>です。</P>
+<P>最初に思いつくのは 文字列連結によるソースコードの短縮についてです。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -80,44 +80,44 @@
     <TR>
       <TD>
       <pre>/**
- * FizzBuzz: �C�M���X�̊w�Z�̎q�������̗V��
+ * FizzBuzz: イギリスの学校の子供たちの遊び
  * 
- * 1����100�܂ł̐����v�����g����B&lt;br&gt;
- * �E3�̔{���̂Ƃ��͐��̑���ɢFizz��ƃv�����g����B&lt;br&gt;
- * �E5�̔{���̂Ƃ��͐��̑���ɢBuzz��ƃv�����g����B&lt;br&gt;
- * �E3��5�����̔{���̏ꍇ�ɂ͐��̑���ɢFizzBuzz��ƃv�����g����B
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
  */
 public class FizzBuzzShort01 {
         /**
-         * �G���g���|�C���g�B
+         * エントリポイント。
          * 
          * @param args
-         *            �R�}���h���C�������B���̃v���O�������ł͗��p����Ȃ��B
+         *            コマンドライン引数。このプログラム内では利用されない。
          */
         public static void main(final String[] args) {
-                // TODO:���ݍ��񂾋��ʉ����s���A���W�b�N��g�ݑւ��܂����B
-                // TODO:�}�W�b�N�i���o�[�͒Ǖ�����Ă��܂���B
+                // TODO:踏み込んだ共通化を行い、ロジックを組み替えました。
+                // TODO:マジックナンバーは追放されていません。
                 for (int number = 1; number &lt;= 100; number++) {
-                        // 3�̔{���ł��邩�ǂ����B
+                        // 3の倍数であるかどうか。
                         final boolean isMultipleOf3 = (number % 3 == 0);
-                        // 5�̔{���ł��邩�ǂ����B
+                        // 5の倍数であるかどうか。
                         final boolean isMultipleOf5 = (number % 5 == 0);
 
                         final StringBuffer bufMsg = new StringBuffer();
                         if (isMultipleOf3) {
-                                // 3�̔{���̂Ƃ��͢Fizz���ǉ�����B
+                                // 3の倍数のときは｢Fizz｣を追加する。
                                 bufMsg.append(&quot;Fizz&quot;);
                         }
                         if (isMultipleOf5) {
-                                // 5�̔{���̂Ƃ��͢Buzz���ǉ�����B
+                                // 5の倍数のときは｢Buzz｣を追加する。
                                 bufMsg.append(&quot;Buzz&quot;);
                         }
                         if (!isMultipleOf3 &amp;&amp; !isMultipleOf5) {
-                                // 3�̔{���ł�5�̔{���ł��������ɂ́A�����Z�b�g����B
+                                // 3の倍数でも5の倍数でも無い時には、数をセットする。
                                 bufMsg.append(number);
                         }
 
-                        // �������ꂽ��������v�����g����B
+                        // 生成された文字列をプリントする。
                         System.out.println(bufMsg.toString());
                 }
         }
@@ -127,9 +127,9 @@ public class FizzBuzzShort01 {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���W�b�N�̑g�ݑւ��ɂ�� �������Z���Ȃ��Ă����܂��B</P>
+<P>ロジックの組み替えにより 少しずつ短くなっていきます。</P>
 <HR>
-<P>3�����Z�q�𗘗p����ƁAif �����ȗ��ł��A�����ƒZ���Ȃ�܂��B</P>
+<P>3項演算子を利用すると、if 文を省略でき、もっと短くなります。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -143,27 +143,27 @@ public class FizzBuzzShort01 {
     <TR>
       <TD>
       <PRE>/**
- * FizzBuzz: �C�M���X�̊w�Z�̎q�������̗V��
+ * FizzBuzz: イギリスの学校の子供たちの遊び
  * 
- * 1����100�܂ł̐����v�����g����B&lt;br&gt;
- * �E3�̔{���̂Ƃ��͐��̑���ɢFizz��ƃv�����g����B&lt;br&gt;
- * �E5�̔{���̂Ƃ��͐��̑���ɢBuzz��ƃv�����g����B&lt;br&gt;
- * �E3��5�����̔{���̏ꍇ�ɂ͐��̑���ɢFizzBuzz��ƃv�����g����B
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
  */
 public class FizzBuzzShort02 {
         /**
-         * �G���g���|�C���g�B
+         * エントリポイント。
          * 
          * @param args
-         *            �R�}���h���C�������B���̃v���O�������ł͗��p����Ȃ��B
+         *            コマンドライン引数。このプログラム内では利用されない。
          */
         public static void main(final String[] args) {
-                // TODO:3�����Z�q��p���āA���W�b�N��g�ݑւ��܂����B
-                // TODO:�}�W�b�N�i���o�[�͒Ǖ�����Ă��܂���B
+                // TODO:3項演算子を用いて、ロジックを組み替えました。
+                // TODO:マジックナンバーは追放されていません。
                 for (int number = 1; number &lt;= 100; number++) {
-                        // 3�̔{���ł��邩�ǂ����B
+                        // 3の倍数であるかどうか。
                         final boolean isMultipleOf3 = (number % 3 == 0);
-                        // 5�̔{���ł��邩�ǂ����B
+                        // 5の倍数であるかどうか。
                         final boolean isMultipleOf5 = (number % 5 == 0);
 
                         final String strMsg = (isMultipleOf3 ? &quot;Fizz&quot; : &quot;&quot;)
@@ -171,7 +171,7 @@ public class FizzBuzzShort02 {
                                         + (!isMultipleOf3 &amp;&amp; !isMultipleOf5 ? String
                                                         .valueOf(number) : &quot;&quot;);
 
-                        // �������ꂽ��������v�����g����B
+                        // 生成された文字列をプリントする。
                         System.out.println(strMsg);
                 }
         }
@@ -181,9 +181,9 @@ public class FizzBuzzShort02 {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�����A�O�����Z�q�� �ƂĂ��f���炵���I</P>
+<P>ああ、三項演算子は とても素晴らしい！</P>
 <HR>
-<P>�����܂ŗ�����A��������i�[���Ă����ϐ��𖳂������Ƃ��o���܂��B</P>
+<P>ここまで来たら、文字列を格納していた変数を無くすことが出来ます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -197,27 +197,27 @@ public class FizzBuzzShort02 {
     <TR>
       <TD>
       <PRE>/**
- * FizzBuzz: �C�M���X�̊w�Z�̎q�������̗V��
+ * FizzBuzz: イギリスの学校の子供たちの遊び
  * 
- * 1����100�܂ł̐����v�����g����B&lt;br&gt;
- * �E3�̔{���̂Ƃ��͐��̑���ɢFizz��ƃv�����g����B&lt;br&gt;
- * �E5�̔{���̂Ƃ��͐��̑���ɢBuzz��ƃv�����g����B&lt;br&gt;
- * �E3��5�����̔{���̏ꍇ�ɂ͐��̑���ɢFizzBuzz��ƃv�����g����B
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
  */
 public class FizzBuzzShort03 {
         /**
-         * �G���g���|�C���g�B
+         * エントリポイント。
          * 
          * @param args
-         *            �R�}���h���C�������B���̃v���O�������ł͗��p����Ȃ��B
+         *            コマンドライン引数。このプログラム内では利用されない。
          */
         public static void main(final String[] args) {
-                // TODO:�s�v�ȕ�����ϐ����폜���܂����B�܂��ϐ��������t�@�N�^�����O���܂����B
-                // TODO:�}�W�b�N�i���o�[�͒Ǖ�����Ă��܂���B
+                // TODO:不要な文字列変数を削除しました。また変数名をリファクタリングしました。
+                // TODO:マジックナンバーは追放されていません。
                 for (int number = 1; number &lt;= 100; number++) {
-                        // 3�̔{���ł��邩�ǂ����B
+                        // 3の倍数であるかどうか。
                         final boolean isFizz = (number % 3 == 0);
-                        // 5�̔{���ł��邩�ǂ����B
+                        // 5の倍数であるかどうか。
                         final boolean isBuzz = (number % 5 == 0);
 
                         System.out.println((isFizz ? &quot;Fizz&quot; : &quot;&quot;) + (isBuzz ? &quot;Buzz&quot; : &quot;&quot;)
@@ -230,21 +230,21 @@ public class FizzBuzzShort03 {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�܂��A���낢��o�������ł����A�ЂƂ܂������Ŏ���~�߂܂��B</P>
-<P>���āA�����Œ��ӂ��Ȃ��Ă͂Ȃ�Ȃ��̂́A�Z�����Ă����łƂ��ċL�q���ꂽ�\�[�X�R�[�h�� <A href="ig070703.html">FizzBuzz ��� - ���t�@�N�^�����O��</A> �̃\�[�X�R�[�h���� JavaVM��ł�<STRONG>���s�������Ⴂ</STRONG>�\��������Ƃ����_�ł��BJava 5 �ȍ~�� StringBuilder�ɂ������W�J�����҂����Ƃ��Ă� �I�u�W�F�N�g�̃S�~�������������镪�A<A href="ig070703.html">FizzBuzz ��� - ���t�@�N�^�����O��</A> �������s�����������Ȃ�Ƒz�肳��邩��ł��c�B�P�����ꂽ Java�v���O���}�[�� �\�[�X�R�[�h������������ �����Ŏ��s�����ۂ̃������S�~�̊T�Z���ł�����̂ł��B�s���̑���
-<A href="ig070703.html">FizzBuzz ��� - ���t�@�N�^�����O��</A>�̂ق��� �������������ǂ��Ȃ�� �s�v�c�Ŕ���Ȃ��̂ł��ˁc�B</P>
-<P>����ŁA������Z���L�q���邽�߂Ƃ͂����A15�Ȃǂ̐� (3��5�̋��ʂ̔{��) �𓱏o������A���邢�� isFizz, isBuzz�Ƃ����ϐ����ȗ����Ă��܂�����
-(�ȗ�����Ɖ��Z�̉񐔂������Ă��܂�) �Փ��ɂ����邩���m��܂���B������ ������ȗ������ ��]�v�Z�̉񐔂������A���s�����͒ቺ����悤�ɍl�����܂��B</P>
-<P>�X�ɁA15�ȂǂƂ������l�𓱏o���Ă��܂��ƁA���������d�l��ɂ͌���Ȃ� ��̃}�W�b�N�i���o�[���\�[�X�R�[�h��Ɍ���邱�ƂɂȂ�܂��B���̂悤�Ȑ��l�𓱏o����ƁA�\�[�X�R�[�h���d�l�ύX�ɑ΂��ĐƎ�ɂȂ��Ă��܂��_�ɂ����ӂ��K�v�ł��B�d�l�ύX�̃R���g���[���������S�ɏ������Ă��Ȃ��̂ł���΁A�Ȃ�ׂ��u�d�l�ʂ�v�Ɏ������Ă����̂��̐S�Ȃ̂ł��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>まだ、いろいろ出来そうですが、ひとまずここで手を止めます。</P>
+<P>さて、ここで注意しなくてはならないのは、短くしていく版として記述されたソースコードは <A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A> のソースコードよりも JavaVM上での<STRONG>実行効率が低い</STRONG>可能性があるという点です。Java 5 以降の StringBuilderによる内部展開を期待したとしても オブジェクトのゴミが多く発生する分、<A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A> よりも実行効率が悪くなると想定されるからです…。訓練された Javaプログラマーは ソースコードを見ただけで そこで実行した際のメモリゴミの概算ができるものです。行数の多い
+<A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A>のほうが メモリ効率が良いなんて 不思議で皮肉なものですね…。</P>
+<P>一方で、いくら短く記述するためとはいえ、15などの数 (3と5の共通の倍数) を導出したり、あるいは isFizz, isBuzzという変数を省略してしまいたい
+(省略すると演算の回数が増えてしまう) 衝動にかられるかも知れません。しかし それを省略すると 剰余計算の回数が増え、実行効率は低下するように考えられます。</P>
+<P>更に、15などという数値を導出してしまうと、そもそも仕様上には現れない 謎のマジックナンバーがソースコード上に現れることになります。このような数値を導出すると、ソースコードが仕様変更に対して脆弱になってしまう点にも注意が必要です。仕様変更のコントロール権を完全に掌握していないのであれば、なるべく「仕様通り」に実装しておくのが肝心なのです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig070702.html">2007/07/02 ���L: FizzBuzz ��� - �m�[�}����</A>
-  <LI><A href="ig070703.html">2007/07/03 ���L: FizzBuzz ��� - ���t�@�N�^�����O��</A>
-  <LI><A href="ig070704.html">2007/07/04 ���L: FizzBuzz ��� - �f�U�C���p�^�[���K�p��</A>
-  <LI><A href="ig070706.html">2007/07/06 ���L: FizzBuzz ��� - switch�����</A>
+  <LI><A href="ig070702.html">2007/07/02 日記: FizzBuzz 問題 - ノーマル版</A>
+  <LI><A href="ig070703.html">2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</A>
+  <LI><A href="ig070704.html">2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</A>
+  <LI><A href="ig070706.html">2007/07/06 日記: FizzBuzz 問題 - switch分岐版</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

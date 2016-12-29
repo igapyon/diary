@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/08/01 ���L: Java: Apache Axis: �N���X�̔z��𑗎�M������ �� WSDL����Web�T�[�r�X���쐬</TITLE>
-<META name="DESCRIPTION" content="Java�N���X�̔z���]������ڑ����̎������s�����߁AWSDL����Web�T�[�r�X���쐬����p�X�������܂����B �� Apache Axis 1.2.1�̃���������ʂ� ���ɂ͋��e���������T�C�Y�ł��邱�Ƃ��������܂����c">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/08/01 日記: Java: Apache Axis: クラスの配列を送受信したい → WSDLからWebサービスを作成</TITLE>
+<META name="DESCRIPTION" content="Javaクラスの配列を転送する接続性の試験を行うため、WSDLからWebサービスを作成するパスを試しました。 → Apache Axis 1.2.1のメモリ消費量が 私には許容しがたいサイズであることが判明しました…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/08/01 ���L: Java: Apache Axis: �N���X�̔z��𑗎�M������ �� WSDL����Web�T�[�r�X���쐬</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Java�N���X�̔z���]������ڑ����̎������s�����߁AWSDL����Web�T�[�r�X���쐬����p�X�������܂����B �� Apache Axis 1.2.1�̃���������ʂ� ���ɂ͋��e���������T�C�Y�ł��邱�Ƃ��������܂����c</P>
+    <H2>2005/08/01 日記: Java: Apache Axis: クラスの配列を送受信したい → WSDLからWebサービスを作成</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Javaクラスの配列を転送する接続性の試験を行うため、WSDLからWebサービスを作成するパスを試しました。 → Apache Axis 1.2.1のメモリ消費量が 私には許容しがたいサイズであることが判明しました…</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,26 +59,26 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Apache Axis: �N���X�̔z���]�������� �� WSDL����Web�T�[�r�X���쐬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Apache Axis: クラスの配列を転送したい → WSDLからWebサービスを作成</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�N���X�̔z���]���������̂ŁAWSDL����Web�T�[�r�X���쐬����p�X�������܂����B�Ȃ��A�Ȃ��R���N�V�����^�͗p����ׂ��ł͂Ȃ��̂��ɂ��ẮA���L�ɋL�ڂ�����܂��B</P>
+<P>クラスの配列を転送したいので、WSDLからWebサービスを作成するパスを試しました。なお、なぜコレクション型は用いるべきではないのかについては、下記に記載があります。</P>
 <UL>
-  <LI>WebServices - Axis - Java �^�� SOAP/XML �^�ւ̃}�b�s���O<BR>
+  <LI>WebServices - Axis - Java 型の SOAP/XML 型へのマッピング<BR>
   <A HREF="http://ws.apache.org/axis/ja/java/user-guide.html#XMLJavaDataMappingInAxis">http://ws.apache.org/axis/ja/java/user-guide.html#XMLJavaDataMappingInAxis</A><BR>
-  �u�R���N�V�����͗p�����ɔz���p���������D�܂����v���ɂ��Ă̋L�ڂ������Ă���܂��B<BR>
-  �A�A�A�I�}�P�ł����Anull���e�̏ꍇ�ɂ́A�v���~�e�B�u�^�̓��b�p�N���X�ւƒu��������Ƃ������[��������悤�ł��B�׋��ɂȂ�܂��B(�����Ă���́A���R�ɂ�
-  blancoDb�Ɠ����A�v���[�`�ł�)
+  「コレクションは用いずに配列を用いた方が好ましい」かについての記載が書いてあります。<BR>
+  、、、オマケですが、null許容の場合には、プリミティブ型はラッパクラスへと置き換えるというルールがあるようです。勉強になります。(そしてそれは、偶然にも
+  blancoDbと同じアプローチです)
 </UL>
-<P>�`�F�b�N���s����ŗ��p�����g�ݍ��킹�͉��L�ɂȂ�܂��B</P>
+<P>チェックを行う上で利用した組み合わせは下記になります。</P>
 <UL>
   <LI>Apache Axis 1.2.1
   <LI>Sun Java SE 5
   <LI>Jakarta Tomcat 4.1
 </UL>
-  <P>�܂� ��� WSDL���쐬���܂��B(���ꂪ���ɂ͓���ł��c)</P>
-<P>WSDL����͂Ƃ��āAWSDL2Java�����s���܂��B</P>
+  <P>まず 先に WSDLを作成します。(これが私には難しいです…)</P>
+<P>WSDLを入力として、WSDL2Javaを実行します。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -88,14 +88,14 @@
     </TR>
   </TBODY>
 </TABLE>
-���X�P���g���������[�h�Ŏ��s���Ă��܂��B</BLOCKQUOTE>
-<P>*SoapBindingImpl.java �Ƃ����t�@�C�����쐬�����̂ŁA�����ɋ�̓I�ȏ������L�ڂ��Ă����܂��B<BR>
-�������瑤���T�[�o�����ƂȂ�܂��B</P>
+※スケルトン生成モードで実行しています。</BLOCKQUOTE>
+<P>*SoapBindingImpl.java というファイルが作成されるので、そこに具体的な処理を記載していきます。<BR>
+※こちら側がサーバ処理となります。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">XXXXSoapBindingImpl.java (����)</TD>
+      <TD bgcolor="#ffff00">XXXXSoapBindingImpl.java (抜粋)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -111,13 +111,13 @@
         try {
             int size = request.getFieldR2();
             ResponseRecord response = new ResponseRecord();
-            response.setField1(&quot;���ǂ背�X�|���X&quot;);
+            response.setField1(&quot;もどりレスポンス&quot;);
             response.setField2(123);
             response.setBody(new BodyRecord[size]);
             for (int bodyIndex = 0; bodyIndex &lt; request.getFieldR2(); bodyIndex++) {
                 BodyRecord body = new BodyRecord();
                 response.getBody()[bodyIndex] = body;
-                body.setField21(&quot;���ǂ�{�f�B&quot;);
+                body.setField21(&quot;もどりボディ&quot;);
                 body.setField22(456);
 
                 body.setDetail(new DetailRecord[size]);
@@ -140,9 +140,9 @@
     </TR>
   </TBODY>
 </TABLE>
-���֋X�� null�l�������Ƃ����O��̂��ƂɑS�Ẵt�B�[���h�ɒl���Z�b�g���Ă��܂��B</BLOCKQUOTE>
-<P>Axis�ւ̃f�v���C�̎d���B</P>
-<P>�z�z���邽�߂̃��C�u���� (jar�t�@�C��) ���쐬���܂��B</P>
+※便宜上 null値が無いという前提のもとに全てのフィールドに値をセットしています。</BLOCKQUOTE>
+<P>Axisへのデプロイの仕方。</P>
+<P>配布するためのライブラリ (jarファイル) を作成します。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -175,8 +175,8 @@
     </TR>
   </TBODY>
 </TABLE>
-�����̃t�@�C���� lib�t�H���_�ȂǃN���X�p�X��ɔz�u����B</BLOCKQUOTE>
-<P>Axis�� wsdd�t�@�C�����f�v���C���s���܂��B(jar�t�@�C���͒P�Ɏ�ŃR�s�[���܂���)</P>
+※このファイルを libフォルダなどクラスパス上に配置する。</BLOCKQUOTE>
+<P>Axisに wsddファイルをデプロイを行います。(jarファイルは単に手でコピーしました)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -186,8 +186,8 @@
     </TR>
   </TBODY>
 </TABLE>
-��Axis�T�[�o���N�����Ă����Ԃŏ�L�R�}���h�����s���܂��B</BLOCKQUOTE>
-<P>���̐����ȕ��@����URL�� JWS�Ƃ͕ς��悤�ł��B���̓_�ɒ��ӂ��K�v�ł��B</P>
+※Axisサーバが起動している状態で上記コマンドを実行します。</BLOCKQUOTE>
+<P>この正式な方法だとURLが JWSとは変わるようです。この点に注意が必要です。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -196,9 +196,9 @@
     </TR>
   </TBODY>
 </TABLE>
-���ύX��URL�̗�</BLOCKQUOTE>
-<P>�Ăяo���v���O�����̗�<BR>
-�������瑤���N���C�A���g�����ƂȂ�܂��B</P>
+※変更後URLの例</BLOCKQUOTE>
+<P>呼び出しプログラムの例<BR>
+※こちら側がクライアント処理となります。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -238,20 +238,20 @@ public class TestCaller {
 
     private static RequestRecord getRequestRecord() {
         RequestRecord record = new RequestRecord();
-        record.setFieldR1(&quot;���N�G�X�g&quot;);
+        record.setFieldR1(&quot;リクエスト&quot;);
         record.setFieldR2(RECORD_SIZE);
 
         record.setBody(new BodyRecord[RECORD_SIZE]);
         for (int bodyIndex = 0; bodyIndex &lt; RECORD_SIZE; bodyIndex++) {
             BodyRecord bodyRecord = new BodyRecord();
             record.getBody()[bodyIndex] = bodyRecord;
-            bodyRecord.setField21(&quot;�{�f�B&quot;);
+            bodyRecord.setField21(&quot;ボディ&quot;);
             bodyRecord.setField22(123);
             bodyRecord.setDetail(new DetailRecord[RECORD_SIZE]);
             for (int detailIndex = 0; detailIndex &lt; RECORD_SIZE; detailIndex++) {
                 DetailRecord detailRecord = new DetailRecord();
                 bodyRecord.getDetail()[detailIndex] = detailRecord;
-                detailRecord.setField31(&quot;�ł��Ă���&quot;);
+                detailRecord.setField31(&quot;でぃている&quot;);
                 detailRecord.setField32(543);
             }
         }
@@ -263,7 +263,7 @@ public class TestCaller {
             long start = System.currentTimeMillis();
             callMethod(true);
             long end = System.currentTimeMillis();
-            System.out.println(&quot;����ďo�̏��p����:&quot; + (end - start) + &quot;�~���b&quot;);
+            System.out.println(&quot;初回呼出の所用時間:&quot; + (end - start) + &quot;ミリ秒&quot;);
 
             KantanHello hello = new KantanHelloServiceLocator()
                     .getKantanHello();
@@ -273,9 +273,9 @@ public class TestCaller {
                 ResponseRecord response = hello.hello(getRequestRecord());
             }
             end = System.currentTimeMillis();
-            System.out.println(&quot;&quot; + COUNT + &quot;���������邽�߂̏��p����:&quot; + (end - start)
-                    + &quot;�~���b&quot;);
-            System.out.println(&quot;1��������:&quot; + (end - start) / COUNT + &quot;�~���b&quot;);
+            System.out.println(&quot;&quot; + COUNT + &quot;件処理するための所用時間:&quot; + (end - start)
+                    + &quot;ミリ秒&quot;);
+            System.out.println(&quot;1件あたり:&quot; + (end - start) / COUNT + &quot;ミリ秒&quot;);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -286,223 +286,223 @@ public class TestCaller {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�Ăяo���̎��Ԍv������ (�C���X�^���X�����ȗ��o�[�W����)</P>
+<P>呼び出しの時間計測結果 (インスタンス生成省略バージョン)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TH bgcolor="#ffff00">�ďo��</TH>
-      <TH bgcolor="#ffff00">1�������菈������</TH>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
     </TR>
     <TR>
       <TD align="right">1</TD>
-      <TD align="center">40�~���b</TD>
+      <TD align="center">40ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">10</TD>
-      <TD align="center">25�~���b</TD>
+      <TD align="center">25ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">100</TD>
-      <TD align="center">22�~���b</TD>
+      <TD align="center">22ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">1000</TD>
-      <TD align="center">16�~���b</TD>
+      <TD align="center">16ミリ秒</TD>
     </TR>
   </TBODY>
 </TABLE>
-�����R�[�h�T�C�Y = 1 �ő���</BLOCKQUOTE>
+※レコードサイズ = 1 で測定</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TH bgcolor="#ffff00">�ďo��</TH>
-      <TH bgcolor="#ffff00">1�������菈������</TH>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
     </TR>
     <TR>
       <TD align="right">1</TD>
-      <TD align="center">100�~���b</TD>
+      <TD align="center">100ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">10</TD>
-      <TD align="center">89�~���b</TD>
+      <TD align="center">89ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">100</TD>
-      <TD align="center">55�~���b</TD>
+      <TD align="center">55ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">1000</TD>
-      <TD align="center">45�~���b</TD>
+      <TD align="center">45ミリ秒</TD>
     </TR>
   </TBODY>
 </TABLE>
-�����R�[�h�T�C�Y = 5 �ő���<BR>
-�@�����v25���̃f�[�^�̑���M�ƂȂ�</BLOCKQUOTE>
+※レコードサイズ = 5 で測定<BR>
+　→総計25件のデータの送受信となる</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TH bgcolor="#ffff00">�ďo��</TH>
-      <TH bgcolor="#ffff00">1�������菈������</TH>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
     </TR>
     <TR>
       <TD align="right">1</TD>
-      <TD align="center">340�~���b</TD>
+      <TD align="center">340ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">10</TD>
-      <TD align="center">192�~���b</TD>
+      <TD align="center">192ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">100</TD>
-      <TD align="center">146�~���b</TD>
+      <TD align="center">146ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">1000</TD>
-      <TD align="center">135�~���b</TD>
+      <TD align="center">135ミリ秒</TD>
     </TR>
   </TBODY>
 </TABLE>
-�����R�[�h�T�C�Y = 10 �ő���<BR>
-�@�����v100���̃f�[�^�̑���M�ƂȂ�</BLOCKQUOTE>
+※レコードサイズ = 10 で測定<BR>
+　→総計100件のデータの送受信となる</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TH bgcolor="#ffff00">�ďo��</TH>
-      <TH bgcolor="#ffff00">1�������菈������</TH>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
     </TR>
     <TR>
       <TD align="right">1</TD>
-      <TD align="center">4276�~���b</TD>
+      <TD align="center">4276ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">10</TD>
-      <TD align="center">3998�~���b</TD>
+      <TD align="center">3998ミリ秒</TD>
     </TR>
     <TR>
       <TD align="right">100</TD>
-      <TD align="center">3883�~���b</TD>
+      <TD align="center">3883ミリ秒</TD>
     </TR>
   </TBODY>
 </TABLE>
-�����R�[�h�T�C�Y = 50 �ő���<BR>
-�@�����v2500���̃f�[�^�̑���M�ƂȂ�</BLOCKQUOTE>
+※レコードサイズ = 50 で測定<BR>
+　→総計2500件のデータの送受信となる</BLOCKQUOTE>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TH bgcolor="#ffff00">�ďo��</TH>
-      <TH bgcolor="#ffff00">1�������菈������</TH>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
     </TR>
     <TR>
       <TD align="right">1</TD>
-      <TD align="left">�v���s�\ (<STRONG><FONT color="#ff00ff">OutOfMemoryError�G���[���������Ă��܂��A�v���ł��܂���</FONT></STRONG>)<BR>
+      <TD align="left">計測不能 (<STRONG><FONT color="#ff00ff">OutOfMemoryErrorエラーが発生してしまい、計測できません</FONT></STRONG>)<BR>
       org.xml.sax.SAXParseException: XML document structures must start and end
-      within the same entity. ���������܂��B<BR>
-      �����x��r�����ɏI�n����͂��������̂ł����A10000�����x�Ń������s���G���[���������Ă��܂����Ƃ��������܂����B<BR>
-      �����߂ă���������ʂ𒲂ׂ鎞�Ԃ͂Ȃ��̂� ���̂�����͊������܂��B<BR>
-      �@JavaVM�̃f�t�H���g�l�œ��삳���܂����B�^�X�N�}�l�[�W����ł� 96MB���x�̂�����̂悤�Ɍ����܂����B</TD>
+      within the same entity. が発生します。<BR>
+      →速度比較だけに終始するはずだったのですが、10000件程度でメモリ不足エラーが発生してしまうことが判明しました。<BR>
+      →つきつめてメモリ消費量を調べる時間はないので そのあたりは割愛します。<BR>
+      　JavaVMのデフォルト値で動作させました。タスクマネージャ上では 96MB程度のあたりのように見えました。</TD>
     </TR>
   </TBODY>
 </TABLE>
-�����R�[�h�T�C�Y = 100 �ő���<BR>
-�@�����v10000���̃f�[�^��z�肵�Ă����B</BLOCKQUOTE>
-<P>Axis 1.2.1 �̎�����ł̎�_���͂�����ƕ�����܂����B�����̂����ł̃������������ɒ[�Ɉ�������̂ł��B���̓_�������� �����̕��X���u�d���v�ƌ����Ă����̂ł��ˁc�B</P>
-<P>���̌��ʂ��󂯂āA�����_�ł� Apache Axis �̗̍p�����S�ɒf�O���܂��� (T_T)<BR>
-Java�ɂ����� SOAP�����y����ɂ́A�������̂Ƃ���̎����̎��s���x�Ɋւ���u���[�N�X���[���K�v�Ȃ̂ł��傤�ˁc�B���̎�����m��A���\�V���b�N���󂯂܂����B</P>
-<P>�c�����ŉ䖝�����Ȃ��ƁA�A�A�䖝����邢�� �I�[�v���\�[�X��SOAP�����Ƃ������n�߂����Ȏ����������ɑ��݂���̂� �͂�����ƔF���ł��܂��B�t����SOAP
-API���T�|�[�g���Ȃ��Ă��ǂ�����A�����������Ɠ��삷�� �~�jSOAP������ ���ꂩ�I�[�v���\�[�X�ō��΂悢�����Ȃ̂ł�����ǂ��ˁc<BR>
-# ���F���ɃI�[�v���\�[�X��SOAP���������������ɑ��݂��Ă��邱�Ƃ�m���Ă��܂��B������ �Ⴆ�� ActiveSOAP�̃z�[���y�[�W�������̂ł����A���܂������̎�Ƃ͈قȂ镵�͋C�̎d�l�������̂ł��B</P>
+※レコードサイズ = 100 で測定<BR>
+　→総計10000件のデータを想定していた。</BLOCKQUOTE>
+<P>Axis 1.2.1 の実装上での弱点がはっきりと分かりました。処理のうえでのメモリ効率が極端に悪すぎるのです。その点をさして 多くの方々が「重い」と言われていたのですね…。</P>
+<P>この結果を受けて、現時点での Apache Axis の採用を完全に断念しました (T_T)<BR>
+Javaにおいて SOAPが普及するには、根っこのところの実装の実行速度に関するブレークスルーが必要なのでしょうね…。この事実を知り、結構ショックを受けました。</P>
+<P>…ここで我慢をしないと、、、我慢がゆるいと オープンソースのSOAP実装とかを作り始めそうな自分が未来に存在するのが はっきりと認識できます。フルでSOAP
+APIをサポートしなくても良いから、さくさくっと動作する ミニSOAP実装を だれかオープンソースで作ればよいだけなのですけれどもね…<BR>
+# 注：既にオープンソースのSOAP実装がいくつも世に存在していることを知っています。しかし 例えば ActiveSOAPのホームページを見たのですが、いまいち私の趣味とは異なる雰囲気の仕様だったのです。</P>
 <HR>
-<P><FONT color="#ff0000">2005.10.31�ǋL</FONT> �ǎ҂̕�����̃c�b�R�~</P>
-<P><CITE>Subject: Apache Axis�ł̔z��̑���M�Ǝ��ԁE�������̖��ɂ���<BR>
-�ɉ�l<BR>
-�͂��߂܂��āA���R�Ɛ\���܂��B<BR>
-�悭���L��q�������Ē����Ă���܂��B</CITE></P>
-<P><CITE>2005/08/01�̓��L�uJava:Apache Axis:�N���X�̔z��𑗎�M�������E�E�E�v��q�����A���[���������肷�邱�Ƃɂ��܂����B</CITE></P>
-<P><CITE>�����Ɩ���Apache Axis(1.2)�𗘗p���Ă���̂ł����A��L���L�Ɠ��l�̖��ɑ������A�����Ă��܂��B<BR>
-�����g�͂܂������Ă��Ȃ��̂ł����A�ȉ��̃y�[�W�ɋL�q�̂���uSAX�X�g���[�~���O�v��p���邱�ƂŁA�����ł��Ȃ����̂��ƍl���Ă��܂��B</CITE></P>
+<P><FONT color="#ff0000">2005.10.31追記</FONT> 読者の方からのツッコミ</P>
+<P><CITE>Subject: Apache Axisでの配列の送受信と時間・メモリの問題について<BR>
+伊賀様<BR>
+はじめまして、畠山と申します。<BR>
+よく日記を拝見させて頂いております。</CITE></P>
+<P><CITE>2005/08/01の日記「Java:Apache Axis:クラスの配列を送受信したい・・・」を拝見し、メールをお送りすることにしました。</CITE></P>
+<P><CITE>私も業務でApache Axis(1.2)を利用しているのですが、上記日記と同様の問題に遭遇し、困っています。<BR>
+私自身はまだ試していないのですが、以下のページに記述のある「SAXストリーミング」を用いることで、解決できないものかと考えています。</CITE></P>
 
 <UL>
   <LI><CITE><A href="http://wiki.apache.org/ws/ja/axis/StreamingService">http://wiki.apache.org/ws/ja/axis/StreamingService</A></CITE>
 </UL>
-<P><CITE>�W���ł�ON�ɂȂ��Ă��Ȃ��I�v�V�����Ȃ̂ŁA�Ɩ��㗘�p���Ă悢���̂��́A�������ƍl���Ă���̂ł����D�D�D</CITE></P>
-<P><CITE>���������A���݃����[�X����Ă���Axis 1.2.1��1.3�ŃT�|�[�g����Ă��邩�����������ł��B<BR>
-�B���ȏ��΂���Ő\���󂠂�܂���B<BR>
-�܂��A�����Ⴂ�ȓ��e�������Ă����ꍇ���A�\���󂠂�܂���B</CITE></P>
-<P><CITE>�ɉꂳ��ɂƂ��āA���������ɗ��Ă΍K���ł��B<BR>
-������y�����q�������Ē��������Ǝv���܂��B</CITE></P>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�M�d�ȏ��A���肪�Ƃ��������܂��B<BR>
-���� ���̃I�v�V�����ɂ��Ē������Ă݂܂��B</P>
+<P><CITE>標準ではONになっていないオプションなので、業務上利用してよいものかは、微妙かと考えているのですが．．．</CITE></P>
+<P><CITE>そもそも、現在リリースされているAxis 1.2.1や1.3でサポートされているかさえ未調査です。<BR>
+曖昧な情報ばかりで申し訳ありません。<BR>
+また、見当違いな内容を書いていた場合も、申し訳ありません。</CITE></P>
+<P><CITE>伊賀さんにとって、何かお役に立てば幸いです。<BR>
+今後も楽しく拝見させて頂きたいと思います。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+貴重な情報、ありがとうございます。<BR>
+私も このオプションについて調査してみます。</P>
 <HR>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050728.html">2005/07/28 ���L: Java RMI �̌��BRMI�͑��������c , Java Servlet�̎d�g�ݏ�̃t�b�g�v�����g</A>
-  <LI><A href="ig050727.html">2005/07/27 ���L: ���b�`�N���C�A���g����̃t���[�����[�N�̂���ׂ��p�Ƃ́H ���l�@���c</A>
-  <LI><A href="../2006/ig060515.html">2006/05/15 ���L: Apache Axis2 1.0 �����J�n</A>
-  <LI><A href="../2006/ig060428.html">2006/04/28 ���L: blancoValueObject��Eclipse�v���O�C���ł������[�X , Apache Axis 1.4</A>
+  <LI><A href="ig050728.html">2005/07/28 日記: Java RMI 体験。RMIは速かった… , Java Servletの仕組み上のフットプリント</A>
+  <LI><A href="ig050727.html">2005/07/27 日記: リッチクライアント時代のフレームワークのあるべき姿とは？ を考察中…</A>
+  <LI><A href="../2006/ig060515.html">2006/05/15 日記: Apache Axis2 1.0 調査開始</A>
+  <LI><A href="../2006/ig060428.html">2006/04/28 日記: blancoValueObjectのEclipseプラグイン版をリリース , Apache Axis 1.4</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�y��SOAP�� ���͔��ɕK�v�Ƃ����̂������c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>軽量SOAPは 実は非常に必要とされるのかしらん…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�d�l���ɂ߂Č��肵�Ď������ꂽ SOAP�́A���͔��ɕK�v�Ƃ���Ă���̂����m��܂���B<BR>
-�ӂƁu����SOAP (USOAP)�v �Ƃ�����Ƃ�̍s�������Ƃ��v���o���܂����B</P>
+<P>仕様を極めて限定して実装された SOAPは、じつは非常に必要とされているのかも知れません。<BR>
+ふと「うそSOAP (USOAP)」 という作業を昔行ったことを思い出しました。</P>
 <UL>
-  <LI><A href="../2003/ig030225.html">2003/02/25 ���L: ����SOAP</A>
+  <LI><A href="../2003/ig030225.html">2003/02/25 日記: うそSOAP</A>
 </UL>
-<P>�ق�Ƃ��Ɍ���I�Ȏd�l�������� �y��SOAP����������΁A���͂��Ȃ�������̂����m��܂���B�uPOJO�x�[�X�̌y��SOAP�v���Č����� �������悭�����������ł��B(StAX�ł͂Ȃ����āA�����܂ł�POJO�x�[�X������)<BR>
-�����œ�Փx�̍����_�́A�����Ɏd�l�����肵�����Ď���������������̂��A�Ƃ��������������Ǝv���܂��B�Ⴆ�΁AWSDL��H���@�\�͏ȗ����āA�T�[�o���Java�̃N���X����͂�
-SOAP�̃T�[�o�E�N���C�A���g�̃X�^�u�����WSDL�����������A�Ȃǂ��l�����܂��B �c�t������A�A�AWSDL��H�����������͊y�����m��܂���ˁB�ނނނ��A�Ԃ�����āA�Ȃɂ����͂̏o�͂Ƃ��āAWSDL�����
-Java�\�[�X�R�[�h����������������c�B���̑I�����y�ʉ��̂��߂̂ЂƂ̏d�v�ȃ|�C���g�ɂȂ肻���ł��ˁB</P>
+<P>ほんとうに限定的な仕様をもって 軽量SOAPを実装すれば、じつはかなり嬉しいのかも知れません。「POJOベースの軽量SOAP」って言うと かっこよく聞こえそうです。(StAXではなくって、あくまでもPOJOベースかもっ)<BR>
+ここで難易度の高い点は、いかに仕様を限定しきって実装を高速化するのか、というさじ加減だと思います。例えば、WSDLを食う機能は省略して、サーバ上のJavaのクラスを入力に
+SOAPのサーバ・クライアントのスタブおよびWSDLを自動生成、などが考えられます。 …逆かしら、、、WSDLを食う方が実装は楽かも知れませんね。むむむっ、間を取って、なにか入力の出力として、WSDLおよび
+Javaソースコードを自動生成かしら…。その選択が軽量化のためのひとつの重要なポイントになりそうですね。</P>
 <UL>
   <LI>SOAP Specifications<BR>
   <A HREF="http://www.w3.org/TR/soap/">http://www.w3.org/TR/soap/</A><BR>
-  SOAP�܂���Specification���W�܂��ď�����Ă��܂��B
+  SOAPまわりのSpecificationが集まって書かれています。
   <LI>Simple Object Access Protocol (SOAP) 1.1<BR>
   <A HREF="http://www.w3.org/TR/2000/NOTE-SOAP-20000508/">http://www.w3.org/TR/2000/NOTE-SOAP-20000508/</A><BR>
-  ����؂��� SOAP 1.1�x�[�X�ɂ��������l���_�����m��܂���B
+  割り切って SOAP 1.1ベースによる実装も考慮点かも知れません。
 </UL>
-<P>���b�`�N���C�A���g�Ƃ����ϓ_����́ASOAP�T�[�o���̎��s�������܂��͓K�������邾���A���ꂾ���� ���Ȃ�̑O�i��������悤�ɍl���܂��B</P>
-<P>�c�����A���ԂȂ��A���ԂȂ��B������ SOAP�̎������s���C�����ɂȂ肩�����Ă��܂��� (���)</P>
-<P><FONT color="#ff0000">2005.08.02����k</FONT> ����ς�䖝�����Ɏ��������ق����ǂ��悤�ȋC�����Ă��܂����B�Ƃ肠����<A href="ig050802.html">���b�N�A�b�v�����삵�ď����W��</A>�ł��B</P>
+<P>リッチクライアントという観点からは、SOAPサーバ側の実行効率をまずは適正化するだけ、それだけで かなりの前進が得られるように考えます。</P>
+<P>…ああ、あぶない、あぶない。自分で SOAPの実装を行う気持ちになりかかっていました (苦笑)</P>
+<P><FONT color="#ff0000">2005.08.02後日談</FONT> やっぱり我慢せずに実装したほうが良いような気がしてきました。とりあえず<A href="ig050802.html">モックアップを試作して情報収集中</A>です。</P>
 
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���̍��ƉE�̌Ҋ֐߂��ɂ��c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>左の腰と右の股関節が痛い…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����A�A�H�ɂĎq�����Q�����Ă��܂����̂ŁA���������ĉƂ܂ŋA��܂����B���ꂪ�������Ă��A���ƌҊ֐߂� ������ƒɂ��ł��B</P>
+<P>昨日、帰路にて子供が寝入ってしまったので、だっこして家まで帰りました。これが原因してか、腰と股関節が ちょっと痛いです。</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�n��̂��߂̃A�C�f�A���z�p via <A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>����<BR>
+  <LI>創作のためのアイデア発想術 via <A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さん<BR>
   <A HREF="http://www.asahi-net.or.jp/%7EUL1F-HK/idea.html">http://www.asahi-net.or.jp/%7EUL1F-HK/idea.html</A><BR>
-  ��ϋ����[���ȂȂߓǂ݂����Ă��������܂����B��r�I�����̓��ӂł���|�C���g������܂����B�ǂ�ŋC�������̂ł����A���͓��L�������Ƃ������ƓI�Ȏ��M���s���Ƃ����A����������̗͂���̊�����厖�ɂ��Ă��܂��B�R�����Ƃ��G�b�Z�C�Ƃ��̕��̂��D���ł�����ˁB(����ŏ��Ђ̃T�C�Y���肪����ƁA���낵���قǌ����������A�����ĕҏW�җl�Ǝ��͋�J����̂ł�)�A�A�A�����������͉E�]�̃q�g�Ȃ̂ł��傤��
-  (���)
-  <LI>������: �k�Ў��A�s�S����Ƃ܂ŕ����ċA�邽�߂̒n�}�w�k�Ў��A��x���}�b�v�@��s���Łx����<BR>
+  大変興味深くななめ読みさせていただきました。比較的多くの同意できるポイントがありました。読んで気がついたのですが、私は日記を書くときも商業的な執筆を行うときも、いずれも文章の流れの感じを大事にしています。コラムとかエッセイとかの文体が好きですからね。(それで書籍のサイズを手がけると、恐ろしいほど効率が悪く、そして編集者様と私は苦労するのです)、、、そもそも私は右脳のヒトなのでしょうね
+  (苦笑)
+  <LI>昭文社: 震災時、都心から家まで歩いて帰るための地図『震災時帰宅支援マップ　首都圏版』発売<BR>
   <A HREF="http://www.mapple.co.jp/ir/ir_shinsai050725.html">http://www.mapple.co.jp/ir/ir_shinsai050725.html</A><BR>
-  ������ ���̖{���~�����Ǝv���܂����B
-  <LI>MYCOM: ApacheCon Europe 2005 - �I�[�v���\�[�X�̕]���E���p�A��{�͏��p�\�t�g�Ɠ���<BR>
+  純粋に この本が欲しいと思いました。
+  <LI>MYCOM: ApacheCon Europe 2005 - オープンソースの評価・利用、基本は商用ソフトと同じ<BR>
   <A HREF="http://pcweb.mycom.co.jp/articles/2005/07/31/apc2/">http://pcweb.mycom.co.jp/articles/2005/07/31/apc2/</A><BR>
-  �I�[�v���\�[�X�Ɋւ��鋻���[���L���B
+  オープンソースに関する興味深い記事。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

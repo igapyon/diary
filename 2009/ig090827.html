@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/08/27 ���L: Windows NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind ��
-mod_auth_sspi �Ƃ��� 2 �̃��W���[��</TITLE>
-<META name="DESCRIPTION" content="Microsoft Windows �� NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind �� mod_auth_sspi �Ƃ��� 2 �̃��W���[��������܂��BNTLM �� Active Directory �ɃA�N�Z�X���邽�߂� API �̂ЂƂł��BLDAP �ƈقȂ� NTLM �𗘗p����� Windows �ւ̃��O�C������������ �V���O���T�C���I�� (SSO) �������ł��܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,mod_auth_ntlm_winbind,mod_auth_sspi,AD,Active Directory,SSO">
+<TITLE>2009/08/27 日記: Windows NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と
+mod_auth_sspi という 2 つのモジュール</TITLE>
+<META name="DESCRIPTION" content="Microsoft Windows の NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と mod_auth_sspi という 2 つのモジュールがあります。NTLM は Active Directory にアクセスするための API のひとつです。LDAP と異なり NTLM を利用すると Windows へのログインをもちいた シングルサインオン (SSO) を実現できます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,mod_auth_ntlm_winbind,mod_auth_sspi,AD,Active Directory,SSO">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -17,13 +17,13 @@ mod_auth_sspi �Ƃ��� 2 �̃��W���[��</TITLE>
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/08/27 ���L: Windows NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind ��
-mod_auth_sspi �Ƃ��� 2 �̃��W���[��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,mod_auth_ntlm_winbind,mod_auth_sspi,AD,Active Directory,SSO] Microsoft Windows �� NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind �� mod_auth_sspi �Ƃ��� 2 �̃��W���[��������܂��BNTLM �� Active Directory �ɃA�N�Z�X���邽�߂� API �̂ЂƂł��BLDAP �ƈقȂ� NTLM �𗘗p����� Windows �ւ̃��O�C������������ �V���O���T�C���I�� (SSO) �������ł��܂��B</P>
+    <H2>2009/08/27 日記: Windows NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と
+mod_auth_sspi という 2 つのモジュール</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,mod_auth_ntlm_winbind,mod_auth_sspi,AD,Active Directory,SSO] Microsoft Windows の NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と mod_auth_sspi という 2 つのモジュールがあります。NTLM は Active Directory にアクセスするための API のひとつです。LDAP と異なり NTLM を利用すると Windows へのログインをもちいた シングルサインオン (SSO) を実現できます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@ mod_auth_sspi �Ƃ��� 2 �̃��W���[��</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@ mod_auth_sspi �Ƃ��� 2 �̃��W���[��</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,40 +62,40 @@ mod_auth_sspi �Ƃ��� 2 �̃��W���[��</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind �� mod_auth_sspi �Ƃ���
-      2 �̃��W���[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と mod_auth_sspi という
+      2 つのモジュール</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft Windows �� NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind �� mod_auth_sspi
-�Ƃ��� 2 �̃��W���[��������܂��BNTLM �� Active Directory �ɃA�N�Z�X���邽�߂� API �̂ЂƂł��B</P>
-<P>NTLM ��p����ƁAWindows �ւ̃��O�C������������ �V���O���T�C���I�� (SSO) �������ł��܂��B����� LDAP ��p�����F�؂ł͎����ł��Ȃ����Ƃł��B</P>
-<P>Windows ��� Active Directory (AD) �Ǝ����葁���A�g�����邽�߂ɂ� mod_auth_sspi �̗��p���֗��ł��B</P>
+<P>Microsoft Windows の NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と mod_auth_sspi
+という 2 つのモジュールがあります。NTLM は Active Directory にアクセスするための API のひとつです。</P>
+<P>NTLM を用いると、Windows へのログインをもちいた シングルサインオン (SSO) を実現できます。これは LDAP を用いた認証では実現できないことです。</P>
+<P>Windows 上で Active Directory (AD) と手っ取り早く連携させるためには mod_auth_sspi の利用が便利です。</P>
 <UL>
-  <LI><A href="../2008/ig080128.html">2008/01/28 ���L: Microsoft �Z�L�����e�B �T�|�[�g �v���o�C�_ �C���^�[�t�F�C�X / Microsoft Security
+  <LI><A href="../2008/ig080128.html">2008/01/28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security
   Support Providers Interface (SSPI)</A>
 </UL>
-<P>����� Linux ���� Active Directory (AD) �ƘA��������ɂ� mod_auth_ntlm_winbind �̗��p���Ó��ł���悤�ł��B</P>
+<P>一方で Linux から Active Directory (AD) と連動させるには mod_auth_ntlm_winbind の利用が妥当であるようです。</P>
 <UL>
-  <LI>ITPro: [Samba TIPS] Windows �h���C����Apache Web�T�[�o�[�Ԃł̃V���O���T�C���I�������菇<BR>
+  <LI>ITPro: [Samba TIPS] Windows ドメインとApache Webサーバー間でのシングルサインオン実現手順<BR>
   <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20080124/292009/">http://itpro.nikkeibp.co.jp/article/COLUMN/20080124/292009/</A>
 </UL>
-<P>mod_auth_ntlm_winbind �𗘗p����ƁASamba ���������킹�� Windows �h���C���Ƃ̋�������@�\�����p���� Active
-Directory �Ƃ̃V���O���E�T�C���I���������ł���悤�ł��B�������Amod_auth_sspi �ƈႢ�A�K�v�ȏ����ʂ͌��\���߂ł���悤�Ɋ����܂����B</P>
-<P>������ɂ��Ă� NTLM API ���o�R���� Windows ���O�C���Ƃ̃V���O���E�T�C���I�� (SSO) �������ł���̂́A�ƂĂ��d�v�ȋZ�p�ł���悤�Ɏv���܂����B<BR>
-����ŁA�Ⴆ�� mod_auth_sspi �́A�ӊO�ȂقǂɁA���{�̈�� IT �֘A�Z�p�҂ɂ͒m���Ă��Ȃ��̂�����ł���悤�ł��B����́A���������Ȃ����Ƃ��Ǝv���܂����B</P>
-<P>�֘A���郂�W���[���Ƃ��Ĉȉ��̂��̂�����܂��B����m�F�͎��{���Ă��܂���B</P>
+<P>mod_auth_ntlm_winbind を利用すると、Samba が持ち合わせる Windows ドメインとの協調動作機能を活用して Active
+Directory とのシングル・サインオンが実現できるようです。ただし、mod_auth_sspi と違い、必要な準備量は結構多めであるように感じました。</P>
+<P>いずれにしても NTLM API を経由して Windows ログインとのシングル・サインオン (SSO) が実現できるのは、とても重要な技術であるように思いました。<BR>
+一方で、例えば mod_auth_sspi は、意外なほどに、日本の一般 IT 関連技術者には知られていないのが現状であるようです。これは、もったいないことだと思いました。</P>
+<P>関連するモジュールとして以下のものもあります。動作確認は実施していません。</P>
 <UL>
   <LI>mod_auth_kerb
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2008/ig080128.html">2008/01/28 ���L: Microsoft �Z�L�����e�B �T�|�[�g �v���o�C�_ �C���^�[�t�F�C�X / Microsoft Security
+  <LI><A href="../2008/ig080128.html">2008/01/28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security
   Support Providers Interface (SSPI)</A>
-  <LI><A href="../2008/ig080125.html">2008/01/25 ���L: LDAP, NTLM, ������ SSPI �ɂ��F��, �����͓��{�������A�� �����x�����</A>
+  <LI><A href="../2008/ig080125.html">2008/01/25 日記: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

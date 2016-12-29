@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2003/10/07 ���L: NTFS�̈�̃A���P�[�V�������j�b�g�T�C�Y(�N���X�^�T�C�Y)�̂���ׂ��ݒ�l�Ƃ́H</TITLE>
-<META name="DESCRIPTION" content="���j���ɖ��ʂ̑�ɍs���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2003/10/07 日記: NTFS領域のアロケーションユニットサイズ(クラスタサイズ)のあるべき設定値とは？</TITLE>
+<META name="DESCRIPTION" content="日曜日に箕面の滝に行きました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:47+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2003/10/07 ���L: NTFS�̈�̃A���P�[�V�������j�b�g�T�C�Y(�N���X�^�T�C�Y)�̂���ׂ��ݒ�l�Ƃ́H</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] ���j���ɖ��ʂ̑�ɍs���܂����B</P>
+    <H2>2003/10/07 日記: NTFS領域のアロケーションユニットサイズ(クラスタサイズ)のあるべき設定値とは？</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 日曜日に箕面の滝に行きました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,75 +58,75 @@
 <TABLE>
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�r�f�I�^��f�[�^�ۑ��p120GB HDD��NTFS�� ����ׂ��A���P�[�V�������j�b�g�T�C�Y(�N���X�^�T�C�Y)�ݒ�Ƃ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ビデオ録画データ保存用120GB HDDのNTFSの あるべきアロケーションユニットサイズ(クラスタサイズ)設定とは</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ŋ� ���̃}�C�u�[���� �e���r�̃r�f�I�^��ł��B�r�f�I�^����� �^��f�[�^��
-�C���� �M�K�o�C�g���ɂȂ�܂��B�����ŋC���t�����̂ł����A�r�f�I�^��p�p�[�e�B�V������
-NTFS �A���P�[�V�������j�b�g�T�C�Y���āA�������� �����炮�炢���Ó��Ȃ̂ł��傤�B�Ⴆ��
-120GB��HDD�ɂ��� NTFS�f�t�H���g��HDD�A���P�[�V�������j�b�g�T�C�Y��4096�o�C�g�Ȃ̂ł����A������ő�T�C�Y�ł���
-64K�o�C�g�ɕύX������ �ǂ̂悤�ȃ����b�g�ƃf�����b�g������̂ł��傤�H</P>
-<P>�Ƃ����̂� ����f�[�^�t�@�C���� NTFS�Ńt�H�[�}�b�g���ꂽHDD�Ɋi�[���Ă�����
-�t�@�C���T�C�Y���������Ƒ����̃f�B�X�N�e�ʂ������Ă���悤�Ȃ̂ł��B�����
-�c��HDD�e�ʂ��m�F����� �����ɕ\��܂��B�v���� ������t�@�C���̏ꍇ �A���P�[�V�������j�b�g�̈ʒu��񂻂̂��̂ł���A���\�Ȍ��ɂȂ�A���ꂪHDD�e�ʂ�����Ă���悤�Ȃ̂ł��B�܂��A�t���O�����e�[�V�����̖ʂ�����傫���A���P�[�V�������j�b�g�T�C�Y�ł�������L���ł���悤�Ɏv���܂��B</P>
-<P>�������� �M�K�o�C�g���̋���t�@�C���i�[���l�����ꍇ�A�Ⴆ�� 1GByte�̃t�@�C����NTFS�Ɋi�[����ꍇ�A�P�Ȃ�f�[�^�̈�ȊO��
-�ǂ̒��x�̃��[�g�ŗ̈�������̂ł��傤���H �������� ���̓_���킩���Ă��Ȃ��A�Ƃ������Ƃ��킩���Ă��܂����B</P>
-<P>��ÂɂȂ��čl������A��������� �r�f�I�^��f�[�^�ɂƂǂ܂炸 �����[�V���i���f�[�^�x�[�X�̃f�[�^�̈���i�[����G���A�ɂ����Ă�
-���l�Ȕ��f���K�v�ł���悤�ɁA�v���Ă��܂����B���܂ŋC�ɂ������Ƃ��Ȃ������ł��B�Ƃ͂����A��{�I��
-�Œ�T�C�Y�ŃA���P�[�V���������� ����قǂ͉e�������̂�����H ����Ƃ�����̂�����H</P>
-<P>���̎�̗L���҂̈ӌ������҂����܂��B�w���̃z�[���y�[�W������x�Ȃǂł��n�j���劽�}�ł��B</P>
-<P><FONT color="#ff0000">10/08�ǋL</FONT> ���L�̂悤�ȃy�[�W�������܂���</P>
+<P>最近 私のマイブームは テレビのビデオ録画です。ビデオ録画って 録画データが
+気安く ギガバイト級になります。そこで気が付いたのですが、ビデオ録画用パーティションの
+NTFS アロケーションユニットサイズって、いったい いくらぐらいが妥当なのでしょう。例えば
+120GBのHDDについて NTFSデフォルトのHDDアロケーションユニットサイズは4096バイトなのですが、これを最大サイズである
+64Kバイトに変更したら どのようなメリットとデメリットがあるのでしょう？</P>
+<P>というのも 巨大データファイルを NTFSでフォーマットされたHDDに格納していくと
+ファイルサイズよりもずっと多くのディスク容量が消費されているようなのです。これは
+残りHDD容量を確認すると 顕著に表れます。思うに 超巨大ファイルの場合 アロケーションユニットの位置情報そのものですら、結構な個数になり、これがHDD容量を消費しているようなのです。また、フラグメンテーションの面からも大きいアロケーションユニットサイズである方が有利であるように思えます。</P>
+<P>いったい ギガバイト級の巨大ファイル格納を考えた場合、例えば 1GByteのファイルをNTFSに格納する場合、単なるデータ領域以外に
+どの程度のレートで領域を消費するのでしょうか？ そもそも その点がわかっていない、ということがわかってきました。</P>
+<P>冷静になって考えたら、何もこれは ビデオ録画データにとどまらず リレーショナルデータベースのデータ領域を格納するエリアにおいても
+同様な判断が必要であるように、思えてきました。今まで気にしたことがなかったです。とはいえ、基本的に
+固定サイズでアロケーションしたら それほどは影響無いのかしら？ それともあるのかしら？</P>
+<P>この手の有識者の意見をお待ちします。『このホームページを見よ』などでもＯＫ＆大歓迎です。</P>
+<P><FONT color="#ff0000">10/08追記</FONT> 下記のようなページを見つけました</P>
 <UL>
   <LI>WindowsXP/2000 Magnum-Memo<BR>
   <A HREF="http://www.hey.ne.jp/~magnum/Super_Pai/Magnum-Memo.htm">http://www.hey.ne.jp/~magnum/Super_Pai/Magnum-Memo.htm</A>
 </UL>
-<P>�������牺�L�̂悤�ȃy�[�W���������Ă�</P>
+<P>ここから下記のようなページを引き当てる</P>
 <UL>
   <LI>Default Cluster Size for FAT and NTFS<BR>
   [replace-herf:http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q140/3/65.asp&amp;NoWebContent=1]<BR>
-  NTFS���� ������f�B�X�N�T�C�Y���傫���Ă��f�t�H���g�̃N���X�^�T�C�Y��4096�o�C�g�ɐݒ肳���̂ł��ˁB����̓h���C�u���k�Ɗ֌W������̂������ł��B��
-  �h���C�u���k�Ɗ֌W�̂Ȃ�����NT3.50�ȑO�� �Ⴆ��32GB�𒴂���h���C�u�̏ꍇ
-  �N���X�^�T�C�Y��64KB���K�p�����̂������ȁB�A�A�A�Ƃ������Ƃ� ���̎�������ǂ݉����ɁA�h���C�u���k���֍l�����Ȃ����
-  ����HDD�� �A���P�[�V�������j�b�g�T�C�Y��64KB��ݒ肵�������悳�����ł���悤�ɓǂݎ��܂��B
+  NTFSだと いくらディスクサイズが大きくてもデフォルトのクラスタサイズは4096バイトに設定されるのですね。これはドライブ圧縮と関係があるのだそうです。で
+  ドライブ圧縮と関係のなかったNT3.50以前は 例えば32GBを超えるドライブの場合
+  クラスタサイズは64KBが適用されるのだそうな。、、、ということは この資料から読み解くに、ドライブ圧縮さへ考慮しなければ
+  巨大HDDは アロケーションユニットサイズは64KBを設定した方がよさそうであるように読み取れます。
 </UL>
-<P>������ ����o�[�W������ARCserve�ł� 4K�𒴂���A���P�[�V�������j�b�g�T�C�Y���T�|�[�g���Ȃ��A�Ȃǂ̏�������̂ŁA�P�ɑ傫�������������ǂ��Ă��肪�o���Ȃ��󋵂�����̂����m��܂���B</P>
-<P>��� Google�œK���Ɍ���������A�A���P�[�V�������j�b�g�T�C�Y�Ƃ���16K�Ƃ�������������ق猩���B�ꂵ�܂����BNTFS�̃f�t�H���g�T�C�Y��4096�o�C�g������
-�����4�{�Ƃ������ƂɂȂ�܂��B���Ȃ��Ƃ� �P�� �傫��HDD�̃A���P�[�V�������j�b�g�T�C�Y�Ƃ���
-4096�Ƃ����̂� ��͂� �����������ł��傤���˂��B</P>
+<P>ただし あるバージョンのARCserveでは 4Kを超えるアロケーションユニットサイズをサポートしない、などの情報もあるので、単に大きい方が効率が良くても手が出せない状況もあるのかも知れません。</P>
+<P>一方 Googleで適当に検索したら、アロケーションユニットサイズとして16Kという数字がちらほら見え隠れしました。NTFSのデフォルトサイズが4096バイトだから
+それの4倍ということになります。少なくとも 単に 大きなHDDのアロケーションユニットサイズとして
+4096というのは やはり 小さすぎるんでしょうかねぇ。</P>
 <TABLE>
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���`�f�摺</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>太秦映画村</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��T�̓y�j�� �q�ǂ��ƈꏏ�� ���`�f�摺�ɍs���܂����B�q�ǂ��͌��\�������Ă��܂����B(����
-���ʃ��C�_�[ vs �{�{���� �V���[�͕|�������͗l)</P>
+<P>先週の土曜日 子どもと一緒に 太秦映画村に行きました。子どもは結構満足していました。(ただ
+仮面ライダー vs 宮本武蔵 ショーは怖かった模様)</P>
 <TABLE>
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���ʂ̑�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>箕面の滝</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��̓��j�� ���ʂ̑�ɍs���܂����B�q�ǂ������ƈꏏ�� ������������܂����B�a���N��
-�͂��߂� ���ʂ̑ꉝ�������͂ŕ����Ă��܂����B�傫���Ȃ������̂ł��B</P>
+<P>先の日曜日 箕面の滝に行きました。子どもたちと一緒に たくさん歩きました。和音君は
+はじめて 箕面の滝往復を自力で歩いていました。大きくなったものです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�͗l�ւ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>模様替え</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��̓��j�� ����p�\�R���̔z�u�͗l�ւ����܂����B�Ȃ񂾂��V�����p�\�R���𔃂����̂Ɠ����̋C���]�����o���܂����B<BR>
-�Ƃ��������i����|�������邱�Ƃ͑�؂��ƁA���̎������͎v���܂����B</P>
+<P>先の日曜日 自宅パソコンの配置模様替えしました。なんだか新しいパソコンを買ったのと同等の気分転換が出来ました。<BR>
+というか普段から掃除をすることは大切だと、その時だけは思いました。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig031007.src.html' , result='ig031007.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig031007-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml">�T���CPDF�쐬�@�\�������9800�~��MS Office�݊��\�t�g���o�[�W�����A�b�v</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>MS Office�Ƃ̌݊����̐����ɑ�ϋ���������܂��BPDF�쐬�@�\�̕W���������Ă����̂͂ƂĂ����͓I�ł��˂��B<LI><A HREF="http://www.zdnet.co.jp/news/0310/07/njbt_01.html">�\�j�[�uPSX�v��7��9800�~����</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0310/07/njbt_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>PS2��HDD��DVD���R�[�_�[�@�\��t����160G�o�C�gHDD��\79,800.-�Ȃ̂������ȁB�S�[�X�g���_�N�V���������ڂ��Ƃ��B����͔��ꂻ���ȏ��i�ł��c<LI><A HREF="http://www.iodata.jp/lib/product/g/911_winxp.htm">I-O DATA: GV-1394TV DigitalTV Recorder 1.12 (2003/10/06) �����[�X</A> <FONT size="-2"><A target="_blank" HREF="http://www.iodata.jp/lib/product/g/911_winxp.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�����K�p������A�Ȃ�ƁA�Q�ȏ�̗\�񂪐���ɗ\��^��ł���悤�ɂȂ�͗l�ł��B����͉���I�B(���܂ł̃o�[�W�����ł� ���̊��ł� �P�ȏ�̗\��^�悪����Ɏ��{�ł��܂���ł����I�I�I) �A�C�I�[�f�[�^���u�����v�Ȃ�Ė󂷐l�����܂��B���� GV-1394TV �𗘗p����܂ł� ����ȂɃA�C�I�[�f�[�^�̈�ۂ͈�������܂���ł����c�BGV-1394TV�𗘗p���� �A�C�I�[�f�[�^�̈�ۂ͂���ǂ��ቺ���܂����B�����̗��̂����Ȃ������Ƃ��ł��܂����B�ł�����̃��r�W�����A�b�v�� �ق�̏�����ۂ����P���܂����B�Ȃ�Ƃ��̃��r�W�����A�b�v��K�p������ �Q�ȏ�̗\��^�悪����ɏI������悤�Ɏv���Ă���̂ł����́B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0310/01/epn16.html">���{�R���s���E�F�A�AJ2EE�A�v���P�[�V�����J�����𔭕\</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0310/01/epn16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�� ����OptimalJ�Ƃ����̂��g���� �p�C���b�g�v���O���� �Ȃ�v���W�F�N�g�ɎQ�悵�Ă��܂��B(����œ����o���� �₽�瑽���̂ł������c)<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm">Linux�̓f�X�N�g�b�v�ɂ����y���邩�H---�^�[�{���i�b�N�X�В��ɕ���</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>3980�~����A�Ƃ������i�ݒ�Ȃ̂������ȁB<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/">�Y�����̎����Ɍ���I�[�v���\�[�X�E�f�X�N�g�b�v�́g�\���h</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>���[���ɂ�Sylpheed�𗘗p����A�Ƃ����̂��ڂ��Ђ��܂����B(�P��Linux�p���[���[�̎嗬���m�肽�������c)<LI><A HREF="http://japan.linux.com/opensource/03/10/02/0955207.shtml">SGI����I�[�v���\�[�X�E�R�~���j�e�B�ւ̌��J����</A> <FONT size="-2"><A target="_blank" HREF="http://japan.linux.com/opensource/03/10/02/0955207.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>SGI��Linux�ɃR���g���r���[�g�����\�[�X�t�@�C���Ɋւ�����J���ȁB�܂� XSF��System V�̈ꕔ�ł͂Ȃ� SGI�Ǝ��̃v���_�N�g�ł���Ƃ��咣���Ă��܂��B����Ⴛ���ł��傤�ˁB<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml">OpenOffice.org���I�[�v���\�[�X�ŃI�t�B�X�E�X�C�[�g�uOpenOffice.org 1.1�v�̍ŏI�ł����J</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>1.1�n�� ���ꂪ�ŏI�łȂ̂������ȁB�_�E�����[�h���Ď����q�}�͖����B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml">�uSCO�������N�Q�Ǝ咣���镔����Linux�����菜�����v�ƕ�SGI</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�L���̃^�C�g���̒ʂ�̓��e�BXFS�Ɋւ��錏�ɂ��Č��y���Ă���ӏ����܂܂��B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593">���傪iMac��I�񂾗��R/�����F�񏕎�ɕ���</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>���̂��������e�̋L���ł��B���ɔ[�����Ă��܂��܂����B<LI><A HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm">.NET�͖{���ɃI�[�v���X�^���_�[�h��</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>�I�[�v���X�^���_�[�h�Ƃ�������ɂ́A�I�[�v���ŃX�^���_�[�h�łȂ��Ƃ����Ȃ��̂ł��傤�ˁB���ɃI�[�v���Ƃ����ʂł� �V���O���x���_�ł͂Ȃ��}���`�x���_�̏󋵂ɂȂ��Ă��Ȃ��� �N���[�Y�h�\�[�X�Ȃ��������ăI�[�v���Ƃ͌�����ł��B�K�� .NET�J�����Ƃ����Ӗ��ł� �{�[�����h����̐��i���܂� ����o�Ă��Ă��܂�����A�ꉞ�y��_������B�ł� ���s���Ƃ����ʂł� �܂� ���� �}�C�N���\�t�g��.NET���s�������y��_�Ǝv���Ă��Ȃ��̂ŁA���̓_ �I�[�v���Ƃ͌�����ł��c�B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig031007-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml">サン，PDF作成機能を備えた9800円のMS Office互換ソフトをバージョンアップ</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031003/1/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>MS Officeとの互換性の水準に大変興味があります。PDF作成機能の標準装備っていうのはとても魅力的ですねっ。<LI><A HREF="http://www.zdnet.co.jp/news/0310/07/njbt_01.html">ソニー「PSX」は7万9800円から</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0310/07/njbt_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>PS2にHDD＆DVDレコーダー機能を付けて160GバイトHDDで\79,800.-なのだそうな。ゴーストリダクションも搭載だとか。これは売れそうな商品です…<LI><A HREF="http://www.iodata.jp/lib/product/g/911_winxp.htm">I-O DATA: GV-1394TV DigitalTV Recorder 1.12 (2003/10/06) リリース</A> <FONT size="-2"><A target="_blank" HREF="http://www.iodata.jp/lib/product/g/911_winxp.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>これを適用したら、なんと、２個以上の予約が正常に予約録画できるようになる模様です。これは画期的。(今までのバージョンでは 私の環境では １個以上の予約録画が正常に実施できませんでした！！！) アイオーデータを「哀王」なんて訳す人がいます。私は GV-1394TV を利用するまでは そんなにアイオーデータの印象は悪くありませんでした…。GV-1394TVを利用して アイオーデータの印象はずんどこ低下しました。哀王の略称もうなずくことができました。でも今回のリビジョンアップで ほんの少し印象が改善しました。なんとこのリビジョンアップを適用したら ２個以上の予約録画が正常に終了するように思えているのですもの。<LI><A HREF="http://www.zdnet.co.jp/enterprise/0310/01/epn16.html">日本コンピュウェア、J2EEアプリケーション開発環境を発表</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0310/01/epn16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>私 このOptimalJというのを使って パイロットプログラム なるプロジェクトに参画しています。(それで東京出張が やたら多いのであった…)<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm">Linuxはデスクトップにも普及するか？---ターボリナックス社長に聞く</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061238,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>3980円から、という価格設定なのだそうな。<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/">産総研の実験に見るオープンソース・デスクトップの“可能性”</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030930/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>メールにはSylpheedを利用する、というのが目をひきました。(単にLinux用メーラーの主流が知りたいだけ…)<LI><A HREF="http://japan.linux.com/opensource/03/10/02/0955207.shtml">SGIからオープンソース・コミュニティへの公開書簡</A> <FONT size="-2"><A target="_blank" HREF="http://japan.linux.com/opensource/03/10/02/0955207.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>SGIがLinuxにコントリビュートしたソースファイルに関する公開書簡。また XSFはSystem Vの一部ではなく SGI独自のプロダクトであるとも主張しています。そりゃそうでしょうね。<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml">OpenOffice.orgがオープンソース版オフィス・スイート「OpenOffice.org 1.1」の最終版を公開</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20031002/6/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>1.1系は これが最終版なのだそうな。ダウンロードして試すヒマは無し。<LI><A HREF="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml">「SCOが権利侵害と主張する部分はLinuxから取り除いた」と米SGI</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/SI/NEWS/20031002/135243/index.shtml">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>記事のタイトルの通りの内容。XFSに関する件について言及している箇所も含まれる。<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593">東大がiMacを選んだ理由/安東孝二助手に聞く</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/269593">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ものすごい内容の記事です。妙に納得してしまいました。<LI><A HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm">.NETは本当にオープンスタンダードか</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061157,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>オープンスタンダードというからには、オープンでスタンダードでないといけないのでしょうね。特にオープンという面では シングルベンダではなくマルチベンダの状況になっていないと クローズドソースなだけあってオープンとは言い難いです。幸い .NET開発環境という意味では ボーランドからの製品も含め 幾つか出てきていますから、一応及第点かしら。でも 実行環境という面では まだ 私は マイクロソフト製.NET実行環境しか及第点と思っていないので、その点 オープンとは言い難いです…。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:47 $</address>
 
 </BODY>

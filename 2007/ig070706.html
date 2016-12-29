@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/07/06 ���L: FizzBuzz ��� - switch�����</TITLE>
-<META name="DESCRIPTION" content="�ł́A���� FuzzBuzz������ switch - case �Ŏ�������ł�����Ă݂܂��B">
-<META name="KEYWORDS" content="FizzBuzz,Java,���,problem,switch,case">
+<TITLE>2007/07/06 日記: FizzBuzz 問題 - switch分岐版</TITLE>
+<META name="DESCRIPTION" content="では、次に FuzzBuzz実装を switch - case で実装する版を作ってみます。">
+<META name="KEYWORDS" content="FizzBuzz,Java,問題,problem,switch,case">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/07/06 ���L: FizzBuzz ��� - switch�����</H2>
-    <P>[FizzBuzz,Java,���,problem,switch,case] �ł́A���� FuzzBuzz������ switch - case �Ŏ�������ł�����Ă݂܂��B</P>
+    <H2>2007/07/06 日記: FizzBuzz 問題 - switch分岐版</H2>
+    <P>[FizzBuzz,Java,問題,problem,switch,case] では、次に FuzzBuzz実装を switch - case で実装する版を作ってみます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,13 +60,13 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz ��� - switch�����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz 問題 - switch分岐版</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ł́A���� FuzzBuzz������ switch - case �Ŏ�������ł�����Ă݂܂��B</P>
-<P>������: �����ŋ����Ă����� <STRONG>�u���b�N���[���A</STRONG>�ł��B</P>
-<P>3��5�̔{���Ƃ������ƂŁA�ŏ����{���ł��� 15�𓱏o���܂��B���̏�� switch - case �ɂ�蕪�򂷂�΁A���ʂƂ��ē��������������邱�Ƃ��ł��܂��B</P>
+<P>では、次に FuzzBuzz実装を switch - case で実装する版を作ってみます。</P>
+<P>※注意: ここで挙げている例は <STRONG>ブラックユーモア</STRONG>です。</P>
+<P>3と5の倍数ということで、最小公倍数である 15を導出します。その上で switch - case により分岐すれば、結果として同じ挙動をさせることができます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -80,65 +80,65 @@
     <TR>
       <TD>
       <pre>/**
- * FizzBuzz: �C�M���X�̊w�Z�̎q�������̗V��
+ * FizzBuzz: イギリスの学校の子供たちの遊び
  * 
- * 1����100�܂ł̐����v�����g����B&lt;br&gt;
- * �E3�̔{���̂Ƃ��͐��̑���ɢFizz��ƃv�����g����B&lt;br&gt;
- * �E5�̔{���̂Ƃ��͐��̑���ɢBuzz��ƃv�����g����B&lt;br&gt;
- * �E3��5�����̔{���̏ꍇ�ɂ͐��̑���ɢFizzBuzz��ƃv�����g����B
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
  */
 public class FizzBuzzSwitch01 {
     /**
-     * �G���g���|�C���g�B
+     * エントリポイント。
      * 
      * @param args
-     *            �R�}���h���C�������B���̃v���O�������ł͗��p����Ȃ��B
+     *            コマンドライン引数。このプログラム内では利用されない。
      */
     public static void main(final String[] args) {
         new FizzBuzzSwitch01().process();
     }
 
     /**
-     * ���̃N���X�̎又���B
+     * このクラスの主処理。
      */
     public void process() {
         for (int number = 1; number &lt;= 100; number++) {
-            // �������ꂽ��������v�����g����B
+            // 生成された文字列をプリントする。
             System.out.println(getFizzBuzzMessage(number));
         }
     }
 
     /**
-     * �^����ꂽ���ɑΉ����� FizzBuzz���b�Z�[�W���擾����B
+     * 与えられた数に対応する FizzBuzzメッセージを取得する。
      * 
-     * �E3�̔{���̂Ƃ��͢Fizz���߂��B&lt;br&gt;
-     * �E5�̔{���̂Ƃ��͢Buzz���߂��B&lt;br&gt;
-     * �E3��5�����̔{���̏ꍇ�ɂ͢FizzBuzz���߂��B&lt;br&gt;
-     * �E������ɂ��Y�����Ȃ��ꍇ�ɂ͐���߂��B
+     * ・3の倍数のときは｢Fizz｣を戻す。&lt;br&gt;
+     * ・5の倍数のときは｢Buzz｣を戻す。&lt;br&gt;
+     * ・3と5両方の倍数の場合には｢FizzBuzz｣を戻す。&lt;br&gt;
+     * ・いずれにも該当しない場合には数を戻す。
      * 
      * @param argNumber
-     *            �ΏۂƂȂ鐔�B
-     * @return ���b�Z�[�W�B
-     *         3�̔{���̂Ƃ��͢Fizz��A5�̔{���̂Ƃ��͢Buzz��A3��5�����̔{���̏ꍇ�ɂ͢FizzBuzz��A������ɂ��Y�����Ȃ��ꍇ�ɂ͐��B
+     *            対象となる数。
+     * @return メッセージ。
+     *         3の倍数のときは｢Fizz｣、5の倍数のときは｢Buzz｣、3と5両方の倍数の場合には｢FizzBuzz｣、いずれにも該当しない場合には数。
      */
     public static String getFizzBuzzMessage(final int argNumber) {
-        // TODO:��̃}�W�b�N�i���o�[ 15�����o����Ă��܂��Ă��܂��B
+        // TODO:謎のマジックナンバー 15が導出されてしまっています。
         switch (Math.abs(argNumber % 15)) {
         case 0:
-            // 3��5�����̔{�� (�܂�15�̔{��) �̏ꍇ�ɂ͢FizzBuzz���߂��B
+            // 3と5両方の倍数 (つまり15の倍数) の場合には｢FizzBuzz｣を戻す。
             return &quot;FizzBuzz&quot;;
         case 3:
         case 6:
         case 9:
         case 12:
-            // 3�̔{���̂Ƃ��͐��̑���ɢFizz���߂��B
+            // 3の倍数のときは数の代わりに｢Fizz｣を戻す。
             return &quot;Fizz&quot;;
         case 5:
         case 10:
-            // 5�̔{���̂Ƃ��͢Buzz���߂��B
+            // 5の倍数のときは｢Buzz｣を戻す。
             return &quot;Buzz&quot;;
         default:
-            // ������ɂ��Y�����Ȃ��ꍇ�ɂ͐���߂��B
+            // いずれにも該当しない場合には数を戻す。
             return String.valueOf(argNumber);
         }
     }
@@ -148,16 +148,16 @@ public class FizzBuzzSwitch01 {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�ӊO�����m��܂��񂪁Aswitch - case �͎��s�R�X�g�����\�����̂ł��B<A href="ig070703.html">FizzBuzz ��� - ���t�@�N�^�����O��</A>�̕������s���x�͑����Ȃ�Ɨ\�z���Ă��܂��B���Ԃ������Čv�����Ă݂����Ǝv���܂��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>意外かも知れませんが、switch - case は実行コストが結構高いのです。<A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A>の方が実行速度は速くなると予想しています。時間を見つけて計測してみたいと思います。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig070702.html">2007/07/02 ���L: FizzBuzz ��� - �m�[�}����</A>
-  <LI><A href="ig070703.html">2007/07/03 ���L: FizzBuzz ��� - ���t�@�N�^�����O��</A>
-  <LI><A href="ig070704.html">2007/07/04 ���L: FizzBuzz ��� - �f�U�C���p�^�[���K�p��</A>
-  <LI><A href="ig070705.html">2007/07/05 ���L: FizzBuzz ��� - �Z�����Ă�����</A>
+  <LI><A href="ig070702.html">2007/07/02 日記: FizzBuzz 問題 - ノーマル版</A>
+  <LI><A href="ig070703.html">2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</A>
+  <LI><A href="ig070704.html">2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</A>
+  <LI><A href="ig070705.html">2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

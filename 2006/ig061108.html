@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/11/08 ���L: Java: �V���v���� C���ꂩ��Java������Ăяo��JNI�T���v��</TITLE>
-<META name="DESCRIPTION" content="�V���v���� C���ꂩ��Java������Ăяo��JNI�T���v�����쐬���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/11/08 日記: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</TITLE>
+<META name="DESCRIPTION" content="シンプルな C言語からJava言語を呼び出すJNIサンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/11/08 ���L: Java: �V���v���� C���ꂩ��Java������Ăяo��JNI�T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �V���v���� C���ꂩ��Java������Ăяo��JNI�T���v�����쐬���܂����B</P>
+    <H2>2006/11/08 日記: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] シンプルな C言語からJava言語を呼び出すJNIサンプルを作成しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,17 +60,17 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: �V���v���� C���ꂩ��Java������Ăяo��JNI�T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�V���v���� C���ꂩ��Java������Ăяo��JNI�T���v���E�g�C�v���O�������쐬���܂����B</P>
-<P>C������v���Ԃ�ɐG�����̂ł����A���͂� ���Ȃ�Y��Ă��܂��Ă��邱�Ƃ��������܂����B</P>
+<P>シンプルな C言語からJava言語を呼び出すJNIサンプル・トイプログラムを作成しました。</P>
+<P>C言語を久しぶりに触ったのですが、もはや かなり忘れてしまっていることが判明しました。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">C����\�[�X�R�[�h</TD>
+      <TD bgcolor="#ffff00">C言語ソースコード</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -79,7 +79,7 @@
     <TR>
       <TD>
       <pre>/*
- * �V���v����JNI�T���v���B
+ * シンプルなJNIサンプル。
  */
 #include &quot;stdafx.h&quot;
 #include &quot;jni.h&quot;
@@ -97,50 +97,50 @@ int main(int argc, char* argv[])
     vm_args.nOptions = 1;
     vm_args.ignoreUnrecognized = true;
 
-    printf(&quot;JavaVM���쐬.\n&quot;);
+    printf(&quot;JavaVMを作成.\n&quot;);
     int result = JNI_CreateJavaVM(&amp;javavm, (void **)&amp;jnienv, &amp;vm_args);
 
     if (result != 0) {
-        printf(&quot;JavaVM�̍쐬�Ɏ��s���܂���(%d).\n&quot;, result);
+        printf(&quot;JavaVMの作成に失敗しました(%d).\n&quot;, result);
         return 1;
     }
 
-    printf(&quot;�N���X����.\n&quot;);
+    printf(&quot;クラス検索.\n&quot;);
     jclass cls = jnienv-&gt;FindClass(&quot;MyClass&quot;);
     if (cls == 0) {
-        printf(&quot;�N���X�����Ɏ��s���܂���.\n&quot;);
+        printf(&quot;クラス検索に失敗しました.\n&quot;);
         return 1;
     }
 
-    printf(&quot;���\�b�h�擾.\n&quot;);
+    printf(&quot;メソッド取得.\n&quot;);
     jmethodID mid = jnienv-&gt;GetStaticMethodID(cls, &quot;process&quot;, &quot;()Ljava/lang/String;&quot;);
     if (mid == 0) {
-        printf(&quot;���\�b�h�擾�Ɏ��s���܂���.\n&quot;);
+        printf(&quot;メソッド取得に失敗しました.\n&quot;);
         return 1;
     }
 
-    printf(&quot;���\�b�h�ďo.\n&quot;);
+    printf(&quot;メソッド呼出.\n&quot;);
     jobject objResult = jnienv-&gt;CallStaticObjectMethod(cls, mid);
 
     jthrowable throwResult = jnienv-&gt;ExceptionOccurred();
     if (throwResult != NULL) {
-        printf(&quot;��O���������܂���.\n&quot;);
+        printf(&quot;例外が発生しました.\n&quot;);
         jnienv-&gt;ExceptionDescribe();
         jnienv-&gt;ExceptionClear();
         return 1;
     }
 
     if (objResult == NULL) {
-        printf(&quot;���\�b�h�̖߂�l��null�ł���.\n&quot;);
+        printf(&quot;メソッドの戻り値がnullでした.\n&quot;);
     } else {
         jstring strResult = (jstring) objResult;
         printf(&quot;[%s]\n&quot;, jnienv-&gt;GetStringUTFChars(strResult, NULL));
     }
     
-    printf(&quot;JavaVM��j��.\n&quot;);
+    printf(&quot;JavaVMを破棄.\n&quot;);
     result = javavm-&gt;DestroyJavaVM();
     if (result != 0) {
-        printf(&quot;JavaVM�̔j���Ɏ��s���܂���(%d).\n&quot;, result);
+        printf(&quot;JavaVMの破棄に失敗しました(%d).\n&quot;, result);
         return 1;
     }
 
@@ -152,13 +152,13 @@ int main(int argc, char* argv[])
 </TABLE>
 </BLOCKQUOTE>
 <UL>
-  <LI>jvm.dll�ɂ��炩���߃p�X��ʂ��Ă����K�v������܂��B�E�ƃv���O���~���O�̐��E�ł́A�����ƌ��������������Ȃ��ł��傤�B�ł��A��������ƍs����������̂ō���̃g�C�v���O�����̎�|�Ƃ͈قȂ邽�ߎ������������܂����B
-  <LI>JNI�ɂ܂��ُ�n�́A�ЂƂƂ��肨�肱��Ŏ�����������ł��BJava���̗�O��C���ꑤ�ŕߑ��ł��邱�Ƃ͊m�F���܂����B
-  <LI>GetStaticMethodID �̑�3������ *.class�t�@�C���̂Ȃ����當����𕡎ʂ��Ċ��p����̂��ȒP�Ŋm���ȕ��@�ł��B������ꂩ���ŏ����N�����̂́A���Ȃ����ł��B
-  <LI>���̗�ł́A�A�^�b�`�E�f�^�b�`�֘A��API���Ă�ł��܂���B
-  <LI>������̎󂯓n���܂��ɂ��āA��������������Ă��܂��B�����ƌ�������������͂��ł��B�����āA������̃���������ȂǗ��ӓ_������͂��ł����A������������Ă��܂��B
+  <LI>jvm.dllにあらかじめパスを通しておく必要があります。職業プログラミングの世界では、もっと賢い実装をおこなうでしょう。でも、そうすると行数が増えるので今回のトイプログラムの主旨とは異なるため実装を割愛しました。
+  <LI>JNIにまつわる異常系は、ひととおりおりこんで実装したつもりです。Java側の例外がC言語側で捕捉できることは確認しました。
+  <LI>GetStaticMethodID の第3引数は *.classファイルのなかから文字列を複写して活用するのが簡単で確実な方法です。これを一から手で書き起こすのは、かなり難しいです。
+  <LI>この例では、アタッチ・デタッチ関連のAPIを呼んでいません。
+  <LI>文字列の受け渡しまわりについて、実装が割愛されています。もっと賢い実装があるはずです。加えて、文字列のメモリ解放など留意点があるはずですが、これも割愛しています。
 </UL>
-<P>�Ăяo����� Java�̃T���v���͉��L�̂悤�Ȃ��̂ɂȂ�܂��B</P>
+<P>呼び出される Javaのサンプルは下記のようなものになります。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -181,19 +181,19 @@ int main(int argc, char* argv[])
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2005/ig051228.html">2005/12/28 ���L: SWT��p���� Java����Win32API�ւ̃A�N�Z�X �T���v��</A>
+  <LI><A href="../2005/ig051228.html">2005/12/28 日記: SWTを用いた JavaからWin32APIへのアクセス サンプル</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoMessage��PHP�\�[�X�R�[�h�����@�\</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoMessageのPHPソースコード生成機能</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="�u���b�Z�[�W��`���v�Ƃ��� Excel�u�b�N����A���b�Z�[�W�������\�[�X�R�[�h�������������܂��B">blancoMessage</A>��PHP�\�[�X�R�[�h�����@�\�ł����A�Œ���̒P�̎������p�X�����Ԃɂ܂Ői�݂܂����B</P>
-<P>�������������\�[�X�R�[�h</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>のPHPソースコード生成機能ですが、最低限の単体試験をパスする状態にまで進みました。</P>
+<P>自動生成されるソースコード</P>
 <UL>
   <LI>PHP<BR>
   <A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.php/main/blanco/sample/message/SampleMessage.php">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.php/main/blanco/sample/message/SampleMessage.php</A>
@@ -201,7 +201,7 @@ int main(int argc, char* argv[])
   <A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.vb/main/blanco/sample/message/SampleMessage.vb">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMessage/blanco.vb/main/blanco/sample/message/SampleMessage.vb</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

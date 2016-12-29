@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/04/15 ���L: FindBugs 0.7.2����{����Ő��������������@</TITLE>
-<META name="DESCRIPTION" content="Java����MAC�A�h���X�擾�͎��ɂƂ��Ă��s���_�ł��� (��)">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,Java,MAC�A�h���X">
+<TITLE>2004/04/15 日記: FindBugs 0.7.2を日本語環境で正しく動かす方法</TITLE>
+<META name="DESCRIPTION" content="JavaからMACアドレス取得は私にとっても不明点でした (笑)">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,MACアドレス">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/04/15 ���L: FindBugs 0.7.2����{����Ő��������������@</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,Java,MAC�A�h���X] Java����MAC�A�h���X�擾�͎��ɂƂ��Ă��s���_�ł��� (��)</P>
+    <H2>2004/04/15 日記: FindBugs 0.7.2を日本語環境で正しく動かす方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,MACアドレス] JavaからMACアドレス取得は私にとっても不明点でした (笑)</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,55 +58,55 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[FindBugs]FindBugs 0.7.2 ����{����Ő��������������@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[FindBugs]FindBugs 0.7.2 を日本語環境で正しく動かす方法</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>FindBugs 0.7.2 (�����_�ł̍ŐV��) ����{����Ő��������������߂̃��\�[�X�t�@�C�������J����܂����B</P>
+<P>FindBugs 0.7.2 (現時点での最新版) を日本語環境で正しく動かすためのリソースファイルが公開されました。</P>
 <UL>
-  <LI>FindBugs 0.7.2 ���{�ꃊ�\�[�X (oku����̃y�[�W)<BR>
+  <LI>FindBugs 0.7.2 日本語リソース (okuさんのページ)<BR>
   <A HREF="http://www.simeji.com/wiki/pukiwiki.php?FindBugs">http://www.simeji.com/wiki/pukiwiki.php?FindBugs</A>
 </UL>
-<P>���̓��{�ꃊ�\�[�X�t�@�C���𗘗p����ƁAFindBugs 0.7.2 (�����_�ł̍ŐV��)���u����Ɂv���p�ł���悤�ɂȂ�܂��B�悩�����A�悩�����B</P>
+<P>この日本語リソースファイルを利用すると、FindBugs 0.7.2 (現時点での最新版)が「正常に」利用できるようになります。よかった、よかった。</P>
 <UL>
-  <LI>FindBugs �̎g�p�@ (���{���) (oku����)<BR>
+  <LI>FindBugs の使用法 (日本語訳) (okuさん)<BR>
   <A HREF="http://www.simeji.com/findbugs/doc/manual_ja/index.html">http://www.simeji.com/findbugs/doc/manual_ja/index.html</A>
 </UL>
-<P>��͂���{��Ńh�L�������g������Ƃ��ꂵ���ł��B</P>
+<P>やはり日本語でドキュメントがあるとうれしいです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[�N�G�X�g]Java����MAC�A�h���X���擾������@ (Windows��)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[クエスト]JavaからMACアドレスを取得する方法 (Windows版)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���� ���̋Ζ���ɂĂ��A���Ȃ��b�肪������܂����B���āAJava���� MAC�A�h���X���擾������@�ŁA�����Ƃ��G���K���g�ȕ��@���āA�ǂ�ȕ��@�Ȃ�ł��傤�H</P>
+<P>じつは 私の勤務先にても、おなじ話題が挙がりました。さて、Javaから MACアドレスを取得する方法で、もっともエレガントな方法って、どんな方法なんでしょう？</P>
 <HR>
-<P><FONT color="#ff0000">2004.06.15</FONT> Senbei����̃c�b�R�~<BR>
-[igapyon:01289] 2004/04/15 ���L :Java ���� MAC�A�h���X���擾������@ (Windows��)<BR>
-����ɂ��́A�����҂�񂳂񁕂݂Ȃ���B<BR>
-�����̂悤�ɁA�`���b�g�d���ŕK�v�ɂȂ��ĒT�����̂ł���������Ȃ������̂Łi���̒T��������邢�̂����j�A�Q�l�ɂȂ�y�[�W�����Ȃ��珑���Ă݂܂����B</P>
+<P><FONT color="#ff0000">2004.06.15</FONT> Senbeiさんのツッコミ<BR>
+[igapyon:01289] 2004/04/15 日記 :Java から MACアドレスを取得する方法 (Windows版)<BR>
+こんにちは、いがぴょんさん＆みなさん。<BR>
+件名のように、チョット仕事で必要になって探したのですが見つからなかったので（私の探し方がわるいのかも）、参考になるページを見ながら書いてみました。</P>
 <UL>
   <LI><A HREF="http://senbei.cocolog-nifty.com/diary/2004/06/mac.html">http://senbei.cocolog-nifty.com/diary/2004/06/mac.html</A>
 </UL>
-<P>�܂��A���łɂǂ����̃y�[�W��������A�Y��Ă��������i�΁j</P>
-<P><FONT color="#ff0000">2004.06.15</FONT> TANAKA����̃c�b�R�~<BR>
-����ɂ��́B<BR>
-MAC�A�h���X���擾����̂ɁA�l�b�g�Ō������@ifconfig/ipconfig ���Ăт����N���X���g���Ă��܂��B<BR>
-�E��������������Ȃ��̂ł����A�����R�[�h��������܂����B</P>
+<P>まぁ、すでにどっかのページあったら、忘れてください（笑）</P>
+<P><FONT color="#ff0000">2004.06.15</FONT> TANAKAさんのツッコミ<BR>
+こんにちは。<BR>
+MACアドレスを取得するのに、ネットで見つけた　ifconfig/ipconfig を呼びだすクラスを使っています。<BR>
+拾った所が分からないのですが、同じコードが見つかりました。</P>
 <UL>
   <LI><A href="http://forum.java.sun.com/thread.jsp?thread=245711&amp;forum=4&amp;message=1279708">http://forum.java.sun.com/thread.jsp?thread=245711&amp;forum=4&amp;message=1279708</A>
 </UL>
 <HR>
-<P><FONT color="#ff00ff">�c�b�R�~</FONT></P>
+<P><FONT color="#ff00ff">ツッコミ</FONT></P>
 <UL>
-  <LI>suga : �V���v���� ARP �܂��� Proxy ARP ���p�Ɉ�[ &gt; MAC �A�h���X (�����͕�����܂���
+  <LI>suga : シンプルに ARP または Proxy ARP 利用に一票 &gt; MAC アドレス (実装は分かりません
   (^^;)
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A> suga����A�V�ˁI �ڂ���؂ł��B����͑f���炵���d�l�ł��B�c
-  ���āA���ɂ������͕s���ł� (���)
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A> sugaさん、天才！ 目から鱗です。これは素晴らしい仕様です。…
+  さて、私にも実装は不明です (苦笑)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

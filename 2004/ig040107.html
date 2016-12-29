@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/01/07 ���L: javax.print���̌�</TITLE>
-<META name="DESCRIPTION" content="�d���� javax.print�ŃT���v��PG�������܂����B , ���� SWT DLL�ł�Win32API�R�[���ւƈڂ��Ă����͗l�B , ��� �呺���j����ɃX�S�C�Z�������Ē����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/01/07 日記: javax.print初体験</TITLE>
+<META name="DESCRIPTION" content="仕事で javax.printでサンプルPGを書きました。 , 次は SWT DLLでのWin32APIコールへと移っていく模様。 , 後日 大村忠史さんにスゴイ技を教えて頂く。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/01/07 ���L: javax.print���̌�</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �d���� javax.print�ŃT���v��PG�������܂����B , ���� SWT DLL�ł�Win32API�R�[���ւƈڂ��Ă����͗l�B , ��� �呺���j����ɃX�S�C�Z�������Ē����B</P>
+    <H2>2004/01/07 日記: javax.print初体験</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 仕事で javax.printでサンプルPGを書きました。 , 次は SWT DLLでのWin32APIコールへと移っていく模様。 , 後日 大村忠史さんにスゴイ技を教えて頂く。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,41 +59,41 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>javax.print���̌�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>javax.print初体験</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�N���C�A���gPC��̃v�����^�񋓂�Java�łł��邩�A���Ă������Ƃ� J2SE SDK
-1.4.2 + Windows�� javax.print�����̌����܂����B(java.awt.print�����łȂ�
-javax���ɐV�K�ǉ�����Ă����Ȃ�� �قƂ�Ǎ��܂ł��������������܂���ł���)
-javax.print.PrintService���؂���ɂȂ�܂��B<BR>
-���傿����ƃg�C�E�v���O�������������̂ł����A���[�U���o�^�����v�����^����
-�J���[�E�����Ȃǂ�API�o�R�Ŏ擾�ł���̂ł����A�v�����^�h���C�o���� (���������)IP�A�h���X��
-javax.print�ł͎擾�ł��܂���ł����B<BR>
-�A�A�A���� ���̊��Ⴂ�������� �c�b�R�~�����Ă��������B�����ɂ� swt_XXXX.dll
-��JNI�Ȑ��E�ւƓ˓����悤�Ƃ��Ă�����̂ł�����c�B</P>
-<P><FONT color="#ff0000">2004/01/20</FONT> <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing�{�̒��҂ŗL���ȑ呺����">�呺���j</A>���񂩂�c�b�R�~<BR>Subject:  Java���� Windows �̃v�����^�v���p�e�B���Ăяo��<BR>
+<P>クライアントPC上のプリンタ列挙がJavaでできるか、っていうことで J2SE SDK
+1.4.2 + Windowsで javax.printを初体験しました。(java.awt.printだけでなく
+javax側に新規追加されていたなんて ほとんど今までさわった事がありませんでした)
+javax.print.PrintServiceが切り口になります。<BR>
+ちょちょっとトイ・プログラムを書いたのですが、ユーザが登録したプリンタ名や
+カラー・白黒などはAPI経由で取得できるのですが、プリンタドライバ名や (もしあれば)IPアドレスは
+javax.printでは取得できませんでした。<BR>
+、、、もし 私の勘違いだったら ツッコミを入れてください。明日には swt_XXXX.dll
+でJNIな世界へと突入しようとしているものですから…。</P>
+<P><FONT color="#ff0000">2004/01/20</FONT> <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>さんからツッコミ<BR>Subject:  Javaから Windows のプリンタプロパティを呼び出す<BR>
 <BR>
-�ɉ�q���l�B<BR>
-<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing�{�̒��҂ŗL���ȑ呺����">�呺���j</A>�ł��B�����������Ă���܂��B<BR>
+伊賀敏樹様。<BR>
+<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>です。ご無沙汰しております。<BR>
 <BR>
-�ɉꂳ��̓��L�@2004/01/07 ���L: javax.print���̌� �����Ă���C�ɂȂ��Ă��܂����B<BR>
+伊賀さんの日記　2004/01/07 日記: javax.print初体験 を見てから気になっていました。<BR>
 <BR>
-Java ���� Windows �̃v�����^�v���p�e�B���Ăяo�����@���킩��܂����B(�������ɂ������Ȃ�A������������
-���݂܂���) ������ׂĂ݂āA���̕��@�ł��܂��s�������m�F���܂����B<BR>
-�ȉ��̃R�}���h���C�������s����΁A�v�����^�v���p�e�B���Ăяo���܂��B</P>
+Java から Windows のプリンタプロパティを呼び出す方法がわかりました。(もう既にご存じなら、お騒がせして
+すみません) 昨日調べてみて、この方法でうまく行く事を確認しました。<BR>
+以下のコマンドラインを実行すれば、プリンタプロパティを呼び出せます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>RUNDLL32 PRINTUI.DLL,PrintUIEntry /e /n &quot;�v�����^��&quot;</TD>
+      <TD>RUNDLL32 PRINTUI.DLL,PrintUIEntry /e /n &quot;プリンタ名&quot;</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���� �v�����^�� �́APrintService�N���X�� getName() �ŁA�擾�������̂��g���܂��B<BR>
-�g�p���@�� ����Ȋ����ł��B( �ŏ��Ɏ擾���� PrintService �̃v�����^�̃v���p�e�B
-���Ăяo��)</P>
+<P>この プリンタ名 は、PrintServiceクラスの getName() で、取得したものが使えます。<BR>
+使用方法は こんな感じです。( 最初に取得した PrintService のプリンタのプロパティ
+を呼び出す)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -116,21 +116,21 @@ try{
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�܂��ASwing�R���|�[�l���g�ō��������̃_�C�A���O�ŁA�R���{�{�b�N�X�ɗ񋓂��ꂽ�v�����^�ꗗ����A�v�����^����I��ŁA���̃v�����^�̃v���p�e�B�E�C���h�E���Ăяo�������@�\�ł��B<BR>
-������ ���ɂȂ��Ă���̂́A�v�����^�h���C�o����IP�A�h���X�t���Ńv�����^���擾���鎖�ł����ˁB<BR>
+<P>また、Swingコンポーネントで作った自作のダイアログで、コンボボックスに列挙されたプリンタ一覧から、プリンタ名を選んで、そのプリンタのプロパティウインドウを呼び出す事も　可能です。<BR>
+ここで 問題になっているのは、プリンタドライバ名やIPアドレス付きでプリンタを取得する事でしたね。<BR>
 <BR>
-�ȉ��̃R�}���h���C�������s����΁A�v�����^�̐ݒ���E�C���h�E���Ăяo���܂��B<BR>
-*RUNDLL32 PRINTUI.DLL,PrintUIEntry /Xg /n &quot;�v�����^��&quot;*<BR>
-���� �v�����^�� �́APrintService�N���X�� getName() �ŁA�擾�������̂��g���܂��B<BR>
+以下のコマンドラインを実行すれば、プリンタの設定情報ウインドウを呼び出せます。<BR>
+*RUNDLL32 PRINTUI.DLL,PrintUIEntry /Xg /n &quot;プリンタ名&quot;*<BR>
+この プリンタ名 は、PrintServiceクラスの getName() で、取得したものが使えます。<BR>
 <BR>
-���̂悤�ȏ�� �\������܂��B</P>
+このような情報が 表示されます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD>PrinterName: HP PSC 750<BR>
-      ShareName: �v�����^<BR>
-      PortName: DOT4_001 &lt;-- �l�b�g���[�N�v�����^�̏ꍇ�ɂ́A������IP�A�h���X���\�������B<BR>
+      ShareName: プリンタ<BR>
+      PortName: DOT4_001 &lt;-- ネットワークプリンタの場合には、ここにIPアドレスが表示される。<BR>
       DriverName: HP PSC 750<BR>
       Comment:<BR>
       Location:<BR>
@@ -148,23 +148,23 @@ try{
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>Subject:  Java���� Windows �̃v�����^�v�ݒ�����t�@�C���ɏo�͂���<BR><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing�{�̒��҂ŗL���ȑ呺����">�呺���j</A>�ł��B<BR>
-�v�����^��� �E�C���h�E�ɕ\������邾���ł� ������܂���ˁB<BR>
-�ݒ�����v���O�������Ɏ�荞�ނɂ́A��������t�@�C���ɏ����o���ēǂݍ��߂΂n�j�ł��ˁB<BR>
+<P>Subject:  Javaから Windows のプリンタプ設定情報をファイルに出力する<BR><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>です。<BR>
+プリンタ情報が ウインドウに表示されるだけでは 物足りませんね。<BR>
+設定情報をプログラム内に取り込むには、いったんファイルに書き出して読み込めばＯＫですね。<BR>
 <BR>
-�ȉ��̃R�}���h���C�������s����΁A�v�����^�̐ݒ�����t�@�C���ɏo�͏o���܂��B</P>
+以下のコマンドラインを実行すれば、プリンタの設定情報をファイルに出力出来ます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>RUNDLL32 PRINTUI.DLL,PrintUIEntry /Xg /n &quot;�v�����^��&quot;* */f �o�̓t�@�C����</TD>
+      <TD>RUNDLL32 PRINTUI.DLL,PrintUIEntry /Xg /n &quot;プリンタ名&quot;* */f 出力ファイル名</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���� �v�����^�� �́APrintService�N���X�� getName() �ŁA�擾�������̂��g���܂��B<BR>
-�t�@�C���́A�v�����^���ɕʁX�̕���p�ӂ��܂��B�o�͌`���́A�e�L�X�g�ł����A���j�R�[�h�ɂȂ��Ă��܂��B(�P�����Q�o�C�g)</P>
-<P>�ȉ��̃R�[�h�ɂ���āA�ڑ�����Ă���v�����^�� �ݒ���� �t�@�C���ɏo�͏o���܂��B</P>
+<P>この プリンタ名 は、PrintServiceクラスの getName() で、取得したものが使えます。<BR>
+ファイルは、プリンタ毎に別々の物を用意します。出力形式は、テキストですが、ユニコードになっています。(１文字２バイト)</P>
+<P>以下のコードによって、接続されているプリンタの 設定情報を ファイルに出力出来ます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -203,83 +203,83 @@ public class PrinterProperty {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�ڍׂȃ��|�[�g�A�ǂ������肪�Ƃ��������܂��BRUNDLL32�𗘗p����Ƃ� ���ɂƂ��Ă͖ӓ_�ł����B�т����肵�܂����B���̕��@����
-JNI���R�[�������ɁA������IP�A�h���X�Ȃǂ̏ڍ׏��� ���Ȃ�Windows�ɋ߂��Ƃ��납��擾���鎖���ł��܂��ˁB�т����肵�܂����B</P>
-<P>����ɂ��Ă� <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing�{�̒��҂ŗL���ȑ呺����">�呺���j</A>�l�𒼐ڏ��҂��Ă��܂��Ƃ́c�A���Ȃ�т����肵�܂����B���k�ł��B�ǂ������肪�Ƃ��������܂����B</P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+詳細なレポート、どうもありがとうございます。RUNDLL32を利用するとは 私にとっては盲点でした。びっくりしました。この方法だと
+JNIをコールせずに、しかもIPアドレスなどの詳細情報を かなりWindowsに近いところから取得する事ができますね。びっくりしました。</P>
+<P>それにしても <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>様を直接召還してしまうとは…、かなりびっくりしました。恐縮です。どうもありがとうございました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWT��DLL�� Win32�v���O���~���O</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTのDLLで Win32プログラミング</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����ł����āA�v�����^�h���C�o����IP�A�h���X�t���Ńv�����^��񋓂���ɂ� swt_XXXX.dll �Ɏ���o�������Ȃ����Ȃ��A�Ȃ�Ďv���n�߂Ă��܂��B���� ��Ƃ���\��ł��B<BR>
-�b���͔�т܂����Aswt_XXXX.dll���� ���������̂� C�̃\�[�X�t�@�C�����쐬�����A�܂�C����R���p�C����S�����p�����ɁAWin32API��Java����\���̂�V�K�ɍ쐬�����肵�ČĂяo�������ł����ł��B����
-swt_XXXX.dll �̂��̗��p���@�̌o���͂�����̂́A�d���ł̗̍p�͏��̌��ł��B�Ƃɂ���
-C����������������p������ Java����DLL�Ăяo�����s�������̂ł��B�����Ă��̃j�[�Y��
-swt_XXXX.dll �͖������Ă����̂ł��B<BR>
-�ŁA�т����肵���̂� �A���t�@�V�X�e���Y�̐������� ���� swt_XXXX.dll ��p����� C����������炸�� JNI�R�[���ł����Ⴄ�D�����API�����Ă��Ƃ� ���O�ɒm���Ă����_�ł��B��������A����ׂ��B������ �w����J���҂̓��L�x���ォ��� �w�����҂��̓��L�x�ǎ҂Ȃ����̂��Ƃ͂���܂��BC����̌o������������� Java���g�����Ȃ���l�� ����ς�X�S�C�Ȃ��c�B(�ꉞ���� ���̂Ƃ��� ����C���ꂪ�g���Ȃ��l�Ƃ������Ƃ� �ʂ��Ă�����c�Ƃ������Ƃɂ��Ă��܂�)</P>
-<P>�A�A�A���� �킩��₷�� swt_XXXX.dll ��p����JNI�v���O���~���O�̏Љ�y�[�W�Ȃ񂩂���������A�ǂȂ����c�b�R�~�������B�܂�
-SWT�̃\�[�X�R�[�h������� �ꔭ�Ŏv���o���͂��Ȃ̂ł�����ǂ��ˁB</P>
-<P><FONT color="#ff0000">2004.01.08</FONT> ����k�BSWT��DLL�𗘗p���ĉ\�Ȃ̂� ���ɒ�`����Ă��� Win32 API�̌Ăяo�������ł����B��`����Ă��Ȃ�
-Win32 API�̌Ăяo���ɂ� ��͂�JNI��V�K�ɍ쐬���鎖���K�v�ł����B�����A������Ă��܂����B<BR>
-������ �\���̂ɑ���������̂� JNI�𗘗p������ Java�����Ŏ����\�ł��B�܂�
-���̓_�����ł� ���Ȃ����I���Ǝv���܂��B�͂� �L�����Ԉ���Ă��܂����B������ƃV���b�N�B</P>
-<P>��� ������ƑO�� SWT�ł��낢��ł���Ȃ� �Ǝv���Ă����̂� SWT��API�𗘗p����OLE�Ăяo���ł��B�����
-��ֈĂƂ��� ������ Jakarta POI���v�������т܂��B�Ȃɂɂ��� OLE��OCX�֘A�Ȃ�
-������ SWT��Jakarta POI�Ƃ����Ƃ���ɂȂ���̂ł����A���̌��Ƃ�����܂��ɂȂ��Ă����悤�ȋC�����܂��B�Ƃ肠����
-������������邽�߂ɂ� C�R���p�C�����K�v�ɂȂ�͗l�B</P>
-<P><FONT color="#ff0000">2004.01.20</FONT> ����k �����Č��� �v�����^��IP�A�h���X�񋓂� C����Ŏ������邱�ƂɂȂ�܂����B�������ʂ�C�����API���Ăяo���āA�����JNI�ŃR�[���Ƃ���
-�I�[�\�h�b�N�X�ȃp�^�[���ł��B�������������̂��̂� �l�i�����܂荇���� SVF�J�������s�����Ɂc�B(�����R�[�h�͊��Ɏ茳�ɂ���̂ł����A�T�|�[�g�̊֌W��A�Ȃ�ׂ��p�b�P�[�W�\�t�g�x���_�[���ɍ�点�����̂ł�����)
-�݂Ȃ��܁A�����������܂����B</P>
+<P>それでもって、プリンタドライバ名やIPアドレス付きでプリンタを列挙するには swt_XXXX.dll に手を出すしかないかなぁ、なんて思い始めています。明日 作業する予定です。<BR>
+話しは飛びますが、swt_XXXX.dllって すごいもので Cのソースファイルを作成せず、またC言語コンパイラを全く利用せずに、Win32APIをJavaから構造体を新規に作成したりして呼び出す事ができるんです。私は
+swt_XXXX.dll のその利用方法の経験はあるものの、仕事での採用は初体験です。とにかく
+C言語をいっさい利用せずに JavaからDLL呼び出しを行いたいのです。そしてそのニーズを
+swt_XXXX.dll は満たしてくれるのです。<BR>
+で、びっくりしたのは アルファシステムズの菅村さんが この swt_XXXX.dll を用いれば C言語をいじらずに JNIコールできちゃう優れものAPIだってことを 事前に知っていた点です。菅村さん、恐るべし。さすが 『ある開発者の日記』時代からの 『いがぴょんの日記』読者なだけのことはあります。C言語の経験があった上で Javaが使いこなせる人は やっぱりスゴイなぁ…。(一応私は 今のところ 自称C言語が使えない人ということで 通していたり…ということにしています)</P>
+<P>、、、もし わかりやすい swt_XXXX.dll を用いたJNIプログラミングの紹介ページなんかがあったら、どなたかツッコミ下さい。まあ
+SWTのソースコードを見れば 一発で思い出すはずなのですけれどもね。</P>
+<P><FONT color="#ff0000">2004.01.08</FONT> 後日談。SWTのDLLを利用して可能なのは 既に定義されている Win32 APIの呼び出しだけでした。定義されていない
+Win32 APIの呼び出しには やはりJNIを新規に作成する事が必要でした。あれれ、誤解していました。<BR>
+ただし 構造体に相当するものは JNIを利用せずに Javaだけで実装可能です。まあ
+その点だけでも かなり画期的だと思います。はて 記憶が間違っていました。ちょっとショック。</P>
+<P>一方 ちょっと前に SWTでいろいろできるなぁ と思っていたのは SWTのAPIを利用したOLE呼び出しです。これは
+代替案として すぐに Jakarta POIが思い浮かびます。なににせよ OLEやOCX関連なら
+すぐに SWTやJakarta POIというところにつながるのですが、この件とごちゃまぜになっていたような気もします。とりあえず
+これを実現するためには Cコンパイラが必要になる模様。</P>
+<P><FONT color="#ff0000">2004.01.20</FONT> 後日談 そして結局 プリンタのIPアドレス列挙は C言語で実装することになりました。ごく普通にC言語でAPIを呼び出して、それをJNIでコールという
+オーソドックスなパターンです。しかも実装そのものは 値段さえ折り合えば SVF開発元が行う事に…。(実働コードは既に手元にあるのですが、サポートの関係上、なるべくパッケージソフトベンダー側に作らせたいのであった)
+みなさま、お騒がせしました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JAVA WORLD�ւ̎��M�˗��� ���ʂ̎���ɂ��f��܂����B����ڂ�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JAVA WORLDへの執筆依頼は 諸般の事情により断りました。しょぼん</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JAVA WORLD�ւ̎��M�˗������Ă����̂ł����A���ʂ̎���ɂ��f��܂����B�d�����Z�������
-�܂� ZDNET�̎􂢂̋L�����Ђ��t���Ă��Ȃ��̂ŁA�d���Ȃ��f��܂����B<BR>
-����ڂ�B������Ɣ߂����B�Ƃ����� �͂₭ ���� ZDNET�̎􂢂̋L�����Ȃ�Ƃ����˂΁c�B�ǂ����̓y�����˂炢�ڂ��c�B�ł�
-�y���͓y���� �d������ꂽ�� �����͂����� �ނ�������Ă��邩��Ȃ��B</P>
+<P>JAVA WORLDへの執筆依頼が来ていたのですが、諸般の事情により断りました。仕事が忙しい上に
+まだ ZDNETの呪いの記事が片が付いていないので、仕方なく断りました。<BR>
+しょぼん。ちょっと悲しい。というか はやく あの ZDNETの呪いの記事をなんとかせねば…。どこかの土日がねらい目か…。でも
+土日は土日で 仕事を入れたり そこはそこで むちゃをしているからなぁ。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�Ȃ񂾂����ׂ��ۂ��ł�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>なんだか風邪っぽいです</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����̗��̕������������Ă��邩��ł��傤���A�Ȃ񂾂��m�h�̒��S�ɕ��ׂ��ۂ��ł��B�����͈��
-�{�����Ă����ׂ��Ȃ̂ł��傤�ˁB</P>
+<P>東京の寮の部屋が乾燥しているからでしょうか、なんだかノドの中心に風邪っぽいです。ここは一つ
+養生しておくべきなのでしょうね。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�c���̐E��ɂ� SE���񑝐B</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>田町の職場にて SEさん増殖</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���s���Ă���c���̐E���SE���񂪍X�ɑ��B���܂����B�����n�߂čs�������́A�܂� ���\��Ȃ��������Ǝv�����̂Ɂc�B�ł����킹�悤�̃G���A�ɂ� �ǂ�ǂ���Ȃ��i�o�B�r���̑����� JR�̎Ԍɂ������� ���D�݂̏ꏊ�������ł����A�����ɂ����񂾂�l�����܂��Ă���͗l�ł��B<BR>
-�Ƃ肠���� �g�C���̑҂��s��v�����㏸���Ă���悤�Ɏv���܂��B�Ƃ��Ɂw��x�I ���₢���͑����Ă� �w��x�͑����Ȃ��ł��˂��c</P>
+<P>今行っている田町の職場でSEさんが更に増殖しました。私が始めて行った頃は、まだ 結構空席があったと思ったのに…。打ち合わせようのエリアにも どんどん座席が進出。ビルの窓から JRの車庫が見える お好みの場所があるんですが、そこにもだんだん人が埋まってくる模様です。<BR>
+とりあえず トイレの待ち行列計数が上昇しているように思えます。とくに『大』！ 机やいすは増えても 『大』は増えないですねぇ…</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�����҂��̎d��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>いがぴょんの仕事</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����1���� �����݌v�� �΂�΂�d�������Ă��܂��B<BR>
-�ӂ肩�����Ď��̎d�������߂Ă݂���A�T�b�J�[�ł��Ƃ���Ȃ� ���x�� �Ƃ������|�W�V�����ł��B�ł��{�����`�ł͖����悤�Ɏv���܂��B���x���Ƃ͂���
-�Z���^�[�o�b�N�I�Ȏ��͌����Ă���Ă��܂���I ��]�̓t�@���^�W�X�^�Ƃ�`�|�W�V�������Ȃ��A�A�A�ƁA����ɖϑz���Ă݂܂����B���Ȃ��Ƃ�
-���N�N���X�`�F�C���W�����͂��̋Z�p�c�� �Ƃ����d���Ƃ� �S���������Ȃ��Ă��Ă��܂��B�w����
-�Z�p�c�Ɓx�݂����ȁc (��)</P>
+<P>ここ1ヶ月 方式設計で ばりばり仕事をしています。<BR>
+ふりかえって私の仕事を見つめてみたら、サッカーでたとえるなら リベロ とかいうポジションです。でもボランチでは無いように思います。リベロとはいえ
+センターバック的な事は決してやっていません！ 希望はファンタジスタとゆ～ポジションかなぁ、、、と、勝手に妄想してみました。少なくとも
+去年クラスチェインジしたはずの技術営業 という仕事とは 全く縁遠くなってきています。『自称
+技術営業』みたいな… (笑)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig040107.src.html' , result='ig040107.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig040107-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/J2EE/20031222/1/">�uUML�����ł͐��Y���͏オ��Ȃ��v??�݌v�c�[���̐^�̃����b�g�Ƃ�</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/J2EE/20031222/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>UML�Ő��Y�����オ��̂��Ȃ��c�B�Ȃ���Č�������UML�}�j�A�ȕ��X�ɓ{��ꂻ���ł��B����͂��Ă��� �w�G�ہ{JDK�x�̎��ɗ�����̂Ƃ��āA����ς�Eclipse�{�e��v���O�C���Ȃ̂ł��傤�ˁB���� 2�x�ڂ�Eclipse�̌������܂����B30�s�ʂ�Java�̃\�[�X�t�@�C���������܂����I �i�Ȃ��A���̃R�����g�� �{�̋L���̓��e�Ƃ� ���Ȃ蘨�����Ă��܂��c�j<LI><A HREF="http://www.atmarkit.co.jp/fnetwork/rensai/tcp08/01.html">TCP�̖��{�� ���܂���Ă݂܂��񂩁H -TCP/IP�A�����M�[�o�Ńh�����y���ʃ��C���ҁz-</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fnetwork/rensai/tcp08/01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>���h�s���X�S�C�Ǝv���̂� �l�b�g���[�N�l�^��Z�L�����e�B�l�^�ȋL�����ǂ�ǂ�ڂ��Ă���邱�Ƃł��B���̕��X�� �����ł� TCP/IP�Ƃ���m���Ă���鎖��]�ށB<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063526,00.htm">Java�J���c�[�����[�J�[�e�ЁA�ƊE�c�́uJava Tools Community�v������</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063526,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�wEclipse��Sun�����ǂ��Ȃ��Ă����Ηǂ��̂Ɂx�Ƃ����̂� ���ɐ؂Ȃ��ߋ��̏o�����ɂȂ��Ă��܂����̂ˁc<LI><A HREF="http://www.atmarkit.co.jp/fxml/rensai2/schema02/schema02.html">�����v�f���`����4�̊�{�`���o���悤 -�A�� SE�̂��߂�XML Schema����i2�j-</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fxml/rensai2/schema02/schema02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>������AXML Schema�̎����قƂ�ǒm�炸�� XML Schema�Č��Ȏd�����󒍂��āA�A�A�����Ĕ[�i�����L�����V�����ł��B�ӂށBXML Schema��׋����˂΁c�B<LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063530,00.htm">�f���ACeleron M���ڂ̐V�^�m�[�gPC�𔭕\�A14��9000�~����</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063530,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�����Ȃ��Ă������̂��Ȃ��c�B�ł��l�Ŕ����Ƃ����� 10���~��؂��Ă���Ȃ���c �Ȃ���Ďv���������̍��B<LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063536,00.htm">�ă}�C�N���\�t�g�ASmart Display�̊J���𒆎~</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063536,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�Ƃ肠���� Smart Display�Ƃ������̂̊J�����~�߂�̂������ȁB<LI><A HREF="http://www.toshu.co.jp/">�I���W���ٓ�</A> <FONT size="-2"><A target="_blank" HREF="http://www.toshu.co.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>���Z��ł���]�ː��̗��̂����߂��� 24���ԉc�Ƃ̂��ٓ���������܂��B�����͂��߂ė[�H��H�ׂĂ݂܂����B���������������������ł��B<LI><A HREF="http://www.jeansmate.co.jp/">JEANS MATE</A> <FONT size="-2"><A target="_blank" HREF="http://www.jeansmate.co.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�����ŏZ��ł��闾�̂����߂��ɂ��� 24���ԉc�Ƃ̃W�[���Y�V���b�v�B���������Ńn���f�B�^�I���𔃂��܂����B<LI><A HREF="http://www.bentooh.com">�ׂ�Ɖ�.com</A> <FONT size="-2"><A target="_blank" HREF="http://www.bentooh.com">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>�����̒��т��A�����Œ������Ă݂܂����B���� �ǂ�Ȃ��ٓ�������̂��B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig040107-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/J2EE/20031222/1/">「UMLだけでは生産性は上がらない」??設計ツールの真のメリットとは</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/J2EE/20031222/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>UMLで生産性が上がるのかなぁ…。なあんて言ったらUMLマニアな方々に怒られそうです。それはさておき 『秀丸＋JDK』の次に来るものとして、やっぱりEclipse＋各種プラグインなのでしょうね。今日 2度目のEclipse体験をしました。30行位のJavaのソースファイルを書きました！ （なお、このコメントは 本体記事の内容とは かなり乖離しています…）<LI><A HREF="http://www.atmarkit.co.jp/fnetwork/rensai/tcp08/01.html">TCPの迷宮を さまよってみませんか？ -TCP/IPアレルギー撲滅ドリル【下位レイヤ編】-</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fnetwork/rensai/tcp08/01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>＠ＩＴがスゴイと思うのは ネットワークネタやセキュリティネタな記事をどんどん載せてくれることです。世の方々が 少しでも TCP/IPとかを知ってくれる事を望む。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063526,00.htm">Java開発ツールメーカー各社、業界団体「Java Tools Community」を結成</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063526,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>『EclipseとSunが仲良くなってくれれば良いのに』というのは 既に切ない過去の出来事になってしまったのね…<LI><A HREF="http://www.atmarkit.co.jp/fxml/rensai2/schema02/schema02.html">複数要素を定義する4つの基本形を覚えよう -連載 SEのためのXML Schema入門（2）-</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fxml/rensai2/schema02/schema02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>つい先日、XML Schemaの事をほとんど知らずに XML Schema案件な仕事を受注して、、、そして納品した記憶が新しいです。ふむ。XML Schemaを勉強せねば…。<LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063530,00.htm">デル、Celeron M搭載の新型ノートPCを発表、14万9000円から</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063530,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>安くなってきたものだなぁ…。でも個人で買うとしたら 10万円を切ってくれなきゃ… なあんて思う今日この頃。<LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063536,00.htm">米マイクロソフト、Smart Displayの開発を中止</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20063536,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>とりあえず Smart Displayとかいうのの開発を止めるのだそうな。<LI><A HREF="http://www.toshu.co.jp/">オリジン弁当</A> <FONT size="-2"><A target="_blank" HREF="http://www.toshu.co.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>今住んでいる江戸川区の寮のすぐ近くに 24時間営業のお弁当屋があります。今日はじめて夕食を食べてみました。そこそこおいしかったです。<LI><A HREF="http://www.jeansmate.co.jp/">JEANS MATE</A> <FONT size="-2"><A target="_blank" HREF="http://www.jeansmate.co.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>東京で住んでいる寮のすぐ近くにある 24時間営業のジーンズショップ。今日ここでハンディタオルを買いました。<LI><A HREF="http://www.bentooh.com">べんと王.com</A> <FONT size="-2"><A target="_blank" HREF="http://www.bentooh.com">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>明日の昼飯を、ここで注文してみました。さて どんなお弁当が来るのやら。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

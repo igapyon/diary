@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/05/31 ���L: Java����\�[�X�R�[�h�p���`�c�[�� astyle</TITLE>
-<META name="DESCRIPTION" content="Java����\�[�X�R�[�h���`�c�[���𒲂ׂĂ݂܂����B������ astyle �ɐ[���������܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/05/31 日記: Java言語ソースコード用整形ツール astyle</TITLE>
+<META name="DESCRIPTION" content="Java言語ソースコード整形ツールを調べてみました。そして astyle に深く感動しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/05/31 ���L: Java����\�[�X�R�[�h�p���`�c�[�� astyle</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Java����\�[�X�R�[�h���`�c�[���𒲂ׂĂ݂܂����B������ astyle �ɐ[���������܂����B</P>
+    <H2>2002/05/31 日記: Java言語ソースコード用整形ツール astyle</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Java言語ソースコード整形ツールを調べてみました。そして astyle に深く感動しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,62 +58,62 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java����\�[�X�R�[�h�p�\�[�X�R�[�h���`�c�[��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語ソースコード用ソースコード整形ツール</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java����R�[�f�B���O�K��̓��{���">Java����R�[�f�B���O�K��</A> �ɍ��v�����\�[�X�R�[�h���`�c�[�����K�v�ɂȂ�A�I�[�v���\�[�X�܂��͖����̂��̂�
-�������蒲�ׂ܂����B</P>
+<P><A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A> に合致したソースコード整形ツールが必要になり、オープンソースまたは無料のものを
+ざっくり調べました。</P>
 <UL>
   <LI>Artistic Style (astyle) 1.15.3<BR>
   <A HREF="http://astyle.sourceforge.net/">http://astyle.sourceforge.net/</A><BR>
   <A HREF="http://sourceforge.net/projects/astyle/">http://sourceforge.net/projects/astyle/</A><BR>
-  GPL���C�Z���X�Ō��J�BGPL�t�@���̎��͖����B<STRONG>astyle -j --style=java -p -s �t�@�C����.java</STRONG> �̂悤�ɃX�C�b�`���g���ƁA<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java����R�[�f�B���O�K��̓��{���">Java����R�[�f�B���O�K��</A> �ɂ����������v�����\�[�X�R�[�h�𓾂邱�Ƃ��o���܂��B
+  GPLライセンスで公開。GPLファンの私は満足。<STRONG>astyle -j --style=java -p -s ファイル名.java</STRONG> のようにスイッチを使うと、<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A> にそこそこ合致したソースコードを得ることが出来ます。
   <LI>Jacobe - The Java Code Beautifier<BR>
   <A HREF="http://www.tiobe.com/jacobe.htm">http://www.tiobe.com/jacobe.htm</A><BR>
-  SUN��<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java����R�[�f�B���O�K��̓��{���">Java����R�[�f�B���O�K��</A> �p�ݒ�t�@�C�����ŏ����珀������Ă���̂��������B
+  SUNの<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A> 用設定ファイルが最初から準備されているのが嬉しい。
 </UL>
-<P>���������� Jacobe�͓��{�ꊿ����2�o�C�g�ڂ����蕶���R�[�h�Ɉ���������ꍇ�A���܂����`�ł��Ȃ��悤�Ȍ��ۂ��o�Ă��܂��܂����Bastyle��
-���̖��̕����R�[�h�������ł��܂��B�Ƃ肠���� astyle���g���Ă݂܂��B<BR>
-���Ȃ݂ɁA���͏]�� 8�^�u��X�y�[�X�h�������̂ł����A������@�� 4tab�X�y�[�X�h�ɏ�芷���邱�Ƃɂ��܂����B(<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java����R�[�f�B���O�K��̓��{���">Java����R�[�f�B���O�K��</A>�Ɋ��Y�����v����̂��ړI)</P>
-<P><FONT color="#ff0000">13:54</FONT> ���Ȃ� astyle���C�ɓ����Ă��܂����B���Ȃ胉�u���u�ł��B�������܂����B������g����
-���Ȃ�l�ɂ��\�[�X�R�[�h�̌��h���̍��ق��z���ł��܂��B���̃\�[�X�R�[�h����<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java����R�[�f�B���O�K��̓��{���">Java����R�[�f�B���O�K��</A>�ɍ��v�����\�[�X�R�[�h�ɂ΂��������`����܂��B(����
-���Ȃ�Ɍ��\���I�Ȑ��`���[���������Ă����̂Łc)<BR>
-�Ƃ肠�������̓Ǝ����`���[���͎̂ċ���A<STRONG>astyle -j --style=java -p -s</STRONG> �Ȑl�ɂȂ��čs�����ƂɌ��߂܂����B�܂� ��Ђ̎d���̏�ł� ���Ƃ��W���c�[���Ƃ��ĕ��y�����悤�Ƃ����V���Ȗ�]�����܂�܂���
-(��)</P>
-<P><STRONG><FONT color="#ff00ff">�֘A���鎑��</FONT></STRONG></P>
+<P>さしあたり Jacobeは日本語漢字の2バイト目が特定文字コードに引っかかる場合、うまく整形できないような現象が出てしまいました。astyleは
+その問題の文字コードも処理できます。とりあえず astyleを使ってみます。<BR>
+ちなみに、私は従来 8タブ非スペース派だったのですが、これを機に 4tabスペース派に乗り換えることにしました。(<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A>に寄り添いつつ合致するのが目的)</P>
+<P><FONT color="#ff0000">13:54</FONT> かなり astyleが気に入ってきました。かなりラブラブです。感動しました。これを使えば
+かなり人によるソースコードの見栄えの差異が吸収できます。私のソースコードすら<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A>に合致したソースコードにばっちし整形されます。(私も
+私なりに結構個性的な整形ルールを持っていたので…)<BR>
+とりあえず私の独自整形ルールは捨て去り、<STRONG>astyle -j --style=java -p -s</STRONG> な人になって行くことに決めました。また 会社の仕事の上でも 何とか標準ツールとして普及させようという新たな野望が生まれました
+(笑)</P>
+<P><STRONG><FONT color="#ff00ff">関連する資料</FONT></STRONG></P>
 <UL>
-  <LI><A href="../memo/memojavastyle.html">����: Java����\�[�X�t�@�C���̃X�^�C�������c�[��</A>
+  <LI><A href="../memo/memojavastyle.html">資料: Java言語ソースファイルのスタイル調整ツール</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java Image I/O�̃T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java Image I/Oのサンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="�m�l�̓n�ӂ���B�ȑO�̎d���Ńr�W�l�X�p�[�g�i�[�ł����B���̍ۂɂ� �n�ӂ`����ƌĂ΂�Ă��܂����B">�n�Ӌ`��</A>����̓��L�� <A href="http://www.hcn.zaq.ne.jp/no-ji/reseach/20020530.htm">gif�t�@�C�� ���� png�t�@�C���ւ̕ϊ��T���v��</A>���ڂ��Ă��܂����B����2�s�ŕϊ��ł��Ă��܂��̂�����т�����BJava2 SDK 1.4 �̐V�@�\�ɂ��āA�����׋����Ȃ��ƂȂ��B</P>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さんの日記に <A href="http://www.hcn.zaq.ne.jp/no-ji/reseach/20020530.htm">gifファイル から pngファイルへの変換サンプル</A>が載っていました。実質2行で変換できてしまうのだからびっくり。Java2 SDK 1.4 の新機能について、少し勉強しないとなぁ。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�N���V�b�N���y�l�^: �ߋE�̒c����W���ȃA�}�`���A�I�[�P�X�g��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: 近畿の団員募集中なアマチュアオーケストラ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ߋE�̒c����W���A�}�I�P�ꗗ�𒲂ׂ悤�Ǝv���āA���������� �R��<FONT size="-1">���t���[�g���R���g���o�X</FONT> ���񂪈ȑO�����Ă��ꂽURI���v���o���܂����B(�x�r�[�V�b�^�[���x�̌��̎��ɋ����Ė����)<BR>
-����URI���������Ă����܂��B</P>
+<P>近畿の団員募集中アマオケ一覧を調べようと思って、そういえば 山岸<FONT size="-1">＠フルート＆コントラバス</FONT> さんが以前教えてくれたURIを思い出しました。(ベビーシッター制度の件の時に教えて貰った)<BR>
+そのURIをメモしておきます。</P>
 <UL>
-  <LI>�ߋE�E�����E�l���n���̃I�[�P�X�g���̒c����W<BR>
+  <LI>近畿・中国・四国地方のオーケストラの団員募集<BR>
   <A HREF="http://www2s.biglobe.ne.jp/~jim/freude/want/want_kinki.html">http://www2s.biglobe.ne.jp/~jim/freude/want/want_kinki.html</A>
 </UL>
-<P>��������Č���ƁA�I�[�P�X�g���ɂ���ẮA�I�P�o���s��̃I�P������܂��ˁB���@�C�I�����̃I�P�C�R�����߂Đ��N�̕��ł����c�\�ȃI�[�P�X�g�������݂������ł��B<BR>
-(���Ȃ݂� ���������_�ŃR���T�[�g�}�X�^�[�����Ă���<A href="http://orchestra.musicinfo.co.jp/~sakai-ph/">��t�B���n�[���j�[�����y�c</A>�́w�I�P�E�u���X�o����O��{���c�I�[�f�B�V�����L��x �ł�)</P>
+<P>こうやって見ると、オーケストラによっては、オケ経験不問のオケもありますね。ヴァイオリンのオケイコを初めて数年の方でも入団可能なオーケストラも存在しそうです。<BR>
+(ちなみに 私が現時点でコンサートマスターをしている<A href="http://orchestra.musicinfo.co.jp/~sakai-ph/">堺フィルハーモニー交響楽団</A>は『オケ・ブラス経験を前提＋入団オーディション有り』 です)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020531.src.html' , result='ig020531.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig020531-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://jakarta.apache.org/james/">Jakarta James 2.0a3 �����[�X</A> <FONT size="-2"><A target="_blank" HREF="http://jakarta.apache.org/james/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�S��Java����ŏ����ꂽ���[���T�[�o�̃��r�W�����A�b�v�B�f���p�Ɋ�ɗ��p���邱�Ƃ�����܂��B����̃��r�W�����͈��萫�����サ���̂������ȁB<LI><A HREF="http://www.zdnet.co.jp/news/0205/30/njbt_06.html">asahi.com�c�[���o�[���o��</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/30/njbt_06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���̃n�[�g���q�b�g�BGoogle�c�[���o�[�Ƌ��� ���Ȃ莄�ɂ͏Ռ��ł����B<LI><A HREF="http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html">�y����z�V�f�B�X�g���r���[�V�����wUnited Linux�x? -Caldera�AConectiva�ASuSE�ATurbolinux�������ŊJ���c�̂�ݗ�</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Linux�w�c�̗͂����W����Ă������Ƃ͑�ςɊ�΂������Ƃł��B���������シ�邱�Ƃ����҂ł��܂��B�撣���ė~�����ł��B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/">���E�݂��ً�s�V�X�e����Q�Ɍ���u�����Ȃ��R���s���[�^�v�̍��{����</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�݂��ً�s�A��ς��Ȃ��B<LI><A HREF="http://coin.nikkeibp.co.jp/coin/nc/mizuho/">�V�X�e����Q�͂Ȃ��N������?�݂��ق̋��P</A> <FONT size="-2"><A target="_blank" HREF="http://coin.nikkeibp.co.jp/coin/nc/mizuho/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�݂��ً�s�V�X�e����Q�́A�ʍ��Ƃ��Ĉ���̖{�ɂȂ�܂łɂȂ�܂����B<LI><A HREF="http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html">�S����Ɠ��e���֘A��Ђł��l��񂪗��o</A> <FONT size="-2"><A target="_blank" HREF="http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���� �������璆��Web�T�[�o�� �݌v��̃Z�L�����e�B�ۏo���̂Ƃ��낪�����A�Ȃ���Ă��Ƃ������ɂ��蓾�邩���m��܂���B���Ԉ�ʂ̕��X�� ��������Ƃ�Web�y�[�W�Ɍl��񂪏������߂Ȃ��Ȃ�܂���ˁB<LI><A HREF="http://www.zdnet.co.jp/news/0205/30/njbt_16.html">Linux�L��4�x���_�[���A���A����f�B�X�g���r���[�V�������J����</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/30/njbt_16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���S���������ꂳ��邱�Ƃ� ��΂������Ƃ��Ǝ��͎v���܂��B<LI><A HREF="http://www.zdnet.co.jp/news/0205/31/njbt_04.html">�J�V�I�A�uCCCD�͍Đ��ۏ؂ł��Ȃ��v</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/31/njbt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�܂���� �Đ��ۏ؂Ȃ��̂��n�t�����o���܂����B<LI><A HREF="http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html">���{���i�t�� �Q�i�K������</A> <FONT size="-2"><A target="_blank" HREF="http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�؋����炯���ƐM������Ȃ��ł��ˁB</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig020531-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://jakarta.apache.org/james/">Jakarta James 2.0a3 リリース</A> <FONT size="-2"><A target="_blank" HREF="http://jakarta.apache.org/james/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>全てJava言語で書かれたメールサーバのリビジョンアップ。デモ用に希に利用することがあります。今回のリビジョンは安定性が向上したのだそうな。<LI><A HREF="http://www.zdnet.co.jp/news/0205/30/njbt_06.html">asahi.comツールバーが登場</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/30/njbt_06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>私のハートをヒット。Googleツールバーと共に かなり私には衝撃でした。<LI><A HREF="http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html">【速報】新ディストリビューション『United Linux』? -Caldera、Conectiva、SuSE、Turbolinuxが共同で開発団体を設立</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2002/05/30/636148-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Linux陣営の力が結集されていくことは大変に喜ばしいことです。効率が向上することが期待できます。頑張って欲しいです。<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/">続・みずほ銀行システム障害に見る「動かないコンピュータ」の根本原因</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020529/2/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>みずほ銀行、大変だなぁ。<LI><A HREF="http://coin.nikkeibp.co.jp/coin/nc/mizuho/">システム障害はなぜ起きたか?みずほの教訓</A> <FONT size="-2"><A target="_blank" HREF="http://coin.nikkeibp.co.jp/coin/nc/mizuho/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>みずほ銀行システム障害は、別冊として一冊の本になるまでになりました。<LI><A HREF="http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html">全日空と日テレ関連会社でも個人情報が流出</A> <FONT size="-2"><A target="_blank" HREF="http://www.mainichi.co.jp/digital/network/archive/200205/29/11.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>実は そこいら中のWebサーバは 設計上のセキュリティ丸出しのところが多い、なあんてことが現実にあり得るかも知れません。世間一般の方々が おいそれとはWebページに個人情報が書き込めなくなりますよね。<LI><A HREF="http://www.zdnet.co.jp/news/0205/30/njbt_16.html">Linux有力4ベンダーが連合、統一ディストリビューションを開発へ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/30/njbt_16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>中心部分が統一されることは 喜ばしいことだと私は思います。<LI><A HREF="http://www.zdnet.co.jp/news/0205/31/njbt_04.html">カシオ、「CCCDは再生保証できない」</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/31/njbt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>また一社 再生保証なしのお墨付きを出しました。<LI><A HREF="http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html">日本国債格付け ２段階下がる</A> <FONT size="-2"><A target="_blank" HREF="http://www.nhk.or.jp/news/2002/05/31/grri84000000ck31.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>借金だらけだと信頼されないですね。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

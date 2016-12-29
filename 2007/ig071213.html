@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/12/13 ���L: C ���� Java, C ���� C#.NET �ւ̃\�[�X�R�[�h�R���o�[�^</TITLE>
-<META name="DESCRIPTION" content="Comet�ɂ��Ęb����ӂ�ꂽ�̂ŁA������������蒲�ג��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/12/13 日記: C から Java, C から C#.NET へのソースコードコンバータ</TITLE>
+<META name="DESCRIPTION" content="Cometについて話題をふられたので、これをざっくり調べ中。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/12/13 ���L: C ���� Java, C ���� C#.NET �ւ̃\�[�X�R�[�h�R���o�[�^</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Comet�ɂ��Ęb����ӂ�ꂽ�̂ŁA������������蒲�ג��B</P>
+    <H2>2007/12/13 日記: C から Java, C から C#.NET へのソースコードコンバータ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Cometについて話題をふられたので、これをざっくり調べ中。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,44 +60,44 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C ���� Java, C ���� C#.NET</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C から Java, C から C#.NET</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��� ���������uC ���� Java ���邢��  C ���� C#.NET �ւ̃\�[�X�R�[�h�R���o�[�^�v�̘b����ӂ��� (�䂩�������)�A����ɋ��������� �l���Ă��܂��B</P>
+<P>先日 ある方から「C から Java あるいは  C から C#.NET へのソースコードコンバータ」の話題をふられて (謎かけされて)、これに興味を持ち 考えています。</P>
 <UL>
-  <LI>C������ۂ��L�q�� �Ȃ�ׂ����̂܂܂� Java �� C#.NET �ɕϊ�<BR>
-  ���X�^�e�B�b�N�C���|�[�g�ŉ����BC����̃t���b�g�ȃ\�[�X�� ������� �ׂ�����Ƃ����N���X�ŕ\���B
-  <LI>strcpy, sprintf �Ȃǂ̌݊��N���X�E���\�b�h���쐬<BR>
-  ����� ��{�I�ɂ͒P���ɍ쐬�ł���悤�ȋC�����܂��B
-  <LI>C����̃|�C���^�����ɑ������鏈���� �ǂ̂悤�Ɏ�������̂�<BR>
-  �����ꂪ��Ԃ̉ۑ���ۂ��ł��Bptr++ �� *ptr �� �ǂ������ Java, C#.NET�ŕ\��������ǂ��̂�����BC���ꂾ�� �|�C���^��i�߂Ȃ��琏�������Ƃ����̂�
-  ���ʂɋL�q����Ȃ��B����B
-  <LI>Windows API�Ȃǂ̌Ăяo��<BR>
-  ������� Java�ł���� SWT DLL�𗘗p���� �����悻�����ł������ł��B
+  <LI>C言語っぽい記述を なるべくそのままに Java や C#.NET に変換<BR>
+  →スタティックインポートで解決。C言語のフラットなソースは それをつつむ べったりとしたクラスで表現。
+  <LI>strcpy, sprintf などの互換クラス・メソッドを作成<BR>
+  これは 基本的には単純に作成できるような気がします。
+  <LI>C言語のポインタ処理に相当する処理を どのように実現するのか<BR>
+  →これが一番の課題っぽいです。ptr++ や *ptr を どうやって Java, C#.NETで表現したら良いのかしら。C言語だと ポインタを進めながら随時処理というのを
+  普通に記述するなぁ。難しい。
+  <LI>Windows APIなどの呼び出し<BR>
+  →これは Javaであれば SWT DLLを利用して おおよそ解決できそうです。
 </UL>
-<P><FONT color="#ff00ff">�֘A���</FONT></P>
+<P><FONT color="#ff00ff">関連情報</FONT></P>
 <UL>
-  <LI><A href="http://d.hatena.ne.jp/a-san/20071214">a-san: C ���� Java, C ���� C#.NET</A>
+  <LI><A href="http://d.hatena.ne.jp/a-san/20071214">a-san: C から Java, C から C#.NET</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="../2008/ig080108.html">2008/01/08 ���L: Java ���� JavaScript�ւ̃R���o�[�^</A>
+  <LI><A href="../2008/ig080108.html">2008/01/08 日記: Java から JavaScriptへのコンバータ</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Comet �ɂ���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Comet について</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���������AComet�ɂ��Ęb����ӂ�ꂽ�̂ŁA������������蒲�ג��B</P>
+<P>ある方から、Cometについて話題をふられたので、これをざっくり調べ中。</P>
 <UL>
-  <LI>Ajax�𒴂���H Tomcat 6�œ��ڂ��ꂽComet�Ƃ́H<BR>
+  <LI>Ajaxを超える？ Tomcat 6で搭載されたCometとは？<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/rensai4/safetomcat_03/safetomcat_03_1.html">http://www.atmarkit.co.jp/fjava/rensai4/safetomcat_03/safetomcat_03_1.html</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

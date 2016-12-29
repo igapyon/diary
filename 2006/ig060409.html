@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/04/09 ���L: blancoFixedLength �t�@�[�X�g�o�[�W�����̃����[�X</TITLE>
-<META name="DESCRIPTION" content="�Œ蒷�t�@�C�����o�� Java�\�[�X�R�[�h�������������� blancoFixedLength�̍ŏ��̃o�[�W�����������[�X���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoFixedLength,�Œ蒷�t�@�C��,�\�[�X�R�[�h,��������">
+<TITLE>2006/04/09 日記: blancoFixedLength ファーストバージョンのリリース</TITLE>
+<META name="DESCRIPTION" content="固定長ファイル入出力 Javaソースコードを自動生成する blancoFixedLengthの最初のバージョンをリリースしました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoFixedLength,固定長ファイル,ソースコード,自動生成">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/04/09 ���L: blancoFixedLength �t�@�[�X�g�o�[�W�����̃����[�X</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoFixedLength,�Œ蒷�t�@�C��,�\�[�X�R�[�h,��������] �Œ蒷�t�@�C�����o�� Java�\�[�X�R�[�h�������������� blancoFixedLength�̍ŏ��̃o�[�W�����������[�X���܂����B</P>
+    <H2>2006/04/09 日記: blancoFixedLength ファーストバージョンのリリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoFixedLength,固定長ファイル,ソースコード,自動生成] 固定長ファイル入出力 Javaソースコードを自動生成する blancoFixedLengthの最初のバージョンをリリースしました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,24 +60,24 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoFixedLength �t�@�[�X�g�o�[�W�����̃����[�X</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoFixedLength ファーストバージョンのリリース</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�̍\���v�f�̂ЂƂƂ��āA�Œ蒷�t�@�C�����o�� Java�\�[�X�R�[�h��������������
-<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="�u�t�@�C����`��(�Œ蒷)�v�Ƃ��� Excel�u�b�N����A�Œ蒷�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoFixedLength</A>�������[�X���܂����B<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="�u�t�@�C����`��(�Œ蒷)�v�Ƃ��� Excel�u�b�N����A�Œ蒷�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoFixedLength</A>��
-����<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�v���_�N�g�Ɠ��l�ɃI�[�v���\�[�X���C�Z���X�̂ЂƂł��� GNU LGPL���C�Z���X���ł̃����[�X�ƂȂ�܂��B</P>
-<P>�Œ蒷�t�@�C�����o�͂� ���v���W�F�N�g�ł͈ӊO�ɖ��ȋ@�\�̈�ł��B<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="�u�t�@�C����`��(�Œ蒷)�v�Ƃ��� Excel�u�b�N����A�Œ蒷�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoFixedLength</A>�𓱓����邱�Ƃɂ��A�Œ蒷�t�@�C�����o�͂ɂ܂��l�X�ȑދ��ȃv���O���~���O�̑啔�����\�[�X�R�[�h���������ł���悤�ɂȂ�܂��B</P>
-<P>�Ȃ��A����̃����[�X�͍Œ���̎d�l�Ɍ��肵�܂����B�Ⴆ�ΌŒ蒷�t�@�C�����o�͂ɂ�����u�K�{���ځv�Ƃ͉����A�Ƃ������Ƃɂ��āA����͋Ɩ�����Ƃ����Ƃ��낪����̂� (�����Ƃ͂����Ȃ���Ԃł���Ɣ��f����)�A����̃����[�X�ɂ͎d�l�Ƃ��Ċ܂߂܂���ł����B<BR>
-���Ƃ����̂��ACSV�t�@�C�����o�� Java�\�[�X�R�[�h���������������Ȃ� <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A>�ł� �u�K�{���ځv�Ƃ����T�O��g�ݍ���ł��܂��B�ϒ��ł���΁u�K�{���ځv�̈Ӗ���������x�͎����ł���ƍl���Ă��邩��ł��B</P>
-<P>����� �Œ蒷�t�@�C�����o�� Java�\�[�X�R�[�h�����������̂��̂̎����� �ӊO�ɉ����[�� �肪������܂����B<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A>���x�[�X�ɊJ���������Ȃ����̂ł����A�d�l�����{�R�[�f�B���O������
-2�l��������Ă��܂��܂����B���̊��o�ł� ���̒��x�̃c�[���{�v���O�C���̎����� 1�l���Ŋ������Ȃ��Ǝ��Ԃ̂����߂����Ǝv���܂��B���ۂɍ�Ƃ����Ă�����A����
-Eclipse�v���O�C���쐬�� 1���Ԉȏォ�����Ă��܂��Ă���Ƃ��낪�C�ɂȂ�܂��B<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�ɂ�Eclipse�v���O�C���\�[�X�R�[�h���������̂��߂̃c�[��������̂ł����A����̃\�[�X�R�[�h���������͈̔�
-(�܂�͋��ʉ��͈�) �� �܂��܂���͂ł���Ƃ������Ƃ����炩�ɂȂ�܂����B(���������Ԃ��m�ۂł����ɉ��P�ł����ɂ���̂ł����c)</P>
-<P>blancoFixedLength�̂��߂̃z�[���y�[�W�� �܂�����Ă��܂���B�ߓ����ɂ͍쐬���悤�Ǝv���܂��c�B���������ғ����m�ۂł��邱�Ƃ��
-(���)</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の構成要素のひとつとして、固定長ファイル入出力 Javaソースコードを自動生成する
+<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="「ファイル定義書(固定長)」という Excelブックから、固定長ファイル入出力のためのソースコードを自動生成します。">blancoFixedLength</A>をリリースしました。<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="「ファイル定義書(固定長)」という Excelブックから、固定長ファイル入出力のためのソースコードを自動生成します。">blancoFixedLength</A>は
+他の<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>プロダクトと同様にオープンソースライセンスのひとつである GNU LGPLライセンス下でのリリースとなります。</P>
+<P>固定長ファイル入出力は 実プロジェクトでは意外に厄介な機能の一つです。<A HREF="http://www.igapyon.jp/blanco/blancofixedlength.html" TITLE="「ファイル定義書(固定長)」という Excelブックから、固定長ファイル入出力のためのソースコードを自動生成します。">blancoFixedLength</A>を導入することにより、固定長ファイル入出力にまつわる様々な退屈なプログラミングの大部分をソースコード自動生成できるようになります。</P>
+<P>なお、今回のリリースは最低限の仕様に限定しました。例えば固定長ファイル入出力における「必須項目」とは何か、ということについて、これは業務次第というところがあるので (自明とはいえない状態であると判断して)、今回のリリースには仕様として含めませんでした。<BR>
+※というのも、CSVファイル入出力 Javaソースコード自動生成をおこなう <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>では 「必須項目」という概念を組み込んでいます。可変長であれば「必須項目」の意味がある程度は自明であると考えているからです。</P>
+<P>一方で 固定長ファイル入出力 Javaソースコード自動生成そのものの実装は 意外に奥が深く 手がかかりました。<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>をベースに開発をおこなったのですが、仕様検討＋コーディングだけで
+2人日も消費してしまいました。私の感覚では この程度のツール＋プラグインの実装は 1人日で完了しないと時間のかけ過ぎだと思います。実際に作業をしていたら、特に
+Eclipseプラグイン作成に 1時間以上かかってしまっているところが気になります。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>にはEclipseプラグインソースコード自動生成のためのツールがあるのですが、これのソースコード自動生成の範囲
+(つまりは共通化範囲) が まだまだ非力であるということも明らかになりました。(しかし時間が確保できずに改善できずにいるのですが…)</P>
+<P>blancoFixedLengthのためのホームページは まだ作っていません。近日中には作成しようと思います…。しかしいつ稼働が確保できることやら
+(苦笑)</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

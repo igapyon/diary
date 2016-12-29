@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/01/28 ���L: Microsoft �Z�L�����e�B �T�|�[�g �v���o�C�_ �C���^�[�t�F�C�X / Microsoft Security
+<TITLE>2008/01/28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security
 Support Providers Interface (SSPI)</TITLE>
-<META name="DESCRIPTION" content="Microsoft Active Directory�Ƃ̘A�g���l�����ŏd�v���Ǝv���� SSPI �ɂ��ă������Ă����܂��B">
+<META name="DESCRIPTION" content="Microsoft Active Directoryとの連携を考える上で重要だと思われる SSPI についてメモしておきます。">
 <META name="KEYWORDS" content="igapyon,SSPI,Microsoft,Security,Support,Providers,Interface">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -17,13 +17,13 @@ Support Providers Interface (SSPI)</TITLE>
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/01/28 ���L: Microsoft �Z�L�����e�B �T�|�[�g �v���o�C�_ �C���^�[�t�F�C�X / Microsoft Security
+    <H2>2008/01/28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security
 Support Providers Interface (SSPI)</H2>
-    <P>[igapyon,SSPI,Microsoft,Security,Support,Providers,Interface] Microsoft Active Directory�Ƃ̘A�g���l�����ŏd�v���Ǝv���� SSPI �ɂ��ă������Ă����܂��B</P>
+    <P>[igapyon,SSPI,Microsoft,Security,Support,Providers,Interface] Microsoft Active Directoryとの連携を考える上で重要だと思われる SSPI についてメモしておきます。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@ Support Providers Interface (SSPI)</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@ Support Providers Interface (SSPI)</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,60 +62,60 @@ Support Providers Interface (SSPI)</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft �Z�L�����e�B �T�|�[�g �v���o�C�_ �C���^�[�t�F�C�X / Microsoft Security Support Providers
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security Support Providers
       Interface (SSPI)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft Active Directory�Ƃ̘A�g���l�����ŏd�v���Ǝv���� SSPI �ɂ��ă������Ă����܂��BMicrosoft
-Windows Server�����ł� LDAP �ȏ�� SSPI�ɒ��ڂ��ׂ��ƍl���n�߂Ă��܂��B</P>
+<P>Microsoft Active Directoryとの連携を考える上で重要だと思われる SSPI についてメモしておきます。Microsoft
+Windows Server環境下では LDAP 以上に SSPIに注目すべきと考え始めています。</P>
 <UL>
-  <LI>ID ����уA�N�Z�X�Ǘ� �] �v���b�g�t�H�[������уC���t���X�g���N�`��<BR>
+  <LI>ID およびアクセス管理 ‐ プラットフォームおよびインフラストラクチャ<BR>
   <A HREF="http://www.microsoft.com/japan/technet/security/guidance/identitymanagement/idmanage/p1plat_1.mspx">http://www.microsoft.com/japan/technet/security/guidance/identitymanagement/idmanage/p1plat_1.mspx</A><BR>
-  SSPI�̈ʒu�Â��Ɋւ�������I
-  <LI>Windows 2000 �l�b�g���[�N�̃V���O�� �T�C���I��<BR>
+  SSPIの位置づけに関する説明！
+  <LI>Windows 2000 ネットワークのシングル サインオン<BR>
   <A HREF="http://www.microsoft.com/japan/technet/prodtechnol/windows2000serv/evaluate/featfunc/nt2ksso.mspx">http://www.microsoft.com/japan/technet/prodtechnol/windows2000serv/evaluate/featfunc/nt2ksso.mspx</A><BR>
-  �V���O���T�C���I���ɂ����� SSPI�̈ʒu�Â��̐����B
-  <LI>ADOMD.NET �ł̃Z�L�����e�B�ی삳�ꂽ�ڑ��̊m��<BR>
+  シングルサインオンにおける SSPIの位置づけの説明。
+  <LI>ADOMD.NET でのセキュリティ保護された接続の確立<BR>
   <A HREF="http://technet.microsoft.com/ja-jp/library/ms123487.aspx">http://technet.microsoft.com/ja-jp/library/ms123487.aspx</A>
-  <LI>NTLM �F�؃v���g�R���ƃZ�L�����e�B�T�|�[�g�v���o�C�_<BR>
+  <LI>NTLM 認証プロトコルとセキュリティサポートプロバイダ<BR>
   <A HREF="http://www.monyo.com/technical/samba/translation/ntlm.html">http://www.monyo.com/technical/samba/translation/ntlm.html</A><BR>
-  �ƂĂ��ڂ��� NTLM��SSPI�Ƃ�������Ă���Ă��܂��B
+  とても詳しく NTLMとSSPIとを解説してくれています。
   <LI>SSPI<BR>
   <A HREF="http://msdn2.microsoft.com/en-us/library/aa380493(VS.85).aspx">http://msdn2.microsoft.com/en-us/library/aa380493(VS.85).aspx</A><BR>
-  �p��B
-  <LI>�G���h�|�C���g�F�؂̎��<BR>
+  英語。
+  <LI>エンドポイント認証の種類<BR>
   <A HREF="http://msdn2.microsoft.com/ja-jp/library/ms191264.aspx">http://msdn2.microsoft.com/ja-jp/library/ms191264.aspx</A>
-  <LI>SQL Server 2005 �̃C���X�^���X�ւ̃����[�g�ڑ����쐬����Ƃ��ɁAKerberos �F�؂��g�p���Ă��邱�Ƃ��m�F������@<BR>
+  <LI>SQL Server 2005 のインスタンスへのリモート接続を作成するときに、Kerberos 認証を使用していることを確認する方法<BR>
   <A HREF="http://support.microsoft.com/kb/909801/ja">http://support.microsoft.com/kb/909801/ja</A><BR>
-  �uSQL Server 2005 �ł́ASQL �F�؂̑���� Windows �����F�؂��g�p����ꍇ�AWindows �Z�L�����e�B �T�|�[�g
-  �v���o�C�_ �C���^�[�t�F�C�X (SSPI) ����ĊԐړI�� Kerberos �F�؂��T�|�[�g����܂��c�v�̂�����ɒ��ځB
+  「SQL Server 2005 では、SQL 認証の代わりに Windows 統合認証を使用する場合、Windows セキュリティ サポート
+  プロバイダ インターフェイス (SSPI) を介して間接的に Kerberos 認証がサポートされます…」のあたりに注目。
 </UL>
-<P><FONT color="#ff00ff">SSPI ���p�̂��߂̎���</FONT></P>
+<P><FONT color="#ff00ff">SSPI 利用のための実装</FONT></P>
 <UL>
   <LI>mod_auth_sspi<BR>
   <A HREF="http://sourceforge.net/projects/mod-auth-sspi">http://sourceforge.net/projects/mod-auth-sspi</A><BR>
-  Apache �� SSPI �A�g�����邽�߂ɗ��p���܂��B
+  Apache を SSPI 連携させるために利用します。
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig080125.html">2008/01/25 ���L: LDAP, NTLM, ������ SSPI �ɂ��F��, �����͓��{�������A�� �����x�����</A>
-  <LI><A href="../2009/ig090827.html">2009/08/27 ���L: Windows NTLM �� Apache ��A�g�����邽�߂́Amod_auth_ntlm_winbind ��
-  mod_auth_sspi �Ƃ��� 2 �̃��W���[��</A>
+  <LI><A href="ig080125.html">2008/01/25 日記: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会</A>
+  <LI><A href="../2009/ig090827.html">2009/08/27 日記: Windows NTLM と Apache を連携させるための、mod_auth_ntlm_winbind と
+  mod_auth_sspi という 2 つのモジュール</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>mod_auth_sspi ��p���� Apache�p�� SSPI �ݒ��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>mod_auth_sspi を用いた Apache用の SSPI 設定例</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache HTTP Server 2.0 / 2.2 �� <A href="http://sourceforge.net/projects/mod-auth-sspi">mod_auth_sspi</A> ��p���� SSPI�A�g�����邽�߂̐ݒ����������Ă����܂��B</P>
+<P>Apache HTTP Server 2.0 / 2.2 で <A href="http://sourceforge.net/projects/mod-auth-sspi">mod_auth_sspi</A> を用いて SSPI連携させるための設定例をメモしておきます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">httpd.conf (�ꕔ)</TD>
+      <TD bgcolor="#ffff00">httpd.conf (一部)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -123,7 +123,7 @@ Windows Server�����ł� LDAP �ȏ�� SSPI�ɒ��ڂ��ׂ��ƍl���n�߂Ă��܂��B</P>
   <TBODY>
     <TR>
       <TD>
-      <pre># mod_auth.so ���O�ɋL�q
+      <pre># mod_auth.so より前に記述
 LoadModule sspi_auth_module modules/mod_auth_sspi.so
 
 
@@ -132,7 +132,7 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
     AuthType          SSPI
     SSPIAuth          on
     SSPIAuthoritative on
-    SSPIDomain        �h���C����
+    SSPIDomain        ドメイン名
     SSPIOmitDomain    on
     SSPIPerRequestAuth on
     SSPIOfferBasic    on
@@ -145,16 +145,16 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache�p�� LDAP �ݒ��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache用の LDAP 設定例</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache HTTP Server �� LDAP�A�g�̂��߂̐ݒ����������Ă����܂��B</P>
+<P>Apache HTTP Server で LDAP連携のための設定例をメモしておきます。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><B>httpd.conf (Apache 2.0�p: �ꕔ)</B></TD>
+      <TD bgcolor="#ffff00"><B>httpd.conf (Apache 2.0用: 一部)</B></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -162,7 +162,7 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
   <TBODY>
     <TR>
       <TD>
-      <pre>    # LDAP�̂��߂̐ݒ�I
+      <pre>    # LDAPのための設定！
     AuthType          Basic
     AuthName          &quot;LDAP Login&quot;
     AuthLDAPEnabled   on
@@ -180,7 +180,7 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><B>httpd.conf (Apache 2.2�p: �ꕔ)</B></TD>
+      <TD bgcolor="#ffff00"><B>httpd.conf (Apache 2.2用: 一部)</B></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -188,7 +188,7 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
   <TBODY>
     <TR>
       <TD>
-      <PRE>    # LDAP�̂��߂̐ݒ�I
+      <PRE>    # LDAPのための設定！
     AuthType          Basic
     AuthName          &quot;LDAP Login&quot;
     AuthBasicProvider ldap
@@ -201,9 +201,9 @@ LoadModule sspi_auth_module modules/mod_auth_sspi.so
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>���Ȃ݂ɁA����ɂ͉��P�̗]�n������܂��B</P>
+<P>ちなみに、これには改善の余地があります。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

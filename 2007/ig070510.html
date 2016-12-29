@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/05/10 ���L: Java: �T���v��: �g���v��DES �A���S���Y���ɂ��t�@�C���Í���</TITLE>
-<META name="DESCRIPTION" content="Java�� �g���v��DES (Triple DES) �A���S���Y���ɂ��t�@�C���Í����c�[���̃g�C�v���O�������ȒP�ɍ���Ă݂܂����B">
-<META name="KEYWORDS" content="DES,DESede,�g���v��DES,�Í���,Java,JSSE,JCA">
+<TITLE>2007/05/10 日記: Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</TITLE>
+<META name="DESCRIPTION" content="Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。">
+<META name="KEYWORDS" content="DES,DESede,トリプルDES,暗号化,Java,JSSE,JCA">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/05/10 ���L: Java: �T���v��: �g���v��DES �A���S���Y���ɂ��t�@�C���Í���</H2>
-    <P>[DES,DESede,�g���v��DES,�Í���,Java,JSSE,JCA] Java�� �g���v��DES (Triple DES) �A���S���Y���ɂ��t�@�C���Í����c�[���̃g�C�v���O�������ȒP�ɍ���Ă݂܂����B</P>
+    <H2>2007/05/10 日記: Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</H2>
+    <P>[DES,DESede,トリプルDES,暗号化,Java,JSSE,JCA] Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,22 +60,22 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: �T���v��: �g���v��DES �A���S���Y���ɂ��t�@�C���Í���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java�� �g���v��DES (Triple DES) �A���S���Y���ɂ��t�@�C���Í����c�[���̃g�C�v���O�������ȒP�ɍ���Ă݂܂����B����̃\�[�X�R�[�h���������Ă����܂��B</P>
-<P>�|�C���g</P>
+<P>Javaで トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツールのトイプログラムを簡単に作ってみました。これのソースコードをメモしておきます。</P>
+<P>ポイント</P>
 <UL>
-  <LI>JDK 5.0 ��API�݂̂ō\��
-  <LI>�Í������� SHA-256�_�C�W�F�X�g�l�ō쐬<BR>
-  �Z���Í������̎�̎����͂����Ƃ��Ă��A�_�C�W�F�X�g�l�̗p�ɂ���ď\���ȃr�b�g���𓾂邱�Ƃ��o���܂��B
-  <LI>�p�X���[�h���Ԉ�����ꍇ�ɂ�<STRONG>���x���Ő���I��</STRONG><BR>
-  ������ɂ��p�X���[�h�N���b�N�̃��X�N��ጸ�����邽�߂ɕK�v�Ȃ��Ƃ��Ǝ��͍l���܂����B
-  <LI>�g���v��DES�A���S���Y���̗p<BR>
-  AES�� Java 6�ȍ~�ł̒񋟂ɂȂ��Ă��܂��BJDK 5.0���S���̌���ł� �g���v��DES�A���S���Y���̗̍p���Ó��ƍl���܂����B
-  <LI>TODO: �t�@�C�������ɑ��݂���Ƃ��̕������ɂ��āA���݂͋��s����悤�ɂȂ��Ă��܂��B<BR>
-  ����́A�ُ�I�������Ƃ���̂��ǂ��������ꂢ�܂���B
+  <LI>JDK 5.0 のAPIのみで構成
+  <LI>暗号化鍵を SHA-256ダイジェスト値で作成<BR>
+  短い暗号化鍵の種の種を入力したとしても、ダイジェスト値採用によって十分なビット長を得ることが出来ます。
+  <LI>パスワードを間違った場合には<STRONG>無警告で正常終了</STRONG><BR>
+  総当りによるパスワードクラックのリスクを低減化するために必要なことだと私は考えました。
+  <LI>トリプルDESアルゴリズム採用<BR>
+  AESは Java 6以降での提供になっています。JDK 5.0が全盛の現状では トリプルDESアルゴリズムの採用が妥当と考えました。
+  <LI>TODO: ファイルが既に存在するときの復号化について、現在は強行するようになっています。<BR>
+  これは、異常終了扱いとするのが良いかもしれいません。
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -89,7 +89,7 @@
   <TBODY>
     <TR>
       <TD><pre>/**
- * �g���v��DES (Triple DES) �A���S���Y���ɂ��t�@�C���Í����c�[���B
+ * トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツール。
  */
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -113,33 +113,33 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESedeKeySpec;
 
 /**
- * �g���v��DES (Triple DES) �A���S���Y���ɂ��t�@�C���Í����c�[���B
+ * トリプルDES (Triple DES) アルゴリズムによるファイル暗号化ツール。
  * 
- * �t�@�C���̊g���q�ɂ��A�Í����^�������̔��f�������Ȃ��悤�ɂȂ��Ă��܂��B
+ * ファイルの拡張子により、暗号化／復号化の判断をおこなうようになっています。
  * 
- * @author �ɉ�q��
+ * @author 伊賀敏樹
  * @version 2007.05.10
  */
 public class BlancoDesede {
     /**
-     * ���p����A���S���Y���B
+     * 利用するアルゴリズム。
      */
     private static final String ALGORITHM = &quot;DESede&quot;;
 
     /**
-     * �Í�����̃t�@�C���ɕt�^����镶����B
+     * 暗号化後のファイルに付与される文字列。
      */
     private static final String ENCRYPTED_FILE_EXT = &quot;.blancodesede&quot;;
 
     private static final String KEY_DIGEST_ALGORITHM = &quot;SHA-256&quot;;
 
     /**
-     * �p�X���[�h�B�ꎞ�I�ɋL�����Ă������߂ɂ��̃t�B�[���h�ϐ��𗘗p���܂��B
+     * パスワード。一時的に記憶しておくためにこのフィールド変数を利用します。
      */
     private String fPass = null;
 
     /**
-     * �p�X���[�h��ݒ肵�܂��B
+     * パスワードを設定します。
      * 
      * @param argPass
      */
@@ -148,26 +148,26 @@ public class BlancoDesede {
     }
 
     /**
-     * ���̃c�[���̎g���������ł��B
+     * このツールの使い方説明です。
      */
     private static final void usage() {
         System.out.println(&quot;Usage:&quot;);
-        System.out.println(&quot;  �Í���: java BlancoDesede ���̓t�@�C�� password&quot;);
-        System.out.println(&quot;  ������: java BlancoDesede ���̓t�@�C��&quot;
+        System.out.println(&quot;  暗号化: java BlancoDesede 入力ファイル password&quot;);
+        System.out.println(&quot;  復号化: java BlancoDesede 入力ファイル&quot;
                 + ENCRYPTED_FILE_EXT + &quot; password&quot;);
-        System.out.println(&quot;���t�@�C�����ɂ͋󔒂��܂܂Ȃ��悤�ɂ��Ă��������B&quot;);
-        System.out.println(&quot;���g���q�� [&quot; + ENCRYPTED_FILE_EXT + &quot;]&quot;
-                + &quot; �̏ꍇ�ɂ͕��������[�h�Ɣ��f���܂��B&quot;);
+        System.out.println(&quot;※ファイル名には空白を含まないようにしてください。&quot;);
+        System.out.println(&quot;※拡張子が [&quot; + ENCRYPTED_FILE_EXT + &quot;]&quot;
+                + &quot; の場合には復号化モードと判断します。&quot;);
     }
 
     /**
-     * ���̃N���X�̃G���g���|�C���g�B
+     * このクラスのエントリポイント。
      * 
      * @param args
      */
     public static void main(final String[] args) {
         if (args.length &lt; 2) {
-            // �����̐�������܂���B
+            // 引数の数が足りません。
             usage();
             return;
         }
@@ -177,42 +177,42 @@ public class BlancoDesede {
 
         final String inFileName = args[0];
 
-        System.out.println(&quot;�t�@�C�����������܂��B����[&quot; + inFileName + &quot;]&quot;);
+        System.out.println(&quot;ファイルを処理します。入力[&quot; + inFileName + &quot;]&quot;);
 
         if (new File(inFileName).exists() == false) {
-            System.out.println(&quot;�w��̃t�@�C��[&quot; + inFileName + &quot;]�͌�����܂���B�������f���܂��B&quot;);
+            System.out.println(&quot;指定のファイル[&quot; + inFileName + &quot;]は見つかりません。処理中断します。&quot;);
             return;
         }
 
         try {
             if (inFileName.endsWith(ENCRYPTED_FILE_EXT) == false) {
-                System.out.println(&quot;  ���[�h:�Í���&quot;);
+                System.out.println(&quot;  モード:暗号化&quot;);
                 angou.encrypt(new File(inFileName), new File(inFileName
                         + ENCRYPTED_FILE_EXT));
             } else {
-                System.out.println(&quot;  ���[�h:������&quot;);
+                System.out.println(&quot;  モード:復号化&quot;);
                 angou.decrypt(new File(inFileName), new File(inFileName
                         .substring(0, inFileName.length()
                                 - ENCRYPTED_FILE_EXT.length())));
             }
 
-            System.out.println(&quot;���������B&quot;);
+            System.out.println(&quot;処理完了。&quot;);
         } catch (IOException e) {
-            System.out.println(&quot;���o�͗�O���������܂����B�������f���܂��B:&quot; + e.toString());
+            System.out.println(&quot;入出力例外が発生しました。処理中断します。:&quot; + e.toString());
             e.printStackTrace();
         }
     }
 
     /**
-     * �^����ꂽ����������Ƃɔ閧�����쐬���܂��B
+     * 与えられた文字列をもとに秘密鍵を作成します。
      * 
      * @param strKey
-     *            �閧���̎�ƂȂ镶����B
+     *            秘密鍵の種となる文字列。
      * @return
      */
     private SecretKey getSecretKey(final String strKey) {
-        // ���̎���_�C�W�F�X�g�����Č��Ƃ��ė��p���܂��B
-        // �|�C���g: SHA-256��32�o�C�g����̂ŁADESede�ŕK�v�ƂȂ�24�o�C�g��蒷���̂œs�����ǂ��B
+        // 鍵の種をダイジェスト化して鍵として利用します。
+        // ポイント: SHA-256は32バイトあるので、DESedeで必要となる24バイトより長いので都合が良い。
         final byte[] digestedKey;
         try {
             final MessageDigest msgDigest = MessageDigest
@@ -221,11 +221,11 @@ public class BlancoDesede {
             digestedKey = msgDigest.digest();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�_�C�W�F�X�g[&quot; + KEY_DIGEST_ALGORITHM
-                    + &quot;]�擾�Ɏ��s���܂����B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ダイジェスト[&quot; + KEY_DIGEST_ALGORITHM
+                    + &quot;]取得に失敗しました。:&quot; + e.toString());
         }
 
-        // ���ۂɗ��p����L�[���쐬���܂��B
+        // 実際に利用するキーを作成します。
         final byte[] keySeed = new byte[24];
         for (int index = 0; index &lt; keySeed.length; index++) {
             keySeed[index] = digestedKey[index];
@@ -237,19 +237,19 @@ public class BlancoDesede {
             return factory.generateSecret(new DESedeKeySpec(keySeed));
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�A���S���Y���̎擾�Ɏ��s���܂����B:&quot;
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�閧�����s���ł��B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;秘密鍵が不正です。:&quot; + e.toString());
         } catch (InvalidKeySpecException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�閧���̎d�l���s���ł��B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;秘密鍵の仕様が不正です。:&quot; + e.toString());
         }
     }
 
     /**
-     * �Í����������Ȃ��܂��B
+     * 暗号化をおこないます。
      * 
      * @param inFile
      * @param outFile
@@ -277,20 +277,20 @@ public class BlancoDesede {
             inStream.close();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�A���S���Y���̎擾�Ɏ��s���܂����B:&quot;
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
                     + e.toString());
         } catch (NoSuchPaddingException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�p�f�B���O�s���Ŏ��s���܂����B:&quot;
+            throw new IllegalArgumentException(&quot;パディング不正で失敗しました。:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�閧���s���Ŏ��s���܂����B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;秘密鍵不正で失敗しました。:&quot; + e.toString());
         }
     }
 
     /**
-     * ���������s���܂��B
+     * 復号化を行います。
      * 
      * @param inFile
      * @param outFile
@@ -316,20 +316,20 @@ public class BlancoDesede {
             outStream.close();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�A���S���Y���̎擾�Ɏ��s���܂����B:&quot;
+            throw new IllegalArgumentException(&quot;アルゴリズムの取得に失敗しました。:&quot;
                     + e.toString());
         } catch (NoSuchPaddingException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�p�f�B���O�s���Ŏ��s���܂����B:&quot;
+            throw new IllegalArgumentException(&quot;パディング不正で失敗しました。:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;�閧���s���Ŏ��s���܂����B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;秘密鍵不正で失敗しました。:&quot; + e.toString());
         }
     }
 
     /**
-     * �X�g���[�����R�s�[���܂��B
+     * ストリームをコピーします。
      * 
      * @param inStream
      * @param outStream
@@ -351,11 +351,11 @@ public class BlancoDesede {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff0000">2007.10.17�ǋL</FONT> ���̃\�[�X�R�[�h�� <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> �� <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption" TITLE="�Í����E���������ȒP�ɗ��p�ł���悤�ɂ��邽�߂�Java���C�u����(jar�t�@�C��)�ł��B
+<P><FONT color="#ff0000">2007.10.17追記</FONT> このソースコードは <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption" TITLE="暗号化・復号化を簡単に利用できるようにするためのJavaライブラリ(jarファイル)です。
 ">blancoEncryption</A>
-�ւƔ��W���܂����B</P>
+へと発展しました。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

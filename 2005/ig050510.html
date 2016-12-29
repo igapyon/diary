@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/05/10 ���L: R/O�}�b�s���O��` 2005.05.10��</TITLE>
-<META name="DESCRIPTION" content="R/O�}�b�s���O�ɂ��āA���̒�`���L�ڂ��܂����B , NT�T�[�r�X �A�N�Z�X Eclipse�v���O�C���̂悤�Ȃ��̂��ق����� �ӂƎv���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/05/10 日記: R/Oマッピング定義 2005.05.10版</TITLE>
+<META name="DESCRIPTION" content="R/Oマッピングについて、この定義を記載しました。 , NTサービス アクセス Eclipseプラグインのようなものがほしいと ふと思いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/05/10 ���L: R/O�}�b�s���O��` 2005.05.10��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] R/O�}�b�s���O�ɂ��āA���̒�`���L�ڂ��܂����B , NT�T�[�r�X �A�N�Z�X Eclipse�v���O�C���̂悤�Ȃ��̂��ق����� �ӂƎv���܂����B</P>
+    <H2>2005/05/10 日記: R/Oマッピング定義 2005.05.10版</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] R/Oマッピングについて、この定義を記載しました。 , NTサービス アクセス Eclipseプラグインのようなものがほしいと ふと思いました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,55 +60,55 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>R/O�}�b�s���O��` 2005.05.10��</STRONG></FONT></TD>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>R/Oマッピング定義 2005.05.10版</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���L�̎d�l��<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�ƌĂԂ��Ƃƒ�`���܂��B�܂� R/O�}�b�s���O�c�[���Ƃ͉��L�̎d�l�𖞂������̂��w���܂��B</P>
+<P>下記の仕様を<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>と呼ぶことと定義します。また R/Oマッピングツールとは下記の仕様を満たすものを指します。</P>
 <UL>
-  <LI>�����[�V���i���f�[�^�x�[�X�w���ł���B
+  <LI>リレーショナルデータベース指向である。
   <UL>
-    <LI>�����[�V���i���f�[�^�x�[�X��̌^���A�����I�ɓ���̃I�u�W�F�N�g�^�Ƀ}�b�s���O����B
-    <LI>�����[�V���i���f�[�^�x�[�X�̃J�[�\�������p�ł���B
-    <LI>�����[�V���i���f�[�^�x�[�X�����@�\�E���\��j�Q���Ȃ��B
+    <LI>リレーショナルデータベース上の型を、強制的に特定のオブジェクト型にマッピングする。
+    <LI>リレーショナルデータベースのカーソルが利用できる。
+    <LI>リレーショナルデータベースが持つ機能・性能を阻害しない。
   </UL>
-  <LI>ANSI SQL (����������܂���SQL��) �𗘗p����B
+  <LI>ANSI SQL (ごくあたりまえのSQL文) を利用する。
   <UL>
-    <LI>�e�탍�b�N���K�؂ɗ��p�ł���B(�s���b�N�A�X�V�p�̌���)
-    <LI>NULL���e���K�؂Ɉ������Ƃ��ł���BNULL��NULL�Ƃ��ē��o�͂��ł���B
+    <LI>各種ロックが適切に利用できる。(行ロック、更新用の検索)
+    <LI>NULL許容列を適切に扱うことができる。NULLはNULLとして入出力ができる。
   </UL>
-  <LI>�g�����U�N�V�������K�؂Ɉ�����B
+  <LI>トランザクションが適切に扱える。
   <UL>
-    <LI>�g�����U�N�V�����̃R�~�b�g�ƃ��[���o�b�N��C�ӂ̃^�C�~���O�ŌĂяo�����Ƃ��ł���B
-    <LI>�g�����U�N�V�����������x����K�؂Ɉ������Ƃ��ł���B
+    <LI>トランザクションのコミットとロールバックを任意のタイミングで呼び出すことができる。
+    <LI>トランザクション分離レベルを適切に扱うことができる。
   </UL>
-  <LI>����������ʂ��펯�I�ł��邱�ƁB
+  <LI>メモリ消費量が常識的であること。
   <UL>
-    <LI>���������������Ă�����������ʂ����`�ɂ͑����Ȃ����ƁB
-    <LI>Stream��Reader��K�؂ɗ��p���A�傫�ȃf�[�^���ʃf�[�^�������Ă���������ɂ͓W�J���Ȃ��B
+    <LI>処理件数が増えてもメモリ消費量が線形には増えないこと。
+    <LI>StreamやReaderを適切に利用し、大きなデータや大量データを扱ってもメモリ上には展開しない。
   </UL>
-  <LI>�X�g�A�h�v���V�[�W���Ăяo���ɓK�؂ɑΉ�����B
+  <LI>ストアドプロシージャ呼び出しに適切に対応する。
 </UL>
-<P>�Ȃ��A���̋L�ڂ� ���������X�V���Ă����\��ł��B�ŐV�ł͉��L�̃y�[�W�œ��邱�Ƃ��ł��܂��B</P>
+<P>なお、この記載は 引き続き更新していく予定です。最新版は下記のページで得ることができます。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050421.html">2005/04/21 ���L: blancoDb Enterprise Edition 0.8.1 ��1�����[�X</A>
-  <LI><A href="../2004/ig040121.html">2004/01/21 ���L: �\�[�X�R�[�h�����^�C�v��R-O�}�b�s���O���J�����܂��񂩁H</A>
+  <LI><A href="ig050421.html">2005/04/21 日記: blancoDb Enterprise Edition 0.8.1 β1リリース</A>
+  <LI><A href="../2004/ig040121.html">2004/01/21 日記: ソースコード生成タイプのR-Oマッピングを開発しませんか？</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NT�T�[�r�X �A�N�Z�X Eclipse�v���O�C�����ق����c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NTサービス アクセス Eclipseプラグインがほしい…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Eclipse��ō�Ƃ����Ă��āA�ӂ� NT�T�[�r�X�E�A�N�Z�X���s���Ă���� Eclipse�v���O�C�����ق����Ɗ����܂����B������ƒT�����Č�����Ȃ�������A���삵�Ă݂悤�Ǝv���܂��B<BR>
-���l�ɁA���W�X�g���A�N�Z�X Eclipse�v���O�C���ɂ������������܂����B�Ȃ�ł�Eclipse��ő���ł����炨�����낢�̂ł͖������Ɩ͍����ł��B</P>
+<P>Eclipse上で作業をしていて、ふと NTサービス・アクセスを行ってくれる Eclipseプラグインがほしいと感じました。ちょっと探索して見つからなかったら、自作してみようと思います。<BR>
+同様に、レジストリアクセス Eclipseプラグインにも興味を感じました。なんでもEclipse上で操作できたらおもしろいのでは無いかと模索中です。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

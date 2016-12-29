@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/06/13 ���L: SQL�R�[�f�B���O�K�� (�������K��) ����v���W�F�N�g</TITLE>
-<META name="DESCRIPTION" content="SQL�R�[�f�B���O�K�� (�������K��) �ɂ��āA��������肷���Ƃɒ��肵�܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/06/13 日記: SQLコーディング規約 (字下げ規約) 策定プロジェクト</TITLE>
+<META name="DESCRIPTION" content="SQLコーディング規約 (字下げ規約) について、これを策定する作業に着手しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/06/13 ���L: SQL�R�[�f�B���O�K�� (�������K��) ����v���W�F�N�g</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] SQL�R�[�f�B���O�K�� (�������K��) �ɂ��āA��������肷���Ƃɒ��肵�܂����B</P>
+    <H2>2005/06/13 日記: SQLコーディング規約 (字下げ規約) 策定プロジェクト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] SQLコーディング規約 (字下げ規約) について、これを策定する作業に着手しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,27 +60,27 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQL�R�[�f�B���O�K�� (�������K��) ����v���W�F�N�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQLコーディング規約 (字下げ規約) 策定プロジェクト</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����҂�񏟎�d�l�ɂ��SQL�R�[�f�B���O�K�� (�Ƃ������P�Ɏ��������[���ł���) �����蒅�肵�܂����B����� �����󂯓���P�̎����E���������Ȃǂɏ]�����Ă���ߒ��ŁA<STRONG>SQL���̎������ɂ��I�t�T�C�h�g���b�v</STRONG>�ɂ������Ĕ߂����v��������o�������������āA��������Ƃ� SQL���`�c�[���Ŗh�������A�Ƃ����̂���Ȓ��藝�R�ł��B</P>
-<P>�d�v�Ȃ��Ƃ́A�����Ō��܂��� SQL�R�[�f�B���O�K�� (�Ƃ������������K��) �Ɋ�Â��� SQL�p�[�T��SQL���`�c�[���A�ʂĂ� Eclipse�v���O�C���Ƃ�����
-Java����ɂ��������J�������(�炵��)�Ƃ������Ƃł��B(<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A>���J������킯�ł͂���܂��񂵁A<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A>��
-���̃X�L���͂���܂���)<BR>
-�Ƃ肠�������K�I��SQL�R�[�f�B���O�K��ɂ��čŒ���͑��d���ē��P�����AEclipse/Java���̃��[���������ӎ����Ȃ��� �܂��͑f�Ă��쐬�J�n���܂����B</P>
-<P><FONT color="#ff00ff">����</FONT></P>
+<P>いがぴょん勝手仕様によるSQLコーディング規約 (というか単に字下げルールですが) を策定着手しました。これは 私が受け入れ単体試験・結合試験などに従事している過程で、<STRONG>SQL文の字下げによるオフサイドトラップ</STRONG>にかかって悲しい思いをする経験が多くあって、これを何とか SQL整形ツールで防ぎたい、というのが主な着手理由です。</P>
+<P>重要なことは、ここで決まった SQLコーディング規約 (というか字下げ規約) に基づいた SQLパーサやSQL整形ツール、果ては Eclipseプラグインといった
+Java言語による実装が開発される(らしい)ということです。(<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>が開発するわけではありませんし、<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>に
+そのスキルはありません)<BR>
+とりあえず慣習的なSQLコーディング規約について最低限は尊重して踏襲しつつも、Eclipse/Java風のルールも強く意識しながら まずは素案を作成開始しました。</P>
+<P><FONT color="#ff00ff">原則</FONT></P>
 <UL>
-  <LI>SQL�L�[���[�h�͑啶���Ƃ���B
-  <LI>4�����8�����̋󔒂ɂ�鎚�������s�����ƂƂ���B�^�u������ �N�I�[�g��R�����g���Ŗ�������A��{�I�Ƀz���C�g�X�y�[�X�Ƃ݂Ȃ��Ĕ��p�X�y�[�X�ɒu����������B
-  <LI>���񋓂���ۂɗ��p���� �J���}(,)�ɂ��ẮA�s�̐擪�ɕt���A�J���}�̌�ɋ󔒂͓���Ȃ��B<BR>
-  ������� �ǂ�ǂ�̊J������̑����ŗǂ��̗p�����R�[�f�B���O�K��Ȃ̂������ł��B
-  <LI>�����_�Ƃ��ẮAJava����̎����� (Eclipse�̃f�t�H���g�̐��`) ���Q�l�ɂ���B
-  <LI>�ǂ�ǂ��SQL���ł� �񐔂Ȃǂ��₽��ɑ������Ƃ�����̂ŁA���� �S�Ă̗�ɂ��ĉ��s���ĕ\������B<BR>
-  �t�ɁA�P�s�̍ő�̒����ɂ��ẮA������K�肵�Ȃ��B
-  <LI>�J�b�R '(', ')' �ɂ��ẮAJava���̉��s����ю��������Q�l�Ƃ���B(ANSI-C���ł͂Ȃ��_�ɒ���)
+  <LI>SQLキーワードは大文字とする。
+  <LI>4および8文字の空白による字下げを行うこととする。タブ文字は クオートやコメント内で無い限り、基本的にホワイトスペースとみなして半角スペースに置き換えられる。
+  <LI>列を列挙する際に利用する カンマ(,)については、行の先頭に付け、カンマの後に空白は入れない。<BR>
+  →これは どろどろの開発現場の多くで良く採用されるコーディング規約なのだそうです。
+  <LI>原則論としては、Java言語の字下げ (Eclipseのデフォルトの整形) を参考にする。
+  <LI>どろどろのSQL文では 列数などがやたらに多いことがあるので、原則 全ての列について改行して表現する。<BR>
+  逆に、１行の最大の長さについては、これを規定しない。
+  <LI>カッコ '(', ')' については、Java風の改行および字下げを参考とする。(ANSI-C風ではない点に注目)
 </UL>
-<P><FONT color="#ff00ff">SELECT ����1</FONT></P>
+<P><FONT color="#ff00ff">SELECT その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -459,16 +459,16 @@ Java����ɂ��������J�������(�炵��)�Ƃ������Ƃł��B(<A HREF="http://www.igapy
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: SELECT�L�[���[�h�͐擪�Ɉʒu�Â��BFROM, WHERE�Ȃǂ� 4�������B�\���A�񖼂Ȃǂ� 8�������B�J���}�ɂ��Ă�SQL�̓`�����d��(Java�Ƃ͈قȂ�)�A��ɂ���悤�ɂ���BOR�ɂ���
-Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
+※ポイント: SELECTキーワードは先頭に位置づけ。FROM, WHEREなどは 4字下げ。表名、列名などは 8字下げ。カンマについてはSQLの伝統を重んじ(Javaとは異なり)、先につけるようにする。ORについて
+Java言語の || と同様のものであると認識し、同様の字下げとする。
 <UL>
-  <LI>ORDER BY �ȊO�� GROUP BY �ɂ��Ή����K�v�B
-  <LI>DISTINCT �L�[���[�h�ւ̑Ή����K�v�B
-  <LI>�P��̍��ڂ��܂ޏꍇ�� �J�b�R() �ɂ��ẮA�ʈ����Ƃ��� ���s���܂܂Ȃ��B
-  <LI>IN�L�[���[�h�ւ̑Ή����K�v�B����ȊO�ɂ� IN�Œl��񋓂���`��AIN�̌㑱��SELECT���������`�����邱�Ƃɒ��ӁB
+  <LI>ORDER BY 以外に GROUP BY にも対応が必要。
+  <LI>DISTINCT キーワードへの対応が必要。
+  <LI>単一の項目を含む場合の カッコ() については、別扱いとして 改行を含まない。
+  <LI>INキーワードへの対応も必要。それ以外にも INで値を列挙する形や、INの後続にSELECT文を書く形があることに注意。
 </UL>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">INSERT ����1</FONT></P>
+<P><FONT color="#ff00ff">INSERT その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -625,9 +625,9 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: INSERT�L�[���[�h�͐擪�Ɉʒu�Â��BINTO, VALUES�Ȃǂ� 4�������B�ۃJ�b�R'(' ')' �ɂ��ẮAJava�����
-'{', '}' �̎��������[�����̗p</BLOCKQUOTE>
-<P><FONT color="#ff00ff">INSERT ����2</FONT></P>
+※ポイント: INSERTキーワードは先頭に位置づけ。INTO, VALUESなどは 4字下げ。丸カッコ'(' ')' については、Java言語の
+'{', '}' の字下げルールを採用</BLOCKQUOTE>
+<P><FONT color="#ff00ff">INSERT その2</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -1266,13 +1266,13 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: INSERT�L�[���[�h�͐擪�Ɉʒu�Â��BINTO, VALUES�Ȃǂ� 4�������B�ۃJ�b�R'(' ')' �ɂ��ẮAJava�����
-'{', '}' �̎��������[�����̗p�B
+※ポイント: INSERTキーワードは先頭に位置づけ。INTO, VALUESなどは 4字下げ。丸カッコ'(' ')' については、Java言語の
+'{', '}' の字下げルールを採用。
 <UL>
-  <LI>�\���E�񖼂� �_�u���N�I�[�g(&quot;)�ň͂ނ��Ƃ��\�B�_�u���N�I�[�g���� �󔒂Ȃǂ����蓾�܂��B�_�u���N�I�[�g��V���O���N�I�[�g�̉ӏ��ɂ��ẮA���`�͍s��Ȃ��B
+  <LI>表名・列名は ダブルクオート(&quot;)で囲むことが可能。ダブルクオート内は 空白などが入り得ます。ダブルクオートやシングルクオートの箇所については、整形は行わない。
 </UL>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">UPDATE ����1</FONT></P>
+<P><FONT color="#ff00ff">UPDATE その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -1688,8 +1688,8 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: UPDATE�L�[���[�h�͐擪�Ɉʒu�Â��BSET�Ȃǂ� 4�������B</BLOCKQUOTE>
-<P><FONT color="#ff00ff">DELETE ����1</FONT></P>
+※ポイント: UPDATEキーワードは先頭に位置づけ。SETなどは 4字下げ。</BLOCKQUOTE>
+<P><FONT color="#ff00ff">DELETE その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -2111,13 +2111,13 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: DELETE�L�[���[�h�͐擪�Ɉʒu�Â��BFROM, WHERE�Ȃǂ� 4�������B
+※ポイント: DELETEキーワードは先頭に位置づけ。FROM, WHEREなどは 4字下げ。
 <UL>
-  <LI>-- ����n�܂镶����͈�s�R�����g�Ȃ̂ŁA�s���܂ł��̂܂܂Ƃ��A�R�����g�����͐��`���Ȃ��B
-  <LI>/* */ �ň͂܂ꂽ�ꏊ�͕����s�R�����g�B�J�n�����񂩂�I��������܂ł͐��`���Ȃ��B
+  <LI>-- から始まる文字列は一行コメントなので、行末までそのままとし、コメント部分は整形しない。
+  <LI>/* */ で囲まれた場所は複数行コメント。開始文字列から終了文字列までは整形しない。
 </UL>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">UNION ����1</FONT></P>
+<P><FONT color="#ff00ff">UNION その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -3839,8 +3839,8 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: UNION��SELECT�L�[���[�h�͐擪�Ɉʒu�Â��B</BLOCKQUOTE>
-<P><FONT color="#ff00ff">�T�u�N�G�� ����1</FONT></P>
+※ポイント: UNIONとSELECTキーワードは先頭に位置づけ。</BLOCKQUOTE>
+<P><FONT color="#ff00ff">サブクエリ その1</FONT></P>
 <BLOCKQUOTE>
 <TABLE border="0">
   <TBODY>
@@ -4990,24 +4990,24 @@ Java����� || �Ɠ��l�̂��̂ł���ƔF�����A���l�̎������Ƃ���B
     </TR>
   </TBODY>
 </TABLE>
-���|�C���g: �T�u�N�G���ɂ��āA( ) �J�b�R�̓��������܂��K�p���Ĕĉ��������[����K�p���邱�ƁB</BLOCKQUOTE>
-<P><FONT color="#ff0000">2005.06.14</FONT> <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Framework�R�~�b�^�̂ЂƂ�B">ymoto</A>����̃t�B�[�h�o�b�N�𔽉f</P>
-<P><FONT color="#ff0000">2006.05.10�ǋL</FONT> �����ō��肳�ꂽ�R�[�f�B���O�K��ɏ]����SQL���`���C�u��������������<A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>��ASQL���`Eclipse�v���O�C����<A HREF="http://www.igapyon.jp/blanco/blancosqleditorplugin.html" TITLE="SQL���𐮌`����Ecilpse�v���O�C���ł��BEclipse��� sql�g���q�Ɗ֘A�Â���ꂽ SQL�G�f�B�^�Ƃ��ē��삵�܂��B">BlancoSqlEditorPlugin</A> �Ȃǂ� <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> ����񋟂���Ă��܂��B</P>
-<P><FONT color="#ff00ff">�֘A���郊�\�[�X</FONT></P>
+※ポイント: サブクエリについて、( ) カッコの動きをうまく適用して汎化したルールを適用すること。</BLOCKQUOTE>
+<P><FONT color="#ff0000">2005.06.14</FONT> <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんのフィードバックを反映</P>
+<P><FONT color="#ff0000">2006.05.10追記</FONT> ここで策定されたコーディング規約に従ったSQL整形ライブラリを実現する<A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A>や、SQL整形Eclipseプラグインの<A HREF="http://www.igapyon.jp/blanco/blancosqleditorplugin.html" TITLE="SQL文を整形するEcilpseプラグインです。Eclipse上で sql拡張子と関連づけられた SQLエディタとして動作します。">BlancoSqlEditorPlugin</A> などが <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> から提供されています。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
 <UL>
-  <LI>a-san�̓��L: 2005/05/25<BR>
+  <LI>a-sanの日記: 2005/05/25<BR>
   <A HREF="http://d.hatena.ne.jp/a-san/20050525">http://d.hatena.ne.jp/a-san/20050525</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050729.html">2005/07/29 ���L: SQL�𐮌`����Eclipse�v���O�C�� - BlancoSqlEditorPlugin ���̐����Ń����[�X</A><BR>
-  Eclipse�p SQL���`�v���O�C���̐����ł������[�X���܂����B
-  <LI><A href="ig050704.html">2005/07/04 ���L: Java�ŏ����ꂽ�t���[��SQL���`���C�u�����uBlancoSqlFormatter�v���Ń����[�X</A>
-  <LI><A href="ig050524.html">2005/05/24 ���L: Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����c</A>
-  <LI><A href="ig050328.html">2005/03/28 ���L: SQL���`Eclipse�v���O�C��������] , �ԕ��ǂ̏Ǐ󂪖��ځc</A>
+  <LI><A href="ig050729.html">2005/07/29 日記: SQLを整形するEclipseプラグイン - BlancoSqlEditorPlugin 初の正式版リリース</A><BR>
+  Eclipse用 SQL整形プラグインの正式版をリリースしました。
+  <LI><A href="ig050704.html">2005/07/04 日記: Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」β版リリース</A>
+  <LI><A href="ig050524.html">2005/05/24 日記: Javaで書かれたフリーなSQL自動整形ツールが欲しい…</A>
+  <LI><A href="ig050328.html">2005/03/28 日記: SQL整形Eclipseプラグイン情報を希望 , 花粉症の症状が満載…</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

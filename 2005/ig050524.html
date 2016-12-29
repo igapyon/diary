@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/05/24 ���L: Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����c</TITLE>
-<META name="DESCRIPTION" content="Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����ł��B�Ɋ����܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/05/24 日記: Javaで書かれたフリーなSQL自動整形ツールが欲しい…</TITLE>
+<META name="DESCRIPTION" content="Javaで書かれたフリーなSQL自動整形ツールが欲しいです。痛感しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/05/24 ���L: Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����c</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����ł��B�Ɋ����܂����B</P>
+    <H2>2005/05/24 日記: Javaで書かれたフリーなSQL自動整形ツールが欲しい…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Javaで書かれたフリーなSQL自動整形ツールが欲しいです。痛感しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,87 +60,87 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����ł�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaで書かれたフリーなSQL自動整形ツールが欲しいです</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java�ŏ����ꂽ�t���[��SQL�������`�c�[�����~�����ł��B�Ɋ����܂����B<BR>
-���ɁA������x�ȏ�̋K�͂ŁA�T�u�N�G���� () ����g����͂��߂�ƁA���������邾���ł� ���Ȃ��Փx�����ł��B</P>
-<P>����ł��Ȃ����v�����Ă݂܂��B(�ړI�Ǝ�i���������Ȃ��悤�ɒ��ӂ͕K�v�ł��ˁc)<BR>
-�������SQL�R�[�f�B���O���[���� �ɉ�̏���d�l�ɂ����̂ɂȂ邱�Ƃł��傤 (���)</P>
-<P>�Ƃ������ƂŎ�n�߂�SQL��BNF��T���Ă݂܂����B���΂炵���������������������邱�Ƃ��ł��܂����B</P>
+<P>Javaで書かれたフリーなSQL自動整形ツールが欲しいです。痛感しました。<BR>
+特に、ある程度以上の規模で、サブクエリや () が駆使されはじめると、字下げするだけでも かなり難易度高いです。</P>
+<P>試作できないか思索してみます。(目的と手段が混乱しないように注意は必要ですね…)<BR>
+もちろんSQLコーディングルールは 伊賀の勝手仕様によるものになることでしょう (苦笑)</P>
+<P>ということで手始めにSQLのBNFを探してみました。すばらしい資料をいくつも見かけることができました。</P>
 <UL>
-  <LI>SQL BNF (�e�L�X�g�`��)<BR>
+  <LI>SQL BNF (テキスト形式)<BR>
   <A HREF="http://www.contrib.andrew.cmu.edu/~shadow/sql/sql2bnf.aug92.txt">http://www.contrib.andrew.cmu.edu/~shadow/sql/sql2bnf.aug92.txt</A>
-  <LI>SQL BNF (html�`��)<BR>
+  <LI>SQL BNF (html形式)<BR>
   <A HREF="http://www.vieka.com/esqldoc/sql92bnf.htm">http://www.vieka.com/esqldoc/sql92bnf.htm</A>
-  <LI>�����I����: SQL BNF<BR>
+  <LI>およよ的生活: SQL BNF<BR>
   <A HREF="http://www11.plala.or.jp/sotsuken/db/sql.html">http://www11.plala.or.jp/sotsuken/db/sql.html</A>
 </UL>
-<P><FONT color="#ff0000">2005.05.26�ǋL</FONT> <A href="http://d.hatena.ne.jp/a-san/">a-san</A>�̂����͂����������邱�ƂɂȂ����̂ŁA�܂��� �����҂�񏟎�SQL�R�[�f�B���O���[�����쐬���邱�Ƃ���n�߂܂��B�������̂��� SQL�̐��E�̓`���I�R�[�f�B���O���[������������Y�ꋎ���āA�Ⴆ��
-Java�̃u���b�N�̊T�O�Ɏ����R�[�f�B���O���[�����쐬���Ă��܂��A�Ƃ����̂����d������ǋ����[�����݂����m��܂���B�ȂǂƖϑz���c�B</P>
-<P><FONT color="#ff0000">2005.05.31�ǋL</FONT> mars����̓��L�� ���낢���SQL���`�c�[���̋L�ڂ�����܂��� (�������Ă��������A���肪�Ƃ��������܂�)</P>
+<P><FONT color="#ff0000">2005.05.26追記</FONT> <A href="http://d.hatena.ne.jp/a-san/">a-san</A>のご協力をいただけることになったので、まずは いがぴょん勝手SQLコーディングルールを作成することから始めます。いっそのこと SQLの世界の伝統的コーディングルールをいったん忘れ去って、例えば
+Javaのブロックの概念に似たコーディングルールを作成してしまう、というのも無謀だけれど興味深い試みかも知れません。などと妄想中…。</P>
+<P><FONT color="#ff0000">2005.05.31追記</FONT> marsさんの日記に いろいろなSQL整形ツールの記載がありました (反応していただき、ありがとうございます)</P>
 <UL>
-  <LI>mars����̓��L<BR>
+  <LI>marsさんの日記<BR>
   <A HREF="http://d.hatena.ne.jp/masanobuimai/20050524">http://d.hatena.ne.jp/masanobuimai/20050524</A>
 </UL>
-<P><FONT color="#ff0000">2006.05.10�ǋL</FONT> ����ɂ��⑫�B�����̎��g�݂̌��ʁASQL���`���C�u��������������<A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>��ASQL���`Eclipse�v���O�C����<A HREF="http://www.igapyon.jp/blanco/blancosqleditorplugin.html" TITLE="SQL���𐮌`����Ecilpse�v���O�C���ł��BEclipse��� sql�g���q�Ɗ֘A�Â���ꂽ SQL�G�f�B�^�Ƃ��ē��삵�܂��B">BlancoSqlEditorPlugin</A>
-�Ȃǂ� <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> ����񋟂���Ă��܂��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff0000">2006.05.10追記</FONT> 事後による補足。これらの取り組みの結果、SQL整形ライブラリを実現する<A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A>や、SQL整形Eclipseプラグインの<A HREF="http://www.igapyon.jp/blanco/blancosqleditorplugin.html" TITLE="SQL文を整形するEcilpseプラグインです。Eclipse上で sql拡張子と関連づけられた SQLエディタとして動作します。">BlancoSqlEditorPlugin</A>
+などが <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> から提供されています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig050729.html">2005/07/29 ���L: SQL�𐮌`����Eclipse�v���O�C�� - BlancoSqlEditorPlugin ���̐����Ń����[�X</A>
-  <LI><A href="ig050726.html">2005/07/26 ���L: BlancoSqlEditorPlugin - Eclipse�pSQL�G�f�B�^�E�v���O�C�� ���Ń����[�X</A>
-  <LI><A href="ig050613.html">2005/06/13 ���L: SQL�R�[�f�B���O�K�� (�������K��) ����v���W�F�N�g</A>
-  <LI><A href="ig050328.html">2005/03/28 ���L: SQL���`Eclipse�v���O�C��������] , �ԕ��ǂ̏Ǐ󂪖��ځc</A>
+  <LI><A href="ig050729.html">2005/07/29 日記: SQLを整形するEclipseプラグイン - BlancoSqlEditorPlugin 初の正式版リリース</A>
+  <LI><A href="ig050726.html">2005/07/26 日記: BlancoSqlEditorPlugin - Eclipse用SQLエディタ・プラグイン β版リリース</A>
+  <LI><A href="ig050613.html">2005/06/13 日記: SQLコーディング規約 (字下げ規約) 策定プロジェクト</A>
+  <LI><A href="ig050328.html">2005/03/28 日記: SQL整形Eclipseプラグイン情報を希望 , 花粉症の症状が満載…</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2000�̌������̌��ʃZ�b�g(�J�[�\��)�̋����ɔY�܂���c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2000の検索時の結果セット(カーソル)の挙動に悩まされ…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���� Java/JDBC�ɂ����āA�����ɂ��X�V�̂��߂̍s���b�N�̎��������Ă��ċ��낵�������ɋC�����܂����B(�C��������܂���) �X�V�̂��߂̌�����
-TYPE_FORWARD_ONLY ���w�莞�ɁA�Ȃ�� ���ʃZ�b�g�� ResultSet.TYPE_SCROLL_SENSITIVE ���w�肵���ۂƓ��l��
-���̃g�����U�N�V�����̍X�V���ʂ����f������ԂŊJ�����Ƃ������Ƃł��B</P>
+<P>今日 Java/JDBCにおいて、検索による更新のための行ロックの試験をしていて恐ろしい事実に気がつきました。(気がつかされました) 更新のための検索を
+TYPE_FORWARD_ONLY を指定時に、なんと 結果セットは ResultSet.TYPE_SCROLL_SENSITIVE を指定した際と同様の
+他のトランザクションの更新結果が反映される状態で開かれるということです。</P>
 <UL>
-  <LI><A href="ig050429.html">2005/04/29 ���L: Java: Microsoft SQL Server 2000 + JDBC �ɂ�����X�V���b�N�𔺂�����������эX�V�̎������@</A>
+  <LI><A href="ig050429.html">2005/04/29 日記: Java: Microsoft SQL Server 2000 + JDBC における更新ロックを伴った検索および更新の実現方法</A>
 </UL>
-<P>����͌��\���ɂ̓V���b�L���O�ł����B���΂炭 ��������܂����c�B<BR>
-�X�V�J�[�\���ł͂Ȃ��ꍇ�ɂ����l�ł���悤�ɂ��l�����܂��B�펯�I�ȑ��̃g�����U�N�V�����̍X�V���ʂ𔽉f���Ȃ��A����ꎞ�_�ł̃X�i�b�v�V���b�g�Ƃ��Ă̌��ʃZ�b�g���ێ������������s�������ꍇ�ɂ��A���l�Ȗ�肪��������悤�ɍl�����܂��B�܂�A���
-ResultSet.TYPE_SCROLL_INSENSITIVE ���w�肷��K�v������̂ł͂Ȃ��̂��A�Ƃ������Ƃł��B<BR>
-�����A��Փx�������ł��B����������ƍL�͈͂Ȏ��������߂Ď��{����K�v�������肻���ł��B�܂� ��ʓI�ɂ� JDBC�̃J�[�\���͍��������ړI�Ƃ��ď������J�[�\����I������ꍇ�������ƍl�����邩��ł��B������
-SQL Server��JDBC�h���C�o�� �������J�[�\������ ���̃g�����U�N�V�����̍X�V���ʂ𔽉f���Ă��܂��^�C�v�̌��ʃZ�b�g��߂��c�B����́A�Ȃɂ��Ȃ�ł�
-ResultSet.TYPE_SCROLL_INSENSITIVE ���w�肵�� �펯�I�ȓ���������Ă������ق����Ɩ��I�ɂ͈��S���ۂ��悤�Ɋ������܂��B�������������Ƃ���ƁA���x��
-���\�򉻂ɉe�����Ȃ����ǂ����̌��؂��K�v�ɂȂ��Ă��Ă��܂��܂��B���[��B���[��B</P>
-<P><FONT color="#ff0000">2005.05.26�ǋL</FONT> PostgreSQL 8.0.1�ł͏�L�̌��ۂ͔������܂���ł����B����ŁAResultSet.TYPE_SCROLL_SENSITIVE���w�肵�Ă��AINSERT�ɂ��s�ǉ��͑��̃g�����U�N�V�����ɂ͉e����^���܂���ł����B�A�A�A������ւ��JDBC�̎����́A�������Ƀ����[�V���i���f�[�^�x�[�X���ɈقȂ�悤�ł��ˁB�׋��ɂȂ�܂����B</P>
+<P>これは結構私にはショッキングでした。しばらく 頭を抱えました…。<BR>
+更新カーソルではない場合にも同様であるようにも考えられます。常識的な他のトランザクションの更新結果を反映しない、ある一時点でのスナップショットとしての結果セットを維持した検索を行いたい場合にも、同様な問題が発生するように考えられます。つまり、常に
+ResultSet.TYPE_SCROLL_INSENSITIVE を指定する必要があるのではないのか、ということです。<BR>
+ああ、難易度が高いです。もうちょっと広範囲な試験を改めて実施する必要性がありそうです。つまり 一般的には JDBCのカーソルは高速動作を目的として順方向カーソルを選択する場合が多いと考えられるからです。しかし
+SQL ServerのJDBCドライバは 順方向カーソルだと 他のトランザクションの更新結果を反映してしまうタイプの結果セットを戻す…。これは、なにがなんでも
+ResultSet.TYPE_SCROLL_INSENSITIVE を指定して 常識的な動作をさせておいたほうが業務的には安全っぽいように感じられます。しかしそうだとすると、今度は
+性能劣化に影響がないかどうかの検証が必要になってきてしまいます。うーん。うーん。</P>
+<P><FONT color="#ff0000">2005.05.26追記</FONT> PostgreSQL 8.0.1では上記の現象は発生しませんでした。一方で、ResultSet.TYPE_SCROLL_SENSITIVEを指定しても、INSERTによる行追加は他のトランザクションには影響を与えませんでした。、、、ここらへんのJDBCの実装は、さすがにリレーショナルデータベース毎に異なるようですね。勉強になりました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition �����[�X�������c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition リリース準備中…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition �́A�\�[�X�R�[�h�Ƃ��Ă� ��������łقƂ�Ǌm��ł��B�ؗj����Oracle
-9i ��ł̒P�̎������ς܂����烊���[�X���܂��B</P>
-<P>���̓h�L�������g�̂��������O��I�ɑ���Ȃ����Ƃł��B������Ƃ��͏����Ă���̂ł�����ǂ��c�BblancoDb �𕡐��̎��Ɩ��ɓK�p���� ������ ���񂾂�킩���Ă����̂ł����AblancoDb�͂��Ȃ��@�\�ɂ������Ă���̂ł�����ǂ��A�]�����Č�������̂� �ς�ς��Java�A�[�L�e�N�g���񂭂炢�ɂ������{�ł��Ȃ��̂� �Ƃ������Ƃ� �͂�����킩���Ă��܂����B���Ȃ��Ƃ� blancoDb���������������R�[�h�͕K���ڂ�ʂ��Ȃ���blancoDb�̈Ӗ���������Ȃ����Ƃł��傤�B(�����A�����̃h�L�������g���s�����Ă��܂�) �����炱���A�����Ɏ����R���T���e�B���O���s���]�n������̂����m��܂���B</P>
-<P>����Ȃ��ƂŁA���傤���Ȃ��̂Ő�Ƀ��W���[�� (�����ĂȂ��Ȃ��̃h�L�������g) ��񋟂��܂��B�ǂ����Ă�����������l�̓\�[�X�R�[�h��ǂ�Ŏ@���Ă�������
-(�����������Ă��܂�)�B���Ƃ���������ƃh�L�������g�͏����Ă����܂��B�����Ă��������̂ł����A����̎��̖ڐ�̗\��Ƃ��� <A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="�u��ʒ�`���v�Ƃ��� Excel�u�b�N����AStruts�p�̃\�[�X�R�[�h�������������܂��B">blancoStruts</A>
-�ւ̃J�X�^�}�C�Y��Ƃ� ����ǂ������Ă������Ȍ��ʂ��Ȃ̂ł�����ǂ��c (����͏\���ȃh�L�������g�񋟂� ������̘b�ł��ˁc)</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition は、ソースコードとしては もうこれでほとんど確定です。木曜日にOracle
+9i 上での単体試験を済ませたらリリースします。</P>
+<P>問題はドキュメントのたぐいが徹底的に足りないことです。ちょっとずつは書いているのですけれども…。blancoDb を複数の実業務に適用して そして だんだんわかってきたのですが、blancoDbはかなり低機能におさえているのですけれども、評価して検討するのは ぱりぱりのJavaアーキテクトさんくらいにしか実施できないのだ ということが はっきりわかってきました。少なくとも blancoDbが自動生成したコードは必ず目を通さないとblancoDbの意味が分からないことでしょう。(そう、そこのドキュメントが不足しています) だからこそ、そこに私がコンサルティングを行う余地があるのかも知れません。</P>
+<P>そんなことで、しょうがないので先にモジュール (そしてなけなしのドキュメント) を提供します。どうしても興味がある人はソースコードを読んで察してください
+(無茶を言っています)。あとからゆっくりとドキュメントは書いていきます。書いていきたいのですが、今後の私の目先の予定として <A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="「画面定義書」という Excelブックから、Struts用のソースコードを自動生成します。">blancoStruts</A>
+へのカスタマイズ作業が ずんどこ入ってきそうな見通しなのですけれども… (これは十分なドキュメント提供は 当分先の話ですね…)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���� dynabook SS 1610 11L/2</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>東芝 dynabook SS 1610 11L/2</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�x�����ꂽ���̂��A���肪�����g���Ă���܂��B�\�t�g�E�F�A�J���� �΂�΂�Ɗ��p�����Ă��������Ă���܂��B�s���Ƃ����΁A���L���炢�ł��B</P>
+<P>支給されたものを、ありがたく使っております。ソフトウェア開発に ばりばりと活用させていただいております。不満といえば、下記くらいです。</P>
 <UL>
-  <LI>�x�~��Ԃ��畜������ƁA�Ȃ����^�C���]�[�����r�~���E�ɐ�����Ԃ悤�Ȍ��ۂ��o�č����Ă��܂��B�^�C���]�[����ʂ̍��ɂ��炵�Ė߂��ƁA����ȏ�Ԃɉ񕜂���̂ł����c�B��������q�}�������̂ŕ��u�Ȃ̂ł����c�B
-  <LI>���[���\�t�g���C���X�g�[�����鎞�Ԃ��S���m�ۂł��܂��� (T_T) �{���̖ړI�������͂��Ȃ̂ł����c�B
+  <LI>休止状態から復元すると、なぜかタイムゾーンがビミョウに吹っ飛ぶような現象が出て困っています。タイムゾーンを別の国にずらして戻すと、正常な状態に回復するのですが…。調査するヒマが無いので放置なのですが…。
+  <LI>メールソフトをインストールする時間が全く確保できません (T_T) 本来の目的だったはずなのですが…。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/12/25 ���L: Subversion �� CVS �^�O�̂悤�ȊT�O�𓱓�������@</TITLE>
-<META name="DESCRIPTION" content="blanco Framework�̋L���� ��IT�ɏ����܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/12/25 日記: Subversion に CVS タグのような概念を導入する方法</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの記事を ＠ITに書きました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/12/25 ���L: Subversion �� CVS �^�O�̂悤�ȊT�O�𓱓�������@</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] blanco Framework�̋L���� ��IT�ɏ����܂����B</P>
+    <H2>2007/12/25 日記: Subversion に CVS タグのような概念を導入する方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの記事を ＠ITに書きました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,49 +60,49 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversion �� CVS �^�O�̂悤�ȊT�O�𓱓�������@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversion に CVS タグのような概念を導入する方法</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Subversion �� CVS �^�O�̂悤�ȊT�O�𓱓�������@���v�����܂����B</P>
-<P>�ł��P���Ȏ������@�͉��L�̂悤�ɂȂ�܂��B</P>
+<P>Subversion に CVS タグのような概念を導入する方法を思いつきました。</P>
+<P>最も単純な実現方法は下記のようになります。</P>
 <UL>
-  <LI><STRONG>�J����</STRONG>�p�A<STRONG>�����</STRONG>�p�ɁA���ꂼ�� Subversion �� 2���Ă�B
-  <LI>�J�����s���Ă���Ԃ́A�J���ŗp Subversion ���|�W�g���𗘗p����B
-  <LI>����̂悢���ŁA�J���ŗp Subversion �̓��e���`�F�b�N�A�E�g�B�����āA���������ŗp�� Subversion ���|�W�g���ɃR�~�b�g����B
+  <LI><STRONG>開発版</STRONG>用、<STRONG>安定版</STRONG>用に、それぞれ Subversion を 2つ立てる。
+  <LI>開発を行っている間は、開発版用 Subversion リポジトリを利用する。
+  <LI>きりのよい所で、開発版用 Subversion の内容をチェックアウト。そして、これを安定版用の Subversion リポジトリにコミットする。
   <UL>
-    <LI>�T�O�I�ɁA���̃^�C�~���O�� CVS�̃^�O�ɑ���������̂ɂȂ�܂��B<BR>
-    �X�V���e�͑S�Ĉ�x�ɃR�~�b�g���܂��B
-    <LI>����ŗp Subversion ���|�W�g���ɃR�~�b�g����ۂɂ́A<STRONG>��������</STRONG>��<STRONG>�R�����g���L��</STRONG>���܂��B(�^�O�������ȏ�A�R�����g���K�؂ɋL�������K�v����I)<BR>
-    ����ɂ��A���r�W���������Ȃ킿 CVS�^�O�Ɠ��l�̌��ʂ������炵�܂��B
+    <LI>概念的に、このタイミングが CVSのタグに相当するものになります。<BR>
+    更新内容は全て一度にコミットします。
+    <LI>安定版用 Subversion リポジトリにコミットする際には、<STRONG>きっちり</STRONG>と<STRONG>コメントを記入</STRONG>します。(タグが無い以上、コメントが適切に記入される必要あり！)<BR>
+    これにより、リビジョンがすなわち CVSタグと同様の効果をもたらします。
   </UL>
 </UL>
-<P>�J���ŗp�A����ŗp�ƃ��|�W�g���𕪂��Ă�������ƃX�e�[�W���O���邱�Ƃɂ��A���ʓI�� ����ő��̃��|�W�g���̃��r�W������ CVS�^�O�ɑ���������ʂ𓾂�̂ł��B�܂��A���|�W�g���𕪂��Ă������Ƃɂ��A���r�W�����ԍ���������Ă���
-�C�����悭�Ǘ��E���ނł���悤�ɍl���܂��B</P>
+<P>開発版用、安定版用とリポジトリを分けてきっちりとステージングすることにより、結果的に 安定版側のリポジトリのリビジョンが CVSタグに相当する効果を得るのです。また、リポジトリを分けておくことにより、リビジョン番号も分かれていて
+気持ちよく管理・分類できるように考えます。</P>
 
-<P>�Ⴆ�΁A�{�ԋ@�E�����@�E�J���@�� 3�̎��s��������Ă���ꍇ�ɂ́A���傤�ǂ��ꂼ��R���ɑΉ����� Subversion���|�W�g���𗧂ĂĂ����ƁA�A�X���[�Y�ɉ^�p���邱�Ƃ��o����̂ł��낤�Ƒz�����Ă��܂��B</P>
-<P>���Ȃ݂ɁA���̐�����������ASubversion�ɏڂ����l�ɂ́uSubversion �́����@�\���g���� �������Ƃ������ł����v�Ǝv�����Ƃł��傤�B(�����@�\�̕����́A�����̍D���ȗp��ŕ���Ă�������)
-�ł� ���̂悤�Ȏ������@�ł͂Ȃ��A���|�W�g�������{�X�e�[�W���O�ɂ�� �Ȗ��ȉ^�p���@�ɂ������ɂ���āA���߂� �����ł킩��₷���g�����肪�����ł���ƍl���Ă���̂ł��B</P>
-<P><FONT color="#ff00ff">�c�b�R�~</FONT></P>
+<P>例えば、本番機・試験機・開発機と 3つの実行環境を抱えている場合には、ちょうどそれぞれ３環境に対応する Subversionリポジトリを立てておくと、、スムーズに運用することが出来るのであろうと想像しています。</P>
+<P>ちなみに、この説明を見たら、Subversionに詳しい人には「Subversion の○○機能を使えば 同じことが実現できるよ」と思うことでしょう。(○○機能の部分は、自分の好きな用語で補ってください)
+でも そのような実現方法ではなく、リポジトリ分割＋ステージングによる 簡明な運用方法による実現によって、初めて 自明でわかりやすい使い勝手が実現できると考えているのです。</P>
+<P><FONT color="#ff00ff">ツッコミ</FONT></P>
 <UL>
   <LI><A HREF="http://tidus.ultimania.org/diary/?date=20071226">http://tidus.ultimania.org/diary/?date=20071226</A><BR>
-  �L�[���[�h: trunk, branches
+  キーワード: trunk, branches
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework�̋L���� ��IT�ɏ����܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkの記事を ＠ITに書きました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>blanco Framework�̋L���� ��IT�ɏ����܂����B</P>
+<P>blanco Frameworkの記事を ＠ITに書きました。</P>
 <UL>
-  <LI><A href="http://www.atmarkit.co.jp/fjava/special/blanco/blanco_1.html">��IT: Excel����v���O��������鑽����Ή��I�[�v���\�[�X</A>
+  <LI><A href="http://www.atmarkit.co.jp/fjava/special/blanco/blanco_1.html">＠IT: Excelからプログラムを作る多言語対応オープンソース</A>
 </UL>
-<P>����قǌ��J���J�n���ꂽ�悤�ł��B����� (�����?) �L���������̂� ���\��J���܂����B</P>
-<P>�ŁA�A�A�N���i�s�� �L�����e���M�� ���ƂQ�{�قǑ��݂���悤�ȋL�����A�Ȃ�ƂȂ���݂������Ă��܂����c�B</P>
+<P>つい先ほど公開が開始されたようです。今回は (今回も?) 記事を書くのに 結構苦労しました。</P>
+<P>で、、、年末進行で 記事原稿執筆が あと２本ほど存在するような記憶が、なんとなくよみがえってきました…。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/10/09 ���L: �R�}���h �v�����v�g���G�N�X�v���[���ɒǉ�������@</TITLE>
-<META name="DESCRIPTION" content="�������[�i��!!! �Z�����ł��B , ASP.NET with C#�p�̃t�@�C�����O�̎d�g�݂ƃR�l�N�V�����v�[���̎d�g�݂��������Ă݂܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/10/09 日記: コマンド プロンプトをエクスプローラに追加する方法</TITLE>
+<META name="DESCRIPTION" content="明日が納品日!!! 忙しいです。 , ASP.NET with C#用のファイルログの仕組みとコネクションプールの仕組みを実装してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/10/09 ���L: �R�}���h �v�����v�g���G�N�X�v���[���ɒǉ�������@</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �������[�i��!!! �Z�����ł��B , ASP.NET with C#�p�̃t�@�C�����O�̎d�g�݂ƃR�l�N�V�����v�[���̎d�g�݂��������Ă݂܂����B</P>
+    <H2>2002/10/09 日記: コマンド プロンプトをエクスプローラに追加する方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 明日が納品日!!! 忙しいです。 , ASP.NET with C#用のファイルログの仕組みとコネクションプールの仕組みを実装してみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,13 +59,13 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�R�}���h �v�����v�g ���G�N�X�v���[���̃��j���[�ɒǉ�������@������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>コマンド プロンプト をエクスプローラのメニューに追加する方法をメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�x�^�Ȃ�ł����A�R�}���h �v�����v�g���G�N�X�v���[���̃��j���[�ɒǉ�������@���������Ă����܂��BWindows
-XP Pro �ł� ���܂����삵�܂����B<BR>
-�����W�X�g������͊댯�𔺂��܂��B���L�̃��W�X�g���o�^�͌X�l�̐ӔC�Ɣ��f�̌��ɍs���ĉ������ˁB</P>
+<P>ベタなんですが、コマンド プロンプトをエクスプローラのメニューに追加する方法をメモしておきます。Windows
+XP Pro では うまく動作しました。<BR>
+※レジストリ操作は危険を伴います。下記のレジストリ登録は個々人の責任と判断の元に行って下さいね。</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -79,13 +79,13 @@ XP Pro �ł� ���܂����삵�܂����B<BR>
       <TD><pre>REGEDIT4 
 
 [HKEY_CLASSES_ROOT\Directory\shell\CmdHere]
-@=&quot;�R�}���h �v�����v�g&quot;
+@=&quot;コマンド プロンプト&quot;
 
 [HKEY_CLASSES_ROOT\Directory\shell\CmdHere\command]
 @=&quot;cmd.exe /k cd \&quot;%1\&quot;&quot;
 
 [HKEY_CLASSES_ROOT\Drive\shell\CmdHere]
-@=&quot;�R�}���h �v�����v�g&quot;
+@=&quot;コマンド プロンプト&quot;
 
 [HKEY_CLASSES_ROOT\Drive\shell\CmdHere\command]
 @=&quot;cmd.exe /k cd \&quot;%1\&quot;&quot;
@@ -93,42 +93,42 @@ XP Pro �ł� ���܂����삵�܂����B<BR>
     </TR>
   </TBODY>
 </TABLE>
-<P>���܂� ���`���ƃt�@�C���}�l�[�W�����g�������Ă����̂ł����A�������� �G�N�X�v���[���Ɉڍs���Ȃ��ƕs�ւ�������悤�ɂȂ��Ă��āA��������R�}���h�v�����v�g���J���Ȃ��͕̂s�ւ������̂ł����B</P>
-<P><FONT color="#ff0000">2002.10.29</FONT> ���������̌� ���Ԃ̒�ԃ\�t�g ���̎� ���g���n�߂Ă��܂��B</P>
+<P>今まで ず～っとファイルマネージャを使い続けてきたのですが、さすがに エクスプローラに移行しないと不便を感じるようになってきて、そしたらコマンドプロンプトが開かないのは不便だったのでした。</P>
+<P><FONT color="#ff0000">2002.10.29</FONT> しかしその後 世間の定番ソフト 窓の手 を使い始めています。</P>
 <UL>
-  <LI><A href="ig021030.html">2002/10/30 ���L: Eclipse����</A>
+  <LI><A href="ig021030.html">2002/10/30 日記: Eclipse続報</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET with C#: ���M���O�̎d�g�݂��쐬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET with C#: ロギングの仕組みを作成</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���� 1���Ԃقǂ����� ASP.NET with C# �J�������ŗ��p�ł��� ���M���O�̎d�g�݂��쐬���܂����B�P�Ƀt�@�C���ɏ����o�����O�ł��B<BR>
-�ł� �������� �t�@�C���̐���ւ��@�\�� ��̃��O�t�@�C���̍ő�s���Ȃǂ��ݒ�ł���
-�܂� �Œ���ł͂���܂����v���d�l�Ȃ�ł��B�����O�� Java�ŋL�q��������
-�P���� Visual C# �ɈڐA���܂����B<BR>
-����ς� �C�y�ɂ��΂��Ώ����o�����Ƃ��o���� �t�@�C���̃��O�������� �ǂ����J�����X���[�Y�ɍs���Ȃ��č�����̂ł��B<BR>
-�����̔[�i�����ɂ���������� �͂�Ė{�ԉғ��c�ɂȂ����ۂ�B</P>
-<P>�A�A�A���� ASP.NET with C# �p�� �R�l�N�V�����v�[�����C�u���������������������̂ł����A����͎��Ԑ؂�łł��Ȃ������ł��B</P>
+<P>今日 1時間ほどかけて ASP.NET with C# 開発環境下で利用できる ロギングの仕組みを作成しました。単にファイルに書き出すログです。<BR>
+でも いちおう ファイルの世代替え機能や 一つのログファイルの最大行数などが設定できる
+まあ 最低限ではありますがプロ仕様なやつです。少し前に Javaで記述した物を
+単純に Visual C# に移植しました。<BR>
+やっぱし 気軽にずばずば書き出すことが出来る ファイルのログが無いと どうも開発がスムーズに行かなくて困るものです。<BR>
+明日の納品物件にこれも混ぜて はれて本番稼働…につながるや否や。</P>
+<P>、、、あと ASP.NET with C# 用の コネクションプールライブラリも実装したかったのですが、これは時間切れでできなさそうです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET with C#: �R�l�N�V�����v�[���̎d�g�݂��쐬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET with C#: コネクションプールの仕組みを作成</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�Ǝv������ 30���قǂ����� ASP.NET with C# �̃R�l�N�V�����v�[�����C�u�������쐬���܂����B��
-Java�ō쐬�������̂� ���΂΂��ē\��t���� Visual C# �R���p�C���Œʉ߂ł��Ȃ�������
-C#�����܂����B<BR>
-�������` ���\�b�h���͑啶������J�n����悤�Ɏd�l�ύX�͍s���܂����B����ς�Web�T�C�g�J���ɂ����āA�R�l�N�V�����v�[���͕K���i�ł��Ȃ��B</P>
+<P>と思いきや 30分ほどかけて ASP.NET with C# のコネクションプールライブラリを作成しました。昔
+Javaで作成したものを ずばばって貼り付けて Visual C# コンパイラで通過できない部分を
+C#化しました。<BR>
+いちお～ メソッド名は大文字から開始するように仕様変更は行いました。やっぱしWebサイト開発において、コネクションプールは必需品ですなぁ。</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig021009.src.html' , result='ig021009.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig021009-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://kindai.ndl.go.jp/">��������}���� �ߑ�f�W�^�����C�u�����[</A> <FONT size="-2"><A target="_blank" HREF="http://kindai.ndl.go.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���������Ėڟ��Β� ��y�n�L�f�A�����������ĉ{�����Ă݂܂����B<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/nebt_04.html">�\�j�[�APalmSource��2000���h������</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/nebt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�\�j�[�̃o�b�N�A�b�v�ɂ�� PalmSource�����S�ł��BPalm���[�U�̎��͊��������ƂƔF�����Ă��܂��B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640">�~�jQ&amp;A�F���ƂłȂ��Ă�Linux�͎g�����Ȃ��邩�H</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���̂������ǂ��ł���Linux�Љ�L��(���Ǝ��͊����܂���)�B���ӂ���_�����������ł��B<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/njbt_01.html">�u�z�[���y�[�W�r���_�[7�v�A11��1������</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/njbt_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�z�[���y�[�W�r���_�[�̃��[�U�Ȃ̂ŁA�ŐV�Ń����[�X���C�ɂȂ�܂����B�����_�����Ȃ̂��悭������܂��񂪁A�ł������Ă��܂������ł� (���) ����������ViaVoice���o�[�W�����A�b�v�ł����ɏo�Ă����ł���˂��B<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/nebt_18.html">MS�̉ƒ�pLAN���i�Ƀg���u�����X</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/nebt_18.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>����Ȃ��W�������ւ̎Q���� ��ςɓ�����ƂȂ̂ł��B<LI><A HREF="http://japan.internet.com/linuxtoday/20021008/3.html">�~���N���E���i�b�N�X�ASamba �̃X�P�[���r���e�B������</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021008/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Samba�̂悤�Ȃ��̂̌��؍�ƂȂǂ���Ƃ��s���Ĕ��\���Ă����̂͊�΂������Ƃł��B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig021009-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://kindai.ndl.go.jp/">国立国会図書館 近代デジタルライブラリー</A> <FONT size="-2"><A target="_blank" HREF="http://kindai.ndl.go.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>さっそく夏目漱石著 吾輩ハ猫デアルを検索して閲覧してみました。<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/nebt_04.html">ソニー、PalmSourceに2000万ドル投資</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/nebt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ソニーのバックアップにより PalmSourceも安心です。Palmユーザの私は嬉しいことと認識しています。<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640">ミニQ&amp;A：専門家でなくてもLinuxは使いこなせるか？</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ものすごく良くできたLinux紹介記事(だと私は感じました)。同意する点が多かったです。<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/njbt_01.html">「ホームページビルダー7」、11月1日発売</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/njbt_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ホームページビルダーのユーザなので、最新版リリースが気になりました。強化点が何なのかよく分かりませんが、でも買ってしまいそうです (苦笑) そういえばViaVoiceもバージョンアップ版が既に出ているんですよねぇ。<LI><A HREF="http://www.zdnet.co.jp/news/0210/09/nebt_18.html">MSの家庭用LAN製品にトラブル続々</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/09/nebt_18.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>慣れないジャンルへの参入は 大変に難しいことなのです。<LI><A HREF="http://japan.internet.com/linuxtoday/20021008/3.html">ミラクル・リナックス、Samba のスケーラビリティを検証</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021008/3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Sambaのようなものの検証作業などを企業が行って発表してくれるのは喜ばしいことです。</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

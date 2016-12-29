@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/07/24 ���L: JExcelApi 2.6 �� Sun Java2 SE 1.4.2_12�œ��삳���邽�߂̃p�b�`</TITLE>
-<META name="DESCRIPTION" content="JExcelApi 2.6 �� Sun Java2 SE 1.4.2_12�œ��삳���邽�߂̃p�b�`�����Ă�jar�t�@�C��������܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/07/24 日記: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</TITLE>
+<META name="DESCRIPTION" content="JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/07/24 ���L: JExcelApi 2.6 �� Sun Java2 SE 1.4.2_12�œ��삳���邽�߂̃p�b�`</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] JExcelApi 2.6 �� Sun Java2 SE 1.4.2_12�œ��삳���邽�߂̃p�b�`�����Ă�jar�t�@�C��������܂����B</P>
+    <H2>2006/07/24 日記: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,47 +60,47 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.6 �� Sun Java SE 1.4.2_12�œ��삳���邽�߂̃p�b�`</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.6 を Sun Java SE 1.4.2_12で動作させるためのパッチ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u�����B���l�Ȃ��̂Ƃ��� Jakarta POI���m���Ă���B">JExcelApi</A> 2.6 �� Sun Java2 SE 1.4.2_12�œ��삳���邽�߂̃p�b�`�����Ă�jar�t�@�C��������܂����B</P>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。</P>
 <UL>
-  <LI>�p�b�`�쐬�菇<BR>
+  <LI>パッチ作成手順<BR>
   <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc</A>
-  <LI>�p�b�`�K�p�ς� jar�t�@�C��<BR>
-  <A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Framework�̋��ʏ������W�߂����C�u�����ł��B��{�I�ȋ��ʏ����̂ق��ɁAJExcelApi���{�ꉻ�p�b�`�AExcel�u�b�N�`���̌����ǂݍ��݃N���X���C�u���� (blancoCalcParser) �Ȃǂ��܂܂�܂��B">blancoCommons</A> 1.0.0 �ɓ�������Ă��܂��B
+  <LI>パッチ適用済み jarファイル<BR>
+  <A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A> 1.0.0 に同梱されています。
 </UL>
-<P>���̃p�b�`�̓��e�� <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u�����B���l�Ȃ��̂Ƃ��� Jakarta POI���m���Ă���B">JExcelApi</A>���[�����O���X�g�ɂȂ���Ă������e�Ɠ����̂��̂ł��B���[�����O���X�g�� ���̃p�b�`�������łɐ����Ɏ�荞��ł��炦��悤�����������s�������ƍl���Ă��܂��B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P>このパッチの内容は <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>メーリングリストにながれていた内容と同等のものです。メーリングリストに このパッチを次期版に正式に取り込んでもらえるよう働きかけを行いたいと考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060928.html">2006/09/28 ���L: JExcelApi 2.6�� �~ �Ȃǂ̓���̕�����K�؂ɏ����ł���悤�ɂ��邽�߂̃p�b�`</A>
+  <LI><A href="ig060928.html">2006/09/28 日記: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
       <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoDb Enterprise Edition 1.6.6, blancoDbDotNet 0.3.8
-      (Sun Java SE 1.4.2_12�œ����) �̏o�׌�⃊���[�X</STRONG></FONT></TD>
+      (Sun Java SE 1.4.2_12で動作可) の出荷候補リリース</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�p�b�`���K�p�ς݂�JExcelApi��g�ݍ��� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition �����
-blancoDbDotNet ���쐬���܂����B�`�F�b�N�����������ŁA�ߓ����Ƀ����[�X�������Ǝv���܂��B</P>
+<P>パッチが適用済みのJExcelApiを組み込んだ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition および
+blancoDbDotNet を作成しました。チェックをしたうえで、近日中にリリースしたいと思います。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���̑���blanco Framework �����[�X</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>その他のblanco Framework リリース</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JExcelApi�p�b�`�K�p���_�@�ɁA����Ɠ������Ƃ��ĉ��L�̃v���_�N�g�ɂ��ă��r�W�����A�b�v�������Ȃ��܂����B</P>
+<P>JExcelApiパッチ適用を契機に、これと同期をとって下記のプロダクトについてリビジョンアップをおこないました。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="�ƂĂ��y�ʂȃ\�[�X�R�[�h�����������C�u�����ł��B �����̃v���O���~���O���� (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) �̃\�[�X�R�[�h�����ɑΉ����Ă��܂��B">blancoCg</A> 1.0.0
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoCodeGenerator" TITLE="�\�[�X�R�[�h�����������C�u�����ł��B���������blanco Framework�v���_�N�g�� ���̃��C�u�����𗘗p���Ă��܂����B����̑���� blancoCg�𗘗p���邱�Ƃ𐄏����܂��B">blancoCodeGenerator</A> 1.0.2
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Framework�̋��ʏ������W�߂����C�u�����ł��B��{�I�ȋ��ʏ����̂ق��ɁAJExcelApi���{�ꉻ�p�b�`�AExcel�u�b�N�`���̌����ǂݍ��݃N���X���C�u���� (blancoCalcParser) �Ȃǂ��܂܂�܂��B">blancoCommons</A> 1.0.0
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A> 1.0.0
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoCodeGenerator" TITLE="ソースコード自動生成ライブラリです。※旧世代のblanco Frameworkプロダクトは このライブラリを利用していました。これの代わりに blancoCgを利用することを推奨します。">blancoCodeGenerator</A> 1.0.2
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A> 1.0.0
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/11/18 ���L: OpenSSO Enterprise 8.0 ����</TITLE>
-<META name="DESCRIPTION" content="�����C���������� OpenSSO �𒲍����Ă݂܂����B">
-<META name="KEYWORDS" content="OpenSSO,OpenDS,LDAP,�V���O��,�T�C���I��,SSO,Sun">
+<TITLE>2008/11/18 日記: OpenSSO Enterprise 8.0 調査</TITLE>
+<META name="DESCRIPTION" content="少し気合いを入れて OpenSSO を調査してみました。">
+<META name="KEYWORDS" content="OpenSSO,OpenDS,LDAP,シングル,サインオン,SSO,Sun">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/11/18 ���L: OpenSSO Enterprise 8.0 ����</H2>
-    <P>[OpenSSO,OpenDS,LDAP,�V���O��,�T�C���I��,SSO,Sun] �����C���������� OpenSSO �𒲍����Ă݂܂����B</P>
+    <H2>2008/11/18 日記: OpenSSO Enterprise 8.0 調査</H2>
+    <P>[OpenSSO,OpenDS,LDAP,シングル,サインオン,SSO,Sun] 少し気合いを入れて OpenSSO を調査してみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,71 +60,71 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenSSO Enterprise 8.0 ����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenSSO Enterprise 8.0 調査</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����C���������� OpenSSO �𒲍����Ă݂܂����B</P>
-<P><FONT color="#ff0000">2008.11.18</FONT> ���ݒ������c�B���\�肱�����Ă��܂��B����X�V�\��B<BR>
-<FONT color="#ff0000">2008.12.18</FONT> Tomcat 6.0 �ł��܂������܂����B�����ɂ���������X�N���[���V���b�g���X�V�������c<BR>
-2008.11.19�ǋL URL��FQDN�ŋL�q����Ή������邩���c</P>
-<P>�Ƃ肠�����A�u�ǂ���_�E�����[�h������ǂ���?�v�Ƃ������Ƃł́A<A href="http://blogs.sun.com/nickwooler/entry/opensso_express_from_the_trenches">�֌W�҂� blog �ɂ��</A>�ƁA�ȉ��̂悤�Ȉʒu�Â��ɂȂ��Ă���悤�ł��B</P>
+<P>少し気合いを入れて OpenSSO を調査してみました。</P>
+<P><FONT color="#ff0000">2008.11.18</FONT> 現在調査中…。結構手こずっています。後日更新予定。<BR>
+<FONT color="#ff0000">2008.12.18</FONT> Tomcat 6.0 でうまく動きました。いつか暇があったらスクリーンショットを更新したい…<BR>
+2008.11.19追記 URLがFQDNで記述すれば解決するかも…</P>
+<P>とりあえず、「どれをダウンロードしたら良いの?」ということでは、<A href="http://blogs.sun.com/nickwooler/entry/opensso_express_from_the_trenches">関係者の blog による</A>と、以下のような位置づけになっているようです。</P>
 <UL>
-  <LI>���p�T�|�[�g�����p�ł���̂� OpenSSO Enterprise �ł���B
+  <LI>商用サポートが利用できるのが OpenSSO Enterprise である。
   <UL>
-    <LI>������ OpenSSO �ȊO�̃v���_�N�g���܂܂��͗l�B
+    <LI>ただし OpenSSO 以外のプロダクトも含まれる模様。
   </UL>
-  <LI>OpenSSO Express �́A�����Ԗ��Ƀ����[�X�������́B
+  <LI>OpenSSO Express は、一定期間毎にリリースされるもの。
 </UL>
-<P>�Ƃ������ƂŁAOpenSSO Enterprise �𒲂ׂĂ݂܂��B��ɂ���� ���W���[�� (opensso_enterprise_80.zip)
-�̃T�C�Y�� 279MB �Ƌ���ł��B</P>
-<P>����� Apache Tomcat 6.0 �ɃC���X�g�[�����܂����B<BR>
-(��Tomcat 5.5 ���Ƃ��܂������܂���ł����BTomcat 6.0 ���� ���܂������܂���)</P>
+<P>ということで、OpenSSO Enterprise を調べてみます。例によって モジュール (opensso_enterprise_80.zip)
+のサイズは 279MB と巨大です。</P>
+<P>これを Apache Tomcat 6.0 にインストールしました。<BR>
+(※Tomcat 5.5 だとうまく動きませんでした。Tomcat 6.0 だと うまくいきました)</P>
 <UL>
   <LI>apache-tomcat-X.XX.X.exe
-  <LI>���ׂăf�t�H���g�ŃZ�b�g�A�b�v�B
-  <LI>Windows XP SP3 �Ŋm�F
+  <LI>すべてデフォルトでセットアップ。
+  <LI>Windows XP SP3 で確認
   <LI>Java 1.5.0_15
 </UL>
-<P>OpenSSO Enterprise ���𓀂��āA�ȉ��� war �t�@�C�������o���܂��B�����Ă�����f�v���C���܂��B</P>
+<P>OpenSSO Enterprise を解凍して、以下の war ファイルを取り出します。そしてこれをデプロイします。</P>
 <UL>
-  <LI>��: opensso/deployable-war/opensso.war
-  <LI>��: C:\Program Files\Apache Software Foundation\Tomcat 5.5\webapps
+  <LI>元: opensso/deployable-war/opensso.war
+  <LI>先: C:\Program Files\Apache Software Foundation\Tomcat 5.5\webapps
 </UL>
 <BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso001.png" border="0"></BLOCKQUOTE>
-<P>war�t�@�C�������� 70MB ���x�̃T�C�Y������A�f�v���C�ɂ͌��\���Ԃ�������܂��B���΂炭�䖝���đ҂��܂��B</P>
-<P>�f�v���C���I�������Ahttp://���[�J���z�X�g�̃z�X�g��:8080/opensso/ �ɃA�N�Z�X���܂��B<BR>
-��localhost ���� ���܂������Ȃ��ꍇ������܂��Bhosts �t�@�C����ҏW���A���[�J���z�X�g�ɖ��̂�t���Ă��瓮�삳���܂��B</P>
+<P>warファイルだけで 70MB 程度のサイズがあり、デプロイには結構時間がかかります。しばらく我慢して待ちます。</P>
+<P>デプロイが終わったら、http://ローカルホストのホスト名:8080/opensso/ にアクセスします。<BR>
+※localhost だと うまく動かない場合があります。hosts ファイルを編集し、ローカルホストに名称を付けてから動作させます。</P>
 <BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso002.png" border="0"></BLOCKQUOTE>
-<P>�ݒ�I�v�V�����Ȃ�I����������̂ŁA�Ƃ肠�����u�f�t�H���g�ݒ�̍쐬�v��I�����܂��B</P>
+<P>設定オプションなる選択肢があるので、とりあえず「デフォルト設定の作成」を選択します。</P>
 <BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso003.png" border="0"></BLOCKQUOTE>
-<P>�p�X���[�h����͂��܂��B�Ƃ肠���� amAdmin �ɂ� password ���AUrlAccessAgent �ɂ� password2 ��ݒ肵�܂����B</P>
+<P>パスワードを入力します。とりあえず amAdmin には password を、UrlAccessAgent には password2 を設定しました。</P>
 <BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso004.png" border="0"></BLOCKQUOTE>
-<P>�Z�b�g�A�b�v�i�����\������܂��B</P>
+<P>セットアップ進捗が表示されます。</P>
 <BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso005.png" border="0"></BLOCKQUOTE>
-<P>���ꂪ�\�����ꂽ��Z�b�g�A�b�v�����ł��B</P>
+<P>これが表示されたらセットアップ完了です。</P>
 
-<P>���Ȃ݂� OpenSSO �̐ݒ�́ATomcat �ŃT�[�r�X�ŃZ�b�g�A�b�v����ƁA�ӊO�ȏꏊ�ɕۑ�����܂��B(�����炭���̃A�v���P�[�V�����T�[�o�ł����l�Ƒz�����Ă��܂�)</P>
+<P>ちなみに OpenSSO の設定は、Tomcat でサービスでセットアップすると、意外な場所に保存されます。(おそらく他のアプリケーションサーバでも同様と想像しています)</P>
 <UL>
   <LI>C:/Documents and Settings/LocalService/opensso<BR>
-  ���̃t�H���_�[�͉^���������Ƃ� �B���t�H���_�[�ɂ�����̂ŁA�ݒ�����Z�b�g���Ă���Z�b�g�A�b�v�������ꍇ�ɘT������\���������ł��B����� UNIX�I�ɍl������A���̏ꏊ
-  (���[�U�� home����) �ɍ쐬�����̂� �����Ɏ��R�ł���悤�ɂ��v���܂��B
+  このフォルダーは運が悪いことに 隠しフォルダーにあたるので、設定をリセットしてからセットアップしたい場合に狼狽する可能性が高いです。一方で UNIX的に考えたら、この場所
+  (ユーザの home直下) に作成されるのも 微妙に自然であるようにも思えます。
 </UL>
-<P>�܂��A�f�t�H���g�̃Z�b�g�A�b�v�ł� OpenDS �� LDAP�|�[�g��  50389 �ɐݒ肳��܂��B�ʏ�� LDAP �̃|�[�g�ԍ��ƈقȂ�̂Œ��ӂ��K�v�ł��B</P>
-<P><FONT color="#ff0000">2008.12.18�ǋL</FONT> �Ȃ��AOpenSSO �̐����́ANRI �� OpenStandia �̃T�C�g�̐����� �ƂĂ��ǂ��ł��Ă��܂��B</P>
+<P>また、デフォルトのセットアップでは OpenDS の LDAPポートは  50389 に設定されます。通常の LDAP のポート番号と異なるので注意が必要です。</P>
+<P><FONT color="#ff0000">2008.12.18追記</FONT> なお、OpenSSO の説明は、NRI の OpenStandia のサイトの説明が とても良くできています。</P>
 <UL>
   <LI><A HREF="http://www.nri-aitd.com/openstandia/solution/sso/">http://www.nri-aitd.com/openstandia/solution/sso/</A>
 </UL>
-<P><FONT color="#ff00ff">�Q�l�ɂ������\�[�X</FONT></P>
+<P><FONT color="#ff00ff">参考にしたリソース</FONT></P>
 <UL>
   <LI><A HREF="http://puggle.jp/wiki.cgi?page=OpenSSOSetup">http://puggle.jp/wiki.cgi?page=OpenSSOSetup</A>
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig081008.html">2008/10/08 ���L: OpenSSO ���� , ���������s�� ���o���ϊ��� 9,203�~ (�I�l952�~��)</A>
+  <LI><A href="ig081008.html">2008/10/08 日記: OpenSSO メモ , 東京株式市場 日経平均株価 9,203円 (終値952円安)</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

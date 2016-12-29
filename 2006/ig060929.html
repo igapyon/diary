@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/09/29 ���L: �u������ϊ���`���v�Ƃ���Excel�l������͂Ƃ��āA������u������������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoStringConverter�v��V�K�쐬</TITLE>
-<META name="DESCRIPTION" content="blanco Framework�Ƃ��āu������ϊ���`���v�Ƃ���Excel�l������͂Ƃ��āA������ϊ�����������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoStringConverter�v��V�K�쐬���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoStringConverter">
+<TITLE>2006/09/29 日記: 「文字列変換定義書」というExcel様式を入力として、文字列置換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkとして「文字列変換定義書」というExcel様式を入力として、文字列変換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoStringConverter">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/09/29 ���L: �u������ϊ���`���v�Ƃ���Excel�l������͂Ƃ��āA������u������������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoStringConverter�v��V�K�쐬</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoStringConverter] blanco Framework�Ƃ��āu������ϊ���`���v�Ƃ���Excel�l������͂Ƃ��āA������ϊ�����������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoStringConverter�v��V�K�쐬���܂����B</P>
+    <H2>2006/09/29 日記: 「文字列変換定義書」というExcel様式を入力として、文字列置換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoStringConverter] blanco Frameworkとして「文字列変換定義書」というExcel様式を入力として、文字列変換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -63,36 +63,36 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�Ƃ��āu������ϊ���`���v�Ƃ���Excel�l������͂Ƃ��āA������u������������N���X�E�\�[�X�R�[�h���쐬����c�[��
-<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="�u������ϊ���`���v�Ƃ��� Excel�u�b�N����A������ϊ��̂��߂̃\�[�X�R�[�h�������������܂��B">blancoStringConverter</A>��V�K�쐬���܂����B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>として「文字列変換定義書」というExcel様式を入力として、文字列置換を処理するクラス・ソースコードを作成するツール
+<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。">blancoStringConverter</A>を新規作成しました。</P>
 <UL>
-  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleKatakanaHan2Zen.xls">������ϊ���`���̋L���� (���p�J�^�J�i���S�p�J�^�J�i�ϊ�)</A>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleKatakanaHan2Zen.xls">文字列変換定義書の記入例 (半角カタカナ→全角カタカナ変換)</A>
   <UL>
-    <LI>��L�̒�`�����玩�����������\�[�X�R�[�h
+    <LI>上記の定義書から自動生成したソースコード
   <UL>
     <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco/main/blanco/sample/stringconverter/SampleKatakanaHan2ZenStringConverter.java">Java</A>
     <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.cs/main/blanco/sample/stringconverter/SampleKatakanaHan2ZenStringConverter.cs">C#.NET</A>
     <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.js/main/blanco/sample/stringconverter/SampleKatakanaHan2ZenStringConverter.js">JavaScript</A>
     </UL>
   </UL>
-  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenKatakana2Hiragana.xls">������ϊ���`���̋L���� (�S�p�J�^�J�i���S�p�Ђ炪�ȕϊ�)</A>
-  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenHiragana2Katakana.xls">������ϊ���`���̋L���� (�S�p�Ђ炪�ȁ��S�p�J�^�J�i�ϊ�)</A>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenKatakana2Hiragana.xls">文字列変換定義書の記入例 (全角カタカナ→全角ひらがな変換)</A>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenHiragana2Katakana.xls">文字列変換定義書の記入例 (全角ひらがな→全角カタカナ変換)</A>
 </UL>
-<P>������Ɩ��V�X�e���ŗǂ��b��ɂ����镶����ϊ��Ɋւ��鏈������і�肪�A���́u������ϊ���`���v�𓱓����邱�Ƃŉ����ł��܂��B</P>
-<P>blancoStringConverter�� �P��v���W�F�N�g�� Java / C#.NET / JavaScript��3����\�[�X�R�[�h���������ɑΉ����Ă��܂��B</P>
+<P>いわゆる業務システムで良く話題にあがる文字列変換に関する処理および問題が、この「文字列変換定義書」を導入することで解決できます。</P>
+<P>blancoStringConverterは 単一プロジェクトで Java / C#.NET / JavaScriptの3言語ソースコード自動生成に対応しています。</P>
 <UL>
-  <LI><FONT color="#ff0000">2006.09.29���_</FONT>: JavaScript�Ή��͕s���S�ȏ�Ԃł��BEclipse�v���O�C�����Ȃǂ͖����{�ł��B���x���Ƃ��ẮA���ꂩ��P�̎����Ƌ@�\�ǉ��Ƃ𕹍s���Đi�߂�\��ł��BSourceForge.jp����_�E�����[�h�͉\�ł����A�����p�z�[���y�[�W�Ȃǂ͏����ł��Ă��܂���B
-  <LI><FONT color="#ff0000">2006.10.03���_</FONT>: JavaScript�Ή����������܂����B�P�̎������{�ς݂ł��B
-  <LI><FONT color="#ff0000">2006.10.06���_</FONT>: Eclipse�v���O�C���������{�������܂����B
-  <LI><FONT color="#ff0000">2006.10.29���_</FONT>: �����p�z�[���y�[�W�𐮔����܂����B
+  <LI><FONT color="#ff0000">2006.09.29時点</FONT>: JavaScript対応は不完全な状態です。Eclipseプラグイン化などは未実施です。レベルとしては、これから単体試験と機能追加とを併行して進める予定です。SourceForge.jpからダウンロードは可能ですが、説明用ホームページなどは準備できていません。
+  <LI><FONT color="#ff0000">2006.10.03時点</FONT>: JavaScript対応が完了しました。単体試験実施済みです。
+  <LI><FONT color="#ff0000">2006.10.06時点</FONT>: Eclipseプラグイン化が実施完了しました。
+  <LI><FONT color="#ff0000">2006.10.29時点</FONT>: 説明用ホームページを整備しました。
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060913.html">2006/09/13 ���L: �u������O���[�v��`���v�Ƃ���Excel�l������͂Ƃ��āA������O���[�v����������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoStringGroup�v��V�K�쐬</A>
-  <LI><A href="ig060912.html">2006/09/12 ���L: �u�����O���[�v��`���v�Ƃ���Excel�l������͂Ƃ��āA�����O���[�v����������N���X�E�\�[�X�R�[�h���쐬����c�[���ublancoCharacterGroup�v��V�K�쐬</A>
+  <LI><A href="ig060913.html">2006/09/13 日記: 「文字列グループ定義書」というExcel様式を入力として、文字列グループを処理するクラス・ソースコードを作成するツール「blancoStringGroup」を新規作成</A>
+  <LI><A href="ig060912.html">2006/09/12 日記: 「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

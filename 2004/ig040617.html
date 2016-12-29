@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/06/17 ���L: J2ME�̍������Z�p , PureJava��RDBMS�ɂ���</TITLE>
-<META name="DESCRIPTION" content="FindBugs�̏�񂪑����Ă��܂����I">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/06/17 日記: J2MEの高速化技術 , PureJavaなRDBMSについて</TITLE>
+<META name="DESCRIPTION" content="FindBugsの情報が増えてきました！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/06/17 ���L: J2ME�̍������Z�p , PureJava��RDBMS�ɂ���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] FindBugs�̏�񂪑����Ă��܂����I</P>
+    <H2>2004/06/17 日記: J2MEの高速化技術 , PureJavaなRDBMSについて</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] FindBugsの情報が増えてきました！</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,44 +58,44 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2ME�̍������Z�p</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2MEの高速化技術</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>JBlend���X�Ƀp�t�H�[�}���X������ ��i��Java�������e�N�m���W�[��Ǝ��̋Z�p�Ő��i��<BR>
+  <LI>JBlendが更にパフォーマンスを向上 先進のJava高速化テクノロジーを独自の技術で製品化<BR>
   <A HREF="http://www.aplix.co.jp/release/2004/PR040611.shtml">http://www.aplix.co.jp/release/2004/PR040611.shtml</A>
 </UL>
-<P>HotSpot��J2ME�ɂ����ė��p�ł��鎞�オ��������̂ł��ˁBJ2SE��JIT����HotSpot�ɒu����������̂��o���������ɂ͊��S�[���L���ł��B���Ȃ݂Ɏ���
-J2ME�n�͑S�R�m��Ȃ��킩��Ȃ��̈�Ȃ�ł�����ǂ���</P>
+<P>HotSpotがJ2MEにおいて利用できる時代が到来するのですね。J2SEがJITからHotSpotに置き換わったのを経験した私には感慨深い記事です。ちなみに私は
+J2ME系は全然知らないわからない領域なんですけれどもね</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�I�[�v���\�[�X��PureJava��RDBMS�̃C���C��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オープンソースでPureJavaなRDBMSのイロイロ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�������L�ɉ��L�́u������v���e���܂܂ꂽ�L�ڂ����Ă��܂��܂����B</P>
+<P>私が日記に下記の「誤った」内容が含まれた記載をしてしまいました。</P>
 <UL>
-  <LI>Berkeley DB�́uJava�Łv�����[�X<BR>
+  <LI>Berkeley DBの「Java版」リリース<BR>
   <A HREF="http://www.itmedia.co.jp/enterprise/articles/0406/17/news015.html">http://www.itmedia.co.jp/enterprise/articles/0406/17/news015.html</A><BR>
-  Java��RDBMS���� �܂��܂����J��ȗ̈�ł���ˁB�c���Ȃ݂Ƀ��C�Z���X��ǂ����Ǝv���܂������A���C�Z���X�̉�ǂ́A���ɂ͓�����܂����B
+  Java製RDBMSって まだまだ未開拓な領域ですよね。…ちなみにライセンスを読もうと思いましたが、ライセンスの解読は、私には難しすぎました。
 </UL>
 
-<P>����ɂ��āA�������L���[�����O���X�g�Ƀc�b�R�~�𒸂��܂����B<BR>
-���΂₢�c�b�R�~�A�݂Ȃ��܁A�ǂ������肪�Ƃ��������܂� m(_._)m</P>
+<P>これについて、早速日記メーリングリストにツッコミを頂きました。<BR>
+すばやいツッコミ、みなさま、どうもありがとうございます m(_._)m</P>
 <HR>
-<P>[igapyon:01291] PureJava��DBMS<BR>
-�����������Ă���܂��B<BR>
-���c�Ƃ������܂��B<BR>
-����2�x�ڂ̃��[���ł��B<BR>
-�����y�����q�ǂ������Ă���܂��Bm(__)m</P>
-<P>����6��17���́u���Ԃ̃j���[�X����v�ł́uBerkeley DB�́uJava�Łv�v�ɂ��āA</P>
+<P>[igapyon:01291] PureJavaなDBMS<BR>
+ご無沙汰しております。<BR>
+藤田ともうします。<BR>
+多分2度目のメールです。<BR>
+いつも楽しく拝読いたしております。m(__)m</P>
+<P>さて6月17日の「世間のニュースから」での「Berkeley DBの「Java版」」について、</P>
 <UL>
-  <LI>�uJava��RDBMS���� �܂��܂����J��ȗ̈�ł���ˁv
+  <LI>「Java製RDBMSって まだまだ未開拓な領域ですよね」
 </UL>
-<P>�ł����A���̐́A�o�n�h�m�s�a�`�r�d�Ƃ�������PureJava��DBMS����������Ɏv���܂�<BR>
-�`���b�g����������2-3�o�Ă��܂����E�E�E</P>
+<P>ですが、その昔、ＰＯＩＮＴＢＡＳＥという多分PureJavaなDBMSがあったやに思います<BR>
+チョットぐぐったら2-3出てきました・・・</P>
 <UL>
   <LI>pointbase<BR>
   <A HREF="http://www.pointbase.com/">http://www.pointbase.com/</A>
@@ -104,73 +104,73 @@ J2ME�n�͑S�R�m��Ȃ��킩��Ȃ��̈�Ȃ�ł�����ǂ���</P>
   <LI>JDataStore<BR>
   <A HREF="http://www.borland.co.jp/jdatastore/">http://www.borland.co.jp/jdatastore/</A>
 </UL>
-<P>�ĊO���肻���ł��E�E�E�E�B<BR>
-���ꂩ����y�����L�v�ȋL�����������Ă���܂��B</P>
+<P>案外ありそうです・・・・。<BR>
+これからも楽しく有益な記事きたいしております。</P>
 <HR>
-<P>[igapyon:01292] Re: �o�t�q�d�i�`�u�`�Ȃc�a�l�r<BR>
-����΂�́B<BR>
-hsqldb �悭�g���Ă��܂��Bzip ��W�J���Đݒ�t�@�C�������傱���ƒ��������Ŏg��
-����y�ł��B������Jetspeed�ɂ������Ă܂���B</P>
-<P>IBM���@Informix �Ƌ��Ɏ�ɓ��ꂽ�ACloudscape��Java�ł��B</P>
+<P>[igapyon:01292] Re: ＰＵＲＥＪＡＶＡなＤＢＭＳ<BR>
+こんばんは。<BR>
+hsqldb よく使っています。zip を展開して設定ファイルをちょこっと直すだけで使え
+お手軽です。たしかJetspeedにも同包されてますよ。</P>
+<P>IBMが　Informix と共に手に入れた、CloudscapeもJavaです。</P>
 <UL>
   <LI>Cloudscape<BR>
   <A HREF="http://www-306.ibm.com/software/data/cloudscape/">http://www-306.ibm.com/software/data/cloudscape/</A>
 </UL>
 <HR>
-<P>��������<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�݂Ȃ��܁A���̌���������Ă�������A�ǂ������肪�Ƃ��������܂��B<BR>
-���������΁A�I�[�v���\�[�X��PureJava�Ƃ��������𖞂������̂̂ЂƂł���
-hsqldb �ɂ��ẮA�g�߂Ȑl���ǂ����ŗ��p���Ă����悤�ɁA���X�Ɏv���o������܂�
-(���) �Ƃ������G���L�������������Ό����悤�ȁc (�L�����U����Ԃł��c)</P>
-<P>�܂��APureJava�ȏ��p�x�[�X�̃v���_�N�g���A��������Č��Ă݂�� ���\����̂ł��ˁc�B�������A����������Borland�������Ă����̂ł��ˁc�B<BR>
-�g�h���Ƃ��āAInformix�ƕ����āA�V�l�̎���Informix���g���Ă������Ƃ��ẮA�v�킸���邤�邵�Ă��܂��܂����B�Ȃ񂾂��A���낢��Ȃ��ƁA�����ā�IT���܂�ǉ����Ă��܂��܂����B�Ƃɂ������ɂ��AInformix�͎��ɂƂ��Ă�RDBMS�̌��_�Ȃ̂ł��B(���̌��Ɋւ��ẮA���������Ȃ��Ă͂Ȃ�܂���c)</P>
+<P>ここから<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+みなさま、私の誤りを訂正してくださり、どうもありがとうございます。<BR>
+そういえば、オープンソースでPureJavaという条件を満たすもののひとつである
+hsqldb については、身近な人がどこかで利用していたように、徐々に思い出しつつあります
+(苦笑) というか雑誌記事もそういえば見たような… (記憶がザル状態です…)</P>
+<P>また、PureJavaな商用ベースのプロダクトも、こうやって見てみると 結構あるのですね…。そうか、そういえばBorlandも持っていたのですね…。<BR>
+トドメとして、Informixと聞いて、新人の時にInformixを使っていた私としては、思わずうるうるしてしまいました。なんだか、いろいろなこと、そして＠ITさまを追憶してしまいました。とにもかくにも、Informixは私にとってのRDBMSの原点なのです。(この件に関しては、いつか書かなくてはなりません…)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>dW:�Ȃ��A�ǂ̂悤��FindBugs���g����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>dW:なぜ、どのようにFindBugsを使うか</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>dW:�Ȃ��A�ǂ̂悤��FindBugs���g����<BR>
+  <LI>dW:なぜ、どのようにFindBugsを使うか<BR>
   <A HREF="http://www-6.ibm.com/jp/developerworks/java/040611/j_j-findbug1.html">http://www-6.ibm.com/jp/developerworks/java/040611/j_j-findbug1.html</A><BR>
-  �������{��ł������[�X����܂����I FindBugs�̓��{�ł̕��y���������Ă��鎄�Ƃ��ẮA�Ƃ��Ă����ꂵ���ł��B
+  早速日本語版がリリースされました！ FindBugsの日本での普及を応援している私としては、とってもうれしいです。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��32��S���A�}�`���A�I�[�P�X�g���t�F�X�e�B�o�� �����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第32回全国アマチュアオーケストラフェスティバル 大阪大会</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>��32��S���A�}�`���A�I�[�P�X�g���t�F�X�e�B�o�� �����<BR>
+  <LI>第32回全国アマチュアオーケストラフェスティバル 大阪大会<BR>
   <A HREF="http://orchestra.musicinfo.co.jp/~kcpo/AOF2004/">http://orchestra.musicinfo.co.jp/~kcpo/AOF2004/</A>
 </UL>
-<P>���N��JAO�� AOF�����ƂȂ�܂��B���Ȃ݂Ɏ��͍���́u�}�X�^�[�Y�v�ւƎQ�����܂��B</P>
+<P>今年のJAOは AOF大阪大会となります。ちなみに私は今回は「マスターズ」へと参加します。</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>NTT�f�[�^�����Z�@�֌������n�V�X�e���\�z�\�����[�V������񋟊J�n IBM�\�t�g�E�F�A��OEM�񋟂ō���<BR>
+  <LI>NTTデータが金融機関向け情報系システム構築ソリューションを提供開始 IBMソフトウェアをOEM提供で合意<BR>
   <A HREF="http://www.nttdata.co.jp/release/2004/061500.html">http://www.nttdata.co.jp/release/2004/061500.html</A><BR>
-  ���ꂪ��NTT�f�[�^����̓������C�ɂȂ鍡�����̍��B
-  <LI>�u�S�ăI�[�v���\�[�X�ŃV�X�e���\�z�v�CNTT�f�[�^���Z�p��200�l�̐�啔���ݗ���<BR>
+  立場がらNTTデータさんの動向が気になる今日この頃。
+  <LI>「全てオープンソースでシステム構築」，NTTデータが技術者200人の専門部隊設立へ<BR>
   <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040609/145594/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040609/145594/</A><BR>
-  �����[��������ݗ��Ȃ����Ă��܂��B
-  <LI>�v���W�F�N�g�}�l�W�����g�X�L�� ���H�{���u�� ��3��@�^�C���}�l�W�����g�͋}���Ή��<BR>
+  興味深い部隊を設立なさっています。
+  <LI>プロジェクトマネジメントスキル 実践養成講座 第3回　タイムマネジメントは急がば回れ<BR>
   <A HREF="http://jibun.atmarkit.co.jp/lskill01/rensai/pm03/pm01.html">http://jibun.atmarkit.co.jp/lskill01/rensai/pm03/pm01.html</A><BR>
-  �Ȃ񂾂��A���������Ƃ�������Ă��܂����c�B
-  <LI>���Ŏq��ЁATurbolinux 10 Desktop �v���C���X�g�[���� dynabook ��̔�<BR>
+  なんだか、すごいことがかかれていました…。
+  <LI>東芝子会社、Turbolinux 10 Desktop プリインストールの dynabook を販売<BR>
   <A HREF="http://japan.internet.com/linuxtoday/20040614/3.html">http://japan.internet.com/linuxtoday/20040614/3.html</A><BR>
-  Linux�v���C���X�g�[���E�m�[�g�p�\�R���̕��y�₢���Ɂc�B�����A�����A���҂��Ă���܂��B
+  Linuxプリインストール・ノートパソコンの普及やいかに…。いつも、いつも、期待しております。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

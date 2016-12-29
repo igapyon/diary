@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/09/03 ���L: �]�܂����\�t�g�E�F�A�̍\�� , Java����ɂ��Ďv������</TITLE>
-<META name="DESCRIPTION" content="�ӂ� �]�܂����\�t�g�E�F�A�\���Ȃǂ� �k�R�ɏ����Ă݂܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2007/09/03 日記: 望ましいソフトウェアの構造 , Java言語について思うこと</TITLE>
+<META name="DESCRIPTION" content="ふと 望ましいソフトウェア構造などを 徒然に書いてみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/09/03 ���L: �]�܂����\�t�g�E�F�A�̍\�� , Java����ɂ��Ďv������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �ӂ� �]�܂����\�t�g�E�F�A�\���Ȃǂ� �k�R�ɏ����Ă݂܂����B</P>
+    <H2>2007/09/03 日記: 望ましいソフトウェアの構造 , Java言語について思うこと</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ふと 望ましいソフトウェア構造などを 徒然に書いてみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,136 +59,136 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�]�܂����\�t�g�E�F�A�̍\��: �R���s���[�^�V�X�e���J���̖{��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>望ましいソフトウェアの構造: コンピュータシステム開発の本質</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ӂ� �]�܂����\�t�g�E�F�A�\���Ȃǂ� �k�R�ɏ����Ă݂܂����B���� ��C�ɏ������낵����ԂȂ̂ŁA���܂��ѐ���_�����͖��������m��܂���B���
-�ӂ肩�����ēY�킷�邩���m��܂���B</P>
-<P><FONT color="#ff00ff">�ێ�^�p������R���s���[�^�V�X�e���ƕێ�^�p�����Ȃ��R���s���[�^�V�X�e��</FONT></P>
-<P>���̒��̃R���s���[�^�V�X�e���ɂ́A�ێ�^�p�������Ȃ��ꍇ�� �ێ�^�p�������Ȃ�Ȃ��ꍇ�Ƃ�����܂��B�ΏۃV�X�e���� ������ɊY������̂��𔲂���
-�]�܂����\�t�g�E�F�A�\����_���邱�Ƃ͏o���܂���B</P>
-<P>���� �ێ�^�p�𔺂�Ȃ� �����ςȂ��V�X�e���Ȃ̂ł���΁A���H�����̂��̂̐��Y�����ڕW�̒��S�ɂȂ�܂��B�葁�� �������ƍ�邽�߂� �l�X�Ȏd�g�݂�x���c�[�������߂��邱�Ƃł��傤�B</P>
-<P>���� �ێ�^�p�𔺂� 5�N���� 10�N�A���邢�� �����ƒ����N���̊ԁA�ێ炵������K�v������V�X�e���ł���΁A���H�����̂��̂̐��Y���� ���܂�ڕW�̒��S�Ƃ͂Ȃ�܂���B�ނ��� �ێ炵�₷�����ǂ����A�h�L�������g�͑����Ă��邩�ǂ����A����璷���N���̊� �ێ�ɑς�����V�X�e����Ղł���̂��ǂ����A�Ȃǂ��ڕW�̒��S�ƂȂ�܂��B�قȂ��ނ�OS��قȂ�o�[�W������OS�̏�œ������ƂȂǗv�f�ɂ��Ă��d�v�ł��B</P>
-<P><FONT color="#ff00ff">�J���Җ{�l�� �ێ�^�p���������邩�ǂ���</FONT></P>
-<P>�ێ�𔺂� �R���s���[�^�V�X�e���J���ɂ́A�v���O�����J���҂ƃv���O�����ێ�^�p�҂Ƃ���v����ꍇ�� ��v���Ȃ��ꍇ�Ƃ�����܂��B�v���O�����J���҂ƃv���O�����ێ�^�p�҂���v���邩�ǂ����ɂ���āA�R���s���[�^�V�X�e���̖]�܂����\�t�g�E�F�A�\���͕ς��܂��B���̑O�����������
-�]�܂����f�U�C���͘_����ׂ��ł͂���܂���B</P>
-<P>�v���O�����J���҂� 5�N����10�N ���邢�͂����ƒ����N���̊ԁA���炪�J�������R���s���[�^�V�X�e�����v���O�����ێ�^�p��������Ƃ�������������̂ł���΁A�v���O�����J���҂��D�݂̃\�t�g�E�F�A�\����݌v���Đ��������
-����� �قƂ�ǖ��Ȃ����Ƃł��傤�B</P>
-<P>�����A�v���O�����J���҂� �R���s���[�^�V�X�e�����J�����Ă��΂炭���Ă��Ȃ��Ȃ�A�ʂ̃v���O���}�[�� 5�N����10�N ���邢�͂����ƒ����N���̊ԁA���l�̊J�������R���s���[�^�V�X�e�����v���O�����ێ�^�p��������Ƃ�������������̂ł���΁A�v���O�����J���҂͍D�݂̃\�t�g�E�F�A�\����݌v���Đ������Ă͂Ȃ�܂���B�\�t�g�E�F�A�\����
-�v���O�����ێ�^�p��S������l�Ԃ��l����A���邢�� �z�肳��镽�ϓI�ȃv���O�����ێ�^�p�S���҂ɓK�������̂����Ȃ��Ă͂Ȃ�܂���B</P>
-<P>�����A�ǂ����Ă�����̍D�݂̃f�U�C���������������̂ł���΁A�v���O�����ێ�^�p�������ŒS�����邱�Ƃ�\���o��ׂ��ł��B���̐ӔC�ƌ��ӂ������̂ł���΁A�z�肳��镽�ϓI�ȃv���O�����ێ�^�p�S���҂ɓK�����f�U�C�����̗p���ׂ��ł��B</P>
-<P><FONT color="#ff00ff">�ΏۂƂȂ�R���s���[�^�V�X�e���̋K�͂��傫�� �������Ԃ��Z���ꍇ�́A�ǂ����Ă��J���Җ{�l�� �ێ�^�p���������邱�Ƃ͂ł��Ȃ��Ȃ�܂�</FONT></P>
-<P>�V�X�e���K�͂��傫�� �������Ԃ��Z���ꍇ�́A�u�ԍő啗���I�� �����̐l���W�߂��ĊJ�������邱�ƂɂȂ�܂��B(�������Ř_���Ă���傫���V�X�e���K�͂Ƃ́A�X�e�b�v���������Ƃ������Ƃ��Ӗ����Ă��܂��B)
-������ �ێ�^�p�ɂȂ�� �����J���������l�̂قƂ�ǂ͋����Ă��܂��܂��B�܂�A�v���O�����J���҂ƃv���O�����ێ�^�p�҂Ƃ� ���̂��ƈقȂ�l�ɂȂ�܂��B�A�A�A�����Đ��̑�K�͊�n�V�X�e���Ƃ����̂́A�����ɑ������܂��B</P>
-<P><FONT color="#ff00ff">�\�t�g�E�F�A�J�����Y���Ȃǂ�_������</FONT></P>
-<P>�\�t�g�E�F�A�J�����Y���Ȃǂ�_�����ŁA���܂ŋ������悤�ȑO������𔲂��ɂ��Ę_����ׂ��ł͂���܂���B�ǂ̑O������̂����Řb���i�߂Ă���̂��ɂ��āA���B�͖��m�Ɏ����K�v������܂��B�Ƃ��낪
-���̍L����L�� (���p�L�����܂�) �� �����O������𖾎������� �����I�Ȍ������q�ׂĂ��܂��Ă��邱�Ƃ������̂ł��B�����Ė������Ă��Ȃ��̂��A���邢�͏����肪�{���ɒm��Ȃ��̂Ŗ������Ă��Ȃ��̂��A����͎��ɂ͂킩��܂���B</P>
-<P><FONT color="#ff00ff">����̈قȂ�l�́A�قȂ闧��̐l�̏󋵂� �Ȃ��Ȃ������ł��Ȃ����̂ł�</FONT></P>
-<P>�R���s���[�^�V�X�e���J���Ƃ��������W�������ɂ����Ă���A�����ŋ������悤�ȗ����󋵂ɂ����鍷������܂��B������ �����̈�������o���̖����l�ɂƂ��ẮA�����̗���ɂ��󋵂Ƃ������̂��A�Ȃ��Ȃ������ł��Ȃ����̂ł��B������
-�R���s���[�^�V�X�e���J���Ɋւ���ƊE�ɂ����āA���������𔲂��ɘ_���Ă���L���� ���ɑ����Ƃ��� ��̈����󋵂��d�Ȃ��Ă���̂ŁA�����ƈقȂ闧���󋵂Ƃ������̂��ǂ��������̂Ȃ̂��ɂ��āA�Ȃ��Ȃ������ł��Ȃ��Ȃ�Ă������x���ǂ��납�A�S�������ė����ł��Ȃ��Ƃ����V�����m�ɂȂ��Ă���悤�ɂ��v���܂��B�����
-���ɗJ���ׂ��󋵂ł��B</P>
-<P><FONT color="#ff00ff">�E��(�v��)�ƃA�}�`���A�� �Q�̗���</FONT></P>
-<P>���Ԃ��Ȃ��̂Ŋ������܂����A����ȊO�ɂ��A�\�t�g�E�F�A�J���ɐE��(�v��)�Ƃ�������� �A�}�`���A�Ƃ�������� ������̗���Ŋւ���Ă���̂��ɂ��Ă��A�O������Ƃ��Ę_����K�v���łĂ��鎞�オ���邩���m��܂���B�A�}�`���A�̗���ł���΁A�����̍D���Ȃ��Ƃɂ����v���ł��܂��B�f���炵���g���ł��B�E��(�v��)�Ƃ������ꂾ�ƁA�����̍D���Ȃ��͍̂��Ȃ����Ƃ������ł��B���̂����
-�J���̑Ή��𓾂邱�Ƃ��ł��܂��B</P>
-<P>�E��(�v��)�̗���̐l�����Ȏ����̂��߂� �I�[�v���\�[�X�Ȃǂ� �A�}�`���A�Ƃ��ĎQ������̂́A�������D���Ȃ��̂���邱�Ƃ��o���Ȃ��s�����������邽�߂ɂ����Ȃ��Ă���悤�Ɏv���܂��B�A�A�A�����̍D���Ȃ��̂��d���ō��悤�ɂȂ��
-�I�[�v���\�[�X�����Ɋ������Ԃ͌����Ă��܂������m��܂���ˁc�B�]�܂����̂� �E��(�v��)�Ƃ��� �D���ȃI�[�v���\�[�X�����ɏ]���ł��邱�Ƃł��B�ꕔ�̌b�܂ꂽ�l�����́A���̂悤�ȗ���Ŋ������Ă���悤�ɕ����y�т܂��B</P>
+<P>ふと 望ましいソフトウェア構造などを 徒然に書いてみました。現在 一気に書き下ろした状態なので、あまり一貫性や論理性は無いかも知れません。後日
+ふりかえって添削するかも知れません。</P>
+<P><FONT color="#ff00ff">保守運用をするコンピュータシステムと保守運用をしないコンピュータシステム</FONT></P>
+<P>世の中のコンピュータシステムには、保守運用をおこなう場合と 保守運用をおこなわない場合とがあります。対象システムが いずれに該当するのかを抜きに
+望ましいソフトウェア構造を論じることは出来ません。</P>
+<P>もし 保守運用を伴わない 作りっぱなしシステムなのであれば、作る工程そのものの生産性が目標の中心になります。手早く さっさと作るための 様々な仕組みや支援ツールが求められることでしょう。</P>
+<P>もし 保守運用を伴う 5年から 10年、あるいは もっと長い年月の間、保守し続ける必要があるシステムであれば、作る工程そのものの生産性は あまり目標の中心とはなりません。むしろ 保守しやすいかどうか、ドキュメントは揃っているかどうか、それら長い年月の間 保守に耐えうるシステム基盤であるのかどうか、などが目標の中心となります。異なる種類のOSや異なるバージョンのOSの上で動くことなど要素についても重要です。</P>
+<P><FONT color="#ff00ff">開発者本人が 保守運用をし続けるかどうか</FONT></P>
+<P>保守を伴う コンピュータシステム開発には、プログラム開発者とプログラム保守運用者とが一致する場合と 一致しない場合とがあります。プログラム開発者とプログラム保守運用者が一致するかどうかによって、コンピュータシステムの望ましいソフトウェア構造は変わります。この前提条件抜きに
+望ましいデザインは論じるべきではありません。</P>
+<P>プログラム開発者が 5年から10年 あるいはもっと長い年月の間、自らが開発したコンピュータシステムをプログラム保守運用し続けるという条件があるのであれば、プログラム開発者が好みのソフトウェア構造を設計して製造すれば
+それで ほとんど問題ないことでしょう。</P>
+<P>もし、プログラム開発者は コンピュータシステムを開発してしばらくしていなくなり、別のプログラマーが 5年から10年 あるいはもっと長い年月の間、他人の開発したコンピュータシステムをプログラム保守運用し続けるという条件があるのであれば、プログラム開発者は好みのソフトウェア構造を設計して製造してはなりません。ソフトウェア構造は
+プログラム保守運用を担当する人間が考える、あるいは 想定される平均的なプログラム保守運用担当者に適したものを作らなくてはなりません。</P>
+<P>もし、どうしても自らの好みのデザインを実装したいのであれば、プログラム保守運用も自分で担当することを申し出るべきです。その責任と決意が無いのであれば、想定される平均的なプログラム保守運用担当者に適したデザインを採用すべきです。</P>
+<P><FONT color="#ff00ff">対象となるコンピュータシステムの規模が大きく 製造期間が短い場合は、どうしても開発者本人は 保守運用をし続けることはできなくなります</FONT></P>
+<P>システム規模が大きく 製造期間が短い場合は、瞬間最大風速的に 多くの人が集められて開発をすることになります。(※ここで論じている大きいシステム規模とは、ステップ数が多いということを意味しています。)
+そして 保守運用になると それら開発をした人のほとんどは去ってしまいます。つまり、プログラム開発者とプログラム保守運用者とは おのずと異なる人になります。、、、そして世の大規模基幹系システムというのは、ここに相当します。</P>
+<P><FONT color="#ff00ff">ソフトウェア開発生産性などを論じる上で</FONT></P>
+<P>ソフトウェア開発生産性などを論じる上で、今まで挙げたような前提条件を抜きにして論じるべきではありません。どの前提条件のうえで話題を進めているのかについて、私達は明確に示す必要があります。ところが
+世の広告や記事 (商用記事も含む) は これら前提条件を明示せずに 部分的な効率を述べてしまっていることが多いのです。敢えて明示していないのか、あるいは書き手が本当に知らないので明示していないのか、これは私にはわかりません。</P>
+<P><FONT color="#ff00ff">立場の異なる人は、異なる立場の人の状況は なかなか理解できないものです</FONT></P>
+<P>コンピュータシステム開発という狭いジャンルにおいてすら、ここで挙げたような立場や状況における差があります。そして これらの一方しか経験の無い人にとっては、他方の立場による状況というものを、なかなか理解できないものです。しかも
+コンピュータシステム開発に関する業界において、これら条件を抜きに論じている記事が 非常に多いという 具合の悪い状況が重なっているので、自分と異なる立場や状況というものがどういうものなのかについて、なかなか理解できないなんていうレベルどころか、全くもって理解できないというシロモノになっているようにも思われます。これは
+非常に憂うべき状況です。</P>
+<P><FONT color="#ff00ff">職業(プロ)とアマチュアの ２つの立場</FONT></P>
+<P>時間がないので割愛しますが、これ以外にも、ソフトウェア開発に職業(プロ)という立場と アマチュアという立場の いずれの立場で関わっているのかについても、前提条件として論じる必要がでてくる時代が来るかも知れません。アマチュアの立場であれば、自分の好きなことにだけ没頭できます。素晴らしい身分です。職業(プロ)という立場だと、自分の好きなものは作れないことが多いです。そのかわり
+労働の対価を得ることができます。</P>
+<P>職業(プロ)の立場の人が自己実現のために オープンソースなどに アマチュアとして参加するのは、自分が好きなものを作ることが出来ない不満を解消するためにおこなっているように思えます。、、、自分の好きなものを仕事で作るようになると
+オープンソース活動に割く時間は減ってしまうかも知れませんね…。望ましいのは 職業(プロ)として 好きなオープンソース活動に従事できることです。一部の恵まれた人たちは、そのような立場で活動しているように聞き及びます。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�v���O���~���O�����J�����ɂ��Ďv������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>プログラミング言語や開発環境について思うこと</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��������́A�v���O���~���O�����J�����ɂ��Ă̂��Ƃł��B</P>
+<P>ここからは、プログラミング言語や開発環境についてのことです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java����ɂ��Ďv������</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語について思うこと</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��L�̑O������̂����A�ێ�^�p���� �{ �J���ҁ��ێ�^�p�� �{ ��K�̓V�X�e�� �Ƃ����������ɂ����āAJava����� �ł��D�ꂽ�œK�ȃv���O���~���O����Ȃ̂ł��傤�BJava����� ���̂悤�ȂƂ���� ���ɑ������p����Ă��܂��BJava����� �����̐l�����ɗ��p����A�����̐l�����Ɉ�����A�����đ����̐l������ ���݌����Ă��܂��B����� C���ꂪ�w�����Ă���Ƃɂ��������̂������܂��B(���Ȃ݂� ���� C����������Ă��āA�����ē����� ���݌����Ă��܂�) �A�A�A�ʂ̌o�����������l�ɂƂ��Ă� Java��COBOL�Ɠ����̒n�ʂɂȂ����񂾁A�Ɗ�����̂����m��܂���B(�����͎��ɂ͂킩��܂���) ���Ȃ��Ƃ� �����̐l�Ɉ�����A�����đ����̐l�Ɋ��݌����Ă���v���O���~���O����Ƃ������̂́A����� �v���O���~���O����Ƃ��Ă� <STRONG>���ɂ̍���</STRONG> �Ȃ̂��Ǝv���܂��B</P>
-<P>�܂� Java���񋟂��� Java���z�}�V������ �����̈قȂ�OS�ɈڐA���ꂽ �f���炵�����z�}�V���̂ЂƂł��B���� Java�ōł��C�ɓ���
-�܂��]�����Ă���̂� Java���z�}�V�����Ƃ������s�`�Ԃɂ��Ăł��BJava���z�}�V������ ���ɑ�����OS�ɈڐA���� ���ɒ����ɂ킽��ێ�^�p���ꂽ���т������A�����ăI�[�v���\�[�X�����\�񂳂�Ă���̂ŁA�����ɓn���Ă�
-���肵�����s���𓾂邱�Ƃ��o������҂����Ă܂��B</P>
+<P>上記の前提条件のうち、保守運用あり ＋ 開発者≠保守運用者 ＋ 大規模システム という条件下において、Java言語は 最も優れた最適なプログラミング言語なのでしょう。Java言語は そのようなところで 非常に多く利用されています。Java言語は 多くの人たちに利用され、多くの人たちに愛され、そして多くの人たちに 忌み嫌われています。これは C言語が背負っている業にも似たものを感じます。(ちなみに 私は C言語を愛していて、そして同時に 忌み嫌っています) 、、、別の経験を持った人にとっては JavaはCOBOLと同等の地位になったんだ、と感じるのかも知れません。(そこは私にはわかりません) 少なくとも 多くの人に愛され、そして多くの人に忌み嫌われているプログラミング言語というものは、それは プログラミング言語としての <STRONG>究極の高み</STRONG> なのだと思います。</P>
+<P>また Javaが提供する Java仮想マシン環境は 多くの異なるOSに移植された 素晴らしい仮想マシンのひとつです。私が Javaで最も気に入り
+また評価しているのは Java仮想マシン環境という実行形態についてです。Java仮想マシン環境は 既に多くのOSに移植され 既に長きにわたり保守運用された実績を持ち、そしてオープンソース化が予約されているので、将来に渡っても
+安定した実行環境を得ることが出来る期待を持てます。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft�� ��ʃf�U�C�i�Ƃ��� ���Ɋ����x�������c�[����񋟂��Ă��܂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoftは 画面デザイナとして 非常に完成度が高いツールを提供しています</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2007.09.06�ǋL</FONT></P>
-<P>����� Java����Ȃ̂ł����A���ΓI�Ɏア�ʂ�����܂��B����� ��ʃf�U�C�i�n�̋@�\�Œ�ԂƂȂ���̂������Ƃ����_�ł��BJSP, JSP,
-Swing, SWT�A������̉�ʃf�U�C�i�c�[���ɂ����Ă��A<STRONG>���ꂼ���</STRONG>�Ƃ�����ʃf�U�C���c�[�������݂��Ă��܂��� (�Ǝ��͍l���Ă��܂�)�B</P>
-<P>�G��ȉ�ʃf�U�C�i���Â�����񋟂��Ă���g�D�̂ЂƂ́A���Ȃ�� Microsoft�Ђł��BMicrosoft �Ђ̃c�[���� VisualBasic
-(VB)���ォ�� �G��ȉ�ʃf�U�C�i��񋟂������Ă��܂����B����� <A href="http://www.atmarkit.co.jp/fdotnet/insiderseye/20070904fxchrono/fxchrono.html">VisualStudio</A> .NET �ƂȂ������ł� �����񂹕t���Ȃ� ���݂̃|�W�V�����ɂ��܂��B�X�� Microsoft �� Windows Presentation
-Foundation �iWPF�j �� ���̃v���O�C���ł��� <A href="http://www.microsoft.com/japan/silverlight/">Silverlight</A> ���o���Ă��Ă��܂��B.NET Framework�����^�C���Ƃ��� Linux�ł� Mono�ɂ��Ă��ǔF����p�����o���n�߂Ă��܂��B�f�U�C���ʂƂ��ẮA<A href="http://www.microsoft.com/expression/">Expression</A> Blend�Ƃ����� ���f�U�C�i�����̃f�U�C���n�c�[���܂Œ񋟂��n�߂Ă��܂��B</P>
-<P>���͎����Ƃ��āA�T�[�o�T�C�h�� Java���ꂪ�D�K�Ȃ̂�����ǁA�N���C�A���g�T�C�h�� Microsoft .NET Framework �̕����D�K�Ȃ̂ł͂Ȃ��̂��A�Ȃ�čŋߎv���n�߂Ă��܂��B�܂��A�����炠�����
-�S���h��Ă���Ƃ����󋵂ł��B�N���C�A���g�T�C�h�� ���h���I�Ȍ��h�������߂���悤�ɂȂ��Ă���ƁAMicrosoft .NET Framework
-(�܂��� WPF) �͗v�`�F�b�N�ɂȂ�̂ł͂Ȃ����ȁA�Ɨ\�z���Ă��܂��B</P>
+<P><FONT color="#ff0000">2007.09.06追記</FONT></P>
+<P>そんな Java言語なのですが、相対的に弱い面があります。それは 画面デザイナ系の機能で定番となるものが無いという点です。JSP, JSP,
+Swing, SWT、いずれの画面デザイナツールにおいても、<STRONG>これぞ定番</STRONG>という画面デザインツールが存在していません (と私は考えています)。</P>
+<P>秀逸な画面デザイナを古くから提供している組織のひとつは、他ならぬ Microsoft社です。Microsoft 社のツールは VisualBasic
+(VB)時代から 秀逸な画面デザイナを提供し続けてきました。それは <A href="http://www.atmarkit.co.jp/fdotnet/insiderseye/20070904fxchrono/fxchrono.html">VisualStudio</A> .NET となった今でも 他を寄せ付けない 高みのポジションにいます。更に Microsoft は Windows Presentation
+Foundation （WPF） や そのプラグインである <A href="http://www.microsoft.com/japan/silverlight/">Silverlight</A> を出してきています。.NET Frameworkランタイムとして Linux版の Monoについても追認する姿勢を出し始めています。デザイン面としては、<A href="http://www.microsoft.com/expression/">Expression</A> Blendといった よりデザイナ向けのデザイン系ツールまで提供し始めています。</P>
+<P>私は私見として、サーバサイドは Java言語が好適なのだけれど、クライアントサイドは Microsoft .NET Framework の方が好適なのではないのか、なんて最近思い始めています。まあ、そこらあたりで
+心が揺れているという状況です。クライアントサイドに より刺激的な見栄えが求められるようになってくると、Microsoft .NET Framework
+(または WPF) は要チェックになるのではないかな、と予想しています。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃����^�� Web�T�[�o�̑����� Java�����^�C���𗘗p�ł��܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のレンタル Webサーバの多くは Javaランタイムを利用できません</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2007.09.06�ǋL</FONT></P>
-<P>�����_�� ���Ԃ̃����^�� Web�T�[�o�̑����� Java�����^�C���𗘗p�ł��܂���B���̂��߁A�P���� Java����ŊJ�������A�v���P�[�V������
-���Ԃ� �����^��Web�T�[�o�̑����ł͎��s���邱�Ƃ��o���܂���B�ӂށA����� Java����̃E�B�[�N�|�C���g�ł���ˁB</P>
+<P><FONT color="#ff0000">2007.09.06追記</FONT></P>
+<P>現時点の 世間のレンタル Webサーバの多くは Javaランタイムを利用できません。そのため、単純に Java言語で開発したアプリケーションは
+世間の レンタルWebサーバの多くでは実行することが出来ません。ふむ、これも Java言語のウィークポイントですよね。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�R���p�C���n���C���^�v���^�n��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>コンパイラ系かインタプリタ系か</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��ʓI�ȌX���Ƃ��āA�R���p�C���n�̃v���O���~���O����� �C���^�v���^�n�̃v���O���~���O������� �K�͂̑傫�ȃA�v���P�[�V�����𓾈ӂƂ��Ă��܂��B�����
-���̃\�[�X�R�[�h�̑Ó����̃`�F�b�N�ɂ��� �R���p�C�������{���Ă���邩��ł��B(�ӂށA���� ������ �\�[�X�R�[�h�̑Ó����`�F�b�N�@�\�̂��Ƃ��R���p�C���ƌĂ�ł��܂�)<BR>
-�K�͂��傫���ꍇ�ɂ́A�N���X���A���\�b�h���A�^�Ƃ��������̂̑Ó����� ���ꏈ���n���S�ۂ��Ă����Ƃ����̂� ���Y���E�ێ琫�ɔ��ɑ傫�ȃ����b�g�ƂȂ�܂��B�t�Ɍ����ƁA�N���X���A���\�b�h���A�^�Ƃ��������̂̑Ó�����
-���ꏈ���n���S�ۂ��Ă���Ȃ��Ƃ����󋵂� �K�͂̑傫�ȃA�v���P�[�V�����̖ʓ|�����邤���� ���Ȃ�̃f�����b�g�ƂȂ肦��̂ł��B</P>
-<P>�c�o���� �K�͂̑傫�ȃA�v���P�[�V�������C���^�v���^�n���� (�Ó����`�F�b�N�����ꏈ���n�ŒS�ۂ��Ȃ���ނ̂���) �ŊJ���������̂��A�N���X���A���\�b�h���A�^�Ȃǂ̑Ó����������e�X�g�ŒS�ۂ��邱�Ƃ�
-������s�\�ł��B�A�A�A����ȂɋK�͂��傫���Ȃ����̂������̂ł����A�_���ł����B</P>
-<P>�f�p�ɁA��K�̓V�X�e���J���n�ł� ���ꏈ���n�̃`�F�b�N�@�\�Ɉˑ�����Ƃ��낪�傫���̂ł��B</P>
+<P>一般的な傾向として、コンパイラ系のプログラミング言語は インタプリタ系のプログラミング言語よりも 規模の大きなアプリケーションを得意としています。これは
+そのソースコードの妥当性のチェックについて コンパイラが実施してくれるからです。(ふむ、私は ここで ソースコードの妥当性チェック機能のことをコンパイラと呼んでいます)<BR>
+規模が大きい場合には、クラス名、メソッド名、型といったものの妥当性を 言語処理系が担保してくれるというのは 生産性・保守性に非常に大きなメリットとなります。逆に言うと、クラス名、メソッド名、型といったものの妥当性を
+言語処理系が担保してくれないという状況は 規模の大きなアプリケーションの面倒を見るうえで かなりのデメリットとなりえるのです。</P>
+<P>…経験上 規模の大きなアプリケーションをインタプリタ系言語 (妥当性チェックを言語処理系で担保しない種類のもの) で開発したものを、クラス名、メソッド名、型などの妥当性を自動テストで担保することは
+事実上不可能です。、、、そんなに規模が大きくないものだったのですが、ダメでした。</P>
+<P>素朴に、大規模システム開発系では 言語処理系のチェック機能に依存するところが大きいのです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQL�� �m�ł���n�ʂ𓾂��v���O���~���O����ł��I</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQLは 確固たる地位を得たプログラミング言語です！</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�v���O���~���O����̂��� SQL������ �m�ł���n�ʂ𓾂Ă��܂��BSQL�� �v���O���~���O����E�� �B��Ƒ���Ԃł��B����͏O�ڂ̈�v����Ƃ���Ȃ񂾂�
-���͏���Ɏv���Ă��܂��B</P>
-<P>SQL����͏W���������̂����ӂȃv���O���~���O����ł��BJava����� C#.NET���� ���邢�� Ruby����ȂǂƂ������m�C�}�����v���O���~���O����(?)�Ƃ� ����Ӗ�����I�ɈقȂ�|�W�V�����ɂ��܂��B�����āASQL����ɑ΍R������{���� �����ɓo�ꂵ�Ă��܂���B</P>
-<P>�v���O���~���O����� ���낢��Ȃ��Ƃ𒲂ׂĂ��������ŁASQL�ɂ� ���j�̏d�݂� ���̓����ȂǁA�����[���q���g���������B����Ă���Ǝv���Ă��܂��B</P>
+<P>プログラミング言語のうち SQLだけは 確固たる地位を得ています。SQLは プログラミング言語界の 唯我独尊状態です。これは衆目の一致するところなんだと
+私は勝手に思っています。</P>
+<P>SQL言語は集合を扱うのが得意なプログラミング言語です。Java言語や C#.NET言語 あるいは Ruby言語などといったノイマン式プログラミング言語(?)とは ある意味決定的に異なるポジションにいます。そして、SQL言語に対抗しうる本命は 未だに登場していません。</P>
+<P>プログラミング言語の いろいろなことを調べていくうえで、SQLには 歴史の重みや その特長など、興味深いヒントが数多く隠されていると思っています。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���ɓI�ɂ� �v���O���~���O����Ȃ�� �Ȃ�ł��ǂ��̂ł���ˁc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>究極的には プログラミング言語なんて なんでも良いのですよね…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�G���h���[�U�ϓ_�ɂ����āA���ɓI�ɂ̓v���O���~���O����Ȃ�āA�Ȃ�ł��ǂ���ł��B���p�҂� �Ȃɂ��A�v���P�[�V�������g�������Ƃ��ɁA�v���O���~���O����
-���邢�� �v���O���~���O����̂��߂̃����^�C�����C�u�������擾���āA�����Ď��s������ǂ������Ȃ̂ł�����A�A�A�B</P>
-<P>�G���h���[�U�̂��߂ɏd�v�Ȃ̂́A���̗��p�������A�v���P�[�V������ <STRONG>�������������̂� ����Ƃ������Ȃ��̂�</STRONG>�A�Ƃ������Ƃ����̂͂��ł��B�Q�[���@�ŗႦ��ƁA�A�APlayStation �p�̃\�t�g�E�F�A�� �قƂ�ǂ̏ꍇ PlayStation 2 �œ��삷�邱�Ƃł��傤�B�ł�
-PlayStation 2 �p�̃\�t�g�E�F�A�� PlayStation �ł͓��삵�Ȃ��̂ł��傤�BWii�ł� PlayStation 2�p�̃\�t�g�E�F�A��
-���삵�Ȃ����Ƃł��傤�B(���͎���Ă��܂���) �����āA�����Q�[���̃\�t�g�E�F�A�� ������ŊJ������Ă���̂��ɂ��ẮA�قƂ�ǂ̃G���h���[�U�ɂ�
-�����̂Ȃ����ƂȂ̂ł��B�����Ȃ̂ł��I �v���O���~���O����� ���ꂪ�D���E���ꂪ�����Ȃ�Ă̂́A�J���҂̒P�Ȃ�G�S�������̂ł��I (�J���҂̒P�Ȃ�G�S�Ȃ̂ł�����ǂ��A���Y���͖����ł��Ȃ�����A�ǂ��I�Ԃ̂��ɂ��Ă͏d�v�Ȃ̂ł�����ǂ��ˁc)</P>
-<P>���̂悤�ɁA���������v���O���~���O�����_����Ƃ��ɂ́A�G���h���[�U�ϓ_�������Ă��Ȃ����ǂ����������ɖ₢�����邱�Ƃ��d�v�Ȃ̂ł��B<BR>
-����́AJava�̃o�[�W�����A.NET Framework�̃o�[�W�����A���邢�� �w�w�w����̃o�[�W�����A�����������ɂ��֌W����̂ł���˂��B</P>
+<P>エンドユーザ観点において、究極的にはプログラミング言語なんて、なんでも良いんです。利用者は なにかアプリケーションを使いたいときに、プログラミング言語
+あるいは プログラミング言語のためのランタイムライブラリを取得して、そして実行したら良いだけなのですから、、、。</P>
+<P>エンドユーザのために重要なのは、その利用したいアプリケーションが <STRONG>いったい動くのか それとも動かないのか</STRONG>、ということだけのはずです。ゲーム機で例えると、、、PlayStation 用のソフトウェアは ほとんどの場合 PlayStation 2 で動作することでしょう。でも
+PlayStation 2 用のソフトウェアは PlayStation では動作しないのでしょう。Wiiでは PlayStation 2用のソフトウェアは
+動作しないことでしょう。(裏は取っていません) そして、それらゲームのソフトウェアが 何言語で開発されているのかについては、ほとんどのエンドユーザには
+興味のないことなのです。そうなのです！ プログラミング言語で これが好き・これが嫌いなんてのは、開発者の単なるエゴだったのです！ (開発者の単なるエゴなのですけれども、生産性は無視できないから、どれを選ぶのかについては重要なのですけれどもね…)</P>
+<P>このように、私たちがプログラミング言語を論じるときには、エンドユーザ観点を失っていないかどうかを自分に問いかけることも重要なのです。<BR>
+それは、Javaのバージョン、.NET Frameworkのバージョン、あるいは ＸＸＸ言語のバージョン、そういう所にも関係あるのですよねぇ。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>����ł����� Java���ꂪ�D�� (���)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>それでも私は Java言語が好き (苦笑)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����ł��A���邢�� ������? �A�A�A������ɂ���A���� Java���ꂪ�D���Ȃ̂ł�����ǂ��ˁc :-P<BR>
-���������C�������A�I�[�v���\�[�X�J���ɏ[�ĂĂ���̂��Ǝv���܂��B(����ȂƂ���ɗ����܂���)</P>
+<P>それでも、あるいは だから? 、、、いずれにせよ、私は Java言語が好きなのですけれどもね… :-P<BR>
+そういう気持ちを、オープンソース開発に充てているのだと思います。(そんなところに落ちました)</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

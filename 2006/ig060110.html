@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/01/10 ���L: Javassist ��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v�� , blancoJUnit2Doc���Ó��Ȗ��̂ł��邩�ǂ�����������</TITLE>
-<META name="DESCRIPTION" content="Apache Jakarta BCEL�Ɉ��������A����ǂ� Javassist��̌����܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,Javassist,�o�C�g�R�[�h">
+<TITLE>2006/01/10 日記: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</TITLE>
+<META name="DESCRIPTION" content="Apache Jakarta BCELに引き続き、こんどは Javassistを体験しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Javassist,バイトコード">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/01/10 ���L: Javassist ��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v�� , blancoJUnit2Doc���Ó��Ȗ��̂ł��邩�ǂ�����������</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,Javassist,�o�C�g�R�[�h] Apache Jakarta BCEL�Ɉ��������A����ǂ� Javassist��̌����܂����B</P>
+    <H2>2006/01/10 日記: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Javassist,バイトコード] Apache Jakarta BCELに引き続き、こんどは Javassistを体験しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,64 +59,64 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoJUnit2Doc�ŗǂ����ǂ������O���������c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoJUnit2Docで良いかどうか名前を検討中…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A> Framework�̃T�u�v���W�F�N�g�ł��� JUnit�p�e�X�g�P�[�X�E�\�[�X�R�[�h����h�L�������g��������������c�[���̖��̂ɂ��āA�ublancoJUnit2Doc�v�ŗǂ����ǂ������������ł��B</P>
-<P>���Ƀl�[�~���O�̃Z���X���������Ƃ��A���炽�߂Ď�������鍡�����̍��ł��B</P>
-<P><FONT color="#ff0000">2006.01.14�ǋL</FONT> ���� �v���W�F�N�g���� blancoJUnit �ɗ��������܂����B</P>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのサブプロジェクトである JUnit用テストケース・ソースコードからドキュメントを自動生成するツールの名称について、「blancoJUnit2Doc」で良いかどうかを検討中です。</P>
+<P>私にネーミングのセンスが無いことが、あらためて実感される今日この頃です。</P>
+<P><FONT color="#ff0000">2006.01.14追記</FONT> 結局 プロジェクト名は blancoJUnit に落ち着きました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060114.html">2006/01/14 ���L: blancoJUnit�v���W�F�N�g �n��</A>
-  <LI><A href="../2005/ig051221.html">2005/12/21 ���L: blanco Framework�̎������[�h�}�b�v�F�P�̎����H���̎�����</A>
-  <LI><A href="../2005/ig051130.html">2005/11/30 ���L: blanco�P�̎������ڕ\��������(���̌�����), blancoJUnit�͎������������ , ����NHK�j���[�X�ɂĐÉ��̃K���v���H�ꂪ���f</A>
-  <LI><A href="../2005/ig051115.html">2005/11/15 ���L: blancoJUnit�̒�� , blancoApacheDistribution�̍\�z</A>
+  <LI><A href="ig060114.html">2006/01/14 日記: blancoJUnitプロジェクト 始動</A>
+  <LI><A href="../2005/ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+  <LI><A href="../2005/ig051130.html">2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</A>
+  <LI><A href="../2005/ig051115.html">2005/11/15 日記: blancoJUnitの提案 , blancoApacheDistributionの構想</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BCEL�ȊO�̃o�C�g�R�[�h��̓c�[�����������蒲�ׂĂ݂܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BCEL以外のバイトコード解析ツールをざっくり調べてみました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache Jakarta BCEL�ȊO�̃c�[����p�����o�C�g�R�[�h��͂ɂ��Ă��������ׂĂ݂܂����B�o�C�g�R�[�h��͂Ƃ������Ƃ� DI/AOP�c�[�����܂���������ƌ������Ă��������܂����B</P>
-<P>Seasar2��Javassist��p���Ă���͗l�ł��B</P>
+<P>Apache Jakarta BCEL以外のツールを用いたバイトコード解析についても少し調べてみました。バイトコード解析ということで DI/AOPツールをまずざっくりと見させていただきました。</P>
+<P>Seasar2はJavassistを用いている模様です。</P>
 <UL>
   <LI><A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/</A>
 </UL>
-<P>Spring Framework�� ���͋C�I�ɂ� CGLIB��p���Ă���͗l�ł����B(�E��������Ă��܂���)</P>
+<P>Spring Frameworkは 雰囲気的には CGLIBを用いている模様でした。(ウラを取っていません)</P>
 <UL>
   <LI><A HREF="http://forum.springframework.org/archive/index.php/t-10121.html">http://forum.springframework.org/archive/index.php/t-10121.html</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ���������蒲�ׂ܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist をざっくり調べました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Seasar2���̗p���Ă��邱�Ƃ�����AJavassist�� �������茩�����Ă��������܂����B</P>
+<P>Seasar2が採用していることもあり、Javassistを ざっくり見させていただきました。</P>
 <UL>
   <LI><A HREF="http://www.csg.is.titech.ac.jp/~chiba/javassist/">http://www.csg.is.titech.ac.jp/~chiba/javassist/</A>
-  <LI>���C�Z���X��Mozilla Public License 1.1
-  <LI>JBoss Sponsored Open Source Projects�Ɋ܂܂�Ƃ����ʒu�Â��ł���͗l�B(JBoss�v���W�F�N�g�T�C�g����_�E�����[�h���܂���)
+  <LI>ライセンスはMozilla Public License 1.1
+  <LI>JBoss Sponsored Open Source Projectsに含まるという位置づけである模様。(JBossプロジェクトサイトからダウンロードしました)
 </UL>
-<P>�܂��A�͂Ԃ���̓��L�o�R�� Javassist�`���[�g���A���ɓ��B���܂����B�׋��ɂȂ�܂��B</P>
+<P>また、はぶさんの日記経由で Javassistチュートリアルに到達しました。勉強になります。</P>
 <UL>
-  <LI>Javassist�`���[�g���A��<BR>
+  <LI>Javassistチュートリアル<BR>
   <A HREF="http://www.smg.co.jp/seminar/techsquare/javassist01.html">http://www.smg.co.jp/seminar/techsquare/javassist01.html</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist を用いたクラスファイル(バイトコード)解析サンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>����Ɉ��������A����ǂ� Javassist ��p�����N���X�t�@�C��(�o�C�g�R�[�h)�̉�͂�̌����܂����B</P>
+<P>先日に引き続き、こんどは Javassist を用いたクラスファイル(バイトコード)の解析を体験しました。</P>
 <UL>
-  <LI>Javassist-3.1 RC2���������Ċm�F���܂����B
+  <LI>Javassist-3.1 RC2をもちいて確認しました。
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -131,7 +131,7 @@
     <TR>
       <TD>
       <pre>/**
- * Javassist��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v��
+ * Javassistを用いたクラスファイル(バイトコード)解析サンプル
  */
 
 import java.io.BufferedInputStream;
@@ -148,13 +148,13 @@ import javassist.bytecode.MethodInfo;
 import javassist.bytecode.Opcode;
 
 /**
- * Javassist��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v��
+ * Javassistを用いたクラスファイル(バイトコード)解析サンプル
  * 
  * @author IGA Tosiki
  */
 public class JavassistSample {
     /**
-     * ��͂��s�������N���X�t�@�C�������w�肵�܂��B
+     * 解析を行いたいクラスファイル名を指定します。
      */
     private static final String CLASS_MODULE = &quot;./bin/JavassistSample.class&quot;;
 
@@ -175,7 +175,7 @@ public class JavassistSample {
             for (int index = 0; index &lt; listMethod.size(); index++) {
                 final MethodInfo methodInfo = (MethodInfo) listMethod
                         .get(index);
-                System.out.println(&quot;���\�b�h:&quot; + methodInfo.getName());
+                System.out.println(&quot;メソッド:&quot; + methodInfo.getName());
                 final CodeAttribute ca = methodInfo.getCodeAttribute();
                 final byte[] codes = ca.getCode();
                 for (final CodeIterator ci = ca.iterator(); ci.hasNext();) {
@@ -364,7 +364,7 @@ public class JavassistSample {
                         System.out.println(&quot;  LOOKUPSWITCH&quot;);
                         break;
                     default:
-                        System.out.println(&quot;  ���̃T���v���ł͖��Ή��̃R�[�h�ł�:&quot; + opcode
+                        System.out.println(&quot;  このサンプルでは未対応のコードです:&quot; + opcode
                                 + &quot;(&quot; + Integer.toHexString(opcode) + &quot;)&quot;);
                         break;
                     }
@@ -380,22 +380,22 @@ public class JavassistSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig060106.html">2006/01/06 ���L: Apache Jakarta BCEL��p�����N���X�t�@�C��(�o�C�g�R�[�h)��̓T���v��</A>
+  <LI><A href="ig060106.html">2006/01/06 日記: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework�̃o�C�g�R�[�h��͂ɂ� �Ƃ肠���� Apache Jakarta BCEL���̗p���邱�Ƃɂ��܂�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkのバイトコード解析には とりあえず Apache Jakarta BCELを採用することにします</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����������ʁAblanco Framework�̃o�C�g�R�[�h��͂̂��߂̃��C�u�����ɂ� Apache Jakarta BCEL���̗p���邱�Ƃɂ��܂����B�Ƃ����̂��Ablanco
-Framework�ł�class�t�@�C���̓ǂݏo�����傽��ړI�ł���A������BCEL�̓���̋@�\�Ɉˑ�����̂��ǂ��悤�Ȃ̂ŁA�g�[�^���I�ɂ�
-BCEL�̗��p���]�܂����Ɣ��f���܂��B����͑����I�ȋ@�\�Ȃǂ̔��f�ɂ����̂ł͂Ȃ��A���܂��܎��������Ă���j�[�Y�ɑ΂���BCEL�̋@�\�⃉�C�Z���X���ł��t�B�b�g������̂Ɣ��f�����̂ɉ߂��܂���B</P>
+<P>検討した結果、blanco Frameworkのバイトコード解析のためのライブラリには Apache Jakarta BCELを採用することにしました。というのも、blanco
+Frameworkではclassファイルの読み出しが主たる目的であり、しかもBCELの特定の機能に依存するのが良いようなので、トータル的には
+BCELの利用が望ましいと判断します。これは総合的な機能などの判断によるものではなく、たまたま私が持っているニーズに対してBCELの機能やライセンスが最もフィットするものと判断したのに過ぎません。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

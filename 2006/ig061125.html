@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/11/25 ���L: ��Q���� blancoDb ��݌v���c</TITLE>
-<META name="DESCRIPTION" content="SQL��`���A���W���[���\���A�����\���Ȃǂ��l�@���ł��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2006/11/25 日記: 第２世代 blancoDb を設計中…</TITLE>
+<META name="DESCRIPTION" content="SQL定義書、モジュール構成、内部構造などを考察中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/11/25 ���L: ��Q���� blancoDb ��݌v���c</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] SQL��`���A���W���[���\���A�����\���Ȃǂ��l�@���ł��B</P>
+    <H2>2006/11/25 日記: 第２世代 blancoDb を設計中…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] SQL定義書、モジュール構成、内部構造などを考察中です。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,81 +59,81 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��Q���� blancoDb ��݌v���c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb を設計中…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��Q���� blancoDb�̐݌v�����͂��߂Ă��܂��B�悤����ƍŋ� �l�����܂Ƃ܂��Ă��܂����B���W���[���\��������\���ɂ��āA<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�����v���W�F�N�g�ɓ������������ł�
-���܂��܂ȃm�E�n�E�����ƂɁA���ʓI�ȃ��W���[������������\�����Đ݌v�ł��邱�Ƃ����҂��Ă��܂��B</P>
+<P>第２世代 blancoDbの設計をしはじめています。ようやっと最近 考えがまとまってきました。モジュール構成や内部構造について、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>を実プロジェクトに投入したうえでの
+さまざまなノウハウをもとに、効果的なモジュール分割や内部構造を再設計できることを期待しています。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQL��`���̉��P��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SQL定義書の改善案</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>SQL��`���ɂ��āA�v���O���~���O�����ˑ�������B
+  <LI>SQL定義書について、プログラミング言語非依存化する。
 </UL>
-<P>DSL�����̂ЂƂƂ��� blancoDb�������ꍇ�A�ΏۂƂ�����̂̓����[�V���i���f�[�^�x�[�X��SQL�ł��B���̂��߁A�v���O���~���O�����ˑ������A�o�ꂷ��p��������[�V���i���f�[�^�x�[�X�֘A�p�ꂾ���ɂ���̂��]�܂����ƍl���Ă��܂��B��`�����v���O���~���O�����ˑ��ɂ��邱�Ƃɂ��ASQL��`���L���҂ɋ��߂���X�L����
-�����肷�邱�Ƃ��ł��A�����R�X�g�팸�����҂ł��܂��B</P>
-<P>��̓I�ɂ́A���L�̂悤�ȉ��ǂ��l�����܂��B</P>
+<P>DSL実装のひとつとして blancoDbを見た場合、対象とするものはリレーショナルデータベースやSQLです。このため、プログラミング言語非依存化し、登場する用語もリレーショナルデータベース関連用語だけにするのが望ましいと考えています。定義書をプログラミング言語非依存にすることにより、SQL定義書記入者に求められるスキルを
+より限定することができ、導入コスト削減が期待できます。</P>
+<P>具体的には、下記のような改良が考えられます。</P>
 <UL>
-    <LI>SQL���o�̓p�����[�^�̌^�w��ɂ��āA�f�[�^�x�[�X�̘_���^���w��B<BR>�������A�h���b�v�_�E���ɂ��ď]���̌^�\�����c���Ă����Č݊����m�ۂ͎��{�������B
-    <LI>SQL���o�̓p�����[�^�� ��NULL���w�肷����ǉ��B
+    <LI>SQL入出力パラメータの型指定について、データベースの論理型を指定。<BR>ただし、ドロップダウンについて従来の型表現も残しておいて互換性確保は実施したい。
+    <LI>SQL入出力パラメータに 非NULLを指定する列を追加。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��Q���� blancoDb �̃��W���[���\���݌v</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb のモジュール構成設計</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��Q���� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> �̃��W���[���\���� ���L�̂悤�ȕ������Ó����ƍl���Ă��܂��B</P>
+<P>第２世代 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> のモジュール構成は 下記のような分割が妥当かと考えています。</P>
 <UL>
-  <LI>�f�[�^�x�[�X����\���𒊏o����B
+  <LI>データベースから表情報を抽出する。
   <UL>
-    <LI>blancoDbMetaData ���S��
-    <LI>�v���O���~���O����ɔ�ˑ�
+    <LI>blancoDbMetaData が担当
+    <LI>プログラミング言語に非依存
   </UL>
-  <LI>�f�[�^�x�[�X�̕\�������ƂɁA�P��\�A�N�Z�X�pSQL���쐬����B
+  <LI>データベースの表情報をもとに、単一表アクセス用SQLを作成する。
   <UL>
-    <LI>blancoDbSimpleTable (?) (���͖̂�����)
-    <LI>�v���O���~���O����� �ق� ��ˑ��B�������A�v���O���~���O����ɂ���� SQL�̍쐬�E��쐬�Ȃǂ�؂肩����\�͕͂K�v�B
+    <LI>blancoDbSimpleTable (?) (名称は未決定)
+    <LI>プログラミング言語に ほぼ 非依存。ただし、プログラミング言語によって SQLの作成・非作成などを切りかえる能力は必要。
   </UL>
-  <LI>SQL��`��(*.xls�`��) ��ǂݍ���� XML�t�@�C���ɕϊ�����B
+  <LI>SQL定義書(*.xls形式) を読み込んで XMLファイルに変換する。
   <UL>
-    <LI>blancoDb�{�́A���邢�� ������ʃ��W���[���ɂ��ׂ����ǂ��������BblancoDbForm (?) (���͖̂�����)
-    <LI>�v���O���~���O����� �ق� ��ˑ�<BR>
-    ��ˑ��ɂȂ邩�ǂ����͗l���̓��e����B�ˑ��x�ɂ���ĕʃ��W���[�������邩�ǂ����̍ŏI�I�Ȕ��f���Ȃ����B
+    <LI>blancoDb本体、あるいは これも別モジュールにすべきかどうか検討。blancoDbForm (?) (名称は未決定)
+    <LI>プログラミング言語に ほぼ 非依存<BR>
+    非依存になるかどうかは様式の内容次第。依存度によって別モジュール化するかどうかの最終的な判断がなされる。
   </UL>
-  <LI>SQL�����f�[�^�x�[�X�ɑ΂��Ď����ł������ASQL���Ɋւ��郁�^�����擾����B
+  <LI>SQL文をデータベースに対して試し打ちをし、SQL文に関するメタ情報を取得する。
   <UL>
-    <LI>blancoDbMetaData ���S��
-    <LI>�v���O���~���O����� �ق� ��ˑ�
+    <LI>blancoDbMetaData が担当
+    <LI>プログラミング言語に ほぼ 非依存
   </UL>
-  <LI>SQL���ɑ΂��郁�^�������ƂɁA�\�[�X�R�[�h��������������B
+  <LI>SQL文に対するメタ情報をもとに、ソースコードを自動生成する。
   <UL>
-    <LI>blancoDb�{�́B���邢�́AJava�� blancoDb�Ƃł��Ă΂��
-    <LI>�v���O���~���O����Ɉˑ�
+    <LI>blancoDb本体。あるいは、Java版 blancoDbとでも呼ばれる
+    <LI>プログラミング言語に依存
   </UL>
 </UL>
-<P>���̂����AblancoDbMetaData �ɂ��Ă͊��Ɏ����͏I����Ă��܂��BblancoDbMetaData �́A�S���ŏ����珑�����낵�܂����B�ꂩ�珑�����낵�����Ƃɂ��A�ƂĂ������̂��Ƃ��w�Ԃ��Ƃ��ł��܂����B���Ȃ݂ɁAblancoDbMetaData�𗘗p�����
-�\��`�G�N�X�|�[�g�c�[���̂悤�Ȃ��̂��A�����ȒP�ɍ쐬�ł��܂��B</P>
+<P>このうち、blancoDbMetaData については既に実装は終わっています。blancoDbMetaData は、全く最初から書きおろしました。一から書き下ろしたことにより、とても多くのことを学ぶことができました。ちなみに、blancoDbMetaDataを利用すると
+表定義エクスポートツールのようなものが、ごく簡単に作成できます。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>��Q���� blancoDb �̓����\��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第２世代 blancoDb の内部構造</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>���� �v���O���~���O����^�ŋ쓮���Ă�������\�����Ajava.sql.Types �x�[�X�ւƕύX�B
-  <LI>�}�b�s���O�ɂ��āA�N���X��ӏ��ɏW�������� �ǐ������コ����B���邢�͂������� �}�b�s���O�� blancoStringConverter��`�����ĊO��������B<BR>
-  �� java.sql.Types �� �v���O���~���O����^ �Ƃ̃}�b�s���O�� blancoStringConverter�x�[�X�Ɉڍs�B
+  <LI>現在 プログラミング言語型で駆動している内部構造を、java.sql.Types ベースへと変更。
+  <LI>マッピングについて、クラス一箇所に集合させて 可読性を向上させる。あるいはそもそも マッピングを blancoStringConverter定義化して外部化する。<BR>
+  → java.sql.Types と プログラミング言語型 とのマッピングを blancoStringConverterベースに移行。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

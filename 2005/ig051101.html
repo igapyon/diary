@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/11/01 ���L: blancoCsv (0.2.0) �����[�X</TITLE>
-<META name="DESCRIPTION" content="CSV�t�@�C�����o�͂��s��Java�\�[�X�R�[�h��������������blancoCsv�ɂ��āA���r�W�����A�b�v�����[�X���s���܂��B�d�l��̖��������̃o�O�Ȃǂ����� �����̓_�ɂ��čX�V���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/11/01 日記: blancoCsv (0.2.0) リリース</TITLE>
+<META name="DESCRIPTION" content="CSVファイル入出力を行うJavaソースコードを自動生成するblancoCsvについて、リビジョンアップリリースを行います。仕様上の問題や実装上のバグなどがあり それらの点について更新しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/11/01 ���L: blancoCsv (0.2.0) �����[�X</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] CSV�t�@�C�����o�͂��s��Java�\�[�X�R�[�h��������������blancoCsv�ɂ��āA���r�W�����A�b�v�����[�X���s���܂��B�d�l��̖��������̃o�O�Ȃǂ����� �����̓_�ɂ��čX�V���܂����B</P>
+    <H2>2005/11/01 日記: blancoCsv (0.2.0) リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] CSVファイル入出力を行うJavaソースコードを自動生成するblancoCsvについて、リビジョンアップリリースを行います。仕様上の問題や実装上のバグなどがあり それらの点について更新しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,43 +60,43 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCsv�X�V</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCsv更新</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>CSV�t�@�C�����o�͂��s��Java�\�[�X�R�[�h��������������<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A>�ɂ��āA���r�W�����A�b�v�����[�X���s���܂��B�d�l��̖��������̃o�O�Ȃǂ�����
-�����̓_�ɂ��čX�V���܂����B</P>
+<P>CSVファイル入出力を行うJavaソースコードを自動生成する<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>について、リビジョンアップリリースを行います。仕様上の問題や実装上のバグなどがあり
+それらの点について更新しました。</P>
 <UL>
-  <LI>�_�u���N�I�[�g�ɂ��G�X�P�[�v�ɂ��� ���i�ȃ`�F�b�N����ѕt�^���s���悤�ɂ��܂����B<BR>
-  ���܂ł� �_�u���N�I�[�g�Ɋւ��鏈���� �u�s��v�ł��₩�Ȏd�l�ɂȂ��Ă��܂����B(�������݂̍ۂɂ͕t�^���s�킸�A�ǂݍ��݂̍ۂɂ͕s��̂܂ܓǂݍ��݂��s���Ă��܂���)
-  <LI>�s�̏I�[�`�F�b�N�Ɋւ��� �K�؂ɏ����ł���悤�ɂ��܂����B<BR>
-  ���܂܂ł̔łł́A�s�̏I�[����ɕs�������܂����B��̓I�ɂ́A�I�[�̍��ڂ� ����0�̏ꍇ�ɕs��������N�����Ă��܂����B
+  <LI>ダブルクオートによるエスケープについて 厳格なチェックおよび付与を行うようにしました。<BR>
+  今までは ダブルクオートに関する処理が 「不定」でゆるやかな仕様になっていました。(書き込みの際には付与を行わず、読み込みの際には不定のまま読み込みを行っていました)
+  <LI>行の終端チェックに関して 適切に処理できるようにしました。<BR>
+  いままでの版では、行の終端判定に不具合がありました。具体的には、終端の項目が 長さ0の場合に不具合を引き起こしていました。
 </UL>
-<P><A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A>�����Ɏg���Ă�����ɂ́A����̔ł��擾���Ēu�������邱�Ƃ������߂��܂��B</P>
-<P>CSV�t�@�C�����o�́A�����[���ł��B�܂����ɂ͎嗧���������ϓ_�̂�������c���������Ă��Ȃ��悤�ł��B���݂܂���B<BR>
-<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A>�� �܂��܂� �S���u���̃V�X�e���v�Ɉʒu�Â�����t�F�[�Y�ɂ���悤�ɍl�����܂��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>を既に使っている方には、今回の版を取得して置き換えることをお勧めします。</P>
+<P>CSVファイル入出力、奥が深いです。まだ私には主立った試験観点のいくつかを把握しきっていないようです。すみません。<BR>
+<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>は まだまだ 全く「第一のシステム」に位置づけられるフェーズにあるように考えられます。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Curl�`�[���Ƃ�xsd�a�ʎ���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Curlチームとのxsd疎通試験</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>������ Curl�`�[���Ƃ� xsd�a�ʎ��������{����v��ł��B�͂₢�����ɕύX�� xsd�𐶐�����悤�ɑΉ�����K�v������܂��B</P>
+<P>今日は Curlチームとの xsd疎通試験を実施する計画です。はやいうちに変更版 xsdを生成するように対応する必要があります。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse RCP����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse RCPメモ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�P���� RCP��P�̓��삳������@���킩��Ȃ��č���܂����B�ȒP�� Google�Ō������Ă݂��Ƃ���AEclipse Trader �Ƃ������̂��q�b�g���܂����B</P>
+<P>単純に RCPを単体動作させる方法がわからなくて困りました。簡単に Googleで検索してみたところ、Eclipse Trader というものがヒットしました。</P>
 <UL>
   <LI>Eclipse Trader<BR>
   http://eclipsetrader.sourceforge.net/
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

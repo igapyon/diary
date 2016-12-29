@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/01/23 ���L: �t�@�C�������v���O�����̎���</TITLE>
-<META name="DESCRIPTION" content="�t�@�C�������v���O���������삵�Ă݂܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/01/23 日記: ファイル分割プログラムの試作</TITLE>
+<META name="DESCRIPTION" content="ファイル分割プログラムを試作してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/01/23 ���L: �t�@�C�������v���O�����̎���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �t�@�C�������v���O���������삵�Ă݂܂����B</P>
+    <H2>2002/01/23 日記: ファイル分割プログラムの試作</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ファイル分割プログラムを試作してみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,25 +58,25 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�É��o������A���Ă��܂����B�����͓����o���ł�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>静岡出張から帰ってきました。明日は東京出張です</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>1��2���̐É��o������A���Ă��܂����B�����͓��A��̓����o���ł��B��X�T����
-�o���V���[�Y�������Ȃ��B</P>
+<P>1泊2日の静岡出張から帰ってきました。明日は日帰りの東京出張です。先々週から
+出張シリーズ続きだなぁ。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�t�@�C�������v���O���������삵�Ă݂܂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ファイル分割プログラムを試作してみました</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�K�v�ɋ���� ������ƃt�@�C�������v���O�������쐬���܂����B�����ƕ�����2�p�^�[���������������Ă݂܂����B</P>
+<P>必要に駆られて ちょっとファイル分割プログラムを作成しました。分割と復元の2パターン両方を準備してみました。</P>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD><pre>/**
- * �t�@�C�������v���O����
+ * ファイル分割プログラム
  * Copyright (C) 2002  Tosiki IGA
  *
  *   @author Tosiki IGA
@@ -110,7 +110,7 @@ public class Split
                         System.out.println(&quot;  usage: java Split -r FILENAME&quot;+SZ_SPLIT_SUFFIX+&quot;1&quot;);
                 }else if(args[0].equals(&quot;-r&quot;) &amp;&amp; args.length&gt;1){
                         if(args[1].endsWith(SZ_SPLIT_SUFFIX+&quot;1&quot;)==false){
-                                System.out.println(&quot;*&quot;+SZ_SPLIT_SUFFIX+&quot;1 �t�@�C�����w�肵�Ă�������.&quot;);
+                                System.out.println(&quot;*&quot;+SZ_SPLIT_SUFFIX+&quot;1 ファイルを指定してください.&quot;);
                         }else{
                                 try{
                                         merge(new File(args[1]));
@@ -207,45 +207,45 @@ public class Split
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicode�̔��p�J�^�J�i��0xff�ȏ�łт����� (�Ƃ��������̌�������Ńo�O������Ă��܂���)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicodeの半角カタカナが0xff以上でびっくり (というかこの誤解が元でバグを作っていました)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Unicode�ł̔��p�J�^�J�i���� 0xff�ȏ�̂Ƃ���Ƀ}�b�v����Ă����ł��ˁB�������F���Ă��āA�o�O����荞��ł��܂����BEUC�Ɠ����悤�Ȓ��ӂ��K�v�Ȃ�ł��ˁB�c
-Unicode�̕����R�[�h�ɂ����āA���镶���R�[�h�� ���p�E�S�p������ł���̂��𔻒肷�閽�߂��āAJava����API�ɂ���̂������A�A�A���͌������܂���ł����B</P>
-<P><FONT color="#ff0000">2002/01/29 �ǋL</FONT> �ǎ҂̂܂��Ƃ��񂩂�̃c�b�R�~<BR>
-<CITE>�܂��Ƃł��B<BR>
-���p�A�S�p��ٕʂ��邨��y�ȕ��@�͂���܂���:)<BR>
-Unicode �ɂ͂��̂悤�ȊT�O�͂���܂��񂩂�:)<BR>
-# �m���͂邩�̂� Java-House ML �ł��b���������悤�ȁc�B<BR>
+<P>Unicodeでの半角カタカナって 0xff以上のところにマップされているんですね。これを誤認していて、バグを作り込んでいました。EUCと同じような注意が必要なんですね。…
+Unicodeの文字コードにおいて、ある文字コードが 半角・全角いずれであるのかを判定する命令って、Java言語APIにあるのかしらん、、、私は見つけられませんでした。</P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> 読者のまつもとさんからのツッコミ<BR>
+<CITE>まつもとです。<BR>
+半角、全角を弁別するお手軽な方法はありません:)<BR>
+Unicode にはそのような概念はありませんから:)<BR>
+# 確かはるか昔に Java-House ML でも話があったような…。<BR>
 <BR>
-�}�b�g�E�ɂ��Ȃ�String��Shift_JIS�����̃o�C�g��ɕϊ����Ē���������Ƃ������ƂɂȂ�ł��傤��(unmapped
-�����肻��?)�A�͂����Ȃ�<BR>
+マットウにやるならStringをShift_JISだかのバイト列に変換して長さを見るということになるでしょうし(unmapped
+が困りそう?)、はしょるなら<BR>
 &quot; 012345..abc....&quot;.indexOf(src.charAt(..))<BR>
-�Ȃ�Ă��ƂɂȂ��ł�����:)</CITE></P>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�݂Ȃ��񂨍���̃l�^�������̂ł��ˁB�ׂ񂫂傤�ɂȂ�܂��B�Ƃ肠�������͔��p���ȗ̈�̑召��r�Ƃ���
-���̂������͂�������Z���g���ĉ�����Ă��܂��܂����B�ł��A����𒲂ׂ�ߒ���
-Unicode�̃R�[�h�\���݂Ȃ��� ��������Ƃ��Ă��܂��܂������c�B�Ƃ����̂�
-0xff�ȉ��ł� �������{�ꏈ���ɂ����đS�p�ȕ���������������Ă��܂����̂ł����́B�����c�B</P>
+なんてことになるんですかね:)</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+みなさんお困りのネタだったのですね。べんきょうになります。とりあえず私は半角かな領域の大小比較という
+ものすごくはしょった技を使って回避してしまいました。でも、それを調べる過程で
+Unicodeのコード表をみながら がくぜんとしてしまいましたが…。というのも
+0xff以下でも 旧来日本語処理において全角な文字が幾つか見つかってしまったのですもの。およよ…。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�h�����̃��\�b�h���� �q�N���X�̃I�[�o�[���C�h�ς݃��\�b�h���Ă΂�Ȃ��c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>派生元のメソッド内で 子クラスのオーバーライド済みメソッドが呼ばれない…</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���Ȃ��ƂŔY��ł��܂����B���Ԑ؂�Œ����͂�����߂܂������c<BR>
-�h����ɔh�����Ɠ��������ȃ��\�b�hA���I�[�o���C�h�����Ƃ��܂��B�� �h�����̒��ɂ���ʂ̃��\�b�hB���Ăяo�����ۂɁA���̃I�[�o���C�h�������\�b�hA�͌Ăяo����邩�ǂ����A�Ƃ������Ƃł��B��
-���\�b�hB�̒�����̓I�[�o���C�h�����͂��̔h���惁�\�b�hA�͌Ăяo���ꂸ�A�e�N���X���̃��\�b�hA���Ăяo����܂����B�͂āA���̊��Ⴂ�������̂�����B���Ȃ݂Ɋ���
-Windows�� J2SE 1.3.1_02 �ł����c�B</P>
-<P><FONT color="#ff0000">2002/01/29 �ǋL</FONT> �ǎ҂̂܂��Ƃ��񂩂�̃c�b�R�~<BR>
-<CITE>�܂��Ƃł��B<BR>
-���\�b�h�� static �� private �������A�Ƃ������I�`�͂Ȃ��ł����H<BR>
-static �� private ���Ăяo���i�Ƃ������Ăяo����H�j�����N���X�ɌŒ肳��<BR>
-�܂��̂ŁB</CITE></P>
-<P><FONT color="#ff0000">2002/01/29 �ǋL</FONT> ���񂩂�̃c�b�R�~<BR>
-<CITE>����ł��B</CITE></P>
+<P>妙なことで悩んでいました。時間切れで調査はあきらめましたが…<BR>
+派生先に派生元と同じ引数なメソッドAをオーバライドしたとします。で 派生元の中にある別のメソッドBを呼び出した際に、このオーバライドしたメソッドAは呼び出されるかどうか、ということです。で
+メソッドBの中からはオーバライドしたはずの派生先メソッドAは呼び出されず、親クラス内のメソッドAが呼び出されました。はて、私の勘違いだったのかしら。ちなみに環境は
+Windows版 J2SE 1.3.1_02 ですが…。</P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> 読者のまつもとさんからのツッコミ<BR>
+<CITE>まつもとです。<BR>
+メソッドが static か private だった、とかいうオチはないですか？<BR>
+static も private も呼び出し（というか呼び出され？）が自クラスに固定され<BR>
+ますので。</CITE></P>
+<P><FONT color="#ff0000">2002/01/29 追記</FONT> さんからのツッコミ<BR>
+<CITE>結城です。</CITE></P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -273,23 +273,23 @@ class Child extends Parent {
     </TR>
   </TBODY>
 </TABLE>
-<P><CITE>�̎��s���ʂ́A<BR>
+<P><CITE>の実行結果は、<BR>
 </CITE><CITE><BR>
 Child<BR>
 Child<BR>
 Parent<BR>
 </CITE><CITE><BR>
-�ɂȂ�܂��ˁB</CITE></P>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-���`�ށB���̂Ƃ���ł��B�Ƃ肠�������̃P�[�X�ł� �Ăяo���ꑤ���\�b�h��public
-static�ȃ��\�b�h������ł����̂� ���ꂪ��[�ƂȂ��Ă���悤�Ɏv���܂��B�c�����e�X�g���b�V�����I�������
-����������ƃ}�W���ɒ��ׂĂ݂܂��B�c����������͂��̂��Ƃ��낤 (���)</P>
+になりますね。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+う～む。そのとおりです。とりあえず私のケースでは 呼び出され側メソッドでpublic
+staticなメソッドが絡んでいたので それが一端となっているように思えます。…結合テストラッシュが終わったら
+もうちょっとマジメに調べてみます。…しかしそれはいつのことだろう (苦笑)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020123.src.html' , result='ig020123.html' -->
 
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/12/17 ���L: Java: TagSoup ���g���� HTML���퉻�̃T���v��</TITLE>
-<META name="DESCRIPTION" content="HTML���퉻���������� OSS�c�[���̂ЂƂ� TagSoup �ł��B���� TagSoup ���g�����A�P���� HTML���퉻�T���v�����쐬���܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2008/12/17 日記: Java: TagSoup を使った HTML正常化のサンプル</TITLE>
+<META name="DESCRIPTION" content="HTML正常化を実現する OSSツールのひとつが TagSoup です。この TagSoup を使った、単純な HTML正常化サンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/12/17 ���L: Java: TagSoup ���g���� HTML���퉻�̃T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] HTML���퉻���������� OSS�c�[���̂ЂƂ� TagSoup �ł��B���� TagSoup ���g�����A�P���� HTML���퉻�T���v�����쐬���܂����B</P>
+    <H2>2008/12/17 日記: Java: TagSoup を使った HTML正常化のサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] HTML正常化を実現する OSSツールのひとつが TagSoup です。この TagSoup を使った、単純な HTML正常化サンプルを作成しました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,14 +60,14 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: TagSoup ���g���� HTML���퉻�̃T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: TagSoup を使った HTML正常化のサンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>(xhtml�ł͂Ȃ�) HTML 4.01 �́A�d�l�Ƃ��ďI���^�O���I�v�V�����ƂȂ��Ă�����̂�����܂��B����ɁA�����������@�I�ɊԈ���� HTML
-�����̒��ɑ������݂��Ă��܂��B(������ǂ� HTML�u���E�U���C�����ŕ\�����Ă��܂�)<BR>
-���̂悤�Ȕw�i������A���̒��� HTML �ɂ́A���\����������Ȃ��̂�����܂��B����� �v���O�����œǂݍ������Ƃ���ƁA���낢�����̂ł����A������������邽�ɁAHTML���퉻�������Ȃ��c�[���𗘗p�������Ȃ邱�Ƃ�����܂��B</P>
-<P>HTML���퉻���������� OSS�c�[���̂ЂƂ� TagSoup �ł��B���� TagSoup ���g�����A�P���� HTML���퉻�T���v�����쐬���܂����B</P>
+<P>(xhtmlではない) HTML 4.01 は、仕様として終了タグがオプションとなっているものがあります。さらに、そもそも文法的に間違った HTML
+が世の中に多く存在しています。(だけれども HTMLブラウザが気合いで表示しています)<BR>
+このような背景もあり、世の中の HTML には、結構いいかげんなものがあります。これを プログラムで読み込もうとすると、いろいろ難しいのですが、これを解決するたに、HTML正常化をおこなうツールを利用したくなることがあります。</P>
+<P>HTML正常化を実現する OSSツールのひとつが TagSoup です。この TagSoup を使った、単純な HTML正常化サンプルを作成しました。</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -91,8 +91,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
 /**
- * TagSoup �𗘗p���� HTML �𐳏퉻���邽�߂̃V���v���ȃT���v���B
- * TagSoup 1.1 �œ���m�F�B
+ * TagSoup を利用して HTML を正常化するためのシンプルなサンプル。
+ * TagSoup 1.1 で動作確認。
  */
 public class TagSoupSimpleSample {
     public static void main(final String[] args) throws IOException,
@@ -107,13 +107,13 @@ public class TagSoupSimpleSample {
         final XMLWriter serializer = new XMLWriter(output);
         parser.setContentHandler(serializer);
 
-        // TODO �m�F�������_�ł́A���ꂪ���Ғʂ�ɂ͋@�\�����B
+        // TODO 確認した時点では、これが期待通りには機能せず。
         // parser.setDTDHandler(serializer);
-        // �d���������̂ŁA�ȉ��̋L�q�ɂ�� DOCTYPE �������I�ɏo�͂�����B(html�p)
+        // 仕方が無いので、以下の記述により DOCTYPE を強制的に出力させる。(html用)
         serializer.setOutputProperty(XMLWriter.DOCTYPE_PUBLIC,
                 &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;);
 
-        // &lt;html&gt; �ɖ��O��Ԃ�����킷�������t���Ȃ��悤�ɂ���B
+        // &lt;html&gt; に名前空間をあらわす属性が付かないようにする。
         parser.setFeature(Parser.namespacesFeature, false);
 
         final InputSource input = new InputSource();
@@ -124,40 +124,40 @@ public class TagSoupSimpleSample {
                                 + &quot;&lt;title&gt;this is title\n&quot;
                                 + &quot;&lt;meta http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html; charset=Windows-31J\&quot;&gt;\n&quot;
                                 + &quot;&lt;body&gt;\n&quot;
-                                + &quot;&lt;p&gt;aaa&lt;br&gt;bbb&lt;p&gt;������AAA&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;BBB      CCC&lt;uso&gt;\n&quot;
+                                + &quot;&lt;p&gt;aaa&lt;br&gt;bbb&lt;p&gt;あいうAAA&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;BBB      CCC&lt;uso&gt;\n&quot;
                                 + &quot;&lt;/html&gt;&quot;));
 
-        // �o�͂� (xhtml�ł͂Ȃ�) html �ɃZ�b�g���܂��B
+        // 出力を (xhtmlではなく) html にセットします。
         serializer.setOutputProperty(XMLWriter.METHOD, &quot;html&quot;);
 
-        // XML�錾�̏o�͂�}�����܂��B
+        // XML宣言の出力を抑制します。
         serializer.setOutputProperty(XMLWriter.OMIT_XML_DECLARATION, &quot;yes&quot;);
 
-        // �����ւ̃f�t�H���g�t�^��}�������܂��B
+        // 属性へのデフォルト付与を抑制させます。
         parser.setFeature(Parser.defaultAttributesFeature, false);
 
-        // �o�͐�̕����G���R�[�f�B���O���w�肵�܂��B
+        // 出力先の文字エンコーディングを指定します。
         serializer.setOutputProperty(XMLWriter.ENCODING, &quot;Windows-31J&quot;);
 
-        // �m��Ȃ����O�̗v�f�ɂ��Ċ���ɏ������܂��B(jsp�΍�ɂ����ĕK�v�Ƒz��)
+        // 知らない名前の要素について寛大に処理します。(jsp対策において必要と想定)
         parser.setFeature(
                 &quot;http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons&quot;,
                 false);
 
-        // �p�[�X�����{�B
+        // パースを実施。
         parser.parse(input);
 
-        System.out.println(&quot;HTML���퉻����: [&quot; + output.toString() + &quot;]&quot;);
+        System.out.println(&quot;HTML正常化結果: [&quot; + output.toString() + &quot;]&quot;);
     }
 }</pre></TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>�Ȃ��A���̃v���O�����𓮍삳���Ă݂�Ƃ킩��̂ł����A������ ASCII �ł͂Ȃ������ɂ��� �����Q�Ƃŕ\�����ꂽ�o�͂������Ȃ��܂��B���̕����Q�Ƃ��f�R�[�h����Ȃǂ́A��L�̃T���v���ɂ͊܂܂�Ă��܂���B<BR>
-������������������� blancoHtmlNormalizer �Ŏ������悤�ƍl���Ă��܂��B</P>
+<P>なお、このプログラムを動作させてみるとわかるのですが、いわゆる ASCII ではない文字について 文字参照で表現された出力がおこなわれます。この文字参照をデコードするなどは、上記のサンプルには含まれていません。<BR>
+それらを解決する実装は blancoHtmlNormalizer で実現しようと考えています。</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/06/09 ���L: XML�C���W�F�N�V�����Ƃ����Ǝ㐫�ϓ_</TITLE>
-<META name="DESCRIPTION" content="�C���W�F�N�V�����U���Ƃ��T�j�^�C�W���O�Ƃ������p��ɋƖ��� �����I�Ɍg����Ă��鍡�����̂���c">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2005/06/09 日記: XMLインジェクションという脆弱性観点</TITLE>
+<META name="DESCRIPTION" content="インジェクション攻撃とかサニタイジングとかいう用語に業務上 強制的に携わっている今日このごろ…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/06/09 ���L: XML�C���W�F�N�V�����Ƃ����Ǝ㐫�ϓ_</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �C���W�F�N�V�����U���Ƃ��T�j�^�C�W���O�Ƃ������p��ɋƖ��� �����I�Ɍg����Ă��鍡�����̂���c</P>
+    <H2>2005/06/09 日記: XMLインジェクションという脆弱性観点</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] インジェクション攻撃とかサニタイジングとかいう用語に業務上 強制的に携わっている今日このごろ…</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,75 +60,75 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML�C���W�F�N�V�����Ƃ����Ǝ㐫�ϓ_</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XMLインジェクションという脆弱性観点</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�����̂Ƃ��� <A href="http://www.thinkit.co.jp/free/tech/7/5/1.html">�C���W�F�N�V�����U��</A>��<A href="http://www.atmarkit.co.jp/fsecurity/special/34xss/xss01.html">�T�j�^�C�W���O</A>�Ƃ����p��ƋƖ��� �o����Ƃ������A���̂Ȃ��ł͋����I�ɗ��s��ƂȂ��Ă��܂��B</P>
-<BLOCKQUOTE># ���ۂ̂Ƃ���A�Ȃ񂾂��Ɩ��̉ߒ��ŃC���^�[�l�b�g�֘A�Z�p�̃Z�L�����e�B�E�R���T���e�B���O�ɏo����Ƃ������ł��B�Ȃ����낤�A�A�A�B�C���^�[�l�b�g�E�Z�L�����e�B�E�R���T���e�B���O�Ɏ��͏ڂ����Ȃ�̂���������̂ŁA�Ȃ�ׂ��C���^�[�l�b�g�E�Z�L�����e�B�E�R���T���e�B���O�̎d�����񂵂Ăق��������ł�
-(���)</BLOCKQUOTE>
-<P>����Ȓ��A���L�́�IT�̋L���� (�A�^�}�̒��ł͈Ӑ}�͗����ł���̂ł���) �C�ɂȂ��Ă��傤���Ȃ������ł��B</P>
+<P>ここのところ <A href="http://www.thinkit.co.jp/free/tech/7/5/1.html">インジェクション攻撃</A>や<A href="http://www.atmarkit.co.jp/fsecurity/special/34xss/xss01.html">サニタイジング</A>という用語と業務上 出会うことが多く、私のなかでは強制的に流行語となっています。</P>
+<BLOCKQUOTE># 実際のところ、なんだか業務の過程でインターネット関連技術のセキュリティ・コンサルティングに出会うことが多いです。なぜだろう、、、。インターネット・セキュリティ・コンサルティングに私は詳しくなるのを避けたいので、なるべくインターネット・セキュリティ・コンサルティングの仕事を回してほしく無いです
+(苦笑)</BLOCKQUOTE>
+<P>そんな中、下記の＠ITの記事が (アタマの中では意図は理解できるのですが) 気になってしょうがなかったです。</P>
 <UL>
-  <LI>��IT: ��5�� Composite�p�^�[���𓱂��o�����߂̏���<BR>
+  <LI>＠IT: 第5回 Compositeパターンを導き出すための準備<BR>
   <A HREF="http://www.atmarkit.co.jp/fdotnet/designptn/designptn05/designptn05_01.html">http://www.atmarkit.co.jp/fdotnet/designptn/designptn05/designptn05_01.html</A>
 </UL>
-<P>�u�����̂��߂Ɋ����Ă��̂悤�ȃv���O������񎦂��Ă���̂��v�Ƃ������Ƃ̓A�^�}�ŗ������Ă��܂��B���������p�Ƃ��T���v���p�Ƃ��āA������API�𗘗p������
-�x�^�������邱�Ƃ��ǂ�����܂��B�A�ڂ��̂ɂȂ��Ă��āA�ςݏグ�Ō��݂�XML�x�[�X�̐����ɂȂ��Ă��邱�Ƃ��������܂��B.NET Framework��
-XML�֘AAPI�����������݂��Ă��邱�Ƃ��m���Ă��܂��B(�ȑO �Ɩ��Ƃ��� ���Ƃ��Ƃ� .NET�n XML�Č� (C#.NET) �̃v���f���[�X�Ɍg��������Ƃ����邩��ł�
-�B.NET�n��XML API�� ���\�����ɓ��삵�܂�) �����āA���̋L���̈Ӑ}���Ă���Ƃ���̃f�U�C���p�^�[���̐����̂��߂� ��������ď����Ă��邱�Ƃ�
-�悭������܂��B</P>
-<P>�����܂ŃA�^�}�ł͗���������ŁA�ł��A�ǂ����Ă��u�C���W�F�N�V�����U���v�ȂǂƂ����Ǝ㐫�ϓ_�ɋƖ��㋭���I�Ɍg�킳��Ă���g�Ƃ��āA���̃T���v���v���O������
-�uXML�C���W�F�N�V�����U���ɑς�����̂��낤���H�v�ȂǂƂ������Ƃ��C�ɂȂ��Ďd��������܂���B(�P�Ɏ��̐E�ƕa�I�����Ȃ̂ł��c) �ׂ� ���̋L���Ƃ͕ʂ̂Ƃ���ł����̃T���v����
-SQL�������Ă��Ă����l�Ȃ̂ł��BSQL�̃T���v���Ɖ��ƁA�p�����[�^�E�N�G���𗘗p���Ȃ��T���v���Ƃ������Ă��Ă��A�T�j�^�C�W���O���C�ɂȂ���
-�ǂ����Ă��������Ă��܂��܂��B�ق�Ƃ��ɒP���ɐE�ƕa�݂����Ȃ��̂Ȃ̂ł��傤�BSQL��XML���A������HTML���A�K�؂ɃT�j�^�C�W���O����Ă��邩�ǂ����A���Ă����p�X�΂�������Ă��܂��܂��B���ۂ̎����E�Ɩ��I�ȗ���Ƃ��Ċe��\�[�X�R�[�h�E���r���[�Ƃ��ɎQ�悵�Ă���ۂ��A����Ȃ��Ƃ΂����茩�Ă��܂��B�Ƃ�����
-������������ ���������Z�L�����e�B��̊ϓ_�������ă��r���[���s���̂��Ɩ���̖�ڂ�����ɂق��Ȃ�܂���B</P>
-<P>�b�͂܂������ʂ̂Ƃ���ɔ��ł����āAXML�p�[�T�����삵�Ă݂�Ɨǂ��킩��̂ł����AXML API�̎d���Ŗ{���ɑ厖�Ȃ��Ƃ̂ЂƂ� �T�j�^�C�W���O�֘A�̏����ł��B�v���O������
-XML�C���W�F�N�V�����Ƃ����Ǝ㐫�𔭐������Ȃ����߂ɁA�K�؂ɃT�j�^�C�W���O���s���Ă���Ă���̂ł��B���l�̂��Ƃ� Struts�^�O�Ȃǂɂ�������܂��B�����API��
-Servlet�ƍ��{�I�ɈقȂ�API���ɂ� �T�j�^�C�W���O����������܂��B���i �Ȃɂ��ɗ��p���Ă���API�� �悭�悭�l������T�j�^�C�W���O���s���Ă���Ă�����Ă��Ƃ�
-�s�v�c�Ȃ��̂ł��ˁc�BXML API�̂��肪���݂����݂��߂܂����B</P>
+<P>「説明のために敢えてこのようなプログラムを提示いているのだ」ということはアタマで理解しています。私も説明用とかサンプル用として、敢えてAPIを利用せずに
+ベタ書きすることも良くあります。連載ものになっていて、積み上げで現在のXMLベースの説明になっていることも理解します。.NET Frameworkに
+XML関連APIがいくつも存在していることも知っています。(以前 業務として ぎとぎとの .NET系 XML案件 (C#.NET) のプロデュースに携わったこともあるからです
+。.NET系のXML APIは 結構高速に動作します) 総じて、この記事の意図しているところのデザインパターンの説明のために こうやって書いていることも
+よく分かります。</P>
+<P>そこまでアタマでは理解した上で、でも、どうしても「インジェクション攻撃」などという脆弱性観点に業務上強制的に携わされている身として、このサンプルプログラムが
+「XMLインジェクション攻撃に耐えうるのだろうか？」などということが気になって仕方がありません。(単に私の職業病的くせなのです…) べつに この記事とは別のところでも世のサンプルの
+SQL文を見ていても同様なのです。SQLのサンプルと可だと、パラメータ・クエリを利用しないサンプルとかを見ていても、サニタイジングが気になって
+どうしても反応してしまいます。ほんとうに単純に職業病みたいなものなのでしょう。SQLもXMLも、そしてHTMLも、適切にサニタイジングされているかどうか、っていうパスばかりを見てしまいます。実際の実務・業務的な立場として各種ソースコード・レビューとかに参画している際も、そんなことばっかり見ています。というか
+そういう時は そういうセキュリティ上の観点を持ってレビューを行うのが業務上の役目だからにほかなりません。</P>
+<P>話はまったく別のところに飛んでいって、XMLパーサを自作してみると良くわかるのですが、XML APIの仕事で本当に大事なことのひとつは サニタイジング関連の処理です。プログラムが
+XMLインジェクションという脆弱性を発生させないために、適切にサニタイジングを行ってくれているのです。同様のことは Strutsタグなどにもあらわれます。あれらAPIが
+Servletと根本的に異なるAPI性には サニタイジング処理があります。普段 なにげに利用しているAPIも よくよく考えたらサニタイジングを行ってくれているってことは
+不思議なものですね…。XML APIのありがたみをかみしめました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Commons �ĕ׋�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Commons 再勉強</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Framework�̋��ʏ������W�߂����C�u�����ł��B��{�I�ȋ��ʏ����̂ق��ɁAJExcelApi���{�ꉻ�p�b�`�AExcel�u�b�N�`���̌����ǂݍ��݃N���X���C�u���� (blancoCalcParser) �Ȃǂ��܂܂�܂��B">blancoCommons</A>�Ɋւ��Ďv�l���s���Ă�����A�ӂ� Jakarta Commons���`�F�b�N���Ȃ������ƂɂȂ�܂����B���߂Č��Ă݂āA��͂�
-Jakarta Commons �͈̑�ł��B���΂炵�����ʃN���X������������܂��B���̒��� ��͂莄���C�ɂȂ�͉̂��L��2�ł��B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A>に関して思考を行っていたら、ふと Jakarta Commonsをチェックしなおすことになりました。改めて見てみて、やはり
+Jakarta Commons は偉大です。すばらしい共通クラスがいくつもあります。その中で やはり私が気になるのは下記の2つです。</P>
 <UL>
   <LI>Jakarta Commons/Net - Jakarta Commons Net<BR>
   <A HREF="http://jakarta.apache.org/commons/net/">http://jakarta.apache.org/commons/net/</A><BR>
-  �����̃v���g�R�����T�|�[�g���Ă��܂��ˁB���΂炵���ł��BSMTP, POP3, NTP�Ƃ����T�|�[�g���Ă���Ƃ����̂����߂Ďv���m�肢�܂����B
+  多くのプロトコルをサポートしていますね。すばらしいです。SMTP, POP3, NTPとかもサポートしているというのを改めて思い知りいました。
   <LI>Commons VFS - Commons Virtual File System<BR>
   <A HREF="http://jakarta.apache.org/commons/vfs/">http://jakarta.apache.org/commons/vfs/</A><BR>
-  Sandbox�𑲋Ƃ��� Commons�����Ɉڂ����΂���ł����A�����A���̃N���X���C�u������ �C�ɂȂ��ċC�ɂȂ��Ă��傤������܂���B�� �U��Ԃ��Ă݂���A2000�N�����
-  Java����ɂ�鉼�z�t�@�C���V�X�e�����\�z�ł��Ȃ����A�ڂ���ƍl���Ă����悤�ł��B(URI�x�[�X�ŃV�F������낤�Ƃ��Ă�������c) �A�A�A�ӂށAJakarta
-  Commons VFS�𗘗p������A���̓��� �\�z���Ă����V�F����t�@�C���}�l�[�W�����ȒP�Ɏ����ł������ȋC�����Ă��܂����B
+  Sandboxを卒業して Commons直下に移ったばかりですが、もう、このクラスライブラリが 気になって気になってしょうがありません。今 振り返ってみたら、2000年ころに
+  Java言語による仮想ファイルシステムが構築できないか、ぼんやりと考えていたようです。(URIベースでシェルを作ろうとしていたから…) 、、、ふむ、Jakarta
+  Commons VFSを利用したら、あの当時 構想していたシェルやファイルマネージャが簡単に実装できそうな気がしてきました。
 </UL>
-<P>�Ƃɂ����A���Ԃ������� Commons VFS�� Commons Net��׋����Ă݂����ł��B</P>
+<P>とにかく、時間をつくって Commons VFSや Commons Netを勉強してみたいです。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�Ɩ����O�̂������� ���s���̃��P�[���؂�ւ��̕K�v�͖����̂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>業務ログのたぐいは 実行時のロケール切り替えの必要は無いのかも</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Web�A�v���̕\�������Ƃ��� ���s���Ƀ��\�[�X�o���h���𗘗p����Ȃ̂��� ���P�[���؂�ւ��ɑΉ����Ă���K�v������܂����A�Ɩ����O�Ƃ��V�X�e�����O�̂������́A���͎��s����
-���I�ȃ��P�[���؂�ւ��̑Ή��͕K�v�Ȃ��̂�����A�ȂǂƔY�ݒ��B</P>
+<P>Webアプリの表示部分とかは 実行時にリソースバンドルを利用するなのして ロケール切り替えに対応している必要がありますが、業務ログとかシステムログのたぐいは、実は実行時に
+動的なロケール切り替えの対応は必要ないのかしら、などと悩み中。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�������̃I�[�v���\�[�XCRM��FAQ�Ǘ��V�X�e���C�l�b�g���[�N���p�ʐM���������������J<A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050607/162211/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050607/162211/</A><BR>
-  CRM�Ƃ�FAQ�Ǘ����I�[�v���\�[�X�Œ񋟂����Ƃ����̂� �ƂĂ����΂炵���ł��ˁB���Ԃ��ł���΁A���Б̌����Ă݂��������܂����B�����āA�I�[�v���\�[�X�ɂ��r�W�l�X���f���Ƃ����ϓ_�����
-  ���̌��S���Ɩ����狻��������܂��B���C�Z���X�� GPL���̗p�Ƃ̂��ƂŁA����͂������h���I�ł��BLGPL�ł͂Ȃ�����GPL�ł���Ƃ����̂��A���Ȃ薾�m�ȃX�^���X��\�����Ă���悤�Ɋ����܂����B
+  <LI>国内初のオープンソースCRMとFAQ管理システム，ネットワーク応用通信研究所が無償公開<A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050607/162211/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050607/162211/</A><BR>
+  CRMとかFAQ管理がオープンソースで提供されるというのは とてもすばらしいですね。時間ができれば、ぜひ体験してみたく感じました。そして、オープンソースによるビジネスモデルという観点からも
+  私の現担当業務がら興味があります。ライセンスは GPLを採用とのことで、これはすごく刺激的です。LGPLではなくってGPLでくるというのが、かなり明確なスタンスを表現しているように感じました。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

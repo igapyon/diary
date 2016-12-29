@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/08/16 ���L: ���[���ɂ��ėp�I�C���^�t�F�[�X�d�l</TITLE>
-<META name="DESCRIPTION" content="���[���ɂ��ėp�I�C���^�t�F�[�X�d�l�ɂ��āA��������ƊȒP�Ɏd�l���������܂��B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon,blancoMail">
+<TITLE>2007/08/16 日記: メールによる汎用的インタフェース仕様</TITLE>
+<META name="DESCRIPTION" content="メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoMail">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/08/16 ���L: ���[���ɂ��ėp�I�C���^�t�F�[�X�d�l</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon,blancoMail] ���[���ɂ��ėp�I�C���^�t�F�[�X�d�l�ɂ��āA��������ƊȒP�Ɏd�l���������܂��B</P>
+    <H2>2007/08/16 日記: メールによる汎用的インタフェース仕様</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoMail] メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,33 +60,33 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���[���ɂ��ėp�I�C���^�t�F�[�X�d�l�h���t�g</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールによる汎用的インタフェース仕様ドラフト</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���[���ɂ��ėp�I�C���^�t�F�[�X�d�l�ɂ��āA��������ƊȒP�Ɏd�l���������܂��B<BR>
-�����̃����� <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail�́A���[������M�ɂ܂�鏔�����������邽�߂̃��[���\�����[�V��������уt���[�����[�N�ł��B">blancoMail</A> �̎d�l�����ɊY�����܂��B</P>
+<P>メールによる汎用的インタフェース仕様について、ざっくりと簡単に仕様をメモします。<BR>
+※このメモは <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> の仕様検討に該当します。</P>
 <UL>
-  <LI>�F��
+  <LI>認証
   <UL>
-    <LI>���[���A�h���X�ɂ��F��
+    <LI>メールアドレスによる認証
     <UL>
-      <LI>���[�UID = ���[���A�h���X�B�p�X���[�h�͖���(?)�Ȃ��Ȃ�MD5�ȂǂŒS�ہB
+      <LI>ユーザID = メールアドレス。パスワードは無し(?)なぜならMD5などで担保。
     </UL>
-    <LI>�ڑ��ɑ΂��� �Z�b�V����ID �̔��s�E�Ǘ�
+    <LI>接続に対して セッションID の発行・管理
     <UL>
-      <LI>MD5�Ȃǂ̃_�C�W�F�X�g�ɂ��Z�b�V����ID�̐���
-      <LI>�^�C���A�E�g�w��ɂ��Z�b�V����ID�̃N���A
+      <LI>MD5などのダイジェストによるセッションIDの生成
+      <LI>タイムアウト指定によるセッションIDのクリア
     </UL>
-    <LI>�Z�b�V����ID�ɂ��ʐM���^�Ւf
+    <LI>セッションIDによる通信許可／遮断
   </UL>
-  <LI>�R�}���h
+  <LI>コマンド
   <UL>
     <LI>login
     <LI>logout
-    <LI>mail ls -l �݂����Ȃ��� (?) UNIX�I�ȒZ���R�}���h����]�B
-    <LI>set -v �݂����� verbose���[�h
-    <LI>�d����:
+    <LI>mail ls -l みたいなもの (?) UNIX的な短いコマンドが希望。
+    <LI>set -v みたいな verboseモード
+    <LI>電文例:
     <TABLE border="1">
       <TBODY>
         <TR>
@@ -98,13 +98,13 @@
         </TR>
       </TBODY>
     </TABLE>
-    <LI>�d����:
+    <LI>電文例:
     <TABLE border="1">
       <TBODY>
         <TR>
           <TD>Subject: blancoMail #38<BR>
           digest=CA:FE:BA:BE<BR>
-          message=8/5�̗\���������܂����H<BR>
+          message=8/5の予定を受諾しますか？<BR>
           ==begin==<BR>
           schedule question yes<BR>
           schedule question no<BR>
@@ -113,101 +113,101 @@
       </TBODY>
     </TABLE>
   </UL>
-  <LI>�@�\
+  <LI>機能
   <UL>
-    <LI>Yes/No �I��
-    <LI>���W�I�{�^���I��
-    <LI>���F�@�\
-    <LI>���[�U�o�^�A�폜
+    <LI>Yes/No 選択
+    <LI>ラジオボタン選択
+    <LI>承認機能
+    <LI>ユーザ登録、削除
     <UL>
-      <LI>���[�U�o�^�̍ۂɁA�摜�t�@�C����Y�t�f�[�^�Ƃ��đ���A���̉摜�Ɋ܂܂�镶�����^�C�v���Ă�����āA�m���ȔF�؂���������Ƃ����d�l�̉\��������
-      (<FONT color="#ff0000">2007.08.26�ǋL</FONT>)
+      <LI>ユーザ登録の際に、画像ファイルを添付データとして送り、その画像に含まれる文字をタイプしてもらって、確実な認証を実現するという仕様の可能性を検討
+      (<FONT color="#ff0000">2007.08.26追記</FONT>)
     </UL>
-    <LI>�^�C���A�E�g�@�\<BR>
-    �ؗ����Ă������[���ɂ��āA�����؂���N�����Ă�����R�}���h���s��}������@�\�B<BR>
-    ���邢�́A���̃R�}���h����ɗ�����A�Â��R�}���h�͔j������@�\�����m��Ȃ��B
+    <LI>タイムアウト機能<BR>
+    滞留していたメールについて、期限切れを起こしていたらコマンド実行を抑制する機能。<BR>
+    あるいは、次のコマンドが先に来たら、古いコマンドは破棄する機能かも知れない。
   </UL>
-  <LI>���[�����M
+  <LI>メール送信
   <UL>
-    <LI>�ώG�ɂȂ�Ȃ����߂�
+    <LI>煩雑にならないために
     <UL>
-      <LI>�������[����A�����đ��t���Ȃ�
-      <LI>���[�������莞�ԓ��ɘA�����đ��t���Ȃ�
-      <LI>���ԑюw��: ��̓��[���𑗂�Ȃ�
-      <LI>���O�C�����s�̒ʒm�͌���I��
+      <LI>同じメールを連続して送付しない
+      <LI>メールを所定時間内に連続して送付しない
+      <LI>時間帯指定: 夜はメールを送らない
+      <LI>ログイン失敗の通知は限定的に
     </UL>
-    <LI>�w��T�C�Y�𒴂���ꍇ�̑Ώ� (<FONT color="#ff0000">2007.08.21�ǋL</FONT>)
+    <LI>指定サイズを超える場合の対処 (<FONT color="#ff0000">2007.08.21追記</FONT>)
     <UL>
-      <LI>�p�^�[��1: ����Ȃ�
-      <LI>�p�^�[��2: �������đ���
-      <LI>�|�C���g: ���M��f�o�C�X�̓����ɍ��킹���T�C�Y�l���B
+      <LI>パターン1: 送らない
+      <LI>パターン2: 分割して送る
+      <LI>ポイント: 送信先デバイスの特性に合わせたサイズ考慮。
     </UL>
-    <LI>�w��̈��搔�𒴂���ꍇ�̑Ώ� (<FONT color="#ff0000">2007.09.05�ǋL</FONT>)
+    <LI>指定の宛先数を超える場合の対処 (<FONT color="#ff0000">2007.09.05追記</FONT>)
     <UL>
-      <LI>�p�^�[��1: (�Z�L�����e�B��̃��X�N���l��) ����Ȃ�
+      <LI>パターン1: (セキュリティ上のリスクを考え) 送らない
     </UL>
-    <LI>TO��CC���œ���A�h���X���d�����ė^����ꂽ�ꍇ (SMTP�̍ۂ� �G���[�Ƃ��Ĉ����邽�ߍl�����K�v����)
+    <LI>TOやCC内で同一アドレスが重複して与えられた場合 (SMTPの際に エラーとして扱われるため考慮が必要かも)
   </UL>
-  <LI>���[����M (<FONT color="#ff0000">2007.08.21�ǋL</FONT>)
+  <LI>メール受信 (<FONT color="#ff0000">2007.08.21追記</FONT>)
   <UL>
-    <LI>�e�L�X�g��HTML�Ƃ����������Ă����ꍇ�ɂ̓e�L�X�g��ǂݍ���
-    <LI>�e�L�X�g�̂Ȃ�HTML���[���̏ꍇ�ɂ�HTML���p�[�X���ăe�L�X�g�݂̂�ǂݍ���<BR>
-    ������ł́AHTML�Ńv���[���e�L�X�g�ȕ�����D�悵�Đ��䕶���Ƃ��Ȃ��Ắc �G���R�[�h�����͔̂��������B
-    <LI>�w��̃T�C�Y���𒴂���ꍇ�̑Ώ� (<FONT color="#ff0000">2007.09.05�ǋL</FONT>)
+    <LI>テキストとHTMLとが両方送られてきた場合にはテキストを読み込む
+    <LI>テキストのないHTMLメールの場合にはHTMLをパースしてテキストのみを読み込む<BR>
+    →それでは、HTMLでプレーンテキストな文字を優先して制御文字としなくては… エンコードされるのは避けたい。
+    <LI>指定のサイズ数を超える場合の対処 (<FONT color="#ff0000">2007.09.05追記</FONT>)
     <UL>
-      <LI>�p�^�[��1: �󂯎��Ȃ��B
+      <LI>パターン1: 受け取らない。
     </UL>
-    <LI>�w��̃A�h���X�ȊO����̃��[���͎󂯎��Ȃ��B
+    <LI>指定のアドレス以外からのメールは受け取らない。
   </UL>
-  <LI>�X�g���[�W
+  <LI>ストレージ
   <UL>
-    <LI>Trac�̃f�[�^�x�[�X�X�L�[�}��]�p���邱�Ƃ�����<BR>
-    ����������� ���� UI�������Ă� Trac���瑀��ł���I
-    <LI>Hinemos�̃f�[�^�x�[�X�X�L�[�}�̓]�p������
-    <LI>�Ƃɂ����A�����ŐV���Ȃ��̂�n�����Ȃ��悤�ɋC������B
+    <LI>Tracのデータベーススキーマを転用することを検討<BR>
+    →そうすると 当面 UIが無くても Tracから操作できる！
+    <LI>Hinemosのデータベーススキーマの転用も検討
+    <LI>とにかく、自分で新たなものを創造しないように気をつける。
   </UL>
-  <LI>�g�����U�N�V����
+  <LI>トランザクション
   <UL>
-    <LI>�����ɑΉ������Ċm�F�A�N�V���� �� ����Ńg�����U�N�V������
-    <LI>�ǂ̂悤�ȃ��[������Ԃ̂����A���������[���Ŋm�F���� �m�F�A�N�V���� �� ���[���\���̖h�~
+    <LI>応答に対応した再確認アクション → これでトランザクション風
+    <LI>どのようなメールが飛ぶのかを、自分宛メールで確認する 確認アクション → メール暴発の防止
   </UL>
 </UL>
-<P>���̑��@�\</P>
+<P>その他機能</P>
 <UL>
-  <LI>���[������M�̒P�̎������[�h<BR>
-  ���P�̎����p�� ���[������M�̈˗��ɑ΂��� ���ۂɂ͓��삹���� �g���[�X��فX�Ɠf���@�\�B(<FONT color="#ff0000">2007.09.03�ǋL</FONT>)
-  <LI>�����[�g�A�h���X��<BR>
-  ���N�G�X�g�ɉ����ĊY���҂̘A��������[���Ŗ߂��B
-  <LI>���[�����e�������@�\<BR>
-  PC�ȂǂŃ��[�����e�����������Ă����@�\�B���������A���̂��߂ɂ� Web��ʂ̂ق��̎������K�v�B
-  <LI>(<FONT color="#ff0000">2007.08.20�ǋL</FONT>) �w��A�h���X����̃��[���݂̂�ʃ��[���A�h���X�ɓ]���B
+  <LI>メール送受信の単体試験モード<BR>
+  ※単体試験用に メール送受信の依頼に対して 実際には動作せずに トレースを黙々と吐く機能。(<FONT color="#ff0000">2007.09.03追記</FONT>)
+  <LI>リモートアドレス帳<BR>
+  リクエストに応じて該当者の連絡先をメールで戻す。
+  <LI>メール内容下書き機能<BR>
+  PCなどでメール内容を下書きしておく機能。→ただし、このためには Web画面のほうの実現が必要。
+  <LI>(<FONT color="#ff0000">2007.08.20追記</FONT>) 指定アドレスからのメールのみを別メールアドレスに転送。
 </UL>
-<P>����</P>
+<P>メモ</P>
 <UL>
-  <LI>�\���Ƃ��Ă̓v���f���[�T�E�R���V���[�}�p�^�[�����H
-  <LI>RIA���� (Java FX����) �ɂ́A���̂悤�Ȕėp�I�C���^�t�F�[�X�Ƃ������̂̑��݈Ӌ`������͂��A�ƍl���܂��B
-  <LI>TODO�Ǘ��@�\�Ȃǂ��~�����BTODO��RSS�o�́B�A�A�A�����A����� Trac�̃`�P�b�g������H ���J�敪�Ƃ��� �ǂ��Ȃ��Ă���̂�����B
+  <LI>構造としてはプロデューサ・コンシューマパターンか？
+  <LI>RIA時代 (Java FX時代) には、このような汎用的インタフェースというものの存在意義があるはず、と考えます。
+  <LI>TODO管理機能なども欲しい。TODOをRSS出力。、、、ああ、これは Tracのチケットかしら？ 公開区分とかは どうなっているのかしら。
 </UL>
-<P><FONT color="#ff00ff">�֘A������L</FONT></P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
-  <LI><A href="ig070904.html">2007/09/04 ���L: Java: JavaMail ���� , JavaMail�ɂ��V���v���ȃ��[�����M�T���v��</A>
-  <LI><A href="ig070905.html">2007/09/05 ���L: Java: JavaMail�ɂ��V���v���ȃ��[����M�T���v��</A>
-  <LI><A href="ig070815.html">2007/08/15 ���L: ���[���ɂ��ėp�I�C���^�t�F�[�X�\�z (blancoMail)</A>
+  <LI><A href="ig070904.html">2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</A>
+  <LI><A href="ig070905.html">2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</A>
+  <LI><A href="ig070815.html">2007/08/15 日記: メールによる汎用的インタフェース構想 (blancoMail)</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>�uVista Capable�v�͕s���\���H - ITmedia �A���J�[�f�X�N<BR>
+  <LI>「Vista Capable」は不当表示？ - ITmedia アンカーデスク<BR>
   <A HREF="http://www.itmedia.co.jp/anchordesk/articles/0708/14/news031.html">http://www.itmedia.co.jp/anchordesk/articles/0708/14/news031.html</A><BR>
-  �L�����ɂ���悤�ɁA�u800MHz�̃v���Z�b�T��512M�o�C�g��RAM�v�����ł́AWindows Vista�𓮍삳����̂� ���Ȃ�̍���𔺂��悤�Ɏv���܂��B
+  記事中にあるように、「800MHzのプロセッサと512MバイトのRAM」環境下では、Windows Vistaを動作させるのは かなりの困難を伴うように思います。
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

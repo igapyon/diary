@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/12/13 ���L: �t�@�C����MD5�l�����߂�T���v��</TITLE>
-<META name="DESCRIPTION" content="Java�œ��̓t�@�C����MD5�l�����߂�T���v�����쐬���Ă݂܂����B">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/12/13 日記: ファイルのMD5値を求めるサンプル</TITLE>
+<META name="DESCRIPTION" content="Javaで入力ファイルのMD5値を求めるサンプルを作成してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/12/13 ���L: �t�@�C����MD5�l�����߂�T���v��</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Java�œ��̓t�@�C����MD5�l�����߂�T���v�����쐬���Ă݂܂����B</P>
+    <H2>2002/12/13 日記: ファイルのMD5値を求めるサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Javaで入力ファイルのMD5値を求めるサンプルを作成してみました。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,11 +59,11 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5�擾�T���v��</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5取得サンプル</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�t�@�C����MD5�l�����߂�T���v���v���O����</P>
+<P>ファイルのMD5値を求めるサンプルプログラム</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -99,12 +99,12 @@ public class MyDigest {
 
             MessageDigest md5 = inStream.getMessageDigest();
             byte[] digest = md5.digest();
-            System.out.print(&quot;[&quot; + FILENAME + &quot;] ��MD5�� [&quot;);
+            System.out.print(&quot;[&quot; + FILENAME + &quot;] のMD5は [&quot;);
             for (int loop = 0;loop &lt; digest.length;loop++) {
                 System.out.print(
                     Integer.toHexString(0xff&amp;(char)digest[loop]));
             }
-            System.out.println(&quot;] �ł��B&quot;);
+            System.out.println(&quot;] です。&quot;);
         } catch (IOException ex) {
             ex.printStackTrace();
         } catch (NoSuchAlgorithmException ex) {
@@ -117,15 +117,15 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�Ȃ�̂��Ƃ͂Ȃ��R�[�f�B���O�Ȃ̂ł����A�����T���v����T�����Ƃ����炿����Ǝ肱����܂����B</P>
+<P>なんのことはないコーディングなのですが、いざサンプルを探そうとしたらちょっと手こずりました。</P>
 <HR>
-<P><A HREF="http://www.hyuki.com/" TITLE="���������Ƃ����h������Z�p���C�^�[�̌��邳�܁B�ނ̂킩��₷�����͂� �����������m�̏��Z�p�ɐڂ���ۂ� �ƂĂ��E�C�Â����ĉ�������܂��B����_����̏��Ђ�����W�������ł� �K�� ������w�����A�܂��l�Ɋ��߂�悤�ɂ��Ă��܂��B">����_</A>����̃c�b�R�~<BR>Subject:  [igapyon:01082] MD5 �T���v��<BR>
+<P><A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんのツッコミ<BR>Subject:  [igapyon:01082] MD5 サンプル<BR>
 <BR>
 <BR>
-����ł��B�ׂ����˂����݂ł��B<BR>
+結城です。細かい突っ込みです。<BR>
 <BR>
-�����҂�񂳂��MD5�����߂�T���v���ŁA<BR>
-16�i�\�����s���ȉ��̕����ɂ͏����ȃo�O������܂��B<BR>
+いがぴょんさんのMD5を求めるサンプルで、<BR>
+16進表示を行う以下の部分には小さなバグがあります。<BR>
 </P>
 <TABLE border="1">
   <TBODY>
@@ -136,8 +136,8 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>���̂܂܂ł��ƁA16�����̐����ꌅ�ɂȂ��Ă��܂��܂��B<BR>
-���Ƃ��΁A</P>
+<P>このままですと、16未満の数が一桁になってしまいます。<BR>
+たとえば、</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -145,7 +145,7 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�Ƃ���3�o�C�g����Ȃ�t�@�C���̐�����MD5�l�́A</P>
+<P>という3バイトからなるファイルの正しいMD5値は、</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -153,7 +153,7 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�Ȃ̂ł����A���ꂪ�A</P>
+<P>なのですが、これが、</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -161,8 +161,8 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�̂悤�ɒZ���Ȃ��Ă��܂��܂��B<BR>
-��o�C�g���Ƃɋ󔒂������Ă݂�ƁA�������킩��܂��B</P>
+<P>のように短くなってしまいます。<BR>
+一バイトごとに空白をあけてみると、原因がわかります。</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -170,7 +170,7 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�C���Ƃ��Ă͂��Ƃ��΁A<BR>
+<P>修正としてはたとえば、<BR>
 </P>
 <TABLE border="1">
   <TBODY>
@@ -184,11 +184,11 @@ public class MyDigest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�̂悤�ɂ��܂��B�����Ƃ��܂����@�����邩���c�B<BR>
-MD5�����߂�v���O�����̖{���I�ȂƂ���ł͂���܂��񂯂�ǁA<BR>
-������ƋC�ɂȂ����̂ł��񍐂��܂��B<BR>
+<P>のようにします。もっとうまい方法があるかも…。<BR>
+MD5を求めるプログラムの本質的なところではありませんけれど、<BR>
+ちょっと気になったのでご報告します。<BR>
 <BR>
-���A���ꂩ��A</P>
+あ、それから、</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -196,10 +196,10 @@ MD5�����߂�v���O�����̖{���I�ȂƂ���ł͂���܂��񂯂�ǁA<BR>
     </TR>
   </TBODY>
 </TABLE>
-<P>��char�ɃL���X�g���Ă���̂͂Ȃ��ł��傤�B<BR>
-������unsigned�̂�����ł�����A0xff�Ń}�X�N�����Ă���̂ŁAint�̕����r�b�g�͗����Ă���̂ł�����A�L���X�g�͕s�v�ł͂Ȃ����Ǝv���܂��B<BR>
+<P>でcharにキャストしているのはなぜでしょう。<BR>
+もしもunsignedのこころでしたら、0xffでマスクをしているので、intの符号ビットは落ちているのですから、キャストは不要ではないかと思います。<BR>
 <BR>
-�T���v��</P>
+サンプル</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -224,7 +224,7 @@ MD5�����߂�v���O�����̖{���I�ȂƂ���ł͂���܂��񂯂�ǁA<BR>
     </TR>
   </TBODY>
 </TABLE>
-<P>���s����</P>
+<P>実行結果</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -235,12 +235,12 @@ a &amp; 0xFF = 1<BR>
     </TR>
   </TBODY>
 </TABLE>
-<P>���݁A����͈Í��{�������Ă���̂ŁA</P>
+<P>現在、結城は暗号本を書いているので、</P>
 <UL>
   <LI><A HREF="http://www.hyuki.com/cr/">http://www.hyuki.com/cr/</A>
 </UL>
-<P>�����悤�ȃR�[�h�������Ă���܂��B�Q�l�܂ŁB<BR>
-���̂�DigestInputStream���g�킸�A�o�b�t�@�����O�������A1�o�C�g����update���Ă��܂���(^_^;</P>
+<P>似たようなコードを書いております。参考まで。<BR>
+私のはDigestInputStreamも使わず、バッファリングもせず、1バイトずつupdateしていますが(^_^;</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -298,7 +298,7 @@ public class Digest {
     </TR>
   </TBODY>
 </TABLE>
-<P>�����s����</P>
+<P>◆実行結果</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -313,23 +313,23 @@ MD5 = D2 49 0F 04 8D C3 B7 7A 45 7E 3E 45 0A B4 EB 38
   </TBODY>
 </TABLE>
 <HR>
-<P><FONT color="#ff00ff">��������</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A><BR>
-�cML���疢�]�ځc ���Ƃ�ML�ɕԐM����O�� �o���ɗ������܂��� (���)</P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+…MLから未転載… もといMLに返信する前に 出張に旅立ちました (苦笑)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse.org�ɐڑ��ł��Ȃ���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse.orgに接続できない件</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>��� Eclipse.org�ւ̐ڑ��������������ł����A����� eclipse.org��DNS���ُ킾�����̂������������Ƃ̂��Ƃł��B(��
-www.eclipse.org�ɏ����Ă���܂���)</P>
+<P>昨日 Eclipse.orgへの接続が怪しかったですが、これは eclipse.orgのDNSが異常だったのが原因だったとのことです。(と
+www.eclipse.orgに書いてありました)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig021213.src.html' , result='ig021213.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig021213-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/news/0212/12/nebt_05.html">OMG�AEclipse�ɉ���</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/12/nebt_05.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Eclipse�̐����͂Ƃǂ܂�Ƃ����m�炸�c<LI><A HREF="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/">Eclipse 2.1M3(Win32��)�̃���</A> <FONT size="-2"><A target="_blank" HREF="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>�e�c�p�����񂪏����ꂽEclipse�����B<LI><A HREF="http://www.zdnet.co.jp/news/0212/13/nebt_02.html">�I�[�v���\�[�X��.NET�A�v���J���c�[��</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/13/nebt_02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Mono�̃A�b�v�f�[�g�Ń����[�X�̋L���BASP.NET Server�������������Ƃ̂��ƁB�L���̍s�Ԃ���� ADO.NET�̃T�|�[�g���ǉ����ꂽ�悤�Ȋ������ǂ݂Ƃ��(������web�y�[�W��ǂމɂ�����܂���c)<LI><A HREF="http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html">����̌g�ѕW��Java�uMIDP2.0�v���X�^�[�g</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>��������Ԃ�MIDP�� MIDP2.0�o��ŉ��P�����ۂ�c</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig021213-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/news/0212/12/nebt_05.html">OMG、Eclipseに加入</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/12/nebt_05.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Eclipseの勢いはとどまるところを知らず…<LI><A HREF="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/">Eclipse 2.1M3(Win32版)のメモ</A> <FONT size="-2"><A target="_blank" HREF="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M3/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>菊田英明さんが書かれたEclipseメモ。<LI><A HREF="http://www.zdnet.co.jp/news/0212/13/nebt_02.html">オープンソースの.NETアプリ開発ツール</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/13/nebt_02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Monoのアップデート版リリースの記事。ASP.NET Serverが今回加わったとのこと。記事の行間からは ADO.NETのサポートが追加されたような感じが読みとれる(原文やwebページを読む暇がありません…)<LI><A HREF="http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html">今後の携帯標準Java「MIDP2.0」がスタート</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/mobile/0212/11/n_aplix.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>困った状態のMIDPも MIDP2.0登場で改善するや否や…</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/12/10 “ú‹L: Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis
-‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</TITLE>
-<META name="DESCRIPTION" content="Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml ‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2008/12/10 æ—¥è¨˜: Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis
+ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆ</TITLE>
+<META name="DESCRIPTION" content="Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆã—ã¾ã—ãŸã€‚æœ€åˆã®æ©Ÿèƒ½ã¨ã—ã¦ã€sqlMap.xml ã‹ã‚‰ã€æ¤œç´¢çµæžœã®è¡Œã‚’ã‚ã‚‰ã‚ã™ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã® Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹æ©Ÿèƒ½ã‚’å®Ÿè£…ã—ã¾ã—ãŸã€‚">
+<META name="KEYWORDS" content="ã„ãŒã´ã‚‡ã‚“ã®æ—¥è¨˜v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -17,13 +17,13 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ã„ãŒã´ã‚‡ã‚“ç”»åƒ(å°) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/12/10 “ú‹L: Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis
-‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml ‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B</P>
+    <H2>2008/12/10 æ—¥è¨˜: Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis
+ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆ</H2>
+    <P>[ã„ãŒã´ã‚‡ã‚“ã®æ—¥è¨˜v2,diary,igapyon] Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆã—ã¾ã—ãŸã€‚æœ€åˆã®æ©Ÿèƒ½ã¨ã—ã¦ã€sqlMap.xml ã‹ã‚‰ã€æ¤œç´¢çµæžœã®è¡Œã‚’ã‚ã‚‰ã‚ã™ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã® Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹æ©Ÿèƒ½ã‚’å®Ÿè£…ã—ã¾ã—ãŸã€‚</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">åºƒå‘Š: <A href="http://journal.mycom.co.jp/column/ide/091/">ã‚¤ãƒžãƒ‰ã‚­ã®IDEäº‹æƒ…: Eclipseãƒ™ãƒ¼ã‚¹ã®çµ±åˆç¿»è¨³ç’°å¢ƒã€ŒBentenã€ã‚’ä½¿ã£ã¦ã¿ã‚ˆã†</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ãŸã’ãžã†ã•ã‚“ã®æ‰‹ã«ã‚ˆã‚‹ Benten ç´¹ä»‹è¨˜äº‹!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ã‚¤ãƒ³ãƒ‡ã‚£ãƒƒã‚¯ã‚¹ãƒšãƒ¼ã‚¸ã¸æˆ»ã‚‹</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,42 +62,42 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml
-‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B(Apache Antƒ^ƒXƒN‚Ì‚Ý‚Ì’ñ‹Ÿ‚Å‚·)<BR>
-# <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> ‚ÌŠù‘¶ŽÀ‘•‚ð—˜—p‚·‚é‚±‚Æ‚É‚æ‚èA‚Æ‚Ä‚à‘¦È‚Éì‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½B</P>
+<P>Apache iBatis ã® sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ã€Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ blancoIBatis ã¨ã„ã†ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã‚’æ–°è¦ä½œæˆã—ã¾ã—ãŸã€‚æœ€åˆã®æ©Ÿèƒ½ã¨ã—ã¦ã€sqlMap.xml
+ã‹ã‚‰ã€æ¤œç´¢çµæžœã®è¡Œã‚’ã‚ã‚‰ã‚ã™ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã® Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹æ©Ÿèƒ½ã‚’å®Ÿè£…ã—ã¾ã—ãŸã€‚(Apache Antã‚¿ã‚¹ã‚¯ã®ã¿ã®æä¾›ã§ã™)<BR>
+# <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ã€ŒSQLå®šç¾©æ›¸ã€ã¨ã„ã† Excelãƒ–ãƒƒã‚¯ã‹ã‚‰ã€ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å…¥å‡ºåŠ›ã®ãŸã‚ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã—ã¾ã™ã€‚">blancoDb</A> ã®æ—¢å­˜å®Ÿè£…ã‚’åˆ©ç”¨ã™ã‚‹ã“ã¨ã«ã‚ˆã‚Šã€ã¨ã¦ã‚‚å³å¸­ã«ä½œã‚‹ã“ã¨ãŒã§ãã¾ã—ãŸã€‚</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis ‚ðŽg‚¤‚ÆAsqlMap ‚Æ‚¢‚¤ XML ƒtƒ@ƒCƒ‹‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ÌƒNƒ‰ƒXEƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">blancoIBatis</A>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis ã‚’ä½¿ã†ã¨ã€sqlMap ã¨ã„ã† XML ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ã€æ¤œç´¢çµæžœã®è¡Œã‚’ã‚ã‚‰ã‚ã™ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚¯ãƒ©ã‚¹ãƒ»ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚">blancoIBatis</A>
 </UL>
-<P>Apache iBaits ‚ð—˜—p‚µ‚Ä‚¢‚ÄAŒŸõŒ‹‰Ê‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðŽ©‘O‚Å€”õ‚·‚é‚±‚Æ‚É•s–ž‚ðŠ´‚¶‚½‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñ‚©? ‚»‚Ì‹^–â‚Í‚Æ‚Ä‚à³‚µ‚¢‚à‚Ì‚Å‚·B‚»‚µ‚ÄAblancoIBatis
-‚ð—˜—p‚·‚é‚ÆA‚»‚¤‚¢‚Á‚½ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Í sqlMap.xml ƒtƒ@ƒCƒ‹‚É‹Lq‚³‚ê‚½ SQL•¶‚©‚çŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚é‚Ì‚Å‚·B‹Zp“I‚É‚ÍASQL•¶‚ÌŽÀsŒ‹‰Ê‚©‚ç“¾‚ç‚ê‚éî•ñ‚É‚æ‚Á‚ÄAƒtƒB[ƒ‹ƒh–¼‚¨‚æ‚ÑŒ^–¼‚ð‰ðŒˆ‚µ‚ÄŽÀŒ»‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>‚²‘¶’m‚©‚à’m‚ê‚Ü‚¹‚ñ‚ªAApache iBatis ‚ÌƒTƒuƒvƒƒ_ƒNƒg‚Æ‚µ‚Ä <A href="http://ibatis.apache.org/ibator.html">Apache IBATOR</A> ‚Æ‚¢‚¤Ž©“®¶¬Œn‚ª‚ ‚è‚Ü‚·B‚Æ‚±‚ë‚ªŽc”O‚È‚±‚Æ‚É IBATOR ‚Í DBƒXƒL[ƒ}‚©‚ç‚ÌŽ©“®¶¬‚ðƒTƒ|[ƒg‚·‚éƒvƒƒ_ƒNƒg‚Å‚·BsqlMap.xml
-ƒtƒ@ƒCƒ‹‚É‚©‚©‚ê‚½ SQL•¶‚©‚çŽ©“®¶¬‚ð‚¨‚±‚È‚¤‚à‚Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñBˆê•û‚Å iBatis ‚Ì—˜—pŽÒ‚Ì‘½‚­‚ÍADBƒXƒL[ƒ}‚©‚çŽ©“®¶¬‚³‚ê‚½
-SQL•¶‚Å–Ú“I‚ÌƒvƒƒOƒ‰ƒ€‚ðŽÀŒ»‚·‚é‚±‚Æ‚ª‚Å‚«‚éê‡‚Í­‚È‚¢‚æ‚¤‚Å‚·BSQL‚ðŽ©‘O‚ÅŽè‘‚«‚·‚é•K—v‚ª‚ ‚é‚©‚ç‚±‚» iBatis ‚ðÌ—p‚µ‚Ä‚¢‚é‚±‚Æ‚ª‘½‚¢‚©‚ç‚Å‚·BŽè‘‚«‚Å
-SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»‚·‚é‚Ì‚ª blancoIBatis ‚È‚Ì‚Å‚·B</P>
-<P>‚Æ‚Í‚¢‚¦A‚±‚Ìƒvƒƒ_ƒNƒg‚ÍA”ñí‚Éƒjƒbƒ`‚È‚Æ‚±‚ë‚ð‘_‚Á‚½‚à‚Ì‚Å‚·B‚Ù‚Æ‚ñ‚Ç‚Ìl‚É‚Í–ð‚É—§‚½‚È‚¢‚±‚Æ‚Å‚µ‚å‚¤B(‚È‚º‚È‚çA‘½‚­‚Ìl‚½‚¿‚ÍA‚â‚Í‚è•ÊŒn“‚ÌŽ©“®¶¬Œn‚ð—˜—p‚µ‚Ä‚¢‚é‚¾‚ë‚¤‚©‚ç‚Å‚·B‰½‚ÌŽ©“®¶¬Œn‚ÌŽx‰‡‚àŽó‚¯‚¸‚É
-¶‚Å iBatis ‚ð—˜—p‚µ‚Ä‚¢‚él‚Í­‚È‚¢A‚Å‚·‚æ‚Ë!) ‚»‚Ì‚½‚ßAŒ»ó‚Å‚Íà–¾‚à‚Ù‚Æ‚ñ‚Ç•t‚¯‚Ä‚¢‚Ü‚¹‚ñBˆê•û‚ÅAŒ»Žž“_‚Å‚Í ŽÀss” 200s’ö“x‚Ìƒvƒƒ_ƒNƒg‚È‚Ì‚ÅA‚à‚µ
-‚»‚Ì‹C‚É‚È‚ê‚Îƒ\[ƒXƒR[ƒh‚©‚çŠÈ’P‚ÉŽd—l‚ð—‰ð‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B(‚Æ‘z’è‚µ‚Ä‚¢‚Ü‚·‚ªA‚à‚µ blancoIBatis ‚Ö‚Ìƒj[ƒY‚ðŠ´‚¶‚él‚Í˜A—‚â—v–]‚ð‚¨Šñ‚¹‰º‚³‚¢B—v–]‚ª‘½‚¢‚æ‚¤‚Å‚µ‚½‚çAƒhƒLƒ…ƒƒ“ƒg‚È‚Ç‚ð‹­‰»‚µ‚Ä‚¢‚«‚Ü‚·)</P>
-<P>‚È‚¨AblancoIBatis ‚ÌŽ©“®¶¬‚ÍAiBatis ‚ÌŽd—lã‚Ì§–ñ‚©‚çAˆê•”•sŠ®‘S‚È‚à‚Ì‚Æ‚È‚è‚Ü‚·BsqlMap.xml ‚Å‚ÍA‚Ç‚¤‚µ‚Ä‚àî•ñ‚ª•s‘«‚µ‚Ä‚µ‚Ü‚¤ƒP[ƒX‚ª‚ ‚é‚Ì‚Å‚·B(sqlMap.xml
-‚Ì‹Lq“à—e‚É‚æ‚Á‚Ä‚ÍA‚Ù‚ÚŠ®‘S‚ÈŽ©“®¶¬‚àŽÀŒ»‚Å‚«‚Ü‚·‚ªc) ‚à‚µA‚æ‚èŠ®‘S‚ÈŽ©“®¶¬‚ð—˜—p‚µ‚½‚¢ê‡‚É‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>
-‚Ì—˜—p‚ðŒŸ“¢‚·‚é‚±‚Æ‚ð‹­‚­„§‚µ‚Ü‚·BiBatis ‚Æ blancoDb ‚Æ‚Í ‚©‚È‚èŽd—l‚ªŽ—‚Ä‚¢‚Ü‚·‚ªAblancoDb ‚Ì‚Ù‚¤‚ªA‚æ‚èŠ®‘S‚ÈŽ©“®¶¬ŠÂ‹«‚ðŽÀŒ»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</P>
+<P>Apache iBaits ã‚’åˆ©ç”¨ã—ã¦ã„ã¦ã€æ¤œç´¢çµæžœã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è‡ªå‰ã§æº–å‚™ã™ã‚‹ã“ã¨ã«ä¸æº€ã‚’æ„Ÿã˜ãŸã“ã¨ã¯ã‚ã‚Šã¾ã›ã‚“ã‹? ãã®ç–‘å•ã¯ã¨ã¦ã‚‚æ­£ã—ã„ã‚‚ã®ã§ã™ã€‚ãã—ã¦ã€blancoIBatis
+ã‚’åˆ©ç”¨ã™ã‚‹ã¨ã€ãã†ã„ã£ãŸãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã¯ sqlMap.xml ãƒ•ã‚¡ã‚¤ãƒ«ã«è¨˜è¿°ã•ã‚ŒãŸ SQLæ–‡ã‹ã‚‰è‡ªå‹•ç”Ÿæˆã™ã‚‹ã“ã¨ãŒã§ãã‚‹ã®ã§ã™ã€‚æŠ€è¡“çš„ã«ã¯ã€SQLæ–‡ã®å®Ÿè¡Œçµæžœã‹ã‚‰å¾—ã‚‰ã‚Œã‚‹æƒ…å ±ã«ã‚ˆã£ã¦ã€ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰åãŠã‚ˆã³åž‹åã‚’è§£æ±ºã—ã¦å®Ÿç¾ã—ã¦ã„ã¾ã™ã€‚</P>
+<P>ã”å­˜çŸ¥ã‹ã‚‚çŸ¥ã‚Œã¾ã›ã‚“ãŒã€Apache iBatis ã®ã‚µãƒ–ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã¨ã—ã¦ <A href="http://ibatis.apache.org/ibator.html">Apache IBATOR</A> ã¨ã„ã†è‡ªå‹•ç”Ÿæˆç³»ãŒã‚ã‚Šã¾ã™ã€‚ã¨ã“ã‚ãŒæ®‹å¿µãªã“ã¨ã« IBATOR ã¯ DBã‚¹ã‚­ãƒ¼ãƒžã‹ã‚‰ã®è‡ªå‹•ç”Ÿæˆã‚’ã‚µãƒãƒ¼ãƒˆã™ã‚‹ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã§ã™ã€‚sqlMap.xml
+ãƒ•ã‚¡ã‚¤ãƒ«ã«ã‹ã‹ã‚ŒãŸ SQLæ–‡ã‹ã‚‰è‡ªå‹•ç”Ÿæˆã‚’ãŠã“ãªã†ã‚‚ã®ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚ä¸€æ–¹ã§ iBatis ã®åˆ©ç”¨è€…ã®å¤šãã¯ã€DBã‚¹ã‚­ãƒ¼ãƒžã‹ã‚‰è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸ
+SQLæ–‡ã§ç›®çš„ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å®Ÿç¾ã™ã‚‹ã“ã¨ãŒã§ãã‚‹å ´åˆã¯å°‘ãªã„ã‚ˆã†ã§ã™ã€‚SQLã‚’è‡ªå‰ã§æ‰‹æ›¸ãã™ã‚‹å¿…è¦ãŒã‚ã‚‹ã‹ã‚‰ã“ã iBatis ã‚’æŽ¡ç”¨ã—ã¦ã„ã‚‹ã“ã¨ãŒå¤šã„ã‹ã‚‰ã§ã™ã€‚æ‰‹æ›¸ãã§
+SQLã‚’æ›¸ã‹ãªãã¦ã¯ãªã‚‰ãªã„ã€ãã†ã„ã£ãŸäººãŸã¡å‘ã‘ã® Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰è‡ªå‹•ç”Ÿæˆã‚’å®Ÿç¾ã™ã‚‹ã®ãŒ blancoIBatis ãªã®ã§ã™ã€‚</P>
+<P>ã¨ã¯ã„ãˆã€ã“ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã¯ã€éžå¸¸ã«ãƒ‹ãƒƒãƒãªã¨ã“ã‚ã‚’ç‹™ã£ãŸã‚‚ã®ã§ã™ã€‚ã»ã¨ã‚“ã©ã®äººã«ã¯å½¹ã«ç«‹ãŸãªã„ã“ã¨ã§ã—ã‚‡ã†ã€‚(ãªãœãªã‚‰ã€å¤šãã®äººãŸã¡ã¯ã€ã‚„ã¯ã‚Šåˆ¥ç³»çµ±ã®è‡ªå‹•ç”Ÿæˆç³»ã‚’åˆ©ç”¨ã—ã¦ã„ã‚‹ã ã‚ã†ã‹ã‚‰ã§ã™ã€‚ä½•ã®è‡ªå‹•ç”Ÿæˆç³»ã®æ”¯æ´ã‚‚å—ã‘ãšã«
+ç”Ÿã§ iBatis ã‚’åˆ©ç”¨ã—ã¦ã„ã‚‹äººã¯å°‘ãªã„ã€ã§ã™ã‚ˆã­!) ãã®ãŸã‚ã€ç¾çŠ¶ã§ã¯èª¬æ˜Žã‚‚ã»ã¨ã‚“ã©ä»˜ã‘ã¦ã„ã¾ã›ã‚“ã€‚ä¸€æ–¹ã§ã€ç¾æ™‚ç‚¹ã§ã¯ å®Ÿè¡Œè¡Œæ•° 200è¡Œç¨‹åº¦ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆãªã®ã§ã€ã‚‚ã—
+ãã®æ°—ã«ãªã‚Œã°ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‹ã‚‰ç°¡å˜ã«ä»•æ§˜ã‚’ç†è§£ã™ã‚‹ã“ã¨ã‚‚ã§ãã¾ã™ã€‚(ã¨æƒ³å®šã—ã¦ã„ã¾ã™ãŒã€ã‚‚ã— blancoIBatis ã¸ã®ãƒ‹ãƒ¼ã‚ºã‚’æ„Ÿã˜ã‚‹äººã¯é€£çµ¡ã‚„è¦æœ›ã‚’ãŠå¯„ã›ä¸‹ã•ã„ã€‚è¦æœ›ãŒå¤šã„ã‚ˆã†ã§ã—ãŸã‚‰ã€ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆãªã©ã‚’å¼·åŒ–ã—ã¦ã„ãã¾ã™)</P>
+<P>ãªãŠã€blancoIBatis ã®è‡ªå‹•ç”Ÿæˆã¯ã€iBatis ã®ä»•æ§˜ä¸Šã®åˆ¶ç´„ã‹ã‚‰ã€ä¸€éƒ¨ä¸å®Œå…¨ãªã‚‚ã®ã¨ãªã‚Šã¾ã™ã€‚sqlMap.xml ã§ã¯ã€ã©ã†ã—ã¦ã‚‚æƒ…å ±ãŒä¸è¶³ã—ã¦ã—ã¾ã†ã‚±ãƒ¼ã‚¹ãŒã‚ã‚‹ã®ã§ã™ã€‚(sqlMap.xml
+ã®è¨˜è¿°å†…å®¹ã«ã‚ˆã£ã¦ã¯ã€ã»ã¼å®Œå…¨ãªè‡ªå‹•ç”Ÿæˆã‚‚å®Ÿç¾ã§ãã¾ã™ãŒâ€¦) ã‚‚ã—ã€ã‚ˆã‚Šå®Œå…¨ãªè‡ªå‹•ç”Ÿæˆã‚’åˆ©ç”¨ã—ãŸã„å ´åˆã«ã¯ã€<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ã€ŒSQLå®šç¾©æ›¸ã€ã¨ã„ã† Excelãƒ–ãƒƒã‚¯ã‹ã‚‰ã€ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å…¥å‡ºåŠ›ã®ãŸã‚ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã—ã¾ã™ã€‚">blancoDb</A>
+ã®åˆ©ç”¨ã‚’æ¤œè¨Žã™ã‚‹ã“ã¨ã‚’å¼·ãæŽ¨å¥¨ã—ã¾ã™ã€‚iBatis ã¨ blancoDb ã¨ã¯ ã‹ãªã‚Šä»•æ§˜ãŒä¼¼ã¦ã„ã¾ã™ãŒã€blancoDb ã®ã»ã†ãŒã€ã‚ˆã‚Šå®Œå…¨ãªè‡ªå‹•ç”Ÿæˆç’°å¢ƒã‚’å®Ÿç¾ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ‚Ì JPetStore ‚Ì sqlMap.xml ‚©‚ç‚ÌŽ©“®¶¬—á</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ã® JPetStore ã® sqlMap.xml ã‹ã‚‰ã®è‡ªå‹•ç”Ÿæˆä¾‹</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2008.12.11’Ç‹L</FONT> iBatis ‚Ì ƒfƒ‚EƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Å‚ ‚é JPetStore ‚Ì sqlMap.xml ‚©‚ç ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðŽ©“®¶¬‚µ‚½Û‚Ì—á‚ðŽ¦‚µ‚Ü‚·B</P>
-<P>“ü—Í‚Æ‚È‚é sqlMap.xml ‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·BŽÀÛ‚É‚ÍŠô‚Â‚©‚Ì SQL ‚ª‹LÚ‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚±‚Å‚Í 1‚Â‚¾‚¯‚É’–Ú‚µ‚Ü‚·B</P>
+<P><FONT color="#ff0000">2008.12.11è¿½è¨˜</FONT> iBatis ã® ãƒ‡ãƒ¢ãƒ»ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã§ã‚ã‚‹ JPetStore ã® sqlMap.xml ã‹ã‚‰ ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è‡ªå‹•ç”Ÿæˆã—ãŸéš›ã®ä¾‹ã‚’ç¤ºã—ã¾ã™ã€‚</P>
+<P>å…¥åŠ›ã¨ãªã‚‹ sqlMap.xml ã¯ä»¥ä¸‹ã®ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚å®Ÿéš›ã«ã¯å¹¾ã¤ã‹ã® SQL ãŒè¨˜è¼‰ã•ã‚Œã¦ã„ã¾ã™ãŒã€ã“ã“ã§ã¯ 1ã¤ã ã‘ã«æ³¨ç›®ã—ã¾ã™ã€‚</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><STRONG>Item.xml (Ž©“®¶¬‚Å—˜—p‚³‚ê‚é“ü—Íî•ñ)</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>Item.xml (è‡ªå‹•ç”Ÿæˆã§åˆ©ç”¨ã•ã‚Œã‚‹å…¥åŠ›æƒ…å ±)</STRONG></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -114,7 +114,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
 
   &lt;typeAlias alias=&quot;item&quot; type=&quot;com.ibatis.jpetstore.domain.Item&quot;/&gt;
 
-  c—ªc
+  â€¦ç•¥â€¦
 
   &lt;cacheModel id=&quot;quantityCache&quot; type=&quot;LRU&quot;&gt;
     &lt;flushInterval hours=&quot;24&quot;/&gt;
@@ -122,7 +122,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
     &lt;property name=&quot;size&quot; value=&quot;100&quot;/&gt;
   &lt;/cacheModel&gt;
 
-  c—ªc
+  â€¦ç•¥â€¦
 
   &lt;select id=&quot;getItem&quot; resultClass=&quot;item&quot; parameterClass=&quot;string&quot; cacheModel=&quot;quantityCache&quot;&gt;
     select
@@ -147,7 +147,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
       and I.ITEMID = #value#
   &lt;/select&gt;
 
-  c—ªc
+  â€¦ç•¥â€¦
 
 &lt;/sqlMap&gt;</pre>
       </TD>
@@ -155,21 +155,21 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>‚±‚Ì sqlMap.xml ‚©‚çAˆÈ‰º‚Ì‚æ‚¤‚È Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</P>
+<P>ã“ã® sqlMap.xml ã‹ã‚‰ã€ä»¥ä¸‹ã®ã‚ˆã†ãª Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚</P>
 <UL>
-  <LI>ŒŸõŒ‹‰Ê‚Ì—ñ‚É‚Â‚¢‚Ä‚Ì—ñ–¼‚âŒ^î•ñ‚ª JavaDoc ‚É–„‚ßž‚Ü‚ê‚Ä‚¢‚é‚Ì‚ª“Á’¥‚Å‚·B
-  <LI>‚±‚ÌŽ©“®¶¬Œ‹‰Ê‚Ì—á‚Í PostgreSQL 8.3 ‚É‚¨‚¯‚éŽÀsŒ‹‰Ê‚Å‚·B‘¼‚Ì RDBMS ‚âˆÙ‚È‚éƒo[ƒWƒ‡ƒ“‚Å“®ì‚³‚¹‚é‚Æ Ž©“®¶¬Œ‹‰Ê‚É‚à•Ï‰»‚ª‚Ý‚ç‚ê‚éê‡‚ª‚ ‚è‚Ü‚·B
-  <LI>ŽÀÛ‚É‚ÍAAA
+  <LI>æ¤œç´¢çµæžœã®åˆ—ã«ã¤ã„ã¦ã®åˆ—åã‚„åž‹æƒ…å ±ãŒ JavaDoc ã«åŸ‹ã‚è¾¼ã¾ã‚Œã¦ã„ã‚‹ã®ãŒç‰¹å¾´ã§ã™ã€‚
+  <LI>ã“ã®è‡ªå‹•ç”Ÿæˆçµæžœã®ä¾‹ã¯ PostgreSQL 8.3 ã«ãŠã‘ã‚‹å®Ÿè¡Œçµæžœã§ã™ã€‚ä»–ã® RDBMS ã‚„ç•°ãªã‚‹ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§å‹•ä½œã•ã›ã‚‹ã¨ è‡ªå‹•ç”Ÿæˆçµæžœã«ã‚‚å¤‰åŒ–ãŒã¿ã‚‰ã‚Œã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
+  <LI>å®Ÿéš›ã«ã¯ã€ã€ã€
   <UL>
-    <LI>JPetStore ‚Ì Item.xml ‚©‚ç‚Í 3‚Â‚Ì Javaƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚³‚ê‚Ü‚·B
-    <LI>Item.xml ‚Ì SQL‚»‚Ì‚à‚Ì‚É”÷–­‚ÈƒoƒO (‚ ‚¢‚Ü‚¢‚È—ñ) ‚ª‚ ‚Á‚½‚Ì‚ÅA‚»‚ê‚ðC³‚µ‚½ã‚Å“®ì‚³‚¹‚Ä‚¢‚Ü‚·B
+    <LI>JPetStore ã® Item.xml ã‹ã‚‰ã¯ 3ã¤ã® Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ãŒè‡ªå‹•ç”Ÿæˆã•ã‚Œã¾ã™ã€‚
+    <LI>Item.xml ã® SQLãã®ã‚‚ã®ã«å¾®å¦™ãªãƒã‚° (ã‚ã„ã¾ã„ãªåˆ—) ãŒã‚ã£ãŸã®ã§ã€ãã‚Œã‚’ä¿®æ­£ã—ãŸä¸Šã§å‹•ä½œã•ã›ã¦ã„ã¾ã™ã€‚
   </UL>
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><STRONG>GetItemRow.java (Ž©“®¶¬‚³‚ê‚é Javaƒ\[ƒXƒR[ƒh)</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>GetItemRow.java (è‡ªå‹•ç”Ÿæˆã•ã‚Œã‚‹ Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰)</STRONG></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -178,641 +178,641 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
     <TR>
       <TD>
       <PRE>/*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚èŽ©“®¶¬‚³‚ê‚Ü‚µ‚½B
+ * ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã‚Šè‡ªå‹•ç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
  */
 package blanco.sample;
 
 import java.math.BigDecimal;
 
 /**
- * sqlMap id [getItem] ‚ÌŒŸõŒ‹‰Ê‚ÌsƒIƒuƒWƒFƒNƒgB\n &amp;lt;select id=&amp;quot;getItem&amp;quot; resultClass=&amp;quot;blanco.sample.GetItemRow&amp;quot; ...
+ * sqlMap id [getItem] ã®æ¤œç´¢çµæžœã®è¡Œã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚\n &amp;lt;select id=&amp;quot;getItem&amp;quot; resultClass=&amp;quot;blanco.sample.GetItemRow&amp;quot; ...
  */
 public class GetItemRow {
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [itemid]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [itemid]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [itemid]ã€‚
      */
     private String fItemid;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [listprice]ã€‚
      *
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [listprice]B
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [listprice]ã€‚
      */
     private BigDecimal fListprice;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [unitcost]ã€‚
      *
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [unitcost]B
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [unitcost]ã€‚
      */
     private BigDecimal fUnitcost;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [supplierid]ã€‚
      *
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [supplierid]B
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [supplierid]ã€‚
      */
     private Integer fSupplierid;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [product.productId]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [product.productId]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [product.productId]ã€‚
      */
     private String fProductProductId;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [product.name]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [product.name]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [product.name]ã€‚
      */
     private String fProductName;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [product.description]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [product.description]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [255]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [product.description]ã€‚
      */
     private String fProductDescription;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [product.categoryId]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [product.categoryId]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [product.categoryId]ã€‚
      */
     private String fProductCategoryId;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [status]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [status]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [2]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [status]ã€‚
      */
     private String fStatus;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [attribute1]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute1]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attribute1]ã€‚
      */
     private String fAttribute1;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [attribute2]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute2]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attribute2]ã€‚
      */
     private String fAttribute2;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [attribute3]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute3]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attribute3]ã€‚
      */
     private String fAttribute3;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [attribute4]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute4]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attribute4]ã€‚
      */
     private String fAttribute4;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [attribute5]ã€‚
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute5]B
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attribute5]ã€‚
      */
     private String fAttribute5;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B
+     * SQLæ¤œç´¢çµæžœã®åˆ—: [quantity]ã€‚
      *
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [quantity]B
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [quantity]ã€‚
      */
     private int fQuantity;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [itemid] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [itemid] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [itemid]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @param argItemid ƒtƒB[ƒ‹ƒh[itemid]‚ÉÝ’è‚·‚é’lB
+     * @param argItemid ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[itemid]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setItemid(final String argItemid) {
         fItemid = argItemid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [itemid] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [itemid] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [itemid]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[itemid]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[itemid]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getItemid() {
         return fItemid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [listprice] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [listprice] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [listprice]ã€‚]ã€‚
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argListprice ƒtƒB[ƒ‹ƒh[listprice]‚ÉÝ’è‚·‚é’lB
+     * @param argListprice ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[listprice]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setListprice(final BigDecimal argListprice) {
         fListprice = argListprice;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [listprice] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [listprice] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [listprice]ã€‚]ã€‚
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[listprice]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[listprice]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public BigDecimal getListprice() {
         return fListprice;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [unitcost] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [unitcost] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [unitcost]ã€‚]ã€‚
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argUnitcost ƒtƒB[ƒ‹ƒh[unitcost]‚ÉÝ’è‚·‚é’lB
+     * @param argUnitcost ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[unitcost]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setUnitcost(final BigDecimal argUnitcost) {
         fUnitcost = argUnitcost;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [unitcost] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [unitcost] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [unitcost]ã€‚]ã€‚
+     * TYPE_NAME: [numeric]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[unitcost]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[unitcost]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public BigDecimal getUnitcost() {
         return fUnitcost;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [supplierid] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [supplierid] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [supplierid]ã€‚]ã€‚
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argSupplierid ƒtƒB[ƒ‹ƒh[supplierid]‚ÉÝ’è‚·‚é’lB
+     * @param argSupplierid ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[supplierid]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setSupplierid(final Integer argSupplierid) {
         fSupplierid = argSupplierid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [supplierid] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [supplierid] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [supplierid]ã€‚]ã€‚
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[supplierid]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[supplierid]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public Integer getSupplierid() {
         return fSupplierid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.productId] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.productId] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.productId]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @param argProductProductId ƒtƒB[ƒ‹ƒh[product.productId]‚ÉÝ’è‚·‚é’lB
+     * @param argProductProductId ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.productId]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setProductProductId(final String argProductProductId) {
         fProductProductId = argProductProductId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.productId] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.productId] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.productId]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.productId]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.productId]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getProductProductId() {
         return fProductProductId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.name] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.name] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.name]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argProductName ƒtƒB[ƒ‹ƒh[product.name]‚ÉÝ’è‚·‚é’lB
+     * @param argProductName ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.name]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setProductName(final String argProductName) {
         fProductName = argProductName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.name] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.name] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.name]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.name]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.name]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getProductName() {
         return fProductName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.description] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.description] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.description]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [255]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argProductDescription ƒtƒB[ƒ‹ƒh[product.description]‚ÉÝ’è‚·‚é’lB
+     * @param argProductDescription ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.description]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setProductDescription(final String argProductDescription) {
         fProductDescription = argProductDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.description] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.description] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.description]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [255]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.description]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.description]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getProductDescription() {
         return fProductDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.categoryId] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.categoryId] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.categoryId]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @param argProductCategoryId ƒtƒB[ƒ‹ƒh[product.categoryId]‚ÉÝ’è‚·‚é’lB
+     * @param argProductCategoryId ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.categoryId]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setProductCategoryId(final String argProductCategoryId) {
         fProductCategoryId = argProductCategoryId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.categoryId] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [product.categoryId] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [product.categoryId]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.categoryId]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[product.categoryId]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getProductCategoryId() {
         return fProductCategoryId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [status] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [status] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [status]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [2]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argStatus ƒtƒB[ƒ‹ƒh[status]‚ÉÝ’è‚·‚é’lB
+     * @param argStatus ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[status]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setStatus(final String argStatus) {
         fStatus = argStatus;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [status] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [status] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [status]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [2]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[status]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[status]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getStatus() {
         return fStatus;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute1] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute1] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute1]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argAttribute1 ƒtƒB[ƒ‹ƒh[attribute1]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute1 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute1]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttribute1(final String argAttribute1) {
         fAttribute1 = argAttribute1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute1] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute1] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute1]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute1]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute1]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttribute1() {
         return fAttribute1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute2] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute2] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute2]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argAttribute2 ƒtƒB[ƒ‹ƒh[attribute2]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute2 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute2]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttribute2(final String argAttribute2) {
         fAttribute2 = argAttribute2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute2] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute2] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute2]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute2]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute2]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttribute2() {
         return fAttribute2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute3] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute3] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute3]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argAttribute3 ƒtƒB[ƒ‹ƒh[attribute3]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute3 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute3]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttribute3(final String argAttribute3) {
         fAttribute3 = argAttribute3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute3] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute3] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute3]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute3]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute3]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttribute3() {
         return fAttribute3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute4] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute4] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute4]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argAttribute4 ƒtƒB[ƒ‹ƒh[attribute4]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute4 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute4]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttribute4(final String argAttribute4) {
         fAttribute4 = argAttribute4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute4] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute4] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute4]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute4]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute4]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttribute4() {
         return fAttribute4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute5] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute5] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute5]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @param argAttribute5 ƒtƒB[ƒ‹ƒh[attribute5]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute5 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute5]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttribute5(final String argAttribute5) {
         fAttribute5 = argAttribute5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute5] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attribute5] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [attribute5]ã€‚]ã€‚
+     * TYPE_NAME: [varchar]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ã€‚
+     * ã‚µã‚¤ã‚º: [80]ã€‚
+     * NULL: [Nullable]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute5]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attribute5]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttribute5() {
         return fAttribute5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [quantity] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [quantity] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [quantity]ã€‚]ã€‚
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @param argQuantity ƒtƒB[ƒ‹ƒh[quantity]‚ÉÝ’è‚·‚é’lB
+     * @param argQuantity ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[quantity]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setQuantity(final int argQuantity) {
         fQuantity = argQuantity;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [quantity] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [quantity] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜Ž: [SQLæ¤œç´¢çµæžœã®åˆ—: [quantity]ã€‚]ã€‚
+     * TYPE_NAME: [int4]ã€‚
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ã€‚
+     * ã‚µã‚¤ã‚º: [10]ã€‚
+     * NULL: [NoNulls]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[quantity]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[quantity]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public int getQuantity() {
         return fQuantity;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶Žš—ñ•\Œ»‚ðŽæ“¾‚µ‚Ü‚·B
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * Žg—pã‚Ì’ˆÓ
+     * ä½¿ç”¨ä¸Šã®æ³¨æ„
      * &lt;UL&gt;
-     * &lt;LI&gt;ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚Ý•¶Žš—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * &lt;LI&gt;ƒIƒuƒWƒFƒNƒg‚ªzŠÂŽQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚ÍŽg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * &lt;LI&gt;ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿æ–‡å­—åˆ—åŒ–ã®å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * &lt;LI&gt;ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
      * &lt;/UL&gt;
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶Žš—ñ•\Œ»B
+     * @return ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã€‚
      */
     public String toString() {
         final StringBuffer buf = new StringBuffer();
@@ -842,7 +842,7 @@ public class GetItemRow {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ã„ãŒã´ã‚‡ã‚“ã«ã¤ã„ã¦</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

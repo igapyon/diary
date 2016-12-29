@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/12/05 ���L: �I�[�v���\�[�X�̒��[���ł��� Eclipse BIRT �̒���</TITLE>
-<meta name="DESCRIPTION" content="�I�[�v���\�[�X�̒��[���̂ЂƂł��� Eclipse BIRT ���y���������Ă��܂��B">
-<meta name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2009/12/05 日記: オープンソースの帳票環境である Eclipse BIRT の調査</TITLE>
+<meta name="DESCRIPTION" content="オープンソースの帳票環境のひとつである Eclipse BIRT を軽く調査しています。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <meta name="GENERATOR" content="igapyon diary generator">
 <meta name="DATE" content="2010-09-27T20:42:50+09:00">
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/12/05 ���L: �I�[�v���\�[�X�̒��[���ł��� Eclipse BIRT �̒���</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �I�[�v���\�[�X�̒��[���̂ЂƂł��� Eclipse BIRT ���y���������Ă��܂��B</P>
+    <H2>2009/12/05 日記: オープンソースの帳票環境である Eclipse BIRT の調査</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] オープンソースの帳票環境のひとつである Eclipse BIRT を軽く調査しています。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,44 +60,44 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�I�[�v���\�[�X�̒��[���ł��� Eclipse BIRT �̒���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オープンソースの帳票環境である Eclipse BIRT の調査</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p>�I�[�v���\�[�X�̒��[���̂ЂƂł��� Eclipse BIRT ���y���������Ă��܂��B</p>
-<p>�Ƃ���V�X�e���̒��[�����ł̗��p���l���Ă��܂��B���m�̃c�[���Ƃ̐��ݕ����́A�ȉ��̂悤�ɍl���Ă��܂��B</p>
+<p>オープンソースの帳票環境のひとつである Eclipse BIRT を軽く調査しています。</p>
+<p>とあるシステムの帳票部分での利用を考えています。既知のツールとの棲み分けは、以下のように考えています。</p>
 <ul>
-  <li>CSV �t�@�C��<br>
-  <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="�u�t�@�C����`��(CSV)�v�Ƃ��� Excel�u�b�N����ACSV�t�@�C�����o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoCsv</A> ���o�R���Đ���
-  <li>Excel �u�b�N����т��� PDF �t�@�C��<br>
-  <A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org�o�R�� Excel�`���܂���PDF�`���̒��[���쐬����API�Z�b�g����уR�}���h��񋟂��܂��BOpenOffice.org�𗘗p���ăh�L�������g�`���ϊ��������s�������ꍇ�ɗL�v�ł��B">blancoReport</A> ���g���� OpenOffice.org ���o�R���Đ���
-  <li>�Â��� PDF �t�@�C��<br>
+  <li>CSV ファイル<br>
+  <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A> を経由して生成
+  <li>Excel ブックおよびその PDF ファイル<br>
+  <A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A> を使って OpenOffice.org を経由して生成
+  <li>凝った PDF ファイル<br>
   <a href="http://eclipse.org/birt/">Eclipse BIRT</a>
 </ul>
-<p>BIRT �̎g�����肪�ǂ���΁A����� blancoReport �͎g�킸�� BIRT �ֈ�{�����Ă݂悤�Ǝv���܂��B</p>
-<p><font color="#ff0000">2009.12.08�ǋL</font> Eclipse BIRT �́A�c�O�Ȃ��玄�̃j�[�Y�ɂ͍��v���܂���ł����B���̑��� iText ���j�[�Y�𖞂����Ă����\�����������Ƃ��킩��܂����B���サ�΂炭�AiText
-�ɒ��͂��Ă������ƂɂȂ肻���ł��B</p>
-<p><font color="#ff00ff">�֘A������L</font></p>
+<p>BIRT の使い勝手が良ければ、今回は blancoReport は使わずに BIRT へ一本化してみようと思います。</p>
+<p><font color="#ff0000">2009.12.08追記</font> Eclipse BIRT は、残念ながら私のニーズには合致しませんでした。その代わり iText がニーズを満たしてくれる可能性が高いこともわかりました。今後しばらく、iText
+に注力していくことになりそうです。</p>
+<p><font color="#ff00ff">関連する日記</font></p>
 <ul>
-  <li><a href="ig091208.html">2009/12/08 ���L: Java: iText ��p���� PDF �t�@�C����V�K�쐬����T���v��</a>
+  <li><a href="ig091208.html">2009/12/08 日記: Java: iText を用いた PDF ファイルを新規作成するサンプル</a>
 </ul>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Eclipse BIRT ����</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Eclipse BIRT メモ</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>���Ԃ̋L���������B</p>
+<p>世間の記事をメモ。</p>
 <ul>
   <li>Eclipse: BIRT Tutorials<br>
   <A HREF="http://eclipse.org/birt/phoenix/tutorial/">http://eclipse.org/birt/phoenix/tutorial/</A>
-  <li>Eclipse���񋟂���BI�ƃ��|�[�e�B���O�c�[��: ��S��F�X�N���v�e�B���O�@�\�ETomcat�ł̃v���r���[�E���|�[�g�G���W�����g�p�������|�[�g�o��<br>
+  <li>Eclipseが提供するBIとレポーティングツール: 第４回：スクリプティング機能・Tomcatでのプレビュー・レポートエンジンを使用したレポート出力<br>
   <A HREF="http://www.thinkit.co.jp/cert/tech/28/4/3.htm">http://www.thinkit.co.jp/cert/tech/28/4/3.htm</A><br>
-  Java ����o�͂���ۂ̗��p���@
+  Java から出力する際の利用方法
 </ul>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

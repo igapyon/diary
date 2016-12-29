@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/08/21 ���L: Ubuntu: dd �R�}���h�ɂ�� MBR �̑ޔ���@</TITLE>
-<meta name="DESCRIPTION" content="Ubuntu 10.04 (x86) �� MBR ��ޔ�������@���������Ă����܂��B���̃R�}���h�́A��ʓI�� Linux �ł����p���邱�Ƃ��\���Ǝv���܂��B">
-<meta name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2010/08/21 日記: Ubuntu: dd コマンドによる MBR の退避方法</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 10.04 (x86) で MBR を退避する方法をメモしておきます。このコマンドは、一般的な Linux でも利用することが可能だと思います。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
 <meta name="DATE" content="2010-08-21T23:15:20+09:00">
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/08/21 ���L: Ubuntu: dd �R�}���h�ɂ�� MBR �̑ޔ���@</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Ubuntu 10.04 (x86) �� MBR ��ޔ�������@���������Ă����܂��B���̃R�}���h�́A��ʓI�� Linux �ł����p���邱�Ƃ��\���Ǝv���܂��B</P>
+    <H2>2010/08/21 日記: Ubuntu: dd コマンドによる MBR の退避方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ubuntu 10.04 (x86) で MBR を退避する方法をメモしておきます。このコマンドは、一般的な Linux でも利用することが可能だと思います。</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp �𓌋��ŊJ��! �c�Ȃ킸���B�\���������ԋ߁B�Q����]�҂͍������\�����݂�!
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,12 +61,12 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: dd �R�}���h�ɂ�� MBR �̑ޔ���@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: dd コマンドによる MBR の退避方法</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debian�x�[�X��Linux�f�B�X�g���r���[�V�����̂ЂƂ�">Ubuntu</A> 10.04 (x86) �� MBR ��ޔ�������@���������Ă����܂��B���̃R�}���h�́A��ʓI�� Linux
-�ł����p���邱�Ƃ��\�Ȃ��Ƃ������ł��B</p>
+<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> 10.04 (x86) で MBR を退避する方法をメモしておきます。このコマンドは、一般的な Linux
+でも利用することが可能なことが多いです。</p>
 <blockquote>
 <table border="1">
   <tbody>
@@ -76,21 +76,21 @@
   </tbody>
 </table>
 </blockquote>
-<p>SystemRescueCd �ɂ���������Ă��܂��B�����Ď��� SystemRescueCd �ƕ����ė��p���邱�Ƃ������ł��B</p>
-<p><font color="#ff00ff">���ӓ_</font></p>
+<p>SystemRescueCd にも同梱されています。そして私は SystemRescueCd と併せて利用することが多いです。</p>
+<p><font color="#ff00ff">注意点</font></p>
 <ul>
-  <li>���̃R�}���h�͏㋉�Ґ�p�̂��̂ł��B
-  <li>/dev/hda �̕����́A���p���ɉ����ēK�X�ǂݑւ���K�v������܂��B
-  <li>/mnt/back �́A�o�b�N�A�b�v�p�f�B�X�N�������Ƀ}�E���g�������̂Ɖ��肵���L�q�ł��B
-  <li>���̃R�}���h�͗L�v�ł����A�����ł��Ԉ�������s�̎d��������ƁA���g���̃R���s���[�^����j�󂷂�\�������ɍ������̂ł�����܂��Bdd �R�}���h��
-  MBR �Ȃǂɐ��ʂ��Ă��Ȃ��l�� ���p���Ȃ����Ƃ��������߂܂��B
+  <li>このコマンドは上級者専用のものです。
+  <li>/dev/hda の部分は、利用環境に応じて適宜読み替える必要があります。
+  <li>/mnt/back は、バックアップ用ディスクをここにマウントしたものと仮定した記述です。
+  <li>このコマンドは有益ですが、少しでも間違った実行の仕方をすると、お使いのコンピュータ環境を破壊する可能性が非常に高いものでもあります。dd コマンドや
+  MBR などに精通していない人は 利用しないことを強く勧めます。
 </ul>
-<p><font color="#ff00ff">�֘A������L</font></p>
+<p><font color="#ff00ff">関連する日記</font></p>
 <ul>
-  <li><a href="ig100811.html">2010/08/11 ���L: Linux: LiveCD: �ƂĂ��D�ꂽ�n�[�h�f�B�X�N�E���[�e�B���e�B�uSystemRescueCd�v</a>
+  <li><a href="ig100811.html">2010/08/11 日記: Linux: LiveCD: とても優れたハードディスク・ユーティリティ「SystemRescueCd」</a>
 </ul>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/08/21 23:15:20 $</address>
 </BODY>
 </HTML>

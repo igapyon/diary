@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/12/25 ���L: Debian: sarge�e�X�g��: 20041224�ŃC���X�g�[���̌�</TITLE>
-<META name="DESCRIPTION" content="�i�C�g���[�r���h�̃e�X�g�ł��C���X�g�[�����܂����Ă��܂��B�����linux26�ŃC���X�g�[��">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2004/12/25 日記: Debian: sargeテスト版: 20041224版インストール体験</TITLE>
+<META name="DESCRIPTION" content="ナイトリービルドのテスト版をインストールしまくっています。今回はlinux26でインストール">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/12/25 ���L: Debian: sarge�e�X�g��: 20041224�ŃC���X�g�[���̌�</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] �i�C�g���[�r���h�̃e�X�g�ł��C���X�g�[�����܂����Ă��܂��B�����linux26�ŃC���X�g�[��</P>
+    <H2>2004/12/25 日記: Debian: sargeテスト版: 20041224版インストール体験</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ナイトリービルドのテスト版をインストールしまくっています。今回はlinux26でインストール</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,79 +59,79 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Debian: sarge�e�X�g��: 20041224�ŃC���X�g�[���̌� (linux26)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Debian: sargeテスト版: 20041224版インストール体験 (linux26)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="�ł��t���[�� �����čł����ڂ���Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂ�">Debian</A> sarge�e�X�g�ł� Kernel 2.6�n�ŃZ�b�g�A�b�v���܂����B(�u�[�g���A�ŏ��� linux26
-[ENTER] �Ɠ����)</P>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="最もフリーで そして最も注目されているLinuxディストリビューションのひとつ">Debian</A> sargeテスト版を Kernel 2.6系でセットアップしました。(ブート時、最初に linux26
+[ENTER] と入れる)</P>
 <UL>
-  <LI>ext3�t�@�C���V�X�e���� �t�H�[�}�b�g���ƂĂ������ł��B
-  <LI>Matrox G550�Ȃ̂������ �Ƃ肠���� [vesa]�ŃZ�b�g�A�b�v����̂�����ł��B
-  <LI>Intel 82557/8/9 Ethernet PRO 110�B2.6�Ȃ̂�Firewire��F�����܂��B�������Ȃ��B
-  <LI>�Z�b�g�A�b�v�̓r���� ��U�ł� [�߂�] �ƁA�G�L�X�p�[�g���[�h(?)�ɂȂ�܂��B������Ƃт�����B
+  <LI>ext3ファイルシステムは フォーマットがとても高速です。
+  <LI>Matrox G550なのだけれど とりあえず [vesa]でセットアップするのが無難です。
+  <LI>Intel 82557/8/9 Ethernet PRO 110。2.6なのでFirewireを認識します。すごいなぁ。
+  <LI>セットアップの途中で 一旦でも [戻る] と、エキスパートモード(?)になります。ちょっとびっくり。
 </UL>
-<P>sarge�e�X�g�ł����x���C���X�g�[�����Ă�����ɁA<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="�ł��t���[�� �����čł����ڂ���Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂ�">Debian</A>��<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂB">KNOPPIX</A>�Ƃ�
-�قȂ�f�B�X�g���r���[�V�����ł���Ƃ������Ƃ��A���[���������͂��߂܂����B<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂB">KNOPPIX</A>�̕��������ł��ˁB</P>
+<P>sargeテスト版を何度もインストールしている内に、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="最もフリーで そして最も注目されているLinuxディストリビューションのひとつ">Debian</A>と<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>とが
+異なるディストリビューションであるということを、より深く理解しはじめました。<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>の方が今風ですね。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>KNOPPIX: 3.7���{��ŃC���X�g�[���̌�</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>KNOPPIX: 3.7日本語版インストール体験</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Debian sarge�e�X�g�ł����x�Ɩ����C���X�g�[��������� KNOPIX 3.7 ���{��� ���C���X�g�[�������Ă݂�ƁAKNOPPIX�̓��F��
-�Ȃ�ƂȂ��������Ă��܂����B</P>
+<P>Debian sargeテスト版を何度と無くインストールした上で KNOPIX 3.7 日本語版 をインストールを見てみると、KNOPPIXの特色が
+なんとなく分かってきました。</P>
 <UL>
-  <LI>KNOPPIX�Ȃ� INIT version 2.78 �Ńn�[�h�E�F�A�����F��
-  <LI>QEMU�Ƃ�coLinux�Ƃ��� �ŏ�����Ђ����Ă���̂��������B(CD�u�[�g�\�ȂƂ���̃����b�g���ő�������o���Ă��܂�)
+  <LI>KNOPPIXなら INIT version 2.78 でハードウェア自動認識
+  <LI>QEMUとかcoLinuxとかが 最初からひっついているのが嬉しい。(CDブート可能なところのメリットを最大限引き出しています)
 </UL>
-<P>�X�g�C�b�N��<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="�ł��t���[�� �����čł����ڂ���Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂ�">Debian</A>���w�ڂ��Ƃ��Ă����̂ɁA���񂾂�<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="�ŋ� ���Ԃł̊��҂������Ƃ��W�܂��Ă���Linux�f�B�X�g���r���[�V�����̂ЂƂB">KNOPPIX</A>�Ɏ䂩��Ă��܂����B�܂��A�܂����͔��f�ł���ق�
-Linux�̏󋵂�m��܂���̂ŁA�܂� �蓖���莟��Ƀf�B�X�g���r���[�V������G���Ă����̂��ǂ��l�����Ƃ��v���܂��B�c���̓��� �K�� Debian�ɖ߂��Ă��邼�`
-�Ǝア���ӂ������܂����B</P>
+<P>ストイックに<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="最もフリーで そして最も注目されているLinuxディストリビューションのひとつ">Debian</A>を学ぼうとしていたのに、だんだん<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>に惹かれてきました。まあ、まだ私は判断できるほど
+Linuxの状況を知りませんので、まあ 手当たり次第にディストリビューションを触っていくのも良い考えだとも思えます。…いつの日か 必ず Debianに戻ってくるぞ～
+と弱い決意を感じました。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linux/�I�[�v���\�[�X�֘A���Ђ��Փ�����</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linux/オープンソース関連書籍を衝動買い</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�~�x�݂̏h��A�Ƃ������Ƃ� ����ɂď��Ђ��Փ��������Ă��܂����B</P>
+<P>冬休みの宿題、ということで 書泉にて書籍を衝動買いしてきました。</P>
 <UL>
-  <LI>KNOPPIX��Linux���g�����Ȃ���<BR>
+  <LI>KNOPPIXでLinuxを使いこなそう<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig041225.src.html' , result='ig041225.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4886487092/igapyondiary-22">amazon.co.jp: 4886487092</A><BR>
-  ������KNOPPIX�{�̒�����A���e�̏[������r�������� ���̖{��I�т܂����BKNOPPIX���n�[�h�f�B�X�N�ɃC���X�g�[��������@���ڂ��Ă����̂ŁA���ɂ��̋L�ڏꏊ�ɋ���������܂��B
-  <LI>�͂��߂Ă�Gentoo Linux<BR>
+  数あるKNOPPIX本の中から、内容の充実具合を比較検討して この本を選びました。KNOPPIXをハードディスクにインストールする方法が載っていたので、特にその記載場所に興味があります。
+  <LI>はじめてのGentoo Linux<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4797324945/igapyondiary-22">amazon.co.jp: 4797324945</A><BR>
-  �ق�Ƃ���Linux���w�Ԃ̂ł���΁A�o��������Linux�f�B�X�g���r���[�V�������w�Ԃ̂ł͂Ȃ� Gentoo�̂悤�ȃf�B�X�g���r���[�V�������w�񂾕����������Č������ǂ��������Ďv��
-  �����Ă��܂����B
-  <LI>UNIX�Ƃ����l�����\���̐݌v�v�z�ƓN�w<BR>
+  ほんとうにLinuxを学ぶのであれば、出来合いのLinuxディストリビューションを学ぶのではなく Gentooのようなディストリビューションを学んだ方がかえって効率が良いかもって思い
+  買ってきました。
+  <LI>UNIXという考え方―その設計思想と哲学<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4274064069/igapyondiary-22">amazon.co.jp: 4274064069</A><BR>
-  Linux���ē��傷��ɂ������č���xUNIX��׋����������Ƃ������ƂŁA���̖{�𔃂��܂����B
-  <LI>�I�[�v���\�[�X�𗝉����� �H�{ �F�L (��), ���c �׎q (��)<BR>
+  Linuxを再入門するにあたって今一度UNIXを勉強し直そうということで、この本を買いました。
+  <LI>オープンソースを理解する 秋本 芳伸 (著), 岡田 泰子 (著)<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/488648719X/igapyondiary-22">amazon.co.jp: 488648719X</A><BR>
-  Linux���w�ԂȂ�A�ēx�I�[�v���\�[�X�Ƃ������̂𗝉����Ă��������̂ōw�����܂����B
+  Linuxを学ぶなら、再度オープンソースというものを理解しておきたいので購入しました。
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>�_�E�����[�h</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ダウンロード</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>���͂� �m���m���ŁA���W���[�ǂ����Linux�f�B�X�g���r���[�V�������_�E�����[�h���܂����Ă܂��B</P>
+<P>もはや ノリノリで、メジャーどころのLinuxディストリビューションをダウンロードしまくってます。</P>
 <UL>
-  <LI>Vine Linux �_�E�����[�h�T�C�g (3.1)<BR>
+  <LI>Vine Linux ダウンロードサイト (3.1)<BR>
   <A HREF="http://www.ring.gr.jp/pub/linux/Vine/">http://www.ring.gr.jp/pub/linux/Vine/</A><BR>
-  �Ȃ񂾂��AVine Linux�� �����g�������ȕ��͋C�������o����Ă��܂��B(�Ƃ����� �u�[�g�v���Z�X�ȂǂŃn�[�h�E�F�A�F����K�؂ɍs���Ă��ꂳ�ւ���Ηǂ��ł�)<BR>
-  ���_�E�����[�h���܂����B�������ƃC���X�g�[���ł��܂����B�ӂ��ށA�����ƃn�[�h�E�F�A�F�����s���Ă���܂����B��͂�C���X�g�[�����̃n�[�h�E�F�A�F����
-  �ւڂ����[�U�ɂƂ��Ă͏d�v�ł��B
+  なんだか、Vine Linuxは すぐ使えそうな雰囲気が醸し出されています。(というか ブートプロセスなどでハードウェア認識を適切に行ってくれさへすれば良いです)<BR>
+  →ダウンロードしました。さくっとインストールできました。ふうむ、ちゃんとハードウェア認識を行ってくれました。やはりインストール時のハードウェア認識は
+  へぼいユーザにとっては重要です。
   <LI>Gentoo
   <UL>
-    <LI>Gentoo Linux -- Gentoo �h�L�������g<BR>
+    <LI>Gentoo Linux -- Gentoo ドキュメント<BR>
     <A HREF="http://www.gentoo.org/doc/ja/">http://www.gentoo.org/doc/ja/</A>
     <LI>Gentoo Linux Users Group Japan<BR>
     <A HREF="http://www.gentoo.gr.jp/">http://www.gentoo.gr.jp/</A>
@@ -140,7 +140,7 @@ Linux�̏󋵂�m��܂���̂ŁA�܂� �蓖���莟��Ƀf�B�X�g���r���[�V������G���Ă�
   </UL>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

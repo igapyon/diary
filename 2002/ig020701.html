@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/07/01 ���L: Eclipse 2.0 �����[�X</TITLE>
-<META name="DESCRIPTION" content="Windows 2000 SP2����� IIS�̐V�d�l �w�o�b�t�@���f�t�H���g�Œ񋟁x�ɋꂵ�߂��܂���">
-<META name="KEYWORDS" content="�����҂��̓��Lv2,diary,igapyon">
+<TITLE>2002/07/01 日記: Eclipse 2.0 リリース</TITLE>
+<META name="DESCRIPTION" content="Windows 2000 SP2からの IISの新仕様 『バッファがデフォルトで提供』に苦しめられました">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <LINK rel="INDEX" href="index.html">
 <LINK rel="CONTENTS" href="index.html">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="�����҂��摜(��) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/07/01 ���L: Eclipse 2.0 �����[�X</H2>
-    <P>[�����҂��̓��Lv2,diary,igapyon] Windows 2000 SP2����� IIS�̐V�d�l �w�o�b�t�@���f�t�H���g�Œ񋟁x�ɋꂵ�߂��܂���</P>
+    <H2>2002/07/01 日記: Eclipse 2.0 リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Windows 2000 SP2からの IISの新仕様 『バッファがデフォルトで提供』に苦しめられました</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">�L��: <A href="http://journal.mycom.co.jp/column/ide/091/">�C�}�h�L��IDE����: Eclipse�x�[�X�̓����|����uBenten�v���g���Ă݂悤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">������������̎�ɂ�� Benten �Љ�L��!</FONT></TD>
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">�C���f�B�b�N�X�y�[�W�֖߂�</A></TD>
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,61 +58,61 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows 2000  SP2 + IIS + Tomcat 3.2.4 �� �f�t�H���g�̃L���b�V���o�b�t�@�ɋꂵ�߂���</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows 2000  SP2 + IIS + Tomcat 3.2.4 で デフォルトのキャッシュバッファに苦しめられる</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Windows 2000 SP2 + IIS + Tomcat 3.2.4 �̑g�ݍ��킹�� �wWindows 2000 SP2
-����̐V�@�\�x�Ǝv���� �w�y�[�W�o�b�t�@�x�@�\�ɋꂵ�߂��܂����BIIS����isapi_redirect.dll�o�R��Tomcat����
-Java Servlet�ɂȂ���̂ł����A�w�y�[�W�o�b�t�@�x�Ƃ������@�\�� �Ȃ����f�t�H���g�Őݒ肳���悤��
-�wWindows 2000 SP2����́x�d�l�ύX����Ă��āA�ƂȂ�� Java Servlet�̖߂�l��
-�Ȃ�ƃL���b�V���O����� IIS������ɌÂ����e��Ԃ��Ƃ��� �ߎS�ȐV�@�\���ǉ�����Ă����̂ł��B����ɂ͂т�����V�B�Ƃ肠����
-3���Ԃقǋꂵ�߂��܂����B(����͂��͂� �d�l�o�O�Ƃ����v���Ȃ��̂ł����c)
-�f�t�H���g�Ńo�b�t�@����Ȃ�`�B</P>
-<P>���߂āAWindows 2000 + IIS ���L���C�ɂȂ�܂����B(�܂��܂�Windows���L���C�ɂȂ�܂���)<BR>
-Windows 2000 �� IIS + Tomcat ������Ă������ �v���ӂł��ˁB(�������� IIS+Tomcat�Ȃ�đg�ݍ��킹�Ŏd���������Ȃ��̂ł�����ǂ��˂��c)<BR>
-�܂� �����U��Ԃ�A�w���Ղȃo�b�t�@�����O�͂��Ȃ��悤�x�Ɛ����̂ł������B</P>
+<P>Windows 2000 SP2 + IIS + Tomcat 3.2.4 の組み合わせで 『Windows 2000 SP2
+からの新機能』と思われる 『ページバッファ』機能に苦しめられました。IISからisapi_redirect.dll経由でTomcat内の
+Java Servletにつなげるのですが、『ページバッファ』とかいう機能が なぜかデフォルトで設定されるように
+『Windows 2000 SP2からは』仕様変更されていて、となると Java Servletの戻り値が
+なんとキャッシングされて IISが勝手に古い内容を返すという 悲惨な新機能が追加されていたのです。これにはびっくり仰天。とりあえず
+3時間ほど苦しめられました。(これはもはや 仕様バグとしか思えないのですが…)
+デフォルトでバッファするなよ～。</P>
+<P>改めて、Windows 2000 + IIS がキライになりました。(ますますWindowsがキライになりました)<BR>
+Windows 2000 で IIS + Tomcat をされている方は 要注意ですね。(私だって IIS+Tomcatなんて組み合わせで仕事したくないのですけれどもねぇ…)<BR>
+また 自らを振り返り、『安易なバッファリングはしないよう』と誓うのであった。</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 2.0 �����[�X</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 2.0 リリース</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>�ǎ҂̕�����<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Java�ŏ����ꂽ�I�[�v���\�[�X�ȓ����J�����BJava����ɂ��J���ɂ����Ĉ��|�I�ȃ��[�U�̎x���𓾂Ă��܂��B">Eclipse</A>�Ɋւ���c�b�R�~</P>
-<P><CITE>Subject:  [igapyon:00996] Eclipse2.0 �����[�X<BR>
-�͂��߂܂��āB�I��Ɛ\���܂��B</CITE></P>
+<P>読者の方から<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaで書かれたオープンソースな統合開発環境。Java言語による開発において圧倒的なユーザの支持を得ています。">Eclipse</A>に関するツッコミ</P>
+<P><CITE>Subject:  [igapyon:00996] Eclipse2.0 リリース<BR>
+はじめまして。的場と申します。</CITE></P>
 <UL>
-  <LI><CITE>Java�̓����J�����uEclipse�v�̃o�[�W����2.0�������[�X����Ă��܂����B<BR>
+  <LI><CITE>Javaの統合開発環境「Eclipse」のバージョン2.0がリリースされていました。<BR>
   <A HREF="http://www.eclipse.org/">http://www.eclipse.org/</A></CITE>
 </UL>
-<P><CITE>�o�[�W����1.0�������Ĉȗ��g���Ă��Ȃ������̂ł����A�R�[�h�C���T�C�g�������ƕt�������A�R�[�h�e���v���[�g�⃁�\�b�h�̃I�[�o�[���C�h�@�\�Ȃ񂩂����ɕ֗��ł��BCVS,Ant,JUnit�Ȃ񂩂Ƃ̘A�g���o���āA�e��A�v���P�[�V�����T�[�o�̃v���O�C�����o�Ă��܂��B�ŋ߂ł�Struts�����̎x���c�[�����o�Ă�݂����ł��B<BR>
-�l�I�ɂ͂��낻��{�i�I��JBuilder�����芷���悤���ƍl���Ă��܂��B<BR>
-(���R�͖����E���肵�Ă���E�@�\�I�ɂ�����Ă��Ȃ�����)<BR>
-#�������j���[���p��Ȃ̂��c�B<BR>
+<P><CITE>バージョン1.0を試して以来使っていなかったのですが、コードインサイトもちゃんと付いたし、コードテンプレートやメソッドのオーバーライド機能なんかも非常に便利です。CVS,Ant,JUnitなんかとの連携も出来て、各種アプリケーションサーバのプラグインも出ています。最近ではStruts向けの支援ツールも出てるみたいです。<BR>
+個人的にはそろそろ本格的にJBuilderから乗り換えようかと考えています。<BR>
+(理由は無料・安定している・機能的にも劣っていないため)<BR>
+#ただメニューが英語なのが…。<BR>
 <BR>
-����ł͂܂��B<BR>
+それではまた。<BR>
 ----<BR>
-�I�� �C��</CITE></P>
+的場 辰徳</CITE></P>
 <HR>
-<P><FONT color="#ff0000">2002.07.09</FONT> �c�b�R�~<BR>
-<CITE>Subject: [igapyon:01003] Re: Eclipse2.0�����[�X<BR>
-<A HREF="http://www21.u-page.so-net.ne.jp/rd5/teik/NetBeansIDE_jp/" TITLE="���L�ǎ҂�teik����">teik</A> �ł��B<BR>
+<P><FONT color="#ff0000">2002.07.09</FONT> ツッコミ<BR>
+<CITE>Subject: [igapyon:01003] Re: Eclipse2.0リリース<BR>
+<A HREF="http://www21.u-page.so-net.ne.jp/rd5/teik/NetBeansIDE_jp/" TITLE="日記読者のteikさん">teik</A> です。<BR>
 <BR>
-�킽�����_�E�����[�h���Ă݂܂����B<BR>
-NetBeans(Sun) �� Eclipse(IBM) �̋����͗ǂ����ʂ𐶂�ł܂��ˁB�܂��������Ă��܂��񂪁A�͂�����
-IBM �̎��͂₢���ɁB<BR>
+わたしもダウンロードしてみました。<BR>
+NetBeans(Sun) と Eclipse(IBM) の競争は良い結果を生んでますね。まだ動かしていませんが、はたして
+IBM の実力やいかに。<BR>
 <BR>
-����ƁAEclipse ���Ă������O�������[���ł��B<BR>
-������ƉA�̂��銴�������閼�̂ł��ˁB���z(Sun)�̌�(�h��)����������(�D��)���ĈӖ��Ȃ�ł��傤���B<BR>
-... ���ꂶ�Ⴀ�܂�ɈÂ����܂��B�����ƈ���Ă܂��ˁB(^_^;<BR>
+それと、Eclipse っていう名前が興味深いです。<BR>
+ちょっと陰のある感じがする名称ですね。太陽(Sun)の光(栄光)をさえぎる(奪う)って意味なんでしょうか。<BR>
+... これじゃあまりに暗すぎます。きっと違ってますね。(^_^;<BR>
 -----<BR>
 teik</CITE></P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020701.src.html' , result='ig020701.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>���Ԃ̃j���[�X���� <FONT SIZE="-1">(<A HREF="ig020701-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://linux.ascii24.com/linux/news/today/2002/06/29/636886-000.html">���{�^�C���V�F�A�ƃ~���N���E���i�b�N�X���Ɩ���g</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2002/06/29/636886-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>���Ԃ����e�̒�g���\�̂悤�Ɏv���܂����B</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig020701-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://linux.ascii24.com/linux/news/today/2002/06/29/636886-000.html">日本タイムシェアとミラクル・リナックスが業務提携</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2002/06/29/636886-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>しぶい内容の提携発表のように思えました。</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>
