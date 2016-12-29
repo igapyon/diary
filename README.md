@@ -1,6 +1,6 @@
 いがぴょんの日記ウェブページgh
 =============================================
-![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん") [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)による、日記形式でつづる いがぴょんコラム ウェブページです。
+| ![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん") | [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)による、日記形式でつづる いがぴょんコラム ウェブページです。 |
 
 ## いがぴょんの日記ウェブページgh
 
