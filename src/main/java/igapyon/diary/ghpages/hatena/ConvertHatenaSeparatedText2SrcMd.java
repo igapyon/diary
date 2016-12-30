@@ -97,6 +97,7 @@ public class ConvertHatenaSeparatedText2SrcMd {
 			}
 		}
 
+		// ソースコード記述の対応。
 		for (int index = 0; index < lines.size(); index++) {
 			String line = lines.get(index);
 			if (line.trim().equals("||<")) {
@@ -107,6 +108,15 @@ public class ConvertHatenaSeparatedText2SrcMd {
 			}
 			if (line.trim().equals(">|java|")) {
 				lines.set(index, "```java");
+			}
+		}
+
+		// リスト表現
+		for (int index = 0; index < lines.size(); index++) {
+			String line = lines.get(index);
+			if (line.trim().startsWith("-")) {
+				line = StringUtils.replaceFirst(line, "\\-", "* ");
+				lines.set(index, line);
 			}
 		}
 
