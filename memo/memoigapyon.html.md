@@ -3,7 +3,7 @@
 
 ## 資料: いがぴょん について
 
-いがぴょん(伊賀敏樹)とは誰かを紹介するページです
+いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 [src](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.md)
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
