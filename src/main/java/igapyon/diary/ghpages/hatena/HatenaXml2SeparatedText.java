@@ -14,9 +14,9 @@ import igapyon.diary.ghpages.DiaryItemInfo;
 /**
  * 基本的に、移行バッチとして一度のみ実行。
  */
-public class HatenaXml2Md {
+public class HatenaXml2SeparatedText {
 	public static final void main(final String[] args) throws IOException {
-		new HatenaXml2Md().processFile(new File("/tmp/igapyon.xml"), new File("."));
+		new HatenaXml2SeparatedText().processFile(new File("/tmp/igapyon.xml"), new File("."));
 	}
 
 	public void processFile(final File sourceXml, final File targetMdDir) throws IOException {
