@@ -184,7 +184,10 @@ public class ConvertHatenaSeparatedText2SrcMd {
 				line = StringUtils.replaceFirst(line, "\\-", "* ");
 				lines.set(index, line);
 			} else {
-				isPastListing = false;
+				if (isPastListing) {
+					isPastListing = false;
+					lines.add(index++, "");
+				}
 			}
 		}
 
