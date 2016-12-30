@@ -2,7 +2,7 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)  全ての日記のインディックス。
 
-## 日記を全て
+## いがぴょんの日記：日記を全て
 
 {igapyon.diary.ghpages.dialylist}
 

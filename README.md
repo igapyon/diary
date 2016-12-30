@@ -1,8 +1,8 @@
-いがぴょんの日記ウェブページgh
+いがぴょんの日記ウェブページv3
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-## 比較的最近の日記
+## いがぴょんの日記：比較的最近の日記
 
 * [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
 
