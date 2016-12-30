@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -21,6 +22,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import igapyon.diary.ghpages.DiaryItemInfo;
+import igapyon.diary.ghpages.DiaryItemInfoComparator;
 import igapyon.diary.ghpages.tagsoup.SimpleTagSoupUtil;
 
 public class GenerateIndexDiaryHtml {
@@ -45,11 +47,7 @@ public class GenerateIndexDiaryHtml {
 			System.out.println("期待とは違うディレクトリ:" + dir.getName());
 		}
 
-		java.util.Collections.sort(diaryItemInfoList, new java.util.Comparator<DiaryItemInfo>() {
-			public int compare(DiaryItemInfo obj1, DiaryItemInfo obj2) {
-				return obj1.getUri().compareTo(obj2.getUri());
-			}
-		});
+		Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
 		return diaryItemInfoList;
 	}

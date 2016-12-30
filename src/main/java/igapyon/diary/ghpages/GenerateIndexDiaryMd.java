@@ -3,6 +3,7 @@ package igapyon.diary.ghpages;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -22,11 +23,7 @@ public class GenerateIndexDiaryMd {
 			System.out.println("期待とは違うディレクトリ:" + dir.getName());
 		}
 
-		java.util.Collections.sort(diaryItemInfoList, new java.util.Comparator<DiaryItemInfo>() {
-			public int compare(DiaryItemInfo obj1, DiaryItemInfo obj2) {
-				return obj1.getUri().compareTo(obj2.getUri());
-			}
-		});
+		Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
 		return diaryItemInfoList;
 	}
