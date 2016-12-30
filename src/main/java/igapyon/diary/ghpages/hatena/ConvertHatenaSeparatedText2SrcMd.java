@@ -159,19 +159,32 @@ public class ConvertHatenaSeparatedText2SrcMd {
 		}
 
 		// リスト表現
+		boolean isPastListing = false;
 		for (int index = 0; index < lines.size(); index++) {
 			String line = lines.get(index);
 			if (line.trim().startsWith("---")) {
+				if (isPastListing == false) {
+					isPastListing = true;
+					lines.add(index++, "");
+				}
 				line = StringUtils.replaceFirst(line, "\\---", "    * ");
 				lines.set(index, line);
-			}
-			if (line.trim().startsWith("--")) {
+			} else if (line.trim().startsWith("--")) {
+				if (isPastListing == false) {
+					isPastListing = true;
+					lines.add(index++, "");
+				}
 				line = StringUtils.replaceFirst(line, "\\--", "  * ");
 				lines.set(index, line);
-			}
-			if (line.trim().startsWith("-")) {
+			} else if (line.trim().startsWith("-")) {
+				if (isPastListing == false) {
+					isPastListing = true;
+					lines.add(index++, "");
+				}
 				line = StringUtils.replaceFirst(line, "\\-", "* ");
 				lines.set(index, line);
+			} else {
+				isPastListing = false;
 			}
 		}
 
