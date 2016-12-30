@@ -72,7 +72,7 @@ public class GenerateIndexDiaryHtml {
 	}
 
 	void processFile(final File file, final String path) throws IOException {
-		String source = FileUtils.readFileToString(file, "Windows-31J");
+		String source = FileUtils.readFileToString(file, "UTF-8");
 		try {
 			source = SimpleTagSoupUtil.formatHtml(source);
 		} catch (SAXException e1) {
