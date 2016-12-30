@@ -12,7 +12,9 @@ import org.w3c.dom.NodeList;
 import igapyon.diary.ghpages.DiaryItemInfo;
 
 /**
- * 基本的に、移行バッチとして一度のみ実行。
+ * hatenaのエクスポートXMLから、分割されたテキストファイルを生成。
+ * 
+ * 基本的に、移行バッチとして一度のみ実行されることを想定します。
  */
 public class HatenaXml2SeparatedText {
 	public static final void main(final String[] args) throws IOException {
