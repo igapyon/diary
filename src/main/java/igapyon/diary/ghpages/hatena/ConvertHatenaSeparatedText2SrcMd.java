@@ -104,42 +104,56 @@ public class ConvertHatenaSeparatedText2SrcMd {
 				lines.set(index, "```");
 			}
 			if (line.trim().equals(">|xml|")) {
+				lines.add(index++, "");
 				lines.set(index, "```xml");
 			}
 			if (line.trim().equals(">|html|")) {
+				lines.add(index++, "");
 				lines.set(index, "```html");
 			}
 			if (line.trim().equals(">|java|") || line.trim().equals(">|Java|")) {
+				lines.add(index++, "");
 				lines.set(index, "```java");
 			}
 			if (line.trim().equals(">|sh|")) {
+				lines.add(index++, "");
 				lines.set(index, "```sh");
 			}
 			if (line.trim().equals(">|bash|")) {
+				lines.add(index++, "");
 				lines.set(index, "```bash");
 			}
 			if (line.trim().equals(">|php|")) {
+				lines.add(index++, "");
 				lines.set(index, "```php");
 			}
 			if (line.trim().equals(">|python|")) {
+				lines.add(index++, "");
 				lines.set(index, "```python");
 			}
 			if (line.trim().equals(">|pascal|")) {
+				lines.add(index++, "");
 				lines.set(index, "```pascal");
 			}
 			if (line.trim().equals(">|groovy|")) {
+				lines.add(index++, "");
 				lines.set(index, "```groovy");
 			}
 			if (line.trim().equals(">|cpp|")) {
+				lines.add(index++, "");
 				lines.set(index, "```cpp");
 			}
 			if (line.trim().equals(">|sql|")) {
+				lines.add(index++, "");
 				lines.set(index, "```sql");
 			}
 			if (line.trim().equals(">|bat|")) {
+				lines.add(index++, "");
 				lines.set(index, "```bat");
 			}
 			if (line.trim().equals(">||")) {
+				// sh ??? TODO
+				lines.add(index++, "");
 				lines.set(index, "```sh");
 			}
 		}
