@@ -7,7 +7,7 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 
 /**
- * 
+ * .src.md から .md を生成するためのクラス。
  */
 public class ConvertDiarySrcMd2Md {
 	public void process() throws IOException {
@@ -73,6 +73,7 @@ public class ConvertDiarySrcMd2Md {
 		// 本体
 
 		// フッタ追加
+		lines.add("");
 		lines.add("");
 		lines.add(
 				"----------------------------------------------------------------------------------------------------");

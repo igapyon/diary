@@ -10,9 +10,9 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 分割されたはてなテキストからMDファイルを生成。
  */
-public class ConvertHatenaSeparatedText2Md2 {
+public class ConvertHatenaSeparatedText2SrcMd {
 	public static void main(String[] args) throws IOException {
-		new ConvertHatenaSeparatedText2Md2().process();
+		new ConvertHatenaSeparatedText2SrcMd().process();
 	}
 
 	public void process() throws IOException {
