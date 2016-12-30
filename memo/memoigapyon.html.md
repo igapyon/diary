@@ -11,8 +11,6 @@ FB, Twitter, Github, OSDN,
 
 [![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
 
-Image
-
 ↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
 
 
