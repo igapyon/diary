@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011211.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011211.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-11</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/12/08/631907-000.html"/>
+        <rdf:li resource="http://speed.on.arena.ne.jp/"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0112/10/10.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/11/b_1210_10.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/12/08/631907-000.html">
+    <title>Internet Week 2001「リチャードストールマンと話そう」BOFレポート</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/12/08/631907-000.html</link>
+    <description>フリーソフト＆GNU GPLに関する こういう話題 私大好きなんです。次の10年の 重要な要素であると考えています。ライセンスそのものが技術であるとも考えています。興味津々。FSIJという日本団体設立準備中との件は 全く知りませんでした。これも興味深いです (笑)</description>
+    <dc:date>2001-12-11T17:55:20</dc:date>
+  </item>
+
+  <item rdf:about="http://speed.on.arena.ne.jp/">
+    <title>ブロードバンドスピードテスト</title>
+    <link>http://speed.on.arena.ne.jp/</link>
+    <description>私の環境での推定最大スループット＝68kbps(8kB/s)</description>
+    <dc:date>2001-12-11T09:50:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0112/10/10.html">
+    <title>TurbolinuxにジャストJavaオフィスソフトをバンドル販売</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0112/10/10.html</link>
+    <description>ジャストシステムに春が再び訪れるよう祈っています。『新OS』こそが 拡販の最大タイミングですもの。</description>
+    <dc:date>2001-12-11T11:56:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/11/b_1210_10.html">
+    <title>「壊れません」キャンペーン中のOracle，サイト攻撃が10倍に</title>
+    <link>http://www.zdnet.co.jp/news/0112/11/b_1210_10.html</link>
+    <description>マイクロソフトですら自社サーバはUNIXなんですって (笑)</description>
+    <dc:date>2001-12-11T11:56:11</dc:date>
+  </item>
+
+</rdf:RDF>

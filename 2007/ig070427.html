@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/04/27 日記: Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング</TITLE>
+<META name="DESCRIPTION" content="x-windows-iso2022jp を使うと、極めて Outlook風の JISコードを利用することができるようになります。">
+<META name="KEYWORDS" content="x-windows-iso2022jp,拡張,ISO-2022-JP,MS932,JavaMail,文字化け,Outlook,Windows,文字バケ,エンコーディング">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/04/27 日記: Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング</H2>
+    <P>[x-windows-iso2022jp,拡張,ISO-2022-JP,MS932,JavaMail,文字化け,Outlook,Windows,文字バケ,エンコーディング] x-windows-iso2022jp を使うと、極めて Outlook風の JISコードを利用することができるようになります。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaによるソフトウェア開発において、JavaMail APIを使った Outlook風の JISコード (ISO-2022-JP) を利用したメール送信を
+どうしても実現したいという局面があります。</P>
+<UL>
+  <LI>本来は UTF-8を用いて 文字化けのリスクの少ないメール送信方式を選択したい。
+  <LI>しかし古いメールソフトなどでは UTF-8 は対応されていない。(もしかしたら携帯メールも同様にUTF-8は扱うことができない?)
+  <LI>UTF-8に対応していないメールソフトを救うために、やむを得ず 古くから日本国内で使われてきた JISコード (ISO-2022-JP) を利用することを検討する。
+  <LI>しかし 純粋な JISコード (ISO-2022-JP) では 「○1 (まるいち)」 や「ローマ数字」のような文字を扱うことができない。<BR>
+  ※Javaで ISO-2022-JP によってエンコード仕様とすると 「?」という文字に化けてしまう。(文字化け)
+  <LI>Outlook風の JISコード (ISO-2022-JP) を 何とか メール本文やメールSubjectで使いたい。<BR>
+  ※注意: この方式を選択すると、MacやLinuxなどでは表示できない (文字化けしてしまう) メールを送信することになります。
+</UL>
+<P>こういう やむを得ない状況を打開したいという局面にぴったりのエンコーディングが <STRONG>x-windows-iso2022jp</STRONG> として Javaでは提供されています。今日初めて知りました。<BR>
+x-windows-iso2022jp を使うと、極めて Outlook風の JISコードを利用することができるようになります。(細部についての妥当性については未試験)</P>
+<UL>
+  <LI><A href="http://java.sun.com/javase/ja/6/docs/ja/technotes/guides/intl/encoding.doc.html">x-windows-iso2022jp</A><BR>
+  拡張 ISO-2022-JP (MS932 ベース)<BR>
+  ※ ちなみに CP50220&nbsp;と x-windows-iso2022jp とは Javaにおいて挙動が異なりました。(エイリアスではありませんでした)
+</UL>
+<P>また更に便利なことに、x-windows-iso2022jp では 重複符号化領域のコードについても、適切に Outlook風のUnicodeマッピングを行ってくれます。重複符号化領域のコードは
+Oracleにデータを格納して取り出すと、良く問題として顕在化しやすいものとして知られていることのひとつです。</P>
+<P>Javaでは プログラミングのなかで気にせず x-windows-iso2022jp を利用する方法も提供されています。JavaVMの実行オプションに
+「-Dsun.nio.cs.map=x-windows-iso2022jp/ISO-2022-JP」というスイッチを利用すると、JISコード
+(ISO-2022-JP) の挙動を x-windows-iso2022jp に強制的に上書きするという方法が存在するのです。JavaMailにおいて、メールのSubjectを
+実際のエンコーディングとメール電文に乗せるエンコーディングとを変更して調整するメソッドが提供されていないので、このスイッチの存在は とても便利です。</P>
+<UL>
+  <LI><A href="http://bugs.sun.com/bugdatabase/view_bug.do;:WuuT?bug_id=6173388">http://bugs.sun.com/bugdatabase/view_bug.do;:WuuT?bug_id=6173388</A>
+</UL>
+<P>Shift_JIS と MS932 (あるいは Windows-31J)とのマッピング同様の関係が、ISO-2022-JP と x-windows-iso2022jp
+との間にあるのですね。とても勉強になりました。</P>
+<P>ただし、、、妥協の産物であることは しっかりと理解しておく必要があります。</P>
+<UL>
+  <LI>本来あるべき姿としては、JISコード (ISO-2022-JP) の場合には メール本文やSubjectに 「○1 (まるいち)」 や「ローマ数字」のような文字を扱わせないように誘導すべきなのでしょう。あるいは
+世のメールソフトが UTF-8 を適切に扱うことができるようになれば良いのでしょうけれどもね…。
+  <LI>MacやLinuxなどで文字化けすることを覚悟のうえ 利用する技術となります。
+  <LI>「x-」といえば、「x-sjis」という過去の苦い経験を連想します。「x-」 ではなく IANAに登録されているエンコーディングを利用すべきなのです。<BR>
+  しかし 「x-windows-iso2022jp」こそが Outlook風 ISO-2022-JP を実現する手段なので、悩ましいところです。
+</UL>
+<P><FONT color="#ff00ff">関連リソース</FONT></P>
+<UL>
+  <LI><A HREF="http://www.yks.ne.jp/~tsurucha/ChangeLog/2007-04.html#2007-04-18-1">http://www.yks.ne.jp/~tsurucha/ChangeLog/2007-04.html#2007-04-18-1</A><BR>
+  今回の x-windows-iso2022jp の件を調査する過程で、このページの記載内容が とても参考になりました。ありがとうございます。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070904.html">2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</A>
+  <LI><A href="ig070905.html">2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Flex 2 調査中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事で Flash / Flex 2 を扱う必要性が ほんのりと あがってきたので、ごくごく簡単に Flex 2 を調査しはじめました。</P>
+<UL>
+  <LI>無償版含むFlex 2登場、「アドビに1円も払わず本格的Webアプリを開発」<BR>
+  <A HREF="http://www.atmarkit.co.jp/news/200606/30/adobe.html">http://www.atmarkit.co.jp/news/200606/30/adobe.html</A>
+</UL>
+<P>Flex 2 SDK などが無償で提供されていることを、今日 初めて知りました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

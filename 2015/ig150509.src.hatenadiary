@@ -1,0 +1,34 @@
+2015-05-09 [Delphi] Delphi で印刷
+
+*p1*[Delphi] Delphi で印刷
+Delphi で印刷するために、幾つか方法があります。(VCLにおける話題)
+
+**プリミティブ（低水準API）
+TPrinter をもちいて印刷処理を記述することができます。
+
+**帳票ツール
+業務帳票などを作成する場合には、大抵はサードパーティ製の帳票ツールを利用します。製品に無料版がバンドルされていたなどの経緯などから、[https://www.agtech.co.jp/products/fastreportvcl/:title=FastReports] や [http://www.quickreport.co.uk/:title=QuickReport] などが有名なものとして知られています。
+
+***過去に製品に同梱されていたツール
+製品に同梱されている／されていたのは、以下のようなツールです。
+-Delphi XE3 から XE8: FastReports
+-Delphi XE2：FastReports および RaveReports
+-Delphi 2009 から XE：RaveReports
+-Delphi 7、2007：RaveReports および QuickReport
+
+**スマホ・タブレットにおける印刷
+2015/05時点では、一般的に、スマホ・タブレットからプリンターに印刷を実施するケースは稀です。
+一方で、たとえば業務システムなどの場合には、中間サーバーで PDF や画像ファイルを作成して、これをスマホ・タブレットで表示したり、あるいは中間サーバーからプリンターに直接出力するようなケースもあります。
+iOS の場合には [[AirPrint]] が印刷方式として有力かもしれません。しかし、これは Windows でみられるような印刷とは およそ異なるものです。基本的に画像ファイルを作成することが必要になるでしょう。
+
+**関連する情報
+-[http://d.hatena.ne.jp/igapyon/20150525:title=帳票ツールの移行]
+
+**一覧に戻る
+-[http://d.hatena.ne.jp/igapyon/20150511:title=Delphi 概要 (2015/05)]
+
+**コンテンツ・メタ情報
+-キーワード: [[Delphi]], [[RAD Studio]], XE8, 印刷, [http://twitter.com/hashtag/Embt:title=#Embt], [http://twitter.com/hashtag/Delphi:title=#Delphi], [http://twitter.com/hashtag/RADStudio:title=#RADStudio], [http://twitter.com/ToshikiIga:title=@ToshikiIga]
+-更新情報
+--2015/05/12 新規公開
+

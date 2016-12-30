@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/01/13 日記: シンプルなスレッドローカルを利用したサンプル</TITLE>
+<META name="DESCRIPTION" content="java.lang.ThreadLocalを利用した簡単なサンプルが欲しかったので簡単に自作しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,スレッドローカル,java.lang.ThreadLocal">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/01/13 日記: シンプルなスレッドローカルを利用したサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,スレッドローカル,java.lang.ThreadLocal] java.lang.ThreadLocalを利用した簡単なサンプルが欲しかったので簡単に自作しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルなスレッドローカルを利用したサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>java.lang.ThreadLocalを利用した簡単なサンプルが欲しかったので簡単に自作しました。</P>
+<P>java.sql.Connectionの格納・取り出しなどに応用できるかと思っています。</P>
+<P>懸念事項ですが、synchronizedを利用しているため、多重度の高い環境でスループットが維持できるのかどうかが懸念事項です。しかし synchronized無しで (アトミックに) 動作するのかについて、いまいち理解／解読できていません。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">DateInstanceThreadLocal.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * すごく単純な、Dateインスタンスをスレッドローカルに記憶しておくためのサンプルプログラム。
+ * Copyright (C) 2007 いがぴょん
+ */
+import java.util.Date;
+
+/**
+ * Dateインスタンスをスレッドローカルに記憶するためのクラス
+ * 
+ * このクラスはJDK 1.4をターゲットとしているので ThreadLocalのremoveは利用していません。
+ * 
+ * @author IGA Tosiki
+ */
+public class DateInstanceThreadLocal {
+    /**
+     * インスタンスを記憶しておくために利用するスレッドローカル。
+     * 
+     * ※static変数である点に注意。
+     */
+    private static final ThreadLocal fThreadLocal = new ThreadLocal();
+
+    /**
+     * スレッドローカルにオブジェクトをセットします。
+     * 
+     * そのスレッドにおいて一通りの処理が終わった際には、このメソッドを 引数 null で呼び出してください。
+     * 
+     * @param argDate
+     *            記憶させたい日付インスタンス。利用を終えた場合にはnullをセットして呼び出してください。
+     */
+    public static final void setDate(final Date argDate) {
+        synchronized (fThreadLocal) {
+            fThreadLocal.set(argDate);
+        }
+    }
+
+    /**
+     * スレッドローカルからコネクションを取得します。
+     * 
+     * @return
+     */
+    public static final Date getDate() {
+        synchronized (fThreadLocal) {
+            if (fThreadLocal.get() == null) {
+                // オブジェクトは結び付けられていません。nullを戻します。
+                return null;
+            }
+
+            if (fThreadLocal.get() instanceof Date == false) {
+                throw new IllegalArgumentException(&quot;想定外の状況が発生。対応しないクラス[&quot;
+                        + fThreadLocal.get().getClass().toString()
+                        + &quot;]のインスタンス[&quot; + fThreadLocal.get().toString()
+                        + &quot;]が格納されています。&quot;);
+            }
+
+            return (Date) fThreadLocal.get();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

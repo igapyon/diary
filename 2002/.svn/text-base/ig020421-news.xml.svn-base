@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020421.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020421.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/18/b_0417_11.html">
+    <title>国際規格「ebXML」にIBMが特許主張</title>
+    <link>http://www.zdnet.co.jp/news/0204/18/b_0417_11.html</link>
+    <description>国際規格に特許が含まれていて、それを金銭徴収で利用されると困りますね。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/20/b_0419_01.html">
+    <title>IBM，ebXMLの特許料を徴収せず</title>
+    <link>http://www.zdnet.co.jp/news/0204/20/b_0419_01.html</link>
+    <description>特許料徴収せずの方向で決着してくれそうなのですが、そもそもゴタゴタ感があると後味悪いですね。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/18/cccd_riaj.html">
+    <title>レコ協，コピーコントロールCD普及に向け環境作り</title>
+    <link>http://www.zdnet.co.jp/news/0204/18/cccd_riaj.html</link>
+    <description>パソコンでコピーできなくても良いですが、パソコンでCD再生できないと それは大変困ります。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/19/04.html">
+    <title>NTT，固定電話への投資を原則停止　PHSは「データ通信に特化」</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/19/04.html</link>
+    <description>PHS系技術愛好家の私としては、PHSをあきらめる方針は嫌だなあ。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/19/02.html">
+    <title>運賃後払いサービス「スルッとKANSAI」，日立／JCBと業務提携</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/19/02.html</link>
+    <description>東京圏の『すいかカード』が好きなので、関西でもICカード導入は大変興味深々。定期券を落としてしまいがちな方々には朗報です。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/19/07.html">
+    <title>「ワン切り」業者が初の逮捕</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/19/07.html</link>
+    <description>何にせよ ワン切りや迷惑メールなどが撲滅されれば良いです。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/04/21/grri84000000bptq.html">
+    <title>３社に１社 ネット私用防止策</title>
+    <link>http://www.nhk.or.jp/news/2002/04/21/grri84000000bptq.html</link>
+    <description>はい。そうです。あなたのネット閲覧やメール送受信は、傍受されているのです。</description>
+    <dc:date>2002-04-21T19:59:28</dc:date>
+  </item>
+
+</rdf:RDF>

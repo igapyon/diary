@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/11/17 日記: O-Rマッピング調査に着手 , Sun Java System Application
+Server 8 (J2EE) 無償リリース化</TITLE>
+<META name="DESCRIPTION" content="渋谷でメシを食うすてきな店がさっぱりわかりませんでした。 , Apache Torque調査開始">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Torque調査開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>O-Rマッピングを調べてみようと言う事で、東京の[replace-link:ymoto]さんに <A href="http://db.apache.org/torque/">Apache Torque</A>と<A href="http://www.asahi-net.or.jp/~dp8t-asm/java/tools/Relaxer/index_ja.html">Relaxer</A>を調査してもらっています。日記OFFでソースコード自動生成が話題に挙がっていたので、その話題に落ち着き、飲み会的には
+Relaxerで落ち着いていたのですけれども 好みというか勢い Apache DB Projectの一つである
+Torqueも押さえておきたいという思いです。（トルクと発音するらしい…）<BR>
+ちなみに TorqueはTurbineフレームワークの一部なのだそうな。</P>
+<P>で [replace-link:ymoto]さんによると 「とりあえずドキュメントが少ない」 のだそうです。１つ前のバージョンである3.0だと
+いくつかドキュメントがあるのだそうな。ハツモノでドキュメント無しだと お約束の 『ソースコードがドキュメント』状態では ちとキツイということで、まあ
+3.0で妥協します (苦笑)<BR>
+それはともかく O-Rマッピングなのか R-Oマッピング(そんな用語は実は存在しません) なのか、ということで ゴールは間違いなく同じなのですが、途中経過として、やっぱりデータベース指向が強いものの方が
+私は使い勝手が良いと思っていますので、それもあり Torqueをねらっています。その意図は [replace-link:ymoto]さんにも少しずつ理解してもらい出せたかなっていう模様です。</P>
+<P>もし Torqueがイケていたら、来年流行らすアイテムの一つにしようと思います。流行らせるといえば、2003年は
+SWTとFOAFが流行らせることが抱負でした。SWTは Eclipseが流行ったおかげで自動的に流行った感があります。FOAFも
+一応流行ったかしらん。私が流行らせたのかどうかはさておき、まあ 流行るものを予見した
+という意味では 一応成功かしらん。</P>
+<P><FONT color="#ff0000">2003.11.18</FONT> Apache Torqueは ライブラリがりがり依存なソースファイルが生成されるので幻滅。Relaxerは 私のイメージ (というか私が以前作成したO-Rソースファイル自動生成のソースファイル)にかなり近いということが判明。O-Rマッピングという単語でくくられるとはいえ、実際に生成されるソースファイルはその哲学は千差万別であるということを痛感しました。<BR>
+…それにしても 今のところ Relaxerが生成するソースファイルに insertやdeleteはあるのに
+なぜか updateが見当たりません。なんでだろう～ (?)</P>
+<P>しかしまあ 今まで O-Rマッピングって 無視しまくっていましたが、よもや私のニーズにきわめて近いシロモノだったとわ…。一説には
+EJBに幻滅したJavaエンジニアがO-Rマッピングになだれこんだ、そういう話もあるのだそうな。#
+真偽は不明 :-P</P>
+<P><FONT color="#ff0000">2005.02.14 追記</FONT> 結局 [replace-link:blancoDB]というR-Oマッピングによるアプローチに落ち着きました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>講習会前準備</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は講習会の前準備作業に従事する予定です。終了したら芝公園の事務所に戻ります。<BR>
+<FONT color="#ff0000">22:37</FONT> 結局 21時まで現地にいました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>曜日感覚混乱</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 東京に来たので、(普段は月曜日に東京に移動しているので) 曜日感覚が混乱しています。さて
+ジャンプ、ジャンプ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>渋谷でメシ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>駒場東大前で仕事だったので、メシは渋谷で食べようと思っていました。… ところが
+渋谷で どんな食べ物屋があるのか さっぱりわかりませんでした。立ち食い蕎麦屋のような店で食べました。ふ～む、何か
+お気に入り食事店を探さねば…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>結城浩さんがとてもお忙しいご様子</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:結城浩]さんが とってもお忙しいご様子。日記に Keep Aliveが張り付いていました。、、、そんな私も実は忙しいのですけれどもねっ。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031117-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+2012-09-29 [Ubuntu] clamav というウイルス対策ソフト
+
+*p1*[Ubuntu] clamav というウイルス対策ソフト
+ざっくりとした動作方法は以下のとおり。
+>|bash|
+sudo apt-get clamav
+sudo clamscan -r -i --bell /home
+||<
+freshclam は Ubuntu が常駐投入してくれるようです。
+

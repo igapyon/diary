@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/11 日記: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作</TITLE>
+<META name="DESCRIPTION" content="Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 の組み合わせで、Apacheのバグがらみもあり、かなり苦しめられました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/11 日記: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 の組み合わせで、Apacheのバグがらみもあり、かなり苦しめられました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 の組み合わせで、Apacheのバグがらみもあり、かなり苦しめられました。</P>
+<P><FONT color="#ff00ff">インストールしたもの</FONT></P>
+<UL>
+  <LI>apache_2.2.6-win32-x86-no_ssl.msi
+  <LI>apacheds-server-1.5.1-setup.exe<BR>
+  + (default directory instance)
+</UL>
+<P><FONT color="#ff00ff">Apache HTTP Server 側の設定</FONT></P>
+<P>こちらは、ApacheDSのデフォルト値と接続するための とてもノーマルな設定。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">httpd.conf (前半)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>LoadModule ldap_module modules/mod_ldap.so
+LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">httpd.conf (中盤)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>    Order allow,deny
+    Allow from all
+
+    AuthType          Basic
+    AuthName          &quot;LDAP Server&quot;
+    AuthBasicProvider ldap
+    AuthLDAPURL       ldap://localhost:10389/ou=Users,dc=example,dc=com?uid
+
+    AuthLDAPBindDN    uid=admin,ou=system
+    AuthLDAPBindPassword secret
+    require           valid-user</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">ApacheDSの変更</FONT><BR>
+※Apache HTTP Serverのバグを ApacheDS側で吸収</P>
+<P>Apache HTTP Server の mod_ldap.so, mod_authnz_ldap.so いずれかのモジュールに不具合があります。これは有名な既知バグである模様です。</P>
+<P>今 C言語に取り組んでいる気力と時間が無いので、ApacheDSにパッチを適用して無理矢理動作させました。</P>
+<P>パッチ適用後のロードモジュールは以下のようになります。<BR>
+※jarファイルにソースコードも含めてあります</P>
+<UL>
+  <LI>ApacheDS 1.5.1 無理矢理パッチ<BR>
+  <A HREF="http://www.igapyon.jp/blanco/bin/shared-ldap-0.9.7.jar">http://www.igapyon.jp/blanco/bin/shared-ldap-0.9.7.jar</A>
+  <UL>
+    <LI>このモジュールを維持メンテする予定は全くありません。<BR>
+    →そもそも Apache HTTP Server の mod_ldap.so, mod_authnz_ldap.so を修正すべきだからです。
+    <LI>このパッチを適用するには あらかじめ「Apache Directory Server - default」サービスを停止してから上書きコピーする必要があります。<BR>
+    ?:\Program Files\Apache Directory Server\lib の同名モジュールを上書きします。
+  </UL>
+</UL>
+<P>変更箇所は下記のようになります。</P>
+<P>対象: org.apache.directory.shared.ldap.codec.LdapMessageGrammar</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">LdapMessageGrammar.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>package org.apache.directory.shared.ldap.codec;
+         …中略…
+                    // The current TLV should be a integer
+                    // We get it and store it in sizeLimit
+                    Value value = tlv.getValue();
+                    int sizeLimit = 0;
+
+                    try
+                    {
+                        sizeLimit = IntegerDecoder.parse( value, 0, Integer.MAX_VALUE );
+                    }
+                    catch ( IntegerDecoderException ide )
+                    {
+<B>                        sizeLimit = 100;
+                        log.error( &quot;The sizeLimit is not a valid Integer: {}&quot;, value.toString() );
+                        //throw new DecoderException( &quot;The sizeLimit is not a valid Integer: &quot; + value.toString() );</B>
+                    }</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※sizeLimitが不正な値であっても、無視して 100ということにして強行突破させる変更です。</BLOCKQUOTE>
+<P>これを気合いでコンパイル (Maven環境を構築する暇が無かったので、直接手でコンパイル！)</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">コマンドライン</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>Path=C:\Program Files\Java\jdk1.6.0_03\bin;%Path%
+
+javac -classpath shared-asn1-codec-0.9.7.jar;slf4j-api-1.4.3.jar;shared-ldap-constants-0.9.7.jar;shared-ldap-0.9.7.jar;shared-asn1-0.9.7.jar org\apache\directory\shared\ldap\codec\*.java
+
+shared-ldap-0.9.7.jar の該当パッケージをコンパイル後の classファイルで上書き。</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>Javaって とっても簡単ですね。</P>
+<P><FONT color="#ff00ff">Apache + LDAP (ApacheDS) 接続確認に利用したユーザ</FONT></P>
+<UL>
+  <LI>アインシュタイン先生 (ApacheDS附属のサンプルユーザ)
+  <UL>
+    <LI>ユーザ: aeinstein
+    <LI>パスワード: secret
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">関係あると考えているリソース</FONT></P>
+<UL>
+  <LI><A href="http://blog.tsukuba-bunko.jp/ppoi/archives/2007/11/win32_apache_ht.html">つくば日記 (仮): Win32版 Apache HTTP Server 2.2.x で LDAP 認証できない</A><BR>
+  「ApacheDS の方のログを見ると，LDAPメッセージのパーズに失敗してるんでエラーなんじゃーって出ている。発生しているエラーは &quot;sizeLimit
+  が真っ当な整数じゃないよ&quot; という内容。」との記載があります。私が遭遇しているのと まさに同じ現象です。
+  <LI><A href="http://issues.apache.org/bugzilla/show_bug.cgi?id=43577">http://issues.apache.org/bugzilla/show_bug.cgi?id=43577</A>
+  <LI>この問題の発端は、sizeLimitとして -1 を飛ばすような実装になっている点なのだそうです。別のWebページにて、-1 ではなく 0 を与えるのが
+  LDAP的に正しい仕様なのだとの記載がありました。これは、Apacheのログ上で ldap_search_ext_s() が失敗するということによって気がつきます。(文字化けがありますので解読が面倒なのですけれども…)
+</UL>
+<P><FONT color="#ff00ff">ツッコミ</FONT></P>
+<UL>
+  <LI><A HREF="http://tidus.ultimania.org/diary/?date=20080116#p01">http://tidus.ultimania.org/diary/?date=20080116#p01</A><BR>
+  (引用) Apacheとくみあわせるなら、OpenDSの方が簡単だと思います ...
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>。OpenDSですね。今度調べてみます。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig080115.html">2008/01/15 日記: Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ</A><BR>
+  こちらのパッチを適用すれば、ここで行っているような ApacheDSへのパッチなんてものは不要になります。
+  <LI><A href="ig080110.html">2008/01/10 日記: Shibuya.trac ミーティング1.0 (2008.01.19＠豊洲) , 「第四期 中将棋全国大会・名人戦」に参戦</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) のログが…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache HTTP Server 2.2.6 (Windows)のログですが、日本語が含まれる際に文字化けしているように見えます。<BR>
+気のせいかどうか、時間がないので調べていません。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">DecodeMojibake.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class DecodeMojibake {
+    public static void main(String[] args) {
+        {
+            final byte[] wrk = new byte[] { (byte) 0x8c, (byte) 0xa0,
+                    (byte) 0x8c, (byte) 0xc0, (byte) 0x82, (byte) 0xaa,
+                    (byte) 0x95, 's', (byte) 0x8f, '\\', (byte) 0x95,
+                    (byte) 0xaa, (byte) 0x82, (byte) 0xc5, (byte) 0x82,
+                    (byte) 0xb7 };
+            System.out.println(new String(wrk));
+        }
+
+        {
+            final byte[] wrk = new byte[] { (byte) 0x82, (byte) 0xbb,
+                    (byte) 0x82, (byte) 0xcc, (byte) 0x82, (byte) 0xe6,
+                    (byte) 0x82, (byte) 0xa4, (byte) 0x82, (byte) 0xc8,
+                    (byte) 0x83, 'I', (byte) 0x83, 'u', (byte) 0x83, 'W',
+                    (byte) 0x83, 'F', (byte) 0x83, 'N', (byte) 0x83, 'g',
+                    (byte) 0x82, (byte) 0xcd, (byte) 0x82, (byte) 0xa0,
+                    (byte) 0x82, (byte) 0xe8, (byte) 0x82, (byte) 0xdc,
+                    (byte) 0x82, (byte) 0xb9, (byte) 0x82, (byte) 0xf1 };
+            System.out.println(new String(wrk));
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>権限が不十分です<BR>
+      そのようなオブジェクトはありません</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※それっぽい日本語に復元されたのを見て、びっくりして、また少し嬉しかったです。</BLOCKQUOTE>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

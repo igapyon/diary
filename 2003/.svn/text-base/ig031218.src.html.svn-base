@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/12/18 日記: lprやWindows直接印刷など、印刷系を少し調べる</TITLE>
+<META name="DESCRIPTION" content="Jakarta Tomcat 5.0.x 初体験 , アルファシステムズの菅村さん">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アルファシステムズ菅村さんという方と仕事しています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在 <A href="http://www.alpha.co.jp/">アルファシステムズ</A>の菅村さんという方と一緒に仕事をしています。すてきな技術力を持たれた方です。今日
+忘年会で話していて 菅村さんは 『ある開発者の日記』時代からのコアないがぴょんの日記読者であることが判明しました。C言語時代からの(5年程度もの)ハードコア読者ですね。菅村さん、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>印刷系の調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょびっと印刷系を調査しました。</P>
+<UL>
+  <LI>Line Printer Daemon Protocol (LPR)<BR>
+  [replace-href:http://www.allied-telesis.co.jp/support/list/switch/8724xl8748xl/rfc/rfc1179.txt]
+  <LI>いがぴょんが 昔 LPRを扱っていたころ<BR>
+  [replace-href:http://www.nttd-bb.com/solution/igapyon1/ig000303.html]
+</UL>
+<P>ちょこっとJavaで印刷プログラミングしたく思いました。なんか、懐かしいなぁ、、、</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows C言語で印刷</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>それとは別に C言語での印刷プログラミングネタを探しました。</P>
+<UL>
+  <LI>猫でもわかるプログラミング : 第79章 印刷 プリンタの設定<BR>
+  [replace-href:http://www.kumei.ne.jp/c_lang/sdk/sdk_79.htm]<BR>
+  Win32APIのEnumPrinters()をキーにたどり着く。つぎは StartDoc() StartPage() あたりですが… 
+  <LI>RICOH: 指定したジョブの印刷状態を得る方法<BR>
+  [replace-href:http://www.ricoh.co.jp/tohoku/barcode/printer/driver/ntdocs/support/getjob.html]<BR>
+  これもとても参考になる。
+</UL>
+<P>印刷したジョブのキュー状態確認方法は 以前書いた事があり、良く知っているのですが、そうではなくって、と あるバイナリーデータを直接 Windowsの印刷スプールにつっこむ方法がわからず、また 見つかりませんでした。GDIを経由しないで直接印刷するというルートに関する方法です。</P>
+<UL>
+  <LI><STRONG>どなたか、GDIを経由しないで プリンタへ直接印刷する方法を ご存じ有りませんか？</STRONG>
+</UL>
+<P>このページを見よ、とかで大歓迎です。<BR>
+個人的妄想としては、hDCは実は 単にファイルへのハンドラーで、ここに そのまんまFileWriteする、とかだったら
+とってもうれしいのですが…</P>
+<P><FONT color="#ff0000">2003.12.19</FONT> 読者のKuramochiさんからのツッコミ</P>
+<UL>
+  <LI>[replace-href:http://www.cisnet.or.jp/home/tsuneoka/win32tech/22.html]
+</UL>
+<P>これが参考になるかと思います。<BR>
+私も以前、バーコードプリンターに制御コードを送るのに苦労しました。<BR>
+<BR>
+// Kuramochi<BR>
+<BR>
+以上</P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+早速のツッコミ、凄くうれしいです。大変感謝します。<BR>
+すばらしいです。</P>
+<P>早速メモ書き</P>
+<OL>
+  <LI>標準プリンタの設定(?)
+  <LI>OpenPrinter
+  <LI>StartDocPrinter
+  <LI>StartPagePrinter
+  <LI>PRN_INIT<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>WritePrinter
+  <LI>STDPRN_FLUSH<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>PRN_EXIT<BR>
+  標準プリンタ出力ゆえに必要か？
+  <LI>EndPagePrinter
+  <LI>EndDocPrinter
+  <LI>ClosePrinter
+</OL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Win32サブルーチンズ という書籍</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>この印刷サンプルが載っていたのは、Win32サブルーチンズという書籍でした。</P>
+<UL>
+  <LI>[replace-href:http://www.cisnet.or.jp/home/tsuneoka/index.html]
+</UL>
+<P>これはすごい本です。絶版なんて とっても惜しいです！<BR>
+今増刷したとしても 喜ぶ人は沢山いると思うのですが… ねぇ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 5.0.x系 初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Jakarta Tomcat 5.0.16 EXE版を試してみました。インストーラーがさくさく動作します。<BR>
+で、、、とりあえず まず最初に 管理コンソールの出来栄えの良さに驚かされました。素晴らしい…<BR>
+う～ん。うなってしまいました。 これは便利だなぁ。Tomcat 5.0、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>あおのさんのツッコミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あおの さんのツッコミ<BR>
+(O) が追加されてうれしいです。</P>
+<P>ここから[replace-link:いがぴょん]<BR>
+あおのさんのツッコミとっても嬉しいです。だって これはそもそも、あおの さんの仕様による
+あおのさんのための新機能なのですもの！<BR>
+そして 実は 私自身 (O)の機能を結構使い込んでいます。別ウインドウオープンって
+便利だったんですね…。びっくりです。あおのさん達に指摘いただいた仕様を
+とても便利に使わせて頂いております！</P>
+<P><FONT color="#ff0000">2004.01.01</FONT> 自分用メモ<BR>
+次に実装すべき機能として、前の日記、次の日記 への移動を想定した (前へ)
+(次へ) が欲しい。当然RSSと連動して動作するようなもの。… ヒマが無いので当分実装は無理っぽいか…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenCms</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社の先輩に頼まれて、OpenCms [replace-href:http://www.opencms.org/] というWebサイトコンテンツ管理システムを模索。う～ん。とりあえずライセンスが
+良くわかりません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>朝風呂</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>寮で朝風呂が流行っている事が判明。夜より朝の方が風呂が混んでいます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>サンダーバードセット</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社のパソコンは 小さい筐体のデスクトップパソコンです。これは 緊急発進の際の運びやすさを主眼に考えています。当然
+購入時の箱を大事に保管しています。<BR>
+このサンダーバード２号の格納庫のようなデスクトップパソコン箱に、新たに電源タップとLANケーブルを加えたいと
+強く思いました。あと クロスケーブルもオプションで付いていると完璧です。(緊急発進の事ばかり考えているなぁ…
+でも実際 役立っています)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>洗濯かご</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>りんもん さんのツッコミ<BR>
+洗濯物かごはダイソーにも売っていると思いますが。。。(^^ゞ</P>
+<P>ここから[replace-link:いがぴょん]<BR>
+ご指摘ありがとうございます。100円ショップを最大限活用したく思います。(ただし
+ここんところ午前様が多く 100円ショップは閉まっていたりします…)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031218-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030827.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030827.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://pcweb.mycom.co.jp/news/2003/08/25/09.html">
+    <title>【レポート】PCが最高級オーディオと肩を並べて高音質再生を行った! - デノンPCM-S1(1)</title>
+    <link>http://pcweb.mycom.co.jp/news/2003/08/25/09.html</link>
+    <description>マニアックなPCでマニアックな再生方法を行い、マニア的に満足する音をPCで出す という興味深い記事。</description>
+    <dc:date>2003-08-27T17:58:35</dc:date>
+  </item>
+  <item rdf:about="http://www.h2.dion.ne.jp/~cyd/news/hyou.html">
+    <title>携帯電話：メール110番表&lt;全国版&gt;</title>
+    <link>http://www.h2.dion.ne.jp/~cyd/news/hyou.html</link>
+    <description>メールによる110番通報を実現するアドレス一覧。聴覚や言語に障碍のある方のために提供しているのだそうです。</description>
+    <dc:date>2003-08-27T17:58:35</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030826/1/">
+    <title>危険なクレジット・カード伝票，なぜ国内では対策されないのか</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030826/1/</link>
+    <description>今の世の中、クレジット・カード無しでは 生活しにくいですよね。でも私はクレジットカードを持っていません (苦笑) だって怖いのですもの。</description>
+    <dc:date>2003-08-27T17:58:35</dc:date>
+  </item>
+
+</rdf:RDF>

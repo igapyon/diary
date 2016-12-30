@@ -1,0 +1,339 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/07/02 日記: FizzBuzz 問題 - ノーマル版</TITLE>
+<META name="DESCRIPTION" content="｢Fizz-Buzz問題｣というものの存在を知り、ちょっと試してみました。">
+<META name="KEYWORDS" content="FizzBuzz,Java,問題,problem,normal">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/07/02 日記: FizzBuzz 問題 - ノーマル版</H2>
+    <P>[FizzBuzz,Java,問題,problem,normal] ｢Fizz-Buzz問題｣というものの存在を知り、ちょっと試してみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz 問題 - ノーマル版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.07.05執筆</FONT></P>
+<P>｢Fizz-Buzz問題｣というものの存在を知り、少し興味を感じました。</P>
+<UL>
+  <LI><A HREF="http://www.aoky.net/articles/jeff_atwood/why_cant_programmers_program.htm">http://www.aoky.net/articles/jeff_atwood/why_cant_programmers_program.htm</A>
+  <LI><A HREF="http://d.hatena.ne.jp/keyword/FizzBuzz">http://d.hatena.ne.jp/keyword/FizzBuzz</A>
+</UL>
+<P>ちょっと試しに Javaで作ってみました。なお、今回つくってみたのは「<STRONG>ノーマル版</STRONG>」です。しかも作成途中で 一旦作業を止めてしまいます。(続きは <A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A> に書きます)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>回答を作成する過程</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>普通の業務アプリケーションを Javaで作成する場合において、まず最初に JavaDoc から記載していく、というプログラミングの進め方が一般的です。<STRONG>プロ</STRONG>の業務アプリケーションプログラマは、JavaDocに 最初から仕様をなるべく<STRONG>正しく</STRONG>書いておくように心がけるものです。</P>
+<P>ああ、JavaDoc記述だけで 2分が過ぎてしまうような気がします。</P>
+<HR>
+<P>JavaDocの記載が終わったら、次に 仕様を少しずつ実装していきます。ここでは「1から100までの数をプリントする。」という仕様のみを まず実装してみました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzNormal01.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzNormal01 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                // FIXME:まず「1から100までの数をプリントする。」のみを実装しました。それ以外の処理は実装されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        System.out.println(number);
+                }
+        }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<STRONG>※注意:</STRONG> このソースコードは、まだ仕様を実装している途中の状態です。</BLOCKQUOTE>
+<HR>
+<P>次に、それ以外の 残りの仕様も実装していきましょう。<BR>
+なお、業務システムにおいては、仕様を なるべく忠実に <STRONG>そのまま</STRONG> ソースコードへと展開するように心がける という点が重要です。(15などという数値は導出しないのが基本です)</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzNormal02.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzNormal02 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                // TODO:「仕様通り」に実装しました。
+                // TODO:マジックナンバーは追放されていません。
+                // TODO:共通化が実施されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 3の倍数であるかどうか。
+                        boolean isMultipleOf3 = false;
+                        // 5の倍数であるかどうか。
+                        boolean isMultipleOf5 = false;
+
+                        if (number % 3 == 0) {
+                                isMultipleOf3 = true;
+                        }
+                        if (number % 5 == 0) {
+                                isMultipleOf5 = true;
+                        }
+
+                        if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                                // 3と5両方の倍数の場合には｢FizzBuzz｣とプリントする。
+                                System.out.println(&quot;FizzBuzz&quot;);
+                        } else if (isMultipleOf3) {
+                                // 3の倍数のときは数の代わりに｢Fizz｣とプリントする。
+                                System.out.println(&quot;Fizz&quot;);
+                        } else if (isMultipleOf5) {
+                                // 5の倍数のときは｢Buzz｣とプリントする。
+                                System.out.println(&quot;Buzz&quot;);
+                        } else {
+                                // 数をプリントする。
+                                System.out.println(number);
+                        }
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<P>倍数の判定部分が <STRONG>さすがに冗長</STRONG>に見えます。<BR>
+そのため、ここは変数の初期値としてセットするように変更します。この変更により実効行数を 6行ほど減らすことが出来ました。このような改善は 業務プログラミングにおいても普通に実施されます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzNormal03.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzNormal03 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                // TODO:倍数判定部分は、少しだけ短く書くこともできます。
+                // TODO:マジックナンバーは追放されていません。
+                // TODO:共通化が実施されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 3の倍数であるかどうか。
+                        final boolean isMultipleOf3 = (number % 3 == 0);
+                        // 5の倍数であるかどうか。
+                        final boolean isMultipleOf5 = (number % 5 == 0);
+
+                        if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                                // 3と5両方の倍数の場合には｢FizzBuzz｣とプリントする。
+                                System.out.println(&quot;FizzBuzz&quot;);
+                        } else if (isMultipleOf3) {
+                                // 3の倍数のときは数の代わりに｢Fizz｣とプリントする。
+                                System.out.println(&quot;Fizz&quot;);
+                        } else if (isMultipleOf5) {
+                                // 5の倍数のときは｢Buzz｣とプリントする。
+                                System.out.println(&quot;Buzz&quot;);
+                        } else {
+                                // 数をプリントする。
+                                System.out.println(number);
+                        }
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<P>いちおう、この時点で基本的な仕様は満たしています。しかし、自己ソースコードレビューをしていると、プリントする という仕様と 倍数の組み合わせ判定
+という仕様が 漫然と混在してしまっている点に気になってきます。<BR>
+これは シンプルさに欠けるように見えます。ほんの少しだけ共通化を進めてみます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzNormal04.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzNormal04 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                // TODO:一部共通化を実施しました。
+                // TODO:マジックナンバーは追放されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 3の倍数であるかどうか。
+                        final boolean isMultipleOf3 = (number % 3 == 0);
+                        // 5の倍数であるかどうか。
+                        final boolean isMultipleOf5 = (number % 5 == 0);
+
+                        final StringBuffer bufMsg = new StringBuffer();
+                        if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                                // 3と5両方の倍数の場合には｢FizzBuzz｣とセットする。
+                                bufMsg.append(&quot;FizzBuzz&quot;);
+                        } else if (isMultipleOf3) {
+                                // 3の倍数のときは数の代わりに｢Fizz｣とセットする。
+                                bufMsg.append(&quot;Fizz&quot;);
+                        } else if (isMultipleOf5) {
+                                // 5の倍数のときは｢Buzz｣とセットする。
+                                bufMsg.append(&quot;Buzz&quot;);
+                        } else {
+                                // 数をセットする。
+                                bufMsg.append(number);
+                        }
+
+                        // 生成された文字列をプリントする。
+                        System.out.println(bufMsg.toString());
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ああ、なんとなく プロのレビューに耐えうる (可能性がある) プログラムのようになってきました。でも、まだ 本当のプロの Javaプログラマーにとっては
+気になるであろうところが多数見受けられます。つまり、この時点で これらソースコードは「作成途上の状態」と見なすことが出来ます。続きは <A href="ig070703.html">FizzBuzz 問題 - リファクタリング版</A> に書いていきます。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070703.html">2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</A>
+  <LI><A href="ig070704.html">2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</A>
+  <LI><A href="ig070705.html">2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</A>
+  <LI><A href="ig070706.html">2007/07/06 日記: FizzBuzz 問題 - switch分岐版</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BizzFuzz は TYPOです</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.07.11追記</FONT> 思わず BizzFuzz と入力してしまいそうになりました。でも、これは TYPO です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

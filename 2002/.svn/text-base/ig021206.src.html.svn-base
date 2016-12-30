@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/06 日記: C++用Java似ストリーム群を実装しました</TITLE>
+<META name="DESCRIPTION" content="仕事でJava似ストリーム群をC++で実装しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C++用Java似ストリーム群を実装しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C++用Java似ストリーム群を実装しました。これでC++の仕事が来ても もう 安心です。new BufferedInputStream(new FileInputStream(&quot;aaa.txt&quot;)) のように <STRONG>すらすら</STRONG>とC++でコーディングできます (笑)<BR>
+C++は ほとんど忘れきっていました。(ほぼ忘れたい過去のような扱いです) が
+なんとか作成できました。アタマでは忘れているつもりでも 『手が』勝手に記憶しているようです。自分でも感心してしまいました。<BR>
+ポイントですが、JavaコードをC++で実現する際には、virtualキーワードが重要なのですね。思い知りました。基本的に
+継承するメソッドは そこいら中にvirtualを付けまくりました (ってことは やっぱり
+C++は忘れきっていますね…) どこまでがANSI C なのか、そして どこからが Microsoft独自仕様なのかは
+よくわかっていません。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021206-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

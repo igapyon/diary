@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020305.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020305.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://sources.redhat.com/cygwin/">
+    <title>Cygwin</title>
+    <link>http://sources.redhat.com/cygwin/</link>
+    <description>Windows用のUNIX環境。Windowsで動作するdiffを得るために、久しぶりにアクセスしました。(diffは必要ですものっ) cygwin1.dllというUNIX APIエミュレーションの提供＆UNIXツール群の提供をしてくれます。最近は 非Install Shieldベースなインストーラで提供されています。これには少しとまどいました。Download from Internet モードでダウンロードしました。</description>
+    <dc:date>2002-03-05T09:22:07</dc:date>
+  </item>
+  <item rdf:about="http://gcc.gnu.org/releases.html">
+    <title>GCC Releases</title>
+    <link>http://gcc.gnu.org/releases.html</link>
+    <description>Cygwinのページを探す際に GCJに興味をもちました。リンクをたどると、GCCのページに到着。このページには LinuxやGNUツールの根幹を担う フリーコンパイラー GCCの歴史が載っています。『0.9 (first beta release) March 22, 1987』のトコロが感無量だなぁ。15年もの歴史があってこそのGCCなんですよねぇ。</description>
+    <dc:date>2002-03-05T09:22:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/04/e_netserver.html">
+    <title>Windows .NET Serverの出荷延期――アナリストは評価</title>
+    <link>http://www.zdnet.co.jp/news/0203/04/e_netserver.html</link>
+    <description>『Windows XP SP1 が第3四半期に予定されている』のクダリが気になります。もっと早めにリリースして欲しいのですが…。Windows .NET Serverがどれだけ遅れようがどうでも良いから、まず XP SP1 を出して欲しいです。</description>
+    <dc:date>2002-03-05T12:04:34</dc:date>
+  </item>
+
+</rdf:RDF>

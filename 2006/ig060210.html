@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/02/10 日記: Javaのメモリ管理など</TITLE>
+<META name="DESCRIPTION" content="会社の事業部長と Javaのメモリ管理などの話題にて盛り上がりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/02/10 日記: Javaのメモリ管理など</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 会社の事業部長と Javaのメモリ管理などの話題にて盛り上がりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaのメモリ管理</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社の事業部長と、Javaにまつわる各種の話題で盛り上がりました。特にメモリ管理の話題にて非常に盛り上がりました。</P>
+<UL>
+  <LI>Java言語のプログラムはどのように動作するのか？<BR>
+  クラスローダーに関する話題。
+  <LI>Java言語のオブジェクト指向は 具体的にはどのように実装されているのか？<BR>
+  バイトコードがインタプリタにて動的解決しながら動作することの話題。
+  <LI>Java言語では、メモリ境界に関するバグは起こしうるのか？<BR>
+  C言語などでおなじみの、ポインタをきっかけとしたメモリ境界の突破に関する話題。
+</UL>
+<P>そういえば、この手のネタが 効率よく摂取できる書籍はあるのだろうかしら、と ふと考えました。</P>
+<P>はてさて、現在のJava言語のテクノロジーのほとんどは、前世紀の汎用機で実現されていたものです。私は今でも 汎用機がオープンシステムにおける目標ポイントであると考えています。事業部長と話をするたびに、現在のオープンシステムにおいてまだ不足している様々な側面について明らかになり、とても勉強になります。</P>
+<P>Java言語を見てみると、特にプログラム・モジュールの動的リンク(と見なすことが出来る)挙動については良くできています。これは、前世紀の汎用機では普通だった概念・機能です。Java言語は幸運なことに初期の頃から実装できています。でも一方で、前世紀の汎用機では普通だった機能のいくつかについてはいろいろな理由にて、まだ実現できていません。それが昔の汎用機を知ることにより明らかになるのです。ちなみに、次期バージョンのJavaにて
+それら未実装の汎用機では普通の機能が実現される予定と聞き及びます。これは嬉しいことです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

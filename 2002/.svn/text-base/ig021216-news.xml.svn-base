@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021216.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021216.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/13/ne00_1213frye.html">
+    <title>オープンソースの未来 -「Linux恐怖症」完治への処方箋-</title>
+    <link>http://www.zdnet.co.jp/news/0212/13/ne00_1213frye.html</link>
+    <description>IBMのLinux屋元締めさん。IBMのLinux戦略を知る上で 大変興味深い記事。IBM版Linuxディストリビューションを考えていない、というのは ちょっと残念です。</description>
+    <dc:date>2002-12-16T10:28:13</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0212/13/epn14.html">
+    <title>オープンソースの.NET開発ツールが具体化</title>
+    <link>http://www.zdnet.co.jp/enterprise/0212/13/epn14.html</link>
+    <description>MonoのASP.NETサーバリリースに関する記事。</description>
+    <dc:date>2002-12-16T10:28:13</dc:date>
+  </item>
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/opensource/021213/j_os-swing.html">
+    <title>Swingベース開発ツールのEclipseへの組み込み -SwingエディターをEclipse Platformに統合する方法-</title>
+    <link>http://www-6.ibm.com/jp/developerworks/opensource/021213/j_os-swing.html</link>
+    <description>私としては SWTエディタをEclipseに統合が 待たれています :-P</description>
+    <dc:date>2002-12-16T10:28:13</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/222077">
+    <title>NEC、ケータイ向けにLinux採用を明らかに</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/222077</link>
+    <description>現在はμITRONベースなのをLinuxベースにしたい方向なんですって。</description>
+    <dc:date>2002-12-16T10:28:13</dc:date>
+  </item>
+
+</rdf:RDF>

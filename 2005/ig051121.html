@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/11/21 日記: blancoReport次期版の仕様 , ITアーキテクトという用語</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org 2.0リリースを契機に blanco Frameworkの帳票関連APIセットである blancoReport次期版に着手します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/11/21 日記: blancoReport次期版の仕様 , ITアーキテクトという用語</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] OpenOffice.org 2.0リリースを契機に blanco Frameworkの帳票関連APIセットである blancoReport次期版に着手します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoReport次期版の仕様</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの<A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A>について、<A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A>
+2.0リリースを契機に <A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A>次期版にとりかかります。次期版では既存の blancoReport実装を
+ほとんど廃棄します。</P>
+<P>blancoReport第一版の致命的な問題点であった「性能」について、blancoReport次期版では仕様のところからテコ入れをして抜本的に改善します。初期版では設計上・構造上
+やむをえない性能面の問題がありました。次期版では性能面に関する抜本的な解決策をとります。その性能向上のカギは <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0以降で採用されているドキュメントフォーマット。XMLの世界では有名なOASISという標準化団体によって標準化作業がおこなわれています。">OpenDocument</A>の積極採用です。OpenOffice.org
+2.0から導入されている<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0以降で採用されているドキュメントフォーマット。XMLの世界では有名なOASISという標準化団体によって標準化作業がおこなわれています。">OpenDocument</A>フォーマットのファイルを単純なファイル入出力によって操作することで、飛躍的な速度向上が可能になります。そしてこれは本来あるべきファイル入出力の速度への速度向上です。<BR>
+UNO APIを用いてプロセス通信をセル単位で 何度もおこなうような設計を採用っている限り、blancoReportでは速度に関する問題は解決不可能と判断しました。この抜本的な方針転換を選択したために、blancoReportの機能そのものはダウングレードします。つまり
+いままで提供されていた Excelブックで帳票設計にまつわる諸機能は一旦廃棄されます。</P>
+<P>すでに実装が完了している OpenOffice.org 2.0対応済みの 次期版 <A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A>の仕様は下記です。</P>
+<UL>
+  <LI>ドキュメント形式変換機能
+  <UL>
+    <LI>Xls→Calc変換
+    <LI>Xls→Pdf変換
+    <LI>Calc→Xls変換
+    <LI>Calc→Pdf変換
+  </UL>
+  <LI>OpenOffice.orgプロセス起動・プロセス終了
+  <LI>OpenDocument編集機能 (具体的にはZIPファイル編集機能)
+</UL>
+<P>この低水準APIがblancoReportの基本的なベースラインとなります。当面は、この低水準APIの妥当性検証などに終始する予定です。</P>
+<P>帳票入出力関連の具体的な応用部分については、低水準API以外に必要なAPIセットが洗い出されてから検討をおこなう予定です。しかし 帳票関連処理については用途ごとに異なるものでもあるので、現時点では
+それら具体的な応用系APIの実装は当分行われない可能性が高いと考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig051120.html">2005/11/20 日記: OpenOffice.org 2.0で UNOインタフェースを用いたファイル入出力</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ITアーキテクトという用語</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私がふだん従事している仕事を表現する用語って何だろうと記憶をたどったら、ITアーキテクトという用語を思い出しました。</P>
+<UL>
+  <LI>＠IT：ITアーキテクトを探して<BR>
+  <A HREF="http://www.atmarkit.co.jp/farc/rensai/lookingfor01/lookingfor01.html">http://www.atmarkit.co.jp/farc/rensai/lookingfor01/lookingfor01.html</A>
+</UL>
+<P>あとでじっくり この資料を読みなおしてみます。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

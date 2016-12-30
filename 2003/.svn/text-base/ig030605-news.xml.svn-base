@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030605.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030605.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054932,00.htm">
+    <title>「SCOに過剰反応は禁物」、Linuxの導入に影響は少ない</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054932,00.htm</link>
+    <description>記事では SCOの末路に哀れみさへ感じるようなことが書かれています。SCOって企業が無くなると とりあえず UnixWareを使っている人は困るのでしょうね。随分昔 UnixWareを見て、素朴に『いいなあ』って感じた記憶がかすかに残っています。合掌。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1264.47674.54933">
+    <title>半導体市場の牽引役はPCから携帯電話に移行中</title>
+    <link>http://japan.cnet.com/svc/rss?id=1264.47674.54933</link>
+    <description>もはや、パソコンの時代は終わったのか？ 随分昔から 『パソコンなんていう形態は いずれ終わりを告げ、もっと家電的なものに置き換わるだろう』と予言する人がいらっしゃいましたが、遅ればせながら ようやっと それが実際の出来事として発生しだしているのでしょうか。興味深いです。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20054892,00.htm">
+    <title>IT業界よ、目を覚ませ (Jon Oltsik)</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20054892,00.htm</link>
+    <description>とても良い記事。『IT業界の現実なんて こんなもんさ』的に ほっぺたを平手でピシャリと叩いています。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://opensource.jp/sco/sco-vs-ibm.html">
+    <title>SCOとIBMの訴訟に関するOSIのポジション・ペーパー</title>
+    <link>http://opensource.jp/sco/sco-vs-ibm.html</link>
+    <description>UNIXとは何なのか？UNIXの歴史は？ という面でも非常に面白い。読ませる文章です。さすがEric Raymondさんが主に書いているだけのことはあります。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/04/njbt_03.html">
+    <title>SCOに対する反論文書の日本語訳を公開　オープンソースグループ・ジャパン</title>
+    <link>http://www.zdnet.co.jp/news/0306/04/njbt_03.html</link>
+    <description>正しい事実・正しい歴史を知ることは大切ですね。改めて考えさせられます。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20054979,00.htm">
+    <title>米インテルなど、通信業界にモジュール方式を提唱</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20054979,00.htm</link>
+    <description>モジュール化して規格化してコストダウンしようとする方向性そのものは大歓迎です。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/column/andoh/andoh19.html">
+    <title>安藤幸央のランダウン[19] 話題のSWTは本当に速いの？</title>
+    <link>http://www.atmarkit.co.jp/fjava/column/andoh/andoh19.html</link>
+    <description>安藤さんがSWTについて説明されていらっしゃいます。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030527/1/">
+    <title>Linuxでも .NETがここまで動く</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030527/1/</link>
+    <description>Monoプロジェクトの紹介なども含まれていました。Monoって ASP.NET互換まで実現していたのですね。びっくりです。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/survey/survey0306/java0303.html">
+    <title>第8回 読者調査結果 - Eclipseが加速する、Java開発オープンソース化の実態とは？ -</title>
+    <link>http://www.atmarkit.co.jp/fjava/survey/survey0306/java0303.html</link>
+    <description>Eclipse人気がダントツぶっちぎりなんだそうです。『野火のように広がるEclipseユーザー』とのタイトルは 現実をうまく表現しています。それにしても、みんな結構 先物好みですなぁ。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/special/vs2003/vs2003_01.html">
+    <title>より洗練されたVisual Studio .NET 2003の新機能を探る</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/special/vs2003/vs2003_01.html</link>
+    <description>Visual Studio .NET 2003の導入を検討している私には、とても興味深い内容でした。</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+
+</rdf:RDF>

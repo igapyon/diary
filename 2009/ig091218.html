@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/12/18 日記: Java: JavaServer Faces (JSF) を利用したリッチな Web 業務システム開発</TITLE>
+<meta name="DESCRIPTION" content="とある Web 業務システム (100 人月程度) を JavaServer Faces (JSF) を利用して開発しています。">
+<meta name="KEYWORDS" content="igapyon,JSP,JSF,Ajax,ノンプログラミング,blanco Framework,YUI">
+<meta name="GENERATOR" content="igapyon diary generator">
+<meta name="DATE" content="2010-09-27T20:42:50+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/12/18 日記: Java: JavaServer Faces (JSF) を利用したリッチな Web 業務システム開発</H2>
+    <P>[igapyon,JSP,JSF,Ajax,ノンプログラミング,blanco Framework,YUI] とある Web 業務システム (100 人月程度) を JavaServer Faces (JSF) を利用して開発しています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Java: JavaServer Faces (JSF) を利用したリッチな Web 業務システム開発</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>とある Web 業務システム (100 人月程度) を JavaServer Faces (JSF) を利用して開発しています。</p>
+<p>サーバーは、<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> ベースです。</p>
+<ul>
+  <li>JSF 処理: <A HREF="http://www.igapyon.jp/blanco/blancojsf.html" TITLE="blancoJsf を使うと、JSF処理定義書を入力して、対応するJavaソースコードおよび XML ファイルを自動生成することができます。">blancoJsf</A>
+  <li>PDF 帳票作成: <A HREF="http://www.igapyon.jp/blanco/blancopdf.html" TITLE="PDF ファイルを簡単に生成するための Java ライブラリです。">blancoPdf</A>
+  <li>バッチ処理: <A HREF="http://www.igapyon.jp/blanco/blancobatchprocess.html" TITLE="「バッチ処理定義書」という Excelブックから、バッチ処理のためのソースコードを自動生成します。">blancoBatchProcess</A>
+  <li>DB 入出力: <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>
+  <li>CSV ファイル入出力: <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>
+  <li>バリューオブジェクト生成: <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>
+  <li>メッセージ管理: <A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>
+  <li>ログ・メッセージ管理: <A HREF="http://www.igapyon.jp/blanco/blancologmessage.html" TITLE="「ログ・メッセージ定義書」という Excelブックから、ロギングをおこなうためのソースコードを自動生成します。">blancoLogMessage</A>
+  <li>文字列グループ管理: <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>
+  <li>これ以外の blanco Framework プロダクトについて、必要に応じて利用。
+</ul>
+<p><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のおかげで、かなり多くの割合のソースコード自動生成を実現できています。</p>
+<p>表示層は JSF + αです。GlassFish の JSP + JSF をベースに以下のものを組み合わせます。</p>
+<ul>
+  <li><a href="http://myfaces.apache.org/tomahawk/">Apache MyFaces Tomahawk</a>
+  <ul>
+    <li>繰り返し項目
+    <li>ページング機能
+  </ul>
+  <li><a href="http://www.primefaces.org/">PrimeFaces</a>
+  <ul>
+    <li>Ajax による自動補完 (Google サジェストのような機能)
+    <li>ダイアログ: 
+  </ul>
+</ul>
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ajax: PrimeFaces (YUI Library ベース)</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>ここで登場する <a href="http://www.primefaces.org/">PrimeFaces</a> ですが、画期的に便利です。K堀さんが発見しました。K堀さんに感謝です。<a href="http://developer.yahoo.com/yui/">YUI Library (Yahoo UI)</a> を、なんと、ほぼノンプログラミングで JSP / JSF へと組み込むことができます。JSF タグをちょびっと書くだけで、あんな便利な機能の数々が
+JSP に組み込めるのですもの。JavaScript レスで <a href="http://developer.yahoo.com/yui/">YUI Library</a> が利用できるのは非常にありがたいです。</p>
+<p>振り返って考えてみると、この開発において Apache Struts ではなく JSF を採用していた、というのが大きな差を生んでいることがわかります。こんな便利なツールが、Struts
+ベース開発において利用できないのは残念です。Ajax 開発には、どうやら Struts ではなく JSF が向いているように思えてきています。</p>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

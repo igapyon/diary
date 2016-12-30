@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/10/29 日記: blancoSqlFormatter 更新作業中</TITLE>
+<META name="DESCRIPTION" content="a-sanの変更を反映し、blancoSqlFormatterを更新中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/10/29 日記: blancoSqlFormatter 更新作業中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] a-sanの変更を反映し、blancoSqlFormatterを更新中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoSqlFormatter 更新作業中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>の変更を反映し、<A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A> を更新中です。<BR>
+CVSには反映済みです。これから、ちょっとずつ試験消化 (JUnit作成や blancoSqlEditorPluginへの組み込み) などを進めていきたいです。</P>
+<P>バージョンの安定版・開発版の対応付けを 下記のようにします。</P>
+<UL>
+  <LI>2007.10.02 (0.0.4) 当面の安定版とします。
+  <LI>2007.10.28 (0.1.0) 開発版の位置づけとします。
+</UL>
+<P>2007.10.28 (0.1.0) 開発版 での強化項目は、</P>
+<UL>
+  <LI>BlancoSqlFormatter<BR>
+  関数の時には改行しないようにする。<BR>
+  between 式 and 式の場合、従来はandの前で改行していたが、改行しないようにする。
+  <LI>BlancoSqlRule<BR>
+  関数名を事前に登録するようにする。<BR>
+  また、キーワードを大文字/小文字にするか何もしないかを設定できるようにする。
+  <UL>
+    <LI><A HREF="http://d.hatena.ne.jp/a-san/20071021#p1">http://d.hatena.ne.jp/a-san/20071021#p1</A>
+    <LI><A HREF="http://d.hatena.ne.jp/a-san/20071022#p1">http://d.hatena.ne.jp/a-san/20071022#p1</A>
+    <LI><A HREF="http://d.hatena.ne.jp/a-san/20071024#p1">http://d.hatena.ne.jp/a-san/20071024#p1</A>
+  </UL>
+</UL>
+<P>試験消化といえば <A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A>の試験消化が 滞っています。割り込み作業が多かったためでしょう…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールボックスの受信フォルダの内容を誤って全て削除してしまいました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は 仕事用のメールボックスを複数個持っています。そのうちの1つについて、メールボックスの受信フォルダの内容を誤って<STRONG>全て削除</STRONG>してしまいました。<BR>
+今日、某事務所の引越作業のメールクライアントセットアップの過程で、誤って全削除してしまいました。そのようなことで、10/24(水)から10/29(月)の夕方までの間に
+そちらのメールアドレス宛に受信したメールについては、私は読むことができません。(それ以前のメールについても、処理していないタスクがあったと思いますが、そちらについても返信することができません)<BR>
+私は、結構ショックでした。また、みなさん、大変すみません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

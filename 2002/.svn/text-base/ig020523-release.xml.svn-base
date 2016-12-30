@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020523.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020523.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://wwws.sun.com/software/java2/download.html">
+    <title>SUN Java2 Platform, Standard Edition Sun Community Source Licensing</title>
+    <link>http://wwws.sun.com/software/java2/download.html</link>
+    <description>SUN Java2 SDK 1.4.0 のソースコードが公開開始。早速ダウンロード開始。</description>
+    <dc:date>2002-05-23T09:34:57</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/java-media/jai/">
+    <title>SUN Java Advanced Imaging API (JAI) 1.1.1_01 リリース</title>
+    <link>http://java.sun.com/products/java-media/jai/</link>
+    <description>Javaでイメージを扱うためのAPIであるJAIが地道なリビジョンアップをリリースしました。</description>
+    <dc:date>2002-05-23T09:48:13</dc:date>
+  </item>
+
+</rdf:RDF>

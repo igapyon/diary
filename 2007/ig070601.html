@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/06/01 日記: Java: ISO/IEC 646 範囲をファイルに出力するサンプル</TITLE>
+<META name="DESCRIPTION" content="某文字化け記事のために基礎情報を作成中…。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/06/01 日記: Java: ISO/IEC 646 範囲をファイルに出力するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 某文字化け記事のために基礎情報を作成中…。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ISO/IEC 646 範囲をファイルに出力するサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ISO/IEC 646 範囲をファイルに出力するサンプルを書きました。</P>
+<P>まずはユーティリティを作成しました。内容がら、この手のダンプユーティリティが必要になります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HexStringUtil.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * 16進表記文字列のためのユーティリティ。
+ * 
+ * byte を 文字列化するための各種ユーティリティが含まれます。
+ * 
+ * @version 2007.06.01
+ * @author 伊賀敏樹
+ */
+public final class HexStringUtil {
+    /**
+     * 与えられたバイト配列を16進表記の文字列に変換します。
+     * 
+     * 2バイト目以降には、前のバイトとの区切りのために半角空白を付与します。
+     * 
+     * 変換例。入力:[愛植岡]のShift_JIS化バイト配列 → 出力:[88 a4 90 41 89 aa]
+     * 
+     * @param argBytes
+     *            バイト配列。
+     * @return 16進表記の文字列。
+     */
+    public static String bytesToHexString(final byte[] argBytes) {
+        final StringBuffer buffer = new StringBuffer();
+        for (int byteIndex = 0; byteIndex &lt; argBytes.length; byteIndex++) {
+            if (byteIndex != 0) {
+                // 2バイト目以降には半角空白を区切り文字として付与。
+                buffer.append(' ');
+            }
+
+            buffer.append(byteToHexString(argBytes[byteIndex]));
+        }
+        return buffer.toString();
+    }
+
+    /**
+     * 与えられたバイトを16進表記の文字列に変換します。
+     * 
+     * 必ず2文字が戻ります。
+     * 
+     * @param argByte
+     *            バイト値。
+     * @return 16進表記の文字列。
+     */
+    public static String byteToHexString(final byte argByte) {
+        int wrkValue = argByte;
+        if (wrkValue &lt; 0) {
+            // 負の値の場合には正の値に変換します。
+            wrkValue += 0x100;
+        }
+
+        String result = Integer.toHexString(wrkValue);
+        if (result.length() &lt; 2) {
+            // 1文字の場合には 0 の文字を加えて 2文字になるようにします。
+            result = &quot;0&quot; + result;
+        }
+        return result;
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>こちらが本体。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ListIso646.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+/**
+ * ISO/IEC 646 範囲をファイルに出力するサンプル。
+ * 
+ * @version 2007.06.02
+ * @author 伊賀敏樹
+ */
+public class ListIso646 {
+    public static void main(final String[] args) {
+        try {
+            new ListIso646().process();
+        } catch (IOException ex) {
+            System.out.println(&quot;入出力例外[&quot; + ex.toString() + &quot;]が発生しました。&quot;);
+            ex.printStackTrace();
+        }
+    }
+
+    public void process() throws IOException {
+        OutputStream outStream = null;
+        try {
+            outStream = new BufferedOutputStream(new FileOutputStream(
+                    &quot;ListIso646.txt&quot;));
+
+            outStream.write(&quot;●ISO/IEC 646 範囲。0x20から0x7eまで。&quot;.getBytes());
+
+            // Windowsと仮定して改行コードを出力。
+            outStream.write(0x0d);
+            outStream.write(0x0a);
+
+            for (int codeLoop = 0x20; codeLoop &lt;= 0x7e; codeLoop++) {
+                // 数値を直接ストリームに出力。
+                outStream.write(codeLoop);
+
+                // 文字コードの値を読める形で出力。
+                outStream.write((&quot;: &quot; + HexStringUtil
+                        .byteToHexString((byte) codeLoop))
+                        .getBytes(&quot;Shift_JIS&quot;));
+
+                // Windowsと仮定して改行コードを出力。
+                outStream.write(0x0d);
+                outStream.write(0x0a);
+            }
+        } finally {
+            if (outStream != null) {
+                outStream.flush();
+                outStream.close();
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>実行結果</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>●ISO/IEC 646 範囲。0x20から0x7eまで。
+ : 20
+!: 21
+&quot;: 22
+#: 23
+$: 24
+%: 25
+&amp;: 26
+': 27
+(: 28
+): 29
+*: 2a
++: 2b
+,: 2c
+-: 2d
+.: 2e
+/: 2f
+0: 30
+1: 31
+2: 32
+3: 33
+4: 34
+5: 35
+6: 36
+7: 37
+8: 38
+9: 39
+:: 3a
+;: 3b
+&lt;: 3c
+=: 3d
+&gt;: 3e
+?: 3f
+@: 40
+A: 41
+B: 42
+C: 43
+D: 44
+E: 45
+F: 46
+G: 47
+H: 48
+I: 49
+J: 4a
+K: 4b
+L: 4c
+M: 4d
+N: 4e
+O: 4f
+P: 50
+Q: 51
+R: 52
+S: 53
+T: 54
+U: 55
+V: 56
+W: 57
+X: 58
+Y: 59
+Z: 5a
+[: 5b
+\: 5c
+]: 5d
+^: 5e
+_: 5f
+`: 60
+a: 61
+b: 62
+c: 63
+d: 64
+e: 65
+f: 66
+g: 67
+h: 68
+i: 69
+j: 6a
+k: 6b
+l: 6c
+m: 6d
+n: 6e
+o: 6f
+p: 70
+q: 71
+r: 72
+s: 73
+t: 74
+u: 75
+v: 76
+w: 77
+x: 78
+y: 79
+z: 7a
+{: 7b
+|: 7c
+}: 7d
+~: 7e</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>＠IT記事執筆 → 大幅遅れ中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>本を探して、それを読んで、を繰り返し中。<BR>
+文字化け記事、難易度高いです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

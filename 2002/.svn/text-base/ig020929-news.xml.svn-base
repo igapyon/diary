@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020929.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020929.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/208558">
+    <title>サーバー導入企業のLinux使用率は64.3％--調査</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/208558</link>
+    <description>1年前は35.5％だったのに これが64.3％までに急増しているとのこと。サーバ市場でLinuxが成長していくのは 当然の出来事ではありますが、実際に数字に表れてくると感無量です。</description>
+    <dc:date>2002-09-29T21:58:30</dc:date>
+  </item>
+
+</rdf:RDF>

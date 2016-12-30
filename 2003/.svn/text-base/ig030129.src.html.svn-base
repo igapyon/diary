@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/01/29 日記: Windows Media Player 9 日本語版リリース</TITLE>
+<META name="DESCRIPTION" content="Media Player 9 リリースを機に、RealOne Playerも併用するようにし始めました。場合によりRealOne Playerの方が音が好みである場合があったのです…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linuxって 米国ではそこそこ認知されはじめつつあるようですね</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Microsoftを抑えることが可能な 数少ない可能性の一つとして Linuxが認知され始めつつあるようです。日本では
+それほどは認知されていないと私は思っていますので、この日米温度差が不思議に感じられるのです。(もちろん私自身はLinuxに強い興味と関心を持っています
+:-P</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日で 仕事が ほんの少し一段落する…予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日で 仕事が忙しいのが ほんの少しだけれど一段落するような気がしています。なんか
+ここんところヒドかったですもの。でも、一段落したらしたで 例えば 4月以降の仕事を探さなければならないのが頭痛の種です…。また営業に回らなくてはなりませんね。<BR>
+そんなこんなで 書き物の方は 担当の方に迷惑をかけてしまい 大変申し訳ないです。すみませんでした。今
+ようやく時間が作れても間に合わないですものね</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日は梅田に出張</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は梅田に出張です。すぐに終わる、と予想しているのですが… (苦笑)<BR>
+→結構すんなり終了しました。良かった 良かった。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft Media Player 9 日本語版 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>かねてよりリリース予定告知されていた Microsoft Media Player 9 日本語版がリリースされました。<BR>
+<FONT color="#ff0000">08:30頃</FONT> Microsoftのサイトに行ったら まだ Media Player 9 日本語版は載っていませんでした。1/29ダウンロード開始ではなかったのだろうか?
+それとも SQL Server 2000 ウィルス騒動で、それどころでは無いのでしょうか?
+などと不思議に思いました。</P>
+<UL>
+  <LI>[replace-href:http://www.microsoft.com/japan/windows/windowsmedia/9series/default.asp]
+  <LI>[replace-href:http://www.microsoft.com/japan/windows/windowsmedia/download/default.asp]
+</UL>
+<P><FONT color="#ff0000">17:30</FONT> ダウンロード可能になっていました。早速ダウンロード！<BR>
+Windows XP用とWindows 2000用とが別モジュールで提供というのが ちょっと不思議な気がしました。で
+Media Player 9 は 以前のバージョンと音の処理の結果が異なっているような気がしてきました。そうすると
+RealOne Player (旧RealPlayer) も併せて試さないと不平等です！</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>RealOne Player (無料) ダウンロード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ということで <A href="http://www.real.com/realone/index.html?lang=jp&loc=jp&src=jphome">RealOne Player (無料)</A> も併せて検証しました。最新版をダウンロードして試してみると、、、聞き比べしてみると ずいぶん 音質というか 音の処理の結果が異なるんだなぁって 不思議な気持ちがしました。私 そういうデジタル音質処理って 不案内ですものね。そうやってどんどん考えていくと そもそもサウンドボードで最近の気合いの入ったモノって どの会社のどの製品なんだろうって、これまた興味津々。デフォルトでは <A href="http://japan.creative.com/">クリエイティブ</A> SoundBlaster Audigy系統に傾倒してしまいがちです (苦笑)</P>
+<P>で、その後 よくよく Media Player 9 と RealOne Playerとで聞き比べしていたら、RealOne
+Playerの方が 例えるなら より『昔のレコードの音』に近い音が得られるように考えられます。RealOne
+Playerの方が 倍音などが多いです。反面 Media Player 9 は 『CD』って感じの
+冷たく 倍音の少ない音です。(いずれもデフォルト設定での音の聴き映えを見ています)
+また RealOne Playerの方が ダイナミックス (音の大小) のレンジが大きいです。<BR>
+むろん Media Player 9 には いろいろオプション設定があるので、いろいろいじると
+また異なってくるのでしょう。感慨深いです。私としては 単に 『本当の演奏の音』が聴きたいだけなのですが、それって
+基本的に困難なのですよね。データソースダイレクト入力が理想、、、とはいえ
+その方向性だけでは パソコン上では 『本当の演奏の音』は聞けないのやも知れません。(私は
+オーディオ機器マニア係数が限りなくゼロに近いので この手の比較を私が行ってもそもそも無意味なのですが…)</P>
+<P>いろいろ不思議に思って、RealOne PlayerとMedia Playerのデフォルト値を見てみたら、両方ともCD＝デジタル再生でした。そうなんだって驚きです。これをアナログ再生に切り替えると
+Media Playerの音質に近づきます。なるほど！ CDをデジタル再生するかアナログ再生するかって
+こんなに違うんですね。<BR>
+私は パソコンでの再生で 再生ソフトが音質に影響を与えるなんて、、はじめて、認識しました。そんなことがあったんですねぇ。で
+CDによっては RealOne Playerの方が音質が好みの結果が出る場合もあるし、また違うCDによっては
+Media Playerの方が好みの音質が得られる場合があります。(この場合 好みというのは
+生演奏に近い音質 という意味合いです) そもそもレコーディングというかマスタリングの際に
+どのような設計思想でCDが作成されているかによっても結果が異なるのでしょう。驚きです。<BR>
+クラシック音楽用設定などが 世間の雑誌で 沢山取りあげられたら いろいろ勉強になりそうです。Media
+Player 9 はいろいろな設定が可能で面白そうですね。</P>
+<P>ってことが、はじめてわかって すっごくショックでした。</P>
+<P><FONT color="#ff0000">01/30</FONT> Deutsche Grammophon レーベルのCDとは RealOne Playerの方が Media Playerよりも相性が良いように思えいます。考えすぎかなぁ…</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030129-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

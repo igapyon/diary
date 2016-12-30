@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020823.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020823.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/08/20/638012-000.html">
+    <title>SRA、米TurbolinuxのLinux関連事業を取得 － ターボリナックス ジャパンも傘下に</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/08/20/638012-000.html</link>
+    <description>経緯や背景などが詳しく載っていました。United Linux に注力するというあたりのクダリが 大変興味深いです。</description>
+    <dc:date>2002-08-23T09:21:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/22/njbt_11.html">
+    <title>ボーランド、LinuxでC++によるビジュアル開発が可能な「Kylix 3日本語版」を発表</title>
+    <link>http://www.zdnet.co.jp/news/0208/22/njbt_11.html</link>
+    <description>これって大事な製品のリリースであるように思えます。Linux上でビジュアル開発ができて、しかも注意してプログラムすればWindowsと互換性があるという…。Delphiに加えてC++サポート追加がインパクトありそうです。</description>
+    <dc:date>2002-08-23T10:57:39</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/22/njbt_09.html">
+    <title>アイザック、ファイル共有ASPサービス「DeltaSpace」を開始</title>
+    <link>http://www.zdnet.co.jp/news/0208/22/njbt_09.html</link>
+    <description>ほかならぬアイザックさんが手がけるサービスなので 思わずメモ。</description>
+    <dc:date>2002-08-23T09:21:16</dc:date>
+  </item>
+
+</rdf:RDF>

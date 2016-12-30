@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/18 日記: HTTPサーバの自作</TITLE>
+<META name="DESCRIPTION" content="リクエストヘッダが見たかったので超シンプル&サンプルなhttpd(Webサーバ)を自作しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,http,sample,java">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/06/18 日記: HTTPサーバの自作</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,http,sample,java] リクエストヘッダが見たかったので超シンプル&サンプルなhttpd(Webサーバ)を自作しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日はひたすら執筆する予定です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さあて がんばるぞ～。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>上司がおたふく風邪にかかってしまいました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>上司は 当分 会社に来られないことになる予定。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>読み上げソフト欲しい…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>単純に読み上げソフトが欲しい。IBM ViaVoice for Windows Pro USB Version9
+日本語版(USBマイク付) \17,100 に興味深々。<BR>
+ボーナスが出たら よくよく考えてみます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>超簡単HTTPサーバの自作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Webブラウザが発信するリクエストヘッダが見たかったので、超簡単ウェブサーバを自作しました。たったこれだけの行数で
+Webサーバとして最低限の動作をします。(ほんとに最低の機能です)<BR>
+ただし、言うまでもないことですが、そもそも論として Webサーバ機能+αを実現したい場合には、Jakarta
+Tomcatなどのサーバソフトの利用が簡単で便利です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* TinyHttpd (for Socket Sample)
+* Copyright (C) 2002  Tosiki IGA
+*/
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class TinyHttpd {
+    public static final String SERVER_NAME = &quot;TinyHttpd(0.0.1)&quot;;
+    public static final String HTTP_VERSION = &quot;HTTP/1.0&quot;;
+
+    public static void main(String[] args) {
+        new TinyHttpd().process();
+    }
+
+    public void process() {
+        try {
+            System.out.println(SERVER_NAME + &quot;: Copyright (C) 2002 Tosiki IGA&quot;);
+            ServerSocket server = new ServerSocket(80);
+            System.out.println(&quot;port: &quot; + server.getLocalPort());
+            for (;;) {
+                Socket socket = server.accept();
+                new TinyHttpdThread(socket).start();
+            }
+        } catch (Exception ex) {
+            System.out.println(ex);
+            ex.printStackTrace();
+        }
+    }
+}
+
+class TinyHttpdThread extends Thread {
+    private Socket socket;
+    private String strCommand = null;
+    private String strFileName = null;
+
+    public TinyHttpdThread(Socket socket) {
+        this.socket = socket;
+    }
+
+    public void run() {
+        System.out.println(&quot;begin: &quot; + socket.toString());
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+
+            for (int iLine = 0;;iLine++) {
+                String strLine = reader.readLine();
+                if (strLine == null
+                        || strLine.length() == 0) {
+                    break;
+                }
+                if (iLine == 0) {
+                    StringTokenizer token = new StringTokenizer(strLine, &quot; &quot;);
+                    if (token.hasMoreTokens()) {
+                        strCommand = token.nextToken().toUpperCase();
+                    }
+                    if (token.hasMoreTokens()) {
+                        strFileName = token.nextToken();
+                    }
+                }
+                System.out.println(&quot;R:&quot; + strLine);
+            }
+
+            if (strCommand.equals(&quot;GET&quot;)) {
+                doGet(writer);
+            } else if (strCommand.equals(&quot;POST&quot;)) {
+                doPost(writer);
+            } else {
+                writeLine(TinyHttpd.HTTP_VERSION + &quot; 501 Not Implemented&quot;, writer);
+            }
+
+            writer.flush();
+            writer.close();
+            reader.close();
+            socket.close();
+        } catch (Exception ex) {
+            System.out.println(ex);
+            ex.printStackTrace();
+        }
+        System.out.println(&quot;end: &quot; + socket);
+    }
+
+    private void writeLine(String strLine, BufferedWriter writer)
+    throws IOException {
+        writer.write(strLine);
+        writer.newLine();
+        System.out.println(&quot;S:&quot; + strLine);
+    }
+
+    protected void doGet(BufferedWriter writer)
+    throws IOException {
+        if (true) {
+            writeLine(TinyHttpd.HTTP_VERSION + &quot; 200 OK&quot;, writer);
+            writeLine(&quot;Server &quot; + TinyHttpd.SERVER_NAME, writer);
+            writeLine(&quot;Content-type: text/html&quot;, writer);
+            writeLine(&quot;&quot;, writer);
+        }
+        writeLine(&quot;&lt;HTML lang=\&quot;ja\&quot;&gt;&quot;, writer);
+        writeLine(&quot;&lt;HEAD&gt;&lt;TITLE&gt;なんにもなしページ&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;, writer);
+        writeLine(&quot;&lt;BODY bgcolor=\&quot;#eeddcc\&quot;&gt;&lt;P&gt;なんにもなしページ。&lt;BR&gt;要求されたファイル名[&quot; + strFileName + &quot;]&lt;/P&gt;&lt;/BODY&gt;&quot;, writer);
+        writeLine(&quot;&lt;/HTML&gt;&quot;, writer);
+    }
+
+    protected void doPost(BufferedWriter writer)
+    throws IOException {
+        doGet(writer);
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これを超機能拡張していくと Tomcat みたいなソフトになる可能性はあります。(意味無いので
+誰もしないと思いますけれどもね)</P>
+<P><FONT color="#ff0000">2002.06.27 読者からツッコミ</FONT><BR>
+<CITE>Subject:  超簡単HTTPサーバの自作について<BR>
+いがぴょんさん<BR>
+はじめまして bataです。<BR>
+開発でブラウザーのリクエストヘッダーを調べる時に　Apache Axis のTCPモニターを使用しています。</CITE></P>
+<UL>
+  <LI><CITE>※org.apache.axis.utils.tcpmon <BR>
+  <A HREF="http://cvs.apache.org/viewcvs.cgi/~checkout~/xml-axis/java/docs/developers-guide.html#Debugging">http://cvs.apache.org/viewcvs.cgi/~checkout~/xml-axis/java/docs/developers-guide.html#Debugging</A></CITE>
+</UL>
+<P><CITE>簡易Proxy となるので、お手軽に使えるのですが…日本語対応していないので△です。<BR>
+では。<BR>
+----------------------------------------<BR>
+T.Kawabata</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+いろいろなソフトがあるものですね。勉強になります。<BR>
+Apache Axis は SOAP実装ですが、なるほどその開発にTCPヘッダー解析が必要になってくるのですね。</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig020618.src.html' , result='ig020618.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig020618-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">FFFTP</A> <FONT size="-2"><A target="_blank" HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>曽田純さんという方が書いたWindows用ftpクライアント。かなり気に入りました。<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">「未来はセキュリティ、Linuxにあり」とIT専門家</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>経済的理由によりLinux有望、なんだそうです。ほんとにそうなんでしょうかね。<LI><A HREF="http://www.asahi.com/national/update/0618/004.html">天然添加物の安全性、確認作業足踏み　厚労省</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/national/update/0618/004.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>お金が沢山かかるから ゆっくり確認作業してきたのだそうです。<LI><A HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">ヒント: リモートRDFファイルからヘッドラインを取得する</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RSS0.91と RSS1.0との両方が一度に説明されているのが嬉しいです。で、&lt;rdf:Seq&gt;タグは やっぱり『有効』(というか付けても良い)のでしょうか。この点 興味深いです。<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">「FFXI」Windows版βテスト開始へ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ひょ？ PS2版以外に Windows版も出すんですね。う?ん。これは興味深い。ただ 動作条件に nVIDIA GeForceシリーズチップ搭載のボード と書いてあるのが引っかかりました。G550所有ながら申し込んでしまいました… (苦笑)<LI><A HREF="http://www.jboss.org/">JBoss</A> <FONT size="-2"><A target="_blank" HREF="http://www.jboss.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>オープンソースな J2EEアプリケーションサーバ。現時点では LGPLでリリースされている模様。<LI><A HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">全国のカーネルおじさん避難</A> <FONT size="-2"><A target="_blank" HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ケンタッキーのマスコットさんも大変ですね。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

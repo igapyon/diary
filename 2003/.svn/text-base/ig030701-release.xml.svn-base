@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030701.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030701.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/struts/index.html">
+    <title>Jakarta Struts 1.1 リリース</title>
+    <link>http://jakarta.apache.org/struts/index.html</link>
+    <description>Java+JSPユーザにとって重要な Strutsについて 1.1が正式リリースです。大喜びする人々も多いことでしょう。</description>
+    <dc:date>2003-07-01T20:22:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.4 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Mozilla 1.4が正式リリースです。早速ダウンロード。</description>
+    <dc:date>2003-07-01T20:33:27</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/javamail/">
+    <title>Sun: JavaMail API 1.3.1 リリース</title>
+    <link>http://java.sun.com/products/javamail/</link>
+    <description>メールAPIがリビジョンアップです。</description>
+    <dc:date>2003-07-01T06:47:28</dc:date>
+  </item>
+
+</rdf:RDF>

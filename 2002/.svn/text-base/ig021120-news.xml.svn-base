@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021120.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021120.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://oss.mri.co.jp/">
+    <title>三菱総合研究所：オープンソースと政府</title>
+    <link>http://oss.mri.co.jp/</link>
+    <description>オープンソースに関する認識が 日本の中でも少しずつ高まってきているのですね。喜ばしいことです。Linuxという よく認知された具体的なプロダクトが存在していることが それに拍車をかけているのでしょうね。</description>
+    <dc:date>2002-11-20T09:53:18</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/11/15/639975-000.html">
+    <title>米IBMとシャープ、Linuxベースの企業向けモバイルソリューション分野で提携</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/11/15/639975-000.html</link>
+    <description>LinuxザウルスがIBMにウケた、のでしょうかねぇ (笑)</description>
+    <dc:date>2002-11-20T09:53:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/19/nebt_22.html">
+    <title>Palm搭載腕時計「WRIST PDA」をFossilが発表</title>
+    <link>http://www.zdnet.co.jp/news/0211/19/nebt_22.html</link>
+    <description>なにげに欲しい (笑) この方向性で、Palm搭載PHSが『日本で』発売されればとても嬉しいのですが…。そしてDDI Pocketから出されれば (個人的需要)</description>
+    <dc:date>2002-11-20T09:53:18</dc:date>
+  </item>
+
+  <item rdf:about="http://office.microsoft.com/japan/downloads/2000/o2ksp3.aspx">
+    <title>Microsoft Office 2000 アップデート Service Pack 3</title>
+    <link>http://office.microsoft.com/japan/downloads/2000/o2ksp3.aspx</link>
+    <description>Office 2000に最新SP3がリリースされました。</description>
+    <dc:date>2002-11-20T09:53:18</dc:date>
+  </item>
+
+  <item rdf:about="http://news.com.com/2100-1001-966072.html">
+    <title>Oracle joins IBM's Java project</title>
+    <link>http://news.com.com/2100-1001-966072.html</link>
+    <description>オラクルまでもが Eclipseに合流しそうだとのこと。Eclipseの実力を知った今、このニュースは とてもインパクトあります。</description>
+    <dc:date>2002-11-20T09:53:18</dc:date>
+  </item>
+
+</rdf:RDF>

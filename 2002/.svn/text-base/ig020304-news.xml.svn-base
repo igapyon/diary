@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020304.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020304.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/tomcat/index.html">
+    <title>Jakarta Tomcat 4.0.3 リリース</title>
+    <link>http://jakarta.apache.org/tomcat/index.html</link>
+    <description>小刻みにリビジョンアップを繰り返していますね。</description>
+    <dc:date>2002-03-04T16:28:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/02/b_0301_01.html">
+    <title>Windows .NET Serverのリリースが再延期</title>
+    <link>http://www.zdnet.co.jp/news/0203/02/b_0301_01.html</link>
+    <description>順調に延期していますなぁ。まあ Windows XP で徹底的にバグだしして それからって事でしょうか。</description>
+    <dc:date>2002-03-04T20:10:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0201/10/02.html">
+    <title>「！広告！」をSubjectに表示義務　経産省がスパム対応で</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0201/10/02.html</link>
+    <description>少し昔の記事。この事を知りませんでした (または記憶にとどまりませんでした) だから最近の広告メールには このタイトルが付いてくる場合があるのですね。</description>
+    <dc:date>2002-03-04T16:28:46</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020718.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020718.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.microsoft.com/japan/msdn/sqlserver/downloads/jdbc/default.asp">
+    <title>Microsoft SQL Server 2000 Driver for JDBC 日本語版 リリース</title>
+    <link>http://www.microsoft.com/japan/msdn/sqlserver/downloads/jdbc/default.asp</link>
+    <description>待望の日本語版ファーストリリースです！ SQLServerを使っているJava言語プログラマーさんに朗報ですね。私も 近いうちにダウンロードします。</description>
+    <dc:date>2002-07-18T12:52:30</dc:date>
+  </item>
+
+  <item rdf:about="http://www.openoffice.org/">
+    <title>OpenOffice.org 1.0.1 リリース</title>
+    <link>http://www.openoffice.org/</link>
+    <description>OpenOffice.org の 1.0.1 がリビジョンアップリリースです。</description>
+    <dc:date>2002-07-18T13:51:44</dc:date>
+  </item>
+
+</rdf:RDF>

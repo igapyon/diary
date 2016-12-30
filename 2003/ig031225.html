@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/12/25 日記: Javaパフォーマンス調査ふたたび</TITLE>
+<META name="DESCRIPTION" content="USBフラッシュメモリが欲しい…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:47+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2003/12/25 日記: Javaパフォーマンス調査ふたたび</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] USBフラッシュメモリが欲しい…</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaパフォーマンス調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaのパフォーマンスの調査を行おうとしたら、以前の自分の日記に行き当たる。</P>
+<UL>
+  <LI><A href="ig030114.html">2003/01/14 日記: Javaパフォーマンス調査</A>
+</UL>
+<P>お勧め書籍や メモリ消費量調査などが 結構詳しくかかれていてびっくり仰天。特にメモリ系の調査ツールのソースコードは
+活用できそうに思いました。<BR>
+ちょうど お仕事で パフォーマンスネタを扱うので、以前の活動が役立つのでした。</P>
+<P>…そう考えると 私って実は Javaパフォーマンスに関して 実力を持った人材なのかも知れません。(今
+実際に Javaパフォーマンスの仕事に従事していますものね) 『<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>って、結構やるじゃん』って
+素朴に思いました。そういえば 3年くらい前かしら、Javaパフォーマンスで ミリ秒を削った経験がありますし、コンサルティングを行った事もありますからね…。</P>
+<P>また、それと同じ事を Swingについても思いました。私 Swingの経験なんて無いと思っていたのに、なぜだか Swingの様々な事を知っていて、よくよく思い出してみたら、Swingベースでパッケージソフトを開発した経験がありました。これまたびっくり仰天。そ…そうなんだ、みたいな (苦笑)</P>
+<P><FONT color="#ff0000">関連する日記</FONT></P>
+<UL>
+  <LI><A href="http://www.nttd-bb.com/solution/igapyon1/ig000518.html">いがぴょんの日記: 2000/05/18 日記: Java 3D API 1.2 リリース</A><BR>
+  後輩がJavaアプリケーションの実行速度にハマっていて、いろいろ応援してあげて、そして新しい事実も知った
+  というのが丁度この頃です。なるほど HotSpotやJIT無しのインタプリターモードでパフォーマンスチューニングを行ったら
+  パフォーマンス向上には効果的であるように思えますね。
+  <LI><A href="http://www.nttd-bb.com/solution/igapyon1/ig990428.htm">いがぴょんの日記: 1999/04/28 日記: Java HotSpotリリース間近 , HP-UX10.20ネタ</A><BR>
+  思い起こせば、この頃から Java言語のパフォーマンスに従事し始めていました。(この日記には該当する記載はありませんが…)
+  当時 必死にミリ秒を削っていっていました。この頃の経験が 私にとってのパフォーマンス技術の原点です。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: 第九セカンドヴァイオリン初体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>12/23に 伊勢・志摩第九コンサートなる演奏会を弾いてきました。今年は セカンドヴァイオリンを弾かせて頂きました。第九のセカンドヴァイオリンは初体験だったので、刺激的でした。まあ
+単に 難しかったです。弾き比べると ぜったいファーストヴァイオリンの譜面の方が簡単です。特に
+4楽章のセカンドヴァイオリンの譜面といったら…。セカンドヴァイオリン、恐るべし。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>USBフラッシュメモリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今持っている USBフラッシュメモリは 32MBなのですが、かなり手狭に感じだしています。ヒトミ先輩が
+今ならもっと安く買える、と言うので、調べてみたらびっくり。512MBでも 2万円をきっているではありませんか！
+256MBなら 定価でも\13,300.-程度と 思わず買ってしまう価格帯です。</P>
+<UL>
+  <LI>RUF-X256M/U2<BR>
+  <A HREF="http://buffalo.melcoinc.co.jp/products/catalog/item/r/ruf-x_u2/index.html">http://buffalo.melcoinc.co.jp/products/catalog/item/r/ruf-x_u2/index.html</A><BR>
+  USB2.0対応
+</UL>
+<P>う～ん。間違って買ってしまいそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>P505iのデータリンク調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>P505iデータリンクソフト<BR>
+  <A HREF="http://panasonic.jp/mobile/p505i/datalink/datalink.html">http://panasonic.jp/mobile/p505i/datalink/datalink.html</A>
+  <LI>USBデータリンクケーブル F001
+</UL>
+<P>これもヒマができたら買ってしまいそうで</P>
+<P><FONT color="#ff0000">2003.12.28</FONT> 豊中駅付近のDoCoMoショップに行って USBデータリンクケーブル F001 を買ってきました。\5,000.-もしました。その値段の上
+充電機能はありません。でも 一応 良く分からないので純正品を手に入れようという判断が働きました。<BR>
+で、F001ケーブルを使って P携線4(最新版)でのP505i住所録読み出しに成功しました。すっごくうれしいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>スリッパとはさみを購入</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>新小岩商店街の100円ショップにて スリッパとハサミとを買いました。かなり快適になりました。また
+ハンガーを買い足しました。肌着を 広げて干すという アイデア商品みたいなハンガーがあって、これが
+ハートをヒットして買いました。実際に洗濯して干してみたら、なるほど うまく広がります。ありがとう
+100円ショップ。結構夜遅くまで開店していてくれて 大変感謝です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>生活関連諸作業</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は 比較的早く 20:30頃に 勤務先から脱出したので、生活関連諸作業を行いました。とりあえず洗濯ですねっ！ でも ご飯を食べたり 日記を書いたりいろいろしていたら 23:30位になってしまいました。ふ～む。20:30に帰っても けっこう スケジュール的には いっぱいいっぱいですねぇ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>RSSビューア探索</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>同僚の菅村さんが RSSビューアで良さそうなモノを教えてくれました。</P>
+<UL>
+  <LI>RSSViewer<BR>
+  <A HREF="http://glucose.dip.jp/Zope/">http://glucose.dip.jp/Zope/</A>
+</UL>
+<P>暇を見つけてさわってみたく思いました。</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig031225.src.html' , result='ig031225.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig031225-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.atmarkit.co.jp/fjava/special/jain01/jain01.html">マルチメディアを操るためのJava API登場 -次世代コミュニケーションサービスを担うJAIN-</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fjava/special/jain01/jain01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>私 JAINの仕様はノーマークです。勉強してみようと思いました。<LI><A HREF="http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba16/genba16.html">第16回　転職して年収が「15％アップ」した理由とは -人材紹介会社のコンサルタントが語る-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba16/genba16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>この記事では『人材紹介会社』なるものを勧めています。『ダラダラと経歴を記述した職務経歴書』のクダリも印象的です。『年収は前職の1000万円から』って あんた もらいすぎですよ?。(いがぴょん比) しかし実際のところ PMクラスだったら、そんなにもらうのは普通なのかしらん。びっくり仰天です。さて、その次の方の 『大阪での仕事量が減少していることから』は 身につまされます。大阪って ほんとうに仕事が減っているからなぁ…。私自身 大阪で仕事が減っているのについて直撃を食らっています。<LI><A HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20063068,00.htm">IT業界の仕事がなくなる？</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20063068,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>オフショアなどで 高値エンジニアが職を失う時代、ということなのかしらん。<LI><A HREF="http://www.atmarkit.co.jp/fxml/rensai2/xmlmaster12/master12.html">第12回　XPathによるノードの指定法を理解する</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fxml/rensai2/xmlmaster12/master12.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>最近 仕事で XML関連技術を扱う場面が増えておりますものですから…。<LI><A HREF="http://www.atmarkit.co.jp/flinux/rensai/db2_04/db2_04a.html">DB2: 第4回　止められないデータベースのバックアップ／リカバリ</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/flinux/rensai/db2_04/db2_04a.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>連続運用って大変だものなぁ。<LI><A HREF="http://www.hcn.zaq.ne.jp/no-ji/reseach/20031220.html">2003/12/20 マンデルブロート集合</A> <FONT size="-2"><A target="_blank" HREF="http://www.hcn.zaq.ne.jp/no-ji/reseach/20031220.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>渡辺さんの ちょこっとプログラム。相変わらず 渡辺さんは 渡辺さんだなぁ。やるなぁ (笑)<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063126,00.htm">シマンテック、PC管理ソリューションの新版、Symantec Ghost 8.0 Corporate Editionを発表</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063126,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>コンシューマ向けGhostとは別に、企業向けGhostがあって、個人向けGhostには無い機能が備わっているのでしょう…。よくわかりませんが (苦笑)</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:47 $</address>
+</BODY>
+</HTML>

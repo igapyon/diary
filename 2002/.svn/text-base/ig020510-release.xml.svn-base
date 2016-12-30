@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020510.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020510.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/jdk/1.2/index.html">
+    <title>SUN J2SE 1.2.2_012/12 リリース</title>
+    <link>http://java.sun.com/products/jdk/1.2/index.html</link>
+    <description>J2SE 1.2.2も小刻みなリビジョンアップを続けています。今回のも非常に細かなバグ修正多数といった所です。こういった息の長いサポートの提供というのは とても好感が持てます。</description>
+    <dc:date>2002-05-10T11:14:31</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/poi/">
+    <title>Jakarta POI 1.5 リリース</title>
+    <link>http://jakarta.apache.org/poi/</link>
+    <description>OLE2をJavaから呼べるようにするツール。結果的にWORDのドキュメントなどがJavaから利用可能になるのだそうです。また バージョン番号とは裏腹に、POIはJakartaからの初リリースだったと思います。知人が作っているJComに類似したソフトですよね。</description>
+    <dc:date>2002-05-10T11:14:31</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/log4j/docs/">
+    <title>Jakarta Log4j 1.2 リリース</title>
+    <link>http://jakarta.apache.org/log4j/docs/</link>
+    <description>使おう、使おうと思いつつ 未だ使ったことの無い Log4jですが、新バージョンがリリースです。そんなことを思っている間に J2SE 1.4 がリリースされてしまったのですが (苦笑) # J2SE 1.4 にはログ用APIがあるのです。</description>
+    <dc:date>2002-05-10T11:14:31</dc:date>
+  </item>
+
+</rdf:RDF>

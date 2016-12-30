@@ -1,0 +1,29 @@
+2012-10-11 Java で SNMP
+
+*p1*Java で SNMP
+Java で SNMP エージェントを作りたく思い、インターネットをざっくり検索しました。
+
+-SNMP4J - The Object Oriented SNMP API for Java Managers and Agents
+--http://www.snmp4j.org/
+
+-SNMP4JをGUIから実行するツール
+--～SNMPのライブラリ「snmp4j.jar」を使ってSNMP-Walkを実行～
+--http://vecapplication.appspot.com/SNMP4JGUI.html
+
+-snmp4j: Javaでsnmpコマンドを作る１（snmpget）
+--http://blog.r-unit.co.jp/archives/274
+
+-snmp4jでsnmpwalk
+--http://tamagonoheitai.blog105.fc2.com/blog-entry-241.html
+
+-Oboe吹きプログラマの黙示録: SNMP4J でトラップ送信
+--http://blog.zaq.ne.jp/oboe2uran/article/329/
+
+*p2*その他
+-GlassFish を SNMP 監視
+--https://blogs.oracle.com/aquatic/entry/glassfish_snmp_monitoring
+
+-エンタープライズ： - 第6回：SNMPによるネットワークモニタリング
+--http://www.itmedia.co.jp/help/howto/linux/0007master/06/
+
+

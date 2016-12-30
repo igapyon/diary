@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/10 日記: C++用Javaストリーム風クラス作成中…</TITLE>
+<META name="DESCRIPTION" content="結構品揃えが増えてきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>チューリップ本その後</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日 梅田紀伊国屋に行ったら 私の<A href="../../book/jasl.html">チューリップ本</A>は 平積み状態が解除されていました (T_T)<BR>
+ちょっと寂しかったです。撤去されたわけではなくって 立てて並べられていました。良い夢を見させて頂きました
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C++用Javaストリーム風クラスを作成中です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>みなさまにお断り。このC++クラスはフリーソフト的には公開できないでしょう。<BR>
+とりあえずは 自分用メモということで…<BR>
+下記のようなクラスを作成しました。(当然 クラスメイトファイル名とは一致させています)</P>
+<UL>
+  <LI>io_BufferedInputStream.h
+  <LI>io_BufferedOutputStream.h
+  <LI>io_FileInputStream.h
+  <LI>io_FileNotFoundException.h
+  <LI>io_FileOutputStream.h
+  <LI>io_FilterInputStream.h
+  <LI>io_FilterOutputStream.h
+  <LI>io_InputStream.h
+  <LI>io_IOException.h
+  <LI>io_OutputStream.h
+  <LI>lang_Exception.h
+  <LI>nbb_MimeBase64.h
+  <LI>nbb_MimeInputStream.h
+  <LI>nbb_MimeOutputStream.h
+  <LI>net_URL.cpp
+  <LI>net_URL.h
+  <LI>net_URLConnection.cpp
+  <LI>net_URLConnection.h
+  <LI>net_URLConnectionInputStream.h
+  <LI>net_URLConnectionOutputStream.h
+</UL>
+<P>上記のクラスが揃いました。もちろん必要なメソッドしか実装していませんが…。<BR>
+このクラスを利用したら、下記のようにコーディングできます。ちょっとJavaっぽく見えます。</P>
+<P>ちょっとデータをMIME BASE64化する例。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>    try
+    {
+        io_InputStream* fileRead =
+            new io_BufferedInputStream(
+                new io_FileInputStream((unsigned char*)&quot;aaa.txt&quot;));
+        io_OutputStream* fileWrite =
+            new nbb_MimeOutputStream(
+                new io_BufferedOutputStream(
+                    new io_FileOutputStream((unsigned char*)&quot;bbb.txt&quot;)));
+        unsigned char szBuf[1024 + 1];
+        for (;;)
+        {
+            int read = fileRead-&gt;read(szBuf, 0, 1024);
+            if (read &lt; 0)
+                break;
+            fileWrite-&gt;write(szBuf, 0, read);
+        }
+        fileWrite-&gt;close();
+        fileRead-&gt;close();
+        delete fileRead;
+        delete fileWrite;
+    }
+    catch (io_IOException* ex)
+    {
+        printf(&quot;Error occur: %s&quot;, ex-&gt;toString());
+        delete ex;
+    }
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>HTMLファイルをダウンロードする例。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>        net_URL* url = new net_URL((unsigned char*)&quot;http://www.tcct.zaq.ne.jp/iga/tosiki/igapyon/diary/&quot;);
+        net_URLConnection* conn = url-&gt;openConnection();
+        io_InputStream* fileRead =
+            new io_BufferedInputStream(
+                conn-&gt;getInputStream()
+            );
+        io_OutputStream* fileWrite =
+            new io_BufferedOutputStream(
+                new io_FileOutputStream((unsigned char*)&quot;ddd.txt&quot;));
+
+        for (;;)
+        {
+            int read = fileRead-&gt;read(szBuf, 0, 1024);
+            if (read &lt; 0)
+                break;
+            fileWrite-&gt;write(szBuf, 0, read);
+        }
+        fileWrite-&gt;close();
+        fileRead-&gt;close();
+        delete fileRead;
+        delete fileWrite;
+        delete conn;
+        delete url;
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ずいぶん幸せな気持ちになることができます。Javaの良い点の一つは 良くこなれたAPIセットの存在なのですもの。<BR>
+あとはこのまま MD5ダイジェストストリームとGZIPストリームが出来上がったら完成です。もうちょっと頑張ろう…。(なんでも自作してしまう癖は
+なかなか治りませんなぁ…)</P>
+<P>Java APIをC++に移植して分かったのですが、全てをヘッダーファイルで表現することは出来ませんでした。クラスを相互に参照するため、とりあえず
+*.cpp を利用する必要がありました。これはちょっと残念。というか C++言語って
+そういうものですよね。</P>
+<P>POSTする場合のコードで一点気になったのが、WinInetでは 事前に送信サイズがわかっていないといけないのですが、Java
+API では そのような取り決めはありません。これはなぜだろうと思いました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021210-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

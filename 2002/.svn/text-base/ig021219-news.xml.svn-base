@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021219.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021219.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www3.vis.ne.jp/~asaki/java/eclipse/swt.html">
+    <title>SWTサンプル集</title>
+    <link>http://www3.vis.ne.jp/~asaki/java/eclipse/swt.html</link>
+    <description>日本語によるSWT解説は 現時点では珍しい。渡辺さんが教えて下さいました。</description>
+    <dc:date>2002-12-19T06:50:58</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/17/nebt_15.html">
+    <title>IEの世界シェアが95％に</title>
+    <link>http://www.zdnet.co.jp/news/0212/17/nebt_15.html</link>
+    <description>実際 そのくらいのシェアを握っていることでしょうなぁ。IE6.0が57.6％というのは意外でした。みんな結構こまめにバージョンアップしているんですかねぇ。</description>
+    <dc:date>2002-12-19T06:50:58</dc:date>
+  </item>
+
+</rdf:RDF>

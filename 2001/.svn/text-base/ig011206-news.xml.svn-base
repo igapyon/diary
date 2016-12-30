@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011206.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011206.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-06</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.asahi.com/national/update/1206/004.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0112/04/01120411.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0112/04/01120412.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/03/e_unix.html"/>
+        <rdf:li resource="http://japan.internet.com/linuxtoday/20011204/5.html"/>
+        <rdf:li resource="http://www.asahi.com/business/update/1206/007.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.asahi.com/national/update/1206/004.html">
+    <title>水の中、日光当て水素できた　産総研が金属酸化物を開発</title>
+    <link>http://www.asahi.com/national/update/1206/004.html</link>
+    <description>すげ～。SFみたい！。現状はエネルギー変換効率が低いなんて書いてありますが、これが実用化すれば、植物の光合成と同じくらいのインパクトがあります。とにかく すごいなあ。環境問題に一石を投じる技術になって欲しいと祈ります。(でも光合成と異なり 二酸化炭素は吸収してくれませんけれどもね)。実用化すれば、自動車を駐車しているだけで燃料電池を回復して いつまでも乗れる、とかになるのかしら。わくわく。</description>
+    <dc:date>2001-12-06T10:23:14</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0112/04/01120411.html">
+    <title>シミアン，Linux/UNIX用のOutlookクローンをリリース</title>
+    <link>http://www.zdnet.co.jp/enterprise/0112/04/01120411.html</link>
+    <description>オープンソース関連の話題も記事中にあり。</description>
+    <dc:date>2001-12-06T09:38:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0112/04/01120412.html">
+    <title>シャープ，米でLinux搭載ザウルスを正式発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0112/04/01120412.html</link>
+    <description>Linux搭載ですか。興味深いです。# でも衝動買いとかはしない予定 :-P</description>
+    <dc:date>2001-12-06T09:38:11</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/03/e_unix.html">
+    <title>HP，HP-UX主体でTru64を統合へ</title>
+    <link>http://www.zdnet.co.jp/news/0112/03/e_unix.html</link>
+    <description>去るOS, 来るOS。年末ですなぁ。と冗談さておき 歴史の流れの中から 結局 生き残る UNIXも選別されて来ましたね。昔を振り返ると HP-UXが その「生き残る」OSになるとは予測できませんでした… (苦笑)。SVRとかががんばるとか思っていたのですけれどもねぇ。</description>
+    <dc:date>2001-12-06T09:38:11</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20011204/5.html">
+    <title>フランス政府がオープンソース採用に意欲を見せるわけ</title>
+    <link>http://japan.internet.com/linuxtoday/20011204/5.html</link>
+    <description>単なる状況の説明のみ。</description>
+    <dc:date>2001-12-06T09:38:11</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/1206/007.html">
+    <title>首都圏マクドナルドに喫茶メニュー　狂牛病など逆風補う</title>
+    <link>http://www.asahi.com/business/update/1206/007.html</link>
+    <description>全国画一メニュー路線を変える、のだそうです。大変そうだなぁ。</description>
+    <dc:date>2001-12-06T10:23:14</dc:date>
+  </item>
+</rdf:RDF>

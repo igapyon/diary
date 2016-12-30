@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011030.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011030.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-30</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0110/29/01102987.html"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comm/151386"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/29/mmri.html"/>
+        <rdf:li resource="http://www.asahi.com/business/update/1030/002.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0110/29/01102987.html">
+    <title>Gartner Column：第20回 マイクロソフトのセキュリティに対する考え方は根本的に間違っていないか？</title>
+    <link>http://www.zdnet.co.jp/enterprise/0110/29/01102987.html</link>
+    <description>ガートナージャパンの手によるコラム。この文章、良くできています。問題点を的確に洗い出しています。ただし 私は 『少数精鋭で中期間をかけて作成』する事こそが 品質の高いソフトウェアを開発するためには不可欠だと思っています。Microsoftさんの場合 超短期で 『コードの殆ど全てが新しい新バージョン』を出そうとするから バグバグになるんだと思っています。…何にせよ企業体質って なかなか変わらないですもんねぇ (苦笑)</description>
+    <dc:date>2001-10-30T14:14:17</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comm/151386">
+    <title>横浜地裁が迷惑メール送信者に大量送信停止の仮処分命令=NTTドコモ◇ロイター</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comm/151386</link>
+    <description>こんな判例が出ていたのですね。興味深いです。</description>
+    <dc:date>2001-10-30T17:57:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/29/mmri.html">
+    <title>国内PC出荷，前年度比マイナス1割</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/29/mmri.html</link>
+    <description>元気がありません。</description>
+    <dc:date>2001-10-30T07:14:48</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/business/update/1030/002.html">
+    <title>ＮＹ株大幅安、２７５ドル安の９２６９．５０ドル</title>
+    <link>http://www.asahi.com/business/update/1030/002.html</link>
+    <description>メモ</description>
+    <dc:date>2001-10-30T07:14:48</dc:date>
+  </item>
+
+</rdf:RDF>

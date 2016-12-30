@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031117.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031117.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">
+    <title>米サン、J2EE準拠「Java System Application Server 8」を無償リリースへ</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm</link>
+    <description>J2EE 1.4準拠の初製品なんだそうな。しかし無償リリースとは… Sun純正J2EEサーバソフトが無償で利用可能というのは どんなインパクトやどんな影響があるのかしらん。とっても興味深いです。</description>
+    <dc:date>2003-11-17T07:16:26</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">
+    <title>日本でもBlogへの企業参入相次ぐ、今後の行方は？</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm</link>
+    <description>私の日記もBlogに分類される、のかしらん。なあんて思ったりして。それはともかく Blogが一般化していくのかどうか、興味深く観察しています。</description>
+    <dc:date>2003-11-17T23:07:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">
+    <title>オープンソースで日中韓が連携、日立・富士通・NEC揃い踏みの国内団体も</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm</link>
+    <description>いわゆる漢字圏で力を合わせてオープンソースの漢字対応などに取り組むことは とても興味深いです。</description>
+    <dc:date>2003-11-17T23:07:51</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">
+    <title>NEC、テレビ視聴／録画と映像配信機能を備えるPCI拡張ボードを発売</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm</link>
+    <description>高画質チューンされたSmartVision HG2/R。SmartVision HG2を持っている私としては複雑な気持ちです。</description>
+    <dc:date>2003-11-17T07:16:26</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">
+    <title>米マイクロソフト、前四半期業績の内訳を公表</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm</link>
+    <description>デスクトップ用WindowsやOfficeに陰りが見えるのだそうな。しかしまあ ものすごく強い会社ですね。</description>
+    <dc:date>2003-11-17T07:16:26</dc:date>
+  </item>
+
+</rdf:RDF>

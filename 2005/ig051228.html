@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/28 日記: SWTを用いた JavaからWin32APIへのアクセス サンプル</TITLE>
+<META name="DESCRIPTION" content="SWTを用いると 各種Win32APIを呼び出しできることを知りました。びっくりしました。極めつけは Javaからレジストリへのアクセスが可能であるということです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,SWT,Win32,JNI">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/28 日記: SWTを用いた JavaからWin32APIへのアクセス サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,SWT,Win32,JNI] SWTを用いると 各種Win32APIを呼び出しできることを知りました。びっくりしました。極めつけは Javaからレジストリへのアクセスが可能であるということです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTを用いた JavaからWin32APIへのアクセス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いがぴょんの日記メーリングリストに流れていた会話の流れから、SWTを用いると 各種Win32APIを呼び出しできることが明らかになりました。これには全くもってびっくりしました。この事実は
+SWTに濃密にハマっている人の間でしか知られていない、しかし非常に重要な機能だと思います。</P>
+<P>この使い方の発見にいたる経緯はこうです。</P>
+<OL>
+  <LI><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>さんがメーリングリスト上にウインドウ操作などに関する希望仕様を出された。
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さん(A-san)が それら希望仕様に答える形で、C言語(JNI)ベースによるサンプルを書いていった。
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さん(A-san)が、ふと SWTでも 同様のことが出来ないかと気がつき、SWT経由によるWin32API呼び出しのサンプルを幾つか書いた。
+</OL>
+<P>私の方で動作することを確認した環境は下記のようになります。</P>
+<UL>
+  <LI>Eclipse 3.1.1（日本語パッチ適用）
+  <LI>Sun J2SE SDK 1.4.2_10 (Windows版)
+</UL>
+<P>純粋に JavaからSWTを用いるために、下記の設定を行いました。(Eclipse RCPを駆動させるための一般的な設定と同様のものです)</P>
+<UL>
+  <LI>Eclipseのpluginsフォルダに含まれる org.eclipse.swt.win32.win32.x86_3.1.1.jar をクラスパスに設定
+  <LI>org.eclipse.swt.win32.win32.x86_3.1.1.jarに含まれるswt-win32-3139.dllを取り出し、これに
+  プログラム実行時のパスを設定
+</UL>
+<P>ここでポイントなのは、Win32API呼び出しを行うのにもかかわらず、<STRONG>自前では JNIを全く作成していない</STRONG>という点です。話を進める過程で C言語コンパイラを全く必要としません。SWTに含まれるAPIで全て代用してしまっているのです。</P>
+<HR>
+<P>まず最初のサンプルは、Windowsに 現在表示されているウインドウの中から タイトルメッセージをもとにウインドウハンドルを取得し、そのウインドウのサイズを変更し、またウインドウに文字を送出するサンプルです。(文字の送出については、ウインドウハンドルと実際の文字エリアとが一致しているアプリでのみ動作するようです)</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SwtSample1.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * SWTを用いた Javaからウインドウ検索をおこなうサンプルプログラム。
+ */
+import java.util.Properties;
+
+import org.eclipse.swt.internal.win32.OS;
+import org.eclipse.swt.internal.win32.POINT;
+import org.eclipse.swt.internal.win32.RECT;
+import org.eclipse.swt.internal.win32.TCHAR;
+import org.eclipse.swt.internal.win32.WINDOWPLACEMENT;
+
+/**
+ * SWTを用いたウインドウ検索のサンプルプログラム。
+ * 
+ * @author 渡辺義則
+ */
+public class SwtSample1 {
+    /**
+     * SWTを用いて JavaからWin32API呼び出しをおこないます。
+     * 
+     * 実行に先立ち「秀丸エディタ」を起動しておきます。&lt;br&gt;
+     * ウインドウタイトルが「(無題) - 秀丸」の状態にしておきます。ウインドウは「非最大化」にします。&lt;br&gt;
+     * 
+     * 実行すると ウインドウのサイズが変更され、またエディタ上に Helloを入力された状態に変わります。
+     */
+    static void process() {
+        int hWnd = OS.FindWindow(null, new TCHAR(OS.CP_INSTALLED, &quot;(無題) - 秀丸&quot;,
+                true));
+        if (hWnd == 0) {
+            System.out.println(&quot;ウインドウの検索に失敗しました。処理中断します。&quot;);
+        } else {
+            RECT rect = new RECT();
+            OS.GetWindowRect(hWnd, rect);
+            System.out.println(&quot;rect=&quot; + rect.left + &quot; &quot; + rect.top + &quot; &quot;
+                    + rect.right + &quot; &quot; + rect.bottom);
+            RECT client = new RECT();
+            OS.GetClientRect(hWnd, client);
+            POINT pt = new POINT();
+            OS.ClientToScreen(hWnd, pt);
+            System.out.println(&quot;client pos=(&quot; + (pt.x - rect.left) + &quot; &quot;
+                    + (pt.y - rect.top) + &quot;) size=(&quot; + client.right + &quot; &quot;
+                    + client.bottom + &quot;)&quot;);
+            // ウィンドウのサイズを変更します。
+            WINDOWPLACEMENT wndpl = new WINDOWPLACEMENT();
+            OS.GetWindowPlacement(hWnd, wndpl);
+            // ウインドウの大きさを縦方向に 100 縮めます。
+            wndpl.bottom -= 100;
+            OS.SetWindowPlacement(hWnd, wndpl);
+            // アプリケーションにキーイベントを送ります。
+            OS.SendMessage(hWnd, OS.WM_CHAR, 'H', 0);
+            OS.SendMessage(hWnd, OS.WM_CHAR, 'e', 0);
+            OS.SendMessage(hWnd, OS.WM_CHAR, 'l', 0);
+            OS.SendMessage(hWnd, OS.WM_CHAR, 'l', 0);
+            OS.SendMessage(hWnd, OS.WM_CHAR, 'o', 0);
+        }
+    }
+
+    public static void main(String[] args) {
+        // 実行時ライブラリへのパスを確認
+        Properties props = System.getProperties();
+        System.out.println(props.getProperty(&quot;java.library.path&quot;));
+
+        // SWTによるWinAPIコールを試みます。
+        process();
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<P>次のサンプルは、Windowsのデバイスコンテキストを用いて描画を行うサンプルです。画面上に黒い線が ずずずっと描画されます。(驚かれませぬよう。)</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SwtSample2.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * SWTを用いたJavaからGDI描画をおこなうサンプルプログラム。
+ */
+import org.eclipse.swt.internal.win32.OS;
+
+/**
+ * SWTを用いたGDI描画のサンプルプログラム。
+ * 
+ * @author 渡辺義則
+ */
+public class SwtSample2 {
+    /**
+     * SWTを用いて Javaから Win32API呼び出しをおこないます。
+     * 
+     * 実行すると 画面上に黒い線がたくさん描画されます。
+     */
+    static void process() {
+        int hDC = OS.GetDC(0);
+        try {
+            for (int i = 0; i &lt; 1000; i += 5) {
+                OS.MoveToEx(hDC, 0, i, 0);
+                OS.LineTo(hDC, 1000, 1000 - i);
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        } finally {
+            OS.ReleaseDC(0, hDC);
+        }
+    }
+
+    public static void main(String[] args) {
+        // SWTによるWinAPIコールを試みます。
+        process();
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<P>最後のサンプルは衝撃的です。Windowsのレジストリにアクセスして、DirectXのバージョンを取得するというものです。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SwtSampleReg.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * SWTを用いた Javaからレジストリをアクセスするサンプルプログラム。
+ */
+import java.io.StringWriter;
+
+import org.eclipse.swt.internal.win32.OS;
+import org.eclipse.swt.internal.win32.TCHAR;
+
+/**
+ * SWTを用いて Java言語から レジストリへのアクセスを行います。&lt;br&gt;
+ * ここではDirectXのバージョンを取得するサンプルとなっています。
+ * 
+ * @author 渡辺義則
+ */
+public class SwtSampleReg {
+    /**
+     * SWTを用いた Javaからレジストリにアクセスして DirectXのバージョンを取得するサンプル
+     */
+    static void process() {
+        final String entry = &quot;SOFTWARE\\Microsoft\\DirectX&quot;;
+        final int[] hKey = new int[1];
+        try {
+            int rc = OS.RegOpenKeyEx(OS.HKEY_LOCAL_MACHINE, new TCHAR(
+                    OS.CP_INSTALLED, entry, true), 0,
+                    0xF003F/* KEY_ALL_ACCESS */, hKey);
+            if (rc != 0) {
+                throw new IllegalArgumentException(&quot;RegOpenKeyExの呼び出しに失敗しました。&quot;
+                        + formatMessage(rc));
+            }
+            TCHAR buf = new TCHAR(OS.CP_INSTALLED, 256);
+            final int[] len = new int[] { 256 };
+            rc = OS.RegQueryValueEx(hKey[0], new TCHAR(OS.CP_INSTALLED,
+                    &quot;Version&quot;, true), 0, null, buf, len);
+            if (rc != 0) {
+                throw new IllegalArgumentException(
+                        &quot;RegQueryValueExの呼び出しに失敗しました。&quot; + formatMessage(rc));
+            }
+            System.out.println(&quot;レジストリ上のDirectXのバージョンは[&quot;
+                    + buf.toString(0, buf.strlen()) + &quot;]です。&quot;);
+        } finally {
+            if (hKey[0] != 0)
+                OS.RegCloseKey(hKey[0]);
+        }
+    }
+
+    /**
+     * OSから与えられた戻り値をもとにメッセージを取得します。
+     * 
+     * @param rc
+     *            Win32APIから返却されるDWORD値
+     * @return OSから得られたメッセージ
+     */
+    public static String formatMessage(final int rc) {
+        final int[] lpMsgBuf = new int[2048];
+        final int retCode = OS.FormatMessage(OS.FORMAT_MESSAGE_FROM_SYSTEM, 0,
+                rc, 0, lpMsgBuf, lpMsgBuf.length, 0);
+        if (retCode == 0) {
+            throw new IllegalArgumentException(
+                    &quot;FormatMessageの呼び出しに失敗しました。処理中断します。(&quot; + OS.GetLastError()
+                            + &quot;)&quot;);
+        }
+
+        return lpmsgbuf2String(lpMsgBuf) + &quot;(&quot; + rc + &quot;)&quot;;
+    }
+
+    /**
+     * LPMSGBUFをjava.lang.Stringに変換します。
+     * 
+     * @param lpMsgBuf
+     *            C言語上としての文字列
+     * @return java.lang.String化された文字列
+     */
+    public static String lpmsgbuf2String(final int[] lpMsgBuf) {
+        final StringWriter result = new StringWriter();
+        for (int index = 0; index &lt; lpMsgBuf.length; index++) {
+            if (lpMsgBuf[index] == 0) {
+                // NULLが現れたら中断。
+                break;
+            }
+            result.write(lpMsgBuf[index]);
+
+            if (lpMsgBuf[index] / 0x10000 == 0) {
+                // NULLが現れたら中断。
+                break;
+            }
+            result.write(lpMsgBuf[index] / 0x10000);
+        }
+        result.flush();
+        return result.toString();
+    }
+
+    public static void main(String[] args) {
+        // SWTによるWinAPIコールを試みます。
+        process();
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※こちらのサンプルについては、多少 <A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>により加筆が加えられています。</BLOCKQUOTE>
+<P>こんなことが Java + SWTだけで実現できるなんて全く知りませんでした。C言語コンパイラなどを一切利用していません。これは衝撃です。<BR>
+<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>さんのクエストに感謝します。そして 回答を考えている間に このような発見をされた <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さん(A-san)
+は素晴らしいです。もう脱帽です。Javaと Win32API そして SWTの全てに精通されている<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さんだからこそ
+この解にまでたどり着くことが可能なのですもの。</P>
+<HR>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さん(a-san)の日記のほうに、この件と同じ件に関する日記があります。もちろん a-sanの日記の方がオリジナル版となります。<BR>
+# そして、ここまで書いた後で 日記にも記載があると気がつきました (苦笑)</P>
+<UL>
+  <LI>SWTでレジストリの値を取得<BR>
+  <A HREF="http://d.hatena.ne.jp/a-san/20051228">http://d.hatena.ne.jp/a-san/20051228</A>
+  <LI>ＳＷＴにＷｉｎＡＰＩのラッパクラス<BR>
+  <A HREF="http://d.hatena.ne.jp/a-san/20051227">http://d.hatena.ne.jp/a-san/20051227</A>
+</UL>
+<P>いずれにしても SWT経由で Win32APIを呼び出すことが出来るという この発見は 重要なものであると考えます。このAPIは SWTパッケージ内の
+更にinternalパッケージ内に位置づけられているので、Eclipseがバージョンアップする際などに仕様が変更される可能性はあります。しかし
+それを差し引いても 自前でJNIを使うのに比べて遙かに安全で そして手軽さがあるので、レジストリアクセスなどの必要がある場合には積極的に利用していきたいと思います。</P>
+<P><FONT color="#ff00ff">関連しそうなリソース</FONT></P>
+<UL>
+  <LI><A href="http://forum.skype.com/viewtopic.php?t=42871&">http://forum.skype.com/viewtopic.php?t=42871&amp;</A>
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/20051227">http://d.hatena.ne.jp/a-san/20051227</A>
+  <LI><A HREF="http://skype.sourceforge.jp/">http://skype.sourceforge.jp/</A>
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig061108.html">2006/11/08 日記: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</A>
+  <LI><A href="ig050615.html">2005/06/15 日記: コンピュータ・ソフトウェアの本質 , SWTスクリーンセーバ</A>
+  <LI><A href="ig050408.html">2005/04/08 日記: 「ラッパークラス・デザインパターン」というものの存在</A>
+  <LI><A href="ig050328.html">2005/03/28 日記: SQL整形Eclipseプラグイン情報を希望 , 花粉症の症状が満載…</A>
+  <LI><A href="ig050324.html">2005/03/24 日記: リッチクライアント技術は Java + SWT に資源集中を行っていきます</A>
+  <LI><A href="../2004/ig040423.html">2004/04/23 日記: 今年度の計画: Swing / SWT を流行らせます！</A>
+  <LI><A href="../2004/ig040107.html">2004/01/07 日記: javax.print初体験</A>
+  <LI><A href="../2002/ig021101.html">2002/11/01 日記: SWT (Standard Widget Toolkit) という選択肢</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTを用いたリッチクライアント時代のセキュリティ観点</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>SWTを用いると .NET Frameworkで実現できるような Windowsアクセスの機能性の多くが Javaで実現できることになります。一方で
+SWTでここまでの機能性が実現出来てしまうのだとすると、SWTを用いたリッチクライアント時代では SWTに関するセキュリティに 関心を持ち始める必要があることに気がつかされました。SWTを用いると
+確かに非常に多くの機能性を得ることが出来ます。しかし一方で SWTの機能性ゆえにセキュリティには気をつかわなくてはならないのです。何年後かには
+この観点は重要なものになっていくことでしょう。あるいは SWTにもセキュリティポリシーの機能性が実装されるべきなのかも知れません。</P>
+<P>私が考えつく 現時点で対応しておくべき注意点は、SWTのJARやDLLを 通常のJava実行環境のパスには<STRONG><FONT color="#ff00ff">入れてはいけない</FONT></STRONG>こいうとです。Java言語の実行環境に精通している人ほど swt-win32-XXXX.dllなどの大きいファイルを 共通化してファイルサイズ削減に努めると思いますが、今まで挙げた機能がSWTに備わっている以上、意識していな場合には
+SWTを実行環境に加えてしまうのは大変危険です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: チャイコフスキー作曲「悲愴」</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2005/12/08放送 日本テレビ(4ch) 読売交響楽団＋広上淳一 を視ました。広上さんのテンポ設定などの絶妙さなどが 素晴らしいと思いました。</P>
+
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

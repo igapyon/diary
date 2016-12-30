@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/07/24 日記: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</TITLE>
+<META name="DESCRIPTION" content="JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/07/24 日記: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.6 を Sun Java SE 1.4.2_12で動作させるためのパッチ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチをあてたjarファイルをつくりました。</P>
+<UL>
+  <LI>パッチ作成手順<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc</A>
+  <LI>パッチ適用済み jarファイル<BR>
+  <A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A> 1.0.0 に同梱されています。
+</UL>
+<P>このパッチの内容は <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>メーリングリストにながれていた内容と同等のものです。メーリングリストに このパッチを次期版に正式に取り込んでもらえるよう働きかけを行いたいと考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060928.html">2006/09/28 日記: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoDb Enterprise Edition 1.6.6, blancoDbDotNet 0.3.8
+      (Sun Java SE 1.4.2_12で動作可) の出荷候補リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>パッチが適用済みのJExcelApiを組み込んだ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition および
+blancoDbDotNet を作成しました。チェックをしたうえで、近日中にリリースしたいと思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>その他のblanco Framework リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JExcelApiパッチ適用を契機に、これと同期をとって下記のプロダクトについてリビジョンアップをおこないました。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A> 1.0.0
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoCodeGenerator" TITLE="ソースコード自動生成ライブラリです。※旧世代のblanco Frameworkプロダクトは このライブラリを利用していました。これの代わりに blancoCgを利用することを推奨します。">blancoCodeGenerator</A> 1.0.2
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A> 1.0.0
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

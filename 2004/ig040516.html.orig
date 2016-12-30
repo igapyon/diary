@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/05/16 日記: IrisというDVコーデック</TITLE>
+<META name="DESCRIPTION" content="自宅ディスプレイ RDF193Hのディスプレイドライバを更新してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/05/16 日記: IrisというDVコーデック</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 自宅ディスプレイ RDF193Hのディスプレイドライバを更新してみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IrisというDVコーデック</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Software DV Codec &quot;Iris&quot;<BR>
+  <A HREF="http://www.ops.dti.ne.jp/~vsync/software/dviris/dviris.html">http://www.ops.dti.ne.jp/~vsync/software/dviris/dviris.html</A>
+</UL>
+<P>ひさしぶりにIrisのホームページに行って最新版をダウンロードしました。今回はDirectShow置き換えモードというスイッチが追加されていて、私はこのスイッチをONでインストールしました。<BR>
+…これがMicrosoft Media Playerの再生コーデックに効果を持っていると考えている私。間違っていたら誰か突っ込んで下さいね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>最近お疲れ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>疲れが溜まってきています。</P>
+<P>ちなみに＠ITの記事をメモ</P>
+<UL>
+  <LI>第7回　「うつ病」と「憂うつ」との違いは？<BR>
+  <A HREF="http://jibun.atmarkit.co.jp/ljibun01/column/stress/stress07.html">http://jibun.atmarkit.co.jp/ljibun01/column/stress/stress07.html</A>
+</UL>
+<P>さらに、明日は健康診断なのですが、なんだかバリウムっぽいものを飲まないといけない模様です。う～ん。不安だなぁ…<BR>
+→案の定、ひどい目に遭いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>RDF193Hのドライバを取得＆適用</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>自宅のディスプレイ RDF193H について、ディスプレイドライバを取得して適用してみました。<BR>
+検索すると すぐにWindows XP用ドライバが発見できました。さっそくこれを適用しました。なんだかうれしいです(効果の程は不明)。<BR>
+さしあたりリフレッシュレートを 60から75に向上したら、見た感じがとても目に優しくなりました。ふむ、これは「ほんとうに」目に見えて効果があります。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

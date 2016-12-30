@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/06/07 日記: Debian GNU/Linux 3.1 (sarge) リリース , blancoCommons - blancoCalcParser
+の作成 , Curl勉強開始</TITLE>
+<META name="DESCRIPTION" content="待望の最新版 Debian GNU/Linux 3.1 (sarge)がリリースされました！ , 1.3人日程度をつっこんで Excel(Calc)のSAX2パーサを作成しました。、、、楽しかったです(苦笑) , Curl勉強開始">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/06/07 日記: Debian GNU/Linux 3.1 (sarge) リリース , blancoCommons - blancoCalcParser
+の作成 , Curl勉強開始</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 待望の最新版 Debian GNU/Linux 3.1 (sarge)がリリースされました！ , 1.3人日程度をつっこんで Excel(Calc)のSAX2パーサを作成しました。、、、楽しかったです(苦笑) , Curl勉強開始</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Debian GNU/Linux 3.1 (sarge) リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>もっともフリーなLinuxディストリビューションのひとつである Debianについて、待望の最新版 Debian GNU/Linux 3.1
+(sarge)がリリースされました。</P>
+<UL>
+  <LI>Debian GNU/Linux 3.1 がリリース<BR>
+  <A HREF="http://www.debian.org/News/2005/20050606">http://www.debian.org/News/2005/20050606</A>
+</UL>
+<P>すばらしいです。関係者の皆様、ご苦労様でした。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Curl (カール) 勉強開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Curlについて 初歩の初歩から始めます。</P>
+<UL>
+  <LI>株式会社カール
+  <LI>Curlアプリケーション
+  <UL>
+    <LI>サーバ側にライセンスキー
+    <LI>クライアント側には実行環境 Surge RTE
+  </UL>
+</UL>
+<P>SurgeというのがSargeのTYPOのように見えてしまいがちです。はい。</P>
+<P>ダウンロードしたものは下記のものです。</P>
+<UL>
+  <LI><A HREF="http://www.curlap.com/html/download/index.html">http://www.curlap.com/html/download/index.html</A>
+  <LI>Surge Lab IDE 60日体験版
+  <LI>Localhost用ライセンスキー 
+</UL>
+<P><FONT color="#ff0000">2005.06.15追記</FONT> ひがさんがCurlのメモを書かれていたのでリンク</P>
+<UL>
+  <LI>ひがやすをblog<BR>
+  <A HREF="http://d.hatena.ne.jp/higayasuo/20050614">http://d.hatena.ne.jp/higayasuo/20050614</A>
+</UL>
+<P><FONT color="#ff0000">2005.06.17追記</FONT> ＠ITに記事が載っていたので、これをメモ</P>
+<UL>
+  <LI>第1回 入力系アプリケーションでCurlを使ってみる<BR>
+  <A HREF="http://www.atmarkit.co.jp/fwcr/rensai/curl01/curl01_1.html">http://www.atmarkit.co.jp/fwcr/rensai/curl01/curl01_1.html</A>
+  <LI>第2回 Curlによるオブジェクト指向開発と強力な標準クラス<BR>
+  <A HREF="http://www.atmarkit.co.jp/fwcr/rensai/curl02/curl02_1.html">http://www.atmarkit.co.jp/fwcr/rensai/curl02/curl02_1.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCommons - blancoCalcParserの作成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>1.3人日程度をつっこんで、<A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A>サブプロジェクトに属する Excel(Calc)に対するSAX2パーサである
+blancoCalcParser を作成しました。(ちょうどヒトミ先輩が会議から戻ってくるのに時間がかかっていたので、稼働をつっこんでしまいました)<BR>
+これで <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの中の Excel読み込みロジック部分が醜くなりがちなことについて、これを抑止することができそうな期待感が沸きます。そして実際のところ、blancoCalcParserを用いれば、位置情報をプログラミング上から排除できる上に
+多少の Excel様式変更に対して耐性が付きます。(設定ファイルさへ変更の必要がありません)</P>
+<P>直近に控える blancoCurl 試作およびblancoCsv開発に対応するために 火急ということで えいやあで作り上げました。まだ単体試験レベルです。これから
+<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> EEに組み込みの疎通粗通し単体試験を行いますです。<BR>
+そうこうしているうちに、鬼のようなスケジュールで blancoCurlを試作する予定が…</P>
+<P><FONT color="#ff0000">2005.06.17追記</FONT> blancoCalcParserを用いて Excelブック読み込み処理を行う実装に変更したことにより、Excel様式に ある程度の変更が加わっても
+<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>はプログラム変更なしに Excelブック読み込み処理を実行することができるようになりました。blancoCalcParserは
+実は重要で非常に効果的なライブラリであるような気がしてきました。<BR>
+でも私は利用者ドキュメントを書く気力は残っておりませんです…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

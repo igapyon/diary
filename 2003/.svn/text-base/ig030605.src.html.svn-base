@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/05 日記: Sun Java Web Services Developer Pack 1.2 リリース</TITLE>
+<META name="DESCRIPTION" content="Sun の Webサービス開発キットも 地道に版を重ねています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig030605-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.axissoft.co.jp/biz/bizbd/index.html">BizBrowser</A> というソフトについて ちょちょっと調べる必要が出てきた模様です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WebLogic の JDBCコネクションプール設定方法をざっと調べる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>@IT: 止まらないWebシステム構築の基礎知識<BR>
+  [replace-href:http://www.atmarkit.co.jp/fjava/rensai/webablty02/webablty02.html]<BR>
+  WebLogicの高可用性に関するBEAの手による記事があります。
+  <LI>WebLogic 6.0用の設定例<BR>
+  [replace-href:http://www.beasys.co.jp/e-docs/wls60e/adminguide/jdbc.html#1002639]<BR>
+  jDriver用ですが、下記のような Oracleっぽい記載がありました。<BR>
+  user=scott;password=tiger;server=localdb
+  <LI>WebLogic on MaxOS X / JDBC(Oralce)のセットアップ<BR>
+[replace-href:http://notebook.votes.jp/java/weblogic/setup_jdbc.php]<BR>
+  名前：OracleThinDriver、URL[jdbc:oracle:thin:@oracle.example.co.jp:1521:orcl9] ドライバクラス名[oracle.jdbc.driver.OracleDriver] プロパティ[user=scott password=tiger]で作成。データソース作成は、JDBCデータソースを開き、「新しい JDBC Data Source の作成 」を選択。名前・JNDI名にOracleThinDataSourceを入力し、プール名にOracleThinDriverを入力する。作成ボタンを押す。
+</UL>
+<P>もうちょい。<BR>
+</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030605-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

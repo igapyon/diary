@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/04 日記: 自宅が上の階から水漏れ</TITLE>
+<META name="DESCRIPTION" content="C/C++用MD5実装を調査">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/12/04 日記: 自宅が上の階から水漏れ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] C/C++用MD5実装を調査</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今朝起きたら自宅が上の階側から水漏れしてきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>妻がびっくりして 『雨漏り』と言っていて 私もびっくりしておきました。なんと
+二階から水が漏れだしてきています。トイレと洗面所の天井から ぽたぽた、ぼたぼたと水が落ちてきます。鉄筋コンクリート製マンションなのですが、雨漏りとは驚き、と思いました
+(その時点では寝ぼけていました)<BR>
+後で分かったのですが、上の階の洗濯機のホースがはずれたとのこと。上の階のご自宅は大惨事になっていたそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5実装などを調査…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Visual C++.NETには MD5 APIが無いっぽいので、世のMD5実装をざっくり検索してみました。</P>
+<UL>
+  <LI>RFC1321-based (RSA-free) MD5 library<BR>
+  <A HREF="http://sourceforge.net/projects/libmd5-rfc/">http://sourceforge.net/projects/libmd5-rfc/</A><BR>
+  zlib/libpng ライセンスなMD5実装。
+  <LI>Crypto++ Library 5.0<BR>
+  <A HREF="http://www.eskimo.com/~weidai/cryptlib.html">http://www.eskimo.com/~weidai/cryptlib.html</A><BR>
+  沢山のラインナップが印象的。
+  <LI>MD5 Homepage (unofficial)<BR>
+  <A HREF="http://userpages.umbc.edu/~mabzug1/cs/md5/md5.html">http://userpages.umbc.edu/~mabzug1/cs/md5/md5.html</A><BR>
+  ここに種々の言語用MD5実装のリストが載っていました。
+  <LI>Visual C++によるMD5実装<BR>
+  <A HREF="http://www.langfine.com/rsa_md5.htm">http://www.langfine.com/rsa_md5.htm</A>
+</UL>
+<P>GZIPも調べてみました。こちらは どんぴしゃみたいな感じのページがありました。が
+とうぜんながらライセンスがGNU GPLです。ふ～む。</P>
+<UL>
+  <LI>The gzip home page<BR>
+  <A HREF="http://www.gzip.org/">http://www.gzip.org/</A><BR>
+  GNU GPLライセンス。
+</UL>
+<P>MIME base64 実装は 気の利いたものはありませんでした。たいしたこと無いので自作は簡単ですが、できれば手を抜きたい
+(苦笑)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">読者のタキーさんからのツッコミ</FONT></STRONG><BR>
+はじめまして。タキーと申します。<BR>
+いつも楽しく拝見させていただいております。</P>
+<UL>
+  <LI>Visual C++.NETでMD5実装がないっぽいということですがちゃんとあるようです。<BR>
+  <A HREF="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemSecurityCryptographyMD5CryptoServiceProviderClassTopic.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemSecurityCryptographyMD5CryptoServiceProviderClassTopic.asp</A>
+</UL>
+<P>当方で試してはいないのですが、ご参考になれば幸いです。</P>
+<HR>
+<P><FONT color="#ff0000">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+ATL ServerベースのMD5実装ですね。ツッコミありがとうございます。<BR>
+配布周りで 今回の仕事案件内容に合致するかどうか よくよく見てみます。(今回のは
+クライアントが不特定多数というハードな案件なので 配布の方法が 気になるところなのです)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">読者の木村さんからのツッコミ</FONT></STRONG><BR>木村です。年末が近くなると気が滅入るのは私だけ?<BR>
+<BR>
+&gt;&gt;GZIPも調べてみました。</P>
+<UL>
+  <LI>お仕事でzip使うならばJavaにも使われている(?)zlibでしょう。<BR>
+  <A HREF="http://www.gzip.org/zlib/">http://www.gzip.org/zlib/</A>
+</UL>
+<P># はずしてたらごめんなさい。</P>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+めちゃめちゃヒットです。とってもありがとうございます。zlibのZIPで行きます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 4.1.12 をインストールしてみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>影響を受けて 私も とりあえず単体ですが Tomcat 4.1.12 をインストールしてみました。Windows
+XP Pro + J2SE 1.4.0_01 に exeタイプの配布モジュールを使ってインストールしました。まあ、これは簡単にインストールできるようになったものですね。クリック数回でTomcatがインストールできます。<BR>
+ところがインストールして実施したのは Sampleサーブレットを動かしただけ という
+(苦笑) WinInetベースのC++クライアント実装をしようとしているのですが、それの簡単テストサーバということで
+Tomcatを入れたのでした。ちゃんちゃん。(むろん いつかマジメに Tomcatと向き合う必要があるように思うのでした)</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig021204.src.html' , result='ig021204.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig021204-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">Javaの理論と実践: スレッドはどこへ消えた?</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RuntimeException系例外などで スレッドが音もなく消えてしまう問題への考察。随分昔ですが私も これに悩まされたことがあります。(その時は Error系だったですけれどもね)<LI><A HREF="http://www.mozilla.org/">Mozilla 1.2.1 リリース</A> <FONT size="-2"><A target="_blank" HREF="http://www.mozilla.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>さて ダウンロードっ<LI><A HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">WindowsサーバはLinuxより安上がり？</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Microsoftがスポンサーとなった調査の報告では Windowsの方が安上がりなんですって。価格面での争いに持ち込もうとしているのですね…。ものすごいことです。</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

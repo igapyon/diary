@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030304.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030304.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/03/01/642189-000.html">
+    <title>日本IBMが2002年度の決算を発表--Linux関連事業の売り上げが30%増加</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/03/01/642189-000.html</link>
+    <description>UNIXやWebSphereが好調な伸び なのだそうです。世の中の移り変わりって激しそうですね。</description>
+    <dc:date>2003-03-04T11:59:05</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/02/28/642188-000.html">
+    <title>米IBMと米Butterfly.netがPlayStation 2ゲーム開発向けLinuxグリッドを提供</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/02/28/642188-000.html</link>
+    <description>PS2のオンラインゲームをグリッドベースで簡単に作成できるようにするための開発キットである模様。WebSphereやDB2が登場するのだそうな…</description>
+    <dc:date>2003-03-04T11:59:05</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/04/nebt_06.html">
+    <title>UNIXサーバ市場でHPとIBMが首位に</title>
+    <link>http://www.zdnet.co.jp/news/0303/04/nebt_06.html</link>
+    <description>UNIXにおいて、SunをHPとIBMが追い抜く時が訪れようとしているのでしょうか。</description>
+    <dc:date>2003-03-04T11:14:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/04/nebt_12.html">
+    <title>BEA、困難に直面し対応強化へ</title>
+    <link>http://www.zdnet.co.jp/news/0303/04/nebt_12.html</link>
+    <description>IBMとオープンソースがライバルなのだそうな。大変な戦いを強いられそうですね。</description>
+    <dc:date>2003-03-04T11:14:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/04/nebt_10.html">
+    <title>Palm、ハイエンドPDA不調で業績下方修正</title>
+    <link>http://www.zdnet.co.jp/news/0303/04/nebt_10.html</link>
+    <description>Palmにはがんばってほしいです。WorkPadユーザとしては… (苦笑)</description>
+    <dc:date>2003-03-04T11:14:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/04/nebt_17.html">
+    <title>Cisco、工場の熱と振動に耐えるスイッチ発表</title>
+    <link>http://www.zdnet.co.jp/news/0303/04/nebt_17.html</link>
+    <description>工場などの過酷な環境下でも妥当に動作してくれるネットワーク機器って必要ですよね。</description>
+    <dc:date>2003-03-04T11:59:05</dc:date>
+  </item>
+
+</rdf:RDF>

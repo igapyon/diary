@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020517.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020517.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html">
+    <title>IBM dW: Javaコードを守る方法 (あるいは他人のJavaコードを参照する方法)</title>
+    <link>http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html</link>
+    <description>逆コンパイルの話題が述べられています。逆コンパイルをしようと思うかどうかはさておき、Java言語で書かれたプログラムは 常に逆コンパイルの可能性にさらされているという点を認識することがとても重要なことです。</description>
+    <dc:date>2002-05-17T11:08:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0205/16/02051604.html">
+    <title>サンが日本語対応の「StarSuite 6.0」正式発表，ソースネクストがリテール版販売へ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0205/16/02051604.html</link>
+    <description>結構良くまとまって書かれていました。</description>
+    <dc:date>2002-05-17T09:26:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/16/njbt_03.html">
+    <title>サン、「StarSuite 6.0」を発表</title>
+    <link>http://www.zdnet.co.jp/news/0205/16/njbt_03.html</link>
+    <description>これのオープンソース版がOpenOffice.orgに一応該当します。</description>
+    <dc:date>2002-05-17T09:14:10</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408">
+    <title>米Sun、オフィス・ソフト「StarOffice 6.0」を発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408</link>
+    <description>OpenOffice.orgは継続する、とこの記事には書いてありました。ぜひ継続して欲しいです。</description>
+    <dc:date>2002-05-17T09:26:03</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533">
+    <title>MS Officeとほぼ“互換”のオフィス製品「StarSuite」が国内販売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533</link>
+    <description>なぜStarSuiteという商品名なのか、の説明も書かれていました。</description>
+    <dc:date>2002-05-17T09:26:03</dc:date>
+  </item>
+
+</rdf:RDF>

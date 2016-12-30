@@ -1,0 +1,563 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/06 日記: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Edition 1.4.0, blancoResourceBundle 0.4.5, BlancoSqlEditorPlugin 0.3.4について、出荷候補版をリリースします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Apache,BCEL,バイトコード">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/06 日記: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Apache,BCEL,バイトコード] blancoDb Enterprise Edition 1.4.0, blancoResourceBundle 0.4.5, BlancoSqlEditorPlugin 0.3.4について、出荷候補版をリリースします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>不意に30分ほど時間が自由になったので、Apache Jakarta BCELを用いたクラスファイル解析(バイトコード解析)を試してみました。とても簡単に動作させることが出来ました。</P>
+<UL>
+  <LI>Apache Jakarta BCEL 5.1<BR>
+  <A HREF="http://jakarta.apache.org/bcel/index.html">http://jakarta.apache.org/bcel/index.html</A>
+  <LI>Sun JDK 1.4.2_10 (Windows版)
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">BcelReadClassSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル
+ */
+import java.io.IOException;
+
+import org.apache.bcel.classfile.ClassFormatException;
+import org.apache.bcel.classfile.ClassParser;
+import org.apache.bcel.classfile.Code;
+import org.apache.bcel.classfile.JavaClass;
+import org.apache.bcel.classfile.Method;
+import org.apache.bcel.classfile.Utility;
+
+/**
+ * Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル
+ * 
+ * @author IGA Tosiki
+ */
+public class BcelReadClassSample {
+    /**
+     * 解析を行いたいクラスファイル名を指定します。
+     */
+    private static final String CLASS_MODULE = &quot;./bin/BcelReadClassSample.class&quot;;
+
+    public static final void main(final String[] args) {
+        new BcelReadClassSample().process();
+    }
+
+    private final void process() {
+        try {
+            final JavaClass javaClass = new ClassParser(CLASS_MODULE).parse();
+            System.out.println(&quot;クラス名:&quot; + javaClass.getClassName());
+            System.out.println(&quot;親クラス:&quot; + javaClass.getSuperclassName());
+
+            final org.apache.bcel.classfile.Method[] methods = javaClass
+                    .getMethods();
+            for (int indexMethod = 0; indexMethod &lt; methods.length; indexMethod++) {
+                final Method method = methods[indexMethod];
+                System.out.println(&quot;メソッド:&quot; + method.getName());
+                final Code code = method.getCode();
+                if (code == null) {
+                    continue;
+                }
+
+                /**
+                 * メソッドのなかのバイトコードを解析
+                 */
+                final String result = Utility.codeToString(code.getCode(),
+                        javaClass.getConstantPool(), 0, -1, false);
+                System.out.println(result);
+            }
+        } catch (ClassFormatException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>実行結果は下記のようになります。主立った処理は Utility.codeToString のなかで行われています。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>クラス名:BcelReadClassSample
+親クラス:java.lang.Object
+メソッド:&lt;init&gt;
+0:    aload_0
+1:    invokespecial     java.lang.Object.&lt;init&gt; ()V
+4:    return
+
+メソッド:main
+0:    new               &lt;BcelReadClassSample&gt;
+3:    dup
+4:    invokespecial     BcelReadClassSample.&lt;init&gt; ()V
+7:    invokespecial     BcelReadClassSample.process ()V
+10:   return
+
+メソッド:process
+0:    new               &lt;org.apache.bcel.classfile.ClassParser&gt;
+3:    dup
+4:    ldc               &quot;./bin/BcelReadClassSample.class&quot;
+6:    invokespecial     org.apache.bcel.classfile.ClassParser.&lt;init&gt; (Ljava/lang/String;)V
+9:    invokevirtual     org.apache.bcel.classfile.ClassParser.parse ()Lorg/apache/bcel/classfile/JavaClass;
+12:   astore_1
+13:   getstatic         java.lang.System.out Ljava/io/PrintStream;
+16:   new               &lt;java.lang.StringBuffer&gt;
+19:   dup
+20:   ldc               &quot;クラス名:&quot;
+22:   invokespecial     java.lang.StringBuffer.&lt;init&gt; (Ljava/lang/String;)V
+25:   aload_1
+26:   invokevirtual     org.apache.bcel.classfile.JavaClass.getClassName ()Ljava/lang/String;
+29:   invokevirtual     java.lang.StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;
+32:   invokevirtual     java.lang.StringBuffer.toString ()Ljava/lang/String;
+35:   invokevirtual     java.io.PrintStream.println (Ljava/lang/String;)V
+38:   getstatic         java.lang.System.out Ljava/io/PrintStream;
+41:   new               &lt;java.lang.StringBuffer&gt;
+44:   dup
+45:   ldc               &quot;親クラス:&quot;
+47:   invokespecial     java.lang.StringBuffer.&lt;init&gt; (Ljava/lang/String;)V
+50:   aload_1
+51:   invokevirtual     org.apache.bcel.classfile.JavaClass.getSuperclassName ()Ljava/lang/String;
+54:   invokevirtual     java.lang.StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;
+57:   invokevirtual     java.lang.StringBuffer.toString ()Ljava/lang/String;
+60:   invokevirtual     java.io.PrintStream.println (Ljava/lang/String;)V
+63:   aload_1
+64:   invokevirtual     org.apache.bcel.classfile.JavaClass.getMethods ()[Lorg/apache/bcel/classfile/Method;
+67:   astore_2
+68:   iconst_0
+69:   istore_3
+70:   goto              #147
+73:   aload_2
+74:   iload_3
+75:   aaload
+76:   astore            %4
+78:   getstatic         java.lang.System.out Ljava/io/PrintStream;
+81:   new               &lt;java.lang.StringBuffer&gt;
+84:   dup
+85:   ldc               &quot;メソッド:&quot;
+87:   invokespecial     java.lang.StringBuffer.&lt;init&gt; (Ljava/lang/String;)V
+90:   aload             %4
+92:   invokevirtual     org.apache.bcel.classfile.Method.getName ()Ljava/lang/String;
+95:   invokevirtual     java.lang.StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;
+98:   invokevirtual     java.lang.StringBuffer.toString ()Ljava/lang/String;
+101:  invokevirtual     java.io.PrintStream.println (Ljava/lang/String;)V
+104:  aload             %4
+106:  invokevirtual     org.apache.bcel.classfile.Method.getCode ()Lorg/apache/bcel/classfile/Code;
+109:  astore            %5
+111:  aload             %5
+113:  ifnonnull         #119
+116:  goto              #144
+119:  aload             %5
+121:  invokevirtual     org.apache.bcel.classfile.Code.getCode ()[B
+124:  aload_1
+125:  invokevirtual     org.apache.bcel.classfile.JavaClass.getConstantPool ()Lorg/apache/bcel/classfile/ConstantPool;
+128:  iconst_0
+129:  iconst_m1
+130:  iconst_0
+131:  invokestatic      org.apache.bcel.classfile.Utility.codeToString ([BLorg/apache/bcel/classfile/ConstantPool;IIZ)Ljava/lang/String;
+134:  astore            %6
+136:  getstatic         java.lang.System.out Ljava/io/PrintStream;
+139:  aload             %6
+141:  invokevirtual     java.io.PrintStream.println (Ljava/lang/String;)V
+144:  iinc              %3      1
+147:  iload_3
+148:  aload_2
+149:  arraylength
+150:  if_icmplt         #73
+153:  goto              #169
+156:  astore_1
+157:  aload_1
+158:  invokevirtual     org.apache.bcel.classfile.ClassFormatException.printStackTrace ()V
+161:  goto              #169
+164:  astore_1
+165:  aload_1
+166:  invokevirtual     java.io.IOException.printStackTrace ()V
+169:  return
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<P>この例だと あまりにもBCELのUtility.codeToStringに依存しすぎているので、すこしマジメにプログラムとして解析する例を示します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">BcelReadClassSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル
+ */
+import java.io.IOException;
+
+import org.apache.bcel.Constants;
+import org.apache.bcel.classfile.ClassFormatException;
+import org.apache.bcel.classfile.ClassParser;
+import org.apache.bcel.classfile.Code;
+import org.apache.bcel.classfile.JavaClass;
+import org.apache.bcel.classfile.Method;
+
+/**
+ * Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル。
+ * 
+ * 少しマジメに解析する例
+ * 
+ * @author IGA Tosiki
+ */
+public class BcelReadClassSample {
+    /**
+     * 解析を行いたいクラスファイル名を指定します。
+     */
+    private static final String CLASS_MODULE = &quot;./bin/BcelReadClassSample.class&quot;;
+
+    public static final void main(final String[] args) {
+        new BcelReadClassSample().process();
+    }
+
+    private final void process() {
+        try {
+            final JavaClass javaClass = new ClassParser(CLASS_MODULE).parse();
+            System.out.println(&quot;クラス名:&quot; + javaClass.getClassName());
+            System.out.println(&quot;親クラス:&quot; + javaClass.getSuperclassName());
+
+            final org.apache.bcel.classfile.Method[] methods = javaClass
+                    .getMethods();
+            for (int indexMethod = 0; indexMethod &lt; methods.length; indexMethod++) {
+                final Method method = methods[indexMethod];
+                System.out.println(&quot;メソッド:&quot; + method.getName());
+                final Code code = method.getCode();
+                if (code == null) {
+                    continue;
+                }
+
+                /**
+                 * メソッドのなかのバイトコードを解析
+                 */
+                final byte[] codes = code.getCode();
+                for (int indexCode = 0; indexCode &lt; codes.length; indexCode++) {
+                    final short opcode = (short) (codes[indexCode] &lt; 0 ? ((short) codes[indexCode]) + 0x100
+                            : (short) codes[indexCode]);
+                    int oplen = Constants.NO_OF_OPERANDS[opcode];
+                    System.out.println(Constants.OPCODE_NAMES[opcode]);
+
+                    // オペレーション分進めます。
+                    indexCode += oplen;
+                }
+            }
+        } catch (ClassFormatException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>命令部の表示しかしていないので、実行後の結果は少なくなってしまいます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>クラス名:BcelReadClassSample
+親クラス:java.lang.Object
+メソッド:&lt;init&gt;
+aload_0
+invokespecial
+return
+メソッド:main
+new
+dup
+invokespecial
+invokespecial
+return
+メソッド:process
+new
+dup
+ldc
+invokespecial
+invokevirtual
+astore_1
+getstatic
+new
+dup
+ldc
+invokespecial
+aload_1
+invokevirtual
+invokevirtual
+invokevirtual
+invokevirtual
+getstatic
+new
+dup
+ldc
+invokespecial
+aload_1
+invokevirtual
+invokevirtual
+invokevirtual
+invokevirtual
+aload_1
+invokevirtual
+astore_2
+iconst_0
+istore_3
+goto
+aload_2
+iload_3
+aaload
+astore
+getstatic
+new
+dup
+ldc
+invokespecial
+aload
+invokevirtual
+invokevirtual
+invokevirtual
+invokevirtual
+aload
+invokevirtual
+astore
+aload
+ifnonnull
+goto
+aload
+invokevirtual
+astore
+iconst_0
+istore
+goto
+aload
+iload
+baload
+ifge
+aload
+iload
+baload
+i2s
+sipush
+iadd
+goto
+aload
+iload
+baload
+i2s
+i2s
+istore
+getstatic
+iload
+saload
+istore
+getstatic
+getstatic
+iload
+aaload
+invokevirtual
+iload
+iload
+iadd
+istore
+iinc
+iload
+aload
+arraylength
+if_icmplt
+iinc
+iload_3
+aload_2
+arraylength
+if_icmplt
+goto
+astore_1
+aload_1
+invokevirtual
+goto
+astore_1
+aload_1
+invokevirtual
+return
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>結構 BCELの敷居が低いことがわかりました。なんだか低水準に触れることが出来て 嬉しかったです。</P>
+<P>そういえば、私にとって BCELの最も身近な利用例は FindBugsです。FindBugsはバイトコード解析に BCELを利用していることが知られています。</P>
+<P><FONT color="#ff0000">注意:</FONT> このプログラムを実行すると バイトコードが可視化されます。何かしらの事情によりリバースエンジニアリングが禁止されているクラスファイルは解析すべきでないと考えます。</P>
+<P><FONT color="#ff0000">2006.01.10追記</FONT> FindBugsのソースコードは BCELの利用例としてとても参考になりました。BCELを詳しく知りたい方には FindBugsのソースコードを読まれることをお勧めしたいと思いました。</P>
+<P><FONT color="#ff00ff">関連するソース</FONT></P>
+<UL>
+  <LI>blancoBcel<BR>
+  <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoBcel">http://www.igapyon.jp/blanco/blancodownload.html#blancoBcel</A>
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060110.html">2006/01/10 日記: Jassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</A>
+  <LI><A href="../2005/ig050719.html">2005/07/19 日記: Jakarta BCEL 試用</A>
+  <LI><A href="../2005/ig051130.html">2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb EE 1.4.0, blancoResourceBundle 0.4.5, BlancoSqlEditorPlugin 0.3.4出荷候補版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Framework の構成要素のうち、blancoDb Enterprise Edition 1.4.0,
+blancoResourceBundle 0.4.5, BlancoSqlEditorPlugin 0.3.4について、出荷候補版をリリースします。この一週間の間に
+出荷候補版において特に問題 (特にデグレードなど) が見つからなければ、これを最新安定版と位置づける予定です。特に関係者の方はチェックをお願いいたします。<BR>
+なお、blancoDbは 仕様上の変更点が重要であると考え、特に下記にリストアップします。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition の 1.2.0から1.4.0への主な変更点は下記のようになります。</P>
+<OL>
+  <LI>Excel様式を改善しました。「SQL定義書」へと名称が変わりました。
+  <UL>
+    <LI>Excel様式を「SQL定義書」と名前変更し、内容についても見直しを行いました。
+    <LI>申し訳ありませんが、様式については 1.2.x系(旧バージョン)までとの互換性はありません。
+  </UL>
+  <LI>ストアドプロシージャ(CallableStatement)への対応を行いました。
+  <UL>
+    <LI>SQL定義書で「呼出型」を選択するとストアドプロシージャが利用できます。
+  </UL>
+  <LI>単一表サポート関連
+  <UL>
+    <LI>単一表のSQL文についてダブルクオートエスケープを必要な場合にのみ付与するように変更しました。<BR>
+  この対応により MySQL対応が可能となりました。<BR>
+  一方で HSQLDBはこの変更により動作しなくなります。<BR>
+    ダブルクオートが無いと動作しない HSQLDBの仕様が特殊なものであると判断します。
+    <LI>単一表アクセスのスクロール方向について見直しを実施しました。<BR>
+    デフォルトをインセンシティブとします。<BR>
+    プロパティでスクロール方向は変更が可能なようにしました。
+    <LI>単一表の全行SELECTについて、1.2系では無効化されていましたが、これを復活させました。
+    <LI>旧バージョンの互換性のために内部的にサポートしていた旧式のTableGatewayサポートを終了しました。
+    <LI>単一表のテーブルにおいて 表名に$が含まれている場合には、処理をしないように仕様変更しました。<BR>
+    これは Oracle10gにおいて、削除テーブルなどが BIN$●●というテーブルとして格納される仕様への対応のためです。
+  </UL>
+  <LI>ロギングへの対応
+  <UL>
+    <LI>Jakarta Commons Loggingに対応しました。
+  </UL>
+  <LI>新たなデータベースへの対応
+  <UL>
+    <LI>Oracle10gで動作確認しました。<BR>
+    →いままでは Oracle 9iまでの対応でした。
+    <LI>MySQLで簡単な動作確認をしました。
+  </UL>
+  <LI>エラー時の処理
+  <UL>
+    <LI>主なエラーメッセージをリソースバンドル化しました。
+    <LI>バインド忘れのパラメータがある場合に例外が発生するように変更しました。<BR>
+    また、SQL例外が なるべくそのまま伝わるように改善し、原因が究明しやすいようにしました。
+  </UL>
+  <LI>内部処理の改善
+  <UL>
+    <LI>名前変形の処理を抜本的に見直しました。
+    <LI>プラグインの進捗バーの表示が不適切であったのを修正しました。
+    <LI>プラグインのException, ErrorがEclipseのログに適切に出力されるように改善。
+    <LI>その他、ソースコードの大幅な整理を実施しました。総ステップ数がかなり減りました。
+  </UL>
+</OL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

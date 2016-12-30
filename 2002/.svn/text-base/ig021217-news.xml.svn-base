@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021217.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021217.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/17/nebt_08.html">
+    <title>EclipseにHPなど13社が加入</title>
+    <link>http://www.zdnet.co.jp/news/0212/17/nebt_08.html</link>
+    <description>HP、SAPなどが新規加入したのだそうな。メンバー企業のページを見てみたら、Borland, Fujitsu, Red Hat, HITACHI, IBM, SuSE, Sybase とかが載っていました。う～む、Eclipse恐るべし。(Borlandが入っているのは意外でした)</description>
+    <dc:date>2002-12-17T15:29:45</dc:date>
+  </item>
+
+</rdf:RDF>

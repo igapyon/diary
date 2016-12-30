@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030602.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030602.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://oooug.jp/mirror/">
+    <title>OpenOffice.org 日本ユーザー会</title>
+    <link>http://oooug.jp/mirror/</link>
+    <description>OpenOffice.org 1.0.3.1 を試しにダウンロードしてみる。OpenOffice.org 日本語版をダウンロードするには、ここからのダウンロードがとっても良好である模様。</description>
+    <dc:date>2003-06-02T09:58:13</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/05/12/643529-000.html">
+    <title>『OpenOffice.org 1.0.3』日本語版リリース──次期バージョンは10月頃に登場か?</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/05/12/643529-000.html</link>
+    <description>改めて、この記事をみて OpenOffice 1.0.3.1を試してみようと思いました。また、次期バージョンでは、PDF生成やMacromedia Flashファイルの生成ができる、ってアタリが とても興味をそそります。…で さっそく OpenOffice.org 1.0.3.1日本語版をダウンロードして試してみました。ほほう。動きます (笑) ワープロ・表計算・プレゼンテーションは まあ、何の気無しに動きました。HTMLエディタの方は 日本語が通過しない模様です。微妙に表示はできているので、ちと惜しいです。それにしても OpenOffice.org って 成長してきましたね。次期バージョン 1.1 が どんな強烈なインパクトがあるのか、今から楽しみになって来ます。また 道具だてとして OpenOffice.org があるのだから、Linuxデスクトップに果敢に挑戦する 好機だと考えることも出来ます。とにかく こんなすばらしいソフトを GPLでリリースしてくれて どうもありがとう！</description>
+    <dc:date>2003-06-02T09:58:13</dc:date>
+  </item>
+  <item rdf:about="http://finance.yahoo.com/q?s=SCOX&amp;d=t">
+    <title>SCO株価</title>
+    <link>http://finance.yahoo.com/q?s=SCOX&amp;d=t</link>
+    <description>SCOの株価を少しの間だけ追っています。</description>
+    <dc:date>2003-06-02T09:58:13</dc:date>
+  </item>
+
+</rdf:RDF>

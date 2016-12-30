@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/03/22 日記: Apache FtpServer でお手軽 FTP サーバ</TITLE>
+<meta name="DESCRIPTION" content="一時的な FTP サーバが必要だったので、手軽に構築でき、しかもコンピュータ構成環境に影響を与えない FTP サーバを探しました。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.1.0 for Windows">
+<meta name="DATE" content="2010-03-22T22:07:01+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/03/22 日記: Apache FtpServer でお手軽 FTP サーバ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 一時的な FTP サーバが必要だったので、手軽に構築でき、しかもコンピュータ構成環境に影響を与えない FTP サーバを探しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache FtpServer でお手軽 FTP サーバ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p>一時的な FTP サーバが必要だったので、手軽に構築でき、しかもコンピュータ構成環境に影響を与えない FTP サーバを探しました。</p>
+<p>その結果、私にとって一番手軽でニーズに合うのは以下の FTP サーバであることがわかりました。</p>
+<ul>
+  <li>Apache FtpServer<br>
+  <A HREF="http://mina.apache.org/ftpserver/">http://mina.apache.org/ftpserver/</A><br>
+  100% Pure Java による FTP サーバ。
+</ul>
+<p>なお、この FTP サーバは、私にとって便利というだけでもあります。</p>
+<ul>
+  <li>この FTP サーバの実行には、Java 実行環境が必要だからです。<br>
+  Java 実行環境の構築がおっくうでない方のためには、これは手軽な FTP サーバ構築として、とても素晴らしいと思います。
+  <li>一時的な利用のあとは、すぐさま FTP サーバの常駐を止める運用としました。<br>
+  Apache FtpServer のセキュリティ的な設定などについては、まったく調べていません。
+</ul>
+<ul>
+  <li>確認バージョン : 1.0.4
+  <li>ファイル名: ftpserver-1.0.4.zip
+</ul>
+<p>最低レベルの設定は以下の通り。</p>
+<ul>
+  <li>ポート番号: 2121
+  <li>ftpd-typical.xml を必要に応じて編集する。
+  <blockquote>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td bgcolor="#ffff00"><strong>res\conf\ftpd-typical.xml</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td>
+        <pre>&lt;file-user-manager file=&quot;./res/conf/users.properties&quot; encrypt-passwords=&quot;clear&quot;/&gt;</pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  ※user.properties ファイルのパスワードを平文に設定するための記述。</blockquote>
+  <li>users.properties に適宜ユーザを追加する。<br>
+  ★書込権限の設定を忘れないこと。
+  
+</ul>
+<p>実行コマンドは以下のとおり。</p>
+<ul>
+  <li>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td bgcolor="#ffff00"><strong>コマンド・プロンプト</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td>
+        <pre>bin\ftpd.bat res\conf\ftpd-typical.xml</pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  ※Windows では、ftpd.bat のように「bat」を付けることが重要。
+</ul>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/03/22 22:07:01 $</address>
+</BODY>
+</HTML>

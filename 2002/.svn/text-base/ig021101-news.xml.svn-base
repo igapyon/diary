@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021101.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021101.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/31/njbt_06.html">
+    <title>TDK、“傷に100倍強い”DVD-R/RWメディアを発売</title>
+    <link>http://www.zdnet.co.jp/news/0210/31/njbt_06.html</link>
+    <description>傷に100倍強い っていうふれこみは惹かれますね。</description>
+    <dc:date>2002-11-01T10:57:08</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/31/njbt_04.html">
+    <title>ドコモ、定額PHSデータ通信に来春参入、月額4000円台に</title>
+    <link>http://www.zdnet.co.jp/news/0210/31/njbt_04.html</link>
+    <description>PHS推進派の私としては 嬉しい傾向です。この方向性が電話としてのPHSの普及につながることを期待します。(アンテナ数が増えれば 結果的にPHS電話利用も便利になりますものね)</description>
+    <dc:date>2002-11-01T10:57:08</dc:date>
+  </item>
+
+</rdf:RDF>

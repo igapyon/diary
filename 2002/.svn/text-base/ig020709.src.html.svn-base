@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/07/09 日記: Apache FOP 0.20.4 リリース , はじめてのC#</TITLE>
+<META name="DESCRIPTION" content="台風が近づいてきています。季節ですねぇ。 , 杉山ヴァイオリン工房というヴァイオリン屋さん , C#を初めて使ってみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig020709-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>台風が近づいてきています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>台風が近づいてきています。梅雨はいずこへって感じですね。近日中に本州を直撃か…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>杉山ヴァイオリン工房というお店</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>杉山ヴァイオリン工房<BR>
+  [replace-href:http://www.geocities.co.jp/MusicHall/4825/]
+</UL>
+<P>私が愛用しているヴァイオリン屋さんです。杉山さんの技術を信頼して ヴァイオリン関連の事を
+いつもお願いしています。杉山さんのホームページがあったのですね。見つけて嬉しくなり、思わずリンクを張りました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>.NET Framework SDK メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>8月から .NET Framework SDK を触らなくてはならない予定なので、.NET Framework
+SDK について 簡単に調べてみました。</P>
+<UL>
+  <LI>Microsoft .NET Frameworkのホームページ<BR>
+  [replace-href:http://www.microsoft.com/japan/msdn/netframework/]<BR>
+  .NET Framework関連ソフトのダウンロードができます。
+  <LI>マイクロソフト、Java言語からC#への変換支援ツールJLCAのベータ2をリリース<BR>
+  [replace-href:http://www.microsoft.com/japan/presspass/releases/nl060502java.asp]<BR>
+  しかしこれは Visual C# がインストールされていないとインストールできない模様でした。<BR>
+  一方 私の次の仕事は ASP.NET なので、Visual C#.NET を採用した方が ず～っと生産性が高そうです。これが分かったのも大きな収穫です。
+</UL>
+<P>.NET Framework SDKをダウンロードしようと思いましたが、160MB というサイズにビビり
+他の方法を模索しました。その結果</P>
+<UL>
+  <LI>C MAGAZINE 2002年7月号<BR>
+  [replace-href:http://www.cmagazine.jp/index.html]
+</UL>
+<P>に .NET Framework SDK および SP1がCD-ROM付属しているという事実が発覚。早速買うことにします。しかもちょうど
+</P>
+<UL>
+  <LI>特集2<BR>
+マイクロソフトの最新プログラミングインタフェイス<BR>
+  見せます！ .NET Frameworkの全部
+</UL>
+<P>などという特集まで組んであるという。運命のいたずらを感じます (苦笑)</P>
+<P><FONT color="#ff0000">19:07</FONT> C MAGAZINE 2002/07 を買ってきて貰いました。CD-ROMに.NET Framework SDK
+が入っていて うれしかったです。ただし 特集２の内容は あまり満足できませんでした。(単に期待していた量よりも
+ず～っと量が少なかった)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はじめてのC#</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>はじめてのC#プログラムを書きました。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HelloCs.cs</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>using System;
+
+public class HelloCs {
+    public static void Main() {
+        Console.WriteLine(&quot;こんにちは。C#。&quot;);
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>なんか Javaに似ていますなぁ。using System の行で System名前空間内のクラスが一斉に利用可能になります。<BR>
+それのコンパイル結果。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+D:\temp\cs&gt;csc HelloCs.cs
+Microsoft (R) Visual C# .NET Compiler version 7.00.9466
+for Microsoft (R) .NET Framework version 1.0.3705
+Copyright (C) Microsoft Corporation 2001. All rights reserved.
+
+
+D:\temp\cs&gt;</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これで HelloCs.exe が作成されます。<BR>
+これの実行結果は下記のような感じです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>Microsoft Windows XP [Version 5.1.2600]<BR>
+(C) Copyright 1985-2001 Microsoft Corp.<BR>
+<BR>
+D:\temp\cs&gt;HelloCs<BR>
+こんにちは。C#。<BR>
+<BR>
+      D:\temp\cs&gt;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>で これは下記も同じ意味であるようです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HelloCs.cs</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class HelloCs {
+    public static void Main() {
+        System.Console.WriteLine(&quot;こんにちは。C#。&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>名前空間の指定方法が Java言語に似ていますね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FTPプロトコルのpassive mode といふもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>FTP プロトコルの passive mode にまつわる誤解<BR>
+  [replace-href:http://www.sra.co.jp/people/katsu/doc/ftp/aboutpassive.html]
+  <LI>RTシリーズのTCP/IPに関するFAQ: ftpのpassiveモード(PASVモード)って何ですか？<BR>
+  [replace-href:http://www.rtpro.yamaha.co.jp/RT/FAQ/TCPIP/ftp-passive-mode.html]
+</UL>
+<P>FTPプロトコルのpassive mode というやつが 何なのかを知る必要が少しありました。とりあえず理解しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java FTP Client</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Java FTP Client<BR>
+  [replace-href:http://www.enterprisedt.com/downloads/ftp.html]<BR>
+  LGPLなftpクライアント。
+</UL>
+<P>LGPLでJavaで書かれたftpクライアントがありました。結構良くできていそうなので、いつか試してあげてみたいです。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020709-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

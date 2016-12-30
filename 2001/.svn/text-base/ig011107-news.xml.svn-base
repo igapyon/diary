@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011107.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011107.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-07</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/07/b_1106_15.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/07/b_1106_07.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/07/ms.html"/>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/11/06/631049-000.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fdotnet/insiderseye/20011106wsover01/wsover01_01.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fjava/keyword/index/index.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/07/b_1106_15.html">
+    <title>息抜きもできないMicrosoftのセキュリティ対策チーム</title>
+    <link>http://www.zdnet.co.jp/news/0111/07/b_1106_15.html</link>
+    <description>なんだか可哀想だなぁ…。セキュリティ対策チームの人たちが悪いんじゃなくって そもそものソフトの出来映えの方に問題があるのですもの。</description>
+    <dc:date>2001-11-07T16:05:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/07/b_1106_07.html">
+    <title>SAP，Webサービス分野に進出</title>
+    <link>http://www.zdnet.co.jp/news/0111/07/b_1106_07.html</link>
+    <description>SAPが.NET(Microsoft)を見限った話とも関連がある</description>
+    <dc:date>2001-11-07T16:05:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/07/ms.html">
+    <title>MS，オンライン用語集をサポートサイトで提供へ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/07/ms.html</link>
+    <description>Windows XP で 更に用語が増えるから、それに対応すべくオンライン用語集を提供するのだそうな。なるほど 上手い考えですね。</description>
+    <dc:date>2001-11-07T16:05:03</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/11/06/631049-000.html">
+    <title>カーネル2.4.14リリース</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/11/06/631049-000.html</link>
+    <description>2.4系は 何時になったら『枯れる』のでしょう (苦笑)。早く枯れて欲しいなぁ。</description>
+    <dc:date>2001-11-07T16:05:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/insiderseye/20011106wsover01/wsover01_01.html">
+    <title>Webサービスへの主要3社の取り組み</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/insiderseye/20011106wsover01/wsover01_01.html</link>
+    <description>3社のWebサービス範囲でのやり口が、よくまとめて述べられています。関係ないですけれども、キーワードがハイパーリンクなのが嬉しかったです。(@ITの底力を垣間見た気がします)</description>
+    <dc:date>2001-11-07T15:39:06</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/keyword/index/index.html">
+    <title>Javaを紐解くための重点キーワード INDEX</title>
+    <link>http://www.atmarkit.co.jp/fjava/keyword/index/index.html</link>
+    <description>@ITさん、頑張ってらっしゃいます。ただ 現時点では Java言語上のAPI＆フレームワークのみに話題が終始しているのが 気がかりでした。でも 近日中にキーワードが増えるとの事が書いてあったので、それは時間が解決ことでしょう。こういった情報がWeb上に載せてあるってのが、とっても嬉しいですね。</description>
+    <dc:date>2001-11-07T15:44:47</dc:date>
+  </item>
+
+</rdf:RDF>

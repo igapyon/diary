@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030205.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030205.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/31/njbt_08.html">
+    <title>2万9800円PC、マウスコンピューターが発売</title>
+    <link>http://www.zdnet.co.jp/news/0301/31/njbt_08.html</link>
+    <description>昔 500ドルPCなどという単語がありましたが、今のパソコンの値段は 今は昔…ナニガシを感じさせる価格で販売されていますね。びっくりです。</description>
+    <dc:date>2003-02-06T08:54:37</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0301/31/lp26.html">
+    <title>マイクロソフト、脆弱性のあるSQL Server 2000を探すツール</title>
+    <link>http://www.zdnet.co.jp/broadband/0301/31/lp26.html</link>
+    <description>ある意味危険なツールかも… (苦笑) それはさておき 世のSQL Server 2000 に適切なパッチが適用されることを望みます。</description>
+    <dc:date>2003-02-06T08:54:37</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/01/nebt_08.html">
+    <title>KDEの強化に独政府のプロジェクト貢献</title>
+    <link>http://www.zdnet.co.jp/news/0302/01/nebt_08.html</link>
+    <description>政府組織とオープンソースとの協調が 今や現実的なできごとになってきたのですね。びっくりです。</description>
+    <dc:date>2003-02-06T08:54:37</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/01/nebt_05.html">
+    <title>Intuit、アクティベーションへの苦情に対応</title>
+    <link>http://www.zdnet.co.jp/news/0302/01/nebt_05.html</link>
+    <description>アクティベーション技術が 消費者の怒りをかった例の一つ。… いろいろ 様々なものに難しさがあるんだなぁ と (意味不明)</description>
+    <dc:date>2003-02-06T08:54:37</dc:date>
+  </item>
+  <item rdf:about="http://www.sony.jp/products/Consumer/DD/IC7000/">
+    <title>SONY IC電子辞書：IC-7000</title>
+    <link>http://www.sony.jp/products/Consumer/DD/IC7000/</link>
+    <description>妻が購入しました。</description>
+    <dc:date>2003-02-06T08:54:37</dc:date>
+  </item>
+
+</rdf:RDF>

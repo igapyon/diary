@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/03/13 日記: blancoNLpackGenerator: 抽出・マージ・差分取得のAntタスクを追加 , 花粉症の症状がひどい</TITLE>
+<META name="DESCRIPTION" content="花粉症の症状がひどいです。しんどいです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/03/13 日記: blancoNLpackGenerator: 抽出・マージ・差分取得のAntタスクを追加 , 花粉症の症状がひどい</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 花粉症の症状がひどいです。しんどいです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoNLpackGenerator: 抽出・マージ・差分取得のAntタスクを追加</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日、<A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A> に、以下の3つのAntタスクを追加しました。</P>
+<UL>
+  <LI>言語パックから翻訳を CSV形式で抽出
+  <LI>CSV形式の翻訳をマージ
+  <LI>CSV形式の翻訳の差分取得
+</UL>
+<P>なお、これら部分は α版扱いとします。(入力チェック系の実装やテストが未実施)</P>
+<P>この3機能は 私にとっては 非常に有益なものです。私の利用方法イメージは以下のようなものです。</P>
+<UL>
+  <LI>Eclipse 3.3.2 と Eclipse 3.4M5 との間の翻訳後結果の比較
+  <LI>Eclipse 3.3.2 言語パック(サードパーティ版) と Eclipse Babel 言語パック(ナイトリー・ビルド版)との翻訳結果の比較
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Babel の状況</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちなみに 現状の Eclipse Babel 言語パック(ナイトリー・ビルド版) は 翻訳率が とても低いです。(Eclipse 3.2 レベルに達していない状況)<BR>
+早期に まずは Eclipse 3.2レベルに到達してほしいと願っています。</P>
+<P><FONT color="#ff0000">2008.03.14追記</FONT> 1日経ったら、かなりの改善が実施されていました。Eclipse 3.2レベルの翻訳率に近づいています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.3 日本語化言語パック(サードパーティ版)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私も <A href="../../../../blanco/nlpack/eclipse/index.html">Eclipse 3.3 日本語化言語パック (サードパーティ版)</A> の恩恵を大いに受けています。(私は提供者という立場でもあります)<BR>
+Eclipse 3.3 Classic (SDK) を普通に利用している範囲だと、ほぼ完璧に日本語化されているように見えます。しかし まれに英語のまま表示されるところがあり、そういうところを 少しずつ改善しています。ちなみに現時点で Eclipse SDK (Classic) 3.3.2 の翻訳率は 92.1% です。<BR>
+実際に どのような状況でそのメッセージが表示されるのかが理解できてから、ようやく翻訳を検討することが出来ます。というのも、どのような状況で表示されるのか確認してからでないと、単に英文を見ただけでは
+誤訳を突っ込んでしまう恐れがあるからです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>花粉症の症状がひどい</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>花粉症の症状がひどいです。しんどいです。<BR>
+能力 70%低下 という感じです。<BR>
+ああ、しかも 締め切りを過ぎてしまった 某連載記事の原稿の進捗が これまた悪く、困っています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

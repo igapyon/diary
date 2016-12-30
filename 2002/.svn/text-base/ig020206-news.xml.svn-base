@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020206.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020206.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 0.9.8 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>あともうちょいで1.0ですなぁ。Netscapeも 同期を取るでしょうか。それも興味津々。</description>
+    <dc:date>2002-02-06T17:08:16</dc:date>
+  </item>
+
+  <item rdf:about="http://ascii24.com/news/i/soft/article/2002/01/31/633196-000.html">
+    <title>翼システム、100％Javaの帳票印刷モジュール『SVF for Java Print』の出荷を開始</title>
+    <link>http://ascii24.com/news/i/soft/article/2002/01/31/633196-000.html</link>
+    <description>結構頑張っているなぁ。というのも 仕事で作ったソフトが、このソフトと (一応・たぶん) 競合するのです</description>
+    <dc:date>2002-02-06T17:08:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.wmc.gr.jp/security/">
+    <title>情報モラルを学ぼう 怖～いサイトの仮想体験</title>
+    <link>http://www.wmc.gr.jp/security/</link>
+    <description>おおおっ。こ、これはすごい。うなってしまいました。なるほどモラルねぇ。インターネットの使い方って、無手勝流でやっている一般人が多いでしょうからね。</description>
+    <dc:date>2002-02-06T17:08:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/06/b_0205_16.html">
+    <title>ブッシュ政府，IT予算を増額</title>
+    <link>http://www.zdnet.co.jp/news/0202/06/b_0205_16.html</link>
+    <description>国力増強＋景気対策で 超500億ドルですって。</description>
+    <dc:date>2002-02-06T16:53:40</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/06/b_0205_09.html">
+    <title>Novell，Liberty Allianceに参加表明</title>
+    <link>http://www.zdnet.co.jp/news/0202/06/b_0205_09.html</link>
+    <description>対マイクロソフトの構図が さらにはっきりとしてきたなぁ…</description>
+    <dc:date>2002-02-06T16:53:40</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/06/b_0205_03.html">
+    <title>Lindows，プレビュー版をリリース</title>
+    <link>http://www.zdnet.co.jp/news/0202/06/b_0205_03.html</link>
+    <description>結果的に WINEが成長するのはうれしいです。(でも日本語は当分通りそうに無いですが :-&lt;)</description>
+    <dc:date>2002-02-06T16:53:40</dc:date>
+  </item>
+
+</rdf:RDF>

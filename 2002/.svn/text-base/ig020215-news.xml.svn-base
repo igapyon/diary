@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020215.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020215.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://xml.apache.org/xalan-j/index.html">
+    <title>Apache Xalan-Java 2.3.0リリース</title>
+    <link>http://xml.apache.org/xalan-j/index.html</link>
+    <description>Xalan-Javaも地道にこつこつリビジョンアップしていっています。なんたって J2SE 1.4 の一部ですものねぇ。</description>
+    <dc:date>2002-02-15T09:02:35</dc:date>
+  </item>
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2000/0302/ps2.htm">
+    <title>プレイステーション・ドットコムで顧客情報流出</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2000/0302/ps2.htm</link>
+    <description>URI積み込みのセキュリティ上の脆弱性…ですよね。</description>
+    <dc:date>2002-02-15T09:02:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/15/b_0214_06.html">
+    <title>Visual Studio .NETにセキュリティ上の懸念</title>
+    <link>http://www.zdnet.co.jp/news/0202/15/b_0214_06.html</link>
+    <description>バッファオーバーフロー攻撃に対して脆弱になりうる…ということは 本質的にメモリ管理がJava言語より駄目ってこと？ でしょうか。発売前からセキュリティホールを指摘されるのって、かわいそうですね。まあ 初物(最初のバージョン)だけに バグ、不具合、設計上の問題などは沢山あることでしょう (笑)</description>
+    <dc:date>2002-02-15T09:38:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/14/04.html">
+    <title>「Visual Studio .NET」日本語版は3月22日発売</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/14/04.html</link>
+    <description>日本語版もリリースですね。私が使うことは まず無いですけれども、ちょっと気になります (笑)</description>
+    <dc:date>2002-02-15T09:38:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/14/05.html">
+    <title>空中写真をネットで公開　国土地理院</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/14/05.html</link>
+    <description>空中写真公開、すっごく楽しみ。わくわく。そういえば 私 まがいなりにも 地学で学士を取ったのだものなぁ。(実質的には 楽士 かも知れません :-P</description>
+    <dc:date>2002-02-15T09:38:19</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20020213/1.html">
+    <title>ヨーロッパ大陸で急増する Opera ユーザー</title>
+    <link>http://japan.internet.com/linuxtoday/20020213/1.html</link>
+    <description>IEを駆逐する勢力が増えるのは好ましいことです。</description>
+    <dc:date>2002-02-15T13:44:06</dc:date>
+  </item>
+
+</rdf:RDF>

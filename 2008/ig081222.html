@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/12/22 日記: blancoCalcParser の利用サンプル</TITLE>
+<META name="DESCRIPTION" content="blanco Framework は Excel ブックを読み込んで各種ソースコードや設定ファイルを自動生成していますが、それを実現する根幹を成しているのが blancoCalcParser です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/12/22 日記: blancoCalcParser の利用サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Framework は Excel ブックを読み込んで各種ソースコードや設定ファイルを自動生成していますが、それを実現する根幹を成しているのが blancoCalcParser です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCalcParser の利用サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は Excel ブックを読み込んで各種ソースコードや設定ファイルを自動生成していますが、それを実現する根幹を成しているのが
+blancoCalcParser です。<BR>
+こちらの利用例が私にとって必要だったので、これをメモしておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>Xls2XmlSimpleSample.java</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import javax.xml.transform.TransformerException;
+
+import blanco.commons.calc.parser.BlancoCalcParser;
+
+public class Xls2XmlSimpleSample {
+    public static void main(String[] args) throws IOException,
+            TransformerException {
+        // Excel ブックから XML ファイルを生成。
+        new File(&quot;./tmp&quot;).mkdirs();
+        final InputStream inStreamDef = new BufferedInputStream(
+                new FileInputStream(&quot;src/Meta2Xml.xml&quot;));
+        final InputStream inStream = new BufferedInputStream(
+                new FileInputStream(&quot;meta/blancoFrameworkProductList.xls&quot;));
+        final OutputStream outStream = new BufferedOutputStream(
+                new FileOutputStream(&quot;./tmp/blancoFrameworkProductList.xml&quot;));
+        new BlancoCalcParser().process(inStreamDef, inStream, outStream);
+        inStreamDef.close();
+        inStream.close();
+        outStream.flush();
+        outStream.close();
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>サンプルなので、IOException などの例外処理については手を抜いて記述しています。</P>
+<P>Excel ブックの構造に関する情報は、以下のような XML 形式で記述して予め準備しておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>Meta2Xml.xml</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!-- blancoCalcParser define file --&gt;
+&lt;blanco version=&quot;0.1.0&quot;&gt;
+  &lt;target name=&quot;blancoCalcParser&quot;&gt;
+    &lt;blancocalcparser name=&quot;product&quot;&gt;
+      &lt;tableblock name=&quot;product-list&quot; waitY=&quot;1&quot; titleheight=&quot;1&quot; rowname=&quot;product&quot;&gt;
+        &lt;startstring&gt;プロダクト名&lt;/startstring&gt;
+
+        &lt;tablecolumn name=&quot;name&quot;&gt;
+          &lt;value&gt;プロダクト名&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;ant&quot;&gt;
+          &lt;value&gt;Ant
+タスク&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;eclipse&quot;&gt;
+          &lt;value&gt;Eclipse
+Plug-in&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;generator&quot;&gt;
+          &lt;value&gt;自動
+生成
+系&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;frequency&quot;&gt;
+          &lt;value&gt;出現
+頻度&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;effect&quot;&gt;
+          &lt;value&gt;導入
+効果&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;ease&quot;&gt;
+          &lt;value&gt;導入
+しやすさ&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;deprecated&quot;&gt;
+          &lt;value&gt;非
+推奨&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;description&quot;&gt;
+          &lt;value&gt;内　　容&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;input&quot;&gt;
+          &lt;value&gt;入力&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;java&quot;&gt;
+          &lt;value&gt;Java&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;cs.net&quot;&gt;
+          &lt;value&gt;C#
+.NET&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;js&quot;&gt;
+          &lt;value&gt;Java
+Script&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;vb.net&quot;&gt;
+          &lt;value&gt;VB
+.NET&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;PHP&quot;&gt;
+          &lt;value&gt;PHP&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;Ruby&quot;&gt;
+          &lt;value&gt;Ruby&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;Python&quot;&gt;
+          &lt;value&gt;Python&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+        &lt;tablecolumn name=&quot;other&quot;&gt;
+          &lt;value&gt;その他&lt;/value&gt;
+        &lt;/tablecolumn&gt;
+
+        &lt;valuemapping&gt;
+          &lt;result&gt;true&lt;/result&gt;
+          &lt;source&gt;○&lt;/source&gt;
+        &lt;/valuemapping&gt;
+      &lt;/tableblock&gt;
+    &lt;/blancocalcparser&gt;
+  &lt;/target&gt;
+&lt;/blanco&gt;</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>このサンプルを動作させることにより、Excel ブック (*.xls 形式) から XML ファイルを生成することができます。<BR>
+blancoCalcParser は下位層で JExcelApi を利用しています。blancoCalcParser は blancoCommons
+に同梱されています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

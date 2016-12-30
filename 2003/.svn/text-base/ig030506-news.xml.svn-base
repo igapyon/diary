@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030506.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030506.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/watch/story/0,2000047973,20053965,00.htm">
+    <title>LAMP/LAPP：フルオープンソースという魅力的な選択肢</title>
+    <link>http://japan.cnet.com/news/watch/story/0,2000047973,20053965,00.htm</link>
+    <description>LAMPとかいう新語は 初めてお目にかかりました。また、PostgreSQLって かなりの可能性を秘めているのですね。『某RDBMSベンダー』が全社レベル強い危機感を募らせるだけのことはあるようです。</description>
+    <dc:date>2003-05-06T20:48:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/01/epn16.html">
+    <title>Linuxの影響力拡大を目指すIBM</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/01/epn16.html</link>
+    <description>とっかかりとして LinuxはUNIXの代替なのですね。勉強になります。</description>
+    <dc:date>2003-05-06T20:48:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/01/cjad_kobayashi.html">
+    <title>「ベルリナー式円盤蓄音機」を作ってみた</title>
+    <link>http://www.zdnet.co.jp/news/0305/01/cjad_kobayashi.html</link>
+    <description>これは良いです。暇が出来たらぜひ遊びたいです。</description>
+    <dc:date>2003-05-06T20:48:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/01/epn02.html">
+    <title>Windows Server 2003のリリースで活気づくサーバ市場</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/01/epn02.html</link>
+    <description>完全に機を逸したのかどうかが興味深いです。それは未来においてしかわからないことですが…</description>
+    <dc:date>2003-05-06T20:48:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/04/nebt_01.html">
+    <title>OpenOffice.org、ダウンロード1000万件突破</title>
+    <link>http://www.zdnet.co.jp/news/0305/04/nebt_01.html</link>
+    <description>ものすごいダウンロード件数ですね。OpenOffice恐るべし。</description>
+    <dc:date>2003-05-06T20:48:18</dc:date>
+  </item>
+
+</rdf:RDF>

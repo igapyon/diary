@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</TITLE>
+<META name="DESCRIPTION" content="普通のプロのプログラマーは、ソフトウェアが一定規模を超えた時点でリファクタリングの実施を検討する場合があります。">
+<META name="KEYWORDS" content="FizzBuzz,Java,問題,problem,refactoring">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</H2>
+    <P>[FizzBuzz,Java,問題,problem,refactoring] 普通のプロのプログラマーは、ソフトウェアが一定規模を超えた時点でリファクタリングの実施を検討する場合があります。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz 問題 - リファクタリング版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.07.05執筆</FONT></P>
+<P>普通のプロのプログラマーは、ソフトウェアが一定規模を超えた時点でリファクタリングの実施を検討する場合があります。<BR>
+自動テストの実現容易性のためにも、ここでは メッセージ取得の処理を別メソッドとして切り出してみましょう。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzRefactoring01.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzRefactoring01 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                // TODO:基本的なリファクタリングを実施しました。
+                // TODO:マジックナンバーは追放されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 生成された文字列をプリントする。
+                        System.out.println(getFizzBuzzMessage(number));
+                }
+        }
+
+        /**
+         * 与えられた数に対応する FizzBuzzメッセージを取得する。
+         * 
+         * ・3の倍数のときは｢Fizz｣を戻す。&lt;br&gt;
+         * ・5の倍数のときは｢Buzz｣を戻す。&lt;br&gt;
+         * ・3と5両方の倍数の場合には｢FizzBuzz｣を戻す。&lt;br&gt;
+         * ・いずれにも該当しない場合には数を戻す。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return メッセージ。
+         *         3の倍数のときは｢Fizz｣、5の倍数のときは｢Buzz｣、3と5両方の倍数の場合には｢FizzBuzz｣、いずれにも該当しない場合には数。
+         */
+        public static String getFizzBuzzMessage(final int argNumber) {
+                // 3の倍数であるかどうか。
+                final boolean isMultipleOf3 = (argNumber % 3 == 0);
+                // 5の倍数であるかどうか。
+                final boolean isMultipleOf5 = (argNumber % 5 == 0);
+
+                if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                        // 3と5両方の倍数の場合には｢FizzBuzz｣を戻す。
+                        return &quot;FizzBuzz&quot;;
+                } else if (isMultipleOf3) {
+                        // 3の倍数のときは数の代わりに｢Fizz｣を戻す。
+                        return &quot;Fizz&quot;;
+                } else if (isMultipleOf5) {
+                        // 5の倍数のときは｢Buzz｣を戻す。
+                        return &quot;Buzz&quot;;
+                } else {
+                        // いずれにも該当しない場合には数を戻す。
+                        return String.valueOf(argNumber);
+                }
+        }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>メッセージ取得メソッドが切り出されることにより、自動テストが実施しやすくなるという嬉しい副作用があります。さらに本体の mainメソッドの内容は
+極めて単純な内容となり すっきりします。</P>
+<P>さて、自動テストが実施しやすくなった時点で、普通のプロのJavaプログラマーは自動テストの実装を まず最初に思いつきます。業務屋に限らず 多くの
+Javaプログラマーは そのように訓練されています。以下は JUnitによる自動テストの例です。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzRefactoring01Test.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import junit.framework.TestCase;
+
+/**
+ * 単体試験の自動化によって品質を担保。
+ */
+public class FizzBuzzRefactoring01Test extends TestCase {
+        public void testGetFizzBuzzMessage() throws Exception {
+                assertEquals(&quot;3の倍数かつ5の倍数&quot;, &quot;FizzBuzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(0));
+                assertEquals(&quot;普通の数字&quot;, &quot;1&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(1));
+                assertEquals(&quot;普通の数字&quot;, &quot;2&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(2));
+                assertEquals(&quot;3の倍数&quot;, &quot;Fizz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(3));
+                assertEquals(&quot;普通の数字&quot;, &quot;4&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(4));
+                assertEquals(&quot;5の倍数&quot;, &quot;Buzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(5));
+                assertEquals(&quot;3の倍数&quot;, &quot;Fizz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(6));
+                assertEquals(&quot;普通の数字&quot;, &quot;7&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(7));
+                assertEquals(&quot;普通の数字&quot;, &quot;8&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(8));
+                assertEquals(&quot;9の倍数&quot;, &quot;Fizz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(9));
+                assertEquals(&quot;5の倍数&quot;, &quot;Buzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(10));
+                assertEquals(&quot;普通の数字&quot;, &quot;11&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(11));
+                assertEquals(&quot;3の倍数&quot;, &quot;Fizz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(12));
+                assertEquals(&quot;普通の数字&quot;, &quot;13&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(13));
+                assertEquals(&quot;普通の数字&quot;, &quot;14&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(14));
+                assertEquals(&quot;3の倍数かつ5の倍数&quot;, &quot;FizzBuzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(15));
+
+                assertEquals(&quot;普通の数字&quot;, &quot;-1&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-1));
+                assertEquals(&quot;普通の数字&quot;, &quot;-2&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-2));
+                assertEquals(&quot;3の倍数&quot;, &quot;Fizz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-3));
+                assertEquals(&quot;普通の数字&quot;, &quot;-4&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-4));
+                assertEquals(&quot;5の倍数&quot;, &quot;Buzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-5));
+                assertEquals(&quot;3の倍数かつ5の倍数&quot;, &quot;FizzBuzz&quot;, FizzBuzzSwitch01.getFizzBuzzMessage(-15));
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※この試験内容は「ざっくり」書かれたものに過ぎません。本来は 境界値 異常値、そして試験密度などを もっと適切に実施して試験をおこなうものです。<BR>
+<FONT color="#ff0000">2007.07.06更新</FONT> 試験内容を少しだけ追加 + assertEqualsのパラメータ順序が間違っていたので修正。</BLOCKQUOTE>
+<HR>
+<P>次に 普通のプロの Javaプログラマーは mainメソッドに処理が書かれているのを嫌う傾向にあります。ほとんどの場合、以下のように 別メソッド化することが多いでしょう。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzRefactoring02.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzRefactoring02 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                new FizzBuzzRefactoring02().process();
+        }
+
+        /**
+         * このクラスの主処理。
+         */
+        public void process() {
+                // TODO:主処理をmainメソッドから移動しました。
+                // TODO:マジックナンバーは追放されていません。
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 生成された文字列をプリントする。
+                        System.out.println(getFizzBuzzMessage(number));
+                }
+        }
+
+        /**
+         * 与えられた数に対応する FizzBuzzメッセージを取得する。
+         * 
+         * ・3の倍数のときは｢Fizz｣を戻す。&lt;br&gt;
+         * ・5の倍数のときは｢Buzz｣を戻す。&lt;br&gt;
+         * ・3と5両方の倍数の場合には｢FizzBuzz｣を戻す。&lt;br&gt;
+         * ・いずれにも該当しない場合には数を戻す。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return メッセージ。
+         *         3の倍数のときは｢Fizz｣、5の倍数のときは｢Buzz｣、3と5両方の倍数の場合には｢FizzBuzz｣、いずれにも該当しない場合には数。
+         */
+        public static String getFizzBuzzMessage(final int argNumber) {
+                // 3の倍数であるかどうか。
+                final boolean isMultipleOf3 = (argNumber % 3 == 0);
+                // 5の倍数であるかどうか。
+                final boolean isMultipleOf5 = (argNumber % 5 == 0);
+
+                if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                        // 3と5両方の倍数の場合には｢FizzBuzz｣を戻す。
+                        return &quot;FizzBuzz&quot;;
+                } else if (isMultipleOf3) {
+                        // 3の倍数のときは数の代わりに｢Fizz｣を戻す。
+                        return &quot;Fizz&quot;;
+                } else if (isMultipleOf5) {
+                        // 5の倍数のときは｢Buzz｣を戻す。
+                        return &quot;Buzz&quot;;
+                } else {
+                        // いずれにも該当しない場合には数を戻す。
+                        return String.valueOf(argNumber);
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>これで 基本的なプログラミングは 一通り終わりました。しかし クラス中にマジックナンバーや表示メッセージが埋め込まれているなどの点は まだ改善の余地があるようにも思われます。これは
+ソースコードが置かれた状況によって 更に手を入れていったり そのままＯＫになったりと 変わりうるものです。</P>
+<P><STRONG><FONT color="#ff00ff">性能面で有利な実装</FONT></STRONG></P>
+<P>この時点の実装内容は、意外なことにも 実行性能での優位性があります。getFizzBuzzMessageメソッドの中で文字列結合を行っていないところが
+一般的な JavaVMの性能面において 優位性を持っているのです。更に getFizzBuzzMessageメソッドは短いので JavaVMによってインライン展開をされることを期待できます。すると
+メソッド呼び出しのコストが減ることが期待できます。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070702.html">2007/07/02 日記: FizzBuzz 問題 - ノーマル版</A>
+  <LI><A href="ig070704.html">2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</A>
+  <LI><A href="ig070705.html">2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</A>
+  <LI><A href="ig070706.html">2007/07/06 日記: FizzBuzz 問題 - switch分岐版</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

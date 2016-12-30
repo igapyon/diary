@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011108.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011108.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-08</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.asahi.com/politics/update/1108/003.html"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153098"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153207"/>
+        <rdf:li resource="http://japan.cnet.com/News/2001/Item/011107-6.html"/>
+        <rdf:li resource="http://savannah.gnu.org/"/>
+        <rdf:li resource="http://www.nttdocomo.co.jp/new/contents/01/whatnew1106.html"/>
+        <rdf:li resource="https://www.netsecurity.ne.jp/article/1/3209.html"/>
+        <rdf:li resource="http://www.watch.impress.co.jp/pc/docs/article/20011106/ms.htm"/>
+        <rdf:li resource="http://www.adobe.com/svg/viewer/install/main.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/08/b_1107_17.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/08/nri.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.asahi.com/politics/update/1108/003.html">
+    <title>「迷惑メール」に法の網、法改正し罰則も　経産省方針</title>
+    <link>http://www.asahi.com/politics/update/1108/003.html</link>
+    <description>私の希望。適切な立法を早く施行してほしいです。海外からの迷惑メールにも対応して欲しいです。相談センターのようなものも創設してほしいです。</description>
+    <dc:date>2001-11-08T08:52:36</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153098">
+    <title>米ボーランドがLinux用ビジュアル開発ツールKylix 2を出荷開始</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153098</link>
+    <description>この前リリースしたかと思えば、いきなしバージョン2…。恐るべきスピード。それはさておき、Kylixって ものすごく影響力のあるソフトウェア開発環境であるように思えてきました。Webサービス開発環境の中で 抜きん出て重要でできの良い開発環境なのでは無いでしょうか？ 今後 Kylixが ものすごく伸びていく予感を覚えました。</description>
+    <dc:date>2001-11-08T08:18:46</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153207">
+    <title>ターボリナックス、サーバー用OSの新版を発表</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/153207</link>
+    <description>JFS1.0搭載というのが 目をひきました。# しかしそもそも私は ターボリナックスの『独自ツール色』がキライです (苦笑)</description>
+    <dc:date>2001-11-08T08:18:46</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/News/2001/Item/011107-6.html">
+    <title>VAリナックス、独自バージョンの『SourceForge』を発表</title>
+    <link>http://japan.cnet.com/News/2001/Item/011107-6.html</link>
+    <description>SourceForgeユーザの私としては、このニュースが気になりました。指摘に従って『サバンナ』(Savannah)に興味を持ってみようと思います。</description>
+    <dc:date>2001-11-08T08:18:46</dc:date>
+  </item>
+  <item rdf:about="http://savannah.gnu.org/">
+    <title>サバンナ (Savannah)</title>
+    <link>http://savannah.gnu.org/</link>
+    <description>GNU開発に重点を置いたオープンソース開発サイト。</description>
+    <dc:date>2001-11-08T08:18:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nttdocomo.co.jp/new/contents/01/whatnew1106.html">
+    <title>迷惑メール撲滅に向けた新たな対策について</title>
+    <link>http://www.nttdocomo.co.jp/new/contents/01/whatnew1106.html</link>
+    <description>NTTドコモ。ようやく迷惑メール対策が動き出したという所ですね。ところでこのWebページ、現時点では 何と インターネットでは利用が好ましくない 機種依存文字 『○+1、○+2』 を利用しています。少しで良いからインターネット標準をお勉強しましょう。</description>
+    <dc:date>2001-11-08T11:20:40</dc:date>
+  </item>
+  <item rdf:about="https://www.netsecurity.ne.jp/article/1/3209.html">
+    <title>法務省アドレスの不審メール　不正中継DBに登録されていた法務省サーバ</title>
+    <link>https://www.netsecurity.ne.jp/article/1/3209.html</link>
+    <description>ほほう。不正中継サーバ一覧なんてものが存在するのですね。</description>
+    <dc:date>2001-11-08T11:20:40</dc:date>
+  </item>
+  <item rdf:about="http://www.watch.impress.co.jp/pc/docs/article/20011106/ms.htm">
+    <title>Windows XPに移行すると企業の生産性も上がる ～マイクロソフト、阿多社長が講演</title>
+    <link>http://www.watch.impress.co.jp/pc/docs/article/20011106/ms.htm</link>
+    <description>社長さん、エネルギー節約のために普通のデスクトップPCは使い終わったら電気を必ず切りましょう。それはともかく 腐れOSである Windows Me/98に比べたら Windows XP って すっごく期待できます。</description>
+    <dc:date>2001-11-08T11:20:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.adobe.com/svg/viewer/install/main.html">
+    <title>Adobe SVG Viewer 3.0 リリース</title>
+    <link>http://www.adobe.com/svg/viewer/install/main.html</link>
+    <description>バージョンを重ねて 3.0がリリースされました。</description>
+    <dc:date>2001-11-08T17:14:15</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/08/b_1107_17.html">
+    <title>Linux普及はまだまだ？　Goldman Sachsの調査報告</title>
+    <link>http://www.zdnet.co.jp/news/0111/08/b_1107_17.html</link>
+    <description>エンタープライズ向けサーバシステムについて、Linuxに投資しないのは まあそれとして Windowsに投資するっていうのは不思議。Windowsだと停止するからサーバには不向きだろうに…。</description>
+    <dc:date>2001-11-08T17:14:15</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/08/nri.html">
+    <title>オンラインゲームは5年後に2700億円市場　NRI予測</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/08/nri.html</link>
+    <description>これまた目を惹く記事。そんなにデカい市場が訪れるのでしょうか？ でも 新メディアの発展にはゲームが欠かせませんからねぇ。ある意味必然かも？(苦笑)</description>
+    <dc:date>2001-11-08T17:14:15</dc:date>
+  </item>
+</rdf:RDF>

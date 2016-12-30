@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/04/26 日記: 「低機能」・「自由度の低さ」に価値があるというパラダイムシフト</TITLE>
+<META name="DESCRIPTION" content="blancoDb EE概要の説明文を書きました。関連して R/Oマッピングツール定義を記載しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/04/26 日記: 「低機能」・「自由度の低さ」に価値があるというパラダイムシフト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDb EE概要の説明文を書きました。関連して R/Oマッピングツール定義を記載しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>「低機能」・「自由度の低さ」に価値があるというパラダイムシフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blancoDb Enterprise Edition概要の説明文を更新しました。併せて <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>ツール定義について改めて記載しました。これをスナップショットとして日記の方に転載しておきます。基本的に、更新は
+<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>ホームページ側に対してのみ行っていきます。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> ホームページ
+</UL>
+<P>比較して特徴を書いてみると、「低機能」・「自由度の低さ」などという刺激的な用語が並びました。未来からこの日記を振り返ったら刺激は感じないかも知れませんね。でも、この日記を書いている時点での一般通念としては、ソフトウェアは高機能で自由度が高いもののほうが良いとされているのです。「低機能」・「自由度の低さ」には価値があるというパラダイムシフトを
+ここで考えています。このパラダイムシフトについては、ある程度解説を加えないと 一般の方々には理解いただけないかも知れませんね。</P>
+<P>私は 次世代オープンソース・ミドルウェアは 「低機能」・「自由度の低さ」・「カスタマイズ性」という特徴が重要な仕様のひとつとなっていくものと考えています。ミドルウェアは
+高水準なものと低水準なものに二極化が進んでいくことでしょう。これは EclipseのGUI基盤である SWTとJFaceから 改めて概念の着想を得ました。(blancoDbそのものは、前身のソフトも含めると前世紀から一貫して同じ指向を持っています)
+SWTは極めて低機能で自由度が低く、クラスとしてラッピングも薄っぺらいものです。反して JFaceは高機能で自由度が高く、クラスとして一般的なGUI部品としてのラッピングを行っています。Eclipseは
+SWTとJFaceという二極化されたオープンソース・ミドルウェアによって初めて実現されています。ここで大事なことは、低水準APIというものに非常に価値があるということです。(高水準APIの価値は
+敢えて説明しなくてもわかってもらえることが現時点では多いです) 低水準APIを薄っぺらくラッピングして低機能であり続け、自由度を低く設定し (例えば、SWTは継承が許されません)、とても高性能に動作することが出来ます。これがJFaceだけで<A href="http://www.nifty.com/webapp/digitalword/word/038/03843.htm">モノリシック</A>に実装されていたら、Eclipseはあのように高速には動作しなかったことでしょう。</P>
+<P>リレーショナルデータベースについても、SWTのような低水準APIが必要なのです。かといって 単純にJDBC APIだけでは不足する面もあるものと考えます。一方で
+SQL文は Java言語のようなノイマン型プログラミング言語とはかなり異質な、集合代数を扱う言語です。SQL文とJDBC APIとJavaソースコードとを適切に結びつけるための低水準APIが、今のリレーショナルデータベースプログラミングに不足しているものの一つであると考えているのです。blancoDbは
+そういう低水準APIという仕様を満たしているように考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050526.html">2005/05/26 日記: blancoDb Enterprise Edition 1.0.0 正式版リリース</A>
+  <LI><A href="ig050421.html">2005/04/21 日記: blancoDb Enterprise Edition 0.8.1 β1リリース</A>
+</UL>
+<HR>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) 概要</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition (以降 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>)
+は Java言語/JDBC用の R/Oマッピングツール実装の一つです。</P>
+<P><STRONG><FONT color="#ff00ff">理念・思想</FONT></STRONG></P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>は下記のような理念および思想を特徴としています。</P>
+<UL>
+        <LI>低機能でありつづける<BR>
+  JDBCドライバが提供する低水準APIの機能性・特徴を妨害・阻害することなく、<STRONG>そのまま</STRONG>Javaソースコードにマッピングします。このことにより、リレーショナルデータベースの機能および性能を最大限引き出すことが出来ます。ツールとしては低機能であることにより、高性能に動作させることができ、またJDBCの機能を最大限利用することができます。もちろんスクロールカーソルやNULL許容列対応など最低限の機能は当然サポートします。
+        <LI>自由度の低さ<BR>
+  リレーショナルデータベース上の型をJavaの特定のオブジェクト型に強制的にマッピングを行います。型マップに関しては極力自由度を排除しています。このことによりJDBCドライバの実装に起因したJDBCレベルでの型マッピングによる<STRONG>不具合発生を最小限にとどめる</STRONG>ことが出来ます。加えて自由度が低いために 極めて少ない設定によりマッピングを自動生成することができます。原則として列名や型情報はJDBCドライバから得られるメタ情報を活用して自動的に決定します。自由度の低さゆえに非常に安全に動作させることもできます。多くの場合
+  自由度の高さは設定を増やして不確実性を押し上げ、各種トラブルを誘発するのです。
+        <LI>カスタマイズの容易さ (現バージョンでは 未達部分が含まれる)<BR>
+  カスタマイズの容易さを理念としています。基幹系・大規模開発で利用される際にはカスタマイズが発生することでしょう。生成されるソースコードにいろいろ手が加わるのはもちろんのこと、blancoDbのソースコードそのものにもカスタマイズが入ることを想定しています。そういったカスタマイズのしやすさを実現するための方法として、機能を増加させず自由度を増やさずblancoDbそのものの規模の肥大化を抑制している側面もあります。blancoDbの規模が小さいことはカスタマイズ実施後のテスト規模を抑制することも出来ます。
+</UL>
+<P><STRONG><FONT color="#ff00ff">特徴</FONT></STRONG></P>
+<UL>
+        <LI>ごく普通のSQL文が <STRONG>そのまま</STRONG>利用できます。<BR>
+  ターゲットRDB向けに準備されたSQL文が そのまま利用できます。当然のことですが、複数表を結合した検索が可能です。ある程度複雑なサブクエリやUNION付きSQL文なども、あたりまえのことですが、ごく当然のものとして利用できます。SQL文という観点では
+  blancoDbは極めて自由度が高くなるよう設計されています。
+  <LI>ごく普通にJDBC APIをラッピングしています。<BR>
+  ごく普通の JDBCプログラミング・ソースコードを自動生成するため、既存のJDBCノウハウおよびスキルが転用でき、学習コストがとても低いです。
+  <LI>よくありがちなJDBCプログラミングにおける<STRONG>バグを予防</STRONG>するための仕組みをもっています。
+  <UL>
+    <LI>一意制約違反は特別な例外として扱うことにより、一意制約違反の処理忘れバグを予防できます。
+    <LI>検索・実行結果が1件であるSQL文について、実行結果が1件でない場合には例外を発生させることよにり処理忘れバグを予防できます。
+    <LI>ステートメントのクローズ忘れについて、これを検知して警告を出すことによりクローズ忘れバグを予防できます。
+  </UL>
+  <LI>リレーショナルデータベースの<STRONG>カーソル</STRONG>が利用できます。
+        <LI>(リレーショナルデータベースがサポートしていれば) FOR UPDATEを伴った<STRONG>行ロック</STRONG>を伴った検索および行の更新が可能です。
+        <LI>実行時に特別なクラスライブラリを必要としません。生成したソースコードだけで完結して動作します。またソースコード自動生成時に 解決可能なものは最大限解決を済ませます。このことにより<STRONG>実行時コストを極小化</STRONG>することが実現できます。
+  <LI>基幹系システム開発に対応しています。<BR>
+  基幹系システム開発における一般的な開発プロセスに沿った形で設計および実装されています。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>R/Oマッピングツール定義</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>下記の仕様を満たしているものが <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>ツールの仕様を満たしているものと定義します。</P>
+<UL>
+  <LI>ANSI SQL (ごくあたりまえのSQL文) が利用できること。
+  <LI>リレーショナルデータベース上の型を強制的に オブジェクトの型にマッピングを行うこと。型に関する設定が少ないこと。
+  <LI>リレーショナルデータベースが持つ機能を阻害しないこと。
+  <LI>リレーショナルデータベースが持つ性能を阻害しないこと。
+  <LI>リレーショナルデータベースのカーソルが利用できること。
+  <LI>トランザクション分離レベルを適切に扱うことが出来ること。
+  <LI>トランザクションのコミットとロールバックを任意のタイミングで呼び出すことが出来ること。
+  <LI>NULL許容列を適切に扱うことができること。
+  <LI>ストアドプロシージャ呼び出しに対応していること。
+</UL>
+<P>意外なことですが、世の O/Rマッピングツールの多くは 上記とは逆の指向性を持っています。ツールとしては高機能である反面、リレーショナルデータベースの機能や性能を大きく損なっているというものが多く存在します。R/OマッピングはリレーショナルデータベースおよびSQLを中心としたアプローチをとります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbはオープンソース／フリーソフトウェアです</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>ライセンス : <A href="http://www.gnu.org/copyleft/lesser.ja.html">GNU LESSER GENERAL PUBLIC LICENSE</A> (GNU LGPL)のもとに公開されています。<BR>
+  なお、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>が自動生成するソースコードについては、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を利用している利用者の著作物となります。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

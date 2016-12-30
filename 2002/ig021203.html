@@ -1,0 +1,308 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/03 日記: Apache 2.0.43 + Tomcat 4.1.12 の連携動作</TITLE>
+<META name="DESCRIPTION" content="Memtest86というツールを体験しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/12/03 日記: Apache 2.0.43 + Tomcat 4.1.12 の連携動作</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Memtest86というツールを体験しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Memtest86というGPLツールを使って なんだか不調がちな会社パソコンを診断してみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.memtest86.com/">Memtest86</A> を使って 不調がちな会社パソコンを診断してみました。でも エラーは報告されませんでした。残念。ってことは
+ハードディスクがおかしいのかしら?</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache 2.0.43 + Tomcat 4.1.12 の連携動作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いがぴょんの日記MLでの話題<BR>
+<STRONG><FONT color="#ff00ff">藤春さんの書き込み</FONT></STRONG><BR>
+Subject: [igapyon:01061] Apache 2.0.43 + Tomcat 4.1.12 の連携動作<BR>
+こんにちは、藤春です。<BR>
+<BR>
+Apache 2.0.43 + Tomcat 4.1.12の連携動作の設定を試みました。一応動作するところまではもっていけたので、参考にしていただければ幸いです。<BR>
+mod_jkを使用したのですが、いくつか疑問も出てきました。ご意見など頂けると非常に嬉しいです。環境は、主にWindows
+2000で行いました。(次はRedhat Linux 8.0で試します)<BR>
+<BR>
+○ 全体の流れ</P>
+<OL>
+  <LI>Apacheのインストール<BR>
+  http://apache.towardex.com/dist/httpd/binaries/win32/apache_2.0.43-win32<BR>
+  -x86-no_ssl.msi<BR>
+  上記URLからDLしたファイルでインストールを行なう。<BR>
+  デフォルトのままで問題なし。
+  <LI>Tomcatのインストール<BR>
+  <A HREF="http://jakarta.apache.org/builds/jakarta-tomcat-4.0/release/v4.1.12/bin/jakarta-tomcat-4.1.12.exe">http://jakarta.apache.org/builds/jakarta-tomcat-4.0/release/v4.1.12/bin/jakarta-tomcat-4.1.12.exe</A><BR>
+上記URLからDLしたファイルでインストールを行なう。<BR>
+  デフォルトのままで問題なし。
+  <LI>mod_jkのダウンロードと配置<BR>
+  <A HREF="http://jakarta.apache.org/builds/jakarta-tomcat-connectors/jk/release/v1.2.1/bin/win32/mod_jk-2.0.43.dll">http://jakarta.apache.org/builds/jakarta-tomcat-connectors/jk/release/v1.2.1/bin/win32/mod_jk-2.0.43.dll</A><BR>
+  上記URLからDLしたファイルを$APACHE_HOME\modulesフォルダに配置する。
+  <LI>Apacheの設定変更<BR>
+  $APACHE_HOME\conf\httpd.confの最終行に以下の一文を追加する。<BR>
+  Include &quot;&lt;$TOMCAT_HOMEを実際に書く&gt;/conf/auto/mod_jk.conf&quot;
+  <LI>Tomcatの設定変更<BR>
+  $TOMCAT_HOME\conf\server.xmlの&lt;Server&gt;要素の直後(私の場合は14行目)に<BR>
+  以下の文を追加する。
+  <TABLE border="1">
+    <TBODY>
+      <TR>
+        <TD>
+  &lt;Listener className=&quot;org.apache.ajp.tomcat4.config.ApacheConfig&quot;<BR>
+        jkDebug=&quot;emerg&quot; modJK=&quot;&lt;$APACHE_HOMEを実際に書く&gt;/modules/modjk.dll&quot;<BR>
+        workersConfig=&quot;&lt;$TOMCAT_HOMEを実際に書く&gt;/conf/jk/workers.properties&quot;<BR>
+        jkLog=&quot;&lt;$TOMCAT_HOMEを実際に書く&gt;/logs/mod_jk.log&quot; /&gt;</TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  さらに同じファイルの&lt;Host&gt;要素の直後(私の場合は223行目)に以下の分を追加<BR>
+  する。<BR>
+  &lt;Listener className=&quot;org.apache.ajp.tomcat4.config.ApacheConfig&quot;<BR>
+  append=&quot;true&quot; /&gt;
+  <LI>Tomcat用設定ファイルの追加<BR>
+  Tomcat 4.1.12ではworkers.propertiesファイルを自動で作成してくれないようなのでこれをテキストエディタで作成し&lt;$TOMCAT_HOMEを実際に書く&gt;\conf\jkに保存する。<BR>
+  私はTomcat 4.0.4で使用していたものをそのまま持ってきました。以下、例です。
+  <TABLE border="1">
+    <TBODY>
+      <TR>
+        <TD>worker.ajp13.type=ajp13<BR>
+        worker.ajp13.lbfactor=1<BR>
+        worker.loadbalancer.type=lb<BR>
+        worker.loadbalancer.balanced_workers=ajp13<BR>
+        worker.tomcat_home=&quot;&lt;$TOMCAT_HOMEを実際に書く&gt;&quot; ← ダブルクォートがミソです<BR>
+        worker.java_home=&lt;$JAVA_HOMEを実際に書く&gt;<BR>
+        ps=\<BR>
+        worker.list=ajp13<BR>
+        worker.ajp13.port=8009<BR>
+        worker.ajp13.host=localhost<BR>
+        </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <LI>Tomcatの起動と設定変更<BR>
+  Tomcatのサービスを起動すると$TOMCAT_HOME\conf\autoの下にmod_jk.confが作成されますが、一部変更する必要があります。<BR>
+  テキストエディタで開き、以下の一文を修正します。<BR>
+  LoadModule jk_module &quot;&lt;$APACHE_HOMEが書いてある&gt;/modules/mod_jk-2.0.43.dll&quot;<BR>
+  ダブルクォートがないとWindows環境ではProgram Filesの下を見に行けません。
+  <LI>Apacheを起動する
+</OL>
+<P>以上の過程を経てApacheを起動すると、連携ができているかと思います。</P>
+<P>・・・あ～、長かった。<BR>
+以下、私が思った疑問です。<BR>
+<BR>
+○ 連携用のコネクタは何がいいのか？<BR>
+Tomcat 3.x系列でははmod_jkというものがメジャーだったようなのですが、Tomcat
+4.0から(?)はmod_jk2とmod_webapp(WARP)というものが新しく加わったようです。<BR>
+今回は後者の2つのコネクタについては未知の部分が多かったので、mod_jkを使用しました。mod_jkは既に古いものだということは分かったのですが、mod_jk2とmod_webappのどちらが主流になるのでしょうか？<BR>
+<BR>
+というか、そもそも2種類のコネクタが存在する理由が分かりません。単なる歴史的な経緯なのでしょうか・・・<BR>
+<BR>
+○ workers.propertiesファイルが用意されていない？<BR>
+Tomcat 3.x系列では(確か4.0.4も)workers.propertiesファイルが用意されていたように思うのですが、4.1.12では用意されていないようです。<BR>
+なにか追加設定を行なうことでここを自動化作成したりなどできないでしょうか？<BR>
+以上</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">いがぴょんの書き込み</FONT></STRONG><BR>
+Subject: [igapyon:01062] Re: Apache 2.0.43 + Tomcat 4.1.12 の連携動作<BR>
+いがぴょんです。<BR>
+<BR>
+&gt; Apache 2.0.43 + Tomcat 4.1.12の連携動作の設定を試みました。<BR>
+&gt; 一応動作するところまではもっていけたので、参考にしていただければ幸いで<BR>
+&gt; す。<BR>
+<BR>
+私の部署自身 Apache 2.x と Tomcat 4.x の組み合わせに興味を持ちつつも時間不足で手が出ていない状況だったりします。<BR>
+ (いまだに Tomcat 3.1.x系が 私たちの安定版だったりします)<BR>
+<BR>
+レポートありがとうございます。これをきっかけに今年度中には なんとか Tomcat
+4.xに手を出してみます。<BR>
+# あわよくば ですが (苦笑）</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">石神さんの書き込み</FONT></STRONG><BR>
+Subject: [igapyon:01063] Re: Apache 2.0.43 + Tomcat 4.1.12の連携動作<BR>
+石神 です。こんにちは。<BR>
+<BR>
+私も2ヶ月くらい前にApache2.0.42+Tomcat4.1.12をやってみましたが、だいたい藤春さんと同じような作業をしました。workers.propertiesファイルも自前で用意しました。その時は、</P>
+<UL>
+  <LI><A HREF="http://www.cnr.berkeley.edu/~salazar/apache_tomcat.html">http://www.cnr.berkeley.edu/~salazar/apache_tomcat.html</A>
+</UL>
+<P>の情報を参考にして、JKを使いました。<BR>
+＃私は、mod_jk2-2.0.42.dllを上手いこと設定できませんでした。<BR>
+<BR>
+ついでに、</P>
+<UL>
+  <LI>The Apache + SSL HOWTO<BR>
+  <A HREF="http://raibledesigns.com/tomcat/ssl-howto.html">http://raibledesigns.com/tomcat/ssl-howto.html</A>
+  <LI>Hunter<BR>
+  <A HREF="http://hunter.campbus.com/">http://hunter.campbus.com/</A>
+</UL>
+<P>を参照・使用して、Apache2.0.42+Tomcat4.1.12+OpenSSL_0.9.6gまでやりましたが、こちらは上手いこと動きましたよ。</P>
+<P>On Mon, 2 Dec 2002 16:30:07 +0900 , 藤春 兼久 wrote:<BR>
+<BR>
+&gt; ○ 連携用のコネクタは何がいいのか？<BR>
+&gt; mod_jk2とmod_webappのどちらが主流になるのでしょうか？<BR>
+<BR>
+私は全くもってド素人なので、あまり有用な情報ではないですが、</P>
+<UL>
+  <LI>README for WebApp Library and Related Modules<BR>
+  <A HREF="http://cvs.apache.org/viewcvs.cgi/*checkout*/jakarta-tomcat-connectors/webapp/README.txt?rev=HEAD&amp;amp;content-type=text/plain">http://cvs.apache.org/viewcvs.cgi/*checkout*/jakarta-tomcat-connectors/webapp/README.txt?rev=HEAD&amp;amp;content-type=text/plain</A><BR>
+<BR>
+NO, IT DOES NOT RUN WITH WINDOWS (your images don't appear and <BR>
+the whole thing hangs?) AND SINCE I DON'T USE NEITHER POSSESS A <BR>
+MICROSOFT WINDOWS BASED MACHINE, THERE ARE NO CURRENT PLANS ON <BR>
+  MAKING IT WORK OVER THERE (from my side).
+</UL>
+<P>と書かれてますねぇ。</P>
+<UL>
+  <LI><A HREF="http://jakarta.apache.org/builds/jakarta-tomcat-connectors/">http://jakarta.apache.org/builds/jakarta-tomcat-connectors/</A>
+</UL>
+<P>を見ても、バイナリの配布をしていないし、</P>
+<UL>
+  <LI><A HREF="http://jakarta.apache.org/tomcat/tomcat-4.1-doc/config/connectors.html">http://jakarta.apache.org/tomcat/tomcat-4.1-doc/config/connectors.html</A><BR>
+Not for Win32; no in-process nor load balancing; works in 4.x.<BR>
+  Use APR. Supported Apache-2.0 and Apache-1.3). See Webapp
+</UL>
+<P>のように、「APRを使え！」みたいなことが書かれています。</P>
+<UL>
+  <LI>Re: mod_webapp for Apache 2, Win32<BR>
+  <A HREF="http://marc.theaimsgroup.com/?l=tomcat-dev&amp;amp;m=103354347532051&amp;amp;w=2">http://marc.theaimsgroup.com/?l=tomcat-dev&amp;amp;m=103354347532051&amp;amp;w=2</A>
+</UL>
+<P>を見るとCygwinを使えば、コンパイルは出来るみたいですが。。。<BR>
+<BR>
+少なくともWinには、mod_webappよりもJK2の方が良さげな気がします。<BR>
+＃JK2が新しくなってるので、私もまたチャレンジしてみようかな。。。<BR>
+<BR>
+---<BR>
+石神 覚司(Satoshi Ishigami)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">藤春さんの書き込み</FONT></STRONG><BR>
+Subject:  [igapyon:01064] Re: Apache 2.0.43 + Tomcat 4.1.12の連携動作<BR>
+度々失礼します、藤春です。<BR>
+<BR>
+いがぴょんさん、石神さんツッコミありがとうございます。<BR>
+ごちゃまぜのレスでごめんなさい。<BR>
+<BR>
+&gt; 私の部署自身 Apache 2.x と Tomcat 4.x の組み合わせに興味を持ちつつも時間不足で手が出ていない状況だったりします。<BR>
+&gt; (いまだに Tomcat 3.1.x系が 私たちの安定版だったりします)<BR>
+<BR>
+実際の開発現場では安定したバージョンというのも大事ですよね。<BR>
+ところがJakarta本家のニュースにあるのですが、古いTomcatにはセキュリティ上の脆弱性があるそうで、4.0.12もしくは4.0.5以降を使ってねとアナウンスがあります(下記URLはJa-Jakartaプロジェクトの日本語版です)。</P>
+<UL>
+  <LI><A HREF="http://www.ingrid.org/jajakarta/docs/Tomcat-Announce.pdf">http://www.ingrid.org/jajakarta/docs/Tomcat-Announce.pdf</A>
+</UL>
+<P>3.x系列のTomcatに関しては未確認とあるのですが、もし該当するようであれば対策を考えた方が良いかもしれませんね。<BR>
+<BR>
+&gt; http://jakarta.apache.org/builds/jakarta-tomcat-connectors/<BR>
+&gt; を見ても、バイナリの配布をしていないし、<BR>
+&gt; …中略…<BR>
+<BR>
+確かにmod_webappはバイナリの配布をしていないですよね。<BR>
+というか、コネクタ集(?)だけで独立したバージョンが付いていることを最近知ってビックリしています。<BR>
+<BR>
+その後もう一度、Tomcat 4.1のドキュメントを読み直してみました。以下のドキュメントにもそれとなく事情が書かれていました。</P>
+<UL>
+  <LI><A HREF="http://jakarta.apache.org/tomcat/tomcat-4.1-doc/jk2/index.html">http://jakarta.apache.org/tomcat/tomcat-4.1-doc/jk2/index.html</A>
+</UL>
+<P>&gt; The big advantage of mod_webapp is that is very easy to configure, <BR>
+&gt; has a well defined protocol named WARP , does not care about <BR>
+&gt; the old crappy protocols used in Tomcat-3.x and so. But it would be <BR>
+&gt; possible to implement the WARP protocol in JK2 ;-)) <BR>
+&gt;<BR>
+&gt; The disadvantage is that it requires the Apache Portable Runtime <BR>
+&gt; which is still only easily available via Apache 2.0 and that it didn't<BR>
+<BR>
+&gt; support webservers like IIS, NES/iPlanet or Domino. <BR>
+<BR>
+以前のコネクタを「the old crappy protocols」とか言って切って捨てちゃってるあたりに、アメリカ人のクールさを感じるというか、実際にそのoldなコネクタを使ってる身としては「おいおい・・・」という気分になってしまいます。<BR>
+<BR>
+現状ではApache限定ということのようなので、メジャーになるにはもうちょっと時間がかかりそうですね。<BR>
+<BR>
+<A HREF="http://hp.vector.co.jp/authors/VA000137/apache-tomcat-memo.html">http://hp.vector.co.jp/authors/VA000137/apache-tomcat-memo.html</A><BR>
+jk2の設定(workers2.propertiesファイルの設定)がここに分かりやすく載っています。私自身試していないので、これ以上はなんとも言えないですが・・・<BR>
+<BR>
+追加でLedhat Linux 8.0 + J2SDK 1.3.1_02の環境で試してみました。自分でコンパイルしたmod_jkしか試していないのですが、大筋ではWindowsと同じ設定で動作しました。<BR>
+<BR>
+workers.propertiesは自分で書くしかないのかな・・・<BR>
+<BR>
+以上</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">コクレインさんの書き込み</FONT></STRONG><BR>
+はじめまして。コクレインと申します。<BR>
+<BR>
+いつも「いがぴょんの日記ウェブページ」を楽しく拝見させて頂いております。<BR>
+4年ほど前にJavaの開発を行っていた時、偶然このページを発見し、それ以来大変お世話になっております。一時休刊になっていた様子で、とても残念に思っておりましたが、別のサイトで運営されていることを知って嬉しくなり、勝手ながらメーリングリストに登録させて頂きました。<BR>
+皆様これからも何卒宜しくお願いします。<BR>
+<BR>
+藤春様のメールにありました、Apache + Tomcatの連携動作ですが．．．<BR>
+<BR>
+＞ workers.propertiesは自分で書くしかないのかな・・・<BR>
+<BR>
+ですが、Tomcat3.3.1のworkers.propertiesがそのまま（とはいっても一部修正が必要ですが）利用できます。<BR>
+「jakarta-tomcat-3.3.1.zip」内の「\\conf\\jk\\workers.properties」を41行目のTomcatディレクトリ、48行目のJavaディレクトリをお使いの環境に修正することで動作すると思われます。ご参考までにお知らせでした。<BR>
+<BR>
+追伸：<BR>
+いがぴょん様<BR>
+Java本の出版おめでとうございます。他人事ながら私も本屋に並んでいるのを調べに行ったりしてました。まだ購入はしておりませんが．．．（笑）</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig021203.src.html' , result='ig021203.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig021203-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.memtest86.com/">Memtest86</A> <FONT size="-2"><A target="_blank" HREF="http://www.memtest86.com/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>GPLなメモリ診断ツール。さっそく動きの怪しい私の会社PCをテストしてみましたが、エラーは発見できませんでした。<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/219630">ツタヤ オンライン、基幹データベースシステムをLinuxに</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/219630">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>TIS、デル、日本オラクルなどがLinuxベースによるソリューション提供を行うんですって。<LI><A HREF="http://japan.internet.com/linuxtoday/20021127/4.html">SRA が Windows RDBMS 市場に参入</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20021127/4.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>PowerGresという商品名で販売開始するんですって。ぜひ購入してみたいです。でも 当初はオープンソースでは無いらしいです。<LI><A HREF="http://www.zdnet.co.jp/news/0211/27/njbt_02.html">MS、「GPLは国内ソフト産業発展を制限」</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0211/27/njbt_02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>「マイクロソフト産業発展を制限」の間違いでは(笑) 客観的に見て Linuxなどのおかげで、日本の情報ソフト産業は不景気ながらもなんとか持ちこたえているように思っています。それとは別に 公共システムは ぜひオープンソースで構築してほしいものです。公共システムは 多くの場合寿命が長いですから、多くの商用OSが 提供期間を勝手に決定して終了してしまう現状では困る場合が多いからです。オープンソースなら ソースコードさへあれば勝手に 『永遠に』サポートを実現することができます。<LI><A HREF="http://www.zdnet.co.jp/news/0211/26/nj00_cdr.html">CD-Rの「音」を考える 48倍速メディアの音は、なぜ悪いのか（1/2）</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0211/26/nj00_cdr.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>デジタルだから デジタルであって欲しい…のですけれども 実際の所は そう簡単では無いんですって。やだなあ。<LI><A HREF="http://www.ne.jp/asahi/fa/efu/media/media.html">CD-R メディア別、再生波形集 -CD-R で作成したCD-DA(音楽CD)は音質が悪い、という話-</A> <FONT size="-2"><A target="_blank" HREF="http://www.ne.jp/asahi/fa/efu/media/media.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>しかもメディア毎に 音質にもばらつきはあり得る という話。う?ん。(大学の後輩の近藤さんのページからジャンプしました)</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

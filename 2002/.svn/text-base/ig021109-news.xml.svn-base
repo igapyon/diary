@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021109.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021109.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-09</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.realvnc.com/download.html">
+    <title>VNC 3.3.5 リリース</title>
+    <link>http://www.realvnc.com/download.html</link>
+    <description>バージョンアップ点は不明</description>
+    <dc:date>2002-11-09T19:58:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/08/njbt_09.html">
+    <title>メルコ、低価格なチューナー＆MPEG-1/2キャプチャカード</title>
+    <link>http://www.zdnet.co.jp/news/0211/08/njbt_09.html</link>
+    <description>チューナー兼MPEG-2キャプチャーカードが いまだに欲しいのでした。(というか未だに購入できていません) 欲しいなぁ。冬のボーナスに期待。</description>
+    <dc:date>2002-11-09T19:45:52</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/11/18 日記: ASP.NETウェブアプリケーションの配布方法</TITLE>
+<META name="DESCRIPTION" content="仕事で ASP.NETウェブアプリケーションの配布方法を調べました。方法は分かったのですが、ちいとうまく行っていません。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET ウェブアプリケーションの配布</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Visual Studio チュートリアル : Web ソリューションの配置<BR>
+  [replace-href:http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/vsintro7/html/vbtskdeployingwebsolution.asp]
+</UL>
+<P>ASP.NET として開発したC#プロダクトの配置について 自動化の方法が これでわかりました。<BR>
+ただし 『コンテンツファイル』グループは 出力としてではなく ファイルとして取り込みました。この点は不思議です…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>超特急ヒカリアン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>近所のTSUTAYAに 超特急ヒカリアン(テレビ放映前作)のレンタルビデオが置いてありました。さっそく借りてきました。息子が少しずつ見ています。最新作である
+電光超特急ヒカリアン についても リクエストカードを書いて投函しておきました。さて、置かれるようになるかどうか…</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021118-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

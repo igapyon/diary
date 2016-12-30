@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020404.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020404.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/04/04/grri84000000bbi4.html">
+    <title>みずほ銀 現金出ずに残高減る</title>
+    <link>http://www.nhk.or.jp/news/2002/04/04/grri84000000bbi4.html</link>
+    <description>現金が出ずに残高だけ減るってのは凄く嫌です。トラブル以前に そもそもトランザクションという概念が実装されていないのでしょうか？ 通常トランザクションが実装されていたら、トラブル発生時にロールバックされそうなものですけれども…。なぜ残高だけ減るのでしょう。</description>
+    <dc:date>2002-04-04T08:34:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/03/b_0402_21.html">
+    <title>携帯電話機がPC化する</title>
+    <link>http://www.zdnet.co.jp/news/0204/03/b_0402_21.html</link>
+    <description>いよいよPCはマニア向け機械となっていく時代が到来するのでしょうかっ。</description>
+    <dc:date>2002-04-04T08:34:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/03/b_0402_14.html">
+    <title>MS &amp; Unisysの反UNIXサイトがダウン</title>
+    <link>http://www.zdnet.co.jp/news/0204/03/b_0402_14.html</link>
+    <description>なんでもFreeBSD+Apacheで快適に動作していた反UNIXサイトを、『敢えて』Windows+IIS に切り替えたその当日 いきなりアクセス障害が発生してしまったとのこと。結果だけ見たら 誰が見ても『Windows+IISはFreeBSD+Apacheに比べてアクセス障害が発生しやすい』ように見えてしまいます。ここまできれいなオチが来ると 『ユニシスorマイクロソフト内部に UNIX屋がいて 失敗すべくシナリオを書いている』のかとすら勘ぐってしまいます。</description>
+    <dc:date>2002-04-04T08:34:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/03/b_0402_02.html">
+    <title>MS，Webサーバソフトでシェア拡大</title>
+    <link>http://www.zdnet.co.jp/news/0204/03/b_0402_02.html</link>
+    <description>シェアを伸ばしてきたのですねぇ。でもApacheには届かない…。そして反UNIXサイトはFreeBSDで実装されていた…。でWindows+IISに切り替えたとたんアクセス障害が発生する :-P</description>
+    <dc:date>2002-04-04T08:34:38</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/12/18 日記: 素朴な発見</TITLE>
+<META name="DESCRIPTION" content="Netscape 6.2.1日本語版リリース , J2SE 1.3.0_05リリース">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig011218-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>素朴な発見</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Windows 2000 + SUN J2SE 1.3.1_01 + Oracle 8.1.7 (JDBC) 環境下において、今までなにげに使っていた
+  (デフォルト状態である) オートコミットを OFF化 (明示的commit呼び出し) に変更したら、ごく普通のバッチプログラムの処理速度が3倍くらい高速になりました。Oracleにおいては、コミットを切った方が
+  高速になる場合があるのですね。結構 びっくりしました。
+  <LI>Apache Xerces-J の SAXプログラムにおいて、同じエレメント内の文字列が 複数回にまたがってコールバックされるという現象に初めて出会いました。仕様通りですねっ
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>出張シリーズなど</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>東京出張や静岡出張などで 日記の更新が滞ってしまいました (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig011218-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

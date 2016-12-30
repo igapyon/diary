@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030818.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030818.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-18</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/technology/story/20030812307.html">
+    <title>リナックスベースのフリーソフトでHDDビデオレコーダーを自作</title>
+    <link>http://www.hotwired.co.jp/news/news/technology/story/20030812307.html</link>
+    <description>HDDビデオレコーダー自作には大変興味があります。具体的に どのTVキャプチャーカードを使って どのLinuxを使って、などなどの情報を得て ぜひぜひ作りたいです。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+  <item rdf:about="http://pvrhw.goldfish.org/tiki-pvrhwdb.php">
+    <title>PVR Hardware Database</title>
+    <link>http://pvrhw.goldfish.org/tiki-pvrhwdb.php</link>
+    <description>ソフトとTVチューナーなどとの組み合わせリスト。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20030812/2.html">
+    <title>Turbolinux 8、三洋電機の医科システムに</title>
+    <link>http://japan.internet.com/linuxtoday/20030812/2.html</link>
+    <description>日本の医科システムの市場の50％のシェアを占めているソフトなのだそうな。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+  <item rdf:about="http://www.jcb.co.jp/jcb_newsrelease/dr-272.html">
+    <title>JCB:会員情報記録フロッピーディスクの紛失について</title>
+    <link>http://www.jcb.co.jp/jcb_newsrelease/dr-272.html</link>
+    <description>JCB, UFJなどのクレジットカード情報が紛失されたのだそうです。カード番号、有効期限、氏名、住所、電話番号、生年月日などが含まれていたのだそうです。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+  <item rdf:about="http://www.meti.go.jp/kohosys/press/0004397/">
+    <title>経済産業省:オープンソースソフトウエアの利用状況調査／導入検討ガイドラインの公表について</title>
+    <link>http://www.meti.go.jp/kohosys/press/0004397/</link>
+    <description>印刷して閲覧しました。GPLの法解釈など詳しく載っていて とても参考になりました。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030817/1/">
+    <title>Blaster，いまだ終息せず--今すぐあなたにお願いしたいこと</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030817/1/</link>
+    <description>Windows 2000/XP系のOSをお持ちの方は ご注意下さいませ。</description>
+    <dc:date>2003-08-18T18:25:01</dc:date>
+  </item>
+
+</rdf:RDF>

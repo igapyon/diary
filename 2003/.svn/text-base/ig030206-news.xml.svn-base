@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030206.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030206.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/05/njbt_02.html">
+    <title>松下がDVDレコーダ新製品、一挙に5機種</title>
+    <link>http://www.zdnet.co.jp/news/0302/05/njbt_02.html</link>
+    <description>DVDビデオレコーダって 松下が先行していたんですね。知りませんでした。</description>
+    <dc:date>2003-02-06T09:03:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/05/njbt_03.html">
+    <title>ヤマハ、PC用CD-R/RWドライブから撤退</title>
+    <link>http://www.zdnet.co.jp/news/0302/05/njbt_03.html</link>
+    <description>根強いマニア系ファンがいるヤマハのドライブが入手できなくなるとは… 悲しいことです。</description>
+    <dc:date>2003-02-06T09:03:45</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/02/04/641608-000.html">
+    <title>ミラクル・リナックス、Linuxの長期サポートサービスを発表</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/02/04/641608-000.html</link>
+    <description>Linuxサポートの相場は60万円前後で落ち着く？ のかしらん。大変興味深いです。</description>
+    <dc:date>2003-02-06T09:03:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0302/05/lp12.html">
+    <title>OCNのIP電話サービスは月額380円に決定。商用サービスは3/1より</title>
+    <link>http://www.zdnet.co.jp/broadband/0302/05/lp12.html</link>
+    <description>IP電話は 380円程度が相場になるのかしらん？ 興味深い。</description>
+    <dc:date>2003-02-06T09:03:45</dc:date>
+  </item>
+
+</rdf:RDF>

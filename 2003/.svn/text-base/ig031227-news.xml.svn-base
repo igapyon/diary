@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031227.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031227.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.usability.gr.jp/alertbox/20031222.html">
+    <title>Jakob Nielsen博士: 2003年 ウェブ・デザインの間違いトップ10</title>
+    <link>http://www.usability.gr.jp/alertbox/20031222.html</link>
+    <description>とても良い指摘が書いてあります。ふ～む。参考になるなぁ…。</description>
+    <dc:date>2003-12-27T22:15:55</dc:date>
+  </item>
+  <item rdf:about="http://www.softether.com/">
+    <title>SoftEther Virtual Ethernet System</title>
+    <link>http://www.softether.com/</link>
+    <description>社会的に一挙に有名になったVPNソフトウェア。ファイアウォール越えができるのが特徴！</description>
+    <dc:date>2003-12-27T22:15:55</dc:date>
+  </item>
+  <item rdf:about="http://pc.watch.impress.co.jp/docs/2003/1226/mobile225.htm">
+    <title>非公開になったSoftEther。その背景と今後</title>
+    <link>http://pc.watch.impress.co.jp/docs/2003/1226/mobile225.htm</link>
+    <description>背景が良く分かりました。</description>
+    <dc:date>2003-12-27T22:15:55</dc:date>
+  </item>
+  <item rdf:about="http://www.ssitristar.com/product/detail/bannou/intellisync/is_sales.shtml">
+    <title>SSI TRISTAR: Intellisync 5.2J</title>
+    <link>http://www.ssitristar.com/product/detail/bannou/intellisync/is_sales.shtml</link>
+    <description>P505iに対応していないので購入を断念。マイナーバージョンアップにて対応する事を祈る。P505iに対応したら すぐ買います！ (たぶん)</description>
+    <dc:date>2003-12-27T22:15:55</dc:date>
+  </item>
+  <item rdf:about="http://yamaguch.sytes.net/~takuya/diary/">
+    <title>新・日々是雑記</title>
+    <link>http://yamaguch.sytes.net/~takuya/diary/</link>
+    <description>山口卓也さんの日記</description>
+    <dc:date>2003-12-27T22:15:55</dc:date>
+  </item>
+
+</rdf:RDF>

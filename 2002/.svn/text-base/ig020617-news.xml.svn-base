@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020617.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020617.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/17/njbt_04.html">
+    <title>スクリーンセーバーでコンテンツ配信　エキサイトが新サービス</title>
+    <link>http://www.zdnet.co.jp/news/0206/17/njbt_04.html</link>
+    <description>『デスクトップ』を支配するためのいろいろな方法がありますが、スクリーンセーバーも良くある手ですね。各社頑張るなぁ。</description>
+    <dc:date>2002-06-17T16:04:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.microsoft.com/japan/msdn/columns/secure/secure05202002.asp">
+    <title>バッファ オーバーランを解消せよ!</title>
+    <link>http://www.microsoft.com/japan/msdn/columns/secure/secure05202002.asp</link>
+    <description>もう C/C++言語のような "危険な" 言語を使うのはやめたい気持ちで一杯です。この類の理由を持ったセキュリティ不具合に関しては Java言語は完璧ですね (恣意的)</description>
+    <dc:date>2002-06-17T15:56:38</dc:date>
+  </item>
+
+</rdf:RDF>

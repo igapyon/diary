@@ -1,0 +1,307 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/18 日記: blanco Frameworkマッピング表</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkとしてのマッピング表を今一度整理する必要を感じました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/18 日記: blanco Frameworkマッピング表</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkとしてのマッピング表を今一度整理する必要を感じました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkマッピング表</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blanco Frameworkとしてのマッピング表を今一度整理する必要を感じました。<BR>
+作成に着手します。</P>
+<UL>
+  <LI>論理層と物理層における名称マッピング
+  
+</UL>
+<P>注意：この表は 現在作成途上です。</P>
+<BLOCKQUOTE>blanco Frameworkにおける型マップ
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">定義書上の表現</TD>
+      <TD bgcolor="#ffff00">blanco</TD>
+      <TD bgcolor="#ffff00">xsd (XML Schema)</TD>
+      <TD bgcolor="#ffff00">Java言語</TD>
+      <TD bgcolor="#ffff00">JDBC</TD>
+      <TD bgcolor="#ffff00">C#</TD>
+      <TD bgcolor="#ffff00">Oracle10g</TD>
+      <TD bgcolor="#ffff00">SQL Server 2000</TD>
+    </TR>
+    <TR>
+      <TD>文字列</TD>
+      <TD>blanco:string</TD>
+      <TD>xsd:string</TD>
+      <TD>java.lang.String</TD>
+      <TD>CHAR<BR>
+      VARCHAR</TD>
+      <TD>string</TD>
+      <TD>VARCHAR2<BR>
+      CHAR</TD>
+      <TD>VARCHAR</TD>
+    </TR>
+    <TR>
+      <TD>整数(16bit)</TD>
+      <TD>blanco:short</TD>
+      <TD>xsd:short</TD>
+      <TD>short</TD>
+      <TD>SMALLINT</TD>
+      <TD>short</TD>
+      <TD>SMALLINT</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>整数(16bit) null許容</TD>
+      <TD>blanco:short:nullable</TD>
+      <TD>xsd:short<BR>
+      (minOccursが0)</TD>
+      <TD>java.lang.Short</TD>
+      <TD></TD>
+      <TD>- 該当なし</TD>
+      <TD>SMALLINT</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>整数(32bit)</TD>
+      <TD>blanco:int</TD>
+      <TD>xsd:int</TD>
+      <TD>int</TD>
+      <TD>INTEGER</TD>
+      <TD>int</TD>
+      <TD>INT</TD>
+      <TD>INT</TD>
+    </TR>
+    <TR>
+      <TD>整数(32bit) null許容</TD>
+      <TD>blanco:int:nullable</TD>
+      <TD>xsd:int<BR>
+      (minOccursが0)</TD>
+      <TD>java.lang.Integer</TD>
+      <TD></TD>
+      <TD>- 該当なし</TD>
+      <TD>INT</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>整数(64bit)</TD>
+      <TD>blanco:long</TD>
+      <TD>xsd:long</TD>
+      <TD>long</TD>
+      <TD>BIGINT</TD>
+      <TD>long</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>整数(64bit) null許容</TD>
+      <TD>blanco:long:nullable</TD>
+      <TD>xsd:long<BR>
+      (minOccursが0)</TD>
+      <TD>java.lang.Long</TD>
+      <TD></TD>
+      <TD>- 該当なし</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>デシマル</TD>
+      <TD>blanco:decimal</TD>
+      <TD>xsd:decimal</TD>
+      <TD>java.math.BigDecimal</TD>
+      <TD>DECIMAL<BR>
+      NUMERIC</TD>
+      <TD>decimal<BR>
+      非nullは表現不能</TD>
+      <TD>NUMBER</TD>
+      <TD>NUMBER<BR>
+      DECIMAL (?)</TD>
+    </TR>
+    <TR>
+      <TD>バイト</TD>
+      <TD>blanco:byte</TD>
+      <TD>- 未調査</TD>
+      <TD>byte</TD>
+      <TD>TINYINT</TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>浮動小数点数(32bit)</TD>
+      <TD>blanco:float</TD>
+      <TD>xsd:float</TD>
+      <TD>float</TD>
+      <TD>REAL</TD>
+      <TD></TD>
+      <TD>BINARY_FLOAT</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>浮動小数点数(32bit) null許容</TD>
+      <TD>blanco:float:nullable</TD>
+      <TD>xsd:float</TD>
+      <TD>java.lang.Float</TD>
+      <TD>REAL</TD>
+      <TD></TD>
+      <TD>BINARY_FLOAT</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>浮動小数点数(64bit)</TD>
+      <TD>blanco:double</TD>
+      <TD>xsd:double</TD>
+      <TD>double</TD>
+      <TD>DOUBLE</TD>
+      <TD></TD>
+      <TD>BINARY_DOUBLE</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>浮動小数点数(64bit) null許容</TD>
+      <TD>blanco:double:nullable</TD>
+      <TD>xsd:double</TD>
+      <TD>java.lang.Double</TD>
+      <TD>DOUBLE</TD>
+      <TD></TD>
+      <TD>BINARY_DOUBLE</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>真偽値 非null</TD>
+      <TD>blanco:boolean</TD>
+      <TD>xsd:boolean</TD>
+      <TD>boolean</TD>
+      <TD>BOOLEAN</TD>
+      <TD>bool</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>真偽値 null許容</TD>
+      <TD>blanco:boolean:nullable</TD>
+      <TD>xsd:boolean<BR>
+      (minOccursが0)</TD>
+      <TD>java.lang.Boolean</TD>
+      <TD>BOOLEAN</TD>
+      <TD>該当なし</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>日時</TD>
+      <TD>blanco:dateTime</TD>
+      <TD>xsd;dateTime</TD>
+      <TD>java.util.Date</TD>
+      <TD>TIMESTAMP<BR>
+      DATE<BR>
+      TIME</TD>
+      <TD>System.DateTime</TD>
+      <TD>DATE<BR>
+      TIMESTAMP</TD>
+      <TD>DATE<BR>
+      TIMESTAMP (?)<BR>
+      整理中…</TD>
+    </TR>
+    <TR>
+      <TD>BLOB</TD>
+      <TD>blanco:blob</TD>
+      <TD>- 未調査</TD>
+      <TD>java.io.InputStream</TD>
+      <TD>VARBINARY<BR>
+      BINARY</TD>
+      <TD>byte[]</TD>
+      <TD>BLOB<BR>
+      ROW</TD>
+      <TD>image</TD>
+    </TR>
+    <TR>
+      <TD>CLOB</TD>
+      <TD>blanco:clob</TD>
+      <TD>- 未調査</TD>
+      <TD>java.io.Reader</TD>
+      <TD>LONGVARCHAR</TD>
+      <TD>System.String</TD>
+      <TD>CLOB</TD>
+      <TD>text</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>自分用のメモ</P>
+<UL>
+  <LI>表のタテとヨコを取り替えた方が良いかも知れないと試してみましたが、うまくいきませんでした。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework各モジュールのレイヤ分け</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>型マッピングとともにレイヤ分けをメモしておくことの重要性を認識しました。</P>
+<UL>
+  <LI>blancoDb 単一表情報の収集 → blanco論理型
+  <LI>blancoDb ソースコード生成 → 言語物理型
+  <LI>blancoValueObject → 言語物理型 (なぜならblanco型マッピング上にはない型を扱う必要があるであろうから)
+</UL>
+<P>残念ながら、現状は 原則として言語物理型をもとに実装されています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

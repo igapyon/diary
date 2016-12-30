@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020808.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020808.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/07/njbt_13.html">
+    <title>「HDDデータ消去はユーザー責任」　JEITAがガイドライン完成版を公開</title>
+    <link>http://www.zdnet.co.jp/news/0208/07/njbt_13.html</link>
+    <description>HDDデータ消去ツールが一般には普及していない現状では、HDDデータ消去がユーザ責任だと言われても難しいところがあります。</description>
+    <dc:date>2002-08-08T08:54:32</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/08/nebt_03.html">
+    <title>2001年は売上減少も今後は急成長が予測されるLinux</title>
+    <link>http://www.zdnet.co.jp/news/0208/08/nebt_03.html</link>
+    <description>実のある成長の時代が到来しようとしているのでしょうかねぇ。</description>
+    <dc:date>2002-08-08T13:44:16</dc:date>
+  </item>
+
+</rdf:RDF>

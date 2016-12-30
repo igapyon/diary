@@ -1,0 +1,1046 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/08/11 日記: うそSOAP その3 → SAX2ベースによるSOAPキャプチャおよびその再生</TITLE>
+<META name="DESCRIPTION" content="うそSOAPを ほんのりと抽象化しました。 , これにより SAX2ベースによるSOAP電文のキャプチャおよび再生が可能になります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,SOAP,USOAP,うそSOAP,SAX2">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/08/11 日記: うそSOAP その3 → SAX2ベースによるSOAPキャプチャおよびその再生</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,SOAP,USOAP,うそSOAP,SAX2] うそSOAPを ほんのりと抽象化しました。 , これにより SAX2ベースによるSOAP電文のキャプチャおよび再生が可能になります。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>うそSOAP その3 → SAX2ベースによるSOAPキャプチャおよび再生</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>うそSOAPから ほんのりと抽象的な部分を抽出しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1" >
+  <TBODY>
+    <TR bgcolor="#ffff00">
+      <TD><pre>BlancoReverseContentHandler.java</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * blancoCommons Copyright (C) 2005 Tosiki Iga
+ * 
+ * This library is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation; either version 2.1 of the License, or (at your option)
+ * any later version.
+ */
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerFactoryConfigurationError;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.ContentHandler;
+import org.xml.sax.Locator;
+import org.xml.sax.SAXException;
+
+/**
+ * SAXイベントを入力に あべこべにそれを出力するソースコードを生成します。 &lt;br&gt;
+ * とっても不思議なSAX2コンテントハンドラです。 &lt;br&gt;
+ * 2005.08.11 Tosiki Iga 新規作成
+ * 
+ * @author Tosiki Iga
+ */
+public class BlancoReverseContentHandler extends BufferedWriter implements
+        ContentHandler {
+    /**
+     * リバースコンテントハンドラのインスタンスを生成します。
+     * 
+     * @param writer
+     *            リバース結果のソースコードの出力先
+     */
+    public BlancoReverseContentHandler(Writer writer) {
+        super(writer);
+    }
+
+    public void setDocumentLocator(Locator arg0) {
+        // ドキュメントロケータは無視します。
+    }
+
+    public void startDocument() throws SAXException {
+        try {
+            write(&quot;TransformerFactory tf = TransformerFactory.newInstance();&quot;);
+            newLine();
+            write(&quot;SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;&quot;);
+            newLine();
+            write(&quot;TransformerHandler handler = saxTf.newTransformerHandler();&quot;);
+            newLine();
+            write(&quot;handler.setResult(new StreamResult(response.getOutputStream()));&quot;);
+            newLine();
+            write(&quot;handler.startDocument();&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void endDocument() throws SAXException {
+        try {
+            write(&quot;handler.endDocument();&quot;);
+            newLine();
+            flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void startPrefixMapping(String arg0, String arg1)
+            throws SAXException {
+        try {
+            write(&quot;handler.startPrefixMapping(\&quot;&quot; + arg0 + &quot;\&quot;, \&quot;&quot; + arg1
+                    + &quot;\&quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void endPrefixMapping(String arg0) throws SAXException {
+        try {
+            write(&quot;handler.endPrefixMapping(\&quot;&quot; + arg0 + &quot;\&quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 最初のエレメントかどうかを判断します。
+     */
+    private boolean isFirstAttributes = true;
+
+    public void startElement(String uri, String localname, String qname,
+            Attributes attributes) throws SAXException {
+        try {
+            if (isFirstAttributes) {
+                isFirstAttributes = false;
+                write(&quot;AttributesImpl attributes = new AttributesImpl();&quot;);
+                newLine();
+            } else {
+                write(&quot;attributes = new AttributesImpl();&quot;);
+                newLine();
+            }
+            for (int index = 0; index &lt; attributes.getLength(); index++) {
+                write(&quot;attributes.addAttribute(\&quot;&quot; + attributes.getURI(index)
+                        + &quot;\&quot;, \&quot;&quot; + attributes.getLocalName(index) + &quot;\&quot;, \&quot;&quot;
+                        + attributes.getQName(index) + &quot;\&quot;, \&quot;&quot;
+                        + attributes.getType(index) + &quot;\&quot;, \&quot;&quot;
+                        + attributes.getValue(index) + &quot;\&quot;);&quot;);
+                newLine();
+            }
+            write(&quot;handler.startElement(\&quot;&quot; + uri + &quot;\&quot;, \&quot;&quot; + localname
+                    + &quot;\&quot;, \&quot;&quot; + qname + &quot;\&quot;, attributes);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void endElement(String arg0, String arg1, String arg2)
+            throws SAXException {
+        try {
+            write(&quot;handler.endElement(\&quot;&quot; + arg0 + &quot;\&quot;, \&quot;&quot; + arg1 + &quot;\&quot;, \&quot;&quot;
+                    + arg2 + &quot;\&quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void characters(char[] arg0, int arg1, int arg2) throws SAXException {
+        try {
+            // 第二引数に0をセットしている点に注意！
+            write(&quot;handler.characters(\&quot;&quot; + new String(arg0, arg1, arg2)
+                    + &quot;\&quot;.toCharArray(), 0, &quot; + arg2 + &quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void ignorableWhitespace(char[] arg0, int arg1, int arg2)
+            throws SAXException {
+        try {
+            write(&quot;handler.ignorableWhitespace(\&quot;&quot;
+                    + new String(arg0, arg1, arg2) + &quot;\&quot;.toCharArray(), 0, &quot;
+                    + arg2 + &quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void processingInstruction(String arg0, String arg1)
+            throws SAXException {
+        try {
+            write(&quot;handler.processingInstruction(\&quot;&quot; + arg0 + &quot;\&quot;, \&quot;&quot; + arg1
+                    + &quot;\&quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void skippedEntity(String arg0) throws SAXException {
+        try {
+            write(&quot;handler.skippedEntity(\&quot;&quot; + arg0 + &quot;\&quot;);&quot;);
+            newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static final Transformer getTransformer()
+            throws TransformerFactoryConfigurationError,
+            TransformerConfigurationException {
+        TransformerFactory tf = TransformerFactory.newInstance();
+        Transformer transformer = tf.newTransformer();
+        transformer.setOutputProperty(&quot;encoding&quot;, &quot;UTF-8&quot;);
+        transformer.setOutputProperty(&quot;standalone&quot;, &quot;yes&quot;);
+        transformer.setOutputProperty(&quot;indent&quot;, &quot;yes&quot;);
+        return transformer;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※このファイルの継続的な維持については blancoCommonsの中において行われていくことでしょう。<BR>
+※さしあたり、例外をSAXExceptionに詰め替えが必要でしょう。その上で うそSOAPでは Faultを適切に扱うべきです。</BLOCKQUOTE>
+<P>この場合のキャプチャをおこなうべく まず うそSOAPサーバを起動してキャプチャします。</P>
+<UL>
+  <LI>なお、このサーブレットは非常に良くないことに、「ルート」にキャプチャ結果のファイルを保存します。実行時には よく考えてから実行するようにしてください。Tomcatであれば、startup.batを起動する際のカレントディレクトリが「ルート」となります…<BR>
+  ※さすがに改善すべき点でしょうが、時間がないので省略します。
+  <LI>また、このサーブレットを Webサービスだと仮定して呼び出しを行うと、当然のごとく 初回はクライアント側においてエラーが発生します。
+  <LI>加えて、SOAP の Faultに対応していない点も重要です。Envelope -&gt; Body -&gt; Fault のところにエラーコードを適切に返す必要があります。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1" >
+  <TBODY>
+    <TR bgcolor="#ffff00">
+      <TD>
+      <pre>UsoapServlet.java</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * うそSOAPサーブレット構築計画
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.Enumeration;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerFactoryConfigurationError;
+import javax.xml.transform.sax.SAXResult;
+import javax.xml.transform.sax.SAXSource;
+import javax.xml.transform.sax.SAXTransformerFactory;
+import javax.xml.transform.sax.TransformerHandler;
+import javax.xml.transform.stream.StreamResult;
+
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.AttributesImpl;
+
+/**
+ * うそSOAPサーブレット ソースコード
+ * 
+ * @author iga
+ * @version 2005.08.11
+ */
+public class UsoapServlet extends HttpServlet {
+
+    /**
+     * &lt;code&gt;ENCODING&lt;/code&gt; HTMLで扱う文字コードを与えます。
+     */
+    public static final String ENCODING = &quot;UTF-8&quot;;
+
+    /**
+     * Java Servletのエントリポイントです。
+     * 
+     * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
+     *      javax.servlet.http.HttpServletResponse)
+     */
+    public final void service(final HttpServletRequest request,
+            final HttpServletResponse response) throws ServletException,
+            IOException {
+
+        setResponseDefault(response);
+
+        try {
+            try {
+                recvRequest(request);
+            } catch (TransformerException e1) {
+                e1.printStackTrace();
+            } catch (TransformerFactoryConfigurationError e1) {
+                e1.printStackTrace();
+            }
+
+            try {
+                sendResponse(response);
+            } catch (TransformerConfigurationException e) {
+                e.printStackTrace();
+            } catch (TransformerFactoryConfigurationError e) {
+                e.printStackTrace();
+            } catch (SAXException e) {
+                e.printStackTrace();
+            }
+        } finally {
+            // ReaderもWriterもクローズしません。flushも呼び出してはなりません。(2005.03.13に判明)
+        }
+    }
+
+    /**
+     * リクエストをファイルに出力します。
+     * 
+     * @param request
+     * @throws IOException
+     * @throws FileNotFoundException
+     * @throws TransformerException
+     * @throws TransformerFactoryConfigurationError
+     * @throws TransformerConfigurationException
+     */
+    private void recvRequest(final HttpServletRequest request)
+            throws IOException, FileNotFoundException, TransformerException,
+            TransformerFactoryConfigurationError,
+            TransformerConfigurationException {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(&quot;UsoapServletRequest.txt&quot;, true)));
+
+        writer.write(&quot;HttpClient client = new HttpClient();&quot;);
+        writer.newLine();
+        writer
+                .write(&quot;client.getHostConfiguration().setHost(\&quot;localhost\&quot;, 8080, \&quot;http\&quot;);&quot;);
+
+        writer.newLine();
+        writer
+                .write(&quot;PostMethod method = new PostMethod(\&quot;/axis/WsTest02.jws\&quot;);&quot;);
+        writer.newLine();
+
+        for (Enumeration enum = request.getHeaderNames(); enum
+                .hasMoreElements();) {
+            String key = (String) enum.nextElement();
+
+            writer.write(&quot;method.addRequestHeader(\&quot;&quot; + key + &quot;\&quot;, \&quot;&quot;
+                    + request.getHeader(key) + &quot;\&quot;);&quot;);
+            writer.newLine();
+        }
+        writer.newLine();
+
+        SAXSource source = new SAXSource();
+        source.setInputSource(new InputSource(request.getInputStream()));
+        SAXResult result = new SAXResult();
+        result.setHandler(new BlancoReverseContentHandler(writer));
+        BlancoReverseContentHandler.getTransformer().transform(source, result);
+        writer.newLine();
+        writer.flush();
+        writer.close();
+    }
+
+    /**
+     * レスポンスを送信します。 &lt;br&gt;
+     * ※注意: ここには うそSOAPのキャプチャ結果ソースコードをそのまま貼り付けます。
+     * 
+     * @param response
+     * @throws TransformerFactoryConfigurationError
+     * @throws TransformerConfigurationException
+     * @throws IOException
+     * @throws SAXException
+     */
+    private void sendResponse(final HttpServletResponse response)
+            throws TransformerFactoryConfigurationError,
+            TransformerConfigurationException, IOException, SAXException {
+
+        // ここからはリバースSAXの出力結果。人手で書いたものではありません。
+        TransformerFactory tf = TransformerFactory.newInstance();
+        SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;
+        TransformerHandler handler = saxTf.newTransformerHandler();
+        handler.setResult(new StreamResult(response.getOutputStream()));
+        handler.startDocument();
+        handler.startPrefixMapping(&quot;soapenv&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/envelope/&quot;);
+        handler.startPrefixMapping(&quot;xsd&quot;, &quot;http://www.w3.org/2001/XMLSchema&quot;);
+        handler.startPrefixMapping(&quot;xsi&quot;,
+                &quot;http://www.w3.org/2001/XMLSchema-instance&quot;);
+        AttributesImpl attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenv&quot;,
+                &quot;xmlns:soapenv&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/envelope/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsd&quot;,
+                &quot;xmlns:xsd&quot;, &quot;CDATA&quot;, &quot;http://www.w3.org/2001/XMLSchema&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsi&quot;,
+                &quot;xmlns:xsi&quot;, &quot;CDATA&quot;,
+                &quot;http://www.w3.org/2001/XMLSchema-instance&quot;);
+        handler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;, attributes);
+        attributes = new AttributesImpl();
+        handler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Body&quot;, &quot;soapenv:Body&quot;, attributes);
+        handler.startPrefixMapping(&quot;ns1&quot;, &quot;http://MyNamespace&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns1&quot;,
+                &quot;xmlns:ns1&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        handler.startElement(&quot;http://MyNamespace&quot;, &quot;method02Response&quot;,
+                &quot;ns1:method02Response&quot;, attributes);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;arrayType&quot;, &quot;soapenc:arrayType&quot;, &quot;CDATA&quot;, &quot;xsd:anyType[2]&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;soapenc:Array&quot;);
+        handler
+                .startElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;,
+                        attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id0&quot;);
+        handler
+                .startElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;,
+                        attributes);
+        handler.endElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id1&quot;);
+        handler
+                .startElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;,
+                        attributes);
+        handler.endElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;);
+        handler.endElement(&quot;&quot;, &quot;method02Return&quot;, &quot;method02Return&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.endElement(&quot;http://MyNamespace&quot;, &quot;method02Response&quot;,
+                &quot;ns1:method02Response&quot;);
+        handler.endPrefixMapping(&quot;ns1&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        handler.startPrefixMapping(&quot;ns2&quot;, &quot;http://MyNamespace&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns2&quot;,
+                &quot;xmlns:ns2&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;ns2:WsTestOutput&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:int&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg3&quot;, &quot;arg3&quot;, attributes);
+        handler.characters(&quot;0&quot;.toCharArray(), 0, 1);
+        handler.endElement(&quot;&quot;, &quot;arg3&quot;, &quot;arg3&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:string&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg4&quot;, &quot;arg4&quot;, attributes);
+        handler.characters(&quot;は&quot;.toCharArray(), 0, 1);
+        handler.characters(&quot;ろ&quot;.toCharArray(), 0, 1);
+        handler.characters(&quot;う&quot;.toCharArray(), 0, 1);
+        handler.endElement(&quot;&quot;, &quot;arg4&quot;, &quot;arg4&quot;);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;ns2&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.startPrefixMapping(&quot;ns3&quot;, &quot;http://MyNamespace&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns3&quot;,
+                &quot;xmlns:ns3&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id1&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;ns3:WsTestOutput&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:int&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg3&quot;, &quot;arg3&quot;, attributes);
+        handler.characters(&quot;0&quot;.toCharArray(), 0, 1);
+        handler.endElement(&quot;&quot;, &quot;arg3&quot;, &quot;arg3&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:string&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;nil&quot;, &quot;xsi:nil&quot;, &quot;CDATA&quot;, &quot;true&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg4&quot;, &quot;arg4&quot;, attributes);
+        handler.endElement(&quot;&quot;, &quot;arg4&quot;, &quot;arg4&quot;);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.endPrefixMapping(&quot;ns3&quot;);
+        handler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;, &quot;Body&quot;,
+                &quot;soapenv:Body&quot;);
+        handler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;);
+        handler.endPrefixMapping(&quot;xsi&quot;);
+        handler.endPrefixMapping(&quot;xsd&quot;);
+        handler.endPrefixMapping(&quot;soapenv&quot;);
+        handler.endDocument();
+    }
+
+    /**
+     * デフォルトとなるレスポンスヘッダーの付与
+     * 
+     * @param response
+     *            レスポンスオブジェクトを与えます。
+     */
+    private void setResponseDefault(final HttpServletResponse response) {
+        response.setContentType(&quot;text/xml; charset=&quot; + ENCODING);
+        response.addHeader(&quot;Content-Type&quot;, &quot;text/xml&quot;);
+        response.addHeader(&quot;charset&quot;, ENCODING);
+        response.addHeader(&quot;Cache-Control&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Pragma&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Expires&quot;, &quot;0&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※このサーブレットは 「ルート」に作業ファイルを作成してしまいます。実行の前に それが許される環境であるかどうかについて、よく考えてください。</BLOCKQUOTE>
+<P>サーバ側でキャプチャできれば、今度はクライアント側にキャプチャ結果を貼り付けて、サーバ側の挙動をキャプチャすることが出来ます。</P>
+<P>ここからはクライアント側のコードです。</P>
+<BLOCKQUOTE>
+<TABLE border="1" >
+  <TBODY>
+    <TR bgcolor="#ffff00">
+      <TD>
+      <pre>HttpCaller.java</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerFactoryConfigurationError;
+import javax.xml.transform.sax.SAXResult;
+import javax.xml.transform.sax.SAXSource;
+import javax.xml.transform.sax.SAXTransformerFactory;
+import javax.xml.transform.sax.TransformerHandler;
+import javax.xml.transform.stream.StreamResult;
+
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.AttributesImpl;
+
+public class HttpCaller {
+    private static final int COUNT = 100;
+
+    private void callMethod() {
+        HttpClient client = new HttpClient();
+        client.getHostConfiguration().setHost(&quot;localhost&quot;, 8080, &quot;http&quot;);
+        PostMethod method = new PostMethod(&quot;/axis/WsTest02.jws&quot;);
+        method.addRequestHeader(&quot;content-type&quot;, &quot;text/xml; charset=utf-8&quot;);
+
+        ByteArrayOutputStream outStream = new ByteArrayOutputStream();
+        try {
+            buildRequest(outStream);
+        } catch (TransformerConfigurationException e1) {
+            e1.printStackTrace();
+        } catch (TransformerFactoryConfigurationError e1) {
+            e1.printStackTrace();
+        } catch (SAXException e1) {
+            e1.printStackTrace();
+        }
+
+        byte[] requestBytes = outStream.toByteArray();
+        method
+                .addRequestHeader(&quot;accept&quot;,
+                        &quot;application/soap+xml, application/dime, multipart/related, text/*&quot;);
+        method.addRequestHeader(&quot;user-agent&quot;, &quot;Usoap/1.2.1&quot;);
+        method.addRequestHeader(&quot;host&quot;, &quot;localhost:8080&quot;);
+        method.addRequestHeader(&quot;cache-control&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;pragma&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;soapaction&quot;, &quot;\&quot;\&quot;&quot;);
+        method.addRequestHeader(&quot;content-length&quot;, String
+                .valueOf(requestBytes.length));
+
+        method.setRequestBody(new ByteArrayInputStream(requestBytes));
+        try {
+            client.executeMethod(method);
+
+            try {
+                SAXSource source = new SAXSource();
+                source.setInputSource(new InputSource(method
+                        .getResponseBodyAsStream()));
+                SAXResult result = new SAXResult();
+                result.setHandler(new BlancoReverseContentHandler(
+                        new OutputStreamWriter(new FileOutputStream(
+                                &quot;HttpCallerResponse.txt&quot;))));
+                BlancoReverseContentHandler.getTransformer().transform(source,
+                        result);
+            } catch (TransformerConfigurationException e2) {
+                e2.printStackTrace();
+            } catch (TransformerException e2) {
+                e2.printStackTrace();
+            } catch (TransformerFactoryConfigurationError e2) {
+                e2.printStackTrace();
+            }
+        } catch (HttpException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        method.releaseConnection();
+    }
+
+    /**
+     * 送信電文を組み立てます。
+     * 
+     * @param outStream
+     * @throws TransformerFactoryConfigurationError
+     * @throws TransformerConfigurationException
+     * @throws SAXException
+     */
+    private void buildRequest(ByteArrayOutputStream outStream)
+            throws TransformerFactoryConfigurationError,
+            TransformerConfigurationException, SAXException {
+
+        TransformerFactory tf = TransformerFactory.newInstance();
+        SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;
+        TransformerHandler handler = saxTf.newTransformerHandler();
+        handler.setResult(new StreamResult(outStream));
+        handler.startDocument();
+        handler.startPrefixMapping(&quot;soapenv&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/envelope/&quot;);
+        handler.startPrefixMapping(&quot;xsd&quot;, &quot;http://www.w3.org/2001/XMLSchema&quot;);
+        handler.startPrefixMapping(&quot;xsi&quot;,
+                &quot;http://www.w3.org/2001/XMLSchema-instance&quot;);
+        AttributesImpl attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenv&quot;,
+                &quot;xmlns:soapenv&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/envelope/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsd&quot;,
+                &quot;xmlns:xsd&quot;, &quot;CDATA&quot;, &quot;http://www.w3.org/2001/XMLSchema&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsi&quot;,
+                &quot;xmlns:xsi&quot;, &quot;CDATA&quot;,
+                &quot;http://www.w3.org/2001/XMLSchema-instance&quot;);
+        handler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;, attributes);
+        attributes = new AttributesImpl();
+        handler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Body&quot;, &quot;soapenv:Body&quot;, attributes);
+        handler.startPrefixMapping(&quot;ns1&quot;, &quot;http://MyNamespace&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns1&quot;,
+                &quot;xmlns:ns1&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        handler.startElement(&quot;http://MyNamespace&quot;, &quot;method02&quot;, &quot;ns1:method02&quot;,
+                attributes);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes
+                .addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                        &quot;arrayType&quot;, &quot;soapenc:arrayType&quot;, &quot;CDATA&quot;,
+                        &quot;ns1:WsTestInput[2]&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;soapenc:Array&quot;);
+        handler.startElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id0&quot;);
+        handler.startElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;, attributes);
+        handler.endElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id1&quot;);
+        handler.startElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;, attributes);
+        handler.endElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;);
+        handler.endElement(&quot;&quot;, &quot;input&quot;, &quot;input&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.endElement(&quot;http://MyNamespace&quot;, &quot;method02&quot;, &quot;ns1:method02&quot;);
+        handler.endPrefixMapping(&quot;ns1&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        handler.startPrefixMapping(&quot;ns2&quot;, &quot;http://MyNamespace&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns2&quot;,
+                &quot;xmlns:ns2&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id1&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;ns2:WsTestInput&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id2&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;, attributes);
+        handler.endElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:string&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;, attributes);
+        handler.characters(&quot;abc&quot;.toCharArray(), 0, 3);
+        handler.endElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;ns2&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.startPrefixMapping(&quot;ns3&quot;, &quot;http://MyNamespace&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;ns3&quot;,
+                &quot;xmlns:ns3&quot;, &quot;CDATA&quot;, &quot;http://MyNamespace&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;ns3:WsTestInput&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;&quot;, &quot;href&quot;, &quot;href&quot;, &quot;CDATA&quot;, &quot;#id3&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;, attributes);
+        handler.endElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:string&quot;);
+        handler.startElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;, attributes);
+        handler.characters(&quot;abc&quot;.toCharArray(), 0, 3);
+        handler.endElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.endPrefixMapping(&quot;ns3&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id2&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:int&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        handler.characters(&quot;3&quot;.toCharArray(), 0, 1);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.startPrefixMapping(&quot;soapenc&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenc&quot;,
+                &quot;xmlns:soapenc&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;&quot;, &quot;id&quot;, &quot;id&quot;, &quot;CDATA&quot;, &quot;id3&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;,
+                &quot;root&quot;, &quot;soapenc:root&quot;, &quot;CDATA&quot;, &quot;0&quot;);
+        attributes.addAttribute(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;encodingStyle&quot;, &quot;soapenv:encodingStyle&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/encoding/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2001/XMLSchema-instance&quot;,
+                &quot;type&quot;, &quot;xsi:type&quot;, &quot;CDATA&quot;, &quot;xsd:int&quot;);
+        handler.startElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;, attributes);
+        handler.characters(&quot;3&quot;.toCharArray(), 0, 1);
+        handler.endElement(&quot;&quot;, &quot;multiRef&quot;, &quot;multiRef&quot;);
+        handler.endPrefixMapping(&quot;soapenc&quot;);
+        handler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;, &quot;Body&quot;,
+                &quot;soapenv:Body&quot;);
+        handler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;);
+        handler.endPrefixMapping(&quot;xsi&quot;);
+        handler.endPrefixMapping(&quot;xsd&quot;);
+        handler.endPrefixMapping(&quot;soapenv&quot;);
+        handler.endDocument();
+    }
+
+    public static void main(String[] args) {
+        new HttpCaller().callMethod();
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>href/multiRef解析コード例</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>multiRef対応の解析コードの例を示します。<BR>
+SAX2はコールバックなので、いろいろ応用が利いて便利ですね。</P>
+<BLOCKQUOTE>
+<TABLE border="1" >
+  <TBODY>
+    <TR bgcolor="#ffff00">
+      <TD>
+      <pre>SAX2インラインクラスベースによるhrefおよびmultiRefの解析コード</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>        SAXSource source = new SAXSource();
+        source.setInputSource(new InputSource(request.getInputStream()));
+        SAXResult result = new SAXResult();
+        result.setHandler(new ContentHandler() {
+            /**
+             * カレントのタグ
+             */
+            private String currentTag = &quot;&quot;;
+
+            /**
+             * テキストの記憶領域。「タグ : テキスト」の組み合わせで記憶していきます。
+             */
+            private Hashtable hashTagText = new Hashtable();
+
+            /**
+             * href/multiRefの記憶領域。「id: タグ」の組み合わせで記憶していきます。
+             */
+            private Hashtable hashHref = new Hashtable();
+
+            /**
+             * カレントの multiRefを記憶します。
+             */
+            private Stack currentMultiRef = new Stack();
+
+            public void setDocumentLocator(Locator arg0) {
+            }
+
+            public void startDocument() throws SAXException {
+                System.out.println(&quot;開始します.&quot;);
+            }
+
+            public void endDocument() throws SAXException {
+                // TODO:ここで何かしらの終了処理を行います。
+            }
+
+            public void startPrefixMapping(String arg0, String arg1)
+                    throws SAXException {
+            }
+
+            public void endPrefixMapping(String arg0) throws SAXException {
+            }
+
+            public void startElement(String arg0, String arg1, String arg2,
+                    Attributes attributes) throws SAXException {
+
+                // カレントのタグを記憶します。
+                currentTag = arg2;
+
+                if (hashTagText.get(currentTag) == null) {
+                    // もしタグがない場合には新規作成します。
+                    hashTagText.put(currentTag, new CharArrayWriter());
+                }
+
+                if (currentTag.equals(&quot;multiRef&quot;)) {
+                    for (int index = 0; index &lt; attributes.getLength(); index++) {
+                        if (attributes.getLocalName(index).equals(&quot;id&quot;)) {
+                            currentMultiRef.push(attributes.getValue(index));
+                        }
+                    }
+                }
+
+                for (int index = 0; index &lt; attributes.getLength(); index++) {
+                    if (attributes.getLocalName(index).equals(&quot;href&quot;)) {
+                        hashHref.put(attributes.getValue(index).substring(1),
+                                currentTag);
+                    }
+                }
+
+            }
+
+            public void endElement(String arg0, String arg1, String arg2)
+                    throws SAXException {
+                CharArrayWriter writer = null;
+                String strText = null;
+                if (currentTag != null &amp;&amp; hashTagText.get(currentTag) != null) {
+                    writer = (CharArrayWriter) hashTagText.get(currentTag);
+
+                    writer.flush();
+                    strText = writer.toString();
+                    System.out.println(currentTag + &quot;[&quot; + strText + &quot;]&quot;);
+                    writer.reset();
+                }
+
+                if (currentTag.equals(&quot;multiRef&quot;)) {
+                    String strCurrentMultiRef = (String) currentMultiRef.pop();
+                    System.out.println(&quot;multiRef読み替え:&quot;
+                            + hashHref.get(strCurrentMultiRef) + &quot;[&quot; + strText
+                            + &quot;]&quot;);
+                }
+
+                // TODO:ここでタグにより分岐処理を行います。
+
+            }
+
+            public void characters(char[] arg0, int arg1, int arg2)
+                    throws SAXException {
+                if (hashTagText.get(currentTag) == null) {
+                    // もしタグがない場合には新規作成します。
+                    hashTagText.put(currentTag, new CharArrayWriter());
+                }
+
+                ((CharArrayWriter) hashTagText.get(currentTag)).write(arg0,
+                        arg1, arg2);
+            }
+
+            public void ignorableWhitespace(char[] arg0, int arg1, int arg2)
+                    throws SAXException {
+            }
+
+            public void processingInstruction(String arg0, String arg1)
+                    throws SAXException {
+            }
+
+            public void skippedEntity(String arg0) throws SAXException {
+            }
+        });
+
+        BlancoReverseContentHandler.getTransformer().transform(source, result);</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※ほんとうはタグについてもスタック対応すべきなのでしょう。<BR>
+※SOAP 1.2では hrefは名称が enc:refに変更されています。SOAP 1.2では IDREFなどの用語も登場します。</BLOCKQUOTE>
+<P>低速な箇所の高速化のために、上記技法が有益であることはわかったのですが、対応実施までは至らず。残念。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050810.html">2005/08/10 日記: うそSOAP その2</A>
+  <LI><A href="ig050803.html">2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</A>
+  <LI><A href="ig050802.html">2005/08/02 日記: うそSOAPサーバ・サーブレット実現性の模索</A>
+  <LI><A href="ig050819.html">2005/08/19 日記: Java: WSDL(XMLSchema)パーサ シンプルサンプル</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

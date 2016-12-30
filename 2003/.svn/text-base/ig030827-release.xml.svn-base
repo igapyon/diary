@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030827.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030827.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.2/ja/index.html">
+    <title>Sun Java 2 Platform, Standard Edition (J2SE) 1.4.2_01 リリース</title>
+    <link>http://java.sun.com/j2se/1.4.2/ja/index.html</link>
+    <description>
+      J2SEの最新版のリビジョンアップにあたる、Sun J2SE 1.4.2_01がリリースです。Java Update機能なんていう新機能が付いているのだそうな。また 1.4.2_01の修正点は 1.4.2にまつわる新機能関連がほとんどであるように感じられます。プロキシ越えのネットワークインストールの不具合なんてのが載っていて、やっぱり従来型のオフラインインストールが一番良いなぁと思いました。この状態では まだ 1.4.2系が枯れてきて安心して使えるようになるのは 随分先のことになりそうです。今考えて、現時点での私にとっての安定版は 1.4.0系かなぁ…なんて言いつつ 実際に たった今使っているのは 1.4.2なのであった (苦笑)
+    </description>
+    <dc:date>2003-08-27T18:05:13</dc:date>
+  </item>
+
+</rdf:RDF>

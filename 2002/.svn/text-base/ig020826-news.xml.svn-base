@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020826.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020826.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/26/njbt_02.html">
+    <title>対戦型ゲームでJavaを学べるプログラミングコンテスト　日本IBM</title>
+    <link>http://www.zdnet.co.jp/news/0208/26/njbt_02.html</link>
+    <description>日本IBM主催でRobocodeコンテストが開催されるとのこと。日本でも開催してもらえるのは、すばらしいことだと思います。</description>
+    <dc:date>2002-08-26T17:40:27</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/24/nebt_10.html">
+    <title>Borland、MS対抗ツール「Galileo」投入へ</title>
+    <link>http://www.zdnet.co.jp/news/0208/24/nebt_10.html</link>
+    <description>JBuilderで好調なボーランド。早速次の手を打ち始めていますね。</description>
+    <dc:date>2002-08-26T17:40:27</dc:date>
+  </item>
+
+</rdf:RDF>

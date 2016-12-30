@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020522.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020522.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://wp.netscape.com/ja/download/">
+    <title>Netscape 6.2.3リリース</title>
+    <link>http://wp.netscape.com/ja/download/</link>
+    <description>ネットスケープの最新版がリリースされていました。</description>
+    <dc:date>2002-05-22T17:10:40</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/186321">
+    <title>レッドハット、基幹システム向けLinuxを発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/186321</link>
+    <description>基幹システムたり得る製品かどうかは 私には判断付きかねます。</description>
+    <dc:date>2002-05-22T17:10:40</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/186199">
+    <title>オラクル、データベースクラスタがLinuxを正式サポート</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/186199</link>
+    <description>安価なマシン複数台でクラスタ構成を組んで ノンストップデータベース環境が構築できるのなら 大変魅力的ですね。でも データベースそのものは やっぱり高価であるようにも思えます…。</description>
+    <dc:date>2002-05-22T17:10:40</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/22/nebt_08.html">
+    <title>ソニーが勝利宣言「ゲーム機戦争は終結した」</title>
+    <link>http://www.zdnet.co.jp/news/0205/22/nebt_08.html</link>
+    <description>実際の所 PS2が圧倒的に勝っているのでしょうね。</description>
+    <dc:date>2002-05-22T19:53:09</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/05/22/grri84000000cdd6.html">
+    <title>日銀 景気底入れ判断は見送り</title>
+    <link>http://www.nhk.or.jp/news/2002/05/22/grri84000000cdd6.html</link>
+    <description>景気の悪化のテンポが緩やかなのだそうです。</description>
+    <dc:date>2002-05-22T19:53:09</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/05/22/grri84000000cd98.html">
+    <title>猫虐待をネットに 男書類送検</title>
+    <link>http://www.nhk.or.jp/news/2002/05/22/grri84000000cd98.html</link>
+    <description>その問題の人物は 書類送検されたそうです。</description>
+    <dc:date>2002-05-22T19:53:09</dc:date>
+  </item>
+
+</rdf:RDF>

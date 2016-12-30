@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/19 日記: 今日も引き続きSEモード</TITLE>
+<META name="DESCRIPTION" content="ああひたすらプログラム仕様作成。ペーパークラフトリンクメモなど">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>引き続きSEモード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ソースコードにコメント入れて、それをプログラム仕様書に反映させてぇ、、、と…<BR>
+javadoc走らせたら 警告がぼこぼこ出てきます。ああっ タグの書き方がバグっている～
+(苦笑) でも そこに気を取られてはいけません。今日中に プログラム仕様書を
+何本も仕上げないといけないのですから … ぐはぁ (<FONT color="#ff0000">吐血</FONT>)</P>
+<P><FONT color="#ff0000">18:52</FONT> なんとかプログラム仕様書作成完了。めっちゃ疲れました。<BR>
+手順として</P>
+<OL>
+  <LI>JavaDoc用コメントを挿入しまくる
+  <LI>プログラム仕様書に ひたすら カット＆ペーストしていく
+</OL>
+<P>とゆ～段取りでした。でもでも コメントを入れまくるのは意外におもしろいですね。実体のコードよりも
+コメントの方が ず～っと多いとゆ～事実がわかったり、コメントを入れるその作業そのものがきっかけとなり、
+『構造化プログラミングとは何か』ということを考えさせられたり。ちなみに
+それが 『オブジェクト指向とは？』 という問いかけでは無いところが これまた奥が深い。やっぱ基本は構造化プログラミングですよね
+:-P</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ペーパークラフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>電車関連ペーパークラフトのリンクをちょっとメモ</P>
+<UL>
+  <LI>阪神電車ペーパークラフト<BR>
+  [replace-href:http://www.hanshin.co.jp/railfan/6003.htm]
+  <LI>阪急電車ペーパークラフト<BR>
+  [replace-href:http://isweb16.infoseek.co.jp/travel/s-liner/hkpaper.html]
+  <LI>ＪＲ西日本ペーパークラフト・プリントコーナー<BR>
+  [replace-href:http://www.westjr.co.jp/kou/p_craft/]
+</UL>
+<P>ちょっとした時間にでも 和音さんに作ってあげようと思いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>五嶋節さんの思い出</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>下記ホームページの存在を知りました (e-plusのDMがきっかけ)</P>
+<UL>
+  <LI>五嶋みどり公式ＨＰ<BR>
+  [replace-href:http://www.gotomidori.com/]
+</UL>
+<P>私が幼い頃にヴァイオリンを習っていた先生 (五嶋節さん) の子どもさんにあたる方です。でも今や
+世界を代表するヴァイオリニストの一人ですね。<BR>
+シンフォニーホールにて演奏会の予定だそうですが、和音さんがいるから聴きに行くことは出来ないだろうなぁ。みどりちゃんや龍さんの演奏会に行けば
+また五嶋先生とお会いできるかも知れないのですけれどもね。<BR>
+そういえば ずいぶん前に、これまた五嶋節先生の子どもさんである五嶋龍さんが、私の従姉妹が出演した演奏会で弾いた時(これはデビュー前)に、五嶋節先生と
+超久しぶりにお会いしました。まだ私がヴァイオリンを弾いているって聞いて
+喜んでくれたのが印象的だったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>shinoさんへ業務連絡</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.freedomcat.com/">shino</A>さんへ、更新時刻取得方法の件、了解しました。…ちなみに 結城浩さんの日記から誘われて
+「技術系」 なページからのリンクが増えたのでしょう。<BR>
+# いがぴょんの日記が技術系なのかどうか 私もさっぱりわかりませんが (笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020219-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

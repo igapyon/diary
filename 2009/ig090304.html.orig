@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/04 日記: OpenOffice.org 3.0.1 インストール手順 (Windows 版)</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org 3.0.1  を Windows XP にインストールする手順を簡単にメモしました。">
+<META name="KEYWORDS" content="OpenOffice.org,3.0.1,install,インストール,手順,セットアップ,Windows">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/04 日記: OpenOffice.org 3.0.1 インストール手順 (Windows 版)</H2>
+    <P>[OpenOffice.org,3.0.1,install,インストール,手順,セットアップ,Windows] OpenOffice.org 3.0.1  を Windows XP にインストールする手順を簡単にメモしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org 3.0.1 インストール手順 (Windows 版)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>※この日記は実際には <FONT color="#ff0000">2009-03-05</FONT> に記述されました。</P>
+
+<P>OpenOffice.org 3.0.1  を Windows XP にインストールする手順を簡単にメモしました。</P>
+<P><FONT color="#ff00ff">インストール準備</FONT></P>
+<P>OpenOffice.org のインストールに先立ち、あらかじめ Java 実行環境 をセットアップしておきます。</P>
+<UL>
+  <LI>Java SE Downloads<BR>
+  <A HREF="http://java.sun.com/javase/downloads/">http://java.sun.com/javase/downloads/</A>
+</UL>
+<P>次に OpenOffice.org のインストール・モジュールを手に入れます。2009-03-05時点の最新安定版は 3.0.1 となっているので、ここではこれを利用します。</P>
+<UL>
+  <LI>ja: OpenOffice.org日本語版ダウンロードページ<BR>
+  <A HREF="http://ja.openoffice.org/download/">http://ja.openoffice.org/download/</A><BR>
+  ※「JRE無し」をダウンロードします。
+</UL>
+<P>OpenOffice.org 3.0.1 日本語版で 「JRE無し」版は、以下のようなファイル名になります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>OOo_3.0.1_Win32Intel_install_ja.exe</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">インストール実行</FONT></P>
+<P>インストール・モジュールを実行してインストールを開始します。<BR>
+「次へ」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo001.png" border="0"></BLOCKQUOTE>
+<P>「解凍したファイルを保存するフォルダ」を選択する画面が開きます。通常は最初から表示されている値 (デフォルト値) を利用するのが良いと考えます。<BR>
+ここで指定した「解凍したファイルを保存するフォルダ」に、OpenOffice.org をインストールするために必要なファイルが展開されます。<BR>
+※インストールが終わった後に、このフォルダの内容が必要なければ削除するのが普通です。(この手順に際しては、意図と反して必要なファイルを誤って削除してしまわないように注意する必要があります)<BR>
+「展開」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo002.png" border="0"></BLOCKQUOTE>
+<P>インストールに必要なファイルの展開が実施されます。ダイアログが進むまでしばらく待ちます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo003.png" border="0"></BLOCKQUOTE>
+<P>「次へ」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo004.png" border="0"></BLOCKQUOTE>
+<P>ユーザ名などを入力して「次へ」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo005.png" border="0"></BLOCKQUOTE>
+<P>セットアップの種類を選択します。よくわからない場合には「すべて」を選択します。<BR>
+「次へ」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo006.png" border="0"></BLOCKQUOTE>
+<P>「インストール」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo007.png" border="0"></BLOCKQUOTE>
+<P>インストールが終わるまで待ちます。<BR>
+この処理には、結構な時間がかかります。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo008.png" border="0"></BLOCKQUOTE>
+<P>インストールが完了したことを示す画面が開きます。<BR>
+「完了」ボタンを押してインストールを完了します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo009.png" border="0"></BLOCKQUOTE>
+<P>これでインストールは完了です。</P>
+<HR>
+<P><FONT color="#ff00ff">インストール後の処理</FONT></P>
+<P>では、一度 OpenOffice.org を起動してみましょう。<BR>
+ここでは、OpenOffice.org Writer (ワープロ) を起動してみます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo011.png" border="0"></BLOCKQUOTE>
+<P>システム起動時の OpenOffice.org ロードが無効になっていることを確認します。</P>
+<P>ツール(T) → オプション(O) メニューでダイアログを開きます。</P>
+<P>OpenOffice.org → メモリ を選択すると表示される「システム起動時に OpenOffice.org をロードする」チェックボックスが
+OFF になっているようにします。<BR>
+※この操作は OpenOffice.org を UNO で利用する際に必須の設定となります。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2009/20090304ooo012.png" border="0"></BLOCKQUOTE>
+<HR>
+<P>これで OpenOffice.org のインストールは完了です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

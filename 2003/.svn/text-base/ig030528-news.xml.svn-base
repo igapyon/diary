@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030528.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030528.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://biz-inno.nikkeibp.co.jp/conduct/article20030520.shtml">
+    <title>UFJ銀と三井住友銀の共同開発は「西暦2007年問題」対策</title>
+    <link>http://biz-inno.nikkeibp.co.jp/conduct/article20030520.shtml</link>
+    <description>銀行同士がシステム開発で仲良くやるんですって。口座振替システムを共同開発なのだそうな。興味深いです。まあ 口座振替という仕組みそのものは 銀行によらず 原則は一般化できるものなのでしょうから。また 銀行の基幹系をJavaで作成するという点にも触れていました。ふむふむ。Java言語は 情報技術世間一般の一般常識化してきましたね。一昔前は Java言語って 一部の先端的マニアが扱う 嗜好言語だったのに…。時間の流れを強く感じました。また その当時 『Javaは絶対流行る』と読み切った私の勘も相当なものだ (笑)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/yajima/20030515/1/">
+    <title>富士通の危機は日本の危機 IT企業の「西暦2007年問題」も深刻 日経コンピュータ2003年5月19日号，34ページより</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/yajima/20030515/1/</link>
+    <description>IT雑誌としては異質さを感じさせる ひねった記事。でも『手配師は育ったが、自分で開発ができる技術者の層が薄い』のクダリは 世の一般の情報技術大企業にありがちなパターンだと思います。実際のところ、私もここのところ 自分で手を動かす時間は減る傾向にあるかも知れませんしね (笑)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/248481">
+    <title>「デジタル家電のプラットフォームはLinuxに」、経済産業省</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/248481</link>
+    <description>とりあえず 情報家電はLinuxにしましょう という動きが出てきていますね。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/16/xert_tmobile.html">
+    <title>T-Mobile、MSベース携帯電話の発売を見送り</title>
+    <link>http://www.zdnet.co.jp/news/0305/16/xert_tmobile.html</link>
+    <description>高い故障率につながる「根本的な問題」というアタリが致命的に響いたのでしょうか？</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.10art-ni.co.jp/product/lifekeeper/">
+    <title>LifeKeeper (HAクラスタ)</title>
+    <link>http://www.10art-ni.co.jp/product/lifekeeper/</link>
+    <description>ちまたで指示されているクラスタソフト。Linux版もあるのだそうな。何かの機会に使ってみたい。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/26/njbt_06.html">
+    <title>ブロードバンドユーザーが過半数に</title>
+    <link>http://www.zdnet.co.jp/news/0305/26/njbt_06.html</link>
+    <description>高速インターネットが一般家庭に普及してきたんですね！ びっくりです。ブロードバンドが普及期と書いていますが、ほんとうにそんな時代が到来したのですね。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20054731,00.htm">
+    <title>プレステ２x70+Linux=スーパーコンピュータ!?</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20054731,00.htm</link>
+    <description>ゲーム機をたくさん使ってスーパーコンピュータを作るって 「さもありなん」的組み合わせですね。(今までそういうものがあったのかどうかは裏を取っていませんが…)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/svc/rss?id=1261.47623.54730">
+    <title>SAP、MySQL、オープンソースデータベース開発で提携</title>
+    <link>http://japan.cnet.com/svc/rss?id=1261.47623.54730</link>
+    <description>MySQLがSAPの「お墨付き」をもらうことが出来れば インパクトありそうですね。お墨付き以上に『金』をもらえるというのも重要でしょうけれども。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054741,00.htm">
+    <title>「さらば、Windows」：独ミュンヘン市がLinuxへ乗り換え</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054741,00.htm</link>
+    <description>Linuxな行政 って 興味深いです。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+
+</rdf:RDF>

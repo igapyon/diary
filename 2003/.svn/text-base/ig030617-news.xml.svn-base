@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030617.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030617.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://ws.apache.org/axis/">
+    <title>Apache Axis 1.1 リリース</title>
+    <link>http://ws.apache.org/axis/</link>
+    <description>Axis 1.1がリリースなのだそうです。ダウンロードできるようになっているだけで ホームページ上は更新未実施状態でした。</description>
+    <dc:date>2003-06-17T09:32:41</dc:date>
+  </item>
+
+  <item rdf:about="http://mapbrowse.gsi.go.jp/airphoto/">
+    <title>空中写真閲覧サービス（試験公開）</title>
+    <link>http://mapbrowse.gsi.go.jp/airphoto/</link>
+    <description>国土地理院所有の空中写真がオンライン閲覧できるというしろもの。大学を地学専攻で卒業したことになっている私には 大変興味深い情報です。めっちゃくちゃ面白いです。ちなみに大学専攻の実態は ヴァイオリン専攻とでもいったところなのですが…</description>
+    <dc:date>2003-06-17T09:32:41</dc:date>
+  </item>
+  <item rdf:about="http://www.hotwired.co.jp/news/news/20030616301.html">
+    <title>水素燃料の普及はオゾン層破壊につながる？--『サイエンス』誌に研究報告</title>
+    <link>http://www.hotwired.co.jp/news/news/20030616301.html</link>
+    <description>水素を漏れ出させないようにうまくやる方法が開発されて欲しいです。少なくとも化石燃料を使い続けることは 非常に危険ですので。</description>
+    <dc:date>2003-06-17T09:32:41</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/252422">
+    <title>Javaは“首席卒業生”、.NETは“落第生”--米SunのScott McNealy氏</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/252422</link>
+    <description>実際のトコロ、Javaはがんばらないと .NETにやられちゃいますよ。.NETの簡単開発画面の威力たるや強力ですから。仕事で JavaとC#.NETとを行き来していて .NETの簡単便利さは 身を以て思い知っていますので、そのように強く感じます。</description>
+    <dc:date>2003-06-17T09:32:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/16/epn25.html">
+    <title>米Borland、Eclipse向けアジャイルUML開発環境を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/16/epn25.html</link>
+    <description>ボーランドがEclipse向け商用製品を出してくると 感慨深いものがありますね。同社は JBuilderも持っているはずなのに やるなあ と感心します。ボーランド社が生きるべき道を 自ら良く理解しているのでしょうね。</description>
+    <dc:date>2003-06-17T09:32:41</dc:date>
+  </item>
+
+</rdf:RDF>

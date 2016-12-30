@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/10/13 日記: Web巡回ソフト「blancoWebCrawler」を妄想中</TITLE>
+<META name="DESCRIPTION" content="blanco Framework として Web巡回ソフトを開発することを妄想中です。 , 東京銀座のエノテーカ ピンキオーリというお店">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/10/13 日記: Web巡回ソフト「blancoWebCrawler」を妄想中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Framework として Web巡回ソフトを開発することを妄想中です。 , 東京銀座のエノテーカ ピンキオーリというお店</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Web巡回ソフト</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> として Web巡回ソフトを開発することを妄想中です。</P>
+<P>特にイントラネット内の検索サイト作成のための基本キットみたいなのがあれば、これは便利だろうと思っています。オープンソースで公開されていて カスタマイズ可能であれば、これは
+役に立つ そんな気持ちがしました。</P>
+<P><FONT color="#ff0000">2007.10.14追記</FONT> <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんの手により、名前は既に決められた様子です。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoWebCrawler" TITLE="Web巡回ソフトのための基本ツールキットです。">blancoWebCrawler</A><BR>
+  <A HREF="http://d.hatena.ne.jp/ymoto/20071012/p1">http://d.hatena.ne.jp/ymoto/20071012/p1</A>
+</UL>
+<P>名前が決まったので、次に blancoWebCrawler を構成するサブプロダクトの設計に入ります。</P>
+<UL>
+  <LI>blancoHttpGet (仮称)<BR>
+  Webからhttpプロトコルを使って htmlを取得。転送を目的としたサブプロダクト。public byte[] get(final String
+  uri) みたいな感じです。
+  <LI>blancoHtmlFormatter<BR>
+  HTMLファイルを整形。この機能がないと HTML解析が面倒になるのかと思っています。
+  <LI>blancoHtmlParser<BR>
+  与えられた HTMLファイルをパースする。
+  <UL>
+    <LI>リンクのマップ(?)を取得する (単にリンク先のアドレスを抽出するでも可。ポイントは ローカルアドレスの解決方法。URIでフルアドレスのほうが良いかも？)。
+    <LI>descriptionや keywordなども取得するのが良いです。
+    <LI>その他に、強調部分などのHTML構造から単語を類推する、テーブル構造から単語を類推する (?)
+  </UL>
+</UL>
+<P>こんな感じかしら？</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>銀座の エノテーカ ピンキオーリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いとこの結婚式出席のため、東京銀座の <A href="http://www.ep-tokyo.com/">エノテーカ ピンキオーリ</A>というお店に行きました。<BR>
+お店を丸ごと貸し切りでした。おいしかったです。おなかいっぱいです。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>富士通が設計・生産工程を刷新、ソフト開発に“ものづくり”取り込む<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/NEWS/20071012/284461/">http://itpro.nikkeibp.co.jp/article/NEWS/20071012/284461/</A><BR>
+  「トヨタ生産方式を取り入れたソフト開発」「設計書に標準的なモデルを適用することで、プログラムの自動生成などで効率を高めていく」あたりが気になりました。
+  <LI>XMLが嫌われている？<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20071011/284276/">http://itpro.nikkeibp.co.jp/article/COLUMN/20071011/284276/</A><BR>
+  私は何年も前から XMLがキライだなぁ、と ふと思い出しました。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021026.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021026.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/25/njbt_09.html">
+    <title>プレクスター、CD-ROMドライブの生産終了</title>
+    <link>http://www.zdnet.co.jp/news/0210/25/njbt_09.html</link>
+    <description>CD-R/RWに人気が移行して、CD-ROMが生産終了されてしまう時代なのですね。感無量です。そういや 最近購入するパソコンって 多くの場合 CD-R/RWが搭載されていますものね。</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/10/25/639501-000.html">
+    <title>総務省の「オープンソースOS」政策とは －前総務大臣政務官 河野太郎氏インタビュー</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/10/25/639501-000.html</link>
+    <description>日本政府としてもオープンソースを推進してほしいものです。</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/25/njbt_07.html">
+    <title>河合楽器、PCでピアノが練習できるソフト</title>
+    <link>http://www.zdnet.co.jp/news/0210/25/njbt_07.html</link>
+    <description>太鼓の達人と同じノリでピアノが練習できるのですね。興味深いです。</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+  <item rdf:about="http://vmag.vwalker.com/news/microsoft/art.asp?newsid=4359">
+    <title>【スクープ！】Internet Explorer「7」最新情報　タブブラウザに路線変更するIE，目標はOpraeの撃墜!?</title>
+    <link>http://vmag.vwalker.com/news/microsoft/art.asp?newsid=4359</link>
+    <description>節操ないなぁ。自らのオリジナリティとか追求して欲しいのですが…</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zakzak.co.jp/top/top1026_3_25.html">
+    <title>阪急改装、名物のカレーは１２００円に</title>
+    <link>http://www.zakzak.co.jp/top/top1026_3_25.html</link>
+    <description>お好みのカレーは「ザ・グリル阪急」で食べられるそうです。</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/26/nebt_13.html">
+    <title>NY市、MSに“蝶退治”命令</title>
+    <link>http://www.zdnet.co.jp/news/0210/26/nebt_13.html</link>
+    <description>行き過ぎた広告活動に対する撤去命令なのだそうな。</description>
+    <dc:date>2002-10-30T08:21:21</dc:date>
+  </item>
+
+</rdf:RDF>

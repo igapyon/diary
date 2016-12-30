@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020711.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020711.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020708/1/">
+    <title>「速く，安く」が奪う技術者の“考える力”</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020708/1/</link>
+    <description>良くできた記事だと思いました。でも 私は 速く、安くとは関係なく最近の技術者は考える力が低下していると思います。義務教育の時点から問題があるような…。そういえば 私は会社の新人研修の際に 毎年 「パソコン組み立て実習」という枠を設置させて貰ってきています。情報処理産業業界で働くからには せめてパソコンくらい組み立てられる技能を、と思ってのことです。(むろん 実際の仕事として ほとんどの人は それ以降パソコンの内部構造なんて触る機会は無いのです)</description>
+    <dc:date>2002-07-11T15:16:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.fsij.org/">
+    <title>特定非営利活動法人 フリーソフトウェアイニシアティブ</title>
+    <link>http://www.fsij.org/</link>
+    <description>こ～ゆ～組織が発足したのだそうな。</description>
+    <dc:date>2002-07-11T15:16:31</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/07/10/637133-000.html">
+    <title>『フリーソフトウェアイニシアティブジャパン』本格始動!</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/07/10/637133-000.html</link>
+    <description>フリーソフトウェアイニシアティブジャパンの 少し詳細な説明を読むことが出来ます。</description>
+    <dc:date>2002-07-11T16:38:43</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/pc/docs/2002/0710/sharp.htm">
+    <title>シャープ、Linuxザウルスの発売を延期</title>
+    <link>http://www.watch.impress.co.jp/pc/docs/2002/0710/sharp.htm</link>
+    <description>ううむ。延期と聞くとよけいに欲しくなる、かもっ (苦笑) まずは 正式リリースが待ち遠しいですね。</description>
+    <dc:date>2002-07-11T15:16:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/10/njbt_07.html">
+    <title>迷惑メール相談センターを開設　日本データ通信協会</title>
+    <link>http://www.zdnet.co.jp/news/0207/10/njbt_07.html</link>
+    <description>私は海外からの迷惑メールで困っています。</description>
+    <dc:date>2002-07-11T08:26:18</dc:date>
+  </item>
+  <item rdf:about="http://www.dekyo.or.jp/soudan/top.htm">
+    <title>(財)日本データ通信協会: 迷惑メール相談センター</title>
+    <link>http://www.dekyo.or.jp/soudan/top.htm</link>
+    <description>法律に則った対応を取っても 引き続き迷惑メールが来る場合に 相談できるようです。</description>
+    <dc:date>2002-07-11T08:26:18</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/review/0207/01/rjff_sldsce.html">
+    <title>一眼レフデジカメ・エントリークラス、徹底比較</title>
+    <link>http://www.zdnet.co.jp/review/0207/01/rjff_sldsce.html</link>
+    <description>普通の一眼レフの使い勝手が 一眼レフデジカメで実現できたら すっごく嬉しいです。(また そうだとしたら買いたいです…) しかし30万円とかになると、購入は無理だなぁ。数万円台で購入できるようになるのが希望 (苦笑)</description>
+    <dc:date>2002-07-11T08:26:18</dc:date>
+  </item>
+
+</rdf:RDF>

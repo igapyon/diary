@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/10/17 日記: Sun Java2 Platform, Standard Edition 1.4.1_01 リリース
+</TITLE>
+<META name="DESCRIPTION" content="いきなしJ2SE 1.4.1_01リリースとは…。まだ1.4.1シリーズは様子見だなぁ">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig021017-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>消費税処理が抜けていた…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今開発しているシステムに 消費税の処理が抜けていました。<BR>
+今日 一気に 全体的に消費税の仕組みをぶち込みました。これで 明日は 総合テストのみに注力、というのが理想です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>私の健康の傾向</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>自らの健康崩壊パターンを観察してみたら 下記のような傾向があるように気が付きました。</P>
+<OL>
+  <LI>ストレス
+  <LI>腹式呼吸が出来なくなる
+  <LI>胸とか肩を使った呼吸が増える
+  <LI>肩こりがひどくなる
+  <LI>首こりがひどくなる
+  <LI>生あくびが出だす
+  <LI>あごの間接がはずれだす。
+</OL>
+<P>そもそも座り仕事なので どうも腹式呼吸が出来なくなりがちなようです。このパターンにハマらぬよう気を付けようと思いました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021017-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

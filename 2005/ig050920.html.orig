@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/09/20 日記: Open Source Way 2005申し込み , blancoSOAP早期アクセス版リリース</TITLE>
+<META name="DESCRIPTION" content="Open Source Way 2005を申し込みました。初日の10/06だけ参加します。 , 具象化SAX (ConcreteSAX) 実装ができあがったので、blancoSOAPの早期アクセス版をリリースします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/09/20 日記: Open Source Way 2005申し込み , blancoSOAP早期アクセス版リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Open Source Way 2005を申し込みました。初日の10/06だけ参加します。 , 具象化SAX (ConcreteSAX) 実装ができあがったので、blancoSOAPの早期アクセス版をリリースします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Open Source Way 2005: 10/06を参加します</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Open Source Way 2005の初日(10/06)を申し込みました。</P>
+<UL>
+  <LI>Open Source Way 2005: 10/06<BR>
+  <A HREF="http://osdn.jp/event/osway2005/">http://osdn.jp/event/osway2005/</A>
+</UL>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkでオープンソースに携わっているため、オープンソースに関する各種関連情報を取得するのが目的です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAP早期アクセス版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>の早期アクセス版をリリースします。Eclipseプラグインの形態において配布します。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>
+</UL>
+<P>具象化SAX (ConcreteSAX ) の実装例を示すのが主たる狙いです。私自身が 具象化SAXの実装を熱望しているので、この早期アクセス版を今すぐ使い始める予定です。具象化SAX
+(ConcreteSAX ) を利用すると、非常に高速な XML入出力を実現することが出来ます。具象化SAX (ConcreteSAX )が提供するのは、SAXへの最低限の具象化Javaソースコードとなります。具象化SAX
+(ConcreteSAX )を利用することにより、安全で高速な XML入出力が可能になるのです。特に SAXベースのXML書きだしは一般の方にはあまり知られていないので残念であると私は考えているので
+具象化SAX (ConcreteSAX ) JavaソースコードによってSAXベースのXML書きだし機能が広く一般に知られるようになることを期待しています。</P>
+<P>というのも、私は DOMによるXML入出力は非常に危険なものであると判断しているからです。DOMによるXML入出力は XMLデータが膨大である場合に
+実行時メモリエラーが発生するリスクが急増します。実行時メモリエラーが発生しないまでも、DOMツリーが成長してきたときの性能劣化は、私には受け入れられないことが多いのです。(.NETのDOMはツリーが成長してきたときも比較的性能劣化を発生させずに動作するのですけれどもね…。現時点のJavaにおける一般的なDOM実装は、ツリーが成長したときの性能劣化やメモリ効率の悪さは目に余るところがあるものと考えています)</P>
+<P>今回のリリースは早期アクセス版の位置づけとなっています。とりあえずドキュメントなどは一切ついていません。XMLマニアの方とか SAX熟練者の方が早期アクセスを行うことを念頭に置いています。一方
+熟練したSAXエンジニアは ここであげるような 具象化SAX (ConcreteSAX ) と類似した実装をツールを利用するかしないかに関わらず一般的なコーディングとして実施しているものと考えます。ほとんどの人は
+SAXの charactersイベントの集約処理ロジックを、業務ロジックと同じメソッド内には書きたがらないでしょうから…。<BR>
+※困ったことに、Java言語で<STRONG><FONT color="#ff00ff">どろどろ</FONT></STRONG>のXML入出力プログラムを書いているプロのXML屋のほとんどは DOMではなく SAXを利用している現実があります。性能＋メモリ消費量の都合から、JavaではDOMが業務プログラムにおいて利用不可能である局面が多いのです。ところが困ったことに世間のXML入門記事は
+DOMベースで書かれている場合が多いように感じられます (苦笑)</P>
+<P><FONT color="#ff0000">2005.09.21追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>の 具象化SAX (ConcreteSAX)について、0.0.8リリースにおいて</P>
+<UL>
+  <LI>リバースSAXの具象化SAX版の実装が完了しました。
+  <LI>JUnitのテストケース Javaソースコードも生成するようにしました。
+</UL>
+<P>これで<STRONG>私自身</STRONG>が ConcreteSAXを より簡便に利用することが出来るようになりました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAPの今後の方針</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>具象化SAX (ConcreteSAX )の実装ができあがったので、次は リバースSAXの具象化SAX (ConcreteSAX )版に手を染めるのか、あるいは
+本丸である 超軽量SOAP実装の実現か、いずれかがターゲットになってくるのでしょう。ただし、今週はいろいろ予定があるので、あまり進捗できない可能性が高いです。<BR>
+とりあえず超軽量SOAP実装のレベル1 (SOAP実装を生ConcreteSAXベースで実現するもの) に関しては、そんなに稼働はかからない見通しなので、そこから手を付けるのも妥当であるように考えられます。</P>
+<P><FONT color="#ff0000">2005.09.21追記</FONT> とりあえず POJO生成コードの共通化を先行して実施する必要が出てきたので、<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>に POJO生成の仕組みを追加することを最優先とすることになりました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

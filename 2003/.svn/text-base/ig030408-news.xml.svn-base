@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030408.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030408.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20053342,00.htm">
+    <title>ソニー、PlayStation 3にLinux搭載か</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20053342,00.htm</link>
+    <description>へええ。PSにLinuxが搭載される時代ねぇ…。どうなるのか 微妙に興味あります。</description>
+    <dc:date>2003-04-11T12:14:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0304/03/epn01.html">
+    <title>デルとオラクル、クラスタでさらなる提携強化</title>
+    <link>http://www.zdnet.co.jp/enterprise/0304/03/epn01.html</link>
+    <description>Linuxクラスタが ごく簡単に入手できるようになれば便利ですね。</description>
+    <dc:date>2003-04-11T12:14:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.soumu.go.jp/joho_tsusin/security/index.htm">
+    <title>国民のための情報セキュリティサイト</title>
+    <link>http://www.soumu.go.jp/joho_tsusin/security/index.htm</link>
+    <description>すばらしい！ がんばれ総務省。がんばれ日本国。</description>
+    <dc:date>2003-04-11T12:14:31</dc:date>
+  </item>
+
+
+</rdf:RDF>

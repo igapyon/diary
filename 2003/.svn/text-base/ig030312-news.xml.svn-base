@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030312.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030312.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/04/njbt_07.html">
+    <title>JR東日本「Suica」に電子マネー機能</title>
+    <link>http://www.zdnet.co.jp/news/0303/04/njbt_07.html</link>
+    <description>Suicaファンなので その動向は微妙に気になります。</description>
+    <dc:date>2003-03-19T09:13:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0303/04/lp08.html">
+    <title>カノープス、「MTU2400 ＨｏｍｅＳｅｒｖｅｒ」を発売</title>
+    <link>http://www.zdnet.co.jp/broadband/0303/04/lp08.html</link>
+    <description>家庭用ビデオの調子が悪いので この手のニュースが片っ端から気になっています。</description>
+    <dc:date>2003-03-19T09:13:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.microsoft.com/japan/windowsxp/pro/evaluation/news/jre.asp">
+    <title>Microsoft、裁判所の裁定に従って、Sun のテクノロジを出荷</title>
+    <link>http://www.microsoft.com/japan/windowsxp/pro/evaluation/news/jre.asp</link>
+    <description>マイクロソフトからの『公式』会見文。どのバージョンの Sun JREが提供され出すのかも興味深いです。</description>
+    <dc:date>2003-03-19T09:13:08</dc:date>
+  </item>
+
+  <item rdf:about="http://homepage1.nifty.com/nco/binding/binding.html">
+    <title>おすすめ『譜面の製本方法』</title>
+    <link>http://homepage1.nifty.com/nco/binding/binding.html</link>
+    <description>この製本方法 とても参考になりました。ニチバン ホワイトテープという商品名の情報が最も役立ちました。</description>
+    <dc:date>2003-03-19T09:13:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.xlsoft.com/jp/products/jet/">
+    <title>Excelsior JET 日本語版</title>
+    <link>http://www.xlsoft.com/jp/products/jet/</link>
+    <description>Javaで独立したEXEを作成可能にするツール。大変興味を持って見ています。</description>
+    <dc:date>2003-03-19T09:13:08</dc:date>
+  </item>
+
+</rdf:RDF>

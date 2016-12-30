@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030730.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030730.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030725/2/">
+    <title>速報：リコーが帯広市の戸籍データを紛失</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030725/2/</link>
+    <description>あなおそろしや。他山の石。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/29/cjad_redwave.html">
+    <title>「コピーワンスコンテンツ」がもたらす弊害</title>
+    <link>http://www.zdnet.co.jp/news/0307/29/cjad_redwave.html</link>
+    <description>テレビ放送なんかにコピー防止がかかってきて いろいろ仕組み的に困ったことがおきるのではないか という記事。なるほどそれは困った現象ですねぇ。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/18/cjad_kodera.html">
+    <title>忘れていたもう一つのセキュリティ</title>
+    <link>http://www.zdnet.co.jp/news/0307/18/cjad_kodera.html</link>
+    <description>小寺信良さんの面白いコラム。なるほど電話番号は重要な個人情報ですねぇ。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+  <item rdf:about="http://aoki2.si.gunma-u.ac.jp/Hanasi/excel/">
+    <title>Excel は，コンピュータ・ソフトウェアの三種の神器のようになっていますが，とんでもないこともあるというお話</title>
+    <link>http://aoki2.si.gunma-u.ac.jp/Hanasi/excel/</link>
+    <description>とりあえず純然たる演算誤差が ひょいひょいと発生するんだということを良く認識しましょう。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+  <item rdf:about="http://www.vision.ie.niigata-u.ac.jp/~tamaki/v4l2-bttv2.html">
+    <title>Video for Linux Two の利用方法 for bttv &amp; saa7130/saa7134</title>
+    <link>http://www.vision.ie.niigata-u.ac.jp/~tamaki/v4l2-bttv2.html</link>
+    <description>Video4Linuxで検索したら 上記のようなページをヒット。詳しく書かれている。この方は、玄人志向 SAA7130-TVPCI を利用されています。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/help/howto/linux/0007master/12/">
+    <title>ZDNet デベロッパー: Linux How-To - 第12回：ADSLを利用したストリーミングサーバ構築</title>
+    <link>http://www.zdnet.co.jp/help/howto/linux/0007master/12/</link>
+    <description>Linuxでストリーミングサーバを作成するという記事。</description>
+    <dc:date>2003-07-30T10:07:50</dc:date>
+  </item>
+
+  <item rdf:about="http://buffalo.melcoinc.co.jp/download/driver/lan/linux_whr.html#WLA-T1">
+    <title>メルコ: WHR-G54、BLR3-TX4、WLM2-Series で使用している主なソフトウェアのソース</title>
+    <link>http://buffalo.melcoinc.co.jp/download/driver/lan/linux_whr.html#WLA-T1</link>
+    <description>私の自宅ブロードバンドルータ[BLR3-TX4]は ソースコードの一部が公開されているのだそうな。</description>
+    <dc:date>2003-07-30T13:00:48</dc:date>
+  </item>
+  <item rdf:about="http://www.ipa.go.jp/security/ciadr/20030228wirelesslan.html">
+    <title>無線LANのセキュリティに関する注意</title>
+    <link>http://www.ipa.go.jp/security/ciadr/20030228wirelesslan.html</link>
+    <description>シンプルで良くできたすばらしい資料。世の素人さんも こういった資料と出会って ちゃんと設定して欲しいです。(実際の所 野生ホットスポットの現状って どんな感じなんでしょうね)</description>
+    <dc:date>2003-07-30T13:00:48</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NCC/NEWS/20030729/4/">
+    <title>OCNにトラブル発生で80万人に影響。DNSサーバーに未知の大量アクセス</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NCC/NEWS/20030729/4/</link>
+    <description>DNSを襲うクラッキングが世間的に流行っているのかしらん。</description>
+    <dc:date>2003-07-30T13:00:48</dc:date>
+  </item>
+
+</rdf:RDF>

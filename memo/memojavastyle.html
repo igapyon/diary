@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="DESCRIPTION" content="Java言語ソースファイルのスタイル整形に関するメモ。astyleやcheckstyleなどのメモ書きが含まれます。">
+<META name="KEYWORDS" content="astyle,checkstyle">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:51+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+
+
+<TITLE>資料: Java言語ソースファイルのスタイルおよび調整ツール</TITLE>
+</HEAD>
+<BODY bgcolor="#eeddcc"><H2><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>の日記v2: 資料: Java言語ソースファイルのスタイルおよび調整ツール</H2>
+<P>[astyle,checkstyle] Java言語ソースファイルのスタイル整形に関するメモ。astyleやcheckstyleなどのメモ書きが含まれます。</P>
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">日記インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../../index.html">いがぴょんのウェブページトップへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Java言語コーディング規約</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>そもそも Java言語コーディング規約にまつわるものとして、下記があります。(そしてこの２つが有名です)</P>
+<UL>
+  <LI>Java言語コーディング規約<BR>
+  <A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/</A><BR>
+  Java Code Conventions の沼田哲史さんの手による日本語訳
+  <LI>頑健なJavaプログラムの書き方(Writing Robust Java Code 日本語訳)<BR>
+  <A HREF="http://www.alles.or.jp/~torutk/oojava/codingStandard/">http://www.alles.or.jp/~torutk/oojava/codingStandard/</A><BR>
+  高橋徹さんの手による日本語訳
+</UL>
+<P><STRONG><FONT color="#ff00ff">オマケ</FONT></STRONG></P>
+<UL>
+  <LI>沼田哲史 (NUMATA Satoshi) さんのページ<BR>
+  <A HREF="http://numata.aquasky.jp/">http://numata.aquasky.jp/</A>
+</UL>
+<HR>
+<P>以下はEclipse主体です</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Eclipseのソースコード・フォーマッタによるソースコード整形</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>オープンソースなJava統合開発環境として有名なEclipseには ソースコード・フォーマッタが標準搭載されています。<BR>
+基本的に Java言語の標準的な規約に従ったソースコード整形を行ってくれます。(完全に
+Java言語コーディング規約に合致していない点に注意)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Checkstyleプラグイン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>転記する気力が萎えてしまいました</P>
+<UL>
+  <LI><A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040209.html">http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040209.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Eclipse PMDプラグイン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>転記する気力が萎えてしまいました</P>
+<UL>
+  <LI><A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040209.html">http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040209.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Eclipse FindBugsプラグイン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI><A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040219.html">http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040219.html</A>
+</UL>
+<HR>
+<P>以下はコマンドライン主体です</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>Javaソースファイル整形ツール Artistic Style (astyle)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Artistic Style (astyle) 1.15.3<BR>
+  <A HREF="http://astyle.sourceforge.net/">http://astyle.sourceforge.net/</A><BR>
+  <A HREF="http://sourceforge.net/projects/astyle/">http://sourceforge.net/projects/astyle/</A><BR>
+  GPLライセンス
+</UL>
+<P>通称astyleという、GPLライセンスなJavaソースファイル整形ツールです。<BR>
+<STRONG>astyle -j --style=java -p -s ファイル名.java</STRONG> のようにスイッチを使うと、<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A> にそこそこ合致したソースコードを得ることが出来ます。</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaソースファイル構文チェックツール checkstyle</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Checkstyle<BR>
+  <A HREF="http://checkstyle.sourceforge.net/">http://checkstyle.sourceforge.net/</A><BR>
+  LGPLライセンス
+</UL>
+<P>様々な Java構文合致状態をチェックしてくれるツールです。こちらは astyleとは異なり
+自動整形はしてくれません。その代わり かなり正確に<A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/" TITLE="Java言語コーディング規約の日本語訳">Java言語コーディング規約</A>
+との整合性チェックを報告してくれます。</P>
+<UL>
+  <LI>java -classpath checkstyle-all-2.3.jar com.puppycrawl.tools.checkstyle.Main
+  ファイル名.java
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>お好みツール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>上記を組み合わせて お好みなバッチを作成して使っています。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">st.bat</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>echo off<BR>
+rem Javaソースファイルのスタイル整形＆チェックツール<BR>
+<BR>
+echo astyle実行<BR>
+astyle -j --style=java -p -s %1 %2 %3 %4 %5 %6 %7 %8 %9<BR>
+<BR>
+rem checkstyle-all-2.3.jar を CLASSPATHが通ったところに配置してください。<BR>
+echo checkstyle実行<BR>
+      java com.puppycrawl.tools.checkstyle.Main %1<BR>
+      <BR>
+      diff -urN %1.orig %1</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これで st ファイル名.java のように指定すれば、ソースファイル整形とソースファイルのスタイルチェックとがいっぺんに起動できます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>更新履歴</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>2004/02/24 Eclipseに対応開始
+  <LI>2002/07/10 新規作成
+</UL>
+<P>
+<HR>
+<address><A HREF="memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:51 $</address>
+
+</P>
+</BODY>
+</HTML>

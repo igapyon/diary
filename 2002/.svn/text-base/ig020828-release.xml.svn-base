@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020828.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020828.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/">
+    <title>Mozilla 1.1 リリース</title>
+    <link>http://www.mozilla.org/</link>
+    <description>Mozilla 最新版がリリースです。ほぼ予定通りの日程でのリリースですね。レンダリングが 良い感じで出来上がっています。今回のものも すごく重要なリリースであるように感じました。今回も Mozilla への移行を試みてみます。(仕事はC# + ASP.NET を手がけているので IEを使わざるを得ませんが…) ちなみに IEからの移行という観点から… 見た感じをIEに似せるには フォントを MS Pゴシックにすると より一層 IEと見た感じが近くなります。(Mozilla 1.1 のデフォルトは MS P明朝の模様)</description>
+    <dc:date>2002-08-28T09:11:50</dc:date>
+  </item>
+
+  <item rdf:about="http://xml.apache.org/xerces-c/index.html">
+    <title>Apache Xerces C++ 2.1.0 リリース</title>
+    <link>http://xml.apache.org/xerces-c/index.html</link>
+    <description>前回の2.0リリースから1ヶ月ほどで 2.1リリースです。結構気合い入れて開発していますね。</description>
+    <dc:date>2002-08-28T10:02:45</dc:date>
+  </item>
+
+</rdf:RDF>

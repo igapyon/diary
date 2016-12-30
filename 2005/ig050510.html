@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/05/10 日記: R/Oマッピング定義 2005.05.10版</TITLE>
+<META name="DESCRIPTION" content="R/Oマッピングについて、この定義を記載しました。 , NTサービス アクセス Eclipseプラグインのようなものがほしいと ふと思いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/05/10 日記: R/Oマッピング定義 2005.05.10版</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] R/Oマッピングについて、この定義を記載しました。 , NTサービス アクセス Eclipseプラグインのようなものがほしいと ふと思いました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD valign="top" bgcolor="#ff9900"><FONT color="#ffffff" size="+1"><STRONG>R/Oマッピング定義 2005.05.10版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>下記の仕様を<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>と呼ぶことと定義します。また R/Oマッピングツールとは下記の仕様を満たすものを指します。</P>
+<UL>
+  <LI>リレーショナルデータベース指向である。
+  <UL>
+    <LI>リレーショナルデータベース上の型を、強制的に特定のオブジェクト型にマッピングする。
+    <LI>リレーショナルデータベースのカーソルが利用できる。
+    <LI>リレーショナルデータベースが持つ機能・性能を阻害しない。
+  </UL>
+  <LI>ANSI SQL (ごくあたりまえのSQL文) を利用する。
+  <UL>
+    <LI>各種ロックが適切に利用できる。(行ロック、更新用の検索)
+    <LI>NULL許容列を適切に扱うことができる。NULLはNULLとして入出力ができる。
+  </UL>
+  <LI>トランザクションが適切に扱える。
+  <UL>
+    <LI>トランザクションのコミットとロールバックを任意のタイミングで呼び出すことができる。
+    <LI>トランザクション分離レベルを適切に扱うことができる。
+  </UL>
+  <LI>メモリ消費量が常識的であること。
+  <UL>
+    <LI>処理件数が増えてもメモリ消費量が線形には増えないこと。
+    <LI>StreamやReaderを適切に利用し、大きなデータや大量データを扱ってもメモリ上には展開しない。
+  </UL>
+  <LI>ストアドプロシージャ呼び出しに適切に対応する。
+</UL>
+<P>なお、この記載は 引き続き更新していく予定です。最新版は下記のページで得ることができます。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050421.html">2005/04/21 日記: blancoDb Enterprise Edition 0.8.1 β1リリース</A>
+  <LI><A href="../2004/ig040121.html">2004/01/21 日記: ソースコード生成タイプのR-Oマッピングを開発しませんか？</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NTサービス アクセス Eclipseプラグインがほしい…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse上で作業をしていて、ふと NTサービス・アクセスを行ってくれる Eclipseプラグインがほしいと感じました。ちょっと探索して見つからなかったら、自作してみようと思います。<BR>
+同様に、レジストリアクセス Eclipseプラグインにも興味を感じました。なんでもEclipse上で操作できたらおもしろいのでは無いかと模索中です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</TITLE>
+<META name="DESCRIPTION" content="プロのJavaプログラマーのなかには、デザインパターンを適用したがる人がいます。(デザインパターン魔 という用語を 思い浮かべる方もいらっしゃることでしょう)">
+<META name="KEYWORDS" content="FizzBuzz,Java,問題,problem,design,pattern">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/07/04 日記: FizzBuzz 問題 - デザインパターン適用版</H2>
+    <P>[FizzBuzz,Java,問題,problem,design,pattern] プロのJavaプログラマーのなかには、デザインパターンを適用したがる人がいます。(デザインパターン魔 という用語を 思い浮かべる方もいらっしゃることでしょう)</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FizzBuzz 問題 - デザインパターン適用版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.07.05執筆</FONT></P>
+<P>プロのJavaプログラマーのなかには、デザインパターンを適用したがる人がいます。(デザインパターン魔 という用語を 思い浮かべる方もいらっしゃることでしょう)</P>
+<P>※注意: ここで挙げている例は <STRONG>ブラックユーモア</STRONG>です。</P>
+<P>まず、「学校における数遊びゲームのルール」という抽象的な概念を抽出するという おこないを実施してみましょう。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern01GameRule.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * どこかの学校の子供たちの遊び
+ */
+public interface FizzBuzzPattern01GameRule {
+        /**
+         * 与えられた数に対応する 特定のゲームにおけるメッセージを取得する。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return 特定のゲームにおけるメッセージ。
+         */
+        public String getMessage(final int argNumber);
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>イギリスの学校の子供たちの遊び FizzBuzzは 数字を使った遊びの一つとして インタフェースを実装します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern01Rule.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数を取得する。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣を取得する。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣を取得する。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣を取得する。
+ */
+public class FizzBuzzPattern01Rule implements FizzBuzzPattern01GameRule {
+        /**
+         * 与えられた数に対応する FizzBuzzメッセージを取得する。
+         * 
+         * ・3の倍数のときは｢Fizz｣を戻す。&lt;br&gt;
+         * ・5の倍数のときは｢Buzz｣を戻す。&lt;br&gt;
+         * ・3と5両方の倍数の場合には｢FizzBuzz｣を戻す。&lt;br&gt;
+         * ・いずれにも該当しない場合には数を戻す。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return メッセージ。
+         *         3の倍数のときは｢Fizz｣、5の倍数のときは｢Buzz｣、3と5両方の倍数の場合には｢FizzBuzz｣、いずれにも該当しない場合には数。
+         */
+        public String getMessage(final int argNumber) {
+                // 3の倍数であるかどうか。
+                final boolean isMultipleOf3 = (argNumber % 3 == 0);
+                // 5の倍数であるかどうか。
+                final boolean isMultipleOf5 = (argNumber % 5 == 0);
+
+                if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                        // 3と5両方の倍数の場合には｢FizzBuzz｣を戻す。
+                        return &quot;FizzBuzz&quot;;
+                } else if (isMultipleOf3) {
+                        // 3の倍数のときは数の代わりに｢Fizz｣を戻す。
+                        return &quot;Fizz&quot;;
+                } else if (isMultipleOf5) {
+                        // 5の倍数のときは｢Buzz｣を戻す。
+                        return &quot;Buzz&quot;;
+                } else {
+                        // いずれにも該当しない場合には数を戻す。
+                        return String.valueOf(argNumber);
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ルールを利用する際には インスタンス生成の実行コストを考慮し、ループの外側でインスタンスを生成するようにします。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern01.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzPattern01 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                new FizzBuzzPattern01().process();
+        }
+
+        /**
+         * このクラスの主処理。
+         */
+        public void process() {
+                // TODO:ゲームのルールを別に分け、またインタフェースを抽出しました。
+                final FizzBuzzPattern01GameRule rule = new FizzBuzzPattern01Rule();
+
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 生成された文字列をプリントする。
+                        System.out.println(rule.getMessage(number));
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>インタフェースを導出し、ここで満足するプログラマーがいます。</P>
+<HR>
+<P>何かしらデザインパターン適用などによるリファクタリングを実施しおわると、次に他に適用可能なデザインパターンを探すのが習性という Javaプログラマーがいます。</P>
+<P>ここではファクトリクラスを導入してみましょう。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern02GameRuleFactory.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * 学校の子供たちの遊びを取得するファクトリクラス。
+ */
+public class FizzBuzzPattern02GameRuleFactory {
+        /**
+         * FizzBuzzゲームルールを取得する。
+         * 
+         * @return ゲームルール。
+         */
+        public static FizzBuzzPattern02GameRule getFizzBuzzRuleInstance() {
+                return FizzBuzzPattern02Rule.getInstance();
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>インタフェースのクラスは 特に変化ありません。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern02GameRule.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * どこかの学校の子供たちの遊び
+ */
+public interface FizzBuzzPattern02GameRule {
+        /**
+         * 与えられた数に対応する 特定のゲームにおけるメッセージを取得する。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return 特定のゲームにおけるメッセージ。
+         */
+        String getMessage(final int argNumber);
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ファクトリからインスタンスを取得するので、本体のコンストラクタは隠蔽化しておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern02Rule.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数を取得する。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣を取得する。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣を取得する。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣を取得する。
+ */
+public class FizzBuzzPattern02Rule implements FizzBuzzPattern02GameRule {
+        /**
+         * コンストラクタを隠蔽化する。
+         */
+        private FizzBuzzPattern02Rule() {
+        }
+
+        /**
+         * このクラスのインスタンスを取得する。
+         * 
+         * @return 新規に作成されたインスタンス。
+         */
+        static FizzBuzzPattern02GameRule getInstance() {
+                return new FizzBuzzPattern02Rule();
+        }
+
+        /**
+         * 与えられた数に対応する FizzBuzzメッセージを取得する。
+         * 
+         * ・3の倍数のときは｢Fizz｣を戻す。&lt;br&gt;
+         * ・5の倍数のときは｢Buzz｣を戻す。&lt;br&gt;
+         * ・3と5両方の倍数の場合には｢FizzBuzz｣を戻す。&lt;br&gt;
+         * ・いずれにも該当しない場合には数を戻す。
+         * 
+         * @param argNumber
+         *            対象となる数。
+         * @return メッセージ。
+         *         3の倍数のときは｢Fizz｣、5の倍数のときは｢Buzz｣、3と5両方の倍数の場合には｢FizzBuzz｣、いずれにも該当しない場合には数。
+         */
+        public String getMessage(final int argNumber) {
+                // 3の倍数であるかどうか。
+                final boolean isMultipleOf3 = (argNumber % 3 == 0);
+                // 5の倍数であるかどうか。
+                final boolean isMultipleOf5 = (argNumber % 5 == 0);
+
+                if (isMultipleOf3 &amp;&amp; isMultipleOf5) {
+                        // 3と5両方の倍数の場合には｢FizzBuzz｣を戻す。
+                        return &quot;FizzBuzz&quot;;
+                } else if (isMultipleOf3) {
+                        // 3の倍数のときは数の代わりに｢Fizz｣を戻す。
+                        return &quot;Fizz&quot;;
+                } else if (isMultipleOf5) {
+                        // 5の倍数のときは｢Buzz｣を戻す。
+                        return &quot;Buzz&quot;;
+                } else {
+                        // いずれにも該当しない場合には数を戻す。
+                        return String.valueOf(argNumber);
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>すると、ゲームのルールが変わっても 容易に切り替えを実現可能なクラスが出来上がります！</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FizzBuzzPattern02.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/**
+ * FizzBuzz: イギリスの学校の子供たちの遊び
+ * 
+ * 1から100までの数をプリントする。&lt;br&gt;
+ * ・3の倍数のときは数の代わりに｢Fizz｣とプリントする。&lt;br&gt;
+ * ・5の倍数のときは数の代わりに｢Buzz｣とプリントする。&lt;br&gt;
+ * ・3と5両方の倍数の場合には数の代わりに｢FizzBuzz｣とプリントする。
+ */
+public class FizzBuzzPattern02 {
+        /**
+         * エントリポイント。
+         * 
+         * @param args
+         *            コマンドライン引数。このプログラム内では利用されない。
+         */
+        public static void main(final String[] args) {
+                new FizzBuzzPattern02().process();
+        }
+
+        /**
+         * このクラスの主処理。
+         */
+        public void process() {
+                // TODO:ゲームのルールをファクトリクラスから取得するように変更しました。
+                final FizzBuzzPattern02GameRule rule = FizzBuzzPattern02GameRuleFactory
+                                .getFizzBuzzRuleInstance();
+
+                for (int number = 1; number &lt;= 100; number++) {
+                        // 生成された文字列をプリントする。
+                        System.out.println(rule.getMessage(number));
+                }
+        }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>デザインパターンを適用し、ここで満足するプログラマーがいます。しかし これで飽きたらず また違うアイデアが次々に浮かんでくるものです。</P>
+<UL>
+  <LI>MVC分離を検討する。<BR>
+  ※実のところ、私は 真っ先にMVC分離を思いつきました。コンソール版以外に Swing版や SWT版などを実装するのです！
+  <LI>DI/AOPによる実装を検討する。
+  <LI>EJBによる実装を検討する。
+  <LI>他のデザインパターン適用を もっともっと検討して実現する。
+</UL>
+<P>FizzBuzz程度の規模でも (デザインパターン魔は) デザインパターンを適用してしまいそうになるものなのです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070702.html">2007/07/02 日記: FizzBuzz 問題 - ノーマル版</A>
+  <LI><A href="ig070703.html">2007/07/03 日記: FizzBuzz 問題 - リファクタリング版</A>
+  <LI><A href="ig070705.html">2007/07/05 日記: FizzBuzz 問題 - 短くしていく版</A>
+  <LI><A href="ig070706.html">2007/07/06 日記: FizzBuzz 問題 - switch分岐版</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,48 @@
+2016-12-19 シンプル Groovy サンプル
+
+*p1* [Groovy] シンプル Groovy サンプル
+[http://groovy-lang.org/:title=Apache Groovy] は Apache Foundation 配下にある言語及びコンパイラです。
+-https://www.apache.org/dist/groovy/
+まずは「apache-groovy-binary-2.4.7.zip」(この時点の最新安定板) をダウンロードします。そしてこれを展開します。
+GROOVY_HOME を展開後ディレクトリに設定し、PATH に $GROOVY_HOME/bin を追加します。
+
+例えば [[Ubuntu]] だと、以下のように .bashrc に２行追加することにより動くようになります。
+
+**.bashrc
+>|sh|
+GROOVY_HOME=/home/user1/apps/groovy
+PATH=$PATH:$GROOVY_HOME/bin
+||<
+
+**対話形式による 初めての Groovy
+次に、これを、まずはソースコードを作らずに対話形式による駆動を行ってみます。groovysh により、対話的に、素早く Groovy を動作させることができます。
+***bash から実行
+>|sh|
+$ groovysh
+Groovy Shell (2.4.7, JVM: 1.8.0_102)
+Type ':help' or ':h' for help.
+-------------------------------------------------------------------------------
+groovy:000> println "こんにちは世界！"
+こんにちは世界!
+===> null
+groovy:000> 
+||<
+
+**非対話形式による Groovy の実行
+これを、非対話型で動作させると以下させるには以下のようになります。
+
+まずソースコードに相当するものを作成します。拡張子は .groovy です。
+***Hello.groovy
+>|sh|
+println "こんにちは世界!"
+||<
+
+これを実行するには以下のようになります。
+***bash から実行
+>|sh|
+$ groovy Hello.groovy
+こんにちは世界!
+||<
+
+こんな感じで、初めての Groovy によるハローワールドは終わりです。
+

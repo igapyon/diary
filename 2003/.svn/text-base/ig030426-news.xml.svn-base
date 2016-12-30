@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030426.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030426.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-26T10:15:28</dc:date>
+  </channel>
+
+  <item rdf:about="http://internet.watch.impress.co.jp/www/article/2003/0425/stallman.htm">
+    <title>R・ストールマン講演「ソフトウェア特許は技術の進歩を阻む悪」</title>
+    <link>http://internet.watch.impress.co.jp/www/article/2003/0425/stallman.htm</link>
+    <description>タイトル意外に興味深い点がありました。フリーソフトウェア運動というものがどういうものなのか、ということをかいま見ることが出来ます。</description>
+    <dc:date>2003-04-30T21:21:51</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030423/1/">
+    <title>ITエンジニアも文章力がなければ“プロ失格”</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030423/1/</link>
+    <description>文章力…身につまされます。</description>
+    <dc:date>2003-04-30T21:21:51</dc:date>
+  </item>
+
+</rdf:RDF>

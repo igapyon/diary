@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021030.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021030.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/30/nebt_06.html">
+    <title>RealNetworks、Helixのソースコード公開</title>
+    <link>http://www.zdnet.co.jp/news/0210/30/nebt_06.html</link>
+    <description>クライアントサイドのメディア再生ソフトウェア市場がホットなのですね。ソースコード公開だけれどもオープンソースでは無いようです。</description>
+    <dc:date>2002-10-30T13:10:52</dc:date>
+  </item>
+
+</rdf:RDF>

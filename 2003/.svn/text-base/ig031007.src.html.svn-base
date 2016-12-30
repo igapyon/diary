@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/10/07 日記: NTFS領域のアロケーションユニットサイズ(クラスタサイズ)のあるべき設定値とは？</TITLE>
+<META name="DESCRIPTION" content="日曜日に箕面の滝に行きました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ビデオ録画データ保存用120GB HDDのNTFSの あるべきアロケーションユニットサイズ(クラスタサイズ)設定とは</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>最近 私のマイブームは テレビのビデオ録画です。ビデオ録画って 録画データが
+気安く ギガバイト級になります。そこで気が付いたのですが、ビデオ録画用パーティションの
+NTFS アロケーションユニットサイズって、いったい いくらぐらいが妥当なのでしょう。例えば
+120GBのHDDについて NTFSデフォルトのHDDアロケーションユニットサイズは4096バイトなのですが、これを最大サイズである
+64Kバイトに変更したら どのようなメリットとデメリットがあるのでしょう？</P>
+<P>というのも 巨大データファイルを NTFSでフォーマットされたHDDに格納していくと
+ファイルサイズよりもずっと多くのディスク容量が消費されているようなのです。これは
+残りHDD容量を確認すると 顕著に表れます。思うに 超巨大ファイルの場合 アロケーションユニットの位置情報そのものですら、結構な個数になり、これがHDD容量を消費しているようなのです。また、フラグメンテーションの面からも大きいアロケーションユニットサイズである方が有利であるように思えます。</P>
+<P>いったい ギガバイト級の巨大ファイル格納を考えた場合、例えば 1GByteのファイルをNTFSに格納する場合、単なるデータ領域以外に
+どの程度のレートで領域を消費するのでしょうか？ そもそも その点がわかっていない、ということがわかってきました。</P>
+<P>冷静になって考えたら、何もこれは ビデオ録画データにとどまらず リレーショナルデータベースのデータ領域を格納するエリアにおいても
+同様な判断が必要であるように、思えてきました。今まで気にしたことがなかったです。とはいえ、基本的に
+固定サイズでアロケーションしたら それほどは影響無いのかしら？ それともあるのかしら？</P>
+<P>この手の有識者の意見をお待ちします。『このホームページを見よ』などでもＯＫ＆大歓迎です。</P>
+<P><FONT color="#ff0000">10/08追記</FONT> 下記のようなページを見つけました</P>
+<UL>
+  <LI>WindowsXP/2000 Magnum-Memo<BR>
+  [replace-href:http://www.hey.ne.jp/~magnum/Super_Pai/Magnum-Memo.htm]
+</UL>
+<P>ここから下記のようなページを引き当てる</P>
+<UL>
+  <LI>Default Cluster Size for FAT and NTFS<BR>
+  [replace-herf:http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q140/3/65.asp&amp;NoWebContent=1]<BR>
+  NTFSだと いくらディスクサイズが大きくてもデフォルトのクラスタサイズは4096バイトに設定されるのですね。これはドライブ圧縮と関係があるのだそうです。で
+  ドライブ圧縮と関係のなかったNT3.50以前は 例えば32GBを超えるドライブの場合
+  クラスタサイズは64KBが適用されるのだそうな。、、、ということは この資料から読み解くに、ドライブ圧縮さへ考慮しなければ
+  巨大HDDは アロケーションユニットサイズは64KBを設定した方がよさそうであるように読み取れます。
+</UL>
+<P>ただし あるバージョンのARCserveでは 4Kを超えるアロケーションユニットサイズをサポートしない、などの情報もあるので、単に大きい方が効率が良くても手が出せない状況もあるのかも知れません。</P>
+<P>一方 Googleで適当に検索したら、アロケーションユニットサイズとして16Kという数字がちらほら見え隠れしました。NTFSのデフォルトサイズが4096バイトだから
+それの4倍ということになります。少なくとも 単に 大きなHDDのアロケーションユニットサイズとして
+4096というのは やはり 小さすぎるんでしょうかねぇ。</P>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>太秦映画村</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先週の土曜日 子どもと一緒に 太秦映画村に行きました。子どもは結構満足していました。(ただ
+仮面ライダー vs 宮本武蔵 ショーは怖かった模様)</P>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>箕面の滝</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先の日曜日 箕面の滝に行きました。子どもたちと一緒に たくさん歩きました。和音君は
+はじめて 箕面の滝往復を自力で歩いていました。大きくなったものです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>模様替え</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先の日曜日 自宅パソコンの配置模様替えしました。なんだか新しいパソコンを買ったのと同等の気分転換が出来ました。<BR>
+というか普段から掃除をすることは大切だと、その時だけは思いました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031007-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

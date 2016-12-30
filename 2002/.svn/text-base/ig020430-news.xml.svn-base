@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020430.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020430.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-30T17:50:39</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.computerworld.jp/contents/free/200204/20020422ibm.html">
+    <title>「ebXMLへ提供した技術に特許権あり」とするIBMの主張が業界に波紋</title>
+    <link>http://www.computerworld.jp/contents/free/200204/20020422ibm.html</link>
+    <description>よく出来た記事。ところでこのページはIDGが提供するコンピュータ情報ウェブページ。</description>
+    <dc:date>2002-04-30T17:50:40</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/181611">
+    <title>NTTソフト、CTI構築ミドルウエアのJava版</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/181611</link>
+    <description>Javaインタフェースが提供されることが一般化していってくれれば大変嬉しいです。</description>
+    <dc:date>2002-04-30T17:50:40</dc:date>
+  </item>
+
+</rdf:RDF>

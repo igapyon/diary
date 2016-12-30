@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/13 日記: ファイルのMD5値を求めるサンプル</TITLE>
+<META name="DESCRIPTION" content="Javaで入力ファイルのMD5値を求めるサンプルを作成してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5取得サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ファイルのMD5値を求めるサンプルプログラム</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">MyDigest.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.security.DigestInputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class MyDigest {
+    private static final String FILENAME = &quot;aaa.txt&quot;;
+    public static void main(String[] args) {
+        try {
+            DigestInputStream inStream =
+                new DigestInputStream(
+                    new BufferedInputStream(
+                        new FileInputStream(FILENAME)),
+                    MessageDigest.getInstance(&quot;MD5&quot;));
+            byte[] buf = new byte[1024];
+            for (;;) {
+                if (inStream.read(buf) &lt;= 0)
+                    break;
+            }
+            inStream.close();
+
+            MessageDigest md5 = inStream.getMessageDigest();
+            byte[] digest = md5.digest();
+            System.out.print(&quot;[&quot; + FILENAME + &quot;] のMD5は [&quot;);
+            for (int loop = 0;loop &lt; digest.length;loop++) {
+                System.out.print(
+                    Integer.toHexString(0xff&amp;(char)digest[loop]));
+            }
+            System.out.println(&quot;] です。&quot;);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (NoSuchAlgorithmException ex) {
+            ex.printStackTrace();
+        }
+    }
+}
+
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>なんのことはないコーディングなのですが、いざサンプルを探そうとしたらちょっと手こずりました。</P>
+<HR>
+<P>[replace-link:結城浩]さんのツッコミ<BR>Subject:  [igapyon:01082] MD5 サンプル<BR>
+<BR>
+<BR>
+結城です。細かい突っ込みです。<BR>
+<BR>
+いがぴょんさんのMD5を求めるサンプルで、<BR>
+16進表示を行う以下の部分には小さなバグがあります。<BR>
+</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>    System.out.print(
+        Integer.toHexString(0xff&amp;(char)digest[loop]));
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>このままですと、16未満の数が一桁になってしまいます。<BR>
+たとえば、</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>012</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>という3バイトからなるファイルの正しいMD5値は、</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>D2490F048DC3B77A457E3E450AB4EB38</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>なのですが、これが、</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>d249f48dc3b77a457e3e45ab4eb38</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>のように短くなってしまいます。<BR>
+一バイトごとに空白をあけてみると、原因がわかります。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>d2 49 f 4 8d c3 b7 7a 45 7e 3e 45 a b4 eb 38</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>修正としてはたとえば、<BR>
+</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>    int n = digest[loop] &amp; 0xFF;
+    if (n &lt;= 0xF) {
+        System.out.print(&quot;0&quot;);
+    }
+    System.out.print(Integer.toHexString(n));
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>のようにします。もっとうまい方法があるかも…。<BR>
+MD5を求めるプログラムの本質的なところではありませんけれど、<BR>
+ちょっと気になったのでご報告します。<BR>
+<BR>
+あ、それから、</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>0xff&amp;(char)digest[loop]</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>でcharにキャストしているのはなぜでしょう。<BR>
+もしもunsignedのこころでしたら、0xffでマスクをしているので、intの符号ビットは落ちているのですから、キャストは不要ではないかと思います。<BR>
+<BR>
+サンプル</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Sample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>class Sample {
+    public static void main(String[] args) {
+        byte a =  1;
+        byte b = -1;
+        System.out.println(&quot;a = &quot; + a);
+        System.out.println(&quot;b = &quot; + b);
+        System.out.println(&quot;a &amp; 0xFF = &quot; + (a &amp; 0xFF));
+        System.out.println(&quot;b &amp; 0xFF = &quot; + (b &amp; 0xFF));
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実行結果</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>a = 1<BR>
+b = -1<BR>
+a &amp; 0xFF = 1<BR>
+      b &amp; 0xFF = 255</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在、結城は暗号本を書いているので、</P>
+<UL>
+  <LI>[replace-href:http://www.hyuki.com/cr/]
+</UL>
+<P>似たようなコードを書いております。参考まで。<BR>
+私のはDigestInputStreamも使わず、バッファリングもせず、1バイトずつupdateしていますが(^_^;</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Digest.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.security.*;
+import java.io.*;
+
+public class Digest {
+    public static void main(String[] args) throws Exception {
+        if (args.length != 1) {
+            System.out.println(&quot;Usage: java Digest inputfilename&quot;);
+            System.exit(0);
+        }
+        String filename = args[0];
+        System.out.println(&quot;filename = &quot; + filename);
+
+        MessageDigest sha = MessageDigest.getInstance(&quot;SHA&quot;);
+        MessageDigest md5 = MessageDigest.getInstance(&quot;MD5&quot;);
+        
+        DataInputStream in = new DataInputStream(new FileInputStream(filename));
+        try {
+            while (true) {
+                byte b = in.readByte();
+                sha.update(b);
+                md5.update(b);
+            }
+        } catch (EOFException ignore) {
+        }
+        in.close();
+
+        System.out.println(&quot;SHA =&quot; + toHexString(sha.digest()));
+        System.out.println(&quot;MD5 =&quot; + toHexString(md5.digest()));
+    }
+    private static String toHexString(byte[] buf) {
+        String s = &quot;&quot;;
+        for (int i = 0; i &lt; buf.length; i++) {
+            int n = buf[i] &amp; 0xff;
+            if (n &lt; 16) {
+                s += &quot; 0&quot;;
+            } else {
+                s += &quot; &quot;;
+            }
+            s += Integer.toHexString(n).toUpperCase();
+        }
+        return s;
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>◆実行結果</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>&gt; type input.txt
+012
+&gt; java Digest input.txt
+filename = input.txt
+SHA = C4 A2 D9 9B C2 8D 23 60 98 A0 95 27 7B 7E B0 71 8D 6B E0 68
+MD5 = D2 49 0F 04 8D C3 B7 7A 45 7E 3E 45 0A B4 EB 38
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+…MLから未転載… もといMLに返信する前に 出張に旅立ちました (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse.orgに接続できない件</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 Eclipse.orgへの接続が怪しかったですが、これは eclipse.orgのDNSが異常だったのが原因だったとのことです。(と
+www.eclipse.orgに書いてありました)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021213-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

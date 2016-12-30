@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020320.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020320.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/20/b_0319_05.html">
+    <title>Visual Basic 6サポート，2008年まで</title>
+    <link>http://www.zdnet.co.jp/news/0203/20/b_0319_05.html</link>
+    <description>VBプログラマは裾野が広いですから、その動向を気にしている人は多いことでしょう。いきなしVB.NETに移行しろって言われても それは難しいでしょうから。</description>
+    <dc:date>2002-03-20T18:36:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/03/20/grri84000000azry.html">
+    <title>野茂投手ら 米独立リーグ球団買収</title>
+    <link>http://www.nhk.or.jp/news/2002/03/20/grri84000000azry.html</link>
+    <description>不思議なニュースです。</description>
+    <dc:date>2002-03-20T18:36:03</dc:date>
+  </item>
+
+</rdf:RDF>

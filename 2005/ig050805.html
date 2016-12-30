@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/08/05 日記: Eclipse RCP: パースペクティブ採用基準を自分の中に持っておくこと , バリウム後遺症その２</TITLE>
+<META name="DESCRIPTION" content="本格的なEclipse RCP時代の到来までに、RCPならではの設計指針や各種生産性向上施策を打っておく必要があると思う今日この頃 , バリウム後遺症にて体調を崩しています…。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/08/05 日記: Eclipse RCP: パースペクティブ採用基準を自分の中に持っておくこと , バリウム後遺症その２</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 本格的なEclipse RCP時代の到来までに、RCPならではの設計指針や各種生産性向上施策を打っておく必要があると思う今日この頃 , バリウム後遺症にて体調を崩しています…。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>バリウム後遺症その２</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>バリウム (というか その後に頂く例の薬) の影響で、体調から生活リズムまで崩れまくっています。<BR>
+加えて会社は例によって寒いです。今週はダメです。</P>
+<P><FONT color="#ff0000">2005.08.06追記</FONT> まだバリウム後の状態から体調が回復しません。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse RCP: パースペクティブ採用基準</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse RCP開発を少し体験してみて、パースペクティブを採用するかどうかの確固たる設計基準を自分の中に構築しておくことは重要であると感じました。</P>
+<P>パースペクティブを採用すると、パースペクティブの中では統一感のあるデザインを提供できます。しかし他のパースペクティブとの連携は 操作の上において、そしてそれに加えて開発の上で(APIの連携の都合上)
+多くの不便が存在します。<BR>
+一方で、例えば拡張子との関連づけによるエディター／ビューによる実装だと、普段利用しているパースペクティブ内で完結していて操作に連続性が得られます。その上
+開発は ぐぐっと簡単になります。</P>
+<P>結局のところ、そのパースペクティブで あるひとつの世界観を提供する場合にはパースペクティブで実装し、そうではなくって既存のパースペクティブに対して機能追加したい場合には
+通常のエディター／ビューによる実装が向いているのですね。パースペクティブ化ではなくって、マルチビューエディターを採用した方が利便性が高い画面を作ることが出来ることも確認しました。使い分けが大事ですね。(エディターとビューについても、いろいろ考えさせられるところがありますけれども…)</P>
+<P>、、、考えれば当たり前な話なのかも知れません。しかし技術に飲まれて溺れていくと、ちゃんと判断基準を持っていないと 技巧に流されて 操作感の悪い
+こってこてな画面を作ってしまいそうだなぁ、と感じました。また、この話題は 画面設計上の留意点ということで設計工程に対する示唆であるということも重要です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>IT Pro: 「Linuxカーネルのセキュリティが過去6カ月で向上」，米Coverityの調査<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20050804/165879/">http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20050804/165879/</A><BR>
+  バッファオーバーランバグの修正などのセキュリティ向上は そのまま安定性向上につながるのでその点 嬉しいことです。なお文中の欠陥比率とは、キロステップあたりのバグ件数であるようです。
+  <LI>Japan.internet.com: 米 Novell、JBoss Enterprise Middleware System をサポート<BR>
+  <A HREF="http://japan.internet.com/linuxtoday/20050804/5.html">http://japan.internet.com/linuxtoday/20050804/5.html</A><BR>
+  JBossは商用サポートが充実の方向にあるようです。すばらしいこです。
+  <LI>IT Pro: 「アジア太平洋地域の開発者の約半数がオープンソース導入を拡大する予定」，米調査<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20050801/165603/">http://itpro.nikkeibp.co.jp/free/ITPro/USNEWS/20050801/165603/</A><BR>
+  (記事とは直接関係ないけれど) 最近 オープンソースというものが企業に浸透していく様を見ていて いろいろ考えさせられて そして悩んでいます。
+  <LI>
+  <LI>商用OSに匹敵するハード・リアルタイム性能をLinuxで達成、米MontaVista - nikkeibp.jp - IT<BR>
+  <A HREF="http://nikkeibp.jp/wcs/leaf/CID/onair/jp/it/389837">http://nikkeibp.jp/wcs/leaf/CID/onair/jp/it/389837</A><BR>
+  98マイクロ秒
+</UL>
+<P><BR>
+</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

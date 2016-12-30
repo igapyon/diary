@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/28 日記: Sun J2SE 1.4.2 リリース , .NET Framework 1.1の一撃</TITLE>
+<META name="DESCRIPTION" content="Sun Java 2 Platform, Standard Edition 1.4.2 が正式リリースです , 客先に納品しに行ったら .NET Framework のバージョンが異なり 轟沈…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt][replace-param:htmlstyle=tabletitle][replace-rdf:ig030628-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun: Java2 SDK, SE 1.4.2 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2003.07.02 追記</FONT><BR>
+J2SEのインストーラで JREインストールの有無を選択できるようになっていました。これは画期的。ってことで
+自分用マシンは J2SE 1.4.2 にバージョンアップしました。とりあえず ナニゴトも起きずに動作しています。<BR>
+一方 Swingって 以前よりは結構高速に動作するようになった印象があります。ここで
+ストップウォッチ片手に計測したいところだがヒマは無し。</P>
+<HR>
+<P>ここから[replace-link:いがぴょん]<BR>
+Windows版の場合、</P>
+<UL>
+  <LI>Download J2SE v 1.4.2
+  <LI>→Windows Offline Installation
+</UL>
+<P>を選ぶと 従来型のモジュールがダウンロードできます。 </P>
+<P>NetBeansをバンドルするという恣意的な思いや ダウンロードに情報登録が必要になっているなど、ちょっと
+わたしには 周辺の印象が悪いです。<BR>
+… とりあえずダウンロードするも 忙しすぎて 触って遊ぶ暇は無し。</P>
+<HR>
+<P><FONT color="#ff0000">読者の方からツッコミ</FONT><BR>
+Subject: [igapyon:01157] Re: ちゃちゃです [ 速報 ]Sun Java 2 Platform,
+S tandard Edition 1.4.2 が正式リリース<BR>
+<BR>
+谷池ともうします。<BR>
+<BR>
+<CITE>&gt; NetBeansをバンドルするという恣意的な思いや ダウンロードに情報登録が必要になっているなど、ちょっと
+わたしには 周辺の印象が悪いです。<BR>
+</CITE><BR>
+情報登録については、「No thank you, continue」を選べばパスできると思うのですが。。。<BR>
+# さすがに NetBeans のバンドルは首をかしげます。<BR>
+# それと全部で、70M というサイズもかんにんして～なという感じですね。<BR>
+谷池 泰典</P>
+<HR>
+<P>ここから[replace-link:いがぴょん]<BR>いがぴょんです。<BR>
+<BR>
+<CITE>&gt;谷池ともうします。<BR>
+</CITE>ごぶさたです。<BR>
+<BR>
+<CITE>&gt;情報登録については、「No thank you, continue」を選べばパスできると思うのですが。。。<BR>
+&gt;# さすがに NetBeans のバンドルは首をかしげます。<BR>
+&gt;# それと全部で、70M というサイズもかんにんして～なという感じですね。<BR>
+</CITE><BR>
+ そ…そうだったんですか。<BR>
+ え、えいごの壁の厚さに愕然 (苦笑)<BR>
+<BR>
+NetBeansバンドルは 別に 納得するのですが、選択肢の一番上に NetBeansバンドルが表示されているのは違和感強かったです。</P>
+<HR>
+<P><FONT color="#ff0000">Wikiへの</FONT><STRONG>さとちゃん</STRONG><FONT color="#ff0000"> のツッコミ</FONT><BR>
+JDK1.4.2ですが、なにやら登録する画面の上の方「Fill out the optional information
+below or proceed with download.」の&quot;download&quot;アンカーをクリックするとダウンロード承諾画面へ進みます
+</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>.NET Framework 1.1にハマる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とあるWebサービスをC#.NET + ASP.NET で作成していました。昨日 納品しに行きました。ところがどっこい
+納品時のインストール先サーバには .NET Framework 1.1 が入っていました。私は
+.NET Framework 1.0ベースで開発していました。</P>
+<P>轟沈です。持って行ったモジュールは動きませんでした (苦笑)<BR>
+.NET Framework のバージョンの相違で、</P>
+<UL>
+  <LI>まず Webサービスのインタフェースあたりが変化していました。SOAP以外に GETとPOSTがサポートされていたのが まずGETが無くなっていました。
+  <LI>decimalのかけ算の結果の小数点部分桁数の扱いが変わっていました。これが原因で
+  intへのパースが例外が起こりました。
+</UL>
+<P>.NET Framework 1.1上で 一度でもテストしていれば 事前に対応できたのですが、現地で初めて
+.NET Framework 1.1というのがわかり これはもう 全く対応不能でした。(というか
+動作させてみて うまくいかず 試行錯誤したけっか ようやっと .NET Framework
+のバージョンの相違に気が付いたという段取りで…)<BR>
+マイクロソフト、恐るべし。最近 Javaで慣れていて バージョンの相違でハマる経験が少なかったので、バージョン間の互換性が低い
+マイクロソフトの傾向を すっかり忘却していました。… こう考えると つくづく
+Javaって安定しているなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事ざんまい</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.NET Framework 1.1 バージョン間互換性遭遇のため 昨日(とうか今日の早朝)
+の 03:00 くらいまで仕事してました。今日(というか よく考えたら同じ日です)も
+22:00ころまで仕事してました。ああ たくさんがんばったなぁ (苦笑)<BR>
+知らないうちに J2SE 1.4.2はリリースされているし、記事執筆は凍っているしで
+ばたばたしています。昨日の日記にたくさんの反響を頂きありがとうございます。ちょっと時間ができたら
+反映したり返事を書いたりするので 暫くお待ち下さいね。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030628-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

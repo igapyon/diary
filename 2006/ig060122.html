@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/22 日記: blanco Framework: blancoDb Enterprise Edition 1.4.1 リリース</TITLE>
+<META name="DESCRIPTION" content="Java言語用 R/Oマッピングツールである blancoDb Enterprise Edition 1.4.1 をリリースします。今回の安定版は、前回の安定版である 1.2.0 (2005.09.30)以来の3ヶ月ぶりの安定版リリースとなります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/22 日記: blanco Framework: blancoDb Enterprise Edition 1.4.1 リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Java言語用 R/Oマッピングツールである blancoDb Enterprise Edition 1.4.1 をリリースします。今回の安定版は、前回の安定版である 1.2.0 (2005.09.30)以来の3ヶ月ぶりの安定版リリースとなります。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoDb Enterprise Edition 1.4.1 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Java言語用 R/Oマッピングツールである blancoDb Enterprise Edition 1.4.1 をリリースします。今回の安定版は、前回の安定版である
+1.2.0 (2005.09.30)以来の3ヶ月ぶりの安定版リリースとなります。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition の 1.2.0から1.4.1への主な変更点は下記のようになります。</P>
+<OL>
+  <LI>Excel様式を改善しました。「SQL定義書」へと名称が変わりました。
+  <UL>
+    <LI>Excel様式を「SQL定義書」と名前変更し、内容についても見直しを行いました。
+    <LI>申し訳ありませんが、様式については 1.2.x系(旧バージョン)までとの互換性はありません。
+  </UL>
+  <LI>ストアドプロシージャ(CallableStatement)への対応を行いました。
+  <UL>
+    <LI>SQL定義書で「呼出型」を選択するとストアドプロシージャが利用できます。
+  </UL>
+  <LI>単一表サポート関連
+  <UL>
+    <LI>単一表のSQL文についてダブルクオートエスケープを必要な場合にのみ付与するように変更しました。<BR>
+  この対応により MySQL対応が可能となりました。<BR>
+  一方で HSQLDBはこの変更により動作しなくなります。<BR>
+    ダブルクオートが無いと動作しない HSQLDBの仕様が特殊なものであると判断します。
+    <LI>単一表アクセスのスクロール方向について見直しを実施しました。<BR>
+    デフォルトをインセンシティブとします。<BR>
+    プロパティでスクロール方向は変更が可能なようにしました。
+    <LI>単一表の全行SELECTについて、1.2系では無効化されていましたが、これを復活させました。
+    <LI>旧バージョンの互換性のために内部的にサポートしていた旧式のTableGatewayサポートを終了しました。
+    <LI>単一表のテーブルにおいて 表名に$が含まれている場合には、処理をしないように仕様変更しました。<BR>
+    これは Oracle10gにおいて、削除テーブルなどが BIN$●●というテーブルとして格納される仕様への対応のためです。
+  </UL>
+  <LI>ロギングへの対応
+  <UL>
+    <LI>Jakarta Commons Loggingに対応しました。
+  </UL>
+  <LI>新たなデータベースへの対応
+  <UL>
+    <LI>Oracle10gで動作確認しました。<BR>
+    →いままでは Oracle 9iまでの対応でした。
+    <LI>MySQLで簡単な動作確認をしました。
+  </UL>
+  <LI>エラー時の処理
+  <UL>
+    <LI>主なエラーメッセージをリソースバンドル化しました。
+    <LI>バインド忘れのパラメータがある場合に例外が発生するように変更しました。<BR>
+    また、SQL例外が なるべくそのまま伝わるように改善し、原因が究明しやすいようにしました。
+  </UL>
+  <LI>内部処理の改善
+  <UL>
+    <LI>名前変形の処理を抜本的に見直しました。
+    <LI>プラグインの進捗バーの表示が不適切であったのを修正しました。
+    <LI>プラグインのException, ErrorがEclipseのログに適切に出力されるように改善。
+    <LI>その他、ソースコードの大幅な整理を実施しました。総ステップ数がかなり減りました。
+  </UL>
+</OL>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>MYCOM: Java Beanマッピングライブラリ Dozer 2.0公開<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2006/01/18/091.html">http://pcweb.mycom.co.jp/news/2006/01/18/091.html</A><BR>
+  Java Beanマッピングというものだそうで、興味を持っています。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkでも 同様のものを検討しているからです。
+  <LI>浸透し始めたAjax，開発支援ツールに期待感：IT Pro<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20051228/226825/">http://itpro.nikkeibp.co.jp/article/COLUMN/20051228/226825/</A><BR>
+  Ajaxネタとしてメモ。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

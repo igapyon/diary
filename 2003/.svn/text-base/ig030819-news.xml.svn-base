@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030819.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030819.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060447,00.htm">
+    <title>「国内情報サービス企業、売上高、経常利益とも1位はNTTデータ」-- コンピュータ・エージの調査</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060447,00.htm</link>
+    <description>NTTデータって そんなに強い会社なんですね…。経常利益トップもNTTデータとわ。恐るべし。</description>
+    <dc:date>2003-08-19T17:45:47</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0308/18/epn25.html">
+    <title>Opinion：SCOが際立たせる「弱者の守り神」としてのIBM</title>
+    <link>http://www.zdnet.co.jp/enterprise/0308/18/epn25.html</link>
+    <description>オープンソース界でのIBMの評価はとても高まったことでしょう。この点 とても同意します。</description>
+    <dc:date>2003-08-19T17:45:47</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ebiz/story/0,2000047658,20060474,00.htm">
+    <title>米国でRFIDの法的規制を求めるプライバシー団体</title>
+    <link>http://japan.cnet.com/news/ebiz/story/0,2000047658,20060474,00.htm</link>
+    <description>個人情報保護のための適切な措置がとられるよう注目すべき、という点は 大きく同意します。</description>
+    <dc:date>2003-08-19T17:45:47</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/column/market/story/0,2000047993,20060448,00.htm">
+    <title>家電メーカーの浮沈を左右するDVDレコーダー</title>
+    <link>http://japan.cnet.com/column/market/story/0,2000047993,20060448,00.htm</link>
+    <description>とりあえず 私 DVDレコーダーが欲しいですもの！</description>
+    <dc:date>2003-08-19T17:45:47</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20060461,00.htm">
+    <title>インターネットを使った求人申し込みは効果薄</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20060461,00.htm</link>
+    <description>アメリカでは 以前はインターネットを使った求人申し込みが効果高かったのだそうです。でも 今や インターネットを使った求人申し込みが常態化してきて、かえって古典的な手法の方が印象的、なんですって。びっくりです。</description>
+    <dc:date>2003-08-19T17:45:47</dc:date>
+  </item>
+
+</rdf:RDF>

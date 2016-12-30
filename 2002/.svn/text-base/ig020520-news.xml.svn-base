@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020520.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020520.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/05/20/grri84000000cbph.html">
+    <title>みずほ 振り込みでトラブル</title>
+    <link>http://www.nhk.or.jp/news/2002/05/20/grri84000000cbph.html</link>
+    <description>みずほ頑張れ…</description>
+    <dc:date>2002-05-20T20:44:04</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/05/19/grri84000000caxl.html">
+    <title>水の輸入 １０年前の約５倍に</title>
+    <link>http://www.nhk.or.jp/news/2002/05/19/grri84000000caxl.html</link>
+    <description>日本は飲料水まで輸入に頼る傾向があるのでしょうか。自給という観点から悲しいことです。</description>
+    <dc:date>2002-05-20T20:44:04</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/20/njbt_01.html">
+    <title>東芝、AVとPCを融合させる「TransCube 10」発表</title>
+    <link>http://www.zdnet.co.jp/news/0205/20/njbt_01.html</link>
+    <description>興味を惹かれるハードウェアです。</description>
+    <dc:date>2002-05-20T20:44:04</dc:date>
+  </item>
+
+</rdf:RDF>

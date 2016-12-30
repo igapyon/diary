@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021015.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021015.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/jsse/">
+    <title>Sun Java Secure Socket Extension (JSSE) 1.0.3_01 リリース</title>
+    <link>http://java.sun.com/products/jsse/</link>
+    <description>前バージョンに該当する JSSE 1.0.3のリビジョンアップリリースが行われていました。結構これは注目すべきリリースであると私は認識しています。</description>
+    <dc:date>2002-10-15T21:02:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0210/11/n13.html">
+    <title>ラショナルソフトウェア、ソフトウェア開発支援ツールの3製品を発売</title>
+    <link>http://www.zdnet.co.jp/enterprise/0210/11/n13.html</link>
+    <description>Linux用のこんなソフトも出そろってきていたのですね。知りませんでした。</description>
+    <dc:date>2002-10-15T21:02:00</dc:date>
+  </item>
+
+</rdf:RDF>

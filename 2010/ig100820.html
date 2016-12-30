@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/08/20 日記: Ubuntu: GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法</TITLE>
+<meta name="DESCRIPTION" content="GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法を記載します。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
+<meta name="DATE" content="2010-08-22T16:38:02+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/08/20 日記: Ubuntu: GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法を記載します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p>★この日記は、実際には 2010-08-22 に書きました。</p>
+<p>GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法を記載します。</p>
+<p>Java</p>
+<ul>
+  <li>あらかじめ Java 実行環境がインストールされている必要があります。
+  <li>OpenJDK 6 では GlassFish Server 3.0.1 の管理コンソールを開くことができない不具合が発生することが知られています。Sun
+  Java JDK の利用が妥当な回避策と考えられます。
+  <ul>
+    <li>参照: <a href="ig100822.html">2010/08/22 日記: Ubuntu: Sun Java SE 6 を Ubuntu 10.04 にインストールする方法</a>
+  </ul>
+</ul>
+<p>Web ブラウザで <A HREF="https://glassfish.dev.java.net/">https://glassfish.dev.java.net/</A> に接続します。</p>
+<p>「GlassFish Server Open Source Edition 3.0.1」を選択します。</p>
+<p>「glassfish-3.0.1-unix-ml.sh (multilingual)」を選択します。</p>
+<p>インストール先ディレクトリを準備します。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>Terminal</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>cd /usr/local/lib
+sudo mkdir glassfishv3
+sudo chown &lt;ユーザID&gt; glassfishv3/</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>ファイル「glassfish-3.0.1-unix-ml.sh」を tmp フォルダにコピーします。</p>
+<p>インストーラを実行します。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>Terminal</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>cd /tmp<br>LANG=en_US ★これが妥当な方法かどうか微妙。<br>sh ./glassfish-3.0.1-unix-ml.sh</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>インストーラの指示に従って操作をすすめます。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf001.png" border="0"></blockquote>
+<p>ライセンスに同意できる場合には「Next」ボタンを押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf002.png" border="0"></blockquote>
+<p>インストール先ディレクトリを必要に応じて調整します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf003.png" border="0"></blockquote>
+<p>パスワードを入力します。GlassFish 伝統的には、単体開発機などのセキュア性が必要ない環境では「adminadmin」を指定することが多いです。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf004.png" border="0"></blockquote>
+<p>「Next」を押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf005.png" border="0"></blockquote>
+<p>Java のディレクトリを確認して「Next」を押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf006.png" border="0"></blockquote>
+<p>「Next」を押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf007.png" border="0"></blockquote>
+<p>「Skip Registration」を選択して「Next」を押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf008.png" border="0"></blockquote>
+<p>「Exit」ボタンを押下します。</p>
+<blockquote><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100820ubugf009.png" border="0"></blockquote>
+
+<p>インストール後の GlassFish Server を起動します。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>Terminal</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>cd /usr/local/lib/glassfishv3/bin
+sh ./asadmin start-domain domain1</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/08/22 16:38:02 $</address>
+</BODY>
+</HTML>

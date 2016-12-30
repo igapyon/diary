@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/10/16 日記: Office 2000 メモ</TITLE>
+<META name="DESCRIPTION" content="C# + ADO.NETのトランザクション利用時の使い勝手の悪さ">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Office 2000 メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Microsoft Office 2000 Service Release 1 (SR-1) アップデート<BR>
+  [replace-href:http://office.microsoft.com/japan/downloads/2000/o2ksr1ddl.aspx]
+  <LI>Microsoft Office 2000 Service Pack 2<BR>
+  [replace-href:http://www.microsoft.com/japan/office/downloads/office2000sp2/]<BR>
+  なんと Office 2000 SR-1 適用後にのみ適用可能
+</UL>
+<P>いろいろパッチの類があり どれが必須なパッチなのか理解不能。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C# + ADO.NET: トランザクションがコネクションと分離されていて使い勝手が悪い</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C# + ADO.NET (とゆ～か System.Data.SqlClient) のトランザクションについて、これがコネクションと分離されています。これが結構厄介です。トランザクション非対応コードと
+トランザクション対応コードとが うまく同居するように コーディングしずらいです。面倒です。厄介です。Java言語は
+この点 良くできているのですが…。ねえ。<BR>
+そういえば ADO.NET のデータベースアクセス周りのAPIって どうも好きになれません。なぜ複数あるのでしょう。(そりゃもちろん
+VBなどとの下位互換性が主たる目的であることは確かでしょうけれども)<BR>
+データベース周りが C# や ADO.NET のウィークポイントになって行きそうな予感を強く感じました。</P>
+<P>これだけの短期間で C# や ASP.NET などを含んだ .NET Framework を出したことそのものは
+ものすごく驚嘆に値することだと思います。でも その反面 言語文法的に どうも
+良くない点が多いように思います。(ADO.NETに限らず…) 急ピッチでソフトウェアを開発した代償なのでしょう。<BR>
+その点 Java言語および その周辺の技術は そこそこ急ピッチで開発されたとはいえ、よくよく考えられて作られているのだなぁ、ということを
+C# や ASP.NETのプログラミング環境に触れることにより 改めて認識させられました。<BR>
+、、、で C#やASP.NET、ADO.NETの それら文法的、あるいはAPI的な欠点は 今後
+バージョンアップした際に どのように克服していくのでしょう。その点もとっても興味有ります。いつもどおり
+『新バージョンは こんなにすばらしいです。だから下位互換性はありません』と謳うのでしょうか？
+プログラミング言語環境で 下位互換性が失われる、そんなプログラミング言語は嫌だなぁ。(言語文法的
+あるいは API的に マズイ… と感じているのが私だけ なのでしたら、何ら改良は加えられないと思いますけれどもね)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021016-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

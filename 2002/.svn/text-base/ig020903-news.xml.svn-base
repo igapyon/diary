@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020903.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020903.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/02/njbt_05.html">
+    <title>シャープ、1ビットアンプ搭載携帯MDプレーヤ</title>
+    <link>http://www.zdnet.co.jp/news/0209/02/njbt_05.html</link>
+    <description>ほう。1ビットアンプ搭載ですか。やりますねぇ。</description>
+    <dc:date>2002-09-03T13:31:11</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/News/2002/Item/020902-5.html">
+    <title>ビア採用でウォルマートが199ドルのパソコン</title>
+    <link>http://japan.cnet.com/News/2002/Item/020902-5.html</link>
+    <description>プロセッサ市場に新規参入するベンダーもいるんですねぇ。</description>
+    <dc:date>2002-09-03T13:31:11</dc:date>
+  </item>
+
+</rdf:RDF>

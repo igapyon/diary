@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/11/15 日記: blancoJUnitの提案 , blancoApacheDistributionの構想</TITLE>
+<META name="DESCRIPTION" content="ここのところ blancoResourceBundleの便利さを改めて実感しています。我ながら これは便利だと思いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/11/15 日記: blancoJUnitの提案 , blancoApacheDistributionの構想</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ここのところ blancoResourceBundleの便利さを改めて実感しています。我ながら これは便利だと思いました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoResourceBundleにハマっています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A> を使っていて、純粋に便利だと思いました。<BR>
+私自身が 単純に愛用ユーザとなりました。これは便利です。リソースバンドルの利用の面倒さを かなりのところまで克服できます。むしろ それらリソースが Excelブックにきちんと納まっていることにより見通しがかなり良くなります。 は私にとって必須アイテムになりました。<BR>
+ということを以前にも日記に書いたような記憶が あるような、無いような… (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: プロジェクト提案: blancoJUnit</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Framework Foundationのメンバーに提案です。</P>
+<UL>
+  <LI>blancoJUnit<BR>JUnit用のテストコードを入力として Excel/xlsファイルの試験項目書を自動生成するもの
+</UL>
+<P>実装上のポイントは下記のようになります。</P>
+<OL>
+  <LI>通常の <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのプロダクトと異なり、Javaソースコード もしくは Javaバイトコード を入力とします。<BR>
+  ※JUnitを用いたメソッドレベルの試験の場合には、あくまでも元本は JUnitコードになると想定します。各種アノテーションは JUnitコードの書かれることと想像します。
+  <LI>JUnitのコードのメソッド名は JUnitが定めるルール＋αに納まるようにします。<BR>
+  ※このルールにより 試験対象および試験観点を盛り込むことが出来る可能性を期待できます。
+  <LI>JUnitのコードには、messageを付与するようにします。<BR>
+  ※例えば assertEqualsを利用する場合には assertEquals(java.lang.String message, short
+  expected, short actual) のように message付き版のアサートメソッドを利用するようにします。このmessageが
+  そのまま試験項目の文言へとつなげることが可能です。「[試験観点] 試験内容」、「期待値」、「試験対象」の３つの情報が、classファイルから抽出可能なのです。
+  <LI>BCELなどを用いて classファイルを解析し、試験項目の情報を抽出します。
+  <LI>JExcelApiまたは <A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> 2.0ネイティブファイル + OpenOffice.org
+  APIを用いて Excel/xlsファイルを自動生成します。
+</OL>
+<P>これにより単体試験工程のいちぶが 少しでもマシになれば良いなあ、と妄想しています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig060114.html">2006/01/14 日記: blancoJUnitプロジェクト 始動</A>
+  <LI><A href="ig051130.html">2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</A>
+  <LI><A href="ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: 構想: blancoバグ管理 , blanco開発進捗管理 (いずれも仮称)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの既存ベースを利用したら、何かしらトラッキングが可能なシステムが 比較的軽微につくることが出来るように妄想しています。基本制約・仕様は下記のようなものです。</P>
+<UL>
+  <LI>Eclipseと統合されていること<BR>
+  ※代替パスとしてAntタスクは可
+  <LI>マクロを全く含まない Excelファイルであること (重要)<BR>
+  blancoでは JExcelApiか OpenOffice.orgを用いて入出力を行うため
+  <LI>少ない入力による様式であること (重要)<BR>
+  入力項目が多いと 生産性が維持できません
+  <LI>単一のExcelファイルが各々 自立していること<BR>
+  選択はドロップダウンリストで表現
+</UL>
+<P>それをベースに、例えばExcelをベースにしたバグ・トラッキングシステムを妄想してみました。</P>
+<UL>
+  <LI>軽量バグ管理システム
+  <LI>blancoベース
+  <LI>バグ分析のための必要な情報が載っていること
+</UL>
+<P>おなじく、Excelをベースにした開発進捗管理システムを妄想しています。</P>
+<UL>
+  <LI>開発者の氏名がシステム上でユニークになっていること
+  <LI>モジュール名・メソッド名がユニークなIDで表現できること
+  <LI>バグ管理と連動すること
+</UL>
+<P>軽量で高速で、ストレスが少なく、Eclipseと統合されていて、Excelブックファイルとして ロングトランザクションに対応することが重要そうです。と妄想中…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: 構想: blancoApacheDistribution</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancoeclipsedistribution.html" TITLE="Eclipse SDK, Eclipse 言語パック, 数本のプラグイン を Windowsインストーラー形式で提供します。">blancoEclipseDistribution</A> を実際に使っていて、効果がかなり高いことがわかりました。私自身が最大の愛用ユーザーでしょう。じゃあ次には、ということで、blancoApacheDistribution
+みたいなものがあったら便利そうだなぁと思いました。Windows用インストーラーで Apacheのモジュール群を選択しながらHDDにコピーするという機能です。</P>
+<UL>
+  <LI>Apache HTTP Server
+  <LI>Apache Tomcat
+  <LI>Apache Ant
+  <LI>Log4j
+  <LI>Commons Logging
+</UL>
+<P>などを ある一時点をもってスナップショットを取得しておき、それをインストーラーの形式で Distribution化するという 単純なものです。</P>
+<P>このインストーラーによってコピーされる内容は 下記のいずれかになると想像しています。</P>
+<UL>
+  <LI>Apacheサイトから得られる ZIPファイルそのものを インストール用イメージとしてHDDにインストール<BR>
+  →この方法だと 単に ZIPファイルの一式を ダウンロードの代わりにインストールする、という利用イメージになります。
+  <LI>Apacheサイトから得られたZIPファイルを、何かしらのルールを元に解凍しながらHDDにインストール<BR>
+  →この方法だと Tomcatのようなものを まじめに (Windows NTサービスとして登録などの) インストールをする必要が出てきてしまいます。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,771 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/08/02 日記: うそSOAPサーバ・サーブレット実現性の模索</TITLE>
+<META name="DESCRIPTION" content="うそSOAPサーバ版が技術的に実現可能かどうか簡単に検証しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/08/02 日記: うそSOAPサーバ・サーブレット実現性の模索</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] うそSOAPサーバ版が技術的に実現可能かどうか簡単に検証しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>うそSOAPサーバ・サーブレット実現性の模索</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache Axis 1.2.1 ベースで うそSOAPの可能性を探ってみました。Tomcat 4.1も利用しています。</P>
+<P>とりあえず jwsベースで Webサービスを作成して Axisに食わしてみます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">WsTest01.jws</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class WsTest01 {
+    public String method01(String arg1, int arg2) {
+        return &quot;戻り値:[&quot; + arg1 + &quot;, &quot; + arg2 + &quot;]&quot;;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>WsTest01.jwsをベースに Axisが生成する WSDLは 下記になります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">http://localhost:8080/axis/WsTest01.jws?wsdl</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsdl:definitions targetNamespace=&quot;http://localhost:8080/axis/WsTest01.jws&quot; 
+ xmlns:apachesoap=&quot;http://xml.apache.org/xml-soap&quot; 
+ xmlns:impl=&quot;http://localhost:8080/axis/WsTest01.jws&quot; 
+ xmlns:intf=&quot;http://localhost:8080/axis/WsTest01.jws&quot;
+ xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+ xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot;
+ xmlns:wsdlsoap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot;
+ xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+&lt;!--WSDLはApache Axis version: 1.2.1
+Built on Jun 14, 2005 (09:15:57 EDT)によって生成されました / [en]-(WSDL created by Apache Axis version: 1.2.1
+Built on Jun 14, 2005 (09:15:57 EDT))--&gt;
+   &lt;wsdl:message name=&quot;method01Request&quot;&gt;
+      &lt;wsdl:part name=&quot;arg1&quot; type=&quot;xsd:string&quot;/&gt;
+      &lt;wsdl:part name=&quot;arg2&quot; type=&quot;xsd:int&quot;/&gt;
+   &lt;/wsdl:message&gt;
+   &lt;wsdl:message name=&quot;method01Response&quot;&gt;
+      &lt;wsdl:part name=&quot;method01Return&quot; type=&quot;xsd:string&quot;/&gt;
+   &lt;/wsdl:message&gt;
+   &lt;wsdl:portType name=&quot;WsTest01&quot;&gt;
+      &lt;wsdl:operation name=&quot;method01&quot; parameterOrder=&quot;arg1 arg2&quot;&gt;
+         &lt;wsdl:input message=&quot;impl:method01Request&quot; name=&quot;method01Request&quot;/&gt;
+         &lt;wsdl:output message=&quot;impl:method01Response&quot; name=&quot;method01Response&quot;/&gt;
+      &lt;/wsdl:operation&gt;
+   &lt;/wsdl:portType&gt;
+   &lt;wsdl:binding name=&quot;WsTest01SoapBinding&quot; type=&quot;impl:WsTest01&quot;&gt;
+      &lt;wsdlsoap:binding style=&quot;rpc&quot; transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/&gt;
+      &lt;wsdl:operation name=&quot;method01&quot;&gt;
+         &lt;wsdlsoap:operation soapAction=&quot;&quot;/&gt;
+         &lt;wsdl:input name=&quot;method01Request&quot;&gt;
+            &lt;wsdlsoap:body encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+                namespace=&quot;http://DefaultNamespace&quot; use=&quot;encoded&quot;/&gt;
+         &lt;/wsdl:input&gt;
+         &lt;wsdl:output name=&quot;method01Response&quot;&gt;
+            &lt;wsdlsoap:body encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+                namespace=&quot;http://localhost:8080/axis/WsTest01.jws&quot; use=&quot;encoded&quot;/&gt;
+         &lt;/wsdl:output&gt;
+      &lt;/wsdl:operation&gt;
+   &lt;/wsdl:binding&gt;
+   &lt;wsdl:service name=&quot;WsTest01Service&quot;&gt;
+      &lt;wsdl:port binding=&quot;impl:WsTest01SoapBinding&quot; name=&quot;WsTest01&quot;&gt;
+         &lt;wsdlsoap:address location=&quot;http://localhost:8080/axis/WsTest01.jws&quot;/&gt;
+      &lt;/wsdl:port&gt;
+   &lt;/wsdl:service&gt;
+&lt;/wsdl:definitions&gt;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※不要な改行を除去するなど、多少デフォルメしています。<BR>
+※WsTest01.jws.wsdl としてファイルを保存します。</BLOCKQUOTE>
+<P>WSDL2Javaを実行して Javaソースコードを生成します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">コマンドライン</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -classpath axis.jar;commons-logging-1.0.4.jar;commons-discovery-0.2.jar;jaxrpc.jar;saaj.jar;wsdl4j-1.5.1.jar
+      org.apache.axis.wsdl.WSDL2Java -t -s WsTest01.jws.wsdl</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>呼び出し側の SOAPを利用するクライアントは下記のようになります。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">TestCaller.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import localhost.axis.WsTest01_jws.WsTest01;
+import localhost.axis.WsTest01_jws.WsTest01ServiceLocator;
+
+public class TestCaller {
+
+    public static void main(String[] args) {
+        try {
+            WsTest01 test = new WsTest01ServiceLocator().getWsTest01();
+            String result = test.method01(&quot;こんにちは&quot;, 123);
+            System.out.println(result);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        } catch (ServiceException e) {
+            e.printStackTrace();
+        }
+    }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ここで、SOAPを うそSOAP (USOAP)サーバ・サーブレットに取り替えます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">UsoapServlet.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * うそSOAPサーブレット構築計画
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * うそSOAPサーブレット ソースコード
+ * 
+ * @author iga
+ * @version 2005.08.02
+ */
+public class UsoapServlet extends HttpServlet {
+
+    /**
+     * &lt;code&gt;ENCODING&lt;/code&gt; 文字コードを与えます。
+     */
+    public static final String ENCODING = &quot;UTF-8&quot;;
+
+    /**
+     * Java Servletのエントリポイントです。
+     * 
+     * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
+     *      javax.servlet.http.HttpServletResponse)
+     */
+    public final void service(final HttpServletRequest request,
+            final HttpServletResponse response) throws ServletException,
+            IOException {
+
+        BufferedReader reader = null;
+        PrintWriter writer = null;
+        setResponseDefault(response);
+
+        try {
+            reader = request.getReader();
+            writer = response.getWriter();
+
+            for (Enumeration enum = request.getHeaderNames(); enum
+                    .hasMoreElements();) {
+                String key = (String) enum.nextElement();
+                System.out.println(&quot;H:&quot; + key + &quot;=&quot; + request.getHeader(key)
+                        + &quot;&quot;);
+            }
+
+            for (;;) {
+                String line = reader.readLine();
+                if (line == null) {
+                    break;
+                }
+                System.out.println(&quot;REQ:&quot; + line);
+            }
+            String result = &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;&quot;
+                    + &quot;&lt;soapenv:Envelope xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot;&quot;
+                    + &quot; xmlns:xsd=\&quot;http://www.w3.org/2001/XMLSchema\&quot;&quot;
+                    + &quot; xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot;&gt;&quot;
+                    + &quot;  &lt;soapenv:Body&gt;&quot;
+                    + &quot;    &lt;ns1:method01Response&quot;
+                    + &quot;     soapenv:encodingStyle=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot;&quot;
+                    + &quot;     xmlns:ns1=\&quot;http://DefaultNamespace\&quot;&gt;&quot;
+                    + &quot;      &lt;method01Return xsi:type=\&quot;xsd:string\&quot;&gt;&quot;
+                    + &quot;&amp;#x623B;&amp;#x308A;&amp;#x5024;:[&amp;#x3053;&amp;#x3093;&amp;#x306B;&amp;#x3061;&amp;#x306F;, 123]&quot;
+                    + &quot;&lt;/method01Return&gt;&quot;
+                    + &quot;    &lt;/ns1:method01Response&gt;&quot; + &quot;  &lt;/soapenv:Body&gt;&quot;
+                    + &quot;&lt;/soapenv:Envelope&gt;&quot;;
+            writer.write(result);
+        } finally {
+            // ReaderもWriterもクローズしません。flushも呼び出してはなりません。(2005.03.13に判明)
+        }
+    }
+
+    /**
+     * デフォルトとなるレスポンスヘッダーの付与
+     * 
+     * @param response
+     *            レスポンスオブジェクトを与えます。
+     */
+    private void setResponseDefault(final HttpServletResponse response) {
+        response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
+        response.addHeader(&quot;Content-Type&quot;, &quot;text/xml&quot;);
+        response.addHeader(&quot;charset&quot;, ENCODING);
+        response.addHeader(&quot;Cache-Control&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Pragma&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Expires&quot;, &quot;0&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>電文をシュミレートするために、うそSOAPクライアントの活用は有益です。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpCaller.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * うそSOAPサーブレット構築計画
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.commons.httpclient.methods.PostMethod;
+
+public class HttpCaller {
+    private static final int COUNT = 100;
+
+    private static void callMethod(boolean isSysout) {
+        HttpClient client = new HttpClient();
+        client.getHostConfiguration().setHost(&quot;localhost&quot;, 8080, &quot;http&quot;);
+
+        //PostMethod method = new PostMethod(&quot;/examples/KantanHelloServlet&quot;);
+        PostMethod method = new PostMethod(&quot;/axis/WsTest01.jws&quot;);
+
+        String request = &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;&quot;
+                + &quot;&lt;soapenv:Envelope xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot;&quot;
+                + &quot; xmlns:xsd=\&quot;http://www.w3.org/2001/XMLSchema\&quot;&quot;
+                + &quot; xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot;&gt;&quot;
+                + &quot;  &lt;soapenv:Body&gt;&quot;
+                + &quot;    &lt;ns1:method01 soapenv:encodingStyle=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot;&quot;
+                + &quot; xmlns:ns1=\&quot;http://DefaultNamespace\&quot;&gt;&quot;
+                + &quot;      &lt;arg1 xsi:type=\&quot;xsd:string\&quot;&gt;&amp;#x3053;&amp;#x3093;&amp;#x306B;&amp;#x3061;&amp;#x306F;&lt;/arg1&gt;&quot;
+                + &quot;      &lt;arg2 href=\&quot;#id0\&quot;/&gt;&quot;
+                + &quot;    &lt;/ns1:method01&gt;&quot;
+                + &quot;    &lt;multiRef id=\&quot;id0\&quot; soapenc:root=\&quot;0\&quot;&quot;
+                + &quot; soapenv:encodingStyle=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot;&quot;
+                + &quot; xsi:type=\&quot;xsd:int\&quot;&quot;
+                + &quot; xmlns:soapenc=\&quot;http://schemas.xmlsoap.org/soap/encoding/\&quot;&gt;123&lt;/multiRef&gt;&quot;
+                + &quot;  &lt;/soapenv:Body&gt;&quot; + &quot;&lt;/soapenv:Envelope&gt;&quot;;
+        byte[] requestBytes = null;
+        try {
+            requestBytes = request.getBytes(&quot;UTF-8&quot;);
+        } catch (UnsupportedEncodingException e1) {
+            // TODO 自動生成された catch ブロック
+            e1.printStackTrace();
+        }
+        method.addRequestHeader(&quot;content-type&quot;, &quot;text/xml; charset=utf-8&quot;);
+        method
+                .addRequestHeader(&quot;accept&quot;,
+                        &quot;application/soap+xml, application/dime, multipart/related, text/*&quot;);
+        method.addRequestHeader(&quot;user-agent&quot;, &quot;Usoap/1.2.1&quot;);
+        method.addRequestHeader(&quot;host&quot;, &quot;localhost:8080&quot;);
+        method.addRequestHeader(&quot;cache-control&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;pragma&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;soapaction&quot;, &quot;&quot;);
+        method.addRequestHeader(&quot;content-length&quot;, String
+                .valueOf(requestBytes.length));
+
+        method.setRequestBody(new ByteArrayInputStream(requestBytes));
+        try {
+            client.executeMethod(method);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(
+                    method.getResponseBodyAsStream()));
+            for (;;) {
+                String readLine = reader.readLine();
+                if (readLine == null) {
+                    break;
+                }
+                System.out.println(readLine);
+            }
+            reader.close();
+        } catch (HttpException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        method.releaseConnection();
+    }
+
+    public static void main(String[] args) {
+        callMethod(true);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※Jakarta Commons HttpClient 2.0.2で動作確認を取りました。</BLOCKQUOTE>
+<P>とりあえず文字列エンコードがもっとも くせがありそうです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050801.html">2005/08/01 日記: Java: Apache Axis: クラスの配列を送受信したい → WSDLからWebサービスを作成</A>
+  <LI><A href="../2003/ig030225.html">2003/02/25 日記: うそSOAP</A>
+  <LI><A href="ig050803.html">2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>エンコーディングなどを調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>文字列エンコードが納得いかないので、WSDLを少し変更してみつつあります。</P>
+<UL>
+  <LI>参考リソース: Web Services Description Language (WSDL) Version 2.0 Part 1: Core
+  Language<BR>
+  <A HREF="http://www.w3.org/TR/2005/WD-wsdl20-20050510/">http://www.w3.org/TR/2005/WD-wsdl20-20050510/</A>
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">WsTest01.jws.wsdl 改造版</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsdl:definitions targetNamespace=&quot;http://localhost:8080/axis/WsTest01.jws&quot; 
+ xmlns:impl=&quot;http://localhost:8080/axis/WsTest01.jws&quot; 
+ xmlns:intf=&quot;http://localhost:8080/axis/WsTest01.jws&quot;
+ xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot;
+ xmlns:wsdlsoap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot;
+ xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+&lt;!--WSDLはApache Axis version: 1.2.1 が生成したものを少し改良しました。--&gt;
+   &lt;wsdl:message name=&quot;method01Request&quot;&gt;
+      &lt;wsdl:part name=&quot;arg1&quot; type=&quot;xsd:string&quot;/&gt;
+      &lt;wsdl:part name=&quot;arg2&quot; type=&quot;xsd:int&quot;/&gt;
+   &lt;/wsdl:message&gt;
+   &lt;wsdl:message name=&quot;method01Response&quot;&gt;
+      &lt;wsdl:part name=&quot;method01Return&quot; type=&quot;xsd:string&quot;/&gt;
+   &lt;/wsdl:message&gt;
+   &lt;wsdl:portType name=&quot;WsTest01&quot;&gt;
+      &lt;wsdl:operation name=&quot;method01&quot; parameterOrder=&quot;arg1 arg2&quot;&gt;
+         &lt;wsdl:input message=&quot;impl:method01Request&quot; name=&quot;method01Request&quot;/&gt;
+         &lt;wsdl:output message=&quot;impl:method01Response&quot; name=&quot;method01Response&quot;/&gt;
+      &lt;/wsdl:operation&gt;
+   &lt;/wsdl:portType&gt;
+   &lt;wsdl:binding name=&quot;WsTest01SoapBinding&quot; type=&quot;impl:WsTest01&quot;&gt;
+      &lt;wsdlsoap:binding style=&quot;rpc&quot; transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/&gt;
+      &lt;wsdl:operation name=&quot;method01&quot;&gt;
+         &lt;wsdlsoap:operation soapAction=&quot;&quot;/&gt;
+         &lt;wsdl:input name=&quot;method01Request&quot;&gt;
+            &lt;wsdlsoap:body namespace=&quot;http://DefaultNamespace&quot;/&gt;
+         &lt;/wsdl:input&gt;
+         &lt;wsdl:output name=&quot;method01Response&quot;&gt;
+            &lt;wsdlsoap:body namespace=&quot;http://localhost:8080/axis/WsTest01.jws&quot;/&gt;
+         &lt;/wsdl:output&gt;
+      &lt;/wsdl:operation&gt;
+   &lt;/wsdl:binding&gt;
+   &lt;wsdl:service name=&quot;WsTest01Service&quot;&gt;
+      &lt;wsdl:port binding=&quot;impl:WsTest01SoapBinding&quot; name=&quot;WsTest01&quot;&gt;
+         &lt;wsdlsoap:address location=&quot;http://localhost:8080/axis/WsTest01.jws&quot;/&gt;
+      &lt;/wsdl:port&gt;
+   &lt;/wsdl:service&gt;
+&lt;/wsdl:definitions&gt;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>登り電文の例</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">登り電文の例</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>H:content-type=text/xml; charset=utf-8
+H:accept=application/soap+xml, application/dime, multipart/related, text/*
+H:user-agent=Axis/1.2.1
+H:host=localhost:8080
+H:cache-control=no-cache
+H:pragma=no-cache
+H:soapaction=&quot;&quot;
+H:content-length=401
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;soapenv:Envelope
+ xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;
+ xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;
+ xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+  &lt;soapenv:Body&gt;
+    &lt;method01 xmlns=&quot;http://DefaultNamespace&quot;&gt;
+      &lt;arg1 xmlns=&quot;&quot;&gt;&amp;#x3053;&amp;#x3093;&amp;#x306B;&amp;#x3061;&amp;#x306F;&lt;/arg1&gt;
+      &lt;arg2 xmlns=&quot;&quot;&gt;123&lt;/arg2&gt;
+    &lt;/method01&gt;
+  &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>うそSOAPサーバ・サーブレットも改良します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">UsoapServlet.java v2</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * うそSOAPサーブレット構築計画
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * うそSOAPサーブレット ソースコード
+ * 
+ * @author iga
+ * @version 2005.08.02
+ */
+public class UsoapServlet extends HttpServlet {
+
+    /**
+     * &lt;code&gt;ENCODING&lt;/code&gt; HTMLで扱う文字コードを与えます。
+     */
+    public static final String ENCODING = &quot;UTF-8&quot;;
+
+    /**
+     * Java Servletのエントリポイントです。
+     * 
+     * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
+     *      javax.servlet.http.HttpServletResponse)
+     */
+    public final void service(final HttpServletRequest request,
+            final HttpServletResponse response) throws ServletException,
+            IOException {
+
+        BufferedReader reader = null;
+        PrintWriter writer = null;
+        setResponseDefault(response);
+
+        try {
+            reader = request.getReader();
+            writer = response.getWriter();
+
+            for (Enumeration enum = request.getHeaderNames(); enum
+                    .hasMoreElements();) {
+                String key = (String) enum.nextElement();
+                System.out.println(&quot;H:&quot; + key + &quot;=&quot; + request.getHeader(key)
+                        + &quot;&quot;);
+            }
+
+            for (;;) {
+                String line = reader.readLine();
+                if (line == null) {
+                    break;
+                }
+                System.out.println(&quot;REQ:&quot; + line);
+            }
+            String result = &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;&quot;
+                    + &quot;&lt;soapenv:Envelope xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot;&quot;
+                    + &quot; xmlns:xsd=\&quot;http://www.w3.org/2001/XMLSchema\&quot;&quot;
+                    + &quot; xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot;&gt;&quot;
+                    + &quot;  &lt;soapenv:Body&gt;&quot;
+                    + &quot;    &lt;ns1:method01Response&quot;
+                    + &quot;     xmlns:ns1=\&quot;http://DefaultNamespace\&quot;&gt;&quot;
+                    + &quot;      &lt;method01Return xsi:type=\&quot;xsd:string\&quot;&gt;こんにちはSOAP&lt;/method01Return&gt;&quot;
+                    + &quot;    &lt;/ns1:method01Response&gt;&quot; + &quot;  &lt;/soapenv:Body&gt;&quot;
+                    + &quot;&lt;/soapenv:Envelope&gt;&quot;;
+            writer.write(result);
+        } finally {
+            // ReaderもWriterもクローズしません。flushも呼び出してはなりません。(2005.03.13に判明)
+        }
+    }
+
+    /**
+     * デフォルトとなるレスポンスヘッダーの付与
+     * 
+     * @param response
+     *            レスポンスオブジェクトを与えます。
+     */
+    private void setResponseDefault(final HttpServletResponse response) {
+        response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
+        response.addHeader(&quot;Content-Type&quot;, &quot;text/xml&quot;);
+        response.addHeader(&quot;charset&quot;, ENCODING);
+        response.addHeader(&quot;Cache-Control&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Pragma&quot;, &quot;no-cache&quot;);
+        response.addHeader(&quot;Expires&quot;, &quot;0&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>これに呼応する形で、うそSOAPクライアントも変更します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpCaller.java 改造版</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * うそSOAPサーブレット構築計画
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.commons.httpclient.methods.PostMethod;
+
+public class HttpCaller {
+    private static final int COUNT = 100;
+
+    private static void callMethod(boolean isSysout) {
+        HttpClient client = new HttpClient();
+        client.getHostConfiguration().setHost(&quot;localhost&quot;, 8080, &quot;http&quot;);
+
+        //PostMethod method = new PostMethod(&quot;/examples/KantanHelloServlet&quot;);
+        PostMethod method = new PostMethod(&quot;/axis/WsTest01.jws&quot;);
+
+        String request = &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;&quot;
+                + &quot;&lt;soapenv:Envelope&quot;
+                + &quot; xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot;&quot;
+                + &quot; xmlns:xsd=\&quot;http://www.w3.org/2001/XMLSchema\&quot;&quot;
+                + &quot; xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot;&gt;&quot;
+                + &quot;  &lt;soapenv:Body&gt;&quot;
+                + &quot;    &lt;method01 xmlns=\&quot;http://DefaultNamespace\&quot;&gt;&quot;
+                + &quot;      &lt;arg1 xmlns=\&quot;\&quot;&gt;こんにちは&lt;/arg1&gt;&quot;
+                + &quot;      &lt;arg2 xmlns=\&quot;\&quot;&gt;123&lt;/arg2&gt;&quot; + &quot;    &lt;/method01&gt;&quot;
+                + &quot;  &lt;/soapenv:Body&gt;&quot; + &quot;&lt;/soapenv:Envelope&gt;&quot;;
+        byte[] requestBytes = null;
+        try {
+            requestBytes = request.getBytes(&quot;UTF-8&quot;);
+        } catch (UnsupportedEncodingException e1) {
+            // TODO 自動生成された catch ブロック
+            e1.printStackTrace();
+        }
+        method.addRequestHeader(&quot;content-type&quot;, &quot;text/xml; charset=utf-8&quot;);
+        method
+                .addRequestHeader(&quot;accept&quot;,
+                        &quot;application/soap+xml, application/dime, multipart/related, text/*&quot;);
+        method.addRequestHeader(&quot;user-agent&quot;, &quot;Usoap/1.2.1&quot;);
+        method.addRequestHeader(&quot;host&quot;, &quot;localhost:8080&quot;);
+        method.addRequestHeader(&quot;cache-control&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;pragma&quot;, &quot;no-cache&quot;);
+        method.addRequestHeader(&quot;soapaction&quot;, &quot;&quot;);
+        method.addRequestHeader(&quot;content-length&quot;, String
+                .valueOf(requestBytes.length));
+
+        method.setRequestBody(new ByteArrayInputStream(requestBytes));
+        try {
+            client.executeMethod(method);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(
+                    method.getResponseBodyAsStream()));
+            for (;;) {
+                String readLine = reader.readLine();
+                if (readLine == null) {
+                    break;
+                }
+                System.out.println(readLine);
+            }
+            reader.close();
+        } catch (HttpException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        method.releaseConnection();
+    }
+
+    public static void main(String[] args) {
+        callMethod(true);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>とりあえず、文字列エンコーディングは 利用しないように変更することができました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050811.html">2005/08/11 日記: うそSOAP その3 → SAX2ベースによるSOAPキャプチャおよびその再生</A>
+  <LI><A href="ig050810.html">2005/08/10 日記: うそSOAP その2</A>
+  <LI><A href="ig050803.html">2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Visual Studio .NETでOracle DB開発 - オラクルがツールを無償提供 (MYCOM PC WEB)<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2005/08/01/003.html">http://pcweb.mycom.co.jp/news/2005/08/01/003.html</A><BR>
+  このリリースは .NET上でのOracle開発に大きなインパクトを与えるように感じました。「自動コード生成」、「PL/SQLエディタ」あたりが特に印象に残ります。
+  <LI>MYCOM: 住商情報システムと住商エレクトロニクスが合併<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2005/08/01/005.html">http://pcweb.mycom.co.jp/news/2005/08/01/005.html</A><BR>
+  業務的に私にとってインパクトのあるニュースであるように感じられました。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/03/15 日記: シンプルなダウンロードサーブレットの雛形 , Jakarta POIのExcel書き出しの挙動不安定に苦しめられる</TITLE>
+<META name="DESCRIPTION" content="シンプルな ダウンロードJava Servletの雛形を作りました , Jakarta POI の現行バージョンでは Excel書きだしの挙動が微妙なようです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,download,servlet,java">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/03/15 日記: シンプルなダウンロードサーブレットの雛形 , Jakarta POIのExcel書き出しの挙動不安定に苦しめられる</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,download,servlet,java] シンプルな ダウンロードJava Servletの雛形を作りました , Jakarta POI の現行バージョンでは Excel書きだしの挙動が微妙なようです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルなダウンロードサーブレットの雛形</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とってもシンプルなダウンロードサーブレットの雛形を作成しました。これをメモしておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleDownloadServlet.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * すごく単純な Java Servletによるダウンロード
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * すごく簡単な Java Servletによるダウンロード &lt;br&gt;
+ * 参考: http://www.ietf.org/rfc/rfc2616.txt
+ * 
+ * @author t.iga
+ * @version 2005.03.04
+ */
+public class SimpleDownloadServlet extends HttpServlet {
+        public static final String HOME_DIRECTORY = &quot;C:\\&quot;;
+
+        /**
+         * &lt;code&gt;ENCODING&lt;/code&gt; HTMLで扱う文字コードを与えます。
+         */
+        public static final String ENCODING = &quot;ISO-2022-JP&quot;;
+
+        /**
+         * HTMLのタイトル
+         */
+        public static final String HTML_TITLE = &quot;ダウンロード中...&quot;;
+
+        /**
+         * Java Servletのエントリポイントです。
+         * 
+         * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
+         *      javax.servlet.http.HttpServletResponse)
+         */
+        public final void service(final HttpServletRequest request,
+                        final HttpServletResponse response) throws ServletException,
+                        IOException {
+
+                // JavaServletにおいて、responseから取得したwriter, outStreamはクローズしません。
+                PrintWriter writer = null;
+                OutputStream outStream = null;
+
+                String filename = request.getParameter(&quot;filename&quot;);
+                File fileCheck = new File(HOME_DIRECTORY + filename);
+
+                if (filename == null) {
+                        setResponseHeader(response, &quot;noname.html&quot;, -1);
+                        writer = response.getWriter();
+                        writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;'filename'パラメータ指定を行ってください.&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                } else if (fileCheck.exists() == false) {
+                        setResponseHeader(response, &quot;notfound.html&quot;, -1);
+                        writer = response.getWriter();
+                        writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;指定のファイル[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]が見つかりません&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                } else if (fileCheck.isDirectory()) {
+                        setResponseHeader(response, &quot;notfound.html&quot;, -1);
+                        writer = response.getWriter();
+                        writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;ディレクトリ[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]が指定されていますが、このプログラムはファイルしかダウンロードできません.&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                } else if (fileCheck.canRead() == false) {
+                        setResponseHeader(response, &quot;notfound.html&quot;, -1);
+                        writer = response.getWriter();
+                        writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;指定のファイル[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]は読み込みできません&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                } else {
+                        setResponseHeader(response, filename, (int) fileCheck.length());
+
+                        // バッファリング無しで出力ストリームを取得します.
+                        outStream = response.getOutputStream();
+
+                        InputStream inStream = null;
+                        try {
+                                inStream = new BufferedInputStream(new FileInputStream(
+                                                fileCheck));
+                                byte[] byteBuf = new byte[8192];
+                                for (;;) {
+                                        int iRead = inStream.read(byteBuf, 0, byteBuf.length);
+                                        if (iRead &lt; 0) {
+                                                break;
+                                        }
+                                        outStream.write(byteBuf, 0, iRead);
+                                }
+                        } finally {
+                                if (inStream != null) {
+                                        inStream.close();
+                                }
+                        }
+                }
+        }
+
+        /**
+         * 基本的なレスポンスヘッダー情報を付与します。
+         * 
+         * @param response
+         *            レスポンスオブジェクトを与えます。
+         * @param filename
+         *            ファイル名
+         * @param fileLength
+         *            ファイルの長さ
+         */
+        private void setResponseHeader(final HttpServletResponse response,
+                        String filename, final int fileLength) {
+                if (filename.endsWith(&quot;.pdf&quot;)) {
+                        // ブラウザに PDFと認識させます。
+                        response.setContentType(&quot;application/pdf&quot;);
+                } else if (filename.endsWith(&quot;.xls&quot;)) {
+                        // Excelと認識させます。
+                        response.setContentType(&quot;application/vnd.ms-excel&quot;);
+                } else if (filename.endsWith(&quot;.xml&quot;)) {
+                        // XMLと認識させます。
+                        response.setContentType(&quot;text/xml&quot;);
+                } else if (filename.endsWith(&quot;.html&quot;)) {
+                        // htmlと認識させます。
+                        response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
+                        response.addHeader(&quot;charset&quot;, ENCODING);
+                } else if (filename.endsWith(&quot;.txt&quot;)) {
+                        // テキストと認識させます。
+                        response.setContentType(&quot;text/plain&quot;);
+                        response.addHeader(&quot;charset&quot;, ENCODING);
+                } else {
+                        // それ以外の場合はバイナリストリームとして送出します。
+                        response.setContentType(&quot;application/octet-stream&quot;);
+                }
+
+                // TODO 試験的に埋め込み
+                filename = filename.replaceAll(&quot;/&quot;, &quot;&quot;);
+                response.addHeader(&quot;Content-Disposition &quot;, &quot;attachment; filename=\&quot;&quot;
+                                + filename + &quot;\&quot;&quot;);
+                System.out.println(&quot;ファイル名[&quot; + filename + &quot;]&quot;);
+
+                // Accept-Rangesとしてnoneを表明する。
+                // AdobeReader 7.0は これが無いと正常に動作しない。
+                response.addHeader(&quot;Accept-Ranges&quot;, &quot;none&quot;);
+
+                if (fileLength &gt; 0) {
+                        // コンテンツの長さをセットします。
+                        response.setContentLength(fileLength);
+                }
+
+                // キャッシュを無効化します。
+                response.addHeader(&quot;Cache-Control&quot;, &quot;no-cache&quot;);
+                response.addHeader(&quot;Pragma&quot;, &quot;no-cache&quot;);
+                response.addHeader(&quot;Expires&quot;, &quot;0&quot;);
+        }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2004/ig040317.html">2004/03/17 日記: Java Servletのシンプル雛形ソースコードの探求</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) のExcel書き出しの挙動に苦しめられる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> の現行バージョン (2.5.1) では Excel書きだしの挙動が微妙であることが 改めて良く分かりました。Excelシートに画像が貼り付いたものをいろいろ処理するのですが、処理している間に
+Excelでは開くことが出来ないファイルが出来上がってしまう場合がありました (T_T)<BR>
+Excelファイル形式の気持ちになって、画像データをクリップボードに一旦ため込んで Excelを再起動して 張り付けて、などを行ってうまくやると、Jakarta
+POIによる変更処理後でも Excelで開くことが出来る xlsデータファイルが作成可能な、そんな不思議な挙動に直面しました。Excelのファイルフォーマットって不思議な感じがあるようで、セルとか罫線とかも、ひとつのスタイルを複写してセルに貼り付けているような作りになっていて、POIを使うひとは
+その都合に合わせた利用手順に乗らないとまずいようです。特に画像データは 元ネタ＋リンクの形式であるようなので、操作している過程で へんなことになるようです。…私の
+Jakarta POIを扱うスキルに問題がある可能性も 多分に ありますけれどもね。</P>
+<P>とりあえず今後は、<A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> SDK の APIに突っ走っていく予定です。OpenOffice.org
+SDK の APIは とっつきがサイアクなのですが、まあ ちゃんと呼び出しさへすればちゃんと動くので、これはちょっと気合いを入れて OpenOffice.org
+SDK と真っ向勝負してみたいです。、、、まあ、時間があればの話ですが…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

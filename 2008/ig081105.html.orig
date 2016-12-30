@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/11/05 日記: ログメッセージ定義書からロギング・ソースコードを自動生成する blancoLogMessage を新規作成</TITLE>
+<META name="DESCRIPTION" content="ログメッセージ定義書という Excel ブックから、ロギング・ソースコードを自動生成する blancoLogMessage というプロダクトを新規作成しました。">
+<META name="KEYWORDS" content="blancoLogMessage,ログメッセージ,定義書,自動生成">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/11/05 日記: ログメッセージ定義書からロギング・ソースコードを自動生成する blancoLogMessage を新規作成</H2>
+    <P>[blancoLogMessage,ログメッセージ,定義書,自動生成] ログメッセージ定義書という Excel ブックから、ロギング・ソースコードを自動生成する blancoLogMessage というプロダクトを新規作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ログメッセージ定義書からロギング・ソースコードを自動生成する blancoLogMessage を新規作成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のロギング関連プロジェクトとして、ログメッセージ定義書という Excel ブックから、ロギング・ソースコードを自動生成する
+<A HREF="http://www.igapyon.jp/blanco/blancologmessage.html" TITLE="「ログ・メッセージ定義書」という Excelブックから、ロギングをおこなうためのソースコードを自動生成します。">blancoLogMessage</A> というプロダクトを新規作成しました。<BR>
+かねてよりロギング周りを Excel ブックから生成する実装の必要性／重要性を痛感していました。このプロダクトがロギングにまつわるプログラミングの劇的な改善をもたらすことを期待します。<BR>※現在、仕様の調整中のフェーズで、開発版と位置づけます。ここ数日中にフィードバックを頂ければ、仕様に反映させることができる可能性があります。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancologmessage.html" TITLE="「ログ・メッセージ定義書」という Excelブックから、ロギングをおこなうためのソースコードを自動生成します。">blancoLogMessage</A>
+</UL>
+<P>blancoLogMessgae を利用すると、以下のような Excel ブックの記載から ロギングのためのソースコードを自動生成することができます。</P>
+
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081105blancoLogMessage001.png" border="0"></BLOCKQUOTE>
+<UL>
+  <LI>例によって、実行時には ランタイム・ライブラリは不要です。
+  <LI>ログレベルやメッセージが Excel ブックに集約しており、ログにまつわる全体像を容易に俯瞰できる点が非常に魅力的です。
+</UL>
+  <P>自動生成されたソースコードは、以下のような記述によって利用することができます。</P>
+
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>利用例 その1</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>        new Sample2LogMessage().logMessage002(&quot;置換文字列&quot;);</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<UL>
+  <LI>Excel ブックの キー名称にしたがって、対応するメソッド名が生成されます。
+  <LI>Excel ブックの メッセージ文字列から、必要に応じて対応する置換文字列のための引数が生成されます。
+</UL>
+  <BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>利用例 その2</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>        new Sample2LogMessage().logMessage001(new IllegalArgumentException(&quot;例外の例&quot;));</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<UL>
+  <LI>加えて、スロー可能なオブジェクトを渡すことができるメソッドが自動生成されます。
+</UL>
+<P>実際に生成されるソースコードは、以下のようになります。</P>
+<UL>
+  <LI>現実的には、規模の大きいプロジェクトにおいては自動生成するソースコードはカスタマイズする必要が出てくる可能性が高いものと考えます。(生成後のソースコードは変更してはなりません。自動生成のプログラムを変更するのです)
+  <UL>
+    <LI>例: log4j のコードを生成へとにカスタマイズ。
+    <LI>例: ロギング・オブジェクトのインスタンスをフィールド変数で保持。
+  </UL>
+  <LI>これとは別に、国際化対応のためのクラスが別途 1 つ自動生成されます。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>Sample2LogMessage.java</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>/*
+ * このソースコードは blanco Frameworkによって自動生成されています。
+ */
+package blanco.sample.logmessage;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ * ログメッセージのサンプル。このクラスは単にサンプルです。実際の動作には利用されません。
+ */
+public class Sample2LogMessage {
+    /**
+     * ログメッセージをプロパティファイル対応させるための内部的に利用するリソースバンドルクラス。
+     */
+    protected final Sample2LogMessageResourceBundle fBundle = new Sample2LogMessageResourceBundle();
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[FATAL]、キー[MESSAGE001]の文字列をロギングします。
+     *
+     * No.1:
+     * 文字列[メッセージのサンプル。その１。]
+     */
+    public void logMessage001() {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.SEVERE, &quot;[MESSAGE001] fatal: &quot; + fBundle.getMessage001());
+    }
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[FATAL]、キー[MESSAGE001]の文字列をロギングします。
+     *
+     * No.1:
+     * 文字列[メッセージのサンプル。その１。]
+     *
+     * @param argThrown 例外。
+     */
+    public void logMessage001(final Throwable argThrown) {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.SEVERE, &quot;[MESSAGE001] fatal: &quot; + fBundle.getMessage001(), argThrown);
+    }
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[ERROR]、キー[MESSAGE002]の文字列をロギングします。
+     *
+     * No.2:
+     * 文字列[メッセージ置換文字[{0}]が置換されます。]
+     *
+     * @param arg0 置換文字列{0}の値。
+     */
+    public void logMessage002(final String arg0) {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.SEVERE, &quot;[MESSAGE002] &quot; + fBundle.getMessage002(arg0));
+    }
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[ERROR]、キー[MESSAGE002]の文字列をロギングします。
+     *
+     * No.2:
+     * 文字列[メッセージ置換文字[{0}]が置換されます。]
+     *
+     * @param arg0 置換文字列{0}の値。
+     * @param argThrown 例外。
+     */
+    public void logMessage002(final String arg0, final Throwable argThrown) {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.SEVERE, &quot;[MESSAGE002] &quot; + fBundle.getMessage002(arg0), argThrown);
+    }
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[WARN]、キー[MESSAGE003]の文字列をロギングします。
+     *
+     * No.3:
+     * 文字列[メッセージ置換文字[{0}]に加え、もうひとつ[{1}]が置換されます。]
+     *
+     * @param arg0 置換文字列{0}の値。
+     * @param arg1 置換文字列{1}の値。
+     */
+    public void logMessage003(final String arg0, final String arg1) {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.WARNING, &quot;[MESSAGE003] &quot; + fBundle.getMessage003(arg0, arg1));
+    }
+
+    /**
+     * ログメッセージ定義ID[Sample2]、レベル[WARN]、キー[MESSAGE003]の文字列をロギングします。
+     *
+     * No.3:
+     * 文字列[メッセージ置換文字[{0}]に加え、もうひとつ[{1}]が置換されます。]
+     *
+     * @param arg0 置換文字列{0}の値。
+     * @param arg1 置換文字列{1}の値。
+     * @param argThrown 例外。
+     */
+    public void logMessage003(final String arg0, final String arg1, final Throwable argThrown) {
+        Logger.getLogger(&quot;blanco.sample.logmessage&quot;).log(Level.WARNING, &quot;[MESSAGE003] &quot; + fBundle.getMessage003(arg0, arg1), argThrown);
+    }
+
+…以下略…</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ちなみに、以下の Web記事のおかげで、ずっとペンディングしていた blancoLogMessage 開発に着手することができました。<BR>
+※とはいえ、blancoLogMessage が、これらの Web記事・Web日記に記載されている課題を解決できるかどうかは別の問題です。(私の感覚的には、これらは同じ課題ものなのですけれども…)</P>
+<UL>
+  <LI>オレンジニュース: 2008-10-31: 適切なオーバーロードが存在しないjava.util.logging<BR>
+  <A HREF="http://secure.ddo.jp/~kaku/tdiary/20081031.html#p04">http://secure.ddo.jp/~kaku/tdiary/20081031.html#p04</A>
+  <LI>川口耕介の日記: 2008/10/30: [jdk] java.util.loggingはもちょっとなんとかならんのか<BR>
+  <A HREF="http://d.hatena.ne.jp/kkawa/20081030/p1">http://d.hatena.ne.jp/kkawa/20081030/p1</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

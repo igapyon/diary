@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011128.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011128.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-28</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/22/infomagic.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/28/palm.html"/>
+        <rdf:li resource="http://www.nhk.or.jp/news/2001/11/23/grri840000008d68.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/22/b_1121_02.html"/>
+        <rdf:li resource="http://japan.internet.com/linuxtoday/20011124/1.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/22/e_java.html"/>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/11/26/631566-000.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/22/infomagic.html">
+    <title>Millenium G550に廉価パッケージ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/22/infomagic.html</link>
+    <description>Matroxファンとして G550の価格帯は興味津々</description>
+    <dc:date>2001-11-28T07:54:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/28/palm.html">
+    <title>m100が4900円！パーム，期間限定“大出血”値下げ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/28/palm.html</link>
+    <description>げげっ。めちゃくちゃ安いですね。思わず買ってしまいそうな値段 (苦笑)</description>
+    <dc:date>2001-11-28T23:24:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2001/11/23/grri840000008d68.html">
+    <title>ブロードバンドの苦情増える</title>
+    <link>http://www.nhk.or.jp/news/2001/11/23/grri840000008d68.html</link>
+    <description>具体的に どの会社のサービスレベルが低いのか教えてくれないと 普通の方々は困りますよねっ (苦笑)</description>
+    <dc:date>2001-11-28T07:54:25</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/22/b_1121_02.html">
+    <title>zdnet: Mozilla 0.9.6がリリース</title>
+    <link>http://www.zdnet.co.jp/news/0111/22/b_1121_02.html</link>
+    <description>ここにMozilla 0.9.6情報</description>
+    <dc:date>2001-11-28T07:54:25</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20011124/1.html">
+    <title>linuxtoday: Mozilla 0.9.6 がリリース</title>
+    <link>http://japan.internet.com/linuxtoday/20011124/1.html</link>
+    <description>ふっふっふ。1.0.xが いよいよ近づいてきましたねっ。</description>
+    <dc:date>2001-11-28T23:24:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/22/e_java.html">
+    <title>日本で気勢を上げるJava陣営</title>
+    <link>http://www.zdnet.co.jp/news/0111/22/e_java.html</link>
+    <description>意外なところで日本リード?</description>
+    <dc:date>2001-11-28T23:24:16</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/11/26/631566-000.html">
+    <title>カーネル2.4.15リリース 2.5系が枝分かれ!</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/11/26/631566-000.html</link>
+    <description>さて、2.4.xが『安定』するのはいつなのでしょう (苦笑)</description>
+    <dc:date>2001-11-28T23:24:16</dc:date>
+  </item>
+
+</rdf:RDF>

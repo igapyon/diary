@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011111.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011111.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-11</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://db.ascii24.com/db/review/soft/wordproc/2001/11/08/631055-000.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fsecurity/column/sec_hole01/sec01.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fsecurity/rensai/fw06/fw01.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/09/mlb.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/10/b_1109_05.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/09/ntt-me.html"/>
+        <rdf:li resource="http://www.netlaputa.ne.jp/~ayu/labo/win32/timeb/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://db.ascii24.com/db/review/soft/wordproc/2001/11/08/631055-000.html">
+    <title>マルチプラットフォームに対応した純国産のJava製オフィスアプリ群 『Just Arks』</title>
+    <link>http://db.ascii24.com/db/review/soft/wordproc/2001/11/08/631055-000.html</link>
+    <description>一太郎Ark初代は購入したのですが…。もちろん最新版にも興味だけはあります。ただ財布の中身が寂しいからなぁ (苦笑)</description>
+    <dc:date>2001-11-11T18:48:26</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/column/sec_hole01/sec01.html">
+    <title>セキュリティホールはなぜできる？</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/column/sec_hole01/sec01.html</link>
+    <description>工場制手工業は良い表現だなぁ。</description>
+    <dc:date>2001-11-11T18:48:26</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/fw06/fw01.html">
+    <title>最終回　ファイアウォール運用のコツ</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/fw06/fw01.html</link>
+    <description>ファイアウォール製品を箇条書き紹介が嬉しかったです。</description>
+    <dc:date>2001-11-11T18:48:26</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/09/mlb.html">
+    <title>CD-ROMだけで動作するLinux「Live Linux」最新版</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/09/mlb.html</link>
+    <description>Kernel 2.2ベース。とりあえずCDだけでそのままブート実行できるのは ものすごく面白そうです。</description>
+    <dc:date>2001-11-11T18:12:58</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/10/b_1109_05.html">
+    <title>IEに新たな欠陥。カード番号漏洩の恐れ</title>
+    <link>http://www.zdnet.co.jp/news/0111/10/b_1109_05.html</link>
+    <description>IE 5.5, 6.0に そのような不具合があるのだそうです。</description>
+    <dc:date>2001-11-11T18:12:58</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/09/ntt-me.html">
+    <title>NTT-ME「MNシリーズ」がPS2に対応</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/09/ntt-me.html</link>
+    <description>MNシリーズは愛用していますので、ちょっと気になりました (笑)</description>
+    <dc:date>2001-11-11T18:12:58</dc:date>
+  </item>
+  <item rdf:about="http://www.netlaputa.ne.jp/~ayu/labo/win32/timeb/">
+    <title>インターネット時間合わせ たいむぼっか～ん 4.10 リリース</title>
+    <link>http://www.netlaputa.ne.jp/~ayu/labo/win32/timeb/</link>
+    <description>私が愛用している パソコン内蔵時計をNTPを使って修正するソフト 『たいむぼっか～ん』の最新版がリリースされていました。Windows XP/2000/NT系サービスに対応している上に無料ソフトである点が特徴です。</description>
+    <dc:date>2001-11-11T18:12:58</dc:date>
+  </item>
+</rdf:RDF>

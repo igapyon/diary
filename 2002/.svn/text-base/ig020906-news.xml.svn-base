@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020906.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020906.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.roxio.co.jp/products/ecdc5/index.html">
+    <title>Easy CD Creator 5 Platinum Ver 5.3.1 アップデートプログラム リリース</title>
+    <link>http://www.roxio.co.jp/products/ecdc5/index.html</link>
+    <description>DVD+R DVD+RWへの対応などが追加されているようです。また CDコピーのツールもDVD対応などが更新されているようです。結構大事なアップデートであるように思えました。(でも私はDVD関連装置を何も持っていないのであった…)</description>
+    <dc:date>2002-09-06T23:15:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0209/03/nw_01.html">
+    <title>.Net Serverの「目玉」になるIIS 6.0［1］</title>
+    <link>http://www.zdnet.co.jp/enterprise/0209/03/nw_01.html</link>
+    <description>OSカーネル部にHTTP処理が移ったのだそうです。すごく嫌だなぁ。ワーカープロセス分離は 良い方向性だとは思います。</description>
+    <dc:date>2002-09-06T08:42:28</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/09/04/638374-000.html">
+    <title>NTTデータ イントラマート、『Eclipse』プラグインの開発ツールをリリース</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/09/04/638374-000.html</link>
+    <description>『Eclipse』が キーテクノロジーと成長しつつあるようにも思います。これは要注意だなぁ。</description>
+    <dc:date>2002-09-06T23:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/06/nebt_17.html">
+    <title>Roxio、Windows Media Player 9にCD作成機能を提供</title>
+    <link>http://www.zdnet.co.jp/news/0209/06/nebt_17.html</link>
+    <description>ぎょぎょ Media PlayerのCD作成機能は Roxio製だったのですか。知りませんでした。</description>
+    <dc:date>2002-09-06T23:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/05/njbt_07.html">
+    <title>今年上半期のプリンタ市場はまたマイナス</title>
+    <link>http://www.zdnet.co.jp/news/0209/05/njbt_07.html</link>
+    <description>シェアNo.1はエプソンだったんですね。知りませんでした。(キャノンかと思っていました)</description>
+    <dc:date>2002-09-06T08:42:28</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf/CID/onair/biztech/comp/205257">
+    <title>OASIS、「ebXML Messaging Service」のバージョン2承認</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf/CID/onair/biztech/comp/205257</link>
+    <description>ebXML関連も いろいろ頑張っている模様ですね。</description>
+    <dc:date>2002-09-06T23:41:33</dc:date>
+  </item>
+
+  <item rdf:about="http://jcqhc.or.jp/">
+    <title>病院の評価をネット公表</title>
+    <link>http://jcqhc.or.jp/</link>
+    <description>病院情報もオープン化されていくのでしょうか？ とりあえず今見たところではたいしたことは検索されませんでした。</description>
+    <dc:date>2002-09-06T08:42:28</dc:date>
+  </item>
+
+</rdf:RDF>

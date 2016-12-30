@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/06/02 日記: Eclipse 3.4 (Ganymede) 日本語化言語パック (サードパーティ版) 翻訳進捗</TITLE>
+<META name="DESCRIPTION" content="MergeDoc -> Pleiades および blanco Framework -> blancoNLpackGenerator を中心に進めている Eclipse 3.4 (Ganymede) 翻訳作業進捗をメモしておきます。">
+<META name="KEYWORDS" content="Eclipse,Ganymede,翻訳,言語パック">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/06/02 日記: Eclipse 3.4 (Ganymede) 日本語化言語パック (サードパーティ版) 翻訳進捗</H2>
+    <P>[Eclipse,Ganymede,翻訳,言語パック] MergeDoc -> Pleiades および blanco Framework -> blancoNLpackGenerator を中心に進めている Eclipse 3.4 (Ganymede) 翻訳作業進捗をメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.4 (Ganymede) 日本語化言語パック (サードパーティ版) 翻訳進捗</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A>
+による <A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse 日本語化言語パック (サードパーティ版)</A> の現時点での翻訳進捗をメモしておきます。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#cfffcf">※この翻訳進捗は <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> および Eclipse Babel 日本語ロケールの翻訳進捗とも深い関連があります。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+
+<P><FONT color="#ff00ff">Eclipse Classic (SDK) Ganymede 進捗</FONT></P>
+
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00" align="center"><STRONG>日付</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>Eclipse Classic (SDK)</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>翻訳率</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>hit</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>all</STRONG></TD>
+    </TR>
+    <TR>
+      <TD>2008-09-05</TD>
+      <TD>NLpackja-eclipse-SDK-3.4-blancofw20080905</TD>
+      <TD align="right">93.51%</TD>
+      <TD align="right">-</TD>
+      <TD align="right">-</TD>
+    </TR>
+    <TR>
+      <TD>2008-07-14</TD>
+      <TD>NLpackja-eclipse-SDK-3.4-blancofw20080714</TD>
+      <TD align="right">91.46%</TD>
+      <TD align="right">26802</TD>
+      <TD align="right">29304</TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#cfffcf">2008-06-26</TD>
+      <TD>NLpackja-eclipse-SDK-3.4-blancofw20080626</TD>
+      <TD align="right">90.27%</TD>
+      <TD align="right">26472</TD>
+      <TD align="right">29325</TD>
+    </TR>
+    <TR>
+      <TD>2008-06-23</TD>
+      <TD>NLpackja-eclipse-SDK-3.4RC4-blancofw20080623</TD>
+      <TD align="right">89.39%</TD>
+      <TD align="right">26223</TD>
+      <TD align="right">29333</TD>
+    </TR>
+    <TR>
+      <TD>2008-06-02</TD>
+      <TD>NLpackja-eclipse-SDK-3.4RC3-win32-blancofw20080602</TD>
+      <TD align="right">86.78%</TD>
+      <TD align="right">25264</TD>
+      <TD align="right">29110</TD>
+    </TR>
+    <TR>
+      <TD>2008-05-22</TD>
+      <TD>NLpackja-eclipse-SDK-3.4RC1-win32-blancofw20080522</TD>
+      <TD align="right">86.33%</TD>
+      <TD align="right">25147</TD>
+      <TD align="right">29126</TD>
+    </TR>
+    <TR>
+      <TD>2008-05-09</TD>
+      <TD>NLpackja-eclipse-SDK-3.4M7-win32-blancofw20080509</TD>
+      <TD align="right">82.88%</TD>
+      <TD align="right">24773</TD>
+      <TD align="right">29890</TD>
+    </TR>
+    <TR>
+      <TD>2008-04-26</TD>
+      <TD>NLpackja-eclipse-SDK-3.4M6a-win32-blancofw20080426</TD>
+      <TD align="right">82.75%</TD>
+      <TD align="right">24899</TD>
+      <TD align="right">30086</TD>
+    </TR>
+    <TR>
+      <TD>2008-04-12</TD>
+      <TD>NLpackja-eclipse-SDK-3.4M6-win32-blancofw20080412</TD>
+      <TD align="right">83.38%</TD>
+      <TD align="right">24481</TD>
+      <TD align="right">29358</TD>
+    </TR>
+    <TR>
+      <TD>2008-03-17</TD>
+      <TD>NLpackja-eclipse-SDK-3.4M5-win32-blancofw20080317</TD>
+      <TD align="right">88.93%</TD>
+      <TD align="right">23858</TD>
+      <TD align="right">26826</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<UL>
+  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> 側の進捗とあわせて、少しずつ進捗しています。
+  <LI>3個訳して 0.01% の進捗…。ふう。
+  <LI>Eclipse Classic (SDK) の翻訳をおこなうと Eclipse Java EE などの進捗率にも一定の効果があらわれます。
+  <LI>2008-06-30 時点での目標水準である 90.00% は無事達成することが出来ました。
+</UL>
+<P><FONT color="#ff00ff">Eclipse Java EE Ganymede 進捗</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00" align="center"><STRONG>日付</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>Eclipse Ganymede Java EE</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>翻訳率</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>hit</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>all</STRONG></TD>
+    </TR>
+    <TR>
+      <TD>2008-09-05</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-blancofw20080905</TD>
+      <TD align="right">91.33%</TD>
+      <TD align="right">-</TD>
+      <TD align="right">-</TD>
+    </TR>
+    <TR>
+      <TD>2008-07-14</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-blancofw20080714</TD>
+      <TD align="right">86.24%</TD>
+      <TD align="right">54657</TD>
+      <TD align="right">63376</TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#cfffcf">2008-06-26</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-blancofw20080626</TD>
+      <TD align="right">82.63%</TD>
+      <TD align="right">53237</TD>
+      <TD align="right">64428</TD>
+    </TR>
+    <TR>
+      <TD>2008-06-04</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-RC2-win32-blancofw20080604</TD>
+      <TD align="right">
+      81.28%</TD>
+      <TD align="right">52295</TD>
+      <TD align="right">64333</TD>
+    </TR>
+    <TR>
+      <TD>2008-05-30</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-RC1-win32-blancofw20080530</TD>
+      <TD align="right">80.97%</TD>
+      <TD align="right">51979</TD>
+      <TD align="right">64192</TD>
+    </TR>
+    <TR>
+      <TD>2008-05-17</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-M7-win32-blancofw20080517</TD>
+      <TD align="right">78.31%</TD>
+      <TD align="right">51351</TD>
+      <TD align="right">65574</TD>
+    </TR>
+    <TR>
+      <TD>2008-03-17</TD>
+      <TD>NLpackja-eclipse-jee-ganymede-M5-win32-blancofw20080317</TD>
+      <TD align="right">83.39%</TD>
+      <TD align="right">48671</TD>
+      <TD align="right">58360</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<UL>
+  <LI>6.5個訳して 0.01% の進捗…。ふう。
+  <LI><FONT color="#ff0000">2008.07.02追記</FONT>
+  <UL>
+    <LI>2008-07-31 時点での目標水準を 86.50% とすると…。55691。2098個。1日100キー?
+    <LI>2008-08-31 時点での目標水準を 90.00% とすると…。57944。2253個。1日112キー?
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">関連</FONT> Eclipse 3.3 の翻訳率推移のメモ。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00" align="center"><STRONG>日付</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>Eclipse Classic (SDK)</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>翻訳率</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>hit</STRONG></TD>
+      <TD bgcolor="#ffff00" align="center"><STRONG>all</STRONG></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#cfffcf">2008-09-05</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-blancofw20080905</TD>
+      <TD align="right">96.47%</TD>
+      <TD align="right">-</TD>
+      <TD align="right">-</TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#cfffcf">2008-06-26</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-blancofw20080626</TD>
+      <TD align="right">94.86%</TD>
+      <TD align="right">25575</TD>
+      <TD align="right">26959</TD>
+    </TR>
+    <TR>
+      <TD>2008-05-12</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-win32-blancofw20080512</TD>
+      <TD align="right">91.37%</TD>
+      <TD align="right">24956</TD>
+      <TD align="right">27311</TD>
+    </TR>
+    <TR>
+      <TD>2008-04-25</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-win32-blancofw20080425</TD>
+      <TD align="right">91.34%</TD>
+      <TD align="right">24948</TD>
+      <TD align="right">27311</TD>
+    </TR>
+    <TR>
+      <TD>2008-04-19</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-win32-blancofw20080419</TD>
+      <TD align="right">91.34%</TD>
+      <TD align="right">24963</TD>
+      <TD align="right">27328</TD>
+    </TR>
+    <TR>
+      <TD>2008-04-12</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-win32-blancofw20080412</TD>
+      <TD align="right">92.48%</TD>
+      <TD align="right">24749</TD>
+      <TD align="right">26760</TD>
+    </TR>
+    <TR>
+      <TD>2008-03-17</TD>
+      <TD>NLpackja-eclipse-SDK-3.3.2-win32-blancofw20080317</TD>
+      <TD align="right">92.16%</TD>
+      <TD align="right">24656</TD>
+      <TD align="right">26752</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">表の見方</FONT></P>
+<P><FONT color="#ff0000">2008.07.02更新</FONT></P>
+<UL>
+  <LI>プログラム改善などで対象キー数が増えたりする現象や 翻訳内容の見直し作業をおこなっていた期間が含まれるなどがあり、翻訳率だけ見ると不思議な推移となる場合があります。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig081016.html">2008/10/16 日記: Eclipse 3.4.1/3.3.2 日本語化言語パック (サードパーティ版) 正式版公開</A>
+  <LI><A href="ig080522.html">2008/05/22 日記: Eclipse Classic (SDK) 3.4 RC1 リリース , 翻訳ブレインを購入</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

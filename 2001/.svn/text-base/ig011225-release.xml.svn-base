@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011225.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011225.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-25</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/avalon/">
+    <title>Jakarta Avalon Framework 4.1.1 リリース</title>
+    <link>http://jakarta.apache.org/avalon/</link>
+    <description>忙しすぎて全くフォローできておりません (苦笑)</description>
+    <dc:date>2001-12-25T16:22:43</dc:date>
+  </item>
+
+</rdf:RDF>

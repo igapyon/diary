@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030614.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030614.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-14</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030611/2/">
+    <title>【JavaOne2003速報】サンが「J2EE」新版の提供を再延期，早くて10月に</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030611/2/</link>
+    <description>当初 『2002年後半』だったのが２回延期で 2003/10以降に変わったのだそうです。だんだん規模が大きくなってきて小回りが効きにくくなってきているのでしょうか？</description>
+    <dc:date>2003-06-15T10:32:03</dc:date>
+  </item>
+
+</rdf:RDF>

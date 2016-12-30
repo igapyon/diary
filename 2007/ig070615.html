@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/06/15 日記: blancoDbRuby - Ruby版 R/Oマッピング の検討開始</TITLE>
+<META name="DESCRIPTION" content="先日、天野さんから 直々に XP (エクストリームプログラミング) ／ アジャイル を学ぶという半日コースの講習会に参加しました。 , blancoDbRuby の検討に着手しました。">
+<META name="KEYWORDS" content="blancoDbRuby,ruby,R/O,マッピング,blancofw">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/06/15 日記: blancoDbRuby - Ruby版 R/Oマッピング の検討開始</H2>
+    <P>[blancoDbRuby,ruby,R/O,マッピング,blancofw] 先日、天野さんから 直々に XP (エクストリームプログラミング) ／ アジャイル を学ぶという半日コースの講習会に参加しました。 , blancoDbRuby の検討に着手しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XP (エクストリーム プログラミング) ／ アジャイル 講習会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日、天野さんから 直々に XP (エクストリームプログラミング) ／ アジャイル を学ぶという半日コースの講習会に参加しました。</P>
+<P>XP (エクストリームプログラミング) の様々なプラクティスを 改めて学びました。それまでの私のXP／アジャイル知識は かなり限定的なものだったのです。今回の講習会を経て、XP／アジャイルに
+大変 興味を持ちました。今までは活用できていなかった幾つかのプラクティスについて、ぜひ今後の仕事に活用したいと思いました。今回の講習会受講は、とにかく非常に有意義でした。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbRuby - Ruby版 R/Oマッピング の検討開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日の Developers' Lounge に続き、天野さんによる XP講習会 に参加して、私は どんどん Ruby という用語で思考が染まってきてしまいました。更に、とどめをさすように、いろんな所で
+Ruby のエンタープライズ対応に向けた話題まで聞き及んでいます。</P>
+<P>私がエンタープライズ／基幹系という用語を聞いて 真っ先に気になるのは SQL / データベース入出力です。SQL／データベースこそが リレーショナルデータベース中心のエンタープライズシステムにおける心臓部なのです。私は ActiveRecordでは エンタープライズでの利用において困る場面があるだろうと予想しているのです。</P>
+<P>Ruby + SQL + データベース の組み合わせ + 私に貢献できること (つまりは<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>で実現できること)
+といえば、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>ツール <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> の Ruby 版の新規提供になるでしょうね。blancoDb
+の Ruby 版 → blancoDbRuby 、、、名前は決まってしまいました。名前が決まり、その語感しっくりくれば、実装は もはやできあがったも同然ですね(笑)。ということで、blancoDbRuby
+の検討に着手しました。</P>
+<P><FONT color="#ff00ff">blancoDbRuby 基本仕様</FONT></P>
+<UL>
+  <LI>Ruby用 <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>ツール。<BR>
+  SQLを中心とした リレーショナル・オブジェクト・マッピングです。
+  <LI>Excelブックに記述されたSQLを入力として、Rubyソースコードを自動生成<BR>
+  SQLインジェクション・セキュリティホールの発生を防止できます。
+  <LI>ソースコード自動生成タイプ<BR>
+  実行時に特別なランタイムは必要ありません。
+  <LI>Ruby/DBI ベース<BR>
+  第一バージョンでは DBIベースのソースコード自動生成を実現。第二バージョン以降で必要に応じて ネイティブ系APIソースコード自動生成も検討可能。
+  <LI>ソースコード自動生成には Javaランタイムが必要。<BR>
+  もちろん自動生成されたソースコードの実行に Javaランタイムは不要です。
+</UL>
+<P>blancoDbRuby が提供されれば、エンタープライズ系の SQL中心開発が Rubyでも簡単に実装できるようになります。<BR>
+、、、そんなニーズがあるのかどうかは 私は全く不案内なのですけれども…。</P>
+<P>まずは仕様検討および仕様策定に着手してみようと思います。仕様が決まれば、blancoDbPhp (PDOベース) をスタートラインとして実装が進むものと想像しています。</P>
+<P><FONT color="#ff00ff">参考リソース</FONT></P>
+<UL>
+  <LI>[ThinkIT] 第2回：Rubyを使ったエンタープライズ・インテグレーション<BR>
+  <A HREF="http://www.thinkit.co.jp/free/article/0606/8/2/">http://www.thinkit.co.jp/free/article/0606/8/2/</A><BR>
+  Ruby/DBIに関する記載などが載っていました。
+</UL>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>OpenOfficeベースのオフィスデータ変換システム - JODConverter 2.2.0登場<BR>
+  <A HREF="http://journal.mycom.co.jp/news/2007/06/07/009/index.html">http://journal.mycom.co.jp/news/2007/06/07/009/index.html</A><BR>
+  JOOConverterは JODConverterへと名称変更したとのことです。<A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A> が実現する仕様範囲と
+  なんだか似ているように思いました。
+  <LI>Windows 98/Meのサポート切れ懸念: 松戸市、学校導入済みPC1000台をKNOPPIXで再生<BR>
+  <A HREF="http://www.atmarkit.co.jp/news/200706/06/matsudo.html">http://www.atmarkit.co.jp/news/200706/06/matsudo.html</A><BR>
+  Windows 98/Meサポート切れは やっかいな問題なのですね…。
+  <LI>セキュアOSのオープンソースGUIツール「SELinux Policy Editor」，開発元の日立ソフトが有償サポート開始へ <BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/NEWS/20070522/271849/">http://itpro.nikkeibp.co.jp/article/NEWS/20070522/271849/</A><BR>
+  企業によるOSSサポートの例として 興味を感じました。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

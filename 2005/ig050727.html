@@ -1,0 +1,496 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/27 日記: リッチクライアント時代のフレームワークのあるべき姿とは？ を考察中…</TITLE>
+<META name="DESCRIPTION" content="リッチクライアント時代のフレームワークって、何なんだろう、というのをゼロベースで考察中です。、、、私が考えると、どうしても汎用機的な実装を連想してしまいがちなのですけれどもね…。 , Apache Axisを久しぶりに調べました。ちょっとしたサンプルを書いて動作確認を取りました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,リッチクライアント,フレームワーク,Axis">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/27 日記: リッチクライアント時代のフレームワークのあるべき姿とは？ を考察中…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,リッチクライアント,フレームワーク,Axis] リッチクライアント時代のフレームワークって、何なんだろう、というのをゼロベースで考察中です。、、、私が考えると、どうしても汎用機的な実装を連想してしまいがちなのですけれどもね…。 , Apache Axisを久しぶりに調べました。ちょっとしたサンプルを書いて動作確認を取りました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>リッチクライアント時代のフレームワークとは何なのだろう、というのをゼロベースで考察中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>リッチクライアント時代のフレームワークとは何なのでしょうね。ゼロベースで考察中です。ゼロベースに加えて、つれづれ考察中です。<BR>
+# いろいろ前提知識はあるのですが、敢えてゼロベースで考察しているのです。その点は重要なポイントです。</P>
+<P><FONT color="#ff00ff">通信</FONT></P>
+<P>リッチクライアントの通信を考える上で、すぐに連想するのは従来型のクライアント／サーバ型システムです。しかし 少なくとも 従来型のクライアント／サーバ型システムで良く行われていた、データベース・ミドルウェアによる通信をベースとしたシステムとは根本的に異なるアプローチを取る必要があるのでしょうね。いろいろな理由はあるのですが、データベースミドルウェアを使うと、クライアント側に設定が必要になりがちだったり、ソケットのポートを開かないといけなかったりしますから。では
+データベース／ミドルウェアを使わないとすると、何かミドルウェアを作るか使うかすることになる必要が出てくることでしょう。イマドキだから HTTPベースで実装しないと
+いろいろな問題が噴出しそうなことは これは確かです。というのも、大きな企業においては、HTTPしか通過できないネットワーク上の制約がある場合が多いからです。ということで、HTTP
+(またはHTTPS) による通信は MUST であるようですね。</P>
+<P>安直に考えたら、HTTPベースというと Webサービスというテクノロジが もっとも最初に思いつく通信ミドルウェアです。Webサービスの一般的な実装においては
+型チェックや名称のコンパイル時チェックができる点も魅力です。これにより、単体バグが結合バグへと誤流入するのを防いでくれます。Webサービスの一般的な実装が
+少し CPUを食い過ぎる例が多い、というのを我慢したら、Webサービスはもっとも安定感を感じる 魅力的な通信方法です。</P>
+<P>そうではなくって もっと ずっと大げさに考えると、汎用機で提供されているような端末プロトコルと似た機能を実現する通信ミドルウェアを作り込むのが、最適解であるように考えられます。(負荷がかかりすぎない範囲で、という条件付きで)
+常に通信を行い、端末の動作状況を常にサーバ上で監視します。むろん、端末からのポスト時には伝送を行います。端末の動作状況確認に合わせて、メッセージを載せるなどのプッシュ型の機能の実装の余地が出来るのは嬉しいです。このように一般的な汎用機的な端末制御を行うことができるような通信を実装すれば、汎用機であたりまえのことが
+オープン系でも実現できます。サーバ上でクライアントの各種管理は当然行うことが出来るようになります。とにかく汎用機的な通信を実装すると、完全な端末管理が可能であったり、あるいはプッシュを実現できるというのは大きな魅力です。</P>
+<P>何にせよ要件次第なのでしょうけれども、あまりWeb的な発想にとらわれることなく、(しかし古典をひもといて汎用機的な発想も行いながら) ベストな通信手段を考えることが肝要なのでしょう。</P>
+<P><FONT color="#ff00ff">端末 (クライアント)</FONT></P>
+<P>とりあえずクライアント側は 汎用機時代の実装とは異なり インテリジェントな仕組みとして実装するのでしょう。(むろんサーバから画面を送出するというのもおもしろいアイデアには違いないのですけれども…)
+Visual Basicとかの良いところは、サーバ無しで単に動作可能であるところなのでしょう。</P>
+<P><A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんと話していて気づかされたのですが、中途半端なフレームワーク化は 開発生産性の障害となることが多いようです。クライアントは
+純にクライアントとして単体で動作するよう気をつけて、あまりフレームワークで押さえない、というのもひとつである一方、やるならやるで、そこいら中をフレームワークでカバーするというのも良い模様です。徹底的ではない中途半端なモジュール化が、もっとも開発生産性を阻害するようです。(作ることが不可能な画面が
+たやすく登場してしまいがちになる模様)<BR>
+Java + SWTベースで例えると、Eclipse Visual Editor が十分に成熟したら 基本路線として Visual Editor
+で開発してツナギのところだけ何か共通部品を呼び出す、というのも選択肢の一つであるもようです。一方で、こってこてに作り込みまくって、Visual
+Editorが実現する領域と同等な画面設計ツールを提供してしまうのも作戦上は ありえる選択肢である模様です。<BR>
+…ちなみに 最新版の Eclipse Visual Editor 1.1 の<STRONG><FONT color="#ff00ff">威力</FONT></STRONG>がどの程度のものなのかは私には不明です。Eclipse Visual Editor が Visual Basicと同等の操作性・生産性を提供してくれるものであれば、世間動向に大きなインパクトを与えそうです。…ああ、横道にそれています
+(苦笑)</P>
+<P><FONT color="#ff00ff">そもそもフレームワークって何なんだろう… (苦笑)</FONT></P>
+<P>ゼロベースで考えていると、じゃあ、そもそもフレームワークって何なんだろう、という根源的なところに疑問を感じだしました。<BR>
+ふむ、考察はいったん中断。</P>
+<P>…昼飯を食べた後、考察を再開。</P>
+<P><FONT color="#ff00ff">端末 (クライアント) その2</FONT></P>
+<P>端末側に業務系の場合に必要な項目バリデーション処理として、下記のようなものがあります。(ゼロベースで思いつきで書いている点に注意！)</P>
+<UL>
+  <LI>必須入力項目のバリデーション処理
+  <LI>フォーマット指定付き項目のバリデーション処理
+  <UL>
+    <LI>数値、半角文字、全角文字、日付、MAX、MIN、正規表現 など
+  </UL>
+  <LI>単項目に対するバリデーション処理（データベース入出力処理を伴わないもの）
+  <UL>
+    <LI>業務っぽい入力チェック処理
+  </UL>
+  <LI>複数項目処理に対する組み合わせチェック処理（データベース入出力処理を伴わないもの）
+  <UL>
+    <LI>業務っぽい入力チェック処理
+  </UL>
+  <LI>それ以上の、データベース入出力処理を伴う、ばりばりのバリデーション処理
+</UL>
+<P>これらを、サーバで処理するのか、クライアントで処理するのか、あるいは両方で処理しなくてはならないのか… 奥が深いです。両方Javaだったら、同じクラスが両方で動作すると、すごくクレバーっぽいです。さて、こういったチェックについてどこまでが自動化(ノンプログラミング化)可能なのかも悩ましい(興味深い)ところです。</P>
+<P>次に入力支援機能について つれづれに考えてみました。</P>
+<UL>
+  <LI>かな漢字変換機能の ON/OFF
+  <LI>ファンクションキー、ENTERキー、矢印キーによる入力操作支援
+  <LI>必須入力項目のハイライト表示。カレント項目のハイライト表示。エラー項目のハイライト表示。
+  <LI>エラー時にカレント項目をエラー項目にコントロール。
+</UL>
+<UL>
+  <LI>コードを途中まで入力した際に動作する入力補完機能
+  <LI>コードが不明な際にポップアップでコードを入力する入力便利機能
+</UL>
+<P>気になるのは、ここに書いたような内容の大部分について、単純に開発環境の力を使って ばしばし設定していったら良いのか、あるいは別途 Excelや
+XMLなどを利用して表形式で管理すべきなのか、という点が気になります。最適解がどれなのか、難しすぎて即答できません。</P>
+<P><FONT color="#ff00ff">通信 その2</FONT></P>
+<P>認証とセッションの仕組みも、リッチクライアントでは考えなくてはなりません。通信そのものは httpsで盗聴をガードしたとしても、それに加えて
+ユーザID+乱数をMD5化して返送して、これを認証トークンとして扱う、などの仕組みの作り込みが欲しいようにも思えます。認証トークンを作り込むと、今度はそれをクリアする処理も併せて作り込まないといけないのが、あたまのいたいところです。
+(これは一般的な方法だと 私は思っています)</P>
+<P>あるユーザが どのメニューを起動できる、あるいは どのサーバ処理を起動できる、という実行権限まわりについて、クライアント・サーバともにチェックを行わないといけないのかどうかについても、興味深いところです。ちゃんとクラックを防止するには、両方チェックが必須なのでしょうね…</P>
+<P>なんとなくありそうな電文イメージ</P>
+<UL>
+  <LI>リクエスト
+  <UL>
+    <LI>共通ヘッダ
+    <UL>
+      <LI>
+    ユーザID
+      <LI>認証トークン
+      <LI>時刻(?)
+    </UL>
+    <LI>データそのもの
+  </UL>
+  <LI>レスポンス
+  <UL>
+    <LI>共通ヘッダ
+    <UL>
+      <LI>正常・異常
+      <LI>メッセージ(?)
+      <LI>時刻(?)
+    </UL>
+    <LI>データそのもの
+  </UL>
+</UL>
+<P>こうやって考えていくと、Webサービスだけでは いろいろ不足していて、加えて作り込みを実施する必要がある雰囲気ですね。(最近の Webサービス動向は追い切れておりません。)
+通信の信頼性(接続エラーの際の再接続とか…)とかはどうなっているのかも、把握していません。加えて Apache AXIS最新動向も追っておかないといけないような雰囲気がしてきましたです。</P>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Axis の現状</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いまどきの Axisの状況が知りたくなったので Axisのページを見ました。</P>
+<UL>
+  <LI>Apache: WebServices - Axis<BR>
+  <A HREF="http://ws.apache.org/axis/">http://ws.apache.org/axis/</A><BR>
+  1.2.1 最終版がリリース済み
+  <LI>WebServices - Axis 日本語訳<BR>
+  <A HREF="http://ws.apache.org/axis/ja/index.html">http://ws.apache.org/axis/ja/index.html</A>
+</UL>
+<P>…私が知らないうちに 1.2正式版がリリースされた上に、加えて 1.2.1までリリースされていました (苦笑)<BR>
+日本語訳サイトがあったのは嬉しかったです。</P>
+<P>動作させるには、下記の手順を行いました。(Tomcat 4.1 + Axis 1.2)</P>
+<UL>
+  <LI>解凍して得られる webapps\axis を C:\Program Files\Apache Group\Tomcat 4.1\webapps
+  にコピー
+  <LI>jaxrpc.jar と saaj.jar を C:\Program Files\Apache Group\Tomcat 4.1\common\lib
+  にコピー
+  <LI>JavaBeans Activation Framework (JAF) の activation.jar を C:\Program Files\Apache
+  Group\Tomcat 4.1\common\lib にコピー<BR>
+  <A HREF="http://java.sun.com/products/javabeans/glasgow/jaf.html">http://java.sun.com/products/javabeans/glasgow/jaf.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Axis の簡単動作確認サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とりあえず動作確認を取ってみました。</P>
+<UL>
+  <LI>Apache Axis 1.2.1
+  <LI>Sun Java SE 5
+  <LI>Jakarta Tomcat 4.1
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">KantanHello.jws</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class KantanHello {
+    public String hello(String arg) {
+        return &quot;こんにちは[&quot; + arg + &quot;]&quot;;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+このファイルを C:\Program Files\Apache Group\Tomcat 4.1\webapps\axis にコピーします。</BLOCKQUOTE>
+<P>http://localhost:8080/axis/KantanHello.jws?wsdl に接続して得られた WSDLをファイルに保存します。ファイル名は
+KantanHello.wsdl としました。<BR>
+※他にもっとクレバーな方法はあるかと思います。</P>
+<P>WSDL2Javaを実行して Javaソースコードを生成します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -classpath axis.jar;commons-logging-1.0.4.jar;commons-discovery-0.2.jar;jaxrpc.jar;saaj.jar;wsdl4j-1.5.1.jar
+      org.apache.axis.wsdl.WSDL2Java -t -s KantanHello.wsdl</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>生成後のソースコードをサンプルソースコードから呼び出すようにして実行します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">TestCaller.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import localhost.axis.KantanHello_jws.KantanHello;
+import localhost.axis.KantanHello_jws.KantanHelloServiceLocator;
+
+public class TestCaller {
+    private static final int COUNT = 500;
+
+    private static void callMethod(boolean isSysout) throws ServiceException,
+            RemoteException {
+        KantanHello hello = new KantanHelloServiceLocator().getKantanHello();
+        String result = hello.hello(&quot;疎通試験&quot;);
+        if (isSysout) {
+            System.out.println(result);
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            long start = System.currentTimeMillis();
+            callMethod(true);
+            long end = System.currentTimeMillis();
+            System.out.println(&quot;初回呼出の所用時間:&quot; + (end - start) + &quot;ミリ秒&quot;);
+
+            start = System.currentTimeMillis();
+            for (int index = 0; index &lt; COUNT; index++) {
+                callMethod(false);
+            }
+            end = System.currentTimeMillis();
+            System.out.println(&quot;&quot; + COUNT + &quot;件処理するための所用時間:&quot; + (end - start)
+                    + &quot;ミリ秒&quot;);
+            System.out.println(&quot;1件あたり:&quot; + (end - start) / COUNT + &quot;ミリ秒&quot;);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>実行に必要なライブラリ
+<UL>
+  <LI>axis.jar
+  <LI>commons-discovery-0.2.jar
+  <LI>commons-logging-1.0.4.jar
+  <LI>jaxrpc.jar
+  <LI>saaj.jar
+  <LI>wsdl4j-1.5.1.jar
+</UL>
+</BLOCKQUOTE>
+<BLOCKQUOTE>実行のサンプル・コマンドライン
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -classpath bin;lib/axis.jar;lib/jaxrpc.jar;lib/commons-logging-1.0.4.jar;lib/commons-discovery-0.2.jar;lib/saaj.jar;lib/wsdl4j-1.5.1.jar TestCaller</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>Intel PentiumM 1.10GHz マシンでローカル接続動作させた際の参考値を下記に示します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">初回呼出の処理時間</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
+    </TR>
+    <TR>
+      <TD align="right">1</TD>
+      <TD align="center">1121ミリ秒</TD>
+      <TD align="center">30ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">10</TD>
+      <TD align="center">1212ミリ秒</TD>
+      <TD align="center">24ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">100</TD>
+      <TD align="center">1202ミリ秒</TD>
+      <TD align="center">39ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">1000</TD>
+      <TD align="center">1162ミリ秒</TD>
+      <TD align="center">19ミリ秒</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>初回のオーバーヘッドがかなり大きいのですが、次回以降は 少なめになるようです。(本当の初回にはコンパイルが行われるので、もっと時間がかかります)<BR>
+とりあえず ローカルホストであれば、SOAPのオーバーヘッドは Axis 1.2では 当初私が予想していたほどは大きくはない模様です。1件あたり
+30ミリ秒前後程度であれば、処理時間という観点だけでいえば なんとかぎりぎり許容できる場面もあることでしょう。(ローカル接続とはいえ TCP/IP+HTTPで接続を行っているのですから、ある程度のフットプリントは
+やむを得ないようにも思えます) むろん、過負荷環境下での動作や メモリ消費量など、まだまだ調査しなくてはならない観点はありそうですけれどもね…</P>
+<P>SOAとかいうキーワードが流行っているので、Axisを マジメに学んでおいた方が良いように感じる今日この頃…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SOAP呼び出しの高速化</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふと、SOAPのソケットをKeep Aliveの話題を思い出し、それじゃあということで、オブジェクトを使い回す版を作成して再度計測してみました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">TestCaller.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import localhost.axis.KantanHello_jws.KantanHello;
+import localhost.axis.KantanHello_jws.KantanHelloServiceLocator;
+
+public class TestCaller {
+    private static final int COUNT = 1000;
+
+    private static void callMethod(boolean isSysout) throws ServiceException,
+            RemoteException {
+        KantanHello hello = new KantanHelloServiceLocator().getKantanHello();
+        String result = hello.hello(&quot;疎通試験&quot;);
+        if (isSysout) {
+            System.out.println(result);
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            long start = System.currentTimeMillis();
+            callMethod(true);
+            long end = System.currentTimeMillis();
+            System.out.println(&quot;初回呼出の所用時間:&quot; + (end - start) + &quot;ミリ秒&quot;);
+
+            start = System.currentTimeMillis();
+            KantanHello hello = new KantanHelloServiceLocator()
+                    .getKantanHello();
+            for (int index = 0; index &lt; COUNT; index++) {
+                String result = hello.hello(&quot;疎通試験&quot;);
+            }
+            end = System.currentTimeMillis();
+            System.out.println(&quot;&quot; + COUNT + &quot;件処理するための所用時間:&quot; + (end - start)
+                    + &quot;ミリ秒&quot;);
+            System.out.println(&quot;1件あたり:&quot; + (end - start) / COUNT + &quot;ミリ秒&quot;);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>これが 予想通り、高速化につながることがわかりました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TH bgcolor="#ffff00">呼出回数</TH>
+      <TH bgcolor="#ffff00">1件あたり処理時間</TH>
+    </TR>
+    <TR>
+      <TD align="right">1</TD>
+      <TD align="center">30ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">10</TD>
+      <TD align="center">19ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">100</TD>
+      <TD align="center">16ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD align="right">1000</TD>
+      <TD align="center">11ミリ秒</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>これは、「サンプルのためのサンプル」ではないと私は考えます。Webサービスをうまく設計すれば、速度向上につながりうるのです。「Webサービスを利用する場合の効果的な物理設計指針」につながる結果であると判断しています。Webサービスを
+何か業務領域などの単位によって ファサード化して提供することによって、Webサービス呼び出しの速度向上につながるのだ、という強いメッセージが
+この試験結果から感じ取られます。</P>
+<P>ここまでくると、あと直感的に実施していなくて具合が悪いと感じられるものに、RMIとSOAPとの速度比較があります。EJBとの速度比較も意義があることでしょうが、私は
+EJBに疎いので、こちらはパスするでしょう…。重要な点は「SOAPは本当に遅い(重い)のか？」というところを 実証して検証していくことに価値がありそうなのです。</P>
+<P><FONT color="#ff0000">2005.07.28追記</FONT> 後日談。Java RMIに比べて、SOAPは<STRONG>桁違いに遅い</STRONG>ということが分かりました。一方で Java Servletという仕組みである上でのオーバーヘッドの存在も見逃せないことが分かりました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050728.html">2005/07/28 日記: Java RMI 体験。RMIは速かった…</A>
+  <LI><A href="ig050801.html">2005/08/01 日記: Java: Apache Axis: クラスの配列を転送したい → WSDLからWebサービスを作成</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Curl開発環境のオンラインヘルプの機能に驚きました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Curl開発環境のオンラインヘルプの機能に驚きました。<BR>
+ヘルプ画面上で プログラムを書いて、それをオンラインヘルプ上で実行できるのですから これはびっくりです。、、、文字だけではうまく表現できませんね
+(苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Curlとイントラマートとの連動を調査中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Curlとイントラマートとの連動について これを調査中…。</P>
+<UL>
+  <LI>情報・通信・ＩＴ　(0200) [One Topic All View / 最新のＷｅｂ開発環境で業務提携<BR>
+  <A href="http://www.vxc.jp/cbbs/cbbs.cgi?mode=al2&namber=315&rev=&no=2&KLOG=14">http://www.vxc.jp/cbbs/cbbs.cgi?mode=al2&amp;namber=315&amp;rev=&amp;no=2&amp;KLOG=14</A><BR>
+  http, https, SOAP接続で連動を実現しているようです。
+  <LI>CURL関連情報リンク集<BR>
+  <A HREF="http://www.hyuki.com/yukiwiki/wiki.cgi?CURL%B4%D8%CF%A2%BE%F0%CA%F3%A5%EA%A5%F3%A5%AF%BD%B8">http://www.hyuki.com/yukiwiki/wiki.cgi?CURL%B4%D8%CF%A2%BE%F0%CA%F3%A5%EA%A5%F3%A5%AF%BD%B8</A>
+  <LI>NTTデータ イントラマートとカール・アジアパシフィックは最新のWeb開発環境で業務提携しました 2004年9月30日<BR>
+  <A HREF="http://www.scs.co.jp/news/10new/20040930.htm">http://www.scs.co.jp/news/10new/20040930.htm</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>IT Pro: 「M1000」用アプリ開発ツール，ソア・システムズが発売へ<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/NCC/NEWS/20050722/165141/">http://itpro.nikkeibp.co.jp/free/NCC/NEWS/20050722/165141/</A><BR>
+  ものすごく以前、身近な方々がル・クローンを用いてシステム開発を行っていました。その記憶があって、このニュースがとても気になりました。また、記事中にあるように、実行時エージェントという形態は
+  ケータイやPDAなどのマルチプラットフォーム対応のために 実は非常に有利な選択肢であるような気もしてきました。このニュースは結構奥が深く味わい深かったです。業務アプリの場合に、このような観点は持っておきたい、と思いました。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

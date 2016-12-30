@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031031.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031031.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-31</dc:date>
+  </channel>
+
+  <item rdf:about="http://slashdot.jp/article.pl?sid=03/10/30/127224&amp;topic=89">
+    <title>オープンソースイベント2つ in 関西</title>
+    <link>http://slashdot.jp/article.pl?sid=03/10/30/127224&amp;topic=89</link>
+    <description>時間をねつ造して、ちょこっとのぞいてきました。</description>
+    <dc:date>2003-10-31T09:04:39</dc:date>
+  </item>
+
+  <item rdf:about="http://moneykit.net/">
+    <title>MONEYKit</title>
+    <link>http://moneykit.net/</link>
+    <description>Flashアプリケーションの利便性を説明するときに良く利用される SONY銀行のフロントエンドページ。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://www.geocities.co.jp/SiliconValley-SanJose/7599/pc-8001/">
+    <title>PC-8001エミュレータ</title>
+    <link>http://www.geocities.co.jp/SiliconValley-SanJose/7599/pc-8001/</link>
+    <description>私はPC-8001世代なので こういうのが微妙にハートをヒットします。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/dbsec03/dbsec01.html">
+    <title>第3回 Oracleデータベース導入時のセキュリティ対策の基本</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/dbsec03/dbsec01.html</link>
+    <description>Oracle利用時の最低限セキュリティ設定にまつわる話題。よくできた記事。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061673,00.htm">
+    <title>マクロメディアなど3社、リッチインターネットアプリ普及を目指す団体を設立</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061673,00.htm</link>
+    <description>興味津々。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20061676,00.htm">
+    <title>米マイクロソフト、次のWindows XPアップデートでMessengerをオフに</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20061676,00.htm</link>
+    <description>これ以外にも不要なサービスはたくさんあります。それらサービスは基本的にデフォルトでOFFにして欲しいものです。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061699,00.htm">
+    <title>新しいLinuxカーネルの登場を待ちわびる米レッドハット</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061699,00.htm</link>
+    <description>むしろエンタープライズ版に出たてのリビジョンのカーネルを搭載することのほうがありえません…。1年後に2.6系カーネルを採用、っていうペースで 全く問題ないし むしろ自然だと私は考えます。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/274346">
+    <title>現行Linuxは電子自治体システムに必要な機能を備えている</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/274346</link>
+    <description>へええ、そうなんだ。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/eclipse2_06/eclipse06_1.html">
+    <title>@IT: 第6回 Eclipseをプロファイラとして活用する</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/eclipse2_06/eclipse06_1.html</link>
+    <description>Eclipse上において無料範囲のソフトの組み合わせでJavaプログラムをプロファイリングできるんですね。びっくりです。的場聡弘さんと岡本隆史さんによる共著です。ご苦労様です。</description>
+    <dc:date>2003-11-01T19:47:29</dc:date>
+  </item>
+
+</rdf:RDF>

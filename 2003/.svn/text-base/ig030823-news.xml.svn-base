@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030823.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030823.html</link>
+    <language>ja</language>
+    <dc:date>2003-08-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/262878">
+    <title>富士通、障害者や子供が使いやすいWebブラウザーを発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/inet/262878</link>
+    <description>漢字の読みが出てくるのは うちの子どもでも利用できそうで期待できます。\9,500.-は ちと高いかしら…。</description>
+    <dc:date>2003-08-23T23:00:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0308/20/lp20.html">
+    <title>ウイルス感染者に対して下される“社会的制裁”</title>
+    <link>http://www.zdnet.co.jp/broadband/0308/20/lp20.html</link>
+    <description>ほんとうに！ コンピュータウイルス騒ぎで ウイルス感染PC所有者は 肩身の狭い思いをしてしまうものなのです。困った状況です。しかし 今回の MSBlasterウイルスは 感染速度が異常に高速でしたものね。ある程度知識のある人でも防御が追いつかないおそれがありましたからね。</description>
+    <dc:date>2003-08-23T23:00:34</dc:date>
+  </item>
+
+</rdf:RDF>

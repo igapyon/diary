@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/23 日記: Java2 SDK 1.4.0 ソースコード公開開始</TITLE>
+<META name="DESCRIPTION" content="J2SE 1.4.0のソースコードが公開開始です。これはありがたいです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020523-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 1.4.0の1.3.1との互換性</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>J2SE 1.3.1 では順調に動作していたSwingベースのGUIが J2SE 1.4.0では動作しないことがあるのが発覚。私の担当しているパッケージソフトのUIが
+なんと J2SE 1.4.0ではExceptionで吹き飛んでしまいます。<BR>
+原因究明はさておき、まずは J2SE 1.3.1_01をインストールして 難を逃れつつあります。いつかマジメに調べないと…。</P>
+<P>ちなみに J2SE 1.4.0のソースコードは、何とかダウンロード成功しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SUN JAXPのXMLパーサはXercesになる方向性？？？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>SUN J2SE 1.4.0 から SUN J2SE 1.3.1 にバージョンダウンしたら、当然ですがXMLパーサを別途用意しないと
+Jakarta Ant でビルドが出来なくなりました。</P>
+<UL>
+  <LI>手元にあった JAXP 1.1 を <STRONG>?:\jdk1.3.1_01\jre\lib\ext</STRONG> および <STRONG>?:\Program Files\JavaSoft\JRE\1.3.1\lib\ext</STRONG> に入れたら Antは当然動作しました。
+  <LI>(後述の) JAXP 1.2 EA2 を<STRONG>?:\jdk1.3.1_01\jre\lib\ext</STRONG> および <STRONG>?:\Program Files\JavaSoft\JRE\1.3.1\lib\ext</STRONG> に入れたら Antは動作しました。
+</UL>
+<P>動いてOKなのですが、それはさておいて SUNのXMLへの取り組みの本質的な所 (というか最新状況)
+を把握すべく SUNのWebページを見ていると、</P>
+<UL>
+  <LI>Java(TM) Technology &amp; XML<BR>
+  [replace-href:http://java.sun.com/xml/]
+</UL>
+<P>今 XML関連でホットなのは、Java XML Pack spring02 であるようでした。早期アクセス(EA)ながら
+そこそこの安定感が期待できるので ダウンロードを開始した後 そのオンラインドキュメントを見ていてびっくり。</P>
+<UL>
+  <LI>JAXP 1.1時代には XMLパーサはCrimsonであったし、また J2SE 1.4.0に入っているXMLパーサもCrimsonだったのですが、Java
+  XML Pack sprint02に含まれる JAXP 1.2 EA2には Apache Xerces2 2.0.0ベースのXMLパーサが含まれていました。これにはびっくり。
+  <LI>JAXM 1.0.1 EA2 に dom4j が含まれていて これもびっくり。
+</UL>
+<P>最新動向のフォローを怠っていたので、それら状況を知り とってもびっくりしました。<BR>
+Apache Xerces-Jファンだった私としては、SUNのXMLにXerces2が採用されたことはとても嬉しいことです。昔
+たどたどしい英語でXerces-Jにパッチをコントリビュートした記憶が うっすらとよみがえります
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>林信一さんからツッコミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>Subject:  [igapyon:00939] netscape7 PR1<BR>
+こんにちは、林です。</CITE></P>
+<UL>
+  <LI><CITE>[replace-href:http://linux.ascii24.com/linux/news/today/2002/05/23/635933-000.html]</CITE>
+  <LI><CITE>[replace-href:http://channels.netscape.com/ns/browsers/7/default.jsp]</CITE>
+</UL>
+<P><CITE>netscape7.0の PR1が公開されたようですね。Mozilla 1.0が組み込まれる模様です。</CITE></P>
+<P><CITE>余談<BR>
+Apache2.0とTomcat4.0.3LE,JDK1.4をデモ用にvaioへセットアップしてみました。ほとんど、インストーラがやってくれるので楽チンです。<BR>
+しかし、さんざん調べた結果mod_webappで接続できない模様・・・（苦笑）。<BR>
+#とりあえず、WWWサーバはTomcatに直接まかせました、時間ない為（汗）。<BR>
+では。<BR>
+--<BR>
+林 信一 Shinichi Hayashi</CITE></P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020523-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

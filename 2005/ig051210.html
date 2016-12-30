@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/10 日記: blancoAntTask の効能</TITLE>
+<META name="DESCRIPTION" content="表計算の様式にメタを入力すると Apache Antタスクのための抽象親クラスを自動生成する blancoAntTaskができました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/10 日記: blancoAntTask の効能</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 表計算の様式にメタを入力すると Apache Antタスクのための抽象親クラスを自動生成する blancoAntTaskができました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoAntTaskの効能</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>表計算の様式にメタを入力すると Apache Antタスクのための抽象親クラスを自動生成するという blancoAntTaskですが、メンバーにより承認され、また実装ができあがりました。(しかし今後
+ある程度の頻度で変更が加えられる可能性があります)</P>
+<P>例として、blancoDbのAntタスク定義および生成後ソースコードを下記に示します。</P>
+<UL>
+  <LI>AntTask定義書<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/meta/db/program/blancoDbTask.xls">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/meta/db/program/blancoDbTask.xls</A>
+  <LI>定義書から自動生成されるソースコード<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/blanco/main/blanco/db/task/AbstractBlancoDbTask.java">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoDbEE/blanco/main/blanco/db/task/AbstractBlancoDbTask.java</A>
+</UL>
+<P>blancoAntTaskですが、とても重宝しています。とはいえ Antタスクの作成をする必要がある立場の人にしか役に立ちませんので、多くの人には全く不要なプロダクトであることでしょう。</P>
+<P>一方で、私は Antタスクを作成する立場であるうえに 面倒くさがり屋なので、blancoAntTaskは非常に便利です。新たに Antタスクを作成する面倒さが
+かなり軽減されました。Antタスクの新規作成が面倒くさくなくなったのは、私にとっては画期的なことです。次は Eclipseプラグインのソースコード自動生成が欲しいと思いました。(というのは
+blanco Frameworkは Antタスクか Eclipseプラグインにおいて提供するという方針をとっているためです)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Mozilla Firefox 1.5リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Mozilla Firefox 1.5がリリースされていました。<BR>
+ちょっと触ってみたところ、1.0.x系に比べ 操作時の速度感が向上しているように感じました。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>＠IT: ソニーが音楽CDに組み込んだ“Rootkit”とは何者か？<BR>
+  <A HREF="http://www.atmarkit.co.jp/fwin2k/insiderseye/20051109rootkit/rootkit_01.html">http://www.atmarkit.co.jp/fwin2k/insiderseye/20051109rootkit/rootkit_01.html</A><BR>
+  不正ソフトウェアが利用する常套手段のひとつであるルートキット機能が、ソニーの音楽CDに堂々と組み込まれていたという恐ろしい話。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

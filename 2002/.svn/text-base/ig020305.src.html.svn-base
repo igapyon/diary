@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/03/05 日記: テスト＆バグ出し＆修正を繰り返し…</TITLE>
+<META name="DESCRIPTION" content="あさっての静岡出張に向け、ひたすらバグ出し">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>テスト＆バグ出し＆修正</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>テスト＆バグ出し＆修正の繰り返し。<BR>
+Pentium4 1.8GHz が ほとんど常に 100%振り切っています。ひたすらバッチプログラムのテストです。JUnit＋バッチ出力結果比較プログラムで、ずんどこテストかけています。テストの自動化って
+ほんっとうに便利ですね。プログラム修正に勇気を持って立ち向かうことが出来ます。</P>
+<P>で、これの成果物を持って、あさってに日帰静岡出張の予定があります。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020305-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

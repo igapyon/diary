@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020912.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020912.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4/download.html">
+    <title>Sun Java2 SDK, Standard Edition, 1.4.0_02 リリース</title>
+    <link>http://java.sun.com/j2se/1.4/download.html</link>
+    <description>とても沢山のバグフィックスが含まれます。-Xrsに関する不具合修正という記述が とびぬけて気になります。XP/2000/NT系ユーザがログオフした時にJavaVMが勝手に終了してしまうという件に関係のある不具合なのです。1.4.1系は 敷居の高いリビジョンアップになる模様なので 私の中では 1.4.0系の最新マイナーリビジョンアップ版はとても意義深い物なのです。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+</rdf:RDF>

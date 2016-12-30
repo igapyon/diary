@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021220.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021220.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://eclipse.org/">
+    <title>Eclipse 2.1 M4 リリース</title>
+    <link>http://eclipse.org/</link>
+    <description>マイルストーンリリースであるEclipse 2.1 M4 がリリースされていました。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0212/17/epn01.html">
+    <title>弾みがつくオープンソースのEclipseプロジェクト</title>
+    <link>http://www.zdnet.co.jp/enterprise/0212/17/epn01.html</link>
+    <description>もはやEclipseの勢いは誰にも止められません。そしてものすごい速度で進化し続けています。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0212/18/epn22.html">
+    <title>メインフレーム上のLinux開発環境をASP的に貸し出し、アドテックスが1月より</title>
+    <link>http://www.zdnet.co.jp/enterprise/0212/18/epn22.html</link>
+    <description>月額15万円程度でメインフレームLinux開発環境が得られるので有ればリーズナブルな買い物だと思います。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/18/njbt_03.html">
+    <title>松下とソニー、デジタル家電向けLinuxを共同開発へ</title>
+    <link>http://www.zdnet.co.jp/news/0212/18/njbt_03.html</link>
+    <description>デジタル家電はLinuxで決まり？ かしら？ 「日立製作所、米IBM、NECエレ、フィリップス、サムスン、シャープなどが趣旨に賛同」のクダリも とても気になります。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/19/nebt_07.html">
+    <title>Palm、350万ドルの最終黒字</title>
+    <link>http://www.zdnet.co.jp/news/0212/19/nebt_07.html</link>
+    <description>何とかPalmには頑張って欲しいです。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/19/njbt_01.html">
+    <title>Windows Media 9日本語版、1月29日リリース</title>
+    <link>http://www.zdnet.co.jp/news/0212/19/njbt_01.html</link>
+    <description>マルチメディアを押さえることも重要なんですねぇ。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/19/njbt_05.html">
+    <title>TBCの個人情報流出で被害者が提訴</title>
+    <link>http://www.zdnet.co.jp/news/0212/19/njbt_05.html</link>
+    <description>同じ情報処理産業に携わるものとして 強い印象を感じます。</description>
+    <dc:date>2002-12-20T08:45:59</dc:date>
+  </item>
+
+</rdf:RDF>

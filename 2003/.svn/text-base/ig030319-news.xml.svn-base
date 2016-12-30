@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030319.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030319.html</link>
+    <language>ja</language>
+    <dc:date>2003-03-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://internet.watch.impress.co.jp/www/article/2003/0314/mozilla.htm">
+    <title>Webブラウザーの「Mozilla 1.3」正式版がリリース</title>
+    <link>http://internet.watch.impress.co.jp/www/article/2003/0314/mozilla.htm</link>
+    <description>私が暇で忙しい間に Mozilla 1.3 がリリースされていました！ びっくりです。早速ダウンロード。</description>
+    <dc:date>2003-03-19T09:50:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0303/18/lp07.html">
+    <title>NTT東、Bフレッツを値下げ。ニューファミリー100Mbpsがタイプ2 ADSLより安く</title>
+    <link>http://www.zdnet.co.jp/broadband/0303/18/lp07.html</link>
+    <description>100Mbpsが 月4,500円で利用できる時代が到来していたとは… 驚き爆発です。</description>
+    <dc:date>2003-03-19T09:50:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/18/nebt_18.html">
+    <title>Windows 2000に脆弱性、実際に悪用の報告</title>
+    <link>http://www.zdnet.co.jp/news/0303/18/nebt_18.html</link>
+    <description>バッファオーバーフロー系の不具合であるそうですね。C/C++言語で開発した際には どうしても バッファ*フローの手の不具合はつきものですね。かといって Java言語でWebサーバを書くというのは まだCPUパワーとのバランス的に時期尚早でしょうから…</description>
+    <dc:date>2003-03-19T09:50:20</dc:date>
+  </item>
+
+
+</rdf:RDF>

@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/09/26 日記: BlancoCalcParserにスタンドアロン実行機能の追加 , Ninja-VAのデモを見せていただきました</TITLE>
+<META name="DESCRIPTION" content="blancoのExcel様式読み込みエンジンである blancoCalcParserに、スタンドアロン実行機能を追加しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/09/26 日記: BlancoCalcParserにスタンドアロン実行機能の追加 , Ninja-VAのデモを見せていただきました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoのExcel様式読み込みエンジンである blancoCalcParserに、スタンドアロン実行機能を追加しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: BlancoCalcParserにスタンドアロン実行機能の追加</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> のExcel様式読み込みエンジンである blancoCalcParserに、スタンドアロン実行機能を追加しました。(この機能は<STRONG><FONT color="#ff00ff">某</FONT></STRONG>氏との お話の結果 必要と判断し優先順位を上げて実装しました)<BR>
+※blancoCalcParserは <A HREF="http://www.igapyon.jp/blanco/blancocommons.html" TITLE="blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。">blancoCommons</A>に同梱されます。</P>
+<P>blancoCalcParserがスタンドアロン実行を可能になったことにより、</P>
+<OL>
+  <LI>BlancoCalcParserを 他のblancoの機能とは独立して単独で実行することが可能になりました。<BR>
+  →今までよりも容易に Excel様式からXMLファイルの自動生成を簡単に実行することができます。
+  <LI>Excel様式の情報を XMLから与えることが可能になりました。<BR>
+  →Excel様式にダイナミックな変更が入った場合にも、XMLファイルを変更するだけで Excel様式の読み込みを利用し続けることができます。
+</OL>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> のExcel様式読み込み機能だけが必要な方には便利な追加機能だと考えます。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A>のExcel様式読み込み機能は
+所定のルールの範囲内におけるExcel様式変更に柔軟に対応する能力を持っているので、その機能を知っている人には魅力的なのです。私自身が <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A>
+Framework以外のプロダクト／システムに対して blancoCalcParser単体の機能を利用することと予想されます。ただし、現時点では
+blancoCalcParserを利用するための気の利いた利用マニュアルは存在しません。ある程度の Javaのスキルのある方なら、BlancoCalcParser.javaのソースコードを見れば、実行方法は素直に理解できるかと考えます。<BR>
+※問題なのは、Excel様式の情報をあらわすXML定義ファイルのドキュメントが未整備である点です。これは近日中に整備したいと考えています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAP進捗</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在は blancoWsdlという Excel様式からWSDLおよびxsdを自動生成するツールのところにかかっています。<BR>
+maxOccursとかの XMLSchema周辺の実装が 現時点ではホットなポイントです。</P>
+<P>xsdが出来れば、そこからPOJOを生成するのは半日仕事だと予想しています。blancoPOJOは既に実装済みなので、かんたんに実装可能と考えます。<BR>
+また ConcreteSAX (具象化SAX)実装レベル1についても既に実装済みなので SAXベースによるPOJO詰め替えについては 2日程度の稼働で実装可能と考えます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TenArtni Ninja-VAのデモを見せていただきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>テンアートニ社の Ninja-VAフレームワークのデモを見せていただきました。</P>
+<UL>
+  <LI>ビジュアルWebシステム構築ソリューション TenArtni Ninja-VA<BR>
+  <A HREF="http://www.10art-ni.co.jp/product/Ninja-VA/">http://www.10art-ni.co.jp/product/Ninja-VA/</A>
+</UL>
+<P><STRONG><FONT color="#ff00ff">某</FONT></STRONG>著名な方 (御大) による直々のデモでした。夜遅くまで、ごくろうさまでした。<BR>
+Ninja-VAにとても興味を持ちました。特にビジネス的なスタンスにおいてです。というのも <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkは画面系についても原則論として粗結合アプローチをとっているので、画面系の生産性向上には限界があるからです。いずれを利用するかの判断ポイントについては、規模や保守性要件などとの見合いになると考えます。</P>
+<P>それはさておき…、Ninja-VAの正しい発音を今日 初めて学びました。ああ、なるほど、と思いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>09/27年休取得させていただきます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>すみません。09/27は年休を取得させていただきます。<BR>
+関係者のうち 一部の方々への連絡を忘れていました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

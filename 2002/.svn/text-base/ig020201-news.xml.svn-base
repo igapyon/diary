@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020201.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020201.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mainichi.co.jp/digital/solution/archive/200201/30/2.html">
+    <title>SQLサーバー2000にJDBCドライバー提供　米MS</title>
+    <link>http://www.mainichi.co.jp/digital/solution/archive/200201/30/2.html</link>
+    <description>やっぱりJavaが気になるMicrosoftなんですかねぇ。まぁ そこそこメジャーなデータベースの中でJDBCドライバを提供していないのは SQLServerだけだもんなぁ (笑)</description>
+    <dc:date>2002-02-01T13:12:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/02/01/grri840000009xac.html">
+    <title>戦闘機データ パソコン盗難</title>
+    <link>http://www.nhk.or.jp/news/2002/02/01/grri840000009xac.html</link>
+    <description>ぶっそうな話で…。日本国内での話なんですよ。</description>
+    <dc:date>2002-02-01T13:01:15</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/01/31/grri840000009wr7.html">
+    <title>ADSL加入 CATV上回る</title>
+    <link>http://www.nhk.or.jp/news/2002/01/31/grri840000009wr7.html</link>
+    <description>ADSLが152万人突破なのだそうです。これはものすごい数字ですね。(ちなみに私は非ADSL)</description>
+    <dc:date>2002-02-01T13:01:15</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/01/b_0131_02.html">
+    <title>米PDA市場でのPalmのシェアが激減</title>
+    <link>http://www.zdnet.co.jp/news/0202/01/b_0131_02.html</link>
+    <description>Palmユーザとしては気になるニュースです。Pocket PCなんかに負けないで欲しいなぁ (なんて書くと Pocket PC ユーザは嫌でしょうけれど :-P)</description>
+    <dc:date>2002-02-01T13:41:53</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/01/b_0131_11.html">
+    <title>IBMがLinuxの実利性をアピール「10億ドルはほとんど回収できた」</title>
+    <link>http://www.zdnet.co.jp/news/0202/01/b_0131_11.html</link>
+    <description>一般末端エンジニアとしては、そこらへんのLinuxの変化がよく分からないのであった。</description>
+    <dc:date>2002-02-01T13:41:53</dc:date>
+  </item>
+</rdf:RDF>

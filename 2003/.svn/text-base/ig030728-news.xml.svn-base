@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030728.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030728.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060081,00.htm">
+    <title>日本IBM、国内アプリ・サーバ・ソフト市場で2年連続1位を獲得</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060081,00.htm</link>
+    <description>WebSphereが頑張ったのだそうな。私の実感としては WebLogic有利なんですが、日本全国レベルで見たら WebSphereがトップなんですね。意外です。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/javaent07/javaent07.html">
+    <title>@IT: いまから始めるJava: 7回:制御文を使いこなす</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/javaent07/javaent07.html</link>
+    <description>文字列パースに関する話題が載っているので 微妙に興味をひかれました。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060100,00.htm">
+    <title>フューチャー、金融サービス業のメインフレームシステムをJavaで再構築</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060100,00.htm</link>
+    <description>最近 金融サービス業において Javaブームが巻き起こっていますねぇ…</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/rensai/w3cread12/w3cread12.html">
+    <title>@IT: 第12回: XMLにおける空白、行末、言語識別</title>
+    <link>http://www.atmarkit.co.jp/fxml/rensai/w3cread12/w3cread12.html</link>
+    <description>XMLにおける空白などの扱いに関する話題。よくつまずく話題だけに こうやって詳しく説明を付けて貰えると嬉しいです。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://www.ibm.com/news/jp/2003/07/07241.html">
+    <title>日本ラショナルソフトウェアが日本IBMに統合</title>
+    <link>http://www.ibm.com/news/jp/2003/07/07241.html</link>
+    <description>とうとう日本ラショナルが買収されたか…。IBMも良い買い物をしたなぁ。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/28/njbt_11.html">
+    <title>首都圏のJR・私鉄・バス乗車ICカードを共通化へ</title>
+    <link>http://www.zdnet.co.jp/news/0307/28/njbt_11.html</link>
+    <description>ちょっとしたSuicaファンな私は嬉しい…。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20060176,00.htm">
+    <title>.NETとJava、両方をサポートするUnisysの新メインフレーム機</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20060176,00.htm</link>
+    <description>メインフレームで .NET と Java とを両方サポートするんですって。</description>
+    <dc:date>2003-07-28T22:44:52</dc:date>
+  </item>
+
+
+</rdf:RDF>

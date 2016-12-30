@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/12/12 日記: Java: JAXB を用いたシンプルな Java → XML 変換サンプル</TITLE>
+<meta name="DESCRIPTION" content="Java Architecture for XML Binding（JAXB）を用いると、簡単に Java オブジェクトと XML ファイルとを結び付けることができることがわかりました。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="igapyon diary generator">
+<meta name="DATE" content="2010-09-27T20:42:50+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/12/12 日記: Java: JAXB を用いたシンプルな Java → XML 変換サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Java Architecture for XML Binding（JAXB）を用いると、簡単に Java オブジェクトと XML ファイルとを結び付けることができることがわかりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JAXB を用いたシンプルな Java → XML 変換サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p>Java Architecture for XML Binding（<a href="http://jaxb.dev.java.net/">JAXB</a>）を用いると、簡単に Java オブジェクトと XML ファイルとを結び付けることができることがわかりました。<br>
+きっかけがなく、今のいままで、JAXB を直接に利用したことがありませんでした。実際に使ってみて、これは便利だなぁと思いました。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>JaxbSample.java</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td><pre>import java.io.File;
+import java.util.Date;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class JaxbSample {
+    public String field1 = &quot;あいうえお&quot;;
+    public int field2 = 12345;
+    public Date field3 = new Date();
+
+    public static void main(final String[] args) throws Exception {
+        final JAXBContext context = JAXBContext.newInstance(JaxbSample.class);
+
+        final JaxbSample bean = new JaxbSample();
+
+        final Marshaller marshaller = context.createMarshaller();
+        marshaller.marshal(bean, new File(&quot;sample.xml&quot;));
+    }
+}</pre></td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>実行すると以下のような XML ファイルが生成されます。(インデントは私が調整しました)</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>生成される XML</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt; 
+&lt;jaxbSample&gt;
+  &lt;field1&gt;あいうえお&lt;/field1&gt; 
+  &lt;field2&gt;12345&lt;/field2&gt; 
+  &lt;field3&gt;2009-12-12T09:54:15.916+09:00&lt;/field3&gt; 
+&lt;/jaxbSample&gt;</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>XML スキーマなどを利用せずに、XML ファイルに書き込みできるのが良いところです。アノテーションは必要です。<br>
+(むろん、XML スキーマを準備した XML 読み書きも可能です)<br>
+これは書込のサンプルですが、読み込みも上記と同様に簡単に実施することができます。</p>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

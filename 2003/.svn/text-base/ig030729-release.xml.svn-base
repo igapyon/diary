@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030729.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030729.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.1/ja/download.html">
+    <title>Sun Java2 Platform, Standard Edition (J2SE) 1.4.1_04 リリース</title>
+    <link>http://java.sun.com/j2se/1.4.1/ja/download.html</link>
+    <description>2件の限定的なバグフィックスリリースである模様。</description>
+    <dc:date>2003-07-29T22:30:25</dc:date>
+  </item>
+
+</rdf:RDF>

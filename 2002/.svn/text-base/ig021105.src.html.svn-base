@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/11/05 日記: 珍しく仕事忙しくない</TITLE>
+<META name="DESCRIPTION" content="珍しく仕事忙しくないです。こういう時にこそ 資料の整理とか標準化資料作成とかを実施すべきです。 → オチがありました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>珍しく仕事忙しくない → トラブル発生 (苦笑)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>珍しく仕事が忙しくなく、平素からできなかった 資料整理や標準化資料作成などを実施しようと思っていたら…
+トラブルが発生して 緊急対応モードに入りました。(今日が月処2日目なのです)<BR>
+明日以降も このトラブルの根本原因対策に従事しようと思っています。とある条件文を外部テーブル化(DB外出し)する作業が
+今後のトラブル発生を抑制すると考えられるからです。<BR>
+う～ん。コンピュータシステムとは奥が深いものです。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021105-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

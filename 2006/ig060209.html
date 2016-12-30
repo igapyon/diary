@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/02/09 日記: blancoCsvをタイトル行に対応させました</TITLE>
+<META name="DESCRIPTION" content="CSVファイル入出力を自動生成する blancoCsvについて タイトル行をともなったCSVファイルの入出力に対応させました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/02/09 日記: blancoCsvをタイトル行に対応させました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] CSVファイル入出力を自動生成する blancoCsvについて タイトル行をともなったCSVファイルの入出力に対応させました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCsvをタイトル行に対応させました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ファイル定義書というExcelの様式から CSVファイル入出力のJavaソースコードを自動生成する <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>について
+タイトル行をともなったCSVファイルの入出力に対応させました。これを不安定版としてリリースします。この仕様は blancoCsv 0.3.1以降で有効になります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb は デッドロックやタイムアウトに対応することになりました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日の会議にて <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> は今月中にリレーショナルデータベースのデッドロックおよびタイムアウトに対応することになりました。</P>
+<P>今月末に向けての主な作業内容は下記の通り。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>: デッドロックおよびタイムアウトに対応
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A>: プロパティファイルのキー一覧を blancoConstantsベースで自動生成する機能を追加することになりました。
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>: 電文処理定義書のSQL定義書IDをきっかけに、プロキシクラスに R/Oマッピング用オブジェクトを自動生成。
+</UL>
+<P>これ以外はプロジェクト固有の改善作業という位置づけになると考えています。</P>
+<P>今月は もはや 稼働が完全燃焼するようなハイペースの見込みです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>R/Oマッピング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>の話題について TheServerSide.com (TSS) に対してポストがありました。</P>
+<UL>
+  <LI>TheServerSide.com: Introducing Amber, Relational-to-Object Mapping instead
+  of ORM<BR>
+  <A HREF="http://www.theserverside.com/news/thread.tss?thread_id=38841">http://www.theserverside.com/news/thread.tss?thread_id=38841</A>
+</UL>
+<P>私は英語が苦手なので、あまり解読できていません。<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>という用語を、私以外の方が思いついて発言されているというのが
+妙に嬉しいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ASP.NET をIISと関連付ける方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>.NET Framework の ASP.NET をWindows IISと関連付ける方法について、これをすっかり忘却していました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>?:\WINDOWS\Microsoft.NET\Framework\v1.1.4322&gt;aspnet_regiis.exe -i<BR>
+      ASP.NET (1.1.4322.0) のインストールを開始します。<BR>
+      ASP.NET (1.1.4322.0) のインストールが完了しました。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+
+<P>ちゃんと ASP.NETの C#.NET Webサービス・プロジェクトが新規作成できるようになりました。良かったです。助かりました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Serverに付属する JDBCドライバに関する話題メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Microsoft SQL Serverに付属する JDBCドライバに関する話題をメモしておきます。</P>
+<UL>
+  <LI>データディレクトテクノロジーズ: SQL Server用DataDirect JDBCドライバとSQL Server 2000用Microsoft
+  JDBCドライバの比較<BR>
+  <A HREF="http://www.datadirect.co.jp/technote/comparing_with_microsoft.asp">http://www.datadirect.co.jp/technote/comparing_with_microsoft.asp</A>
+</UL>
+<P>SQL ServerのJDBCドライバが DataDirectのOEM提供だったということを知りませんでしたです。(先日 某M社の技術の方から教えていただき、そしてこのページにたどり着きました)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

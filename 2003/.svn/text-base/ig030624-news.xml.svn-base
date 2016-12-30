@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030624.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030624.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.storeroom.info/cdm/">
+    <title>CDManipulator</title>
+    <link>http://www.storeroom.info/cdm/</link>
+    <description>無料のCD-R作成ソフト。その手の方々の間では有名なソフトらしいです。</description>
+    <dc:date>2003-06-24T09:56:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.oreilly.co.jp/BOOK/jakarta/">
+    <title>プログラミングJakarta Struts</title>
+    <link>http://www.oreilly.co.jp/BOOK/jakarta/</link>
+    <description>オライリー・ジャパンからStrutsの本が出るのだそうな。とても興味深い。Struts屋をかかえる私としては これは買いの書籍と思われます。ということで 早速オンライン購入！</description>
+    <dc:date>2003-06-24T09:56:35</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/253172">
+    <title>買収のうわさは「ナンセンス」=米サン・マイクロCEO◇ロイター</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/253172</link>
+    <description>万が一買収があったとして、SunのJava部門は どんな形にせよ残って欲しいです。</description>
+    <dc:date>2003-06-24T09:56:35</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/23/epn17.html">
+    <title>大日本印刷、フォトマスク製造管理システムをデルのLinuxベース製品で構築</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/23/epn17.html</link>
+    <description>UNIXベースをLinuxベースに置き換えた、ということ。</description>
+    <dc:date>2003-06-24T13:13:50</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030610/3/">
+    <title>Windows98は来年1月，Meは来年末でセキュリティ修正打ち切り</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030610/3/</link>
+    <description>こう見ると Windows Meは短命でしたね…</description>
+    <dc:date>2003-06-24T13:13:50</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/253165">
+    <title>マイクロソフト、社長退任の陰でゲーム事業の34人指名解雇</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/253165</link>
+    <description>私としては 外資系は外資系であって欲しいです。外資系に日本系の商慣行を期待するのは間違いなのではないでしょうか？ また それを理解した上で 皆 外資系を選んでいるのだと私は思っていました。それに Xboxは 売り方以前に そもそもモノとして難しいのは 発売前から分かっていた事でしょうに…。機械翻訳ソフトがXboxを『駄目箱』 などとは直訳しませんでしたけれどね…。なにしおわば なにがし…。</description>
+    <dc:date>2003-06-24T13:13:50</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/24/nebt_12.html">
+    <title>MS、プライバシー最高責任者を任命</title>
+    <link>http://www.zdnet.co.jp/news/0306/24/nebt_12.html</link>
+    <description>マイクロソフト社は何かに気が付き、そして何か行動を起こそうとしていますね。</description>
+    <dc:date>2003-06-24T13:18:24</dc:date>
+  </item>
+
+</rdf:RDF>

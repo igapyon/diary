@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/11 日記: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Edition 1.4.0 (Java版)と blancoDbDotNet 0.0.5 (.NET Framework版)との機能の主な差異の説明など">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/11 日記: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDb Enterprise Edition 1.4.0 (Java版)と blancoDbDotNet 0.0.5 (.NET Framework版)との機能の主な差異の説明など</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blancoDbDotNetを用いると、SQL定義書を入力として、データベースアクセスのためのC#.NETソースコードの自動生成を行うことができます。</P>
+
+<P><STRONG><FONT color="#ff00ff">実行環境</FONT></STRONG></P>
+<UL>
+  <LI>Microsoft VisualStudio .NET 2003 にのみ対応。
+  <LI>Microsoft SQL Server 2000 (ADO.NET経由) にのみ対応。
+  <LI>実行には、Sun Java実行環境 1.4.2 および Microsoft SQL Server 2000 JDBCドライバが必要。<BR>
+  ※blancoDbDotNet本体は Java言語で作成されています。一方で blancoDbDotNetが生成するソースコードは C#.NETであり、実行ランタイムは
+  .NET Frameworkとなります。
+</UL>
+<P><STRONG><FONT color="#ff00ff">実現する機能</FONT></STRONG></P>
+<UL>
+  <LI>SQL定義書とソースコードの自動的な同期。
+  <LI>任意のSQL文をもとに、そのSQLを実行するための C#.NETソースコードの自動生成。
+  <LI>データベース上の型をもとにプログラミング言語上での型を強制的に決定することによる、型ずれの確実な防止。
+  <LI>検索結果をデータベースカーソル的に利用が可能。
+  <LI>SQLインジェクションが発生しにくい環境の提供。
+  <LI>動的SQLのサポート。
+  <LI>ADO.NETで利用可能なSQLを そのまま利用可能。
+  <LI>一意制約違反や件数制約に関するラッパーの提供。
+</UL>
+<P><STRONG><FONT color="#ff00ff">特徴</FONT></STRONG></P>
+<UL>
+  <LI>ドキュメントとソースコードの自動的な同期。
+  <LI>生成されたソースコードは実行時ライブラリを必要としない。
+  <LI>SQL定義書を中心として、SQL開発者とC#.NET開発者の分業が可能。
+  <LI>実行時のキャスト例外の発生可能性を極小化。
+  <LI>SQLパラメータ設定忘れを仕組みとして防止。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2009/ig091001.html">2009/10/01 日記: blancoDbDotNet (blancoDb .NET Framework版) の ODP.NET 対応</A>
+  <LI><A href="ig060609.html">2006/06/09 日記: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb (Java版) と blancoDbDotNet (.NET Framework版)との機能差異</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.4.0 (Java版)と blancoDbDotNet
+0.0.5 (.NET Framework版)との機能の主な差異を示します。blancoDbDotNetは blancoDbの基本的な機能を引き継いでいます。Java版でのノウハウがそのまま利用できるようになっています。しかし、blancoDbDotNet(.NET
+Framework版)は Java版と比べると下記の機能がありません。この点に留意する必要があります。</P>
+<UL>
+  <LI>プリミティブ型にマップされる型におけるNULLの利用<BR>
+  .NET版では 整数・浮動小数点・真偽型ではNULLが利用できません。このため、データベース上の型は整数・浮動小数点・真偽型の場合には非NULL制約を付与するように設定してください。<BR>
+  ※これは .NET Frameworkの仕様からくる制限によるものです。VisualStudio .NET 2005より前のバージョンに対応する.NET
+  Frameworkにおいては プリミティブ型においてNULLを適切に扱うことができません。
+  <LI>双方向カーソル対応<BR>
+  blancoDbDotNetは双方向カーソルには対応していません。順方向カーソルのみが利用できます。<BR>
+  ※これは ADO.NETの仕様からくる制限によるものです。
+  <LI>更新を伴う検索<BR>
+  更新を伴う検索(SELECT FOR UPDATE相当)については対応していません。<BR>
+  ※これは ADO.NETの仕様からくる制限によるものです。
+  <LI>ストアドプロシージャ対応<BR>
+  現行バージョンではストアドプロシージャを利用することができません。
+  <LI>SQL Server 2000以外のRDBMSの対応<BR>
+  現状の .NET版は ADO.NET経由のSQL Server 2000にのみ対応します。Oracle対応(ODP.NET対応)はありません。
+  <LI>ロギング対応<BR>
+  ロギングを行うためのソースコード自動生成はおこなわれません。Java版では Log4Jを利用したロギングを行うソースコードを自動生成させることができますが、.NET版ではロギングを行うソースコードは自動生成させることはできません。
+  <LI>効率の良いバイナリ型の順次転送<BR>
+  効率の良いバイナリ型の順次転送はできません。メモリ効率や速度という観点では .NET版は Java版に比べて劣ります。.NET版ではバイト配列(byte[])に一旦データを蓄積してから処理を行うようになっています。<BR>
+  ※これは ADO.NETの仕様からくる制限によるものです。
+  <LI>Eclipseプラグイン対応<BR>
+blancoDbDotNetは Apache Antタスクでのみ起動することができます。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

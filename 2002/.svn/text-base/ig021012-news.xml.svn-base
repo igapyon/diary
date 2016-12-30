@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021012.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021012.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/11/njbt_12.html">
+    <title>「みかちゃん」フォントが完成</title>
+    <link>http://www.zdnet.co.jp/news/0210/11/njbt_12.html</link>
+    <description>ある個人の方の手書き文字をTrue Typeフォント化したものなのだそうです。シェアウェアのツールを使ってTrue Type フォント作成ですね。驚きです。</description>
+    <dc:date>2002-10-12T18:01:33</dc:date>
+  </item>
+
+</rdf:RDF>

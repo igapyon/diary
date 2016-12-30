@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/10/27 日記: OpenOffice.org 2.0.0 リリース , Java 対 .NET Frameworkの簡単早見対照表</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org 2.0.0が正式版リリースです , 会社のメンバーと話していて、Java 対 .NET Frameworkの対応早見表があれば便利だなぁ などと盛り上がりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/10/27 日記: OpenOffice.org 2.0.0 リリース , Java 対 .NET Frameworkの簡単早見対照表</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] OpenOffice.org 2.0.0が正式版リリースです , 会社のメンバーと話していて、Java 対 .NET Frameworkの対応早見表があれば便利だなぁ などと盛り上がりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org 2.0.0正式版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>オープンソース(LGPL / SISSLのデュアルライセンス)のもとでリリースされる 統合オフィスソフト「<A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A>
+2.0.0」の待望の次期正式版がリリースです。</P>
+<UL>
+  <LI><A HREF="http://ja.openoffice.org/">http://ja.openoffice.org/</A>
+  <LI><A HREF="http://ja.openoffice.org/download/2.0/index.html">http://ja.openoffice.org/download/2.0/index.html</A>
+  <LI><A HREF="http://www.forest.impress.co.jp/lib/offc/document/offcsuite/openoffice.html">http://www.forest.impress.co.jp/lib/offc/document/offcsuite/openoffice.html</A>
+</UL>
+<P>ミラーに行き渡るまで 待っていました！ いよいよ最新版の正式リリース、おめでとうございます。関係各位の方々の努力に感謝します。<BR>
+ありがたく使わせていただきます。</P>
+<P><FONT color="#ff0000">2005.10.29追記</FONT> 世間のニュースリリースで取りあげられています。</P>
+<UL>
+  <LI>MYCOM PC WEB: OpenOffice.org 2.0日本語版の配布始まる<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2005/10/28/008.html">http://pcweb.mycom.co.jp/news/2005/10/28/008.html</A>
+  <LI>CNET Japan: OpenOffice.org、バージョン2.0.0日本語版を正式リリース<BR>
+  <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20089875,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20089875,00.htm</A>
+  <LI>フリーのオフィススイート「OpenOffice.org 2.0」日本語版リリース<BR>
+  <A HREF="http://enterprise.watch.impress.co.jp/cda/software/2005/10/28/6491.html">http://enterprise.watch.impress.co.jp/cda/software/2005/10/28/6491.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java 対 .NET Frameworkの簡単早見対照表</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社のメンバーと話していて、Java 対 .NET Frameworkの対応早見表があれば便利だなぁ などと盛り上がりました。そこで、ごくごく簡単に
+Java 対 .NET Frameworkの簡単な早見対照表を作成しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TH bgcolor="#ffff00">カテゴリ</TH>
+      <TH bgcolor="#ffff00">Java</TH>
+      <TH bgcolor="#ffff00">.NET Framework</TH>
+    </TR>
+    <TR>
+      <TD>主な供給元</TD>
+      <TD>サン・マイクロシステムズ</TD>
+      <TD>マイクロソフト</TD>
+    </TR>
+    <TR>
+      <TD>プログラミング言語</TD>
+      <TD>Java言語<BR>
+      (*.java)</TD>
+      <TD>C#.NET, VB.NET, その他の言語<BR>
+      (*.csなど)</TD>
+    </TR>
+    <TR>
+      <TD>Webプレゼンテーション層</TD>
+      <TD>JSP + Struts, JSF<BR>
+      ※.NET Frameworkに比べると貧弱</TD>
+      <TD>ASP.NET<BR>
+      ※<A href="http://ja.wikipedia.org/wiki/WYSIWYG">WYSIWYG</A>な統合開発環境が魅力<BR>
+      Spread for .NETなどを組み合わせると非常に強力</TD>
+    </TR>
+    <TR>
+      <TD>データベースアクセス層</TD>
+      <TD>JDBC</TD>
+      <TD>ADO.NET</TD>
+    </TR>
+    <TR>
+      <TD>アプリケーションサーバ</TD>
+      <TD>Jakarta Tomcat, JBoss,<BR>
+      WebLogic, WebSphereなど</TD>
+      <TD>ASP.NETエンジン</TD>
+    </TR>
+    <TR>
+      <TD>リッチクライアント層</TD>
+      <TD>JFC/Swing, SWT/JFace<BR>
+      ※これから成長するジャンル</TD>
+      <TD>C#.NET, VB.NETによるWindowsフォーム対応<BR>
+      ※非常に快適なリッチクライアント開発環境</TD>
+    </TR>
+    <TR>
+      <TD>実行環境・ランタイム</TD>
+      <TD>Java仮想マシン (JavaVM)<BR>
+      ※原則として利用者がインストールする</TD>
+      <TD>.NET Frameworkランタイム<BR>
+      ※Windows XP SP2インストール済みマシンでは標準添付</TD>
+    </TR>
+    <TR>
+      <TD>ダウンロード／配布</TD>
+      <TD>Java Web Start, Eclipse RCP</TD>
+      <TD>スマートクライアント</TD>
+    </TR>
+    <TR>
+      <TD>統合開発環境</TD>
+      <TD>Eclipse, NetBeansIDE<BR>
+      Borland JBuilder <BR>
+      ※Eclipse Visual Editorを組み合わせれば、リッチクライアント層での<A href="http://ja.wikipedia.org/wiki/WYSIWYG">WYSIWYG</A>な環境が入手可能</TD>
+      <TD>Microsoft Visual Studio .NET<BR>
+      ※ひとつの統合開発環境で完結していて、しかも生産性が高いのが魅力</TD>
+    </TR>
+    <TR>
+      <TD>対応するオープンソース</TD>
+      <TD>Apache Jakartaなど多数</TD>
+      <TD>少数</TD>
+    </TR>
+    <TR>
+      <TD>コマンドライン・ビルド</TD>
+      <TD>Apache Ant, Mavenなど</TD>
+      <TD>NAnt</TD>
+    </TR>
+    <TR>
+      <TD>キュー</TD>
+      <TD>JMS, MQなど<BR>
+      ※私は不案内です</TD>
+      <TD>Windows Server同梱<BR>
+      ※私は不案内です。名称すら忘れてしまいました。</TD>
+    </TR>
+    <TR>
+      <TD>対応するOS</TD>
+      <TD>Windows, Mac, Linux, UNIXの数種など多数</TD>
+      <TD>基本的に Microsoft Windows環境のみ</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ああ、即席では対照表が作れないことが分かってきました。まだまだ勉強が足りません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

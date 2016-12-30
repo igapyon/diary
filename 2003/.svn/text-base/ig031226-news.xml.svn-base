@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031226.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031226.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://yamaguch.sytes.net/~tora/diary/">
+    <title>とらねこ闘病記(休業中)</title>
+    <link>http://yamaguch.sytes.net/~tora/diary/</link>
+    <description>とらねこさんは大丈夫かしらん… おだいじに。</description>
+    <dc:date>2003-12-26T22:19:41</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm">
+    <title>第10回 Linuxブームは本物か？日本HPに聞く (末松千尋さん)</title>
+    <link>http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm</link>
+    <description>この記事が タイトルとは裏腹に、意外にも読み応えがありました。</description>
+    <dc:date>2003-12-26T22:39:28</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm">
+    <title>「NTTの流れはLinuxに向いている」---OSDLに参加するNTTコムウェアの狙い</title>
+    <link>http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm</link>
+    <description>まあっ！ そうなんですかっ。と とりあえず驚いてみる。まあ 実際のところ NTTデータってところで見たら やっぱりLinuxに向いているかしらん。</description>
+    <dc:date>2003-12-26T22:39:28</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm">
+    <title>米クリスマス商戦--買い物客のネット殺到で各サイトのスピードが低下</title>
+    <link>http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm</link>
+    <description>ネット販売が きわめて 『ふつ～』になってきましたね。世相に驚かされます。</description>
+    <dc:date>2003-12-26T07:04:19</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html">
+    <title>【特別企画】オンラインで旅予約！マイトリップ・ネットのWebサービス『旅の窓口』</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html</link>
+    <description>なんか Webサービスって SOAPとかのことではなくって 単に『Web上で展開するサービス』のことを言っているのかしらん。この記事は読解不能でした。(斜め読みしたので単に読み飛ばしただけかも…)</description>
+    <dc:date>2003-12-26T07:04:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0312/22/lp06.html">
+    <title>バイオがなくても「コクーン」からDVDが作れる!？</title>
+    <link>http://www.zdnet.co.jp/broadband/0312/22/lp06.html</link>
+    <description>そんなにDVD化はしませんね。生DVDも結構高額ですから。</description>
+    <dc:date>2003-12-26T22:19:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0312/18/epn13.html">
+    <title>Opinion：愛すれど悲し、Visual Basicは罪作り</title>
+    <link>http://www.zdnet.co.jp/enterprise/0312/18/epn13.html</link>
+    <description>なんかすごい記事だなぁ。でも実際 VBは罪づくりですよね。どっぷしVBにハマった人って けっこういますからねぇ。</description>
+    <dc:date>2003-12-26T22:19:41</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/">
+    <title>そんなもの，今どき秋葉原でも買えません</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/</link>
+    <description>NEC PC-9801が 買えないことで、実際に困った部門が身近にありました。</description>
+    <dc:date>2003-12-26T22:19:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/25/njbt_03.html">
+    <title>BIGLOBEがギャルゲーを開発中</title>
+    <link>http://www.zdnet.co.jp/news/0312/25/njbt_03.html</link>
+    <description>ほほう。BIGLOBE恐るべし。</description>
+    <dc:date>2003-12-26T07:04:19</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/25/njbt_02.html">
+    <title>'03上半期PDA出荷は前年比2割減　個人向けの落ち込みが深刻</title>
+    <link>http://www.zdnet.co.jp/news/0312/25/njbt_02.html</link>
+    <description>PDAには頑張って欲しいです。ケータイとの差別化が だんだん難しくなってきているからなぁ…</description>
+    <dc:date>2003-12-26T07:04:19</dc:date>
+  </item>
+
+</rdf:RDF>

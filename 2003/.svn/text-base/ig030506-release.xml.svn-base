@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030506.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030506.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.3/">
+    <title>Sun J2SE 1.3.1_08 リリース</title>
+    <link>http://java.sun.com/j2se/1.3/</link>
+    <description>バグフィックスリリースです。バグID 4518039 が私たちに大きな影響がありそうです。 チルダ(と思われる)がSJISキャラクターセットの際にHTMLでうまく表示できないとのこと。何をどう変更したのか 大変気になります。とりあえずMS932とSJISとの相違にまつわる問題である模様なのですが… (この問題って下手に手を入れるとぐちゃぐちゃになってしまうだけに、、、とても心配です)</description>
+    <dc:date>2003-05-06T21:58:44</dc:date>
+  </item>
+
+</rdf:RDF>

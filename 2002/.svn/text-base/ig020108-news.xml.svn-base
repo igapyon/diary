@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020108.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020108.html</link>
+    <language>ja</language>
+    <dc:date>2002-01-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0201/07/01.html">
+    <title>エキサイトがGoogleを採用，Web検索に導入</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0201/07/01.html</link>
+    <description>エキサイトまでがGoogle？？？。Google全盛ですねぇ。</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0201/08/b_0107_13.html">
+    <title>家電4社がDVDプレーヤーにWindows Media技術導入</title>
+    <link>http://www.zdnet.co.jp/news/0201/08/b_0107_13.html</link>
+    <description>やだなぁ。そんなとこにまでWindows技術…。日本の会社としては、松下、東芝が含まれています。ううむ…。</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/011221/j_j-p2pint1.html">
+    <title>P2Pを相互運用可能にする: Jxtaの物語</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/011221/j_j-p2pint1.html</link>
+    <description>良くできたJxta説明</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/tanpatsu/12javatool/javaxmltool01.html">
+    <title>XML関連Javaテクノロジーの現在 【前編】 Java XML PackのAPI群</title>
+    <link>http://www.atmarkit.co.jp/fxml/tanpatsu/12javatool/javaxmltool01.html</link>
+    <description>原田洋子さまの手による Java XML Packの説明。</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+  <item rdf:about="http://developer.java.sun.com/developer/restricted/jini1_2/">
+    <title>SUN Jini Technology Starter Kit 1.2 リリース</title>
+    <link>http://developer.java.sun.com/developer/restricted/jini1_2/</link>
+    <description>Jiniも地道にリリースしてきていますねぇ。</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/25/e_itpro.html">
+    <title>英IT専門家はJava支持派が過半数近く</title>
+    <link>http://www.zdnet.co.jp/news/0112/25/e_itpro.html</link>
+    <description>だから.NETに芽は無いって (爆笑)</description>
+    <dc:date>2002-01-08T13:30:42</dc:date>
+  </item>
+
+</rdf:RDF>

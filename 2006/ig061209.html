@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/12/09 日記: The KGS Go Server</TITLE>
+<META name="DESCRIPTION" content="囲碁の無料囲碁対戦サービスが いくつかあると聞きました。これをメモします。">
+<META name="KEYWORDS" content="igapyon,KGS,GO,IGO,囲碁,ネット,碁,ネット碁,無料">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/12/09 日記: The KGS Go Server</H2>
+    <P>[igapyon,KGS,GO,IGO,囲碁,ネット,碁,ネット碁,無料] 囲碁の無料囲碁対戦サービスが いくつかあると聞きました。これをメモします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>The KGS Go Server</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/go.html" TITLE="囲碁は東アジアで古くから楽しまれているボードゲームです。">囲碁</A>の無料囲碁対戦サービス (ネット碁) が いくつかあると聞きました。このなかで 最もメジャーなものと言われているもののひとつをメモします。</P>
+<UL>
+  <LI><A href="http://www.gokgs.com/"><IMG src="http://files.gokgs.com/images/kgsIcon.png" border="0"></A><BR>
+  <A href="http://www.gokgs.com/">The KGS Go Server</A>
+</UL>
+<P><FONT color="#ff0000">2007.02.21追記</FONT> 私が感じた KGSの特徴等を以下に記載します。</P>
+<P><STRONG><FONT color="#ff00ff">KGSの特徴</FONT></STRONG></P>
+<UL>
+  <LI>無料で利用することができます。
+  <LI>世界中の人が利用しています。<BR>
+  英語のチャットがニガテな方でも、hi (こんにちは) と thx (ありがとう) だけを覚えておけば 何とかなるようです。
+  <LI>上手な人から 下手な人まで 幅広い層の方々が参加しています。
+  <LI>Javaベースの美しいGUIを使って 碁を打つことができます。
+  <LI>ロボット碁プログラム (通称 ボット) を開発することが可能です (SDKが提供されている)。ボットと対戦することも可能です。
+  <LI>SGF (Smart Game Format) という棋譜共通フォーマットに対応しています。
+  <UL>
+    <LI>Smart Game Format<BR>
+    <A HREF="http://ja.wikipedia.org/wiki/Smart_Game_Format">http://ja.wikipedia.org/wiki/Smart_Game_Format</A>
+    <LI>SGF User Guide<BR>
+    <A HREF="http://www.red-bean.com/sgf/user_guide/">http://www.red-bean.com/sgf/user_guide/</A><BR>
+    <A HREF="http://vof.jp/softsanpo/SGFnote/SGFUserGuide.html">http://vof.jp/softsanpo/SGFnote/SGFUserGuide.html</A>
+  </UL>
+</UL>
+<P><STRONG><FONT color="#ff00ff">KGSの実行環境</FONT></STRONG></P>
+<UL>
+  <LI>KGSのクライアント (CGoban 3) の実行には Java仮想マシンが必要です。
+  <LI>Java Web Startベースで起動するのが安定感があるようです。私の環境では、Java Appletベースのものは安定して起動できない場合がありました。
+</UL>
+<P><STRONG><FONT color="#ff00ff">KGSのインストール</FONT></STRONG></P>
+
+<P>Java Web Startベースで利用する場合には、以下の手順を踏みます。</P>
+<OL>
+  <LI>トップページの「●クライエントとSGFエディタのダウンロード」を選択する。
+  <LI>「CGoban for Java Web Start」リンクを押して Java Web Startベースで CGobanを起動する。
+</OL>
+<P>ID (アカウント) 取得のためには、インターネットメールアドレスが必要となります。</P>
+<P><FONT color="#ff0000">2007.02.26追記</FONT> KGS Go Serverの使い方を紹介したページを見つけたので これをメモします。</P>
+<UL>
+  <LI>KGSの使い方<BR>
+  <A HREF="http://nijiura5.web.fc2.com/kgs/index.html">http://nijiura5.web.fc2.com/kgs/index.html</A><BR>
+  KGSの ひととおりの使い方が理解できるような構成になっていました。
+</UL>
+<P><FONT color="#ff0000">2007.08.08追記</FONT> KGS Go Serverでの段級位の対比表を見つけました。これをメモします。</P>
+<UL>
+  <LI>KGS - 大塚囲碁教室 段級位比較表<BR>
+  <A HREF="http://igo.myhome.cx/kgs/kgs_rank.html">http://igo.myhome.cx/kgs/kgs_rank.html</A>
+</UL>
+<P>日本の段級と KGS での段級との間には、大きな差があります。驚かれませぬよう。</P>
+<P><STRONG><FONT color="#ff00ff">KGSの障害情報</FONT></STRONG></P>
+<UL>
+  <LI><FONT color="#ff0000">2007.08.09追記</FONT> ここ数日、KGS Go Serverが不調にて接続不能との情報を得ました。
+  <LI><FONT color="#ff0000">2007.08.10追記</FONT> KGS Go Serverが復活していました。よかった、よかった。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

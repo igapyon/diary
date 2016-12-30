@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/06/08 日記: 文字化け原稿ネタ</TITLE>
+<META name="DESCRIPTION" content="ああ、しめきりが…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/06/08 日記: 文字化け原稿ネタ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ああ、しめきりが…</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>文字化け原稿ネタ: 文字化け、ラストスパート</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ああ、しめきりが…</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">StringToCharArray1.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>public class StringToCharArray1 {
+    public static void main(final String[] args) {
+        final String sampleString = &quot;愛植岡&quot;;
+        System.out.println(&quot;文字列[&quot; + sampleString + &quot;]を文字に分解。&quot;);
+
+        final char[] sampleCharArray = sampleString.toCharArray();
+        for (int index = 0; index &lt; sampleCharArray.length; index++) {
+            System.out.println(index + &quot;番目: [&quot; + sampleCharArray[index] + &quot;]&quot;);
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">StringToCharArray2.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>public class StringToCharArray2 {
+    public static void main(final String[] args) {
+        final String sampleString = &quot;愛植岡&quot;;
+        System.out.println(&quot;文字列[&quot; + sampleString + &quot;]を文字コードに分解。&quot;);
+
+        final char[] sampleCharArray = sampleString.toCharArray();
+        for (int index = 0; index &lt; sampleCharArray.length; index++) {
+            System.out.println(index + &quot;番目: [&quot;
+                    + Integer.toHexString(sampleCharArray[index]) + &quot;]&quot;);
+        }
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">CharArrayToString.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>public class CharArrayToString {
+    public static void main(final String[] args) {
+        System.out.println(&quot;文字の配列から文字列を作成。&quot;);
+        final char[] sampleCharArray = { '\u611b', '\u690d', '\u5ca1' };
+
+        final String sampleString = new String(sampleCharArray);
+        System.out.println(&quot;配列から作られた文字列は[&quot; + sampleString + &quot;]です。&quot;);
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>文字化け原稿: ひとまず脱稿</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">23:07</FONT> ひとまず脱稿しました。疲れました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

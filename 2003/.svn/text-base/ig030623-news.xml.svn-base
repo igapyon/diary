@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030623.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030623.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20055861,00.htm">
+    <title>Flashに注力するマクロメディア、製品戦略を発表</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20055861,00.htm</link>
+    <description>Flashに注目している私としては、とりあえず重点メモ！</description>
+    <dc:date>2003-06-23T20:09:07</dc:date>
+  </item>
+
+  <item rdf:about="http://unit.aist.go.jp/it/knoppix/">
+    <title>KNOPPIX日本語版</title>
+    <link>http://unit.aist.go.jp/it/knoppix/</link>
+    <description>CDブート可能なLinux</description>
+    <dc:date>2003-06-23T20:48:21</dc:date>
+  </item>
+  <item rdf:about="http://unit.aist.go.jp/it/demolinux/index.html">
+    <title>DemoLinux日本語版</title>
+    <link>http://unit.aist.go.jp/it/demolinux/index.html</link>
+    <description>CDブート可能なLinux</description>
+    <dc:date>2003-06-23T20:48:21</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/17/njbt_09.html">
+    <title>部屋の中に設置できる防音室、ヤマハがモニター販売</title>
+    <link>http://www.zdnet.co.jp/news/0306/17/njbt_09.html</link>
+    <description>38万円ってのが微妙な価格帯ですね。</description>
+    <dc:date>2003-06-23T20:48:21</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0306/17/lp20.html">
+    <title>電動自転車「ViViシリーズ」にGPS、「ココセコム」採用</title>
+    <link>http://www.zdnet.co.jp/broadband/0306/17/lp20.html</link>
+    <description>購入から3年間は盗難補償優遇制度というのがあり\300.-で新車が購入可能とのこと。微妙に購入意欲をあおります。</description>
+    <dc:date>2003-06-23T20:48:21</dc:date>
+  </item>
+  <item rdf:about="http://www.vector.co.jp/soft/win95/util/se233359.html">
+    <title>納入助</title>
+    <link>http://www.vector.co.jp/soft/win95/util/se233359.html</link>
+    <description>外注さんが送ってくるファイルが なぜか生成日付が 2099年なんです。これが原因でWinCVSに取り込めないという謎の現象に困っていました。そこで役立つのが 納入助 です。複数ファイルの生成日付を一発変換。幾つかあるこの手のツールの中から、このツール、ずばぬけて気に入りました。</description>
+    <dc:date>2003-06-23T20:48:21</dc:date>
+  </item>
+
+</rdf:RDF>

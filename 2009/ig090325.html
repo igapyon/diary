@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/25 日記: blanco Framework: blancoDb 直近の作業予定</TITLE>
+<META name="DESCRIPTION" content="blanco Framework として、blancoDb の直近の作業予定を以下のように計画しはじめています。">
+<META name="KEYWORDS" content="blanco,Framework,blancoDb,R/O,mapping">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/25 日記: blanco Framework: blancoDb 直近の作業予定</H2>
+    <P>[blanco,Framework,blancoDb,R/O,mapping] blanco Framework として、blancoDb の直近の作業予定を以下のように計画しはじめています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoDb 直近の作業予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2009-03-26追記</FONT> この日記は実際には 2009-03-26 に記述されました。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> として、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> の直近の作業予定を以下のように計画しはじめています。</P>
+<UL>
+  <LI>自動生成内容の改善
+  <UL>
+    <LI>引数無しコンストラクタの自動生成
+    <LI>Connection オブジェクトへのセッターおよびゲッターの自動生成
+    <LI>入力パラメータのバリューオブジェクト化。<BR>
+    →従来の setInputParameter の形式をどうするのか?
+    <LI>ログ専用の ID を追加する機能<BR>
+    ユーザ ID などをロギングしたい場合に有用。
+  </UL>
+  <LI>定義書
+  <UL>
+    <LI>言語独立定義書の定着
+    <LI>クラス名サフィックスを定義書で指定できるように改善<BR>
+    →デフォルトは 「Sql」とする。
+    <LI>動的 SQL を許容するかどうかのスイッチの追加
+  </UL>
+  <LI>改善など
+  <UL>
+    <LI>(.NET) Oracle 11g 対応
+    <LI>(可能であれば) jar ファイルの追加をプラグインの xml ファイルの編集無しで実現したい。
+    <LI>自動生成の単体試験を実施しやすいように改善したい (サンプルプロジェクトの作成)
+  </UL>
+</UL>
+<P>とりあえず .NET Framework 対応版のほうから先に処理する予定です。</P>
+<P>ただいま編集中…</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

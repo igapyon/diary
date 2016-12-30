@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030523.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030523.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054602,00.htm">
+    <title>ソニー、「情報家電のプラットフォームに最適なのはLinux」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054602,00.htm</link>
+    <description>ソニーはLinuxの情報家電への適用に極めて積極的ですからね。</description>
+    <dc:date>2003-05-23T23:07:34</dc:date>
+  </item>
+
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/030516/j_j-jstl0318.html">
+    <title>JSTL入門: 核心(core)に触れる カスタム・タグを用いたフロー制御とURL管理</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/030516/j_j-jstl0318.html</link>
+    <description>JSTLの紹介記事として 惹かれて斜め読みしました。</description>
+    <dc:date>2003-05-23T23:07:34</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054599,00.htm">
+    <title>Windows Server 2003のバックアップツールに不具合が発覚</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054599,00.htm</link>
+    <description>日本語版は これが修正された状態でリリースされることを期待したいです。</description>
+    <dc:date>2003-05-23T23:07:34</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054594,00.htm">
+    <title>サン、統合オフィスツール「StarSuite 6.1」のベータ版を配布開始</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054594,00.htm</link>
+    <description>PDF作成機能とか魅力あり、興味を感じます。</description>
+    <dc:date>2003-05-23T23:07:34</dc:date>
+  </item>
+
+</rdf:RDF>

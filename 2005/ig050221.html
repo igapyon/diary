@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</TITLE>
+<META name="DESCRIPTION" content="JExcelApi (Java Excel API)を用いたExcelファイルを新規作成するトイプログラムを作りました。サンプルソースコードをメモしておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,サンプル,JExcelApi,Excel.API">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,サンプル,JExcelApi,Excel.API] JExcelApi (Java Excel API)を用いたExcelファイルを新規作成するトイプログラムを作りました。サンプルソースコードをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>を使ってExcelブックを新規作成するサンプルです。</P>
+<p>確認に利用した動作環境</p>
+<ul>
+  <li>Sun Java2 SDK 1.5.0_01 (Windows版)</li>
+  <li>JExcelApi 2.5.7<BR>
+  <A HREF="http://jexcelapi.sourceforge.net/">http://jexcelapi.sourceforge.net/</A><BR>
+  <A HREF="http://sourceforge.net/projects/jexcelapi/">http://sourceforge.net/projects/jexcelapi/</A></li>
+</ul>
+<p>動作条件</p>
+<ul>
+  <li>JExcelApi にクラスパスが通してあること
+  <ul>
+    <li>jxl.jar</li>
+  </ul>
+</li>
+</ul>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">JxlWriteExcelSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * JExcelApi (Java Excel API): Excelファイルの新規作成サンプル
+ * Copyright (C) 2005 伊賀敏樹
+ * 作成日: 2005/02/21
+ */
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
+
+import jxl.Workbook;
+import jxl.WorkbookSettings;
+import jxl.write.DateTime;
+import jxl.write.Label;
+import jxl.write.Number;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.WriteException;
+
+/**
+ * @author Tosiki IGA
+ */
+public class JxlWriteExcelSample {
+
+    public static void main(String[] args) {
+        System.out.println(&quot;Excelブックを新規作成してファイル保存します.&quot;);
+        WritableWorkbook workbook = null;
+        try {
+            try {
+                WorkbookSettings settings = new WorkbookSettings();
+                // System.gc()「ガベージコレクション」の実行をOFFに設定
+                settings.setGCDisabled(true);
+                workbook = Workbook.createWorkbook(new File(&quot;OutputExcel.xls&quot;),
+                        settings);
+                if (workbook == null) {
+                    System.err.println(&quot;予期せぬ例外.指定のExcelブック作成に失敗しました.&quot;);
+                    return;
+                }
+
+            } catch (IOException ex) {
+                System.err.println(&quot;予期せぬ例外.指定のExcelブック作成に失敗しました.&quot;
+                        + &quot;ファイルがロックされているなどの可能性があります:&quot; + ex.toString());
+                return;
+            }
+            System.out.println(&quot;Excelシートを新規作成します.&quot;);
+            WritableSheet sheet = workbook.createSheet(&quot;Sheet1&quot;, 0);
+            if (sheet == null) {
+                System.err.println(&quot;予期せぬ例外.指定のExcelシート作成に失敗しました.&quot;);
+                return;
+            }
+
+            System.out.println(&quot;A列1行に文字列セルを新規作成します.&quot;);
+            Label label = new Label(0, 0, &quot;これは文字列です&quot;);
+            try {
+                sheet.addCell(label);
+            } catch (WriteException ex) {
+                System.err
+                        .println(&quot;予期せぬ例外.セルの書き込みに失敗しました(1).:&quot; + ex.toString());
+            }
+
+            System.out.println(&quot;A列2行に数値セルを新規作成します.&quot;);
+            Number number = new Number(0, 1, 1234.5678);
+            try {
+                sheet.addCell(number);
+            } catch (WriteException ex) {
+                System.err
+                        .println(&quot;予期せぬ例外.セルの書き込みに失敗しました(2).:&quot; + ex.toString());
+            }
+
+            System.out.println(&quot;B列1行に日付セルを新規作成します.&quot;);
+            Date now = Calendar.getInstance().getTime();
+            DateTime datetime = new DateTime(1, 0, now);
+            System.out.println(&quot;※単純に new Date()を与えると、タイムゾーン分ずれます.&quot;);
+            try {
+                sheet.addCell(datetime);
+            } catch (WriteException ex) {
+                System.err
+                        .println(&quot;予期せぬ例外.セルの書き込みに失敗しました(3).:&quot; + ex.toString());
+            }
+
+            try {
+                workbook.write();
+            } catch (IOException ex) {
+                System.err.println(&quot;予期せぬ例外.ワークブックの書き込みに失敗しました.:&quot;
+                        + ex.toString());
+            }
+            System.out.println(&quot;新規作成したExcelブックのファイル保存に成功しました.&quot;);
+        } finally {
+            try {
+                if (workbook != null) {
+                    workbook.close();
+                }
+            } catch (WriteException ex) {
+                System.err.println(&quot;予期せぬ例外.ワークブックのクローズに失敗しました(1).:&quot;
+                        + ex.toString());
+            } catch (IOException ex) {
+                System.err.println(&quot;予期せぬ例外.ワークブックのクローズに失敗しました(2).:&quot;
+                        + ex.toString());
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff0000">更新履歴</FONT></P>
+<UL>
+  <LI>2005.09.03 gcをOFFに設定するオプションを追加
+</UL>
+<P><FONT color="#ff00ff">他のJExcelApiのサンプル</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>
+</UL>
+<P><FONT color="#ff00ff">他のAPIによる同様の実装</FONT></P>
+<UL>
+  <LI><A href="ig050213.html">2005/02/13 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルを新規作成するサンプル</A>
+  <LI><A href="ig050610.html">2005/06/10 日記: Java: OpenOffice.org SDKを用いた Excelファイルを新規作成するサンプル</A>
+  <LI><a href="../2009/ig091208.html">2009/12/08 日記: Java: iText を用いた PDF ファイルを新規作成するサンプル</a>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

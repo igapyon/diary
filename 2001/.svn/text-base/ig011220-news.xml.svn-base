@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011220.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011220.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-20</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/12/14/632076-000.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0112/19/03.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0112/19/02.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0112/19/06.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0112/20/b_1219_03.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/12/14/632076-000.html">
+    <title>『StarSuite 6.0 Beta』のダウンロードが12月31日で終了─製品版は2002年第一四半期に登場</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/12/14/632076-000.html</link>
+    <description>SUNの無料オフィス。正式版の登場が楽しみです。</description>
+    <dc:date>2001-12-20T13:58:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0112/19/03.html">
+    <title>オムロン，実売7万円のパーソナルサーバを来春発売</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0112/19/03.html</link>
+    <description>見た感じ(外観)が 家庭用ゲーム機のように思えます (笑)</description>
+    <dc:date>2001-12-20T13:58:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0112/19/02.html">
+    <title>J-フォンもスパム受信制限を検討</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0112/19/02.html</link>
+    <description>スパム制限は早期に業界での常識となって欲しいです。</description>
+    <dc:date>2001-12-20T13:58:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0112/19/06.html">
+    <title>“踏み台化ウイルス”が増えそうだ　トレンドマイクロの年間レポート</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0112/19/06.html</link>
+    <description>今年はウィルスが非常に蔓延した年でしたね。日本では ウィルス元年? だったように私は勝手に思っています。</description>
+    <dc:date>2001-12-20T13:58:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0112/20/b_1219_03.html">
+    <title>PS2の販売台数は140万台。Xboxをリード</title>
+    <link>http://www.zdnet.co.jp/news/0112/20/b_1219_03.html</link>
+    <description>Xboxがそんなに売れているんだって事の方が意外性があります。伝統的にマイクロソフトのハードウェアって バグが多く 不安を感じるのですが…</description>
+    <dc:date>2001-12-20T13:58:38</dc:date>
+  </item>
+
+</rdf:RDF>

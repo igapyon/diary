@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2000/01/20 日記: NotesからのWindowsレジストリアクセス , Samba最低設定体験 , XZ for Linux体験</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:45+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2000/01/20 日記: NotesからのWindowsレジストリアクセス , Samba最低設定体験 , XZ for Linux体験</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NotesからWindowsレジストリアクセス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>大変恐縮なのですが、、、Lotus Notesクライアントから Windowsレジストリにアクセスするための一般的な方法をご存知の方
+いらっしゃったら 教えてほしいです。</P>
+<UL>
+  <LI>ロータス・スクリプトだけで実現できるのか？
+  <LI>OLE などを介することが必要条件なのか？
+  <LI>、、、これは よくある質問なのか？ (苦笑)
+  <LI>こんな情報が載っているWWWページはあるのか？
+</UL>
+<P>すみませんが、当日記ページの支援と思って ご存知の方は ぜひ お教えくださいませ。(かなり苦しいですね)<BR>
+些細な カスみたいと思われるような情報でも ウェルカムですので ど～ぞよろしく お願いいたします。</P>
+<P><FONT COLOR="#ff0000">2000/01/21 読者の方から助け船</FONT></P>
+<BLOCKQUOTE>
+  <P><FONT SIZE="-1">いがぴょん殿</FONT></P>
+  <P><FONT SIZE="-1">はじめまして、Bataと申します。<BR>
+  いつも楽しく日記を読まさせていただいております。</FONT></P>
+  <P><FONT SIZE="-1">参考になるかどうか分からないですが・・・<BR>
+  ※Lotusを使ったことがないので！！</FONT></P>
+  <P><FONT SIZE="-1">Lotusの開発サイトにそのような記事があったのでリンクだけですがメールいたします。</FONT></P>
+  <P><A href="http://search2.lotus.com/cgi-bin/web_fetch_doc.exe?dataset=WebDev1&db=WebDevA&query=Registry&doc_id=1359&id_type=int&doc_format=html"><FONT
+   SIZE="-1">http://search2.lotus.com/cgi-bin/web_fetch_doc.exe?dataset=WebDev1&amp;db=WebDevA&amp;query=Registry&amp;doc_id=1359&amp;id_type=int&amp;doc_format=html</FONT></A></P>
+  <P><FONT SIZE="-1">参考になったかでしょうか？</FONT></P>
+  <P><FONT SIZE="-1">では。<BR>
+  ----------------------------------------</FONT></P>
+</BLOCKQUOTE>
+<P><B><FONT COLOR="#ff00ff">ここから</FONT></B><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A></P>
+<P>早速の 情報突っ込み 大変ありがとうございます。</P>
+<P>ばっちりヒットでした。今すぐにでも レジストリアクセスできそうな感じです。(ソースコード付属なのが とてもうれしかったです)</P>
+<P>さっそく これで試してみます。</P>
+<P>重ね重ね 大変 ありがとうございます m(_._)m</P>
+<P><FONT COLOR="#ff0000">2000/02/01 大村先生から突っ込み</FONT></P>
+<BLOCKQUOTE>
+  <P><FONT SIZE="-1">テキストベースの REG file を用意しておいて、<BR>
+  REGEDT32 を起動するときに、その REG file をコマンドラインパラメーターで渡してやる<BR>
+  と言う方法はどうでしょうか？</FONT></P>
+  <P><FONT SIZE="-1">この方法だと、書き込みだけしかできませんが ....</FONT></P>
+  <P><FONT SIZE="-1">--</FONT></P>
+  <P><FONT SIZE="-1">Tadashi Ohmura　大村忠史</FONT></P>
+</BLOCKQUOTE>
+<P>御大自ら筆をお取り頂き 誠にありがとうございます。</P>
+<P>書き込みのみの際は これが一番正攻法ですね。(インストーラを書いたりする際に よく利用されます)</P>
+<TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0">
+  <TR>
+    <TD VALIGN="TOP" BGCOLOR="#33cccb">
+    <B><FONT COLOR="#ffffff" SIZE="+1">red hat Linux6.1 日本語版 商用版</FONT></B></TD> 
+  </TR>
+
+</TABLE>
+<P>まじめに Linuxと向き合うようになってきたので、red hat Linux6.1 日本語版 商用版を購入してきました。</P>
+<UL>
+  <LI>ATOKのセットアップが 超面倒
+  <LI>付属フォントが どぼっと ただCDに収められているだけ。使いたきゃ X-TT をぶち込めとさ。まじかいや。
+</UL>
+<P>これ ほんまに商品かいな。ftp公式版と どこがど～違うねん って感じ。付属商用ソフトが すぐ使えるようにしてからリリースしろって 思ってしまいました。<BR>
+がくぜんとしてしまいましたが、 とりあえず Vine Linux 2.0 のリリースを心待ちにすることにしました。<BR>
+でも <A>プロ</A>的には red hat Linux 6.1 日本語版 商用版 が リファレンスな Linuxディストリビューションだから 仕方ないか (T_T) しばらく我慢してみます。<BR>
+、、、<BR>
+なんていいながら とりあえず ATOKが動いたときは ちょっとうれしかったです。</P>
+<TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0">
+  <TR>
+    <TD VALIGN="TOP" BGCOLOR="#33cccb">
+    <B><FONT COLOR="#ffffff" SIZE="+1">Samba + SWAT 初めて体験</FONT></B></TD> 
+  </TR>
+
+</TABLE>
+<P>red hat Linux6.1日本語版に Samba を初めて入れて体験しました。<BR>
+Sambaは現時点での最新版 2.0.5aJP2-6 の rpm形式のものを ftpで抜いてきて利用しました。</P>
+<P><B><FONT COLOR="#ff00ff" SIZE="+1">最低のSambaサーバ設定</FONT></B>
+(ファイル共有)</P>
+<P>私は 根っからの GUI野郎なので、すぐさま SWATに手を出しました。</P>
+<UL>
+  <LI>/etc/inted.conf の swat の行がコメントアウトされているのを 解除して有効にする
+  <LI>Netscape にて IPアドレス:901 で接続 SWAT画面を開く
+  <LI>SWAT: 基本設定で 暗号化あり に設定
+  <LI>SWAT: 新規に共有を作成。
+  <LI>SWAT: パスワードのところで 新たにユーザ＋パスワードを追加
+  <LI>SWAT: smbd を起動
+  <LI>WindowsNT4.0から新規共有してみる
+</UL>
+<P>動きました。Samba って 便利ですね。これなら 私のような Windows野郎ですら設定可能でした。(ゆ～ても vi は最低レベル範囲で利用が必要)<BR>
+試しに ルート (/) を 読み込みで共有にして WindowsNT4.0からマウントしてみました。こりゃすごいわ (爆笑)</P>
+<P><FONT COLOR="#ff0000">2000/02/08</FONT> 変な話ですが、Sambaサーバ on
+Linux って WindowsNTサーバより 高速に動作します。というのも Linux(2.2) はメモリの利用効率が良く、メモリの空きは
+ガンガン ファイル入出力キャッシュに利用されるからです。いやぁ ものすんごく高速です。はい。</P>
+<P><B><FONT COLOR="#ff00ff" SIZE="+1">最低のSambaクライアント設定</FONT></B>
+(ファイル共有でマウントスタイル)</P>
+<UL>
+  <LI>smbmount //IPアドレス/共有名 -U ユーザ名
+</UL>
+<P><FONT COLOR="#ff0000">2000/02/08</FONT> ところが、後日 上記記述だと接続できませんでした。なんでなんやろう。深まる謎。(とゆ～か
+今回はドメコンのパスワードで行こうとしたから これが問題だったのやも)</P>
+<P>こいつわ便利だわ。一撃でした。Windowsとの共存を考えるのなら、すぐさま採用って感じです。<BR>
+なお、ドメインでWindowsネットワークを構成しているのなら、とりあえずローカルユーザを登録して 弱気な設定で進むのがよろしいかと思われました。</P>
+<P><B><FONT COLOR="#ff00ff">2000/02/04 追記</FONT></B></P>
+<P>自動起動に関して、目的のランレベルのディレクトリにて (たとえば /etc/rc.d/rc3.d)</P>
+<UL>
+  <LI>ln -s ../init.d/smb S51smb
+</UL>
+<P>みたいにすれば 自動起動が可能。(ああ、だんだんGUIが面倒になってきて 片っ端から CUIで設定している自分が怖い)</P>
+<TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0">
+  <TR>
+    <TD VALIGN="TOP" BGCOLOR="#33cccb">
+    <B><FONT COLOR="#ffffff" SIZE="+1">XZ for Linux 開発途上版体験</FONT></B></TD> 
+  </TR>
+
+</TABLE>
+<P><A href="http://www.villagecenter.co.jp/soft/xz/">XZ for Linux</A> (エディタ) の開発途上版を体験しました。こりゃいいです。<BR>
+というか 私は WZ Editor や <A href="http://www.villagecenter.co.jp/soft/xz/">XZ
+for Linux</A>が vzエディタの後継だったんだって 今日初めて知りました。<BR>
+なんで驚いたかっていうと、私は 大学生のころから 社会人でDOSやっていたころまで 超vzエディタユーザだったのです。<BR>
+Windowsになって 仕方なく 秀丸エディタに移行し 今では 秀丸エディタ無しでは行きられないくらい依存しておりました。<BR>
+、、、そこに <A href="http://www.villagecenter.co.jp/soft/xz/">XZ
+for Linux</A>ってぇのが Linux用としてリリースされるんだってのだから、すごく燃えます。<BR>
+で ftpでぶち抜いてきて、red hat Linux6.1 に入れたら これがとってもしっくり行くのです。<BR>
+emacs で行番号表示できないかと不安になってきたので、も～ xzエディタで決まりかなって感じ (ほんまかいな)<BR>
+しばらく <A href="http://www.villagecenter.co.jp/soft/xz/">XZ for
+Linux</A>べったりで 行こうと思います。<BR>
+早く 製品版がリリースされることを祈ります。</P>
+<TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0">
+  <TR>
+    <TD VALIGN="TOP" BGCOLOR="#33cccb">
+    <B><FONT COLOR="#ffffff" SIZE="+1">その他</FONT></B></TD> 
+  </TR>
+
+</TABLE>
+<P>SUN JDK1.2.2 RC2 などをぶち込んでみたり、JBuilder3 なぞをぶち込んでみたり、まぁ ぶち込んでみました。<BR>
+nkf とか VNC とか 自動的にぶち込む シェルファイルを作成して ちょっと楽しかったです。<BR>
+いわば、いがぴょん 利用環境自動構築シェルファイルって感じですね。(そういや 先日 似たやつで ORACLE簡単インストールシェルプログラムを書きました)<BR>
+いやはや Linux (UNIX類) は便利ですね。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:45 $</address>
+</BODY>
+</HTML>

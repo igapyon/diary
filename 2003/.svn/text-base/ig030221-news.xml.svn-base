@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030221.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030221.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-21T09:44:54</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/13/nj00_nakajima2.html">
+    <title>中島平太郎氏インタビュー（2）-「著作権」と「音質」――CDの生みの親が呈する苦言-</title>
+    <link>http://www.zdnet.co.jp/news/0302/13/nj00_nakajima2.html</link>
+    <description>パソコンも含めた音質に関する いろいろな意見。『CD-Rは現在、ドライブもメディアも低価格化と高速化の弊害で品質が悪くなりがち。』のクダリが とっても心に引っかかります。4倍速＆1枚200円～300円でいいから 超音質CD-Rを出して欲しいです。超高音質CD-R/RWドライブってのが6～7万円程度で出たら やっぱり買ってしまいそうです。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/14/nebt_20.html">
+    <title>Motorola「携帯の過半数をLinuxベースに」</title>
+    <link>http://www.zdnet.co.jp/news/0302/14/nebt_20.html</link>
+    <description>Linuxが携帯に進出するのは ごく普通の流れですよね。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/15/nebt_01.html">
+    <title>Javaサーバにオープンソースの脅威</title>
+    <link>http://www.zdnet.co.jp/news/0302/15/nebt_01.html</link>
+    <description>「サービスとサポートの質にある」のクダリに強く同意します。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/commons/fileupload/">
+    <title>Jakarta Commons: FileUpload</title>
+    <link>http://jakarta.apache.org/commons/fileupload/</link>
+    <description>Servletにファイルアップロード機能を提供するライブラリ。現在βレベル。結構嬉しいライブラリかも…</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/231915">
+    <title>米BEAがJVMの新版「BEA WebLogic JRockit 8.0」を公開</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/231915</link>
+    <description>記事中に「BEA WebLogic JRockit 8.0は、直ちに無料で利用可能とする。」との記載があるのが気になりました。JRocketが無料で利用できるなんて 大変興味深いのですもの。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/broadband/0302/12/lp07.html">
+    <title>ADSL、600万回線を突破</title>
+    <link>http://www.zdnet.co.jp/broadband/0302/12/lp07.html</link>
+    <description>高速インターネット接続が日本で普及し続けている ということを知らしめさせられるニュース。そもそも高速インターネット接続がもたらす意義・意味なんて何だろう って事を考える暇もなく どんどん普及していっている感があります。ある意味恐ろしいことですね…。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/easyxml/easyxml01/easyxml01_01.html">
+    <title>@IT: .NETで簡単XML -第1回 XML超入門-</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/easyxml/easyxml01/easyxml01_01.html</link>
+    <description>身近なXMLサンプルから入っていく 良くできた記事。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/special/story/0,2000047679,20052275,00.htm">
+    <title>企業の架け橋となったWebサービス</title>
+    <link>http://japan.cnet.com/news/special/story/0,2000047679,20052275,00.htm</link>
+    <description>単にFTPや全銀手順なんかのの代用として、地に足のついた形としてWebサービスって流行っていますよね。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/14/nebt_08.html">
+    <title>JavaとSolaris、相性に問題？</title>
+    <link>http://www.zdnet.co.jp/news/0302/14/nebt_08.html</link>
+    <description>Sunにしてみれば、悪い冗談や悪夢のような内容ですよね。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/15/nebt_11.html">
+    <title>IBM、Linux PDA用にTrolltechからソフトライセンス</title>
+    <link>http://www.zdnet.co.jp/news/0302/15/nebt_11.html</link>
+    <description>PDAのLinux化は 今後ともどんどん続いていきそうですね。</description>
+    <dc:date>2003-02-21T09:56:24</dc:date>
+  </item>
+
+
+</rdf:RDF>

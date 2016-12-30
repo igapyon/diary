@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020502.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020502.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-02T08:32:16</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/05/02/635535-000.html">
+    <title>『OpenOffice.org 1.0』登場!</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/05/02/635535-000.html</link>
+    <description>OpenOfficeの初リリースです。オープンソースでWindowsでもLinuxでも動作するオフィスソフトとして大きな期待を持たれているオフィスソフトです。ライセンスはLGPLとSISSLとによるデュアルライセンスです。</description>
+    <dc:date>2002-05-02T16:16:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.openoffice.org">
+    <title>OpenOffice.org 1.0 リリース</title>
+    <link>http://www.openoffice.org</link>
+    <description>OpenOffice の 1.0が初リリースです。ただし当初は日本語版もリリースかと思ったのですが、5/1 16:52時点においてリリースされているのは英語版のみです。その点 ご注意を。</description>
+    <dc:date>2002-05-02T08:35:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.bc.wakwak.com/~kei/freesoft/freesoft.html">
+    <title>＠ガッテン</title>
+    <link>http://www.bc.wakwak.com/~kei/freesoft/freesoft.html</link>
+    <description>フリーソフト紹介ウェブページ。結構目をひきました。</description>
+    <dc:date>2002-05-02T16:40:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/01/b_0430_06.html">
+    <title>W3Cがアニメーション規格「SVG 1.1」リリース</title>
+    <link>http://www.zdnet.co.jp/news/0205/01/b_0430_06.html</link>
+    <description>SVGも成長してきましたねぇ。</description>
+    <dc:date>2002-05-02T08:35:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/terrarium/terrarium01/terrarium01_01.html">
+    <title>テラリウム徹底攻略ガイド</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/terrarium/terrarium01/terrarium01_01.html</link>
+    <description>マイクロソフト、やるなぁって感じです。(日記MLの話題を転記したいのですが、時間切れです。みなさん すんません。)</description>
+    <dc:date>2002-05-02T08:35:07</dc:date>
+  </item>
+
+</rdf:RDF>

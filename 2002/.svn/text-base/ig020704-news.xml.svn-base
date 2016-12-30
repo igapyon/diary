@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020704.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020704.html</link>
+    <language>ja</language>
+    <dc:date>2002-07-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.nakka.com/wwwc/index.html">
+    <title>WWWC 1.0.2 リリース</title>
+    <link>http://www.nakka.com/wwwc/index.html</link>
+    <description>nakkaさんの WWWC がリビジョンアップリリースです。幾つかのバグフィックスリリースなのだそうです。私がよく出会うバグも修正されているような雰囲気。早速ダウンロード！</description>
+    <dc:date>2002-07-04T09:02:47</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/04/nebt_03.html">
+    <title>携帯端末用のJava、新版リリース間近</title>
+    <link>http://www.zdnet.co.jp/news/0207/04/nebt_03.html</link>
+    <description>MIDPの新版がリリース間近なのだそうな。Javaも頑張っていますねぇ。</description>
+    <dc:date>2002-07-04T09:32:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/04/nebt_06.html">
+    <title>Apple、政府のセキュリティテストに自社OSを提出</title>
+    <link>http://www.zdnet.co.jp/news/0207/04/nebt_06.html</link>
+    <description>Mac OS X は ベースがunixだけに どのような採点結果が出るのか楽しみです。</description>
+    <dc:date>2002-07-04T12:00:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0207/04/nebt_10.html">
+    <title>Opera、Linux関連のニュース連発</title>
+    <link>http://www.zdnet.co.jp/news/0207/04/nebt_10.html</link>
+    <description>Operaも頑張っているのですね。</description>
+    <dc:date>2002-07-04T12:00:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/pc/docs/2002/0701/gyokai31.htm">
+    <title>価格.com創業者が、第一線を退く理由</title>
+    <link>http://www.watch.impress.co.jp/pc/docs/2002/0701/gyokai31.htm</link>
+    <description>価格.comの創業者さんの小話。面白く読ませて頂きました。</description>
+    <dc:date>2002-07-04T09:02:47</dc:date>
+  </item>
+  <item rdf:about="http://k-tai.impress.co.jp/cda/article/news_toppage/0,,10038,00.html">
+    <title>２つの迷惑メール対策法、その内容は？</title>
+    <link>http://k-tai.impress.co.jp/cda/article/news_toppage/0,,10038,00.html</link>
+    <description>今 世間的にトレンドな迷惑メール対策法の記事。</description>
+    <dc:date>2002-07-04T09:02:47</dc:date>
+  </item>
+
+</rdf:RDF>

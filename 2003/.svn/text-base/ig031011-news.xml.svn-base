@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031011.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031011.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/10/njbt_03.html">
+    <title>文字サイズが13倍　ユニバーサルデザインの木製キーボード</title>
+    <link>http://www.zdnet.co.jp/news/0310/10/njbt_03.html</link>
+    <description>おもわず惹かれます。衝動買いしそうな危険な商品ですなぁ。『カラーかなキーボード 』なんて ひらがなしか読めない子供に使わせるにも かなり良さそうですから。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/11/nebt_04.html">
+    <title>IBM、ブラジルのオープンソース推進に協力</title>
+    <link>http://www.zdnet.co.jp/news/0310/11/nebt_04.html</link>
+    <description>オープンソース専門性向上を支援するのだそうな。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061337,00.htm">
+    <title>セキュリティ専門家：「IEには穴がいっぱい」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061337,00.htm</link>
+    <description>セキュリティホールに関する指摘記事。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20061346,00.htm">
+    <title>ACCESS、マイクロブラウザNetFront搭載機がついに1億台</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20061346,00.htm</link>
+    <description>1億台って これまたとんでもない台数ですねぇ。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/11/nebt_05.html">
+    <title>大手企業で進むLinuxへの移行</title>
+    <link>http://www.zdnet.co.jp/news/0310/11/nebt_05.html</link>
+    <description>印象とは関係なく Linuxって まず大手企業のような人数的に余裕を出すことができる企業から、すなわち大企業から主導で展開されていくように思います。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/survey/sv02/sv02.html">
+    <title>第2回　読者調査結果発表 -8割の技術者がヒューマンスキル向上に前向き-</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/survey/sv02/sv02.html</link>
+    <description>Linuxやセキュリティに関する技術が人気爆発なのだそうな。ほほう。一方でコミュニケーション力に人気があるのは そのこと自身は妥当だと思うものの 皆がコミュニケーション力にフォーカスしているということそのものは 結構驚きに値します。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061350,00.htm">
+    <title>Linuxカーネル2.6正式版、12月にリリースへ</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061350,00.htm</link>
+    <description>2.6リリースはとっても楽しみで待ち遠しいです。わくわく。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20061339,00.htm">
+    <title>京セラの携帯電話機「Phantom」でも爆発事故、出荷停止に</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20061339,00.htm</link>
+    <description>ば、、、爆発？ おそろしや。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061325,00.htm">
+    <title>サーバOS市場は依然として米マイクロソフトが支配</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061325,00.htm</link>
+    <description>ハードウェアのIntelベースへの移行という点も見逃すことが出来ない模様。びっくりです。</description>
+    <dc:date>2003-10-13T10:50:43</dc:date>
+  </item>
+
+</rdf:RDF>

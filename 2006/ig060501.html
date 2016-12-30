@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/05/01 日記: blancoDb Enterprise Edition 1.6.4 RC3リリース</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの R/Oマッピングツールである blancoDb Enterprise Edition について、再度RCリリースを出し直します。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/05/01 日記: blancoDb Enterprise Edition 1.6.4 RC3リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの R/Oマッピングツールである blancoDb Enterprise Edition について、再度RCリリースを出し直します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition 1.6.4 RC3リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のR/Oマッピングツールである <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>
+Enterprise Edition ですが、利用者の方から不具合報告をいただき、こちらの不具合を修正した版を作成したうえで再度RCリリースを出し直させていただきます。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.6.4 RC3
+</UL>
+<P>変更点についてですが、単一表アクセサ自動生成の機能において バイナリ型または大きなテキスト型をマッピングする際に、JDBCドライバの仕様(?)
+によって next()メソッドの２度呼び出しの際に 前のnextで取得したストリームまたはリーダが閉じてしまうという現象に遭遇しないようにするための修正(仕様変更)となります。具体的には、これら条件にマッチするようなアクセサ自動生成時に、「必ず一件検索」の制約を付けないようにするような変更です。バイナリ型または大きなテキスト型を単一表アクセスで生成させる場合が影響範囲となります。</P>
+<P>今回 RC3としてリリースしたファイルをもちいて、明日 私自身も 再度 ひととおりの試験を行う予定です。不具合がないことが確認されたら、こちらの版を正式版とする予定です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

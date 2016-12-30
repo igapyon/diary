@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030613.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030613.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/13/epn10.html">
+    <title>NEC、国内初の金融機関向けオープン勘定系システム稼動を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/13/epn10.html</link>
+    <description>『UNIXを全面的に採用した勘定系システム』は国内初なのだそうな。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://amrita.s14.xrea.com/files/tada.html">
+    <title>タダ働きが世界を動かす -タダ働きするプログラマたち-</title>
+    <link>http://amrita.s14.xrea.com/files/tada.html</link>
+    <description>タイトルをぱっと見、サービス残業を思い浮かべてしまいました。それはさておき、この文章は オープンソースなんてものを良く分かっていない人にも理解できるような 簡潔でしっかりした文章でした。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0306/12/epn01.html">
+    <title>基調講演：ベールを脱ぐ「Project Rave」、Javaデベロッパーを1000万人へ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0306/12/epn01.html</link>
+    <description>『Project Raveのビジュアル開発インタフェース』を見たら 結構見栄え系で 好きになることができそうな予感がしました。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/11/njbt_03.html">
+    <title>「MIFES」をLinuxコンソールで　ダウンロード版発売</title>
+    <link>http://www.zdnet.co.jp/news/0306/11/njbt_03.html</link>
+    <description>マイフェス、懐かしい。とりあえず まず体験版で体験してみたくなりました。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/11/njbt_02.html">
+    <title>アドビ、PDF閲覧ソフト「Reader」日本語版を公開</title>
+    <link>http://www.zdnet.co.jp/news/0306/11/njbt_02.html</link>
+    <description>「Adobe Reader 6.0 日本語版」の無償ダウンロードが開始なのだそうな。Acrobatの文字が消えたのが私には大変に違和感あります…。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/11/njbt_08.html">
+    <title>手を叩けば最適音場を自動設定　ビクターがAVアンプ新製品</title>
+    <link>http://www.zdnet.co.jp/news/0306/11/njbt_08.html</link>
+    <description>微妙に物欲を誘う商品です。いつかお金持ちになったら…。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055261,00.htm">
+    <title>サン、Java Research Licenseを発表：Javaのオープンソース化を促進</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055261,00.htm</link>
+    <description>非商用の範囲で ある程度ソースコードを自由にいじって遊べるようにしようとするものである模様。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055284,00.htm">
+    <title>JavaがHPとデルの全PCに：サン、起死回生の一撃となるか？</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055284,00.htm</link>
+    <description>HPとデルのPCにJ2REが標準搭載されるんですって。ほおお。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/pers/story/0,2000047682,20055150,00.htm">
+    <title>Yahoo! BBは本当に大丈夫か</title>
+    <link>http://japan.cnet.com/news/pers/story/0,2000047682,20055150,00.htm</link>
+    <description>ある程度流行ったので、いきなしダメになると困る人がとても多いので困ります。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055303,00.htm">
+    <title>米アップル、「UNIX」の名称使用を巡りOpen Groupと係争中</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055303,00.htm</link>
+    <description>ほええ？ SCO問題と同時期に出てくると もはや理解不能です。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/250736">
+    <title>描ききれぬ成長戦略、「利益率10％」構想の虚と実---ソニー</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/250736</link>
+    <description>ソニーって元気ないんでしょうか？ 不思議です。強そうな企業なのに。</description>
+    <dc:date>2003-06-13T16:52:52</dc:date>
+  </item>
+
+</rdf:RDF>

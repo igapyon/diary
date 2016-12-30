@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030223.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030223.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://homepage2.nifty.com/igat/igapyon/soft/jssaver_ja.html">
+    <title>JScreenSaver (jssaver)</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/soft/jssaver_ja.html</link>
+    <description>Java言語でWindows用スクリーンセーバーを作成するツールが初のstableリリース。(我田引水)</description>
+    <dc:date>2003-02-23T12:53:59</dc:date>
+  </item>
+
+</rdf:RDF>

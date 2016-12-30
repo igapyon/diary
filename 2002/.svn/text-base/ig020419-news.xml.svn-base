@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020419.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020419.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/04/18/635266-000.html">
+    <title>Vine Linux 2.5 FTP版リリース</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/04/18/635266-000.html</link>
+    <description>商用版は2002/04/26発売。ftp版は 例えば5月8日発売の「Linux Magazine」6月号に添付されるとのこと。</description>
+    <dc:date>2002-04-19T09:01:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/19/b_0418_02.html">
+    <title>Mozilla 1.0のRC1リリース</title>
+    <link>http://www.zdnet.co.jp/news/0204/19/b_0418_02.html</link>
+    <description>さあて 正式リリースが近づいてきました q(^o^)P</description>
+    <dc:date>2002-04-19T09:01:23</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/business/update/0417/026.html">
+    <title>ネット家電、東芝が本格販売</title>
+    <link>http://www.asahi.com/business/update/0417/026.html</link>
+    <description>ああっ、面白そうです。でも衝動買いするには値段が高すぎるなぁ (笑)</description>
+    <dc:date>2002-04-19T09:01:23</dc:date>
+  </item>
+
+</rdf:RDF>

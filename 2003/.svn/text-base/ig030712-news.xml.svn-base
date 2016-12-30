@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030712.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030712.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/11/njbt_02.html">
+    <title>エプソンダイレクト、7万円台で省スペースPCとLCDをセット販売</title>
+    <link>http://www.zdnet.co.jp/news/0307/11/njbt_02.html</link>
+    <description>なにげに安そう…</description>
+    <dc:date>2003-07-12T11:19:16</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20059870,00.htm">
+    <title>6月末のDSLサービス提供数は約826万回線、次第に増加ペースが鈍化</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20059870,00.htm</link>
+    <description>どんどん鈍化していくことでしょう。</description>
+    <dc:date>2003-07-12T11:19:16</dc:date>
+  </item>
+
+</rdf:RDF>

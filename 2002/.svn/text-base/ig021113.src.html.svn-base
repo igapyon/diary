@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/11/13 日記: Javaプログラミング[アプリケーション編] ステップアップラーニング</TITLE>
+<META name="DESCRIPTION" content="チューリップ本が ごく一部の書店に並び始めました。 , HotSpotの話題、および J2SE 1.2から1.3および1.4になった際のパフォーマンス面の変更点">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍、Javaプログラミング[アプリケーション編] ステップアップラーニング が店頭に並び始めました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>以前書いていた Java入門本が ようやく <STRONG>ごく一部の書店</STRONG>に並び始めました (テスト販売というフェーズらしい…)<BR>
+<FONT color="#ff0000">2002.11.15 追記</FONT> 販売開始は 11/15 であるようです。さて 身近な書店に並び始めるのはいつ頃のことでしょう
+(笑)</P>
+<CENTER>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD><A href="http://www.gihyo.co.jp/books/syoseki.php/4-7741-1612-2"><IMG src="http://www.gihyo.co.jp/book/2002/404661/img404661.jpg" border="0"></A></TD>
+      <TD>
+      <UL>
+        <LI>Javaプログラミング[アプリケーション編] ステップアップラーニング[replace-isbn:4774116122]<BR>
+        平成14年12月25日 初版<BR>
+        著者：伊賀敏樹<BR>
+        発行所：技術評論社<BR>
+        ISBN4-7741-1612-2
+      </UL>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<P>今日は東京出張だったので、<A href="http://www.kinokuniya.co.jp/">紀伊国屋書店</A>新宿本店に行きました。ありました！ 私の本が平積みされている姿を 初めて見ました。で
+思わず一冊 購入しました。見本誌なるものは既に貰っていたのですが、店頭に並んでいるのをみて
+購買衝動が抑えられませんでした。<BR>
+また、<A href="../../book/jasl.html">サポートページ</A>を開設しました。(既に複数の誤字脱字を発見してしまいました)</P>
+<P>ところで 最近の コンピュータ関連書籍売れ筋ランキングって どこがモニターされているのかしら…って思ってGoogle検索してみました。</P>
+<UL>
+  <LI>コンピュータ(書泉グランデ調べ)<BR>
+  [replace-href:http://headlines.yahoo.co.jp/ranking/php/book/pc.html]
+  <LI>cbook24.com販売ランキング<BR>
+  [replace-href:http://www.cbook24.com/pubinclude/salesrank/salesrank_main.asp]
+</UL>
+<P>ず～っと以前 <A href="http://www.kinokuniya.co.jp/">紀伊国屋書店</A>新宿本店の売上がインターネットから閲覧できたのですが、最近は 書泉グランデ
+の方がメジャーなのかしらん(?)<BR>
+今回購入したのは ノーカウントか などと意味不明な感想を持ちました。事前にわかっていれば
+書泉グランデに行って買ってきたのですが… (笑)</P>
+<HR>
+<P>[replace-link:結城浩]<FONT color="#ff00ff">さんから</FONT><BR>
+Subject: [igapyon:01040] 出版おめでとうございます<BR>
+いがぴょんさん、出版おめでとうございます(^o^)/<BR>----<BR>
+結城浩 [replace-href:http://www.hyuki.com/]</P>
+<HR>
+<P><FONT color="#ff00ff">木村さんから</FONT><BR>
+Subject:  [igapyon:01041] Re: 出版おめでとうございます<BR>
+木村です。<BR>
+おおっやっぱりJavaの本でしたか。さっそく入手して、東京で飲み会があるときにサインしてもらおう。(ミーハー?)</P>
+<HR>
+<P>[replace-link:渡辺義則]<FONT color="#ff00ff">さんから</FONT><BR>
+Subject:  [igapyon:01042] Re: 出版おめでとうございます<BR>
+渡辺義則（Aさん）です。<BR>
+おぉ～、ついに出たんですね！おめでとうございます。<BR>
+大阪でサイン会はやらないんですか？＞伊賀さん</P>
+<HR>
+<P>[replace-link:林信一]<FONT color="#ff00ff">さんから</FONT><BR>
+Subject: [igapyon:01044] Re: 出版おめでとうございます<BR>
+林です。<BR>
+いがぴょんさん、出版おめでとうございます。<BR>
+<BR>
+早速、近場で調査。<BR>
+　ジュンク堂　池袋本店<BR>
+　リブロ    　池袋店<BR>
+　リブロ    　東池袋店<BR>
+　Bic P kan 　池袋本店<BR>
+<BR>
+残念ながら、今のところ全滅でした。<BR>
+あらためてみると、javaの入門者向けの本って何冊も出ていますね。</P>
+<HR>
+<P><FONT color="#ff00ff">的場さんから</FONT><BR>
+Subject:  [igapyon:01045] Re: 出版おめでとうございます<BR>
+的場です。<BR>
+<BR>
+cbook24.comで買えるようになってますね。<BR>
+[replace-href:http://www.cbook24.com/bm_detail.asp?sku=4774116122]</P>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+みなさま お祝いの言葉などいただき、どうもありがとうございます。大変嬉しいです q(^o^)P<BR>
+今日(11/15)が発売日であるようなので、紀伊国屋梅田店に行ってみます。(首都圏よりも遅れて大阪はまだ並んでいないかも知れませんけれども…)<BR>
+そして 店頭に並んでいたら またまた衝動買いしてしまうかも (苦笑)</P>
+<P>サイン会はさておき、いがぴょんの日記オフ会を 久しぶりに開催してみるのも面白そうですね。ここのところの私といえば、多少は仕事の忙しさが改善されてきています。<BR>
+むろんサインを求められれば <FONT color="#ff00ff"><STRONG>喜んで</STRONG></FONT>サインしますけれども… 私 めちゃめちゃ字が下手なので、サインしたら そのきちゃない字を見て恐縮してしまうのです
+(苦笑)</P>
+<HR>
+<P>[replace-link:林信一]<FONT color="#ff00ff">さんから</FONT><BR>こんにちは　林です。<BR>
+<BR>
+&gt; 　ジュンク堂　池袋本店<BR>
+&gt; 　リブロ    　池袋店<BR>
+<BR>
+上記２店に並んでました。<BR>
+早速購入させていただきました。<BR>
+<BR>
+&gt; 　リブロ    　東池袋店<BR>
+<BR>
+ここは、まだありません。<BR>
+#というか、小さい本屋なので、ある程度人気がある本しか入らないかもしれません。<BR>
+<BR>
+&gt; 　Bic P kan 　池袋本店<BR>
+<BR>
+未調査です。<BR>
+#方向がちがうので(汗)</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">関連するページ</FONT></STRONG></P>
+<UL>
+  <LI><A href="../../book/jasl.html">書籍: Javaプログラミング[アプリケーション編] ステップアップラーニング</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>陳列発見＆未陳列</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今 陳列されているのを発見された方は 伊賀までご一報を (笑)</P>
+<UL>
+  <LI>2002.11.13 紀伊国屋新宿本店にて 平積みで陳列されているのを発見 (t.iga)
+  <LI>2002.11.13 紀伊国屋梅田店では 陳列されていませんでした (t.iga)
+  <LI>2002.11.14 ジュンク堂　池袋本店 × (林信一さん)
+  <LI>2002.11.14 リブロ 　池袋店 × (林信一さん)
+  <LI>2002.11.14 リブロ 　東池袋店 × (林信一さん)
+  <LI>2002.11.14 Bic P kan 　池袋本店 × (林信一さん)
+  <LI>2002.11.15 ジュンク堂　池袋本店 ○ (林信一さん)
+  <LI>2002.11.15 リブロ 　池袋店 ○ (林信一さん)
+  <LI>2002.11.15 リブロ 　東池袋店 × (林信一さん)
+  <LI>2002.11.16 大阪 千里中央 田村書店 (スガさん)
+  <LI>2002.11.18 名古屋市中区栄 マナハウス (SAGANOさん)
+  <LI>2002.11.18 紀伊国屋梅田店で平積み陳列されていました (t.iga) ようやく梅田にも伝播してきました。
+</UL>
+<P>首都圏の大きい本屋には 2002.11.18頃には行き渡る とのことでした…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HotSpotの話題 および J2SE 1.2から1.3および1.4への パフォーマンス面での変更点</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょっと頼まれて J2SE 1.2に比べた際の J2SE 1.3 や 1.4 のパフォーマンスの拡張について
+ドキュメントベースで調査しました。</P>
+<UL>
+  <LI><A href="http://java.sun.com/j2se/1.3/ja/docs/ja/guide/performance/">J2SE 1.3 パフォーマンスの拡張</A>
+  <OL>
+    <LI><A href="http://java.sun.com/j2se/1.3/ja/docs/ja/guide/performance/hotspot.html">Java HotSpot Client Virtual Machine および Java HotSpot Server Virtual
+    Machine</A><BR>
+    HotSpotそのものが追加されたのは J2SE 1.3 からです。また HotSpot Serverについては
+    Windows版は 別途ダウンロードの必要があります。
+    <LI><A href="http://java.sun.com/j2se/1.3/ja/docs/ja/guide/performance/startup.html">起動時間およびメモリサイズの改善</A><BR>
+    内部 VM データ構造のサイズの削減がなされているようです。これにより 従来と同じプログラムを動作させた際の利用メモリ量が削減されます。
+    <LI><A href="http://java.sun.com/j2se/1.3/ja/docs/ja/guide/performance/speed.html">プログラム実行速度の改善</A><BR>
+    GUI系の速度強化などが施されているそうです。
+  </OL>
+  <LI><A href="http://java.sun.com/j2se/1.4/ja/docs/ja/guide/performance/index.html">J2SE 1.4 パフォーマンスの拡張</A>
+  <OL>
+    <LI>リフレクト処理が改善されているようです。これにより RMIの実行速度が向上されるか？
+    (EJBの速度向上???)
+    <LI>HTTP ストリーミング の実行速度が改善されているそうです。
+  </OL>
+</UL>
+<P>HotSpotの採用だけを考えたら J2SE 1.3 で十分であるようですね。HotSpot Server
+は 1.3でも1.4でも 別途ダウンロードの必要があるようです。一方 利触れ苦と処理の改善や
+HTTPストリーミングの改善などは ウェブサーバ挙動の速度向上に関係ありそうです。</P>
+<P><STRONG><FONT color="#ff00ff">関係しそうなリソース</FONT></STRONG></P>
+<UL>
+  <LI><A href="http://java.sun.com/docs/hotspot/PerformanceFAQ.html">Java HotSpot FAQ</A> (英語)
+  <LI><A href="http://java.sun.com/docs/hotspot/VMOptions.html">JavaTM HotSpot VM Options</A> (英語)
+</UL>
+<P>ところが HotSpot Serverのダウンロードが見つけられませんでした。Java HotSpot
+Virtual Machine 2.0 のソースコードは発見できたのですが… (苦笑)<BR>
+ついでに -Xrsについても調べてみました。が これは 1.3以降のものであるようです。また
+速度向上の御利益は無さそうです。</P>
+<HR>
+<P><STRONG><FONT color="#ff0000">2002.11.14</FONT></STRONG>  あおのさんからツッコミ<BR>
+いがぴょんさん<BR>
+出版おめでとうございます。<BR>
+<BR>
+<CITE>&gt; ところが HotSpot Serverのダウンロードが見つけられませんでした。 JavaHotSpot
+Virtual Machine 2.0 のソースコードは発見できたのですが… (苦笑)<BR>
+</CITE><BR>
+Java HotSpot Server VM 2.0 ならば<BR>
+[replace-href:http://java.sun.com/products/hotspot/2.0/download.html]<BR>
+です。（確かにリンク切れしてるような感じ）</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+ありがとうございます。早速ダウンロードしてみます。<BR>
+一方 ホームページ上のReadmeを見ていたら、J2SE 1.2.2 や J2SE 1.3.0 などの
+HotSpotを内包していないJavaVMを利用の方向けと書いてありますね。微妙に悩ましいです。はて
+J2SE 1.4 には HotSpot Clientは付属していますが、HotSpot Serverは付属していないような、そんな気がします。(1.4.0
+で-server引数を使うと エラーメッセージが出るように思います) 私の勘違いかしら？</P>
+<HR>
+<P><FONT color="#ff0000">2002.11.16</FONT> [replace-link:櫻庭祐一]<FONT color="#ff00ff">さんのツッコミ</FONT><BR>
+Subject:  [igapyon:01049] HotSpot<BR>
+はじめまして。櫻庭と申します。<BR>
+<BR>
+下記の URL で J2SE 1.4 の解説などをしております。<BR>
+以前、いがぴょんさんの日記で私のサイトを紹介していただきまして、ありがとうございました。</P>
+<UL>
+  <LI>[replace-href:http://www5.airnet.ne.jp/sakuraba/java/index.html]
+</UL>
+<P>さて、11/13 の日記の中で言及されている HotSpot のサーバ版ですが、J2SDK
+v1.4.x には含まれています。しかし、J2RE v1.4.x には含まれていません。<BR>
+<BR>
+Windows 版だと J2SDK をインストールしたディレクトリ (c:\j2sdk1.4.1 とします)
+の下に jre\bin ディレクトリがあります。そこに client と server というディレクトリがあり、両方とも
+jvm.dll というファイルがあると思います。これが HotSpot の本体です。<BR>
+したがって、c:\j2sdk1.4.1\bin\java.exe か c:\j2sdk1.4.1\jre\bin\java.exe
+であれば -server オプションでサーバ版 HotSpot が使用できます。<BR>
+<BR>
+しかし、通常 J2SDK をインストールすると C:\Winodws\system32 ディレクトリに
+java.exe がコピーされてしまいます。この java.exe は J2RE なので、C:\Program
+Files\Java\j2re1.4.1\bin の下のディレクトリを見に行きます。ここには client
+ディレクトリしかないのでサーバ版が使用できないのです。<BR>
+<BR>
+# 私は J2RE が使われるのがいやなので、J2SDK をインストールすると、すぐに
+C:\Windows\system32 の java.exe はデリートしてしまいます ^^;;<BR>
+<BR>
+もし、J2RE でサーバ版 HotSpot を使われるのでしたら、J2SDK の server ディレクトリ以下を
+C:\Program Files\Java\j2re1.4.1\bin にコピーすれば OK です。</P>
+<HR>
+<P><STRONG><FONT color="#ff00ff">ここから</FONT></STRONG>[replace-link:いがぴょん]<BR>
+おおっ そうだったのですか。長年(^^)の疑問が解決できました。HotSpot Server
+はいずこに… って 不思議に思っていたのです。J2SE 1.4 のリビジョンアップの際には
+バグフィックス一覧にHotSpot Serverの記述が載っていたりして、はてはて、と思っていました。ツッコミ
+ありがとうございます。<BR>
+また、『Windows/system32 のjava.exeを削除してしまう』というのも 貴重な技ですね。C:\j2sdk1.4.x\bin側のjava.exeを使って貰うためには
+いろいろな努力が必要そうだなぁ…って こちらも不思議に思っていた所です。(私の環境下では
+JAVA_HOMEがうまく働くJakarta Ant などの際には うまくC:\j2sdk1.4.x\bin側が利用されていたりして…。そしてそれに気が付くのは
+ウイルス対策ソフトがCPUを振り切るから なのでした :-P)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021113-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

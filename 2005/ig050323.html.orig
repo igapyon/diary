@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/03/23 日記: Eclipse Visual Editor 1.0.2.1リリース!</TITLE>
+<META name="DESCRIPTION" content="今日は宇都宮に行くことになりました。 , 後輩の COBOLi さんに OpenOffice.org SDK の調査を依頼してきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/03/23 日記: Eclipse Visual Editor 1.0.2.1リリース!</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 今日は宇都宮に行くことになりました。 , 後輩の COBOLi さんに OpenOffice.org SDK の調査を依頼してきました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Visual Editor 1.0.2.1リリース!</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Visual Editorがリビジョンアップされていました。1.0.2.1というのが現在の最新版となります。</P>
+<UL>
+  <LI><A href="ig050227.html">2005/02/27 日記: Eclipse Visual Editor調査中</A>
+</UL>
+<P>いま SWTベースでの開発案件を抱えているので、このタイミングでのリビジョンアップは嬉しいです。ありがたいことです。ちょっと使ってみましたが、1.0.1から比べると隔世の感があるほど良い方向に改善されていました。生成されるソースコードの内容も変わっていました。ちなみに、1.0.2と1.0.2.1とは比較していないので詳細は不明です。なににせよ Visual Editor が 2-Way編集を実現してくれるのは 非常に嬉しいです。2-Way編集は その昔 JBuilderが得意としていましたね…</P>
+<P>一方 Eclipse に Visual Editorを適用していくのは、結構面倒な作業でした。Eclipse一式を解凍してくれるようなインストーラーを
+30分ほどで自作してみました。また作りきりで廃棄ももったいないので、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipseinstaller.html" TITLE="Eclipseを簡便にセットアップするための支援ツール。">EclipseInstaller</A>と命名してアップしておきました。これで忘却することは無い、ことと思っています。(ほんとうに
+作ったこととか良く忘れるのです)</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipseinstaller.html" TITLE="Eclipseを簡便にセットアップするための支援ツール。">EclipseInstaller</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseのdiff機能</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipseに素敵な機能があります。diffの機能が なんとEclipseに統合されているのです。<BR>
+Eclipseプロジェクトに含まれている複数のフォルダを選択して「相互に比較」を行うことにより、複数フォルダに対する diffが実行できるのです。いやはや、これは便利です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日は宇都宮での作業です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は宇都宮に行くことになりました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>後輩に OpenOffice.org SDK 調査依頼</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会社の後輩の COBOLi さんに、<A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A> SDK の調査を依頼してきました。</P>
+<P>OpenOffice.org SDK 関連技術は 今後３年間は 絶対にカネを生む、、、もとい有益な場面を多く迎える重要な技術のひとつになると考えています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

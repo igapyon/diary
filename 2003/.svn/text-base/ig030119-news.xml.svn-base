@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030119.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030119.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/18/nebt_09.html">
+    <title>オープンソースの概念を書籍にも</title>
+    <link>http://www.zdnet.co.jp/news/0301/18/nebt_09.html</link>
+    <description>オープンソースな書籍の出版にまつわる話題。ふうむ、興味深い。</description>
+    <dc:date>2003-01-19T20:48:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/15/nebt_17.html">
+    <title>MS、政府向けのWindowsソースコード／情報開示プログラム</title>
+    <link>http://www.zdnet.co.jp/news/0301/15/nebt_17.html</link>
+    <description>ソースコードを開示するだけではなくって そのソースコードからビルドできないと あまり意味がありません…。</description>
+    <dc:date>2003-01-19T20:48:57</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/01/15/641155-000.html">
+    <title>IBMとAMDが初のUnitedLinuxのテクノロジーパートナー契約を締結</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/01/15/641155-000.html</link>
+    <description>UnitedLinuxも地道に頑張っていますねぇ。</description>
+    <dc:date>2003-01-19T20:48:57</dc:date>
+  </item>
+
+</rdf:RDF>

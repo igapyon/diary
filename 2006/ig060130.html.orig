@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/30 日記: 開発工程の継続的な改善に取り組んだ結果</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの仕様は継続的な改善に取り組んだ結果として今のような姿になっています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/30 日記: 開発工程の継続的な改善に取り組んだ結果</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの仕様は継続的な改善に取り組んだ結果として今のような姿になっています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>開発工程の継続的な改善の結果</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのキャッチを考えていて、ふと気がつきました。blanco Frameworkは開発工程の継続的な改善に取り組んだ結果として、今のような姿になっています。当初から現状の姿を予想できていたものではありません。そして
+それはその当時としては不可能であったと現時点においても考えています。</P>
+<OL>
+  <LI>そもそも当初は R/Oマッピングツールが欲しかっただけに過ぎません。
+  <LI>R/Oマッピングツールが出来上がって問題点がそこでは無くなると、次に別の問題点が<STRONG>最大の</STRONG>問題点へと成長します。
+  <LI>blanco Frameworkとして見てみると 仕様書からXMLファイルへの転記作業だったのです。だから次に取り組んだのは転記作業の自動化です。
+  <LI>R/Oマッピングが克服できたら、次に気になったのが Apache Strutsの生産性です。だから blancoStrutsに取り組みました。
+  <LI>プロパティファイルと その定義書の間の乖離についても、問題点として浮き彫りになったので そこに取り組みました。
+  <LI>さまざまな改善活動の取り組みの過程において、ツールに機能を追加する場合もありましたが、おのおののツールが完成系に至る過程では むしろツールの機能削減やソースコード規模削減に取り組んできました。これは私たちにとって非常に重要なポイントとなります。
+</OL>
+<P>ウォーターフォール的な開発モデルとはせずにアジャイル的に取り組んできたことも重要な判断ポイントであったと考えています。そもそも開発工程の改善についての正解となる観点は取り組み時点では不明だったのです。アジャイル的に取り組んだからこそ、個別のツールよりむしろツール間の転記作業こそがプロジェクト上のボトルネックであるという点に気がつくことが出来ましたし、そこに取り組んで改善を行うことが出来ました。まあ、今の時点では
+かなり明確に (そしておそらく正確に) トータル生産性向上のための改善ポイントについて、適切な観点を持った改善を行うことが出来るようになっています。でも、それも外的要因により状況が変化する可能性は高いです。だからこそ手作りシステム開発なのでしょうけれども。(外的要因によるドラスティックな変化が無いのであれば、そもそも手作りでシステム開発を行う必要が無いのでしょうから)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

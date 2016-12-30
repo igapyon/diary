@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/06 日記: 素因数分解をおこなうトイアプリ</TITLE>
+<META name="DESCRIPTION" content="素因数分解をおこなうトイアプリを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/06 日記: 素因数分解をおこなうトイアプリ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 素因数分解をおこなうトイアプリを作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>素因数分解をおこなうトイアプリ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>子どもが素数に興味を持ったので、ちょびっと素因数分解をおこなうトイアプリを作成しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">PrimeNumber.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * 素因数分解をおこないます。
+ * 
+ * @author IGA Tosiki
+ */
+public class PrimeNumber {
+    public static void main(String[] args) {
+        new PrimeNumber().process();
+    }
+
+    /**
+     * 素因数分解をおこない、標準出力に表示します。
+     */
+    private void process() {
+        for (int number = 2; number &lt; 1001; number++) {
+            final StringBuffer buf = new StringBuffer();
+            if (searchPrime(number, buf)) {
+                System.out.println(number + &quot; : 素数&quot;);
+            } else {
+                System.out.println(number + &quot; = &quot; + buf.toString());
+            }
+        }
+    }
+
+    /**
+     * 素数を探していきます。このメソッドは再帰的に呼び出されます。
+     * 
+     * @param argTarget
+     *            処理対象となる数値。
+     * @param argBuf
+     *            素因数を表示用に加工したもの。
+     * @return 素数であればtrue。
+     */
+    private boolean searchPrime(final int argTarget, final StringBuffer argBuf) {
+        for (int index = 2; index &lt; argTarget; index++) {
+            final int syou = argTarget / index;
+            if (argTarget == syou * index) {
+                // 素数ではない。
+                argBuf.append(index + &quot; x &quot;);
+                searchPrime(syou, argBuf);
+                return false;
+            }
+        }
+
+        // 素数である。
+        argBuf.append(argTarget);
+        return true;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>2 : 素数
+3 : 素数
+4 = 2 x 2
+5 : 素数
+6 = 2 x 3
+7 : 素数
+8 = 2 x 2 x 2
+9 = 3 x 3
+10 = 2 x 5
+11 : 素数
+12 = 2 x 2 x 3
+13 : 素数
+14 = 2 x 7
+15 = 3 x 5
+16 = 2 x 2 x 2 x 2
+17 : 素数
+18 = 2 x 3 x 3
+19 : 素数
+20 = 2 x 2 x 5
+…</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

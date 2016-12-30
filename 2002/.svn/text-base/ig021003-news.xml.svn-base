@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021003.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021003.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.hcn.zaq.ne.jp/no-ji/javass/index.html">
+    <title>Javaスクリーンセーバー</title>
+    <link>http://www.hcn.zaq.ne.jp/no-ji/javass/index.html</link>
+    <description>渡辺義則さんが、新作のJavaスクリーンセーバーをリリースされました。</description>
+    <dc:date>2002-10-03T21:25:54</dc:date>
+  </item>
+  <item rdf:about="http://www.realvnc.com/">
+    <title>RealVNC</title>
+    <link>http://www.realvnc.com/</link>
+    <description>愛用のリモートPCコントロールソフトであるVNCの新しいURIなのだそうな…。併せて3.3.4という最新版が掲載されていました。</description>
+    <dc:date>2002-10-03T21:25:54</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/209191">
+    <title>米レッド・ハットがLinuxカーネル2.4.18対応の「Red Hat 8.0」をリリース</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/209191</link>
+    <description>いよいよ Red Hat が デスクトップOSの方向を向き始めたようですね。それはそれで楽しみな動きです。…今って gcc は 3.2なんですね。</description>
+    <dc:date>2002-10-03T21:25:54</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021002/3.html">
+    <title>Mandrake Linux 9.0 発表</title>
+    <link>http://japan.internet.com/linuxtoday/20021002/3.html</link>
+    <description>OpenOffice 1.0.1 が同梱されているってのがインパクト有ります。</description>
+    <dc:date>2002-10-03T21:25:54</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/208321">
+    <title>用語解説：MSオフィスの独占を崩せるか、「オープンオフィス」</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/pc/208321</link>
+    <description>オフィスの独占というよりはOSの選択肢の広がりであるような気もします。</description>
+    <dc:date>2002-10-03T21:25:54</dc:date>
+  </item>
+</rdf:RDF>

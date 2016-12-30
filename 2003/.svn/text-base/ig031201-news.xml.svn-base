@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031201.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031201.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/ASIN/4883731901/toraneko-22/">
+    <title>本: Javaオープンソース徹底攻略―Eclipse, JBoss, Tomcat, Strutsから最新のXML/WebServicesまで</title>
+    <link>http://www.amazon.co.jp/exec/obidos/ASIN/4883731901/toraneko-22/</link>
+    <description>ようやくAmazonにも登録されました!</description>
+    <dc:date>2003-12-01T18:12:28</dc:date>
+  </item>
+
+  <item rdf:about="http://homepage3.nifty.com/ueyan/seasar/index.html">
+    <title>seasarで楽々J2EE</title>
+    <link>http://homepage3.nifty.com/ueyan/seasar/index.html</link>
+    <description>羽生さんの影響など受けて、興味を持っているのです！</description>
+    <dc:date>2003-12-01T18:12:28</dc:date>
+  </item>
+
+  <item rdf:about="http://pcweb.mycom.co.jp/special/2003/spam/">
+    <title>グッバイ・スパム ～迷惑メール撃退法～ 執筆＝海上忍</title>
+    <link>http://pcweb.mycom.co.jp/special/2003/spam/</link>
+    <description>POPFileの紹介記事</description>
+    <dc:date>2003-12-01T18:12:28</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/03 日記: GlassFish Server 2.1 と JBoss 5.0.1.GA をざっくり体験</TITLE>
+<META name="DESCRIPTION" content="とある理由にて、GlassFish Server 2.1 と JBoss 5.0.1.GA とを、同時にざっくり体験してみました。 , NetBeans 6.5 をざっくり体験してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/03 日記: GlassFish Server 2.1 と JBoss 5.0.1.GA をざっくり体験</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] とある理由にて、GlassFish Server 2.1 と JBoss 5.0.1.GA とを、同時にざっくり体験してみました。 , NetBeans 6.5 をざっくり体験してみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1 と JBoss 5.0.1.GA をざっくり体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とある理由にて、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish は、Java EE 実装のオープンソース・アプリケーション・サーバです。Java EE プラットフォームには、JavaServer Pages (JSP)、JavaServer Faces (JSF)、Servlet、Enterprise JavaBeans (EJB)、Java API for Web Services(JAX-WS)、Java Architecture for XML Binding (JAXB) などが含まれます。">GlassFish</A> Server 2.1 と JBoss 5.0.1.GA とを、同時にざっくり体験してみました。</P>
+<UL>
+  <LI>GlassFish<BR>
+  <A HREF="https://glassfish.dev.java.net/ja/">https://glassfish.dev.java.net/ja/</A>
+  <LI>JBoss<BR>
+  <A HREF="http://www.jboss.org/">http://www.jboss.org/</A>
+</UL>
+<P>ざっと触った感じだけなのですけれども、いずれのアプリケーション・サーバも 良くできていると思います。</P>
+<P>さしあたり、管理コンソールについては、私は GlassFish のほうが馴染みやすいように感じられました。<BR>
+これは、たまたま私が経験をもっているいくつかのアプリケーション・サーバの管理コンソールと、GlassFish 管理コンソールの画面構成が、けっこう似通っているというのが主な理由であるように考えられます。、、、そんな理由です。<BR>
+# そのような UI 観点も、意外にも重要な判断ポイントとなる場合があります。</P>
+<P>ちなみに、有償サポートサービス観点では、NRI さんの <A href="http://www.nri-aitd.com/openstandia/">OpenStandia サービス</A> において GlassFish も提供されるようになったようです (つい最近追加された模様)。業務システムにおける OSS アプリケーション・サーバにおいて、JBoss
+とともに GlassFish も選択しやすくなってきたのだなぁ、と感慨深く思われます。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig090302.html">2009/03/02 日記: GlassFish Server 2.1 インストール手順</A>
+  <LI><A href="ig090307.html">2009/03/07 日記: ポスト Apache Tomcat としての GlassFish Server</A>
+  <LI><A href="ig090218.html">2009/02/18 日記: フルオープンソリューション「Prossione」というもの , GlassFish アプリケーション・サーバ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NetBeans IDE 6.5 をざっくり体験</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>NetBeans IDE 6.5 について、ざっくり体験してみました。</P>
+<UL>
+  <LI>NetBeans IDE<BR>
+  <A HREF="http://www.netbeans.org/">http://www.netbeans.org/</A>
+</UL>
+<P>結構良くできていると思いました。私は NetBeans については 大昔 (そもそも買収される前のバージョン) においてしか試用経験が無いので、この出来映えの改善については隔世の感があります。<BR>
+、、、でも <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaで書かれたオープンソースな統合開発環境。Java言語による開発において圧倒的なユーザの支持を得ています。">Eclipse</A> のキーバインドに馴染みきった私には、NetBeans はちと使いにくかったです。(単にキーバインドが異なるのが原因かも
+!?)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

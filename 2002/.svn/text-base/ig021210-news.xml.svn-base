@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021210.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021210.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/09/ne00_stallman.html">
+    <title>オープンソースの未来 -Richard Stallmanが語る“敵、戦い方、そしてオープンソース運動”-</title>
+    <link>http://www.zdnet.co.jp/news/0212/09/ne00_stallman.html</link>
+    <description>フリーソフト運動は 今で18年間もの取り組みなのですね。そして今や LinuxのようなOSを実現するまでに至っています。ものすごい話です。この記事は フリーソフトの説明としても面白いです。とても面白くって この記事は一気に読みました。</description>
+    <dc:date>2002-12-10T18:57:10</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/05/ne00_perens.html">
+    <title>オープンソースの未来 -オープンソースはUNIXの過ちを繰り返さない-</title>
+    <link>http://www.zdnet.co.jp/news/0212/05/ne00_perens.html</link>
+    <description>味わい深い長文文章。オープンソースって何だろうって 改めて考えさせられました。</description>
+    <dc:date>2002-12-10T18:57:10</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0212/09/xert_india.html">
+    <title>インドでも盛り上がるLinux熱</title>
+    <link>http://www.zdnet.co.jp/news/0212/09/xert_india.html</link>
+    <description>各国でLinuxがどんどん盛り上がると 結果的にLinuxの品質向上につながりますね。</description>
+    <dc:date>2002-12-10T18:57:10</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20021204/1/index.shtml">
+    <title>IDC，「LinuxよりもWindowsの方が長期的な運用ではコストが低い」とレポート</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20021204/1/index.shtml</link>
+    <description>『…案の定，Microsoftに依頼されたものだ。』のクダリが とても奥深い味わいを感じさせます。ちなみにイントラネットで考えた場合、Windowsでは 5年間もたてば バージョンアップとかを考慮する必要が出てくる場合が多いです。Linuxでは 『ほったらかし』のままバージョンアップしないことも多いように思いますが…。</description>
+    <dc:date>2002-12-10T18:57:10</dc:date>
+  </item>
+
+  <item rdf:about="http://jakarta.apache.org/turbine/index.html">
+    <title>Jakarta Turbine 2.2 リリース</title>
+    <link>http://jakarta.apache.org/turbine/index.html</link>
+    <description>アプリケーションサーバの一つ。私は理解できていません。Torqueが内包されているのでその存在自身には注目しています。</description>
+    <dc:date>2002-12-10T11:04:40</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/turbine/torque/index.html">
+    <title>Jakarta Torque 3.0 リリース</title>
+    <link>http://jakarta.apache.org/turbine/torque/index.html</link>
+    <description>XMLからSQL文を生成してくれるツール。私自身 同様のものをスクラッチで開発したことがあります。暇があればSQL Server対応などをコントリビュートしたいのですが…暇はありません(笑)</description>
+    <dc:date>2002-12-10T11:04:40</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/221106">
+    <title>IBM、ソフト開発ツールの米Rationalを買収</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/221106</link>
+    <description>IBMの一人勝ちですね…。恐れ入ります。</description>
+    <dc:date>2002-12-10T11:04:40</dc:date>
+  </item>
+
+</rdf:RDF>

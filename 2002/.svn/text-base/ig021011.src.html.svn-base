@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/10/11 日記: Microsoft Office 2000 のインターネット時不具合に遭遇</TITLE>
+<META name="DESCRIPTION" content="Office 2000 のバグのせいで大変な目に遭いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft Office 2000 + Internet ExplorerでIIS上のファイルを開こうとするとパスワードを要求される不具合に遭遇</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日の話しですが、今回開発に携わっていたウェブベースイントラネットシステム構築をテストで動作させていたら、謎の不具合に遭遇してしまいました。<BR>
+Webベースシステムは帳票の仕組みとして Excel 帳票を採用しているのですが、Windows
+2000 SP3 + IIS (+ ASP.NET) 上の その作成されたExcelファイルを Internet
+Explorer 5.x + Office 2000 を導入したクライアントからアクセスしようとしたら、一部のクライアントに於いて
+なぜかログイン画面が出てきて表示できないと言う問題が発生したのです。<BR>
+半日困ったあげく 協業の他の会社の方が下記のURIを見つけてきました。</P>
+<UL>
+  <LI>[IE5] Office ドキュメントを開くと認証ダイアログが表示される<BR>
+  [replace-href:http://support.microsoft.com/default.aspx?scid=kb;ja;JP415541]
+  <LI>OFF2000: ブラウザで Office ドキュメントを開くと、パスワードの入力を求められる<BR>
+  [replace-href:http://support.microsoft.com/default.aspx?scid=kb;ja;JP225234]
+</UL>
+<P>これがヒットだったようで、Office 2000無印でのみ上記問題が発生し、Office
+97 や Office 2000 SR-1以降および Office XP では この問題は発生しないという傾向がわかってきました。</P>
+<P>今日 改めて 社内に再現環境を作ったら 確かに Office 2000 無印において、この不具合が発生しました。(ここにたどり着くまでが
+長い道のりでした…)<BR>
+Microsoft社の公式見解としては、Office 2000 SR-1以降に移行せよというものですが、これは避けたいので、サーバ側で何とか、という方法を探すと
+なんとか下記の回避策を見つけました…</P>
+<P>インターネット インフォーメーション サービスのプロパティを開き、</P>
+<UL>
+  <LI>Windows統合認証をOffにする。
+  <LI>Server Extentions のチェックボックスをOffにする。
+</UL>
+<P>正式な名称は 今はわかりませんが、何にせよ このチェックボックスをはずすと
+現象が発生しなくなりました。<BR>
+ASP.NET で Excel帳票の採用、なんて ごく普通の取り合わせだと思うのですが、これで
+こんな現象が出るのは困ったものです。</P>
+<P>でも振り返って考えてみると IIS って デフォルトで 勝手なものが沢山立ち上がっているのですね。びっくりしました。デフォルトで
+こういう機能は Off状態で出荷して欲しい物だと思いました。(Server Extentions
+は ASP.NETの実行環境を載せた際に入った物、かも知れませんが…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP SP1をアンインストール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows XP SP1ですが、どうしても不安定なので、これをアンインストールして
+Windows XP 無印に戻しました。<BR>
+原因はさておき ちと私の環境では Windows XP SP1は不安定過ぎました。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig020920.html">2002/09/20 日記: Windows XP SP1 リリース</A>
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021011-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

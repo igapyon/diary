@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/16 日記: Sun Java SE (JDK) 6 による Webサービス サポート</TITLE>
+<META name="DESCRIPTION" content="Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services (JAX-WS) 2.0 サポートについてです。">
+<META name="KEYWORDS" content="Java,JDK,Webサービス,6,JAX-WS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/16 日記: Sun Java SE (JDK) 6 による Webサービス サポート</H2>
+    <P>[Java,JDK,Webサービス,6,JAX-WS] Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services (JAX-WS) 2.0 サポートについてです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java SE (JDK) 6 による Webサービス サポート</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Sun Java SE (JDK) 6による Webサービス サポートを簡単に調べました。対象は Java API for XML Web Services
+(JAX-WS) 2.0 サポートについてです。<BR>
+※Java SE Development Kit 6 Update 4 (Windows) を用いて確認しました。</P>
+
+<UL>
+  <LI>Java Web Services ツール<BR>
+  <A HREF="http://java.sun.com/javase/ja/6/docs/ja/technotes/tools/index.html#webservices">http://java.sun.com/javase/ja/6/docs/ja/technotes/tools/index.html#webservices</A>
+  <UL>
+    <LI>具体的には 下記のようなディレクトリにツールがあります。
+    <UL>
+      <LI>C:\Program Files\Java\jdk1.6.0_04\bin\wsgen.exe
+      <LI>C:\Program Files\Java\jdk1.6.0_04\bin\wsimport.exe
+    </UL>
+  </UL>
+</UL>
+<P>JDK 6 で <STRONG>本当に</STRONG> Webサービスをサポートしているということを知り、やはり ちと びっくりしました。これにより、Webサービスに関しては、やっと .NET Frameworkに追いついた という感があります。(.NET Framework の Webサービスサポートを見ていて ちょっと悔しかったのです。<FONT color="#ff0000">2008.01.17追記</FONT> 、、、が、後で まだ Javaの Webサービスサポートには いろいろ問題があることが分かってきました…)</P>
+<P>さて、ここで示す例は、Javaソースコードから Webサービスを作成するための手順です。WSDLからソースコード自動生成をおこなう手順は調べていません。</P>
+<HR>
+<P><FONT color="#ff00ff">サーバ側</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SampleWebService.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>package sample;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService(targetNamespace = &quot;http://tempuri.org&quot;)
+public class SampleWebService {
+
+    @WebMethod()
+    public String hello(final String name, final int value) {
+        return &quot;こんにちは Webサービス [&quot; + name + &quot;:&quot; + value + &quot;]&quot;;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※コンパイルおよび実行には JDK 6 が必要。</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SampleWS.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>package sample;
+
+import javax.xml.ws.Endpoint;
+
+public class SampleWS {
+    public static void main(String[] args) {
+        System.out.println(&quot;Webサービス: [SampleWS]処理: begin&quot;);
+
+        System.out.println(&quot;  [SampleWebService]を公開。&quot;);
+        Endpoint.publish(&quot;http://localhost:8080/test&quot;, new SampleWebService());
+
+        System.out.println(&quot;Webサービス: [SampleWS]処理: end&quot;);
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>これらを Apache Antを用いてビルドします。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">build.xml</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;project name=&quot;samplews&quot; default=&quot;build&quot; basedir=&quot;.&quot;&gt;
+        &lt;property name=&quot;project.jar&quot; value=&quot;samplews.jar&quot; /&gt;
+
+        &lt;target name=&quot;compile&quot;&gt;
+                &lt;delete dir=&quot;bin&quot; /&gt;
+                &lt;mkdir dir=&quot;bin&quot; /&gt;
+                &lt;javac destdir=&quot;bin&quot; debug=&quot;true&quot; source=&quot;1.6&quot; target=&quot;1.6&quot; fork=&quot;true&quot;&gt;
+                        &lt;src path=&quot;src&quot; /&gt;
+                        &lt;include name=&quot;**/*.java&quot; /&gt;
+                &lt;/javac&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;wsgen&quot;&gt;
+                &lt;delete dir=&quot;blanco.jaxws/src&quot; /&gt;
+                &lt;mkdir dir=&quot;blanco.jaxws/src&quot; /&gt;
+                &lt;exec executable=&quot;wsgen&quot; dir=&quot;bin&quot;&gt;
+                        &lt;arg value=&quot;-cp&quot; /&gt;
+                        &lt;arg value=&quot;.&quot; /&gt;
+                        &lt;arg value=&quot;-s&quot; /&gt;
+                        &lt;arg value=&quot;../blanco.jaxws/src&quot; /&gt;
+                        &lt;arg value=&quot;sample.SampleWebService&quot; /&gt;
+                &lt;/exec&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;compile.jaxws&quot;&gt;
+                &lt;javac destdir=&quot;bin&quot; debug=&quot;true&quot; source=&quot;1.6&quot; target=&quot;1.6&quot; fork=&quot;true&quot;&gt;
+                        &lt;src path=&quot;blanco.jaxws/src&quot; /&gt;
+                        &lt;include name=&quot;**/*.java&quot; /&gt;
+                &lt;/javac&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;jar&quot;&gt;
+                &lt;echo&gt;building jar&lt;/echo&gt;
+
+                &lt;delete file=&quot;${project.jar}&quot; /&gt;
+                &lt;jar destfile=&quot;${project.jar}&quot;&gt;
+                        &lt;zipfileset dir=&quot;bin&quot; includes=&quot;**/*&quot; excludes=&quot;blanco/sample/**&quot; /&gt;
+                        &lt;zipfileset dir=&quot;src&quot; includes=&quot;**/*&quot; prefix=&quot;src&quot; excludes=&quot;blanco/sample/**&quot; /&gt;
+                        &lt;zipfileset dir=&quot;blanco.jaxws/src&quot; includes=&quot;**/*.java&quot; prefix=&quot;src&quot; /&gt;
+                &lt;/jar&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;build&quot; depends=&quot;compile,wsgen,compile.jaxws,jar&quot;&gt;
+        &lt;/target&gt;
+&lt;/project&gt;</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>できあがった jar ファイルを実行します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">コマンドライン</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>java -classpath samplews.jar sample.SampleWS</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※Webサービスを常駐起動</BLOCKQUOTE>
+<HR>
+<P><FONT color="#ff00ff">クライアント側</FONT></P>
+<P>クライアント側は WSDLを入力して スタブを自動生成します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">build.xml</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;project name=&quot;samplews-jaxws&quot; default=&quot;build&quot; basedir=&quot;.&quot;&gt;
+        &lt;property name=&quot;project.jar&quot; value=&quot;samplews-jaxws.jar&quot; /&gt;
+
+        &lt;target name=&quot;wsimport&quot;&gt;
+                &lt;delete dir=&quot;blanco.jaxws/src&quot; /&gt;
+                &lt;mkdir dir=&quot;blanco.jaxws/src&quot; /&gt;
+                &lt;exec executable=&quot;wsimport&quot;&gt;
+                        &lt;arg value=&quot;-p&quot; /&gt;
+                        &lt;arg value=&quot;sample&quot; /&gt;
+                        &lt;arg value=&quot;-s&quot; /&gt;
+                        &lt;arg value=&quot;blanco.jaxws/src&quot; /&gt;
+                        &lt;arg value=&quot;-d&quot; /&gt;
+                        &lt;arg value=&quot;bin&quot; /&gt;
+                        &lt;arg value=&quot;http://localhost:8080/test?wsdl&quot; /&gt;
+                &lt;/exec&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;compile.jaxws&quot;&gt;
+                &lt;javac destdir=&quot;bin&quot; debug=&quot;true&quot; source=&quot;1.6&quot; target=&quot;1.6&quot; fork=&quot;true&quot;&gt;
+                        &lt;src path=&quot;blanco.jaxws/src&quot; /&gt;
+                        &lt;include name=&quot;**/*.java&quot; /&gt;
+                &lt;/javac&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;jar&quot;&gt;
+                &lt;delete file=&quot;${project.jar}&quot; /&gt;
+                &lt;jar destfile=&quot;${project.jar}&quot;&gt;
+                        &lt;zipfileset dir=&quot;bin&quot; includes=&quot;**/*&quot; /&gt;
+                        &lt;zipfileset dir=&quot;blanco.jaxws/src&quot; includes=&quot;**/*.java&quot; prefix=&quot;src&quot; /&gt;
+                &lt;/jar&gt;
+        &lt;/target&gt;
+
+        &lt;target name=&quot;build&quot; depends=&quot;wsimport,compile.jaxws,jar&quot;&gt;
+        &lt;/target&gt;
+&lt;/project&gt;</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※Webサービスから wsdlを取得して Webサービス呼び出しのためのソースコードを自動生成します。</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SampleClient.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import sample.SampleWebService;
+import sample.SampleWebServiceService;
+
+public class SampleClient {
+    public static void main(final String[] args) {
+        SampleWebServiceService service = new SampleWebServiceService();
+        SampleWebService servicePort = service.getSampleWebServicePort();
+        System.out.println(servicePort.hello(&quot;あいう&quot;, 123));
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※Webサービスを呼び出すためのクライアントコード。</BLOCKQUOTE>
+<HR>
+<P>Webサービスサポートが JDK 6 に最初から含まれているということは とても画期的なできごとであり、喜ばしいと思いました。</P>
+<UL>
+  <LI>The Java Web Services Tutorial<BR>
+  <A HREF="http://java.sun.com/webservices/docs/2.0/tutorial/doc/">http://java.sun.com/webservices/docs/2.0/tutorial/doc/</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDLからサーバサイドのソースコード生成をおこなうパスを発見できず</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ところがどっこい、WSDLから サーバサイドのソースコード自動生成をおこなう方法を発見できずにいます。このパスがが無いのは ちと まずいのです…。</P>
+<P>回避策として、アノテーション付きインタフェースを継承させて Webサービスを実装するような構成も調べてみましたが、こちらも うまく動きません。これは困るなぁ…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>その他の JAX-WSに関する最新系情報</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JAX-WS 2.1の参照実装 (リファレンス・インプリメンテーション)が存在するのだそうです。<BR>
+でも、ちょっと見たところ WSDLからサーバを自動生成するオプションは見あたりませんでした…。</P>
+<UL>
+  <LI>「JAX-WS 2.1」実装系登場 - アーキテクチャ再構築で性能&amp;拡張性がアップ<BR>
+  <A HREF="http://journal.mycom.co.jp/news/2007/02/07/361.html">http://journal.mycom.co.jp/news/2007/02/07/361.html</A>
+  <UL>
+    <LI>GlassFish -&gt; Metro -&gt; JAX-WS<BR>
+    <A HREF="http://jax-ws.dev.java.net/">http://jax-ws.dev.java.net/</A>
+  </UL>
+</UL>
+<P>こちらも 少しだけ追ってみます。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

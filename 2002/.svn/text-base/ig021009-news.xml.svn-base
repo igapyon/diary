@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021009.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021009.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-09T09:19:17</dc:date>
+  </channel>
+
+  <item rdf:about="http://kindai.ndl.go.jp/">
+    <title>国立国会図書館 近代デジタルライブラリー</title>
+    <link>http://kindai.ndl.go.jp/</link>
+    <description>さっそく夏目漱石著 吾輩ハ猫デアルを検索して閲覧してみました。</description>
+    <dc:date>2002-10-09T15:50:21</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/09/nebt_04.html">
+    <title>ソニー、PalmSourceに2000万ドル投資</title>
+    <link>http://www.zdnet.co.jp/news/0210/09/nebt_04.html</link>
+    <description>ソニーのバックアップにより PalmSourceも安心です。Palmユーザの私は嬉しいことと認識しています。</description>
+    <dc:date>2002-10-09T15:50:21</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640">
+    <title>ミニQ&amp;A：専門家でなくてもLinuxは使いこなせるか？</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/210640</link>
+    <description>ものすごく良くできたLinux紹介記事(だと私は感じました)。同意する点が多かったです。</description>
+    <dc:date>2002-10-09T20:18:30</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/09/njbt_01.html">
+    <title>「ホームページビルダー7」、11月1日発売</title>
+    <link>http://www.zdnet.co.jp/news/0210/09/njbt_01.html</link>
+    <description>ホームページビルダーのユーザなので、最新版リリースが気になりました。強化点が何なのかよく分かりませんが、でも買ってしまいそうです (苦笑) そういえばViaVoiceもバージョンアップ版が既に出ているんですよねぇ。</description>
+    <dc:date>2002-10-09T15:56:39</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/09/nebt_18.html">
+    <title>MSの家庭用LAN製品にトラブル続々</title>
+    <link>http://www.zdnet.co.jp/news/0210/09/nebt_18.html</link>
+    <description>慣れないジャンルへの参入は 大変に難しいことなのです。</description>
+    <dc:date>2002-10-09T15:56:39</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021008/3.html">
+    <title>ミラクル・リナックス、Samba のスケーラビリティを検証</title>
+    <link>http://japan.internet.com/linuxtoday/20021008/3.html</link>
+    <description>Sambaのようなものの検証作業などを企業が行って発表してくれるのは喜ばしいことです。</description>
+    <dc:date>2002-10-09T20:18:30</dc:date>
+  </item>
+
+</rdf:RDF>

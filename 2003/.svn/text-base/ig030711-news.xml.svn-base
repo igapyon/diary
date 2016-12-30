@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030711.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030711.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ebiz/story/0,2000047658,20059857,00.htm">
+    <title>海外アウトソーシング増加で、IT技術者の仕事が消えてゆく</title>
+    <link>http://japan.cnet.com/news/ebiz/story/0,2000047658,20059857,00.htm</link>
+    <description>日本に置いても 情報技術の仕事は 海外へのアウトソーシングが増えていて 困難な状況が起きつつあるように思います。</description>
+    <dc:date>2003-07-11T15:39:54</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20059854,00.htm">
+    <title>松下電器がCE Linuxフォーラムを結成した理由とは？</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20059854,00.htm</link>
+    <description>それら共同作業部隊結成にGPLというライセンスが貢献したのかどうか、とか微妙に気になります。</description>
+    <dc:date>2003-07-11T15:39:54</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/256530">
+    <title>リネオ、リアルタイム性を高めた家電向けLinuxなど展示</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/256530</link>
+    <description>家電Linuxが頑張っている感があります。</description>
+    <dc:date>2003-07-11T15:27:03</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030710/1/index.shtml">
+    <title>「Linuxは全省庁の人事・給与システムの一候補に過ぎない」と人事院</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20030710/1/index.shtml</link>
+    <description>どうなるのかは最後までわからん、ということだそうです。</description>
+    <dc:date>2003-07-11T15:27:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/mobile/0307/09/n_esec.html">
+    <title>携帯にセンサーがいっぱい～加速度からUVまで</title>
+    <link>http://www.zdnet.co.jp/mobile/0307/09/n_esec.html</link>
+    <description>様々な面において ケータイがパソコンを はるかに超える日が 実は もうすぐ訪れるのかも知れませんね。</description>
+    <dc:date>2003-07-11T15:27:03</dc:date>
+  </item>
+  <item rdf:about="http://internet.watch.impress.co.jp/www/article/2003/0709/sql.htm">
+    <title>マイクロソフト、SQL Server 2000 Developer Editionを10分の1以下に値下げ</title>
+    <link>http://internet.watch.impress.co.jp/www/article/2003/0709/sql.htm</link>
+    <description>ものすごい値下げですね。なりふり構わず感があります。で… 値下げ以前に購入した人たちは 腹が立つかも知れませんけれども…</description>
+    <dc:date>2003-07-11T15:27:03</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059864,00.htm">
+    <title>米マクロメディア、プレゼン作成ソフトBreezeに新バージョン</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059864,00.htm</link>
+    <description>PowerPointデータをFlashデータに変換できるんですって。面白いですね。</description>
+    <dc:date>2003-07-11T15:39:54</dc:date>
+  </item>
+
+</rdf:RDF>

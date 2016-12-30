@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011220.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011220.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-20</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://java.sun.com/xml/downloads/javaxmlpack.html"/>
+        <rdf:li resource="http://xml.apache.org/batik/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/xml/downloads/javaxmlpack.html">
+    <title>SUN Java XML Pack - Winter 01 リリース</title>
+    <link>http://java.sun.com/xml/downloads/javaxmlpack.html</link>
+    <description>Fallバージョンに続き、次はWinterバージョンのリリースです。SUNのXML関連がパックされたものです。チュートリアルも併せてリリースされています。</description>
+    <dc:date>2001-12-20T08:39:23</dc:date>
+  </item>
+  <item rdf:about="http://xml.apache.org/batik/">
+    <title>Apache Batik 1.1.1 リリース</title>
+    <link>http://xml.apache.org/batik/</link>
+    <description>Javaで書かれたSVG ツールキットの最新版リリースです。</description>
+    <dc:date>2001-12-20T08:39:23</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,15 @@
+2012-10-07 Open JTalk という音声合成ソフト
+
+*p1*Open JTalk という音声合成ソフト
+Open JTalk という音声合成ソフトに ほんのりと興味持ちました。
+-Open JTalk
+--http://open-jtalk.sourceforge.net/
+
+*p2*Ubuntu 12.04 および Debian wheezy では
+Ubuntu 12.04 および Debian wheezy では公式パッケージに含まれるとのことです。
+☆ただし「Mei の声データ」は含まれないとのことです。
+
+>|sh|
+sudo apt-get install open-jtalk
+||<
+

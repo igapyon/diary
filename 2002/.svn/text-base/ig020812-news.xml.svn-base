@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020812.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020812.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.microsoft.com/japan/windows2000/downloads/servicepacks/sp3/">
+    <title>Windows 2000 Service Pack 3 日本語版</title>
+    <link>http://www.microsoft.com/japan/windows2000/downloads/servicepacks/sp3/</link>
+    <description>Windows 2000 SP3 日本語版 がリリースされました。</description>
+    <dc:date>2002-08-12T15:57:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.microsoft.com/japan/msdn/netframework/downloads/sp2/">
+    <title>Microsoft .NET Framework Service Pack 2</title>
+    <link>http://www.microsoft.com/japan/msdn/netframework/downloads/sp2/</link>
+    <description>Visual Studio .NET ユーザも適用が薦められている様子です。</description>
+    <dc:date>2002-08-12T15:57:19</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0208/09/nw_03.html">
+    <title>IBMやHPが大手顧客のLinux採用事例を披露</title>
+    <link>http://www.zdnet.co.jp/enterprise/0208/09/nw_03.html</link>
+    <description>IBMメインフレームでのLinux運用実績などの紹介などに関する記事。</description>
+    <dc:date>2002-08-12T19:50:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/07/nj00_virtualpc.html">
+    <title>Windows上でLinuxと超漢字が使える――「Virtual PC for Windows」に新版</title>
+    <link>http://www.zdnet.co.jp/news/0208/07/nj00_virtualpc.html</link>
+    <description>VMware以外にも他に商品があるんだってコトを思い出しました。</description>
+    <dc:date>2002-08-12T19:50:20</dc:date>
+  </item>
+
+</rdf:RDF>

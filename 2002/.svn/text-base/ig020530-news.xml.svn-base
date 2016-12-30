@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020530.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020530.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-30T07:17:08</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/JavaManagement/">
+    <title>SUN Java Management Extensions (JMX) 1.1 バイナリリファレンス実装リリース</title>
+    <link>http://java.sun.com/products/JavaManagement/</link>
+    <description>ああっ、暇があったら試したい技術なのですが…。</description>
+    <dc:date>2002-05-30T07:17:08</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/187584">
+    <title>日立、Java/Windowsアプリが動作するLinux搭載ネット端末</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/187584</link>
+    <description>Windowsアプリの動作のカラクリはMetaFrameでした。(WINEとかでは無く)</description>
+    <dc:date>2002-05-30T07:17:08</dc:date>
+  </item>
+
+</rdf:RDF>

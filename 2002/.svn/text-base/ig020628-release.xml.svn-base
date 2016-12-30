@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020628.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020628.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/javamail/">
+    <title>Sun JavaMail 1.3 リリース</title>
+    <link>http://java.sun.com/products/javamail/</link>
+    <description>JavaMailがバージョンアップです。1.2からは 1年半ぶりですね。どのような内容更新なのかは未把握。ちなみにSpecificationのPDFは 見たときには 1.2のものしかありませんでした。</description>
+    <dc:date>2002-06-28T09:11:40</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/javabeans/glasgow/jaf.html">
+    <title>Sun JavaBeans Activation Framework 1.0.2 リリース</title>
+    <link>http://java.sun.com/products/javabeans/glasgow/jaf.html</link>
+    <description>JAFがリビジョンアップです。3年ぶりのリビジョンアップですね。地味ですが一歩ずつ前進してます。また JavaMailと仲良くリビジョンアップですね。</description>
+    <dc:date>2002-06-28T09:11:40</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/j2ee/tools/management/">
+    <title>Sun J2EE Management リファレンス実装 1.0 リリース</title>
+    <link>http://java.sun.com/j2ee/tools/management/</link>
+    <description>J2EE Managementリファレンス実装のファーストリリースです。</description>
+    <dc:date>2002-06-28T13:10:40</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/j2ee/tools/deployment/">
+    <title>Sun J2EE Deployment API リファレンス実装 1.0 リリース</title>
+    <link>http://java.sun.com/j2ee/tools/deployment/</link>
+    <description>J2EEデプロイ リファレンス実装のファーストリリースです。</description>
+    <dc:date>2002-06-28T13:10:40</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/193223">
+    <title>GNOME Foundationがデスクトップ環境「GNOME 2.0」</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/193223</link>
+    <description>GNOME2.0がリリースですね。かっこうよくなってきましたねぇ。良い感じですね。</description>
+    <dc:date>2002-06-28T13:10:40</dc:date>
+  </item>
+
+</rdf:RDF>

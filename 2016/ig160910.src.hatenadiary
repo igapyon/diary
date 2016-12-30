@@ -1,0 +1,7 @@
+2016-09-10 [機械支援翻訳][OmegaT] Microsoft 提供の充実の用語集
+
+*p1*[機械支援翻訳][OmegaT] Microsoft 提供の充実の用語集
+コンピュータ関連の英文ドキュメントを OmegaT などの機械支援翻訳ツールを利用して翻訳しはじめようとした時に、スタート地点の用語集 (glossary) があるととても助かります。そのような用途にぴったりの用語集ファイルをマイクロソフトさんが提供してくださっています。
+-Microsoft Terminology Collection
+--https://www.microsoft.com/Language/en-US/Terminology.aspx
+ここから tbx ファイルをダウンロードして、OmegaT プロジェクトの glossary ディレクトリに格納すると用語集データが有効になります。

@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/02/07 日記: 花粉症の諸症状 , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α2版リリース</TITLE>
+<META name="DESCRIPTION" content="花粉症しんどいです。 , 少し進んだので、α2版をリリースします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/02/07 日記: 花粉症の諸症状 , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α2版リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 花粉症しんどいです。 , 少し進んだので、α2版をリリースします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>花粉症の諸症状が出始めています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>花粉症しんどいです。よれよれです。風邪かどうか判断つきません (苦笑)</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2007/ig070214.html">2007/02/14 日記: 花粉症の症状が出ています…</A>
+  <LI><A href="../2006/ig060211.html">2006/02/11 日記: Javaのサンドボックスにセキュリティホールの報告 , 花粉症の症状が出ています</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α2版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>少し進んだので、α2版をリリースします。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoeclipsebabel.html" TITLE="Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。">blancoEclipseBabel</A>
+</UL>
+<P>blanco Framework ホームページから説明文を転記しておきます。</P>
+<HR>
+<P><FONT color="#ff00ff">目的</FONT></P>
+<UL>
+  <LI><A href="http://www.eclipse.org/babel/">Eclipse Babel プロジェクト</A>に対して参考となる日本語訳一式を提供すること。
+</UL>
+<P><FONT color="#ff00ff">状況</FONT></P>
+<ul>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoeclipsebabel.html" TITLE="Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。">blancoEclipseBabel</A> プロジェクトは 現時点ではα版のステータスです。
+  <li>plugins/*, features/* について、ひととおり日本語化されています。</li>
+</ul>
+<P><FONT color="#ff00ff">注意</FONT></P>
+<UL>
+  <LI>この Eclipse SDK 日本語化言語パック (サードパーティ版) は無保証です。
+  <LI>利用者自身の責任のもとで利用してください。
+</UL>
+<p><font color="#ff00ff">TODO (残作業)</font></p>
+<UL>
+  <LI>生成されるプラグインの妥当性検証
+  <UL>
+    <LI>MANIFEST.MF記述において、対象となる元プラグインのバージョン指定を厳格化 (オプション機能)<BR>
+    ※しかしデメリットも多そう。
+    <LI>名前空間の妥当性
+    <UL>
+      <LI>「.nl1」の命名の妥当性。<BR>
+      というか 多分ダメ。nl932 のような命名を提案したい。
+      <LI>「NLpack1」の命名の妥当性。<BR>
+      同上
+      <LI>プラグインバージョンの名前の妥当性。<BR>
+      日付を付与だけで良いのか？ v20080202などがあれば、これを削除の上、上書きすべきかどうかも検討。
+    </UL>
+    <LI>フラグメント・プロパティファイル
+    <UL>
+      <LI>そもそも このファイルは必要なのか検討。
+      <LI>生成日時は不要とおもうので、これを削除検討。
+      <LI>コメント行をプロパティファイル同様追加。
+      <LI>plugin.propertiesのプラグイン名をマニフェストに引用できないか検討。
+    </UL>
+    <LI>その他
+    <UL>
+      <LI>about.htmlをプラグインディレクトリ直下に追加検討。
+      <LI>featuresについて、シンボル名が org.eclipse.cvs_1.0.1.R33x_r20070802-XXXXXXXXのようになるが、これが妥当なのかどうかを見直し。
+    </UL>
+  </UL>
+  <LI>機能
+  <UL>
+    <LI><A HREF="http://www.igapyon.jp/blanco/blancoeclipsebabel.html" TITLE="Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。">blancoEclipseBabel</A> 自身の Eclipseプラグイン化
+    <LI>プロパティファイルの処理件数の報告機能
+    <LI>自動生成後のプラグインを 更に zip ファイル化する機能の追加。
+    <LI>追加的な変換辞書機能の提供
+    <UL>
+      <LI><A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。">blancoStringConverter</A> ベース<BR>
+      ただし、通常の自動生成系ではなく変換定義の Excelブック形式による実現などが妥当か？
+      <LI>「変換しない」を表現。(Pleiadesとの連携性は? あちらは クラスで判定の模様…)<BR>
+      (仕様上難しいとは考えられるが)、共通化が可能かどうか検討したい。
+      <LI>ターゲットとなる プロパティファイルおよびプロパティの表現方法<BR>
+      プロパティをURI的に表現する。そして、変換及び除外についての表現。
+    </UL>
+    <LI>国際化対応の実施。
+  </UL>
+  <LI>リファクタリング
+  <UL>
+    <LI>最低限レベルのリファクタリングの実施
+    <LI>ソースコードが 現時点では みにくい。気に入らない。JavaDocや コメントも あまり入っていない
+    <LI><A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A> を導入して、MANIFEST.MFのキーワードを一括処理すること。
+  </UL>
+  <LI>他システム連携
+  <UL>
+    <LI>翻訳除外項目の洗い出し連携
+  </UL>
+</UL>
+<P><FONT color="#ff00ff">謝辞</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoeclipsebabel.html" TITLE="Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。">blancoEclipseBabel</A> による Eclipse日本語化言語パック自動生成は、様々なオープンソースプロダクトの力によって実現されています。
+  <LI>特に <A href="http://mergedoc.sourceforge.jp/pleiades.html">Pleiades (Eclipse プラグイン日本語化プラグイン)</A> に大きく依存しています。<BR>
+  <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A> を提供されている 柏原真二様(<A href="http://d.hatena.ne.jp/cypher256/">cypher256様</A>) および関係されている方々の努力に感謝します。
+  <LI>このように、素晴らしいオープンソースを公開されている方々に 大きく感謝します。ありがとうございます。
+</UL>
+<HR>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig080228.html">2008/02/28 日記: Eclipse 3.3 日本語化言語パック(サードパーティ版) β版 リリース</A>
+  <LI><A href="ig080131.html">2008/01/31 日記: Eclipse SDK 3.3.1.1用 日本語化言語パック (サードパーティ版) α版リリース</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030120.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030120.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/226601">
+    <title>シャープ、家の中と外をつなぐ家庭向けサーバーを発売</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/226601</link>
+    <description>微妙に興味深いです。もちろんこの機器のOSはLinuxです。ごく近未来に こ～ゆ～ホームサーバーって一般化していくのでしょうか。その点も興味をそそります。</description>
+    <dc:date>2003-01-20T12:20:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/opinion/yoshimatsu/onepoint06.html">
+    <title>@IT: あらゆる情報をうのみにするな.NET</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/opinion/yoshimatsu/onepoint06.html</link>
+    <description>自分の手を動かして確認を取ったものこそ信じるに足る情報で、また それが身に付いた技術・知識なんですよね～</description>
+    <dc:date>2003-01-20T12:10:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/business/story/20030117101.html">
+    <title>制限だらけのウィンドウズ・オープンソース計画</title>
+    <link>http://www.hotwired.co.jp/news/news/business/story/20030117101.html</link>
+    <description>私は オープンソースは OSIが認定した 『正しい』オープンソースなもののみ それと認知しています。マイクロソフトのソレは OSI的には オープンソースとは言えませんよね (笑)</description>
+    <dc:date>2003-01-20T12:20:49</dc:date>
+  </item>
+
+</rdf:RDF>

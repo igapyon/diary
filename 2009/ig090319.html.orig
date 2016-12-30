@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/19 日記: IBM が Sun を買収する可能性 , グリーン IT 開発手法</TITLE>
+<META name="DESCRIPTION" content="IBM が Sun を買収する可能性があるというニュースを、アメリカのニュースが伝えたのだそうです。 , 世界同時不況をきっかけに、アメリカではグリーン・ニューディールという省エネルギー運動が起きているようです。省エネルギーをシステム開発に当てはめてみると、「グリーン・コンピュータ・システム開発手法」とか「グリーン・プログラミング言語」とかあるのかなぁ、とぼんやり思いつきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/19 日記: IBM が Sun を買収する可能性 , グリーン IT 開発手法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] IBM が Sun を買収する可能性があるというニュースを、アメリカのニュースが伝えたのだそうです。 , 世界同時不況をきっかけに、アメリカではグリーン・ニューディールという省エネルギー運動が起きているようです。省エネルギーをシステム開発に当てはめてみると、「グリーン・コンピュータ・システム開発手法」とか「グリーン・プログラミング言語」とかあるのかなぁ、とぼんやり思いつきました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBM が Sun を買収する可能性</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>IBM が Sun を買収する可能性があるというニュースを、アメリカのニュースが伝えたのだそうです。</P>
+<UL>
+  <LI>IBMとSunの買収交渉が進行中か - 米WSJ報道<BR>
+  <A HREF="http://journal.mycom.co.jp/news/2009/03/18/058/index.html">http://journal.mycom.co.jp/news/2009/03/18/058/index.html</A>
+  <LI>IBM、Sunを$6.5Bで買収へ<BR>
+  <A HREF="http://jp.techcrunch.com/archives/20090318big-blue-wants-to-swallow-sun-for-65-billion/">http://jp.techcrunch.com/archives/20090318big-blue-wants-to-swallow-sun-for-65-billion/</A>
+  <LI>「IBMがSun買収に向けて交渉」の報道<BR>
+  <A HREF="http://www.itmedia.co.jp/news/articles/0903/18/news088.html">http://www.itmedia.co.jp/news/articles/0903/18/news088.html</A>
+</UL>
+<P>どうなるのか、注意深く見守りたいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>グリーン IT 開発手法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>世界同時不況をきっかけに、アメリカではグリーン・ニューディールという省エネルギー運動が起きているようです。省エネルギーをシステム開発に当てはめてみると、「グリーン・コンピュータ・システム開発手法」とか「グリーン・プログラミング言語」とかあるのかなぁ、とぼんやり思いつきました。</P>
+<P>コンピュータ・システム開発観点だと、開発時の CO2 排出量と実行時の CO2 排出量といった観点があるのだろうなぁ、と思います。コンピュータ・ソフトウェア・プログラムは、開発時より実行時のほうが時間が長い場合が多いので、実行時の
+CO2 排出量が主たる着眼点になるのだろうなぁと想像します。実行時効率を上げるには、CPU 演算回数を減らすとか HDD 読み込み回数を減らすなどの工夫が必要なのでしょう。</P>
+<P>一方、プログラミング言語観点でも、同様に開発時の CO2 排出量と実行時の CO2 排出量という観点がありそうです。これも同様に、実行時 CO2
+排出量が主たる着眼点になろうと想像します。</P>
+<P>CPU 演算回数を減らすなら、極端に言えば C 言語のようなコンパイル言語タイプのような実行時解決の少ない種類の言語が最も有利であるように考えられます。インタープリタ言語は
+CPU 演算回数の面では不利であるように思われます。同様に、Java 言語のリフレクションや XML ファイルの読み込みなども、なるべく行わないスタイルのほうが有利です。そういうのは、開発時に
+極力解決しておくのが グリーン IT 的には有利そうです。</P>
+<P>などと つれづれに思いを馳せました。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>第4回　国語力とプログラミング力の関係　解説編<BR>
+  http://jibun.atmarkit.co.jp/ljibun01/rensai/genius/04/01.html<BR>
+  義務教育で「国語力」を養うカリキュラムを実施するように改善して欲しいと私も考えます。
+  <LI>ITpro の文字コード・シリーズ連載記事
+  <UL>
+    <LI>第5回■注目される文字コードのセキュリティ問題 文字コードに関する注意点（1）<BR>
+    <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090208/324377/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090208/324377/</A>
+    <LI>第6回■異なる文字集合への変換がぜい弱性につながる 文字コードに関する注意点（2）<BR>
+    <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090215/324766/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090215/324766/</A>
+    <LI>第7回■文字エンコーディングが生み出すぜい弱性を知る 文字コードに関する注意点（3）<BR>
+    <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090223/325337/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090223/325337/</A>
+    <LI>第8回■主要言語の文字エンコーディングの対応状況を押さえる 文字コードに関する注意点（4）<BR>
+    <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090223/325328/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090223/325328/</A>
+    <LI>第9回■上流工程で文字集合仕様と文字エンコーディングを決定する 文字コードに関する注意点（5）<BR>
+    <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090309/326139/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090309/326139/</A>
+  </UL>
+  良くできた文字コード関連連載記事。
+  <LI>新規案件ゼロの衝撃、ITベンダーは椅子取りゲームに参戦すべし<BR>
+  <A HREF="http://www.nikkeibp.co.jp/article/news/20090319/140145/">http://www.nikkeibp.co.jp/article/news/20090319/140145/</A><BR>
+  来年の IT 業界は とても厳しいものになる見込みです。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

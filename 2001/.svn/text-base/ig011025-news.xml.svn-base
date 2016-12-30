@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011025.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011025.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-25</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/22/e_coursey_m.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/24/yahoo.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/24/e_ps2.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0110/23/01102302.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/25/windowsxp.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/25/b_1024_04.html"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/150413"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/24/b_1023_19.html"/>
+        <rdf:li resource="http://www.webgain.com/products/java_cc/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/22/e_coursey_m.html">
+    <title>これがWindows XPの暗黒面だ</title>
+    <link>http://www.zdnet.co.jp/news/0110/22/e_coursey_m.html</link>
+    <description>Windows XP のアクティべーションについての詳細な説明・ドライバの互換性の話題などが 良く整理されて載っています。この記事、かなり気に入りました。こんなOSが 世間の一般利用者の方々用プリインストールマシンに載っかると思うと、、、心配ですね (苦笑)</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/24/yahoo.html">
+    <title>ヤフー，企業ポータル構築支援サービスを開始</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/24/yahoo.html</link>
+    <description>5000人規模だと、初期1800万円＋125万円/月なのだそうな。これがポータルサイトの相場か???</description>
+    <dc:date>2001-10-25T10:57:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/24/e_ps2.html">
+    <title>PS2 Linux Kitにワールドワイド版</title>
+    <link>http://www.zdnet.co.jp/news/0110/24/e_ps2.html</link>
+    <description>大きなうねりになる予感。1年後くらいに ものすごい効果が出る可能性がありますね。</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0110/23/01102302.html">
+    <title>マイクロソフト，サンやオラクル，AOLなどライバル企業を激しく批判</title>
+    <link>http://www.zdnet.co.jp/enterprise/0110/23/01102302.html</link>
+    <description>Java言語は マーケティングが成功したから流行った言語では無いです。仰るとおりです。Java言語は 『良くできた』言語だったのです。何年もの世間リリース期間を経て Java言語は 『安定した』プログラミング言語・開発環境に成長してきました。そこに ちょうど Webサービスという潮流が重なりました。で .NETは 逆ですよね。Webサービスに対応するために、Java言語の真似をして 無理矢理プログラミング言語・開発環境を作り出そうとしています。今度出るバージョンがファーストリリースなので、『安定させる』期間がありませんでした。どんなに努力して安定化作業をしたって、.NETが安定してリリースされるワケがありません。、、、そんな当然の法則、マイクロソフトが知らないワケ無いのですが、、、。</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/25/windowsxp.html">
+    <title>「Windows XP 日本語版」（OEM版）の深夜販売</title>
+    <link>http://www.zdnet.co.jp/news/0110/25/windowsxp.html</link>
+    <description>ほえ？ Windows XP 日本語版って リリースされだしたんですか？ 知りませんでした。私は MSDNに入っているから 自動的に マイクロソフトから送付されてくるハズなんですけれどもねぇ。</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/25/b_1024_04.html">
+    <title>Windows XP，米国リリース目前の悲観論</title>
+    <link>http://www.zdnet.co.jp/news/0110/25/b_1024_04.html</link>
+    <description>米国は まだリリース前 ??? 謎は深まるばかり (笑) それはともかく マシンのリプレース以前に Windows Me/98 との互換性への不安が 最大の障壁だと私は思います。コンシューマ向けという事では Windows 3.1 → Windows 95 の時のスキップ以来の 大幅な変更ですものねぇ。</description>
+    <dc:date>2001-10-25T10:57:12</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/150413">
+    <title>第一勧銀情報システム、Linuxで高可用システム構築</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/150413</link>
+    <description>銀行系の所にも どんどんLinuxで高可用性システムが入ってくるご時世になってきたのですね。恐れ入りました。</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/24/b_1023_19.html">
+    <title>Red Hat Linux 7.2を正式リリース</title>
+    <link>http://www.zdnet.co.jp/news/0110/24/b_1023_19.html</link>
+    <description>私はどうも Red Hat Linuxがキライなもので。(7.0の頃の不安定バージョンの悪印象が強すぎるのです)</description>
+    <dc:date>2001-10-25T10:07:12</dc:date>
+  </item>
+
+  <item rdf:about="http://www.webgain.com/products/java_cc/">
+    <title>JavaCCのありか</title>
+    <link>http://www.webgain.com/products/java_cc/</link>
+    <description>コンパイラ・コンパイラの JavaCCのありかをメモ。(from 安藤さんページ) ただし 私は コンパイラ・コンパイラは詳しくない。(興味はたくさん持っています)</description>
+    <dc:date>2001-10-25T11:12:24</dc:date>
+  </item>
+
+</rdf:RDF>

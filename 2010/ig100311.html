@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/03/11 日記: Ubuntu: スワップ領域変更方法</TITLE>
+<meta name="DESCRIPTION" content="自宅の Ubuntu デスクトップを使っていて、不意にページングの時間が直感を超える場合がありました。簡単に調べたところ、プログラムとスワップとが同じ HDD に配置しているのが問題だと仮定しました。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.1.0 for Windows">
+<meta name="DATE" content="2010-03-11T23:14:54+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/03/11 日記: Ubuntu: スワップ領域変更方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 自宅の Ubuntu デスクトップを使っていて、不意にページングの時間が直感を超える場合がありました。簡単に調べたところ、プログラムとスワップとが同じ HDD に配置しているのが問題だと仮定しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: スワップ領域変更方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p>自宅の Ubuntu デスクトップを使っていて、不意にページングの時間が直感を超える場合がありました。簡単に調べたところ、プログラムとスワップとが同じ
+HDD に配置しているのが問題だと仮定しました。</p>
+<ul>
+  <li>Ubuntu 9.10
+  <li>CPU: Pentium 4
+  <li>メモリ: 512MB
+</ul>
+<p>幸い、この PC は物理的に HDD が 2 個ついていたので、これを切り替えることができます。</p>
+<p>このスワップ領域の変更方法をメモしておきます。</p>
+<ul>
+  <li>sudo blkid コマンドで UUID を調べる。
+  <li>sudo vi /etc/fstab で fstab ファイルを編集して swap 指定を変更する。
+</ul>
+<P>ざっと触ったところでは、このスワップによるプチ・フリーズ現象は改善されたように見えます。<br>
+Ubuntu のインストーラーで、デフォルトで進むと、暗黙の内に同一ドライブにファイルシステムとスワップが作成されるので、これを意識しなかったのです。</P>
+
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/03/11 23:14:54 $</address>
+
+</BODY>
+</HTML>

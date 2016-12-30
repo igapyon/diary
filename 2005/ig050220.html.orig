@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/20 日記: KNOPPIXとJooConverterとを組み合わせたLiveCD構築を思いつきました</TITLE>
+<META name="DESCRIPTION" content="KNOPPIXを活用した各種アイデアなどがぽんぽんと浮かんできました。そういえば、ここのところ何かにつけてKNOPPIXとの組み合わせばかりを考えています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/20 日記: KNOPPIXとJooConverterとを組み合わせたLiveCD構築を思いつきました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] KNOPPIXを活用した各種アイデアなどがぽんぽんと浮かんできました。そういえば、ここのところ何かにつけてKNOPPIXとの組み合わせばかりを考えています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アイデアメモ : KNOPPIXにJooConverterとOpenOffice.orgを入れて、コンテンツメディア変換サーバを構築</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>だれかが思いついて、すでに実現しているかも知れませんが…。<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>に <A HREF="http://ja.openoffice.org/" TITLE="現在最も注目されているオープンソースによるオフィススイート実装のひとつ。OpenOffice.org 2.0以降ではドキュメントフォーマットとして OpenDocumentを採用している。">OpenOffice.org</A>
+と <A HREF="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html" TITLE="Java帳票ソリューションを実現するためのオープンソースツールのひとつ。OpenOffice.orgと協調動作してExcelファイルからPDFファイルを作成できます。もちろん、それ以外にも多彩な利用方法があります。">JooConverter</A>とを導入して、コンテンツメディア変換サーバ<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/livecd.html" TITLE="1CD Linuxと呼ばれることもある。CDブートしてOS一式が利用可能になるというカラクリ。">LiveCD</A>を構築するというアイデアを思いつきました。具体的には
+Excelの *.xlsファイルを このコンテンツメディア変換サーバに送信すると OpenOffice.orgとJooConverterを利用して
+PDF形式である *.pdfファイルに変換して送信元に戻すという仕組みです。</P>
+<P>さすがに ポート 8100番をそのまま開けっ放し、というわけにも行かないでしょう。(同期実行制御の考慮が必要かと、私は現時点では考えています。また
+通信量が意外に多く 速度が低下する懸念があります。加えて、メディアの変換パターンを何かしらの方法で伝えた方が良いように考えます。)<BR>
+Jakarta Tomcatか何かの上で Java Servletで軽くサーバ処理を実装して、適切に同期実行制御を加えながら動作させれば面白い利便性そうです。</P>
+<P>ExcelファイルやWordファイル、そしてPowerPointファイルなどをPDFファイルに変換したいというニーズは 比較的あたりまえに そこら中に存在していると考えるからです。そしてそれらが、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>上で動作するとなると、ちょっと空いているパソコンに
+<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>のCD-Rを突っ込んで起動させて、すぐにコンテンツメディア変換サーバとして動作する、という<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/livecd.html" TITLE="1CD Linuxと呼ばれることもある。CDブートしてOS一式が利用可能になるというカラクリ。">LiveCD</A>の特徴を活かした点が魅力的です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アイデアメモ : KNOPPIXにJooReportsとOpenOffice.orgを入れて、JooReports体験CD-Rを構築</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JooReportsを広く一般の方々に知ってもらうために、JooReportsを仕込んだ<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>のCD-Rを作成するという活動を、併せて思いつきました。ああ、どなたか実施されないかしら。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アイデアメモ : 携帯電話の着信音量改善案</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>携帯電話の着信音について気がついたことがあります。とても静かな環境においては、ちょっとした音量でも とてもうるさい着信音量であるように感じます。一方で
+  周囲が音で満ちあふれた環境における着信音量は 大きめに設定していないと とても聞こえません。<BR>
+そこで、くだらないアイデアが思いつきました。電話が着信した際に 周囲の騒音の音量を検知してから着信音量を変更するという自動検知モードのようなものは実現できないものでしょうか？
+そうすると 幾分かは携帯電話の着信音に関するストレスが減るように感じます。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

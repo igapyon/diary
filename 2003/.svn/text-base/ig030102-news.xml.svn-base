@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030102.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030102.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/james/">
+    <title>Apache Jakarta James 2.1 リリース</title>
+    <link>http://jakarta.apache.org/james/</link>
+    <description>SMTP, POP3サーバとして 私が気になっているJamesですが バージョン2.1がリリースです。さっそくダウンロード！</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://cweb.canon.jp/bj/lineup/mp55/index.html">
+    <title>Canon PIXUS MP55</title>
+    <link>http://cweb.canon.jp/bj/lineup/mp55/index.html</link>
+    <description>プリンタ、コピー、スキャナ３機能のインクジェット複合機。よしけんさんが買われたとのことでにわかに興味がわいてきました。自宅にコピー機って 欲しいモンですよね。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M4/index.html">
+    <title>菊田さんの Eclipse2.1 M4(Win32版)変更点のメモ</title>
+    <link>http://www02.so-net.ne.jp/~kikuta/eclipse/2_1M4/index.html</link>
+    <description>私にとってのEclipse伝道者である菊田さんの手による最新マイルストーンM4の日本語メモです。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/12/29/640947-000.html">
+    <title>エンタープライズLinux導入事例─ツタヤ オンラインの場合</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/12/29/640947-000.html</link>
+    <description>エンタープライズへのLinux導入に関する面白い記事。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/29/e_vamosi.html">
+    <title>侵入者の夢の王国“無線LANネットワーク”</title>
+    <link>http://www.zdnet.co.jp/news/0203/29/e_vamosi.html</link>
+    <description>そんなことで個人的には 当面 無線LANは絶対使わないように決めています。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20021226/1/">
+    <title>ライバルOS/2より一足早くWindows 95のサポートが12月31日終了</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20021226/1/</link>
+    <description>商用OSは いつかサポートが終わるのです。オープンソースOSであっても当然いずれはサポートが停止するのですが、ソースコードがあるので 『自ら』サポートを実現することができる可能性が残されます。その点が 決定的にオープンソースOSの違いであり またメリットであるのです。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+  <item rdf:about="http://www.microsoft.com/japan/windows/components.asp">
+    <title>Windows デスクトップ製品のライフサイクル - Internet Explorer および他の Windows オペレーティング システムのコンポーネント</title>
+    <link>http://www.microsoft.com/japan/windows/components.asp</link>
+    <description>終わりゆくOS。</description>
+    <dc:date>2003-01-02T17:03:22</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/11/26 日記: HTTP経由ファイル取得ツール(Visual C++版)</TITLE>
+<META name="DESCRIPTION" content="WinInetを使ったプログラム開発に携わることに">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WinInetを使ったプログラム開発に携わることに</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WinInet APIを使ったプログラム開発に携わることになりました。Visual C++.NETベースで開発する模様です。<BR>
+さて WinInet APIの使い方は 何を見れば良いのでしょう (笑)<BR>
+、、、そういえば Visual C++を使った仕事って 久しぶりです。たまには C++も使わないと
+忘れてしまいますからね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTP経由ファイル取得</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ごく簡単な HTTP経由ファイル取得ツール (Visual C++版)<BR>
+読者の方へ、、、バグっていたらツッコミ下さい。(バグっていると ちとマズいのであった…)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpGet.cpp</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* シンプルHTTP GETクライアント
+* 2002.11.26 t.iga
+*/
+
+#include &lt;afx.h&gt;
+#include &lt;afxwin.h&gt;
+#include &lt;afxinet.h&gt;
+
+CWinApp theApp;
+
+/**
+ * 転送時のバッファサイズ
+ */
+const int BUF_SIZE = 2048;
+
+int _tmain(int argc, TCHAR* argv[], TCHAR* envp[]) {
+
+    // MFC を初期化して、エラーの場合は結果を印刷します。
+    if (!AfxWinInit(::GetModuleHandle(NULL), NULL, ::GetCommandLine(), 0)) {
+        _tprintf(_T(&quot;MFCの初期化に失敗しました.\n&quot;));
+        return 1;
+    }
+
+    if (argc &lt;= 1) {
+        printf(&quot;Usage: HttpGet.exe http://www.google.co.jp/\n&quot;);
+        return -1;
+    }
+
+    try {
+        char* uri = argv[1];
+
+        DWORD protocol = 0;
+        CString serverName;
+        CString fileName;
+        INTERNET_PORT port;
+
+        if (AfxParseURL(uri, protocol, serverName, fileName, port) == false) {
+            printf(&quot;URLの分解に失敗しました。&quot;);
+            return -1;
+        }
+
+        printf(&quot;プロトコル[%ld] ポート[%ld] サーバ[%s] ファイル名[%s]\n&quot;,
+               protocol, port, (LPCSTR)serverName, (LPCSTR)fileName);
+
+        CInternetSession session(&quot;HttpGet - simple http client&quot;);
+        CHttpConnection* conn = session.GetHttpConnection(
+                                    serverName,
+                                    CHttpConnection::HTTP_VERB_GET,
+                                    port, NULL, NULL);
+        CHttpFile* file = conn-&gt;OpenRequest(
+                              CHttpConnection::HTTP_VERB_GET, fileName,
+                              NULL, 1, NULL, NULL,
+                              INTERNET_FLAG_RELOAD | INTERNET_FLAG_DONT_CACHE);
+
+        file-&gt;AddRequestHeaders(&quot;Accept: text/*\r\nUser-Agent: HttpGet\r\n&quot;);
+        file-&gt;SendRequest();
+
+        DWORD statusCode;
+        file-&gt;QueryInfoStatusCode(statusCode);
+        if (statusCode &gt;= 300) {
+            printf(&quot;何かしらエラー:%ld\n&quot;, statusCode);
+            return -1;
+        }
+
+        TCHAR buf[BUF_SIZE + 1];
+        for (;;) {
+            int result = file-&gt;Read(buf, BUF_SIZE);
+            if (result &lt;= 0) {
+                break;
+            }
+            buf[result] = 0x00;
+            printf(buf);
+        }
+
+        file-&gt;Close();
+        delete file;
+        conn-&gt;Close();
+        delete conn;
+        session.Close();
+    } catch (CInternetException* ex) {
+        TCHAR szMsg[1024];
+        ex-&gt;GetErrorMessage(szMsg, 1024);
+        printf(&quot;Error occur: %s&quot;, szMsg);
+        ex-&gt;Delete();
+    }
+    return 0;
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WinInetはCOMベースであるような記述があり、とりあえずMFCラッパー側で実装してみました。<BR>
+でもそれとは別に Win32 Platform SDK に wininet.hというヘッダーファイルがあり
+こっちは生でAPIが呼べるようにも思います。さてはて。(気分的には 生でAPIを呼びたいのですけれどもね)</P>
+<P>で、もう少しつっこんで調べてみたら、HINTERNET InternetOpen()というWin32
+APIがあるのがわかりました。こっちは 生APIで C++ではなくってC風に記述できます。さあて
+Cで行くべきかC++で行くべきか…。ちなみに C言語で生APIの方法は 下記ページに詳細が載っていました。</P>
+<UL>
+  <LI>猫でもわかるプログラミング 第２１６章 簡易ＦＴＰの基礎<BR>
+  [replace-href:http://www.kumei.ne.jp/c_lang/sdk3/sdk_216.htm]
+</UL>
+<P>良くできたウェブページでした。</P>
+<P><FONT color="#ff0000">2002.12.10 追記</FONT></P>
+<P>Cでアクセスするために別のサンプルを探したりしてみました。(MFCのAPIが どうも怪しいので…)
+下記のページを参考にしました。</P>
+<UL>
+  <LI>HTTPサーバーからページを受信する<BR>
+  [replace-href:http://www.athomejp.com/goldfish/api/wininetreadfile.html]
+  <LI>HTTPでリモートのファイルを取得(C言語)<BR>
+  [replace-href:http://tokyo.cool.ne.jp/masapico/api_sample_inet04_c.html]
+</UL>
+<P>できあがった C言語API側のWinInetを呼び出すバージョンです。<BR>
+# C版を作って強く認識しました。私 まだC++の方は覚えていました。C言語について、すっきり忘れていました
+(笑)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpGet.c (C言語バージョン)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* シンプルHTTP GETクライアント
+* wininet.libをリンクに追加することが必要です。
+* 2002.12.10 t.iga
+*/
+#include &lt;windows.h&gt;
+#include &lt;wininet.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt; 
+
+#define BUFSIZE         (1024)
+
+int main(int argc, char* argv[])
+{
+    HINTERNET hsession = 0;
+    HINTERNET hconnect = 0;
+    HINTERNET hrequest = 0;
+    char szBuf[1025];
+    DWORD dwSize = 0;
+
+    hsession = InternetOpen(&quot;HttpGet - simple http client&quot;,
+                            INTERNET_OPEN_TYPE_PRECONFIG,
+                            NULL, NULL, 0);
+    if (hsession == NULL)
+    {
+        printf(&quot;hsession==NULL&quot;);
+        return -1;
+    }
+
+    hconnect = InternetConnect(
+                   hsession,
+                   &quot;www.tcct.zaq.ne.jp&quot;,
+                   80,
+                   &quot;iga&quot;,
+                   &quot;password&quot;,
+                   INTERNET_SERVICE_HTTP,
+                   0,
+                   10000);
+    if (hconnect == NULL)
+    {
+        printf(&quot;hconnect==NULL&quot;);
+        return -1;
+    }
+
+    hrequest = HttpOpenRequest(
+                   hconnect,
+                   &quot;GET&quot;,
+                   &quot;/iga/tosiki/igapyon/diary/2002/ig021126.html&quot;,
+                   NULL,
+                   NULL,
+                   NULL,
+                   INTERNET_FLAG_RELOAD | INTERNET_FLAG_DONT_CACHE,
+                   NULL);
+    if (hrequest == NULL)
+    {
+        printf(&quot;hrequest==NULL&quot;);
+        return -1;
+    }
+
+    if (HttpSendRequest(
+                hrequest,
+                NULL,
+                0,
+                NULL,
+                0) == FALSE)
+    {
+        printf(&quot;HttpSendRequest() が失敗しました\n&quot;);
+        return -1;
+    }
+
+    szBuf[0] = 0;
+
+    {
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_CONTENT_LENGTH,
+
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;長さ[%s]\n&quot;, szBuf);
+        }
+
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_STATUS_CODE,
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;ステータス[%s]\n&quot;, szBuf);
+        }
+
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_STATUS_TEXT,
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;ステータス文字列[%s]\n&quot;, szBuf);
+        }
+    }
+
+
+    for (;;)
+    {
+        dwSize = BUFSIZE;
+        if (InternetReadFile(
+                    hrequest,
+                    szBuf,
+                    dwSize,
+                    &amp;dwSize) == FALSE)
+        {
+            break;
+        }
+
+        if (dwSize &lt;= 0)
+        {
+            break;
+        }
+
+        szBuf[dwSize] = 0;
+        printf(&quot;%s\n&quot;, szBuf);
+    }
+
+    InternetCloseHandle(hrequest);
+    InternetCloseHandle(hconnect);
+    InternetCloseHandle(hsession);
+
+    return 0;
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>やっぱりMFCを使わない方が 私には似合っています。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021205.html">2002/12/05 日記: HTTP経由ファイル送信サンプル(Visual C++版)</A>
+  <LI><A href="ig020129.html">2002/01/29 日記: HTTP経由ファイル取得ツール(Java版)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>昨日はがんばりました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ごごごってJavaのプログラミングをしました。とっても効率よくコーディングしたのですが、500行くらいしか書くことが出来ませんでした。というか
+効率良く書いた場合には 私は 500行/1日程度なのでしょうかね(笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021126-news.xml]
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

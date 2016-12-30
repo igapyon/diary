@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/09/26 日記: エクストリームプログラミング試行</TITLE>
+<META name="DESCRIPTION" content="仕事が超忙しかったのでXPを試行してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>エクストリームプログラミング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事が超忙しくって ここ2～3日 派遣SEさんに仕事を教えるついでに エクストリームプログラミングを試行してみました。<BR>
+一台のパソコンで 私が ずばばって大まかにコーディングして 細かいところは派遣さんに調整してもらうっていう
+外科医スタイルとかいうやつでしょうか？ (いがぴょんは記憶がい～かげん) <BR>
+このやり口が 意外に生産性が高かったです。ずばずば画面が出来上がっていきます。<BR>
+また 1台のパソコンで2人で作業していたら、コンパイルやテストの前に バグを見つけて貰うというのが
+これがまた 異常に効果が高いです。つまらないバグを作り込んでしまって、これのバグ出し
+などを一人でやっていたら 時間ややる気を費やしてしまいますから。この早期発見だけでも
+エクストリームプログラミングの効果は絶大ですなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はじめての C#無限ループプログラミング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日 初めて C#言語で無限ループをプログラミングしてしまいました。(要するにバグですな…)<BR>
+Webサーバ搭載マシンのCPUが ぴゅ～って上昇して 100%でべったり張り付いてしまいます。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020926-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

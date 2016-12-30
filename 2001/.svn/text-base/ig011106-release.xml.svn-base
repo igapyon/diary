@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011106.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011106.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-06</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://java.sun.com/products/j2mewtoolkit/"/>
+        <rdf:li resource="http://java.sun.com/products/jdk/1.2.2/ja/index.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/j2mewtoolkit/">
+    <title>SUN Java2 Platform Micro Edition, Wireless Toolkit 1.0.3 リリース</title>
+    <link>http://java.sun.com/products/j2mewtoolkit/</link>
+    <description>新版がリリースされてました。</description>
+    <dc:date>2001-11-06T11:21:54</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/products/jdk/1.2.2/ja/index.html">
+    <title>SUN Java2 SDK SE 1.2.2_010 リリース</title>
+    <link>http://java.sun.com/products/jdk/1.2.2/ja/index.html</link>
+    <description>なかなか 1.2.3 にならないのが ちょっと不満 (意味不明)。それはさておき、リビジョン変更点は 現時点では把握できませんでした。</description>
+    <dc:date>2001-11-06T15:23:23</dc:date>
+  </item>
+
+</rdf:RDF>

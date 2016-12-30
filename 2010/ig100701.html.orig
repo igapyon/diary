@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/07/01 日記: SMG ENdoSnipe という Java 用システム診断ツール</TITLE>
+<meta name="DESCRIPTION" content="SMG 社の ENdoSnipe という Java 用システム診断ツールの紹介セミナーに参加してきました。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.2.0 for Windows">
+<meta name="DATE" content="2010-07-05T22:56:13+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/07/01 日記: SMG ENdoSnipe という Java 用システム診断ツール</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] SMG 社の ENdoSnipe という Java 用システム診断ツールの紹介セミナーに参加してきました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SMG ENdoSnipe という Java 用システム診断ツール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><a href="http://www.smg.co.jp/">SMG</a> 社の <a href="http://endosnipe.smg.co.jp/">ENdoSnipe</a> (えんどすないぷ) という Java 用システム診断ツールの紹介セミナーに参加してきました。</p>
+<p><a href="http://endosnipe.smg.co.jp/">ENdoSnipe</a> を他の同様なツールと比較した場合の特長は、以下のようなものであると感じました。</p>
+<ul>
+  <li>ナレッジ・ベースとなっており、登録済みのトラブル・パターンとマッチングして問題の可能性および解決方法案を報告してくれる機能がある
+  <ul>
+    <li>解決案を提示してくれるのが大変魅力的です。
+    <li>Java エキスパートが不在という状況下であっても、このツールが問題点および解決方法案を提示してくれるので、トラブル解決の難易度を下げることができるものと期待できる。
+    <li>メモリリークや性能問題といったものをツールに任せることによって、Java エキスパートが より難易度の高い作業に集中できることが期待される。
+  </ul>
+  <li>メモリ消費量が増えたときや CPU 利用率が増えたときなど、あらかじめ登録しておいた条件下でのみ、詳細なログ取得機能を動作させるという機能がある
+  <ul>
+    <li>このツールを本番機などに投入する際の実行時コストを、この機能によって低減化できる、
+    <li>問題発生時のみに このツールを動作させて、必要な情報収集が可能。
+  </ul>
+</ul>
+<p>サーバ 1 台あたりの価格は、おおむね他の同種ツールと同程度の模様です。上記特長が効果を出すものと期待できるので、機会があれば利用することを検討したいです。<br>
+# ただし、私が従事するプロジェクトは、なぜか おおむね貧乏プロジェクトであるので、導入の機会にめぐりあう可能性は低いかもです…</p>
+<p><font color="#ff00ff">気になった点</font></p>
+<ul>
+  <li>このツールはナレッジ・ベースならではの使い勝手の良さがあるように見えました。<br>
+  さて、このナレッジについてですが、初期状態でどの程度の質および量が提供されるのかについて、気になりました。<br>
+  <font color="#ff0000">2010.07.02追記</font> 読者で開発者の方に<a href="http://d.hatena.ne.jp/KenichiroMurata/20100701/p2">ツッコミをもらいました</a>。結論から言うと、初期状態でナレッジがデフォルトでプリセットされるとのことです。
+</ul>
+<p><font color="#ff00ff">後日談</font></p>
+<ul>
+  <li><font color="#ff0000">2010.07.02追記</font> このツールは<a href="http://www.atmarkit.co.jp/news/200901/28/nec.html">NEC が代理店になって販売している</a>とのことです。私が全然知らなかっただけで、ある程度メジャーなツールだった模様です。
+</ul>
+<p><font color="#ff00ff">ツッコミ</font></p>
+<ul>
+  <li><a href="http://d.hatena.ne.jp/KenichiroMurata/20100701/p2">2010-07-01 ken’s room: いがぴょんさんに ENdoSnipe を紹介して頂きました！</a>
+</ul>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/07/05 22:56:13 $</address>
+</BODY>
+</HTML>

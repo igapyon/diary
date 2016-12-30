@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030707.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030707.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/07/njbt_04.html">
+    <title>「MHz」の意味を3割強は知らない　AMDが調査</title>
+    <link>http://www.zdnet.co.jp/news/0307/07/njbt_04.html</link>
+    <description>私 ソフトウェア産業に従事していますが、この記事にあるキーワード全てを『記述式で説明せよ』なんて言われたら かなり正解率低そうです。技術用語恐るべし。だいたい CPUのクロック数って どういう効能があるのか、バス速度などベースとなる技術のクロック数とどういう関係にあるのか、なんて根本的なところから、全然 とても説明できそうにありません。</description>
+    <dc:date>2003-07-08T08:43:19</dc:date>
+  </item>
+
+</rdf:RDF>

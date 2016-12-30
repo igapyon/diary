@@ -1,0 +1,34 @@
+2016-11-10 Selenium Java 小ネタ
+
+*p1*[Selenium] Selenium Java 小ネタ
+
+input - text
+>|java|
+		WebElement input = browser.findElement(ById.id("myId"));
+		input.clear();
+		input.sendKeys(value);
+||<
+
+>|java|
+		WebElement input = browser.findElement(ByName.name("myName"));
+		input.clear();
+		input.sendKeys(value);
+||<
+
+checkbox
+>|java|
+		WebElement input = browser.findElement(ById.id("myId"));
+		if (input.isSelected() != false) {
+			input.click();
+		}
+||<
+
+select - option
+>|java|
+		new Select(browser.findElement(By.id("myId"))).selectByValue("001");
+||<
+
+>|java|
+		new Select(browser.findElement(By.id("myId"))).selectByVisibleText("特になし");
+||<
+

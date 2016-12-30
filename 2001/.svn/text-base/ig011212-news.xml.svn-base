@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011212.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011212.html</link>
+    <language>ja</language>
+    <dc:date>2001-12-12</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011207/1/"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fsecurity/column/se02/sec01.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011207/1/">
+    <title>SEへの「職種転換」は成功するか？</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011207/1/</link>
+    <description>いやはや、製造業受難の時代だなぁ。</description>
+    <dc:date>2001-12-12T21:03:15</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/column/se02/sec01.html">
+    <title>隣人をも疑うべきか？～ソーシャルエンジニアリング～</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/column/se02/sec01.html</link>
+    <description>効果的なセキュリティホール認識へのいざないです。こういうセキュリティホールがもっとも危険ですね。私も注意しようっと。</description>
+    <dc:date>2001-12-12T21:03:15</dc:date>
+  </item>
+
+</rdf:RDF>

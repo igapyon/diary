@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020418.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020418.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-18T08:06:23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/17/b_0416_08.html">
+    <title>AOL，Netscapeがデフォルトの「CompuServe 7」リリース</title>
+    <link>http://www.zdnet.co.jp/news/0204/17/b_0416_08.html</link>
+    <description>Netscapeの復権に期待。</description>
+    <dc:date>2002-04-18T09:22:47</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/17/06.html">
+    <title>「SourceForge.jp」が正式運用へ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/17/06.html</link>
+    <description>米SourceForgeにはお世話になりました。日本版も ちと覗いてみようと思います。</description>
+    <dc:date>2002-04-18T09:22:47</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/17/b_0416_19.html">
+    <title>Google，3月のシェアは約46％</title>
+    <link>http://www.zdnet.co.jp/news/0204/17/b_0416_19.html</link>
+    <description>Googleが流行りまくっていますねぇ。</description>
+    <dc:date>2002-04-18T09:22:47</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/17/05.html">
+    <title>個人サイトの更新情報をメールで自動告知　@nifty</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/17/05.html</link>
+    <description>ちょっと気になる新機能…。</description>
+    <dc:date>2002-04-18T09:22:47</dc:date>
+  </item>
+
+</rdf:RDF>

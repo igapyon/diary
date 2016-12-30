@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/07/16 日記: C#.NET勉強開始</TITLE>
+<META name="DESCRIPTION" content="C#の本を買ってきました。勉強開始です。暇を見つけて少しずつ勉強しておこうっと。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>標準C#.NETプログラミング(2) .NETアプリケーション開発編</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>C#の学習のために 下記の本を買ってきました。</P>
+<UL>
+  <LI>標準C#.NETプログラミング(2)<BR>
+.NETアプリケーション開発編<BR>
+著者 Andrew Troelsen<BR>
+訳者 矢沢 久雄<BR>
+発行所 株式会社 翔泳社<BR>
+ISBN4-7981-0112-5
+</UL>
+<P>いろいろ見て C#で ASP.NETするには この本が良さそうに思えたからです。(日経の本が欲しかったのですが
+並んでいなかった…)</P>
+<HR>
+<P><FONT color="#ff0000">2002.07.18</FONT> [replace-link:teik]さんのツッコミ<BR>
+Subject: [igapyon:01009] 日記の感想 (7/16)<BR>
+[replace-linkteik] です。<BR>
+C# 始めたそうですね。<BR>
+わたしも自発的に少しずつ .NET の比重を増やしている所でして、参考になるかどうか、わたしの情報源を書いてみました。<BR>
+<BR>
+.NET 関連なら月刊誌 MSDN Magazine の購読が有益だと思いますよ。<BR>
+ほとんど .NET マガジンと言っていい内容です。定期的に Best of MSDN Magazine
+っていうダイジェスト本が出るので それをチェックするのもいいかもしれません。ただ、今回から
+CD-ROM になって中身が pdf 形式で見にくいらしいです。</P>
+<UL>
+  <LI>[replace-href:http://www.ascii.co.jp/pb/msdn/bestof/bestofmsdn.html]
+</UL>
+<P>別冊もお薦めです。<BR>
+ASP.NET するなら「ASP.NETプログラマためのXMLテクニック」とかいいかも。</P>
+<UL>
+  <LI>[replace-href:http://www.ascii.co.jp/pb/msdn/book.html]
+</UL>
+<P>MSDN サブスクリプションに入っている MSDN Library (2002年7月版)が .NET に合わせて再編成されてましてそれだけでも十分な情報が手に入ります。<BR>
+<BR>
+わたしは当分の間仕事で使う予定がないので、仕事でしか得られない情報とかが日記になるのを楽しみにしてます。<BR>
+-----<BR>
+teik</P>
+<HR>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>リンクメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaでごはんMLに流れていた ねこパズル、気に入ったのでリンクメモさせて頂きました。</P>
+<UL>
+  <LI>ねこパズル<BR>
+  [replace-href:http://www.com-th.net/relax/files/nekopuzz1.swf]<BR>
+  ねこがかわいい…
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020716-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/11/23 日記: java.util.logging を Apache Commons Logging の代わりに利用する</TITLE>
+<META name="DESCRIPTION" content="java.util.logging を Apache Commons Logging の代わりに利用することができると考えました。これを実現するための blanco.log.logging.BlancoLogLog4jHandler クラス を作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,java.util.logging,blanco.log.logging.BlancoLogLog4jHandler,Apache log4j">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/11/23 日記: java.util.logging を Apache Commons Logging の代わりに利用する</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,java.util.logging,blanco.log.logging.BlancoLogLog4jHandler,Apache log4j] java.util.logging を Apache Commons Logging の代わりに利用することができると考えました。これを実現するための blanco.log.logging.BlancoLogLog4jHandler クラス を作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>java.util.logging を Apache Commons Logging の代わりに利用する</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>java.util.logging を Apache Commons Logging の代わりに利用することができると考えました。これを実現するための
+blanco.log.logging.BlancoLogLog4jHandler クラス を作成しました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco.log.logging.BlancoLogLog4jHandler クラス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><A HREF="http://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A>の blanco.log.logging.BlancoLogLog4jHandler クラスを利用すると、<A href="http://java.sun.com/javase/ja/6/docs/ja/api/java/util/logging/package-summary.html">java.util.logging</A> の出力を <A href="http://logging.apache.org/log4j/">Apache log4j</A> にリダイレクトすることができます。これにより、標準 Java API のみを利用して Apache log4j へのログ出力を実現することが出来るようになります。</p>
+<p>現在、多くの方々はロギングのインタフェースとして <A href="http://commons.apache.org/logging/">Apache Commons Logging</A> を利用しているのものと思います。でも、Apache Commons Logging を利用すると、Java ソースコードに org.apache.commons.logging.*
+の import文が必要になってしまいます。「ロギングはしておきたいのだけれども、Javaの import文に 標準 Java API以外のものが入るのは好ましくない」というジレンマを多くの方は感じていることでしょう。これを、blanco.log.logging.BlancoLogLog4jHandler
+は矛盾無く解決することが出来ます。</p>
+<p>blanco.log.logging.BlancoLogLog4jHandler クラスの仕組みはとてもシンプルなものです。java.util.logging
+のログハンドラクラスである java.util.logging.Handler を継承して、その出力を Apache log4j クラスへと引き渡しているだけです。<br>
+2007.11.23時点では およそ 105行のソースコードによって実現されています。</p>
+<p><font color="#ff00ff">利用方法</font></p>
+<p>下記のような手順で利用することが出来ます。</p>
+<ul>
+ <li>クラスパス上に以下のファイルを配置します。<br>
+  ※Java実行環境の jre\lib\ext ディレクトリに配置するという方法もあります。
+  <ul>
+      <li>blancolog-?.?.?.jar: blancoLogのjarファイル
+ 
+      </li>
+    <li>log4j-1.2.??.jar : Apache log4jのjarファイル<br>
+    ※Apache log4j が既にクラスパス上にある場合には、新たに配置することは不要です。
+    </li>
+  </ul>
+  
+ 
+  </li>
+  <li>java.util.logging の設定を変更します。<br>
+  ※最も単純な変更方法は、Java実行環境の jre\lib ディレクトリの logging.properties を変更する方法です。なお、変更する前に<STRONG>オリジナルのファイルをバックアップ</STRONG>することを推奨します。
+  <ul>
+    <li>Java実行環境の jre\lib ディレクトリ の logging.properties ファイルを、以下の２行だけに変更します。<br>
+    &lt;logging.properties&gt;<br>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td>handlers=blanco.log.logging.BlancoLogLog4jHandler<br>
+          .level= ALL</td>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+    <li>java.util.logging からは、これ以外にも幾つかの設定変更方法が提供されています。
+  </li>
+  </ul>
+  </li>
+  <li>Apache log4j のための設定ファイル &lt;log4j.properties&gt; を設定します。
+  <ul>
+    <li>クラスパス上の どこか利用者の都合の良いディレクトリに log4j.properties という名前のファイルを作成します。なお、状況によっては
+    このファイルは既に存在している場合もあります。</li>
+    <li>&lt;log4j.properties&gt; の単純な記述内容例<br>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td>log4j.rootLogger=DEBUG, A1<br>
+          log4j.appender.A1=org.apache.log4j.ConsoleAppender<br>
+          log4j.appender.A1.layout=org.apache.log4j.PatternLayout<br>
+          log4j.appender.A1.layout.ConversionPattern=%d [%t] %-5p %c - %m%n</td>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+  </ul>
+  </li>
+  <LI>java.util.logging を利用してログを出力する
+  <UL>
+    <LI>java.util.logging の単純な利用例<BR>
+    <TABLE border="1">
+      <TBODY>
+        <TR>
+          <TD>
+          <PRE>import java.util.logging.Logger;
+
+public class Sample {
+    public static void main(String[] args) {
+        final Logger logger = Logger.getLogger(&quot;Sample&quot;);
+        logger.fine(&quot;FINEレベルのログ。&quot;);
+        logger.config(&quot;CONFIGレベルのログ。&quot;);
+        logger.info(&quot;INFOレベルのログ。&quot;);
+        logger.warning(&quot;WARNINGレベルのログ。&quot;);
+        logger.severe(&quot;SEVEREレベルのログ。&quot;);
+    }
+}</PRE>
+          </TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+    <LI>Apache log4j の出力例。
+    <TABLE border="1">
+      <TBODY>
+        <TR>
+          <TD><pre>2007-11-23 10:19:52,462 [main] DEBUG Sample - FINEレベルのログ。
+2007-11-23 10:19:52,462 [main] DEBUG Sample - config: CONFIGレベルのログ。
+2007-11-23 10:19:52,462 [main] INFO  Sample - INFOレベルのログ。
+2007-11-23 10:19:52,462 [main] WARN  Sample - WARNINGレベルのログ。
+2007-11-23 10:19:52,462 [main] ERROR Sample - SEVEREレベルのログ。</pre></TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </UL>
+</ul>
+<p><font color="#ff00ff">java.util.logging から Apache log4j へのログレベルマッピング</font></p>
+<p>java.util.logging と Apache log4j とではログレベルが異なります。これを解決するために、下記のようなログレベルのマッピングを行っています。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00"><strong>java.util.logging のログレベル</strong></td>
+      <td bgcolor="#ffff00"><strong>Apache log4j のログレベル</strong></td>
+      <td bgcolor="#ffff00"><strong>備考</strong></td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.FINEST</td>
+      <td>org.apache.log4j.Level.TRACE</td>
+      <td>「詳細レベル(高)」。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.FINER</td>
+      <td>org.apache.log4j.Level.TRACE</td>
+      <td>「詳細レベル(中)」。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.FINE</td>
+      <td>org.apache.log4j.Level.DEBUG</td>
+      <td>「詳細レベル(低)」。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.CONFIG</td>
+      <td>org.apache.log4j.Level.DEBUG</td>
+      <td>「設定」。ログメッセージに 「config: 」プレフィクスを付与します。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.INFO</td>
+      <td>org.apache.log4j.Level.INFO</td>
+      <td>「情報」。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.WARNING</td>
+      <td>org.apache.log4j.Level.WARN</td>
+      <td>「警告」。</td>
+    </tr>
+    <tr>
+      <td>java.util.logging.Level.SEVERE</td>
+      <td>org.apache.log4j.Level.ERROR<br>
+      org.apache.log4j.Level.FATAL (*1)</td>
+      <td>「致命的」。<br>
+      (*1)メッセージがfatalから始まるもののみ FATAL にマップします。</td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<P><FONT color="#ff00ff">java.util.logging の可能性</FONT></P>
+<P>既に java.util.logging の利用を検討したことはあるのだけれども、java.util.logging のログハンドラの非力さが原因で利用を断念した人は多いのではいでしょうか。ログハンドラ部分は
+Apache log4j のほうが一日の長があり、また多機能であるのは確かなことです。そこで、java.util.logging を Apache
+Commons Logging の代わりに利用して、ロギングは Apache log4j を使ってしまうという、blanco.log.logging.BlancoLogLog4jHandler
+クラス の利用を提案します。是非 この機会に <A HREF="http://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A> の blanco.log.logging.BlancoLogLog4jHandler
+クラス を利用して <A href="http://java.sun.com/javase/ja/6/docs/ja/api/java/util/logging/package-summary.html">java.util.logging</A>利用の検討をされることをおすすめします。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco.log.logging.BlancoLogLog4jHandler クラスの性能</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>パターン分けで簡単に計測</P>
+<P><FONT color="#ff00ff">java.util.logging を利用する</FONT></P>
+<P>下記の２パターンがあります。</P>
+<UL>
+  <LI>最後まで java.util.logging を利用する
+  <LI>Apache log4j にリダイレクトする
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Sample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.util.logging.Logger;
+
+public class Sample {
+    public static void main(String[] args) {
+        final long start = System.currentTimeMillis();
+
+        final Logger logger = Logger.getLogger(&quot;Sample&quot;);
+        for (int index = 0; index &lt; 50000; index++) {
+            logger.info(&quot;INFOレベルのログ。&quot;);
+            logger.warning(&quot;WARNINGレベルのログ。&quot;);
+            logger.severe(&quot;SEVEREレベルのログ(1)。&quot;);
+        }
+
+        final long end = System.currentTimeMillis();
+        System.out.println(&quot;所用した時間は &quot; + (end - start) + &quot;ミリ秒&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">ネイティブな Apache log4j を利用する</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Sample2.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import org.apache.log4j.Logger;
+
+public class Sample2 {
+    public static void main(String[] args) {
+        final long start = System.currentTimeMillis();
+
+        final Logger logger = Logger.getLogger(&quot;Sample&quot;);
+        for (int index = 0; index &lt; 50000; index++) {
+            logger.info(&quot;INFOレベルのログ。&quot;);
+            logger.warn(&quot;WARNINGレベルのログ。&quot;);
+            logger.error(&quot;SEVEREレベルのログ(1)。&quot;);
+        }
+
+        final long end = System.currentTimeMillis();
+        System.out.println(&quot;所用した時間は &quot; + (end - start) + &quot;ミリ秒&quot;);
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">Apache Commons Logging を利用する</FONT></P>
+<UL>
+  <LI>Apache log4j にリダイレクトする
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Sample3.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class Sample3 {
+    public static void main(String[] args) {
+        final long start = System.currentTimeMillis();
+
+        final Log logger = LogFactory.getLog(&quot;Sample&quot;);
+        for (int index = 0; index &lt; 50000; index++) {
+            logger.info(&quot;INFOレベルのログ。&quot;);
+            logger.warn(&quot;WARNINGレベルのログ。&quot;);
+            logger.error(&quot;SEVEREレベルのログ(1)。&quot;);
+        }
+
+        final long end = System.currentTimeMillis();
+        System.out.println(&quot;所用した時間は &quot; + (end - start) + &quot;ミリ秒&quot;);
+    }
+}
+</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">簡単な計測結果</FONT></P>
+<P>Core2 Duo (6300) 1.86GHz + 1GBメモリー</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"></TD>
+      <TD bgcolor="#ffff00"><STRONG>java.util.logging -&gt; ネイティブ</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>java.util.logging -&gt; log4j</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>Apache log4j ネイティブ</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>Apache Commons -&gt; log4j</STRONG></TD>
+    </TR>
+    <TR>
+      <TD>1</TD>
+      <TD>5453ミリ秒</TD>
+      <TD>5594ミリ秒</TD>
+      <TD>4657ミリ秒</TD>
+      <TD>5141ミリ秒</TD>
+    </TR>
+    <TR>
+      <TD>2</TD>
+      <TD>5485ミリ秒</TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>3</TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD>Sample.java</TD>
+      <TD>Sample.java</TD>
+      <TD>Sample2.java</TD>
+      <TD>Sample3.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">感想</FONT></P>
+<P>java.util.logging を経由すると、1件あたり 5ミリ秒の増加。Apache Commons 比較だと、1件あたり 3ミリ秒の増加。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

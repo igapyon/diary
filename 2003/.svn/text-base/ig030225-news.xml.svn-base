@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030225.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030225.html</link>
+    <language>ja</language>
+    <dc:date>2003-02-25</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0302/24/njbt_01.html">
+    <title>505iに「Macromedia Flash」が搭載</title>
+    <link>http://www.zdnet.co.jp/news/0302/24/njbt_01.html</link>
+    <description>ケータイにFlashが載っかる時代ですか…。びっくり仰天です。これをきっかけに、時代はHTMLからFlashへと移行、、、なあんて謎の発想を産んでしまいそうな 時代を象徴するんじゃないかと思うニュースでした。</description>
+    <dc:date>2003-02-25T08:34:45</dc:date>
+  </item>
+
+</rdf:RDF>

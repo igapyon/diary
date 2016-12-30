@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030715.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030715.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/14/njbt_08.html">
+    <title>MSNコンテンツ管理システムが.NET Frameworkに全面移行</title>
+    <link>http://www.zdnet.co.jp/news/0307/14/njbt_08.html</link>
+    <description>ASPでページを書いていたのでしょうか。.NETベースになって ASPのページが高速に動作するようになったのかも知れませんね。今 ぱっと見てみたら なるほど 今までよりは表示が高速であるように思われます。というか 今までの ASPは インタプリター形式だったから とても遅かった、なんて理由かも知れません。(.NETベースになったら ASPのままであっても とりあえず一旦コンパイルされてから実行するらしい)</description>
+    <dc:date>2003-07-15T21:15:53</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20059884,00.htm">
+    <title>L・トーバルズがLinux 2.5シリーズ最後のカーネルをリリース</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20059884,00.htm</link>
+    <description>いよいよ 2.6リリースに向けた調整工程に入る模様です。pre-2.6.xシリーズと呼ばれるそうです。</description>
+    <dc:date>2003-07-15T21:15:53</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/11/epn03.html">
+    <title>Interview：J2EEで銀行システムの進化を牽引するUFJ銀行</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/11/epn03.html</link>
+    <description>『総合金融プラットフォーム』というところに BEA WebLogic Server 8.1J を使うのだそうな。</description>
+    <dc:date>2003-07-15T21:15:53</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/products/0307/11/07.html">
+    <title>イオン、9980円の210万画素デジカメを発売</title>
+    <link>http://www.zdnet.co.jp/products/0307/11/07.html</link>
+    <description>安くなったなぁ…</description>
+    <dc:date>2003-07-15T21:15:53</dc:date>
+  </item>
+
+</rdf:RDF>

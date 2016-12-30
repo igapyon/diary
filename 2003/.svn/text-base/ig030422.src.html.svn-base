@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/04/22 日記: WebLogic Server 8.1J記事執筆用メモ</TITLE>
+<META name="DESCRIPTION" content="テレビ番組デジタル録画…, WebLogic Server 8.1J 記事執筆のための原料調達場所">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>新規書籍執筆計画</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>新規の書籍執筆を画策しています。それのせいかどうかわかりませんが、最近
+日記更新が停滞気味ですね (いいわけ)<BR>
+ゆっくり書籍執筆に時間をかけられるよう、WebLogicの記事の方を先に料理していけば良いのですが…
+そんなにうまくは進行しません。(進行しないのは私のせいなのです…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XPの設定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[パフォーマンス オプション] の プロセッサのスケジュール について、バックグラウンドサービス
+を優先するように変更してみる。<BR>
+あと、スワップ領域について、最小と最大を同一の値にセット。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BEA WebLogic Server調べ中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>記事そのものは 8.1J で書くことになりました。つい最近 7.1Jが出たばっかりだったというのに…。と思ったら
+内情的には 7.1J として出すものを ちょっと数字を増やして 8.1J にしたものであるという情報を得ましたが…。</P>
+<UL>
+  <LI>BEA
+  <UL>
+    <LI>BEA Systems: Products: WebLogic<BR>
+    [replace-href:http://www.beasys.co.jp/products/weblogic/server/index.html]
+  </UL>
+  <LI>BEAドキュメント
+  <UL>
+    <LI>BEA WebLogic Server および WebLogic Express 8.1 ドキュメント<BR>
+    [replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs81/index.html]
+    <LI>WebLogic Server 7.0 サービス パック 1 の最新マニュアル<BR>
+    [replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs70/index.html]
+  </UL>
+  <LI>news
+  <UL>
+    <LI>日本HP、日本BEAのItanium 2対応版「BEA WebLogic Server」を販売／サポート開始 <BR>
+    [replace-href:http://www.zdnet.co.jp/enterprise/0305/19/epn12.html]
+    <LI>日本BEA、「WebLogic Server 8.1J」を発表 (2003.04.10)<BR>
+    [replace-href:http://www.zdnet.co.jp/enterprise/0304/10/epn15.html]<BR>
+    2003/04/11出荷開始とのこと。198万円から
+    <LI>BEA、WebLogic Platform 8.1の第1弾リリース<BR>
+    [replace-href:http://www.zdnet.co.jp/news/0304/01/nebt_20.html]<BR>
+    WebLogic Server 8.1 と WebLogic JRockit 8.1は WebLogic Platformの一部なのだそうな。ふ～ん。WebLogic
+    Expressは495ドルに値下げとも書いてあります。
+    <LI>ZDNET: BEA eWorld 2003 Report<BR>
+    [replace-href:http://www.zdnet.co.jp/enterprise/special/0303/bea.html]
+    <LI>@IT: WebLogic Server 7.0 (2002.11.02)<BR>
+  [replace-href:http://www.atmarkit.co.jp/fjava/products/weblogic7/weblogic7.html]<BR>
+  Webサービスを始めとする統合と相互運用性を強化。日本BEAの方が書いた記事
+    <LI>@IT: BEAがWebLogic最新版を発表、「IBMとMS、3社の戦いになる」 (2002.04.24)<BR>
+    [replace-href:http://www.atmarkit.co.jp/news/200204/24/bea.html]
+    <LI>ascii24: 日本BEAシステムズ、ウェブアプリケーションサーバーの最新版を発表<BR>
+    [replace-href:http://ascii24.com/news/i/soft/article/2002/04/23/635376-000.html]<BR>
+    2002/05/31に7.0日本語版がリリースされるとの記事
+  </UL>
+  <LI>富士通
+  <UL>
+    <LI>[replace-href:http://software.fujitsu.com/jp/weblogic/]<BR>
+    これを見ていると、2003/02/07にようやく WebLogic Server 7.0 Windows版が富士通によって取り扱われ始めています。
+  </UL>
+  <LI>価格
+  <UL>
+    <LI>7.0J、8.1J : 1,980,000円<BR>
+    すごい価格だなぁ
+  </UL>
+</UL>
+<P>現時点でのラインアップとしては、WebLogic Platformというのの中に WebLogic
+Serverが含まれている様子。ぜんぜん知らなかったです。ということは 私が経験あるのは、WebLogic
+6.x台までだった、という事ですね。衝撃の事実。(呼ばれて行って 『はいこれです』と開発環境の前に座らされたときに
+バージョンなんてわざわざ確認しませんから)</P>
+<P>後輩のうちはやしさんが調べたメモ</P>
+<UL>
+  <LI>Cookie<BR>
+  [replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs81/servlet/progtasks.html#129091]
+  <LI>ConnectionPool
+  <UL>
+    <LI>
+  [replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs81/servlet/progtasks.html]<BR>
+  ～Connecting to a Database Useing a JDBC Connection Pool
+    <LI>[replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs81/jdbc/programming.html]
+    <LI>[replace-href:http://edocs.beasys.co.jp/e-docs/wls/docs81/config_xml/JDBCConnectionPool.html]<BR>
+  ※config_xmlの設定方法
+    <LI>[replace-href:http://ash.jp/java/wls/wls61_set.htm]<BR>
+  ※6.1ベース
+  </UL>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>インターネットの使い方</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現在の妻と話していて気が付いたのですが、私や妻は 必要なときにしかインターネットを見ません。見るサイトは決まっていたり、あるいはキーワードで検索してたまたま見るサイトはあるものの、原則として
+必要なもののみ見ています。<BR>
+でも、世間の方々には 必要ではないサイトを見ている人もいるのでしょう。そして
+そういう人たちは 意外に多いものなのでしょう。この点興味深いです。妻の大学の友達が
+『<A href="http://www.webpoplar.com/beech/044/index.html">ポプラビーチ　じつは、書けないことばかり</A>』というWebコラムを書いている、というので 妻と一緒に見ていて、『これってどういう人たちが読んでいるのだろう』
+と、そう思いました。(例で挙げているだけです。善し悪しを言っているのではありません。このような記事が、例えば仕事で必要になる
+という人は そうは多くは無いだろう、という意味合いです)<BR>
+そういえば、私たちは テレビも必要最低限のものしか見ません。基本的に 電源は落ちています。これは私たちには当然なのですが、もしかして世の中には
+ず～っとテレビを付けている人もいるんだろう、なあんて思いました。(私は目が壊れているので、人より余計にに
+ディスプレイ／テレビの類を見ないよう努めていますものね)<BR>
+と思いめぐらし、また悩んでいくのであった。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールって怖い</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>メールって怖いです。普通に話している内容を 文字(活字)にすると 話したい内容や意図している事とは
+ぜんぜん違うように読み取れる場合があるのです。ぞっとします。<BR>
+メールを書いて送る際には、書いた後に必ず 他人になった気持ちで読み直すようにしています。でも
+いかんせん 自分は自分なのだと これまた悩み始めます。</P>
+<P>という事を メールを書かなかったり、メールの返事を書くのにとても時間がかかってしまう事の言い訳にしがちです
+(苦笑)<BR>
+これを改めて メールの返事をすぐ書けるような真人間になれるよう、努めていきたいと思うのでした。そういえば、ホームページを書くことも
+同様なことですね。私のホームページの場合、単に日記ですので、自分の思ったことを
+ぽつぽつ書いているだけなので、リスク少ない、と勝手に思っています。また
+メールと違って後日修正を行うことが可能ですからね。逆に 本を書くのは これまた怖いです。出版された後では、もはや書き直しが出来ませんから
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DVD±R/RWドライブのファームウェアを更新してみる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://buffalo.melcoinc.co.jp/products/catalog/item/d/dvm-4242iu2/">DVM-4242IU2</A>のファームウェアを更新してみました。こういう初物系ハードウェアは ファームウェア更新についても 気にしていく必要がありそうです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>テレビ番組デジタル録画</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>時間がないので 殴り書きですね… あとで清書します。(そういう時は 多くの場合清書しない)</P>
+<P>つい先日よりIO-DATA GV-1394TVというハードウェアを利用したテレビ録画＆DVD作成を楽しんでいるのですが、なかなか興味深く楽しんでいます。<BR>
+世間的にテレビキャプチャー＋DVD作成が流行っているので、不思議に思っていたのですが、自分でやってみて納得。これは
+なかなかに楽しいです。<BR>
+一方で 民生機では無く パソコン上で それら作業を行うのは、意外にマニアックな事であるとわかってきました。そもそもパソコンスペック的に、DVD作成を行いたいというニーズを、たまたま最近のパソコンハードウェアスペックが
+DVD作成を行うに足る能力を備えたのだ、そしてブームが爆発しているのだと良く理解しました。その中でも
+特にマニアックなハードウェアを買ってしまったのだ、と よくよく分かってきました。#
+カノープスの<A href="http://www.canopus.co.jp/catalog/mtv3000/mtv3000w_index.htm">MTV3000W</A>などを買っていれば、こんなにマニアックな苦しみはしなくて良かったのかも知れません
+(苦笑)</P>
+<P>GV-1394TVでDV圧縮によるAVI 2.0形式でビデオキャプチャすると 4分＝約1GBという
+ものすごいファイルサイズのキャプチャーデータができあがります。2時間＝約30GBですね。この時点で
+すでに終わっているような… (苦笑) 120GBなHDDでも、8時間しか録画できないという
+大笑いな状態になります。しかし ハードウェアMPEG-2エンコーディングは GV-1394TVには搭載されていないので
+その後 MPEG-2ソフトウェアエンコーディングを行うことになります。それに マニア入ってくると
+MPEG-2エンコーディングはソフトウェアで行わないと 嫌 ですもの (笑) (MPEG-2は自分でエンコーディングという時点で
+ハードウェア購入の判断がGV-1394TVに流れたのですが…)</P>
+<P>この ばかでかいキャプチャーデータは なるべく早期に MPEG-2化する必要があります。そうでないと 120GBのHDDが あっという間に満タンに… ところが、<A href="http://www.pegasys-inc.com/j_tmpgenc.html">TMPGEnc Plus 2.5</A>というソフトでMPEG-2化すると Pentium 4 1.8GHzなマシン上で 1時間の AVI 2.0ファイルを CBRな MPEG-2ファイルに変換(エンコード)するのに 2.5時間程度所用します (爆笑) この時点で 追い打ちをかけるような状態になっていますね。VBRな 気合い入りまくりのMPEG-2データを作ろうとしたら 1時間の AVI 2.0ファイルに 5時間程度かかります (爆笑)</P>
+<UL>
+  <LI>CBR 実映像時間の 約2.7倍
+  <LI>VBR 実映像時間の 約5～6倍<BR>
+  →2時間番組だったら 半日かかる計算です (苦笑)
+</UL>
+<P>あと最悪なのは GV-1394TVのソフトウェア部分が腐っている事です。録画予約が出来なかったり、録画中に突然止まったり…
+IO-DATAから最新版や 一世代前のダウンロード版を使っても ダメです。(最新版
+1.04よりも 現時点での1世代前の版 1.02の方が まだずっと安定していたりします)
+がんばれ IO-DATA。ソフトの面からも カノープスの方が良い、なんて私に思わせないで下さいね。<BR>
+ぼそ… 民生機っていいですね (苦笑)</P>
+<P>いま気になっているキーワードは</P>
+<UL>
+  <LI>固定品質<BR>
+  65%?
+  <LI>動き検索精度
+  <LI>DVDに実際に格納可能な上限サイズ (DVD-VideoでUDFフォーマットが入ると、4.7G満タンは入らない模様なのです。UDFフォーマットそのもので容量が消費される？)
+</UL>
+<P>目に付いたページ</P>
+<UL>
+  <LI>DVDビデオ・ビデオCDの作り方<BR>
+  [replace-href:http://www5b.biglobe.ne.jp/~j_sato/dvd.html]
+</UL>
+<P><FONT color="#ff0000">2003.12.30</FONT> 現時点での結論<BR>
+CBRの固定ビットレートで ソフトウェアエンコード (<A href="http://www.pegasys-inc.com/j_tmpgenc.html">TMPGEnc Plus 2.5</A>) での最高品質 (最低速) でエンコードを行う方法が 一番私の好みに合うということがわかっています。音声は
+リニアPCMで クラシック音楽のDVD-R作成のためには ここは譲れないところです。テレビ放映で
+古い映像が放送されたのを録画する際に 古い映像ほど ビットレートは多く必要とすることもわかっています。とにかく
+ソフトウェアエンコードで 時間をじっくりかけてエンコードを行うのが良いようです。ただし
+2時間番組をエンコードするのに 24時間近くかかるのには閉口しますけれどもね。一方
+それほどこだわらない映像は NEC SmartVision HG2</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シャットダウンツール探索</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>トップ &gt; フリーソフト＆シェアウェア &gt; WindowsNT/2000/XP &gt; ユーティリティ &gt; システム起動・終了<BR>
+  [replace-href:http://computers.yahoo.co.jp/download/vector/winnt/util/restart/]
+  <LI>Windows終了タイマー See the moon!<BR>
+  [replace-href:http://ra.sakura.ne.jp/~mir/win32/stmoon/help.html]<BR>
+  ウインドウ変化検知機能付き
+  <LI>シャットダウンタイマー SDTimer<BR>
+  [replace-href:http://www.alles.or.jp/~baron/software.html]
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030422-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

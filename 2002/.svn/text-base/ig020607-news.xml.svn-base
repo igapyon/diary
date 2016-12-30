@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020607.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020607.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.asahi.com/business/update/0607/008.html?2002">
+    <title>会社への忠誠心、日本最低水準？　欧米など８カ国中７位</title>
+    <link>http://www.asahi.com/business/update/0607/008.html?2002</link>
+    <description>実際の所 グローバルスタンダード的に見て 最低水準なのでしょう。</description>
+    <dc:date>2002-06-07T16:58:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/07/nebt_09.html">
+    <title>ネットゲーム利用者、2006年には「1億人以上に」</title>
+    <link>http://www.zdnet.co.jp/news/0206/07/nebt_09.html</link>
+    <description>さしあたり現状は 間違いなくネットゲーマー増加傾向でしょう。</description>
+    <dc:date>2002-06-07T16:58:13</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/07/njbt_01.html">
+    <title>W杯チケット予約が殺到、ドコモ携帯などにつながりにくくなる現象</title>
+    <link>http://www.zdnet.co.jp/news/0206/07/njbt_01.html</link>
+    <description>チケット予約にて、正月年始と同じ状況が発生するのですね。恐れ入りました。</description>
+    <dc:date>2002-06-07T16:58:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0206/06/02060609.html">
+    <title>IBMがDynamic Workplacesの中核製品「WebSphere Potal」の新バージョン発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0206/06/02060609.html</link>
+    <description>激烈な価格帯。一番安いもので1000万円近くします。ポータルビジネスおそるべし。さすがに 開けてびっくり Jakarta Jetspeed、なんてことは 無いでしょう。コア部分はどうなんだろう、と 興味本位で興味を感じるのでした。</description>
+    <dc:date>2002-06-07T17:12:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0206/06/02060608.html">
+    <title>ドイツの行政府がLinuxへの移行、IBMがSuSE Linux搭載機を提供</title>
+    <link>http://www.zdnet.co.jp/enterprise/0206/06/02060608.html</link>
+    <description>行政レベルでオープンソース採用を検討する国が増加傾向にありますね。</description>
+    <dc:date>2002-06-07T17:12:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0607/028.html">
+    <title>食品表示、８０％が「信用できない」　生協が全国調査</title>
+    <link>http://www.asahi.com/national/update/0607/028.html</link>
+    <description>『適正な』食品表示がなされるように改善していくことを望む。それこそが生産者の利益＆保護につながります。</description>
+    <dc:date>2002-06-07T21:34:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/06/ne00_mozilla.html">
+    <title>Mozilla 1.0、満を持しての正式リリース</title>
+    <link>http://www.zdnet.co.jp/news/0206/06/ne00_mozilla.html</link>
+    <description>1.0リリースという番号にふさわしい 良くできたブラウザとしてのリリースだと私は考えています。Mozilla 1.0 のリリース、おめでとうございます。</description>
+    <dc:date>2002-06-07T16:35:43</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2002/0606/mozilla.htm">
+    <title>「Mozilla 1.0」ついにリリース～プロジェクト発足から4年4ヶ月</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2002/0606/mozilla.htm</link>
+    <description>オープンソース開発は その開発速度はとても遅くても 実際の正式リリースが出たときのインパクトは大きいですね。Mozilla 1.0 リリースの意義はとても大きいと私は思っています。</description>
+    <dc:date>2002-06-07T16:35:43</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/international/update/0606/007.html">
+    <title>マック、ヒンドゥー教徒らに１２億円支払い和解　米国</title>
+    <link>http://www.asahi.com/international/update/0606/007.html</link>
+    <description>神経質すぎるほどの "適正"な『添加物』表示が グローバルスタンダードに求められる時代が到来したのやも知れません。</description>
+    <dc:date>2002-06-07T16:35:43</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/07/nebt_10.html">
+    <title>MSNのPOPサービスが有料に</title>
+    <link>http://www.zdnet.co.jp/news/0206/07/nebt_10.html</link>
+    <description>適切なサービスの提供は 有償でしか なかなか実現できませんから…。</description>
+    <dc:date>2002-06-07T16:58:13</dc:date>
+  </item>
+
+</rdf:RDF>

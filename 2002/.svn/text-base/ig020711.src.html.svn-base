@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/07/11 日記: Apache Ant 1.5 リリース , Sun Java 3D 1.3 リリース</TITLE>
+<META name="DESCRIPTION" content="Apache Ant 1.5 リリースです！ , Sun Java 3D 1.3 リリースです！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Apache,Ant,1.5">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020711-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Ant 1.5 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://jakarta.apache.org/ant/">Apache Ant</A> 1.5 が待望の正式リリースです。早速ダウンロードしました。jakarta-ant-*-optional.jar
+に該当するものが無くなった？ のかしら。現時点での 私にとっては不明点。</P>
+<HR>
+<P>さっそく読者の方からツッコミ<BR>
+<CITE>Subject:  [igapyon:01005] 7/11 の日記の感想など<BR>
+Ant ファンのうらもとです。<BR>
+<BR>
+optional.jar は、バイナリ版に同梱されているようですね。<BR>
+ちなみに、パーザも Crimson から Xerces になってます。新しい要素では、セレクタがなかなか使い勝手がいいですね。<BR>
+<BR>
+ここから宣伝モードで申し訳ないのですが ^^;</CITE></P>
+<UL>
+  <LI><CITE>Ant に関する WWWサイトを作っています。<BR>
+  [replace-href:http://www.xdsl.ne.jp/Fe/kerochan/antdoc/toc.html]<BR>
+  1.5 で追加された部分ものせていますので、ご覧になってみてください。</CITE>
+</UL>
+<P><CITE>間違っているところも多々あると思うのでつっこみ入れて頂けると助かります。<BR>
+--<BR>
+うらもと </CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTMLファイルの印刷って 意外に落とし穴が多いです</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>HTMLファイルで書いた原稿を Internet Explorer 6 などで印刷しようとしたら
+右端が切れたり いろいろ落とし穴が…。<BR>
+HTMLって 結構印刷で困りますねぇ。IBM ホームページビルダー V6 を使って印刷とかしましたが、あんまりしっくり来ません。試験的に
+Internet Explorer 6から Acrobat経由でPDF化して、その後印刷したら、多少は希望通りの印刷が出来ましたが…。<BR>
+<BR>
+私に力量があれば、Apache FOP経由で HTML→PDF とかが出来るかも知れません。ここのトコロは
+よく知らずに勝手に空想してます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C#情報収集中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>8月からC#をやるってことで、予めということで C#やASP.NETのメーリングリストに入ったら、これが結構流量があり
+楽しく読むことが出来ています。しかし 他の皆さん C#やASP.NETの情報不足でお困りの方が多くいらっしゃるご様子です。<BR>
+私もその仲間入りをするんだって思うと 思わず笑っちゃいます (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020711-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021106.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021106.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/yajima/20021022/1/">
+    <title>消える国産コンピュータ 製品が永久に供給されるとは限らない</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/yajima/20021022/1/</link>
+    <description>マイクロソフトのWindowsはおろか 汎用機ですら 提供が停止される時期が訪れるという 恐ろしい記事です。このような『提供停止』を避けるための最も現実的な方法が Linuxのような普及したオープンソースOSと パソコンのような一般製品を用いることなのだと私は思っています。最悪 現行のパソコンが提供されなくなっても Linuxはエミュレータなどで存続しうるので OSにLinuxのような普及したオープンソース製品を採用することは 長期にわたる運用期間を持ちうるシステムの場合 特に意識すべき事だと思います。プログラミング言語でも同様で、Javaはオープンソースでは無いものの 多くのベンダーから出されていることから、他の言語に比べて ず～っと生存期間が長いであろうと期待できます。私はオープンソース製品やマルチベンダ製品の本当に重要なメリットは この点にあると強く思っています。目先の便利さや価格にとらわれず 将来のことを良く考えたシステム基盤選択を実施していきたいものです。</description>
+    <dc:date>2002-11-06T08:22:02</dc:date>
+  </item>
+  <item rdf:about="http://www.sra.co.jp/people/nisinaka/Jun4Java/index-j.html">
+    <title>じゅん for Java</title>
+    <link>http://www.sra.co.jp/people/nisinaka/Jun4Java/index-j.html</link>
+    <description>3次元グラフィックマルチメディアライブラリ。オープンソースライセンス採用なのだそうです。改めて、SRA恐るべし。</description>
+    <dc:date>2002-11-06T08:22:02</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0211/01/n08.html">
+    <title>マイクロソフト、VS.NETなどを対象に「.NET なんだろ? キャンペーン」を実施</title>
+    <link>http://www.zdnet.co.jp/enterprise/0211/01/n08.html</link>
+    <description>既存のVisual Basic開発者やVisual C++開発者で Visual Studio.NET に移行できない人も多いのでしょう。実際 パッケージソフト開発者の現場的には サービスパックが出ていない Visual Studio には乗り換えない傾向がありますから。(SP3程度になってから ようやく移行する人も多いように感じます)</description>
+    <dc:date>2002-11-06T08:22:02</dc:date>
+  </item>
+
+  <item rdf:about="http://www.thinkfree.com/products/pd_office20.jsp">
+    <title>ThinkFree Office 2.0 リリース</title>
+    <link>http://www.thinkfree.com/products/pd_office20.jsp</link>
+    <description>Javaで書かれたOfficeであるThinkFree Officeがバージョンアップだそうです。</description>
+    <dc:date>2002-11-06T08:22:02</dc:date>
+  </item>
+
+</rdf:RDF>

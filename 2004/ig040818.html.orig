@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/08/18 日記: 単体試験シンドローム</TITLE>
+<META name="DESCRIPTION" content="仕事で単体試験ばっかり扱っていて、何だか知らないうちに、単体試験マニアっぽくなってきてしまいました。、、、とはいえ私がやっているのは人に指示を出しているだけですが…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/08/18 日記: 単体試験シンドローム</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 仕事で単体試験ばっかり扱っていて、何だか知らないうちに、単体試験マニアっぽくなってきてしまいました。、、、とはいえ私がやっているのは人に指示を出しているだけですが…</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ぼちぼち日記を再開したい、、、</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事は相変わらず忙しいですが、なにかメモしておかないと完全に忘れると思われるので、最低限だけはメモしておこうと思います。<BR>
+ということで、ちょっとずつは再開しておきたい、、、と思います。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>単体試験シンドローム</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とある仕事 (デスマ寸前) で単体試験ばっかり扱っていたら、なんだか単体試験マニアっぽくなってきてしまいました。</P>
+<UL>
+  <LI>ある機能を考えるときに、単体試験が実施しやすいかどうか、から先に考える。とりあえずファンクションポイントを減らすことが出来ないかどうか検討してしまう。
+  <LI>ソースコードを見たら、単体試験が実施しやすいかどうか、からまず見てしまう。
+  <LI>ソフトウェアの規模を単体試験の試験項目数から類推してしまう。
+</UL>
+<P>とはいえ、私の立場は管理者みたいな役割なので、自分は実作業は行わず、「こうやって」、「ああして」とか指示出すだけです。、、、そう考えたら勝手な話ですなぁ。口だけさんっかだもんな。なににせよ、見積もりをしたり、指示を出したりするだけが、私の仕事です
+(苦笑)<BR>
+そんなこんなで、JUnitとDBUnitが、とても身近なものへと変わってしまいました。いやあ、単体試験って、ほんっとうに奥深いです。こてこて開発だと、これ無しではやってられません。単体試験、全部再試験なんかの際に、試験が自動化されていないと、まあとてもヒサンですから…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft Visual C++.NET 7.1 に久しぶりに従事</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事で Visual C++ 7.1に触りました。しかも、ActiveXコンポーネントの作成なるものがターゲットです。<BR>
+基本的に私は C言語による開発がキライなので、基本的にVisual C++はイヤなのですが、まあ、たまには触っておかないと完全に忘れてしまうのは、もったいないようにも思えますよね…。</P>
+<P>で、久しぶりに触ったら、Visual C++は7.1になってユーザインタフェースが大幅に変更されてしまっています。およよ、これは困るぞ。おそるべし、マイクロソフトのバージョンアップ戦略。ユーザーインタフェースが一新されるたびに、一から覚え直しだもんなぁ。(まあ、いつものことか…)</P>
+<P>さて、Visual C++とMFCの組み合わせ、しかもCOMを扱うとなると、キホンはMicrosoftの公式資料です。早速基本となるドキュメントへのリンクを探します。</P>
+<UL>
+  <LI>Microsoft: Visual C++ ホームページ<BR>
+  <A HREF="http://www.microsoft.com/japan/msdn/visualc/default.aspx">http://www.microsoft.com/japan/msdn/visualc/default.aspx</A>
+  <LI>ActiveX コントロール<BR>
+  <A HREF="http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/vccore/html/vcoriActiveXControls.asp">http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/vccore/html/vcoriActiveXControls.asp</A><BR>
+  当初はATLベースによる開発を想定していたのですが、時間を割きたくないのでMFCベースで手を染めることにしました。(そして、実際にMFCベースで決着してしまいました)
+</UL>
+<P>さて、20ステップ程度のくだらないActiveXコントロールの開発ですが、なんと、合計で
+1時間もVisual C++でのリハビリに、、、もとい開発に費やしてしまいました。でもまあ、ここまでユーザインタフェースが一新されてしまっていては、そして私がVisual
+C++を ほぼ完全に忘れ去ってしまっていては、これはやむを得ない時間消費かもしれません。とにかく、目的の
+ActiveXコントロール作成は無事に終了してしまいましたので、良しとしましょう
+(苦笑)<BR>
+でも、昔取った杵柄、恐るべしですね。昔のCOMにまつわる経験が無かったら、あんな短時間の間にリハビリと開発を終えることはできなかったでしょうから。</P>
+<P>さて、このジョブ関連で、まだ作業が終わっていない（調べが付いていない）のは、CABファイルによるActiveXコントロールの配布です。もともとActiveXコントロールはキライだったから、この組み合わせは、過去にも全くたずわったことがありません、、、ほんとかな、ActiveXドキュメントには、そういえばたずさわりましたが、あれはVBベースだったなぁ。<BR>
+とりあえず未署名のコントロールで良いという事前条件があるので、INFファイルを適当に作成してのち、ひょひょいとアーカイブ化したら良いはずです…がヒマは無し。おそるべし、デスマ寸前プロジェクト。</P>
+<UL>
+  <LI>MDSN: CABファイルの作成<BR>
+  <A HREF="http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/vccore/html/_vccore_creating_a_cab_file.asp">http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/vccore/html/_vccore_creating_a_cab_file.asp</A><BR>
+  CABファイルの作成の方法が載っていました。
+  <LI>ActiveXコントロールを配布する際のCABファイルの作り方<BR>
+  <A HREF="http://www.ki.rim.or.jp/~kuro/ActiveX/CabAndSign/MakeCab.html">http://www.ki.rim.or.jp/~kuro/ActiveX/CabAndSign/MakeCab.html</A>
+</UL>
+<P>まあ、数年に一回は Visual C++にも触っておこうと、前向きに思い起こす今日この頃。</P>
+<P>、、、現時点での私の責務としては、管理者っぽい立場にあって、デスマになりかかっている現在担当しているプロジェクトを、ほんとうに破綻はさせずに、うまく操縦することですからねぇ。ぴろぴろマネージメント、おそるべし。難易度高いです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

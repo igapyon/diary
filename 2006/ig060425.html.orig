@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/04/25 日記: JavaScript言語仕様を勉強中… 「Effective JavaScript」</TITLE>
+<META name="DESCRIPTION" content="JavaScript言語仕様を勉強中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/04/25 日記: JavaScript言語仕様を勉強中… 「Effective JavaScript」</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] JavaScript言語仕様を勉強中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaScript言語仕様を勉強中…: Effective JavaScript</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaScript言語仕様を勉強中です。現時点では 「Effective JavaScript」というページを参考にしながら 少しずつ言語仕様を理解しつつあります。印刷して持ち歩いて、そして少しずつ読み進めています。</P>
+<UL>
+  <LI>Effective JavaScript<BR>
+  <A HREF="http://www.interq.or.jp/student/exeal/dss/ejs/">http://www.interq.or.jp/student/exeal/dss/ejs/</A><BR>
+  言語仕様の解説に注力した JavaScript標準解説Webページ。
+</UL>
+<P>この「Effective JavaScript」のサイトは とても良くできていて、そして大変助けられています。このような素晴らしい情報が公開されてられることを感謝します。コーディング規約作成時の参考文献としても活用できるのでは、とも考えています。</P>
+<P>…そのような営みのうえで JavaScriptが理解できたら、休暇のあいだに時間を確保して <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>の JavaScript自動生成機能の追加をなんとか実現できるようになりたい、と狙っています。<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>が 現状サポートしているJava言語・C#.NET言語のソースコード自動生成に加えて JavaScriptソースコード自動生成をサポートできたとしたら、多プログラミング言語対応ソースコード自動生成ライブラリとして、あるいはそのインタフェースとして ある程度課題が克服できた状態に到達する、あるいは妥当性が実証されたものと判断できる、のかしら？ なあんて考えています。</P>
+<P>とりあえず JavaScriptなんですが、私にとっては とても難しいです。</P>
+<P><FONT color="#ff0000">2006.05.17追記</FONT> JavaScriptソースコード自動生成は 正式に <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>に組み込まれることになりました。現在 <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>
+の最新開発版において JavaScript自動生成についての具体的な実装が行わつつあります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoCgによる blancoCgの自動生成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>に携わっていて、「ＸＸＸによる ＸＸＸの自動生成」というのが実現できたときは とても嬉しいものです。コンパイラが
+コンパイラ自身をコンパイルしてビルドされるのは当然であるのと同様に、ソースコード自動生成ツールは ソースコード自動生成ツールによってビルドできる
+というのは実現されるべき事項のひとつなのです。DSLは それ自身が DSLであり自動生成されるべきなのです。それは そんなには簡単では無いでしょうが、しかし一方で達成できるととても嬉しいのです。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のなかで自己を自動生成できているものには下記のようなものがあります。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A>による<A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A>のリソースバンドルの自動生成
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>による<A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>のバリューオブジェクトの自動生成。
+  <LI>blancoAntTaskによるblancoAntTask のAntタスクの自動生成。
+  <LI>blancoConstantsによる blancoConstantsの定数クラスの自動生成。
+</UL>
+<P>特に <A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。">blancoResourceBundle</A>の自己生成ができたときは嬉しかったです。</P>
+<P>今の私の自己生成ターゲットは <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A>です。blancoCg自身は <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。">blancoValueObject</A>を経由した
+blancoCgによる自動生成機能を用いて 自身のバリューオブジェクト自動生成を実現しています。しかし これは直接的ではないと考えます。直接的な自己ソースコードの自動生成を実現すると
+いったいどのような課題などが見つかるのだろう、と とても興味を持ち、また 実現を狙っています。また、それ自身も単体試験の一部たり得るのです。…今は忙しいので
+とても着手できませんけれどもね…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: serialVersionUIDというもの</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipseを使っていて 「serialVersionUID」 に関する警告を見かけることがあります。この「serialVersionUID」に関する警告の意味を、つい最近
+ようやっと理解出来ました。(今までは あまり正確に認識していませんでした)</P>
+<UL>
+  <LI>Java 2 Platform SE 5.0: Serializable<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/io/Serializable.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/io/Serializable.html</A>
+</UL>
+<P>この記述によると 「すべての直列化可能クラスが serialVersionUID 値を明示的に宣言するように設定することを強くお勧め…」とのことです。継承もとのクラスが直列化可能である場合に、継承先も当然直列化可能になるので、その結果
+この警告が発せられているのでした。</P>
+<P>では、実際に「serialVersionUID」に何の値をセットしておけばよいのか、というのは これまた悩ましい命題であることを改めて考えさせられます。バージョン番号ということで1からはじまる連番を採番していくのに妥当性を感じられます。一方で
+所定の計算ルーチンを持ってID採番をおこなうというのも これまた妥当であるようにも思えます。直列化を実際に扱って 「serialVersionUID」を設定する必要がある場面に遭っていないので、どういう採番ルールが良いのか、私には
+まだわかりません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

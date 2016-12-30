@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/27 日記: Eclipse Visual Editor調査中</TITLE>
+<META name="DESCRIPTION" content="Eclipse RCPやJFaceの調査などもあるので、手始めに Visual Editor の調査を開始しています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/27 日記: Eclipse Visual Editor調査中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Eclipse RCPやJFaceの調査などもあるので、手始めに Visual Editor の調査を開始しています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Visual Editor の基礎情報を調査中です</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>まず、Eclipse Visual Editor のホームページを探しました。</P>
+<UL>
+  <LI>Eclipse Tools : Visual Editor Project<BR>
+  <A HREF="http://www.eclipse.org/vep/">http://www.eclipse.org/vep/</A>
+  <UL>
+    <LI>SWT と Swing をサポート
+    <LI>JavaとGUI設計部の 2ウェイ編集が可能
+    <LI>Swingの場合、グリッド系レイアウトを拡張している模様 (SWTではデフォルトで任意座標系の扱い)
+    <LI>Windows と Linux/GTKをサポート
+    <LI>Eclipse 3.0.1対応
+  </UL>
+</UL>
+<P>実際のダウンロードは 下記の物を利用します。</P>
+<HR>
+<P><FONT color="#ff0000">2005.03.23時点</FONT> 2005/03/17リリースの Visual Editor 1.0.2.1 が最新版です。</P>
+<UL>
+  <LI>Visual Editor Project - Download<BR>
+  <A HREF="http://download.eclipse.org/tools/ve/downloads/drops/R-1.0.2.1-200503171200">http://download.eclipse.org/tools/ve/downloads/drops/R-1.0.2.1-200503171200</A>
+  <UL>
+    <LI>Eclipse SDK 3.0.1 + 各国語パック
+    <UL>
+      <LI>eclipse-SDK-3.0.1-win32.zip
+      <LI>NLpack-eclipse-SDK-3.0.x-win32.zip<BR><A HREF="http://dev.eclipse.org/viewcvs/indextools.cgi/%7Echeckout%7E/vep-home/WebContent/docs/translations/translation.html">http://dev.eclipse.org/viewcvs/indextools.cgi/%7Echeckout%7E/vep-home/WebContent/docs/translations/translation.html</A>
+    </UL>
+    <LI>Visual Editor 1.0.2.1 + 各国語パック
+    <UL>
+      <LI>VE-runtime-1.0.2.1.zip
+      <LI>NLpack-VE-runtime-1.0.x.zip
+    </UL>
+    <LI>EMF build 3.0.1<BR>
+    emf-sdo-runtime-3.0.1.zip
+    <LI>GEF Build 3.0.1<BR>
+    GEF-runtime-3.0.1.zip
+    <LI>Java EMF Model Runtime<BR>
+    JEM-runtime-1.0.2.1.zip
+  </UL>
+</UL>
+<P>利用して感じたのですが、個別でファイルを選んでダウンロードして選んで解凍していくのは面倒なので、Eclipse ディストリビューションのような枠組み
+(Linuxディストリビューションのようなもの) は必要なのではないかと ふと考えました。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipseinstaller.html" TITLE="Eclipseを簡便にセットアップするための支援ツール。">EclipseInstaller</A>
+</UL>
+<HR>
+<P><FONT color="#ff0000">2005.02.27時点</FONT> 2004/12/09リリースの Visual Editor 1.0.2 が最新版です。</P>
+<UL>
+  <LI>Visual Editor Project - Download<BR>
+  <A HREF="http://download.eclipse.org/tools/ve/downloads/drops/R-1.0.2-200412091401/">http://download.eclipse.org/tools/ve/downloads/drops/R-1.0.2-200412091401/</A>
+  <UL>
+    <LI>Eclipse SDK 3.0.1<BR>
+    eclipse-SDK-3.0.1-win32.zip
+    <LI>Visual Editor 1.0.2<BR>
+    VE-runtime-1.0.2.zip
+    <LI>EMF build 2.0.1<BR>
+    emf-sdo-runtime-2.0.1.zip
+    <LI>GEF Build 3.0.1<BR>
+    GEF-runtime-3.0.1.zip
+  </UL>
+  <LI>Visual Editor 各国語版 (Translations)<BR>
+  <A HREF="http://dev.eclipse.org/viewcvs/indextools.cgi/%7Echeckout%7E/vep-home/WebContent/docs/translations/translation.html">http://dev.eclipse.org/viewcvs/indextools.cgi/%7Echeckout%7E/vep-home/WebContent/docs/translations/translation.html</A><BR>
+  日本語版もあるようです。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050804.html">2005/08/04 日記: Eclipse RCP開発の導入レベルを習得</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031119.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031119.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/19/nebt_08.html">
+    <title>SunとJBossのJava論争が決着</title>
+    <link>http://www.zdnet.co.jp/news/0311/19/nebt_08.html</link>
+    <description>Sun自身 最近新たに無料J2EEサーバをリリースしましたものね。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062065,00.htm">
+    <title>必ずしもコスト削減につながらないITアウトソーシング</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062065,00.htm</link>
+    <description>逆にコスト増加につながる例もあるのだそうな。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa01.html">
+    <title>IT書籍やコンサルタントが“使えない”理由</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa01.html</link>
+    <description>IT書籍を執筆する身としても、コンサルタントの肩書きを持つ身としても、このタイトルにぴぴっと反応してしまいました。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062077,00.htm">
+    <title>米サン vs 米JBoss--J2EE準拠テストをめぐる対立がついに解決</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062077,00.htm</link>
+    <description>準拠テストって すっごく高額だったんですねぇ。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba15/genba15.html">
+    <title>第15回 年齢制限に引っかかる人、引っかからない人</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba15/genba15.html</link>
+    <description>なんだかショッキングなタイトルだなぁ。内容もショッキング (苦笑) 単によわいを重ねただけではダメなんですねぇ…</description>
+    <dc:date>2003-11-19T23:15:07</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062061,00.htm">
+    <title>NTTコムウェアがOSDLに参加、「NTTグループ各社と連携して活動を推進」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062061,00.htm</link>
+    <description>NTTグループ各社でのオープンソースと関連づける？ ですんてっ。ほほう</description>
+    <dc:date>2003-11-19T23:15:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hyuki.com/diary/dia0311.html#i19">
+    <title>結城浩さんの日記: 2003年11月19日 (水) - 本を出版するということ</title>
+    <link>http://www.hyuki.com/diary/dia0311.html#i19</link>
+    <description>私の経験を書きます。本を出したいと思っても、これを出版社に執筆企画書を持ち込むよりも、好みの内容の執筆依頼がくるのを待ち、これをよりごのんで引き受けるほうが 話しを とんとん拍子で進めやすいです。今まで 基本的にホームページを見た編集者さまからの連絡をきっかけに執筆を行ってきました。… 依頼を受けて執筆する、というスタイルが世間的に通常なことなのかと私は思っておりました…。</description>
+    <dc:date>2003-11-19T23:46:22</dc:date>
+  </item>
+
+</rdf:RDF>

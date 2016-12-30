@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/12/26 日記: IBMホームページ・ビルダー8購入 , Log4Jが Apache Logging
+Servicesへと昇華</TITLE>
+<META name="DESCRIPTION" content="仕事納めラッシュです。今日(東京)、明日(大阪)と仕事納め会に出ます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事納めラッシュ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は東京で、明日は大阪で仕事納めに出ます。明日の午前中大阪に移動する予定です。<BR>
+明日は土曜日だけれど たまたま カレンダー上の出勤日なのです。(明日が出勤日っていうのは製造業系に多いパターンですねっ)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBMホームページ・ビルダー8を買ってきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>有楽町のビックカメラにて IBMホームページ・ビルダー8 バージョンアップ版を買ってきました。明日
+大阪に戻ってからインストールします。さて これがはずみになって記事執筆が進む、のかどうかは
+後でわかる事でしょう。<BR>
+すっごく気になったのですが、なんと 販売元は ソースネクスト になっている点です。かなり気になります。なんだかいやだなぁ…。</P>
+<P>…手元のノートパソコンには CD-ROMを読みとる装置が付いていないのでした。ちゃんちゃん。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Log4Jが Apache Logging Servicesへと昇華しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あおの さんのツッコミ<BR>
+Log4JがApache Logging Servicesへと進化しました。</P>
+<UL>
+  <LI>[replace-href:http://logging.apache.org/]
+</UL>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+Apacheの『統一見解』として 多プログラミング言語対応のロギングシステムが出されるのは意義深いです。C++,
+Java, .Net, Perl, PHP, PLSQL を根こそぎサポートしようってのは意欲的だなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>仕事先で ひっかかってつまずいて転ぶ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>会議が始まる前、席から立とうとして 机の脚に 足をひっかけて転びました。なんだか
+すねを 思いっきりぶつけました。痛かったです。机の脚の 微妙なくびれぐあい、あれがキケンなのです。今後気をつけます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>個人的にちょっとした事件が…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょっとした事件が発生しました。まあ 大勢には影響ないのですが…。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031226-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

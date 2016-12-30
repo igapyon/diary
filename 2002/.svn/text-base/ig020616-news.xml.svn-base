@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020616.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020616.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-16T19:24:24</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/15/nebt_03.html">
+    <title>韓国語版のVS .NETにNimdaウイルス混入</title>
+    <link>http://www.zdnet.co.jp/news/0206/15/nebt_03.html</link>
+    <description>MicrosoftがNimda搭載の開発環境をリリースしてしまったのだそうです。ああ 恐ろしい。</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.internet.com/research/20020612/1.html">
+    <title>「！広告！」に効果なし、広告メールが減ったユーザーは１９％</title>
+    <link>http://japan.internet.com/research/20020612/1.html</link>
+    <description>特定業者の広告メールには 「！広告！」を付ける義務があります。</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+  <item rdf:about="http://www.nhk.or.jp/news/2002/06/16/grri84000000cw5l.html">
+    <title>成田空港診療所にＣＴ導入</title>
+    <link>http://www.nhk.or.jp/news/2002/06/16/grri84000000cw5l.html</link>
+    <description>エコノミークラス症候群の対応のために導入するとのこと。</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+  <item rdf:about="http://jdc.sun.co.jp/technicalArticles/WSPack/">
+    <title>JDC: Java Web Services Developer Pack (WSDP)</title>
+    <link>http://jdc.sun.co.jp/technicalArticles/WSPack/</link>
+    <description>2002.02時点での Java Web Services Developer Packの解説 (日本語)</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0615/008.html">
+    <title>世界経済の回復確認　サミット財務相会合閉幕へ</title>
+    <link>http://www.asahi.com/business/update/0615/008.html</link>
+    <description>がんばれ 日本経済。</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.javadrive.jp/">
+    <title>JavaDrive</title>
+    <link>http://www.javadrive.jp/</link>
+    <description>良くできた Java関連技術解説ウェブページ。</description>
+    <dc:date>2002-06-16T19:24:25</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/12 日記: J2SE 1.4 日本語版ドキュメントリリース</TITLE>
+<META name="DESCRIPTION" content="J2SE 1.4 日本語版ドキュメントリリース , SUN Java Web Service Developer Pack リリース , Java XML Pack Summerリリースなど重要リリース連発模様。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt] [replace-param:htmlstyle=tabletitle][replace-rdf:ig020612-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>私が東京出張している間に いろいろな ITニュースが…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>J2SE 1.4 日本語版ドキュメントリリースや Sun Java Web Services Developer
+Pack 1.0 リリースなど、いろんな重要リリースがされていました。びっくり仰天。SilverStreamがNovellに買収ってのもびっくりニュース。すごいなあ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>いがぴょんの日記v1 から いがぴょんの日記v2へと 正式バージョンアップ告知</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日 ようやく <A href="http://www.nttd-bb.com/solution/igapyon1/">いがぴょんの日記ウェブページv1</A>から いがぴょんの日記ウェブページv2へのバージョンアップ告知を行いました。いがぴょんの日記ウェブページv2
+は 今日から正式リリースと言うことになります。長いRCを経て 果たして安定感が向上しているかどうか
+(笑)</P>
+<P>で、今日 <A href="http://www.nttd-bb.com/solution/igapyon1/">いがぴょんの日記ウェブページv1</A>のバージョンアップ告知に関する更新作業をしていたら、v1って ものすごく沢山の日記ページがあるもんですね。感心しました。今振り返ると、この沢山のページを何とか整理するという当初の目的は v2の方で達成できています。(年毎、メモ毎など、v2では サブディレクトリに分類されています)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java GUI プログラミング Vol.2 出版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:大村忠史]さんからメール<BR>
+<CITE>件名  ：  「Java GUI プログラミング Vol.2」<BR>
+伊賀 敏樹 様。　ご無沙汰しております。<BR>
+いつも、「いがぴょんの日記ウェブページv2」を 拝見させていただいております。<BR>
+旬な技術情報がタイムリーに 載せられているのには 感謝しています。特に「世間のニュースから」は、とても役立っています。<BR>
+ご本の執筆 お忙しそうですね。<BR>
+<BR>
+私の方は、SwingによるJava GUIプログラミング シリーズの全面改訂版 として、「Java
+GUIプログラミング」シリーズを 作成中です。</CITE></P>
+<UL>
+  <LI><CITE>「Java GUIプログラミング」第１巻<BR>
+  [replace-href:http://www.cutt.co.jp/book/4-87783-051-0.html]<BR>
+  に続いて</CITE>
+  <LI><CITE>「Java GUIプログラミング」第２巻<BR>
+  [replace-href:http://www.cutt.co.jp/book/4-87783-052-9.html]<BR>
+  も出ました。</CITE>
+</UL>
+<P><CITE>--<BR>
+Tadashi Ohmura 大村忠史</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+第2巻も完成したのですね。おめでとうございます。また、情報 ありがとうございます。早速
+買います (笑)<BR>
+私の方はといえば、今週末までに 修正版章立ての送付という 新たな状況にあります。(書いてみて
+初めて分かる より良い章立て…)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020612-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

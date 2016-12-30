@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030401.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030401.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/03/27/642705-000.html">
+    <title>NECがエンタープライズLinuxへの取り組みを発表─「来年は2倍の売り上げを目指す」</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/03/27/642705-000.html</link>
+    <description>ほうほう。NECも本気になりつつありますね。好ましい方向性です。</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/27/nebt_02.html">
+    <title>企業の最大の懸念はITの信頼性</title>
+    <link>http://www.zdnet.co.jp/news/0303/27/nebt_02.html</link>
+    <description>当然のことが当然のこととして認知されつつあると知り、とてもうれしい。</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/28/nebt_13.html">
+    <title>Linux搭載のPOS端末、大幅な伸び</title>
+    <link>http://www.zdnet.co.jp/news/0303/28/nebt_13.html</link>
+    <description>もはや『組み込みはLinux』という構図が完成しつつあります。</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/27/nebt_21.html">
+    <title>IBMにとって大きい、NVIDIAとの契約</title>
+    <link>http://www.zdnet.co.jp/news/0303/27/nebt_21.html</link>
+    <description>なんだか、NVIDIAって 重要なベンダーだったんですね。知りませんでした。(私は数年来のMatroxファン)</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/28/nebt_16.html">
+    <title>Flash強化、ブラウザがなくてもアプリ実行</title>
+    <link>http://www.zdnet.co.jp/news/0303/28/nebt_16.html</link>
+    <description>どんどん『開発環境としてのFlash』という方向性を向いていますね。</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0303/28/njbt_03.html">
+    <title>02年国内PDA出荷は2割減、ソニーがシェアトップ</title>
+    <link>http://www.zdnet.co.jp/news/0303/28/njbt_03.html</link>
+    <description>PDAでもSONY全盛の時代到来か… SONY恐るべし</description>
+    <dc:date>2003-04-01T17:05:01</dc:date>
+  </item>
+
+</rdf:RDF>

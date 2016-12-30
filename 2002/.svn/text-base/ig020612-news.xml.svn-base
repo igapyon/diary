@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020612.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020612.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/11/njbt_12.html">
+    <title>ソニー銀、開業1年で預金残高1300億円超</title>
+    <link>http://www.zdnet.co.jp/news/0206/11/njbt_12.html</link>
+    <description>大変上手く行っている様子ですね。記事の方では国内で初の国際規格取得などにも言及されていました。従来の銀行の方々も大変ですねぇ。</description>
+    <dc:date>2002-06-12T10:44:46</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/12/nebt_06.html">
+    <title>プログラマーに救われた歴史博物館</title>
+    <link>http://www.zdnet.co.jp/news/0206/12/nebt_06.html</link>
+    <description>ハッカーさんが たった5時間でパスワード解析に成功されたとのこと…。すごいなぁ。</description>
+    <dc:date>2002-06-12T10:44:46</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/190137">
+    <title>米ノベル、Web APサーバーの米シルバーストリーム買収</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/190137</link>
+    <description>SilverStreamがNovellに買収されるという ショッキングなニュース。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://doctorj.sourceforge.net/">
+    <title>DoctorJ - Java analyzer</title>
+    <link>http://doctorj.sourceforge.net/</link>
+    <description>Javaソースコード診断ツール。LGPLライセンス。現状Linuxでしか動作しない模様。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/business/update/0608/006.html">
+    <title>都銀への預金シフト続く　５月末は前年比８．２％増</title>
+    <link>http://www.asahi.com/business/update/0608/006.html</link>
+    <description>都銀 には みずほ銀行も含まれるのでしょうか？ 興味深いです。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+  <item rdf:about="http://www.yomiuri.co.jp/04/20020607ic16.htm">
+    <title>謎の揺れ？…震源大阪ドーム、実は３万人ジャンプ</title>
+    <link>http://www.yomiuri.co.jp/04/20020607ic16.htm</link>
+    <description>嘘のような本当のお話。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/189537">
+    <title>HP、Oracle、Red Hatが企業向けLinuxで協力</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/189537</link>
+    <description>力を合わせてLinuxが初心者でも安心して使うことが出来るようにしていって欲しいです。</description>
+    <dc:date>2002-06-12T08:51:37</dc:date>
+  </item>
+
+</rdf:RDF>

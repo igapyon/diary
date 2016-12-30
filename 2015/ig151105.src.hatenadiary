@@ -1,0 +1,4 @@
+2015-11-05 Delphi: TNetHTTPClient とクッキー
+
+*p1*Delphi: TNetHTTPClient とクッキー
+Delphiの HTTPクライアントライブラリTNetHTTPClientは、デフォルトでクッキーを管理します。AllowCookiesがTrueになっていると、TNetHTTPClientオブジェクトがクッキーを維持します。このため、サーバー側のセッション情報も適切に維持されます。

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020613.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020613.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/lucene/">
+    <title>Jakarta Lucene 1.2 リリース</title>
+    <link>http://jakarta.apache.org/lucene/</link>
+    <description>テキストサーチエンジン Luceneの最初の製品リリース。</description>
+    <dc:date>2002-06-13T21:21:44</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/log4j/">
+    <title>Jakarta log4j 1.2.4 リリース</title>
+    <link>http://jakarta.apache.org/log4j/</link>
+    <description>log4jも地道にバージョンアップしていっています。</description>
+    <dc:date>2002-06-13T21:21:44</dc:date>
+  </item>
+
+</rdf:RDF>

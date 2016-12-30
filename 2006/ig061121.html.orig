@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/11/21 日記: blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</TITLE>
+<META name="DESCRIPTION" content="VB.NET および PHP に新たに対応することにより、blanco Frameworkは Java / C#.NET / JavaScript / VB.NET / PHP言語のソースコードが自動生成できるようになりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/11/21 日記: blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] VB.NET および PHP に新たに対応することにより、blanco Frameworkは Java / C#.NET / JavaScript / VB.NET / PHP言語のソースコードが自動生成できるようになりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました。</P>
+<P>VB.NET および PHP に新たに対応することにより、blanco Frameworkは Java / C#.NET / JavaScript
+/ VB.NET / PHP言語のソースコードが自動生成できるようになりました。<BR>
+blanco Frameworkを使うことにより、ひとつの開発プロセスを複数のプログラミング言語によるシステム開発に利用することが可能です。このため、新たに２言語に対応した意義は大きいと考えます。</P>
+<P>※2006.11.16時点で 5言語全てのソースコード自動生成に対応しているのは、<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。">blancoStringConverter</A>,
+<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A>, <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>,
+<A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A> の4プロダクトです。対応プログラミング言語については、個別のプロダクトの説明ページを参照ください。<BR>
+利用者の要望の強いプロダクトから、順次対応プログラミング言語を追加していく予定です。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00"><STRONG>blanco Framework について</STRONG></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>blanco Frameworkは、Excelブック様式の設計書を入力してソースコードを自動生成するツール群の集まりによるフレームワークです。<BR>
+      blanco Frameworkを利用することにより、ドキュメントから素早くソースコードを自動生成することができます。<BR>
+      各ツールは疎結合で部分利用が可能です。Spring Framework など他のフレームワークと併用することも可能です。<BR>
+      blanco Frameworkのプロダクト群は、Eclipseプラグイン または AntTask の形式で提供されます。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2007/ig070320.html">2007/03/20 日記: blanco Framework は 新たに Ruby と Python の ソースコード自動生成に対応していく予定</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

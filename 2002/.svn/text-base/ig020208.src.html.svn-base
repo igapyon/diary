@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/02/08 日記: メールの暗号化</TITLE>
+<META name="DESCRIPTION" content="仕事上 メールの暗号化について考えされられています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールの暗号化</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふと仕事上 メールの暗号化について考える必要が出てきました。あんまり今まで
+メールの暗号化なるものは考えたことがなかったので、全く詳しくないのですが、、、</P>
+<OL>
+  <LI><A href="http://www.gnupg.org/">GnuPG</A>って関係あるかしら (GnuPGはPGP代替のように読みとれますが…)
+  <LI>じゃあ PGPは？<BR>
+  …PGPって商用化されているのかしら??? 何かしらライセンス上の都合で GNU な方々が
+  GnuPGを作っているようにも読みとれます…。
+  <LI>Windows で GUI で簡単に扱える暗号化ソフトってあるのかしら (PGPにはこだわらずに)<BR>
+  ドラッグ＆ドロップとかで 素人でも使えるような暗号化＆復号化ソフトが欲しい…<BR>
+  # そもそものターゲットがWindowsだから :-P
+  <LI>どんなメールソフトにも対応できる メール暗号化ソフトって存在するのかしら
+</OL>
+<P>と 疑問は深まるばかり。<BR>
+しばらくぼんやり考えてみるとともに、仕事に派遣できているハッカーくんに聞いてみようと思います。もし詳しい方いらっしゃったらツッコミ入れてください。</P>
+<P><FONT color="#ff0000">2002/02/12 追記</FONT> [replace-link:近藤正芳]さん@日記読者兼大学オケ後輩 からの Web日記ツッコミによると<BR>
+とりあえず 非商用版PGPがお勧めとのことでした。</P>
+<UL>
+  <LI>PGP 6.5.8 for Windows 9x/NT/2000<BR>
+  [replace-href:http://www.pgpi.org/products/pgp/versions/freeware/win32/6.5.8/]
+</UL>
+<P>一方 GnuPGの使い方説明は下記だよ とも教えてもらいました。</P>
+<UL>
+  <LI>GnuPG の使い方説明 (奥村晴彦さん作)<BR>
+  [replace-href:http://www.matsusaka-u.ac.jp/~okumura/networking/gnupg.html]
+</UL>
+<P>Web日記同士での相互ツッコミって、高度に抽象化されたメールシステムであるとも考えられますね
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>父親は 何とか退院できることになりました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>父は 何とか退院できることになりました。さしあたりほっとしています。でも
+後日別の病院にて 大がかりな手術が必要なようで、やや気がかりではあります。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020208-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

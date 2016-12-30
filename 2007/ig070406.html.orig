@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/04/06 日記: Java 国際化 に関する調べメモ</TITLE>
+<META name="DESCRIPTION" content="Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。">
+<META name="KEYWORDS" content="igapyon,Java,i18n,国際化,API">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/04/06 日記: Java 国際化 に関する調べメモ</H2>
+    <P>[igapyon,Java,i18n,国際化,API] Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java 国際化 に関する調べメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Java言語による国際化(i18n)プログラミング に関して調べたことをメモしておきます。</P>
+<P>まず、Javaにとっての原典を調べてみよう、ということで SunによるJava国際化に関する公式の資料を調べました。</P>
+
+<UL>
+  <LI>JDK 5.0 ドキュメント: 国際化 (日本語)<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/index.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/index.html</A><BR>
+  国際化関連のインディックスにもなっている。
+  <UL>
+    <LI>JDK 5.0 ドキュメント: 国際化の概要 (日本語)<BR>
+    <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/overview.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/guide/intl/overview.html</A><BR>
+    JDKのドキュメントなので、重要な一次情報源。☆特に貴重な情報が多数☆
+  </UL>
+  <LI>Sun: Java Internationalization (英語)<BR>
+  <A HREF="http://java.sun.com/javase/technologies/core/basic/intl/">http://java.sun.com/javase/technologies/core/basic/intl/</A><BR>
+  こちらも、インディックスのようになっている。(そしてビミョウに異なる…)
+</UL>
+  <P>ここを起点に、いろいろ調べていくと…</P>
+<UL>
+  <LI>Java 国際化 FAQ (日本語)<BR>
+  <A HREF="http://java.sun.com/javase/technologies/core/basic/intl/faq_ja.jsp">http://java.sun.com/javase/technologies/core/basic/intl/faq_ja.jsp</A><BR>
+  日本語による国際化に関する良くあるＱ＆Ａ集。すばらしい。
+  <LI>The Java Tutorials: Trail: Internationalization (英語)<BR>
+  <A HREF="http://java.sun.com/docs/books/tutorial/i18n/index.html">http://java.sun.com/docs/books/tutorial/i18n/index.html</A><BR>
+  チュートリアルシリーズによる国際化の説明。ただし英語。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>java.util.Localeに関するメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">LocaleSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.util.Locale;
+
+public class LocaleSample {
+    public static void main(final String[] args) {
+        final Locale current = Locale.getDefault();
+        System.out.println(&quot;language[&quot; + current.getLanguage() + &quot;]&quot;);
+        System.out.println(&quot;country[&quot; + current.getCountry() + &quot;]&quot;);
+        System.out.println(&quot;variant[&quot; + current.getVariant() + &quot;]&quot;);
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ある環境での実行結果</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>language[ja]<BR>
+      country[JP]<BR>
+      variant[]</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>この状態を実現するための javaコマンド引数 (部分)</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -Duser.language=ja -Duser.country=JP</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>関連するメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>javaコマンドの引数<BR>
+  <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/tooldocs/windows/java.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/tooldocs/windows/java.html</A>
+</UL>
+<UL>
+  <LI><A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/lang/System.html#getProperties()">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/lang/System.html#getProperties()</A><BR>
+  user.language はリストに載っていない。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

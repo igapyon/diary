@@ -1,0 +1,46 @@
+2016-12-23 [maven] 初めての maven の Java プロジェクト
+
+*p1*[maven] 初めての maven の Java プロジェクト
+**Maven の Java プロジェクトを新規作成
+>|sh|
+cd workspace/
+mvn archetype:generate -DgroupId=igapyon.app -DartifactId=IgapyonApp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+||<
+
+**コマンドラインからの jar ファイル作成および実行
+>|sh|
+cd IgapyonApp/
+mvn package
+java -classpath target/IgapyonApp-1.0-SNAPSHOT.jar igapyon.app.App
+Hello World!
+||<
+
+**Eclipse から Maven プロジェクトを開く
+Eclipse neon.1 の場合は以下です。
+-[File | Import...]
+-Maven -> Existing Maven Projects
+
+**文字エンコーディングの記述
+いずれ必要になる文字エンコーディングについて、<project> に以下を追加しておきます。
+>|xml|
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+||<
+
+**その他のよく使うコマンド
+-mvn compile
+-mvn test
+-mvn package
+-mvn install
+-mvn deploy
+-mvn clean
+
+**関連する日記
+-[http://d.hatena.ne.jp/igapyon/20161222:title=2016-12-22 maven インストール]
+-[http://d.hatena.ne.jp/igapyon/20161223:title=2016-12-23 maven 初めての maven の Java プロジェクト]
+-[http://d.hatena.ne.jp/igapyon/20161224:title=2016-12-24 maven Java アプリの メイン・マニフェスト属性 を jar に与える]
+-[http://d.hatena.ne.jp/igapyon/20161225:title=2016-12-25 maven Java アプリのコンパイルバージョンを指定する]
+-[http://d.hatena.ne.jp/igapyon/20161226:title=2016-12-26 maven Java アプリに jar 利用の依存関係を追加する]
+-[http://d.hatena.ne.jp/igapyon/20161227:title=2016-12-27 maven Java アプリの jar 利用の依存ファイルを lib に複写する]
+

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/19 日記: blancoDb Enterprise Edition仕様 (ドキュメント) のアップロード</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの blancoDb Enterprise Edition 仕様 (ドキュメント) についてアップロードしました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/19 日記: blancoDb Enterprise Edition仕様 (ドキュメント) のアップロード</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの blancoDb Enterprise Edition 仕様 (ドキュメント) についてアップロードしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoDb Enterprise Edition 仕様 (ドキュメント) のアップロード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition
+仕様 (ドキュメント) についてアップロードしました。クラス図やシーケンス図なども載っています。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Framework: <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 仕様<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/db/blancoDbEESpec.doc">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/db/blancoDbEESpec.doc</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>UMLのリファレンス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>UMLを調べる際に下記のページを情報源のひとつとして活用させていただきました。</P>
+<UL>
+  <LI>オブジェクトの広場: Java ではじめる UML<BR>
+  <A HREF="http://www.ogis-ri.co.jp/otc/hiroba/technical/JavaWorld_UML/">http://www.ogis-ri.co.jp/otc/hiroba/technical/JavaWorld_UML/</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>大量の処理件数が適切に扱うことができる必要性がある O/Rマッピング, R/Oマッピング</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>O/RマッピングやR/Oマッピングというものは、原則として大量の件数を適切に処理することが出来る必要性があります (しかし残念なことに そうではない
+O/Rマッピングツール実装がこの世には実在します)。マッピングツールの設計の都合がシステムの処理件数を制限するものであってはなりません。<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>は当然のことながら
+ツールそのものとして処理件数の制限が発生しないようにしています。一方で 指定の処理件数までのデータが欲しい場合もあります。マッピングツールとして
+MAX処理件数指定のデータ取得の機能も同時に必要です。もちろん <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>は その機能も持っています。いずれにしても
+マッピングツールが件数の制限を発生させるものであってはなりません。</P>
+<P>しかし一方で このような大量の処理件数に対応するためには、マッピングツールとして closeメソッドを準備する必要が出てくるのです。closeメソッドを準備しておいて
+それを呼び出してもらうという手順の強要が必要になります。これは多少なりともコーディング上の危険を伴います。これはリレーショナルデータベースの<STRONG>結果セット(ResultSet)</STRONG>の扱いと深い関わりがあります。結果セットという概念が前面に出てきて はじめてツールとして大量の処理件数への対応が可能になるというトレードオフ／ジレンマがあるのです。</P>
+<P>このジレンマを解決するために、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>では そのツールそのものでは頑張らずに、外側側から解決するアプローチを考えています。<STRONG>処理定義書</STRONG>が自動生成するソースコードのなかで 自動closeを実現することを考えています。(メサキ的には&nbsp;<A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoSOAPPlugin/meta/soap/wsdl/template/blancoWsdlTemplate.xls">電文処理定義書</A>を軸とした解決を考えています。なぜなら直近の仕事で必要だからです) あたかも ソースコード生成型の DI ですね。ソースコードによって結果セットをインジェクションしてしまうのです。これにより大量処理件数への対応と高速データベース入出力と、そして安全なデータベースプログラミングが全て実現できます。また
+このアプローチの実現性については、既に実装と実用を伴った検証はずいぶん昔に済んでいます。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

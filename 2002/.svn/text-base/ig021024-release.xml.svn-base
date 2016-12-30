@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021024.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021024.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.3/ja/index.html">
+    <title>Sun Java2 SDK, Standard Edition 1.3.1_06 リリース</title>
+    <link>http://java.sun.com/j2se/1.3/ja/index.html</link>
+    <description>前バージョンである 1.3.1系の リビジョンアップリリースです。前バージョンとはいえ まだ1.4.x系に移行していないユーザも多いでしょうから、気になる人も多いでしょう。しかし前回リリースが 2002/10/08 ということで、前回リリースの1.3.1_05がマズかったのでしょうかね…</description>
+    <dc:date>2002-10-24T13:19:57</dc:date>
+  </item>
+
+</rdf:RDF>

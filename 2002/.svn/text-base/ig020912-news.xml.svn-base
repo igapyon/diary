@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020912.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020912.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.computerworld.jp/contents/free/200209/20020909unisys.html">
+    <title>日本ユニシス、マイクロソフトの.NET戦略と連携した専任組織を新設</title>
+    <link>http://www.computerworld.jp/contents/free/200209/20020909unisys.html</link>
+    <description>Microsoft .NETに注力されているのですね。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/10/njbt_07.html">
+    <title>「CodeWarrior for PS2」、国内で2000本出荷</title>
+    <link>http://www.zdnet.co.jp/news/0209/10/njbt_07.html</link>
+    <description>開発環境の動向は、多くの場合そのまま ターゲットインフラ用ソフトの充実度と強い関係があります。多くの有名なソフトが CodeWarrior for PS2で開発されているようですね…。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/09/xert_ps3.html">
+    <title>次世代のPlayStationは変幻自在</title>
+    <link>http://www.zdnet.co.jp/news/0209/09/xert_ps3.html</link>
+    <description>興味深い。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/205832">
+    <title>日本HP/コンパックがLinuxビジネスでSRAと提携</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/205832</link>
+    <description>TurboLinuxがSRAの武器に成長することを期待しています。</description>
+    <dc:date>2002-09-12T08:23:03</dc:date>
+  </item>
+
+  <item rdf:about="http://www.osaka-monorail.co.jp/">
+    <title>大阪モノレール</title>
+    <link>http://www.osaka-monorail.co.jp/</link>
+    <description>大阪モノレール公式ページ。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+  <item rdf:about="http://homepage3.nifty.com/SORC/index.html">
+    <title>南大阪鉄道模型倶楽部</title>
+    <link>http://homepage3.nifty.com/SORC/index.html</link>
+    <description>いがぴょんをキーワードに なぜかここにたどり着きました。年に一度の大阪府堺市上野芝での公開運転会というのに興味があります。</description>
+    <dc:date>2002-09-12T08:05:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/10/ne00_sp1.html">
+    <title>盛り上がりに欠ける？　Windows XP SP1リリース</title>
+    <link>http://www.zdnet.co.jp/news/0209/10/ne00_sp1.html</link>
+    <description>日本語版は まだリリースされていない模様。</description>
+    <dc:date>2002-09-12T08:23:03</dc:date>
+  </item>
+
+</rdf:RDF>

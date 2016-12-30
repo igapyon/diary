@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021024.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021024.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-24</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/213154">
+    <title>富士通、05年にはLinuxを大規模基幹システムにも採用へ</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/213154</link>
+    <description>汎用機ベンダーである大企業の日本企業一社が Linuxに入れ込むことを大変嬉しく思います。</description>
+    <dc:date>2002-10-24T10:25:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/23/njbt_07.html">
+    <title>富士通、Linuxを大規模基幹システムに適用へ</title>
+    <link>http://www.zdnet.co.jp/news/0210/23/njbt_07.html</link>
+    <description>2005年の実現を目指すんですって。</description>
+    <dc:date>2002-10-24T10:25:23</dc:date>
+  </item>
+
+  <item rdf:about="http://pr.fujitsu.com/jp/news/2002/10/23.html">
+    <title>富士通: Linuxによる事業展開について ～大規模基幹システムへの適用を目指して～</title>
+    <link>http://pr.fujitsu.com/jp/news/2002/10/23.html</link>
+    <description>いよいよ日本でも Linuxの基幹系進出が本格始動しだしていますね。</description>
+    <dc:date>2002-10-24T10:25:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/23/ne00_kapor.html">
+    <title>1-2-3を創った男が計画する「Outlook代替ソフト」</title>
+    <link>http://www.zdnet.co.jp/news/0210/23/ne00_kapor.html</link>
+    <description>内容としては Jabberを含むそうです。</description>
+    <dc:date>2002-10-24T10:25:23</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/18/njbt_06.html">
+    <title>エプソンコーワがLinux向けドライバダウンロードを再開</title>
+    <link>http://www.zdnet.co.jp/news/0210/18/njbt_06.html</link>
+    <description>ライセンス周りの小話が載っています。</description>
+    <dc:date>2002-10-24T10:25:23</dc:date>
+  </item>
+
+</rdf:RDF>

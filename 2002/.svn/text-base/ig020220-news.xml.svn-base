@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020220.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020220.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0202/19/02021989.html">
+    <title>Opinion：電子商取引を脅かすパスワードの洪水</title>
+    <link>http://www.zdnet.co.jp/enterprise/0202/19/02021989.html</link>
+    <description>パスワード地獄に関する 良くできた記事。本質的な問題ですよね。世界中の人々が『電子鍵』を持てば解決できる、のかしら (笑)</description>
+    <dc:date>2002-02-20T08:24:37</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtutorial/20020219/1.html">
+    <title>基幹業務にオープンソースの DB は使えるか</title>
+    <link>http://japan.internet.com/linuxtutorial/20020219/1.html</link>
+    <description>オープンソースDBに関する日本発の記事。『Oracleは高いしなぁ』などの本音部分が書かれているのが 読み応えあります。ただ 本質的に オープンソースの利点は 値段が良く注目されますが、それ以上に重要なのはソースコードが公開されていてなおかつ自由に改造・修正できる点なのです。そこの所がわかっていないと 『オープンソースソフトを使うに当たって サポート提供企業とサポート契約を締結した』という事が理解できなくなっていきまして、それは良くないことです。</description>
+    <dc:date>2002-02-20T08:24:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/20/b_0219_12.html">
+    <title>IBMサーバにWindows／Linux仮想マシンソフト</title>
+    <link>http://www.zdnet.co.jp/news/0202/20/b_0219_12.html</link>
+    <description>いずれ訪れると思っていた 仮想マシン全盛時代。そろそろ本当に 仮想マシンが 『ふつ～』な時代が訪れるのでしょうか？</description>
+    <dc:date>2002-02-20T12:06:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0220/003.html">
+    <title>多剤耐性緑のう菌で初の死者　信越の病院で院内感染</title>
+    <link>http://www.asahi.com/national/update/0220/003.html</link>
+    <description>耐性菌の問題は深刻ですね。本質的には耐性菌を作らないために抗生物質の利用を控えよう、とする動きと共に、院内感染予防のための手洗い励行などの基本的な注意が必要なんですね。</description>
+    <dc:date>2002-02-20T09:50:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/20/b_0219_05.html">
+    <title>MSNのIMサービスに障害頻発</title>
+    <link>http://www.zdnet.co.jp/news/0202/20/b_0219_05.html</link>
+    <description>およよ。障害対策は頑張ってくださいませ。</description>
+    <dc:date>2002-02-20T12:06:36</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/politics/update/0220/007.html">
+    <title>厚労相、診療報酬の引き下げを諮問　４月から大半実施</title>
+    <link>http://www.asahi.com/politics/update/0220/007.html</link>
+    <description>初のマイナス改訂＋小児科支援が特徴。</description>
+    <dc:date>2002-02-20T16:27:27</dc:date>
+  </item>
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020204/1/">
+    <title>あなたは自分をプロのITエンジニアと言えるか？</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20020204/1/</link>
+    <description>プロとしての姿勢・技能を問いかける記事。ITSSという技能標準の紹介も少しあります。</description>
+    <dc:date>2002-02-20T16:27:27</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031108.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031108.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-08</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061818,00.htm">
+    <title>米ノベルの独SuSE買収発表に、業界各社の反応は？</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061818,00.htm</link>
+    <description>おおくの会社は SuSEがNovellになったことを歓迎しているのだそうな。</description>
+    <dc:date>2003-11-11T20:30:43</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/08/nebt_16.html">
+    <title>IBM、デスクトップLinux進出か</title>
+    <link>http://www.zdnet.co.jp/news/0311/08/nebt_16.html</link>
+    <description>希望者には提供みたいな内容の記載が気になりました。</description>
+    <dc:date>2003-11-11T20:30:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/tech/story/0,2000047674,20061824,00.htm">
+    <title>米レッドハットから個人ユーザー向けのLinux「Fedora」登場</title>
+    <link>http://japan.cnet.com/news/tech/story/0,2000047674,20061824,00.htm</link>
+    <description>とりあえず静観中…</description>
+    <dc:date>2003-11-11T20:30:43</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20061823,00.htm">
+    <title>NTTデータの2004年度中間決算、純利益が前年同期比68.8％減の減収減益に</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20061823,00.htm</link>
+    <description>あらあら。NTTDには がんばって欲しいです。思いっきり気になります。…それはさておき 短納期ってのは 私の最も得意とするジャンルです。短納期が流行るのかしらん…</description>
+    <dc:date>2003-11-11T20:30:43</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061802,00.htm">
+    <title>デスクトップ用Linuxの先行きを案ずる個人ユーザー</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061802,00.htm</link>
+    <description>Red Hat Linuxのコンシューマ向け版が無くなり、SuSE LinuxをNovellが買収するなど、刺激的な動きが満載です。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://www.japan.cnet.com/news/ent/story/0,2000047623,20061775,00.htm">
+    <title>米ノベルが独SuSEを買収、米IBMはノベルに5000万ドル出資へ</title>
+    <link>http://www.japan.cnet.com/news/ent/story/0,2000047623,20061775,00.htm</link>
+    <description>Linuxをめぐる激しい動き…</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/news/200311/01/ca.html">
+    <title>個人情報流出で倒産するシステム・インテグレータ</title>
+    <link>http://www.atmarkit.co.jp/news/200311/01/ca.html</link>
+    <description>気を引き締めてがんばります。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/274860">
+    <title>若手・中堅社員に急増--突然死・過労死から身を守る</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/274860</link>
+    <description>気をつけます。</description>
+    <dc:date>2003-11-19T09:57:56</dc:date>
+  </item>
+
+</rdf:RDF>

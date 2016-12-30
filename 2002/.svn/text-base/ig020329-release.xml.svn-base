@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020329.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020329.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.3/">
+    <title>SUN J2SE 1.3.1_03 リリース</title>
+    <link>http://java.sun.com/j2se/1.3/</link>
+    <description>Java2 SDK Standard Edition 1.3.1_03 がリビジョンアップリリースです。とても沢山の不具合修正が報告されていました。また 1.3.1_03からインストーラーのPackage for the Web部分が更新されています。</description>
+    <dc:date>2002-03-29T10:31:52</dc:date>
+  </item>
+
+</rdf:RDF>

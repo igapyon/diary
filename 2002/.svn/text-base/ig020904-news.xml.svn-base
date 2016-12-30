@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020904.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020904.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf/CID/onair/biztech/comp/204543">
+    <title>J2EEアプリ・サーバー市場、ベンダー整理統合進む</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf/CID/onair/biztech/comp/204543</link>
+    <description>そのうち淘汰が進むと思われますが、、、淘汰された側のJ2EEサーバを購入した人はがっかりでしょうね。(またその心理が メジャー系J2EEサーバの選択につながるという循環ですねぇ)</description>
+    <dc:date>2002-09-04T19:36:01</dc:date>
+  </item>
+
+</rdf:RDF>

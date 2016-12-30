@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/11/01 日記: blancoMailCore (0.6.1) リリース , JavaMail 1.4.1 リリース</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkは、blancoMailCore 初の正式版 (0.6.1) をリリースしました。 , JavaMail 1.4.1がリリースされていました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/11/01 日記: blancoMailCore (0.6.1) リリース , JavaMail 1.4.1 リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkは、blancoMailCore 初の正式版 (0.6.1) をリリースしました。 , JavaMail 1.4.1がリリースされていました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore (0.6.1) リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>は、<A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A> 初の正式版 (0.6.1)
+をリリースしました。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A>は メール送受信を安全で簡単に利用できるようにするためのJavaライブラリ(jarファイル)です。<BR>
+blancoMailCoreは内部的には JavaMail APIを利用しています。しかし blancoMailCoreを使うと JavaMail APIよりもずっと簡単にメール送受信を利用できます。blancoMailCoreが提供するいくつかのバリューオブジェクトに値を設定してメソッドを呼び出すだけで、簡単にメール送受信機能を利用できるようになります。<BR>
+※他の blanco Frameworkプロダクト群と異なり、blancoMailCoreはソースコード自動生成処理系ではありません。通常の実行ライブラリによる提供となります。</P>
+<P>今回のリリースにおいて、基本的には JavaMail 1.4 上で試験を実施しました。ただし、JavaMail 1.4.1でも一定量の動作確認は実施しました。</P>
+<P>JavaMail 1.4.1正式対応については、試験実施のうえ 改めてリリースする予定です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail 1.4.1 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaMail 1.4.1 が 2007.10.22付でリリースされていました。</P>
+<UL>
+  <LI>JavaMail<BR>
+  <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
+</UL>
+<P>また、併せて JavaBeans Activation Framework (JAF) もリビジョンアップされていました。</P>
+<UL>
+  <LI>JavaBeans Activation Framework (JAF)<BR>
+  <A HREF="http://java.sun.com/products/javabeans/jaf/">http://java.sun.com/products/javabeans/jaf/</A>
+</UL>
+<P>blancoMailCoreの試験対象が増えてしまいましたです…。</P>
+<P>さて、独断と偏見にて、JavaMail 1.4.1 の changelogを仕分て分類してみました。</P>
+<P><FONT color="#ff00ff">改善</FONT></P>
+
+<UL>
+  <LI>&lt;no id&gt; make sure Message-ID is really unique (GlassFish Issue 3064)<BR>
+  メッセージID改善は 気になります。
+  <LI>&lt;no id&gt; fix performance bug in base64 encoder; now even faster!<BR>
+  base64エンコーダが高速になったというのは 気になります。
+  <LI>6431207 SMTP is adding extra CRLF to message content
+  <LI>6447801 MimeBodyPart.writeTo reencodes data unnecessarily
+  <LI>&lt;no id&gt; SSLSocketFactory should be used for imap and smtp STARTTLS
+  commands
+  <LI>&lt;no id&gt; added mail.&lt;prot&gt;.ssl.protocols and mail.&lt;prot&gt;.ssl.ciphersuites props
+  <LI>&lt;no id&gt; avoid unnecessary copies of the data in ByteArrayDataSource
+  <LI>&lt;no id&gt; add mail.mime.applefilenames to work around filename encoding bug
+  <LI>&lt;no id&gt; support decoding multi-segment parameter names per RFC 2231
+  <LI>&lt;no id&gt; do SMTP authentication if connect is called with username and password even if mail.smtp.auth is not set
+</UL>
+<P><FONT color="#ff00ff">バグFIX</FONT></P>
+<UL>
+  <LI>4119871 MimeMessage.reply() should set the &quot;References&quot; header
+  <LI>6447799 encoded text not decoded even when mail.mime.decodetext.strict is false
+  <LI>6456422 NullPointerException in smtptransport when sending MimeMessages
+  with no encoding
+  <LI>6456444 MimeMessages created from stream are not correctly handled with allow8bitmime
+  <LI>6478460 java.lang.ArrayIndexOutOfBoundsException: 0 &gt;= 0 in MultipartReport
+  <LI>6538483 JavaMail fails in Turkish locale
+  <LI>&lt;no id&gt; MimeUtility.decodeText should not discard trailing whitespace
+  <LI>&lt;no id&gt; MimeMultipart failed to parse stream before adding/removing body parts
+</UL>
+<P><FONT color="#ff00ff">IMAP系</FONT></P>
+<UL>
+  <LI>4107594	IMAP implementation should use the IDLE extension if available
+  <LI>6228377	IMAPFolder's setFlags method handles user flags incorrectly
+  <LI>6423701 Problem with using OrTerm when the protocol is IMAP
+  <LI>6447295 IMAPMessage fails to return Content-Language from bodystructure
+  <LI>6506794 ProtocolException not correctly treated in IMAPStore
+  <LI>6517273 encoded parameters not decoded when using IMAP
+  <LI>6569311 Deadlock in IMAP attachment handling
+  <LI>6604571 Folder.hasNewMessages hangs with some IMAP servers when folder is closed
+  <LI>&lt;no id&gt; throw MessageRemovedException from getContent for IMAP messages
+  <LI>&lt;no id&gt; fix bug in mapping IMAP UIDs to msgs when some msgs have been expunged
+  <LI>&lt;no id&gt; if IMAP folder is open, assume it exists, don't ask again
+</UL>
+<P>簡単に試したところ、JavaMail 1.4.1がリリースされたのにもかかわらず、blancoMailCoreの必要性は依然として残っているようです。</P>
+<P>確実なチェックはしていませんが、JavaMail 1.4.1 はエンコーディングの実装が「適切な」仕様へと変更されているような直感を受けました。これから詳しく調べますが、「適切に」実装されていると、日本の古いメーラが適切に処理できない可能性があるように思います。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

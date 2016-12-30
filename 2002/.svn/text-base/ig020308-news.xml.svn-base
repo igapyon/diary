@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020308.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020308.html</link>
+    <language>ja</language>
+    <dc:date>2002-03-08T09:06:09</dc:date>
+  </channel>
+
+  <item rdf:about="http://cnn.co.jp/2002/FRINGE/03/04/town.promotes.nap.reut/">
+    <title>「能率上がる」と仕事中の昼寝を奨励　ドイツの町</title>
+    <link>http://cnn.co.jp/2002/FRINGE/03/04/town.promotes.nap.reut/</link>
+    <description>実際に能率が向上すると私は思います。</description>
+    <dc:date>2002-03-08T10:47:48</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/help/tips/windows/w0424.html">
+    <title>WindowsXP再インストール時にプロダクトアクティべーションを回避したい</title>
+    <link>http://www.zdnet.co.jp/help/tips/windows/w0424.html</link>
+    <description>%SYSTEM32% フォルダに wpa.dbl というファイルがあるのだそうな。これをコピーしておいて書き戻すと良いのだそうな。</description>
+    <dc:date>2002-03-08T10:47:48</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0203/05/02030508.html">
+    <title>スパム対策は「できることから」</title>
+    <link>http://www.zdnet.co.jp/enterprise/0203/05/02030508.html</link>
+    <description>何でも良いからスパムが来なくなればそれで私は良いです。そもそも郵便は発信者がお金を払うのだから 電子メールも発信者がお金を負担すれば それで全て解決すると 私は以前から考えていますが…</description>
+    <dc:date>2002-03-08T10:47:48</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/07/xbox_qa.html">
+    <title>Xbox，無償修理へ――マイクロソフトに15の質問</title>
+    <link>http://www.zdnet.co.jp/news/0203/07/xbox_qa.html</link>
+    <description>ハードウェアの初物ってのは大変ですねぇ。</description>
+    <dc:date>2002-03-08T10:47:48</dc:date>
+  </item>
+  <item rdf:about="http://www.mainichi.co.jp/life/hobby/game/news/Xbox/Xbox_toukou.html">
+    <title>Xbox不具合、ユーザーの独自報告　トレーが原因？</title>
+    <link>http://www.mainichi.co.jp/life/hobby/game/news/Xbox/Xbox_toukou.html</link>
+    <description>これが事実を的確に推測したものだとすると、Xboxの全機種に構造上の欠陥があるということになってしまいますね。マイクロソフトさんも大変なことでしょう。</description>
+    <dc:date>2002-03-08T10:47:48</dc:date>
+  </item>
+
+</rdf:RDF>

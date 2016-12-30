@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031207.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031207.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-07</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.eclipsewiki.net/eclipse/">
+    <title>Eclipse (エクリプス)</title>
+    <link>http://www.eclipsewiki.net/eclipse/</link>
+    <description>外注さんがEclipse情報源として頻繁に見ていたページ。私もそろそろEclipseを使おうと思い…って 実はまだ Eclipseに移行できずにいたのでした。みなさんには、意外でしょうけれども。(外注さんに 『はやくEclipseに移行しなさい』と注意されています。いえ、全くその通りなのですけれどもね) ということで、このページをメモっ。ところで この エクリプス ってところのフォントが 趣深いです。大正ロマンって感じです。</description>
+    <dc:date>2003-12-07T07:44:13</dc:date>
+  </item>
+
+  <item rdf:about="http://matobaa.tdiary.net/">
+    <title>今日の三角巾</title>
+    <link>http://matobaa.tdiary.net/</link>
+    <description>matobaaさんの日記。ず～っと探していました。そして、ようやく今日 発見しました！、、、って今気がついたのですが、はじめっから ハンドルネームでGoogle検索したら良いではないですかっ！ 意外にコンピュータを使いこなせていない私なのであった。</description>
+    <dc:date>2003-12-07T07:35:22</dc:date>
+  </item>
+  <item rdf:about="http://javaballista.ddo.jp/kjdiary/index.html">
+    <title>Not Enough Resource - Diary</title>
+    <link>http://javaballista.ddo.jp/kjdiary/index.html</link>
+    <description>新たに定期購読する日記を探索していて このページがヒットしました。記事へのコメントが豊富で、ぴぴっと来ました。</description>
+    <dc:date>2003-12-07T07:35:22</dc:date>
+  </item>
+
+</rdf:RDF>

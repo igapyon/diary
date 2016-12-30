@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/14 日記: blancoDb Enterprise EditionのAntタスクを作成 , 環境により Class.getSystemResource()が利用できない件…</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Edition に Antタスクを新規追加してみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/14 日記: blancoDb Enterprise EditionのAntタスクを作成 , 環境により Class.getSystemResource()が利用できない件…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDb Enterprise Edition に Antタスクを新規追加してみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise EditionのAntタスク作成</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>において ソースコード生成コマンドが Antタスク化していないのは あまりにもマズいだろうという多数の指摘を受けました。<BR>
+指摘の通りなので、Antタスク化を簡単に実装しました。</P>
+<P>参考にした Antの新規タスク開発方法。</P>
+<UL>
+  <LI>＠IT：Java TIPS -- Antで使う新規タスクを作成する<BR>
+  <A HREF="http://www.atmarkit.co.jp/fjava/javatips/076jakarta003.html">http://www.atmarkit.co.jp/fjava/javatips/076jakarta003.html</A>
+  <LI>＠IT：Java TIPS -- Antで使う新規タスクにパラメータを渡す<BR>
+  <A HREF="http://www.atmarkit.co.jp/fjava/javatips/084jakarta007.html">http://www.atmarkit.co.jp/fjava/javatips/084jakarta007.html</A>
+</UL>
+<P>…実装は 意外にも簡単でした。食わず嫌いでした (苦笑)<BR>
+なんて なんだかんだ作業しているうちに、とても夜更かししてしまいました (反省)</P>
+<P>blancoDb の Antプラグインについては、まだ 広範な試験は実施されていません。利用については、しばらくお待ちください。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>環境により getSystemResource()が利用できないケース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Antタスク化において blancoDb固有の問題だったのが、リソースファイルの読み込み関連についてです。Class.getSystemResource()ではダメで、this.getClass()を足がかりにgetResourceAsStream()を呼び出さないとうまくいかない場合があります。(修正箇所は
+具体的には blancoIgになります) jarファイル内からのリソース読み込みは 昔ながらに奥が深いです</P>
+<P>ちなみに、この getSystemResourceでは (特定条件下において) 読み込みが失敗し、そうではなく何かしら(そしてほとんどの場合
+*.class) を足がかりに getResouceしないと *.class以外のファイルが読み込みできない件については、意外なことですが、一部のコアな
+Java技術者しか知りません。私自身、なぜこれが失敗するのかについて、JavaVMのクラスローダーの内部実装に踏み込んだ正確な説明は出来ません。</P>
+<P>この問題に言及しているページをメモしておきます。</P>
+<UL>
+  <LI>Java Programming Primer<BR>
+  <A HREF="http://homepage1.nifty.com/algafield/jpp.html">http://homepage1.nifty.com/algafield/jpp.html</A>
+</UL>
+<P><FONT color="#ff00ff">関連するリソース </FONT><FONT color="#ff0000">2005.07.15追記</FONT> この問題の本質は、じつはクラスローダのインスタンス違いだった模様です。これで私の頭の中はかなりすっきりと整理できました。</P>
+<UL>
+  <LI>Saisse's Wiki: 日記/2005-07-15<BR>
+  <A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?%C6%FC%B5%AD%2F2005-07-15">http://www.saisse.jp/pukiwiki/pukiwiki.php?%C6%FC%B5%AD%2F2005-07-15</A><BR>
+  getClass().getClassLoader().getResourceAsStream(&quot;ファイル名&quot;) で取得可能とのことです。
+</UL>
+<P><A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?Saisse" TITLE="いがぴょんの日記ウェブページの読者で、東京OFF会参加経験をお持ちの方。ものすごいのは、いがぴょん配下で実開発を行った経験があるという点です。">Saisse</A>さん、ありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>岩谷宏さんのページ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>getSystemResource()の件で見た「Java Programming Primer」のページについて、情報が充実していて心に響きました。どなたが書いてられるのだろうと調べてみたところ、なんと
+あの有名なライターさんである岩谷宏さんのウェブページの一部分だったということがわかりました。</P>
+<UL>
+  <LI>岩谷宏さんのページ<BR>
+  <A HREF="http://homepage1.nifty.com/algafield">http://homepage1.nifty.com/algafield</A>
+</UL>
+<P>結構びっくりしました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseプラグイン開発技術に注力する方向性で</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某氏とうっちーとで話していて、とりあえず私が関連するリソースについて、Eclipseプラグイン開発技術 (+多少の C言語) に対してリソースを集約していく方向性で
+(勝手に) まとまりました。<BR>
+冗談めいて、キーワードは DoD と設定しました。実際のところ Eclipseプラグイン開発技術については かなり難易度が高く、しかしそれに見合うだけの効果があるように判断しています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050708.html">2005/07/08 日記: Age of Eclipse Portal (エクリプス・ポータル時代) の到来</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>技術メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WebOTXの OLF/TPについて調べていたら、JCAにたどり着きました。さて、JCAを勉強しないと…</P>
+<UL>
+  <LI>IBM dW : Java technology : JCAトランザクションを理解する<BR>
+  <A HREF="http://www-6.ibm.com/jp/developerworks/java/041224/j_j-jca.html">http://www-6.ibm.com/jp/developerworks/java/041224/j_j-jca.html</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

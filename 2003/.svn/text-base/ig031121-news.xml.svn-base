@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031121.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031121.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp01/noeinjp01.html">
+    <title>日本人ITエンジニアはいなくなる？ - 第1回 海外のエンジニアは脅威か</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/rensai/noeinjp01/noeinjp01.html</link>
+    <description>すごい良い記事です。オフショア開発などが私たちに与える影響ってとっても重要な問題ですものね。しびれました。</description>
+    <dc:date>2003-11-21T07:04:58</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20062125,00.htm">
+    <title>「2004年、FOMAは1000万台突破もありうる」---IDC Japanアナリストが予測</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20062125,00.htm</link>
+    <description>私は単純に音質の良いケータイが欲しいです。FOMAって音質が50xよりも良いのでは、と期待しているのですが…</description>
+    <dc:date>2003-11-21T07:04:58</dc:date>
+  </item>
+  <item rdf:about="http://java.sun.com/j2se/1.4.1/ja/index.html">
+    <title>Sun Java 2 Platform, Standard Edition 1.4.1_06 リリース</title>
+    <link>http://java.sun.com/j2se/1.4.1/ja/index.html</link>
+    <description>ほんの少しのバグフィックス リビジョンアップである模様。</description>
+    <dc:date>2003-11-21T07:04:58</dc:date>
+  </item>
+
+</rdf:RDF>

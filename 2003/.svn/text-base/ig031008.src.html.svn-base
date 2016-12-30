@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/10/08 日記: SELECT なにがし FOR UPDATEをJDBC API経由で利用する方法</TITLE>
+<META name="DESCRIPTION" content="今日は書籍執筆。でも明日から東京出張です。超忙しいです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SELECT なにがし FOR UPDATEをJDBC API経由で利用する方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今携わっている仕事で J2EE PetStoreのソースファイルに SELECT FOR UPDATEに関する腐った記載がありました。ドキュメントには
+変更のための各種記載があるようなのですが、そもそも 最大公約的なデータベースで動作するソースファイルであって欲しいものです。<BR>
+で、これに対応するための変更をメモっ。</P>
+<P>そして PetStoreには関わらず、SELECT なにがし FOR UPDATEをJDBCで利用するための方法はメモの価値が大いにあります。</P>
+<UL>
+  <LI>Microsoft SQL Server 2000では SQL文に FOR UPDATE は利用できません。<BR>
+※<FONT color="#ff0000">2005.05.20追記</FONT> SQL Serverの場合には WITH句を利用することが判明。詳しくは 関連する日記の箇所に詳細な記載があります。
+  <LI>Oracle 9i, PostgreSQL 8.0の場合には、SQL文に FOR UPDATEを明記する必要があります。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>         stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+         rs = stmt.executeQuery(&quot;SELECT 項目1, … FROM 表名 <STRONG>DB固有の更新ロック構文</STRONG>&quot;);
+         if (rs.next()) {
+             rs.updateInt(&quot;項目1&quot;, 値);
+             rs.updateRow();
+         }</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※<FONT color="#ff0000">2004.03.13</FONT> トランザクション遮断レベルというものを設定しないと、期待のトランザクション遮断レベルで実行されません。<BR>
+※<FONT color="#ff0000">2005.05.20</FONT> なお、トランザクション遮断レベルは、デフォルトでリードコミット (TRANSACTION_READ_COMMITTED) である場合が多いです。リードコミットであれば、リードコミットという挙動の範囲で適切な行ロックが確保できます)</BLOCKQUOTE>
+<P>ただ、上記ソースコードは コンパイルができない単なるサンプルなので、動作するかどうかについては別の資料 (例えば [replace-link:blancoDb]チュートリアル)などを参照ください。</P>
+<P><FONT color="#ff0000">2003.10.14</FONT> 山本さんの指摘を反映</P>
+<P><FONT color="#ff0000">2004.03.05</FONT> [replace-link:arton]さんのツッコミにより、wildcatsさんのツッコミに気が付きました。Oracle 9i は 少なくとも
+SQL文に FOR UPDATEを加える必要があることを、ここで初めて知りました。<BR>
+<STRONG>…中略…</STRONG></P>
+
+<P><FONT color="#ff0000">2005.05.20追記</FONT> [replace-link:blancoDb]に携わっているうちに、FOR UPDATEは かなり把握することができました。最大公約数的な現状および結論としては下記のようになります。</P>
+<UL>
+  <LI>リレーショナルデータベース固有の設定を行います
+  <UL>
+    <LI>SQL Server 2000の場合には、接続文字列に特定の文字列 (SelectMethod=cursor) を加える必要があります。
+    <LI>トランザクション遮断レベルについては、何がデフォルトになっているのかについては確認をするようにしてください。なお、多くのJDBCドライバでは、リードコミットをデフォルトとしている場合が多いです。リードコミットのレベルによるロックで良い場合には、デフォルトのまま利用するのを無難と私は考えています。
+  </UL>
+  <LI>自動コミットを off に設定します。<BR>
+  例 Connection.<STRONG>setAutoCommit(false)</STRONG><BR>
+  参考: setAutoCommit(false)を忘れると結果セットが不思議な動きをしてしまいます。<BR>
+  参考: トランザクション分離レベルについては、デフォルトの値である <STRONG>Connection.TRANSACTION_READ_COMMITTED</STRONG> を採用しました。ケースバイケースだとは思いますが、速度との兼ね合いや「安定度」などを考慮する必要があるでしょうね。
+  <LI>リレーショナルデータベース固有の 更新ロックに関する構文を追加します。
+  <UL>
+    <LI>Oracle 9i , PostgreSQL 8.0 : FOR UPDATE
+    <LI>Microsoft SQL Server 2000 : WITH (UPDLOCK)
+    <LI>※JDBC APIの記載とは裏腹に、FOR UPDATE句 や WITH句などを用いて更新カーソルである旨を明示する必要があります。
+  </UL>
+  <LI>prepareStatementに対して、<STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE</STRONG> のフラグをセットして実行します。(スクロールの方向性について、ほとんどの場合はResultSet.TYPE_SCROLL_INSENSITIVE
+  を選択することになります。なぜなら 実行中に他のトランザクションの更新結果を結果セットに反映させたいという局面は少ないだろうからです。)<BR>
+  prepareStatement(SQL文, <STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE</STRONG>, <STRONG>ResultSet.CONCUR_UPDATABLE</STRONG>);
+  <UL>
+    <LI>JDBCドライバによっては、ResultSet.TYPE_FORWARD_ONLY を SENSITIVEと同じ扱いにしてしまうものがあります。要注意です。すなわち結果セットが他のトランザクションの更新結果を反映して、処理中にどんどん変化していきます。
+    <LI>このようなことから、じつは更新カーソルであっても無くても ResultSet.TYPE_SCROLL_INSENSITIVE の指定をしておくのが無難と考えることもできます。つまり
+    ある時点でのスナップショットとしての結果セット(つまりカーソル)を維持しておくのが、プログラミングとして常識的な挙動を行うと考えるからです。(<FONT color="#ff0000">2005.05.24追記</FONT>)
+  </UL>
+  <LI>updateString などを呼び出して列を更新します。
+  <LI>最後に updateRow を呼び出して、行に対する更新を行います。
+</UL>
+
+<P>[replace-link:blancoDb]が利用できる方は、自動生成される SimpleXXXXXUpdatableIterator.java
+の内容をご覧くださいませ。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2004/ig040304.html">2004/03/04 日記: Oracle 9i JDBCドライバでのFOR UPDATEカーソル</A>
+  <LI><A href="../2005/ig050429.html">2005/04/29 日記: Java: Microsoft SQL Server 2000 + JDBC における更新ロックを伴った検索および更新の実現方法</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍執筆モード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日から書籍執筆に復帰しました。仕事が荒れまくり。<BR>
+しかし明日からは東京出張シリーズです。今日中に何とか指定箇所までは脱稿せねば…。</P>
+<P><FONT color="#ff0000">13:37</FONT> スランプ。なんだか執筆スキルというか魂の叫びが全く無い。文章が湧いてこない。ぐはあああああああ。(しかし明日は朝から東京に移動だもんなぁ)</P>
+<P><FONT color="#ff0000">16:20</FONT> ようやっと執筆エンジンが起動する。もはや完全に手遅れの感があるが、これから頑張ります。燃えてきた～。めらめら。ぱちぱち。</P>
+<P><FONT color="#ff0000">21:08</FONT> なぜ私はコンスタントに執筆できないのだろう、と素朴な疑問。とりあえず たった今は 超ノリノリです (苦笑)<BR>
+ああっ、コンスタントに仕事を遂行していく能力が私にあれば… それは決して私では無いよなぁ
+(爆笑)</P>
+<P><FONT color="#ff0000">23:08</FONT> さすがにだんだん 意識がもうろうとしてくる。これはやばい。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>キャプチャ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>パソコンテレビ録画＆再生＆DVD作成に利用しているハードウェア・パーツを ざざっとメモっておきます。</P>
+<UL>
+  <LI>NEC SmartVision HG2 [PK-VS/AG31/S] (\17,800.-)<BR>
+  [replace-href:http://www.yodobashi.com/enjoy/more/i/11482956.html]<BR>
+  通常の予約録画＆視聴にはこれを利用しています。普段撮り溜めるには、ハードウェアMPEG2エンコーダ搭載は必須項目でした。また、おまかせ録画機能が大変気に入っています。私はクラシック音楽ジャンルを視聴したいのですが、SmartVisionが自動的にテレビ番組表をチェックして
+  クラシック音楽を がんがん自動録画してくれます。ものぐさな私にはぴったりです。気になる音質なのですが、MPEG-1
+  Audio Layer-2 48000Hz 224kbps で保存している模様です。PCMがオプションで選択できれば満点なのですけれどもね。画質の方は
+  標準が CBRの4000kbpsであるようです。カスタムで選択可能なVBR+4500kbps設定よりもCBRを使った標準画質の方が画質感が安定しているように思えました。
+  <LI>I-O DATA GV-1394TV (\31,800.-)<BR>
+  [replace-href:http://www.iodata.co.jp/products/video/2003/gv-1394tv/index.htm]<BR>
+  これは永久保存版、という作品には こちらのハードウェアでAVI保存して後、TMPGEnc
+  Plus 2.5で時間をかけてゆっくり編集＆エンコードした後 下記のペガシス社製２製品を用いてDVD化を行っています。これはDV機器として認識されます。ゴーストリデューサーや3次元信号分離など
+  機能満載です。こちらの系統経由だと 音質をPCMのまま デグレードせずにDVD化できますし、また画質も
+  DVD容量一杯のレベルに VBRなりCBRなりを選択しながら 調整することができて
+  とても満足です。ただし こちらのケースでは とっても時間がかかります。2時間作品だったら
+  コンピュータ上での処理が 丸１日かかります。(ほんとうに！) 最近は VBRよりもCBRで
+  その代わり 画質調整を めい一杯時間がかかる設定にしてMPEG2作成を行ったり、などという設定に興味を持っています。(VBRだと設定の調整に失敗したら
+  通常のDVDプレーヤーで再生できないのではないかと、最近疑っています) CBRで<STRONG>最高画質設定</STRONG>にして気合いでMPEG2エンコーディングを行うと、実際の再生時間の10倍もの時間がエンコーディングに必要になります。びっくりですね。ちなみに
+  リニアPCM音質で2時間番組をDVD-Rに焼き付けると 映像は 3500kbps程度の割り当てになります。720x480で3500kbpsだと
+  よっぽどMPEG2エンコーダー処理に気合いが入っていないとブロックノイズがばしばし発生してしまいますものね。
+  <UL>
+    <LI>ペガシス TMPGEnc Plus 2.5 (\7,350.-)<BR>
+    [replace-href:http://www.pegasys-inc.com/j_tmpgenc.html]<BR>
+    AVI -&gt; MPEG変換で利用している。CMカットなどをここで行っている。定評のあるMPEG-2エンコーダ。
+    <LI>ペガシス TMPGEnc DVD Author 1.5 (\6,800.-)<BR>
+    [replace-href:http://www.pegasys-inc.com/j_tmpg_author15.html]<BR>
+    DVDオーサリングソフト。DVDメニューなどをここで作成する。シンプルで かつ
+    使い心地が良い。DVD焼き付けまで このソフトで完結して実施できる点も嬉しい。
+  </UL>
+  <LI>120GB程度のHDD<BR>
+  物理的に OSなどとは別のHDDに録画データを保持するのが良い模様。また、指定可能な最大クラスタサイズ(アロケーションユニットサイズ)でフォーマットして利用しています。NTFSなので64KBが最大値になります。
+  <LI>メルコ(BUFFALO) DVM-4242IU2 [IEEE1394&amp;USB2.0対応DVD±R/RWドライブ] (\39,800.-)<BR>
+  [replace-href:http://buffalo.melcoinc.co.jp/products/catalog/item/d/dvm-4242iu2/index.html]<BR>
+  ±両方対応＋外付けのもので 購入当時では一番安かったです。
+</UL>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031008-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

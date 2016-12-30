@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031101.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031101.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0310/31/nebt_22.html">
+    <title>「高可用性」サービスでHPが首位に</title>
+    <link>http://www.zdnet.co.jp/news/0310/31/nebt_22.html</link>
+    <description>昔HPのサーバ上で高可用性システム・ミドルウェア開発のために四苦八苦したなぁ…。</description>
+    <dc:date>2003-11-02T18:12:14</dc:date>
+  </item>
+
+
+</rdf:RDF>

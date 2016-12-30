@@ -1,0 +1,43 @@
+2016-12-24 [maven] Java アプリの メイン・マニフェスト属性 を jar に与える
+
+*p1*[maven] Java アプリの メイン・マニフェスト属性 を jar に与える
+メイン・マニフェスト属性を jar ファイルに与えて java -jar XXX.jar で実行可能にする方法をメモします。
+>|xml|
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<finalName>IgapyonApp</finalName>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					<archive>
+						<manifest>
+							<mainClass>igapyon.app.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+||<
+
+**関連する日記
+-[http://d.hatena.ne.jp/igapyon/20161222:title=2016-12-22 maven インストール]
+-[http://d.hatena.ne.jp/igapyon/20161223:title=2016-12-23 maven 初めての maven の Java プロジェクト]
+-[http://d.hatena.ne.jp/igapyon/20161224:title=2016-12-24 maven Java アプリの メイン・マニフェスト属性 を jar に与える]
+-[http://d.hatena.ne.jp/igapyon/20161225:title=2016-12-25 maven Java アプリのコンパイルバージョンを指定する]
+-[http://d.hatena.ne.jp/igapyon/20161226:title=2016-12-26 maven Java アプリに jar 利用の依存関係を追加する]
+

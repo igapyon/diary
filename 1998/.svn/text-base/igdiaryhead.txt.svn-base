@@ -1,0 +1,27 @@
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>[replace-metatext:title]</H2>
+    <P>[[replace-metatext:keywords]] [replace-metatext:description]</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+[replace-text:../../igdiarybanner.txt]
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+[replace-param:baseuri=http://homepage2.nifty.com/igat/igapyon/diary/1998/]

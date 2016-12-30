@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/03/28 日記: Ubuntu: 指定の時刻にコマンドを実行する方法</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 9.10 で指定した時刻にコマンドを実行する方法をメモしておきます。この例は、所定時刻に一度だけシャットダウンする方法です。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.1.0 for Windows">
+<meta name="DATE" content="2010-04-04T08:19:53+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/03/28 日記: Ubuntu: 指定の時刻にコマンドを実行する方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ubuntu 9.10 で指定した時刻にコマンドを実行する方法をメモしておきます。この例は、所定時刻に一度だけシャットダウンする方法です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: 指定の時刻にコマンドを実行する方法: その 1</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p>Ubuntu 9.10 で指定した時刻にコマンドを実行する方法をメモしておきます。この例は、所定時刻に一度だけシャットダウンする方法です。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td><strong style="background-color : yellow;">指定の時刻にコマンド (シャットダウン) を実行する方法</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre><strong>sudo at 14:15</strong>
+[sudo] password for user1: <strong>********</strong>
+warning: commands will be executed using /bin/sh
+at&gt; <strong>sudo shutdown -h now</strong>
+at&gt; &lt;EOT&gt; <strong>(Ctrl+D)</strong>
+job ??? at Sun Mar 28 14:15:00 2010&nbsp;</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: 指定の日時にコマンドを実行する方法: その 2</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>シャットダウンなどではなかったら、sudo は不要です。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td><strong style="background-color : yellow;">指定の日時にコマンドを実行する方法</strong></td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>
+      <pre><strong>at 08:00 2010-04-11</strong>
+[sudo] password for user1: <strong>********</strong>
+warning: commands will be executed using /bin/sh
+at&gt; <strong>ls</strong> (何かコマンド)
+at&gt; &lt;EOT&gt; <strong>(Ctrl+D)</strong>
+job ??? at …</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/04/04 08:19:53 $</address>
+</BODY>
+</HTML>

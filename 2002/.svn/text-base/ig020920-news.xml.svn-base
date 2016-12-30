@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020920.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020920.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.microsoft.com/japan/windowsxp/pro/downloads/servicepacks/sp1/">
+    <title>Microsoft Windows XP SP1 リリース</title>
+    <link>http://www.microsoft.com/japan/windowsxp/pro/downloads/servicepacks/sp1/</link>
+    <description>とっても興味を感じています。でも 『早速適用』 は恐ろしくて実施出来なさそうです。</description>
+    <dc:date>2002-09-20T19:01:51</dc:date>
+  </item>
+  <item rdf:about="http://www.microsoft.com/japan/ie/downloads/ie6SP1/">
+    <title>Microsoft Internet Explorer 6 SP1 リリース</title>
+    <link>http://www.microsoft.com/japan/ie/downloads/ie6SP1/</link>
+    <description>こちらも興味を持って見ています。</description>
+    <dc:date>2002-09-20T19:01:51</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/Enterprise/News/2002/Item/020919-2.html">
+    <title>サンがLinuxデスクトップ発売へ</title>
+    <link>http://japan.cnet.com/Enterprise/News/2002/Item/020919-2.html</link>
+    <description>Linuxデスクトップ市場に大手Unixベンダーが参入するのは 私は喜ばしいことだと思っています。</description>
+    <dc:date>2002-09-20T19:01:51</dc:date>
+  </item>
+
+</rdf:RDF>

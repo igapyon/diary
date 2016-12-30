@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/12/07 日記: ZIP解凍ツールの試作</TITLE>
+<META name="DESCRIPTION" content="ZIP解凍で ちと困ったので ZIP解凍プログラムを自作 (Java言語製) , 鶴亀メール安定版が更新されていました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ZIP解凍サンプルの試作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>都合により ZIP解凍サンプルを作成しました。圧縮は Jakarta Ant で行う運用の流れにのっているので、普段困るのは解凍側だけです。Ant
+に ZIP解凍はあると思いますけれど、ちょっとした都合 それが使えないのです。というのも
+今まで使っていたツールにおいて、ファイル日付が うまく更新されないのです。Windows
+XP へバージョンアップしたのと関係がありそうですが…。<BR>
+ソースコードは下記の通り。170行程度のプログラムで 言語標準APIのみを使っただけでZIP解凍がプログラミングできる世の中なんですねぇ。便利になってきたものです。<BR>
+ただし、このプログラムは 格納されているファイル名が 日本語ファイル名である場合は解凍できない模様です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><PRE>/**
+ * ZIP解凍サンプルプログラム
+ * Copyright (C) 2001  Tosiki IGA
+ *
+ *   @author Tosiki IGA
+ *   @version 2001.12.07
+ *   (http://homepage2.nifty.com/igat/igapyon/index.html)
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.zip.CRC32;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+public class ZipMelt
+{
+        protected long lSumCount=0;
+        protected long lSumSize=0;
+
+        public static void main(String[] args)
+        {
+                if(args.length==0){
+                        System.out.println(&quot;解凍したいファイル名を入力してください&quot;);
+                        System.out.println(&quot;ex: java ZipMelt [解凍したいファイル名]&quot;);
+                        System.exit(-1);
+                }
+                File fileMelt=new File(args[0]);
+                if(fileMelt.exists()==false){
+                        System.out.println(&quot;指定のファイル[&quot;+args[0]+&quot;]が見つかりませんでした.&quot;);
+                        System.exit(-2);
+                }
+                try{
+                        new ZipMelt().process(fileMelt);
+                }catch(IOException ex){
+                        System.out.println(ex.toString());
+                }
+        }
+
+        protected void process(File fileMelt)
+                throws IOException
+        {
+                ZipInputStream inStream=new ZipInputStream(new FileInputStream(fileMelt));
+                for(boolean isZipEntryFound=false;;isZipEntryFound=true){
+                        ZipEntry entry=inStream.getNextEntry();
+                        if(entry==null){
+                                if(isZipEntryFound==false){
+                                        throw new IOException(&quot;ZIPエントリが1つも見つかりませんでした&quot;);
+                                }
+                                break;
+                        }
+                        processEntry(inStream,entry);
+                        inStream.closeEntry();
+                }
+                inStream.close();
+
+                java.text.NumberFormat numFormat=java.text.NumberFormat.getInstance();
+                System.out.println(&quot;計 &quot;+numFormat.format(lSumCount)+&quot; 個&quot;);
+                System.out.println(&quot;   &quot;+numFormat.format(lSumSize)+&quot; byte&quot;);
+        }
+
+        protected void processEntry(ZipInputStream inStream,ZipEntry entry)
+                throws IOException
+        {
+                if(entry.isDirectory()){
+                        processEntryDirectory(entry);
+                }else{
+                        processEntryFile(inStream,entry);
+                }
+        }
+
+        protected void processEntryDirectory(ZipEntry entry)
+                throws IOException
+        {
+                File fileDir=new File(entry.getName());
+                if(fileDir.exists()){
+                        if(fileDir.isDirectory()==false){
+                                System.out.println(&quot;作成しようとしたディレクトリ[&quot;+entry.getName()+&quot;]と同名ファイルが存在します.&quot;);
+                        }
+                }else if(fileDir.mkdirs()==false){
+                        System.out.println(&quot;ディレクトリ[&quot;+entry.getName()+&quot;]の作成に失敗.&quot;);
+                }
+        }
+
+        protected void processEntryFile(ZipInputStream inStream,ZipEntry entry)
+                throws IOException
+        {
+                CRC32 crc32=new CRC32();
+
+                File fileOut=new File(entry.getName());
+
+                String strStatus=null;
+                if(fileOut.exists()){
+                        if(fileOut.lastModified()==entry.getTime()){
+                                // 同一
+                        }else if(fileOut.lastModified()&lt;entry.getTime()){
+                                strStatus=&quot;更新&quot;+getDiff(entry.getTime()-fileOut.lastModified());
+                        }else{
+                                strStatus=&quot;後退&quot;+getDiff(fileOut.lastModified()-entry.getTime());
+                        }
+                }else{
+                        // 新規
+                }
+
+                if(strStatus!=null){
+                        System.out.println(strStatus+&quot; &quot;+fileOut.getName());
+                }
+                BufferedOutputStream outStream=new BufferedOutputStream(new FileOutputStream(fileOut));
+
+                byte[] byteBuf=new byte[8192];
+                for(;;){
+                        int iReadLen=inStream.read(byteBuf);
+                        if(iReadLen==(-1)){
+                                break;
+                        }
+                        outStream.write(byteBuf,0,iReadLen);
+                        crc32.update(byteBuf,0,iReadLen);
+                }
+
+                outStream.flush();
+                outStream.close();
+
+                if(entry.getCrc()!=(-1)
+                &amp;&amp; entry.getCrc()!=crc32.getValue()){
+                        throw new IOException(&quot;CRC-32チェックサムエラー:&quot;+fileOut.getName());
+                }
+
+                fileOut.setLastModified(entry.getTime());
+
+                // 統計情報の更新
+                lSumCount++;
+                lSumSize+=entry.getSize();
+        }
+
+        protected static String getDiff(long lDiff)
+        {
+                if(lDiff&lt;0){
+                        lDiff=(-lDiff);
+                }
+                if(lDiff&lt;60*1000){
+                        return &quot;&quot;+(lDiff/1000)+&quot;秒&quot;;
+                }else if(lDiff&lt;60*60*1000){
+                        return &quot;&quot;+(lDiff/60/1000)+&quot;分&quot;;
+                }else if(lDiff&lt;24*60*60*1000){
+                        return &quot;&quot;+(lDiff/60/60/1000)+&quot;時&quot;;
+                }else{
+                        return &quot;&quot;+(lDiff/24/60/60/1000)+&quot;日&quot;;
+                }
+        }
+}</PRE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>このプログラムがバグっていたら困るのですけれども、まあ 従来の ファイル更新日付がずれるのよりは
+ずっとマシかも (とにかくバグっていないことを祈る)<BR>
+CRC-32チェックサムを行っていますが、そもそも CRC-32チェックサムについてはについては詳しくないのであった。でも比較を実施して一致しているのだから、まあ 実装は間違っていないのでしょう (苦笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>鶴亀メール 安定版 更新</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>鶴亀メールの安定版が更新 (153: 2001/12/02) されました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig011207-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

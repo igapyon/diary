@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2010/02/21 日記: Ubuntu: USB や PCI などの一覧を取得する呪文</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu では USB や PCI に接続されている機器の一覧を取得する呪文があります。Ubuntu 9.10 で調べました。ファイル一覧の「ls」を想像させる ls* という一連のコマンドがあります。これをメモしておきます。">
+<meta name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.1.0 for Windows">
+<meta name="DATE" content="2010-02-22T21:58:25+09:00">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2010/02/21 日記: Ubuntu: USB や PCI などの一覧を取得する呪文</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Ubuntu では USB や PCI に接続されている機器の一覧を取得する呪文があります。Ubuntu 9.10 で調べました。ファイル一覧の「ls」を想像させる ls* という一連のコマンドがあります。これをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="banner">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+        Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
+        </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
+      <FONT size=-1>
+        Eclipse DemoCamp を東京で開催! 残席わずか。申込期限も間近。参加希望者は今すぐ申し込みを!
+      </FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: USB や PCI などの一覧を取得する呪文</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A> では USB や PCI に接続されている機器の一覧を取得する呪文があります。Ubuntu 9.10
+で調べました。ファイル一覧の「ls」を想像させる ls* という一連のコマンドがあります。これをメモしておきます。<br>
+※Ubuntu 以外のディストリビューションでこれが利用可能かどうか私には不明。</p>
+<blockquote>
+<table border="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffff00" align="center"><strong>コマンド</strong></td>
+      <td bgcolor="#ffff00" align="center"><strong>内容</strong></td>
+    </tr>
+    <tr>
+      <td>lspci</td>
+      <td>PCI 接続機器の一覧を取得</td>
+    </tr>
+    <tr>
+      <td>lsusb</td>
+      <td>USB 接続機器の一覧を取得</td>
+    </tr>
+    <tr>
+      <td>lsscci&nbsp;</td>
+      <td>SCSI 接続機器の一覧を取得&nbsp;</td>
+    </tr>
+    <tr>
+      <td>lsmod</td>
+      <td>モジュール一覧を取得</td>
+    </tr>
+    <tr>
+      <td>lshw&nbsp;</td>
+      <td>ハードウェア情報を取得</td>
+    </tr>
+    <tr>
+      <td>lshal</td>
+      <td>グローバル・デバイス・リストの一覧を取得</td>
+    </tr>
+    <tr>
+      <td>lsdev</td>
+      <td>ハードウェアレベルのデバイス情報を取得</td>
+    </tr>
+  </tbody>
+</table>
+</blockquote>
+<p>Ubuntu を少しずつ勉強中。</p>
+<p>これらコマンドと良く併用するのが以下のコマンドです。</p>
+<ul>
+  <li>dmesg : デバッグ・メッセージを表示。
+  <li>ifconfig : ネットワーク・インタフェースの情報を表示
+</ul>
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: アプリケーションを簡単インストール。sudo apt-get install &lt;アプリケーション名&gt;</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>最初に su - root が使えなくて ちょっとつまづきました。イマドキは root はオフになっていて sudo する模様。(Ubuntu
+で Linux をリハビリ中)</p>
+<p>アプリケーションをインストールする基本呪文は以下のようになります。前に Linux を使っていたときは Vine だったので (いや、たぶん
+Vine だったような…。というか、使っていたというほど以前は使っていませんでした。ああ、Red Hat だったような記憶も…)、<br>
+まず最初に Debian 系の呪文になれる必要があります。</p>
+<ul>
+  <li>sudo apt-get install &lt;アプリケーション名&gt;
+</ul>
+<p>このコマンド一発でインストールできるのが凄いです。とりあえず git をインストールしてみたのですが、「git」と「git-core」とをコマンド
+2 初でインストールできました。おお、すごい便利です!</p>
+<table summary="mini title">
+  <tbody>
+    <tr>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: 無線 LAN 接続で悶絶</strong></font></td>
+    </tr>
+  </tbody>
+</table>
+<p>悶絶した顛末をメモしていましたが、これは翌日の日記へ移動しました。</p>
+<ul>
+  <li><a href="ig100222.html">2010/02/22 日記: Ubuntu: BUFFALO USB用 無線子機 (WLI-UC-G301N) を Ubuntu 9.10 (i386)
+  で使う</a>
+</ul>
+
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/02/22 21:58:25 $</address>
+</BODY>
+</HTML>

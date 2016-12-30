@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/09/08 日記: blancoMailCore 実装中 , Pythonに対応したソースコード自動生成フレームワーク</TITLE>
+<META name="DESCRIPTION" content="blancoMailCore という blancoMail のコアAPIについて実装着手しました。現在も実装中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/09/08 日記: blancoMailCore 実装中 , Pythonに対応したソースコード自動生成フレームワーク</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoMailCore という blancoMail のコアAPIについて実装着手しました。現在も実装中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore 実装中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A> という <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> のコアAPIについて実装着手しました。現在も実装中です。</P>
+<P>異常系などもいろいろ考慮すると、結構 実装しなくてはならない機能が多いです。</P>
+<P>この 着手したばかりの状態で 実効行数で下記の行数があります。</P>
+<UL>
+  <LI>手動コーディング: 334行
+  <LI>自動コーディング: 305行
+</UL>
+<P>ここに 機能追加や異常系処理などを加えていくと、数キロステップ程度の重みが出てくるように感じます。単純なメール送受信機能って、意外と規模が大きいのですね…。</P>
+<P><FONT color="#ff0000">2007.09.09追記</FONT> おおざっぱな機能のみ実装しました。まだ基本機能も全ては完成していません。とりあえず 今日の時点では ウィルコム端末での文字化けを中心に追求しました。<BR>
+添付ファイル付きテキストのメールの場合、テキスト部に余分な空行が付与されていないとウィルコム端末で受信した際に文字化けするという強烈な仕様 (バグ?)
+を見つけました。日本語メール環境、恐るべし。徐々に他の端末でも試験をしていこうと思います。</P>
+<P><STRONG><FONT color="#ff00ff">分かったこと</FONT></STRONG>: メール送信だけに注目しただけでも、現時点の日本語メール事情においては、単純に JavaMail を利用してメールを送信しただけだと 様々な問題に出くわしてしまうようです。JavaMail 単体を利用したメール送受信システム開発は、工数が多く掛かってしまいがちのようです。<A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> のような<STRONG>日本語メール事情を考慮した</STRONG>メール送受信ライブラリは メール送受信システム開発において存在意義が大きいということを 改めて理解しました。</P>
+<P><FONT color="#ff0000">2007.09.13追記</FONT> さらにざっくりと機能追加している途中なのですが、既に 手動コーディング: 702行、自動コーディング: 454行まで増えてしまいました。なんとか
+規模縮小をはかりたいのですが、まだ明らかな未実装の部分も残っているので、このままのペースだと 1キロステップ (1KS ＝ 1000行) を突破してしまいそうです。</P>
+<P><FONT color="#ff0000">2007.09.20追記</FONT> 手動コーディング 838行、自動コーディング 936行。blancoLogによるバイナリロギングや blancoValueObjectFactoryなどによるバリューオブジェクトのデフォルト値自動設定
+などのプロダクトを導入して 手動コーディング部分の行数削減をおこなったのですが、838行までふくれてきてしまいました。</P>
+<P><FONT color="#ff0000">2007.09.24追記</FONT> 手動コーディング 803行、自動コーディング 1607行。リファクタリングを実施中。ただし未実装機能も数個が残っています。</P>
+<P><FONT color="#ff0000">2007.09.26追記</FONT> 手動コーディング 1102行、自動コーディング 1960行。バージョン番号を0.4.0として α版リリース。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Pythonに対応したソースコード自動生成フレームワーク</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は　Pythonに対応したソースコード自動生成フレームワークでもあります。Excelから
+Pythonソースコードの自動生成ができます。また <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。">blancoCg</A> 単品も Python対応が追加されています。Pythonソースコードの自動生成をしたい場合は、blancoCgも是非ご検討下さいませ。(ただし、私自身は
+残念ながら Pythonプログラミングはできません。)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

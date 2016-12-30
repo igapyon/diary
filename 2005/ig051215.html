@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/15 日記: blancoDbDotNet仮実装完了</TITLE>
+<META name="DESCRIPTION" content="とりあえず動作するっぽい blancoDbDotNetが出来上がりました。明日から継続的に改善していく予定です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/15 日記: blancoDbDotNet仮実装完了</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] とりあえず動作するっぽい blancoDbDotNetが出来上がりました。明日から継続的に改善していく予定です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet仮実装</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とりあえず動作するっぽい blancoDbDotNetを実装完了しました。まだ5時間程度しか稼働を消費していません。(他の作業などあり、稼働を消費できていません) 当面、ADO.NETのみの対応です。むろん遠い将来には ODP.NETにも対応していきたいと思っています。(ADO.NETとODP.NETの双方に副作用がほとんど無いまま対応できてこそ <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの良さが出てくるのだと考えています)<BR>
+明日、もうちょっとマトモっぽく動作するように改善していく予定です。というのも現状では生成後のソースコードが まだ完全にはコンパイル可能な状態にはありません
+(苦笑)。</P>
+<P><FONT color="#ff0000">2005.12.16 01:08追記</FONT> ようやく 生成後の C#ソースコードが適切にコンパイルできる状態にまでたどりつきました。これからSQL定義書様式の調整＋単体試験の実施へと続きます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>iTunesをインストールしたら 空白付きのCLASSPATHが設定されて…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここ数日、自宅PCにおいて日記更新バッチがうまく動作しないので、なぜだろうと思って調べてみたところ、先日 iTunes (QuickTime)をインストールしたのが原因だったことがわかりました。びっくりしました。iTunesインストーラーによって
+Javaランタイムの extフォルダに QuickTimeのためのランタイムがコピーされて、そこにタイする CLASSPATHを (iTunesインストーラーが)設定したようなのです。このCLASSPATHにダブルクオート無しによるパス記述があったために
+副作用にてJavaバッチが動作できなくなっていました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

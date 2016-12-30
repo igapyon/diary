@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021206.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021206.html</link>
+    <language>ja</language>
+    <dc:date>2002-12-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.internet.com/research/20021204/1.html">
+    <title>インターネットユーザーの８割が、「いつものサイトを巡回」</title>
+    <link>http://japan.internet.com/research/20021204/1.html</link>
+    <description>私もWWWC+RSSで いつものサイトを巡回しているだけですね。でもそれとは別に Googleも活用していますなぁ。</description>
+    <dc:date>2002-12-10T08:19:02</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/28 日記: はじめてのC#</TITLE>
+<META name="DESCRIPTION" content="再来月からC#の仕事に携わる可能性が…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020628-release.xml]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>C#の仕事に携わる可能性</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>再来月からC#の仕事に携わる可能性が出てきました。C#を扱うことについて、結構楽しみにしていたりします。<BR>
+ただしJava言語からC#に乗り換えるという意味ではありませんです。たまたまC#の仕事が来そうって意味です。(逆に
+そういうチャンスでもないと C#を積極的には検証などしそうにないので、これはすっごく有意義な機会なのです。)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>面白そうな世間のリリースがたくさん</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaMail 1.3 が出て GNOME 2.0 が出て、と 暇があったら堪能したい新リリースが盛りだくさん。ああ
+暇があったら…。そんな間に 執筆活動が続くのであった。</P>
+<P>実際の所 Mozilla 1.0 が出て GNOME 2.0 が出て [replace-link:OpenOffice.org] 1.0 が出て、と
+Linux周りは 急速にソフトウェアが整備されてきていますね。来年くらいに いよいよ本格的に Linuxデスクトップの時代が到来するのやも、とすら予感させられます。(こう書くと
+Linuxデスクトップ既存ユーザおよびコテコテWindowsデスクトップ既存ユーザの双方の方々から 大いなる不満を感じられるのでしょうね)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>書籍執筆: 1～2章まで完全に執筆完了</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>疲れました。ちょっと手直しするだけのはずが…。1節を仕上げるのに 1時間かかった計算です。こりゃ大変だわ。<BR>
+さあて 来週は 3章を ほぼ完成させないといけないのだが… (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020628-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031120.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031120.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/column/horiuchi/horiuchi06.html">
+    <title>SEとコンサルタントの大きな違い -求められるスキルとマインドはこんなに違った！-</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/column/horiuchi/horiuchi06.html</link>
+    <description>私 肩書きがコンサルタントだからなぁ… (名刺にそう書いてあるんです！) それにしても 『ITスキル標準』とかいうので 職種を表す用語が定義されていますね。改めて認識しました。『・顧客以上に顧客の成功にコミットすること　・堂々と正論を述べること　・無知を認めること。その代わりに「学びの速さ」を武器にすること』の３点は 強く同意します。ほほう、やっぱり私はコンサルタントかしらん、って思いました (笑) …ふと発音してみる 『悪戦苦闘』(苦笑)</description>
+    <dc:date>2003-11-20T07:14:20</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062092,00.htm">
+    <title>米IBM、オープンソースのEclipseプロジェクトにコード提供</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062092,00.htm</link>
+    <description>ヴィジュアル開発環境は とりあえず大歓迎です。一方 SWTとSwingとは 共存してくれればそれで良いです。というか Swingは もう ある意味安定して普及しているから 次に SWTをいかに安定化して普及させて、そして J2SEに取り込むのか、について Sunには取り組んで欲しいなぁ…。だってSwingって やっぱりとっても重くて遅いのですもの。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+
+  <item rdf:about="http://sc-comtex.sse.co.jp/seminar/as/index.html">
+    <title>内部ネットワークセキュリティ対策セミナー(無料)</title>
+    <link>http://sc-comtex.sse.co.jp/seminar/as/index.html</link>
+    <description>出席してみようと思います。申し込みは済ませました。</description>
+    <dc:date>2003-11-20T10:20:37</dc:date>
+  </item>
+
+  <item rdf:about="http://d.hatena.ne.jp/neverbird/">
+    <title>ネバーバード日記</title>
+    <link>http://d.hatena.ne.jp/neverbird/</link>
+    <description>日記探索: JBoss系トピックの勉強のために</description>
+    <dc:date>2003-11-20T10:20:37</dc:date>
+  </item>
+
+  <item rdf:about="http://dann.dyndns.info/diary/">
+    <title>TECH Memo</title>
+    <link>http://dann.dyndns.info/diary/</link>
+    <description>日記探索: 文章タッチが気に入りました。</description>
+    <dc:date>2003-11-20T10:20:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.simeji.com/diary/">
+    <title>okuさん: 独り言のようなもの</title>
+    <link>http://www.simeji.com/diary/</link>
+    <description>日記探索: Macromedia系を追われているようなので しばらく日記を読ませて頂きます。なんだか興味範囲の守備範囲がかぶっている雰囲気だし、文章のタッチ感が なんだか惹かれます。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+  <item rdf:about="http://www.deer-n-horse.jp/linux/dialy/">
+    <title>秘密のLinux日記</title>
+    <link>http://www.deer-n-horse.jp/linux/dialy/</link>
+    <description>日記探索: 文章と日記の内容が 微妙にハートをヒット。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+  <item rdf:about="http://asip.tdiary.net/">
+    <title>ASIPの徒然なるままに</title>
+    <link>http://asip.tdiary.net/</link>
+    <description>日記探索: 有名どころの日記。メモっ。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+
+  <item rdf:about="http://diary.hatena.ne.jp/kakutani/">
+    <title>電網徘徊録: かくたにさんのメモ</title>
+    <link>http://diary.hatena.ne.jp/kakutani/</link>
+    <description>メモっ</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062093,00.htm">
+    <title>「ITなど重要ではない」に反論するガートナー</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062093,00.htm</link>
+    <description>栗原潔さんの興味深い発言。指摘のとおり腐った情報処理技術支出って 意外にも多そうですものね。本当に価値のあるところに 本当に価値のある情報処理適用 それがとっても重要なんですものね。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/19/njbt_02.html">
+    <title>新人アイドルを証券化、1口5万円で個人出資者募集</title>
+    <link>http://www.zdnet.co.jp/news/0311/19/njbt_02.html</link>
+    <description>なんかすごい記事です。アイドルを小口の証券化？ そんな時代も到来したものですねぇ。トークショーへの招待、のクダリが なんだか にやりとしてしまいます。</description>
+    <dc:date>2003-11-20T06:50:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/tanpatsu/32proposal/01.html">
+    <title>Webサービスを阻害するシステム開発の旧弊を絶つ</title>
+    <link>http://www.atmarkit.co.jp/fxml/tanpatsu/32proposal/01.html</link>
+    <description>私は Webサービスそのものは システム開発で よく使っています。社内システムという閉じた範囲の中での話ですけれどもね。</description>
+    <dc:date>2003-11-20T07:14:20</dc:date>
+  </item>
+  <item rdf:about="http://pc.watch.impress.co.jp/docs/2003/1119/hot290.htm">
+    <title>ようやく見えてきたPSXの実像</title>
+    <link>http://pc.watch.impress.co.jp/docs/2003/1119/hot290.htm</link>
+    <description>欲しいと思っているのであった。義理の父の家に一台を、と。</description>
+    <dc:date>2003-11-20T07:14:20</dc:date>
+  </item>
+  <item rdf:about="http://www.watch.impress.co.jp/av/docs/20031118/psx.htm">
+    <title>PSXのハイブリッドレコーダとしての性能を探る －ソニーに聞いた、PSXの長所と短所</title>
+    <link>http://www.watch.impress.co.jp/av/docs/20031118/psx.htm</link>
+    <description>ふむふむ。めもめも。</description>
+    <dc:date>2003-11-20T07:14:20</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/20/nebt_33.html">
+    <title>MS幹部、.NETの反省と意義を語る</title>
+    <link>http://www.zdnet.co.jp/news/0311/20/nebt_33.html</link>
+    <description>.NETって結構成功していると私は思いますけれどもねぇ。….NETは もとは Webサービスのようなものを狙っていたなんて、いまようやっと理解しました。</description>
+    <dc:date>2003-11-20T21:44:23</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/20/njbt_03.html">
+    <title>松下、地上デジタル放送を活用した行政サービスを実験</title>
+    <link>http://www.zdnet.co.jp/news/0311/20/njbt_03.html</link>
+    <description>e-Japanで岐阜市が関係有ったんですね。今知りました。そこでつながるのですね。</description>
+    <dc:date>2003-11-20T21:44:23</dc:date>
+  </item>
+
+</rdf:RDF>

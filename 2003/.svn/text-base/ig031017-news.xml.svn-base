@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031017.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031017.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061454,00.htm">
+    <title>日本ユニシス、企業向けLinux事業への本格参入を発表</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061454,00.htm</link>
+    <description>かなりびっくりしました。よくよく記事を読み返しました…。この記事にあるように 『ユニアデックス』がLinuxを得意としていることは知っていたのですが… グループ全体レベルで取り組んで行くことになろうとは。</description>
+    <dc:date>2003-10-17T17:21:00</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031015/2/">
+    <title>ITエンジニアの皆さん，もっと悩みを聞かせてください</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031015/2/</link>
+    <description>私(および私の所属するチーム)は 短納期開発をとても得意としています。1ヶ月未満とかのプロジェクトが 一番得意です。それを平行で動かして ぐいぐい引っ張っていくって 面白いです。世の中の傾向として短納期化が加速すれば 私たちにとっては追い風です。また 私たちは飽きっぽいので ひとたび習得した技術・知識が あっという間に陳腐化して古くさい技術になることを歓迎しています。だってすぐ飽きちゃうんだもん (笑) そんな私の感性には 今の世の中の傾向は 丁度 面白くて刺激的で とっても心地よいです。… でも 世の中の大多数の人々は それを苦痛であるように感じる場合があるのですね。勉強になります。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba14/genba14.html">
+    <title>人材紹介会社のコンサルタントが語る:“稼げる技術者”しか生き残れない</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/fgenba14/genba14.html</link>
+    <description>もんのすごく印象的な記事。コンパクトに すごく大事なことが書いてあります。読んで くらくらしました。</description>
+    <dc:date>2003-10-17T17:21:00</dc:date>
+  </item>
+
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/271816">
+    <title>「最も安全なOSはLinux」と開発者の23％が回答、米調査</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/271816</link>
+    <description>Linuxの『安全さ』認識が向上しているのだそうな。一方で Windows XPは 『安全さ』認識が低下したのだそうな。Linuxはミッションクリティカル向き との認識も大幅アップなんですって。…ここのところ Windows XP/2000系は セキュリティホールが発見されまくって みんな 嫌な思いをしたばかり というのも関係あるのでしょうか…</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NC/NEWS/20031010/1/">
+    <title>成功の秘訣はプロジェクト・マネジャの“気遣い”</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NC/NEWS/20031010/1/</link>
+    <description>ソフトウェア工学において、ヒューマンスキル系が着目される時代になってきた感じがします。良い傾向だなぁ。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://pc.watch.impress.co.jp/docs/2003/1014/pa_cphdd.htm">
+    <title>160GB HDDの価格急落で1GB単価が過去最安の67円に</title>
+    <link>http://pc.watch.impress.co.jp/docs/2003/1014/pa_cphdd.htm</link>
+    <description>良い時代になったものですねぇ。びっくりです。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061444,00.htm">
+    <title>米IBM、堅調な第3四半期決算-来期は増員も</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061444,00.htm</link>
+    <description>アメリカのIT景気は復調のきざしなのかしらん。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/16/epn13.html">
+    <title>SCO、“Linux税”請求書の発送を取りやめ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/16/epn13.html</link>
+    <description>『失敗すればSCO株はただの紙切れになる可能性も…』のクダリは妥当な解釈であるように思えます。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/10/15/646385-000.html">
+    <title>日本信号がLinuxと『Oracle9i RAC』で交通管制システムを構築</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/10/15/646385-000.html</link>
+    <description>Oracle9i RACって 信頼に足るプロダクトなのかどうか静観中…。まあ こうやってドロドロに使い込んでいけば 信頼度がUPするのでしょうけれどもね。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://slashdot.jp/article.pl?sid=03/10/16/0246225">
+    <title>OpenBSD 3.4 のCD出荷開始</title>
+    <link>http://slashdot.jp/article.pl?sid=03/10/16/0246225</link>
+    <description>*BSD系は全くもって不案内。でも 結構興味はあるのでした。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+</rdf:RDF>

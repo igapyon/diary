@@ -1,0 +1,530 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</TITLE>
+<META name="DESCRIPTION" content="シンプルなメール受信サンプルについて 試作しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] シンプルなメール受信サンプルについて 試作しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMailによるシンプルなメール受信サンプル (メール一覧)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>シンプルなメール受信サンプルについて 試作しました。メール受信は 実装が結構大変なように感じました。<BR>※このメモは <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> の仕様検討に該当します。</P>
+<P>最初にメール一覧取得処理を作成しました。(このサンプルではメール本文は読んでいません)</P>
+<P>このAPI利用範囲では POP3の RETRコマンドは送出されません。これは デバッグトレースにて確認しました。RETRコマンドは どうしても必要になるまでは呼ばれない実装になっているようです。これは嬉しいことです。</P>
+<P><FONT color="#ff0000">※注意: このサンプルを実行すると、メールサーバの種類および設定によってはメールサーバ上のメールが削除されてしまう場合があります！</FONT><BR>
+gmailにおいて 特定の設定のもと このサンプルをベースにしたものを動作させると DELETEフラグを立てていないのにもかかわらずサーバ上のメールが削除される現象を確認しました。おそらく
+POP3 のRETRコマンドを呼び出すと メールが削除される、という現象だとは思います。(このサンプルでは RETRは呼び出さないようなのですが、このサンプルをベースに変更して動作させると
+RETRが呼び出される場合があります) 同様の事象は 他のメールサーバ環境でも発生しうると考え、この注意書きを示しておきます。ただし 正しいメールサーバの実装としては、DELETEによってのみメールが削除されるというのが正しい動きだと私は考えています。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleRecvMail.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.util.Properties;
+
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.NoSuchProviderException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.Message.RecipientType;
+import javax.mail.internet.InternetAddress;
+
+/**
+ * シンプルなメール受信サンプル。
+ */
+public class SimpleRecvMail {
+    public static void main(final String[] args) {
+        System.out.println(&quot;メール受信: 開始&quot;);
+
+        new SimpleRecvMail().process();
+
+        System.out.println(&quot;メール受信: 終了&quot;);
+    }
+
+    public void process() {
+        final Properties props = new Properties();
+
+        // 基本情報。ここでは gmailへの接続例を示します。
+        props.setProperty(&quot;mail.pop3.host&quot;, &quot;pop.gmail.com&quot;);
+        props.setProperty(&quot;mail.pop3.port&quot;, &quot;995&quot;);
+
+        // タイムアウト設定
+        props.setProperty(&quot;mail.pop3.connectiontimeout&quot;, &quot;60000&quot;);
+        props.setProperty(&quot;mail.pop3.timeout&quot;, &quot;60000&quot;);
+
+        // SSL関連設定
+        props.setProperty(&quot;mail.pop3.socketFactory.class&quot;, &quot;javax.net.ssl.SSLSocketFactory&quot;);
+        props.setProperty(&quot;mail.pop3.socketFactory.fallback&quot;, &quot;false&quot;);
+        props.setProperty(&quot;mail.pop3.socketFactory.port&quot;, &quot;995&quot;);
+
+        final Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(&quot;受信者○○○@gmail.com&quot;, &quot;password&quot;);
+            }
+        });
+
+        // デバッグを行います。標準出力にトレースが出ます。
+        session.setDebug(true);
+
+        Store store = null;
+        try {
+            try {
+                store = session.getStore(&quot;pop3&quot;);
+            } catch (NoSuchProviderException e) {
+                System.out.println(&quot;メール受信: 指定プロバイダ[pop3]の取得に失敗しました。&quot;
+                        + e.toString());
+                return;
+            }
+
+            try {
+                store.connect();
+            } catch (AuthenticationFailedException e) {
+                System.out.println(&quot;メール受信: サーバ接続時に認証に失敗しました。&quot; + e.toString());
+                return;
+            } catch (MessagingException e) {
+                System.out.println(&quot;メール受信: サーバ接続に失敗しました。&quot; + e.toString());
+                return;
+            }
+
+            Folder folder = null;
+            try {
+                try {
+                    // INBOXは予約語です。
+                    folder = store.getFolder(&quot;INBOX&quot;);
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: INBOXフォルダ取得に失敗しました。&quot;
+                            + e.toString());
+                    return;
+                }
+                try {
+                    folder.open(Folder.READ_ONLY);
+                } catch (MessagingException e) {
+                    System.out
+                            .println(&quot;メール受信: フォルダオープンに失敗しました。&quot; + e.toString());
+                    return;
+                }
+
+                // メッセージ一覧を取得
+                try {
+                    final Message messages[] = folder.getMessages();
+                    for (int index = 0; index &lt; messages.length; index++) {
+                        final Message message = messages[index];
+
+                        // このAPI利用範囲であれば TOPコマンド止まりで、RETRコマンドは送出されない。
+
+                        System.out.println(&quot;Subject: &quot; + message.getSubject());
+                        System.out.println(&quot;  Date: &quot; + message.getSentDate().toString());
+
+                        // TODO 0番目の配列アクセスをおこなっている点に注意。
+                        final InternetAddress addrFrom = (InternetAddress) message.getFrom()[0];
+                        System.out.println(&quot;  From: &quot; + addrFrom.getAddress());
+                        // MimeUtility.decodeText(addrFrom.getPersonal())
+
+                        // To: を表示。
+                        final Address[] addrsTo = message
+                                .getRecipients(RecipientType.TO);
+                        for (int loop = 0; loop &lt; addrsTo.length; loop++) {
+                            final InternetAddress addrTo = (InternetAddress) addrsTo[loop];
+                            System.out.println(&quot;  To: &quot; + addrTo.getAddress());
+                        }
+
+                        // Cc:は割愛
+
+                        // なお、例えば message.getContentを呼び出すと RETRコマンドが送出される。
+                    }
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: メッセージ取得に失敗しました。&quot; + e.toString());
+                    return;
+                }
+            } finally {
+                if (folder != null) {
+                    try {
+                        folder.close(false);
+                    } catch (MessagingException e) {
+                        System.out.println(&quot;メール受信: フォルダクローズに失敗しました。&quot;
+                                + e.toString());
+                    }
+                }
+            }
+        } finally {
+            if (store != null) {
+                try {
+                    store.close();
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: サーバ切断に失敗しました。&quot; + e.toString());
+                }
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">アイデアメモ</FONT></P>
+<UL>
+  <LI>メールの Subjectをもとに、自動処理すべきメールかどうかを判断する方法が考えられます。
+  <UL>
+    <LI>例: [blanco] という文字が Subjectに入っていれば処理を行う。
+  </UL>
+  <LI>メールの Fromをもとに、自動処理すべきメールかどうかを判断する方法が考えられます。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070904.html">2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMailによるメール読み込みサンプル (メール削除を含む！)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>次に メールの内容を読み込む＋読んだメールを削除するサンプルを作成しました。<BR>
+なお、このサンプルは、メール削除の処理が含まれています。サンプル実行に際しては、メールが削除されるという点を予め理解してください。意味が分からない場合には、このサンプルは実行しないでください。</P>
+<P><FONT color="#ff0000">※注意: このサンプルを実行すると、メールサーバ上のメールが削除されます！</FONT><BR>
+明示的に DELETEフラグをセットしています。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleRecvMail.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.IOException;
+import java.util.Properties;
+
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.Flags;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.NoSuchProviderException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.Message.RecipientType;
+import javax.mail.internet.InternetAddress;
+
+/**
+ * 本文も読むメール受信サンプル。
+ * 
+ * 注意: このサンプルを実行すると、メールサーバ上のメールが削除されます！
+ */
+public class SimpleRecvMail {
+    public static void main(final String[] args) {
+        System.out.println(&quot;メール受信: 開始&quot;);
+
+        new SimpleRecvMail().process();
+
+        System.out.println(&quot;メール受信: 終了&quot;);
+    }
+
+    public void process() {
+        final Properties props = new Properties();
+
+        // 基本情報。ここでは gmailへの接続例を示します。
+        props.setProperty(&quot;mail.pop3.host&quot;, &quot;pop.gmail.com&quot;);
+        props.setProperty(&quot;mail.pop3.port&quot;, &quot;995&quot;);
+
+        // タイムアウト設定
+        props.setProperty(&quot;mail.pop3.connectiontimeout&quot;, &quot;60000&quot;);
+        props.setProperty(&quot;mail.pop3.timeout&quot;, &quot;60000&quot;);
+
+        // SSL関連設定
+        props.setProperty(&quot;mail.pop3.socketFactory.class&quot;, &quot;javax.net.ssl.SSLSocketFactory&quot;);
+        props.setProperty(&quot;mail.pop3.socketFactory.fallback&quot;, &quot;false&quot;);
+        props.setProperty(&quot;mail.pop3.socketFactory.port&quot;, &quot;995&quot;);
+
+        final Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(&quot;受信者○○○@gmail.com&quot;, &quot;password&quot;);
+            }
+        });
+
+        // デバッグを行います。標準出力にトレースが出ます。
+        session.setDebug(true);
+
+        Store store = null;
+        try {
+            try {
+                store = session.getStore(&quot;pop3&quot;);
+            } catch (NoSuchProviderException e) {
+                System.out.println(&quot;メール受信: 指定プロバイダ[pop3]の取得に失敗しました。&quot;
+                        + e.toString());
+                return;
+            }
+
+            try {
+                store.connect();
+            } catch (AuthenticationFailedException e) {
+                System.out.println(&quot;メール受信: サーバ接続時に認証に失敗しました。&quot; + e.toString());
+                return;
+            } catch (MessagingException e) {
+                System.out.println(&quot;メール受信: サーバ接続に失敗しました。&quot; + e.toString());
+                return;
+            }
+
+            Folder folder = null;
+            try {
+                try {
+                    // INBOXは予約語です。
+                    folder = store.getFolder(&quot;INBOX&quot;);
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: INBOXフォルダ取得に失敗しました。&quot;
+                            + e.toString());
+                    return;
+                }
+                try {
+                    // 読み書きモードでオープン
+                    folder.open(Folder.READ_WRITE);
+                } catch (MessagingException e) {
+                    System.out
+                            .println(&quot;メール受信: フォルダオープンに失敗しました。&quot; + e.toString());
+                    return;
+                }
+
+                // メッセージ一覧を取得
+                try {
+                    final Message messages[] = folder.getMessages();
+                    for (int index = 0; index &lt; messages.length; index++) {
+                        final Message message = messages[index];
+
+                        // このAPI利用範囲であれば TOPコマンド止まりで、RETRコマンドは送出されない。
+
+                        System.out.println(&quot;Subject: &quot; + message.getSubject());
+                        System.out.println(&quot;  Date: &quot;
+                                + message.getSentDate().toString());
+
+                        // TODO 0番目の配列アクセスをおこなっている点に注意。
+                        final InternetAddress addrFrom = (InternetAddress) message.getFrom()[0];
+                        System.out.println(&quot;  From: &quot; + addrFrom.getAddress());
+                        // MimeUtility.decodeText(addrFrom.getPersonal())
+
+                        // To: を表示。
+                        final Address[] addrsTo = message.getRecipients(RecipientType.TO);
+                        for (int loop = 0; loop &lt; addrsTo.length; loop++) {
+                            final InternetAddress addrTo = (InternetAddress) addrsTo[loop];
+                            System.out.println(&quot;  To: &quot; + addrTo.getAddress());
+                        }
+
+                        // Cc:は割愛
+
+                        try {
+                            // RETRコマンドを送出
+                            System.out.println(message.getContent());
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        // 読み込んだメールについては削除マークします。
+                        // ※これで読み込み済みメールが削除されます。
+                        message.setFlag(Flags.Flag.DELETED, true);
+                    }
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: メッセージ取得に失敗しました。&quot; + e.toString());
+                    return;
+                }
+            } finally {
+                if (folder != null) {
+                    try {
+                        // 削除マークされたメールを実際に削除
+                        folder.close(true);
+                    } catch (MessagingException e) {
+                        System.out.println(&quot;メール受信: フォルダクローズに失敗しました。&quot;
+                                + e.toString());
+                    }
+                }
+            }
+        } finally {
+            if (store != null) {
+                try {
+                    store.close();
+                } catch (MessagingException e) {
+                    System.out.println(&quot;メール受信: サーバ切断に失敗しました。&quot; + e.toString());
+                }
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>添付ファイル付きメール受信サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>添付ファイル付きのメール受信サンプルを作成しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">変更点のみ</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import java.io.IOException;
+import java.util.Properties;
+
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.NoSuchProviderException;
+import javax.mail.Part;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.Message.RecipientType;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeUtility;
+
+…中略…
+
+                        // 変更点: 開始
+                        // なお、message.getContentを呼び出すので、結果的に RETRコマンドが送出される。
+                        try {
+                            final Object objContent = message.getContent();
+                            if (objContent instanceof Multipart) {
+                                final Multipart multiPart = (Multipart) objContent;
+                                for (int indexPart = 0; indexPart &lt; multiPart.getCount(); indexPart++) {
+                                    final Part part = multiPart.getBodyPart(indexPart);
+                                    final String disposition = part.getDisposition();
+                                    if (Part.ATTACHMENT.equals(disposition)
+                                            || Part.INLINE.equals(disposition)) {
+                                        System.out.println(&quot;添付ファイル: ファイル名[&quot;
+                                                + MimeUtility.decodeText(part
+                                                        .getFileName()) + &quot;]&quot;);
+                                        // 本当はここでストリーム読み込み処理を行う。
+                                        // part.getInputStream();
+                                    } else {
+                                        System.out.println(&quot;メール本文(添付ファイル付) [&quot;
+                                                + part.getContent().toString()
+                                                + &quot;]&quot;);
+                                    }
+                                }
+                            } else {
+                                System.out.println(&quot;メール本文[&quot; + objContent.toString() + &quot;]&quot;);
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        // 変更点: 終了</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※このソースコードの差分は、受信後削除をおこなわない版 (最初に掲載した方) のソースコードに組み込んで 簡単な動作確認を行いました。</BLOCKQUOTE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A>的に考えると、添付ファイルの処理まで含めた最適解としては、一度の処理では ひとつのメールしか受信できないように仕様のしばりを加えておいたほうが安全かなぁ、などと考えています。(トランザクション粒度)</P>
+<P>ふう、、、それにしても メール受信は 結構手間がかかり 面倒ですね…。様々な環境から送られてくるメールをもって試験をしないと 妥当性が確認取れないと考えます。</P>
+<P><FONT color="#ff00ff">気になる点 (TODO)</FONT></P>
+<UL>
+  <LI>HTMLメールを受信した際の試験は実施していません。<BR>
+  MimeBodyPart.isMimeType(&quot;text/plain&quot;) が falseの時に、添付ファイル<STRONG>ではない</STRONG> image/gif, text/html が存在するとのことです。
+</UL>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>OSシェア、LinuxとWindows 98が並ぶ<BR>
+  <A HREF="http://www.atmarkit.co.jp/news/200709/04/os.html">http://www.atmarkit.co.jp/news/200709/04/os.html</A><BR>
+  リリースされたばかりの Vistaのシェアが意外に高いように感じました。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

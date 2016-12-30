@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/03/07 日記: 「Eclipse指向Javaプログラム設計」というパラダイムシフト</TITLE>
+<META name="DESCRIPTION" content="Eclipseが十分に普及してデファクトになっていくと、新時代は「Eclipse指向Javaプログラム設計」というパラダイムシフトが訪れると考えます。 , 結局 土・日は出勤して結合試験を実施しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/03/07 日記: 「Eclipse指向Javaプログラム設計」というパラダイムシフト</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Eclipseが十分に普及してデファクトになっていくと、新時代は「Eclipse指向Javaプログラム設計」というパラダイムシフトが訪れると考えます。 , 結局 土・日は出勤して結合試験を実施しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>「Eclipse指向Javaプログラム設計」というパラダイムシフトの発生</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipseが十分に普及してデファクトスタンダードになってきました。Eclipse 3.0.xになって、様々な操作性も向上してきました。そうすると、今までは想像もできなかったパラダイムシフトが発生すると私は考えます。言うならば
+「Eclipse指向Javaプログラム設計」というパラダイムシフトです。</P>
+<P>Eclipseが十分に普及すると このフィクションのようなパラダイムシフトは実際に発生すると考えます。重要なのは、未来において この日記を振り返り「これって普通のことだよね」と思えたとしても、現時点で「Eclipse指向Javaプログラム設計」というのを提唱するのは、突拍子もないアイデアであるように考えられるという点です。</P>
+<P><FONT color="#ff0000">2005.03.28追記</FONT> なんと Eclipse指向という用語そのものは新語ではありませんでした。これには結構 驚きました。まあ、さすがに Eclipse指向パラダイムとか
+Eclipse指向設計、そしてその英文については、まだ世間的には新語ではある模様です。</P>
+<UL>
+  <LI>ITmedia エンタープライズ：IBM、DB2にEclipse指向ツール<BR>
+  <A HREF="http://www.itmedia.co.jp/enterprise/0401/30/epc04.html">http://www.itmedia.co.jp/enterprise/0401/30/epc04.html</A>
+</UL>
+<P>原文の方には、「The Eclipse-oriented tools」との一文がありました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse指向Javaプログラム設計</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>エンドユーザが基本的に Eclipseを使うという前提を加えると、Javaプログラム設計は 今までとは異なるアプローチで行う必要があります。設計を
+Eclipse指向に行っていく必要があります。</P>
+<UL>
+  <LI>コード自動補完やインポート文の自動編成のために、他パッケージ内のクラス名とは衝突させないようにします。
+  <LI>業務クラス名には パッケージ名の一部をそのままクラス名の先頭に利用します。<BR>
+  一方でユーティリティ系クラスなどは、普通のJavaクラス命名を行う。
+  <LI>コード自動補完が適切に動作するように、クラス名は意味を持ってソートできるようにする。(コード付けとか命名の過程で、構造化を適切に行っておく)
+  <LI>Eclipseが適切に動作する単位を見極めてモジュール分割を行います。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse指向Javaプログラム標準 - コーディング規約編</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaコーディング規約も、Eclipseに適した物に変えていかなくてはなりません。</P>
+<UL>
+  <LI>コーディングスタイルは Eclipseのデフォルトのものを利用します<BR>
+  Eclipse 3.0では パッケージのルートを選択して コードフォーマッタを行うことが出来ます。原則 Eclipseのコードフォーマッタを用いて
+  Javaソースコードのコード整形を行いましょう。Eclipseのコードフォーマッタは デフォルトでSunのコーディング規約をベースとしたものになっています。これを<STRONG>そのまま</STRONG>利用しましょう。なぜなら、それが<STRONG>Eclipseのデフォルト設定だから</STRONG>です。
+  <LI>JavaDocは適切に記述します<BR>
+  なぜなら JavaDocとして書いた情報が<STRONG>Eclipseのツールチップに表示されるから</STRONG>です。
+  <LI>TODOなどを有効活用します<BR>
+  なぜならTODOなどは <STRONG>Eclipseにデフォルト設定されていてEclipseのタスクに表示されるから</STRONG>です。
+  <LI>import文の並びは Eclipseのimport自動編成に委ねます。<BR>
+  必ず <STRONG>Eclipseにデフォルト設定のimport自動編成順序</STRONG>を選択します。
+  <LI>アウトライン表示ですぐに理解できるようなクラス構造にします。アウトライン表示で すぐには意味がわからないクラスはリファクタリングが必要です。当然ですが、<STRONG>リファクタリングは Eclipseの機能を利用</STRONG>して実施します。
+  <LI>Eclipseに対応したコーディング規約チェックプラグインの導入を検討することも良いでしょう。ただしプラグインを多くインストールすると Eclipseの操作感が悪化するおそれがあります。適度に、そして適量のチェック用プラグインを選定します。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>結局 この土・日も出勤でした</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>白兵戦になってしまいました。効率化をもっと工夫しないといけませんね。反省です。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

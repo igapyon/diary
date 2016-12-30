@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/03/31 日記: blancoCsv 0.4.0 最新安定版リリース</TITLE>
+<META name="DESCRIPTION" content="ファイル定義書(CSV)というXLSファイル形式のメタファイルを入力して Java / C#.NETソースコードの自動生成を行う blancoCsvの最新安定版 0.4.0をリリースしました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/03/31 日記: blancoCsv 0.4.0 最新安定版リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ファイル定義書(CSV)というXLSファイル形式のメタファイルを入力して Java / C#.NETソースコードの自動生成を行う blancoCsvの最新安定版 0.4.0をリリースしました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoCsv 0.4.0 最新安定版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>XLSファイル形式の「ファイル定義書(CSV)」というメタファイルを入力して Java / C#.NETソースコードの自動生成を行う <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>
+最新安定版 0.4.0をリリースしました。</P>
+<P>blancoCsvは <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の構成要素の一つとなります。CSVファイル入出力は 地味な機能なのですけれども、現実的には手間が結構かかり、その上
+バグの混入しやすいところの一つです。<A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>を使うと Excelなどを利用して XLSファイル形式の「ファイル定義書(CSV)」を入力していくだけで、必要最低限なチェック機能を持ち合わせた
+Java / C#.NET ソースコードを自動生成することが出来るようになります。ソースコードの自動生成というアプローチゆえに、バグは混入しにくい上に
+ドキュメントとソースコードの機械的な一致を簡単に実現することが出来ます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoFixedLength 開発着手</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。">blancoCsv</A>の安定版リリースが実現できたので、次は「ファイル定義書(固定長)」を処理することが出来る blancoFixedLengthの開発に着手しました。ヒトミ先輩がやってきて、「固定長ファイルはどうなった？」とのツッコミを頂き、あわてて開発し始めた格好です。着手したとはいっても、ほんの2時間弱をかけることができただけの状態でして、まだ不足機能がたくさんあります。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

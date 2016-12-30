@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/05/27 日記: Pleiades 既存訳を翻訳メモリとして利用する方法 - 翻訳ブレイン版</TITLE>
+<META name="DESCRIPTION" content="Pleiades、Eclipse Babel Project、そして blancoNLpackGenerator では Eclipse 関連の日本語翻訳作業をおこなっています。この日本語訳作成の際の作業効率を効果的に向上する Pleiades翻訳メモリ活用方法を紹介します。">
+<META name="KEYWORDS" content="翻訳メモリ,TMX,Pleiades,Eclipse,Babel">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/05/27 日記: Pleiades 既存訳を翻訳メモリとして利用する方法 - 翻訳ブレイン版</H2>
+    <P>[翻訳メモリ,TMX,Pleiades,Eclipse,Babel] Pleiades、Eclipse Babel Project、そして blancoNLpackGenerator では Eclipse 関連の日本語翻訳作業をおこなっています。この日本語訳作成の際の作業効率を効果的に向上する Pleiades翻訳メモリ活用方法を紹介します。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Pleiades 既存訳を翻訳メモリとして利用する方法 - 翻訳ブレイン版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>、Eclipse Babel Project、そして blancoNLpackGenerator
+では Eclipse 関連の日本語翻訳作業をおこなっています。この日本語訳作成の際の作業効率を効果的に向上する <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>翻訳メモリ活用方法を紹介します。これは
+Pleiades の既存訳を簡単に参照することにより、翻訳揺れを防ぎ、また生産性を向上する とても良い方法と考えます。</P>
+<P><FONT color="#ff00ff">Pleiades翻訳メモリの準備</FONT></P>
+<P>ここでは 翻訳ブレインという商用アプリケーションを使った 翻訳メモリ活用例を示します。<BR>
+※翻訳ブレインには２系統の商品がありますが、翻訳メモリ機能の付いた 値段の高い方を利用する必要があります。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A>のページから <A href="http://www.igapyon.jp/blanco/blanconlpackgenerator.html#tmx">Pleiades翻訳メモリ・データ</A> (UTF-16版) をダウンロードします。そして、このファイルを解凍します。</P>
+<P>翻訳ブレイン の 翻訳エディタ を起動し、翻訳メモリ -&gt; 設定 を選択します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup001.png" border="0"></BLOCKQUOTE>
+<P>「翻訳メモリ 設定」ダイアログの「追加」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup002.png" border="0"></BLOCKQUOTE>
+<P>ファイル名に pleiades.ty2 という名称を入力して「開く」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup003.png" border="0"></BLOCKQUOTE>
+<P>ファイル新規作成の確認メッセージが表示されるので「はい」を押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup004.png" border="0"></BLOCKQUOTE>
+<P>名称には「Pleiades翻訳メモリ」と入力します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup005.png" border="0"></BLOCKQUOTE>
+<P>Pleiades翻訳メモリ が追加されたことを確認して「設定」を押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup006.png" border="0"></BLOCKQUOTE>
+<P>続いて、TMXデータを読み込みます。<BR>
+翻訳メモリ -&gt; インポート を選択します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup011.png" border="0"></BLOCKQUOTE>
+<P>インポート元 の「ファイル指定」ボタンを押します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup012.png" border="0"></BLOCKQUOTE>
+<P>「ファイルを開く」ダイアログが開くので Pleiades翻訳メモリデータ (UTF-16版) のファイルである「pleiades.translation.utf16.tmx」を選択します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup013.png" border="0"></BLOCKQUOTE>
+<P>インポート先 の「ファイル指定」ボタンを押し、「ファイルを開く」ダイアログが開くので pleiades.ty2 を選択します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup014.png" border="0"></BLOCKQUOTE>
+<P>「OK」を押すとインポートが開始されます。進捗が終わるまでしばらく待ちます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup015.png" border="0"></BLOCKQUOTE>
+<P>インポートが成功すると インポート件数が表示されます。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup016.png" border="0"></BLOCKQUOTE>
+<P>インポートが完了したので終了ボタンをおして画面を終了します。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmSetup017.png" border="0"></BLOCKQUOTE>
+<P><FONT color="#ff00ff">Pleiades翻訳メモリの活用</FONT></P>
+<P>翻訳ブレインでは 以下のように 翻訳メモリペインに 検索したい文字列を入力して ENTER を押すと キーワード検索をおこなうことができます。</P>
+<P>翻訳メモリの検索結果を活用し、新規翻訳などの際に 既存訳になるべく寄せた翻訳を実現することができるようになります。</P>
+<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20080527TmUse001.png" border="0"></BLOCKQUOTE>
+<P><BR>
+</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/06/29 日記: P携線4を使い始めました</TITLE>
+<META name="DESCRIPTION" content="P携線4をゲットしました。使い始めました。 , MIDIにも興味が出てきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>P携線4を使い始めました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.tdk.co.jp/tjbbi01/bbi11500.htm">P携線4</A>をゲットしました。(どうもありがとうございます) これを使い始めました。<BR>
+H&quot;ケーブル付属版は 衝撃的なピンク色のパッケージです。私は Windows
+XP Pro なので、まず <A href="http://www.tdk.co.jp/tjbbi01/bbi11500.htm">P携線4</A>のCD-ROMからインストール直後に TDKサイトからパッチをダウンロードして適用しました。</P>
+<P>USBケーブルをつないだら そのまんま自動認識してくれました。唯一不思議だったのは
+COMポート番号を調べて それをセットするという点です。(それはマニュアルに記載ありました)</P>
+<P>さて 電話帳を読み込んだら、難なく読み込めました。ちまちま電話機で入力していたのが、パソコン上からだったら
+簡単に入力できますものね。<BR>
+さっそく読み込んだ電話機のアドレス帳をパソコン上にバックアップしました。電話機上のアドレス帳って
+ものすごく重要ですから。バックアップ目的だけでも、このソフトを持っている価値がありますね。<BR>
+このアドレス帳がPalmと連携できれば 更に便利です。(実現可能かどうかは未調査。Outlook経由か何かで
+うまく行けそうな気もしますし、他の方法もありそうです)</P>
+<P>着信メロディも編集できる模様です。単純にMIDI編集ソフトも付いていて これも私にはとっても便利でした。(MIDIからH&quot;形式への変換ツールは
+DDIポケットからダウンロードしました。) ああっ、どんどん<A href="http://www.tdk.co.jp/tjbbi01/bbi11500.htm">P携線4</A>にハマっていきそうな予感です (笑) で 早速インターネット上のMIDIフリー素材をダウンロードして
+H&quot;の待ち受けサウンドに登録作業中。これは面白い！</P>
+<P>私は H&quot;ユーザなのですが、こういうマイナーな携帯型電話機にも対応してくれていて、とっても助かります。また
+<A href="http://www.tdk.co.jp/tjbbi01/bbi11500.htm">P携線4</A>のように、沢山のキャリアに対応したソフトがあると、キャリアの変更が行いやすくなって便利そうですね。(でも私は当分
+H&quot;を使い続けることでしょうけれどもね)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MIDIに興味が出てくる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>そして今度は クラシックMIDIへと興味が移っていくのであった。もちろん電話機の着信メロディに設定するのが目的です。</P>
+<UL>
+  <LI>MIDI クラシック音楽フォーラム FMIDICLA<BR>
+  [replace-href:http://www.nifty.ne.jp/forum/fmidicla/]<BR>
+  なんと NiftyにMIDIクラシックフォーラムがありました。このサイト、レベル高かったです。やっぱり基本はパソコン通信だねって
+  謎の納得をしました。
+</UL>
+<P>エレクトリックピアノ2やエレクトリックピアノ3 の音質が 私の H&quot; 端末において
+好みの音が出ます。</P>
+<P><FONT color="#ff0000">2002.07.04</FONT> その後 私のH&quot;端末は MIDIデータが直接再生できるということが判明しました。これはラッキー。ただし、ある程度 再生可能なMIDIの形式は限定されているようです。<A href="http://www.tdk.co.jp/tjbbi01/bbi11500.htm">P携線4</A>のMIDIエディタを通した後なら、そのまんま私のH&quot;端末で再生できる模様です。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020629-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

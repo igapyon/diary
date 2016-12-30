@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/11/04 日記: EclipseプラグインからEclipseにログ出力をおこなうためのAPI , 時間の流れの感じ方</TITLE>
+<META name="DESCRIPTION" content="疲れているときは、時間の流れが速く感じられます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/11/04 日記: EclipseプラグインからEclipseにログ出力をおこなうためのAPI , 時間の流れの感じ方</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 疲れているときは、時間の流れが速く感じられます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>EclipseプラグインからEclipseへログ出力をおこなうためのAPI</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>EclipseプラグインからEclipseにログ出力をおこなうためのAPIが必要だったので検索して見つけました。dWに すばらしい記事がありました。</P>
+<UL>
+  <LI><A HREF="http://www-06.ibm.com/jp/developerworks/opensource/041022/j_os-eclog.html">http://www-06.ibm.com/jp/developerworks/opensource/041022/j_os-eclog.html</A>
+</UL>
+<P>素晴らしい記事を提供いただき とても助かります。</P>
+<P>ログの書き出しは、主に下記のようになります。</P>
+<UL>
+  <LI>getDefault().getPlugin().getLog().log(new Status())
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseプラグイン: Subclipse (SVNクライアント)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Subclipseを久しぶりに利用しました。Eclipse 3.1.1上で動作させました。</P>
+<UL>
+  <LI>Subclipse Eclipse plugin: subclipse.tigris.org<BR>
+  <A HREF="http://subclipse.tigris.org/">http://subclipse.tigris.org/</A>
+  <UL>
+    <LI><A HREF="http://subclipse.tigris.org/update">http://subclipse.tigris.org/update</A>
+  </UL>
+</UL>
+<P>以前に比べ、かなり安定感が向上しているように感じました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>時間の流れの感じ方</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>疲れているときは、時間の流れが速く感じられます。いっぽう、体調が復調してくると、「悠久の時の流れ」が感じられます。3分とか5分とかが、とても長く、しかし充実して感じられます。時間の流れが速く感じられたり、時間の流れを感じない時とかは私の場合は体調を崩しているのかしら、と思う今日この頃。</P>
+<P>睡眠を取るときに、倒れ込むように眠るのと、時間の流れを感じながら だけれども寝るととでも、随分睡眠の質が違うようにも感じられます。このことも関係があるように勝手に考えています。</P>
+<P>脳のシナプス・サイクルみたいなのが、ある程度 自律神経系に割り振られないと、体調維持が出来なくなるのかなぁ、などと勝手に想像・妄想してます。(全く科学的な実証や理論に基づいていません。勝手に想像しているだけです)
+とにかく　疲れすぎるのは避けたいと思いました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

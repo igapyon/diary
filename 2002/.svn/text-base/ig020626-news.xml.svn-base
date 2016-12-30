@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020626.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020626.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-26T17:10:23</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/06/24/636754-000.html">
+    <title>シャープ、Linux搭載の新ザウルスを発表――MI-Eシリーズとは異なる新コンセプトPDA</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/06/24/636754-000.html</link>
+    <description>Outlookはさておき PalmDesktopとデータ連携できるとの記載には興味津々。ああ 欲しいけれど 先立つものがありませんね (笑)</description>
+    <dc:date>2002-06-26T17:35:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/26/njbt_13.html">
+    <title>「2ちゃんねる」に400万円賠償命令</title>
+    <link>http://www.zdnet.co.jp/news/0206/26/njbt_13.html</link>
+    <description>匿名ネット掲示板の発言に削除に関する判例。匿名ネット掲示板の内容に関する国内での判例について、私は初めて耳にしました。</description>
+    <dc:date>2002-06-26T21:34:45</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/26/njbt_01.html">
+    <title>件名に「未承諾広告※」表示を義務化　経産省</title>
+    <link>http://www.zdnet.co.jp/news/0206/26/njbt_01.html</link>
+    <description>難しい問題だけに難しいですね。何にせよスパムが無くなれば私は嬉しいです。(ただし私が困っているのは海外からのスパムが主体だからなあ)</description>
+    <dc:date>2002-06-26T17:35:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/26/njbt_12.html">
+    <title>DELETERから6800円の漫画制作ソフト</title>
+    <link>http://www.zdnet.co.jp/news/0206/26/njbt_12.html</link>
+    <description>この漫画制作ソフトが、妙に気になりました。</description>
+    <dc:date>2002-06-26T21:34:45</dc:date>
+  </item>
+
+</rdf:RDF>

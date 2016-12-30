@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031017.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031017.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-17</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.mozilla.org/releases/index.html">
+    <title>Mozilla 1.5 リリース</title>
+    <link>http://www.mozilla.org/releases/index.html</link>
+    <description>新アーキテクチャーベースのMozilla 1.5がリリースです。アーキテクチャー変更ゆえの 2ヶ月遅れという感じでしょうか。とにかく 刺激を求める初ものマニアな方々は 早速試して遊んでいることでしょう。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hyuki.com/cr/index.html">
+    <title>『暗号技術入門 -- 秘密の国のアリス』</title>
+    <link>http://www.hyuki.com/cr/index.html</link>
+    <description>発売開始早々『早くも増刷』とのこと。結城浩さん、とてもおめでとうございます。</description>
+    <dc:date>2003-10-17T09:42:15</dc:date>
+  </item>
+
+</rdf:RDF>

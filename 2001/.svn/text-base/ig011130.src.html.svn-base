@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/11/30 日記: 少しずつWindows XPに馴染みつつ…</TITLE>
+<META name="DESCRIPTION" content="なんだかんだ言いながら 少しずつ Windows XP Pro に馴染み始めました。難を言えば 手持ちのCD-R書き込みソフトが利用不可能である事くらいでしょうか。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP に コーヒーカップが…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows XP の壁紙の中に 「コーヒーカップ」っていうのがあるのですが、なんか
+どうしても Javaの世界のコーヒーカップロゴに似ています。う～ん。これは…
+(苦笑)</P>
+<P>Matrox G400 の ディスプレイドライバは Windows XP が自動認識するのだけれども、これはさておき
+Matroxサイトから最新版ドライバをダウンロード＆ゲット。いくつかのバグフィックスがリストアップされていて、これはバージョンアップしておいた方が良いかと思いました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XP の無限ループ原因は HotSyncマネージャ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Windows XP の Systemが無限ループして困っていたのですが、これは WorkPad版
+Palm DesktopのHotSyncマネージャを起動している時のみ発生することがわかりました。さて、困ったものですが、原因が分かりほっとしました。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig011130-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

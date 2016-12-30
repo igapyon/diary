@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/09/28 日記: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</TITLE>
+<META name="DESCRIPTION" content="JExcelApi 2.6 が特定な条件下において、× などの特定の文字を適切に処理できません。この問題を解決させるためのパッチをあてたjarファイルをつくりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,JExcelApi,日本語化,パッチ">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/09/28 日記: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,JExcelApi,日本語化,パッチ] JExcelApi 2.6 が特定な条件下において、× などの特定の文字を適切に処理できません。この問題を解決させるためのパッチをあてたjarファイルをつくりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> 2.6 が特定な条件下において、× などの特定の文字を適切に処理できません。この問題を解決させるためのパッチをあてたjarファイルをつくりました。</P>
+<UL>
+  <LI>パッチ作成手順<BR>
+  <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc</A>
+</UL>
+<P>そのセルに２バイト文字(という表現が適切かどうかはビミョウですけれども) が1文字だけ含まれていて、しかもその文字が特定条件に合致する場合に文字化けするという現象に対するパッチです。詳細は上記の「パッチ作成手順」に記述してあります。<BR>
+さしあたり、パッチ適用版 (日本語化パッチ適用後の JExcelApi 2.6)は <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>などに同梱開始しています。</P>
+<P>今回のパッチによって、JExcelApi 2.6における既知の読込時における日本語関連の不具合は全て解消されたと考えます。<BR>
+私の知る限りでは…ですけれども。望む 望まざるにかかわらず、JExcelApiに詳しくなってきました (苦笑)</P>
+<P>このjarファイルは <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のために作成しているものです。しかし それに加えて JExcelApi
+2.6の日本語化バージョンとしても存在意義があるのではないかと想像します。また、一方で <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>メーリングリストに働きかけ、このパッチを次期版に正式に取り込んでもらえるような努力も実施する予定です。</P>
+<P><FONT color="#ff0000">2006.10.29追記</FONT>: JExcelApiが×などを適切に扱うことが出来ない件は、JExcelApiを変更せずとも (本質的ではないのだが) うまい回避策が見つかりました。とりあえず
+その対応方法にて回避し続ける方向性とします。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060724.html">2006/07/24 日記: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkの他プロダクトに横展開しなくては…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>さて、JExcelApi 2.6の日本語関連不具合解消版について、他の <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>プロダクト群にも横展開する必要があります。行き渡るのには数ヶ月程度が必要であると予測しています。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

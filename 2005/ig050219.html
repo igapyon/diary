@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/19 日記: 「トイプログラム・デザインパターン」というものは存在するのかしら？</TITLE>
+<META name="DESCRIPTION" content="トイプログラムにもデザインパターンがあるのではないかと、ふと考えました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/19 日記: 「トイプログラム・デザインパターン」というものは存在するのかしら？</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] トイプログラムにもデザインパターンがあるのではないかと、ふと考えました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>トイプログラム・デザインパターン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は日頃 <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>を書いて、未知のプロダクトやAPIの検証を行うことが多いです。ふと トイプログラムにもパターンがあるように感じました。いわば「トイプログラム・デザインパターン(Java言語用)」です。(そういうものが既に存在するのかどうかは私は知りません)</P>
+<UL>
+  <LI>main メソッドだけで完結すること<BR>
+  極力メソッドは利用しません。メソッドを作成するとしても staticメソッドでとどめるよう心がけます。GUIを伴わない時には オブジェクト指向を活用せずにトイプログラムは完成するはずです。
+  <LI>ソースコードの上から下に向かって淡々と処理を羅列すること
+  <LI>動作の理解が行いやすいよう、System.out.printlnを活用して一目で動作が分かるように心がけること
+  <LI>事前条件、事後条件を検証するためにのエラー処理は盛り込むこと
+  <LI>単機能を実現するための実装にとどめること<BR>
+  あまり行数が長くなると本来の目的から はずれてしまいます。
+</UL>
+<P>私は トイプログラムを下記の順序の中で作成するように心がけています。</P>
+<OL>
+  <LI>対象となるAPI／ライブラリのサンプルプログラムを動作させる。<BR>
+  何かサンプルなどが提供されているはずです。(でも、時として一次情報源にサンプルが無い場合があります)
+  <LI>トイプログラムを作成して初期の理解を行う。<BR>
+  この段階を指して、「トイプログラム・デザインパターン」を連想しました。この時点から 事前条件・事後条件を考えたトイプログラムを作成できていると
+  後工程が楽になります。
+  <LI>トイプログラムを組み合わせた、コンビネーション型トイプログラムを作成して理解を深める。<BR>
+  具体的なアプリケーションの基本機能を満たした仕様を実装してみます。もとのトイプログラムは確保しておいて、別のトイプログラムを作成することが重要です。また、ここで別のことに気がつく場合があります。
+  <LI>実際に利用するラッパークラス／ライブラリを作成する。<BR>
+  例外処理やエラー処理、ロギング処理などが加わった、具体的なクラスの作成に取りかかります。この時点では、先に作成したトイプログラムとは全く別の実装になります。プロトタイプ・アプリケーション作成と組み合わせることにより、ラッパークラス／ライブラリの実装が
+  より洗練されることも多いです。もちろん、この時点では適切なオブジェクト指向が適用されることでしょう。
+  <LI>具体的なアプリケーションを作成する。<BR>
+  残念ながら、私は このフェーズを担当することは少ないです…。
+</OL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050408.html">2005/04/08 日記: 「ラッパークラス・デザインパターン」というものの存在</A>
+</UL>
+<P><FONT color="#ff00ff">関連するキーワード</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JooConverterに惚れました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html" TITLE="Java帳票ソリューションを実現するためのオープンソースツールのひとつ。OpenOffice.orgと協調動作してExcelファイルからPDFファイルを作成できます。もちろん、それ以外にも多彩な利用方法があります。">JooConverter</A>に惚れました。ExcelファイルをPDFファイルに変換できます。これはすばらしい。</P>
+<UL>
+  <LI><A HREF="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html" TITLE="Java帳票ソリューションを実現するためのオープンソースツールのひとつ。OpenOffice.orgと協調動作してExcelファイルからPDFファイルを作成できます。もちろん、それ以外にも多彩な利用方法があります。">JooConverter</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MSIドライバ探索</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>ソフトウェア-MSI Computer Japan<BR>
+  <A HREF="http://www.msi-computer.co.jp/support/software/">http://www.msi-computer.co.jp/support/software/</A>
+</UL>
+<P>日本語のページがあるんですね。とても嬉しかったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>EIZO Galleria Tokyo</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>M170の展示を見たいので、有楽町駅近くにあるEIZO Galleria Tokyoに行こうと思います。</P>
+<UL>
+  <LI>EIZO Galleria Tokyo : EIZOガレリア東京<BR>
+  <A HREF="http://www.eizo.co.jp/com/galleria/contents.html">http://www.eizo.co.jp/com/galleria/contents.html</A>
+</UL>
+<P><FONT color="#ff0000">2005.02.20 追記</FONT> 検討の結果、ナナオのM170-WTを購入することになりました。</P>
+<UL>
+  <LI>NANAO FlexScan 17&quot;液晶モニタ M170-WT (オフホワイト)<BR>
+  
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig050219.src.html' , result='ig050219.html' -->
+<A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/B0006HAELC/igapyondiary-22">amazon.co.jp: B0006HAELC</A>
+  <LI>EIZO 液晶モニター：FlexScan M170<BR>
+  <A HREF="http://www.nanao.co.jp/products/lcd/m170/contents.html">http://www.nanao.co.jp/products/lcd/m170/contents.html</A>
+</UL>
+<P>自宅用ディスプレイとしての購入です。窓際で利用するので、M170が搭載している 環境に合わせた自動輝度調整機能がどうしても必要だったのです。デジタル／アナログの2系統入力を搭載しているのも魅力でした。かねてより目を患っているので、どうしてもディスプレイには投資が必要になります。いままでは液晶ディスプレイに対しては懐疑的な考えを持っていて、自宅用ディスプレイは
+ずっとCRTだったのです。ここ最近は液晶モニタの技術も向上してきた背景もありとうとう自宅モニタにも液晶モニタを導入するところにいたりました。一方で
+ナナオのディスプレイは定評があるので、液晶にも過大な期待をしています。少し奮発しての選択結果となりました。なお、この時点では 検討した購入経路の中では、アマゾンが最安値となりました。</P>
+<P><FONT color="#ff0000">2005.02.28 追記</FONT> とても気に入って利用しています。自動で輝度をコントロールしてくれる機能はとても気に入りました。自宅環境のような 部屋の明るさが変わりやすい場所では、自動で輝度をコントロールする機能はとても体に優しいです。すばらしい。くわえて、ディスプレイのモードがフロントスイッチですぐに切り替え可能な点も
+とても便利です。細やかな配慮が多い、とても素晴らしいディスプレイだと考えます。ちょっと値段が張りますけれどもね。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

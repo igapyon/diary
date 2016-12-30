@@ -1,0 +1,11 @@
+2016-09-13 [Eclipse] git コミット時のユーザー名／メールアドレスの変更
+
+*p1*[Eclipse] git コミット時のユーザー名／メールアドレスの変更
+毎度忘れるのでこれをメモします。
+-[Window | Preferences]
+-[Team | Git | Configuration]
+-User Settings -> Add Entry...
+--user.name を追加
+--user.email を追加
+
+

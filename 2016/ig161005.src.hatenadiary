@@ -1,0 +1,34 @@
+2016-10-05 [Force.com] シンプルな Visualforce + Apex サンプル
+
+*p1*[Force.com] シンプルな Visualforce + Apex サンプル
+以前作ったものを少し進化した形の Apex + Visualforce サンプルです。ボタンを使った例です。
+
+***MySimpleClass
+>|java|
+public without sharing class MySimpleClass {
+    public String myMessage {get;set;}
+
+    public MySimpleClass() {
+        myMessage = 'Hello world!';
+    }
+
+    public void doProcess() {
+      myMessage = myMessage + ': doIt!';
+    }
+}
+||<
+
+***MySimplePage
+>|xml|
+<apex:page controller="MySimpleClass">
+  <apex:form >  
+    <h1>おめでとう</h1>
+    <p><apex:outputtext value="{!myMessage}" /></p>
+    <apex:commandButton value="ここを押して実行" action="{!doProcess}" />
+  </apex:form>
+</apex:page>
+||<
+
+**関連する日記
+-http://d.hatena.ne.jp/igapyon/20160720
+

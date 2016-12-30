@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/03/15 日記: 出張疲れ</TITLE>
+<META name="DESCRIPTION" content="さすがに出張疲れが出ています">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>出張疲れが出ています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今週は 4日続けて出張だったので、さすがに疲れています。ここんとこ出張続きすぎだと思ったので、どの程度出っぱなしだったかを集計してみました。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">週</TD>
+      <TD bgcolor="#ffff00">出張割合</TD>
+    </TR>
+    <TR>
+      <TD>2/18</TD>
+      <TD>2/5</TD>
+    </TR>
+    <TR>
+      <TD>2/25</TD>
+      <TD>3/5</TD>
+    </TR>
+    <TR>
+      <TD>3/04</TD>
+      <TD>1/5</TD>
+    </TR>
+    <TR>
+      <TD>3/11</TD>
+      <TD>4/5</TD>
+    </TR>
+    <TR>
+      <TD>Total</TD>
+      <TD>10/20</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>思ったほどは そんなには出張しまくっている訳では無いですね。でも 半分は外出している塩梅…
+やっぱし ちょっとペース落とさないと持たないかも (笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OracleのJDBCドライバ新版</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>OracleへのJDBCアクセスで たまに妙な現象に出くわします。って思っていたら
+ちょうど良さそうな情報をゲット。(というか知識と知識がかみ合いました)</P>
+<UL>
+  <LI>Oracle JDBC Driver<BR>
+  [replace-href:http://otn.oracle.co.jp/software/db_connect/jdbc/jdbc.html]<BR>
+  [replace-href:http://otn.oracle.com/software/tech/java/sqlj_jdbc/htdocs/winsoft.html]
+</UL>
+<P>最新版JDBCドライバとして、Oracle JDBC Driver 9.0.1が載っていました。米国Webと日本Webとは同じ最新バージョンであるようです。9.0.1
+ThinドライバはOracle7 7.3.4以上で動作とのことなので、Oracle 8.1.7 で仕事をしている私は
+試してみる価値があるように思えました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache FOP 0.20.3 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache FOP 0.20.3がリリースされました。</P>
+<UL>
+  <LI>Apache FOP<BR>
+  [replace-href:http://xml.apache.org/fop/]
+</UL>
+<P>日本語的改行処理機能などが機能追加されたとのことです。</P>
+<P>なお これらFOPの日本語化は この日記の読者でもある石神さん達が JPFOPというFOP日本語化キットを開発してきた成果物でもあります。それら成果物が本流のFOPに取り入れられて
+また一層 FOPが日本語環境で使いやすくなってきています。石神さん どうもありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>一太郎12</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>一太郎12買いました。インストールしました。一太郎11と変わりなく動いています。<BR>
+私としては ATOKが一番影響あります。でも ATOKも何も問題なく変わりなく動作しています。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020315-news.xml] [replace-text:igdiarytail.txt]</BODY>
+</HTML>

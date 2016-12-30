@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031202.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031202.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa02.html">
+    <title>なぜ情報化投資は初期計画より増えるのか？</title>
+    <link>http://www.atmarkit.co.jp/fbiz/cinvest/opinion/qa/qa02.html</link>
+    <description>発注者側と受注者側の双方が 妥当な金額で見積もりができるようになれば、妥当な見積もりで受発注できるのですけれどもね。</description>
+    <dc:date>2003-12-02T08:27:59</dc:date>
+  </item>
+
+</rdf:RDF>

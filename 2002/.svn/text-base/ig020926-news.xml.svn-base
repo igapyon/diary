@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020926.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020926.html</link>
+    <language>ja</language>
+    <dc:date>2002-09-26</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/25/njbt_06.html">
+    <title>JavaOne in Japan開幕、Javaの浸透をアピール</title>
+    <link>http://www.zdnet.co.jp/news/0209/25/njbt_06.html</link>
+    <description>仕事が暇ならぜひ行きたかったのですが、現実は 超忙しい状態です。</description>
+    <dc:date>2002-09-26T19:44:38</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/26/njbt_06.html">
+    <title>トレンドマイクロ、定番ウイルス対策ソフト「ウイルスバスター2003」を発表</title>
+    <link>http://www.zdnet.co.jp/news/0209/26/njbt_06.html</link>
+    <description>私はウイルスバスターユーザなので バージョンアップに目がとまりました。</description>
+    <dc:date>2002-09-26T19:44:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/26/nebt_03.html">
+    <title>POS用途にLinux――IBMが2社と契約</title>
+    <link>http://www.zdnet.co.jp/news/0209/26/nebt_03.html</link>
+    <description>POSにLinuxって 結構うまくハマりそうですね。</description>
+    <dc:date>2002-09-26T20:33:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/26/njbt_08.html">
+    <title>松下と東芝、ブラウン管事業を統合</title>
+    <link>http://www.zdnet.co.jp/news/0209/26/njbt_08.html</link>
+    <description>そこいら中が合併・統合する時代になってきましたねぇ…</description>
+    <dc:date>2002-09-26T20:33:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/26/nebt_06.html">
+    <title>Apple、宣言通りRendezvousのコードを公開</title>
+    <link>http://www.zdnet.co.jp/news/0209/26/nebt_06.html</link>
+    <description>オープンソース形態でのソースコード公開とのこと。</description>
+    <dc:date>2002-09-26T20:33:03</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0209/26/njbt_01.html">
+    <title>富士通がモバイル通信サービスに参入　DDIポケット回線を利用</title>
+    <link>http://www.zdnet.co.jp/news/0209/26/njbt_01.html</link>
+    <description>これからはPHSが流行るのかしらん。電話機がH"な私としては 喜ばしい傾向です。</description>
+    <dc:date>2002-09-26T20:33:03</dc:date>
+  </item>
+
+</rdf:RDF>

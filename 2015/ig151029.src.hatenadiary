@@ -1,0 +1,106 @@
+2015-10-29 Delphi から REST/JSONの呼び出し
+
+*p1*Delphi から REST/JSONの呼び出し
+Delphi から REST/JSONを呼び出すシンプルサンプルをメモします。ネイティブネットワークライブラリを利用した例です。
+
+http://d.hatena.ne.jp/igapyon/20151028 のサーバーを呼び出す例です。
+
+フォームに、TNetHTTPClient と TNetHTTPRequest コンポーネントを貼り付けます。
+
+JSONライブラリを uses に追加します。
+>|pascal|
+uses System.JSON;
+||<
+
+その上でボタンイベントに以下の記述をおこないます。
+
+**Get 編
+>|pascal|
+var
+  RespStream: TMemoryStream;
+  Resp: IHTTPResponse;
+  RespJson: TJSONObject;
+begin
+  try
+    // オブジェクトインスペクタによる設定で代替可能
+    NetHTTPRequest1.Client := NetHTTPClient1;
+
+    // オブジェクトを生成
+    RespStream := TMemoryStream.Create;
+    RespJson := TJSONObject.Create;
+
+    // REST呼び出し
+    Resp := NetHTTPRequest1.Get
+      ('http://localhost:8080/simpleservlet/SimpleServlet', RespStream);
+
+    // REST呼び出し結果をJSONとして解析
+    RespJson := TJSONObject.ParseJSONValue(Resp.ContentAsString(TEncoding.UTF8))
+      as TJSONObject;
+
+    // まずは戻ってきた文字列を表示
+    ShowMessage(Resp.ContentAsString(TEncoding.UTF8));
+
+    // JSONとしての解析結果から値を取り出し
+    ShowMessage(RespJson.GetValue('id').Value);
+    ShowMessage(RespJson.GetValue('name').Value);
+
+  finally
+    // 生成されたオブジェクトの破棄
+    FreeAndNil(RespStream);
+    FreeAndNil(RespJson);
+  end;
+||<
+
+**Post 編
+>|pascal|
+var
+  ReqParams: TStrings;
+  ReqJson: TJSONObject;
+  ReqJsonArray: TJSONArray;
+  RespStream: TMemoryStream;
+  Resp: IHTTPResponse;
+  RespJson: TJSONObject;
+begin
+  try
+    // オブジェクトインスペクタによる設定で代替可能
+    NetHTTPRequest1.Client := NetHTTPClient1;
+
+    // オブジェクトを生成
+    ReqParams := TStringList.Create;
+    ReqJson := TJSONObject.Create;
+    ReqJsonArray := TJSONArray.Create;
+    RespStream := TMemoryStream.Create;
+    RespJson := TJSONObject.Create;
+
+    // JSONの値を設定
+    ReqJson.AddPair('id', '22222');
+    ReqJson.AddPair('name', 'Haruko Tanaka');
+    ReqJsonArray.Add('Train');
+    ReqJson.AddPair('drive', ReqJsonArray);
+
+    // REST呼び出し
+    ReqParams.Add('json=' + ReqJson.ToString);
+    Resp := NetHTTPRequest1.Post
+      ('http://localhost:8080/simpleservlet/SimpleServlet', ReqParams,
+      RespStream, TEncoding.UTF8);
+
+    // REST呼び出し結果をJSONとして解析
+    RespJson := TJSONObject.ParseJSONValue(Resp.ContentAsString(TEncoding.UTF8))
+      as TJSONObject;
+
+    // まずは戻ってきた文字列を表示
+    ShowMessage(Resp.ContentAsString(TEncoding.UTF8));
+
+    // JSONとしての解析結果から値を取り出し
+    ShowMessage(RespJson.GetValue('id').Value);
+    ShowMessage(RespJson.GetValue('name').Value);
+
+  finally
+    // 生成されたオブジェクトの破棄
+    FreeAndNil(ReqParams);
+    FreeAndNil(ReqJson);
+    FreeAndNil(RespStream);
+    FreeAndNil(RespJson);
+  end;
+||<
+

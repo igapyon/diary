@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/08/22 日記: 原稿書き書き…苦悩中</TITLE>
+<META name="DESCRIPTION" content="またまた Windowsにセキュリティホールがあるのだそうな。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>原稿書き書き 苦悩中</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>原稿を書いています。ざざざっと書いたら とても初心者向けの文章になっていないことに気がつき始める。うぐああああ。<BR>
+印刷して眺める。赤を入れる。<BR>
+… まずい 無理を言って延期してもらった今日の締め切りに 規定の箇所までの原稿は本当に仕上がるのだろうか。また苦悩する。</P>
+<P>そういえば、前回書籍を執筆した時も苦しんでいたことを ようやっと思い出す。(前回よりは
+今回の方が筆が進みやすいことは確かなのですが…) <BR>
+もしかして 書籍を執筆することは、結構大変な作業なのではないかと、今頃気がつき始める。(去年の同じ時期
+やはり同じようなことを言っていたような気もするのですけれどもね…)</P>
+<P><FONT color="#ff0000">08/23 03:45</FONT> ねむい！ (苦笑)</P>
+<P><FONT color="#ff0000">08/24 06:27</FONT> ようやっと 第１章から脱稿。ねむい。もうろうとしている。計画的にコツコツ執筆できない自分が恨めしい。しかも
+当初の予定からは 6日遅れ…。でもとりあえず ねむいので これから寝ます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows 2000/XP系 セキュリティホール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>またまた 大穴が発見されたのだそうな。MSブラスター騒ぎが収まったばかりだというのに…<BR>
+これは危険そうなので、さっそく Windows Update を使って 『重要な更新』 を行ったのですが…。なかなかダウンロードできません。低い確率で
+ようやっと MDACのセキュリティパッチはダウンロードして適用しましたが。かなり
+Windows Update が混み合っている様子です。困ったものです。</P>
+<P>結構いろいろ出たので、ここいらあたりで OS用の新たなサービスパックを出して欲しいと思うところです。HotFix連発の適用などは インターネットからのWindows Updateでは混雑時にはダウンロードに時間がかかりぎみだし、かといって単体のファイルだと適用順序に悩まないといけないし、とかで とても困ります。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030822-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

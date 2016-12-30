@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030122.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030122.html</link>
+    <language>ja</language>
+    <dc:date>2003-01-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.microsoft.com/japan/sql/downloads/2000/sp3.asp">
+    <title>Microsoft SQL Server 2000 Service Pack 3 リリース</title>
+    <link>http://www.microsoft.com/japan/sql/downloads/2000/sp3.asp</link>
+    <description>日本語版 SQL Server 2000 SP3 がリリースされたとのこと。</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0301/22/nebt_01.html">
+    <title>SQL Server 2000の修正リリース</title>
+    <link>http://www.zdnet.co.jp/news/0301/22/nebt_01.html</link>
+    <description>SQL Server 2000 Service Pack 3がリリースされたとのこと。(で 実は日本語版もリリースされていました)</description>
+    <dc:date>2003-01-22T09:43:58</dc:date>
+  </item>
+
+</rdf:RDF>

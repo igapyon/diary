@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/01/08 日記: Oracle 8.1.7 が Windows 2000 Pro / XP にインストールできない件</TITLE>
+<META name="DESCRIPTION" content="Oracle 8.1.7 が Windows 2000 Pro にインストールできずにあたふたしました。恐るべし…。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>やや正月ぼけ残り中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>やや正月ぼけが残っていまして 日記の更新が滞っていました。まずは仕事優先ですっ
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Oracle 8.1.7 が Windows 2000 Pro にインストールできない件</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>なぜか Oracle 8.1.7 が Windows 2000 Pro にインストールできない不具合に遭遇してしまいました。</P>
+<UL>
+  <LI>[replace-href:http://www.orafaq.com/msgboard/windows/messages/643.htm]
+</UL>
+<P>で 上記FAQを利用したら インストールできました。<BR>
+私の場合、JRE_MEMORY_OPTIONS=<STRONG>-nojit</STRONG> -mx96m のように JITをOFF化する設定変更のみで不具合対応できました。<BR>
+しかしまぁ、これは大変厄介な問題ですねぇ。世間の方々も困っていらっしゃることでしょう。でも
+この不具合が FAQな内容で本当に良かったです。</P>
+<P><A href="../../q/q-oracle.html">いがぴょんQ: ORACLEにまつわるメモ</A>の方にも反映しておきました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Windows XPマシンに Windows 2000を後からインストールすると Windows XP が機動不能に…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>一瞬 何が起こったのかわかりませんでした。Windows XPにWindows 2000 を後からインストールすると
+Windows XP が機動不能になりました。後でよくよく考えたら それは当然のことなのでしょうけれども、それに遭遇して直後には
+何がなにやらさっぱりおろおろしました (苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020108-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/12/25 日記: Subversion に CVS タグのような概念を導入する方法</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkの記事を ＠ITに書きました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/12/25 日記: Subversion に CVS タグのような概念を導入する方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blanco Frameworkの記事を ＠ITに書きました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversion に CVS タグのような概念を導入する方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Subversion に CVS タグのような概念を導入する方法を思いつきました。</P>
+<P>最も単純な実現方法は下記のようになります。</P>
+<UL>
+  <LI><STRONG>開発版</STRONG>用、<STRONG>安定版</STRONG>用に、それぞれ Subversion を 2つ立てる。
+  <LI>開発を行っている間は、開発版用 Subversion リポジトリを利用する。
+  <LI>きりのよい所で、開発版用 Subversion の内容をチェックアウト。そして、これを安定版用の Subversion リポジトリにコミットする。
+  <UL>
+    <LI>概念的に、このタイミングが CVSのタグに相当するものになります。<BR>
+    更新内容は全て一度にコミットします。
+    <LI>安定版用 Subversion リポジトリにコミットする際には、<STRONG>きっちり</STRONG>と<STRONG>コメントを記入</STRONG>します。(タグが無い以上、コメントが適切に記入される必要あり！)<BR>
+    これにより、リビジョンがすなわち CVSタグと同様の効果をもたらします。
+  </UL>
+</UL>
+<P>開発版用、安定版用とリポジトリを分けてきっちりとステージングすることにより、結果的に 安定版側のリポジトリのリビジョンが CVSタグに相当する効果を得るのです。また、リポジトリを分けておくことにより、リビジョン番号も分かれていて
+気持ちよく管理・分類できるように考えます。</P>
+
+<P>例えば、本番機・試験機・開発機と 3つの実行環境を抱えている場合には、ちょうどそれぞれ３環境に対応する Subversionリポジトリを立てておくと、、スムーズに運用することが出来るのであろうと想像しています。</P>
+<P>ちなみに、この説明を見たら、Subversionに詳しい人には「Subversion の○○機能を使えば 同じことが実現できるよ」と思うことでしょう。(○○機能の部分は、自分の好きな用語で補ってください)
+でも そのような実現方法ではなく、リポジトリ分割＋ステージングによる 簡明な運用方法による実現によって、初めて 自明でわかりやすい使い勝手が実現できると考えているのです。</P>
+<P><FONT color="#ff00ff">ツッコミ</FONT></P>
+<UL>
+  <LI><A HREF="http://tidus.ultimania.org/diary/?date=20071226">http://tidus.ultimania.org/diary/?date=20071226</A><BR>
+  キーワード: trunk, branches
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkの記事を ＠ITに書きました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>blanco Frameworkの記事を ＠ITに書きました。</P>
+<UL>
+  <LI><A href="http://www.atmarkit.co.jp/fjava/special/blanco/blanco_1.html">＠IT: Excelからプログラムを作る多言語対応オープンソース</A>
+</UL>
+<P>つい先ほど公開が開始されたようです。今回は (今回も?) 記事を書くのに 結構苦労しました。</P>
+<P>で、、、年末進行で 記事原稿執筆が あと２本ほど存在するような記憶が、なんとなくよみがえってきました…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

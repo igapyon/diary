@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031019.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031019.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-19</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/culture/story/20031017205.html">
+    <title>調査結果：ウェブログの3分の2は「三日坊主」</title>
+    <link>http://www.hotwired.co.jp/news/news/culture/story/20031017205.html</link>
+    <description>日記を書き続けることは難しいことですもの。</description>
+    <dc:date>2003-10-21T09:53:37</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/rensai/bookreview04/review01.html">
+    <title>@IT:自分戦略研究室:ストレスや心の病を知るための6冊</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/rensai/bookreview04/review01.html</link>
+    <description>ソフトウェア業って 心身のうち限られた範囲内で考えてみると 極めて過酷な業種ですからね…</description>
+    <dc:date>2003-10-21T09:53:37</dc:date>
+  </item>
+
+
+</rdf:RDF>

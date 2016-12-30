@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/10/26 日記: サイバー犯罪情報の通報／相談先メモ , Eclipse 3.4 の plugins フォルダー</TITLE>
+<META name="DESCRIPTION" content="日本のサイバー犯罪情報の通報／相談先をメモしておきます。インターネットにまつわる犯罪情報の取り扱いについて、日本ではその連絡先を警察が担っています。 , Eclipse 3.4 から Eclipse 3.3 までとは plugins フォルダーに関する挙動が変更されています。dropins フォルダー が新しく導入されているのも ハマりポイントです。-clean が無くなったのも影響が大きいです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/10/26 日記: サイバー犯罪情報の通報／相談先メモ , Eclipse 3.4 の plugins フォルダー</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 日本のサイバー犯罪情報の通報／相談先をメモしておきます。インターネットにまつわる犯罪情報の取り扱いについて、日本ではその連絡先を警察が担っています。 , Eclipse 3.4 から Eclipse 3.3 までとは plugins フォルダーに関する挙動が変更されています。dropins フォルダー が新しく導入されているのも ハマりポイントです。-clean が無くなったのも影響が大きいです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>サイバー犯罪情報の通報／相談先メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>日本のサイバー犯罪情報の通報／相談先をメモしておきます。インターネットにまつわる犯罪情報の取り扱いについて、日本ではその連絡先を警察が担っています。</P>
+<UL>
+  <LI>埼玉県警: サイバー犯罪情報<BR>
+  <A HREF="http://www.police.pref.saitama.lg.jp/kenkei/110_soudan/joho110/cyber/cyber_joho.html">http://www.police.pref.saitama.lg.jp/kenkei/110_soudan/joho110/cyber/cyber_joho.html</A>
+  <LI>警視庁: インターネット安全・安心相談<BR>
+  <A HREF="http://www.cybersafety.go.jp/">http://www.cybersafety.go.jp/</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.4 の plugins フォルダー</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse 3.4 から Eclipse 3.3 までとは plugins フォルダーに関する挙動が変更されています。dropins フォルダー
+が新しく導入されているのも ハマりポイントです。-clean が無くなったのも影響が大きいです。</P>
+<P>とりあえず plugins フォルダー 内の プラグイン jar ファイルの更新手順ではまりました。(この手順が必要なのは features
+が無いケースだけかも知れません) 既存プラグインの更新の際に、以下の手順を踏めば、プラグインを更新することができました。</P>
+<UL>
+  <LI>まず plulgins 内の 古いプラグイン jar ファイルを<STRONG>削除</STRONG>する
+  <LI>一度 Eclipse を始動・終了する (<STRONG>再始動</STRONG>)
+  <LI>まず plulgins 内に 新しい プラグイン jar ファイルを<STRONG>追加</STRONG>する
+  <LI>Eclipse を<STRONG>始動</STRONG>する
+</UL>
+<P>一口で言うと、更新の際には、削除＋再始動＋追加＋始動 の手順が必要そう、というところです。…ほんとかな? 少し自信なし。<BR>
+# よもやま話: グロッサリー: Pleiades + blancoNLpackGenerator 的には Eclipse の start には「始動」が割り当てられています。「起動」ではありません。</P>
+<P>私が次に読むべき情報源は以下です。時間を作って読んでみようと思います。</P>
+<UL>
+  <LI>Equinox p2 Getting Started<BR>
+  <A HREF="http://wiki.eclipse.org/Equinox_p2_Getting_Started">http://wiki.eclipse.org/Equinox_p2_Getting_Started</A>
+</UL>
+<P>それにしても、Eclipse 3.4 の これら変更ポイントにて 結構はまりました。ちなみに、個人の趣味としては、-clean オプションが無くなったのが不満です。(代替手段はあるかも知れませんが、初見では発見できず)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

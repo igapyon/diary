@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030704.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030704.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/04/njbt_01.html">
+    <title>PCパーツ「Justy」が自己破産</title>
+    <link>http://www.zdnet.co.jp/news/0307/04/njbt_01.html</link>
+    <description>結構お世話になったブランドだけに 悲しいニュースです。</description>
+    <dc:date>2003-07-04T17:33:47</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/04/njbt_03.html">
+    <title>DVカメラ4社、現行DVテープでハイビジョン撮影実現の「HDV」規格を策定</title>
+    <link>http://www.zdnet.co.jp/news/0307/04/njbt_03.html</link>
+    <description>デジタルハイビジョン普及をにらみ 各所でデジタルハイビジョン対応が着々と進められているのですね。びっくりです。ただ 音声が MPEG-1 Audio LayerII 384Kbpsって点が気になります。</description>
+    <dc:date>2003-07-04T17:33:47</dc:date>
+  </item>
+
+
+</rdf:RDF>

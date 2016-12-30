@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/05/07 日記: Java言語からPDF生成を行うオープンソースライブラリ調査</TITLE>
+<META name="DESCRIPTION" content="不定期ながらJava言語からPDF生成を行うオープンソースプロダクトを検索してみるのでした。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/05/07 日記: Java言語からPDF生成を行うオープンソースライブラリ調査</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 不定期ながらJava言語からPDF生成を行うオープンソースプロダクトを検索してみるのでした。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語からPDF生成を行うオープンソースライブラリ調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>iTextというPDF生成ライブラリを調べてみると、キーワード[iText PDF Java]でGoogle日本語検索の結果、なぜか私の日記が第2位にヒットしました(苦笑)</P>
+<UL>
+  <LI><A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020614.html">http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020614.html</A>
+</UL>
+<P>わ、、、わたしって JavaでPDF生成をおこなうオープンソースプロダクトに詳しかったんだろうか?
+(苦笑)<BR>
+ということで、しばらくぶりながら、いまどきの Java用オープンソースなPDF生成ライブラリというのを調査したみようということになりました。さて、最近はJava言語でのPDF生成事情って、どんな感じなのでしょう。</P>
+<UL>
+  <LI>JasperReports<BR>
+  <A HREF="http://jasperreports.sourceforge.net/">http://jasperreports.sourceforge.net/</A><BR>
+  <A HREF="http://sourceforge.net/projects/jasperreports">http://sourceforge.net/projects/jasperreports</A><BR>
+  <A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?Saisse" TITLE="いがぴょんの日記ウェブページの読者で、東京OFF会参加経験をお持ちの方。ものすごいのは、いがぴょん配下で実開発を行った経験があるという点です。">Saisse</A>(セス) さん推薦
+  <LI>Java OpenOffice Template Tools (JooTemplates)<BR>
+  <A HREF="http://joott.sourceforge.net/">http://joott.sourceforge.net/</A><BR>
+  <A HREF="http://sourceforge.net/projects/joott/">http://sourceforge.net/projects/joott/</A><BR>
+  makotanさん推薦
+  <LI>iText<BR>
+  <A HREF="http://sourceforge.net/projects/itext/">http://sourceforge.net/projects/itext/</A><BR>
+  比較的自由にPDFの内容を作成できるのが特徴
+</UL>
+<P>ふむ。いろいろあるものですねぇ。</P>
+<P><FONT color="#ff0000">2005.02.18 追記</FONT> PDF帳票作成という観点からは、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>を用いてExcelファイルを作成または編集し、<A HREF="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html" TITLE="Java帳票ソリューションを実現するためのオープンソースツールのひとつ。OpenOffice.orgと協調動作してExcelファイルからPDFファイルを作成できます。もちろん、それ以外にも多彩な利用方法があります。">JooConverter</A>を利用して
+生成後のExcelファイルをPDF変換することによりPDF作成を行う、というアプローチが最も生産性が高く便利であると考えています。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2002/ig020614.html">2002/06/14 日記: オープンソースなJava言語で書かれたPDF作成ソフトを調べたいのですが…</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

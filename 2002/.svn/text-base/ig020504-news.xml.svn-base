@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020504.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020504.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/04/b_0503_02.html">
+    <title>世界PC出荷に占めるノートの割合，23.8％に</title>
+    <link>http://www.zdnet.co.jp/news/0205/04/b_0503_02.html</link>
+    <description>ノートパソコンが普及してきたのですね。身近な印象としては 1/4よりも多そうな雰囲気ですけれども</description>
+    <dc:date>2002-05-04T16:20:27</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/culture/update/0504/001.html?2002">
+    <title>脱「ナンパ広場」　池袋西口公園に野外ステージ</title>
+    <link>http://www.asahi.com/culture/update/0504/001.html?2002</link>
+    <description>ほほう。池袋西口公園はナンパ広場だったのですか。知りませんでした。そういや大阪にも『ひっかけ橋』なる俗称が付いた橋がありますねぇ。まあ 私は こういった世間的な情報に疎いので、ぜんぜん分かりませんですけれども。(ほんっとうにものすごく疎いのです)</description>
+    <dc:date>2002-05-04T12:00:56</dc:date>
+  </item>
+
+</rdf:RDF>

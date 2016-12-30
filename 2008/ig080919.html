@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/09/19 日記: Eclipse Ganymede ネタ , Eclipse BABEL へのコントリビュート作業にて悶絶</TITLE>
+<META name="DESCRIPTION" content="Pleiades と blancoNLpackGenerator が載っていました。話題に取り上げていただき、ありがとうございます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/09/19 日記: Eclipse Ganymede ネタ , Eclipse BABEL へのコントリビュート作業にて悶絶</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Pleiades と blancoNLpackGenerator が載っていました。話題に取り上げていただき、ありがとうございます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Ganymede ネタ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>第10回 Eclipse3.4（Ganymede）の新機能<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20080916/314832/">http://itpro.nikkeibp.co.jp/article/COLUMN/20080916/314832/</A>
+</UL>
+<P>Pleiades と blancoNLpackGenerator が載っていました。記事中の話題としてに取り上げていただき、ありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse BABEL へのコントリビュート作業にて悶絶</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.igapyon.jp/blanco/nlpack/eclipse/">Eclipse 日本語化言語パック (サードパーティ版)</A> の翻訳成果を Eclipse BABEL にコントリビュートしようと試みています。4ヵ月近く前からコントリビュートしようと成果物の投げ込みを試みてきているのですが、様々な障壁に阻まれ、未だに
+Eclipse BABEL サーバへ反映されないままの状態にあります。これは Eclipse 側の IP プロセスなにがしの手順に時間が掛かるという理由も確かにあるのですが、それ以上に
+Eclipse BABEL 側のインポート・ユーティリティ(プログラム)の不都合が主たる原因です。</P>
+<P>彼らのインポート(取り込み)プログラムの不具合改善などで支援してあげたい気持ちは持っているのですが、このプログラムが PHP で書かれているため、PHP
+に詳しくない私などは支援できません。加えて PHP で Java 言語の ResourceBundle 相当の実装を行う必要があるのですが、この実装には
+結構面倒なプログラミングが必要となります。まあ、本質的には、Java の ResourceBundle の仕様が、意外なほどに厄介で困った仕様だからです。ちなみに
+この取り込みプログラムを Java で書けば、あたりまえですが、Java 言語の ResourceBundle を「そのまま」利用できるので、該当箇所のプログラミングはほぼ不要です。(ちなみに、Javaで作り直す、という抜本的な別観点によって
+Eclipse BABEL ツール不具合への対応のために支援できないのか、という検討についても平行して実施しています)</P>
+<P>私たちの翻訳成果を Eclipse BABEL に取り込んでもらえると、BABEL の翻訳成果に反映されるとともに、Eclipse 更新サイトからダウンロードする言語パックにも翻訳成果が反映されます。これにより、随分と翻訳が進み、快適に
+Ganymede が利用できるようになる、はずなのですが…。</P>
+<P>なお、Eclipse BABEL には、この問題以外にも、翻訳物のレビューをツールがサポートしていないなどの潜在的な不具合もあります。これに起因して、全くレビューを経ていない翻訳成果が「そのまま」言語パックに反映されてしまうという、なかなかに難しい状況もあり、すっきりと動作するようになるのには、相当に険しい道のりが待っていそうです…。はやくすっきりと解決して欲しいです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>そんなことで、Eclipse BABEL の翻訳進捗は芳しくない</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>そのような事情により、Eclipse BABEL 側の翻訳成果は かなり進捗の悪い状態になっています。これは Eclipse 更新サイトから取得可能な言語パックにも直接的な影響があります。</P>
+<P>このため、適切に翻訳が進んだ Eclipse Ganymede を利用したい方は、Eclipse 更新サイトから言語パックを取得するのではなく、<A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>
+や <A href="http://www.igapyon.jp/blanco/nlpack/eclipse/">Eclipse 日本語化言語パック (サードパーティ版)</A> を利用するのが現状では最適であろうと考えられます。Eclipse 更新サイトから言語パックを取得してがっかりされた方は、がっかりせずに <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse プラグイン日本語化プラグイン。AOPによりリソース文字列を日本語化することができます。">Pleiades</A>
+や <A href="http://www.igapyon.jp/blanco/nlpack/eclipse/">Eclipse 日本語化言語パック (サードパーティ版)</A> を試してみてください。</P>
+<P>とはいえ、早く Eclipse BABEL の諸問題が解決されて、Eclipse 更新サイト から適切な言語パックがダウンロードできるようになるのがベストなので、その点が解決されることを祈っています。</P>
+<P>また、我こそは、と思われる方がいらっしゃいましたら、Eclipse BABEL ツール不具合問題解決のために Eclipse BABEL へのコントリビュートを試みてください。Java
+と PHP のプログラミング・スキル、Java プロパティファイル仕様の理解、そして英語メールによるコミュニケーション・スキルがあれば、ある程度活躍できるのでは、と思います。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

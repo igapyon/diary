@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</TITLE>
+<META name="DESCRIPTION" content="Xerces-Jの際に利用していたContentHandlerベースによるXML作成方法の Java API版のメモです。 , バリウムにてよれよれです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/08/03 日記: Java: XMLファイルを効率的に作成する方法 (SAX2ベース)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Xerces-Jの際に利用していたContentHandlerベースによるXML作成方法の Java API版のメモです。 , バリウムにてよれよれです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XMLファイルを効率的に作成する方法 (SAX2ベース)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>XMLファイルをSAX2ベースで効率的に作成する方法をメモしておきます。<BR>
+ここしばらく この方法が分からずに、ずーっと気になっていたのです。ようやく今日 わかりました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleSaxWriter.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * 非常にシンプルで効率的な SAX2ライター・ハンドラ
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.sax.SAXTransformerFactory;
+import javax.xml.transform.sax.TransformerHandler;
+import javax.xml.transform.stream.StreamResult;
+
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.AttributesImpl;
+
+/**
+ * 非常にシンプルなSAX2ハンドラ・ライター &lt;br&gt;
+ * メモリ効率良くXMLファイルをSAXベースで作成する際に必要になる方法です。
+ * 
+ * @author Tosiki Iga 2005.08.03
+ */
+public class SimpleSaxWriter {
+    public static void main(String[] args) throws SAXException,
+            TransformerConfigurationException, IllegalArgumentException,
+            FileNotFoundException {
+        TransformerFactory tf = TransformerFactory.newInstance();
+        SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;
+        TransformerHandler saxHandler = saxTf.newTransformerHandler();
+        saxHandler.setResult(new StreamResult(new FileOutputStream(&quot;わーく.xml&quot;)));
+
+        saxHandler.startDocument();
+        AttributesImpl attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;soapenv&quot;,
+                &quot;xmlns:soapenv&quot;, &quot;CDATA&quot;,
+                &quot;http://schemas.xmlsoap.org/soap/envelope/&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsd&quot;,
+                &quot;xmlns:xsd&quot;, &quot;CDATA&quot;, &quot;http://www.w3.org/2001/XMLSchema&quot;);
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xsi&quot;, &quot;xmlns:xsi&quot;, &quot;CDATA&quot;,
+                &quot;http://www.w3.org/2001/XMLSchema-instance&quot;);
+        saxHandler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;, attributes);
+        saxHandler.startElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Body&quot;, &quot;soapenv:Body&quot;, new AttributesImpl());
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xmlns&quot;,
+                &quot;xmlns&quot;, &quot;CDATA&quot;, &quot;http://DefaultNamespace&quot;);
+        saxHandler.startElement(&quot;http://DefaultNamespace&quot;, &quot;method01&quot;, &quot;method01&quot;, attributes);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xmlns&quot;,
+                &quot;xmlns&quot;, &quot;CDATA&quot;, &quot;&quot;);
+        saxHandler.startElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;, attributes);
+        char[] charMsg = &quot;こんにちは&quot;.toCharArray();
+        saxHandler.characters(charMsg, 0, charMsg.length);
+        saxHandler.endElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;);
+        attributes = new AttributesImpl();
+        attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xmlns&quot;, &quot;xmlns&quot;, &quot;CDATA&quot;, &quot;&quot;);
+        saxHandler.startElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;, attributes);
+        charMsg = &quot;123&quot;.toCharArray();
+        saxHandler.characters(charMsg, 0, charMsg.length);
+        saxHandler.endElement(&quot;&quot;, &quot;arg2&quot;, &quot;arg2&quot;);
+        saxHandler.endElement(&quot;http://DefaultNamespace&quot;, &quot;method01&quot;, &quot;method01&quot;);
+        saxHandler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Body&quot;, &quot;soapenv:Body&quot;);
+        saxHandler.endElement(&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;,
+                &quot;Envelope&quot;, &quot;soapenv:Envelope&quot;);
+
+        saxHandler.endDocument();
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※<FONT color="#ff0000">2005.08.11追記</FONT> .translate()を利用しないので、最後にライターを明示的にクローズする必要があります。この問題は上記コードに未反映です。</BLOCKQUOTE>
+<P>このSAX2ハンドラによるXML作成方法は非常に大事なものです。少なくとも私にとっては重要な発見でした。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding" TITLE="XML→バリューオブジェクトマッピングをおこなうためのライブラリです。">blancoXmlBinding</A><BR>
+  このサンプルを発展させた内容の XML 処理ライブラリ。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050802.html">2005/08/02 日記: うそSOAPサーバ・サーブレット実現性の模索</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>健康診断バリウム効果</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>健康診断でバリウムを頂きました。<BR>
+バリウムの後にいただく とある錠剤の効果が抜群でして、今日は もうダメっぽいです。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2004/ig040519.html">2004/05/19 日記: FindBugs 0.7.3 リリース , 日本語化パッチが別途提供</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

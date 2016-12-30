@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/08/15 日記: メールによる汎用的インタフェース構想 (blancoMail)</TITLE>
+<META name="DESCRIPTION" content="ケータイWebや 単なるケータイメールを使っていて、ふと このインタフェースは なんとか改善できないものかなぁ、と思いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blancoMail">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/08/15 日記: メールによる汎用的インタフェース構想 (blancoMail)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blancoMail] ケータイWebや 単なるケータイメールを使っていて、ふと このインタフェースは なんとか改善できないものかなぁ、と思いました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>メールによる汎用的インタフェース構想</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ケータイWebや 単なるケータイメールを使っていて、ふと このインタフェースは なんとか改善できないものかなぁ、と思いました。</P>
+<P>ほぼ同じようなことは、2004年の時点で思いついています。</P>
+<UL>
+  <LI><A href="../2004/ig040310.html">2004/03/10 日記: 「電気秘書」ソフトの開発を妄想</A>
+</UL>
+<P>通信速度の高低、解像度の高低に関わらず、ある一定の操作を行っていると思うのです。この操作を抽象化して汎用化できれば、面白い仕組みができるものと思います。いうなれば、メールを中心としたメールによる汎用的インタフェース構想です。</P>
+<P>取りあえず最初の第一歩として下記の仕様が必要です。</P>
+<UL>
+  <LI>あるメールアドレスが 操作専用のものと仮定 (あるいはメールSubjectでトリックを使う)
+  <LI>ログオン<BR>
+  メールを送ると、セッションID (時刻+ユーザID を MD5化したようなもの) 付きでトークンが戻ってくる。メールで戻るというのがミソ。そして、これは
+  GNU Mailmanに類似しています。GNU Mailmanと異なるところは、メーリングリスト管理のみならず、これを抽象化して一般化しているという点です。
+  <LI>ログオフ<BR>
+  そのセッションIDの破棄
+  <LI>Yes/No選択<BR>
+  設問メールに対して、YesかNoのいずれかを残して返信メールを送信する。
+  <LI>アラーム通知<BR>
+  指定された時刻にメールを送信！
+  <LI>ラジオボタン風の選択
+  <LI>承認機能<BR>
+  何かを承認する機能！ 会議開催への返信のようなイメージ。
+  <LI>これらメール操作について、決められた頻度以上ではメール送信しない仕様も必要！<BR>
+  フェールセーフ機能。
+</UL>
+<P>これが メール以外に Webでも操作できれば非常によい感じです。解像度の高いWebでの操作の場合には 複数選択がひとつの画面に集約できる、なんて仕様も必要です。</P>
+<P>メールサーバへのポーリング間隔は 1分が良いのか 10分が良いのか、なんてところも気になります。ログオンすると考えると 1分程度でないと操作感が耐えられないとも考えられます。あと、DBに情報を蓄積すると思うのですが、タスクは
+Tracのテーブル仕様と互換性を取っておくと面白そうに思います。</P>
+<P>難易度が高そうなのが、抽象化ポイントです。Javaでいうところのインタフェースを一つ用意するイメージなのですが、はたして 妥当な実装がどのようなものなのか、想像できません。あるいは
+JSRで 既に同様のものがあるのやも知れませんが、私は現時点では知りません。</P>
+<P>インタフェース仕様を確立すれば、複数のメールサーバ同士でスケジュール調整などができるようになることが期待できます。</P>
+<P>名称は、blancoMailInterface という感じかしら…。なお、私が作ると Javaによる実装になります。</P>
+<P><FONT color="#ff0000">2007.08.16追記</FONT> このインタフェースをベースにメーリングリストを作ることも可能であるように思いました。</P>
+<P><FONT color="#ff0000">2007.09.05追記</FONT> 当初は blancoMailInterfaceという名称で検討していたのですが、最終的には  <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A>
+という名称にすることにしました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070816.html">2007/08/16 日記: メールによる汎用的インタフェース仕様</A>
+  <LI><A href="../2004/ig040310.html">2004/03/10 日記: 「電気秘書」ソフトの開発を妄想</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>「電気秘書」ソフトの開発妄想</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>そのメールインフラが出来上がりさえすれば、かねてよりの電気秘書計画が実現できます。</P>
+<P>名称は blancoSecretary かなぁ…。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2004/ig040310.html">2004/03/10 日記: 「電気秘書」ソフトの開発を妄想</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>夏バテ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>もともと体調が悪い傾向にあったのですが、ここのところの熱帯夜のせいで よけいにヘバっています。今年の夏は これまた暑いです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

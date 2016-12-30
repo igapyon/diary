@@ -1,0 +1,372 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/05 日記: HTTP経由ファイル送信サンプル(Visual C++版)</TITLE>
+<META name="DESCRIPTION" content="C++用Javaストリーム実装が欲しいっ">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Visual C++でJavaのストリームは使えないものかと…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Visual C++で Javaのストリームは使えないかなぁと ざっくりさがしていきました。するとなぜか
+GCCに行き着きました。</P>
+<UL>
+  <LI>GCC Home Page<BR>
+  [replace-href:http://www.gnu.org/software/gcc/gcc.html]
+</UL>
+<P>で そのままCygwinだと芸がない(?) というかヒネリが無いので とりあえずCygwinではない方を見てみました。</P>
+<UL>
+  <LI>MinGW: Minimalist GNU For Windows<BR>
+  [replace-href:http://www.mingw.org/]
+</UL>
+<P>で やっぱりということで Cygwinの方をダウンロードして gcc最新版をゲットしてみました。ライセンス周りで
+もう少し調べてみないと 単に利用できるかどうか不明です…。<BR>
+</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTP経由ファイル送信サンプル (Visual C++版)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今度は HTTP の POSTを利用したサンプルを作りました。<BR>
+作っていて気がついたのですが、私 既に delete演算子の存在を忘れきっています。たいへんびっくりしました。(忘れたいプログラミング言語その1
+が C/C++言語なのですけれども、本当に忘れてしまうと それはそれで ちと不便ですね。とゆ～か
+deleteを記載し忘れると 大変困りますから)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpPost.cpp</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* シンプルHTTP POSTクライアント
+* 2002.12.05 t.iga
+*/
+
+#include &lt;afx.h&gt;
+#include &lt;afxwin.h&gt;
+#include &lt;afxinet.h&gt;
+
+CWinApp theApp;
+
+/**
+ * 転送時のバッファサイズ
+ */
+const int BUF_SIZE = 2048;
+
+// 送信したいデータが格納されたファイル名
+const char* READ_FILE = &quot;postdata.dat&quot;;
+
+int _tmain(int argc, TCHAR* argv[], TCHAR* envp[]) {
+
+    // MFC を初期化して、エラーの場合は結果を印刷します。
+    if (!AfxWinInit(::GetModuleHandle(NULL), NULL, ::GetCommandLine(), 0))
+    {
+        _tprintf(_T(&quot;MFCの初期化に失敗しました.\n&quot;));
+        return 1;
+    }
+
+    if (argc &lt;= 1)
+    {
+        printf(&quot;Usage: HttpGet.exe http://www.google.co.jp/\n&quot;);
+        return -1;
+    }
+
+    try
+    {
+        char* uri = argv[1];
+
+        DWORD protocol = 0;
+        CString serverName;
+        CString fileName;
+        INTERNET_PORT port;
+
+        if (AfxParseURL(uri, protocol, serverName, fileName, port) == false)
+        {
+            printf(&quot;URLの分解に失敗しました。&quot;);
+            return -1;
+        }
+
+        printf(&quot;プロトコル[%ld] ポート[%ld] サーバ[%s] ファイル名[%s]\n&quot;,
+               protocol, port, (LPCSTR)serverName, (LPCSTR)fileName);
+
+        CInternetSession session(&quot;HttpPost - simple http client&quot;);
+        CHttpConnection* conn = session.GetHttpConnection(
+                                    serverName,
+                                    CHttpConnection::HTTP_VERB_POST,
+                                    port, NULL, NULL);
+        CHttpFile* file = conn-&gt;OpenRequest(
+                              CHttpConnection::HTTP_VERB_POST, fileName,
+                              NULL, 1, NULL, NULL,
+                              INTERNET_FLAG_RELOAD | INTERNET_FLAG_DONT_CACHE);
+        file-&gt;AddRequestHeaders(
+            &quot;Accept: text/*\r\nUser-Agent: HttpPost\r\nContent-Type: application/octet-stream\r\n&quot;);
+
+        {
+            CFile* readFile = new CFile();
+            if (readFile-&gt;Open(READ_FILE, CFile::modeRead) == FALSE)
+            {
+                printf(&quot;読み込みデータファイル[%s]を開くことができませんでした\n&quot;, READ_FILE);
+            }
+            else
+            {
+                DWORD fileLength = (DWORD)readFile-&gt;GetLength();
+                file-&gt;SendRequestEx(fileLength);
+                char szBuf[BUF_SIZE + 1];
+                int sendLength = 0;
+                for (;;)
+                {
+                    UINT result = readFile-&gt;Read(szBuf, BUF_SIZE);
+                    if (result &lt;= 0)
+                    {
+                        break;
+                    }
+                    file-&gt;Write(szBuf, result);
+                    szBuf[result] = 0;
+                    printf(&quot;S: %ld [%s]\n&quot;, result, szBuf);
+                    sendLength += result;
+                }
+                if (sendLength != fileLength)
+                {
+                    printf(
+                      &quot;送信しようとしたデータ長(%ld)と実際に送信したデータ長(%ld)とが不一致です\n&quot;,
+                      fileLength, sendLength);
+                }
+                file-&gt;EndRequest();
+                readFile-&gt;Close();
+                delete readFile;
+            }
+        }
+
+        DWORD statusCode;
+        file-&gt;QueryInfoStatusCode(statusCode);
+        if (statusCode &gt;= 300)
+        {
+            printf(&quot;何かしらエラー:%ld\n&quot;, statusCode);
+            return -1;
+        }
+
+        TCHAR buf[BUF_SIZE + 1];
+        for (;;)
+        {
+            int result = file-&gt;Read(buf, BUF_SIZE);
+            if (result &lt;= 0)
+            {
+                break;
+            }
+            buf[result] = 0x00;
+            printf(&quot;R: [%s]\n&quot;, buf);
+        }
+
+        file-&gt;Close();
+        delete file;
+        conn-&gt;Close();
+        delete conn;
+        session.Close();
+    }
+    catch (CInternetException* ex)
+    {
+        TCHAR szMsg[1024];
+        ex-&gt;GetErrorMessage(szMsg, 1024);
+        printf(&quot;Error occur: %s&quot;, szMsg);
+        ex-&gt;Delete();
+    }
+    return 0;
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いまいち HTTPのPOSTの仕組みについて、わたしは良くは理解していないということが分かりました。</P>
+<P><FONT color="#ff0000">2002.12.10</FONT> で これもC言語版を作ってみます。<BR>
+まずは情報源。下記のMicrosoftのページが役に立ちました。</P>
+<UL>
+  <LI>SAMPLE: Using HttpSendRequestEx for Large POST Requests<BR>
+  [replace-href:http://support.microsoft.com/default.aspx?scid=KB;en-us;q177188]
+</UL>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpPost.c (C言語バージョン)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* シンプルHTTP POSTクライアント
+* wininet.libをリンクに追加することが必要です。
+* 2002.12.10 t.iga
+*/
+#include &lt;windows.h&gt;
+#include &lt;wininet.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+#define BUFSIZE         (1024)
+
+int main(int argc, char* argv[])
+{
+    HINTERNET hsession = 0;
+    HINTERNET hconnect = 0;
+    HINTERNET hrequest = 0;
+    char szBuf[1025];
+    DWORD dwSize = 0;
+    INTERNET_BUFFERS inetbuf;
+
+    hsession = InternetOpen(&quot;HttpGet - simple http client&quot;,
+                            INTERNET_OPEN_TYPE_PRECONFIG,
+                            NULL, NULL, 0);
+
+    if (hsession == NULL)
+    {
+        printf(&quot;hsession==NULL&quot;);
+        return -1;
+    }
+
+    hconnect = InternetConnect(
+                   hsession,
+                   &quot;www.tcct.zaq.ne.jp&quot;,
+                   80,
+                   &quot;iga&quot;,
+                   &quot;password&quot;,
+                   INTERNET_SERVICE_HTTP,
+                   0,
+                   0);
+    if (hconnect == NULL)
+    {
+        printf(&quot;hconnect==NULL&quot;);
+        return -1;
+    }
+
+    hrequest = HttpOpenRequest(
+                   hconnect,
+                   &quot;POST&quot;,
+                   &quot;/iga/tosiki/igapyon/diary/index.html&quot;,
+                   NULL,
+                   NULL,
+                   NULL,
+                   INTERNET_FLAG_NO_CACHE_WRITE,
+                   0);
+
+    if (hrequest == NULL)
+    {
+        printf(&quot;hrequest==NULL&quot;);
+        return -1;
+    }
+
+    memset(&amp;inetbuf, 0, sizeof(INTERNET_BUFFERS));
+    inetbuf.dwStructSize = sizeof(INTERNET_BUFFERS);
+    inetbuf.dwBufferTotal = 5;
+
+    if (HttpSendRequestEx(hrequest, &amp;inetbuf, NULL, 0, 0) == FALSE)
+    {
+        printf( &quot;Error on HttpSendRequestEx %d\n&quot;, GetLastError() );
+        return -1;
+    }
+
+        // ここで実際のPOST動作を実行
+    strcpy(szBuf, &quot;ABCDE&quot;);
+    if (InternetWriteFile(hrequest, szBuf, 5, &amp;dwSize) == FALSE)
+    {
+        printf( &quot;Error on InternetWriteFile %d\n&quot;, GetLastError() );
+        return -1;
+    }
+
+    if (HttpEndRequest(hrequest, NULL, 0, 0) == FALSE)
+    {
+        printf( &quot;Error on HttpEndRequest %d\n&quot;, GetLastError() );
+        return -1;
+    }
+
+    szBuf[0] = 0;
+
+    {
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_CONTENT_LENGTH,
+
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;長さ[%s]\n&quot;, szBuf);
+        }
+
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_STATUS_CODE,
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;ステータス[%s]\n&quot;, szBuf);
+        }
+
+        dwSize = BUFSIZE;
+        if (HttpQueryInfo(
+                    hrequest,
+                    HTTP_QUERY_STATUS_TEXT,
+                    szBuf, &amp;dwSize, 0))
+        {
+            szBuf[dwSize] = 0;
+            printf(&quot;ステータス文字列[%s]\n&quot;, szBuf);
+        }
+    }
+
+
+    for (;;)
+    {
+        dwSize = BUFSIZE;
+        if (InternetReadFile(
+                    hrequest,
+                    szBuf,
+                    dwSize,
+                    &amp;dwSize) == FALSE)
+        {
+            break;
+        }
+
+        if (dwSize &lt;= 0)
+        {
+            break;
+        }
+
+        szBuf[dwSize] = 0;
+        printf(&quot;%s\n&quot;, szBuf);
+    }
+
+    InternetCloseHandle(hrequest);
+    InternetCloseHandle(hconnect);
+    InternetCloseHandle(hsession);
+
+    return 0;
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ふう。C言語は面倒です。しかし 後々の運用時修正を考えると MFCなんかに頼ったコードよりも生でCのAPIを呼んでいる方が信頼あるプログラムを開発できるように思っています。</P>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021126.html">2002/11/26 日記: HTTP経由ファイル取得ツール(Visual C++版)</A>
+  <LI><A href="ig020129.html">2002/01/29 日記: HTTP経由ファイル取得ツール(Java版)</A>
+</UL>
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

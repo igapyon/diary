@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030729.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030729.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-29</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.ctc-g.co.jp/new_htm/out_n2003_07/20030728_oy2.html">
+    <title>UFJグループの基幹系システムにLinuxを搭載した大規模IAサーバの納入が決定</title>
+    <link>http://www.ctc-g.co.jp/new_htm/out_n2003_07/20030728_oy2.html</link>
+    <description>Linux+Java全盛な時代が到来しつつありますなぁ。ソフト面では Oracle9i Real Application Clusters, BEA WebLogic Server 8.1J, JRockit の組み合わせなのだそうな。JRockitを使うってのが これまた 激しいなぁ。</description>
+    <dc:date>2003-07-29T22:30:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0307/29/njbt_02.html">
+    <title>マイクロソフト、「Virtual PC for Mac Version 6.1」日本語版を発表</title>
+    <link>http://www.zdnet.co.jp/news/0307/29/njbt_02.html</link>
+    <description>なんだか凄く不思議な感じのするニュースでした。</description>
+    <dc:date>2003-07-29T22:30:25</dc:date>
+  </item>
+
+</rdf:RDF>

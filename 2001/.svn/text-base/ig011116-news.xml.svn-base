@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011116.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011116.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-16</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://jakarta.apache.org/bcel/"/>
+        <rdf:li resource="http://www.watch.impress.co.jp/internet/www/article/2001/1115/msbug.htm"/>
+        <rdf:li resource="http://www.knt.ne.jp/tkr/onsen/"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fmobile/kaisetsu/midpforpalm10/midpforpalm10.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/15/01111505.html"/>
+        <rdf:li resource="http://jmm.cogen.co.jp/jmmarchive/a029001.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/16/acer.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/bcel/">
+    <title>Jakarta Byte Code Engineering Library (BCEL) RC1 リリース</title>
+    <link>http://jakarta.apache.org/bcel/</link>
+    <description>Javaバイトコードを操作するApacheライセンスなライブラリ。逆コンパイラとして既にXSLT実装の一部などでの利用実績があるのだそうな。暇を作って見てみようと思います。</description>
+    <dc:date>2001-11-16T08:54:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/internet/www/article/2001/1115/msbug.htm">
+    <title>「IE Cookie覗き見バグ」のパッチ公開 ～Microsoftのセキュリティー品質に懸念も</title>
+    <link>http://www.watch.impress.co.jp/internet/www/article/2001/1115/msbug.htm</link>
+    <description>いろいろセキュリティ問題が出てきてしまっていますね。ご苦労様です。しかし そもそも有識者の間では Microsoft製品のセキュリティー品質には ずいぶん昔から多大な懸念が払われ続けて来ました。ようやくそれら問題が 世間一般の方々にも認知され始めた、そしてマイクロソフトが最近ようやく 本気でセキュリティ品質向上に努めだした、というのが現状でしょうか。頑張って欲しいですっ q(^o^)P</description>
+    <dc:date>2001-11-16T14:45:42</dc:date>
+  </item>
+
+  <item rdf:about="http://www.knt.ne.jp/tkr/onsen/">
+    <title>近畿日本ツーリスト 天然温泉の宿</title>
+    <link>http://www.knt.ne.jp/tkr/onsen/</link>
+    <description>温泉に行きたいっ q(^o^)P</description>
+    <dc:date>2001-11-16T07:37:38</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fmobile/kaisetsu/midpforpalm10/midpforpalm10.html">
+    <title>続・PalmでJavaアプリケーションを動作させる ―MIDP for Palm OS 1.0正式版はここが変わった―</title>
+    <link>http://www.atmarkit.co.jp/fmobile/kaisetsu/midpforpalm10/midpforpalm10.html</link>
+    <description>MIDP for Palm がタイムリーに一望できる素晴らしい記事。グッドタイミングだなぁ。</description>
+    <dc:date>2001-11-16T13:15:15</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/15/01111505.html">
+    <title>マイクロソフトの評価，「Positive」の割には厳しい見解のガートナー</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/15/01111505.html</link>
+    <description>ガートナーによるMicrosoft社の分析。上手いところを突いた比較＆コメントなど さすがガートナーという感があります。</description>
+    <dc:date>2001-11-16T13:15:15</dc:date>
+  </item>
+  <item rdf:about="http://jmm.cogen.co.jp/jmmarchive/a029001.html">
+    <title>第29回　シリーズ“メディア”　Chapter 3　対談：成毛眞×村上龍</title>
+    <link>http://jmm.cogen.co.jp/jmmarchive/a029001.html</link>
+    <description>マイクロソフト・ビジネスモデルを成毛さんご自身が述べられていらっしゃいます。</description>
+    <dc:date>2001-11-16T13:15:15</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/16/acer.html">
+    <title>日本エイサー，15型LCDを3万9800円で</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/16/acer.html</link>
+    <description>ちょっと前は 10万円台だった15型TFT液晶ディスプレイが3万円台…。すごいご時世だなぁ。</description>
+    <dc:date>2001-11-16T13:15:15</dc:date>
+  </item>
+</rdf:RDF>

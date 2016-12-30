@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030620.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030620.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-20</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/19/njbt_09.html">
+    <title>「超漢字」で中古PCリサイクルを推進</title>
+    <link>http://www.zdnet.co.jp/news/0306/19/njbt_09.html</link>
+    <description>「超漢字」は旧世代ＰＣでも充分動作する、のだそうです。</description>
+    <dc:date>2003-06-20T19:09:01</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055709,00.htm">
+    <title>日立のコンサルタント、J2EEシステム構築の勘所を語る</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055709,00.htm</link>
+    <description>さみだれしきに設計以前に製造ってのは 良くありがちですなぁ。それはさておき 画像データはHTTPサーバに入れるべし、などの実用的な項目もおっしゃっています。ほほう。</description>
+    <dc:date>2003-06-20T19:09:01</dc:date>
+  </item>
+  <item rdf:about="http://jakarta.apache.org/commons/el.html">
+    <title>Jakarta Commons EL Component 2.0 (最初のリリース)</title>
+    <link>http://jakarta.apache.org/commons/el.html</link>
+    <description>JSP 2.0 の Expression Language インタープリター なのだそうな。インタフェースや抽象クラスのみのリリースであるように読み取れましたが… 裏取っていません。</description>
+    <dc:date>2003-06-20T19:09:01</dc:date>
+  </item>
+
+</rdf:RDF>

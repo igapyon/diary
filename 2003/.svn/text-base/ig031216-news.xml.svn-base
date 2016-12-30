@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031216.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031216.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://pc.watch.impress.co.jp/docs/2003/1213/psx3.htm">
+    <title>PSXハードウェア速報レポート</title>
+    <link>http://pc.watch.impress.co.jp/docs/2003/1213/psx3.htm</link>
+    <description>凄い！ 早速の分解レポート。PC Watchさん、ありがとう！ TVチューナーはNECですかっ。HDDは静音タイプなんですかっ。ただ ソフトウェアは ちと腐っているご様子。でもソフトウェアは後でアップデートが可能ですからねっ。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/webhole08/webhole01.html">
+    <title>第8回 ロジック系の検査 -問い合わせ画面に含まれる脆弱性-</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/webhole08/webhole01.html</link>
+    <description>おおおっ。WebのFORMに含まれる脆弱性の話題ですね。hiddenに入れていたら そこからクラックされるとか 刺激一杯の記事です。この一連のセキュリティホール系の記事は とっても刺激的ですね。身近なところでは私しか知っていないようなセキュリティ系Tipsが初心者向けにうまく説明されています。(いえいえ、別に私は特段セキュリティ系を詳しいわけではなく、単に仕組みの内容の範囲で、という事です) そして中村隆之さん＠三井物産GTIという方が印象に残りました。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/special/career-ten/tenken.html">
+    <title>知らぬ間にSEの市場価値は下がっていく…… エンジニアの職種別「キャリア点検」のポイント -市場価値の高いSE、ITコンサル、プロマネのキャリアとは-</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/special/career-ten/tenken.html</link>
+    <description>パソナキャレントの方が書いた 恐ろしい記事。ちなみに 私は自分の市場価値ってものが 最近よけいにわからなくなってきていたりします。そもそも私って 何の専門家なのかしらん。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/column/suematsu/story/0,2000048844,20062652,00.htm">
+    <title>第8回 オープンなビジネスモデルを模索する富士通</title>
+    <link>http://japan.cnet.com/column/suematsu/story/0,2000048844,20062652,00.htm</link>
+    <description>富士通もLinuxに ずっぽりコミットしているのだそうな。すごく気合いの入ったインタビュー記事。それにしても 恐るべき Linux人気。飛ぶ取り落とす勢いだなぁ。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fsecurity/rensai/rootkit07/rootkit01.html">
+    <title>第7回 不正アクセス情報の入手方法 -ログオン後に収集する揮発性情報-</title>
+    <link>http://www.atmarkit.co.jp/fsecurity/rensai/rootkit07/rootkit01.html</link>
+    <description>不正アクセス発見の初歩の初歩。でも 私にとっては有意義な記事でした。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20062745,00.htm">
+    <title>ものは言いよう--米マイクロソフト：「臨時のパッチは予防措置」</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20062745,00.htm</link>
+    <description>人為的ミスによりWindowsUpdateを暴発してしまったのだそうな…。おそろしや</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/tanpatsu/32proposal/02.html">
+    <title>データ標準化から目をそらす守旧派の罪と罰</title>
+    <link>http://www.atmarkit.co.jp/fxml/tanpatsu/32proposal/02.html</link>
+    <description>いや～ん。実際の現場では データ標準化が結局実施できないっていう局面って ありますよねぇ…。</description>
+    <dc:date>2003-12-16T06:57:44</dc:date>
+  </item>
+
+
+
+
+</rdf:RDF>

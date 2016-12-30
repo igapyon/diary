@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030415.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030415.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.msdn.microsoft.com/netframework/downloads/howtoget.asp">
+    <title>Microsoft .NET Framework 1.1 リリース</title>
+    <link>http://www.msdn.microsoft.com/netframework/downloads/howtoget.asp</link>
+    <description>日本語版は未リリースである模様。</description>
+    <dc:date>2003-04-15T13:16:43</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/jakarta05/jakarta05.html">
+    <title>@IT: 第5回　Commonsでオブジェクトプーリングを実現</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/jakarta05/jakarta05.html</link>
+    <description>Jakarta Commonsのオブジェクトプーリング利用の紹介。興味深い。</description>
+    <dc:date>2003-04-15T13:16:43</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/241974">
+    <title>NECがパソコン・サポートを強化、サイト刷新へ</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/241974</link>
+    <description>NECの121wareって、結構がんばっていますね。バックエンドで利用されているXML系データベースeXcelonっていうのが気になりました。</description>
+    <dc:date>2003-04-15T13:16:43</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/developer/java/index.html">
+    <title>ZDNetデベロッパー: Javaラーニング</title>
+    <link>http://www.zdnet.co.jp/developer/java/index.html</link>
+    <description>ただいま、にらめっこ中…</description>
+    <dc:date>2003-04-15T13:16:43</dc:date>
+  </item>
+
+</rdf:RDF>

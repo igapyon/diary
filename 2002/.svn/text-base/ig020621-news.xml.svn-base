@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020621.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020621.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.1/ja/">
+    <title>Java2 SDK Standard Edition 1.4.1 Betaリリース</title>
+    <link>http://java.sun.com/j2se/1.4.1/ja/</link>
+    <description>さて、1.4.1は何が違うのでしょうか。興味津々。1.4.1に関する情報をお持ちの方はお寄せ下さいませ。</description>
+    <dc:date>2002-06-21T22:58:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0206/20/02062002.html">
+    <title>サン、アプリサーバの無償提供で.Netに対抗</title>
+    <link>http://www.zdnet.co.jp/enterprise/0206/20/02062002.html</link>
+    <description>この無償提供という試みがどのような効果を出すのか、いまいち理解不能。</description>
+    <dc:date>2002-06-21T22:58:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/20/njbt_10.html">
+    <title>ノートPC・携帯の紛失による情報漏洩に低い危機意識　ガートナー調査</title>
+    <link>http://www.zdnet.co.jp/news/0206/20/njbt_10.html</link>
+    <description>そのとおりです。私も Palmを紛失しかかったことがあり、とっても反省しています。携帯端末・携帯電話だって とかく情報満載なIT機器の紛失には要注意ですね。</description>
+    <dc:date>2002-06-21T09:12:05</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/">
+    <title>第15回：緊急警告！！　今すぐ無線LANのセキュリティを設定せよ</title>
+    <link>http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/</link>
+    <description>無線LANってセキュリティ設定しないと セキュリティ無しなんですね。恐れ入りました。</description>
+    <dc:date>2002-06-21T22:58:18</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021023.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021023.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/23/nebt_12.html">
+    <title>Office 11、初のベータ版リリース</title>
+    <link>http://www.zdnet.co.jp/news/0210/23/nebt_12.html</link>
+    <description>MS Officeって マイクロソフトの売上全体の1/3近くを占めるんだそうです。</description>
+    <dc:date>2002-10-23T21:29:40</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/23/njbt_01.html">
+    <title>ルートサーバに一斉DoS攻撃</title>
+    <link>http://www.zdnet.co.jp/news/0210/23/njbt_01.html</link>
+    <description>そのような事件が発生していたのですね…</description>
+    <dc:date>2002-10-23T21:29:40</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/23/nebt_04.html">
+    <title>MS、「豪州でXbox販売中止」発言</title>
+    <link>http://www.zdnet.co.jp/news/0210/23/nebt_04.html</link>
+    <description>ゲーム機ベンダーもいろいろ大変ですねぇ。</description>
+    <dc:date>2002-10-23T21:29:40</dc:date>
+  </item>
+
+</rdf:RDF>

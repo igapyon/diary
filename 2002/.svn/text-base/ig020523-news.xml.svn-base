@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020523.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020523.html</link>
+    <language>ja</language>
+    <dc:date>2002-05-23</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0205/23/nebt_09.html">
+    <title>アプリケーションサーバ市場でBEAとIBMがデッドヒートを展開</title>
+    <link>http://www.zdnet.co.jp/news/0205/23/nebt_09.html</link>
+    <description>IBM時代の到来(再来)を予感させられる記事でした。とにかくIBMがシェアを伸ばし続けているようです。</description>
+    <dc:date>2002-05-23T09:48:13</dc:date>
+  </item>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/05/23/635933-000.html">
+    <title>【速報】 Netscape最新版公開!! バージョンは7.0! (PR1)</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/05/23/635933-000.html</link>
+    <description>Mozilla 1.0 RC2ベースになっているとのことです。正式版7.0は Mozilla 1.0 ベースになるのでしょうか。その点も大変興味あります。</description>
+    <dc:date>2002-05-23T09:48:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.object-refinery.com/jfreereport/">
+    <title>JFreeReport</title>
+    <link>http://www.object-refinery.com/jfreereport/</link>
+    <description>帳票作成ツール。LGPL。</description>
+    <dc:date>2002-05-23T09:34:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0522/036.html">
+    <title>ダスキン、６３００万円「口止め料」認める　肉まん問題</title>
+    <link>http://www.asahi.com/national/update/0522/036.html</link>
+    <description>食に携わるのだから、適切に仕事して欲しいです。</description>
+    <dc:date>2002-05-23T09:34:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/international/update/0523/010.html">
+    <title>３０年後、地表の７割で浸水危機　地球環境白書発表</title>
+    <link>http://www.asahi.com/international/update/0523/010.html</link>
+    <description>地球温暖化による海水面上昇とはまた別の話題です。何にせよ 環境問題には誠実に取り組む必要がありますし、私自身 身近なところから注意していきたいです。</description>
+    <dc:date>2002-05-23T13:50:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0523/012.html">
+    <title>「ジョナサン」の冷凍ホウレンソウから基準超す農薬検出</title>
+    <link>http://www.asahi.com/national/update/0523/012.html</link>
+    <description>このところ食のトラブルが多いですね。というか今までは公にされてこなかっただけ なのやも知れません。</description>
+    <dc:date>2002-05-23T13:50:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0523/013.html">
+    <title>阪大教授、学内で酒に酔い院生殴る　鼓膜破れるけが</title>
+    <link>http://www.asahi.com/national/update/0523/013.html</link>
+    <description>お酒には気を付けたいです。</description>
+    <dc:date>2002-05-23T13:50:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/0523/011.html">
+    <title>少女買春容疑で林野庁キャリアを再逮捕　警視庁</title>
+    <link>http://www.asahi.com/national/update/0523/011.html</link>
+    <description>私は世間に疎いですので知りませんが、いわゆる出会い系サイトというのは一般世間において機能している様子ですね。また 相場が 7～8万円であるということも読みとることができます。</description>
+    <dc:date>2002-05-23T13:50:18</dc:date>
+  </item>
+
+</rdf:RDF>

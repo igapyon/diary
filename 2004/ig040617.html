@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/06/17 日記: J2MEの高速化技術 , PureJavaなRDBMSについて</TITLE>
+<META name="DESCRIPTION" content="FindBugsの情報が増えてきました！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/06/17 日記: J2MEの高速化技術 , PureJavaなRDBMSについて</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] FindBugsの情報が増えてきました！</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2MEの高速化技術</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>JBlendが更にパフォーマンスを向上 先進のJava高速化テクノロジーを独自の技術で製品化<BR>
+  <A HREF="http://www.aplix.co.jp/release/2004/PR040611.shtml">http://www.aplix.co.jp/release/2004/PR040611.shtml</A>
+</UL>
+<P>HotSpotがJ2MEにおいて利用できる時代が到来するのですね。J2SEがJITからHotSpotに置き換わったのを経験した私には感慨深い記事です。ちなみに私は
+J2ME系は全然知らないわからない領域なんですけれどもね</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オープンソースでPureJavaなRDBMSのイロイロ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私が日記に下記の「誤った」内容が含まれた記載をしてしまいました。</P>
+<UL>
+  <LI>Berkeley DBの「Java版」リリース<BR>
+  <A HREF="http://www.itmedia.co.jp/enterprise/articles/0406/17/news015.html">http://www.itmedia.co.jp/enterprise/articles/0406/17/news015.html</A><BR>
+  Java製RDBMSって まだまだ未開拓な領域ですよね。…ちなみにライセンスを読もうと思いましたが、ライセンスの解読は、私には難しすぎました。
+</UL>
+
+<P>これについて、早速日記メーリングリストにツッコミを頂きました。<BR>
+すばやいツッコミ、みなさま、どうもありがとうございます m(_._)m</P>
+<HR>
+<P>[igapyon:01291] PureJavaなDBMS<BR>
+ご無沙汰しております。<BR>
+藤田ともうします。<BR>
+多分2度目のメールです。<BR>
+いつも楽しく拝読いたしております。m(__)m</P>
+<P>さて6月17日の「世間のニュースから」での「Berkeley DBの「Java版」」について、</P>
+<UL>
+  <LI>「Java製RDBMSって まだまだ未開拓な領域ですよね」
+</UL>
+<P>ですが、その昔、ＰＯＩＮＴＢＡＳＥという多分PureJavaなDBMSがあったやに思います<BR>
+チョットぐぐったら2-3出てきました・・・</P>
+<UL>
+  <LI>pointbase<BR>
+  <A HREF="http://www.pointbase.com/">http://www.pointbase.com/</A>
+  <LI>HSQLDB<BR>
+  <A HREF="http://hsqldb.sourceforge.net/">http://hsqldb.sourceforge.net/</A>
+  <LI>JDataStore<BR>
+  <A HREF="http://www.borland.co.jp/jdatastore/">http://www.borland.co.jp/jdatastore/</A>
+</UL>
+<P>案外ありそうです・・・・。<BR>
+これからも楽しく有益な記事きたいしております。</P>
+<HR>
+<P>[igapyon:01292] Re: ＰＵＲＥＪＡＶＡなＤＢＭＳ<BR>
+こんばんは。<BR>
+hsqldb よく使っています。zip を展開して設定ファイルをちょこっと直すだけで使え
+お手軽です。たしかJetspeedにも同包されてますよ。</P>
+<P>IBMが　Informix と共に手に入れた、CloudscapeもJavaです。</P>
+<UL>
+  <LI>Cloudscape<BR>
+  <A HREF="http://www-306.ibm.com/software/data/cloudscape/">http://www-306.ibm.com/software/data/cloudscape/</A>
+</UL>
+<HR>
+<P>ここから<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+みなさま、私の誤りを訂正してくださり、どうもありがとうございます。<BR>
+そういえば、オープンソースでPureJavaという条件を満たすもののひとつである
+hsqldb については、身近な人がどこかで利用していたように、徐々に思い出しつつあります
+(苦笑) というか雑誌記事もそういえば見たような… (記憶がザル状態です…)</P>
+<P>また、PureJavaな商用ベースのプロダクトも、こうやって見てみると 結構あるのですね…。そうか、そういえばBorlandも持っていたのですね…。<BR>
+トドメとして、Informixと聞いて、新人の時にInformixを使っていた私としては、思わずうるうるしてしまいました。なんだか、いろいろなこと、そして＠ITさまを追憶してしまいました。とにもかくにも、Informixは私にとってのRDBMSの原点なのです。(この件に関しては、いつか書かなくてはなりません…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>dW:なぜ、どのようにFindBugsを使うか</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>dW:なぜ、どのようにFindBugsを使うか<BR>
+  <A HREF="http://www-6.ibm.com/jp/developerworks/java/040611/j_j-findbug1.html">http://www-6.ibm.com/jp/developerworks/java/040611/j_j-findbug1.html</A><BR>
+  早速日本語版がリリースされました！ FindBugsの日本での普及を応援している私としては、とってもうれしいです。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>第32回全国アマチュアオーケストラフェスティバル 大阪大会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>第32回全国アマチュアオーケストラフェスティバル 大阪大会<BR>
+  <A HREF="http://orchestra.musicinfo.co.jp/~kcpo/AOF2004/">http://orchestra.musicinfo.co.jp/~kcpo/AOF2004/</A>
+</UL>
+<P>今年のJAOは AOF大阪大会となります。ちなみに私は今回は「マスターズ」へと参加します。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>NTTデータが金融機関向け情報系システム構築ソリューションを提供開始 IBMソフトウェアをOEM提供で合意<BR>
+  <A HREF="http://www.nttdata.co.jp/release/2004/061500.html">http://www.nttdata.co.jp/release/2004/061500.html</A><BR>
+  立場がらNTTデータさんの動向が気になる今日この頃。
+  <LI>「全てオープンソースでシステム構築」，NTTデータが技術者200人の専門部隊設立へ<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040609/145594/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20040609/145594/</A><BR>
+  興味深い部隊を設立なさっています。
+  <LI>プロジェクトマネジメントスキル 実践養成講座 第3回　タイムマネジメントは急がば回れ<BR>
+  <A HREF="http://jibun.atmarkit.co.jp/lskill01/rensai/pm03/pm01.html">http://jibun.atmarkit.co.jp/lskill01/rensai/pm03/pm01.html</A><BR>
+  なんだか、すごいことがかかれていました…。
+  <LI>東芝子会社、Turbolinux 10 Desktop プリインストールの dynabook を販売<BR>
+  <A HREF="http://japan.internet.com/linuxtoday/20040614/3.html">http://japan.internet.com/linuxtoday/20040614/3.html</A><BR>
+  Linuxプリインストール・ノートパソコンの普及やいかに…。いつも、いつも、期待しております。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

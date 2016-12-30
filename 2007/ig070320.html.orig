@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/03/20 日記: blanco Framework は 新たに Ruby と Python の ソースコード自動生成に対応していく予定</TITLE>
+<META name="DESCRIPTION" content="先日開催された OSC2007 Tokyo/Spring において、blanco Framework の展示が Ruby さんや Zope/Plone さんと同じ展示室であったことから対応を検討開始しています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ソースコード自動生成">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/03/20 日記: blanco Framework は 新たに Ruby と Python の ソースコード自動生成に対応していく予定</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ソースコード自動生成] 先日開催された OSC2007 Tokyo/Spring において、blanco Framework の展示が Ruby さんや Zope/Plone さんと同じ展示室であったことから対応を検討開始しています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework は 新たに Ruby と Python の ソースコード自動生成に対応していく予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は 新たに Ruby と Python の ソースコード自動生成に対応していくことを方針とします。</P>
+<P>先日開催された OSC2007 Tokyo/Spring において、blanco Framework の展示が <A href="http://jp.rubyist.net/">日本Rubyの会</A>さん, <A href="http://zope.jp/">日本Zopeユーザー会</A>さん, <A href="http://plone.jp/">Plone研究会</A>さんと同じ展示室であったことから対応を検討開始しました。また、<A href="http://zope.jp/">日本Zopeユーザー会</A>, <A href="http://plone.jp/">Plone研究会</A>の方々と OSC2007 Tokyo/Spring懇親会で親睦できたことも 重要な きっかけとなっています。オープンソースって 素晴らしいですね。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig061121.html">2006/11/21 日記: blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>＠IT記事脱稿</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">22:36</FONT> ＠IT連載記事を つい先ほど 脱稿することができました。これから社内レビュー回覧にかけます。<BR>
+…毎月の連載記事って大変ですね。一回分が終わったと思ったら、すぐに次の〆切が訪れる、そんな気がします。<BR>
+が…喉元過ぎれば熱さを忘れる性分なので、脱稿した途端 ゆるんでしまい、次の回の原稿をコツコツと書き進めるようなことは できないのです (苦笑)</P>
+<P><FONT color="#ff0000">22:41</FONT> とはいえ 今回の原稿が まだ 喉元を通過しきっていない (レビュー戻し作業が残っている) ので、事前に 次回のテーマ／内容をチェックしておこうと
+(さすがの私も) 思いたちました。さあて、次回のお題目は…</P>
+<UL>
+  <LI>「文字についての常識」 正規表現 (java.util.regex) , 文字エンコード (java.nio.charset)
+</UL>
+<P>こ、これはこれは、、、また 手間のかかりそうな題目になっています。早い目に ちょっとずつネタを出していこう、と思いました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

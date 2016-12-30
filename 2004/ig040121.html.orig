@@ -1,0 +1,535 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/01/21 日記: ソースコード生成タイプのR-Oマッピングを開発しませんか？</TITLE>
+<META name="DESCRIPTION" content="いま世間的に望まれているのは RDBに近いレイヤーでのソースコード生成タイプのO-RマッピングならぬR-Oマッピングであるように思えます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/01/21 日記: ソースコード生成タイプのR-Oマッピングを開発しませんか？</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] いま世間的に望まれているのは RDBに近いレイヤーでのソースコード生成タイプのO-RマッピングならぬR-Oマッピングであるように思えます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世のJavaな方々のWeb日記を見ていると、どうも みなさん納得のいくO-Rマッピングツールが無いようで</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここのところ 有識者の方々のWeb日記を見ていると、どうもみなさん 納得のいく
+O-Rマッピングツールを探して いろいろなオープンソースプロダクトを物色しまくられているようです。EJBは重すぎて、しかし
+世間の 『純粋な』O-Rマッピングの各種ツールはどうもなじめない。かといって
+RDBに近い種類 、分類するならば R-Oマッピングとでも表現できるようなツールは
+まだ現状世間的には一長一短である。、、、で 実は 私自身 私が完全にフィットして納得する
+O-Rマッピングツールが無くて 不満を感じている人の一人です。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>O-RマッピングならぬR-Oマッピングツールをオープンソースで作成しようと思うのですが
+      賛同される方はいらっしゃいますか？</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>納得行くプロダクトが既に存在はしていないのであれば、それじゃ新規に作ってしまえ、という乱暴な発想をしてみました。ええ、私は良く
+そういうことを思いつきます。特に オブジェクトとRDBとのマッピングには いつも気にしていて、そしてこだわりがある方なので、そこばかりは自作したって良いのではないかと考えたのです。(まえ
+一回自作した経験も持っていますし…)</P>
+<P>ということで、賛同者の存在はさておき、下記のようなスペックの<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>ツールを構想中です。有識者のみなさん
+とりあえず興味を感じてもらえますか？</P>
+<P>ポリシー</P>
+<UL>
+  <LI>RDBを中心とした従来型 オブジェクト-RDBマッピングについて、ソースコード自動生成を実現する。
+  <LI>最小限の設定ファイル指定にてR-Oマッピングが動作するようにする。
+  <LI>拡張機能として、より詳しい設定ファイル指定により、より高機能な (RDBで良く使いがちな)検索機能などが指定できるようになる。
+</UL>
+<P>仕様案</P>
+<UL>
+  <LI>RDBを中心とした R-Oマッピングツール。すなわち RDBにJavaのオブジェクトの型を合わせる。
+  <LI>RDB上のテーブルのスキーマを入力として Javaクラスファイルを生成する。
+  <LI>基本的には RDBのテーブルひとつづつに対応したJavaのクラスを作成する。
+  <LI>基本的には RDBのテーブル一つずつに対応した Javaのクラスを生成する (1テーブル
+  = 1クラス)。INSERT文やUPDATE文、DELETE文は対象テーブルに対して動作する。<BR>
+  (<FONT color="#ff0000">2004.01.23 追記</FONT> ただし 参照系=SELECTは複数テーブル結合が利便性が高いので この点を拡張機能による設定ファイルでの指定が可能なようにする)
+  <LI>このクラスを拡張したい場合には 原則として継承してメソッドを追加するようにする。自動生成されたソースファイルは変更を加えない運用を想定する。
+  <LI>ソースコード生成タイプとする。特定のライブラリには依存せず、単体でコンパイルおよび動作することが可能なJavaクラスファイルを生成する。
+  <LI>ライセンスは LGPLとする。(ここはこだわる方も多いのかも知れませんが…) ご希望のライセンスなど有りましたらツッコミ下さい。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD align="center">既に存在するRDBのテーブルを指定して R-Oマッピングツールを起動する
+      <UL>
+        <LI>シンプルモードでは、JDBCデータソース、ユーザ名、パスワードのみの指定。
+        <LI>拡張モードでは、シンプルモードの設定に加え、追加の検索やテーブルJOIN<BR>
+        などを設定ファイルで設定する。
+      </UL>
+      ↓<BR>
+      指定されたテーブルに対するアクセサクラスのソースファイルが生成される。<BR>
+      <TABLE border="1">
+        <TBODY>
+          <TR>
+            <TD>Tbl&lt;テーブル名&gt;.java<BR>
+            用意するメソッドは下記の通り
+            <UL>
+              <LI>ArrayList static selectAll(Connection conn)<BR>
+              全件SELECTを行うメソッド
+              <LI>&lt;このクラス自身の型&gt; select(Connection conn, String primarykey)<BR>
+              プライマリーキーを条件に１レコード取得するメソッド
+              <LI>boolean insert(Connection conn)<BR>
+              １レコード追加する
+              <LI>boolean update(Connection conn)<BR>
+              プライマリーキーを条件に１レコード更新する
+              <LI>boolean delete(Connection conn)<BR>
+              プライマリーキーを条件に１レコード削除する
+              <LI>パラメータをセットするための内部的に生成されるヘルパーメソッド
+            </UL>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      ↓<BR>
+      特定のライブラリに依存せずに Java APIと共にコンパイルすることが可能であるようにする。
+      <BR>
+      ↓<BR>
+      特定のライブラリに依存せずに 実行可能であるようにする。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>実動としては こんなイメージ</P>
+<UL>
+  <LI>『社員』テーブルがあったとする。社員コード、名前、年齢、性別といったスキーマを持っているとする。
+  <LI>ユーザ名・パスワード・表名『社員』 を指定して R-Oマッピングソースコード生成ツールを起動する
+  <LI>クラス 『社員』が作成される。privateフィールドとして 社員コード、名前、年齢、性別
+  が生成され、おのおの セッター・ゲッターが作成される。
+  <LI>テーブルに対するアクセサメソッドが作成されて提供される。
+</UL>
+<P>う～ん。日本語と英語のマッピングに関する考慮は やはり必要だろうか… しかしいっそのこと、テーブルが日本語名だったらクラス名も日本語で良いかも…。</P>
+<P>ここで大事なのは、おそらく <STRONG>RDB上の型とJavaの型とのマッピング</STRONG>をどのようにつけるのか、についてです。う～む この点も非常に興味深い。<BR>
+、、、ってな感じで 現在 仕様を抽出中です。前回作成した R-Oマッピングツールでの反省も生かしたいので、今回はじっくりと仕様を考え中です。</P>
+<P><FONT color="#ff0000">2004.01.22 追記</FONT><BR>
+R-O Map をイメージするための試作ソフト (モックアップ) を作成してみました。あるユーザでログインして
+利用可能な実テーブルに対するアクセサDAOのJavaソースコードをずんどこ生成します。実行は
+これ専用のディレクトリで解凍して実行することをお勧めします。<BR>
+とりあえず RoMapという名称(仮称)を命名してみました。コンセプトとしては
+JSourceCodeWizardをベースになっていますが、ソースコードは ほぼスクラッチでの書き下ろしです。(精神は強く引き継いでいます)</P>
+<UL>
+  <LI>RoMap<BR>
+  <A HREF="http://sourceforge.net/project/showfiles.php?group_id=34578&amp;amp;package_id=107617">http://sourceforge.net/project/showfiles.php?group_id=34578&amp;amp;package_id=107617</A>
+</UL>
+<P>ちょいで作成したにしては 良くできていると思います。ただし、動作確認は SQL
+Server 2000でしか行っていません。しかも試したのはソースコード自動生成の部分のみで、生成されたソースコードのテストは未実施です。また、とりあえず
+Oracleで動作するのかどうか非常に興味があります。</P>
+<P><FONT color="#ff0000">2004.01.23 追記</FONT><BR>
+RDB指向なツールであれば、VIEWやテーブルJOIN付きSELECTはサポートした方が良いというご意見をWeb日記経由で頂きました。貴重なご意見、どうもありがとうございます。早速仕様案に追記させて頂きました。</P>
+<UL>
+  <LI>unoの日記<BR>
+  <A HREF="http://d.hatena.ne.jp/uno/20040121#p9">http://d.hatena.ne.jp/uno/20040121#p9</A>
+  <LI>修行僧<BR>
+  <A HREF="http://d.hatena.ne.jp/wildcats0201/20040122#p1">http://d.hatena.ne.jp/wildcats0201/20040122#p1</A>
+</UL>
+<P>技術的に JOIN付きRDBアクセスを実現しようとしたら、必ず設定ファイルが必要になってくるので、ちと敬遠していました。(外部キー設定をきっかけにJOINを憶測するという手もありますが、それもやっかいであると想像しています。)
+しかしなるほど 追加での設定ファイル指定による追加メソッド自動生成ができたら、やはりそれは便利というか現実に即していますよね。(初期の構想としては
+テーブルJOINは 自動生成されたクラスを継承して実装することを想定していました。)<BR>
+この機能を取り込めたら RDB指向なツールになる事でしょう。</P>
+<P>少し横道にそれて、いつまでRDB全盛時代が続くのか、という事ですが、まだ2-3年はRDB主流な時代は続くと私は想像しています。ま、これは
+あっとおどろくORDBやODBなどが登場したら一気に変わりうる点でもありますが…。</P>
+<P>あと Sqletという<A href="http://www.seasar.org/">Seasar</A>の一部を担うツールが 私のコンセプトに少し近い様子です。まだ その Sqletの仕様は見ていないので
+どのように一致していてどのように不一致なのかは不明ですが…。</P>
+<P><FONT color="#ff0000">2005.02.14 追記</FONT> 結局 <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDB</A>というR-Oマッピングによるアプローチに落ち着きました。</P>
+<P><FONT color="#ff0000">2005.03.17 後日談</FONT> この提案は結実し、最終的には blancoDbという R-Oマッピングツールの公開に至りました。</P>
+<UL>
+  <LI><A href="../2005/ig050526.html">2005/05/26 日記: blancoDb Enterprise Edition 1.0.0 正式版リリース</A>
+  <LI><A href="../2005/ig050317.html">2005/03/17 日記: blancoDb 0.5.0 EA1 (早期アクセスプログラム1) リリース</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日記MLなどでの反応</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://www.sra.co.jp/people/r-matuda/">SRAの松田さん</A>から 応援のメールを頂きました。大変心強いです。ありがとうございます。PostgreSQLで行き詰まった時は応援頼みます。</P>
+<HR>
+<P><FONT color="#ff0000">スガさんのツッコミ</FONT><BR>
+Subject: [igapyon:01258] 2004/01/21 日記 : ソースコード生成タイプの R-O マッピング<BR>
+スガです。<BR>
+ソースコード生成タイプのR-Oマッピング について、色々機能限定ですが、最近似たようなものを作成しました。お仕事ですのでそれを出すわけにはいきませんが
+(^^;</P>
+<UL>
+  <LI>ソースコード生成にはテンプレートエンジン Velocity を使用<BR>
+  生成するソースコードのカスタマイズを楽にするため
+  <LI>生成後のクラスを利用する際には特にライブラリを必要としない<BR>
+  当然 JDBC ドライバは必要ですが :-)
+  <LI>１レコードに対応する ValueObject を生成
+  <LI>１テーブルに対応する DataAccessObject を生成 (VO を扱う)
+  <LI>機能は INSERT, UPDATE, DELETE と条件無し or 主キー条件 SELECT
+  <LI>ソースコードの生成の種は RDB スキーマを定義する XML ファイル<BR>
+  RDB 設計そのままでは都合が悪い場合のワンクッション。クラス名、フィールド名を変えたい場合など。<BR>
+  例えば XMLHoge を XmlHoge とするか XMLHoge とするかはプロジェクトごとの命名規則によりますよね。
+  <LI>RDB スキーマを読み込み上記 XML ファイルを生成するツールも作成<BR>
+  Ant で連続実行させればスキーマからクラス生成にはなりますね。
+  <LI>RDB のデータ型と Java の型を関連付けする設定ファイルが必要<BR>
+  INTEGER を int にするとか VARCHAR を String にするとか。
+  <LI>単純なことしか出来ない代わりに RDBMS に依存しない (はず)<BR>
+  RDBMS 特有の型を使う場合には非依存なんて無理ですけど。
+</UL>
+<P>JOIN に関しては、単純なものであれば View を作ることで対応する方が早いと思いますけど、如何でしょう。<BR>
+もちろん INSERT 等は出来ない場合が多いでしょうから SELECT 限定で。<BR>
+<BR>
+<BR>
+&gt; 自動生成されたソースファイルは変更を加えない運用を想定する<BR>
+<BR>
+実際には生成したクラスをそのまま使うということはしていません。extends して利用、ではなく、そのまま変更してしまっています。単純利用であれば変更不要ですが、なかなかそういうことはありません。</P>
+<P>ちょっと前の OO ML で、自動生成したソースコードはすぐにコンパイルした後削除してしまう、というアイデアが出ていました。これだと自動生成ソースコードの変更を行わない運用を徹底できますね。やるとしたら
+Ant 任せで良いでしょうし、ツール側で考慮する必要は無いでしょうけど。<BR>
+# 参照：[oosquare-ml:04186]<BR>
+<BR>
+# この程度なら書いても大丈夫ですよね……？<BR>
+# 別段珍しいアイデアというわけでもありませんし。<BR>
+<BR>
+--------------------------------------------------------------<BR>
+スガ</P>
+<HR>
+<P>Subject:  [igapyon:01260] 2004/01/21 日記 :  ソースコード生成タイプのR-Oマッピングを開発しませんか？<BR>
+<BR>
+<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>（Ａさん）＠好きになれないＲＤＢです。<BR>
+<BR>
+私も自動生成ツールを持ってます。<BR>
+紹介しようと思ったのですが、ちょっと面白いアイディアが浮かんだのでそれを実装してから出します。（早ければ月曜夜）<BR>
+多分、腕に自信のある人は、みんな何らかのツールを持っているんじゃないでしょうか？<BR>
+----<BR>
+<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A></P>
+<HR>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+いがぴょんです。<BR>
+（あんまりメールのお返事書けて無くてすみません）<BR>
+<BR>
+みなさま ツッコミ ありがとうございます。<BR>
+ツワモノな方々は 何かしら自動生成ツールを自作された経験があるものなのですね。勉強になります。（そういう私も
+O-Rマップで２作目ですから…）<BR>
+<BR>
+オシゴトなツールって 公開できないから その点 仕事時間外の趣味でオープンソースで作っちゃったものをオシゴトで利用、っていうのもアリかと思う今日この頃。<BR>
+渡辺さんの公開作品も楽しみにしています。<BR>
+<BR>
+あと、テーブルJOINについてですが、SQL文は手で書いてXMLに格納し、追加でパラメータと型のみを指定する。で
+何かしらデータが入っているとして、これをSELECTしてメタデータから型を取得して後ソースコードを自動生成を、と思っています。とにかく
+なるべく 特殊な設定は行わない、独自のものを極力導入しない、そしてターンキーに利用できる、というのを狙っています。<BR>
+スガさんのねらいと少し似ているのですが、昔作った O-Rマッピングツール(JSourceCodeWizard)に
+RDBスキーマから設定ファイルを自動生成するっていうツールをJSourceCodeWizardに機能追加してみたりしていました。<BR>
+いろいろJSourceCodeWizardでの反省を思い出しつつ、RoMapの実装方法を検討中…。</P>
+<HR>
+<P><FONT color="#ff0000">あおのさんのツッコミ</FONT><BR>
+あおの　です。<BR>
+<BR>
+&gt; オシゴトなツールって 公開できないから その点 オープンソースで作っちゃったものをオシゴトで利用、っていうのもアリかと思う今日この頃。<BR>
+<BR>
+最近、特に思います。仕事で使いまわしができそうなパッケージ作ったけど、このお仕事終わったらお蔵入りになっちゃいそうなが、良くあります。<BR>
+開発者のエゴかもしれないですけど、いいものができたら、他の人に見せたいとう欲望が（笑）</P>
+<HR>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>さんのツッコミ<BR>
+<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">渡辺義則</A>（Ａさん）です。<BR>
+私の自動生成ツールをＵＰしました。</P>
+<UL>
+  <LI><A HREF="http://www.hcn.zaq.ne.jp/no-ji/EntityGenerator/EntityGenerator.html">http://www.hcn.zaq.ne.jp/no-ji/EntityGenerator/EntityGenerator.html</A>
+</UL>
+<P>最初は伊賀さんのみたいに、生成するプログラムはコードの中に埋め込んでいたのですが、テンプレートファイルから読み込むように変えました。ちょうどServletとJSPの関係みたいな感じです。<BR>
+それと、DBに依存する部分は別クラスにしました。対応しているのは、OracleとMySQLです。他のDBにも容易に対応できるはずです。<BR>
+まだ全然使い込んでないので、いくつか修正が必要かもしれません。よければ使ってみてください。<BR>
+----<BR>
+渡辺義則</P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+さっそくプロダクトがポストされて びっくりしました。渡辺さん、やりますなぁ。さっそくソースファイルを閲覧させて頂きます。</P>
+<HR>
+<P><FONT color="#ff0000">2004.01.26</FONT> <A href="http://javaballista.ddo.jp/kjdiary/20040126.html#p1">Not Enough Resource 日記におけるツッコミ</A><BR>
+※要旨</P>
+<UL>
+  <LI>O/RではなくてR-Oマッピングなところがミソ
+  <LI>必ず、より低レベルのAPIを使えるような手段を残しておく
+  <LI>組み合わせられるようにしておく
+  <LI>（Generation Gapパターンなどを使うなど）機能拡張にソースコードは変更しないのが理想
+</UL>
+<HR>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>テーブルを列挙するためのトイプログラム</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>R-Oマッピングということなら、テーブル主導でオブジェクトが生成されるので、まず テーブルを列挙する<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="トイプログラム・デザインパターンの定義をここに定めます。">トイプログラム</A>が必要になります。<BR>
+とりあえずで書いたので SQL Server用の実装になっています。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * テーブルの列挙および項目の列挙の挙動を確認するためのTOYプログラム
+ * Copyright (C) 2004 t.iga
+ *
+ * 余力があれば getCrossReferenceも検討したい。
+ */
+
+import java.sql.*;
+
+public class EnumTableSample
+{
+        public static final void main(String[] args) {
+                Connection conn=null;
+                try{
+                        DriverManager.registerDriver(new com.microsoft.jdbc.sqlserver.SQLServerDriver());
+                        conn=DriverManager.getConnection(
+                                &quot;jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=Northwind&quot;,
+                                &quot;sa&quot;, &quot;&quot;);
+                        DatabaseMetaData metadata = conn.getMetaData();
+                        enumTables(metadata);
+                }catch(SQLException ex){
+                        ex.printStackTrace();
+                }finally{
+                        try{
+                                conn.close();
+                        }catch(SQLException ex){
+                                ex.printStackTrace();
+                        }
+                }
+        }
+
+        public static final void enumTables(DatabaseMetaData metadata) throws SQLException{
+                ResultSet resultSet = null;
+                try{
+                        resultSet = metadata.getTables(null, null, null, null);
+                        for(;resultSet.next(); ){
+                                String tableTyle = resultSet.getString(&quot;TABLE_TYPE&quot;);
+                                // タイプがTABLEであるもののみ扱う。
+                                if(tableTyle.equals(&quot;TABLE&quot;)){
+                                        String tableCat = resultSet.getString(&quot;TABLE_CAT&quot;);
+                                        String tableSchem = resultSet.getString(&quot;TABLE_SCHEM&quot;);
+                                        String tableName = resultSet.getString(&quot;TABLE_NAME&quot;);
+
+                                        System.out.println(tableName
+                                            + &quot; (&quot; + tableCat + &quot;,&quot; + tableSchem + &quot;)&quot;);
+
+                                        enumPrimaryKey(metadata, tableCat, tableSchem, tableName);
+                                        enumColumns(metadata, tableCat, tableSchem, tableName);
+                                }
+                        }
+                }finally{
+                        if(resultSet!=null){
+                                resultSet.close();
+                        }
+                }
+        }
+
+        public static final void enumColumns(
+                DatabaseMetaData metadata, String tableCat, String tableSchem, String tableName) 
+                throws SQLException {
+                ResultSet resultSetColumns = null;
+                try{
+                        resultSetColumns = metadata.getColumns(tableCat, tableSchem, tableName, null);
+                        for(;resultSetColumns.next();){
+                                System.out.println(&quot;  [No.&quot;
+                                     + resultSetColumns.getInt(&quot;ORDINAL_POSITION&quot;) + &quot;] カラム名:&quot;
+                                     + resultSetColumns.getString(&quot;COLUMN_NAME&quot;));
+
+
+                                switch(resultSetColumns.getShort(&quot;DATA_TYPE&quot;)){
+                                        case java.sql.Types.CHAR:
+                                                System.out.println(&quot;    CHAR&quot;);
+                                                break;
+                                        case java.sql.Types.VARCHAR:
+                                                System.out.println(&quot;    VARCHAR&quot;);
+                                                break;
+                                        case java.sql.Types.LONGVARCHAR:
+                                                System.out.println(&quot;    LONGVARCHAR&quot;);
+                                                break;
+
+                                        case java.sql.Types.DATE:
+                                                System.out.println(&quot;    DATE&quot;);
+                                                break;
+                                        case java.sql.Types.TIMESTAMP:
+                                                System.out.println(&quot;    TIMESTAMP&quot;);
+                                                break;
+                                        case java.sql.Types.DECIMAL:
+                                                System.out.println(&quot;    DECIMAL&quot;);
+                                                break;
+                                        case java.sql.Types.INTEGER:
+                                                System.out.println(&quot;    INTEGER&quot;);
+                                                break;
+                                        case java.sql.Types.SMALLINT:
+                                                System.out.println(&quot;    SMALLINT&quot;);
+                                                break;
+
+                                        default:
+                                                System.out.println(
+                                                    &quot;    サポート外のタイプ:&quot;
+                                                    + resultSetColumns.getShort(&quot;DATA_TYPE&quot;));
+                                                break;
+                                }
+/*
+ARRAY 2003 
+ public static final int BIGINT -5 
+ public static final int BINARY -2 
+ public static final int BIT -7 
+ public static final int BLOB 2004 
+ public static final int BOOLEAN 16 
+ public static final int CLOB 2005 
+ public static final int DATALINK 70 
+ public static final int DISTINCT 2001 
+ public static final int DOUBLE 8 
+ public static final int FLOAT 6 
+ public static final int JAVA_OBJECT 2000 
+ public static final int LONGVARBINARY -4 
+ public static final int NULL 0 
+ public static final int NUMERIC 2 
+ public static final int OTHER 1111 
+ public static final int REAL 7 
+ public static final int REF 2006 
+ public static final int STRUCT 2002 
+ public static final int TIME 92 
+ public static final int TINYINT -6 
+ public static final int VARBINARY -3 
+*/
+
+                                System.out.println(&quot;    TYPE_NAME:&quot;
+                                    + resultSetColumns.getString(&quot;TYPE_NAME&quot;));
+                                System.out.println(&quot;    COLUMN_SIZE:&quot;
+                                    + resultSetColumns.getInt(&quot;COLUMN_SIZE&quot;));
+
+                                System.out.println(&quot;    DECIMAL_DIGITS:&quot;
+                                    + resultSetColumns.getInt(&quot;DECIMAL_DIGITS&quot;));
+                                System.out.println(&quot;    CHAR_OCTET_LENGTH:&quot;
+                                    + resultSetColumns.getInt(&quot;CHAR_OCTET_LENGTH&quot;));
+
+                                switch(resultSetColumns.getInt(&quot;NULLABLE&quot;)){
+                                        case DatabaseMetaData.columnNoNulls:
+                                                System.out.println(&quot;    非NULL&quot;);
+                                                break;
+                                        case DatabaseMetaData.columnNullable:
+                                                System.out.println(&quot;    NULLを許可&quot;);
+                                                break;
+                                        case DatabaseMetaData.columnNullableUnknown :
+                                                System.out.println(&quot;    NULL不明&quot;);
+                                                break;
+                                }
+
+                                String strDefaultValue = resultSetColumns.getString(&quot;COLUMN_DEF&quot;);
+                                if(strDefaultValue != null){
+                                        System.out.println(&quot;    デフォルト値:&quot; + strDefaultValue);
+                                }
+                        }
+                }finally{
+                        if(resultSetColumns!=null){
+                                resultSetColumns.close();
+                        }
+                }
+        }
+
+        public static final void enumPrimaryKey(
+            DatabaseMetaData metadata, String tableCat, String tableSchem, String tableName)
+            throws SQLException {
+                ResultSet resultSet = null;
+                try{
+                        resultSet = metadata.getPrimaryKeys(tableCat, tableSchem, tableName);
+                        System.out.println(&quot;  PrimaryKey&quot;);
+                        for(;resultSet.next();){
+                                System.out.println(&quot;    COLUMN_NAME:&quot; + resultSet.getString(&quot;COLUMN_NAME&quot;));
+                                System.out.println(&quot;    KEY_SEQ:&quot; + resultSet.getShort(&quot;KEY_SEQ&quot;));
+                                System.out.println(&quot;    PK_NAME:&quot; + resultSet.getString(&quot;PK_NAME&quot;));
+                        }
+                }finally{
+                        if(resultSet!=null){
+                                resultSet.close();
+                        }
+                }
+        }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig050526.html">2005/05/26 日記: blancoDb Enterprise Edition 1.0.0 正式版リリース</A>
+  <LI><A href="../2005/ig050510.html">2005/05/10 日記: R/Oマッピング定義 2005.05.10版</A>
+  <LI><A href="../2005/ig050421.html">2005/04/21 日記: blancoDb Enterprise Edition 0.8.1 β1リリース</A>
+  <LI><A href="../2005/ig050317.html">2005/03/17 日記: blancoDb 0.5.0 EA1 (早期アクセスプログラム1) リリース</A>
+  
+  <LI>2005/02/02 日記: 「楽々FrameworkII」デモストレーションを見せて頂きました<BR>
+  <A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2005/ig050202.html">http://homepage2.nifty.com/igat/igapyon/diary/2005/ig050202.html</A>
+</UL>
+<P><FONT color="#ff00ff">関連するプロダクト</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDB</A>
+</UL>
+<P><FONT color="#ff00ff">関連するキーワード</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>べたべたのJava初心者をエキスパートに成長させるには…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>べったべたの初心者をJava技術者に育てるためには何が必要なのだろう？<BR>
+と思ったら、昔の日記を思い出しました。</P>
+<UL>
+  <LI>いがぴょんの資料: 2000/07/06版 資料: これからJava言語に着手しようと考えている情報処理技術者の方へ　<A HREF="http://www.nttd-bb.com/solution/igapyon1/memojavabegin.html">http://www.nttd-bb.com/solution/igapyon1/memojavabegin.html</A>
+</UL>
+<P>さて、３年以上経過して、状況は変わったのかしらん。ゆっくり考えてみようと思います。</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig040121.src.html' , result='ig040121.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig040121-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.hcn.zaq.ne.jp/no-ji/javamemo/javax_swing_JComponent.html">渡辺さん:Javaのメモ: javax.swing.JComponentSwingを極める</A> <FONT size="-2"><A target="_blank" HREF="http://www.hcn.zaq.ne.jp/no-ji/javamemo/javax_swing_JComponent.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>SwingやるならJComponentは しっかり押さえておかないと、とのこと。ふーむ。やるなぁ 渡辺さん。(そういえば ここ最近 渡辺さんとお仕事をご一緒する機会から遠ざかっています…。というか直近的には 私が大阪から遠ざかっていますね :-P)<LI><A HREF="http://jibun.atmarkit.co.jp/lcareer01/rensai/bookreview01/review01.html">「転職を考えたとき」に読んでほしい6冊 -キャリア実現研究室 Book Review（1）-</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lcareer01/rensai/bookreview01/review01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>「あたりまえのアダムス」って本の概要が 妙に心を揺さぶりました。<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063808,00.htm">Eclipseコンソーシアム、IBM主導から独立した非営利組織へ</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20063808,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>EclipseがIBMの手から巣立っていく、のかしらん。これまた興味深い。オープンソースとの共生ということでは IBMは 既に Apacheの各種プロジェクトで経験済みなので、これはうまく離陸する、ことを祈っています。<LI><A HREF="http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html">HTTP/1.1</A> <FONT size="-2"><A target="_blank" HREF="http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>HTTP/1.1仕様の日本語訳。これは嬉しい。<LI><A HREF="http://www.alles.or.jp/~torutk/oojava/codingStandard/index.html">Writing Robust Java Code (日本語訳)</A> <FONT size="-2"><A target="_blank" HREF="http://www.alles.or.jp/~torutk/oojava/codingStandard/index.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>関連して見つけたページ。結構よくできています。<LI><A HREF="http://sgtpepper.net/hyspro/diary/">はんばあぐさん: Hysteric Programmer 日記</A> <FONT size="-2"><A target="_blank" HREF="http://sgtpepper.net/hyspro/diary/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>メモっ!<LI><A HREF="http://jaxor.sourceforge.net/">Jaxor：コード生成タイプのO/Rマッピングツール</A> <FONT size="-2"><A target="_blank" HREF="http://jaxor.sourceforge.net/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>ネバーバード日記経由。コード生成タイプのO-Rマッピングに非常に興味を持っています。というか以前作成したことがあり、今でも関心を持っています。、、、オープンソースを新たにぶちあげる、というのはできないかなぁ… と思う今日この頃。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

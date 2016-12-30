@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/12/03 日記: blancoDbDotNet (blancoDbの .NET Framework版) 製造着手</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Editionの .NET Framework版の製造に着手しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/12/03 日記: blancoDbDotNet (blancoDbの .NET Framework版) 製造着手</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] blancoDb Enterprise Editionの .NET Framework版の製造に着手しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet (blancoDbの .NET Framework版)製造着手</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>は blancoDbDotNet という、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>
+Enterprise Editionの .NET Framework版の製造に着手しました。</P>
+<P>Java言語開発において blancoDbが開発の生産性・保守性に寄与する効果のほどが実際の数値として実証されてきたことに加え、.NET Frameworkのデータベース入出力周り
+(ADO.NETまわり) のコーディングに対する保守性が非常に悪いのを何とか改善したい、という側面の両方から開発が妥当であろうとの結論を得たからです。</P>
+<P>ということで blancoDbDotNetの製造に着手しました。これを年内に仕上げるというのだからキビシいスケジュールですね (苦笑)。なお、費用面や保守面
+(保守を行うであろう私がJavaの方が得意) などの都合から blancoDbDotNetの初期版は Java言語で製作することになりました。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A>
+Frameworkというアプローチゆえに、実装言語と実行環境との間は切れているから こういう芸当が可能になるのでしょう。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2006/ig060111.html">2006/01/11 日記: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</A>
+  <LI><A href="../2006/ig060609.html">2006/06/09 日記: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

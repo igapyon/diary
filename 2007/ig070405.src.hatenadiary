@@ -1,0 +1,29 @@
+2007-04-05 blancoStringConverterにRuby, Python対応を追加
+
+*p1*blancoStringConverterにRuby, Python対応を追加
+[[blanco Framework]]のblancoStringConverterが対応するプログラミング言語について、従来から対応していた Java, C#.NET, VB.NET, JavaScript, PHP に加え、Ruby, Python をソースコード自動生成対象として追加しました。
+これで対応するソースコード自動生成言語は7言語になります。
+
+●blancoStringConverter http://hp.vector.co.jp/authors/VA027994/blanco/blancostringconverter.html
+
+下記の Excelブックを入力とします。
+-http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenKatakana2Hiragana.xls
+
+これに対応した blancoStringConverterが自動生成したソースコードを下記に示します。
+-Java
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.java?view=markup
+-C#.NET
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.cs/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.cs?view=markup
+-JavaScript
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.js/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.js?view=markup
+-VB.NET
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.vb/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.vb?view=markup
+-PHP
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.php/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.php?view=markup
+-Ruby
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.ruby/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.rb?view=markup
+-Python
+--http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.python/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.py?view=markup
+
+※ポイント：Pythonソースコード自動生成において、#end というコメントを挿入しています。これは blancoソースコード生成の字下げの都合で必要なので、とりあえず現状では そのままソースコード出力結果に加えています。(技術的には取ることも可能なのですが、現時点では (私たちのために) これを出力するようにしています。)
+

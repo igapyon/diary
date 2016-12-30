@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/12/09 日記: Java: サンプル: iBatis: sqlMap 設定ファイルの読み込みサンプル</TITLE>
+<META name="DESCRIPTION" content="Apache iBatis の sqlMap.xml 設定ファイルを読み込んで内容を表示するシンプルなサンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/12/09 日記: Java: サンプル: iBatis: sqlMap 設定ファイルの読み込みサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Apache iBatis の sqlMap.xml 設定ファイルを読み込んで内容を表示するシンプルなサンプルを作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: サンプル: iBatis: sqlMap 設定ファイルの読み込みサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://ibatis.apache.org/">Apache iBatis</A> の sqlMap.xml 設定ファイルを読み込んで内容を表示するシンプルなサンプルを作成しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">ParseSqlMap.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Iterator;
+
+import com.ibatis.sqlmap.engine.builder.xml.SqlMapParser;
+import com.ibatis.sqlmap.engine.builder.xml.XmlParserState;
+import com.ibatis.sqlmap.engine.mapping.parameter.ParameterMapping;
+import com.ibatis.sqlmap.engine.mapping.statement.MappedStatement;
+import com.ibatis.sqlmap.engine.mapping.statement.StatementType;
+import com.ibatis.sqlmap.engine.scope.SessionScope;
+import com.ibatis.sqlmap.engine.scope.StatementScope;
+
+/**
+ * sqlMap のSQL記述をパースして表示するサンプル。
+ * 
+ * ibatis-2.3.4.726.jar で動作確認を実施。
+ */
+public class ParseSqlMap {
+    @SuppressWarnings(&quot;unchecked&quot;)
+    public static void main(final String[] args) throws Exception {
+        final XmlParserState parserState = new XmlParserState();
+
+        // sqlMap をパース。
+        final InputStream inStream = new BufferedInputStream(
+                new FileInputStream(new File(&quot;./test/data/Account.xml&quot;)));
+        try {
+            final SqlMapParser parser = new SqlMapParser(parserState);
+            parser.parse(inStream);
+        } finally {
+            inStream.close();
+        }
+
+        // パース結果を表示。
+        for (Iterator&lt;String&gt; iteSqlMapId = parserState.getConfig()
+                .getDelegate().getMappedStatementNames(); iteSqlMapId.hasNext();) {
+            final MappedStatement mStmt = parserState.getConfig().getDelegate()
+                    .getMappedStatement(iteSqlMapId.next());
+
+            // sqlMap 上の id。
+            System.out.println(&quot;sqlMap: id: [&quot; + mStmt.getId() + &quot;]&quot;);
+
+            // SQLのタイプの調べ方。
+            if (mStmt.getStatementType() == StatementType.SELECT) {
+                System.out.println(&quot;  タイプ: [SELECT]&quot;);
+            }
+
+            // SQLを表示。
+            final String sql = mStmt.getSql().getSql(
+                    new StatementScope(new SessionScope()), null);
+            System.out.println(&quot;  SQL: [&quot; + sql + &quot;]&quot;);
+
+            // パラメータを表示。
+            for (int indexParam = 0; indexParam &lt; mStmt.getParameterMap()
+                    .getParameterCount(); indexParam++) {
+                final ParameterMapping mapping = mStmt.getParameterMap()
+                        .getParameterMappings()[indexParam];
+                System.out.println(&quot;  入力パラメータ: [&quot; + mapping.getPropertyName()
+                        + &quot;]&quot;);
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ここまで辿り着くのに、意外に手間がかかりました…。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

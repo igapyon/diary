@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011130.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011130.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-30</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.kokusen.go.jp/soudan/now/keitai.html"/>
+        <rdf:li resource="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011118/1/"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/flinux/special/cygwin/cygwin01a.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/29/toshibadme.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/29/01112907.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0111/28/b_1127_17.html"/>
+        <rdf:li resource="http://linux.ascii24.com/linux/news/today/2001/11/29/631652-000.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/29/melon.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.kokusen.go.jp/soudan/now/keitai.html">
+    <title>国民生活センター:携帯電話のいわゆる「ワン切り」に関する相談について</title>
+    <link>http://www.kokusen.go.jp/soudan/now/keitai.html</link>
+    <description>国民生活センターの手による タイムリーで親切な情報です。インターネット関連で 今まで見た中でもっともすばらしい行政のアクションだと私は思いました。すごいぞっ 国民生活センター q(^o^)P</description>
+    <dc:date>2001-11-30T13:22:10</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011118/1/">
+    <title>よいSEにはよい報酬を，“人月いくら”はもうやめよう</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20011118/1/</link>
+    <description>う～ん。私はとりあえず人月いくらで 仕事をしていますなぁ。(苦笑)</description>
+    <dc:date>2001-11-30T09:27:57</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/flinux/special/cygwin/cygwin01a.html">
+    <title>真ゼロ円でできるXサーバ Windows 2000で動かすXFree86</title>
+    <link>http://www.atmarkit.co.jp/flinux/special/cygwin/cygwin01a.html</link>
+    <description>ホロン X on Windows と これが関連が強いのだそうな…。(私はあまり理解していない)</description>
+    <dc:date>2001-11-30T09:27:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/29/toshibadme.html">
+    <title>「Libretto」にTurbolinux＆Win2000デュアルOS環境</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/29/toshibadme.html</link>
+    <description>デュアルインストールモデルが だんだんと出てまいりました。感慨深いです。</description>
+    <dc:date>2001-11-30T11:37:49</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/29/01112907.html">
+    <title>Linuxサーバに「深刻な」セキュリティホール――早期の情報公開で各社混乱</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/29/01112907.html</link>
+    <description>wu-FTPのanonymousに深刻バグなのだそうです。</description>
+    <dc:date>2001-11-30T11:37:49</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0111/28/b_1127_17.html">
+    <title>Torvalds氏，「Linuxはまだ成熟していない」</title>
+    <link>http://www.zdnet.co.jp/news/0111/28/b_1127_17.html</link>
+    <description>私がぼんやり見ているだけでも 2.4.x系は まだまだ不安定ですものねぇ。早く安定してほしいなぁ。</description>
+    <dc:date>2001-11-30T11:37:49</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2001/11/29/631652-000.html">
+    <title>“ハッカーズギルド”を目指す ─(有)ヴァインカーブ設立─</title>
+    <link>http://linux.ascii24.com/linux/news/today/2001/11/29/631652-000.html</link>
+    <description>ネットワークゲームみたいなノリだなぁ (笑)。Vine Linuxとはとりあえず無関係なれど、Vine Linuxの今後を占う上でも 成功に期待しています。</description>
+    <dc:date>2001-11-30T11:37:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/29/melon.html">
+    <title>iPAQで動くLinux「Melon」と本体をセットで販売</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/29/melon.html</link>
+    <description>携帯端末もLinuxの時代が来るのでしょうかっ? (笑)</description>
+    <dc:date>2001-11-30T13:22:10</dc:date>
+  </item>
+
+</rdf:RDF>

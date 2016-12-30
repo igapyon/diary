@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021022.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021022.html</link>
+    <language>ja</language>
+    <dc:date>2002-10-22</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0210/15/n07.html">
+    <title>電机本舗とアート・ビビアン、「OpenOffice.org 」の完全日本語版を販売開始</title>
+    <link>http://www.zdnet.co.jp/enterprise/0210/15/n07.html</link>
+    <description>大変興味があります。4980円とは これまた格安感がありますねぇ。</description>
+    <dc:date>2002-10-22T09:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/22/nebt_05.html">
+    <title>Adobe、PDF機能拡張のDocument Server発表</title>
+    <link>http://www.zdnet.co.jp/news/0210/22/nebt_05.html</link>
+    <description>Acrobatも じりじりとバージョンアップしていっていますね。</description>
+    <dc:date>2002-10-22T09:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/business/story/20021016101.html">
+    <title>マイクロソフト、「マックからの乗り換え体験談」をでっち上げ？</title>
+    <link>http://www.hotwired.co.jp/news/news/business/story/20021016101.html</link>
+    <description>まあ 良くあることです。(やらせ広告は 規制される対象では無いでしょうから)</description>
+    <dc:date>2002-10-22T09:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/18/nebt_05.html">
+    <title>MS、予想上回る利益計上</title>
+    <link>http://www.zdnet.co.jp/news/0210/18/nebt_05.html</link>
+    <description>もうかっているご様子ですね</description>
+    <dc:date>2002-10-22T09:47:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0210/18/nebt_10.html">
+    <title>サーバに障害起きたら10万ドル</title>
+    <link>http://www.zdnet.co.jp/news/0210/18/nebt_10.html</link>
+    <description>ftServerという、NECからも出されているシリーズのマシンにて、ハードウェア障害に懸賞金(?)を付けるというもの。</description>
+    <dc:date>2002-10-22T09:47:52</dc:date>
+  </item>
+
+</rdf:RDF>

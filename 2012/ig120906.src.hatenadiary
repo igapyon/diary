@@ -1,0 +1,110 @@
+2012-09-06 JavaFX 2: 確認アイコン描画のサンプル
+
+*p1*[JavaFX] 確認アイコン描画のサンプル
+確認アイコンを描画したい場合に利用できるサンプルです。任意のサイズで表示でき、また画像ファイルを同梱しないでよいのも魅力です。
+☆色合いおよび、曲線に改善の余地があります。
+[f:id:igapyon:20120920104537p:image]
+**<Sample001.java>
+>|java|
+package sample;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.effect.Light;
+import javafx.scene.effect.Lighting;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.CubicCurveTo;
+import javafx.scene.shape.MoveTo;
+import javafx.scene.shape.Path;
+import javafx.stage.Stage;
+
+/**
+ * 確認アイコンを描画する JavaFX 2 サンプル
+ */
+public class Sample001 extends Application {
+    void drawInfoIcon(final int zoomRate, final Group root) {
+        final Color baseColor = Color.rgb(30, 30, 255);
+        final Color backColor = Color.rgb(120, 140, 255);
+
+        final Path pathBalloon = new Path();
+        {
+            root.getChildren().add(pathBalloon);
+            pathBalloon.getElements().addAll(
+                    new MoveTo(5 * zoomRate, 0),
+                    new CubicCurveTo(5 * zoomRate, 0, 0, 0, 0, 4 * zoomRate),
+                    new CubicCurveTo(0, 4 * zoomRate, 0, 8 * zoomRate, 4 * zoomRate, 8 * zoomRate),
+                    new CubicCurveTo(4 * zoomRate, 8 * zoomRate, 4 * zoomRate, 10 * zoomRate, 6 * zoomRate,
+                            10 * zoomRate),
+                    new CubicCurveTo(6 * zoomRate, 10 * zoomRate, 5 * zoomRate, 10 * zoomRate, 5.5 * zoomRate,
+                            8 * zoomRate),
+                    new CubicCurveTo(5.5 * zoomRate, 8 * zoomRate, 10 * zoomRate, 8.6 * zoomRate, 10 * zoomRate,
+                            4 * zoomRate),
+                    new CubicCurveTo(10 * zoomRate, 4 * zoomRate, 10 * zoomRate, 0, 4 * zoomRate, 0));
+            pathBalloon.setStrokeWidth(0);
+            pathBalloon.setFill(backColor);
+            pathBalloon.setOpacity(0.6);
+        }
+
+        {
+            final Light.Spot light = new Light.Spot();
+            light.setX(0);
+            light.setY(0);
+            light.setZ(10 * zoomRate);
+            final Lighting lighting = new Lighting();
+            lighting.setLight(light);
+            pathBalloon.setEffect(lighting);
+        }
+
+        {
+            Circle circle = new Circle(5 * zoomRate, 6.5 * zoomRate, 0.7 * zoomRate);
+            root.getChildren().add(circle);
+            circle.setFill(baseColor);
+        }
+
+        {
+            final Path path = new Path();
+            root.getChildren().add(path);
+            path.getElements()
+                    .addAll(new MoveTo(3 * zoomRate, 3 * zoomRate),
+                            new CubicCurveTo(3 * zoomRate, 3 * zoomRate, 3 * zoomRate, 1 * zoomRate, 5 * zoomRate,
+                                    1 * zoomRate),
+                            new CubicCurveTo(5 * zoomRate, 1 * zoomRate, 7 * zoomRate, 1 * zoomRate, 7 * zoomRate,
+                                    3 * zoomRate),
+                            new CubicCurveTo(7 * zoomRate, 3 * zoomRate, 6.5 * zoomRate, 4 * zoomRate, 5.5 * zoomRate,
+                                    4 * zoomRate),
+                            new CubicCurveTo(5.5 * zoomRate, 4 * zoomRate, 5 * zoomRate, 4 * zoomRate, 5 * zoomRate,
+                                    5.5 * zoomRate),
+                            new CubicCurveTo(5 * zoomRate, 5 * zoomRate, 4.5 * zoomRate, 4.5 * zoomRate, 5 * zoomRate,
+                                    3.5 * zoomRate),
+                            new CubicCurveTo(5 * zoomRate, 3.5 * zoomRate, 6.5 * zoomRate, 3.5 * zoomRate,
+                                    6.2 * zoomRate, 2.5 * zoomRate),
+                            new CubicCurveTo(6.2 * zoomRate, 2.5 * zoomRate, 6.6 * zoomRate, 2 * zoomRate,
+                                    5 * zoomRate, 1.5 * zoomRate),
+                            new CubicCurveTo(5 * zoomRate, 1.5 * zoomRate, 3 * zoomRate, 1.5 * zoomRate, 4 * zoomRate,
+                                    3 * zoomRate),
+                            new CubicCurveTo(4 * zoomRate, 3 * zoomRate, 3.5 * zoomRate, 4 * zoomRate, 3 * zoomRate,
+                                    3 * zoomRate));
+            path.setStrokeWidth(0);
+            path.setFill(baseColor);
+        }
+    }
+
+    @Override
+    public void start(final Stage primaryStage) {
+        primaryStage.setTitle("Draw question icon");
+
+        final Group root = new Group();
+        drawInfoIcon(10, root);
+
+        primaryStage.setScene(new Scene(root, 200, 200));
+        primaryStage.show();
+    }
+
+    public static void main(final String[] args) {
+        launch(args);
+    }
+}
+||<
+

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/02/22 日記: blancoNLpackGenerator を利用した言語パック自動生成手順サンプル</TITLE>
+<META name="DESCRIPTION" content="先日開催された OSC2009 Tokyo/Spring において、日本Apache Geronimoユーザグループ の方とソフトウェアの日本語化 + 言語パック作成について話がはずみました。この中で blancoNLpackGenerator の利用方法をお伝えすると約束しました。ここに、blancoNLpackGenerator の簡単な利用方法をメモします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/02/22 日記: blancoNLpackGenerator を利用した言語パック自動生成手順サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 先日開催された OSC2009 Tokyo/Spring において、日本Apache Geronimoユーザグループ の方とソフトウェアの日本語化 + 言語パック作成について話がはずみました。この中で blancoNLpackGenerator の利用方法をお伝えすると約束しました。ここに、blancoNLpackGenerator の簡単な利用方法をメモします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoNLpackGenerator を利用した言語パック自動生成手順サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日開催された OSC2009 Tokyo/Spring において、日本Apache Geronimoユーザグループ の方とソフトウェアの日本語化
++ 言語パック作成について話がはずみました。この中で blancoNLpackGenerator の利用方法をお伝えすると約束しました。ここに、blancoNLpackGenerator
+の簡単な利用方法をメモします。<BR>
+(といっても、build.xml に利用例サンプルを追加しただけです…)</P>
+<P>まず最初に、blancoNLpackGenerator の 0.1.15 以降のバージョンを取得してください。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。">blancoNLpackGenerator</A>
+</UL>
+<P>次に、この zip 形式のプロジェクトを Eclipse にインポートします。<BR>
+※多くの場合、変数「ANT_HOME」を追加する必要があります。ANT_HOME の内容には、Eclipse 3.3.2 では「?:/Program
+Files/eclipse/plugins/org.apache.ant_1.7.0.v200706080842」のように、Eclipse同梱のAntを指定するのが便利です。</P>
+
+
+<P>プロジェクト内に build.xml という Ant の build.xml ファイルがあります。このなかの タスク &quot;typical-generate-nlpack&quot;
+ターゲットが説明用のタスク記述例です。</P>
+<UL>
+  <LI><A href="http://svn.sourceforge.jp/view/blancoNLpackGenerator/tags/Release_0_1_15/build.xml?view=markup&amp;root=blancofw">build.xml (0.1.15)</A>
+</UL>
+<P>この Ant ターゲットを実行すると、言語パックを自動生成することができます。</P>
+<UL>
+  <LI>blancoNLpackGenerator による言語パック生成機能は、Eclipse プラグインのみならず、他の一般的な Java アプリケーションの言語パックについても自動生成することができます。<BR>
+  <FONT color="#ff0000">※2009-02-28追記</FONT> ただし、一般的な Java アプリケーションの言語パック自動生成の際には、現時点では以下のような制約があります。
+  <UL>
+    <LI>入力となる jar ファイルのファイル名の途中にアンダーバー (_) を含めるようにして下さい。
+  </UL>
+  <LI>この手順のなかで作成される XLIFF ファイルの内容を鍛えていくことにより、翻訳率が向上していくような仕組みになっています。
+  <UL>
+    <LI>&lt;trans-unit&gt; 要素に &lt;target&gt; 要素を追加していくことによって翻訳率を向上できます。
+    <LI>※XLIFF ファイルの内容を鍛える場合には、適切に XLIFF ファイルの構成管理を実施するようにしてください。
+  </UL>
+  <LI>geronimo-eclipse-plugin-2.1.3-deployable.zip をベースに利用例を記述しました。<BR>
+  →単純にこの手順を再生しただけでは、日本Apache Geronimoユーザグループ の翻訳成果は反映されません。あくまでも blancoNLpackGenerator の単純な利用例にすぎませんので、ご注意ください。
+</UL>
+
+<P>、、、と、これだけの説明でスミマセン。ある程度の Ant スキルがあれば、このサンプルを解読して実行できるものと期待します。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

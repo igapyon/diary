@@ -1,0 +1,15 @@
+2012-02-03 [Facelets] Servlet から  FacesContext を取得する
+
+*p1*[Facelets] Servlet から  FacesContext を取得する小技
+
+-https://cwiki.apache.org/confluence/display/MYFACES/Access+FacesContext+From+Servlet
+
+-http://www.thoughtsabout.net/blog/archives/000033.html
+
+MyFaces のページには、JSF 2.0 からは以下の API を使えと書いてある、、、
+-javax.faces.application.ResourceHandler および FacesServlet
+
+*p2*JSF で Web ブラウザ・キャッシュを無効化するうまい方法
+-http://ovaraksin.blogspot.com/2011/02/invalidate-browser-cache-with-custom.html
+
+

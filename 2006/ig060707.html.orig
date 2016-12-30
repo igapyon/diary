@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/07/07 日記: blancoSOAPの .NET Framework対応は、.NET Framework 2.0ベースへと移行します</TITLE>
+<META name="DESCRIPTION" content="対応の過程で、.NET Framework 1.1と .NET Framework 2.0との間で、Webサービスのアノテーションが劇的に変化していることを知りました。びっくりです。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/07/07 日記: blancoSOAPの .NET Framework対応は、.NET Framework 2.0ベースへと移行します</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 対応の過程で、.NET Framework 1.1と .NET Framework 2.0との間で、Webサービスのアノテーションが劇的に変化していることを知りました。びっくりです。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoSOAPの .NET Framework対応は、.NET Framework 2.0ベースへと移行します</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>の .NET Framework対応は、.NET Framework 2.0ベースへと移行します。大阪の某案件が
+.NET Framework 2.0ベースなのですが <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>のみ .NET Framework 1.1サポートを終了させ、.NET
+Framework 2.0ベースへとバージョンアップします。</P>
+<P>対応の過程で、.NET Framework 1.1と .NET Framework 2.0との間で、Webサービスのアノテーションが劇的に変化していることを知りました。びっくりです。一方で アノテーションの変更は <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A> がソースコードを自動生成するというアーキテクチャにより吸収できることも分かりました。</P>
+<P>ちなみに <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>の Java対応は、Axis2ベースへと移行する予定です。しかし具体的なスケジュールは現時点では
+ありません。</P>
+<P>なお、blancoDbDotNetだけは、先日の日記に書いたように .NET Framework 1.1および2.0の両方を対応し続けることとします。</P>
+<UL>
+  <LI><A href="ig060609.html">2006/06/09 日記: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>2006.07は blancoSOAPに稼働を振り分けます</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2006.07は blancoSOAPに稼働を振り分けます。特に .NET Framework対応部分に注力することになる見込みです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

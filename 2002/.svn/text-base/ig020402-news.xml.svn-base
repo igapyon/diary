@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020402.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020402.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-02</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0204/02/b_0401_10.html">
+    <title>反UNIXキャンペーンにUNIX</title>
+    <link>http://www.zdnet.co.jp/news/0204/02/b_0401_10.html</link>
+    <description>マイクロソフトとユニシスの反UNIXキャンペーンの載っているサイトは 何とFreeBSD + Apache で運用されているという爆笑モノの記事。しかも商用UNIXではなく オープンソースでの運用とは これはものすごい一撃です。</description>
+    <dc:date>2002-04-02T09:43:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/news/200203/28/emails.html">
+    <title>メール地獄？「メール処理で仕事時間が増えた」とユーザー</title>
+    <link>http://www.atmarkit.co.jp/news/200203/28/emails.html</link>
+    <description>ええと、私って メールを斜め読みしがちです。メール増でメール斜め読み係数増大。メールに充てる時間そのものは変えたくないので、必然的に1メールに対する集中力は減る傾向にあります。そうなってくると 仕事でのお客さんからのメールを優先しますよね。まずはメールを減らす努力が必要です。どうやったら減るのだろう…</description>
+    <dc:date>2002-04-02T09:04:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0203/30/b_0329_01.html">
+    <title>「Mozilla 1.0」，近く発表へ</title>
+    <link>http://www.zdnet.co.jp/news/0203/30/b_0329_01.html</link>
+    <description>大変楽しみです。</description>
+    <dc:date>2002-04-02T09:04:41</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0203/28/02032804.html">
+    <title>共通の敵のためにJava開発ツールで歩み寄るサンとIBM</title>
+    <link>http://www.zdnet.co.jp/enterprise/0203/28/02032804.html</link>
+    <description>無駄を省き 協力できるところは協力しあって欲しいものです。</description>
+    <dc:date>2002-04-02T09:04:41</dc:date>
+  </item>
+
+</rdf:RDF>

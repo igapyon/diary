@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011031.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011031.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-31</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/31/b_1030_06.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/31/fgh.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/31/b_1030_06.html">
+    <title>SAP，.NETではなくJavaを全面サポートか</title>
+    <link>http://www.zdnet.co.jp/news/0110/31/b_1030_06.html</link>
+    <description>実在しないものには賭けずに、実在するものに賭けた、、、のでしょうか？</description>
+    <dc:date>2001-11-01T15:03:21</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/31/fgh.html">
+    <title>福岡県が大容量バックボーンを整備，企業に無料開放</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/31/fgh.html</link>
+    <description>やるなぁ。</description>
+    <dc:date>2001-11-01T15:03:21</dc:date>
+  </item>
+</rdf:RDF>

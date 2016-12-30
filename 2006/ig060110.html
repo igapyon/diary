@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/01/10 日記: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</TITLE>
+<META name="DESCRIPTION" content="Apache Jakarta BCELに引き続き、こんどは Javassistを体験しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Javassist,バイトコード">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/01/10 日記: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Javassist,バイトコード] Apache Jakarta BCELに引き続き、こんどは Javassistを体験しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoJUnit2Docで良いかどうか名前を検討中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkのサブプロジェクトである JUnit用テストケース・ソースコードからドキュメントを自動生成するツールの名称について、「blancoJUnit2Doc」で良いかどうかを検討中です。</P>
+<P>私にネーミングのセンスが無いことが、あらためて実感される今日この頃です。</P>
+<P><FONT color="#ff0000">2006.01.14追記</FONT> 結局 プロジェクト名は blancoJUnit に落ち着きました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060114.html">2006/01/14 日記: blancoJUnitプロジェクト 始動</A>
+  <LI><A href="../2005/ig051221.html">2005/12/21 日記: blanco Frameworkの次期ロードマップ：単体試験工程の自動化</A>
+  <LI><A href="../2005/ig051130.html">2005/11/30 日記: blanco単体試験項目表自動生成(名称検討中), blancoJUnitは実現する方向性 , 朝のNHKニュースにて静岡のガンプラ工場が放映</A>
+  <LI><A href="../2005/ig051115.html">2005/11/15 日記: blancoJUnitの提案 , blancoApacheDistributionの構想</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BCEL以外のバイトコード解析ツールをざっくり調べてみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache Jakarta BCEL以外のツールを用いたバイトコード解析についても少し調べてみました。バイトコード解析ということで DI/AOPツールをまずざっくりと見させていただきました。</P>
+<P>Seasar2はJavassistを用いている模様です。</P>
+<UL>
+  <LI><A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/</A>
+</UL>
+<P>Spring Frameworkは 雰囲気的には CGLIBを用いている模様でした。(ウラを取っていません)</P>
+<UL>
+  <LI><A HREF="http://forum.springframework.org/archive/index.php/t-10121.html">http://forum.springframework.org/archive/index.php/t-10121.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist をざっくり調べました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Seasar2が採用していることもあり、Javassistを ざっくり見させていただきました。</P>
+<UL>
+  <LI><A HREF="http://www.csg.is.titech.ac.jp/~chiba/javassist/">http://www.csg.is.titech.ac.jp/~chiba/javassist/</A>
+  <LI>ライセンスはMozilla Public License 1.1
+  <LI>JBoss Sponsored Open Source Projectsに含まるという位置づけである模様。(JBossプロジェクトサイトからダウンロードしました)
+</UL>
+<P>また、はぶさんの日記経由で Javassistチュートリアルに到達しました。勉強になります。</P>
+<UL>
+  <LI>Javassistチュートリアル<BR>
+  <A HREF="http://www.smg.co.jp/seminar/techsquare/javassist01.html">http://www.smg.co.jp/seminar/techsquare/javassist01.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist を用いたクラスファイル(バイトコード)解析サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>先日に引き続き、こんどは Javassist を用いたクラスファイル(バイトコード)の解析を体験しました。</P>
+<UL>
+  <LI>Javassist-3.1 RC2をもちいて確認しました。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">JavassistSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/**
+ * Javassistを用いたクラスファイル(バイトコード)解析サンプル
+ */
+
+import java.io.BufferedInputStream;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.List;
+
+import javassist.bytecode.BadBytecode;
+import javassist.bytecode.ClassFile;
+import javassist.bytecode.CodeAttribute;
+import javassist.bytecode.CodeIterator;
+import javassist.bytecode.MethodInfo;
+import javassist.bytecode.Opcode;
+
+/**
+ * Javassistを用いたクラスファイル(バイトコード)解析サンプル
+ * 
+ * @author IGA Tosiki
+ */
+public class JavassistSample {
+    /**
+     * 解析を行いたいクラスファイル名を指定します。
+     */
+    private static final String CLASS_MODULE = &quot;./bin/JavassistSample.class&quot;;
+
+    public static void main(String[] args) {
+        try {
+            new JavassistSample().process();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    private void process() throws IOException, BadBytecode {
+        final BufferedInputStream fin = new BufferedInputStream(
+                new FileInputStream(CLASS_MODULE));
+        try {
+            final ClassFile cf = new ClassFile(new DataInputStream(fin));
+            final List listMethod = cf.getMethods();
+            for (int index = 0; index &lt; listMethod.size(); index++) {
+                final MethodInfo methodInfo = (MethodInfo) listMethod
+                        .get(index);
+                System.out.println(&quot;メソッド:&quot; + methodInfo.getName());
+                final CodeAttribute ca = methodInfo.getCodeAttribute();
+                final byte[] codes = ca.getCode();
+                for (final CodeIterator ci = ca.iterator(); ci.hasNext();) {
+                    final int line = ci.next();
+                    System.out.println(line + &quot;:&quot;);
+                    int opcode = codes[line];
+                    if (opcode &lt; 0) {
+                        opcode += 0x100;
+                    }
+                    switch (opcode) {
+                    case Opcode.ALOAD:
+                        System.out.println(&quot;  ALOAD&quot;);
+                        break;
+                    case Opcode.ALOAD_0:
+                        System.out.println(&quot;  ALOAD_0&quot;);
+                        break;
+                    case Opcode.ALOAD_1:
+                        System.out.println(&quot;  ALOAD_1&quot;);
+                        break;
+                    case Opcode.ALOAD_2:
+                        System.out.println(&quot;  ALOAD_2&quot;);
+                        break;
+                    case Opcode.ALOAD_3:
+                        System.out.println(&quot;  ALOAD_3&quot;);
+                        break;
+                    case Opcode.ILOAD:
+                        System.out.println(&quot;  ILOAD&quot;);
+                        break;
+                    case Opcode.ILOAD_0:
+                        System.out.println(&quot;  ILOAD_0&quot;);
+                        break;
+                    case Opcode.ILOAD_1:
+                        System.out.println(&quot;  ILOAD_1&quot;);
+                        break;
+                    case Opcode.ILOAD_2:
+                        System.out.println(&quot;  ILOAD_2&quot;);
+                        break;
+                    case Opcode.ILOAD_3:
+                        System.out.println(&quot;  ILOAD_3&quot;);
+                        break;
+                    case Opcode.ASTORE:
+                        System.out.println(&quot;  ASTORE&quot;);
+                        break;
+                    case Opcode.ASTORE_0:
+                        System.out.println(&quot;  ASTORE_0&quot;);
+                        break;
+                    case Opcode.ASTORE_1:
+                        System.out.println(&quot;  ASTORE_1&quot;);
+                        break;
+                    case Opcode.ASTORE_2:
+                        System.out.println(&quot;  ASTORE_2&quot;);
+                        break;
+                    case Opcode.ASTORE_3:
+                        System.out.println(&quot;  ASTORE_3&quot;);
+                        break;
+                    case Opcode.ISTORE:
+                        System.out.println(&quot;  ISTORE&quot;);
+                        break;
+                    case Opcode.ISTORE_0:
+                        System.out.println(&quot;  ISTORE_0&quot;);
+                        break;
+                    case Opcode.ISTORE_1:
+                        System.out.println(&quot;  ISTORE_1&quot;);
+                        break;
+                    case Opcode.ISTORE_2:
+                        System.out.println(&quot;  ISTORE_2&quot;);
+                        break;
+                    case Opcode.ISTORE_3:
+                        System.out.println(&quot;  ISTORE_3&quot;);
+                        break;
+                    case Opcode.ICONST_0:
+                        System.out.println(&quot;  ICONST_0&quot;);
+                        break;
+                    case Opcode.ICONST_1:
+                        System.out.println(&quot;  ICONST_1&quot;);
+                        break;
+                    case Opcode.ICONST_2:
+                        System.out.println(&quot;  ICONST_2&quot;);
+                        break;
+                    case Opcode.ICONST_3:
+                        System.out.println(&quot;  ICONST_3&quot;);
+                        break;
+                    case Opcode.ATHROW:
+                        System.out.println(&quot;  ATHROW&quot;);
+                        break;
+                    case Opcode.LDC:
+                        System.out.println(&quot;  LDC&quot;);
+                        break;
+                    case Opcode.LXOR:
+                        System.out.println(&quot;  LXOR&quot;);
+                        break;
+                    case Opcode.GOTO:
+                        System.out.println(&quot;  GOTO&quot;);
+                        break;
+                    case Opcode.IFEQ:
+                        System.out.println(&quot;  IFEQ&quot;);
+                        break;
+                    case Opcode.IFGE:
+                        System.out.println(&quot;  IFGE&quot;);
+                        break;
+                    case Opcode.IFGT:
+                        System.out.println(&quot;  IFGT&quot;);
+                        break;
+                    case Opcode.IFLE:
+                        System.out.println(&quot;  IFLE&quot;);
+                        break;
+                    case Opcode.IFLT:
+                        System.out.println(&quot;  IFLT&quot;);
+                        break;
+                    case Opcode.IFNE:
+                        System.out.println(&quot;  IFNE&quot;);
+                        break;
+                    case Opcode.IF_ACMPNE:
+                        System.out.println(&quot;  IF_ACMPNE&quot;);
+                        break;
+                    case Opcode.IF_ICMPNE:
+                        System.out.println(&quot;  IF_ICMPNE&quot;);
+                        break;
+                    case Opcode.IF_ICMPLT:
+                        System.out.println(&quot;  IF_ICMPLT&quot;);
+                        break;
+                    case Opcode.IINC:
+                        System.out.println(&quot;  IINC&quot;);
+                        break;
+                    case Opcode.INVOKEINTERFACE:
+                        System.out.println(&quot;  INVOKEINTERFACE&quot;);
+                        break;
+                    case Opcode.INVOKESPECIAL:
+                        System.out.println(&quot;  INVOKESPECIAL&quot;);
+                        break;
+                    case Opcode.INVOKEVIRTUAL:
+                        System.out.println(&quot;  INVOKEVIRTUAL&quot;);
+                        break;
+                    case Opcode.INVOKESTATIC:
+                        System.out.println(&quot;  INVOKESTATIC&quot;);
+                        break;
+                    case Opcode.NEW:
+                        System.out.println(&quot;  NEW&quot;);
+                        break;
+                    case Opcode.DUP:
+                        System.out.println(&quot;  DUP&quot;);
+                        break;
+                    case Opcode.PUTFIELD:
+                        System.out.println(&quot;  PUTFIELD&quot;);
+                        break;
+                    case Opcode.RET:
+                        System.out.println(&quot;  RET&quot;);
+                        break;
+                    case Opcode.RETURN:
+                        System.out.println(&quot;  RETURN&quot;);
+                        break;
+                    case Opcode.ARETURN:
+                        System.out.println(&quot;  ARETURN&quot;);
+                        break;
+                    case Opcode.MONITOREXIT:
+                        System.out.println(&quot;  MONITOREXIT&quot;);
+                        break;
+                    case Opcode.MONITORENTER:
+                        System.out.println(&quot;  MONITORENTER&quot;);
+                        break;
+                    case Opcode.BALOAD:
+                        System.out.println(&quot;  BALOAD&quot;);
+                        break;
+                    case Opcode.BASTORE:
+                        System.out.println(&quot;  BASTORE&quot;);
+                        break;
+                    case Opcode.TABLESWITCH:
+                        System.out.println(&quot;  TABLESWITCH&quot;);
+                        break;
+                    case Opcode.WIDE:
+                        System.out.println(&quot;  WIDE&quot;);
+                        break;
+                    case Opcode.JSR:
+                        System.out.println(&quot;  JSR&quot;);
+                        break;
+                    case Opcode.ARRAYLENGTH:
+                        System.out.println(&quot;  ARRAYLENGTH&quot;);
+                        break;
+                    case Opcode.CHECKCAST:
+                        System.out.println(&quot;  CHECKCAST&quot;);
+                        break;
+                    case Opcode.GETSTATIC:
+                        System.out.println(&quot;  GETSTATIC&quot;);
+                        break;
+                    case Opcode.LOOKUPSWITCH:
+                        System.out.println(&quot;  LOOKUPSWITCH&quot;);
+                        break;
+                    default:
+                        System.out.println(&quot;  このサンプルでは未対応のコードです:&quot; + opcode
+                                + &quot;(&quot; + Integer.toHexString(opcode) + &quot;)&quot;);
+                        break;
+                    }
+                }
+            }
+        } finally {
+            fin.close();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig060106.html">2006/01/06 日記: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkのバイトコード解析には とりあえず Apache Jakarta BCELを採用することにします</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>検討した結果、blanco Frameworkのバイトコード解析のためのライブラリには Apache Jakarta BCELを採用することにしました。というのも、blanco
+Frameworkではclassファイルの読み出しが主たる目的であり、しかもBCELの特定の機能に依存するのが良いようなので、トータル的には
+BCELの利用が望ましいと判断します。これは総合的な機能などの判断によるものではなく、たまたま私が持っているニーズに対してBCELの機能やライセンスが最もフィットするものと判断したのに過ぎません。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

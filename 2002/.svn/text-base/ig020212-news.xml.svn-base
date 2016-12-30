@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020212.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020212.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/08/10.html">
+    <title>総務省，NTT東西とYahoo！BBに行政指導</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/08/10.html</link>
+    <description>ADSL関連不具合が社会問題化してきたなぁ。</description>
+    <dc:date>2002-02-12T09:11:43</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/08/02.html">
+    <title>IBM「翻訳の王様」がバージョンアップ，TOEICに役立つ「単語帳機能」</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/08/02.html</link>
+    <description>バージョンアップ版 欲しい。衝動買いしそう… (笑) </description>
+    <dc:date>2002-02-12T09:11:43</dc:date>
+  </item>
+  <item rdf:about="http://www.asahi.com/national/update/0212/003.html">
+    <title>韓国最大のオンラインゲーム「リネージュ」が日本上陸</title>
+    <link>http://www.asahi.com/national/update/0212/003.html</link>
+    <description>私も試験サービス期間中 少しだけプレイしました。</description>
+    <dc:date>2002-02-12T09:11:43</dc:date>
+  </item>
+
+</rdf:RDF>

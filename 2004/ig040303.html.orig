@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/03/03 日記: 朝日新聞のような大手新聞社がRSS/RDFを公開する時代が到来</TITLE>
+<META name="DESCRIPTION" content="今日は とらねこ＆いがぴょん合コン＠東京銀座の開催日です。仕事をうまく終わらせて つつがなく現地に到着したく思います。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/03/03 日記: 朝日新聞のような大手新聞社がRSS/RDFを公開する時代が到来</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 今日は とらねこ＆いがぴょん合コン＠東京銀座の開催日です。仕事をうまく終わらせて つつがなく現地に到着したく思います。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>大手新聞社がRSS/RDFを公開する時代が到来！</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>アサヒ･コム速報ニュースのRSS/RDFを公開します (via <A href="http://d.hatena.ne.jp/yomoyomo/">YAMADAS現更新履歴</A>)<BR>
+  -全ジャンルの見出しと記事リンクを提供、１日から-<BR>
+  <A HREF="http://www.asahi.com/information/rss/index.html">http://www.asahi.com/information/rss/index.html</A>
+</UL>
+<P>なんてことなのでしょう。朝日新聞のような大手新聞社が RSS/RDFを公開する時代が到来するなんて。思えば
+一昔前は RSS配信しているのは ごく少数のマニアだけで、私も 数少ない RSS/RDF提供者として
+RSS/RDFマニアだったように思えます。そういえば 『いつかRSS/RDFを流行らせる』というのが
+私の抱負だった年もありました。それが今や メジャー系技術なんですもんね。びっくり仰天です。<BR>
+とりあえず RSS/RDF提供に関して、朝日新聞は他紙を大きく引き離した、と考える事ができますね。インターネット上の世界では
+多くの場合 『早い者勝ち』ですから、今回の朝日新聞のリードはそのまま 日本のインターネット界おける朝日新聞の立場を
+ぐいっと押し上げる大きな一歩であると考える事ができます。(そのアドバンテージは
+後で大きく響いてくるものなのです)</P>
+<P>で、過去の日記を探してみたら、RSSに初めてさわったのは ものすごく昔だと思っていたけれど、調べてみたら
+たった3年前ですね。(とはいえ この業界で新技術としての3年前だとしたら やはり大昔かも…)
+<BR>
+こんな すてきな技術を私に紹介してくださった <A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さまに、とっても感謝します。ありがとうございます。おかげで
+今では RSS/RDF技術者として 一歩ぬきんでた技術を持ち合わせる事ができています。</P>
+<P><STRONG><FONT color="#ff00ff">関連する資料</FONT></STRONG></P>
+<UL>
+  <LI><A href="../memo/memorss.html">資料: RDF/RSSについて , いがぴょんの日記ウェブページ RDF/RSS一覧</A>
+</UL>
+<P><STRONG><FONT color="#ff00ff">過去の日記</FONT></STRONG></P>
+<UL>
+  <LI>いがぴょんの日記: 2001/02/19 日記: 帯域制御付HTTP受信 , RSS(RDF Site Summary)表示サンプル<BR>
+  <A HREF="http://www.nttd-bb.com/solution/igapyon1/ig010219.html">http://www.nttd-bb.com/solution/igapyon1/ig010219.html</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugsのすばらしさに感動</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あおのさんに教えて頂いたPMDに続き、今度は <A href="http://www.cs.umd.edu/~pugh/java/bugs/">FindBugs</A>のすばらしさに感動しました。みるみる不具合の可能性のある箇所を見つけだして報告してくれます。しかも
+Eclipseと連動しているのだから、これはとっても便利です。バグを見つけるだけの目的なら
+FindBugsが最適だと感じました。、、、とあるソースコードを FindBugsをかけて閲覧していたら、既に
+致命的なバグを数件発見してしまいました。FindBugs、恐るべし。これがオープンソースで無料なんだもんなぁ…</P>
+<P>この件に関して、某ソフトの紹介資料として、<A href="http://matobaa.tdiary.net/">matobaa</A>さん達が作成された内部資料を読みました。すばらしいできばえでした。matobaaさん、ありがとう！
+、、、内輪受けだなぁ (苦笑)</P>
+<P><B><FONT color="#ff00ff">関連する資料</FONT></B></P>
+<UL>
+  <LI><A href="../memo/memoeclipse.html">資料: Eclipseメモ</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はてな顔出し</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://d.hatena.ne.jp/keyword/%A4%CF%A4%C6%A4%CA%B4%E9%BD%D0%A4%B7">はてな顔出し</A>という 恐ろしいイベント(?)が存在するのだそうな。とあるMLにて <A href="http://d.hatena.ne.jp/yomoyomo/20040303">yomoyomoさんが言及</A>されていたので反応してしまいました。<BR>
+…でも、私の日記って そもそも精一杯顔出ししていますねぇ… </P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>artonさん</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>MockObjects本家の<A class="keyword" href="http://d.hatena.ne.jp/keyword/Wiki">Wiki</A>から翻訳<BR>
+  <A href="http://arton.no-ip.info/collabo/backyard/?DevelopingJdbcApplicationsTestFirst" target="_blank">http://arton.no-ip.info/collabo/backyard/?DevelopingJdbcApplicationsTestFirst</A><BR>
+  訳者:artonさん
+  <LI>artonさんの著書目録<BR>
+  <A href="http://arton.no-ip.info/collabo/backyard/?Bibliography" target="_blank">http://arton.no-ip.info/collabo/backyard/?Bibliography</A><BR>Struts本やJ2EE本で きわどい本を書かれていますね。すごいです。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>今日は合コン</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は <A href="ig040203.html">とらねこ＆いがぴょん合コン＠銀座</A>です。早く仕事を終わらせて、事務所に戻って雑務を早く終わらせて、そして会場に向かいます。主催者の一人としてがんばりますです。(時間までに現場に到着するのが仕事です！)</P>
+<P>職場からの離脱に なんとか成功しました。これで安心して とらねこ＆いがぴょん合コンに参加できます！
+それではみなさん 現地でお会いしましょう。</P>
+<UL>
+  <LI><A href="http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040203.html" target="_blank">http://homepage2.nifty.com/igat/igapyon/diary/2004/ig040203.html</A>
+</UL>
+後日談 その１<BR>
+Eclipse Hyadesといふもの (入れ知恵 by nasobemeさん)
+<UL>
+  <LI><A href="http://www.eclipse.org/hyades/" target="_blank">http://www.eclipse.org/hyades/</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>後日談:参加者(ほぼ全員)の日記</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI><A href="http://d.hatena.ne.jp/muimy/20040305#p3" target="_blank">http://d.hatena.ne.jp/muimy/20040305#p3</A>
+  <LI>とらねこ放浪記<BR>
+  <A href="http://yamaguch.sytes.net/~tora/diary/?date=20040304" target="_blank">http://yamaguch.sytes.net/~tora/diary/?date=20040304</A><BR>
+  後ろで本当の合コンをやっていた(ToT)
+  <LI>tachさん: アウエー<BR>
+  <A href="http://tach.arege.net/d/20040303.html#p02" target="_blank">http://tach.arege.net/d/20040303.html#p02</A><BR>
+  『はんばあぐさんってあんな人だったのね…．』『悪魔の儀式だ』
+  <LI>tpircsさん: はんばあぐさんって…<BR>
+  <A href="http://d.hatena.ne.jp/tpircs/20040304#p1" target="_blank">http://d.hatena.ne.jp/tpircs/20040304#p1</A><BR>あはは…
+  <LI>後日談:matobaaさん(三角巾)<BR>
+  <A href="http://matobaa.tdiary.net/20040304.html" target="_blank">http://matobaa.tdiary.net/20040304.html</A><BR>『すげー顔ぶれ』
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IoCのTypeについて</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あおのです。 <BR>
+昨日はとても楽しかったです。また機会がありましたら是参加したいと思います。<BR>
+えっと IoCのTypeについての解説しているWebを探しているのですが、どこかご紹介していただけないでしょうか？よろしくお願い致します。＞みなさま</P>
+<HR>
+<P>はじめまして、wildcatsと申します。</P>
+<UL>
+  <LI><A href="http://cvs.picocontainer.codehaus.org/viewcvs.cgi/site/presentations/?root=picocontainer" target="_blank">http://cvs.picocontainer.codehaus.org/viewcvs.cgi/site/presentations/?root=picocontainer</A>
+</UL>
+<P>こちらのサイトにIoCのTypeについて解説しているPDFファイルが存在します。<BR>
+以上</P>
+<HR>
+<P>あおのさん<BR>
+wildcats　さん<BR>
+ありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>株式会社スターロジック</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI><A href="http://www.starlogic.jp/" target="_blank">http://www.starlogic.jp/</A>
+</UL>
+<DIV class=section>
+<P>羽生章洋さんの会社。羽生さんのメールアドレスを探すために このウェブページを探索しました。ああっ、インターネットって便利ですね。</P>
+</DIV>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>朝飯: アンジェロカフェ (JR田町 森永プラザビル別館２階) で朝飯</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>お気に入りの朝飯屋が この アンジェロカフェです。</P>
+<UL>
+  <LI><A HREF="http://www.angelfood.co.jp/tamati/tamati05.htm">http://www.angelfood.co.jp/tamati/tamati05.htm</A>
+</UL>
+<P>サンドウィッチセット 1コイン</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>昨日の晩飯: 日高屋 新小岩駅前店</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>夜遅く最寄り駅まで帰ってきた際のお気に入りのお店は下記です。</P>
+<UL>
+  <LI><A HREF="http://d.hatena.ne.jp/keyword/%C6%FC%B9%E2%B2%B0?kid=9060">http://d.hatena.ne.jp/keyword/%C6%FC%B9%E2%B2%B0?kid=9060</A>
+</UL>
+<P>とんこつねぎらーめん＋ギョーザで 原を満たしました。それにしても、このお店、よもは
+はてなキーワードとして登録されていようとは…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>はてなから転記するヒマも無し</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A href="http://d.hatena.ne.jp/igapyon/">いがぴょんの日記＠はてな</A> から日記を転記したいのですが、そのヒマもありません。うぬぬ (苦笑)<BR>
+とりあえず 合コンを乗り切ってから、転載しますね… (苦笑)</P>
+<P>2004.03.12 はてなから ようやっと転載しました。…それにしても 飲み会の頻度が
+少し高すぎやしないかしらん。ちと自粛しようと思うのであった…。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>査読原稿が届いていない件について</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>すみません。編集部の都合にて 発送が遅れております。期待して到着を待っておられる方々、大変にスミマセン。<BR>
+査読の戻しは 校正原稿到着後７日間、といった感じで行こうと思っております。</P>
+<P>なお、査読者の方々には ２手に分かれて頂こうと (私が勝手に) 思っています。</P>
+<UL>
+  <LI>イテレーション２<BR>
+  内容の間違いを指摘する
+  <LI>イテレーション３<BR>
+  ほぼ完成原稿の最終チェックを行う
+</UL>
+<P>編集者さんから、『一度の査読への人数が多すぎる』と指摘されたのを受けての対応です。<BR>
+どの方が いずれのイテレーションなのかについては、後日メールします。(後手後手ですみません)、、、全然手が回っていなくて申し訳ないです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>会社で組織変更に関する周知</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日 東京の事務所にて 来年度からの組織変更にまつわる周知がありました。既に掲示板に掲載されている件に関する周知およびＱ＆Ａだったのですが、私は事務所に寄りついていないので
+組織変更にまつわる情報は 今日が初めてでした。<BR>
+… 私が直接関わる、組織変更に関する１情報についても思いっきり 社内の電子掲示板に載っていました
+(苦笑)<BR>
+とりあえず 私が関わる この件に関しては 社内に限ってはオープン扱いということならしい模様です。</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig040303.src.html' , result='ig040303.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig040303-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.itmedia.co.jp/anchordesk/articles/0403/01/news064.html">オンライン人脈ネットワークはビジネスの役に立つか？</A> <FONT size="-2"><A target="_blank" HREF="http://www.itmedia.co.jp/anchordesk/articles/0403/01/news064.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>とりあえず私の経験から。いがぴょんOFF(日記OFF会)やテクノロジー系合コンは、ビジネス上の人脈として大変 役に立っております。日本を代表するライター様にお会いするチャンスを得られるだけではなく、日本でのトップレベルのテクニカルエンジニアからのトレンド情報は とても有意義なものです。(己の力の無さも思い知ります！) そして 実は それ以上に いがぴょんOFFや 合コンでのつながり無しではビジネスが成立しないほど それらのつながりに依存しています。これまで数回繰り返してきたビジネスパートナー拡大についても、実は私の個人的な日記でのつながりをテコに拡大して、そして現在も成り立ってきたという歴然とした経緯があります。、、、それは とりもなおさず オンライン人脈をテコに オフライン人脈へと発展＆転換させているという、働きかけを与えながら質の変化を遂げさせているという点にも重要な要素が感じられます。オンライン上の人脈そのものはケースバイケースによって濃密度合いが異なるのですが、それを より濃密なものに変質させる、あるいはオフラインでの人脈などに転化させる といった工夫が オンライン人脈が無かった時代には考えられないような幅広さを与えているのだ、と考えます。<LI><A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20064584,00.htm?ref=rss">ソフトバンクBB孫社長が顧客情報流出で謝罪、データ流出は約451万人分</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/media/story/0,2000047715,20064584,00.htm?ref=rss">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>最悪の個人情報流出事件ですね…。困ったものです。<LI><A HREF="http://www.atmarkit.co.jp/fjava/rensai3/devworks01/devworks01_1.html">Eclipseの動作をカスタマイズするためのEclipseのフィーチャーの使い方</A> <FONT size="-2"><A target="_blank" HREF="http://www.atmarkit.co.jp/fjava/rensai3/devworks01/devworks01_1.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2004</FONT><BR>およよ、developerWorks記事を ＠ITで掲載しているんですって。今日 認識してびっくりしました。(すでに認識したことがあったかもしれませんが…)</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

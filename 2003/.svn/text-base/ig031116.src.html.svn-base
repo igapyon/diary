@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/11/16 日記: Flash+Webサービスに向けて (Flashの.flaファイルの作り方)</TITLE>
+<META name="DESCRIPTION" content="ドラム エルモの入手に向けて。 , 後輩の結婚式に出席">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Flashアプリケーション＋Webサービス用フレームワーク構想</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>リッチクライアント・アプリケーションとして 私はFlashクライアントを本命視しています。<BR>
+ということで、先日から Flashアプリケーション用フレームワークを構想開始しました。XMLでもExcelでも何でもよいので、アプリケーションの構造を定義し、それを入力ファイルとして
+Flashクライアント(主にActionScript)とWebサービスを自動生成するものです。今
+最大の難関は FLAファイルの生成をいかに行うか、という点です。SWFファイルの生成については
+何通りも方法があるのですが、FLAファイルは生成方法が 今のところ見当たっておりません。強いて言えば
+ActionScriptの取り込みによる動的画面構成です。基本的な画面ウィジットを張り込んだ画面をベースに駆動するという方法がわかります。しかし
+う～ん。ほんとはFLAファイルを生成したいんですけれどもねぇ。</P>
+<P><FONT color="#ff0000">2003.12.10</FONT> Kambeさんのツッコミ<BR>
+Subject:  [igapyon:01220] Fla. ファイルの作成方法がわかるかも・・・？<BR>
+以前、.flaファイルをどのように書き出せばいいのか、ということが日記に書かれていたように思うのですが。<BR>
+最近ちょっと話題に上っている Flash for Linux という、Linux 上で動作する
+Flashクローン の開発環境（α版）がリリースされているそうです。</P>
+<UL>
+  <LI>[replace-href:http://slashdot.jp/i/articles/03/12/08/1949245_1.shtml]
+  <LI>[replace-href:http://f4l.sourceforge.net/]
+</UL>
+<P>上記のURLで分かるとおり、このツールはsourcefourgeで開発されていますので、プロジェクトページ</P>
+<UL>
+  <LI>[replace-href:http://sourceforge.net/projects/f4l/]
+</UL>
+<P>に行けばソースコードにアクセスでき、.flaファイルをする方法が分かるかもしれません。<BR>
+ご参考までに。<BR>
+-- <BR>
+Ryuzi Kambe</P>
+<P><FONT color="#ff00ff">ここから</FONT>[replace-link:いがぴょん]<BR>
+なるほど！ その切り口だと、.flaファイルの作成方法に かなり近づけそうですね。情報ありがとうございます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Flashベースの端末 ＝ F端末?</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>FlashベースでX端末のようなものを作成できないかどうか構想中。なんだか今日は
+くだらないアイデアが ぽんぽん出てきます。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>表参道付近で行われた後輩の結婚式に出席</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>大学オーケストラ後輩のS田さんの結婚式に出席してきました。彼はオケでは ヴァイオリン奏者でした。彼に名刺を渡したら
+NTTデータグループ企業に私が属しているのを知り 驚いていました。そりゃ 私自身
+会社の所有者が変わったときは 驚きましたものねぇ。で 彼の同期の ヴァイオリン奏者
+T橋さんが NTTデータで勤務している事を指摘していました。おおっ、これはいずれ突撃訪問してみなくては
+(苦笑)</P>
+<P>また彼は 某 S○Pで働いているので、これは名刺交換せねばならない、ということで、同僚の方々と名刺交換してきました。S○P社も
+自社パッケージソフトをJavaシフトしているらしくって そこいらの話しで盛り上がってきました。</P>
+<P>身近なところが 意外にも同業者だったりして、びっくりするものですねぇ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>私の仕事内容って…何なんでしょう</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某S○Pの方と話しているときに 「伊賀さんは どんなお仕事をされていますか？」と聞かれて、うっ
+と詰まってしまいました。そういえば、私の仕事は何だろう、って ここで考え込んでしまうのでした。そういえば
+以前 いがぴょんOFFで 『いがぴょんは Javaエバンジェリストだ』などと複数の方々に指摘されて、なるほど
+そうかなあと思い それを発音しようとしたのですが これは 先方には 某アニメの
+<STRONG>エバ</STRONG>ＸＸＸＸＸ くらいしか連想してもらえませんでした。</P>
+<P>それはさておき、確かに 私が 『これは流行る』と確信を持って思ったものは
+まず 間違いなく 流行っています。その点も 日記読者の方々は指摘していました。意訳して書くと
+『いがぴょんの日記は、最新技術フォローということでは 最先端の人からはずいぶん遅れている。しかし世間一般の人にとっては
+やはり最先端です。そして いがぴょんの日記にイチオシとして載ったものは 世の中で確実に流行っている』のだそうです。ということは
+強いて言えば 「情報技術予言者」とでも言ったところかしらん。私が本当に流行るって確信を得たものは
+ほぼ確実に流行っていますもの。(そしてやはり、自己紹介のときに 適切に表現できる文言から遠のいていくのであった)</P>
+<P>う～む。たとえば 『テクニカルライター』ってのを名刺に載っけるとか、、、でもそんなに多くは
+ライターもやっていませんですものね。う～ん。う～ん。<BR>
+う゛っ、書籍原稿が 手つかずのまま放置されている事を 今 強く再認識。今週の火曜日と木曜日は、何とか時間を確保して、まずは書籍原稿をフィニッシュせねば。そういえば、ZDNETからも督促のメールがあるのを
+自宅メールソフトで確認しました。… 今は東京にいて 受信メールの確認すらできない状態です。とほほ。わびの電話を入れなくては…。やはり
+自宅パソコンと切り離された環境は不便ですね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>和室ホテル世間動向</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は ここ最近 和室ホテルにこだわりまくっていましたが、そんなことをS田さんに話していたら、『外国からの旅行の方々に和室ホテルが人気』な情報をご存じでした。なんでも日経なにがし新聞に載っていたのだそうな。東京上野あたりに和室ホテルがあることもご存じでした。びっくりです。そういえば、そういった和室ホテルの多くには英語版の無料観光ガイドが置いてありました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>大阪に不在続きで、妻が怒りはじめる</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここのところ 大阪に不在続きで 妻が怒りはじめました。さて、善後策を考えねば…
+<BR>
+転勤や単身赴任などの噂がちらほら。子どもの教育の継続性を考えると、保育園卒業までは 大阪の今の保育園にこのまま通わせてあげたいという気持ちもあります。まあ、究極的には 仕事があるところで作業を行う、それだけの事なんですけれどもね。<BR>
+もしくは 忍術で 分身の術 とか… 変わり身の術だとか。 (伊賀 なだけに 意味もなく
+忍術に走っていくのでした…)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ドラム エルモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ミスタードーナッツの <A href="http://www.misterdonut.co.jp/kids/popup05/02.html">ドラム エルモ</A> を 今度子どもと買いに行きます。[replace-link:近藤正芳]さん、お待ち下さいませ。</P>
+<P><FONT color="#ff0000">2003.12.26</FONT> 後日談<BR>
+その後の顛末ですが… 東京と大阪をばたばた行き来している間にドラム エルモの発売期間が終了してしまいました。およよ。って思っていたら
+今度は クリスマスバージョンの ドラム エルモ が発売されました。これがご希望に添ったものかわからないまま買いました。しかし、、、今
+クリスマスバージョンのドラム エルモは 和音のおもちゃになっています。和音くん、どうしても我慢ができなかったのです
+(苦笑)<BR>
+っていうオチで スミマセン</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日記執筆環境のおかげで少し快適</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とりあえず、日記執筆環境だけは ノートパソコンに仕込んで来ましたので、日記が執筆できて更新できます。ずいぶん改善されはしました。しかし自宅メールを受信＆閲覧できないのは
+やはり かなり問題であるように思えてきました。(そういえば、仕事メールも閲覧できませんけれどもね)<BR>
+それはさておき、東京での宿泊先にて 無線LAN IEEE802.11b が利用可能なのは
+とてもインパクトが大きいです。やっぱりインターネット接続は とってもありがたいものです。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig031116-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

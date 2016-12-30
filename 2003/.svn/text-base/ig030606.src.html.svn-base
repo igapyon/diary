@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/06/06 日記: 今日も今日とて原稿執筆</TITLE>
+<META name="DESCRIPTION" content="しかもその上 日常のバグフィックスもあります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WLS: 今日はがんばるぞ～</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は 第2章を一気に書き上げる予定。あと第1章の仕上げ作業も！ (どうして私はギリギリになんないとダメなんだろう)<BR>
+<FONT color="#ff0000">13:30?</FONT> 第2章 一旦脱稿。2日ほど寝かせて自己査読して 編集さんに送付予定。<BR>
+<FONT color="#ff0000">16:16</FONT> 第1章 完全に脱稿。これを編集さんに送付。と思ったら 行き違いで 第1章 予稿に対してツッコミメールが来ていました。うぎゃあ。とりあえず まず脱稿原稿を見て頂くことに。<BR>
+尻から火がもうもうと燃え上がる。さて、続きは日常のバグフィックスへと。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日常のバグフィックス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>それとは別に 日常のバグフィックスもあります。こちらは C#.NET + ASP.NETです。ひょえ～。いっぱいいっぱいですなぁ。</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030606-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

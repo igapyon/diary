@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020221.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020221.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.internet.com/linuxtoday/20020220/2.html">
+    <title>Linux、企業で受け入れ</title>
+    <link>http://japan.internet.com/linuxtoday/20020220/2.html</link>
+    <description>ある読者投票で Red Hat Linux 7.2 がトップに出たのだそうです。前年のトップは MicrosoftのWindows 2000 Advanced Serverだったのだそうですが…。アメリカでは いよいよLinuxシフトが本格化の様相を示しつつあるのでしょうか。興味深い所です。</description>
+    <dc:date>2002-02-21T09:35:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/politics/update/0221/002.html">
+    <title>迷惑メールを法規制へ　対象分け２法案を提出の方向</title>
+    <link>http://www.asahi.com/politics/update/0221/002.html</link>
+    <description>迷惑メールは迷惑なので、何かしら規制は必要でしょう。</description>
+    <dc:date>2002-02-21T11:31:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0202/20/02022014.html">
+    <title>日本オラクルとミラクル・リナックス，ゼンリンデータコムをLinux環境で支援</title>
+    <link>http://www.zdnet.co.jp/enterprise/0202/20/02022014.html</link>
+    <description>日本でも Linuxによるシステム構築が どんどん活発化しているのでしょうか。MIRACLE LINUX は 私はあまり食指が動きませんが、でもまあ Oracleとの親和性は良いでしょうから、使うところも増える…のでしょうかねぇ。</description>
+    <dc:date>2002-02-21T09:35:33</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0202/20/02022007.html">
+    <title>檻から解き放たれたIBMの新メインフレーム「Raptor」</title>
+    <link>http://www.zdnet.co.jp/enterprise/0202/20/02022007.html</link>
+    <description>メインフレーム時代の再到来を期待。メインフレームが好きな私としては、頑張って欲しいものです。で メインフレーム上で動作するのは 当然 Linux OS。(メインフレームでの仕事経験は ほとんどありませんけれどもね :-P</description>
+    <dc:date>2002-02-21T09:35:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/20/03.html">
+    <title>「Office XP」30日間限定評価版を配布</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/20/03.html</link>
+    <description>うまいビジネスするなぁ。製品版だってアクティベートしないと動作しないから、それを有効活用して評価版で配布するという。ここらへんの手口は 大変勉強になります。</description>
+    <dc:date>2002-02-21T11:31:24</dc:date>
+  </item>
+
+  <item rdf:about="http://www.kobu.com/pdf/pdfxhand.htm">
+    <title>手書きPDF入門</title>
+    <link>http://www.kobu.com/pdf/pdfxhand.htm</link>
+    <description>昔 PDF生成を仕事で調べたことがあって、そのときは あっさりあきらめたということがあります。今 こういう記事を見て、今ならできるかもっ とかも思いますけれども、今だったら Apache FOPとかを使いますよねぇ。近藤さんの日記で このページを知る。</description>
+    <dc:date>2002-02-21T09:35:33</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/20/01.html">
+    <title>クリエイティブ，2万円切る5.1chシステム</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/20/01.html</link>
+    <description>最近スピーカーを買いたい衝動が ず～っと続いているので、思わず反応してしまいました。チャンネル数はともかく 良い音のスピーカーが欲しいっ！ (笑)</description>
+    <dc:date>2002-02-21T11:31:24</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/21/b_0220_02.html">
+    <title>Liberty Alliance，さらに勢力拡大――夏に仕様をリリース</title>
+    <link>http://www.zdnet.co.jp/news/0202/21/b_0220_02.html</link>
+    <description>オンラインユーザの認証が標準化されるのは望ましいことです。私はJava屋だから、この仕組みは成功して欲しいなぁ。</description>
+    <dc:date>2002-02-21T11:31:24</dc:date>
+  </item>
+
+</rdf:RDF>

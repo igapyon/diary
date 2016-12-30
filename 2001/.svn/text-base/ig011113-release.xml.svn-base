@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011113.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011113.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-13</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://jakarta.apache.org/slide/index.html"/>
+        <rdf:li resource="http://support.intel.com/support/createshare/camerapack/windows2000/drivers.htm"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://jakarta.apache.org/slide/index.html">
+    <title>Jakarta Slide 1.0.16 リリース</title>
+    <link>http://jakarta.apache.org/slide/index.html</link>
+    <description>Slide の最初の安定版リリースだそうです。コンテンツ管理、WebDAVサーバ／クライアント実装などを提供します。</description>
+    <dc:date>2001-11-13T07:44:28</dc:date>
+  </item>
+
+  <item rdf:about="http://support.intel.com/support/createshare/camerapack/windows2000/drivers.htm">
+    <title>Intel PC Camera CS630 Windows2000用ドライバ v2.0 リリース</title>
+    <link>http://support.intel.com/support/createshare/camerapack/windows2000/drivers.htm</link>
+    <description>愛用デジカメの新版ドライバがリリースされました。</description>
+    <dc:date>2001-11-13T08:27:15</dc:date>
+  </item>
+</rdf:RDF>

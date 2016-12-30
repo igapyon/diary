@@ -1,0 +1,12 @@
+2007-09-27 blancoMailCore α版 (0.4.0) リリース
+
+*p1*blancoMailCore α版 (0.4.0) リリース
+blancoMailのメール送受信コアライブラリ [[blancoMailCore]] のα版をリリースします。
+
+[[blancoMailCore]]は メール送受信にまつわる諸問題を解決する blancoMailソリューションの一部です。メール送受信を安全で簡単に利用できるようにするためのJavaライブラリ(jarファイル)です。 blancoMailCoreは内部的には JavaMail APIを利用します。しかし blancoMailCoreを使うと JavaMail APIよりもずっと簡単にメール送受信を利用することができます。blancoMailCoreが提供するいくつかのバリューオブジェクトに値を設定してメソッドを呼び出すだけで、簡単にメール送受信機能を利用できます。
+※他の blanco Frameworkプロダクト群と異なり、blancoMailCoreはソースコード自動生成処理系ではありません。通常の実行ライブラリによる提供となります。
+
+ようやっとα版としてリリースできるレベルに到達しました。特に、最近の２連続の連休の間に、目覚ましい進捗があったように記憶します (苦笑)。
+
+-http://www.igapyon.jp/igapyon/diary/2007/ig070926.html
+

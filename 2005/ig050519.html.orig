@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/05/19 日記: blanco Framework Foundation(仮称) 設立準備集会</TITLE>
+<META name="DESCRIPTION" content="今日 blanco Framework関係者の4人が宇都宮に集まり、blanco Framework Foundation (仮称) の最初の設立準備集会を行いました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/05/19 日記: blanco Framework Foundation(仮称) 設立準備集会</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 今日 blanco Framework関係者の4人が宇都宮に集まり、blanco Framework Foundation (仮称) の最初の設立準備集会を行いました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework Foundation (仮称) の設立準備集会</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は blanco Framework関係者の4人が宇都宮に集まり、blanco Framework Foundation (仮称) の最初の設立準備集会を行いました。</P>
+<UL>
+  <LI><A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?Saisse" TITLE="いがぴょんの日記ウェブページの読者で、東京OFF会参加経験をお持ちの方。ものすごいのは、いがぴょん配下で実開発を行った経験があるという点です。">Saisse</A> さん
+  <LI><A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A> さん
+  <LI>うっちー さん
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>
+</UL>
+<P>最古の4人とでも呼ぶことにしましょう。とりあえず毎週木曜日を定例会議の日として宇都宮に集まって、進捗確認や仕様決定を行うことになりました。</P>
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkの各構成要素の実装状況 (2005.05.19)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco</A> Frameworkの各構成要素の現状は 下記のようになります。</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition : RC1<BR>
+  Excelブックに書かれたSQL文と DBメタ情報をもとに、Java/JDBC用 R/Oマッピング・ソースコードを自動生成。
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="「画面定義書」という Excelブックから、Struts用のソースコードを自動生成します。">blancoStruts</A> : EA0<BR>
+  Jakarta Struts用ソースコード(FormとAction)を Excel様式から自動生成。<BR>
+  すでに実装があり、実在する複数のプロジェクトで利用されていますが、時間の都合、誰も一般公開リリース関連作業に着手できていません。
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。">blancoReport</A> : 開発中, 今月中にEA0 リリース(?)<BR>
+  Excelでフォームを作成し、Excel帳票またはPDF帳票のためのソースコードを自動生成。
+</UL>
+<UL>
+  <LI>blancoCsv : 開発に着手できず、、、開発しなくては怒られる状態 ※2005.05末 EA0予定<BR>
+  CSV入出力用ソースコードをExcel様式から自動生成
+  <LI>blancoExcelドキュメントとJavaソースコードの一貫性チェック (仮称)<BR>
+  Excel設計書とJavaソースコードとの間の乖離をチェックしてくれるという究極のツール。仕様設計中…
+  <LI>blancoFieldCopy : ※構想のみ<BR>
+  Excel様式からPOJO間のフィールドコピー用メソッドを含んだJavaソースコードを自動生成
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A> :※構想のみ<BR>
+  Excel様式の中のキーと値をもとにプロパティファイルを自動生成
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition RC1 リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition の出荷候補版1 (RC1) を作成しました。以降、基本的に
+致命的な不具合でも無い限り修正を凍結し、本リリースに向けた作業に注力していきます。<BR>
+…なにはともあれ、ドキュメント類を書かなくては (苦笑)</P>
+<P><FONT color="#ff0000">2005.05.20追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> の利用者が一気に増えてきました。みなさん、どうもありがとうございます。すると、今までは発生しなかった
+(今までは そのパターンに組み合わさらなかった) ようなバグが発生しています。…そして みなさん、ご迷惑をおかけしています。<BR>
+少なくとも 本リリースの前に RC2リリースは経由する必要がありそうです (T_T)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>teamworkというオープンソースでPure Javaなプロジェクトマネジメントツール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とても気になるソフトの記事がありました。プロジェクト管理ソフトの一種であるようです。</P>
+<UL>
+  <LI>Pure Javaのオープンソースプロジェクトマネジメントツール 「teamwork」<BR>
+  <A HREF="http://pcweb.mycom.co.jp/news/2005/05/18/012.html">http://pcweb.mycom.co.jp/news/2005/05/18/012.html</A>
+  <UL>
+    <LI><A HREF="http://sourceforge.net/projects/teamwork">http://sourceforge.net/projects/teamwork</A>
+    <LI><A HREF="http://www.twproject.com/">http://www.twproject.com/</A>
+  </UL>
+</UL>
+<P>ライセンスがLGPLとのこと。私は このソフトが 本来の目的であるプロジェクト管理ソフトとしても興味がある上に、LGPLライセンス下で配布されている
+RDBMS用 表スキーマ (サンプルデータベース) としても興味があります。しびれました。<BR>
+ダウンロードして試してみたりしてみたいのですが、時間が無いです (T_T)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

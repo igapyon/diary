@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020228.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020228.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-28T06:30:45</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/rensai/cocoon04/cocoon4a.html">
+    <title>XMLサーバ／Cocoon自由自在！ 最終回　XML文書からPDFファイルを生成する</title>
+    <link>http://www.atmarkit.co.jp/fxml/rensai/cocoon04/cocoon4a.html</link>
+    <description>TIS太田さんの、Cocoonを使ったPDF作成の記事。FOPにも触れられています。この記事 めちゃめちゃ気合いが入っています。良い記事だと思います。</description>
+    <dc:date>2002-02-28T09:13:35</dc:date>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/bookreview/01/bookreview.html">
+    <title>現場のエンジニアに贈る、スキルチェンジ、スキルアップのための6冊</title>
+    <link>http://www.atmarkit.co.jp/fjava/bookreview/01/bookreview.html</link>
+    <description>定番の良書が一冊も含まれていない点が、大変不満です。この記事は 私の中ではダメダメ記事です。</description>
+    <dc:date>2002-02-28T09:13:35</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/27/b_0226_03.html">
+    <title>W3C，標準規格の特許料徴収案を取り下げ</title>
+    <link>http://www.zdnet.co.jp/news/0202/27/b_0226_03.html</link>
+    <description>良い方向性です。</description>
+    <dc:date>2002-02-28T09:13:35</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/27/b_0226_01.html">
+    <title>Microsoft，CRMソフト市場参入の詳細プランを公開</title>
+    <link>http://www.zdnet.co.jp/news/0202/27/b_0226_01.html</link>
+    <description>どんなジャンルのソフトにでも節操なく手を出すなぁ。</description>
+    <dc:date>2002-02-28T09:13:35</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/27/b_0226_07.html">
+    <title>HTTPが限界？　Microsoft幹部</title>
+    <link>http://www.zdnet.co.jp/news/0202/27/b_0226_07.html</link>
+    <description>さいしょっからHTTPは限界です。</description>
+    <dc:date>2002-02-28T09:13:35</dc:date>
+  </item>
+
+</rdf:RDF>

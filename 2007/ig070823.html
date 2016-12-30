@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/08/23 日記: Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</TITLE>
+<META name="DESCRIPTION" content="Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,HTML,Parser,Java,パーサ">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/08/23 日記: Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,HTML,Parser,Java,パーサ] Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaで実装された HTML Parser について オープンソースのもの限定で幾つか調べてみました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <P>このリスト作成のために参考にさせていただいたページは下記です。</P>
+      <UL>
+        <LI>Open Source HTML Parsers in Java<BR>
+        <A HREF="http://www.java-source.net/open-source/html-parsers">http://www.java-source.net/open-source/html-parsers</A>
+      </UL>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00" align="center"><B>なまえ</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>情報源</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>ライセンス</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>最終更新日</B></TD>
+      <TD bgcolor="#ffff00" align="center"><B>メモ</B></TD>
+    </TR>
+    <TR>
+      <TD>HTML Parser</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://sourceforge.net/projects/htmlparser/">http://sourceforge.net/projects/htmlparser/</A>
+        <LI><A href="http://htmlparser.sourceforge.net/">http://htmlparser.sourceforge.net/</A>
+        <LI><FONT size="-1"><A href="http://journal.mycom.co.jp/news/2005/06/15/029.html">http://journal.mycom.co.jp/news/2005/06/15/029.html</A></FONT>
+      </UL>
+  </TD>
+      <TD>LGPL<BR>
+      CPL</TD>
+      <TD>2006.07.10 (1.6)</TD>
+      <TD>書き出し機能あり。<BR>
+      HTML整形機能あり。<BR>
+      リンクなどのハンドリングも得意そう。</TD>
+    </TR>
+    <TR>
+      <TD>Jericho HTML Parser</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://sourceforge.net/projects/jerichohtml/">http://sourceforge.net/projects/jerichohtml/</A>
+        <LI><A href="http://jerichohtml.sourceforge.net/doc/index.html">http://jerichohtml.sourceforge.net/doc/index.html</A>
+        <LI><FONT size="-1"><A href="http://journal.mycom.co.jp/news/2006/09/12/342.html">http://journal.mycom.co.jp/news/2006/09/12/342.html</A></FONT>
+      </UL>
+      </TD>
+      <TD>LGPL<BR>
+      EPL</TD>
+      <TD>2007.05.20 (2.4)</TD>
+      <TD>HTMLに加えて JSPなどのサーバサイドタグにも対応。<BR>書き出し機能あり。HTML整形機能あり。APIの使い勝手が私好みっぽい。</TD>
+    </TR>
+    <TR>
+      <TD>HtmlCleaner</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://sourceforge.net/projects/htmlcleaner">http://sourceforge.net/projects/htmlcleaner</A>
+        <LI><A href="http://htmlcleaner.sourceforge.net/">http://htmlcleaner.sourceforge.net/</A>
+      </UL>
+      </TD>
+      <TD>BSD</TD>
+      <TD>2007.07.12 (1.3)</TD>
+      <TD>HTML整形機能が売り。jarファイルが小さい。タグをカスタムする差込口があり。</TD>
+    </TR>
+    <TR>
+      <TD>Java Mozilla Html Parser</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://sourceforge.net/projects/mozillaparser">http://sourceforge.net/projects/mozillaparser</A>
+      </UL>
+      </TD>
+      <TD>GPL<BR>
+      LGPL<BR>
+      MPL</TD>
+      <TD>2007.07.30 (0.1.7)</TD>
+      <TD>Javaに加え C言語を利用。</TD>
+    </TR>
+    <TR>
+      <TD>CyberNeko HTML Parser</TD>
+      <TD>
+      <UL>
+        <LI><FONT size="-1"><A href="http://people.apache.org/~andyc/neko/doc/html/">http://people.apache.org/~andyc/neko/doc/html/</A></FONT>
+      </UL>
+      </TD>
+      <TD>BSD風<BR>
+      と思われる</TD>
+      <TD>2005.07.18 (0.9.5)</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>JTidy</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://jtidy.sourceforge.net/">http://jtidy.sourceforge.net/</A>
+      </UL>
+      </TD>
+      <TD>独自</TD>
+      <TD>2001.08.01<BR>
+      (04aug2000r7-dev)</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>javax.swing.text.html.parser</TD>
+      <TD>
+      <UL>
+        <LI><A href="http://java.sun.com/javase/ja/6/docs/ja/api/javax/swing/text/html/parser/package-summary.html">html.parser</A>
+      </UL>
+      </TD>
+      <TD></TD>
+      <TD></TD>
+      <TD>Java純正HTMLパーサ</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>このうち、基本的仕様やライセンスの都合 (私は LGPLであるほうが都合良い) などから HTML Parser と Jericho HTML
+Parser とに着眼し、HTMLフォーマッタの機能を簡単に試しました。</P>
+<P><FONT color="#ff00ff">HTML Parserによる HTMLフォーマッティングの実装例</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">FormatHtmlSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+import org.htmlparser.util.Translate;
+
+/**
+ * HTML ParserのHTML整形実行サンプル。
+ */
+public class FormatHtmlSample {
+    static final String ENCODING = &quot;EUC-JP&quot;;
+
+    static String fileToString(final String targetFileName) throws IOException {
+        final StringBuffer result = new StringBuffer();
+
+        final BufferedReader reader = new BufferedReader(new InputStreamReader(
+                new FileInputStream(targetFileName), ENCODING));
+        try {
+            for (;;) {
+                final String wrk = reader.readLine();
+                if (wrk == null) {
+                    break;
+                }
+                result.append(wrk);
+            }
+        } finally {
+            reader.close();
+        }
+        return result.toString();
+    }
+
+    static void writeHtml(final String htmlText, final String targetFileName)
+            throws IOException {
+        final BufferedWriter writer = new BufferedWriter(
+                new OutputStreamWriter(new FileOutputStream(targetFileName),
+                        ENCODING));
+        try {
+            writer.write(htmlText);
+        } finally {
+            writer.close();
+        }
+    }
+
+    public static void main(final String[] args) {
+        try {
+            final String htmlText = fileToString(&quot;blancofw.htm&quot;);
+            final String decodedHtmlText = Translate.decode(htmlText);
+            writeHtml(decodedHtmlText, &quot;aaa.htm&quot;);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">Jericho HTML Parserによる HTMLフォーマッティングの実装例</FONT></P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">JerichoFormatHtmlSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.net.URL;
+
+import au.id.jericho.lib.html.MasonTagTypes;
+import au.id.jericho.lib.html.PHPTagTypes;
+import au.id.jericho.lib.html.Source;
+import au.id.jericho.lib.html.SourceFormatter;
+
+/**
+ * Jericho HTML ParserのHTML整形実行サンプル。
+ */
+public class JerichoFormatHtmlSample {
+    void process(final String sourceUrlString, final String targetFileName)
+            throws IOException {
+        final Source htmlSource = new Source(new URL(sourceUrlString));
+
+        final SourceFormatter formatter = htmlSource.getSourceFormatter();
+        formatter.setIndentString(&quot; &quot;);
+        formatter.setTidyTags(true);
+
+        final BufferedWriter writer = new BufferedWriter(
+                new OutputStreamWriter(new FileOutputStream(targetFileName),
+                        htmlSource.getEncoding()));
+        formatter.writeTo(writer);
+        writer.close();
+    }
+
+    public static void main(final String[] args) {
+        PHPTagTypes.register();
+        MasonTagTypes.register();
+
+        try {
+            new JerichoFormatHtmlSample().process(&quot;file:blancofw.htm&quot;,
+                    &quot;aaa.htm&quot;);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>ちょびっと書いてみただけの感じだと、私は Jericho HTML Parserのコーディングスタイルが好みっぽいように感じました。<BR>
+とりあえずざっくりと触った初見の感想です。もっと使ってみると異なる感触になる可能性があります。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

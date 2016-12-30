@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/06 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルの読み込みサンプル</TITLE>
+<META name="DESCRIPTION" content="遅ればせながら 私も Jakarta POIを用いたExcelファイル読み込みを体験してみました。サンプルソースコードをメモしておきます。 + Java Excel API (JExcelApi) のメモ">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API,JExcelApi">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/06 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルの読み込みサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API,JExcelApi] 遅ればせながら 私も Jakarta POIを用いたExcelファイル読み込みを体験してみました。サンプルソースコードをメモしておきます。 + Java Excel API (JExcelApi) のメモ</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) を用いたExcelファイルの読み込みメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> 2.5.1 による Excelファイル読み込みについて ざっくり調べたので、これをメモします。</P>
+<P>まず、一次情報源は下記になります。(※ポイント: 必ず一度は一次情報源から情報を得る努力を行うよう心がけましょう)</P>
+<UL>
+  <LI>Jakarta POI - Java API To Access Microsoft Format Files<BR>
+  <A HREF="http://jakarta.apache.org/poi/index.html">http://jakarta.apache.org/poi/index.html</A>
+</UL>
+<P>いろいろ書いてありますが、現時点で一番安定感があるのは HSSFによるExcel操作の模様です。(というか サンプルがHSSFによるExcel操作でした)
+まずは POIのバイナリとソースをダウンロードしました。</P>
+<UL>
+  <LI><A HREF="http://www.meisei-u.ac.jp/mirror/apache/dist/jakarta/poi/release/bin/">http://www.meisei-u.ac.jp/mirror/apache/dist/jakarta/poi/release/bin/</A><BR>
+  poi-bin-2.5.1-final-20040804.zip
+</UL>
+<P>これを解凍して、下記の2ファイルを得ます。</P>
+<UL>
+  <LI>poi-2.5.1-final-20040804.jar
+  <LI>poi-contrib-2.5.1-final-20040804.jar
+</UL>
+<P>動作条件</P>
+<UL>
+  <LI><STRONG>sample.xls</STRONG> というExcelファイルがカレントディレクトリに存在すること。
+  <UL>
+    <LI><STRONG>Sheet1</STRONG> というワークシートに、<STRONG>A列1行</STRONG>に 文字列(または数字)のデータが書かれていること。
+  </UL>
+</UL>
+<P>その上で、下記のサンプルを動作させました。</P>
+
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR bgcolor="#ffff00">
+      <TH>PoiReadExcelSample.java</TH>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD align="left">
+      <pre>/*
+ * Jakarta POI: Excel読み込みサンプル
+ * Copyright (C) 2005 伊賀敏樹
+ * 作成日: 2005/02/06
+ */
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+/**
+ * @author Tosiki IGA
+ */
+public class PoiReadExcelSample {
+
+    public static void main(String[] args) {
+        FileInputStream inStream = null;
+        try {
+            try {
+                inStream = new FileInputStream(&quot;sample.xls&quot;);
+            } catch (FileNotFoundException ex) {
+                System.err.println(&quot;ファイルのオープンに失敗しました.:&quot; + ex.toString());
+                return;
+            }
+            HSSFWorkbook hssfWorkbook = null;
+            try {
+                hssfWorkbook = new HSSFWorkbook(inStream);
+            } catch (IOException ex) {
+                System.err.println(&quot;Excelのファイル形式が不正です.:&quot; + ex.toString());
+                return;
+            }
+            HSSFSheet hssfSheet = hssfWorkbook.getSheet(&quot;Sheet1&quot;);
+            if (hssfSheet == null) {
+                System.err.println(&quot;指定のExcelシートが見つかりませんでした.&quot;);
+                return;
+            }
+            // 
+            HSSFRow hssfRow = hssfSheet.getRow(0);
+            if (hssfRow == null) {
+                System.err.println(&quot;指定のExcel行が見つかりませんでした. &quot;
+                        + &quot;なお、行は0オリジンとなっています。つまり1行目は 0 と指定します。&quot;);
+                return;
+            }
+            HSSFCell hssfCell = hssfRow.getCell((short) 0);
+            if (hssfCell == null) {
+                System.err.println(&quot;指定のExcel列が見つかりませんでした. &quot;
+                        + &quot;なお、列は0オリジンとなっています。つまりA列は 0 と指定します。&quot;);
+                return;
+            }
+            try {
+                // 文字列であれば、ここを通過する。
+                System.out.println(hssfCell.getStringCellValue());
+            } catch (NumberFormatException e) {
+                // 数値であれば、ここを通過する。
+                System.out.println(hssfCell.getNumericCellValue());
+                //日付フィールドの場合には下記で取得する。
+                //System.out.println(hssfCell.getDateCellValue());
+            }
+        } finally {
+            try {
+                if (inStream != null) {
+                    inStream.close();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>動かしてみて、ちゃんとExcelのファイルを読み込むことができることを確認しました。Jakarta POI って すごいですね。POIのおかげで、Java言語からExcelファイルの入出力が出来てしまうのですから。<BR>
+ポイントは、Excelシート名を英字にしておくことなどなどです。このサンプルは、英字シート名対策を割愛しています。また、実業務で利用する際には、こんな実装ではなくって、当然
+クラス化などを行ってカプセリングを行います。</P>
+<P><FONT color="#ff00ff">他のJakarta POIのサンプル</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>
+</UL>
+<P><FONT color="#ff00ff">JExcelApiによる同様の実装</FONT></P>
+<UL>
+  <LI><A href="ig050222.html">2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルの読み込みサンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>読者の方からのツッコミ: Java Excel API (jexcelapi)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2005.02.21 後日談</FONT> <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>の検討も深めていっています。</P>
+<P><FONT color="#ff0000">2005.02.07</FONT> 読者の方からのツッコミ<BR>
+<CITE>伊藤と申します。<BR>
+2月6日の日記</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://homepage2.nifty.com/igat/igapyon/diary/2005/ig050206.html">http://homepage2.nifty.com/igat/igapyon/diary/2005/ig050206.html</A></CITE>
+</UL>
+<P><CITE>を興味深く拝読しました。<BR>
+私は、 POI は寡聞にして知りませんでしたが、 Java での Excel の読み書きには、以前から</CITE></P>
+<UL>
+  <LI><CITE>Java Excel API<BR>
+  <A HREF="http://www.andykhan.com/jexcelapi/">http://www.andykhan.com/jexcelapi/</A></CITE>
+</UL>
+<P><CITE>を使用しています。<BR>
+POI を知ったうえは、作者個人依存の Java Excel API より、 Jakarta の POI のほうが安心かと思い、乗り換えを考えましたが、残念ながら現状では、
+Java Excel API のほうが、使いやすいようです。</CITE></P>
+<P><CITE>たとえば、 HSSF で読めていた Excel シートに、オートフィルタを追加しただけで、例外が発生して読めなくなってしまいましたが、Java
+Excel API では読めます (ただし、オートフィルタでフィルタをかけた結果が読めるわけではなく、単に元データが読めるだけですが)。<BR>
+御参考まで。</CITE></P>
+<P><CITE><FONT color="#ff0000">2005.02.09追伸</FONT> なお、この件では、バグレポートが出ていて CVS では修正されている模様です。</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://issues.apache.org/bugzilla/show_bug.cgi?id=30861">http://issues.apache.org/bugzilla/show_bug.cgi?id=30861</A></CITE>
+</UL>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+ツッコミ、大変 ありがとうございます。感謝です。<A href="http://www.andykhan.com/jexcelapi/">JExcelApi (Java Excel API)</A>のサイトを とても興味深く拝見させて頂きました。<BR>
+それにしても、HSSFがExcelシートにオートフィルタをかけただけで読み込めなくなるとは衝撃です。そして GNU Lesser General
+Public License (LGPL)ライセンスである点も魅力ですもの。(私はデフォルトでLGPLライセンスが好きなのです) メーリングリストも活発に運用されており、46名のメンバが在籍しているようです。単に個人が開発したソフトという枠は超えている、ちゃんとユーザが根付いたオープンソースプロダクトだと感じました。<BR>
+なお、いま従事している案件では ユーザが入力したExcelシートが入力となるので、オートフィルタがかかっただけで読み込めなくなるのは結構困りそうなのです。確認を取って、パッチ適用よりもJava
+Excel APIの方が良い、あるいはサポート範囲が広いようなら、お客様向けに情報をあげていって Java Excel APIの検討も勧める必要がありそうです。(2005.02.09内容を微調整)</P>
+<P>それにしても、jexcelapi_2_0.tar.gz とか jxl.jar が見いだせたら、<A href="http://www.andykhan.com/jexcelapi/">JExcelApi (Java Excel API)</A>が関連しているのですね。今後 注意して観察していこうと思います。</P>
+<P><FONT color="#ff0000">2005.02.19 追記</FONT> <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> (Java Excel API) の最新版は JExcelApi v2.5.2 でした。Jakarta
+POI 2.5.1において Excelシートのコピーの際に画像が入っているとコピーできないという不具合があり、<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>の検討を深めていく予定です。</P>
+<P>JExcelApiの現時点でわかったリンクをメモしておきます。</P>
+<UL>
+  <LI>JExcelApi<BR>
+  <A HREF="http://jexcelapi.sourceforge.net/">http://jexcelapi.sourceforge.net/</A>
+  <LI>JExcelApi : SourceForge.net: A Java library for reading/writing Excel<BR>
+  <A HREF="http://sourceforge.net/projects/jexcelapi/">http://sourceforge.net/projects/jexcelapi/</A>
+  <LI>JExcelApi<BR>
+  <A HREF="http://www.andykhan.com/jexcelapi/">http://www.andykhan.com/jexcelapi/</A>
+</UL>
+<P><FONT color="#ff0000">2005.02.21 後日談</FONT> まずはサンプルを書いてみようということで、ざっくりサンプルを作り始めました。</P>
+<UL>
+  <LI><A href="ig050221.html">2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アイデアメモ: マンスリー・メールアドレス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>こんなサービスが存在したら便利かしらメモ。マンスリー・メールアドレス。あるサーバに月極でメールアドレスを開設してもらいます。そのメールアドレスに受信したメールは、自動的にあらかじめ登録してある自身のメールアドレスにメールが届くというサービスです。そんなサービスがあったら、便利かしら。<BR>
+例えば、飲食店などで順番待ちをしている際に、マンスリー・メールアドレスを申請しておいて、順番が来たら、マンスリー・メールアドレス側にメールをもらう。そうすると、自身のケータイメールにメールが転送されて届くという使い方などが思いつきます。<BR>
+ポイントは、そのマンスリー・メールアドレスを運営する事業者が、個人情報保護などを徹底して実施できるような信頼に足る事業者であること、って感じでしょうか。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

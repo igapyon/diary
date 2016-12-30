@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/memo/memoprivate.html">
+    <title>資料: いがぴょんプライベートメモ (個人的なブックマークです)</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/memo/memoprivate.html</link>
+    <language>ja</language>
+    <copyright>Copyright (C) 2004 伊賀 敏樹</copyright>
+    <dc:date>2004-10-14</dc:date>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://homepage2.nifty.com/igat/igapyon/diary/index.html"/>
+        <rdf:li resource="http://www.nifty.com/cgi-bin/cl?top1?https://enter.nifty.com/webmail"/>
+        <rdf:li resource="http://gmail.google.com/gmail"/>
+        <rdf:li resource="http://sourceforge.jp/projects/blancofw/"/>
+        <rdf:li resource="http://www.asahi.com/"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/"/>
+        <rdf:li resource="http://japan.cnet.com/"/>
+        <rdf:li resource="http://www.mytrip.net/"/>
+        <rdf:li resource="http://unit.aist.go.jp/itri/knoppix/"/>
+        <rdf:li resource="http://www.mozilla-japan.org/products/firefox/"/>
+        <rdf:li resource="http://www.justsystem.co.jp/software/dt/tarolx/"/>
+        <rdf:li resource="http://www.turbolinux.co.jp/"/>
+        <rdf:li resource="http://od1.pofa.jp/ec/frame.nsf"/>
+        <rdf:li resource="http://www.amazon.co.jp/exec/obidos/subst/associates/join/associates.html"/>
+        <rdf:li resource="http://www.so-net.ne.jp/weather/"/>
+        <rdf:li resource="http://maps.google.co.jp/"/>
+        <rdf:li resource="http://minozi.s21.xrea.com/kuri/monzua.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/index.html">
+    <title>いがぴょんの日記ウェブページv2</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/index.html</link>
+    <description>私の日記ウェブページそのものです。</description>
+    <dc:date>2004-10-13T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/subst/associates/join/associates.html">
+    <title>アマゾン・アソシエイト・プログラム</title>
+    <link>http://www.amazon.co.jp/exec/obidos/subst/associates/join/associates.html/ref=mk_as_h_3_1/249-2834003-1474760</link>
+    <description>現在、参加させていただいております。</description>
+    <dc:date>2004-10-13T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mytrip.net/">
+    <title>楽天トラベル</title>
+    <link>http://www.mytrip.net/</link>
+    <description>出張などの際に利用させて頂いております。</description>
+    <dc:date>2004-10-13T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://od1.pofa.jp/ec/frame.nsf">
+    <title>オーガニックダイレクト</title>
+    <link>http://od1.pofa.jp/ec/frame.nsf</link>
+    <description>有機農産物宅配 あぐりら の注文ページ。</description>
+    <dc:date>2004-10-13T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nifty.com/cgi-bin/cl?top1?https://enter.nifty.com/webmail">
+    <title>NIFTY Webメール</title>
+    <link>http://www.nifty.com/cgi-bin/cl?top1?https://enter.nifty.com/webmail</link>
+    <description>愛用のWebメール</description>
+    <dc:date>2004-10-14T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://gmail.google.com/gmail">
+    <title>gmail Webメール</title>
+    <link>http://gmail.google.com/gmail</link>
+    <description>利用をはじめたWebメール</description>
+    <dc:date>2005-01-26T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://sourceforge.jp/projects/blancofw/">
+    <title>blanco Framework (SourceForge.jp)</title>
+    <link>http://sourceforge.jp/projects/blancofw/</link>
+    <description>R/Oマッピング</description>
+    <dc:date>2005-05-22T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/">
+    <title>asahi.com</title>
+    <link>http://www.asahi.com/</link>
+    <description>朝日新聞オンライン</description>
+    <dc:date>2004-10-14T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://unit.aist.go.jp/itri/knoppix/">
+    <title>KNOPPIX</title>
+    <link>http://unit.aist.go.jp/itri/knoppix/</link>
+    <description>CDブート可能なLinuxディストリビューション</description>
+    <dc:date>2004-10-14T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.mozilla-japan.org/products/firefox/">
+    <title>Mozilla Firefox</title>
+    <link>http://www.mozilla-japan.org/products/firefox/</link>
+    <description>急成長が期待されるオープンソースブラウザ</description>
+    <dc:date>2004-10-30T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.justsystem.co.jp/software/dt/tarolx/">
+    <title>一太郎 for Linux</title>
+    <link>http://www.justsystem.co.jp/software/dt/tarolx/</link>
+    <description>2005.01.21パッケージ版発売開始とのこと。</description>
+    <dc:date>2004-10-31T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.turbolinux.co.jp/">
+    <title>Turbolinux</title>
+    <link>http://www.turbolinux.co.jp/</link>
+    <description>商用デスクトップLinuxの本命のひとつ</description>
+    <dc:date>2004-10-31T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/">
+    <title>＠IT</title>
+    <link>http://www.atmarkit.co.jp/</link>
+    <description>ITオンライン雑誌</description>
+    <dc:date>2004-10-14T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/">
+    <title>CNET Japan</title>
+    <link>http://japan.cnet.com/</link>
+    <description>ITオンライン雑誌</description>
+    <dc:date>2004-10-14T00:49:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.so-net.ne.jp/weather/">
+    <title>So-net 天気予報</title>
+    <link>http://www.so-net.ne.jp/weather/</link>
+    <description>So-netの天気予報</description>
+    <dc:date>2004-12-05T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://maps.google.co.jp/">
+    <title>Googleローカル (電子地図)</title>
+    <link>http://maps.google.co.jp/</link>
+    <description>良くできた電子地図</description>
+    <dc:date>2006-04-15T00:00:00</dc:date>
+  </item>
+
+  <item rdf:about="http://minozi.s21.xrea.com/kuri/monzua.html">
+    <title>モンブランの大解剖</title>
+    <link>http://minozi.s21.xrea.com/kuri/monzua.html</link>
+    <description>いろいろな店のモンブランの断面写真および断面図が解説されている素晴らしいページ</description>
+    <dc:date>2005-11-25T00:00:00</dc:date>
+  </item>
+
+</rdf:RDF>

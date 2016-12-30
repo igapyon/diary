@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030903.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030903.html</link>
+    <language>ja</language>
+    <dc:date>2003-09-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20060738,00.htm">
+    <title>富士ゼロックス、50代の社員に多様な選択肢を</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20060738,00.htm</link>
+    <description>独立支援制度とか副業許可モードとかあるのだそうな。恐るべし 富士ゼロックス。</description>
+    <dc:date>2003-09-03T22:19:53</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0309/02/njbt_02.html">
+    <title>500GバイトHDDで342時間分を録画「コクーン」新機種</title>
+    <link>http://www.zdnet.co.jp/news/0309/02/njbt_02.html</link>
+    <description>欲しいなぁ…。単にそれだけなのであった…</description>
+    <dc:date>2003-09-03T22:08:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/products/0309/02/epson.html">
+    <title>エプソンダイレクト、5万円台の省スペースデスクトップPCとFF XI対応PC</title>
+    <link>http://www.zdnet.co.jp/products/0309/02/epson.html</link>
+    <description>パソコンって安くなったものだなぁ</description>
+    <dc:date>2003-09-03T22:08:50</dc:date>
+  </item>
+
+</rdf:RDF>

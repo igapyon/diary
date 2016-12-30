@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/17 日記: Subversion設定ファイルを Excelから自動生成 (blancoSvnConf)</TITLE>
+<META name="DESCRIPTION" content="Subversion設定ファイルを Excelから自動生成するパスについて検討を開始しました。まずプロダクト名を考慮中です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/17 日記: Subversion設定ファイルを Excelから自動生成 (blancoSvnConf)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Subversion設定ファイルを Excelから自動生成するパスについて検討を開始しました。まずプロダクト名を考慮中です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversion設定ファイルを Excelから自動生成 (blancoSvnConf)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Subversion設定ファイルを Excelから自動生成するパスについて検討を開始しました。<BR>
+<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>による提供となります。まずは プロダクト名を考慮中です。<BR>
+<FONT color="#ff0000">2008.01.18追記</FONT> プロダクト名は <A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="「Subversionリポジトリ定義書」という Excelブックを入力して、Subversion設定ファイルを自動生成します。">blancoSvnConf</A>に決まりました。</P>
+<UL>
+  <LI>プロダクト名: <A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="「Subversionリポジトリ定義書」という Excelブックを入力して、Subversion設定ファイルを自動生成します。">blancoSvnConf</A>
+  <UL>
+    <LI>他の候補1: blancoSubversionConf (つづりが長すぎるので却下)
+  </UL>
+  <LI>定義書
+  <UL>
+    <LI>定義書名: Subversionリポジトリ定義書
+    <LI>必要項目
+    <UL>
+      <LI>定義書ID ＝ プロジェクト名: [test]
+      <LI>サーバ名: (ホスト名)
+      <LI>svn基準ディレクトリ: [D:/data/svn]
+      <LI>利用者
+      <UL>
+        <LI>コミッタ: mborn, ToshikiIga<BR>
+        ※読み書き権限
+        <LI>関係者: taro<BR>
+        ※読み取り権限
+        <LI>匿名の人: (なし) / 読み取り / 読み書き<BR>
+        ※その他の人を どのように扱うのか。
+        <LI>管理者<BR>
+        自動生成とは直接の関係性は無し。
+      </UL>
+    </UL>
+    <LI>管理項目
+    <UL>
+      <LI>文書区分: 新規作成／変更
+      <LI>有効期間: 開始・終了
+    </UL>
+  </UL>
+</UL>
+<P>このような設定ファイルは 手動でメンテナンスしていると えらい手間のかかる作業になってしまう恐れがあります。毎月 リポジトリが増えたり減ったり、利用権が変更されたりと、とても面倒なことになるヨカンがします。なんとか自動化しておきたいです。</P>
+<P><FONT color="#ff00ff">生成するファイル</FONT></P>
+<P>Apache用の svn設定ファイル</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">httpd-svn.conf</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>###################################
+# &lt;conf/extra/httpd-svn.conf&gt;
+###################################
+
+# 下記を httpd.confに追加して有効化。
+# Include conf/extra/httpd-svn.conf
+
+# Subversionエリア
+&lt;Location /svn/test&gt;
+    DAV                svn
+    SVNPath            D:/data/svn/test
+    AuthzSVNAccessFile &quot;D:/data/svn.conf/test.svnauthz&quot;
+&lt;/Location&gt;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+</BLOCKQUOTE>
+<P>Apache用の svn認証ファイル</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">test.svnauthz</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre># このファイルは [test] リポジトリのための Subversion認証ファイルです。
+
+[groups]
+# コミッタ一覧
+committer = mborn,ToshikiIga
+
+# 関係者一覧
+
+[/]
+# コミッタには読み書き権限を与えます。
+@committer = rw
+
+# 一般利用者が読み込みできるのかどうかをコントロールします。r なら読み込み可能。(なし)なら読み込み不可能。
+* = </pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">開発のために必要と想定される工数</FONT></P>
+<P>Eclipseプラグイン作成を除いた開発のための予想工数。</P>
+<UL>
+  <LI>3時間
+  <UL>
+    <LI>Excel定義書の様式作成: 1時間
+    <LI>製造: 1時間
+    <LI>試験: 1時間
+  </UL>
+</UL>
+<P>いくら私が blanco に慣れているとしても、最低 3時間程度は かかりそうな見込みです。</P>
+<P><FONT color="#ff0000">2008.01.18追記</FONT> 実際には <A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="「Subversionリポジトリ定義書」という Excelブックを入力して、Subversion設定ファイルを自動生成します。">blancoSvnConf</A> の開発に 3時間20分 かかりました。少し見積もりが甘かったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversion設定ファイルを Excelから自動生成への機能追加備忘録</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>初期バージョンでは作成しないのですが、その後 必要だと思いそうな機能をメモしておきます。</P>
+<UL>
+  <LI>Eclipseプラグイン作成<BR>
+  <FONT color="#ff0000">2008.01.20追記</FONT> 結局 ちょちょいっと Eclipseプラグインも開発しました。Eclipseプラグイン開発そのものには 1時間程度かかりました。(なお、あまり正確には計測していません)
+  <LI>利用者単位の Subversionリポジトリ一覧 htmlページの自動生成
+  <LI>利用者へのメール通知 (新規・継続・廃止)
+  <LI>LDAP上に該当ユーザが存在するかどうかのチェック。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

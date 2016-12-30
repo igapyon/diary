@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/02/18 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルの内容を変更するサンプル</TITLE>
+<META name="DESCRIPTION" content="Jakarta POIを用いたExcelファイルの内容を変更するトイプログラムを作りました。サンプルソースコードをメモしておきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/02/18 日記: Java: Jakarta POI (HSSF) を用いたExcelファイルの内容を変更するサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,Java,サンプル,HSSF,POI,Excel.API] Jakarta POIを用いたExcelファイルの内容を変更するトイプログラムを作りました。サンプルソースコードをメモしておきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) を用いたExcelファイルの内容を変更するサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>を使ってExcelシートの内容を変更するサンプルです。<BR>
+処理の過程で、Excelファイルを保存する際には別名保存しています。</P>
+<P>確認に利用した動作環境</P>
+<UL>
+  <LI>Sun Java2 SDK 1.4.2_02 (Windows版)
+  <LI><A href="http://www.meisei-u.ac.jp/mirror/apache/dist/jakarta/poi/">Jakarta POI 2.5.1 final 20040804</A>
+</UL>
+<P>動作条件</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> にクラスパスが通してあること
+  <UL>
+    <LI>poi-2.5.1-final-20040804.jar 
+    <LI>poi-contrib-2.5.1-final-20040804.jar
+  </UL>
+  <LI>inputExcel.xls というExcelファイルがカレントディレクトリに存在すること。
+  <LI>Sheet1 というワークシートが存在して、E6 (6行5列) に既にセルが存在すること。
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">PoiModifyExcelSample.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * Jakarta POI 用いた Excelファイル変更サンプル
+ * Copyright(C) 2005 伊賀敏樹
+ * 作成日: 2005/02/18
+ */
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+/**
+ * Jakarta POIを使ってExcelファイルに変更を加えます。
+ * 
+ * @author iga
+ */
+public class PoiModifyExcelSample {
+        /**
+         * 入力ファイルとして与えるExcelファイルのファイル名
+         */
+        private static final String INPUT_FILE_EXCEL = &quot;inputExcel.xls&quot;;
+
+        /**
+         * 出力ファイルとして与えるPDFファイルのファイル名
+         */
+        private static final String OUTPUT_FILE_EXCEL = &quot;outputExcel.xls&quot;;
+
+        public static void main(String[] args) {
+                System.out.println(&quot;Excelファイルを読み込んで内容を変更するサンプル.&quot;);
+                FileInputStream inStream = null;
+                File fileInput = new File(INPUT_FILE_EXCEL);
+                if (fileInput.exists() == false) {
+                        System.out.println(&quot;入力ファイル[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]が見つかりません.処理を中断します.&quot;);
+                        return;
+                }
+                if (fileInput.canRead() == false) {
+                        System.out.println(&quot;入力ファイル[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]が読み込み可能ではありません.処理を中断します.&quot;);
+                        return;
+                }
+                try {
+                        inStream = new FileInputStream(fileInput);
+                } catch (FileNotFoundException ex) {
+                        System.err.println(&quot;入力ファイル[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]のオープンに失敗しました.:&quot; + ex.toString());
+                        return;
+                }
+
+                HSSFWorkbook hssfWorkbook = null;
+                try {
+                        hssfWorkbook = new HSSFWorkbook(inStream);
+                } catch (IOException ex) {
+                        System.err.println(&quot;Excelのファイル形式が不正です.:&quot; + ex.toString());
+                        return;
+                }
+
+                System.out.println(&quot;シートの内容に変更を加えます.&quot;);
+                HSSFSheet hssfSheet = hssfWorkbook.getSheet(&quot;Sheet1&quot;);
+                if (hssfSheet == null) {
+                        System.err.println(&quot;指定のExcelシートが見つかりませんでした.&quot;);
+                        return;
+                }
+                HSSFRow hssfRow = hssfSheet.getRow(5);
+                if (hssfRow == null) {
+                        System.err.println(&quot;指定のExcel行が見つかりませんでした. &quot;
+                                        + &quot;なお、行は0オリジンとなっています。つまり6行目は 5 と指定します。&quot;);
+                        return;
+                }
+                HSSFCell hssfCell = hssfRow.getCell((short) 4);
+                if (hssfCell == null) {
+                        System.err.println(&quot;指定のExcel列が見つかりませんでした. &quot;
+                                        + &quot;なお、列は0オリジンとなっています。つまりE列は 4 と指定します。&quot;);
+                        return;
+                }
+
+                hssfCell.setEncoding(HSSFCell.ENCODING_UTF_16);
+                hssfCell.setCellValue(&quot;値のセット&quot;);
+
+                System.out.println(&quot;処理後の結果をExcelファイルに書き込みます.&quot;);
+                File fileOutput = new File(OUTPUT_FILE_EXCEL);
+                if (fileOutput.exists()) {
+                        System.out.println(&quot;出力先ファイルは既に存在しています.事前削除処理を行います.&quot;);
+                        if (fileOutput.delete() == false) {
+                                System.out.println(&quot;出力ファイル[&quot; + fileInput.getAbsolutePath()
+                                                + &quot;]が既に存在していたので事前に削除しようとしましたが削除に失敗しました.&quot;);
+                                return;
+                        }
+                }
+
+                OutputStream outStream = null;
+                try {
+                        outStream = new BufferedOutputStream(new FileOutputStream(
+                                        fileOutput));
+                        hssfWorkbook.write(outStream);
+                        System.out.println(&quot;新規作成したExcelブックのファイル保存に成功しました.&quot;);
+                } catch (IOException ex) {
+                        ex.printStackTrace();
+                } finally {
+                        try {
+                                outStream.close();
+                        } catch (IOException ex2) {
+                                ex2.printStackTrace();
+                        }
+                }
+        }
+}
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">他のJakarta POIのサンプル</FONT></P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

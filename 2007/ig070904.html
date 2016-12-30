@@ -1,0 +1,539 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</TITLE>
+<META name="DESCRIPTION" content="JavaMailを調査しました。 , シンプルなメール送信サンプルについて SSLあり、なしの両方を試作しました。また添付ファイルについても調べました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,JavaMail,Java,mail,メール,サンプル,blancoMail">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/09/04 日記: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,JavaMail,Java,mail,メール,サンプル,blancoMail] JavaMailを調査しました。 , シンプルなメール送信サンプルについて SSLあり、なしの両方を試作しました。また添付ファイルについても調べました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JavaMail 調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> の <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> に関して 上司の許可を得たので
+開発に着手することになりました。</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A> の開発に先立ち、まずは JavaMailの一次情報源は何かを調べました。すると 当然ですが Sunのサイトに行き着きます。</P>
+<UL>
+  <LI>JavaMail<BR>
+  <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
+</UL>
+<P>現時点では JavaMail API 1.4 リリースとの記載があり、最新版は 1.4とのことです。<BR>
+また、2006.04.19時点で JavaMailはオープンソース化されているようです。オープンソース化については 知りませんでした (あるいは忘れ去っていました)。このような素晴らしいプロダクトがオープンソース化されることは喜ばしいことです。</P>
+<P>そして、JavaMailについての 「公式な」 ドキュメント及びチュートリアルについては下記にあります。</P>
+<UL>
+  <LI>JavaMail API documentation<BR>
+  <A HREF="http://java.sun.com/products/javamail/javadocs/index.html">http://java.sun.com/products/javamail/javadocs/index.html</A>
+  <LI>JavaMail Tutorial<BR>
+  <A HREF="http://java.sun.com/products/javamail/learning/tutorial/index.html">http://java.sun.com/products/javamail/learning/tutorial/index.html</A>
+</UL>
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail のインストール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaMailは ダウンロードして利用することになります。 (早期に Java SE に統合されることを希望しています)</P>
+<P>現時点では 最新安定版は 以下のバージョンとなります。</P>
+<UL>
+  <LI>JavaMail 1.4
+  <UL>
+    <LI>URL <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
+    <LI>バージョン: 1.4
+    <LI>ファイル名: javamail-1_4.zip
+    <LI>リリース日付: 2006.04.25
+    
+    <LI>目当てとなるファイル<UL>
+      <LI>dsn.jar
+      <LI>imap.jar
+      <LI>mailapi.jar
+      <LI>pop3.jar
+      <LI>smtp.jar
+    </UL>
+  </UL>
+</UL>
+<P>JavaMailを利用するためには、JavaMail本体とは別に JavaBeans Activation Framework (JAF) と呼ばれるものが必要です。</P>
+<UL>
+  <LI>JavaBeans Activation Framework (JAF)
+  <UL>
+    <LI>URL: <A HREF="http://java.sun.com/products/javabeans/jaf/">http://java.sun.com/products/javabeans/jaf/</A>
+    <LI>バージョン: 1.1
+    <LI>ファイル名: jaf-1_1-fr.zip
+    
+    <LI>目当てとなるファイル
+    <UL>
+      <LI>activation.jar
+    </UL>
+  </UL>
+</UL>
+<P>ここで得られたファイルについて、classpathが通っているる場所に格納します。これで JavaMail API が利用可能になります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>シンプルな JavaMail メール送信サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここまで得られた情報源などをもとに、私なりに シンプルな JavaMail によるメール送信サンプルを作ってみました。</P>
+<P>まず SSL無し版のメール送信サンプルを作りました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleSendMail.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <PRE>import java.io.UnsupportedEncodingException;
+import java.util.Date;
+import java.util.Properties;
+
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+/**
+ * シンプルなメール送信サンプル。
+ */
+public class SimpleSendMail {
+    // 日本語メールの場合には ISO-2022-JPがオススメ。
+    // UTF-8だと受信時に文字化けしてしまうメーラが世の中には依然として存在しています。
+    private static final String ENCODE = &quot;ISO-2022-JP&quot;;
+
+    public static void main(final String[] args) {
+        System.out.println(&quot;メール送信開始&quot;);
+
+        new SimpleSendMail().process();
+
+        System.out.println(&quot;メール送信終了&quot;);
+    }
+
+    public void process() {
+        final Properties props = new Properties();
+
+        // 基本情報。ここでは niftyへの接続例を示します。
+        props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.nifty.com&quot;);
+        props.setProperty(&quot;mail.smtp.port&quot;, &quot;25&quot;);
+
+        // タイムアウト設定
+        props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
+        props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
+
+        // 認証
+        props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
+
+        final Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(&quot;NIFTYのID&quot;, &quot;password&quot;);
+            }
+        });
+
+        // デバッグを行います。標準出力にトレースが出ます。
+        session.setDebug(true);
+
+        // メッセージ内容の設定。
+        final MimeMessage message = new MimeMessage(session);
+        try {
+            final Address addrFrom = new InternetAddress(
+                    &quot;送信者○○○@nifty.ne.jp&quot;, &quot;送信者の表示名&quot;, ENCODE);
+            message.setFrom(addrFrom);
+
+            final Address addrTo = new InternetAddress(&quot;受信者○○○@gmail.com&quot;,
+                    &quot;受信者の表示名&quot;, ENCODE);
+            message.addRecipient(Message.RecipientType.TO, addrTo);
+
+            // メールのSubject
+            message.setSubject(&quot;初めてのメール&quot;, ENCODE);
+
+            // メール本文。setTextを用いると 自動的に[text/plain]となる。
+            message.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
+
+            // 仮対策: 開始
+            // setTextを呼び出した後に、ヘッダーを 7bitへと上書きします。
+            // これは、一部のケータイメールが quoted-printable を処理できないことへの対策となります。
+            message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
+            // 仮対策: 終了
+
+            // その他の付加情報。
+            message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
+            message.setSentDate(new Date());
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        // メール送信。
+        try {
+            Transport.send(message);
+        } catch (AuthenticationFailedException e) {
+            // 認証失敗は ここに入ります。
+            System.out.println(&quot;指定のユーザ名・パスワードでの認証に失敗しました。&quot;
+                + e.toString());
+        } catch (MessagingException e) {
+            // smtpサーバへの接続失敗は ここに入ります。
+            System.out.println(&quot;指定のsmtpサーバへの接続に失敗しました。&quot; + e.toString());
+            e.printStackTrace();
+        }
+    }
+}</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>次に SSLを利用した版を作りました。(上記のソースコードに追記した形になっています。)<BR>
+smtpサーバの接続情報によって SSL無し、有りの いずれのソースコードを利用するのかを選択してください。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">SimpleSendMail.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.UnsupportedEncodingException;
+import java.util.Date;
+import java.util.Properties;
+
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+/**
+ * シンプルなメール送信サンプル。
+ */
+public class SimpleSendMail {
+    // 日本語メールの場合には ISO-2022-JPがオススメ。
+    // UTF-8だと受信時に文字化けしてしまうメーラが世の中には依然として存在しています。
+    private static final String ENCODE = &quot;ISO-2022-JP&quot;;
+
+    public static void main(final String[] args) {
+        System.out.println(&quot;メール送信開始&quot;);
+
+        new SimpleSendMail().process();
+
+        System.out.println(&quot;メール送信終了&quot;);
+    }
+
+    public void process() {
+        final Properties props = new Properties();
+
+        // 基本情報。ここでは gmailへの接続例を示します。
+        props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.gmail.com&quot;);
+        // SSL用にポート番号を変更。
+        props.setProperty(&quot;mail.smtp.port&quot;, &quot;465&quot;);
+
+        // タイムアウト設定
+        props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
+        props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
+
+        // 認証
+        props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
+
+        // SSL関連設定
+        props.setProperty(&quot;mail.smtp.socketFactory.class&quot;, &quot;javax.net.ssl.SSLSocketFactory&quot;);
+        props.setProperty(&quot;mail.smtp.socketFactory.fallback&quot;, &quot;false&quot;);
+        props.setProperty(&quot;mail.smtp.socketFactory.port&quot;, &quot;465&quot;);
+
+        final Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(&quot;送信者○○○@gmail.com&quot;, &quot;password&quot;);
+            }
+        });
+
+        // デバッグを行います。標準出力にトレースが出ます。
+        session.setDebug(true);
+
+        // メッセージ内容の設定。
+        final MimeMessage message = new MimeMessage(session);
+        try {
+            final Address addrFrom = new InternetAddress(
+                    &quot;送信者○○○@gmail.com&quot;, &quot;送信者の表示名&quot;, ENCODE);
+            message.setFrom(addrFrom);
+
+            final Address addrTo = new InternetAddress(&quot;受信者○○○@gmail.com&quot;,
+                    &quot;受信者の表示名&quot;, ENCODE);
+            message.addRecipient(Message.RecipientType.TO, addrTo);
+
+            // メールのSubject
+            message.setSubject(&quot;初めてのメール&quot;, ENCODE);
+
+            // メール本文。setTextを用いると 自動的に[text/plain]となる。
+            message.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
+
+            // 仮対策: 開始
+            // setTextを呼び出した後に、ヘッダーを 7bitへと上書きします。
+            // これは、一部のケータイメールが quoted-printable を処理できないことへの対策となります。
+            message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
+            // 仮対策: 終了
+
+            // その他の付加情報。
+            message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
+            message.setSentDate(new Date());
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        // メール送信。
+        try {
+            Transport.send(message);
+        } catch (AuthenticationFailedException e) {
+            // 認証失敗は ここに入ります。
+            System.out.println(&quot;指定のユーザ名・パスワードでの認証に失敗しました。&quot;
+                + e.toString());
+        } catch (MessagingException e) {
+            // smtpサーバへの接続失敗は ここに入ります。
+            System.out.println(&quot;指定のsmtpサーバへの接続に失敗しました。&quot; + e.toString());
+            e.printStackTrace();
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>当初想像していたよりは、すんなりと動作させることが出来ました。</P>
+
+<P>ちなみに、session.setDebug(true) を指定して 実際のsmtpプロトコルのやりとりを観察することは とても重要です。これは
+JavaMailを利用して実装する人の責務だと考えます。<BR>
+例えば、このサンプルソースの実行を試す際には、デバッグトレースを true に指定して、どのようなやりとりが smtpサーバとの間で行われているのかを観察すべきです。そして
+送信先のメールソフト側で実際に受信されたメールの内容をチェックすることも忘れてはなりません。メールソフトによっては 実際のメールのヘッダ部分を表示する機能を備えていますので、ヘッダ部分の表示をONに設定して
+意図したとおりのメール電文が受信側に届いているかどうかを確認しておきましょう。</P>
+<P><FONT color="#ff00ff">関連するリソース</FONT></P>
+<UL>
+  <LI>‘愛’で学ぶ文字コードと文字化けの常識<BR>
+  <A HREF="http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html">http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html</A>
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig070905.html">2007/09/05 日記: Java: JavaMailによるシンプルなメール受信サンプル</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail メール送信の際の文字化け</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2007.09.05追記</FONT> ケータイメールなどでは、Content-Transfer-Encoding が quoted-printable のものを適切に処理できないものが
+存在します。比較的新しい機種でも そのような実装のものがありました。(それが端末側の問題なのか、通信キャリア側のサーバの変換時の問題なのかについては、私は把握していません)<BR>
+ここまでで示したサンプルレベルでも、quoted-printable に起因するメールの文字化け対策についての考慮が必要なのだ、ということです
+(問題を見つけたので、サンプルソースには当面の対策を ほどこしました)。quoted-printable のレベルでダメとなると、難易度が高いですね…。<BR>
+とりあえず quoted-printable を処理できないメールソフトなんてものが、いまだに世の中に多く存在しているのだ、というのは 私には
+とても意外でした。quoted-printable なんて かなり古い時期から存在していた指定内容だったように記憶しているのですが… (でも
+ここは うろ覚えです)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>添付ファイル付きの JavaMail メール送信サンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>添付ファイル処理について 簡単に実装してみました。</P>
+<P>こっちの方は プレーンテキストメールの送信に比べると 実装が やや厄介でした。API仕様にトラップがあるように感じました (苦笑)。<BR>
+まあ、一度作ってしまうことができたので、あとの応用は 比較的簡単そうです。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">変更点のみ</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Date;
+import java.util.Properties;
+
+import javax.activation.DataHandler;
+import javax.mail.Address;
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Authenticator;
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+import javax.mail.internet.MimeUtility;
+import javax.mail.util.ByteArrayDataSource;
+
+…中略…
+
+            // 変更点: ここから
+            // message.setTextの代わりに、添付ファイル処理を記述する
+
+            final Multipart multipart = new MimeMultipart();
+
+            // テキスト部分
+            final MimeBodyPart textPart = new MimeBodyPart();
+            textPart.setText(&quot;こんにちは。\nごきげんよう。\nさようなら。&quot;, ENCODE);
+
+            // TODO Content-Transfer-Encoding の 7bit への上書きが必要かどうかは未調査。
+
+            multipart.addBodyPart(textPart);
+
+            // 添付ファイル部分
+            final BodyPart attachmentPart = new MimeBodyPart();
+            // 常にバイナリデータであるものとしてファイルを添付する。
+            try {
+                attachmentPart.setDataHandler(new DataHandler(
+                        new ByteArrayDataSource(new BufferedInputStream(
+                                new FileInputStream(&quot;添付ファイル名.txt&quot;)),
+                                &quot;application/octet-stream&quot;)));
+            } catch (IOException e) {
+                e.printStackTrace();
+                return;
+            }
+
+            // 添付ファイル名をセット
+            // MimeUtility.encodeText は 添付ファイル名にascii以外の文字が入る場合の対策。
+            attachmentPart.setFileName(MimeUtility.encodeText(&quot;添付ファイル名.txt&quot;, ENCODE, null));
+            multipart.addBodyPart(attachmentPart);
+
+            message.setContent(multipart);
+
+            // 変更点: ここまで</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>MimeUtility.encodeText の動きは とても良くできています。与えられた文字列について、エンコードが必要な場合のみエンコードし、エンコードが不要な場合には
+エンコードしない、という仕様になっていました。こういう小さな気遣いが メール送信の実装には必要なのです！</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ドメイン付きホスト名が要求される場合への対応</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff00ff">未確認情報</FONT></P>
+<P>メールサーバによっては、ドメイン付きホスト名が要求される場合があります。JavaMail のデフォルトでは そのコンピュータのホスト名がセットされるのですが、これが
+ドメイン付では無い場合に メールサーバへの HELLOコマンド時に拒否される場合があるようです。この場合には 自ホスト名をドメイン付きホスト名に変えてやれば良いです。プロパティにホスト名をセットすると、この問題を回避できるようです。(ただし、私は手元に再現環境が無いので確認を取っていません)</P>
+<UL>
+  <LI>mail.smtp.localhost プロパティ: ここに ドメイン付きホスト名をセット。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>文字化け対策</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ISO-2022-JP に関連して文字化けに遭遇する場合があります。Microsoft Outlookと同等の挙動をどうしても実現したい、そういった場合には、ISO-2022-JP
+を x-windows-iso2022jp として JavaVMごと動作させるという荒技があります。</P>
+<UL>
+  <LI><A href="ig070427.html">2007/04/27 日記: Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp
+  というエンコーディング</A>
+</UL>
+<P>この方法を推奨しているわけでは無いです。しかし、世の中には どうしても Outlookと挙動を合わせたいというニーズが意外に多いようなのです…。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>GNU GPLv3 日本語訳<BR>
+  <A HREF="http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237">http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237</A><BR>
+  GNU GNU General Public Licenseバージョン3 (GPLv3)の日本語全訳とのことです。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

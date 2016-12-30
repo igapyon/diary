@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/05/26 日記: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</TITLE>
+<META name="DESCRIPTION" content="3rd. Developers' Loungeに参加してきました。 , JavaScriptのコメントからAPIドキュメントを作るために HeaderDocを利用しているのですが、このHeaderDocをWindows/ActivePerlで利用するためのコツ。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/05/26 日記: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript] 3rd. Developers' Loungeに参加してきました。 , JavaScriptのコメントからAPIドキュメントを作るために HeaderDocを利用しているのですが、このHeaderDocをWindows/ActivePerlで利用するためのコツ。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>3rd. Developers' Loungeに参加してきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日 3rd. Developers' Lounge が渋谷にて開催されました。こちらに参加させて頂きました。ありがたいことです。</P>
+<P>Apache AxisコミッタのKさんと 情報交流をしてきました。<BR>
+私はかねてより Apache Axis2 に非常に興味を持っていたので、とても有意義な情報が得られました。</P>
+<UL>
+  <LI>Apache Axis コミュニティの概要について。
+  <LI>Apache Axis2 の設計思想・現状について。
+  <LI>AxisとAxis2とを比較する際の留意点について。<BR>
+  AxisとAxis2と いずれを採用すべきかについての判断ポイント。
+  <LI>Message Transmission Optimization Mechanism (MTOM) アーキテクチャについて。<BR>
+  特に MTOMについての情報をゲットできたのは大変有意義でした。
+</UL>
+<P><A HREF="http://arton.no-ip.info/diary/" TITLE=".NET系記事執筆も多いartonさん。仕事でJavaも扱われているとの事。私にとっては FreePeekというとても便利なソフトの作者さまです。羽生章洋＆いがぴょん合コンにて初めて対面しました。">arton</A>さんと 技術情報を交流しました。(というか一方的に 情報をたくさん教えてもらいました。)</P>
+<UL>
+  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linuxを他システム上で動作させるための仮想マシンの一種">coLinux</A>のススメ<BR>
+  coLinuxをデモしてもらいました。これはすごいと思いました。(coLinuxの仕様については知っていたのですが、実際に使っているのを見て お勧めされると これが違って見えてくる・はっきり理解できるものなんです。はい。) 今後の私の余裕時間について Cygwin に投資しようと思って計画していた時間は すべて  coLinuxに集中させようと強く意識させられました。
+  <LI>Sun Java Studio Creator のススメ<BR>
+  <A HREF="http://sdc.sun.co.jp/javatools/jscreator/index.html">http://sdc.sun.co.jp/javatools/jscreator/index.html</A><BR>
+  <A HREF="http://arton.no-ip.info/diary/" TITLE=".NET系記事執筆も多いartonさん。仕事でJavaも扱われているとの事。私にとっては FreePeekというとても便利なソフトの作者さまです。羽生章洋＆いがぴょん合コンにて初めて対面しました。">arton</A>さん直々に、Sun Java Studio Creatorのデモや説明をしてもらいました。恥ずかしながら
+  私 ようやっと Sun Java Studio Creator に接しました。これは要チェックなツールであると考えました。時間を割いて 検証してみようと思いました。
+</UL>
+<P>SAPジャパンのHさんとFさんと 情報交流をしました。</P>
+<UL>
+  <LI>将棋関連情報<BR>
+  将棋会館道場でタイトルホルダーと手合いができる、っていうネタが 最も盛り上がりました。
+  <LI>その他モロモロ…
+  <LI>でも、主な話題は将棋関連情報だったような (笑)
+</UL>
+<P><FONT color="#ff0000">2006.06.10追記</FONT> 関連する他の方の日記</P>
+<UL>
+  <LI>だんなのお仕事 : 2006.05.25 - 第3回 Developers' Lounge<BR>
+  <A HREF="http://d.hatena.ne.jp/hasebean/20060525">http://d.hatena.ne.jp/hasebean/20060525</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apple HeaderDocを Windowsで使う</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>JavaScriptのソースコード・コメントから APIリファレンスを自動生成させるために Appleがオープンソースで提供している HeaderDocを利用しています。<BR>
+HeaderDocを Windowsで動作させるには ちょっとしたコツが必要なので簡単にメモします。<BR>
+※注意: 私は Perlを全く知りません。今回初めて利用しました。この私の判断が正しいことであるのかどうか 自信ありません。</P>
+<UL>
+  <LI>Apple HeaderDoc 8.0<BR>
+  <A HREF="http://developer.apple.com/opensource/tools/headerdoc.html">http://developer.apple.com/opensource/tools/headerdoc.html</A>
+  <LI>ActivePerl 5.8.8.817 (Windows版)<BR>
+  <A HREF="http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html">http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html</A><BR>Windowsで Perlを利用するために ActivePerlを利用するのが一般的なことであると聞きました。
+</UL>
+<P>さて、この組み合わせで すぐ動きそうなものなのですけれども、残念なことに一カ所変更が必要でした。これは <STRONG>getpwuid</STRONG> という命令が Windows版の ActivePerlには移植されていないために必要な変更と考えます。変更箇所は下記のようになります。<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400行目&gt; (変更前)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>} else {
+        $homeDir = (getpwuid($&lt;))[7];
+        $usersPreferencesPath = $homeDir.$pathSeparator.&quot;Library&quot;.$pathSeparator.&quot;Preferences&quot;;
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400行目&gt; (変更後)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>} else {
+        $homeDir = &quot;&quot;;
+        $usersPreferencesPath = $homeDir.$pathSeparator.&quot;Library&quot;.$pathSeparator.&quot;Preferences&quot;;
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※単に getpwuid の命令を無くしてしまうのが目的です。</BLOCKQUOTE>
+<P>この HeaderDocは JavaScript以外にも 数多くのプログラミング言語に対応しています。色々使い勝手がありそうでして、私にとっては期待が大きいツールのひとつです。</P>
+<P>…これをきっかけに、Perlを 少しだけでもいいから勉強してみようかしら、と思いました。…</P>
+<P><FONT color="#ff00ff">関係する日記</FONT></P>
+<UL>
+  <LI><A href="ig060601.html">2006/06/01 日記: JavaScriptコメントからドキュメント生成に JSDocを利用する</A><BR>
+  その後 JavaScriptコメントからドキュメントを自動生成する仕組みについて HeaderDocではなくて JSDocを採用する方が妥当と判断しました。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>MYCOMジャーナル: 政府がセキュアな次世代OS環境の開発に着手 - VMで安全性確保へ<BR>
+  <A HREF="http://journal.mycom.co.jp/news/2006/05/23/382.html">http://journal.mycom.co.jp/news/2006/05/23/382.html</A><BR>
+  興味深い取り組みであると思いました。
+  <LI>Ubuntu Japanese Team: coLinux用ディスクイメージの使い方<BR>
+  <A HREF="http://www.ubuntulinux.jp/download/HowToUseCoLinuxImage">http://www.ubuntulinux.jp/download/HowToUseCoLinuxImage</A><BR>
+  <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="DebianベースのLinuxディストリビューションのひとつ">Ubuntu</A>の <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linuxを他システム上で動作させるための仮想マシンの一種">coLinux</A>対応について、是非一度は試してみたいと思っています。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

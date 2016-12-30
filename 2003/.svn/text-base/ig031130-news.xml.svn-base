@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031130.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031130.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba02/devgenba01.html">
+    <title>第2回　スーパーコンサルタントはここが違う！</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/devgenba02/devgenba01.html</link>
+    <description>スーパーマーケットのコンサルタントではありません。『エンジニアのプライドを決して傷つけない』は良い話です。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fjava/rensai2/jakarta12/jakarta12_01.html">
+    <title>第12回 Struts開発をIDEで効率化</title>
+    <link>http://www.atmarkit.co.jp/fjava/rensai2/jakarta12/jakarta12_01.html</link>
+    <description>NTTデータ岡本さんの記事。Struts Studioっていうツールがあるんですねぇ。勉強になります。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.seshop.com/detail.asp?pid=4734">
+    <title>Javaオープンソース徹底攻略</title>
+    <link>http://www.seshop.com/detail.asp?pid=4734</link>
+    <description>Eclipse,JBoss,Tomcat,Strutsから最新のXML/WebServicesまでが 1冊にまとまった本。 岡本隆史さん達がかかれたので非常に興味を持って見ています。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/rensai/cri-think/think04.html">
+    <title>第4回　構造化：全体像を見極め、構成要素を整理する</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/rensai/cri-think/think04.html</link>
+    <description>構造化の話題を取り上げるだけあり、挿絵がとってもわかりやすかったです。それにしても なんだか ここ最近 ＠ITに 私好みな記事が多いなぁ。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://internet.watch.impress.co.jp/cda/news/2003/11/26/1262.html">
+    <title>ドコモ関西、解約者などの個人情報24,000件を調査会社に提供</title>
+    <link>http://internet.watch.impress.co.jp/cda/news/2003/11/26/1262.html</link>
+    <description>う～む。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/rensai2/jirei02/nxdb01.html">
+    <title>リレーショナルDBへの挑戦-設計変更に強いネイティブXMLデータベース-</title>
+    <link>http://www.atmarkit.co.jp/fxml/rensai2/jirei02/nxdb01.html</link>
+    <description>ネイティブXMLデータベースって変更につよいのかしらん。へええ。</description>
+    <dc:date>2003-11-30T00:07:07</dc:date>
+  </item>
+
+</rdf:RDF>

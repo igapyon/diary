@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030628.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030628.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-28</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/">
+    <title>Sun Java 2 Platform, Standard Edition 1.4.2 リリース</title>
+    <link>http://java.sun.com/j2se/</link>
+    <description>SunのJ2SE最新版がリリースです。今回のリリースから選択肢が変わっています。Windows版ダウンロード時に、非NetBeansの Windows Offline Installationというのを選択しました。選択肢が変わっていてびっくりします。また 今回から 何やら登録しないと ダウンロード画面に行きません。これにはうんざりしました。</description>
+    <dc:date>2003-06-28T21:56:24</dc:date>
+  </item>
+
+</rdf:RDF>

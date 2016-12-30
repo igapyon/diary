@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/01/14 日記: Javaパフォーマンス調査</TITLE>
+<META name="DESCRIPTION" content="仕事でJavaパフォーマンスの調査に携わっていて… ＋超単純メモリトレースツールサンプル">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:47+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2003/01/14 日記: Javaパフォーマンス調査</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 仕事でJavaパフォーマンスの調査に携わっていて… ＋超単純メモリトレースツールサンプル</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaパフォーマンス調査</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ここのところ ちょくちょく日記にJavaパフォーマンスネタが載っていましたが、ご想像通り
+今 Javaパフォーマンスの調査絡みの仕事をしています。<BR>
+今日は 今時の Javaパフォーマンス関連書籍を 調べてみました。</P>
+<UL>
+  <LI>Javaパフォーマンス戦略 -高速プログラムの高速開発のためのイディオム集-<BR><A HREF="http://www.pearsoned.co.jp/washo/java/wa_int82-j.html">http://www.pearsoned.co.jp/washo/java/wa_int82-j.html</A><BR>
+  Ｃ・ラーマン、Ｒ・ガスリー 著<BR>
+  安藤 慶一 訳<BR>
+  出版元: ピアソン・エデュケーション<BR>
+  ISBN4-89471-242-3
+  <UL>
+    <LI>発売当初から私がお世話になったパフォーマンスチューニングネタ満載の本。現在読み返しても
+    やはりこの本が一番素晴らしかったです。
+  </UL>
+  <LI>[The Java Series] Javaプラットフォームパフォーマンス -コードレベルのチューニングと開発プロセスへの統合-<BR>
+  <A HREF="http://www.pearsoned.co.jp/washo/java/wa_java14-j.html">http://www.pearsoned.co.jp/washo/java/wa_java14-j.html</A><BR>
+  Ｓ・ウィルソン、Ｊ・ケセルマン 著<BR>
+  豊福 剛 訳<BR>
+  出版元: ピアソン・エデュケーション<BR>
+  ISBN4-89471-393-4
+  <UL>
+    <LI>最近(2002.07)に出たパフォーマンスチューニングネタの本。パフォーマンスチューニングについてアカデミックなアプローチを取っていて
+    この本はこれで読んでみて満足しました。また プロファイルの方法について結構詳しく書いてあるので
+    この点も満足しました。
+    <LI>原書 Java Platform Performance: Strategies and Tactics by Steve Wilson
+    and Jeff Kesselman, <BR>
+    ISBN 0-201-70969-4
+  </UL>
+  <LI>Javaの鉄則　-エキスパートのプログラミングテクニック-<BR>
+  <A HREF="http://www.pearsoned.co.jp/washo/java/wa_int85-j.html">http://www.pearsoned.co.jp/washo/java/wa_int85-j.html</A><BR>
+  Ｐ・ハガー 著<BR>
+  株式会社ドキュメントシステム 訳<BR>
+  出版元: ピアソン・エデュケーション<BR>
+  ISBN4-89471-258-X
+  <UL>
+    <LI>昔 Java言語のことがよく分かっていないときに読んで とても勉強になった本。パフォーマンスネタも扱っていて
+    私にとってのパフォーマンスチューニングの原点がこの本です。
+  </UL>
+</UL>
+<P>この3冊を読むと、かなりパフォーマンスチューニング技法が身に付くように思っています。どれか一冊、と言われたら
+やはり</P>
+<UL>
+  <LI>Javaパフォーマンス戦略 -高速プログラムの高速開発のためのイディオム集-<BR>
+  <A HREF="http://www.pearsoned.co.jp/washo/java/wa_int82-j.html">http://www.pearsoned.co.jp/washo/java/wa_int82-j.html</A>
+</UL>
+<P>が最もお勧めですね。</P>
+<HR>
+<P>で、これらに載っていない私の独自トレース方法をメモで書いておきます。定量的な単体テスト時のメモリトレースの方法です。3年くらい前から使っている
+私の愛用ツールです。<BR>
+ソースを見てすぐにわかるでしょうが、この方法は 特定JVMの特定HotSpotでしか
+同一の結果が得られないという かなり偏屈なメモリトレース方法です。でも私にとっては
+このように定量的にメモリの増減を把握できるというのはとても効果絶大なのです。</P>
+<P>で、まずはそれメモリトレースツールの実行結果</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Test.classの実行結果</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>D:\temp\test2&gt;java Test<BR>
+Memory: ********************<BR>
+Memory: init begin.<BR>
+Memory: ********************<BR>
+Memory: 294432/2031616 byte (+293432 byte) (14%)<BR>
+Memory: 295760/2031616 byte (+328 byte) (14%)<BR>
+Memory: 296768/2031616 byte (+8 byte) (14%)<BR>
+Memory: 297768/2031616 byte (0 byte) (14%)<BR>
+Memory: 298768/2031616 byte (0 byte) (14%)<BR>
+Memory: 299768/2031616 byte (0 byte) (14%)<BR>
+Memory: 300768/2031616 byte (0 byte) (14%)<BR>
+Memory: 301768/2031616 byte (0 byte) (14%)<BR>
+Memory: 302768/2031616 byte (0 byte) (14%)<BR>
+Memory: 303768/2031616 byte (0 byte) (14%)<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: 157672/2031616 byte (-147096 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157824/2031616 byte (-848 byte) (7%)<BR>
+Memory: 158832/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157976/2031616 byte (-1856 byte) (7%)<BR>
+Memory: 158984/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 158128/2031616 byte (-1856 byte) (7%)<BR>
+Memory: 159136/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157672/2031616 byte (-2464 byte) (7%)<BR>
+Memory: 158680/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157672/2031616 byte (-2008 byte) (7%)<BR>
+Memory: 158680/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157824/2031616 byte (-1856 byte) (7%)<BR>
+Memory: 158832/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157976/2031616 byte (-1856 byte) (7%)<BR>
+Memory: 158984/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157672/2031616 byte (-2312 byte) (7%)<BR>
+Memory: 158680/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157824/2031616 byte (-1856 byte) (7%)<BR>
+Memory: 158832/2031616 byte (+8 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: 157976/2031616 byte (-1856 byte) (7%)<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: gc<BR>
+Memory: ********************<BR>
+Memory: init end. show() footprint is (1000)<BR>
+Memory: ********************<BR>
+Memory: 157840/2031616 byte (-1136 byte) (7%)<BR>
+Memory: 158848/2031616 byte (+8 byte) (7%)<BR>
+Memory: 159848/2031616 byte (0 byte) (7%)<BR>
+Memory: 160848/2031616 byte (0 byte) (7%)<BR>
+Memory: 161848/2031616 byte (0 byte) (7%)<BR>
+あいう123<BR>
+Memory: 162880/2031616 byte (+32 byte) (8%)<BR>
+えおか456<BR>
+Memory: 163912/2031616 byte (+32 byte) (8%)<BR>
+きくけ789<BR>
+Memory: 165104/2031616 byte (+192 byte) (8%)<BR>
+こさし012<BR>
+Memory: 166144/2031616 byte (+40 byte) (8%)<BR>
+すせそ345<BR>
+Memory: 167176/2031616 byte (+32 byte) (8%)<BR>
+たちつ678<BR>
+Memory: 168208/2031616 byte (+32 byte) (8%)<BR>
+Memory: 169208/2031616 byte (0 byte) (8%)<BR>
+Memory: gc<BR>
+Memory: 157744/2031616 byte (-12464 byte) (7%)<BR>
+<BR>
+D:\temp\test2&gt;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>実行結果の意味はわかりますか？ 『あいう123』 というのをSystem.out.println()するのに
+32バイトのゴミを出している、とかいう情報がわかるツールです。<BR>
+処理とメモリ増加との関連を 好きなところでサンプリングできるという、まあ
+良くも悪くも超簡単ツールですね。ガベージコレクションの都合などでノイズが入る可能性は当然ありますけれども、ある程度
+メモリの状態が安定してきた後において得られる実行結果は 結構精度の良いところを行っているように感じています。</P>
+<P>で、そのソースコードは下記。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">MemoryTrace.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* 単体テスト時のメモリトレースツール
+* Copyright (C) 2000-2003 Tosiki IGA
+*/
+public final class MemoryTrace {
+    private long pastMemory = 0;
+    private static final Runtime rt = Runtime.getRuntime();
+    private static final long DIVIDE = 1;
+    private static final String UNIT = &quot;byte&quot;;
+
+    /**
+     * Sun J2SE 1.4.1_01 Windows版では 1000でした。
+     */
+    private static final long TRACE_FOOTPRINT = 1000;
+
+    private static final int STRBUF_SIZE = 72;
+
+    public MemoryTrace() {
+        init();
+    }
+
+    /**
+     * メモリ状態の表示
+     */
+    public long show() {
+        long totalMemory = rt.totalMemory() / DIVIDE;
+        long usingMemory = totalMemory - rt.freeMemory() / DIVIDE;
+        StringBuffer buf = new StringBuffer(STRBUF_SIZE);
+        buf.append(&quot;Memory: &quot;);
+        buf.append(usingMemory);
+        buf.append(&quot;/&quot;);
+        buf.append(totalMemory);
+        buf.append(&quot; &quot;);
+        buf.append(UNIT);
+        buf.append(&quot; (&quot;);
+        long diff = usingMemory - pastMemory - TRACE_FOOTPRINT;
+        if (diff &gt; 0) {
+            buf.append('+');
+        }
+        buf.append(diff);
+        buf.append(&quot; &quot;);
+        buf.append(UNIT);
+        buf.append(&quot;) (&quot;);
+        buf.append(usingMemory*100 / totalMemory);
+        buf.append(&quot;%)&quot;);
+        System.out.println(buf.toString());
+
+        pastMemory = usingMemory;
+        return diff;
+    }
+
+    /**
+     * ガベージコレクションの実行。
+     */
+    public void gc() {
+        show();
+        gcCore();
+        show();
+    }
+
+    private void gcCore() {
+        System.out.println(&quot;Memory: gc&quot;);
+        rt.runFinalization();
+        rt.gc();
+    }
+
+    /**
+     * 初期化処理
+     */
+    private void init() {
+        System.out.println(&quot;Memory: ********************&quot;);
+        System.out.println(&quot;Memory: init begin.&quot;);
+        System.out.println(&quot;Memory: ********************&quot;);
+        show();
+        show();
+        show();
+        show();
+        show();
+        show();
+        show();
+        show();
+        show();
+        show();
+        gcCore();
+        gcCore();
+        gcCore();
+        gcCore();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gc();
+        gcCore();
+        gcCore();
+        gcCore();
+        gcCore();
+        gcCore();
+        gcCore();
+        System.out.println(&quot;Memory: ********************&quot;);
+        System.out.print(&quot;Memory: init end. show() footprint is (&quot;);
+        System.out.print(TRACE_FOOTPRINT);
+        System.out.println(&quot;)&quot;);
+        System.out.println(&quot;Memory: ********************&quot;);
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>メモリトレースのサンプルPGは下記</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Test.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+* メモリトレースサンプル
+*/
+public class Test {
+    /**
+     * 単体テスト時以外は必ずfalseに設定。
+     */
+    private static final boolean MEMORY_TRACE = true;
+
+    public static void main(String[] args) {
+        MemoryTrace memoryTrace = null;
+        if (MEMORY_TRACE) {
+            memoryTrace = new MemoryTrace();
+        }
+
+        if (MEMORY_TRACE) {
+            // show()メソッドのメモリ上オーバヘッドを計測するために実行。
+            memoryTrace.show();
+            memoryTrace.show();
+            memoryTrace.show();
+            memoryTrace.show();
+            memoryTrace.show();
+        }
+
+        String msg = &quot;あいう123&quot;;
+        System.out.println(msg);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        msg = &quot;えおか456&quot;;
+        System.out.println(msg);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        int i = 789;
+        String msg2 = &quot;きくけ&quot; + i;
+        System.out.println(msg2);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        msg = &quot;こさし012&quot;;
+        System.out.println(msg);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        msg = &quot;すせそ345&quot;;
+        System.out.println(msg);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        msg = &quot;たちつ678&quot;;
+        System.out.println(msg);
+        if (MEMORY_TRACE)
+            memoryTrace.show();
+
+        // null代入がgcに与える影響は、このコメントを除去してnull代入を
+        // 有効にしてみるとわかります。
+        //msg = null;
+        //msg2 = null;
+
+        if (MEMORY_TRACE)
+            memoryTrace.gc();
+    }
+}
+</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>べたべたでんなぁ。もちろん このメモリトレースが有効なまんま本番に載せて行けないのは言うまでもありません
+(笑)<BR>
+# メモリトレースツール自身がメモリのゴミを生産していますからね。この例で行くと
+ちょうど1000バイトのメモリゴミオーバヘッドがあるのがわかりますよね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaパフォーマンス調査 その後…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">22:35頃</FONT> ようやっと明日のプレゼンで利用する資料が完成しました。ふう。メールで事前に送付して、今日は
+もう おしまい。明日の京都出張は 結構早いですから 寝坊しないようにPHSの目覚ましをセットして
+(笑)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaパフォーマンス 後日談</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2003年のあいだに サイド Javaパフォーマンス屋になっていました…</P>
+<UL>
+  <LI><A href="ig031225.html">2003/12/25 日記: Javaパフォーマンス調査ふたたび</A>
+</UL>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig030114.src.html' , result='ig030114.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig030114-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/news/0301/08/nj00_cdr5.html">CD-Rの「音」を考える “世界最高レベルのユーザー”に聞く音質向上テクニック</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0301/08/nj00_cdr5.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>CD-Rへのこだわりの一文。ものすごく詳しく そして私にすら理解できるほどわかりやすくCD-Rの音質について発言しています。このページ とても気になりました。<LI><A HREF="http://japan.internet.com/linuxtoday/20030108/4.html">Panasonic が Web 電話に MontaVista Linux を採用</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20030108/4.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>どんどんLinuxがやって来ますねぇ。<LI><A HREF="http://www.pc-view.net/">PC View</A> <FONT size="-2"><A target="_blank" HREF="http://www.pc-view.net/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>IT関連情報サイト<LI><A HREF="http://www.zdnet.co.jp/news/0301/10/ne00_server.html">MS、次世代Windows Serverの名称から“混乱の元”を排除</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0301/10/ne00_server.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>.NETをやめたんですね。(名称から :-P また この記事では度重なる出荷延期の歴史まで説明してくれています。<LI><A HREF="http://www.zdnet.co.jp/news/0301/14/nebt_09.html">Linux携帯電話、NECなど数社が開発中</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0301/14/nebt_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ケータイLinuxは ごくフツ?のことになる方向性なんでしょうか。興味深いです。…そしたら Linuxザウルスの方が優位か？ (やや意味不明)<LI><A HREF="http://www.zdnet.co.jp/news/0301/14/nebt_10.html">「検索順位の不当操作」めぐりGoogleが反論</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0301/14/nebt_10.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Googleの検索結果で損失？ う?ん。それはさておき Googleの与える影響って すっごく大きいんでしょうね。そういう訴訟そのものが発生しうるということこそが Googleの存在の影響具合を示していますね…。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:47 $</address>
+</BODY>
+</HTML>

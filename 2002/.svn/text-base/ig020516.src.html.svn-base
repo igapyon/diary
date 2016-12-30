@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/16 日記: 出張疲れ中… , Java言語でシューティングゲーム</TITLE>
+<META name="DESCRIPTION" content="出張疲れ中。でも今日は 原価計算システムの『本当の』打ち上げがあります。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>東京出張疲れ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>1泊2日の東京出張にて、ちと疲れが残っています。空模様も崩れ気味で より一層体調が悪くなります。<BR>
+でも、今日は 原価計算システムの本当の打ち上げがある日です。先日の初回本番が無事に終わったのを受け、内輪で打ち上げをします。本当に順調に初回本番を乗り切ることが出来て良かったです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語でシューティングゲーム</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>知人の渡辺義則さんが、J2SE 1.4.0 のゲームプログラミングの研究日誌を書かれていました。このゲームが
+結構気合い入っていて、結構びっくりしました。</P>
+<UL>
+  <LI>渡辺義則さんの研究日誌: Javaでシューティングゲーム☆彡<BR>
+  [replace-href:http://www.hcn.zaq.ne.jp/no-ji/reseach/20020513.htm]
+</UL>
+<P>Sylbisといういわゆるスクロール系2次元シューティングゲームなのですけれども、これが凄い。『えっ、これってJava言語で書いているの』ってびっくりしました。そもそもフルスクリーンモードに切り替わる際に、『OSがハングアップしたか?』と疑ってしまったほどです。(この機能を利用しているため、このゲームの実行には
+J2SE 1.4.0以降が必要です)。以前 DirectX用に書いたゲームをJ2SE用に移植したのだそうです。<BR>
+単にダウンロードして 単に実行するだけで動作します。今見たら ソースコードも付いていました。時間に余裕のあるJava言語マニアな方は、ぜひ
+ちょっとダウンロードして試してみる価値はあると思います q(^o^)P<BR>
+# たったこれだけのソースコードで、どうしてこれが実現できるのかが、ゲーム制作経験のほとんど無い私には理解不能なのであった…</P>
+<P>それにしても、Java言語でゲームを書いたら 配布の効率が大変良さそうですね。今
+JARファイルをダウンロードして 実行しただけで動作したのには大変驚きました。また
+こういった切り口から Java実行環境の普及が進んでくれれば、とも思います。渡辺さん、すばらしいサンプルゲームをありがとうございます！</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020516-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

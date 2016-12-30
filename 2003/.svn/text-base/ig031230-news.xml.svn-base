@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031230.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031230.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-30</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0312/27/nj00_manifesto.html">
+    <title>2003年末、IT戦士志願者の主張（全文）</title>
+    <link>http://www.zdnet.co.jp/news/0312/27/nj00_manifesto.html</link>
+    <description>なんか いろんな意味で凄い記事だなぁ。</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+  <item rdf:about="http://www.hyuki.com/shop/">
+    <title>結城さんちの本屋さん</title>
+    <link>http://www.hyuki.com/shop/</link>
+    <description>アマゾンアソシエイトプログラムというものの存在を 結城さんちの本屋さんで初めて認識。ほほう これは面白い。</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/ASIN/B00005J4ST/igapyondiary-22/249-1450693-2522755">
+    <title>魔女の宅急便</title>
+    <link>http://www.amazon.co.jp/exec/obidos/ASIN/B00005J4ST/igapyondiary-22/249-1450693-2522755</link>
+    <description>アマゾンアソシエイトプログラムのテスト(1)</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/ASIN/B00005J4ST/igapyondiary-22/249-1450693-2522755">
+    <title>となりのトトロ</title>
+    <link>http://www.amazon.co.jp/exec/obidos/ASIN/B00005J4ST/igapyondiary-22/249-1450693-2522755</link>
+    <description>アマゾンアソシエイトプログラムのテスト(2)</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/ASIN/4797321261/igapyondiary-22/249-1450693-2522755">
+    <title>結城浩のPerlクイズ</title>
+    <link>http://www.amazon.co.jp/exec/obidos/ASIN/4797321261/igapyondiary-22/249-1450693-2522755</link>
+    <description>アマゾンアソシエイトプログラムのテスト(3)</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+  <item rdf:about="http://www.amazon.co.jp/exec/obidos/ASIN/B0000E2XA7/igapyondiary-22/249-1450693-2522755">
+    <title>PEG-TJ25 R CLIE TJ25 (レッド)</title>
+    <link>http://www.amazon.co.jp/exec/obidos/ASIN/B0000E2XA7/igapyondiary-22/249-1450693-2522755</link>
+    <description>アマゾンアソシエイトプログラムのテスト(3)。というか単に欲しい。</description>
+    <dc:date>2003-12-31T09:39:40</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,16 @@
+2015-09-08 shredコマンド (ファイル・ディスクの中身を完全消去)
+
+*p1*shredコマンド (ファイル・ディスクの中身を完全消去)
+
+via http://yang.amp.i.kyoto-u.ac.jp/~yyama/Ubuntu/strage/shred.html
+
+**list disks
+>|sh|
+sudo fdisk -l
+||<
+
+**erase hdd
+>|sh|
+sudo shred -v -n 3 -z /dev/sdb
+||<
+

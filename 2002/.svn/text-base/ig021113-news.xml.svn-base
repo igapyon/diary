@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021113.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021113.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/07/xedj_msopen.html">
+    <title>［WSJ］ MSがオープンソースへの矛を収める？</title>
+    <link>http://www.zdnet.co.jp/news/0211/07/xedj_msopen.html</link>
+    <description>マイクロソフトには 最後の最後まで従来のビジネスモデルのまま頑張って欲しいのですけれどもね。</description>
+    <dc:date>2002-11-15T09:34:48</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0211/08/nebt_04.html">
+    <title>MS、Linux攻撃の失敗を認めるメモ</title>
+    <link>http://www.zdnet.co.jp/news/0211/08/nebt_04.html</link>
+    <description>本当に Linuxへの人気が高まりつつある原因の一つに Windows .NET Serverのリリース遅れがあると私は思っています。</description>
+    <dc:date>2002-11-15T09:34:48</dc:date>
+  </item>
+  <item rdf:about="http://japan.internet.com/linuxtoday/20021108/3.html">
+    <title>MandrakeSoft、クラスタリング Linux「CLIC」を発表</title>
+    <link>http://japan.internet.com/linuxtoday/20021108/3.html</link>
+    <description>本当に簡単にクラスタリングが出来ると嬉しいのですけれどね。</description>
+    <dc:date>2002-11-15T09:34:48</dc:date>
+  </item>
+
+</rdf:RDF>

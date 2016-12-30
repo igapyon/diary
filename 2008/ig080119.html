@@ -1,0 +1,317 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2008/01/19 日記: Apache 2.2 + Subversion 1.4.6 インストール</TITLE>
+<META name="DESCRIPTION" content="Apache 2.2 + Subversion 1.4.6 (Windows) の組み合わせのインストールメモ。 , Apache 2.2 ログ文字化け解析クラス">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2008/01/19 日記: Apache 2.2 + Subversion 1.4.6 インストール</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Apache 2.2 + Subversion 1.4.6 (Windows) の組み合わせのインストールメモ。 , Apache 2.2 ログ文字化け解析クラス</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache 2.2 + Subversion 1.4.6 インストール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache 2.2 + <A href="http://subversion.tigris.org/">Subversion</A> 1.4.6 (Windows) の組み合わせのインストールメモ。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">httpd.conf</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre># コメント解除
+LoadModule dav_module modules/mod_dav.so
+LoadModule dav_fs_module modules/mod_dav_fs.so
+
+# 追加
+LoadModule dav_svn_module modules/mod_dav_svn.so
+LoadModule authz_svn_module modules/mod_authz_svn.so</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">環境変数</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>APR_ICONV_PATH = &quot;C:\Program Files\Subversion\svn-win32-1.4.6\iconv&quot;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">環境変数</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>Path += &quot;C:\Program Files\Subversion\svn-win32-1.4.6\bin&quot;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">なるべく実施したくない手順 (コピー)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>C:\Program Files\Subversion\svn-win32-1.4.6\bin\*.dll → C:\Program Files\Apache
+      Software Foundation\Apache2.2\bin</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※同名ファイルは上書きしない<BR>※これを実施しないに越したことは無い。</BLOCKQUOTE>
+<UL>
+  <LI><FONT color="#ff0000">2009.04.24追記</FONT> Subversion 1.5.6 (Windows) において、同様の手順で動作することを確認しました。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache 2.2 認証メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">conf/httpd.conf (抜粋)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>    Order deny,allow
+    Deny from all
+    Satisfy all
+
+    AuthType Basic
+    AuthName &quot;iga-pc5 login&quot;
+    AuthUserFile &quot;conf/htpasswd.conf&quot;
+    require valid-user</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">conf/htpasswd.conf</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>iga:&lt;ここにパスワード&gt;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache 2.2 ログ文字化け解析クラス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ちょこっと作りました。<BR>
+# ICONVについてパスに追加するなどしても、文字化けは解消せず。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">文字化け例</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>httpd.exe: Syntax error on line 120 of C:/Program Files/Apache Software Foundation/Apache2.2/conf/httpd.conf: Cannot load C:/Program Files/Apache Software Foundation/Apache2.2/modules/mod_dav_svn.so into server: \x8ew\x92\xe8\x82\xb3\x82\xea\x82\xbd\x83\x82\x83W\x83\x85\x81[\x83\x8b\x82\xaa\x8c\xa9\x82\xc2\x82\xa9\x82\xe8\x82\xdc\x82\xb9\x82\xf1\x81B</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">DecodeMojibake.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.StringReader;
+
+/**
+ * Apache HTTP Serverのログ上の文字化けを修正したい場合に利用するツール。
+ * 
+ * @author IGA Tosiki
+ */
+public class DecodeMojibake {
+    public static void main(final String[] args) throws IOException {
+        if (args.length == 0) {
+            System.out.println(&quot;usage: DecodeMojibake 文字化けを直したい文字列&quot;);
+            return;
+        }
+
+        System.out.println(new String(decodeMojibake(args[0])));
+    }
+
+    public static byte[] decodeMojibake(final String arg) throws IOException {
+        final ByteArrayOutputStream outStream = new ByteArrayOutputStream();
+        final StringReader reader = new StringReader(arg);
+        for (;;) {
+            final int iRead1 = reader.read();
+            if (iRead1 &lt; 0) {
+                break;
+            }
+
+            if (iRead1 == '\\') {
+                final int iRead2 = reader.read();
+                if (iRead2 &lt; 0) {
+                    break;
+                }
+                if (iRead2 == 'x') {
+                    // バイト発見！
+                    final int iReadHigh = reader.read();
+                    if (iReadHigh &lt; 0) {
+                        break;
+                    }
+                    final int iReadLow = reader.read();
+                    if (iReadLow &lt; 0) {
+                        break;
+                    }
+                    final char charHigh = (char) iReadHigh;
+                    final char charLow = (char) iReadLow;
+                    outStream.write((byte) Integer.parseInt(&quot;&quot; + charHigh
+                            + charLow, 16));
+                } else {
+                    outStream.write(iRead1);
+                    outStream.write(iRead2);
+                }
+            } else {
+                outStream.write(iRead1);
+            }
+        }
+        reader.close();
+        outStream.flush();
+        outStream.close();
+
+        return outStream.toByteArray();
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">解読例</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>…省略…onf/httpd.conf: Cannot load C:/Program Files/Apache Software Foundation/Apache2.2/modules/mod_dav_svn.so
+      into server: 指定されたモジュールが見つかりません。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

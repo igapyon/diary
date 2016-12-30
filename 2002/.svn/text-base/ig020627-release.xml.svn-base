@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020627.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020627.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-27</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/javahelp/">
+    <title>SUN JavaHelp 1.1.3 リリース</title>
+    <link>http://java.sun.com/products/javahelp/</link>
+    <description>JavaHelpも ちょっとずつ前進しているようです。</description>
+    <dc:date>2002-06-27T14:29:38</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/webservices/downloads/webservicespack.html">
+    <title>SUN JAXP 1.2, XSTLC 1.0 『正式』リリース</title>
+    <link>http://java.sun.com/webservices/downloads/webservicespack.html</link>
+    <description>Java Web Services Developer Pack や Java XML Pack, Summer 02 に JAXP 1.2 は含まれて既にリリースしていました。SUNのサイトにて、改めてJAXP 1.2など単体として『正式リリースなんだよ』 との告知が載っていました。(だけれども単体としてのダウンロード画面は見あたりませんでした…)。それとは別に XSLTC に非互換性の問題が見つかったようで それを回避するためのパッチが載っていました。</description>
+    <dc:date>2002-06-27T14:29:38</dc:date>
+  </item>
+
+</rdf:RDF>

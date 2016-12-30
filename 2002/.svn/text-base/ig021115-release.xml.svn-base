@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021115.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig021115.html</link>
+    <language>ja</language>
+    <dc:date>2002-11-15</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.eclipse.org/">
+    <title>Eclipse 2.0.2 リリース</title>
+    <link>http://www.eclipse.org/</link>
+    <description>オープンソースの統合開発環境Eclipse最新版のリリースです。早速ダウンロードっ。各国語用リソースは 2.0.2用のものは現時点ではまだ提供開始されていません。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4/">
+    <title>Java2 SDK, Standard Edition, 1.4.0_03 リリース</title>
+    <link>http://java.sun.com/j2se/1.4/</link>
+    <description>一世代前のブランチである 1.4.0系の最新リビジョンがリリースです。</description>
+    <dc:date>2002-11-15T10:17:42</dc:date>
+  </item>
+
+  <item rdf:about="http://xml.apache.org/xerces2-j/index.html">
+    <title>Apache Xerces2 Java Parser 2.2.1 リリース</title>
+    <link>http://xml.apache.org/xerces2-j/index.html</link>
+    <description>久しぶりにダウンロードしてみました。(J2SE 1.4.xには 最初からXMLパーサが付属しているので あえてダウンロードしなくなっていたためです)</description>
+    <dc:date>2002-11-15T09:45:06</dc:date>
+  </item>
+
+</rdf:RDF>

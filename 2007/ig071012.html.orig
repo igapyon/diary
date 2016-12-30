@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2007/10/12 日記: 配下に一名の増員 , blanco Framework 関連作業予定</TITLE>
+<META name="DESCRIPTION" content="昨日付けで、私の配下に一名の増員がありました。S村さんが新たに配備されました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2007/10/12 日記: 配下に一名の増員 , blanco Framework 関連作業予定</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 昨日付けで、私の配下に一名の増員がありました。S村さんが新たに配備されました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>配下に一名の増員</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日付けで、私の配下に一名の増員がありました。S村さんが新たに配備されました。</P>
+<P>以下の作業を実施してもらうことを予定しています。</P>
+<UL>
+  <LI>タッチタイプを練習し直す。<BR>
+  少しタッチタイプを見せてもらって、すごく気になりました。<BR>
+  ※新入社員研修で「完璧な」タッチタイプ練習を実施してほしいです。
+  <LI>年内は <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。">blancoMail</A>の設計・製造に従事。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework 関連作業予定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>関連作業の予定をメモしておきます。</P>
+<UL>
+  <LI>blancoMailの <A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="メール送受信を安全で確実に実現するためのコアライブラリです。">blancoMailCore</A> に続く 次のサブプロダクトについての具体的な検討。
+  <LI>某 blancoSOAP プラグインについてオープンソース公開を検討すること。
+  <LI>blancoCgから英語対応を検討すること。
+  <LI>ホームページ記述内容を改善すること。
+  <LI>ホームページ検索サイト作成キットのようなプロダクトについて新規検討すること。
+  <LI>blancoLdapの検討！ だれでも簡単LDAPプログラミングのための APIセット！
+  <LI>blancoLogの内容を再度精査すること。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

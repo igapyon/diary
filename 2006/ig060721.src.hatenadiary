@@ -1,0 +1,7 @@
+2006-07-21 サンプル ストアドプロシージャ (SQL Server 2005)
+
+*p1*サンプル ストアドプロシージャ (SQL Server 2005)
+CREATE PROCEDURE test_proc @param1 int, @param2 int AS
+SELECT @param1 + @param2
+GO
+

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/08/08 日記: Java GUI プログラミング SWT編 発刊</TITLE>
+<META name="DESCRIPTION" content="あの Swing本で有名な 大村忠史 さんが SWT本を出されました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java GUI プログラミング SWT編 発刊</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>あの Swing本で有名な 大村忠史 さんが SWT本を出されました。私 SWT本って初めて見ました。ややもすれば世界初じゃないかしらん。SWTに興味がある人は必ずゲットの一冊ですっ。</P>
+<UL>
+  <LI>Java GUI プログラミング SWT編<BR>
+著者: 大村忠史<BR>
+  発行: 株式会社カットシステム<BR>
+  ISBN4-87783-086-3
+</UL>
+<P>SWTのレイアウトマネージャは 一癖あるので、こういう本で勉強できるのは大変ありがたいです。SWTのレイアウトマネージャの使い方がわかれば
+強力で柔軟な画面をSWTで開発できるようになりますよね。<BR>
+私の好きなツリーコンポーネントは、この本の中では触れられていませんでした。これはちょっとだけ残念。</P>
+<P>オンライン書店での状況チェック</P>
+<UL>
+  <LI><A href="http://www.cbook24.com/bm_detail.asp?sku=4877830863">cbook24.com</A>
+  <LI><A href="http://www.amazon.co.jp/exec/obidos/ASIN/4877830863/hatena-22/ref%3Dnosim/250-0162369-6920232">amazon.co.jp</A>
+</UL>
+<P>カットシステム様 すばらしい本を どうも ありがとう！ ライターをしていてわかる
+出版社さまの出版判断のありがたさ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>大阪に帰ってきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>00:42 昨日の夜中 (というか今さっき) 東京から帰ってきました。出張が半日短くなりました。<BR>
+東京駅からの新幹線は大変に混雑していました。座席を予約して夕飯を食べてゆっくりして、それから乗車しました。みなさん混雑の中大変ですねぇ。</P>
+<P>また、昨日 面談のために来社された皆様、どうもありがとうございます。沢山の方にお会いさせて頂きました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2000 でトランザクション・ログが破裂した際の呪文</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>SQL Server 2000 から 呪文が変わっていました。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>BACKUP LOG データベース名 with no_log;<BR>
+      DBCC SHRINKFILE (データベース名_Log); </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>早速メモ</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030808-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

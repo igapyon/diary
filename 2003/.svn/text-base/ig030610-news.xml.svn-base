@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030610.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030610.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-10</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/products/j2mewtoolkit/">
+    <title>Java2 Platform Micro Edition, Wireless Toolkit 2.0 日本語版・各中文版リリース</title>
+    <link>http://java.sun.com/products/j2mewtoolkit/</link>
+    <description>J2ME Wireless Toolkit 2.0 のローカライズ版がリリースです。</description>
+    <dc:date>2003-06-10T17:40:00</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20055146,00.htm">
+    <title>「明日はPNGの風が吹く？」：米国でGIFが特許切れに</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20055146,00.htm</link>
+    <description>ライターの経験上、編集者さんからは不可逆圧縮形式は禁止されます。そのため 今まで 私の中では 『ライター作業＝PNG』というルールが埋め込まれています。可逆圧縮であるPNGでしかライター作業はできないものと思っていました。いまどき PNGを表示できないブラウザなんてそんなには多くないでしょうから、ぜひ 今後とも PNGを使っていきたく思います。(なんて書きながら 私のサイトには 未だに 非PNGファイルも残っていますけれどもね)</description>
+    <dc:date>2003-06-10T17:40:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/10/njbt_01.html">
+    <title>ソニー、ハイクオリティ製品ブランド「QUALIA」発表</title>
+    <link>http://www.zdnet.co.jp/news/0306/10/njbt_01.html</link>
+    <description>ああ、異常に惹かれますなぁ。いつか金持ちになったら買ってみたいということで…。それはさておき ハイクオリティ製品ブランドって 今時 あんまり聞き及ばなかったので、そういうものを作ってくれるソニーさんに感謝します。130万円の36型トリニトロンモニターって、どんな使い心地かしらん (笑)</description>
+    <dc:date>2003-06-10T17:40:00</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055161,00.htm">
+    <title>日本HP、次期Itanium 2に対応する「HP-UX 11i version2」を7月1日から販売開始</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055161,00.htm</link>
+    <description>私は HP-UX動向は全然疎いですが、それでも HP-UXがItaniumに普通に対応するご時世が到来するなんてのは とっても不思議な感じがします。HP-UXといえば、私の中では 汎用機級なのです。汎用機級の信頼性を持ったシステムを IntelベースのCPUで実現するんですね。やはり感無量です。</description>
+    <dc:date>2003-06-10T17:40:00</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/09/cjad_kodera.html">
+    <title>「いい音」の復権はPCから</title>
+    <link>http://www.zdnet.co.jp/news/0306/09/cjad_kodera.html</link>
+    <description>PC上での音へのこだわり記事。興味深く読みました。</description>
+    <dc:date>2003-06-10T13:18:18</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055128,00.htm">
+    <title>「RAC＋Intel＋ブレード＋Linuxでいけ」：オラクルのグリッド戦略にご神託下る</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055128,00.htm</link>
+    <description>実際のトコロ、Real Application Cluster(RAC)ってどの程度『信頼』できるのでしょうか？ とても興味深いです。完璧具合って 過酷な本番環境においてのみ『証明』できるシロモノなので、こればっかりは どこかの『本当の実績』に まずは是非お目にかかりたい気持ちが一杯です。</description>
+    <dc:date>2003-06-10T13:18:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/04/cead_coursey.html">
+    <title>Netscapeが生き延びていてくれたら……</title>
+    <link>http://www.zdnet.co.jp/news/0306/04/cead_coursey.html</link>
+    <description>Mozillaがどうなるのか、がとても気になります。とりあえずMozillaへの資金が継続的に行われるのかどうか 心配です。</description>
+    <dc:date>2003-06-10T13:18:18</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0306/09/cead_coursey.html">
+    <title>MSバルマー様、そろそろLinux陣営に混ざりませんか？</title>
+    <link>http://www.zdnet.co.jp/news/0306/09/cead_coursey.html</link>
+    <description>面白いフィクション。でも、実際 MS Linuxなんてものが出たら、やっぱり 首位に立ってしまいそうです…。</description>
+    <dc:date>2003-06-10T13:18:18</dc:date>
+  </item>
+
+</rdf:RDF>

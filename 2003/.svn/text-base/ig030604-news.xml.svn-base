@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030604.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030604.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-04</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.opensource.gr.jp/osd/osd-japanese.html">
+    <title>オープンソースの定義(日本語) 注釈付き</title>
+    <link>http://www.opensource.gr.jp/osd/osd-japanese.html</link>
+    <description>オープンソースというのは 固有名詞なのです。運用としては、OSIという団体が オープンソースという条件に合致したソフトウェアライセンスを 『このライセンスは オープンソース・ライセンスである』と認定する作業を行っています。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054885,00.htm">
+    <title>JBossのJ2EE互換性問題が紛糾：裁判に発展も</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054885,00.htm</link>
+    <description>JBossは まだJ2EE 1.3互換では無いのですね。J2EE 1.3試験をパスしていないのですから。しかし一方で J2EE 1.3仕様に準拠と、これは発言しても良いように私は思います。だって J2EE 1.3仕様に準拠するように注意して作られているのでしょうから。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/com/story/0,2000047668,20054883,00.htm">
+    <title>国内ブロードバンド加入件数が996万に、総務省が発表</title>
+    <link>http://japan.cnet.com/news/com/story/0,2000047668,20054883,00.htm</link>
+    <description>もうちょっとで 国内ブロードバンド加入件数が1000万の大台に乗りますね。凄い時代が来たものだ。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030530/2/">
+    <title>HTMLメールはやめよう</title>
+    <link>http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20030530/2/</link>
+    <description>HTMLって HTMLとして見たことがほとんどありません。私は鶴亀メールを使っているのですが、鶴亀メールは 自動的にHTMLメールをテキストメールに変換してくれます。また HTMLメールってスパムの時にしか使われて無いのかと思っていました (苦笑)</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.pc-view.net/Special/030425/index.html">
+    <title>情報家電をめぐる日本とマイクロソフトの綱引き（上）</title>
+    <link>http://www.pc-view.net/Special/030425/index.html</link>
+    <description>ブロードバンド時代に テレビとWindowsとが同じ土俵に乗ってしまうのだそうな。そうすると 当然戦いが発生して、そんでもって 日本企業は連合して Linuxとかを担ぎ始めた。…そりゃそうなるでしょうね。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/20030528301.html">
+    <title>XPアップデートで接続障害、MSは即座に取り下げ</title>
+    <link>http://www.hotwired.co.jp/news/news/20030528301.html</link>
+    <description>Windowsアップデートでネットワーク接続が不能になったら その後 Windowsアップデートできなくなってしまって困りますよね (苦笑)</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0305/23/epn15.html">
+    <title>Unbreakableの根本は？ カーネルチューニング詳細をミラクル・伊東 氏が語る</title>
+    <link>http://www.zdnet.co.jp/enterprise/0305/23/epn15.html</link>
+    <description>MIRACLE Linuxの強化点の紹介。クラッシュダンプを改善しているなんてあたりが 商用っぽさを感じさせて好感度抜群です。安定稼働のためには もともと安定していることが大事であると共に クラッシュダンプで 問題内容を完全に把握できるということも欠かせませんから。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/media/story/0,2000047715,20054861,00.htm">
+    <title>マイクロソフト、IEスタンドアローン版廃止へ</title>
+    <link>http://japan.cnet.com/news/media/story/0,2000047715,20054861,00.htm</link>
+    <description>Mozilla巻き返しの絶好の機会ですね。わくわく。</description>
+    <dc:date>2003-06-04T10:17:16</dc:date>
+  </item>
+
+  <item rdf:about="http://www.sony.jp/products/Consumer/PEG/PEG-TG50/index.html">
+    <title>CLIE PEG-TG50</title>
+    <link>http://www.sony.jp/products/Consumer/PEG/PEG-TG50/index.html</link>
+    <description>Palm系マシン購入検討中、Palm OS 5 平均 約37,770.- USB 、Bluetooth</description>
+    <dc:date>2003-06-04T10:32:14</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/26/xert_isp.html">
+    <title>ファイル交換の“隠れたコスト”がISPを悩ます</title>
+    <link>http://www.zdnet.co.jp/news/0305/26/xert_isp.html</link>
+    <description>マルチメディア系データは 帯域幅に大きな影響を与えてしまいます。困ったものですね。</description>
+    <dc:date>2003-06-04T10:32:14</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/248764">
+    <title>「予想以上に使える」、ソニーが組み込みLinuxの手ごたえを発表</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/248764</link>
+    <description>現場レベルではLinux組込が『よい感じ』なのだそうで…</description>
+    <dc:date>2003-06-04T10:32:14</dc:date>
+  </item>
+  <item rdf:about="http://www.unixuser.org/~euske/doc/ipv6ex/index.html">
+    <title>覚悟はできてますか? - トンでもなく高価なIPv6</title>
+    <link>http://www.unixuser.org/~euske/doc/ipv6ex/index.html</link>
+    <description>鉄道と地下鉄を使って喩えたIPv6のオハナシ</description>
+    <dc:date>2003-06-04T10:32:14</dc:date>
+  </item>
+  <item rdf:about="http://www.intervideo.co.jp/products/dvdr.html">
+    <title>WinDVD Recorder</title>
+    <link>http://www.intervideo.co.jp/products/dvdr.html</link>
+    <description>興味を持っています。</description>
+    <dc:date>2003-06-04T10:32:14</dc:date>
+  </item>
+
+</rdf:RDF>

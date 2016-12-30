@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031113.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031113.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-13</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ebiz/story/0,2000047658,20061933,00.htm?ref=rss">
+    <title>「要は使い方次第」：楽天、PHPを語る</title>
+    <link>http://japan.cnet.com/news/ebiz/story/0,2000047658,20061933,00.htm?ref=rss</link>
+    <description>私はJavaしかわからないですもの…。PHPが得意な人になったら、素直にPHPを利用するんでしょうねぇ。それにしても スレッド指向ではなく プロセス指向で コネクションプールも無いのに、それでちゃんと大規模システムで動いているっていうのは不思議満載です。暇ができたらPHPも手を染めてみたいものの一つではあるのですが… (こう言っている間は ぜったい手を染めないのであった…)</description>
+    <dc:date>2003-11-13T23:52:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/11/nebt_24.html">
+    <title>シャープ、ガリレオにMontaVista Linux採用</title>
+    <link>http://www.zdnet.co.jp/news/0311/11/nebt_24.html</link>
+    <description>家電にLinuxな時代がどんどん到来してきますね…</description>
+    <dc:date>2003-11-13T23:52:48</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0311/11/njbt_03.html">
+    <title>NTT-XとNTT-BBを統合、ブロードバンド新会社「NTTレゾナント」設立</title>
+    <link>http://www.zdnet.co.jp/news/0311/11/njbt_03.html</link>
+    <description>NTT-XやNTT-BBという略称の会社が統合されるのだそうです。</description>
+    <dc:date>2003-11-13T23:52:48</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>1996/08/30 日記: NIFTY Manager for Windows95試食記</TITLE>
+<META name="DESCRIPTION" content="いがぴょんの日記v1 (旧称: ある開発者の日記) から移植しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>NIFTY Manager for Windows95試食記</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>私は、今回の<FONT FACE="Times New Roman"> </FONT><A>NIFTY-Manager
+for Windows95</A>に対して、とても好印象を持ちました。 この感触を、この場を借りて、ご報告させていただきます。</P>
+<P>なお、私は<A>NIFTY-Serve</A>を、メール送受信インフラを主目的として利用しています。従って、メール以外の他の機能は一切見ていません。<FONT FACE="Times New Roman">v(^o^)/~~~</FONT><BR>
+この範囲に限っての感触を報告させていただきます。 </P>
+<P><FONT COLOR="#ff00ff" SIZE="+1">【感触】</FONT></P>
+
+<OL>
+  <LI>インストーラの出来が良いです。<BR>
+  『<FONT FACE="Times New Roman">Install Shield</FONT>』を用いて作成されています。
+<BR>
+  一般ソフトウェアの品質に達しています。意外に、これは大切なことなのです。 <BR>
+  大変美しく仕上がっていると思います。 <BR>
+  <LI>本体の機能が、それなりの品質に達しています。<BR>
+  今までの<FONT FACE="Times New Roman">Windows3.1</FONT>版が劣悪だっただけに、すばらしく見えます。
+<BR>
+  『少し遅い』程度まで改善されています。<BR>
+  また、<FONT FACE="Times New Roman">DAO</FONT>を用いて作成されていますが、仕様の意気込みを感じます。
+<BR>
+  ＃ただし、それゆえに、さらに実行速度やメモリ要件が厳しくなっている <BR>
+  ＃と思われます。将来性にバランスを取っていると見受けられます。 <BR>
+  <LI>ダイアルアップネットワークの自動設定が、大変価値があります。 <BR>
+  <A>NIFTY
+  Manager for Windows95</A><FONT FACE="Times New Roman"> </FONT>のインストール終了後、引き続いて<BR>
+  「インターネット接続のセットアップ」の実行を選択可能です。<BR>
+  これは凄い！！！。大変ありがたい機能であり、すばらしい配慮だと思います。 <BR>
+  慣れてすら難解な<A href="http://www.microsoft.co.jp/win95/index.htm">Windows95</A>のダイアルネットワークの設定が、
+<BR>
+  インストーラにて自動設定されます。 <BR>
+<BR>
+  <FONT FACE="Times New Roman">MS Test</FONT>スタイルの自動動作です。 <BR>
+  <FONT FACE="Times New Roman">(</FONT>画面がぐるぐる回って、とてもおもしろいです。<FONT
+   FACE="Times New Roman">) <BR>
+  </FONT><A href="http://www.microsoft.co.jp/win95/index.htm">Windows95</A>のバージョンアップ時等に、さまざまな問題が発生するのが
+<BR>
+  予想されますが、現状では、この方法しか無いので、しょうがないです。 <BR>
+  <FONT FACE="Times New Roman"># </FONT>一度簡便化を目的に、レジストリをみたことがあります。
+<BR>
+  <FONT FACE="Times New Roman"># </FONT>ダイアルアップネットワークの設定は、レジストリ内では簡単な
+<BR>
+  <FONT FACE="Times New Roman"># </FONT>ビットマスク暗号化＋複雑なチェックサムみたいなものでガードされています。
+<BR>
+  <FONT FACE="Times New Roman"># </FONT>ちょっとやそっとのレジストリハッキングだけでは、設定のレジストリ
+<BR>
+  <FONT FACE="Times New Roman"># </FONT>の実装だけでは、実現できないのです。 <BR>
+<BR>
+  この部分は、大変高く評価しています。<BR>
+  <FONT FACE="Times New Roman"># </FONT>プログラマーの方に直接会って、褒め称えたい位です。
+<BR>
+<BR>
+  この部分を見るためだけでも、パソコン・ソフトウェア技術に従事する <BR>
+  <A href="http://www.microsoft.co.jp/win95/index.htm">Windows95</A>ユーザの方は、是非１度インストールすることをおすすめします。
+<BR>
+  <FONT FACE="Times New Roman"># </FONT><A href="http://www.microsoft.co.jp/win95/index.htm">Windows95</A>ソフトウェアは、最低でも、このレベルに達すべし！！！です。
+<BR>
+  <LI>メールの全受信について、<BR>
+  やはり、受信しても、元のメールは削除されませんでした。 <BR>
+  ＃どこかにスイッチがあるのでしょうか？<FONT FACE="Times New Roman">(^^;) </FONT>
+</OL>
+
+<P><FONT COLOR="#ff00ff" >【まとめ】</FONT></P>
+
+<P>私は、昨今のインターネットブームに乗れなかった人のうちの一人です。メールや<FONT FACE="Times New Roman"> ftp </FONT>は<A>NIFTY-Serve</A><FONT
+ FACE="Times New Roman"> </FONT>に依存しています。それ以外の用途は、<FONT FACE="Times New Roman">WWW</FONT>のホームページを見る程度なのです。</P>
+<P>会議室は利用できません。<FONT FACE="Times New Roman">(</FONT>無精にて<FONT
+ FACE="Times New Roman">^^)</FONT><BR>
+<FONT FACE="Times New Roman"># </FONT>会議室等の正当派<FONT FACE="Times New Roman">
+</FONT><A>NIFTY</A><FONT FACE="Times New Roman">
+</FONT>ユーザは、その手のソフトウェアを利用するのでしょうね<FONT FACE="Times New Roman">(^^;)
+<BR>
+</FONT></P>
+<P>そういった用途のなかで、今回の<FONT FACE="Times New Roman"> </FONT><A>NIFTY-Manager
+for Windows95</A>の意義は大きいです。これなら、パソコンが苦手な人にも、インターネットの設定ができそうです。 </P>
+<P>すべての初心者<A href="http://www.microsoft.co.jp/win95/index.htm">Windows95</A>ユーザに、幸福なパソコンライフが訪れる日を願いつつ、、、 </P>
+[replace-text:igdiarytail.txt]
+</BODY>
+</HTML>

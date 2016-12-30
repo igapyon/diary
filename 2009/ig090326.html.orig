@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2009/03/26 日記: 次世代 Web コンテンツ技術として「ありきたりで古臭い HTML」の時代が到来する予感 (POH ?)</TITLE>
+<META name="DESCRIPTION" content="次世代 Web ページ・コンテンツとして「ありきたりで古臭い HTML」が要求される時代が到来する予感をしています。英文だと Plain Old HTML (POH) でしょう。">
+<META name="KEYWORDS" content="Plain,Old,Semantic,HTML,POH,POSH,JavaScript">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:50+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2009/03/26 日記: 次世代 Web コンテンツ技術として「ありきたりで古臭い HTML」の時代が到来する予感 (POH ?)</H2>
+    <P>[Plain,Old,Semantic,HTML,POH,POSH,JavaScript] 次世代 Web ページ・コンテンツとして「ありきたりで古臭い HTML」が要求される時代が到来する予感をしています。英文だと Plain Old HTML (POH) でしょう。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>次世代 Web コンテンツ技術として「ありきたりで古臭い HTML」の時代が到来する予感 (POH ?)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>次世代 Web ページ・コンテンツとして「ありきたりで古臭い HTML」が要求される時代が到来する予感をしています。英文だと Plain Old
+HTML (POH) という感じでしょう。</P>
+<UL>
+  <LI>ありきたりの HTML (4.01) で記述されている<BR>
+  →できれば HTML Strict が望ましいが、無理にこだわらない
+  <LI>JavaScript が OFF でも動作するようになっている<BR>
+  →JavaScript が ON の場合に操作性向上されることは可
+  <LI>キーボードだけで快適に操作できるようになっている
+  <LI>ポップアップを利用しない<BR>
+  →いまどきの Web ブラウザやウィルス対策ソフトの多くがポップアップを禁止している。また、ポップアップによりキーボードの操作性が低下する。
+  <LI>フレームは利用しない
+  <LI>クッキーのローカル保存ができなくても動作する
+  <LI>データ転送量を可能な限り小さく<BR>
+  HTML ファイルのサイズは小さくなくてはならない
+  <LI>「戻る」ボタンが利用できる<BR>
+  →「戻る」が利用できないのは非常に不便です。2 重ポスト防止などは別の仕組みで防止します。
+  <LI>認証が必要なページの場合、URL 直打ちで 認証 → 該当ページの表示 と適切に画面遷移すること。
+  <LI>(当然) Flash などは使わない
+</UL>
+<P>ごく普通で簡素に利用できる Web ページが求められる時代が来るものと想定しています。ありきたりで古臭い HTML でサイトを構築しておけば、例えば
+Web ブラウザのバージョンアップも気にする必要がなくなります。<BR>
+また、このように作っておくことにより、ケータイや小型デバイスなどからのアクセス性も向上します。</P>
+<P>これと関連性がありそうな用語として、Plain Old Semantic HTML (POSH) があります。ただ、これが、どのような関連性を持つのかについては未調査です。</P>
+<UL>
+  <LI>Plain Old Semantic HTML (POSH)<BR>
+  <A HREF="http://en.wikipedia.org/wiki/Plain_Old_Semantic_HTML">http://en.wikipedia.org/wiki/Plain_Old_Semantic_HTML</A>
+</UL>
+<P><FONT color="#ff0000">2009-04-02追記</FONT> ただ、このようなことは、私が創造したことではありません。そして、むしろ世間のトレンドでもあります。Amazon、楽天、はてな など、この日記を書いた時点の
+IT 界のリーダー的企業／サイトが、全体的な傾向として、このような「ありきたりで古臭い HTML」を指向する方向性にあると見て取れるという背景もあります。流行に乗ることが良いこととも思えませんが、世間情勢としても、ユーザーの使い勝手としても、そのような「ありきたりで古臭い
+HTML」が喜ばれる時代になりつつあるのだと感じています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Web アプリケーション構築の Java 用 API を模索中 → JSF か?</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Web アプリケーション構築の Java 用 API に何を利用するのかについて模索中です。意外かも知れませんが、私は JSF (JavaServer
+Faces) が良いのではと考え始めています。</P>
+<UL>
+  <LI>JSF (JavaServer Faces)<BR>
+  http://java.sun.com/javaee/javaserverfaces/
+</UL>
+<P>仕様が策定され、参照実装 (RI) から商用実装まで様々な実装がおこなわれ、そして何年も経過したので、そろそろ枯れて安定してきたのではないかと判断しているのです。<BR>
+ちなみに、私は今まで JSF (JavaServer Faces) に時間を投資したことはありません。全くの初見です。とても新鮮に JSF の仕様を見ています。</P>
+<P>JSF に対する懸念点としては JSF 関連の日本語書籍のおおくが、既に絶版状態であるという点です。洋書でよければ、良さそうな本が数冊あります。</P>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>大半のSIerが3次下請け禁止<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20090318/326896/">http://itpro.nikkeibp.co.jp/article/COLUMN/20090318/326896/</A><BR>
+  世情をメモしておきます。
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:50 $</address>
+</BODY>
+</HTML>

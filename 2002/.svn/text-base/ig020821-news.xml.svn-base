@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020821.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020821.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/j2se/1.4.1/ja/index.html">
+    <title>Sun Java 2 Platform, Standard Edition (J2SE) 1.4.1 RC(出荷候補版)リリース</title>
+    <link>http://java.sun.com/j2se/1.4.1/ja/index.html</link>
+    <description>大きな変化があると私は予想している J2SE 1.4.1 ですが RC版がリリースです。正式リリースももうすぐなんですね。わくわくします。(大きな変更が加わっているので ちょいと試すのにはリスクが大きそうです…)</description>
+    <dc:date>2002-08-21T09:30:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/20/njbt_06.html">
+    <title>SRA、TurbolinuxのLinux事業を買収</title>
+    <link>http://www.zdnet.co.jp/news/0208/20/njbt_06.html</link>
+    <description>SRAって 昔からUNIXやオープンソース系に強いですが、今回もまた 一層頑張っていますね。(TurboLinuxを助けてあげる格好なんだと理解しています) ますます SRAという会社が好きになりました。</description>
+    <dc:date>2002-08-21T09:30:13</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/202126">
+    <title>「経営不安を払拭できた」---SRAがターボリナックスを買収</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/202126</link>
+    <description>SRAさん TurboLinuxを救ってくださり、どうもありがとうございます。</description>
+    <dc:date>2002-08-21T12:06:08</dc:date>
+  </item>
+
+  <item rdf:about="http://premium.nikkeibp.co.jp/security/column/index02_06.shtml">
+    <title>女性のためのセキュリティ講座</title>
+    <link>http://premium.nikkeibp.co.jp/security/column/index02_06.shtml</link>
+    <description>個人情報漏洩防止のための各種情報が載っていました。</description>
+    <dc:date>2002-08-21T12:06:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0208/16/op_02.html">
+    <title>Opinion：アンチウイルスエンジンは1種類では不十分</title>
+    <link>http://www.zdnet.co.jp/enterprise/0208/16/op_02.html</link>
+    <description>なるほど 言われてみれば 複数のアンチウイルスソフトを利用した方が 確実ですね。</description>
+    <dc:date>2002-08-21T12:06:08</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/21/nebt_04.html">
+    <title>RealNetworks、“ユニバーサル”メディアプレーヤー発表</title>
+    <link>http://www.zdnet.co.jp/news/0208/21/nebt_04.html</link>
+    <description>無料版も提供されるようです。</description>
+    <dc:date>2002-08-21T09:30:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/20/nebt_11.html">
+    <title>BorlandとIBMが相互バンドル契約</title>
+    <link>http://www.zdnet.co.jp/news/0208/20/nebt_11.html</link>
+    <description>微妙なところで相互バンドルしますね。(Java開発環境は競合する会社同士でしょうから)</description>
+    <dc:date>2002-08-21T09:30:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/20/njbt_07.html">
+    <title>ジャストとSAPが戦略提携</title>
+    <link>http://www.zdnet.co.jp/news/0208/20/njbt_07.html</link>
+    <description>微妙な感触のところで提携しますね。やるなあって思いました。</description>
+    <dc:date>2002-08-21T09:30:13</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/21/nebt_13.html">
+    <title>社内のあらゆるデータを網羅するBEAの「Liquid Data」</title>
+    <link>http://www.zdnet.co.jp/news/0208/21/nebt_13.html</link>
+    <description>Webポータルと併せて あらゆるデータの集約的検索が キーテクノロジになってきていますね。</description>
+    <dc:date>2002-08-21T12:49:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/21/nebt_14.html">
+    <title>Apple、ビデオ編集ソフトでエミー賞</title>
+    <link>http://www.zdnet.co.jp/news/0208/21/nebt_14.html</link>
+    <description>Final Cut Proというソフトなんだそうです。(そっちの業界はさっぱり不明)</description>
+    <dc:date>2002-08-21T12:49:01</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2006/05/15 日記: Apache Axis2 1.0 調査開始 → Axis1系に比べてパフォーマンスが劇的に改善されている模様</TITLE>
+<META name="DESCRIPTION" content="Apache Axis2 という オープンソースによるWebサービス実装系がリリースされました。こちらは Apahce Axis系列の第二世代版という位置づけのものです。こちらの検証に取りかかりました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2006/05/15 日記: Apache Axis2 1.0 調査開始 → Axis1系に比べてパフォーマンスが劇的に改善されている模様</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Apache Axis2 という オープンソースによるWebサービス実装系がリリースされました。こちらは Apahce Axis系列の第二世代版という位置づけのものです。こちらの検証に取りかかりました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Axis2 1.0 調査開始</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Apache Axis2 という オープンソースによるWebサービス実装系が 2006.05.04に 正式リリース (Axis2 1.0) されました。こちらの検証に取りかかりました。</P>
+<UL>
+  <LI>Apache Axis2<BR>
+  <A HREF="http://ws.apache.org/axis2/">http://ws.apache.org/axis2/</A>
+</UL>
+<P>こちらは Apahce Axis系列の第２世代版という位置づけのものです。Apache Axis 1.4よりも Apache Axis2 1.0の方が
+(数字の大小関係とは裏腹に) 新しいものであると考えるのが妥当であるようです。</P>
+<P>とりあえずつまずいたことをメモします。</P>
+<UL>
+  <LI>Log4Jの設定ファイルが無い場合に NullPointerException例外が発生して処理中断してしまう。<BR>
+  ちょっと これは あまりにも ありえないと考えます。何か私たちの設定ミスの可能性も 引き続き調べてみます。
+  <LI>ソースコード整形ライブラリである jalopyが実行時に必要となる。
+  <LI>生成されるソースコードがAxisの旧バージョンとは大幅に変わっている。<BR>
+  そういうものなんだとは思うのですが…
+</UL>
+<P>とりあえず道のりは険しいようです。</P>
+<P>疎通レベルで動作が成功したので、2005.08.01の時の調査プログラムを用いて 旧バージョンのApache Axis との速度について簡単に比べてみたところ、格段に動作が機敏になったような結果が出ました。(結果の転記は
+時間が確保できないために割愛します)</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2005/ig050801.html">2005/08/01 日記: Java: Apache Axis: クラスの配列を送受信したい → WSDLからWebサービスを作成</A>
+  <LI><A href="ig060526.html">2006/05/26 日記: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>CVSNT (Windows用CVS)を取り扱い中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>某案件のために CVSNT を扱っています。ざっくり扱った結果、以前調べた時に比べて大幅に機能・安定性が改善していることを知りました。</P>
+<UL>
+  <LI>CVSプロフェッショナル サポートとCVSNT<BR>
+  <A HREF="http://www.march-hare.com/cvspro/jp.asp">http://www.march-hare.com/cvspro/jp.asp</A>
+</UL>
+<P>以前調べたときと大幅に変わっている点のひとつは、CVSNTを特定の企業が密にフォローしているという点です。CVSNTは 今でも GNU GPLのもとでリリースされている
+れっきとしたオープンソースです。しかし一方で ある特定の企業が CVSNTをもとにしたビジネスベースでの各種サービスを展開しています。そのような枠組み・営みの結果、CVSNTのクオリティがかなり改善したのであろうと私は感じました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

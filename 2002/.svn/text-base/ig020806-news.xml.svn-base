@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020806.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020806.html</link>
+    <language>ja</language>
+    <dc:date>2002-08-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2002/08/05/637725-000.html">
+    <title>縦書き日本語入力に対応したOpenOffice.org 1.0.1日本語版リリース</title>
+    <link>http://linux.ascii24.com/linux/news/today/2002/08/05/637725-000.html</link>
+    <description>1.0.1 って 日本語対応も その更新内容に含まれていたのですね。地道に頑張って欲しいです。</description>
+    <dc:date>2002-08-06T09:37:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/05/njbt_05.html">
+    <title>「Windows .NET Server日本語版」RC1公開</title>
+    <link>http://www.zdnet.co.jp/news/0208/05/njbt_05.html</link>
+    <description>RCリリースとなると さすがに近い将来に Windows .NET Serverがリリースされるのかしら、って思ったりします。</description>
+    <dc:date>2002-08-06T09:37:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.watch.impress.co.jp/pc/docs/2002/0801/ms.htm">
+    <title>マイクロソフト、Java開発ツール「Visual J#」を9月提供開始</title>
+    <link>http://www.watch.impress.co.jp/pc/docs/2002/0801/ms.htm</link>
+    <description>ASP.NETとの親和性はあるのか など 多少興味を感じます。</description>
+    <dc:date>2002-08-06T09:37:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/06/nebt_06.html">
+    <title>NEC、Crusoe搭載デスクトップ米国投入</title>
+    <link>http://www.zdnet.co.jp/news/0208/06/nebt_06.html</link>
+    <description>Crusoe搭載デスクトップは私も興味あります。部屋が暑くならないってのは興味深いですもの。</description>
+    <dc:date>2002-08-06T11:33:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/06/nebt_05.html">
+    <title>RosettaNet、UCCに統合</title>
+    <link>http://www.zdnet.co.jp/news/0208/06/nebt_05.html</link>
+    <description>ややっ。こちらの方も再編が進んでいますね。</description>
+    <dc:date>2002-08-06T11:33:58</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0208/05/njbt_11.html">
+    <title>ライブドアとマネックス、登録不要の無料ネット接続サービスを提供</title>
+    <link>http://www.zdnet.co.jp/news/0208/05/njbt_11.html</link>
+    <description>無料ネット接続って 頑張っているんですねぇ。</description>
+    <dc:date>2002-08-06T11:33:58</dc:date>
+  </item>
+
+</rdf:RDF>

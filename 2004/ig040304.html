@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/03/04 日記: Oracle 9i JDBCドライバでのFOR UPDATEカーソル</TITLE>
+<META name="DESCRIPTION" content="JDBCドライバを用いた際の FOR UPDATEの実現方法は どうやら奥が深い模様です。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/03/04 日記: Oracle 9i JDBCドライバでのFOR UPDATEカーソル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] JDBCドライバを用いた際の FOR UPDATEの実現方法は どうやら奥が深い模様です。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Oracle 9i JDBCドライバでのFOR UPDATEカーソル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>artonさんにつっこまれたのですが、wildcatsさんによると、Oracle 9i において、createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,　ResultSet.CONCUR_UPDATABLE)がうまく動作しないそうなのです。</P>
+<UL>
+  <LI><A href="../2003/ig031008.html">2003/10/08 日記: SELECT なにがし FOR UPDATEをJDBC API経由で利用する方法</A>
+</UL>
+<P>で、ごく最近知ったのですが、<BR>
+…ふつ～ SELECT ほにゃほにゃ FOR UPDATEで行けば 行ロックはかかるのですが、JDBC
+API のResultSet.CONCUR_UPDATABLE フラグ単体による指定だと 行ロックがかからずにダーティーリードになってしまうのだそうです。<BR>
+どなたか JDBCドライバマニアでOracleに詳しい人の詳細レポートを期待！</P>
+<P><FONT color="#ff0000">2004.03.12</FONT> さっそくJDBCマニアの方とオフラインでお会いしてお教え頂きました。詳細は
+「関連する日記」側にて…</P>
+<P><FONT color="#ff0000">2005.05.20追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>の実装を行い、改めて Oracle 9iにおける FOR UPDATEカーソルに関する挙動を調査しました。その結果、やはり
+(JDBC APIのドキュメントには反して) FOR UPDATEは明示する必要がありました。</P>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="../2003/ig031008.html">2003/10/08 日記: SELECT なにがし FOR UPDATEをJDBC API経由で利用する方法</A>
+  <LI><A href="../2005/ig050429.html">2005/04/29 日記: Java: Microsoft SQL Server 2000 + JDBC における更新ロックを伴った検索および更新の実現方法</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jalopy - Java Source Code Formatter Beautifier Pretty Printer</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>Jalopy - Java Source Code Formatter Beautifier Pretty Printer<BR>
+  <A HREF="http://jalopy.sourceforge.net/">http://jalopy.sourceforge.net/</A>
+</UL>
+<P>Eclipseプラグインにも対応した ソースコードフォーマッター。BSDライセンス。</P>
+<P>エクリプスWikiにもJalopyのページがあり</P>
+<UL>
+  <LI><A HREF="http://eclipsewiki.net/eclipse/index.php?Jalopy%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">http://eclipsewiki.net/eclipse/index.php?Jalopy%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>FindBugsをEclipse Plug-in内で動作させたら どうもなんとなく不安定</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いろいろ工夫したのだが、どうも 現行バージョンのFindBugsプラグインは動作がうまくありません。リビルドしてもFindBugsが適切に起動されなかったり、行番号がずれていったり。でもFindBugsの実行結果そのものはとってもすばらしいのですよね。antで動作させれば良いだけやもしれませんね。FindBugsのStream/Writer系のクローズ忘れ検知機能など
+その報告内容といったら、とてもすばらしいのですもの。<BR>
+…惜しいのだけれど 今回のプロジェクトに投入するのはとっても危険だと判断してしまいました。あきらめます。っていうか
+これ以上さわっていたら、FindBugs plug-inのソースファイルに手を出してしまい、修正とかかけたり、あるいはスクラッチで開発してしまいそうなので、ぐっと我慢
+(笑)<BR>
+丹羽さま、すみませんです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>swatさんの日記が 今日は大ブレーク</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>JSF1.0が出たみたい。<BR>
+  <A HREF="http://d.hatena.ne.jp/swat/20040304#p1">http://d.hatena.ne.jp/swat/20040304#p1</A><BR>
+  これでJSF対応製品のリリースに弾みがつきますね。
+  <LI>Jupiterプラグイン 新バージョン、1.4.302が公開。日本語対応増強<BR>
+  <A HREF="http://d.hatena.ne.jp/swat/20040304#p2">http://d.hatena.ne.jp/swat/20040304#p2</A>
+</UL>
+<P>swatさん、やるなあ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IzPack homepage</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI><A HREF="http://www.izforge.com/izpack/">http://www.izforge.com/izpack/</A><BR>
+Javaで書かれたインストーラ作成ソフト。GNU GPLライセンス。via matobaaさん
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JFCUnit</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>現時点では 1.05が安定版である模様。2.0xを使って なんだかうまく動かないケースに見舞われて悲しかったのですが、1.05は安定して動作している模様。</P>
+<P>2004.03.12 JFCUnitが ATOK17と相性が悪い<BR>
+そんなばかな…。MS-IMEならうまく動作するのに…<BR>
+→ATOK17で確定していないのが問題な模様。テキストボックス→ラジオボタンという特定の組みあわせの際に、あと１回別途改行コードを発行などが必要な雰囲気。裏はとれていませんが…</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>銀行の預金が枯渇…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>銀行に ちょっとまとまった金額を振り込みに行ったら、足りませんでした…。結構ショックです。私は だめな人間なので、自分の口座にお金があると ついつい衝動買いなど散財してしまうので、原則 自分の口座にはお金を入れないようにしているのです。これそのものは良い心がけだと思います。しかし これが裏目に出ました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>アンテナ依存症加速装置</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>リファラーからたどっていって、『アンテナ依存症加速装置』なるものを見かけてしまいました。なんてすんごい(キケンな)装置なのでしょう。はてな中毒を加速してしまいそうな予感です
+(苦笑)</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

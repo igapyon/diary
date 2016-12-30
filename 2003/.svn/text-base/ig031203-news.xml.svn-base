@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031203.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031203.html</link>
+    <language>ja</language>
+    <dc:date>2003-12-03</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fxml/rensai2/schema01/schema01.html">
+    <title>簡単なXML Schemaから始めよう</title>
+    <link>http://www.atmarkit.co.jp/fxml/rensai2/schema01/schema01.html</link>
+    <description>Y本さんにXML Schemaを勉強させ中…</description>
+    <dc:date>2003-12-03T09:11:40</dc:date>
+  </item>
+
+  <item rdf:about="http://jibun.atmarkit.co.jp/ljibun01/column/kayama05/kayama01.html">
+    <title>ネットコをうまく活用しよう</title>
+    <link>http://jibun.atmarkit.co.jp/ljibun01/column/kayama05/kayama01.html</link>
+    <description>このコラムに 微妙にしびれてしまいました。…というか顔写真が載るというのに 結構反応していたりして (ほぼ意味不明)</description>
+    <dc:date>2003-12-03T09:11:40</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/02/07 日記: なんだか最近Linux関連ニュースが多いですね</TITLE>
+<META name="DESCRIPTION" content="今日も出張。営業活動。目先的に 2003/04からの仕事が無くて困っていたりします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>2003/04からの仕事が無くって奔走しだしています</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>2003/04からの仕事が確保できておらず とぎれてちと困り始めています。3.3名を食いつながせるべく、何か仕事を取ってこなくては…。さて
+営業・営業。<BR>
+→Java言語かC#言語で ネットワークプログラミング周りの マニアックで高スキルが必要なお仕事がありましたら
+ぜひお声をおかけ下さい q(^o^)P</P>
+<P><FONT color="#ff0000">2003.03.01 追記</FONT> なんだか 4月からの仕事をいただけることになりそうです。どうもありがとうございます
+m(_._)m<BR>
+# その日暮らし係数高いなぁ</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>最近Linux関連ニュースが多いです</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>最近Linux関連ニュースが妙に多いように感じます。ソニーの手帳サイズファイルサーバが
+特に印象的で、こういう『家電』なエリアに ごく普通にLinuxが使われるというのは
+結構衝撃＆隔世の感があります。Linuxって ごく普通に民生品実用レベルに到達してしまったのですね。驚きです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WinInetで苦労中…</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>プロキシ越えテストをしていて 引き続き WinInetで苦労しています。そもそも ソケット周りのソースコードが自分側に無い (WinInetに依存する) ということは危険だとは思っていたのですが、やはり想像通り 苦労しています (苦笑)<BR>
+どうしても困り果てたら WinInetへの依存をやめて ソケット周りを書き下ろすかもしれません
+(笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030207-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

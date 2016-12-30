@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/11/02 日記: Eclipse 3.1時代の Eclipse RCP起動方法</TITLE>
+<META name="DESCRIPTION" content="Eclipse RCPを起動させる際に、Eclipse 3.1での config.iniの記述方法が変わってきます。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/11/02 日記: Eclipse 3.1時代の Eclipse RCP起動方法</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Eclipse RCPを起動させる際に、Eclipse 3.1での config.iniの記述方法が変わってきます。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.1時代の Eclipse RCP起動方法</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse 3.1になって、Eclipse RCPの起動方法が Eclipse 3.0時代と微妙に異なっていることが分かりました。ポイントは下記のようになります。</P>
+<UL>
+  <LI>RCP配布形式のディストリビューションを入手して展開する
+  <LI>プラグインは pluginフォルダに入れておく<BR>
+  ※これは通常の Eclipse 3.1用プラグインの導入方法と同じです。
+  <LI>eclipse.exe -clean のように キャッシュクリーンスイッチを付けて Eclipseを起動させる<BR>
+  ※Eclipse 3.1は かなり強力にキャッシュするため、常に -cleanを付けて起動したほうが良いくらいだと考えています。
+  <LI>configuration フォルダの config.ini ファイルは下記の要領で記入する
+  <TABLE border="1">
+    <TBODY>
+      <TR>
+        <TD>osgi.bundles=org.eclipse.core.runtime@2\:start,org.eclipse.update.configurator@3\:start<BR>
+        eclipse.application=blanco.rcp.アプリケーションID</TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  ※pluginフォルダを自動更新するような指定方法となります。なお、アプリケーションIDの命名ルールは理解が ちと難しいです。
+</UL>
+<P>なんとかこれで動作させることが出来ました。Eclipse の統合開発環境内からの起動で作成される config.iniを参考にしました。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

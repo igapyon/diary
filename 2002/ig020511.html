@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/11 日記: IBM Robocode(ロボコード)を試してみる</TITLE>
+<META name="DESCRIPTION" content="IBM alphaWorksのJavaプログラム対戦システム Robocode(ロボコード)を試してみました！">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/05/11 日記: IBM Robocode(ロボコード)を試してみる</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] IBM alphaWorksのJavaプログラム対戦システム Robocode(ロボコード)を試してみました！</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBM alphaWorks のRobocode(ロボコード)を触ってみました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<P><A href="http://cnet.sphere.ne.jp/News/Flash/2002/2002-0510-F-1.html">【フラッシュ】IBMがJava戦闘ロボットコンテスト開催</A> の記事に触発されました。Java言語でプログラミング対戦できるんならすごいなあって思い
+早速試してみました。J2SE 1.4 SDK が入っていると 比較的安易に試すことが出来ます。しかも
+ちょっとしたロボット統合開発環境が付いてきます (笑)</P>
+<UL>
+  <LI>ロボコード (Robocode)<BR>
+  <A HREF="http://robocode.alphaworks.ibm.com/home/home.html">http://robocode.alphaworks.ibm.com/home/home.html</A>
+</UL>
+<P>JDKは、J2SE 1.4.0がお勧めだそうです。それ以下のバージョンでも動くとも書いてました。<BR>
+で、私の環境は Windows XP + J2SE 1.4 だったのですが、かなり簡単にインストール＆実行できました。ぱっと使った感じ、これは面白いです。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <P><FONT color="#ff0000">2002.05.16追記</FONT> 後で気づいたのですが、IBMの手によるRobocodeの解説書がありました！ そちらの記事の方は良くできています。</P>
+<UL>
+  <LI>IBM developerWorks: 闘え、Robocode (ロボコード) !<BR>
+  <A HREF="http://www-6.ibm.com/jp/developerworks/java/020329/j_j-robocode.html">http://www-6.ibm.com/jp/developerworks/java/020329/j_j-robocode.html</A>
+</UL>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>【インストール】</P>
+<UL>
+  <LI>ロボコード・セットアップ<BR>
+  <A HREF="http://robocode.alphaworks.ibm.com/robocode-setup.jar">http://robocode.alphaworks.ibm.com/robocode-setup.jar</A>
+</UL>
+<P>をダウンロードして、任意のディレクトリに格納し、その後 コマンドプロンプトを起動して
+そのディレクトリで下記のコマンドを実行します。<BR>
+# むろん Webページの内容に従ってダウンロードする方が より良い方法です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>java -jar robocode-setup.jar</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>これでGUIベースのインストーラーが起動します。</P>
+<OL>
+  <LI>License Agreement を読んで 『Accept』ボタンを押す
+  <LI>次に導入先ディレクトリを指定し、『はい』を押す
+  <LI>スタートメニューにショートカットを追加で 『はい』を押す
+</OL>
+<P>と、インストールは完了です。</P>
+<P>【実行】<BR>
+デスクトップ上にできた Robocodeアイコンをダブルクリックすると GUIベースで画面が起動します。<BR>
+『Battle』メニューから 『New』 を選択し、Robotsから 幾つかをAdd (例えば、sample.TrackFire
+と sample.Crazyを２つ)して 『Start Battle』を押すと GUIで ロボコード同士の対戦が開始されます。<BR>
+なるほどソースコード通りに動作しているんだなあという感じです。</P>
+<P>【自分のロボコードを作成する】<BR>
+RobotメニューからEditorを選択して起動します。<BR>
+『Robot Editor』プログラムの Fileメニュー → New → Robot で、新規に自分のロボコードを作成することができます。<BR>
+指示通り、とりあえず ロボット名に MyFirstRobotを入力、パッケージ名に tiなどイニシャル名を入力すると、新規ロボットが作成できます。続いて、Compilerメニューから
+Compileを押すと コンパイルが開始されます。コードを保存していなかったら、ここで
+保存の旨の『はい』ボタンを押します。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>Compiling...<BR>
+      Compiled successfully.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>と出たらコンパイル完了です。『Robot Editor』を閉じます。</P>
+<P>そうすると、『Battle』メニューから 『New』を選択した際に、自分が作成したロボットが現れるようになります。sample.TrackFireと対戦させてみましょう。<BR>
+なるほど、プログラム通りに動いています。</P>
+<P>Robocode APIを使うと、いろいろ複雑な判断をプログラミング出来るようです。また
+原則コールバック形式のプログラミングになるので、単にプログラミングとしても面白いです。</P>
+<P>【リーグで強いロボコードを試してみる】<BR>
+その後は リーグ上でランクの高いロボコードと自作ロボコードとを対戦させていくと
+より強いロボコードを開発することが出来るようです。でも まだ私はぜんぜんコーディングしていないですけれど、まずは強いロボコードをダウンロードしてみます。</P>
+<UL>
+  <LI>IBM alphaWorks: RoboCode Rumble<BR>
+  <A HREF="http://apps.alphaworks.ibm.com/rumble/">http://apps.alphaworks.ibm.com/rumble/</A>
+</UL>
+<P>トップ5のRobocodeを とりあえずダウンロードしてみました。jar形式でダウンロード後、RobotメニューからImport
+downloaded robotでJARファイルを選択するとインポートできます。そしたら早速対戦できます。おおっ、このRobocodeっていうシステム、良くできていますね。<BR>
+、、、ちなみに リーグで強いRobocodeのソースコードを見てみましたが、そのロジックを見ても
+何がなにやらさっぱり理解不能です (苦笑) 強いRobocodeを作るのは難しそうですねぇ。</P>
+<P>ということで マイクロソフトのテラリウムを見て憧れていた(嫉妬していた)Javaプログラマーの方には、IBM
+Robocodeはお勧めです。Java言語で対戦プログラムを実装できます。</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig020511.src.html' , result='ig020511.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig020511-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.mozilla.org/">Mozilla 1.0 RC2 リリース</A> <FONT size="-2"><A target="_blank" HREF="http://www.mozilla.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>2度目のRCリリースです。多くのバグが修正されたようです。正式リリースも もう間近という所でしょうか。<LI><A HREF="http://www.zdnet.co.jp/enterprise/0205/10/02051003.html">IBM，2001年度の世界データベース管理ソフト市場で首位に</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0205/10/02051003.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>私の身近な所では そんなにDB2は入っていないのですけれどもねぇ。(最近DB2で提案したが却下されてOracleになったという案件も…)<LI><A HREF="http://www.zdnet.co.jp/news/0205/10/njbt_11.html">オンキヨー、USBオーディオアンプを発売</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/10/njbt_11.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>3万1000円でUSB接続アンプとスピーカーがセットなのは興味あり。<LI><A HREF="http://japan.internet.com/linuxtoday/20020509/1.html">日本語も使えるフリーのワードプロセッサ AbiWord 1.0 公開</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/linuxtoday/20020509/1.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>OpenOfficeの印象が強いですが、それ以外にもいろいろフリーなワープロってあるんですねぇ。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

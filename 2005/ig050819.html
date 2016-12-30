@@ -1,0 +1,691 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/08/19 日記: Java: WSDL(XMLSchema)パーサ シンプルサンプル</TITLE>
+<META name="DESCRIPTION" content="Webサービスの WSDL (そしてある箇所はXMLSchema) をパースするシンプルサンプルを作成しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/08/19 日記: Java: WSDL(XMLSchema)パーサ シンプルサンプル</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] Webサービスの WSDL (そしてある箇所はXMLSchema) をパースするシンプルサンプルを作成しました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WSDL (XMLSchema) パーサ シンプルサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>WSDL (XMLSchema) を解析するシンプルなサンプルを作成しました。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">入力として試したwsdlファイル</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsdl:definitions
+ targetNamespace=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+ xmlns:apachesoap=&quot;http://xml.apache.org/xml-soap&quot;
+ xmlns:impl=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+ xmlns:intf=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+ xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+ xmlns:tns1=&quot;http://MyNamespace&quot;
+ xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot;
+ xmlns:wsdlsoap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot;
+ xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+ &lt;wsdl:types&gt;
+  &lt;schema
+   targetNamespace=&quot;http://MyNamespace&quot;
+   xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+   &lt;import namespace=&quot;http://localhost:8080/axis/WsTest02.jws&quot;/&gt;
+   &lt;import namespace=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;/&gt;
+   &lt;complexType name=&quot;WsTestInput&quot;&gt;
+    &lt;sequence&gt;
+     &lt;element name=&quot;arg1&quot; type=&quot;xsd:int&quot;/&gt;
+     &lt;element name=&quot;arg2&quot; nillable=&quot;true&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;/sequence&gt;
+   &lt;/complexType&gt;
+   &lt;complexType name=&quot;WsTestOutput&quot;&gt;
+    &lt;sequence&gt;
+     &lt;element name=&quot;arg3&quot; type=&quot;xsd:int&quot;/&gt;
+     &lt;element name=&quot;arg4&quot; nillable=&quot;true&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;/sequence&gt;
+   &lt;/complexType&gt;
+  &lt;/schema&gt;
+  &lt;schema
+   targetNamespace=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+   xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+   &lt;import namespace=&quot;http://MyNamespace&quot;/&gt;
+   &lt;import namespace=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;/&gt;
+   &lt;complexType name=&quot;ArrayOfWsTestInput&quot;&gt;
+    &lt;complexContent&gt;
+     &lt;restriction base=&quot;soapenc:Array&quot;&gt;
+      &lt;attribute ref=&quot;soapenc:arrayType&quot; wsdl:arrayType=&quot;tns1:WsTestInput[]&quot;/&gt;
+     &lt;/restriction&gt;
+    &lt;/complexContent&gt;
+   &lt;/complexType&gt;
+   &lt;complexType name=&quot;ArrayOfWsTestOutput&quot;&gt;
+    &lt;complexContent&gt;
+     &lt;restriction base=&quot;soapenc:Array&quot;&gt;
+      &lt;attribute ref=&quot;soapenc:arrayType&quot; wsdl:arrayType=&quot;tns1:WsTestOutput[]&quot;/&gt;
+     &lt;/restriction&gt;
+    &lt;/complexContent&gt;
+   &lt;/complexType&gt;
+  &lt;/schema&gt;
+ &lt;/wsdl:types&gt;
+ &lt;wsdl:message name=&quot;method02Request&quot;&gt;
+    &lt;wsdl:part name=&quot;input&quot; type=&quot;impl:ArrayOfWsTestInput&quot;/&gt;
+ &lt;/wsdl:message&gt;
+ &lt;wsdl:message name=&quot;method01Response&quot;&gt;
+    &lt;wsdl:part name=&quot;method01Return&quot; type=&quot;xsd:string&quot;/&gt;
+ &lt;/wsdl:message&gt;
+ &lt;wsdl:message name=&quot;method01Request&quot;&gt;
+    &lt;wsdl:part name=&quot;arg1&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;wsdl:part name=&quot;arg2&quot; type=&quot;xsd:int&quot;/&gt;
+ &lt;/wsdl:message&gt;
+ &lt;wsdl:message name=&quot;method02Response&quot;&gt;
+    &lt;wsdl:part name=&quot;method02Return&quot; type=&quot;impl:ArrayOfWsTestOutput&quot;/&gt;
+ &lt;/wsdl:message&gt;
+ &lt;wsdl:portType name=&quot;WsTest02&quot;&gt;
+    &lt;wsdl:operation name=&quot;method01&quot; parameterOrder=&quot;arg1 arg2&quot;&gt;
+       &lt;wsdl:input message=&quot;impl:method01Request&quot; name=&quot;method01Request&quot;/&gt;
+       &lt;wsdl:output message=&quot;impl:method01Response&quot; name=&quot;method01Response&quot;/&gt;
+    &lt;/wsdl:operation&gt;
+    &lt;wsdl:operation name=&quot;method02&quot; parameterOrder=&quot;input&quot;&gt;
+       &lt;wsdl:input message=&quot;impl:method02Request&quot; name=&quot;method02Request&quot;/&gt;
+       &lt;wsdl:output message=&quot;impl:method02Response&quot; name=&quot;method02Response&quot;/&gt;
+    &lt;/wsdl:operation&gt;
+ &lt;/wsdl:portType&gt;
+ &lt;wsdl:binding name=&quot;WsTest02SoapBinding&quot; type=&quot;impl:WsTest02&quot;&gt;
+    &lt;wsdlsoap:binding style=&quot;rpc&quot;
+     transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/&gt;
+    &lt;wsdl:operation name=&quot;method01&quot;&gt;
+       &lt;wsdlsoap:operation soapAction=&quot;&quot;/&gt;
+       &lt;wsdl:input name=&quot;method01Request&quot;&gt;
+          &lt;wsdlsoap:body
+           encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+           namespace=&quot;http://MyNamespace&quot;
+           use=&quot;encoded&quot;/&gt;
+       &lt;/wsdl:input&gt;
+       &lt;wsdl:output name=&quot;method01Response&quot;&gt;
+          &lt;wsdlsoap:body
+           encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+           namespace=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+           use=&quot;encoded&quot;/&gt;
+       &lt;/wsdl:output&gt;
+    &lt;/wsdl:operation&gt;
+    &lt;wsdl:operation name=&quot;method02&quot;&gt;
+       &lt;wsdlsoap:operation soapAction=&quot;&quot;/&gt;
+       &lt;wsdl:input name=&quot;method02Request&quot;&gt;
+          &lt;wsdlsoap:body
+           encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+           namespace=&quot;http://MyNamespace&quot;
+           use=&quot;encoded&quot;/&gt;
+       &lt;/wsdl:input&gt;
+       &lt;wsdl:output name=&quot;method02Response&quot;&gt;
+          &lt;wsdlsoap:body
+           encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;
+           namespace=&quot;http://localhost:8080/axis/WsTest02.jws&quot;
+           use=&quot;encoded&quot;/&gt;
+       &lt;/wsdl:output&gt;
+    &lt;/wsdl:operation&gt;
+ &lt;/wsdl:binding&gt;
+ &lt;wsdl:service name=&quot;WsTest02Service&quot;&gt;
+    &lt;wsdl:port binding=&quot;impl:WsTest02SoapBinding&quot; name=&quot;WsTest02&quot;&gt;
+       &lt;wsdlsoap:address location=&quot;http://localhost:8080/axis/WsTest02.jws&quot;/&gt;
+    &lt;/wsdl:port&gt;
+ &lt;/wsdl:service&gt;
+&lt;/wsdl:definitions&gt;</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>このWSDLをパースするのに とりあえず2パスで考えました。</P>
+<P>まずは　XMLSchemaの解析です。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">WsdlSchemaSimpleParser.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * WSDLスキーマのシンプルなパーササンプル
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMResult;
+import javax.xml.transform.stream.StreamSource;
+
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+/**
+ * WSDLスキーマのシンプルなパーササンプルです。
+ * 
+ * @author Tosiki Iga
+ */
+public class WsdlSchemaSimpleParser {
+    private Element elementDefinitions;
+
+    public static void main(String[] args) {
+        new WsdlSchemaSimpleParser().process();
+    }
+
+    public void process() {
+        DOMResult domResult = new DOMResult();
+        try {
+            TransformerFactory tf = TransformerFactory.newInstance();
+            Transformer transformer = tf.newTransformer();
+            transformer.transform(new StreamSource(new FileInputStream(
+                    &quot;./dat/test.wsdl&quot;)), domResult);
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+            return;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return;
+        } catch (TransformerException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        Node nodeRoot = domResult.getNode().getFirstChild();
+        if (nodeRoot == null || nodeRoot instanceof Element == false) {
+            System.out.println(&quot;ルートノードが見つかりません.&quot;);
+            return;
+        }
+        elementDefinitions = (Element) nodeRoot;
+
+        NodeList listTypes = elementDefinitions.getElementsByTagNameNS(
+                &quot;http://schemas.xmlsoap.org/wsdl/&quot;, &quot;types&quot;);
+        if (listTypes == null || listTypes.item(0) instanceof Element == false) {
+            System.out.println(&quot;スキーマ定義(types)が見つかりません。処理スキップします。&quot;);
+        } else {
+            Element elementTypes = (Element) listTypes.item(0);
+            System.out.println(&quot;スキーマ定義(types)を解釈開始します。&quot;);
+
+            NodeList listSchema = elementTypes.getElementsByTagNameNS(
+                    &quot;http://www.w3.org/2001/XMLSchema&quot;, &quot;schema&quot;);
+            for (int index = 0; index &lt; listSchema.getLength(); index++) {
+                Element elementSchema = (Element) listSchema.item(index);
+                System.out.println(&quot;名前空間[&quot;
+                        + elementSchema.getAttribute(&quot;targetNamespace&quot;)
+                        + &quot;]の定義が始まります。&quot;);
+                NodeList listComplexType = elementSchema
+                        .getElementsByTagName(&quot;complexType&quot;);
+                for (int indexComplexType = 0; indexComplexType &lt; listComplexType
+                        .getLength(); indexComplexType++) {
+                    Element elementComplexType = (Element) listComplexType
+                            .item(indexComplexType);
+                    System.out.println(&quot;  コンプレックス型[&quot;
+                            + elementComplexType.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+
+                    // sequenceのあるものかどうか
+                    processSequence(elementComplexType);
+
+                    // complexContentがあるかどうか
+                    processComplexContent(elementComplexType);
+                }
+            }
+        }
+    }
+
+    private void processSequence(Element elementComplexType) {
+        NodeList listSequence = elementComplexType
+                .getElementsByTagName(&quot;sequence&quot;);
+        if (listSequence.getLength() != 0) {
+            for (int indexSequence = 0; indexSequence &lt; listSequence
+                    .getLength(); indexSequence++) {
+                Element elementSequence = (Element) listSequence
+                        .item(indexSequence);
+                NodeList listElement = elementSequence
+                        .getElementsByTagName(&quot;element&quot;);
+                for (int indexElement = 0; indexElement &lt; listElement
+                        .getLength(); indexElement++) {
+                    Element elementElement = (Element) listElement
+                            .item(indexElement);
+                    System.out.println(&quot;    エレメント(element)が開始されます。&quot;);
+                    System.out.println(&quot;      名前[&quot;
+                            + elementElement.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+                    System.out.println(&quot;      型  [&quot;
+                            + elementElement.getAttribute(&quot;type&quot;) + &quot;]&quot;);
+                    System.out.println(&quot;      NULL許容[&quot;
+                            + (&quot;true&quot;.equals(elementElement
+                                    .getAttribute(&quot;nillable&quot;)) ? &quot;true&quot;
+                                    : &quot;false&quot;) + &quot;]&quot;);
+                }
+            }
+        }
+    }
+
+    private void processComplexContent(Element elementComplexType) {
+        NodeList listComplexContent = elementComplexType
+                .getElementsByTagName(&quot;complexContent&quot;);
+        if (listComplexContent.getLength() != 0) {
+            for (int indexComplexContent = 0; indexComplexContent &lt; listComplexContent
+                    .getLength(); indexComplexContent++) {
+                Element elementComplexContent = (Element) listComplexContent
+                        .item(indexComplexContent);
+                NodeList listRestriction = elementComplexContent
+                        .getElementsByTagName(&quot;restriction&quot;);
+                for (int indexRestriction = 0; indexRestriction &lt; listRestriction
+                        .getLength(); indexRestriction++) {
+                    Element elementRestriction = (Element) listRestriction
+                            .item(indexRestriction);
+                    System.out.println(&quot;    restrictionが開始されます。&quot;);
+                    System.out.println(&quot;      base[&quot;
+                            + elementRestriction.getAttribute(&quot;base&quot;)
+                            + &quot;] ※現状では [soapenc:Array] しか想定しません。&quot;);
+                    NodeList listAttrubute = elementRestriction
+                            .getElementsByTagName(&quot;attribute&quot;);
+                    for (int indexAttrubute = 0; indexAttrubute &lt; listAttrubute
+                            .getLength(); indexAttrubute++) {
+                        Element elementAttrubute = (Element) listAttrubute
+                                .item(indexAttrubute);
+                        System.out.println(&quot;      ref[&quot;
+                                + elementAttrubute.getAttribute(&quot;ref&quot;) + &quot;]&quot;);
+                        String wsdl_arrayType = elementAttrubute
+                                .getAttribute(&quot;wsdl:arrayType&quot;);
+                        System.out.println(&quot;      wsdl:arrayType[&quot;
+                                + wsdl_arrayType + &quot;]&quot;);
+
+                        String arrayTypeNS = null;
+                        String arrayTypeValue = wsdl_arrayType;
+                        if (wsdl_arrayType.indexOf(&quot;:&quot;) &gt; 0) {
+                            // 名前空間指定付きの型が参照されています。
+                            arrayTypeNS = wsdl_arrayType.substring(0,
+                                    wsdl_arrayType.indexOf(&quot;:&quot;));
+                            arrayTypeValue = wsdl_arrayType
+                                    .substring(wsdl_arrayType.indexOf(&quot;:&quot;) + 1);
+                        }
+                        System.out.println(&quot;        利用している型は[&quot; + arrayTypeValue
+                                + &quot;]&quot;);
+                        if (arrayTypeNS != null) {
+                            System.out.println(&quot;        その型は名前空間[&quot;
+                                    + elementDefinitions.getAttribute(&quot;xmlns:&quot;
+                                            + arrayTypeNS) + &quot;]の中にあります。&quot;);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P>続いて Webサービスの定義を読み込むサンプルです。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">WsdlServiceSimpleParser.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>/*
+ * WSDLサービスのシンプルなパーササンプル
+ * Copyright (C) 2005 いがぴょん
+ */
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMResult;
+import javax.xml.transform.stream.StreamSource;
+
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+/**
+ * WSDLサービスのシンプルなパーササンプルです。
+ * 
+ * @author Tosiki Iga
+ */
+public class WsdlServiceSimpleParser {
+    private Element elementDefinitions;
+
+    public static void main(String[] args) {
+        new WsdlServiceSimpleParser().process();
+    }
+
+    public void process() {
+        DOMResult domResult = new DOMResult();
+        try {
+            TransformerFactory tf = TransformerFactory.newInstance();
+            Transformer transformer = tf.newTransformer();
+            transformer.transform(new StreamSource(new FileInputStream(
+                    &quot;./dat/test.wsdl&quot;)), domResult);
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+            return;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return;
+        } catch (TransformerException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        Node nodeRoot = domResult.getNode().getFirstChild();
+        if (nodeRoot == null || nodeRoot instanceof Element == false) {
+            System.out.println(&quot;ルートノードが見つかりません.&quot;);
+            return;
+        }
+        elementDefinitions = (Element) nodeRoot;
+
+        NodeList listService = elementDefinitions
+                .getElementsByTagName(&quot;wsdl:service&quot;);
+        if (listService == null
+                || listService.item(0) instanceof Element == false) {
+            System.out.println(&quot;サービス定義(wsdl:service)が見つかりません。処理スキップします。&quot;);
+        } else {
+            Element elementService = (Element) listService.item(0);
+            System.out.println(&quot;サービス定義(wsdl:service)を解釈開始します。&quot;);
+
+            NodeList listPort = elementService
+                    .getElementsByTagName(&quot;wsdl:port&quot;);
+            for (int index = 0; index &lt; listPort.getLength(); index++) {
+                Element elementPort = (Element) listPort.item(index);
+                String portName = elementPort.getAttribute(&quot;name&quot;);
+                String binding = elementPort.getAttribute(&quot;binding&quot;);
+                System.out.println(&quot;ポート[&quot; + portName + &quot;]の定義が始まります。&quot;);
+                System.out.println(&quot;    binding[&quot; + binding + &quot;]&quot;);
+                NodeList listAddress = elementPort
+                        .getElementsByTagName(&quot;wsdlsoap:address&quot;);
+                for (int indexAddress = 0; indexAddress &lt; listAddress
+                        .getLength(); indexAddress++) {
+                    Element elementAddress = (Element) listAddress
+                            .item(indexAddress);
+                    System.out.println(&quot;  アドレス[&quot;
+                            + elementAddress.getAttribute(&quot;location&quot;) + &quot;]&quot;);
+
+                    // PortTypeを解釈します。
+                    if (processPortType(elementPort, portName) == false) {
+                        System.out.println(&quot;portType[&quot; + portName
+                                + &quot;]を処理することができませんでした。&quot;);
+                        return;
+                    }
+
+                    System.out.println(&quot;&quot;);
+                    System.out.println(&quot;※このプログラムは bindingを無視してしまっています。&quot;);
+                    // bindingを解釈します。
+                    if (processBinding(elementPort, binding) == false) {
+                        System.out.println(&quot;binding[&quot; + binding
+                                + &quot;]を処理することができませんでした。&quot;);
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * portTypeを解釈します。
+     * 
+     * @param elementPort
+     * @param portName
+     * @return
+     */
+    private boolean processPortType(Element elementPort, String portName) {
+        NodeList listPortType = elementDefinitions
+                .getElementsByTagName(&quot;wsdl:portType&quot;);
+        for (int indexPortType = 0; indexPortType &lt; listPortType.getLength(); indexPortType++) {
+            Element elementPortType = (Element) listPortType
+                    .item(indexPortType);
+            if (elementPort.getAttribute(&quot;name&quot;).equals(portName)) {
+                System.out.println(&quot;portType[&quot;
+                        + elementPortType.getAttribute(&quot;name&quot;) + &quot;]を処理します。&quot;);
+                NodeList listOperation = elementPortType
+                        .getElementsByTagName(&quot;wsdl:operation&quot;);
+                for (int indexOperation = 0; indexOperation &lt; listOperation
+                        .getLength(); indexOperation++) {
+                    Element elementOperation = (Element) listOperation
+                            .item(indexOperation);
+                    System.out.println(&quot;オペレーション(operation)[&quot;
+                            + elementOperation.getAttribute(&quot;name&quot;)
+                            + &quot;]が開始します。&quot;);
+                    System.out.println(&quot;    パラメータ順序[&quot;
+                            + elementOperation.getAttribute(&quot;parameterOrder&quot;)
+                            + &quot;] ※パラメータ順序は とりあえず無視します。&quot;);
+                    NodeList listInput = elementOperation
+                            .getElementsByTagName(&quot;wsdl:input&quot;);
+                    if (listInput.getLength() != 0) {
+                        Element elementInput = (Element) listInput.item(0);
+                        System.out.println(&quot;    入力:name[&quot;
+                                + elementInput.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+
+                        if (processMessage(elementInput.getAttribute(&quot;message&quot;)) == false) {
+                            System.out.println(&quot;message[&quot;
+                                    + elementInput.getAttribute(&quot;message&quot;)
+                                    + &quot;]を処理することができませんでした。&quot;);
+                            return false;
+                        }
+                    }
+
+                    NodeList listOutput = elementOperation
+                            .getElementsByTagName(&quot;wsdl:output&quot;);
+                    if (listOutput.getLength() != 0) {
+                        Element elementOutput = (Element) listOutput.item(0);
+                        System.out.println(&quot;    出力:name[&quot;
+                                + elementOutput.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+
+                        if (processMessage(elementOutput
+                                .getAttribute(&quot;message&quot;)) == false) {
+                            System.out.println(&quot;message[&quot;
+                                    + elementOutput.getAttribute(&quot;message&quot;)
+                                    + &quot;]を処理することができませんでした。&quot;);
+                            return false;
+                        }
+                    }
+                }
+
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * メッセージ(message)を解釈します。
+     * 
+     * @param messageName
+     */
+    private boolean processMessage(String messageName) {
+        String messageNS = null;
+        String messageValue = messageName;
+        System.out.println(&quot;    メッセージ:message[&quot; + messageName + &quot;]&quot;);
+        if (messageValue.indexOf(&quot;:&quot;) &gt; 0) {
+            // 名前空間指定付きの型が参照されています。
+            messageNS = messageValue.substring(0, messageValue.indexOf(&quot;:&quot;));
+            messageValue = messageValue
+                    .substring(messageValue.indexOf(&quot;:&quot;) + 1);
+        }
+        System.out.println(&quot;        利用している型は[&quot; + messageValue + &quot;]&quot;);
+        if (messageNS != null) {
+            System.out.println(&quot;        その型は名前空間[&quot;
+                    + elementDefinitions.getAttribute(&quot;xmlns:&quot; + messageNS)
+                    + &quot;]の中にあります。&quot;);
+        }
+
+        NodeList listMessage = elementDefinitions
+                .getElementsByTagName(&quot;wsdl:message&quot;);
+        for (int indexMessage = 0; indexMessage &lt; listMessage.getLength(); indexMessage++) {
+            Element elementMessage = (Element) listMessage.item(indexMessage);
+            if (elementMessage.getAttribute(&quot;name&quot;).equals(messageValue)) {
+                NodeList listPart = elementMessage
+                        .getElementsByTagName(&quot;wsdl:part&quot;);
+                for (int indexPart = 0; indexPart &lt; listPart.getLength(); indexPart++) {
+                    Element elementPart = (Element) listPart.item(indexPart);
+                    System.out.println(&quot;      変数名[&quot;
+                            + elementPart.getAttribute(&quot;name&quot;) + &quot;]  型[&quot;
+                            + elementPart.getAttribute(&quot;type&quot;) + &quot;]&quot;);
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 基本的に bindingは読み飛ばすこととします。
+     * 
+     * @param elementPort
+     * @param binding
+     * @return
+     */
+    private boolean processBinding(Element elementPort, String binding) {
+        if (binding.indexOf(&quot;:&quot;) &gt; 0) {
+            binding = binding.substring(binding.indexOf(&quot;:&quot;) + 1);
+        }
+        NodeList listBinding = elementDefinitions
+                .getElementsByTagName(&quot;wsdl:binding&quot;);
+        for (int indexBinding = 0; indexBinding &lt; listBinding.getLength(); indexBinding++) {
+            Element elementBinding = (Element) listBinding.item(indexBinding);
+            if (elementBinding.getAttribute(&quot;name&quot;).equals(binding)) {
+                System.out.println(&quot;binding[&quot;
+                        + elementBinding.getAttribute(&quot;name&quot;) + &quot;]を処理します。&quot;);
+                System.out.println(&quot;  type[&quot;
+                        + elementBinding.getAttribute(&quot;type&quot;) + &quot;]&quot;);
+                NodeList listOperation = elementBinding
+                        .getElementsByTagName(&quot;wsdl:operation&quot;);
+                for (int indexOperation = 0; indexOperation &lt; listOperation
+                        .getLength(); indexOperation++) {
+                    Element elementOperation = (Element) listOperation
+                            .item(indexOperation);
+                    System.out.println(&quot;オペレーション(operation)[&quot;
+                            + elementOperation.getAttribute(&quot;name&quot;)
+                            + &quot;]が開始します。&quot;);
+                    NodeList listInput = elementOperation
+                            .getElementsByTagName(&quot;wsdl:input&quot;);
+                    if (listInput.getLength() != 0) {
+                        Element elementInput = (Element) listInput.item(0);
+                        System.out.println(&quot;    入力:name[&quot;
+                                + elementInput.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+                    }
+
+                    NodeList listOutput = elementOperation
+                            .getElementsByTagName(&quot;wsdl:output&quot;);
+                    if (listOutput.getLength() != 0) {
+                        Element elementOutput = (Element) listOutput.item(0);
+                        System.out.println(&quot;    出力:name[&quot;
+                                + elementOutput.getAttribute(&quot;name&quot;) + &quot;]&quot;);
+                    }
+                }
+
+                return true;
+            }
+        }
+        return false;
+    }
+}</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050811.html">2005/08/11 日記: うそSOAP その3 → SAX2ベースによるSOAPキャプチャおよびその再生</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>httpsは伝送路上でのデータ品質を保証する機能を持っている模様</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>httpsは伝送路上でのデータ品質を保証する機能を持っているようです。初めて知りました。恥を知りました。<BR>
+httpsは SSLなので TLSの仕様を参照することになります。</P>
+<UL>
+  <LI>The TLS Protocol Version 1.0<BR>
+  [replace-href'http://www.ipa.go.jp/security/rfc/RFC2246-00JA.html]
+</UL>
+<P>暗号化および改ざん防止の機能が、結果として電送路上でのデータ品質低下を防ぐ機能としても働いてくれるのです。<BR>
+まだまだ知らないことが多いです。</P>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

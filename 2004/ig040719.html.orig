@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2004/07/19 日記: Oracle PL/SQL: 排他機能付きでファイル入出力を行うには…</TITLE>
+<META name="DESCRIPTION" content="ここんところ、なぜかPL/SQL付いています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:48+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2004/07/19 日記: Oracle PL/SQL: 排他機能付きでファイル入出力を行うには…</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] ここんところ、なぜかPL/SQL付いています。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Oracle PL/SQL: 排他機能付きでファイル入出力を行うためには</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>仕事で、PL/SQLのファイル入出力に排他機能があるのかどうか調査しました。</P>
+<UL>
+  <LI>くるくるおらくる: UTL_FILEには排他制御はありません。<BR>
+  <A HREF="http://www7.big.or.jp/~pinball/discus/oracle/62265.html">http://www7.big.or.jp/~pinball/discus/oracle/62265.html</A>
+  <LI>くるくるおらくる: ユーザ・ロック（DBMS_LOCK）を使用する方法があります。<BR>
+  <A HREF="http://www7.big.or.jp/~pinball/discus/oracle/62285.html">http://www7.big.or.jp/~pinball/discus/oracle/62285.html</A>
+  <OL>
+    <LI>DBMS_LOCK.ALLOCATE_UNIQUE ('ロック名', hLOCK);
+    <LI>iRetCode := DBMS_LOCK.REQUEST (hLOCK, DBMS_LOCK.X_MODE, DBMS_LOCK.MAXWAIT,
+    FALSE);
+    <LI>0なら獲得成功。、、、みたいな感じ。
+  </OL>
+</UL>
+<P>ふむ。UTL_FILEには排他機能が無いのですが、DBMS_LOCKをうまく併用して排他を実現する模様です。さて、ほんとうにこれで合っているのかしらん。また、今回のプロジェクトでは
+DBMS_LOCKは利用が許可されているのかしら？ わからないことは多いです。はい。</P>
+<P><FONT color="#ff0000">2004.07.23</FONT> DBMS_LOCKの利用にはパーミッションを付与する必要があります。</P>
+<UL>
+  <LI>DBMS_LOCKを一般ユーザで利用する方法: 利用権限を付与しないと利用できません<BR>
+  <A HREF="http://fukkey.dyndns.org/pins/ora/010228/27679.html">http://fukkey.dyndns.org/pins/ora/010228/27679.html</A>
+</UL>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>GRANT EXECUTE ON SYS.DBMS_LOCK TO ユーザ名;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<P><FONT color="#ff0000">2004.07.23</FONT> また、UTL_FILEを排他処理無しで利用すると、ファイルが上書きされてしまう現象が発生することを確認しました。外注さんに実際に現象を発生させてもらい、裏をとりました。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>三連休にて、少しだけ体力が回復</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>この三連休で、少しだけ体力が回復しました。ふう。<BR>
+ということで、ひさしぶりに日記を更新しました。…そんなこんなで、世の中の変化を全く追えていません。仕事が忙しすぎるのは、どうも、いやだなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>日記メーリングリスト移行計画</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>関係者の方向けです。日記メーリングリストをNIFTYのMLへと移行しようと計画しています。私のアカウントとして契約している、(私が有料の)
+メーリングリストです。そうすると、スパムメールともおさばらできるかしら…、と考えています。<BR>
+というか、日記メーリングリストのほう、スパムメールなどへの対策をなにもとれずにいて、申し訳ありません。近々
+NIFTYに移行することにより改善しますです。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TeraTermメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>UNIX系で仕事をしていると、TeraTermが「常識」です。少なくとも、私が経験したことがあるUNIX系の職場では、そうでした。って
+Windowsからアクセスするという大前提があってのことですけれどもね。<BR>
+そんな中、我がプロジェクトの敏腕エンジニア様である笠原さんに、TeraTermのUTF-8対応パッチなるものを教えてもらいました。</P>
+<UL>
+  <LI>UTF-8対応TeraTerm Pro<BR>
+  <A HREF="http://www.vector.co.jp/soft/winnt/net/se320973.html">http://www.vector.co.jp/soft/winnt/net/se320973.html</A>
+</UL>
+<P>いろいろ、あるものですねぇ。勉強になります。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>不動産関連サイトのメモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>とある理由にて、不動産関連サイトをざくっと調べてメモをとりました。</P>
+<UL>
+  <LI>不動産ポータルHOME'S<BR>
+  <A HREF="http://www.homes.co.jp">http://www.homes.co.jp</A><BR>
+  ホームズというサイト。ここから、不動産の参考価格を一撃で検索することが出来ます。…かなりビビりました。
+  <LI>住宅工法メモ
+  <UL>
+    <LI>SxL<BR>
+    <A HREF="http://www.sxl.co.jp/">http://www.sxl.co.jp/</A><BR>
+    エスバイエル株式会社という会社が存在するのですね。勉強になります。
+    <LI>ツーバイフォーガイド<BR>
+    <A HREF="http://www.2x4.jp/index.shtml">http://www.2x4.jp/index.shtml</A><BR>
+    基本的に、柱では無くって、面で強度を確保するのですね。勉強になります。
+  </UL>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>おけいこヴァイオリン関連メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>こどもが、再びヴァイオリンを習いたいと言い始めたので、さっそく検索。ヴァイオリン従事者の間では有名な、いわゆる「才能教育」というものを調べてみました。</P>
+<UL>
+  <LI>才能教育研究会公式ホームページ<BR>
+  http://www.suzukimethod.or.jp/<BR>
+  スズキメソードで有名なヴァイオリン教室の公式ホームページ。ここから近所の教室を検索してみました。
+  <UL>
+    <LI>蕨市 ４－５－１ ＪＲ[蕨] 杉本さん 048-442-8341 
+  </UL>
+  気力があるときにでも、アタックしてみようと思います。
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>オーケストラ探索優先順位</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<OL>
+  <LI>子育て支援システムが完備されていること
+  <LI>そこそこ上手なこと
+  <LI>月２回程度、日曜日、昼、夏休み付き
+  <LI>JAO加盟
+  <LI>最大1時間程度で練習場所に着くこと
+</OL>
+<P>などと妻が主張しています。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>マックス・ブルッフ メモ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>テレビの音楽番組で、ブルッフの曲が流れていました。そこで、、、はて、ブルッフさんって
+ヴァイオリン協奏曲以外に、どのような作曲活動をされていたのか、皆目見当が付かないので、インターネットでざっくりと調べてみました。そうすると、下記のページが見つかりました。</P>
+<UL>
+  <LI>マックス・ブルッフ<BR>
+  <A HREF="http://www.okada.de/music/bruch/bruch.htm">http://www.okada.de/music/bruch/bruch.htm</A>
+  <LI>フランクフルト便り<BR>
+  <A HREF="http://www.okada.de/">http://www.okada.de/</A>
+</UL>
+<TABLE summary="news">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<UL>
+  <LI>某社の社長人事に関するメモ<BR>
+  私は、この会社から お給料を頂いております。
+  <UL>
+    <LI>新社長は「ぶっ飛び」千秋のパパ…１万２０００人のトップ (夕刊フジ)<BR>
+    <A HREF="http://news.www.infoseek.co.jp/topics/science/gender.html?d=02fuji39100&amp;amp;cat=7">http://news.www.infoseek.co.jp/topics/science/gender.html?d=02fuji39100&amp;amp;cat=7</A>
+    <LI>新社長は「ぶっ飛び」千秋のパパ…１万２千人のトップ<BR>
+    <A HREF="http://www.zakzak.co.jp/top/2004_06/t2004060216.html">http://www.zakzak.co.jp/top/2004_06/t2004060216.html</A>
+  </UL>
+  <LI>Eclipseはどこまでデファクトスタンダードなのか？ (第11回 読者調査結果)<BR>
+  <A HREF="http://www.atmarkit.co.jp/fjava/survey/survey0406/java0406.html">http://www.atmarkit.co.jp/fjava/survey/survey0406/java0406.html</A><BR>
+  『Java開発環境の利用状況と関心の動向を調査。EclipseはJava開発者のデファクトスタンダードなツールとして定着しつつある』とのこと。「小柴豊」さんのこの読者調査結果記事は、毎回とても楽しく読ませて頂いております。私は小柴ファンです。今回はじめてEclipseがトップに躍り出たとの記載が、これまた興味をそそります。いやあ、今回の記事も、とても興味深い内容です。すばらしい！
+  <LI>サン、Javaの一部をオープンソースに<BR>
+  <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20069513,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20069513,00.htm</A><BR>
+  3Dデスクトップ環境であるLooking Glassがオープンソースで公開ですって！ ひまがあったら是非試してみたい一品ですっ。
+  <LI>FindBugs 0.8.1 リリース (A Bug Pattern Detector for Java)<BR>
+  <A HREF="http://findbugs.sourceforge.net/">http://findbugs.sourceforge.net/</A><BR>
+  さてっ、日本語対応の状態を見てみたいのですが、、、暇は無し…
+  <LI>【JavaOne 2004】次期J2SE「Tigerリリース」の正式版はこの夏登場<BR>
+  <A HREF="http://itpro.nikkeibp.co.jp/free/JAV/NEWS/20040629/146507/">http://itpro.nikkeibp.co.jp/free/JAV/NEWS/20040629/146507/</A><BR>
+  バージョン番号に、いきなり3.6も加えないで(インクリメントしないで)欲しいです…。なんだか
+  昔からJava言語に仕事で従事してきた者としては、その点が ちょっとさびしいです。
+  <LI>Oracleパフォーマンス障害の克服（1）: 障害発生！ 問題切り分けはスピード勝負<BR>
+  <A HREF="http://www.atmarkit.co.jp/fdb/rensai/oraobstacle01/oraobstacle01_1.html">http://www.atmarkit.co.jp/fdb/rensai/oraobstacle01/oraobstacle01_1.html</A><BR>
+  ログの見方などに言及があります。私は未だに、Oracleのログを駆使できませぬ。(やろうという気合いが足りない側面もあります)
+  <LI>第12回 読者調査結果: 読者のNT Server移行予定は？<BR>
+  <A HREF="http://www.atmarkit.co.jp/fwin2k/questionnaire/2004-03/2004-03.html">http://www.atmarkit.co.jp/fwin2k/questionnaire/2004-03/2004-03.html</A><BR>
+  このような背景から、Windows 2000 ServerをスキップしてLinuxに移行しようと考える人が増える可能性があります。
+  <LI>ビル・ゲイツ：「海賊版Windowsの方がオープンソースソフトウェアより多い」<BR>
+  <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20069529,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20069529,00.htm</A><BR>
+  ほんとうに、海賊版が驚異なのでしょう！
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:48 $</address>
+</BODY>
+</HTML>

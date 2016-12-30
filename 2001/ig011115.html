@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2001/11/15 日記: J2SE 1.3.1_01aを使い始めました</TITLE>
+<META name="DESCRIPTION" content="J2SE 1.3.1_01aにアップグレード , 別件ですが、HotSpotの 予想以上の最適化機能に驚く…">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:45+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../images/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2001/11/15 日記: J2SE 1.3.1_01aを使い始めました</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] J2SE 1.3.1_01aにアップグレード , 別件ですが、HotSpotの 予想以上の最適化機能に驚く…</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>最近 SUN Java2 SDK SE 1.3.1_01aを使い始めました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>1.3.1_01 を使っていたのを 1.3.1_01aに乗り換えてみました。<BR>
+スループット周りの強化とか コンソール画面のメモリリークバグ修正 (嫌な内容です)
+とかに惹かれて 使い始めました。… 特に問題は出ていません。そこそこ気に入り始めました。</P>
+<P>気になった点は、セットアップに従っていってインストールすると <STRONG>IEのJavaVMを置き換え</STRONG>るという 画期的な機能が付属している事です。これは便利 (笑) これで 古くて使い物にならない
+Microsoft製 JavaVMを 『簡単に』最新版 JavaVMに置き換えることが可能になります。(IEの詳細設定タブに統合されている点も
+結構気に入りました) …ただし これにより JavaVMの起動速度は低下してしまう模様です。Javaアプレット搭載ページを開くと
+タスクトレイ右下に コーヒーカップアイコンが表示されます。これの起動に ちと時間がかかっている模様。NetscapeでJavaVM起動するときと同じ挙動です。<BR>
+もっと気になったのは Javaアプレットなページを複数のIEで開くと その数だけ
+コーヒーカップアイコンが追加されて表示される点です。こ…これは どういう意味なんだろう。タスクマネージャで見ると
+IEって 窓の数だけプロセスが起動されるんですね。今 初めて知りました。なるほど
+そして その数だけ JavaVMもロードされる模様です。(ただし プロセスとしては
+IEの中というカウントである模様) これは メモリ搭載量の少ないパソコンでIEを使っている環境において
+JavaVM更新をかけると、ひどいことが起こりかねないという事を意味しています。古くて使い物にならないJavaVMを
+最新の版で置き換える事そのものは 大変素晴らしいことなのですけれども、副作用が起きないよう注意することも肝要ですね。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語パフォーマンスネタ: 消えるコード</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>いわゆるデバッグ用コードの実行速度を計測するために 下記のようなコードを書いてみました。<BR>
+Windows 2000上で SUN Java2 SDK SE 1.3.1_01a 国際化版 (J2SE 1.3.1_01a) で
+HotSpotありで実行しました。<BR>
+ところがどっこい、あんまり差異が出ません。これが HotSpotの実力か？</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><PRE>/**
+ * 速度計測サンプル
+ */
+public class Sample
+{
+        public static final int LOOP_COUNT=100000000;
+
+        public static void main(String[] args)
+        {
+                new Sample().process();
+        }
+
+        protected void process()
+        {
+                System.out.println(&quot;いわゆるデバッグ用コードの実行速度計測.&quot;);
+                long lStart=System.currentTimeMillis();
+                for(int iLoop=0;iLoop&lt;LOOP_COUNT;iLoop++)
+                {
+                        // ここを変更する。
+                        // 計測数値は Celleron 300MHz
+                        //sample1();//4.547秒
+                        //sample2();//4.707秒
+                        //sample3();//4.567秒
+                        //sample4();//4.747秒
+                        //sample5();//4.717秒
+                        //sample6();//4.747秒
+                        sample7();//8.121秒
+                }
+                long lEnd=System.currentTimeMillis();
+                java.text.DecimalFormat decFormat=new java.text.DecimalFormat(&quot;#,##0.000&quot;);
+                System.out.println(decFormat.format(((double)lEnd-lStart)/1000)+&quot;秒&quot;);
+        }
+
+        /**
+         * 全くのコメント
+         */
+        public void sample1()
+        {
+                // System.out.println(&quot;なにかデバッグ文字列&quot;);
+        }
+
+        public void sample2()
+        {
+                if(false)System.out.println(&quot;なにかデバッグ文字列&quot;);
+        }
+
+        public static final boolean IS_DEBUG3=false;
+
+        public void sample3()
+        {
+                if(IS_DEBUG3)System.out.println(&quot;なにかデバッグ文字列&quot;);
+        }
+
+        public boolean IS_DEBUG4=false;
+
+        public void sample4()
+        {
+                if(IS_DEBUG4)System.out.println(&quot;なにかデバッグ文字列&quot;);
+        }
+
+        public boolean IS_DEBUG5=false;
+
+        private boolean getIsDebug5()
+        {
+                return IS_DEBUG5;
+        }
+
+        public void sample5()
+        {
+                if(getIsDebug5())System.out.println(&quot;なにかデバッグ文字列&quot;);
+        }
+
+        public boolean IS_DEBUG6=false;
+
+        private boolean getIsDebug6()
+        {
+                return IS_DEBUG6;
+        }
+
+        public void sample6()
+        {
+                if(getIsDebug6())System.out.println(&quot;なにか&quot;+&quot;デバッグ&quot;+&quot;文字列&quot;);
+        }
+
+        public boolean IS_DEBUG7=false;
+
+        private boolean getIsDebug7()
+        {
+                return IS_DEBUG7;
+        }
+
+        public void debug7(String strMsg)
+        {
+                if(getIsDebug7())System.out.println(strMsg);
+        }
+
+        public void sample7()
+        {
+                debug7(&quot;なにか&quot;+&quot;デバッグ&quot;+&quot;文字列&quot;);
+        }
+
+}</PRE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>HotSpot最適化範囲がここまでとは思えませんが…。なぜなのだろう。<BR>
+*.class(バイトコード)を逆アセンブルしてみようかとも思いましたが、とりあえず時間が無いのと
+どれが気の利いた バイトコード・リバースツールかを知らないので、とりあえず割愛しました。愛用バイトコード・リバースツールなどありましたら、どなたか
+一言 ツッコミを入れて下さい。</P>
+<P><FONT color="#ff0000">21:30</FONT> ループの回数が根本的に少なすぎたという事に気づきました。ループ回数を大幅アップしました。<BR>
+そうすると 多少特徴が出てきました。なるほど、感慨深い数値だなぁ。(sample7以外は
+ほとんど同数値なんです。意外だったです。)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>typo</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><FONT color="#ff0000">2001/11/16</FONT> <A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A><FONT color="#ff00ff">さまから誤植ツッコミ</FONT><BR>
+<CITE>Subject: typo<BR>
+結城です。取り急ぎtypoです。</CITE></P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><CITE>s/パーフォマンスネタ/パフォーマンス/<BR>
+      s/かつで飛ぶ取り落とす/かつて飛ぶ鳥落とす/<BR>
+      s/是非 共通かに/是非 共通化に/</CITE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><CITE>----<BR>
+<A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A></CITE></P>
+<P><FONT color="#ff00ff"><STRONG>ここから</STRONG></FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+どうもありがとうございます。大変嬉しいです。さっそく修正いたしました。<BR>
+それにしても 沢山間違え過ぎだなぁ (苦笑)</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig011115.src.html' , result='ig011115.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig011115-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">Java言語 コーディング規約</A> <FONT size="-2"><A target="_blank" HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>沼田哲史さんの手による Java Code Conventions の日本語訳。私が慣れ親しんだコーディング規約と ちょっと異なります。そろそろ こういう『世間一般的』なコーディング標準に寄り添って行くべき時期が訪れたのやも知れません。<LI><A HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">ソニーが反MS連合？??AOL Time Warner，Nokiaと大型提携</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>NetscapeとIEとの戦いどころではないほどの大型提携ニュースだったのですね。そこまでは読み切れませんでした。<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">トーバルス氏とコックス氏，次世代Linuxカーネルで和解</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>VM周りでの意見の相違が解決？<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">コックス氏，Linuxカーネル 2.4のメンテナンス役を降りる</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>コックスさんがメンテナを降りられた模様。<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">Linux Column：Linuxは誰のもの？</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>アラン・コックスのカーネルメンテナー辞任の事に関連して。<LI><A HREF="http://www.asahi.com/business/update/1115/001.html">経営統合の日航とＪＡＳ、５０００人削減へ</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/business/update/1115/001.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>航空産業も苦難の時代ですねぇ。<LI><A HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">Oracle CEO，Ellison氏の毒舌健在。MSのExchangeが槍玉に</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>MS Exchangeは史上最悪のパッケージソフトウェアだもんなぁ。逆に Oracle 9iにメールサーバーオプションがあるとは知りませんでした。<LI><A HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">オリコンがWindows Media Playerに国内CDデータを提供</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>これは ものすごく効くニュースです。音楽CDを入れたらアーティスト情報と連動。それをオリコンが実装する。マルチメディアな時代が目の先まで来ているのですねぇ。<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">携帯電話で脳腫瘍??元Motorola社員が同社を提訴</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>電磁波は人体に有害か無害か、の裁判がアメリカで繰り広げられる模様。電磁波先進国アメリカの動向が気になります。<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">NTTドコモとノキア、3GのブラウザやJavaアプリなどを共通化</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>是非 共通化に頑張ってください。<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">Novell，従業員の3分の1をレイオフか</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>かつて飛ぶ鳥落とす勢いだった Novellが 元気ありません。で NovellをやっつけたMicrosoftは元気もりもり。もののあわれを感じます。<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">米国のネットユーザー数，過去最高の1億1520万人</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ものすごい人数だなぁ。</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:45 $</address>
+</BODY>
+</HTML>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/12/01 日記: SWTに首ったけ</TITLE>
+<META name="DESCRIPTION" content="Eclipse.orgのSWTにハマってしまいました。大変気に入りました。Javaにハマった時以上の衝撃を受けています。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTに首ったけ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Eclipse.orgの[replace-link:SWT]にハマってしまいました。ものすごく気に入っています。週末を使って
+SWTベースのファイラーを試作中です。(SourceForgeにはツッコミ済)<BR>
+とにかく高速＆使い勝手の良いGUIアプリケーションが構築可能なんです。これがオープンソースとして提供されているなんて、、、同一ソースコードで
+WindowsでもLinuxでも動作可能ってのは良いですね。</P>
+<UL>
+  <LI>org.eclipse.swt以下のソースコード<BR>
+  [replace-href:http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.swt/]
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ピザの自作</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>パン焼き器の力も使いながら、ピザを自作しました。パン焼き器で45分こねて、丸めて20分ほどねかせて、伸ばしてチーズやトマトなどをトッピングして
+オーブンで焼きました。とってもおいしかったです。イタリア人の気持ちが少しわかったような気がしました
+(笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig021201-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

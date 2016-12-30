@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020412.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020412.html</link>
+    <language>ja</language>
+    <dc:date>2002-04-12</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.watch.impress.co.jp/av/docs/link/cccdlink.htm">
+    <title>AV機器各社コピーコントロールCD関連リンク集</title>
+    <link>http://www.watch.impress.co.jp/av/docs/link/cccdlink.htm</link>
+    <description>コピーコントロールCDは 一般CDプレーヤーとしても動作保証外なのだそうな。</description>
+    <dc:date>2002-04-12T09:47:25</dc:date>
+  </item>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/04/12/grri84000000bhq9.html">
+    <title>パソコンデータ 消去漏れ注意</title>
+    <link>http://www.nhk.or.jp/news/2002/04/12/grri84000000bhq9.html</link>
+    <description>NHKニュースでも放映されたようです。世間一般の方々の認識が向上すると良いですね。</description>
+    <dc:date>2002-04-12T09:58:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/11/03.html">
+    <title>JEITA，HDDデータ消去のガイドラインを作成</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/11/03.html</link>
+    <description>HDDを完全に消去することはとても難しいことなのです。</description>
+    <dc:date>2002-04-12T09:58:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0204/11/04.html">
+    <title>IBM，LinuxをPCワークステーションで正式サポート</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0204/11/04.html</link>
+    <description>うむ？今までは正式サポートでは無かったのですね。</description>
+    <dc:date>2002-04-12T09:58:49</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0204/08/02040888.html">
+    <title>Gartner Column：第42回 ほとんどのシステム障害は人災である</title>
+    <link>http://www.zdnet.co.jp/enterprise/0204/08/02040888.html</link>
+    <description>おっしゃる通り ほとんどのシステム障害は人災です。その通りです。で 私は『やらかさない』ために、例えば本番機の操作の際には 2人1組のチームを組んで確認しながらコンピュータ操作する、などの注意を心がけています。コマンドを打ち込んで、隣の人に内容を確認して貰って、OKが出てからENTERキーを打ち込む、というような塩梅です。</description>
+    <dc:date>2002-04-12T09:47:25</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030516.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030516.html</link>
+    <language>ja</language>
+    <dc:date>2003-05-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/15/njbt_01.html">
+    <title>ジャスト、Linux用「一太郎」「ATOK16」リリースへ</title>
+    <link>http://www.zdnet.co.jp/news/0305/15/njbt_01.html</link>
+    <description>すごいぞジャストシステム。私、Linux版一太郎、絶対買います。も～買う、すぐ買う。早く出てこい～一太郎 (上機嫌) そして日本で一太郎が復権する日が到来するのか。興味津々。</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+  <item rdf:about="http://www.justsystem.co.jp/news/2003f/news/j05151.html">
+    <title>ジャストシステム、Linuxデスクトップ製品を市場投入 第1弾として「一太郎 for Linux」「ATOK16 for Linux」を提供</title>
+    <link>http://www.justsystem.co.jp/news/2003f/news/j05151.html</link>
+    <description>大歓迎。すごいぞジャストシステム。やったぞジャストシステム。日本での一太郎復権を待っています～ q(^o^)P あとは、Shuriken Pro3 for Linuxを早期に出して欲しいです。</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/247010">
+    <title>ジャストシステム、一太郎投入で「デスクトップLinux」推進へ</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/gen/247010</link>
+    <description>この記事によると最初のバージョンはWINEベースなのだそうです。ネィテイブで無い点には少しがっかり。一方 WINEの日本語対応に対しては ぜひぜひコントリビュートして欲しいです。</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.ops.dti.ne.jp/~vsync/software/dviris/dviris.html">
+    <title>Software DV Codec Iris</title>
+    <link>http://www.ops.dti.ne.jp/~vsync/software/dviris/dviris.html</link>
+    <description>有名な 無料 DV Codec</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.hyuki.com/techinfo/cvsinit.html">
+    <title>結城浩さんの: CVSの基礎練習</title>
+    <link>http://www.hyuki.com/techinfo/cvsinit.html</link>
+    <description>すっきりと簡潔にまとまった とても良い資料です。さすがは結城さん。早速メモっ！</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/246827">
+    <title>NEC、複雑化するケータイ開発はLinux採用が解決への糸口</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/elec/246827</link>
+    <description>もはや 組み込み系や情報家電はLinuxで決まりという感がありますね。Linux人気 おそるべし。以前 Linuxバブルで盛り上がって そしてダメになった Linuxデスクトップとは対照的です。(Linuxデスクトップもがんばって欲しい気持ちで一杯なのですが、まずは 組み込みや情報家電、そしてサーバ分野から着手が手っ取り早いのでしょうね)</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/07/njbt_02.html">
+    <title>九州3銀行の基幹系共同化、開発遅れで富士通と解約</title>
+    <link>http://www.zdnet.co.jp/news/0305/07/njbt_02.html</link>
+    <description>『ソフトウェア開発は遅れると、解約されることがあります』という良い教訓です。他山の石として 納期遅れしないよう 改めて気を引き締めるのでした。</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0305/15/njbt_03.html">
+    <title>「Windows Server 2003」日本語版、6月2日発売</title>
+    <link>http://www.zdnet.co.jp/news/0305/15/njbt_03.html</link>
+    <description>ほほう。日本語版も ついに発売されるのですね。記憶からかき消えるほど出荷時期がスリップしまくったWindows Server 2003ですが、ようやっと出るのですね。.NET Serverとかいう名称が懐かしく思い出されます。</description>
+    <dc:date>2003-05-16T17:49:57</dc:date>
+  </item>
+
+</rdf:RDF>

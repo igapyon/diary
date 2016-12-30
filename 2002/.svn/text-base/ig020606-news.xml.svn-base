@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020606.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020606.html</link>
+    <language>ja</language>
+    <dc:date>2002-06-06</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/06/nebt_03.html">
+    <title>Mozilla 1.0、正式リリース</title>
+    <link>http://www.zdnet.co.jp/news/0206/06/nebt_03.html</link>
+    <description>Mozilla 1.0リリースのニュース速報です。</description>
+    <dc:date>2002-06-06T08:48:06</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/189148">
+    <title>LinuxをIBM OSのようにサポート--米IBM Linux担当幹部</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/189148</link>
+    <description>サポートビジネス到来についても言及されています。</description>
+    <dc:date>2002-06-06T08:24:51</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/Enterprise/News/2002/Item/020605-2.html">
+    <title>台湾政府もオープンソース</title>
+    <link>http://japan.cnet.com/Enterprise/News/2002/Item/020605-2.html</link>
+    <description>ただ 忘れてならないのは オープンソースソフトを用いたとしても 『別のコスト』が発生するという点です。その点 この記事には 『オープンソース開発者養成』にも言及されています。オープンソースソフト運用にもコストがかかるという点もお忘れ無く。</description>
+    <dc:date>2002-06-06T08:24:51</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0206/05/njbt_11.html">
+    <title>エイベックス、24時間ノンストップのインターネットラジオ</title>
+    <link>http://www.zdnet.co.jp/news/0206/05/njbt_11.html</link>
+    <description>受信には専用クライアントが必要とのこと。</description>
+    <dc:date>2002-06-06T13:01:56</dc:date>
+  </item>
+  <item rdf:about="http://pcgaz2.nikkeibp.co.jp/wcs/leaf?CID=onair/biztech/arena/188056">
+    <title>劣勢のXboxにマイクロソフトが多額資金投入</title>
+    <link>http://pcgaz2.nikkeibp.co.jp/wcs/leaf?CID=onair/biztech/arena/188056</link>
+    <description>380億ドル(＝約5兆円)という膨大な現金貯金があるってのはすんごいですね。じゃぶじゃぶお金を突っ込んでビジネスを展開することができるのですもの。いいなぁ。(私には、限られた予算でパッケージソフトを何本も作ってきた経験がありますので…) しかし、こんな会社と直接戦うのは至難の業ですね。</description>
+    <dc:date>2002-06-06T13:01:56</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/mobile/0206/04/n_foma.html">
+    <title>FOMAはメールも第3世代？ 人騒がせなFOMAのEメール</title>
+    <link>http://www.zdnet.co.jp/mobile/0206/04/n_foma.html</link>
+    <description>ケータイメール不向きである一方 MIMEヘッダとしてマルチパートでメールヘッダを付けること自身は問題では無いとも思います。</description>
+    <dc:date>2002-06-06T08:24:51</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0206/05/02060587.html">
+    <title>Opinion：Windowsはデータセンターに食い込めるのか？</title>
+    <link>http://www.zdnet.co.jp/enterprise/0206/05/02060587.html</link>
+    <description>データセンター運用ということは、ノンストップ系運用にWindowsが向いているかどうかって事ですよね。でも Windows XpはWindows 2000よりも不安定になった気がするし、Windows 2000 は Windows NT 4.0よりも不安定になったような気がするし…。今のままのOS品質だとデータセンターは怖いなあ。頑張れ Windows。</description>
+    <dc:date>2002-06-06T08:24:51</dc:date>
+  </item>
+
+</rdf:RDF>

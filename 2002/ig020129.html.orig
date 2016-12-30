@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/01/29 日記: HTTP経由ファイル取得ツール(Java版)</TITLE>
+<META name="DESCRIPTION" content="昨日は午後お休みをとって父の見舞いをしてきました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:46+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2002/01/29 日記: HTTP経由ファイル取得ツール(Java版)</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon] 昨日は午後お休みをとって父の見舞いをしてきました。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ディスプレイの明るさ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ディスプレイの明るさ調整機能が備わっていることを再発見する。で 私の目には
+6500K 程度がやさしい模様。(今までは デフォルト値である 9300K を起点として、コントラストやブライトネスなどで調整していました)</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTP経由ファイル取得</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ごく簡単な HTTP経由ファイル取得ツール (Java版)</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">HttpGet.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD><pre>/**
+ * HTTP受信サンプルプログラム
+ * Copyright (C) 2002  Tosiki IGA
+ *
+ *   @author Tosiki IGA
+ *   @version 2002.01.29
+ *   (http://homepage2.nifty.com/igat/igapyon/index.html)
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+import java.io.*;
+import java.net.*;
+import java.text.*;
+import java.util.*;
+
+public class HttpGet
+{
+        private static final long LAZY_MILLISEC_PAR_RECV=100;
+        private static final int REPORT_PER_DIFF=2;
+        private static final int BLOCK_SIZE=1024;
+
+        private int iTotalLength=(-1);
+        private int iCurrentLength=0;
+        private long lStartTime=0;
+        private long lEndTime=0;
+
+        private NumberFormat numFormat=NumberFormat.getNumberInstance();
+        private SimpleDateFormat sdFormat=new SimpleDateFormat(&quot;yyyy/MM/dd HH:mm:ss&quot;);
+
+        private String strTargetFileName=null;
+
+        public static final void main(String[] args)
+        {
+                System.out.println(&quot;HttpGet (0.3)&quot;);
+
+                if(args.length==0){
+                        System.out.println();
+                        System.out.println(&quot;Usage:&quot;);
+                        System.out.println(&quot;   java HttpGet [取得URI]&quot;);
+                        System.out.println(&quot;   ex. java HttpGet http://homepage2.nifty.com/igat/igapyon/index.html&quot;);
+                }else{
+                        try{
+                                new HttpGet().get(args[0]);
+                        }catch(IOException ex){
+                                System.out.println(ex.toString());
+                                ex.printStackTrace();
+                        }catch(InterruptedException ex){
+                                System.out.println(ex.toString());
+                                ex.printStackTrace();
+                        }
+                }
+        }
+
+        /**
+         * HTTPを利用してファイルを取得します
+         */
+        public void get(String strUrl)
+                throws IOException,InterruptedException
+        {
+                URL url=new URL(strUrl);
+                URLConnection conn=url.openConnection();
+                File fileWrite=getRecvFile(url);
+                iTotalLength=conn.getContentLength();
+
+                lStartTime=System.currentTimeMillis();
+                getFile(conn,fileWrite);
+                lEndTime=System.currentTimeMillis();
+
+                afterCheck(conn,fileWrite);
+        }
+
+        /**
+         * ファイル受信の主処理
+         */
+        private void getFile(URLConnection conn,File fileWrite)
+                throws IOException,InterruptedException
+        {
+                int iPastLength=0;
+                int iPastProgress=0;
+                BufferedInputStream inStream=new BufferedInputStream(conn.getInputStream());
+                BufferedOutputStream outStream=new BufferedOutputStream(new FileOutputStream(fileWrite));
+                long lPastTime=System.currentTimeMillis();
+                System.out.println(&quot;HTTP受信遅延ミリ秒: &quot;+LAZY_MILLISEC_PAR_RECV);
+
+                byte[] byteRead=new byte[BLOCK_SIZE];
+                for(;;){
+                        int iReadLen=inStream.read(byteRead);
+                        if(iReadLen==(-1)){
+                                break;
+                        }
+                        outStream.write(byteRead,0,iReadLen);
+                        iCurrentLength+=iReadLen;
+
+                        int iCurrentProgress=iCurrentLength*100/iTotalLength;
+                        if(iCurrentProgress&gt;iPastProgress+(REPORT_PER_DIFF-1)){
+                                long lCurrentTime=System.currentTimeMillis();
+                                System.out.println(sdFormat.format(new Date())+&quot;  &quot;+iCurrentProgress+&quot;% &quot;
+                                        +numFormat.format(iCurrentLength)+&quot; bytes   効率:&quot;
+                                        +numFormat.format((iCurrentLength-iPastLength)*1000/(lCurrentTime+1-lPastTime))+&quot; bytes/sec&quot;);
+
+                                iPastLength=iCurrentLength;
+                                iPastProgress=iCurrentProgress;
+                                lPastTime=lCurrentTime;
+                        }
+
+                        // 遅延
+                        Thread.sleep(LAZY_MILLISEC_PAR_RECV);
+                }
+                outStream.flush();
+                outStream.close();
+                inStream.close();
+        }
+
+        /**
+         * HTTP受信の前処理。受信ファイル名を決定し、そのファイル名のFileオブジェクトを返します。
+         */
+        private final File getRecvFile(URL url)
+        {
+                strTargetFileName=url.getPath();
+                int iLast=strTargetFileName.lastIndexOf('/');
+                if(iLast!=(-1)){
+                        strTargetFileName=strTargetFileName.substring(iLast+1);
+                }
+                System.out.println(&quot;受信ファイル名:&quot;+strTargetFileName);
+                return new File(strTargetFileName+&quot;.tmp&quot;);
+        }
+
+        /**
+         * HTTP受信の後処理
+         */
+        private boolean afterCheck(URLConnection conn,File fileWrite)
+        {
+                if(iTotalLength!=(-1)
+                &amp;&amp; iTotalLength!=iCurrentLength){
+                        System.out.println(&quot;エラー: 受信ファイルの長さ不一致&quot;);
+                        return false;
+                }else{
+                        if(conn.getLastModified()&gt;0){
+                                fileWrite.setLastModified(conn.getLastModified());
+                        }
+                        System.out.println(numFormat.format(iTotalLength)+&quot; bytes in &quot;
+                                +numFormat.format((lEndTime-lStartTime)/1000)+&quot; sec   転送効率: &quot;
+                                +numFormat.format(iTotalLength*1000/(lEndTime-lStartTime))+&quot; byte/sec&quot;);
+                }
+                File fileTarget=new File(strTargetFileName);
+                fileTarget.delete();
+                fileWrite.renameTo(fileTarget);
+                return true;
+        }
+}</pre></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><STRONG><FONT color="#ff00ff">関連する日記</FONT></STRONG></P>
+<UL>
+  <LI><A href="ig021126.html">2002/11/26 日記: HTTP経由ファイル取得ツール(Visual C++版)</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>昨日は 父の見舞いをしてきました</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>昨日、父の見舞いをしてきました。父は 点滴もとれて とりあえず脳梗塞の初期の治療は落ち着いてきた模様です。まずは一安心と言うところでしょうか。<BR>
+で、私単体でも、少しずつ平静を取り戻しつつ…。今週は 静岡出張1回だけだし
+そろそろ平常状態に戻りつつあります。(日記がつけられる状態にまで少しずつ復元しつつあります
+:-P</P>
+<P>で 今日 電話で聞いたところによると、血管造影撮影を無事終了できた模様です。撮影の結果、頸動脈の1つが
+90%詰まっていたとのこと。併せて 今回の脳梗塞の詳細について 今週の土曜日に聞きに行くスケジュールを得ました。病院に感謝。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>大村忠史さんからツッコミ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing本の著者で有名な大村さん">大村忠史</A>さんからツッコミ<BR>
+<CITE>ただ今、開発中の Javaの メジャーバージョンアップ である Java2 SE v1.4 の
+Release Candidate が 公開されました。</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://java.sun.com/j2se/1.4/">http://java.sun.com/j2se/1.4/</A></CITE>
+</UL>
+<P><CITE>日本語の説明文のページも 今朝見てみたら、Release Candidate に ちゃんと更新されていました。</CITE></P>
+<UL>
+  <LI><CITE><A HREF="http://java.sun.com/j2se/1.4/ja/index.html">http://java.sun.com/j2se/1.4/ja/index.html</A></CITE>
+</UL>
+<P><CITE>インストール後、 java -version を実行すると、<BR>
+java version &quot;1.4.0-rc&quot;<BR>
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.4.0-rc-b91)<BR>
+Java HotSpot(TM) Client VM (build 1.4.0-rc-b91, mixed mode)<BR>
+と、表示されます。<BR>
+1.4 beta2 は、b74 で、1.4 beta3 は、b84 でしたが、1.4 RC1 は、b91 です。<BR>
+正式版のリリースも 間近ですね。<BR>
+-- </CITE></P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Merlinの新I/Oクラス</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>ずいぶん昔に日記MLに田中さんが流されていたメールを 今更ながら発見しました。<BR>
+<CITE>[igapyon:00813] java.nio<BR>
+こんばんは、田中です。<BR>
+SDC に日本語解説記事が載っていました。JSR-51 は DL したものの読んでなかった(^^；</CITE></P>
+<UL>
+  <LI><CITE>「Merlin の新しい入出力クラスをマスターしよう」（ID 必要。無料）<BR>
+  <A HREF="http://sdc.sun.co.jp/cgi-bin/osform/sdcSession?page=individual/newsletter/2001/11/tech_java01.html">http://sdc.sun.co.jp/cgi-bin/osform/sdcSession?page=individual/newsletter/2001/11/tech_java01.html</A></CITE>
+</UL>
+<P><CITE>記事の中にもありますが、現在の OS なら当然のように使える機能を Java にも持ち込んだものですね。</CITE></P>
+<UL>
+  <LI><CITE>非ブロック入出力 ・・・ 欲しかった！</CITE>
+  <LI><CITE>メモリーマップファイル ・・・ R/W バッファーのコピーが無くなりパフォーマンス向上する。Mach
+  が最初？<BR>
+  Unix に持ち込んだのは Sun</CITE>
+</UL>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+いよいよ！ Javaに非同期I/Oが加わるのですね。すっごく楽しみです。…しかし
+これは私には難解そうだなぁ (苦笑)<BR>
+C言語使いだった時にも 非同期I/Oは ずいぶんと尻込みしていました。まぁ Java言語は
+スレッドの使い勝手が良いので、ずいぶん安心して利用できそうにも予想できます。</P>
+<P><FONT color="#ff0000">2002/01/30</FONT> <A HREF="http://www.hyuki.com/" TITLE="私がもっとも尊敬する情報技術ライターの結城さま。彼のわかりやすい文章は 私たちが未知の情報技術に接する際に とても勇気づけられて応援されます。結城浩さんの書籍があるジャンルでは 必ず それを購入し、また人に勧めるようにしています。">結城浩</A>さんからツッコミ<BR>
+<CITE>Subject:  [igapyon:00883] Re: java.nio<BR>
+結城です。<BR>
+UNIX USER(ソフトバンクパブリッシング)2002年3月号に NIOのBufferとChannelの簡単な解説記事を書きました。<BR>
+以上、宣伝まで。</CITE></P>
+<P><FONT color="#ff00ff">ここから</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A><BR>
+ありがとうございます。<BR>
+是非 買います！！！</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Excelの使い方 (苦笑)</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Excel97の新しい技を身につけました。</P>
+<OL>
+  <LI>CTRL+A で全てのセルを選択する
+  <LI>データ(<U>D</U>) → フィルタ(<U>F</U>) → オートフィルタ(<U>F</U>)
+</OL>
+
+<P>データにどのようなデータが含まれるのかを一望するのに この技はすごく便利です。<BR>
+# いがぴょんは パッケージソフトウェアユーザとしては すっごくレベルが低いのであった…
+(笑)</P>
+
+<!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
+<!--     source='ig020129.src.html' , result='ig020129.html' -->
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>世間のニュースから <FONT SIZE="-1">(<A HREF="ig020129-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.internet.com/isreport/20020114/8.html">採用面接で差別をしていませんか</A> <FONT size="-2"><A target="_blank" HREF="http://japan.internet.com/isreport/20020114/8.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>参考になります。記事そのものは特に米国を意識していますけれども、世界に共通する示唆があります。注意しましょう。でも 日本には『履歴書』制度がありますね。いろいろ考えさせられます。<LI><A HREF="http://www.zdnet.co.jp/news/0201/16/e_dotnet.html">Windows Updateサイト障害の落とす影</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0201/16/e_dotnet.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>マイクロソフト社って、セキュリティとか安定性とか 昔っから苦手なんですよね。まあ まずはがんばって改善していって欲しいですね。</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:46 $</address>
+</BODY>
+</HTML>

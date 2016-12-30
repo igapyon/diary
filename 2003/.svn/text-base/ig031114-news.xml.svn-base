@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031114.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031114.html</link>
+    <language>ja</language>
+    <dc:date>2003-11-14</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0311/13/epn27.html">
+    <title>カシオ計算機、次期SCMシステム基盤にBEA WebLogicを採用</title>
+    <link>http://www.zdnet.co.jp/enterprise/0311/13/epn27.html</link>
+    <description>BEA WebLogic Integration 8.1Jというデータ連携用ソフトが採用された、ということ。このタイトル命名は 少し混乱を招きがちだと思います。</description>
+    <dc:date>2003-11-14T07:40:59</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/jobtrend/jobtrend022.html">
+    <title>雇用なき景気回復はエンジニアにも押し寄せる？</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/jobtrend/jobtrend022.html</link>
+    <description>まだまだ景気回復は遠そうです。がんばれ景気！一方で 派遣ニーズが復調ぎみという、私が聞き及ぶ世間動向は 数値としても現れているのですね。</description>
+    <dc:date>2003-11-14T07:40:59</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lskill01/column/tim_c/tim03.html">
+    <title>プログラミングって一体何だろう</title>
+    <link>http://jibun.atmarkit.co.jp/lskill01/column/tim_c/tim03.html</link>
+    <description>生産性向上ってジレンマ満載ですねぇ。悩ましいです。人間が理解できる複雑さの限界にまつわる記載も、考えさせられるものがあります。</description>
+    <dc:date>2003-11-14T07:40:59</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/rensai/ten09/ten01.html">
+    <title>第9回 技術者の焦り。上流工程を経験したい</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/rensai/ten09/ten01.html</link>
+    <description>とある人の足跡をまとめて記載しています。読み物として ちょっとおもしろく感じました。</description>
+    <dc:date>2003-11-14T07:40:59</dc:date>
+  </item>
+  <item rdf:about="http://jibun.atmarkit.co.jp/lcareer01/special/kigyo_p/kigyo_p01.html">
+    <title>フリーエンジニアへの第一歩 - ITエンジニアのための起業実践ポイント解説</title>
+    <link>http://jibun.atmarkit.co.jp/lcareer01/special/kigyo_p/kigyo_p01.html</link>
+    <description>これはよくまとまった記事。個人事業主にすべきかどうか、などが よく説明されています。</description>
+    <dc:date>2003-11-14T07:40:59</dc:date>
+  </item>
+
+</rdf:RDF>

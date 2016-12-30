@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2002/05/31 日記: Java言語ソースコード用整形ツール astyle</TITLE>
+<META name="DESCRIPTION" content="Java言語ソースコード整形ツールを調べてみました。そして astyle に深く感動しました。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java言語ソースコード用ソースコード整形ツール</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:Java言語コーディング規約] に合致したソースコード整形ツールが必要になり、オープンソースまたは無料のものを
+ざっくり調べました。</P>
+<UL>
+  <LI>Artistic Style (astyle) 1.15.3<BR>
+  [replace-href:http://astyle.sourceforge.net/]<BR>
+  [replace-href:http://sourceforge.net/projects/astyle/]<BR>
+  GPLライセンスで公開。GPLファンの私は満足。<STRONG>astyle -j --style=java -p -s ファイル名.java</STRONG> のようにスイッチを使うと、[replace-link:Java言語コーディング規約] にそこそこ合致したソースコードを得ることが出来ます。
+  <LI>Jacobe - The Java Code Beautifier<BR>
+  [replace-href:http://www.tiobe.com/jacobe.htm]<BR>
+  SUNの[replace-link:Java言語コーディング規約] 用設定ファイルが最初から準備されているのが嬉しい。
+</UL>
+<P>さしあたり Jacobeは日本語漢字の2バイト目が特定文字コードに引っかかる場合、うまく整形できないような現象が出てしまいました。astyleは
+その問題の文字コードも処理できます。とりあえず astyleを使ってみます。<BR>
+ちなみに、私は従来 8タブ非スペース派だったのですが、これを機に 4tabスペース派に乗り換えることにしました。([replace-link:Java言語コーディング規約]に寄り添いつつ合致するのが目的)</P>
+<P><FONT color="#ff0000">13:54</FONT> かなり astyleが気に入ってきました。かなりラブラブです。感動しました。これを使えば
+かなり人によるソースコードの見栄えの差異が吸収できます。私のソースコードすら[replace-link:Java言語コーディング規約]に合致したソースコードにばっちし整形されます。(私も
+私なりに結構個性的な整形ルールを持っていたので…)<BR>
+とりあえず私の独自整形ルールは捨て去り、<STRONG>astyle -j --style=java -p -s</STRONG> な人になって行くことに決めました。また 会社の仕事の上でも 何とか標準ツールとして普及させようという新たな野望が生まれました
+(笑)</P>
+<P><STRONG><FONT color="#ff00ff">関連する資料</FONT></STRONG></P>
+<UL>
+  <LI><A href="../memo/memojavastyle.html">資料: Java言語ソースファイルのスタイル調整ツール</A>
+</UL>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java Image I/Oのサンプル</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>[replace-link:渡辺義則]さんの日記に <A href="http://www.hcn.zaq.ne.jp/no-ji/reseach/20020530.htm">gifファイル から pngファイルへの変換サンプル</A>が載っていました。実質2行で変換できてしまうのだからびっくり。Java2 SDK 1.4 の新機能について、少し勉強しないとなぁ。</P>
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>クラシック音楽ネタ: 近畿の団員募集中なアマチュアオーケストラ</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>近畿の団員募集中アマオケ一覧を調べようと思って、そういえば 山岸<FONT size="-1">＠フルート＆コントラバス</FONT> さんが以前教えてくれたURIを思い出しました。(ベビーシッター制度の件の時に教えて貰った)<BR>
+そのURIをメモしておきます。</P>
+<UL>
+  <LI>近畿・中国・四国地方のオーケストラの団員募集<BR>
+  [replace-href:http://www2s.biglobe.ne.jp/~jim/freude/want/want_kinki.html]
+</UL>
+<P>こうやって見ると、オーケストラによっては、オケ経験不問のオケもありますね。ヴァイオリンのオケイコを初めて数年の方でも入団可能なオーケストラも存在しそうです。<BR>
+(ちなみに 私が現時点でコンサートマスターをしている<A href="http://orchestra.musicinfo.co.jp/~sakai-ph/">堺フィルハーモニー交響楽団</A>は『オケ・ブラス経験を前提＋入団オーディション有り』 です)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig020531-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

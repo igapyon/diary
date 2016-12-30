@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2005/07/04 日記: Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」β版リリース</TITLE>
+<META name="DESCRIPTION" content="Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」をベータ版リリースします。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon,SQL,整形,フォーマット,BlancoSqlFormatter,blanco,LGPL">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
+<META name="DATE" content="2010-09-27T20:42:49+09:00">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+<LINK rel="stylesheet" href="../../css/table.css" type="text/css" id="_HPB_TABLE_CSS_ID_">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+<TABLE border="0"><TBODY><TR>
+  <TD valign="top">
+    <A href="../memo/memoigapyon.html">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="いがぴょん画像(小) 2003/06">
+    </A>
+  </TD>
+  <TD valign="top">
+    <H2>2005/07/04 日記: Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」β版リリース</H2>
+    <P>[いがぴょんの日記v2,diary,igapyon,SQL,整形,フォーマット,BlancoSqlFormatter,blanco,LGPL] Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」をベータ版リリースします。</P>
+  </TD>
+</TR></TBODY></TABLE>
+
+<!-- adv -->
+<CENTER>
+<TABLE bgcolor="#ffff00" summary="adv">
+  <TBODY>
+    <TR>
+
+      <TD align="center">広告: <A href="http://journal.mycom.co.jp/column/ide/091/">イマドキのIDE事情: Eclipseベースの統合翻訳環境「Benten」を使ってみよう</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">たげぞうさんの手による Benten 紹介記事!</FONT></TD>
+
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<!-- adv -->
+
+
+
+
+<P> </P>
+
+<DIV align="right">
+<TABLE cellpadding="4">
+  <TBODY>
+    <TR bgcolor="#99ccff">
+      <TD><A href="../idxall.html">インディックスページへ戻る</A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+
+
+
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」β版リリース</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>Javaで書かれたフリーなSQL整形ライブラリである「BlancoSqlFormatter」について、これをβ版リリースさせていただきます。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のSQL整形ライブラリである <A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A>として提供する形態を取ります。(<FONT color="#ff0000">2006.05.10追記</FONT> 当初は blancoCommonsに同梱して提供されていました)<BR>
+古くからの知人である渡辺義則 (<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>)さんにお願い (<STRONG><FONT color="#ff00ff">おねだり</FONT></STRONG>) してベースラインを作っていただきました。渡辺義則さま、お忙しいところ、大変ありがとうございます。これだけのものを ちょいっと作ってしまう渡辺さんには、いつも感動させられてばかりです。(少なくとも
+<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>には作ることは出来ません)<BR>
+ちなみに、渡辺義則さんは多くの(そしてそれらのいくつかは重要な) オープンソース・ソフトウェアを開発された方でもあります。</P>
+<P><FONT color="#ff00ff">BlancoSqlFormatterライブラリの基本方針</FONT></P>
+<P>このライブラリは SQL整形を行うことのみを目的としています。ライブラリとしての形態のみにてリリースしていく予定です。このライブラリを組み込んで
+SQL整形を行いたいという開発者向けにリリースすることが主たる目的です。フリーなSQLエディタ／SQL整形 Eclipseプラグインへの組み込みなどを行なわれる方が現れることを遠い目をしながら期待しています
+(笑)</P>
+<P><FONT color="#ff00ff">取得方法</FONT></P>
+<P>ライブラリモジュールおよびソースコードは、下記からダウンロードすることができます。</P>
+<UL>
+  <LI>blanco Framework内: <A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A>: blancoSqlFormatter-?.?.?-src.zip<BR>
+  <A HREF="http://sourceforge.jp/projects/blancofw/">http://sourceforge.jp/projects/blancofw/</A><BR>
+  ※ライセンスは GNU LGPLライセンスのもとで配布されます。
+</UL>
+<P><FONT color="#ff00ff">実行方法</FONT></P>
+<UL>
+  <LI>解凍して得られる blancosqlformatter-?.?.?.jar をクラスパスに含めます。
+</UL>
+<P>下記のような感じで利用します。</P>
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ffff00">Test.java</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>
+      <pre>import blanco.commons.sql.format.BlancoSqlFormatter;
+import blanco.commons.sql.format.BlancoSqlRule;
+
+public class Test {
+
+    public static void main(String[] args) {
+        BlancoSqlFormatter formatter = new BlancoSqlFormatter(
+                new BlancoSqlRule());
+        System.out.println(formatter
+                .format(&quot;SELECT DISTINCT a, b, c FROM table t1 ORDER BY b&quot;));
+    }
+}
+</pre>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+※基本的に、上記サンプルで利用されているAPIについては、インタフェースは変更しない方針です。</BLOCKQUOTE>
+<P><FONT color="#ff00ff">リリースのフィードバック</FONT></P>
+<UL>
+  <LI>まずは ANSI-SQL 99 を大まかにサポートすることを目標としています。<BR>
+  固有のRDBMSのサポートは後回しに考えていますが、でもサポートできるに越したことはないと考えています。
+  <LI>SQL文の試験データのバリエーションは まだまだ不足しています。<BR>
+  うまく整形できないSQL文がありましたら、入力SQL文(をデフォルメしたもの)・希望の整形後SQL文・期待とずれている箇所を明記のうえ、<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>までメールにて
+  お知らせください。実装上の都合・技術的な都合・美意識などでご期待に沿うことができない場合もあるかも知れませんが、ご指摘の内容に適切に対応できる場合もあります。
+  <LI><FONT color="#ff0000">既知の問題</FONT>：MAX()などの式については、字下げが () カッコをベースとしたものになっているため、多少の不具合があることがすでにわかっています。しかし
+  実装上の都合や 他のバランスとの兼ね合いもあり、現時点では、あえて () カッコ の字下げルールを基調としています。
+</UL>
+<P><FONT color="#ff00ff">関連する日記</FONT></P>
+<UL>
+  <LI><A href="ig050613.html">2005/06/13 日記: SQLコーディング規約 (字下げ規約) 策定プロジェクト</A>
+  <LI><A href="ig050729.html">2005/07/29 日記: SQLを整形するEclipseプラグイン - BlancoSqlEditorPlugin 初の正式版リリース</A>
+  <LI><A href="ig050524.html">2005/05/24 日記: Javaで書かれたフリーなSQL自動整形ツールが欲しい…</A>
+  <LI><A href="ig050328.html">2005/03/28 日記: SQL整形Eclipseプラグイン情報を希望 , 花粉症の症状が満載…</A>
+</UL>
+<HR>
+<address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
+Last modified: $Date: 2010/09/27 20:42:49 $</address>
+</BODY>
+</HTML>

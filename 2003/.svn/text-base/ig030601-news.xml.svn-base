@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030601.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030601.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-01</dc:date>
+  </channel>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/249384">
+    <title>米HP、VMware仮想マシン上のWindows/Linux/NetWareをサポート対象に</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/249384</link>
+    <description>VMWareを積極的にサポートしていくんですって。興味深いです。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20054757,00.htm">
+    <title>Java開発ツールEclipseの新バージョン計画内容が明らかに</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20054757,00.htm</link>
+    <description>Eclipse 3.0の話題。当面 Eclipse 2.1が安定版として活躍する雰囲気を感じさせられました。</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+
+  <item rdf:about="http://www-6.ibm.com/jp/developerworks/java/030530/j_j-mer03253.html">
+    <title>dW: Merlinの魔術: Merlinの新しいI/Oバッファーの詳細 (J2SE 1.4の新しいI/Oパッケージの操作方法)</title>
+    <link>http://www-6.ibm.com/jp/developerworks/java/030530/j_j-mer03253.html</link>
+    <description>1.4からメモリー・マップ・ファイルも導入されていたのですね。全然知りませんでした。(というか 平素から 基本的に 1.2とコンパチブルを取るべく注意しつつ仕事をしているものですから…)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/249464">
+    <title>NEC、.NETからメインフレームを利用可能にするソフト</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/comp/249464</link>
+    <description>.NETからACOS4をコールできるんですって。面白そうですね。でも おそらくは ACOS4のリビジョンアップなどは必須なのでしょうけれども (そして汎用機OSのリビジョンアップなんてものは 非現実的な選択肢になってしまいがちなのですが…)</description>
+    <dc:date>2003-06-01T15:28:01</dc:date>
+  </item>
+
+</rdf:RDF>

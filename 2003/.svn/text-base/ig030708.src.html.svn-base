@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+<TITLE>2003/07/08 日記: 客先でトラブル発生</TITLE>
+<META name="DESCRIPTION" content="亥の刻も遙かに過ぎた頃に原因らしきものが内林さんの手により発見される。">
+<META name="KEYWORDS" content="いがぴょんの日記v2,diary,igapyon">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META name="DATE" content="[replace-metatext:timestamp]">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="INDEX" href="index.html">
+<LINK rel="CONTENTS" href="index.html">
+</HEAD>
+<BODY bgcolor="#eeddcc">
+[replace-text:igdiaryhead.txt]
+<TABLE summary="mini title">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>客先(酒屋さん)でトラブル発生</STRONG></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>今日は 執筆活動にいそしむはずが…。<BR>
+とりあえず トラブル終息を目指し 作業を開始します。</P>
+<P><FONT color="#ff0000">17:29</FONT> まだまだ原因究明中。障害発生レコードの一覧は 機械的に作成されるように改善。さて
+原因はいずこに…。</P>
+<P><FONT color="#ff0000">22:36</FONT> まだまだ原因究明中。疲れたので 今日は終わり。</P>
+<P><FONT color="#ff0000">23:02</FONT> 内林さんが 不具合再現パターンを発見。内林くん、ありがとう。明細行の最後の行を削除して追加したら、バッファリングされている箇所が悪さして、データが不整合起きてしまう模様。<BR>
+ヒトミさんは 終電に乗れることを祈る。(23:30なんば が最終らしい…)<BR>
+それとは別に コネクションプールを経由せずに勝手に DB接続するパターンを発見。これはヒドイ不具合。でも
+バグが２つ合体して バグとして発動しないようになっていました。びっくり仰天。<BR>
+さて、本当に 今日は もうバグ追求終わり。とりあえず 不具合発生パターンが再現できたのは
+非常に価値がある。こんなマニアックなパターンを見つける内林は すごいテスターだなぁ。テスターに関して天才的なひらめきがあるんだもの。ヒトミさんにも私にも
+丸1日かけても発見できなかったのですもの。内林くん ありがとう q(^o^)P</P>
+<P><FONT color="#ff0000">23:08</FONT> ヒトミさんの終電を <A href="http://ekitan.com/">エキタン</A>してみる。</P>
+<OL>
+  <LI>本町 23:19
+  <LI>なんば 23:30
+  <LI>箱作 0:20
+</OL>
+<P>ふう なんとか乗れる模様。よかった よかった。<BR>
+さて、明日は この不具合を修正するぞ～。頑張るぞ～。… 執筆活動は 難航を極めるのであった
+(苦笑)</P>
+[replace-param:htmlstyle=tabletitle][replace-rdf:ig030708-news.xml]
+[replace-text:igdiarytail.txt]</BODY>
+</HTML>

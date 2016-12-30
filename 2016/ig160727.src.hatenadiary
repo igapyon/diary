@@ -1,0 +1,26 @@
+2016-07-27 [Force.com][Tooling API] メモ: クラス取得
+
+*p1*[Force.com][Tooling API] メモ: クラス作成
+
+SFDC Tooling API を使って SFDC に Apex クラスを新規作成する例。
+>|java|
+    public static String createApexClass(final ToolingConnection toolingConnection, final String classBody,
+            final StringBuffer sbufErrorMsg) throws ConnectionException {
+        final ApexClass apexClass = new ApexClass();
+        apexClass.setBody(classBody);
+        final ApexClass[] classes = { apexClass };
+
+        final SaveResult[] saveResults = toolingConnection.create(classes);
+        if (saveResults[0].isSuccess()) {
+            return saveResults[0].getId();
+        } else {
+            sbufErrorMsg.append("Fail to create class: " + saveResults[0].getErrors()[0].getMessage() + "\n");
+            return null;
+        }
+    }
+||<
+
+**ToolingConnection取得方法
+ToolingConnection取得方法は以下を参照
+-http://d.hatena.ne.jp/igapyon/20160724
+

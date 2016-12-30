@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031021.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig031021.html</link>
+    <language>ja</language>
+    <dc:date>2003-10-21</dc:date>
+  </channel>
+
+  <item rdf:about="http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031016/4/">
+    <title>Windows XP SP2の遅れは新セキュリティ技術「Springboard」のせい</title>
+    <link>http://itpro.nikkeibp.co.jp/free/NT/NEWS/20031016/4/</link>
+    <description>そんなもの Windows XP SP3にでも後回しにして</description>
+    <dc:date>2003-10-21T09:53:37</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fwin2k/hotfix/ms03-041-046/ms03-041-046.html">
+    <title>Windows HotFix Briefings: 緊急セキュリティ情報 攻撃者の任意のプログラム実行を許容してしまう5個の緊急セキュリティ・ホール</title>
+    <link>http://www.atmarkit.co.jp/fwin2k/hotfix/ms03-041-046/ms03-041-046.html</link>
+    <description>MS03-041, MS03-042, MS03-043, MS03-044, MS03-046 なのだそうな。ここのところ HotFixの緊急度セキュリティホールの修正パッチが出され続けていますね…。困った話です。</description>
+    <dc:date>2003-10-21T09:53:37</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061509,00.htm">
+    <title>Office 2003--企業はアップグレードに慎重姿勢</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061509,00.htm</link>
+    <description>当然のことですが 企業ではアップグレードは穏やか且つ慎重に行われていくことでしょう。Webサービスがらみの新機能は とても気になっているのですけれどもね。</description>
+    <dc:date>2003-10-21T11:58:09</dc:date>
+  </item>
+  <item rdf:about="http://linux.ascii24.com/linux/news/today/2003/10/20/646424-000.html">
+    <title>【特別企画】インタビュー「IBMのLinuxへの取り組み」</title>
+    <link>http://linux.ascii24.com/linux/news/today/2003/10/20/646424-000.html</link>
+    <description>なんだかここ数日、妙にLinux関連の記事が多いです。そんなにLinuxって 儲かるのかしらん。(実のところ 儲かるのであれば ぜひ手を染めておきたいと思う今日この頃なのであった)</description>
+    <dc:date>2003-10-21T11:58:09</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0310/20/epn05.html">
+    <title>NEC、エンタープライズ領域のSI事業推進を目的に「Linux推進センター」を設立へ</title>
+    <link>http://www.zdnet.co.jp/enterprise/0310/20/epn05.html</link>
+    <description>NECって 知らない人には意外かも知れませんが 結構昔から Linuxをエンタープライズ領域への適用というジャンルを手がけて来ているのです。これは NEC EWS4800シリーズを手がけていた事業部が 諸般の都合により Linuxに手を染め始め、結果的に Linux先行企業になったものなのである、と私は勝手に解釈しています。(ちなみに EWS4800シリーズは 私が会社に就職した直後に触っていたUNIXなのです)</description>
+    <dc:date>2003-10-21T11:58:09</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20061507,00.htm">
+    <title>米シマンテック、Ghost 8.0発売へ-「パッチワーク方式」でパッチを提供</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20061507,00.htm</link>
+    <description>『PC管理ソフトウェアのGhostの最新版』??? Ghostは 基本的に 簡易ディザスターリカバリー実現ソフトだと思っていたのですが… パッチを配布する機能も Ghostの主たる機能になったのでしょうか？？？ 謎は深まるばかり。(単なる誤報か?) </description>
+    <dc:date>2003-10-21T09:53:37</dc:date>
+  </item>
+
+</rdf:RDF>

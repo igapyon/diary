@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030411.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030411.html</link>
+    <language>ja</language>
+    <dc:date>2003-04-11</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.hotwired.co.jp/news/news/technology/story/20030410304.html">
+    <title>『ウィンドウズ・メディア9』、リナックス分野にも進出へ</title>
+    <link>http://www.hotwired.co.jp/news/news/technology/story/20030410304.html</link>
+    <description>Linuxのデスクトップが使い勝手良くなる方向性に寄与するのでしょうか？ いまいち読み切れません。</description>
+    <dc:date>2003-04-11T12:14:31</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0304/09/nebt_16.html">
+    <title>HP、319ドルのBTOモデル発表</title>
+    <link>http://www.zdnet.co.jp/news/0304/09/nebt_16.html</link>
+    <description>319ドルでCeleron 2GHz, メモリ128M, HDD 40G, CD-ROMなんだそうです。時代も変わるものですね。</description>
+    <dc:date>2003-04-11T12:14:31</dc:date>
+  </item>
+
+</rdf:RDF>

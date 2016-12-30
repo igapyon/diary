@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011023.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011023.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-23</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.justsystem.co.jp/download/index.html"/>
+        <rdf:li resource="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/149621"/>
+        <rdf:li resource="http://jcp.org/aboutJava/communityprocess/review/jsr051/"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/22/nifty.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/22/infomagic.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/23/b_1022_08.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.justsystem.co.jp/download/index.html">
+    <title>JUSTSYSTEM オフィス系製品のWindows XP対応モジュール提供開始</title>
+    <link>http://www.justsystem.co.jp/download/index.html</link>
+    <description>一太郎11, ATOK14などのWindows版を Windows XPに対応させるための各モジュール群が提供開始されました。好感度UP。</description>
+    <dc:date>2001-10-23T12:38:37</dc:date>
+  </item>
+
+  <item rdf:about="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/149621">
+    <title>機は熟した、日本HPがようやくLinuxワークステーション発表</title>
+    <link>http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/comp/149621</link>
+    <description>同程度Windows機より20万円高いというのが印象的。グラフィックス用途なのだそうな。</description>
+    <dc:date>2001-10-23T10:10:44</dc:date>
+  </item>
+  <item rdf:about="http://jcp.org/aboutJava/communityprocess/review/jsr051/">
+    <title>JSR-000051 New I/O APIs for the JavaTM Platform</title>
+    <link>http://jcp.org/aboutJava/communityprocess/review/jsr051/</link>
+    <description>なんだか ずいぶん難しい仕様に様変わりしてしまった (T_T)。何にせよシンプルが一番なのですけれどもねぇ。</description>
+    <dc:date>2001-10-23T10:10:44</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/22/nifty.html">
+    <title>@nifty，会員500万人を突破</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/22/nifty.html</link>
+    <description>ものすごい数字ですね。そして 最近 niftyが低速になるのが加速している理由でもあるように思えます。</description>
+    <dc:date>2001-10-23T10:30:17</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/22/infomagic.html">
+    <title>G450 DualHead 32Mバイトを1万円以下に</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/22/infomagic.html</link>
+    <description>Matroxファンとしては 興味を感じます。(そういえば、何が何でも Matroxのカードにしているもんなぁ)</description>
+    <dc:date>2001-10-23T10:30:17</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/23/b_1022_08.html">
+    <title>C++の開発者Stanley Lippman氏がMicrosoftに</title>
+    <link>http://www.zdnet.co.jp/news/0110/23/b_1022_08.html</link>
+    <description>げげげ。</description>
+    <dc:date>2001-10-23T10:30:17</dc:date>
+  </item>
+</rdf:RDF>

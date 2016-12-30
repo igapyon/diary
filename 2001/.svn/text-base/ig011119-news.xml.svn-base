@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011119.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011119.html</link>
+    <language>ja</language>
+    <dc:date>2001-11-19</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0111/19/nec_hitachi.html"/>
+        <rdf:li resource="http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2001_11.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/enterprise/0111/16/01111609.html"/>
+        <rdf:li resource="http://japan.cnet.com/News/2001/Item/011116-3.html"/>
+        <rdf:li resource="http://www.asahi.com/national/update/1119/019.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0111/19/nec_hitachi.html">
+    <title>NECと日立，システム運用管理ソフトで提携</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0111/19/nec_hitachi.html</link>
+    <description>げげげっ。JP1をNECが販売できるようになる？！ 仕事的にものすごく強いインパクトのある記事でした。</description>
+    <dc:date>2001-11-19T15:39:14</dc:date>
+  </item>
+
+  <item rdf:about="http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2001_11.html">
+    <title>ソフトの質はコード量に関係するか？</title>
+    <link>http://www.atmarkit.co.jp/fdotnet/opinion/kawamata/2001_11.html</link>
+    <description>私は 『ソースコードは短ければ短いほど良い』派です。その反面 クラス数は増加します。で 増加するクラス数に対処するために 『パッケージ/ディレクトリ』という技術が存在するのです。Java言語の最も優れた点は 『パッケージ』だと今でも思っています。それは パッケージが 構造化・モジュール化の最適解だと思っているからです。</description>
+    <dc:date>2001-11-19T15:24:22</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0111/16/01111609.html">
+    <title>「XP，上等！」と叫ぶペンギンに，唯一「祭り」を見た</title>
+    <link>http://www.zdnet.co.jp/enterprise/0111/16/01111609.html</link>
+    <description>Windows 2000 は良いOSだったのになぁ。一般消費者向けWindows XPで盛り上がりに欠けるってのは ちと寂しいです。</description>
+    <dc:date>2001-11-19T15:24:22</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/News/2001/Item/011116-3.html">
+    <title>クッキーを暴くIEのホールにパッチ</title>
+    <link>http://japan.cnet.com/News/2001/Item/011116-3.html</link>
+    <description>そもクッキーとは何のために存在するのか、と ふと思ってしまいました。</description>
+    <dc:date>2001-11-19T07:06:52</dc:date>
+  </item>
+
+  <item rdf:about="http://www.asahi.com/national/update/1119/019.html">
+    <title>職場でわいせつ画像見ていた兵庫県芦屋市幹部減給処分</title>
+    <link>http://www.asahi.com/national/update/1119/019.html</link>
+    <description>今時の世相。</description>
+    <dc:date>2001-11-19T15:39:14</dc:date>
+  </item>
+
+</rdf:RDF>

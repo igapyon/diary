@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030709.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030709.html</link>
+    <language>ja</language>
+    <dc:date>2003-07-09</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/07/epi01.html">
+    <title>Interview：ソフトウェアライセンスが機能しなくなる日</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/07/epi01.html</link>
+    <description>ソフトウェアのコモディティー化なんだそうです。コモディティー化によって、ハードウェアではIBMが勝ち、Compaqが勝ち、そしてDellが勝ってきたように、ソフトウェアもコモディティー化して 知らないうちに アマゾンとかGoogleとか データを扱う人たちが 一人勝ちしている なんてことを予言しています。この記事 とても興味深く そして学ぶことが多いです。オライリーさん やるなぁ。</description>
+    <dc:date>2003-07-09T08:12:47</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/0307/08/epn14.html">
+    <title>日本Linux協会、国内における「Linux」の商標登録完了を発表</title>
+    <link>http://www.zdnet.co.jp/enterprise/0307/08/epn14.html</link>
+    <description>「Linux」の商標は日本国内においても 正式にリーナスさんのものになりました。</description>
+    <dc:date>2003-07-09T09:36:57</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/enterprise/security/rootkit/">
+    <title>ZDNet エンタープライズ：rootkitによるハッキングとその防御</title>
+    <link>http://www.zdnet.co.jp/enterprise/security/rootkit/</link>
+    <description>クラッキングツール rootkitの利用方法が紹介されています。… 加えて 防御方法も紹介されています。すばらしい記事だ。また この記事では ハッカーとクラッカーとの用語を ある程度意識して使い分けているようにも思いました。この点も評価できます。… この記事は 正義のハッカーを育てる効果があるものの 小悪魔的小市民クラッカーをも育ててしまう、そんな危惧すら感じられます。 とにかく 良い 入門用記事です。</description>
+    <dc:date>2003-07-09T13:49:26</dc:date>
+  </item>
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030616.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030616.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-16</dc:date>
+  </channel>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055442,00.htm">
+    <title>Linuxのカーネル2.4.21が正式リリース</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055442,00.htm</link>
+    <description>2.4.21に関する簡単な記事。昨年11月以来のリビジョンアップなのだそうです。</description>
+    <dc:date>2003-06-16T15:50:56</dc:date>
+  </item>
+
+  <item rdf:about="http://japan.cnet.com/news/ent/story/0,2000047623,20055486,00.htm">
+    <title>日本オラクルと東芝ITソリューション、XMLを利用した電子帳票システムを提供</title>
+    <link>http://japan.cnet.com/news/ent/story/0,2000047623,20055486,00.htm</link>
+    <description>電子帳票ネタは 以前の仕事内容がら興味を持っているのでした。</description>
+    <dc:date>2003-06-16T15:50:56</dc:date>
+  </item>
+
+</rdf:RDF>

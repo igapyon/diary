@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030605.html">
+    <title>世間のリリース</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2003/ig030605.html</link>
+    <language>ja</language>
+    <dc:date>2003-06-05</dc:date>
+  </channel>
+
+  <item rdf:about="http://java.sun.com/webservices/">
+    <title>Sun Java Web Services Developer Pack 1.2 リリース</title>
+    <link>http://java.sun.com/webservices/</link>
+    <description>Sun提供のWebサービス開発キットの最新版がリリース。早速ダウンロード！！！</description>
+    <dc:date>2003-06-05T17:46:12</dc:date>
+  </item>
+
+</rdf:RDF>

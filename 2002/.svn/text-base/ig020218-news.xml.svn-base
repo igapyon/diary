@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020218.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2002/ig020218.html</link>
+    <language>ja</language>
+    <dc:date>2002-02-18T14:07:34</dc:date>
+  </channel>
+
+  <item rdf:about="http://www.nhk.or.jp/news/2002/02/18/grri84000000aaui.html">
+    <title>「千と千尋」ベルリンで最優秀賞</title>
+    <link>http://www.nhk.or.jp/news/2002/02/18/grri84000000aaui.html</link>
+    <description>アニメが最優秀映画、なんですね。すごいや！</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/15/12.html">
+    <title>松下，9万円台のDVDレコーダー</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/15/12.html</link>
+    <description>さあて、いがぴょん的購入可能価格帯まで、どんどん下がって来い～ (笑)</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.trendmicro.co.jp/company/news/2002/news020215.asp">
+    <title>お客様情報管理についてのお詫びと対策について</title>
+    <link>http://www.trendmicro.co.jp/company/news/2002/news020215.asp</link>
+    <description>トレンドマイクロ製 ウイルスバスター９５ のお客様情報が 外部から閲覧可能な状況だったことの報告とお詫び</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.ejf.gr.jp/guide_mokuji.htm">
+    <title>安心インターネットライフ★ガイド</title>
+    <link>http://www.ejf.gr.jp/guide_mokuji.htm</link>
+    <description>Ｅジャパン協議会の手による 初心者向けインターネットセキュリティ指南書。近藤さんに教えてもらいました。</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0202/16/b_0215_02.html">
+    <title>「MSバグ問題」で論争さらに加熱</title>
+    <link>http://www.zdnet.co.jp/news/0202/16/b_0215_02.html</link>
+    <description>Microsoftの次世代開発環境の屋台骨部分が 生まれながらにしてセキュリティ＆堅牢性が脆弱であるという問題です。</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0202/15/02.html">
+    <title>「元気か？」ハロ3980円，しゃべって育つ癒し系</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0202/15/02.html</link>
+    <description>ああっ、間違って衝動買いしそうな かわいいおもちゃですっ</description>
+    <dc:date>2002-02-18T14:34:55</dc:date>
+  </item>
+
+</rdf:RDF>

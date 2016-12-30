@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011026.html">
+    <title>世間のニュースから</title>
+    <link>http://homepage2.nifty.com/igat/igapyon/diary/2001/ig011026.html</link>
+    <language>ja</language>
+    <dc:date>2001-10-26</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/26/nec_sgi.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/26/b_1025_03.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/25/just.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/bursts/0110/25/transcosmos.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/26/b_1025_02.html"/>
+        <rdf:li resource="http://java.sun.com/docs/books/tutorial/"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/26/b_1025_17.html"/>
+        <rdf:li resource="http://www.zdnet.co.jp/news/0110/26/b_1025_11.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/26/nec_sgi.html">
+    <title>NEC，日本SGIを子会社化へ</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/26/nec_sgi.html</link>
+    <description>やはり子会社化で決着しますか。。。NEC側で考えると、日本SGIの現有能力は 貴重で有力な財産でしょう。有効活用すれば、かなり企業の特色・メリットが出せそうですね。Unix系ノウハウが豊富ですもの。一方 SGIファンとしては、やり切れないものを感じられた方もいらっしゃることでしょう。</description>
+    <dc:date>2001-10-26</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/26/b_1025_03.html">
+    <title>Windows XP普及には最低2年――Gartner予測</title>
+    <link>http://www.zdnet.co.jp/news/0110/26/b_1025_03.html</link>
+    <description>妥当な読み、、、だと思うのですけれども、新規パソコンには Windows XP がプリインストールされて出荷されるんですよねぇ。Windows 2000の場合 コンシューマー向けということでは実害が無かった (苦笑) のですけれども、Windows XP は Windows Me のリプレースって印象でスタートすると、混乱を招きそうだなぁ。(ちなみに もちろん私は Windows 2000派)</description>
+    <dc:date>2001-10-26T12:56:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/25/just.html">
+    <title>「ATOK15 for Windows」，来年2月発売</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/25/just.html</link>
+    <description>やっぱ日本語入力は ATOKですものね。他の日本語入力ソフトは 許せないモノがありますから (というかMS-IMEが)。</description>
+    <dc:date>2001-10-26T12:56:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/bursts/0110/25/transcosmos.html">
+    <title>トランス・コスモスがXboxサポートを受注</title>
+    <link>http://www.zdnet.co.jp/news/bursts/0110/25/transcosmos.html</link>
+    <description>可哀想に、、、</description>
+    <dc:date>2001-10-26T12:56:50</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/26/b_1025_02.html">
+    <title>Ballmer氏はロンドンへ。「Windows XPはWindows 95の2倍売れる」</title>
+    <link>http://www.zdnet.co.jp/news/0110/26/b_1025_02.html</link>
+    <description>Windows NTの生みの親 バルマーさん、彼の目には Windows 95は グズ・カスOSでしょうねぇ。(説明調: Windows NTは Windows XPの元ネタです)</description>
+    <dc:date>2001-10-26T12:56:50</dc:date>
+  </item>
+  <item rdf:about="http://java.sun.com/docs/books/tutorial/">
+    <title>The Java Tutorial</title>
+    <link>http://java.sun.com/docs/books/tutorial/</link>
+    <description>久しぶりの更新です。</description>
+    <dc:date>2001-10-26T12:56:50</dc:date>
+  </item>
+
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/26/b_1025_17.html">
+    <title>Windows XPで「白雪姫と七人の小人」が見られない！</title>
+    <link>http://www.zdnet.co.jp/news/0110/26/b_1025_17.html</link>
+    <description>とりあえず Windows XPのDVD関連に不具合が出ている模様。</description>
+    <dc:date>2001-10-26</dc:date>
+  </item>
+  <item rdf:about="http://www.zdnet.co.jp/news/0110/26/b_1025_11.html">
+    <title>MSN“他社ブラウザ締めだし方針”に変更</title>
+    <link>http://www.zdnet.co.jp/news/0110/26/b_1025_11.html</link>
+    <description>MSN側が負けた格好です。</description>
+    <dc:date>2001-10-26</dc:date>
+  </item>
+</rdf:RDF>
