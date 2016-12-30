@@ -102,6 +102,7 @@ public class ConvertHatenaSeparatedText2SrcMd {
 			String line = lines.get(index);
 			if (line.trim().equals("||<")) {
 				lines.set(index, "```");
+				lines.add(++index, "");
 			}
 			if (line.trim().equals(">|xml|")) {
 				lines.add(index++, "");
@@ -152,9 +153,8 @@ public class ConvertHatenaSeparatedText2SrcMd {
 				lines.set(index, "```bat");
 			}
 			if (line.trim().equals(">||")) {
-				// sh ??? TODO
 				lines.add(index++, "");
-				lines.set(index, "```sh");
+				lines.set(index, "```");
 			}
 		}
 
