@@ -1,4 +1,4 @@
-いがぴょんの日記ウェブページgh
+いがぴょんの日記ウェブページv3
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)  全ての日記のインディックス。
 
