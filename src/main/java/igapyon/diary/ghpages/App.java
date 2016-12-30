@@ -7,6 +7,7 @@ import java.util.List;
 
 import igapyon.diary.ghpages.hatena.ConvertHatenaSeparatedText2SrcMd;
 import igapyon.diary.ghpages.html.GenerateIndexDiaryHtml;
+import igapyon.diary.ghpages.todaydiary.GenerateTodayDiary;
 
 /**
  * mvn install exec:java
@@ -16,6 +17,9 @@ public class App {
 		System.out.println("Convert .src.md to .md");
 
 		try {
+			// 今日の日記について、存在しなければ作成します。
+			new GenerateTodayDiary().process();
+
 			// 分割されたはてなテキストから .src.md ファイルを生成します。
 			new ConvertHatenaSeparatedText2SrcMd().process();
 
