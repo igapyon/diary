@@ -98,7 +98,7 @@ public class ConvertHatenaSeparatedText2SrcMd {
 		}
 
 		String newName = file.getName().substring(0, file.getName().length() - (".src.hatenadiary".length()))
-				+ ".src.md";
+				+ ".html.src.md";
 		FileUtils.writeLines(new File(file.getParentFile(), newName), lines);
 	}
 }
