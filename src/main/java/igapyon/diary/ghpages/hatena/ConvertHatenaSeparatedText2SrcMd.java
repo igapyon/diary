@@ -99,6 +99,9 @@ public class ConvertHatenaSeparatedText2SrcMd {
 
 		for (int index = 0; index < lines.size(); index++) {
 			String line = lines.get(index);
+			if (line.trim().equals("||<")) {
+				lines.set(index, "```");
+			}
 			if (line.trim().equals(">|xml|")) {
 				lines.set(index, "```xml");
 			}
