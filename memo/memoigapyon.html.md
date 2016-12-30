@@ -7,7 +7,7 @@
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
-[Facebook](https://www.facebook.com/igapyon), [Twitter](https://twitter.com/ToshikiIga), [github](https://github.com/igapyon), [OSDN](https://ja.osdn.net/users/iga/)
+[Facebook](https://www.facebook.com/igapyon), [Twitter](https://twitter.com/ToshikiIga), [github](https://github.com/igapyon), [LinkedIn](https://www.linkedin.com/in/toshikiiga), [OSDN](https://ja.osdn.net/users/iga/)
 
 [![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
 
