@@ -161,6 +161,14 @@ public class ConvertHatenaSeparatedText2SrcMd {
 		// リスト表現
 		for (int index = 0; index < lines.size(); index++) {
 			String line = lines.get(index);
+			if (line.trim().startsWith("---")) {
+				line = StringUtils.replaceFirst(line, "\\---", "    * ");
+				lines.set(index, line);
+			}
+			if (line.trim().startsWith("--")) {
+				line = StringUtils.replaceFirst(line, "\\--", "  * ");
+				lines.set(index, line);
+			}
 			if (line.trim().startsWith("-")) {
 				line = StringUtils.replaceFirst(line, "\\-", "* ");
 				lines.set(index, line);
