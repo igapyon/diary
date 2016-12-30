@@ -15,6 +15,7 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -100,10 +101,18 @@ public class GenerateIndexDiaryHtml {
 			e.printStackTrace();
 		}
 
+		{
+			// タイトル先頭部の日付形式をハイフンに変換
+			String titleDate = title.substring(0, 10);
+			titleDate = StringUtils.replaceChars(titleDate, "/", "-");
+			title = titleDate + title.substring(10);
+		}
+
 		final String url = "https://igapyon.github.io/diary" + path + "/" + file.getName();
 
 		final DiaryItemInfo diaryItemInfo = new DiaryItemInfo();
 		diaryItemInfo.setUri(url);
+
 		diaryItemInfo.setTitle(title);
 
 		diaryItemInfoList.add(diaryItemInfo);
