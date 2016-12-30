@@ -97,6 +97,16 @@ public class ConvertHatenaSeparatedText2SrcMd {
 			}
 		}
 
+		for (int index = 0; index < lines.size(); index++) {
+			String line = lines.get(index);
+			if (line.trim().equals(">|xml|")) {
+				lines.set(index, "```xml");
+			}
+			if (line.trim().equals(">|java|")) {
+				lines.set(index, "```java");
+			}
+		}
+
 		String newName = file.getName().substring(0, file.getName().length() - (".src.hatenadiary".length()))
 				+ ".html.src.md";
 		FileUtils.writeLines(new File(file.getParentFile(), newName), lines);
