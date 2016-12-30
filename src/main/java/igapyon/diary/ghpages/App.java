@@ -2,6 +2,7 @@ package igapyon.diary.ghpages;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 import igapyon.diary.ghpages.html.GenerateIndexDiaryHtml;
@@ -19,6 +20,7 @@ public class App {
 			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().process();
 			final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().process();
 			diaryItemInfoList.addAll(diaryItemInfoHtmlList);
+			Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
 			new ProcessIndexListing().process(new File("README.src.md"), diaryItemInfoList);
 			new ProcessIndexListing().process(new File("idxall.html.src.md"), diaryItemInfoList);
