@@ -106,8 +106,41 @@ public class ConvertHatenaSeparatedText2SrcMd {
 			if (line.trim().equals(">|xml|")) {
 				lines.set(index, "```xml");
 			}
-			if (line.trim().equals(">|java|")) {
+			if (line.trim().equals(">|html|")) {
+				lines.set(index, "```html");
+			}
+			if (line.trim().equals(">|java|") || line.trim().equals(">|Java|")) {
 				lines.set(index, "```java");
+			}
+			if (line.trim().equals(">|sh|")) {
+				lines.set(index, "```sh");
+			}
+			if (line.trim().equals(">|bash|")) {
+				lines.set(index, "```bash");
+			}
+			if (line.trim().equals(">|php|")) {
+				lines.set(index, "```php");
+			}
+			if (line.trim().equals(">|python|")) {
+				lines.set(index, "```python");
+			}
+			if (line.trim().equals(">|pascal|")) {
+				lines.set(index, "```pascal");
+			}
+			if (line.trim().equals(">|groovy|")) {
+				lines.set(index, "```groovy");
+			}
+			if (line.trim().equals(">|cpp|")) {
+				lines.set(index, "```cpp");
+			}
+			if (line.trim().equals(">|sql|")) {
+				lines.set(index, "```sql");
+			}
+			if (line.trim().equals(">|bat|")) {
+				lines.set(index, "```bat");
+			}
+			if (line.trim().equals(">||")) {
+				lines.set(index, "```sh");
 			}
 		}
 
