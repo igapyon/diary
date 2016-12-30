@@ -84,6 +84,6 @@ public class ConvertDiarySrcMd2Md {
 
 		String newName = file.getName().substring(0, file.getName().length() - (".src.md".length())) + ".md";
 		FileUtils.writeLines(new File(file.getParentFile(), newName), lines);
-		System.out.println("NEWMANE [" + newName + "]");
+		// System.out.println("NEWMANE [" + newName + "]");
 	}
 }
