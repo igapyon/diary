@@ -3,7 +3,10 @@
 
 ## 資料: いがぴょん について
 
-いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 [target](https://igapyon.github.io/diary/memo/memoigapyon.html), [src](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.md) / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
+いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
+[target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
+/ [src](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.md) 
+/ [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
