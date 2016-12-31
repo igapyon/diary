@@ -1,4 +1,4 @@
-package igapyon.diary.ghpages.hatena;
+package jp.igapyon.diary.v3.hatena;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package igapyon.diary.ghpages.hatena;
+package jp.igapyon.diary.v3.hatena.migration;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,6 +10,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import igapyon.diary.ghpages.DiaryItemInfo;
+import jp.igapyon.diary.v3.hatena.SimpleXmlUtil;
 
 /**
  * hatenaのエクスポートXMLから、分割されたテキストファイルを生成。
