@@ -71,7 +71,7 @@ public class App {
 				// ファイルからファイル一覧情報を作成します。
 				System.err.println("Listing md files.");
 				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser()
-						.processDir(new File(rootdir, "2016"), "2016");
+						.processDir(new File(rootdir, "2016"), "/2016");
 
 				// no html in 2016
 
