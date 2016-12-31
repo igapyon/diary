@@ -81,6 +81,40 @@ public class App {
 				System.err.println("Update index files.");
 				new ProcessIndexListing().process(new File("./2016/index.html.src.md"), diaryItemInfoList);
 			}
+
+			{
+				// 2015ディレクトリ用
+
+				// ファイルからファイル一覧情報を作成します。
+				System.err.println("Listing md files.");
+				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser()
+						.processDir(new File(rootdir, "2015"), "/2015");
+
+				// no html in 2016
+
+				// sort them
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+
+				System.err.println("Update index files.");
+				new ProcessIndexListing().process(new File("./2015/index.html.src.md"), diaryItemInfoList);
+			}
+
+			{
+				// 2016ディレクトリ用
+
+				// ファイルからファイル一覧情報を作成します。
+				System.err.println("Listing md files.");
+				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser()
+						.processDir(new File(rootdir, "2014"), "/2014");
+
+				// no html in 2016
+
+				// sort them
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+
+				System.err.println("Update index files.");
+				new ProcessIndexListing().process(new File("./2014/index.html.src.md"), diaryItemInfoList);
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

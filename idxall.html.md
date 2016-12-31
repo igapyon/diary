@@ -2056,4 +2056,4 @@ Mail 1.3.1 リリース](https://igapyon.github.io/diary/2003/ig030701.html)
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)

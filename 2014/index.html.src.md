@@ -1,11 +1,11 @@
 いがぴょんの日記ウェブページv3
 =============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2016年の日記のインディックス。
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2014年の日記のインディックス。
 
-[target](https://igapyon.github.io/diary/2016/index.html) 
-/ [src](https://github.com/igapyon/diary/blob/gh-pages/2016/index.html.src.md) 
+[target](https://igapyon.github.io/diary/2014/index.html) 
+/ [src](https://github.com/igapyon/diary/blob/gh-pages/2014/index.html.src.md) 
 
-## いがぴょんの日記：2016年の日記
+## いがぴょんの日記：2014年の日記
 
 {igapyon.diary.ghpages.dialylist}
 

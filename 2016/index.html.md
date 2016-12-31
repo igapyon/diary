@@ -2,6 +2,9 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2016年の日記のインディックス。
 
+[target](https://igapyon.github.io/diary/2016/index.html) 
+/ [src](https://github.com/igapyon/diary/blob/gh-pages/2016/index.html.src.md) 
+
 ## いがぴょんの日記：2016年の日記
 
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
@@ -155,4 +158,4 @@
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
