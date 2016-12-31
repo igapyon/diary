@@ -79,7 +79,7 @@ public class App {
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
 				System.err.println("Update index files.");
-				new ProcessIndexListing().process(new File("./2016/README.src.md"), diaryItemInfoList);
+				new ProcessIndexListing().process(new File("./2016/index.html.src.md"), diaryItemInfoList);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
