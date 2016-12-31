@@ -36,23 +36,34 @@ public class App {
 			}
 
 			// 今日の日記について、存在しなければ作成します。
+			System.err.println("Generate today's diary file if not exists.");
 			new GenerateTodayDiary().processDir(rootdir);
 
 			// 分割されたはてなテキストから .src.md ファイルを生成します。
+			System.err.println("Hatena text to .html.src.md file.");
 			new ConvertHatenaSeparatedText2SrcMd().processDir(rootdir);
 
-			// .src.md ファイルから .md ファイルを生成します。
-			new ConvertDiarySrcMd2Md().process();
+			// .html.src.md ファイルから .md ファイルを生成します。
+			System.err.println("Convert .html.src.md to .html.md file.");
+			new ConvertDiarySrcMd2Md().processDir(rootdir);
 
-			// ファイルからファイル一覧情報を作成します。
-			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().processDir(rootdir, "");
-			final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().processDir(rootdir, "");
-			diaryItemInfoList.addAll(diaryItemInfoHtmlList);
-			Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+			{
+				// ルートディレクトリ用
 
-			new ProcessIndexListing().process(new File("README.src.md"), diaryItemInfoList);
-			new ProcessIndexListing().process(new File("idxall.html.src.md"), diaryItemInfoList);
+				// ファイルからファイル一覧情報を作成します。
+				System.err.println("Listing md files.");
+				final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().processDir(rootdir, "");
+				System.err.println("Listing html files.");
+				final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().processDir(rootdir, "");
+				diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 
+				// sort them
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+
+				System.err.println("Update index files.");
+				new ProcessIndexListing().process(new File("README.src.md"), diaryItemInfoList);
+				new ProcessIndexListing().process(new File("idxall.html.src.md"), diaryItemInfoList);
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
