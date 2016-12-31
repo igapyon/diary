@@ -18,22 +18,35 @@ import jp.igapyon.diary.v3.mdconv.ProcessIndexListing;
  * mvn install exec:java
  */
 public class App {
+	/**
+	 * 現時点の、このプロジェクトのエントリポイント。
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		System.out.println("Convert .src.md to .md");
 
 		try {
+			// カレントディレクトリを取得のうえ正規化します。
+			final File rootdir = new File(".").getCanonicalFile();
+			if (rootdir.getName().equals("diary") == false) {
+				System.err.println(
+						"安全装置：処理停止。期待とは違うディレクトリで実行されました。このプログラムは diary ディレクトリでの実行を前提とします。:" + rootdir.getName());
+				return;
+			}
+
 			// 今日の日記について、存在しなければ作成します。
-			new GenerateTodayDiary().process();
+			new GenerateTodayDiary().processDir(rootdir);
 
 			// 分割されたはてなテキストから .src.md ファイルを生成します。
-			new ConvertHatenaSeparatedText2SrcMd().process();
+			new ConvertHatenaSeparatedText2SrcMd().processDir(rootdir);
 
 			// .src.md ファイルから .md ファイルを生成します。
 			new ConvertDiarySrcMd2Md().process();
 
 			// ファイルからファイル一覧情報を作成します。
-			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().process();
-			final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().process();
+			final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().processDir(rootdir, "");
+			final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().processDir(rootdir, "");
 			diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 			Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
