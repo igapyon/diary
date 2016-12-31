@@ -11,11 +11,11 @@
 本名: 伊賀 敏樹 （Tosiki Iga）
 
 [diary](https://igapyon.github.io/diary/)
-, [Facebook](https://www.facebook.com/igapyon)
-, [Twitter](https://twitter.com/ToshikiIga)
-, [github](https://github.com/igapyon)
-, [LinkedIn](https://www.linkedin.com/in/toshikiiga)
-, [OSDN](https://ja.osdn.net/users/iga/)
+/ [Facebook](https://www.facebook.com/igapyon)
+/ [Twitter](https://twitter.com/ToshikiIga)
+/ [github](https://github.com/igapyon)
+/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
+/ [OSDN](https://ja.osdn.net/users/iga/)
 
 [![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
 
@@ -25,7 +25,7 @@
 ## 職業
 
 月給会社員
-東京・芝公園にある 株式会社NTTデータ ビジネスブレインズ に勤務
+東京・青山一丁目にある 株式会社アピリオ に勤務
 
 ## 職種
 
