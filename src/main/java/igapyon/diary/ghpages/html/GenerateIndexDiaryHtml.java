@@ -21,9 +21,9 @@ import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import igapyon.diary.ghpages.DiaryItemInfo;
-import igapyon.diary.ghpages.DiaryItemInfoComparator;
 import igapyon.diary.ghpages.tagsoup.SimpleTagSoupUtil;
+import jp.igapyon.diary.v3.item.DiaryItemInfo;
+import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
 
 public class GenerateIndexDiaryHtml {
 	private List<DiaryItemInfo> diaryItemInfoList = new ArrayList<DiaryItemInfo>();
