@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-import igapyon.diary.ghpages.html.GenerateIndexDiaryHtml;
 import igapyon.diary.ghpages.todaydiary.GenerateTodayDiary;
 import jp.igapyon.diary.v3.hatena.ConvertHatenaSeparatedText2SrcMd;
+import jp.igapyon.diary.v3.html.GenerateIndexDiaryHtml;
 import jp.igapyon.diary.v3.item.DiaryItemInfo;
 import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
 
