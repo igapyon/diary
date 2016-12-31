@@ -5,13 +5,13 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-import jp.igapyon.diary.v3.gendiary.GenerateTodayDiary;
-import jp.igapyon.diary.v3.hatena.ConvertHatenaSeparatedText2SrcMd;
-import jp.igapyon.diary.v3.html.GenerateIndexDiaryHtml;
+import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
+import jp.igapyon.diary.v3.hatena.HatenaText2SrcMdConverter;
+import jp.igapyon.diary.v3.html.IndexDiaryHtmlParser;
 import jp.igapyon.diary.v3.item.DiaryItemInfo;
 import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
-import jp.igapyon.diary.v3.mdconv.ConvertDiarySrcMd2Md;
-import jp.igapyon.diary.v3.mdconv.GenerateIndexDiaryMd;
+import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
+import jp.igapyon.diary.v3.mdconv.IndexDiaryMdParser;
 import jp.igapyon.diary.v3.mdconv.ProcessIndexListing;
 
 /**
@@ -37,24 +37,24 @@ public class App {
 
 			// 今日の日記について、存在しなければ作成します。
 			System.err.println("Generate today's diary file if not exists.");
-			new GenerateTodayDiary().processDir(rootdir);
+			new TodayDiaryGenerator().processDir(rootdir);
 
 			// 分割されたはてなテキストから .src.md ファイルを生成します。
 			System.err.println("Hatena text to .html.src.md file.");
-			new ConvertHatenaSeparatedText2SrcMd().processDir(rootdir);
+			new HatenaText2SrcMdConverter().processDir(rootdir);
 
 			// .html.src.md ファイルから .md ファイルを生成します。
 			System.err.println("Convert .html.src.md to .html.md file.");
-			new ConvertDiarySrcMd2Md().processDir(rootdir);
+			new DiarySrcMd2MdConverter().processDir(rootdir);
 
 			{
 				// ルートディレクトリ用
 
 				// ファイルからファイル一覧情報を作成します。
 				System.err.println("Listing md files.");
-				final List<DiaryItemInfo> diaryItemInfoList = new GenerateIndexDiaryMd().processDir(rootdir, "");
+				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser().processDir(rootdir, "");
 				System.err.println("Listing html files.");
-				final List<DiaryItemInfo> diaryItemInfoHtmlList = new GenerateIndexDiaryHtml().processDir(rootdir, "");
+				final List<DiaryItemInfo> diaryItemInfoHtmlList = new IndexDiaryHtmlParser().processDir(rootdir, "");
 				diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 
 				// sort them
