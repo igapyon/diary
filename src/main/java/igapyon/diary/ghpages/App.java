@@ -30,7 +30,9 @@ public class App {
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
 
 		{
-			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] {
+			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] { //
+					{ "Maven", "https://maven.apache.org/" }, //
+					{ "FreeMarker", "http://freemarker.org/" }, //
 					{ "艦これ", "http://www.dmm.com/netgame/feature/kancolle.html" }, //
 			};
 
