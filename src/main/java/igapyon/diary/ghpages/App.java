@@ -29,6 +29,16 @@ public class App {
 
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
 
+		{
+			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] {
+					{ "blanco Framework", "https://ja.osdn.net/projects/blancofw/wiki/blancofw" },
+					{ "Ubuntu", "https://www.ubuntu.com/" },
+					{ "InterBase", "https://ja.wikipedia.org/wiki/InterBase" } };
+			for (String[] lookup : ADDING_DOUBLE_KEYWORDS) {
+				settings.getDoubleKeywordList().add(lookup);
+			}
+		}
+
 		try {
 			// カレントディレクトリを取得のうえ正規化します。
 			final File rootdir = new File(".").getCanonicalFile();
