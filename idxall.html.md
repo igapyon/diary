@@ -8,6 +8,7 @@
 
 ## いがぴょんの日記：日記を全て
 
+* [2017-01-02 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
 * [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システムの試作中](https://igapyon.github.io/diary/2016/ig161230.html)
