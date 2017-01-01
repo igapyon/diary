@@ -8,7 +8,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-02 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170102.html)
+* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 
 
