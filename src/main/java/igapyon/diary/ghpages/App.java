@@ -44,7 +44,22 @@ public class App {
 					{ "OpenDocument", "https://ja.wikipedia.org/wiki/OpenDocument" },
 					{ "JExcelApi", "http://jexcelapi.sourceforge.net/" },
 					{ "ネコバス", "http://nlab.itmedia.co.jp/nl/articles/1607/15/news147.html" },
-					{ "C++Builder", "https://www.embarcadero.com/jp/products/cbuilder" }, };
+					{ "C++Builder", "https://www.embarcadero.com/jp/products/cbuilder" }, 
+					{"Object Pascal","https://ja.wikipedia.org/wiki/Object_Pascal"},
+					{"LLVM","http://llvm.org/"},
+					{"IoT","https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%8E%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88"},
+					{"OmegaT","http://www.omegat.org/ja/omegat.html"},
+					{"FireUI","https://www.embarcadero.com/jp/products/rad-studio/fireui"},
+					{"VCL","https://ja.wikipedia.org/wiki/Visual_Component_Library"},
+					{"AirPrint","https://support.apple.com/ja-jp/HT201311"},
+					{"blancoMailCore","http://www.igapyon.jp/blanco/blancomailcore.html"},
+					{"Jersey","https://jersey.java.net/"},
+					{"Apache","https://www.apache.org/"},
+					{"Cordova","https://cordova.apache.org/"},
+					{"VMware","http://www.vmware.com/jp.html"},
+					{"iOS","http://www.apple.com/jp/ios/ios-10/"},
+					{"艦これ","http://www.dmm.com/netgame/feature/kancolle.html"},
+			};
 			for (String[] lookup : ADDING_DOUBLE_KEYWORDS) {
 				settings.getDoubleKeywordList().add(lookup);
 			}
