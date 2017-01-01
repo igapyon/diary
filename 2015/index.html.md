@@ -3,7 +3,8 @@
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2015年の日記のインディックス。
 
 [target](https://igapyon.github.io/diary/2015/index.html) 
-/ [src](https://github.com/igapyon/diary/blob/gh-pages/2015/index.html.src.md) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/2015/index.html.src.md) 
+/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 ## いがぴょんの日記：2015年の日記
 

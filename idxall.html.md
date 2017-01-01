@@ -2,6 +2,10 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)  全ての日記のインディックス。
 
+[target](https://igapyon.github.io/diary/idxall.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
+/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
+
 ## いがぴょんの日記：日記を全て
 
 * [2017-01-01 diary: 2017年 あけまして おめでとう ございます](https://igapyon.github.io/diary/2017/ig170101.html)

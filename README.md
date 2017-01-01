@@ -2,6 +2,10 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
+[target](https://igapyon.github.io/diary/) 
+/ [source](https://github.com/igapyon/diary/) 
+/ [old-v2](http://www.igapyon.jp/igapyon/diary/) 
+
 ## いがぴょんの日記：比較的最近の日記
 
 * [2017-01-01 diary: 2017年 あけまして おめでとう ございます](https://igapyon.github.io/diary/2017/ig170101.html)

@@ -80,6 +80,23 @@ public class App {
 			}
 
 			{
+				// 2017ディレクトリ用
+
+				// ファイルからファイル一覧情報を作成します。
+				System.err.println("Listing md files.");
+				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
+						.processDir(new File(rootdir, "2017"), "/2017");
+
+				// no html in 2017
+
+				// sort them
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+
+				System.err.println("Update index files.");
+				new ProcessIndexListing(settings).process(new File("./2017/index.html.src.md"), diaryItemInfoList);
+			}
+
+			{
 				// 2016ディレクトリ用
 
 				// ファイルからファイル一覧情報を作成します。
@@ -114,14 +131,14 @@ public class App {
 			}
 
 			{
-				// 2016ディレクトリ用
+				// 2014ディレクトリ用
 
 				// ファイルからファイル一覧情報を作成します。
 				System.err.println("Listing md files.");
 				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
 						.processDir(new File(rootdir, "2014"), "/2014");
 
-				// no html in 2016
+				// no html in 2014
 
 				// sort them
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
