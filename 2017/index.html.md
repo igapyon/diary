@@ -8,7 +8,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-01 diary: 2017年 あけまして おめでとう ございます](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 
 
 ## source
