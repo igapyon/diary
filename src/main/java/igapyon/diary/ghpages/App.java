@@ -32,8 +32,19 @@ public class App {
 		{
 			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] {
 					{ "blanco Framework", "https://ja.osdn.net/projects/blancofw/wiki/blancofw" },
-					{ "Ubuntu", "https://www.ubuntu.com/" },
-					{ "InterBase", "https://ja.wikipedia.org/wiki/InterBase" } };
+					{ "Ubuntu", "https://www.ubuntu.com/" }, { "InterBase", "https://ja.wikipedia.org/wiki/InterBase" },
+					{ "Chrome", "https://www.google.co.jp/chrome/browser/" },
+					{ "Selenium", "http://www.seleniumhq.org/" }, { "Groovy", "http://www.groovy-lang.org/" },
+					{ "Java", "http://www.oracle.com/technetwork/java/index.html" },
+					{ "Force.com", "https://www.salesforce.com/products/platform/products/force/" },
+					{ "blancoDb", "http://www.igapyon.jp/blanco/blancodb.html" },
+					{ "Blanco2g", "https://ja.osdn.net/projects/blancofw/wiki/Blanco2g" },
+					{ "blancoResourceBundle", "http://www.igapyon.jp/blanco/blancoresourcebundle.html" },
+					{ "blancoDbDotNet", "http://www.igapyon.jp/blanco/blancodbdotnet.html" },
+					{ "OpenDocument", "https://ja.wikipedia.org/wiki/OpenDocument" },
+					{ "JExcelApi", "http://jexcelapi.sourceforge.net/" },
+					{ "ネコバス", "http://nlab.itmedia.co.jp/nl/articles/1607/15/news147.html" },
+					{ "C++Builder", "https://www.embarcadero.com/jp/products/cbuilder" }, };
 			for (String[] lookup : ADDING_DOUBLE_KEYWORDS) {
 				settings.getDoubleKeywordList().add(lookup);
 			}
