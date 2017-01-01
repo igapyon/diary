@@ -635,6 +635,7 @@
 * [2010-01-06 日記: PrimeFaces-ja プロジェクトを新規作成](https://igapyon.github.io/diary/2010/ig100106.html)
 * [2010-01-04 日記: Microsoft Windows 外字作成メモ](https://igapyon.github.io/diary/2010/ig100104.html)
 * [2010-01-02 日記: 2009 年のふりかえり。JavaServer Faces (JSF) と Eclipse プラグイン開発](https://igapyon.github.io/diary/2010/ig100102.html)
+* [2010-01-02 diary: 2009 年のふりかえり。JavaServer Faces (JSF) と Eclipse プラグイン開発](https://igapyon.github.io/diary/2010/ig100102.html)
 * [2009-12-23 日記: Eclipse Helios (3.6M4) 日本語化言語パック (サードパーティ版) インテグレーション・ビルド](https://igapyon.github.io/diary/2009/ig091223.html)
 * [2009-12-21 日記: Eclipse Galileo SR1 (3.5.1) 日本語化言語パック (サードパーティ版) 正式版公開](https://igapyon.github.io/diary/2009/ig091221.html)
 * [2009-12-18 日記: Java: JavaServer Faces (JSF) を利用したリッチな Web 業務システム開発](https://igapyon.github.io/diary/2009/ig091218.html)
