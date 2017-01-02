@@ -489,7 +489,7 @@
 * [2012-01-15 diary: Blanco2g: もろもろの調整](https://igapyon.github.io/diary/2012/ig120115.html)
 * [2012-01-14 diary: Subversive Language Pack updated](https://igapyon.github.io/diary/2012/ig120114.html)
 * [2012-01-04 diary: Blanco2g: バリデータ強化中...](https://igapyon.github.io/diary/2012/ig120104.html)
-* [2011-12-27 diary: 福島第一原発の最悪シナリオでは、原発から半径１７０キロ圏内が旧ソ連チェルノブイリ原発事故（１９８６年）の強制移住地域の汚染レベルになるとの試算](https://igapyon.github.io/diary/2011/ig111227.html)
+* [2011-12-27 diary: 福島第一原発の最悪シナリオのメモ](https://igapyon.github.io/diary/2011/ig111227.html)
 * [2011-12-25 diary: BlancoStruts on Blanco2g](https://igapyon.github.io/diary/2011/ig111225.html)
 * [2011-12-24 diary: Blanco2g のシンプル・サンプル【Apache Struts 1.x + DB 接続】](https://igapyon.github.io/diary/2011/ig111224.html)
 * [2011-12-23 diary: Blanco2g のシンプル・サンプル【データベース接続の注入】](https://igapyon.github.io/diary/2011/ig111223.html)
