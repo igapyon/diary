@@ -6,8 +6,25 @@
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>IgapyonDiaryGhPages</name>
-	<url>http://maven.apache.org</url>
+	<url>https://igapyon.github.io/igapyon-maven2</url>
+
+	<repositories>
+		<!-- igapyon repository -->
+		<repository>
+			<id>igapyon</id>
+			<name>igapyon maven repos</name>
+			<url>https://igapyon.github.io/igapyon-maven2</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
+		<!-- diary generator -->
+		<dependency>
+			<groupId>jp.igapyon.diary.v3</groupId>
+			<artifactId>IgapyonV3</artifactId>
+			<version>[1.0,2.0)</version>
+		</dependency>
+
 		<!-- Apache FileUtils -->
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -21,7 +38,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.5</version>
+			<version>[3.5,4.0)</version>
 		</dependency>
 
 		<!-- normalize html tag -->
@@ -60,33 +77,6 @@
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
-			</plugin>
-
-			<!-- mark as -jar runnable -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<version>3.0.0</version>
-				<configuration>
-					<finalName>IgapyonDiaryGhPages</finalName>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
-					<archive>
-						<manifest>
-							<mainClass>igapyon.diary.ghpages.App</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 
 			<!-- set java as runnable -->

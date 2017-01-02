@@ -9,7 +9,7 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import igapyon.diary.ghpages.DiaryItemInfo;
+import jp.igapyon.diary.v3.item.DiaryItemInfo;
 
 public class ConvertOrigHtml2Html {
 	private List<DiaryItemInfo> diaryItemInfoList = new ArrayList<DiaryItemInfo>();

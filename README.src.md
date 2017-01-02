@@ -1,8 +1,12 @@
-いがぴょんの日記ウェブページgh
+いがぴょんの日記ウェブページv3
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-## 比較的最近の日記
+[target](https://igapyon.github.io/diary/) 
+/ [source](https://github.com/igapyon/diary/) 
+/ [old-v2](http://www.igapyon.jp/igapyon/diary/) 
+
+## いがぴょんの日記：比較的最近の日記
 
 {igapyon.diary.ghpages.dialylist.recent}
 
@@ -13,4 +17,4 @@
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)

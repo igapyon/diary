@@ -1,5 +1,7 @@
 2013-05-23 pthread_mutexattr_setpshared: mutexをプロセス間で利用するための
 
+*p1*pthread_mutexattr_setpshared: mutexをプロセス間で利用するための
+
 mutexをプロセス間で利用するための呪文メモ
 pthread_mutexattr_setpshared
 -http://www.geekpage.jp/programming/linux-network/book/07/7-41.php
