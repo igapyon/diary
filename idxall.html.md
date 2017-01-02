@@ -1054,7 +1054,6 @@ SQL Server 2005 JDBC Driver でも必要](https://igapyon.github.io/diary/2006/i
 * [2006-05-17 日記: 自宅の回線を Bフレッツへと切り替え , 年休取得 , blancoValueObjectに機能追加](https://igapyon.github.io/diary/2006/ig060517.html)
 * [2006-05-16 日記: 今日は東京で仕事します](https://igapyon.github.io/diary/2006/ig060516.html)
 * [2006-05-15 日記: Apache Axis2 1.0 調査開始 → Axis1系に比べてパフォーマンスが劇的に改善されている模様](https://igapyon.github.io/diary/2006/ig060515.html)
-* [2006-05-15 diary: 明日の大阪出張は急遽取り消し](https://igapyon.github.io/diary/2006/ig060515.html)
 * [2006-05-09 日記: BlancoSqlEditorPlugin 0.3.6 リリース , blancoSqlFormatter 0.0.2
 リリース](https://igapyon.github.io/diary/2006/ig060509.html)
 * [2006-05-08 日記: blancoDb Enterprise Edition 1.6.4 正式版 リリース](https://igapyon.github.io/diary/2006/ig060508.html)
@@ -1090,7 +1089,6 @@ SQL Server 2005 JDBC Driver でも必要](https://igapyon.github.io/diary/2006/i
 * [2006-03-16 日記: blanco Frameworkのソースコード自動生成などに関して、改善したいこと](https://igapyon.github.io/diary/2006/ig060316.html)
 * [2006-03-15 日記: オープンソースカンファレンス2006 Tokyo/Springのライトニングトークで blanco Frameworkを紹介します](https://igapyon.github.io/diary/2006/ig060315.html)
 * [2006-03-14 日記: JavaScriptソースコード自動生成(blancoCodeGeneratorJavaScript)案 , 引き続き花粉症](https://igapyon.github.io/diary/2006/ig060314.html)
-* [2006-03-14 diary: オープンソースカンファレンス2006 (OSC2006) Tokyo/Springのライトニングトークにエントリー](https://igapyon.github.io/diary/2006/ig060314.html)
 * [2006-03-12 日記: 花粉症の症状が悪化中…](https://igapyon.github.io/diary/2006/ig060312.html)
 * [2006-03-11 日記: blanco Framework 短期ロードマップ](https://igapyon.github.io/diary/2006/ig060311.html)
 * [2006-03-09 日記: 学習机の自作](https://igapyon.github.io/diary/2006/ig060309.html)
@@ -1460,7 +1458,6 @@ Linuxが世界サーバ市場を牽引する時代の到来 , Firefoxの拡張�
 * [2004-04-13 日記: エプソン 複合機 CC-600PX購入](https://igapyon.github.io/diary/2004/ig040413.html)
 * [2004-04-12 diary: 会議漬け](https://igapyon.github.io/diary/2004/ig040412.html)
 * [2004-04-09 日記: Windows XP用アイコンの作り方](https://igapyon.github.io/diary/2004/ig040409.html)
-* [2004-04-09 diary: null](https://igapyon.github.io/diary/2004/ig040409.html)
 * [2004-04-08 日記: 某書籍の最終稿の校正戻し作業が完了](https://igapyon.github.io/diary/2004/ig040408.html)
 * [2004-04-07 日記: 2004.04.01付で東京に転勤しました](https://igapyon.github.io/diary/2004/ig040407.html)
 * [2004-04-06 日記: Seasarのからさわぎ＠東京（初台） 2004/04/10(土) 14時開催](https://igapyon.github.io/diary/2004/ig040406.html)
