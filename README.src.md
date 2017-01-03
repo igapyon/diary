@@ -39,7 +39,15 @@
 
 ### 他サイトのニュースフィード
 
+よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
+
 {igapyon.diary.ghpages.dialylist.publickey}
+
+### 私むけ役立ちリンク
+
+* 翻訳
+  * [Google Translate](https://translate.google.com/)
+  * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
 
 ----------------------------------------------------------------------------------------------------
 

@@ -54,6 +54,8 @@
 
 ### 他サイトのニュースフィード
 
+よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
+
 #### [Publickey](http://www.publickey1.jp/)
 
 * [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html)
@@ -72,6 +74,12 @@
 * [VMware、vSphereをDockerコンテナ対応にする「vSphere Integrated Containers」正式リリース](http://www.publickey1.jp/blog/16/vmwarevspheredockervsphere_integrated_containers.html)
 * [Google、脆弱性検出のためのファジング（Fuzzing）を機械的に実行する「OSS-Fuzz」、ベータ公開](http://www.publickey1.jp/blog/16/googlefuzzingoss-fuzz.html)
 
+
+### 私むけ役立ちリンク
+
+* 翻訳
+  * [Google Translate](https://translate.google.com/)
+  * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
 
 ----------------------------------------------------------------------------------------------------
 
