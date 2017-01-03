@@ -1,5 +1,3 @@
-[old-v2](memodevenv-orig.html)
-
 私がJavaの開発を行う際に必要な開発環境のメモです。
 
 ## 資料: 開発環境

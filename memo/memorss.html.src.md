@@ -1,5 +1,3 @@
-[old-v2](memorss-orig.html)
-
 RDF/RSSに関するメモ および いがぴょんの日記関連RDF/RSSの一覧(抜粋)
 
 ## 資料: RDF/RSSについて , いがぴょんの日記ウェブページ RDF/RSS一覧

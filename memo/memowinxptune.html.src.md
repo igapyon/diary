@@ -1,5 +1,3 @@
-[old-v2](memowinxptune-orig.html)
-
 私のための Windows XP 設定やチューニングのメモです。とりあえず今回は あまりデフォルトからは変更しないという方針で考えています。
 
 ## 資料: Windows XP 設定＆チューニングメモ

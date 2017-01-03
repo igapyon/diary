@@ -1,5 +1,3 @@
-[old-v2](memofoaf-orig.html)
-
 FOAF(Friend of a Friend)というRDFベースの知人表現メタデータというものに興味を持ちました。
 
 ## 資料: FOAF (Friend of a Friend) メモ

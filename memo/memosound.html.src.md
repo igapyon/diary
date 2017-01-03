@@ -1,5 +1,3 @@
-[old-v2](memosound-orig.html)
-
 いがぴょんが作成したMIDIデータ。
 
 ## 資料: 作成MIDIデータ

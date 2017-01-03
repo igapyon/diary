@@ -9,10 +9,8 @@
 
 ## いがぴょんの日記：1996年の日記
 
-* [1996-09-17 diary: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917.html)
-* [1996-09-17 日記: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917-orig.html)
-* [1996-08-30 diary: いがぴょんの日記...手前味噌、家庭内LAN](https://igapyon.github.io/diary/1996/ig960830.html)
-* [1996-08-30 日記: いがぴょんの日記...手前味噌、家庭内LAN](https://igapyon.github.io/diary/1996/ig960830-orig.html)
+* [1996-09-17 日記: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917.html)
+* [1996-08-30 日記: いがぴょんの日記...手前味噌、家庭内LAN](https://igapyon.github.io/diary/1996/ig960830.html)
 
 
 ----------------------------------------------------------------------------------------------------
