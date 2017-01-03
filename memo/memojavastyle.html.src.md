@@ -1,3 +1,5 @@
+[old-v2](memojavastyle-orig.html)
+
 Java言語ソースファイルのスタイル整形に関するメモ。astyleやcheckstyleなどのメモ書きが含まれます。
 
 ## 資料: Java言語ソースファイルのスタイルおよび調整ツール
