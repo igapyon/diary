@@ -3,16 +3,18 @@
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [target](https://igapyon.github.io/diary/) 
-/ [source](https://github.com/igapyon/diary/) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/) 
 
 ## いがぴょんの日記：比較的最近の日記
 
 {igapyon.diary.ghpages.dialylist.recent}
 
-## source
-* [Igapyon Diary on github](https://igapyon.github.io/diary/index.html)
-* [Source of Igapyon Diary on github](https://github.com/igapyon/diary/)
+## いがぴょんの日記：年別インデックス
+
+[2017](https://igapyon.github.io/diary/2017/index.html)
+/ [2016](https://igapyon.github.io/diary/2016/index.html)
+
 
 ----------------------------------------------------------------------------------------------------
 
