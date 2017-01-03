@@ -1,3 +1,5 @@
+[old-v2](memoigapyonml-orig.html)
+
 いがぴょんの日記MLの説明ページです。
 
 ## 資料: いがぴょんの日記ウェブページML運用ページ
