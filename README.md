@@ -58,21 +58,21 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html)
-* [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html)
-* [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html)
-* [ムーアの法則が成立しなくなると、遅いソフトウェアは遅いままだ。ソフトウェア技術者はなにをすべきか～ポスト・ムーア法則時代のコンピューティング（後編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_4.html)
-* [いま起きているムーアの法則の限界は、微細化よりも電力と経済性の限界～ポスト・ムーア法則時代のコンピューティング（前編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_3.html)
-* [Angularの次バージョンは「Angular 4」に、2017年3月リリース。今後は単に「Angular」と呼んでほしいと](http://www.publickey1.jp/blog/16/angularangular_420173angular.html)
-* [コンテナに最適化したCoreOS、ブランド名を「Container Linux」に変更。背景にはコンテナ関連ビジネスの変化が](http://www.publickey1.jp/blog/16/corelinuxcontainer_linux.html)
-* [Google、オープンソースでPaaS基盤を開発する「Cloud Foundry Foundation」加盟を発表](http://www.publickey1.jp/blog/16/googlepaascloud_foundry_foundation.html)
-* [Dockerエンジンのコアランタイムが「containerd」として分離、独立したオープンソースプロジェクトに。Docker、AWS、Google、IBM、マイクロソフトらが協力して開発推進へ](http://www.publickey1.jp/blog/16/dockercontainerddockerawsgoogleibm.html)
-* [IBMのサーバレスコンピューティング環境「OpenWhisk」がBluemix上で正式サービスに。Dockerイメージも実行可能](http://www.publickey1.jp/blog/16/ibmopenwhiskbluemixdocker.html)
-* [国内クラウド市場、2015年度は1兆円を突破していた。2020年度には3倍の3兆円超えに。利用しているクラウドの1位はAWS、Azureが追い上げ中。MM総研](http://www.publickey1.jp/blog/16/201512020331awsazuremm.html)
-* [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html)
-* [「Docker for AWS」「Docker for Azure」相次いでパブリックベータに。クラウドでDockerを使うための環境を一括構築。AWS無料利用枠で利用可能](http://www.publickey1.jp/blog/16/docker_for_awsdocker_for_azuredockeraws.html)
-* [VMware、vSphereをDockerコンテナ対応にする「vSphere Integrated Containers」正式リリース](http://www.publickey1.jp/blog/16/vmwarevspheredockervsphere_integrated_containers.html)
-* [Google、脆弱性検出のためのファジング（Fuzzing）を機械的に実行する「OSS-Fuzz」、ベータ公開](http://www.publickey1.jp/blog/16/googlefuzzingoss-fuzz.html)
+* [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html) 2016/12/26
+* [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html) 2016/12/26
+* [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html) 2016/12/22
+* [ムーアの法則が成立しなくなると、遅いソフトウェアは遅いままだ。ソフトウェア技術者はなにをすべきか～ポスト・ムーア法則時代のコンピューティング（後編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_4.html) 2016/12/22
+* [いま起きているムーアの法則の限界は、微細化よりも電力と経済性の限界～ポスト・ムーア法則時代のコンピューティング（前編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_3.html) 2016/12/22
+* [Angularの次バージョンは「Angular 4」に、2017年3月リリース。今後は単に「Angular」と呼んでほしいと](http://www.publickey1.jp/blog/16/angularangular_420173angular.html) 2016/12/20
+* [コンテナに最適化したCoreOS、ブランド名を「Container Linux」に変更。背景にはコンテナ関連ビジネスの変化が](http://www.publickey1.jp/blog/16/corelinuxcontainer_linux.html) 2016/12/19
+* [Google、オープンソースでPaaS基盤を開発する「Cloud Foundry Foundation」加盟を発表](http://www.publickey1.jp/blog/16/googlepaascloud_foundry_foundation.html) 2016/12/19
+* [Dockerエンジンのコアランタイムが「containerd」として分離、独立したオープンソースプロジェクトに。Docker、AWS、Google、IBM、マイクロソフトらが協力して開発推進へ](http://www.publickey1.jp/blog/16/dockercontainerddockerawsgoogleibm.html) 2016/12/16
+* [IBMのサーバレスコンピューティング環境「OpenWhisk」がBluemix上で正式サービスに。Dockerイメージも実行可能](http://www.publickey1.jp/blog/16/ibmopenwhiskbluemixdocker.html) 2016/12/15
+* [国内クラウド市場、2015年度は1兆円を突破していた。2020年度には3倍の3兆円超えに。利用しているクラウドの1位はAWS、Azureが追い上げ中。MM総研](http://www.publickey1.jp/blog/16/201512020331awsazuremm.html) 2016/12/14
+* [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html) 2016/12/14
+* [「Docker for AWS」「Docker for Azure」相次いでパブリックベータに。クラウドでDockerを使うための環境を一括構築。AWS無料利用枠で利用可能](http://www.publickey1.jp/blog/16/docker_for_awsdocker_for_azuredockeraws.html) 2016/12/13
+* [VMware、vSphereをDockerコンテナ対応にする「vSphere Integrated Containers」正式リリース](http://www.publickey1.jp/blog/16/vmwarevspheredockervsphere_integrated_containers.html) 2016/12/13
+* [Google、脆弱性検出のためのファジング（Fuzzing）を機械的に実行する「OSS-Fuzz」、ベータ公開](http://www.publickey1.jp/blog/16/googlefuzzingoss-fuzz.html) 2016/12/11
 
 
 ### 私むけ役立ちリンク
