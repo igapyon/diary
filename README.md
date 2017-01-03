@@ -51,6 +51,28 @@
 * [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
 
 
+
+### 他サイトのニュースフィード
+
+## [Publickey](http://www.publickey1.jp/)
+
+* [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html) : <small>この1年、Publickeyではどんな記事が人気だったのでしょうか。2016年最...</small>
+* [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html) : <small>毎年こうして年末にPublickeyの売り上げを報告している理由はおもに2つあり...</small>
+* [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html) : <small>オールフラッシュストレージの専業ベンダである米Violin Memoryは12月...</small>
+* [ムーアの法則が成立しなくなると、遅いソフトウェアは遅いままだ。ソフトウェア技術者はなにをすべきか～ポスト・ムーア法則時代のコンピューティング（後編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_4.html) : <small>10月24日に都内で開催されたイベント「QCon Tokyo 2016」で、国立...</small>
+* [いま起きているムーアの法則の限界は、微細化よりも電力と経済性の限界～ポスト・ムーア法則時代のコンピューティング（前編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_3.html) : <small>この50年ものあいだIT業界を規定してきたといっていいムーアの法則に限界が見えて...</small>
+* [Angularの次バージョンは「Angular 4」に、2017年3月リリース。今後は単に「Angular」と呼んでほしいと](http://www.publickey1.jp/blog/16/angularangular_420173angular.html) : <small>ベルギーのヘントで行われたAngularのイベント「NG-BE 2016」で、基...</small>
+* [コンテナに最適化したCoreOS、ブランド名を「Container Linux」に変更。背景にはコンテナ関連ビジネスの変化が](http://www.publickey1.jp/blog/16/corelinuxcontainer_linux.html) : <small>CoreOSと言えば、もともとDocker専用の軽量Linux OSとして同名の...</small>
+* [Google、オープンソースでPaaS基盤を開発する「Cloud Foundry Foundation」加盟を発表](http://www.publickey1.jp/blog/16/googlepaascloud_foundry_foundation.html) : <small>Googleは、オープンソースのPaaS基盤である「Cloud Foundry」...</small>
+* [Dockerエンジンのコアランタイムが「containerd」として分離、独立したオープンソースプロジェクトに。Docker、AWS、Google、IBM、マイクロソフトらが協力して開発推進へ](http://www.publickey1.jp/blog/16/dockercontainerddockerawsgoogleibm.html) : <small>Dockerは、Dockerエンジンのコア部分を「containerd」（発音は...</small>
+* [IBMのサーバレスコンピューティング環境「OpenWhisk」がBluemix上で正式サービスに。Dockerイメージも実行可能](http://www.publickey1.jp/blog/16/ibmopenwhiskbluemixdocker.html) : <small>IBMはサーバレスコンピューティングを実現する「OpenWhisk」の正式リリー...</small>
+* [国内クラウド市場、2015年度は1兆円を突破していた。2020年度には3倍の3兆円超えに。利用しているクラウドの1位はAWS、Azureが追い上げ中。MM総研](http://www.publickey1.jp/blog/16/201512020331awsazuremm.html) : <small>プライベートクラウド、パブリッククラウドを合わせた国内のクラウド市場は2015年...</small>
+* [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html) : <small>Amazon Web Servicesは、新しいサービス「AWS Managed...</small>
+* [「Docker for AWS」「Docker for Azure」相次いでパブリックベータに。クラウドでDockerを使うための環境を一括構築。AWS無料利用枠で利用可能](http://www.publickey1.jp/blog/16/docker_for_awsdocker_for_azuredockeraws.html) : <small>Dockerは、AWSやAzureでDockerを使うために必要なソフトウェアの...</small>
+* [VMware、vSphereをDockerコンテナ対応にする「vSphere Integrated Containers」正式リリース](http://www.publickey1.jp/blog/16/vmwarevspheredockervsphere_integrated_containers.html) : <small>VMwareはvSphereをDockerコンテナ対応にするためのソフトウェア「...</small>
+* [Google、脆弱性検出のためのファジング（Fuzzing）を機械的に実行する「OSS-Fuzz」、ベータ公開](http://www.publickey1.jp/blog/16/googlefuzzingoss-fuzz.html) : <small>ファジング（Fuzzing）とは、「検査対象のソフトウェアに『ファズ（英名：fu...</small>
+
+
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について

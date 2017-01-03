@@ -36,6 +36,11 @@
 
 {igapyon.diary.ghpages.dialylist.recent}
 
+
+### 他サイトのニュースフィード
+
+{igapyon.diary.ghpages.dialylist.publickey}
+
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
