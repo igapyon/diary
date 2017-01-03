@@ -34,21 +34,21 @@
 
 ### 比較的最近の日記
 
-* [2016-01-27 diary: Google が提供する Webページのパフォーマンス評価機能](https://igapyon.github.io/diary/2016/ig160127.html)
-* [2016-01-26 diary: Delphi: iOS への配置: e80000be](https://igapyon.github.io/diary/2016/ig160126.html)
-* [2016-01-25 diary: Windows 10 アプリ  UX デザイン ガイドライン](https://igapyon.github.io/diary/2016/ig160125.html)
-* [2016-01-24 diary: Windows 10 への移行締め切り関連リンクメモ](https://igapyon.github.io/diary/2016/ig160124.html)
-* [2016-01-23 diary: 世界時計サイトのメモ](https://igapyon.github.io/diary/2016/ig160123.html)
-* [2016-01-21 diary: [ERDA] ER/Studio 2016 関連情報のリンクメモ](https://igapyon.github.io/diary/2016/ig160121.html)
-* [2016-01-20 diary: PPT フォントメモ](https://igapyon.github.io/diary/2016/ig160120.html)
-* [2016-01-15 diary: [Azure] Microsoft Azure メモ (SQL Database)](https://igapyon.github.io/diary/2016/ig160115.html)
-* [2016-01-14 diary: ER/Studio Team Server 4.0.8 (XE7相当) のインストール・ポイント](https://igapyon.github.io/diary/2016/ig160114.html)
-* [2016-01-12 diary: EDN CodeZine出張所一覧にある Delphi アプリで クラサバ両作成記事](https://igapyon.github.io/diary/2016/ig160112.html)
-* [2016-01-10 diary: [Java] iCal4J の利用サンプル](https://igapyon.github.io/diary/2016/ig160110.html)
-* [2016-01-08 diary: IE の寿命に関する Microsoft によるポリシー変更](https://igapyon.github.io/diary/2016/ig160108.html)
-* [2016-01-07 diary: [Delphi] MongoDB への非ビジュアルアクセス方法のメモ](https://igapyon.github.io/diary/2016/ig160107.html)
-* [2016-01-06 diary: RFID関連記事メモ](https://igapyon.github.io/diary/2016/ig160106.html)
-* [2016-01-03 diary: 自宅 PC の HDD 移行](https://igapyon.github.io/diary/2016/ig160103.html)
+* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
+* [2016-12-20 diary: [LINE] bot 関連情報の収集](https://igapyon.github.io/diary/2016/ig161220.html)
+* [2016-12-21 diary: [Geb] 動くドキュメントかつ自動テストとしての Geb スクリプト](https://igapyon.github.io/diary/2016/ig161221.html)
+* [2016-12-22 diary: [maven] maven インストール](https://igapyon.github.io/diary/2016/ig161222.html)
+* [2016-12-23 diary: [maven] 初めての maven の Java プロジェクト](https://igapyon.github.io/diary/2016/ig161223.html)
+* [2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える](https://igapyon.github.io/diary/2016/ig161224.html)
+* [2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する](https://igapyon.github.io/diary/2016/ig161225.html)
+* [2016-12-26 diary: [maven] Java アプリに jar 利用の依存関係を追加する](https://igapyon.github.io/diary/2016/ig161226.html)
+* [2016-12-27 diary: [maven] Java アプリの jar 利用の依存ファイルを target/lib に複写する](https://igapyon.github.io/diary/2016/ig161227.html)
+* [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
+* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システムの試作中](https://igapyon.github.io/diary/2016/ig161230.html)
+* [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
+* [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 
 
 ----------------------------------------------------------------------------------------------------
