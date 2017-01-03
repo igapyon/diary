@@ -2,7 +2,8 @@
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
 
-[target](https://igapyon.github.io/diary/2017/index.html) 
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/2017/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
@@ -12,10 +13,6 @@
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 
-
-## source
-* [Igapyon Diary on github](https://igapyon.github.io/diary/2016/)
-* [Source on github](https://github.com/igapyon/diary/blob/gh-pages/2016/README.md)
 
 ----------------------------------------------------------------------------------------------------
 

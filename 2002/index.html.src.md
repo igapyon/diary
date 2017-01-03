@@ -3,11 +3,11 @@
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/2017/index.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
+/ [target](https://igapyon.github.io/diary/2002/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/2002/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-## いがぴょんの日記：2017年の日記
+## いがぴょんの日記：2002年の日記
 
 {igapyon.diary.ghpages.dialylist}
 

@@ -3,13 +3,15 @@
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/2017/index.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
+/ [target](https://igapyon.github.io/diary/1996/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/1996/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-## いがぴょんの日記：2017年の日記
+## いがぴょんの日記：1996年の日記
 
-{igapyon.diary.ghpages.dialylist}
+* [1996-09-17 日記: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917.html)
+* [1996-08-30 日記: いがぴょんの日記...手前味噌、家庭内LAN](https://igapyon.github.io/diary/1996/ig960830.html)
+
 
 ----------------------------------------------------------------------------------------------------
 

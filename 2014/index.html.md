@@ -1,8 +1,9 @@
 いがぴょんの日記ウェブページv3
 =============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2014年の日記のインディックス。
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
 
-[target](https://igapyon.github.io/diary/2014/index.html) 
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/2014/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/2014/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
@@ -92,10 +93,6 @@
 * [2014-01-07 diary: Apache の「.htaccess」のシンプル・サンプル](https://igapyon.github.io/diary/2014/ig140107.html)
 * [2014-01-03 diary: 「時は金なり」と「FREE」](https://igapyon.github.io/diary/2014/ig140103.html)
 
-
-## source
-* [Igapyon Diary on github](https://igapyon.github.io/diary/2016/)
-* [Source on github](https://github.com/igapyon/diary/blob/gh-pages/2016/README.md)
 
 ----------------------------------------------------------------------------------------------------
 

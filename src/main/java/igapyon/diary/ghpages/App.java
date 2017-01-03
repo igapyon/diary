@@ -81,72 +81,29 @@ public class App {
 				new ProcessIndexListing(settings).process(new File("idxall.html.src.md"), diaryItemInfoList);
 			}
 
-			{
-				// 2017ディレクトリ用
+			final String[] YEARS = new String[] { "1996", "1997", "1998", "2000", "2001", "2002", "2003", "2004",
+					"2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016",
+					"2017" };
+
+			for (String year : YEARS) {
+				// 各年ディレクトリ用
 
 				// ファイルからファイル一覧情報を作成します。
-				System.err.println("Listing md files.");
+				System.err.println("Listing md files for :" + year);
 				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
-						.processDir(new File(rootdir, "2017"), "/2017");
+						.processDir(new File(rootdir, year), "/" + year);
 
-				// no html in 2017
+				System.err.println("Listing html files for :" + year);
+				final List<DiaryItemInfo> diaryItemInfoHtmlList = new IndexDiaryHtmlParser(settings)
+						.processDir(new File(rootdir, year), "/" + year);
+				diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 
 				// sort them
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
 				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("./2017/index.html.src.md"), diaryItemInfoList);
-			}
-
-			{
-				// 2016ディレクトリ用
-
-				// ファイルからファイル一覧情報を作成します。
-				System.err.println("Listing md files.");
-				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
-						.processDir(new File(rootdir, "2016"), "/2016");
-
-				// no html in 2016
-
-				// sort them
-				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
-
-				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("./2016/index.html.src.md"), diaryItemInfoList);
-			}
-
-			{
-				// 2015ディレクトリ用
-
-				// ファイルからファイル一覧情報を作成します。
-				System.err.println("Listing md files.");
-				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
-						.processDir(new File(rootdir, "2015"), "/2015");
-
-				// no html in 2016
-
-				// sort them
-				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
-
-				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("./2015/index.html.src.md"), diaryItemInfoList);
-			}
-
-			{
-				// 2014ディレクトリ用
-
-				// ファイルからファイル一覧情報を作成します。
-				System.err.println("Listing md files.");
-				final List<DiaryItemInfo> diaryItemInfoList = new IndexDiaryMdParser(settings)
-						.processDir(new File(rootdir, "2014"), "/2014");
-
-				// no html in 2014
-
-				// sort them
-				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
-
-				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("./2014/index.html.src.md"), diaryItemInfoList);
+				new ProcessIndexListing(settings).process(new File("./" + year + "/index.html.src.md"),
+						diaryItemInfoList);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

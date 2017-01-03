@@ -1,8 +1,9 @@
 いがぴょんの日記ウェブページv3
 =============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2016年の日記のインディックス。
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
 
-[target](https://igapyon.github.io/diary/2016/index.html) 
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/2016/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/2016/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
@@ -151,10 +152,6 @@
 * [2016-01-06 diary: RFID関連記事メモ](https://igapyon.github.io/diary/2016/ig160106.html)
 * [2016-01-03 diary: 自宅 PC の HDD 移行](https://igapyon.github.io/diary/2016/ig160103.html)
 
-
-## source
-* [Igapyon Diary on github](https://igapyon.github.io/diary/2016/)
-* [Source on github](https://github.com/igapyon/diary/blob/gh-pages/2016/README.md)
 
 ----------------------------------------------------------------------------------------------------
 
