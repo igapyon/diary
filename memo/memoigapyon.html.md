@@ -1,12 +1,9 @@
-資料: いがぴょん について
-================================================
-
-## 資料: いがぴょん について
-
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
 [target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
-/ [src](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.md) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
+
+## 資料: いがぴょん について
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
@@ -51,12 +48,12 @@
 * ＠IT: Excelからプログラムを作る多言語対応オープンソース (blanco Framework)
 * 技術評論社: WEB+DB PRESS Vol.30
   * 「blancoResourceBundleを使ってみよう」 - Javaリソースバンドルの使い勝手を劇的に向上！
-  * http://www.gihyo.co.jp/magazines/wdpress/archive/Vol30
+  * [http://www.gihyo.co.jp/magazines/wdpress/archive/Vol30](http://www.gihyo.co.jp/magazines/wdpress/archive/Vol30)
 * 技術評論社: WEB+DB PRESS Vol.29
   * 「R/OマッピングツールblancoDbを使ってみよう！」
-  * http://www.gihyo.co.jp/magazines/wdpress/archive/Vol29
+  * [http://www.gihyo.co.jp/magazines/wdpress/archive/Vol29](http://www.gihyo.co.jp/magazines/wdpress/archive/Vol29)
 * ZDNET:エンタープライズ：WebLogic Serverで知るJSP/Servlet入門
-  * http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html
+  * [http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html](http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html)
 
 ## 日記
 
@@ -69,23 +66,23 @@
 * Ubuntu 10.04 普及活動
 * 囲碁
 table................
-日時	日本棋院
-八重洲囲碁C	大会
-2009.04	1級	
-2008.10	-	初段で 2勝2敗
-2007.10	-	2級で 2勝2敗
-2007.09	2級	-
-2007.04	4級	-
-2007.02	6級	-
-2006.12	囲碁を始める	-
+日時  日本棋院
+八重洲囲碁C  大会
+2009.04  1級  
+2008.10  -  初段で 2勝2敗
+2007.10  -  2級で 2勝2敗
+2007.09  2級  -
+2007.04  4級  -
+2007.02  6級  -
+2006.12  囲碁を始める  -
 * 将棋
 table
-日時	日本将棋連盟
+日時  日本将棋連盟
 東京将棋会館道場
-2008.04	1級
-2006.12	2級
-2006.09	4級
-2006.05	6級
+2008.04  1級
+2006.12  2級
+2006.09  4級
+2006.05  6級
   * 2007.10 久しぶりに将棋を指したところ、2級と認定していただきました。半年以上指していなかったのですが、意外にも棋力が残っていてびっくりしました。定跡を一切忘れてしまっていたので、逆に盤面に集中でき、功を奏したように感じました。また、囲碁が強くなった分、引きずられて将棋も強くなっているような気がしました。
   * 2007.04 子どもの趣味が囲碁に移り、それに合わせて私も囲碁に移ってしまい、将棋は ほとんど指していません。おそらく3級くらいまで技術が落ちています。
 * 中将棋
@@ -94,9 +91,9 @@ table
 ## スキル
 
 * TOEIC
-日付	種別	合計	Listening	Reading
-2008.12	IP	570	285	285
-2003.05	IP	460	235	225
+日付  種別  合計  Listening  Reading
+2008.12  IP  570  285  285
+2003.05  IP  460  235  225
 
 * 英検: 2級
 
@@ -154,7 +151,7 @@ table
 
 ### カレント
 
-* NTTフィルハーモニー交響楽団 (東京都) (201?-)
+* NTTフィルハーモニー交響楽団 (東京都) (2013-current)
 
 ### ログ(主なもの)
 

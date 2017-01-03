@@ -1,13 +1,41 @@
 いがぴょんの日記ウェブページv3
 =============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)  全ての日記のインディックス。
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 全ての日記のインディックス。
 
-[target](https://igapyon.github.io/diary/idxall.html) 
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/idxall.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-## いがぴょんの日記：日記を全て
+## いがぴょんの日記ウェブページv3：日記を全て
 
+### 日記の年別インデックス
+
+[2017](https://igapyon.github.io/diary/2017/index.html)
+/ [2016](https://igapyon.github.io/diary/2016/index.html)
+/ [2015](https://igapyon.github.io/diary/2015/index.html)
+/ [2014](https://igapyon.github.io/diary/2014/index.html)
+/ [2013](https://igapyon.github.io/diary/2013/index.html)
+/ [2012](https://igapyon.github.io/diary/2012/index.html)
+/ [2011](https://igapyon.github.io/diary/2011/index.html)
+/ [2010](https://igapyon.github.io/diary/2010/index.html)
+/ [2009](https://igapyon.github.io/diary/2009/index.html)
+/ [2008](https://igapyon.github.io/diary/2008/index.html)
+/ [2007](https://igapyon.github.io/diary/2007/index.html)
+/ [2006](https://igapyon.github.io/diary/2006/index.html)
+/ [2005](https://igapyon.github.io/diary/2005/index.html)
+/ [2004](https://igapyon.github.io/diary/2004/index.html)
+/ [2003](https://igapyon.github.io/diary/2003/index.html)
+/ [2002](https://igapyon.github.io/diary/2002/index.html)
+/ [2001](https://igapyon.github.io/diary/2001/index.html)
+/ [2000](https://igapyon.github.io/diary/2000/index.html)
+/ [1998](https://igapyon.github.io/diary/1998/index.html)
+/ [1997](https://igapyon.github.io/diary/1997/index.html)
+/ [1996](https://igapyon.github.io/diary/1996/index.html)
+
+### いがぴょんの日記：日記を全て
+
+* [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
@@ -1931,10 +1959,6 @@ Mail 1.3.1 リリース](https://igapyon.github.io/diary/2003/ig030701.html)
 * [1996-09-17 日記: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917.html)
 * [1996-08-30 日記: いがぴょんの日記...手前味噌、家庭内LAN](https://igapyon.github.io/diary/1996/ig960830.html)
 
-
-## source
-* [Igapyon Diary on github](https://igapyon.github.io/diary/idxall.html)
-* [Source on github](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.md)
 
 ----------------------------------------------------------------------------------------------------
 

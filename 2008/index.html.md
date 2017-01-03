@@ -1,0 +1,136 @@
+いがぴょんの日記ウェブページv3
+=============================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2008年の日記のインディックス。
+
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/2008/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/2008/index.html.src.md) 
+/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
+
+## いがぴょんの日記：2008年の日記
+
+* [2008-12-28 日記: 明日は世界の将棋大会＠東京千駄ヶ谷将棋会館](https://igapyon.github.io/diary/2008/ig081228.html)
+* [2008-12-26 diary: Eclipse Babel 動向](https://igapyon.github.io/diary/2008/ig081226.html)
+* [2008-12-22 日記: blancoCalcParser の利用サンプル](https://igapyon.github.io/diary/2008/ig081222.html)
+* [2008-12-17 日記: Java: TagSoup を使った HTML正常化のサンプル](https://igapyon.github.io/diary/2008/ig081217.html)
+* [2008-12-16 日記: HTML整形調査中](https://igapyon.github.io/diary/2008/ig081216.html)
+* [2008-12-11 日記: Java Pet Store](https://igapyon.github.io/diary/2008/ig081211.html)
+* [2008-12-10 日記: Apache iBatis の sqlMap.xml ファイルを入力して、Javaソースコードを自動生成する blancoIBatis
+というプロダクトを新規作成](https://igapyon.github.io/diary/2008/ig081210.html)
+* [2008-12-09 日記: Java: サンプル: iBatis: sqlMap 設定ファイルの読み込みサンプル](https://igapyon.github.io/diary/2008/ig081209.html)
+* [2008-11-30 日記: HTMLの記述内容を正常化するための blancoHtmlNormalizer を新規開発着手](https://igapyon.github.io/diary/2008/ig081130.html)
+* [2008-11-29 日記: 直近のズボン(パンツ)のサイズ](https://igapyon.github.io/diary/2008/ig081129.html)
+* [2008-11-28 日記: イベントハンドリング・ベースの HTML パーサ、blancoHtmlParser を作成](https://igapyon.github.io/diary/2008/ig081128.html)
+* [2008-11-26 日記: TERASOLUNA Server Framework for Java (Web版) 調べ中](https://igapyon.github.io/diary/2008/ig081126.html)
+* [2008-11-24 日記: 自宅電灯・電球メモ](https://igapyon.github.io/diary/2008/ig081124.html)
+* [2008-11-23 日記: 小石川植物園に行ってきました](https://igapyon.github.io/diary/2008/ig081123.html)
+* [2008-11-19 日記: blancoValueObject 最新版 (1.1.3) リリース](https://igapyon.github.io/diary/2008/ig081119.html)
+* [2008-11-18 日記: OpenSSO Enterprise 8.0 調査](https://igapyon.github.io/diary/2008/ig081118.html)
+* [2008-11-11 日記: 古いバージョンの Eclipse の入手先](https://igapyon.github.io/diary/2008/ig081111.html)
+* [2008-11-09 日記: BUFFALO WHR-HP-G/E: AirStation 11g＆b 無線LAN BroadBandルータ＋LAN端子用無線LAN子機セット
+購入](https://igapyon.github.io/diary/2008/ig081109.html)
+* [2008-11-05 日記: ログメッセージ定義書からロギング・ソースコードを自動生成する blancoLogMessage を新規作成](https://igapyon.github.io/diary/2008/ig081105.html)
+* [2008-11-04 日記: MythTV + Linux ベースの TV録画＋再生環境構築に興味](https://igapyon.github.io/diary/2008/ig081104.html)
+* [2008-11-03 日記: 安藤さんの手による RSS リーダー・Eclipse プラグイン をメモ](https://igapyon.github.io/diary/2008/ig081103.html)
+* [2008-10-31 日記: Ubuntu 8.10 リリース](https://igapyon.github.io/diary/2008/ig081031.html)
+* [2008-10-30 日記: Windows XP: Thumbs.dbファイルを作成しないようにする方法](https://igapyon.github.io/diary/2008/ig081030.html)
+* [2008-10-29 日記: Firefox の URL 入力自動補完機能を無効化する](https://igapyon.github.io/diary/2008/ig081029.html)
+* [2008-10-27 日記: 東京株式市場 日経平均株価 7,162円 (終値486円安) , 日本版サブプライム・ローン問題](https://igapyon.github.io/diary/2008/ig081027.html)
+* [2008-10-26 日記: サイバー犯罪情報の通報／相談先メモ , Eclipse 3.4 の plugins フォルダー](https://igapyon.github.io/diary/2008/ig081026.html)
+* [2008-10-24 日記: 東京株式市場 日経平均株価 7,649円 (終値811円安)](https://igapyon.github.io/diary/2008/ig081024.html)
+* [2008-10-16 日記: Eclipse 3.4.1/3.3.2 日本語化言語パック (サードパーティ版) 正式版公開](https://igapyon.github.io/diary/2008/ig081016.html)
+* [2008-10-13 日記: マクロスF (フロンティア) サントラCD](https://igapyon.github.io/diary/2008/ig081013.html)
+* [2008-10-10 日記: 東京株式市場 日経平均株価 8,276円 (終値881円安) , EVMメモ](https://igapyon.github.io/diary/2008/ig081010.html)
+* [2008-10-09 日記: OSS の LDAP 実装である OpenDS, OpenLDAP, ApacheDS を簡単比較](https://igapyon.github.io/diary/2008/ig081009.html)
+* [2008-10-08 日記: OpenSSO メモ , 東京株式市場 日経平均株価 9,203円 (終値952円安)](https://igapyon.github.io/diary/2008/ig081008.html)
+* [2008-10-05 日記: Kaspersky Internet Security 2009 ３ユーザー優待版［DL］ 購入 , オープン・イエローページ構想](https://igapyon.github.io/diary/2008/ig081005.html)
+* [2008-10-01 日記: インターネットとは何か?](https://igapyon.github.io/diary/2008/ig081001.html)
+* [2008-09-28 日記: Eclipse Ganymede SR1 日本語化言語パック (サードパーティ版) RC1 bulid リリース](https://igapyon.github.io/diary/2008/ig080928.html)
+* [2008-09-25 日記: Eclipse Ganymede SR1 および Eclipse Classic (SDK) 3.4.1 リリース
+, Subversive 正式版はリリース延期](https://igapyon.github.io/diary/2008/ig080925.html)
+* [2008-09-22 日記: 自宅PC用に外付けブルーレイドライブを購入 , 縄文海進](https://igapyon.github.io/diary/2008/ig080922.html)
+* [2008-09-19 日記: Eclipse Ganymede ネタ , Eclipse BABEL へのコントリビュート作業にて悶絶](https://igapyon.github.io/diary/2008/ig080919.html)
+* [2008-09-17 日記: いがぴょんの日記ウェブページv3 システムを妄想中](https://igapyon.github.io/diary/2008/ig080917.html)
+* [2008-09-16 日記: Eclipse 3.4.1 Classic (SDK) RC3 メッセージ変更差分確認 , Ganymede SR1
+動向ウォッチ](https://igapyon.github.io/diary/2008/ig080916.html)
+* [2008-09-12 日記: 書評: Trac入門 --ソフトウェア開発・プロジェクト管理活用ガイド](https://igapyon.github.io/diary/2008/ig080912.html)
+* [2008-09-01 日記: Eclipse Ganymede/Europa 日本語化言語パック (サードパーティ版) integration
+bulid リリース](https://igapyon.github.io/diary/2008/ig080901.html)
+* [2008-08-22 日記: Eclipse Ganymede 日本語化言語パック (サードパーティ版) の翻訳作業を一時停止します](https://igapyon.github.io/diary/2008/ig080822.html)
+* [2008-08-05 日記: Eclipse Ganymede 日本語化言語パック (サードパーティ版) integration bulid
+リリース](https://igapyon.github.io/diary/2008/ig080805.html)
+* [2008-07-30 日記: 東芝エアコン 大清快 (RAS-281BDR) (自宅エアコン更新)](https://igapyon.github.io/diary/2008/ig080730.html)
+* [2008-07-29 日記: 英語のカタカナ表記 (翻訳ネタ)](https://igapyon.github.io/diary/2008/ig080729.html)
+* [2008-07-19 日記: 自宅エアコン更新検討中](https://igapyon.github.io/diary/2008/ig080719.html)
+* [2008-07-10 日記: Eclipse Ganymede 翻訳状況 最前線](https://igapyon.github.io/diary/2008/ig080710.html)
+* [2008-07-01 日記: Eclipse Ganymede / Europa 日本語化言語パック (サードパーティ版) マイルストーン版
+リリース , Pleiades 最新版 リリース](https://igapyon.github.io/diary/2008/ig080701.html)
+* [2008-06-26 diary: Eclipse [[Ganymede]] リリース](https://igapyon.github.io/diary/2008/ig080626.html)
+* [2008-06-25 日記: Eclipse Ganymede 日本語化言語パック (サードパーティ版) integration bulid
+リリース](https://igapyon.github.io/diary/2008/ig080625.html)
+* [2008-06-23 日記: Eclipse Ganymede RC4 日本語化言語パック (サードパーティ版) integration bulid
+リリース](https://igapyon.github.io/diary/2008/ig080623.html)
+* [2008-06-22 日記: Eclipse Ganymede 言語パック (サードパーティ版) 最終調整中](https://igapyon.github.io/diary/2008/ig080622.html)
+* [2008-06-13 日記: 第9回 CodeGearデベロッパーキャンプに参加・発表](https://igapyon.github.io/diary/2008/ig080613.html)
+* [2008-06-12 日記: Eclipse Ganymede RC3 日本語化言語パック (サードパーティ版) integration bulid
+リリース](https://igapyon.github.io/diary/2008/ig080612.html)
+* [2008-06-09 日記: Eclipse BABEL Translators_ja オフラインミーティング＠東京市ヶ谷(2008.05.23)
+議事メモ](https://igapyon.github.io/diary/2008/ig080609.html)
+* [2008-06-02 日記: Eclipse 3.4 (Ganymede) 日本語化言語パック (サードパーティ版) 翻訳進捗](https://igapyon.github.io/diary/2008/ig080602.html)
+* [2008-05-27 日記: Pleiades 既存訳を翻訳メモリとして利用する方法 - 翻訳ブレイン版](https://igapyon.github.io/diary/2008/ig080527.html)
+* [2008-05-26 日記: Eclipse Babel Project Downloads の使い方 (Eclipse 3.3 日本語化言語パック
+の update-site 経由による入手方法)](https://igapyon.github.io/diary/2008/ig080526.html)
+* [2008-05-22 日記: Eclipse Classic (SDK) 3.4 RC1 リリース , 翻訳ブレインを購入](https://igapyon.github.io/diary/2008/ig080522.html)
+* [2008-05-13 日記: Eclipse 日本語化言語パック (サードパーティ版) 20080512版 リリース](https://igapyon.github.io/diary/2008/ig080513.html)
+* [2008-04-28 日記: 翻訳メモリ: 翻訳ブレイン というソフト , ケロロ軍曹](https://igapyon.github.io/diary/2008/ig080428.html)
+* [2008-04-26 日記: 花粉症なお厳しい](https://igapyon.github.io/diary/2008/ig080426.html)
+* [2008-04-17 日記: Eclipse BABEL Translators_ja オフラインミーティング＠東京新木場(2008.04.14)
+議事メモ](https://igapyon.github.io/diary/2008/ig080417.html)
+* [2008-04-14 日記: 少し花粉症の症状が緩和](https://igapyon.github.io/diary/2008/ig080414.html)
+* [2008-04-13 日記: Eclipse 日本語化言語パック および Eclipse Babel 日本語訳に関するオフライン・ミーティング＠東京新木場
+(2008.04.14)](https://igapyon.github.io/diary/2008/ig080413.html)
+* [2008-04-12 日記: 新幹線 N700系](https://igapyon.github.io/diary/2008/ig080412.html)
+* [2008-04-04 日記: 翻訳メモリ: OmegaT というソフト](https://igapyon.github.io/diary/2008/ig080404.html)
+* [2008-04-03 日記: blancoNLpackGenerator: 翻訳レビュープロセス と 翻訳データ形式 (OASIS XLIFF)](https://igapyon.github.io/diary/2008/ig080403.html)
+* [2008-03-27 日記: Subversive 1.1.9_02 の日本語化およびパッチ](https://igapyon.github.io/diary/2008/ig080327.html)
+* [2008-03-19 日記: BlancoEclipseDistribution 正式版 (3.3.2-20080309) リリース](https://igapyon.github.io/diary/2008/ig080319.html)
+* [2008-03-18 日記: blanco Framework は Java SDK 1.5.0 に移行します](https://igapyon.github.io/diary/2008/ig080318.html)
+* [2008-03-14 日記: 花粉症で出社不能](https://igapyon.github.io/diary/2008/ig080314.html)
+* [2008-03-13 日記: blancoNLpackGenerator: 抽出・マージ・差分取得のAntタスクを追加 , 花粉症の症状がひどい](https://igapyon.github.io/diary/2008/ig080313.html)
+* [2008-03-08 日記: blancoNLpackGenerator: 自動生成言語パックサンプルに TPTP, RSE を追加](https://igapyon.github.io/diary/2008/ig080308.html)
+* [2008-03-02 日記: BlancoEclipseDistribution 次期安定版 調整開始](https://igapyon.github.io/diary/2008/ig080302.html)
+* [2008-02-29 日記: Eclipse 3.3.2 日本語化言語パック β1リリース](https://igapyon.github.io/diary/2008/ig080229.html)
+* [2008-02-28 日記: Eclipse 3.3 日本語化言語パック(サードパーティ版) β版 リリース](https://igapyon.github.io/diary/2008/ig080228.html)
+* [2008-02-23 日記: blancoEclipseBabel -> blancoNLpackGenerator へ名称変更 , Eclipse
+3.3 日本語化言語パックについてオフミ＠大阪梅田](https://igapyon.github.io/diary/2008/ig080223.html)
+* [2008-02-17 日記: 自宅PCモニタ: 三菱電機 RDF193H (19型CRT)が寿命を迎えた模様 , 花粉症！](https://igapyon.github.io/diary/2008/ig080217.html)
+* [2008-02-14 日記: 今日から仕事再開します](https://igapyon.github.io/diary/2008/ig080214.html)
+* [2008-02-12 日記: インフルエンザにて休み , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α3版リリース](https://igapyon.github.io/diary/2008/ig080212.html)
+* [2008-02-10 日記: インフルエンザ A型](https://igapyon.github.io/diary/2008/ig080210.html)
+* [2008-02-07 日記: 花粉症の諸症状 , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α2版リリース](https://igapyon.github.io/diary/2008/ig080207.html)
+* [2008-02-03 日記: 埼玉は雪 (そして全国的に太平洋側を中心に雪) , リコー杯プロ棋士ペア碁選手権2008](https://igapyon.github.io/diary/2008/ig080203.html)
+* [2008-01-31 日記: Eclipse SDK 3.3.1.1用 日本語化言語パック (サードパーティ版) α版リリース](https://igapyon.github.io/diary/2008/ig080131.html)
+* [2008-01-30 日記: blancoEclipseBabel による Eclipse 3.3.1.1 日本語化パック (サードパーティ版)
+の自動生成](https://igapyon.github.io/diary/2008/ig080130.html)
+* [2008-01-29 日記: blancoEclipseBabel プロジェクトの試作](https://igapyon.github.io/diary/2008/ig080129.html)
+* [2008-01-28 日記: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security
+Support Providers Interface (SSPI)](https://igapyon.github.io/diary/2008/ig080128.html)
+* [2008-01-26 日記: 卓球の道具メモ](https://igapyon.github.io/diary/2008/ig080126.html)
+* [2008-01-25 日記: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会](https://igapyon.github.io/diary/2008/ig080125.html)
+* [2008-01-24 日記: XupperII 調査開始 , Hinemos 調査開始](https://igapyon.github.io/diary/2008/ig080124.html)
+* [2008-01-22 日記: ソフトウェア開発に「工事進行基準」を導入？ , Eclipse 3.3用の Language Pack](https://igapyon.github.io/diary/2008/ig080122.html)
+* [2008-01-19 日記: Apache 2.2 + Subversion 1.4.6 インストール](https://igapyon.github.io/diary/2008/ig080119.html)
+* [2008-01-18 日記: BEA→Oracle , MySQL→Sun](https://igapyon.github.io/diary/2008/ig080118.html)
+* [2008-01-17 日記: Subversion設定ファイルを Excelから自動生成 (blancoSvnConf)](https://igapyon.github.io/diary/2008/ig080117.html)
+* [2008-01-16 日記: Sun Java SE (JDK) 6 による Webサービス サポート](https://igapyon.github.io/diary/2008/ig080116.html)
+* [2008-01-15 日記: Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ](https://igapyon.github.io/diary/2008/ig080115.html)
+* [2008-01-11 日記: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作](https://igapyon.github.io/diary/2008/ig080111.html)
+* [2008-01-10 日記: Shibuya.trac ミーティング1.0 (2008.01.19＠豊洲) , 「第四期 中将棋全国大会・名人戦」に参戦](https://igapyon.github.io/diary/2008/ig080110.html)
+* [2008-01-08 日記: Java から JavaScriptへのコンバータ](https://igapyon.github.io/diary/2008/ig080108.html)
+* [2008-01-02 日記: Tシャツ転写紙のメモ](https://igapyon.github.io/diary/2008/ig080102.html)
+
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
