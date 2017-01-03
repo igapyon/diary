@@ -8,6 +8,7 @@ import java.util.List;
 import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
 import jp.igapyon.diary.v3.hatena.HatenaText2SrcMdConverter;
 import jp.igapyon.diary.v3.html.IndexDiaryHtmlParser;
+import jp.igapyon.diary.v3.html2md.IgapyonV2Html2MdConverter;
 import jp.igapyon.diary.v3.item.DiaryItemInfo;
 import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
 import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
@@ -26,6 +27,18 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Convert .src.md to .md");
+
+		{
+			try {
+				new IgapyonV2Html2MdConverter().processDir(new File("."));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			// EXIT
+			if (true)
+				return;
+		}
 
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
 
