@@ -10,8 +10,10 @@
 
 ざっと 日常的に必須と考えられるソフトを列挙してみました。
 
+
 * システム
   
+
   * Microsoft Windows XP Professional
     現時点で最も普及している汎用デスクトップ・オペレーティングシステム
     
@@ -26,6 +28,7 @@
   
 * インフラアプリケーション
   
+
   * 
     最近急成長のオープンソースWebブラウザ。プラグインの充実からも、全世界で急速にユーザを増やしつつあります。そして私はとても愛用しています。
     
@@ -63,6 +66,7 @@
   
 * 日常ツール
   
+
   * [Adobe Reader 7](http://www.adobe.co.jp/products/acrobat/readermain.html)
     PDF閲覧ソフト
     
@@ -83,6 +87,7 @@
   
 * 開発ツール
   
+
   * [Sun Java2 Platform, Standard Edition](http://java.sun.com/j2se/index.jsp)
     
   * [Eclipse](http://eclipsewiki.net/eclipse/)
@@ -95,10 +100,12 @@
   
 * 年中行事ツール
   
+
   * 筆まめ ver.13
   
 
 ## 更新履歴
+
 
 * 2005/01/18-19 更新
   

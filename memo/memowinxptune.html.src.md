@@ -8,6 +8,7 @@
 
 ## 基本的な設定
 
+
 * パスワードを設定
   (デフォルトにおいてパスワード無しでインストールされるっていうのに驚愕)
   
@@ -19,6 +20,7 @@
 
 ## サービスパック
 
+
 * Windows XP SP2を適用しました (2004.10.11)
   
 * ファイアウォール設定およびウイルス対策については、Norton Internet Security
@@ -26,12 +28,14 @@
 
 ## デスクトップ周り設定
 
+
 * 壁紙をコーヒーカップに変更。
   
 * キーボードの反応速度を最速に変更
   
 * スクリーンセーバー → モニタ電源 について、
   
+
   * モニタの電源を切る : 5分後
     
   * ハードディスクの電源を切る : 5分後
@@ -48,6 +52,7 @@ Windows Registry Editor Version 5.00
       "IoPageLockLimit"=dword:00010000
       [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
       "NtfsDisableLastAccessUpdate"=dword:00000001
+
 
 * カーネルを実メモリのみに展開 : DisablePagingExecutive
   デフォルト : "DisablePagingExecutive"=dword:00000000
@@ -69,11 +74,13 @@ Windows Registry Editor Version 5.00
 
 2001/12/01 [林信一](http://www.angelwaltz.net/)さんからツッコミこんにちは、林です。偶然ですが、私もXPへ開発環境をしています。ドキュメント作らないといけないのですが、officeがすこぶる不調で、仕方なくHD増設してXPをインストールしています。今までの環境は、NT３．５１からアップグレードを続けてきたWin2000だったからか、HDの速度の違いか、体感速度が格段にアップしました（苦笑）また、こんなページもみつけました。高速化などいろいろあります。QAとしてもなかなかいい感じです。
 
+
 * [http://pc-information.com/](http://pc-information.com/)
 
 では。
 
 ## 導入ソフト
+
 
 * 秀丸エディタ
   
@@ -104,6 +111,7 @@ Windows Registry Editor Version 5.00
 
 ## Windows XP 上で動作しなかったソフト
 
+
 * ×Adaptec Easy CD Creator 4 (結構昔から愛用してきたもの)
   仕方がないのでバージョンアップ版の購入を検討。なれど XP対応 Easy CD Creator
   5 は いつ出てくるのだろうか… (苦笑)
@@ -116,6 +124,7 @@ CD-R焼き付けソフトは 悲しいかな予想通り全滅です。昔購入
 
 2002/02/15 読者の方からツッコミわらやです。いつもどうもです。ツッコミというより、情報なのですが・・・いがぴょんさんは「Windows XP 上で動作しなかったソフト」として「B's Recorder
 GOLD 1.99」をあげてらっしゃいますが、このソフトは確か無償で3.19(2/15時点)にバージョンアップすることができ,かつこれはWindowsXPに対応しているようです。
+
 
 * [http://www.bha.co.jp/download/gold_w/index.html](http://www.bha.co.jp/download/gold_w/index.html)
 
@@ -131,6 +140,7 @@ Windows 2000に比べて I/O周りの体感速度が向上しています。と�
 特に気に入ったのは 『リモートデスクトップ』機能です。これは欲しい機能です。VNCとはひと味違った Xサーバ的挙動が とっても気に入りました。
 
 ## 更新履歴
+
 
 * 2004/10/11 Windows XP SP2に関する説明を ほんの少しだけ追記
   

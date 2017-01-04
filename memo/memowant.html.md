@@ -8,6 +8,7 @@
 
 ## いがぴょんが 今まさに購入しそうな物リスト
 
+
 * まんがサイエンス 12
   [amazon.co.jp: 4056070776](http://www.amazon.co.jp/exec/obidos/ASIN/4056070776/igapyondiary-22)
   
@@ -17,6 +18,7 @@
 
 ## いがぴょん欲しいものリスト
 
+
 * 玄人志向: 小型LinuxBox開発キット KURO-SHEEVA
   [http://www.kuroutoshikou.com/modules/display/?iid=1440](http://www.kuroutoshikou.com/modules/display/?iid=1440)
   たいへん興味深い。
@@ -25,6 +27,7 @@
   [amazon.co.jp: B002UD6CH0](http://www.amazon.co.jp/exec/obidos/ASIN/B002UD6CH0/igapyondiary-22)
   \24,027.-
   
+
   * NAS (RAID 1) バックアップ用途
     
   
@@ -32,6 +35,7 @@
   
 * フロントベイの強化ツール
   
+
   * [HUB-02](http://www.ainex.jp/products/hub-02.htm)
   3.5 インチ・ベイ
     
@@ -68,6 +72,7 @@
 
 ## いがぴょんが既に買った/手に入れた物
 
+
 * 2010.10 Victor エブリオ ハイビジョンメモリームービー GZ-HM570-B
   [amazon.co.jp: B00358YZAU](http://www.amazon.co.jp/exec/obidos/ASIN/B00358YZAU/igapyondiary-22)
   \45,800.-＠[PC-VEGA](http://www.pc-vega.co.jp/) (新御徒町駅近くの実店舗で購入しました)
@@ -75,6 +80,7 @@
   
 * 2010.08 [FREEDOM: PC リフォーム部材](http://www.freedom-pc.com/product/pc_series.html)
   
+
   * FREEDOM: リフォーム部材 USB 電源基本編（フロント5インチベイ）: PUG-552UD
     
   * FREEDOM: リフォーム部材 USB 外部接続ケーブルキット: 60cm: PUG-22U
@@ -93,6 +99,7 @@
   
 * 2010.08 LAN ケーブル: カテゴリー6 (ギガビット・イーサネット対応のもの)
   
+
   * ELECOM プロテクタ付き Gigabit イーサネット LAN ケーブル(パープル) 15m
     [amazon.co.jp: B000AP9V46](http://www.amazon.co.jp/exec/obidos/ASIN/B000AP9V46/igapyondiary-22)
     ￥1,358.-
@@ -137,6 +144,7 @@
   [amazon.co.jp: B003BEEJD6](http://www.amazon.co.jp/exec/obidos/ASIN/B003BEEJD6/igapyondiary-22)
   愛用していたひげ剃り機が壊れたのを契機に購入。前回に続き、ふたたび PANASONIC 社製のものを選択しました。
   
+
   * \8,721.-
     
   * 充電・交流式タイプ (コンセント直結で利用できることを優先)
@@ -154,6 +162,7 @@
   
 * 2010.07 日本語学習関連書籍を購入
   
+
   * 中学生からの作文技術
     [amazon.co.jp: 402259862X](http://www.amazon.co.jp/exec/obidos/ASIN/402259862X/igapyondiary-22)
     ★この本は非常におすすめ。
@@ -177,6 +186,7 @@
   
 * 2010.07 IT 関連書籍を購入
   
+
   * フラット化する世界 [増補改訂版] (上)
   [amazon.co.jp: 4532313775](http://www.amazon.co.jp/exec/obidos/ASIN/4532313775/igapyondiary-22)
   著者: トーマス フリードマン
@@ -250,6 +260,7 @@
   
 * 2010.03 Ubuntu 関連書籍を購入
   
+
   * 
   Ubuntu Magazine Japan vol.03 (アスキームック)
   [amazon.co.jp: 4048684485](http://www.amazon.co.jp/exec/obidos/ASIN/4048684485/igapyondiary-22)
@@ -277,6 +288,7 @@
 * 2010.03 日本アンテナ CS・BS対応ダイキャスト4分配器(F型) DI4W-SP
   [amazon.co.jp: B000WMFZWY](http://www.amazon.co.jp/exec/obidos/ASIN/B000WMFZWY/igapyondiary-22)
   
+
   * 日本アンテナ テレビ接続ケーブル 0.5m (4T05RGSS(H)) x4本
   
 
@@ -295,6 +307,7 @@
   退役した Pentium 4 パソコンを復活させて Ubuntu Linux を勉強するのが目的です。
   ほんとうは NANAO FlexScan が欲しい気持ちがありましたのですが、予算と値段が合わず…。
   
+
   * 2010.02.16追記 今まで使ってきた NANAO FlexScan と画質を比べると、やはり NANAO のほうが格段に画質は良いです。ああ、いつの日か、お金がたまったら、改めて
     NANAO FlexScan を購入したいものだ、と思いました。
   
@@ -350,6 +363,7 @@
   
 * 2009.05 Gewa Shell 「Wetterstein」 色: ブラウン (ヴァイオリン・ケースの更新)
   
+
   * 付属品: 太めの肩紐 x2
     
   * ※今まで愛用していた GEWA のケース (23年間愛用) が、金具が壊れたり、チャックが壊れたり、あちこち破れてきたりして、結構困っていたので、しかたなく更新しました。
@@ -358,6 +372,7 @@
   
 * 2009.05 コンピュータ・ソフトウェア関連書籍などを購入
   
+
   * Eclipse 3.4 プラグイン開発 徹底攻略 Eclipse 3.4 Ganymede対応
     [amazon.co.jp: 4839929726](http://www.amazon.co.jp/exec/obidos/ASIN/4839929726/igapyondiary-22)
     
@@ -388,6 +403,7 @@
 * 2009.03 AmiVoice Es 2008
   [amazon.co.jp: B000XKABEC](http://www.amazon.co.jp/exec/obidos/ASIN/B000XKABEC/igapyondiary-22)
   
+
   * IC レコーダーからの議事録作成に便利かと想定しています。
     
   * [アドバンスト・メディア](http://www.advanced-media.co.jp/) という会社が開発した音声認識 (音声入力) ソフト。
@@ -400,6 +416,7 @@
   
 * 2009.02 情報セキュリティ関連本 (2回目の購入)
   
+
   * 情報セキュリティ読本 -IT時代の危機管理入門-
     [amazon.co.jp: 440731298X](http://www.amazon.co.jp/exec/obidos/ASIN/440731298X/igapyondiary-22)
     情報処理推進機構 500円
@@ -424,6 +441,7 @@
   
 * 2009.01 スコアなどを購入
   
+
   * 音楽之友社: スコア: モーツァルト/交響曲第41番 ジュピター (OGTー617)
     [amazon.co.jp: 4276917522](http://www.amazon.co.jp/exec/obidos/ASIN/4276917522/igapyondiary-22)
     ベーレンライター版。演奏予定に先立ち購入。
@@ -436,6 +454,7 @@
   
 * 2008.12 書籍を入手
   
+
   * はじめての多面体おりがみ--考える頭をつくろう!
     [amazon.co.jp: 4529035476](http://www.amazon.co.jp/exec/obidos/ASIN/4529035476/igapyondiary-22)
     折り紙で多面体を作るという本です。できあがった多面体がとてもきれいです。この本は、そのような多面体おりがみを、カラー挿絵付きで、とても丁寧に説明している素晴らしい本です。
@@ -444,6 +463,7 @@
   
 * 2008.12 書籍などを購入。
   
+
   * 囲碁入門編 1 (棋苑囲碁漫画読本)
     [amazon.co.jp: 4873652448](http://www.amazon.co.jp/exec/obidos/ASIN/4873652448/igapyondiary-22)
     ふじいひろし先生の定番囲碁入門漫画
@@ -465,6 +485,7 @@
   [amazon.co.jp: B000R3ALJK](http://www.amazon.co.jp/exec/obidos/ASIN/B000R3ALJK/igapyondiary-22)
   [http://buffalo.jp/products/catalog/network/whr-hp-g_e/](http://buffalo.jp/products/catalog/network/whr-hp-g_e/)
   
+
   * 子機として、[WLI-TX4-G54HP](http://buffalo.jp/products/catalog/item/w/wli-tx4-g54hp/) が付いているモデル。
     
   * 義父の自宅無線ネットワーク環境更新のために購入しました。
@@ -473,6 +494,7 @@
   
 * 2008.10 書籍を数冊購入
   
+
   * プロとしてのOracleアーキテクチャ入門 Oracle現場主義
     [amazon.co.jp: 4797349808](http://www.amazon.co.jp/exec/obidos/ASIN/4797349808/igapyondiary-22)
     
@@ -497,6 +519,7 @@
   
 * 2008.08 [FILCO Majestouch./マジェスタッチ: 日本語108キーボード・かなあり・黒 USB&PS/2両対応 (FKB108M/JB)](http://www.diatec.co.jp/products/det.php?prod_c=1)
   
+
   * やや値段が高めなキーボード。キー・タッチはやわらかめ。キー・タッチ改善を狙い購入。まずまず気に入りました。ただ、実際に購入してみると、キー・タッチ かため の方にも興味が湧いてきます。
   
 
@@ -508,6 +531,7 @@
   
 * 2008.05 翻訳メモリソフト
   
+
   * [ジャストシステム：日英・英日翻訳ソフト 翻訳ブレイン](http://www.justsystems.com/jp/software/dt/honyaku/)
     翻訳メモリを利用するために このソフトを購入。
   
@@ -515,6 +539,7 @@
   
 * 2008.05 CANON: PIXUS (ピクサス） MP960 用のインクタンク一式
   
+
   * CANON: インクタンク BCI-7e 6色マルチパック
     [amazon.co.jp: B000BN15SM](http://www.amazon.co.jp/exec/obidos/ASIN/B000BN15SM/igapyondiary-22)
     
@@ -525,10 +550,12 @@
   
 * 2008.05 各種メモリの購入。
   
+
   * BUFFALO: D2/800-1GX2 DDR2 SDRAM 800M 240pin DIMM
     [amazon.co.jp: B000FUU3K2](http://www.amazon.co.jp/exec/obidos/ASIN/B000FUU3K2/igapyondiary-22)
     DDR2 800MHz SDRAM(PC2-6400) 240Pin DIMM 2枚組。2GBで \12,639.-。
     
+
     * [BUFFALO: DDR2 800MHz SDRAM(PC2-6400) 240Pin DIMM 2枚組](http://buffalo.jp/products/catalog/item/d/d2_800x2/)
     
 
@@ -537,6 +564,7 @@
     [amazon.co.jp: B0000DFYSF](http://www.amazon.co.jp/exec/obidos/ASIN/B0000DFYSF/igapyondiary-22)
     1GBで \12,520.-
     
+
     * [BUFFALO: DDR333 SDRAM PC2700メモリモジュール 200Pin S.O.DIMM (DN333-A1G)](http://buffalo.jp/products/catalog/item/d/dn333/index.html)
     
 
@@ -545,6 +573,7 @@
   
 * 2008.04 書籍などを購入
   
+
   * 卓球パーフェクトマスタ - 基本から応用まで一気に上達！(スポーツ・ステップアップDVDシリーズ)
     [amazon.co.jp: 4405081999](http://www.amazon.co.jp/exec/obidos/ASIN/4405081999/igapyondiary-22)
     
@@ -555,6 +584,7 @@
   
 * 2008.03 CANON: PIXUS (ピクサス） MP960 用のインクタンク一式
   
+
   * CANON: インクタンク BCI-7e 6色マルチパック
     [amazon.co.jp: B000BN15SM](http://www.amazon.co.jp/exec/obidos/ASIN/B000BN15SM/igapyondiary-22)
     
@@ -565,6 +595,7 @@
   
 * 2008.03 書籍を購入
   
+
   * Harry Potter and the Deathly Hallows (Harry Potter 7) (US)
     [amazon.co.jp: 0545010225](http://www.amazon.co.jp/exec/obidos/ASIN/0545010225/igapyondiary-22)
     
@@ -584,6 +615,7 @@
   [amazon.co.jp: B000O75UB8](http://www.amazon.co.jp/exec/obidos/ASIN/B000O75UB8/igapyondiary-22)
   掃除機が壊れてしまったので更新
   
+
   * 消耗品: National: 紙パック AMC-ZC5 ゼオライト脱臭機能付き紙パック（M型Vタイプ）（3枚入） AMC-ZC5 
     [amazon.co.jp: B000BPJQY0](http://www.amazon.co.jp/exec/obidos/ASIN/B000BPJQY0/igapyondiary-22)
     まずは この紙パックを買ってみました。
@@ -592,6 +624,7 @@
   
 * 2008.01 CDや本など
   
+
   * The Sound of Music [Original Motion Picture Soundtrack]
     [amazon.co.jp: B000BFNZAQ](http://www.amazon.co.jp/exec/obidos/ASIN/B000BFNZAQ/igapyondiary-22)
     映画版サウンドオブミュージックのサウンドトラック。
@@ -603,6 +636,7 @@
   
 * 2008.01 CANON: PIXUS (ピクサス） MP960 用のインクタンク一式
   
+
   * CANON: インクタンク BCI-7e 6色マルチパック
     [amazon.co.jp: B000BN15SM](http://www.amazon.co.jp/exec/obidos/ASIN/B000BN15SM/igapyondiary-22)
     
@@ -617,6 +651,7 @@
   
 * 2007.11 CANON: PIXUS (ピクサス） MP960 用のインクタンク一式
   
+
   * CANON: インクタンク BCI-7e 6色マルチパック
     [amazon.co.jp: B000BN15SM](http://www.amazon.co.jp/exec/obidos/ASIN/B000BN15SM/igapyondiary-22)
     
@@ -627,6 +662,7 @@
   
 * 2007.10 情報セキュリティ関連本
   
+
   * 情報セキュリティ読本 -IT時代の危機管理入門-
     [amazon.co.jp: 440731298X](http://www.amazon.co.jp/exec/obidos/ASIN/440731298X/igapyondiary-22)
     情報処理推進機構 500円
@@ -653,6 +689,7 @@
   
 * 2007.10 機動戦士ガンダム一年戦争全史
   
+
   * 機動戦士ガンダム一年戦争全史(上)
     [amazon.co.jp: 4056045038](http://www.amazon.co.jp/exec/obidos/ASIN/4056045038/igapyondiary-22)
     
@@ -672,8 +709,10 @@
 * 2007.10 Keyboard Master 6
   [http://www.plato-web.com/software/km06/index.html](http://www.plato-web.com/software/km06/index.html)
   
+
   * 下記のタッチタイプソフトも検討しましたが、結局 Keyboard Master 6 を選びました。
     
+
     * 特打ヒーローズ 宇宙戦艦ヤマト タイピング・ワープ
       [amazon.co.jp: B0009UMD10](http://www.amazon.co.jp/exec/obidos/ASIN/B0009UMD10/igapyondiary-22)
       TV 1
@@ -703,6 +742,7 @@
   
 * 2007.08 石倉昇先生の囲碁の本を購入 (過去に購入したものも、さかのぼって記載)
   
+
   * 囲碁入門その後の最速上達法
     [amazon.co.jp: 4839923655](http://www.amazon.co.jp/exec/obidos/ASIN/4839923655/igapyondiary-22)
     上級者を目指すうえで、とても良くできた本。
@@ -732,6 +772,7 @@
   [amazon.co.jp: B000J1R8S2](http://www.amazon.co.jp/exec/obidos/ASIN/B000J1R8S2/igapyondiary-22)
   今回はキヤノン製を購入。自動両面印刷に期待。
   
+
   * 2007.07 CANON: インクタンク BCI-7e 6色マルチパック
     [amazon.co.jp: B000BN15SM](http://www.amazon.co.jp/exec/obidos/ASIN/B000BN15SM/igapyondiary-22)
     MP960用のインクタンク。
@@ -744,6 +785,7 @@
   
 * 2007.07 新入社員教育の用途で論理的思考方法のための本として購入。
   
+
   * 社会人として必要な「聞く力・話す力」の高め方
     [amazon.co.jp: 4769608039](http://www.amazon.co.jp/exec/obidos/ASIN/4769608039/igapyondiary-22)
     副題として「会話技術トレーニングブック パブリックスピーキングに欠かせない会話4力(論理力、表現力、理解力、対応力)をどう身につけるか」と銘打たれています。本屋で類似の書籍を何冊も検討した結果、この本こそ、私が伝えたい内容とぴったり一致していました。とても素晴らしい、良い本です。
@@ -766,6 +808,7 @@
   
 * 2007.07 新入社員教育の用途でアルゴリズム教育のための本が欲しいと思い購入しました。
   
+
   * Javaによるアルゴリズムとデータ構造
     [amazon.co.jp: 479733164X](http://www.amazon.co.jp/exec/obidos/ASIN/479733164X/igapyondiary-22)
     この本、良くできています。すばらしい。
@@ -791,6 +834,7 @@
 * 2007.06 まんがサイエンス
   とても良くできた科学マンガ。あさりよしとお様の作品。[学研](http://www.gakken.co.jp/)「[５年の科学](http://shop.gakken.co.jp/kg/kagaku/5g.html)」に掲載されていたものです。全巻購入しました(!)
   
+
   * まんがサイエンス
     [amazon.co.jp: 4051057550](http://www.amazon.co.jp/exec/obidos/ASIN/4051057550/igapyondiary-22)
     
@@ -855,6 +899,7 @@
   [amazon.co.jp: B000GIXNB4](http://www.amazon.co.jp/exec/obidos/ASIN/B000GIXNB4/igapyondiary-22)
   自宅の洗濯機を更新。洗濯機＋簡易乾燥機能つき。
   
+
   * W:608, H:1000, D590
     
   * 防水パン: 奥ゆき 526 以上
@@ -868,6 +913,7 @@
   
 * 2007.02 プログラミング関連の重要な書籍を購入
   
+
   * Java言語仕様 第3版
     [amazon.co.jp: 4894717158](http://www.amazon.co.jp/exec/obidos/ASIN/4894717158/igapyondiary-22)
     Java言語にとって最も重要な書籍のひとつの日本語訳。
@@ -900,6 +946,7 @@
   
 * 2006.10 将棋の本などを購入
   
+
   * 将棋・ひと目の手筋 --初級の壁を突破する208問
     [amazon.co.jp: 4839921334](http://www.amazon.co.jp/exec/obidos/ASIN/4839921334/igapyondiary-22)
     
@@ -929,6 +976,7 @@
   
 * 2006.07 クラシック音楽のCDを購入
   
+
   * ニールセン:交響曲第4番
     [amazon.co.jp: B00005FLQT](http://www.amazon.co.jp/exec/obidos/ASIN/B00005FLQT/igapyondiary-22)
     
@@ -955,6 +1003,7 @@
   
 * 2006.03 かねてより購入を検討していた情報技術系の書籍を購入しました。
   
+
   * UML モデリングのエッセンス 第3版 Object Oriented SELECTION
     [amazon.co.jp: 4798107956](http://www.amazon.co.jp/exec/obidos/ASIN/4798107956/igapyondiary-22)
     UMLの記法の情報源として活用します。
@@ -984,6 +1033,7 @@
 * 2006.02 将棋の入門本を2冊購入しました。
   とてもわかりやすい構成になっていました。いずれの本も ふりがな付きなのがなお良かったです。
   
+
   * 初段をめざす詰め将棋―棋力がグングン上がる!
     [amazon.co.jp: 441502548X](http://www.amazon.co.jp/exec/obidos/ASIN/441502548X/igapyondiary-22)
     監修: 羽生善治
@@ -1014,6 +1064,7 @@
   
 * 2005.12 かねてより購入しようと思っていた さまざまなな本を購入
   
+
   * 人月の神話 - 狼人間を撃つ銀の弾はない - Professional computing series (別巻3)
     [amazon.co.jp: 4894716658](http://www.amazon.co.jp/exec/obidos/ASIN/4894716658/igapyondiary-22)
     ブルックスさんのソフトウェア工学における古典の名著。ソフトウェア工学の世界で有名な「人月の神話」や「銀の弾」といった伝説的な用語は、この書籍がおおもとなのです。古典な本なだけに、時代背景や用語などで読解が難解なところがあります。しかし一方で原典としての位置づけにある本著を読まないとソフトウェア工学の源流や本質が見えてこないということも考えられます。
@@ -1039,6 +1090,7 @@
 * 2005.10 UNIXという考え方 和英書籍同時購入
   書籍「UNIXという考え方」の内容をより良く理解するために、和英書籍の両方を購入しました。
   
+
   * Linux and the Unix Philosophy
     [amazon.co.jp: 1555582737](http://www.amazon.co.jp/exec/obidos/ASIN/1555582737/igapyondiary-22)
     著者: Mike Gancarz
@@ -1052,6 +1104,7 @@
   
 * 2005.10 バトルビーダマン
   
+
   * バトルビーダマン コバルトブラスタースペシャルセット 112
     [amazon.co.jp: B000A8FMSC](http://www.amazon.co.jp/exec/obidos/ASIN/B000A8FMSC/igapyondiary-22)
     時間稼ぎのために 急遽 バトルビーダマンを練習場の近所にあったライフで購入しました。バトルビーダマンの商品構成が良くわからなかったので、コミコミのフルセットを購入しました。今
@@ -1065,12 +1118,14 @@
   
 * 2005.10 Lenovo (IBM) ThinkPad X40
   
+
   * [amazon.co.jp: B0009I4R3O](http://www.amazon.co.jp/exec/obidos/ASIN/B0009I4R3O/igapyondiary-22) (リンク先はOfficeが付属の類似の別版)
     
   * [http://www-6.ibm.com/jp/pc/thinkpad/tpx40/tpx40a.shtml](http://www-6.ibm.com/jp/pc/thinkpad/tpx40/tpx40a.shtml)
     
   * 主なスペック
     
+
     * OS: Microsoft Windows XP Professional SP2
       
     * Intel PentiumM 1.50GHz 低電圧版 758
@@ -1117,6 +1172,7 @@
   
 * 2005.08 書籍購入など
   
+
   * Eclipseプラグイン入門
     [amazon.co.jp: 4777510921](http://www.amazon.co.jp/exec/obidos/ASIN/4777510921/igapyondiary-22)
     Eclipseプラグイン開発入門本の決定版です。とても素晴らしい本です。普段持ち歩きたいので 2冊目を購入しました。
@@ -1129,6 +1185,7 @@
   
 * 2005.07 本屋でコンピュータ系の書籍を数冊衝動買いしました。
   
+
   * Eclipseプラグイン開発
     [amazon.co.jp: 4797324899](http://www.amazon.co.jp/exec/obidos/ASIN/4797324899/igapyondiary-22)
     自宅用とは別に 2冊目を購入しました。なんと言っても重い本であるのに 今後の主力としていきたいトピック内容であるので、これは2冊目が必要と決断しました。
@@ -1145,6 +1202,7 @@
   
 * 2005.07 本屋でコンピュータ系の書籍を数冊衝動買いしました。
   
+
   * Eclipseプラグイン開発
     [amazon.co.jp: 4797324899](http://www.amazon.co.jp/exec/obidos/ASIN/4797324899/igapyondiary-22)
     Ecilpseプラグイン開発技術の習得のために、この本を購入しました。Eclipseプラグイン入門([amazon.co.jp: 4777510921](http://www.amazon.co.jp/exec/obidos/ASIN/4777510921/igapyondiary-22)) で一通り Eclipseプラグイン開発の経験を行った後なので、私は すんなりと読み進めることが出来ました。
@@ -1157,6 +1215,7 @@
   
 * 2005.07 本屋で数冊衝動買いしました。
   
+
   * 視覚でとらえるフォトサイエンス化学図録
     [amazon.co.jp: 4410273825](http://www.amazon.co.jp/exec/obidos/ASIN/4410273825/igapyondiary-22)
     図解付きでとても理解しやすい本です。元素周期表を探しに行って、この本に出会いました。化学を復習しようと思います。
@@ -1174,6 +1233,7 @@
 * 2005.05 電子ブロック一式
   大人の科学シリーズは大人買いを触発してしまうのでしょうか… 買ってしまいました。
   
+
   * 大人の科学シリーズ7 電子ブロック EX-150
     [amazon.co.jp: B0000B3AT2](http://www.amazon.co.jp/exec/obidos/ASIN/B0000B3AT2/igapyondiary-22)
     
@@ -1195,6 +1255,7 @@
   [amazon.co.jp: B0006HAELC](http://www.amazon.co.jp/exec/obidos/ASIN/B0006HAELC/igapyondiary-22)
   自宅用ディスプレイとして液晶モニタを購入。窓際で利用するので、M170が搭載している 環境に合わせた自動輝度調整機能が必要でした。デジタル／アナログの2系統入力を搭載しているのも魅力でした。
   
+
   * 2008.02 ようやく本格的に利用開始しました。
   
 
@@ -1236,6 +1297,7 @@
   
 * 2004.10 DVD
   
+
   * デイヴィッド・ベッカム オフィシャル・サッカー・スクール (\3,990.-)
     [amazon.co.jp: B0002MOKTS](http://www.amazon.co.jp/exec/obidos/ASIN/B0002MOKTS/igapyondiary-22)
     サッカー入門DVDとして とても良くできています。6歳の私の子どもが食い入るように見入っていました。特に「練習の仕方」を学ぶことが出来るのが、とても面白いようです。実際、練習の仕方を知る上でとても良くできています。
@@ -1293,6 +1355,7 @@
   [http://www.mitsubishielectric.co.jp/home/display/product/rdf193h/index2.htm](http://www.mitsubishielectric.co.jp/home/display/product/rdf193h/index2.htm)
   妻のパソコンのディスプレイ代替。ダイヤモンドトロンM2。目のために液晶ではなくCRTを選択しました。また22インチはデカすぎるだろうということで、19インチに落ち着きました。
   
+
   * 2008.02 ついに寿命を迎えた模様です。
   
 
@@ -1305,6 +1368,7 @@
   DV機器として認識されるテレビキャプチャー機器。調子の悪い自宅用ビデオの代替候補として購入しました。
   [http://www.iodata.co.jp/products/video/2003/gv-1394tv/index.htm](http://www.iodata.co.jp/products/video/2003/gv-1394tv/index.htm)
   
+
   * 購入を検討していた際の比較表
     
 I-O DATA: GV-1394TV
@@ -1377,6 +1441,7 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
 
 ## いがぴょんの調べ中リスト
 
+
 * Yuri Temirkanovさんで Shostakovichを指揮したものを探索中。
   [amazon.co.jp: B000003G4D](http://www.amazon.co.jp/exec/obidos/ASIN/B000003G4D/igapyondiary-22)
   この演奏が気に入りました。
@@ -1385,8 +1450,10 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
   著者: 藤平光一
   [amazon.co.jp: 4344007662](http://www.amazon.co.jp/exec/obidos/ASIN/4344007662/igapyondiary-22)
 
+
 * 改訂第2版 Java言語プログラミングレッスン
   
+
   * 上巻
     [amazon.co.jp: 4797332115](http://www.amazon.co.jp/exec/obidos/ASIN/4797332115/igapyondiary-22)
     
@@ -1394,12 +1461,14 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
     [amazon.co.jp: 4797332123](http://www.amazon.co.jp/exec/obidos/ASIN/4797332123/igapyondiary-22)
   
 
+
 * あたらしい教科書〈9〉コンピュータ 
   [amazon.co.jp: 4903267458](http://www.amazon.co.jp/exec/obidos/ASIN/4903267458/igapyondiary-22)
   
 * ドヴォルザーク:ピアノ五重奏曲 (リヒテル+ボロディン弦楽四重奏団)
   [amazon.co.jp: B00005GVO1](http://www.amazon.co.jp/exec/obidos/ASIN/B00005GVO1/igapyondiary-22)
   ああ、リヒテル+ボロディン弦楽四重奏団の組み合わせでいろいろあります。
+
 
 * 難経の研究
   [amazon.co.jp: 4752960028](http://www.amazon.co.jp/exec/obidos/ASIN/4752960028/igapyondiary-22)
@@ -1428,11 +1497,13 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
 
 ## いがぴょん買えなかった物リスト
 
+
 * 伽藍とバザール--オープンソース・ソフトLinuxマニフェスト
     [amazon.co.jp: 4895421686](http://www.amazon.co.jp/exec/obidos/ASIN/4895421686/igapyondiary-22)
   なんと 2005.12時点で Amazonに在庫がありませんでした (T_T)
 
 ## いがぴょんが購入を保留している物リスト
+
 
 * サン・サーンス作曲: 「バイオリン協奏曲　第３番　ロ短調　作品６１」
   マキシム・ヴェンゲーロフ
