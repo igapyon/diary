@@ -12,10 +12,8 @@
 
 ## Java
 
-
 * Java Platform, Standard Edition, API 仕様
   
-
   * Java2 Platform Standard Edition 5.0 API 仕様
     [http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/overview-summary.html](http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/overview-summary.html)
     
@@ -35,12 +33,10 @@
 
 ## Linux
 
-
 * Linuxコマンド
   [http://homepage2.nifty.com/cs/linux_command/command/index.html](http://homepage2.nifty.com/cs/linux_command/command/index.html)
 
 ## 更新履歴
-
 
 * 2004/11/13 Linuxコマンドリファレンスを追加。
   

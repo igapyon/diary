@@ -11,11 +11,9 @@ FOAF(Friend of a Friend)というRDFベースの知人表現メタデータと�
 RDFのRSS以外の利用方法として、FOAFなんていう利用方法(遊び方)があるそうです。[結城浩](http://www.hyuki.com/)さんの日記に触発されて、私も
 FOAFを作成してみました。また、FOAFに関するリソースをちょっとずつメモしていこうと思います。
 
-
 * [資料: RDF/RSSについて](memorss.html)
 
 ## FOAFの情報源
-
 
 * KANZAKIさん: FOAF(Friend of a Friend):メタデータによる知人ネットワークの表現
   [http://www.kanzaki.com/docs/sw/foaf.html](http://www.kanzaki.com/docs/sw/foaf.html)
@@ -33,7 +31,6 @@ FOAFを作成してみました。また、FOAFに関するリソースをちょ
 
 ## FOAFのリンクメモ
 
-
 * [いがぴょんのFOAF](../../foaf.rdf)
   →ファイル名を foaf.rdfに変更させて頂きました。
   
@@ -46,12 +43,10 @@ FOAFを作成してみました。また、FOAFに関するリソースをちょ
   XML凄腕な神崎さんのFOAF。とても勉強になります。また XSLのスタイルシートになっていて、Webブラウザで
   そのまんまビジュアル表示できるのが とってもびっくりして勉強になりました。
 
-
 * いがぴょんFOAFをFOAFエクスプローラ表示
   [http://xml.mfd-consult.dk/foaf/explorer/?foaf=http://homepage2.nifty.com/igat/igapyon/foaf.rdf](http://xml.mfd-consult.dk/foaf/explorer/?foaf=http://homepage2.nifty.com/igat/igapyon/foaf.rdf)
 
 ## 変更履歴
-
 
 * 2003.06.18 FOAFに しのさんを追加しました。
   

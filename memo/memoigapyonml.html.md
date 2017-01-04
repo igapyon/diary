@@ -12,7 +12,6 @@
 
 当メーリングリストは 下記の目的で開設されています。
 
-
 * [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/) へ情報素材を投稿
   
 * [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/) への感想を投稿
@@ -30,7 +29,6 @@ JAVA言語・XML・LINUXなどです。しかし 謎めいたクラシック音�
 ## いがぴょんの日記ウェブページメーリングリストの運用方針
 
 下記のような基本方針にて運用します。
-
 
 * MLのログそのものはWebに自動的(機械的)に公開されます
   
@@ -65,7 +63,6 @@ JAVA言語・XML・LINUXなどです。しかし 謎めいたクラシック音�
 ## いがぴょんの日記ウェブページメーリングリストのアドレスおよび
       参加/脱会方法
 
-
 * 参加する前に 必ずMLの過去ログを参照して雰囲気を理解された上で ご参加ください。
   
 * いがぴょんの日記ウェブページMLのアドレスは
@@ -76,7 +73,6 @@ JAVA言語・XML・LINUXなどです。しかし 謎めいたクラシック音�
 
 【MLログ参照方法】 
 
-
 * いがぴょんの日記ウェブページMLの過去のログは
   [http://ml.infoseek.co.jp/](http://ml.infoseek.co.jp/) から [過去メールを見る](http://ar1.easyml.com/MLarchive/) を選択いただき、 [igapyon@ml-b6.infoseek.co.jp](mailto:igapyon@ml-b6.infoseek.co.jp) を入力すると閲覧できます。
   
@@ -84,6 +80,7 @@ JAVA言語・XML・LINUXなどです。しかし 謎めいたクラシック音�
 
 【ML参加方法】 いがぴょんの日記ウェブページMLに参加されたい場合は 下記のいずれかの方法で
 MLメンバー登録処理を行ってください
+
 * [機械処理系] [http://www.hyuki.com/mlj/iga.cgi](http://www.hyuki.com/mlj/iga.cgi) ページで MLメンバー参加処理を行ってください。機械的に 新規メンバーとして登録されます。(Thanx [結城浩](http://www.hyuki.com/)さま)
   その後 おもむろに(笑) [igapyon@ml-b6.infoseek.co.jp](mailto:igapyon@ml-b6.infoseek.co.jp) に下記の内容のメールを送って下さい。
   Subject: ML参加: はじめまして。XXです
@@ -101,6 +98,7 @@ MLメンバー登録処理を行ってください
 
 【ML脱退方法】 いがぴょんの日記ウェブページMLから脱会されたい場合は 下記のいずれかの方法で
 MLメンバー脱退処理を行ってください
+
 * [機械処理系] [http://www.hyuki.com/mlj/iga.cgi](http://www.hyuki.com/mlj/iga.cgi) ページで MLメンバー脱退処理を行ってください。機械的に メンバー脱退処理が行われます。(Thanx
   [結城浩](http://www.hyuki.com/)さま)
   その後 おもむろに(笑) [igapyon@ml-b6.infoseek.co.jp](mailto:igapyon@ml-b6.infoseek.co.jp) に下記の内容のメールを送って下さい。
@@ -120,13 +118,11 @@ MLメンバー脱退処理を行ってください
 
 メール配送システムが転送できないなどの都合により 申し訳ないのですが下記のアドレスは登録削除させて頂きました。
 
-
 * (現在 特になし)
 
 再び安定してメールが受信できる状態になるとか 別のメールアドレスに変わったなどありましたら、直接[いがぴょん宛にメール](memoigamail.html)して連絡を下さい。
 
 ## 更新履歴
-
 
 * 2001/07/24 いがぴょんQメーリングリストの内容を追記
   
