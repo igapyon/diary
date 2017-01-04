@@ -9,7 +9,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-04 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170104.html)
+* [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
