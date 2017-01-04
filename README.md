@@ -34,6 +34,7 @@
 
 ### 比較的最近の日記
 
+* [2017-01-04 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
@@ -48,7 +49,6 @@
 * [2016-12-22 diary: [maven] maven インストール](https://igapyon.github.io/diary/2016/ig161222.html)
 * [2016-12-21 diary: [Geb] 動くドキュメントかつ自動テストとしての Geb スクリプト](https://igapyon.github.io/diary/2016/ig161221.html)
 * [2016-12-20 diary: [LINE] bot 関連情報の収集](https://igapyon.github.io/diary/2016/ig161220.html)
-* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
 
 
 
@@ -58,6 +58,7 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google Cloud Platform、システム構成図用のアイコンライブラリを公開](http://www.publickey1.jp/blog/17/google_cloud_platform.html) 2017/01/04
 * [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html) 2016/12/26
 * [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html) 2016/12/26
 * [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html) 2016/12/22
@@ -72,7 +73,6 @@
 * [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html) 2016/12/14
 * [「Docker for AWS」「Docker for Azure」相次いでパブリックベータに。クラウドでDockerを使うための環境を一括構築。AWS無料利用枠で利用可能](http://www.publickey1.jp/blog/16/docker_for_awsdocker_for_azuredockeraws.html) 2016/12/13
 * [VMware、vSphereをDockerコンテナ対応にする「vSphere Integrated Containers」正式リリース](http://www.publickey1.jp/blog/16/vmwarevspheredockervsphere_integrated_containers.html) 2016/12/13
-* [Google、脆弱性検出のためのファジング（Fuzzing）を機械的に実行する「OSS-Fuzz」、ベータ公開](http://www.publickey1.jp/blog/16/googlefuzzingoss-fuzz.html) 2016/12/11
 
 
 ### 私むけ役立ちリンク

@@ -28,18 +28,6 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("Convert .src.md to .md");
 
-		{
-			try {
-				new IgapyonV2Html2MdConverter().processDir(new File("."));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			// EXIT
-			if (true)
-				return;
-		}
-
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
 
 		{
@@ -62,6 +50,9 @@ public class App {
 						"安全装置：処理停止。期待とは違うディレクトリで実行されました。このプログラムは diary ディレクトリでの実行を前提とします。:" + rootdir.getName());
 				return;
 			}
+
+			// v2 システムから v3 に html -> md 変換を実施します。
+			new IgapyonV2Html2MdConverter().processDir(rootdir);
 
 			// 今日の日記について、存在しなければ作成します。
 			System.err.println("Generate today's diary file if not exists.");
