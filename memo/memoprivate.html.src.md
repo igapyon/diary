@@ -3,8 +3,12 @@
 このページはきわめて私的なメモが格納されたページです。コンテンツそのものがRSS(XML)データで作成されていて、ブックマークとしても利用しています。
 
 ## 資料: いがぴょんプライベートメモ
+
 [いがぴょんのウェブページトップへ戻る](../../index.html)
-資料: いがぴょんプライベートメモ (個人的なブックマークです) ([RSS](memoprivate.xml)) 2004
+
+
+## 資料: いがぴょんプライベートメモ (個人的なブックマークです) ([RSS](memoprivate.xml)) 2004
+
 
 * [いがぴょんの日記ウェブページv2](http://homepage2.nifty.com/igat/igapyon/diary/index.html)  2004私の日記ウェブページそのものです。
 * [アマゾン・アソシエイト・プログラム](http://www.amazon.co.jp/exec/obidos/subst/associates/join/associates.html/ref=mk_as_h_3_1/249-2834003-1474760)  2004現在、参加させていただいております。

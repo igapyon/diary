@@ -3,7 +3,9 @@
 いがぴょん固有のヴァイオリンメモです。メンテナンス方法など載っています。
 
 ## 資料: いがぴょん用ヴァイオリン・メモ
+
 [いがぴょんのウェブページトップへ戻る](../../index.html)
+
 ## いがぴょんのヴァイオリンメモ
 
 いがぴょん固有の ヴァイオリンのメモですメンテナンスや基礎練習など 日々の注意に関するメモが含まれます。かなり特殊でユニークな方法です。一般のヴァイオリン奏者の方々には全く薦められません。猛毒みたいなものですので、このページは見ない方が良いです。
@@ -68,8 +70,17 @@
 私が持っているヴァイオリンは Stefano Trabucchi 1991 Cremona という作品です。
 
 * Stefano Trabucchi (トラブッキ・ステーファノ/ステファノ・トラブッチ) さんの経歴
-  1970年誕生？1988年The International School of Violinmaking in Cremonaを主席で卒業されたとのこと。。卒業後
-        M.Nolliさんの工房で働かれました。1992年独立されました。このことから 私のヴァイオリンは独立前の作品であることがわかります。1992年The Bagnacavallo Young Violinmakers Competitionで第2位受賞。
+  1970年
+誕生？
+1988年
+The International School of Violinmaking in Cremonaを主席で卒業されたとのこと。。卒業後
+        M.Nolliさんの工房で働かれました。
+1992年
+独立されました。このことから 私のヴァイオリンは独立前の作品であることがわかります。
+1992年
+The Bagnacavallo Young Violinmakers Competitionで第2位受賞。
+
+
 
 Stefano Trabucchiさん本人のページ
 
@@ -189,8 +200,17 @@ Hiroko Miyazakiさんという方のページ。私と同じ作者のヴァイ�
 私が持っているヴァイオリンのひとつは Stefano Trabucchi 1991 Cremona という作品です。
 
 * Stefano Trabucchi (トラブッキ・ステーファノ/ステファノ・トラブッチ) さんの経歴
-  1970年誕生？1988年The International School of Violinmaking in Cremonaを主席で卒業されたとのこと。。卒業後
-        M.Nolliさんの工房で働かれました。1992年独立されました。このことから 私のヴァイオリンは独立前の作品であることがわかります。1992年The Bagnacavallo Young Violinmakers Competitionで第2位受賞。
+  1970年
+誕生？
+1988年
+The International School of Violinmaking in Cremonaを主席で卒業されたとのこと。。卒業後
+        M.Nolliさんの工房で働かれました。
+1992年
+独立されました。このことから 私のヴァイオリンは独立前の作品であることがわかります。
+1992年
+The Bagnacavallo Young Violinmakers Competitionで第2位受賞。
+
+
 
 Stefano Trabucchiさん本人のページ
 

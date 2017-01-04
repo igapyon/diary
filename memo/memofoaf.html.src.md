@@ -3,7 +3,9 @@
 FOAF(Friend of a Friend)というRDFベースの知人表現メタデータというものに興味を持ちました。
 
 ## 資料: FOAF (Friend of a Friend) メモ
+
 [いがぴょんのウェブページトップへ戻る](../../index.html)
+
 ## FOAFメモ
 
 RDFのRSS以外の利用方法として、FOAFなんていう利用方法(遊び方)があるそうです。[結城浩](http://www.hyuki.com/)さんの日記に触発されて、私も

@@ -3,7 +3,9 @@
 私のための Windows XP 設定やチューニングのメモです。とりあえず今回は あまりデフォルトからは変更しないという方針で考えています。
 
 ## 資料: Windows XP 設定＆チューニングメモ
+
 [いがぴょんのウェブページトップへ戻る](../../index.html)
+
 ## 基本的な設定
 
 * パスワードを設定
@@ -46,6 +48,7 @@ Windows Registry Editor Version 5.00
       "IoPageLockLimit"=dword:00010000
       [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
       "NtfsDisableLastAccessUpdate"=dword:00000001
+
 * カーネルを実メモリのみに展開 : DisablePagingExecutive
   デフォルト : "DisablePagingExecutive"=dword:00000000
   

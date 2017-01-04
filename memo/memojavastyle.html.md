@@ -3,7 +3,9 @@
 Java言語ソースファイルのスタイル整形に関するメモ。astyleやcheckstyleなどのメモ書きが含まれます。
 
 ## 資料: Java言語ソースファイルのスタイルおよび調整ツール
+
 [いがぴょんのウェブページトップへ戻る](../../index.html)
+
 ## Java言語コーディング規約
 
 そもそも Java言語コーディング規約にまつわるものとして、下記があります。(そしてこの２つが有名です)
@@ -69,7 +71,8 @@ Java言語コーディング規約に合致していない点に注意)
 ## お好みツール
 
 上記を組み合わせて お好みなバッチを作成して使っています。
-st.batecho off
+st.bat
+echo off
 rem Javaソースファイルのスタイル整形＆チェックツール
 echo astyle実行
 astyle -j --style=java -p -s %1 %2 %3 %4 %5 %6 %7 %8 %9
@@ -78,6 +81,7 @@ echo checkstyle実行
       java com.puppycrawl.tools.checkstyle.Main %1
       
       diff -urN %1.orig %1
+
 これで st ファイル名.java のように指定すれば、ソースファイル整形とソースファイルのスタイルチェックとがいっぺんに起動できます。
 
 ## 更新履歴
