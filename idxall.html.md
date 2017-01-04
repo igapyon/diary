@@ -7,10 +7,6 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-## いがぴょんの日記ウェブページv3：日記を全て
-
-### 日記の年別インデックス
-
 [2017](https://igapyon.github.io/diary/2017/index.html)
 / [2016](https://igapyon.github.io/diary/2016/index.html)
 / [2015](https://igapyon.github.io/diary/2015/index.html)
@@ -33,7 +29,9 @@
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
 
-### いがぴょんの日記：日記を全て
+## いがぴょんの日記ウェブページv3：日記を全て
+
+### 全ての日記
 
 * [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)

@@ -6,10 +6,6 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/) 
 
-## いがぴょんの日記ウェブページv3：トップ
-
-### 日記の年別インデックス
-
 [2017](https://igapyon.github.io/diary/2017/index.html)
 / [2016](https://igapyon.github.io/diary/2016/index.html)
 / [2015](https://igapyon.github.io/diary/2015/index.html)
@@ -31,6 +27,8 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+
+## いがぴょんの日記ウェブページv3：トップ
 
 ### 比較的最近の日記
 
