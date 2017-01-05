@@ -34,7 +34,8 @@
 ## いがぴょんの日記：キーワード
 
 * [いがぴょんの日記：キーワード](https://igapyon.github.io/diary/keyword/index.html)
-* [About Maven](https://igapyon.github.io/diary/keyword/Maven.html)
+* [Maven](https://igapyon.github.io/diary/keyword/Maven.html)
+* [Maven](https://igapyon.github.io/diary/keyword/FreeMarker.html)
 
 
 ----------------------------------------------------------------------------------------------------

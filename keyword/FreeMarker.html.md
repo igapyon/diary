@@ -8,17 +8,17 @@ Maven
 
 ### URL
 
-* [https://maven.apache.org/](https://maven.apache.org/)
+* [http://freemarker.org/](http://freemarker.org/)
 
 ### 特徴
 
-* Java で書かれた有名なビルドシステム。
-* Java 以外の Java ベースシステムでもこれが利用される。
-* Maven 用のリポジトリが非常に充実している。
+* Java で書かれたテンプレートシステムです。
+* HTML 以外に平文テキストも扱うことができます。
+* Velocity の後継とみなすこともできます。
 
 ### まとめ情報
 
-* [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
+* [Hishidama's](http://www.ne.jp/asahi/hishidama/home/tech/java/freemarker/index.html)
 
 ### 日記タイトル言及
 

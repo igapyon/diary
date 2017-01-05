@@ -37,8 +37,6 @@ public class App {
 
 		{
 			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] { //
-					{ "Maven", "https://igapyon.github.io/diary/keyword/Maven.html" }, //
-					{ "FreeMarker", "http://freemarker.org/" }, //
 					{ "艦これ", "http://www.dmm.com/netgame/feature/kancolle.html" }, //
 			};
 

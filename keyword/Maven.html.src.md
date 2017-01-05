@@ -2,7 +2,7 @@
 
 ### URL
 
--https://maven.apache.org/
+* https://maven.apache.org/
 
 ### 特徴
 

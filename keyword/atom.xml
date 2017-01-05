@@ -13,12 +13,21 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>About Maven</title>
+    <title>Maven</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/keyword/Maven.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/keyword/Maven.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>Maven</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/keyword/FreeMarker.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/keyword/FreeMarker.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
