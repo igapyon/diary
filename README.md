@@ -59,6 +59,7 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Amazon AI発表／ムーアの法則が成立しなくなると／Linux OSからFPGAを透過的に利用ほか、2016年12月の人気記事](http://www.publickey1.jp/blog/17/amazon_ailinux_osfpga201612.html) 2017/01/06
 * [マイクロサービスアーキテクチャに最適化したJavaを実現するための「MicroProfile」、Eclipseの正式プロジェクトに](http://www.publickey1.jp/blog/17/javamicroprofileeclipse.html) 2017/01/05
 * [Rust言語、asm.jsやWebAssemblyをサポートへ。WebブラウザやNode.jsで実行可能に](http://www.publickey1.jp/blog/17/rustasmjswebassemblywebnodejs.html) 2017/01/05
 * [Google Cloud Platform、システム構成図用のアイコンライブラリを公開](http://www.publickey1.jp/blog/17/google_cloud_platform.html) 2017/01/04
@@ -73,7 +74,6 @@
 * [Dockerエンジンのコアランタイムが「containerd」として分離、独立したオープンソースプロジェクトに。Docker、AWS、Google、IBM、マイクロソフトらが協力して開発推進へ](http://www.publickey1.jp/blog/16/dockercontainerddockerawsgoogleibm.html) 2016/12/16
 * [IBMのサーバレスコンピューティング環境「OpenWhisk」がBluemix上で正式サービスに。Dockerイメージも実行可能](http://www.publickey1.jp/blog/16/ibmopenwhiskbluemixdocker.html) 2016/12/15
 * [国内クラウド市場、2015年度は1兆円を突破していた。2020年度には3倍の3兆円超えに。利用しているクラウドの1位はAWS、Azureが追い上げ中。MM総研](http://www.publickey1.jp/blog/16/201512020331awsazuremm.html) 2016/12/14
-* [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html) 2016/12/14
 
 
 ### 私むけ役立ちリンク
