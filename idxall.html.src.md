@@ -7,6 +7,6 @@
 
 ## いがぴょんの日記ウェブページv3：日記を全て
 
-### 全ての日記
+### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
 ${indexAtomXml}

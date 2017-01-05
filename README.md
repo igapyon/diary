@@ -34,7 +34,7 @@
 
 ## いがぴょんの日記ウェブページv3：トップ
 
-### 比較的最近の日記
+### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
 * [2017-01-06 diary: 今日から仕事](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: FreeMarker の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)

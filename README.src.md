@@ -6,7 +6,7 @@
 
 ## いがぴょんの日記ウェブページv3：トップ
 
-### 比較的最近の日記
+### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
 ${indexAtomRecentXml}
 

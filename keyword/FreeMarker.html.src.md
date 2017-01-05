@@ -17,7 +17,7 @@ FreeMarker は [[Apache]] ファウンデーション配下のテンプレート
 ### まとめ情報
 
 * [Hishidama's](http://www.ne.jp/asahi/hishidama/home/tech/java/freemarker/index.html)
-* [Site Search](https://www.google.co.jp/#q=site:http:%2F%2Figapyon.github.io%2Fdiary+igapyon&pws=0)
+* [Search on Igapyon Diary](https://www.google.co.jp/#q=site:http:%2F%2Figapyon.github.io%2Fdiary+igapyon&pws=0)
 * [Search in Google](https://www.google.co.jp/#q=FreeMarker)
 * [Search in Twitter](https://twitter.com/search?q=FreeMarker)
 
