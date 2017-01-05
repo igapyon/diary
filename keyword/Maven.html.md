@@ -22,6 +22,7 @@ Maven は [Apache](https://www.apache.org/) ファウンデーション配下の
 
 ### まとめ情報
 
+* [Site Search](https://www.google.co.jp/#q=site:http:%2F%2Figapyon.github.io%2Fdiary+Maven%20Apache&pws=0)
 * [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
 * [Search in Google](https://www.google.co.jp/#q=Maven+Apache)
 * [Search in Twitter](https://twitter.com/search?q=Maven%20Apache)

@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-01-06 diary: 今日から仕事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170106.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170106.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-01-05 diary: FreeMarker の処理解釈を抑止する方法</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170105.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2016/ig161222.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2016-12-21 diary: [Geb] 動くドキュメントかつ自動テストとしての Geb スクリプト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161221.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2016/ig161221.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

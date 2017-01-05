@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記
 
+* [2017-01-06 diary: 今日から仕事](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: FreeMarker の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
 * [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
@@ -50,7 +51,6 @@
 * [2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える](https://igapyon.github.io/diary/2016/ig161224.html)
 * [2016-12-23 diary: [maven] 初めての maven の Java プロジェクト](https://igapyon.github.io/diary/2016/ig161223.html)
 * [2016-12-22 diary: [maven] maven インストール](https://igapyon.github.io/diary/2016/ig161222.html)
-* [2016-12-21 diary: [Geb] 動くドキュメントかつ自動テストとしての Geb スクリプト](https://igapyon.github.io/diary/2016/ig161221.html)
 
 
 ### 他サイトのニュースフィード
