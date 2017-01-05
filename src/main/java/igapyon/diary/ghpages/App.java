@@ -3,7 +3,6 @@ package igapyon.diary.ghpages;
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 import com.rometools.rome.feed.synd.SyndEntry;
@@ -125,7 +124,7 @@ public class App {
 				feed.setAuthor("Toshiki Iga");
 				feed.setEncoding("UTF-8");
 				feed.setGenerator("https://github.com/igapyon/igapyonv3");
-				feed.setPublishedDate(new Date());
+				// feed.setPublishedDate(new Date());
 				feed.setLanguage("ja_JP");
 				feed.setFeedType("atom_1.0");
 
