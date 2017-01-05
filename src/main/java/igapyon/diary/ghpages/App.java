@@ -91,7 +91,7 @@ public class App {
 				diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 
 				// sort them
-				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator(true));
 
 				writeAtom(diaryItemInfoList, new File(rootdir, "atom.xml"), "Igapyon Diary v3 all");
 
@@ -100,17 +100,13 @@ public class App {
 
 					final List<DiaryItemInfo> recentItemInfoList = new ArrayList<DiaryItemInfo>();
 
-					for (int index = diaryItemInfoList.size() - 1; index >= 0; index--) {
-						final DiaryItemInfo itemInfo = diaryItemInfoList.get(index);
+					for (DiaryItemInfo itemInfo : diaryItemInfoList) {
 						diaryListupCount--;
 						recentItemInfoList.add(itemInfo);
 						if (diaryListupCount <= 0) {
 							break;
 						}
 					}
-
-					// sort again.
-					Collections.sort(recentItemInfoList, new DiaryItemInfoComparator());
 
 					writeAtom(recentItemInfoList, new File(rootdir, "atomRecent.xml"), "Igapyon Diary v3 recent");
 				}
@@ -139,7 +135,7 @@ public class App {
 				diaryItemInfoList.addAll(diaryItemInfoHtmlList);
 
 				// sort them
-				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
+				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator(false));
 
 				writeAtom(diaryItemInfoList, new File(rootdir, year + "/atom.xml"), "Igapyon Diary v3 year " + year);
 			}
@@ -158,6 +154,9 @@ public class App {
 		feed.setGenerator("https://github.com/igapyon/igapyonv3");
 		feed.setLanguage("ja_JP");
 		feed.setFeedType("atom_1.0");
+
+		// sort desc order
+		Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator(true));
 
 		for (DiaryItemInfo diaryItemInfo : diaryItemInfoList) {
 			final SyndEntry entry = new SyndEntryImpl();

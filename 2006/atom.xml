@@ -4,1497 +4,12 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
-    <title>2006-01-01 diary: 今年は良い年でありますように , NASやテレビチューナーボードを検討中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060101.html" />
+    <title>2006-12-29 diary: blancoDbPhp公開ベータ版のリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061229.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
-    <id>https://igapyon.github.io/diary/2006/ig060101.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-04 diary: blancoResourceBundle不安定版の更新 , blancoEclipsePluginGen の新規作成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060104.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060104.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-06 diary: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060106.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060106.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-09 diary: 合宿でバロックダンスのステップを習ってきました。武満徹さんの作品を弾いてきました。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060109.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060109.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-10 diary: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060110.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060110.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-11 diary: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060111.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060111.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-12 diary: OpenOffice.org 2.0.1 日本語版リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060112.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060112.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-13 diary: Javaクラスファイル勉強</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060113.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060113.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-14 diary: blancoJUnitプロジェクト 始動 , AjaxからJSONへ , OpenDocument, Rubyなど</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060114.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060114.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-16 diary: blanco Frameworkのドキュメントは、WORD形式でドキュメントを作成し、それを HTML/PDF/TEXT変換する方針で…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060116.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060116.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-17 diary: WX300K (個人用PHS) 購入 , blancoResourceBundle最新安定版 (0.4.5) リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060117.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060117.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-18 diary: blancoStringConvプロジェクト(案)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060118.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060118.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-19 diary: blancoDb Enterprise Edition仕様 (ドキュメント) のアップロード</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060119.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060119.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-20 diary: Ubuntu体験 , blancoDbDotNet仕様 (ドキュメント) のアップロード</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060120.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060120.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-22 diary: blanco Framework: blancoDb Enterprise Edition 1.4.1 リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060122.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060122.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-23 diary: blancoDb Enterprise Edition 最新安定版 (1.4.1) リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060123.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060123.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-24 diary: 定数定義書から定数クラスを自動生成する blancoConstantsを新規作成 , オブジェクト指向様式</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060124.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060124.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-25 diary: Windows XP のオフラインフォルダを体験 , 今日は終日会議の予定</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060125.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060125.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-26 diary: WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NETソースコードを生成させる</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060126.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060126.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-27 diary: C#.NETの場合には POCOになる？のかしら？</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060127.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060127.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-28 diary: 自宅用 無線ブロードバンドルーター購入 , ソフトウェア開発現場の転記作業を自動化すること , Eclipse</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060128.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060128.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-29 diary: 衣食足りて礼節を知る、というか身だしなみを改善せねば…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060129.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060129.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-01-30 diary: 開発工程の継続的な改善に取り組んだ結果</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060130.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060130.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-02 diary: SoapException , blancoCodeGenerator(DotNet)にアノテーション機能を追加</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060202.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060202.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-03 diary: Microsoft SQL Server 2005 via JDBCドライバを体験</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060203.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060203.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-06 diary: blanco Framework Community会 を企画中… (2006年03月01日に開催予定)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060206.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060206.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-07 diary: blancoDb Enterprise Editionの英語対応を検討</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060207.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060207.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-08 diary: blancoCsvにタイトル行機能を追加</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060208.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060208.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-09 diary: blancoCsvをタイトル行に対応させました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060209.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060209.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-10 diary: Javaのメモリ管理など</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060210.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060210.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-11 diary: Javaのサンドボックスにセキュリティホールの報告 , 花粉症の症状が出ています</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060211.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060211.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-13 diary: 一太郎2006＆花子2006スペシャルパック 購入</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060213.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060213.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-14 diary: 急に仕事忙しくなりました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060214.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060214.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-15 diary: blanco Framework Community会＠東京港区 (2006年3月1日 18:00-) 開催</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060215.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060215.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-16 diary: 今日の午前中に重要な会議が…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060216.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060216.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-19 diary: PCリサイクルにてエコゆうパック体験 , トランクルーム・レンタル倉庫のようなものを探索中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060219.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060219.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-21 diary: blanco Framework概要を更新: 規模と新技術のあいだのジレンマを追記</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060221.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060221.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-22 diary: 今日は恵比寿に出張, blancoDbのMicrosoft SQL Server 2005対応関連作業</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060222.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060222.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-23 diary: Developers' Lounge＠表参道に参加してきました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060223.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060223.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-24 diary: Microsoft SQL ServerのJDBCドライバ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060224.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060224.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-25 diary: blanco Framework Community会の飲み会の部の場所決定 (LD104)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060225.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060225.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-27 diary: 風が強め</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060227.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060227.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-02-28 diary: 仕事が最大レベルで忙しいです</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060228.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060228.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-01 diary: blanco Framework Community会＠東京港区 18:00から</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060301.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060301.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-02 diary: ばりばりとプログラミング , CodeZineというメディアに興味が湧いてきています</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060302.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060302.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-04 diary: オープンソース・ビジネスと保守予算とのカンケイ？</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060304.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060304.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-06 diary: blancoClass (クラス定義) 検討中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060306.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060306.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-08 diary: 花粉症シーズン到来 , UML記法の勉強</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060308.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060308.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-09 diary: 学習机の自作</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060309.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060309.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-11 diary: blanco Framework 短期ロードマップ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060311.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060311.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-12 diary: 花粉症の症状が悪化中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060312.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060312.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-14 diary: JavaScriptソースコード自動生成(blancoCodeGeneratorJavaScript)案 , 引き続き花粉症</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060314.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060314.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-15 diary: オープンソースカンファレンス2006 Tokyo/Springのライトニングトークで blanco Frameworkを紹介します</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060315.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060315.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-16 diary: blanco Frameworkのソースコード自動生成などに関して、改善したいこと</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060316.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060316.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-17 diary: blanco Framework .NET対応版の小文字プリミティブ型への対応 , 仕事忙しいです</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060317.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060317.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-18 diary: OSC2006 ライトニングトーク</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060318.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060318.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-21 diary: 今日は休日出勤</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060321.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060321.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-22 diary: 2nd. Developers' Loungeに参加してきました , 花粉症＋仕事が忙しすぎて疲れ中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060322.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060322.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-24 diary: blancoDbのiBatis対応</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060324.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060324.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-26 diary: blanco Frameworkの JDK 1.5.x対応状況 , blancoDbの iBatis対応 , blancoXml案</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060326.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060326.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-28 diary: 仕事忙しいです</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060328.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060328.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-29 diary: 日経コンピュータ(2006.03.20)に blanco Frameworkを取り上げていただきました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060329.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060329.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-30 diary: 日経コンピュータ(2006.03.20)のDSL特集記事で blanco Framework を取り上げて頂きました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060330.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060330.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-03-31 diary: blancoCsv 0.4.0 最新安定版リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060331.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060331.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-01 diary: エイプリルフール , 退社しました。入社しました。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060401.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060401.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-03 diary: blancoDb Enterprise Edition次期安定版 準備中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060403.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060403.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-05 diary: eclipse.exe -cleanオプションのデフォルト利用化の薦め , まだまだ花粉症</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060405.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060405.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-07 diary: blancoDb Enterprise Edition 1.6.1 (バグフィックス単体試験版) リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060407.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060407.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-09 diary: blancoFixedLength ファーストバージョンのリリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060409.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060409.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-11 diary: 茅場町を訪問</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060411.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060411.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-13 diary: blancoCg作り中 , 今日も いつも 花粉症</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060413.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060413.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-15 diary: 椅子の探索</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060415.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060415.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-17 diary: blancoCg Java/C#.NET両言語向け自動生成機能が ほぼ実装完了</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060417.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060417.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-19 diary: 花粉症＋黄砂でヘロヘロです</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060419.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060419.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-20 diary: blancoValueObjectのEclipseプラグイン版を検討開始</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060420.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060420.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-24 diary: 今日は花粉症の症状は 少し緩和されています , blancoCgの JavaScript対応 , blancoEclipsePluginGenを少しだけ強化</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060424.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060424.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-25 diary: JavaScript言語仕様を勉強中… 「Effective JavaScript」</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060425.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060425.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-27 diary: 昨日は大阪出張 , JavaScriptのJavaDocみたいな仕組みを簡単に調査中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060427.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060427.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-04-28 diary: blancoValueObjectのEclipseプラグイン版をリリース , Apache Axis 1.4</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060428.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060428.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-01 diary: blancoDb Enterprise Edition 1.6.4 RC3リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060501.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060501.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-03 diary: blancoXmlBinding新規作成 , blancoCg自身のblancoCgによる自動生成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060503.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060503.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-06 diary: 将棋ネタ・アラカルト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060506.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060506.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-07 diary: 風邪をひいてしまった模様です</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060507.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060507.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-08 diary: blancoDb Enterprise Edition 1.6.4 正式版 リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060508.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060508.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-09 diary: BlancoSqlEditorPlugin 0.3.6 リリース , blancoSqlFormatter 0.0.2リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060509.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060509.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-15 diary: Apache Axis2 1.0 調査開始 → Axis1系に比べてパフォーマンスが劇的に改善されている模様</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060515.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060515.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-16 diary: 今日は東京で仕事します</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060516.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060516.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-17 diary: 自宅の回線を Bフレッツへと切り替え , 年休取得 , blancoValueObjectに機能追加</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060517.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060517.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-20 diary: こどもが よめる しょうぎの ほん (子どもが読める将棋の本)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060520.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060520.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-23 diary: しごとが とても いそがしいです</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060523.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060523.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-24 diary: .NET Framework: ADO.NET 2.0 関連リンクメモ , 仕事が想定外に忙しくなりました。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060524.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060524.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-25 diary: JavaScriptのコメントからの自動ドキュメントにHeaderDocを採用</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060525.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060525.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-26 diary: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060526.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060526.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-29 diary: メールの処理だけで16時まで…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060529.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060529.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-05-31 diary: 昨日の日帰り大阪出張にて疲労蓄積中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060531.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060531.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-01 diary: JavaScriptコメントからのドキュメント生成に JSDocを利用する</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060601.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060601.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-06 diary: 豆ナイトに参加してきました , blanco Framework業務従事メンバーを増やす調整を企み中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060606.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060606.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-07 diary: 地底人の秘密</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060607.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060607.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-08 diary: 冷房が寒い</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060608.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060608.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-09 diary: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060609.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060609.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-10 diary: 路面電車の日</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060610.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060610.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-12 diary: blancoCgのJavaScript対応について、APIリファレンス用のコメントをJSDoc対応させました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060612.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060612.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-16 diary: ソースコード自動生成ライブラリ blancoCgの説明ページを整備</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060616.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060616.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-18 diary: 4th. Developers' Lounge (2006-06-15)に参加してきました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060618.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060618.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-24 diary: オープンソースカンファレンス2006 .DB (OSC2006 .DB) に参加 , 五嶋龍さんのヴァイオリン弦の種類</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060624.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060624.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-26 diary: blanco Frameworkのサンプル概略に設計着手</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060626.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060626.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-06-28 diary: R/Oマッピングの特徴 , すごいリッチクライアント・プロトタイプ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060628.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060628.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-02 diary: ピリオド・アプローチなどを調べ中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060702.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060702.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-04 diary: 一泊二日で大阪出張中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060704.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060704.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-05 diary: 大阪出張の疲労が蓄積中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060705.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060705.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-07 diary: blancoSOAPの .NET Framework対応は、.NET Framework 2.0ベースへと移行します</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060707.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060707.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-10 diary: 07/12(水)から07/13(木)まで大阪出張します</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060710.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060710.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-11 diary: JExcelApi 2.5.8 が Sun JDK 1.4.2_12 上で動作が異常の場合がある</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060711.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060711.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-13 diary: 一泊二日で大阪出張中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060713.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060713.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-15 diary: ヴァイオリンを抜本的に調整</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060715.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060715.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-18 diary: blancoDbDotNet単体試験中 , 明日は大阪出張</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060718.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060718.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-21 diary: サンプル ストアドプロシージャ (SQL Server 2005)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060721.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060721.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-23 diary: 土日で少しだけ体力回復…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060723.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060723.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-24 diary: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060724.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060724.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-26 diary: SourceForge.jpのダウンロードが不調な場合の回避策をメモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060726.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060726.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-28 diary: FireFoxのJavaScriptデバッガのメモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060728.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060728.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-07-30 diary: レゴ マインドストームのメモ , 仕事忙しいです。大阪出張してきました。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060730.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060730.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-08-07 diary: 第３４回全国アマチュアオーケストラフェスティバル宮崎大会に参加</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060807.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060807.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-08-17 diary: ガンダム切手 , 将棋アマチュア５級</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060817.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060817.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-08-18 diary: JavaScriptエディターのメモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060818.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060818.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-08-28 diary: Internet  Explorerのメモリリーク関連のメモ。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060828.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060828.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-01 diary: ファイル定義書(固定長)からC#.NETソースコード自動生成 , 今日の実績は 1492行/日</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060901.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060901.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-02 diary: 国立歴史民俗博物館 (歴博) に行きました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060902.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060902.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-05 diary: 温度・湿度計付き電波時計を購入</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060905.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060905.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-06 diary: 夏の思い出: 秩父鉄道のSLに乗って長瀞にいきました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060906.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060906.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-12 diary: 「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060912.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060912.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-13 diary: 「文字列グループ定義書」というExcel様式を入力として、文字列グループを処理するクラス・ソースコードを作成するツール「blancoStringGroup」を新規作成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060913.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060913.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-17 diary: 某プロジェクトの火消しに参加中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060917.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060917.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-20 diary: マスカット・AJAXフレームワークの公開が開始</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060920.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060920.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-27 diary: blancoCsvがとても便利 , 体調不良から少しだけ回復</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060927.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060927.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-28 diary: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060928.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060928.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-09-29 diary: 「文字列変換定義書」というExcel様式を入力として、文字列置換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060929.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig060929.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-03 diary: 「メッセージ定義書」というExcel様式を入力として、メッセージ文字列を処理するクラス・ソースコードを作成するツール「blancoMessage」を新規作成</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061003.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061003.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-05 diary: 文字・文字列関連 blanco Frameworkプロダクト (Eclipseプラグイン対応版)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061005.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061005.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-17 diary: CSVファイル入出力 Java / C#.NET ソースコードを自動生成する blancoCsv (1.0.0)リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061017.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061017.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-20 diary: Javaアプリケーションを簡単に常駐プログラム化する blancoService 最新版リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061020.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061020.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-25 diary: バッチ処理定義書からバッチ処理抽象親クラスを自動生成する blancoBatchProcessを更新</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061025.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061025.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-28 diary: オープンソースカンファレンス2006 (OSC2006) Tokyo/Fall のライトニングトークにて発表をさせていただきました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061028.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061028.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-10-31 diary: blanco Frameworkに VB.NET対応追加を実験</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061031.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061031.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-01 diary: JExcelApiメーリングリスト開設 , blancAnt と blancoAntTask</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061101.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061101.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-03 diary: Stefano Trabucchiさんに お会いしました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061103.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061103.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-06 diary: 素因数分解をおこなうトイアプリ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061106.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061106.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-07 diary: blanco Frameworkに PHP対応を追加開始しました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061107.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061107.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-08 diary: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061108.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061108.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-09 diary: blancoMessageにVB.NET, PHPソースコード生成機能を追加</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061109.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061109.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-10 diary: blancoCharacterGroup, blancoStringGroupの VB.NET, PHP対応のベータ版を公開</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061110.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061110.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-11 diary: 自宅PCにFireFox 2.0を導入</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061111.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061111.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-13 diary: blancoStringConverterの VB.NET, PHP対応のベータ版を公開</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061113.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061113.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-14 diary: カシオ計算機: 電子ピアノ プリビィア (PX-700) 購入</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061114.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061114.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-15 diary: blancoDb Enterprise Edition 1.6.8 リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061115.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061115.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-21 diary: blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061121.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061121.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-23 diary: blancoDb Enterprise Editionの構造整理に着手しました</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061123.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061123.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-11-25 diary: 第２世代 blancoDb を設計中…</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061125.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061125.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-04 diary: Microsoft SQL Server 2005 JDBC Driver 1.1 リリース / selectMethod=cursorは</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061204.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061204.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-05 diary: BlancoEclipseDistribution 出荷候補版リリース , OpenJDK (JavaのOSS化)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061205.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061205.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-06 diary: 自宅パソコン更新 (Intel Core 2 Duo + Intel P965)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061206.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061206.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-09 diary: The KGS Go Server</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061209.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061209.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-12 diary: Sun Java SE 6 (JDK 1.6) リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061212.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061212.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-14 diary: C++言語からJava言語の呼び出しのソースコード(C++ソース)を自動生成する 「blancoJni」 を試作</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061214.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061214.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-19 diary: blancoDbPhp 開発版の公開</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061219.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061219.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2006-12-20 diary: blanco Framework: [[blancoDbPhp]] 開発版をリリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061220.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2006/ig061220.html</id>
+    <id>https://igapyon.github.io/diary/2006/ig061229.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
@@ -1507,12 +22,1497 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2006-12-29 diary: blancoDbPhp公開ベータ版のリリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061229.html" />
+    <title>2006-12-20 diary: blanco Framework: [[blancoDbPhp]] 開発版をリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061220.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
-    <id>https://igapyon.github.io/diary/2006/ig061229.html</id>
+    <id>https://igapyon.github.io/diary/2006/ig061220.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-19 diary: blancoDbPhp 開発版の公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061219.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061219.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-14 diary: C++言語からJava言語の呼び出しのソースコード(C++ソース)を自動生成する 「blancoJni」 を試作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061214.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061214.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-12 diary: Sun Java SE 6 (JDK 1.6) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061212.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061212.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-09 diary: The KGS Go Server</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061209.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061209.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-06 diary: 自宅パソコン更新 (Intel Core 2 Duo + Intel P965)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061206.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061206.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-05 diary: BlancoEclipseDistribution 出荷候補版リリース , OpenJDK (JavaのOSS化)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061205.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061205.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-12-04 diary: Microsoft SQL Server 2005 JDBC Driver 1.1 リリース / selectMethod=cursorは</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061204.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061204.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-25 diary: 第２世代 blancoDb を設計中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061125.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061125.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-23 diary: blancoDb Enterprise Editionの構造整理に着手しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061123.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061123.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-21 diary: blanco Frameworkは 新たに VB.NET および PHP (php5) ソースコード自動生成に対応しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061121.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061121.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-15 diary: blancoDb Enterprise Edition 1.6.8 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061115.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061115.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-14 diary: カシオ計算機: 電子ピアノ プリビィア (PX-700) 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-13 diary: blancoStringConverterの VB.NET, PHP対応のベータ版を公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-11 diary: 自宅PCにFireFox 2.0を導入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061111.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061111.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-10 diary: blancoCharacterGroup, blancoStringGroupの VB.NET, PHP対応のベータ版を公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061110.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061110.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-09 diary: blancoMessageにVB.NET, PHPソースコード生成機能を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061109.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061109.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-08 diary: Java: シンプルな C言語からJava言語を呼び出すJNIサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061108.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061108.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-07 diary: blanco Frameworkに PHP対応を追加開始しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061107.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061107.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-06 diary: 素因数分解をおこなうトイアプリ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061106.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061106.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-03 diary: Stefano Trabucchiさんに お会いしました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061103.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061103.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-11-01 diary: JExcelApiメーリングリスト開設 , blancAnt と blancoAntTask</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061101.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061101.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-31 diary: blanco Frameworkに VB.NET対応追加を実験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061031.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061031.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-28 diary: オープンソースカンファレンス2006 (OSC2006) Tokyo/Fall のライトニングトークにて発表をさせていただきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061028.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061028.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-25 diary: バッチ処理定義書からバッチ処理抽象親クラスを自動生成する blancoBatchProcessを更新</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061025.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061025.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-20 diary: Javaアプリケーションを簡単に常駐プログラム化する blancoService 最新版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061020.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061020.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-17 diary: CSVファイル入出力 Java / C#.NET ソースコードを自動生成する blancoCsv (1.0.0)リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061017.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061017.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-05 diary: 文字・文字列関連 blanco Frameworkプロダクト (Eclipseプラグイン対応版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061005.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061005.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-10-03 diary: 「メッセージ定義書」というExcel様式を入力として、メッセージ文字列を処理するクラス・ソースコードを作成するツール「blancoMessage」を新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061003.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig061003.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-29 diary: 「文字列変換定義書」というExcel様式を入力として、文字列置換を処理するクラス・ソースコードを作成するツール「blancoStringConverter」を新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060929.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060929.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-28 diary: JExcelApi 2.6で × などの特定の文字を適切に処理できるようにするためのパッチ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060928.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060928.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-27 diary: blancoCsvがとても便利 , 体調不良から少しだけ回復</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060927.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060927.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-20 diary: マスカット・AJAXフレームワークの公開が開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060920.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060920.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-17 diary: 某プロジェクトの火消しに参加中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060917.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060917.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-13 diary: 「文字列グループ定義書」というExcel様式を入力として、文字列グループを処理するクラス・ソースコードを作成するツール「blancoStringGroup」を新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060913.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060913.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-12 diary: 「文字グループ定義書」というExcel様式を入力として、文字グループを処理するクラス・ソースコードを作成するツール「blancoCharacterGroup」を新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060912.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060912.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-06 diary: 夏の思い出: 秩父鉄道のSLに乗って長瀞にいきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060906.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060906.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-05 diary: 温度・湿度計付き電波時計を購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060905.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060905.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-02 diary: 国立歴史民俗博物館 (歴博) に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060902.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060902.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-09-01 diary: ファイル定義書(固定長)からC#.NETソースコード自動生成 , 今日の実績は 1492行/日</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060901.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060901.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-08-28 diary: Internet  Explorerのメモリリーク関連のメモ。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060828.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060828.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-08-18 diary: JavaScriptエディターのメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060818.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060818.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-08-17 diary: ガンダム切手 , 将棋アマチュア５級</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060817.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060817.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-08-07 diary: 第３４回全国アマチュアオーケストラフェスティバル宮崎大会に参加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060807.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060807.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-30 diary: レゴ マインドストームのメモ , 仕事忙しいです。大阪出張してきました。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060730.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060730.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-28 diary: FireFoxのJavaScriptデバッガのメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060728.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060728.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-26 diary: SourceForge.jpのダウンロードが不調な場合の回避策をメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060726.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060726.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-24 diary: JExcelApi 2.6 を Sun Java2 SE 1.4.2_12で動作させるためのパッチ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060724.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060724.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-23 diary: 土日で少しだけ体力回復…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060723.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060723.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-21 diary: サンプル ストアドプロシージャ (SQL Server 2005)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060721.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060721.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-18 diary: blancoDbDotNet単体試験中 , 明日は大阪出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060718.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060718.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-15 diary: ヴァイオリンを抜本的に調整</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060715.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060715.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-13 diary: 一泊二日で大阪出張中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060713.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060713.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-11 diary: JExcelApi 2.5.8 が Sun JDK 1.4.2_12 上で動作が異常の場合がある</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060711.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060711.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-10 diary: 07/12(水)から07/13(木)まで大阪出張します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060710.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060710.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-07 diary: blancoSOAPの .NET Framework対応は、.NET Framework 2.0ベースへと移行します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060707.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060707.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-05 diary: 大阪出張の疲労が蓄積中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060705.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060705.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-04 diary: 一泊二日で大阪出張中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060704.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060704.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-07-02 diary: ピリオド・アプローチなどを調べ中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060702.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060702.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-28 diary: R/Oマッピングの特徴 , すごいリッチクライアント・プロトタイプ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060628.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060628.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-26 diary: blanco Frameworkのサンプル概略に設計着手</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060626.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060626.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-24 diary: オープンソースカンファレンス2006 .DB (OSC2006 .DB) に参加 , 五嶋龍さんのヴァイオリン弦の種類</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060624.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060624.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-18 diary: 4th. Developers' Lounge (2006-06-15)に参加してきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060618.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060618.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-16 diary: ソースコード自動生成ライブラリ blancoCgの説明ページを整備</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060616.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060616.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-12 diary: blancoCgのJavaScript対応について、APIリファレンス用のコメントをJSDoc対応させました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060612.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060612.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-10 diary: 路面電車の日</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060610.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060610.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-09 diary: blanco Frameworkの .NET Framework用 R/Oマッピングツールである blancoDbDotNetのロードマップ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060609.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060609.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-08 diary: 冷房が寒い</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060608.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060608.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-07 diary: 地底人の秘密</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060607.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060607.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-06 diary: 豆ナイトに参加してきました , blanco Framework業務従事メンバーを増やす調整を企み中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060606.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060606.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-06-01 diary: JavaScriptコメントからのドキュメント生成に JSDocを利用する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060601.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060601.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-31 diary: 昨日の日帰り大阪出張にて疲労蓄積中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060531.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060531.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-29 diary: メールの処理だけで16時まで…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060529.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060529.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-26 diary: 3rd. Developers' Loungeに参加 , Apple HeaderDocを Windowsで使う</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060526.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060526.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-25 diary: JavaScriptのコメントからの自動ドキュメントにHeaderDocを採用</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060525.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060525.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-24 diary: .NET Framework: ADO.NET 2.0 関連リンクメモ , 仕事が想定外に忙しくなりました。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060524.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060524.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-23 diary: しごとが とても いそがしいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060523.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060523.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-20 diary: こどもが よめる しょうぎの ほん (子どもが読める将棋の本)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060520.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060520.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-17 diary: 自宅の回線を Bフレッツへと切り替え , 年休取得 , blancoValueObjectに機能追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060517.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060517.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-16 diary: 今日は東京で仕事します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060516.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060516.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-15 diary: Apache Axis2 1.0 調査開始 → Axis1系に比べてパフォーマンスが劇的に改善されている模様</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060515.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060515.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-09 diary: BlancoSqlEditorPlugin 0.3.6 リリース , blancoSqlFormatter 0.0.2リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060509.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060509.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-08 diary: blancoDb Enterprise Edition 1.6.4 正式版 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060508.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060508.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-07 diary: 風邪をひいてしまった模様です</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060507.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060507.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-06 diary: 将棋ネタ・アラカルト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060506.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060506.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-03 diary: blancoXmlBinding新規作成 , blancoCg自身のblancoCgによる自動生成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060503.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060503.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-05-01 diary: blancoDb Enterprise Edition 1.6.4 RC3リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060501.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060501.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-28 diary: blancoValueObjectのEclipseプラグイン版をリリース , Apache Axis 1.4</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060428.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060428.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-27 diary: 昨日は大阪出張 , JavaScriptのJavaDocみたいな仕組みを簡単に調査中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060427.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060427.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-25 diary: JavaScript言語仕様を勉強中… 「Effective JavaScript」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060425.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060425.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-24 diary: 今日は花粉症の症状は 少し緩和されています , blancoCgの JavaScript対応 , blancoEclipsePluginGenを少しだけ強化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060424.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060424.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-20 diary: blancoValueObjectのEclipseプラグイン版を検討開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060420.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060420.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-19 diary: 花粉症＋黄砂でヘロヘロです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060419.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060419.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-17 diary: blancoCg Java/C#.NET両言語向け自動生成機能が ほぼ実装完了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060417.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060417.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-15 diary: 椅子の探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060415.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060415.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-13 diary: blancoCg作り中 , 今日も いつも 花粉症</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060413.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060413.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-11 diary: 茅場町を訪問</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060411.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060411.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-09 diary: blancoFixedLength ファーストバージョンのリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060409.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060409.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-07 diary: blancoDb Enterprise Edition 1.6.1 (バグフィックス単体試験版) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060407.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060407.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-05 diary: eclipse.exe -cleanオプションのデフォルト利用化の薦め , まだまだ花粉症</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060405.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060405.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-03 diary: blancoDb Enterprise Edition次期安定版 準備中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060403.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060403.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-04-01 diary: エイプリルフール , 退社しました。入社しました。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060401.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060401.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-31 diary: blancoCsv 0.4.0 最新安定版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060331.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060331.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-30 diary: 日経コンピュータ(2006.03.20)のDSL特集記事で blanco Framework を取り上げて頂きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060330.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060330.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-29 diary: 日経コンピュータ(2006.03.20)に blanco Frameworkを取り上げていただきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060329.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060329.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-28 diary: 仕事忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060328.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060328.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-26 diary: blanco Frameworkの JDK 1.5.x対応状況 , blancoDbの iBatis対応 , blancoXml案</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060326.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060326.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-24 diary: blancoDbのiBatis対応</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060324.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060324.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-22 diary: 2nd. Developers' Loungeに参加してきました , 花粉症＋仕事が忙しすぎて疲れ中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060322.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060322.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-21 diary: 今日は休日出勤</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060321.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060321.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-18 diary: OSC2006 ライトニングトーク</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060318.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060318.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-17 diary: blanco Framework .NET対応版の小文字プリミティブ型への対応 , 仕事忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060317.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060317.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-16 diary: blanco Frameworkのソースコード自動生成などに関して、改善したいこと</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060316.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060316.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-15 diary: オープンソースカンファレンス2006 Tokyo/Springのライトニングトークで blanco Frameworkを紹介します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060315.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060315.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-14 diary: JavaScriptソースコード自動生成(blancoCodeGeneratorJavaScript)案 , 引き続き花粉症</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060314.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060314.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-12 diary: 花粉症の症状が悪化中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060312.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060312.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-11 diary: blanco Framework 短期ロードマップ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060311.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060311.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-09 diary: 学習机の自作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060309.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060309.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-08 diary: 花粉症シーズン到来 , UML記法の勉強</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060308.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060308.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-06 diary: blancoClass (クラス定義) 検討中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060306.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060306.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-04 diary: オープンソース・ビジネスと保守予算とのカンケイ？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060304.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060304.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-02 diary: ばりばりとプログラミング , CodeZineというメディアに興味が湧いてきています</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060302.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060302.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-03-01 diary: blanco Framework Community会＠東京港区 18:00から</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060301.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060301.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-28 diary: 仕事が最大レベルで忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060228.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060228.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-27 diary: 風が強め</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060227.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060227.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-25 diary: blanco Framework Community会の飲み会の部の場所決定 (LD104)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060225.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060225.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-24 diary: Microsoft SQL ServerのJDBCドライバ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060224.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060224.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-23 diary: Developers' Lounge＠表参道に参加してきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060223.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060223.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-22 diary: 今日は恵比寿に出張, blancoDbのMicrosoft SQL Server 2005対応関連作業</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060222.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060222.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-21 diary: blanco Framework概要を更新: 規模と新技術のあいだのジレンマを追記</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060221.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060221.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-19 diary: PCリサイクルにてエコゆうパック体験 , トランクルーム・レンタル倉庫のようなものを探索中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060219.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060219.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-16 diary: 今日の午前中に重要な会議が…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060216.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060216.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-15 diary: blanco Framework Community会＠東京港区 (2006年3月1日 18:00-) 開催</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060215.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060215.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-14 diary: 急に仕事忙しくなりました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060214.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060214.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-13 diary: 一太郎2006＆花子2006スペシャルパック 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-11 diary: Javaのサンドボックスにセキュリティホールの報告 , 花粉症の症状が出ています</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060211.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060211.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-10 diary: Javaのメモリ管理など</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-09 diary: blancoCsvをタイトル行に対応させました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060209.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060209.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-08 diary: blancoCsvにタイトル行機能を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060208.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060208.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-07 diary: blancoDb Enterprise Editionの英語対応を検討</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060207.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060207.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-06 diary: blanco Framework Community会 を企画中… (2006年03月01日に開催予定)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060206.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060206.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-03 diary: Microsoft SQL Server 2005 via JDBCドライバを体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060203.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060203.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-02-02 diary: SoapException , blancoCodeGenerator(DotNet)にアノテーション機能を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060202.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060202.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-30 diary: 開発工程の継続的な改善に取り組んだ結果</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060130.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060130.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-29 diary: 衣食足りて礼節を知る、というか身だしなみを改善せねば…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060129.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060129.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-28 diary: 自宅用 無線ブロードバンドルーター購入 , ソフトウェア開発現場の転記作業を自動化すること , Eclipse</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060128.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060128.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-27 diary: C#.NETの場合には POCOになる？のかしら？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060127.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060127.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-26 diary: WSDLを入力として .NET Frameworkに サーバ／クライアント両方の C#.NETソースコードを生成させる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060126.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060126.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-25 diary: Windows XP のオフラインフォルダを体験 , 今日は終日会議の予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060125.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060125.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-24 diary: 定数定義書から定数クラスを自動生成する blancoConstantsを新規作成 , オブジェクト指向様式</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060124.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060124.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-23 diary: blancoDb Enterprise Edition 最新安定版 (1.4.1) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060123.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060123.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-22 diary: blanco Framework: blancoDb Enterprise Edition 1.4.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060122.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060122.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-20 diary: Ubuntu体験 , blancoDbDotNet仕様 (ドキュメント) のアップロード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060120.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060120.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-19 diary: blancoDb Enterprise Edition仕様 (ドキュメント) のアップロード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060119.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060119.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-18 diary: blancoStringConvプロジェクト(案)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060118.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060118.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-17 diary: WX300K (個人用PHS) 購入 , blancoResourceBundle最新安定版 (0.4.5) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060117.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060117.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-16 diary: blanco Frameworkのドキュメントは、WORD形式でドキュメントを作成し、それを HTML/PDF/TEXT変換する方針で…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060116.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060116.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-14 diary: blancoJUnitプロジェクト 始動 , AjaxからJSONへ , OpenDocument, Rubyなど</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-13 diary: Javaクラスファイル勉強</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-12 diary: OpenOffice.org 2.0.1 日本語版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060112.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060112.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-11 diary: blancoDbDotNet 仕様概要 (blancoDbの.NET Framework版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060111.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060111.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-10 diary: Javassist を用いたクラスファイル(バイトコード)解析サンプル , blancoJUnit2Docが妥当な名称であるかどうかを検討中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060110.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060110.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-09 diary: 合宿でバロックダンスのステップを習ってきました。武満徹さんの作品を弾いてきました。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060109.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060109.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-06 diary: Apache Jakarta BCELを用いたクラスファイル(バイトコード)解析サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060106.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060106.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-04 diary: blancoResourceBundle不安定版の更新 , blancoEclipsePluginGen の新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060104.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060104.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2006-01-01 diary: 今年は良い年でありますように , NASやテレビチューナーボードを検討中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig060101.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2006/ig060101.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

@@ -4,867 +4,12 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
-    <title>2012-01-04 diary: Blanco2g: バリデータ強化中...</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120104.html" />
+    <title>2012-12-28 diary: [Ubuntu][ISO] Ubuntu 12.04 において、ISO ファイルをコマンドで作成する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
-    <id>https://igapyon.github.io/diary/2012/ig120104.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-01-14 diary: Subversive Language Pack updated</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120114.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120114.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-01-15 diary: Blanco2g: もろもろの調整</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120115.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120115.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-01-27 diary: Ubuntu の更新で Linux カーネルが更新された場合に良く使うコマンド</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120127.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120127.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-01-28 diary: 3DS ソフト開発について 少し調べてみる。。。</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120128.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120128.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-03 diary: [Facelets] Servlet から  FacesContext を取得する小技</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120203.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120203.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-04 diary: [Facelets] JavaScript から JSF Facelets のタグを呼び出す方法 (jQuery 併用)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120204.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120204.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-05 diary: Blanco2g の特徴考察</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120205.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120205.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-11 diary: [Facelets] XHTML をダイレクトアクセスから隠す方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120211.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120211.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-12 diary: [Facelets] Manjyu Facelets Wiki サイト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120212.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120212.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-15 diary: Internet Explorer 9 で Firebug みたいなことをするには</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120215.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120215.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-02-28 diary: MySQL コマンドライン・インタフェース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120228.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120228.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-10 diary: Blanco2g 0.5.5 リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120310.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120310.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-13 diary: MySQL 5.0.77 + Connector/J 5.1.18 on CentOS (64bit) にてトラブル遭遇中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120313.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120313.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-14 diary: MySQL + JDBC ではまり中。。。接続文字列</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120314.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120314.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-15 diary: MySQL 接続文字列調査中...</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120315.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120315.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-16 diary: MySQL の JDBC のデフォルトは TRANSACTION_REPEATABLE_READ ???</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120316.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120316.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-03-18 diary: MySQL + Connector/J (JDBC) 最適設定を模索中...</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120318.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120318.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-04-06 diary: Java: Linux: スレッドダンプを標準出力する方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120406.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120406.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-04-23 diary: MS Office -&gt; PDF 変換ツール のメモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120423.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120423.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-05-02 diary: Firebird (OSS の RDBMS)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120502.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120502.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-05-08 diary: Ubuntu インストール直後で最初に投入するコマンド</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120508.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120508.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-05-25 diary: Ubuntu コマンド入門: Ubuntu Magazine Japan のバックナンバー</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120525.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120525.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-05-31 diary: [Ubuntu] Ubuntu 12.04 に Oracle Java JDK を入れる方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120531.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120531.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-01 diary: Eclipse 日本語化言語パック (サードパーティ版) : Indigo, Juno</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120601.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120601.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-19 diary: Eclipse 日本語化言語パック (サードパーティ版) : Juno</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120619.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120619.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-23 diary: 自宅 PC のすべてを Ubuntu 12.04 (32bit) に更新</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120623.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120623.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-27 diary: Zimbra というソフトウェアを調査中</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120627.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120627.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-28 diary: Eclipse Juno (4.2.0) リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120628.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120628.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-06-29 diary: Eclipse Juno (4.2.0, 3.8.0) 日本語化言語パック(サードパーティ版)リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120629.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120629.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-07-03 diary: Apache POI の xlsx 作成サンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120703.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120703.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-07-30 diary: Java GC まわり調査の手法メモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120730.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120730.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-08-03 diary: Spring 3 書籍の購入(洋書)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120803.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120803.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-08-26 diary: Ubuntu 12.04.1 リリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120826.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120826.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-08-27 diary: DAViCal</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120827.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120827.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-08-28 diary: DAViCal という OSS カレンダー・サーバー実装</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120828.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120828.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-02 diary: Ubuntu 12.04 で SONY Walkman (NW-S764) を使う</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120902.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120902.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-05 diary: [JavaFX] 警告アイコン描画のサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120905.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120905.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-06 diary: [JavaFX] 確認アイコン描画のサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120906.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120906.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-07 diary: [JavaFX] 情報アイコン描画のサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120907.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120907.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-08 diary: [JavaFX] エラーアイコン描画のサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120908.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120908.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-09 diary: [JavaFX][Transition] パス・アニメーションのサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120909.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120909.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-10 diary: [Ubuntu][JDK] Ubuntu 12.04.1 に Oracle Java JDK を入れる方法【/opt 編】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120910.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120910.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-11 diary: OSC 2012 Tokyo/Fall blanco Framework 資料部数メモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120911.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120911.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-12 diary: [Debian] 不安定版 (unstable) sid のインストール方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120912.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120912.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-13 diary: [JavaFX][DragAndDrop] ドラッグのサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120913.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120913.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-14 diary: [JavaFX][DragAndDrop] ドロップのサンプル</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120914.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120914.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-15 diary: [JavaFX] MessgeBox by OSS / メッセージボックスの OSS 実装</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120915.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120915.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-16 diary: [JavaFX] シンプルなビルド用 Ant スクリプト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120916.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120916.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-17 diary: 中国におけるビジネスはリスクへと変わったか?</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120917.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120917.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-18 diary: [JavaFX] シンプルサンプル: こんにちは世界!</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120918.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120918.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-19 diary: [JavaFX] 線の描画【必要に応じたレンダリング】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120919.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120919.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-20 diary: [JavaFX][Canvas][GraphicsContext] 線の描画【Canvas と GC をもちいたレンダリング】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120920.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120920.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-21 diary: [JavaFX][Path] 線の描画【Path をもちいたレンダリング】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120921.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120921.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-22 diary: [Debian] Debian パッケージング道場＠楽天なう</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120922.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120922.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-25 diary: 書籍: JavaFX GUI プログラミング : Vol.1</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120925.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120925.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-28 diary: Windows から ext3 などにアクセスする方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120928.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120928.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-29 diary: [Ubuntu] clamav というウイルス対策ソフト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120929.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120929.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-09-30 diary: 妻のPHSが壊れる</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120930.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig120930.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-01 diary: PostgreSQL の ODBC ドライバー</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121001.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121001.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-02 diary: Linux のローカルポート開設状況確認コマンド</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121002.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121002.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-04 diary: Java から Access ファイルへのアクセスするための【Jackcess】というライブラリがあるらしい</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121004.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121004.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-05 diary: [Ubuntu] Ubuntu 12.04.1 で GlassFish Server 3.1 を常駐させる方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121005.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121005.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-06 diary: [Ubuntu][GlassFish] Ubuntu 12.04.1 に GlassFish Server 3.1.2.2 を入れる方法【/opt 編】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121006.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121006.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-07 diary: Open JTalk という音声合成ソフト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121007.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121007.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-08 diary: [Linux] 改ざん検知ソフト Tripwire</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121008.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121008.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-09 diary: Microsoft が提供する各国語対訳表システム</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121009.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121009.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-10 diary: [JavaFX] MessageBox</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121010.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121010.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-11 diary: Java で SNMP</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121011.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121011.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-12 diary: GlassFish Server 3.1.x のプロファイルによる違い</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121012.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121012.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-14 diary: [Ubuntu] Ubuntu 12.04.1 で pt2 を利用する方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121014.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121014.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-15 diary: [SQLite] SQLite が高速らしい</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121015.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121015.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-16 diary: Windows スペックテキスト出力【dxdiag】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121016.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121016.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-18 diary: [Debian] Debian インストール時に HTTP プロキシ超えをさせるための記述</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121018.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121018.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-19 diary: [Ubuntu] ビルド・エッセンシャルとカーネルヘッダーの導入方法メモ (自分用の備忘録)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121019.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121019.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-20 diary: [Ubuntu] Ubuntu Server 12.04.1  (amd64) インストール手順</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121020.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121020.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-21 diary: [Ubuntu] Ubuntu 12.04 Desktop インストーラー (LiveCD) を用いた HDD レスキュー</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121021.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121021.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-23 diary: [Ubuntu][GlassFish] Ubuntu 12.04 + Apache2 + GlassFish 3【proxy_http】</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121023.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121023.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-24 diary: robots.txt メモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121024.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121024.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-25 diary: [Apache][Ubuntu] Apache HTTP メソッド公開状況確認方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121025.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121025.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-26 diary: [Ubuntu][Apache] Ubuntu 12.04 + Apache2 で SSL 自己証明書</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121026.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121026.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-27 diary: [Ubuntu] Ubuntu 12.04: ssh 最低設定</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121027.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121027.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121028.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121028.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-10-29 diary: [GlassFish] SSH トンネルを使った GlassFish Server 4848 への接続</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121029.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121029.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121107.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121107.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121113.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121113.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-11-14 diary: [Java][OSS][RSS][ManjyuRss]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121114.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121114.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-04 diary: [C++Builder] はじめての C++Builder XE3</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121204.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121204.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-05 diary: [C++Builder] はじめたての C++Builder XE3 (EXE 配布の際の注意点)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121205.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121205.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-06 diary: [C++Builder][XE3] 文字列リスト</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121206.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121206.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-07 diary: [C++Builder][XE3] 文字列をファイルに書き出し</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121207.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121207.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-10 diary: [Delphi][XE3] Delphi: XE3: エクスプローラ風アプリ開発のメモ</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121210.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121210.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-11 diary: [C++Builder][XE3][FMX] マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121211.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121211.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-13 diary: VMware Player 4.0 に VMware ESXi 5.0 は導入可能</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121213.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121213.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-15 diary: パソコンの電源ボタンが故障のため  5 インチベイに追加モジュール投入</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121215.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121215.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2012-12-17 diary: C++ 言語でのガベージコレクタの利用</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121217.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2012/ig121217.html</id>
+    <id>https://igapyon.github.io/diary/2012/ig121228.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
@@ -877,12 +22,867 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-28 diary: [Ubuntu][ISO] Ubuntu 12.04 において、ISO ファイルをコマンドで作成する方法</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121228.html" />
+    <title>2012-12-17 diary: C++ 言語でのガベージコレクタの利用</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
-    <id>https://igapyon.github.io/diary/2012/ig121228.html</id>
+    <id>https://igapyon.github.io/diary/2012/ig121217.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-15 diary: パソコンの電源ボタンが故障のため  5 インチベイに追加モジュール投入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121215.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121215.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-13 diary: VMware Player 4.0 に VMware ESXi 5.0 は導入可能</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-11 diary: [C++Builder][XE3][FMX] マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121211.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121211.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-10 diary: [Delphi][XE3] Delphi: XE3: エクスプローラ風アプリ開発のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-07 diary: [C++Builder][XE3] 文字列をファイルに書き出し</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121207.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121207.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-06 diary: [C++Builder][XE3] 文字列リスト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121206.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121206.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-05 diary: [C++Builder] はじめたての C++Builder XE3 (EXE 配布の際の注意点)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121205.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121205.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-04 diary: [C++Builder] はじめての C++Builder XE3</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121204.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121204.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-14 diary: [Java][OSS][RSS][ManjyuRss]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121107.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121107.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-29 diary: [GlassFish] SSH トンネルを使った GlassFish Server 4848 への接続</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121029.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121029.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121028.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121028.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-27 diary: [Ubuntu] Ubuntu 12.04: ssh 最低設定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121027.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121027.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-26 diary: [Ubuntu][Apache] Ubuntu 12.04 + Apache2 で SSL 自己証明書</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121026.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121026.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-25 diary: [Apache][Ubuntu] Apache HTTP メソッド公開状況確認方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121025.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121025.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-24 diary: robots.txt メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121024.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121024.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-23 diary: [Ubuntu][GlassFish] Ubuntu 12.04 + Apache2 + GlassFish 3【proxy_http】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121023.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121023.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-21 diary: [Ubuntu] Ubuntu 12.04 Desktop インストーラー (LiveCD) を用いた HDD レスキュー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121021.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121021.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-20 diary: [Ubuntu] Ubuntu Server 12.04.1  (amd64) インストール手順</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121020.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121020.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-19 diary: [Ubuntu] ビルド・エッセンシャルとカーネルヘッダーの導入方法メモ (自分用の備忘録)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121019.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121019.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-18 diary: [Debian] Debian インストール時に HTTP プロキシ超えをさせるための記述</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121018.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121018.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-16 diary: Windows スペックテキスト出力【dxdiag】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121016.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121016.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-15 diary: [SQLite] SQLite が高速らしい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121015.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121015.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-14 diary: [Ubuntu] Ubuntu 12.04.1 で pt2 を利用する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121014.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121014.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-12 diary: GlassFish Server 3.1.x のプロファイルによる違い</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121012.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121012.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-11 diary: Java で SNMP</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121011.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121011.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-10 diary: [JavaFX] MessageBox</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121010.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121010.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-09 diary: Microsoft が提供する各国語対訳表システム</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121009.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121009.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-08 diary: [Linux] 改ざん検知ソフト Tripwire</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121008.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121008.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-07 diary: Open JTalk という音声合成ソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121007.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121007.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-06 diary: [Ubuntu][GlassFish] Ubuntu 12.04.1 に GlassFish Server 3.1.2.2 を入れる方法【/opt 編】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121006.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121006.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-05 diary: [Ubuntu] Ubuntu 12.04.1 で GlassFish Server 3.1 を常駐させる方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121005.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121005.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-04 diary: Java から Access ファイルへのアクセスするための【Jackcess】というライブラリがあるらしい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121004.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121004.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-02 diary: Linux のローカルポート開設状況確認コマンド</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121002.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121002.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-01 diary: PostgreSQL の ODBC ドライバー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121001.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121001.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-30 diary: 妻のPHSが壊れる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120930.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120930.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-29 diary: [Ubuntu] clamav というウイルス対策ソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120929.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120929.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-28 diary: Windows から ext3 などにアクセスする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120928.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120928.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-25 diary: 書籍: JavaFX GUI プログラミング : Vol.1</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120925.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120925.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-22 diary: [Debian] Debian パッケージング道場＠楽天なう</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120922.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120922.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-21 diary: [JavaFX][Path] 線の描画【Path をもちいたレンダリング】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120921.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120921.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-20 diary: [JavaFX][Canvas][GraphicsContext] 線の描画【Canvas と GC をもちいたレンダリング】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120920.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120920.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-19 diary: [JavaFX] 線の描画【必要に応じたレンダリング】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120919.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120919.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-18 diary: [JavaFX] シンプルサンプル: こんにちは世界!</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120918.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120918.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-17 diary: 中国におけるビジネスはリスクへと変わったか?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120917.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120917.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-16 diary: [JavaFX] シンプルなビルド用 Ant スクリプト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120916.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120916.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-15 diary: [JavaFX] MessgeBox by OSS / メッセージボックスの OSS 実装</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120915.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120915.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-14 diary: [JavaFX][DragAndDrop] ドロップのサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120914.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120914.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-13 diary: [JavaFX][DragAndDrop] ドラッグのサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120913.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120913.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-12 diary: [Debian] 不安定版 (unstable) sid のインストール方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120912.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120912.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-11 diary: OSC 2012 Tokyo/Fall blanco Framework 資料部数メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120911.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120911.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-10 diary: [Ubuntu][JDK] Ubuntu 12.04.1 に Oracle Java JDK を入れる方法【/opt 編】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120910.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120910.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-09 diary: [JavaFX][Transition] パス・アニメーションのサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120909.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120909.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-08 diary: [JavaFX] エラーアイコン描画のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120908.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120908.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-07 diary: [JavaFX] 情報アイコン描画のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120907.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120907.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-06 diary: [JavaFX] 確認アイコン描画のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120906.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120906.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-05 diary: [JavaFX] 警告アイコン描画のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120905.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120905.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-09-02 diary: Ubuntu 12.04 で SONY Walkman (NW-S764) を使う</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120902.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120902.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-08-28 diary: DAViCal という OSS カレンダー・サーバー実装</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120828.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120828.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-08-27 diary: DAViCal</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120827.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120827.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-08-26 diary: Ubuntu 12.04.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120826.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120826.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-08-03 diary: Spring 3 書籍の購入(洋書)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120803.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120803.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-07-30 diary: Java GC まわり調査の手法メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120730.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120730.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-07-03 diary: Apache POI の xlsx 作成サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120703.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120703.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-29 diary: Eclipse Juno (4.2.0, 3.8.0) 日本語化言語パック(サードパーティ版)リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120629.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120629.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-28 diary: Eclipse Juno (4.2.0) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120628.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120628.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-27 diary: Zimbra というソフトウェアを調査中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120627.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120627.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-23 diary: 自宅 PC のすべてを Ubuntu 12.04 (32bit) に更新</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120623.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120623.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-19 diary: Eclipse 日本語化言語パック (サードパーティ版) : Juno</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120619.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120619.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-06-01 diary: Eclipse 日本語化言語パック (サードパーティ版) : Indigo, Juno</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120601.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120601.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-05-31 diary: [Ubuntu] Ubuntu 12.04 に Oracle Java JDK を入れる方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120531.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120531.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-05-25 diary: Ubuntu コマンド入門: Ubuntu Magazine Japan のバックナンバー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120525.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120525.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-05-08 diary: Ubuntu インストール直後で最初に投入するコマンド</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120508.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120508.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-05-02 diary: Firebird (OSS の RDBMS)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120502.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120502.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-04-23 diary: MS Office -&gt; PDF 変換ツール のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120423.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120423.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-04-06 diary: Java: Linux: スレッドダンプを標準出力する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120406.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120406.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-18 diary: MySQL + Connector/J (JDBC) 最適設定を模索中...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120318.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120318.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-16 diary: MySQL の JDBC のデフォルトは TRANSACTION_REPEATABLE_READ ???</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120316.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120316.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-15 diary: MySQL 接続文字列調査中...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120315.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120315.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-14 diary: MySQL + JDBC ではまり中。。。接続文字列</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120314.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120314.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-13 diary: MySQL 5.0.77 + Connector/J 5.1.18 on CentOS (64bit) にてトラブル遭遇中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120313.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120313.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-03-10 diary: Blanco2g 0.5.5 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120310.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120310.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-28 diary: MySQL コマンドライン・インタフェース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120228.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120228.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-15 diary: Internet Explorer 9 で Firebug みたいなことをするには</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120215.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120215.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-12 diary: [Facelets] Manjyu Facelets Wiki サイト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120212.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120212.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-11 diary: [Facelets] XHTML をダイレクトアクセスから隠す方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120211.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120211.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-05 diary: Blanco2g の特徴考察</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120205.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120205.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-04 diary: [Facelets] JavaScript から JSF Facelets のタグを呼び出す方法 (jQuery 併用)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120204.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120204.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-02-03 diary: [Facelets] Servlet から  FacesContext を取得する小技</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120203.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120203.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-01-28 diary: 3DS ソフト開発について 少し調べてみる。。。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120128.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120128.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-01-27 diary: Ubuntu の更新で Linux カーネルが更新された場合に良く使うコマンド</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120127.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120127.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-01-15 diary: Blanco2g: もろもろの調整</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120115.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120115.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-01-14 diary: Subversive Language Pack updated</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-01-04 diary: Blanco2g: バリデータ強化中...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120104.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig120104.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
