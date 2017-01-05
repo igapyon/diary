@@ -4,10 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
-
 [target](https://igapyon.github.io/diary/) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/) 

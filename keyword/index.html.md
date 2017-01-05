@@ -1,6 +1,12 @@
 [top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/idxall.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
+
+いがぴょんの日記：キーワード
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
+[top](https://igapyon.github.io/diary/) 
+/ [target](https://igapyon.github.io/diary/2017/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 [2017](https://igapyon.github.io/diary/2017/index.html)
@@ -25,13 +31,12 @@
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
 
-## いがぴょんの日記ウェブページv3：日記を全て
+## いがぴょんの日記：キーワード
 
-### 全ての日記
+* [About Maven](https://igapyon.github.io/diary/keyword/Maven.html)
 
-${indexAtomXml}
 
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)
