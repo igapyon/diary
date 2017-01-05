@@ -1,7 +1,3 @@
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2017年の日記のインディックス。
-
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/2017/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
@@ -32,8 +28,3 @@
 ## いがぴょんの日記：2017年の日記
 
 ${indexAtomXml}
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)

@@ -30,8 +30,3 @@
 ### 全ての日記
 
 ${indexAtomXml}
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)

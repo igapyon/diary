@@ -4,9 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 1997年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/1997/index.html) 
@@ -39,11 +36,6 @@
 
 * [1997-07-23 diary: CList・CArrayを挿入ソートするライブラリ (関数テンプレート編)](https://igapyon.github.io/diary/1997/ig970723.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

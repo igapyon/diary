@@ -1,10 +1,7 @@
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 1997年の日記のインディックス。
-
+<#assign localYear='1997'>
 [top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/1997/index.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/1997/index.html.src.md) 
+/ [target](https://igapyon.github.io/diary/${localYear}/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 [2017](https://igapyon.github.io/diary/2017/index.html)
@@ -32,8 +29,3 @@
 ## いがぴょんの日記：1997年の日記
 
 ${indexAtomXml}
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)

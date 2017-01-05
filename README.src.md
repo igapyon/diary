@@ -41,8 +41,3 @@ ${publickeyAtomXml}
 * 翻訳
   * [Google Translate](https://translate.google.com/)
   * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
