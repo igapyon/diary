@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2017</title>
   <subtitle>Diary index for year 2017 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2017-01-01 diary: Apache FreeMarker シンプルサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170101.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170102.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170103.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170104.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2017-01-05 diary: FreeMarker の解釈を抑止する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

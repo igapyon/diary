@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2004</title>
   <subtitle>Diary index for year 2004 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2004-01-02 diary: あけまして おめでとうございます</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040102.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2004-01-03 diary: なぜかお買い物</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040103.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2004-01-05 diary: 執筆作業は年末進行中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2004-01-06 diary: JadClipseプラグインという便利なツール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040106.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2004-01-07 diary: javax.print初体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040107.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2004-01-08 diary: 風邪っぽいので早めに退社</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040108.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2004-01-14 diary: 風邪ひきから復活中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040114.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2004-01-15 diary: まだ若干セキが残る</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040115.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2004-01-18 diary: クラシック音楽というもの</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040118.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2004-01-19 diary: Javaソースファイルの妥当性チェックのツール (Checkstyleほか)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2004-01-20 diary: Windows XP時代のショートカットキー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2004-01-21 diary: ソースコード生成タイプのR-Oマッピングを開発しませんか？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040121.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2004-01-25 diary: ギル・シャハムさんというヴァイオリン奏者</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040125.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2004-01-26 diary: 毎コミ編集者様訪問</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2004-01-29 diary: Eclipseの使い勝手に感動</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2004-01-31 diary: USBフラッシュメモリ 512MBを購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040131.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2004-02-03 diary: とらねこ＆いがぴょん合コン＠東京銀座 2004/03/03(水) 19:30に開催</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040203.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2004-02-04 diary: はてなダイアリーことはじめ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040204.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2004-02-05 diary: 講習会の講師は終了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040205.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2004-02-06 diary: バックアップのニーズは永遠に不滅です</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040206.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2004-02-07 diary: DVDオーサリング道</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040207.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2004-02-09 diary: 羽生章洋＆いがぴょん合コン＠江戸川区西小岩スターロジック</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040209.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2004-02-10 diary: コメント書うんた</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2004-02-12 diary: 某社の方</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2004-02-13 diary: 羽生章洋＆いがぴょん合コン後日談</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040213.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2004-02-17 diary: 高速道路本線に進入寸前に完全崩壊</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2004-02-18 diary: JTC 2004に参加したいのですが…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040218.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2004-02-19 diary: FindBugs バグパターン検知ツール (Eclipse Plug-in対応)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040219.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2004-02-20 diary: Javaなリッチ・コンテンツを作成するツールってあるのかしらん</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040220.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2004-02-21 diary: a-sanが はてなダイアリーを開始されました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040221.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2004-02-22 diary: COBOLプログラマーを原料にJavaプログラマーを醸造する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2004-02-23 diary: TODO: JDBC入門本(題名未定)＠毎日コミュニケーションズ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040223.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2004-02-24 diary: COBOLプログラマーをJava屋に転換する方法 , Java Appletことはじめ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040224.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2004-02-25 diary: Orkut参加 , FindBugsとCheckstyleと…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040225.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2004-02-26 diary: Javaデータベース プログラミング入門本 査読者募集終了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040226.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2004-02-27 diary: はじめに の原稿をここに書く予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040227.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2004-02-28 diary: チェロ合宿</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2004-03-02 diary: 編集部での作業が遅れています</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040302.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2004-03-03 diary: 朝日新聞のような大手新聞社がRSS/RDFを公開する時代が到来</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040303.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2004-03-04 diary: Oracle 9i JDBCドライバでのFOR UPDATEカーソル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040304.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2004-03-05 diary: SAXを直接プログラミングするという選択肢</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040305.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2004-03-06 diary: DDI-POCKET AH-J3002V(L)購入 (個人用PHS更新)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040306.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2004-03-08 diary: ゼンリンデータコム デジタル電子地図 (its-mo Navi PC) 衝動買い</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040308.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2004-03-09 diary: Sun: J2SE 1.4.2_04 / 1.3.1_11リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040309.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2004-03-10 diary: 「電気秘書」ソフトの開発を妄想</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040310.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2004-03-11 diary: Subversionが流行りそうな予感</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040311.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2004-03-12 diary: 著者合コン＠新小岩 (裏会)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040312.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2004-03-13 diary: [本家]</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040313.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2004-03-14 diary: Wiki系飲み会</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040314.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2004-03-15 diary: 東京に到着</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040315.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2004-03-16 diary: 書籍校正作業のため毎日コミュニケーションズにて缶詰作業</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040316.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2004-03-17 diary: Java Servletのシンプル雛形ソースコードの探求</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040317.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -424,6 +476,7 @@
   </entry>
   <entry>
     <title>2004-03-18 diary: (業務連絡)査読をして下さっている関係者の方々へ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040318.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -432,6 +485,7 @@
   </entry>
   <entry>
     <title>2004-03-19 diary: 引越メモ , 慎太郎カット , Eclipse 2.1.3リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040319.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -440,6 +494,7 @@
   </entry>
   <entry>
     <title>2004-03-21 diary: 疲労が顕在化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040321.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -448,6 +503,7 @@
   </entry>
   <entry>
     <title>2004-03-22 diary: 今日も頑張る (04:04)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040322.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -456,6 +512,7 @@
   </entry>
   <entry>
     <title>2004-03-23 diary: 手作りソフトウェアセット , Eclipse 2.1.3探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040323.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -464,6 +521,7 @@
   </entry>
   <entry>
     <title>2004-03-24 diary: Javaスキル標準</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040324.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -472,6 +530,7 @@
   </entry>
   <entry>
     <title>2004-03-25 diary: イテレーション３ゲラ到着</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040325.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -480,6 +539,7 @@
   </entry>
   <entry>
     <title>2004-03-26 diary: 引越オペレーション</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040326.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -488,6 +548,7 @@
   </entry>
   <entry>
     <title>2004-03-27 diary: [引越]引越でバテバテ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040327.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -496,6 +557,7 @@
   </entry>
   <entry>
     <title>2004-03-28 diary: [引越]箱詰終了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040328.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -504,6 +566,7 @@
   </entry>
   <entry>
     <title>2004-03-29 diary: [引越]トラック詰め込み作業</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040329.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -512,6 +575,7 @@
   </entry>
   <entry>
     <title>2004-03-30 diary: [引越]トラック積み卸し</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040330.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -520,6 +584,7 @@
   </entry>
   <entry>
     <title>2004-03-31 diary: [引越]段ボール開梱</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040331.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -528,6 +593,7 @@
   </entry>
   <entry>
     <title>2004-04-02 diary: 仕事に復帰したらそっちはそっちで忙しく…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040402.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -536,6 +602,7 @@
   </entry>
   <entry>
     <title>2004-04-03 diary: MSとSunが全面和解</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040403.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -544,6 +611,7 @@
   </entry>
   <entry>
     <title>2004-04-04 diary: 食器洗い乾燥機(EW-DT5)のワゴンを探して</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040404.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -552,6 +620,7 @@
   </entry>
   <entry>
     <title>2004-04-05 diary: 仕事忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040405.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -560,6 +629,7 @@
   </entry>
   <entry>
     <title>2004-04-06 diary: Seasarのからさわぎ＠東京（初台） 2004/04/10(土) 14時開催</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040406.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -568,6 +638,7 @@
   </entry>
   <entry>
     <title>2004-04-07 diary: 2004.04.01付で東京に転勤しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040407.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -576,6 +647,7 @@
   </entry>
   <entry>
     <title>2004-04-08 diary: 某書籍の最終稿の校正戻し作業が完了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040408.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -584,6 +656,7 @@
   </entry>
   <entry>
     <title>2004-04-09 diary: Windows XP用アイコンの作り方</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040409.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -592,6 +665,7 @@
   </entry>
   <entry>
     <title>2004-04-12 diary: 会議漬け</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040412.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -600,6 +674,7 @@
   </entry>
   <entry>
     <title>2004-04-13 diary: エプソン 複合機 CC-600PX購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040413.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -608,6 +683,7 @@
   </entry>
   <entry>
     <title>2004-04-14 diary: アスペクト指向ってトレンドだったのですね</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040414.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -616,6 +692,7 @@
   </entry>
   <entry>
     <title>2004-04-15 diary: FindBugs 0.7.2を日本語環境で正しく動かす方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040415.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -624,6 +701,7 @@
   </entry>
   <entry>
     <title>2004-04-16 diary: Jakarta JMeter 2.0 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040416.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -632,6 +710,7 @@
   </entry>
   <entry>
     <title>2004-04-18 diary: 私の得意とニガテを思いつく…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040418.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -640,6 +719,7 @@
   </entry>
   <entry>
     <title>2004-04-19 diary: Eclipse 3.0にSubversionクライアントが含まれて欲しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040419.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -648,6 +728,7 @@
   </entry>
   <entry>
     <title>2004-04-20 diary: Oracle Java Extreme 2004 (2004-04-23開催)のJava Guruにパネリストとして参加させて頂きます</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040420.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -656,6 +737,7 @@
   </entry>
   <entry>
     <title>2004-04-21 diary: 日本オラクル社訪問</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040421.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -664,6 +746,7 @@
   </entry>
   <entry>
     <title>2004-04-22 diary: Y-motoさんが私を超えました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040422.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -672,6 +755,7 @@
   </entry>
   <entry>
     <title>2004-04-23 diary: 今年度の計画: Swing / SWT を流行らせます！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040423.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -680,6 +764,7 @@
   </entry>
   <entry>
     <title>2004-04-24 diary: Oracle Java Guru 後日談 , 電子地図ソフト比較</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040424.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -688,6 +773,7 @@
   </entry>
   <entry>
     <title>2004-04-26 diary: IBM、SunにJavaのオープンソース化を要請</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040426.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -696,6 +782,7 @@
   </entry>
   <entry>
     <title>2004-04-28 diary: arton＆いがぴょん合コン (2004.05.07 19:00-)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040428.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -704,6 +791,7 @@
   </entry>
   <entry>
     <title>2004-04-29 diary: JCom (JavaからCOM呼出ライブラリ) , VBとC#/Javaとの相違点とは</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040429.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -712,6 +800,7 @@
   </entry>
   <entry>
     <title>2004-04-30 diary: 午前２時まで内部レビュー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040430.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -720,6 +809,7 @@
   </entry>
   <entry>
     <title>2004-05-01 diary: arton＆いがぴょん合コン , 「やさしく学ぶ 基礎からのJDBC」出版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040501.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -728,6 +818,7 @@
   </entry>
   <entry>
     <title>2004-05-02 diary: 今日のN響アワーにて、ヴァイオリンのリレーが行われていました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040502.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -736,6 +827,7 @@
   </entry>
   <entry>
     <title>2004-05-04 diary: H-SA3001Vへ機種変更</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040504.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -744,6 +836,7 @@
   </entry>
   <entry>
     <title>2004-05-05 diary: SONY CLIE PEG-TJ37購入 , 素人さんの肖像権が売買される時代とは？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040505.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -752,6 +845,7 @@
   </entry>
   <entry>
     <title>2004-05-06 diary: Java言語はとっても普及しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040506.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -760,6 +854,7 @@
   </entry>
   <entry>
     <title>2004-05-07 diary: Java言語からPDF生成を行うオープンソースライブラリ調査</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040507.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -768,6 +863,7 @@
   </entry>
   <entry>
     <title>2004-05-09 diary: 知らないうちにフロンティア神代がメジャー路線に…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040509.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -776,6 +872,7 @@
   </entry>
   <entry>
     <title>2004-05-10 diary: J2EE1.5は要注意新技術</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040510.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -784,6 +881,7 @@
   </entry>
   <entry>
     <title>2004-05-11 diary: ERモデリングツールのおすすめは？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040511.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -792,6 +890,7 @@
   </entry>
   <entry>
     <title>2004-05-12 diary: 宮本信二(id:muimy)さんは、とっても活発なITライターさんでいらっしゃいました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040512.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -800,6 +899,7 @@
   </entry>
   <entry>
     <title>2004-05-14 diary: Windows Template Library (WTL)というソフトがオープンソース化されたとのこと</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040514.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -808,6 +908,7 @@
   </entry>
   <entry>
     <title>2004-05-15 diary: 「Turbolinux 10 F...」というWindowsっぽいLinuxディストリビューシ。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040515.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -816,6 +917,7 @@
   </entry>
   <entry>
     <title>2004-05-16 diary: IrisというDVコーデック</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040516.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -824,6 +926,7 @@
   </entry>
   <entry>
     <title>2004-05-18 diary: バリウム後遺症</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040518.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -832,6 +935,7 @@
   </entry>
   <entry>
     <title>2004-05-19 diary: FindBugs 0.7.3 リリース , 日本語化パッチが別途提供</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040519.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -840,6 +944,7 @@
   </entry>
   <entry>
     <title>2004-05-21 diary: SEという職業に必要なスキルって… , 終電！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040521.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -848,6 +953,7 @@
   </entry>
   <entry>
     <title>2004-05-22 diary: 合コンキーワードでGoogle上位へとランクイン(T_T)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040522.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -856,6 +962,7 @@
   </entry>
   <entry>
     <title>2004-05-23 diary: 羽生さん書籍出版記念パーティー 2004.06.05 (要するに飲み会)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040523.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -864,6 +971,7 @@
   </entry>
   <entry>
     <title>2004-05-24 diary: 見積もりはゴルフが如し</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040524.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -872,6 +980,7 @@
   </entry>
   <entry>
     <title>2004-05-25 diary: JScreenSaver次期バージョン(1.1)のalphaテスト開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040525.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -880,6 +989,7 @@
   </entry>
   <entry>
     <title>2004-05-26 diary: ノートパソコン ThinkPad X22 (75J)受給</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040526.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -888,6 +998,7 @@
   </entry>
   <entry>
     <title>2004-05-27 diary: 菊田英明さまとミーティング＠アンジェロ・カフェ田町店</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040527.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -896,6 +1007,7 @@
   </entry>
   <entry>
     <title>2004-05-28 diary: Tomcat商用版が日本で発売開始されることに！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040528.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -904,6 +1016,7 @@
   </entry>
   <entry>
     <title>2004-05-29 diary: 地下鉄博物館に初めて行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040529.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -912,6 +1025,7 @@
   </entry>
   <entry>
     <title>2004-05-30 diary: 日本人的には少数派な生き様 , FindBugs 0.7.4リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040530.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -920,6 +1034,7 @@
   </entry>
   <entry>
     <title>2004-05-31 diary: Apache Antのインストールって意外に難しいです , 広域ネットワーク障害</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040531.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -928,6 +1043,7 @@
   </entry>
   <entry>
     <title>2004-06-01 diary: ITアーキテクトという職業</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040601.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -936,6 +1052,7 @@
   </entry>
   <entry>
     <title>2004-06-02 diary: 唾液健康法 , 社内SEという職種</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040602.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -944,6 +1061,7 @@
   </entry>
   <entry>
     <title>2004-06-03 diary: 見積もり</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040603.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -952,6 +1070,7 @@
   </entry>
   <entry>
     <title>2004-06-04 diary: 書きっぱなしの文章を反省</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040604.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -960,6 +1079,7 @@
   </entry>
   <entry>
     <title>2004-06-05 diary: 諸般の事情により、はてなダイアリーでの日記は停止します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040605.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -968,6 +1088,7 @@
   </entry>
   <entry>
     <title>2004-06-06 diary: 手持ちパソコンの増強を考慮するも…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040606.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -976,6 +1097,7 @@
   </entry>
   <entry>
     <title>2004-06-07 diary: デジタル時代の到来と、精神と肉体とのバランス感</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040607.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -984,6 +1106,7 @@
   </entry>
   <entry>
     <title>2004-06-08 diary: LinuxはデスクトップOSとして普及するか？ , SVGという技術</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040608.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -992,6 +1115,7 @@
   </entry>
   <entry>
     <title>2004-06-10 diary: VA Linux Business Forum 2004 に行ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040610.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1000,6 +1124,7 @@
   </entry>
   <entry>
     <title>2004-06-15 diary: 消防博物館 , 警察博物館 , NHKスタジオパーク</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040615.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1008,6 +1133,7 @@
   </entry>
   <entry>
     <title>2004-06-17 diary: J2MEの高速化技術 , PureJavaなRDBMSについて</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040617.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1016,6 +1142,7 @@
   </entry>
   <entry>
     <title>2004-06-23 diary: 組込系とオープンソースとの関連性とは…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040623.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1024,6 +1151,7 @@
   </entry>
   <entry>
     <title>2004-06-24 diary: JUnitからPL/SQLコードの単体試験は可能か？</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040624.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1032,6 +1160,7 @@
   </entry>
   <entry>
     <title>2004-06-26 diary: いとこの結婚式＠大阪</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040626.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1040,6 +1169,7 @@
   </entry>
   <entry>
     <title>2004-07-14 diary: 仕事が大変忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040714.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1048,6 +1178,7 @@
   </entry>
   <entry>
     <title>2004-07-19 diary: Oracle PL/SQL: 排他機能付きでファイル入出力を行うには…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040719.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1056,6 +1187,7 @@
   </entry>
   <entry>
     <title>2004-07-25 diary: 浜松に日帰り。新幹線浜松工場見学＋楽器博物館</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040725.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1064,6 +1196,7 @@
   </entry>
   <entry>
     <title>2004-08-13 diary: 気功(気の流れ) , 仕事忙しい…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040813.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1072,6 +1205,7 @@
   </entry>
   <entry>
     <title>2004-08-15 diary: 書泉にて書籍のお買い物</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040815.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1080,6 +1214,7 @@
   </entry>
   <entry>
     <title>2004-08-18 diary: 単体試験シンドローム</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040818.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1088,6 +1223,7 @@
   </entry>
   <entry>
     <title>2004-08-24 diary: 全国アマチュアオーケストラフェスティバル(AOF)2004大阪大会＠大阪国際会議場</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040824.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1096,6 +1232,7 @@
   </entry>
   <entry>
     <title>2004-08-27 diary: JR東日本、東京総合車両センター一般公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040827.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1104,6 +1241,7 @@
   </entry>
   <entry>
     <title>2004-08-31 diary: 台風にて熟睡できず</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040831.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1112,6 +1250,7 @@
   </entry>
   <entry>
     <title>2004-09-04 diary: 終電近くで満員電車</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040904.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1120,6 +1259,7 @@
   </entry>
   <entry>
     <title>2004-09-12 diary: J2SE 5.0 RCリリース , 俊友会管弦楽団に入団しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040912.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1128,6 +1268,7 @@
   </entry>
   <entry>
     <title>2004-09-14 diary: Java: Unicode文字コード出力サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040914.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1136,6 +1277,7 @@
   </entry>
   <entry>
     <title>2004-09-15 diary: 免許証書き換え</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040915.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1144,6 +1286,7 @@
   </entry>
   <entry>
     <title>2004-09-18 diary: VNC 4.0 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040918.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1152,6 +1295,7 @@
   </entry>
   <entry>
     <title>2004-09-19 diary: ベートーベン交響曲第７番を演奏するのは非常に難しく</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040919.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1160,6 +1304,7 @@
   </entry>
   <entry>
     <title>2004-09-25 diary: 今日は交通博物館に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040925.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1168,6 +1313,7 @@
   </entry>
   <entry>
     <title>2004-09-30 diary: Sun J2SE 5.0正式版リリース (JDK 1.5.0)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040930.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1176,6 +1322,7 @@
   </entry>
   <entry>
     <title>2004-10-03 diary: 京浜東北根岸線縦断ツアー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041003.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1184,6 +1331,7 @@
   </entry>
   <entry>
     <title>2004-10-05 diary: Eclipse 3.0.1 + 3.0.1用Language Packリリース (実質上の日本語版リリースに該当)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041005.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1192,6 +1340,7 @@
   </entry>
   <entry>
     <title>2004-10-06 diary: CSVテキストビューアー探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041006.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1200,6 +1349,7 @@
   </entry>
   <entry>
     <title>2004-10-09 diary: Microsoft Windows XP SP2適用 , 台風22号通過中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041009.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1208,6 +1358,7 @@
   </entry>
   <entry>
     <title>2004-10-11 diary: Mozilla Firefox 1.0 PR試用 , Linux向け年賀状ソフト , 赤羽ユニクロ店</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041011.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1216,6 +1367,7 @@
   </entry>
   <entry>
     <title>2004-10-15 diary: LDAPプログラミング , Mozilla Firefox 1.0 PR 日本語版 継続利用中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041015.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1224,6 +1376,7 @@
   </entry>
   <entry>
     <title>2004-10-19 diary: KNOPPIX日本語版メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041019.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1232,6 +1385,7 @@
   </entry>
   <entry>
     <title>2004-10-24 diary: 仕事が激しく忙しく休日出勤</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041024.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1240,6 +1394,7 @@
   </entry>
   <entry>
     <title>2004-10-25 diary: 「ゴッゴル」をGoogleでヒットさせるSEOコンテストというゲーム</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041025.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1248,6 +1403,7 @@
   </entry>
   <entry>
     <title>2004-10-28 diary: 第一回 Mozilla Japan セミナー＠市ヶ谷(2004/11/01)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041028.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1256,6 +1412,7 @@
   </entry>
   <entry>
     <title>2004-10-31 diary: N響アワーから「イブリー・ギトリス--バイオリンの至芸」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041031.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1264,6 +1421,7 @@
   </entry>
   <entry>
     <title>2004-11-01 diary: 例によって疲れています</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041101.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1272,6 +1430,7 @@
   </entry>
   <entry>
     <title>2004-11-06 diary: 久しぶりに週末に休日出勤を行いません</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041106.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1280,6 +1439,7 @@
   </entry>
   <entry>
     <title>2004-11-07 diary: 公園でサッカー練習</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041107.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1288,6 +1448,7 @@
   </entry>
   <entry>
     <title>2004-11-13 diary: PuTTY(ぱてぃ)というTelnetクライアントソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041113.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1296,6 +1457,7 @@
   </entry>
   <entry>
     <title>2004-11-14 diary: Mozilla Firefox 1.0 日本語版正式版リリース！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041114.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1304,6 +1466,7 @@
   </entry>
   <entry>
     <title>2004-11-18 diary: Sun Solaris 10が無償提供へ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041118.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1312,6 +1475,7 @@
   </entry>
   <entry>
     <title>2004-11-20 diary: とらねこ放浪記が 閉鎖されることに… , 「あなたのOS作ります」アイデアメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1320,6 +1484,7 @@
   </entry>
   <entry>
     <title>2004-11-21 diary: アプリケーションのキャッシュ領域って、そこらへんにあるのですね</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041121.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1328,6 +1493,7 @@
   </entry>
   <entry>
     <title>2004-11-23 diary: JavaアプリケーションサーバーSeasarのコミュニティがNPO法人を設立へ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041123.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1336,6 +1502,7 @@
   </entry>
   <entry>
     <title>2004-11-27 diary: 旧バージョンのJavaプラグインにセキュリティ上の脆弱性 ,</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041127.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1344,6 +1511,7 @@
   </entry>
   <entry>
     <title>2004-11-28 diary: NHK芸術劇場 ワジム・レーピン リサイタル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1352,6 +1520,7 @@
   </entry>
   <entry>
     <title>2004-12-01 diary: Mozilla Firefox人気 上昇中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041201.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1360,6 +1529,7 @@
   </entry>
   <entry>
     <title>2004-12-04 diary: 第4回 みんな集まれ！ ふれあい鉄道フェスティバル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041204.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1368,6 +1538,7 @@
   </entry>
   <entry>
     <title>2004-12-07 diary: Mozilla Firefox 拡張機能のつまみ食い</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041207.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1376,6 +1547,7 @@
   </entry>
   <entry>
     <title>2004-12-09 diary: 一太郎 for Linuxは2005.01.21にパッケージ版 発売開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041209.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1384,6 +1556,7 @@
   </entry>
   <entry>
     <title>2004-12-10 diary: ぽえりな &lt;poe-lina/&gt; 初体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1392,6 +1565,7 @@
   </entry>
   <entry>
     <title>2004-12-12 diary: Javaエバンジェリスト引退宣言 , Debian GNU/Linux入門宣言</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1400,6 +1574,7 @@
   </entry>
   <entry>
     <title>2004-12-17 diary: Mozilla Thunderbird 1.0 日本語版は年内登場か…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1408,6 +1583,7 @@
   </entry>
   <entry>
     <title>2004-12-18 diary: Debian: インストールの前準備</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041218.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1416,6 +1592,7 @@
   </entry>
   <entry>
     <title>2004-12-22 diary: Debian: メーリングリスト各種に登録</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1424,6 +1601,7 @@
   </entry>
   <entry>
     <title>2004-12-23 diary: KNOPPIX 3.7 日本語版 リリース , 今日のdebian-installer(sargeテスト版20041223)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041223.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1432,6 +1610,7 @@
   </entry>
   <entry>
     <title>2004-12-24 diary: Mozilla Thunderbird 1.0 日本語版リリース！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041224.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1440,6 +1619,7 @@
   </entry>
   <entry>
     <title>2004-12-25 diary: Debian: sargeテスト版: 20041224版インストール体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041225.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1448,6 +1628,7 @@
   </entry>
   <entry>
     <title>2004-12-26 diary: LiveCD Linux (1CD Linux)というCDブート可能なLinuxディストリビューションに興味が湧きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041226.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1456,6 +1637,7 @@
   </entry>
   <entry>
     <title>2004-12-28 diary: この冬の自己啓発にはKNOPPIXを用いたLinux体験がオススメ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1464,6 +1646,7 @@
   </entry>
   <entry>
     <title>2004-12-29 diary: Java Web Startのリモートデバッグ方法 , 年賀状バッチ処理中 , LinuxからWindowsをマウントする呪文</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig041229.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

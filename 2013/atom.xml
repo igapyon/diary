@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2013</title>
   <subtitle>Diary index for year 2013 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2013-01-03 diary: プログラミング言語の人気</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130103.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2013-01-04 diary: [C++] C++11 (ISO/IEC 14882:2011)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130104.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2013-01-08 diary: Microsoft Expression Web および Expression Design が無償化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130108.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2013-01-10 diary: 仮想化・クラウド環境のシステム基盤は OSS で構築するべきとの強い理由</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130110.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2013-01-11 diary: 自宅用 LED 電球を模索中...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130111.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2013-01-14 diary: [Java][C/C++][C#.NET]私のプログラミング言語経験年数</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130114.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2013-01-15 diary: [Java] Oracle のイベント</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130115.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2013-01-16 diary: [Java][VM][JavaVM][LLVM] セキュリティ問題によるクライアント Java の苦悩</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130116.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2013-01-19 diary: SD ガンダム ジージェネレーション 3D プレイ・メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2013-01-20 diary: リンクメモ: Kindle はハードウェアをほぼ原価で販売している!?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130121.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2013-01-22 diary: 小売り業受難の時代</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130122.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2013-01-23 diary: APPLE Mac mini 購入をぼんやり検討中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130123.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2013-01-24 diary: システム自動管理ツール「Puppet」を ぼんやりメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130124.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2013-01-25 diary: リンクメモ: SVN を利用して NAS 上のファイルを世代管理する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130125.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2013-01-26 diary: [Ubuntu][12.04] 動画ファイルを mp4 に変換するコマンド一式</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2013-01-28 diary: リンクメモ: IT系上場企業の平均給与を業種別にみてみた 2012年版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2013-01-29 diary: リンクメモ: 日本のモバイルビジネスがiOSとAndroidに本格的にシフト中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2013-01-30 diary: [Ubuntu][12.04] ImageMagick を使って PNG を劣化圧縮</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2013-01-31 diary: リンクメモ: オープンソース分野は今後どうなる？--2013年の10大予想</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130131.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2013-02-01 diary: [Oracle][WebLogic] Oracle 社の WebLogic 関連イベントにてパネルディスカッションのパネリストとして登壇します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130201.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2013-02-10 diary: 現在利用しているヴァイオリン弦の種類</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2013-03-03 diary: Amazon Kindle Paperwhite 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130303.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2013-03-08 diary: Oracle WebLogic セミナーでパネル登壇しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130308.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2013-04-16 diary: C++Builder というソフトのベータ版を体験中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130416.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2013-04-17 diary: 執筆やイベント登壇などのログメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130417.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2013-04-22 diary: RAD Studio XE4, C++Builder XE4, Delphi XE4 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130422.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2013-04-29 diary: C++Builder の入門記事を書きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130429.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2013-05-18 diary: Oracle 社の Java EE に関するインタビュー記事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130518.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2013-05-21 diary: C++Builder の入門記事 第2回 を書きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130521.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2013-05-23 diary: pthread_mutexattr_setpshared: mutexをプロセス間で利用するための</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130523.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2013-06-16 diary: JIS for C++(X3014)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130616.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2013-06-18 diary: C++Builder の入門記事#3</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130618.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2013-06-27 diary: C++Builder の入門記事#4</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130627.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2013-07-10 diary: C++Builder の入門記事#5</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130710.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2013-07-22 diary: C++ で BigDecimal のようなものが欲しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130722.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2013-07-26 diary: VMware ESXi 5.x で VM をバックアップする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130726.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2013-08-05 diary: メモ: Amateras StepCounter を Ant で利用する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130805.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2013-08-13 diary: C++Builder for iOS and Android の現時点の予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130813.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2013-08-16 diary: Ubuntu 12.10でAmazonレンズを無効にする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130816.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2013-08-21 diary: Nexus 7 がまったく起動できなくなる → 解決方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130821.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2013-08-22 diary: 第26回 エンバカデロ・デベロッパーキャンプ (2013/09/13)で講師担当</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130822.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2013-08-23 diary: メモ: 優秀なプログラマを見分ける方法 (そしておそらくハッカーのみわけ方)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130823.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2013-08-29 diary: Unity 4.x (Game Engine) のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130829.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2013-09-09 diary: Clang AST というものがあるらしい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130909.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2013-09-10 diary: 第26回 エンバカデロ・デベロッパーキャンプで RAD Studio XE5 が発表されるのかな?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130910.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2013-09-24 diary: 逆回転</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130924.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2013-10-10 diary: 執筆やイベント登壇などのログメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig131010.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2013-10-21 diary: Ubuntu 13.10で Dash 検索機能を無効にする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig131021.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2013-10-31 diary: 仕事の俗人化を減らしたい...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig131031.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2013-11-28 diary: Reflector というソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig131128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2013-11-29 diary: RAD Studio モバイル開発系リンクメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig131129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

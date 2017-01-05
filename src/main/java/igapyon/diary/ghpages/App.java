@@ -133,6 +133,7 @@ public class App {
 					final SyndEntry entry = new SyndEntryImpl();
 					entry.setTitle(diaryItemInfo.getTitle());
 					entry.setUri(diaryItemInfo.getUri());
+					entry.setLink(diaryItemInfo.getUri());
 					entry.setAuthor("Toshiki Iga");
 					feed.getEntries().add(entry);
 				}

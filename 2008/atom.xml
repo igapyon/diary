@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2008</title>
   <subtitle>Diary index for year 2008 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2008-01-02 diary: Tシャツ転写紙のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080102.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2008-01-08 diary: Java から JavaScriptへのコンバータ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080108.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2008-01-10 diary: Shibuya.trac ミーティング1.0 (2008.01.19＠豊洲) , 「第四期 中将棋全国大会・名人戦」に参戦</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080110.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2008-01-11 diary: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 の動作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080111.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2008-01-15 diary: Apache HTTP Server 2.2.6 の LDAP接続不具合へのパッチ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080115.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2008-01-16 diary: Sun Java SE (JDK) 6 による Webサービス サポート</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080116.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2008-01-17 diary: Subversion設定ファイルを Excelから自動生成 (blancoSvnConf)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080117.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2008-01-18 diary: BEA→Oracle , MySQL→Sun</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080118.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2008-01-19 diary: Apache 2.2 + Subversion 1.4.6 インストール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2008-01-22 diary: ソフトウェア開発に「工事進行基準」を導入？ , Eclipse 3.3用の Language Pack</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080122.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2008-01-24 diary: XupperII 調査開始 , Hinemos 調査開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080124.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2008-01-25 diary: LDAP, NTLM, そして SSPI による認証, 明日は日本中将棋連盟 東京支部例会</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080125.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2008-01-26 diary: 卓球の道具メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2008-01-28 diary: Microsoft セキュリティ サポート プロバイダ インターフェイス / Microsoft Security</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2008-01-29 diary: blancoEclipseBabel プロジェクトの試作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2008-01-30 diary: blancoEclipseBabel による Eclipse 3.3.1.1 日本語化パック (サードパーティ版)の自動生成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2008-01-31 diary: Eclipse SDK 3.3.1.1用 日本語化言語パック (サードパーティ版) α版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080131.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2008-02-03 diary: 埼玉は雪 (そして全国的に太平洋側を中心に雪) , リコー杯プロ棋士ペア碁選手権2008</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080203.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2008-02-07 diary: 花粉症の諸症状 , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α2版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080207.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2008-02-10 diary: インフルエンザ A型</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2008-02-12 diary: インフルエンザにて休み , Eclipse SDK 3.3.1.1 日本語化言語パック (サードパーティ版) α3版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2008-02-14 diary: 今日から仕事再開します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080214.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2008-02-17 diary: 自宅PCモニタ: 三菱電機 RDF193H (19型CRT)が寿命を迎えた模様 , 花粉症！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2008-02-23 diary: blancoEclipseBabel -&gt; blancoNLpackGenerator へ名称変更 , Eclipse</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080223.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2008-02-28 diary: Eclipse 3.3 日本語化言語パック(サードパーティ版) β版 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2008-02-29 diary: Eclipse 3.3.2 日本語化言語パック β1リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080229.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2008-03-02 diary: BlancoEclipseDistribution 次期安定版 調整開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080302.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2008-03-08 diary: blancoNLpackGenerator: 自動生成言語パックサンプルに TPTP, RSE を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080308.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2008-03-13 diary: blancoNLpackGenerator: 抽出・マージ・差分取得のAntタスクを追加 , 花粉症の症状がひどい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080313.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2008-03-14 diary: 花粉症で出社不能</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080314.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2008-03-18 diary: blanco Framework は Java SDK 1.5.0 に移行します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080318.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2008-03-19 diary: BlancoEclipseDistribution 正式版 (3.3.2-20080309) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080319.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2008-03-27 diary: Subversive 1.1.9_02 の日本語化およびパッチ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080327.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2008-04-03 diary: blancoNLpackGenerator: 翻訳レビュープロセス と 翻訳データ形式 (OASIS XLIFF)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080403.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2008-04-04 diary: 翻訳メモリ: OmegaT というソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080404.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2008-04-12 diary: 新幹線 N700系</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080412.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2008-04-13 diary: Eclipse 日本語化言語パック および Eclipse Babel 日本語訳に関するオフライン・ミーティング＠東京新木場</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080413.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2008-04-14 diary: 少し花粉症の症状が緩和</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080414.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2008-04-17 diary: Eclipse BABEL Translators_ja オフラインミーティング＠東京新木場(2008.04.14)議事メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080417.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2008-04-26 diary: 花粉症なお厳しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080426.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2008-04-28 diary: 翻訳メモリ: 翻訳ブレイン というソフト , ケロロ軍曹</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080428.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2008-05-13 diary: Eclipse 日本語化言語パック (サードパーティ版) 20080512版 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080513.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2008-05-22 diary: Eclipse Classic (SDK) 3.4 RC1 リリース , 翻訳ブレインを購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080522.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2008-05-26 diary: Eclipse Babel Project Downloads の使い方 (Eclipse 3.3 日本語化言語パックの update-site 経由による入手方法)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080526.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2008-05-27 diary: Pleiades 既存訳を翻訳メモリとして利用する方法 - 翻訳ブレイン版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080527.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2008-06-02 diary: Eclipse 3.4 (Ganymede) 日本語化言語パック (サードパーティ版) 翻訳進捗</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080602.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2008-06-09 diary: Eclipse BABEL Translators_ja オフラインミーティング＠東京市ヶ谷(2008.05.23)議事メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080609.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2008-06-12 diary: Eclipse Ganymede RC3 日本語化言語パック (サードパーティ版) integration bulidリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080612.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2008-06-13 diary: 第9回 CodeGearデベロッパーキャンプに参加・発表</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080613.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2008-06-22 diary: Eclipse Ganymede 言語パック (サードパーティ版) 最終調整中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080622.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2008-06-23 diary: Eclipse Ganymede RC4 日本語化言語パック (サードパーティ版) integration bulidリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080623.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2008-06-25 diary: Eclipse Ganymede 日本語化言語パック (サードパーティ版) integration bulidリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080625.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -424,6 +476,7 @@
   </entry>
   <entry>
     <title>2008-06-26 diary: Eclipse [[Ganymede]] リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080626.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -432,6 +485,7 @@
   </entry>
   <entry>
     <title>2008-07-01 diary: Eclipse Ganymede / Europa 日本語化言語パック (サードパーティ版) マイルストーン版リリース , Pleiades 最新版 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080701.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -440,6 +494,7 @@
   </entry>
   <entry>
     <title>2008-07-10 diary: Eclipse Ganymede 翻訳状況 最前線</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080710.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -448,6 +503,7 @@
   </entry>
   <entry>
     <title>2008-07-19 diary: 自宅エアコン更新検討中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080719.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -456,6 +512,7 @@
   </entry>
   <entry>
     <title>2008-07-29 diary: 英語のカタカナ表記 (翻訳ネタ)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080729.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -464,6 +521,7 @@
   </entry>
   <entry>
     <title>2008-07-30 diary: 東芝エアコン 大清快 (RAS-281BDR) (自宅エアコン更新)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080730.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -472,6 +530,7 @@
   </entry>
   <entry>
     <title>2008-08-05 diary: Eclipse Ganymede 日本語化言語パック (サードパーティ版) integration bulidリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080805.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -480,6 +539,7 @@
   </entry>
   <entry>
     <title>2008-08-22 diary: Eclipse Ganymede 日本語化言語パック (サードパーティ版) の翻訳作業を一時停止します</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080822.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -488,6 +548,7 @@
   </entry>
   <entry>
     <title>2008-09-01 diary: Eclipse Ganymede/Europa 日本語化言語パック (サードパーティ版) integration</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080901.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -496,6 +557,7 @@
   </entry>
   <entry>
     <title>2008-09-12 diary: 書評: Trac入門 --ソフトウェア開発・プロジェクト管理活用ガイド</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080912.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -504,6 +566,7 @@
   </entry>
   <entry>
     <title>2008-09-16 diary: Eclipse 3.4.1 Classic (SDK) RC3 メッセージ変更差分確認 , Ganymede SR1動向ウォッチ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080916.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -512,6 +575,7 @@
   </entry>
   <entry>
     <title>2008-09-17 diary: いがぴょんの日記ウェブページv3 システムを妄想中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080917.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -520,6 +584,7 @@
   </entry>
   <entry>
     <title>2008-09-19 diary: Eclipse Ganymede ネタ , Eclipse BABEL へのコントリビュート作業にて悶絶</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080919.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -528,6 +593,7 @@
   </entry>
   <entry>
     <title>2008-09-22 diary: 自宅PC用に外付けブルーレイドライブを購入 , 縄文海進</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080922.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -536,6 +602,7 @@
   </entry>
   <entry>
     <title>2008-09-25 diary: Eclipse Ganymede SR1 および Eclipse Classic (SDK) 3.4.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080925.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -544,6 +611,7 @@
   </entry>
   <entry>
     <title>2008-09-28 diary: Eclipse Ganymede SR1 日本語化言語パック (サードパーティ版) RC1 bulid リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080928.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -552,6 +620,7 @@
   </entry>
   <entry>
     <title>2008-10-01 diary: インターネットとは何か?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081001.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -560,6 +629,7 @@
   </entry>
   <entry>
     <title>2008-10-05 diary: Kaspersky Internet Security 2009 ３ユーザー優待版［DL］ 購入 , オープン・イエローページ構想</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081005.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -568,6 +638,7 @@
   </entry>
   <entry>
     <title>2008-10-08 diary: OpenSSO メモ , 東京株式市場 日経平均株価 9,203円 (終値952円安)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081008.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -576,6 +647,7 @@
   </entry>
   <entry>
     <title>2008-10-09 diary: OSS の LDAP 実装である OpenDS, OpenLDAP, ApacheDS を簡単比較</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081009.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -584,6 +656,7 @@
   </entry>
   <entry>
     <title>2008-10-10 diary: 東京株式市場 日経平均株価 8,276円 (終値881円安) , EVMメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081010.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -592,6 +665,7 @@
   </entry>
   <entry>
     <title>2008-10-13 diary: マクロスF (フロンティア) サントラCD</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081013.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -600,6 +674,7 @@
   </entry>
   <entry>
     <title>2008-10-16 diary: Eclipse 3.4.1/3.3.2 日本語化言語パック (サードパーティ版) 正式版公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081016.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -608,6 +683,7 @@
   </entry>
   <entry>
     <title>2008-10-24 diary: 東京株式市場 日経平均株価 7,649円 (終値811円安)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081024.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -616,6 +692,7 @@
   </entry>
   <entry>
     <title>2008-10-26 diary: サイバー犯罪情報の通報／相談先メモ , Eclipse 3.4 の plugins フォルダー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081026.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -624,6 +701,7 @@
   </entry>
   <entry>
     <title>2008-10-27 diary: 東京株式市場 日経平均株価 7,162円 (終値486円安) , 日本版サブプライム・ローン問題</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081027.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -632,6 +710,7 @@
   </entry>
   <entry>
     <title>2008-10-29 diary: Firefox の URL 入力自動補完機能を無効化する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081029.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -640,6 +719,7 @@
   </entry>
   <entry>
     <title>2008-10-30 diary: Windows XP: Thumbs.dbファイルを作成しないようにする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081030.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -648,6 +728,7 @@
   </entry>
   <entry>
     <title>2008-10-31 diary: Ubuntu 8.10 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081031.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -656,6 +737,7 @@
   </entry>
   <entry>
     <title>2008-11-03 diary: 安藤さんの手による RSS リーダー・Eclipse プラグイン をメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081103.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -664,6 +746,7 @@
   </entry>
   <entry>
     <title>2008-11-04 diary: MythTV + Linux ベースの TV録画＋再生環境構築に興味</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081104.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -672,6 +755,7 @@
   </entry>
   <entry>
     <title>2008-11-05 diary: ログメッセージ定義書からロギング・ソースコードを自動生成する blancoLogMessage を新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -680,6 +764,7 @@
   </entry>
   <entry>
     <title>2008-11-09 diary: BUFFALO WHR-HP-G/E: AirStation 11g＆b 無線LAN BroadBandルータ＋LAN端子用無線LAN子機セット購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081109.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -688,6 +773,7 @@
   </entry>
   <entry>
     <title>2008-11-11 diary: 古いバージョンの Eclipse の入手先</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081111.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -696,6 +782,7 @@
   </entry>
   <entry>
     <title>2008-11-18 diary: OpenSSO Enterprise 8.0 調査</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081118.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -704,6 +791,7 @@
   </entry>
   <entry>
     <title>2008-11-19 diary: blancoValueObject 最新版 (1.1.3) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -712,6 +800,7 @@
   </entry>
   <entry>
     <title>2008-11-23 diary: 小石川植物園に行ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081123.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -720,6 +809,7 @@
   </entry>
   <entry>
     <title>2008-11-24 diary: 自宅電灯・電球メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081124.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -728,6 +818,7 @@
   </entry>
   <entry>
     <title>2008-11-26 diary: TERASOLUNA Server Framework for Java (Web版) 調べ中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -736,6 +827,7 @@
   </entry>
   <entry>
     <title>2008-11-28 diary: イベントハンドリング・ベースの HTML パーサ、blancoHtmlParser を作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -744,6 +836,7 @@
   </entry>
   <entry>
     <title>2008-11-29 diary: 直近のズボン(パンツ)のサイズ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -752,6 +845,7 @@
   </entry>
   <entry>
     <title>2008-11-30 diary: HTMLの記述内容を正常化するための blancoHtmlNormalizer を新規開発着手</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -760,6 +854,7 @@
   </entry>
   <entry>
     <title>2008-12-09 diary: Java: サンプル: iBatis: sqlMap 設定ファイルの読み込みサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081209.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -768,6 +863,7 @@
   </entry>
   <entry>
     <title>2008-12-10 diary: Apache iBatis の sqlMap.xml ファイルを入力して、Javaソースコードを自動生成する blancoIBatisというプロダクトを新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -776,6 +872,7 @@
   </entry>
   <entry>
     <title>2008-12-11 diary: Java Pet Store</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081211.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -784,6 +881,7 @@
   </entry>
   <entry>
     <title>2008-12-16 diary: HTML整形調査中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081216.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -792,6 +890,7 @@
   </entry>
   <entry>
     <title>2008-12-17 diary: Java: TagSoup を使った HTML正常化のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -800,6 +899,7 @@
   </entry>
   <entry>
     <title>2008-12-22 diary: blancoCalcParser の利用サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -808,6 +908,7 @@
   </entry>
   <entry>
     <title>2008-12-26 diary: Eclipse Babel 動向</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081226.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -816,6 +917,7 @@
   </entry>
   <entry>
     <title>2008-12-28 diary: 明日は世界の将棋大会＠東京千駄ヶ谷将棋会館</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2002</title>
   <subtitle>Diary index for year 2002 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:34Z</updated>
+  <updated>2017-01-05T07:42:45Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:34Z</dc:date>
+  <dc:date>2017-01-05T07:42:45Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2002-01-08 diary: Oracle 8.1.7 が Windows 2000 Pro / XP にインストールできない件</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020108.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2002-01-10 diary: ばたばたしてます</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020110.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2002-01-20 diary: 明日から静岡出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2002-01-23 diary: ファイル分割プログラムの試作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020123.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2002-01-25 diary: 出張シリーズが一段落</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020125.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2002-01-29 diary: HTTP経由ファイル取得ツール(Java版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2002-01-30 diary: 明日は静岡出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2002-02-01 diary: ディレクトリ鳥瞰ツール , J2EE 1.3.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020201.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2002-02-05 diary: 今日から『ひたすらプログラマー』</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020205.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2002-02-06 diary: 明日は東京出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020206.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2002-02-08 diary: メールの暗号化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020208.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2002-02-12 diary: 父親の退院準備をしてきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2002-02-13 diary: Windows XPに乗り換えてから どうも不安定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020213.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2002-02-14 diary: SUN J2SE 1.4 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020214.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2002-02-15 diary: Apache Xalan-Java 2.3.0リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020215.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2002-02-18 diary: 今日から明日までSEモード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020218.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2002-02-19 diary: 今日も引き続きSEモード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020219.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2002-02-20 diary: ウィルス対策ソフトの設定を変えてみる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020220.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2002-02-21 diary: SUN JDK 1.1.8_009 Windows版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020221.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2002-02-22 diary: 来週は月～水まで静岡出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2002-02-28 diary: PHS買い換え衝動→KX-HV50購入 , スプリットキーレイアウトキーボード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2002-03-01 diary: 外注さんが帰って少し寂しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020301.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2002-03-02 diary: 明日は演奏会</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020302.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2002-03-04 diary: 仕事忙しい…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020304.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2002-03-05 diary: テスト＆バグ出し＆修正を繰り返し…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020305.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2002-03-08 diary: マーラーパート譜整理 , 出張ぼけ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020308.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2002-03-10 diary: 明日から出張シリーズ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020310.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2002-03-15 diary: 出張疲れ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020315.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2002-03-19 diary: 受託開発仕事探し中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020319.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2002-03-20 diary: ATOK15 for Windows パッチ提供開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020320.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2002-03-22 diary: ORACLEのTABLESPACEと格闘中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020322.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2002-03-25 diary: 今日もOracle会</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020325.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2002-03-29 diary: J2SE 1.3.1_03リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020329.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2002-03-31 diary: JAO30はダフニスとクローエで出ようかと…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020331.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2002-04-02 diary: がんばれ、みずほ銀行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020402.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2002-04-04 diary: 今日は営業活動</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020404.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2002-04-05 diary: USB接続32MBフラッシュメモリ購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020405.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2002-04-12 diary: 出張疲れ中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020412.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2002-04-16 diary: 仕事忙しい…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020416.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2002-04-18 diary: 今日はドキュメント作成日</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020418.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2002-04-19 diary: 今日もドキュメンテーション</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020419.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2002-04-21 diary: 海遊館初体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020421.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2002-04-28 diary: 大阪に帰ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020428.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2002-04-30 diary: 風邪ひき・ヴァイオリン発表会</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020430.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2002-05-02 diary: OpenOffice.org 1.0リリース , 今日はプレ本番日です</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020502.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2002-05-04 diary: 書籍を執筆することになりました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020504.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2002-05-10 diary: 原価計算システムの初本番、無事終了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020510.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2002-05-11 diary: IBM Robocode(ロボコード)を試してみる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020511.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2002-05-16 diary: 出張疲れ中… , Java言語でシューティングゲーム</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020516.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2002-05-17 diary: SQLServer 2000用JDBCドライバ リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020517.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2002-05-20 diary: 仕事忙しい(そればっか…)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020520.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2002-05-21 diary: 身近なトラブル注意日</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020521.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -424,6 +476,7 @@
   </entry>
   <entry>
     <title>2002-05-22 diary: Jakarta Struts調べ中… , 関西在住の派遣Java言語エンジニア募集(募集終了)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020522.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -432,6 +485,7 @@
   </entry>
   <entry>
     <title>2002-05-23 diary: Java2 SDK 1.4.0 ソースコード公開開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020523.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -440,6 +494,7 @@
   </entry>
   <entry>
     <title>2002-05-24 diary: Struts促成習得</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020524.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -448,6 +503,7 @@
   </entry>
   <entry>
     <title>2002-05-28 diary: 今日は書籍執筆します！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020528.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -456,6 +512,7 @@
   </entry>
   <entry>
     <title>2002-05-30 diary: Strutsのデモ日</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020530.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -464,6 +521,7 @@
   </entry>
   <entry>
     <title>2002-05-31 diary: Java言語ソースコード用整形ツール astyle</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020531.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -472,6 +530,7 @@
   </entry>
   <entry>
     <title>2002-06-04 diary: SUN Java2 SDK, Standard Edition, 1.4.0_01 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020604.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -480,6 +539,7 @@
   </entry>
   <entry>
     <title>2002-06-05 diary: 今日も書籍執筆モード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020605.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -488,6 +548,7 @@
   </entry>
   <entry>
     <title>2002-06-06 diary: Mozilla 1.0 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020606.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -496,6 +557,7 @@
   </entry>
   <entry>
     <title>2002-06-07 diary: 今日は営業活動</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020607.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -504,6 +566,7 @@
   </entry>
   <entry>
     <title>2002-06-10 diary: 東京出張です</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020610.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -512,6 +575,7 @@
   </entry>
   <entry>
     <title>2002-06-12 diary: J2SE 1.4 日本語版ドキュメントリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020612.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -520,6 +584,7 @@
   </entry>
   <entry>
     <title>2002-06-13 diary: 今日は終日営業活動</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020613.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -528,6 +593,7 @@
   </entry>
   <entry>
     <title>2002-06-14 diary: オープンソースなJava言語で書かれたPDF作成ソフトを調べたいのですが…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020614.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -536,6 +602,7 @@
   </entry>
   <entry>
     <title>2002-06-16 diary: こうちゃんが遊びに来ました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020616.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -544,6 +611,7 @@
   </entry>
   <entry>
     <title>2002-06-17 diary: Java言語でスクリーンセーバー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020617.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -552,6 +620,7 @@
   </entry>
   <entry>
     <title>2002-06-18 diary: HTTPサーバの自作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020618.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -560,6 +629,7 @@
   </entry>
   <entry>
     <title>2002-06-19 diary: 今日も記事執筆</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020619.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -568,6 +638,7 @@
   </entry>
   <entry>
     <title>2002-06-20 diary: 今日は一日出張になってしまいました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020620.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -576,6 +647,7 @@
   </entry>
   <entry>
     <title>2002-06-21 diary: 今日中に3章記事執筆終了 , J2SE 1.4.1βリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020621.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -584,6 +656,7 @@
   </entry>
   <entry>
     <title>2002-06-24 diary: 夜なべ中。原稿書き中…(苦笑)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020624.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -592,6 +665,7 @@
   </entry>
   <entry>
     <title>2002-06-25 diary: 東京から帰ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020625.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -600,6 +674,7 @@
   </entry>
   <entry>
     <title>2002-06-26 diary: 今日は終日営業活動でした</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020626.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -608,6 +683,7 @@
   </entry>
   <entry>
     <title>2002-06-27 diary: 日々の仕事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020627.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -616,6 +692,7 @@
   </entry>
   <entry>
     <title>2002-06-28 diary: はじめてのC#</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020628.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -624,6 +701,7 @@
   </entry>
   <entry>
     <title>2002-06-29 diary: P携線4を使い始めました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020629.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -632,6 +710,7 @@
   </entry>
   <entry>
     <title>2002-07-01 diary: Eclipse 2.0 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020701.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -640,6 +719,7 @@
   </entry>
   <entry>
     <title>2002-07-02 diary: NetBeans IDE 3.3.2 日本語化パック</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020702.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -648,6 +728,7 @@
   </entry>
   <entry>
     <title>2002-07-03 diary: 今日は順調に仕事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020703.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -656,6 +737,7 @@
   </entry>
   <entry>
     <title>2002-07-04 diary: nakka WWWC 1.0.2 リリース , Opera使い初め</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020704.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -664,6 +746,7 @@
   </entry>
   <entry>
     <title>2002-07-05 diary: 今日も頑張るぞ～</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020705.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -672,6 +755,7 @@
   </entry>
   <entry>
     <title>2002-07-09 diary: Apache FOP 0.20.4 リリース , はじめてのC#</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020709.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -680,6 +764,7 @@
   </entry>
   <entry>
     <title>2002-07-10 diary: checkstyleというJava構文チェックツール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020710.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -688,6 +773,7 @@
   </entry>
   <entry>
     <title>2002-07-11 diary: Apache Ant 1.5 リリース , Sun Java 3D 1.3 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020711.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -696,6 +782,7 @@
   </entry>
   <entry>
     <title>2002-07-12 diary: 今日はお休みをとって子どもの参観に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020712.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -704,6 +791,7 @@
   </entry>
   <entry>
     <title>2002-07-15 diary: あとは4,5章</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020715.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -712,6 +800,7 @@
   </entry>
   <entry>
     <title>2002-07-16 diary: C#.NET勉強開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020716.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -720,6 +809,7 @@
   </entry>
   <entry>
     <title>2002-07-18 diary: ヴァイオリンを調整に出しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020718.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -728,6 +818,7 @@
   </entry>
   <entry>
     <title>2002-07-19 diary: 書籍執筆で不安</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020719.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -736,6 +827,7 @@
   </entry>
   <entry>
     <title>2002-07-22 diary: Sun J2ME Wireless Toolkit 1.0.4 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020722.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -744,6 +836,7 @@
   </entry>
   <entry>
     <title>2002-07-23 diary: 自宅にケーブルテレビ系インターネットが開通予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020723.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -752,6 +845,7 @@
   </entry>
   <entry>
     <title>2002-07-24 diary: 今日は打ち合わせに明け暮れました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020724.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -760,6 +854,7 @@
   </entry>
   <entry>
     <title>2002-07-25 diary: 今日も淡々と書籍執筆</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020725.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -768,6 +863,7 @@
   </entry>
   <entry>
     <title>2002-07-26 diary: ホワイトスペース除去ツール , 今日から5章</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020726.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -776,6 +872,7 @@
   </entry>
   <entry>
     <title>2002-07-29 diary: 昨日の大阪は暑かった</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020729.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -784,6 +881,7 @@
   </entry>
   <entry>
     <title>2002-07-30 diary: 書籍執筆脱稿 , レコード芸術初体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020730.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -792,6 +890,7 @@
   </entry>
   <entry>
     <title>2002-07-31 diary: 明日から来週火曜日ころまで日記更新できません</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020731.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -800,6 +899,7 @@
   </entry>
   <entry>
     <title>2002-08-06 diary: JAO30新潟大会から帰ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020806.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -808,6 +908,7 @@
   </entry>
   <entry>
     <title>2002-08-07 diary: 仕事が大変忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020807.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -816,6 +917,7 @@
   </entry>
   <entry>
     <title>2002-08-08 diary: ブロードバンドルータ購入 , SQLServer 2000 の timestamp型にハマる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020808.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -824,6 +926,7 @@
   </entry>
   <entry>
     <title>2002-08-09 diary: 今日は終日出張予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020809.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -832,6 +935,7 @@
   </entry>
   <entry>
     <title>2002-08-11 diary: ジャスコ南千里店でお買い物</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020811.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -840,6 +944,7 @@
   </entry>
   <entry>
     <title>2002-08-12 diary: Windows 2000 SP3 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020812.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -848,6 +953,7 @@
   </entry>
   <entry>
     <title>2002-08-13 diary: Jakarta Commons BeanUtils 1.4 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020813.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -856,6 +962,7 @@
   </entry>
   <entry>
     <title>2002-08-14 diary: Sun J2ME Wireless Toolkit 1.0.4_01 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020814.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -864,6 +971,7 @@
   </entry>
   <entry>
     <title>2002-08-16 diary: Mobile Media API Emulator 1.0 for the J2ME Wireless Toolkitリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020816.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -872,6 +980,7 @@
   </entry>
   <entry>
     <title>2002-08-19 diary: リゴレット</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020819.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -880,6 +989,7 @@
   </entry>
   <entry>
     <title>2002-08-20 diary: 今日は半日出張になる雰囲気</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020820.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -888,6 +998,7 @@
   </entry>
   <entry>
     <title>2002-08-21 diary: Sun Java 2 Platform, Standard Edition (J2SE) 1.4.1 RC(出荷候補版)リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020821.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -896,6 +1007,7 @@
   </entry>
   <entry>
     <title>2002-08-23 diary: System.Data.SqlClientを直接使ったDB入出力サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020823.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -904,6 +1016,7 @@
   </entry>
   <entry>
     <title>2002-08-26 diary: マーガリン購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020826.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -912,6 +1025,7 @@
   </entry>
   <entry>
     <title>2002-08-27 diary: JUnit 3.8 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020827.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -920,6 +1034,7 @@
   </entry>
   <entry>
     <title>2002-08-28 diary: Mozilla 1.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020828.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -928,6 +1043,7 @@
   </entry>
   <entry>
     <title>2002-08-29 diary: 外字、セッションオブジェクト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020829.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -936,6 +1052,7 @@
   </entry>
   <entry>
     <title>2002-08-30 diary: 仕事忙しい , Visual C# + ASP.NET で繰り返し項目をプログラミングする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020830.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -944,6 +1061,7 @@
   </entry>
   <entry>
     <title>2002-09-02 diary: プロフェッショナルASP.NET 上 基本編を購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020902.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -952,6 +1070,7 @@
   </entry>
   <entry>
     <title>2002-09-03 diary: C# + ASP.NETで実行時エラーが多い…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020903.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -960,6 +1079,7 @@
   </entry>
   <entry>
     <title>2002-09-04 diary: Apache Xalan-Java 2.4.0 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020904.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -968,6 +1088,7 @@
   </entry>
   <entry>
     <title>2002-09-05 diary: Visual C# + ASP.NET: 複数ドロップダウンリストの動的連動でハマる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020905.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -976,6 +1097,7 @@
   </entry>
   <entry>
     <title>2002-09-06 diary: Java言語を辞めたわけではありません</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020906.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -984,6 +1106,7 @@
   </entry>
   <entry>
     <title>2002-09-09 diary: Jakarta Tomcat 4.1.10 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020909.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -992,6 +1115,7 @@
   </entry>
   <entry>
     <title>2002-09-12 diary: Sun Java2 SDK, Standard Edition, 1.4.0_02 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020912.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1000,6 +1124,7 @@
   </entry>
   <entry>
     <title>2002-09-17 diary: ASP.NETでハマりまくり</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020917.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1008,6 +1133,7 @@
   </entry>
   <entry>
     <title>2002-09-18 diary: Sun Java2 Platform, Standard Edition 1.4.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020918.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1016,6 +1142,7 @@
   </entry>
   <entry>
     <title>2002-09-19 diary: 仕事忙しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020919.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1024,6 +1151,7 @@
   </entry>
   <entry>
     <title>2002-09-20 diary: Windows XP SP1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020920.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1032,6 +1160,7 @@
   </entry>
   <entry>
     <title>2002-09-23 diary: Visual C# + ASP.NET時のいがぴょん的フレームワーク</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020923.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1040,6 +1169,7 @@
   </entry>
   <entry>
     <title>2002-09-26 diary: エクストリームプログラミング試行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020926.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1048,6 +1178,7 @@
   </entry>
   <entry>
     <title>2002-09-27 diary: 今日も仕事が超忙しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020927.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1056,6 +1187,7 @@
   </entry>
   <entry>
     <title>2002-09-29 diary: ASP.NET with C# の仕事、一段落しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig020929.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1064,6 +1196,7 @@
   </entry>
   <entry>
     <title>2002-10-03 diary: 今日からまたC#</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021003.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1072,6 +1205,7 @@
   </entry>
   <entry>
     <title>2002-10-08 diary: Apache Ant 1.5.1リリース , J2SE 1.3.1_05リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021008.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1080,6 +1214,7 @@
   </entry>
   <entry>
     <title>2002-10-09 diary: コマンド プロンプトをエクスプローラに追加する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021009.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1088,6 +1223,7 @@
   </entry>
   <entry>
     <title>2002-10-11 diary: Microsoft Office 2000 のインターネット時不具合に遭遇</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021011.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1096,6 +1232,7 @@
   </entry>
   <entry>
     <title>2002-10-12 diary: 校正チェック作業中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021012.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1104,6 +1241,7 @@
   </entry>
   <entry>
     <title>2002-10-15 diary: Sun Java Secure Socket Extension (JSSE) 1.0.3_01 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021015.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1112,6 +1250,7 @@
   </entry>
   <entry>
     <title>2002-10-16 diary: Office 2000 メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021016.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1120,6 +1259,7 @@
   </entry>
   <entry>
     <title>2002-10-17 diary: Sun Java2 Platform, Standard Edition 1.4.1_01 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021017.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1128,6 +1268,7 @@
   </entry>
   <entry>
     <title>2002-10-22 diary: 某書籍の最後のツメを…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021022.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1136,6 +1277,7 @@
   </entry>
   <entry>
     <title>2002-10-23 diary: 某書籍の校正終わり</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021023.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1144,6 +1286,7 @@
   </entry>
   <entry>
     <title>2002-10-24 diary: Sun Java2 SDK, Standard Edition 1.3.1_06 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021024.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1152,6 +1295,7 @@
   </entry>
   <entry>
     <title>2002-10-25 diary: Eclipse初体験 , Java言語入門本探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021025.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1160,6 +1304,7 @@
   </entry>
   <entry>
     <title>2002-10-26 diary: 伊丹市昆虫館と昆陽池公園に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021026.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1168,6 +1313,7 @@
   </entry>
   <entry>
     <title>2002-10-30 diary: Eclipse続報</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021030.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1176,6 +1322,7 @@
   </entry>
   <entry>
     <title>2002-10-31 diary: 仕事ひといき</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021031.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1184,6 +1331,7 @@
   </entry>
   <entry>
     <title>2002-11-01 diary: SWT (Standard Widget Toolkit) という選択肢</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021101.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1192,6 +1340,7 @@
   </entry>
   <entry>
     <title>2002-11-02 diary: 今年の抱負の点検</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021102.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1200,6 +1349,7 @@
   </entry>
   <entry>
     <title>2002-11-05 diary: 珍しく仕事忙しくない</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1208,6 +1358,7 @@
   </entry>
   <entry>
     <title>2002-11-06 diary: 国産汎用機が消えていく時代なんですって</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021106.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1216,6 +1367,7 @@
   </entry>
   <entry>
     <title>2002-11-07 diary: 某社システムの火消しに動員される模様</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021107.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1224,6 +1376,7 @@
   </entry>
   <entry>
     <title>2002-11-09 diary: IBM ホームページビルダー V7、ViaVoice V10 Pro 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021109.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1232,6 +1385,7 @@
   </entry>
   <entry>
     <title>2002-11-13 diary: Javaプログラミング[アプリケーション編] ステップアップラーニング</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021113.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1240,6 +1394,7 @@
   </entry>
   <entry>
     <title>2002-11-15 diary: 某社システムの火消しから復帰 , Eclipse 2.0.2 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021115.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1248,6 +1403,7 @@
   </entry>
   <entry>
     <title>2002-11-18 diary: ASP.NETウェブアプリケーションの配布方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021118.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1256,6 +1412,7 @@
   </entry>
   <entry>
     <title>2002-11-20 diary: 昨日半日振休で楽器屋に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1264,6 +1421,7 @@
   </entry>
   <entry>
     <title>2002-11-26 diary: HTTP経由ファイル取得ツール(Visual C++版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1272,6 +1430,7 @@
   </entry>
   <entry>
     <title>2002-11-27 diary: 今日は年休でした</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021127.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1280,6 +1439,7 @@
   </entry>
   <entry>
     <title>2002-12-01 diary: SWTに首ったけ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021201.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1288,6 +1448,7 @@
   </entry>
   <entry>
     <title>2002-12-03 diary: Apache 2.0.43 + Tomcat 4.1.12 の連携動作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021203.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1296,6 +1457,7 @@
   </entry>
   <entry>
     <title>2002-12-04 diary: 自宅が上の階から水漏れ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021204.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1304,6 +1466,7 @@
   </entry>
   <entry>
     <title>2002-12-05 diary: HTTP経由ファイル送信サンプル(Visual C++版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021205.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1312,6 +1475,7 @@
   </entry>
   <entry>
     <title>2002-12-06 diary: C++用Java似ストリーム群を実装しました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021206.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1320,6 +1484,7 @@
   </entry>
   <entry>
     <title>2002-12-10 diary: C++用Javaストリーム風クラス作成中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1328,6 +1493,7 @@
   </entry>
   <entry>
     <title>2002-12-12 diary: 忙しいです</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1336,6 +1502,7 @@
   </entry>
   <entry>
     <title>2002-12-13 diary: ファイルのMD5値を求めるサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021213.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1344,6 +1511,7 @@
   </entry>
   <entry>
     <title>2002-12-16 diary: 今日は京都に出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021216.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1352,6 +1520,7 @@
   </entry>
   <entry>
     <title>2002-12-17 diary: SWTのおかげでKylixを見ても悔しくない?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021217.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1360,6 +1529,7 @@
   </entry>
   <entry>
     <title>2002-12-19 diary: WinCVS日本語対応簡単インストーラー</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021219.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1368,6 +1538,7 @@
   </entry>
   <entry>
     <title>2002-12-20 diary: Eclipse 2.1 M4 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021220.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1376,6 +1547,7 @@
   </entry>
   <entry>
     <title>2002-12-25 diary: 仕事忙しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021225.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1384,6 +1556,7 @@
   </entry>
   <entry>
     <title>2002-12-28 diary: 年の瀬ですねぇ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021228.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

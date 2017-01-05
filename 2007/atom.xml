@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2007</title>
   <subtitle>Diary index for year 2007 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2007-01-05 diary: シンプルなJFC/Swingのフレームサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2007-01-09 diary: 第7回日本マスターズオーケストラキャンプ に参加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070109.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2007-01-10 diary: 1泊2日で大阪出張</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070110.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2007-01-12 diary: 自宅の開発／日記ビルド環境が新マシンに移行完了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070112.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2007-01-13 diary: シンプルなスレッドローカルを利用したサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070113.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2007-01-15 diary: シンプルな NSIS (Nullsoft Scriptable Install System) 利用サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070115.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2007-01-17 diary: 某記事執筆の追い込み</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070117.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2007-01-24 diary: blancofwダウンロードページの更新 , 仕事忙しい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070124.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2007-01-27 diary: プロ棋士の方による将棋の指導対局</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070127.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2007-01-28 diary: 書籍: 『Java言語で学ぶリファクタリング入門』 発売</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2007-01-30 diary: KNOPPIX 5.1.1 日本版 リリース , Windows Vista リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2007-02-09 diary: 書籍: 『Java言語仕様 第3版』(日本語訳) 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070209.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2007-02-10 diary: ＠IT 連載記事 執筆スケジュール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070210.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2007-02-14 diary: 花粉症の症状が出ています…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070214.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2007-02-21 diary: 例年になく花粉症の症状が重い , ＠ITの連載記事脱稿</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070221.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2007-02-22 diary: 深く美しく</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2007-02-26 diary: Open Source Conference 2007 Tokyo/Spring 開催 (2007.03.16-17)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070226.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2007-03-01 diary: 日本標準時プロジェクト → NTPサーバを供給 , Microsoft Network Monitor 3</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070301.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2007-03-02 diary: 「Eric S. Raymond」さんが、Red Hat/Fedora から Ubuntuへと移行する , Ubuntuと SUSE Linux (openSUSE) に興味</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070302.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2007-03-03 diary: Novell SUSE Linuxを調べ中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070303.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2007-03-11 diary: HITACHI 全自動洗濯機 を購入 , てくてくエンジェルPocketを購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070311.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2007-03-15 diary: OSC2007 Tokyo/Spring に blanco Framework を展示</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070315.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2007-03-20 diary: blanco Framework は 新たに Ruby と Python の ソースコード自動生成に対応していく予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070320.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2007-03-27 diary: 休暇を取得して大阪に行きます</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070327.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2007-04-03 diary: blancoStringConverterにRuby, Python対応を追加開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070403.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2007-04-04 diary: 今年度は大学講義を担当する予定 , 今月から豊洲で作業をおこなう予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070404.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2007-04-05 diary: blancoStringConverterにRuby, Python対応を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070405.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2007-04-06 diary: Java 国際化 に関する調べメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070406.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2007-04-08 diary: クラシック音楽ネタ: 松ヤニを Tartini Rosin (Green) に変更</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070408.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2007-04-10 diary: こどもが よめる いごの ほん (子どもが読める囲碁の本)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070410.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2007-04-11 diary: Debian GNU/Linux 4.0 (etch) 正式リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070411.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2007-04-14 diary: 花粉症が なんとか治まってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070414.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2007-04-16 diary: バンダイ キッズケータイ papipo! (ぱぴぽ) 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070416.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2007-04-17 diary: WILLCOM(ウィルコム)定額プラン＋ファミリーパックへと切りかえ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070417.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2007-04-18 diary: キャノンソフトウェア「Web Performer」紹介セミナーに行ってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070418.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2007-04-19 diary: ＠IT記事原稿執筆 , ドメイン igapyon.jp を取得</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070419.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2007-04-20 diary: Ubuntu 7.04 Feisty Fawn リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070420.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2007-04-21 diary: クラシック音楽: Andrea Rosin (アンドレア・ロジン) という松脂を購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070421.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2007-04-22 diary: Ubuntu 7.04 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070422.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2007-04-23 diary: PC仮想化技術使い分けメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070423.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2007-04-25 diary: 新プロダクト blancoHashtable 開発開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070425.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2007-04-27 diary: Java: Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070427.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2007-04-28 diary: EPSON IC4CL22 インクカートリッジ4色パック の欲しい方</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070428.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2007-04-29 diary: ロフテー枕工房 の サーヴィカルピロー (快眠枕 パイプ-3号) を購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070429.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2007-05-04 diary: 麻布中学校・麻布高等学校 の文化祭</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070504.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2007-05-06 diary: N響アワーの ドミトリー・シトコヴェツキー (DMITRY SITKOVETSKY) さんのViolin演奏</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070506.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2007-05-09 diary: 文字化けの記事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070509.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2007-05-10 diary: Java: サンプル: トリプルDES アルゴリズムによるファイル暗号化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070510.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2007-05-12 diary: blanco Frameworkの利用されている状況</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070512.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2007-05-17 diary: Informix 調べ中, BlancoSqlEditorPlugin出荷候補版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070517.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2007-05-19 diary: blanco Framework: SQLを整形するEclipseプラグイン - BlancoSqlEditorPlugin</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070519.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2007-05-23 diary: 風邪をひいて寝込んでいます</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070523.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -424,6 +476,7 @@
   </entry>
   <entry>
     <title>2007-05-31 diary: 囲碁の初級者向け用語集 , 文字化け基礎資料調査中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070531.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -432,6 +485,7 @@
   </entry>
   <entry>
     <title>2007-06-01 diary: Java: ISO/IEC 646 範囲をファイルに出力するサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070601.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -440,6 +494,7 @@
   </entry>
   <entry>
     <title>2007-06-02 diary: Java: 文字列とバイト配列との相互変換サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070602.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -448,6 +503,7 @@
   </entry>
   <entry>
     <title>2007-06-06 diary: 文字化け記事執筆にて原稿と格闘中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070606.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -456,6 +512,7 @@
   </entry>
   <entry>
     <title>2007-06-08 diary: 文字化け原稿ネタ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070608.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -464,6 +521,7 @@
   </entry>
   <entry>
     <title>2007-06-11 diary: 某文字化け記事執筆完了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070611.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -472,6 +530,7 @@
   </entry>
   <entry>
     <title>2007-06-13 diary: 第７回 Developers' Lounge (2007.06.12)に参加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070613.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -480,6 +539,7 @@
   </entry>
   <entry>
     <title>2007-06-15 diary: blancoDbRuby - Ruby版 R/Oマッピング の検討開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070615.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -488,6 +548,7 @@
   </entry>
   <entry>
     <title>2007-07-01 diary: GPLv3リリース , Eclipse 3.3 リリース , ソフトウェアプログラマに求められる基本技術</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070701.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -496,6 +557,7 @@
   </entry>
   <entry>
     <title>2007-07-02 diary: FizzBuzz 問題 - ノーマル版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070702.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -504,6 +566,7 @@
   </entry>
   <entry>
     <title>2007-07-03 diary: FizzBuzz 問題 - リファクタリング版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070703.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -512,6 +575,7 @@
   </entry>
   <entry>
     <title>2007-07-04 diary: FizzBuzz 問題 - デザインパターン適用版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070704.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -520,6 +584,7 @@
   </entry>
   <entry>
     <title>2007-07-05 diary: FizzBuzz 問題 - 短くしていく版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070705.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -528,6 +593,7 @@
   </entry>
   <entry>
     <title>2007-07-06 diary: FizzBuzz 問題 - switch分岐版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070706.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -536,6 +602,7 @@
   </entry>
   <entry>
     <title>2007-07-12 diary: NHKラジオで流れていたシューベルト ピアノ三重奏曲の演奏</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070712.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -544,6 +611,7 @@
   </entry>
   <entry>
     <title>2007-07-18 diary: チェス初体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070718.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -552,6 +620,7 @@
   </entry>
   <entry>
     <title>2007-07-20 diary: Trac月 1.3.3 リリース , 原田洋子さんの英語術連載記事</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070720.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -560,6 +629,7 @@
   </entry>
   <entry>
     <title>2007-07-28 diary: 新入社員教育、論理的思考＋アルゴリズムのための本 , Tracオフ会 検討開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070728.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -568,6 +638,7 @@
   </entry>
   <entry>
     <title>2007-07-29 diary: 赤い電車 , CANON PIXUS MP960 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070729.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -576,6 +647,7 @@
   </entry>
   <entry>
     <title>2007-08-08 diary: Java: サンプル: 複数のスレッドの協調動作</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070808.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -584,6 +656,7 @@
   </entry>
   <entry>
     <title>2007-08-11 diary: 岡本太郎美術館 に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070811.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -592,6 +665,7 @@
   </entry>
   <entry>
     <title>2007-08-15 diary: メールによる汎用的インタフェース構想 (blancoMail)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070815.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -600,6 +674,7 @@
   </entry>
   <entry>
     <title>2007-08-16 diary: メールによる汎用的インタフェース仕様</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070816.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -608,6 +683,7 @@
   </entry>
   <entry>
     <title>2007-08-19 diary: 第３５回全国アマチュアオーケストラフェスティバルinやまがた酒田大会に参加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070819.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -616,6 +692,7 @@
   </entry>
   <entry>
     <title>2007-08-20 diary: Trac / Trac月 OFF会＠東京渋谷 2007.08.31(金) 20:00-</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070820.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -624,6 +701,7 @@
   </entry>
   <entry>
     <title>2007-08-23 diary: Javaで実装された HTML Parser (HTMLパーサ) を調べてみました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070823.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -632,6 +710,7 @@
   </entry>
   <entry>
     <title>2007-09-03 diary: 望ましいソフトウェアの構造 , Java言語について思うこと</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070903.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -640,6 +719,7 @@
   </entry>
   <entry>
     <title>2007-09-04 diary: Java: JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070904.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -648,6 +728,7 @@
   </entry>
   <entry>
     <title>2007-09-05 diary: Java: JavaMailによるシンプルなメール受信サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070905.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -656,6 +737,7 @@
   </entry>
   <entry>
     <title>2007-09-06 diary: blancoMail に関する検討資料を作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070906.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -664,6 +746,7 @@
   </entry>
   <entry>
     <title>2007-09-08 diary: blancoMailCore 実装中 , Pythonに対応したソースコード自動生成フレームワーク</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070908.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -672,6 +755,7 @@
   </entry>
   <entry>
     <title>2007-09-10 diary: 日本語のメール文字化けに関するメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070910.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -680,6 +764,7 @@
   </entry>
   <entry>
     <title>2007-09-12 diary: Shibuya.trac コミュニティ 発足 , Apache James の簡単メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070912.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -688,6 +773,7 @@
   </entry>
   <entry>
     <title>2007-09-17 diary: 三連休の間に blancoMailCoreの実装が進みました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070917.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -696,6 +782,7 @@
   </entry>
   <entry>
     <title>2007-09-26 diary: blancoMailCore α版 (0.4.0) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070926.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -704,6 +791,7 @@
   </entry>
   <entry>
     <title>2007-09-27 diary: blancoMailCore α版 (0.4.0) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig070927.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -712,6 +800,7 @@
   </entry>
   <entry>
     <title>2007-10-01 diary: blancoMail 構想を更新</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071001.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -720,6 +809,7 @@
   </entry>
   <entry>
     <title>2007-10-02 diary: マクロス再放送</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071002.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -728,6 +818,7 @@
   </entry>
   <entry>
     <title>2007-10-03 diary: Java: 圧縮・解凍API調べ中…</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071003.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -736,6 +827,7 @@
   </entry>
   <entry>
     <title>2007-10-04 diary: blancoMailCore β版 (0.4.4) リリース , 私のサクラエディタ用 色設定ファイル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071004.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -744,6 +836,7 @@
   </entry>
   <entry>
     <title>2007-10-05 diary: Kaspersky Internet Security 7.0</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071005.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -752,6 +845,7 @@
   </entry>
   <entry>
     <title>2007-10-06 diary: blancoMailCore β版 (0.4.4) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071006.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -760,6 +854,7 @@
   </entry>
   <entry>
     <title>2007-10-08 diary: 京都旅行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071008.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -768,6 +863,7 @@
   </entry>
   <entry>
     <title>2007-10-10 diary: blancoMailCore 試験計画書の作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071010.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -776,6 +872,7 @@
   </entry>
   <entry>
     <title>2007-10-12 diary: 配下に一名の増員 , blanco Framework 関連作業予定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071012.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -784,6 +881,7 @@
   </entry>
   <entry>
     <title>2007-10-13 diary: Web巡回ソフト「blancoWebCrawler」を妄想中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071013.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -792,6 +890,7 @@
   </entry>
   <entry>
     <title>2007-10-14 diary: 鉄道博物館が開館</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071014.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -800,6 +899,7 @@
   </entry>
   <entry>
     <title>2007-10-15 diary: blancoMailCore試験計画書ブラッシュアップ , blancoWebCrawler 製造着手</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071015.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -808,6 +908,7 @@
   </entry>
   <entry>
     <title>2007-10-17 diary: Apache Lucene: nutch 調べ中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071017.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -816,6 +917,7 @@
   </entry>
   <entry>
     <title>2007-10-23 diary: 映画「ヘアスプレー」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071023.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -824,6 +926,7 @@
   </entry>
   <entry>
     <title>2007-10-24 diary: Ubuntu 最新版リリース , 自分用健康メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071024.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -832,6 +935,7 @@
   </entry>
   <entry>
     <title>2007-10-27 diary: blancoAntTask にコマンドライン対応ソースコード自動生成を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071027.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -840,6 +944,7 @@
   </entry>
   <entry>
     <title>2007-10-29 diary: blancoSqlFormatter 更新作業中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071029.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -848,6 +953,7 @@
   </entry>
   <entry>
     <title>2007-10-30 diary: 情報セキュリティ (ISO/IEC 15408) 調査</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071030.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -856,6 +962,7 @@
   </entry>
   <entry>
     <title>2007-11-01 diary: blancoMailCore (0.6.1) リリース , JavaMail 1.4.1 リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071101.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -864,6 +971,7 @@
   </entry>
   <entry>
     <title>2007-11-05 diary: 鳥獣人物戯画絵巻 , ひらがな・カタカナの練習</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071105.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -872,6 +980,7 @@
   </entry>
   <entry>
     <title>2007-11-07 diary: Java: プロパティ、ログ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071107.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -880,6 +989,7 @@
   </entry>
   <entry>
     <title>2007-11-08 diary: 明日は事務所に不在です</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071108.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -888,6 +998,7 @@
   </entry>
   <entry>
     <title>2007-11-11 diary: BlancoEclipseDistribution 3.2.2 準備中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071111.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -896,6 +1007,7 @@
   </entry>
   <entry>
     <title>2007-11-17 diary: Windows Installer XML (WiX) toolset</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071117.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -904,6 +1016,7 @@
   </entry>
   <entry>
     <title>2007-11-21 diary: 将棋オフ＠東京将棋会館道場 (2007/11/24 11:00-)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071121.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -912,6 +1025,7 @@
   </entry>
   <entry>
     <title>2007-11-23 diary: java.util.logging を Apache Commons Logging の代わりに利用する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071123.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -920,6 +1034,7 @@
   </entry>
   <entry>
     <title>2007-11-29 diary: 駒澤大学でゲスト講師を担当 , 平成オイルショック／成長なきインフレ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071129.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -928,6 +1043,7 @@
   </entry>
   <entry>
     <title>2007-11-30 diary: 自宅FAX更新 , TERASOLUNA フレームワーク 公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071130.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -936,6 +1052,7 @@
   </entry>
   <entry>
     <title>2007-12-02 diary: BlancoEclipseDistribution 正式版 (3.2.2-20071113) リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071202.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -944,6 +1061,7 @@
   </entry>
   <entry>
     <title>2007-12-03 diary: J2EE のセミナーを受講</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071203.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -952,6 +1070,7 @@
   </entry>
   <entry>
     <title>2007-12-07 diary: blanco Framework: blancoValueObject, blancoConstantsなどの出荷候補版をリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071207.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -960,6 +1079,7 @@
   </entry>
   <entry>
     <title>2007-12-12 diary: blanco Framework ホームページのミラーを追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071212.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -968,6 +1088,7 @@
   </entry>
   <entry>
     <title>2007-12-13 diary: C から Java, C から C#.NET へのソースコードコンバータ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071213.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -976,6 +1097,7 @@
   </entry>
   <entry>
     <title>2007-12-14 diary: 自宅用 Trac + Subversion (Trac月) 導入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071214.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -984,6 +1106,7 @@
   </entry>
   <entry>
     <title>2007-12-16 diary: 日記ビルドシステムを Subversionに移行 -&gt; 失敗(苦笑)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071216.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -992,6 +1115,7 @@
   </entry>
   <entry>
     <title>2007-12-25 diary: Subversion に CVS タグのような概念を導入する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071225.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -1000,6 +1124,7 @@
   </entry>
   <entry>
     <title>2007-12-30 diary: 「世界の将棋大会」に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2007/ig071230.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

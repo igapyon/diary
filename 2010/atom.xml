@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Igapyon Diary v3 year 2010</title>
   <subtitle>Diary index for year 2010 by Igapyon.</subtitle>
-  <updated>2017-01-05T07:18:35Z</updated>
+  <updated>2017-01-05T07:42:46Z</updated>
   <dc:creator>Toshiki Iga</dc:creator>
-  <dc:date>2017-01-05T07:18:35Z</dc:date>
+  <dc:date>2017-01-05T07:42:46Z</dc:date>
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2010-01-02 diary: 2009 年のふりかえり。JavaServer Faces (JSF) と Eclipse プラグイン開発</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100102.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -16,6 +17,7 @@
   </entry>
   <entry>
     <title>2010-01-04 diary: Microsoft Windows 外字作成メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100104.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -24,6 +26,7 @@
   </entry>
   <entry>
     <title>2010-01-06 diary: PrimeFaces-ja プロジェクトを新規作成</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100106.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -32,6 +35,7 @@
   </entry>
   <entry>
     <title>2010-01-17 diary: SI 系 CSS プログラマーという職種</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100117.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -40,6 +44,7 @@
   </entry>
   <entry>
     <title>2010-01-19 diary: コンピューター・ウィルス対策のためにパソコン・ソフトをアップデートする必要</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -48,6 +53,7 @@
   </entry>
   <entry>
     <title>2010-01-24 diary: 年賀状の QR コード読み込み</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100124.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -56,6 +62,7 @@
   </entry>
   <entry>
     <title>2010-01-26 diary: Groovy - An agile dynamic language for the Java Platform</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100126.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -64,6 +71,7 @@
   </entry>
   <entry>
     <title>2010-01-28 diary: ネット自費出版支援サービス , ネット自費出版サイト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100128.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -72,6 +80,7 @@
   </entry>
   <entry>
     <title>2010-02-06 diary: Ubuntu (Linux) で地デジ録画サーバを構築する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100206.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -80,6 +89,7 @@
   </entry>
   <entry>
     <title>2010-02-13 diary: Ubuntu LiveCD のカスタマイズ方法をメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100213.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -88,6 +98,7 @@
   </entry>
   <entry>
     <title>2010-02-14 diary: オープンソースの翻訳支援ツール「Benten」をリリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100214.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -96,6 +107,7 @@
   </entry>
   <entry>
     <title>2010-02-18 diary: Ubuntu 9.10 インストール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100218.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -104,6 +116,7 @@
   </entry>
   <entry>
     <title>2010-02-19 diary: Ubuntu: Microsoft Windows XP SP3 対 Ubuntu 9.10 ソフトウェア対応表</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100219.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -112,6 +125,7 @@
   </entry>
   <entry>
     <title>2010-02-21 diary: Ubuntu: USB や PCI などの一覧を取得する呪文</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100221.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -120,6 +134,7 @@
   </entry>
   <entry>
     <title>2010-02-22 diary: Ubuntu: BUFFALO USB用 無線子機 (WLI-UC-G301N) を Ubuntu 9.10 (i386)で認識させる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100222.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -128,6 +143,7 @@
   </entry>
   <entry>
     <title>2010-02-23 diary: PrimeFaces 正式版リリース</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100223.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -136,6 +152,7 @@
   </entry>
   <entry>
     <title>2010-03-11 diary: Ubuntu: スワップ領域変更方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100311.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -144,6 +161,7 @@
   </entry>
   <entry>
     <title>2010-03-22 diary: Apache FtpServer でお手軽 FTP サーバ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100322.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -152,6 +170,7 @@
   </entry>
   <entry>
     <title>2010-03-28 diary: Ubuntu: 指定の時刻にコマンドを実行する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100328.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -160,6 +179,7 @@
   </entry>
   <entry>
     <title>2010-03-31 diary: Java: サンプル: Google Translate をもちいた機械翻訳</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100331.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -168,6 +188,7 @@
   </entry>
   <entry>
     <title>2010-04-04 diary: 花粉症が少し楽?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100404.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -176,6 +197,7 @@
   </entry>
   <entry>
     <title>2010-04-26 diary: Java: 新規赴任開発者向け書籍メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100426.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -184,6 +206,7 @@
   </entry>
   <entry>
     <title>2010-04-29 diary: Ubuntu: 実行中のプロセスの優先度を変更する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100429.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -192,6 +215,7 @@
   </entry>
   <entry>
     <title>2010-05-02 diary: Ubuntu: GNOME 端末で実行中のコマンドを一時停止する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100502.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -200,6 +224,7 @@
   </entry>
   <entry>
     <title>2010-05-03 diary: Ubuntu: IBM ThinkPad X40 に Ubuntu 10.04 をインストールするには xforcevesaオプションが必要</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100503.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -208,6 +233,7 @@
   </entry>
   <entry>
     <title>2010-05-04 diary: Ubuntu 三昧なゴールデンウィーク</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100504.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -216,6 +242,7 @@
   </entry>
   <entry>
     <title>2010-05-05 diary: Ubuntu: Ubuntu 10.04 LTS 日本語 Remix リリース , ファイルの内容で検索する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100505.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -224,6 +251,7 @@
   </entry>
   <entry>
     <title>2010-05-09 diary: ホームページもアート , 体調わるし</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100509.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -232,6 +260,7 @@
   </entry>
   <entry>
     <title>2010-05-13 diary: Ubuntu: Gnome パネル -&gt; システム モニタの設定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100513.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -240,6 +269,7 @@
   </entry>
   <entry>
     <title>2010-05-17 diary: 自宅 PC 自作検討中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100517.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -248,6 +278,7 @@
   </entry>
   <entry>
     <title>2010-05-20 diary: Ubuntu 10.04 LTS インストール記事メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100520.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -256,6 +287,7 @@
   </entry>
   <entry>
     <title>2010-06-04 diary: 心身ともに疲れました。SI 業を続けていく自信がなくなりました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100604.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -264,6 +296,7 @@
   </entry>
   <entry>
     <title>2010-06-06 diary: モビルスーツ類の縮尺メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100606.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -272,6 +305,7 @@
   </entry>
   <entry>
     <title>2010-06-14 diary: 日本科学未来館の「ドラえもんの科学みらい展」 , Ubuntu Magazine Japan</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100614.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -280,6 +314,7 @@
   </entry>
   <entry>
     <title>2010-06-20 diary: VirtualBox という仮想化ソフトを体験</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100620.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -288,6 +323,7 @@
   </entry>
   <entry>
     <title>2010-06-21 diary: Ubuntu: Ubuntu 10.04 による簡単 Linux 体験 (LiveCD 版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100621.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -296,6 +332,7 @@
   </entry>
   <entry>
     <title>2010-06-22 diary: Ubuntu: Ubuntu 10.04 による初めての Linux 入門 (ハードディスクにインストールする版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100622.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -304,6 +341,7 @@
   </entry>
   <entry>
     <title>2010-06-23 diary: 経済学者の竹下先生に教えていただいた本のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100623.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -312,6 +350,7 @@
   </entry>
   <entry>
     <title>2010-06-29 diary: 10 年以内に「電脳コイル」的な時代が到来する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100629.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -320,6 +359,7 @@
   </entry>
   <entry>
     <title>2010-06-30 diary: Ubuntu: Ubuntu 10.04 に新しいソフトウェアをインストールする方法 (Ubuntuソフトウェアセンター版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100630.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -328,6 +368,7 @@
   </entry>
   <entry>
     <title>2010-07-01 diary: SMG ENdoSnipe という Java 用システム診断ツール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100701.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -336,6 +377,7 @@
   </entry>
   <entry>
     <title>2010-07-06 diary: Ubuntu: Microsoft Windows XP SP3 対 Ubuntu 10.04 ソフトウェア対応表</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100706.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -344,6 +386,7 @@
   </entry>
   <entry>
     <title>2010-07-08 diary: 「新装版 日本語の作文技術」という本</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100708.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -352,6 +395,7 @@
   </entry>
   <entry>
     <title>2010-07-11 diary: FindBugs をもちいた Java 学習 , 孫プラス</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100711.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -360,6 +404,7 @@
   </entry>
   <entry>
     <title>2010-07-19 diary: アイデアメモ: 昭和テレビ , 昭和黒電話</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100719.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -368,6 +413,7 @@
   </entry>
   <entry>
     <title>2010-07-21 diary: N響アワー 2009-09-27: ヤンセン演奏のチャイコフスキー・ヴァイオリン協奏曲</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100721.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -376,6 +422,7 @@
   </entry>
   <entry>
     <title>2010-08-08 diary: facebook なるものにトライ中</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100808.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -384,6 +431,7 @@
   </entry>
   <entry>
     <title>2010-08-09 diary: Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100809.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -392,6 +440,7 @@
   </entry>
   <entry>
     <title>2010-08-11 diary: Linux: LiveCD: とても優れたハードディスク・ユーティリティ「SystemRescueCd」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100811.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -400,6 +449,7 @@
   </entry>
   <entry>
     <title>2010-08-13 diary: 「誕生! 中国文明 特別展」と「シャガール - ロシア・アヴァンギャルドとの出会い」に行きました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100813.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -408,6 +458,7 @@
   </entry>
   <entry>
     <title>2010-08-18 diary: 自宅 PC (3 号機) の刷新強化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100818.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -416,6 +467,7 @@
   </entry>
   <entry>
     <title>2010-08-19 diary: Ubuntu: PostgreSQL 8.4 を Ubuntu 10.04 にインストールする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100819.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -424,6 +476,7 @@
   </entry>
   <entry>
     <title>2010-08-20 diary: Ubuntu: GlassFish Server 3.0.1 を Ubuntu 10.04 にインストールする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100820.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -432,6 +485,7 @@
   </entry>
   <entry>
     <title>2010-08-21 diary: Ubuntu: dd コマンドによる MBR の退避方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100821.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -440,6 +494,7 @@
   </entry>
   <entry>
     <title>2010-08-22 diary: Ubuntu: Sun Java SE 6 を Ubuntu 10.04 にインストールする方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100822.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -448,6 +503,7 @@
   </entry>
   <entry>
     <title>2010-08-24 diary: 目標: 5 年以内に Debian Developer になる！</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100824.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -456,6 +512,7 @@
   </entry>
   <entry>
     <title>2010-09-07 diary:  自宅 PC が壊れました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100907.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -464,6 +521,7 @@
   </entry>
   <entry>
     <title>2010-09-08 diary: 4096/RSA 鍵 の追加方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100908.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -472,6 +530,7 @@
   </entry>
   <entry>
     <title>2010-09-12 diary: キーサインパーティ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100912.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -480,6 +539,7 @@
   </entry>
   <entry>
     <title>2010-09-23 diary:  ゲーム</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100923.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -488,6 +548,7 @@
   </entry>
   <entry>
     <title>2010-09-27 diary: よれよれ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100927.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -496,6 +557,7 @@
   </entry>
   <entry>
     <title>2010-09-29 diary: Ubuntu: tcpdump を使ったネットワーク覗き見</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100929.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -504,6 +566,7 @@
   </entry>
   <entry>
     <title>2010-09-30 diary: Benten 1.4 ビルド完了</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig100930.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -512,6 +575,7 @@
   </entry>
   <entry>
     <title>2010-10-01 diary: Ubuntu インストールソフト・メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101001.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -520,6 +584,7 @@
   </entry>
   <entry>
     <title>2010-10-03 diary: Benten に gettext の PO 形式への対応を追加</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101003.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -528,6 +593,7 @@
   </entry>
   <entry>
     <title>2010-10-09 diary: DSソフト探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101009.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -536,6 +602,7 @@
   </entry>
   <entry>
     <title>2010-10-10 diary:  秋葉原 OAランド</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101010.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -544,6 +611,7 @@
   </entry>
   <entry>
     <title>2010-10-11 diary:  リンクメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101011.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -552,6 +620,7 @@
   </entry>
   <entry>
     <title>2010-10-25 diary: ビデオカメラ購入 (Victor エブリオ GZ-HM570-B)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101025.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -560,6 +629,7 @@
   </entry>
   <entry>
     <title>2010-10-28 diary: 子供(第二子)が生まれました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101028.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -568,6 +638,7 @@
   </entry>
   <entry>
     <title>2010-10-31 diary:  Ubuntu 10.04 で DVD を再生する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101031.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -576,6 +647,7 @@
   </entry>
   <entry>
     <title>2010-11-01 diary:  山形県が Microsoft Office から OpenOffice.org に移行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101101.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -584,6 +656,7 @@
   </entry>
   <entry>
     <title>2010-11-19 diary:  SQuirreL SQL Client</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101119.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -592,6 +665,7 @@
   </entry>
   <entry>
     <title>2010-11-20 diary: DSソフト探索</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101120.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
@@ -600,6 +674,7 @@
   </entry>
   <entry>
     <title>2010-11-25 diary:  SQuirreL SQL Client</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2010/ig101125.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>

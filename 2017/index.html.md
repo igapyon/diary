@@ -31,7 +31,12 @@
 
 ## いがぴょんの日記：2017年の日記
 
-{igapyon.diary.ghpages.dialylist}
+* [2017-01-05 diary: FreeMarker の解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
+* [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
+* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
+* [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+
 
 ----------------------------------------------------------------------------------------------------
 
