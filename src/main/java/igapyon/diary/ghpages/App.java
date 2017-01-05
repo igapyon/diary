@@ -3,7 +3,15 @@ package igapyon.diary.ghpages;
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
+
+import com.rometools.rome.feed.synd.SyndEntry;
+import com.rometools.rome.feed.synd.SyndEntryImpl;
+import com.rometools.rome.feed.synd.SyndFeed;
+import com.rometools.rome.feed.synd.SyndFeedImpl;
+import com.rometools.rome.io.FeedException;
+import com.rometools.rome.io.SyndFeedOutput;
 
 import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
 import jp.igapyon.diary.v3.hatena.HatenaText2SrcMdConverter;
@@ -111,11 +119,37 @@ public class App {
 				// sort them
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
-				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("./" + year + "/index.html.src.md"),
-						diaryItemInfoList);
+				final SyndFeed feed = new SyndFeedImpl();
+				feed.setTitle("Igapyon Diary v3 year " + year);
+				feed.setDescription("Diary index for year " + year + " by Igapyon.");
+				feed.setAuthor("Toshiki Iga");
+				feed.setEncoding("UTF-8");
+				feed.setGenerator("https://github.com/igapyon/igapyonv3");
+				feed.setPublishedDate(new Date());
+				feed.setLanguage("ja_JP");
+				feed.setFeedType("atom_1.0");
+
+				for (DiaryItemInfo diaryItemInfo : diaryItemInfoList) {
+					final SyndEntry entry = new SyndEntryImpl();
+					entry.setTitle(diaryItemInfo.getTitle());
+					entry.setUri(diaryItemInfo.getUri());
+					entry.setAuthor("Toshiki Iga");
+					feed.getEntries().add(entry);
+				}
+
+				new SyndFeedOutput().output(feed, new File(rootdir, year + "/atom.xml"));
+
+				if (false) {
+					// FIXME
+					System.err.println("Update index files.");
+					new ProcessIndexListing(settings).process(new File("./" + year + "/index.html.src.md"),
+							diaryItemInfoList);
+				}
 			}
 		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (FeedException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

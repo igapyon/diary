@@ -1,6 +1,6 @@
-いがぴょんの日記ウェブページv3
+<#assign localYear = "1996">いがぴょんの日記ウェブページv3
 =============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 1996年の日記のインディックス。
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) ${localYear}年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/1996/index.html) 

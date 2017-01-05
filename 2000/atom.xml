@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Igapyon Diary v3 year 2000</title>
+  <subtitle>Diary index for year 2000 by Igapyon.</subtitle>
+  <updated>2017-01-05T07:18:34Z</updated>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:date>2017-01-05T07:18:34Z</dc:date>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2000-01-20 diary: NotesからのWindowsレジストリアクセス , Samba最低設定体験 , XZ for Linux体験</title>
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2000/ig000120.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2000-09-20 diary: JSSE 1.0.2 ハマり中 -&gt; 解決</title>
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2000/ig000920.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>
