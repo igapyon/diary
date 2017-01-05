@@ -29,6 +29,8 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+/ [ALL](https://igapyon.github.io/diary/idxall.html)
+
 
 ## いがぴょんの日記ウェブページv3：トップ
 
