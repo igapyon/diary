@@ -53,7 +53,24 @@
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
 
-{igapyon.diary.ghpages.dialylist.publickey}
+#### [Publickey](http://www.publickey1.jp/)
+
+* [マイクロサービスアーキテクチャに最適化したJavaを実現するための「MicroProfile」、Eclipseの正式プロジェクトに](http://www.publickey1.jp/blog/17/javamicroprofileeclipse.html) 2017/01/05
+* [Rust言語、asm.jsやWebAssemblyをサポートへ。WebブラウザやNode.jsで実行可能に](http://www.publickey1.jp/blog/17/rustasmjswebassemblywebnodejs.html) 2017/01/05
+* [Google Cloud Platform、システム構成図用のアイコンライブラリを公開](http://www.publickey1.jp/blog/17/google_cloud_platform.html) 2017/01/04
+* [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html) 2016/12/26
+* [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html) 2016/12/26
+* [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html) 2016/12/22
+* [ムーアの法則が成立しなくなると、遅いソフトウェアは遅いままだ。ソフトウェア技術者はなにをすべきか～ポスト・ムーア法則時代のコンピューティング（後編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_4.html) 2016/12/22
+* [いま起きているムーアの法則の限界は、微細化よりも電力と経済性の限界～ポスト・ムーア法則時代のコンピューティング（前編）。QCon Tokyo 2016](http://www.publickey1.jp/blog/16/qcon_tokyo_2016_3.html) 2016/12/22
+* [Angularの次バージョンは「Angular 4」に、2017年3月リリース。今後は単に「Angular」と呼んでほしいと](http://www.publickey1.jp/blog/16/angularangular_420173angular.html) 2016/12/20
+* [コンテナに最適化したCoreOS、ブランド名を「Container Linux」に変更。背景にはコンテナ関連ビジネスの変化が](http://www.publickey1.jp/blog/16/corelinuxcontainer_linux.html) 2016/12/19
+* [Google、オープンソースでPaaS基盤を開発する「Cloud Foundry Foundation」加盟を発表](http://www.publickey1.jp/blog/16/googlepaascloud_foundry_foundation.html) 2016/12/19
+* [Dockerエンジンのコアランタイムが「containerd」として分離、独立したオープンソースプロジェクトに。Docker、AWS、Google、IBM、マイクロソフトらが協力して開発推進へ](http://www.publickey1.jp/blog/16/dockercontainerddockerawsgoogleibm.html) 2016/12/16
+* [IBMのサーバレスコンピューティング環境「OpenWhisk」がBluemix上で正式サービスに。Dockerイメージも実行可能](http://www.publickey1.jp/blog/16/ibmopenwhiskbluemixdocker.html) 2016/12/15
+* [国内クラウド市場、2015年度は1兆円を突破していた。2020年度には3倍の3兆円超えに。利用しているクラウドの1位はAWS、Azureが追い上げ中。MM総研](http://www.publickey1.jp/blog/16/201512020331awsazuremm.html) 2016/12/14
+* [新しく登場した「AWS Managed Services」は、大企業向けマネージドサービス実現を支援するサービス](http://www.publickey1.jp/blog/16/aws_managed_services.html) 2016/12/14
+
 
 ### 私むけ役立ちリンク
 

@@ -38,7 +38,7 @@ ${indexAtomRecentXml}
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
 
-{igapyon.diary.ghpages.dialylist.publickey}
+${publickeyAtomXml}
 
 ### 私むけ役立ちリンク
 
