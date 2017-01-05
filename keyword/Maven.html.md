@@ -8,15 +8,17 @@ Maven
 
 ## Maven
 
+Maven は [Apache](https://www.apache.org/) ファウンデーション配下のビルドシステムです。
+
 ### URL
 
 * [https://maven.apache.org/](https://maven.apache.org/)
 
 ### 特徴
 
-* Java で書かれた有名なビルドシステム。
-* Java 以外の Java ベースシステムでもこれが利用される。
-* Maven 用のリポジトリが非常に充実している。
+* Java で書かれた有名なビルドシステムです。
+* Java 以外の Java ベースシステムでもこれが利用されます。
+* Maven 用のリポジトリが非常に充実しており、これを活用するために Maven を利用する人が多いです。
 
 ### まとめ情報
 

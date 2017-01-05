@@ -1,6 +1,8 @@
 [index](https://igapyon.github.io/diary/memo/index.html) 
 
-## Maven
+## FreeMarker
+
+FreeMarker は [[Apache]] ファウンデーション配下のテンプレートエンジンです。
 
 ### URL
 

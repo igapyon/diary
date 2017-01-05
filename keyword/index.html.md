@@ -36,7 +36,7 @@
 
 * [いがぴょんの日記：キーワード](https://igapyon.github.io/diary/keyword/index.html)
 * [Maven](https://igapyon.github.io/diary/keyword/Maven.html)
-* [Maven](https://igapyon.github.io/diary/keyword/FreeMarker.html)
+* [FreeMarker](https://igapyon.github.io/diary/keyword/FreeMarker.html)
 
 
 ----------------------------------------------------------------------------------------------------
