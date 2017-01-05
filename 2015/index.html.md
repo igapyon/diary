@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+いがぴょんの日記：2015年の日記
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 いがぴょんの日記ウェブページv3
 =============================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2015年の日記のインディックス。
@@ -141,3 +147,8 @@
 
 ## この日記について
 [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

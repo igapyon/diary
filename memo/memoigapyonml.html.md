@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょんの日記ウェブページML運用ページ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memoigapyonml-orig.html)
 
 いがぴょんの日記MLの説明ページです。
@@ -133,3 +139,8 @@ MLメンバー脱退処理を行ってください
 * 2001/01/19 [結城浩](http://www.hyuki.com/)さんに ML参加・脱退用CGIを作成いただきました。その内容を反映させました。
   
 * 2001/01/09 誤字脱字を修正。また 舌足らずだった箇所を追記補完。
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

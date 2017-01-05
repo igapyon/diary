@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: RDF/RSSについて , いがぴょんの日記ウェブページ RDF/RSS一覧
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memorss-orig.html)
 
 RDF/RSSに関するメモ および いがぴょんの日記関連RDF/RSSの一覧(抜粋)
@@ -113,3 +119,8 @@ RDF/RSSが流行ると、私の本が 売れていく… かもっ (笑)
 * 2002/11/06 更新
   
 * 2001/10/25 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

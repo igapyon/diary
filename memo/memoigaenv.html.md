@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょん利用環境
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memoigaenv-orig.html)
 
 いがぴょんが作業する デフォルトな環境のメモです
@@ -103,3 +109,8 @@
 * 2005/01/18-19 更新
   
 * 2003/01/30 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

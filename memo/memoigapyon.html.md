@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょん について
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
 [target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
@@ -223,3 +229,8 @@ table
 * [ブラームス交響曲第四番 第一楽章 冒頭部](https://igapyon.github.io/diary/images/sound/BrahmsS4M1.mid) 弦楽器 2002.08～
 * [ベートーベン 交響曲第五番 第一楽章 冒頭部から](https://igapyon.github.io/diary/images/sound/BeethovenSym5Mov1.mid) 弦楽器 2002.10～
 
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

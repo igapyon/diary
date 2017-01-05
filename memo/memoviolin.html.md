@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょん用ヴァイオリン・メモ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memoviolin-orig.html)
 
 いがぴょん固有のヴァイオリンメモです。メンテナンス方法など載っています。
@@ -252,3 +258,8 @@ Hiroko Miyazakiさんという方のページ。私と同じ作者のヴァイ�
 
 既存のヴァイオリン奏者としては、総合的には ヴァイオリニストの[森悠子](http://www.cem-musicdojo.org/)さんが一番近いと思われます。(実際に指導を受けて そのように強く思いました)ちなみに音色だけに関して言えば ヴァイオリニストの[Gil Shaham(ギル・シャハム)](http://www004.upp.so-net.ne.jp/taxi/violinists/shaham.htm)さんが一番近いと考えられます。以前録画したDVDを聴いていて 『なんだかえらく似ているなぁ～』と思いました。まあ私は ぜんぜん速いのが弾けませんけれどもね。単なる外観で 口を開ける点に着眼したら、ギドン・クレーメルさんと似ています。なんで口が開くのかなぁ…
 (苦笑)
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

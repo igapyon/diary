@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょんの旅行メモ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memotrip-orig.html)
 
 旅行(多くの場合出張時)のホテル／宿泊先の選定基準など
@@ -55,3 +61,8 @@
 * はぶらし、歯間フロスを持っていく
   
 * 1枚余分に上着を持っていく
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: 愛用オンラインマニュアル
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memomanual-orig.html)
 
 愛用するオンラインマニュアルのありかを指し示します。
@@ -43,3 +49,8 @@
 * 2002/06/12 J2SE 1.4 日本語版ドキュメントリリースを反映。
   
 * 2001/11/13 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: 開発環境
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memodevenv-orig.html)
 
 私がJavaの開発を行う際に必要な開発環境のメモです。
@@ -155,3 +161,8 @@ G:
 * 2003.02.26 追記
   
 * 2002.06.12 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょん にメールを送る
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memoigamail-orig.html)
 
 いがぴょんにメールを送る前に 一通り読んでください。
@@ -72,3 +78,8 @@
 * ローレンス・レッシグ氏、メールの殺到に耐え切れず「破綻」を宣言
   [http://hotwired.goo.ne.jp/news/news/20040610205.html](http://hotwired.goo.ne.jp/news/news/20040610205.html)
   ちなみに、私のメールボックスは、いつも破綻しています！ …仕事のメールボックスですら、ほぼ常に破綻しています (T_T)
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

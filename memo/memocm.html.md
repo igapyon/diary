@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: アマチュアオーケストラのコンサートリーダー(コンサートマスター)考
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memocm-orig.html)
 
 アマチュアオーケストラのコンサートマスターって 一体何を担うのかを考えてみました。
@@ -117,3 +123,8 @@ Hzと書くつもりが 体が勝手に MHzと タイプしていた模様です
 ## 更新履歴
 
 * 2002/07/10 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

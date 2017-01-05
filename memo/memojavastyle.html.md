@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: Java言語ソースファイルのスタイルおよび調整ツール
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memojavastyle-orig.html)
 
 Java言語ソースファイルのスタイル整形に関するメモ。astyleやcheckstyleなどのメモ書きが含まれます。
@@ -89,3 +95,8 @@ echo checkstyle実行
 * 2004/02/24 Eclipseに対応開始
   
 * 2002/07/10 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

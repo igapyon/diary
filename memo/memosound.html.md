@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: 作成MIDIデータ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memosound-orig.html)
 
 いがぴょんが作成したMIDIデータ。
@@ -21,3 +27,8 @@
 * 2002/11/03 ベートーベンの交響曲を追加
   
 * 2002/08/23 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

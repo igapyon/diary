@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: FOAF (Friend of a Friend) メモ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memofoaf-orig.html)
 
 FOAF(Friend of a Friend)というRDFベースの知人表現メタデータというものに興味を持ちました。
@@ -51,3 +57,8 @@ FOAFを作成してみました。また、FOAFに関するリソースをちょ
 * 2003.06.18 FOAFに しのさんを追加しました。
   
 * 2003.06.17 新規作成 FOAFに結城浩さんFOAFを書かせて頂きました。
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

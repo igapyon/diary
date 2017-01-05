@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょんの欲しいもの
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memowant-orig.html)
 
 いがぴょんが買いたいものリスト、買ったものリスト
@@ -1446,3 +1452,8 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
 * ベートーベン: 交響曲全集
   ミハイル・プレトニョフ／ロシア・ナショナル管弦楽団
   [amazon.co.jp: B000TLYE2U](http://www.amazon.co.jp/exec/obidos/ASIN/B000TLYE2U/igapyondiary-22)
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

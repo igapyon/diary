@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: いがぴょんプライベートメモ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memoprivate-orig.html)
 
 このページはきわめて私的なメモが格納されたページです。コンテンツそのものがRSS(XML)データで作成されていて、ブックマークとしても利用しています。
@@ -27,3 +33,8 @@
 * [So-net 天気予報](http://www.so-net.ne.jp/weather/)  2004So-netの天気予報
 * [Googleローカル (電子地図)](http://maps.google.co.jp/)  2006良くできた電子地図
 * [モンブランの大解剖](http://minozi.s21.xrea.com/kuri/monzua.html)  2005いろいろな店のモンブランの断面写真および断面図が解説されている素晴らしいページ
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

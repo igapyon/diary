@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: ウルティマオンライン(UOTD)遊びログ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memogameuo-orig.html)
 
 いがぴょんのUOの遊びログです。オンラインRPGというのに 妙に興味を持ってしまったのです。飽きっぽいので そんなに長続きしそうにありません…。
@@ -117,3 +123,8 @@
 * 2001/12/08 更新
   
 * 2001/12/02 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)

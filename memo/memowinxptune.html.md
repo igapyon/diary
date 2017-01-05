@@ -1,3 +1,9 @@
+[top](https://igapyon.github.io/diary/) 
+
+資料: Windows XP 設定＆チューニングメモ
+=====================================================================================================
+[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+
 [old-v2](memowinxptune-orig.html)
 
 私のための Windows XP 設定やチューニングのメモです。とりあえず今回は あまりデフォルトからは変更しないという方針で考えています。
@@ -137,3 +143,8 @@ Windows 2000に比べて I/O周りの体感速度が向上しています。と�
 * 2002/02/15 バグ修正
   
 * 2001/11/30 新規作成
+
+----------------------------------------------------------------------------------------------------
+
+## この日記について
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)
