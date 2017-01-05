@@ -1,4 +1,4 @@
-[index](https://igapyon.github.io/diary/memo/index.html) 
+[index](https://igapyon.github.io/diary/keyword/index.html) 
 
 ## FreeMarker
 
