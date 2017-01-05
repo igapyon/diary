@@ -32,8 +32,7 @@
 
 ### 比較的最近の日記
 
-{igapyon.diary.ghpages.dialylist.recent}
-
+${indexAtomRecentXml}
 
 ### 他サイトのニュースフィード
 

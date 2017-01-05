@@ -2,6 +2,7 @@ package igapyon.diary.ghpages;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,7 +21,6 @@ import jp.igapyon.diary.v3.item.DiaryItemInfo;
 import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
 import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
 import jp.igapyon.diary.v3.mdconv.IndexDiaryMdParser;
-import jp.igapyon.diary.v3.mdconv.ProcessIndexListing;
 import jp.igapyon.diary.v3.util.IgapyonV3Settings;
 
 /**
@@ -93,9 +93,32 @@ public class App {
 				// sort them
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
-				System.err.println("Update index files.");
-				new ProcessIndexListing(settings).process(new File("README.src.md"), diaryItemInfoList);
-				new ProcessIndexListing(settings).process(new File("idxall.html.src.md"), diaryItemInfoList);
+				writeAtom(diaryItemInfoList, new File(rootdir, "atom.xml"), "Igapyon Diary v3 all");
+
+				{
+					int diaryListupCount = 15;
+
+					final List<DiaryItemInfo> recentItemInfoList = new ArrayList<DiaryItemInfo>();
+
+					for (int index = diaryItemInfoList.size() - 1; index >= 0; index--) {
+						final DiaryItemInfo itemInfo = diaryItemInfoList.get(index);
+						diaryListupCount--;
+						recentItemInfoList.add(itemInfo);
+						if (diaryListupCount <= 0) {
+							break;
+						}
+					}
+
+					// sort again.
+					Collections.sort(recentItemInfoList, new DiaryItemInfoComparator());
+
+					writeAtom(recentItemInfoList, new File(rootdir, "atomRecent.xml"), "Igapyon Diary v3 recent");
+				}
+
+				// new ProcessIndexListing(settings).process(new
+				// File("README.src.md"), diaryItemInfoList);
+				// new ProcessIndexListing(settings).process(new
+				// File("idxall.html.src.md"), diaryItemInfoList);
 			}
 
 			final String[] YEARS = new String[] { "1996", "1997", "1998", "2000", "2001", "2002", "2003", "2004",
@@ -118,39 +141,37 @@ public class App {
 				// sort them
 				Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator());
 
-				final SyndFeed feed = new SyndFeedImpl();
-				feed.setTitle("Igapyon Diary v3 year " + year);
-				feed.setDescription("Diary index for year " + year + " by Igapyon.");
-				feed.setAuthor("Toshiki Iga");
-				feed.setEncoding("UTF-8");
-				feed.setGenerator("https://github.com/igapyon/igapyonv3");
-				// feed.setPublishedDate(new Date());
-				feed.setLanguage("ja_JP");
-				feed.setFeedType("atom_1.0");
-
-				for (DiaryItemInfo diaryItemInfo : diaryItemInfoList) {
-					final SyndEntry entry = new SyndEntryImpl();
-					entry.setTitle(diaryItemInfo.getTitle());
-					entry.setUri(diaryItemInfo.getUri());
-					entry.setLink(diaryItemInfo.getUri());
-					entry.setAuthor("Toshiki Iga");
-					feed.getEntries().add(entry);
-				}
-
-				new SyndFeedOutput().output(feed, new File(rootdir, year + "/atom.xml"));
-
-				if (false) {
-					// FIXME
-					System.err.println("Update index files.");
-					new ProcessIndexListing(settings).process(new File("./" + year + "/index.html.src.md"),
-							diaryItemInfoList);
-				}
+				writeAtom(diaryItemInfoList, new File(rootdir, year + "/atom.xml"), "Igapyon Diary v3 year " + year);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+	}
+
+	public static void writeAtom(final List<DiaryItemInfo> diaryItemInfoList, final File targetAtomFile,
+			final String title) throws IOException {
+		final SyndFeed feed = new SyndFeedImpl();
+		feed.setTitle(title);
+		// FIXME should be variable.
+		feed.setAuthor("Toshiki Iga");
+		feed.setEncoding("UTF-8");
+		feed.setGenerator("https://github.com/igapyon/igapyonv3");
+		feed.setLanguage("ja_JP");
+		feed.setFeedType("atom_1.0");
+
+		for (DiaryItemInfo diaryItemInfo : diaryItemInfoList) {
+			final SyndEntry entry = new SyndEntryImpl();
+			entry.setTitle(diaryItemInfo.getTitle());
+			entry.setUri(diaryItemInfo.getUri());
+			entry.setLink(diaryItemInfo.getUri());
+			entry.setAuthor("Toshiki Iga");
+			feed.getEntries().add(entry);
+		}
+
+		try {
+			new SyndFeedOutput().output(feed, targetAtomFile);
 		} catch (FeedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new IOException(e);
 		}
 	}
 }
