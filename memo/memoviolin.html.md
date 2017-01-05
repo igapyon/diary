@@ -262,4 +262,4 @@ Hiroko Miyazakiさんという方のページ。私と同じ作者のヴァイ�
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [日記ジェネレータ](https://github.com/igapyon/igapyonv3)

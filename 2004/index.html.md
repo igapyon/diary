@@ -31,6 +31,7 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+/ [ALL](https://igapyon.github.io/diary/idxall.html)
 
 
 ## いがぴょんの日記：2004年の日記
@@ -223,4 +224,4 @@
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html)
+[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [日記ジェネレータ](https://github.com/igapyon/igapyonv3)
