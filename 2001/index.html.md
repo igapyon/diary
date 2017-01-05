@@ -1,16 +1,13 @@
 [top](https://igapyon.github.io/diary/) 
 
-いがぴょんの日記：2000年の日記
+いがぴょんの日記：2001年の日記
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2001年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/2000/index.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/2000/index.html.src.md) 
+/ [target](https://igapyon.github.io/diary/2001/index.html) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/2001/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 [2017](https://igapyon.github.io/diary/2017/index.html)
@@ -35,7 +32,8 @@
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
 
-## いがぴょんの日記：2000年の日記
+
+## いがぴょんの日記：2001年の日記
 
 * [2001-12-27 diary: 2001年を振り返り…](https://igapyon.github.io/diary/2001/ig011227.html)
 * [2001-12-25 diary: Mozilla 0.9.7 リリース , 連休で休まりました](https://igapyon.github.io/diary/2001/ig011225.html)
@@ -79,11 +77,6 @@
 * [2001-10-21 diary: トーマスシンドローム](https://igapyon.github.io/diary/2001/ig011021.html)
 * [2001-10-19 diary: 日記v2運用開始](https://igapyon.github.io/diary/2001/ig011019.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

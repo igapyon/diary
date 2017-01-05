@@ -4,9 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2004年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/2004/index.html) 
@@ -34,6 +31,7 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+
 
 ## いがぴょんの日記：2004年の日記
 
@@ -221,11 +219,6 @@
 * [2004-01-03 diary: なぜかお買い物](https://igapyon.github.io/diary/2004/ig040103.html)
 * [2004-01-02 diary: あけまして おめでとうございます](https://igapyon.github.io/diary/2004/ig040102.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

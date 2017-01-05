@@ -4,9 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2013年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/2013/index.html) 
@@ -34,6 +31,7 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+
 
 ## いがぴょんの日記：2013年の日記
 
@@ -90,11 +88,6 @@
 * [2013-01-04 diary: [C++] C++11 (ISO/IEC 14882:2011)](https://igapyon.github.io/diary/2013/ig130104.html)
 * [2013-01-03 diary: プログラミング言語の人気](https://igapyon.github.io/diary/2013/ig130103.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

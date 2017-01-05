@@ -4,9 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2002年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/2002/index.html) 
@@ -34,6 +31,7 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+
 
 ## いがぴょんの日記：2002年の日記
 
@@ -211,11 +209,6 @@
 * [2002-01-10 diary: ばたばたしてます](https://igapyon.github.io/diary/2002/ig020110.html)
 * [2002-01-08 diary: Oracle 8.1.7 が Windows 2000 Pro / XP にインストールできない件](https://igapyon.github.io/diary/2002/ig020108.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

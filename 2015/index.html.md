@@ -4,9 +4,6 @@
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 2015年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/2015/index.html) 
@@ -34,6 +31,7 @@
 / [1998](https://igapyon.github.io/diary/1998/index.html)
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
+
 
 ## いがぴょんの日記：2015年の日記
 
@@ -142,11 +140,6 @@
 * [2015-01-23 diary: [Linux] 複数の wav ファイルを 1 つの mp4 ファイルにまとめる](https://igapyon.github.io/diary/2015/ig150123.html)
 * [2015-01-22 diary: プレゼンの技術向上に関するネタのリンク](https://igapyon.github.io/diary/2015/ig150122.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 

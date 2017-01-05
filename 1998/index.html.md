@@ -1,12 +1,9 @@
 [top](https://igapyon.github.io/diary/) 
 
-いがぴょんの日記：1996年の日記
+いがぴょんの日記：1998年の日記
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-いがぴょんの日記ウェブページv3
-=============================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 1998年の日記のインディックス。
 
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/1998/index.html) 
@@ -35,15 +32,11 @@
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
 
-## いがぴょんの日記：1996年の日記
+
+## いがぴょんの日記：1998年の日記
 
 * [1998-07-06 diary: Java狂: Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)](https://igapyon.github.io/diary/1998/ig980706.html)
 
-
-----------------------------------------------------------------------------------------------------
-
-## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [インデックスに戻る](https://igapyon.github.io/diary/idxall.html)
 
 ----------------------------------------------------------------------------------------------------
 
