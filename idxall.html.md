@@ -300,7 +300,7 @@
 * [2014-10-07 diary: 会社ブログ](https://igapyon.github.io/diary/2014/ig141007.html)
 * [2014-10-06 diary: [艦これ] 艦これの記事メモ](https://igapyon.github.io/diary/2014/ig141006.html)
 * [2014-10-05 diary: Tシャツプリント・メモ](https://igapyon.github.io/diary/2014/ig141005.html)
-* [2014-09-30 diary: [InterBase] [[InterBase]] の基本メモ](https://igapyon.github.io/diary/2014/ig140930.html)
+* [2014-09-30 diary: [InterBase] [InterBase](https://ja.wikipedia.org/wiki/InterBase) の基本メモ](https://igapyon.github.io/diary/2014/ig140930.html)
 * [2014-09-24 diary: [InterBase] InterBase の情報源メモ](https://igapyon.github.io/diary/2014/ig140924.html)
 * [2014-09-22 diary: スティーブ・ジョブズさんの映画](https://igapyon.github.io/diary/2014/ig140922.html)
 * [2014-09-18 diary: デブサミ関西の発表資料メモ](https://igapyon.github.io/diary/2014/ig140918.html)
