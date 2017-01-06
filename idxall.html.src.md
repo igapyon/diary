@@ -3,7 +3,7 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-<#include "/diaryYearList">
+<#include "/diaryYearList" /><#-- 年リストはインクルードで実現 -->
 
 ## いがぴょんの日記ウェブページv3：日記を全て
 
