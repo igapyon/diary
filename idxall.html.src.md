@@ -9,4 +9,4 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-<@localrss filename="atom.xml" />
+<@localrss filename="atom.xml" /><#-- 日記一覧をローカルから読み込み -->
