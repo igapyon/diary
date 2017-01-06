@@ -7,4 +7,4 @@
 
 ## いがぴょんの日記：メモ
 
-${indexAtomXml}
+<@localrss filename="atom.xml" />

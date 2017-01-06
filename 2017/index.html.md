@@ -36,7 +36,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-07 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170107.html)
+* [2017-01-07 diary: FreeMarker のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: FreeMarker の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
 * [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)

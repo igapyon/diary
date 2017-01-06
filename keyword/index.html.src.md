@@ -7,4 +7,4 @@
 
 ## いがぴょんの日記：キーワード
 
-${indexAtomXml}
+<@localrss filename="atom.xml" />

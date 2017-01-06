@@ -8,4 +8,4 @@
 
 ## いがぴょんの日記：1997年の日記
 
-${indexAtomXml}
+<@localrss filename="atom.xml" />
