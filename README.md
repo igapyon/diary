@@ -30,7 +30,7 @@
 / [1997](https://igapyon.github.io/diary/1997/index.html)
 / [1996](https://igapyon.github.io/diary/1996/index.html)
 / [ALL](https://igapyon.github.io/diary/idxall.html)
-
+ 
 
 ## いがぴょんの日記ウェブページv3：トップ
 
@@ -51,7 +51,7 @@
 * [2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する](https://igapyon.github.io/diary/2016/ig161225.html)
 * [2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える](https://igapyon.github.io/diary/2016/ig161224.html)
 * [2016-12-23 diary: [maven] 初めての maven の Java プロジェクト](https://igapyon.github.io/diary/2016/ig161223.html)
-
+ 
 
 ### 他サイトのニュースフィード
 

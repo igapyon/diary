@@ -2,13 +2,13 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/) 
 
-<#include "/diaryYearList" /><#-- 年リストはインクルードで実現 -->
+<#include "/diaryYearList" /> <#-- 年リストはインクルードで実現 -->
 
 ## いがぴょんの日記ウェブページv3：トップ
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-<@localrss filename="atomRecent.xml" />
+<@localrss filename="atomRecent.xml" /> <#-- 最近更新をローカルから読み込み -->
 
 ### 他サイトのニュースフィード
 
