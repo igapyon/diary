@@ -14,7 +14,7 @@ ${indexAtomRecentXml}
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
 
-${publickeyAtomXml}
+<@rssfeed url="http://www.publickey1.jp/atom.xml" maxcount="7" /> <#-- RSSフィード展開処理 -->
 
 ### 私むけ役立ちリンク
 
