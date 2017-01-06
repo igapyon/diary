@@ -9,4 +9,4 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-${indexAtomXml}
+<@localrss filename="atom.xml" />

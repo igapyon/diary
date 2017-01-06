@@ -8,7 +8,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-${indexAtomRecentXml}
+<@localrss filename="atomRecent.xml" />
 
 ### 他サイトのニュースフィード
 
