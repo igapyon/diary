@@ -41,7 +41,7 @@
 * [2017-01-04 diary: github gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
-* [2017-01-01 diary: Apache FreeMarker シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-01 diary: [FreeMarker] シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
 * [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システムの試作中](https://igapyon.github.io/diary/2016/ig161230.html)
 * [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
