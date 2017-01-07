@@ -17,7 +17,7 @@ Maven は [[Apache]] ファウンデーション配下のビルドシステム�
 ### まとめ情報
 
 * <@linksearch title="Search on Igapyon Diary" word="Maven Apache" site="https://igapyon.github.io/diary/" />
-* [Search on Publickey](https://www.google.co.jp/#q=site:http:%2F%2Fwww.publickey1.jp%2F+Maven%20Apache&pws=0)
+* <@linksearch title="Search on Publickey" word="Maven Apache" site="http://www.publickey1.jp/" />
 * [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
 * <@linksearch title="Search in Google" word="Maven Apache" />
 * <@linksearch title="Search in Twitter" word="Maven Apache" engine="twitter" />
