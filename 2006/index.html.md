@@ -38,7 +38,7 @@
 
 * [2006-12-29 diary: blancoDbPhp公開ベータ版のリリース](https://igapyon.github.io/diary/2006/ig061229.html)
 * [2006-12-28 diary: blancoDbPhpを PDOベースへと変更中](https://igapyon.github.io/diary/2006/ig061228.html)
-* [2006-12-20 diary: blanco Framework: [[blancoDbPhp]] 開発版をリリース](https://igapyon.github.io/diary/2006/ig061220.html)
+* [2006-12-20 diary: blanco Framework: 「blancoDbPhp」 開発版をリリース](https://igapyon.github.io/diary/2006/ig061220.html)
 * [2006-12-19 diary: blancoDbPhp 開発版の公開](https://igapyon.github.io/diary/2006/ig061219.html)
 * [2006-12-14 diary: C++言語からJava言語の呼び出しのソースコード(C++ソース)を自動生成する 「blancoJni」 を試作](https://igapyon.github.io/diary/2006/ig061214.html)
 * [2006-12-12 diary: Sun Java SE 6 (JDK 1.6) リリース](https://igapyon.github.io/diary/2006/ig061212.html)

@@ -165,7 +165,7 @@
 * [2003-04-30 diary: ヴァイオリン発表会](https://igapyon.github.io/diary/2003/ig030430.html)
 * [2003-04-26 diary: 仕事ゲット](https://igapyon.github.io/diary/2003/ig030426.html)
 * [2003-04-24 diary: CNET JapanがRSS配信開始していました…](https://igapyon.github.io/diary/2003/ig030424.html)
-* [2003-04-23 diary: 三菱電機 RDF193H [19型CRT] 購入](https://igapyon.github.io/diary/2003/ig030423.html)
+* [2003-04-23 diary: 三菱電機 RDF193H (19型CRT) 購入](https://igapyon.github.io/diary/2003/ig030423.html)
 * [2003-04-22 diary: WebLogic Server 8.1J記事執筆用メモ](https://igapyon.github.io/diary/2003/ig030422.html)
 * [2003-04-15 diary: にらめっこ中](https://igapyon.github.io/diary/2003/ig030415.html)
 * [2003-04-11 diary: 仕事暇で忙しい](https://igapyon.github.io/diary/2003/ig030411.html)

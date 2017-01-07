@@ -171,7 +171,7 @@
 * [2004-03-16 diary: 書籍校正作業のため毎日コミュニケーションズにて缶詰作業](https://igapyon.github.io/diary/2004/ig040316.html)
 * [2004-03-15 diary: 東京に到着](https://igapyon.github.io/diary/2004/ig040315.html)
 * [2004-03-14 diary: Wiki系飲み会](https://igapyon.github.io/diary/2004/ig040314.html)
-* [2004-03-13 diary: [本家]](https://igapyon.github.io/diary/2004/ig040313.html)
+* [2004-03-13 diary: 某書籍の校正作業](https://igapyon.github.io/diary/2004/ig040313.html)
 * [2004-03-12 diary: 著者合コン＠新小岩 (裏会)](https://igapyon.github.io/diary/2004/ig040312.html)
 * [2004-03-11 diary: Subversionが流行りそうな予感](https://igapyon.github.io/diary/2004/ig040311.html)
 * [2004-03-10 diary: 「電気秘書」ソフトの開発を妄想](https://igapyon.github.io/diary/2004/ig040310.html)

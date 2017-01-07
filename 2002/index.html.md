@@ -55,7 +55,7 @@
 * [2002-11-20 diary: 昨日半日振休で楽器屋に行きました](https://igapyon.github.io/diary/2002/ig021120.html)
 * [2002-11-18 diary: ASP.NETウェブアプリケーションの配布方法](https://igapyon.github.io/diary/2002/ig021118.html)
 * [2002-11-15 diary: 某社システムの火消しから復帰 , Eclipse 2.0.2 リリース](https://igapyon.github.io/diary/2002/ig021115.html)
-* [2002-11-13 diary: Javaプログラミング[アプリケーション編] ステップアップラーニング](https://igapyon.github.io/diary/2002/ig021113.html)
+* [2002-11-13 diary: Javaプログラミング (アプリケーション編) ステップアップラーニング](https://igapyon.github.io/diary/2002/ig021113.html)
 * [2002-11-09 diary: IBM ホームページビルダー V7、ViaVoice V10 Pro 購入](https://igapyon.github.io/diary/2002/ig021109.html)
 * [2002-11-07 diary: 某社システムの火消しに動員される模様](https://igapyon.github.io/diary/2002/ig021107.html)
 * [2002-11-06 diary: 国産汎用機が消えていく時代なんですって](https://igapyon.github.io/diary/2002/ig021106.html)

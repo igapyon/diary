@@ -1201,7 +1201,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2016-01-28 diary: [GitBucket] GitBucket 関連情報メモ</title>
+    <title>2016-01-28 diary: GitBucket 関連情報メモ</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160128.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1255,7 +1255,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2016-01-21 diary: [ERDA] ER/Studio 2016 関連情報のリンクメモ</title>
+    <title>2016-01-21 diary: ER/Studio 2016 関連情報のリンクメモ</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160121.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1957,7 +1957,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-28 diary: [EMBT][EDN] サーバー実装技術 EMS と DataSnap の違い</title>
+    <title>2015-04-28 diary: [EMBT] EDN サーバー実装技術 EMS と DataSnap の違い</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150428.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1966,7 +1966,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-27 diary: [EMBT][EDN] Webブラウザ機能を埋め込んだAndroid/iOS/OS X/Windows対応マルチデバイス対応ネイティブアプリをRAD Studioで作る</title>
+    <title>2015-04-27 diary: [EMBT] EDN Webブラウザ機能を埋め込んだAndroid/iOS/OS X/Windows対応マルチデバイス対応ネイティブアプリをRAD Studioで作る</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150427.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1984,7 +1984,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-25 diary: [EMBT][EDN] MapView を使って、地図埋め込みアプリを体験</title>
+    <title>2015-04-25 diary: [EMBT] EDN MapView を使って、地図埋め込みアプリを体験</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150425.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2002,7 +2002,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-21 diary: [EMBT][EDN] Android アプリ開発を行う場合の、RAD Studio XE8インストール後に必要な Android SDK の設定作業</title>
+    <title>2015-04-21 diary: [EMBT] EDN Android アプリ開発を行う場合の、RAD Studio XE8インストール後に必要な Android SDK の設定作業</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150421.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2029,7 +2029,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-17 diary: [EMBT][EDN] マルチデバイス対応アプリの UI を FireUI で快適作成</title>
+    <title>2015-04-17 diary: [EMBT] EDN マルチデバイス対応アプリの UI を FireUI で快適作成</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150417.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2056,7 +2056,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-14 diary: [EMBT][EDN] ビーコン利用アプリを RAD Studio XE8 を使って簡単作成</title>
+    <title>2015-04-14 diary: [EMBT] EDN ビーコン利用アプリを RAD Studio XE8 を使って簡単作成</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150414.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2065,7 +2065,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-04-13 diary: [EMBT][EDN] RAD Studio XE7 で NFC を利用したアプリの開発方法</title>
+    <title>2015-04-13 diary: [EMBT] EDN RAD Studio XE7 で NFC を利用したアプリの開発方法</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150413.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2902,7 +2902,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2014-02-19 diary: [avconv] 音声ファイルや動画ファイルの一部を別ファイルに切り出す</title>
+    <title>2014-02-19 diary: avconv 音声ファイルや動画ファイルの一部を別ファイルに切り出す</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140219.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -2938,7 +2938,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2014-01-26 diary: [Shell] [Shell] 引数チェック</title>
+    <title>2014-01-26 diary: [Shell] 引数チェック</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140126.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3307,7 +3307,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2013-02-01 diary: [Oracle][WebLogic] Oracle 社の WebLogic 関連イベントにてパネルディスカッションのパネリストとして登壇します</title>
+    <title>2013-02-01 diary: Oracle 社の WebLogic 関連イベントにてパネルディスカッションのパネリストとして登壇します</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130201.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3424,7 +3424,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2013-01-16 diary: [Java][VM][JavaVM][LLVM] セキュリティ問題によるクライアント Java の苦悩</title>
+    <title>2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130116.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3442,7 +3442,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2013-01-14 diary: [Java][C/C++][C#.NET]私のプログラミング言語経験年数</title>
+    <title>2013-01-14 diary: [Java] C/C++ C#.NET 私のプログラミング言語経験年数</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130114.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3478,7 +3478,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2013-01-04 diary: [C++] C++11 (ISO/IEC 14882:2011)</title>
+    <title>2013-01-04 diary: C++ C++11 (ISO/IEC 14882:2011)</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130104.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3496,7 +3496,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-28 diary: [Ubuntu][ISO] Ubuntu 12.04 において、ISO ファイルをコマンドで作成する方法</title>
+    <title>2012-12-28 diary: [Ubuntu] Ubuntu 12.04 において、ISO ファイルをコマンドで作成する方法</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121228.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3541,7 +3541,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-11 diary: [C++Builder][XE3][FMX] マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)</title>
+    <title>2012-12-11 diary: [C++Builder] XE3 FMX マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121211.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3550,7 +3550,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-10 diary: [Delphi][XE3] Delphi: XE3: エクスプローラ風アプリ開発のメモ</title>
+    <title>2012-12-10 diary: [Delphi] Delphi: XE3: エクスプローラ風アプリ開発のメモ</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121210.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3559,7 +3559,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-07 diary: [C++Builder][XE3] 文字列をファイルに書き出し</title>
+    <title>2012-12-07 diary: [C++Builder] XE3 文字列をファイルに書き出し</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121207.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3568,7 +3568,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-12-06 diary: [C++Builder][XE3] 文字列リスト</title>
+    <title>2012-12-06 diary: [C++Builder] XE3 文字列リスト</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121206.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3595,7 +3595,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-11-14 diary: [Java][OSS][RSS][ManjyuRss]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開</title>
+    <title>2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121114.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3892,7 +3892,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-09-21 diary: [JavaFX][Path] 線の描画【Path をもちいたレンダリング】</title>
+    <title>2012-09-21 diary: [JavaFX] Path 線の描画【Path をもちいたレンダリング】</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120921.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3901,7 +3901,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-09-20 diary: [JavaFX][Canvas][GraphicsContext] 線の描画【Canvas と GC をもちいたレンダリング】</title>
+    <title>2012-09-20 diary: [JavaFX] Canvas GraphicsContext 線の描画【Canvas と GC をもちいたレンダリング】</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120920.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3955,7 +3955,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-09-14 diary: [JavaFX][DragAndDrop] ドロップのサンプル</title>
+    <title>2012-09-14 diary: [JavaFX] DragAndDrop ドロップのサンプル</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120914.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -3964,7 +3964,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-09-13 diary: [JavaFX][DragAndDrop] ドラッグのサンプル</title>
+    <title>2012-09-13 diary: [JavaFX] DragAndDrop ドラッグのサンプル</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120913.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -4000,7 +4000,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2012-09-09 diary: [JavaFX][Transition] パス・アニメーションのサンプル</title>
+    <title>2012-09-09 diary: [JavaFX] Transition パス・アニメーションのサンプル</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig120909.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -6835,7 +6835,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2008-06-26 diary: Eclipse [[Ganymede]] リリース</title>
+    <title>2008-06-26 diary: [Eclipse] Ganymede リリース</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig080626.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -8455,7 +8455,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2006-12-20 diary: blanco Framework: [[blancoDbPhp]] 開発版をリリース</title>
+    <title>2006-12-20 diary: blanco Framework: 「blancoDbPhp」 開発版をリリース</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2006/ig061220.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -12919,7 +12919,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2004-03-13 diary: [本家]</title>
+    <title>2004-03-13 diary: 某書籍の校正作業</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2004/ig040313.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -14512,7 +14512,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2003-04-23 diary: 三菱電機 RDF193H [19型CRT] 購入</title>
+    <title>2003-04-23 diary: 三菱電機 RDF193H (19型CRT) 購入</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2003/ig030423.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -15061,7 +15061,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2002-11-13 diary: Javaプログラミング[アプリケーション編] ステップアップラーニング</title>
+    <title>2002-11-13 diary: Javaプログラミング (アプリケーション編) ステップアップラーニング</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021113.html" />
     <author>
       <name>Toshiki Iga</name>

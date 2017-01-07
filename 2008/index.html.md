@@ -85,7 +85,7 @@
 * [2008-07-19 diary: 自宅エアコン更新検討中](https://igapyon.github.io/diary/2008/ig080719.html)
 * [2008-07-10 diary: Eclipse Ganymede 翻訳状況 最前線](https://igapyon.github.io/diary/2008/ig080710.html)
 * [2008-07-01 diary: Eclipse Ganymede / Europa 日本語化言語パック (サードパーティ版) マイルストーン版リリース , Pleiades 最新版 リリース](https://igapyon.github.io/diary/2008/ig080701.html)
-* [2008-06-26 diary: Eclipse [[Ganymede]] リリース](https://igapyon.github.io/diary/2008/ig080626.html)
+* [2008-06-26 diary: [Eclipse] Ganymede リリース](https://igapyon.github.io/diary/2008/ig080626.html)
 * [2008-06-25 diary: Eclipse Ganymede 日本語化言語パック (サードパーティ版) integration bulidリリース](https://igapyon.github.io/diary/2008/ig080625.html)
 * [2008-06-23 diary: Eclipse Ganymede RC4 日本語化言語パック (サードパーティ版) integration bulidリリース](https://igapyon.github.io/diary/2008/ig080623.html)
 * [2008-06-22 diary: Eclipse Ganymede 言語パック (サードパーティ版) 最終調整中](https://igapyon.github.io/diary/2008/ig080622.html)
