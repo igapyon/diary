@@ -23,8 +23,8 @@ FreeMarker は [Apache](https://www.apache.org/) ファウンデーション配�
 ### まとめ情報
 
 * [Hishidama's](http://www.ne.jp/asahi/hishidama/home/tech/java/freemarker/index.html)
-* [Search on Igapyon Diary](https://www.google.co.jp/#q=site:http:%2F%2Figapyon.github.io%2Fdiary+igapyon&pws=0)
-* [Search in Google](https://www.google.co.jp/#q=FreeMarker)
+* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyon)
+* [Search in Google](https://www.google.co.jp/#pws=0&q=FreeMarker)
 * [Search in Twitter](https://twitter.com/search?q=FreeMarker)
 
 ### 日記タイトル言及
