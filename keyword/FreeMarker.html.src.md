@@ -2,7 +2,7 @@
 
 ## FreeMarker
 
-FreeMarker は [[Apache]] ファウンデーション配下のテンプレートエンジンです。
+[[FreeMarker]] は [[Apache]] ファウンデーション配下のテンプレートエンジンです。
 
 ### URL
 
