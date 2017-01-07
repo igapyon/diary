@@ -160,7 +160,7 @@
 * [2016-02-06 diary: ストレスと睡眠](https://igapyon.github.io/diary/2016/ig160206.html)
 * [2016-02-04 diary: Windows 10 のベータビルドに Linux ファイルシステムへのアクセス機能が組み込まれている模様](https://igapyon.github.io/diary/2016/ig160204.html)
 * [2016-02-03 diary: Windows OS の rsync 的なコマンド【robocopy.exe】](https://igapyon.github.io/diary/2016/ig160203.html)
-* [2016-01-31 diary: Apple iPad mini 4 64 GB [WiFi + Cellular] 購入](https://igapyon.github.io/diary/2016/ig160131.html)
+* [2016-01-31 diary: Apple iPad mini 4 64 GB (WiFi + Cellular) 購入](https://igapyon.github.io/diary/2016/ig160131.html)
 * [2016-01-29 diary: 利用しているキーボードのメモ: 現状と今後](https://igapyon.github.io/diary/2016/ig160129.html)
 * [2016-01-28 diary: GitBucket 関連情報メモ](https://igapyon.github.io/diary/2016/ig160128.html)
 * [2016-01-27 diary: Google が提供する Webページのパフォーマンス評価機能](https://igapyon.github.io/diary/2016/ig160127.html)
