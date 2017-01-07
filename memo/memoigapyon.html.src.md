@@ -42,9 +42,9 @@
 
 ## 著作
 
-* 書籍: やさしく学ぶ 基礎からのJDBC
+* 書籍: <@linkamazon title="やさしく学ぶ 基礎からのJDBC" dp="4839913935" />
   * 発売日：2004年04月23日
-* 書籍: Javaプログラミング[アプリケーション編] ステップアップラーニング
+* 書籍: <@linkamazon title="Javaプログラミング[アプリケーション編] ステップアップラーニング" dp="4774116122" />
 * ＠IT: Excelからプログラムを作る多言語対応オープンソース (blanco Framework)
 * 技術評論社: WEB+DB PRESS Vol.30
   * 「blancoResourceBundleを使ってみよう」 - Javaリソースバンドルの使い勝手を劇的に向上！
@@ -57,7 +57,7 @@
 
 ## 日記
 
-いがぴょんの日記ウェブページv2
+[いがぴょんの日記ウェブページv3](https://igapyon.github.io/diary/)
 
 ## 趣味
 
