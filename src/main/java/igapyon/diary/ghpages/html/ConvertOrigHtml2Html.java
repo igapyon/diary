@@ -11,6 +11,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import jp.igapyon.diary.v3.item.DiaryItemInfo;
 
+/**
+ * エンコーディングを変更するだけのクラス。
+ */
 public class ConvertOrigHtml2Html {
 	private List<DiaryItemInfo> diaryItemInfoList = new ArrayList<DiaryItemInfo>();
 
