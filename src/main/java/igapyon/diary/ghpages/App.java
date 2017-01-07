@@ -43,29 +43,30 @@ public class App {
 				return;
 			}
 
+			// 今日の日記について、存在しなければ作成します。
+			System.err.println("Generate today's diary file if not exists.");
+			new TodayDiaryGenerator(settings).processDir();
+
 			// index用のatomファイルを生成および更新します。
 			new DiaryIndexAtomGenerator(settings).process(rootdir);
 
+			// .html.src.md ファイルから .md ファイルを生成します。
+			System.err.println("Convert .html.src.md to .html.md file.");
+			new DiarySrcMd2MdConverter(settings).processDir(rootdir);
+
 			if (false) {
+				// 移行シリーズ。
+
 				// v2 システムから v3 に html -> md 変換を実施します。
 				// ただし、このスクリプトは、日記移行時には活躍したものの、その後役目を終えて、通常は使われません。
 				new IgapyonV2Html2MdConverter().processDir(rootdir);
-			}
 
-			// 今日の日記について、存在しなければ作成します。
-			System.err.println("Generate today's diary file if not exists.");
-			new TodayDiaryGenerator(settings).processDir(rootdir);
-
-			if (false) {
 				// 分割されたはてなテキストから .src.md ファイルを生成します。
 				// ただし、このスクリプトは、日記移行時には活躍したものの、その後役目を終えて、通常は使われません。
 				System.err.println("Hatena text to .html.src.md file.");
 				new HatenaText2SrcMdConverter(settings).processDir(rootdir);
 			}
 
-			// .html.src.md ファイルから .md ファイルを生成します。
-			System.err.println("Convert .html.src.md to .html.md file.");
-			new DiarySrcMd2MdConverter(settings).processDir(rootdir);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
