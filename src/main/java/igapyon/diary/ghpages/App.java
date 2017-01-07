@@ -47,7 +47,7 @@ public class App {
 			System.err.println("Generate today's diary file if not exists.");
 			new TodayDiaryGenerator(settings).processDir();
 
-			// index用のatomファイルを生成および更新します。
+			// ルートディレクトリを含む各ディレクトリ用の index用のatomファイルを生成および更新します。
 			new DiaryIndexAtomGenerator(settings).process();
 
 			// .html.src.md ファイルから .md ファイルを生成します。
