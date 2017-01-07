@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-08 diary: igapyonv3 のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
 * [2017-01-07 diary: FreeMarker のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: FreeMarker の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
@@ -50,7 +51,6 @@
 * [2016-12-26 diary: [maven] Java アプリに jar 利用の依存関係を追加する](https://igapyon.github.io/diary/2016/ig161226.html)
 * [2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する](https://igapyon.github.io/diary/2016/ig161225.html)
 * [2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える](https://igapyon.github.io/diary/2016/ig161224.html)
-* [2016-12-23 diary: [maven] 初めての maven の Java プロジェクト](https://igapyon.github.io/diary/2016/ig161223.html)
 
 
 ### 他サイトのニュースフィード

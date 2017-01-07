@@ -37,6 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-08 diary: igapyonv3 のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
 * [2017-01-07 diary: FreeMarker のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: FreeMarker の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
