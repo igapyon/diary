@@ -55,6 +55,7 @@
 * [OmegaT](https://igapyon.github.io/diary/keyword/omegat.html)
 * [OAuth](https://igapyon.github.io/diary/keyword/oauth.html)
 * [引越](https://igapyon.github.io/diary/keyword/moving.html)
+* [Maven](https://igapyon.github.io/diary/keyword/maven.html)
 * [Mac](https://igapyon.github.io/diary/keyword/mac.html)
 * [LLVM](https://igapyon.github.io/diary/keyword/llvm.html)
 * [Linux](https://igapyon.github.io/diary/keyword/linux.html)
@@ -69,6 +70,7 @@
 * [GlassFish](https://igapyon.github.io/diary/keyword/glassfish.html)
 * [github](https://igapyon.github.io/diary/keyword/github.html)
 * [git](https://igapyon.github.io/diary/keyword/git.html)
+* [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html)
 * [Force.com](https://igapyon.github.io/diary/keyword/force.com.html)
 * [FindBugs](https://igapyon.github.io/diary/keyword/findbugs.html)
 * [Facelets](https://igapyon.github.io/diary/keyword/facelets.html)
@@ -86,8 +88,6 @@
 * [Apache](https://igapyon.github.io/diary/keyword/apache.html)
 * [Ant](https://igapyon.github.io/diary/keyword/ant.html)
 * [Amateras](https://igapyon.github.io/diary/keyword/amateras.html)
-* [Maven](https://igapyon.github.io/diary/keyword/Maven.html)
-* [FreeMarker](https://igapyon.github.io/diary/keyword/FreeMarker.html)
 
 
 ----------------------------------------------------------------------------------------------------
