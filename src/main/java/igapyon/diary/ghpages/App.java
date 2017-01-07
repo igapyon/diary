@@ -4,10 +4,10 @@ import java.io.File;
 import java.io.IOException;
 
 import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
-import jp.igapyon.diary.v3.hatena.HatenaText2SrcMdConverter;
-import jp.igapyon.diary.v3.html2md.IgapyonV2Html2MdConverter;
 import jp.igapyon.diary.v3.indexing.DiaryIndexAtomGenerator;
 import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
+import jp.igapyon.diary.v3.migration.hatena2md.HatenaText2SrcMdConverter;
+import jp.igapyon.diary.v3.migration.html2md.IgapyonV2Html2MdConverter;
 import jp.igapyon.diary.v3.util.IgapyonV3Settings;
 
 /**
