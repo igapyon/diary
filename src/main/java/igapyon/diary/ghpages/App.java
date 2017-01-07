@@ -48,7 +48,7 @@ public class App {
 			new TodayDiaryGenerator(settings).processDir();
 
 			// index用のatomファイルを生成および更新します。
-			new DiaryIndexAtomGenerator(settings).process(rootdir);
+			new DiaryIndexAtomGenerator(settings).process();
 
 			// .html.src.md ファイルから .md ファイルを生成します。
 			System.err.println("Convert .html.src.md to .html.md file.");
