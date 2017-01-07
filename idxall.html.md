@@ -56,7 +56,7 @@
 * [2016-12-21 diary: 動くドキュメントかつ自動テストとしての Geb スクリプト](https://igapyon.github.io/diary/2016/ig161221.html)
 * [2016-12-20 diary: [LINE] bot 関連情報の収集](https://igapyon.github.io/diary/2016/ig161220.html)
 * [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
-* [2016-12-18 diary: [Geb] やたら Geb を勧められるので使ってみる](https://igapyon.github.io/diary/2016/ig161218.html)
+* [2016-12-18 diary: やたら Geb を勧められるので使ってみる](https://igapyon.github.io/diary/2016/ig161218.html)
 * [2016-12-17 diary: [git] 基本コマンドメモ](https://igapyon.github.io/diary/2016/ig161217.html)
 * [2016-12-16 diary: [Linux] いつも忘れる diff 引数。「diff -urN」](https://igapyon.github.io/diary/2016/ig161216.html)
 * [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
