@@ -117,7 +117,7 @@
 * [2015-04-15 diary: RAD Studio メモ: Google マップの利用](https://igapyon.github.io/diary/2015/ig150415.html)
 * [2015-04-14 diary: [EMBT] EDN ビーコン利用アプリを RAD Studio XE8 を使って簡単作成](https://igapyon.github.io/diary/2015/ig150414.html)
 * [2015-04-13 diary: [EMBT] EDN RAD Studio XE7 で NFC を利用したアプリの開発方法](https://igapyon.github.io/diary/2015/ig150413.html)
-* [2015-04-12 diary: [EMBT] [EMBT] EMS (Enterprise Mobility Services)](https://igapyon.github.io/diary/2015/ig150412.html)
+* [2015-04-12 diary: [EMBT] EMS (Enterprise Mobility Services)](https://igapyon.github.io/diary/2015/ig150412.html)
 * [2015-04-09 diary: Google パーソナライズ検索の無効化は「&amp;pws=0」とのこと](https://igapyon.github.io/diary/2015/ig150409.html)
 * [2015-04-08 diary: オンライン配信時の Mac デモ機の設定メモ](https://igapyon.github.io/diary/2015/ig150408.html)
 * [2015-04-06 diary: デモのメモ: 720p でのソースコードフォントサイズは 16 ポイント](https://igapyon.github.io/diary/2015/ig150406.html)
