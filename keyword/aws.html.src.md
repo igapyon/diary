@@ -2,7 +2,7 @@
 
 ## AWS
 
-[[AWS]] は、、、、です。
+[[AWS]] は、Amazon Web Service の略です。
 
 ### URL
 

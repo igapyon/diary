@@ -8,7 +8,7 @@ Ant
 
 ## Ant
 
-[Ant](https://igapyon.github.io/diary/keyword/ant.html) は、、、、です。
+[Ant](https://igapyon.github.io/diary/keyword/ant.html) は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファウンデーションが提供している Java 向けビルドツールです。
 
 ### URL
 

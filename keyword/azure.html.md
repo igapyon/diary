@@ -8,7 +8,7 @@ Azure
 
 ## Azure
 
-[Azure](https://igapyon.github.io/diary/keyword/azure.html) は、、、、です。
+[Azure](https://igapyon.github.io/diary/keyword/azure.html) は、 Microsoft が提供するクラウドプラットフォームです。
 
 ### URL
 

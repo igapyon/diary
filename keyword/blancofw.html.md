@@ -8,7 +8,7 @@ blancofw
 
 ## blancofw
 
-[blancofw](https://igapyon.github.io/diary/keyword/blancofw.html) は、、、、です。
+[blancofw](https://igapyon.github.io/diary/keyword/blancofw.html) は、 blanco Framework の略称であり、オープンソースプロダクトのひとつです。
 
 ### URL
 

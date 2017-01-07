@@ -2,7 +2,7 @@
 
 ## Azure
 
-[[Azure]] は、、、、です。
+[[Azure]] は、 Microsoft が提供するクラウドプラットフォームです。
 
 ### URL
 

@@ -8,7 +8,7 @@ Amateras
 
 ## Amateras
 
-[Amateras](https://igapyon.github.io/diary/keyword/amateras.html) は、、、、です。
+[Amateras](https://igapyon.github.io/diary/keyword/amateras.html) は、 たけぞう さんを中心に活動している オープンソース プロダクト群です。
 
 ### URL
 

@@ -8,7 +8,7 @@ Apache
 
 ## Apache
 
-[Apache](https://igapyon.github.io/diary/keyword/apache.html) は、、、、です。
+[Apache](https://igapyon.github.io/diary/keyword/apache.html) は、オープンソースプロダクト群を提供している有名なオープンソース集団です。
 
 ### URL
 

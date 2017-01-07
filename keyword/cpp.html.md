@@ -8,7 +8,7 @@ C++
 
 ## C++
 
-[C++](https://igapyon.github.io/diary/keyword/cpp.html) は、、、、です。
+[C++](https://igapyon.github.io/diary/keyword/cpp.html) は、プログラミング言語の一種です。
 
 ### URL
 

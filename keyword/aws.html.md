@@ -8,7 +8,7 @@ AWS
 
 ## AWS
 
-[AWS](https://igapyon.github.io/diary/keyword/aws.html) は、、、、です。
+[AWS](https://igapyon.github.io/diary/keyword/aws.html) は、Amazon Web Service の略です。
 
 ### URL
 

@@ -8,7 +8,7 @@ C++Builder
 
 ## C++Builder
 
-[C++Builder](https://igapyon.github.io/diary/keyword/cppbuilder.html) は、、、、です。
+[C++Builder](https://igapyon.github.io/diary/keyword/cppbuilder.html) は、エンバカデロが提供する統合開発環境の一つです。
 
 ### URL
 

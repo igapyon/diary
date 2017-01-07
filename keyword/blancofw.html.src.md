@@ -2,7 +2,7 @@
 
 ## blancofw
 
-[[blancofw]] は、、、、です。
+[[blancofw]] は、 blanco Framework の略称であり、オープンソースプロダクトのひとつです。
 
 ### URL
 
