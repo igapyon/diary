@@ -8,7 +8,7 @@ Force.com
 
 ## Force.com
 
-[Force.com](https://www.salesforce.com/products/platform/products/force/) は、、、、です。
+[Force.com](https://igapyon.github.io/diary/keyword/force.com.html) は、、、、です。
 
 ### URL
 

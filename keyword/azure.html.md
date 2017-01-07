@@ -8,7 +8,7 @@ Azure
 
 ## Azure
 
-[[Azure]] は、、、、です。
+[Azure](https://igapyon.github.io/diary/keyword/azure.html) は、、、、です。
 
 ### URL
 

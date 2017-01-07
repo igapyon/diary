@@ -8,7 +8,7 @@ RSS
 
 ## RSS
 
-[[RSS]] は、、、、です。
+[RSS](https://igapyon.github.io/diary/keyword/rss.html) は、、、、です。
 
 ### URL
 

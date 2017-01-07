@@ -8,7 +8,7 @@ Groovy
 
 ## Groovy
 
-[Groovy](http://www.groovy-lang.org/) は、、、、です。
+[Groovy](https://igapyon.github.io/diary/keyword/groovy.html) は、、、、です。
 
 ### URL
 

@@ -8,7 +8,7 @@ SQLite
 
 ## SQLite
 
-[[SQLite]] は、、、、です。
+[SQLite](https://igapyon.github.io/diary/keyword/sqlite.html) は、、、、です。
 
 ### URL
 

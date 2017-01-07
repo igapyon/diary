@@ -8,7 +8,7 @@ Derby
 
 ## Derby
 
-[[Derby]] は、、、、です。
+[Derby](https://igapyon.github.io/diary/keyword/derby.html) は、、、、です。
 
 ### URL
 

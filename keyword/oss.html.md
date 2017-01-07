@@ -8,7 +8,7 @@ OSS
 
 ## OSS
 
-[[OSS]] は、、、、です。
+[OSS](https://igapyon.github.io/diary/keyword/oss.html) は、、、、です。
 
 ### URL
 

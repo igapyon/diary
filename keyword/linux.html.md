@@ -8,7 +8,7 @@ Linux
 
 ## Linux
 
-[[Linux]] は、、、、です。
+[Linux](https://igapyon.github.io/diary/keyword/linux.html) は、、、、です。
 
 ### URL
 

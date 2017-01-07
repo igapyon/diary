@@ -8,7 +8,7 @@ Visualforce
 
 ## Visualforce
 
-[[Visualforce]] は、、、、です。
+[Visualforce](https://igapyon.github.io/diary/keyword/visualforce.html) は、、、、です。
 
 ### URL
 

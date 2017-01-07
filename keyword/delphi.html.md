@@ -8,7 +8,7 @@ Delphi
 
 ## Delphi
 
-[Delphi](https://www.embarcadero.com/jp/products/delphi) は、、、、です。
+[Delphi](https://igapyon.github.io/diary/keyword/delphi.html) は、、、、です。
 
 ### URL
 

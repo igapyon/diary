@@ -8,7 +8,7 @@ Servlet
 
 ## Servlet
 
-[[Servlet]] は、、、、です。
+[Servlet](https://igapyon.github.io/diary/keyword/servlet.html) は、、、、です。
 
 ### URL
 

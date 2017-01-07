@@ -8,7 +8,7 @@ VMware
 
 ## VMware
 
-[VMware](http://www.vmware.com/jp.html) は、、、、です。
+[VMware](https://igapyon.github.io/diary/keyword/vmware.html) は、、、、です。
 
 ### URL
 

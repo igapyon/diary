@@ -8,7 +8,7 @@ OAuth
 
 ## OAuth
 
-[[OAuth]] は、、、、です。
+[OAuth](https://igapyon.github.io/diary/keyword/oauth.html) は、、、、です。
 
 ### URL
 

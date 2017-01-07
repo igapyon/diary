@@ -8,7 +8,7 @@ Shell
 
 ## Shell
 
-[[Shell]] は、、、、です。
+[Shell](https://igapyon.github.io/diary/keyword/shell.html) は、、、、です。
 
 ### URL
 

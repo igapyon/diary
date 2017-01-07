@@ -8,7 +8,7 @@ Debian
 
 ## Debian
 
-[[Debian]] は、、、、です。
+[Debian](https://igapyon.github.io/diary/keyword/debian.html) は、、、、です。
 
 ### URL
 

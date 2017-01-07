@@ -8,7 +8,7 @@ blancofw
 
 ## blancofw
 
-[[blancofw]] は、、、、です。
+[blancofw](https://igapyon.github.io/diary/keyword/blancofw.html) は、、、、です。
 
 ### URL
 

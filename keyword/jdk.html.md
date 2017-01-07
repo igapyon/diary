@@ -8,7 +8,7 @@ JDK
 
 ## JDK
 
-[[JDK]] は、、、、です。
+[JDK](https://igapyon.github.io/diary/keyword/jdk.html) は、、、、です。
 
 ### URL
 

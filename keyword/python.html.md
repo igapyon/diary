@@ -8,7 +8,7 @@ Python
 
 ## Python
 
-[[Python]] は、、、、です。
+[Python](https://igapyon.github.io/diary/keyword/python.html) は、、、、です。
 
 ### URL
 

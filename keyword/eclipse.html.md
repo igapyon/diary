@@ -8,7 +8,7 @@ Eclipse
 
 ## Eclipse
 
-[[Eclipse]] は、、、、です。
+[Eclipse](https://igapyon.github.io/diary/keyword/eclipse.html) は、、、、です。
 
 ### URL
 

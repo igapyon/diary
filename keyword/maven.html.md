@@ -8,7 +8,7 @@ Maven
 
 ## Maven
 
-Maven は [Apache](https://www.apache.org/) ファウンデーション配下のビルドシステムです。
+Maven は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファウンデーション配下のビルドシステムです。
 
 ### URL
 

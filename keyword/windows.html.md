@@ -8,7 +8,7 @@ Windows
 
 ## Windows
 
-[[Windows]] は、、、、です。
+[Windows](https://igapyon.github.io/diary/keyword/windows.html) は、、、、です。
 
 ### URL
 

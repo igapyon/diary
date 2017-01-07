@@ -8,7 +8,7 @@ Ubuntu
 
 ## Ubuntu
 
-[Ubuntu](https://www.ubuntu.com/) は、、、、です。
+[Ubuntu](https://igapyon.github.io/diary/keyword/ubuntu.html) は、、、、です。
 
 ### URL
 

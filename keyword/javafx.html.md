@@ -8,7 +8,7 @@ JavaFX
 
 ## JavaFX
 
-[[JavaFX]] は、、、、です。
+[JavaFX](https://igapyon.github.io/diary/keyword/javafx.html) は、、、、です。
 
 ### URL
 

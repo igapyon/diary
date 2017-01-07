@@ -8,7 +8,7 @@ Amateras
 
 ## Amateras
 
-[[Amateras]] は、、、、です。
+[Amateras](https://igapyon.github.io/diary/keyword/amateras.html) は、、、、です。
 
 ### URL
 

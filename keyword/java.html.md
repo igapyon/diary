@@ -8,7 +8,7 @@ Java
 
 ## Java
 
-[Java](http://www.oracle.com/technetwork/java/index.html) は、、、、です。
+[Java](https://igapyon.github.io/diary/keyword/java.html) は、、、、です。
 
 ### URL
 

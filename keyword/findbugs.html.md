@@ -8,7 +8,7 @@ FindBugs
 
 ## FindBugs
 
-[[FindBugs]] は、、、、です。
+[FindBugs](https://igapyon.github.io/diary/keyword/findbugs.html) は、、、、です。
 
 ### URL
 

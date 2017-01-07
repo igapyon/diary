@@ -8,7 +8,7 @@ OmegaT
 
 ## OmegaT
 
-[OmegaT](http://www.omegat.org/ja/omegat.html) は、、、、です。
+[OmegaT](https://igapyon.github.io/diary/keyword/omegat.html) は、、、、です。
 
 ### URL
 

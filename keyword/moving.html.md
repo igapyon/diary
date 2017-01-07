@@ -8,7 +8,7 @@
 
 ## 引越
 
-[[引越]] は、、、、です。
+[引越](https://igapyon.github.io/diary/keyword/moving.html) は、、、、です。
 
 ### URL
 

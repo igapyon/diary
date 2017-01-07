@@ -8,7 +8,7 @@ GlassFish
 
 ## GlassFish
 
-[[GlassFish]] は、、、、です。
+[GlassFish](https://igapyon.github.io/diary/keyword/glassfish.html) は、、、、です。
 
 ### URL
 

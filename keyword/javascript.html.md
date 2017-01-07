@@ -8,7 +8,7 @@ JavaScript
 
 ## JavaScript
 
-[[JavaScript]] は、、、、です。
+[JavaScript](https://igapyon.github.io/diary/keyword/javascript.html) は、、、、です。
 
 ### URL
 

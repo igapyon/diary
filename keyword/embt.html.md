@@ -8,7 +8,7 @@ EMBT
 
 ## EMBT
 
-[[EMBT]] は、、、、です。
+[EMBT](https://igapyon.github.io/diary/keyword/embt.html) は、、、、です。
 
 ### URL
 

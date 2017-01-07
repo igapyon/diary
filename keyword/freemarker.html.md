@@ -8,7 +8,7 @@ FreeMarker
 
 ## FreeMarker
 
-[FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) は [Apache](https://www.apache.org/) ファウンデーション配下のテンプレートエンジンです。
+[FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファウンデーション配下のテンプレートエンジンです。
 
 ### URL
 

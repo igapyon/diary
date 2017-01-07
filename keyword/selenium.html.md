@@ -8,7 +8,7 @@ Selenium
 
 ## Selenium
 
-[Selenium](http://www.seleniumhq.org/) は、、、、です。
+[Selenium](https://igapyon.github.io/diary/keyword/selenium.html) は、、、、です。
 
 ### URL
 

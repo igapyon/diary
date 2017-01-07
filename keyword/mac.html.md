@@ -8,7 +8,7 @@ Mac
 
 ## Mac
 
-[[Mac]] は、、、、です。
+[Mac](https://igapyon.github.io/diary/keyword/mac.html) は、、、、です。
 
 ### URL
 

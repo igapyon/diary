@@ -8,7 +8,7 @@ Facelets
 
 ## Facelets
 
-[[Facelets]] は、、、、です。
+[Facelets](https://igapyon.github.io/diary/keyword/facelets.html) は、、、、です。
 
 ### URL
 

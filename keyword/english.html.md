@@ -8,7 +8,7 @@ English
 
 ## English
 
-[[English]] は、、、、です。
+[English](https://igapyon.github.io/diary/keyword/english.html) は、、、、です。
 
 ### URL
 

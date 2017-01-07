@@ -8,7 +8,7 @@ Ant
 
 ## Ant
 
-[[Ant]] は、、、、です。
+[Ant](https://igapyon.github.io/diary/keyword/ant.html) は、、、、です。
 
 ### URL
 

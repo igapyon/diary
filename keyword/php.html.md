@@ -8,7 +8,7 @@ PHP
 
 ## PHP
 
-[[PHP]] は、、、、です。
+[PHP](https://igapyon.github.io/diary/keyword/php.html) は、、、、です。
 
 ### URL
 

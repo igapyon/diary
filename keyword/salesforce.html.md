@@ -8,7 +8,7 @@ Salesforce
 
 ## Salesforce
 
-[[Salesforce]] は、、、、です。
+[Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は、、、、です。
 
 ### URL
 

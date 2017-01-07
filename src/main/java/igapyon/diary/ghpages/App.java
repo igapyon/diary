@@ -18,8 +18,9 @@ public class App {
 	 * 現時点の、このプロジェクトのエントリポイント。
 	 * 
 	 * @param args
+	 * @throws IOException
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		System.out.println("Convert .src.md to .md");
 
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
@@ -34,7 +35,7 @@ public class App {
 			}
 		}
 
-		try {
+		{
 			// カレントディレクトリを取得のうえ正規化します。
 			final File rootdir = new File(".").getCanonicalFile();
 			if (rootdir.getName().equals("diary") == false) {
@@ -66,9 +67,6 @@ public class App {
 				System.err.println("Hatena text to .html.src.md file.");
 				new HatenaText2SrcMdConverter(settings).processDir(rootdir);
 			}
-
-		} catch (IOException e) {
-			e.printStackTrace();
 		}
 	}
 }

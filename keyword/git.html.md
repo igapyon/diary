@@ -8,7 +8,7 @@ git
 
 ## git
 
-[[git]] は、、、、です。
+[git](https://igapyon.github.io/diary/keyword/git.html) は、、、、です。
 
 ### URL
 

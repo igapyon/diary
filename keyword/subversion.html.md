@@ -8,7 +8,7 @@ Subversion
 
 ## Subversion
 
-[[Subversion]] は、、、、です。
+[Subversion](https://igapyon.github.io/diary/keyword/subversion.html) は、、、、です。
 
 ### URL
 

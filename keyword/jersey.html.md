@@ -8,7 +8,7 @@ Jersey
 
 ## Jersey
 
-[Jersey](https://jersey.java.net/) は、、、、です。
+[Jersey](https://igapyon.github.io/diary/keyword/jersey.html) は、、、、です。
 
 ### URL
 

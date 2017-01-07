@@ -8,7 +8,7 @@ C++Builder
 
 ## C++Builder
 
-[C++Builder](https://www.embarcadero.com/jp/products/cbuilder) は、、、、です。
+[C++Builder](https://igapyon.github.io/diary/keyword/cppbuilder.html) は、、、、です。
 
 ### URL
 

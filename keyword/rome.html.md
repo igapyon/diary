@@ -8,7 +8,7 @@ ROME
 
 ## ROME
 
-[[ROME]] は、、、、です。
+[ROME](https://igapyon.github.io/diary/keyword/rome.html) は、、、、です。
 
 ### URL
 

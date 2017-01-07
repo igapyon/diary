@@ -8,7 +8,7 @@ Tooling API
 
 ## Tooling API
 
-[[Tooling API]] は、、、、です。
+[Tooling API](https://igapyon.github.io/diary/keyword/tooling-api.html) は、、、、です。
 
 ### URL
 

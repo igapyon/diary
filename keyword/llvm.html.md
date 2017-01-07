@@ -8,7 +8,7 @@ LLVM
 
 ## LLVM
 
-[LLVM](http://llvm.org/) は、、、、です。
+[LLVM](https://igapyon.github.io/diary/keyword/llvm.html) は、、、、です。
 
 ### URL
 

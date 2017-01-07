@@ -8,7 +8,7 @@ LINE
 
 ## LINE
 
-[[LINE]] は、、、、です。
+[LINE](https://igapyon.github.io/diary/keyword/line.html) は、、、、です。
 
 ### URL
 

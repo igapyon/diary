@@ -8,7 +8,7 @@ C++
 
 ## C++
 
-[[C++]] は、、、、です。
+[C++](https://igapyon.github.io/diary/keyword/cpp.html) は、、、、です。
 
 ### URL
 

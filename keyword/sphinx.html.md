@@ -8,7 +8,7 @@ Sphinx
 
 ## Sphinx
 
-[[Sphinx]] は、、、、です。
+[Sphinx](https://igapyon.github.io/diary/keyword/sphinx.html) は、、、、です。
 
 ### URL
 
