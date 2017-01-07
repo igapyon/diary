@@ -2,22 +2,11 @@ package igapyon.diary.ghpages;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
 
-import com.rometools.rome.feed.synd.SyndEntry;
-import com.rometools.rome.feed.synd.SyndEntryImpl;
-import com.rometools.rome.feed.synd.SyndFeed;
-import com.rometools.rome.feed.synd.SyndFeedImpl;
-import com.rometools.rome.io.FeedException;
-import com.rometools.rome.io.SyndFeedOutput;
-
-import jp.igapyon.diary.v3.atom.DiaryIndexAtomGenerator;
 import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
 import jp.igapyon.diary.v3.hatena.HatenaText2SrcMdConverter;
 import jp.igapyon.diary.v3.html2md.IgapyonV2Html2MdConverter;
-import jp.igapyon.diary.v3.item.DiaryItemInfo;
-import jp.igapyon.diary.v3.item.DiaryItemInfoComparator;
+import jp.igapyon.diary.v3.indexing.DiaryIndexAtomGenerator;
 import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
 import jp.igapyon.diary.v3.util.IgapyonV3Settings;
 
@@ -79,36 +68,6 @@ public class App {
 			new DiarySrcMd2MdConverter(settings).processDir(rootdir);
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
-	}
-
-	public static void writeAtom(final List<DiaryItemInfo> diaryItemInfoList, final File targetAtomFile,
-			final String title) throws IOException {
-		final SyndFeed feed = new SyndFeedImpl();
-		feed.setTitle(title);
-		// FIXME should be variable.
-		feed.setAuthor("Toshiki Iga");
-		feed.setEncoding("UTF-8");
-		feed.setGenerator("https://github.com/igapyon/igapyonv3");
-		feed.setLanguage("ja_JP");
-		feed.setFeedType("atom_1.0");
-
-		// sort desc order
-		Collections.sort(diaryItemInfoList, new DiaryItemInfoComparator(true));
-
-		for (DiaryItemInfo diaryItemInfo : diaryItemInfoList) {
-			final SyndEntry entry = new SyndEntryImpl();
-			entry.setTitle(diaryItemInfo.getTitle());
-			entry.setUri(diaryItemInfo.getUri());
-			entry.setLink(diaryItemInfo.getUri());
-			entry.setAuthor("Toshiki Iga");
-			feed.getEntries().add(entry);
-		}
-
-		try {
-			new SyndFeedOutput().output(feed, targetAtomFile);
-		} catch (FeedException e) {
-			throw new IOException(e);
 		}
 	}
 }
