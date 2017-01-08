@@ -69,7 +69,7 @@
 * [2015-09-05 diary: Ubuntu 14.04: S.M.A.R.T](https://igapyon.github.io/diary/2015/ig150905.html)
 * [2015-09-02 diary: メモ: RAD Studio 10 Seattle で Android サービスを作成](https://igapyon.github.io/diary/2015/ig150902.html)
 * [2015-08-07 diary: VMware ESXi 5.5 のファイルシステム(VMFS)をマウント](https://igapyon.github.io/diary/2015/ig150807.html)
-* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(*.md)から Bootstrap装飾付きHtml(*.html)への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
+* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(`*.md`)から Bootstrap装飾付きHtml(`*.html`)への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
 * [2015-07-14 diary: Java で XML 読み書き](https://igapyon.github.io/diary/2015/ig150714.html)
 * [2015-07-09 diary: メモ: Microsoft Windows Dynamic Cache Service](https://igapyon.github.io/diary/2015/ig150709.html)
 * [2015-06-30 diary: Windows 8.1 + .NET Framework 3.5 memo](https://igapyon.github.io/diary/2015/ig150630.html)
