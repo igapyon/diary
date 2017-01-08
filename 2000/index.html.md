@@ -37,7 +37,7 @@
 ## いがぴょんの日記：2000年の日記
 
 * [2000-09-20 diary: JSSE 1.0.2 ハマり中 -&gt; 解決](https://igapyon.github.io/diary/2000/ig000920.html)
-* [2000-01-20 diary: NotesからのWindowsレジストリアクセス , Samba最低設定体験 , XZ for Linux体験](https://igapyon.github.io/diary/2000/ig000120.html)
+* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](https://igapyon.github.io/diary/2000/ig000120.html)
 
 
 ----------------------------------------------------------------------------------------------------

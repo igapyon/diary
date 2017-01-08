@@ -1907,7 +1907,7 @@
 * [2001-10-21 diary: トーマスシンドローム](https://igapyon.github.io/diary/2001/ig011021.html)
 * [2001-10-19 diary: 日記v2運用開始](https://igapyon.github.io/diary/2001/ig011019.html)
 * [2000-09-20 diary: JSSE 1.0.2 ハマり中 -&gt; 解決](https://igapyon.github.io/diary/2000/ig000920.html)
-* [2000-01-20 diary: NotesからのWindowsレジストリアクセス , Samba最低設定体験 , XZ for Linux体験](https://igapyon.github.io/diary/2000/ig000120.html)
+* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](https://igapyon.github.io/diary/2000/ig000120.html)
 * [1998-07-06 diary: Java狂: Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)](https://igapyon.github.io/diary/1998/ig980706.html)
 * [1997-07-23 diary: CList・CArrayを挿入ソートするライブラリ (関数テンプレート編)](https://igapyon.github.io/diary/1997/ig970723.html)
 * [1996-09-17 diary: NIFTY Manager for Windows95試食記](https://igapyon.github.io/diary/1996/ig960917.html)
