@@ -8,7 +8,7 @@ igapyonv3
 
 ## igapyonv3
 
-[[igapyonv3]] は、「いがぴょんの日記ウェブページv3」コンテンツを生成するための日記ジェネレータシステムです。
+[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は、「いがぴょんの日記ウェブページv3」コンテンツを生成するための日記ジェネレータシステムです。
 
 ### URL
 
