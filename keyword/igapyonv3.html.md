@@ -28,6 +28,7 @@ igapyonv3
 
 * [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
+* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](https://igapyon.github.io/diary/2016/ig161230.html)
 * [2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(`*.md`)から Bootstrap装飾付きHtml(`*.html`)への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
 
 
