@@ -100,7 +100,8 @@
 				<configuration>
 					<tasks>
 						<property name="classpath" refid="maven.runtime.classpath" />
-						<ant antfile="build.xml" target="antrun" inheritRefs="true" />
+						<!-- <ant antfile="build.xml" target="md2html" inheritRefs="true" /> -->
+						<ant antfile="build.xml" target="genkeywordmd" inheritRefs="true" />
 					</tasks>
 				</configuration>
 				<goals>

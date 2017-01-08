@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="maven-ant" basedir="." default="antrun">
-	<target name="antrun">
+<project name="maven-ant" basedir=".">
+	<target name="md2html">
 		<echo>md2html</echo>
 		<mkdir dir="target/md2html" />
 		<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
@@ -14,6 +14,17 @@
 				<pathelement path="${classpath}" />
 			</classpath>
 		</java>
-
 	</target>
+
+	<target name="genkeywordmd">
+		<echo>genkeywordmd</echo>
+		<java classname="jp.igapyon.diary.v3.indexing.keyword.KeywordMdTextGenerator">
+			<classpath>
+				<pathelement path="${classpath}" />
+			</classpath>
+		</java>
+	</target>
+
 </project>
+
+
