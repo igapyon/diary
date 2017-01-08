@@ -89,6 +89,20 @@
 					<mainClass>igapyon.diary.ghpages.App</mainClass>
 				</configuration>
 			</plugin>
+
+			<!-- run ant task -->
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<configuration>
+					<tasks>
+						<ant antfile="build.xml" target="build" inheritRefs="true" />
+					</tasks>
+				</configuration>
+				<goals>
+					<goal>run</goal>
+				</goals>
+			</plugin>
 		</plugins>
 	</build>
 </project>
