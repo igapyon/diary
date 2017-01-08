@@ -96,6 +96,7 @@
 				<version>1.8</version>
 				<configuration>
 					<tasks>
+						<property name="classpath" refid="maven.runtime.classpath" />
 						<ant antfile="build.xml" target="build" inheritRefs="true" />
 					</tasks>
 				</configuration>

@@ -2,5 +2,12 @@
 <project name="maven-ant" basedir="." default="build">
 	<target name="build">
 		<echo>hello world</echo>
+		<echo message="${classpath}" />
+		<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
+			<classpath>
+				<pathelement path="${classpath}" />
+			</classpath>
+		</java>
+
 	</target>
 </project>
