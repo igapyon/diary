@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import jp.igapyon.diary.v3.gendiary.TodayDiaryGenerator;
 import jp.igapyon.diary.v3.indexing.DiaryIndexAtomGenerator;
+import jp.igapyon.diary.v3.indexing.keyword.KeywordAtomByTitleGenerator;
 import jp.igapyon.diary.v3.mdconv.DiarySrcMd2MdConverter;
 import jp.igapyon.diary.v3.migration.hatena2md.HatenaText2SrcMdConverter;
 import jp.igapyon.diary.v3.migration.html2md.IgapyonV2Html2MdConverter;
@@ -51,6 +52,8 @@ public class App {
 			// ルートディレクトリを含む各ディレクトリ用の index用のatomファイルを生成および更新します。
 			new DiaryIndexAtomGenerator(settings).process();
 
+			new KeywordAtomByTitleGenerator(settings).process();
+			
 			// .html.src.md ファイルから .md ファイルを生成します。
 			System.err.println("Convert .html.src.md to .html.md file.");
 			new DiarySrcMd2MdConverter(settings).processDir(rootdir);
