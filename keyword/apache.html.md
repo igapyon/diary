@@ -24,7 +24,6 @@ Apache
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Apache)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Apache)
 * [Search in Twitter](https://twitter.com/search?q=Apache)
-
 ### 日記
 
 * [2016-07-03 diary: [Apache] Commons IO によるファイルI/Oコード省力化](https://igapyon.github.io/diary/2016/ig160703.html)

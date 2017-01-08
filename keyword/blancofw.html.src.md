@@ -18,4 +18,3 @@
 * <@linksearch title="Search on Igapyon Diary" word="blancofw" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="blancofw" />
 * <@linksearch title="Search in Twitter" word="blancofw" engine="twitter" />
-

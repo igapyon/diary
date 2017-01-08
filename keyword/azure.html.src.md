@@ -18,4 +18,3 @@
 * <@linksearch title="Search on Igapyon Diary" word="Azure" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="Azure" />
 * <@linksearch title="Search in Twitter" word="Azure" engine="twitter" />
-
