@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-01-09 diary: 冬休みの個人的な学習</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170109.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170109.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170108.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2016/ig161225.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161224.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2016/ig161224.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
