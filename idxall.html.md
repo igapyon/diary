@@ -42,7 +42,7 @@
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
 * [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
 * [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 jekyll 問題](https://igapyon.github.io/diary/2017/ig170104.html)
-* [2017-01-03 diary: 「いがぴょんの日記v3」システムに機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
 * [2017-01-01 diary: [FreeMarker] シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](https://igapyon.github.io/diary/2016/ig161231.html)
