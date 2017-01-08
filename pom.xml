@@ -93,7 +93,7 @@
 			</plugin>
 
 			<!-- run ant task -->
-			<!-- mvn antrun:run -->
+			<!-- usage: mvn antrun:run -->
 			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.8</version>

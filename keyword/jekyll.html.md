@@ -16,7 +16,7 @@ jekyll
 
 ### 特徴
 
-* [github](https://igapyon.github.io/diary/keyword/github.html) の [[gh-pages]] などで利用されています。
+* [github](https://igapyon.github.io/diary/keyword/github.html) の [gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html) などで利用されています。
 * Ruby で書かれています。
 
 ### 検索

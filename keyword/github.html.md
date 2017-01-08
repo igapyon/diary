@@ -8,22 +8,22 @@ github
 
 ## github
 
-[github](https://igapyon.github.io/diary/keyword/github.html) は、、、、です。
+[github](https://igapyon.github.io/diary/keyword/github.html) は、無料または有料で利用可能な、ソースコード管理のための有償サービスです。
 
 ### URL
 
-* TBD URL
+* [https://github.com/](https://github.com/)
 
 ### 特徴
 
-* TBD URL
+* とても有名なバージョン管理システムサービスです。
+* 多くの [OSS](https://igapyon.github.io/diary/keyword/oss.html) が [github](https://igapyon.github.io/diary/keyword/github.html) 上でホストされています。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+github)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=github)
 * [Search in Twitter](https://twitter.com/search?q=github)
-
 
 ### 日記
 

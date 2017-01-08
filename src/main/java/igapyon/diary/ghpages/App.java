@@ -1,3 +1,9 @@
+/*
+ * これは伊賀の個人的なコンテンツです。
+ * 
+ * igapyonv3 の利用サンプルにも当たります。
+ */
+
 package igapyon.diary.ghpages;
 
 import java.io.File;
@@ -12,7 +18,7 @@ import jp.igapyon.diary.v3.migration.html2md.IgapyonV2Html2MdConverter;
 import jp.igapyon.diary.v3.util.IgapyonV3Settings;
 
 /**
- * mvn install exec:java
+ * usage: mvn install exec:java
  */
 public class App {
 	/**
@@ -21,7 +27,7 @@ public class App {
 	 * @param args
 	 * @throws IOException
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(final String[] args) throws IOException {
 		System.out.println("Convert .src.md to .md");
 
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
@@ -52,8 +58,9 @@ public class App {
 			// ルートディレクトリを含む各ディレクトリ用の index用のatomファイルを生成および更新します。
 			new DiaryIndexAtomGenerator(settings).process();
 
+			// キーワードの atom を更新します。
 			new KeywordAtomByTitleGenerator(settings).process();
-			
+
 			// .html.src.md ファイルから .md ファイルを生成します。
 			System.err.println("Convert .html.src.md to .html.md file.");
 			new DiarySrcMd2MdConverter(settings).processDir(rootdir);
