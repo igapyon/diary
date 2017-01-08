@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2016-12-05 diary: [English] 超基本英語メモ「おねがい」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161205.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161205.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-04 diary: [English] 超基本英語メモ「はい・いいえ」</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161204.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161204.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-02-17 diary: [English] make sense</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160217.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160217.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

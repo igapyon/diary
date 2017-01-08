@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170102.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170102.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-27 diary: [maven] Java アプリの jar 利用の依存ファイルを target/lib に複写する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161227.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161227.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-26 diary: [maven] Java アプリに jar 利用の依存関係を追加する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161226.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161226.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161225.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161225.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161224.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161224.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-23 diary: [maven] 初めての maven の Java プロジェクト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161223.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161223.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-22 diary: [maven] maven インストール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161222.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161222.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

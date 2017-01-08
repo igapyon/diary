@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140227.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140227.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-02-26 diary: [GlassFish][Derby] GlassFish 4.0 で Derby を使う</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140226.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140226.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-02-25 diary: [GlassFish] GlassFish 4.0 インストール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140225.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140225.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-29 diary: [GlassFish] SSH トンネルを使った GlassFish Server 4848 への接続</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121029.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121029.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-23 diary: [Ubuntu][GlassFish] Ubuntu 12.04 + Apache2 + GlassFish 3【proxy_http】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121023.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121023.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-10-06 diary: [Ubuntu][GlassFish] Ubuntu 12.04.1 に GlassFish Server 3.1.2.2 を入れる方法【/opt 編】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121006.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121006.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>
