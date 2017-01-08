@@ -3,10 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>igapyon.diary.ghpages</groupId>
 	<artifactId>IgapyonDiaryGhPages</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+
 	<name>IgapyonDiaryGhPages</name>
-	<url>https://igapyon.github.io/igapyon-maven2</url>
+	<description>Igapyon's diary.</description>
+	<url>https://igapyon.github.io/igapyonv3/</url>
 
 	<repositories>
 		<!-- igapyon repository -->
@@ -18,7 +20,7 @@
 	</repositories>
 
 	<dependencies>
-		<!-- diary generator -->
+		<!-- igapyonv3 diary generator -->
 		<dependency>
 			<groupId>jp.igapyon.diary.v3</groupId>
 			<artifactId>IgapyonV3</artifactId>

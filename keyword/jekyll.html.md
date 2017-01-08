@@ -8,7 +8,7 @@ jekyll
 
 ## jekyll
 
-[[jekyll]] は、Markdown (.md) などから静的 html などを生成するためのツールです。
+[jekyll](https://igapyon.github.io/diary/keyword/jekyll.html) は、Markdown (.md) などから静的 html などを生成するためのツールです。
 
 ### URL
 
