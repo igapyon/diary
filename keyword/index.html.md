@@ -63,6 +63,7 @@
 * [JavaFX](https://igapyon.github.io/diary/keyword/javafx.html)
 * [JavaScript](https://igapyon.github.io/diary/keyword/javascript.html)
 * [JDK](https://igapyon.github.io/diary/keyword/jdk.html)
+* [jekyll](https://igapyon.github.io/diary/keyword/jekyll.html)
 * [Jersey](https://igapyon.github.io/diary/keyword/jersey.html)
 * [LINE](https://igapyon.github.io/diary/keyword/line.html)
 * [Linux](https://igapyon.github.io/diary/keyword/linux.html)
