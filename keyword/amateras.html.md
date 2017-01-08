@@ -24,9 +24,11 @@ Amateras
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Amateras)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Amateras)
 * [Search in Twitter](https://twitter.com/search?q=Amateras)
+
 ### 日記
 
 * [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](https://igapyon.github.io/diary/2013/ig130121.html)
+
 
 ----------------------------------------------------------------------------------------------------
 

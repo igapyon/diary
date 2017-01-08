@@ -25,10 +25,12 @@ VMware
 * [Search in Google](https://www.google.co.jp/#pws=0&q=VMware)
 * [Search in Twitter](https://twitter.com/search?q=VMware)
 
+
 ### 日記
 
 * [2014-07-20 diary: [VMware] VMware ESXi 5.5 Update1 を MSI H97 GAMING 3 ベースの自作 PC にインストールしたときのメモ](https://igapyon.github.io/diary/2014/ig140720.html)
 * [2014-03-03 diary: [VMware] ゲストOSの時計がフットプリント付きでずれる場合の回避策](https://igapyon.github.io/diary/2014/ig140303.html)
+
 
 ----------------------------------------------------------------------------------------------------
 

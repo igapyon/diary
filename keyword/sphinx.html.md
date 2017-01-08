@@ -25,9 +25,11 @@ Sphinx
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Sphinx)
 * [Search in Twitter](https://twitter.com/search?q=Sphinx)
 
+
 ### 日記
 
 * [2014-02-23 diary: [Python][Sphinx] Sphinx のインストール](https://igapyon.github.io/diary/2014/ig140223.html)
+
 
 ----------------------------------------------------------------------------------------------------
 

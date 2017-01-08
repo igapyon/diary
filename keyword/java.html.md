@@ -25,6 +25,7 @@ Java
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Java)
 * [Search in Twitter](https://twitter.com/search?q=Java)
 
+
 ### 日記
 
 * [2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)](https://igapyon.github.io/diary/2016/ig161213.html)
@@ -42,6 +43,7 @@ Java
 * [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](https://igapyon.github.io/diary/2012/ig121114.html)
 * [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](https://igapyon.github.io/diary/2012/ig121113.html)
 * [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](https://igapyon.github.io/diary/2012/ig121107.html)
+
 
 ----------------------------------------------------------------------------------------------------
 

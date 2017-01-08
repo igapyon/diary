@@ -25,10 +25,12 @@ Mac
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Mac)
 * [Search in Twitter](https://twitter.com/search?q=Mac)
 
+
 ### 日記
 
 * [2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応](https://igapyon.github.io/diary/2014/ig140901.html)
 * [2014-06-11 diary: [Mac] スクリーンショット取得は command + shift + 3](https://igapyon.github.io/diary/2014/ig140611.html)
+
 
 ----------------------------------------------------------------------------------------------------
 
