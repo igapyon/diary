@@ -27,6 +27,7 @@ github
 
 ### 日記
 
+* [2017-01-09 diary: 2017年正月休みの個人的な学習成果メモ [igapyonv3], [github], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
 * [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](https://igapyon.github.io/diary/2017/ig170104.html)
 * [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
 
