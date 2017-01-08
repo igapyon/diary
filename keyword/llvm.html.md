@@ -25,6 +25,9 @@ LLVM
 * [Search in Google](https://www.google.co.jp/#pws=0&q=LLVM)
 * [Search in Twitter](https://twitter.com/search?q=LLVM)
 
+### 日記
+
+* [2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩](https://igapyon.github.io/diary/2013/ig130116.html)
 
 ----------------------------------------------------------------------------------------------------
 

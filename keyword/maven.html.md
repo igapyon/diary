@@ -35,6 +35,15 @@ Maven は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファ�
 ### 日記キーワード言及
 
 * TBD
+### 日記
+
+* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
+* [2016-12-27 diary: [maven] Java アプリの jar 利用の依存ファイルを target/lib に複写する](https://igapyon.github.io/diary/2016/ig161227.html)
+* [2016-12-26 diary: [maven] Java アプリに jar 利用の依存関係を追加する](https://igapyon.github.io/diary/2016/ig161226.html)
+* [2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する](https://igapyon.github.io/diary/2016/ig161225.html)
+* [2016-12-24 diary: [maven] Java アプリの メイン・マニフェスト属性 を jar に与える](https://igapyon.github.io/diary/2016/ig161224.html)
+* [2016-12-23 diary: [maven] 初めての maven の Java プロジェクト](https://igapyon.github.io/diary/2016/ig161223.html)
+* [2016-12-22 diary: [maven] maven インストール](https://igapyon.github.io/diary/2016/ig161222.html)
 
 ----------------------------------------------------------------------------------------------------
 

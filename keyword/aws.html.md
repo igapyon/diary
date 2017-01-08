@@ -25,6 +25,9 @@ AWS
 * [Search in Google](https://www.google.co.jp/#pws=0&q=AWS)
 * [Search in Twitter](https://twitter.com/search?q=AWS)
 
+### 日記
+
+* [2016-08-09 diary: [AWS] Amazon AWS EC2 t2.micro Windows Server 2012 R2 Base を試した時のメモ](https://igapyon.github.io/diary/2016/ig160809.html)
 
 ----------------------------------------------------------------------------------------------------
 

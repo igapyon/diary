@@ -25,6 +25,10 @@ Eclipse
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Eclipse)
 * [Search in Twitter](https://twitter.com/search?q=Eclipse)
 
+### 日記
+
+* [2016-09-13 diary: [Eclipse] git コミット時のユーザー名／メールアドレスの変更](https://igapyon.github.io/diary/2016/ig160913.html)
+* [2008-06-26 diary: [Eclipse] Ganymede リリース](https://igapyon.github.io/diary/2008/ig080626.html)
 
 ----------------------------------------------------------------------------------------------------
 

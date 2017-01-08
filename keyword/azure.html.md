@@ -25,6 +25,9 @@ Azure
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Azure)
 * [Search in Twitter](https://twitter.com/search?q=Azure)
 
+### 日記
+
+* [2016-01-15 diary: [Azure] Microsoft Azure メモ (SQL Database)](https://igapyon.github.io/diary/2016/ig160115.html)
 
 ----------------------------------------------------------------------------------------------------
 

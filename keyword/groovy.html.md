@@ -25,6 +25,9 @@ Groovy
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Groovy)
 * [Search in Twitter](https://twitter.com/search?q=Groovy)
 
+### 日記
+
+* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
 
 ----------------------------------------------------------------------------------------------------
 

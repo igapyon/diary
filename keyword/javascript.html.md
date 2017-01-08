@@ -25,6 +25,9 @@ JavaScript
 * [Search in Google](https://www.google.co.jp/#pws=0&q=JavaScript)
 * [Search in Twitter](https://twitter.com/search?q=JavaScript)
 
+### 日記
+
+* [2016-12-12 diary: [JavaScript] innerHTML にテキストHTMLを突っ込む際の使い方メモ](https://igapyon.github.io/diary/2016/ig161212.html)
 
 ----------------------------------------------------------------------------------------------------
 

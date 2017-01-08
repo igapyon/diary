@@ -25,6 +25,9 @@ github
 * [Search in Google](https://www.google.co.jp/#pws=0&q=github)
 * [Search in Twitter](https://twitter.com/search?q=github)
 
+### 日記
+
+* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
 
 ----------------------------------------------------------------------------------------------------
 

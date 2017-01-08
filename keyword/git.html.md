@@ -25,6 +25,9 @@ git
 * [Search in Google](https://www.google.co.jp/#pws=0&q=git)
 * [Search in Twitter](https://twitter.com/search?q=git)
 
+### 日記
+
+* [2016-12-17 diary: [git] 基本コマンドメモ](https://igapyon.github.io/diary/2016/ig161217.html)
 
 ----------------------------------------------------------------------------------------------------
 

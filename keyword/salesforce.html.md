@@ -25,6 +25,10 @@ Salesforce
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Salesforce)
 * [Search in Twitter](https://twitter.com/search?q=Salesforce)
 
+### 日記
+
+* [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](https://igapyon.github.io/diary/2016/ig160519.html)
+* [2016-05-18 diary: [Salesforce] Apex Force.com IDE](https://igapyon.github.io/diary/2016/ig160518.html)
 
 ----------------------------------------------------------------------------------------------------
 

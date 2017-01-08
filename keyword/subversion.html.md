@@ -25,6 +25,9 @@ Subversion
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Subversion)
 * [Search in Twitter](https://twitter.com/search?q=Subversion)
 
+### 日記
+
+* [2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定](https://igapyon.github.io/diary/2012/ig121028.html)
 
 ----------------------------------------------------------------------------------------------------
 

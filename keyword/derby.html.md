@@ -25,6 +25,10 @@ Derby
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Derby)
 * [Search in Twitter](https://twitter.com/search?q=Derby)
 
+### 日記
+
+* [2014-02-28 diary: [Derby][Java] Apache Derby をローカルで動作させる](https://igapyon.github.io/diary/2014/ig140228.html)
+* [2014-02-26 diary: [GlassFish][Derby] GlassFish 4.0 で Derby を使う](https://igapyon.github.io/diary/2014/ig140226.html)
 
 ----------------------------------------------------------------------------------------------------
 

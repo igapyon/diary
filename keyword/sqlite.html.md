@@ -25,6 +25,9 @@ SQLite
 * [Search in Google](https://www.google.co.jp/#pws=0&q=SQLite)
 * [Search in Twitter](https://twitter.com/search?q=SQLite)
 
+### 日記
+
+* [2012-10-15 diary: [SQLite] SQLite が高速らしい](https://igapyon.github.io/diary/2012/ig121015.html)
 
 ----------------------------------------------------------------------------------------------------
 

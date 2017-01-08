@@ -25,6 +25,9 @@ Visualforce
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Visualforce)
 * [Search in Twitter](https://twitter.com/search?q=Visualforce)
 
+### 日記
+
+* [2016-05-25 diary: [Visualforce] 参照先リンクメモ](https://igapyon.github.io/diary/2016/ig160525.html)
 
 ----------------------------------------------------------------------------------------------------
 

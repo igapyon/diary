@@ -25,6 +25,9 @@ ROME
 * [Search in Google](https://www.google.co.jp/#pws=0&q=ROME)
 * [Search in Twitter](https://twitter.com/search?q=ROME)
 
+### 日記
+
+* [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](https://igapyon.github.io/diary/2012/ig121113.html)
 
 ----------------------------------------------------------------------------------------------------
 
