@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="maven-ant" basedir="." default="build">
-	<target name="build">
+<project name="maven-ant" basedir="." default="antrun">
+	<target name="antrun">
 		<echo>hello world</echo>
 		<echo message="${classpath}" />
 		<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
+			<arg value="-s" />
+			<arg value="1996" />
+			<arg value="-t" />
+			<arg value="1996" />
+
 			<classpath>
 				<pathelement path="${classpath}" />
 			</classpath>

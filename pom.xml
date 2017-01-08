@@ -91,13 +91,14 @@
 			</plugin>
 
 			<!-- run ant task -->
+			<!-- mvn antrun:run -->
 			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.8</version>
 				<configuration>
 					<tasks>
 						<property name="classpath" refid="maven.runtime.classpath" />
-						<ant antfile="build.xml" target="build" inheritRefs="true" />
+						<ant antfile="build.xml" target="antrun" inheritRefs="true" />
 					</tasks>
 				</configuration>
 				<goals>
