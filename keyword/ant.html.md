@@ -12,15 +12,16 @@ Ant
 
 ### URL
 
-* TBD URL
+* [http://ant.apache.org/](http://ant.apache.org/)
 
 ### 特徴
 
-* TBD URL
+* とても広く利用されてきた [Java](https://igapyon.github.io/diary/keyword/java.html) 向けビルドシステムです。
+* build.xml というファイルが実行に関連あります。
+* 最近は [Maven](https://igapyon.github.io/diary/keyword/maven.html) に置き換わる傾向にあります。
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Ant)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Ant)
 * [Search in Twitter](https://twitter.com/search?q=Ant)

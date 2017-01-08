@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="Apache" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="Apache" />
 * <@linksearch title="Search in Twitter" word="Apache" engine="twitter" />

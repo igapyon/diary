@@ -12,7 +12,7 @@
 
 * Markdown (.md) をベースにした静的 [[CMS]] による日記ジェネレータシステムです。
 
-### まとめ情報
+### 検索
 
 * <@linksearch title="Search on Igapyon Diary" word="igapyonv3" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="igapyonv3" />

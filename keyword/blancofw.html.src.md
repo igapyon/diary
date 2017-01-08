@@ -6,15 +6,14 @@
 
 ### URL
 
-* TBD URL
+* https://ja.osdn.net/projects/blancofw/
 
 ### 特徴
 
-* TBD URL
+* [[OSS]] による [[Java]] で実装されたアプリケーション開発フレームワークです。
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="blancofw" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="blancofw" />
 * <@linksearch title="Search in Twitter" word="blancofw" engine="twitter" />

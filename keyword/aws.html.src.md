@@ -6,15 +6,14 @@
 
 ### URL
 
-* TBD URL
+* https://aws.amazon.com/jp/
 
 ### 特徴
 
-* TBD URL
+* とても広く利用されている、クラウドインフラストラクチャーを中心とした有償サービスです。
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="AWS" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="AWS" />
 * <@linksearch title="Search in Twitter" word="AWS" engine="twitter" />
