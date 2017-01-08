@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="C++Builder" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="C++Builder" />
 * <@linksearch title="Search in Twitter" word="C++Builder" engine="twitter" />

@@ -12,7 +12,7 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
 * TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="LINE" site="https://igapyon.github.io/diary/" />

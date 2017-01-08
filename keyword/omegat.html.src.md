@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="OmegaT" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="OmegaT" />
 * <@linksearch title="Search in Twitter" word="OmegaT" engine="twitter" />

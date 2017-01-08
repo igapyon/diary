@@ -20,21 +20,13 @@ Maven は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファ�
 * Java 以外の Java ベースシステムでもこれが利用されます。
 * Maven 用のリポジトリが非常に充実しており、これを活用するために Maven を利用する人が多いです。
 
-### まとめ情報
+### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Maven+Apache)
 * [Search on Publickey](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.publickey1.jp%2F+Maven+Apache)
 * [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Maven+Apache)
 * [Search in Twitter](https://twitter.com/search?q=Maven+Apache)
-
-### 日記タイトル言及
-
-* TBD
-
-### 日記キーワード言及
-
-* TBD
 
 ### 日記
 

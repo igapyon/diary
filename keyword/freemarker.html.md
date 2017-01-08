@@ -20,20 +20,15 @@ FreeMarker
 * HTML 以外に平文テキストも扱うことができます。
 * Velocity の後継とみなすこともできます。
 
-### まとめ情報
+#### 役立つと思う情報
 
 * [Hishidama's](http://www.ne.jp/asahi/hishidama/home/tech/java/freemarker/index.html)
+
+### 検索
+
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyon)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=FreeMarker)
 * [Search in Twitter](https://twitter.com/search?q=FreeMarker)
-
-### 日記タイトル言及
-
-* TBD
-
-### 日記キーワード言及
-
-* TBD
 
 ### 日記
 

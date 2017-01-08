@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="ROME" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="ROME" />
 * <@linksearch title="Search in Twitter" word="ROME" engine="twitter" />

@@ -12,7 +12,7 @@
 
 * Micrrosoft 社が提供するクラウドインフラストラクチャーを中心とした有償サービスです。
 
-### まとめ情報
+### 検索
 
 * <@linksearch title="Search on Igapyon Diary" word="Azure" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="Azure" />

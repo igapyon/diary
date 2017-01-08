@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="Shell" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="Shell" />
 * <@linksearch title="Search in Twitter" word="Shell" engine="twitter" />

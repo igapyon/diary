@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="Force.com" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="Force.com" />
 * <@linksearch title="Search in Twitter" word="Force.com" engine="twitter" />

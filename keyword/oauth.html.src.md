@@ -12,9 +12,8 @@
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * <@linksearch title="Search on Igapyon Diary" word="OAuth" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="OAuth" />
 * <@linksearch title="Search in Twitter" word="OAuth" engine="twitter" />

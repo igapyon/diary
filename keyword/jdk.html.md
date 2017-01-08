@@ -18,9 +18,8 @@ JDK
 
 * TBD URL
 
-### まとめ情報
+### 検索
 
-* TBD URL
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+JDK)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=JDK)
 * [Search in Twitter](https://twitter.com/search?q=JDK)
