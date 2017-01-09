@@ -25,13 +25,14 @@ public class ConvertOrigHtml2Html {
 	}
 
 	public List<DiaryItemInfo> process() throws IOException {
-		File dir = new File(".");
+		File dir = new File("./memo");
 		dir = dir.getCanonicalFile();
 		System.out.println(dir.getPath());
 
-		if (dir.getName().equals("diary")) {
+		// if (dir.getName().equals("diary")) {
+		if (dir.getName().equals("memo")) {
 			System.out.println("期待通りディレクトリ");
-			processDir(dir, "");
+			processDir(dir, "/memo");
 		} else {
 			System.out.println("期待とは違うディレクトリ:" + dir.getName());
 		}
@@ -48,7 +49,9 @@ public class ConvertOrigHtml2Html {
 			if (file.isDirectory()) {
 				processDir(file, path + "/" + file.getName());
 			} else if (file.isFile()) {
-				if (file.getName().startsWith("ig") && file.getName().endsWith(".html.orig")) {
+				// if (file.getName().startsWith("ig") &&
+				// file.getName().endsWith(".html.orig")) {
+				if (file.getName().startsWith("memo") && file.getName().endsWith("-orig.html")) {
 					System.out.println(file.getName());
 					processFile(file, path);
 				}
@@ -63,7 +66,9 @@ public class ConvertOrigHtml2Html {
 
 		data = StringUtils.replace(data, "../../image/", "../images/");
 
-		File newFile = new File(file.getParent(), file.getName().substring(0, file.getName().length() - 5));
+		// File newFile = new File(file.getParent(), file.getName().substring(0,
+		// file.getName().length() - 5));
+		File newFile = file;
 		FileUtils.write(newFile, data, "UTF-8");
 	}
 }
