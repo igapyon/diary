@@ -8,22 +8,22 @@ Force.com
 
 ## Force.com
 
-[Force.com](https://igapyon.github.io/diary/keyword/force.com.html) は、、、、です。
+[Force.com](https://igapyon.github.io/diary/keyword/force.com.html) は [Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) を起源とする web ベース統合開発環境です。
 
 ### URL
 
-* TBD URL
+* [https://www.salesforce.com/products/platform/products/force/](https://www.salesforce.com/products/platform/products/force/)
 
 ### 特徴
 
-* TBD URL
+* とても生産性高くアプリケーションを開発することができます。
+* Classic の場合は Apex や Visualforce というプログラミング言語類を利用して開発します。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Force.com)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Force.com)
 * [Search in Twitter](https://twitter.com/search?q=%23Force.com)
-
 
 ### 日記
 

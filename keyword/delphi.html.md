@@ -8,15 +8,15 @@ Delphi
 
 ## Delphi
 
-[Delphi](https://igapyon.github.io/diary/keyword/delphi.html) は、、、、です。
+[Delphi](https://igapyon.github.io/diary/keyword/delphi.html) は統合開発環境のひとつです。
 
 ### URL
 
-* TBD URL
+* [https://www.embarcadero.com/jp/products/delphi](https://www.embarcadero.com/jp/products/delphi)
 
 ### 特徴
 
-* TBD URL
+* とても歴史の長い統合開発環境です。
 
 ### 検索
 

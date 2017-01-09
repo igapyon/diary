@@ -8,15 +8,16 @@ Eclipse
 
 ## Eclipse
 
-[Eclipse](https://igapyon.github.io/diary/keyword/eclipse.html) は、、、、です。
+[Eclipse](https://igapyon.github.io/diary/keyword/eclipse.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) による統合開発環境のひとつです。
 
 ### URL
 
-* TBD URL
+* [http://www.eclipse.org/](http://www.eclipse.org/)
 
 ### 特徴
 
-* TBD URL
+* 特に [Java](https://igapyon.github.io/diary/keyword/java.html) 言語による開発で多く利用されています。
+* IBM が初期貢献したことにより生まれました。
 
 ### 検索
 

@@ -8,15 +8,17 @@ Java
 
 ## Java
 
-[Java](https://igapyon.github.io/diary/keyword/java.html) は、、、、です。
+[Java](https://igapyon.github.io/diary/keyword/java.html) はプログラミング言語のひとつです。
 
 ### URL
 
-* TBD URL
+* [http://www.oracle.com/technetwork/java/javase/](http://www.oracle.com/technetwork/java/javase/)
 
 ### 特徴
 
-* TBD URL
+* 広く利用されているプログラミング言語です。
+* 広い国と地域における高等教育の過程で教育されています。
+* 企業の入社後教育などで利用されています。
 
 ### 検索
 

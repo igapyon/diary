@@ -23,8 +23,8 @@ Amateras
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Amateras)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=Amateras)
-* [Search in Twitter](https://twitter.com/search?q=Amateras+java)
+* [Search in Google](https://www.google.co.jp/#pws=0&q=Amateras+Java)
+* [Search in Twitter](https://twitter.com/search?q=Amateras+Java)
 
 ### 日記
 

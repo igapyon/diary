@@ -2,15 +2,16 @@
 
 ## Eclipse
 
-[[Eclipse]] は、、、、です。
+[[Eclipse]] は [[OSS]] による統合開発環境のひとつです。
 
 ### URL
 
-* TBD URL
+* http://www.eclipse.org/
 
 ### 特徴
 
-* TBD URL
+* 特に [[Java]] 言語による開発で多く利用されています。
+* IBM が初期貢献したことにより生まれました。
 
 ### 検索
 

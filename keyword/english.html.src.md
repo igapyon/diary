@@ -2,19 +2,12 @@
 
 ## English
 
-[[English]] は、、、、です。
-
-### URL
-
-* TBD URL
+[[English]] は英語のことです。
 
 ### 特徴
 
-* TBD URL
+* 世界で最もよく利用されている自然言語の一つです。
 
 ### 検索
 
 * <@linksearch title="Search on Igapyon Diary" word="English" site="https://igapyon.github.io/diary/" />
-* <@linksearch title="Search in Google" word="English" />
-* <@linksearch title="Search in Twitter" word="English" engine="twitter" />
-

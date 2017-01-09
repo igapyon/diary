@@ -8,22 +8,23 @@ Debian
 
 ## Debian
 
-[Debian](https://igapyon.github.io/diary/keyword/debian.html) は、、、、です。
+[Debian](https://igapyon.github.io/diary/keyword/debian.html) は とても有名な [OSS](https://igapyon.github.io/diary/keyword/oss.html) によるオペレーティングシステムのひとつです。
 
 ### URL
 
-* TBD URL
+* [https://www.debian.org/index.ja.html](https://www.debian.org/index.ja.html)
 
 ### 特徴
 
-* TBD URL
+* 自由
+* 無料
+* [Ubuntu](https://igapyon.github.io/diary/keyword/ubuntu.html) がベースとして利用しています。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Debian)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Debian)
 * [Search in Twitter](https://twitter.com/search?q=%23Debian)
-
 
 ### 日記
 

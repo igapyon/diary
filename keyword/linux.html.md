@@ -8,15 +8,15 @@ Linux
 
 ## Linux
 
-[Linux](https://igapyon.github.io/diary/keyword/linux.html) は、、、、です。
+[Linux](https://igapyon.github.io/diary/keyword/linux.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) によるオペレーティングシステムのひとつです。基本的には OS カーネル部分を指します。
 
 ### URL
 
-* TBD URL
+* [https://www.kernel.org/](https://www.kernel.org/)
 
 ### 特徴
 
-* TBD URL
+* IT の様々なものを支えています。
 
 ### 検索
 

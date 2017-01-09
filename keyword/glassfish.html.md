@@ -8,15 +8,15 @@ GlassFish
 
 ## GlassFish
 
-[GlassFish](https://igapyon.github.io/diary/keyword/glassfish.html) は、、、、です。
+[GlassFish](https://igapyon.github.io/diary/keyword/glassfish.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) による [Java](https://igapyon.github.io/diary/keyword/java.html) アプリケーションサーバーのひとつです。
 
 ### URL
 
-* TBD URL
+* [https://glassfish.java.net/](https://glassfish.java.net/)
 
 ### 特徴
 
-* TBD URL
+* Java 言語の参照実装です。
 
 ### 検索
 

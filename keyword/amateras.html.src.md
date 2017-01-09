@@ -17,5 +17,5 @@
 ### 検索
 
 * <@linksearch title="Search on Igapyon Diary" word="Amateras" site="https://igapyon.github.io/diary/" />
-* <@linksearch title="Search in Google" word="Amateras" />
-* <@linksearch title="Search in Twitter" word="Amateras java" engine="twitter" />
+* <@linksearch title="Search in Google" word="Amateras Java" />
+* <@linksearch title="Search in Twitter" word="Amateras Java" engine="twitter" />

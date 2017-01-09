@@ -6,11 +6,11 @@
 
 ### URL
 
-* TBD URL
+* https://www.embarcadero.com/jp/products/cbuilder
 
 ### 特徴
 
-* TBD URL
+* [[C++]]統合開発環境のひとつ。
 
 ### 検索
 

@@ -12,11 +12,11 @@ C++Builder
 
 ### URL
 
-* TBD URL
+* [https://www.embarcadero.com/jp/products/cbuilder](https://www.embarcadero.com/jp/products/cbuilder)
 
 ### 特徴
 
-* TBD URL
+* [C++](https://igapyon.github.io/diary/keyword/cpp.html)統合開発環境のひとつ。
 
 ### 検索
 

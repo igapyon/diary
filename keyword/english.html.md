@@ -8,22 +8,15 @@ English
 
 ## English
 
-[English](https://igapyon.github.io/diary/keyword/english.html) は、、、、です。
-
-### URL
-
-* TBD URL
+[English](https://igapyon.github.io/diary/keyword/english.html) は英語のことです。
 
 ### 特徴
 
-* TBD URL
+* 世界で最もよく利用されている自然言語の一つです。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+English)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=English)
-* [Search in Twitter](https://twitter.com/search?q=%23English)
-
 
 ### 日記
 

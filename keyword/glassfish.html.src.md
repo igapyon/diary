@@ -2,15 +2,15 @@
 
 ## GlassFish
 
-[[GlassFish]] は、、、、です。
+[[GlassFish]] は [[OSS]] による [[Java]] アプリケーションサーバーのひとつです。
 
 ### URL
 
-* TBD URL
+* https://glassfish.java.net/
 
 ### 特徴
 
-* TBD URL
+* Java 言語の参照実装です。
 
 ### 検索
 

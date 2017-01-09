@@ -8,22 +8,21 @@ EMBT
 
 ## EMBT
 
-[EMBT](https://igapyon.github.io/diary/keyword/embt.html) は、、、、です。
+[EMBT](https://igapyon.github.io/diary/keyword/embt.html) はエンバカデロの略称です。
 
 ### URL
 
-* TBD URL
+* [https://www.embarcadero.com/jp/](https://www.embarcadero.com/jp/)
 
 ### 特徴
 
-* TBD URL
+* [Delphi](https://igapyon.github.io/diary/keyword/delphi.html) や [C++Builder](https://igapyon.github.io/diary/keyword/cppbuilder.html) などの有償統合開発環境を提供しています。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+EMBT)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=EMBT)
-* [Search in Twitter](https://twitter.com/search?q=%23EMBT)
-
+* [Search in Google](https://www.google.co.jp/#pws=0&q=EMBT+Embarcadero)
+* [Search in Twitter](https://twitter.com/search?q=EMBT+Embarcadero)
 
 ### 日記
 

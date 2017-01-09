@@ -2,15 +2,15 @@
 
 ## Linux
 
-[[Linux]] は、、、、です。
+[[Linux]] は [[OSS]] によるオペレーティングシステムのひとつです。基本的には OS カーネル部分を指します。
 
 ### URL
 
-* TBD URL
+* https://www.kernel.org/
 
 ### 特徴
 
-* TBD URL
+* IT の様々なものを支えています。
 
 ### 検索
 

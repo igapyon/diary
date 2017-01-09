@@ -8,21 +8,21 @@ JDK
 
 ## JDK
 
-[JDK](https://igapyon.github.io/diary/keyword/jdk.html) は、、、、です。
+[JDK](https://igapyon.github.io/diary/keyword/jdk.html) は [Java](https://igapyon.github.io/diary/keyword/java.html) 開発キットの略です。
 
 ### URL
 
-* TBD URL
+* [http://www.oracle.com/technetwork/java/javase/](http://www.oracle.com/technetwork/java/javase/)
 
 ### 特徴
 
-* TBD URL
+* 広く利用されている [Java](https://igapyon.github.io/diary/keyword/java.html) 言語による開発の際に利用されます。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+JDK)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=JDK)
-* [Search in Twitter](https://twitter.com/search?q=%23JDK)
+* [Search in Google](https://www.google.co.jp/#pws=0&q=JDK+Java)
+* [Search in Twitter](https://twitter.com/search?q=JDK+Java)
 
 
 ### 日記
