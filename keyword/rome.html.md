@@ -8,22 +8,23 @@ ROME
 
 ## ROME
 
-[ROME](https://igapyon.github.io/diary/keyword/rome.html) は、、、、です。
+[ROME](https://igapyon.github.io/diary/keyword/rome.html) は、RSS や Atom のフィードの実現を中心としたライブラリを提供する [OSS](https://igapyon.github.io/diary/keyword/oss.html) です。
 
 ### URL
 
-* TBD URL
+* [https://rometools.github.io/rome/](https://rometools.github.io/rome/)
 
 ### 特徴
 
-* TBD URL
+* [Java](https://igapyon.github.io/diary/keyword/java.html) で書かれた Java 向けのライブラリです。
+* RSS や Atom に対応しています。
+* 2017/01 時点でもっとも安心して利用可能な OSS ライブラリであると考えました。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+ROME)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=ROME)
 * [Search in Twitter](https://twitter.com/search?q=ROME)
-
 
 ### 日記
 

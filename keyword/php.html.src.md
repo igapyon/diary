@@ -2,15 +2,15 @@
 
 ## PHP
 
-[[PHP]] は、、、、です。
+[[PHP]] は プログラミング言語のひとつです。
 
 ### URL
 
-* TBD URL
+* http://php.net/manual/ja/intro-whatis.php
 
 ### 特徴
 
-* TBD URL
+* もっとも多くの人に利用されているプログラミング言語の一つです。
 
 ### 検索
 

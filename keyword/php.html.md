@@ -8,15 +8,15 @@ PHP
 
 ## PHP
 
-[PHP](https://igapyon.github.io/diary/keyword/php.html) は、、、、です。
+[PHP](https://igapyon.github.io/diary/keyword/php.html) は プログラミング言語のひとつです。
 
 ### URL
 
-* TBD URL
+* [http://php.net/manual/ja/intro-whatis.php](http://php.net/manual/ja/intro-whatis.php)
 
 ### 特徴
 
-* TBD URL
+* もっとも多くの人に利用されているプログラミング言語の一つです。
 
 ### 検索
 

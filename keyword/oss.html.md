@@ -8,15 +8,16 @@ OSS
 
 ## OSS
 
-[OSS](https://igapyon.github.io/diary/keyword/oss.html) は、、、、です。
+[OSS](https://igapyon.github.io/diary/keyword/oss.html) はオープンソースソフトウェアの略です。詳しくは [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html) を参照してください。
 
 ### URL
 
-* TBD URL
+* [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html)
+* [http://cruel.org/freeware/cathedral.html](http://cruel.org/freeware/cathedral.html)
 
 ### 特徴
 
-* TBD URL
+* 現在、IT の世界は 多くの [OSS](https://igapyon.github.io/diary/keyword/oss.html) により支えられています。
 
 ### 検索
 
