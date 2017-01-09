@@ -8,15 +8,15 @@ Python
 
 ## Python
 
-[Python](https://igapyon.github.io/diary/keyword/python.html) は、、、、です。
+[Python](https://igapyon.github.io/diary/keyword/python.html) は プログラミング言語のひとつです。
 
 ### URL
 
-* TBD URL
+* [https://www.python.org/](https://www.python.org/)
 
 ### 特徴
 
-* TBD URL
+* 人気のプログラミング言語のひとつです。
 
 ### 検索
 

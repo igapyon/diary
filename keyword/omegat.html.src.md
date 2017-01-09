@@ -2,15 +2,15 @@
 
 ## OmegaT
 
-[[OmegaT]] は、、、、です。
+[[OmegaT]] は [[OSS]] の機械支援翻訳ツールです。
 
 ### URL
 
-* TBD URL
+* http://www.omegat.org/ja/omegat.html
 
 ### 特徴
 
-* TBD URL
+* おおくのコンテンツを品質高く翻訳するときに役立ちます。
 
 ### 検索
 

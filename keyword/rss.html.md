@@ -8,15 +8,15 @@ RSS
 
 ## RSS
 
-[RSS](https://igapyon.github.io/diary/keyword/rss.html) は、、、、です。
+[RSS](https://igapyon.github.io/diary/keyword/rss.html) は web サイトのタイトルや url、そして更新日などを xml 形式で表現するものです。
 
 ### URL
 
-* TBD URL
+* [http://www.kanzaki.com/docs/sw/rss.html](http://www.kanzaki.com/docs/sw/rss.html)
 
 ### 特徴
 
-* TBD URL
+* web サイトの更新情報を伝達する目的で広く使われています。
 
 ### 検索
 

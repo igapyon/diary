@@ -8,15 +8,15 @@ OmegaT
 
 ## OmegaT
 
-[OmegaT](https://igapyon.github.io/diary/keyword/omegat.html) は、、、、です。
+[OmegaT](https://igapyon.github.io/diary/keyword/omegat.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) の機械支援翻訳ツールです。
 
 ### URL
 
-* TBD URL
+* [http://www.omegat.org/ja/omegat.html](http://www.omegat.org/ja/omegat.html)
 
 ### 特徴
 
-* TBD URL
+* おおくのコンテンツを品質高く翻訳するときに役立ちます。
 
 ### 検索
 

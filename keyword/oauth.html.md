@@ -8,15 +8,15 @@ OAuth
 
 ## OAuth
 
-[OAuth](https://igapyon.github.io/diary/keyword/oauth.html) は、、、、です。
+[OAuth](https://igapyon.github.io/diary/keyword/oauth.html) は http(s) をベースにした認可を実現するプロトコルです。
 
 ### URL
 
-* TBD URL
+* [https://oauth.net/](https://oauth.net/)
 
 ### 特徴
 
-* TBD URL
+* 多くの web サービスが oauth を提供するようしのぎを削っています。
 
 ### 検索
 

@@ -2,15 +2,17 @@
 
 ## Salesforce
 
-[[Salesforce]] は、、、、です。
+[[Salesforce]] は 営業支援を起源とするクラウドサービスです。
 
 ### URL
 
-* TBD URL
+* https://www.salesforce.com/jp/
 
 ### 特徴
 
-* TBD URL
+* [[Salesforce]] は 営業支援を起源とするクラウドサービスです。
+* これをベースにした汎用のアプリケーション開発環境 [[Force.com]] などがある。
+* とてもすばやく web アプリケーション開発することを可能にします。
 
 ### 検索
 

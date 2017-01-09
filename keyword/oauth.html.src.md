@@ -2,15 +2,15 @@
 
 ## OAuth
 
-[[OAuth]] は、、、、です。
+[[OAuth]] は http(s) をベースにした認可を実現するプロトコルです。
 
 ### URL
 
-* TBD URL
+* https://oauth.net/
 
 ### 特徴
 
-* TBD URL
+* 多くの web サービスが oauth を提供するようしのぎを削っています。
 
 ### 検索
 

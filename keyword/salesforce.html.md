@@ -8,15 +8,17 @@ Salesforce
 
 ## Salesforce
 
-[Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は、、、、です。
+[Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は 営業支援を起源とするクラウドサービスです。
 
 ### URL
 
-* TBD URL
+* [https://www.salesforce.com/jp/](https://www.salesforce.com/jp/)
 
 ### 特徴
 
-* TBD URL
+* [Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は 営業支援を起源とするクラウドサービスです。
+* これをベースにした汎用のアプリケーション開発環境 [Force.com](https://igapyon.github.io/diary/keyword/force.com.html) などがある。
+* とてもすばやく web アプリケーション開発することを可能にします。
 
 ### 検索
 
