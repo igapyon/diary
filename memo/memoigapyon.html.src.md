@@ -18,7 +18,7 @@
 
 ↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
 
-### 簡単リンク
+### 自分用の簡便リンク
 
 * Google 検索: <@linksearch title="いがぴょん" word="いがぴょん" /> / <@linksearch title="igapyon" word="igapyon" /> / <@linksearch title="伊賀 敏樹" word="伊賀 敏樹" />
 * Twitter 検索: <@linksearch title="いがぴょん" word="いがぴょん" engine="twitter" /> / <@linksearch title="igapyon" word="igapyon" engine="twitter" /> / <@linksearch title="伊賀 敏樹" word="伊賀 敏樹" engine="twitter" />
