@@ -22,7 +22,7 @@ Tooling API
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Tooling+API)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Tooling+API)
-* [Search in Twitter](https://twitter.com/search?q=%23Tooling+API)
+* [Search in Twitter](https://twitter.com/search?q=Tooling+API)
 
 
 ### 日記
