@@ -98,11 +98,33 @@
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.8</version>
 				<configuration>
-					<tasks>
+					<target name="genkeywordmd">
 						<property name="classpath" refid="maven.runtime.classpath" />
-						<!-- <ant antfile="build.xml" target="md2html" inheritRefs="true" /> -->
-						<ant antfile="build.xml" target="genkeywordmd" inheritRefs="true" />
-					</tasks>
+
+						<echo>genkeywordmd</echo>
+						<echo message="runtime classpath: ${runtime_classpath}" />
+						<java
+							classname="jp.igapyon.diary.v3.indexing.keyword.KeywordMdTextGenerator">
+							<classpath>
+								<pathelement path="${classpath}" />
+							</classpath>
+						</java>
+
+
+						<echo>md2html</echo>
+						<mkdir dir="target/md2html" />
+						<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
+							<arg value="-s" />
+							<arg value="." />
+							<arg value="-t" />
+							<arg value="target/md2html" />
+							<arg value="-r" />
+
+							<classpath>
+								<pathelement path="${classpath}" />
+							</classpath>
+						</java>
+					</target>
 				</configuration>
 				<goals>
 					<goal>run</goal>
