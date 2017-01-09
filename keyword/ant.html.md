@@ -24,7 +24,7 @@ Ant
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Ant)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Ant)
-* [Search in Twitter](https://twitter.com/search?q=Ant)
+* [Search in Twitter](https://twitter.com/search?q=%23Ant)
 
 ### 日記
 

@@ -22,7 +22,7 @@
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+%E5%BC%95%E8%B6%8A)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=%E5%BC%95%E8%B6%8A)
-* [Search in Twitter](https://twitter.com/search?q=%E5%BC%95%E8%B6%8A)
+* [Search in Twitter](https://twitter.com/search?q=%23%E5%BC%95%E8%B6%8A)
 
 
 ### 日記

@@ -22,7 +22,7 @@ Mac
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Mac)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Mac)
-* [Search in Twitter](https://twitter.com/search?q=Mac)
+* [Search in Twitter](https://twitter.com/search?q=%23Mac)
 
 
 ### 日記

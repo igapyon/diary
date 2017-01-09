@@ -23,7 +23,7 @@ jekyll
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+jekyll)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=jekyll)
-* [Search in Twitter](https://twitter.com/search?q=jekyll)
+* [Search in Twitter](https://twitter.com/search?q=%23jekyll)
 
 ### 日記
 

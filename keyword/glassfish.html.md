@@ -22,7 +22,7 @@ GlassFish
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+GlassFish)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=GlassFish)
-* [Search in Twitter](https://twitter.com/search?q=GlassFish)
+* [Search in Twitter](https://twitter.com/search?q=%23GlassFish)
 
 
 ### 日記

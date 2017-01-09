@@ -26,7 +26,7 @@ Maven は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファ�
 * [Search on Publickey](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.publickey1.jp%2F+Maven+Apache)
 * [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Maven+Apache)
-* [Search in Twitter](https://twitter.com/search?q=Maven+Apache)
+* [Search in Twitter](https://twitter.com/search?q=%23Maven+Apache)
 
 ### 日記
 
