@@ -12,11 +12,12 @@ Apache
 
 ### URL
 
-* TBD URL
+* [https://www.apache.org/](https://www.apache.org/)
 
 ### 特徴
 
-* TBD URL
+* さまざまな [OSS](https://igapyon.github.io/diary/keyword/oss.html) のプロダクトを提供するファウンデーションです。
+* [Apache](https://igapyon.github.io/diary/keyword/apache.html) は もともとフリーな web サーバーを提供する集団からスタートしました。
 
 ### 検索
 
