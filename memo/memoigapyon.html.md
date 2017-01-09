@@ -24,6 +24,10 @@
 
 ↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
 
+### 簡単リンク
+
+* Google 検索: [いがぴょん](https://www.google.co.jp/#pws=0&q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93) / [igapyon](https://www.google.co.jp/#pws=0&q=igapyon) / [伊賀 敏樹](https://www.google.co.jp/#pws=0&q=%E4%BC%8A%E8%B3%80+%E6%95%8F%E6%A8%B9)
+* Twitter 検索: [いがぴょん](https://twitter.com/search?q=%23%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93) / [igapyon](https://twitter.com/search?q=%23igapyon) / [伊賀 敏樹](https://twitter.com/search?q=%E4%BC%8A%E8%B3%80+%E6%95%8F%E6%A8%B9)
 
 ## 職業
 
