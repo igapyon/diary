@@ -11,6 +11,8 @@
 ### 特徴
 
 * Markdown (.md) をベースにした静的 [[CMS]] による日記ジェネレータシステムです。
+* [[igapyonv3]] を利用して作成されたコンテンツの例
+  * https://igapyon.github.io/diary/
 
 ### 検索
 

@@ -17,6 +17,8 @@ igapyonv3
 ### 特徴
 
 * Markdown (.md) をベースにした静的 [[CMS]] による日記ジェネレータシステムです。
+* [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) を利用して作成されたコンテンツの例
+  * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
 
 ### 検索
 
