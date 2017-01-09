@@ -10,9 +10,10 @@
 
 ### 特徴
 
-* Java で書かれたテンプレートシステムです。
+* [[Java]] で書かれたテンプレートシステムです。
 * HTML 以外に平文テキストも扱うことができます。
-* Velocity の後継とみなすこともできます。
+* Apache Velocity の後継とみなすこともできます。
+* Spring もサポートしている、現時点では最もポピューラーな Java 向けテンプレートエンジンのひとつです。
 
 #### 役立つと思う情報
 
@@ -20,6 +21,6 @@
 
 ### 検索
 
-* <@linksearch title="Search on Igapyon Diary" word="igapyon" site="https://igapyon.github.io/diary/" />
+* <@linksearch title="Search on Igapyon Diary" word="FreeMarker" site="https://igapyon.github.io/diary/" />
 * <@linksearch title="Search in Google" word="FreeMarker" />
 * <@linksearch title="Search in Twitter" word="FreeMarker" engine="twitter" />

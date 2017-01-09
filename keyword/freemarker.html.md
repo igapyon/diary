@@ -16,9 +16,10 @@ FreeMarker
 
 ### 特徴
 
-* Java で書かれたテンプレートシステムです。
+* [Java](https://igapyon.github.io/diary/keyword/java.html) で書かれたテンプレートシステムです。
 * HTML 以外に平文テキストも扱うことができます。
-* Velocity の後継とみなすこともできます。
+* Apache Velocity の後継とみなすこともできます。
+* Spring もサポートしている、現時点では最もポピューラーな Java 向けテンプレートエンジンのひとつです。
 
 #### 役立つと思う情報
 
@@ -26,7 +27,7 @@ FreeMarker
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyon)
+* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+FreeMarker)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=FreeMarker)
 * [Search in Twitter](https://twitter.com/search?q=%23FreeMarker)
 
