@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-ant" basedir=".">
+	<!-- Maven から呼び出されます -->
+	<!-- md から html を生成するバッチ処理を実行 -->
+	<!-- mvn antrun:run -->
 	<target name="md2html">
 		<echo>md2html</echo>
 		<mkdir dir="target/md2html" />
@@ -16,6 +19,8 @@
 		</java>
 	</target>
 
+	<!-- Maven から呼び出されます -->
+	<!-- 必要な場合にキーワード用のソースmdファイルを作成 -->
 	<target name="genkeywordmd">
 		<echo>genkeywordmd</echo>
 		<java classname="jp.igapyon.diary.v3.indexing.keyword.KeywordMdTextGenerator">
@@ -24,7 +29,4 @@
 			</classpath>
 		</java>
 	</target>
-
 </project>
-
-
