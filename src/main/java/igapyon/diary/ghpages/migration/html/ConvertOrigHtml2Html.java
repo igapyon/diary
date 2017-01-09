@@ -1,5 +1,5 @@
 
-package igapyon.diary.ghpages.html;
+package igapyon.diary.ghpages.migration.html;
 
 import java.io.File;
 import java.io.IOException;
