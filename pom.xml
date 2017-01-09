@@ -115,11 +115,6 @@
 					<target>
 						<property name="classpath" refid="maven.runtime.classpath" />
 
-						<property name="ftp.server" value="FTPSERVER" />
-						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
-						<property name="ftp.user" value="USER" />
-						<property name="ftp.pass" value="PASS" />
-
 						<echo>md2html</echo>
 						<mkdir dir="target/md2html" />
 						<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
@@ -133,7 +128,23 @@
 							</classpath>
 						</java>
 
-						<echo>md2html</echo>
+						<echo>ftp1</echo>
+						<property name="ftp.server" value="FTPSERVER" />
+						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
+						<property name="ftp.user" value="USER" />
+						<property name="ftp.pass" value="PASS" />
+						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
+							userid="${ftp.user}" password="${ftp.pass}">
+							<fileset dir="target/md2html">
+								<include name="*.html" />
+							</fileset>
+						</ftp>
+
+						<echo>ftp2</echo>
+						<property name="ftp.server" value="FTPSERVER" />
+						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
+						<property name="ftp.user" value="USER" />
+						<property name="ftp.pass" value="PASS" />
 						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
 							userid="${ftp.user}" password="${ftp.pass}">
 							<fileset dir="target/md2html">
