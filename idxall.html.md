@@ -37,6 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-10 diary: テスト中](https://igapyon.github.io/diary/2017/ig170110.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
 * [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
 * [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)

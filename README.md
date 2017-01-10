@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-10 diary: テスト中](https://igapyon.github.io/diary/2017/ig170110.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
 * [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
 * [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
@@ -50,7 +51,6 @@
 * [2016-12-29 diary: 試験的 github 日記](https://igapyon.github.io/diary/2016/ig161229.html)
 * [2016-12-27 diary: [maven] Java アプリの jar 利用の依存ファイルを target/lib に複写する](https://igapyon.github.io/diary/2016/ig161227.html)
 * [2016-12-26 diary: [maven] Java アプリに jar 利用の依存関係を追加する](https://igapyon.github.io/diary/2016/ig161226.html)
-* [2016-12-25 diary: [maven] Java アプリのコンパイルバージョンを指定する](https://igapyon.github.io/diary/2016/ig161225.html)
 
 
 ### 他サイトのニュースフィード
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [「スクラム」の生みの親、ジェフ・サザーランド氏と野中郁次郎氏が基調講演のイベント、2月に開催予定](http://www.publickey1.jp/blog/17/2_10.html) 2017/01/10
+* [「クラウドが多数のITマーケットセグメントを支配し始めた年」が2016年だと、Synergy Research Group](http://www.publickey1.jp/blog/17/it2016synergy_research_group.html) 2017/01/10
+* [タスク管理ツール「Trello」、アトラシアンによる買収に合意。TrelloはJIRAやConfluenceと統合へ向かう](http://www.publickey1.jp/blog/17/trellotrellojiraconfluence.html) 2017/01/10
 * [Amazon AI発表／ムーアの法則が成立しなくなると／Linux OSからFPGAを透過的に利用ほか、2016年12月の人気記事](http://www.publickey1.jp/blog/17/amazon_ailinux_osfpga201612.html) 2017/01/06
 * [マイクロサービスアーキテクチャに最適化したJavaを実現するための「MicroProfile」、Eclipseの正式プロジェクトに](http://www.publickey1.jp/blog/17/javamicroprofileeclipse.html) 2017/01/05
 * [Rust言語、asm.jsやWebAssemblyをサポートへ。WebブラウザやNode.jsで実行可能に](http://www.publickey1.jp/blog/17/rustasmjswebassemblywebnodejs.html) 2017/01/05
 * [Google Cloud Platform、システム構成図用のアイコンライブラリを公開](http://www.publickey1.jp/blog/17/google_cloud_platform.html) 2017/01/04
-* [Publickey年間総合ランキング2016。顧客のデータセンターに大型トラックで乗り付け／BashシェルをWindowsに搭載／消火ガス噴射の衝撃音がサーバを破壊ほか](http://www.publickey1.jp/blog/16/bashwindowspublickey2016.html) 2016/12/26
-* [ブログでメシが食えるか？ Publickeyの2016年](http://www.publickey1.jp/blog/16/_publickey2016.html) 2016/12/26
-* [オールフラッシュストレージのViolin Memoryが倒産手続きのためチャプター11を提出。ビジネスはまだ継続中](http://www.publickey1.jp/blog/16/violin_memory11.html) 2016/12/22
 
 
 ### 私むけ役立ちリンク
