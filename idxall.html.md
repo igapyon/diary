@@ -37,6 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-12 diary: 現在読書中メモ](https://igapyon.github.io/diary/2017/ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
 * [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](https://igapyon.github.io/diary/2017/ig170110.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
