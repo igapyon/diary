@@ -27,6 +27,7 @@ Shell
 
 ### 日記
 
+* [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](https://igapyon.github.io/diary/2017/ig170112.html)
 * [2014-01-28 diary: [Shell] UNIX＆Linux コマンド・シェルスクリプト リファレンス](https://igapyon.github.io/diary/2014/ig140128.html)
 * [2014-01-26 diary: [Shell] 引数チェック](https://igapyon.github.io/diary/2014/ig140126.html)
 * [2014-01-25 diary: [Shell] 子シェルの呼び出し](https://igapyon.github.io/diary/2014/ig140125.html)
