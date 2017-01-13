@@ -29,6 +29,7 @@ igapyonv3
 ### 日記
 
 * [2017-01-14 diary: [igapyonv3] のカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
+* [2017-01-13 diary: [igapyonv3] 現時点の仕様メモ](https://igapyon.github.io/diary/2017/ig170113.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
 * [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](https://igapyon.github.io/diary/2017/ig170110.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)

@@ -37,7 +37,7 @@
 ## いがぴょんの日記：2017年の日記
 
 * [2017-01-14 diary: [igapyonv3] のカスタム ディレクティブ一覧](ig170114.html)
-* [2017-01-13 diary: ここに日記のタイトル](ig170113.html)
+* [2017-01-13 diary: [igapyonv3] 現時点の仕様メモ](ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](ig170111.html)
 * [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](ig170110.html)
