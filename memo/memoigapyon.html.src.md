@@ -2,7 +2,7 @@
 [target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
-/ <@linkshare word="Twitterでシェア" url="https://igapyon.github.io/diary/memo/memoigapyon.html" tags="igapyon,いがぴょん" />
+/ <@linkshare word="「いがぴょん」について" url="https://igapyon.github.io/diary/memo/memoigapyon.html" tags="igapyon,いがぴょん" />
 
 ## 資料: いがぴょん について
 
