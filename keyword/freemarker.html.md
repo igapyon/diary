@@ -33,11 +33,11 @@ FreeMarker
 
 ### 日記
 
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
-* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
-* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
-* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
-* [2017-01-01 diary: [FreeMarker] シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](2017/ig170109.html)
+* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](2017/ig170107.html)
+* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](2017/ig170106.html)
+* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](2017/ig170105.html)
+* [2017-01-01 diary: [FreeMarker] シンプルサンプル](2017/ig170101.html)
 
 
 ----------------------------------------------------------------------------------------------------

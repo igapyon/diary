@@ -28,13 +28,13 @@ igapyonv3
 
 ### 日記
 
-* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
-* [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](https://igapyon.github.io/diary/2017/ig170110.html)
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
-* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
-* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
-* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](https://igapyon.github.io/diary/2016/ig161230.html)
-* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(`*.md`)から Bootstrap装飾付きHtml(`*.html`)への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
+* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
+* [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](2017/ig170110.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](2017/ig170109.html)
+* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](2017/ig170108.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](2017/ig170103.html)
+* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](2016/ig161230.html)
+* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(`*.md`)から Bootstrap装飾付きHtml(`*.html`)への変換ツール](2015/ig150724.html)
 
 
 ----------------------------------------------------------------------------------------------------

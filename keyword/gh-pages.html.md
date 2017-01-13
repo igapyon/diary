@@ -26,7 +26,7 @@ gh-pages
 
 ### 日記
 
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](2017/ig170109.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -27,7 +27,7 @@ JDK
 
 ### 日記
 
-* [2012-09-10 diary: [Ubuntu][JDK] Ubuntu 12.04.1 に Oracle Java JDK を入れる方法【/opt 編】](https://igapyon.github.io/diary/2012/ig120910.html)
+* [2012-09-10 diary: [Ubuntu][JDK] Ubuntu 12.04.1 に Oracle Java JDK を入れる方法【/opt 編】](2012/ig120910.html)
 
 
 ----------------------------------------------------------------------------------------------------

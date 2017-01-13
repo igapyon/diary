@@ -26,7 +26,7 @@ blancofw
 
 ### 日記
 
-* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
+* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](2016/ig161215.html)
 
 
 ----------------------------------------------------------------------------------------------------

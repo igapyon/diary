@@ -36,19 +36,19 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-13 diary: ここに日記のタイトル](https://igapyon.github.io/diary/2017/ig170113.html)
-* [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](https://igapyon.github.io/diary/2017/ig170112.html)
-* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
-* [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](https://igapyon.github.io/diary/2017/ig170110.html)
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
-* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
-* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
-* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
-* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](https://igapyon.github.io/diary/2017/ig170104.html)
-* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
-* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](https://igapyon.github.io/diary/2017/ig170102.html)
-* [2017-01-01 diary: [FreeMarker] シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-13 diary: ここに日記のタイトル](2017/ig170113.html)
+* [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
+* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
+* [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](2017/ig170110.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](2017/ig170109.html)
+* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](2017/ig170108.html)
+* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](2017/ig170107.html)
+* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](2017/ig170106.html)
+* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](2017/ig170105.html)
+* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](2017/ig170104.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](2017/ig170103.html)
+* [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](2017/ig170102.html)
+* [2017-01-01 diary: [FreeMarker] シンプルサンプル](2017/ig170101.html)
 
 
 ----------------------------------------------------------------------------------------------------

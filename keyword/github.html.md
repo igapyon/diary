@@ -27,8 +27,8 @@ github
 
 ### 日記
 
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](https://igapyon.github.io/diary/2017/ig170104.html)
-* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
+* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](2017/ig170104.html)
+* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](2016/ig161215.html)
 
 
 ----------------------------------------------------------------------------------------------------
