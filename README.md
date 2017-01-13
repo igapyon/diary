@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [さくらインターネット、1ペタフロップス超の「高火力コンピューティング基盤」が産総研とHi-Matのスーパーコンピュータに採用](http://www.publickey1.jp/blog/17/1hi-mat.html) 2017/01/13
 * [2016年の国内地域別IT市場は東京だけがプラス成長。2017年も東京だけがプラス、大都市圏とそれ以外の格差が広がる。IDC Japan](http://www.publickey1.jp/blog/17/2016it2017idc_japan.html) 2017/01/12
 * [コンテナ市場は急成長、4年で3倍以上の3000億円規模へ。米451 Research](http://www.publickey1.jp/blog/17/433000451_research.html) 2017/01/12
 * [AzureからWindows 10のデスクトップ仮想化「XenDesktop Essentials」と、アプリケーション仮想化「XenApp Essentials」まもなく提供開始、シトリックス](http://www.publickey1.jp/blog/17/azurewindows_10xendesktop_essentialsxenapp_essentials.html) 2017/01/12
 * [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（後編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert_2.html) 2017/01/10
 * [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（中編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert_1.html) 2017/01/11
 * [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（前編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert.html) 2017/01/11
-* [「スクラム」の生みの親、ジェフ・サザーランド氏と野中郁次郎氏が基調講演のイベント、2月に開催予定](http://www.publickey1.jp/blog/17/2_10.html) 2017/01/10
 
 
 ### 私むけ役立ちリンク
