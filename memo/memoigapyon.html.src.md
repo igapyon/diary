@@ -2,6 +2,7 @@
 [target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
+/ <@linkshare word="Twitterでシェア" url="https://igapyon.github.io/diary/memo/memoigapyon.html" tags="igapyon,いがぴょん" />
 
 ## 資料: いがぴょん について
 
@@ -26,7 +27,7 @@
 ## 職業
 
 * 月給会社員です。
-* 東京・青山一丁目にある [株式会社アピリオ](http://appirio.co.jp/) に勤務しています。
+* 東京・青山一丁目にある [株式会社アピリオ](http://appirio.co.jp/) に勤務しています。<@linkmap word="会社所在地" lat="35.6722478" lon="139.7214164" />
 
 ## 職種
 

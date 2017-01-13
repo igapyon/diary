@@ -8,6 +8,7 @@
 [target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
+/ [Twitterでシェア](https://twitter.com/intent/tweet?hashtags=igapyon%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=Twitter%E3%81%A7%E3%82%B7%E3%82%A7%E3%82%A2&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fmemo%2Fmemoigapyon.html)
 
 ## 資料: いがぴょん について
 
@@ -32,7 +33,7 @@
 ## 職業
 
 * 月給会社員です。
-* 東京・青山一丁目にある [株式会社アピリオ](http://appirio.co.jp/) に勤務しています。
+* 東京・青山一丁目にある [株式会社アピリオ](http://appirio.co.jp/) に勤務しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
 
 ## 職種
 
