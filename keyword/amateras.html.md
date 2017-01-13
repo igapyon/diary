@@ -28,7 +28,7 @@ Amateras
 
 ### 日記
 
-* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](2013/ig130121.html)
+* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](https://igapyon.github.io/diary/2013/ig130121.html)
 
 
 ----------------------------------------------------------------------------------------------------

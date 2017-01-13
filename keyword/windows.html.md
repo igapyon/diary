@@ -27,8 +27,8 @@ Windows
 
 ### 日記
 
-* [2014-07-05 diary: [Windows] Windows 8.1 with Bing](2014/ig140705.html)
-* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](2000/ig000120.html)
+* [2014-07-05 diary: [Windows] Windows 8.1 with Bing](https://igapyon.github.io/diary/2014/ig140705.html)
+* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](https://igapyon.github.io/diary/2000/ig000120.html)
 
 
 ----------------------------------------------------------------------------------------------------

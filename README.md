@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-14 diary: [igapyonv3] のカスタム ディレクティブ一覧](2017/ig170114.html)
 * [2017-01-13 diary: ここに日記のタイトル](2017/ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
@@ -50,7 +51,6 @@
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](2017/ig170102.html)
 * [2017-01-01 diary: [FreeMarker] シンプルサンプル](2017/ig170101.html)
 * [2016-12-31 diary: 日記コンテンツ集約および調整中](2016/ig161231.html)
-* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](2016/ig161230.html)
 
 
 ### 他サイトのニュースフィード

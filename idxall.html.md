@@ -37,6 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-14 diary: [igapyonv3] のカスタム ディレクティブ一覧](2017/ig170114.html)
 * [2017-01-13 diary: ここに日記のタイトル](2017/ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)

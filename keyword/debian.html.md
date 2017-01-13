@@ -28,9 +28,9 @@ Debian
 
 ### 日記
 
-* [2012-10-18 diary: [Debian] Debian インストール時に HTTP プロキシ超えをさせるための記述](2012/ig121018.html)
-* [2012-09-22 diary: [Debian] Debian パッケージング道場＠楽天なう](2012/ig120922.html)
-* [2012-09-12 diary: [Debian] 不安定版 (unstable) sid のインストール方法](2012/ig120912.html)
+* [2012-10-18 diary: [Debian] Debian インストール時に HTTP プロキシ超えをさせるための記述](https://igapyon.github.io/diary/2012/ig121018.html)
+* [2012-09-22 diary: [Debian] Debian パッケージング道場＠楽天なう](https://igapyon.github.io/diary/2012/ig120922.html)
+* [2012-09-12 diary: [Debian] 不安定版 (unstable) sid のインストール方法](https://igapyon.github.io/diary/2012/ig120912.html)
 
 
 ----------------------------------------------------------------------------------------------------

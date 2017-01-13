@@ -26,7 +26,7 @@ AWS
 
 ### 日記
 
-* [2016-08-09 diary: [AWS] Amazon AWS EC2 t2.micro Windows Server 2012 R2 Base を試した時のメモ](2016/ig160809.html)
+* [2016-08-09 diary: [AWS] Amazon AWS EC2 t2.micro Windows Server 2012 R2 Base を試した時のメモ](https://igapyon.github.io/diary/2016/ig160809.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -20,9 +20,9 @@ English
 
 ### 日記
 
-* [2016-12-05 diary: [English] 超基本英語メモ「おねがい」](2016/ig161205.html)
-* [2016-12-04 diary: [English] 超基本英語メモ「はい・いいえ」](2016/ig161204.html)
-* [2016-02-17 diary: [English] make sense](2016/ig160217.html)
+* [2016-12-05 diary: [English] 超基本英語メモ「おねがい」](https://igapyon.github.io/diary/2016/ig161205.html)
+* [2016-12-04 diary: [English] 超基本英語メモ「はい・いいえ」](https://igapyon.github.io/diary/2016/ig161204.html)
+* [2016-02-17 diary: [English] make sense](https://igapyon.github.io/diary/2016/ig160217.html)
 
 
 ----------------------------------------------------------------------------------------------------

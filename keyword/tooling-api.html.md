@@ -27,10 +27,10 @@ Tooling API
 
 ### 日記
 
-* [2016-07-28 diary: [Force.com][Tooling API] メモ: クラス取得](2016/ig160728.html)
-* [2016-07-27 diary: [Force.com][Tooling API] メモ: クラス作成](2016/ig160727.html)
-* [2016-07-26 diary: [Force.com][Tooling API] メモ: クラス更新](2016/ig160726.html)
-* [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](2016/ig160724.html)
+* [2016-07-28 diary: [Force.com][Tooling API] メモ: クラス取得](https://igapyon.github.io/diary/2016/ig160728.html)
+* [2016-07-27 diary: [Force.com][Tooling API] メモ: クラス作成](https://igapyon.github.io/diary/2016/ig160727.html)
+* [2016-07-26 diary: [Force.com][Tooling API] メモ: クラス更新](https://igapyon.github.io/diary/2016/ig160726.html)
+* [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](https://igapyon.github.io/diary/2016/ig160724.html)
 
 
 ----------------------------------------------------------------------------------------------------

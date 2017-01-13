@@ -29,8 +29,8 @@ Salesforce
 
 ### 日記
 
-* [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](2016/ig160519.html)
-* [2016-05-18 diary: [Salesforce] Apex Force.com IDE](2016/ig160518.html)
+* [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](https://igapyon.github.io/diary/2016/ig160519.html)
+* [2016-05-18 diary: [Salesforce] Apex Force.com IDE](https://igapyon.github.io/diary/2016/ig160518.html)
 
 
 ----------------------------------------------------------------------------------------------------
