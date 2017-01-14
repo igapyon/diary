@@ -54,7 +54,7 @@ igapyonv3
 
 ## 全体的な構造
 
-* [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) ファイルを中心とした [[CMS]] システムです。
+* [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) ファイルを中心とした [CMS](https://igapyon.github.io/diary/keyword/cms.html) システムです。
   * 生成後のコンテンツは [github](https://igapyon.github.io/diary/keyword/github.html) 上の [gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html) 上で公開することが可能になっています。
   * テンプレートエンジンに [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) を採用しています。
   * [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) 向けの [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) カスタムディレクティブが組み込まれており、例えば日記インデックスファイルを自動生成可能であるなど、日記執筆が極めてはかどります。
