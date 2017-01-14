@@ -5,6 +5,8 @@ igapyonv3
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [index](https://igapyon.github.io/diary/keyword/index.html)
+/ [target](https://igapyon.github.io/diary/keyword/igapyonv3.html)
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/igapyonv3.html.src.md)
 
 ## igapyonv3
 
@@ -85,7 +87,7 @@ igapyonv3
 `<@localrss />`
 
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](ig170114.html)
-* [2017-01-13 diary: [igapyonv3] のソフトウェア構造に関するメモ](ig170113.html)
+* [2017-01-13 diary: [igapyonv3] のソフトウェア構造](ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](ig170111.html)
 * [2017-01-10 diary: Twitter シェアの機能を確認中](ig170110.html)
@@ -126,7 +128,7 @@ igapyonv3
 ### 日記
 
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
-* [2017-01-13 diary: [igapyonv3] のソフトウェア構造に関するメモ](https://igapyon.github.io/diary/2017/ig170113.html)
+* [2017-01-13 diary: [igapyonv3] のソフトウェア構造](https://igapyon.github.io/diary/2017/ig170113.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
 * [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
