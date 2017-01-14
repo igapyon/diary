@@ -10,17 +10,39 @@ igapyonv3
 
 ## igapyonv3
 
-[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は、「いがぴょんの日記ウェブページv3」コンテンツを生成する目的で開発された日記ジェネレータシステムです。
+[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は、「いがぴょんの日記ウェブページv3」という日記を記述する目的から作られた、日記執筆者自身の手によって開発された日記システムです。
 
 ### URL
 
 * [https://github.com/igapyon/igapyonv3](https://github.com/igapyon/igapyonv3)
+* [https://igapyon.github.io/igapyonv3](https://igapyon.github.io/igapyonv3)
 
-### 特徴
+### igapyonv3 の歴史
 
-* Markdown (.md) をベースにした静的 [[CMS]] による日記ジェネレータシステムです。
-* [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) を利用して作成されたコンテンツの例
-  * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
+* [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
+  * 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
+    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
+  * 日記ジェネレータのバージョン2 (v2) は 2001頃に作成されました。
+    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
+    * 概ね OSS により構築されていました。
+  * 日記ジェネレータのバージョン3 (v3) は 2017頃に作成されました。
+    * コンテンツは [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
+    * 基本的に OSS により構築されており、またソースコードは公開されています。
+
+### igapyonv3 の利用例
+
+[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) の利用例には以下のようなものがあります。
+
+* [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
+* [http://www.igapyon.jp/igapyon/diary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
+
+### 検索
+
+* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
+* [Search in Google](https://www.google.co.jp/#pws=0&q=igapyonv3)
+* [Search in Twitter](https://twitter.com/search?q=%23igapyonv3)
+
+
 
 ## [igapyonv3] のソフトウェア構造
 
@@ -118,12 +140,6 @@ igapyonv3
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 
 
-
-### 検索
-
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=igapyonv3)
-* [Search in Twitter](https://twitter.com/search?q=%23igapyonv3)
 
 ### 日記
 
