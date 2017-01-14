@@ -134,7 +134,7 @@
 * [2005-07-05 diary: 規模が小さめのソフトウェアは第三次産業、規模が大きめのソフトウェアは第二次産業 (?)](ig050705.html)
 * [2005-07-04 diary: Javaで書かれたフリーなSQL整形ライブラリ「BlancoSqlFormatter」β版リリース](ig050704.html)
 * [2005-07-02 diary: Java: Jakarta Commons VFSを用いた ディレクトリ一覧を取得するサンプル , ファイルをコピーするサンプル](ig050702.html)
-* [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア , VFSベースのGUIファイラーが欲しい→VfsFileManager](ig050701.html)
+* [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア, VFSベースのGUIファイラーが欲しい→VfsFileManager, [CMS]](ig050701.html)
 * [2005-06-29 diary: Eclipse 3.1 リリース , ハードウェア性能の向上とO/Rマッピングの可能性との関係](ig050629.html)
 * [2005-06-28 diary: Curl打ち合わせ , 冷房が寒い](ig050628.html)
 * [2005-06-24 diary: NEC WebOTX調査中… (ACOS4とJavaとの連携)](ig050624.html)
