@@ -109,10 +109,10 @@
 								<pathelement path="${classpath}" />
 							</classpath>
 						</java>
-					</target>
 
-					<!-- convert md to html and ftp -->
-					<target>
+						<!-- Next -->
+
+						<!-- convert md to html and ftp -->
 						<property name="classpath" refid="maven.runtime.classpath" />
 
 						<echo>md2html</echo>
