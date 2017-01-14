@@ -11,18 +11,6 @@
 * https://github.com/igapyon/igapyonv3
 * https://igapyon.github.io/igapyonv3
 
-### igapyonv3 の歴史
-
-* [[igapyonv3]] は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
-  * 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
-    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
-  * 日記ジェネレータのバージョン2 (v2) は 2001頃に作成されました。
-    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
-    * 概ね OSS により構築されていました。
-  * 日記ジェネレータのバージョン3 (v3) は 2017頃に作成されました。
-    * コンテンツは [[Markdown]] で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
-    * 基本的に OSS により構築されており、またソースコードは公開されています。
-
 ### igapyonv3 の利用例
 
 [[igapyonv3]] の利用例には以下のようなものがあります。
@@ -37,6 +25,8 @@
 * <@linksearch title="Search in Twitter" word="igapyonv3" engine="twitter" />
 
 <#-- これ以降は分割されたサブコンテンツの読み込みにより実現されます -->
+
+<@include file="../2017/ig170115.html.src.md" /><#-- 歴史 -->
 
 <@include file="../2017/ig170113.html.src.md" /><#-- ソフトウェア構造 -->
 

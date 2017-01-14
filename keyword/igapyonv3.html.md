@@ -17,18 +17,6 @@ igapyonv3
 * [https://github.com/igapyon/igapyonv3](https://github.com/igapyon/igapyonv3)
 * [https://igapyon.github.io/igapyonv3](https://igapyon.github.io/igapyonv3)
 
-### igapyonv3 の歴史
-
-* [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
-  * 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
-    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
-  * 日記ジェネレータのバージョン2 (v2) は 2001頃に作成されました。
-    * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
-    * 概ね OSS により構築されていました。
-  * 日記ジェネレータのバージョン3 (v3) は 2017頃に作成されました。
-    * コンテンツは [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
-    * 基本的に OSS により構築されており、またソースコードは公開されています。
-
 ### igapyonv3 の利用例
 
 [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) の利用例には以下のようなものがあります。
@@ -42,6 +30,19 @@ igapyonv3
 * [Search in Google](https://www.google.co.jp/#pws=0&q=igapyonv3)
 * [Search in Twitter](https://twitter.com/search?q=%23igapyonv3)
 
+
+
+## [igapyonv3] の歴史
+
+[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
+* 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
+  * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
+* 日記ジェネレータのバージョン2 (v2) は 2001頃に作成されました。
+  * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
+  * 概ね OSS により構築されていました。
+* 日記ジェネレータのバージョン3 (v3) は 2017頃に作成されました。
+  * コンテンツは [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
+  * 基本的に OSS により構築されており、またソースコードは公開されています。
 
 
 ## [igapyonv3] のソフトウェア構造
@@ -108,6 +109,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-01-15 diary: [igapyonv3] の歴史](ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](ig170112.html)
@@ -143,6 +145,7 @@ igapyonv3
 
 ### 日記
 
+* [2017-01-15 diary: [igapyonv3] の歴史](https://igapyon.github.io/diary/2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](https://igapyon.github.io/diary/2017/ig170113.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)

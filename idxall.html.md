@@ -37,6 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](2017/ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
