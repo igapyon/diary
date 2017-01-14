@@ -36,8 +36,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-14 diary: [igapyonv3] のカスタム ディレクティブ一覧](2017/ig170114.html)
-* [2017-01-13 diary: [igapyonv3] 現時点の仕様メモ](2017/ig170113.html)
+* [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
+* [2017-01-13 diary: [igapyonv3] のソフトウェア構造に関するメモ](2017/ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
 * [2017-01-10 diary: [igapyonv3] Twitter シェアの機能を確認中](2017/ig170110.html)
