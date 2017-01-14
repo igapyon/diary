@@ -8,7 +8,7 @@ Markdown
 
 ## Markdown
 
-[[Markdown]] は、プレーンテキストのためのマークアップ方法の一つです。
+[Markdown](https://igapyon.github.io/diary/keyword/markdown.html) は、プレーンテキストのためのマークアップ方法の一つです。
 
 ### URL
 
