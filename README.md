@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-16 diary: 今日は寒い](2017/ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](2017/ig170113.html)
@@ -50,7 +51,6 @@
 * [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](2017/ig170104.html)
 * [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](2017/ig170103.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](2017/ig170102.html)
-* [2017-01-01 diary: [FreeMarker] シンプルサンプル](2017/ig170101.html)
 
 
 ### 他サイトのニュースフィード
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Googleは巨大なインフラをどうやってセキュアに保っているか。独自のセキュリティチップ利用やDoS対策、安全なソフトウェア開発など、全体像を解説したホワイトペーパーを公開](http://www.publickey1.jp/blog/17/googledos.html) 2017/01/16
 * [さくらインターネット、1ペタフロップス超の「高火力コンピューティング基盤」が産総研とHi-Matのスーパーコンピュータに採用](http://www.publickey1.jp/blog/17/1hi-mat.html) 2017/01/13
 * [2016年の国内地域別IT市場は東京だけがプラス成長。2017年も東京だけがプラス、大都市圏とそれ以外の格差が広がる。IDC Japan](http://www.publickey1.jp/blog/17/2016it2017idc_japan.html) 2017/01/12
 * [コンテナ市場は急成長、4年で3倍以上の3000億円規模へ。米451 Research](http://www.publickey1.jp/blog/17/433000451_research.html) 2017/01/12
 * [AzureからWindows 10のデスクトップ仮想化「XenDesktop Essentials」と、アプリケーション仮想化「XenApp Essentials」まもなく提供開始、シトリックス](http://www.publickey1.jp/blog/17/azurewindows_10xendesktop_essentialsxenapp_essentials.html) 2017/01/12
 * [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（後編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert_2.html) 2017/01/10
 * [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（中編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert_1.html) 2017/01/11
-* [オープンソースの開発現場では限られたリソースで品質管理をどうしているのか。Twitter4J、GitBucket、Asakusa Framework、power-assertの作者が討論（前編）](http://www.publickey1.jp/blog/17/twitter4jgitbucketasakusa_frameworkpower-assert.html) 2017/01/11
 
 
 ### 私むけ役立ちリンク

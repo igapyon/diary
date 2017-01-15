@@ -36,6 +36,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
+* [2017-01-16 diary: 今日は寒い](ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](ig170113.html)
