@@ -37,7 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-01-17 diary: 今日も寒い](2017/ig170117.html)
+* [2017-01-17 diary: 今日も寒い。でも昼過ぎからは暖かくなりました。](2017/ig170117.html)
 * [2017-01-16 diary: 今日は寒い](2017/ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
