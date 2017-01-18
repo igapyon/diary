@@ -41,6 +41,7 @@
 * [AWS](aws.html)
 * [Azure](azure.html)
 * [blancofw](blancofw.html)
+* [Bootstrap](bootstrap.html)
 * [CMS](cms.html)
 * [C++](cpp.html)
 * [C++Builder](cppbuilder.html)
