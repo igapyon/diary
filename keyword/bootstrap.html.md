@@ -8,7 +8,7 @@ Bootstrap
 
 ## Bootstrap
 
-[[Bootstrap]] は [[OSS]] のデザイン系フレームワークです。
+[Bootstrap](https://igapyon.github.io/diary/keyword/bootstrap.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) のデザイン系フレームワークです。
 
 ### URL
 
