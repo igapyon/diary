@@ -111,7 +111,7 @@ igapyonv3
 `<@localrss />`
 
 * [2017-01-19 diary: 今日も寒い](ig170119.html)
-* [2017-01-18 diary: 今日も大変に寒い。](ig170118.html)
+* [2017-01-18 diary: TagSoup のことを書く予定](ig170118.html)
 * [2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ](ig170117.html)
 * [2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ](ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](ig170115.html)
