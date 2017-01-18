@@ -52,6 +52,12 @@
 		</dependency>
 	</dependencies>
 
+	<!-- basic spec for jar -->
+	<properties>
+		<!-- set source as UTF-8 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<build>
 		<plugins>
 			<!-- copy jars into lib -->
