@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-01-18 diary: ここに日記のタイトル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170118.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170118.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-01-17 diary: 今日も寒い。でも昼過ぎからは暖かくなりました。</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170117.html" />
     <author>
@@ -1732,7 +1741,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-07-24 diary: [igapyonv3] IgapyonMd2Html:Markdown(`*.md`)から Bootstrap装飾付きHtml(`*.html`)への変換ツール</title>
+    <title>2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150724.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1777,7 +1786,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-06-27 diary: Java でかかれた Markdown プロセッサー探し</title>
+    <title>2015-06-27 diary: Java でかかれた [Markdown] プロセッサー探し</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150627.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -1786,7 +1795,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2015-06-26 diary: Mylyn による Markdown 記法の html 化 のメモ</title>
+    <title>2015-06-26 diary: Mylyn による [Markdown] 記法の html 化 のメモ</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150626.html" />
     <author>
       <name>Toshiki Iga</name>

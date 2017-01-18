@@ -2,7 +2,7 @@
 
 ## jekyll
 
-[[jekyll]] は、Markdown (.md) などから静的 html などを生成するためのツールです。
+[[jekyll]] は、[[Markdown]] '.md' などから静的 html などを生成するためのツールです。
 
 ### URL
 
