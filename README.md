@@ -36,7 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-18 diary: ここに日記のタイトル](2017/ig170118.html)
+* [2017-01-18 diary: 今日も大変に寒い。](2017/ig170118.html)
 * [2017-01-17 diary: 今日も寒い。でも昼過ぎからは暖かくなりました。](2017/ig170117.html)
 * [2017-01-16 diary: 今日は寒い](2017/ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [オラクルがSPARC/Solarisのロードマップをひっそりとアップデート。今年、SPARC nextとSolaris 11.nextが登場か](http://www.publickey1.jp/blog/17/sparcsolarissparc_nextsolaris_11next.html) 2017/01/19
 * [ITエンジニアが投票した「ITエンジニア本大賞2017」ベスト10が発表。機械学習理論入門／SQLアンチパターン／達人プログラマー／ルビィのぼうけん、などランクイン](http://www.publickey1.jp/blog/17/itit201710sql.html) 2017/01/18
 * [2020年までにデータサイエンティストの業務の4割は自動化される。そしてデータサイエンティストを本職としない「シチズンデータサイエンティスト」が台頭すると、ガートナー](http://www.publickey1.jp/blog/17/20204.html) 2017/01/18
 * [Excelファイルを読み取って分析可能で、急激なデータ増加にも対応するクラウドDWH。高速化の秘密は列指向型、動的インメモリ処理など。IBM dashDB［PR］](http://www.publickey1.jp/blog/17/exceldwhibm_dashdbpr.html) 2017/01/18
 * [140年の歴史を持つ日本経済新聞社が、日経電子版アプリで内製化とアジャイル開発に挑戦した理由と現実、そして課題とは（後編）](http://www.publickey1.jp/blog/17/140_1.html) 2017/01/17
 * [140年の歴史を持つ日本経済新聞社が、日経電子版アプリで内製化とアジャイル開発に挑戦した理由と現実、そして課題とは（前編）](http://www.publickey1.jp/blog/17/140.html) 2017/01/17
 * [トランプ政権の不確実性はグローバルIT市場の成長率を下げているとガートナーが暗に指摘。2017年IT市場予測](http://www.publickey1.jp/blog/17/it2017it.html) 2017/01/16
-* [Googleは巨大なインフラをどうやってセキュアに保っているか。独自のセキュリティチップ利用やDoS対策、安全なソフトウェア開発など、全体像を解説したホワイトペーパーを公開](http://www.publickey1.jp/blog/17/googledos.html) 2017/01/16
 
 
 ### 私むけ役立ちリンク
