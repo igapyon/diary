@@ -37,7 +37,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-01-19 diary: ここに日記のタイトル](2017/ig170119.html)
+* [2017-01-19 diary: 今日も寒い](2017/ig170119.html)
 * [2017-01-18 diary: 今日も大変に寒い。](2017/ig170118.html)
 * [2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ](2017/ig170117.html)
 * [2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ](2017/ig170116.html)
