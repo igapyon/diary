@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-19 diary: ここに日記のタイトル](2017/ig170119.html)
 * [2017-01-18 diary: 今日も大変に寒い。](2017/ig170118.html)
 * [2017-01-17 diary: 今日も寒い。でも昼過ぎからは暖かくなりました。](2017/ig170117.html)
 * [2017-01-16 diary: 今日は寒い](2017/ig170116.html)
@@ -50,7 +51,6 @@
 * [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](2017/ig170107.html)
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](2017/ig170106.html)
 * [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](2017/ig170105.html)
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](2017/ig170104.html)
 
 
 ### 他サイトのニュースフィード
