@@ -29,6 +29,7 @@ Java
 
 ### 日記
 
+* [2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ](https://igapyon.github.io/diary/2017/ig170116.html)
 * [2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)](https://igapyon.github.io/diary/2016/ig161213.html)
 * [2016-12-10 diary: [Java][Jersey] Java でシンプル RESTful サンプル](https://igapyon.github.io/diary/2016/ig161210.html)
 * [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](https://igapyon.github.io/diary/2016/ig160713.html)
