@@ -39,7 +39,7 @@
 * [2008-12-28 diary: 明日は世界の将棋大会＠東京千駄ヶ谷将棋会館](ig081228.html)
 * [2008-12-26 diary: Eclipse Babel 動向](ig081226.html)
 * [2008-12-22 diary: blancoCalcParser の利用サンプル](ig081222.html)
-* [2008-12-17 diary: Java: TagSoup を使った HTML正常化のサンプル](ig081217.html)
+* [2008-12-17 diary: [Java] TagSoup を使った HTML正常化のサンプル](ig081217.html)
 * [2008-12-16 diary: HTML整形調査中](ig081216.html)
 * [2008-12-11 diary: Java Pet Store](ig081211.html)
 * [2008-12-10 diary: Apache iBatis の sqlMap.xml ファイルを入力して、Javaソースコードを自動生成する blancoIBatisというプロダクトを新規作成](ig081210.html)

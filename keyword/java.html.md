@@ -47,6 +47,7 @@ Java
 * [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](https://igapyon.github.io/diary/2012/ig121114.html)
 * [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](https://igapyon.github.io/diary/2012/ig121113.html)
 * [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](https://igapyon.github.io/diary/2012/ig121107.html)
+* [2008-12-17 diary: [Java] TagSoup を使った HTML正常化のサンプル](https://igapyon.github.io/diary/2008/ig081217.html)
 
 
 ----------------------------------------------------------------------------------------------------
