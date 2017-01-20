@@ -2,7 +2,7 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/) 
 
-<#include "/diaryYearList" /><#-- 年リストはインクルードで実現 -->
+<@localyearlist />
 
 ## いがぴょんの日記ウェブページv3：トップ
 
