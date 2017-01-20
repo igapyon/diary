@@ -36,7 +36,8 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-20 diary: [Java] XPath のシンプルサンプル。を書く予定。](ig170120.html)
+* [2017-01-21 diary: [Ant] 正規表現 `regex` を Ant の中で利用する方法](ig170121.html)
+* [2017-01-20 diary: [Java] XPath のシンプルサンプル](ig170120.html)
 * [2017-01-19 diary: MacBook Air の macOS 再インストール手順メモ](ig170119.html)
 * [2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル](ig170118.html)
 * [2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ](ig170117.html)
