@@ -3,7 +3,7 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
 
-<#include "/diaryYearList" /><#-- 年リストはインクルードで実現 -->
+<@localyearlist />
 
 ## いがぴょんの日記：キーワード
 

@@ -4,7 +4,7 @@
 / [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
 / [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
-<#include "/diaryYearList">
+<@localyearlist />
 
 ## いがぴょんの日記：2008年の日記
 
