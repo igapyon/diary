@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-23 diary: ここにコンテンツのタイトル](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 `regex` を Ant の中で利用する方法](2017/ig170121.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](2017/ig170120.html)
@@ -50,14 +51,11 @@
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
 * [2017-01-10 diary: Twitter シェアの機能を確認中](2017/ig170110.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](2017/ig170109.html)
-* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](2017/ig170108.html)
 
 
 ### 他サイトのニュースフィード
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
-
-#### publickey 様
 
 #### [Publickey](http://www.publickey1.jp/)
 
@@ -70,16 +68,7 @@
 * [ITエンジニアが投票した「ITエンジニア本大賞2017」ベスト10が発表。機械学習理論入門／SQLアンチパターン／達人プログラマー／ルビィのぼうけん、などランクイン](http://www.publickey1.jp/blog/17/itit201710sql.html) 2017/01/18
 
 
-#### asahi.com 様
-
-#### [朝日新聞デジタル](http://www.asahi.com/)
-
-* [石油工場で火災　爆発の恐れ、１２８１世帯に避難指示](http://www.asahi.com/articles/ASK1Q5RHYK1QPXLB00M.html?ref=rss) 
-* [令状取りＧＰＳ捜査、千葉県警が全国初の実施](http://www.asahi.com/articles/ASK1Q6KJXK1QUDCB00M.html?ref=rss) 
-* [商業施設で女子高生に刃物　逮捕監禁容疑で男逮捕　広島](http://www.asahi.com/articles/ASK1Q6T20K1QPITB00D.html?ref=rss) 
-* [サルは去り、ゾウが「温泉」に　京都市動物園でお目見え](http://www.asahi.com/articles/ASK1Q4QBSK1QPQIP00K.html?ref=rss) 
-* [パプアニューギニアでＭ７・９　建物の一部が損壊](http://www.asahi.com/articles/ASK1Q4KFRK1QUHBI00S.html?ref=rss) 
-
+<@rssfeed url="[http://rss.asahi.com/rss/asahi/newsheadlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
 
 ### 私むけ役立ちリンク
 
