@@ -86,7 +86,7 @@ igapyonv3
 
 #### SNS系
 
-* `<@linkshare word="{${current.title}" tags="igapyon,diary,いがぴょん" />`
+* `<@linkshare word="${current.title}" tags="igapyon,diary,いがぴょん" />`
   * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=N%2FA&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2F2017%2Fig170114.html)
 
 #### その他
