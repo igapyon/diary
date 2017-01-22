@@ -1,4 +1,5 @@
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](${settings.baseurl}/memo/memoigapyon.html) / [日記ジェネレータ](https://github.com/igapyon/igapyonv3)
+
+<@linkshare /> / [いがぴょんについて](${settings.baseurl}/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
