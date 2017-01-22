@@ -77,8 +77,8 @@ igapyonv3
 
 #### 検索系
 
-* `<@linksearch title="いがぴょん検索" word="いがぴょん" />`
-  * [いがぴょん検索](https://www.google.co.jp/#pws=0&q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
+* `<@linksearch word="いがぴょん" />`
+  * [Search 'いがぴょん' in google](https://www.google.co.jp/#pws=0&q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
 * `<@linksearch title="いがぴょん検索サイト内" word="いがぴょん" site="https：//igapyon.github.io/diary/" />`
   * [いがぴょん検索サイト内](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
 * `<@linksearch title="いがぴょんTwitter" word="伊賀敏樹" engine="twitter" />`
