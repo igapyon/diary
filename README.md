@@ -36,7 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-23 diary: ここにコンテンツのタイトル](2017/ig170123.html)
+* [2017-01-23 diary: あっというまに 1 月が過ぎていく](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 `regex` を Ant の中で利用する方法](2017/ig170121.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](2017/ig170120.html)
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [クックパッドの海外展開プロダクト開発ノウハウとは（後編）～ORは「オワ」か？「オレゴン州」か？ 問題。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/or_cookpad_techconf_2017.html) 2017/01/23
+* [クックパッドの海外展開プロダクト開発ノウハウとは（前編）～検索結果に言語や宗教が影響する。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/cookpad_techconf_2017.html) 2017/01/23
 * [［速報］Rubyのコアコミッター笹田耕一氏、クックパッドへ](http://www.publickey1.jp/blog/17/ruby.html) 2017/01/21
 * [Computerworld、Macworldなどのテック系メディアや調査会社IDCなどを展開するIDG、中国のChina Oceanwideが買収](http://www.publickey1.jp/blog/17/computerworldmacworldidcidgchina_oceanwide.html) 2017/01/20
 * [2017年にクラウドへのITインフラ投資は前年比18.2％増の急成長、従来の非クラウドへのITインフラ投資は3.3％減少。パブリッククラウドよりもプライベートクラウドの方が速く成長していると、IDC](http://www.publickey1.jp/blog/17/2017it182it33idc.html) 2017/01/20
 * [Google、Twitterのモバイル開発プラットフォーム「Fabric」を買収、モバイルバックエンドサービスの「Firebase」に統合。Firebaseのクラッシュ解析機能など強化へ](http://www.publickey1.jp/blog/17/googletwitterfabricfirebasefirebase.html) 2017/01/20
 * [米Yahoo!、自社で利用している継続的デリバリのためのツール「Screwdriver」をオープンソースで公開。大規模インフラに対応](http://www.publickey1.jp/blog/17/yahooscrewdriver.html) 2017/01/19
-* [オラクルがSPARC/Solarisのロードマップをひっそりとアップデート。今年、SPARC nextとSolaris 11.nextが登場か](http://www.publickey1.jp/blog/17/sparcsolarissparc_nextsolaris_11next.html) 2017/01/19
-* [ITエンジニアが投票した「ITエンジニア本大賞2017」ベスト10が発表。機械学習理論入門／SQLアンチパターン／達人プログラマー／ルビィのぼうけん、などランクイン](http://www.publickey1.jp/blog/17/itit201710sql.html) 2017/01/18
 
 
 <@rssfeed url="[http://rss.asahi.com/rss/asahi/newsheadlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
