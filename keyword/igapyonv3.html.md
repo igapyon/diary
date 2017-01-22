@@ -34,6 +34,8 @@ igapyonv3
 
 ## [igapyonv3] の歴史
 
+※このコンテンツは [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) から <@include /> によって参照されています。
+
 [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
 
 * 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
