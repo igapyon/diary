@@ -97,6 +97,8 @@ igapyonv3
   * [JDBC本](https://www.amazon.co.jp/exec/obidos/ASIN/4839913935/igapyondiary-22)
 * `<@linkmap word="mapテスト" lat="35.6722478" lon="139.7214164" />`
   * [地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
+* `<@lastmodified date="2017-01-22" />`
+  * Last modified: $Date: 2017-01-22 $
 
 ### リスト展開
 
