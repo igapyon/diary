@@ -14,7 +14,13 @@
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
 
+#### publickey 様
+
 <@rssfeed url="http://www.publickey1.jp/atom.xml" maxcount="7" /><#-- RSSフィード展開処理 -->
+
+#### asahi.com 様
+
+<@rssfeed url="http://rss.asahi.com/rss/asahi/newsheadlines.rdf" maxcount="5" /><#-- RSSフィード展開処理 -->
 
 ### 私むけ役立ちリンク
 

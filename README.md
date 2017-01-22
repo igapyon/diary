@@ -57,6 +57,8 @@
 
 よく参照させていただいている web サイトについて、RSS フィードさせていただいております。
 
+#### publickey 様
+
 #### [Publickey](http://www.publickey1.jp/)
 
 * [［速報］Rubyのコアコミッター笹田耕一氏、クックパッドへ](http://www.publickey1.jp/blog/17/ruby.html) 2017/01/21
@@ -66,6 +68,17 @@
 * [米Yahoo!、自社で利用している継続的デリバリのためのツール「Screwdriver」をオープンソースで公開。大規模インフラに対応](http://www.publickey1.jp/blog/17/yahooscrewdriver.html) 2017/01/19
 * [オラクルがSPARC/Solarisのロードマップをひっそりとアップデート。今年、SPARC nextとSolaris 11.nextが登場か](http://www.publickey1.jp/blog/17/sparcsolarissparc_nextsolaris_11next.html) 2017/01/19
 * [ITエンジニアが投票した「ITエンジニア本大賞2017」ベスト10が発表。機械学習理論入門／SQLアンチパターン／達人プログラマー／ルビィのぼうけん、などランクイン](http://www.publickey1.jp/blog/17/itit201710sql.html) 2017/01/18
+
+
+#### asahi.com 様
+
+#### [朝日新聞デジタル](http://www.asahi.com/)
+
+* [石油工場で火災　爆発の恐れ、１２８１世帯に避難指示](http://www.asahi.com/articles/ASK1Q5RHYK1QPXLB00M.html?ref=rss) 
+* [令状取りＧＰＳ捜査、千葉県警が全国初の実施](http://www.asahi.com/articles/ASK1Q6KJXK1QUDCB00M.html?ref=rss) 
+* [商業施設で女子高生に刃物　逮捕監禁容疑で男逮捕　広島](http://www.asahi.com/articles/ASK1Q6T20K1QPITB00D.html?ref=rss) 
+* [サルは去り、ゾウが「温泉」に　京都市動物園でお目見え](http://www.asahi.com/articles/ASK1Q4QBSK1QPQIP00K.html?ref=rss) 
+* [パプアニューギニアでＭ７・９　建物の一部が損壊](http://www.asahi.com/articles/ASK1Q4KFRK1QUHBI00S.html?ref=rss) 
 
 
 ### 私むけ役立ちリンク
