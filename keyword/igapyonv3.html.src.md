@@ -20,9 +20,9 @@
 
 ### 検索
 
-* <@linksearch title="Search on Igapyon Diary" word="igapyonv3" site="https://igapyon.github.io/diary/" />
-* <@linksearch title="Search in Google" word="igapyonv3" />
-* <@linksearch title="Search in Twitter" word="igapyonv3" engine="twitter" />
+* <@linksearch title="Search 'igapyonv3' in Igapyon Diary site" word="igapyonv3" site="https://igapyon.github.io/diary/" />
+* <@linksearch word="igapyonv3" />
+* <@linksearch word="igapyonv3" engine="twitter" />
 
 <#-- これ以降は分割されたサブコンテンツの読み込みにより実現されます -->
 

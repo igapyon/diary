@@ -26,9 +26,9 @@ igapyonv3
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=igapyonv3)
-* [Search in Twitter](https://twitter.com/search?q=%23igapyonv3)
+* [Search 'igapyonv3' in Igapyon Diary site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
+* [Search 'igapyonv3' in google](https://www.google.co.jp/#pws=0&q=igapyonv3)
+* [Search 'igapyonv3' in twitter](https://twitter.com/search?q=%23igapyonv3)
 
 
 
