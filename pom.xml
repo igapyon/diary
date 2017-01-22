@@ -141,10 +141,12 @@
 							verbose="true" />
 
 						<echo>ftp1</echo>
+						<!-- replace here -->
 						<property name="ftp.server" value="FTPSERVER" />
 						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
 						<property name="ftp.user" value="USER" />
 						<property name="ftp.pass" value="PASS" />
+						<!-- replace here -->
 						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
 							userid="${ftp.user}" password="${ftp.pass}" verbose="true">
 							<fileset dir="target/md2html">
@@ -152,14 +154,18 @@
 								<include name="**/idxall.html" />
 								<include name="**/idxkeyword.html" />
 								<include name="**/idxmemo.html" />
+								<include name="1996/*.html" />
+								<include name="2017/*.html" />
 							</fileset>
 						</ftp>
 
 						<echo>ftp2</echo>
+						<!-- replace here -->
 						<property name="ftp.server" value="FTPSERVER" />
 						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
 						<property name="ftp.user" value="USER" />
 						<property name="ftp.pass" value="PASS" />
+						<!-- replace here -->
 						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
 							userid="${ftp.user}" password="${ftp.pass}" verbose="true">
 							<fileset dir="target/md2html">
@@ -167,6 +173,8 @@
 								<include name="**/idxall.html" />
 								<include name="**/idxkeyword.html" />
 								<include name="**/idxmemo.html" />
+								<include name="1996/*.html" />
+								<include name="2017/*.html" />
 							</fileset>
 						</ftp>
 					</target>
