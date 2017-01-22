@@ -100,7 +100,10 @@ igapyonv3
 * `<@lastmodified date="2017-01-22" />`
   * Last modified: $Date: 2017-01-22 $
 
-* [next](https://igapyon.github.io/diary/2017/ig170115.html)
+* `<@linkprev />`
+  * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
+* `<@linknext />`
+  * [next](https://igapyon.github.io/diary/2017/ig170115.html)
 
 ### リスト展開
 
