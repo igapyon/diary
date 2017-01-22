@@ -262,4 +262,5 @@ Hiroko Miyazakiさんという方のページ。私と同じ作者のヴァイ�
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [日記ジェネレータ](https://github.com/igapyon/igapyonv3)
+
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E7%94%A8%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%BB%E3%83%A1%E3%83%A2&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fmemo%2Fmemoviolin.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)

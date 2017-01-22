@@ -39,4 +39,5 @@ C++Builder
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
-[いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [日記ジェネレータ](https://github.com/igapyon/igapyonv3)
+
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CC%2B%2BBuilder%2CC%2B%2B&text=C%2B%2BBuilder&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fcppbuilder.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)

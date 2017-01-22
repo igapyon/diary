@@ -43,4 +43,4 @@
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Ftemplate-footer) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A1997%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2F1997%2Findex.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
