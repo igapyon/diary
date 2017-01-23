@@ -37,9 +37,9 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-01-23 diary: あっというまに 1 月が過ぎていく](2017/ig170123.html)
+* [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
-* [2017-01-21 diary: [Ant] 正規表現 `regex` を Ant の中で利用する方法](2017/ig170121.html)
+* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](2017/ig170121.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](2017/ig170120.html)
 * [2017-01-19 diary: MacBook Air の macOS 再インストール手順メモ](2017/ig170119.html)
 * [2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル](2017/ig170118.html)

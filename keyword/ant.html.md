@@ -28,7 +28,7 @@ Ant
 
 ### 日記
 
-* [2017-01-21 diary: [Ant] 正規表現 `regex` を Ant の中で利用する方法](https://igapyon.github.io/diary/2017/ig170121.html)
+* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](https://igapyon.github.io/diary/2017/ig170121.html)
 * [2016-07-29 diary: [Ant] Ant で git タスクを使う方法](https://igapyon.github.io/diary/2016/ig160729.html)
 * [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](https://igapyon.github.io/diary/2013/ig130121.html)
 
