@@ -80,6 +80,7 @@
 * [OSS](oss.html)
 * [PHP](php.html)
 * [Python](python.html)
+* [regex](regex.html)
 * [ROME](rome.html)
 * [RSS](rss.html)
 * [Salesforce](salesforce.html)
