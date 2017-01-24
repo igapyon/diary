@@ -148,7 +148,7 @@
 						<property name="ftp.pass" value="PASS" />
 						<!-- replace here -->
 						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
-							userid="${ftp.user}" password="${ftp.pass}" verbose="true">
+							userid="${ftp.user}" password="${ftp.pass}" passive="true" retriesAllowed="3" verbose="true">
 							<fileset dir="target/md2html">
 								<include name="**/index.html" />
 								<include name="**/idxall.html" />
