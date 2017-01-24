@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>jp.igapyon.diary.v3</groupId>
 			<artifactId>IgapyonV3</artifactId>
-			<version>[1.2.6,2.0)</version>
+			<version>[1.2.7,2.0)</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
