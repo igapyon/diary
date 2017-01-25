@@ -36,7 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-26 diary: ここにコンテンツのタイトル](2017/ig170126.html)
+* [2017-01-26 diary: 今日も寒い](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](2017/ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)

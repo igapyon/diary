@@ -36,7 +36,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-26 diary: ここにコンテンツのタイトル](ig170126.html)
+* [2017-01-26 diary: 今日も寒い](ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](ig170123.html)
