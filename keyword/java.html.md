@@ -29,6 +29,7 @@ Java
 
 ### 日記
 
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](https://igapyon.github.io/diary/2017/ig170124.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](https://igapyon.github.io/diary/2017/ig170120.html)
 * [2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル](https://igapyon.github.io/diary/2017/ig170118.html)
 * [2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ](https://igapyon.github.io/diary/2017/ig170117.html)

@@ -28,6 +28,7 @@ Eclipse
 
 ### 日記
 
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](https://igapyon.github.io/diary/2017/ig170124.html)
 * [2016-09-13 diary: [Eclipse] git コミット時のユーザー名／メールアドレスの変更](https://igapyon.github.io/diary/2016/ig160913.html)
 * [2008-06-26 diary: [Eclipse] Ganymede リリース](https://igapyon.github.io/diary/2008/ig080626.html)
 

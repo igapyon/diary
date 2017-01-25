@@ -27,6 +27,7 @@ Ubuntu
 
 ### 日記
 
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](https://igapyon.github.io/diary/2017/ig170124.html)
 * [2016-12-14 diary: [Ubuntu] open vm tools](https://igapyon.github.io/diary/2016/ig161214.html)
 * [2016-12-02 diary: [Ubuntu] HDD 容量増加方法](https://igapyon.github.io/diary/2016/ig161202.html)
 * [2016-09-16 diary: [Ubuntu] 16.04 に Google Chrome インストールメモ](https://igapyon.github.io/diary/2016/ig160916.html)

@@ -36,8 +36,8 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-01-25 diary: ここにコンテンツのタイトル](ig170125.html)
-* [2017-01-24 diary: [Mac] に VirtualBox をインストール](ig170124.html)
+* [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](ig170121.html)
