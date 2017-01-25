@@ -121,6 +121,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-01-25 diary: ここにコンテンツのタイトル](ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール](ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](ig170122.html)

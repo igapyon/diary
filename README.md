@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-25 diary: ここにコンテンツのタイトル](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール](2017/ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
@@ -50,7 +51,6 @@
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](2017/ig170113.html)
 * [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
 * [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](2017/ig170111.html)
-* [2017-01-10 diary: Twitter シェアの機能を確認中](2017/ig170110.html)
 
 
 私のインターネットへのアンテナです。
