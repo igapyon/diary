@@ -36,7 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-24 diary: Mac に VirtualBox をインストール](2017/ig170124.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール](2017/ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](2017/ig170121.html)
@@ -63,13 +63,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [インタビュー：Rubyコミッターの笹田氏がクックパッドへの入社を決めた理由。オープンソースのコミッタはどのような思いで転職するのか？](http://www.publickey1.jp/blog/17/ruby_1.html) 2017/01/24
+* [Angularはなぜ大規模アプリケーション開発に適しているのか。そしてAngular対応の業務用UIコンポーネント「Wijmo」のメリットとは［PR］](http://www.publickey1.jp/blog/17/angularangularuiwijmopr.html) 2017/01/25
+* [インタビュー：Rubyコミッターの笹田氏がクックパッドへの入社を決めた理由。オープンソースのコミッタはどのような思いで転職するのか？](http://www.publickey1.jp/blog/17/ruby_1.html) 2017/01/25
 * [2020年末までに、日本のIT人材は質的に30万人以上の不足に陥る。IT部門の10％が組織の「一員」としてロボットやスマートマシンを採用する。ガートナージャパンの予測](http://www.publickey1.jp/blog/17/2020it30it10.html) 2017/01/24
 * [組織全体でGitHubを使うようになるまで（後編）～ エンジニアでなくてもGitHubは便利に使える。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/github_githubcookpad_techconf_2017.html) 2017/01/24
 * [組織全体でGitHubを使うようになるまで（前編）～ 使い方が分からない？ 使うのが怖い？ Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/github_cookpad_techconf_2017.html) 2017/01/24
 * [スケールアウトストレージのオールフラッシュ版、EMCが開発中のプロジェクト「Nitro」は、これまでのIsilonとどう違う？](http://www.publickey1.jp/blog/17/emcnitroisilon.html) 2017/01/23
 * [クックパッドの海外展開プロダクト開発ノウハウとは（後編）～ORは「オワ」か？「オレゴン州」か？ 問題。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/or_cookpad_techconf_2017.html) 2017/01/24
-* [クックパッドの海外展開プロダクト開発ノウハウとは（前編）～検索結果に言語や宗教が影響する。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/cookpad_techconf_2017.html) 2017/01/24
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

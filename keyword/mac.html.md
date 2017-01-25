@@ -27,6 +27,7 @@ Mac
 
 ### 日記
 
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール](https://igapyon.github.io/diary/2017/ig170124.html)
 * [2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応](https://igapyon.github.io/diary/2014/ig140901.html)
 * [2014-06-11 diary: [Mac] スクリーンショット取得は command + shift + 3](https://igapyon.github.io/diary/2014/ig140611.html)
 
