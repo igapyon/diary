@@ -11,10 +11,10 @@
 [Diary](https://igapyon.github.io/diary/)
 / [Facebook](https://www.facebook.com/igapyon)
 / [Twitter](https://twitter.com/ToshikiIga)
-/ [github](https://github.com/igapyon)
+/ [GitHub](https://github.com/igapyon)
 / [LinkedIn](https://www.linkedin.com/in/toshikiiga)
-/ [OSDN](https://ja.osdn.net/users/iga/)
 / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
+/ [OSDN](https://ja.osdn.net/users/iga/)
 
 [![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
 
