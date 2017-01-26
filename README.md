@@ -37,7 +37,7 @@
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
 * [2017-01-27 diary: 今日は寒いですが、昼は温かいとのこと](2017/ig170127.html)
-* [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] を呼び出すシンプルサンプル](2017/ig170126.html)
+* [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
