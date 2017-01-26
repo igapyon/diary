@@ -22,7 +22,7 @@
 * [オーガニックダイレクト](http://od1.pofa.jp/ec/frame.nsf)  2004有機農産物宅配 あぐりら の注文ページ。
 * [NIFTY Webメール](http://www.nifty.com/cgi-bin/cl?top1?https://enter.nifty.com/webmail)  2004愛用のWebメール
 * [gmail Webメール](http://gmail.google.com/gmail)  2005利用をはじめたWebメール
-* [blanco Framework (SourceForge.jp)](http://sourceforge.jp/projects/blancofw/)  2005R/Oマッピング
+* [blanco Framework (SourceForge.jp)](https://ja.osdn.net/projects/blancofw/)  2005R/Oマッピング
 * [asahi.com](http://www.asahi.com/)  2004朝日新聞オンライン
 * [KNOPPIX](http://unit.aist.go.jp/itri/knoppix/)  2004CDブート可能なLinuxディストリビューション
 * [Mozilla Firefox](http://www.mozilla-japan.org/products/firefox/)  2004急成長が期待されるオープンソースブラウザ
