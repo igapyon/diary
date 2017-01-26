@@ -121,6 +121,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-01-27 diary: 今日は寒いですが、昼は温かいとのこと](ig170127.html)
 * [2017-01-26 diary: 今日も寒い](ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](ig170124.html)

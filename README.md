@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-27 diary: 今日は寒いですが、昼は温かいとのこと](2017/ig170127.html)
 * [2017-01-26 diary: 今日も寒い](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
@@ -50,7 +51,6 @@
 * [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
 * [2017-01-13 diary: [igapyonv3] のソフトウェア構造](2017/ig170113.html)
-* [2017-01-12 diary: [Shell] シェルから内容込みでファイルを作成する方法メモ](2017/ig170112.html)
 
 
 私のインターネットへのアンテナです。
@@ -63,13 +63,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [マイクロソフト、Visual Studio 2017の一部「Visual Studio Test Platform」をオープンソースで公開。ユニットテストの実行や結果データの収集などを行うテスト基盤](http://www.publickey1.jp/blog/17/visual_studio_2017visual_studio_test_platform.html) 2017/01/27
 * [オラクル、今後のSolarisはメジャーバージョンアップせず。継続的デリバリで頻繁にリリースする新方針を表明。Solaris 11のサポート期間は2034年まで延長](http://www.publickey1.jp/blog/17/solarissolaris_112034.html) 2017/01/26
 * [シスコ、分散システムの性能をリアルタイムで監視するツール「AppDynamics」買収へ。ネットワークとサーバのインフラレイヤからアプリケーションレイヤまで統合的な性能監視を実現へ](http://www.publickey1.jp/blog/17/appdynamics_1.html) 2017/01/26
 * [Dockerの導入をAWSやAzureで一括実行してくれる「Docker for AWS」「Docker for Azure」が正式版に。Docker for GCPも開発中](http://www.publickey1.jp/blog/17/awsazuredockerdocker_for_awsdocker_for_azuredocker_for_gcp.html) 2017/01/26
 * [Docker 1.13正式版登場。複数Dockerイメージをまとめてデプロイする「Docker Stack Deploy」、使われていないイメージを削除する「Docker System Prune」など新機能](http://www.publickey1.jp/blog/17/docker_113dockerdocker_stack_deploydocker_system_prune.html) 2017/01/25
 * [Angularはなぜ大規模アプリケーション開発に適しているのか。そしてAngular対応の業務用UIコンポーネント「Wijmo」のメリットとは［PR］](http://www.publickey1.jp/blog/17/angularangularuiwijmopr.html) 2017/01/25
 * [インタビュー：Rubyコミッターの笹田氏がクックパッドへの入社を決めた理由。オープンソースのコミッタはどのような思いで転職するのか？](http://www.publickey1.jp/blog/17/ruby_1.html) 2017/01/25
-* [2020年末までに、日本のIT人材は質的に30万人以上の不足に陥る。IT部門の10％が組織の「一員」としてロボットやスマートマシンを採用する。ガートナージャパンの予測](http://www.publickey1.jp/blog/17/2020it30it10.html) 2017/01/24
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
