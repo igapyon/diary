@@ -31,6 +31,8 @@ public class App {
 		System.out.println("Convert .src.md to .md");
 
 		final IgapyonV3Settings settings = new IgapyonV3Settings();
+		settings.setBaseurl("https://igapyon.github.io/diary");
+		// settings.setBaseurl("http://www.igapyon.jp/igapyon/diary");
 
 		{
 			final String[][] ADDING_DOUBLE_KEYWORDS = new String[][] { //
