@@ -1,5 +1,5 @@
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
-[target](https://igapyon.github.io/diary/memo/memoigapyon.html) 
+[target](${settings.baseurl}/memo/memoigapyon.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
 / <@linkshare word="「いがぴょん」について" tags="igapyon,diary,いがぴょん,伊賀敏樹" />
@@ -8,7 +8,7 @@
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
-[Diary](https://igapyon.github.io/diary/)
+[Diary](${settings.baseurl}/)
 / [Facebook](https://www.facebook.com/igapyon)
 / [Twitter](https://twitter.com/ToshikiIga)
 / [GitHub](https://github.com/igapyon)
@@ -16,7 +16,7 @@
 / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
 / [OSDN](https://ja.osdn.net/users/iga/)
 
-[![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
+[![いがぴょん](${settings.baseurl}/images/iga200306.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
 
 ↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
 
@@ -58,7 +58,7 @@
 
 ## 日記
 
-* [いがぴょんの日記ウェブページv3](https://igapyon.github.io/diary/)
+* [いがぴょんの日記ウェブページv3](${settings.baseurl}/)
 
 ## 趣味
 
