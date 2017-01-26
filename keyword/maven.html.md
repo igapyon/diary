@@ -22,11 +22,17 @@ Maven は [Apache](apache.html) ファウンデーション配下のビルドシ
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Maven+Apache)
-* [Search on Publickey](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.publickey1.jp%2F+Maven+Apache)
+
+* [Search 'Maven Apache' site=igapyon in google](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Maven+Apache)
+* [Search 'Maven Apache' site=publickey in google](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.publickey1.jp%2F+Maven+Apache)
+* [Search 'Maven Apache' in google](https://www.google.co.jp/#pws=0&q=Maven+Apache)
+* [Search 'Maven Apache' in twitter](https://twitter.com/search?q=Maven+Apache)
+
+### Refs
+
 * [WikiPedia](https://ja.wikipedia.org/wiki/Apache_Maven)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=Maven+Apache)
-* [Search in Twitter](https://twitter.com/search?q=Maven+Apache)
+
+Last modified: $Date: 2017-01-27 $
 
 ### 日記
 
