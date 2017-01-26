@@ -121,7 +121,7 @@ igapyonv3
 
 `<@localrss />`
 
-* [2017-01-27 diary: [Ant] sf の URL を osdn に置き換え](ig170127.html)
+* [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](ig170124.html)
