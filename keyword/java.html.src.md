@@ -16,7 +16,6 @@
 
 ### 検索
 
-* <@linksearch title="Search on Igapyon Diary" word="Java" site="https://igapyon.github.io/diary/" />
-* <@linksearch title="Search in Google" word="Java" />
-* <@linksearch title="Search in Twitter" word="Java" engine="twitter" />
-
+* <@linksearch title="Search 'Java' site=igapyon in google" word="Java" site="https://igapyon.github.io/diary/" />
+* <@linksearch word="Java" />
+* <@linksearch word="Java" engine="twitter" />
