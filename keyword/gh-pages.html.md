@@ -8,7 +8,7 @@ gh-pages
 
 ## gh-pages
 
-[gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html) は、[github](https://igapyon.github.io/diary/keyword/github.html) が提供する コンテンツ html 化の機構です。
+[gh-pages](gh-pages.html) は、[github](github.html) が提供する コンテンツ html 化の機構です。
 
 ### URL
 
@@ -16,7 +16,7 @@ gh-pages
 
 ### 特徴
 
-* markdown (.md) 形式でコンテンツを作成したうえで、[github](https://igapyon.github.io/diary/keyword/github.html) の `gh-pages` ブランチにコミットすると `ｈttps://username.github.io/reposname` 形式の場所に静的サイトを公開できる仕組みです。
+* markdown (.md) 形式でコンテンツを作成したうえで、[github](github.html) の `gh-pages` ブランチにコミットすると `ｈttps://username.github.io/reposname` 形式の場所に静的サイトを公開できる仕組みです。
 
 ### 検索
 
@@ -26,7 +26,7 @@ gh-pages
 
 ### 日記
 
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -38,7 +38,7 @@
 
 * [2017-01-26 diary: 今日も寒い](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
-* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](2017/ig170124.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](2017/ig170121.html)
@@ -63,13 +63,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [オラクル、今後のSolarisはメジャーバージョンアップせず。継続的デリバリで頻繁にリリースする新方針を表明。Solaris 11のサポート期間は2034年まで延長](http://www.publickey1.jp/blog/17/solarissolaris_112034.html) 2017/01/26
+* [シスコ、分散システムの性能をリアルタイムで監視するツール「AppDynamics」買収へ。ネットワークとサーバのインフラレイヤからアプリケーションレイヤまで統合的な性能監視を実現へ](http://www.publickey1.jp/blog/17/appdynamics_1.html) 2017/01/26
+* [Dockerの導入をAWSやAzureで一括実行してくれる「Docker for AWS」「Docker for Azure」が正式版に。Docker for GCPも開発中](http://www.publickey1.jp/blog/17/awsazuredockerdocker_for_awsdocker_for_azuredocker_for_gcp.html) 2017/01/26
 * [Docker 1.13正式版登場。複数Dockerイメージをまとめてデプロイする「Docker Stack Deploy」、使われていないイメージを削除する「Docker System Prune」など新機能](http://www.publickey1.jp/blog/17/docker_113dockerdocker_stack_deploydocker_system_prune.html) 2017/01/25
 * [Angularはなぜ大規模アプリケーション開発に適しているのか。そしてAngular対応の業務用UIコンポーネント「Wijmo」のメリットとは［PR］](http://www.publickey1.jp/blog/17/angularangularuiwijmopr.html) 2017/01/25
 * [インタビュー：Rubyコミッターの笹田氏がクックパッドへの入社を決めた理由。オープンソースのコミッタはどのような思いで転職するのか？](http://www.publickey1.jp/blog/17/ruby_1.html) 2017/01/25
 * [2020年末までに、日本のIT人材は質的に30万人以上の不足に陥る。IT部門の10％が組織の「一員」としてロボットやスマートマシンを採用する。ガートナージャパンの予測](http://www.publickey1.jp/blog/17/2020it30it10.html) 2017/01/24
-* [組織全体でGitHubを使うようになるまで（後編）～ エンジニアでなくてもGitHubは便利に使える。Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/github_githubcookpad_techconf_2017.html) 2017/01/24
-* [組織全体でGitHubを使うようになるまで（前編）～ 使い方が分からない？ 使うのが怖い？ Cookpad TechConf 2017](http://www.publickey1.jp/blog/17/github_cookpad_techconf_2017.html) 2017/01/24
-* [スケールアウトストレージのオールフラッシュ版、EMCが開発中のプロジェクト「Nitro」は、これまでのIsilonとどう違う？](http://www.publickey1.jp/blog/17/emcnitroisilon.html) 2017/01/23
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

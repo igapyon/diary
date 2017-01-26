@@ -8,7 +8,7 @@ Eclipse
 
 ## Eclipse
 
-[Eclipse](https://igapyon.github.io/diary/keyword/eclipse.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) による統合開発環境のひとつです。
+[Eclipse](eclipse.html) は [OSS](oss.html) による統合開発環境のひとつです。
 
 ### URL
 
@@ -16,7 +16,7 @@ Eclipse
 
 ### 特徴
 
-* 特に [Java](https://igapyon.github.io/diary/keyword/java.html) 言語による開発で多く利用されています。
+* 特に [Java](java.html) 言語による開発で多く利用されています。
 * IBM が初期貢献したことにより生まれました。
 
 ### 検索
@@ -28,9 +28,9 @@ Eclipse
 
 ### 日記
 
-* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](https://igapyon.github.io/diary/2017/ig170124.html)
-* [2016-09-13 diary: [Eclipse] git コミット時のユーザー名／メールアドレスの変更](https://igapyon.github.io/diary/2016/ig160913.html)
-* [2008-06-26 diary: [Eclipse] Ganymede リリース](https://igapyon.github.io/diary/2008/ig080626.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
+* [2016-09-13 diary: [Eclipse] git コミット時のユーザー名／メールアドレスの変更](../2016/ig160913.html)
+* [2008-06-26 diary: [Eclipse] Ganymede リリース](../2008/ig080626.html)
 
 
 ----------------------------------------------------------------------------------------------------

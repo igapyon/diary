@@ -8,7 +8,7 @@ PHP
 
 ## PHP
 
-[PHP](https://igapyon.github.io/diary/keyword/php.html) は プログラミング言語のひとつです。
+[PHP](php.html) は プログラミング言語のひとつです。
 
 ### URL
 
@@ -27,7 +27,7 @@ PHP
 
 ### 日記
 
-* [2016-11-07 diary: [PHP] PHPメモ：配列をロギング](https://igapyon.github.io/diary/2016/ig161107.html)
+* [2016-11-07 diary: [PHP] PHPメモ：配列をロギング](../2016/ig161107.html)
 
 
 ----------------------------------------------------------------------------------------------------

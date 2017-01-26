@@ -8,7 +8,7 @@ CMS
 
 ## CMS
 
-[CMS](https://igapyon.github.io/diary/keyword/cms.html) はコンテンツ管理システムの略です。
+[CMS](cms.html) はコンテンツ管理システムの略です。
 
 ### URL
 
@@ -26,7 +26,7 @@ CMS
 
 ### 日記
 
-* [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア, VFSベースのGUIファイラーが欲しい→VfsFileManager, [CMS]](https://igapyon.github.io/diary/2005/ig050701.html)
+* [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア, VFSベースのGUIファイラーが欲しい→VfsFileManager, [CMS]](../2005/ig050701.html)
 
 
 ----------------------------------------------------------------------------------------------------

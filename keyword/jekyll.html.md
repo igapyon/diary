@@ -8,7 +8,7 @@ jekyll
 
 ## jekyll
 
-[jekyll](https://igapyon.github.io/diary/keyword/jekyll.html) は、[Markdown](https://igapyon.github.io/diary/keyword/markdown.html) '.md' などから静的 html などを生成するためのツールです。
+[jekyll](jekyll.html) は、[Markdown](markdown.html) '.md' などから静的 html などを生成するためのツールです。
 
 ### URL
 
@@ -16,7 +16,7 @@ jekyll
 
 ### 特徴
 
-* [github](https://igapyon.github.io/diary/keyword/github.html) の [gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html) などで利用されています。
+* [github](github.html) の [gh-pages](gh-pages.html) などで利用されています。
 * Ruby で書かれています。
 
 ### 検索
@@ -27,7 +27,7 @@ jekyll
 
 ### 日記
 
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](https://igapyon.github.io/diary/2017/ig170104.html)
+* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../2017/ig170104.html)
 
 
 ----------------------------------------------------------------------------------------------------

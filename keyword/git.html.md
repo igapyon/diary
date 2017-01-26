@@ -8,7 +8,7 @@ git
 
 ## git
 
-[git](https://igapyon.github.io/diary/keyword/git.html) は、ソースコード管理システムのひとつ、およびそのコマンドライン・インタフェースです。
+[git](git.html) は、ソースコード管理システムのひとつ、およびそのコマンドライン・インタフェースです。
 
 ### URL
 
@@ -18,8 +18,8 @@ git
 ### 特徴
 
 * 分散リポジトリ利用において優れています。
-* [OSS](https://igapyon.github.io/diary/keyword/oss.html) で提供されています。
-* [Linux](https://igapyon.github.io/diary/keyword/linux.html) 開発におけるニーズにより設計されました。
+* [OSS](oss.html) で提供されています。
+* [Linux](linux.html) 開発におけるニーズにより設計されました。
 * 初期の学習コストが少し高めです。
 * [【改訂新版】Gitポケットリファレンス](https://www.amazon.co.jp/exec/obidos/ASIN/4774185930/igapyondiary-22)
 
@@ -31,7 +31,7 @@ git
 
 ### 日記
 
-* [2016-12-17 diary: [git] 基本コマンドメモ](https://igapyon.github.io/diary/2016/ig161217.html)
+* [2016-12-17 diary: [git] 基本コマンドメモ](../2016/ig161217.html)
 
 
 ----------------------------------------------------------------------------------------------------

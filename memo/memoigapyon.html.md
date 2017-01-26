@@ -41,8 +41,8 @@
   * ソースコードや設定ファイルなどの自動生成系を得意としています。
 * テクニカルライターという役割も担います。
 * オープンソースへの関与
-  * 様々な [OSS](https://igapyon.github.io/diary/keyword/oss.html) の開発に関与しています。
-  * blanco Framework ([blancofw](https://igapyon.github.io/diary/keyword/blancofw.html))というオープンソース開発フレームワークのコミッタを担当しています。
+  * 様々な [OSS](../keyword/oss.html) の開発に関与しています。
+  * blanco Framework ([blancofw](../keyword/blancofw.html))というオープンソース開発フレームワークのコミッタを担当しています。
   * Pleiadesというオープンソースに携わっています。こちらでは翻訳レビューを担当しています。
   * Benten というオープンソースに携わっています。こちらでは開発者を担当しています。
 * オープンソース／Java系集会の講師やパネリストなどを担当することもあります。
@@ -69,7 +69,7 @@
 
 * ヴァイオリン演奏 (弦楽四重奏およびオーケストラ)
 * オープンソース・プログラミング
-* 日記エンジン開発 [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html)
+* 日記エンジン開発 [igapyonv3](../keyword/igapyonv3.html)
 * 囲碁
   * 於：日本棋院
   * 2009.04 1級  

@@ -8,7 +8,7 @@ regex
 
 ## regex
 
-[regex](https://igapyon.github.io/diary/keyword/regex.html) はコンピュータソフトウェアのプログラミングで利用される正規表現（Regular Expression）の略です。
+[regex](regex.html) はコンピュータソフトウェアのプログラミングで利用される正規表現（Regular Expression）の略です。
 
 ### 特徴
 
@@ -25,7 +25,7 @@ regex
 
 ### 日記
 
-* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](https://igapyon.github.io/diary/2017/ig170121.html)
+* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](../2017/ig170121.html)
 
 
 ----------------------------------------------------------------------------------------------------

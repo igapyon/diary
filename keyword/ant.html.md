@@ -8,7 +8,7 @@ Ant
 
 ## Ant
 
-[Ant](https://igapyon.github.io/diary/keyword/ant.html) は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファウンデーションが提供している Java 向けビルドツールです。
+[Ant](ant.html) は [Apache](apache.html) ファウンデーションが提供している Java 向けビルドツールです。
 
 ### URL
 
@@ -16,9 +16,9 @@ Ant
 
 ### 特徴
 
-* とても広く利用されてきた [Java](https://igapyon.github.io/diary/keyword/java.html) 向けビルドシステムです。
+* とても広く利用されてきた [Java](java.html) 向けビルドシステムです。
 * build.xml というファイルが実行に関連あります。
-* 最近は [Maven](https://igapyon.github.io/diary/keyword/maven.html) に置き換わる傾向にあります。
+* 最近は [Maven](maven.html) に置き換わる傾向にあります。
 
 ### 検索
 
@@ -28,9 +28,9 @@ Ant
 
 ### 日記
 
-* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](https://igapyon.github.io/diary/2017/ig170121.html)
-* [2016-07-29 diary: [Ant] Ant で git タスクを使う方法](https://igapyon.github.io/diary/2016/ig160729.html)
-* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](https://igapyon.github.io/diary/2013/ig130121.html)
+* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](../2017/ig170121.html)
+* [2016-07-29 diary: [Ant] Ant で git タスクを使う方法](../2016/ig160729.html)
+* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](../2013/ig130121.html)
 
 
 ----------------------------------------------------------------------------------------------------

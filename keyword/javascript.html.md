@@ -8,7 +8,7 @@ JavaScript
 
 ## JavaScript
 
-[JavaScript](https://igapyon.github.io/diary/keyword/javascript.html) はプログラミング言語のひとつです。
+[JavaScript](javascript.html) はプログラミング言語のひとつです。
 
 ### URL
 
@@ -29,7 +29,7 @@ JavaScript
 
 ### 日記
 
-* [2016-12-12 diary: [JavaScript] innerHTML にテキストHTMLを突っ込む際の使い方メモ](https://igapyon.github.io/diary/2016/ig161212.html)
+* [2016-12-12 diary: [JavaScript] innerHTML にテキストHTMLを突っ込む際の使い方メモ](../2016/ig161212.html)
 
 
 ----------------------------------------------------------------------------------------------------

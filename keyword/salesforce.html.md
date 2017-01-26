@@ -8,7 +8,7 @@ Salesforce
 
 ## Salesforce
 
-[Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は 営業支援を起源とするクラウドサービスです。
+[Salesforce](salesforce.html) は 営業支援を起源とするクラウドサービスです。
 
 ### URL
 
@@ -16,8 +16,8 @@ Salesforce
 
 ### 特徴
 
-* [Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) は 営業支援を起源とするクラウドサービスです。
-* これをベースにした汎用のアプリケーション開発環境 [Force.com](https://igapyon.github.io/diary/keyword/force.com.html) などがある。
+* [Salesforce](salesforce.html) は 営業支援を起源とするクラウドサービスです。
+* これをベースにした汎用のアプリケーション開発環境 [Force.com](force.com.html) などがある。
 * とてもすばやく web アプリケーション開発することを可能にします。
 
 ### 検索
@@ -29,8 +29,8 @@ Salesforce
 
 ### 日記
 
-* [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](https://igapyon.github.io/diary/2016/ig160519.html)
-* [2016-05-18 diary: [Salesforce] Apex Force.com IDE](https://igapyon.github.io/diary/2016/ig160518.html)
+* [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](../2016/ig160519.html)
+* [2016-05-18 diary: [Salesforce] Apex Force.com IDE](../2016/ig160518.html)
 
 
 ----------------------------------------------------------------------------------------------------

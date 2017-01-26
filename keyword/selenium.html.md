@@ -8,7 +8,7 @@ Selenium
 
 ## Selenium
 
-[Selenium](https://igapyon.github.io/diary/keyword/selenium.html) は、、、、です。
+[Selenium](selenium.html) は、、、、です。
 
 ### URL
 
@@ -27,10 +27,10 @@ Selenium
 
 ### 日記
 
-* [2016-11-16 diary: [Selenium] 初めての Selenium Web Driver with Java (v2)](https://igapyon.github.io/diary/2016/ig161116.html)
-* [2016-11-10 diary: [Selenium] Selenium Java 小ネタ](https://igapyon.github.io/diary/2016/ig161110.html)
-* [2016-11-09 diary: [Selenium] 初めての Selenium Web Driver with Java](https://igapyon.github.io/diary/2016/ig161109.html)
-* [2016-11-08 diary: [Selenium] Selenium 3 メモ](https://igapyon.github.io/diary/2016/ig161108.html)
+* [2016-11-16 diary: [Selenium] 初めての Selenium Web Driver with Java (v2)](../2016/ig161116.html)
+* [2016-11-10 diary: [Selenium] Selenium Java 小ネタ](../2016/ig161110.html)
+* [2016-11-09 diary: [Selenium] 初めての Selenium Web Driver with Java](../2016/ig161109.html)
+* [2016-11-08 diary: [Selenium] Selenium 3 メモ](../2016/ig161108.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ blancofw
 
 ## blancofw
 
-[blancofw](https://igapyon.github.io/diary/keyword/blancofw.html) は、 blanco Framework の略称であり、オープンソースプロダクトのひとつです。
+[blancofw](blancofw.html) は、 blanco Framework の略称であり、オープンソースプロダクトのひとつです。
 
 ### URL
 
@@ -16,7 +16,7 @@ blancofw
 
 ### 特徴
 
-* [OSS](https://igapyon.github.io/diary/keyword/oss.html) による [Java](https://igapyon.github.io/diary/keyword/java.html) で実装されたアプリケーション開発フレームワークです。
+* [OSS](oss.html) による [Java](java.html) で実装されたアプリケーション開発フレームワークです。
 
 ### 検索
 
@@ -26,7 +26,7 @@ blancofw
 
 ### 日記
 
-* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
+* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](../2016/ig161215.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ Groovy
 
 ## Groovy
 
-[Groovy](https://igapyon.github.io/diary/keyword/groovy.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) のプログラミング言語のひとつです。
+[Groovy](groovy.html) は [OSS](oss.html) のプログラミング言語のひとつです。
 
 ### URL
 
@@ -16,7 +16,7 @@ Groovy
 
 ### 特徴
 
-* [Java](https://igapyon.github.io/diary/keyword/java.html) ベースのプログラミング言語であり、多くの Java ライブラリが利用可能です。
+* [Java](java.html) ベースのプログラミング言語であり、多くの Java ライブラリが利用可能です。
 * 簡素なプログラミング記述が可能であり、生産性が高いです。
 
 ### 検索
@@ -27,7 +27,7 @@ Groovy
 
 ### 日記
 
-* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](https://igapyon.github.io/diary/2016/ig161219.html)
+* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](../2016/ig161219.html)
 
 
 ----------------------------------------------------------------------------------------------------

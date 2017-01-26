@@ -8,7 +8,7 @@ OAuth
 
 ## OAuth
 
-[OAuth](https://igapyon.github.io/diary/keyword/oauth.html) は http(s) をベースにした認可を実現するプロトコルです。
+[OAuth](oauth.html) は http(s) をベースにした認可を実現するプロトコルです。
 
 ### URL
 
@@ -27,7 +27,7 @@ OAuth
 
 ### 日記
 
-* [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](https://igapyon.github.io/diary/2012/ig121107.html)
+* [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](../2012/ig121107.html)
 
 
 ----------------------------------------------------------------------------------------------------

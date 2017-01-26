@@ -8,7 +8,7 @@ Facelets
 
 ## Facelets
 
-[Facelets](https://igapyon.github.io/diary/keyword/facelets.html) は、、、、です。
+[Facelets](facelets.html) は、、、、です。
 
 ### URL
 
@@ -27,11 +27,11 @@ Facelets
 
 ### 日記
 
-* [2012-02-12 diary: [Facelets] Manjyu Facelets Wiki サイト](https://igapyon.github.io/diary/2012/ig120212.html)
-* [2012-02-11 diary: [Facelets] XHTML をダイレクトアクセスから隠す方法](https://igapyon.github.io/diary/2012/ig120211.html)
-* [2012-02-04 diary: [Facelets] JavaScript から JSF Facelets のタグを呼び出す方法 (jQuery 併用)](https://igapyon.github.io/diary/2012/ig120204.html)
-* [2012-02-03 diary: [Facelets] Servlet から  FacesContext を取得する小技](https://igapyon.github.io/diary/2012/ig120203.html)
-* [2011-11-28 diary: [Facelets] JavaServer Faces: Facelets: サブディレクトリ付きの JSF URI へのアクセスの設定方法](https://igapyon.github.io/diary/2011/ig111128.html)
+* [2012-02-12 diary: [Facelets] Manjyu Facelets Wiki サイト](../2012/ig120212.html)
+* [2012-02-11 diary: [Facelets] XHTML をダイレクトアクセスから隠す方法](../2012/ig120211.html)
+* [2012-02-04 diary: [Facelets] JavaScript から JSF Facelets のタグを呼び出す方法 (jQuery 併用)](../2012/ig120204.html)
+* [2012-02-03 diary: [Facelets] Servlet から  FacesContext を取得する小技](../2012/ig120203.html)
+* [2011-11-28 diary: [Facelets] JavaServer Faces: Facelets: サブディレクトリ付きの JSF URI へのアクセスの設定方法](../2011/ig111128.html)
 
 
 ----------------------------------------------------------------------------------------------------

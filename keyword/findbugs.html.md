@@ -8,7 +8,7 @@ FindBugs
 
 ## FindBugs
 
-[FindBugs](https://igapyon.github.io/diary/keyword/findbugs.html) は、、、、です。
+[FindBugs](findbugs.html) は、、、、です。
 
 ### URL
 
@@ -27,7 +27,7 @@ FindBugs
 
 ### 日記
 
-* [2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル](https://igapyon.github.io/diary/2014/ig140316.html)
+* [2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル](../2014/ig140316.html)
 
 
 ----------------------------------------------------------------------------------------------------

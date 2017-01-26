@@ -8,7 +8,7 @@ Servlet
 
 ## Servlet
 
-[Servlet](https://igapyon.github.io/diary/keyword/servlet.html) は、、、、です。
+[Servlet](servlet.html) は、、、、です。
 
 ### URL
 
@@ -27,7 +27,7 @@ Servlet
 
 ### 日記
 
-* [2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)](https://igapyon.github.io/diary/2014/ig140227.html)
+* [2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)](../2014/ig140227.html)
 
 
 ----------------------------------------------------------------------------------------------------

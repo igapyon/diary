@@ -10,7 +10,7 @@ igapyonv3
 
 ## igapyonv3
 
-[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は、「いがぴょんの日記ウェブページv3」という日記を記述する目的から作られた、日記執筆者自身の手によって開発された日記システムです。
+[igapyonv3](igapyonv3.html) は、「いがぴょんの日記ウェブページv3」という日記を記述する目的から作られた、日記執筆者自身の手によって開発された日記システムです。
 
 ### URL
 
@@ -19,7 +19,7 @@ igapyonv3
 
 ### igapyonv3 の利用例
 
-[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) の利用例には以下のようなものがあります。
+[igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
 * [http://www.igapyon.jp/igapyon/diary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
@@ -34,9 +34,9 @@ igapyonv3
 
 ## [igapyonv3] の歴史
 
-※このコンテンツは [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) から <@include /> によって参照されています。
+※このコンテンツは [igapyonv3](igapyonv3.html) から <@include /> によって参照されています。
 
-[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
+[igapyonv3](igapyonv3.html) は約20年の歴史を持つ日記ジェネレータシステムです。最新版はバージョン3です。
 
 * 日記ジェネレータのバージョン1 (v1) は 1997頃に作成されました。
   * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
@@ -44,38 +44,38 @@ igapyonv3
   * コンテンツは html で記述し、html ファイルを入力に html ファイルを生成
   * 概ね OSS により構築されていました。
 * 日記ジェネレータのバージョン3 (v3) は 2017頃に作成されました。
-  * コンテンツは [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
+  * コンテンツは [Markdown](markdown.html) で記述し、md ファイルを入力に md ファイルおよび html ファイルを生成
   * 基本的に OSS により構築されており、またソースコードは公開されています。
 
 
 ## [igapyonv3] のソフトウェア構造
 
-現時点の [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) のソフトウェア構造に関するメモをします。
+現時点の [igapyonv3](igapyonv3.html) のソフトウェア構造に関するメモをします。
 
-※このコンテンツは [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) から `<@include />` によって参照されています。
+※このコンテンツは [igapyonv3](igapyonv3.html) から `<@include />` によって参照されています。
 
 ## 全体的な構造
 
-* [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) ファイルを中心とした [CMS](https://igapyon.github.io/diary/keyword/cms.html) システムです。
-  * コンテンツを [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で書くだけです。
-  * 生成後のコンテンツは [github](https://igapyon.github.io/diary/keyword/github.html) 上の [gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html) 上で公開することが可能になっています。
-  * テンプレートエンジンに [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) を採用しています。
-  * [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) 向けの [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) カスタムディレクティブが組み込まれており、例えば日記インデックスファイルを自動生成可能であるなど、日記執筆が極めてはかどります。
+* [Markdown](markdown.html) ファイルを中心とした [CMS](cms.html) システムです。
+  * コンテンツを [Markdown](markdown.html) で書くだけです。
+  * 生成後のコンテンツは [github](github.html) 上の [gh-pages](gh-pages.html) 上で公開することが可能になっています。
+  * テンプレートエンジンに [FreeMarker](freemarker.html) を採用しています。
+  * [igapyonv3](igapyonv3.html) 向けの [FreeMarker](freemarker.html) カスタムディレクティブが組み込まれており、例えば日記インデックスファイルを自動生成可能であるなど、日記執筆が極めてはかどります。
 * ソフトウェアに関すること
-  * 基本的に [OSS](https://igapyon.github.io/diary/keyword/oss.html) のみで構成されています。
+  * 基本的に [OSS](oss.html) のみで構成されています。
   * 静的コンテンツを生成する手法を採用しています。アプリケーションサーバーなどの動的サーバーは不要です。
-  * [Java](https://igapyon.github.io/diary/keyword/java.html) 言語で記述されており、実行には [Maven](https://igapyon.github.io/diary/keyword/maven.html) が必要です。
+  * [Java](java.html) 言語で記述されており、実行には [Maven](maven.html) が必要です。
 * 導入による技術的な副作用がとても小さいです。
   * 基本的にテキストファイルだけで動作します。
   * 実行に RDBMS などのミドルウェア類は不要です。
-  * [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) で完結しているため、他システムへの移行や他システムからの移行が簡単です。
+  * [Markdown](markdown.html) で完結しているため、他システムへの移行や他システムからの移行が簡単です。
 
 
 ## [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧
 
-[igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) の [Markdown](https://igapyon.github.io/diary/keyword/markdown.html) ファイルの中で利用することができるカスタム ディレクティブ一覧を以下にメモしておきます。
+[igapyonv3](igapyonv3.html) の [Markdown](markdown.html) ファイルの中で利用することができるカスタム ディレクティブ一覧を以下にメモしておきます。
 
-※このコンテンツは [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) から `<@include />` によって参照されています。
+※このコンテンツは [igapyonv3](igapyonv3.html) から `<@include />` によって参照されています。
 
 ### リンク出力
 
@@ -123,7 +123,7 @@ igapyonv3
 
 * [2017-01-26 diary: 今日も寒い](ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
-* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] など](ig170124.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](ig170124.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](ig170123.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](ig170121.html)
@@ -178,15 +178,15 @@ igapyonv3
 
 ## 登場キーワード
 
-* [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html)
-* [Markdown](https://igapyon.github.io/diary/keyword/markdown.html)
-* [CMS](https://igapyon.github.io/diary/keyword/cms.html)
-* [github](https://igapyon.github.io/diary/keyword/github.html)
-* [gh-pages](https://igapyon.github.io/diary/keyword/gh-pages.html)
-* [FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html)
-* [OSS](https://igapyon.github.io/diary/keyword/oss.html)
-* [Java](https://igapyon.github.io/diary/keyword/java.html)
-* [Maven](https://igapyon.github.io/diary/keyword/maven.html)
+* [igapyonv3](../keyword/igapyonv3.html)
+* [Markdown](../keyword/markdown.html)
+* [CMS](../keyword/cms.html)
+* [github](../keyword/github.html)
+* [gh-pages](../keyword/gh-pages.html)
+* [FreeMarker](../keyword/freemarker.html)
+* [OSS](../keyword/oss.html)
+* [Java](../keyword/java.html)
+* [Maven](../keyword/maven.html)
 
 
 ### 取り込み展開
@@ -197,7 +197,7 @@ igapyonv3
 
 ## 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中
 
-いがぴょんの日記v3 システム [igapyonv3](https://igapyon.github.io/diary/keyword/igapyonv3.html) について、すこしずつ機能追加してみています。
+いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
 
 * `favicon` を配置してみました。しかし、うまくいっていないようです。
   * favicon 作成には [https://ao-system.net/favicongenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
@@ -208,17 +208,17 @@ igapyonv3
 
 ### 日記
 
-* [2017-01-25 diary: [igapyonv3] 日記システム UI 考](https://igapyon.github.io/diary/2017/ig170125.html)
-* [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](https://igapyon.github.io/diary/2017/ig170122.html)
-* [2017-01-15 diary: [igapyonv3] の歴史](https://igapyon.github.io/diary/2017/ig170115.html)
-* [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
-* [2017-01-13 diary: [igapyonv3] のソフトウェア構造](https://igapyon.github.io/diary/2017/ig170113.html)
-* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](https://igapyon.github.io/diary/2017/ig170111.html)
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
-* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](https://igapyon.github.io/diary/2017/ig170108.html)
-* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](https://igapyon.github.io/diary/2017/ig170103.html)
-* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](https://igapyon.github.io/diary/2016/ig161230.html)
-* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
+* [2017-01-25 diary: [igapyonv3] 日記システム UI 考](../2017/ig170125.html)
+* [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](../2017/ig170122.html)
+* [2017-01-15 diary: [igapyonv3] の歴史](../2017/ig170115.html)
+* [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](../2017/ig170114.html)
+* [2017-01-13 diary: [igapyonv3] のソフトウェア構造](../2017/ig170113.html)
+* [2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい](../2017/ig170111.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
+* [2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中](../2017/ig170108.html)
+* [2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中](../2017/ig170103.html)
+* [2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中](../2016/ig161230.html)
+* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール](../2015/ig150724.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ LLVM
 
 ## LLVM
 
-[LLVM](https://igapyon.github.io/diary/keyword/llvm.html) は、、、、です。
+[LLVM](llvm.html) は、、、、です。
 
 ### URL
 
@@ -27,7 +27,7 @@ LLVM
 
 ### 日記
 
-* [2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩](https://igapyon.github.io/diary/2013/ig130116.html)
+* [2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩](../2013/ig130116.html)
 
 
 ----------------------------------------------------------------------------------------------------

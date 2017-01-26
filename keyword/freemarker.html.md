@@ -8,7 +8,7 @@ FreeMarker
 
 ## FreeMarker
 
-[FreeMarker](https://igapyon.github.io/diary/keyword/freemarker.html) は [Apache](https://igapyon.github.io/diary/keyword/apache.html) ファウンデーション配下のテンプレートエンジンです。
+[FreeMarker](freemarker.html) は [Apache](apache.html) ファウンデーション配下のテンプレートエンジンです。
 
 ### URL
 
@@ -16,7 +16,7 @@ FreeMarker
 
 ### 特徴
 
-* [Java](https://igapyon.github.io/diary/keyword/java.html) で書かれたテンプレートシステムです。
+* [Java](java.html) で書かれたテンプレートシステムです。
 * HTML 以外に平文テキストも扱うことができます。
 * Apache Velocity の後継とみなすこともできます。
 * Spring もサポートしている、現時点では最もポピューラーな Java 向けテンプレートエンジンのひとつです。
@@ -33,11 +33,11 @@ FreeMarker
 
 ### 日記
 
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](https://igapyon.github.io/diary/2017/ig170109.html)
-* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](https://igapyon.github.io/diary/2017/ig170107.html)
-* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](https://igapyon.github.io/diary/2017/ig170106.html)
-* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](https://igapyon.github.io/diary/2017/ig170105.html)
-* [2017-01-01 diary: [FreeMarker] シンプルサンプル](https://igapyon.github.io/diary/2017/ig170101.html)
+* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
+* [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](../2017/ig170107.html)
+* [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](../2017/ig170106.html)
+* [2017-01-05 diary: [FreeMarker] の処理解釈を抑止する方法](../2017/ig170105.html)
+* [2017-01-01 diary: [FreeMarker] シンプルサンプル](../2017/ig170101.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ Bootstrap
 
 ## Bootstrap
 
-[Bootstrap](https://igapyon.github.io/diary/keyword/bootstrap.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) のデザイン系フレームワークです。
+[Bootstrap](bootstrap.html) は [OSS](oss.html) のデザイン系フレームワークです。
 
 ### URL
 
@@ -29,7 +29,7 @@ Bootstrap
 
 ### 日記
 
-* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール](https://igapyon.github.io/diary/2015/ig150724.html)
+* [2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール](../2015/ig150724.html)
 
 
 ----------------------------------------------------------------------------------------------------

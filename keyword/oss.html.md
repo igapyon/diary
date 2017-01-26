@@ -8,7 +8,7 @@ OSS
 
 ## OSS
 
-[OSS](https://igapyon.github.io/diary/keyword/oss.html) はオープンソースソフトウェアの略です。詳しくは [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html) を参照してください。
+[OSS](oss.html) はオープンソースソフトウェアの略です。詳しくは [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html) を参照してください。
 
 ### URL
 
@@ -17,7 +17,7 @@ OSS
 
 ### 特徴
 
-* 現在、IT の世界は 多くの [OSS](https://igapyon.github.io/diary/keyword/oss.html) により支えられています。
+* 現在、IT の世界は 多くの [OSS](oss.html) により支えられています。
 
 ### 検索
 
@@ -28,7 +28,7 @@ OSS
 
 ### 日記
 
-* [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](https://igapyon.github.io/diary/2012/ig121114.html)
+* [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](../2012/ig121114.html)
 
 
 ----------------------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ Apache
 
 ## Apache
 
-[Apache](https://igapyon.github.io/diary/keyword/apache.html) は、オープンソースプロダクト群を提供している有名なオープンソース集団です。
+[Apache](apache.html) は、オープンソースプロダクト群を提供している有名なオープンソース集団です。
 
 ### URL
 
@@ -16,8 +16,8 @@ Apache
 
 ### 特徴
 
-* さまざまな [OSS](https://igapyon.github.io/diary/keyword/oss.html) のプロダクトを提供するファウンデーションです。
-* [Apache](https://igapyon.github.io/diary/keyword/apache.html) は もともとフリーな web サーバーを提供する集団からスタートしました。
+* さまざまな [OSS](oss.html) のプロダクトを提供するファウンデーションです。
+* [Apache](apache.html) は もともとフリーな web サーバーを提供する集団からスタートしました。
 
 ### 検索
 
@@ -27,10 +27,10 @@ Apache
 
 ### 日記
 
-* [2016-07-03 diary: [Apache] Commons IO によるファイルI/Oコード省力化](https://igapyon.github.io/diary/2016/ig160703.html)
-* [2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定](https://igapyon.github.io/diary/2012/ig121028.html)
-* [2012-10-26 diary: [Ubuntu][Apache] Ubuntu 12.04 + Apache2 で SSL 自己証明書](https://igapyon.github.io/diary/2012/ig121026.html)
-* [2012-10-25 diary: [Apache][Ubuntu] Apache HTTP メソッド公開状況確認方法](https://igapyon.github.io/diary/2012/ig121025.html)
+* [2016-07-03 diary: [Apache] Commons IO によるファイルI/Oコード省力化](../2016/ig160703.html)
+* [2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定](../2012/ig121028.html)
+* [2012-10-26 diary: [Ubuntu][Apache] Ubuntu 12.04 + Apache2 で SSL 自己証明書](../2012/ig121026.html)
+* [2012-10-25 diary: [Apache][Ubuntu] Apache HTTP メソッド公開状況確認方法](../2012/ig121025.html)
 
 
 ----------------------------------------------------------------------------------------------------

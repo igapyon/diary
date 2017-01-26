@@ -8,7 +8,7 @@ Force.com
 
 ## Force.com
 
-[Force.com](https://igapyon.github.io/diary/keyword/force.com.html) は [Salesforce](https://igapyon.github.io/diary/keyword/salesforce.html) を起源とする web ベース統合開発環境です。
+[Force.com](force.com.html) は [Salesforce](salesforce.html) を起源とする web ベース統合開発環境です。
 
 ### URL
 
@@ -27,21 +27,21 @@ Force.com
 
 ### 日記
 
-* [2016-10-05 diary: [Force.com] シンプルな Visualforce + Apex サンプル](https://igapyon.github.io/diary/2016/ig161005.html)
-* [2016-09-14 diary: [Force.com] Migration Tool のセットアップ](https://igapyon.github.io/diary/2016/ig160914.html)
-* [2016-08-22 diary: [Force.com] 私なりの Force.com 開発者向け SFDC Trailhead 学習順序](https://igapyon.github.io/diary/2016/ig160822.html)
-* [2016-07-28 diary: [Force.com][Tooling API] メモ: クラス取得](https://igapyon.github.io/diary/2016/ig160728.html)
-* [2016-07-27 diary: [Force.com][Tooling API] メモ: クラス作成](https://igapyon.github.io/diary/2016/ig160727.html)
-* [2016-07-26 diary: [Force.com][Tooling API] メモ: クラス更新](https://igapyon.github.io/diary/2016/ig160726.html)
-* [2016-07-25 diary: [Force.com] 認定試験メモ](https://igapyon.github.io/diary/2016/ig160725.html)
-* [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](https://igapyon.github.io/diary/2016/ig160724.html)
-* [2016-07-20 diary: [Force.com] シンプル Visualforce サンプル](https://igapyon.github.io/diary/2016/ig160720.html)
-* [2016-07-15 diary: [Force.com] ネタ Test で こんにちは世界](https://igapyon.github.io/diary/2016/ig160715.html)
-* [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](https://igapyon.github.io/diary/2016/ig160713.html)
-* [2016-06-30 diary: [Force.com] Force.com Migration Tool Simple Sample](https://igapyon.github.io/diary/2016/ig160630.html)
-* [2016-06-20 diary: [Force.com] Data Loader のソースコード](https://igapyon.github.io/diary/2016/ig160620.html)
-* [2016-05-31 diary: [Force.com] Salesforceにおける排他処理](https://igapyon.github.io/diary/2016/ig160531.html)
-* [2016-05-26 diary: [Force.com] SOQL および SOSL リファレンス](https://igapyon.github.io/diary/2016/ig160526.html)
+* [2016-10-05 diary: [Force.com] シンプルな Visualforce + Apex サンプル](../2016/ig161005.html)
+* [2016-09-14 diary: [Force.com] Migration Tool のセットアップ](../2016/ig160914.html)
+* [2016-08-22 diary: [Force.com] 私なりの Force.com 開発者向け SFDC Trailhead 学習順序](../2016/ig160822.html)
+* [2016-07-28 diary: [Force.com][Tooling API] メモ: クラス取得](../2016/ig160728.html)
+* [2016-07-27 diary: [Force.com][Tooling API] メモ: クラス作成](../2016/ig160727.html)
+* [2016-07-26 diary: [Force.com][Tooling API] メモ: クラス更新](../2016/ig160726.html)
+* [2016-07-25 diary: [Force.com] 認定試験メモ](../2016/ig160725.html)
+* [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](../2016/ig160724.html)
+* [2016-07-20 diary: [Force.com] シンプル Visualforce サンプル](../2016/ig160720.html)
+* [2016-07-15 diary: [Force.com] ネタ Test で こんにちは世界](../2016/ig160715.html)
+* [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](../2016/ig160713.html)
+* [2016-06-30 diary: [Force.com] Force.com Migration Tool Simple Sample](../2016/ig160630.html)
+* [2016-06-20 diary: [Force.com] Data Loader のソースコード](../2016/ig160620.html)
+* [2016-05-31 diary: [Force.com] Salesforceにおける排他処理](../2016/ig160531.html)
+* [2016-05-26 diary: [Force.com] SOQL および SOSL リファレンス](../2016/ig160526.html)
 
 
 ----------------------------------------------------------------------------------------------------

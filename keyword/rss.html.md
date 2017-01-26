@@ -8,7 +8,7 @@ RSS
 
 ## RSS
 
-[RSS](https://igapyon.github.io/diary/keyword/rss.html) は web サイトのタイトルや url、そして更新日などを xml 形式で表現するものです。
+[RSS](rss.html) は web サイトのタイトルや url、そして更新日などを xml 形式で表現するものです。
 
 ### URL
 
@@ -27,8 +27,8 @@ RSS
 
 ### 日記
 
-* [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](https://igapyon.github.io/diary/2012/ig121114.html)
-* [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](https://igapyon.github.io/diary/2012/ig121113.html)
+* [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](../2012/ig121114.html)
+* [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](../2012/ig121113.html)
 
 
 ----------------------------------------------------------------------------------------------------

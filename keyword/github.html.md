@@ -8,7 +8,7 @@ github
 
 ## github
 
-[github](https://igapyon.github.io/diary/keyword/github.html) は、無料または有料で利用可能な、ソースコード管理のための有償サービスです。
+[github](github.html) は、無料または有料で利用可能な、ソースコード管理のための有償サービスです。
 
 ### URL
 
@@ -17,7 +17,7 @@ github
 ### 特徴
 
 * とても有名なバージョン管理システムサービスです。
-* 多くの [OSS](https://igapyon.github.io/diary/keyword/oss.html) が [github](https://igapyon.github.io/diary/keyword/github.html) 上でホストされています。
+* 多くの [OSS](oss.html) が [github](github.html) 上でホストされています。
 
 ### 検索
 
@@ -27,8 +27,8 @@ github
 
 ### 日記
 
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](https://igapyon.github.io/diary/2017/ig170104.html)
-* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](https://igapyon.github.io/diary/2016/ig161215.html)
+* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../2017/ig170104.html)
+* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](../2016/ig161215.html)
 
 
 ----------------------------------------------------------------------------------------------------

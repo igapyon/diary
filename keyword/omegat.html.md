@@ -8,7 +8,7 @@ OmegaT
 
 ## OmegaT
 
-[OmegaT](https://igapyon.github.io/diary/keyword/omegat.html) は [OSS](https://igapyon.github.io/diary/keyword/oss.html) の機械支援翻訳ツールです。
+[OmegaT](omegat.html) は [OSS](oss.html) の機械支援翻訳ツールです。
 
 ### URL
 
@@ -27,7 +27,7 @@ OmegaT
 
 ### 日記
 
-* [2016-09-10 diary: [OmegaT] 機械支援翻訳 Microsoft 提供の充実の用語集](https://igapyon.github.io/diary/2016/ig160910.html)
+* [2016-09-10 diary: [OmegaT] 機械支援翻訳 Microsoft 提供の充実の用語集](../2016/ig160910.html)
 
 
 ----------------------------------------------------------------------------------------------------

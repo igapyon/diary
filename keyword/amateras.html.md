@@ -8,17 +8,17 @@ Amateras
 
 ## Amateras
 
-[Amateras](https://igapyon.github.io/diary/keyword/amateras.html) は、 たけぞう さんを中心に活動している オープンソース プロダクト群です。
+[Amateras](amateras.html) は、 たけぞう さんを中心に活動している オープンソース プロダクト群です。
 
 ### URL
 
 * [https://github.com/takezoe](https://github.com/takezoe)
-  * 最近の Amateras の活動は [github](https://igapyon.github.io/diary/keyword/github.html) ベースが主流のようです。
+  * 最近の Amateras の活動は [github](github.html) ベースが主流のようです。
 * [https://ja.osdn.net/projects/amateras/](https://ja.osdn.net/projects/amateras/)
 
 ### 特徴
 
-* [Apache](https://igapyon.github.io/diary/keyword/apache.html) ライセンスの [OSS](https://igapyon.github.io/diary/keyword/oss.html) となっており、多くのユーザーにより愛用されています。
+* [Apache](apache.html) ライセンスの [OSS](oss.html) となっており、多くのユーザーにより愛用されています。
 
 ### 検索
 
@@ -28,7 +28,7 @@ Amateras
 
 ### 日記
 
-* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](https://igapyon.github.io/diary/2013/ig130121.html)
+* [2013-01-21 diary: [Amateras][Ant] メモ: Amateras StepCounter を Ant で利用する](../2013/ig130121.html)
 
 
 ----------------------------------------------------------------------------------------------------
