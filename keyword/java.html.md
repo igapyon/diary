@@ -29,6 +29,7 @@ Java
 
 ### 日記
 
+* [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] を呼び出すシンプルサンプル](../2017/ig170126.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](../2017/ig170120.html)
 * [2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル](../2017/ig170118.html)

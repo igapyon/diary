@@ -30,6 +30,7 @@ Maven は [Apache](apache.html) ファウンデーション配下のビルドシ
 
 ### 日記
 
+* [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] を呼び出すシンプルサンプル](../2017/ig170126.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](../2017/ig170102.html)
 * [2016-12-27 diary: [maven] Java アプリの jar 利用の依存ファイルを target/lib に複写する](../2016/ig161227.html)
