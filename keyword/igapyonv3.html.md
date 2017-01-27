@@ -96,7 +96,7 @@ igapyonv3
 #### ナビゲーション系
 
 * `<@linktop />`
-  * [top](../index.html/)
+  * [top](../index.html)
 * `<@linkprev />`
   * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
 * `<@linknext />`
@@ -231,4 +231,4 @@ igapyonv3
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CCMS%2Cgithub%2Cgh-pages%2CFreeMarker%2COSS%2CJava%2CMaven&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html/) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CCMS%2Cgithub%2Cgh-pages%2CFreeMarker%2COSS%2CJava%2CMaven&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
