@@ -7,7 +7,6 @@
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/keyword/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
-/ [mirror](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
 
 [2017](../2017/index.html)
 / [2016](../2016/index.html)

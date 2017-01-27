@@ -1,8 +1,7 @@
 <#assign localYear="2011">
-[top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/${localYear}/index.html) 
+[top](${settings.baseurl}/) 
+/ [target](${settings.baseurl}/${localYear}/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
-/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 <@localyearlist />
 
