@@ -13,7 +13,7 @@ OSS
 ### URL
 
 * [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html)
-* [http://cruel.org/freeware/cathedral.html](http://cruel.org/freeware/cathedral.html)
+* [http://cruel.org/fre...dral.html](http://cruel.org/freeware/cathedral.html)
 
 ### 特徴
 

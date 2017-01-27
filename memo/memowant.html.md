@@ -398,7 +398,7 @@
     
   * [アドバンスト・メディア](http://www.advanced-media.co.jp/) という会社が開発した音声認識 (音声入力) ソフト。
     
-  * 発売元: [http://www.mc2-ltd.jp/amivoicees2008/](http://www.mc2-ltd.jp/amivoicees2008/)
+  * 発売元: [http://www.mc2-ltd.j...cees2008/](http://www.mc2-ltd.jp/amivoicees2008/)
     
   * ★→辞書登録を気合いをいれて実施しないと、ほとんど使い物にならないことが判明…。、、、勉強になりました。
   

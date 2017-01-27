@@ -12,7 +12,7 @@ Debian
 
 ### URL
 
-* [https://www.debian.org/index.ja.html](https://www.debian.org/index.ja.html)
+* [https://www.debian.o...x.ja.html](https://www.debian.org/index.ja.html)
 
 ### 特徴
 

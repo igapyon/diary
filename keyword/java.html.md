@@ -12,7 +12,7 @@ Java
 
 ### URL
 
-* [http://www.oracle.com/technetwork/java/javase/](http://www.oracle.com/technetwork/java/javase/)
+* [http://www.oracle.co...a/javase/](http://www.oracle.com/technetwork/java/javase/)
 
 ### 特徴
 

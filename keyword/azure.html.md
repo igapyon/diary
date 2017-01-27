@@ -12,7 +12,7 @@ Azure
 
 ### URL
 
-* [https://azure.microsoft.com/ja-jp/](https://azure.microsoft.com/ja-jp/)
+* [https://azure.micros...om/ja-jp/](https://azure.microsoft.com/ja-jp/)
 
 ### 特徴
 

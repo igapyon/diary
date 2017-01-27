@@ -12,7 +12,7 @@ Force.com
 
 ### URL
 
-* [https://www.salesforce.com/products/platform/products/force/](https://www.salesforce.com/products/platform/products/force/)
+* [https://www.salesfor...ts/force/](https://www.salesforce.com/products/platform/products/force/)
 
 ### 特徴
 

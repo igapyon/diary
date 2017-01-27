@@ -12,7 +12,7 @@ blancofw
 
 ### URL
 
-* [https://ja.osdn.net/projects/blancofw/](https://ja.osdn.net/projects/blancofw/)
+* [https://ja.osdn.net/...blancofw/](https://ja.osdn.net/projects/blancofw/)
 
 ### 特徴
 

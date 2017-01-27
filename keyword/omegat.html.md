@@ -12,7 +12,7 @@ OmegaT
 
 ### URL
 
-* [http://www.omegat.org/ja/omegat.html](http://www.omegat.org/ja/omegat.html)
+* [http://www.omegat.or...egat.html](http://www.omegat.org/ja/omegat.html)
 
 ### 特徴
 
