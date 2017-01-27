@@ -7,7 +7,7 @@
 [top](https://igapyon.github.io/diary/) 
 / [target](https://igapyon.github.io/diary/idxall.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
-/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxall.html) 
+/ [mirror](http://www.igapyon.jp/igapyon/diary/idxall.html) 
 
 [2017](2017/index.html)
 / [2016](2016/index.html)

@@ -1,7 +1,7 @@
-[top](https://igapyon.github.io/diary/) 
-/ [target](https://igapyon.github.io/diary/keyword/index.html) 
+[top](${settings.baseurl}/) 
+/ [target](${settings.baseurl}/keyword/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
-/ [old-v2](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
+/ [mirror](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
 
 <@localyearlist />
 

@@ -1,6 +1,6 @@
 [target](${settings.baseurl}/) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
-/ [old-v2](http://www.igapyon.jp/igapyon/diary/) 
+/ [mirror](http://www.igapyon.jp/igapyon/diary/) 
 
 <@localyearlist />
 
