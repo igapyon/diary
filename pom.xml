@@ -135,10 +135,6 @@
 						</java>
 						<copy file="target/md2html/README.html" tofile="target/md2html/index.html"
 							verbose="true" />
-						<copy file="target/md2html/keyword/index.html" tofile="target/md2html/idxkeyword.html"
-							verbose="true" />
-						<copy file="target/md2html/memo/index.html" tofile="target/md2html/idxmemo.html"
-							verbose="true" />
 
 						<echo>transfer via ftp</echo>
 						<!-- replace here -->
