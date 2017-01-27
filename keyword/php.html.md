@@ -12,7 +12,7 @@ PHP
 
 ### URL
 
-* [http://php.net/manua...hatis.php](http://php.net/manual/ja/intro-whatis.php)
+* [http://php.net/manual/ja/intro-whatis.php](http://php.net/manual/ja/intro-whatis.php)
 
 ### 特徴
 

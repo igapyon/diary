@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-01-28 diary: ここにコンテンツのタイトル](2017/ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
@@ -50,7 +51,6 @@
 * [2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ](2017/ig170116.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](2017/ig170115.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](2017/ig170114.html)
-* [2017-01-13 diary: [igapyonv3] のソフトウェア構造](2017/ig170113.html)
 
 
 私のインターネットへのアンテナです。
@@ -79,9 +79,9 @@
 * [[結] 『数学ガールの秘密ノート／やさしい統計』Kindle版、配信開始！](http://www.hyuki.com/d/201611.html#i20161110142348) 
 
 
-<@rssfeed url="[https://queryfeed.ne...&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
+<@rssfeed url="[https://queryfeed.net/twitte...e-screen&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
 
-<@rssfeed url="[http://rss.asahi.com...lines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
+<@rssfeed url="[http://rss.asahi.com/rss/asahi/newsheadlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
 
 
 ### 私むけ役立ちリンク

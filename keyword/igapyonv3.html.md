@@ -14,15 +14,15 @@ igapyonv3
 
 ### URL
 
-* [https://github.com/i...igapyonv3](https://github.com/igapyon/igapyonv3)
-* [https://igapyon.gith...igapyonv3](https://igapyon.github.io/igapyonv3)
+* [https://github.com/igapyon/igapyonv3](https://github.com/igapyon/igapyonv3)
+* [https://igapyon.github.io/igapyonv3](https://igapyon.github.io/igapyonv3)
 
 ### igapyonv3 の利用例
 
 [igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
-* [http://www.igapyon.j...ndex.html](http://www.igapyon.jp/igapyon/diary/index.html)
+* [http://www.igapyon.jp/igapyon/diary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 
 ### 検索
 
@@ -121,6 +121,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-01-28 diary: ここにコンテンツのタイトル](ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](ig170125.html)
@@ -201,7 +202,7 @@ igapyonv3
 いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
 
 * `favicon` を配置してみました。しかし、うまくいっていないようです。
-  * favicon 作成には [https://ao-system.ne...enerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
+  * favicon 作成には [https://ao-system.net/favicongenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
 * すべての年にインデックスファイルを配置してみました。
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 

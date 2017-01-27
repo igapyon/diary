@@ -12,7 +12,7 @@ Delphi
 
 ### URL
 
-* [https://www.embarcad...ts/delphi](https://www.embarcadero.com/jp/products/delphi)
+* [https://www.embarcadero.com/jp/products/delphi](https://www.embarcadero.com/jp/products/delphi)
 
 ### 特徴
 

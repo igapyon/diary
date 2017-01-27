@@ -18,7 +18,7 @@ Bootstrap
 
 * web フロントエンドの部品として、とてもよく利用されています。
 * シンプルなサンプル例
-  * [http://getbootstrap....es/theme/](http://getbootstrap.com/examples/theme/)
+  * [http://getbootstrap.com/examples/theme/](http://getbootstrap.com/examples/theme/)
 
 ### 検索
 

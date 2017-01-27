@@ -12,7 +12,7 @@ RSS
 
 ### URL
 
-* [http://www.kanzaki.c.../rss.html](http://www.kanzaki.com/docs/sw/rss.html)
+* [http://www.kanzaki.com/docs/sw/rss.html](http://www.kanzaki.com/docs/sw/rss.html)
 
 ### 特徴
 

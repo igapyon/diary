@@ -30,9 +30,9 @@
 * [[結] 『数学ガールの秘密ノート／やさしい統計』Kindle版、配信開始！](http://www.hyuki.com/d/201611.html#i20161110142348) 
 
 
-<@rssfeed url="[https://queryfeed.ne...&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
+<@rssfeed url="[https://queryfeed.net/twitte...e-screen&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
 
-<@rssfeed url="[http://rss.asahi.com...lines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
+<@rssfeed url="[http://rss.asahi.com/rss/asahi/newsheadlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
 
 ----------------------------------------------------------------------------------------------------
 
