@@ -1,4 +1,4 @@
-[top](${settings.baseurl}/) 
+<@linktop /> 
 / [target](${settings.baseurl}/memo/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/index.html.src.md) 
 

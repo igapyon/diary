@@ -1,5 +1,5 @@
 <#assign localYear="2017" />
-[top](${settings.baseurl}/) 
+<@linktop /> 
 / [target](${settings.baseurl}/diary/${localYear}/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
 

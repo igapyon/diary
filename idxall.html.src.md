@@ -1,4 +1,4 @@
-[top](${settings.baseurl}/) 
+<@linktop /> 
 / [target](${settings.baseurl}/idxall.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
 / [mirror](http://www.igapyon.jp/igapyon/diary/idxall.html) 
