@@ -93,6 +93,15 @@ igapyonv3
 * `<@linkshare word="${current.title}" tags="igapyon,diary,いがぴょん" />`
   * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html)
 
+#### ナビゲーション系
+
+* `<@linktop />`
+  * [top](../index.html/)
+* `<@linkprev />`
+  * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
+* `<@linknext />`
+  * [next](https://igapyon.github.io/diary/2017/ig170115.html)
+
 #### その他
 
 * `<@linkdiary date="2017-01-14" />`
@@ -103,11 +112,6 @@ igapyonv3
   * [地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
 * `<@lastmodified date="2017-01-22" />`
   * Last modified: $Date: 2017-01-22 $
-
-* `<@linkprev />`
-  * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
-* `<@linknext />`
-  * [next](https://igapyon.github.io/diary/2017/ig170115.html)
 
 ### リスト展開
 
