@@ -22,7 +22,7 @@ igapyonv3
 [igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
-* [http://www.igapyon.jp/igapyon/diary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
+* [http://www.igapyon.jp/ig...ary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 
 ### 検索
 

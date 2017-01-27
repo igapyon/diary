@@ -60,7 +60,7 @@
 * 技術評論社: [WEB+DB PRESS Vol.29](https://www.amazon.co.jp/exec/obidos/ASIN/4774125245/igapyondiary-22)
   * 「R/OマッピングツールblancoDbを使ってみよう！」
 * ZDNET:エンタープライズ：WebLogic Serverで知るJSP/Servlet入門
-  * [http://www.itmedia.co.jp/ent...ervlet/index.html](http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html)
+  * [http://www.itmedia.co.jp...let/index.html](http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html)
 
 ## 日記
 

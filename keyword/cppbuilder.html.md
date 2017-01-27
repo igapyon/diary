@@ -12,7 +12,7 @@ C++Builder
 
 ### URL
 
-* [https://www.embarcadero.com/jp/products/cbuilder](https://www.embarcadero.com/jp/products/cbuilder)
+* [https://www.embarcadero....ducts/cbuilder](https://www.embarcadero.com/jp/products/cbuilder)
 
 ### 特徴
 

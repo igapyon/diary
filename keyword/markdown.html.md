@@ -12,7 +12,7 @@ Markdown
 
 ### URL
 
-* [https://github.com/adam-p/ma...rkdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [https://github.com/adam-...own-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### 特徴
 
