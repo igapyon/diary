@@ -1453,7 +1453,6 @@ GV-1394TVはUlead DVD MovieWriter2.0 SE with AC-3搭載
   ミハイル・プレトニョフ／ロシア・ナショナル管弦楽団
   [amazon.co.jp: B000TLYE2U](http://www.amazon.co.jp/exec/obidos/ASIN/B000TLYE2U/igapyondiary-22)
 
-
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について

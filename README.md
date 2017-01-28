@@ -90,7 +90,6 @@
   * [Google Translate](https://translate.google.com/)
   * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
 
-
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について

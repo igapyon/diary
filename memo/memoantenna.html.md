@@ -34,7 +34,6 @@
 
 <@rssfeed url="[http://rss.asahi.com/rss...sheadlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
 
-
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
