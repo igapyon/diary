@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## 引越
 
-[[引越]] は、、、、です。
+[[引越]] はある地点からある地点まで住居を移すことです。
 
 ### URL
 

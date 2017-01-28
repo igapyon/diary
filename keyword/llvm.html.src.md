@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## LLVM
 
-[[LLVM]] は、、、、です。
+[[LLVM]] は [[C++]] コンパイラのツールキットおよび C++ 実装そのものです。
 
 ### URL
 

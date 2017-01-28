@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Amateras
 
 [[Amateras]] は、 たけぞう さんを中心に活動している オープンソース プロダクト群です。

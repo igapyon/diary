@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## gh-pages
 
 [[gh-pages]] は、[[github]] が提供する コンテンツ html 化の機構です。

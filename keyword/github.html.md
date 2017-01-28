@@ -4,8 +4,6 @@ github
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## github
 
 [github](github.html) は、無料または有料で利用可能な、ソースコード管理のための有償サービスです。

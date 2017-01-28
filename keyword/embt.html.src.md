@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## EMBT
 
 [[EMBT]] はエンバカデロの略称です。

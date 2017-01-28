@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Ubuntu
 
-[[Ubuntu]] は、、、、です。
+[[Ubuntu]] は OS の一種です。[[OSS]] の成果物をベースにしています。
 
 ### URL
 

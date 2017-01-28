@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## OSS
 
 [[OSS]] はオープンソースソフトウェアの略です。詳しくは [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html) を参照してください。

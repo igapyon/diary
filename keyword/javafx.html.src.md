@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## JavaFX
 
-[[JavaFX]] は、、、、です。
+[[JavaFX]] は [[Java]] の UI ツールキットおよび実行環境です。
 
 ### URL
 

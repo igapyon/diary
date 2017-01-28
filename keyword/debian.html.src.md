@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Debian
 
 [[Debian]] は とても有名な [[OSS]] によるオペレーティングシステムのひとつです。

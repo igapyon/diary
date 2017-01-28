@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## OmegaT
 
 [[OmegaT]] は [[OSS]] の機械支援翻訳ツールです。

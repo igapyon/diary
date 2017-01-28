@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## OAuth
 
 [[OAuth]] は http(s) をベースにした認可を実現するプロトコルです。

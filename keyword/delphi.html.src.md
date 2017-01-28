@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Delphi
 
 [[Delphi]] は統合開発環境のひとつです。

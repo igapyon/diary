@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Linux
 
 [[Linux]] は [[OSS]] によるオペレーティングシステムのひとつです。基本的には OS カーネル部分を指します。

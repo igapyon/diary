@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Ant
 
 [[Ant]] は [[Apache]] ファウンデーションが提供している Java 向けビルドツールです。

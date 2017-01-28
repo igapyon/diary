@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## SQLite
 
-[[SQLite]] は、、、、です。
+[[SQLite]] は軽量な RDBMS です。
 
 ### URL
 

@@ -4,11 +4,9 @@ Visualforce
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Visualforce
 
-[Visualforce](visualforce.html) は、、、、です。
+[Visualforce](visualforce.html) は Salesforce の UI ツールキットおよびそれのコーディング環境の一種です。
 
 ### URL
 

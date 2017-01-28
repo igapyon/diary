@@ -4,8 +4,6 @@ ROME
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## ROME
 
 [ROME](rome.html) は、RSS や Atom のフィードの実現を中心としたライブラリを提供する [OSS](oss.html) です。

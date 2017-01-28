@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Servlet
 
-[[Servlet]] は、、、、です。
+[[Servlet]] は [[Java]] によるサーバーサイド実装技術のひとつです。
 
 ### URL
 

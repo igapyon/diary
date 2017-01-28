@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## JDK
 
 [[JDK]] は [[Java]] 開発キットの略です。

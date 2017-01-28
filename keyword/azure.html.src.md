@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Azure
 
 [[Azure]] は、 Microsoft が提供するクラウドプラットフォームです。

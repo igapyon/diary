@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## RSS
 
 [[RSS]] は web サイトのタイトルや url、そして更新日などを xml 形式で表現するものです。

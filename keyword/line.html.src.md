@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## LINE
 
-[[LINE]] は、、、、です。
+[[LINE]] は無料通話アプリとのフレコミの有名なサービスです。
 
 ### URL
 

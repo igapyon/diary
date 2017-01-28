@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Salesforce
 
 [[Salesforce]] は 営業支援を起源とするクラウドサービスです。

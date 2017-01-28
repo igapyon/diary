@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Shell
 
-[[Shell]] は、、、、です。
+[[Shell]] は OS のコマンドライン・インタフェースなどを指す IT 用語です。
 
 ### URL
 

@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## jekyll
 
 [[jekyll]] は、[[Markdown]] '.md' などから静的 html などを生成するためのツールです。

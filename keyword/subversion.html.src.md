@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Subversion
 
-[[Subversion]] は、、、、です。
+[[Subversion]] は SCM の一種です。[[OSS]] として提供されています。
 
 ### URL
 

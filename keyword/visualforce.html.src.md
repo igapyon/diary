@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Visualforce
 
-[[Visualforce]] は、、、、です。
+[[Visualforce]] は Salesforce の UI ツールキットおよびそれのコーディング環境の一種です。
 
 ### URL
 

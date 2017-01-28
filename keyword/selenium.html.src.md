@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Selenium
 
-[[Selenium]] は、、、、です。
+[[Selenium]] は web アプリケーションの自動化ツールのひとつです。[[OSS]] で提供されています。
 
 ### URL
 

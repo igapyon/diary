@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## CMS
 
 [[CMS]] はコンテンツ管理システムの略です。

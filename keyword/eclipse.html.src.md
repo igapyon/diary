@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Eclipse
 
 [[Eclipse]] は [[OSS]] による統合開発環境のひとつです。

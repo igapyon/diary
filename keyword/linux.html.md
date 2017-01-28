@@ -4,8 +4,6 @@ Linux
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Linux
 
 [Linux](linux.html) は [OSS](oss.html) によるオペレーティングシステムのひとつです。基本的には OS カーネル部分を指します。

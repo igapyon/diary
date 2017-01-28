@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## C++
 
 [[C++]] は、プログラミング言語の一種です。

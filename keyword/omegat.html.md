@@ -4,8 +4,6 @@ OmegaT
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## OmegaT
 
 [OmegaT](omegat.html) は [OSS](oss.html) の機械支援翻訳ツールです。

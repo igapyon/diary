@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html) 
-
 ## FreeMarker
 
 [[FreeMarker]] は [[Apache]] ファウンデーション配下のテンプレートエンジンです。

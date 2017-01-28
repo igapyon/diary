@@ -1,7 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-/ <@linktarget /> 
-/ <@linksource />
-
 ## igapyonv3
 
 [[igapyonv3]] は、「いがぴょんの日記ウェブページv3」という日記を記述する目的から作られた、日記執筆者自身の手によって開発された日記システムです。

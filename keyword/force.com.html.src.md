@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Force.com
 
 [[Force.com]] は [[Salesforce]] を起源とする web ベース統合開発環境です。

@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Java
 
 [[Java]] はプログラミング言語のひとつです。

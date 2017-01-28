@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## github
 
 [[github]] は、無料または有料で利用可能な、ソースコード管理のための有償サービスです。

@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## FindBugs
 
-[[FindBugs]] は、、、、です。
+[[FindBugs]] は [[OSS]] によるソースコード解析ツールです。
 
 ### URL
 

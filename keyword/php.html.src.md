@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## PHP
 
 [[PHP]] は プログラミング言語のひとつです。

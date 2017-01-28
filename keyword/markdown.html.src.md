@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Markdown
 
 [[Markdown]] は、プレーンテキストのためのマークアップ方法の一つです。

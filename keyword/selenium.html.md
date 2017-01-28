@@ -4,11 +4,9 @@ Selenium
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Selenium
 
-[Selenium](selenium.html) は、、、、です。
+[Selenium](selenium.html) は web アプリケーションの自動化ツールのひとつです。[OSS](oss.html) で提供されています。
 
 ### URL
 
@@ -37,4 +35,4 @@ Selenium
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CSelenium&text=Selenium&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fselenium.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CSelenium%2COSS&text=Selenium&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fselenium.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)

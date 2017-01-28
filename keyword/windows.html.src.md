@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Windows
 
-[[Windows]] は、、、、です。
+[[Windows]] は Microsoft 社が提供する OSS の名称です。
 
 ### URL
 

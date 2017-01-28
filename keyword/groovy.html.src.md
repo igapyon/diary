@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Groovy
 
 [[Groovy]] は [[OSS]] のプログラミング言語のひとつです。

@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Jersey
 
 [[Jersey]] は、、、、です。

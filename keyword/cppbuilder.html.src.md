@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## C++Builder
 
 [[C++Builder]] は、エンバカデロが提供する統合開発環境の一つです。

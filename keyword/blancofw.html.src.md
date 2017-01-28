@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## blancofw
 
 [[blancofw]] は、 blanco Framework の略称であり、オープンソースプロダクトのひとつです。

@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## Facelets
 
-[[Facelets]] は、、、、です。
+[[Facelets]] は Java EE の UI フレームワークの一種です。
 
 ### URL
 

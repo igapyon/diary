@@ -1,5 +1,3 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## ROME
 
 [[ROME]] は、RSS や Atom のフィードの実現を中心としたライブラリを提供する [[OSS]] です。

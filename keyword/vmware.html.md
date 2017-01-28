@@ -4,11 +4,9 @@ VMware
 =====================================================================================================
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## VMware
 
-[VMware](vmware.html) は、、、、です。
+[VMware](vmware.html) は OS を仮想化してアプリケーションとして動作させる技術およびその周辺ツールキットです。
 
 ### URL
 

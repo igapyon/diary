@@ -1,8 +1,6 @@
-[index](https://igapyon.github.io/diary/keyword/index.html)
-
 ## VMware
 
-[[VMware]] は、、、、です。
+[[VMware]] は OS を仮想化してアプリケーションとして動作させる技術およびその周辺ツールキットです。
 
 ### URL
 
