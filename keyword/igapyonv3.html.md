@@ -102,11 +102,11 @@ igapyonv3
 * `<@linksource />`
   * [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.html.src.md)
 * `<@linkprev />`
-  * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
+  * [prev](ig170113.html)
 * `<@linknext />`
-  * [next](https://igapyon.github.io/diary/2017/ig170115.html)
+  * [next](ig170115.html)
 * `<@navlist />`
-  * [top](../index.html) / [index](index.html) / [prev](https://igapyon.github.io/diary/2017/ig170113.html) / [next](https://igapyon.github.io/diary/2017/ig170115.html) / [target](https://igapyon.github.io/diary/2017/ig170114.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.html.src.md)
+  * [top](../index.html) / [index](index.html) / [prev](ig170113.html) / [next](ig170115.html) / [target](https://igapyon.github.io/diary/2017/ig170114.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.html.src.md)
 
 #### その他
 
