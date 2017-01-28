@@ -33,6 +33,7 @@ FreeMarker
 
 ### 日記
 
+* [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](../2017/ig170128.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
 * [2017-01-07 diary: [FreeMarker] のカスタムディレクティブ秀逸](../2017/ig170107.html)
 * [2017-01-06 diary: [FreeMarker] Java 処理を伴うカスタムタグのシンプルメモ](../2017/ig170106.html)

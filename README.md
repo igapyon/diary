@@ -36,7 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-01-28 diary: ここにコンテンツのタイトル](2017/ig170128.html)
+* [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](2017/ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
