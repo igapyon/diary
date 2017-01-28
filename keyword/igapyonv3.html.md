@@ -22,7 +22,7 @@ igapyonv3
 [igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
-* [http://www.igapyon.jp/ig...ary/index.html](http://www.igapyon.jp/igapyon/diary/index.html)
+* [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 
 ### 検索
 
@@ -216,7 +216,7 @@ igapyonv3
 いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
 
 * `favicon` を配置してみました。しかし、うまくいっていないようです。
-  * favicon 作成には [https://ao-system.net/favicongenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
+  * favicon 作成には [https://ao-system.net/fa...ngenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
 * すべての年にインデックスファイルを配置してみました。
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 

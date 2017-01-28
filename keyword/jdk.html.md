@@ -12,7 +12,7 @@ JDK
 
 ### URL
 
-* [http://www.oracle.com/te...k/java/javase/](http://www.oracle.com/technetwork/java/javase/)
+* [http://www.oracle.com/te...ava/javase/](http://www.oracle.com/technetwork/java/javase/)
 
 ### 特徴
 

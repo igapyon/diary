@@ -12,7 +12,7 @@ JavaScript
 
 ### URL
 
-* [http://www.ecma-internat...mento/TC39.htm](http://www.ecma-international.org/memento/TC39.htm)
+* [http://www.ecma-internat...to/TC39.htm](http://www.ecma-international.org/memento/TC39.htm)
 
 ### 特徴
 
