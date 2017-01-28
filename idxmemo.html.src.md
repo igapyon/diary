@@ -1,9 +1,4 @@
-<@linktop /> 
-/ <@linktarget /> 
-/ <@linksource /> 
-/ [mirror](http://www.igapyon.jp/igapyon/diary/idxmemo.html) 
-
-<@localyearlist />
+<@localyearlist /> / [keyword](${settings.baseurl}/keyword/index.html) / [memo](${settings.baseurl}/memo/index.html)
 
 ## いがぴょんの日記：メモ
 

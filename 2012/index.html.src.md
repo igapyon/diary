@@ -1,8 +1,4 @@
 <#assign localYear="2012">
-<@linktop /> 
-/ <@linktarget /> 
-/ <@linksource /> 
-
 <@localyearlist />
 
 ## いがぴょんの日記：2012年の日記

@@ -1,8 +1,3 @@
-[top](index.html) 
-/ [target](https://igapyon.github.io/diary/idxmemo.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/idxmemo.html.src.md) 
-/ [mirror](http://www.igapyon.jp/igapyon/diary/idxmemo.html) 
-
 [2017](2017/index.html)
 / [2016](2016/index.html)
 / [2015](2015/index.html)
@@ -25,7 +20,7 @@
 / [1997](1997/index.html)
 / [1996](1996/index.html)
 / [ALL](idxall.html)
-
+ / [keyword](https://igapyon.github.io/diary/keyword/index.html) / [memo](https://igapyon.github.io/diary/memo/index.html)
 
 ## いがぴょんの日記：メモ
 

@@ -5,10 +5,6 @@
 [![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
-[top](../index.html) 
-/ [target](https://igapyon.github.io/diary/2003/index.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/2003/index.html.src.md) 
-
 [2017](../2017/index.html)
 / [2016](../2016/index.html)
 / [2015](../2015/index.html)
