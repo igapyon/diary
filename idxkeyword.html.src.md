@@ -1,6 +1,6 @@
 <@linktop /> 
 / <@linktarget /> 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
+/ <@linksource /> 
 / [mirror](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
 
 <@localyearlist />

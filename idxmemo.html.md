@@ -1,6 +1,6 @@
 [top](index.html) 
 / [target](https://igapyon.github.io/diary/idxmemo.html) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/memo/index.html.src.md) 
+/ [source](https://github.com/igapyon/diary/blob/gh-pages/idxmemo.html.src.md) 
 / [mirror](http://www.igapyon.jp/igapyon/diary/idxmemo.html) 
 
 [2017](2017/index.html)

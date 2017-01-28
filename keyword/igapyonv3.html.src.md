@@ -1,6 +1,6 @@
 [index](https://igapyon.github.io/diary/keyword/index.html)
 / <@linktarget /> 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/igapyonv3.html.src.md)
+/ <@linksource />
 
 ## igapyonv3
 

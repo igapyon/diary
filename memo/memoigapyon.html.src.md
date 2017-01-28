@@ -1,6 +1,6 @@
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
 <@linktarget /> 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyon.html.src.md) 
+/ <@linksource /> 
 / [orig-html](https://igapyon.github.io/diary/memo/memoigapyon-orig.html)
 / <@linkshare word="「いがぴょん」について" tags="igapyon,diary,いがぴょん,伊賀敏樹" />
 

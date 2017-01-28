@@ -1,6 +1,6 @@
 <@linktop /> 
 / <@linktarget /> 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/memo/index.html.src.md) 
+/ <@linksource /> 
 
 <@localyearlist />
 

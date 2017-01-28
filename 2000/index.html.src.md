@@ -1,7 +1,7 @@
 <#assign localYear="2000">
 <@linktop /> 
 / <@linktarget /> 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
+/ <@linksource /> 
 
 <@localyearlist />
 

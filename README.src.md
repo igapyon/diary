@@ -1,5 +1,5 @@
-[target](${settings.baseurl}/) 
-/ [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
+<@linktarget /> 
+/ <@linksource /> 
 / [mirror](http://www.igapyon.jp/igapyon/diary/) 
 
 <@localyearlist />
