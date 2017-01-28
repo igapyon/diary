@@ -24,10 +24,10 @@ LLVM
 * [Search in Google](https://www.google.co.jp/#pws=0&q=LLVM)
 * [Search in Twitter](https://twitter.com/search?q=%23LLVM)
 
-
 ### 日記
 
 * [2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩](../2013/ig130116.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

@@ -22,10 +22,10 @@ regex
 * [Search in Google](https://www.google.co.jp/#pws=0&q=regex)
 * [Search in Twitter](https://twitter.com/search?q=%23regex)
 
-
 ### 日記
 
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](../2017/ig170121.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

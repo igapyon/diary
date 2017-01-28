@@ -25,12 +25,12 @@ Eclipse
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Eclipse)
 * [Search in Twitter](https://twitter.com/search?q=%23Eclipse)
 
-
 ### 日記
 
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
 * [2016-09-13 diary: [Eclipse] git コミット時のユーザー名／メールアドレスの変更](../2016/ig160913.html)
 * [2008-06-26 diary: [Eclipse] Ganymede リリース](../2008/ig080626.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

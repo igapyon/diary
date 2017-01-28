@@ -24,12 +24,12 @@ Mac
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Mac)
 * [Search in Twitter](https://twitter.com/search?q=%23Mac)
 
-
 ### 日記
 
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
 * [2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応](../2014/ig140901.html)
 * [2014-06-11 diary: [Mac] スクリーンショット取得は command + shift + 3](../2014/ig140611.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

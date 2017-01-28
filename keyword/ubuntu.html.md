@@ -24,7 +24,6 @@ Ubuntu
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Ubuntu)
 * [Search in Twitter](https://twitter.com/search?q=%23Ubuntu)
 
-
 ### 日記
 
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
@@ -57,6 +56,7 @@ Ubuntu
 * [2012-09-29 diary: [Ubuntu] clamav というウイルス対策ソフト](../2012/ig120929.html)
 * [2012-09-10 diary: [Ubuntu][JDK] Ubuntu 12.04.1 に Oracle Java JDK を入れる方法【/opt 編】](../2012/ig120910.html)
 * [2012-05-31 diary: [Ubuntu] Ubuntu 12.04 に Oracle Java JDK を入れる方法](../2012/ig120531.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

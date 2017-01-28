@@ -25,10 +25,10 @@ OSS
 * [Search in Google](https://www.google.co.jp/#pws=0&q=OSS)
 * [Search in Twitter](https://twitter.com/search?q=%23OSS)
 
-
 ### 日記
 
 * [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](../2012/ig121114.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

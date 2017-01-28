@@ -24,7 +24,6 @@ C++Builder
 * [Search in Google](https://www.google.co.jp/#pws=0&q=C%2B%2BBuilder)
 * [Search in Twitter](https://twitter.com/search?q=%23C%2B%2BBuilder)
 
-
 ### 日記
 
 * [2016-02-15 diary: [C++Builder] Delphi スタイルのオブジェクトを継承関係チェック](../2016/ig160215.html)
@@ -34,6 +33,7 @@ C++Builder
 * [2012-12-06 diary: [C++Builder] XE3 文字列リスト](../2012/ig121206.html)
 * [2012-12-05 diary: [C++Builder] はじめたての C++Builder XE3 (EXE 配布の際の注意点)](../2012/ig121205.html)
 * [2012-12-04 diary: [C++Builder] はじめての C++Builder XE3](../2012/ig121204.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

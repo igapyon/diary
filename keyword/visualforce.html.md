@@ -24,10 +24,10 @@ Visualforce
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Visualforce)
 * [Search in Twitter](https://twitter.com/search?q=%23Visualforce)
 
-
 ### 日記
 
 * [2016-05-25 diary: [Visualforce] 参照先リンクメモ](../2016/ig160525.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

@@ -24,10 +24,10 @@ PHP
 * [Search in Google](https://www.google.co.jp/#pws=0&q=PHP)
 * [Search in Twitter](https://twitter.com/search?q=%23PHP)
 
-
 ### 日記
 
 * [2016-11-07 diary: [PHP] PHPメモ：配列をロギング](../2016/ig161107.html)
+
 
 
 ----------------------------------------------------------------------------------------------------

@@ -24,7 +24,6 @@ Delphi
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Delphi)
 * [Search in Twitter](https://twitter.com/search?q=%23Delphi)
 
-
 ### 日記
 
 * [2016-03-11 diary: [Delphi] BluetoothLE アダプターが ON かどうか確認](../2016/ig160311.html)
@@ -57,6 +56,7 @@ Delphi
 * [2015-04-18 diary: [Delphi] Delphi XE8 / C++Builder XE8 インストール](../2015/ig150418.html)
 * [2014-07-02 diary: Appmethod [Delphi] サードパーティ製ツール・コンポーネント一覧記事のメモ](../2014/ig140702.html)
 * [2012-12-10 diary: [Delphi] Delphi: XE3: エクスプローラ風アプリ開発のメモ](../2012/ig121210.html)
+
 
 
 ----------------------------------------------------------------------------------------------------
