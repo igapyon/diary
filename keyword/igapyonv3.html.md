@@ -99,6 +99,8 @@ igapyonv3
   * [top](../index.html)
 * `<@linktarget />`
   * [target](https://igapyon.github.io/diary/2017/ig170114.html)
+* `<@linksource />`
+  * [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.html.src.md)
 * `<@linkprev />`
   * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
 * `<@linknext />`
