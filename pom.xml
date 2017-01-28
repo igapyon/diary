@@ -133,8 +133,6 @@
 								<pathelement path="${classpath}" />
 							</classpath>
 						</java>
-						<copy file="target/md2html/README.html" tofile="target/md2html/index.html"
-							verbose="true" />
 
 						<echo>transfer via ftp</echo>
 						<!-- replace here -->
