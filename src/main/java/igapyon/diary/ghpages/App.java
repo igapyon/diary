@@ -58,9 +58,11 @@ public class App {
 			new TodayDiaryGenerator(settings).processDir();
 
 			// ルートディレクトリを含む各ディレクトリ用の index用のatomファイルを生成および更新します。
+			System.err.println("Update .md atom.xml.");
 			new DiaryIndexAtomGenerator(settings).process();
 
 			// キーワードの atom を更新します。
+			System.err.println("Update .keyword atom.xml.");
 			new KeywordAtomByTitleGenerator(settings).process();
 
 			// .html.src.md ファイルから .md ファイルを生成します。
