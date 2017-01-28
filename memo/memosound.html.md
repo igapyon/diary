@@ -1,4 +1,4 @@
-[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memosound.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memosound.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memosound.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memosound.html.src.md) 
 
 資料: 作成MIDIデータ
 =====================================================================================================

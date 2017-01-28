@@ -1,4 +1,4 @@
-[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/english.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/english.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/english.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/english.html.src.md) 
 
 English
 =====================================================================================================

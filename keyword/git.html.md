@@ -1,4 +1,4 @@
-[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/git.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/git.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/git.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/git.html.src.md) 
 
 git
 =====================================================================================================

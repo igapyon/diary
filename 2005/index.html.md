@@ -1,4 +1,4 @@
-[top](../index.html) / [target](https://igapyon.github.io/diary/2005/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2005/index.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/2005/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2005/index.html.src.md) 
 
 いがぴょんの日記：2005年の日記
 =====================================================================================================

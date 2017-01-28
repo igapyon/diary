@@ -1,4 +1,4 @@
-[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memowinxptune.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memowinxptune.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memowinxptune.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memowinxptune.html.src.md) 
 
 資料: Windows XP 設定＆チューニングメモ
 =====================================================================================================
