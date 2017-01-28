@@ -98,7 +98,7 @@ igapyonv3
 * `<@linktop />`
   * [top](../index.html)
 * `<@linktarget />`
-  * [target](https://igapyon.github.io/diary/2017/ig170114.src.html)
+  * [target](https://igapyon.github.io/diary/2017/ig170114.html)
 * `<@linkprev />`
   * [prev](https://igapyon.github.io/diary/2017/ig170113.html)
 * `<@linknext />`
