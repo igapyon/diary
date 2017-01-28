@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memomanual.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memomanual.html.src.md) 
 
 資料: 愛用オンラインマニュアル
 =====================================================================================================

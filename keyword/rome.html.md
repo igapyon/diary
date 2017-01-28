@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/rome.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/rome.html.src.md) 
 
 ROME
 =====================================================================================================

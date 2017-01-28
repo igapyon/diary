@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memoigapyonml.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigapyonml.html.src.md) 
 
 資料: いがぴょんの日記ウェブページML運用ページ
 =====================================================================================================

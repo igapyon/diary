@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/selenium.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/selenium.html.src.md) 
 
 Selenium
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/python.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/python.html.src.md) 
 
 Python
 =====================================================================================================

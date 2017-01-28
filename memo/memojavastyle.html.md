@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memojavastyle.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memojavastyle.html.src.md) 
 
 資料: Java言語ソースファイルのスタイルおよび調整ツール
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memofoaf.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memofoaf.html.src.md) 
 
 資料: FOAF (Friend of a Friend) メモ
 =====================================================================================================

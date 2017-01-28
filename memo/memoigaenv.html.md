@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memoigaenv.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigaenv.html.src.md) 
 
 資料: いがぴょん利用環境
 =====================================================================================================

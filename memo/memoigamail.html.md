@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memoigamail.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigamail.html.src.md) 
 
 資料: いがぴょん にメールを送る
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memoaccess.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoaccess.html.src.md) 
 
 資料: いがぴょんの日記ウェブページ アクセス数推移
 =====================================================================================================

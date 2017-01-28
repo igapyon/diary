@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/cppbuilder.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/cppbuilder.html.src.md) 
 
 C++Builder
 =====================================================================================================

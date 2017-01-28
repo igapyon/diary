@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/keyword/visualforce.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/visualforce.html.src.md) 
 
 Visualforce
 =====================================================================================================

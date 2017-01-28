@@ -1,4 +1,4 @@
-[top](../index.html) 
+[top](../index.html) / [target](https://igapyon.github.io/diary/memo/memorss.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memorss.html.src.md) 
 
 資料: RDF/RSSについて , いがぴょんの日記ウェブページ RDF/RSS一覧
 =====================================================================================================

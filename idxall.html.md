@@ -1,4 +1,4 @@
-[top](index.html) 
+[top](index.html) / [target](https://igapyon.github.io/diary/idxall.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/idxall.html.src.md) 
 
 いがぴょんの日記ウェブページv3：日記を全て
 =====================================================================================================
