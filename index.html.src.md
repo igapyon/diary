@@ -8,6 +8,8 @@
 
 <@include file="memo/memoantenna.html.src.md" /><#-- 他サイトのニュースフィード -->
 
+for test.
+
 ### 私むけ役立ちリンク
 
 * 翻訳
