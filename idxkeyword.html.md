@@ -1,5 +1,5 @@
 [top](index.html) 
-/ [target](https://igapyon.github.io/diary/keyword/index.html) 
+/ [target](https://igapyon.github.io/diary/idxkeyword.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
 / [mirror](http://www.igapyon.jp/igapyon/diary/idxkeyword.html) 
 

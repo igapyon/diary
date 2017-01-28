@@ -1,6 +1,6 @@
 <#assign localYear="2017" />
 <@linktop /> 
-/ [target](${settings.baseurl}/diary/${localYear}/index.html) 
+/ <@linktarget /> 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/${localYear}/index.html.src.md) 
 
 <@localyearlist />

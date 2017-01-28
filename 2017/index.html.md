@@ -6,7 +6,7 @@
 
 
 [top](../index.html) 
-/ [target](https://igapyon.github.io/diary/diary/2017/index.html) 
+/ [target](https://igapyon.github.io/diary/2017/index.html) 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/index.html.src.md) 
 
 [2017](index.html)

@@ -1,5 +1,5 @@
 <@linktop /> 
-/ [target](${settings.baseurl}/keyword/index.html) 
+/ <@linktarget /> 
 / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/keyword.html.src.md) 
 
 <@localyearlist />
