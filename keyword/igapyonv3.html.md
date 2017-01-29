@@ -75,11 +75,11 @@ igapyonv3
 
 ### 設定
 
-* ${showSettings()}
-* ${setVerbose("false")}
-* ${setAuthor("Toshiki Iga")}
-* ${setBaseurl("https：//igapyon.github.io/diary")}
-* ${setSourcebaseurl("https：//github.com/igapyon/diary/blob/gh-pages")}
+* `${showSettings()}` : 設定を表示
+* `${setVerbose("false")}`
+* `${setAuthor("Toshiki Iga")}`
+* `${setBaseurl("https：//igapyon.github.io/diary")}`
+* `${setSourcebaseurl("https：//github.com/igapyon/diary/blob/gh-pages")}`
 
 ### リンク出力
 
