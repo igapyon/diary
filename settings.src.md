@@ -9,13 +9,13 @@ ${showSettings()}
 ### Setting
 
 ${setVerbose("false")}
+${setAuthor("Toshiki Iga")}
+${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 
 <#-- github gh-pages site -->
 ${setBaseurl("https://igapyon.github.io/diary")}
-${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 
 <#-- homepage main site -->
 <#--
 ${setBaseurl("http://www.igapyon.jp/igapyon/diary")}
-${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 -->
