@@ -20,6 +20,12 @@
 	</repositories>
 
 	<dependencies>
+		<dependency>
+			<groupId>jp.igapyon.diary.v3.plugin</groupId>
+			<artifactId>igdiary-maven-plugin</artifactId>
+			<version>[1.0,2.0)</version>
+		</dependency>
+
 		<!-- Apache FileUtils -->
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
