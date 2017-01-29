@@ -9,6 +9,7 @@ ${showSettings()}
 ### Setting
 
 ${setVerbose("false")}
+${setGeneratetodaydiary("true")}
 ${setAuthor("Toshiki Iga")}
 ${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 

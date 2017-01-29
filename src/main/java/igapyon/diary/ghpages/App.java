@@ -35,7 +35,7 @@ public class App {
 			}
 
 			// 基本処理。
-			new DefaultProcessor().process(new File("."), true);
+			new DefaultProcessor().process(rootdir);
 
 			if (false) {
 				// 移行シリーズ。

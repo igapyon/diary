@@ -25,9 +25,9 @@
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
 
+* [[結] 結城浩ニュースレター発行](http://www.hyuki.com/d/201701.html#i20170129183643) 
 * [[結] サイン本無料プレゼント抽選実施！](http://www.hyuki.com/d/201612.html#i20161207093023) 
 * [[結] 『数学ガールの秘密ノート／やさしい統計』重版出来！](http://www.hyuki.com/d/201611.html#i20161112114124) 
-* [[結] 『数学ガールの秘密ノート／やさしい統計』Kindle版、配信開始！](http://www.hyuki.com/d/201611.html#i20161110142348) 
 
 
 <@rssfeed url="[https://queryfeed.net/tw...en&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
