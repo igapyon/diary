@@ -73,6 +73,14 @@ igapyonv3
 
 ※このコンテンツは [igapyonv3](igapyonv3.html) から `<@include />` によって参照されています。
 
+### 設定
+
+* ${showSettings()}
+* ${setVerbose("false")}
+* ${setAuthor("Toshiki Iga")}
+* ${setBaseurl("https：//igapyon.github.io/diary")}
+* ${setSourcebaseurl("https：//github.com/igapyon/diary/blob/gh-pages")}
+
 ### リンク出力
 
 #### 検索系
