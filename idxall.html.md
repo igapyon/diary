@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-01-30 diary: ここにコンテンツのタイトル](2017/ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発](2017/ig170129.html)
 * [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](2017/ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
