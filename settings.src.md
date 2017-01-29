@@ -2,6 +2,10 @@
 
 This file is settings for [[igapyonv3]].
 
+### Result
+
+${showSettings()}
+
 ### Setting
 
 ${setVerbose("false")}
@@ -15,7 +19,3 @@ ${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 ${setBaseurl("http://www.igapyon.jp/igapyon/diary")}
 ${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 -->
-
-### Result
-
-${showSettings()}
