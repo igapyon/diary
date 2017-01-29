@@ -4,7 +4,7 @@ This file is settings for [[igapyonv3]].
 
 ### Setting
 
-${setVerbose("true")}
+${setVerbose("false")}
 
 ### Result
 
