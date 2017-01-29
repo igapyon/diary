@@ -33,7 +33,7 @@
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
 * [2017-01-30 diary: ここにコンテンツのタイトル](2017/ig170130.html)
-* [2017-01-29 diary: [Apache][Maven] プラグイン開発](2017/ig170129.html)
+* [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](2017/ig170129.html)
 * [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](2017/ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html) 2017/01/30
 * [Docker、コンテナのCPUリソースの利用上限を簡単に設定可能に。正式版となったバージョン1.13で「--cpus」フラグを追加](http://www.publickey1.jp/blog/17/dockercpu113--cpus.html) 2017/01/27
 * [マイクロソフト、Visual Studio 2017の一部「Visual Studio Test Platform」をオープンソースで公開。ユニットテストの実行や結果データの収集などを行うテスト基盤](http://www.publickey1.jp/blog/17/visual_studio_2017visual_studio_test_platform.html) 2017/01/27
 * [オラクル、今後のSolarisはメジャーバージョンアップせず。継続的デリバリで頻繁にリリースする新方針を表明。Solaris 11のサポート期間は2034年まで延長](http://www.publickey1.jp/blog/17/solarissolaris_112034.html) 2017/01/26
 * [シスコ、分散システムの性能をリアルタイムで監視するツール「AppDynamics」買収へ。ネットワークとサーバのインフラレイヤからアプリケーションレイヤまで統合的な性能監視を実現へ](http://www.publickey1.jp/blog/17/appdynamics_1.html) 2017/01/26
 * [Dockerの導入をAWSやAzureで一括実行してくれる「Docker for AWS」「Docker for Azure」が正式版に。Docker for GCPも開発中](http://www.publickey1.jp/blog/17/awsazuredockerdocker_for_awsdocker_for_azuredocker_for_gcp.html) 2017/01/26
 * [Docker 1.13正式版登場。複数Dockerイメージをまとめてデプロイする「Docker Stack Deploy」、使われていないイメージを削除する「Docker System Prune」など新機能](http://www.publickey1.jp/blog/17/docker_113dockerdocker_stack_deploydocker_system_prune.html) 2017/01/25
-* [Angularはなぜ大規模アプリケーション開発に適しているのか。そしてAngular対応の業務用UIコンポーネント「Wijmo」のメリットとは［PR］](http://www.publickey1.jp/blog/17/angularangularuiwijmopr.html) 2017/01/25
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

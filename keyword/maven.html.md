@@ -34,7 +34,7 @@ Last modified: $Date: 2017-01-27 $
 
 ### 日記
 
-* [2017-01-29 diary: [Apache][Maven] プラグイン開発](../2017/ig170129.html)
+* [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](../2017/ig170129.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](../2017/ig170126.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
 * [2017-01-02 diary: [Maven] によるシンプル Java プロジェクトサンプルの作成手順](../2017/ig170102.html)
