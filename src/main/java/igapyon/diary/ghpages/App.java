@@ -9,7 +9,7 @@ package igapyon.diary.ghpages;
 import java.io.File;
 import java.io.IOException;
 
-import jp.igapyon.diary.v3.DefaultProcessor;
+import jp.igapyon.diary.v3.IgDiaryProcessor;
 import jp.igapyon.diary.v3.migration.html2md.IgapyonV2Html2MdConverter;
 
 /**
@@ -35,7 +35,7 @@ public class App {
 			}
 
 			// 基本処理。
-			new DefaultProcessor().process(rootdir);
+			new IgDiaryProcessor().process(rootdir);
 
 			if (false) {
 				// 移行シリーズ。
