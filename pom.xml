@@ -50,6 +50,27 @@
 			<artifactId>tagsoup</artifactId>
 			<version>1.2.1</version>
 		</dependency>
+
+
+
+
+
+
+		<dependency>
+			<groupId>jp.igapyon.diary.v3.plugin</groupId>
+			<artifactId>igdiary-maven-plugin</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+
+
+
+
+
+
+
+
+
 	</dependencies>
 
 	<!-- basic spec for jar -->
