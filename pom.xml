@@ -51,25 +51,12 @@
 			<version>1.2.1</version>
 		</dependency>
 
-
-
-
-
-
+		<!-- for diary plugin -->
 		<dependency>
 			<groupId>jp.igapyon.diary.v3.plugin</groupId>
 			<artifactId>igdiary-maven-plugin</artifactId>
 			<version>1.0</version>
 		</dependency>
-
-
-
-
-
-
-
-
-
 
 	</dependencies>
 
