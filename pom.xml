@@ -20,9 +20,10 @@
 	</repositories>
 
 	<dependencies>
+		<!-- for igapyonv3 igdiary plugin -->
 		<dependency>
-			<groupId>jp.igapyon.diary.v3.plugin</groupId>
-			<artifactId>igdiary-maven-plugin</artifactId>
+			<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
+			<artifactId>igapyonv3-maven-plugin</artifactId>
 			<version>[1.0,2.0)</version>
 		</dependency>
 
@@ -48,13 +49,6 @@
 			<groupId>org.ccil.cowan.tagsoup</groupId>
 			<artifactId>tagsoup</artifactId>
 			<version>1.2.1</version>
-		</dependency>
-
-		<!-- for igapyonv3 igdiary plugin -->
-		<dependency>
-			<groupId>jp.igapyon.diary.v3.plugin</groupId>
-			<artifactId>igdiary-maven-plugin</artifactId>
-			<version>[1.0,2.0)</version>
 		</dependency>
 	</dependencies>
 
@@ -204,8 +198,8 @@
 
 			<!-- igapyonv3 igdiary plugin -->
 			<plugin>
-				<groupId>jp.igapyon.diary.v3.plugin</groupId>
-				<artifactId>igdiary-maven-plugin</artifactId>
+				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
+				<artifactId>igapyonv3-maven-plugin</artifactId>
 				<version>1.0</version>
 				<executions>
 					<execution>
