@@ -142,7 +142,7 @@ igapyonv3
 
 * [2017-02-01 diary: GnuPG gpg を思い出しながら...](ig170201.html)
 * [2017-01-31 diary: Maven Repos への登録方法調査中](ig170131.html)
-* [2017-01-30 diary: 寒暖差が激しく](ig170130.html)
+* [2017-01-30 diary: gpg jar sign 調べ中](ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](ig170129.html)
 * [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](ig170127.html)
