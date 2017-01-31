@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-01 diary: GnuPG gpg を思い出しながら...](2017/ig170201.html)
 * [2017-01-31 diary: Maven Repos への登録方法調査中](2017/ig170131.html)
 * [2017-01-30 diary: 寒暖差が激しく](2017/ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](2017/ig170129.html)
@@ -46,7 +47,6 @@
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](2017/ig170120.html)
 * [2017-01-19 diary: MacBook Air の macOS 再インストール手順メモ](2017/ig170119.html)
 * [2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル](2017/ig170118.html)
-* [2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ](2017/ig170117.html)
 
 
 私のインターネットへのアンテナです。
