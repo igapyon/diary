@@ -140,7 +140,6 @@ igapyonv3
 
 `<@localrss />`
 
-* [2017-02-01 diary: ここにコンテンツのタイトル](ig170201.html)
 * [2017-01-30 diary: ここにコンテンツのタイトル](ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](ig170129.html)
 * [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](ig170128.html)
