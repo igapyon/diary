@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google、オンプレミス版のGoogle Earth、「Google Earth Enterprise」のオープンソース化を発表。独自のバーチャル地球儀を構築可能に](http://www.publickey1.jp/blog/17/google_earth_enterprise.html) 2017/02/01
 * [NTT、ネットワーク障害の原因を推定するAI技術を開発。従来のネットワークエンジニアによる分析と切り分けを不要に](http://www.publickey1.jp/blog/17/nttai.html) 2017/01/31
 * [関数の適切な長さとは？ マーチン・ファウラー氏は、長さより意図と実装の分離、そしてよい関数名が重要だと指摘](http://www.publickey1.jp/blog/17/post_262.html) 2017/01/31
 * [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html) 2017/01/30
 * [Docker、コンテナのCPUリソースの利用上限を簡単に設定可能に。正式版となったバージョン1.13で「--cpus」フラグを追加](http://www.publickey1.jp/blog/17/dockercpu113--cpus.html) 2017/01/27
 * [マイクロソフト、Visual Studio 2017の一部「Visual Studio Test Platform」をオープンソースで公開。ユニットテストの実行や結果データの収集などを行うテスト基盤](http://www.publickey1.jp/blog/17/visual_studio_2017visual_studio_test_platform.html) 2017/01/27
 * [オラクル、今後のSolarisはメジャーバージョンアップせず。継続的デリバリで頻繁にリリースする新方針を表明。Solaris 11のサポート期間は2034年まで延長](http://www.publickey1.jp/blog/17/solarissolaris_112034.html) 2017/01/26
-* [シスコ、分散システムの性能をリアルタイムで監視するツール「AppDynamics」買収へ。ネットワークとサーバのインフラレイヤからアプリケーションレイヤまで統合的な性能監視を実現へ](http://www.publickey1.jp/blog/17/appdynamics_1.html) 2017/01/26
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
