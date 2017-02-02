@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-03 diary: ここにコンテンツのタイトル](2017/ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる Sonatype に自分用リポジトリを作成](2017/ig170202.html)
 * [2017-02-01 diary: GnuPG gpg を思い出しながら...](2017/ig170201.html)
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に登録する方法メモ](2017/ig170131.html)
@@ -46,7 +47,6 @@
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](2017/ig170121.html)
 * [2017-01-20 diary: [Java] XPath のシンプルサンプル](2017/ig170120.html)
-* [2017-01-19 diary: MacBook Air の macOS 再インストール手順メモ](2017/ig170119.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [GitLab.comが操作ミスで本番データベース喪失。5つあったはずのバックアップ手段は役立たず、頼みの綱は6時間前に偶然取ったスナップショット](http://www.publickey1.jp/blog/17/gitlabcom56.html) 2017/02/02
+* [オラクル、AWSとAzureでのOracle DBライセンス体系を変更。コア係数が適用外になり、ライセンス価格が2倍に](http://www.publickey1.jp/blog/17/awsazureoracle_dbxeon2.html) 2017/02/03
+* [GitLab.comが操作ミスで本番データベース喪失。5つあったはずのバックアップ手段は役立たず、頼みの綱は6時間前に偶然取ったスナップショット](http://www.publickey1.jp/blog/17/gitlabcom56.html) 2017/02/03
 * [W3CとIDPFが正式統合。Web技術と出版技術を融合する将来に向け、ロードマップ作成に着手](http://www.publickey1.jp/blog/17/w3cidpfweb.html) 2017/02/01
 * [「Front-End Developer Handbook 2017」がGitBookで無償公開。フロントエンドデベロッパーに求められるさまざまなスキル、要素技術、ツールなどを幅広く紹介する一冊](http://www.publickey1.jp/blog/17/front-end_developer_handbook_2017gitbook.html) 2017/02/01
 * [Google、オンプレミス版のGoogle Earth、「Google Earth Enterprise」のオープンソース化を発表。独自のバーチャル地球儀を構築可能に](http://www.publickey1.jp/blog/17/google_earth_enterprise.html) 2017/02/01
 * [NTT、ネットワーク障害の原因を推定するAI技術を開発。従来のネットワークエンジニアによる分析と切り分けを不要に](http://www.publickey1.jp/blog/17/nttai.html) 2017/01/31
 * [関数の適切な長さとは？ マーチン・ファウラー氏は、長さより意図と実装の分離、そしてよい関数名が重要だと指摘](http://www.publickey1.jp/blog/17/post_262.html) 2017/01/31
-* [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html) 2017/01/30
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
