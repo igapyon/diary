@@ -8,12 +8,8 @@
 
 <@include file="memo/memoantenna.html.src.md" /><#-- 他サイトのニュースフィード -->
 
-for test.
-
 ### 私むけ役立ちリンク
 
 * 翻訳
   * [Google Translate](https://translate.google.com/)
   * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
-
-  

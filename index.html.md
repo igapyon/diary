@@ -80,8 +80,6 @@
 <@rssfeed url="[http://rss.asahi.com/rss...adlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
 
 
-for test.
-
 ### 私むけ役立ちリンク
 
 * 翻訳

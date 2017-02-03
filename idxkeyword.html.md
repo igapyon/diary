@@ -20,7 +20,7 @@
 / [1997](1997/index.html)
 / [1996](1996/index.html)
 / [ALL](idxall.html)
- / [keyword](https://igapyon.github.io/diary/keyword/index.html) / [memo](https://igapyon.github.io/diary/memo/index.html)
+ / [keyword](https://igapyon.github.io/diary/keyword/index.html) / [memo](https://igapyon.github.io/diary/memo/index.html) / [mirror1](http://www.igapyon.jp/igapyon/diary/) / [mirror2](http://igapyon.a.la9.jp/igapyon/diary/index.html) / [mirror3](https://igapyon.github.io/diary/)
 
 ## いがぴょんの日記：キーワード
 
