@@ -76,6 +76,7 @@
 * [Selenium](keyword/selenium.html)
 * [Servlet](keyword/servlet.html)
 * [Shell](keyword/shell.html)
+* [Sonatype](keyword/sonatype.html)
 * [Sphinx](keyword/sphinx.html)
 * [SQLite](keyword/sqlite.html)
 * [Subversion](keyword/subversion.html)

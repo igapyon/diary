@@ -82,6 +82,7 @@
 * [Selenium](selenium.html)
 * [Servlet](servlet.html)
 * [Shell](shell.html)
+* [Sonatype](sonatype.html)
 * [Sphinx](sphinx.html)
 * [SQLite](sqlite.html)
 * [Subversion](subversion.html)

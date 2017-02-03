@@ -1,14 +1,15 @@
 ## Sonatype
 
-[[Sonatype]] は、、、、です。※未執筆。
+[[Sonatype]] は [[OSS]] ソフト開発との関係について長い歴史を持つ組織です。特に [[Apache]] [[Maven]] のセントラル・リポジトリに協力してきたことで有名です。
 
 ### URL
 
-* TBD <@linksearch word="Sonatype" />
+* https://www.sonatype.com/
 
 ### 特徴
 
-* TBD <@linksearch word="Sonatype" />
+* 特に [[Apache]] [[Maven]] のセントラル・リポジトリに協力してきたことで有名。
+* Maven Repository に [[OSS]] プロダクトを掲載するときの無料パスが存在します。(2017/02現在)
 
 ### 検索
 
@@ -16,3 +17,4 @@
 * <@linksearch word="Sonatype" />
 * <@linksearch word="Sonatype" engine="twitter" />
 
+<@lastmodified date="2017-02-03"/>
