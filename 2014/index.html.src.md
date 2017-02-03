@@ -1,5 +1,5 @@
 <#assign localYear="2014">
-<@localyearlist /> / [keyword](${settings.baseurl}/keyword/index.html) / [memo](${settings.baseurl}/memo/index.html)
+<@localyearlist /> / [keyword](../keyword/index.html) / [memo](../memo/index.html)
 
 ## いがぴょんの日記：2014年の日記
 

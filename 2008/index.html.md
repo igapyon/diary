@@ -27,7 +27,7 @@
 / [1997](../1997/index.html)
 / [1996](../1996/index.html)
 / [ALL](../idxall.html)
- / [keyword](https://igapyon.github.io/diary/keyword/index.html) / [memo](https://igapyon.github.io/diary/memo/index.html)
+ / [keyword](../keyword/index.html) / [memo](../memo/index.html)
 
 ## いがぴょんの日記：2008年の日記
 
