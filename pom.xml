@@ -17,6 +17,12 @@
 			<name>igapyon maven repos</name>
 			<url>https://igapyon.github.io/igapyon-maven2</url>
 		</repository>
+
+		<repository>
+			<id>sonatype</id>
+			<name>sonatype maven public repos with SNAPSHOT</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
@@ -24,7 +30,7 @@
 		<dependency>
 			<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 			<artifactId>igapyonv3-maven-plugin</artifactId>
-			<version>[1.0,2.0)</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -110,7 +116,7 @@
 						<echo>genkeywordmd</echo>
 						<echo message="runtime classpath: ${runtime_classpath}" />
 						<java
-							classname="jp.igapyon.diary.v3.indexing.keyword.KeywordMdTextGenerator">
+							classname="jp.igapyon.diary.igapyonv3.indexing.keyword.KeywordMdTextGenerator">
 							<classpath>
 								<pathelement path="${classpath}" />
 							</classpath>
@@ -123,7 +129,7 @@
 
 						<echo>md2html</echo>
 						<mkdir dir="target/md2html" />
-						<java classname="jp.igapyon.diary.v3.md2html.IgapyonMd2Html">
+						<java classname="jp.igapyon.diary.igapyonv3.md2html.IgapyonMd2Html">
 							<arg value="-s" />
 							<arg value="." />
 							<arg value="-t" />
@@ -200,7 +206,7 @@
 			<plugin>
 				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 				<artifactId>igapyonv3-maven-plugin</artifactId>
-				<version>1.0</version>
+				<version>1.0.2-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
