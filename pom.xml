@@ -66,18 +66,17 @@
 
 	<build>
 		<plugins>
-			<!-- copy jars into lib -->
+			<!-- for igapyonv3 igdiary plugin -->
 			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId>
+				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
+				<artifactId>igapyonv3-maven-plugin</artifactId>
+				<version>1.0.5-SNAPSHOT</version>
 				<executions>
 					<execution>
-						<phase>install</phase>
+						<phase>package</phase>
 						<goals>
-							<goal>copy-dependencies</goal>
+							<goal>igdiary</goal>
 						</goals>
-						<configuration>
-							<outputDirectory>${project.build.directory}/lib</outputDirectory>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
@@ -190,31 +189,16 @@
 					<dependency>
 						<groupId>commons-net</groupId>
 						<artifactId>commons-net</artifactId>
-						<version>[3.5,4.0)</version>
+						<version>3.5</version>
 					</dependency>
 					<!-- ant ftp dependency -->
 					<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-commons-net -->
 					<dependency>
 						<groupId>org.apache.ant</groupId>
 						<artifactId>ant-commons-net</artifactId>
-						<version>[1.9.7,2.0)</version>
+						<version>1.9.8</version>
 					</dependency>
 				</dependencies>
-			</plugin>
-
-			<!-- for igapyonv3 igdiary plugin -->
-			<plugin>
-				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
-				<artifactId>igapyonv3-maven-plugin</artifactId>
-				<version>1.0.5-SNAPSHOT</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>igdiary</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
