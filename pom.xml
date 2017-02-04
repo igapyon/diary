@@ -11,26 +11,26 @@
 	<url>https://igapyon.github.io/igapyonv3/</url>
 
 	<repositories>
-		<!-- igapyon repository -->
-		<repository>
-			<id>igapyon</id>
-			<name>igapyon maven repos</name>
-			<url>https://igapyon.github.io/igapyon-maven2</url>
-		</repository>
-
 		<repository>
 			<id>sonatype</id>
 			<name>sonatype maven public repos with SNAPSHOT</name>
 			<url>https://oss.sonatype.org/content/groups/public/</url>
 		</repository>
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>sonatype</id>
+			<name>sonatype maven public repos with SNAPSHOT</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<dependencies>
 		<!-- for igapyonv3 igdiary plugin -->
 		<dependency>
 			<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 			<artifactId>igapyonv3-maven-plugin</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.2-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -202,7 +202,7 @@
 				</dependencies>
 			</plugin>
 
-			<!-- igapyonv3 igdiary plugin -->
+			<!-- for igapyonv3 igdiary plugin -->
 			<plugin>
 				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 				<artifactId>igapyonv3-maven-plugin</artifactId>
