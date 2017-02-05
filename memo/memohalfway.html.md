@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memohalfway.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memohalfway.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memohalfway.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memohalfway.src.md) 
 
 資料: 執筆中／作成途上
 =====================================================================================================

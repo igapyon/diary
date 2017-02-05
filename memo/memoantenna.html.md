@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoantenna.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoantenna.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoantenna.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoantenna.src.md) 
 
 資料: いがぴょんのアンテナ
 =====================================================================================================

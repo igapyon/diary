@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memolife.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memolife.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memolife.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memolife.src.md) 
 
 資料: いがぴょん生活メモ
 =====================================================================================================

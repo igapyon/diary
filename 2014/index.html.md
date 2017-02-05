@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/2014/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2014/index.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/2014/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/2014/index.src.md) 
 
 いがぴょんの日記：2014年の日記
 =====================================================================================================

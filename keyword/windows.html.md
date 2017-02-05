@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/windows.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/windows.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/windows.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/windows.src.md) 
 
 Windows
 =====================================================================================================

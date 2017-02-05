@@ -1,4 +1,4 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/README.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/README.html.src.md) 
+[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/README.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 
 いがぴょんの日記ウェブページv3：トップ
 =====================================================================================================

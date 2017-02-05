@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/jersey.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/jersey.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/jersey.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/jersey.src.md) 
 
 Jersey
 =====================================================================================================

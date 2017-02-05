@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/tooling-api.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/tooling-api.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/tooling-api.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/tooling-api.src.md) 
 
 Tooling API
 =====================================================================================================

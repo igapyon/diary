@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/jekyll.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/jekyll.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/jekyll.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/jekyll.src.md) 
 
 jekyll
 =====================================================================================================

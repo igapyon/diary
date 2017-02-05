@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memowant.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memowant.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memowant.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memowant.src.md) 
 
 資料: いがぴょんの欲しいもの
 =====================================================================================================

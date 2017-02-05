@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoigatool.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigatool.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoigatool.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoigatool.src.md) 
 
 資料: いがぴょんツール
 =====================================================================================================

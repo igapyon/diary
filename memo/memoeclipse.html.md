@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoeclipse.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoeclipse.html.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoeclipse.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoeclipse.src.md) 
 
 資料: Eclipseメモ
 =====================================================================================================
