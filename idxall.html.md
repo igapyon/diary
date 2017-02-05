@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](2017/ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](2017/ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](2017/ig170202.html)
