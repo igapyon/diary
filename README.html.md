@@ -1,4 +1,4 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/index.html.src.md) 
+[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/README.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/README.html.src.md) 
 
 いがぴょんの日記ウェブページv3：トップ
 =====================================================================================================
@@ -90,4 +90,4 @@
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2FREADME.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)

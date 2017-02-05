@@ -6,7 +6,7 @@
 
 <@localrss filename="atomRecent.xml" /><#-- 最近更新をローカルから読み込み -->
 
-<@include file="memo/memoantenna.html.src.md" /><#-- 他サイトのニュースフィード -->
+<@include file="memo/memoantenna.src.md" /><#-- 他サイトのニュースフィード -->
 
 ### 私むけ役立ちリンク
 

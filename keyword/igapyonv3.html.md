@@ -140,6 +140,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-02-06 diary: ここにコンテンツのタイトル](ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](ig170203.html)
@@ -221,7 +222,7 @@ igapyonv3
 
 #### ファイル取り込み展開
 
-`<@include file="ig170103.html.src.md" />`
+`<@include file="ig170103.src.md" />`
 
 ## 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中
 
