@@ -146,7 +146,7 @@ igapyonv3
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](ig170202.html)
-* [2017-02-01 diary: GnuPG gpg を思い出しながら...](ig170201.html)
+* [2017-02-01 diary: GnuPG gpg で PGP 鍵を作成メモ](ig170201.html)
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](ig170131.html)
 * [2017-01-30 diary: gpg jar sign 調べ中](ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](ig170129.html)
