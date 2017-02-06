@@ -144,7 +144,7 @@ igapyonv3
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](ig170204.html)
-* [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](ig170203.html)
+* [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](ig170202.html)
 * [2017-02-01 diary: GnuPG gpg で PGP 鍵を作成メモ](ig170201.html)
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](ig170131.html)
@@ -240,6 +240,7 @@ igapyonv3
 
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](../2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](../2017/ig170205.html)
+* [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](../2017/ig170203.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](../2017/ig170125.html)
 * [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](../2017/ig170122.html)
 * [2017-01-15 diary: [igapyonv3] の歴史](../2017/ig170115.html)

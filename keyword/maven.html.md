@@ -35,7 +35,7 @@ Last modified: $Date: 2017-01-27 $
 ### 日記
 
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](../2017/ig170204.html)
-* [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](../2017/ig170203.html)
+* [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](../2017/ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](../2017/ig170202.html)
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](../2017/ig170131.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](../2017/ig170129.html)
