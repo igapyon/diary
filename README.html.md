@@ -32,7 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-06 diary: ここにコンテンツのタイトル](2017/ig170206.html)
+* [2017-02-07 diary: ここにコンテンツのタイトル](2017/ig170207.html)
+* [2017-02-06 diary: 今日は温かい](2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](2017/ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](2017/ig170203.html)
@@ -46,7 +47,6 @@
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
-* [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
 
 
 私のインターネットへのアンテナです。

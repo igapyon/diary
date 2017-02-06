@@ -4,7 +4,16 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
-    <title>2017-02-06 diary: ここにコンテンツのタイトル</title>
+    <title>2017-02-07 diary: ここにコンテンツのタイトル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170207.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170207.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-06 diary: 今日は温かい</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170206.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2017/ig170124.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-01-23 diary: [English] 超基本ビジネス英単語</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170123.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170123.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

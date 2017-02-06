@@ -1,4 +1,4 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
+[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/README.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/README.src.md) 
 
 いがぴょんの日記ウェブページv3：トップ
 =====================================================================================================
@@ -32,6 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-07 diary: ここにコンテンツのタイトル](2017/ig170207.html)
+* [2017-02-06 diary: 今日は温かい](2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](2017/ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] デプロイ勉強中](2017/ig170203.html)
@@ -45,8 +47,6 @@
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
-* [2017-01-23 diary: [English] 超基本ビジネス英単語](2017/ig170123.html)
-* [2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良](2017/ig170122.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [IaaS/PaaS市場はAWSが40％超のシェアでトップを譲る気配はなし。マイクロソフト、Google、IBMの合計シェアも増加、2016年第4四半期。Synergy Research Group](http://www.publickey1.jp/blog/17/iaaspaasaws40googleibm20164synergy_research_group.html) 2017/02/06
 * [オラクル、AWSとAzureでのOracle DBライセンス体系を変更。コア係数が適用外になり、ライセンス価格が2倍に](http://www.publickey1.jp/blog/17/awsazureoracle_dbxeon2.html) 2017/02/03
 * [GitLab.comが操作ミスで本番データベース喪失。5つあったはずのバックアップ手段は役立たず、頼みの綱は6時間前に偶然取ったスナップショット](http://www.publickey1.jp/blog/17/gitlabcom56.html) 2017/02/03
 * [W3CとIDPFが正式統合。Web技術と出版技術を融合する将来に向け、ロードマップ作成に着手](http://www.publickey1.jp/blog/17/w3cidpfweb.html) 2017/02/01
 * [「Front-End Developer Handbook 2017」がGitBookで無償公開。フロントエンドデベロッパーに求められるさまざまなスキル、要素技術、ツールなどを幅広く紹介する一冊](http://www.publickey1.jp/blog/17/front-end_developer_handbook_2017gitbook.html) 2017/02/01
 * [Google、オンプレミス版のGoogle Earth、「Google Earth Enterprise」のオープンソース化を発表。独自のバーチャル地球儀を構築可能に](http://www.publickey1.jp/blog/17/google_earth_enterprise.html) 2017/02/01
 * [NTT、ネットワーク障害の原因を推定するAI技術を開発。従来のネットワークエンジニアによる分析と切り分けを不要に](http://www.publickey1.jp/blog/17/nttai.html) 2017/01/31
-* [関数の適切な長さとは？ マーチン・ファウラー氏は、長さより意図と実装の分離、そしてよい関数名が重要だと指摘](http://www.publickey1.jp/blog/17/post_262.html) 2017/01/31
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
@@ -90,4 +90,4 @@
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2FREADME.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Diary Generator](https://github.com/igapyon/igapyonv3)
