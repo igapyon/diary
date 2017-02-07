@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-08 diary: ここにコンテンツのタイトル](2017/ig170208.html)
 * [2017-02-07 diary: 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
@@ -46,7 +47,6 @@
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 * [2017-01-25 diary: [igapyonv3] 日記システム UI 考](2017/ig170125.html)
-* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](2017/ig170124.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
 * [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
 * [Dell EMCのクラウドサービス「Virtustream」が日本リージョン開設、NTTコミュニケーションズと協業で。基幹業務向けクラウドにフォーカス](http://www.publickey1.jp/blog/17/dell_emcvirtustreamntt.html) 2017/02/07
 * [IaaS/PaaS市場はAWSが40％超のシェアでトップを譲る気配はなし。マイクロソフト、Google、IBMの合計シェアも増加、2016年第4四半期。Synergy Research Group](http://www.publickey1.jp/blog/17/iaaspaasaws40googleibm20164synergy_research_group.html) 2017/02/06
 * [オラクル、AWSとAzureでのOracle DBライセンス体系を変更。コア係数が適用外になり、ライセンス価格が2倍に](http://www.publickey1.jp/blog/17/awsazureoracle_dbxeon2.html) 2017/02/03
 * [GitLab.comが操作ミスで本番データベース喪失。5つあったはずのバックアップ手段は役立たず、頼みの綱は6時間前に偶然取ったスナップショット](http://www.publickey1.jp/blog/17/gitlabcom56.html) 2017/02/03
-* [W3CとIDPFが正式統合。Web技術と出版技術を融合する将来に向け、ロードマップ作成に着手](http://www.publickey1.jp/blog/17/w3cidpfweb.html) 2017/02/01
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

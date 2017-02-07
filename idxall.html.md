@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-08 diary: ここにコンテンツのタイトル](2017/ig170208.html)
 * [2017-02-07 diary: 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
