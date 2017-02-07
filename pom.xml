@@ -70,7 +70,7 @@
 			<plugin>
 				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 				<artifactId>igapyonv3-maven-plugin</artifactId>
-				<version>1.1.0.3</version>
+				<version>1.1.0.4-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>package</phase>

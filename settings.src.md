@@ -8,7 +8,8 @@ ${showSettings()}
 
 ### Setting
 
-${setVerbose("false")}
+${setVerbose("true")}
+${setDebug("false")}
 ${setGeneratetodaydiary("true")}
 ${setDuplicatefakehtmlmd("true")}
 ${setConvertmarkdown2html("false")}
