@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがFleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 * [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
 * [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
 * [Dell EMCのクラウドサービス「Virtustream」が日本リージョン開設、NTTコミュニケーションズと協業で。基幹業務向けクラウドにフォーカス](http://www.publickey1.jp/blog/17/dell_emcvirtustreamntt.html) 2017/02/07
 * [IaaS/PaaS市場はAWSが40％超のシェアでトップを譲る気配はなし。マイクロソフト、Google、IBMの合計シェアも増加、2016年第4四半期。Synergy Research Group](http://www.publickey1.jp/blog/17/iaaspaasaws40googleibm20164synergy_research_group.html) 2017/02/06
 * [オラクル、AWSとAzureでのOracle DBライセンス体系を変更。コア係数が適用外になり、ライセンス価格が2倍に](http://www.publickey1.jp/blog/17/awsazureoracle_dbxeon2.html) 2017/02/03
-* [GitLab.comが操作ミスで本番データベース喪失。5つあったはずのバックアップ手段は役立たず、頼みの綱は6時間前に偶然取ったスナップショット](http://www.publickey1.jp/blog/17/gitlabcom56.html) 2017/02/03
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
