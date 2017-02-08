@@ -71,11 +71,14 @@
 				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 				<artifactId>igapyonv3-maven-plugin</artifactId>
 				<version>1.1.0.4-SNAPSHOT</version>
+				<configuration>
+					<basedir>.</basedir>
+				</configuration>
 				<executions>
 					<execution>
 						<phase>package</phase>
 						<goals>
-							<goal>igdiary</goal>
+							<goal>igapyonv3</goal>
 						</goals>
 					</execution>
 				</executions>
