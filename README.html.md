@@ -59,7 +59,7 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがFleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
+* [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 * [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
 * [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
