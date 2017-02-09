@@ -32,7 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-09 diary: ここにコンテンツのタイトル](2017/ig170209.html)
+* [2017-02-10 diary: 今日も寒い](2017/ig170210.html)
+* [2017-02-09 diary: 関東は雪まじりでした](2017/ig170209.html)
 * [2017-02-08 diary: 今日も寒そう](2017/ig170208.html)
 * [2017-02-07 diary: 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
@@ -46,7 +47,6 @@
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](2017/ig170129.html)
 * [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](2017/ig170128.html)
 * [2017-01-27 diary: [Ant] sf.jp の URL を osdn に置き換え](2017/ig170127.html)
-* [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](2017/ig170126.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html) 2017/02/10
 * [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 * [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
 * [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
 * [Dell EMCのクラウドサービス「Virtustream」が日本リージョン開設、NTTコミュニケーションズと協業で。基幹業務向けクラウドにフォーカス](http://www.publickey1.jp/blog/17/dell_emcvirtustreamntt.html) 2017/02/07
 * [IaaS/PaaS市場はAWSが40％超のシェアでトップを譲る気配はなし。マイクロソフト、Google、IBMの合計シェアも増加、2016年第4四半期。Synergy Research Group](http://www.publickey1.jp/blog/17/iaaspaasaws40googleibm20164synergy_research_group.html) 2017/02/06
-* [オラクル、AWSとAzureでのOracle DBライセンス体系を変更。コア係数が適用外になり、ライセンス価格が2倍に](http://www.publickey1.jp/blog/17/awsazureoracle_dbxeon2.html) 2017/02/03
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
