@@ -14,6 +14,6 @@
 
 ### 検索
 
-* <@linksearch title="Search on Igapyon Diary" word="Ant" site="https://igapyon.github.io/diary/" />
+* <@linksearch title="Search on Igapyon Diary" word="Ant" site="${settings.baseurl}/" />
 * <@linksearch title="Search in Google" word="Ant Java" />
 * <@linksearch title="Search in Twitter" word="Ant Java" engine="twitter" />
