@@ -23,3 +23,6 @@ ${setBaseurl("https://igapyon.github.io/diary")}
 <#--
 ${setBaseurl("http://www.igapyon.jp/igapyon/diary")}
 -->
+<#--
+${setBaseurl("http://igapyon.a.la9.jp/igapyon/diary")}
+-->
