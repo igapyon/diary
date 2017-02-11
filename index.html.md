@@ -32,11 +32,12 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-12 diary: 花粉症の諸症状](2017/ig170212.html)
 * [2017-02-11 diary: ここにコンテンツのタイトル](2017/ig170211.html)
 * [2017-02-10 diary: 今日も寒い](2017/ig170210.html)
 * [2017-02-09 diary: 関東は雪まじりでした](2017/ig170209.html)
-* [2017-02-08 diary: 今日も寒そう](2017/ig170208.html)
-* [2017-02-07 diary: 機械翻訳指向の日本語作文技術](2017/ig170207.html)
+* [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](2017/ig170208.html)
+* [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](2017/ig170204.html)
@@ -46,7 +47,6 @@
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](2017/ig170131.html)
 * [2017-01-30 diary: PGP jar sign 調べメモ](2017/ig170130.html)
 * [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](2017/ig170129.html)
-* [2017-01-28 diary: [FreeMarker] オブジェクトの boolean 値による if 分岐](2017/ig170128.html)
 
 
 私のインターネットへのアンテナです。
