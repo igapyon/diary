@@ -143,7 +143,7 @@ igapyonv3
 * [2017-02-12 diary: 花粉症の諸症状](ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](ig170210.html)
-* [2017-02-09 diary: 関東は雪まじりでした](ig170209.html)
+* [2017-02-09 diary: [igapyonv3] を利用した [gh-pages] 日記の Getting Started メモ](ig170209.html)
 * [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](ig170208.html)
 * [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](ig170206.html)
@@ -244,6 +244,7 @@ igapyonv3
 ### 日記
 
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](../2017/ig170210.html)
+* [2017-02-09 diary: [igapyonv3] を利用した [gh-pages] 日記の Getting Started メモ](../2017/ig170209.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](../2017/ig170206.html)
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](../2017/ig170205.html)
 * [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](../2017/ig170203.html)
