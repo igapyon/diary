@@ -72,11 +72,11 @@
 				<artifactId>igapyonv3-maven-plugin</artifactId>
 				<version>1.1.1.0</version>
 				<configuration>
-					<basedir>.</basedir>
+					<basedir>${project.basedir}</basedir>
 				</configuration>
 				<executions>
 					<execution>
-						<phase>package</phase>
+						<phase>generate-resources</phase>
 						<goals>
 							<goal>igapyonv3</goal>
 						</goals>
