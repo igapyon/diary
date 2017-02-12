@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-02-13 diary: ここにコンテンツのタイトル](ig170213.html)
+* [2017-02-13 diary: 関東寒い](ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](ig170210.html)

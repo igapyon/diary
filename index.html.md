@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-13 diary: ここにコンテンツのタイトル](2017/ig170213.html)
+* [2017-02-13 diary: 関東寒い](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
