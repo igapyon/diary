@@ -26,7 +26,7 @@ github
 ### 日記
 
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](../2017/ig170210.html)
-* [2017-02-09 diary: [github] に [gh-pages] 日記を作成するときの基本手順メモ](../2017/ig170209.html)
+* [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順](../2017/ig170209.html)
 * [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../2017/ig170104.html)
 * [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](../2016/ig161215.html)
 

@@ -32,10 +32,11 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-13 diary: ここにコンテンツのタイトル](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
-* [2017-02-09 diary: [github] に [gh-pages] 日記を作成するときの基本手順メモ](2017/ig170209.html)
+* [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順](2017/ig170209.html)
 * [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](2017/ig170208.html)
 * [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
@@ -46,7 +47,6 @@
 * [2017-02-01 diary: [Sonatype] GnuPG gpg で PGP 鍵を作成メモ](2017/ig170201.html)
 * [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](2017/ig170131.html)
 * [2017-01-30 diary: PGP jar sign 調べメモ](2017/ig170130.html)
-* [2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め](2017/ig170129.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [マイクロソフト、「Windows SDK for Google Analytics」発表。Windowsアプリの利用状況をGoogle Analyticsで分析可能に](http://www.publickey1.jp/blog/17/windows_sdk_for_google_analyticswindowsgoogle_analytics.html) 2017/02/13
 * [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html) 2017/02/10
 * [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 * [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
 * [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
 * [Dell EMCのクラウドサービス「Virtustream」が日本リージョン開設、NTTコミュニケーションズと協業で。基幹業務向けクラウドにフォーカス](http://www.publickey1.jp/blog/17/dell_emcvirtustreamntt.html) 2017/02/07
-* [IaaS/PaaS市場はAWSが40％超のシェアでトップを譲る気配はなし。マイクロソフト、Google、IBMの合計シェアも増加、2016年第4四半期。Synergy Research Group](http://www.publickey1.jp/blog/17/iaaspaasaws40googleibm20164synergy_research_group.html) 2017/02/06
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-02-13 diary: ここにコンテンツのタイトル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170212.html" />
     <author>
@@ -31,7 +40,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2017-02-09 diary: [github] に [gh-pages] 日記を作成するときの基本手順メモ</title>
+    <title>2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170209.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2017/ig170130.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-01-29 diary: [Apache][Maven] プラグイン開発の手始め</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170129.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170129.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
