@@ -32,10 +32,10 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-02-12 diary: 花粉症の諸症状](2017/ig170212.html)
+* [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
-* [2017-02-09 diary: [igapyonv3] を利用した [gh-pages] 日記の Getting Started メモ](2017/ig170209.html)
+* [2017-02-09 diary: [github] に [gh-pages] 日記を作成するときの基本手順メモ](2017/ig170209.html)
 * [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](2017/ig170208.html)
 * [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](2017/ig170207.html)
 * [2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中](2017/ig170206.html)
