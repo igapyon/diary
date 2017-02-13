@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(latest)](2017/ig170214.html)
 * [2017-02-13 diary: 関東寒い](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)

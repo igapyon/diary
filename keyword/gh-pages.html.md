@@ -24,6 +24,7 @@ gh-pages
 
 ### 日記
 
+* [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(latest)](../2017/ig170214.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](../2017/ig170212.html)
 * [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順](../2017/ig170209.html)
 * [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../2017/ig170109.html)
