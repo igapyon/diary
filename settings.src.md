@@ -13,6 +13,7 @@ ${setDebug("false")}
 ${setGeneratetodaydiary("true")}
 ${setDuplicatefakehtmlmd("true")}
 ${setConvertmarkdown2html("false")}
+${setGeneratekeywordifneeded("true")}
 ${setAuthor("Toshiki Iga")}
 ${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
 
