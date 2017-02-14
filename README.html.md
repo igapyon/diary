@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-15 diary: ここにコンテンツのタイトル](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
 * [2017-02-13 diary: 関東寒い](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
@@ -46,7 +47,6 @@
 * [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](2017/ig170203.html)
 * [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](2017/ig170202.html)
 * [2017-02-01 diary: [Sonatype] GnuPG gpg で PGP 鍵を作成メモ](2017/ig170201.html)
-* [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](2017/ig170131.html)
 
 
 私のインターネットへのアンテナです。
