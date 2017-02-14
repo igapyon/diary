@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [AWS、企業向けビデオ電子会議のクラウドサービス「Amazon Chime」発表。1対1のビデオ会議やチャットルームは無料](http://www.publickey1.jp/blog/17/awsamazon_chime11.html) 2017/02/15
 * [VMware、新ネットワーク仮想化「VMware NSX-T」発表。コンテナ、Ubuntu、RHEL、OpenStackなど非vSphere環境をサポート](http://www.publickey1.jp/blog/17/vmwarevmware_nsx-tubunturhelopenstackvsphere.html) 2017/02/14
 * [マイクロソフト、「Windows SDK for Google Analytics」発表。Windowsアプリの利用状況をGoogle Analyticsで分析可能に](http://www.publickey1.jp/blog/17/windows_sdk_for_google_analyticswindowsgoogle_analytics.html) 2017/02/13
 * [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html) 2017/02/10
 * [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 * [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 * [ITエンジニア本大賞2017／Googleは巨大なインフラをどうやってセキュアに保っているか／タスク管理ツール「Trello」、アトラシアンが買収ほか、2017年1月の人気記事](http://www.publickey1.jp/blog/17/it2017googletrello20171.html) 2017/02/07
-* [ソラコム、LoRaWAN通信サービスを国内で正式に開始。免許不要、数キロ先まで無線通信、乾電池で数年稼働のIoT向け通信。デバイスとサービスを展開](http://www.publickey1.jp/blog/17/lorawaniot.html) 2017/02/07
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

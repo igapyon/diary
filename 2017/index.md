@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-02-15 diary: ここにコンテンツのタイトル](ig170215.html)
+* [2017-02-15 diary: 今日も寒い](ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](ig170214.html)
 * [2017-02-13 diary: 関東寒い](ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](ig170212.html)
