@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-16 diary: 花粉が目に染みる](2017/ig170216.html)
+* [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
 * [2017-02-15 diary: 今日も寒い](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
 * [2017-02-13 diary: 関東寒い](2017/ig170213.html)
