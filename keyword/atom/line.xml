@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2016-12-20 diary: [LINE] bot 関連情報の収集</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161220.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161220.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-11 diary: [LINE] LINE Developer メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161211.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161211.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

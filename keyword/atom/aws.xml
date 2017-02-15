@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2016-08-09 diary: [AWS] Amazon AWS EC2 t2.micro Windows Server 2012 R2 Base を試した時のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160809.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160809.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

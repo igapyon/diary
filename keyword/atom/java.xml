@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170126.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170126.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170124.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170124.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-20 diary: [Java] XPath のシンプルサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170120.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170120.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-18 diary: [Java] TagSoup を利用した HTML 正常化のシンプルサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170118.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170118.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-17 diary: [Java] 正規表現 `regex` の少しだけ応用のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170117.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170117.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170116.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170116.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-10 diary: [Java][Jersey] Java でシンプル RESTful サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160713.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160713.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-01-10 diary: [Java] iCal4J の利用サンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160110.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160110.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-09-14 diary: メモ: [Java] ical4j</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150914.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150914.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-04-02 diary: [Java] The Java Virtual Machine Specification: Java SE 8 Edition</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140402.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140402.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140316.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140316.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-02-28 diary: [Derby][Java] Apache Derby をローカルで動作させる</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140228.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140228.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140227.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140227.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2013-01-16 diary: [Java] [LLVM] セキュリティ問題によるクライアント Java の苦悩</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130116.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2013/ig130116.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2013-01-15 diary: [Java] Oracle のイベント</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130115.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2013/ig130115.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2013-01-14 diary: [Java] C/C++ C#.NET 私のプログラミング言語経験年数</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2013/ig130114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2013/ig130114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121107.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121107.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2008-12-17 diary: [Java] TagSoup を使った HTML正常化のサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2008/ig081217.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2008/ig081217.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170124.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170124.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-19 diary: [Mac] MacBook Air の macOS 再インストール手順メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170119.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170119.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140901.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140901.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-06-11 diary: [Mac] スクリーンショット取得は command + shift + 3</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140611.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140611.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

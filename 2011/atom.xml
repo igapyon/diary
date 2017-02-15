@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Igapyon Diary v3 year 2011</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2011-12-27 diary: 福島第一原発の最悪シナリオのメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111227.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111227.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-25 diary: BlancoStruts on Blanco2g</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111225.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111225.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-24 diary: Blanco2g のシンプル・サンプル【Apache Struts 1.x + DB 接続】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111224.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111224.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-23 diary: Blanco2g のシンプル・サンプル【データベース接続の注入】</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111223.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111223.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-17 diary: Blanco2g は Spring Roo と類似性がある模様</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111217.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111217.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-15 diary: Blanco2g</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111215.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111215.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-13 diary:  GlassFish 3.x コネクターの有効化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-10 diary:  Blanco2g の Wiki 記述をさらに強化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-08 diary:  Blanco2g の初のマイルストーンビルドを実施</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111208.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111208.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-12-04 diary: Blanco2g を実装。そこそこ機能がそろってきました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111204.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111204.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-11-28 diary: [Facelets] JavaServer Faces: Facelets: サブディレクトリ付きの JSF URI へのアクセスの設定方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111128.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111128.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-11-13 diary: Blanco2g の Wiki 記述を強化</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-11-10 diary: Blanco2g (第二世代 blanco Framework) について実装中。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111110.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111110.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-23 diary: TOSHIBA REGZA 22RE2 購入</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111023.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111023.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-22 diary: 食品放射能調査 第1回目：秋のお魚調査</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111022.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111022.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-17 diary: Windows 7 Ultimate で多国語対応ざんまい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111017.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111017.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-15 diary: 文部科学省による新潟県及び秋田県の航空機モニタリングの測定結果について (文科省, 10/12)。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111015.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111015.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-14 diary: EclipseのASTParserを試す</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111014.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111014.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-13 diary: Java Compiler API めも</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111013.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111013.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-12 diary: 自宅用ノート PC 購入 Lenovo ThinkPad Edge 11'' 03282DJ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111012.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111012.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-10 diary: blancoJsf アノテーション版の仕様検討</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111010.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111010.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-10-09 diary: blanco Framework の Java アノテーション対応を検討開始</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig111009.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig111009.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-25 diary: PUG (PostgreSQL + Ubuntu + GlassFish) によるコストパフォーマンスの高いシステム構築</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110925.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110925.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-23 diary: PostgreSQL の 文字列型を勉強中...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110923.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110923.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-22 diary: Java EE 6 (JSF 2 Facelets) + GlassFish 3 + PostgreSQL + Ubuntu</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110922.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110922.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-18 diary: 原発事故、首都圏も避難対象　菅氏、最悪予測で３千万人</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110918.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110918.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-17 diary: Ubuntu 10.04 での SAMBA サーバ設定メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110917.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110917.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-16 diary: DELL PowerEdge T310 に Ubuntu 10.04.3 をインストールでハマり...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110916.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110916.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-15 diary: もっともユーザ数の多い Linux ディストリビューションは Ubuntu ...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110915.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110915.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-10 diary: Eclipse Indigo (3.7.0) 日本語化言語パック (サードパーティ版)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110910.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110910.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-09-05 diary: Eclipse EGit を翻訳してみました</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110905.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110905.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-08-11 diary: vdbench : Bench Application written in Java</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110811.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110811.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-08-08 diary: Ubuntu 10.04 + Postgres + GlassFish ソフトウェア構成の検討中。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110808.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110808.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-08-02 diary: 世界の将棋大会2011年夏</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110802.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110802.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-07-24 diary: Ubuntu 11.04 DVD play</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110724.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110724.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-07-12 diary:  Windows 7 で VMware Player + NAT を使う方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110712.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110712.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-06-26 diary: 現在利用中の機種</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110626.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110626.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-06-12 diary: 中部電力 浜岡原子力発電所 の停止の理由を知る方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110612.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110612.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-15 diary: 日本医師会が定例記者会見で文部科学省「福島県内の学校・校庭等の利用判断における暫定的な考え方」に対する日医の見解を発表</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110515.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110515.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-13 diary: 東電福島第一原発１号機でメルトダウン</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110513.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110513.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-10 diary: Java: セミナーメモ。しかし忙しくて参加できないっぽい。。。</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110510.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110510.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-04 diary: 飲料水における放射性物質に関する基準</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110504.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110504.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-03 diary: 埼玉県: 保健医療政策課: 原発事故に関する本県での放射線量について</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110503.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110503.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-05-01 diary: 外部電源喪失　地震が原因</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110501.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110501.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-04-30 diary: 内閣官房参与 小佐古 敏荘 さん、辞任</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110430.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110430.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-04-25 diary: 放射線量: 柏－金町ホットスポット (0.5μSv/h、4.4mSv/年 程度) ?</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110425.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110425.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-04-24 diary: 日本産婦人科学会による妊婦の放射線影響見解とそれに対する抗議</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110424.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110424.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-04-16 diary: 「直ちに健康に影響が出るレベル」についての厚生労働省の見解</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110416.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110416.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-04-08 diary: 暫定基準値の算出計算式に関する考察のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110408.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110408.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-30 diary: これであなたも原子力安全・保安院</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110330.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110330.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-23 diary: 放射能漏れに対する個人対策</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110323.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110323.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-22 diary: メモ: 奥村先生: データは自動処理可能な形で提供してほしい</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110322.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110322.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-21 diary: Ubuntu 10.10: ffmpeg に AAC サポートを追加する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110321.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110321.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-19 diary: 期末クライシス</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110319.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110319.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-18 diary: 全国の放射能濃度一覧</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110318.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110318.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-17 diary: 福島第一原発の3号炉は MOX 燃料の模様</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110317.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110317.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-16 diary: 原子力発電所の現在の運転に反対</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110316.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110316.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-15 diary: 地震活動期</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110315.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110315.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-13 diary: 地震の被害</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110313.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110313.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-03-12 diary: 福島第一原発で炉心溶融(メルトダウン)が発生・一般の...</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110312.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110312.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2011-01-01 diary: 個人利用 PHS が壊れました , ウィルコム WX300K → WX340K に機種変更</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2011/ig110101.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2011/ig110101.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

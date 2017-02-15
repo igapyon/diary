@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>key</title>
+  <dc:creator>Toshiki Iga</dc:creator>
+  <dc:language>ja_JP</dc:language>
+  <entry>
+    <title>2016-03-11 diary: [Delphi] BluetoothLE アダプターが ON かどうか確認</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160311.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160311.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-03-10 diary: [Delphi] iOS: 位置情報サービスの ON/OFF 判定</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160310.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160310.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-02-23 diary: [Delphi] TBeacon を使ったコード断片</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160223.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160223.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-02-18 diary: [Delphi] IBLite をモバイルで使うときのチュートリアル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160218.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160218.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-01-07 diary: [Delphi] MongoDB への非ビジュアルアクセス方法のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160107.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig160107.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-11-26 diary: [Delphi] 画面を縦に固定する (FireMonkey)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig151126.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig151126.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-11-25 diary: [Delphi] Delphi 概要 (2015/11)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig151125.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig151125.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-06-05 diary: [Delphi] トラブルシューティング: Mac / iOS 系</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150605.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150605.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-06-04 diary: [Delphi] Delphi XE8 で Windows 10 向けアプリ開発</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150604.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150604.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-06-01 diary: [Delphi] Delphi 言語(Object Pascal)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150601.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150601.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-31 diary: [Delphi] VCL と FireMonkey</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150531.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150531.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-28 diary: [Delphi] はじめての FireDAC アプリ VCL 版</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150528.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150528.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-27 diary: [Delphi] Delphi 7 「FISH FACTS」サンプル(BDE)を Delphi XE8 (FireDAC) に移行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150527.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150527.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-25 diary: [Delphi] 帳票ツールの移行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150525.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150525.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-23 diary: [Delphi] Windows 向けインストーラー作成ソフト</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150523.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150523.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-20 diary: [Delphi] Delphi に関わるソースコード</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150520.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150520.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-19 diary: [Delphi][C++Builder] RAD Studio XE シリーズのリリースノート一覧</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150519.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150519.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-18 diary: [Delphi] 古いバージョンから新しいバージョンへの移行(マイグレーション)に関する情報</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150518.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150518.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-17 diary: [Delphi] FireDAC</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150517.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150517.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-16 diary: [Delphi] dbExpress</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150516.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150516.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-14 diary: [Delphi] dbGo (旧称 ADO Express)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150514.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150514.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-13 diary: [Delphi] dbExpress -&gt; FireDAC 移行</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150513.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150513.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-12 diary: [Delphi] Delphi の利用</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150512.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150512.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-10 diary: [Delphi] Delphi でログ出力</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150510.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150510.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-09 diary: [Delphi] Delphi で印刷</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150509.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150509.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-08 diary: [Delphi] Delphi 同梱の InterBase について</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150508.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150508.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-05-01 diary: [Delphi] Delphi で Android Service を記述する方法</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150501.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150501.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-04-18 diary: [Delphi] Delphi XE8 / C++Builder XE8 インストール</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150418.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150418.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2014-07-02 diary: Appmethod [Delphi] サードパーティ製ツール・コンポーネント一覧記事のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2014/ig140702.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2014/ig140702.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2012-12-10 diary: [Delphi] Delphi: XE3: エクスプローラ風アプリ開発のメモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2012/ig121210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2012/ig121210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+</feed>

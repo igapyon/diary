@@ -3,26 +3,34 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>igapyon.diary.ghpages</groupId>
 	<artifactId>IgapyonDiaryGhPages</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+
 	<name>IgapyonDiaryGhPages</name>
-	<url>https://igapyon.github.io/igapyon-maven2</url>
+	<description>Igapyon's diary.</description>
+	<url>https://igapyon.github.io/igapyonv3/</url>
 
 	<repositories>
-		<!-- igapyon repository -->
 		<repository>
-			<id>igapyon</id>
-			<name>igapyon maven repos</name>
-			<url>https://igapyon.github.io/igapyon-maven2</url>
+			<id>sonatype</id>
+			<name>sonatype maven public repos with SNAPSHOT</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
 		</repository>
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>sonatype</id>
+			<name>sonatype maven public repos with SNAPSHOT</name>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<dependencies>
-		<!-- diary generator -->
+		<!-- for igapyonv3 igdiary plugin -->
 		<dependency>
-			<groupId>jp.igapyon.diary.v3</groupId>
-			<artifactId>IgapyonV3</artifactId>
-			<version>[1.0,2.0)</version>
+			<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
+			<artifactId>igapyonv3-maven-plugin</artifactId>
+			<version>1.2.2</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -30,7 +38,7 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>[2.5,3.0)</version>
+			<version>2.5</version>
 		</dependency>
 
 		<!-- Apache StringUtil -->
@@ -38,7 +46,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>[3.5,4.0)</version>
+			<version>3.5</version>
 		</dependency>
 
 		<!-- normalize html tag -->
@@ -50,20 +58,28 @@
 		</dependency>
 	</dependencies>
 
+	<!-- basic spec for jar -->
+	<properties>
+		<!-- set source as UTF-8 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<build>
 		<plugins>
-			<!-- copy jars into lib -->
+			<!-- for igapyonv3 igdiary plugin -->
 			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId>
+				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
+				<artifactId>igapyonv3-maven-plugin</artifactId>
+				<version>1.2.2</version>
+				<configuration>
+					<basedir>${project.basedir}</basedir>
+				</configuration>
 				<executions>
 					<execution>
-						<phase>install</phase>
+						<phase>generate-resources</phase>
 						<goals>
-							<goal>copy-dependencies</goal>
+							<goal>generate</goal>
 						</goals>
-						<configuration>
-							<outputDirectory>${project.build.directory}/lib</outputDirectory>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
@@ -72,7 +88,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.0</version>
+				<version>3.6.1</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
@@ -84,10 +100,108 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.2.1</version>
+				<version>1.5.0</version>
 				<configuration>
 					<mainClass>igapyon.diary.ghpages.App</mainClass>
 				</configuration>
+			</plugin>
+
+			<!-- run ant task -->
+			<!-- usage: mvn antrun:run -->
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<configuration>
+					<!-- generate keyword md file -->
+					<target>
+						<property name="classpath" refid="maven.runtime.classpath" />
+						<echo>genkeywordmd</echo>
+						<echo message="runtime classpath: ${runtime_classpath}" />
+						<java
+							classname="jp.igapyon.diary.igapyonv3.indexing.keyword.KeywordMdTextGenerator">
+							<classpath>
+								<pathelement path="${classpath}" />
+							</classpath>
+						</java>
+
+						<!-- Next -->
+
+						<!-- convert md to html and ftp -->
+						<property name="classpath" refid="maven.runtime.classpath" />
+
+						<echo>md2html</echo>
+						<mkdir dir="target/md2html" />
+						<java classname="jp.igapyon.diary.igapyonv3.md2html.IgapyonMd2Html">
+							<arg value="-s" />
+							<arg value="." />
+							<arg value="-t" />
+							<arg value="target/md2html" />
+							<arg value="-r" />
+							<classpath>
+								<pathelement path="${classpath}" />
+							</classpath>
+						</java>
+
+						<echo>transfer via ftp</echo>
+						<!-- replace here -->
+						<property name="ftp.server" value="FTPSERVER" />
+						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
+						<property name="ftp.user" value="USER" />
+						<property name="ftp.pass" value="PASS" />
+						<!-- replace here -->
+
+						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
+							userid="${ftp.user}" password="${ftp.pass}" passive="true"
+							retriesAllowed="3" verbose="true">
+							<fileset dir="target/md2html">
+								<include name="*.html" />
+								<include name="keyword/*.html" />
+								<include name="memo/*.html" />
+								<include name="images/*.*" />
+								<include name="1996/*.html" />
+								<include name="1997/*.html" />
+								<include name="1998/*.html" />
+								<include name="2000/*.html" />
+								<include name="2001/*.html" />
+								<include name="2002/*.html" />
+								<include name="2003/*.html" />
+								<include name="2004/*.html" />
+								<include name="2005/*.html" />
+								<include name="2006/*.html" />
+								<include name="2007/*.html" />
+								<include name="2008/*.html" />
+								<include name="2009/*.html" />
+								<include name="2010/*.html" />
+								<include name="2011/*.html" />
+								<include name="2012/*.html" />
+								<include name="2013/*.html" />
+								<include name="2014/*.html" />
+								<include name="2015/*.html" />
+								<include name="2016/*.html" />
+								<include name="2017/*.html" />
+							</fileset>
+						</ftp>
+					</target>
+				</configuration>
+				<goals>
+					<goal>run</goal>
+				</goals>
+				<dependencies>
+					<!-- ant ftp dependency -->
+					<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+					<dependency>
+						<groupId>commons-net</groupId>
+						<artifactId>commons-net</artifactId>
+						<version>3.5</version>
+					</dependency>
+					<!-- ant ftp dependency -->
+					<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-commons-net -->
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant-commons-net</artifactId>
+						<version>1.9.8</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
