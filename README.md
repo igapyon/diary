@@ -36,7 +36,7 @@
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
 * [2017-02-15 diary: 今日も寒い](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
-* [2017-02-13 diary: 関東寒い](2017/ig170213.html)
+* [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
