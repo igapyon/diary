@@ -24,6 +24,7 @@ Ubuntu
 
 ### 日記
 
+* [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
 * [2016-12-14 diary: [Ubuntu] open vm tools](../2016/ig161214.html)
 * [2016-12-02 diary: [Ubuntu] HDD 容量増加方法](../2016/ig161202.html)

@@ -32,7 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-02-17 diary: 花粉しんどい](2017/ig170217.html)
+* [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](2017/ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
 * [2017-02-15 diary: 今日も寒い](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
