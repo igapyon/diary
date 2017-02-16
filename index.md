@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-17 diary: 花粉しんどい](2017/ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
 * [2017-02-15 diary: 今日も寒い](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
@@ -46,7 +47,6 @@
 * [2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中](2017/ig170205.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](2017/ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](2017/ig170203.html)
-* [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](2017/ig170202.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [運用監視クラウドサービスのDatadog、アプリケーション監視の「Datadog APM」を正式リリース。インフラ、ミドルウェア、アプリをまとめてクラウドで監視可能に](http://www.publickey1.jp/blog/17/datadogdatadog_apm.html) 2017/02/17
 * [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html) 2017/02/16
 * [AWS、企業向けビデオ電子会議のクラウドサービス「Amazon Chime」発表。1対1のビデオ会議やチャットルームは無料](http://www.publickey1.jp/blog/17/awsamazon_chime11.html) 2017/02/15
 * [VMware、新ネットワーク仮想化「VMware NSX-T」発表。コンテナ、Ubuntu、RHEL、OpenStackなど非vSphere環境をサポート](http://www.publickey1.jp/blog/17/vmwarevmware_nsx-tubunturhelopenstackvsphere.html) 2017/02/14
 * [マイクロソフト、「Windows SDK for Google Analytics」発表。Windowsアプリの利用状況をGoogle Analyticsで分析可能に](http://www.publickey1.jp/blog/17/windows_sdk_for_google_analyticswindowsgoogle_analytics.html) 2017/02/13
 * [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html) 2017/02/10
 * [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
-* [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html) 2017/02/08
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
