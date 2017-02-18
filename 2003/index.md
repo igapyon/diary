@@ -35,7 +35,7 @@
 * [2003-12-30 diary: 2003年を振り返りました](ig031230.html)
 * [2003-12-27 diary: SoftEther 仮想イーサネットシステム というソフト](ig031227.html)
 * [2003-12-26 diary: IBMホームページ・ビルダー8購入 , Log4Jが Apache Logging](ig031226.html)
-* [2003-12-25 diary: Javaパフォーマンス調査ふたたび](ig031225.html)
+* [2003-12-25 diary: [Java] Javaパフォーマンス調査ふたたび](ig031225.html)
 * [2003-12-19 diary: Linux 2.6.0 リリース！](ig031219.html)
 * [2003-12-18 diary: lprやWindows直接印刷など、印刷系を少し調べる](ig031218.html)
 * [2003-12-17 diary: 何か記事のためのインタビューされるらしい…](ig031217.html)

@@ -29,7 +29,7 @@ git
 
 ### 日記
 
-* [2017-02-18 diary: [git][shell] 私の git コマンド用の設定](../2017/ig170218.html)
+* [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](../2017/ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2016-12-17 diary: [git] 基本コマンドメモ](../2016/ig161217.html)
 

@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-02-18 diary: [git][shell] 私の git コマンド用の設定](ig170218.html)
+* [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](ig170216.html)
 * [2017-02-15 diary: 今日も寒い](ig170215.html)

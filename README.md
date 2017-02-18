@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-18 diary: [git][shell] 私の git コマンド用の設定](2017/ig170218.html)
+* [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](2017/ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](2017/ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
 * [2017-02-15 diary: 今日も寒い](2017/ig170215.html)
