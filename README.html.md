@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [マルチクラウドの企業はこの1年で82％から85％へ増加、セキュリティへの懸念は減少。クラウド別ではAzureの採用が急増。RightScaleの調査2017年版公開](http://www.publickey1.jp/blog/17/18285azurerightscale2017.html) 2017/02/20
+* [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと](http://www.publickey1.jp/blog/17/coreostorus_1.html) 2017/02/19
 * [運用監視クラウドサービスのDatadog、アプリケーション監視の「Datadog APM」を正式リリース。インフラ、ミドルウェア、アプリをまとめてクラウドで監視可能に](http://www.publickey1.jp/blog/17/datadogdatadog_apm.html) 2017/02/17
 * [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html) 2017/02/16
 * [AWS、企業向けビデオ電子会議のクラウドサービス「Amazon Chime」発表。1対1のビデオ会議やチャットルームは無料](http://www.publickey1.jp/blog/17/awsamazon_chime11.html) 2017/02/15
 * [VMware、新ネットワーク仮想化「VMware NSX-T」発表。コンテナ、Ubuntu、RHEL、OpenStackなど非vSphere環境をサポート](http://www.publickey1.jp/blog/17/vmwarevmware_nsx-tubunturhelopenstackvsphere.html) 2017/02/14
 * [マイクロソフト、「Windows SDK for Google Analytics」発表。Windowsアプリの利用状況をGoogle Analyticsで分析可能に](http://www.publickey1.jp/blog/17/windows_sdk_for_google_analyticswindowsgoogle_analytics.html) 2017/02/13
-* [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html) 2017/02/10
-* [「Kubernetesはオープンソースのコンテナオーケストレーションのデファクトになった」と、CoreOSがfleetの開発を終了、代わりにKubernetes採用を発表](http://www.publickey1.jp/blog/17/kubernetescoreosfleetkubernetes.html) 2017/02/09
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
