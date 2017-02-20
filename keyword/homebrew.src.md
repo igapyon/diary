@@ -1,18 +1,14 @@
 ## Homebrew
 
-[[Homebrew]] は、、、、です。※未執筆。
+[[Homebrew]] は、[[Mac]] 用のパッケージ管理システムです。
 
 ### URL
 
-* TBD <@linksearch word="Homebrew" />
-
-### 特徴
-
-* TBD <@linksearch word="Homebrew" />
+* https://brew.sh/
 
 ### 検索
 
+* <@linksearch title="Search 'Homebrew' in google in-site" word="Homebrew" site="${settings.baseurl}/" />
 * <@linksearch title="Search 'Homebrew' in google in-site" word="Homebrew" site="https://igapyon.github.io/diary/" />
 * <@linksearch word="Homebrew" />
 * <@linksearch word="Homebrew" engine="twitter" />
-

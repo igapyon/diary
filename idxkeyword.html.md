@@ -55,6 +55,7 @@
 * [github](keyword/github.html)
 * [GlassFish](keyword/glassfish.html)
 * [Groovy](keyword/groovy.html)
+* [Homebrew](keyword/homebrew.html)
 * [igapyonv3](keyword/igapyonv3.html)
 * [いがぴょんの日記：キーワード](keyword/index.html)
 * [Java](keyword/java.html)
