@@ -25,7 +25,9 @@ Mac
 
 ### 日記
 
-* [2017-02-21 diary: [Mac] に パッケージ管理システム Homebrew をインストール](../2017/ig170221.html)
+* [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../2017/ig170221.html)
+* [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../2017/ig170220.html)
+* [2017-02-19 diary: [Mac] .bashrc を有効にする](../2017/ig170219.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
 * [2017-01-19 diary: [Mac] MacBook Air の macOS 再インストール手順メモ](../2017/ig170119.html)
 * [2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応](../2014/ig140901.html)
