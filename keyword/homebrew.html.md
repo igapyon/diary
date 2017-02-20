@@ -6,7 +6,7 @@ Homebrew
 
 ## Homebrew
 
-[[Homebrew]] は、[[Mac]] 用のパッケージ管理システムです。
+[Homebrew](homebrew.html) は、[Mac](mac.html) 用のパッケージ管理システムです。
 
 ### URL
 
@@ -14,7 +14,6 @@ Homebrew
 
 ### 検索
 
-* [Search 'Homebrew' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Homebrew)
 * [Search 'Homebrew' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Homebrew)
 * [Search 'Homebrew' in google](https://www.google.co.jp/#pws=0&q=Homebrew)
 * [Search 'Homebrew' in twitter](https://twitter.com/search?q=%23Homebrew)
