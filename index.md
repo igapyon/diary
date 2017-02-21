@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-22 diary: ここにコンテンツのタイトル](2017/ig170222.html)
+* [2017-02-22 diary: 気候の寒暖の差が激しく](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
 * [2017-02-19 diary: [Mac] .bashrc を有効にする](2017/ig170219.html)
