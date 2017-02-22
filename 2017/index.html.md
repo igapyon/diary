@@ -31,10 +31,10 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-02-22 diary: 気候の寒暖の差が激しく](ig170222.html)
+* [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](ig170220.html)
-* [2017-02-19 diary: [Mac] .bashrc を有効にする](ig170219.html)
+* [2017-02-19 diary: [Mac][shell] .bashrc を有効にする](ig170219.html)
 * [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](ig170216.html)

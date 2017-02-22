@@ -32,10 +32,10 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-02-22 diary: 気候の寒暖の差が激しく](2017/ig170222.html)
+* [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
-* [2017-02-19 diary: [Mac] .bashrc を有効にする](2017/ig170219.html)
+* [2017-02-19 diary: [Mac][shell] .bashrc を有効にする](2017/ig170219.html)
 * [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](2017/ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](2017/ig170217.html)
 * [2017-02-16 diary: 花粉が目に染みる季節ですね...](2017/ig170216.html)
