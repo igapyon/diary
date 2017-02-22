@@ -36,9 +36,12 @@ Java
 * [2017-01-16 diary: [Java] 正規表現 `regex` による文字列処理のメモ](../2017/ig170116.html)
 * [2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)](../2016/ig161213.html)
 * [2016-12-10 diary: [Java][Jersey] Java でシンプル RESTful サンプル](../2016/ig161210.html)
+* [2016-12-03 diary: [Java] OLTU メモ](../2016/ig161203.html)
+* [2016-11-09 diary: [Selenium][Java] 初めての Selenium Web Driver with Java](../2016/ig161109.html)
 * [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](../2016/ig160713.html)
 * [2016-01-10 diary: [Java] iCal4J の利用サンプル](../2016/ig160110.html)
 * [2015-09-14 diary: メモ: [Java] ical4j](../2015/ig150914.html)
+* [2015-06-27 diary: [Java] Java でかかれた [Markdown] プロセッサー探し](../2015/ig150627.html)
 * [2014-04-02 diary: [Java] The Java Virtual Machine Specification: Java SE 8 Edition](../2014/ig140402.html)
 * [2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル](../2014/ig140316.html)
 * [2014-02-28 diary: [Derby][Java] Apache Derby をローカルで動作させる](../2014/ig140228.html)
@@ -53,9 +56,13 @@ Java
 * [2007-09-05 diary: [Java] JavaMailによるシンプルなメール受信サンプル](../2007/ig070905.html)
 * [2007-09-04 diary: [Java] JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル](../2007/ig070904.html)
 * [2007-04-27 diary: [Java] Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング](../2007/ig070427.html)
+* [2005-08-03 diary: [Java] XMLファイルを効率的に作成する方法 (SAX2ベース)](../2005/ig050803.html)
 * [2005-03-04 diary: [Java] いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要](../2005/ig050304.html)
+* [2005-02-22 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルの読み込みサンプル](../2005/ig050222.html)
 * [2003-12-25 diary: [Java] Javaパフォーマンス調査ふたたび](../2003/ig031225.html)
+* [2003-01-14 diary: [Java] Javaパフォーマンス調査](../2003/ig030114.html)
 * [2002-11-13 diary: [Java] Javaプログラミング (アプリケーション編) ステップアップラーニング](../2002/ig021113.html)
+* [1998-07-06 diary: [Java]狂: Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)](../1998/ig980706.html)
 
 
 

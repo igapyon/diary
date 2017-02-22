@@ -197,7 +197,7 @@
 * [2003-01-20 diary: ASP.NET + Visual Studio .NET で Webサービス](ig030120.html)
 * [2003-01-19 diary: Webサービスなオシゴト](ig030119.html)
 * [2003-01-16 diary: 仕事忙しい(笑)](ig030116.html)
-* [2003-01-14 diary: Javaパフォーマンス調査](ig030114.html)
+* [2003-01-14 diary: [Java] Javaパフォーマンス調査](ig030114.html)
 * [2003-01-11 diary: 羽生さんのはじけた年賀状](ig030111.html)
 * [2003-01-10 diary: 仕事が超忙しくなりそうな予感(苦笑)](ig030110.html)
 * [2003-01-06 diary: JDK 1.4.2 リリース間近！](ig030106.html)

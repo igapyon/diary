@@ -94,6 +94,24 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
+    <title>2016-12-03 diary: [Java] OLTU メモ</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161203.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161203.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-11-09 diary: [Selenium][Java] 初めての Selenium Web Driver with Java</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig161109.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2016/ig161109.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2016/ig160713.html" />
     <author>
@@ -118,6 +136,15 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2015/ig150914.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-06-27 diary: [Java] Java でかかれた [Markdown] プロセッサー探し</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2015/ig150627.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2015/ig150627.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
@@ -247,12 +274,30 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
+    <title>2005-08-03 diary: [Java] XMLファイルを効率的に作成する方法 (SAX2ベース)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2005/ig050803.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2005/ig050803.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2005-03-04 diary: [Java] いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2005/ig050304.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2005/ig050304.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2005-02-22 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルの読み込みサンプル</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2005/ig050222.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2005/ig050222.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
@@ -265,12 +310,30 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
+    <title>2003-01-14 diary: [Java] Javaパフォーマンス調査</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2003/ig030114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2003/ig030114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2002-11-13 diary: [Java] Javaプログラミング (アプリケーション編) ステップアップラーニング</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2002/ig021113.html" />
     <author>
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2002/ig021113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>1998-07-06 diary: [Java]狂: Java vs VC5++ 速度比較 (整数演算/浮動小数点演算/ファイル出力)</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/1998/ig980706.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/1998/ig980706.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
