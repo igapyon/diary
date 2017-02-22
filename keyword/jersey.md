@@ -6,21 +6,24 @@ Jersey
 
 ## Jersey
 
-[Jersey](jersey.html) は、、、、です。
+[Jersey](jersey.html) は [Java](java.html) で　RESTful Web サービスを開発するための参照実装です。
 
 ### URL
 
-* TBD URL
+* [https://jersey.java.net/](https://jersey.java.net/)
 
 ### 特徴
 
-* TBD URL
+* とても軽量な REST/JSON サーバーを開発するための基盤として利用できます。
+* [GlassFish](glassfish.html) プロジェクトに組み込まれています。
 
 ### 検索
 
 * [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Jersey)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Jersey)
 * [Search in Twitter](https://twitter.com/search?q=%23Jersey)
+
+Last modified: $Date: 2017-02-23 $
 
 ### 日記
 
@@ -34,4 +37,4 @@ Jersey
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CJersey&text=Jersey&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fjersey.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CJersey%2CJava%2CGlassFish&text=Jersey&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fjersey.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)

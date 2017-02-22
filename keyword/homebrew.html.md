@@ -18,6 +18,8 @@ Homebrew
 * [Search 'Homebrew' in google](https://www.google.co.jp/#pws=0&q=Homebrew)
 * [Search 'Homebrew' in twitter](https://twitter.com/search?q=%23Homebrew)
 
+Last modified: $Date: 2017-02-23 $
+
 ### 日記
 
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../2017/ig170221.html)
