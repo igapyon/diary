@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-23 diary: 関東は今日は暖かいらしい](2017/ig170223.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)

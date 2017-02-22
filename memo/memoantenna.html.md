@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google Cloud、GPUを仮想マシンに追加可能に。1つの仮想マシンにGPUプロセッサを最大8基で処理時間を大幅に短縮](http://www.publickey1.jp/blog/17/google_cloudgpu1gpu8.html) 2017/02/23
 * [日本国内のIoT市場は2021年まで平均17％成長、市場規模は11兆円に。高い成長性が期待されるのは農業、小売店舗内など。IDC Japan](http://www.publickey1.jp/blog/17/iot20211711idc_japan.html) 2017/02/21
 * [マルチクラウドの企業はこの1年で82％から85％へ増加、セキュリティへの懸念は減少。クラウド別ではAzureの採用が急増。RightScaleの調査2017年版公開](http://www.publickey1.jp/blog/17/18285azurerightscale2017.html) 2017/02/20
 * [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと](http://www.publickey1.jp/blog/17/coreostorus_1.html) 2017/02/19
 * [運用監視クラウドサービスのDatadog、アプリケーション監視の「Datadog APM」を正式リリース。インフラ、ミドルウェア、アプリをまとめてクラウドで監視可能に](http://www.publickey1.jp/blog/17/datadogdatadog_apm.html) 2017/02/17
 * [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html) 2017/02/16
 * [AWS、企業向けビデオ電子会議のクラウドサービス「Amazon Chime」発表。1対1のビデオ会議やチャットルームは無料](http://www.publickey1.jp/blog/17/awsamazon_chime11.html) 2017/02/15
-* [VMware、新ネットワーク仮想化「VMware NSX-T」発表。コンテナ、Ubuntu、RHEL、OpenStackなど非vSphere環境をサポート](http://www.publickey1.jp/blog/17/vmwarevmware_nsx-tubunturhelopenstackvsphere.html) 2017/02/14
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

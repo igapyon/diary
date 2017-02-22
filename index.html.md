@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-23 diary: 関東は今日は暖かいらしい](2017/ig170223.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
@@ -46,7 +47,6 @@
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
 * [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの手順(古典的手順)](2017/ig170209.html)
-* [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](2017/ig170208.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google Cloud、GPUを仮想マシンに追加可能に。1つの仮想マシンにGPUプロセッサを最大8基で処理時間を大幅に短縮](http://www.publickey1.jp/blog/17/google_cloudgpu1gpu8.html) 2017/02/23
 * [日本国内のIoT市場は2021年まで平均17％成長、市場規模は11兆円に。高い成長性が期待されるのは農業、小売店舗内など。IDC Japan](http://www.publickey1.jp/blog/17/iot20211711idc_japan.html) 2017/02/21
 * [マルチクラウドの企業はこの1年で82％から85％へ増加、セキュリティへの懸念は減少。クラウド別ではAzureの採用が急増。RightScaleの調査2017年版公開](http://www.publickey1.jp/blog/17/18285azurerightscale2017.html) 2017/02/20
 * [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと](http://www.publickey1.jp/blog/17/coreostorus_1.html) 2017/02/19
 * [運用監視クラウドサービスのDatadog、アプリケーション監視の「Datadog APM」を正式リリース。インフラ、ミドルウェア、アプリをまとめてクラウドで監視可能に](http://www.publickey1.jp/blog/17/datadogdatadog_apm.html) 2017/02/17
 * [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html) 2017/02/16
 * [AWS、企業向けビデオ電子会議のクラウドサービス「Amazon Chime」発表。1対1のビデオ会議やチャットルームは無料](http://www.publickey1.jp/blog/17/awsamazon_chime11.html) 2017/02/15
-* [VMware、新ネットワーク仮想化「VMware NSX-T」発表。コンテナ、Ubuntu、RHEL、OpenStackなど非vSphere環境をサポート](http://www.publickey1.jp/blog/17/vmwarevmware_nsx-tubunturhelopenstackvsphere.html) 2017/02/14
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
