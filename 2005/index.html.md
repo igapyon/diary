@@ -189,7 +189,7 @@
 * [2005-03-14 diary: Mozilla Firefox 1.0.1 日本語版 (Windows版) リリース](ig050314.html)
 * [2005-03-12 diary: Java Computing 2005 Springに行きました](ig050312.html)
 * [2005-03-07 diary: 「Eclipse指向Javaプログラム設計」というパラダイムシフト](ig050307.html)
-* [2005-03-04 diary: いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要](ig050304.html)
+* [2005-03-04 diary: [Java] いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要](ig050304.html)
 * [2005-03-01 diary: WebLogic 8.1J用のデプロイ・アーカイブの構築作業中…](ig050301.html)
 * [2005-02-27 diary: Eclipse Visual Editor調査中](ig050227.html)
 * [2005-02-26 diary: Eclipse RCP および SWT/JFaceを用いたリッチクライアント環境の調査に着手しました](ig050226.html)

@@ -53,6 +53,7 @@ Java
 * [2007-09-05 diary: [Java] JavaMailによるシンプルなメール受信サンプル](../2007/ig070905.html)
 * [2007-09-04 diary: [Java] JavaMail 調査 , JavaMailによるシンプルなメール送信サンプル](../2007/ig070904.html)
 * [2007-04-27 diary: [Java] Outlook 風の JISコード (ISO-2022-JP) を利用するための x-windows-iso2022jp というエンコーディング](../2007/ig070427.html)
+* [2005-03-04 diary: [Java] いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要](../2005/ig050304.html)
 * [2003-12-25 diary: [Java] Javaパフォーマンス調査ふたたび](../2003/ig031225.html)
 * [2002-11-13 diary: [Java] Javaプログラミング (アプリケーション編) ステップアップラーニング](../2002/ig021113.html)
 
