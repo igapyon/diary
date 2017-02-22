@@ -34,7 +34,7 @@ Last modified: $Date: 2017-01-27 $
 
 ### 日記
 
-* [2017-02-22 diary: [Java][GlassFish][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
+* [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](../2017/ig170204.html)
 * [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](../2017/ig170203.html)
