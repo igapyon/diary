@@ -24,6 +24,7 @@ GlassFish
 
 ### 日記
 
+* [2017-02-22 diary: [Java][GlassFish][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
 * [2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)](../2014/ig140227.html)
 * [2014-02-26 diary: [GlassFish][Derby] GlassFish 4.0 で Derby を使う](../2014/ig140226.html)
 * [2014-02-25 diary: [GlassFish] GlassFish 4.0 インストール](../2014/ig140225.html)
