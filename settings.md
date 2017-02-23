@@ -19,8 +19,10 @@ This file is settings for [igapyonv3](keyword/igapyonv3.html).
 * convertmarkdown2html: false
 * duplicatefakehtmlmd: true
 * generatekeywordifneeded: true
+* sitetitle: Igapyon Diary v3
 
 ### Setting
+
 
 
 
