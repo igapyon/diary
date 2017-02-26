@@ -32,6 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-26 diary: Diary title here](2017/ig170226.html)
+* [2017-02-25 diary: Diary title here](2017/ig170225.html)
 * [2017-02-23 diary: 関東は今日は暖かいらしい](2017/ig170223.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
@@ -45,8 +47,6 @@
 * [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 * [2017-02-11 diary: [Shell] 標準出力と標準エラー出力をリダイレクトしつつバックグラウンド実行](2017/ig170211.html)
-* [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](2017/ig170210.html)
-* [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの手順(古典的手順)](2017/ig170209.html)
 
 
 私のインターネットへのアンテナです。
@@ -75,9 +75,9 @@
 * [[結] 『数学ガールの秘密ノート／やさしい統計』重版出来！](http://www.hyuki.com/d/201611.html#i20161112114124) 
 
 
-<@rssfeed url="[https://queryfeed.net/tw...en&geocode=](https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=)" maxcount="10" />
+<@rssfeed url="https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=" maxcount="10" />
 
-<@rssfeed url="[http://rss.asahi.com/rss...adlines.rdf](http://rss.asahi.com/rss/asahi/newsheadlines.rdf)" maxcount="7" />
+<@rssfeed url="http://rss.asahi.com/rss/asahi/newsheadlines.rdf" maxcount="7" />
 
 
 ### 私むけ役立ちリンク
