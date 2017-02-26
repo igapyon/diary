@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [OpenStack、コンテナ対応などを強化した15番目のリリース「OpenStack Ocata」登場。いつもより2カ月早い理由は会議体制の変更か](http://www.publickey1.jp/blog/17/openstack15openstack_ocata2.html) 2017/02/27
 * [日本、中国、米国のPMが議論し、ロシア、インド、日本らのエンジニアが開発。日本からグローバルに展開する帳票ツール「ActiveReports」のこれから［PR］](http://www.publickey1.jp/blog/17/pmactivereportspr.html) 2017/02/23
 * [Google Cloud、GPUを仮想マシンに追加可能に。1つの仮想マシンにGPUプロセッサを最大8基で処理時間を大幅に短縮](http://www.publickey1.jp/blog/17/google_cloudgpu1gpu8.html) 2017/02/23
 * [日本国内のIoT市場は2021年まで平均17％成長、市場規模は11兆円に。高い成長性が期待されるのは農業、小売店舗内など。IDC Japan](http://www.publickey1.jp/blog/17/iot20211711idc_japan.html) 2017/02/21
 * [マルチクラウドの企業はこの1年で82％から85％へ増加、セキュリティへの懸念は減少。クラウド別ではAzureの採用が急増。RightScaleの調査2017年版公開](http://www.publickey1.jp/blog/17/18285azurerightscale2017.html) 2017/02/20
 * [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと](http://www.publickey1.jp/blog/17/coreostorus_1.html) 2017/02/19
 * [運用監視クラウドサービスのDatadog、アプリケーション監視の「Datadog APM」を正式リリース。インフラ、ミドルウェア、アプリをまとめてクラウドで監視可能に](http://www.publickey1.jp/blog/17/datadogdatadog_apm.html) 2017/02/17
-* [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html) 2017/02/16
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)

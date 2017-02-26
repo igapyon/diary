@@ -249,7 +249,7 @@ igapyonv3
 いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
 
 * `favicon` を配置してみました。しかし、うまくいっていないようです。
-  * favicon 作成には https://ao-system.net/favicongenerator/ サービスを利用させていただきました。
+  * favicon 作成には [https://ao-system.net/fa...ngenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
 * すべての年にインデックスファイルを配置してみました。
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 
