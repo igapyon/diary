@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.sonatype.com/
+* <@link value="https://www.sonatype.com/" />
 
 ### 特徴
 

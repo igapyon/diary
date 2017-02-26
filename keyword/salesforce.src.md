@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.salesforce.com/jp/
+* <@link value="https://www.salesforce.com/jp/" />
 
 ### 特徴
 

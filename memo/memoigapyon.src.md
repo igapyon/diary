@@ -51,7 +51,7 @@
 * 技術評論社: <@linkamazon title="WEB+DB PRESS Vol.29" dp="4774125245" />
   * 「R/OマッピングツールblancoDbを使ってみよう！」
 * ZDNET:エンタープライズ：WebLogic Serverで知るJSP/Servlet入門
-  * http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html
+  * <@link value="http://www.itmedia.co.jp/enterprise/special/jsp_servlet/index.html" />
 
 ## 日記
 
