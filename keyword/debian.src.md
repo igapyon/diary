@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.debian.org/index.ja.html
+* <@link value="https://www.debian.org/index.ja.html" />
 
 ### 特徴
 

@@ -4,7 +4,7 @@ Maven は [[Apache]] ファウンデーション配下のビルドシステム�
 
 ### URL
 
-* https://maven.apache.org/
+* <@link value="https://maven.apache.org/" />
 
 ### 特徴
 

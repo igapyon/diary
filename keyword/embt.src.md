@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.embarcadero.com/jp/
+* <@link value="https://www.embarcadero.com/jp/" />
 
 ### 特徴
 

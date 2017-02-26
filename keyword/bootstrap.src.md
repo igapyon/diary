@@ -4,13 +4,13 @@
 
 ### URL
 
-* http://getbootstrap.com/
+* <@link value="http://getbootstrap.com/" />
 
 ### 特徴
 
 * web フロントエンドの部品として、とてもよく利用されています。
 * シンプルなサンプル例
-  * http://getbootstrap.com/examples/theme/
+  * <@link value="http://getbootstrap.com/examples/theme/" />
 
 ### 検索
 

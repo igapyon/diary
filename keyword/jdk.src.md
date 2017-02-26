@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.oracle.com/technetwork/java/javase/
+* <@link value="http://www.oracle.com/technetwork/java/javase/" />
 
 ### 特徴
 

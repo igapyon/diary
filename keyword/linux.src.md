@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.kernel.org/
+* <@link value="https://www.kernel.org/" />
 
 ### 特徴
 

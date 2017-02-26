@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.embarcadero.com/jp/products/cbuilder
+* <@link value="https://www.embarcadero.com/jp/products/cbuilder" />
 
 ### 特徴
 

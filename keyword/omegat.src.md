@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.omegat.org/ja/omegat.html
+* <@link value="http://www.omegat.org/ja/omegat.html" />
 
 ### 特徴
 

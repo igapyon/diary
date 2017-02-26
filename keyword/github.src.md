@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://github.com/
+* <@link value="https://github.com/" />
 
 ### 特徴
 

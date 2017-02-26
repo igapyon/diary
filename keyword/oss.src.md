@@ -5,7 +5,7 @@
 ### URL
 
 * [オープンソースの定義](http://www.opensource.jp/osd/osd-japanese.html)
-* http://cruel.org/freeware/cathedral.html
+* <@link value="http://cruel.org/freeware/cathedral.html" />
 
 ### 特徴
 

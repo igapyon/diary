@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://azure.microsoft.com/ja-jp/
+* <@link value="https://azure.microsoft.com/ja-jp/" />
 
 ### 特徴
 

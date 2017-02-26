@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://freemarker.org/
+* <@link value="http://freemarker.org/" />
 
 ### 特徴
 

@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://ant.apache.org/
+* <@link value="http://ant.apache.org/" />
 
 ### 特徴
 

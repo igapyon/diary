@@ -4,15 +4,15 @@
 
 ### URL
 
-* https://github.com/igapyon/igapyonv3
-* https://igapyon.github.io/igapyonv3
+* <@link value="https://github.com/igapyon/igapyonv3" />
+* <@link value="https://igapyon.github.io/igapyonv3" />
 
 ### igapyonv3 の利用例
 
 [[igapyonv3]] の利用例には以下のようなものがあります。
 
-* https://igapyon.github.io/diary/
-* http://www.igapyon.jp/igapyon/diary/index.html
+* <@link value="https://igapyon.github.io/diary/" />
+* <@link value="http://www.igapyon.jp/igapyon/diary/index.html" />
 
 ### 検索
 

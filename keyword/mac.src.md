@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.apple.com/jp/mac/
+* <@link value="http://www.apple.com/jp/mac/" />
 
 ### 特徴
 

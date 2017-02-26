@@ -140,6 +140,9 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-02-27 diary: Diary title here](ig170227.html)
+* [2017-02-26 diary: Diary title here](ig170226.html)
+* [2017-02-25 diary: Diary title here](ig170225.html)
 * [2017-02-23 diary: 関東は今日は暖かいらしい](ig170223.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](ig170221.html)
@@ -246,7 +249,7 @@ igapyonv3
 いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
 
 * `favicon` を配置してみました。しかし、うまくいっていないようです。
-  * favicon 作成には [https://ao-system.net/fa...ngenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
+  * favicon 作成には https://ao-system.net/favicongenerator/ サービスを利用させていただきました。
 * すべての年にインデックスファイルを配置してみました。
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 

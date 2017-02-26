@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.eclipse.org/
+* <@link value="http://www.eclipse.org/" />
 
 ### 特徴
 

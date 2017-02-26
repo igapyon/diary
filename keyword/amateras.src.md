@@ -4,9 +4,9 @@
 
 ### URL
 
-* https://github.com/takezoe
+* <@link value="https://github.com/takezoe" />
   * 最近の Amateras の活動は [[github]] ベースが主流のようです。
-* https://ja.osdn.net/projects/amateras/
+* <@link value="https://ja.osdn.net/projects/amateras/" />
 
 ### 特徴
 

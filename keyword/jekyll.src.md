@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://jekyllrb.com/
+* <@link value="https://jekyllrb.com/" />
 
 ### 特徴
 

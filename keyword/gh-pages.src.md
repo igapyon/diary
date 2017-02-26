@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://pages.github.com/
+* <@link value="https://pages.github.com/" />
 
 ### 特徴
 

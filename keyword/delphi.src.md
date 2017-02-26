@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.embarcadero.com/jp/products/delphi
+* <@link value="https://www.embarcadero.com/jp/products/delphi" />
 
 ### 特徴
 

@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://glassfish.java.net/
+* <@link value="https://glassfish.java.net/" />
 
 ### 特徴
 

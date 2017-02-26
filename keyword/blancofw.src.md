@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://ja.osdn.net/projects/blancofw/
+* <@link value="https://ja.osdn.net/projects/blancofw/" />
 
 ### 特徴
 

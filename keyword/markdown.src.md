@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* <@link value="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" />
 
 ### 特徴
 

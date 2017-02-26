@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://git-scm.com/
+* <@link value="https://git-scm.com/" />
   * たぶんここ???
 
 ### 特徴

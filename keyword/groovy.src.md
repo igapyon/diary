@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://groovy-lang.org/
+* <@link value="http://groovy-lang.org/" />
 
 ### 特徴
 

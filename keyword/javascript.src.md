@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.ecma-international.org/memento/TC39.htm
+* <@link value="http://www.ecma-international.org/memento/TC39.htm" />
 
 ### 特徴
 

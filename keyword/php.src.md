@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://php.net/manual/ja/intro-whatis.php
+* <@link value="http://php.net/manual/ja/intro-whatis.php" />
 
 ### 特徴
 

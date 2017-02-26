@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://jersey.java.net/
+* <@link value="https://jersey.java.net/" />
 
 ### 特徴
 

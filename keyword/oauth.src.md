@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://oauth.net/
+* <@link value="https://oauth.net/" />
 
 ### 特徴
 

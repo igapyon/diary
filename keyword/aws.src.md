@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://aws.amazon.com/jp/
+* <@link value="https://aws.amazon.com/jp/" />
 
 ### 特徴
 

@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.salesforce.com/products/platform/products/force/
+* <@link value="https://www.salesforce.com/products/platform/products/force/" />
 
 ### 特徴
 

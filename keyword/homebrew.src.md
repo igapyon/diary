@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://brew.sh/
+* <@link value="https://brew.sh/" />
 
 ### 検索
 

@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://www.python.org/
+* <@link value="https://www.python.org/" />
 
 ### 特徴
 
