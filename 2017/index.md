@@ -31,6 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
+* [2017-02-27 diary: Diary title here](ig170227.html)
 * [2017-02-26 diary: Diary title here](ig170226.html)
 * [2017-02-25 diary: Diary title here](ig170225.html)
 * [2017-02-23 diary: 関東は今日は暖かいらしい](ig170223.html)
