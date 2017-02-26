@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-27 diary: Diary title here](2017/ig170227.html)
 * [2017-02-26 diary: Diary title here](2017/ig170226.html)
 * [2017-02-25 diary: Diary title here](2017/ig170225.html)
 * [2017-02-23 diary: 関東は今日は暖かいらしい](2017/ig170223.html)
