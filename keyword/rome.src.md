@@ -4,7 +4,7 @@
 
 ### URL
 
-* https://rometools.github.io/rome/
+* <@link value="https://rometools.github.io/rome/" />
 
 ### 特徴
 

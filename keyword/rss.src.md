@@ -4,7 +4,7 @@
 
 ### URL
 
-* http://www.kanzaki.com/docs/sw/rss.html
+* <@link value="http://www.kanzaki.com/docs/sw/rss.html" />
 
 ### 特徴
 
