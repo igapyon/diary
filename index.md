@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-02-28 diary: Diary title here](2017/ig170228.html)
 * [2017-02-27 diary: 今日は寒いのかしら](2017/ig170227.html)
 * [2017-02-26 diary: 花粉が目に染みる](2017/ig170226.html)
 * [2017-02-25 diary: 某演奏会](2017/ig170225.html)
@@ -46,7 +47,6 @@
 * [2017-02-15 diary: フォーマル（礼服）を新調](2017/ig170215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](2017/ig170214.html)
 * [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](2017/ig170213.html)
-* [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](2017/ig170212.html)
 
 
 私のインターネットへのアンテナです。

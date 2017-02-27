@@ -32,6 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-02-28 diary: Diary title here](2017/ig170228.html)
 * [2017-02-27 diary: 今日は寒いのかしら](2017/ig170227.html)
 * [2017-02-26 diary: 花粉が目に染みる](2017/ig170226.html)
 * [2017-02-25 diary: 某演奏会](2017/ig170225.html)

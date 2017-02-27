@@ -140,6 +140,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-02-28 diary: Diary title here](ig170228.html)
 * [2017-02-27 diary: 今日は寒いのかしら](ig170227.html)
 * [2017-02-26 diary: 花粉が目に染みる](ig170226.html)
 * [2017-02-25 diary: 某演奏会](ig170225.html)
