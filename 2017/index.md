@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-03-04 diary: Diary title here](ig170304.html)
+* [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](ig170304.html)
 * [2017-03-03 diary: Diary title here](ig170303.html)
 * [2017-03-02 diary: Diary title here](ig170302.html)
 * [2017-03-01 diary: Diary title here](ig170301.html)

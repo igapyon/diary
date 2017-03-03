@@ -142,7 +142,7 @@ igapyonv3
 
 `<@localrss />`
 
-* [2017-03-04 diary: Diary title here](ig170304.html)
+* [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](ig170304.html)
 * [2017-03-03 diary: Diary title here](ig170303.html)
 * [2017-03-02 diary: Diary title here](ig170302.html)
 * [2017-03-01 diary: Diary title here](ig170301.html)
@@ -264,6 +264,7 @@ igapyonv3
 
 ### 日記
 
+* [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](../2017/ig170304.html)
 * [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](../2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](../2017/ig170212.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](../2017/ig170210.html)

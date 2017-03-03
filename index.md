@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-03-04 diary: Diary title here](2017/ig170304.html)
+* [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](2017/ig170304.html)
 * [2017-03-03 diary: Diary title here](2017/ig170303.html)
 * [2017-03-02 diary: Diary title here](2017/ig170302.html)
 * [2017-03-01 diary: Diary title here](2017/ig170301.html)
