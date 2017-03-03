@@ -14,20 +14,20 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [Microsoft Azure、Kubernetesのマネージドサービスを正式版に。Windows Server ContainerのKubernetesサポートも開始](http://www.publickey1.jp/blog/17/microsoft_azurekuberneteswindows_server_containerkubernetes.html) 2017/02/28
-* [OpenStack、コンテナ対応などを強化した15番目のリリース「OpenStack Ocata」登場。いつもより2カ月早い理由は会議体制の変更か](http://www.publickey1.jp/blog/17/openstack15openstack_ocata2.html) 2017/02/27
-* [日本、中国、米国のPMが議論し、ロシア、インド、日本らのエンジニアが開発。日本からグローバルに展開する帳票ツール「ActiveReports」のこれから［PR］](http://www.publickey1.jp/blog/17/pmactivereportspr.html) 2017/02/23
-* [Google Cloud、GPUを仮想マシンに追加可能に。1つの仮想マシンにGPUプロセッサを最大8基で処理時間を大幅に短縮](http://www.publickey1.jp/blog/17/google_cloudgpu1gpu8.html) 2017/02/23
-* [日本国内のIoT市場は2021年まで平均17％成長、市場規模は11兆円に。高い成長性が期待されるのは農業、小売店舗内など。IDC Japan](http://www.publickey1.jp/blog/17/iot20211711idc_japan.html) 2017/02/21
-* [マルチクラウドの企業はこの1年で82％から85％へ増加、セキュリティへの懸念は減少。クラウド別ではAzureの採用が急増。RightScaleの調査2017年版公開](http://www.publickey1.jp/blog/17/18285azurerightscale2017.html) 2017/02/20
-* [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと](http://www.publickey1.jp/blog/17/coreostorus_1.html) 2017/02/19
+* [無料のコードエディタ「Visual Studio Code 1.10」リリース。ミニマップ、テキストのドラッグ＆ドロップ、TypeScript 2.2対応、JSDocコメントの自動生成など](http://www.publickey1.jp/blog/17/visual_studio_code_110typescript_22jsdoc.html) 2017/03/02
+* [Docker v17.03がリリース。今月からバージョン番号制度が変更になり、毎月リリース体制に](http://www.publickey1.jp/blog/17/docker_v1703.html) 2017/03/02
+* [グローバルなパブリッククラウド市場は2017年に18％成長、2020年まで年平均13％で成長。大手は「クラウドファーストからクラウドオンリー」へ、米ガートナー](http://www.publickey1.jp/blog/17/201718202013.html) 2017/03/02
+* [GitHub、企業向けの「Businessプラン」発表。GitHub.comでSAMLシングルサインオン、アップタイム保証、24時間サポートなど](http://www.publickey1.jp/blog/17/githubbusinessgithubcomsaml24.html) 2017/03/02
+* [国内ITサービス市場、2021年までの年間平均成長率は1.1％と横ばい。国内ITサービス市場をけん引してきた大規模なシステム構築案件が減少。IDC Japan](http://www.publickey1.jp/blog/17/it202111itidc_japan.html) 2017/03/02
+* [Amazon S3が一時ダウン、米国東部リージョンで大規模障害。肝心のヘルスダッシュボードまで巻き込まれて表示が乱れ、AWS公式ツイッターアカウントが状況報告](http://www.publickey1.jp/blog/17/amazon_s3aws.html) 2017/03/01
+* [SAP、「SAP Cloud Platform」にクラウドの名称変更。iOS用SDK、IoT対応、仮想マシン、API群など汎用PaaS型クラウドサービスとして訴求へ](http://www.publickey1.jp/blog/17/sapsap_cloud_platformiossdkiotapipaas.html) 2017/03/01
 
 
 #### [結城浩の日記](http://www.hyuki.com/d/)
 
+* [[結] 結城浩ニュースレター発行](http://www.hyuki.com/d/201703.html#i20170303200000) 
+* [[結] 日記書いてなかった](http://www.hyuki.com/d/201702.html#i20170228000000) 
 * [[結] 結城浩ニュースレター発行](http://www.hyuki.com/d/201701.html#i20170129183643) 
-* [[結] サイン本無料プレゼント抽選実施！](http://www.hyuki.com/d/201612.html#i20161207093023) 
-* [[結] 『数学ガールの秘密ノート／やさしい統計』重版出来！](http://www.hyuki.com/d/201611.html#i20161112114124) 
 
 
 <@rssfeed url="https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=" maxcount="10" />
