@@ -119,6 +119,8 @@ igapyonv3
 
 #### その他
 
+* `<@link value="http://www.igapyon.jp/igapyon/diary/index.html" />`
+  * [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 * `<@linkdiary date="2017-01-14" />`
   * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
 * `<@linkamazon title="JDBC本" dp="4839913935" />`
