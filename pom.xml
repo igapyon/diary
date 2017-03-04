@@ -73,6 +73,7 @@
 				<version>1.5.0-SNAPSHOT</version>
 				<configuration>
 					<basedir>${project.basedir}</basedir>
+					<outputhtmldir>${project.build.directory}</outputhtmldir>
 				</configuration>
 				<executions>
 					<execution>
