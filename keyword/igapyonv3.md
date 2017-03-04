@@ -20,12 +20,33 @@ igapyonv3
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
 * [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 
-### 検索
 
-* [Search 'igapyonv3' in Igapyon Diary site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
-* [Search 'igapyonv3' in google](https://www.google.co.jp/#pws=0&q=igapyonv3)
-* [Search 'igapyonv3' in twitter](https://twitter.com/search?q=%23igapyonv3)
 
+## igapyonv3 の特徴
+
+※このコンテンツは [igapyonv3](igapyonv3.html) から <@include /> によって参照されています。
+
+[igapyonv3](igapyonv3.html) は静的サイト／ブログを簡単に素早く実現することができるジェネレータツールです。
+
+* [Markdown](markdown.html) 形式のコンテンツ作成に対応
+  * Markdown ソースファイルを入力に、ヘッダ／フッタの展開や index ファイルの自動更新などを実現します。
+  * 直接 Markdown を操作するか、あるいはお好みの Markdown エディタを利用してコンテンツを作成することができます。
+  * [FreeMarker](freemarker.html) テンプレートエンジンに対応しており、各種ディレクティブによる効率的なコンテンツ作成が可能です。
+* 静的コンテンツベース
+  * Markdown から html 生成する機能を持っています。
+  * [github](github.html) の [gh-pages](gh-pages.html) 上でのブログ公開にも対応しています。
+  * インターネットセキュリティ脅威に対する非常に高い耐性を持ち、またサーバーレスアーキテクチャの選択すら可能です。
+* インストールがとても簡単
+  * Maven セントラルリポジトリで配布されているので、インストールがとても安全で簡単です。[Maven](maven.html) と [Java](java.html) さへインストールされていればすぐに利用できます。
+  * Maven プラグインで完結しており、データベースなど他プロダクトは不要です。
+  * Maven が動作する環境で igapyonv3-maven-plugin 記述を `pom.xml` ファイルに追加するだけでインストールが完了します。
+
+[igapyonv3](igapyonv3.html) は [OSS](oss.html) アプリケーションであり、ソースコードなどは [github](github.html) 上に公開されています。
+
+* [https://github.com/igapy...aven-plugin](https://github.com/igapyon/igapyonv3-maven-plugin)
+* [https://github.com/igapyon/igapyonv3](https://github.com/igapyon/igapyonv3)
+
+Last modified: $Date: 2017-03-04 $
 
 
 ## [igapyonv3] の歴史
@@ -172,13 +193,13 @@ igapyonv3
 
 * [igapyonv3](../keyword/igapyonv3.html)
 * [Markdown](../keyword/markdown.html)
-* [CMS](../keyword/cms.html)
+* [FreeMarker](../keyword/freemarker.html)
 * [github](../keyword/github.html)
 * [gh-pages](../keyword/gh-pages.html)
-* [FreeMarker](../keyword/freemarker.html)
-* [OSS](../keyword/oss.html)
-* [Java](../keyword/java.html)
 * [Maven](../keyword/maven.html)
+* [Java](../keyword/java.html)
+* [OSS](../keyword/oss.html)
+* [CMS](../keyword/cms.html)
 
 
 ### 取り込み展開
@@ -197,6 +218,12 @@ igapyonv3
 * 日記リーフについては、ソースへの自動リンク生成を付与してみました。
 
 
+
+### 検索
+
+* [Search 'igapyonv3' in Igapyon Diary site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
+* [Search 'igapyonv3' in google](https://www.google.co.jp/#pws=0&q=igapyonv3)
+* [Search 'igapyonv3' in twitter](https://twitter.com/search?q=%23igapyonv3)
 
 ### 日記
 
@@ -226,4 +253,4 @@ igapyonv3
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CCMS%2Cgithub%2Cgh-pages%2CFreeMarker%2COSS%2CJava%2CMaven&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CFreemarker%2Cgithub%2Cgh-pages%2CMaven%2CJava%2COSS%2CCMS&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)

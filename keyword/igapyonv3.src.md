@@ -14,16 +14,18 @@
 * <@link value="https://igapyon.github.io/diary/" />
 * <@link value="http://www.igapyon.jp/igapyon/diary/index.html" />
 
-### 検索
-
-* <@linksearch title="Search 'igapyonv3' in Igapyon Diary site" word="igapyonv3" site="https://igapyon.github.io/diary/" />
-* <@linksearch word="igapyonv3" />
-* <@linksearch word="igapyonv3" engine="twitter" />
-
 <#-- これ以降は分割されたサブコンテンツの読み込みにより実現されます -->
+
+<@include file="../2017/ig170303.src.md" /><#-- 特徴 -->
 
 <@include file="../2017/ig170115.src.md" /><#-- 歴史 -->
 
 <@include file="../2017/ig170113.src.md" /><#-- ソフトウェア構造 -->
 
 <@include file="../2017/ig170114.src.md" /><#-- カスタムディレクティブの一覧説明 -->
+
+### 検索
+
+* <@linksearch title="Search 'igapyonv3' in Igapyon Diary site" word="igapyonv3" site="https://igapyon.github.io/diary/" />
+* <@linksearch word="igapyonv3" />
+* <@linksearch word="igapyonv3" engine="twitter" />
