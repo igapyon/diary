@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/homebrew.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/homebrew.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/homebrew.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/homebrew.src.md) 
 
 Homebrew
 =====================================================================================================

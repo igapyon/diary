@@ -15,7 +15,7 @@ ${setDuplicatefakehtmlmd("true")}
 ${setConvertmarkdown2html("false")}
 ${setGeneratekeywordifneeded("true")}
 ${setAuthor("Toshiki Iga")}
-${setSourcebaseurl("https://github.com/igapyon/diary/blob/gh-pages")}
+${setSourcebaseurl("https://github.com/igapyon/diary/blob/master")}
 ${setSitetitle("Igapyon Diary v3")}
 
 <#-- github gh-pages site -->

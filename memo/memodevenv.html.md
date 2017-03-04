@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memodevenv.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memodevenv.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memodevenv.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memodevenv.src.md) 
 
 資料: 開発環境
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/oss.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/oss.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/oss.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/oss.src.md) 
 
 OSS
 =====================================================================================================

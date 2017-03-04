@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/regex.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/regex.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/regex.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/regex.src.md) 
 
 regex
 =====================================================================================================

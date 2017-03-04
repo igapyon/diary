@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/1996/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/1996/index.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/1996/index.html) / [source](https://github.com/igapyon/diary/blob/master/1996/index.src.md) 
 
 いがぴょんの日記：1996年の日記
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/index.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/index.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/index.html) / [source](https://github.com/igapyon/diary/blob/master/memo/index.src.md) 
 
 いがぴょんの日記：メモ
 =====================================================================================================

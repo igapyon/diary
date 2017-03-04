@@ -1,4 +1,4 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/idxkeyword.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/idxkeyword.src.md) 
+[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/idxkeyword.html) / [source](https://github.com/igapyon/diary/blob/master/idxkeyword.src.md) 
 
 いがぴょんの日記：キーワード
 =====================================================================================================

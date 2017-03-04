@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/igapyonv3.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/igapyonv3.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/igapyonv3.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/igapyonv3.src.md) 
 
 igapyonv3
 =====================================================================================================
@@ -104,7 +104,7 @@ igapyonv3
 * `<@linktarget />`
   * [target](https://igapyon.github.io/diary/2017/ig170114.html)
 * `<@linksource />`
-  * [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.src.md)
+  * [source](https://github.com/igapyon/diary/blob/master/2017/ig170114.src.md)
 * `<@linkprev />`
   * [prev](ig170113.html)
 * `<@linknext />`
@@ -115,7 +115,7 @@ igapyonv3
  / [prev](ig170113.html) 
  / [next](ig170115.html) 
  / [target](https://igapyon.github.io/diary/2017/ig170114.html) 
- / [source](https://github.com/igapyon/diary/blob/gh-pages/2017/ig170114.src.md)
+ / [source](https://github.com/igapyon/diary/blob/master/2017/ig170114.src.md)
 
 #### その他
 

@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memotrip.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memotrip.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memotrip.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memotrip.src.md) 
 
 資料: いがぴょんの旅行メモ
 =====================================================================================================

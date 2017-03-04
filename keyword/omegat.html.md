@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/omegat.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/omegat.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/omegat.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/omegat.src.md) 
 
 OmegaT
 =====================================================================================================

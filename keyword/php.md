@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/php.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/php.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/php.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/php.src.md) 
 
 PHP
 =====================================================================================================

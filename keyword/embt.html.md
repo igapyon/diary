@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/embt.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/embt.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/embt.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/embt.src.md) 
 
 EMBT
 =====================================================================================================

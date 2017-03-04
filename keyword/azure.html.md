@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/azure.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/azure.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/azure.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/azure.src.md) 
 
 Azure
 =====================================================================================================

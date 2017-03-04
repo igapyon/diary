@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/groovy.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/groovy.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/groovy.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/groovy.src.md) 
 
 Groovy
 =====================================================================================================

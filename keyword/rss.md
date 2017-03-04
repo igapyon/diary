@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/rss.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/rss.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/rss.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/rss.src.md) 
 
 RSS
 =====================================================================================================

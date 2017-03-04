@@ -1,4 +1,4 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/settings.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/settings.src.md) 
+[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/settings.html) / [source](https://github.com/igapyon/diary/blob/master/settings.src.md) 
 
 Settings for igapyonv3 env
 =====================================================================================================
@@ -13,7 +13,7 @@ This file is settings for [igapyonv3](keyword/igapyonv3.html).
 * verbose: true
 * debug: false
 * baseurl: https://igapyon.github.io/diary
-* sourcebaseurl: https://github.com/igapyon/diary/blob/gh-pages
+* sourcebaseurl: https://github.com/igapyon/diary/blob/master
 * author: Toshiki Iga
 * generatetodaydiary: true
 * convertmarkdown2html: false

@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/oauth.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/oauth.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/oauth.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/oauth.src.md) 
 
 OAuth
 =====================================================================================================

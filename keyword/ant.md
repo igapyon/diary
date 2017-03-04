@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/ant.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/keyword/ant.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/ant.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/ant.src.md) 
 
 Ant
 =====================================================================================================

@@ -1,4 +1,4 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoviolin.html) / [source](https://github.com/igapyon/diary/blob/gh-pages/memo/memoviolin.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoviolin.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memoviolin.src.md) 
 
 資料: いがぴょん用ヴァイオリン・メモ
 =====================================================================================================
