@@ -22,7 +22,7 @@ igapyonv3
 
 
 
-## igapyonv3 の特徴
+## [igapyonv3] の特徴
 
 ※このコンテンツは [igapyonv3](igapyonv3.html) から <@include /> によって参照されています。
 
@@ -207,16 +207,6 @@ Last modified: $Date: 2017-03-04 $
 #### ファイル取り込み展開
 
 `<@include file="ig170103.src.md" />`
-
-## 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中
-
-いがぴょんの日記v3 システム [igapyonv3](igapyonv3.html) について、すこしずつ機能追加してみています。
-
-* `favicon` を配置してみました。しかし、うまくいっていないようです。
-  * favicon 作成には [https://ao-system.net/fa...ngenerator/](https://ao-system.net/favicongenerator/) サービスを利用させていただきました。
-* すべての年にインデックスファイルを配置してみました。
-* 日記リーフについては、ソースへの自動リンク生成を付与してみました。
-
 
 
 ### 検索
