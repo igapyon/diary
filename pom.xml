@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 			<artifactId>igapyonv3-maven-plugin</artifactId>
-			<version>1.5.0-SNAPSHOT</version>
+			<version>1.5.0</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -70,7 +70,7 @@
 			<plugin>
 				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
 				<artifactId>igapyonv3-maven-plugin</artifactId>
-				<version>1.5.0-SNAPSHOT</version>
+				<version>1.5.0</version>
 				<configuration>
 					<basedir>${project.basedir}</basedir>
 					<outputhtmldir>${project.build.directory}</outputhtmldir>
