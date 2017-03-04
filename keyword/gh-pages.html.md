@@ -14,7 +14,7 @@ gh-pages
 
 ### 特徴
 
-* markdown (.md) 形式でコンテンツを作成したうえで、[github](github.html) の `gh-pages` ブランチにコミットすると `ｈttps://username.github.io/reposname` 形式の場所に静的サイトを公開できる仕組みです。
+* markdown (.md) 形式でコンテンツを作成したうえで、[github](github.html) の `gh-pages` ブランチにコミットすると `https://username.github.io/reposname` 形式の場所に静的サイトを公開できる仕組みです。
 
 ### 検索
 

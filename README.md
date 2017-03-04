@@ -34,7 +34,7 @@
 
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](2017/ig170305.html)
 * [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](2017/ig170304.html)
-* [2017-03-03 diary: 関東は花粉の季節](2017/ig170303.html)
+* [2017-03-03 diary: igapyonv3 の特徴](2017/ig170303.html)
 * [2017-03-02 diary: 寒暖の差が激しく](2017/ig170302.html)
 * [2017-03-01 diary: 花粉が目に染みる](2017/ig170301.html)
 * [2017-02-28 diary: 今日の気象は](2017/ig170228.html)
