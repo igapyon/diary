@@ -142,6 +142,7 @@ igapyonv3
 
 `<@localrss />`
 
+* [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Maven] Central Repository にリリース](ig170305.html)
 * [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](ig170304.html)
 * [2017-03-03 diary: 関東は花粉の季節](ig170303.html)
 * [2017-03-02 diary: 寒暖の差が激しく](ig170302.html)
@@ -264,6 +265,7 @@ igapyonv3
 
 ### 日記
 
+* [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Maven] Central Repository にリリース](../2017/ig170305.html)
 * [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](../2017/ig170304.html)
 * [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](../2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](../2017/ig170212.html)

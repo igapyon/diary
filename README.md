@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Maven] Central Repository にリリース](2017/ig170305.html)
 * [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](2017/ig170304.html)
 * [2017-03-03 diary: 関東は花粉の季節](2017/ig170303.html)
 * [2017-03-02 diary: 寒暖の差が激しく](2017/ig170302.html)
@@ -46,7 +47,6 @@
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
 * [2017-02-19 diary: [Mac][shell] .bashrc を有効にする](2017/ig170219.html)
 * [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](2017/ig170218.html)
-* [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](2017/ig170217.html)
 
 
 私のインターネットへのアンテナです。

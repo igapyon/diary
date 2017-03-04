@@ -34,6 +34,7 @@ Last modified: $Date: 2017-01-27 $
 
 ### 日記
 
+* [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Maven] Central Repository にリリース](../2017/ig170305.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](../2017/ig170204.html)
