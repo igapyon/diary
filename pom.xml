@@ -73,7 +73,7 @@
 				<version>1.5.0</version>
 				<configuration>
 					<basedir>${project.basedir}</basedir>
-					<outputhtmldir>${project.build.directory}</outputhtmldir>
+					<outputhtmldir>${project.build.directory}/html</outputhtmldir>
 				</configuration>
 				<executions>
 					<execution>
