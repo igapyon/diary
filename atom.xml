@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-03-06 diary: Diary title here</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170306.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170306.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170305.html" />
     <author>
@@ -22,7 +31,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2017-03-03 diary: igapyonv3 の特徴</title>
+    <title>2017-03-03 diary: [igapyonv3] の特徴</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170303.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -31,7 +40,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2017-03-02 diary: 寒暖の差が激しく</title>
+    <title>2017-03-02 diary: [igapyonv3] の依存ライブラリ</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170302.html" />
     <author>
       <name>Toshiki Iga</name>

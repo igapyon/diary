@@ -32,10 +32,11 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-03-06 diary: Diary title here](2017/ig170306.html)
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](2017/ig170305.html)
 * [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](2017/ig170304.html)
-* [2017-03-03 diary: igapyonv3 の特徴](2017/ig170303.html)
-* [2017-03-02 diary: 寒暖の差が激しく](2017/ig170302.html)
+* [2017-03-03 diary: [igapyonv3] の特徴](2017/ig170303.html)
+* [2017-03-02 diary: [igapyonv3] の依存ライブラリ](2017/ig170302.html)
 * [2017-03-01 diary: 花粉が目に染みる](2017/ig170301.html)
 * [2017-02-28 diary: 今日の気象は](2017/ig170228.html)
 * [2017-02-27 diary: 今日は寒いのかしら](2017/ig170227.html)
@@ -46,7 +47,6 @@
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
 * [2017-02-19 diary: [Mac][shell] .bashrc を有効にする](2017/ig170219.html)
-* [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](2017/ig170218.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,21 +59,16 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Dockerが商用版Dockerとして「Docker Enterprise Edition」発表、認証済みイメージやプラグインなど提供。無償版は「Community Edition」に](http://www.publickey1.jp/blog/17/dockerdockerdocker_enterprise_editioncommunity_edition.html) 2017/03/06
+* [Amazon S3ダウンの原因、コマンドの入力ミスで多数のサーバを削除。サブシステム再起動に時間がかかり障害が長引く。AWSの報告を読み解く](http://www.publickey1.jp/blog/17/amazon_s3aws_1.html) 2017/03/06
 * [無料のコードエディタ「Visual Studio Code 1.10」リリース。ミニマップ、テキストのドラッグ＆ドロップ、TypeScript 2.2対応、JSDocコメントの自動生成など](http://www.publickey1.jp/blog/17/visual_studio_code_110typescript_22jsdoc.html) 2017/03/02
 * [Docker v17.03がリリース。今月からバージョン番号制度が変更になり、毎月リリース体制に](http://www.publickey1.jp/blog/17/docker_v1703.html) 2017/03/02
 * [グローバルなパブリッククラウド市場は2017年に18％成長、2020年まで年平均13％で成長。大手は「クラウドファーストからクラウドオンリー」へ、米ガートナー](http://www.publickey1.jp/blog/17/201718202013.html) 2017/03/02
 * [GitHub、企業向けの「Businessプラン」発表。GitHub.comでSAMLシングルサインオン、アップタイム保証、24時間サポートなど](http://www.publickey1.jp/blog/17/githubbusinessgithubcomsaml24.html) 2017/03/02
 * [国内ITサービス市場、2021年までの年間平均成長率は1.1％と横ばい。国内ITサービス市場をけん引してきた大規模なシステム構築案件が減少。IDC Japan](http://www.publickey1.jp/blog/17/it202111itidc_japan.html) 2017/03/02
-* [Amazon S3が一時ダウン、米国東部リージョンで大規模障害。肝心のヘルスダッシュボードまで巻き込まれて表示が乱れ、AWS公式ツイッターアカウントが状況報告](http://www.publickey1.jp/blog/17/amazon_s3aws.html) 2017/03/01
-* [SAP、「SAP Cloud Platform」にクラウドの名称変更。iOS用SDK、IoT対応、仮想マシン、API群など汎用PaaS型クラウドサービスとして訴求へ](http://www.publickey1.jp/blog/17/sapsap_cloud_platformiossdkiotapipaas.html) 2017/03/01
 
 
-#### [結城浩の日記](http://www.hyuki.com/d/)
-
-* [[結] 結城浩ニュースレター発行](http://www.hyuki.com/d/201703.html#i20170303200000) 
-* [[結] 日記書いてなかった](http://www.hyuki.com/d/201702.html#i20170228000000) 
-* [[結] 結城浩ニュースレター発行](http://www.hyuki.com/d/201701.html#i20170129183643) 
-
+<@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
 
 <@rssfeed url="https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=" maxcount="10" />
 

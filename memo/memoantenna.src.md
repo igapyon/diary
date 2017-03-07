@@ -8,7 +8,7 @@
 <#-- RSSフィード展開処理 -->
 <@rssfeed url="http://www.publickey1.jp/atom.xml" maxcount="7" />
 
-<@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
+<${'@'}rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
 
 <${'@'}rssfeed url="https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=" maxcount="10" />
 
