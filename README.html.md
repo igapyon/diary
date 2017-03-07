@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-03-08 diary: Diary title here](2017/ig170308.html)
+* [2017-03-08 diary: 今日は寒い](2017/ig170308.html)
 * [2017-03-07 diary: 花粉がとてもしんどい](2017/ig170307.html)
 * [2017-03-06 diary: 花粉がしんどい](2017/ig170306.html)
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](2017/ig170305.html)
