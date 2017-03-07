@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-03-07 diary: Diary title here</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170307.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170307.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-03-06 diary: 花粉がしんどい</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170306.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2017/ig170220.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-02-19 diary: [Mac][shell] .bashrc を有効にする</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170219.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170219.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
