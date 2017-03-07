@@ -32,6 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-03-08 diary: Diary title here](2017/ig170308.html)
 * [2017-03-07 diary: 花粉がとてもしんどい](2017/ig170307.html)
 * [2017-03-06 diary: 花粉がしんどい](2017/ig170306.html)
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](2017/ig170305.html)
@@ -46,7 +47,6 @@
 * [2017-02-23 diary: 関東は今日は暖かいらしい](2017/ig170223.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](2017/ig170222.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](2017/ig170221.html)
-* [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](2017/ig170220.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [マイクロソフト、Visual Studio 2017正式リリース。コードを書きながら自動的にユニットテストを実行してくれるライブユニットテスティングなど](http://www.publickey1.jp/blog/17/visual_studio_2017.html) 2017/03/08
 * [Google、DockerコンテナのビルドをREST APIなどで自動化できる「Container Builder」リリース。1日あたり120分のビルド時間まで無料](http://www.publickey1.jp/blog/17/googledockerrest_apicontainer_builder1120.html) 2017/03/07
 * [サーバレスのAzure Functionsをサポートするオンプレミス用Azure、「Azure Stack」最終テクニカループレビュー版登場。ハードウェア込みで従量課金が選択可能に](http://www.publickey1.jp/blog/17/azure_functionsazureazure_stack.html) 2017/03/07
 * [Dockerが商用版Dockerとして「Docker Enterprise Edition」発表、認証済みイメージやプラグインなど提供。無償版は「Community Edition」に](http://www.publickey1.jp/blog/17/dockerdockerdocker_enterprise_editioncommunity_edition.html) 2017/03/06
 * [Amazon S3ダウンの原因、コマンドの入力ミスで多数のサーバを削除。サブシステム再起動に時間がかかり障害が長引く。AWSの報告を読み解く](http://www.publickey1.jp/blog/17/amazon_s3aws_1.html) 2017/03/06
 * [無料のコードエディタ「Visual Studio Code 1.10」リリース。ミニマップ、テキストのドラッグ＆ドロップ、TypeScript 2.2対応、JSDocコメントの自動生成など](http://www.publickey1.jp/blog/17/visual_studio_code_110typescript_22jsdoc.html) 2017/03/02
 * [Docker v17.03がリリース。今月からバージョン番号制度が変更になり、毎月リリース体制に](http://www.publickey1.jp/blog/17/docker_v1703.html) 2017/03/02
-* [グローバルなパブリッククラウド市場は2017年に18％成長、2020年まで年平均13％で成長。大手は「クラウドファーストからクラウドオンリー」へ、米ガートナー](http://www.publickey1.jp/blog/17/201718202013.html) 2017/03/02
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
