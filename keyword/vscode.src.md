@@ -1,6 +1,6 @@
 ## vscode
 
-Visual Studio Code [[vscode]] は [[OSS]] な [[Windows]]、[[Mac]]、[Linux] に対応したテキストエディタです。
+Visual Studio Code [[vscode]] は [[OSS]] な [[Windows]]、[[Mac]]、[[Linux]] に対応したテキストエディタです。
 
 ### URL
 

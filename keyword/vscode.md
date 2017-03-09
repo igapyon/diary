@@ -6,7 +6,7 @@ vscode
 
 ## vscode
 
-Visual Studio Code [[vscode]] は [[OSS]] な [[Windows]]、[[Mac]]、[Linux] に対応したテキストエディタです。
+Visual Studio Code [vscode](vscode.html) は [OSS](oss.html) な [Windows](windows.html)、[Mac](mac.html)、[Linux](linux.html) に対応したテキストエディタです。
 
 ### URL
 
@@ -32,4 +32,4 @@ Last modified: $Date: 2017-03-10 $
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cvscode%2COSS%2CWindows%2CMac%2Cgit&text=vscode&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fvscode.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cvscode%2COSS%2CWindows%2CMac%2CLinux%2Cgit&text=vscode&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fvscode.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
