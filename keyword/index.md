@@ -91,6 +91,7 @@
 * [Ubuntu](ubuntu.html)
 * [Visualforce](visualforce.html)
 * [VMware](vmware.html)
+* [vscode](vscode.html)
 * [Windows](windows.html)
 
 

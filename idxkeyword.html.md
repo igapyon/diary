@@ -91,6 +91,7 @@
 * [Ubuntu](keyword/ubuntu.html)
 * [Visualforce](keyword/visualforce.html)
 * [VMware](keyword/vmware.html)
+* [vscode](keyword/vscode.html)
 * [Windows](keyword/windows.html)
 
 

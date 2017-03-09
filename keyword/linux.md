@@ -24,7 +24,7 @@ Linux
 
 ### 日記
 
-* [2017-03-09 diary: Visual Studio Code という高性能メモ帳 [Markdown][Windows][Mac][Linux]](../2017/ig170309.html)
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2016-12-16 diary: [Linux] いつも忘れる diff 引数。「diff -urN」](../2016/ig161216.html)
 * [2016-04-17 diary: [Linux] crontab で毎日03:00にシャットダウンするメモ](../2016/ig160417.html)
 * [2015-01-23 diary: [Linux] 複数の wav ファイルを 1 つの mp4 ファイルにまとめる](../2015/ig150123.html)

@@ -24,7 +24,7 @@ Markdown
 
 ### 日記
 
-* [2017-03-09 diary: Visual Studio Code という高性能メモ帳 [Markdown][Windows][Mac][Linux]](../2017/ig170309.html)
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](../2017/ig170114.html)
 * [2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール](../2015/ig150724.html)
 * [2015-06-27 diary: [Java] Java でかかれた [Markdown] プロセッサー探し](../2015/ig150627.html)
