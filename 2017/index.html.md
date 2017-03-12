@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-03-13 diary: FOSTEX かんすぴセット 10cm KANSPI-10](ig170313.html)
+* [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](ig170310.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](ig170309.html)
