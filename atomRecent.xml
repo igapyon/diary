@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-03-13 diary: Diary title here</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170313.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170313.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170311.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2017/ig170226.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-02-25 diary: 某演奏会</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170225.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170225.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
