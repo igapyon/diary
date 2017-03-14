@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [Google、マネージドサービスでPostgreSQLを提供する「Cloud SQL for PostgreSQL」ベータ提供を発表](http://www.publickey1.jp/blog/17/googlepostgresqlcloud_sql_for_postgresql.html) 2017/03/13
+* [IIJ、マルチクラウドの運用統合と自動化を実現する「IIJ統合運用管理サービス」提供開始。同社のノウハウで障害原因の特定や対処をナビゲート](http://www.publickey1.jp/blog/17/iijiij.html) 2017/03/13
 * [Dockerコンテナがフェイルオーバーしたとき、ストレージも自動的に切り替えてくれる。オープンソースの「REX-Ray」をDell EMCが無償公開中［PR］](http://www.publickey1.jp/blog/17/dockerrex-raydell_emcpr.html) 2017/03/12
 * [Google Drive、PCとの同期不要でクラウドに置いたままファイルを開く「Drive File Stream」発表。企業向けのTeam Drivesは正式版へ。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/google_drivepcdrive_file_streamteam_drivesgoogle_cloud_next17.html) 2017/03/10
 * [［速報］Google、データサイエンティストのコミュニティ「Kaggle」買収を発表。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/googlekagglegoogle_cloud_next17.html) 2017/03/09
 * [［速報］Google、動画になにが映っているかを自動的に判断する「Video Intelligence API」発表。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/googlevideo_intelligence_apigoogle_cloud_next17.html) 2017/03/09
 * [［速報］GoogleとSAPがクラウドで協業。SAP Cloud PlatformをGoogle Cloud上で展開可能に](http://www.publickey1.jp/blog/17/googlesapsap_cloud_platformgoogle_cloud.html) 2017/03/09
-* [GitLabが本番データベース喪失／オラクルがAWSとAzureで価格2倍に／地球規模の大規模分散環境で稼働するGoogle Cloud Spannerほか。2017年2月の人気記事](http://www.publickey1.jp/blog/17/gitlabawsazure2google_cloud_spanner20172.html) 2017/03/08
-* [マイクロソフト、Visual Studio 2017正式リリース。コードを書きながら自動的にユニットテストを実行してくれるライブユニットテスティングなど](http://www.publickey1.jp/blog/17/visual_studio_2017.html) 2017/03/08
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
