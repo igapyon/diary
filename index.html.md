@@ -32,7 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-03-14 diary: Diary title here](2017/ig170314.html)
+* [2017-03-28 diary: Diary title here](2017/ig170328.html)
+* [2017-03-14 diary: 休暇を取得して各種事務手続き](2017/ig170314.html)
 * [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](2017/ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](2017/ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](2017/ig170310.html)
@@ -46,7 +47,6 @@
 * [2017-03-02 diary: [igapyonv3] の依存ライブラリ](2017/ig170302.html)
 * [2017-03-01 diary: 花粉が目に染みる](2017/ig170301.html)
 * [2017-02-28 diary: 今日の気象は](2017/ig170228.html)
-* [2017-02-27 diary: 今日は寒いのかしら](2017/ig170227.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [Google、マネージドサービスでPostgreSQLを提供する「Cloud SQL for PostgreSQL」ベータ提供を発表](http://www.publickey1.jp/blog/17/googlepostgresqlcloud_sql_for_postgresql.html) 2017/03/13
-* [IIJ、マルチクラウドの運用統合と自動化を実現する「IIJ統合運用管理サービス」提供開始。同社のノウハウで障害原因の特定や対処をナビゲート](http://www.publickey1.jp/blog/17/iijiij.html) 2017/03/13
-* [Dockerコンテナがフェイルオーバーしたとき、ストレージも自動的に切り替えてくれる。オープンソースの「REX-Ray」をDell EMCが無償公開中［PR］](http://www.publickey1.jp/blog/17/dockerrex-raydell_emcpr.html) 2017/03/12
-* [Google Drive、PCとの同期不要でクラウドに置いたままファイルを開く「Drive File Stream」発表。企業向けのTeam Drivesは正式版へ。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/google_drivepcdrive_file_streamteam_drivesgoogle_cloud_next17.html) 2017/03/10
-* [［速報］Google、データサイエンティストのコミュニティ「Kaggle」買収を発表。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/googlekagglegoogle_cloud_next17.html) 2017/03/09
-* [［速報］Google、動画になにが映っているかを自動的に判断する「Video Intelligence API」発表。Google Cloud Next&apos;17](http://www.publickey1.jp/blog/17/googlevideo_intelligence_apigoogle_cloud_next17.html) 2017/03/09
-* [［速報］GoogleとSAPがクラウドで協業。SAP Cloud PlatformをGoogle Cloud上で展開可能に](http://www.publickey1.jp/blog/17/googlesapsap_cloud_platformgoogle_cloud.html) 2017/03/09
+* [インテル、3D XPoint採用のコンシューマ向け製品「Intel Optane Memory」発表。SSDではなくストレージの高速キャッシュメモリ](http://www.publickey1.jp/blog/17/3d_xpointintel_optane_memoryssd.html) 2017/03/28
+* [シスコ、AppDynamicsの買収を完了。アプリケーションやビジネスレイヤのモニタリングにも取り組みをはじめるシスコ](http://www.publickey1.jp/blog/17/appdynamics_2.html) 2017/03/28
+* [2020年までに、ビジネス部門のIT投資と情報部門のIT予算はほぼ同じに。ビジネス部門のIT投資は情報部門のIT予算よりも伸びている。IDC](http://www.publickey1.jp/blog/17/2020ititititidc.html) 2017/03/27
+* [Angular 4が正式リリース、Angular 2から3を飛ばして4。後方互換性を維持してより小さく高速に](http://www.publickey1.jp/blog/17/angular_4angular_234.html) 2017/03/27
+* [国内PaaS市場、2020年には2016年の3倍以上の2548億円に。平均成長率は年約44％。ITR](http://www.publickey1.jp/blog/17/paas202020163254844itr.html) 2017/03/23
+* [「GitLab 9.0」リリース。組織の階層構造に対応したSubgroups、コンテナへのデプロイとPrometheusで運用監視など](http://www.publickey1.jp/blog/17/gitlab_90subgroupsprometheus.html) 2017/03/23
+* [システムを正常動作していた「あのとき」に確実に戻す。システムバックアップの有効性について、デルとミラクル・リナックスが語る［PR］](http://www.publickey1.jp/blog/17/dellmiraclepr_6.html) 2017/03/23
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

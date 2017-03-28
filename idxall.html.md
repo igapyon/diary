@@ -32,7 +32,8 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-03-14 diary: Diary title here](2017/ig170314.html)
+* [2017-03-28 diary: Diary title here](2017/ig170328.html)
+* [2017-03-14 diary: 休暇を取得して各種事務手続き](2017/ig170314.html)
 * [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](2017/ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](2017/ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](2017/ig170310.html)

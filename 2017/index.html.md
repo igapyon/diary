@@ -31,7 +31,8 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-03-14 diary: Diary title here](ig170314.html)
+* [2017-03-28 diary: Diary title here](ig170328.html)
+* [2017-03-14 diary: 休暇を取得して各種事務手続き](ig170314.html)
 * [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](ig170310.html)
