@@ -18,6 +18,7 @@ English
 
 ### 日記
 
+* [2017-03-24 diary: [english] heads-up / 注意喚起](../2017/ig170324.html)
 * [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](../2017/ig170208.html)
 * [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](../2017/ig170207.html)
 * [2017-01-23 diary: [English] 超基本ビジネス英単語](../2017/ig170123.html)
@@ -31,4 +32,5 @@ English
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CEnglish&text=English&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fenglish.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CEnglish&text=English&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fenglish.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

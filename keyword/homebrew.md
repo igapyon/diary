@@ -31,4 +31,5 @@ Last modified: $Date: 2017-02-23 $
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CHomebrew%2CMac&text=Homebrew&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fhomebrew.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CHomebrew%2CMac&text=Homebrew&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fhomebrew.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

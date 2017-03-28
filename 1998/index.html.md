@@ -38,4 +38,5 @@
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A1998%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2F1998%2Findex.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A1998%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2F1998%2Findex.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

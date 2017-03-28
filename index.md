@@ -32,7 +32,12 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-03-28 diary: Diary title here](2017/ig170328.html)
+* [2017-03-29 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170329.html)
+* [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
+* [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](2017/ig170327.html)
+* [2017-03-26 diary: 息子に mineo nanoSIM を提供](2017/ig170326.html)
+* [2017-03-25 diary: Team Geek に関係ありそうなネット記事](2017/ig170325.html)
+* [2017-03-24 diary: [english] heads-up / 注意喚起](2017/ig170324.html)
 * [2017-03-14 diary: 休暇を取得して各種事務手続き](2017/ig170314.html)
 * [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](2017/ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](2017/ig170311.html)
@@ -42,11 +47,6 @@
 * [2017-03-07 diary: 花粉がとてもしんどい](2017/ig170307.html)
 * [2017-03-06 diary: 花粉がしんどい](2017/ig170306.html)
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](2017/ig170305.html)
-* [2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更](2017/ig170304.html)
-* [2017-03-03 diary: [igapyonv3] の特徴](2017/ig170303.html)
-* [2017-03-02 diary: [igapyonv3] の依存ライブラリ](2017/ig170302.html)
-* [2017-03-01 diary: 花粉が目に染みる](2017/ig170301.html)
-* [2017-02-28 diary: 今日の気象は](2017/ig170228.html)
 
 
 私のインターネットへのアンテナです。
@@ -85,4 +85,5 @@
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

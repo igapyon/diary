@@ -29,6 +29,7 @@ git
 
 ### 日記
 
+* [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](../2017/ig170327.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../2017/ig170220.html)
 * [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](../2017/ig170218.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
@@ -40,4 +41,5 @@ git
 
 ## この日記について
 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cgit%2COSS%2CLinux&text=git&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fgit.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cgit%2COSS%2CLinux&text=git&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fgit.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 
