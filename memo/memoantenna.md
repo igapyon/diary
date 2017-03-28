@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [わずか2台のサーバでミニ・ハイパーコンバージドインフラ構成を実現。クロスケーブルで2台を直結、vSPhereとvSANを利用。Dell EMCから](http://www.publickey1.jp/blog/17/22vspherevsandell_emc.html) 2017/03/28
 * [インテル、3D XPoint採用のコンシューマ向け製品「Intel Optane Memory」発表。SSDではなくストレージの高速キャッシュメモリ](http://www.publickey1.jp/blog/17/3d_xpointintel_optane_memoryssd.html) 2017/03/28
 * [シスコ、AppDynamicsの買収を完了。アプリケーションやビジネスレイヤのモニタリングにも取り組みをはじめるシスコ](http://www.publickey1.jp/blog/17/appdynamics_2.html) 2017/03/28
 * [2020年までに、ビジネス部門のIT投資と情報部門のIT予算はほぼ同じに。ビジネス部門のIT投資は情報部門のIT予算よりも伸びている。IDC](http://www.publickey1.jp/blog/17/2020ititititidc.html) 2017/03/27
 * [Angular 4が正式リリース、Angular 2から3を飛ばして4。後方互換性を維持してより小さく高速に](http://www.publickey1.jp/blog/17/angular_4angular_234.html) 2017/03/27
 * [国内PaaS市場、2020年には2016年の3倍以上の2548億円に。平均成長率は年約44％。ITR](http://www.publickey1.jp/blog/17/paas202020163254844itr.html) 2017/03/23
 * [「GitLab 9.0」リリース。組織の階層構造に対応したSubgroups、コンテナへのデプロイとPrometheusで運用監視など](http://www.publickey1.jp/blog/17/gitlab_90subgroupsprometheus.html) 2017/03/23
-* [システムを正常動作していた「あのとき」に確実に戻す。システムバックアップの有効性について、デルとミラクル・リナックスが語る［PR］](http://www.publickey1.jp/blog/17/dellmiraclepr_6.html) 2017/03/23
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

@@ -32,7 +32,7 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
-* [2017-03-29 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170329.html)
+* [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
 * [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
 * [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](2017/ig170327.html)
 * [2017-03-26 diary: 息子に mineo nanoSIM を提供](2017/ig170326.html)
