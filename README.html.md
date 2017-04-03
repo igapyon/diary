@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [ITインフラが自動化されても、社内の承認プロセスが遅くては意味がない。社内プロセスを早く回す、情報部門のためのクラウドサービスとは［PR］](http://www.publickey1.jp/blog/17/snowacipr.html) 2017/04/03
+* [Azureの東日本リージョンが7時間にわたってダウン。原因はデータセンターの冷房が失われ自動シャットダウン。日本のリージョンはこの1カ月で三回目の障害](http://www.publickey1.jp/blog/17/azure71.html) 2017/04/03
+* [オラクル、クラウドと連携するNAS「Oracle ZFS Storage Appliance」発表](http://www.publickey1.jp/blog/17/nasoracle_zfs_storage_appliance.html) 2017/03/31
+* [ブロケードのイーサネット事業、Exterme Networksが買収へ。ブロードコムによるブロケード買収のあとで](http://www.publickey1.jp/blog/17/exterme_networks.html) 2017/03/30
+* [Kubernetes 1.6が登場。etcd3とgRPC採用で大幅な性能向上、チームやワークロードごとに名前空間を分離、物理ノードを考慮しデプロイ可能など](http://www.publickey1.jp/blog/17/kubernetes_16etcd3grpc.html) 2017/03/30
 * [わずか2台のサーバでミニ・ハイパーコンバージドインフラ構成を実現。クロスケーブルで2台を直結、vSPhereとvSANを利用。Dell EMCから](http://www.publickey1.jp/blog/17/22vspherevsandell_emc.html) 2017/03/28
 * [インテル、3D XPoint採用のコンシューマ向け製品「Intel Optane Memory」発表。SSDではなくストレージの高速キャッシュメモリ](http://www.publickey1.jp/blog/17/3d_xpointintel_optane_memoryssd.html) 2017/03/28
-* [シスコ、AppDynamicsの買収を完了。アプリケーションやビジネスレイヤのモニタリングにも取り組みをはじめるシスコ](http://www.publickey1.jp/blog/17/appdynamics_2.html) 2017/03/28
-* [2020年までに、ビジネス部門のIT投資と情報部門のIT予算はほぼ同じに。ビジネス部門のIT投資は情報部門のIT予算よりも伸びている。IDC](http://www.publickey1.jp/blog/17/2020ititititidc.html) 2017/03/27
-* [Angular 4が正式リリース、Angular 2から3を飛ばして4。後方互換性を維持してより小さく高速に](http://www.publickey1.jp/blog/17/angular_4angular_234.html) 2017/03/27
-* [国内PaaS市場、2020年には2016年の3倍以上の2548億円に。平均成長率は年約44％。ITR](http://www.publickey1.jp/blog/17/paas202020163254844itr.html) 2017/03/23
-* [「GitLab 9.0」リリース。組織の階層構造に対応したSubgroups、コンテナへのデプロイとPrometheusで運用監視など](http://www.publickey1.jp/blog/17/gitlab_90subgroupsprometheus.html) 2017/03/23
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
