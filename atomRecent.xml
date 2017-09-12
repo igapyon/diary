@@ -4,6 +4,24 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2017-09-13 diary: Diary title here</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170913.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170913.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-04-03 diary: Diary title here</title>
+    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170403.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://igapyon.github.io/diary/2017/ig170403.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....</title>
     <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170329.html" />
     <author>
@@ -118,24 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://igapyon.github.io/diary/2017/ig170307.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-03-06 diary: 花粉がしんどい</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170306.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170306.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース</title>
-    <link rel="alternate" href="https://igapyon.github.io/diary/2017/ig170305.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://igapyon.github.io/diary/2017/ig170305.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
