@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2017-09-13 diary: [Java] CSV の差集合](../2017/ig170913.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2017-01-26 diary: [Maven] 中の [Ant] 記述から [Java] アプリを実行するシンプルサンプル](../2017/ig170126.html)
