@@ -32,7 +32,7 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-09-15 diary: Diary title here](2017/ig170915.html)
+* [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](2017/ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
