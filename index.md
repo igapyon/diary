@@ -35,7 +35,6 @@
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
 * [2017-09-10 diary: 自宅プリンターを brother MFC-J997DN に変更](2017/ig170910.html)
-* [2017-04-09 diary: [Spring] Spring で Web コンテンツ提供](2017/ig170409.html)
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](2017/ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
 * [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
@@ -47,6 +46,7 @@
 * [2017-03-13 diary: 自宅用に FOSTEX かんすぴセット 10cm KANSPI-10 を購入](2017/ig170313.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](2017/ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](2017/ig170310.html)
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](2017/ig170309.html)
 
 
 私のインターネットへのアンテナです。
