@@ -6,15 +6,15 @@ Spring
 
 ## Spring
 
-[[Spring]] は、、、、です。※未執筆。
+[Spring](spring.html) は Spring Framework です。
 
 ### URL
 
-* TBD [Search 'Spring' in google](https://www.google.co.jp/#pws=0&q=Spring)
+* [Spring](https://spring.io/)
 
 ### 特徴
 
-* TBD [Search 'Spring' in google](https://www.google.co.jp/#pws=0&q=Spring)
+* Java を用いたシステム開発の際によく利用されるフレームワークのひとつ。
 
 ### 検索
 

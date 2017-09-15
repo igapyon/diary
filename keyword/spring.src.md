@@ -1,14 +1,14 @@
 ## Spring
 
-[[Spring]] は、、、、です。※未執筆。
+[[Spring]] は Spring Framework です。
 
 ### URL
 
-* TBD <@linksearch word="Spring" />
+* [Spring](https://spring.io/)
 
 ### 特徴
 
-* TBD <@linksearch word="Spring" />
+* Java を用いたシステム開発の際によく利用されるフレームワークのひとつ。
 
 ### 検索
 
