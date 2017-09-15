@@ -85,6 +85,7 @@
 * [Shell](shell.html)
 * [Sonatype](sonatype.html)
 * [Sphinx](sphinx.html)
+* [Spring](spring.html)
 * [SQLite](sqlite.html)
 * [Subversion](subversion.html)
 * [Tooling API](tooling-api.html)
