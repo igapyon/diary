@@ -32,8 +32,9 @@
 
 ### 全ての日記 ([Feed](https://igapyon.github.io/diary/atom.xml))
 
+* [2017-09-15 diary: Diary title here](2017/ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
-* [2017-04-03 diary: Diary title here](2017/ig170403.html)
+* [2017-04-03 diary: [Spring] Spring Framework 再入門](2017/ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
 * [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
 * [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](2017/ig170327.html)

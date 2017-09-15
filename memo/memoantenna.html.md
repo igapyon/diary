@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [AWSのロゴが変わった？ アトラシアンもロゴが変わった！［小ネタ］](http://www.publickey1.jp/blog/17/aws_1.html) 2017/09/12
+* [Slackの日本語版が年内登場。 新機能「Shared Channels」は企業をまたいでチャンネルを共有可能。「Microsoft Teams」はゲストユーザーを追加可能に](http://www.publickey1.jp/blog/17/slack_shared_channelsmicrosoft_teams.html) 2017/09/15
+* [オラクル、Kubernetesの開発をホストする「Cloud Native Computing Foundation」へ加盟。マイクロソフト、AWS、VMwareなどKubernetesへの支持が続く](http://www.publickey1.jp/blog/17/oracle_ cloud_native_computing_foundation_kubernetes.html) 2017/09/14
+* [Java EEの策定はEclipse Foundationへ、オラクルからの移管を発表](http://www.publickey1.jp/blog/17/java_ee_eclipse_foundation.html) 2017/09/14
+* [VMware、同社技術に深くコミットするクラウドプロバイダとしてIBM、富士通、Rackspaceなど「VMware Cloud Verified」5社を発表。](http://www.publickey1.jp/blog/17/vmware_cloud_verified.html) 2017/09/13
+* [VMwareが「VMware HCXテクノロジー」発表。オンプレミスのvSphereからvMotionでダウンタイムなくクラウドへの移行を実現。IBMなどがクラウドサービスで提供](http://www.publickey1.jp/blog/17/vmware_hcx_vmotion_ibm.html) 2017/09/13
+* [AWSのロゴが変わった？ アトラシアンもロゴが変わった！［小ネタ］](http://www.publickey1.jp/blog/17/aws_1.html) 2017/09/14
 * [アジャイル未経験チームにとって、スクラムコーチの存在はどのくらい有効だったのか？ ［PR］](http://www.publickey1.jp/blog/17/kddi_denso_pr.html) 2017/09/11
-* [Google Cloudへ専用線で接続可能に。Googleの「Dedicated Interconnect」登場。東京と大阪にも接続ポイント、今日から利用可能](http://www.publickey1.jp/blog/17/google_cloudgooglededicated_interconnect.html) 2017/09/12
-* [アトラシアンが「Stride」発表。グループチャットを中心にビデオ／音声会議、タスクアサイン機能など。無料利用も提供でSlackを追撃](http://www.publickey1.jp/blog/17/stride_slack.html) 2017/09/10
-* [NGINXからアプリケーションサーバ「NGINX Unit」がオープンソースで登場。PHP、Go、Pythonに対応。Java、Node.jsにも対応予定](http://www.publickey1.jp/blog/17/nginx_unit.html) 2017/09/08
-* [オラクル、Javaの新機能アップデートを6カ月ごとに行うタイムベースへ提案。さらにJDK 9でOpenJDKビルドをGPLで提供し、アプリなどと一緒に配布することを容易に](http://www.publickey1.jp/blog/17/java6jdk_9openjdkgpl.html) 2017/09/07
-* [Mesosphere DC/OSがKubernetesをサポートすると発表。コンテナオーケストレーションの事実上の標準へ勢いを増すKubernetes](http://www.publickey1.jp/blog/17/mesosphere_dcos_kubernetes.html) 2017/09/07
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
