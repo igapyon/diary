@@ -31,9 +31,13 @@
 
 ## いがぴょんの日記：2017年の日記
 
+* [2017-09-30 diary: ひといき](ig170930.html)
+* [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](ig170913.html)
 * [2017-09-10 diary: 自宅プリンターを brother MFC-J997DN に変更](ig170910.html)
+* [2017-04-16 diary: [Spring] シンプル Web アプリ](ig170416.html)
+* [2017-04-09 diary: [Spring] Gradle 入門](ig170409.html)
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](ig170329.html)
 * [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](ig170328.html)

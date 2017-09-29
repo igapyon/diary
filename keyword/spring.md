@@ -24,6 +24,8 @@ Spring
 
 ### 日記
 
+* [2017-04-16 diary: [Spring] シンプル Web アプリ](../2017/ig170416.html)
+* [2017-04-09 diary: [Spring] Gradle 入門](../2017/ig170409.html)
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](../2017/ig170403.html)
 
 

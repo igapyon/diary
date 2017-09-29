@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [Slackの日本語版が年内登場。 新機能「Shared Channels」は企業をまたいでチャンネルを共有可能。「Microsoft Teams」はゲストユーザーを追加可能に](http://www.publickey1.jp/blog/17/slack_shared_channelsmicrosoft_teams.html) 2017/09/15
-* [オラクル、Kubernetesの開発をホストする「Cloud Native Computing Foundation」へ加盟。マイクロソフト、AWS、VMwareなどKubernetesへの支持が続く](http://www.publickey1.jp/blog/17/oracle_ cloud_native_computing_foundation_kubernetes.html) 2017/09/14
-* [Java EEの策定はEclipse Foundationへ、オラクルからの移管を発表](http://www.publickey1.jp/blog/17/java_ee_eclipse_foundation.html) 2017/09/14
-* [VMware、同社技術に深くコミットするクラウドプロバイダとしてIBM、富士通、Rackspaceなど「VMware Cloud Verified」5社を発表。](http://www.publickey1.jp/blog/17/vmware_cloud_verified.html) 2017/09/13
-* [VMwareが「VMware HCXテクノロジー」発表。オンプレミスのvSphereからvMotionでダウンタイムなくクラウドへの移行を実現。IBMなどがクラウドサービスで提供](http://www.publickey1.jp/blog/17/vmware_hcx_vmotion_ibm.html) 2017/09/13
-* [AWSのロゴが変わった？ アトラシアンもロゴが変わった！［小ネタ］](http://www.publickey1.jp/blog/17/aws_1.html) 2017/09/14
-* [アジャイル未経験チームにとって、スクラムコーチの存在はどのくらい有効だったのか？ ［PR］](http://www.publickey1.jp/blog/17/kddi_denso_pr.html) 2017/09/11
+* [Googleも仮想マシンなどの料金を秒単位に変更、即日開始。AWSの秒単位料金に対抗](http://www.publickey1.jp/blog/17/googleaws.html) 2017/09/29
+* [AWSに寄せていくAzure、ストレージを物理配送する「Azure Data Box」を発表。アベイラビリティゾーンやリザーブドインスタンスに続き](http://www.publickey1.jp/blog/17/awsazureazure_data_box.html) 2017/09/28
+* [オープンソースイニシアチブにマイクロソフトが加盟、プレミアムスポンサーとして。あのハロウィーン文書から19年](http://www.publickey1.jp/blog/17/19.html) 2017/09/28
+* [クラウドの音声認識APIで、ライターにとって実用的な「文字起こしサービス」は作れるのか？](http://www.publickey1.jp/blog/17/api_1.html) 2017/09/28
+* [［速報］Windows、Linux、Dockerに対応した「SQL Server 2017」正式版リリース。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/sql_server_2017_microsoft_ignite_2017.html) 2017/09/26
+* [［速報］Azureも仮想マシンが安くなる「リザーブドインスタンス」を利用可能に、最大72％割引。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/azure72microsoft_ignite_2017.html) 2017/09/27
+* [マイクロソフト、Azureで高可用性を実現する「アベイラビリティゾーン」機能を発表。AWSと同じ仕組み。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/azure_availability_zones_microsoft_ignite_2017.html) 2017/09/26
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
