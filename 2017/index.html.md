@@ -31,7 +31,8 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-09-30 diary: ひといき](ig170930.html)
+* [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](ig171004.html)
+* [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](ig170913.html)

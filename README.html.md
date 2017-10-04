@@ -32,7 +32,8 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
-* [2017-09-30 diary: ひといき](2017/ig170930.html)
+* [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](2017/ig171004.html)
+* [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](2017/ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](2017/ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
@@ -46,7 +47,6 @@
 * [2017-03-26 diary: 息子に mineo nanoSIM を提供](2017/ig170326.html)
 * [2017-03-25 diary: Team Geek に関係ありそうなネット記事](2017/ig170325.html)
 * [2017-03-24 diary: [english] heads-up / 注意喚起](2017/ig170324.html)
-* [2017-03-14 diary: 休暇を取得して各種事務手続き](2017/ig170314.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [Googleも仮想マシンなどの料金を秒単位に変更、即日開始。AWSの秒単位料金に対抗](http://www.publickey1.jp/blog/17/googleaws.html) 2017/09/29
-* [AWSに寄せていくAzure、ストレージを物理配送する「Azure Data Box」を発表。アベイラビリティゾーンやリザーブドインスタンスに続き](http://www.publickey1.jp/blog/17/awsazureazure_data_box.html) 2017/09/28
-* [オープンソースイニシアチブにマイクロソフトが加盟、プレミアムスポンサーとして。あのハロウィーン文書から19年](http://www.publickey1.jp/blog/17/19.html) 2017/09/28
-* [クラウドの音声認識APIで、ライターにとって実用的な「文字起こしサービス」は作れるのか？](http://www.publickey1.jp/blog/17/api_1.html) 2017/09/28
-* [［速報］Windows、Linux、Dockerに対応した「SQL Server 2017」正式版リリース。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/sql_server_2017_microsoft_ignite_2017.html) 2017/09/26
-* [［速報］Azureも仮想マシンが安くなる「リザーブドインスタンス」を利用可能に、最大72％割引。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/azure72microsoft_ignite_2017.html) 2017/09/27
-* [マイクロソフト、Azureで高可用性を実現する「アベイラビリティゾーン」機能を発表。AWSと同じ仕組み。Microsoft Ignite 2017](http://www.publickey1.jp/blog/17/azure_availability_zones_microsoft_ignite_2017.html) 2017/09/26
+* [［速報］オラクル、サーバレスコンピューティング環境をクラウドで提供。オープンソースとして発表したばかりの「Fn Project」採用。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/fn_projectoracle_openworld_2017.html) 2017/10/04
+* [［速報］オラクル、コンテナネイティブなクラウド環境「Oracle Container Native Application Development Platform」発表。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_container_native_application_development_platform_oracle_openworld_2017.html) 2017/10/04
+* [Javaのコードをさらに読みやすくする「Project Amber」。JavaOne 2017](http://www.publickey1.jp/blog/17/javaproject_amberjavaone_2017.html) 2017/10/04
+* [JavaOne 2017開幕。基調講演でコンテナやマイクロサービスへの積極対応が示される。JavaOne 2017](http://www.publickey1.jp/blog/17/javaone_2017_keynote.html) 2017/10/04
+* [NetApp、ラスベガスでの乱射事件により、現地の年次イベント「NetApp Insight 2017」を順延](http://www.publickey1.jp/blog/17/netappnetapp_insight_2017.html) 2017/10/03
+* [［速報］Java対応のサーバレスプラットフォーム「Fn Project」、オラクルがオープンソースで公開。JavaOne 2017](http://www.publickey1.jp/blog/17/javafn_projectjavaone_2017.html) 2017/10/04
+* [Oracle DBのバージョンが「12c」から一気に「18c」へ、2018年由来。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_db12c18c2018oracle_openworld_2017.html) 2017/10/04
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
