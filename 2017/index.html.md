@@ -31,7 +31,7 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-10-08 diary: Diary title here](ig171008.html)
+* [2017-10-08 diary: 寒暖の差が激しい](ig171008.html)
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](ig171007.html)
 * [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](ig171004.html)
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](ig170930.html)
