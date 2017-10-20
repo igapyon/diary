@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memowinxptune.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memowinxptune.src.md) 
+[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/memo/memowinxptune.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memowinxptune.src.md) 
 
 資料: Windows XP 設定＆チューニングメモ
 =====================================================================================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [old-v2](memowinxptune-orig.html)
 
@@ -148,5 +148,5 @@ Windows 2000に比べて I/O周りの体感速度が向上しています。と�
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E8%B3%87%E6%96%99%3A+Windows+XP+%E8%A8%AD%E5%AE%9A%EF%BC%86%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%A2&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fmemo%2Fmemowinxptune.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E8%B3%87%E6%96%99%3A+Windows+XP+%E8%A8%AD%E5%AE%9A%EF%BC%86%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%A2&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemowinxptune.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

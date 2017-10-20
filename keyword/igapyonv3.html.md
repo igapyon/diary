@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/igapyonv3.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/igapyonv3.src.md) 
+[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/keyword/igapyonv3.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/igapyonv3.src.md) 
 
 igapyonv3
 =====================================================================================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 ## igapyonv3
 
@@ -116,14 +116,14 @@ Last modified: $Date: 2017-03-04 $
 #### SNS系
 
 * `<@linkshare word="${current.title}" tags="igapyon,diary,いがぴょん" />`
-  * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html)
+  * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=igapyonv3&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Figapyonv3.html)
 
 #### ナビゲーション系
 
 * `<@linktop />`
   * [top](../index.html)
 * `<@linktarget />`
-  * [target](https://igapyon.github.io/diary/2017/ig170114.html)
+  * [target](http://www.igapyon.jp/igapyon/diary/2017/ig170114.html)
 * `<@linksource />`
   * [source](https://github.com/igapyon/diary/blob/master/2017/ig170114.src.md)
 * `<@linkprev />`
@@ -135,7 +135,7 @@ Last modified: $Date: 2017-03-04 $
  / [index](index.html) 
  / [prev](ig170113.html) 
  / [next](ig170115.html) 
- / [target](https://igapyon.github.io/diary/2017/ig170114.html) 
+ / [target](http://www.igapyon.jp/igapyon/diary/2017/ig170114.html) 
  / [source](https://github.com/igapyon/diary/blob/master/2017/ig170114.src.md)
 
 #### その他
@@ -143,7 +143,7 @@ Last modified: $Date: 2017-03-04 $
 * `<@link value="http://www.igapyon.jp/igapyon/diary/index.html" />`
   * [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
 * `<@linkdiary date="2017-01-14" />`
-  * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://igapyon.github.io/diary/2017/ig170114.html)
+  * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](http://www.igapyon.jp/igapyon/diary/2017/ig170114.html)
 * `<@linkamazon title="JDBC本" dp="4839913935" />`
   * [JDBC本](https://www.amazon.co.jp/exec/obidos/ASIN/4839913935/igapyondiary-22)
 * `<@linkmap word="mapテスト" lat="35.6722478" lon="139.7214164" />`
@@ -245,5 +245,5 @@ Last modified: $Date: 2017-03-04 $
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CFreemarker%2Cgithub%2Cgh-pages%2CMaven%2CJava%2COSS%2CCMS&text=igapyonv3&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cigapyonv3%2CMarkdown%2CFreemarker%2Cgithub%2Cgh-pages%2CMaven%2CJava%2COSS%2CCMS&text=igapyonv3&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Figapyonv3.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

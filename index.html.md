@@ -1,8 +1,8 @@
-[top](index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/index.html) / [source](https://github.com/igapyon/diary/blob/master/index.src.md) 
+[top](index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/index.html) / [source](https://github.com/igapyon/diary/blob/master/index.src.md) 
 
 いがぴょんの日記ウェブページv3：トップ
 =====================================================================================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [2017](2017/index.html)
 / [2016](2016/index.html)
@@ -30,8 +30,9 @@
 
 ## いがぴょんの日記ウェブページv3：トップ
 
-### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
+### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2017-10-21 diary: Diary title here](2017/ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](2017/ig171019.html)
 * [2017-10-08 diary: 寒暖の差が激しい](2017/ig171008.html)
@@ -46,7 +47,6 @@
 * [2017-04-09 diary: [Spring] Gradle 入門](2017/ig170409.html)
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](2017/ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
-* [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
 
 
 私のインターネットへのアンテナです。
@@ -85,5 +85,5 @@
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Findex.html) / [top](index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

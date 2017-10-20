@@ -18,13 +18,13 @@ ${setAuthor("Toshiki Iga")}
 ${setSourcebaseurl("https://github.com/igapyon/diary/blob/master")}
 ${setSitetitle("Igapyon Diary v3")}
 
-<#-- github gh-pages site -->
-${setBaseurl("https://igapyon.github.io/diary")}
-
 <#-- homepage main site -->
-<#--
 ${setBaseurl("http://www.igapyon.jp/igapyon/diary")}
--->
 <#--
 ${setBaseurl("http://igapyon.a.la9.jp/igapyon/diary")}
+-->
+
+<#-- github gh-pages site -->
+<#--
+${setBaseurl("https://igapyon.github.io/diary")}
 -->

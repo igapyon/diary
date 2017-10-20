@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/keyword/vscode.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/vscode.src.md) 
+[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/keyword/vscode.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/vscode.src.md) 
 
 vscode
 =====================================================================================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 ## vscode
 
@@ -32,5 +32,5 @@ Last modified: $Date: 2017-03-10 $
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cvscode%2COSS%2CWindows%2CMac%2CLinux%2Cgit&text=vscode&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fkeyword%2Fvscode.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2Cvscode%2COSS%2CWindows%2CMac%2CLinux%2Cgit&text=vscode&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Fvscode.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 

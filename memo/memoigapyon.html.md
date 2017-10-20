@@ -1,17 +1,17 @@
-[top](../index.html) / [index](index.html) / [target](https://igapyon.github.io/diary/memo/memoigapyon.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memoigapyon.src.md) 
+[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memoigapyon.src.md) 
 
 資料: いがぴょん について
 =====================================================================================================
-[![いがぴょん画像(小)](https://igapyon.github.io/diary/images/iga200306s.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://igapyon.github.io/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
-[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2C%E4%BC%8A%E8%B3%80%E6%95%8F%E6%A8%B9&text=%E3%80%8C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fmemo%2Fmemoigapyon.html)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2C%E4%BC%8A%E8%B3%80%E6%95%8F%E6%A8%B9&text=%E3%80%8C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html)
 
 ## 資料: いがぴょん について
 
 本名: 伊賀 敏樹 （Tosiki Iga）
 
-[Diary](https://igapyon.github.io/diary/)
+[Diary](http://www.igapyon.jp/igapyon/diary/)
 / [Facebook](https://www.facebook.com/igapyon)
 / [Twitter](https://twitter.com/ToshikiIga)
 / [GitHub](https://github.com/igapyon)
@@ -19,7 +19,7 @@
 / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
 / [OSDN](https://ja.osdn.net/users/iga/)
 
-[![いがぴょん](https://igapyon.github.io/diary/images/iga200306.jpg "いがぴょん")](https://igapyon.github.io/diary/memo/memoigapyon.html)
+[![いがぴょん](http://www.igapyon.jp/igapyon/diary/images/iga200306.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)
 
 ↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
 
@@ -61,7 +61,7 @@
 
 ## 日記
 
-* [いがぴょんの日記ウェブページv3](https://igapyon.github.io/diary/)
+* [いがぴょんの日記ウェブページv3](http://www.igapyon.jp/igapyon/diary/)
 
 ## 趣味
 
@@ -217,12 +217,12 @@
 
 自分で入力したMIDIを着信メロディーとしても利用していました。
 
-* [ブラームス交響曲第四番 第一楽章 冒頭部](https://igapyon.github.io/diary/images/sound/BrahmsS4M1.mid) 弦楽器 2002.08～
-* [ベートーベン 交響曲第五番 第一楽章 冒頭部から](https://igapyon.github.io/diary/images/sound/BeethovenSym5Mov1.mid) 弦楽器 2002.10～
+* [ブラームス交響曲第四番 第一楽章 冒頭部](http://www.igapyon.jp/igapyon/diary/images/sound/BrahmsS4M1.mid) 弦楽器 2002.08～
+* [ベートーベン 交響曲第五番 第一楽章 冒頭部から](http://www.igapyon.jp/igapyon/diary/images/sound/BeethovenSym5Mov1.mid) 弦楽器 2002.10～
 
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COSS%2Cblancofw%2Cigapyonv3&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93+%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Figapyon.github.io%2Fdiary%2Fmemo%2Fmemoigapyon.html) / [top](../index.html) / [いがぴょんについて](https://igapyon.github.io/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COSS%2Cblancofw%2Cigapyonv3&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93+%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 
