@@ -88,6 +88,7 @@
 * [Spring](keyword/spring.html)
 * [SQLite](keyword/sqlite.html)
 * [Subversion](keyword/subversion.html)
+* [Thymeleaf](keyword/thymeleaf.html)
 * [Tooling API](keyword/tooling-api.html)
 * [Ubuntu](keyword/ubuntu.html)
 * [Visualforce](keyword/visualforce.html)

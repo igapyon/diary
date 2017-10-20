@@ -26,7 +26,8 @@ Java
 
 ### 日記
 
-* [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](../2017/ig171004.html)
+* [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](../2017/ig171019.html)
+* [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](../2017/ig171004.html)
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](../2017/ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](../2017/ig170929.html)
 * [2017-09-13 diary: [Java] CSV の差集合](../2017/ig170913.html)

@@ -32,9 +32,11 @@
 
 ### 比較的最近の日記 ([Feed](https://igapyon.github.io/diary/atomRecent.xml))
 
+* [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
+* [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](2017/ig171019.html)
 * [2017-10-08 diary: 寒暖の差が激しい](2017/ig171008.html)
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](2017/ig171007.html)
-* [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](2017/ig171004.html)
+* [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](2017/ig171004.html)
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](2017/ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](2017/ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
@@ -45,8 +47,6 @@
 * [2017-04-03 diary: [Spring] Spring Framework 再入門](2017/ig170403.html)
 * [2017-03-29 diary: 息子用に ヴァイオリンケースと弓を買おうと....](2017/ig170329.html)
 * [2017-03-28 diary: 個人所有 iPhoneSE を 10.3 にバージョンアップ](2017/ig170328.html)
-* [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](2017/ig170327.html)
-* [2017-03-26 diary: 息子に mineo nanoSIM を提供](2017/ig170326.html)
 
 
 私のインターネットへのアンテナです。
@@ -59,13 +59,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [IT予算の増減傾向はリーマンショック以前の水準まで回復、投資意欲はIoT、クラウド、機械学習、RPAなどに。ITRの調査結果](http://www.publickey1.jp/blog/17/itiotrpaitr.html) 2017/10/07
-* [インテルとオラクル、不揮発性メモリを用いたインメモリデータベースをデモ、劇的な高速化をアピール。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_intel_persistent_memory_openworld_2017.html) 2017/10/07
-* [機械学習でシステムへの脅威を自動検知するクラウドサービス「Oracle Management and Security Cloud」発表、競合はSplunk。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_management_and_security_cloudsplunkoracle_openworld_2017.html) 2017/10/07
-* [［速報］オラクル、サーバレスコンピューティング環境をクラウドで提供。オープンソースとして発表したばかりの「Fn Project」採用。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/fn_projectoracle_openworld_2017.html) 2017/10/07
-* [［速報］オラクル、コンテナネイティブなクラウド環境「Oracle Container Native Application Development Platform」発表。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_container_native_application_development_platform_oracle_openworld_2017.html) 2017/10/07
-* [Javaのコードをさらに読みやすくする「Project Amber」。JavaOne 2017](http://www.publickey1.jp/blog/17/javaproject_amberjavaone_2017.html) 2017/10/07
-* [JavaOne 2017開幕。基調講演でコンテナやマイクロサービスへの積極対応が示される。JavaOne 2017](http://www.publickey1.jp/blog/17/javaone_2017_keynote.html) 2017/10/07
+* [Kotlinのスキルを持たないAndroid開発者は恐竜のようになるリスクに直面。モバイルアプリプラットフォームのRealmが予測](http://www.publickey1.jp/blog/17/kotlinandroidrealm.html) 2017/10/20
+* [「キャズム理論」のキャズム・インスティテュートが日本上陸。キャズムを超えて成功する「マーケット戦略」を作るため、トレーニングやコンサルティングを提供開始［PR］](http://www.publickey1.jp/blog/17/chasm_institute_pr.html) 2017/10/19
+* [Kubernetes、Dockerに依存しないKubernetes用の軽量コンテナランタイム「cri-o」正式版1.0リリース](http://www.publickey1.jp/blog/17/kubernetesdockerkubernetescri-o10.html) 2017/10/19
+* [［速報］次バージョンのDocker for Win/Macでは、ローカルにKubernetes環境も自動構築。DockerCon Europe 2017](http://www.publickey1.jp/blog/17/docker_for_winmackubenetesdockercon_europe_2017.html) 2017/10/18
+* [［速報］DockerがKubernetesとの統合およびサポートを発表。DockerCon EU 2017](http://www.publickey1.jp/blog/17/dockerkubernetesdockercon_eu_2017.html) 2017/10/18
+* [GitHubでもっとも人気の言語はJavaScript、フォークされたのはTensorFlow。GitHubが今年の統計情報「The State of the Octoverse 2017」を発表](http://www.publickey1.jp/blog/17/githubjavascripttensorflowgithubthe_state_of_the_octoverse2017.html) 2017/10/17
+* [「Bash on Windows」という名称は非推奨に。正式名称「Windows Subsystem for Linux」（WSL）としてベータを卒業、正式リリースに](http://www.publickey1.jp/blog/17/bash_on_windowswindows_subsystem_for_linuxwsl.html) 2017/10/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

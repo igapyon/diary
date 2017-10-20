@@ -31,9 +31,11 @@
 
 ## いがぴょんの日記：2017年の日記
 
+* [2017-10-20 diary: 関東はここのところ気候の変動が激しく](ig171020.html)
+* [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](ig171019.html)
 * [2017-10-08 diary: 寒暖の差が激しい](ig171008.html)
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](ig171007.html)
-* [2017-10-04 diary: [Java] attoparser による HTML/XML 読み書きシンプルサンプル](ig171004.html)
+* [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](ig171004.html)
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](ig170915.html)

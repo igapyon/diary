@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
-* [IT予算の増減傾向はリーマンショック以前の水準まで回復、投資意欲はIoT、クラウド、機械学習、RPAなどに。ITRの調査結果](http://www.publickey1.jp/blog/17/itiotrpaitr.html) 2017/10/07
-* [インテルとオラクル、不揮発性メモリを用いたインメモリデータベースをデモ、劇的な高速化をアピール。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_intel_persistent_memory_openworld_2017.html) 2017/10/07
-* [機械学習でシステムへの脅威を自動検知するクラウドサービス「Oracle Management and Security Cloud」発表、競合はSplunk。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_management_and_security_cloudsplunkoracle_openworld_2017.html) 2017/10/07
-* [［速報］オラクル、サーバレスコンピューティング環境をクラウドで提供。オープンソースとして発表したばかりの「Fn Project」採用。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/fn_projectoracle_openworld_2017.html) 2017/10/07
-* [［速報］オラクル、コンテナネイティブなクラウド環境「Oracle Container Native Application Development Platform」発表。Oracle OpenWorld 2017](http://www.publickey1.jp/blog/17/oracle_container_native_application_development_platform_oracle_openworld_2017.html) 2017/10/07
-* [Javaのコードをさらに読みやすくする「Project Amber」。JavaOne 2017](http://www.publickey1.jp/blog/17/javaproject_amberjavaone_2017.html) 2017/10/07
-* [JavaOne 2017開幕。基調講演でコンテナやマイクロサービスへの積極対応が示される。JavaOne 2017](http://www.publickey1.jp/blog/17/javaone_2017_keynote.html) 2017/10/07
+* [Kotlinのスキルを持たないAndroid開発者は恐竜のようになるリスクに直面。モバイルアプリプラットフォームのRealmが予測](http://www.publickey1.jp/blog/17/kotlinandroidrealm.html) 2017/10/20
+* [「キャズム理論」のキャズム・インスティテュートが日本上陸。キャズムを超えて成功する「マーケット戦略」を作るため、トレーニングやコンサルティングを提供開始［PR］](http://www.publickey1.jp/blog/17/chasm_institute_pr.html) 2017/10/19
+* [Kubernetes、Dockerに依存しないKubernetes用の軽量コンテナランタイム「cri-o」正式版1.0リリース](http://www.publickey1.jp/blog/17/kubernetesdockerkubernetescri-o10.html) 2017/10/19
+* [［速報］次バージョンのDocker for Win/Macでは、ローカルにKubernetes環境も自動構築。DockerCon Europe 2017](http://www.publickey1.jp/blog/17/docker_for_winmackubenetesdockercon_europe_2017.html) 2017/10/18
+* [［速報］DockerがKubernetesとの統合およびサポートを発表。DockerCon EU 2017](http://www.publickey1.jp/blog/17/dockerkubernetesdockercon_eu_2017.html) 2017/10/18
+* [GitHubでもっとも人気の言語はJavaScript、フォークされたのはTensorFlow。GitHubが今年の統計情報「The State of the Octoverse 2017」を発表](http://www.publickey1.jp/blog/17/githubjavascripttensorflowgithubthe_state_of_the_octoverse2017.html) 2017/10/17
+* [「Bash on Windows」という名称は非推奨に。正式名称「Windows Subsystem for Linux」（WSL）としてベータを卒業、正式リリースに](http://www.publickey1.jp/blog/17/bash_on_windowswindows_subsystem_for_linuxwsl.html) 2017/10/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
