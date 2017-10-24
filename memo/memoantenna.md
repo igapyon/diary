@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [マイクロソフト、Google、W3C、Mozillaらが協力。それぞれのWebブラウザのドキュメントをMozillaサイトに一本化。あちこちのWebサイトを見て回らなくても済むように](http://www.publickey1.jp/blog/17/googlew3cmozillawebmozillaweb.html) 2017/10/24
+* [国内プライベートクラウド市場は、2021年には1兆6000億円規模。2016年から5年で5倍以上成長。IDC Japan](http://www.publickey1.jp/blog/17/202116000201655idc_japan.html) 2017/10/24
+* [Kubernetesへの正式対応を示す「Kubernetes適合認証プログラム」発表、認証Kubernetesロゴマークを表示可能に。Cloud Native Computing Foundation](http://www.publickey1.jp/blog/17/kuberneteskuberneteskubernetescloud_native_computing_foundation.html) 2017/10/23
+* [Facebook、マルチスレッドのコードを静的解析してデータ競合を検出する「RacerD」、オープンソースで公開。同社Androidアプリのリリース前に1000以上の問題を検出](http://www.publickey1.jp/blog/17/facebookracerdandroid1000.html) 2017/10/23
 * [Kotlinのスキルを持たないAndroid開発者は恐竜のようになるリスクに直面。モバイルアプリプラットフォームのRealmが予測](http://www.publickey1.jp/blog/17/kotlinandroidrealm.html) 2017/10/20
 * [「キャズム理論」のキャズム・インスティテュートが日本上陸。キャズムを超えて成功する「マーケット戦略」を作るため、トレーニングやコンサルティングを提供開始［PR］](http://www.publickey1.jp/blog/17/chasm_institute_pr.html) 2017/10/19
 * [Kubernetes、Dockerに依存しないKubernetes用の軽量コンテナランタイム「cri-o」正式版1.0リリース](http://www.publickey1.jp/blog/17/kubernetesdockerkubernetescri-o10.html) 2017/10/19
-* [［速報］次バージョンのDocker for Win/Macでは、ローカルにKubernetes環境も自動構築。DockerCon Europe 2017](http://www.publickey1.jp/blog/17/docker_for_winmackubenetesdockercon_europe_2017.html) 2017/10/18
-* [［速報］DockerがKubernetesとの統合およびサポートを発表。DockerCon EU 2017](http://www.publickey1.jp/blog/17/dockerkubernetesdockercon_eu_2017.html) 2017/10/18
-* [GitHubでもっとも人気の言語はJavaScript、フォークされたのはTensorFlow。GitHubが今年の統計情報「The State of the Octoverse 2017」を発表](http://www.publickey1.jp/blog/17/githubjavascripttensorflowgithubthe_state_of_the_octoverse2017.html) 2017/10/17
-* [「Bash on Windows」という名称は非推奨に。正式名称「Windows Subsystem for Linux」（WSL）としてベータを卒業、正式リリースに](http://www.publickey1.jp/blog/17/bash_on_windowswindows_subsystem_for_linuxwsl.html) 2017/10/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

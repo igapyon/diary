@@ -31,7 +31,8 @@
 
 ## いがぴょんの日記：2017年の日記
 
-* [2017-10-21 diary: Diary title here](ig171021.html)
+* [2017-10-24 diary: 家族用に Microsoft Surface Laptop - 256GB (バーガンディ) を購入](ig171024.html)
+* [2017-10-21 diary: ScanSnap SV600 調査中](ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](ig171020.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](ig171019.html)
 * [2017-10-08 diary: 寒暖の差が激しい](ig171008.html)

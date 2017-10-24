@@ -32,7 +32,8 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2017-10-21 diary: Diary title here](2017/ig171021.html)
+* [2017-10-24 diary: 家族用に Microsoft Surface Laptop - 256GB (バーガンディ) を購入](2017/ig171024.html)
+* [2017-10-21 diary: ScanSnap SV600 調査中](2017/ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](2017/ig171019.html)
 * [2017-10-08 diary: 寒暖の差が激しい](2017/ig171008.html)
