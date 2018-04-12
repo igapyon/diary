@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2017](2017/index.html)
+[2018](2018/index.html)
+/ [2017](2017/index.html)
 / [2016](2016/index.html)
 / [2015](2015/index.html)
 / [2014](2014/index.html)
@@ -32,6 +33,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2018-04-13 diary: Diary title here](2018/ig180413.html)
 * [2017-10-24 diary: 家族用に Microsoft Surface Laptop - 256GB (バーガンディ) を購入](2017/ig171024.html)
 * [2017-10-21 diary: ScanSnap SV600 調査中](2017/ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
