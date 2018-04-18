@@ -33,7 +33,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2018-04-18 diary: [Java] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
+* [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
 * [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](2018/ig180412.html)
@@ -577,7 +577,7 @@
 * [2012-08-26 diary: Ubuntu 12.04.1 リリース](2012/ig120826.html)
 * [2012-08-03 diary: Spring 3 書籍の購入(洋書)](2012/ig120803.html)
 * [2012-07-30 diary: Java GC まわり調査の手法メモ](2012/ig120730.html)
-* [2012-07-03 diary: Apache POI の xlsx 作成サンプル](2012/ig120703.html)
+* [2012-07-03 diary: [JakartaPOI]Apache POI の xlsx 作成サンプル](2012/ig120703.html)
 * [2012-06-29 diary: Eclipse Juno (4.2.0, 3.8.0) 日本語化言語パック(サードパーティ版)リリース](2012/ig120629.html)
 * [2012-06-28 diary: Eclipse Juno (4.2.0) リリース](2012/ig120628.html)
 * [2012-06-27 diary: Zimbra というソフトウェアを調査中](2012/ig120627.html)

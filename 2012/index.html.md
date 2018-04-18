@@ -99,7 +99,7 @@
 * [2012-08-26 diary: Ubuntu 12.04.1 リリース](ig120826.html)
 * [2012-08-03 diary: Spring 3 書籍の購入(洋書)](ig120803.html)
 * [2012-07-30 diary: Java GC まわり調査の手法メモ](ig120730.html)
-* [2012-07-03 diary: Apache POI の xlsx 作成サンプル](ig120703.html)
+* [2012-07-03 diary: [JakartaPOI]Apache POI の xlsx 作成サンプル](ig120703.html)
 * [2012-06-29 diary: Eclipse Juno (4.2.0, 3.8.0) 日本語化言語パック(サードパーティ版)リリース](ig120629.html)
 * [2012-06-28 diary: Eclipse Juno (4.2.0) リリース](ig120628.html)
 * [2012-06-27 diary: Zimbra というソフトウェアを調査中](ig120627.html)

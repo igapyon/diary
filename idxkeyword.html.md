@@ -59,6 +59,7 @@
 * [Homebrew](keyword/homebrew.html)
 * [igapyonv3](keyword/igapyonv3.html)
 * [いがぴょんの日記：キーワード](keyword/index.html)
+* [Jakarta POI (Apache POI)](keyword/jakartapoi.html)
 * [Java](keyword/java.html)
 * [JavaFX](keyword/javafx.html)
 * [JavaScript](keyword/javascript.html)

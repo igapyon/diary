@@ -32,7 +32,7 @@
 
 ## いがぴょんの日記：2018年の日記
 
-* [2018-04-18 diary: [Java] 大きな Excel ブックを Apache POI で作成](ig180418.html)
+* [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](ig180413.html)
 * [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](ig180412.html)

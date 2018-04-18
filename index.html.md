@@ -33,7 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2018-04-18 diary: [Java] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
+* [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
 * [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](2018/ig180412.html)
