@@ -65,6 +65,7 @@ Java
 * [2005-08-03 diary: [Java] XMLファイルを効率的に作成する方法 (SAX2ベース)](../2005/ig050803.html)
 * [2005-03-04 diary: [Java] いがぴょんOFF＠宇都宮 企画中 , Javaのシステムにおいてデプロイの専門家が必要](../2005/ig050304.html)
 * [2005-02-22 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルの読み込みサンプル](../2005/ig050222.html)
+* [2005-02-21 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル](../2005/ig050221.html)
 * [2003-12-25 diary: [Java] Javaパフォーマンス調査ふたたび](../2003/ig031225.html)
 * [2003-01-14 diary: [Java] Javaパフォーマンス調査](../2003/ig030114.html)
 * [2002-11-13 diary: [Java] Javaプログラミング (アプリケーション編) ステップアップラーニング](../2002/ig021113.html)

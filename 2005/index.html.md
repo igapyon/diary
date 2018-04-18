@@ -196,7 +196,7 @@
 * [2005-02-26 diary: Eclipse RCP および SWT/JFaceを用いたリッチクライアント環境の調査に着手しました](ig050226.html)
 * [2005-02-25 diary: OpenOffice.org SDKへの道のり , KNOPPIX+Webサーバでクラック耐性運用が可能に](ig050225.html)
 * [2005-02-22 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルの読み込みサンプル](ig050222.html)
-* [2005-02-21 diary: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル](ig050221.html)
+* [2005-02-21 diary: [Java] JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル](ig050221.html)
 * [2005-02-20 diary: KNOPPIXとJooConverterとを組み合わせたLiveCD構築を思いつきました](ig050220.html)
 * [2005-02-19 diary: 「トイプログラム・デザインパターン」というものは存在するのかしら？](ig050219.html)
 * [2005-02-18 diary: Java: Jakarta POI (HSSF) を用いたExcelファイルの内容を変更するサンプル](ig050218.html)
