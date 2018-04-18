@@ -33,7 +33,10 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2018-04-13 diary: Diary title here](2018/ig180413.html)
+* [2018-04-18 diary: Diary title here](2018/ig180418.html)
+* [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
+* [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
+* [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](2018/ig180412.html)
 * [2017-10-24 diary: 家族用に Microsoft Surface Laptop - 256GB (バーガンディ) を購入](2017/ig171024.html)
 * [2017-10-21 diary: ScanSnap SV600 調査中](2017/ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
@@ -45,9 +48,6 @@
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](2017/ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
 * [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
-* [2017-09-10 diary: 自宅プリンターを brother MFC-J997DN に変更](2017/ig170910.html)
-* [2017-04-16 diary: [Spring] シンプル Web アプリ](2017/ig170416.html)
-* [2017-04-09 diary: [Spring] Gradle 入門](2017/ig170409.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [AWSを基盤に用いたレンタルサーバ「Zenlogicホスティング Powered by AWS」提供開始、ファーストサーバ](http://www.publickey1.jp/blog/18/awszenlogic_powered_by_aws.html) 2018/04/18
+* [オープンソース版Cassandraよりレイテンシ半分、スループット2倍の商用版Cassandra「DataStax Enterprise 6」リリース](http://www.publickey1.jp/blog/18/cassandra2cassandradatastax_enterprise_6.html) 2018/04/18
+* [パスワードに依存しない認証「WebAuthn」をChrome/Firefox/Edgeが実装開始、W3Cが標準化。Webはパスワードに依存しないより安全で便利なものへ](http://www.publickey1.jp/blog/18/webauthnchromefirefoxedgew3cweb.html) 2018/04/17
+* [NGINX Unitが正式リリース。PHP、Go、Pythonなどに対応した軽量アプリケーションサーバ](http://www.publickey1.jp/blog/18/nginx_unitphpgopython.html) 2018/04/16
+* [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html) 2018/04/16
 * [インテルのFPGA、富士通とDell EMCが採用しx86サーバへ搭載。XeonとFPGAの統合へ第一歩](http://www.publickey1.jp/blog/18/fpgadell_emcx86xeonfpga.html) 2018/04/13
-* [Mozillaが「WebAssembly Studio」発表。C/Rust/AssemblyScript対応のオンラインIDE](http://www.publickey1.jp/blog/18/mozillawebassembly_studiocrustassemblyscriptide.html) 2018/04/12
-* [Open Container Initiative（OCI）がDockerイメージの配布プロトコル標準化に着手。事実上の標準であるDocker Registry HTTP API V2をベースに](http://www.publickey1.jp/blog/18/open_container_initiativeocidockerdocker_registry_http_api_v2.html) 2018/04/12
-* [IBMがメインフレームの筐体をデータセンターの19インチラックに合わせてきた。クラウド向けメインフレーム「IBM z14 Model ZR1」発表](http://www.publickey1.jp/blog/18/ibm19ibm_z14_model_zr1.html) 2018/04/12
-* [GoogleとNetflix、カナリアリリース分析ツール「Kayenta」オープンソースで公開。新たにデプロイしたリリースに問題がないかを自動分析](http://www.publickey1.jp/blog/18/googlenetflixkayenta.html) 2018/04/11
-* [Ruby on Rails 5.2正式版発表。Active Storageによるクラウドストレージ対応、Redisでのキャッシュ対応など](http://www.publickey1.jp/blog/18/ruby_on_rails_52active_storageredis.html) 2018/04/11
-* [AWS、クラウドでトレーニングした機械学習モデルをエッジデバイスで実行する「AWS Greengrass ML Inference」発表](http://www.publickey1.jp/blog/18/awsaws_greengrass_ml_inference.html) 2018/04/10
+* [Mozillaが「WebAssembly Studio」発表。C/Rust/AssemblyScript対応のオンラインIDE](http://www.publickey1.jp/blog/18/mozillawebassembly_studiocrustassemblyscriptide.html) 2018/04/16
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

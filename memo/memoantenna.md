@@ -14,13 +14,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [AWSを基盤に用いたレンタルサーバ「Zenlogicホスティング Powered by AWS」提供開始、ファーストサーバ](http://www.publickey1.jp/blog/18/awszenlogic_powered_by_aws.html) 2018/04/18
+* [オープンソース版Cassandraよりレイテンシ半分、スループット2倍の商用版Cassandra「DataStax Enterprise 6」リリース](http://www.publickey1.jp/blog/18/cassandra2cassandradatastax_enterprise_6.html) 2018/04/18
+* [パスワードに依存しない認証「WebAuthn」をChrome/Firefox/Edgeが実装開始、W3Cが標準化。Webはパスワードに依存しないより安全で便利なものへ](http://www.publickey1.jp/blog/18/webauthnchromefirefoxedgew3cweb.html) 2018/04/17
+* [NGINX Unitが正式リリース。PHP、Go、Pythonなどに対応した軽量アプリケーションサーバ](http://www.publickey1.jp/blog/18/nginx_unitphpgopython.html) 2018/04/16
+* [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html) 2018/04/16
 * [インテルのFPGA、富士通とDell EMCが採用しx86サーバへ搭載。XeonとFPGAの統合へ第一歩](http://www.publickey1.jp/blog/18/fpgadell_emcx86xeonfpga.html) 2018/04/13
-* [Mozillaが「WebAssembly Studio」発表。C/Rust/AssemblyScript対応のオンラインIDE](http://www.publickey1.jp/blog/18/mozillawebassembly_studiocrustassemblyscriptide.html) 2018/04/12
-* [Open Container Initiative（OCI）がDockerイメージの配布プロトコル標準化に着手。事実上の標準であるDocker Registry HTTP API V2をベースに](http://www.publickey1.jp/blog/18/open_container_initiativeocidockerdocker_registry_http_api_v2.html) 2018/04/12
-* [IBMがメインフレームの筐体をデータセンターの19インチラックに合わせてきた。クラウド向けメインフレーム「IBM z14 Model ZR1」発表](http://www.publickey1.jp/blog/18/ibm19ibm_z14_model_zr1.html) 2018/04/12
-* [GoogleとNetflix、カナリアリリース分析ツール「Kayenta」オープンソースで公開。新たにデプロイしたリリースに問題がないかを自動分析](http://www.publickey1.jp/blog/18/googlenetflixkayenta.html) 2018/04/11
-* [Ruby on Rails 5.2正式版発表。Active Storageによるクラウドストレージ対応、Redisでのキャッシュ対応など](http://www.publickey1.jp/blog/18/ruby_on_rails_52active_storageredis.html) 2018/04/11
-* [AWS、クラウドでトレーニングした機械学習モデルをエッジデバイスで実行する「AWS Greengrass ML Inference」発表](http://www.publickey1.jp/blog/18/awsaws_greengrass_ml_inference.html) 2018/04/10
+* [Mozillaが「WebAssembly Studio」発表。C/Rust/AssemblyScript対応のオンラインIDE](http://www.publickey1.jp/blog/18/mozillawebassembly_studiocrustassemblyscriptide.html) 2018/04/16
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
