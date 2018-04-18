@@ -6,7 +6,7 @@ Jakarta POI (Apache POI)
 
 ## Jakarta POI (Apache POI)
 
-[JakartaPOI](jakartapoi.html) は、Apache が提供する オフィスドキュメント入出力ライブラリのひとつです。
+[[JakartaPOI]] は、Apache が提供する オフィスドキュメント入出力ライブラリのひとつです。
 
 Apache Jakarta POIを利用すると、Java言語から Microsoft Excel や Wordの文書データに対して入出力を行うことが出来るようになります。Jakarta POI はオープンソースライセンスのもとリリースされています。
 特に Excel入出力において 良く利用されるツールの一つであるようです。
