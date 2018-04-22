@@ -32,6 +32,7 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](ig180422.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](ig180413.html)

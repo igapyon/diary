@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](2018/ig180422.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
@@ -47,7 +48,6 @@
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](2017/ig170930.html)
 * [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](2017/ig170929.html)
 * [2017-09-15 diary: 休暇を取得して のんびり過ごす](2017/ig170915.html)
-* [2017-09-13 diary: [Java] CSV の差集合](2017/ig170913.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](http://www.publickey1.jp/)
 
+* [さらばJavaOne、今年から「Oracle Code One」に。Javaだけでなくさまざまな言語と技術を対象としたデベロッパー向けのイベント](http://www.publickey1.jp/blog/18/javaoneoracle_code_onejava.html) 2018/04/20
+* [オラクル、JavaやJavaScript、Ruby、Pythonなど多言語対応を単一ランタイムで実現する「GraalVM」をオープンソースで公開。Twitterが本番環境で採用](http://www.publickey1.jp/blog/18/javajavascriptrubypythongraalvmtwitter.html) 2018/04/20
+* [Google、Dockerデーモンに依存せずコンテナイメージをビルドできる「kaniko」オープンソースで公開](http://www.publickey1.jp/blog/18/googledockerkaniko.html) 2018/04/19
+* [Kubernetesを統合した「Docker Enterprise Edition 2.0」正式版リリース。コンテナランタイム、オーケストレーション、ネットワーク機能などを含む総合コンテナソリューション](http://www.publickey1.jp/blog/18/kubernetesdocker_enterprise_edition_20.html) 2018/04/19
 * [AWSを基盤に用いたレンタルサーバ「Zenlogicホスティング Powered by AWS」提供開始、ファーストサーバ](http://www.publickey1.jp/blog/18/awszenlogic_powered_by_aws.html) 2018/04/18
 * [オープンソース版Cassandraよりレイテンシ半分、スループット2倍の商用版Cassandra「DataStax Enterprise 6」リリース](http://www.publickey1.jp/blog/18/cassandra2cassandradatastax_enterprise_6.html) 2018/04/18
 * [パスワードに依存しない認証「WebAuthn」をChrome/Firefox/Edgeが実装開始、W3Cが標準化。Webはパスワードに依存しないより安全で便利なものへ](http://www.publickey1.jp/blog/18/webauthnchromefirefoxedgew3cweb.html) 2018/04/17
-* [NGINX Unitが正式リリース。PHP、Go、Pythonなどに対応した軽量アプリケーションサーバ](http://www.publickey1.jp/blog/18/nginx_unitphpgopython.html) 2018/04/16
-* [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html) 2018/04/16
-* [インテルのFPGA、富士通とDell EMCが採用しx86サーバへ搭載。XeonとFPGAの統合へ第一歩](http://www.publickey1.jp/blog/18/fpgadell_emcx86xeonfpga.html) 2018/04/13
-* [Mozillaが「WebAssembly Studio」発表。C/Rust/AssemblyScript対応のオンラインIDE](http://www.publickey1.jp/blog/18/mozillawebassembly_studiocrustassemblyscriptide.html) 2018/04/16
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
