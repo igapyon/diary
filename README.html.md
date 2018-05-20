@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
 * [2018-04-23 diary: 少し花粉症が楽になってくる](2018/ig180423.html)
 * [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](2018/ig180422.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
@@ -47,7 +48,6 @@
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](2017/ig171007.html)
 * [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](2017/ig171004.html)
 * [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](2017/ig170930.html)
-* [2017-09-29 diary: [Java] h2 を使ったインメモリ DB のシンプルサンプル](2017/ig170929.html)
 
 
 私のインターネットへのアンテナです。

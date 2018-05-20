@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180520.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180520.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180418.html" />
     <author>
