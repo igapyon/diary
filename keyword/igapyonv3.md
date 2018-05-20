@@ -155,7 +155,9 @@ Last modified: $Date: 2017-03-04 $
 
 #### RSS系
 
-`<@rssfeed url="http://www.publickey1.jp/atom.xml" maxcount="0" />`
+`<@rssfeed url="https://www.publickey1.jp/atom.xml" maxcount="0" />`
+
+#### [Publickey](https://www.publickey1.jp/)
 
 
 

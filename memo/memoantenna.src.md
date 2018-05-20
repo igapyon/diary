@@ -6,7 +6,7 @@
 よく参照させていただいている他の方の web サイトについて、RSS フィードさせていただいております。
 
 <#-- RSSフィード展開処理 -->
-<@rssfeed url="http://www.publickey1.jp/atom.xml" maxcount="7" />
+<@rssfeed url="https://www.publickey1.jp/atom.xml" maxcount="7" />
 
 <${'@'}rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
 

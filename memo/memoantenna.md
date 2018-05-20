@@ -12,6 +12,15 @@
 よく参照させていただいている他の方の web サイトについて、RSS フィードさせていただいております。
 
 
+#### [Publickey](https://www.publickey1.jp/)
+
+* [インテル、アルテラ買収後初のXeonとFPGAの統合製品「Intel Xeon Scalable Processor 6138P」発表。FPGAで仮想スイッチを高速に実行](https://www.publickey1.jp/blog/18/xeonfpgaintel_xeon_scalable_processor_6138pfpga.html) 2018/05/18
+* [構成ファイルの通りにインフラは立ち上がったのか？ インフラ自動テストツール「Terratest」がオープンソースで公開](https://www.publickey1.jp/blog/18/_terratest.html) 2018/05/17
+* [Google Cloud、最大メモリ4TB/160vCPUの大型マシンタイプ「n1-ultramem」提供を発表](https://www.publickey1.jp/blog/18/google_cloud4tb160vcpun1-ultramem.html) 2018/05/17
+* [Twitter、数万台のHadoopクラスタとコールドストレージをGoogle Cloud Platformへ移行すると発表](https://www.publickey1.jp/blog/18/twitterhadoopgoogle_cloud_platform.html) 2018/05/17
+* [モバイルネイティブアプリ開発ツールのFUSE、製品全体を「Fuse Open」としてオープンソースで公開。UXをマークアップで迅速に開発可能](https://www.publickey1.jp/blog/18/fusefuse_openux.html) 2018/05/16
+* [REST API仕様からAPIクライアントやスタブサーバを自動生成する「OpenAPI Generator」オープンソースで公開。Swagger Codegenからのフォーク](https://www.publickey1.jp/blog/18/rest_apiapiopenapi_generatorswagger_generator.html) 2018/05/15
+* [App Engineが軽量コンテナのgVisorを実行環境として採用、スタンダード環境でNode.jsをサポート開始](https://www.publickey1.jp/blog/18/app_enginenodejsgvisor.html) 2018/05/15
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
