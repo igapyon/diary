@@ -13,6 +13,15 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
+    <title>2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180521.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180521.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180520.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2017/ig171007.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2017/ig171004.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2017/ig171004.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

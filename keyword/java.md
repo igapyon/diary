@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../2018/ig180521.html)
 * [2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法](../2018/ig180520.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](../2018/ig180418.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](../2017/ig171019.html)
