@@ -35,7 +35,7 @@
 
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](2018/ig180521.html)
-* [2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
+* [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
 * [2018-04-23 diary: 少し花粉症が楽になってくる](2018/ig180423.html)
 * [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](2018/ig180422.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
