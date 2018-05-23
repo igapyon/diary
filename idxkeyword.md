@@ -92,6 +92,7 @@
 * [Subversion](keyword/subversion.html)
 * [Thymeleaf](keyword/thymeleaf.html)
 * [Tooling API](keyword/tooling-api.html)
+* [TypeScript](keyword/typescript.html)
 * [Ubuntu](keyword/ubuntu.html)
 * [Visualforce](keyword/visualforce.html)
 * [VMware](keyword/vmware.html)

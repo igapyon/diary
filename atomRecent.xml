@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180523.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180523.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180520.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2017/ig171004.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2017/ig170930.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2017/ig170930.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

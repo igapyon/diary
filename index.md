@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)
 * [2018-05-20 diary: [Java] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
 * [2018-04-23 diary: 少し花粉症が楽になってくる](2018/ig180423.html)
 * [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](2018/ig180422.html)
@@ -47,7 +48,6 @@
 * [2017-10-08 diary: 寒暖の差が激しい](2017/ig171008.html)
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](2017/ig171007.html)
 * [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](2017/ig171004.html)
-* [2017-09-30 diary: [Java] jackson を利用したシンプル JSON 操作サンプル](2017/ig170930.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [インテル、アルテラ買収後初のXeonとFPGAの統合製品「Intel Xeon Scalable Processor 6138P」発表。FPGAで仮想スイッチを高速に実行](https://www.publickey1.jp/blog/18/xeonfpgaintel_xeon_scalable_processor_6138pfpga.html) 2018/05/18
-* [構成ファイルの通りにインフラは立ち上がったのか？ インフラ自動テストツール「Terratest」がオープンソースで公開](https://www.publickey1.jp/blog/18/_terratest.html) 2018/05/17
-* [Google Cloud、最大メモリ4TB/160vCPUの大型マシンタイプ「n1-ultramem」提供を発表](https://www.publickey1.jp/blog/18/google_cloud4tb160vcpun1-ultramem.html) 2018/05/17
-* [Twitter、数万台のHadoopクラスタとコールドストレージをGoogle Cloud Platformへ移行すると発表](https://www.publickey1.jp/blog/18/twitterhadoopgoogle_cloud_platform.html) 2018/05/17
-* [モバイルネイティブアプリ開発ツールのFUSE、製品全体を「Fuse Open」としてオープンソースで公開。UXをマークアップで迅速に開発可能](https://www.publickey1.jp/blog/18/fusefuse_openux.html) 2018/05/16
-* [REST API仕様からAPIクライアントやスタブサーバを自動生成する「OpenAPI Generator」オープンソースで公開。Swagger Codegenからのフォーク](https://www.publickey1.jp/blog/18/rest_apiapiopenapi_generatorswagger_generator.html) 2018/05/15
-* [App Engineが軽量コンテナのgVisorを実行環境として採用、スタンダード環境でNode.jsをサポート開始](https://www.publickey1.jp/blog/18/app_enginenodejsgvisor.html) 2018/05/15
+* [SaaSのAPIエコシステム構築、できるだけ短期間で実現するには？［PR］](https://www.publickey1.jp/blog/18/saasapipr.html) 2018/05/23
+* [Slackアプリケーション開発者の支援ツール「Slack Developer Tools」発表](https://www.publickey1.jp/blog/18/slackslack_developer_tools.html) 2018/05/23
+* [Slack、BotやSlackアプリなどのメッセージ表示をリッチ化する「Block Kit Builder」発表](https://www.publickey1.jp/blog/18/slackbotslackblock_kit_builder.html) 2018/05/23
+* [Slackが新機能「Actions」を発表、Slack上からほかのツールへの書き込みや操作を可能に](https://www.publickey1.jp/blog/18/slackactionsslack.html) 2018/05/23
+* [Google Kubernetes Engine 1.10が正式リリース。ゾーンに分散したストレージのレプリケーション、マルチマスターを3つのゾーンに分散して高可用性を実現](https://www.publickey1.jp/blog/18/google_kubernetes_engine_1103.html) 2018/05/22
+* [AWS、ベアメタルサーバ「i3.metal」を正式サービスとして提供開始](https://www.publickey1.jp/blog/18/awsi3metal.html) 2018/05/21
+* [日本オラクルが今後のJavaのリリースモデルと公式バイナリについてあらためてJava Day Tokyoで説明。オラクルによる公式バイナリの無償提供はOpenJDKベース](https://www.publickey1.jp/blog/18/javajava_day_tokyoopenjdk.html) 2018/05/22
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
