@@ -32,6 +32,8 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](ig180529.html)
+* [2018-05-28 diary: [Apex] Batch を、ちょこっと起動するためのコード](ig180528.html)
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](ig180523.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](ig180521.html)
 * [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](ig180520.html)

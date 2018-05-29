@@ -33,6 +33,8 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)
+* [2018-05-28 diary: [Apex] Batch を、ちょこっと起動するためのコード](2018/ig180528.html)
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](2018/ig180521.html)
 * [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
@@ -46,8 +48,6 @@
 * [2017-10-21 diary: ScanSnap SV600 調査中](2017/ig171021.html)
 * [2017-10-20 diary: 関東はここのところ気候の変動が激しく](2017/ig171020.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](2017/ig171019.html)
-* [2017-10-08 diary: 寒暖の差が激しい](2017/ig171008.html)
-* [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](2017/ig171007.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [1000万IOPSを誇るDell EMCの新ハイエンドストレージ「PowerMax」、高性能の背後にあるNVMeや機械学習などについて責任者に聞いた](https://www.publickey1.jp/blog/18/1000iopsdell_emcpowermaxnvme.html) 2018/05/29
+* [Kubernetes対応コンテナランタイム「containerd 1.1」正式リリース。CRIにネイティブ対応し、Dockerより軽量で高速な動作を実現](https://www.publickey1.jp/blog/18/kubernetescontainerd_11cridocker.html) 2018/05/28
+* [OpenStackをベースにしたハイパーコンバージド基盤ソフト「Red Hat Hyperconverged Infrastructure for Cloud 」発表](https://www.publickey1.jp/blog/18/openstackred_hat_hyperconverged_infrastructure_for_cloud.html) 2018/05/25
+* [仮想マシンをベースにしたセキュアなコンテナ実装「Kata Containers」がバージョン1.0に到達。OpenStack Foundationが開発](https://www.publickey1.jp/blog/18/kata_containers10openstack_foundation.html) 2018/05/24
 * [SaaSのAPIエコシステム構築、できるだけ短期間で実現するには？［PR］](https://www.publickey1.jp/blog/18/saasapipr.html) 2018/05/23
 * [Slackアプリケーション開発者の支援ツール「Slack Developer Tools」発表](https://www.publickey1.jp/blog/18/slackslack_developer_tools.html) 2018/05/23
 * [Slack、BotやSlackアプリなどのメッセージ表示をリッチ化する「Block Kit Builder」発表](https://www.publickey1.jp/blog/18/slackbotslackblock_kit_builder.html) 2018/05/23
-* [Slackが新機能「Actions」を発表、Slack上からほかのツールへの書き込みや操作を可能に](https://www.publickey1.jp/blog/18/slackactionsslack.html) 2018/05/23
-* [Google Kubernetes Engine 1.10が正式リリース。ゾーンに分散したストレージのレプリケーション、マルチマスターを3つのゾーンに分散して高可用性を実現](https://www.publickey1.jp/blog/18/google_kubernetes_engine_1103.html) 2018/05/22
-* [AWS、ベアメタルサーバ「i3.metal」を正式サービスとして提供開始](https://www.publickey1.jp/blog/18/awsi3metal.html) 2018/05/21
-* [日本オラクルが今後のJavaのリリースモデルと公式バイナリについてあらためてJava Day Tokyoで説明。オラクルによる公式バイナリの無償提供はOpenJDKベース](https://www.publickey1.jp/blog/18/javajava_day_tokyoopenjdk.html) 2018/05/22
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

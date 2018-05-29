@@ -24,6 +24,7 @@ Ubuntu
 
 ### 日記
 
+* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](../2018/ig180529.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../2017/ig170217.html)
 * [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../2017/ig170124.html)
