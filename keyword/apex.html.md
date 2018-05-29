@@ -25,7 +25,9 @@ Apex
 
 ### 日記
 
-* [2018-05-28 diary: [Apex] Batch を、ちょこっと起動するためのコード](../2018/ig180528.html)
+* [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](../2018/ig180528.html)
+* [2016-10-05 diary: [Force.com] シンプルな Visualforce + [Apex] サンプル](../2016/ig161005.html)
+* [2016-07-20 diary: [Force.com] シンプル Visualforce + [Apex] サンプル](../2016/ig160720.html)
 
 
 
