@@ -33,6 +33,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
 * [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)
 * [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](2018/ig180528.html)
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)

@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [1000万IOPSを誇るDell EMCの新ハイエンドストレージ「PowerMax」、高性能の背後にあるNVMeや機械学習などについて責任者に聞いた](https://www.publickey1.jp/blog/18/1000iopsdell_emcpowermaxnvme.html) 2018/05/29
-* [Kubernetes対応コンテナランタイム「containerd 1.1」正式リリース。CRIにネイティブ対応し、Dockerより軽量で高速な動作を実現](https://www.publickey1.jp/blog/18/kubernetescontainerd_11cridocker.html) 2018/05/28
-* [OpenStackをベースにしたハイパーコンバージド基盤ソフト「Red Hat Hyperconverged Infrastructure for Cloud 」発表](https://www.publickey1.jp/blog/18/openstackred_hat_hyperconverged_infrastructure_for_cloud.html) 2018/05/25
-* [仮想マシンをベースにしたセキュアなコンテナ実装「Kata Containers」がバージョン1.0に到達。OpenStack Foundationが開発](https://www.publickey1.jp/blog/18/kata_containers10openstack_foundation.html) 2018/05/24
-* [SaaSのAPIエコシステム構築、できるだけ短期間で実現するには？［PR］](https://www.publickey1.jp/blog/18/saasapipr.html) 2018/05/23
-* [Slackアプリケーション開発者の支援ツール「Slack Developer Tools」発表](https://www.publickey1.jp/blog/18/slackslack_developer_tools.html) 2018/05/23
-* [Slack、BotやSlackアプリなどのメッセージ表示をリッチ化する「Block Kit Builder」発表](https://www.publickey1.jp/blog/18/slackbotslackblock_kit_builder.html) 2018/05/23
+* [［速報］GitHub、マイクロソフトによる買収を正式発表](https://www.publickey1.jp/blog/18/github_3.html) 2018/06/04
+* [GitLabへのインポートが普段の10倍に急増、GitHubの買収報道で](https://www.publickey1.jp/blog/18/gitlab10github.html) 2018/06/04
+* [AWSでコンテナやクラスタのマネージドサービスを提供する「AWS Fargate」、東京リージョンでも対応と発表](https://www.publickey1.jp/blog/18/awsaws_fargate.html) 2018/06/04
+* [機械学習ツール群のマネージドサービス「Amazon SageMaker」が東京リージョンで利用可能に。Chainerのサポートも追加](https://www.publickey1.jp/blog/18/amazon_sagemakerchainer.html) 2018/06/04
+* [NFSでマウント可能な「Amazon Elastic File System」（Amazon EFS）、AWS東京リージョンで利用可能に](https://www.publickey1.jp/blog/18/nfsamazon_elastic_file_systemamazon_efsaws.html) 2018/06/04
+* [マイクロソフトがGitHubの買収交渉、複数メディアが報じる](https://www.publickey1.jp/blog/18/github_2.html) 2018/06/04
+* [インテル、DRAMと同じDDR4スロットに挿せる不揮発性メモリ「Intel Optane DC persistent memory」サンプル出荷開始、2019年に本格出荷へ](https://www.publickey1.jp/blog/18/dramddr4intel_optane_dc_persistent_memory2019.html) 2018/06/01
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
