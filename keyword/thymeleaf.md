@@ -20,6 +20,7 @@ Thymeleaf
 
 ### 日記
 
+* [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)
 * [2017-10-19 diary: [Thymeleaf][Java] Dialect 自作では AbstractElementModelProcessor が重要](../2017/ig171019.html)
 * [2017-10-04 diary: [Java][Thymeleaf] attoparser による HTML/XML 読み書きシンプルサンプル](../2017/ig171004.html)
 

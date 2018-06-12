@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [［速報］GitHub、マイクロソフトによる買収を正式発表](https://www.publickey1.jp/blog/18/github_3.html) 2018/06/04
-* [GitLabへのインポートが普段の10倍に急増、GitHubの買収報道で](https://www.publickey1.jp/blog/18/gitlab10github.html) 2018/06/04
-* [AWSでコンテナやクラスタのマネージドサービスを提供する「AWS Fargate」、東京リージョンでも対応と発表](https://www.publickey1.jp/blog/18/awsaws_fargate.html) 2018/06/04
-* [機械学習ツール群のマネージドサービス「Amazon SageMaker」が東京リージョンで利用可能に。Chainerのサポートも追加](https://www.publickey1.jp/blog/18/amazon_sagemakerchainer.html) 2018/06/04
-* [NFSでマウント可能な「Amazon Elastic File System」（Amazon EFS）、AWS東京リージョンで利用可能に](https://www.publickey1.jp/blog/18/nfsamazon_elastic_file_systemamazon_efsaws.html) 2018/06/04
-* [マイクロソフトがGitHubの買収交渉、複数メディアが報じる](https://www.publickey1.jp/blog/18/github_2.html) 2018/06/04
-* [インテル、DRAMと同じDDR4スロットに挿せる不揮発性メモリ「Intel Optane DC persistent memory」サンプル出荷開始、2019年に本格出荷へ](https://www.publickey1.jp/blog/18/dramddr4intel_optane_dc_persistent_memory2019.html) 2018/06/01
+* [「GitHubの独立性を守って、すべての開発者にいままで通り使ってもらう」、GitHubの国内イベントに日本マイクロソフトのCTOが登場。GitHubの独立性維持を約束](https://www.publickey1.jp/blog/18/githubgithubctogithub.html) 2018/06/12
+* [インメモリDBの「SAP HANA」、インテルの不揮発性メモリに正式対応。サーバダウン時もデータを失わず高速起動](https://www.publickey1.jp/blog/18/dbsap_hana.html) 2018/06/12
+* [Google Compute Engine、クラウド上の物理サーバを自社のみで専有できる「sole-tenant nodes」をβ公開](https://www.publickey1.jp/blog/18/google_compute_enginesole-tenant_nodes.html) 2018/06/11
+* [「GitHubの次期CEO、Nat Friedmanだけど質問ある？」 海外の掲示板で実施。Atomはどうなる？  GitHubアカウントはMSアカウントになったりしない？ などに回答](https://www.publickey1.jp/blog/18/githubceonat_friedman_atom_githubms.html) 2018/06/11
+* [マイクロソフト、再生可能エネルギーを用いた海底データセンターの実験開始。電力を自給自足するデータセンターを目指す](https://www.publickey1.jp/blog/18/post_267.html) 2018/06/07
+* [JavaでJavaScriptを実行する「Nashorn」が非推奨に、ECMAScriptの速い進化に追いつけないと。代替案はGraalVM](https://www.publickey1.jp/blog/18/javajavascriptnashornecmascriptgraalvm.html) 2018/06/07
+* [「これが最後のERPのアップグレードになる」、オラクルがオンプレミスERPからクラウドERPへの自動変換サービス「Oracle Soar」リリース](https://www.publickey1.jp/blog/18/erperperporacle_soar.html) 2018/06/07
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
