@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [「GitHubの独立性を守って、すべての開発者にいままで通り使ってもらう」、GitHubの国内イベントに日本マイクロソフトのCTOが登場。GitHubの独立性維持を約束](https://www.publickey1.jp/blog/18/githubgithubctogithub.html) 2018/06/12
-* [インメモリDBの「SAP HANA」、インテルの不揮発性メモリに正式対応。サーバダウン時もデータを失わず高速起動](https://www.publickey1.jp/blog/18/dbsap_hana.html) 2018/06/12
-* [Google Compute Engine、クラウド上の物理サーバを自社のみで専有できる「sole-tenant nodes」をβ公開](https://www.publickey1.jp/blog/18/google_compute_enginesole-tenant_nodes.html) 2018/06/11
-* [「GitHubの次期CEO、Nat Friedmanだけど質問ある？」 海外の掲示板で実施。Atomはどうなる？  GitHubアカウントはMSアカウントになったりしない？ などに回答](https://www.publickey1.jp/blog/18/githubceonat_friedman_atom_githubms.html) 2018/06/11
-* [マイクロソフト、再生可能エネルギーを用いた海底データセンターの実験開始。電力を自給自足するデータセンターを目指す](https://www.publickey1.jp/blog/18/post_267.html) 2018/06/07
-* [JavaでJavaScriptを実行する「Nashorn」が非推奨に、ECMAScriptの速い進化に追いつけないと。代替案はGraalVM](https://www.publickey1.jp/blog/18/javajavascriptnashornecmascriptgraalvm.html) 2018/06/07
-* [「これが最後のERPのアップグレードになる」、オラクルがオンプレミスERPからクラウドERPへの自動変換サービス「Oracle Soar」リリース](https://www.publickey1.jp/blog/18/erperperporacle_soar.html) 2018/06/07
+* [Western Digital、オープンな命令セットの「RISC-V」で、自社製品ほぼすべての組み込み用プロセッサを置き換えていくと表明](https://www.publickey1.jp/blog/18/western_digitalrisc-v.html) 2018/06/22
+* [ 国内でCNCF公認の「認定Kubernetes管理者」「認定Kubernetesアプリケーションデベロッパー」試験が今秋開始、日本語でトレーニングと受験が可能。クリエーションライン](https://www.publickey1.jp/blog/18/_cncfkuberneteskubernetes.html) 2018/06/21
+* [Linuxバイナリを最適化して性能を向上させる「BOLT」、Facebookがオープンソースで公開。言語やコンパイラに依存せず高速化](https://www.publickey1.jp/blog/18/linuxboltfacebook.html) 2018/06/21
+* [機械学習を高速処理するGoogleの「Cloud TPU」サービス、7割引きの利用料で使えるプリエンプティブに対応](https://www.publickey1.jp/blog/18/googlecloud_tpu7.html) 2018/06/20
+* [AWSとAzureのKubernetesマネージドサービスが相次いで正式サービス化。GKEを加え、大手クラウドベンダのKubernetesマネージドサービスがすべて本番利用可能に](https://www.publickey1.jp/blog/18/awsazurekubernetesgkekubernetes.html) 2018/06/19
+* [「WebDriver」がW3Cの勧告に到達。Webブラウザのテスト自動化などを実現](https://www.publickey1.jp/blog/18/webdriverw3cweb.html) 2018/06/19
+* [マイクロソフトの実験的プロダクト「Blazor」、WebAssemblyで.NETランタイムを実装。WebブラウザでC#など.NETアセンブリをそのまま実行可能に](https://www.publickey1.jp/blog/18/blazorwebassemblynetwebcnet.html) 2018/06/18
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

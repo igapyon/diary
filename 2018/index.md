@@ -32,6 +32,7 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](ig180624.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](ig180613.html)
 * [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](ig180604.html)
 * [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](ig180529.html)
