@@ -34,6 +34,7 @@
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
+* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
 * [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
 * [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)
@@ -47,7 +48,6 @@
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
 * [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](2018/ig180412.html)
-* [2017-10-24 diary: 家族用に Microsoft Surface Laptop - 256GB (バーガンディ) を購入](2017/ig171024.html)
 
 
 私のインターネットへのアンテナです。

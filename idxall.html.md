@@ -34,6 +34,7 @@
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
+* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
 * [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
 * [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)

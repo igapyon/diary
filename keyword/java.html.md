@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](../2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../2018/ig180521.html)
 * [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](../2018/ig180520.html)
