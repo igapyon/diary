@@ -32,6 +32,7 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-07-03 diary: Diary title here](ig180703.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](ig180624.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](ig180613.html)

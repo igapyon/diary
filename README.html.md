@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-07-03 diary: Diary title here](2018/ig180703.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
@@ -47,7 +48,6 @@
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
 * [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
-* [2018-04-12 diary: Ubuntu 16.04 に Node.js をインストール](2018/ig180412.html)
 
 
 私のインターネットへのアンテナです。
