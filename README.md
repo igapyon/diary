@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Western Digital、オープンな命令セットの「RISC-V」で、自社製品ほぼすべての組み込み用プロセッサを置き換えていくと表明](https://www.publickey1.jp/blog/18/western_digitalrisc-v.html) 2018/06/22
-* [ 国内でCNCF公認の「認定Kubernetes管理者」「認定Kubernetesアプリケーションデベロッパー」試験が今秋開始、日本語でトレーニングと受験が可能。クリエーションライン](https://www.publickey1.jp/blog/18/_cncfkuberneteskubernetes.html) 2018/06/21
-* [Linuxバイナリを最適化して性能を向上させる「BOLT」、Facebookがオープンソースで公開。言語やコンパイラに依存せず高速化](https://www.publickey1.jp/blog/18/linuxboltfacebook.html) 2018/06/21
-* [機械学習を高速処理するGoogleの「Cloud TPU」サービス、7割引きの利用料で使えるプリエンプティブに対応](https://www.publickey1.jp/blog/18/googlecloud_tpu7.html) 2018/06/20
-* [AWSとAzureのKubernetesマネージドサービスが相次いで正式サービス化。GKEを加え、大手クラウドベンダのKubernetesマネージドサービスがすべて本番利用可能に](https://www.publickey1.jp/blog/18/awsazurekubernetesgkekubernetes.html) 2018/06/19
-* [「WebDriver」がW3Cの勧告に到達。Webブラウザのテスト自動化などを実現](https://www.publickey1.jp/blog/18/webdriverw3cweb.html) 2018/06/19
-* [マイクロソフトの実験的プロダクト「Blazor」、WebAssemblyで.NETランタイムを実装。WebブラウザでC#など.NETアセンブリをそのまま実行可能に](https://www.publickey1.jp/blog/18/blazorwebassemblynetwebcnet.html) 2018/06/18
+* [デルが正式に再上場へ、VMwareのトラッキングストックとの交換で。VMwareは独立を維持](https://www.publickey1.jp/blog/18/vmwarevmware.html) 2018/07/03
+* [Eclipse最新版「Eclipse Photon」リリース。Java 10に加え、RustとC#をサポート](https://www.publickey1.jp/blog/18/eclipseeclipse_photonjava_10rustc.html) 2018/07/02
+* [IaaS＋PaaSクラウドの売り上げ、AWSが世界のどの地域でも1位に。全世界の4位にはAlibabaが登場。Synergy Research](https://www.publickey1.jp/blog/18/iaaspaasaws14ibmalibabasynergy_research.html) 2018/07/02
+* [MongoDBもサーバレスプラットフォーム提供開始、「MongoDB Stitch」正式リリース](https://www.publickey1.jp/blog/18/mongodbmongodb_stitch.html) 2018/07/02
+* [MongoDB Moblie発表。フル機能のMongoDBがiOS/Androidに対応、サーバのMongoDBとのデータ同期も可能に](https://www.publickey1.jp/blog/18/mongodb_mobliemongodbiosandroidmongodb.html) 2018/07/02
+* [Slack、全ユーザーが接続できなくなった大規模障害の原因はバッチ処理にバグがあったためと報告](https://www.publickey1.jp/blog/18/slack_1.html) 2018/07/02
+* [「MongoDB 4.0」正式リリース。マルチドキュメントに対するACIDトランザクションをサポート](https://www.publickey1.jp/blog/18/mongodb_40acid.html) 2018/07/02
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
