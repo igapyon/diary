@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-07-16 diary: [tuneviolin] 松脂システム](2018/ig180716.html)
 * [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](2018/ig180703.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
@@ -47,7 +48,6 @@
 * [2018-04-22 diary: iPhone SE で録音したファイルを YouTube にアップする際の変換スクリプト](2018/ig180422.html)
 * [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](2018/ig180418.html)
 * [2018-04-17 diary: Eclipse AST を利用した シンプルな Java ソースコード解析](2018/ig180417.html)
-* [2018-04-13 diary: シンプル TypeScript サンプル](2018/ig180413.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [デルが正式に再上場へ、VMwareのトラッキングストックとの交換で。VMwareは独立を維持](https://www.publickey1.jp/blog/18/vmwarevmware.html) 2018/07/03
-* [Eclipse最新版「Eclipse Photon」リリース。Java 10に加え、RustとC#をサポート](https://www.publickey1.jp/blog/18/eclipseeclipse_photonjava_10rustc.html) 2018/07/02
-* [IaaS＋PaaSクラウドの売り上げ、AWSが世界のどの地域でも1位に。全世界の4位にはAlibabaが登場。Synergy Research](https://www.publickey1.jp/blog/18/iaaspaasaws14ibmalibabasynergy_research.html) 2018/07/02
-* [MongoDBもサーバレスプラットフォーム提供開始、「MongoDB Stitch」正式リリース](https://www.publickey1.jp/blog/18/mongodbmongodb_stitch.html) 2018/07/02
-* [MongoDB Moblie発表。フル機能のMongoDBがiOS/Androidに対応、サーバのMongoDBとのデータ同期も可能に](https://www.publickey1.jp/blog/18/mongodb_mobliemongodbiosandroidmongodb.html) 2018/07/02
-* [Slack、全ユーザーが接続できなくなった大規模障害の原因はバッチ処理にバグがあったためと報告](https://www.publickey1.jp/blog/18/slack_1.html) 2018/07/02
-* [「MongoDB 4.0」正式リリース。マルチドキュメントに対するACIDトランザクションをサポート](https://www.publickey1.jp/blog/18/mongodb_40acid.html) 2018/07/02
+* [JavaScriptのパッケージマネージャ「npm」の開発元が、JavaScriptの仕様を策定するECMA TC39に参加](https://www.publickey1.jp/blog/18/javascriptnpmjavascriptecma_tc39.html) 2018/07/13
+* [仮想化ストレージのティントリが破産申請。NASDAQ上場からわずか1年](https://www.publickey1.jp/blog/18/nasdaq1.html) 2018/07/12
+* [2018年の国内ソフトウェア市場、前年比4.6％成長の見通し。パッケージソフトとPaaS、SaaS市場の合計。IDC Japan](https://www.publickey1.jp/blog/18/201846paassaasidc_japan.html) 2018/07/12
+* [Visual StudioやVSCodeからアプリケーションをワンクリックでKubernetes環境へ、「Azure Dev Spaces」がパブリックプレビューに](https://www.publickey1.jp/blog/18/visual_studiovscodekubernetesazure_dev_spaces.html) 2018/07/12
+* [Javaアプリケーションを自動的にDockerイメージにビルドしてくれる「Jib」、Googleがオープンソースで公開](https://www.publickey1.jp/blog/18/javadockerjibgoogle.html) 2018/07/11
+* [ ファーストサーバの「Zenlogic」、メンテナンス完了。稼働状態は安定していると報告、引き続き経過観察へ](https://www.publickey1.jp/blog/18/_zenlogic.html) 2018/07/10
+* [Chromeの拡張機能で従業員のMacやPCを集中管理。Googleが軽量のMDMソリューション「Endpoint Verification」発表](https://www.publickey1.jp/blog/18/chromemacpcgooglemdmendpoint_verification.html) 2018/07/10
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
