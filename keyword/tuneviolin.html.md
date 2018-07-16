@@ -17,6 +17,8 @@ tuneviolin
 ### 日記
 
 * [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](../2018/ig180716.html)
+* [2018-07-15 diary: [tuneviolin] ヴァイオリン音色制御](../2018/ig180715.html)
+* [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](../2018/ig180714.html)
 
 
 

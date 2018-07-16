@@ -33,6 +33,8 @@
 ## いがぴょんの日記：2018年の日記
 
 * [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](ig180716.html)
+* [2018-07-15 diary: [tuneviolin] ヴァイオリン音色制御](ig180715.html)
+* [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](ig180714.html)
 * [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](ig180703.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](ig180624.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](ig180623.html)
