@@ -16,7 +16,7 @@ tuneviolin
 
 ### 日記
 
-* [2018-07-16 diary: [tuneviolin] 松脂システム](../2018/ig180716.html)
+* [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](../2018/ig180716.html)
 
 
 
