@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](../2018/ig180731.html)
 * [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](../2018/ig180703.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](../2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)

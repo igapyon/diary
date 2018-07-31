@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [JavaScriptのパッケージマネージャ「npm」の開発元が、JavaScriptの仕様を策定するECMA TC39に参加](https://www.publickey1.jp/blog/18/javascriptnpmjavascriptecma_tc39.html) 2018/07/13
-* [仮想化ストレージのティントリが破産申請。NASDAQ上場からわずか1年](https://www.publickey1.jp/blog/18/nasdaq1.html) 2018/07/12
-* [2018年の国内ソフトウェア市場、前年比4.6％成長の見通し。パッケージソフトとPaaS、SaaS市場の合計。IDC Japan](https://www.publickey1.jp/blog/18/201846paassaasidc_japan.html) 2018/07/12
-* [Visual StudioやVSCodeからアプリケーションをワンクリックでKubernetes環境へ、「Azure Dev Spaces」がパブリックプレビューに](https://www.publickey1.jp/blog/18/visual_studiovscodekubernetesazure_dev_spaces.html) 2018/07/12
-* [Javaアプリケーションを自動的にDockerイメージにビルドしてくれる「Jib」、Googleがオープンソースで公開](https://www.publickey1.jp/blog/18/javadockerjibgoogle.html) 2018/07/11
-* [ ファーストサーバの「Zenlogic」、メンテナンス完了。稼働状態は安定していると報告、引き続き経過観察へ](https://www.publickey1.jp/blog/18/_zenlogic.html) 2018/07/10
-* [Chromeの拡張機能で従業員のMacやPCを集中管理。Googleが軽量のMDMソリューション「Endpoint Verification」発表](https://www.publickey1.jp/blog/18/chromemacpcgooglemdmendpoint_verification.html) 2018/07/10
+* [Docker Community Editionのリリースサイクルが変更。安定版は年2回リリース、毎月のEdgeリリースはより頻繁なNightlyへ移行](https://www.publickey1.jp/blog/18/docker_community_edition2edgenightly.html) 2018/07/31
+* [Google、「Cloud Build」発表。ビルド／テスト／デプロイの実行をマネージドサービスで提供、1日あたり120分まで無料。GitHubと提携も](https://www.publickey1.jp/blog/18/googlecloud_build1120github.html) 2018/07/30
+* [Docker for Win/MacのKubernetes統合が正式版に。Stable Channelでリリース開始](https://www.publickey1.jp/blog/18/docker_for_winmackubernetesstable_channel.html) 2018/07/27
+* [SREを実践するための手引きとなる書籍「Site Reliability Engineering Workbook」をGoogleが無料公開、8月23日まで](https://www.publickey1.jp/blog/18/sresite_reliability_engineering_workbookgoogle823.html) 2018/07/27
+* [［速報］Google、コンテナ実行環境をサーバレスで提供する「Serverless containers」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googleserverless_containersgoogle_cloud_next_18.html) 2018/07/25
+* [［速報］オンプレミスのKubernetesをGoogle Cloudで統合管理、「Google Kubernetes Engine on-Prem」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/kubernetesgoogle_cloudgoogle_kubernetes_engine_on-premgoogle_cloud_next_18.html) 2018/07/25
+* [［速報］Google、新プラットフォーム「Cloud Services Platform」発表。Kubernetes、Istio、Apigeeなど統合しコンテナアプリケーション基盤に最適化。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googlecloud_services_platformkubernetesistioapigeegoogle_cloud_next_18.html) 2018/07/25
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

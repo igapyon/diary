@@ -32,6 +32,7 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](ig180731.html)
 * [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](ig180716.html)
 * [2018-07-15 diary: [tuneviolin] ヴァイオリン音色制御](ig180715.html)
 * [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](ig180714.html)

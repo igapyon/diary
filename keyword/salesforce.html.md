@@ -26,6 +26,7 @@ Salesforce
 
 ### 日記
 
+* [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](../2018/ig180731.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](../2018/ig180624.html)
 * [2016-05-19 diary: [Salesforce] 用語：英語→日本語 対訳](../2016/ig160519.html)
 * [2016-05-18 diary: [Salesforce] Apex Force.com IDE](../2016/ig160518.html)
