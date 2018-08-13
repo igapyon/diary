@@ -24,7 +24,6 @@ FindBugs
 
 ### 日記
 
-* [2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル](../bin/2014/ig140316.html)
 * [2014-03-16 diary: [Java][FindBugs] FindBugs ディテクターのシンプルサンプル](../2014/ig140316.html)
 
 

@@ -24,13 +24,6 @@ C++Builder
 
 ### 日記
 
-* [2016-02-15 diary: [C++Builder] Delphi スタイルのオブジェクトを継承関係チェック](../bin/2016/ig160215.html)
-* [2015-05-19 diary: [Delphi][C++Builder] RAD Studio XE シリーズのリリースノート一覧](../bin/2015/ig150519.html)
-* [2012-12-11 diary: [C++Builder] XE3 FMX マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)](../bin/2012/ig121211.html)
-* [2012-12-07 diary: [C++Builder] XE3 文字列をファイルに書き出し](../bin/2012/ig121207.html)
-* [2012-12-06 diary: [C++Builder] XE3 文字列リスト](../bin/2012/ig121206.html)
-* [2012-12-05 diary: [C++Builder] はじめたての C++Builder XE3 (EXE 配布の際の注意点)](../bin/2012/ig121205.html)
-* [2012-12-04 diary: [C++Builder] はじめての C++Builder XE3](../bin/2012/ig121204.html)
 * [2016-02-15 diary: [C++Builder] Delphi スタイルのオブジェクトを継承関係チェック](../2016/ig160215.html)
 * [2015-05-19 diary: [Delphi][C++Builder] RAD Studio XE シリーズのリリースノート一覧](../2015/ig150519.html)
 * [2012-12-11 diary: [C++Builder] XE3 FMX マウスオーバーでボタンを大きくする (FMX.Ani.TFloatAnimation)](../2012/ig121211.html)

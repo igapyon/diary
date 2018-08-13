@@ -24,7 +24,6 @@ Azure
 
 ### 日記
 
-* [2016-01-15 diary: [Azure] Microsoft Azure メモ (SQL Database)](../bin/2016/ig160115.html)
 * [2016-01-15 diary: [Azure] Microsoft Azure メモ (SQL Database)](../2016/ig160115.html)
 
 

@@ -27,13 +27,6 @@ Last modified: $Date: 2017-02-03 $
 
 ### 日記
 
-* [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](../bin/2017/ig171007.html)
-* [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](../bin/2017/ig170305.html)
-* [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](../bin/2017/ig170204.html)
-* [2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ](../bin/2017/ig170203.html)
-* [2017-02-02 diary: [Maven][OSS] Repository につながる [Sonatype] に自分用リポジトリを作成](../bin/2017/ig170202.html)
-* [2017-02-01 diary: [Sonatype] GnuPG gpg で PGP 鍵を作成メモ](../bin/2017/ig170201.html)
-* [2017-01-31 diary: [Maven] 自作アプリを Maven Repository に [Sonatype] 経由で登録する方法メモ](../bin/2017/ig170131.html)
 * [2017-10-07 diary: [Sonatype][Maven] Java プロジェクトを新規に Maven Repos に投入](../2017/ig171007.html)
 * [2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース](../2017/ig170305.html)
 * [2017-02-04 diary: [Sonatype] [Maven] Repository 作成までの道のり](../2017/ig170204.html)

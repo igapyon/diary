@@ -24,8 +24,6 @@ RSS
 
 ### 日記
 
-* [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](../bin/2012/ig121114.html)
-* [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](../bin/2012/ig121113.html)
 * [2012-11-14 diary: [Java][OSS][RSS]: ManjyuRss という Java 用 RSS 2.0 Parser/Serializer ライブラリを作成して OSS で公開](../2012/ig121114.html)
 * [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](../2012/ig121113.html)
 

@@ -24,7 +24,6 @@ CMS
 
 ### 日記
 
-* [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア, VFSベースのGUIファイラーが欲しい→VfsFileManager, [CMS]](../bin/2005/ig050701.html)
 * [2005-07-01 diary: ローカルファイル更新をRSSで表現というプチアイデア, VFSベースのGUIファイラーが欲しい→VfsFileManager, [CMS]](../2005/ig050701.html)
 
 

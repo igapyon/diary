@@ -24,7 +24,6 @@ Subversion
 
 ### 日記
 
-* [2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定](../bin/2012/ig121028.html)
 * [2012-10-28 diary: [Ubuntu][Subversion][Apache] Ubuntu 12.04 + Apache 2.2 + Subversion 簡単設定](../2012/ig121028.html)
 
 

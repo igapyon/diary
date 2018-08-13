@@ -29,12 +29,6 @@ git
 
 ### 日記
 
-* [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](../bin/2018/ig180604.html)
-* [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](../bin/2017/ig170327.html)
-* [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../bin/2017/ig170220.html)
-* [2017-02-18 diary: [git][shell] 私の git コマンド用の環境設定](../bin/2017/ig170218.html)
-* [2017-02-17 diary: [Ubuntu] に [git] と [Maven] と [Java] をインストール](../bin/2017/ig170217.html)
-* [2016-12-17 diary: [git] 基本コマンドメモ](../bin/2016/ig161217.html)
 * [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](../2018/ig180604.html)
 * [2017-03-27 diary: [git] 特定のバージョンの特定のパスのファイルをチェックアウトする方法](../2017/ig170327.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../2017/ig170220.html)

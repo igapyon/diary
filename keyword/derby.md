@@ -24,8 +24,6 @@ Derby
 
 ### 日記
 
-* [2014-02-28 diary: [Derby][Java] Apache Derby をローカルで動作させる](../bin/2014/ig140228.html)
-* [2014-02-26 diary: [GlassFish][Derby] GlassFish 4.0 で Derby を使う](../bin/2014/ig140226.html)
 * [2014-02-28 diary: [Derby][Java] Apache Derby をローカルで動作させる](../2014/ig140228.html)
 * [2014-02-26 diary: [GlassFish][Derby] GlassFish 4.0 で Derby を使う](../2014/ig140226.html)
 

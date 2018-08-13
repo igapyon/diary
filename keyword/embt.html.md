@@ -24,14 +24,6 @@ EMBT
 
 ### 日記
 
-* [2015-04-28 diary: [EMBT] EDN サーバー実装技術 EMS と DataSnap の違い](../bin/2015/ig150428.html)
-* [2015-04-27 diary: [EMBT] EDN Webブラウザ機能を埋め込んだAndroid/iOS/OS X/Windows対応マルチデバイス対応ネイティブアプリをRAD Studioで作る](../bin/2015/ig150427.html)
-* [2015-04-25 diary: [EMBT] EDN MapView を使って、地図埋め込みアプリを体験](../bin/2015/ig150425.html)
-* [2015-04-21 diary: [EMBT] EDN Android アプリ開発を行う場合の、RAD Studio XE8インストール後に必要な Android SDK の設定作業](../bin/2015/ig150421.html)
-* [2015-04-17 diary: [EMBT] EDN マルチデバイス対応アプリの UI を FireUI で快適作成](../bin/2015/ig150417.html)
-* [2015-04-14 diary: [EMBT] EDN ビーコン利用アプリを RAD Studio XE8 を使って簡単作成](../bin/2015/ig150414.html)
-* [2015-04-13 diary: [EMBT] EDN RAD Studio XE7 で NFC を利用したアプリの開発方法](../bin/2015/ig150413.html)
-* [2015-04-12 diary: [EMBT] EMS (Enterprise Mobility Services)](../bin/2015/ig150412.html)
 * [2015-04-28 diary: [EMBT] EDN サーバー実装技術 EMS と DataSnap の違い](../2015/ig150428.html)
 * [2015-04-27 diary: [EMBT] EDN Webブラウザ機能を埋め込んだAndroid/iOS/OS X/Windows対応マルチデバイス対応ネイティブアプリをRAD Studioで作る](../2015/ig150427.html)
 * [2015-04-25 diary: [EMBT] EDN MapView を使って、地図埋め込みアプリを体験](../2015/ig150425.html)

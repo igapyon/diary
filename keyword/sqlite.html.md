@@ -24,7 +24,6 @@ SQLite
 
 ### 日記
 
-* [2012-10-15 diary: [SQLite] SQLite が高速らしい](../bin/2012/ig121015.html)
 * [2012-10-15 diary: [SQLite] SQLite が高速らしい](../2012/ig121015.html)
 
 

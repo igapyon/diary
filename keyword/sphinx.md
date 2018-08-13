@@ -24,7 +24,6 @@ Sphinx
 
 ### 日記
 
-* [2014-02-23 diary: [Python][Sphinx] Sphinx のインストール](../bin/2014/ig140223.html)
 * [2014-02-23 diary: [Python][Sphinx] Sphinx のインストール](../2014/ig140223.html)
 
 

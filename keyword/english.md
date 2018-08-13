@@ -18,13 +18,6 @@ English
 
 ### 日記
 
-* [2017-03-24 diary: [english] heads-up / 注意喚起](../bin/2017/ig170324.html)
-* [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](../bin/2017/ig170208.html)
-* [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](../bin/2017/ig170207.html)
-* [2017-01-23 diary: [English] 超基本ビジネス英単語](../bin/2017/ig170123.html)
-* [2016-12-05 diary: [English] 超基本英語メモ「おねがい」](../bin/2016/ig161205.html)
-* [2016-12-04 diary: [English] 超基本英語メモ「はい・いいえ」](../bin/2016/ig161204.html)
-* [2016-02-17 diary: [English] make sense](../bin/2016/ig160217.html)
 * [2017-03-24 diary: [english] heads-up / 注意喚起](../2017/ig170324.html)
 * [2017-02-08 diary: [English] 機械翻訳向け日本語作文スキルに関する先行研究](../2017/ig170208.html)
 * [2017-02-07 diary: [English] 機械翻訳指向の日本語作文技術](../2017/ig170207.html)

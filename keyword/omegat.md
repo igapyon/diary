@@ -24,7 +24,6 @@ OmegaT
 
 ### 日記
 
-* [2016-09-10 diary: [OmegaT] 機械支援翻訳 Microsoft 提供の充実の用語集](../bin/2016/ig160910.html)
 * [2016-09-10 diary: [OmegaT] 機械支援翻訳 Microsoft 提供の充実の用語集](../2016/ig160910.html)
 
 

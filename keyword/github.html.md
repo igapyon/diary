@@ -25,11 +25,6 @@ github
 
 ### 日記
 
-* [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](../bin/2017/ig170214.html)
-* [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](../bin/2017/ig170210.html)
-* [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの手順(古典的手順)](../bin/2017/ig170209.html)
-* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../bin/2017/ig170104.html)
-* [2016-12-15 diary: [github][blancofw] blancofw の maven リポジトリ](../bin/2016/ig161215.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](../2017/ig170214.html)
 * [2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]](../2017/ig170210.html)
 * [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの手順(古典的手順)](../2017/ig170209.html)

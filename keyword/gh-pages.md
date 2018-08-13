@@ -24,11 +24,6 @@ gh-pages
 
 ### 日記
 
-* [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](../bin/2017/ig170214.html)
-* [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](../bin/2017/ig170213.html)
-* [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](../bin/2017/ig170212.html)
-* [2017-02-09 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの手順(古典的手順)](../bin/2017/ig170209.html)
-* [2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]](../bin/2017/ig170109.html)
 * [2017-02-14 diary: [github] で [gh-pages] を使って静的 web サイトを公開するときの基本手順(最新版)](../2017/ig170214.html)
 * [2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】](../2017/ig170213.html)
 * [2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started](../2017/ig170212.html)

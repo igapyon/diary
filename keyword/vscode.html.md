@@ -22,9 +22,6 @@ Last modified: $Date: 2017-03-10 $
 
 ### 日記
 
-* [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](../bin/2017/ig170311.html)
-* [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](../bin/2017/ig170310.html)
-* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../bin/2017/ig170309.html)
 * [2017-03-11 diary: Visual Studio Code [vscode] 用の Force.com 向けエクステンション](../2017/ig170311.html)
 * [2017-03-10 diary: Visual Studio Code [vscode] 用の Apache Conf エクステンション](../2017/ig170310.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)

@@ -26,7 +26,6 @@ ROME
 
 ### 日記
 
-* [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](../bin/2012/ig121113.html)
 * [2012-11-13 diary: [Java][RSS][ROME] Java 向け RSS ライブラリ: ROME](../2012/ig121113.html)
 
 
