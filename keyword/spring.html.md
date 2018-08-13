@@ -24,6 +24,12 @@ Spring
 
 ### 日記
 
+* [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../bin/2018/ig180613.html)
+* [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../bin/2018/ig180521.html)
+* [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](../bin/2018/ig180520.html)
+* [2017-04-16 diary: [Spring] シンプル Web アプリ](../bin/2017/ig170416.html)
+* [2017-04-09 diary: [Spring] Gradle 入門](../bin/2017/ig170409.html)
+* [2017-04-03 diary: [Spring] Spring Framework 再入門](../bin/2017/ig170403.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../2018/ig180521.html)
 * [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](../2018/ig180520.html)

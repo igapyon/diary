@@ -27,6 +27,9 @@ Last modified: $Date: 2017-02-23 $
 
 ### 日記
 
+* [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../bin/2017/ig170222.html)
+* [2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)](../bin/2016/ig161213.html)
+* [2016-12-10 diary: [Java][Jersey] Java でシンプル RESTful サンプル](../bin/2016/ig161210.html)
 * [2017-02-22 diary: [Java][Jersey][Maven] シンプル REST/JSON サンプルサーバー](../2017/ig170222.html)
 * [2016-12-13 diary: [Java][Jersey] Java で  JSON 戻しサンプル (GET)](../2016/ig161213.html)
 * [2016-12-10 diary: [Java][Jersey] Java でシンプル RESTful サンプル](../2016/ig161210.html)

@@ -24,6 +24,9 @@ Windows
 
 ### 日記
 
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../bin/2017/ig170309.html)
+* [2014-07-05 diary: [Windows] Windows 8.1 with Bing](../bin/2014/ig140705.html)
+* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](../bin/2000/ig000120.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2014-07-05 diary: [Windows] Windows 8.1 with Bing](../2014/ig140705.html)
 * [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](../2000/ig000120.html)

@@ -22,6 +22,8 @@ Last modified: $Date: 2017-02-23 $
 
 ### 日記
 
+* [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../bin/2017/ig170221.html)
+* [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../bin/2017/ig170220.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../2017/ig170220.html)
 

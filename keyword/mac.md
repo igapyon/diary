@@ -25,6 +25,14 @@ Mac
 
 ### 日記
 
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../bin/2017/ig170309.html)
+* [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../bin/2017/ig170221.html)
+* [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../bin/2017/ig170220.html)
+* [2017-02-19 diary: [Mac][shell] .bashrc を有効にする](../bin/2017/ig170219.html)
+* [2017-01-24 diary: [Mac] に VirtualBox をインストール、そして [Ubuntu] [Java] [Eclipse] 導入](../bin/2017/ig170124.html)
+* [2017-01-19 diary: [Mac] MacBook Air の macOS 再インストール手順メモ](../bin/2017/ig170119.html)
+* [2014-09-01 diary: [Mac] Parallels Windows 8.1 のフォントが小さすぎるときの対応](../bin/2014/ig140901.html)
+* [2014-06-11 diary: [Mac] スクリーンショット取得は command + shift + 3](../bin/2014/ig140611.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2017-02-21 diary: [Mac][Homebrew] パッケージ管理システム Homebrew をインストール](../2017/ig170221.html)
 * [2017-02-20 diary: [Mac][Homebrew][git] git をインストールする](../2017/ig170220.html)

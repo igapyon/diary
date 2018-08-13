@@ -24,6 +24,7 @@ Servlet
 
 ### 日記
 
+* [2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)](../bin/2014/ig140227.html)
 * [2014-02-27 diary: [Java][Servlet][GlassFish] シンプル・サーブレット (Servlet 3.0)](../2014/ig140227.html)
 
 

@@ -24,6 +24,7 @@ OAuth
 
 ### 日記
 
+* [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](../bin/2012/ig121107.html)
 * [2012-11-07 diary: [Java][OAuth]Java の OAuth ライブラリ事情](../2012/ig121107.html)
 
 

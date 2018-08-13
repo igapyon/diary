@@ -24,6 +24,13 @@ Linux
 
 ### 日記
 
+* [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../bin/2017/ig170309.html)
+* [2016-12-16 diary: [Linux] いつも忘れる diff 引数。「diff -urN」](../bin/2016/ig161216.html)
+* [2016-04-17 diary: [Linux] crontab で毎日03:00にシャットダウンするメモ](../bin/2016/ig160417.html)
+* [2015-01-23 diary: [Linux] 複数の wav ファイルを 1 つの mp4 ファイルにまとめる](../bin/2015/ig150123.html)
+* [2014-08-17 diary: [Ubuntu][Linux] updatedb.m+ の実行頻度を下げる](../bin/2014/ig140817.html)
+* [2012-10-08 diary: [Linux] 改ざん検知ソフト Tripwire](../bin/2012/ig121008.html)
+* [2000-01-20 diary: Notesからの [Windows] レジストリアクセス , Samba最低設定体験 , XZ for [Linux] 体験](../bin/2000/ig000120.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2016-12-16 diary: [Linux] いつも忘れる diff 引数。「diff -urN」](../2016/ig161216.html)
 * [2016-04-17 diary: [Linux] crontab で毎日03:00にシャットダウンするメモ](../2016/ig160417.html)

@@ -33,21 +33,21 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](2018/ig180731.html)
-* [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](2018/ig180716.html)
-* [2018-07-15 diary: [tuneviolin] ヴァイオリン音色制御](2018/ig180715.html)
-* [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](2018/ig180714.html)
-* [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](2018/ig180703.html)
-* [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
-* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
-* [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
-* [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
-* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)
-* [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](2018/ig180528.html)
-* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)
-* [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](2018/ig180521.html)
-* [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](2018/ig180520.html)
-* [2018-04-23 diary: 少し花粉症が楽になってくる](2018/ig180423.html)
+* [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](bin/2018/ig180814.html)
+* [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](bin/2018/ig180813.html)
+* [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](bin/2018/ig180731.html)
+* [2018-07-16 diary: [tuneviolin] ヴァイオリン松脂システム](bin/2018/ig180716.html)
+* [2018-07-15 diary: [tuneviolin] ヴァイオリン音色制御](bin/2018/ig180715.html)
+* [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](bin/2018/ig180714.html)
+* [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](bin/2018/ig180703.html)
+* [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](bin/2018/ig180624.html)
+* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](bin/2018/ig180623.html)
+* [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](bin/2018/ig180613.html)
+* [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](bin/2018/ig180604.html)
+* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](bin/2018/ig180529.html)
+* [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](bin/2018/ig180528.html)
+* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](bin/2018/ig180523.html)
+* [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](bin/2018/ig180521.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Docker Community Editionのリリースサイクルが変更。安定版は年2回リリース、毎月のEdgeリリースはより頻繁なNightlyへ移行](https://www.publickey1.jp/blog/18/docker_community_edition2edgenightly.html) 2018/07/31
-* [Google、「Cloud Build」発表。ビルド／テスト／デプロイの実行をマネージドサービスで提供、1日あたり120分まで無料。GitHubと提携も](https://www.publickey1.jp/blog/18/googlecloud_build1120github.html) 2018/07/30
-* [Docker for Win/MacのKubernetes統合が正式版に。Stable Channelでリリース開始](https://www.publickey1.jp/blog/18/docker_for_winmackubernetesstable_channel.html) 2018/07/27
-* [SREを実践するための手引きとなる書籍「Site Reliability Engineering Workbook」をGoogleが無料公開、8月23日まで](https://www.publickey1.jp/blog/18/sresite_reliability_engineering_workbookgoogle823.html) 2018/07/27
-* [［速報］Google、コンテナ実行環境をサーバレスで提供する「Serverless containers」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googleserverless_containersgoogle_cloud_next_18.html) 2018/07/25
-* [［速報］オンプレミスのKubernetesをGoogle Cloudで統合管理、「Google Kubernetes Engine on-Prem」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/kubernetesgoogle_cloudgoogle_kubernetes_engine_on-premgoogle_cloud_next_18.html) 2018/07/25
-* [［速報］Google、新プラットフォーム「Cloud Services Platform」発表。Kubernetes、Istio、Apigeeなど統合しコンテナアプリケーション基盤に最適化。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googlecloud_services_platformkubernetesistioapigeegoogle_cloud_next_18.html) 2018/07/25
+* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/12
+* [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
+* [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
+* [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
+* [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
+* [IoTデバイス用プログラミング言語「Eclipse Mita」登場。C言語へ変換、組み込み開発を容易に](https://www.publickey1.jp/blog/18/ioteclipse_mitac.html) 2018/08/08
+* [マイクロソフト、WebAuthnをEdgeに実装。パスワード不要、生体認証やPINでWebサイトへログイン可能に。2018年秋のWindows 10アップデートで](https://www.publickey1.jp/blog/18/webauthnedgepinweb2018windows_10.html) 2018/08/06
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

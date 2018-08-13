@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Docker Community Editionのリリースサイクルが変更。安定版は年2回リリース、毎月のEdgeリリースはより頻繁なNightlyへ移行](https://www.publickey1.jp/blog/18/docker_community_edition2edgenightly.html) 2018/07/31
-* [Google、「Cloud Build」発表。ビルド／テスト／デプロイの実行をマネージドサービスで提供、1日あたり120分まで無料。GitHubと提携も](https://www.publickey1.jp/blog/18/googlecloud_build1120github.html) 2018/07/30
-* [Docker for Win/MacのKubernetes統合が正式版に。Stable Channelでリリース開始](https://www.publickey1.jp/blog/18/docker_for_winmackubernetesstable_channel.html) 2018/07/27
-* [SREを実践するための手引きとなる書籍「Site Reliability Engineering Workbook」をGoogleが無料公開、8月23日まで](https://www.publickey1.jp/blog/18/sresite_reliability_engineering_workbookgoogle823.html) 2018/07/27
-* [［速報］Google、コンテナ実行環境をサーバレスで提供する「Serverless containers」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googleserverless_containersgoogle_cloud_next_18.html) 2018/07/25
-* [［速報］オンプレミスのKubernetesをGoogle Cloudで統合管理、「Google Kubernetes Engine on-Prem」発表。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/kubernetesgoogle_cloudgoogle_kubernetes_engine_on-premgoogle_cloud_next_18.html) 2018/07/25
-* [［速報］Google、新プラットフォーム「Cloud Services Platform」発表。Kubernetes、Istio、Apigeeなど統合しコンテナアプリケーション基盤に最適化。Google Cloud Next &apos;18](https://www.publickey1.jp/blog/18/googlecloud_services_platformkubernetesistioapigeegoogle_cloud_next_18.html) 2018/07/25
+* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/12
+* [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
+* [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
+* [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
+* [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
+* [IoTデバイス用プログラミング言語「Eclipse Mita」登場。C言語へ変換、組み込み開発を容易に](https://www.publickey1.jp/blog/18/ioteclipse_mitac.html) 2018/08/08
+* [マイクロソフト、WebAuthnをEdgeに実装。パスワード不要、生体認証やPINでWebサイトへログイン可能に。2018年秋のWindows 10アップデートで](https://www.publickey1.jp/blog/18/webauthnedgepinweb2018windows_10.html) 2018/08/06
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

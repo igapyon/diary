@@ -20,6 +20,7 @@ TypeScript
 
 ### 日記
 
+* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](../bin/2018/ig180523.html)
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](../2018/ig180523.html)
 
 

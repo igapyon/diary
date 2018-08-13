@@ -24,6 +24,7 @@ regex
 
 ### 日記
 
+* [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](../bin/2017/ig170121.html)
 * [2017-01-21 diary: [Ant] 正規表現 [regex] を Ant の中で利用する方法](../2017/ig170121.html)
 
 

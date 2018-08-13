@@ -5,6 +5,195 @@
   <dc:language>ja_JP</dc:language>
   <entry>
     <title>2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170305.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170305.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-03-04 diary: [igapyonv3] URLの自動リンク機能の実装方式をディレクティブ式に変更</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170304.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170304.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-03-03 diary: [igapyonv3] の特徴</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170303.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170303.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-03-02 diary: [igapyonv3] の依存ライブラリ</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170302.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170302.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-13 diary:  [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started【展開版】</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170213.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170213.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-12 diary: [igapyonv3] で [gh-pages] に日記を作成するときの Getting Started</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170212.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170212.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-10 diary: [github] に日記を書いて github 学習のアイデア [igapyonv3]</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170210.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170210.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-06 diary: [igapyonv3] ファイルの拡張子の考え方を調整実験中</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170206.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170206.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-05 diary: [igapyonv3] ファイル拡張子の調整を検討中</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170205.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170205.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-02-03 diary: [Maven] [Sonatype] 上の [igapyonv3] リポジトリ所在地メモ</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170203.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170203.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-25 diary: [igapyonv3] 日記システム UI 考</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170125.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170125.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-22 diary: [igapyonv3] システムの「Twitter でシェア」がらみを改良</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170122.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170122.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-15 diary: [igapyonv3] の歴史</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170115.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170115.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170114.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170114.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-13 diary: [igapyonv3] のソフトウェア構造</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170113.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170113.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-11 diary: [igapyonv3] PegDown が EOL とのことらしい</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170111.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170111.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-09 diary: 2017年正月休み成果 [igapyonv3], [gh-pages], [Maven], [FreeMarker]</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170109.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170109.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-08 diary: 日記ジェネレータ [igapyonv3] のキーワードシステム構築中</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170108.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170108.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-01-03 diary: 「いがぴょんの日記v3」システム [igapyonv3] に機能追加中</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2017/ig170103.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2017/ig170103.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2016-12-30 diary: 「いがぴょんの日記ウェブページv3」日記システム [igapyonv3] の試作中</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2016/ig161230.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2016/ig161230.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2015-07-24 diary: [igapyonv3] IgapyonMd2Html: [Markdown] `*.md` から [Bootstrap] 装飾付きHtml `*.html` への変換ツール</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/bin/2015/ig150724.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/bin/2015/ig150724.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2017-03-05 diary: [igapyonv3] 最新版 1.5.0 を [Sonatype] 経由で [Maven] Central Repository にリリース</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2017/ig170305.html" />
     <author>
       <name>Toshiki Iga</name>

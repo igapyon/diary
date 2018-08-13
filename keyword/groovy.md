@@ -25,6 +25,7 @@ Groovy
 
 ### 日記
 
+* [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](../bin/2016/ig161219.html)
 * [2016-12-19 diary:  [Groovy] シンプル Groovy サンプル](../2016/ig161219.html)
 
 

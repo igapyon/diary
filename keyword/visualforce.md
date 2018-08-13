@@ -24,6 +24,7 @@ Visualforce
 
 ### 日記
 
+* [2016-05-25 diary: [Visualforce] 参照先リンクメモ](../bin/2016/ig160525.html)
 * [2016-05-25 diary: [Visualforce] 参照先リンクメモ](../2016/ig160525.html)
 
 

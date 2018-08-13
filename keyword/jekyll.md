@@ -25,6 +25,7 @@ jekyll
 
 ### 日記
 
+* [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../bin/2017/ig170104.html)
 * [2017-01-04 diary: [github] gh-pages のビルドエラーを体験 → [jekyll] 問題](../2017/ig170104.html)
 
 

@@ -24,6 +24,13 @@ Selenium
 
 ### 日記
 
+* [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](../bin/2018/ig180813.html)
+* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](../bin/2018/ig180523.html)
+* [2016-11-16 diary: [Selenium] 初めての Selenium Web Driver with Java (v2)](../bin/2016/ig161116.html)
+* [2016-11-10 diary: [Selenium] Selenium Java 小ネタ](../bin/2016/ig161110.html)
+* [2016-11-09 diary: [Selenium][Java] 初めての Selenium Web Driver with Java](../bin/2016/ig161109.html)
+* [2016-11-08 diary: [Selenium] Selenium 3 メモ](../bin/2016/ig161108.html)
+* [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](../2018/ig180813.html)
 * [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](../2018/ig180523.html)
 * [2016-11-16 diary: [Selenium] 初めての Selenium Web Driver with Java (v2)](../2016/ig161116.html)
 * [2016-11-10 diary: [Selenium] Selenium Java 小ネタ](../2016/ig161110.html)
