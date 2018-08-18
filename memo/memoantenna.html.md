@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/12
+* [GitLab.com、200TB超のデータとともにAzureからGCPへ移行完了。三度の計画停止による予行演習を繰り返し、移行手順も公開](https://www.publickey1.jp/blog/18/gitlabcom200tbazuregcp.html) 2018/08/17
+* [無料で読めるITまんが 2018年版](https://www.publickey1.jp/blog/18/it_2018_1.html) 2018/08/16
+* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/17
 * [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
 * [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
 * [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
 * [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
-* [IoTデバイス用プログラミング言語「Eclipse Mita」登場。C言語へ変換、組み込み開発を容易に](https://www.publickey1.jp/blog/18/ioteclipse_mitac.html) 2018/08/08
-* [マイクロソフト、WebAuthnをEdgeに実装。パスワード不要、生体認証やPINでWebサイトへログイン可能に。2018年秋のWindows 10アップデートで](https://www.publickey1.jp/blog/18/webauthnedgepinweb2018windows_10.html) 2018/08/06
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

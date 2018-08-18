@@ -33,6 +33,9 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-08-18 diary: Diary title here](2018/ig180818.html)
+* [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
+* [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](2018/ig180814.html)
 * [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](2018/ig180813.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](2018/ig180812.html)
@@ -45,9 +48,6 @@
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
 * [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
-* [2018-05-29 diary: [Ubuntu] 18.04 に [Heroku] コマンドをインストールする方法](2018/ig180529.html)
-* [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](2018/ig180528.html)
-* [2018-05-23 diary: [TypeScript][Selenium] TypeScript で Selenium WebDriver を操作するシンプルサンプル](2018/ig180523.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/12
+* [GitLab.com、200TB超のデータとともにAzureからGCPへ移行完了。三度の計画停止による予行演習を繰り返し、移行手順も公開](https://www.publickey1.jp/blog/18/gitlabcom200tbazuregcp.html) 2018/08/17
+* [無料で読めるITまんが 2018年版](https://www.publickey1.jp/blog/18/it_2018_1.html) 2018/08/16
+* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/17
 * [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
 * [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
 * [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
 * [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
-* [IoTデバイス用プログラミング言語「Eclipse Mita」登場。C言語へ変換、組み込み開発を容易に](https://www.publickey1.jp/blog/18/ioteclipse_mitac.html) 2018/08/08
-* [マイクロソフト、WebAuthnをEdgeに実装。パスワード不要、生体認証やPINでWebサイトへログイン可能に。2018年秋のWindows 10アップデートで](https://www.publickey1.jp/blog/18/webauthnedgepinweb2018windows_10.html) 2018/08/06
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

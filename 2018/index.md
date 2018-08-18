@@ -32,6 +32,9 @@
 
 ## いがぴょんの日記：2018年の日記
 
+* [2018-08-18 diary: Diary title here](ig180818.html)
+* [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](ig180816.html)
+* [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](ig180815.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](ig180814.html)
 * [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](ig180813.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](ig180812.html)

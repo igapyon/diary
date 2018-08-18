@@ -26,6 +26,8 @@ Salesforce
 
 ### 日記
 
+* [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](../2018/ig180816.html)
+* [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](../2018/ig180815.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](../2018/ig180812.html)
 * [2018-07-31 diary: [Salesforce][Java] SFDC Tooling API の WSDL を最も容易に jar ファイル化する方法](../2018/ig180731.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](../2018/ig180624.html)
