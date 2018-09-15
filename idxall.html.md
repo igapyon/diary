@@ -33,7 +33,10 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2018-08-18 diary: 少し過ごしやすい気候になってきた](2018/ig180818.html)
+* [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
+* [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](2018/ig180909.html)
+* [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
+* [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](2018/ig180818.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
 * [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](2018/ig180814.html)

@@ -4,7 +4,34 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
-    <title>2018-08-18 diary: 少し過ごしやすい気候になってきた</title>
+    <title>2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180915.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180915.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180909.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180909.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180908.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180908.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180818.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -109,33 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2018/ig180624.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180623.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180623.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180613.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180613.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180604.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2018/ig180604.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

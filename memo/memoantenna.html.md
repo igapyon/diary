@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [GitLab.com、200TB超のデータとともにAzureからGCPへ移行完了。三度の計画停止による予行演習を繰り返し、移行手順も公開](https://www.publickey1.jp/blog/18/gitlabcom200tbazuregcp.html) 2018/08/17
-* [無料で読めるITまんが 2018年版](https://www.publickey1.jp/blog/18/it_2018_1.html) 2018/08/16
-* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/17
-* [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
-* [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
-* [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
-* [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
+* [IT業界で平均年収の高い職種はソフトウェアエンジニアリングマネージャ、データウェアハウスアーキテクト、ソフトウェア開発マネージャなど。米Glassdoor](https://www.publickey1.jp/blog/18/itglassdoor.html) 2018/09/13
+* [マイクロソフト、Azure DevOps発表、コードリポジトリや自動ビルドツール、カンバンツールなどDevOps支援の包括的クラウドサービス。5ユーザーまで無料](https://www.publickey1.jp/blog/18/azure_devopsdevops5.html) 2018/09/13
+* [マイクロソフト、CI/CDツール「Azure Pipelines」発表。オープンソースプロジェクトにはビルドやデプロイを無料提供。一般ユーザーも1カ月30時間分無料](https://www.publickey1.jp/blog/18/cicdazure_pipeline130.html) 2018/09/13
+* [オンプレミス版Google Kubernetes Engineの基盤となる「Cisco Hybrid Cloud Platform for Google Cloud」が正式リリース](https://www.publickey1.jp/blog/18/google_kubernetes_enginecisco_hybrid_cloud_platform_for_google_cloud.html) 2018/09/12
+* [無償のコードエディタ「Visual Studio Code」、GUIで各種設定が可能に。PowerShellが起動する「ターミナル」メニューも追加](https://www.publickey1.jp/blog/18/visual_code_studioguipowershell.html) 2018/09/11
+* [オンプレミスのVMware環境にAWSのアベイラビリティゾーンを構築、「Amazon RDS for VMware」はAWSがリモートでDBを管理運用。東京リージョンでも提供](https://www.publickey1.jp/blog/18/vmwareawsamazon_rds_for_vmwareawsdb.html) 2018/09/11
+* [石狩データセンターの非常用発電機が停止する瞬間、商用電源に切り替わる作業の動画](https://www.publickey1.jp/blog/18/post_271.html) 2018/09/10
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

@@ -33,7 +33,10 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2018-08-18 diary: 少し過ごしやすい気候になってきた](2018/ig180818.html)
+* [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
+* [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](2018/ig180909.html)
+* [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
+* [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](2018/ig180818.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
 * [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](2018/ig180814.html)
@@ -45,9 +48,6 @@
 * [2018-07-14 diary: [tuneviolin] 弦楽器の調弦(チューニング)のこと](2018/ig180714.html)
 * [2018-07-03 diary: [Java] Amateras StepCounter を Ant で駆動するときのメモ](2018/ig180703.html)
 * [2018-06-24 diary: [Salesforce] CLI をクラシック org で使う](2018/ig180624.html)
-* [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](2018/ig180623.html)
-* [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](2018/ig180613.html)
-* [2018-06-04 diary: [git] fork側リポジトリに、upstream の成果を反映する方法メモ](2018/ig180604.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [GitLab.com、200TB超のデータとともにAzureからGCPへ移行完了。三度の計画停止による予行演習を繰り返し、移行手順も公開](https://www.publickey1.jp/blog/18/gitlabcom200tbazuregcp.html) 2018/08/17
-* [無料で読めるITまんが 2018年版](https://www.publickey1.jp/blog/18/it_2018_1.html) 2018/08/16
-* [仙台に本社を置くグレープシティが、国内200人／海外800人の社員を抱えるグローバル企業になった意外な理由［PR］](https://www.publickey1.jp/blog/18/200800pr.html) 2018/08/17
-* [Googleが「Dart 2」安定版とAngularDart 5をリリース。Webとモバイルのクライアント開発にフォーカス](https://www.publickey1.jp/blog/18/googledart_2angulardart_5web.html) 2018/08/10
-* [ジェラルド・ワインバーグ氏が死去。「ライト、ついてますか」「コンサルタントの道具箱 」などの著者](https://www.publickey1.jp/blog/18/post_269.html) 2018/08/10
-* [オラクル、2019年1月に「Oracle Database 19c」をリリース。自動チューニング機能強化、専門家より優れたチューニングに](https://www.publickey1.jp/blog/18/20191oracle_database_19c.html) 2018/08/09
-* [オラクル、OLTP対応の自律型データベース「Oracle Autonomous Transaction Processing」正式版を提供開始](https://www.publickey1.jp/blog/18/oltporacle_autonomous_transaction_processing.html) 2018/08/08
+* [IT業界で平均年収の高い職種はソフトウェアエンジニアリングマネージャ、データウェアハウスアーキテクト、ソフトウェア開発マネージャなど。米Glassdoor](https://www.publickey1.jp/blog/18/itglassdoor.html) 2018/09/13
+* [マイクロソフト、Azure DevOps発表、コードリポジトリや自動ビルドツール、カンバンツールなどDevOps支援の包括的クラウドサービス。5ユーザーまで無料](https://www.publickey1.jp/blog/18/azure_devopsdevops5.html) 2018/09/13
+* [マイクロソフト、CI/CDツール「Azure Pipelines」発表。オープンソースプロジェクトにはビルドやデプロイを無料提供。一般ユーザーも1カ月30時間分無料](https://www.publickey1.jp/blog/18/cicdazure_pipeline130.html) 2018/09/13
+* [オンプレミス版Google Kubernetes Engineの基盤となる「Cisco Hybrid Cloud Platform for Google Cloud」が正式リリース](https://www.publickey1.jp/blog/18/google_kubernetes_enginecisco_hybrid_cloud_platform_for_google_cloud.html) 2018/09/12
+* [無償のコードエディタ「Visual Studio Code」、GUIで各種設定が可能に。PowerShellが起動する「ターミナル」メニューも追加](https://www.publickey1.jp/blog/18/visual_code_studioguipowershell.html) 2018/09/11
+* [オンプレミスのVMware環境にAWSのアベイラビリティゾーンを構築、「Amazon RDS for VMware」はAWSがリモートでDBを管理運用。東京リージョンでも提供](https://www.publickey1.jp/blog/18/vmwareawsamazon_rds_for_vmwareawsdb.html) 2018/09/11
+* [石狩データセンターの非常用発電機が停止する瞬間、商用電源に切り替わる作業の動画](https://www.publickey1.jp/blog/18/post_271.html) 2018/09/10
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
