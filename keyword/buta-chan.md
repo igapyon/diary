@@ -17,6 +17,7 @@ Buta-chan
 
 ### 日記
 
+* [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](../2018/ig181204.html)
 * [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](../2018/ig181203.html)
 * [2018-12-02 diary: [Buta-chan] ブタちゃん#4 (Violin Shimora #180) メモ](../2018/ig181202.html)
 * [2018-12-01 diary: [Buta-chan] ブタちゃん#3 (Violin J. J. Dvorak #20W) メモ](../2018/ig181201.html)
