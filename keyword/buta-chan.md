@@ -20,9 +20,9 @@ Buta-chan
 * [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](../2018/ig181203.html)
 * [2018-12-02 diary: [Buta-chan] ブタちゃん#4 (Violin Shimora #180) メモ](../2018/ig181202.html)
 * [2018-12-01 diary: [Buta-chan] ブタちゃん#3 (Violin J. J. Dvorak #20W) メモ](../2018/ig181201.html)
-* [2018-11-25 diary: [Buta-chan] ブタちゃん#2 (Violin J. J. Dvorak #1930) メモ](../2018/ig181125.html)
-* [2018-11-24 diary: [Buta-chan] ブタちゃん#1 (Violin Matsuo Pino 15V) メモ](../2018/ig181124.html)
-* [2018-11-18 diary: [Buta-chan] クマちゃん (Violin No Label) メモ](../2018/ig181118.html)
+* [2018-11-25 diary: [Buta-chan] ブタちゃん#2 (Violin J. J. Dvorak #1930) メモ (弐号機)](../2018/ig181125.html)
+* [2018-11-24 diary: [Buta-chan] ブタちゃん#1 (Violin Matsuo Pino 15V) メモ (初号機)](../2018/ig181124.html)
+* [2018-11-18 diary: [Buta-chan] クマちゃん (Violin No Label) メモ (零号機)](../2018/ig181118.html)
 
 
 
