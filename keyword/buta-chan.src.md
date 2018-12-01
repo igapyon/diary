@@ -1,14 +1,7 @@
 ## Buta-chan
 
-[[Buta-chan]] は、、、、です。※未執筆。
-
-### URL
-
-* TBD <@linksearch word="Buta-chan" />
-
-### 特徴
-
-* TBD <@linksearch word="Buta-chan" />
+[[Buta-chan]] (ブタちゃん)は、私が関与したバイオリン・ビオラシリーズです。
+比較的安価でありながら、特殊な調整・魔改造を経て到達したすてきな音色の出るバイオリン・ビオラ群です。
 
 ### 検索
 
