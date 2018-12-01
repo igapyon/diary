@@ -32,10 +32,11 @@
 
 ## いがぴょんの日記：2018年の日記
 
-* [2018-12-02 diary: [Buta-chan] ブタちゃん#4 メモ](ig181202.html)
-* [2018-12-01 diary: [Buta-chan] ブタちゃん#3 メモ](ig181201.html)
-* [2018-11-25 diary: [Buta-chan] ブタちゃん#2 メモ](ig181125.html)
-* [2018-11-24 diary: [Buta-chan] ブタちゃん#1 メモ](ig181124.html)
+* [2018-12-02 diary: [Buta-chan] ブタちゃん#4 (Violin Shimora #180) メモ](ig181202.html)
+* [2018-12-01 diary: [Buta-chan] ブタちゃん#3 (Violin J. J. Dvorak #20W) メモ](ig181201.html)
+* [2018-11-25 diary: [Buta-chan] ブタちゃん#2 (Violin J. J. Dvorak #1930) メモ](ig181125.html)
+* [2018-11-24 diary: [Buta-chan] ブタちゃん#1 (Violin Matsuo Pino 15V) メモ](ig181124.html)
+* [2018-11-18 diary: [Buta-chan] クマちゃん (Violin No Label) メモ](ig181118.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](ig180909.html)
 * [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](ig180908.html)
