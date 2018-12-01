@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [IT業界で平均年収の高い職種はソフトウェアエンジニアリングマネージャ、データウェアハウスアーキテクト、ソフトウェア開発マネージャなど。米Glassdoor](https://www.publickey1.jp/blog/18/itglassdoor.html) 2018/09/13
-* [マイクロソフト、Azure DevOps発表、コードリポジトリや自動ビルドツール、カンバンツールなどDevOps支援の包括的クラウドサービス。5ユーザーまで無料](https://www.publickey1.jp/blog/18/azure_devopsdevops5.html) 2018/09/13
-* [マイクロソフト、CI/CDツール「Azure Pipelines」発表。オープンソースプロジェクトにはビルドやデプロイを無料提供。一般ユーザーも1カ月30時間分無料](https://www.publickey1.jp/blog/18/cicdazure_pipeline130.html) 2018/09/13
-* [オンプレミス版Google Kubernetes Engineの基盤となる「Cisco Hybrid Cloud Platform for Google Cloud」が正式リリース](https://www.publickey1.jp/blog/18/google_kubernetes_enginecisco_hybrid_cloud_platform_for_google_cloud.html) 2018/09/12
-* [無償のコードエディタ「Visual Studio Code」、GUIで各種設定が可能に。PowerShellが起動する「ターミナル」メニューも追加](https://www.publickey1.jp/blog/18/visual_code_studioguipowershell.html) 2018/09/11
-* [オンプレミスのVMware環境にAWSのアベイラビリティゾーンを構築、「Amazon RDS for VMware」はAWSがリモートでDBを管理運用。東京リージョンでも提供](https://www.publickey1.jp/blog/18/vmwareawsamazon_rds_for_vmwareawsdb.html) 2018/09/11
-* [石狩データセンターの非常用発電機が停止する瞬間、商用電源に切り替わる作業の動画](https://www.publickey1.jp/blog/18/post_271.html) 2018/09/10
+* [［速報］AWS LambdaがRubyに対応。さらにカスタムランタイムであらゆるプログラミング言語にも対応へ。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/aws_lambdarubyaws_reinvent_2018.html) 2018/11/30
+* [Amazon Redshiftの動作はつねに計測されており、この半年の改良で3.5倍もの高速化を実現した。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/amazon_redshift35aws_reinvent_2018.html) 2018/11/30
+* [［速報］AWS、独自の機械学習用プロセッサ「AWS Inferentia」発表。高速な推論処理に特化。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/awsaws_inferentiaaws_reinvent_2018.html) 2018/11/30
+* [［速報］フルマネージドなWindowsファイルサーバ「Amazon FSx for Windows File Server」発表。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/windowsamazon_fsx_for_windows_file_serveraws_reinvent_2018.html) 2018/11/30
+* [［速報］AWS、データの長期保存をさらに安価にした「Glacier Deep Archive」発表。1ギガバイトあたり1カ月0.00099ドル。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/awsglacier_deep_archive11000099aws_reinvent_2018.html) 2018/11/30
+* [［速報］オンプレミス用AWS「AWS Outposts」発表！ AWSが設計したサーバラックをオンプレミスへ持ち込み。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/awsaws_outposts_awsaws_reinvent_2018.html) 2018/11/30
+* [オラクルの「第二世代クラウド」はなにが新しい？ 高いレベルの分離を実現したことでセキュアかつ高性能を実現［PR］](https://www.publickey1.jp/blog/18/oracle_gen2cloud_pr.html) 2018/11/28
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

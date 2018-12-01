@@ -39,6 +39,7 @@
 * [Azure](keyword/azure.html)
 * [blancofw](keyword/blancofw.html)
 * [Bootstrap](keyword/bootstrap.html)
+* [Buta-chan](keyword/buta-chan.html)
 * [CMS](keyword/cms.html)
 * [C++](keyword/cpp.html)
 * [C++Builder](keyword/cppbuilder.html)
