@@ -14,6 +14,7 @@
 - <@linkdiary date="2018-12-02" />
 - <@linkdiary date="2018-12-03" />
 - <@linkdiary date="2018-12-04" />
+- <@linkdiary date="2018-12-05" />
 
 ### 検索
 

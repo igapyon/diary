@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-12-05 diary: [Buta-chan] ブタちゃん#7 (Cello ) メモ](2018/ig181205.html)
 * [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](2018/ig181204.html)
 * [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](2018/ig181203.html)
 * [2018-12-02 diary: [Buta-chan] ブタちゃん#4 (Violin Shimora #180) メモ](2018/ig181202.html)
@@ -47,7 +48,6 @@
 * [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](2018/ig180818.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
 * [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
-* [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](2018/ig180814.html)
 
 
 私のインターネットへのアンテナです。
