@@ -40,6 +40,7 @@
 * [2018-11-25 diary: [Buta-chan] ブタちゃん#2 (Violin J. J. Dvorak #1930) メモ (弐号機)](2018/ig181125.html)
 * [2018-11-24 diary: [Buta-chan] ブタちゃん#1 (Violin Matsuo Pino 15V) メモ (初号機)](2018/ig181124.html)
 * [2018-11-18 diary: [Buta-chan] クマちゃん (Violin No Label) メモ (零号機)](2018/ig181118.html)
+* [2018-11-17 diary: [Buta-chan] ブタちゃんシリーズでの調整内容(aka 魔改造) メモ](2018/ig181117.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](2018/ig180909.html)
 * [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
