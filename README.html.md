@@ -33,6 +33,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2018-12-08 diary: 気候が急に冬の気配](2018/ig181208.html)
 * [2018-12-05 diary: [Buta-chan] ブタちゃん#7 (Cello ) メモ](2018/ig181205.html)
 * [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](2018/ig181204.html)
 * [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](2018/ig181203.html)
@@ -47,7 +48,6 @@
 * [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
 * [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](2018/ig180818.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
-* [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +60,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [マイクロソフト、AzureやOffice 365にログインできなくなる多要素認証の障害を二度も発生。アップデートしたコードにバグが潜り込んでサーバがフリーズ](https://www.publickey1.jp/blog/18/azureoffice_365_1.html) 2018/12/03
-* [コーディングをAIが支援するIntelliCodeがJavaに対応／AWSが独自のOpenJDK発表／オンプレミス用AWS「AWS Outposts」ほか、2018年11月の人気記事](https://www.publickey1.jp/blog/18/aiintellicodejavaawsopenjdkawsaws_outposts201811.html) 2018/12/03
-* [［速報］AWS LambdaがRubyに対応。さらにカスタムランタイムであらゆるプログラミング言語にも対応へ。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/aws_lambdarubyaws_reinvent_2018.html) 2018/11/30
-* [Amazon Redshiftの動作はつねに計測されており、この半年の改良で3.5倍もの高速化を実現した。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/amazon_redshift35aws_reinvent_2018.html) 2018/11/30
-* [［速報］AWS、独自の機械学習用プロセッサ「AWS Inferentia」発表。高速な推論処理に特化。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/awsaws_inferentiaaws_reinvent_2018.html) 2018/11/30
-* [［速報］フルマネージドなWindowsファイルサーバ「Amazon FSx for Windows File Server」発表。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/windowsamazon_fsx_for_windows_file_serveraws_reinvent_2018.html) 2018/11/30
-* [［速報］AWS、データの長期保存をさらに安価にした「Glacier Deep Archive」発表。1ギガバイトあたり1カ月0.00099ドル。AWS re:Invent 2018](https://www.publickey1.jp/blog/18/awsglacier_deep_archive11000099aws_reinvent_2018.html) 2018/11/30
+* [Kubernetes 1.13リリース。Container Storage Interface仕様が正式版に、CoreDNSがデフォルトのDNSサーバへ](https://www.publickey1.jp/blog/18/kubernetes_113container_storage_interfacecorednsdns.html) 2018/12/07
+* [Google、FlutterアプリをWebアプリへ変換する「Hummingbird」発表。Web開発言語としてDartが帰ってくる。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/googleflutterwebhummingbirdwebdartflutter_live_18.html) 2018/12/06
+* [FlutterアプリをWindows/Mac/Linuxのデスクトップで実行可能にする「Flutter Desktop Embedding」発表。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/flutterwindowsmaclinuxflutter_desktop_embeddingflutter_live_18.html) 2018/12/06
+* [Flutter対応した2Dのベクターアニメーション作成ツール「Flare」無償公開。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/flutter2dflareflutter_live_18.html) 2018/12/06
+* [Dart用UIツールキット「Flutter」がバージョン1.0に到達。iOS／Androidネイティブアプリを単一コードで開発。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/dartuiflutter10iosandroidflutter_live_18.html) 2018/12/06
+* [［速報］マイクロソフト、クラウドアプリケーションのパッケージ仕様「CNAB」発表。Docker、HashiCorpと協業。Microsoft Connect(); 2018](https://www.publickey1.jp/blog/18/cnabdockerhashicorpmicrosoft_connect_2018.html) 2018/12/05
+* [［速報］.NET Coreがデスクトップアプリケーション対応。Windows Forms／WPF／UI XAML Libraryもオープンソース化。Microsoft Connect(); 2018](https://www.publickey1.jp/blog/18/net_corewindows_formswpfui_xaml_librarymicrosoft_connect_2018.html) 2018/12/05
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
