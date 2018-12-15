@@ -33,6 +33,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2018-12-15 diary: 急に冬めいて](2018/ig181215.html)
 * [2018-12-08 diary: 気候が急に冬の気配](2018/ig181208.html)
 * [2018-12-05 diary: [Buta-chan] ブタちゃん#7 (Cello ) メモ](2018/ig181205.html)
 * [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](2018/ig181204.html)

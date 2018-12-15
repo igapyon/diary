@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Kubernetes 1.13リリース。Container Storage Interface仕様が正式版に、CoreDNSがデフォルトのDNSサーバへ](https://www.publickey1.jp/blog/18/kubernetes_113container_storage_interfacecorednsdns.html) 2018/12/07
-* [Google、FlutterアプリをWebアプリへ変換する「Hummingbird」発表。Web開発言語としてDartが帰ってくる。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/googleflutterwebhummingbirdwebdartflutter_live_18.html) 2018/12/06
-* [FlutterアプリをWindows/Mac/Linuxのデスクトップで実行可能にする「Flutter Desktop Embedding」発表。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/flutterwindowsmaclinuxflutter_desktop_embeddingflutter_live_18.html) 2018/12/06
-* [Flutter対応した2Dのベクターアニメーション作成ツール「Flare」無償公開。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/flutter2dflareflutter_live_18.html) 2018/12/06
-* [Dart用UIツールキット「Flutter」がバージョン1.0に到達。iOS／Androidネイティブアプリを単一コードで開発。Flutter Live &apos;18](https://www.publickey1.jp/blog/18/dartuiflutter10iosandroidflutter_live_18.html) 2018/12/06
-* [［速報］マイクロソフト、クラウドアプリケーションのパッケージ仕様「CNAB」発表。Docker、HashiCorpと協業。Microsoft Connect(); 2018](https://www.publickey1.jp/blog/18/cnabdockerhashicorpmicrosoft_connect_2018.html) 2018/12/05
-* [［速報］.NET Coreがデスクトップアプリケーション対応。Windows Forms／WPF／UI XAML Libraryもオープンソース化。Microsoft Connect(); 2018](https://www.publickey1.jp/blog/18/net_corewindows_formswpfui_xaml_librarymicrosoft_connect_2018.html) 2018/12/05
+* [どのクラウドでも使えるサーバレス「GitLab Serverless」をGitLabが発表。KubernetesとKnativeがベース](https://www.publickey1.jp/blog/18/gitlab_serverlessgitlabkubernetesknative.html) 2018/12/14
+* [Kubernetesを分かりやすく説明してくれるキャラクター「Captain Kube」や「Phippy」ら、Cloud Native Computing Foundation傘下で公開](https://www.publickey1.jp/blog/18/kubernetescaptain_kubephippycloud_native_computing_foundation.html) 2018/12/13
+* [Istioをベースにしたサービスメッシュ「VMware NSX Service Mesh」、VMwareが発表](https://www.publickey1.jp/blog/18/istiovmware_nsx_service_meshvmware.html) 2018/12/13
+* [Google Kubernetes Engineがサービスメッシュ「Istio」を統合、マネージドサービスを提供開始](https://www.publickey1.jp/blog/18/google_kubernetes_engineistio.html) 2018/12/13
+* [分散KVSの「etcd」、Cloud Native Computing Foundationのインキュベーションプロジェクトに](https://www.publickey1.jp/blog/18/kvsetcdcloud_native_computing_foundation.html) 2018/12/12
+* [データセンターの巨人「エクイニクス」が提供する「インターコネクション」という新しい価値［PR］](https://www.publickey1.jp/blog/18/equinix_pr_7.html) 2018/12/13
+* [琉球銀行がAWSを採用。「調べれば調べるほど、AWSのほうがよっぽど信頼性が高いとわかった」［PR］](https://www.publickey1.jp/blog/18/ryugin_aws.html) 2018/12/12
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
