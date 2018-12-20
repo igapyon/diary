@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [どのクラウドでも使えるサーバレス「GitLab Serverless」をGitLabが発表。KubernetesとKnativeがベース](https://www.publickey1.jp/blog/18/gitlab_serverlessgitlabkubernetesknative.html) 2018/12/14
-* [Kubernetesを分かりやすく説明してくれるキャラクター「Captain Kube」や「Phippy」ら、Cloud Native Computing Foundation傘下で公開](https://www.publickey1.jp/blog/18/kubernetescaptain_kubephippycloud_native_computing_foundation.html) 2018/12/13
-* [Istioをベースにしたサービスメッシュ「VMware NSX Service Mesh」、VMwareが発表](https://www.publickey1.jp/blog/18/istiovmware_nsx_service_meshvmware.html) 2018/12/13
-* [Google Kubernetes Engineがサービスメッシュ「Istio」を統合、マネージドサービスを提供開始](https://www.publickey1.jp/blog/18/google_kubernetes_engineistio.html) 2018/12/13
-* [分散KVSの「etcd」、Cloud Native Computing Foundationのインキュベーションプロジェクトに](https://www.publickey1.jp/blog/18/kvsetcdcloud_native_computing_foundation.html) 2018/12/12
-* [データセンターの巨人「エクイニクス」が提供する「インターコネクション」という新しい価値［PR］](https://www.publickey1.jp/blog/18/equinix_pr_7.html) 2018/12/13
-* [琉球銀行がAWSを採用。「調べれば調べるほど、AWSのほうがよっぽど信頼性が高いとわかった」［PR］](https://www.publickey1.jp/blog/18/ryugin_aws.html) 2018/12/12
+* [「MIPS Open」発表。MIPSの命令セットがオープンソースとして公開へ](https://www.publickey1.jp/blog/18/mips_openmips.html) 2018/12/20
+* [マイクロソフト、Windows Sandbox発表。デスクトップアプリを分離した環境で安全に実行可能に](https://www.publickey1.jp/blog/18/windows_sandbox.html) 2018/12/19
+* [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html) 2018/12/19
+* [Kubernetesはオープンな標準と拡張性にフォーカスしている。KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kuberneteskubecon_cloudnativecon_north_america_2018.html) 2018/12/19
+* [Rustが過去最大のバージョンアップ、「Rust 2018 Edition」正式リリース](https://www.publickey1.jp/blog/18/rustrust_2018_edition.html) 2018/12/18
+* [クラウドネイティブとは何のことなのか？ なぜそれがIT組織の変革につながると期待されるのか［PR］](https://www.publickey1.jp/blog/18/ibm_cloudnative_pr.html) 2018/12/18
+* [Kubernetesが注目され続ける5つの理由。 KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kubernetes5_kubecon_cloudnativecon_north_america_2018.html) 2018/12/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
