@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [Publickey年間人気記事ランキング2018。新しいリリースモデルを採用したJava／Windows Vertual Desktop発表／人気が下降しているプログラミング言語は？ など](https://www.publickey1.jp/blog/18/publickey2018javawindows_vertual_desktop.html) 2018/12/26
+* [ブログでメシが食えるか？ Publickeyの2018年［たぶん最終回］](https://www.publickey1.jp/blog/18/_publickey2018.html) 2018/12/28
 * [「MIPS Open」発表。MIPSの命令セットがオープンソースとして公開へ](https://www.publickey1.jp/blog/18/mips_openmips.html) 2018/12/20
 * [マイクロソフト、Windows Sandbox発表。デスクトップアプリを分離した環境で安全に実行可能に](https://www.publickey1.jp/blog/18/windows_sandbox.html) 2018/12/19
 * [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html) 2018/12/19
 * [Kubernetesはオープンな標準と拡張性にフォーカスしている。KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kuberneteskubecon_cloudnativecon_north_america_2018.html) 2018/12/19
 * [Rustが過去最大のバージョンアップ、「Rust 2018 Edition」正式リリース](https://www.publickey1.jp/blog/18/rustrust_2018_edition.html) 2018/12/18
-* [クラウドネイティブとは何のことなのか？ なぜそれがIT組織の変革につながると期待されるのか［PR］](https://www.publickey1.jp/blog/18/ibm_cloudnative_pr.html) 2018/12/18
-* [Kubernetesが注目され続ける5つの理由。 KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kubernetes5_kubecon_cloudnativecon_north_america_2018.html) 2018/12/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

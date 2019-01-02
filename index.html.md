@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2018](2018/index.html)
+[2019](2019/index.html)
+/ [2018](2018/index.html)
 / [2017](2017/index.html)
 / [2016](2016/index.html)
 / [2015](2015/index.html)
@@ -33,6 +34,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2019-01-02 diary: Java で ByRef 実現の研究](2019/ig190102.html)
 * [2018-12-21 diary: さらに冬の深まり](2018/ig181221.html)
 * [2018-12-15 diary: 急に冬めいて](2018/ig181215.html)
 * [2018-12-08 diary: 気候が急に冬の気配](2018/ig181208.html)
@@ -47,7 +49,6 @@
 * [2018-11-17 diary: [Buta-chan] ブタちゃんシリーズでの調整内容(aka 魔改造) メモ](2018/ig181117.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](2018/ig180909.html)
-* [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
 
 
 私のインターネットへのアンテナです。
@@ -60,13 +61,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [Publickey年間人気記事ランキング2018。新しいリリースモデルを採用したJava／Windows Vertual Desktop発表／人気が下降しているプログラミング言語は？ など](https://www.publickey1.jp/blog/18/publickey2018javawindows_vertual_desktop.html) 2018/12/26
+* [ブログでメシが食えるか？ Publickeyの2018年［たぶん最終回］](https://www.publickey1.jp/blog/18/_publickey2018.html) 2018/12/28
 * [「MIPS Open」発表。MIPSの命令セットがオープンソースとして公開へ](https://www.publickey1.jp/blog/18/mips_openmips.html) 2018/12/20
 * [マイクロソフト、Windows Sandbox発表。デスクトップアプリを分離した環境で安全に実行可能に](https://www.publickey1.jp/blog/18/windows_sandbox.html) 2018/12/19
 * [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html) 2018/12/19
 * [Kubernetesはオープンな標準と拡張性にフォーカスしている。KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kuberneteskubecon_cloudnativecon_north_america_2018.html) 2018/12/19
 * [Rustが過去最大のバージョンアップ、「Rust 2018 Edition」正式リリース](https://www.publickey1.jp/blog/18/rustrust_2018_edition.html) 2018/12/18
-* [クラウドネイティブとは何のことなのか？ なぜそれがIT組織の変革につながると期待されるのか［PR］](https://www.publickey1.jp/blog/18/ibm_cloudnative_pr.html) 2018/12/18
-* [Kubernetesが注目され続ける5つの理由。 KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kubernetes5_kubecon_cloudnativecon_north_america_2018.html) 2018/12/17
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
