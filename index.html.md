@@ -34,7 +34,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2019-01-02 diary: Java で ByRef 実現の研究](2019/ig190102.html)
+* [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
 * [2018-12-21 diary: さらに冬の深まり](2018/ig181221.html)
 * [2018-12-15 diary: 急に冬めいて](2018/ig181215.html)
 * [2018-12-08 diary: 気候が急に冬の気配](2018/ig181208.html)
