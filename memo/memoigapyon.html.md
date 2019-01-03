@@ -2,7 +2,7 @@
 
 資料: いがぴょん について
 =====================================================================================================
-[![いがぴょん画像(小)](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
 [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2C%E4%BC%8A%E8%B3%80%E6%95%8F%E6%A8%B9&text=%E3%80%8C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html)
