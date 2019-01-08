@@ -34,6 +34,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2019-01-08 diary: Diary title here](2019/ig190108.html)
 * [2019-01-03 diary: 日記システム作業メモ](2019/ig190103.html)
 * [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
 * [2018-12-21 diary: さらに冬の深まり](2018/ig181221.html)
@@ -48,7 +49,6 @@
 * [2018-11-24 diary: [Buta-chan] ブタちゃん#1 (Violin Matsuo Pino 15V) メモ (初号機)](2018/ig181124.html)
 * [2018-11-18 diary: [Buta-chan] クマちゃん (Violin No Label) メモ (零号機)](2018/ig181118.html)
 * [2018-11-17 diary: [Buta-chan] ブタちゃんシリーズでの調整内容(aka 魔改造) メモ](2018/ig181117.html)
-* [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
 
 
 私のインターネットへのアンテナです。
@@ -61,13 +61,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [Raspberry Pi財団、オープンなCPUを実現する「RISC-V Foundation」へ参加表明](https://www.publickey1.jp/blog/19/raspberry_picpurisc-v_foundation.html) 2019/01/08
+* [ClouderaとHortonworksが合併を完了。現在の製品は少なくとも3年のサポートを提供](https://www.publickey1.jp/blog/19/clouderahortonworks3.html) 2019/01/08
+* [GitHub、無料ユーザーもプライベートリポジトリを無制限に作成可能に](https://www.publickey1.jp/blog/19/github_4.html) 2019/01/08
+* [ARMベースで64コア搭載のサーバ向け独自プロセッサ「Kunpeng 920」、ファーウェイが発表。HPE、AWSなどARMサーバの投入が相次ぐ](https://www.publickey1.jp/blog/19/arm64kunpeng_920hpeawsarm.html) 2019/01/08
+* [GitLab Serverlessを搭載したGitLab 11.6がリリース。Knativeをベースに、どのクラウドでも使えるサーバレスの実現へ](https://www.publickey1.jp/blog/19/gitlab_serverlessgitlab_116knative.html) 2019/01/07
+* [国内企業の28％がDevOpsを実践、うち41％が売り上げや顧客満足度向上などの成果を出していると。IDC Japan](https://www.publickey1.jp/blog/19/28devops41idc_japan.html) 2019/01/06
 * [Publickey年間人気記事ランキング2018。新しいリリースモデルを採用したJava／Windows Vertual Desktop発表／人気が下降しているプログラミング言語は？ など](https://www.publickey1.jp/blog/18/publickey2018javawindows_vertual_desktop.html) 2018/12/26
-* [ブログでメシが食えるか？ Publickeyの2018年［たぶん最終回］](https://www.publickey1.jp/blog/18/_publickey2018.html) 2018/12/28
-* [「MIPS Open」発表。MIPSの命令セットがオープンソースとして公開へ](https://www.publickey1.jp/blog/18/mips_openmips.html) 2018/12/20
-* [マイクロソフト、Windows Sandbox発表。デスクトップアプリを分離した環境で安全に実行可能に](https://www.publickey1.jp/blog/18/windows_sandbox.html) 2018/12/19
-* [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html) 2018/12/19
-* [Kubernetesはオープンな標準と拡張性にフォーカスしている。KubeCon + CloudNativeCon North America 2018](https://www.publickey1.jp/blog/18/kuberneteskubecon_cloudnativecon_north_america_2018.html) 2018/12/19
-* [Rustが過去最大のバージョンアップ、「Rust 2018 Edition」正式リリース](https://www.publickey1.jp/blog/18/rustrust_2018_edition.html) 2018/12/18
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
