@@ -34,7 +34,8 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2019-01-08 diary: Diary title here](2019/ig190108.html)
+* [2019-01-20 diary: Diary title here](2019/ig190120.html)
+* [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
 * [2019-01-03 diary: 日記システム作業メモ](2019/ig190103.html)
 * [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
 * [2018-12-21 diary: さらに冬の深まり](2018/ig181221.html)

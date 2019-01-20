@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Raspberry Pi財団、オープンなCPUを実現する「RISC-V Foundation」へ参加表明](https://www.publickey1.jp/blog/19/raspberry_picpurisc-v_foundation.html) 2019/01/08
-* [ClouderaとHortonworksが合併を完了。現在の製品は少なくとも3年のサポートを提供](https://www.publickey1.jp/blog/19/clouderahortonworks3.html) 2019/01/08
-* [GitHub、無料ユーザーもプライベートリポジトリを無制限に作成可能に](https://www.publickey1.jp/blog/19/github_4.html) 2019/01/08
-* [ARMベースで64コア搭載のサーバ向け独自プロセッサ「Kunpeng 920」、ファーウェイが発表。HPE、AWSなどARMサーバの投入が相次ぐ](https://www.publickey1.jp/blog/19/arm64kunpeng_920hpeawsarm.html) 2019/01/08
-* [GitLab Serverlessを搭載したGitLab 11.6がリリース。Knativeをベースに、どのクラウドでも使えるサーバレスの実現へ](https://www.publickey1.jp/blog/19/gitlab_serverlessgitlab_116knative.html) 2019/01/07
-* [国内企業の28％がDevOpsを実践、うち41％が売り上げや顧客満足度向上などの成果を出していると。IDC Japan](https://www.publickey1.jp/blog/19/28devops41idc_japan.html) 2019/01/06
-* [Publickey年間人気記事ランキング2018。新しいリリースモデルを採用したJava／Windows Vertual Desktop発表／人気が下降しているプログラミング言語は？ など](https://www.publickey1.jp/blog/18/publickey2018javawindows_vertual_desktop.html) 2018/12/26
+* [ITエンジニアが投票した「ITエンジニア本大賞2019」ベスト10発表。カイゼン・ジャーニー／エンジニアリング組織論への招待／テスト駆動開発などランクイン](https://www.publickey1.jp/blog/19/itit201910clean_architecture.html) 2019/01/18
+* [なんと日経BPからVTuberのIT新人記者、「黒須もあ」が登場。決めポーズは「クロステーック！」](https://www.publickey1.jp/blog/19/bpvtuberit.html) 2019/01/17
+* [「MariaDB Platform X3」登場、OLTPとOLAP機能をひとつに統合。フルマネージドサービス「MariaDB Platform Managed Service」も開始](https://www.publickey1.jp/blog/19/mariadb_platform_x3oltpolapmariadb_platform_managed_service.html) 2019/01/17
+* [厚生労働省、IT業界の長時間労働是正のため、システム受発注時に気をつけるべき点を紹介した動画をYouTubeで公開。ナレーションは乃木坂46](https://www.publickey1.jp/blog/19/ityoutube46.html) 2019/01/16
+* [Redis、MongoDB、Kafkaらが相次いで商用サービスを制限するライセンス変更。AWSなどクラウドベンダによる「オープンソースのいいとこ取り」に反発](https://www.publickey1.jp/blog/19/redismongodbkafkaaws.html) 2019/01/16
+* [AWSが「CloudEndure」を買収。マルチクラウド対応のライブマイグレーションツール](https://www.publickey1.jp/blog/19/awscloudendure.html) 2019/01/15
+* [AWS Lambda互換環境をKubernetes上で実現する「Knative Lambda Runtime」オープンソースで公開](https://www.publickey1.jp/blog/19/aws_lambdakubernetesknative_lambda_runtimeklr.html) 2019/01/15
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
