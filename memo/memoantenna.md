@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [ITエンジニアが投票した「ITエンジニア本大賞2019」ベスト10発表。カイゼン・ジャーニー／エンジニアリング組織論への招待／テスト駆動開発などランクイン](https://www.publickey1.jp/blog/19/itit201910clean_architecture.html) 2019/01/18
-* [なんと日経BPからVTuberのIT新人記者、「黒須もあ」が登場。決めポーズは「クロステーック！」](https://www.publickey1.jp/blog/19/bpvtuberit.html) 2019/01/17
-* [「MariaDB Platform X3」登場、OLTPとOLAP機能をひとつに統合。フルマネージドサービス「MariaDB Platform Managed Service」も開始](https://www.publickey1.jp/blog/19/mariadb_platform_x3oltpolapmariadb_platform_managed_service.html) 2019/01/17
-* [厚生労働省、IT業界の長時間労働是正のため、システム受発注時に気をつけるべき点を紹介した動画をYouTubeで公開。ナレーションは乃木坂46](https://www.publickey1.jp/blog/19/ityoutube46.html) 2019/01/16
-* [Redis、MongoDB、Kafkaらが相次いで商用サービスを制限するライセンス変更。AWSなどクラウドベンダによる「オープンソースのいいとこ取り」に反発](https://www.publickey1.jp/blog/19/redismongodbkafkaaws.html) 2019/01/16
-* [AWSが「CloudEndure」を買収。マルチクラウド対応のライブマイグレーションツール](https://www.publickey1.jp/blog/19/awscloudendure.html) 2019/01/15
-* [AWS Lambda互換環境をKubernetes上で実現する「Knative Lambda Runtime」オープンソースで公開](https://www.publickey1.jp/blog/19/aws_lambdakubernetesknative_lambda_runtimeklr.html) 2019/01/15
+* [複数のKubernetesクラスタへアプリをまとめてデプロイ、ローリングアップデートなどの新機能を搭載した「Rancher 2.2」が登場](https://www.publickey1.jp/blog/19/kubernetesrancher_22.html) 2019/02/15
+* [ファーストサーバが解散へ。IDCフロンティアによる吸収合併を発表。既存のサービスは継続](https://www.publickey1.jp/blog/19/idc_3.html) 2019/02/14
+* [Javaアプリケーションを自動的にコンテナイメージにビルドするツール「Jib」がバージョン1.0に到達](https://www.publickey1.jp/blog/19/javajib10.html) 2019/02/14
+* [IBM Think 2019の基調講演にRed Hat CEOのジム・ホワイトハースト氏が登壇、IBMとのシナジーを語る。IBM Think 2019](https://www.publickey1.jp/blog/19/ibm_think_2019red_hat_ceoibmibm_think_2019.html) 2019/02/13
+* [IBM、WatsonをKubernetes対応にした「Watson Anywhere」発表。オンプレミスでもクラウドでもWatsonを実行可能に。IBM Think 2019](https://www.publickey1.jp/blog/19/ibmwatsonkuberneteswatson_anywherewatsonibm_think_2019.html) 2019/02/13
+* [マイクロサービス、Infra as Code、CI/CD、GitOpsなどクラウドネイティブの要素を盛り込んだ「showKs」、開発の舞台裏とは？［PR］](https://www.publickey1.jp/blog/19/infra_as_codecicdgitopsshowkspr.html) 2019/02/13
+* [Google、コンテナイメージへのビルドをより高速にする機能を「Cloud Build」に搭載。Kanikoを採用](https://www.publickey1.jp/blog/19/googlecloud_buildkaniko.html) 2019/02/13
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
