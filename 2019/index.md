@@ -38,7 +38,7 @@
 * [2019-02-15 diary: Windows 10 に WSL のインストール方法](ig190215.html)
 * [2019-01-20 diary: Teams チャンネルに Incoming Webhook 経由の記事投入](ig190120.html)
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](ig190108.html)
-* [2019-01-03 diary: 日記システム作業メモ](ig190103.html)
+* [2019-01-03 diary: 各種 Windows 向け IE のブラウザテストをおこなうためのお役立ち VM 集の入手先メモ](ig190103.html)
 * [2019-01-02 diary: Java で ByRef 実現の検討](ig190102.html)
 
 
