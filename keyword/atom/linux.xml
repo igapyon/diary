@@ -4,6 +4,24 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2019/ig190512.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2019/ig190512.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2019/ig190511.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2019/ig190511.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig180915.html" />
     <author>

@@ -4,7 +4,16 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
-    <title>2019-05-11 diary: Diary title here</title>
+    <title>2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2019/ig190512.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2019/ig190512.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2019/ig190511.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -13,7 +22,7 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
-    <title>2019-02-15 diary: 関東は大変な冷え込み</title>
+    <title>2019-02-15 diary: Windows 10 に WSL のインストール方法</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2019/ig190215.html" />
     <author>
       <name>Toshiki Iga</name>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2018/ig181201.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2018-11-25 diary: [Buta-chan] ブタちゃん#2 (Violin J. J. Dvorak #1930) メモ (弐号機)</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2018/ig181125.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2018/ig181125.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

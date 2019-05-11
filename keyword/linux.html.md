@@ -24,6 +24,8 @@ Linux
 
 ### 日記
 
+* [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](../2019/ig190512.html)
+* [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](../2019/ig190511.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](../2018/ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](../2018/ig180909.html)
 * [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](../2018/ig180908.html)
