@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [複数のKubernetesクラスタへアプリをまとめてデプロイ、ローリングアップデートなどの新機能を搭載した「Rancher 2.2」が登場](https://www.publickey1.jp/blog/19/kubernetesrancher_22.html) 2019/02/15
-* [ファーストサーバが解散へ。IDCフロンティアによる吸収合併を発表。既存のサービスは継続](https://www.publickey1.jp/blog/19/idc_3.html) 2019/02/14
-* [Javaアプリケーションを自動的にコンテナイメージにビルドするツール「Jib」がバージョン1.0に到達](https://www.publickey1.jp/blog/19/javajib10.html) 2019/02/14
-* [IBM Think 2019の基調講演にRed Hat CEOのジム・ホワイトハースト氏が登壇、IBMとのシナジーを語る。IBM Think 2019](https://www.publickey1.jp/blog/19/ibm_think_2019red_hat_ceoibmibm_think_2019.html) 2019/02/13
-* [IBM、WatsonをKubernetes対応にした「Watson Anywhere」発表。オンプレミスでもクラウドでもWatsonを実行可能に。IBM Think 2019](https://www.publickey1.jp/blog/19/ibmwatsonkuberneteswatson_anywherewatsonibm_think_2019.html) 2019/02/13
-* [マイクロサービス、Infra as Code、CI/CD、GitOpsなどクラウドネイティブの要素を盛り込んだ「showKs」、開発の舞台裏とは？［PR］](https://www.publickey1.jp/blog/19/infra_as_codecicdgitopsshowkspr.html) 2019/02/13
-* [Google、コンテナイメージへのビルドをより高速にする機能を「Cloud Build」に搭載。Kanikoを採用](https://www.publickey1.jp/blog/19/googlecloud_buildkaniko.html) 2019/02/13
+* [「Nutanix on AWS」、AWS上にNutanixシステムを構築できる新サービス「Xi Clusters」発表。ハイブリッドクラウドの構築が容易に](https://www.publickey1.jp/blog/19/nutanix_on_awsawsnutanixxi_clusters.html) 2019/05/10
+* [Microsoft Azure、DNSの設定変更に失敗して全世界的にサービス障害。日本は十連休中だったのが不幸中の幸いか](https://www.publickey1.jp/blog/19/microsoft_azuredns.html) 2019/05/09
+* [Visual Studio 2019正式リリース／Googleが新サービス「Anthos」公開。Kubernetesベースでマルチクラウド／大手クラウドに不満のMongoDB、RedisらがGoogleと戦略的提携、ほか。2019年4月の人気記事](https://www.publickey1.jp/blog/19/visual_studio_2019googleanthoskubernetesmongodbredisgoogle20194.html) 2019/05/09
+* [［速報］Oracle Cloud、東京リージョンを設置。本日から稼働開始。6カ月以内に大阪リージョンも開設](https://www.publickey1.jp/blog/19/oracle_cloud6.html) 2019/05/08
+* [Google、「Flutter for Web」発表。FlutterからWebアプリを生成。Flutterはマルチプラットフォーム対応のフレームワークに。Google I/O 2019](https://www.publickey1.jp/blog/19/googleflutter_for_webflutterwebfluttergoogle_io_2019.html) 2019/05/08
+* [Google、Androidにおける「Kotlinファースト」強化を表明。Google I/O 2019](https://www.publickey1.jp/blog/19/googleandroidkotlingoogle_io_2019.html) 2019/05/08
+* [［速報］オープンソースの「.NET 5」がすべての.NETを引き継ぐ。.NET Frameworkと.NET CoreとXamarinは「.NET 5」に。Microsoft Build 2019](https://www.publickey1.jp/blog/19/net_5netnet_frameworknet_corexamarinnet_5microsoft_build_2019.html) 2019/05/09
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

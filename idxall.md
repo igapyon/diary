@@ -34,6 +34,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2019-05-11 diary: Diary title here](2019/ig190511.html)
 * [2019-02-15 diary: 関東は大変な冷え込み](2019/ig190215.html)
 * [2019-01-20 diary: ここのところ冷え込みます](2019/ig190120.html)
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
