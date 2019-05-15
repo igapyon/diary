@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [自由に再配布可能なRed Hat Enterprise Linux 8ベースのコンテナ用OSイメージ「Red Hat Universal Base Image」が公開](https://www.publickey1.jp/blog/19/red_hat_enterprise_linux_8osred_hat_universal_base_image.html) 2019/05/15
+* [［速報］Google、本日から大阪GCPリージョン正式運用開始を発表。東京に続いて国内2カ所目。日本語による24時間365日のサポートも開始](https://www.publickey1.jp/blog/19/googlegcp224365.html) 2019/05/14
+* [Fastly CTOに聞く、同社がWebAssembly実行環境の「Lucet」をエッジコンピューティング環境として開発している理由とは？](https://www.publickey1.jp/blog/19/fastly_ctowebassemblylucet.html) 2019/05/14
+* [「VMware Cloud on Dell EMC」発表。オンプレミス向けにハードウェア込みのマネージドサービス。Dell Technologies World 2019](https://www.publickey1.jp/blog/19/vmware_cloud_on_dell_emcdell_technologies_world_2019.html) 2019/05/13
+* [マイクロソフトがVMwareクラウド基盤をAzureで提供、「Azure VMware Solutions」を正式発表。Dell Technologies World 2019](https://www.publickey1.jp/blog/19/vmwareazureazure_vmware_solutionsdell_technologies_world_2019.html) 2019/05/13
 * [「Nutanix on AWS」、AWS上にNutanixシステムを構築できる新サービス「Xi Clusters」発表。ハイブリッドクラウドの構築が容易に](https://www.publickey1.jp/blog/19/nutanix_on_awsawsnutanixxi_clusters.html) 2019/05/10
 * [Microsoft Azure、DNSの設定変更に失敗して全世界的にサービス障害。日本は十連休中だったのが不幸中の幸いか](https://www.publickey1.jp/blog/19/microsoft_azuredns.html) 2019/05/09
-* [Visual Studio 2019正式リリース／Googleが新サービス「Anthos」公開。Kubernetesベースでマルチクラウド／大手クラウドに不満のMongoDB、RedisらがGoogleと戦略的提携、ほか。2019年4月の人気記事](https://www.publickey1.jp/blog/19/visual_studio_2019googleanthoskubernetesmongodbredisgoogle20194.html) 2019/05/09
-* [［速報］Oracle Cloud、東京リージョンを設置。本日から稼働開始。6カ月以内に大阪リージョンも開設](https://www.publickey1.jp/blog/19/oracle_cloud6.html) 2019/05/08
-* [Google、「Flutter for Web」発表。FlutterからWebアプリを生成。Flutterはマルチプラットフォーム対応のフレームワークに。Google I/O 2019](https://www.publickey1.jp/blog/19/googleflutter_for_webflutterwebfluttergoogle_io_2019.html) 2019/05/08
-* [Google、Androidにおける「Kotlinファースト」強化を表明。Google I/O 2019](https://www.publickey1.jp/blog/19/googleandroidkotlingoogle_io_2019.html) 2019/05/08
-* [［速報］オープンソースの「.NET 5」がすべての.NETを引き継ぐ。.NET Frameworkと.NET CoreとXamarinは「.NET 5」に。Microsoft Build 2019](https://www.publickey1.jp/blog/19/net_5netnet_frameworknet_corexamarinnet_5microsoft_build_2019.html) 2019/05/09
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

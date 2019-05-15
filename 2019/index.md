@@ -33,6 +33,7 @@
 
 ## いがぴょんの日記：2019年の日記
 
+* [2019-05-15 diary: 今日は一時雨](ig190515.html)
 * [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](ig190512.html)
 * [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](ig190511.html)
 * [2019-02-15 diary: Windows 10 に WSL のインストール方法](ig190215.html)
