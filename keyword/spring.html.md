@@ -24,6 +24,7 @@ Spring
 
 ### 日記
 
+* [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](../2019/ig190120.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../2018/ig180521.html)
 * [2018-05-20 diary: [Java][Spring] Spring (Web) で生 JDBC 接続を取得する方法](../2018/ig180520.html)
