@@ -24,7 +24,9 @@ OmegaT
 
 ### 日記
 
+* [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](../2018/ig181221.html)
 * [2016-09-10 diary: [OmegaT] 機械支援翻訳 Microsoft 提供の充実の用語集](../2016/ig160910.html)
+* [2015-06-07 diary: [OmegaT] という機械支援翻訳ツール](../2015/ig150607.html)
 
 
 

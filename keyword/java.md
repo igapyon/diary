@@ -27,7 +27,8 @@ Java
 ### 日記
 
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](../2019/ig190120.html)
-* [2018-12-21 diary: [Java] OmegaT をヘッドレスで動作させる](../2018/ig181221.html)
+* [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](../2018/ig181221.html)
+* [2018-12-08 diary: [Java] [Apache] Lucene のあいまい検索のシンプルサンプル](../2018/ig181208.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](../2018/ig180814.html)
 * [2018-08-13 diary: [Selenium][Java] XPath によるノード検索](../2018/ig180813.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](../2018/ig180812.html)

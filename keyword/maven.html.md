@@ -34,6 +34,7 @@ Last modified: $Date: 2017-01-27 $
 
 ### 日記
 
+* [2018-12-15 diary: [Maven] Spring Initializr で作ったシンプルな pom.xml サンプル](../2018/ig181215.html)
 * [2018-08-14 diary: [Java][Maven] 空のプロジェクトを作成するための mvn コマンド](../2018/ig180814.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](../2018/ig180812.html)
 * [2018-06-23 diary: [Maven] シンプルな [Java] 向け pom.xml サンプル](../2018/ig180623.html)

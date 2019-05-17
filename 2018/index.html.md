@@ -33,9 +33,9 @@
 
 ## いがぴょんの日記：2018年の日記
 
-* [2018-12-21 diary: [Java] OmegaT をヘッドレスで動作させる](ig181221.html)
-* [2018-12-15 diary: 急に冬めいて](ig181215.html)
-* [2018-12-08 diary: 気候が急に冬の気配](ig181208.html)
+* [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](ig181221.html)
+* [2018-12-15 diary: [Maven] Spring Initializr で作ったシンプルな pom.xml サンプル](ig181215.html)
+* [2018-12-08 diary: [Java] [Apache] Lucene のあいまい検索のシンプルサンプル](ig181208.html)
 * [2018-12-05 diary: [Buta-chan] ブタちゃん#7 (Cello ) メモ](ig181205.html)
 * [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](ig181204.html)
 * [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](ig181203.html)

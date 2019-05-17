@@ -76,7 +76,7 @@
 * [2015-06-15 diary: 大阪梅田近辺と大宮のコワーキングスペース情報メモ](ig150615.html)
 * [2015-06-12 diary: iOSアプリをテスト用の配布するための方法](ig150612.html)
 * [2015-06-08 diary: MDAC / Windows DAC についてのメモ](ig150608.html)
-* [2015-06-07 diary: OmegaT という機械支援翻訳ツール](ig150607.html)
+* [2015-06-07 diary: [OmegaT] という機械支援翻訳ツール](ig150607.html)
 * [2015-06-05 diary: [Delphi] トラブルシューティング: Mac / iOS 系](ig150605.html)
 * [2015-06-04 diary: [Delphi] Delphi XE8 で Windows 10 向けアプリ開発](ig150604.html)
 * [2015-06-01 diary: [Delphi] Delphi 言語(Object Pascal)](ig150601.html)

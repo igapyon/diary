@@ -34,6 +34,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2019-05-18 diary: Diary title here](2019/ig190518.html)
 * [2019-05-16 diary: 春と夏の間](2019/ig190516.html)
 * [2019-05-15 diary: 今日は一時雨](2019/ig190515.html)
 * [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](2019/ig190512.html)
@@ -43,12 +44,11 @@
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
 * [2019-01-03 diary: 各種 Windows 向け IE のブラウザテストをおこなうためのお役立ち VM 集の入手先メモ](2019/ig190103.html)
 * [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
-* [2018-12-21 diary: [Java] OmegaT をヘッドレスで動作させる](2018/ig181221.html)
-* [2018-12-15 diary: 急に冬めいて](2018/ig181215.html)
-* [2018-12-08 diary: 気候が急に冬の気配](2018/ig181208.html)
+* [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](2018/ig181221.html)
+* [2018-12-15 diary: [Maven] Spring Initializr で作ったシンプルな pom.xml サンプル](2018/ig181215.html)
+* [2018-12-08 diary: [Java] [Apache] Lucene のあいまい検索のシンプルサンプル](2018/ig181208.html)
 * [2018-12-05 diary: [Buta-chan] ブタちゃん#7 (Cello ) メモ](2018/ig181205.html)
 * [2018-12-04 diary: [Buta-chan] ブタちゃん#6 (Violin J. J. Dvorak 1/2) メモ](2018/ig181204.html)
-* [2018-12-03 diary: [Buta-chan] ブタちゃん#5 (Viola J. J. Dvorak) メモ](2018/ig181203.html)
 
 
 私のインターネットへのアンテナです。
