@@ -182,6 +182,7 @@
 								<include name="2017/*.html" />
 								<include name="2018/*.html" />
                                 <include name="2019/*.html" />
+                                <include name="2020/*.html" />
 							</fileset>
 						</ftp>
 					</target>

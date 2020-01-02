@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [JavaScriptエンジンのV8、WebAssemblyのコンパイル済みモジュールをキャッシュすることで2度目の訪問からは即実行可能に。V8 r7.5で](https://www.publickey1.jp/blog/19/javascriptv8webassembly2v8_r75.html) 2019/05/21
-* [PublickeyのWebページをレスポンシブ対応にしました](https://www.publickey1.jp/blog/19/publickeyweb.html) 2019/05/20
-* [Kubernetesに特化した軽量なLinux「k3OS」。Kubernetesが自動起動、Kubernetesクラスタ構成も自動で。Rancher Labsが公開](https://www.publickey1.jp/blog/19/kuberneteslinuxk3oskuberneteskubernetesrancher_labs.html) 2019/05/20
-* [GraalVM、ついに本番利用可能なバージョン「GraalVM 19.0」登場、JavaやJavaScriptなど多言語対応ランタイム。商用版のGraalVM Enterprise Editionもリリース](https://www.publickey1.jp/blog/19/graalvmgraalvm_190javajavascriptgraalvm_enterprise_edition.html) 2019/05/19
-* [自由に再配布可能なRed Hat Enterprise Linux 8ベースのコンテナ用OSイメージ「Red Hat Universal Base Image」が公開](https://www.publickey1.jp/blog/19/red_hat_enterprise_linux_8osred_hat_universal_base_image.html) 2019/05/15
-* [［速報］Google、本日から大阪GCPリージョン正式運用開始を発表。東京に続いて国内2カ所目。日本語による24時間365日のサポートも開始](https://www.publickey1.jp/blog/19/googlegcp224365.html) 2019/05/14
-* [Fastly CTOに聞く、同社がWebAssembly実行環境の「Lucet」をエッジコンピューティング環境として開発している理由とは？](https://www.publickey1.jp/blog/19/fastly_ctowebassemblylucet.html) 2019/05/14
+* [この1年、Publickeyのどの記事がたくさん読まれたのか？ 2019年総合ランキング発表](https://www.publickey1.jp/blog/19/1publickey_2019.html) 2019/12/25
+* [WebAssembly版のTensorFlow.jsが登場、Webブラウザでの推論処理を10倍以上高速に実行](https://www.publickey1.jp/blog/19/webassemblytensorflowjsweb100.html) 2019/12/24
+* [AWS、オープンソースベンダのライセンス変更による商用サービスの制限は「顧客を見ていない」と反論](https://www.publickey1.jp/blog/19/aws_5.html) 2019/12/23
+* [クラウドは、データを完全削除したくてもハードディスクを物理破壊してくれない。どうする？ AWSが説明](https://www.publickey1.jp/blog/19/_aws.html) 2019/12/20
+* [Google、クラウドネイティブ向けセキュリティの枠組みを示す「BeyondProd」発表。ホワイトペーパーを公開](https://www.publickey1.jp/blog/19/googlebeyondprod.html) 2019/12/18
+* [Electronフレームワーク、Node.jsなどの開発をホストする「OpenJS Foundation」に合流](https://www.publickey1.jp/blog/19/electronnodejsopenjs_foundation.html) 2019/12/18
+* [インスタンスを安く使える「Azure Spot Virtual Machines」発表。クラウドの空きキャパシティを安価に提供](https://www.publickey1.jp/blog/19/azure_spot_virtual_machines.html) 2019/12/18
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

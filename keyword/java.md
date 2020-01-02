@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](../2020/ig200102.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](../2019/ig190516.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](../2019/ig190120.html)
 * [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](../2018/ig181221.html)
