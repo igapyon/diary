@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2019](2019/index.html)
+[2020](2020/index.html)
+/ [2019](2019/index.html)
 / [2018](2018/index.html)
 / [2017](2017/index.html)
 / [2016](2016/index.html)
@@ -34,6 +35,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2020-01-02 diary: [Java] vCard を Java で読み込む際のライブラリ事情を調べてみた](2020/ig200102.html)
 * [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](2019/ig190516.html)
