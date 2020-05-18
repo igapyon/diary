@@ -26,6 +26,8 @@ Java
 
 ### 日記
 
+* [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](../2020/ig200516.html)
+* [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](../2020/ig200426.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](../2020/ig200102.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](../2019/ig190516.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](../2019/ig190120.html)
