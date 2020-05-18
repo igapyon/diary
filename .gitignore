@@ -5,3 +5,5 @@ target/
 bin/
 *.log
 .project
+.DS_Store
+
