@@ -36,6 +36,7 @@
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
+* [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
 * [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
