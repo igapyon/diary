@@ -35,6 +35,8 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
+* [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
 * [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
@@ -48,8 +50,6 @@
 * [2019-01-03 diary: 各種 Windows 向け IE のブラウザテストをおこなうためのお役立ち VM 集の入手先メモ](2019/ig190103.html)
 * [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
 * [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](2018/ig181221.html)
-* [2018-12-15 diary: [Maven] Spring Initializr で作ったシンプルな pom.xml サンプル](2018/ig181215.html)
-* [2018-12-08 diary: [Java] [Apache] Lucene のあいまい検索のシンプルサンプル](2018/ig181208.html)
 
 
 私のインターネットへのアンテナです。
@@ -62,13 +62,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [この1年、Publickeyのどの記事がたくさん読まれたのか？ 2019年総合ランキング発表](https://www.publickey1.jp/blog/19/1publickey_2019.html) 2019/12/25
-* [WebAssembly版のTensorFlow.jsが登場、Webブラウザでの推論処理を10倍以上高速に実行](https://www.publickey1.jp/blog/19/webassemblytensorflowjsweb100.html) 2019/12/24
-* [AWS、オープンソースベンダのライセンス変更による商用サービスの制限は「顧客を見ていない」と反論](https://www.publickey1.jp/blog/19/aws_5.html) 2019/12/23
-* [クラウドは、データを完全削除したくてもハードディスクを物理破壊してくれない。どうする？ AWSが説明](https://www.publickey1.jp/blog/19/_aws.html) 2019/12/20
-* [Google、クラウドネイティブ向けセキュリティの枠組みを示す「BeyondProd」発表。ホワイトペーパーを公開](https://www.publickey1.jp/blog/19/googlebeyondprod.html) 2019/12/18
-* [Electronフレームワーク、Node.jsなどの開発をホストする「OpenJS Foundation」に合流](https://www.publickey1.jp/blog/19/electronnodejsopenjs_foundation.html) 2019/12/18
-* [インスタンスを安く使える「Azure Spot Virtual Machines」発表。クラウドの空きキャパシティを安価に提供](https://www.publickey1.jp/blog/19/azure_spot_virtual_machines.html) 2019/12/18
+* [「Amazon Red Hat OpenShift」発表。AWSがRed Hat OpenShiftのマネージドサービスを提供へ](https://www.publickey1.jp/blog/20/amazon_red_hat_openshiftawsred_hat_openshift.html) 2020/05/18
+* [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html) 2020/05/15
+* [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html) 2020/05/15
+* [Google Kubernetes EngineがWindows Serverコンテナを正式サポート。KuberntesでWindowsの本番用アプリケーションを実行可能に](https://www.publickey1.jp/blog/20/google_kubernetes_enginewindows_serverkubernteswindows.html) 2020/05/14
+* [NVIDIAはネットワークベンダへ向かう。Mellanoxに続きCumulus Networksの買収を発表](https://www.publickey1.jp/blog/20/nvidiamellanoxcumulus_networks.html) 2020/05/14
+* [ずっと無料で使えるクラウドの「Free Tier」主要サービスまとめ。2020年版](https://www.publickey1.jp/blog/20/free_tier2020.html) 2020/05/13
+* [マイクロソフト自身が構築した「Azure VMware Solution」提供へ。VMware環境の構築、提供、販売、サポートすべてマイクロソフト](https://www.publickey1.jp/blog/20/azure_vmware_solutionvmware.html) 2020/05/13
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
