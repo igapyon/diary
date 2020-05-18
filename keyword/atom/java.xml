@@ -4,6 +4,24 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2020/ig200516.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2020/ig200516.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2020/ig200426.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2020/ig200426.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2020/ig200102.html" />
     <author>

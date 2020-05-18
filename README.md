@@ -36,7 +36,9 @@
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
+* [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](2020/ig200516.html)
 * [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
+* [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](2020/ig200426.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
 * [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
@@ -48,8 +50,6 @@
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](2019/ig190120.html)
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
 * [2019-01-03 diary: 各種 Windows 向け IE のブラウザテストをおこなうためのお役立ち VM 集の入手先メモ](2019/ig190103.html)
-* [2019-01-02 diary: Java で ByRef 実現の検討](2019/ig190102.html)
-* [2018-12-21 diary: [Java][OmegaT] OmegaT をヘッドレス起動して検索機能のみを利用する](2018/ig181221.html)
 
 
 私のインターネットへのアンテナです。

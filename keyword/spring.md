@@ -24,6 +24,8 @@ Spring
 
 ### 日記
 
+* [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](../2020/ig200516.html)
+* [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](../2020/ig200426.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](../2019/ig190120.html)
 * [2018-06-13 diary: [Java] [Spring] Boot と [Thymeleaf] のこと](../2018/ig180613.html)
 * [2018-05-21 diary: [Spring][Java] Spring Boot 最初の一歩メモ](../2018/ig180521.html)
