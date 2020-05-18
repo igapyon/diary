@@ -111,7 +111,7 @@
 			<!-- usage: mvn antrun:run -->
 			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.8</version>
+				<version>3.0.0</version>
 				<configuration>
 					<!-- generate keyword md file -->
 					<target>
