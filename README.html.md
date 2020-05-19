@@ -35,6 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](2020/ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
 * [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](2020/ig200516.html)
 * [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
@@ -49,7 +50,6 @@
 * [2019-02-15 diary: Windows 10 に WSL のインストール方法](2019/ig190215.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](2019/ig190120.html)
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
-* [2019-01-03 diary: 各種 Windows 向け IE のブラウザテストをおこなうためのお役立ち VM 集の入手先メモ](2019/ig190103.html)
 
 
 私のインターネットへのアンテナです。
