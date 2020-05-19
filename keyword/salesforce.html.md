@@ -26,6 +26,7 @@ Salesforce
 
 ### 日記
 
+* [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](../2020/ig200519.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](../2018/ig180816.html)
 * [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](../2018/ig180815.html)
 * [2018-08-12 diary: [Salesforce][Java][Maven] Salesforce に関する Maven リポジトリへの参照メモ](../2018/ig180812.html)
