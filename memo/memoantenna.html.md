@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [クラウドの空きキャパシティを安く使える「Azure Spot Virtual Machines」が正式版に](https://www.publickey1.jp/blog/20/azure_spot_virtual_machines_1.html) 2020/05/19
+* [Dockerコンテナを本番環境で使用している国内企業は14.2％。「年内にキャズムを超えることは確実」と、IDC Japan](https://www.publickey1.jp/blog/20/docker142idc_japan.html) 2020/05/19
 * [「Amazon Red Hat OpenShift」発表。AWSがRed Hat OpenShiftのマネージドサービスを提供へ](https://www.publickey1.jp/blog/20/amazon_red_hat_openshiftawsred_hat_openshift.html) 2020/05/18
 * [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html) 2020/05/15
 * [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html) 2020/05/15
 * [Google Kubernetes EngineがWindows Serverコンテナを正式サポート。KuberntesでWindowsの本番用アプリケーションを実行可能に](https://www.publickey1.jp/blog/20/google_kubernetes_enginewindows_serverkubernteswindows.html) 2020/05/14
 * [NVIDIAはネットワークベンダへ向かう。Mellanoxに続きCumulus Networksの買収を発表](https://www.publickey1.jp/blog/20/nvidiamellanoxcumulus_networks.html) 2020/05/14
-* [ずっと無料で使えるクラウドの「Free Tier」主要サービスまとめ。2020年版](https://www.publickey1.jp/blog/20/free_tier2020.html) 2020/05/13
-* [マイクロソフト自身が構築した「Azure VMware Solution」提供へ。VMware環境の構築、提供、販売、サポートすべてマイクロソフト](https://www.publickey1.jp/blog/20/azure_vmware_solutionvmware.html) 2020/05/13
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
