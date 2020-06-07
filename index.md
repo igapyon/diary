@@ -35,6 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](2020/ig200607.html)
 * [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](2020/ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
 * [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](2020/ig200516.html)
@@ -49,7 +50,6 @@
 * [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](2019/ig190511.html)
 * [2019-02-15 diary: Windows 10 に WSL のインストール方法](2019/ig190215.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](2019/ig190120.html)
-* [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)
 
 
 私のインターネットへのアンテナです。
@@ -62,13 +62,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [クラウドの空きキャパシティを安く使える「Azure Spot Virtual Machines」が正式版に](https://www.publickey1.jp/blog/20/azure_spot_virtual_machines_1.html) 2020/05/19
-* [Dockerコンテナを本番環境で使用している国内企業は14.2％。「年内にキャズムを超えることは確実」と、IDC Japan](https://www.publickey1.jp/blog/20/docker142idc_japan.html) 2020/05/19
-* [「Amazon Red Hat OpenShift」発表。AWSがRed Hat OpenShiftのマネージドサービスを提供へ](https://www.publickey1.jp/blog/20/amazon_red_hat_openshiftawsred_hat_openshift.html) 2020/05/18
-* [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html) 2020/05/15
-* [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html) 2020/05/15
-* [Google Kubernetes EngineがWindows Serverコンテナを正式サポート。KuberntesでWindowsの本番用アプリケーションを実行可能に](https://www.publickey1.jp/blog/20/google_kubernetes_enginewindows_serverkubernteswindows.html) 2020/05/14
-* [NVIDIAはネットワークベンダへ向かう。Mellanoxに続きCumulus Networksの買収を発表](https://www.publickey1.jp/blog/20/nvidiamellanoxcumulus_networks.html) 2020/05/14
+* [Canonicalの軽量Kubernetes「MicroK8s」がWindowsとMacに対応。インストーラーで簡単に導入可能に](https://www.publickey1.jp/blog/20/canonicalkubernetesmicrok8swindowsmac.html) 2020/06/05
+* [WSL 2が正式版に到達／Webブラウザで動作する「Visual Studio Codespaces」発表／ずっと無料で使えるクラウドの「Free Tier」まとめ、ほか。2020年5月の人気記事](https://www.publickey1.jp/blog/20/wsl_2webvisual_studio_codespacesfree_tier20205.html) 2020/06/05
+* [Visual Studioの新機能、クラウド上のKubernetesクラスタの一部をローカルマシンに引き込んで開発できる「Local Process with Kubernetes」発表](https://www.publickey1.jp/blog/20/visual_studiokuberneteslocal_process_with_kubernetes.html) 2020/06/04
+* [VMware、GPUを仮想化する「Bitfusion」、vSphere 7への統合完了を発表](https://www.publickey1.jp/blog/20/vmwaregpubitfusionvsphere_7.html) 2020/06/04
+* [マイクロソフト、RPAツールの「Power Automate」強化へ。RPAベンダのSoftomotiveを買収、統合](https://www.publickey1.jp/blog/20/rpapower_automaterpasoftomotive.html) 2020/06/03
+* [GitLab、セキュリティ演習で社員にフィッシングメールを送信。その内容と、20％が引っ掛かったことを公開](https://www.publickey1.jp/blog/20/gitlab20.html) 2020/06/03
+* [シスコの年次イベント「Cisco Live 2020」直前で延期発表。全米に広がる暴動の影響でオンラインイベントさえ実施できない状況に](https://www.publickey1.jp/blog/20/cisco_live_2020.html) 2020/06/02
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
