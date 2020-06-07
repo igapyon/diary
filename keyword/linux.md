@@ -24,6 +24,7 @@ Linux
 
 ### 日記
 
+* [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](../2020/ig200607.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](../2020/ig200518.html)
 * [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](../2019/ig190512.html)
 * [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](../2019/ig190511.html)
