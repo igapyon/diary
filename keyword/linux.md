@@ -30,7 +30,7 @@ Linux
 * [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](../2019/ig190511.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](../2018/ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](../2018/ig180909.html)
-* [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](../2018/ig180908.html)
+* [2018-09-08 diary: [Linux] avconv/ffmpeg を使って mp3 ファイルの途中の部分を切り出し](../2018/ig180908.html)
 * [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](../2018/ig180818.html)
 * [2017-03-09 diary: Visual Studio Code という高機能テキストエディタ [vscode][OSS][Windows][Mac][Ubuntu][Linux][Markdown]](../2017/ig170309.html)
 * [2016-12-16 diary: [Linux] いつも忘れる diff 引数。「diff -urN」](../2016/ig161216.html)

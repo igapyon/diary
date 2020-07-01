@@ -34,6 +34,8 @@
 
 ## いがぴょんの日記：2019年の日記
 
+* [2020-07-01 diary: Behringer B-2 Pro を購入](ig200701.html)
+* [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](ig200628.html)
 * [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](ig200607.html)
 * [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](ig200518.html)

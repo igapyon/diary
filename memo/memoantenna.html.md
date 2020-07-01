@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Canonicalの軽量Kubernetes「MicroK8s」がWindowsとMacに対応。インストーラーで簡単に導入可能に](https://www.publickey1.jp/blog/20/canonicalkubernetesmicrok8swindowsmac.html) 2020/06/05
-* [WSL 2が正式版に到達／Webブラウザで動作する「Visual Studio Codespaces」発表／ずっと無料で使えるクラウドの「Free Tier」まとめ、ほか。2020年5月の人気記事](https://www.publickey1.jp/blog/20/wsl_2webvisual_studio_codespacesfree_tier20205.html) 2020/06/05
-* [Visual Studioの新機能、クラウド上のKubernetesクラスタの一部をローカルマシンに引き込んで開発できる「Local Process with Kubernetes」発表](https://www.publickey1.jp/blog/20/visual_studiokuberneteslocal_process_with_kubernetes.html) 2020/06/04
-* [VMware、GPUを仮想化する「Bitfusion」、vSphere 7への統合完了を発表](https://www.publickey1.jp/blog/20/vmwaregpubitfusionvsphere_7.html) 2020/06/04
-* [マイクロソフト、RPAツールの「Power Automate」強化へ。RPAベンダのSoftomotiveを買収、統合](https://www.publickey1.jp/blog/20/rpapower_automaterpasoftomotive.html) 2020/06/03
-* [GitLab、セキュリティ演習で社員にフィッシングメールを送信。その内容と、20％が引っ掛かったことを公開](https://www.publickey1.jp/blog/20/gitlab20.html) 2020/06/03
-* [シスコの年次イベント「Cisco Live 2020」直前で延期発表。全米に広がる暴動の影響でオンラインイベントさえ実施できない状況に](https://www.publickey1.jp/blog/20/cisco_live_2020.html) 2020/06/02
+* [「Google Cloud VMware Engine」正式リリース。Google Cloudのベアメタルサーバ上にVMware環境を構築](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegoogle_cloudvmware.html) 2020/07/01
+* [セキュリティスキャナー「Tsunami」、名称に関するIssueがクローズ。実は「津波早期警戒システム」が略されたものだったと釈明。ドキュメントで詳細に説明へ](https://www.publickey1.jp/blog/20/tsunamiissue.html) 2020/07/01
+* [JITコンパイラ搭載で高速化を実現する「PHP 8」最初のアルファ版が公開。今年11月26日に正式版を予定](https://www.publickey1.jp/blog/20/jitphp_81126.html) 2020/06/30
+* [「Angular 10」正式リリース。TypeScript 3.9サポート](https://www.publickey1.jp/blog/20/angular_10typescript_39.html) 2020/06/29
+* [マイクロソフト、Linux用のマルウェア対策ソフト「Microsoft Defender ATP for Linux」正式版リリース](https://www.publickey1.jp/blog/20/linuxmicrosoft_defender_atp_for_linux_1.html) 2020/06/24
+* [「HashiCorp Cloud Platform」発表。マルチクラウドでHashiCorpのサービスを提供予定。まずはAWSでConsulの提供から](https://www.publickey1.jp/blog/20/hashicorp_cloud_platformhashicorpawsconsul.html) 2020/06/24
+* [Google、セキュリティスキャナー「Tsunami」をオープンソースで公開。ポートスキャンなどで自動的に脆弱性を検出するツール](https://www.publickey1.jp/blog/20/googletsunami.html) 2020/06/23
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
