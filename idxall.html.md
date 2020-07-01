@@ -35,6 +35,8 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2020-07-01 diary: Behringer B-2 Pro を購入](2020/ig200701.html)
+* [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](2020/ig200628.html)
 * [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](2020/ig200607.html)
 * [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](2020/ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
@@ -67,7 +69,7 @@
 * [2018-11-17 diary: [Buta-chan] ブタちゃんシリーズでの調整内容(aka 魔改造) メモ](2018/ig181117.html)
 * [2018-09-15 diary: [Linux] sox コマンドを使って複数の音声ファイルを1つに結合](2018/ig180915.html)
 * [2018-09-09 diary: [Linux] ffmpeg を使って wav 音声ファイルと静止画から mp4 動画を作成](2018/ig180909.html)
-* [2018-09-08 diary: [Linux] avconv を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
+* [2018-09-08 diary: [Linux] avconv/ffmpeg を使って mp3 ファイルの途中の部分を切り出し](2018/ig180908.html)
 * [2018-08-18 diary: [Linux][Shell] nmap コマンドを利用して、ネットワーク上の公開システムを探すコマンド引数メモ](2018/ig180818.html)
 * [2018-08-16 diary: [Salesforce] のキュー名一覧を取得するための簡易 SOQL をメモ](2018/ig180816.html)
 * [2018-08-15 diary: [Salesforce] のレコードタイプ一覧を取得するための簡易 SOQL をメモ](2018/ig180815.html)
