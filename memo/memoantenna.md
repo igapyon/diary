@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [「Google Cloud VMware Engine」正式リリース。Google Cloudのベアメタルサーバ上にVMware環境を構築](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegoogle_cloudvmware.html) 2020/07/01
-* [セキュリティスキャナー「Tsunami」、名称に関するIssueがクローズ。実は「津波早期警戒システム」が略されたものだったと釈明。ドキュメントで詳細に説明へ](https://www.publickey1.jp/blog/20/tsunamiissue.html) 2020/07/01
-* [JITコンパイラ搭載で高速化を実現する「PHP 8」最初のアルファ版が公開。今年11月26日に正式版を予定](https://www.publickey1.jp/blog/20/jitphp_81126.html) 2020/06/30
-* [「Angular 10」正式リリース。TypeScript 3.9サポート](https://www.publickey1.jp/blog/20/angular_10typescript_39.html) 2020/06/29
-* [マイクロソフト、Linux用のマルウェア対策ソフト「Microsoft Defender ATP for Linux」正式版リリース](https://www.publickey1.jp/blog/20/linuxmicrosoft_defender_atp_for_linux_1.html) 2020/06/24
-* [「HashiCorp Cloud Platform」発表。マルチクラウドでHashiCorpのサービスを提供予定。まずはAWSでConsulの提供から](https://www.publickey1.jp/blog/20/hashicorp_cloud_platformhashicorpawsconsul.html) 2020/06/24
-* [Google、セキュリティスキャナー「Tsunami」をオープンソースで公開。ポートスキャンなどで自動的に脆弱性を検出するツール](https://www.publickey1.jp/blog/20/googletsunami.html) 2020/06/23
+* [Zoomへのネットワーク接続を最適化する方法［PR］](https://www.publickey1.jp/blog/20/zoompr.html) 2020/07/15
+* [Google、BigQueryをAWSやAzureなどマルチクラウド展開へ、「BigQuery Omni」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googlebigqueryawsazurebigquery_omnigoogle_cloud_next_20onair.html) 2020/07/15
+* [Google、データを暗号化したまま処理する仮想マシン「Confidentail VM」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googleconfidentail_vmgoogle_cloud_next_20onair.html) 2020/07/15
+* [米国防省、KubernetesをF-16ジェット戦闘機に載せてみた](https://www.publickey1.jp/blog/20/kubernetesf-16.html) 2020/07/14
+* [「Couchbase Cloud」正式リリース、AWS上でDBaaSとして利用可能に。AzureやGCP上でも提供予定](https://www.publickey1.jp/blog/20/couchbase_cloudawsdbaasazuregcp.html) 2020/07/14
+* [最近話題の「JAMスタック」（JavaScript、API、Markup）とヘッドレスCMS、使いどころはどこなのか？ ［PR］](https://www.publickey1.jp/blog/20/jamjavascriptapimarkupcms_pr.html) 2020/07/13
+* [Docker DesktopとAmazon ECS（Elastic Container Service）が連係可能に。DockerとAWSが協業](https://www.publickey1.jp/blog/20/docker_desktopamazon_ecselastic_container_servicedockeraws.html) 2020/07/13
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />

@@ -35,6 +35,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2020-07-15 diary: Paolo Borciani (Quartetto Italiano) の 1st Violin の使用楽器は Enrico Rocca 製](2020/ig200715.html)
 * [2020-07-01 diary: Behringer B-2 Pro を購入](2020/ig200701.html)
 * [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](2020/ig200628.html)
 * [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](2020/ig200607.html)
