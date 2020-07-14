@@ -34,6 +34,7 @@
 
 ## いがぴょんの日記：2019年の日記
 
+* [2020-07-15 diary: Paolo Borciani (Quartetto Italiano) の 1st Violin の使用楽器は Enrico Rocca 製](ig200715.html)
 * [2020-07-01 diary: Behringer B-2 Pro を購入](ig200701.html)
 * [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](ig200628.html)
 * [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](ig200607.html)
