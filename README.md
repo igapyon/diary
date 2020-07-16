@@ -35,6 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-07-17 diary: Adobe Audition + Shure BETA98A + Behringer B-2 Pro の Reverb メモ](2020/ig200717.html)
 * [2020-07-15 diary: Paolo Borciani (Quartetto Italiano) の 1st Violin の使用楽器は Enrico Rocca 製](2020/ig200715.html)
 * [2020-07-01 diary: Behringer B-2 Pro を購入](2020/ig200701.html)
 * [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](2020/ig200628.html)
@@ -49,7 +50,6 @@
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](2019/ig190516.html)
 * [2019-05-15 diary: 今日は一時雨](2019/ig190515.html)
-* [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](2019/ig190512.html)
 
 
 私のインターネットへのアンテナです。
@@ -62,13 +62,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
+* [Red Hat、Kubernetesの拡張ディストリビューション「OKD 4」正式版リリース](https://www.publickey1.jp/blog/20/red_hatkubernetesokd_4.html) 2020/07/17
+* [Googleが「Open Usage Commons」設立。オープンソースの商標を自由かつ公正に使用するための支援団体](https://www.publickey1.jp/blog/20/googleopen_usage_commons.html) 2020/07/16
+* [トヨタ自動車がCloud Native Computing Foundationに加盟](https://www.publickey1.jp/blog/20/cloud_native_computing_foundation.html) 2020/07/16
 * [Zoomへのネットワーク接続を最適化する方法［PR］](https://www.publickey1.jp/blog/20/zoompr.html) 2020/07/15
-* [Google、BigQueryをAWSやAzureなどマルチクラウド展開へ、「BigQuery Omni」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googlebigqueryawsazurebigquery_omnigoogle_cloud_next_20onair.html) 2020/07/15
-* [Google、データを暗号化したまま処理する仮想マシン「Confidentail VM」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googleconfidentail_vmgoogle_cloud_next_20onair.html) 2020/07/15
+* [Google、BigQueryをAWSやAzureなどマルチクラウド展開へ、「BigQuery Omni」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googlebigqueryawsazurebigquery_omnigoogle_cloud_next_20onair.html) 2020/07/16
+* [Google、データを暗号化したまま処理する仮想マシン「Confidential VM」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googleconfidentail_vmgoogle_cloud_next_20onair.html) 2020/07/16
 * [米国防省、KubernetesをF-16ジェット戦闘機に載せてみた](https://www.publickey1.jp/blog/20/kubernetesf-16.html) 2020/07/14
-* [「Couchbase Cloud」正式リリース、AWS上でDBaaSとして利用可能に。AzureやGCP上でも提供予定](https://www.publickey1.jp/blog/20/couchbase_cloudawsdbaasazuregcp.html) 2020/07/14
-* [最近話題の「JAMスタック」（JavaScript、API、Markup）とヘッドレスCMS、使いどころはどこなのか？ ［PR］](https://www.publickey1.jp/blog/20/jamjavascriptapimarkupcms_pr.html) 2020/07/13
-* [Docker DesktopとAmazon ECS（Elastic Container Service）が連係可能に。DockerとAWSが協業](https://www.publickey1.jp/blog/20/docker_desktopamazon_ecselastic_container_servicedockeraws.html) 2020/07/13
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
