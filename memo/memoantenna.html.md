@@ -14,13 +14,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [Red Hat、Kubernetesの拡張ディストリビューション「OKD 4」正式版リリース](https://www.publickey1.jp/blog/20/red_hatkubernetesokd_4.html) 2020/07/17
-* [Googleが「Open Usage Commons」設立。オープンソースの商標を自由かつ公正に使用するための支援団体](https://www.publickey1.jp/blog/20/googleopen_usage_commons.html) 2020/07/16
-* [トヨタ自動車がCloud Native Computing Foundationに加盟](https://www.publickey1.jp/blog/20/cloud_native_computing_foundation.html) 2020/07/16
-* [Zoomへのネットワーク接続を最適化する方法［PR］](https://www.publickey1.jp/blog/20/zoompr.html) 2020/07/15
-* [Google、BigQueryをAWSやAzureなどマルチクラウド展開へ、「BigQuery Omni」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googlebigqueryawsazurebigquery_omnigoogle_cloud_next_20onair.html) 2020/07/16
-* [Google、データを暗号化したまま処理する仮想マシン「Confidential VM」発表。Google Cloud Next &apos;20:OnAir](https://www.publickey1.jp/blog/20/googleconfidentail_vmgoogle_cloud_next_20onair.html) 2020/07/16
-* [米国防省、KubernetesをF-16ジェット戦闘機に載せてみた](https://www.publickey1.jp/blog/20/kubernetesf-16.html) 2020/07/14
+* [マイクロソフト、サービスメッシュの新たなオープンソース実装「Open Service Mesh」発表。Envoy採用、CNCFへ寄贈予定](https://www.publickey1.jp/blog/20/open_service_meshenvoycncf.html) 2020/08/07
+* [TypeScriptのWebサイトが新しくなり、ロゴも刷新。PlaygroundやHandbookのコンテンツなど充実へ](https://www.publickey1.jp/blog/20/typescriptwebplaygroundhandbook.html) 2020/08/06
+* [SQL Serverのレイテンシをミリ秒以下にストレージが自動最適化、「SQL Integrated Storage」をTintriが提供開始](https://www.publickey1.jp/blog/20/sql_serversql_integrated_storagetintri.html) 2020/08/06
+* [マイクロソフト、Google、GitHub、Red Hatらが「Open Source Security Foundation」（OpenSSF）を結成。オープンソースのセキュリティ改善へ](https://www.publickey1.jp/blog/20/googlegithubred_hatopen_source_security_foundationopenssf.html) 2020/08/05
+* [Amazon TranslateがOfficeドキュメントに対応。WordやExcel、PowerPointファイルの中身を別言語に翻訳](https://www.publickey1.jp/blog/20/amazon_translateofficewordexcelpowerpoint.html) 2020/08/05
+* [AWS、独自開発したARMプロセッサ「Graviton 2」ベースのAmazon RDS MySQL/PostgreSQLをプレビュー開始。ARMはXeonを上回れるのか？](https://www.publickey1.jp/blog/20/awsarmgraviton_2amazon_rds_mysqlpostgresqlarmxeon.html) 2020/08/04
+* [「AWS Toolkit for Visual Studio Code」がAmazon S3をサポート。VSCodeからS3バケットの作成やデータのアップロード、ダウロードなど可能に](https://www.publickey1.jp/blog/20/aws_toolkit_for_visual_studio_codeamazon_s3vscodes3.html) 2020/08/04
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
