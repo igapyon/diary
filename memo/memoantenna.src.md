@@ -3,10 +3,10 @@
 
 ## 資料: いがぴょんのアンテナ
 
-よく参照させていただいている他の方の web サイトについて、RSS フィードさせていただいております。
+よく参照させていただいている他の方の web サイトについて、RSS フィードさせていただいておりました。(現在は運用停止)
 
 <#-- RSSフィード展開処理 -->
-<@rssfeed url="https://www.publickey1.jp/atom.xml" maxcount="7" />
+<${'@'}rssfeed url="https://www.publickey1.jp/atom.xml" maxcount="7" />
 
 <${'@'}rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
 
