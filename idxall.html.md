@@ -35,6 +35,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)
 * [2020-08-02 diary: 自宅モニタヘッドホン購入](2020/ig200802.html)

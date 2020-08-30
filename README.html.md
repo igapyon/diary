@@ -35,6 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)
 * [2020-08-02 diary: 自宅モニタヘッドホン購入](2020/ig200802.html)
@@ -49,7 +50,6 @@
 * [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
 * [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](2020/ig200426.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
-* [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 
 
 私のインターネットへのアンテナです。
@@ -62,13 +62,13 @@
 
 #### [Publickey](https://www.publickey1.jp/)
 
-* [マイクロソフト、サービスメッシュの新たなオープンソース実装「Open Service Mesh」発表。Envoy採用、CNCFへ寄贈予定](https://www.publickey1.jp/blog/20/open_service_meshenvoycncf.html) 2020/08/07
-* [TypeScriptのWebサイトが新しくなり、ロゴも刷新。PlaygroundやHandbookのコンテンツなど充実へ](https://www.publickey1.jp/blog/20/typescriptwebplaygroundhandbook.html) 2020/08/06
-* [SQL Serverのレイテンシをミリ秒以下にストレージが自動最適化、「SQL Integrated Storage」をTintriが提供開始](https://www.publickey1.jp/blog/20/sql_serversql_integrated_storagetintri.html) 2020/08/06
-* [マイクロソフト、Google、GitHub、Red Hatらが「Open Source Security Foundation」（OpenSSF）を結成。オープンソースのセキュリティ改善へ](https://www.publickey1.jp/blog/20/googlegithubred_hatopen_source_security_foundationopenssf.html) 2020/08/05
-* [Amazon TranslateがOfficeドキュメントに対応。WordやExcel、PowerPointファイルの中身を別言語に翻訳](https://www.publickey1.jp/blog/20/amazon_translateofficewordexcelpowerpoint.html) 2020/08/05
-* [AWS、独自開発したARMプロセッサ「Graviton 2」ベースのAmazon RDS MySQL/PostgreSQLをプレビュー開始。ARMはXeonを上回れるのか？](https://www.publickey1.jp/blog/20/awsarmgraviton_2amazon_rds_mysqlpostgresqlarmxeon.html) 2020/08/04
-* [「AWS Toolkit for Visual Studio Code」がAmazon S3をサポート。VSCodeからS3バケットの作成やデータのアップロード、ダウロードなど可能に](https://www.publickey1.jp/blog/20/aws_toolkit_for_visual_studio_codeamazon_s3vscodes3.html) 2020/08/04
+* [リモートワーク環境のセキュリティを確保し、担当者の負担も減らすには？［PR］](https://www.publickey1.jp/blog/20/pr_9.html) 2020/08/28
+* [Kubernetesを40MBのシングルバイナリとした軽量ディストリビューション「K3s」がCloud Native Computing Foundationのサンドボックスプロジェクトに採用](https://www.publickey1.jp/blog/20/kubernetes40mbk3scloud_native_computing_foundation.html) 2020/08/28
+* [IaaS型クラウドにおけるAWSのシェアは45％、Azureが18％で2位、3位はアリババ。2020年8月のガートナー調査](https://www.publickey1.jp/blog/20/iaasaws45azure182320208.html) 2020/08/25
+* [Google、一人称視点シューティングや大規模多人数参加型ゲームなどの基盤となる「Google Cloud Game Servers」を正式サービスとして提供開始](https://www.publickey1.jp/blog/20/googlegoogle_cloud_game_servers.html) 2020/08/25
+* [ガートナー「先進テクノロジのハイプ・サイクル：2020年」を発表。ソーシャルディスタンス技術、説明可能なAI、などが過度な期待](https://www.publickey1.jp/blog/20/2020ai_1.html) 2020/08/23
+* [「AWS Controllers for Kubernetes」(ACK)、AWSが公開。KubernetesからAWSのサービスを定義可能](https://www.publickey1.jp/blog/20/aws_controllers_for_kubernetesackawsawskubernetes.html) 2020/08/24
+* [「Rust Foundation」が年内にも設立。Rust言語のコアチームとMozillaが発表](https://www.publickey1.jp/blog/20/rust_foundationrustmozilla.html) 2020/08/21
 
 
 <@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
