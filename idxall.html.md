@@ -35,6 +35,9 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2020-10-03 diary: 自宅エアコン更新 (DAIKIN AN-25XES-W)](2020/ig201003.html)
+* [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](2020/ig201002.html)
+* [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](2020/ig200927.html)
 * [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)

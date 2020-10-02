@@ -35,6 +35,9 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-10-03 diary: 自宅エアコン更新 (DAIKIN AN-25XES-W)](2020/ig201003.html)
+* [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](2020/ig201002.html)
+* [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](2020/ig200927.html)
 * [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)
@@ -47,9 +50,6 @@
 * [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](2020/ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
 * [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](2020/ig200516.html)
-* [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](2020/ig200503.html)
-* [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](2020/ig200426.html)
-* [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
 
 
 私のインターネットへのアンテナです。
