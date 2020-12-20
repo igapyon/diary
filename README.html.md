@@ -35,6 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](2020/ig201220.html)
 * [2020-10-03 diary: 自宅エアコン更新 (DAIKIN AN-25XES-W)](2020/ig201003.html)
 * [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](2020/ig201002.html)
 * [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](2020/ig200927.html)
@@ -49,7 +50,6 @@
 * [2020-06-07 diary: [Linux] Mac GarageBand で作成した録音ファイルを YouTube にアップロードする際の変換スクリプト](2020/ig200607.html)
 * [2020-05-19 diary: [Salesforce] Lightning コンポーネント系の基礎用語メモ](2020/ig200519.html)
 * [2020-05-18 diary: [Linux] ステレオの音声データを ffmpeg でモノラルに変換](2020/ig200518.html)
-* [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](2020/ig200516.html)
 
 
 私のインターネットへのアンテナです。

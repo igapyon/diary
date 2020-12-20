@@ -34,6 +34,7 @@
 
 ## いがぴょんの日記：2019年の日記
 
+* [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](ig201220.html)
 * [2020-10-03 diary: 自宅エアコン更新 (DAIKIN AN-25XES-W)](ig201003.html)
 * [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](ig201002.html)
 * [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](ig200927.html)
