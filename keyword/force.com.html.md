@@ -25,6 +25,7 @@ Force.com
 
 ### 日記
 
+* [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](../2020/ig201220.html)
 * [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](../2018/ig180528.html)
 * [2016-10-05 diary: [Force.com] シンプルな Visualforce + [Apex] サンプル](../2016/ig161005.html)
 * [2016-09-14 diary: [Force.com] Migration Tool のセットアップ](../2016/ig160914.html)
