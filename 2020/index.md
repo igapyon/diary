@@ -34,7 +34,7 @@
 
 ## いがぴょんの日記：2019年の日記
 
-* [2020-12-27 diary: [Force.com][Apex] シンプル定期実行サンプル](ig201227.html)
+* [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](ig201226.html)
 * [2020-12-23 diary: めっきり冬らしく](ig201223.html)
 * [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](ig201220.html)
