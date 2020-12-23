@@ -35,7 +35,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2020-12-27 diary: [Force.com][Apex] シンプル定期実行サンプル](2020/ig201227.html)
+* [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](2020/ig201226.html)
 * [2020-12-23 diary: めっきり冬らしく](2020/ig201223.html)
 * [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](2020/ig201220.html)
@@ -235,7 +235,7 @@
 * [2016-10-23 diary: Eclipse AST を利用した PHP ソースコード解析](2016/ig161023.html)
 * [2016-10-22 diary: Eclipse AST を利用した Java ソースコード解析](2016/ig161022.html)
 * [2016-10-19 diary: iOS でボイスレコーダー](2016/ig161019.html)
-* [2016-10-05 diary: [Force.com] シンプルな Visualforce + [Apex] サンプル](2016/ig161005.html)
+* [2016-10-05 diary: [Force.com] シンプル Visualforce + [Apex] サンプル (POST版)](2016/ig161005.html)
 * [2016-09-30 diary: 決済（債権、債務）を勉強中](2016/ig160930.html)
 * [2016-09-28 diary: 愛用している audio-technica ヘッドホンにヘッドセット能力が付属](2016/ig160928.html)
 * [2016-09-21 diary: 米国における派遣社員の概念についてのリンクメモ](2016/ig160921.html)
@@ -269,7 +269,7 @@
 * [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](2016/ig160724.html)
 * [2016-07-23 diary: Mac をスクリーンロックするショートカット](2016/ig160723.html)
 * [2016-07-22 diary: 機械翻訳OSSメモ](2016/ig160722.html)
-* [2016-07-20 diary: [Force.com] シンプル Visualforce + [Apex] サンプル](2016/ig160720.html)
+* [2016-07-20 diary: [Force.com] シンプル Visualforce + [Apex] サンプル (GET版)](2016/ig160720.html)
 * [2016-07-15 diary: [Force.com] ネタ Test で こんにちは世界](2016/ig160715.html)
 * [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](2016/ig160713.html)
 * [2016-07-04 diary: 購入メモ: UNIQLO ドライEX フルジップパーカ (XL)](2016/ig160704.html)

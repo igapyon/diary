@@ -25,11 +25,11 @@ Force.com
 
 ### 日記
 
-* [2020-12-27 diary: [Force.com][Apex] シンプル定期実行サンプル](../2020/ig201227.html)
+* [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](../2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](../2020/ig201226.html)
 * [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](../2020/ig201220.html)
 * [2018-05-28 diary: [Force.com] [Apex] Batch を、ちょこっと起動するためのコード](../2018/ig180528.html)
-* [2016-10-05 diary: [Force.com] シンプルな Visualforce + [Apex] サンプル](../2016/ig161005.html)
+* [2016-10-05 diary: [Force.com] シンプル Visualforce + [Apex] サンプル (POST版)](../2016/ig161005.html)
 * [2016-09-14 diary: [Force.com] Migration Tool のセットアップ](../2016/ig160914.html)
 * [2016-08-22 diary: [Force.com] 私なりの Force.com 開発者向け SFDC Trailhead 学習順序](../2016/ig160822.html)
 * [2016-07-28 diary: [Force.com][Tooling API] メモ: クラス取得](../2016/ig160728.html)
@@ -37,7 +37,7 @@ Force.com
 * [2016-07-26 diary: [Force.com][Tooling API] メモ: クラス更新](../2016/ig160726.html)
 * [2016-07-25 diary: [Force.com] 認定試験メモ](../2016/ig160725.html)
 * [2016-07-24 diary: [Force.com][Tooling API] メモ: ToolingConnection取得](../2016/ig160724.html)
-* [2016-07-20 diary: [Force.com] シンプル Visualforce + [Apex] サンプル](../2016/ig160720.html)
+* [2016-07-20 diary: [Force.com] シンプル Visualforce + [Apex] サンプル (GET版)](../2016/ig160720.html)
 * [2016-07-15 diary: [Force.com] ネタ Test で こんにちは世界](../2016/ig160715.html)
 * [2016-07-13 diary: [Force.com][Java] ネタ Enterprise API によるSFDC接続](../2016/ig160713.html)
 * [2016-06-30 diary: [Force.com] Force.com Migration Tool Simple Sample](../2016/ig160630.html)

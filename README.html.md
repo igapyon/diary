@@ -35,7 +35,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2020-12-27 diary: [Force.com][Apex] シンプル定期実行サンプル](2020/ig201227.html)
+* [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](2020/ig201226.html)
 * [2020-12-23 diary: めっきり冬らしく](2020/ig201223.html)
 * [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](2020/ig201220.html)
