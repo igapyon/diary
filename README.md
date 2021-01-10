@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2020](2020/index.html)
+[2021](2021/index.html)
+/ [2020](2020/index.html)
 / [2019](2019/index.html)
 / [2018](2018/index.html)
 / [2017](2017/index.html)
@@ -35,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-01-10 diary: 自宅インターネット接続設定変更（フレッツ光 マンション共有）](2021/ig210110.html)
 * [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](2020/ig201226.html)
 * [2020-12-23 diary: めっきり冬らしく](2020/ig201223.html)
@@ -49,7 +51,6 @@
 * [2020-07-17 diary: Adobe Audition + Shure BETA98A + Behringer B-2 Pro の Reverb メモ](2020/ig200717.html)
 * [2020-07-15 diary: Paolo Borciani (Quartetto Italiano) の 1st Violin の使用楽器は Enrico Rocca 製](2020/ig200715.html)
 * [2020-07-01 diary: Behringer B-2 Pro を購入](2020/ig200701.html)
-* [2020-06-28 diary: Adobe Audition + Shure BETA98A の Reverb メモ](2020/ig200628.html)
 
 
 私のインターネットへのアンテナです。

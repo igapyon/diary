@@ -5,7 +5,8 @@
 [![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
-[2020](../2020/index.html)
+[2021](../2021/index.html)
+/ [2020](../2020/index.html)
 / [2019](../2019/index.html)
 / [2018](index.html)
 / [2017](../2017/index.html)
