@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-01-11 diary: [Java] BigDecimal シンプルサンプルメモ](2021/ig210111.html)
 * [2021-01-10 diary: 自宅インターネット接続設定変更（フレッツ光 マンション共有）](2021/ig210110.html)
 * [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](2020/ig201226.html)
