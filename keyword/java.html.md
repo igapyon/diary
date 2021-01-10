@@ -26,6 +26,7 @@ Java
 
 ### 日記
 
+* [2021-01-11 diary: [Java] BigDecimal シンプルサンプルメモ](../2021/ig210111.html)
 * [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](../2020/ig200516.html)
 * [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](../2020/ig200426.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](../2020/ig200102.html)
