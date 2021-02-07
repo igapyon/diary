@@ -37,6 +37,7 @@
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
 * [2021-02-07 diary: 結月ゆかり(VOICEROID2)で九九読み上げを試作](2021/ig210207.html)
+* [2021-02-06 diary: 結月ゆかり(VOICEROID2)で素因数分解の読み上げを試作](2021/ig210206.html)
 * [2021-01-11 diary: [Java] BigDecimal シンプルサンプルメモ](2021/ig210111.html)
 * [2021-01-10 diary: 自宅インターネット接続設定変更（フレッツ光 マンション共有）](2021/ig210110.html)
 * [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
@@ -50,7 +51,6 @@
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)
 * [2020-08-02 diary: 自宅モニタヘッドホン購入](2020/ig200802.html)
-* [2020-07-17 diary: Adobe Audition + Shure BETA98A + Behringer B-2 Pro の Reverb メモ](2020/ig200717.html)
 
 
 私のインターネットへのアンテナです。
