@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-02-11 diary: Diary title here](2021/ig210211.html)
 * [2021-02-07 diary: 結月ゆかり(VOICEROID2)で九九読み上げを試作](2021/ig210207.html)
 * [2021-02-06 diary: 結月ゆかり(VOICEROID2)で素因数分解の読み上げを試作](2021/ig210206.html)
 * [2021-01-11 diary: [Java] BigDecimal シンプルサンプルメモ](2021/ig210111.html)
@@ -50,7 +51,6 @@
 * [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
 * [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 * [2020-08-08 diary: 自宅 PCディスプレイ購入](2020/ig200808.html)
-* [2020-08-02 diary: 自宅モニタヘッドホン購入](2020/ig200802.html)
 
 
 私のインターネットへのアンテナです。
