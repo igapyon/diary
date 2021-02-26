@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
 * [2021-02-11 diary: 季節変わり目](2021/ig210211.html)
 * [2021-02-07 diary: 結月ゆかり(VOICEROID2)で九九読み上げを試作](2021/ig210207.html)
 * [2021-02-06 diary: 結月ゆかり(VOICEROID2)で素因数分解の読み上げを試作](2021/ig210206.html)
