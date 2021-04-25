@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-04-25 diary: Oiyokan OData v4 server (provider) SDK](2021/ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
 * [2021-02-11 diary: 季節変わり目](2021/ig210211.html)
 * [2021-02-07 diary: 結月ゆかり(VOICEROID2)で九九読み上げを試作](2021/ig210207.html)
@@ -50,7 +51,6 @@
 * [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](2020/ig201002.html)
 * [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](2020/ig200927.html)
 * [2020-08-30 diary: 自宅の使っていなかった PC を復活](2020/ig200830.html)
-* [2020-08-09 diary: 自宅テレカン環境メモ](2020/ig200809.html)
 
 
 私のインターネットへのアンテナです。
