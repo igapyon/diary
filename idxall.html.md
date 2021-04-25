@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-04-26 diary: もう4月も終わりに](2021/ig210426.html)
 * [2021-04-25 diary: Oiyokan OData v4 server (provider) SDK](2021/ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
 * [2021-02-11 diary: 季節変わり目](2021/ig210211.html)
