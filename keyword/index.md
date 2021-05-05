@@ -80,6 +80,7 @@
 * [Maven](maven.html)
 * [引越](moving.html)
 * [OAuth](oauth.html)
+* [Oiyokan](oiyokan.html)
 * [OmegaT](omegat.html)
 * [OSS](oss.html)
 * [PHP](php.html)

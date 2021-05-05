@@ -80,6 +80,7 @@
 * [Maven](keyword/maven.html)
 * [引越](keyword/moving.html)
 * [OAuth](keyword/oauth.html)
+* [Oiyokan](keyword/oiyokan.html)
 * [OmegaT](keyword/omegat.html)
 * [OSS](keyword/oss.html)
 * [PHP](keyword/php.html)
