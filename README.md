@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-05-05 diary: [Oiyokan] Initializr 使い方](2021/ig210505.html)
 * [2021-04-26 diary: もう4月も終わりに](2021/ig210426.html)
 * [2021-04-25 diary: Oiyokan OData v4 server (provider) SDK](2021/ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
@@ -50,7 +51,6 @@
 * [2020-12-20 diary: [Force.com][Apex] シンプル Salesforce Files 読込サンプル](2020/ig201220.html)
 * [2020-10-03 diary: 自宅エアコン更新 (DAIKIN AN-25XES-W)](2020/ig201003.html)
 * [2020-10-02 diary: Nintendo Switch 購入 (フィットネス用途)](2020/ig201002.html)
-* [2020-09-27 diary: 実家電話に LET&apos;S 振込め詐欺見張隊 新117 を導入](2020/ig200927.html)
 
 
 私のインターネットへのアンテナです。
