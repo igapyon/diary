@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-05-09 diary: [Oiyokan] Initializr : RDB用の REST API Server をすばやく生成](2021/ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](2021/ig210506.html)
 * [2021-05-05 diary: [Oiyokan] Initializr 使い方](2021/ig210505.html)
 * [2021-04-26 diary: もう4月も終わりに](2021/ig210426.html)

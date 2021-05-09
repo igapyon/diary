@@ -27,6 +27,7 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ### 日記
 
+* [2021-05-09 diary: [Oiyokan] Initializr : RDB用の REST API Server をすばやく生成](../2021/ig210509.html)
 * [2021-05-05 diary: [Oiyokan] Initializr 使い方](../2021/ig210505.html)
 * [2021-04-25 diary: [Oiyokan] OData v4 server (provider) SDK](../2021/ig210425.html)
 
