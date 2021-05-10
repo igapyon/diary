@@ -37,9 +37,9 @@
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
 * [2021-05-11 diary: 場所により真夏日](2021/ig210511.html)
-* [2021-05-09 diary: [Oiyokan] Initializr : RDB用の REST API Server をすばやく生成](2021/ig210509.html)
+* [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](2021/ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](2021/ig210506.html)
-* [2021-05-05 diary: [Oiyokan] Initializr 使い方](2021/ig210505.html)
+* [2021-05-05 diary: [Oiyokan] Oiyokan Initializr の使い方](2021/ig210505.html)
 * [2021-04-26 diary: もう4月も終わりに](2021/ig210426.html)
 * [2021-04-25 diary: [Oiyokan] OData v4 server (provider) SDK](2021/ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
