@@ -31,7 +31,7 @@
 ## 職業
 
 * 月給会社員です。
-* 東京・青山一丁目にある [株式会社アピリオ](http://appirio.co.jp/) に勤務しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
+* 東京・青山一丁目にある [株式会社ウィプロ・アピリオ](http://appirio.co.jp/) に勤務しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
 
 ## 職種
 
