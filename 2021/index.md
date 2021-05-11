@@ -35,6 +35,7 @@
 
 ## いがぴょんの日記：2021年の日記
 
+* [2021-05-12 diary: 気温の寒暖が激しすぎ](ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](ig210506.html)
