@@ -35,10 +35,10 @@
 
 ## いがぴょんの日記：2021年の日記
 
-* [2021-05-11 diary: 場所により真夏日](ig210511.html)
+* [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](ig210506.html)
-* [2021-05-05 diary: [Oiyokan] Oiyokan Initializr の使い方](ig210505.html)
+* [2021-05-05 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.1)](ig210505.html)
 * [2021-04-26 diary: もう4月も終わりに](ig210426.html)
 * [2021-04-25 diary: [Oiyokan] OData v4 server (provider) SDK](ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](ig210227.html)
