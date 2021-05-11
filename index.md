@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-05-12 diary: 気温の寒暖が激しすぎ](2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](2021/ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](2021/ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](2021/ig210506.html)
@@ -50,7 +51,6 @@
 * [2021-01-10 diary: 自宅インターネット接続設定変更（フレッツ光 マンション共有）](2021/ig210110.html)
 * [2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル](2020/ig201227.html)
 * [2020-12-26 diary: [Force.com][Apex] シンプル・バッチ・サンプル](2020/ig201226.html)
-* [2020-12-23 diary: めっきり冬らしく](2020/ig201223.html)
 
 
 私のインターネットへのアンテナです。

@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-05-12 diary: 気温の寒暖が激しすぎ](2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](2021/ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](2021/ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](2021/ig210506.html)
