@@ -10,6 +10,12 @@ Oiyokan
 Oiyokan を使うと RDBMS を JDBC Driver を使って OData v4 サービスにすることができます。
 Apache Olingo / Spring Boot / h2 database ベースです。
 
+### Oiyokan Initializr
+
+簡単に Oiyokan を試すには `Oiyokan Initializr` を利用するのが一番近道です。
+
+* Getting Started : [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](http://www.igapyon.jp/igapyon/diary/2021/ig210511.html)
+
 ### URL
 
 * [https://github.com/igapyon/oiyokan](https://github.com/igapyon/oiyokan)
