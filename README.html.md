@@ -36,6 +36,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](2021/ig210514.html)
 * [2021-05-13 diary: 春眠暁を覚えず 的な気分](2021/ig210513.html)
 * [2021-05-12 diary: 気温の寒暖が激しすぎ](2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](2021/ig210511.html)
@@ -50,7 +51,6 @@
 * [2021-02-07 diary: 結月ゆかり(VOICEROID2)で九九読み上げを試作](2021/ig210207.html)
 * [2021-02-06 diary: 結月ゆかり(VOICEROID2)で素因数分解の読み上げを試作](2021/ig210206.html)
 * [2021-01-11 diary: [Java] BigDecimal シンプルサンプルメモ](2021/ig210111.html)
-* [2021-01-10 diary: 自宅インターネット接続設定変更（フレッツ光 マンション共有）](2021/ig210110.html)
 
 
 私のインターネットへのアンテナです。

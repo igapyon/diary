@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](2021/ig210514.html)
 * [2021-05-13 diary: 春眠暁を覚えず 的な気分](2021/ig210513.html)
 * [2021-05-12 diary: 気温の寒暖が激しすぎ](2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](2021/ig210511.html)

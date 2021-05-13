@@ -33,6 +33,7 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ### 日記
 
+* [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](../2021/ig210514.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](../2021/ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](../2021/ig210509.html)
 * [2021-05-05 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.1)](../2021/ig210505.html)
