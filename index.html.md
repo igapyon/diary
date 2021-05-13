@@ -42,7 +42,7 @@
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](2021/ig210509.html)
 * [2021-05-06 diary: 花粉症の季節は過ぎにけり](2021/ig210506.html)
 * [2021-05-05 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.1)](2021/ig210505.html)
-* [2021-05-04 diary: Salesforce Connect - OData v4 から Oiyokan を利用する](2021/ig210504.html)
+* [2021-05-04 diary: [Oiyokan] Salesforce Connect - OData 4.0 から Oiyokan を利用する](2021/ig210504.html)
 * [2021-04-26 diary: [Oiyokan] oiyokan-settings.json spec](2021/ig210426.html)
 * [2021-04-25 diary: [Oiyokan] OData v4 server (provider) SDK](2021/ig210425.html)
 * [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
