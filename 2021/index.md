@@ -35,6 +35,7 @@
 
 ## いがぴょんの日記：2021年の日記
 
+* [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](ig210514.html)
 * [2021-05-13 diary: 春眠暁を覚えず 的な気分](ig210513.html)
 * [2021-05-12 diary: 気温の寒暖が激しすぎ](ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](ig210511.html)
