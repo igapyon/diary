@@ -58,6 +58,15 @@
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
   <entry>
+    <title>2021-05-04 diary: Salesforce Connect - OData v4 から Oiyokan を利用する</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2021/ig210504.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2021/ig210504.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2021-04-26 diary: [Oiyokan] oiyokan-settings.json spec</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2021/ig210426.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2021/ig210110.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2020-12-27 diary: [Force.com][Apex] シンプル・バッチ定期実行サンプル</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2020/ig201227.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2020/ig201227.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>
