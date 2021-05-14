@@ -36,6 +36,7 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](../2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](../2021/ig210515.html)
 * [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](../2021/ig210514.html)
+* [2021-05-12 diary: [Oiyokan] Unsupported features in Oiyokan v1.14](../2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](../2021/ig210511.html)
 * [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](../2021/ig210509.html)
 * [2021-05-05 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.1)](../2021/ig210505.html)
