@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](2021/ig210515.html)
 * [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](2021/ig210514.html)
 * [2021-05-13 diary: 春眠暁を覚えず 的な気分](2021/ig210513.html)
