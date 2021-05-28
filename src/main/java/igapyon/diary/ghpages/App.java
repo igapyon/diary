@@ -9,7 +9,7 @@ package igapyon.diary.ghpages;
 import java.io.IOException;
 
 /**
- * usage: mvn install exec:java
+ * usage: mvn package exec:java
  */
 public class App {
 	/**
