@@ -37,7 +37,7 @@
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](2021/ig210606.html)
-* [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr (v1.1)](2021/ig210605.html)
+* [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](2021/ig210605.html)
 * [2021-05-29 diary: ここ最近の疲れが](2021/ig210529.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](2021/ig210515.html)
