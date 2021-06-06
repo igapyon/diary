@@ -36,7 +36,9 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2021-05-29 diary: Diary title here](2021/ig210529.html)
+* [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](2021/ig210606.html)
+* [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr (v1.1)](2021/ig210605.html)
+* [2021-05-29 diary: ここ最近の疲れが](2021/ig210529.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](2021/ig210515.html)
 * [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](2021/ig210514.html)
@@ -49,8 +51,6 @@
 * [2021-05-04 diary: [Oiyokan] Salesforce Connect - OData 4.0 から Oiyokan を利用する](2021/ig210504.html)
 * [2021-04-26 diary: [Oiyokan] oiyokan-settings.json spec](2021/ig210426.html)
 * [2021-04-25 diary: [Oiyokan] OData v4 server (provider) SDK](2021/ig210425.html)
-* [2021-02-27 diary: テレビにて、スギ花粉がピークと放送されてた](2021/ig210227.html)
-* [2021-02-11 diary: 季節変わり目](2021/ig210211.html)
 
 
 私のインターネットへのアンテナです。
