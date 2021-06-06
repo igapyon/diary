@@ -33,6 +33,8 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ### 日記
 
+* [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](../2021/ig210606.html)
+* [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr (v1.1)](../2021/ig210605.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](../2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](../2021/ig210515.html)
 * [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](../2021/ig210514.html)
