@@ -37,7 +37,7 @@
 
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](ig210606.html)
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](ig210605.html)
-* [2021-05-29 diary: ここ最近の疲れが](ig210529.html)
+* [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](ig210529.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](ig210515.html)
 * [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](ig210514.html)
