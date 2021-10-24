@@ -36,7 +36,8 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2021-10-24 diary: 急に冬めいて来ました](2021/ig211024.html)
+* [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
+* [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](2021/ig210606.html)
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](2021/ig210605.html)
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](2021/ig210529.html)
