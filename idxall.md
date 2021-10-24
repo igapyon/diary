@@ -36,6 +36,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2021-10-24 diary: 急に冬めいて来ました](2021/ig211024.html)
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](2021/ig210606.html)
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](2021/ig210605.html)
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](2021/ig210529.html)
@@ -85,6 +86,7 @@
 * [2019-05-15 diary: 今日は一時雨](2019/ig190515.html)
 * [2019-05-12 diary: [Linux] 個人向けホームビデオで録画したデータを ffmpeg で mp4 に変換](2019/ig190512.html)
 * [2019-05-11 diary: [Linux] iPhone で録音したデータを ffmpeg で mp3 に変換](2019/ig190511.html)
+* [2019-03-15 diary: 私のオーダーメイド・バイオリン（愛称 Rina）](2019/ig190315.html)
 * [2019-02-15 diary: Windows 10 に WSL のインストール方法](2019/ig190215.html)
 * [2019-01-20 diary: [Java][Spring] Teams チャンネルに Incoming Webhook 経由の記事投入](2019/ig190120.html)
 * [2019-01-08 diary: 父親用に エレコム Bluetooth ブルートゥース オーディオレシーバー を購入](2019/ig190108.html)

@@ -35,6 +35,7 @@
 
 ## いがぴょんの日記：2021年の日記
 
+* [2021-10-24 diary: 急に冬めいて来ました](ig211024.html)
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](ig210606.html)
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](ig210605.html)
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](ig210529.html)
