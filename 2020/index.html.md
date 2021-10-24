@@ -56,6 +56,7 @@
 * [2020-05-16 diary: [Spring][Java] SpEL を自前プログラムに組み込んで利用する方法](ig200516.html)
 * [2020-05-03 diary: Roland Rubix22 と Shure BETA98A/C-X を購入](ig200503.html)
 * [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](ig200426.html)
+* [2020-03-15 diary: オーダーメイド・バイオリン Alachi Souiti 2020（愛称 Rina）](ig200315.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](ig200102.html)
 
 
