@@ -38,6 +38,7 @@
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
+* [2022-03-05 diary: 現時点の私の音響機器一式メモ (UR44Cを中心)](2022/ig220305.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
 * [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
 * [2021-10-17 diary: 2021年に買った気になったものをメモ](2021/ig211017.html)
