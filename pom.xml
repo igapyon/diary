@@ -89,7 +89,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
+				<version>3.10.1</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -101,7 +101,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.5.0</version>
+				<version>3.0.0</version>
 				<configuration>
 					<mainClass>igapyon.diary.ghpages.App</mainClass>
 				</configuration>
@@ -184,6 +184,7 @@
                                 <include name="2019/*.html" />
                                 <include name="2020/*.html" />
                                 <include name="2021/*.html" />
+                                <include name="2022/*.html" />
 							</fileset>
 						</ftp>
 					</target>
@@ -193,18 +194,11 @@
 				</goals>
 				<dependencies>
 					<!-- ant ftp dependency -->
-					<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
-					<dependency>
-						<groupId>commons-net</groupId>
-						<artifactId>commons-net</artifactId>
-						<version>3.5</version>
-					</dependency>
-					<!-- ant ftp dependency -->
 					<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-commons-net -->
 					<dependency>
 						<groupId>org.apache.ant</groupId>
 						<artifactId>ant-commons-net</artifactId>
-						<version>1.9.8</version>
+						<version>1.10.12</version>
 					</dependency>
 				</dependencies>
 			</plugin>
