@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2021](2021/index.html)
+[2022](2022/index.html)
+/ [2021](2021/index.html)
 / [2020](2020/index.html)
 / [2019](2019/index.html)
 / [2018](2018/index.html)
@@ -36,6 +37,7 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成](2022/ig220312.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
 * [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
 * [2021-10-17 diary: 2021年に買った気になったものをメモ](2021/ig211017.html)
