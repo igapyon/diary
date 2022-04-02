@@ -37,6 +37,7 @@
 
 ### 比較的最近の日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2022-04-02 diary: 現時点の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
 * [2022-03-05 diary: 現時点の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220305.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
@@ -51,7 +52,6 @@
 * [2021-05-13 diary: [Oiyokan] Supported HTTP method by Oiyokan v1.14](2021/ig210513.html)
 * [2021-05-12 diary: [Oiyokan] Unsupported features in Oiyokan v1.14](2021/ig210512.html)
 * [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](2021/ig210511.html)
-* [2021-05-09 diary: [Oiyokan] RDB用の REST API Server をローコードですばやく生成](2021/ig210509.html)
 
 
 私のインターネットへのアンテナです。
