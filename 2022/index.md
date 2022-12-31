@@ -36,6 +36,8 @@
 
 ## いがぴょんの日記：2022年の日記
 
+* [2022-12-31 diary: Diary title here](ig221231.html)
+* [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](ig220901.html)
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](ig220305.html)
@@ -46,4 +48,4 @@
 ## この日記について
 
 * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A2022%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F2022%2Findex.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
-* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 
+* 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 
