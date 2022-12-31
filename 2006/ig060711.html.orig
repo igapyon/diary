@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/07/11 “ú‹L: JExcelApi 2.5.8 ‚ª Sun JDK 1.4.2_12 ã‚Å“®ì‚ªˆÙí‚Ìê‡‚ª‚ ‚é</TITLE>
-<META name="DESCRIPTION" content="Œ´ˆö‚ð’²¸’†‚Å‚·BSun JDK 1.4.2_12‚æ‚èˆÈ‘O‚ÌJDK‚Å‚Í ‚±‚ÌŒ»Û‚Í”­¶‚µ‚È‚¢–Í—l‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JExcelApi">
+<TITLE>2006/07/11 ï¿½ï¿½ï¿½L: JExcelApi 2.5.8 ï¿½ï¿½ Sun JDK 1.4.2_12 ï¿½ï¿½Å“ï¿½ï¿½ì‚ªï¿½Ùï¿½Ìê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BSun JDK 1.4.2_12ï¿½ï¿½ï¿½È‘Oï¿½ï¿½JDKï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Û‚Í”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JExcelApi">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/07/11 “ú‹L: JExcelApi 2.5.8 ‚ª Sun JDK 1.4.2_12 ã‚Å“®ì‚ªˆÙí‚Ìê‡‚ª‚ ‚é</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JExcelApi] Œ´ˆö‚ð’²¸’†‚Å‚·BSun JDK 1.4.2_12‚æ‚èˆÈ‘O‚ÌJDK‚Å‚Í ‚±‚ÌŒ»Û‚Í”­¶‚µ‚È‚¢–Í—l‚Å‚·B</P>
+    <H2>2006/07/11 ï¿½ï¿½ï¿½L: JExcelApi 2.5.8 ï¿½ï¿½ Sun JDK 1.4.2_12 ï¿½ï¿½Å“ï¿½ï¿½ì‚ªï¿½Ùï¿½Ìê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JExcelApi] ï¿½ï¿½ï¿½ï¿½ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BSun JDK 1.4.2_12ï¿½ï¿½ï¿½È‘Oï¿½ï¿½JDKï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Û‚Í”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,70 +60,70 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.5.8 ‚ª Sun JDK 1.4.2_12 ã‚Å“®ì‚ªˆÙí‚Ìê‡‚ª‚ ‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JExcelApi 2.5.8 ï¿½ï¿½ Sun JDK 1.4.2_12 ï¿½ï¿½Å“ï¿½ï¿½ì‚ªï¿½Ùï¿½Ìê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠB“¯—l‚È‚à‚Ì‚Æ‚µ‚Ä Jakarta POI‚ª’m‚ç‚ê‚Ä‚¢‚éB">JExcelApi</A> 2.5.8 ‚Í Sun JDK 1.4.2_12 ã‚Å“®ì‚ªˆÙí‚Å‚ ‚éê‡‚ª‚ ‚é‚æ‚¤‚Å‚·B</P>
-<P>Œ´ˆö‚ð’²¸’†‚Å‚·BSun JDK 1.4.2_12‚æ‚èˆÈ‘O‚ÌJDK‚Å ‚±‚ÌŒ»Û‚Í”­¶‚µ‚È‚¢ê–Ê‚ðŠm”F‚µ‚Ä‚¢‚Ü‚·B‚Ç‚ÌƒŠƒrƒWƒ‡ƒ“‚©‚ç ‚±‚Ì–â‘è‚ªŒ°Ý‰»‚µ‚Ä‚¢‚é‚Ì‚©‚Í
-–¾Šm‚Å‚Í‚ ‚è‚Ü‚¹‚ñBˆê•û‚Å Œ»Žž“_‚ÌÅV”Å‚Å‚ ‚é <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠB“¯—l‚È‚à‚Ì‚Æ‚µ‚Ä Jakarta POI‚ª’m‚ç‚ê‚Ä‚¢‚éB">JExcelApi</A> 2.6 ‚É‚¨‚¢‚ÄA“¯—l‚ÌŒ»Û‚ª”­¶‚·‚é‚©‚Ç‚¤‚©‚É‚Â‚¢‚Ä‚à’²¸‚Í‚Å‚«‚Ä‚¢‚Ü‚¹‚ñB</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Ì\¬—v‘f‚Å‚ ‚é‘½‚­‚Ìƒvƒƒ_ƒNƒg‚Í Excel‚©‚ç‚Ì“Ç‚Ýž‚Ýˆ—‚Ì‚Ù‚Æ‚ñ‚Ç‚ð JExcelApi‚ÉˆË‘¶‚µ‚Ä‚¢‚Ü‚·B‚±‚Ì‚½‚ßAblanco
-Frameworkƒvƒƒ_ƒNƒg‚Ì‘½‚­‚ª Sun JDK 1.4.2_12 ‚É‚¨‚¢‚Ä“®ì‚ª•s’²‚Æ‚¢‚¤Œ»Û‚ª”­¶‚·‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B(Excel‚©‚çXMLƒtƒ@ƒCƒ‹‚Ö‚Ì•ÏŠ·‚Ì‰ß’ö‚ÅA“à—e‚ª‘S‚­“Ç‚ÝŽæ‚ç‚ê‚È‚¢‚Æ‚¢‚¤Œ»Û‚Æ‚µ‚ÄŒ»‚ê‚Ä‚¢‚Ü‚·B)</P>
-<P><FONT color="#ff0000">2007.04.14’Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Å‚ÍA‚±‚Ì–â‘è‚É‘Îˆ‚·‚é‚½‚ß‚Ìƒpƒbƒ`•t JExcelApi‚ð”z•z‚µ‚Ä‚¢‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½lï¿½È‚ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½ Jakarta POIï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">JExcelApi</A> 2.5.8 ï¿½ï¿½ Sun JDK 1.4.2_12 ï¿½ï¿½Å“ï¿½ï¿½ì‚ªï¿½Ùï¿½Å‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BSun JDK 1.4.2_12ï¿½ï¿½ï¿½È‘Oï¿½ï¿½JDKï¿½ï¿½ ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Û‚Í”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ç‚Ìƒï¿½ï¿½rï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì–ï¿½è‚ªï¿½ï¿½ï¿½Ý‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½mï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½https://www.igapyon.jp/igapyon/diary/igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½lï¿½È‚ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½ Jakarta POIï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">JExcelApi</A> 2.6 ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½lï¿½ÌŒï¿½ï¿½Û‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½Ì\ï¿½ï¿½ï¿½vï¿½fï¿½Å‚ï¿½ï¿½é‘½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½ Excelï¿½ï¿½ï¿½ï¿½Ì“Ç‚Ýï¿½ï¿½Ýï¿½ï¿½ï¿½ï¿½Ì‚Ù‚Æ‚ï¿½Ç‚ï¿½ JExcelApiï¿½ÉˆË‘ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßAblanco
+Frameworkï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ Sun JDK 1.4.2_12 ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä“ï¿½ï¿½ì‚ªï¿½sï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(Excelï¿½ï¿½ï¿½ï¿½XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ö‚Ì•ÏŠï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅAï¿½ï¿½ï¿½eï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Ç‚ÝŽï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚Æ‚ï¿½ï¿½ÄŒï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B)</P>
+<P><FONT color="#ff0000">2007.04.14ï¿½Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½Å‚ÍAï¿½ï¿½ï¿½Ì–ï¿½ï¿½É‘Îï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒpï¿½bï¿½`ï¿½t JExcelApiï¿½ï¿½zï¿½zï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>–¾“ú‚©‚ç‘åão’£</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>–¾“ú‚©‚ç‘åão’£‚Å‚·B1”‘2“ú‚Ì—\’è‚É‚È‚éŒ©ž‚Ý‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Å‚ï¿½ï¿½B1ï¿½ï¿½2ï¿½ï¿½ï¿½Ì—\ï¿½ï¿½É‚È‚éŒ©ï¿½ï¿½ï¿½Ý‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft .NET Framework SDK 2.0‚Ì WebƒT[ƒrƒX‚É‚¨‚¯‚éƒoƒCƒiƒŠ“]‘—</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft .NET Framework SDK 2.0ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Cï¿½iï¿½ï¿½ï¿½]ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A> ‚Ì .NET Framework SDK 2.0‘Î‰ž‚Ì‰ß’ö‚ÅAMicrosoft .NET
-Framework SDK 2.0‚Ì WebƒT[ƒrƒX‚É‚¨‚¯‚éƒoƒCƒiƒŠ“]‘— (xsd:binary) ‚ðŠÈ’P‚É’²‚×‚Ä‚à‚ç‚¢‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">1 MB‚ÌƒoƒCƒiƒŠƒf[ƒ^“]‘—</FONT></P>
-<P>³í‚É“]‘—‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">10 MB‚ÌƒoƒCƒiƒŠƒf[ƒ^“]‘—</FONT></P>
-<P>ˆÈ‰º‚Ì—áŠO‚ª”­¶‚µ‚Ü‚µ‚½B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A> ï¿½ï¿½ .NET Framework SDK 2.0ï¿½Î‰ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅAMicrosoft .NET
+Framework SDK 2.0ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Cï¿½iï¿½ï¿½ï¿½]ï¿½ï¿½ (xsd:binary) ï¿½ï¿½ï¿½È’Pï¿½É’ï¿½ï¿½×‚Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">1 MBï¿½Ìƒoï¿½Cï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½]ï¿½ï¿½</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½É“]ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">10 MBï¿½Ìƒoï¿½Cï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½]ï¿½ï¿½</FONT></P>
+<P>ï¿½È‰ï¿½ï¿½Ì—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>ƒnƒ“ƒhƒ‹‚³‚ê‚Ä‚¢‚È‚¢—áŠO: System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException:
-      \¬ƒtƒ@ƒCƒ‹‚ÅŽw’è‚³‚ê‚½Šg’£‹@”\‚ðŽÀs’†‚É—áŠO‚ª”­¶‚µ‚Ü‚µ‚½B ---&gt; System.Web.HttpException: —v‹‚Ì’·‚³‚ÌÅ‘å’l‚ð’´‚¦‚Ü‚µ‚½B<BR>
-      êŠ System.Web.HttpRequest.GetEntireRawContent()</TD>
+      <TD>ï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½O: System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException:
+      ï¿½\ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÅŽwï¿½è‚³ï¿½ê‚½ï¿½gï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½É—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B ---&gt; System.Web.HttpException: ï¿½vï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ÌÅ‘ï¿½lï¿½ð’´‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+      ï¿½êŠ System.Web.HttpRequest.GetEntireRawContent()</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>ˆê•û‚ÅAÝ’è’l‚ð•ÏX‚·‚é‚±‚Æ‚É‚æ‚èA³í‚É“®ì‚³‚¹‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B<BR>
-Web.configƒtƒ@ƒCƒ‹‚ÌAconfiguration/system.web/httpRuntime‚ÌmaxRequestLengt‘®«‚ð2097151‚É•ÏX‚·‚é‚ÆA‚±‚ñ‚Ç‚Í³í‚ÉƒoƒCƒiƒŠ“]‘—‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½B<BR>
-maxRequestLengt‘®«‚ÍKB’PˆÊ‚ÅŽw’è‚·‚é‚æ‚¤‚Å‚·B</P>
-<P><FONT color="#ff00ff">100 MB‚ÌƒoƒCƒiƒŠƒf[ƒ^“]‘—</FONT></P>
-<P>100 MB‚ÌƒoƒCƒiƒŠƒf[ƒ^“]‘—‚Å‚ÍA10 MB‚Ì“]‘—Žž‚Æ‚Í•Ê‚Ì—áŠO‚ª”­¶‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÅAï¿½Ý’ï¿½lï¿½ï¿½ÏXï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+Web.configï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌAconfiguration/system.web/httpRuntimeï¿½ï¿½maxRequestLengtï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2097151ï¿½É•ÏXï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½Ç‚Íï¿½ï¿½ï¿½Éƒoï¿½Cï¿½iï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+maxRequestLengtï¿½ï¿½ï¿½ï¿½ï¿½ï¿½KBï¿½Pï¿½Ê‚ÅŽwï¿½è‚·ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">100 MBï¿½Ìƒoï¿½Cï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½]ï¿½ï¿½</FONT></P>
+<P>100 MBï¿½Ìƒoï¿½Cï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½]ï¿½ï¿½ï¿½Å‚ÍA10 MBï¿½Ì“]ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í•Ê‚Ì—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>ƒnƒ“ƒhƒ‹‚³‚ê‚Ä‚¢‚È‚¢—áŠO: System.Web.Services.Protocols.SoapException: WebException‚ª”­¶‚µ‚½‚½‚ßAWebException‚ðSoapException‚É•ÏX‚µ‚Ü‚µ‚½B(’ŽßF‚±‚ê‚Í
-      blancoSOAP‚ÌƒƒbƒZ[ƒW)</TD>
+      <TD>ï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½O: System.Web.Services.Protocols.SoapException: WebExceptionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßAWebExceptionï¿½ï¿½SoapExceptionï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ßFï¿½ï¿½ï¿½ï¿½ï¿½
+      blancoSOAPï¿½Ìƒï¿½ï¿½bï¿½Zï¿½[ï¿½W)</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>Ú×î•ñ‚È‚Ç‚Í’Ç‚¦‚Ä‚¢‚Ü‚¹‚ñB­‚È‚­‚Æ‚à SoapExceptionˆÈŠO‚Ì—áŠO‚ª”­¶‚µ‚Ä‚¢‚é–Í—l‚Å‚·B</P>
-<P><FONT color="#ff00ff">‘S‘Ì“I‚É</FONT></P>
-<P>XSD‚Ì binary‚ð—p‚¢‚é‚±‚Æ‚É‚æ‚èA.NET Framework 2.0‚Ì WebƒT[ƒrƒXŽÀ‘•‚É‚¨‚¢‚Ä‚àA‚ ‚é’ö“x‚ÌƒTƒCƒY‚Ü‚Å‚ÌƒoƒCƒiƒŠ“]‘—‚Í—eˆÕ‚ÉŽÀŒ»‰Â”\‚Å‚ ‚é‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>
-‚ª“Á‚É‘Î‰ž‚·‚é‚±‚Æ‚È‚­ .NET Framework 2.0ã‚Å WebƒT[ƒrƒX‚ð‹ì“®‚³‚¹‚é‚±‚Æ‚ª‚Å‚«‚éƒ\[ƒXƒR[ƒh‚ð¶¬‚Å‚«‚Ä‚¢‚½‚Ì‚ÍŠð‚µ‚©‚Á‚½‚Å‚·B</P>
+<P>ï¿½Ú×ï¿½ï¿½È‚Ç‚Í’Ç‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ SoapExceptionï¿½ÈŠOï¿½Ì—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Sï¿½Ì“Iï¿½ï¿½</FONT></P>
+<P>XSDï¿½ï¿½ binaryï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½A.NET Framework 2.0ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ÌƒTï¿½Cï¿½Yï¿½Ü‚Å‚Ìƒoï¿½Cï¿½iï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½Í—eï¿½Õ‚ÉŽï¿½ï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>
+ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚È‚ï¿½ .NET Framework 2.0ï¿½ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ï¿½ì“®ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ð¶ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÍŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

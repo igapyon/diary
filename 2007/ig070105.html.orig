@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/01/05 “ú‹L: ƒVƒ“ƒvƒ‹‚ÈJFC/Swing‚ÌƒtƒŒ[ƒ€ƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="Šî€‚Æ‚È‚éƒVƒ“ƒvƒ‹‚È SwingƒtƒŒ[ƒ€ (JFrame) ƒTƒ“ƒvƒ‹‚ðì¬‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2007/01/05 ï¿½ï¿½ï¿½L: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½JFC/Swingï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½î€ï¿½Æ‚È‚ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ Swingï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ (JFrame) ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/01/05 “ú‹L: ƒVƒ“ƒvƒ‹‚ÈJFC/Swing‚ÌƒtƒŒ[ƒ€ƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Šî€‚Æ‚È‚éƒVƒ“ƒvƒ‹‚È SwingƒtƒŒ[ƒ€ (JFrame) ƒTƒ“ƒvƒ‹‚ðì¬‚µ‚Ü‚µ‚½B</P>
+    <H2>2007/01/05 ï¿½ï¿½ï¿½L: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½JFC/Swingï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½î€ï¿½Æ‚È‚ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ Swingï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ (JFrame) ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,7 +60,7 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒVƒ“ƒvƒ‹‚ÈJFC/Swing‚ÌƒtƒŒ[ƒ€ƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½JFC/Swingï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -85,22 +85,22 @@ import javax.swing.JPanel;
 
 public class SimpleSwingFrame extends JPanel {
     public SimpleSwingFrame() {
-        // ”wŒiF‚ð”’F‚É‚µ‚Ü‚·B
+        // ï¿½wï¿½iï¿½Fï¿½ð”’Fï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B
         setBackground(Color.white);
     }
 
     public void paintComponent(final Graphics argGraphics) {
         super.paintComponent(argGraphics);
 
-        // ÔF‚Å‰æ–Ê‚Ì‘å‚«‚³‚¢‚Á‚Ï‚¢‚É‰~‚ð•`‰æ‚µ‚Ü‚·B
+        // ï¿½ÔFï¿½Å‰ï¿½Ê‚Ì‘å‚«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½É‰~ï¿½ï¿½`ï¿½æ‚µï¿½Ü‚ï¿½ï¿½B
         argGraphics.setColor(Color.red);
         final Rectangle rect = getBounds();
         argGraphics.drawOval(0, 0, rect.width, rect.height);
     }
 
     public static void main(final String[] args) {
-        // JFrame‚ðì¬‚µ‚ÄŽ©•ªŽ©g‚ð“\‚è•t‚¯A‚±‚ê‚ð•\Ž¦‚µ‚Ü‚·B
-        final JFrame frame = new JFrame(&quot;ƒVƒ“ƒvƒ‹‚ÈSwingƒtƒŒ[ƒ€ƒTƒ“ƒvƒ‹&quot;);
+        // JFrameï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½\ï¿½ï¿½tï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+        final JFrame frame = new JFrame(&quot;ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Swingï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½&quot;);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(new SimpleSwingFrame());
         frame.setLocationRelativeTo(null);
@@ -113,20 +113,20 @@ public class SimpleSwingFrame extends JPanel {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff0000">2007.01.21’Ç‹L</FONT> <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ‚©‚ç‰º‹L‚ÌƒcƒbƒRƒ~‚ª‚ ‚è‚Ü‚µ‚½B</P>
-<P><CITE>ƒ`ƒ‡ƒbƒg‹C‚É‚È‚é‚Æ‚±‚ë‚ª‚ ‚Á‚½‚Ì‚Åƒ[ƒ‹‚µ‚Ü‚·B</CITE></P>
-<P><CITE>getClipBounds()‚ÍƒEƒBƒ“ƒhƒE‚Ì‹éŒ`‚Å‚Í‚È‚­A•`‰æ‚·‚é‹éŒ`‚ª•Ô‚³‚ê‚Ü‚·B</CITE></P>
-<P><CITE>ƒEƒBƒ“ƒhƒE‚ª”¼•ª‰B‚ê‚Ä‚¢‚éê‡‚ÍA‚»‚Ì•”•ª‚ÍŠÜ‚Ü‚ê‚Ü‚¹‚ñB<BR>
-‚È‚Ì‚ÅA‚±‚ÌƒvƒƒOƒ‰ƒ€‚ðŽÀs‚µA•Ê‚ÌƒEƒBƒ“ƒhƒE‚Å•”•ª“I‚É‰B‚µ‚Ä‚â‚é‚Æ•`‰æ‚ª—‚ê‚Ü‚·B</CITE></P>
-<P><CITE>‚±‚¤‚·‚ê‚Î‚æ‚¢‚Å‚µ‚å‚¤B<BR>
-//final Rectangle rect = argGraphics.getClipBounds();  ©ƒRƒR™<BR>
+<P><FONT color="#ff0000">2007.01.21ï¿½Ç‹L</FONT> <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ñ‚©‚ç‰ºï¿½Lï¿½Ìƒcï¿½bï¿½Rï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><CITE>ï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½Cï¿½É‚È‚ï¿½Æ‚ï¿½ï¿½ë‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Åƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
+<P><CITE>getClipBounds()ï¿½ÍƒEï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½Ì‹ï¿½`ï¿½Å‚Í‚È‚ï¿½ï¿½Aï¿½`ï¿½æ‚·ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
+<P><CITE>ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½ÍAï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ÍŠÜ‚Ü‚ï¿½Ü‚ï¿½ï¿½ï¿½B<BR>
+ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½Ê‚ÌƒEï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½Å•ï¿½ï¿½ï¿½ï¿½Iï¿½É‰Bï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Æ•`ï¿½æ‚ªï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
+<P><CITE>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚æ‚¢ï¿½Å‚ï¿½ï¿½å‚¤ï¿½B<BR>
+//final Rectangle rect = argGraphics.getClipBounds();  ï¿½ï¿½ï¿½Rï¿½Rï¿½ï¿½<BR>
 final Rectangle rect = getBounds();</CITE></P>
-<P><CITE>‚Å‚Í‚Å‚ÍB</CITE></P>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A></P>
-<P>ƒcƒbƒRƒ~ ‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·BŠ´ŽÓ‚Ì‹CŽ‚¿‚Å‚¢‚Á‚Ï‚¢‚Å‚·B<BR>
-‚²Žw“E‚Ì’Ê‚è‚Å‚·B‚³‚Á‚»‚­C³‚µ‚Ü‚µ‚½B</P>
+<P><CITE>ï¿½Å‚Í‚Å‚ÍB</CITE></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A></P>
+<P>ï¿½cï¿½bï¿½Rï¿½~ ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ó‚Ì‹Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½wï¿½Eï¿½Ì’Ê‚ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

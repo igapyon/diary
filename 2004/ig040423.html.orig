@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/04/23 “ú‹L: ¡”N“x‚ÌŒv‰æ: Swing / SWT ‚ð—¬s‚ç‚¹‚Ü‚·I</TITLE>
-<META name="DESCRIPTION" content="”N“x‰‚ß‚ÌsŽ–‚Æ‚¢‚¤‚±‚Æ‚Å”N“xŒv‰æ‚ðŒÂlƒŒƒxƒ‹‚ÉƒuƒŒ[ƒNƒ_ƒEƒ“‚·‚éì‹Æ‚ðs‚¢‚Ü‚µ‚½B‚Æ‚¢‚¤‚©A“r’†‚©‚ç “ú–{‚ÌJavaŒ¾ŒêŠE‚É‚¨‚¢‚Ä‰½‚ð—¬s‚ç‚¹‚é‚Ì‚©‚Æ‚¢‚¤‚±‚Æ‚ÉˆÓŽ¯‚ªˆÚ‚Á‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½ (‹êÎ)">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2004/04/23 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Nï¿½xï¿½ÌŒvï¿½ï¿½: Swing / SWT ï¿½ð—¬sï¿½ç‚¹ï¿½Ü‚ï¿½ï¿½I</TITLE>
+<META name="DESCRIPTION" content="ï¿½Nï¿½xï¿½ï¿½ï¿½ß‚Ìsï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å”Nï¿½xï¿½vï¿½ï¿½ï¿½ï¿½Âlï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Éƒuï¿½ï¿½ï¿½[ï¿½Nï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½{ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½Eï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ð—¬sï¿½ç‚¹ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉˆÓŽï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/04/23 “ú‹L: ¡”N“x‚ÌŒv‰æ: Swing / SWT ‚ð—¬s‚ç‚¹‚Ü‚·I</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ”N“x‰‚ß‚ÌsŽ–‚Æ‚¢‚¤‚±‚Æ‚Å”N“xŒv‰æ‚ðŒÂlƒŒƒxƒ‹‚ÉƒuƒŒ[ƒNƒ_ƒEƒ“‚·‚éì‹Æ‚ðs‚¢‚Ü‚µ‚½B‚Æ‚¢‚¤‚©A“r’†‚©‚ç “ú–{‚ÌJavaŒ¾ŒêŠE‚É‚¨‚¢‚Ä‰½‚ð—¬s‚ç‚¹‚é‚Ì‚©‚Æ‚¢‚¤‚±‚Æ‚ÉˆÓŽ¯‚ªˆÚ‚Á‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½ (‹êÎ)</P>
+    <H2>2004/04/23 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Nï¿½xï¿½ÌŒvï¿½ï¿½: Swing / SWT ï¿½ð—¬sï¿½ç‚¹ï¿½Ü‚ï¿½ï¿½I</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½Nï¿½xï¿½ï¿½ï¿½ß‚Ìsï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å”Nï¿½xï¿½vï¿½ï¿½ï¿½ï¿½Âlï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Éƒuï¿½ï¿½ï¿½[ï¿½Nï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½{ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½Eï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ð—¬sï¿½ç‚¹ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉˆÓŽï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,57 +58,57 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>”N“xŒv‰æ‚ðŒÂlƒŒƒxƒ‹‚ÉƒuƒŒ[ƒNƒ_ƒEƒ“‚·‚éì‹Æ‚ðs‚¤“úI</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Nï¿½xï¿½vï¿½ï¿½ï¿½ï¿½Âlï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Éƒuï¿½ï¿½ï¿½[ï¿½Nï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½I</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¢‚í‚ä‚éŒŽ‹‹˜J“­ŽÒ‚È‚ç‚Å‚Í‚È‚Ì‚Å‚·‚ªA¡“ú‚Í ”N“xŒv‰æ‚ðŒÂlƒŒƒxƒ‹‚ÉƒuƒŒ[ƒNƒ_ƒEƒ“‚·‚éì‹Æ‚ðs‚¤“ú‚Å‚·B‚Æ‚¢‚¤‚©•’i‚ÌŽdŽ–‚ªƒQƒLƒ€‚È‚Ì‚ÅA‚±‚¤‚â‚Á‚Ä‹­§“I‚ÉEê‚ð”²‚¯o‚µ‚Äì‹Æ‚µ‚Ä‚Í‚¶‚ß‚Äì¬‚Å‚«‚Ü‚·B<BR>
-‚ÅA‚¿‚å‚¿‚å‚¢‚Á‚Ä 1ŽžŠÔ’ö“x‚Åì¬‚µ‚Ü‚µ‚½Bc‚µ‚Ü‚µ‚½‚ªAAA‚±‚Ìì‹Æ‚Á‚ÄŽè‚ð”²‚­‚ÆA‚ ‚Æ‚Å
-‘å•Ï‚È–Ú‚É‘˜‚¤‚ñ‚Å‚·‚æ‚ËB‚Ù‚ñ‚Ì­‚µ‚¾‚¯—âÃ‚³‚ðŽæ‚è–ß‚µ‚Ü‚µ‚½B(‚ÆŒ¾‚¢‚È‚ª‚çAŒv‰æ‚É
-uJavaƒ^ƒŒƒ“ƒgƒfƒrƒ…[v‚Æ‘‚¢‚Ä‚Ý‚éBç’k‚Å‚·)<BR>
-‚Æ‚¢‚¤‚±‚Æ‚ÅA1ŽžŠÔŽã‚ÅA¡”N“x‚ÌŽ„‚Ì‚¨ŽdŽ–‚Á‚Ä ‚È‚É‚È‚ñ‚¾‚ë‚¤cB‚Á‚Ä‚±‚Æ‚ðl‚¦‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½éŒŽï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚È‚ï¿½Å‚Í‚È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Nï¿½xï¿½vï¿½ï¿½ï¿½ï¿½Âlï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Éƒuï¿½ï¿½ï¿½[ï¿½Nï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ÌŽdï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Lï¿½ï¿½ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‹ï¿½ï¿½ï¿½ï¿½Iï¿½ÉEï¿½ï¿½ð”²‚ï¿½ï¿½oï¿½ï¿½ï¿½Äï¿½Æ‚ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ß‚Äì¬ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ÅAï¿½ï¿½ï¿½å‚¿ï¿½å‚¢ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½Ô’ï¿½ï¿½xï¿½Åì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½cï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½Ìï¿½Æ‚ï¿½ï¿½ÄŽï¿½ð”²‚ï¿½ï¿½ÆAï¿½ï¿½ï¿½Æ‚ï¿½
+ï¿½ï¿½Ï‚È–Ú‚É‘ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ËBï¿½Ù‚ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ÆŒï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½
+ï¿½uJavaï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½fï¿½rï¿½ï¿½ï¿½[ï¿½vï¿½Æï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½Bï¿½ï¿½kï¿½Å‚ï¿½)<BR>
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅA1ï¿½ï¿½ï¿½ÔŽï¿½ÅAï¿½ï¿½ï¿½Nï¿½xï¿½ÌŽï¿½ï¿½Ì‚ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È‚É‚È‚ñ‚¾‚ë‚¤ï¿½cï¿½Bï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Æ‚ï¿½ï¿½lï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¡”N‚Í Swing/SWT‚Å‚¢‚­‚¼`</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Nï¿½ï¿½ Swing/SWTï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Swing‚ÆSWT‚ÉƒtƒH[ƒJƒX‚µ‚Ä‚Ý‚Ü‚·B’áƒRƒXƒgˆÀ’èSwingŠJ”­‚Æ‚©‚ð’ñ‹Ÿ‚Å‚«‚½‚ç‚¨‚à‚µ‚ë‚»‚¤‚Å‚·B‚»‚à‚»‚à‚Ìƒx[ƒX‚Æ‚µ‚Ä
-ƒŠƒbƒ`ƒNƒ‰ƒCƒAƒ“ƒg‚ª’…–Ú‚³‚ê‚Ä‚¢‚Ü‚·‚ªAŽÀÛ‚É‚ ‚é’ö“x‚Ì‹K–Í‚ðŽ‚ÂƒVƒXƒeƒ€‚ðŠJ”­‚·‚é‚Ì‚¾‚Æ‚µ‚½‚çAJavaŒn‹Zp‚µ‚©‚ ‚è‚¦‚È‚¢‚Ì‚Å‚Í‚È‚¢‚©A‚ÆŽv‚¢‚Ü‚·B‚³‚Ä
-‚Ç‚¤‚Å‚µ‚å‚¤c (Î)</P>
-<P><FONT color="#ff00ff">ƒcƒbƒRƒ~</FONT></P>
+<P>Swingï¿½ï¿½SWTï¿½Éƒtï¿½Hï¿½[ï¿½Jï¿½Xï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½Bï¿½ï¿½Rï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½Swingï¿½Jï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ñ‹Ÿ‚Å‚ï¿½ï¿½ï¿½ï¿½ç‚¨ï¿½ï¿½ï¿½ï¿½ï¿½ë‚»ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒxï¿½[ï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½bï¿½`ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Û‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Ì‹Kï¿½Í‚ï¿½ï¿½ï¿½ï¿½ÂƒVï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½AJavaï¿½nï¿½Zï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚¦ï¿½È‚ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½Aï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½
+ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½c (ï¿½ï¿½)</P>
+<P><FONT color="#ff00ff">ï¿½cï¿½bï¿½Rï¿½~</FONT></P>
 <UL>
-  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">a-san</A> w‚¨‚ÁI‚¢‚¢‚Å‚·‚Ë`ASwingB‚Å‚Í¡”N‚ÍŽ„‚Ì”N‚Å‚·BiOOGx
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A> w‚Æ‚¢‚¤‚©A¡”N‚Í Swing‚ÆSWT‚ð—¬s‚ç‚¹‚Ü‚µ‚å‚¤B¡
-  Œˆ‚ß‚Ü‚µ‚½ (Î)x
-  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">a-san</A> w‚¤‚ñ‚¤‚ñAƒEƒ`‚àSwing‚âSWT‚Ì‚¨ŽdŽ–‚ª‘‚¦‚Ä‚«‚Ä‚é‚Ì‚ÅA‚»‚ñ‚ÈŽè‚²‚½‚¦‚ðŠ´‚¶‚Ä‚¢‚Ü‚·Bx
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A> w‚»‚¤‚¾‚Á‚½‚ñ‚Å‚·‚©‚ÁI ƒEƒ`‚¾‚¯‚¶‚á‚È‚©‚Á‚½‚ñ‚Å‚·‚ËBƒEƒ`‚à
-  ‚Ç‚¤‚àSwing‚ÌˆÄŒˆË—Š‚ª‘½‚¢‚Ì‚ÅA‚à‚µ‚â‚±‚ê‚ÍH ‚ÆŽv‚Á‚Ä‚¢‚½‚Æ‚±‚ë‚¾‚Á‚½‚Ì‚Å‚·B‚Í‚¢B‚±‚ê‚Íæs‚·‚ê‚ÎƒrƒWƒlƒX‚Æ‚µ‚Ä‚¨‚¢‚µ‚¢‚Æ‚±‚ë‚ð‘ÌŒ±‚Å‚«‚»‚¤‚Å‚·‚ËB‚Þ‚Ó‚ÓB<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">a-san</A>‚àSwingÚ‚µ‚¢‚©‚çA‚Ù‚ñ‚Æ‚¤‚É
-  ŽûŠnŠú“ž—ˆ‚Á‚ÄŠ´‚¶‚Å‚·‚æ‚Ëx
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">a-san</A> ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ë`ï¿½ASwingï¿½Bï¿½Å‚Íï¿½ï¿½Nï¿½ÍŽï¿½ï¿½Ì”Nï¿½Å‚ï¿½ï¿½Bï¿½iï¿½Oï¿½Oï¿½Gï¿½x
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A> ï¿½wï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ Swingï¿½ï¿½SWTï¿½ð—¬sï¿½ç‚¹ï¿½Ü‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½
+  ï¿½ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½)ï¿½x
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">a-san</A> ï¿½wï¿½ï¿½ï¿½ñ‚¤‚ï¿½Aï¿½Eï¿½`ï¿½ï¿½Swingï¿½ï¿½SWTï¿½Ì‚ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ÈŽè‚²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½x
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A> ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½I ï¿½Eï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½Eï¿½`ï¿½ï¿½
+  ï¿½Ç‚ï¿½ï¿½ï¿½Swingï¿½ÌˆÄŒï¿½ï¿½Ë—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½â‚±ï¿½ï¿½ÍH ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ë‚¾ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Í‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Íï¿½sï¿½ï¿½ï¿½ï¿½Îƒrï¿½Wï¿½lï¿½Xï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½Þ‚Ó‚ÓB<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">a-san</A>ï¿½ï¿½Swingï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ù‚ï¿½Æ‚ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŠï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ëx
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050715.html">2005/07/15 “ú‹L: IBM Workplace Client Technology‚ÌÕŒ‚</A>
-  <LI><A href="../2002/ig021101.html">2002/11/01 “ú‹L: SWT (Standard Widget Toolkit) ‚Æ‚¢‚¤‘I‘ðŽˆ</A>
+  <LI><A href="../2005/ig050715.html">2005/07/15 ï¿½ï¿½ï¿½L: IBM Workplace Client Technologyï¿½ÌÕŒï¿½</A>
+  <LI><A href="../2002/ig021101.html">2002/11/01 ï¿½ï¿½ï¿½L: SWT (Standard Widget Toolkit) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Tapestry + Seasar‚ÉƒtƒH[ƒJƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta Tapestry + Seasarï¿½Éƒtï¿½Hï¿½[ï¿½Jï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>WebŒn‚Í Tapestry + Seasar‚ÉƒtƒH[ƒJƒX‚µ‚Ä‚Ý‚Ü‚·B‚Æ‚è‚ ‚¦‚¸ ‚Ü‚¸‚Í Tapestry‚©‚ç‚â‚Á‚Â‚¯‚Ä‚¢‚±‚¤‚ÆŽv‚¢‚Ü‚·B(‚Á‚Äl‚ÉŽwŽ¦‚ð‚¾‚·‚¾‚¯‚Å‚·‚¯‚ê‚Ç‚à‚Ëc)<BR>
+<P>Webï¿½nï¿½ï¿½ Tapestry + Seasarï¿½Éƒtï¿½Hï¿½[ï¿½Jï¿½Xï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½ï¿½ Tapestryï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½Älï¿½ÉŽwï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Ëc)<BR>
 </P>
-<P><FONT color="#ff00ff">ƒcƒbƒRƒ~</FONT></P>
+<P><FONT color="#ff00ff">ï¿½cï¿½bï¿½Rï¿½~</FONT></P>
 <UL>
-  <LI><A HREF="http://senbei.cocolog-nifty.com/diary/" TITLE="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv1Žž‘ã‚©‚ç‚ÌƒRƒA‚È“ÇŽÒ‚³‚ÜB‚Æ‚Á‚Ä‚àJavaŠÖ˜A‹Zp‚ÉÚ‚µ‚¢BuƒI[ƒvƒ“ƒ\[ƒX‚Ìƒ\[ƒXƒR[ƒh‚ð“Ç‚Þv‚Æ‚¢‚¤‘f“G‚ÈKŠµ‚ð‚¨Ž‚¿‚Ì•û‚Å‚·B">Senbei</A> w1ŒŽ2“ú‚Ì“ú‹L‚ðŽv‚¢o‚µ‚Ü‚µ‚½B(@P[P)x
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A> wTapestry(’ÊÌ: ƒ^ƒy)‚Å‚·‚ªA‚±‚ê‚Í‚à‚Æ‚à‚Æ<A HREF="http://senbei.cocolog-nifty.com/diary/" TITLE="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv1Žž‘ã‚©‚ç‚ÌƒRƒA‚È“ÇŽÒ‚³‚ÜB‚Æ‚Á‚Ä‚àJavaŠÖ˜A‹Zp‚ÉÚ‚µ‚¢BuƒI[ƒvƒ“ƒ\[ƒX‚Ìƒ\[ƒXƒR[ƒh‚ð“Ç‚Þv‚Æ‚¢‚¤‘f“G‚ÈKŠµ‚ð‚¨Ž‚¿‚Ì•û‚Å‚·B">Senbei</A>‚³‚ñ‚Ìî•ñ‚©‚ç’…Šá‚µŽn‚ß‚Ü‚µ‚½BƒcƒbƒRƒ~
-  Š´ŽÓ‚µ‚Ä‚¢‚Ü‚·Bx
+  <LI><A HREF="http://senbei.cocolog-nifty.com/diary/" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv1ï¿½ï¿½ï¿½ã‚©ï¿½ï¿½ÌƒRï¿½Aï¿½È“ÇŽÒ‚ï¿½ï¿½ÜBï¿½Æ‚ï¿½ï¿½Ä‚ï¿½Javaï¿½Ö˜Aï¿½Zï¿½pï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½Bï¿½uï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½Ç‚Þvï¿½Æ‚ï¿½ï¿½ï¿½ï¿½fï¿½Gï¿½ÈKï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Å‚ï¿½ï¿½B">Senbei</A> ï¿½w1ï¿½ï¿½2ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ï¿½ï¿½vï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½@ï¿½Pï¿½[ï¿½P)ï¿½x
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A> ï¿½wTapestry(ï¿½Êï¿½: ï¿½^ï¿½y)ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½<A HREF="http://senbei.cocolog-nifty.com/diary/" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv1ï¿½ï¿½ï¿½ã‚©ï¿½ï¿½ÌƒRï¿½Aï¿½È“ÇŽÒ‚ï¿½ï¿½ÜBï¿½Æ‚ï¿½ï¿½Ä‚ï¿½Javaï¿½Ö˜Aï¿½Zï¿½pï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½Bï¿½uï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½Ç‚Þvï¿½Æ‚ï¿½ï¿½ï¿½ï¿½fï¿½Gï¿½ÈKï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Å‚ï¿½ï¿½B">Senbei</A>ï¿½ï¿½ï¿½ï¿½Ìï¿½ñ‚©‚ç’…ï¿½á‚µï¿½nï¿½ß‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½cï¿½bï¿½Rï¿½~
+  ï¿½ï¿½ï¿½Ó‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½x
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

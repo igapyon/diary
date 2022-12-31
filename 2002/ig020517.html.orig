@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/05/17 “ú‹L: SQLServer 2000—pJDBCƒhƒ‰ƒCƒo ƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="Microsoft SQL Server 2000—pJDBCƒhƒ‰ƒCƒo‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B , g‹ß‚È‚Æ‚±‚ë‚Åƒfƒ}ƒEƒCƒ‹ƒX‚Ì‰e‹¿‚ªo‚Ü‚µ‚½">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2002/05/17 ï¿½ï¿½ï¿½L: SQLServer 2000ï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½o ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="Microsoft SQL Server 2000ï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , ï¿½gï¿½ß‚È‚Æ‚ï¿½ï¿½ï¿½Åƒfï¿½}ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½Ì‰eï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Ü‚ï¿½ï¿½ï¿½">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/05/17 “ú‹L: SQLServer 2000—pJDBCƒhƒ‰ƒCƒo ƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Microsoft SQL Server 2000—pJDBCƒhƒ‰ƒCƒo‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B , g‹ß‚È‚Æ‚±‚ë‚Åƒfƒ}ƒEƒCƒ‹ƒX‚Ì‰e‹¿‚ªo‚Ü‚µ‚½</P>
+    <H2>2002/05/17 ï¿½ï¿½ï¿½L: SQLServer 2000ï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½o ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Microsoft SQL Server 2000ï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , ï¿½gï¿½ß‚È‚Æ‚ï¿½ï¿½ï¿½Åƒfï¿½}ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½Ì‰eï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Ü‚ï¿½ï¿½ï¿½</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,20 +59,20 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¡“ú‚à‚¢‚ë‚¢‚ëŽdŽ–‚ªc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‘òŽR‚¢‚ë‚¢‚ëŽdŽ–‚ªcB–@–±ŠÖ˜A‚Ì1Œ‚É‚Â‚¢‚Ä‚à Ž¿–âƒ[ƒ‹‚ðo‚µ‚Ä ‚±‚ê‚ÍŠ®—¹cB‚Ó‚¤B</P>
+<P>ï¿½ï¿½Rï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½@ï¿½ï¿½ï¿½Ö˜Aï¿½ï¿½1ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½âƒï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ÍŠï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½Ó‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Í—§‚ÄˆÄ‘—•tI—¹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Í—ï¿½ï¿½ÄˆÄ‘ï¿½ï¿½tï¿½Iï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Ž·•M‚µ‚Ä‚¢‚é–{‚Æ‚Í<STRONG>•Ê‚Ì–{</STRONG>‚ÉŠÖ‚·‚éÍ—§‚Ä‚ÌˆÄ‚ð‘—•t‚µ‚Ü‚µ‚½B–vƒlƒ^‚É‚È‚é‰Â”\«‚à‘å‚¢‚É‚ ‚è‚Ü‚·‚¯‚ê‚Ç‚à‚Ë
-(‹êÎ)</P>
+<P>ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½{ï¿½Æ‚ï¿½<STRONG>ï¿½Ê‚Ì–{</STRONG>ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½Í—ï¿½ï¿½Ä‚ÌˆÄ‚ð‘—•tï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½vï¿½lï¿½^ï¿½É‚È‚ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½å‚¢ï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
@@ -80,74 +80,74 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">Sekiya‚³‚ñ‚©‚çî•ñ’ñ‹Ÿ</FONT><BR>
-<CITE>Subject: Microsoft SQL Server 2000 Driver for JDBC ƒŠƒŠ[ƒX (2.2.0022)<BR>
-‚Í‚¶‚ß‚Ü‚µ‚ÄA<BR>
-u‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2v‚¢‚Â‚àAŠy‚µ‚Ý‚É‚µ‚Ä‚¢‚Ü‚·B<BR>
+<P><FONT color="#ff0000">Sekiyaï¿½ï¿½ï¿½ñ‚©‚ï¿½ï¿½ï¿½ï¿½</FONT><BR>
+<CITE>Subject: Microsoft SQL Server 2000 Driver for JDBC ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X (2.2.0022)<BR>
+ï¿½Í‚ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ÄA<BR>
+ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2ï¿½vï¿½ï¿½ï¿½Â‚ï¿½ï¿½Aï¿½yï¿½ï¿½ï¿½Ý‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚¢‚Â‚àAŽQl‚É‚³‚¹‚Ä‚¢‚½‚¾‚­‚Î‚©‚è‚È‚Ì‚ÅA‚à‚¤A‚²‘¶’m‚©‚àA’m‚ê‚Ü‚¹‚ñ‚ªA‚¨’m‚ç‚¹‚ðB<BR>
-Microsoft SQL Server 2000 Driver for JDBC ‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½BBB<BR>
-‚È‚ñ‚©A‚Ð‚Á‚»‚è‚Å‚·‚ËB<BR>
-ˆÈ‰ºAURL‚Å‚·BBB</CITE></P>
+ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Aï¿½Qï¿½lï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½ï¿½ï¿½mï¿½ç‚¹ï¿½ï¿½ï¿½B<BR>
+Microsoft SQL Server 2000 Driver for JDBC ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Bï¿½B<BR>
+ï¿½È‚ñ‚©Aï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËB<BR>
+ï¿½È‰ï¿½ï¿½AURLï¿½Å‚ï¿½ï¿½Bï¿½Bï¿½B</CITE></P>
 <UL>
   <LI><CITE><A HREF="http://msdn.microsoft.com/downloads/default.asp?URL=/downloads/sample.asp?url=/MSDN-FILES/027/001/779/msdncompositedoc.xml">http://msdn.microsoft.com/downloads/default.asp?URL=/downloads/sample.asp?url=/MSDN-FILES/027/001/779/msdncompositedoc.xml</A></CITE>
 </UL>
-<P><CITE>‚Å‚ÍA‚Å‚ÍBB<BR>
+<P><CITE>ï¿½Å‚ÍAï¿½Å‚ÍBï¿½B<BR>
 -------------------------------<BR>
 Masahiro Sekiya</CITE></P>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‰‚ß‚Ä’m‚è‚Ü‚µ‚½Bî•ñ’ñ‹Ÿ‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B<BR>
-Ž„‚Í SQLServer—pJDBCƒhƒ‰ƒCƒo‚ð‘Ò‚¿–]‚ñ‚Å‚¢‚½lŠÔ‚Ìˆêl‚È‚Ì‚ÅAType4ƒhƒ‰ƒCƒo‚ªƒŠƒŠ[ƒX‚³‚ê‚½‚Æ‚¢‚¤
-‚±‚Ìƒjƒ…[ƒX‚Í‚Æ‚Á‚Ä‚àŠð‚µ‚¢‚Å‚·B<BR>
-Windows—p‚ÆUNIX—p‚Ì2Ží—Þ‚ÌJDBCƒhƒ‰ƒCƒo‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½B‘‘¬ƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‚Ý‚Ü‚µ‚½BŒ‹‰Ê“I‚É
-Windows—p‚ÆUNIX—p‚Ì“à—e‚Í ‚Ù‚Ú“¯ˆê‚Å‚ ‚é‚æ‚¤‚Å‚·‚ËB</P>
-<P><FONT color="#ff0000">2004.02.24 ’Ç‹L</FONT> 2004/01/25 Žž“_‚Å‚Ìî•ñ‚ð‚±‚±‚É‰Á•M<BR>
-•Ä‘ƒTƒCƒg‚Å‚ÍASQL Server 2000 —pJDBCƒhƒ‰ƒCƒo‚Í SP2‚Æ‚¢‚¤ÅV”Å‚ª‚ ‚èA‚±‚Ìƒhƒ‰ƒCƒo‚Í
-ˆê‘w “ú–{Œê‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B‚Æ‚±‚ë‚ªAƒ}ƒCƒNƒƒ\ƒtƒg“ú–{–@l‚ÌƒTƒCƒg‚É‚Í
-‚±‚Ìƒhƒ‰ƒCƒo‚ÍƒŠƒXƒgƒAƒbƒv‚³‚ê‚Ä‚¨‚ç‚¸ SP–³‚µ‚Ì‰Šúƒo[ƒWƒ‡ƒ“‚Ì‚Ý‚ªƒŠƒXƒgƒAƒbƒv‚³‚ê‚Ä‚¢‚Ü‚µ‚½B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ï¿½ï¿½ß‚Ä’mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ SQLServerï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½Ò‚ï¿½ï¿½]ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½lï¿½Ô‚Ìˆï¿½lï¿½È‚Ì‚ÅAType4ï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ê‚½ï¿½Æ‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½Í‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+Windowsï¿½pï¿½ï¿½UNIXï¿½pï¿½ï¿½2ï¿½ï¿½Þ‚ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ê“Iï¿½ï¿½
+Windowsï¿½pï¿½ï¿½UNIXï¿½pï¿½Ì“ï¿½ï¿½eï¿½ï¿½ ï¿½Ù‚Ú“ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½ËB</P>
+<P><FONT color="#ff0000">2004.02.24 ï¿½Ç‹L</FONT> 2004/01/25 ï¿½ï¿½ï¿½_ï¿½Å‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‰ï¿½ï¿½M<BR>
+ï¿½Äï¿½ï¿½Tï¿½Cï¿½gï¿½Å‚ÍASQL Server 2000 ï¿½pJDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ SP2ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ÅVï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒhï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½
+ï¿½ï¿½w ï¿½ï¿½ï¿½{ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ªï¿½Aï¿½}ï¿½Cï¿½Nï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½{ï¿½@ï¿½lï¿½ÌƒTï¿½Cï¿½gï¿½É‚ï¿½
+ï¿½ï¿½ï¿½Ìƒhï¿½ï¿½ï¿½Cï¿½oï¿½Íƒï¿½ï¿½Xï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¸ SPï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ý‚ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://www.microsoft.com/downloads/details.aspx?displaylang=ja&amp;FamilyID=9f1874b6-f8e1-4bd6-947c-0fc5bf05bf71">SQL 
 Server 2000 Driver for JDBC Service Pack 2 (SP2)</A> (2.2.0037)<BR>
-  2003/11/06ƒŠƒŠ[ƒX
+  2003/11/06ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X
 </UL>
-<P>‚±‚ê‚ðŽg‚¤‚Æ ƒGƒ‰[ƒƒbƒZ[ƒW‚Ìˆê•”‚Å”­¶‚·‚é•¶Žš‰»‚¯‚ª‰ü‘P‚³‚ê‚é–Í—lBŽR–{(Y-moto)‚³‚ñAƒcƒbƒRƒ~
-‚ ‚è‚ª‚Æ‚¤B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Ìˆê•”ï¿½Å”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é•¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½Í—lï¿½Bï¿½Rï¿½{(Y-moto)ï¿½ï¿½ï¿½ï¿½Aï¿½cï¿½bï¿½Rï¿½~
+ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050429.html">2005/04/29 “ú‹L: Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</A>
+  <LI><A href="../2005/ig050429.html">2005/04/29 ï¿½ï¿½ï¿½L: Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Žo‚ªƒfƒ}ƒEƒCƒ‹ƒX‚É–|˜M‚³‚ê‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½oï¿½ï¿½ï¿½fï¿½}ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½É–|ï¿½Mï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ð“ú‚Ì–é Žo‚©‚ç“d˜b‚ª‚ ‚èAwƒpƒ\ƒRƒ“‚ªƒEƒCƒ‹ƒX‚ÉŠ´õ‚µ‚½‚Æƒ[ƒ‹‚ªcx‚Æ‚ÌŽ–‚Å‚µ‚½B‚±‚ÌƒEƒCƒ‹ƒX‚ÌŒ‚Å
-Œ‹\¢˜f‚µ‚Ä‚¢‚Ü‚µ‚½B<BR>
-‚ÅAŽ„‚ÍGoogleŒŸõ‚ð‚©‚¯‚Ä‚Ý‚½‚çA‚»‚ê‚ªƒfƒ}ƒEƒCƒ‹ƒX‚Å‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚ª”»–¾‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½Ì–ï¿½ ï¿½oï¿½ï¿½ï¿½ï¿½dï¿½bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½wï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½ÉŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½xï¿½Æ‚ÌŽï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌƒEï¿½Cï¿½ï¿½ï¿½Xï¿½ÌŒï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ÅAï¿½ï¿½ï¿½ï¿½Googleï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ªï¿½fï¿½}ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>IPA/ISEC:ujdbgmgr.exev‚ÉŠÖ‚·‚éƒfƒ}ƒ[ƒ‹î•ñ<BR>
+  <LI>IPA/ISEC:ï¿½ujdbgmgr.exeï¿½vï¿½ÉŠÖ‚ï¿½ï¿½ï¿½fï¿½}ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.ipa.go.jp/security/topics/alert140515.html">http://www.ipa.go.jp/security/topics/alert140515.html</A><BR>
-  IPA‚Ì‚±‚ÌŠˆ“®‚É‚Í‘å•ÏŠ´ŽÓ‚µ‚Ä‚¢‚Ü‚·B“KØ‚Èî•ñ‚ª“IŠm‚ÉÚ‚Á‚Ä‚¢‚Ü‚·B
-  <LI>ƒgƒŒƒ“ƒhƒ}ƒCƒNƒ: JDBGMGR.EXE HOAX<BR>
+  IPAï¿½Ì‚ï¿½ï¿½ÌŠï¿½ï¿½ï¿½ï¿½É‚Í‘ï¿½ÏŠï¿½ï¿½Ó‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Kï¿½Ø‚Èï¿½ñ‚ª“Iï¿½mï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½hï¿½}ï¿½Cï¿½Nï¿½ï¿½: JDBGMGR.EXE HOAX<BR>
   <A HREF="http://www.trendmicro.co.jp/vinfo/virusencyclo/default5.asp?VName=JDBGMGR.EXE%20HOAX">http://www.trendmicro.co.jp/vinfo/virusencyclo/default5.asp?VName=JDBGMGR.EXE%20HOAX</A><BR>
-  “dŽqƒ[ƒ‹”Å•sK‚ÌŽèŽ†A‚Æ‚ÍãŽè‚­•\Œ»‚µ‚½‚à‚Ì‚Å‚·B
+  ï¿½dï¿½qï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å•sï¿½Kï¿½ÌŽèŽ†ï¿½Aï¿½Æ‚Íï¿½è‚­ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B
 </UL>
-<P>Žo‚Ìƒpƒ\ƒRƒ“‚ÍƒEƒCƒ‹ƒXƒoƒXƒ^[2001‚Å–hŒä‚µ‚Ä‚¢‚Ü‚·‚µAƒ[ƒ‹ƒ\ƒtƒg‚à“KØ‚È•¨‚ð—˜—p‚µ‚Ä‚¢‚é‚Ì‚ÅA‚Ü‚ 
-•À‘å’ï‚Å‚ÍƒEƒCƒ‹ƒXŠ´õ‚µ‚È‚¢‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B‚±‚ê‚Å‘åä•v‚Å‚µ‚å‚¤B<BR>
-‚»‚ê‚æ‚è‚à ð”Ó Ž„‚Ì–°‚è‚ª–W‚°‚ç‚ê‚½Ž–‚Ì‚Ù‚¤‚ªˆóÛ‹­‚¢‚Å‚·BƒEƒCƒ‹ƒX‚âƒfƒ}ƒEƒCƒ‹ƒX‚Á‚ÄA–{“–‚É¢‚Ì’†‚Ì–À˜f‚Å‚·‚ËB</P>
-<P><FONT color="#ff0000">14:00</FONT> ZDNET‚É‚àÚ‚Á‚Ä‚¢‚Ü‚µ‚½B—¬s‚Á‚Ä‚¢‚é‚ñ‚Å‚·‚ËB</P>
+<P>ï¿½oï¿½Ìƒpï¿½\ï¿½Rï¿½ï¿½ï¿½ÍƒEï¿½Cï¿½ï¿½ï¿½Xï¿½oï¿½Xï¿½^ï¿½[2001ï¿½Å–hï¿½ä‚µï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½Kï¿½Ø‚È•ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½Ü‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍƒEï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Å‘ï¿½ï¿½vï¿½Å‚ï¿½ï¿½å‚¤ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì–ï¿½ï¿½è‚ªï¿½Wï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ì‚Ù‚ï¿½ï¿½ï¿½ï¿½ï¿½Û‹ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½fï¿½}ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ÄAï¿½{ï¿½ï¿½ï¿½Éï¿½ï¿½Ì’ï¿½ï¿½Ì–ï¿½ï¿½fï¿½Å‚ï¿½ï¿½ËB</P>
+<P><FONT color="#ff0000">14:00</FONT> ZDNETï¿½É‚ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËB</P>
 <UL>
-  <LI>ujdbgmgr.exev‚É‚Â‚¢‚ÄŒx‚·‚é‚É‚¹‚Ì“dŽqƒ[ƒ‹‚É’ˆÓ<BR>
+  <LI>ï¿½ujdbgmgr.exeï¿½vï¿½É‚Â‚ï¿½ï¿½ÄŒxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ì“dï¿½qï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½É’ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.zdnet.co.jp/news/0205/17/nebt_14.html">http://www.zdnet.co.jp/news/0205/17/nebt_14.html</A>
 </UL>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020517.src.html' , result='ig020517.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig020517-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html">IBM dW: JavaƒR[ƒh‚ðŽç‚é•û–@ (‚ ‚é‚¢‚Í‘¼l‚ÌJavaƒR[ƒh‚ðŽQÆ‚·‚é•û–@)</A> <FONT size="-2"><A target="_blank" HREF="http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‹tƒRƒ“ƒpƒCƒ‹‚Ì˜b‘è‚ªq‚×‚ç‚ê‚Ä‚¢‚Ü‚·B‹tƒRƒ“ƒpƒCƒ‹‚ð‚µ‚æ‚¤‚ÆŽv‚¤‚©‚Ç‚¤‚©‚Í‚³‚Ä‚¨‚«AJavaŒ¾Œê‚Å‘‚©‚ê‚½ƒvƒƒOƒ‰ƒ€‚Í í‚É‹tƒRƒ“ƒpƒCƒ‹‚Ì‰Â”\«‚É‚³‚ç‚³‚ê‚Ä‚¢‚é‚Æ‚¢‚¤“_‚ð”FŽ¯‚·‚é‚±‚Æ‚ª‚Æ‚Ä‚àd—v‚È‚±‚Æ‚Å‚·B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0205/16/02051604.html">ƒTƒ“‚ª“ú–{Œê‘Î‰ž‚ÌuStarSuite 6.0v³Ž®”­•\Cƒ\[ƒXƒlƒNƒXƒg‚ªƒŠƒe[ƒ‹”Å”Ì”„‚Ö</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0205/16/02051604.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Œ‹\—Ç‚­‚Ü‚Æ‚Ü‚Á‚Ä‘‚©‚ê‚Ä‚¢‚Ü‚µ‚½B<LI><A HREF="http://www.zdnet.co.jp/news/0205/16/njbt_03.html">ƒTƒ“AuStarSuite 6.0v‚ð”­•\</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/16/njbt_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚±‚ê‚ÌƒI[ƒvƒ“ƒ\[ƒX”Å‚ªOpenOffice.org‚Éˆê‰žŠY“–‚µ‚Ü‚·B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408">•ÄSunAƒIƒtƒBƒXEƒ\ƒtƒguStarOffice 6.0v‚ð”­”„</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>OpenOffice.org‚ÍŒp‘±‚·‚éA‚Æ‚±‚Ì‹LŽ–‚É‚Í‘‚¢‚Ä‚ ‚è‚Ü‚µ‚½B‚º‚ÐŒp‘±‚µ‚Ä—~‚µ‚¢‚Å‚·B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533">MS Office‚Æ‚Ù‚ÚgŒÝŠ·h‚ÌƒIƒtƒBƒX»•iuStarSuitev‚ª‘“à”Ì”„</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚È‚ºStarSuite‚Æ‚¢‚¤¤•i–¼‚È‚Ì‚©A‚Ìà–¾‚à‘‚©‚ê‚Ä‚¢‚Ü‚µ‚½B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig020517-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html">IBM dW: Javaï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (ï¿½ï¿½ï¿½é‚¢ï¿½Í‘ï¿½ï¿½lï¿½ï¿½Javaï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½@)</A> <FONT size="-2"><A target="_blank" HREF="http://search.ibm.co.jp/jp/developerworks/java/011026/j_j-obfus.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½tï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½Ì˜bï¿½è‚ªï¿½qï¿½×‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½tï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½AJavaï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½É‹tï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½Ì‰Â”\ï¿½ï¿½ï¿½É‚ï¿½ï¿½ç‚³ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½dï¿½vï¿½È‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0205/16/02051604.html">ï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½Î‰ï¿½ï¿½ÌuStarSuite 6.0ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Cï¿½\ï¿½[ï¿½Xï¿½lï¿½Nï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½eï¿½[ï¿½ï¿½ï¿½Å”Ì”ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0205/16/02051604.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½\ï¿½Ç‚ï¿½ï¿½Ü‚Æ‚Ü‚ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0205/16/njbt_03.html">ï¿½Tï¿½ï¿½ï¿½Aï¿½uStarSuite 6.0ï¿½vï¿½ð”­•\</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0205/16/njbt_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ï¿½ÌƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å‚ï¿½OpenOffice.orgï¿½Éˆê‰žï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408">ï¿½ï¿½Sunï¿½Aï¿½Iï¿½tï¿½Bï¿½Xï¿½Eï¿½\ï¿½tï¿½gï¿½uStarOffice 6.0ï¿½vï¿½ð”­”ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185408">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>OpenOffice.orgï¿½ÍŒpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½É‚Íï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÐŒpï¿½ï¿½ï¿½ï¿½ï¿½Ä—~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533">MS Officeï¿½Æ‚Ù‚Úgï¿½ÝŠï¿½ï¿½hï¿½ÌƒIï¿½tï¿½Bï¿½Xï¿½ï¿½ï¿½iï¿½uStarSuiteï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì”ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/prom/185533">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½È‚ï¿½StarSuiteï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½Aï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

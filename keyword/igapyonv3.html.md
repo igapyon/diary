@@ -18,7 +18,7 @@ igapyonv3
 [igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
 * [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
-* [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
+* [https://www.igapyon.jp/i.../index.html](https://www.igapyon.jp/igapyon/diary/index.html)
 
 
 
@@ -140,8 +140,8 @@ Last modified: $Date: 2017-03-04 $
 
 #### その他
 
-* `<@link value="http://www.igapyon.jp/igapyon/diary/index.html" />`
-  * [http://www.igapyon.jp/ig.../index.html](http://www.igapyon.jp/igapyon/diary/index.html)
+* `<@link value="https://www.igapyon.jp/igapyon/diary/index.html" />`
+  * [https://www.igapyon.jp/i.../index.html](https://www.igapyon.jp/igapyon/diary/index.html)
 * `<@linkdiary date="2017-01-14" />`
   * [2017-01-14 diary: [igapyonv3] の [Markdown] 中で利用可能なカスタム ディレクティブ一覧](https://www.igapyon.jp/igapyon/diary/2017/ig170114.html)
 * `<@linkamazon title="JDBC本" dp="4839913935" />`

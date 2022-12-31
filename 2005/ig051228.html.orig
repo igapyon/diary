@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/12/28 “ú‹L: SWT‚ð—p‚¢‚½ Java‚©‚çWin32API‚Ö‚ÌƒAƒNƒZƒX ƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="SWT‚ð—p‚¢‚é‚Æ ŠeŽíWin32API‚ðŒÄ‚Ño‚µ‚Å‚«‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B‹É‚ß‚Â‚¯‚Í Java‚©‚çƒŒƒWƒXƒgƒŠ‚Ö‚ÌƒAƒNƒZƒX‚ª‰Â”\‚Å‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,SWT,Win32,JNI">
+<TITLE>2005/12/28 ï¿½ï¿½ï¿½L: SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Win32APIï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½X ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½eï¿½ï¿½Win32APIï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½É‚ß‚Â‚ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½çƒŒï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,SWT,Win32,JNI">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/12/28 “ú‹L: SWT‚ð—p‚¢‚½ Java‚©‚çWin32API‚Ö‚ÌƒAƒNƒZƒX ƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,SWT,Win32,JNI] SWT‚ð—p‚¢‚é‚Æ ŠeŽíWin32API‚ðŒÄ‚Ño‚µ‚Å‚«‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B‹É‚ß‚Â‚¯‚Í Java‚©‚çƒŒƒWƒXƒgƒŠ‚Ö‚ÌƒAƒNƒZƒX‚ª‰Â”\‚Å‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚Å‚·B</P>
+    <H2>2005/12/28 ï¿½ï¿½ï¿½L: SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Win32APIï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½X ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,SWT,Win32,JNI] SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½eï¿½ï¿½Win32APIï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½É‚ß‚Â‚ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½çƒŒï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,32 +59,32 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWT‚ð—p‚¢‚½ Java‚©‚çWin32API‚Ö‚ÌƒAƒNƒZƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Win32APIï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lƒ[ƒŠƒ“ƒOƒŠƒXƒg‚É—¬‚ê‚Ä‚¢‚½‰ï˜b‚Ì—¬‚ê‚©‚çASWT‚ð—p‚¢‚é‚Æ ŠeŽíWin32API‚ðŒÄ‚Ño‚µ‚Å‚«‚é‚±‚Æ‚ª–¾‚ç‚©‚É‚È‚è‚Ü‚µ‚½B‚±‚ê‚É‚Í‘S‚­‚à‚Á‚Ä‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B‚±‚ÌŽ–ŽÀ‚Í
-SWT‚É”Z–§‚Éƒnƒ}‚Á‚Ä‚¢‚él‚ÌŠÔ‚Å‚µ‚©’m‚ç‚ê‚Ä‚¢‚È‚¢A‚µ‚©‚µ”ñí‚Éd—v‚È‹@”\‚¾‚ÆŽv‚¢‚Ü‚·B</P>
-<P>‚±‚ÌŽg‚¢•û‚Ì”­Œ©‚É‚¢‚½‚éŒoˆÜ‚Í‚±‚¤‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Xï¿½gï¿½É—ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½Ì—ï¿½ï¿½ê‚©ï¿½ï¿½ASWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½eï¿½ï¿½Win32APIï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ç‚©ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½É‚Í‘Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½
+SWTï¿½É”Zï¿½ï¿½ï¿½Éƒnï¿½}ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½lï¿½ÌŠÔ‚Å‚ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Édï¿½vï¿½È‹@ï¿½\ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÌŽgï¿½ï¿½ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Ü‚Í‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <OL>
-  <LI><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing–{‚Ì’˜ŽÒ‚Å—L–¼‚È‘å‘º‚³‚ñ">‘å‘º’‰Žj</A>‚³‚ñ‚ªƒ[ƒŠƒ“ƒOƒŠƒXƒgã‚ÉƒEƒCƒ“ƒhƒE‘€ì‚È‚Ç‚ÉŠÖ‚·‚éŠó–]Žd—l‚ðo‚³‚ê‚½B
-  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ(A-san)‚ª ‚»‚ê‚çŠó–]Žd—l‚É“š‚¦‚éŒ`‚ÅACŒ¾Œê(JNI)ƒx[ƒX‚É‚æ‚éƒTƒ“ƒvƒ‹‚ð‘‚¢‚Ä‚¢‚Á‚½B
-  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ(A-san)‚ªA‚Ó‚Æ SWT‚Å‚à “¯—l‚Ì‚±‚Æ‚ªo—ˆ‚È‚¢‚©‚Æ‹C‚ª‚Â‚«ASWTŒo—R‚É‚æ‚éWin32APIŒÄ‚Ño‚µ‚ÌƒTƒ“ƒvƒ‹‚ðŠô‚Â‚©‘‚¢‚½B
+  <LI><A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swingï¿½{ï¿½Ì’ï¿½ï¿½Ò‚Å—Lï¿½ï¿½ï¿½È‘å‘ºï¿½ï¿½ï¿½ï¿½">ï¿½å‘ºï¿½ï¿½ï¿½j</A>ï¿½ï¿½ï¿½ñ‚ªƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ÉƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½ï¿½È‚Ç‚ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½]ï¿½dï¿½lï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ê‚½ï¿½B
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½(A-san)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½dï¿½lï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ÅACï¿½ï¿½ï¿½ï¿½(JNI)ï¿½xï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½(A-san)ï¿½ï¿½ï¿½Aï¿½Ó‚ï¿½ SWTï¿½Å‚ï¿½ ï¿½ï¿½ï¿½lï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½ASWTï¿½oï¿½Rï¿½É‚ï¿½ï¿½Win32APIï¿½Ä‚Ñoï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 </OL>
-<P>Ž„‚Ì•û‚Å“®ì‚·‚é‚±‚Æ‚ðŠm”F‚µ‚½ŠÂ‹«‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Å“ï¿½ï¿½ì‚·ï¿½é‚±ï¿½Æ‚ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Eclipse 3.1.1i“ú–{Œêƒpƒbƒ`“K—pj
-  <LI>Sun J2SE SDK 1.4.2_10 (Windows”Å)
+  <LI>Eclipse 3.1.1ï¿½iï¿½ï¿½ï¿½{ï¿½ï¿½pï¿½bï¿½`ï¿½Kï¿½pï¿½j
+  <LI>Sun J2SE SDK 1.4.2_10 (Windowsï¿½ï¿½)
 </UL>
-<P>ƒˆ‚É Java‚©‚çSWT‚ð—p‚¢‚é‚½‚ß‚ÉA‰º‹L‚ÌÝ’è‚ðs‚¢‚Ü‚µ‚½B(Eclipse RCP‚ð‹ì“®‚³‚¹‚é‚½‚ß‚Ìˆê”Ê“I‚ÈÝ’è‚Æ“¯—l‚Ì‚à‚Ì‚Å‚·)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½SWTï¿½ï¿½pï¿½ï¿½ï¿½é‚½ï¿½ß‚ÉAï¿½ï¿½ï¿½Lï¿½ÌÝ’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(Eclipse RCPï¿½ï¿½ï¿½ì“®ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìˆï¿½Ê“Iï¿½ÈÝ’ï¿½Æ“ï¿½ï¿½lï¿½Ì‚ï¿½ï¿½Ì‚Å‚ï¿½)</P>
 <UL>
-  <LI>Eclipse‚ÌpluginsƒtƒHƒ‹ƒ_‚ÉŠÜ‚Ü‚ê‚é org.eclipse.swt.win32.win32.x86_3.1.1.jar ‚ðƒNƒ‰ƒXƒpƒX‚ÉÝ’è
-  <LI>org.eclipse.swt.win32.win32.x86_3.1.1.jar‚ÉŠÜ‚Ü‚ê‚éswt-win32-3139.dll‚ðŽæ‚èo‚µA‚±‚ê‚É
-  ƒvƒƒOƒ‰ƒ€ŽÀsŽž‚ÌƒpƒX‚ðÝ’è
+  <LI>Eclipseï¿½ï¿½pluginsï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ÉŠÜ‚Ü‚ï¿½ï¿½ org.eclipse.swt.win32.win32.x86_3.1.1.jar ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½ÉÝ’ï¿½
+  <LI>org.eclipse.swt.win32.win32.x86_3.1.1.jarï¿½ÉŠÜ‚Ü‚ï¿½ï¿½swt-win32-3139.dllï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ìƒpï¿½Xï¿½ï¿½Ý’ï¿½
 </UL>
-<P>‚±‚±‚Åƒ|ƒCƒ“ƒg‚È‚Ì‚ÍAWin32APIŒÄ‚Ño‚µ‚ðs‚¤‚Ì‚É‚à‚©‚©‚í‚ç‚¸A<STRONG>Ž©‘O‚Å‚Í JNI‚ð‘S‚­ì¬‚µ‚Ä‚¢‚È‚¢</STRONG>‚Æ‚¢‚¤“_‚Å‚·B˜b‚ði‚ß‚é‰ß’ö‚Å CŒ¾ŒêƒRƒ“ƒpƒCƒ‰‚ð‘S‚­•K—v‚Æ‚µ‚Ü‚¹‚ñBSWT‚ÉŠÜ‚Ü‚ê‚éAPI‚Å‘S‚Ä‘ã—p‚µ‚Ä‚µ‚Ü‚Á‚Ä‚¢‚é‚Ì‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Åƒ|ï¿½Cï¿½ï¿½ï¿½gï¿½È‚Ì‚ÍAWin32APIï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ì‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚¸ï¿½A<STRONG>ï¿½ï¿½ï¿½Oï¿½Å‚ï¿½ JNIï¿½ï¿½Sï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½</STRONG>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½Bï¿½bï¿½ï¿½iï¿½ß‚ï¿½ß’ï¿½ï¿½ï¿½ Cï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Kï¿½vï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½BSWTï¿½ÉŠÜ‚Ü‚ï¿½ï¿½APIï¿½Å‘Sï¿½Ä‘ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <HR>
-<P>‚Ü‚¸Å‰‚ÌƒTƒ“ƒvƒ‹‚ÍAWindows‚É Œ»Ý•\Ž¦‚³‚ê‚Ä‚¢‚éƒEƒCƒ“ƒhƒE‚Ì’†‚©‚ç ƒ^ƒCƒgƒ‹ƒƒbƒZ[ƒW‚ð‚à‚Æ‚ÉƒEƒCƒ“ƒhƒEƒnƒ“ƒhƒ‹‚ðŽæ“¾‚µA‚»‚ÌƒEƒCƒ“ƒhƒE‚ÌƒTƒCƒY‚ð•ÏX‚µA‚Ü‚½ƒEƒCƒ“ƒhƒE‚É•¶Žš‚ð‘—o‚·‚éƒTƒ“ƒvƒ‹‚Å‚·B(•¶Žš‚Ì‘—o‚É‚Â‚¢‚Ä‚ÍAƒEƒCƒ“ƒhƒEƒnƒ“ƒhƒ‹‚ÆŽÀÛ‚Ì•¶ŽšƒGƒŠƒA‚Æ‚ªˆê’v‚µ‚Ä‚¢‚éƒAƒvƒŠ‚Å‚Ì‚Ý“®ì‚·‚é‚æ‚¤‚Å‚·)</P>
+<P>ï¿½Ü‚ï¿½ï¿½Åï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÍAWindowsï¿½ï¿½ ï¿½ï¿½ï¿½Ý•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ÏXï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½É•ï¿½ï¿½ï¿½ï¿½ð‘—oï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½oï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ÆŽï¿½ï¿½Û‚Ì•ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½Å‚Ì‚Ý“ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -98,7 +98,7 @@ SWT‚É”Z–§‚Éƒnƒ}‚Á‚Ä‚¢‚él‚ÌŠÔ‚Å‚µ‚©’m‚ç‚ê‚Ä‚¢‚È‚¢A‚µ‚©‚µ”ñí‚Éd—v‚È‹@”\‚¾‚ÆŽv‚
     <TR>
       <TD>
       <pre>/**
- * SWT‚ð—p‚¢‚½ Java‚©‚çƒEƒCƒ“ƒhƒEŒŸõ‚ð‚¨‚±‚È‚¤ƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½B
  */
 import java.util.Properties;
 
@@ -109,24 +109,24 @@ import org.eclipse.swt.internal.win32.TCHAR;
 import org.eclipse.swt.internal.win32.WINDOWPLACEMENT;
 
 /**
- * SWT‚ð—p‚¢‚½ƒEƒCƒ“ƒhƒEŒŸõ‚ÌƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½B
  * 
- * @author “n•Ó‹`‘¥
+ * @author ï¿½nï¿½Ó‹`ï¿½ï¿½
  */
 public class SwtSample1 {
     /**
-     * SWT‚ð—p‚¢‚Ä Java‚©‚çWin32APIŒÄ‚Ño‚µ‚ð‚¨‚±‚È‚¢‚Ü‚·B
+     * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Win32APIï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
-     * ŽÀs‚Éæ—§‚¿uGŠÛƒGƒfƒBƒ^v‚ð‹N“®‚µ‚Ä‚¨‚«‚Ü‚·B&lt;br&gt;
-     * ƒEƒCƒ“ƒhƒEƒ^ƒCƒgƒ‹‚ªu(–³‘è) - GŠÛv‚Ìó‘Ô‚É‚µ‚Ä‚¨‚«‚Ü‚·BƒEƒCƒ“ƒhƒE‚Íu”ñÅ‘å‰»v‚É‚µ‚Ü‚·B&lt;br&gt;
+     * ï¿½ï¿½ï¿½sï¿½Éæ—§ï¿½ï¿½ï¿½uï¿½Gï¿½ÛƒGï¿½fï¿½Bï¿½^ï¿½vï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+     * ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½ï¿½u(ï¿½ï¿½ï¿½ï¿½) - ï¿½Gï¿½Ûvï¿½Ìï¿½Ô‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½Íuï¿½ï¿½Å‘å‰»ï¿½vï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
      * 
-     * ŽÀs‚·‚é‚Æ ƒEƒCƒ“ƒhƒE‚ÌƒTƒCƒY‚ª•ÏX‚³‚êA‚Ü‚½ƒGƒfƒBƒ^ã‚É Hello‚ð“ü—Í‚³‚ê‚½ó‘Ô‚É•Ï‚í‚è‚Ü‚·B
+     * ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½ï¿½ï¿½ Helloï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ê‚½ï¿½ï¿½Ô‚É•Ï‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     static void process() {
-        int hWnd = OS.FindWindow(null, new TCHAR(OS.CP_INSTALLED, &quot;(–³‘è) - GŠÛ&quot;,
+        int hWnd = OS.FindWindow(null, new TCHAR(OS.CP_INSTALLED, &quot;(ï¿½ï¿½ï¿½ï¿½) - ï¿½Gï¿½ï¿½&quot;,
                 true));
         if (hWnd == 0) {
-            System.out.println(&quot;ƒEƒCƒ“ƒhƒE‚ÌŒŸõ‚ÉŽ¸”s‚µ‚Ü‚µ‚½Bˆ—’†’f‚µ‚Ü‚·B&quot;);
+            System.out.println(&quot;ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ÌŒï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
         } else {
             RECT rect = new RECT();
             OS.GetWindowRect(hWnd, rect);
@@ -139,13 +139,13 @@ public class SwtSample1 {
             System.out.println(&quot;client pos=(&quot; + (pt.x - rect.left) + &quot; &quot;
                     + (pt.y - rect.top) + &quot;) size=(&quot; + client.right + &quot; &quot;
                     + client.bottom + &quot;)&quot;);
-            // ƒEƒBƒ“ƒhƒE‚ÌƒTƒCƒY‚ð•ÏX‚µ‚Ü‚·B
+            // ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
             WINDOWPLACEMENT wndpl = new WINDOWPLACEMENT();
             OS.GetWindowPlacement(hWnd, wndpl);
-            // ƒEƒCƒ“ƒhƒE‚Ì‘å‚«‚³‚ðc•ûŒü‚É 100 k‚ß‚Ü‚·B
+            // ï¿½Eï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½Ì‘å‚«ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 100 ï¿½kï¿½ß‚Ü‚ï¿½ï¿½B
             wndpl.bottom -= 100;
             OS.SetWindowPlacement(hWnd, wndpl);
-            // ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÉƒL[ƒCƒxƒ“ƒg‚ð‘—‚è‚Ü‚·B
+            // ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÉƒLï¿½[ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ð‘—‚ï¿½Ü‚ï¿½ï¿½B
             OS.SendMessage(hWnd, OS.WM_CHAR, 'H', 0);
             OS.SendMessage(hWnd, OS.WM_CHAR, 'e', 0);
             OS.SendMessage(hWnd, OS.WM_CHAR, 'l', 0);
@@ -155,11 +155,11 @@ public class SwtSample1 {
     }
 
     public static void main(String[] args) {
-        // ŽÀsŽžƒ‰ƒCƒuƒ‰ƒŠ‚Ö‚ÌƒpƒX‚ðŠm”F
+        // ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ìƒpï¿½Xï¿½ï¿½ï¿½mï¿½F
         Properties props = System.getProperties();
         System.out.println(props.getProperty(&quot;java.library.path&quot;));
 
-        // SWT‚É‚æ‚éWinAPIƒR[ƒ‹‚ðŽŽ‚Ý‚Ü‚·B
+        // SWTï¿½É‚ï¿½ï¿½WinAPIï¿½Rï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½B
         process();
     }
 }</pre>
@@ -169,7 +169,7 @@ public class SwtSample1 {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<P>ŽŸ‚ÌƒTƒ“ƒvƒ‹‚ÍAWindows‚ÌƒfƒoƒCƒXƒRƒ“ƒeƒLƒXƒg‚ð—p‚¢‚Ä•`‰æ‚ðs‚¤ƒTƒ“ƒvƒ‹‚Å‚·B‰æ–Êã‚É•‚¢ü‚ª ‚¸‚¸‚¸‚Á‚Æ•`‰æ‚³‚ê‚Ü‚·B(‹Á‚©‚ê‚Ü‚¹‚Ê‚æ‚¤B)</P>
+<P>ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÍAWindowsï¿½Ìƒfï¿½oï¿½Cï¿½Xï¿½Rï¿½ï¿½ï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½pï¿½ï¿½ï¿½Ä•`ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Êï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ•`ï¿½æ‚³ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ê‚æ‚¤ï¿½B)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -182,20 +182,20 @@ public class SwtSample1 {
   <TBODY>
     <TR>
       <TD><pre>/**
- * SWT‚ð—p‚¢‚½Java‚©‚çGDI•`‰æ‚ð‚¨‚±‚È‚¤ƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½GDIï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½B
  */
 import org.eclipse.swt.internal.win32.OS;
 
 /**
- * SWT‚ð—p‚¢‚½GDI•`‰æ‚ÌƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½GDIï¿½`ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½B
  * 
- * @author “n•Ó‹`‘¥
+ * @author ï¿½nï¿½Ó‹`ï¿½ï¿½
  */
 public class SwtSample2 {
     /**
-     * SWT‚ð—p‚¢‚Ä Java‚©‚ç Win32APIŒÄ‚Ño‚µ‚ð‚¨‚±‚È‚¢‚Ü‚·B
+     * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½ Win32APIï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
-     * ŽÀs‚·‚é‚Æ ‰æ–Êã‚É•‚¢ü‚ª‚½‚­‚³‚ñ•`‰æ‚³‚ê‚Ü‚·B
+     * ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Êï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½æ‚³ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     static void process() {
         int hDC = OS.GetDC(0);
@@ -215,7 +215,7 @@ public class SwtSample2 {
     }
 
     public static void main(String[] args) {
-        // SWT‚É‚æ‚éWinAPIƒR[ƒ‹‚ðŽŽ‚Ý‚Ü‚·B
+        // SWTï¿½É‚ï¿½ï¿½WinAPIï¿½Rï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½B
         process();
     }
 }</pre></TD>
@@ -224,7 +224,7 @@ public class SwtSample2 {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<P>ÅŒã‚ÌƒTƒ“ƒvƒ‹‚ÍÕŒ‚“I‚Å‚·BWindows‚ÌƒŒƒWƒXƒgƒŠ‚ÉƒAƒNƒZƒX‚µ‚ÄADirectX‚Ìƒo[ƒWƒ‡ƒ“‚ðŽæ“¾‚·‚é‚Æ‚¢‚¤‚à‚Ì‚Å‚·B</P>
+<P>ï¿½ÅŒï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÍÕŒï¿½ï¿½Iï¿½Å‚ï¿½ï¿½BWindowsï¿½Ìƒï¿½ï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½ÉƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ÄADirectXï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -237,7 +237,7 @@ public class SwtSample2 {
   <TBODY>
     <TR>
       <TD><pre>/**
- * SWT‚ð—p‚¢‚½ Java‚©‚çƒŒƒWƒXƒgƒŠ‚ðƒAƒNƒZƒX‚·‚éƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½çƒŒï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½B
  */
 import java.io.StringWriter;
 
@@ -245,14 +245,14 @@ import org.eclipse.swt.internal.win32.OS;
 import org.eclipse.swt.internal.win32.TCHAR;
 
 /**
- * SWT‚ð—p‚¢‚Ä JavaŒ¾Œê‚©‚ç ƒŒƒWƒXƒgƒŠ‚Ö‚ÌƒAƒNƒZƒX‚ðs‚¢‚Ü‚·B&lt;br&gt;
- * ‚±‚±‚Å‚ÍDirectX‚Ìƒo[ƒWƒ‡ƒ“‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹‚Æ‚È‚Á‚Ä‚¢‚Ü‚·B
+ * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ ï¿½ï¿½ï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½DirectXï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
  * 
- * @author “n•Ó‹`‘¥
+ * @author ï¿½nï¿½Ó‹`ï¿½ï¿½
  */
 public class SwtSampleReg {
     /**
-     * SWT‚ð—p‚¢‚½ Java‚©‚çƒŒƒWƒXƒgƒŠ‚ÉƒAƒNƒZƒX‚µ‚Ä DirectX‚Ìƒo[ƒWƒ‡ƒ“‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹
+     * SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½çƒŒï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½ÉƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ DirectXï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½
      */
     static void process() {
         final String entry = &quot;SOFTWARE\\Microsoft\\DirectX&quot;;
@@ -262,7 +262,7 @@ public class SwtSampleReg {
                     OS.CP_INSTALLED, entry, true), 0,
                     0xF003F/* KEY_ALL_ACCESS */, hKey);
             if (rc != 0) {
-                throw new IllegalArgumentException(&quot;RegOpenKeyEx‚ÌŒÄ‚Ño‚µ‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot;
+                throw new IllegalArgumentException(&quot;RegOpenKeyExï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot;
                         + formatMessage(rc));
             }
             TCHAR buf = new TCHAR(OS.CP_INSTALLED, 256);
@@ -271,10 +271,10 @@ public class SwtSampleReg {
                     &quot;Version&quot;, true), 0, null, buf, len);
             if (rc != 0) {
                 throw new IllegalArgumentException(
-                        &quot;RegQueryValueEx‚ÌŒÄ‚Ño‚µ‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot; + formatMessage(rc));
+                        &quot;RegQueryValueExï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot; + formatMessage(rc));
             }
-            System.out.println(&quot;ƒŒƒWƒXƒgƒŠã‚ÌDirectX‚Ìƒo[ƒWƒ‡ƒ“‚Í[&quot;
-                    + buf.toString(0, buf.strlen()) + &quot;]‚Å‚·B&quot;);
+            System.out.println(&quot;ï¿½ï¿½ï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½DirectXï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[&quot;
+                    + buf.toString(0, buf.strlen()) + &quot;]ï¿½Å‚ï¿½ï¿½B&quot;);
         } finally {
             if (hKey[0] != 0)
                 OS.RegCloseKey(hKey[0]);
@@ -282,11 +282,11 @@ public class SwtSampleReg {
     }
 
     /**
-     * OS‚©‚ç—^‚¦‚ç‚ê‚½–ß‚è’l‚ð‚à‚Æ‚ÉƒƒbƒZ[ƒW‚ðŽæ“¾‚µ‚Ü‚·B
+     * OSï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ß‚ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Éƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param rc
-     *            Win32API‚©‚ç•Ô‹p‚³‚ê‚éDWORD’l
-     * @return OS‚©‚ç“¾‚ç‚ê‚½ƒƒbƒZ[ƒW
+     *            Win32APIï¿½ï¿½ï¿½ï¿½Ô‹pï¿½ï¿½ï¿½ï¿½ï¿½DWORDï¿½l
+     * @return OSï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½W
      */
     public static String formatMessage(final int rc) {
         final int[] lpMsgBuf = new int[2048];
@@ -294,7 +294,7 @@ public class SwtSampleReg {
                 rc, 0, lpMsgBuf, lpMsgBuf.length, 0);
         if (retCode == 0) {
             throw new IllegalArgumentException(
-                    &quot;FormatMessage‚ÌŒÄ‚Ño‚µ‚ÉŽ¸”s‚µ‚Ü‚µ‚½Bˆ—’†’f‚µ‚Ü‚·B(&quot; + OS.GetLastError()
+                    &quot;FormatMessageï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(&quot; + OS.GetLastError()
                             + &quot;)&quot;);
         }
 
@@ -302,23 +302,23 @@ public class SwtSampleReg {
     }
 
     /**
-     * LPMSGBUF‚ðjava.lang.String‚É•ÏŠ·‚µ‚Ü‚·B
+     * LPMSGBUFï¿½ï¿½java.lang.Stringï¿½É•ÏŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param lpMsgBuf
-     *            CŒ¾Œêã‚Æ‚µ‚Ä‚Ì•¶Žš—ñ
-     * @return java.lang.String‰»‚³‚ê‚½•¶Žš—ñ
+     *            Cï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚Ì•ï¿½ï¿½ï¿½ï¿½ï¿½
+     * @return java.lang.Stringï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     public static String lpmsgbuf2String(final int[] lpMsgBuf) {
         final StringWriter result = new StringWriter();
         for (int index = 0; index &lt; lpMsgBuf.length; index++) {
             if (lpMsgBuf[index] == 0) {
-                // NULL‚ªŒ»‚ê‚½‚ç’†’fB
+                // NULLï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ç’†ï¿½fï¿½B
                 break;
             }
             result.write(lpMsgBuf[index]);
 
             if (lpMsgBuf[index] / 0x10000 == 0) {
-                // NULL‚ªŒ»‚ê‚½‚ç’†’fB
+                // NULLï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ç’†ï¿½fï¿½B
                 break;
             }
             result.write(lpMsgBuf[index] / 0x10000);
@@ -328,71 +328,71 @@ public class SwtSampleReg {
     }
 
     public static void main(String[] args) {
-        // SWT‚É‚æ‚éWinAPIƒR[ƒ‹‚ðŽŽ‚Ý‚Ü‚·B
+        // SWTï¿½É‚ï¿½ï¿½WinAPIï¿½Rï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½B
         process();
     }
 }</pre></TD>
     </TR>
   </TBODY>
 </TABLE>
-¦‚±‚¿‚ç‚ÌƒTƒ“ƒvƒ‹‚É‚Â‚¢‚Ä‚ÍA‘½­ <A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A>‚É‚æ‚è‰Á•M‚ª‰Á‚¦‚ç‚ê‚Ä‚¢‚Ü‚·B</BLOCKQUOTE>
-<P>‚±‚ñ‚È‚±‚Æ‚ª Java + SWT‚¾‚¯‚ÅŽÀŒ»‚Å‚«‚é‚È‚ñ‚Ä‘S‚­’m‚è‚Ü‚¹‚ñ‚Å‚µ‚½BCŒ¾ŒêƒRƒ“ƒpƒCƒ‰‚È‚Ç‚ðˆêØ—˜—p‚µ‚Ä‚¢‚Ü‚¹‚ñB‚±‚ê‚ÍÕŒ‚‚Å‚·B<BR>
-<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing–{‚Ì’˜ŽÒ‚Å—L–¼‚È‘å‘º‚³‚ñ">‘å‘º’‰Žj</A>‚³‚ñ‚ÌƒNƒGƒXƒg‚ÉŠ´ŽÓ‚µ‚Ü‚·B‚»‚µ‚Ä ‰ñ“š‚ðl‚¦‚Ä‚¢‚éŠÔ‚É ‚±‚Ì‚æ‚¤‚È”­Œ©‚ð‚³‚ê‚½ <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ(A-san)
-‚Í‘f°‚ç‚µ‚¢‚Å‚·B‚à‚¤’E–X‚Å‚·BJava‚Æ Win32API ‚»‚µ‚Ä SWT‚Ì‘S‚Ä‚É¸’Ê‚³‚ê‚Ä‚¢‚é<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ‚¾‚©‚ç‚±‚»
-‚±‚Ì‰ð‚É‚Ü‚Å‚½‚Ç‚è’…‚­‚±‚Æ‚ª‰Â”\‚È‚Ì‚Å‚·‚à‚ÌB</P>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A>ï¿½É‚ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ Java + SWTï¿½ï¿½ï¿½ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½È‚ï¿½Ä‘Sï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½BCï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½ï¿½Ø—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÍÕŒï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swingï¿½{ï¿½Ì’ï¿½ï¿½Ò‚Å—Lï¿½ï¿½ï¿½È‘å‘ºï¿½ï¿½ï¿½ï¿½">ï¿½å‘ºï¿½ï¿½ï¿½j</A>ï¿½ï¿½ï¿½ï¿½ÌƒNï¿½Gï¿½Xï¿½gï¿½ÉŠï¿½ï¿½Ó‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ñ“š‚ï¿½ï¿½lï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ô‚ï¿½ ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½(A-san)
+ï¿½Í‘fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Xï¿½Å‚ï¿½ï¿½BJavaï¿½ï¿½ Win32API ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SWTï¿½Ì‘Sï¿½Ä‚Éï¿½ï¿½Ê‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ñ‚¾‚ï¿½ï¿½ç‚±ï¿½ï¿½
+ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½É‚Ü‚Å‚ï¿½ï¿½Ç‚è’…ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Â”\ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ÌB</P>
 <HR>
-<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚ÌŽdŽ–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">“n•Ó‹`‘¥</A>‚³‚ñ(a-san)‚Ì“ú‹L‚Ì‚Ù‚¤‚ÉA‚±‚ÌŒ‚Æ“¯‚¶Œ‚ÉŠÖ‚·‚é“ú‹L‚ª‚ ‚è‚Ü‚·B‚à‚¿‚ë‚ñ a-san‚Ì“ú‹L‚Ì•û‚ªƒIƒŠƒWƒiƒ‹”Å‚Æ‚È‚è‚Ü‚·B<BR>
-# ‚»‚µ‚ÄA‚±‚±‚Ü‚Å‘‚¢‚½Œã‚Å “ú‹L‚É‚à‹LÚ‚ª‚ ‚é‚Æ‹C‚ª‚Â‚«‚Ü‚µ‚½ (‹êÎ)</P>
+<P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½ÌŽdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">ï¿½nï¿½Ó‹`ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½(a-san)ï¿½Ì“ï¿½ï¿½Lï¿½Ì‚Ù‚ï¿½ï¿½ÉAï¿½ï¿½ï¿½ÌŒï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a-sanï¿½Ì“ï¿½ï¿½Lï¿½Ì•ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½Å‚Æ‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+# ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½É‚ï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
 <UL>
-  <LI>SWT‚ÅƒŒƒWƒXƒgƒŠ‚Ì’l‚ðŽæ“¾<BR>
+  <LI>SWTï¿½Åƒï¿½ï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½Ì’lï¿½ï¿½ï¿½æ“¾<BR>
   <A HREF="http://d.hatena.ne.jp/a-san/20051228">http://d.hatena.ne.jp/a-san/20051228</A>
-  <LI>‚r‚v‚s‚É‚v‚‰‚Ž‚`‚o‚h‚Ìƒ‰ƒbƒpƒNƒ‰ƒX<BR>
+  <LI>ï¿½rï¿½vï¿½sï¿½É‚vï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½oï¿½hï¿½Ìƒï¿½ï¿½bï¿½pï¿½Nï¿½ï¿½ï¿½X<BR>
   <A HREF="http://d.hatena.ne.jp/a-san/20051227">http://d.hatena.ne.jp/a-san/20051227</A>
 </UL>
-<P>‚¢‚¸‚ê‚É‚µ‚Ä‚à SWTŒo—R‚Å Win32API‚ðŒÄ‚Ño‚·‚±‚Æ‚ªo—ˆ‚é‚Æ‚¢‚¤ ‚±‚Ì”­Œ©‚Í d—v‚È‚à‚Ì‚Å‚ ‚é‚Æl‚¦‚Ü‚·B‚±‚ÌAPI‚Í SWTƒpƒbƒP[ƒW“à‚Ì
-X‚ÉinternalƒpƒbƒP[ƒW“à‚ÉˆÊ’u‚Ã‚¯‚ç‚ê‚Ä‚¢‚é‚Ì‚ÅAEclipse‚ªƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚·‚éÛ‚È‚Ç‚ÉŽd—l‚ª•ÏX‚³‚ê‚é‰Â”\«‚Í‚ ‚è‚Ü‚·B‚µ‚©‚µ
-‚»‚ê‚ð·‚µˆø‚¢‚Ä‚à Ž©‘O‚ÅJNI‚ðŽg‚¤‚Ì‚É”ä‚×‚Äê¡‚©‚ÉˆÀ‘S‚Å ‚»‚µ‚ÄŽèŒy‚³‚ª‚ ‚é‚Ì‚ÅAƒŒƒWƒXƒgƒŠƒAƒNƒZƒX‚È‚Ç‚Ì•K—v‚ª‚ ‚éê‡‚É‚ÍÏ‹É“I‚É—˜—p‚µ‚Ä‚¢‚«‚½‚¢‚ÆŽv‚¢‚Ü‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚µ‚»‚¤‚ÈƒŠƒ\[ƒX</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ SWTï¿½oï¿½Rï¿½ï¿½ Win32APIï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½dï¿½vï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½APIï¿½ï¿½ SWTï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½
+ï¿½Xï¿½ï¿½internalï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½ï¿½ï¿½ÉˆÊ’uï¿½Ã‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAEclipseï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Û‚È‚Ç‚ÉŽdï¿½lï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½Oï¿½ï¿½JNIï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ì‚É”ï¿½×‚ï¿½ê¡‚ï¿½ï¿½Éˆï¿½ï¿½Sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Wï¿½Xï¿½gï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½È‚Ç‚Ì•Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍÏ‹É“Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èƒï¿½ï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
   <LI><A href="http://forum.skype.com/viewtopic.php?t=42871&">http://forum.skype.com/viewtopic.php?t=42871&amp;</A>
   <LI><A HREF="http://d.hatena.ne.jp/a-san/20051227">http://d.hatena.ne.jp/a-san/20051227</A>
   <LI><A HREF="http://skype.sourceforge.jp/">http://skype.sourceforge.jp/</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2006/ig061108.html">2006/11/08 “ú‹L: Java: ƒVƒ“ƒvƒ‹‚È CŒ¾Œê‚©‚çJavaŒ¾Œê‚ðŒÄ‚Ño‚·JNIƒTƒ“ƒvƒ‹</A>
-  <LI><A href="ig050615.html">2005/06/15 “ú‹L: ƒRƒ“ƒsƒ…[ƒ^Eƒ\ƒtƒgƒEƒFƒA‚Ì–{Ž¿ , SWTƒXƒNƒŠ[ƒ“ƒZ[ƒo</A>
-  <LI><A href="ig050408.html">2005/04/08 “ú‹L: uƒ‰ƒbƒp[ƒNƒ‰ƒXEƒfƒUƒCƒ“ƒpƒ^[ƒ“v‚Æ‚¢‚¤‚à‚Ì‚Ì‘¶Ý</A>
-  <LI><A href="ig050328.html">2005/03/28 “ú‹L: SQL®Œ`Eclipseƒvƒ‰ƒOƒCƒ“î•ñ‚ðŠó–] , ‰Ô•²Ç‚ÌÇó‚ª–žÚc</A>
-  <LI><A href="ig050324.html">2005/03/24 “ú‹L: ƒŠƒbƒ`ƒNƒ‰ƒCƒAƒ“ƒg‹Zp‚Í Java + SWT ‚ÉŽ‘Œ¹W’†‚ðs‚Á‚Ä‚¢‚«‚Ü‚·</A>
-  <LI><A href="../2004/ig040423.html">2004/04/23 “ú‹L: ¡”N“x‚ÌŒv‰æ: Swing / SWT ‚ð—¬s‚ç‚¹‚Ü‚·I</A>
-  <LI><A href="../2004/ig040107.html">2004/01/07 “ú‹L: javax.print‰‘ÌŒ±</A>
-  <LI><A href="../2002/ig021101.html">2002/11/01 “ú‹L: SWT (Standard Widget Toolkit) ‚Æ‚¢‚¤‘I‘ðŽˆ</A>
+  <LI><A href="../2006/ig061108.html">2006/11/08 ï¿½ï¿½ï¿½L: Java: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ Cï¿½ï¿½ï¿½ê‚©ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½JNIï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
+  <LI><A href="ig050615.html">2005/06/15 ï¿½ï¿½ï¿½L: ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Eï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ì–{ï¿½ï¿½ , SWTï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Zï¿½[ï¿½o</A>
+  <LI><A href="ig050408.html">2005/04/08 ï¿½ï¿½ï¿½L: ï¿½uï¿½ï¿½ï¿½bï¿½pï¿½[ï¿½Nï¿½ï¿½ï¿½Xï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ì‘ï¿½ï¿½ï¿½</A>
+  <LI><A href="ig050328.html">2005/03/28 ï¿½ï¿½ï¿½L: SQLï¿½ï¿½ï¿½`Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½] , ï¿½Ô•ï¿½ï¿½Ç‚ÌÇó‚ª–ï¿½ï¿½Úc</A>
+  <LI><A href="ig050324.html">2005/03/24 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½bï¿½`ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½Zï¿½pï¿½ï¿½ Java + SWT ï¿½ÉŽï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½</A>
+  <LI><A href="../2004/ig040423.html">2004/04/23 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Nï¿½xï¿½ÌŒvï¿½ï¿½: Swing / SWT ï¿½ð—¬sï¿½ç‚¹ï¿½Ü‚ï¿½ï¿½I</A>
+  <LI><A href="../2004/ig040107.html">2004/01/07 ï¿½ï¿½ï¿½L: javax.printï¿½ï¿½ï¿½ÌŒï¿½</A>
+  <LI><A href="../2002/ig021101.html">2002/11/01 ï¿½ï¿½ï¿½L: SWT (Standard Widget Toolkit) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWT‚ð—p‚¢‚½ƒŠƒbƒ`ƒNƒ‰ƒCƒAƒ“ƒgŽž‘ã‚ÌƒZƒLƒ…ƒŠƒeƒBŠÏ“_</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½`ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ÌƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½Ï“_</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>SWT‚ð—p‚¢‚é‚Æ .NET Framework‚ÅŽÀŒ»‚Å‚«‚é‚æ‚¤‚È WindowsƒAƒNƒZƒX‚Ì‹@”\«‚Ì‘½‚­‚ª Java‚ÅŽÀŒ»‚Å‚«‚é‚±‚Æ‚É‚È‚è‚Ü‚·Bˆê•û‚Å
-SWT‚Å‚±‚±‚Ü‚Å‚Ì‹@”\«‚ªŽÀŒ»o—ˆ‚Ä‚µ‚Ü‚¤‚Ì‚¾‚Æ‚·‚é‚ÆASWT‚ð—p‚¢‚½ƒŠƒbƒ`ƒNƒ‰ƒCƒAƒ“ƒgŽž‘ã‚Å‚Í SWT‚ÉŠÖ‚·‚éƒZƒLƒ…ƒŠƒeƒB‚É ŠÖS‚ðŽ‚¿Žn‚ß‚é•K—v‚ª‚ ‚é‚±‚Æ‚É‹C‚ª‚Â‚©‚³‚ê‚Ü‚µ‚½BSWT‚ð—p‚¢‚é‚Æ
-Šm‚©‚É”ñí‚É‘½‚­‚Ì‹@”\«‚ð“¾‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B‚µ‚©‚µˆê•û‚Å SWT‚Ì‹@”\«‚ä‚¦‚ÉƒZƒLƒ…ƒŠƒeƒB‚É‚Í‹C‚ð‚Â‚©‚í‚È‚­‚Ä‚Í‚È‚ç‚È‚¢‚Ì‚Å‚·B‰½”NŒã‚©‚É‚Í
-‚±‚ÌŠÏ“_‚Íd—v‚È‚à‚Ì‚É‚È‚Á‚Ä‚¢‚­‚±‚Æ‚Å‚µ‚å‚¤B‚ ‚é‚¢‚Í SWT‚É‚àƒZƒLƒ…ƒŠƒeƒBƒ|ƒŠƒV[‚Ì‹@”\«‚ªŽÀ‘•‚³‚ê‚é‚×‚«‚È‚Ì‚©‚à’m‚ê‚Ü‚¹‚ñB</P>
-<P>Ž„‚ªl‚¦‚Â‚­ Œ»Žž“_‚Å‘Î‰ž‚µ‚Ä‚¨‚­‚×‚«’ˆÓ“_‚ÍASWT‚ÌJAR‚âDLL‚ð ’Êí‚ÌJavaŽÀsŠÂ‹«‚ÌƒpƒX‚É‚Í<STRONG><FONT color="#ff00ff">“ü‚ê‚Ä‚Í‚¢‚¯‚È‚¢</FONT></STRONG>‚±‚¢‚¤‚Æ‚Å‚·BJavaŒ¾Œê‚ÌŽÀsŠÂ‹«‚É¸’Ê‚µ‚Ä‚¢‚él‚Ù‚Ç swt-win32-XXXX.dll‚È‚Ç‚Ì‘å‚«‚¢ƒtƒ@ƒCƒ‹‚ð ‹¤’Ê‰»‚µ‚Äƒtƒ@ƒCƒ‹ƒTƒCƒYíŒ¸‚É“w‚ß‚é‚ÆŽv‚¢‚Ü‚·‚ªA¡‚Ü‚Å‹“‚°‚½‹@”\‚ªSWT‚É”õ‚í‚Á‚Ä‚¢‚éˆÈãAˆÓŽ¯‚µ‚Ä‚¢‚Èê‡‚É‚Í
-SWT‚ðŽÀsŠÂ‹«‚É‰Á‚¦‚Ä‚µ‚Ü‚¤‚Ì‚Í‘å•ÏŠëŒ¯‚Å‚·B</P>
+<P>SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ .NET Frameworkï¿½ÅŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ Windowsï¿½Aï¿½Nï¿½Zï¿½Xï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½ÅŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½
+SWTï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ü‚Å‚Ì‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ÆASWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½`ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Å‚ï¿½ SWTï¿½ÉŠÖ‚ï¿½ï¿½ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ ï¿½ÖSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ß‚ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BSWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½mï¿½ï¿½ï¿½É”ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½ð“¾‚é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SWTï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½ä‚¦ï¿½ÉƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½É‚Í‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Nï¿½ã‚©ï¿½É‚ï¿½
+ï¿½ï¿½ï¿½ÌŠÏ“_ï¿½Ídï¿½vï¿½È‚ï¿½ï¿½Ì‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½ï¿½é‚¢ï¿½ï¿½ SWTï¿½É‚ï¿½ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½|ï¿½ï¿½ï¿½Vï¿½[ï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Â‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½Ó“_ï¿½ÍASWTï¿½ï¿½JARï¿½ï¿½DLLï¿½ï¿½ ï¿½Êï¿½ï¿½Javaï¿½ï¿½ï¿½sï¿½Â‹ï¿½ï¿½Ìƒpï¿½Xï¿½É‚ï¿½<STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½</FONT></STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½BJavaï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½sï¿½Â‹ï¿½ï¿½Éï¿½ï¿½Ê‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½lï¿½Ù‚ï¿½ swt-win32-XXXX.dllï¿½È‚Ç‚Ì‘å‚«ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ï¿½Äƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Tï¿½Cï¿½Yï¿½íŒ¸ï¿½É“wï¿½ß‚ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚Å‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½SWTï¿½É”ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Èï¿½Aï¿½ÓŽï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Èê‡ï¿½É‚ï¿½
+SWTï¿½ï¿½ï¿½ï¿½ï¿½sï¿½Â‹ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚Í‘ï¿½ÏŠëŒ¯ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒNƒ‰ƒVƒbƒN‰¹Šyƒlƒ^: ƒ`ƒƒƒCƒRƒtƒXƒL[ì‹Èu”ßœÆv</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Nï¿½ï¿½ï¿½Vï¿½bï¿½Nï¿½ï¿½ï¿½yï¿½lï¿½^: ï¿½`ï¿½ï¿½ï¿½Cï¿½Rï¿½tï¿½Xï¿½Lï¿½[ï¿½ï¿½Èuï¿½ßœÆv</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>2005/12/08•ú‘— “ú–{ƒeƒŒƒr(4ch) “Ç”„Œð‹¿Šy’c{Lã~ˆê ‚ðŽ‹‚Ü‚µ‚½BLã‚³‚ñ‚Ìƒeƒ“ƒ|Ý’è‚È‚Ç‚Ìâ–­‚³‚È‚Ç‚ª ‘f°‚ç‚µ‚¢‚ÆŽv‚¢‚Ü‚µ‚½B</P>
+<P>2005/12/08ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½{ï¿½eï¿½ï¿½ï¿½r(4ch) ï¿½Ç”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yï¿½cï¿½{ï¿½Lï¿½ï¿½~ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Lï¿½ã‚³ï¿½ï¿½Ìƒeï¿½ï¿½ï¿½|ï¿½Ý’ï¿½È‚Ç‚Ìâ–­ï¿½ï¿½ï¿½È‚Ç‚ï¿½ ï¿½fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

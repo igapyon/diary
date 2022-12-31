@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/08/24 “ú‹L: –Ú•W: 5 ”NˆÈ“à‚É Debian Developer ‚É‚È‚éI</TITLE>
-<meta name="DESCRIPTION" content="ƒRƒ“ƒsƒ…[ƒ^Eƒ\ƒtƒgƒEƒFƒAŠÖ˜A‹Zp‚ÉŠÖ‚µ‚ÄAŽ„‚É‘å‚«‚È–Ú•W‚ª‚Å‚«‚Ü‚µ‚½Bu5 ”NˆÈ“à‚É Debian Developer ‚É‚È‚é‚±‚Æv">
-<meta name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2010/08/24 ï¿½ï¿½ï¿½L: ï¿½Ú•W: 5 ï¿½Nï¿½È“ï¿½ï¿½ï¿½ Debian Developer ï¿½É‚È‚ï¿½I</TITLE>
+<meta name="DESCRIPTION" content="ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Eï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ö˜Aï¿½Zï¿½pï¿½ÉŠÖ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½É‘å‚«ï¿½È–Ú•Wï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½u5 ï¿½Nï¿½È“ï¿½ï¿½ï¿½ Debian Developer ï¿½É‚È‚é‚±ï¿½Æv">
+<meta name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
 <meta name="DATE" content="2010-08-25T08:34:52+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/08/24 “ú‹L: –Ú•W: 5 ”NˆÈ“à‚É Debian Developer ‚É‚È‚éI</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ƒRƒ“ƒsƒ…[ƒ^Eƒ\ƒtƒgƒEƒFƒAŠÖ˜A‹Zp‚ÉŠÖ‚µ‚ÄAŽ„‚É‘å‚«‚È–Ú•W‚ª‚Å‚«‚Ü‚µ‚½Bu5 ”NˆÈ“à‚É Debian Developer ‚É‚È‚é‚±‚Æv</P>
+    <H2>2010/08/24 ï¿½ï¿½ï¿½L: ï¿½Ú•W: 5 ï¿½Nï¿½È“ï¿½ï¿½ï¿½ Debian Developer ï¿½É‚È‚ï¿½I</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Eï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ö˜Aï¿½Zï¿½pï¿½ÉŠÖ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½É‘å‚«ï¿½È–Ú•Wï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½u5 ï¿½Nï¿½È“ï¿½ï¿½ï¿½ Debian Developer ï¿½É‚È‚é‚±ï¿½Æv</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp ‚ð“Œ‹ž‚ÅŠJÃ! ŽcÈ‚í‚¸‚©B\žŠúŒÀ‚àŠÔ‹ßBŽQ‰ÁŠó–]ŽÒ‚Í¡‚·‚®\‚µž‚Ý‚ð!
+        Eclipse DemoCamp ï¿½ð“Œ‹ï¿½ï¿½ÅŠJï¿½ï¿½! ï¿½cï¿½È‚í‚¸ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‹ßBï¿½Qï¿½ï¿½ï¿½ï¿½]ï¿½Ò‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,30 +61,30 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>–Ú•W: 5 ”NˆÈ“à‚É Debian Developer ‚É‚È‚éI</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Ú•W: 5 ï¿½Nï¿½È“ï¿½ï¿½ï¿½ Debian Developer ï¿½É‚È‚ï¿½I</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p>ƒRƒ“ƒsƒ…[ƒ^Eƒ\ƒtƒgƒEƒFƒAŠÖ˜A‹Zp‚ÉŠÖ‚µ‚ÄAŽ„‚É‘å‚«‚È–Ú•W‚ª‚Å‚«‚Ü‚µ‚½Bu5 ”NˆÈ“à‚É <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="Å‚àƒtƒŠ[‚Å ‚»‚µ‚ÄÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Debian</A> Developer
-‚É‚È‚é‚±‚Æv</p>
-<p>Å‹ß <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> ‚ðG‚Á‚Ä‚¢‚ÄA‚¾‚ñ‚¾‚ñŠµ‚ê‚Ä‚«‚ÄA‚æ‚¤‚â‚Á‚Æ Ubuntu ‚ª (‚»‚µ‚Ä <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="Å‚àƒtƒŠ[‚Å ‚»‚µ‚ÄÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Debian</A> ‚ª) ‚¨‚¨‚Ü‚©‚É‘€ì‚Å‚«‚é’ö“x‚É‚Ü‚Å ‚í‚©‚Á‚Ä‚«‚½‚æ‚¤‚ÉŽè‰ž‚¦‚ðŠ´‚¶‚Ä‚¢‚Ü‚·B</p>
-<p>‚±‚Ì‚Ü‚Ü‚±‚Â‚±‚Â Ubuntu (‚»‚µ‚Ä Debian) ‚ðg‚É‚Â‚¯‚ÄA‚»‚µ‚Ä Debian Šˆ“®‚ÉŽQ‰Á‚µ‚Ä‚¢‚¯‚ÎA‚©‚Ë‚Ä‚æ‚è‚Ì‚ ‚±‚ª‚ê‚Å‚ ‚Á‚½
-Debian Developer ‚É“ž’B‚Å‚«‚é‚Ì‚Å‚Í‚È‚¢‚©A‚ÆA™X‚ÉŽè‰ž‚¦‚ðŠ´‚¶‚Â‚Â‚ ‚è‚Ü‚·B<br>
-‚Ü‚ A‚Ü‚¸‚Í Debian (‚Æ‚¢‚¤‚© Ubuntu) ‚É ‚à‚Á‚ÆŠµ‚ê‚Ä‚¢‚­‚Æ‚¢‚¤‚Ì‚ªƒXƒ^[ƒgƒ‰ƒCƒ“‚Å‚à‚ ‚è‚Ü‚·B‚±‚Â‚±‚ÂAŠæ’£‚Á‚Ä‚Ý‚Ü‚·B</p>
-<p>—Ç‚¢‹@‰ï‚È‚Ì‚ÅA‚³‚Á‚»‚­ <a href="http://www.ospn.jp/osc2010-fall/">OSC2010 Tokyo/Fall</a> ‚Ì Debian ŒnƒZƒ~ƒi[‚ð\‚µž‚Ý‚Ü‚µ‚½BƒL[ŒðŠ·‚ÉŽQ‰Á‚µ‚Ä‚Ý‚½‚¢‚Ì‚Å‚·‚ªAƒL[‚Ìì‚è•û‚©‚ç ‚Ü‚¸‚Í•×‹­‚Å‚·B</p>
+<p>ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Eï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ö˜Aï¿½Zï¿½pï¿½ÉŠÖ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/F="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="ï¿½Å‚ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÄÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Debian</A> Developer
+ï¿½É‚È‚é‚±ï¿½Æv</p>
+<p>ï¿½Å‹ï¿½ <A HRhttps://www.igapyon.jp/igapyon/diary/ary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> ï¿½ï¿½Gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/ï¿½ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="ï¿½Å‚ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÄÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Debian</A> ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½É‘ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½É‚Ü‚ï¿½ ï¿½í‚©ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽè‰žï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½ï¿½ï¿½Ì‚Ü‚Ü‚ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ Ubuntu (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Debian) ï¿½ï¿½gï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Debian ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½Ë‚Ä‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½
+Debian Developer ï¿½É“ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½Aï¿½ÆAï¿½ï¿½ï¿½Xï¿½ÉŽè‰žï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½Ü‚ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ Debian (ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ Ubuntu) ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÆŠï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Â‚ï¿½ï¿½ÂAï¿½æ’£ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½B</p>
+<p>ï¿½Ç‚ï¿½ï¿½@ï¿½ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <a href="http://www.ospn.jp/osc2010-fall/">OSC2010 Tokyo/Fall</a> ï¿½ï¿½ Debian ï¿½nï¿½Zï¿½~ï¿½iï¿½[ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Lï¿½[ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Í•×‹ï¿½ï¿½Å‚ï¿½ï¿½B</p>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Debian ‚Æ Ubuntu ‚Æ‚Ì‘Šˆá</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Debian ï¿½ï¿½ Ubuntu ï¿½Æ‚Ì‘ï¿½ï¿½ï¿½</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>‚Ó‚Æ•sŽv‹c‚ÉŽv‚¢A‚½‚ß‚µ‚É <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="Å‚àƒtƒŠ[‚Å ‚»‚µ‚ÄÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Debian</A> 5.0.5 ‚Ì <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/livecd.html" TITLE="1CD Linux‚ÆŒÄ‚Î‚ê‚é‚±‚Æ‚à‚ ‚éBCDƒu[ƒg‚µ‚ÄOSˆêŽ®‚ª—˜—p‰Â”\‚É‚È‚é‚Æ‚¢‚¤ƒJƒ‰ƒNƒŠB">LiveCD</A> ”Å‚ð‹N“®‚µ‚Ä‚Ý‚Ü‚µ‚½B(i386,
+<p>ï¿½Ó‚Æ•sï¿½vï¿½cï¿½ÉŽvï¿½ï¿½ï¿½Aï¿½ï¿½https://www.igapyon.jp/igapyon/diary//igapyon/diary/keyword/debian.html" TITLE="ï¿½Å‚ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÄÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Linuxï¿½fï¿½Bï¿½https://www.igapyon.jp/igapyon/diary/.0.5 ï¿½ï¿½ <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/livecd.html" TITLE="1CD Linuxï¿½ÆŒÄ‚Î‚ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½BCDï¿½uï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½OSï¿½êŽ®ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Â”\ï¿½É‚È‚ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½B">LiveCD</A> ï¿½Å‚ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B(i386,
 gnome, desktop)<br>
-uƒfƒXƒNƒgƒbƒvŠÂ‹«vŠÏ“_‚Å Ubuntu ‚Æ Debian ‚Æ‚ð”ä‚×‚Ä‚Ý‚é‚ÆADebian ‚Æ Ubuntu ‚Æ‚ÍŽ—‚Ä‚¢‚é‚à‚Ì‚ÌA‚â‚Í‚è ‚¢‚ë‚¢‚ëˆÙ‚È‚è‚Ü‚·B</p>
-<p>AAA‚Ç‚¤‚â‚çŽ„‚ÍuƒfƒXƒNƒgƒbƒvŠÂ‹«v‚Æ‚¢‚¤‚±‚Æ‚Å‚ÍAUbuntu ‚Ì‚Ù‚¤‚ªD‚« (D‚Ý) ‚Å‚ ‚é–Í—l‚Å‚Í‚ ‚è‚Ü‚· (‹êÎ)</p>
+ï¿½uï¿½fï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½Â‹ï¿½ï¿½vï¿½Ï“_ï¿½ï¿½ Ubuntu ï¿½ï¿½ Debian ï¿½Æ‚ï¿½ï¿½×‚Ä‚Ý‚ï¿½ÆADebian ï¿½ï¿½ Ubuntu ï¿½Æ‚ÍŽï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÌAï¿½ï¿½Í‚ï¿½ ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½Ù‚È‚ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½Aï¿½Aï¿½Aï¿½Ç‚ï¿½ï¿½ï¿½çŽ„ï¿½Íuï¿½fï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½Â‹ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ÍAUbuntu ï¿½Ì‚Ù‚ï¿½ï¿½ï¿½ï¿½Dï¿½ï¿½ (ï¿½Dï¿½ï¿½) ï¿½Å‚ï¿½ï¿½ï¿½Í—lï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ (ï¿½ï¿½ï¿½)</p>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/08/25 08:34:52 $</address>
 </BODY>
 </HTML>

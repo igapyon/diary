@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/07/02 “ú‹L: Java: Jakarta Commons VFS‚ð—p‚¢‚½ ƒfƒBƒŒƒNƒgƒŠˆê——‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹ , ƒtƒ@ƒCƒ‹‚ðƒRƒs[‚·‚éƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="Jakarta Commons VFS‚ð—p‚¢‚½‹É‚ß‚Ä‰•à“I‚ÈƒgƒCƒvƒƒOƒ‰ƒ€‚ðì¬‚µ‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹‚Ìˆê——‚¨‚æ‚Ñƒtƒ@ƒCƒ‹‚ÌƒRƒs[‚Å‚·BVFSƒx[ƒX‚È‚Ì‚ÅAƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹‚Æftp, ‚»‚µ‚Ähttp‚Æ‚ª“§‰ß“I‚É‘ŠŒÝæ‚è“ü‚ê‚Å‚«‚é‚Ì‚ª”ñí‚É‹»–¡[‚¢‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,ƒRƒs[,ˆê——">
+<TITLE>2005/07/02 ï¿½ï¿½ï¿½L: Java: Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ , ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½É‚ß‚Äï¿½ï¿½ï¿½ï¿½Iï¿½Èƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½ï¿½Ñƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ÌƒRï¿½sï¿½[ï¿½Å‚ï¿½ï¿½BVFSï¿½xï¿½[ï¿½Xï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ftp, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½httpï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ß“Iï¿½É‘ï¿½ï¿½Ýï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,ï¿½Rï¿½sï¿½[,ï¿½ê——">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/07/02 “ú‹L: Java: Jakarta Commons VFS‚ð—p‚¢‚½ ƒfƒBƒŒƒNƒgƒŠˆê——‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹ , ƒtƒ@ƒCƒ‹‚ðƒRƒs[‚·‚éƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,ƒRƒs[,ˆê——] Jakarta Commons VFS‚ð—p‚¢‚½‹É‚ß‚Ä‰•à“I‚ÈƒgƒCƒvƒƒOƒ‰ƒ€‚ðì¬‚µ‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹‚Ìˆê——‚¨‚æ‚Ñƒtƒ@ƒCƒ‹‚ÌƒRƒs[‚Å‚·BVFSƒx[ƒX‚È‚Ì‚ÅAƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹‚Æftp, ‚»‚µ‚Ähttp‚Æ‚ª“§‰ß“I‚É‘ŠŒÝæ‚è“ü‚ê‚Å‚«‚é‚Ì‚ª”ñí‚É‹»–¡[‚¢‚Å‚·B</P>
+    <H2>2005/07/02 ï¿½ï¿½ï¿½L: Java: Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ , ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Jakarta,Commons,VFS,API,ftp,http,ï¿½Rï¿½sï¿½[,ï¿½ê——] Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½É‚ß‚Äï¿½ï¿½ï¿½ï¿½Iï¿½Èƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½ï¿½Ñƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ÌƒRï¿½sï¿½[ï¿½Å‚ï¿½ï¿½BVFSï¿½xï¿½[ï¿½Xï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ftp, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½httpï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ß“Iï¿½É‘ï¿½ï¿½Ýï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,26 +60,26 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFS‚ð—p‚¢‚½ ƒfƒBƒŒƒNƒgƒŠˆê——‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Ž„‚ª‚à‚Á‚Æ‚à’–Ú‚µ‚Ä‚¢‚éJavaŒnƒI[ƒvƒ“ƒ\[ƒXAPI‚Ì‚Ð‚Æ‚Â‚ª Jakarta Commons VFS‚Å‚·B‚³‚Á‚»‚­‚Æ‚Ä‚àƒvƒŠ‚Ý‚¡‚Ä‚¡‚Ô‚ÈŒŸØƒvƒƒOƒ‰ƒ€‚ðì¬‚µ‚Ü‚µ‚½B</P>
-<P>Jakarta Commons VFS‚ð—p‚¢‚½ ƒfƒBƒŒƒNƒgƒŠˆê——‚ðŽæ“¾‚·‚é‚½‚ß‚Ì<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ƒgƒCƒvƒƒOƒ‰ƒ€EƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">ƒgƒCƒvƒƒOƒ‰ƒ€</A>EƒTƒ“ƒvƒ‹‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Javaï¿½nï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½XAPIï¿½Ì‚Ð‚Æ‚Â‚ï¿½ Jakarta Commons VFSï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½vï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½Ô‚ÈŒï¿½ï¿½Øƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/yon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</A>ï¿½Eï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 
-<P>Šm”F‚É—˜—p‚µ‚½“®ìŠÂ‹«</P>
+<P>ï¿½mï¿½Fï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½</P>
 <UL>
-  <LI>Sun Java2 SDK 1.5.0_03 (Windows”Å)
+  <LI>Sun Java2 SDK 1.5.0_03 (Windowsï¿½ï¿½)
   <LI>commons-vfs-1.0-RC1.jar
   <LI>commons-logging.jar (1.0.4)
-  <LI>ftp‚Ìê‡‚Í ‰º‹L‚Qƒtƒ@ƒCƒ‹‚ª ŽÀsŽž‚ÉƒNƒ‰ƒXƒpƒX‚Ö‚Ì’Ç‰Á‚ª•K—v‚Å‚·B
+  <LI>ftpï¿½Ìê‡ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Qï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½Ö‚Ì’Ç‰ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
   <UL>
     <LI>commons-net-1.4.0.jar
     <LI>jakarta-oro-2.0.8.jar
   </UL>
-  ¦‚±‚ê‚çƒtƒ@ƒCƒ‹‚ªƒNƒ‰ƒXƒpƒX‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚È‚¢ê‡‚É‚Í “Ç‰ð‚µ‚É‚­‚¢—áŠO‚ª”­¶‚·‚éê‡‚ª‚ ‚è‚Ü‚·B <BR>
-  —áŠO‚ÌƒTƒ“ƒvƒ‹uorg.apache.commons.vfs.FileSystemException: Could not list the
-  contents of &quot;ftp://ftp.jp.ibm.com/&quot; because it is not a folder.v
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½ÉŠÜ‚Ü‚ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½É‚ï¿½ ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B <BR>
+  ï¿½ï¿½Oï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½uorg.apache.commons.vfs.FileSystemException: Could not list the
+  contents of &quot;ftp://ftp.jp.ibm.com/&quot; because it is not a folder.ï¿½v
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -94,8 +94,8 @@
     <TR>
       <TD>
       <pre>/*
- * Jakarta Commons VSF: ƒtƒ@ƒCƒ‹/ftpˆê——‚ÌŽæ“¾ƒTƒ“ƒvƒ‹
- * Copyright (C) 2005 ˆÉ‰ê•qŽ÷ ì¬“ú: 2005/07/02
+ * Jakarta Commons VSF: ï¿½tï¿½@ï¿½Cï¿½ï¿½/ftpï¿½ê——ï¿½ÌŽæ“¾ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½
+ * Copyright (C) 2005 ï¿½É‰ï¿½qï¿½ï¿½ ï¿½ì¬ï¿½ï¿½: 2005/07/02
  */
 
 import org.apache.commons.vfs.FileObject;
@@ -117,16 +117,16 @@ public class VfsListSample {
             FileObject[] children = fileObject.getChildren();
             for (int index = 0; index &lt; children.length; index++) {
                 if (children[index].getType() == FileType.FOLDER) {
-                    System.out.println(&quot;ƒfƒBƒŒƒNƒgƒŠ:&quot;
+                    System.out.println(&quot;ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½:&quot;
                             + children[index].getName().getURI());
                 } else if (children[index].getType() == FileType.FILE) {
-                    System.out.println(&quot;ƒtƒ@ƒCƒ‹:&quot;
+                    System.out.println(&quot;ï¿½tï¿½@ï¿½Cï¿½ï¿½:&quot;
                             + children[index].getName().getURI());
                 } else if (children[index].getType() == FileType.IMAGINARY) {
-                    System.out.println(&quot;ƒCƒ[ƒW:&quot;
+                    System.out.println(&quot;ï¿½Cï¿½ï¿½ï¿½[ï¿½W:&quot;
                             + children[index].getName().getURI());
                 } else {
-                    System.out.println(&quot;’m‚ç‚È‚¢ƒtƒ@ƒCƒ‹Œ`Ž®‚Å‚·: &quot;
+                    System.out.println(&quot;ï¿½mï¿½ï¿½È‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Å‚ï¿½: &quot;
                             + children[index].getName().getURI() + &quot;: &quot;
                             + children[index].getType());
                 }
@@ -143,33 +143,33 @@ public class VfsListSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒŠƒ\[ƒX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
   <LI>Jakarta Commons VFS<BR>
   <A HREF="http://jakarta.apache.org/commons/vfs/">http://jakarta.apache.org/commons/vfs/</A>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ƒgƒCƒvƒƒOƒ‰ƒ€EƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">ƒgƒCƒvƒƒOƒ‰ƒ€</A>
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</A>
 </UL>
-<P><FONT color="#ff00ff">•s–¾“_ / TODO</FONT></P>
+<P><FONT color="#ff00ff">ï¿½sï¿½ï¿½ï¿½_ / TODO</FONT></P>
 <UL>
-  <LI>FileObject#close()‚ÌŒÄ‚Ño‚µ‚ÉŠÖ‚·‚éƒ‹[ƒ‹‚É‚Â‚¢‚Ä’²¸‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·B‚Æ‚¢‚¤‚©Œ»Ý‚ÌƒgƒCƒvƒƒOƒ‰ƒ€‚ÍƒoƒO‚Á‚Ä‚¢‚Ü‚·B
-  <LI>FileObject#close()‚³‚ÖŒÄ‚Ño‚¹‚ÎAƒXƒgƒŠ[ƒ€‚Ìclose()‚ÍŒÄ‚Ño‚µ•s—v‚©‚à’m‚ê‚Ü‚¹‚ñB(ƒ\[ƒXƒR[ƒh‚ðŒ©‚½‚çA‚»‚ê‚ðŽ¦´‚·‚éŠ´‚¶‚ÉŽÀ‘•‚³‚ê‚Ä‚¢‚Ü‚·)
-  <LI>ƒtƒ@ƒCƒ‹ˆê——‚É‚Â‚¢‚Ä‚Í http‚Å‚Í—˜—p‚Å‚«‚È‚¢—lŽqc
+  <LI>FileObject#close()ï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ìƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Íƒoï¿½Oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>FileObject#close()ï¿½ï¿½ï¿½ÖŒÄ‚Ñoï¿½ï¿½ï¿½ÎAï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½close()ï¿½ÍŒÄ‚Ñoï¿½ï¿½ï¿½sï¿½vï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B(ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éŠ´ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½)
+  <LI>ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ê——ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ httpï¿½Å‚Í—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½lï¿½qï¿½c
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig050701.html">2005/07/01 “ú‹L: ƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹XV‚ðRSS‚Å•\Œ»‚Æ‚¢‚¤ƒvƒ`ƒAƒCƒfƒA , VFSƒx[ƒX‚ÌGUIƒtƒ@ƒCƒ‰[‚ª—~‚µ‚¢</A>
+  <LI><A href="ig050701.html">2005/07/01 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½RSSï¿½Å•\ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½`ï¿½Aï¿½Cï¿½fï¿½A , VFSï¿½xï¿½[ï¿½Xï¿½ï¿½GUIï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFS‚ð—p‚¢‚½ ƒtƒ@ƒCƒ‹‚ðƒRƒs[‚·‚éƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Jakarta Commons VFS‚ð—p‚¢‚½ ƒtƒ@ƒCƒ‹‚ðƒRƒs[‚·‚é‚½‚ß‚Ì<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ƒgƒCƒvƒƒOƒ‰ƒ€EƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">ƒgƒCƒvƒƒOƒ‰ƒ€</A>EƒTƒ“ƒvƒ‹‚Å‚·B</P>
-<P>Šm”F‚É—˜—p‚µ‚½“®ìŠÂ‹«</P>
+<P>Jakarta Commons VFSï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/pyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</A>ï¿½Eï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½mï¿½Fï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½</P>
 <UL>
-  <LI>Sun Java2 SDK 1.5.0_03 (Windows”Å)
+  <LI>Sun Java2 SDK 1.5.0_03 (Windowsï¿½ï¿½)
   <LI>commons-vfs-1.0-RC1.jar
   <LI>commons-logging.jar (1.0.4)
 </UL>
@@ -186,8 +186,8 @@ public class VfsListSample {
     <TR>
       <TD>
       <pre>/*
- * Jakarta Commons VSF: ƒtƒ@ƒCƒ‹ƒRƒs[‚ÌƒTƒ“ƒvƒ‹
- * Copyright (C) 2005 ˆÉ‰ê•qŽ÷ ì¬“ú: 2005/07/02
+ * Jakarta Commons VSF: ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½
+ * Copyright (C) 2005 ï¿½É‰ï¿½qï¿½ï¿½ ï¿½ì¬ï¿½ï¿½: 2005/07/02
  */
 
 import java.io.IOException;
@@ -213,12 +213,12 @@ public class VfsCopySample {
             FileObject fileObjectDist = manager
                     .resolveFile(&quot;file://c:/temp/work.txt&quot;);
 
-            System.out.println(&quot;ƒ\[ƒX[&quot; + fileObjectSrc.getURL() + &quot;]‚ðƒ^[ƒQƒbƒg[&quot;
-                    + fileObjectDist.getURL() + &quot;]‚ÉƒRƒs[‚µ‚Ü‚·.&quot;);
+            System.out.println(&quot;ï¿½\ï¿½[ï¿½X[&quot; + fileObjectSrc.getURL() + &quot;]ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½g[&quot;
+                    + fileObjectDist.getURL() + &quot;]ï¿½ÉƒRï¿½sï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
 
             if (fileObjectDist.exists()) {
-                System.out.println(&quot;ƒ^[ƒQƒbƒg‚Ìƒtƒ@ƒCƒ‹[&quot; + fileObjectDist.getURL()
-                        + &quot;]‚Í‚·‚Å‚É‘¶Ý‚µ‚Ü‚·.&quot;);
+                System.out.println(&quot;ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileObjectDist.getURL()
+                        + &quot;]ï¿½Í‚ï¿½ï¿½Å‚É‘ï¿½ï¿½Ý‚ï¿½ï¿½Ü‚ï¿½.&quot;);
             }
 
             byte[] byteBuf = new byte[8192];
@@ -257,20 +257,20 @@ public class VfsCopySample {
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>IT Pro ƒjƒ…[ƒX: Mozillaƒx[ƒX‚ÌƒI[ƒvƒ“ƒ\[ƒXHTMLƒGƒfƒBƒ^uNvu 1.0v³Ž®ƒŠƒŠ[ƒX<BR>
+  <LI>IT Pro ï¿½jï¿½ï¿½ï¿½[ï¿½X: Mozillaï¿½xï¿½[ï¿½Xï¿½ÌƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½XHTMLï¿½Gï¿½fï¿½Bï¿½^ï¿½uNvu 1.0ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X<BR>
   <A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050630/163728/">http://itpro.nikkeibp.co.jp/free/ITPro/NEWS/20050630/163728/</A><BR>
-  Nvu‚Á‚ÄAHTMLƒGƒfƒBƒ^‚¾‚Á‚½‚Ì‚Å‚·‚ËB‚æ‚¤‚â‚­”FŽ¯‚µ‚Ü‚µ‚½B’P‚ÉŽ„‚Ì•s•×‹­‚È‚Ì‚Å‚µ‚å‚¤B
-  <LI>japan.linux.com : Linux‚ÉRexx‚ª•K—v‚È——R<BR>
+  Nvuï¿½ï¿½ï¿½ÄAHTMLï¿½Gï¿½fï¿½Bï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËBï¿½æ‚¤ï¿½â‚­ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Pï¿½ÉŽï¿½ï¿½Ì•sï¿½×‹ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½å‚¤ï¿½B
+  <LI>japan.linux.com : Linuxï¿½ï¿½Rexxï¿½ï¿½ï¿½Kï¿½vï¿½È—ï¿½ï¿½R<BR>
   <A HREF="http://japan.linux.com/desktop/05/06/30/0222227.shtml">http://japan.linux.com/desktop/05/06/30/0222227.shtml</A><BR>
-  Rexx‚Æ‚¢‚¤ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚à Ž„‚Í‰Ž¨‚Å‚·B‚³‚ÄA‚±‚ê‚àŽ„‚Ì•s•×‹­‚È‚Ì‚Å‚µ‚å‚¤B
+  Rexxï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•sï¿½×‹ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½å‚¤ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

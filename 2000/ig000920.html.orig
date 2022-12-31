@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2000/09/20 “ú‹L: JSSE 1.0.2 ƒnƒ}‚è’† -&gt; ‰ðŒˆ</TITLE>
-<META name="DESCRIPTION" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv1 (‹ŒÌ: ‚ ‚éŠJ”­ŽÒ‚Ì“ú‹L) ‚©‚çˆÚA‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2000/09/20 ï¿½ï¿½ï¿½L: JSSE 1.0.2 ï¿½nï¿½}ï¿½è’† -&gt; ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv1 (ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚Ì“ï¿½ï¿½L) ï¿½ï¿½ï¿½ï¿½ÚAï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:45+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2000/09/20 “ú‹L: JSSE 1.0.2 ƒnƒ}‚è’† -> ‰ðŒˆ</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv1 (‹ŒÌ: ‚ ‚éŠJ”­ŽÒ‚Ì“ú‹L) ‚©‚çˆÚA‚µ‚Ü‚µ‚½B</P>
+    <H2>2000/09/20 ï¿½ï¿½ï¿½L: JSSE 1.0.2 ï¿½nï¿½}ï¿½è’† -> ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv1 (ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚Ì“ï¿½ï¿½L) ï¿½ï¿½ï¿½ï¿½ÚAï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,87 +60,87 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SUN Java Secure Socket Extension (JSSE) ‚Å ‚¿‚Æƒnƒ}‚Á‚Ä‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SUN Java Secure Socket Extension (JSSE) ï¿½ï¿½ ï¿½ï¿½ï¿½Æƒnï¿½}ï¿½ï¿½ï¿½Ä‚Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚Æ‚ ‚é‹ÆŠE‚Ì B2B ‚ð XMLƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“ŽÀ‘•‚·‚éŽdŽ–‚ðŽÀ‘•‚µ‚Ä‚¢‚Ü‚·B(<FONT color="#ff0000" size="-1">2007.08.12ˆê•”•ÏX</FONT><FONT size="-1"> Œ»Ý‚Ì‰¿’lŠÏ‚É]‚¢A•\Œ»‚ðˆê•”•ÏX‚µ‚Ü‚µ‚½B</FONT>)<BR>
-Mime Base64 ‚Æ‚© ˆ³kEL’£‚Æ‚©‚Í“ï‚È‚­ƒNƒŠƒA[‚Å‚«‚½‚Ì‚Å‚·‚ªAª‚Á‚±‚ÌƒZƒLƒ…ƒŠƒeƒB•”•ª‚Åƒnƒ}‚Á‚Ä‚Ü‚·BHTTP
-on SSL (‚Â‚Ü‚è‚Í https) ‚Ì‰ÓŠ‚Å‚·B</P>
-<P>Šî–{“I‚É SUN <A href="http://java.sun.com/products/jsse/">Java Secure Socket Extension (JSSE)</A> 1.0.2 ƒx[ƒX‚Ål‚¦‚Ä‚¢‚Ü‚·B‚±‚ê‚Í ‚Ü‚Ÿ‘Ã“–‚Å‚ ‚ë‚¤‚ÆŽv‚¦‚Ü‚·B<BR>
-‚Æ‚±‚ë‚ªA‚È‚º‚© <A href="http://java.sun.com/products/jsse/">JSSE 1.0.2</A> •t‘®‚ÌƒTƒ“ƒvƒ‹‚Å‚Í‚¤‚Ü‚­“®ì‚µ‚È‚©‚Á‚½‚è‚·‚é‚½‚ß‚Å‚·B(URLConnection
-‚É https ‚ð“n‚·ƒXƒ^ƒCƒ‹‚ÌƒTƒ“ƒvƒ‹) Microsoft
-Internet Explorer5.0 ‚Å‚Í httpsƒx[ƒX‚ÅÚ‘±‚Å‚«‚Ä‚¢‚é‚Ì‚ÅAƒT[ƒo‘¤‚ÌÝ’èƒ~ƒX‚Å‚Í–³‚¢–Í—l‚Å‚·B(‚Á‚Ä‚±‚Æ‚ÍƒNƒ‰ƒCƒAƒ“ƒg‘¤‚ÌÝ’è‚â‰½‚©‚¨‘V—§‚Ä‚ª”²‚¯‚Ä‚¢‚é‚ñ‚Å‚µ‚å‚¤‚Ë‚¥)<BR>
-Œ»ÝA“K“–‚ÈŽ‘—¿‚âuK‰ï‚ð’m‚è‚½‚­ ’T‚µ‚Ä‚¢‚é‚Æ‚±‚ë‚Å‚·BƒƒTƒL“I‚É‚Í
-w“®‚­xƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh(‹y‚Ñ‚»‚ÌÝ’è)
-‚ªÚ‚Á‚©‚Á‚Ä‚¢‚éƒEƒFƒuƒy[ƒW‚È‚ÇŒ©‚Â‚©‚ê‚Î—Ç‚¢‚Ì‚Å‚·‚ªAAAB<BR>
-‚Ç‚È‚½‚© ‚²‘¶‚¶‚Ì•ûAˆê”­“Ë‚Áž‚Ý‚ð“ü‚ê‚Ä‚¢‚½‚¾‚¯‚Ü‚¹‚ñ‚Å‚µ‚å‚¤‚©?
-ƒEƒFƒuƒy[ƒW‚Ìê‡ ‰pŒê‚Å‚àOK‚Å‚·B(ƒhƒCƒcŒê‚Æ‚©ƒCƒ^ƒŠƒAŒê‚Æ‚©‚Í
-‚¿‚å‚Á‚Æƒ_ƒ‚Å‚·)<BR>
-(‚Æ‚¢‚¤‚© ‚²‚­‰•à“I‚È ƒNƒ‰ƒCƒAƒ“ƒg‘¤‚ÌÝ’èƒ~ƒX‚Å‚ ‚é‚æ‚¤‚É‚àŽv‚¦‚é‚Ì‚ÅA—]Œv‚É‹°k‚Å‚·)<BR>
+<P>ï¿½Æ‚ï¿½ï¿½ï¿½ÆŠEï¿½ï¿½ B2B ï¿½ï¿½ XMLï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B(<FONT color="#ff0000" size="-1">2007.08.12ï¿½ê•”ï¿½ÏX</FONT><FONT size="-1"> ï¿½ï¿½ï¿½Ý‚Ì‰ï¿½ï¿½lï¿½Ï‚É]ï¿½ï¿½ï¿½Aï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ê•”ï¿½ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</FONT>)<BR>
+Mime Base64 ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½kï¿½Eï¿½Lï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Í“ï¿½È‚ï¿½ï¿½Nï¿½ï¿½ï¿½Aï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Åƒnï¿½}ï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½BHTTP
+on SSL (ï¿½Â‚Ü‚ï¿½ï¿½ https) ï¿½Ì‰Óï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½{ï¿½Iï¿½ï¿½ SUN <A href="http://java.sun.com/products/jsse/">Java Secure Socket Extension (JSSE)</A> 1.0.2 ï¿½xï¿½[ï¿½Xï¿½Ålï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Ã“ï¿½ï¿½Å‚ï¿½ï¿½ë‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½Æ‚ï¿½ï¿½ë‚ªï¿½Aï¿½È‚ï¿½ï¿½ï¿½ <A href="http://java.sun.com/products/jsse/">JSSE 1.0.2</A> ï¿½tï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚Í‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ì‚µï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½é‚½ï¿½ß‚Å‚ï¿½ï¿½B(URLConnection
+ï¿½ï¿½ https ï¿½ï¿½nï¿½ï¿½ï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½) Microsoft
+Internet Explorer5.0 ï¿½Å‚ï¿½ httpsï¿½xï¿½[ï¿½Xï¿½ÅÚ‘ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½ÌÝ’ï¿½~ï¿½Xï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Æ‚ÍƒNï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÌÝ’ï¿½â‰½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½Ë‚ï¿½)<BR>
+ï¿½ï¿½ï¿½ÝAï¿½Kï¿½ï¿½ï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½uï¿½Kï¿½ï¿½ï¿½mï¿½è‚½ï¿½ï¿½ ï¿½Tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Tï¿½Lï¿½Iï¿½É‚ï¿½
+ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h(ï¿½yï¿½Ñ‚ï¿½ï¿½ÌÝ’ï¿½)
+ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Eï¿½Fï¿½uï¿½yï¿½[ï¿½Wï¿½È‚ÇŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½Î—Ç‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½Aï¿½B<BR>
+ï¿½Ç‚È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Aï¿½ê”­ï¿½Ë‚ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½?
+ï¿½Eï¿½Fï¿½uï¿½yï¿½[ï¿½Wï¿½Ìê‡ ï¿½pï¿½ï¿½Å‚ï¿½OKï¿½Å‚ï¿½ï¿½B(ï¿½hï¿½Cï¿½cï¿½ï¿½Æ‚ï¿½ï¿½Cï¿½^ï¿½ï¿½ï¿½Aï¿½ï¿½Æ‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒ_ï¿½ï¿½ï¿½Å‚ï¿½)<BR>
+(ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÌÝ’ï¿½~ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½]ï¿½vï¿½É‹ï¿½ï¿½kï¿½Å‚ï¿½)<BR>
 <BR>
-Ú‚µ‚¢•ûAAA‚Ç`‚¼‚æ‚ë‚µ‚­ ‚¨Šè‚¢‚¢‚½‚µ‚Ü‚·B</P>
-<P><FONT color="#ff0000">2000/09/20</FONT> Žt ‚É </P>
+ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½Aï¿½Ç`ï¿½ï¿½ï¿½ï¿½ë‚µï¿½ï¿½ ï¿½ï¿½ï¿½è‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> ï¿½tï¿½ï¿½ï¿½ï¿½ </P>
 <UL>
   <LI><A href="http://www.jnetcom.jeida.or.jp/ec/papers/1-05/W1SSLSHTTP.htm">http://www.jnetcom.jeida.or.jp/ec/papers/1-05/W1SSLSHTTP.htm</A>
 </UL>
-<P>‚ð‹³‚¦‚Ä‚à‚ç‚¢‚Ü‚µ‚½B‚¤‚¤`‚ñ (‹êÎ)</P>
-<P><FONT color="#ff0000">2000/09/20</FONT> “ÇŽÒŒQ‚©‚ç‚Ìw‚Ç‚Æ`x‚È“Ë‚Áž‚ÝŒQ</P>
-<P><CITE>Œ–¼FJSSE‚Ìî•ñ‚É‚Â‚¢‚Ä<BR>
-‚¢‚ª‚Ñ‚å‚ñ—lA<BR>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> ï¿½ÇŽÒŒQï¿½ï¿½ï¿½ï¿½Ìwï¿½Ç‚Æ`ï¿½xï¿½È“Ë‚ï¿½ï¿½ï¿½ï¿½ÝŒQ</P>
+<P><CITE>ï¿½ï¿½ï¿½ï¿½ï¿½FJSSEï¿½Ìï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ñ‚ï¿½ï¿½lï¿½A<BR>
 <BR>
-‚Í‚¶‚ß‚Ü‚µ‚ÄAM.Y‚Æ\‚µ‚Ü‚·B<BR>
+ï¿½Í‚ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ÄAM.Yï¿½Æ\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚¢‚Â‚àŠy‚µ‚­“ú‹L‚ð“Ç‚Ü‚¹‚Ä’¸‚¢‚Ä‚¢‚Ü‚·B<BR>
-¡“ú‚Ì“ú‹L‚ÉJSSE‚É‚Â‚¢‚Ä‚Ì‹Lq‚ª‚ ‚èAŽ‘—¿‚ð’T‚µ‚Ä‚¢‚é‚Æ‚Ì‚±‚Æ‚Å‚µ‚½‚Ì‚Åƒ[ƒ‹‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B<BR>
+ï¿½ï¿½ï¿½Â‚ï¿½ï¿½yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½Ç‚Ü‚ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ï¿½JSSEï¿½É‚Â‚ï¿½ï¿½Ä‚Ì‹Lï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½Ì‚Åƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
 <BR>
-Ž„‚ª’m‚Á‚Ä‚¢‚é‚Ì‚ÍAJava WORLD‚Ì 2000.4ŒŽ†‚ÉJSSE‚Ì‹LŽ–‚ªÚ‚Á‚Ä‚¢‚Ü‚·B<BR>
-Java API“k‘R‘ ‘æ\˜Z’i‚ÉJSSE‚ÌÐ‰î‚ª‚³‚ê‚Ä‚¢‚Ü‚·B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÍAJava WORLDï¿½ï¿½ 2000.4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JSSEï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+Java APIï¿½kï¿½Rï¿½ï¿½ ï¿½ï¿½\ï¿½Zï¿½iï¿½ï¿½JSSEï¿½ÌÐ‰î‚ªï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-Ž„Ž©gA‚±‚Ì‹LŽ–‚ðŽQl‚ÉHTTPS‚É‚æ‚éWeb‚Ö‚ÌƒAƒNƒZƒX‚ð‚·‚éJavaƒNƒ‰ƒCƒAƒ“ƒg‚ðì¬‚µA¬Œ÷‚µ‚Ä‚¢‚Ü‚·B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Aï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½lï¿½ï¿½HTTPSï¿½É‚ï¿½ï¿½Webï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-–ˆ“ú“ú‹L‚ð“Ç‚Ü‚¹‚Ä’¸‚¢‚Ä‚¨‚èA”ñí‚É•×‹­‚É‚È‚Á‚Ä‚¢‚Ü‚·B‰½‚©‚¨‚©‚¦‚µ‚ð‚µ‚½‚­ƒ[ƒ‹‚³‚¹‚Ä’¸‚«‚Ü‚µ‚½B<BR>
-”‚«‚Á‚Æ‘¼‚É‚à‚½‚­‚³‚ñ‚Ìl‚©‚çƒŠƒvƒ‰ƒC‚ª‚ ‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñ‚ªAd•¡‚µ‚Ä‚½‚ç‚·‚Ý‚Ü‚¹‚ñB<BR>
-‚±‚ê‚©‚ç‚à“ú‹L‚ðŠy‚µ‚Ý‚É‚µ‚Ä‚¢‚Ü‚·B</CITE></P>
-<P><CITE>‚±‚Ìƒ[ƒ‹‚ðÚ‚¹‚é‚Æ‚«‚Í“½–¼‚Å‚¨Šè‚¢‚¢‚½‚µ‚Ü‚·B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½Ç‚Ü‚ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½É•×‹ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìlï¿½ï¿½ï¿½çƒŠï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½dï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚·ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½yï¿½ï¿½ï¿½Ý‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
+<P><CITE>ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Í“ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½è‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 --</CITE></P>
-<P><FONT color="#ff0000">•Ê‚Ì•û‚©‚ç‚Ì‚¨•Ö‚è</FONT></P>
-<P><CITE>Œ–¼FJSSE ‚É‚Â‚¢‚Ä<BR>
-<A href="ig000120.html">bata</A>‚Æ\‚µ‚Ü‚·B<BR>
-¦‚Q‰ñ–Ú‚Ì“oê‚Æ‚È‚é‚©‚ÆŽv‚¢‚Ü‚·‚ªEEE<BR>
-<A href="ig000120.html">‘O‰ñ‚Í‚m‚‚”‚…‚“‚ÌŽž</A>‚¾‚Á‚½‚ÆŽv‚¢‚Ü‚·B<BR>
+<P><FONT color="#ff0000">ï¿½Ê‚Ì•ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ö‚ï¿½</FONT></P>
+<P><CITE>ï¿½ï¿½ï¿½ï¿½ï¿½FJSSE ï¿½É‚Â‚ï¿½ï¿½ï¿½<BR>
+<A href="ig000120.html">bata</A>ï¿½Æ\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Qï¿½ï¿½Ú‚Ì“oï¿½ï¿½Æ‚È‚é‚©ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Eï¿½Eï¿½E<BR>
+<A href="ig000120.html">ï¿½Oï¿½ï¿½Í‚mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚Å‚ÍA–{‘è‚É‚Í‚¢‚Á‚ÄEEE<BR>
+ï¿½Å‚ÍAï¿½{ï¿½ï¿½É‚Í‚ï¿½ï¿½ï¿½ï¿½ÄEï¿½Eï¿½E<BR>
 <BR>
-JSSE‚ÌƒNƒ‰ƒCƒAƒ“ƒg“®ì‚Å‚·‚ª‚±‚ê‚Í‚r‚r‚k‚Ì“®ì‚Ç‚¤‚è‚È‚Ì‚Å‚·‚ªAƒhƒLƒ…ƒƒ“ƒg‚ÉÚ‚µ‚­‚©‚©‚ê‚Ä‚¢‚È‚¢‚Ì‚Å‚Ý‚È‚³‚ñ‚Ì
-”Y‚ÝŠ ‚¾‚ÆŽv‚¢‚Ü‚·B<BR>
+JSSEï¿½ÌƒNï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚rï¿½rï¿½kï¿½Ì“ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚Ý‚È‚ï¿½ï¿½ï¿½ï¿½
+ï¿½Yï¿½Ýï¿½ ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚h‚d‚Ìê‡A‚r‚r‚k’ÊM”­¶Žž‚Éƒ_ƒCƒAƒƒN‚ª•\Ž¦‚³‚ê‚é‚ÆŽv‚¢‚Ü‚·‚ª
-‚±‚ÌŽžAƒT[ƒo‚©‚çØ–¾‘‚ª‘—‚ç‚ê‚Ä‚«‚Ä‚¢‚Ü‚·A‚±‚Ìƒ_ƒCƒAƒƒN‚ÅØ–¾‘‚ÌŠm”F‚ð‚µ‚Ä‚¢‚Ü‚·B<BR>
-‚n‚j‚Ìê‡A‚±‚ÌØ–¾‘‚ð”FØ‚µ‚½‚Æ‚µ‚ÄˆÈŒã‚Ì’ÊM‚ª‚n‚j‚Æ‚È‚é‚ÆŒ¾‚¤–ó‚Å‚·B<BR>
+ï¿½hï¿½dï¿½Ìê‡ï¿½Aï¿½rï¿½rï¿½kï¿½ÊMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éƒ_ï¿½Cï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Aï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½Ø–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒ_ï¿½Cï¿½Aï¿½ï¿½ï¿½Nï¿½ÅØ–ï¿½ï¿½ï¿½ï¿½ÌŠmï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½nï¿½jï¿½Ìê‡ï¿½Aï¿½ï¿½ï¿½ÌØ–ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Ø‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÄˆÈŒï¿½Ì’ÊMï¿½ï¿½ï¿½nï¿½jï¿½Æ‚È‚ï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
 <BR>
-‚i‚r‚r‚d‚Ìê‡A‚r‚r‚k’ÊM‚ª”­¶‚·‚é‚ÆAƒfƒtƒHƒ‹ƒg‚ÌØ–¾‘(KeyStoreƒtƒ@ƒCƒ‹j‚ðŒ©‚És‚Á‚Ä‚µ‚Ü‚¢‚Ü‚·BKeyStoreƒtƒ@ƒCƒ‹‚ÉƒT[ƒo‚ÌØ–¾‘‚ª–³‚¢ê‡AØ–¾‘‚Ì”FØ‚ª‚m‚f‚Æ‚È‚Á‚ÄA’ÊM‚ªØ’f‚³‚ê‚Ü‚·B<BR>
+ï¿½iï¿½rï¿½rï¿½dï¿½Ìê‡ï¿½Aï¿½rï¿½rï¿½kï¿½ÊMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÌØ–ï¿½ï¿½ï¿½(KeyStoreï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½Ésï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½BKeyStoreï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÉƒTï¿½[ï¿½oï¿½ÌØ–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½Ø–ï¿½ï¿½ï¿½ï¿½Ì”Fï¿½Ø‚ï¿½ï¿½mï¿½fï¿½Æ‚È‚ï¿½ï¿½ÄAï¿½ÊMï¿½ï¿½ï¿½Ø’fï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚±‚±‚ÅA‚i‚r‚r‚d‚ÌƒNƒ‰ƒXiƒCƒ“ƒ^ƒtƒF[ƒXj‚ðƒ‰ƒbƒv‚µ‚Ä–³ðŒ‚ÉØ–¾‘‚ð”FØ‚µ‚Ä‚µ‚Ü‚¦‚Î‚n‚j‚Æ‚È‚è‚Ü‚·B<BR>
-ƒƒ\ƒbƒh“I‚É‚Í isServerTrusted ‚Ì‚ ‚éƒNƒ‰ƒX‚ðƒ‰ƒbƒv‚·‚ê‚Î‚n‚j‚¾‚Á‚½‚ÆŽv‚¢‚Ü‚·B<BR>
-¦‚±‚±‚ð‚¢‚ë‚¢‚ë•ÏX‚·‚ê‚ÎŽ©—R‚ÉƒT[ƒo‚Ì”FØ‚ªo—ˆ‚Ü‚·B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½iï¿½rï¿½rï¿½dï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½iï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½jï¿½ï¿½ï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉØ–ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Ø‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Î‚nï¿½jï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Iï¿½É‚ï¿½ isServerTrusted ï¿½Ì‚ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Î‚nï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½ÎŽï¿½ï¿½Rï¿½ÉƒTï¿½[ï¿½oï¿½Ì”Fï¿½Ø‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-‚±‚ñ‚È‚à‚ñ‚Å‚¨–ð‚É‚½‚¿‚Ü‚µ‚½‚Å‚µ‚å‚¤‚©HHH<BR>
+ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Hï¿½Hï¿½H<BR>
 <BR>
-‚Å‚ÍA‚Ü‚½w‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lx‚ðŠy‚µ‚Ý‚É‚µ‚Ä‚¢‚Ü‚·B</CITE></P>
-<P><STRONG><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT></STRONG><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‘‘¬ “{Ÿ·‚Ì‚æ‚¤‚È‚²‹³Žö‚¢‚½‚¾‚«‹°k‚Å‚·B‚±`‚ä`Žž
-“ú‹L‚â‚Á‚Ä‚Ä –{“–‚É—Ç‚©‚Á‚½‚ÆŽv‚¢‚Ü‚·B‚Ü‚½
-Ž„‚Ì“ú‹L‚Í“Šeƒy[ƒW‚È‚Ì‚ÅA‚Ý‚È‚³‚ñ‚Ì“Ë‚Áž‚Ý‚±‚»‚ªƒGƒ“ƒWƒ“‚Å‚·B<BR>
-“Á‚É ¡‰ñ‚Ì‚ÍŽdŽ–‚»‚Ì‚Ü‚ñ‚Ü‚Å‚Ìƒnƒ}‚è‚È‚Ì‚ÅA‚·‚Á‚²‚­•‚©‚è‚Ü‚·B,,,
-‚³‚µ‚ ‚½‚è JAVA WORLD 2000/04 ‚ð’T‚³‚Ë‚Î,,,
-(‹êÎ)<BR>
+ï¿½Å‚ÍAï¿½Ü‚ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½xï¿½ï¿½ï¿½yï¿½ï¿½ï¿½Ý‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ï¿½ï¿½ï¿½ ï¿½{ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½kï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½`ï¿½ï¿½`ï¿½ï¿½
+ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ ï¿½{ï¿½ï¿½ï¿½É—Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½
+ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Í“ï¿½ï¿½eï¿½yï¿½[ï¿½Wï¿½È‚Ì‚ÅAï¿½Ý‚È‚ï¿½ï¿½ï¿½Ì“Ë‚ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ì‚ÍŽdï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚ï¿½Ü‚Å‚Ìƒnï¿½}ï¿½ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B,,,
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JAVA WORLD 2000/04 ï¿½ï¿½Tï¿½ï¿½ï¿½Ë‚ï¿½,,,
+(ï¿½ï¿½ï¿½)<BR>
 <BR>
-<FONT color="#ff0000">2000/09/22</FONT> ŠY“–ƒy[ƒW‚ÌƒRƒs[‚ð“üŽèB‚È‚é‚Ù‚Ç ƒTƒ“ƒvƒ‹ƒR[ƒh‚ªÚ‚Á‚Ä‚¢‚Ü‚·‚Å‚·‚ËB‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·BBB‚Æ‘‚«‚Â‚Â
-‚±‚Ìì‹Æ‚Í ƒqƒgƒ~æ”y‚ªì‹Æ‚³‚ê‚Ü‚·‚Ì‚ÅAŒ‹‰Ê‚È‚Ç“^––‹L‚Í¡‚µ‚Î‚ç‚­‚¨‘Ò‚¿‰º‚³‚¢B</P>
-<P><FONT color="#ff0000">2000/09/26</FONT> https‚É’P‚ÉÚ‘±‚·‚é‚¾‚¯‚Ì“®ìŠm”F‚ÍÏ‚Ý‚Ü‚µ‚½BãŽè‚­s‚«‚Ü‚µ‚½Bî•ñ‚ð‚¨Šñ‚¹‚¢‚½‚¾‚«‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½B<BR>
-‚È‚¨ Ž„‚Ì—˜—pŠÂ‹«‚Íƒtƒ@ƒCƒAƒEƒH[ƒ‹“à‚È‚Ì‚ÅAƒtƒ@ƒCƒAƒEƒH[ƒ‹‚ÌŽw’è‚ª‚ ‚è‚Ü‚·B(443‚Å‚Í–³‚­‚Á‚Ä
-8080‚É‚È‚Á‚Ä‚Ü‚·)</P>
+<FONT color="#ff0000">2000/09/22</FONT> ï¿½Yï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ÌƒRï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½Ù‚ï¿½ ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Bï¿½Bï¿½Æï¿½ï¿½ï¿½ï¿½Â‚ï¿½
+ï¿½ï¿½ï¿½Ìï¿½Æ‚ï¿½ ï¿½qï¿½gï¿½~ï¿½ï¿½yï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Ê‚È‚Ç“^ï¿½ï¿½ï¿½Lï¿½Íï¿½ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2000/09/26</FONT> httpsï¿½É’Pï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½mï¿½Fï¿½ÍÏ‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½è‚­ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚¹‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½È‚ï¿½ ï¿½ï¿½ï¿½Ì—ï¿½ï¿½pï¿½Â‹ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½Aï¿½Eï¿½Hï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚ÅAï¿½tï¿½@ï¿½Cï¿½Aï¿½Eï¿½Hï¿½[ï¿½ï¿½ï¿½ÌŽwï¿½è‚ªï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(443ï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+8080ï¿½É‚È‚ï¿½ï¿½Ä‚Ü‚ï¿½)</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -156,7 +156,7 @@ public final class HttpsReader
                 try{
                         Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
                         System.setProperty(&quot;java.protocol.handler.pkgs&quot;,&quot;com.sun.net.ssl.internal.www.protocol&quot;);
-                        System.setProperty(&quot;https.proxyHost&quot;,&quot;<STRONG>&lt;”é–§‚Èƒtƒ@ƒCƒAƒEƒH[ƒ‹‚ÌIPƒAƒhƒŒƒX&gt;</STRONG>&quot;);
+                        System.setProperty(&quot;https.proxyHost&quot;,&quot;<STRONG>&lt;ï¿½é–§ï¿½Èƒtï¿½@ï¿½Cï¿½Aï¿½Eï¿½Hï¿½[ï¿½ï¿½ï¿½ï¿½IPï¿½Aï¿½hï¿½ï¿½ï¿½X&gt;</STRONG>&quot;);
                         System.setProperty(&quot;https.proxyPort&quot;,&quot;8080&quot;);
                         URL urlRead=new URL(&quot;https://www.sun.com/&quot;);
                         BufferedReader reader=new BufferedReader(new InputStreamReader(urlRead.openStream()));
@@ -177,7 +177,7 @@ public final class HttpsReader
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒRƒ“ƒpƒCƒ‹‚ÆŽÀs‚Í‰º‹L‚Ì”@‚µB(Windows2000‚È‚Ì‚ÅAƒNƒ‰ƒXƒpƒX‚Ì‹æØ‚è•¶Žš‚ªƒZƒ~ƒRƒƒ“‚É‚È‚Á‚Ä‚Ü‚·‚Å‚·B)</P>
+<P>ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ÆŽï¿½ï¿½sï¿½Í‰ï¿½ï¿½Lï¿½Ì”@ï¿½ï¿½ï¿½B(Windows2000ï¿½È‚Ì‚ÅAï¿½Nï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½Ì‹ï¿½Ø‚è•¶ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½~ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½Å‚ï¿½ï¿½B)</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -188,10 +188,10 @@ public final class HttpsReader
     </TR>
   </TBODY>
 </TABLE>
-<P>‚±‚ñ‚ÈŠ´‚¶‚ÅAŠO•”‚ÌƒT[ƒo‚É‚ÍÚ‘±‰Â”\‚É‚È‚è‚Ü‚µ‚½B</P>
-<P>‚»‚ê‚Í‚¢‚¢‚â‚Á‚Ä‚±‚Æ‚ÅAŽŸ‚ÍŽÐ“à‚ÅŽ©•ª‚Å—§‚Ä‚½ƒT[ƒo‚Ö‚ÌhttpsÚ‘±‚Å‚·B¡“x‚Í‚±‚¢‚Â‚Åƒnƒ}‚Á‚Ä‚¢‚Ü‚·B</P>
-<P>‚»‚Ì ŽÐ“à”FØƒT[ƒo‚Ö‚ÌÚ‘±ƒTƒ“ƒvƒ‹(ƒRƒ“ƒpƒCƒ‹EŽÀs•û–@‚Í
-HttpsReader.java ‚Æ“¯—l)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÈŠï¿½ï¿½ï¿½ï¿½ÅAï¿½Oï¿½ï¿½ï¿½ÌƒTï¿½[ï¿½oï¿½É‚ÍÚ‘ï¿½ï¿½Â”\ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Æ‚ÅAï¿½ï¿½ï¿½ÍŽÐ“ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½Ä‚ï¿½ï¿½Tï¿½[ï¿½oï¿½Ö‚ï¿½httpsï¿½Ú‘ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½xï¿½Í‚ï¿½ï¿½ï¿½ï¿½Â‚Åƒnï¿½}ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ ï¿½Ð“ï¿½ï¿½Fï¿½ØƒTï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½(ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½sï¿½ï¿½ï¿½@ï¿½ï¿½
+HttpsReader.java ï¿½Æ“ï¿½ï¿½l)</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -231,7 +231,7 @@ public final class HttpsReader2
     </TR>
   </TBODY>
 </TABLE>
-<P>”­¶‚·‚é—áŠO‚Í‰º‹L‚Ì’Ê‚èB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Í‰ï¿½ï¿½Lï¿½Ì’Ê‚ï¿½B</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -244,30 +244,30 @@ public final class HttpsReader2
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒT[ƒo‚Í WindowsNT4.0 Server + OptionPack
-‚Á‚Ä\¬‚ÅAWebƒT[ƒo‚Í IIS4.0 + ”FØƒT[ƒo
-‚Å‚· (T_T)<BR>
-—áŠO‚ÌƒƒbƒZ[ƒW‚ð‚»‚Ì‚Ü‚ÜM‚¶‚é‚ÆAKeyStore‚ÌƒtƒH[ƒ}ƒbƒg‚ª‘Ã“–‚Å‚Í–³‚¢‚Æ‚¢‚¤‚±‚Æ‚ÅA‚±‚¢‚Â‚ª‚»‚Ì‚Ü‚Ü——R‚ÆŽv‚í‚ê‚Ü‚·B<BR>
-‚±‚¢‚Â‚ÌØ–¾‘(ŒöŠJŒ®) ‚ð‚Ô‚¿ž‚ÞÝ’è‚È‚Ç‚Ì’i‚Å
-‚â‚Á‚Ï‚µ‰½‚©‚µ‚ç‚µ‚­‚¶‚Á‚Ä‚¢‚é‚Ì‚Å‚µ‚å‚¤BJSSE
-1.0.2 ‚Ì KeyStore ‚Í ƒfƒtƒHƒ‹ƒg‚Ì &quot;JKS&quot;
-‚Ü‚½‚ÍŽw’è‚µ‚Ä &quot;PKCS12&quot; ‚ª‘I‘ð‰Â”\‚È‚Ì‚Å‚·‚ªAOptionPack•t‘®‚Ì”FØƒT[ƒo‚Í
-DER(–”‚ÍBase64) ‚È X.509 ‚© PKCS #7 ‚©‚µ‚©‘I‘ð‚Å‚«‚¸A‚»‚ê‚ªŒ´ˆö‚©‚Ç‚¤‚©•s–¾‚Å‚·‚ªA‚¤‚Ü‚­Ú‘±‚Å‚«‚Ü‚¹‚ñB(—á‚Í
-ƒfƒtƒHƒ‹ƒg‚ÌDER‚ÈX.509‚ÌØ–¾‘) ”FØƒT[ƒo‘¤‚Å
-PKCS #12‚ª‘I‚×‚»‚¤‚É—ñ‹“‚³‚ê‚Ä‚¢‚é‚à‚Ì‚Ì
-wŠDFx•\Ž¦‚È‚ñ‚Å‚· (T_T)</P>
-<P>‚Í‚ÄA‚±‚ê‚Ì–{”ÔŠÂ‹«‚ª Œö“I”FØƒT[ƒo‚ÉØ–¾‘‚ð“o˜^‚µ‚Ä‚à‚ç‚¦‚ê‚ÎA‚³‚µ‚ ‚½‚è‚»‚Ì‚Ü‚ñ‚ÜƒCƒP‚é‚ñ‚Å‚·‚¯‚ê‚Ç‚àA‚»‚¤‚¶‚á‚ –³‚¢Ý’è‚Å‚Ì‰^—p‚¾‚Á‚½‚çA‚±‚Ì‚Ü‚Ü‚¾‚Á‚½‚ç“®ì‚³‚¹‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBX‚É•Ê‚ÌŽè‚¾‚Ä‚É‚Ä
-’²¸ˆË—Š’†...<BR>
+<P>ï¿½Tï¿½[ï¿½oï¿½ï¿½ WindowsNT4.0 Server + OptionPack
+ï¿½ï¿½ï¿½Ä\ï¿½ï¿½ï¿½ÅAWebï¿½Tï¿½[ï¿½oï¿½ï¿½ IIS4.0 + ï¿½Fï¿½ØƒTï¿½[ï¿½o
+ï¿½Å‚ï¿½ (T_T)<BR>
+ï¿½ï¿½Oï¿½Ìƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚ÜMï¿½ï¿½ï¿½ï¿½ÆAKeyStoreï¿½Ìƒtï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½ï¿½ï¿½Ã“ï¿½ï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚Ü—ï¿½ï¿½Rï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ÌØ–ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½Jï¿½ï¿½) ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ÞÝ’ï¿½È‚Ç‚Ì’iï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½BJSSE
+1.0.2 ï¿½ï¿½ KeyStore ï¿½ï¿½ ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ &quot;JKS&quot;
+ï¿½Ü‚ï¿½ï¿½ÍŽwï¿½è‚µï¿½ï¿½ &quot;PKCS12&quot; ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½AOptionPackï¿½tï¿½ï¿½ï¿½Ì”Fï¿½ØƒTï¿½[ï¿½oï¿½ï¿½
+DER(ï¿½ï¿½ï¿½ï¿½Base64) ï¿½ï¿½ X.509 ï¿½ï¿½ PKCS #7 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ú‘ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½
+ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½DERï¿½ï¿½X.509ï¿½ÌØ–ï¿½ï¿½ï¿½) ï¿½Fï¿½ØƒTï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½
+PKCS #12ï¿½ï¿½ï¿½Iï¿½×‚ï¿½ï¿½ï¿½ï¿½É—ñ‹“‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½wï¿½Dï¿½Fï¿½xï¿½\ï¿½ï¿½ï¿½È‚ï¿½Å‚ï¿½ (T_T)</P>
+<P>ï¿½Í‚ÄAï¿½ï¿½ï¿½ï¿½Ì–{ï¿½ÔŠÂ‹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Iï¿½Fï¿½ØƒTï¿½[ï¿½oï¿½ÉØ–ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¦ï¿½ï¿½ÎAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚»ï¿½Ì‚Ü‚ï¿½ÜƒCï¿½Pï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á‚ ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Å‚Ì‰^ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ì‚Ü‚Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç“®ï¿½ì‚³ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Xï¿½É•Ê‚ÌŽè‚¾ï¿½Ä‚É‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ë—ï¿½ï¿½ï¿½...<BR>
 <BR>
-AAA‚»‚êˆÈ‘O‚É SSL‚É ‚à‚¤­‚µÚ‚µ‚­‚È‚ç‚È‚­‚Ä‚Í
-‘Î‰ž•s”\‚È‚æ‚¤‚È‹C‚à‚µ‚Ü‚·B‚Á‚Ä‚±‚Æ‚ÅAŒp‘±’†
-(‹êÎ)</P>
-<P><FONT color="#ff0000">2000/09/27</FONT> ŽÐ“à‚Ì”FØƒT[ƒo‚Ö‚ÌÚ‘±–â‘è‚Å‚·‚ªAˆê‰ž‰ðŒˆ‚Å‚«‚Ü‚µ‚½B‚±‚Ìê‚Å•ñ‚¢‚½‚µ‚Ü‚·B<BR>
-‚»‚à‚»‚à IIS+”FØƒT[ƒo‚ÌØ–¾‘‚ð JSSE 1.0.2
-‚Ì JKS ‚É &quot;‚»‚Ì‚Ü‚Ü&quot; ‚Ô‚¿ž‚à‚¤‚Æ‚µ‚Ä‚¢‚½‚Ì‚ªŠÔˆá‚Á‚Ä‚¢‚Ü‚µ‚½B‚±‚ê‚Í
-ˆê’U“Ç‚Ýž‚ñ‚Å‘‚«o‚·‚±‚Æ‚É‚æ‚è JSSE 1.0.2ƒlƒBƒeƒBƒu‚ÈŒ`Ž®
-(JKSŒ`Ž®) ‚Èƒtƒ@ƒCƒ‹‚Æ‚µ‚Ä‘‚«o‚·‚±‚Æ‚ª‚Å‚«‚Ü‚·B<BR>
-‰º‹L‚ÌƒR[ƒh‚ª ‚»‚ê‚ÌŽÀŒ»ƒR[ƒh‚Å‚·B</P>
+ï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½È‘Oï¿½ï¿½ SSLï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½È‚ï¿½ï¿½Ä‚ï¿½
+ï¿½Î‰ï¿½ï¿½sï¿½\ï¿½È‚æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Æ‚ÅAï¿½pï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2000/09/27</FONT> ï¿½Ð“ï¿½ï¿½Ì”Fï¿½ØƒTï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ê‰žï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ìï¿½Å•ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ IIS+ï¿½Fï¿½ØƒTï¿½[ï¿½oï¿½ÌØ–ï¿½ï¿½ï¿½ï¿½ï¿½ JSSE 1.0.2
+ï¿½ï¿½ JKS ï¿½ï¿½ &quot;ï¿½ï¿½ï¿½Ì‚Ü‚ï¿½&quot; ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ôˆï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Uï¿½Ç‚Ýï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½ JSSE 1.0.2ï¿½lï¿½Bï¿½eï¿½Bï¿½uï¿½ÈŒ`ï¿½ï¿½
+(JKSï¿½`ï¿½ï¿½) ï¿½Èƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Lï¿½ÌƒRï¿½[ï¿½hï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -304,10 +304,10 @@ public final class HttpsReader3
                         {
                                 Certificate cert=(Certificate)iter.next();
                                 keyStore.setCertificateEntry(&quot;&quot;+index,cert);
-                                System.out.println(&quot;ƒZƒbƒg(&quot;+index+&quot;):&quot;+cert);
+                                System.out.println(&quot;ï¿½Zï¿½bï¿½g(&quot;+index+&quot;):&quot;+cert);
                         }
 
-                        // ‘‚«o‚µ
+                        // ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
                         {
                                 OutputStream outStream=new BufferedOutputStream(new FileOutputStream(FILE_NAME_CRT+&quot;.keystore&quot;));
                                 keyStore.store(outStream,passvalue);
@@ -327,68 +327,68 @@ public final class HttpsReader3
     </TR>
   </TBODY>
 </TABLE>
-<P>Žè‡“I‚É‚Í IIS‘¤(”FØƒT[ƒo) ‚ÌØ–¾‘‚ð java.security.cert.CertificateFactory
-‚ð—p‚¢‚ÄJava‘¤‚ÉŽæ‚èž‚Ý (java.security.cert.CertificateFactory.generateCertificates()
-) ¶¬‚³‚ê‚½”FØ(ƒŠƒXƒg)‚ð V‚½‚É¶¬‚µ‚½
-KeyStore ‚É‚Ô‚¿ž‚ñ‚Åƒtƒ@ƒCƒ‹‘‚«o‚µ‚µ‚½‚çAJKS‚ª”FŽ¯‰Â”\(“Ç‚Ýž‚Ý‰Â”\)‚È‚à‚Ì‚ªì‚èo‚·‚Æ‚¢‚¤Žè‡‚Å‚·B<BR>
-‚±‚Ìƒtƒ@ƒCƒ‹‚ð ‚»‚Ì‚Ü‚ñ‚Ü ƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Å‘€ì‚·‚é‚Ì‚à1Žè–@‚È‚Ì‚Å‚·‚ªAŽè”²‚«“I”­‘z‚ÅA‚Å‚«‚ ‚ª‚Á‚½JKS‚ÈØ–¾‘‚ð
+<P>ï¿½è‡ï¿½Iï¿½É‚ï¿½ IISï¿½ï¿½(ï¿½Fï¿½ØƒTï¿½[ï¿½o) ï¿½ÌØ–ï¿½ï¿½ï¿½ï¿½ï¿½ java.security.cert.CertificateFactory
+ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ÉŽï¿½èžï¿½ï¿½ (java.security.cert.CertificateFactory.generateCertificates()
+) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Fï¿½ï¿½(ï¿½ï¿½ï¿½Xï¿½g)ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+KeyStore ï¿½É‚Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½Åƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AJKSï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½Â”\(ï¿½Ç‚Ýï¿½ï¿½Ý‰Â”\)ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½è‡ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì‚Ü‚ï¿½ï¿½ ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Å‘ï¿½ï¿½ì‚·ï¿½ï¿½Ì‚ï¿½1ï¿½ï¿½@ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½è”²ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½zï¿½ÅAï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JKSï¿½ÈØ–ï¿½ï¿½ï¿½ï¿½ï¿½
 &quot;C:\Program Files\JavaSoft\JRE\1.3\lib\security\jssecacerts&quot;
-‚É–¼‘O•ÏX‚µ‚½‚çAURLƒAƒNƒZƒX‚ª ‘f‚Ås‚«‚Ü‚µ‚½B(ƒfƒBƒŒƒNƒgƒŠ–¼‚âŠÂ‹«‚Í
-“K“–‚É“Ç‚Ý‘Ö‚¦‚Ä‚­‚¾‚³‚¢)<BR>
+ï¿½É–ï¿½ï¿½Oï¿½ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AURLï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ ï¿½fï¿½Åsï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½ï¿½ï¿½
+ï¿½Kï¿½ï¿½ï¿½É“Ç‚Ý‘Ö‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)<BR>
 <BR>
-‚±‚Ìƒtƒ@ƒCƒ‹‚ªŠY“–ƒfƒBƒŒƒNƒgƒŠ‚É‚ ‚ê‚ÎA‚»‚Ì‚Ü‚ñ‚Ü
-HttpsReaderƒTƒ“ƒvƒ‹ ‚Í“®ì‚µ‚Ü‚·B‚Ü‚½‚±‚Ìƒtƒ@ƒCƒ‹‚Í
-HttpsReader2 ƒTƒ“ƒvƒ‹‚Å‚à“Ç‚Ýž‚Ý‰Â”\‚Å‚·B(“–‘R‚Å‚·‚¯‚Ç
-ƒtƒ@ƒCƒ‹–¼Žw’è‚Ìƒtƒ@ƒCƒ‹–¼‚Í•ÏX‚Ì•K—v‚ª‚ ‚è‚Ü‚·
+ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½Ì‚Ü‚ï¿½ï¿½
+HttpsReaderï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ ï¿½Í“ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+HttpsReader2 ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ç‚Ýï¿½ï¿½Ý‰Â”\ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½Rï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Í•ÏXï¿½Ì•Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
 :-)</P>
-<P>‚±‚ê‚ÉŠÖ‚·‚éî•ñ‚Í‰º‹L‚Ìƒy[ƒW‚ÉÚ‚Á‚Ä‚¢‚Ü‚µ‚½B(‚»‚µ‚Ä
-‚Ç‚ÌƒNƒ‰ƒX‚ð‚Ç‚Ì‚æ‚¤‚ÉŽg‚¤‚©‚ª ‚â‚Á‚Æ‚±‚³‚Á‚Æ‚±—‰ð‚Å‚«‚½‚ñ‚Å‚·)
-‚Æ‚¢‚¤‚±‚Æ‚ÅA<A href="http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html">Ú×‚Í‚»‚Ìƒy[ƒW</A>‚ðŒ©‚ç‚ê‚æB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Ìƒyï¿½[ï¿½Wï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ç‚ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Ç‚Ì‚æ‚¤ï¿½ÉŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½)
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅA<A href="http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html">ï¿½Ú×‚Í‚ï¿½ï¿½Ìƒyï¿½[ï¿½W</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html">http://java.sun.com/products/jdk/1.2/docs/guide/security/CryptoSpec.html</A>
 </UL>
-<P>‚¢‚â‚Í‚âA¡‰ñ‚Í”æ‚ê‚Ü‚µ‚½B<BR>
-‚Ü‚½ ‚Ç‚¤‚É‚©“®ì‚·‚é‚Æ‚±‚ë‚Ü‚Å‚±‚¬’…‚¯‚é‚±‚Æ‚ªo—ˆ‚½‚Ì‚ÍA‚Ð‚Æ‚¦‚ÉŠF—l‚Ì‚²•Œ¾‚Ì‚¨‚©‚°‚Å‚·B<BR>
-‚Ý‚È‚³‚ÜA‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½ m(_._)m</P>
+<P>ï¿½ï¿½ï¿½ï¿½Í‚ï¿½Aï¿½ï¿½ï¿½ï¿½Í”ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Ü‚ï¿½ ï¿½Ç‚ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÍAï¿½Ð‚Æ‚ï¿½ï¿½ÉŠFï¿½lï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Ý‚È‚ï¿½ï¿½ÜAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ m(_._)m</P>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>ƒŒƒxƒ‹ƒAƒbƒv: <A href="../../../../igat-v1-hagitori/2000/igapyon.htm">‚¢‚ª‚Ò‚å‚ñ</A>‚Í V‚½‚É wSSL‰‹‰x ‚ÌŽô•¶‚ðŠo‚¦‚½</TD>
+      <TD>ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½v: <A href="../../../../igat-v1-hagitori/2000/igapyon.htm">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A>ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ ï¿½wSSLï¿½ï¿½ï¿½ï¿½ï¿½x ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>—á‚¦‚é‚È‚çA wƒqƒƒƒhx ƒŒƒxƒ‹‚Å‚·‚Ë (‹êÎ)</P>
+<P>ï¿½á‚¦ï¿½ï¿½È‚ï¿½A ï¿½wï¿½qï¿½ï¿½ï¿½hï¿½x ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#33cccb" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java‚ÅƒRƒ}ƒ“ƒhƒVƒFƒ‹ƒvƒƒOƒ‰ƒ~ƒ“ƒO</STRONG></FONT></TD>
+      <TD bgcolor="#33cccb" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaï¿½ÅƒRï¿½}ï¿½ï¿½ï¿½hï¿½Vï¿½Fï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½O</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚²‘¶‚¶‚Ì•û‚Í‚²‘¶‚¶‚Å‚µ‚å‚¤‚ªAŽï–¡‚ÅƒRƒ}ƒ“ƒhƒVƒFƒ‹ƒvƒƒOƒ‰ƒ€‚ðJavaŒ¾Œê‚Åì‚Á‚Ä‚Ü‚·B(‚³‚·‚ª‚É ƒ†[ƒU‚Í ‚±‚Ìƒy[ƒW‚Ì“ÇŽÒ‚Ì’†‚Å‚ÍA‚Ù‚ñ‚Ì”–¼‚Æ—\‘z‚µ‚Ä‚Ü‚·‚ª,,,)<BR>‚²‚­Å‹ß ƒ}ƒbƒ`ƒ“ƒO‚Ìˆ—‚Ì–w‚Ç‚Ì‰ÓŠ‚ðA³‹K•\Œ» (<A href="http://www.cacas.org/~wes/java/">http://www.cacas.org/~wes/java/</A>‚ð—˜—p) ‚É‘‚«Š·‚¦‚Ä‚Ý‚Ü‚µ‚½B(¡‚Ü‚Å‚Í ƒtƒ@ƒCƒ‹–¼‚Ìƒ}ƒbƒ`ƒ“ƒOˆ—‚Ì‚Ý ³‹K•\Œ»‚ÅA‚ ‚Æ‚ÍCollator‚Å‚ÌŽÀ‘•‚¾‚Á‚½)<BR>
-‚ ‚Æ ƒfƒBƒŒƒNƒgƒŠ‚ÌƒqƒXƒgƒŠ‚È‚ñ‚Ä‚à‚Ì‚ðŽÀ‘•‚µ‚Ä‚Ý‚Ü‚µ‚½B<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A>“I‚É‚Í Œ‹\•Ö—˜‚ÈŠ´‚¶‚É‚È‚Á‚Ä‚«‚Ü‚µ‚½‚Å‚·B<BR>
-<BR>‚à‚¤‚¿‚å‚Á‚Æ‹@”\‚ª’Ç‰Á‚³‚ê‚Ä ƒhƒLƒ…ƒƒ“ƒg®”õ‚ªÏ‚ñ‚¾‚ç <A href="http://sourceforge.net">http://sourceforge.net</A> ‚Éƒ|ƒXƒg‚µ‚æ‚¤‚ÆŠé‚ñ‚Å‚¢‚Ü‚·B(Šù‚É JavaCats ‚â Vector‚É‚Í“o˜^Ï‚ÝA‚»‚¤‚¢‚¦‚ÎˆÀ“¡‚³‚ñ‚ÌŠ‚É‚Í–¢ƒ|ƒXƒg) ‚à‚¿‚ë‚ñ Å‘å‚Ì“ïŠÖ‚Í ‰pŒêì•¶”\—Í‚Ì•s‘«‚Å‚·B’v–½“I‚Å‚·B(‚»‚ê‚æ‚è‘O‚É LINUX‘Î‰ž‚àŽ–‘O‚ÉÏ‚Ü‚¹‚Ä‚¨‚­‚×‚«‚¾‚ë‚¤‚©)<BR>
-<BR>Žï–¡‚ÅŽ©•ª‚ÌŽžŠÔ‚Åƒ|ƒcƒ|ƒcì‚Á‚Ä‚¢‚é‚©‚çA‚È‚©‚È‚©‚Éi’»‚ª’x‚¢‚Å‚·B‚³‚µ‚ ‚½‚è ƒpƒCƒvƒ‰ƒCƒ“ˆ—‚ÆƒŠƒ_ƒCƒŒƒNƒVƒ‡ƒ“ˆ—‚ª—~‚µ‚¢‚Ì‚Å‚·‚ªAƒtƒ@ƒCƒ‹ƒRƒs[‹@”\‚È‚Ç‚ÌŠî–{‹@”\‚àæ‚É—~‚µ‚¢‚Å‚·B(‚¶‚á‚È‚¢‚Æ ƒtƒ@ƒCƒ‹ƒRƒs[‚ÌÛ‚É ‚í‚´‚í‚´ ƒlƒBƒeƒBƒu‚ÌƒVƒFƒ‹ŠÂ‹«‚É–ß‚ç‚È‚­‚Ä‚Í‚¢‚¯‚È‚¢‚à‚Ì‚Å,,,)<BR>‚Ç‚È‚½‚© ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“ƒVƒFƒ‹‚É–½‚©‚¯‚Ä‚ÄA‚»‚µ‚Äƒqƒ}‚ÅŽÀ—Í”h‚Å ‚È‚¨‚©‚ÂŠï“Á‚ÈŠJ”­‹¦—ÍŽÒ‚ªŒ»‚ê‚é‚±‚Æ‚ðŠó–]‚µ‚Ü‚· (‹êÎ)</P>
-<P><FONT color="#ff0000">2000/09/20</FONT> ‚³‚Á‚»‚­‹¤“¯ŠJ”­‚Ö‚ÌŽQ‰ÁŠó–]ŽÒ‚Ì•û‚©‚çƒ[ƒ‹—ˆ‚Ü‚µ‚½B‚Ç‚¤‚à‚Ç‚¤‚àA‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B—Í‚ð‡‚í‚¹‚ÄŠæ’£‚è‚Ü‚µ‚å‚¤ q(^o^)Pppp</P>
-<P><FONT color="#ff0000">2000/09/20</FONT> “ÇŽÒ‚©‚ç‚Ì“Ë‚Áž‚Ý</P>
-<P><CITE>Œ–¼FJava‚ÅƒRƒ}ƒ“ƒhƒVƒFƒ‹ƒvƒƒOƒ‰ƒ~ƒ“ƒO<BR>‚¢‚ª‚Ò‚å‚ñ—l<BR>‚¢‚Â‚à“ú‹L‚ð”qŒ©‚³‚¹‚Ä’¸‚¢‚Ä‚¢‚Ü‚·B<BR>
-<BR>Ž„‚àˆÈ‘O“¯‚¶‚æ‚¤‚È‚à‚Ì‚ðì‚è‚©‚¯‚½‚Ì‚Å‚·‚ªAì‚Á‚Ä‚¢‚é‚Æ‚±‚ë‚ðw’n–¡‚¾‚Ëx‚Æ‚¢‚¤‚±‚Æ‚ÅˆêR‚³‚ê‚ÄA‚»‚êˆÈ—ˆì‚Á‚Ä‚¢‚Ü‚¹‚ñBJavaPress‚Å‚àŽ—‚½‚æ‚¤‚È‚à‚Ì‚ðì‚Á‚Ä‚¢‚½†‚ª‚ ‚è‚Ü‚µ‚½‚ªA”ñí‚ÉŠÈ’P‚È‚à‚Ì‚É‚Æ‚Ç‚Ü‚Á‚Ä‚¢‚Ü‚µ‚½B<BR>
-<BR>‚³‚ÄALinux‚ÌƒJ[ƒlƒ‹‚ÌÄ\’z‚Ì‚Æ‚«‚É‚ÍAƒVƒFƒ‹‚©‚ç’¼ÚJava‚ÌƒNƒ‰ƒX‚ðwrapper‚ÅŽÀs‚Å‚«‚é‚æ‚¤‚É‚·‚éƒIƒvƒVƒ‡ƒ“‚ª‚ ‚è‚Ü‚·B<BR>
-<BR>‚Â‚Ü‚è<BR>shell$ chmod 700 execute.class<BR>shell$ ./execute.class<BR>‚È‚Ç‚Æ‚Å‚«‚é‚à‚Ì‚Å‚·B<BR>
-<BR>¡Œã‚Í”Ä—p“I‚ÉƒoƒCƒiƒŠ‚ðwrapper‚ÅŽÀs‚Å‚«‚é‹@”\‚ªƒJ[ƒlƒ‹‚É‰Á‚í‚èAjava‚Í”‚ ‚éƒoƒCƒiƒŠ‚Ì’†‚Ìmisc‚Æ‚¢‚¤ˆÊ’u•t‚¯‚É‚È‚é‚½‚ß‚ÉAŒ»Ý‚Íobsolete‚É‚È‚Á‚Ä‚¢‚Ü‚·‚ªAƒŠƒ_ƒCƒŒƒNƒg‚µ‚½‚è‚Æ‚©Aˆê‰žŠ´Šo“I‚ÈŽg‚¢•û‚ª‚Å‚«‚Ü‚·B<BR>
-<BR>‚»‚à‚»‚à‚Ç‚±‚Å‚à—˜—p‚Å‚«‚é”Ä—p“I‚ÈƒVƒFƒ‹‚ðì‚è‚½‚¢‚ÆŒ¾‚¤‚±‚Æ‚Å‚·‚Ì‚ÅAƒlƒCƒeƒBƒu‚ÈƒVƒFƒ‹‚ÉJava‚ð‹ß‚Ã‚¯‚é‚±‚ê‚Æ‚Í ‚»‚à‚»‚ào”­“_‚ªˆá‚¢‚Ü‚·‚ªAV‚½‚ÉŠJ”­‚Ì‹¦—ÍŽÒ‚ð”­Œ@‚·‚é‚Æ‚¢‚¤ˆÓ–¡‚Å‚àA‰ü‚ß‚Ä‚±‚±‚Å‚»‚ÌˆÓ‹`‚ðA—¼ŽÒ‚ð”äŠr‚·‚é‚±‚Æ‚É‚æ‚è–¾‚ç‚©‚É‚µ‚Ä‚à‚ç‚¦‚½‚çAjavaƒ†[ƒU‚Æ‚µ‚Ä‚à“ÇŽÒ‚Æ‚µ‚Ä‚àŠð‚µ‚¢‚È‚ ‚ÆAŽv‚¢‚Ü‚·BŠú‘Ò‚µ‚Ä‚à‚¢‚¢‚Å‚µ‚å‚¤‚©B<BR>
-<BR>‚È‚¨A—]’k‚Å‚·‚ªAƒNƒƒXƒvƒ‰ƒbƒgƒtƒH[ƒ€‚ÈƒVƒFƒ‹ŠÂ‹«‚Æ‚µ‚Ä‚ÍAMozillaã‚É\’z‚³‚ê‚éXMLTerm</CITE></P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Aï¿½ï–¡ï¿½ÅƒRï¿½}ï¿½ï¿½ï¿½hï¿½Vï¿½Fï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½[ï¿½Uï¿½ï¿½ ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½Ì“ÇŽÒ‚Ì’ï¿½ï¿½Å‚ÍAï¿½Ù‚ï¿½Ìï¿½ï¿½ï¿½ï¿½Æ—\ï¿½zï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½ï¿½,,,)<BR>ï¿½ï¿½ï¿½ï¿½ï¿½Å‹ï¿½ ï¿½}ï¿½bï¿½`ï¿½ï¿½ï¿½Oï¿½Ìï¿½ï¿½ï¿½ï¿½Ì–wï¿½Ç‚Ì‰Óï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Kï¿½\ï¿½ï¿½ (<A href="http://www.cacas.org/~wes/java/">http://www.cacas.org/~wes/java/</A>ï¿½ð—˜—p) ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ}ï¿½bï¿½`ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½Kï¿½\ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½Æ‚ï¿½Collatorï¿½Å‚ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½Ìƒqï¿½Xï¿½gï¿½ï¿½ï¿½È‚https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A>ï¿½Iï¿½É‚ï¿½ ï¿½ï¿½ï¿½\ï¿½Ö—ï¿½ï¿½ÈŠï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+<BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹@ï¿½\ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ñ‚¾‚ï¿½ <A href="http://sourceforge.net">http://sourceforge.net</A> ï¿½Éƒ|ï¿½Xï¿½gï¿½ï¿½ï¿½æ‚¤ï¿½ÆŠï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ JavaCats ï¿½ï¿½ Vectorï¿½É‚Í“oï¿½^ï¿½Ï‚ÝAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½É‚Í–ï¿½ï¿½|ï¿½Xï¿½g) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å‘ï¿½Ì“ï¿½Ö‚ï¿½ ï¿½pï¿½ï¿½ì•¶ï¿½\ï¿½Í‚Ì•sï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½Iï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ LINUXï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ÉÏ‚Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ë‚¤ï¿½ï¿½)<BR>
+<BR>ï¿½ï–¡ï¿½ÅŽï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ô‚Åƒ|ï¿½cï¿½|ï¿½cï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½Aï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½Éiï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½pï¿½Cï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½_ï¿½Cï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½@ï¿½\ï¿½È‚Ç‚ÌŠï¿½{ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½É—~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ÌÛ‚ï¿½ ï¿½í‚´ï¿½í‚´ ï¿½lï¿½Bï¿½eï¿½Bï¿½uï¿½ÌƒVï¿½Fï¿½ï¿½ï¿½Â‹ï¿½ï¿½É–ß‚ï¿½È‚ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½,,,)<BR>ï¿½Ç‚È‚ï¿½ï¿½ï¿½ ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Vï¿½Fï¿½ï¿½ï¿½É–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ÄAï¿½ï¿½ï¿½ï¿½ï¿½Äƒqï¿½}ï¿½ÅŽï¿½ï¿½Í”hï¿½ï¿½ ï¿½È‚ï¿½ï¿½ï¿½ï¿½ÂŠï¿½ï¿½ï¿½ÈŠJï¿½ï¿½ï¿½ï¿½ï¿½ÍŽÒ‚ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½Ü‚ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ö‚ÌŽQï¿½ï¿½ï¿½ï¿½]ï¿½Ò‚Ì•ï¿½ï¿½ï¿½ï¿½çƒï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Í‚ï¿½ï¿½ï¿½ï¿½í‚¹ï¿½ÄŠæ’£ï¿½ï¿½Ü‚ï¿½ï¿½å‚¤ q(^o^)Pppp</P>
+<P><FONT color="#ff0000">2000/09/20</FONT> ï¿½ÇŽÒ‚ï¿½ï¿½ï¿½Ì“Ë‚ï¿½ï¿½ï¿½ï¿½ï¿½</P>
+<P><CITE>ï¿½ï¿½ï¿½ï¿½ï¿½FJavaï¿½ÅƒRï¿½}ï¿½ï¿½ï¿½hï¿½Vï¿½Fï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½O<BR>ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½l<BR>ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+<BR>ï¿½ï¿½ï¿½ï¿½ï¿½È‘Oï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½è‚©ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ëxï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Åˆï¿½Rï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½È—ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½BJavaPressï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÉŠÈ’Pï¿½È‚ï¿½ï¿½Ì‚É‚Æ‚Ç‚Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+<BR>ï¿½ï¿½ï¿½ÄALinuxï¿½ÌƒJï¿½[ï¿½lï¿½ï¿½ï¿½ÌÄ\ï¿½zï¿½Ì‚Æ‚ï¿½ï¿½É‚ÍAï¿½Vï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ç’¼ï¿½ï¿½Javaï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½wrapperï¿½ÅŽï¿½ï¿½sï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+<BR>ï¿½Â‚Ü‚ï¿½<BR>shell$ chmod 700 execute.class<BR>shell$ ./execute.class<BR>ï¿½È‚Ç‚Æ‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B<BR>
+<BR>ï¿½ï¿½ï¿½ï¿½Í”Ä—pï¿½Iï¿½Éƒoï¿½Cï¿½iï¿½ï¿½ï¿½ï¿½wrapperï¿½ÅŽï¿½ï¿½sï¿½Å‚ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½Jï¿½[ï¿½lï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½Ajavaï¿½Íï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Cï¿½iï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½miscï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ê’uï¿½tï¿½ï¿½ï¿½É‚È‚é‚½ï¿½ß‚ÉAï¿½ï¿½ï¿½Ý‚ï¿½obsoleteï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½_ï¿½Cï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½ê‰žï¿½ï¿½ï¿½oï¿½Iï¿½ÈŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+<BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½Ä—pï¿½Iï¿½ÈƒVï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚½ï¿½ï¿½ï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½Ì‚ÅAï¿½lï¿½Cï¿½eï¿½Bï¿½uï¿½ÈƒVï¿½Fï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ß‚Ã‚ï¿½ï¿½é‚±ï¿½ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½á‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Vï¿½ï¿½ï¿½ÉŠJï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ÍŽÒ‚ð”­Œ@ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ó–ï¿½ï¿½Å‚ï¿½ï¿½Aï¿½ï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ÌˆÓ‹`ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ò‚ï¿½ï¿½rï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½è–¾ï¿½ç‚©ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¦ï¿½ï¿½ï¿½ï¿½Ajavaï¿½ï¿½ï¿½[ï¿½Uï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ÇŽÒ‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ÆAï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½B<BR>
+<BR>ï¿½È‚ï¿½ï¿½Aï¿½]ï¿½kï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½ï¿½ï¿½Xï¿½vï¿½ï¿½ï¿½bï¿½gï¿½tï¿½Hï¿½[ï¿½ï¿½ï¿½ÈƒVï¿½Fï¿½ï¿½ï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ÍAMozillaï¿½ï¿½É\ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½XMLTerm</CITE></P>
 <UL>
   <LI><A href="http://xmlterm.com/"><CITE>http://xmlterm.com/</CITE></A> </UL>
-<P><CITE>‚ª‚ ‚è‚Ü‚·BXUL+Javascrpt‚ÌŽÀ‘•‚Å‚ ‚Ü‚è‹»–¡‚Í‚È‚¢‚©‚ÆŽv‚¢‚Ü‚·‚ªAˆê‰žMozilla‚ÆJava‚Ì‹´“n‚µ‚ðŽÀ‘•‚·‚éBlackwoodProject‚à‚ ‚è‚Ü‚·‚Ì‚ÅA‚æ‚ë‚µ‚¯‚ê‚ÎŽQl‚É‚µ‚Ä‚­‚¾‚³‚¢B<BR>BlackwoodProject‚ÌWWW‚Ì˜a–óF</CITE></P>
+<P><CITE>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BXUL+Javascrptï¿½ÌŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚è‹»ï¿½ï¿½ï¿½Í‚È‚ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ê‰žMozillaï¿½ï¿½Javaï¿½Ì‹ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½BlackwoodProjectï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ë‚µï¿½ï¿½ï¿½ï¿½ÎŽQï¿½lï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B<BR>BlackwoodProjectï¿½ï¿½WWWï¿½Ì˜aï¿½ï¿½F</CITE></P>
 <UL>
   <LI><A href="http://jt.mozilla.gr.jp/projects/blackwood/index.html"><CITE>http://jt.mozilla.gr.jp/projects/blackwood/index.html</CITE></A> </UL>
 <P><CITE>Ryuzi Kambe</CITE></P>
-<P><STRONG><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT></STRONG><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>‚½‚¾‚¢‚Ü•ÔM‚ð‘‚«‘‚«’†,,,<BR>(‚Æ‘‚«‚Â‚Â ¡“ú‚Í‚±‚Ì‚Ü‚Ü•ú’u‚©‚à (T_T)</P>
-<P><FONT color="#ff0000">2000/09/21</FONT> ¡“ú‚ÍŒƒ—ó‚É–Z‚µ‚©‚Á‚½‚Ì‚ÅA‚â‚Á‚Ï‚èXV‚Å‚«‚¸B‚½‚¾ ‚±‚ÌƒVƒFƒ‹ŠJ”­—p‚ÌML‚Í—§‚¿ã‚°‚Ü‚µ‚½B‚»‚Á‚¿‚Ì•û‚ÌƒEƒFƒuƒy[ƒW (‚Â‚Ü‚è ‚±‚Ìˆê˜A‚Ì“ú‹Lƒy[ƒW‚Å‚Í‚ ‚è‚Ü‚¹‚ñ) ‚ð ¡”Ó”½‰f‚µ‚æ‚¤‚ÆŽv‚¢‚Ü‚·B</P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü•ÔMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,,,<BR>(ï¿½Æï¿½ï¿½ï¿½ï¿½Â‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ì‚Ü‚Ü•ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ (T_T)</P>
+<P><FONT color="#ff0000">2000/09/21</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ÍŒï¿½ï¿½ï¿½É–Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½Ï‚ï¿½Xï¿½Vï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÌƒVï¿½Fï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½pï¿½ï¿½MLï¿½Í—ï¿½ï¿½ï¿½ï¿½ã‚°ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ÌƒEï¿½Fï¿½uï¿½yï¿½[ï¿½W (ï¿½Â‚Ü‚ï¿½ ï¿½ï¿½ï¿½Ìˆï¿½Aï¿½Ì“ï¿½ï¿½Lï¿½yï¿½[ï¿½Wï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½) ï¿½ï¿½ ï¿½ï¿½ï¿½Ó”ï¿½ï¿½fï¿½ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:45 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2001/11/15 “ъ‹L: J2SE 1.3.1_01a‚рЋg‚ўЋn‚Я‚Ь‚µ‚Ѕ</TITLE>
-<META name="DESCRIPTION" content="J2SE 1.3.1_01a‚ЙѓAѓbѓvѓOѓЊЃ[ѓh , •КЊЏ‚Е‚·‚ЄЃAHotSpot‚М —\‘z€ИЏг‚МЌЕ“K‰»‹@”\‚Й‹Б‚­Ѓc">
-<META name="KEYWORDS" content="‚ў‚Є‚Т‚е‚с‚М“ъ‹Lv2,diary,igapyon">
+<TITLE>2001/11/15 пїЅпїЅпїЅL: J2SE 1.3.1_01aпїЅпїЅпїЅgпїЅпїЅпїЅnпїЅЯ‚Ь‚пїЅпїЅпїЅ</TITLE>
+<META name="DESCRIPTION" content="J2SE 1.3.1_01aпїЅЙѓAпїЅbпїЅvпїЅOпїЅпїЅпїЅ[пїЅh , пїЅКЊпїЅпїЅЕ‚пїЅпїЅпїЅпїЅAHotSpotпїЅпїЅ пїЅ\пїЅzпїЅИЏпїЅМЌЕ“KпїЅпїЅпїЅ@пїЅ\пїЅЙ‹пїЅпїЅпїЅпїЅc">
+<META name="KEYWORDS" content="пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅМ“пїЅпїЅLv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:45+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚ў‚Є‚Т‚е‚с‰ж‘њ(Џ¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅж‘њ(пїЅпїЅ) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2001/11/15 “ъ‹L: J2SE 1.3.1_01a‚рЋg‚ўЋn‚Я‚Ь‚µ‚Ѕ</H2>
-    <P>[‚ў‚Є‚Т‚е‚с‚М“ъ‹Lv2,diary,igapyon] J2SE 1.3.1_01a‚ЙѓAѓbѓvѓOѓЊЃ[ѓh , •КЊЏ‚Е‚·‚ЄЃAHotSpot‚М —\‘z€ИЏг‚МЌЕ“K‰»‹@”\‚Й‹Б‚­Ѓc</P>
+    <H2>2001/11/15 пїЅпїЅпїЅL: J2SE 1.3.1_01aпїЅпїЅпїЅgпїЅпїЅпїЅnпїЅЯ‚Ь‚пїЅпїЅпїЅ</H2>
+    <P>[пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅМ“пїЅпїЅLv2,diary,igapyon] J2SE 1.3.1_01aпїЅЙѓAпїЅbпїЅvпїЅOпїЅпїЅпїЅ[пїЅh , пїЅКЊпїЅпїЅЕ‚пїЅпїЅпїЅпїЅAHotSpotпїЅпїЅ пїЅ\пїЅzпїЅИЏпїЅМЌЕ“KпїЅпїЅпїЅ@пїЅ\пїЅЙ‹пїЅпїЅпїЅпїЅc</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">ЌLЌђ: <A href="http://journal.mycom.co.jp/column/ide/091/">ѓCѓ}ѓhѓL‚МIDEЋ–Џо: EclipseѓxЃ[ѓX‚М“ќЌ‡–|–уЉВ‹«ЃuBentenЃv‚рЋg‚Б‚Д‚Э‚ж‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚Ѕ‚°‚ј‚¤‚і‚с‚МЋи‚Й‚ж‚й Benten ЏР‰о‹LЋ–!</FONT></TD>
+      <TD align="center">пїЅLпїЅпїЅ: <A href="http://journal.mycom.co.jp/column/ide/091/">пїЅCпїЅ}пїЅhпїЅLпїЅпїЅIDEпїЅпїЅпїЅпїЅ: EclipseпїЅxпїЅ[пїЅXпїЅМ“пїЅпїЅпїЅпїЅ|пїЅпїЅВ‹пїЅпїЅuBentenпїЅvпїЅпїЅпїЅgпїЅпїЅпїЅД‚Э‚ж‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅМЋпїЅЙ‚пїЅпїЅ Benten пїЅР‰пїЅLпїЅпїЅ!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ѓCѓ“ѓfѓBѓbѓNѓXѓyЃ[ѓW‚Ц–Я‚й</A></TD>
+      <TD><A href="../idxall.html">пїЅCпїЅпїЅпїЅfпїЅBпїЅbпїЅNпїЅXпїЅyпїЅ[пїЅWпїЅЦ–Я‚пїЅ</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,40 +58,40 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ЌЕ‹Я SUN Java2 SDK SE 1.3.1_01a‚рЋg‚ўЋn‚Я‚Ь‚µ‚Ѕ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>пїЅЕ‹пїЅ SUN Java2 SDK SE 1.3.1_01aпїЅпїЅпїЅgпїЅпїЅпїЅnпїЅЯ‚Ь‚пїЅпїЅпїЅ</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>1.3.1_01 ‚рЋg‚Б‚Д‚ў‚Ѕ‚М‚р 1.3.1_01a‚ЙЏж‚иЉ·‚¦‚Д‚Э‚Ь‚µ‚ЅЃB<BR>
-ѓXѓ‹Ѓ[ѓvѓbѓgЋь‚и‚М‹­‰»‚Ж‚© ѓRѓ“ѓ\Ѓ[ѓ‹‰ж–К‚МѓЃѓ‚ѓЉѓЉЃ[ѓNѓoѓOЏCђі (Њ™‚И“а—e‚Е‚·)
-‚Ж‚©‚ЙЋд‚©‚к‚Д Ћg‚ўЋn‚Я‚Ь‚µ‚ЅЃBЃc “Б‚Й–в‘и‚НЏo‚Д‚ў‚Ь‚№‚сЃB‚»‚±‚»‚±‹C‚Й“ь‚иЋn‚Я‚Ь‚µ‚ЅЃB</P>
-<P>‹C‚Й‚И‚Б‚Ѕ“_‚НЃAѓZѓbѓgѓAѓbѓv‚ЙЏ]‚Б‚Д‚ў‚Б‚ДѓCѓ“ѓXѓgЃ[ѓ‹‚·‚й‚Ж <STRONG>IE‚МJavaVM‚р’u‚«Љ·‚¦</STRONG>‚й‚Ж‚ў‚¤ ‰жЉъ“I‚И‹@”\‚Є•t‘®‚µ‚Д‚ў‚йЋ–‚Е‚·ЃB‚±‚к‚Н•Ц— (ЏО) ‚±‚к‚Е ЊГ‚­‚ДЋg‚ў•Ё‚Й‚И‚з‚И‚ў
-Microsoftђ» JavaVM‚р ЃwЉИ’P‚ЙЃxЌЕђV”Е JavaVM‚Й’u‚«Љ·‚¦‚й‚±‚Ж‚Є‰В”\‚Й‚И‚и‚Ь‚·ЃB(IE‚МЏЪЌЧђЭ’иѓ^ѓu‚Й“ќЌ‡‚і‚к‚Д‚ў‚й“_‚а
-Њ‹Ќ\‹C‚Й“ь‚и‚Ь‚µ‚Ѕ) Ѓc‚Ѕ‚ѕ‚µ ‚±‚к‚Й‚ж‚и JavaVM‚М‹N“®‘¬“x‚Н’б‰є‚µ‚Д‚µ‚Ь‚¤–Н—l‚Е‚·ЃBJavaѓAѓvѓЊѓbѓg“‹ЌЪѓyЃ[ѓW‚рЉJ‚­‚Ж
-ѓ^ѓXѓNѓgѓЊѓC‰E‰є‚Й ѓRЃ[ѓqЃ[ѓJѓbѓvѓAѓCѓRѓ“‚Є•\Ћ¦‚і‚к‚Ь‚·ЃB‚±‚к‚М‹N“®‚Й ‚ї‚ЖЋћЉФ‚Є‚©‚©‚Б‚Д‚ў‚й–Н—lЃBNetscape‚ЕJavaVM‹N“®‚·‚й‚Ж‚«‚Ж“Ї‚¶‹““®‚Е‚·ЃB<BR>
-‚а‚Б‚Ж‹C‚Й‚И‚Б‚Ѕ‚М‚Н JavaѓAѓvѓЊѓbѓg‚ИѓyЃ[ѓW‚р•Ўђ”‚МIE‚ЕЉJ‚­‚Ж ‚»‚Мђ”‚ѕ‚Ї
-ѓRЃ[ѓqЃ[ѓJѓbѓvѓAѓCѓRѓ“‚Є’З‰Б‚і‚к‚Д•\Ћ¦‚і‚к‚й“_‚Е‚·ЃB‚±Ѓc‚±‚к‚Н ‚З‚¤‚ў‚¤€У–Ў‚И‚с‚ѕ‚л‚¤ЃBѓ^ѓXѓNѓ}ѓlЃ[ѓWѓѓ‚ЕЊ©‚й‚Ж
-IE‚Б‚Д ‘‹‚Мђ”‚ѕ‚ЇѓvѓЌѓZѓX‚Є‹N“®‚і‚к‚й‚с‚Е‚·‚ЛЃBЌЎ Џ‰‚Я‚Д’m‚и‚Ь‚µ‚ЅЃB‚И‚й‚Щ‚З
-‚»‚µ‚Д ‚»‚Мђ”‚ѕ‚Ї JavaVM‚аѓЌЃ[ѓh‚і‚к‚й–Н—l‚Е‚·ЃB(‚Ѕ‚ѕ‚µ ѓvѓЌѓZѓX‚Ж‚µ‚Д‚Н
-IE‚М’†‚Ж‚ў‚¤ѓJѓEѓ“ѓg‚Е‚ ‚й–Н—l) ‚±‚к‚Н ѓЃѓ‚ѓЉ“‹ЌЪ—К‚МЏ­‚И‚ўѓpѓ\ѓRѓ“‚ЕIE‚рЋg‚Б‚Д‚ў‚йЉВ‹«‚Й‚Ё‚ў‚Д
-JavaVMЌXђV‚р‚©‚Ї‚й‚ЖЃA‚Р‚З‚ў‚±‚Ж‚Є‹N‚±‚и‚©‚Л‚И‚ў‚Ж‚ў‚¤Ћ–‚р€У–Ў‚µ‚Д‚ў‚Ь‚·ЃBЊГ‚­‚ДЋg‚ў•Ё‚Й‚И‚з‚И‚ўJavaVM‚р
-ЌЕђV‚М”Е‚Е’u‚«Љ·‚¦‚йЋ–‚»‚М‚а‚М‚Н ‘е•П‘fђ°‚з‚µ‚ў‚±‚Ж‚И‚М‚Е‚·‚Ї‚к‚З‚аЃA•›Ќм—p‚Є‹N‚«‚И‚ў‚ж‚¤’Ќ€У‚·‚й‚±‚Ж‚аЉМ—v‚Е‚·‚ЛЃB</P>
+<P>1.3.1_01 пїЅпїЅпїЅgпїЅпїЅпїЅД‚пїЅпїЅпїЅпїЅМ‚пїЅ 1.3.1_01aпїЅЙЏпїЅиЉ·пїЅпїЅпїЅД‚Э‚Ь‚пїЅпїЅпїЅпїЅB<BR>
+пїЅXпїЅпїЅпїЅ[пїЅvпїЅbпїЅgпїЅпїЅпїЅпїЅМ‹пїЅпїЅпїЅпїЅЖ‚пїЅ пїЅRпїЅпїЅпїЅ\пїЅ[пїЅпїЅпїЅпїЅК‚МѓпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ[пїЅNпїЅoпїЅOпїЅCпїЅпїЅ (пїЅпїЅпїЅИ“пїЅпїЅeпїЅЕ‚пїЅ)
+пїЅЖ‚пїЅпїЅЙЋд‚©пїЅпїЅпїЅ пїЅgпїЅпїЅпїЅnпїЅЯ‚Ь‚пїЅпїЅпїЅпїЅBпїЅc пїЅпїЅпїЅЙ–пїЅпїЅНЏoпїЅД‚пїЅпїЅЬ‚пїЅпїЅпїЅBпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅCпїЅЙ“пїЅпїЅпїЅnпїЅЯ‚Ь‚пїЅпїЅпїЅпїЅB</P>
+<P>пїЅCпїЅЙ‚И‚пїЅпїЅпїЅпїЅ_пїЅНЃAпїЅZпїЅbпїЅgпїЅAпїЅbпїЅvпїЅЙЏ]пїЅпїЅпїЅД‚пїЅпїЅпїЅпїЅДѓCпїЅпїЅпїЅXпїЅgпїЅ[пїЅпїЅпїЅпїЅпїЅпїЅпїЅ <STRONG>IEпїЅпїЅJavaVMпїЅпїЅuпїЅпїЅпїЅпїЅпїЅпїЅ</STRONG>пїЅпїЅЖ‚пїЅпїЅпїЅ пїЅпїЅпїЅпїЅIпїЅИ‹@пїЅ\пїЅпїЅпїЅtпїЅпїЅпїЅпїЅпїЅД‚пїЅпїЅйЋ–пїЅЕ‚пїЅпїЅBпїЅпїЅпїЅпїЅН•Ц—пїЅ (пїЅпїЅ) пїЅпїЅпїЅпїЅпїЅ пїЅГ‚пїЅпїЅДЋgпїЅпїЅпїЅпїЅпїЅЙ‚И‚пїЅИ‚пїЅ
+MicrosoftпїЅпїЅ JavaVMпїЅпїЅ пїЅwпїЅИ’PпїЅЙЃxпїЅЕђVпїЅпїЅ JavaVMпїЅЙ’uпїЅпїЅпїЅпїЅпїЅпїЅпїЅй‚±пїЅЖ‚пїЅпїЅВ”\пїЅЙ‚И‚пїЅЬ‚пїЅпїЅB(IEпїЅМЏЪЌЧђЭ’пїЅ^пїЅuпїЅЙ“пїЅпїЅпїЅпїЅпїЅпїЅпїЅД‚пїЅпїЅпїЅ_пїЅпїЅ
+пїЅпїЅпїЅ\пїЅCпїЅЙ“пїЅпїЅпїЅЬ‚пїЅпїЅпїЅ) пїЅcпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅЙ‚пїЅпїЅ JavaVMпїЅМ‹NпїЅпїЅпїЅпїЅпїЅxпїЅН’б‰єпїЅпїЅпїЅД‚пїЅпїЅЬ‚пїЅпїЅН—lпїЅЕ‚пїЅпїЅBJavaпїЅAпїЅvпїЅпїЅпїЅbпїЅgпїЅпїЅпїЅЪѓyпїЅ[пїЅWпїЅпїЅпїЅJпїЅпїЅпїЅпїЅ
+пїЅ^пїЅXпїЅNпїЅgпїЅпїЅпїЅCпїЅEпїЅпїЅпїЅпїЅ пїЅRпїЅ[пїЅqпїЅ[пїЅJпїЅbпїЅvпїЅAпїЅCпїЅRпїЅпїЅпїЅпїЅпїЅ\пїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅBпїЅпїЅпїЅпїЅМ‹NпїЅпїЅпїЅпїЅ пїЅпїЅпїЅЖЋпїЅпїЅФ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅД‚пїЅпїЅпїЅН—lпїЅBNetscapeпїЅпїЅJavaVMпїЅNпїЅпїЅпїЅпїЅпїЅпїЅЖ‚пїЅпїЅЖ“пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅпїЅB<BR>
+пїЅпїЅпїЅпїЅпїЅЖ‹CпїЅЙ‚И‚пїЅпїЅпїЅпїЅМ‚пїЅ JavaпїЅAпїЅvпїЅпїЅпїЅbпїЅgпїЅИѓyпїЅ[пїЅWпїЅр•ЎђпїЅпїЅпїЅIEпїЅЕЉJпїЅпїЅпїЅпїЅ пїЅпїЅпїЅМђпїЅпїЅпїЅпїЅпїЅ
+пїЅRпїЅ[пїЅqпїЅ[пїЅJпїЅbпїЅvпїЅAпїЅCпїЅRпїЅпїЅпїЅпїЅпїЅЗ‰пїЅпїЅпїЅпїЅпїЅД•\пїЅпїЅпїЅпїЅпїЅпїЅпїЅ_пїЅЕ‚пїЅпїЅBпїЅпїЅпїЅcпїЅпїЅпїЅпїЅпїЅ пїЅЗ‚пїЅпїЅпїЅпїЅпїЅпїЅУ–пїЅпїЅИ‚с‚ѕ‚л‚¤пїЅBпїЅ^пїЅXпїЅNпїЅ}пїЅlпїЅ[пїЅWпїЅпїЅпїЅЕЊпїЅпїЅпїЅпїЅ
+IEпїЅпїЅпїЅпїЅ пїЅпїЅпїЅМђпїЅпїЅпїЅпїЅпїЅпїЅvпїЅпїЅпїЅZпїЅXпїЅпїЅпїЅNпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅпїЅЛЃBпїЅпїЅ пїЅпїЅпїЅЯ‚Д’mпїЅпїЅЬ‚пїЅпїЅпїЅпїЅBпїЅИ‚пїЅЩ‚пїЅ
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅМђпїЅпїЅпїЅпїЅпїЅ JavaVMпїЅпїЅпїЅпїЅпїЅ[пїЅhпїЅпїЅпїЅпїЅпїЅН—lпїЅЕ‚пїЅпїЅB(пїЅпїЅпїЅпїЅпїЅпїЅ пїЅvпїЅпїЅпїЅZпїЅXпїЅЖ‚пїЅпїЅД‚пїЅ
+IEпїЅМ’пїЅпїЅЖ‚пїЅпїЅпїЅпїЅJпїЅEпїЅпїЅпїЅgпїЅЕ‚пїЅпїЅпїЅН—l) пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЪ—К‚МЏпїЅпїЅИ‚пїЅпїЅpпїЅ\пїЅRпїЅпїЅпїЅпїЅIEпїЅпїЅпїЅgпїЅпїЅпїЅД‚пїЅпїЅпїЅВ‹пїЅпїЅЙ‚пїЅпїЅпїЅпїЅпїЅ
+JavaVMпїЅXпїЅVпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЖЃAпїЅР‚З‚пїЅпїЅпїЅпїЅЖ‚пїЅпїЅNпїЅпїЅпїЅи‚©пїЅЛ‚И‚пїЅпїЅЖ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅУ–пїЅпїЅпїЅпїЅД‚пїЅпїЅЬ‚пїЅпїЅBпїЅГ‚пїЅпїЅДЋgпїЅпїЅпїЅпїЅпїЅЙ‚И‚пїЅИ‚пїЅJavaVMпїЅпїЅ
+пїЅЕђVпїЅМ”Е‚Е’uпїЅпїЅпїЅпїЅпїЅпїЅпїЅйЋ–пїЅпїЅпїЅМ‚пїЅпїЅМ‚пїЅ пїЅпїЅП‘fпїЅпїЅпїЅз‚µпїЅпїЅпїЅпїЅпїЅЖ‚И‚М‚Е‚пїЅпїЅпїЅпїЅпїЅЗ‚пїЅпїЅAпїЅпїЅпїЅпїЅpпїЅпїЅпїЅNпїЅпїЅпїЅИ‚пїЅпїЅж‚¤пїЅпїЅпїЅУ‚пїЅпїЅй‚±пїЅЖ‚пїЅпїЅМ—vпїЅЕ‚пїЅпїЅЛЃB</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaЊѕЊкѓpѓtѓHЃ[ѓ}ѓ“ѓXѓlѓ^: ЏБ‚¦‚йѓRЃ[ѓh</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaпїЅпїЅпїЅпїЅpпїЅtпїЅHпїЅ[пїЅ}пїЅпїЅпїЅXпїЅlпїЅ^: пїЅпїЅпїЅпїЅпїЅпїЅRпїЅ[пїЅh</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚ў‚н‚д‚йѓfѓoѓbѓO—pѓRЃ[ѓh‚МЋАЌs‘¬“x‚рЊv‘Є‚·‚й‚Ѕ‚Я‚Й ‰є‹L‚М‚ж‚¤‚ИѓRЃ[ѓh‚рЏ‘‚ў‚Д‚Э‚Ь‚µ‚ЅЃB<BR>
-Windows 2000Џг‚Е SUN Java2 SDK SE 1.3.1_01a Ќ‘ЌЫ‰»”Е (J2SE 1.3.1_01a) ‚Е
-HotSpot‚ ‚и‚ЕЋАЌs‚µ‚Ь‚µ‚ЅЃB<BR>
-‚Ж‚±‚л‚Є‚З‚Б‚±‚ўЃA‚ ‚с‚Ь‚иЌ·€Щ‚ЄЏo‚Ь‚№‚сЃB‚±‚к‚Є HotSpot‚МЋА—Н‚©ЃH</P>
+<P>пїЅпїЅпїЅпїЅпїЅпїЅfпїЅoпїЅbпїЅOпїЅpпїЅRпїЅ[пїЅhпїЅМЋпїЅпїЅsпїЅпїЅпїЅxпїЅпїЅпїЅvпїЅпїЅпїЅпїЅпїЅй‚ЅпїЅЯ‚пїЅ пїЅпїЅпїЅLпїЅМ‚ж‚¤пїЅИѓRпїЅ[пїЅhпїЅпїЅпїЅпїЅпїЅпїЅпїЅД‚Э‚Ь‚пїЅпїЅпїЅпїЅB<BR>
+Windows 2000пїЅпїЅпїЅ SUN Java2 SDK SE 1.3.1_01a пїЅпїЅпїЅЫ‰пїЅпїЅпїЅ (J2SE 1.3.1_01a) пїЅпїЅ
+HotSpotпїЅпїЅпїЅпїЅЕЋпїЅпїЅsпїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅB<BR>
+пїЅЖ‚пїЅпїЅл‚ЄпїЅЗ‚пїЅпїЅпїЅпїЅпїЅпїЅAпїЅпїЅпїЅпїЅЬ‚иЌ·пїЅЩ‚пїЅпїЅoпїЅЬ‚пїЅпїЅпїЅBпїЅпїЅпїЅк‚Є HotSpotпїЅМЋпїЅпїЅН‚пїЅпїЅH</P>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD><PRE>/**
- * ‘¬“xЊv‘ЄѓTѓ“ѓvѓ‹
+ * пїЅпїЅпїЅxпїЅvпїЅпїЅпїЅTпїЅпїЅпїЅvпїЅпїЅ
  */
 public class Sample
 {
@@ -104,50 +104,50 @@ public class Sample
 
         protected void process()
         {
-                System.out.println(&quot;‚ў‚н‚д‚йѓfѓoѓbѓO—pѓRЃ[ѓh‚МЋАЌs‘¬“xЊv‘Є.&quot;);
+                System.out.println(&quot;пїЅпїЅпїЅпїЅпїЅпїЅfпїЅoпїЅbпїЅOпїЅpпїЅRпїЅ[пїЅhпїЅМЋпїЅпїЅsпїЅпїЅпїЅxпїЅvпїЅпїЅ.&quot;);
                 long lStart=System.currentTimeMillis();
                 for(int iLoop=0;iLoop&lt;LOOP_COUNT;iLoop++)
                 {
-                        // ‚±‚±‚р•ПЌX‚·‚йЃB
-                        // Њv‘Єђ”’l‚Н Celleron 300MHz
-                        //sample1();//4.547•b
-                        //sample2();//4.707•b
-                        //sample3();//4.567•b
-                        //sample4();//4.747•b
-                        //sample5();//4.717•b
-                        //sample6();//4.747•b
-                        sample7();//8.121•b
+                        // пїЅпїЅпїЅпїЅпїЅпїЅПЌXпїЅпїЅпїЅпїЅB
+                        // пїЅvпїЅпїЅпїЅпїЅпїЅlпїЅпїЅ Celleron 300MHz
+                        //sample1();//4.547пїЅb
+                        //sample2();//4.707пїЅb
+                        //sample3();//4.567пїЅb
+                        //sample4();//4.747пїЅb
+                        //sample5();//4.717пїЅb
+                        //sample6();//4.747пїЅb
+                        sample7();//8.121пїЅb
                 }
                 long lEnd=System.currentTimeMillis();
                 java.text.DecimalFormat decFormat=new java.text.DecimalFormat(&quot;#,##0.000&quot;);
-                System.out.println(decFormat.format(((double)lEnd-lStart)/1000)+&quot;•b&quot;);
+                System.out.println(decFormat.format(((double)lEnd-lStart)/1000)+&quot;пїЅb&quot;);
         }
 
         /**
-         * ‘S‚­‚МѓRѓЃѓ“ѓg
+         * пїЅSпїЅпїЅпїЅМѓRпїЅпїЅпїЅпїЅпїЅg
          */
         public void sample1()
         {
-                // System.out.println(&quot;‚И‚Й‚©ѓfѓoѓbѓO•¶Ћљ—с&quot;);
+                // System.out.println(&quot;пїЅИ‚Й‚пїЅпїЅfпїЅoпїЅbпїЅOпїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public void sample2()
         {
-                if(false)System.out.println(&quot;‚И‚Й‚©ѓfѓoѓbѓO•¶Ћљ—с&quot;);
+                if(false)System.out.println(&quot;пїЅИ‚Й‚пїЅпїЅfпїЅoпїЅbпїЅOпїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public static final boolean IS_DEBUG3=false;
 
         public void sample3()
         {
-                if(IS_DEBUG3)System.out.println(&quot;‚И‚Й‚©ѓfѓoѓbѓO•¶Ћљ—с&quot;);
+                if(IS_DEBUG3)System.out.println(&quot;пїЅИ‚Й‚пїЅпїЅfпїЅoпїЅbпїЅOпїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public boolean IS_DEBUG4=false;
 
         public void sample4()
         {
-                if(IS_DEBUG4)System.out.println(&quot;‚И‚Й‚©ѓfѓoѓbѓO•¶Ћљ—с&quot;);
+                if(IS_DEBUG4)System.out.println(&quot;пїЅИ‚Й‚пїЅпїЅfпїЅoпїЅbпїЅOпїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public boolean IS_DEBUG5=false;
@@ -159,7 +159,7 @@ public class Sample
 
         public void sample5()
         {
-                if(getIsDebug5())System.out.println(&quot;‚И‚Й‚©ѓfѓoѓbѓO•¶Ћљ—с&quot;);
+                if(getIsDebug5())System.out.println(&quot;пїЅИ‚Й‚пїЅпїЅfпїЅoпїЅbпїЅOпїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public boolean IS_DEBUG6=false;
@@ -171,7 +171,7 @@ public class Sample
 
         public void sample6()
         {
-                if(getIsDebug6())System.out.println(&quot;‚И‚Й‚©&quot;+&quot;ѓfѓoѓbѓO&quot;+&quot;•¶Ћљ—с&quot;);
+                if(getIsDebug6())System.out.println(&quot;пїЅИ‚Й‚пїЅ&quot;+&quot;пїЅfпїЅoпїЅbпїЅO&quot;+&quot;пїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
         public boolean IS_DEBUG7=false;
@@ -188,20 +188,20 @@ public class Sample
 
         public void sample7()
         {
-                debug7(&quot;‚И‚Й‚©&quot;+&quot;ѓfѓoѓbѓO&quot;+&quot;•¶Ћљ—с&quot;);
+                debug7(&quot;пїЅИ‚Й‚пїЅ&quot;+&quot;пїЅfпїЅoпїЅbпїЅO&quot;+&quot;пїЅпїЅпїЅпїЅпїЅпїЅ&quot;);
         }
 
 }</PRE></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>HotSpotЌЕ“K‰»”Н€Н‚Є‚±‚±‚Ь‚Е‚Ж‚НЋv‚¦‚Ь‚№‚с‚ЄЃcЃB‚И‚є‚И‚М‚ѕ‚л‚¤ЃB<BR>
-*.class(ѓoѓCѓgѓRЃ[ѓh)‚р‹tѓAѓZѓ“ѓuѓ‹‚µ‚Д‚Э‚ж‚¤‚©‚Ж‚аЋv‚ў‚Ь‚µ‚Ѕ‚ЄЃA‚Ж‚и‚ ‚¦‚ёЋћЉФ‚Є–і‚ў‚М‚Ж
-‚З‚к‚Є‹C‚М—‚ў‚Ѕ ѓoѓCѓgѓRЃ[ѓhЃEѓЉѓoЃ[ѓXѓcЃ[ѓ‹‚©‚р’m‚з‚И‚ў‚М‚ЕЃA‚Ж‚и‚ ‚¦‚ёЉ„€¤‚µ‚Ь‚µ‚ЅЃB€¤—pѓoѓCѓgѓRЃ[ѓhЃEѓЉѓoЃ[ѓXѓcЃ[ѓ‹‚И‚З‚ ‚и‚Ь‚µ‚Ѕ‚зЃA‚З‚И‚Ѕ‚©
-€кЊѕ ѓcѓbѓRѓ~‚р“ь‚к‚Д‰є‚і‚ўЃB</P>
-<P><FONT color="#ff0000">21:30</FONT> ѓ‹Ѓ[ѓv‚М‰сђ”‚ЄЌЄ–{“I‚ЙЏ­‚И‚·‚¬‚Ѕ‚Ж‚ў‚¤Ћ–‚Й‹C‚Г‚«‚Ь‚µ‚ЅЃBѓ‹Ѓ[ѓv‰сђ”‚р‘е•ќѓAѓbѓv‚µ‚Ь‚µ‚ЅЃB<BR>
-‚»‚¤‚·‚й‚Ж ‘ЅЏ­“Б’Ґ‚ЄЏo‚Д‚«‚Ь‚µ‚ЅЃB‚И‚й‚Щ‚ЗЃAЉґЉSђ[‚ўђ”’l‚ѕ‚И‚џЃB(sample7€ИЉO‚Н
-‚Щ‚Ж‚с‚З“Їђ”’l‚И‚с‚Е‚·ЃB€УЉO‚ѕ‚Б‚Ѕ‚Е‚·ЃB)</P>
+<P>HotSpotпїЅЕ“KпїЅпїЅпїЅН€Н‚пїЅпїЅпїЅпїЅпїЅпїЅЬ‚Е‚Ж‚НЋvпїЅпїЅпїЅЬ‚пїЅпїЅс‚ЄЃcпїЅBпїЅИ‚пїЅпїЅИ‚М‚пїЅпїЅл‚¤пїЅB<BR>
+*.class(пїЅoпїЅCпїЅgпїЅRпїЅ[пїЅh)пїЅпїЅпїЅtпїЅAпїЅZпїЅпїЅпїЅuпїЅпїЅпїЅпїЅпїЅД‚Э‚ж‚¤пїЅпїЅпїЅЖ‚пїЅпїЅvпїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅпїЅпїЅAпїЅЖ‚и‚ пїЅпїЅпїЅпїЅпїЅпїЅпїЅФ‚пїЅпїЅпїЅпїЅпїЅпїЅМ‚пїЅ
+пїЅЗ‚к‚ЄпїЅCпїЅМ—пїЅпїЅпїЅпїЅпїЅ пїЅoпїЅCпїЅgпїЅRпїЅ[пїЅhпїЅEпїЅпїЅпїЅoпїЅ[пїЅXпїЅcпїЅ[пїЅпїЅпїЅпїЅпїЅпїЅmпїЅпїЅИ‚пїЅпїЅМ‚ЕЃAпїЅЖ‚и‚ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅBпїЅпїЅпїЅpпїЅoпїЅCпїЅgпїЅRпїЅ[пїЅhпїЅEпїЅпїЅпїЅoпїЅ[пїЅXпїЅcпїЅ[пїЅпїЅпїЅИ‚З‚пїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅпїЅAпїЅЗ‚И‚пїЅпїЅпїЅ
+пїЅкЊѕ пїЅcпїЅbпїЅRпїЅ~пїЅпїЅпїЅпїЅпїЅД‰пїЅпїЅпїЅпїЅпїЅпїЅB</P>
+<P><FONT color="#ff0000">21:30</FONT> пїЅпїЅпїЅ[пїЅvпїЅМ‰сђ”‚пїЅпїЅпїЅпїЅ{пїЅIпїЅЙЏпїЅпїЅИ‚пїЅпїЅпїЅпїЅпїЅпїЅЖ‚пїЅпїЅпїЅпїЅпїЅпїЅЙ‹CпїЅГ‚пїЅпїЅЬ‚пїЅпїЅпїЅпїЅBпїЅпїЅпїЅ[пїЅvпїЅсђ”‚пїЅе•ќпїЅAпїЅbпїЅvпїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅB<BR>
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅoпїЅД‚пїЅпїЅЬ‚пїЅпїЅпїЅпїЅBпїЅИ‚пїЅЩ‚ЗЃAпїЅпїЅпїЅSпїЅ[пїЅпїЅпїЅпїЅпїЅlпїЅпїЅпїЅИ‚пїЅпїЅB(sample7пїЅИЉOпїЅпїЅ
+пїЅЩ‚Ж‚пїЅЗ“пїЅпїЅпїЅпїЅlпїЅИ‚пїЅЕ‚пїЅпїЅBпїЅУЉOпїЅпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅпїЅB)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
@@ -209,29 +209,29 @@ public class Sample
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2001/11/16</FONT> <A HREF="http://www.hyuki.com/" TITLE="Ћ„‚Є‚а‚Б‚Ж‚а‘ёЊh‚·‚йЏо•с‹ZЏpѓ‰ѓCѓ^Ѓ[‚МЊ‹Џй‚і‚ЬЃB”Ю‚М‚н‚©‚и‚в‚·‚ў•¶ЏН‚Н Ћ„‚Ѕ‚ї‚Є–ў’m‚МЏо•с‹ZЏp‚ЙђЪ‚·‚йЌЫ‚Й ‚Ж‚Д‚а—E‹C‚Г‚Ї‚з‚к‚Д‰ћ‰‡‚і‚к‚Ь‚·ЃBЊ‹ЏйЌ_‚і‚с‚МЏ‘ђР‚Є‚ ‚йѓWѓѓѓ“ѓ‹‚Е‚Н •K‚ё ‚»‚к‚рЌw“ь‚µЃA‚Ь‚Ѕђl‚ЙЉ©‚Я‚й‚ж‚¤‚Й‚µ‚Д‚ў‚Ь‚·ЃB">Њ‹ЏйЌ_</A><FONT color="#ff00ff">‚і‚Ь‚©‚зЊлђAѓcѓbѓRѓ~</FONT><BR>
+<P><FONT color="#ff0000">2001/11/16</FONT> <A HREF="http://www.hyuki.com/" TITLE="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЖ‚пїЅпїЅпїЅпїЅhпїЅпїЅпїЅпїЅпїЅпїЅZпїЅpпїЅпїЅпїЅCпїЅ^пїЅ[пїЅМЊпїЅпїЅй‚іпїЅЬЃBпїЅЮ‚М‚н‚©пїЅпїЅв‚·пїЅпїЅпїЅпїЅпїЅН‚пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅmпїЅМЏпїЅпїЅZпїЅpпїЅЙђЪ‚пїЅпїЅпїЅЫ‚пїЅ пїЅЖ‚Д‚пїЅпїЅEпїЅCпїЅГ‚пїЅпїЅпїЅпїЅД‰пїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅBпїЅпїЅпїЅпїЅ_пїЅпїЅпїЅпїЅМЏпїЅпїЅР‚пїЅпїЅпїЅпїЅпїЅWпїЅпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅ пїЅKпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅwпїЅпїЅпїЅпїЅпїЅAпїЅЬ‚пїЅпїЅlпїЅЙЉпїЅпїЅЯ‚пїЅж‚¤пїЅЙ‚пїЅпїЅД‚пїЅпїЅЬ‚пїЅпїЅB">пїЅпїЅпїЅпїЅ_</A><FONT color="#ff00ff">пїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅAпїЅcпїЅbпїЅRпїЅ~</FONT><BR>
 <CITE>Subject: typo<BR>
-Њ‹Џй‚Е‚·ЃBЋж‚и‹}‚¬typo‚Е‚·ЃB</CITE></P>
+пїЅпїЅпїЅпїЅЕ‚пїЅпїЅBпїЅпїЅпїЅ}пїЅпїЅtypoпїЅЕ‚пїЅпїЅB</CITE></P>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD><CITE>s/ѓpЃ[ѓtѓHѓ}ѓ“ѓXѓlѓ^/ѓpѓtѓHЃ[ѓ}ѓ“ѓX/<BR>
-      s/‚©‚В‚Е”т‚ФЋж‚и—Ћ‚Ж‚·/‚©‚В‚Д”т‚Ф’№—Ћ‚Ж‚·/<BR>
-      s/ђҐ”с ‹¤’К‚©‚Й/ђҐ”с ‹¤’К‰»‚Й/</CITE></TD>
+      <TD><CITE>s/пїЅpпїЅ[пїЅtпїЅHпїЅ}пїЅпїЅпїЅXпїЅlпїЅ^/пїЅpпїЅtпїЅHпїЅ[пїЅ}пїЅпїЅпїЅX/<BR>
+      s/пїЅпїЅпїЅВ‚Е”пїЅФЋпїЅи—ЋпїЅЖ‚пїЅ/пїЅпїЅпїЅВ‚Д”пїЅФ’пїЅпїЅпїЅпїЅЖ‚пїЅ/<BR>
+      s/пїЅпїЅпїЅпїЅ пїЅпїЅпїЅК‚пїЅпїЅпїЅ/пїЅпїЅпїЅпїЅ пїЅпїЅпїЅК‰пїЅпїЅпїЅ/</CITE></TD>
     </TR>
   </TBODY>
 </TABLE>
 <P><CITE>----<BR>
-<A HREF="http://www.hyuki.com/" TITLE="Ћ„‚Є‚а‚Б‚Ж‚а‘ёЊh‚·‚йЏо•с‹ZЏpѓ‰ѓCѓ^Ѓ[‚МЊ‹Џй‚і‚ЬЃB”Ю‚М‚н‚©‚и‚в‚·‚ў•¶ЏН‚Н Ћ„‚Ѕ‚ї‚Є–ў’m‚МЏо•с‹ZЏp‚ЙђЪ‚·‚йЌЫ‚Й ‚Ж‚Д‚а—E‹C‚Г‚Ї‚з‚к‚Д‰ћ‰‡‚і‚к‚Ь‚·ЃBЊ‹ЏйЌ_‚і‚с‚МЏ‘ђР‚Є‚ ‚йѓWѓѓѓ“ѓ‹‚Е‚Н •K‚ё ‚»‚к‚рЌw“ь‚µЃA‚Ь‚Ѕђl‚ЙЉ©‚Я‚й‚ж‚¤‚Й‚µ‚Д‚ў‚Ь‚·ЃB">Њ‹ЏйЌ_</A></CITE></P>
-<P><FONT color="#ff00ff"><STRONG>‚±‚±‚©‚з</STRONG></FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚ў‚Є‚Т‚е‚с‚ЙЉЦ‚·‚йђа–ѕ">‚ў‚Є‚Т‚е‚с</A><BR>
-‚З‚¤‚а‚ ‚и‚Є‚Ж‚¤‚І‚ґ‚ў‚Ь‚·ЃB‘е•ПЉр‚µ‚ў‚Е‚·ЃB‚і‚Б‚»‚­ЏCђі‚ў‚Ѕ‚µ‚Ь‚µ‚ЅЃB<BR>
-‚»‚к‚Й‚µ‚Д‚а ‘тЋRЉФ€б‚¦‰Я‚¬‚ѕ‚И‚џ (‹кЏО)</P>
+<A HREF="http://www.hyuki.com/" TITLE="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЖ‚пїЅпїЅпїЅпїЅhпїЅпїЅпїЅпїЅпїЅпїЅZпїЅpпїЅпїЅпїЅCпїЅ^пїЅ[пїЅМЊпїЅпїЅй‚іпїЅЬЃBпїЅЮ‚М‚н‚©пїЅпїЅв‚·пїЅпїЅпїЅпїЅпїЅН‚пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅmпїЅМЏпїЅпїЅZпїЅpпїЅЙђЪ‚пїЅпїЅпїЅЫ‚пїЅ пїЅЖ‚Д‚пїЅпїЅEпїЅCпїЅГ‚пїЅпїЅпїЅпїЅД‰пїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅBпїЅпїЅпїЅпїЅ_пїЅпїЅпїЅпїЅМЏпїЅпїЅР‚пїЅпїЅпїЅпїЅпїЅWпїЅпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅ пїЅKпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅwпїЅпїЅпїЅпїЅпїЅAпїЅЬ‚пїЅпїЅlпїЅЙЉпїЅпїЅЯ‚пїЅж‚¤пїЅЙ‚пїЅпїЅД‚пїЅпїЅЬ‚пїЅпїЅB">пїЅпїЅпїЅпїЅ_</A></CITE></P>
+<P><FONT color="#ff00ff"><STRONG>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</STRONG>https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅЙЉЦ‚пїЅпїЅпїЅпїЅпїЅпїЅ">пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅ</A><BR>
+пїЅЗ‚пїЅпїЅпїЅпїЅпїЅпїЅи‚ЄпїЅЖ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅBпїЅпїЅПЉпїЅпїЅпїЅпїЅпїЅпїЅЕ‚пїЅпїЅBпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅCпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅпїЅпїЅB<BR>
+пїЅпїЅпїЅпїЅЙ‚пїЅпїЅД‚пїЅ пїЅпїЅRпїЅФ€б‚¦пїЅЯ‚пїЅпїЅпїЅпїЅИ‚пїЅ (пїЅпїЅпїЅ)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig011115.src.html' , result='ig011115.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ђўЉФ‚Мѓjѓ…Ѓ[ѓX‚©‚з <FONT SIZE="-1">(<A HREF="ig011115-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">JavaЊѕЊк ѓRЃ[ѓfѓBѓ“ѓO‹K–с</A> <FONT size="-2"><A target="_blank" HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ЏА“c“NЋj‚і‚с‚МЋи‚Й‚ж‚й Java Code Conventions ‚М“ъ–{Њк–уЃBЋ„‚ЄЉµ‚кђe‚µ‚с‚ѕѓRЃ[ѓfѓBѓ“ѓO‹K–с‚Ж ‚ї‚е‚Б‚Ж€Щ‚И‚и‚Ь‚·ЃB‚»‚л‚»‚л ‚±‚¤‚ў‚¤ЃwђўЉФ€к”К“IЃx‚ИѓRЃ[ѓfѓBѓ“ѓO•WЏЂ‚ЙЉс‚и“Y‚Б‚ДЌs‚­‚Ч‚«ЋћЉъ‚Є–K‚к‚Ѕ‚М‚в‚а’m‚к‚Ь‚№‚сЃB<LI><A HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">ѓ\ѓjЃ[‚Є”ЅMSAЌ‡ЃH??AOL Time WarnerЃCNokia‚Ж‘еЊ^’сЊg</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Netscape‚ЖIE‚Ж‚Мђн‚ў‚З‚±‚л‚Е‚Н‚И‚ў‚Щ‚З‚М‘еЊ^’сЊgѓjѓ…Ѓ[ѓX‚ѕ‚Б‚Ѕ‚М‚Е‚·‚ЛЃB‚»‚±‚Ь‚Е‚Н“З‚ЭђШ‚к‚Ь‚№‚с‚Е‚µ‚ЅЃB<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">ѓgЃ[ѓoѓ‹ѓXЋЃ‚ЖѓRѓbѓNѓXЋЃЃCЋџђў‘гLinuxѓJЃ[ѓlѓ‹‚Еa‰р</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>VMЋь‚и‚Е‚М€УЊ©‚М‘Љ€б‚Є‰рЊ€ЃH<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">ѓRѓbѓNѓXЋЃЃCLinuxѓJЃ[ѓlѓ‹ 2.4‚МѓЃѓ“ѓeѓiѓ“ѓX–р‚рЌ~‚и‚й</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ѓRѓbѓNѓX‚і‚с‚ЄѓЃѓ“ѓeѓi‚рЌ~‚и‚з‚к‚Ѕ–Н—lЃB<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">Linux ColumnЃFLinux‚Н’N‚М‚а‚МЃH</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ѓAѓ‰ѓ“ЃEѓRѓbѓNѓX‚МѓJЃ[ѓlѓ‹ѓЃѓ“ѓeѓiЃ[Ћ«”C‚МЋ–‚ЙЉЦA‚µ‚ДЃB<LI><A HREF="http://www.asahi.com/business/update/1115/001.html">Њo‰c“ќЌ‡‚М“ъЌq‚Ж‚i‚`‚rЃA‚T‚O‚O‚OђlЌнЊё‚Ц</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/business/update/1115/001.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Ќq‹уЋY‹Ж‚а‹к“п‚МЋћ‘г‚Е‚·‚Л‚ҐЃB<LI><A HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">Oracle CEOЃCEllisonЋЃ‚М“ЕђгЊ’ЌЭЃBMS‚МExchange‚Є‘„‹К‚Й</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>MS Exchange‚НЋjЏгЌЕ€«‚МѓpѓbѓPЃ[ѓWѓ\ѓtѓgѓEѓFѓA‚ѕ‚а‚с‚И‚џЃB‹t‚Й Oracle 9i‚ЙѓЃЃ[ѓ‹ѓTЃ[ѓoЃ[ѓIѓvѓVѓ‡ѓ“‚Є‚ ‚й‚Ж‚Н’m‚и‚Ь‚№‚с‚Е‚µ‚ЅЃB<LI><A HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">ѓIѓЉѓRѓ“‚ЄWindows Media Player‚ЙЌ‘“аCDѓfЃ[ѓ^‚р’с‹џ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>‚±‚к‚Н ‚а‚М‚·‚І‚­Њш‚­ѓjѓ…Ѓ[ѓX‚Е‚·ЃB‰№ЉyCD‚р“ь‚к‚Ѕ‚зѓAЃ[ѓeѓBѓXѓgЏо•с‚ЖA“®ЃB‚»‚к‚рѓIѓЉѓRѓ“‚ЄЋА‘•‚·‚йЃBѓ}ѓ‹ѓ`ѓЃѓfѓBѓA‚ИЋћ‘г‚Є–Ъ‚Мђж‚Ь‚Е—€‚Д‚ў‚й‚М‚Е‚·‚Л‚ҐЃB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">Њg‘С“db‚Е”]Ћоб‡??ЊіMotorolaЋР€х‚Є“ЇЋР‚р’с‘i</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>“dЋҐ”g‚Нђl‘М‚Й—LЉQ‚©–іЉQ‚©ЃA‚МЌЩ”»‚ЄѓAѓЃѓЉѓJ‚ЕЊJ‚иЌL‚°‚з‚к‚й–Н—lЃB“dЋҐ”gђжђiЌ‘ѓAѓЃѓЉѓJ‚М“®Њь‚Є‹C‚Й‚И‚и‚Ь‚·ЃB<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">NTTѓhѓRѓ‚‚ЖѓmѓLѓAЃA3G‚Мѓuѓ‰ѓEѓU‚вJavaѓAѓvѓЉ‚И‚З‚р‹¤’К‰»</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ђҐ”с ‹¤’К‰»‚ЙЉж’Ј‚Б‚Д‚­‚ѕ‚і‚ўЃB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">NovellЃCЏ]‹Ж€х‚М3•Є‚М1‚рѓЊѓCѓIѓt‚©</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>‚©‚В‚Д”т‚Ф’№—Ћ‚Ж‚·ђЁ‚ў‚ѕ‚Б‚Ѕ Novell‚Є Њі‹C‚ ‚и‚Ь‚№‚сЃB‚Е Novell‚р‚в‚Б‚В‚Ї‚ЅMicrosoft‚НЊі‹C‚а‚и‚а‚иЃB‚а‚М‚М‚ ‚н‚к‚рЉґ‚¶‚Ь‚·ЃB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">•ДЌ‘‚Мѓlѓbѓgѓ†Ѓ[ѓUЃ[ђ”ЃC‰Я‹ЋЌЕЌ‚‚М1‰­1520–њђl</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>‚а‚М‚·‚І‚ўђlђ”‚ѕ‚И‚џЃB</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>пїЅпїЅпїЅФ‚МѓjпїЅпїЅпїЅ[пїЅXпїЅпїЅпїЅпїЅ <FONT SIZE="-1">(<A HREF="ig011115-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">JavaпїЅпїЅпїЅпїЅ пїЅRпїЅ[пїЅfпїЅBпїЅпїЅпїЅOпїЅKпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.tcct.zaq.ne.jp/ayato/programming/java/codeconv_jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅпїЅпїЅcпїЅNпїЅjпїЅпїЅпїЅпїЅМЋпїЅЙ‚пїЅпїЅ Java Code Conventions пїЅМ“пїЅпїЅ{пїЅпїЅпїЅBпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅeпїЅпїЅпїЅс‚ѕѓRпїЅ[пїЅfпїЅBпїЅпїЅпїЅOпїЅKпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅЖ€Щ‚И‚пїЅЬ‚пїЅпїЅBпїЅпїЅпїЅл‚»пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅwпїЅпїЅпїЅФ€пїЅК“IпїЅxпїЅИѓRпїЅ[пїЅfпїЅBпїЅпїЅпїЅOпїЅWпїЅпїЅпїЅЙЉпїЅпїЅYпїЅпїЅпїЅДЌsпїЅпїЅпїЅЧ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅKпїЅк‚ЅпїЅМ‚пїЅпїЅпїЅmпїЅпїЅЬ‚пїЅпїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">пїЅ\пїЅjпїЅ[пїЅпїЅпїЅпїЅMSпїЅAпїЅпїЅпїЅH??AOL Time WarnerпїЅCNokiaпїЅЖ‘пїЅ^пїЅпїЅg</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/13/e_sony.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>NetscapeпїЅпїЅIEпїЅЖ‚Мђн‚ўпїЅЗ‚пїЅпїЅпїЅЕ‚Н‚И‚пїЅпїЅЩ‚З‚М‘пїЅ^пїЅпїЅgпїЅjпїЅпїЅпїЅ[пїЅXпїЅпїЅпїЅпїЅпїЅпїЅпїЅМ‚Е‚пїЅпїЅЛЃBпїЅпїЅпїЅпїЅпїЅЬ‚Е‚Н“З‚ЭђШ‚пїЅЬ‚пїЅпїЅпїЅЕ‚пїЅпїЅпїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">пїЅgпїЅ[пїЅoпїЅпїЅпїЅXпїЅпїЅпїЅЖѓRпїЅbпїЅNпїЅXпїЅпїЅпїЅCпїЅпїЅпїЅпїЅпїЅпїЅLinuxпїЅJпїЅ[пїЅlпїЅпїЅпїЅЕaпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110602.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>VMпїЅпїЅпїЅпїЅЕ‚М€УЊпїЅпїЅМ‘пїЅпїЅб‚ЄпїЅпїЅпїЅпїЅпїЅH<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">пїЅRпїЅbпїЅNпїЅXпїЅпїЅпїЅCLinuxпїЅJпїЅ[пїЅlпїЅпїЅ 2.4пїЅМѓпїЅпїЅпїЅпїЅeпїЅiпїЅпїЅпїЅXпїЅпїЅпїЅпїЅпїЅ~пїЅпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/06/01110601.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅRпїЅbпїЅNпїЅXпїЅпїЅпїЅс‚ЄѓпїЅпїЅпїЅпїЅeпїЅiпїЅпїЅпїЅ~пїЅпїЅпїЅк‚ЅпїЅН—lпїЅB<LI><A HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">Linux ColumnпїЅFLinuxпїЅН’NпїЅМ‚пїЅпїЅМЃH</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0111/14/01111488.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅAпїЅпїЅпїЅпїЅпїЅEпїЅRпїЅbпїЅNпїЅXпїЅМѓJпїЅ[пїЅlпїЅпїЅпїЅпїЅпїЅпїЅпїЅeпїЅiпїЅ[пїЅпїЅпїЅCпїЅМЋпїЅпїЅЙЉЦAпїЅпїЅпїЅДЃB<LI><A HREF="http://www.asahi.com/business/update/1115/001.html">пїЅoпїЅcпїЅпїЅпїЅпїЅпїЅМ“пїЅпїЅqпїЅЖ‚iпїЅ`пїЅrпїЅAпїЅTпїЅOпїЅOпїЅOпїЅlпїЅнЊёпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/business/update/1115/001.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅqпїЅпїЅYпїЅЖ‚пїЅпїЅпїЅпїЅМЋпїЅпїЅпїЅЕ‚пїЅпїЅЛ‚пїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">Oracle CEOпїЅCEllisonпїЅпїЅпїЅМ“ЕђгЊ’пїЅЭЃBMSпїЅпїЅExchangeпїЅпїЅпїЅпїЅпїЅК‚пїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/14/b_1113_01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>MS ExchangeпїЅНЋjпїЅпїЅЕ€пїЅпїЅМѓpпїЅbпїЅPпїЅ[пїЅWпїЅ\пїЅtпїЅgпїЅEпїЅFпїЅAпїЅпїЅпїЅпїЅпїЅпїЅИ‚пїЅпїЅBпїЅtпїЅпїЅ Oracle 9iпїЅЙѓпїЅпїЅ[пїЅпїЅпїЅTпїЅ[пїЅoпїЅ[пїЅIпїЅvпїЅVпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЖ‚Н’mпїЅпїЅЬ‚пїЅпїЅпїЅЕ‚пїЅпїЅпїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">пїЅIпїЅпїЅпїЅRпїЅпїЅпїЅпїЅWindows Media PlayerпїЅЙЌпїЅпїЅпїЅCDпїЅfпїЅ[пїЅ^пїЅпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/bursts/0111/15/oricon.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅМ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅjпїЅпїЅпїЅ[пїЅXпїЅЕ‚пїЅпїЅBпїЅпїЅпїЅyCDпїЅпїЅпїЅпїЅк‚ЅпїЅпїЅAпїЅ[пїЅeпїЅBпїЅXпїЅgпїЅпїЅпїЅЖAпїЅпїЅпїЅBпїЅпїЅпїЅпїЅпїЅпїЅIпїЅпїЅпїЅRпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅBпїЅ}пїЅпїЅпїЅ`пїЅпїЅпїЅfпїЅBпїЅAпїЅИЋпїЅпїЅг‚ЄпїЅЪ‚МђпїЅЬ‚Е—пїЅпїЅД‚пїЅпїЅпїЅМ‚Е‚пїЅпїЅЛ‚пїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">пїЅgпїЅС“dпїЅbпїЅЕ”]пїЅпїЅпїЅ??пїЅпїЅMotorolaпїЅР€пїЅпїЅпїЅпїЅпїЅпїЅР‚пїЅпїЅi</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_16.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅdпїЅпїЅпїЅgпїЅНђlпїЅМ‚Й—LпїЅQпїЅпїЅпїЅпїЅпїЅQпїЅпїЅпїЅAпїЅМЌЩ”пїЅпїЅпїЅпїЅAпїЅпїЅпїЅпїЅпїЅJпїЅЕЊJпїЅпїЅLпїЅпїЅпїЅпїЅпїЅпїЅН—lпїЅBпїЅdпїЅпїЅпїЅgпїЅпїЅiпїЅпїЅпїЅAпїЅпїЅпїЅпїЅпїЅJпїЅМ“пїЅпїЅпїЅпїЅпїЅпїЅCпїЅЙ‚И‚пїЅЬ‚пїЅпїЅB<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">NTTпїЅhпїЅRпїЅпїЅпїЅЖѓmпїЅLпїЅAпїЅA3GпїЅМѓuпїЅпїЅпїЅEпїЅUпїЅпїЅJavaпїЅAпїЅvпїЅпїЅпїЅИ‚З‚пїЅпїЅпїЅпїЅК‰пїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/show/leaf?CID=onair/biztech/ex01/154709">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅпїЅпїЅпїЅ пїЅпїЅпїЅК‰пїЅпїЅЙЉж’ЈпїЅпїЅпїЅД‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">NovellпїЅCпїЅ]пїЅЖ€пїЅпїЅпїЅ3пїЅпїЅпїЅпїЅ1пїЅпїЅпїЅпїЅпїЅCпїЅIпїЅtпїЅпїЅ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅпїЅпїЅВ‚Д”пїЅФ’пїЅпїЅпїЅпїЅЖ‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NovellпїЅпїЅ пїЅпїЅпїЅCпїЅпїЅпїЅпїЅЬ‚пїЅпїЅпїЅBпїЅпїЅ NovellпїЅпїЅпїЅпїЅпїЅпїЅВ‚пїЅпїЅпїЅMicrosoftпїЅНЊпїЅпїЅCпїЅпїЅпїЅпїЅпїЅпїЅпїЅBпїЅпїЅпїЅМ‚М‚пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅЬ‚пїЅпїЅB<LI><A HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">пїЅДЌпїЅпїЅМѓlпїЅbпїЅgпїЅпїЅпїЅ[пїЅUпїЅ[пїЅпїЅпїЅCпїЅЯ‹пїЅпїЅЕЌпїЅпїЅпїЅ1пїЅпїЅ1520пїЅпїЅпїЅl</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0111/15/b_1114_07.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>пїЅпїЅпїЅМ‚пїЅпїЅпїЅпїЅпїЅпїЅlпїЅпїЅпїЅпїЅпїЅИ‚пїЅпїЅB</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚ў‚Є‚Т‚е‚с‚Й‚В‚ў‚Д</A><BR>
+<address><A HREF="../memo/memoigapyon.html">пїЅпїЅпїЅпїЅпїЅТ‚пїЅпїЅЙ‚В‚пїЅпїЅпїЅ</A><BR>
 Last modified: $Date: 2010/09/27 20:42:45 $</address>
 </BODY>
 </HTML>

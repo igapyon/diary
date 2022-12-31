@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/02/21 “ú‹L: Ubuntu: USB ‚â PCI ‚È‚Ç‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶</TITLE>
-<meta name="DESCRIPTION" content="Ubuntu ‚Å‚Í USB ‚â PCI ‚ÉÚ‘±‚³‚ê‚Ä‚¢‚é‹@Ší‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶‚ª‚ ‚è‚Ü‚·BUbuntu 9.10 ‚Å’²‚×‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹ˆê——‚Ìulsv‚ð‘z‘œ‚³‚¹‚é ls* ‚Æ‚¢‚¤ˆê˜A‚ÌƒRƒ}ƒ“ƒh‚ª‚ ‚è‚Ü‚·B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B">
-<meta name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2010/02/21 ï¿½ï¿½ï¿½L: Ubuntu: USB ï¿½ï¿½ PCI ï¿½È‚Ç‚Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu ï¿½Å‚ï¿½ USB ï¿½ï¿½ PCI ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BUbuntu 9.10 ï¿½Å’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ê——ï¿½Ìulsï¿½vï¿½ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ls* ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<meta name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.1.0 for Windows">
 <meta name="DATE" content="2010-02-22T21:58:25+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/02/21 “ú‹L: Ubuntu: USB ‚â PCI ‚È‚Ç‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Ubuntu ‚Å‚Í USB ‚â PCI ‚ÉÚ‘±‚³‚ê‚Ä‚¢‚é‹@Ší‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶‚ª‚ ‚è‚Ü‚·BUbuntu 9.10 ‚Å’²‚×‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹ˆê——‚Ìulsv‚ð‘z‘œ‚³‚¹‚é ls* ‚Æ‚¢‚¤ˆê˜A‚ÌƒRƒ}ƒ“ƒh‚ª‚ ‚è‚Ü‚·B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+    <H2>2010/02/21 ï¿½ï¿½ï¿½L: Ubuntu: USB ï¿½ï¿½ PCI ï¿½È‚Ç‚Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Ubuntu ï¿½Å‚ï¿½ USB ï¿½ï¿½ PCI ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BUbuntu 9.10 ï¿½Å’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ê——ï¿½Ìulsï¿½vï¿½ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ls* ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp ‚ð“Œ‹ž‚ÅŠJÃ! ŽcÈ‚í‚¸‚©B\žŠúŒÀ‚àŠÔ‹ßBŽQ‰ÁŠó–]ŽÒ‚Í¡‚·‚®\‚µž‚Ý‚ð!
+        Eclipse DemoCamp ï¿½ð“Œ‹ï¿½ï¿½ÅŠJï¿½ï¿½! ï¿½cï¿½È‚í‚¸ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‹ßBï¿½Qï¿½ï¿½ï¿½ï¿½]ï¿½Ò‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,89 +61,89 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: USB ‚â PCI ‚È‚Ç‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: USB ï¿½ï¿½ PCI ï¿½È‚Ç‚Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> ‚Å‚Í USB ‚â PCI ‚ÉÚ‘±‚³‚ê‚Ä‚¢‚é‹@Ší‚Ìˆê——‚ðŽæ“¾‚·‚éŽô•¶‚ª‚ ‚è‚Ü‚·BUbuntu 9.10
-‚Å’²‚×‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹ˆê——‚Ìulsv‚ð‘z‘œ‚³‚¹‚é ls* ‚Æ‚¢‚¤ˆê˜A‚ÌƒRƒ}ƒ“ƒh‚ª‚ ‚è‚Ü‚·B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B<br>
-¦Ubuntu ˆÈŠO‚ÌƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Å‚±‚ê‚ª—˜—p‰Â”\‚©‚Ç‚¤‚©Ž„‚É‚Í•s–¾B</p>
+<p><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> ï¿½Å‚ï¿½ USB ï¿½ï¿½ PCI ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BUbuntu 9.10
+ï¿½Å’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ê——ï¿½Ìulsï¿½vï¿½ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ls* ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½Ubuntu ï¿½ÈŠOï¿½Ìƒfï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½pï¿½Â”\ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Í•sï¿½ï¿½ï¿½B</p>
 <blockquote>
 <table border="1">
   <tbody>
     <tr>
-      <td bgcolor="#ffff00" align="center"><strong>ƒRƒ}ƒ“ƒh</strong></td>
-      <td bgcolor="#ffff00" align="center"><strong>“à—e</strong></td>
+      <td bgcolor="#ffff00" align="center"><strong>ï¿½Rï¿½}ï¿½ï¿½ï¿½h</strong></td>
+      <td bgcolor="#ffff00" align="center"><strong>ï¿½ï¿½ï¿½e</strong></td>
     </tr>
     <tr>
       <td>lspci</td>
-      <td>PCI Ú‘±‹@Ší‚Ìˆê——‚ðŽæ“¾</td>
+      <td>PCI ï¿½Ú‘ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
     <tr>
       <td>lsusb</td>
-      <td>USB Ú‘±‹@Ší‚Ìˆê——‚ðŽæ“¾</td>
+      <td>USB ï¿½Ú‘ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
     <tr>
       <td>lsscci&nbsp;</td>
-      <td>SCSI Ú‘±‹@Ší‚Ìˆê——‚ðŽæ“¾&nbsp;</td>
+      <td>SCSI ï¿½Ú‘ï¿½ï¿½@ï¿½ï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾&nbsp;</td>
     </tr>
     <tr>
       <td>lsmod</td>
-      <td>ƒ‚ƒWƒ…[ƒ‹ˆê——‚ðŽæ“¾</td>
+      <td>ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ê——ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
     <tr>
       <td>lshw&nbsp;</td>
-      <td>ƒn[ƒhƒEƒFƒAî•ñ‚ðŽæ“¾</td>
+      <td>ï¿½nï¿½[ï¿½hï¿½Eï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
     <tr>
       <td>lshal</td>
-      <td>ƒOƒ[ƒoƒ‹EƒfƒoƒCƒXEƒŠƒXƒg‚Ìˆê——‚ðŽæ“¾</td>
+      <td>ï¿½Oï¿½ï¿½ï¿½[ï¿½oï¿½ï¿½ï¿½Eï¿½fï¿½oï¿½Cï¿½Xï¿½Eï¿½ï¿½ï¿½Xï¿½gï¿½Ìˆê——ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
     <tr>
       <td>lsdev</td>
-      <td>ƒn[ƒhƒEƒFƒAƒŒƒxƒ‹‚ÌƒfƒoƒCƒXî•ñ‚ðŽæ“¾</td>
+      <td>ï¿½nï¿½[ï¿½hï¿½Eï¿½Fï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ìƒfï¿½oï¿½Cï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½æ“¾</td>
     </tr>
   </tbody>
 </table>
 </blockquote>
-<p>Ubuntu ‚ð­‚µ‚¸‚Â•×‹­’†B</p>
-<p>‚±‚ê‚çƒRƒ}ƒ“ƒh‚Æ—Ç‚­•¹—p‚·‚é‚Ì‚ªˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å‚·B</p>
+<p>Ubuntu ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â•×‹ï¿½ï¿½ï¿½ï¿½B</p>
+<p>ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½Æ—Ç‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½È‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½Å‚ï¿½ï¿½B</p>
 <ul>
-  <li>dmesg : ƒfƒoƒbƒOEƒƒbƒZ[ƒW‚ð•\Ž¦B
-  <li>ifconfig : ƒlƒbƒgƒ[ƒNEƒCƒ“ƒ^ƒtƒF[ƒX‚Ìî•ñ‚ð•\Ž¦
+  <li>dmesg : ï¿½fï¿½oï¿½bï¿½Oï¿½Eï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½\ï¿½ï¿½ï¿½B
+  <li>ifconfig : ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Eï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½Ìï¿½ï¿½ï¿½\ï¿½ï¿½
 </ul>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðŠÈ’PƒCƒ“ƒXƒg[ƒ‹Bsudo apt-get install &lt;ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼&gt;</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Bsudo apt-get install &lt;ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&gt;</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>Å‰‚É su - root ‚ªŽg‚¦‚È‚­‚Ä ‚¿‚å‚Á‚Æ‚Â‚Ü‚Ã‚«‚Ü‚µ‚½BƒCƒ}ƒhƒL‚Í root ‚ÍƒIƒt‚É‚È‚Á‚Ä‚¢‚Ä sudo ‚·‚é–Í—lB(Ubuntu
-‚Å Linux ‚ðƒŠƒnƒrƒŠ’†)</p>
-<p>ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚éŠî–{Žô•¶‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B‘O‚É Linux ‚ðŽg‚Á‚Ä‚¢‚½‚Æ‚«‚Í Vine ‚¾‚Á‚½‚Ì‚Å (‚¢‚âA‚½‚Ô‚ñ
-Vine ‚¾‚Á‚½‚æ‚¤‚ÈcB‚Æ‚¢‚¤‚©AŽg‚Á‚Ä‚¢‚½‚Æ‚¢‚¤‚Ù‚ÇˆÈ‘O‚ÍŽg‚Á‚Ä‚¢‚Ü‚¹‚ñ‚Å‚µ‚½B‚ ‚ ARed Hat ‚¾‚Á‚½‚æ‚¤‚È‹L‰¯‚àc)A<br>
-‚Ü‚¸Å‰‚É Debian Œn‚ÌŽô•¶‚É‚È‚ê‚é•K—v‚ª‚ ‚è‚Ü‚·B</p>
+<p>ï¿½Åï¿½ï¿½ï¿½ su - root ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Â‚Ü‚Ã‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½ root ï¿½ÍƒIï¿½tï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ sudo ï¿½ï¿½ï¿½ï¿½Í—lï¿½B(Ubuntu
+ï¿½ï¿½ Linux ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½rï¿½ï¿½ï¿½ï¿½)</p>
+<p>ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ÍˆÈ‰ï¿½ï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½Oï¿½ï¿½ Linux ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ Vine ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ (ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ô‚ï¿½
+Vine ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Ècï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ù‚ÇˆÈ‘Oï¿½ÍŽgï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ARed Hat ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½ï¿½c)ï¿½A<br>
+ï¿½Ü‚ï¿½ï¿½Åï¿½ï¿½ï¿½ Debian ï¿½nï¿½ÌŽï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <ul>
-  <li>sudo apt-get install &lt;ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼&gt;
+  <li>sudo apt-get install &lt;ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&gt;
 </ul>
-<p>‚±‚ÌƒRƒ}ƒ“ƒhˆê”­‚ÅƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚é‚Ì‚ª¦‚¢‚Å‚·B‚Æ‚è‚ ‚¦‚¸ git ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚Ý‚½‚Ì‚Å‚·‚ªAugitv‚Æugit-corev‚Æ‚ðƒRƒ}ƒ“ƒh
-2 ‰‚ÅƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚µ‚½B‚¨‚¨A‚·‚²‚¢•Ö—˜‚Å‚·!</p>
+<p>ï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ê”­ï¿½ÅƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ git ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ugitï¿½vï¿½Æugit-coreï¿½vï¿½Æ‚ï¿½ï¿½Rï¿½}ï¿½ï¿½ï¿½h
+2 ï¿½ï¿½ï¿½ÅƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö—ï¿½ï¿½Å‚ï¿½!</p>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: –³ü LAN Ú‘±‚Å–ãâ</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ubuntu: ï¿½ï¿½ï¿½ï¿½ LAN ï¿½Ú‘ï¿½ï¿½Å–ï¿½ï¿½</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>–ãâ‚µ‚½“^––‚ðƒƒ‚‚µ‚Ä‚¢‚Ü‚µ‚½‚ªA‚±‚ê‚Í—‚“ú‚Ì“ú‹L‚ÖˆÚ“®‚µ‚Ü‚µ‚½B</p>
+<p>ï¿½ï¿½â‚µï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Í—ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ÖˆÚ“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</p>
 <ul>
-  <li><a href="ig100222.html">2010/02/22 “ú‹L: Ubuntu: BUFFALO USB—p –³üŽq‹@ (WLI-UC-G301N) ‚ð Ubuntu 9.10 (i386)
-  ‚ÅŽg‚¤</a>
+  <li><a href="ig100222.html">2010/02/22 ï¿½ï¿½ï¿½L: Ubuntu: BUFFALO USBï¿½p ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½@ (WLI-UC-G301N) ï¿½ï¿½ Ubuntu 9.10 (i386)
+  ï¿½ÅŽgï¿½ï¿½</a>
 </ul>
 
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/02/22 21:58:25 $</address>
 </BODY>
 </HTML>

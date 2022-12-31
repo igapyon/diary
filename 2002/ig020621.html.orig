@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/06/21 “ú‹L: ¡“ú’†‚É3Í‹LŽ–Ž·•MI—¹ , J2SE 1.4.1ƒÀƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="‚Ò‚ñ‚¿‚Å‚·B‚ª‚ñ‚Î‚Á‚Ä‚¢‚Ü‚·B , Java2 SDK, Standard Edition 1.4.1ƒÀƒŠƒŠ[ƒX‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2002/06/21 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½Í‹Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Iï¿½ï¿½ , J2SE 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="ï¿½Ò‚ñ‚¿‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B , Java2 SDK, Standard Edition 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/06/21 “ú‹L: ¡“ú’†‚É3Í‹LŽ–Ž·•MI—¹ , J2SE 1.4.1ƒÀƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ‚Ò‚ñ‚¿‚Å‚·B‚ª‚ñ‚Î‚Á‚Ä‚¢‚Ü‚·B , Java2 SDK, Standard Edition 1.4.1ƒÀƒŠƒŠ[ƒX‚Å‚·B</P>
+    <H2>2002/06/21 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½Í‹Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Iï¿½ï¿½ , J2SE 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½Ò‚ñ‚¿‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B , Java2 SDK, Standard Edition 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,63 +59,63 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¡“ú’†‚É3ÍI—¹c‚­ ‹ê‚µ‚¢‚È‚  (‹êÎ)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ÍIï¿½ï¿½ï¿½cï¿½ï¿½ ï¿½ê‚µï¿½ï¿½ï¿½È‚ï¿½ (ï¿½ï¿½ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡“ú’†‚É3Í‚ÌŽ·•M‚ªI—¹‚µ‚È‚­‚Ä‚ÍAAAð“ú‚Ìo’£‚ª—]•ª‚¾‚Á‚½‚È‚  (‹êÎ)</P>
-<P><FONT color="#ff0000">14:44</FONT> ‚Æ‚è‚ ‚¦‚¸ ¡‰ñ‘‚¢‚½3Í‚ð‘S‚Äˆóü‚µ‚Ä‚Ý‚éB‚Æ‚Ä‚à‘½—Ê‚ÌŽ†‚ªo‚Ä‚­‚éBŽ†‚ð‚¢‚­‚ç‹‹Ž†‚µ‚Ä‚à
-‚Ç‚ñ‚Ç‚ñŽ†Ø‚êcB<BR>
-‚±‚ê‚Í ¡“ú’†‚ÉŒ´e‘—•t‚Í ‚Ç‚¤l‚¦‚Ä‚àƒ_ƒ‚Á‚Û‚¢‚Ì‚ÅA•ÒW‚³‚Ü‚É“d˜b‚µ‚Ä
-’÷Ø‚ð–¾“ú‚Ü‚Å‰„‚Î‚µ‚Ä‚à‚ç‚¢‚Ü‚µ‚½B(Šù‚ÉL‚Î‚µ‚Ä–á‚¤‚Ì‚ªíK‰»‚µ‚Ä‚¢‚é‚È‚Ÿ)</P>
-<P><FONT color="#ff0000">17:50</FONT> ‚º‚ñ‚º‚ñI‚í‚è‚»‚¤‚É‚È‚¢B–¾“úŠæ’£‚é ‚Æ‚¢‚¤‚±‚Æ‚ÅcB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½Í‚ÌŽï¿½ï¿½Mï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ÍAï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½Ìoï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">14:44</FONT> ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ñ‘‚ï¿½ï¿½ï¿½3ï¿½Í‚ï¿½Sï¿½Äˆï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½Bï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½Ê‚ÌŽï¿½ï¿½ï¿½ï¿½oï¿½Ä‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‹‹ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½
+ï¿½Ç‚ï¿½Ç‚ñŽ†Ø‚ï¿½cï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŒï¿½ï¿½eï¿½ï¿½ï¿½tï¿½ï¿½ ï¿½Ç‚ï¿½ï¿½lï¿½ï¿½ï¿½Ä‚ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Ì‚ÅAï¿½ÒWï¿½ï¿½ï¿½Ü‚É“dï¿½bï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ø‚ð–¾“ï¿½ï¿½Ü‚Å‰ï¿½ï¿½Î‚ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ÉLï¿½Î‚ï¿½ï¿½Ä–á‚¤ï¿½Ì‚ï¿½ï¿½ï¿½Kï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½È‚ï¿½)</P>
+<P><FONT color="#ff0000">17:50</FONT> ï¿½ï¿½ï¿½ñ‚º‚ï¿½Iï¿½ï¿½è‚»ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½æ’£ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Åcï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java2 SDK, Standard Edition v1.4.1 Beta ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java2 SDK, Standard Edition v1.4.1 Beta ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚³‚ÄA1.4.1‚Í1.4.0_01‚Æ‰½‚ªˆá‚¤‚Ì‚Å‚µ‚å‚¤‚©B‹»–¡’ÃXB<BR>
-‚à‚µ 1.4.1‚ÉŠÖ‚·‚éî•ñ‚ð‚¨Ž‚¿‚Ì•û‚Í ‚º‚Ð ‚¨Šñ‚¹‰º‚³‚¢‚Ü‚¹B</P>
-<P><FONT color="#ff0000">2002.06.22</FONT> “ÇŽÒ‚Ì•û‚©‚çƒcƒbƒRƒ~<BR>
-<CITE>Subject: [igapyon:00988] JDK1.4.1 ƒÀî•ñ<BR>
-‚Í‚¶‚ß‚Ü‚µ‚ÄA<A href="http://xion.s11.xrea.com">ˆ°“c</A>‚Æ\‚µ‚Ü‚·B</CITE></P>
+<P>ï¿½ï¿½ï¿½ÄA1.4.1ï¿½ï¿½1.4.0_01ï¿½Æ‰ï¿½ï¿½ï¿½ï¿½á‚¤ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÃXï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ 1.4.1ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ñ‚¹‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2002.06.22</FONT> ï¿½ÇŽÒ‚Ì•ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½bï¿½Rï¿½~<BR>
+<CITE>Subject: [igapyon:00988] JDK1.4.1 ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
+ï¿½Í‚ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ÄA<A href="http://xion.s11.xrea.com">ï¿½ï¿½ï¿½c</A>ï¿½Æ\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
 <UL>
   <LI><CITE><A HREF="http://java.sun.com/j2se/1.4.1/docs/index.html">http://java.sun.com/j2se/1.4.1/docs/index.html</A></CITE>
 </UL>
-<P><CITE>‚ÅJDK1.4.1ƒÀ‚Ì‰p•¶ƒhƒLƒ…ƒƒ“ƒg( ‚Æ‚±‚ë‚Ç‚±‚ë“ú–{Œê–ó‚ ‚è)‚ªŒöŠJ‚³‚ê‚Ä‚¢‚Ü‚·B<BR>
+<P><CITE>ï¿½ï¿½JDK1.4.1ï¿½ï¿½ï¿½Ì‰pï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½g( ï¿½Æ‚ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ó‚ ‚ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 +--------------------------<BR>
 <A href="http://xion.s11.xrea.com">Yasumasa Ashida</A></CITE></P>
-<P><STRONG><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT></STRONG><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-Œ©‚Ü‚µ‚½I‚·‚Á‚²‚­‘òŽR‚ÌC³‚â‚ç‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·‚ËBd—v‚ÈƒŠƒŠ[ƒX‚Å‚ ‚é‚Æ‚¢‚¤‚Ì‚ª‚æ‚­•ª‚©‚è‚Ü‚µ‚½B(‚±‚ê‚¾‚¯•Ï‚í‚é‚Ì‚È‚ç
-1.5‚Å‚à—Ç‚¢‚Æ‚àŽv‚¦‚é‚­‚ç‚¢‚Å‚·)<BR>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ÌCï¿½ï¿½ï¿½ï¿½ç‚ªï¿½Ü‚Ü‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ËBï¿½dï¿½vï¿½Èƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½æ‚­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ê‚¾ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½Ì‚È‚ï¿½
+1.5ï¿½Å‚ï¿½ï¿½Ç‚ï¿½ï¿½Æ‚ï¿½ï¿½vï¿½ï¿½ï¿½é‚­ï¿½ç‚¢ï¿½Å‚ï¿½)<BR>
 <BR>
-ŒÂl“I‚É‹»–¡‚ª‚ ‚é‚Ì‚Í</P>
+ï¿½Âlï¿½Iï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½</P>
 <UL>
-  <LI>ƒGƒ“ƒR[ƒfƒBƒ“ƒO–¼Ì‚Æ‚µ‚ÄAMS932‚ÌƒGƒCƒŠƒAƒX‚Æ‚µ‚ÄAshift_jis, ms_kanji,
-  x-sjis ‚ª—pˆÓ‚³‚ê‚é“_BSJIS‚ªŽæ‚èŽc‚³‚ê‚Ä‚Ð‚Æ‚è‚Ú‚Á‚¿‚Å‚©‚í‚¢‚»‚¤ (‹êÎ)
-  Windows‘S·‚¾‚©‚çA‚±‚ê‚Å—Ç‚¢‚Ì‚¾‚ë‚¤‚©B
-  <LI>ƒRƒ“ƒpƒCƒ‰‚ÌƒoƒOƒtƒBƒbƒNƒX‘½”‚É‚à’–Ú‚µ‚Ä‚Ü‚·BJDK‚Á‚Ä ‚ß‚Á‚½‚ÉƒRƒ“ƒpƒCƒ‰‚É‚ÍŽè‚ª“ü‚ç‚È‚¢‚Ì‚ÅA¡‰ñ‚Ì•ÏX‚Í
-  ’–Ú‚·‚é‰¿’l‚ª‚ ‚é‚ÆŽv‚¢‚Ü‚·B(Œ‹‰Ê“I‚É¶¬‚³‚ê‚éƒoƒCƒgƒR[ƒh‚ª•Ï‚í‚é ‚Æ‚¢‚¤‰Â”\«‚à‚ ‚è‚Ü‚·‚Ì‚Å)
-  <LI>Java Web Start 1.2 ‚Ìƒo[ƒWƒ‡ƒ“ƒAƒbƒv(•ÏX“_)‚à‹C‚ª‚©‚è‚Å‚·B
+  <LI>ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ÄAMS932ï¿½ÌƒGï¿½Cï¿½ï¿½ï¿½Aï¿½Xï¿½Æ‚ï¿½ï¿½ÄAshift_jis, ms_kanji,
+  x-sjis ï¿½ï¿½ï¿½pï¿½Ó‚ï¿½ï¿½ï¿½ï¿½_ï¿½BSJISï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½Ä‚Ð‚Æ‚ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½í‚¢ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)
+  Windowsï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Å—Ç‚ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¤ï¿½ï¿½ï¿½B
+  <LI>ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½Ìƒoï¿½Oï¿½tï¿½Bï¿½bï¿½Nï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½BJDKï¿½ï¿½ï¿½ï¿½ ï¿½ß‚ï¿½ï¿½ï¿½ï¿½ÉƒRï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½É‚ÍŽè‚ªï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½Ì•ÏXï¿½ï¿½
+  ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½é‰¿ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½Ê“Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ï¿½)
+  <LI>Java Web Start 1.2 ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½v(ï¿½ÏXï¿½_)ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff0000">2002.06.25 ’Ç‹L</FONT> <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing–{‚Ì’˜ŽÒ‚Å—L–¼‚È‘å‘º‚³‚ñ">‘å‘º’‰Žj</A>‚³‚ñ‚©‚ç6/21‚Éƒ[ƒ‹‚ª—ˆ‚Ä‚¢‚Ü‚µ‚½B<BR>
-<CITE>Œ–¼ F ‚i‚c‚j 1.4.1 beta<BR>
-ˆÉ‰ê—lA‚¢‚Â‚à‚¨¢˜b‚É‚È‚Á‚Ä‚¢‚Ü‚·B<BR>
-‚i‚c‚j 1.4.1 beta ‚ª–{“ú ŒöŠJ‚³‚ê‚Ü‚µ‚½B<BR>
-Windows 64 ƒrƒbƒg (Itanium), Linux 64 ƒrƒbƒg (Itanium)‚ÌƒTƒ|[ƒg‚àŽn‚Ü‚è‚Ü‚µ‚½</CITE></P>
+<P><FONT color="#ff0000">2002.06.25 ï¿½Ç‹L</FONT> <A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swingï¿½{ï¿½Ì’ï¿½ï¿½Ò‚Å—Lï¿½ï¿½ï¿½È‘å‘ºï¿½ï¿½ï¿½ï¿½">ï¿½å‘ºï¿½ï¿½ï¿½j</A>ï¿½ï¿½ï¿½ñ‚©‚ï¿½6/21ï¿½Éƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+<CITE>ï¿½ï¿½ï¿½ï¿½ ï¿½F ï¿½iï¿½cï¿½j 1.4.1 beta<BR>
+ï¿½É‰ï¿½lï¿½Aï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½iï¿½cï¿½j 1.4.1 beta ï¿½ï¿½ï¿½{ï¿½ï¿½ ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+Windows 64 ï¿½rï¿½bï¿½g (Itanium), Linux 64 ï¿½rï¿½bï¿½g (Itanium)ï¿½ÌƒTï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½ï¿½</CITE></P>
 <UL>
   <LI><CITE><A HREF="http://java.sun.com/j2se/1.4.1/ja/download.html">http://java.sun.com/j2se/1.4.1/ja/download.html</A></CITE>
 </UL>
 <P><CITE>--<BR>
-Tadashi Ohmura@<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swing–{‚Ì’˜ŽÒ‚Å—L–¼‚È‘å‘º‚³‚ñ">‘å‘º’‰Žj</A></CITE></P>
+Tadashi Ohmuraï¿½@<A HREF="http://www.cutt.co.jp/book/4-87783-052-9.html" TITLE="Swingï¿½{ï¿½Ì’ï¿½ï¿½Ò‚Å—Lï¿½ï¿½ï¿½È‘å‘ºï¿½ï¿½ï¿½ï¿½">ï¿½å‘ºï¿½ï¿½ï¿½j</A></CITE></P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020621.src.html' , result='ig020621.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig020621-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://java.sun.com/j2se/1.4.1/ja/">Java2 SDK Standard Edition 1.4.1 BetaƒŠƒŠ[ƒX</A> <FONT size="-2"><A target="_blank" HREF="http://java.sun.com/j2se/1.4.1/ja/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚³‚ÄA1.4.1‚Í‰½‚ªˆá‚¤‚Ì‚Å‚µ‚å‚¤‚©B‹»–¡’ÃXB1.4.1‚ÉŠÖ‚·‚éî•ñ‚ð‚¨Ž‚¿‚Ì•û‚Í‚¨Šñ‚¹‰º‚³‚¢‚Ü‚¹B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0206/20/02062002.html">ƒTƒ“AƒAƒvƒŠƒT[ƒo‚Ì–³ž’ñ‹Ÿ‚Å.Net‚É‘ÎR</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0206/20/02062002.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚±‚Ì–³ž’ñ‹Ÿ‚Æ‚¢‚¤ŽŽ‚Ý‚ª‚Ç‚Ì‚æ‚¤‚ÈŒø‰Ê‚ðo‚·‚Ì‚©A‚¢‚Ü‚¢‚¿—‰ð•s”\B<LI><A HREF="http://www.zdnet.co.jp/news/0206/20/njbt_10.html">ƒm[ƒgPCEŒg‘Ñ‚Ì•´Ž¸‚É‚æ‚éî•ñ˜R‰k‚É’á‚¢Šë‹@ˆÓŽ¯@ƒK[ƒgƒi[’²¸</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/20/njbt_10.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚»‚Ì‚Æ‚¨‚è‚Å‚·BŽ„‚à Palm‚ð•´Ž¸‚µ‚©‚©‚Á‚½‚±‚Æ‚ª‚ ‚èA‚Æ‚Á‚Ä‚à”½È‚µ‚Ä‚¢‚Ü‚·BŒg‘Ñ’[––EŒg‘Ñ“d˜b‚¾‚Á‚Ä ‚Æ‚©‚­î•ñ–žÚ‚ÈIT‹@Ší‚Ì•´Ž¸‚É‚Í—v’ˆÓ‚Å‚·‚ËB<LI><A HREF="http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/">‘æ15‰ñF‹Ù‹}ŒxII@¡‚·‚®–³üLAN‚ÌƒZƒLƒ…ƒŠƒeƒB‚ðÝ’è‚¹‚æ</A> <FONT size="-2"><A target="_blank" HREF="http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>–³üLAN‚Á‚ÄƒZƒLƒ…ƒŠƒeƒBÝ’è‚µ‚È‚¢‚Æ ƒZƒLƒ…ƒŠƒeƒB–³‚µ‚È‚ñ‚Å‚·‚ËB‹°‚ê“ü‚è‚Ü‚µ‚½B</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig020621-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://java.sun.com/j2se/1.4.1/ja/">Java2 SDK Standard Edition 1.4.1 Betaï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A> <FONT size="-2"><A target="_blank" HREF="http://java.sun.com/j2se/1.4.1/ja/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ÄA1.4.1ï¿½Í‰ï¿½ï¿½ï¿½ï¿½á‚¤ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÃXï¿½B1.4.1ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Í‚ï¿½ï¿½ñ‚¹‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0206/20/02062002.html">ï¿½Tï¿½ï¿½ï¿½Aï¿½Aï¿½vï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½Ì–ï¿½ï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½.Netï¿½É‘ÎR</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0206/20/02062002.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½ï¿½ñ‹Ÿ‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ç‚Ì‚æ‚¤ï¿½ÈŒï¿½ï¿½Ê‚ï¿½ï¿½oï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½\ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0206/20/njbt_10.html">ï¿½mï¿½[ï¿½gPCï¿½Eï¿½gï¿½Ñ‚Ì•ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Rï¿½kï¿½É’á‚¢ï¿½ï¿½@ï¿½ÓŽï¿½ï¿½@ï¿½Kï¿½[ï¿½gï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/20/njbt_10.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ Palmï¿½ð•´Žï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½gï¿½Ñ’[ï¿½ï¿½ï¿½Eï¿½gï¿½Ñ“dï¿½bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ñ–žÚ‚ï¿½ITï¿½@ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½É‚Í—vï¿½ï¿½ï¿½Ó‚Å‚ï¿½ï¿½ËB<LI><A HREF="http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/">ï¿½ï¿½15ï¿½ï¿½Fï¿½Ù‹}ï¿½xï¿½ï¿½ï¿½Iï¿½Iï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½LANï¿½ÌƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½Ý’è‚¹ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.watch.impress.co.jp/broadband/column/shimizu/2002/06/11/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ï¿½LANï¿½ï¿½ï¿½ÄƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½Ý’è‚µï¿½È‚ï¿½ï¿½ï¿½ ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

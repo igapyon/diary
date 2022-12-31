@@ -11,7 +11,7 @@ Eclipse(エクリプス)のメモです。
 下記のページに移動しました。
 
 * Eclipse キーワード
-  [Eclipse](http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html)
+  [Eclipse](https://www.igapyon.jp/igapyon/diary/keyword/eclipse.html)
 
 ## 更新情報
 

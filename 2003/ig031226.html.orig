@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2003/12/26 “ú‹L: IBMƒz[ƒ€ƒy[ƒWEƒrƒ‹ƒ_[8w“ü , Log4J‚ª Apache Logging
-Services‚Ö‚Æ¸‰Ø</TITLE>
-<META name="DESCRIPTION" content="ŽdŽ–”[‚ßƒ‰ƒbƒVƒ…‚Å‚·B¡“ú(“Œ‹ž)A–¾“ú(‘åã)‚ÆŽdŽ–”[‚ß‰ï‚Éo‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2003/12/26 ï¿½ï¿½ï¿½L: IBMï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½Eï¿½rï¿½ï¿½ï¿½_ï¿½[8ï¿½wï¿½ï¿½ , Log4Jï¿½ï¿½ Apache Logging
+Servicesï¿½Ö‚Æï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½dï¿½ï¿½ï¿½[ï¿½ßƒï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½)ï¿½ÆŽdï¿½ï¿½ï¿½[ï¿½ß‰ï¿½Éoï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:47+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,13 +16,13 @@ Services‚Ö‚Æ¸‰Ø</TITLE>
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2003/12/26 “ú‹L: IBMƒz[ƒ€ƒy[ƒWEƒrƒ‹ƒ_[8w“ü , Log4J‚ª Apache Logging
-Services‚Ö‚Æ¸‰Ø</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ŽdŽ–”[‚ßƒ‰ƒbƒVƒ…‚Å‚·B¡“ú(“Œ‹ž)A–¾“ú(‘åã)‚ÆŽdŽ–”[‚ß‰ï‚Éo‚Ü‚·B</P>
+    <H2>2003/12/26 ï¿½ï¿½ï¿½L: IBMï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½Eï¿½rï¿½ï¿½ï¿½_ï¿½[8ï¿½wï¿½ï¿½ , Log4Jï¿½ï¿½ Apache Logging
+Servicesï¿½Ö‚Æï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½dï¿½ï¿½ï¿½[ï¿½ßƒï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½)ï¿½ÆŽdï¿½ï¿½ï¿½[ï¿½ß‰ï¿½Éoï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -32,8 +32,8 @@ Services‚Ö‚Æ¸‰Ø</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -50,7 +50,7 @@ Services‚Ö‚Æ¸‰Ø</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,61 +61,61 @@ Services‚Ö‚Æ¸‰Ø</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ŽdŽ–”[‚ßƒ‰ƒbƒVƒ…</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½dï¿½ï¿½ï¿½[ï¿½ßƒï¿½ï¿½bï¿½Vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡“ú‚Í“Œ‹ž‚ÅA–¾“ú‚Í‘åã‚ÅŽdŽ–”[‚ß‚Éo‚Ü‚·B–¾“ú‚ÌŒß‘O’†‘åã‚ÉˆÚ“®‚·‚é—\’è‚Å‚·B<BR>
-–¾“ú‚Í“y—j“ú‚¾‚¯‚ê‚Ç ‚½‚Ü‚½‚Ü ƒJƒŒƒ“ƒ_[ã‚Ìo‹Î“ú‚È‚Ì‚Å‚·B(–¾“ú‚ªo‹Î“ú‚Á‚Ä‚¢‚¤‚Ì‚Í»‘¢‹ÆŒn‚É‘½‚¢ƒpƒ^[ƒ“‚Å‚·‚Ë‚Á)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Í“ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½Í‘ï¿½ï¿½ÅŽdï¿½ï¿½ï¿½[ï¿½ß‚Éoï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÌŒß‘Oï¿½ï¿½ï¿½ï¿½ï¿½ÉˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Í“yï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½[ï¿½ï¿½Ìoï¿½Î“ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Î“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Íï¿½ï¿½ï¿½ï¿½ÆŒnï¿½É‘ï¿½ï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ë‚ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBMƒz[ƒ€ƒy[ƒWEƒrƒ‹ƒ_[8‚ð”ƒ‚Á‚Ä‚«‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>IBMï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½Eï¿½rï¿½ï¿½ï¿½_ï¿½[8ï¿½ð”ƒ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>—LŠy’¬‚ÌƒrƒbƒNƒJƒƒ‰‚É‚Ä IBMƒz[ƒ€ƒy[ƒWEƒrƒ‹ƒ_[8 ƒo[ƒWƒ‡ƒ“ƒAƒbƒv”Å‚ð”ƒ‚Á‚Ä‚«‚Ü‚µ‚½B–¾“ú
-‘åã‚É–ß‚Á‚Ä‚©‚çƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B‚³‚Ä ‚±‚ê‚ª‚Í‚¸‚Ý‚É‚È‚Á‚Ä‹LŽ–Ž·•M‚ªi‚ÞA‚Ì‚©‚Ç‚¤‚©‚Í
-Œã‚Å‚í‚©‚éŽ–‚Å‚µ‚å‚¤B<BR>
-‚·‚Á‚²‚­‹C‚É‚È‚Á‚½‚Ì‚Å‚·‚ªA‚È‚ñ‚Æ ”Ì”„Œ³‚Í ƒ\[ƒXƒlƒNƒXƒg ‚É‚È‚Á‚Ä‚¢‚é“_‚Å‚·B‚©‚È‚è‹C‚É‚È‚è‚Ü‚·B‚È‚ñ‚¾‚©‚¢‚â‚¾‚È‚ŸcB</P>
-<P>cŽèŒ³‚Ìƒm[ƒgƒpƒ\ƒRƒ“‚É‚Í CD-ROM‚ð“Ç‚Ý‚Æ‚é‘•’u‚ª•t‚¢‚Ä‚¢‚È‚¢‚Ì‚Å‚µ‚½B‚¿‚á‚ñ‚¿‚á‚ñB</P>
+<P>ï¿½Lï¿½yï¿½ï¿½ï¿½Ìƒrï¿½bï¿½Nï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ IBMï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½Eï¿½rï¿½ï¿½ï¿½_ï¿½[8 ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½Å‚ð”ƒ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½É–ß‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ê‚ªï¿½Í‚ï¿½ï¿½Ý‚É‚È‚ï¿½ï¿½Ä‹Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½iï¿½ÞAï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Å‚í‚©ï¿½éŽ–ï¿½Å‚ï¿½ï¿½å‚¤ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½ ï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½lï¿½Nï¿½Xï¿½g ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½È‚ï¿½Cï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½È‚ñ‚¾‚ï¿½ï¿½ï¿½ï¿½â‚¾ï¿½È‚ï¿½ï¿½cï¿½B</P>
+<P>ï¿½cï¿½èŒ³ï¿½Ìƒmï¿½[ï¿½gï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½É‚ï¿½ CD-ROMï¿½ï¿½Ç‚Ý‚Æ‚é‘•ï¿½uï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ñ‚¿‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Log4J‚ª Apache Logging Services‚Ö‚Æ¸‰Ø‚µ‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Log4Jï¿½ï¿½ Apache Logging Servicesï¿½Ö‚Æï¿½ï¿½Ø‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚ ‚¨‚Ì ‚³‚ñ‚ÌƒcƒbƒRƒ~<BR>
-Log4J‚ªApache Logging Services‚Ö‚Æi‰»‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~<BR>
+Log4Jï¿½ï¿½Apache Logging Servicesï¿½Ö‚Æiï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://logging.apache.org/">http://logging.apache.org/</A>
 </UL>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-Apache‚Ìw“ˆêŒ©‰ðx‚Æ‚µ‚Ä ‘½ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‘Î‰ž‚ÌƒƒMƒ“ƒOƒVƒXƒeƒ€‚ªo‚³‚ê‚é‚Ì‚ÍˆÓ‹`[‚¢‚Å‚·BC++,
-Java, .Net, Perl, PHP, PLSQL ‚ðª‚±‚»‚¬ƒTƒ|[ƒg‚µ‚æ‚¤‚Á‚Ä‚Ì‚ÍˆÓ—~“I‚¾‚È‚ŸB</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+Apacheï¿½Ìwï¿½ï¿½ï¿½êŒ©ï¿½ï¿½ï¿½xï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½Ìƒï¿½ï¿½Mï¿½ï¿½ï¿½Oï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÍˆÓ‹`ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BC++,
+Java, .Net, Perl, PHP, PLSQL ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ï¿½Ä‚Ì‚ÍˆÓ—~ï¿½Iï¿½ï¿½ï¿½È‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ŽdŽ–æ‚Å ‚Ð‚Á‚©‚©‚Á‚Ä‚Â‚Ü‚¸‚¢‚Ä“]‚Ô</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Â‚Ü‚ï¿½ï¿½ï¿½ï¿½Ä“]ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‰ï‹c‚ªŽn‚Ü‚é‘OAÈ‚©‚ç—§‚Æ‚¤‚Æ‚µ‚Ä Š÷‚Ì‹r‚É ‘«‚ð‚Ð‚Á‚©‚¯‚Ä“]‚Ñ‚Ü‚µ‚½B‚È‚ñ‚¾‚©
-‚·‚Ë‚ð Žv‚¢‚Á‚«‚è‚Ô‚Â‚¯‚Ü‚µ‚½B’É‚©‚Á‚½‚Å‚·BŠ÷‚Ì‹r‚Ì ”÷–­‚È‚­‚Ñ‚ê‚®‚ ‚¢A‚ ‚ê‚ªƒLƒPƒ“‚È‚Ì‚Å‚·B¡Œã‹C‚ð‚Â‚¯‚Ü‚·B</P>
+<P>ï¿½ï¿½cï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Oï¿½Aï¿½È‚ï¿½ï¿½ç—§ï¿½Æ‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì‹rï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä“]ï¿½Ñ‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ñ‚¾‚ï¿½
+ï¿½ï¿½ï¿½Ë‚ï¿½ ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‹rï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ñ‚ê‚®ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ªï¿½Lï¿½Pï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ŒÂl“I‚É‚¿‚å‚Á‚Æ‚µ‚½Ž–Œ‚ªc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Âlï¿½Iï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¿‚å‚Á‚Æ‚µ‚½Ž–Œ‚ª”­¶‚µ‚Ü‚µ‚½B‚Ü‚  ‘å¨‚É‚Í‰e‹¿‚È‚¢‚Ì‚Å‚·‚ªcB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ ï¿½å¨ï¿½É‚Í‰eï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½cï¿½B</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig031226.src.html' , result='ig031226.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig031226-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://yamaguch.sytes.net/~tora/diary/">‚Æ‚ç‚Ë‚±“¬•a‹L(‹x‹Æ’†)</A> <FONT size="-2"><A target="_blank" HREF="http://yamaguch.sytes.net/~tora/diary/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚Æ‚ç‚Ë‚±‚³‚ñ‚Í‘åä•v‚©‚µ‚ç‚ñc ‚¨‚¾‚¢‚¶‚ÉB<LI><A HREF="http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm">‘æ10‰ñ Linuxƒu[ƒ€‚Í–{•¨‚©H“ú–{HP‚É•·‚­ (––¼çq‚³‚ñ)</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚±‚Ì‹LŽ–‚ª ƒ^ƒCƒgƒ‹‚Æ‚Í— • ‚ÉAˆÓŠO‚É‚à“Ç‚Ý‰ž‚¦‚ª‚ ‚è‚Ü‚µ‚½B<LI><A HREF="http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm">uNTT‚Ì—¬‚ê‚ÍLinux‚ÉŒü‚¢‚Ä‚¢‚év---OSDL‚ÉŽQ‰Á‚·‚éNTTƒRƒ€ƒEƒFƒA‚Ì‘_‚¢</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚Ü‚ ‚ÁI ‚»‚¤‚È‚ñ‚Å‚·‚©‚ÁB‚Æ ‚Æ‚è‚ ‚¦‚¸‹Á‚¢‚Ä‚Ý‚éB‚Ü‚  ŽÀÛ‚Ì‚Æ‚±‚ë NTTƒf[ƒ^‚Á‚Ä‚Æ‚±‚ë‚ÅŒ©‚½‚ç ‚â‚Á‚Ï‚èLinux‚ÉŒü‚¢‚Ä‚¢‚é‚©‚µ‚ç‚ñB<LI><A HREF="http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm">•ÄƒNƒŠƒXƒ}ƒX¤í--”ƒ‚¢•¨‹q‚ÌƒlƒbƒgŽE“ž‚ÅŠeƒTƒCƒg‚ÌƒXƒs[ƒh‚ª’á‰º</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ƒlƒbƒg”Ì”„‚ª ‚«‚í‚ß‚Ä w‚Ó‚Â?x‚É‚È‚Á‚Ä‚«‚Ü‚µ‚½‚ËB¢‘Š‚É‹Á‚©‚³‚ê‚Ü‚·B<LI><A HREF="http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html">y“Á•ÊŠé‰æzƒIƒ“ƒ‰ƒCƒ“‚Å—·—\–ñIƒ}ƒCƒgƒŠƒbƒvEƒlƒbƒg‚ÌWebƒT[ƒrƒXw—·‚Ì‘‹Œûx</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚È‚ñ‚© WebƒT[ƒrƒX‚Á‚Ä SOAP‚Æ‚©‚Ì‚±‚Æ‚Å‚Í‚È‚­‚Á‚Ä ’P‚ÉwWebã‚Å“WŠJ‚·‚éƒT[ƒrƒXx‚Ì‚±‚Æ‚ðŒ¾‚Á‚Ä‚¢‚é‚Ì‚©‚µ‚ç‚ñB‚±‚Ì‹LŽ–‚Í“Ç‰ð•s”\‚Å‚µ‚½B(ŽÎ‚ß“Ç‚Ý‚µ‚½‚Ì‚Å’P‚É“Ç‚Ý”ò‚Î‚µ‚½‚¾‚¯‚©‚àc)<LI><A HREF="http://www.zdnet.co.jp/broadband/0312/22/lp06.html">ƒoƒCƒI‚ª‚È‚­‚Ä‚àuƒRƒN[ƒ“v‚©‚çDVD‚ªì‚ê‚é!H</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/broadband/0312/22/lp06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚»‚ñ‚È‚ÉDVD‰»‚Í‚µ‚Ü‚¹‚ñ‚ËB¶DVD‚àŒ‹\‚Šz‚Å‚·‚©‚çB<LI><A HREF="http://www.zdnet.co.jp/enterprise/0312/18/epn13.html">OpinionFˆ¤‚·‚ê‚Ç”ß‚µAVisual Basic‚Íßì‚è</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0312/18/epn13.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚È‚ñ‚©‚·‚²‚¢‹LŽ–‚¾‚È‚ŸB‚Å‚àŽÀÛ VB‚Íß‚Ã‚­‚è‚Å‚·‚æ‚ËB‚Ç‚Á‚Õ‚µVB‚Éƒnƒ}‚Á‚½l‚Á‚Ä ‚¯‚Á‚±‚¤‚¢‚Ü‚·‚©‚ç‚Ë‚¥B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/">‚»‚ñ‚È‚à‚ÌC¡‚Ç‚«H—tŒ´‚Å‚à”ƒ‚¦‚Ü‚¹‚ñ</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>NEC PC-9801‚ª ”ƒ‚¦‚È‚¢‚±‚Æ‚ÅAŽÀÛ‚É¢‚Á‚½•”–å‚ªg‹ß‚É‚ ‚è‚Ü‚µ‚½B<LI><A HREF="http://www.zdnet.co.jp/news/0312/25/njbt_03.html">BIGLOBE‚ªƒMƒƒƒ‹ƒQ[‚ðŠJ”­’†</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0312/25/njbt_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚Ù‚Ù‚¤BBIGLOBE‹°‚é‚×‚µB<LI><A HREF="http://www.zdnet.co.jp/news/0312/25/njbt_02.html">'03ã”¼ŠúPDAo‰×‚Í‘O”N”ä2Š„Œ¸@ŒÂlŒü‚¯‚Ì—Ž‚¿ž‚Ý‚ª[</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0312/25/njbt_02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>PDA‚É‚ÍŠæ’£‚Á‚Ä—~‚µ‚¢‚Å‚·BƒP[ƒ^ƒC‚Æ‚Ì·•Ê‰»‚ª ‚¾‚ñ‚¾‚ñ“ï‚µ‚­‚È‚Á‚Ä‚«‚Ä‚¢‚é‚©‚ç‚È‚Ÿc</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig031226-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://yamaguch.sytes.net/~tora/diary/">ï¿½Æ‚ï¿½Ë‚ï¿½ï¿½ï¿½ï¿½aï¿½L(ï¿½xï¿½Æ’ï¿½)</A> <FONT size="-2"><A target="_blank" HREF="http://yamaguch.sytes.net/~tora/diary/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½Æ‚ï¿½Ë‚ï¿½ï¿½ï¿½ï¿½ï¿½Í‘ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉB<LI><A HREF="http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm">ï¿½ï¿½10ï¿½ï¿½ Linuxï¿½uï¿½[ï¿½ï¿½ï¿½Í–{ï¿½ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½{HPï¿½É•ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½)</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/column/suematsu/story/0,2000048844,20063337,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½ ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Æ‚Í—ï¿½ï¿½ï¿½ï¿½ÉAï¿½ÓŠOï¿½É‚ï¿½ï¿½Ç‚Ý‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm">ï¿½uNTTï¿½Ì—ï¿½ï¿½ï¿½ï¿½Linuxï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½v---OSDLï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½ï¿½NTTï¿½Rï¿½ï¿½ï¿½Eï¿½Fï¿½Aï¿½Ì‘_ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/maker/story/0,2000047861,20063051,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½I ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½Bï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½Û‚Ì‚Æ‚ï¿½ï¿½ï¿½ NTTï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½Ä‚Æ‚ï¿½ï¿½ï¿½ÅŒï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½Linuxï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm">ï¿½ÄƒNï¿½ï¿½ï¿½Xï¿½}ï¿½Xï¿½ï¿½ï¿½ï¿½--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½Ìƒlï¿½bï¿½gï¿½Eï¿½ï¿½ï¿½ÅŠeï¿½Tï¿½Cï¿½gï¿½ÌƒXï¿½sï¿½[ï¿½hï¿½ï¿½ï¿½á‰º</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ebiz/story/0,2000047658,20063164,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½lï¿½bï¿½gï¿½Ì”ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ ï¿½wï¿½Ó‚ï¿½?ï¿½xï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ËBï¿½ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html">ï¿½yï¿½ï¿½ï¿½ÊŠï¿½ï¿½zï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Å—ï¿½ï¿½\ï¿½ï¿½Iï¿½}ï¿½Cï¿½gï¿½ï¿½ï¿½bï¿½vï¿½Eï¿½lï¿½bï¿½gï¿½ï¿½Webï¿½Tï¿½[ï¿½rï¿½Xï¿½wï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½x</A> <FONT size="-2"><A target="_blank" HREF="http://linux.ascii24.com/linux/news/today/2003/12/22/647512-000.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½È‚ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ï¿½ï¿½ SOAPï¿½Æ‚ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Pï¿½ÉwWebï¿½ï¿½Å“Wï¿½Jï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½rï¿½Xï¿½xï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½Í“Ç‰ï¿½sï¿½\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Î‚ß“Ç‚Ý‚ï¿½ï¿½ï¿½ï¿½Ì‚Å’Pï¿½É“Ç‚Ý”ï¿½Î‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c)<LI><A HREF="http://www.zdnet.co.jp/broadband/0312/22/lp06.html">ï¿½oï¿½Cï¿½Iï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½uï¿½Rï¿½Nï¿½[ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½DVDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!ï¿½H</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/broadband/0312/22/lp06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½ï¿½È‚ï¿½DVDï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ËBï¿½ï¿½DVDï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½zï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/enterprise/0312/18/epn13.html">Opinionï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç”ß‚ï¿½ï¿½AVisual Basicï¿½Íßï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/enterprise/0312/18/epn13.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½È‚ñ‚©‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ VBï¿½Íß‚Ã‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ËBï¿½Ç‚ï¿½ï¿½Õ‚ï¿½VBï¿½Éƒnï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ë‚ï¿½ï¿½B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/">ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ÌCï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Hï¿½tï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/ITPro/OPINION/20031215/1/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>NEC PC-9801ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ÅAï¿½ï¿½ï¿½Û‚Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚ªï¿½gï¿½ß‚É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0312/25/njbt_03.html">BIGLOBEï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0312/25/njbt_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½Ù‚Ù‚ï¿½ï¿½BBIGLOBEï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0312/25/njbt_02.html">'03ï¿½ã”¼ï¿½ï¿½PDAï¿½oï¿½×‚Í‘Oï¿½Nï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Âlï¿½ï¿½ï¿½ï¿½ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½[ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0312/25/njbt_02.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>PDAï¿½É‚ÍŠæ’£ï¿½ï¿½ï¿½Ä—~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Pï¿½[ï¿½^ï¿½Cï¿½Æ‚Ìï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ñ‚¾‚ï¿½ï‚µï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½È‚ï¿½ï¿½c</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:47 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/12/17 “ú‹L: GlassFish v3 ƒCƒ“ƒXƒg[ƒ‹Žè‡ (Windows ”Å)</TITLE>
-<meta name="DESCRIPTION" content="GlassFish v3 ‚ð Windows XP ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éŽè‡‚ðŠÈ’P‚Éƒƒ‚‚µ‚Ü‚µ‚½B">
-<meta name="KEYWORDS" content="GlassFish,v3,install,ƒCƒ“ƒXƒg[ƒ‹,Žè‡,ƒZƒbƒgƒAƒbƒv,Windows">
+<TITLE>2009/12/17 ï¿½ï¿½ï¿½L: GlassFish v3 ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½è‡ (Windows ï¿½ï¿½)</TITLE>
+<meta name="DESCRIPTION" content="GlassFish v3 ï¿½ï¿½ Windows XP ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‡ï¿½ï¿½ï¿½È’Pï¿½Éƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<meta name="KEYWORDS" content="GlassFish,v3,install,ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½,ï¿½è‡,ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½v,Windows">
 <meta name="GENERATOR" content="igapyon diary generator">
 <meta name="DATE" content="2010-09-27T20:42:50+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/12/17 “ú‹L: GlassFish v3 ƒCƒ“ƒXƒg[ƒ‹Žè‡ (Windows ”Å)</H2>
-    <P>[GlassFish,v3,install,ƒCƒ“ƒXƒg[ƒ‹,Žè‡,ƒZƒbƒgƒAƒbƒv,Windows] GlassFish v3 ‚ð Windows XP ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éŽè‡‚ðŠÈ’P‚Éƒƒ‚‚µ‚Ü‚µ‚½B</P>
+    <H2>2009/12/17 ï¿½ï¿½ï¿½L: GlassFish v3 ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½è‡ (Windows ï¿½ï¿½)</H2>
+    <P>[GlassFish,v3,install,ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½,ï¿½è‡,ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½v,Windows] GlassFish v3 ï¿½ï¿½ Windows XP ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‡ï¿½ï¿½ï¿½È’Pï¿½Éƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,69 +60,69 @@
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ƒCƒ“ƒXƒg[ƒ‹Žè‡ (Windows ”Å)</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½è‡ (Windows ï¿½ï¿½)</strong></font></td>
     </tr>
   </tbody>
 </table>
-<P>¦‚±‚Ì“ú‹L‚ÍŽÀÛ‚É‚Í <FONT color="#ff0000">2009-12-18</FONT> ‚É‹Lq‚³‚ê‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ÍŽï¿½ï¿½Û‚É‚ï¿½ <FONT color="#ff0000">2009-12-18</FONT> ï¿½É‹Lï¿½qï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish ‚ÍAJava EE ŽÀ‘•‚ÌƒI[ƒvƒ“ƒ\[ƒXEƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Å‚·BJava EE ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚É‚ÍAJavaServer Pages (JSP)AJavaServer Faces (JSF)AServletAEnterprise JavaBeans (EJB)AJava API for Web Services(JAX-WS)AJava Architecture for XML Binding (JAXB) ‚È‚Ç‚ªŠÜ‚Ü‚ê‚Ü‚·B">GlassFish</A> v3 ‚ð Windows XP ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éŽè‡‚ðŠÈ’P‚Éƒƒ‚‚µ‚Ü‚µ‚½B</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish ï¿½ÍAJava EE ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Eï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Å‚ï¿½ï¿½BJava EE ï¿½vï¿½ï¿½ï¿½bï¿½gï¿½tï¿½Hï¿½[ï¿½ï¿½ï¿½É‚ÍAJavaServer Pages (JSP)ï¿½AJavaServer Faces (JSF)ï¿½AServletï¿½AEnterprise JavaBeans (EJB)ï¿½AJava API for Web Services(JAX-WS)ï¿½AJava Architecture for XML Binding (JAXB) ï¿½È‚Ç‚ï¿½ï¿½Ü‚Ü‚ï¿½Ü‚ï¿½ï¿½B">GlassFish</A> v3 ï¿½ï¿½ Windows XP ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‡ï¿½ï¿½ï¿½È’Pï¿½Éƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 
-<P><FONT color="#ff00ff">ƒCƒ“ƒXƒg[ƒ‹€”õ</FONT></P>
-<P>‚ ‚ç‚©‚¶‚ß Java SDK ‚ðƒZƒbƒgƒAƒbƒv‚µ‚Ä‚¨‚«‚Ü‚·B</P>
-<P>ŽŸ‚ÉAGlassFish ‚ÌƒCƒ“ƒXƒg[ƒ‹Eƒ‚ƒWƒ…[ƒ‹‚ðŽè‚É“ü‚ê‚Ü‚·B2009-12-18Žž“_‚ÌÅVˆÀ’è”Å‚Í v3 (2009-12-10 ƒŠƒŠ[ƒX)
-‚Æ‚È‚Á‚Ä‚¢‚é‚Ì‚ÅA‚±‚ê‚ð—˜—p‚µ‚Ü‚·B</P>
+<P><FONT color="#ff00ff">ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></P>
+<P>ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ï¿½ Java SDK ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÉAGlassFish ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B2009-12-18ï¿½ï¿½ï¿½_ï¿½ÌÅVï¿½ï¿½ï¿½ï¿½Å‚ï¿½ v3 (2009-12-10 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X)
+ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>GlassFish<BR>
   <A HREF="https://glassfish.dev.java.net/">https://glassfish.dev.java.net/</A>
 </UL>
-<p>Windows ”Å‚ÍˆÈ‰º‚Ìƒtƒ@ƒCƒ‹–¼‚Æ‚È‚è‚Ü‚·B<br>
-¦‚±‚Ì“ú‹L‚ÌŽ·•MŽž“_‚Å‚Í‘½Œ¾Œê‘Î‰ž”ÅƒCƒ“ƒXƒg[ƒ‹‚Í–¢ƒŠƒŠ[ƒX‚Å‚µ‚½B</p>
+<p>Windows ï¿½Å‚ÍˆÈ‰ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ÌŽï¿½ï¿½Mï¿½ï¿½ï¿½_ï¿½Å‚Í‘ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ÅƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</p>
 <ul>
   <li>glassfish-v3-windows.exe
 </ul>
-<p><font color="#ff00ff">ƒCƒ“ƒXƒg[ƒ‹ŠJŽn</font></p>
-<P>‚»‚ê‚Å‚Í‚¢‚æ‚¢‚æAƒCƒ“ƒXƒg[ƒ‹‚ðŽÀs‚µ‚Ü‚·B</P>
-<P>‚±‚Ì GlassFish v3 ‚ÌƒCƒ“ƒXƒg[ƒ‰[‚ð‹N“®‚·‚é‚ÆAˆÈ‰º‚Ì‚æ‚¤‚È‰æ–Ê‚ªo‚Ü‚·B</P>
+<p><font color="#ff00ff">ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Jï¿½n</font></p>
+<P>ï¿½ï¿½ï¿½ï¿½Å‚Í‚ï¿½ï¿½æ‚¢ï¿½ï¿½Aï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ GlassFish v3 ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½È‰ï¿½Ê‚ï¿½ï¿½oï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf001.png" border="0"></BLOCKQUOTE>
-<p>ƒ‰ƒCƒZƒ“ƒXð€‚Ö‚Ì“¯ˆÓ‚ð‹‚ß‚é‰æ–Ê‚ªŠJ‚«‚Ü‚·B<BR>
-“à—e‚ð“Ç‚ÝA‚»‚Ì“à—e‚É“¯ˆÓ‚Å‚«‚éê‡‚É‚Íƒ‰ƒWƒIƒ{ƒ^ƒ“‚ðØ‚è‘Ö‚¦‚ÄuŽŸ‚Öv‚ð‰Ÿ‚µ‚Ü‚·B</p>
+<p>ï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ì“ï¿½ï¿½Ó‚ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ê‚ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½eï¿½ï¿½Ç‚ÝAï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½É“ï¿½ï¿½Ó‚Å‚ï¿½ï¿½ï¿½ê‡ï¿½É‚Íƒï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½Ø‚ï¿½Ö‚ï¿½ï¿½Äuï¿½ï¿½ï¿½Övï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf002.png" border="0"></BLOCKQUOTE>
-<p>ƒCƒ“ƒXƒg[ƒ‹æƒfƒBƒŒƒNƒgƒŠ‚ð‘I‘ð‚·‚é‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B<br>
-Šî–{“I‚ÉAƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚ÜŽó‚¯“ü‚ê‚é‚Ì‚ª—Ç‚¢‚æ‚¤‚Å‚·B(‘½‚­‚Ìê‡AC:\glassfishv3 ‚Æ‚È‚é‚±‚Æ‚Å‚µ‚å‚¤B)<br>
-¦Windows •W€‚Æ‚ÍˆÙ‚È‚èA‹ó”’‚ðŠÜ‚Ü‚È‚¢ƒfƒBƒŒƒNƒgƒŠ (Program Files ‚Å‚Í‚È‚¢) ‚ðŽw’è‚·‚é‚Ì‚ª‚¨Š©‚ß‚Ì‚æ‚¤‚Å‚·B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½{ï¿½Iï¿½ÉAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì‚Ü‚ÜŽó‚¯“ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Ìê‡ï¿½AC:\glassfishv3 ï¿½Æ‚È‚é‚±ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B)<br>
+ï¿½ï¿½Windows ï¿½Wï¿½ï¿½ï¿½Æ‚ÍˆÙ‚È‚ï¿½Aï¿½ó”’‚ï¿½ï¿½Ü‚Ü‚È‚ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ (Program Files ï¿½Å‚Í‚È‚ï¿½) ï¿½ï¿½ï¿½wï¿½è‚·ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ì‚æ‚¤ï¿½Å‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf003.png" border="0"></BLOCKQUOTE>
-<p>ŠeŽíŠÇ—ã‚ÌÝ’è‚ð‚¤‚È‚ª‚·‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·BƒpƒXƒ[ƒh‚ð“ü—Í‚µ‚ÄuŽŸ‚Öv‚ð‰Ÿ‚µ‚Ü‚·B<br>
-¦‚±‚±‚Å‚ÍAƒpƒXƒ[ƒh‚Éuadminadminv‚ð“ü—Í‚µ‚½‚à‚Ì‚Æ‚µ‚Ü‚·B</p>
+<p>ï¿½eï¿½ï¿½Ç—ï¿½ï¿½ï¿½ÌÝ’ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Äuï¿½ï¿½ï¿½Övï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Éuadminadminï¿½vï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf004.png" border="0"></BLOCKQUOTE>
-<p>XV‚ÌÝ’è‚ð‚¨‚±‚È‚¤‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B<br>
-‚±‚±‚Å‚Í˜b‚ðŠÈ’P‚É‚·‚é‚½‚ß‚ÉuXVƒc[ƒ‹‚ÌƒCƒ“ƒXƒg[ƒ‹vƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ðƒIƒt‚É•ÏX‚µ‚Ä‚¢‚Ü‚·B</p>
+<p>ï¿½Xï¿½Vï¿½ÌÝ’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Í˜bï¿½ï¿½ï¿½È’Pï¿½É‚ï¿½ï¿½é‚½ï¿½ß‚Éuï¿½Xï¿½Vï¿½cï¿½[ï¿½ï¿½ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½vï¿½`ï¿½Fï¿½bï¿½Nï¿½{ï¿½bï¿½Nï¿½Xï¿½ï¿½ï¿½Iï¿½tï¿½É•ÏXï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf005.png" border="0"></BLOCKQUOTE>
-<p>JDK ‚ð‘I‘ð‚·‚é‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B<br>
-Ž„‚ÌŠÂ‹«‚Å‚ÍƒCƒ“ƒXƒg[ƒ‹Ï‚Ý JDK ‚ªŽ©“®”FŽ¯‚³‚ê‚Ü‚µ‚½B</p>
+<p>JDK ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½ï¿½ÌŠÂ‹ï¿½ï¿½Å‚ÍƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Ï‚ï¿½ JDK ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf006.png" border="0"></BLOCKQUOTE>
-<p>ƒCƒ“ƒXƒg[ƒ‹‚Ìƒtƒ@ƒCƒ‹ƒRƒs[’¼‘O‚Ì‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B“à—e‚ðŠm”F‚µ‚ÄuƒCƒ“ƒXƒg[ƒ‹vƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ü‚·B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½Oï¿½Ì‰ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½eï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Äuï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf007.png" border="0"></BLOCKQUOTE>
-<p>ƒCƒ“ƒXƒg[ƒ‹’†‚É‚ÍAˆÈ‰º‚Ì‚æ‚¤‚Èi’»‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·BƒCƒ“ƒXƒg[ƒ‹‚ªŠ®—¹‚·‚é‚Ü‚Å‚µ‚Î‚ç‚­‘Ò‚¿‚Ü‚·B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½Èiï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Î‚ç‚­ï¿½Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf008.png" border="0"></BLOCKQUOTE>
-<p>»•i‚ð“o˜^‚·‚é‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B‚±‚±‚Å‚Íu“o˜^‚ðƒXƒLƒbƒv‚µ‚Ü‚·Bvƒ‰ƒWƒIƒ{ƒ^ƒ“‚ð‘I‘ð‚µ‚ÄuŽŸ‚Öv‚ð‰Ÿ‚µ‚Ü‚·B</p>
+<p>ï¿½ï¿½ï¿½iï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Å‚Íuï¿½oï¿½^ï¿½ï¿½ï¿½Xï¿½Lï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Äuï¿½ï¿½ï¿½Övï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf009.png" border="0"></BLOCKQUOTE>
-<p>ƒCƒ“ƒXƒg[ƒ‹‚ÌŠ®—¹‚ðŽ¦‚·‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·BuI—¹vƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ü‚·B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ÌŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½uï¿½Iï¿½ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf010.png" border="0"></BLOCKQUOTE>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ‹N“®Žè‡</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ï¿½Nï¿½ï¿½ï¿½è‡</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>‚»‚ê‚Å‚ÍA‚¢‚æ‚¢‚æ GlassFish ƒT[ƒo‚ð“®ì‚³‚¹‚Ä‚Ý‚Ü‚µ‚å‚¤B</p>
-<P>Windows ƒGƒNƒXƒvƒ[ƒ‰‚È‚Ç‚ÅuC:\glassfishv3\glassfish\binvƒtƒHƒ‹ƒ_‚ðŠJ‚¢‚Äustartserv.batvƒtƒ@ƒCƒ‹‚ðŽÀs‚µ‚Ü‚·B</P>
+<p>ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½ï¿½ï¿½æ‚¢ï¿½ï¿½ GlassFish ï¿½Tï¿½[ï¿½oï¿½ð“®ì‚³ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½å‚¤ï¿½B</p>
+<P>Windows ï¿½Gï¿½Nï¿½Xï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½È‚Ç‚ÅuC:\glassfishv3\glassfish\binï¿½vï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Äustartserv.batï¿½vï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf011.png" border="0"></BLOCKQUOTE>
-<p>ˆÈ‰º‚Ì‚æ‚¤‚È‰æ–Ê‚ª•\Ž¦‚³‚êA‚µ‚Î‚ç‚­ƒXƒNƒ[ƒ‹‚µ‚Ü‚·BƒXƒNƒ[ƒ‹‚ªI‚í‚Á‚Ä‰æ–Ê‚ª—Ž‚¿’…‚¯‚Î‹N“®Š®—¹‚Å‚·B</p>
+<p>ï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½È‰ï¿½Ê‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Î‚ç‚­ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½Ä‰ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf012.png" border="0"></BLOCKQUOTE>
-<p><font color="#ff00ff">ŠÇ—ƒRƒ“ƒ\[ƒ‹</font></p>
-<P>‚»‚ê‚Å‚ÍAŠÇ—ƒRƒ“ƒ\[ƒ‹‚ÉÚ‘±‚µ‚Ä‚Ý‚Ü‚µ‚å‚¤B</P>
+<p><font color="#ff00ff">ï¿½Ç—ï¿½ï¿½Rï¿½ï¿½ï¿½\ï¿½[ï¿½ï¿½</font></p>
+<P>ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½Ç—ï¿½ï¿½Rï¿½ï¿½ï¿½\ï¿½[ï¿½ï¿½ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½å‚¤ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -131,33 +131,33 @@
     </TR>
   </TBODY>
 </TABLE>
-¦–{—ˆ‚ÍAulocalhostv‚Å‚Í‚È‚­“KØ‚ÈƒhƒƒCƒ“–¼‚Å‚ ‚é‚Ì‚ª–]‚Ü‚µ‚¢‚Å‚·B“Á‚É OpenSSO ‚È‚Ç‚Æ•¹—p‚·‚éê‡‚É‚Íulocalhostv‚Ì‚Ü‚Ü‚¾‚Æ•s“s‡‚ª¶‚¶‚éê‡‚ª‚ ‚é‚Ì‚ÅAhosts
-ƒtƒ@ƒCƒ‹‚ð•ÒW‚·‚é‚È‚Ç‚µ‚ÄƒhƒƒCƒ“–¼‚ðŽw’è‚·‚é‚æ‚¤‚É‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B</BLOCKQUOTE>
+ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ÍAï¿½ulocalhostï¿½vï¿½Å‚Í‚È‚ï¿½ï¿½Kï¿½Ø‚Èƒhï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½]ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ OpenSSO ï¿½È‚Ç‚Æ•ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚Íulocalhostï¿½vï¿½Ì‚Ü‚Ü‚ï¿½ï¿½Æ•sï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAhosts
+ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ÒWï¿½ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½Äƒhï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚·ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</BLOCKQUOTE>
 <UL>
-  <LI>ƒ†[ƒU[–¼: admin
-  <LI>ƒpƒXƒ[ƒh: ‚±‚Ìà–¾‚Ì’†‚Å‚Íuadminadminv<BR>
-  ¦ƒZƒbƒgƒAƒbƒv’¼Œã‚ÌƒfƒtƒHƒ‹ƒg‚Å‚·BŽÀÛ‚É‰^—p‚·‚éƒT[ƒo‚Å‚ÍAƒpƒXƒ[ƒh‚È‚Ç‚ð“KØ‚É•ÏX‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚å‚¤B
+  <LI>ï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½: admin
+  <LI>ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½h: ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½Å‚Íuadminadminï¿½v<BR>
+  ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Û‚É‰^ï¿½pï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½Å‚ÍAï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½È‚Ç‚ï¿½Kï¿½Ø‚É•ÏXï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½å‚¤ï¿½B
 </UL>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf021.png" border="0"></BLOCKQUOTE>
-<p>‚ ‚Æ‚ÍAˆê”Ê“I‚È Web ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo[‚ÌŠÇ—ƒRƒ“ƒ\[ƒ‹‚Æ“¯—l‚Ì‘€ì‚É‚æ‚Á‚Ä—˜—p‚µ‚Ä‚¢‚­‚±‚Æ‚ª‚Å‚«‚Ü‚·B<BR>
-¦ˆÈ‰º‚Í Web ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒfƒvƒƒC‚È‚Ç‚ðs‚¤‰æ–Ê‚Å‚·B</p>
+<p>ï¿½ï¿½ï¿½Æ‚ÍAï¿½ï¿½Ê“Iï¿½ï¿½ Web ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½[ï¿½ÌŠÇ—ï¿½ï¿½Rï¿½ï¿½ï¿½\ï¿½[ï¿½ï¿½ï¿½Æ“ï¿½ï¿½lï¿½Ì‘ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½È‰ï¿½ï¿½ï¿½ Web ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ìƒfï¿½vï¿½ï¿½ï¿½Cï¿½È‚Ç‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Ê‚Å‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf022.png" border="0"></BLOCKQUOTE>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ’âŽ~Žè‡</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>GlassFish v3 ï¿½ï¿½~ï¿½è‡</strong></font></td>
     </tr>
   </tbody>
 </table>
-<P>GlassFish ‚ð’âŽ~‚·‚é‚É‚ÍAWindows ƒGƒNƒXƒvƒ[ƒ‰‚È‚Ç‚ÅuC:\glassfishv3\glassfish\binvƒtƒHƒ‹ƒ_‚ðŠJ‚¢‚Äustopserv.batvƒtƒ@ƒCƒ‹‚ðŽÀs‚µ‚Ü‚·B</P>
+<P>GlassFish ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½É‚ÍAWindows ï¿½Gï¿½Nï¿½Xï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½È‚Ç‚ÅuC:\glassfishv3\glassfish\binï¿½vï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Äustopserv.batï¿½vï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2009/20091217gf031.png" border="0"></BLOCKQUOTE>
-<p><font color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</font></p>
+<p><font color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</font></p>
 <ul>
-  <li><a href="../2010/ig100820.html">2010/08/20 “ú‹L: Ubuntu: GlassFish Server 3.0.1 ‚ð Ubuntu 10.04 ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é•û–@</a>
-  <li><a href="ig090302.html">2009/03/02 “ú‹L: GlassFish Server 2.1 ƒCƒ“ƒXƒg[ƒ‹Žè‡ (Windows ”Å)</a>
+  <li><a href="../2010/ig100820.html">2010/08/20 ï¿½ï¿½ï¿½L: Ubuntu: GlassFish Server 3.0.1 ï¿½ï¿½ Ubuntu 10.04 ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</a>
+  <li><a href="ig090302.html">2009/03/02 ï¿½ï¿½ï¿½L: GlassFish Server 2.1 ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½è‡ (Windows ï¿½ï¿½)</a>
 </ul>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

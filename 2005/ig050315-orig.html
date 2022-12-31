@@ -251,7 +251,7 @@ public class SimpleDownloadServlet extends HttpServlet {
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> の現行バージョン (2.5.1) では Excel書きだしの挙動が微妙であることが 改めて良く分かりました。Excelシートに画像が貼り付いたものをいろいろ処理するのですが、処理している間に
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ">Jakarta POI</A> の現行バージョン (2.5.1) では Excel書きだしの挙動が微妙であることが 改めて良く分かりました。Excelシートに画像が貼り付いたものをいろいろ処理するのですが、処理している間に
 Excelでは開くことが出来ないファイルが出来上がってしまう場合がありました (T_T)<BR>
 Excelファイル形式の気持ちになって、画像データをクリップボードに一旦ため込んで Excelを再起動して 張り付けて、などを行ってうまくやると、Jakarta
 POIによる変更処理後でも Excelで開くことが出来る xlsデータファイルが作成可能な、そんな不思議な挙動に直面しました。Excelのファイルフォーマットって不思議な感じがあるようで、セルとか罫線とかも、ひとつのスタイルを複写してセルに貼り付けているような作りになっていて、POIを使うひとは

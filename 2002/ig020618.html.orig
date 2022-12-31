@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/06/18 “ú‹L: HTTPƒT[ƒo‚ÌŽ©ì</TITLE>
-<META name="DESCRIPTION" content="ƒŠƒNƒGƒXƒgƒwƒbƒ_‚ªŒ©‚½‚©‚Á‚½‚Ì‚Å’´ƒVƒ“ƒvƒ‹&ƒTƒ“ƒvƒ‹‚Èhttpd(WebƒT[ƒo)‚ðŽ©ì‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,http,sample,java">
+<TITLE>2002/06/18 ï¿½ï¿½ï¿½L: HTTPï¿½Tï¿½[ï¿½oï¿½ÌŽï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½Nï¿½Gï¿½Xï¿½gï¿½wï¿½bï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å’ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½&ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½httpd(Webï¿½Tï¿½[ï¿½o)ï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,http,sample,java">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/06/18 “ú‹L: HTTPƒT[ƒo‚ÌŽ©ì</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,http,sample,java] ƒŠƒNƒGƒXƒgƒwƒbƒ_‚ªŒ©‚½‚©‚Á‚½‚Ì‚Å’´ƒVƒ“ƒvƒ‹&ƒTƒ“ƒvƒ‹‚Èhttpd(WebƒT[ƒo)‚ðŽ©ì‚µ‚Ü‚µ‚½B</P>
+    <H2>2002/06/18 ï¿½ï¿½ï¿½L: HTTPï¿½Tï¿½[ï¿½oï¿½ÌŽï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,http,sample,java] ï¿½ï¿½ï¿½Nï¿½Gï¿½Xï¿½gï¿½wï¿½bï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å’ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½&ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½httpd(Webï¿½Tï¿½[ï¿½o)ï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,40 +59,40 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¡“ú‚Í‚Ð‚½‚·‚çŽ·•M‚·‚é—\’è‚Å‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½Í‚Ð‚ï¿½ï¿½ï¿½ï¿½çŽ·ï¿½Mï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚³‚ ‚Ä ‚ª‚ñ‚Î‚é‚¼`B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Î‚é‚¼ï¿½`ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ãŽi‚ª‚¨‚½‚Ó‚­•—Ž×‚É‚©‚©‚Á‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó‚ï¿½ï¿½ï¿½ï¿½×‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ãŽi‚Í “–•ª ‰ïŽÐ‚É—ˆ‚ç‚ê‚È‚¢‚±‚Æ‚É‚È‚é—\’èB</P>
+<P>ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ð‚É—ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚É‚È‚ï¿½\ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>“Ç‚Ýã‚°ƒ\ƒtƒg—~‚µ‚¢c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Ç‚Ýã‚°ï¿½\ï¿½tï¿½gï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>’Pƒ‚É“Ç‚Ýã‚°ƒ\ƒtƒg‚ª—~‚µ‚¢BIBM ViaVoice for Windows Pro USB Version9
-“ú–{Œê”Å(USBƒ}ƒCƒN•t) \17,100 ‚É‹»–¡[XB<BR>
-ƒ{[ƒiƒX‚ªo‚½‚ç ‚æ‚­‚æ‚­l‚¦‚Ä‚Ý‚Ü‚·B</P>
+<P>ï¿½Pï¿½ï¿½ï¿½É“Ç‚Ýã‚°ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½BIBM ViaVoice for Windows Pro USB Version9
+ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½(USBï¿½}ï¿½Cï¿½Nï¿½t) \17,100 ï¿½É‹ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½B<BR>
+ï¿½{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ ï¿½æ‚­ï¿½æ‚­ï¿½lï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>’´ŠÈ’PHTTPƒT[ƒo‚ÌŽ©ì</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½È’PHTTPï¿½Tï¿½[ï¿½oï¿½ÌŽï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Webƒuƒ‰ƒEƒU‚ª”­M‚·‚éƒŠƒNƒGƒXƒgƒwƒbƒ_‚ªŒ©‚½‚©‚Á‚½‚Ì‚ÅA’´ŠÈ’PƒEƒFƒuƒT[ƒo‚ðŽ©ì‚µ‚Ü‚µ‚½B‚½‚Á‚½‚±‚ê‚¾‚¯‚Ìs”‚Å
-WebƒT[ƒo‚Æ‚µ‚ÄÅ’áŒÀ‚Ì“®ì‚ð‚µ‚Ü‚·B(‚Ù‚ñ‚Æ‚ÉÅ’á‚Ì‹@”\‚Å‚·)<BR>
-‚½‚¾‚µAŒ¾‚¤‚Ü‚Å‚à‚È‚¢‚±‚Æ‚Å‚·‚ªA‚»‚à‚»‚à˜_‚Æ‚µ‚Ä WebƒT[ƒo‹@”\+ƒ¿‚ðŽÀŒ»‚µ‚½‚¢ê‡‚É‚ÍAJakarta
-Tomcat‚È‚Ç‚ÌƒT[ƒoƒ\ƒtƒg‚Ì—˜—p‚ªŠÈ’P‚Å•Ö—˜‚Å‚·B</P>
+<P>Webï¿½uï¿½ï¿½ï¿½Eï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½éƒŠï¿½Nï¿½Gï¿½Xï¿½gï¿½wï¿½bï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½È’Pï¿½Eï¿½Fï¿½uï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚¾ï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½ï¿½
+Webï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ÄÅ’ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Ù‚ï¿½Æ‚ÉÅ’ï¿½Ì‹@ï¿½\ï¿½Å‚ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Æ‚ï¿½ï¿½ï¿½ Webï¿½Tï¿½[ï¿½oï¿½@ï¿½\+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍAJakarta
+Tomcatï¿½È‚Ç‚ÌƒTï¿½[ï¿½oï¿½\ï¿½tï¿½gï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½È’Pï¿½Å•Ö—ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -197,8 +197,8 @@ class TinyHttpdThread extends Thread {
             writeLine(&quot;&quot;, writer);
         }
         writeLine(&quot;&lt;HTML lang=\&quot;ja\&quot;&gt;&quot;, writer);
-        writeLine(&quot;&lt;HEAD&gt;&lt;TITLE&gt;‚È‚ñ‚É‚à‚È‚µƒy[ƒW&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;, writer);
-        writeLine(&quot;&lt;BODY bgcolor=\&quot;#eeddcc\&quot;&gt;&lt;P&gt;‚È‚ñ‚É‚à‚È‚µƒy[ƒWB&lt;BR&gt;—v‹‚³‚ê‚½ƒtƒ@ƒCƒ‹–¼[&quot; + strFileName + &quot;]&lt;/P&gt;&lt;/BODY&gt;&quot;, writer);
+        writeLine(&quot;&lt;HEAD&gt;&lt;TITLE&gt;ï¿½È‚ï¿½É‚ï¿½ï¿½È‚ï¿½ï¿½yï¿½[ï¿½W&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;, writer);
+        writeLine(&quot;&lt;BODY bgcolor=\&quot;#eeddcc\&quot;&gt;&lt;P&gt;ï¿½È‚ï¿½É‚ï¿½ï¿½È‚ï¿½ï¿½yï¿½[ï¿½Wï¿½B&lt;BR&gt;ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½[&quot; + strFileName + &quot;]&lt;/P&gt;&lt;/BODY&gt;&quot;, writer);
         writeLine(&quot;&lt;/HTML&gt;&quot;, writer);
     }
 
@@ -210,30 +210,30 @@ class TinyHttpdThread extends Thread {
     </TR>
   </TBODY>
 </TABLE>
-<P>‚±‚ê‚ð’´‹@”\Šg’£‚µ‚Ä‚¢‚­‚Æ Tomcat ‚Ý‚½‚¢‚Èƒ\ƒtƒg‚É‚È‚é‰Â”\«‚Í‚ ‚è‚Ü‚·B(ˆÓ–¡–³‚¢‚Ì‚Å
-’N‚à‚µ‚È‚¢‚ÆŽv‚¢‚Ü‚·‚¯‚ê‚Ç‚à‚Ë)</P>
-<P><FONT color="#ff0000">2002.06.27 “ÇŽÒ‚©‚çƒcƒbƒRƒ~</FONT><BR>
-<CITE>Subject:  ’´ŠÈ’PHTTPƒT[ƒo‚ÌŽ©ì‚É‚Â‚¢‚Ä<BR>
-‚¢‚ª‚Ò‚å‚ñ‚³‚ñ<BR>
-‚Í‚¶‚ß‚Ü‚µ‚Ä bata‚Å‚·B<BR>
-ŠJ”­‚Åƒuƒ‰ƒEƒU[‚ÌƒŠƒNƒGƒXƒgƒwƒbƒ_[‚ð’²‚×‚éŽž‚É@Apache Axis ‚ÌTCPƒ‚ƒjƒ^[‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B</CITE></P>
+<P>ï¿½ï¿½ï¿½ï¿½ð’´‹@ï¿½\ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ Tomcat ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½É‚È‚ï¿½Â”\ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Ó–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2002.06.27 ï¿½ÇŽÒ‚ï¿½ï¿½ï¿½cï¿½bï¿½Rï¿½~</FONT><BR>
+<CITE>Subject:  ï¿½ï¿½ï¿½È’PHTTPï¿½Tï¿½[ï¿½oï¿½ÌŽï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‚³‚ï¿½<BR>
+ï¿½Í‚ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ï¿½ bataï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Jï¿½ï¿½ï¿½Åƒuï¿½ï¿½ï¿½Eï¿½Uï¿½[ï¿½Ìƒï¿½ï¿½Nï¿½Gï¿½Xï¿½gï¿½wï¿½bï¿½_ï¿½[ï¿½ð’²‚×‚éŽžï¿½É@Apache Axis ï¿½ï¿½TCPï¿½ï¿½ï¿½jï¿½^ï¿½[ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</CITE></P>
 <UL>
-  <LI><CITE>¦org.apache.axis.utils.tcpmon <BR>
+  <LI><CITE>ï¿½ï¿½org.apache.axis.utils.tcpmon <BR>
   <A HREF="http://cvs.apache.org/viewcvs.cgi/~checkout~/xml-axis/java/docs/developers-guide.html#Debugging">http://cvs.apache.org/viewcvs.cgi/~checkout~/xml-axis/java/docs/developers-guide.html#Debugging</A></CITE>
 </UL>
-<P><CITE>ŠÈˆÕProxy ‚Æ‚È‚é‚Ì‚ÅA‚¨ŽèŒy‚ÉŽg‚¦‚é‚Ì‚Å‚·‚ªc“ú–{Œê‘Î‰ž‚µ‚Ä‚¢‚È‚¢‚Ì‚Å¢‚Å‚·B<BR>
-‚Å‚ÍB<BR>
+<P><CITE>ï¿½Èˆï¿½Proxy ï¿½Æ‚È‚ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½yï¿½ÉŽgï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½{ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Åï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Å‚ÍB<BR>
 ----------------------------------------<BR>
 T.Kawabata</CITE></P>
-<P><STRONG><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT></STRONG><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚¢‚ë‚¢‚ë‚Èƒ\ƒtƒg‚ª‚ ‚é‚à‚Ì‚Å‚·‚ËB•×‹­‚É‚È‚è‚Ü‚·B<BR>
-Apache Axis ‚Í SOAPŽÀ‘•‚Å‚·‚ªA‚È‚é‚Ù‚Ç‚»‚ÌŠJ”­‚ÉTCPƒwƒbƒ_[‰ðÍ‚ª•K—v‚É‚È‚Á‚Ä‚­‚é‚Ì‚Å‚·‚ËB</P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËBï¿½×‹ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+Apache Axis ï¿½ï¿½ SOAPï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½Ù‚Ç‚ï¿½ï¿½ÌŠJï¿½ï¿½ï¿½ï¿½TCPï¿½wï¿½bï¿½_ï¿½[ï¿½ï¿½Í‚ï¿½ï¿½Kï¿½vï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËB</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig020618.src.html' , result='ig020618.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig020618-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">FFFTP</A> <FONT size="-2"><A target="_blank" HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‘]“cƒ‚³‚ñ‚Æ‚¢‚¤•û‚ª‘‚¢‚½Windows—pftpƒNƒ‰ƒCƒAƒ“ƒgB‚©‚È‚è‹C‚É“ü‚è‚Ü‚µ‚½B<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">u–¢—ˆ‚ÍƒZƒLƒ…ƒŠƒeƒBALinux‚É‚ ‚èv‚ÆITê–å‰Æ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ŒoÏ“I——R‚É‚æ‚èLinux—L–]A‚È‚ñ‚¾‚»‚¤‚Å‚·B‚Ù‚ñ‚Æ‚É‚»‚¤‚È‚ñ‚Å‚µ‚å‚¤‚©‚ËB<LI><A HREF="http://www.asahi.com/national/update/0618/004.html">“V‘R“Y‰Á•¨‚ÌˆÀ‘S«AŠm”Fì‹Æ‘«“¥‚Ý@Œú˜JÈ</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/national/update/0618/004.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚¨‹à‚ª‘òŽR‚©‚©‚é‚©‚ç ‚ä‚Á‚­‚èŠm”Fì‹Æ‚µ‚Ä‚«‚½‚Ì‚¾‚»‚¤‚Å‚·B<LI><A HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">ƒqƒ“ƒg: ƒŠƒ‚[ƒgRDFƒtƒ@ƒCƒ‹‚©‚çƒwƒbƒhƒ‰ƒCƒ“‚ðŽæ“¾‚·‚é</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RSS0.91‚Æ RSS1.0‚Æ‚Ì—¼•û‚ªˆê“x‚Éà–¾‚³‚ê‚Ä‚¢‚é‚Ì‚ªŠð‚µ‚¢‚Å‚·B‚ÅA&lt;rdf:Seq&gt;ƒ^ƒO‚Í ‚â‚Á‚Ï‚èw—LŒøx(‚Æ‚¢‚¤‚©•t‚¯‚Ä‚à—Ç‚¢)‚Ì‚Å‚µ‚å‚¤‚©B‚±‚Ì“_ ‹»–¡[‚¢‚Å‚·B<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">uFFXIvWindows”ÅƒÀƒeƒXƒgŠJŽn‚Ö</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚Ð‚åH PS2”ÅˆÈŠO‚É Windows”Å‚ào‚·‚ñ‚Å‚·‚ËB‚¤?‚ñB‚±‚ê‚Í‹»–¡[‚¢B‚½‚¾ “®ìðŒ‚É nVIDIA GeForceƒVƒŠ[ƒYƒ`ƒbƒv“‹Ú‚Ìƒ{[ƒh ‚Æ‘‚¢‚Ä‚ ‚é‚Ì‚ªˆø‚Á‚©‚©‚è‚Ü‚µ‚½BG550Š—L‚È‚ª‚ç\‚µž‚ñ‚Å‚µ‚Ü‚¢‚Ü‚µ‚½c (‹êÎ)<LI><A HREF="http://www.jboss.org/">JBoss</A> <FONT size="-2"><A target="_blank" HREF="http://www.jboss.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ƒI[ƒvƒ“ƒ\[ƒX‚È J2EEƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒT[ƒoBŒ»Žž“_‚Å‚Í LGPL‚ÅƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚é–Í—lB<LI><A HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">‘S‘‚ÌƒJ[ƒlƒ‹‚¨‚¶‚³‚ñ”ð“ï</A> <FONT size="-2"><A target="_blank" HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ƒPƒ“ƒ^ƒbƒL[‚Ìƒ}ƒXƒRƒbƒg‚³‚ñ‚à‘å•Ï‚Å‚·‚ËB</UL>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig020618-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">FFFTP</A> <FONT size="-2"><A target="_blank" HREF="http://www2.biglobe.ne.jp/~sota/ffftp.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½]ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Windowsï¿½pftpï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½Bï¿½ï¿½ï¿½È‚ï¿½Cï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ÍƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ALinuxï¿½É‚ï¿½ï¿½ï¿½vï¿½ï¿½ITï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/ne00_survey.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½oï¿½Ï“Iï¿½ï¿½ï¿½Rï¿½É‚ï¿½ï¿½Linuxï¿½Lï¿½]ï¿½Aï¿½È‚ñ‚¾‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Ù‚ï¿½Æ‚É‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½ËB<LI><A HREF="http://www.asahi.com/national/update/0618/004.html">ï¿½Vï¿½Rï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½Ìˆï¿½ï¿½Sï¿½ï¿½ï¿½Aï¿½mï¿½Fï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ï¿½Ý@ï¿½ï¿½ï¿½Jï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.asahi.com/national/update/0618/004.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">ï¿½qï¿½ï¿½ï¿½g: ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½gRDFï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½bï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/xml/020614/j_x-tiphdln.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RSS0.91ï¿½ï¿½ RSS1.0ï¿½Æ‚Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ÅA&lt;rdf:Seq&gt;ï¿½^ï¿½Oï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½wï¿½Lï¿½ï¿½ï¿½x(ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ç‚ï¿½)ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì“_ ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">ï¿½uFFXIï¿½vWindowsï¿½Åƒï¿½ï¿½eï¿½Xï¿½gï¿½Jï¿½nï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0206/17/njbt_09.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½Ð‚ï¿½H PS2ï¿½ÅˆÈŠOï¿½ï¿½ Windowsï¿½Å‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½ï¿½?ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í‹ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ nVIDIA GeForceï¿½Vï¿½ï¿½ï¿½[ï¿½Yï¿½`ï¿½bï¿½vï¿½ï¿½ï¿½Ú‚Ìƒ{ï¿½[ï¿½h ï¿½Æï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BG550ï¿½ï¿½ï¿½Lï¿½È‚ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½c (ï¿½ï¿½ï¿½)<LI><A HREF="http://www.jboss.org/">JBoss</A> <FONT size="-2"><A target="_blank" HREF="http://www.jboss.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ J2EEï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ LGPLï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½B<LI><A HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">ï¿½Sï¿½ï¿½ï¿½ÌƒJï¿½[ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.daily.co.jp/gossip/gs20020616043063.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½Pï¿½ï¿½ï¿½^ï¿½bï¿½Lï¿½[ï¿½Ìƒ}ï¿½Xï¿½Rï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚Å‚ï¿½ï¿½ËB</UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/11/01 “ú‹L: SWT (Standard Widget Toolkit) ‚Æ‚¢‚¤‘I‘ðŽˆ</TITLE>
-<META name="DESCRIPTION" content="Å‹ß SWT‚Æ‚¢‚¤‘I‘ðŽˆ‚à‚ ‚é‚ñ‚¾ ‚Æ‚¢‚¤‚±‚Æ‚É‘å•Ï‹»–¡‚ðŽ‚¿‚Â‚Â‚ ‚è‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2002/11/01 ï¿½ï¿½ï¿½L: SWT (Standard Widget Toolkit) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½Å‹ï¿½ SWTï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‘ï¿½Ï‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/11/01 “ú‹L: SWT (Standard Widget Toolkit) ‚Æ‚¢‚¤‘I‘ðŽˆ</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Å‹ß SWT‚Æ‚¢‚¤‘I‘ðŽˆ‚à‚ ‚é‚ñ‚¾ ‚Æ‚¢‚¤‚±‚Æ‚É‘å•Ï‹»–¡‚ðŽ‚¿‚Â‚Â‚ ‚è‚Ü‚·B</P>
+    <H2>2002/11/01 ï¿½ï¿½ï¿½L: SWT (Standard Widget Toolkit) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½Å‹ï¿½ SWTï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‘ï¿½Ï‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,97 +59,97 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‚à‚¤11ŒŽ‚Á</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½11ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¤‚Ð‚á‚  ‚à‚¤11ŒŽ‚É‚È‚Á‚¿‚á‚¢‚Ü‚µ‚½B‚¦‚ç‚¢‚±‚Á‚¿‚á` (‹êÎ)</P>
+<P>ï¿½ï¿½ï¿½Ð‚á‚  ï¿½ï¿½ï¿½ï¿½11ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½á‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ç‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½` (ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWT‚Æ‚¢‚¤‘I‘ðŽˆ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SWTï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Å‹ß SWT‚É‹»–¡‚ðŽ‚Á‚Ä‚¢‚½‚ç ‚¿‚å‚¤‚Ç ‰º‹L‚Ì‚æ‚¤‚È‹LŽ–‚ª‘¶Ý‚·‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B</P>
+<P>ï¿½Å‹ï¿½ SWTï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½å‚¤ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Œy‰õJava GUIƒRƒ“ƒ|[ƒlƒ“ƒguSWTv‚Åì‚é WebƒT[ƒrƒXƒNƒ‰ƒCƒAƒ“ƒg<BR>
+  <LI>ï¿½yï¿½ï¿½Java GUIï¿½Rï¿½ï¿½ï¿½|ï¿½[ï¿½lï¿½ï¿½ï¿½gï¿½uSWTï¿½vï¿½Åï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½g<BR>
   <A HREF="http://www.mobster.jp/wiki/index.jsp?pid=SWT">http://www.mobster.jp/wiki/index.jsp?pid=SWT</A>
 </UL>
-<P>uWEB+DB PRESS Vol.10v‚ÉÚ‚Á‚½‹LŽ–‚È‚Ì‚¾‚»‚¤‚Å‚·‚ªA‚±‚ê‚ª ‚à‚ë SWTiStandard
-Widget Toolkitj‚ÉŠÖ‚·‚éî•ñ‚ªÚ‚Á‚Ä‚¢‚½‚Ì‚Å‚·B</P>
+<P>ï¿½uWEB+DB PRESS Vol.10ï¿½vï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ª ï¿½ï¿½ï¿½ï¿½ SWTï¿½iStandard
+Widget Toolkitï¿½jï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ñ‚ªÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <OL>
-  <LI>‚±‚Ì‹LŽ–‚É‚æ‚é‚Æ ‚È‚é‚Ù‚Ç SWT‚ÍƒlƒBƒeƒBƒuƒƒ\ƒbƒhŒÄ‚Ñ‚Ü‚­‚è‚È‚Ì‚Å‚·‚ËB‚¾‚©‚ç
-  <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Java‚Å‘‚©‚ê‚½ƒI[ƒvƒ“ƒ\[ƒX‚È“‡ŠJ”­ŠÂ‹«BJavaŒ¾Œê‚É‚æ‚éŠJ”­‚É‚¨‚¢‚Äˆ³“|“I‚Èƒ†[ƒU‚ÌŽxŽ‚ð“¾‚Ä‚¢‚Ü‚·B">Eclipse</A>‚Í ‚ ‚Ì‚æ‚¤‚ÉŒy‰õ‚É“®ì‚·‚é‚Ì‚Å‚·‚ËB‰ü‚ß‚Ä”[“¾‚µ‚Ü‚µ‚½B(“–‰‚Í
-  AWTã‚ÉSWT‚ÍŽÀ‘•‚³‚ê‚Ä‚¢‚é‚Ì‚©‚ÆŽv‚Á‚Ä‚¢‚½‚à‚Ì‚Åc)
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Java‚Å‘‚©‚ê‚½ƒI[ƒvƒ“ƒ\[ƒX‚È“‡ŠJ”­ŠÂ‹«BJavaŒ¾Œê‚É‚æ‚éŠJ”­‚É‚¨‚¢‚Äˆ³“|“I‚Èƒ†[ƒU‚ÌŽxŽ‚ð“¾‚Ä‚¢‚Ü‚·B">Eclipse</A>‚©‚çSWT‚Ì‚Ý‚ðŽæ‚èo‚·•û–@‚à‹LŽ–‚ÉÚ‚Á‚Ä‚¢‚Ü‚·Bswt.jar
-  ‚Æ swt-win32-2047.dll ‚Ì2ƒtƒ@ƒCƒ‹‚ª•K—v‚È‚Ì‚Å‚·‚ËB
+  <LI>ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ ï¿½È‚ï¿½Ù‚ï¿½ SWTï¿½Íƒlï¿½Bï¿½eï¿½Bï¿½uï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Ä‚Ñ‚Ü‚ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  <A HREF="https://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½È“ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Â‹ï¿½ï¿½BJavaï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Äˆï¿½ï¿½|ï¿½Iï¿½Èƒï¿½ï¿½[ï¿½Uï¿½ÌŽxï¿½ï¿½ï¿½ð“¾‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Eclipse</A>ï¿½ï¿½ ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½ÉŒyï¿½ï¿½ï¿½É“ï¿½ï¿½ì‚·ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½ß‚Ä”[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  AWTï¿½ï¿½ï¿½SWTï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Åc)
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½È“ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Â‹ï¿½ï¿½BJavaï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Äˆï¿½ï¿½|ï¿½Iï¿½Èƒï¿½ï¿½[ï¿½Uï¿½ÌŽxï¿½ï¿½ï¿½ð“¾‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Eclipse</A>ï¿½ï¿½ï¿½ï¿½SWTï¿½Ì‚Ý‚ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bswt.jar
+  ï¿½ï¿½ swt-win32-2047.dll ï¿½ï¿½2ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚Å‚ï¿½ï¿½ËB
 </OL>
-<P>‚±‚Ì‹LŽ– ‚Æ‚Á‚Ä‚àŽ„‚É‚ÍŠð‚µ‚¢‚Å‚·BAWT‚¨‚æ‚ÑSwing‚É‘å•Ï‚È•s–ž‚ð•ø‚¢‚Ä‚¢‚½‚à‚Ì‚Å‚·‚©‚çBw‰½‚É‚¹‚æ’x‚¢•d‚¢x‚Ì‚ªŽ„‚Ì•s–ž“_‚Å‚µ‚½B<BR>
-‚±‚ê‚ðSWT‚Í‰ðÁ‚µ‚Ä‚­‚ê‚»‚¤‚ÈŠú‘Ò‚ª‚Æ‚Ä‚à‘å‚«‚¢‚Ì‚Å‚·BJava‚ÅGUI‘‚¢‚Ä‚à
-‚³‚­‚³‚­Œy‰õ‚É“®ì‚·‚é‚±‚Æ‚ªŠú‘Ò‚Å‚«‚é‚Ì‚Å‚·B‚µ‚©‚à‹ï‘Ì“I‚È“®ìƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Å‚ ‚é<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Java‚Å‘‚©‚ê‚½ƒI[ƒvƒ“ƒ\[ƒX‚È“‡ŠJ”­ŠÂ‹«BJavaŒ¾Œê‚É‚æ‚éŠJ”­‚É‚¨‚¢‚Äˆ³“|“I‚Èƒ†[ƒU‚ÌŽxŽ‚ð“¾‚Ä‚¢‚Ü‚·B">Eclipse</A>‚ªŠù‚É‘¶Ý‚µ‚Ä‚¢‚Ä
-API‚Æ‚µ‚Ä‚ÌŽõ–½‚à’·‚»‚¤‚Å‚·‚©‚çB(‚Å SWT‚ª‚à‚Ì‚·‚²‚­—¬s‚Á‚Ä Java‚ÌAPI‚É‘g‚Ýž‚Ü‚ê‚ê‚Î
-‘å•Ï‚Éƒnƒbƒs[‚È‚Ì‚Å‚·‚¯‚ê‚Ç‚à‚Ë)<BR>
-‚à‚¤­‚µ‚¾‚¯ÃŠÏ‚µ‚Ä‚Ý‚Ä s‚¯‚»‚¤‚¾‚Á‚½‚ç SWT‚Éæ‚èŠ·‚¦‚æ‚¤‚ÆŽv‚¢‚Ü‚· (Î)<BR>
-# ‚ ‚éˆÓ–¡ SWT‚±‚»‚ª C#.NET/VB.NET ‚ÌÅ‘å‚Ìƒ‰ƒCƒoƒ‹‚É‚È‚é‚Ì‚©‚à’m‚ê‚Ü‚¹‚ñB‚»‚ê‚Í[“Ç‚Ý‚µ‚·‚¬‚©‚µ‚ç
-(‹êÎ)</P>
-<P>‚Å ‚à‚¤­‚µ<A href="http://download.eclipse.org/downloads/documentation/2.0/html/plugins/org.eclipse.platform.doc.isv/reference/api/overview-summary.html">eclipse 2.0 APIƒŠƒtƒ@ƒŒƒ“ƒX</A>‚ðSWT(org.eclipse.swt.*)‚ð’†S‚É’­‚ß‚Ä‚¢‚½‚çASWT‚Ìˆê•”‚Æ‚µ‚Ä ‚È‚ñ‚Æ Win32
-OLEŒÄ‚Ño‚µ‚Ü‚Å‚ªŽÀ‘•‚³‚ê‚Ä‚¢‚é‚Å‚Í‚ ‚è‚Ü‚¹‚ñ‚©I ‚±‚ê‚Í‘å•Ï‹Á‚«‚Ü‚µ‚½B(‚Å‚æ‚­‚æ‚­Œ©‚½‚ç
-‚à‚Æ‚Ìˆø—p‹LŽ–’†‚Å‚àOLEŒÄ‚Ño‚µ‚ðs‚Á‚Ä‚¢‚Ü‚µ‚½) ‚Ç‚ñ‚Ç‚ñSWT‚É‹z‚¢Šñ‚¹‚ç‚ê‚Ä‚¢‚«‚Ü‚·B(ŽdŽ–‚Æ‚µ‚ÄSwingƒvƒƒOƒ‰ƒ~ƒ“ƒOŒoŒ±‚ðÏ‚ñ‚Å‚¢‚é‚©‚ç‚±‚»
-Œy‚­‚ÄŽÀ—p«‚ªŠ´‚¶‚ç‚ê‚é SWT‚ÉŽä‚©‚ê‚é‚Ì‚Å‚·) ‚±‚ê‚Í‚à‚¤ ‚½‚Ü‚è‚Ü‚¹‚ñ‚È‚ŸB</P>
-<P><FONT color="#ff0000">2002.11.05 ’Ç‹L</FONT> SWT‚ÉŠÖ‚·‚éV‚½‚ÈƒŠƒ\[ƒX‚ð”­Œ©B</P>
+<P>ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½É‚ÍŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BAWTï¿½ï¿½ï¿½ï¿½ï¿½Swingï¿½É‘ï¿½Ï‚È•sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½wï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½xï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Ì•sï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½SWTï¿½Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ê‚»ï¿½ï¿½ï¿½ÈŠï¿½ï¿½Ò‚ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½å‚«ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½BJavaï¿½ï¿½GUIï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yï¿½ï¿½ï¿½É“ï¿½ï¿½ì‚·ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ò‚Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bhttps://www.igapyon.jp/igapyon/diary/A HREF="http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½È“ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Â‹ï¿½ï¿½BJavaï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Äˆï¿½ï¿½|ï¿½Iï¿½Èƒï¿½ï¿½[ï¿½Uï¿½ÌŽxï¿½ï¿½ï¿½ð“¾‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Eclipse</A>ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
+APIï¿½Æ‚ï¿½ï¿½Ä‚ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ SWTï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½APIï¿½É‘gï¿½Ýï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+ï¿½ï¿½Ï‚Éƒnï¿½bï¿½sï¿½[ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃŠÏ‚ï¿½ï¿½Ä‚Ý‚ï¿½ ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SWTï¿½Éï¿½èŠ·ï¿½ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ (ï¿½ï¿½)<BR>
+# ï¿½ï¿½ï¿½ï¿½Ó–ï¿½ SWTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ C#.NET/VB.NET ï¿½ÌÅ‘ï¿½Ìƒï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½É‚È‚ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í[ï¿½Ç‚Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½)</P>
+<P>ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<A href="http://download.eclipse.org/downloads/documentation/2.0/html/plugins/org.eclipse.platform.doc.isv/reference/api/overview-summary.html">eclipse 2.0 APIï¿½ï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½X</A>ï¿½ï¿½SWT(org.eclipse.swt.*)ï¿½ð’†Sï¿½É’ï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ASWTï¿½Ìˆê•”ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½È‚ï¿½ï¿½ Win32
+OLEï¿½Ä‚Ñoï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚©I ï¿½ï¿½ï¿½ï¿½Í‘ï¿½Ï‹ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Å‚æ‚­ï¿½æ‚­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Æ‚Ìˆï¿½ï¿½pï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½OLEï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½) ï¿½Ç‚ï¿½Ç‚ï¿½SWTï¿½É‹zï¿½ï¿½ï¿½ñ‚¹‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½dï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Swingï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½oï¿½ï¿½ï¿½ï¿½Ï‚ï¿½Å‚ï¿½ï¿½é‚©ï¿½ç‚±ï¿½ï¿½
+ï¿½yï¿½ï¿½ï¿½ÄŽï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SWTï¿½ÉŽä‚©ï¿½ï¿½ï¿½Ì‚Å‚ï¿½) ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½Ü‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2002.11.05 ï¿½Ç‹L</FONT> SWTï¿½ÉŠÖ‚ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½Èƒï¿½ï¿½\ï¿½[ï¿½Xï¿½ð”­Œï¿½ï¿½B</P>
 <UL>
   <LI>SWT Component Development Resources<BR>
   <A HREF="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-swt-home/dev.html">http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-swt-home/dev.html</A>
 </UL>
-<P>SWT‚ÉŠÖ‚·‚éŠô‚Â‚©‚ÌƒTƒ“ƒvƒ‹‚È‚Ç‚ªq‚×‚ç‚ê‚Ä‚¢‚Ü‚·BURI‚Í ‰i‘±“I‚È‚à‚Ì‚Å‚Í–³‚¢‚©‚à’m‚ê‚Ü‚¹‚ñB</P>
-<P><FONT color="#ff0000">2002.11.06 ’Ç‹L</FONT> SWT‚ÉŠÖ‚·‚éƒŠƒ\[ƒX</P>
+<P>SWTï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½qï¿½×‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BURIï¿½ï¿½ ï¿½iï¿½ï¿½ï¿½Iï¿½È‚ï¿½ï¿½Ì‚Å‚Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2002.11.06 ï¿½Ç‹L</FONT> SWTï¿½ÉŠÖ‚ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</P>
 <UL>
   <LI>SWT/JFace<BR>
   <A HREF="http://eclipsewiki.swiki.net/2">http://eclipsewiki.swiki.net/2</A>
-  <LI>Tree‚ð’x‰„¶¬‚·‚éƒTƒ“ƒvƒ‹<BR>
+  <LI>Treeï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½<BR>
   <A HREF="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-swt-home/snippits/snippet8.html">http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-swt-home/snippits/snippet8.html</A>
 </UL>
-<P><FONT color="#ff0000">2002.11.07 ’Ç‹L</FONT> SWT‚Å ‚¿‚å‚Á‚Æ‚µ‚½ƒtƒ@ƒCƒ‰[‚à‚Ç‚«‚ðŽŽì‚µŽn‚ß‚Ä‚Ý‚Ü‚µ‚½B</P>
-<P><FONT color="#ff0000">2002.11.17 ’Ç‹L</FONT> SWT‚Åƒtƒ@ƒCƒ‰[‚ðì¬‚·‚é  <A href="http://sourceforge.net/projects/jmichelle/">JMichelle</A>‚Å‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚ÉŽ©•ªŽ©g‚Å‹C‚ª•t‚«‚Ü‚µ‚½B<A href="http://sourceforge.net/projects/jmichelle/">JMichelle</A>‚É‡—¬‚³‚¹‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff0000">2002.11.07 ï¿½Ç‹L</FONT> SWTï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½nï¿½ß‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2002.11.17 ï¿½Ç‹L</FONT> SWTï¿½Åƒtï¿½@ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ <A href="http://sourceforge.net/projects/jmichelle/">JMichelle</A>ï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Å‹Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A href="http://sourceforge.net/projects/jmichelle/">JMichelle</A>ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050715.html">2005/07/15 “ú‹L: IBM Workplace Client Technology‚ÌÕŒ‚</A>
-  <LI><A href="../2004/ig040423.html">2004/04/23 “ú‹L: ¡”N“x‚ÌŒv‰æ: Swing / SWT ‚ð—¬s‚ç‚¹‚Ü‚·I</A>
-  <LI><A href="../2005/ig051228.html">2005/12/28 “ú‹L: SWT‚ð—p‚¢‚½ Java‚©‚çWin32API‚Ö‚ÌƒAƒNƒZƒX ƒTƒ“ƒvƒ‹</A>
+  <LI><A href="../2005/ig050715.html">2005/07/15 ï¿½ï¿½ï¿½L: IBM Workplace Client Technologyï¿½ÌÕŒï¿½</A>
+  <LI><A href="../2004/ig040423.html">2004/04/23 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Nï¿½xï¿½ÌŒvï¿½ï¿½: Swing / SWT ï¿½ð—¬sï¿½ç‚¹ï¿½Ü‚ï¿½ï¿½I</A>
+  <LI><A href="../2005/ig051228.html">2005/12/28 ï¿½ï¿½ï¿½L: SWTï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½Win32APIï¿½Ö‚ÌƒAï¿½Nï¿½Zï¿½X ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒNƒ‰ƒVƒbƒN‰¹Šyƒlƒ^: ƒvƒƒWƒFƒNƒgTutti ŠÇŒ·Šy•Ò¬•\ Ver.2 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Nï¿½ï¿½ï¿½Vï¿½bï¿½Nï¿½ï¿½ï¿½yï¿½lï¿½^: ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gTutti ï¿½ÇŒï¿½ï¿½yï¿½Òï¿½ï¿½\ Ver.2 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒvƒƒWƒFƒNƒgTutti‚ª ŠÇŒ·Šy•Ò¬•\ Ver.2 ‚ðƒŠƒŠ[ƒX</P>
+<P>ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gTuttiï¿½ï¿½ ï¿½ÇŒï¿½ï¿½yï¿½Òï¿½ï¿½\ Ver.2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</P>
 <UL>
-  <LI>ƒvƒƒWƒFƒNƒgTutti ŠÇŒ·Šy•Ò¬•\ Ver.2<BR>
+  <LI>ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gTutti ï¿½ÇŒï¿½ï¿½yï¿½Òï¿½ï¿½\ Ver.2<BR>
   <A HREF="http://www.philharmonic.jp/henseihyo/">http://www.philharmonic.jp/henseihyo/</A>
 </UL>
-<P>ƒAƒ}ƒ`ƒ…ƒAƒI[ƒPƒXƒgƒ‰‚ÉŠ‘®‚µ‚Ä‚¢‚é‚Æ ‘I‹È‚ÌÛ‚É‹È‚Ì•Ò¬‚ð’m‚è‚½‚­‚È‚é‚±‚Æ‚ª‚ ‚è‚Ü‚·B‚±‚Ì
-ƒvƒƒWƒFƒNƒgTutti ŠÇŒ·Šy•Ò¬•\ ‚Í ‚»‚¤‚µ‚½•Ò¬‚ð’m‚é‚±‚Æ‚ªo—ˆ‚é ‚Æ‚Ä‚à•Ö—˜‚Å‚ ‚è‚ª‚½‚¢Ž‘—¿‚È‚Ì‚Å‚·B</P>
+<P>ï¿½Aï¿½}ï¿½`ï¿½ï¿½ï¿½Aï¿½Iï¿½[ï¿½Pï¿½Xï¿½gï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ ï¿½Iï¿½È‚ÌÛ‚É‹È‚Ì•Òï¿½ï¿½ï¿½mï¿½è‚½ï¿½ï¿½ï¿½È‚é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½
+ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gTutti ï¿½ÇŒï¿½ï¿½yï¿½Òï¿½ï¿½\ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òï¿½ï¿½ï¿½mï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Å‚ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>–³—¿ƒ\ƒtƒg‚Å PDF ‚ðì¬‚·‚é•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ PDF ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>ƒtƒŠ[ƒ\ƒtƒg‚Å PDF ‚ðì¬‚·‚é•û–@<BR>
+  <LI>ï¿½tï¿½ï¿½ï¿½[ï¿½\ï¿½tï¿½gï¿½ï¿½ PDF ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@<BR>
   <A HREF="http://www9.plala.or.jp/trueroad/pdf-make/">http://www9.plala.or.jp/trueroad/pdf-make/</A>
 </UL>
-<P>ˆóü‚·‚é—v—Ì‚É‚Ä –³—¿‚ÅPDF‚ðì‚è‚½‚¢AAA‚Æ‚¢‚¤Šó–]‚Í ‘½‚­‚Ìl‚ª•ø‚­‚Ì‚Å‚µ‚å‚¤‚ËB‚±‚ê‚Í
-‚»‚ê‚ðŽÀŒ»‚·‚é‚½‚ß‚Ì•û–@‚ðÐ‰î‚·‚éƒy[ƒW‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Ì‚É‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PDFï¿½ï¿½ï¿½ï¿½è‚½ï¿½ï¿½ï¿½Aï¿½Aï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ËBï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì•ï¿½ï¿½@ï¿½ï¿½ï¿½Ð‰î‚·ï¿½ï¿½yï¿½[ï¿½Wï¿½Å‚ï¿½ï¿½B</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig021101.src.html' , result='ig021101.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig021101-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/news/0210/31/njbt_06.html">TDKAg‚É100”{‹­‚¢hDVD-R/RWƒƒfƒBƒA‚ð”­”„</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/31/njbt_06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚É100”{‹­‚¢ ‚Á‚Ä‚¢‚¤‚Ó‚ê‚±‚Ý‚ÍŽä‚©‚ê‚Ü‚·‚ËB<LI><A HREF="http://www.zdnet.co.jp/news/0210/31/njbt_04.html">ƒhƒRƒ‚A’èŠzPHSƒf[ƒ^’ÊM‚É—ˆtŽQ“üAŒŽŠz4000‰~‘ä‚É</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/31/njbt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>PHS„i”h‚ÌŽ„‚Æ‚µ‚Ä‚Í Šð‚µ‚¢ŒXŒü‚Å‚·B‚±‚Ì•ûŒü«‚ª“d˜b‚Æ‚µ‚Ä‚ÌPHS‚Ì•‹y‚É‚Â‚È‚ª‚é‚±‚Æ‚ðŠú‘Ò‚µ‚Ü‚·B(ƒAƒ“ƒeƒi”‚ª‘‚¦‚ê‚Î Œ‹‰Ê“I‚ÉPHS“d˜b—˜—p‚à•Ö—˜‚É‚È‚è‚Ü‚·‚à‚Ì‚Ë)</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig021101-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/news/0210/31/njbt_06.html">TDKï¿½Aï¿½gï¿½ï¿½ï¿½ï¿½100ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½hDVD-R/RWï¿½ï¿½ï¿½fï¿½Bï¿½Aï¿½ð”­”ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/31/njbt_06.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ï¿½100ï¿½{ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ó‚ê‚±ï¿½Ý‚ÍŽä‚©ï¿½ï¿½Ü‚ï¿½ï¿½ËB<LI><A HREF="http://www.zdnet.co.jp/news/0210/31/njbt_04.html">ï¿½hï¿½Rï¿½ï¿½ï¿½Aï¿½ï¿½zPHSï¿½fï¿½[ï¿½^ï¿½ÊMï¿½É—ï¿½ï¿½tï¿½Qï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½z4000ï¿½~ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0210/31/njbt_04.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>PHSï¿½ï¿½ï¿½iï¿½hï¿½ÌŽï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½bï¿½Æ‚ï¿½ï¿½Ä‚ï¿½PHSï¿½Ì•ï¿½ï¿½yï¿½É‚Â‚È‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Aï¿½ï¿½ï¿½eï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê“Iï¿½ï¿½PHSï¿½dï¿½bï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Ö—ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½)</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

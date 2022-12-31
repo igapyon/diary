@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/03/17 “ú‹L: Java Servlet‚ÌƒVƒ“ƒvƒ‹—Œ`ƒ\[ƒXƒR[ƒh‚Ì’T‹</TITLE>
-<META name="DESCRIPTION" content="Java Servlet (ƒWƒƒƒoEƒT[ƒuƒŒƒbƒg)‚ÌƒVƒ“ƒvƒ‹ƒTƒ“ƒvƒ‹ ƒ\[ƒXƒR[ƒh‚ðì¬‚µ‚Ä‚¢‚Ü‚·BÅ‚àƒVƒ“ƒvƒ‹‚È‚à‚Ì‚ðì‚Á‚Ä‚¢‚é‚Í‚¸‚È‚Ì‚ÉAˆÓŠO‚É‚àƒXƒeƒbƒv”‚ª‚ ‚è‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2004/03/17 ï¿½ï¿½ï¿½L: Java Servletï¿½ÌƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì’Tï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Java Servlet (ï¿½Wï¿½ï¿½ï¿½oï¿½Eï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½g)ï¿½ÌƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í‚ï¿½ï¿½È‚Ì‚ÉAï¿½ÓŠOï¿½É‚ï¿½ï¿½Xï¿½eï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/03/17 “ú‹L: Java Servlet‚ÌƒVƒ“ƒvƒ‹—Œ`ƒ\[ƒXƒR[ƒh‚Ì’T‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Java Servlet (ƒWƒƒƒoEƒT[ƒuƒŒƒbƒg)‚ÌƒVƒ“ƒvƒ‹ƒTƒ“ƒvƒ‹ ƒ\[ƒXƒR[ƒh‚ðì¬‚µ‚Ä‚¢‚Ü‚·BÅ‚àƒVƒ“ƒvƒ‹‚È‚à‚Ì‚ðì‚Á‚Ä‚¢‚é‚Í‚¸‚È‚Ì‚ÉAˆÓŠO‚É‚àƒXƒeƒbƒv”‚ª‚ ‚è‚Ü‚·B</P>
+    <H2>2004/03/17 ï¿½ï¿½ï¿½L: Java Servletï¿½ÌƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì’Tï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Java Servlet (ï¿½Wï¿½ï¿½ï¿½oï¿½Eï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½g)ï¿½ÌƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í‚ï¿½ï¿½È‚Ì‚ÉAï¿½ÓŠOï¿½É‚ï¿½ï¿½Xï¿½eï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,11 +58,11 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Šî–{Œ`ƒT[ƒuƒŒƒbƒgƒ\[ƒXƒR[ƒh‚Ì’T‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½{ï¿½`ï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì’Tï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚·‚²‚­’Pƒ‚È Java Servlet‚Ìƒ\[ƒXƒR[ƒh‚Æ‚Í ‚Ç‚Ì‚æ‚¤‚É‚È‚é‚Ì‚©‚É‚Â‚¢‚ÄƒTƒ“ƒvƒ‹ƒ\[ƒX‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B‚³‚µ‚¸‚ßƒVƒ“ƒvƒ‹ƒT[ƒuƒŒƒbƒgŒv‰æ‚Æ‚Å‚àŒÄ‚Ñ‚Ü‚µ‚å‚¤‚©B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ Java Servletï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Æ‚ï¿½ ï¿½Ç‚Ì‚æ‚¤ï¿½É‚È‚ï¿½Ì‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½vï¿½ï¿½Æ‚Å‚ï¿½ï¿½Ä‚Ñ‚Ü‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -76,8 +76,8 @@
     <TR>
       <TD>
       <pre>/*
- * ‚·‚²‚­’Pƒ‚È Java ServletƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh\’zŒv‰æ
- * Copyright (C) 2004-2005 ‚¢‚ª‚Ò‚å‚ñ
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ Java Servletï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½\ï¿½zï¿½vï¿½ï¿½
+ * Copyright (C) 2004-2005 ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½
  */
 
 import java.io.BufferedReader;
@@ -91,7 +91,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * ‚·‚²‚­’Pƒ‚È Java ServletƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ Java Servletï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h
  * 
  * @author iga
  * @version 2004.11.13
@@ -99,12 +99,12 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleServlet extends HttpServlet {
 
     /**
-     * &lt;code&gt;ENCODING&lt;/code&gt; HTML‚Åˆµ‚¤•¶ŽšƒR[ƒh‚ð—^‚¦‚Ü‚·B
+     * &lt;code&gt;ENCODING&lt;/code&gt; HTMLï¿½Åˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     public static final String ENCODING = &quot;ISO-2022-JP&quot;;
 
     /**
-     * Java Servlet‚ÌƒGƒ“ƒgƒŠƒ|ƒCƒ“ƒg‚Å‚·B
+     * Java Servletï¿½ÌƒGï¿½ï¿½ï¿½gï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½B
      * 
      * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
      *      javax.servlet.http.HttpServletResponse)
@@ -138,9 +138,9 @@ public class SampleServlet extends HttpServlet {
                             + &quot;&lt;META http-equiv=\&quot;Cache-Control\&quot; content=\&quot;no-cache\&quot;&gt;\n&quot;
                             + &quot;&lt;META http-equiv=\&quot;Pragma\&quot; content=\&quot;no-cache\&quot;&gt;\n&quot;
                             + &quot;&lt;META http-equiv=\&quot;Expires\&quot; content=\&quot;0\&quot;&gt;\n&quot;
-                            + &quot;&lt;TITLE&gt;ƒVƒ“ƒvƒ‹‚ÈƒT[ƒuƒŒƒbƒgƒTƒ“ƒvƒ‹‚Å‚·&lt;/TITLE&gt;\n&lt;/HEAD&gt;\n&quot;);
+                            + &quot;&lt;TITLE&gt;ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÈƒTï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½&lt;/TITLE&gt;\n&lt;/HEAD&gt;\n&quot;);
             writer.write(&quot;&lt;BODY&gt;\n&quot;);
-            writer.write(&quot;&lt;P&gt;ƒVƒ“ƒvƒ‹ƒT[ƒuƒŒƒbƒg&lt;/P&gt;\n&quot;);
+            writer.write(&quot;&lt;P&gt;ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½g&lt;/P&gt;\n&quot;);
 
             for (Enumeration enum = request.getHeaderNames(); enum
                     .hasMoreElements();) {
@@ -168,20 +168,20 @@ public class SampleServlet extends HttpServlet {
             writer
                     .write(&quot;&lt;INPUT type=\&quot;text\&quot; name=\&quot;INPUTVALUE\&quot; size=\&quot;20\&quot;&gt;\n&quot;);
             writer
-                    .write(&quot;&lt;INPUT type=\&quot;submit\&quot; value=\&quot;ŽÀŒ±\&quot; name=\&quot;execute\&quot;&gt;\n&quot;);
+                    .write(&quot;&lt;INPUT type=\&quot;submit\&quot; value=\&quot;ï¿½ï¿½ï¿½ï¿½\&quot; name=\&quot;execute\&quot;&gt;\n&quot;);
             writer.write(&quot;&lt;/FORM&gt;\n&quot;);
             writer.write(&quot;&lt;/BODY&gt;\n&quot;);
 
         } finally {
-            // Reader‚àWriter‚àƒNƒ[ƒY‚µ‚Ü‚¹‚ñBflush‚àŒÄ‚Ño‚µ‚Ä‚Í‚È‚è‚Ü‚¹‚ñB(2005.03.13‚É”»–¾)
+            // Readerï¿½ï¿½Writerï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bflushï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½B(2005.03.13ï¿½É”ï¿½ï¿½ï¿½)
         }
     }
 
     /**
-     * ƒfƒtƒHƒ‹ƒg‚Æ‚È‚éƒŒƒXƒ|ƒ“ƒXƒwƒbƒ_[‚Ì•t—^
+     * ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Æ‚È‚éƒŒï¿½Xï¿½|ï¿½ï¿½ï¿½Xï¿½wï¿½bï¿½_ï¿½[ï¿½Ì•tï¿½^
      * 
      * @param response
-     *            ƒŒƒXƒ|ƒ“ƒXƒIƒuƒWƒFƒNƒg‚ð—^‚¦‚Ü‚·B
+     *            ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Xï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     private void setResponseDefault(final HttpServletResponse response) {
         response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
@@ -197,194 +197,194 @@ public class SampleServlet extends HttpServlet {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>Ž„‚É‚Æ‚Á‚Ä‚Ì‹^–â“_</P>
+<P>ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Ì‹^ï¿½ï¿½_</P>
 <UL>
-  <LI>Java Servlet‚Ì Request ‚â Response‚©‚ç“¾‚ç‚ê‚é Reader ‚â Writer‚Í ƒNƒ[ƒY‚µ‚È‚­‚Ä—Ç‚¢‚Ì‚©H ‚»‚ê‚Í‚È‚º‚©H<BR>
-  Ì‚©‚ç ‚¸`‚Á‚Æ•sŽv‹c‚È‚Ì‚Å‚·BAAA‚»‚¤‚©ABluePrint‚ðŒ©‚ê‚Î—Ç‚¢‚Å‚·‚ËB<BR>
-  <FONT color="#ff0000">2005.03.13</FONT> ¨ ‚±‚Ì–â‘è‚Í‰ðŒˆ‚µ‚Ü‚µ‚½BŒ‹˜_‚©‚çŒ¾‚¤‚ÆAƒNƒ[ƒY‚µ‚È‚­‚Ä‚à—Ç‚¢‚Ì‚Å‚·B‚Þ‚µ‚ëƒNƒ[ƒY‚·‚é‚Æ—LŠQ‚Å‚·BÚ×‚ÍŒãqB
-  <LI>‚È‚ñ‚Å •¶Žš‰»‚¯‘Î‰ž‚ðs‚í‚È‚­‚Ä‚Í‚È‚ç‚È‚¢‚Ì‚©H<BR>
-  ‚¤`‚ÞB‚±‚ê‚Ü‚½“ïˆÕ“x‚ª‚‚»‚¤‚Å‚·B
+  <LI>Java Servletï¿½ï¿½ Request ï¿½ï¿½ Responseï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ï¿½ï¿½ Reader ï¿½ï¿½ Writerï¿½ï¿½ ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä—Ç‚ï¿½ï¿½Ì‚ï¿½ï¿½H ï¿½ï¿½ï¿½ï¿½Í‚È‚ï¿½ï¿½ï¿½ï¿½H<BR>
+  ï¿½Ì‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Æ•sï¿½vï¿½cï¿½È‚Ì‚Å‚ï¿½ï¿½Bï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ABluePrintï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î—Ç‚ï¿½ï¿½Å‚ï¿½ï¿½ËB<BR>
+  <FONT color="#ff0000">2005.03.13</FONT> ï¿½ï¿½ ï¿½ï¿½ï¿½Ì–ï¿½ï¿½Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½çŒ¾ï¿½ï¿½ï¿½ÆAï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Þ‚ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½Æ—Lï¿½Qï¿½Å‚ï¿½ï¿½Bï¿½Ú×‚ÍŒï¿½qï¿½B
+  <LI>ï¿½È‚ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½H<BR>
+  ï¿½ï¿½ï¿½`ï¿½ÞBï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
-<P>ŽQlƒŠƒ“ƒN</P>
+<P>ï¿½Qï¿½lï¿½ï¿½ï¿½ï¿½ï¿½N</P>
 <UL>
   <LI>RFC2616 HTTP/1.1<BR>
   <A HREF="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html</A>
 </UL>
-<P>ŽQl“ú‹L</P>
+<P>ï¿½Qï¿½lï¿½ï¿½ï¿½L</P>
 <UL>
-  <LI>muimy‚³‚ñ‚Ì“ú‹L: 2004-11-11 Tomcat‚ÌURLƒpƒ‰ƒ[ƒ^•¶Žš‰»‚¯<BR>
+  <LI>muimyï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½L: 2004-11-11 Tomcatï¿½ï¿½URLï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://d.hatena.ne.jp/muimy/20041111#1100172516">http://d.hatena.ne.jp/muimy/20041111#1100172516</A><BR>
-  ‚È‚é‚Ù‚ÇA‚»‚¤‚¢‚¤‚±‚Æ‚È‚ñ‚Å‚·‚ËB(muimy‚³‚ñ‚Í—L–¼‚ÈJava‚Ìƒ‰ƒCƒ^[‚³‚ñ‚Å‚·)
+  ï¿½È‚ï¿½Ù‚ÇAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ï¿½Å‚ï¿½ï¿½ËB(muimyï¿½ï¿½ï¿½ï¿½Í—Lï¿½ï¿½ï¿½ï¿½Javaï¿½Ìƒï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½Å‚ï¿½)
 </UL>
-<P><FONT color="#ff0000">2004.11.13</FONT> ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ð ISO-2022-JP ‚É•ÏX‚µ‚Ü‚µ‚½BMETAƒ^ƒO‚ÉƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bˆê•”
-ƒLƒƒƒbƒVƒ…‚Ü‚í‚è‚Å“sŽs“`à‚Ý‚½‚¢‚ÈƒR[ƒh‚ªŽc‚Á‚Ä‚¢‚Ü‚·‚¯‚ê‚Ç‚à‚ËB<BR>
-Expires‚É0‚ðÝ’è‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B-1‚Æ‚¢‚¤‚Ì‚Í“sŽs“`à‚¾‚Á‚½–Í—lBRFC‚Å 0 ‚ª³‰ð‚Å‚ ‚é‚±‚Æ‚ðŠm”F‚µ‚Ü‚µ‚½B<BR>
-‚»‚ê‚É‚µ‚Ä‚àAÅ’áƒŒƒxƒ‹‚ªA‚È‚º‚±‚ñ‚È‚É‘òŽR‚ÌƒR[ƒh‚ª•K—v‚È‚Ì‚Å‚µ‚å‚¤B•sŽv‹c‚È‹CŽ‚¿‚Å‚¢‚Á‚Ï‚¢‚Å‚·B</P>
-<P><FONT color="#ff0000">2005.03.13</FONT> Request ‚â Response‚©‚ç“¾‚ç‚ê‚é Reader ‚â Writer‚Í ƒNƒ[ƒY‚µ‚È‚¢‚Ì‚ªì–@‚Æ‚¢‚¤‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B‚Þ‚µ‚ëƒNƒ[ƒY‚µ‚Ä‚Í‚¢‚¯‚Ü‚¹‚ñB‚Ü‚¾flush‚àŒÄ‚Ño‚µ‚Ä‚Í‚È‚è‚Ü‚¹‚ñBuJava
-Computing 2005 Springv ‚Ì JaJakarta BOF‚É‚¨‚¢‚ÄA‰º‹L‚Ì•ûX‚É‹³‚¦‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B</P>
+<P><FONT color="#ff0000">2004.11.13</FONT> ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½ ISO-2022-JP ï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BMETAï¿½^ï¿½Oï¿½ÉƒGï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ê•”
+ï¿½Lï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Å“sï¿½sï¿½`ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ÈƒRï¿½[ï¿½hï¿½ï¿½ï¿½cï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ËB<BR>
+Expiresï¿½ï¿½0ï¿½ï¿½Ý’è‚·ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B-1ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚Í“sï¿½sï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í—lï¿½BRFCï¿½ï¿½ 0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½Å’áƒŒï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚É‘ï¿½Rï¿½ÌƒRï¿½[ï¿½hï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½sï¿½vï¿½cï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.03.13</FONT> Request ï¿½ï¿½ Responseï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ï¿½ï¿½ Reader ï¿½ï¿½ Writerï¿½ï¿½ ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½@ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Þ‚ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½flushï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½uJava
+Computing 2005 Springï¿½v ï¿½ï¿½ JaJakarta BOFï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Lï¿½Ì•ï¿½ï¿½Xï¿½É‹ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.netpotlet.com/" TITLE="“ú–{‚ÌServlet/JSP‚Ì‘æˆêlŽÒ‚Ì•ûB‚»‚êˆÈŠO‚ÌJava‚ÌƒWƒƒƒ“ƒ‹‚É‚à ‹­‚¢‰e‹¿—Í‚ðŽ‚Á‚Ä‚¢‚Ü‚·B‚»‚µ‚Ä‚Ç‚¤‚â‚ç Ž„‚Ì“ú‹L‚ð‚²‚ç‚ñ’¸‚¢‚Ä‚¢‚é–Í—lB‚Æ‚Ä‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B">Œ´“c—mŽq</A>‚³‚ñ
-  <LI><A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="î•ñ‹Zp‚ÌŠJ”­Œ»ê‚Å“­‚­¦˜r‹ZpŽÒ‚ÅAŠŽ‚Âî•ñ‹Zpƒ‰ƒCƒ^[‚ð‚³‚ê‚Ä‚¢‚é•ûB’¼Ú“I‚È–ÊŽ¯‚à‚ ‚è ‚Æ‚Ä‚à‹­‚¢‰e‹¿‚ð—^‚¦‚Ä–á‚Á‚Ä‚¢‚Ü‚·BFlash MX‚ð‹Æ–±ƒVƒXƒeƒ€‚ÅŽg‚¤‚Æ‚¢‚¤¢ŠE‚ÉŽ„‚ð‚¢‚´‚È‚Á‚½‚Ì‚à‰H¶‚³‚ñ ‚»‚Ìl‚Å‚·B">‰H¶Í—m</A>‚³‚ñ
-  <LI>–^‘åŽèƒ\ƒtƒgƒEƒFƒA‰ïŽÐ‚ÌJavaŒnƒCƒ“ƒXƒgƒ‰ƒNƒ^[‚³‚ñ x2
+  <LI><A HREF="http://www.netpotlet.com/" TITLE="ï¿½ï¿½ï¿½{ï¿½ï¿½Servlet/JSPï¿½Ì‘ï¿½ï¿½lï¿½Ò‚Ì•ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÈŠOï¿½ï¿½Javaï¿½ÌƒWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ç‚ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ’¸‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½Bï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">ï¿½ï¿½ï¿½cï¿½mï¿½q</A>ï¿½ï¿½ï¿½ï¿½
+  <LI><A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="ï¿½ï¿½ï¿½Zï¿½pï¿½ÌŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Zï¿½pï¿½Ò‚ÅAï¿½ï¿½ï¿½Âï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ú“Iï¿½È–ÊŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BFlash MXï¿½ï¿½ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÅŽgï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìlï¿½Å‚ï¿½ï¿½B">ï¿½Hï¿½ï¿½ï¿½Í—m</A>ï¿½ï¿½ï¿½ï¿½
+  <LI>ï¿½^ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½ï¿½Ð‚ï¿½Javaï¿½nï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ x2
 </UL>
-<P>‚È‚ñ‚Å‚àÌ‚ÍƒNƒ[ƒY‚µ‚È‚¢‚Æ‚¢‚¯‚È‚©‚Á‚½‚Ì‚¾‚»‚¤‚Å‚·‚ªAHTTP 1.1 ‚ÌŽž‘ã‚É‚È‚Á‚½‚çˆê“] ¡“x‚ÍƒNƒ[ƒY‚µ‚Ä‚Í‚¢‚¯‚È‚­‚È‚Á‚½‚Ì‚¾‚»‚¤‚Å‚·B‚±‚ê‚Í
-HTTP 1.1‚É‚¨‚¢‚Ä‚Í Keep Alive‚ªƒfƒtƒHƒ‹ƒg‚Å‚·‚ªAclose‚ð–¾Ž¦“I‚ÉŒÄ‚Ño‚·‚Æ ƒ\ƒPƒbƒg‚ðƒNƒ[ƒY‚µ‚Ä‚µ‚Ü‚¤–â‘è‚ª”­¶‚·‚é
-(ê‡‚ª‚ ‚é) ‚Æ‚Ì‚±‚Æ‚Å‚·B–³—‚ÉƒNƒ[ƒY‚µ‚Ä‚µ‚Ü‚¤‚ÆAƒNƒ‰ƒCƒAƒ“ƒg‘¤‚ªˆÙí‚ðŒŸ’m‚µ‚Ä‚µ‚Ü‚¤‚±‚Æ‚ª‚ ‚é‚Æ‚Ì‚±‚ÆBAAA‚±‚Ì–â‘è‚Í “ïˆÕ“x‚ª‚‚©‚Á‚½‚Å‚·B‚Å‚à
-‚ ‚é‚×‚«Žp‚ð’m‚é‚±‚Æ‚ªo—ˆ‚Ä‚Æ‚Ä‚àŠð‚µ‚¢‚Å‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½È‚ï¿½Å‚ï¿½ï¿½Ì‚ÍƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½AHTTP 1.1 ï¿½ÌŽï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½] ï¿½ï¿½ï¿½xï¿½ÍƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½
+HTTP 1.1ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ Keep Aliveï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½ï¿½ï¿½Acloseï¿½ð–¾Žï¿½ï¿½Iï¿½ÉŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½ ï¿½\ï¿½Pï¿½bï¿½gï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ÆAï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ùï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½ÆBï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½ ï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Å‚ï¿½
+ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½pï¿½ï¿½mï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050315.html">2005/03/15 “ú‹L: ƒVƒ“ƒvƒ‹‚Èƒ_ƒEƒ“ƒ[ƒhƒT[ƒuƒŒƒbƒg‚Ì—Œ` , Jakarta POI‚ÌExcel‘‚«o‚µ‚É‹ê‚µ‚ß‚ç‚ê‚é</A>
+  <LI><A href="../2005/ig050315.html">2005/03/15 ï¿½ï¿½ï¿½L: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Ìï¿½ï¿½` , Jakarta POIï¿½ï¿½Excelï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½É‹ê‚µï¿½ß‚ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>u‚Í‚¶‚ß‚Év‚ªŽ·•M‚Å‚«‚Ä‚¢‚Ü‚¹‚ñ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½uï¿½Í‚ï¿½ï¿½ß‚Évï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>’˜ŽÒƒvƒƒtƒB[ƒ‹‚Æ‚©‘Ñ‚Æ‚©‚Ì¬•¨‚Í‘‚«‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½Òƒvï¿½ï¿½ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ñ‚Æ‚ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‹i’ƒ•ƒpƒ“ ƒjƒ…[ƒuƒŠƒbƒW‚Æ‚¢‚¤‹i’ƒ“X</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ ï¿½jï¿½ï¿½ï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½Wï¿½Æ‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚x–{‚³‚ñ‚Æ ‹i’ƒ“X‚Å‘Ð‘Å‚¿‡‚í‚¹B<BR>
-ƒjƒ…[ƒuƒŠƒbƒW‚ÌˆÓ–¡‚ðl‚¦‚Ä‚Ý‚éB‚ ‚  ‚È‚é‚Ù‚Ç uV‹´v‚Ì‚±‚Æ‚©c (‹êÎ)</P>
+<P>ï¿½xï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½iï¿½ï¿½ï¿½Xï¿½Åï¿½ï¿½Ð‘Å‚ï¿½ï¿½ï¿½ï¿½í‚¹ï¿½B<BR>
+ï¿½jï¿½ï¿½ï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½Wï¿½ÌˆÓ–ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Ä‚Ý‚ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½È‚ï¿½Ù‚ï¿½ ï¿½uï¿½Vï¿½ï¿½ï¿½vï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½c (ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Tomcatƒvƒ‰ƒOƒCƒ“</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Tomcatï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚³‚ ‚ÄA’²¸ŠJŽn (­‚µ‘O‚à“¯‚¶‚±‚Æ‚ðŒ¾‚Á‚Ä‚¢‚½‚æ‚¤‚È‹C‚ªc)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½n (ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½c)</P>
 <UL>
   <LI><A HREF="http://eclipsewiki.net/eclipse/index.php?Tomcat%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">http://eclipsewiki.net/eclipse/index.php?Tomcat%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3</A>
   <LI>Sysdeo Eclipse Tomcat Launcher plugin
   <UL>
     <LI><A HREF="http://www.sysdeo.com/eclipse/tomcatPlugin.html">http://www.sysdeo.com/eclipse/tomcatPlugin.html</A><BR>
-    2.2.1‚ðŽŽ‚·BtomcatPluginV221.zipB‚È‚ñ‚Æ“ú–{Œê‰»‚ª‚È‚³‚ê‚Ä‚¢‚Ü‚·I ‚Ñ‚Á‚­‚èI
+    2.2.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½BtomcatPluginV221.zipï¿½Bï¿½È‚ï¿½Æ“ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½I ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½I
   </UL>
 </UL>
-<P>Žè‡</P>
+<P>ï¿½è‡</P>
 <UL>
-  <LI>Eclispe‚ª(‚à‚µ“®‚¢‚Ä‚¢‚½‚ç)’âŽ~
-  <LI>%eclipse_home%/plugins ‚É ‰ð“€‚µ‚½ƒtƒ@ƒCƒ‹‚ðƒRƒs[ (‚æ‚­‚ ‚éƒvƒ‰ƒOƒCƒ“‚Ì“±“ü•û–@‚Å‚·‚Ë)
-  <LI>Eclipse‚ð‹N“®
-  <LI>uƒvƒ‰ƒOƒCƒ“‚Ì—LŒø‰»v
+  <LI>Eclispeï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½~
+  <LI>%eclipse_home%/plugins ï¿½ï¿½ ï¿½ð“€‚ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ (ï¿½æ‚­ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Å‚ï¿½ï¿½ï¿½)
+  <LI>Eclipseï¿½ï¿½ï¿½Nï¿½ï¿½
+  <LI>ï¿½uï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ï¿½v
   <UL>
-    <LI>ƒEƒBƒ“ƒhƒE(W) ¨ ƒp[ƒXƒyƒNƒeƒBƒu‚ÌƒJƒXƒ^ƒ}ƒCƒY(Z)
-    <LI>‚»‚Ì‘¼ ¨ Tomcat ‚Éƒ`ƒFƒbƒN‚ð“ü‚ê‚é
-    <LI>OK‚ð‰Ÿ‚·
+    <LI>ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E(W) ï¿½ï¿½ ï¿½pï¿½[ï¿½Xï¿½yï¿½Nï¿½eï¿½Bï¿½uï¿½ÌƒJï¿½Xï¿½^ï¿½}ï¿½Cï¿½Y(Z)
+    <LI>ï¿½ï¿½ï¿½Ì‘ï¿½ ï¿½ï¿½ Tomcat ï¿½Éƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    <LI>OKï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   </UL>
-  <LI>uTomcat ƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚ÌÝ’èv
+  <LI>ï¿½uTomcat ï¿½zï¿½[ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ÌÝ’ï¿½v
   <UL>
-    <LI>ƒEƒBƒ“ƒhƒE(W) ¨ Ý’è(P)
-    <LI>TomcatƒcƒŠ[ƒm[ƒh‚ð‘I‘ð
-    <LI>ƒo[ƒWƒ‡ƒ“‚ð‘I‘ð
+    <LI>ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E(W) ï¿½ï¿½ ï¿½Ý’ï¿½(P)
+    <LI>Tomcatï¿½cï¿½ï¿½ï¿½[ï¿½mï¿½[ï¿½hï¿½ï¿½Iï¿½ï¿½
+    <LI>ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½
     <UL>
-      <LI>Tomcatƒz[ƒ€‚ð ƒuƒ‰ƒEƒY(B) ‚ð‰Ÿ‚µ‚Ä‘I‘ð <BR>
-      —á C:\Program Files\Apache Group\Tomcat 4.1
+      <LI>Tomcatï¿½zï¿½[ï¿½ï¿½ï¿½ï¿½ ï¿½uï¿½ï¿½ï¿½Eï¿½Y(B) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‘Iï¿½ï¿½ <BR>
+      ï¿½ï¿½ C:\Program Files\Apache Group\Tomcat 4.1
       <LI>OK
     </UL>
   </UL>
-  <LI>ƒEƒBƒ“ƒhƒE(W)¨Ý’è(P)
+  <LI>ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E(W)ï¿½ï¿½ï¿½Ý’ï¿½(P)
   <UL>
-    <LI>[Java]ƒcƒŠ[ƒm[ƒh“à‚Ì [ƒCƒ“ƒXƒg[ƒ‹Ï‚Ý JRE] ƒcƒŠ[ƒm[ƒh‚ð‘I‘ð
-    <LI>[’Ç‰Á]ƒ{ƒ^ƒ“
-    <LI>[JRE‚Ìì¬]ƒEƒBƒ“ƒhƒE
+    <LI>[Java]ï¿½cï¿½ï¿½ï¿½[ï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ [ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Ï‚ï¿½ JRE] ï¿½cï¿½ï¿½ï¿½[ï¿½mï¿½[ï¿½hï¿½ï¿½Iï¿½ï¿½
+    <LI>[ï¿½Ç‰ï¿½]ï¿½{ï¿½^ï¿½ï¿½
+    <LI>[JREï¿½Ìì¬]ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E
     <UL>
-      <LI>JRE‚ÌŒ^ : •W€VM
-      <LI>JRE–¼ : J2SE SDK
-      <LI>JRE‚Ìƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ[ : C:\j2sdk1.4.2
-      <LI>OKƒ{ƒ^ƒ“
+      <LI>JREï¿½ÌŒ^ : ï¿½Wï¿½ï¿½VM
+      <LI>JREï¿½ï¿½ : J2SE SDK
+      <LI>JREï¿½Ìƒzï¿½[ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½[ : C:\j2sdk1.4.2
+      <LI>OKï¿½{ï¿½^ï¿½ï¿½
     </UL>
   </UL>
-  <LI>ƒEƒBƒ“ƒhƒE(W)¨Ý’è(P)
+  <LI>ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E(W)ï¿½ï¿½ï¿½Ý’ï¿½(P)
   <UL>
-    <LI>[Tomcat]ƒcƒŠ[ƒm[ƒh“à‚Ì [JVM‚ÌÝ’è] ƒcƒŠ[ƒm[ƒh‚ð‘I‘ð
+    <LI>[Tomcat]ï¿½cï¿½ï¿½ï¿½[ï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ [JVMï¿½ÌÝ’ï¿½] ï¿½cï¿½ï¿½ï¿½[ï¿½mï¿½[ï¿½hï¿½ï¿½Iï¿½ï¿½
     <UL>
-      <LI>JRE [J2SE SDK]‚ð‘I‘ð
-      <LI>OKƒ{ƒ^ƒ“
+      <LI>JRE [J2SE SDK]ï¿½ï¿½Iï¿½ï¿½
+      <LI>OKï¿½{ï¿½^ï¿½ï¿½
     </UL>
   </UL>
 </UL>
-<P>‚µ‚©‚µ‚±‚ê‚ÅAEclipse‚©‚ç‚¤‚Ü‚­‹N“®EI—¹‚È‚Ç‚Í‚Å‚«‚é‚Ì‚Å‚·‚ªA‚Í‚ÄA‚È‚º‚©ƒuƒŒ[ƒNƒ|ƒCƒ“ƒg‚ð—˜—p‚µ‚½ƒfƒoƒbƒO‚ðs‚¤‚±‚Æ‚ªo—ˆ‚Ü‚¹‚ñB‚Í‚ÄB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAEclipseï¿½ï¿½ï¿½ç‚¤ï¿½Ü‚ï¿½ï¿½Nï¿½ï¿½ï¿½Eï¿½Iï¿½ï¿½ï¿½È‚Ç‚Í‚Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Í‚ÄAï¿½È‚ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½[ï¿½Nï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½fï¿½oï¿½bï¿½Oï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Í‚ÄB</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTPƒvƒƒgƒRƒ‹‚Ìƒƒ‚</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>HTTPï¿½vï¿½ï¿½ï¿½gï¿½Rï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¢‚Â‚à’²‚×‚Ä‚ÍŒ©‚Â‚¯‚éHTTPƒvƒƒgƒRƒ‹‚ÌRFC“ú–{Œê–ó</P>
+<P>ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½×‚Ä‚ÍŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½HTTPï¿½vï¿½ï¿½ï¿½gï¿½Rï¿½ï¿½ï¿½ï¿½RFCï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½</P>
 <UL>
   <LI>RFC-Translations related HTTP<BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/">http://www.studyinghttp.net/rfc_ja/</A>
   <LI>Hypertext Transfer Protocol -- HTTP/1.1 [RFC2616] <BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html">http://www.studyinghttp.net/rfc_ja/2616/rfc2616_ja.html</A>
-  <LI>ƒLƒƒƒbƒVƒ…ƒRƒ“ƒgƒ[ƒ‹<BR>
+  <LI>ï¿½Lï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½<BR>
   <A HREF="http://www.studyinghttp.net/rfc_ja/2616/sec14.html#sec14.9">http://www.studyinghttp.net/rfc_ja/2616/sec14.html#sec14.9</A>
 </UL>
-<P>(‹Æ–±˜A—) ‚±‚ê‚ðŒ©‚é‚ÆACache-Control ‚Æ Pragma: no-cache‚Æ‚ÌˆÊ’u‚Ã‚¯‚ª‚í‚©‚è‚Ü‚·‚Ë „ ‚½‚Þ‚Û‚ñ</P>
+<P>(ï¿½Æ–ï¿½ï¿½Aï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆACache-Control ï¿½ï¿½ Pragma: no-cacheï¿½Æ‚ÌˆÊ’uï¿½Ã‚ï¿½ï¿½ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Þ‚Û‚ï¿½</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Webƒuƒ‰ƒEƒU‚Ì’ÊM“à—e‚ð‰¡Žæ‚è‚·‚éƒ\ƒtƒg</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Webï¿½uï¿½ï¿½ï¿½Eï¿½Uï¿½Ì’ÊMï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½ï¿½\ï¿½tï¿½g</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹¦—Í‰ïŽÐ‚Ì‚½‚Þ‚Û‚ñ‚³‚ñ‚©‚ç ƒ\ƒtƒg‚ð‹³‚¦‚Ä‚à‚ç‚¤B</P>
+<P>ï¿½ï¿½ï¿½Í‰ï¿½Ð‚Ì‚ï¿½ï¿½Þ‚Û‚ñ‚³‚ñ‚©‚ï¿½ ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¤ï¿½B</P>
 <UL>
-  <LI>‰¡Žæ‚èŠÛ<BR>
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://hide.maruo.co.jp/software/ydm.html">http://hide.maruo.co.jp/software/ydm.html</A><BR>
-  HTTP“d•¶ƒƒbƒZ[ƒW‚ð‰¡Žæ‚è‚·‚éƒ\ƒtƒgBGŠÛƒ\ƒtƒg‚ÌŽo–…•iB
+  HTTPï¿½dï¿½ï¿½ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½ï¿½\ï¿½tï¿½gï¿½Bï¿½Gï¿½Ûƒ\ï¿½tï¿½gï¿½ÌŽoï¿½ï¿½ï¿½iï¿½B
   <LI>InetSpy<BR>
   <A HREF="http://hide.maruo.co.jp/software/inetspy.html">http://hide.maruo.co.jp/software/inetspy.html</A><BR>
-  ‰¡Žæ‚èŠÛ‚ð—˜—p‚·‚éÛ‚Éˆê‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éB
+  ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ð—˜—pï¿½ï¿½ï¿½ï¿½Û‚Éˆêï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P>ƒlƒbƒgƒ[ƒN‚ðƒLƒƒƒvƒ`ƒƒƒŠƒ“ƒO‚µ‚Ä‰{——‚·‚é‚Æ‚¢‚¤ˆê˜A‚Ì—¬‚ê‚ðA‚Æ‚Ä‚àƒXƒ€[ƒY‚ÉŽÀŽ{‰Â”\‚Å‚·B‚·‚Î‚ç‚µ‚¢BWebŒnŠJ”­‚ÌŒ»ê‚É‚Í‚Æ‚Ä‚à•Ö—˜‚¾‚ÆŽv‚¢‚Ü‚µ‚½BŠî–{“I‚É‚Íƒlƒbƒgƒ[ƒNƒLƒƒƒvƒ`ƒƒƒ\ƒtƒg‚ªD‚«‚È‚Ì‚Å‚·‚ªA‚±‚¤‚¢‚¤ŠÈ•Ö‚Èƒ\ƒtƒg‚àê–Ê‚É‚æ‚Á‚Ä‚Í‚æ‚èŽg‚¢ŸŽè‚ª‚æ‚¢‚æ‚¤‚Å‚·‚ËBc‚½‚¾‚µ
-‚»‚ÌŠJ”­ŽÒ‚Ì•û‚É‚Í arton‚³‚ñ‚Ì FreePeek‚ð‹³‚¦‚Ä‚¨‚«‚Ü‚µ‚½B‚Ü‚½ <A href="http://www.vector.co.jp/soft/winnt/net/se125800.html">FreePeek</A>ƒ†[ƒU‚ð‘‚â‚·‚±‚Æ‚É¬Œ÷‚µ‚½‚æ‚¤‚Å‚·B</P>
+<P>ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½vï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ä‰{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚Ä‚ï¿½ï¿½Xï¿½ï¿½ï¿½[ï¿½Yï¿½ÉŽï¿½ï¿½{ï¿½Â”\ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Î‚ç‚µï¿½ï¿½ï¿½BWebï¿½nï¿½Jï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½É‚Í‚Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½É‚Íƒlï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Lï¿½ï¿½ï¿½vï¿½`ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½Dï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È•Ö‚Èƒ\ï¿½tï¿½gï¿½ï¿½ï¿½ï¿½Ê‚É‚ï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½æ‚¢ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½ËBï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ÌŠJï¿½ï¿½ï¿½Ò‚Ì•ï¿½ï¿½É‚ï¿½ artonï¿½ï¿½ï¿½ï¿½ï¿½ FreePeekï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ <A href="http://www.vector.co.jp/soft/winnt/net/se125800.html">FreePeek</A>ï¿½ï¿½ï¿½[ï¿½Uï¿½ð‘‚â‚·ï¿½ï¿½ï¿½Æ‚Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XV•p“x‚Ì’á‚¢ƒTƒCƒg‚ª‰{——˜R‚ê‚É‚È‚è‚ª‚¿</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Xï¿½Vï¿½pï¿½xï¿½Ì’á‚¢ï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Rï¿½ï¿½É‚È‚è‚ªï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI><A HREF="http://d.hatena.ne.jp/satoshis/20040309#p1">http://d.hatena.ne.jp/satoshis/20040309#p1</A>
 </UL>
-<P>‚Ó‚¤‚ÞBŽ„‚à‚»‚¤Žv‚¢‚Ü‚·B‚Å‚ÍA‚±‚ê‚ð‰ü‘P‚·‚×‚­AƒAƒ“ƒeƒiˆË‘¶Ç‰Á‘¬‘•’u‚ðH•v‚µ‚ÄA‚½‚Æ‚¦‚ÎA‘O‰ñ‚Ì‰{——ŽžŠÔ‚ð‹L‰¯‚µ‚ÄA‚»‚¤‚¢‚¤ƒTƒCƒg‚ªXV‚³‚ê‚ê‚Î—Dæ“I‚ÉãˆÊ‚É•\Ž¦‚·‚é‚æ‚¤‚ÈA‚»‚ñ‚ÈŽè‚ª‰Á‚í‚ê‚Î‚Æ‚Á‚Ä‚à•Ö—˜‚Å‚·‚¤B(‚Æ
-ŸŽè‚ÉŠó–]Žd—l‚ð‘‚¢‚Ä‚¢‚½‚çAìŽÒ‚³‚ñ‚ª‚·‚®‚³‚Ü”½‰ž‚³‚ê‚Ä‚ç‚ê‚Ü‚µ‚½)</P>
+<P>ï¿½Ó‚ï¿½ï¿½ÞBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Å‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½×‚ï¿½ï¿½Aï¿½Aï¿½ï¿½ï¿½eï¿½iï¿½Ë‘ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½Hï¿½vï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÎAï¿½Oï¿½ï¿½Ì‰{ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Î—Dï¿½ï¿½Iï¿½Éï¿½Ê‚É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÈAï¿½ï¿½ï¿½ï¿½ÈŽè‚ªï¿½ï¿½ï¿½ï¿½ï¿½Î‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ÉŠï¿½]ï¿½dï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Ò‚ï¿½ï¿½ñ‚ª‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒI[ƒPƒXƒgƒ‰‚Ö‚Ì‚¢‚´‚È‚¢</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Iï¿½[ï¿½Pï¿½Xï¿½gï¿½ï¿½ï¿½Ö‚Ì‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>“ú‹L‚Éˆø‚Á‰z‚µ‚È‚Ç‚Æ‘‚¢‚Ä‚¢‚½‚çAÌŠ‘®‚µ‚Ä‚¢‚½ƒI[ƒPƒXƒgƒ‰‚©‚ç Š©—U‚Ìƒ[ƒ‹‚ª“Í‚«‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½Lï¿½Éˆï¿½ï¿½ï¿½ï¿½zï¿½ï¿½ï¿½È‚Ç‚Æï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Iï¿½[ï¿½Pï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Uï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>–k‹æ–¯ƒI[ƒPƒXƒgƒ‰<BR>
+  <LI>ï¿½kï¿½æ–¯ï¿½Iï¿½[ï¿½Pï¿½Xï¿½gï¿½ï¿½<BR>
   <A HREF="http://www.bea.hi-ho.ne.jp/sasaki-fy/kitaorch/kitaorch.html">http://www.bea.hi-ho.ne.jp/sasaki-fy/kitaorch/kitaorch.html</A><BR>
-  “ú‹Lƒpƒ[A‚¨‚»‚é‚×‚µI
+  ï¿½ï¿½ï¿½Lï¿½pï¿½ï¿½ï¿½[ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½I
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒAƒ‹ƒtƒ@ƒVƒXƒeƒ€ƒYA‹³ˆç‹@ŠÖŒü‚¯‚ÌLinuxƒJƒXƒ^ƒ}ƒCƒYƒT[ƒrƒX‚ð’ñ‹Ÿ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Yï¿½Aï¿½ï¿½ï¿½ï¿½@ï¿½ÖŒï¿½ï¿½ï¿½ï¿½ï¿½Linuxï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI><A HREF="http://enterprise.watch.impress.co.jp/cda/software/2004/03/15/1658.html">http://enterprise.watch.impress.co.jp/cda/software/2004/03/15/1658.html</A>
 </UL>
-<P>‚Ù‚Ù‚¤B<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="Å‹ß ¢ŠÔ‚Å‚ÌŠú‘Ò‚ª‚à‚Á‚Æ‚àW‚Ü‚Á‚Ä‚¢‚éLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚ÂB">KNOPPIX</A>ƒx[ƒX‚Å‚·‚©B‚â‚é‚È‚ B</P>
+<P>ï¿½Ù‚Ù‚ï¿½ï¿½B<A https://www.igapyon.jp/igapyon/diary/diary/keyword/knoppix.html" TITLE="ï¿½Å‹ï¿½ ï¿½ï¿½ï¿½Ô‚Å‚ÌŠï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Wï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ÂB">KNOPPIX</A>ï¿½xï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½È‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

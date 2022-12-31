@@ -13,7 +13,7 @@
 
 ### 検索
 
-* <@linksearch title="Search 'Heroku' in google in-site" word="Heroku" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Heroku' in google in-site" word="Heroku" site="https://www.igapyon.jp/igapyon/diary/" />
 * <@linksearch word="Heroku" />
 * <@linksearch word="Heroku" engine="twitter" />
 

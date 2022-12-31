@@ -16,7 +16,7 @@
   
 * [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/) への感想を投稿
   
-* [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)が対応できずに [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/)には反映/転載されなかったメールを救う (いがぴょんは
+* [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)が対応できずに [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/)には反映/転載されなかったメールを救う (いがぴょんは
   ずぼら です)
   
 * [いがぴょんの日記ウェブページ](http://homepage2.nifty.com/igat/igapyon/diary/)の更新情報のお知らせ

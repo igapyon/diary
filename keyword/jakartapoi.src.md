@@ -18,7 +18,7 @@ Excelファイルの入出力に着眼して、いくつかのサンプル・ト
 
 ### 関連があるリソース
 
-* http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html
+* https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html
 
 ### URL
 
@@ -26,6 +26,6 @@ Excelファイルの入出力に着眼して、いくつかのサンプル・ト
 
 ### 検索
 
-* <@linksearch title="Search 'Jakarta POI' in google in-site" word="Apache POI" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Jakarta POI' in google in-site" word="Apache POI" site="https://www.igapyon.jp/igapyon/diary/" />
 
 <@lastmodified date="2018-04-18"/>

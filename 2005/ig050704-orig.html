@@ -66,7 +66,7 @@
 </TABLE>
 <P>Javaで書かれたフリーなSQL整形ライブラリである「BlancoSqlFormatter」について、これをβ版リリースさせていただきます。<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のSQL整形ライブラリである <A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。">blancoSqlFormatter</A>として提供する形態を取ります。(<FONT color="#ff0000">2006.05.10追記</FONT> 当初は blancoCommonsに同梱して提供されていました)<BR>
 古くからの知人である渡辺義則 (<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>)さんにお願い (<STRONG><FONT color="#ff00ff">おねだり</FONT></STRONG>) してベースラインを作っていただきました。渡辺義則さま、お忙しいところ、大変ありがとうございます。これだけのものを ちょいっと作ってしまう渡辺さんには、いつも感動させられてばかりです。(少なくとも
-<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>には作ることは出来ません)<BR>
+<A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>には作ることは出来ません)<BR>
 ちなみに、渡辺義則さんは多くの(そしてそれらのいくつかは重要な) オープンソース・ソフトウェアを開発された方でもあります。</P>
 <P><FONT color="#ff00ff">BlancoSqlFormatterライブラリの基本方針</FONT></P>
 <P>このライブラリは SQL整形を行うことのみを目的としています。ライブラリとしての形態のみにてリリースしていく予定です。このライブラリを組み込んで
@@ -119,7 +119,7 @@ public class Test {
   <LI>まずは ANSI-SQL 99 を大まかにサポートすることを目標としています。<BR>
   固有のRDBMSのサポートは後回しに考えていますが、でもサポートできるに越したことはないと考えています。
   <LI>SQL文の試験データのバリエーションは まだまだ不足しています。<BR>
-  うまく整形できないSQL文がありましたら、入力SQL文(をデフォルメしたもの)・希望の整形後SQL文・期待とずれている箇所を明記のうえ、<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>までメールにて
+  うまく整形できないSQL文がありましたら、入力SQL文(をデフォルメしたもの)・希望の整形後SQL文・期待とずれている箇所を明記のうえ、<A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="いがぴょんに関する説明">いがぴょん</A>までメールにて
   お知らせください。実装上の都合・技術的な都合・美意識などでご期待に沿うことができない場合もあるかも知れませんが、ご指摘の内容に適切に対応できる場合もあります。
   <LI><FONT color="#ff0000">既知の問題</FONT>：MAX()などの式については、字下げが () カッコをベースとしたものになっているため、多少の不具合があることがすでにわかっています。しかし
   実装上の都合や 他のバランスとの兼ね合いもあり、現時点では、あえて () カッコ の字下げルールを基調としています。

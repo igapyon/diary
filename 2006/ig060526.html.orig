@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/05/26 “ú‹L: 3rd. Developers' Lounge‚ÉŽQ‰Á , Apple HeaderDoc‚ð Windows‚ÅŽg‚¤</TITLE>
-<META name="DESCRIPTION" content="3rd. Developers' Lounge‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½B , JavaScript‚ÌƒRƒƒ“ƒg‚©‚çAPIƒhƒLƒ…ƒƒ“ƒg‚ðì‚é‚½‚ß‚É HeaderDoc‚ð—˜—p‚µ‚Ä‚¢‚é‚Ì‚Å‚·‚ªA‚±‚ÌHeaderDoc‚ðWindows/ActivePerl‚Å—˜—p‚·‚é‚½‚ß‚ÌƒRƒcB">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript">
+<TITLE>2006/05/26 ï¿½ï¿½ï¿½L: 3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ , Apple HeaderDocï¿½ï¿½ Windowsï¿½ÅŽgï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , JavaScriptï¿½ÌƒRï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½APIï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ HeaderDocï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½HeaderDocï¿½ï¿½Windows/ActivePerlï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½cï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/05/26 “ú‹L: 3rd. Developers' Lounge‚ÉŽQ‰Á , Apple HeaderDoc‚ð Windows‚ÅŽg‚¤</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript] 3rd. Developers' Lounge‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½B , JavaScript‚ÌƒRƒƒ“ƒg‚©‚çAPIƒhƒLƒ…ƒƒ“ƒg‚ðì‚é‚½‚ß‚É HeaderDoc‚ð—˜—p‚µ‚Ä‚¢‚é‚Ì‚Å‚·‚ªA‚±‚ÌHeaderDoc‚ðWindows/ActivePerl‚Å—˜—p‚·‚é‚½‚ß‚ÌƒRƒcB</P>
+    <H2>2006/05/26 ï¿½ï¿½ï¿½L: 3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ , Apple HeaderDocï¿½ï¿½ Windowsï¿½ÅŽgï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ActivePerl,HeaderDoc,3rd. Developers' Lounge,JavaScript] 3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , JavaScriptï¿½ÌƒRï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½APIï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ HeaderDocï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½HeaderDocï¿½ï¿½Windows/ActivePerlï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½cï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,63 +60,63 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>3rd. Developers' Lounge‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ð“ú 3rd. Developers' Lounge ‚ªa’J‚É‚ÄŠJÃ‚³‚ê‚Ü‚µ‚½B‚±‚¿‚ç‚ÉŽQ‰Á‚³‚¹‚Ä’¸‚«‚Ü‚µ‚½B‚ ‚è‚ª‚½‚¢‚±‚Æ‚Å‚·B</P>
-<P>Apache AxisƒRƒ~ƒbƒ^‚ÌK‚³‚ñ‚Æ î•ñŒð—¬‚ð‚µ‚Ä‚«‚Ü‚µ‚½B<BR>
-Ž„‚Í‚©‚Ë‚Ä‚æ‚è Apache Axis2 ‚É”ñí‚É‹»–¡‚ðŽ‚Á‚Ä‚¢‚½‚Ì‚ÅA‚Æ‚Ä‚à—LˆÓ‹`‚Èî•ñ‚ª“¾‚ç‚ê‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ 3rd. Developers' Lounge ï¿½ï¿½ï¿½aï¿½Jï¿½É‚ÄŠJï¿½Ã‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä’ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</P>
+<P>Apache Axisï¿½Rï¿½~ï¿½bï¿½^ï¿½ï¿½Kï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ð—¬‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ë‚Ä‚ï¿½ï¿½ Apache Axis2 ï¿½É”ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½Æ‚Ä‚ï¿½ï¿½Lï¿½Ó‹`ï¿½Èï¿½ñ‚ª“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Apache Axis ƒRƒ~ƒ…ƒjƒeƒB‚ÌŠT—v‚É‚Â‚¢‚ÄB
-  <LI>Apache Axis2 ‚ÌÝŒvŽv‘zEŒ»ó‚É‚Â‚¢‚ÄB
-  <LI>Axis‚ÆAxis2‚Æ‚ð”äŠr‚·‚éÛ‚Ì—¯ˆÓ“_‚É‚Â‚¢‚ÄB<BR>
-  Axis‚ÆAxis2‚Æ ‚¢‚¸‚ê‚ðÌ—p‚·‚×‚«‚©‚É‚Â‚¢‚Ä‚Ì”»’fƒ|ƒCƒ“ƒgB
-  <LI>Message Transmission Optimization Mechanism (MTOM) ƒA[ƒLƒeƒNƒ`ƒƒ‚É‚Â‚¢‚ÄB<BR>
-  “Á‚É MTOM‚É‚Â‚¢‚Ä‚Ìî•ñ‚ðƒQƒbƒg‚Å‚«‚½‚Ì‚Í‘å•Ï—LˆÓ‹`‚Å‚µ‚½B
+  <LI>Apache Axis ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½Bï¿½ÌŠTï¿½vï¿½É‚Â‚ï¿½ï¿½ÄB
+  <LI>Apache Axis2 ï¿½ÌÝŒvï¿½vï¿½zï¿½Eï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄB
+  <LI>Axisï¿½ï¿½Axis2ï¿½Æ‚ï¿½ï¿½rï¿½ï¿½ï¿½ï¿½Û‚Ì—ï¿½ï¿½Ó“_ï¿½É‚Â‚ï¿½ï¿½ÄB<BR>
+  Axisï¿½ï¿½Axis2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Ì”ï¿½ï¿½fï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½B
+  <LI>Message Transmission Optimization Mechanism (MTOM) ï¿½Aï¿½[ï¿½Lï¿½eï¿½Nï¿½`ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄB<BR>
+  ï¿½ï¿½ï¿½ï¿½ MTOMï¿½É‚Â‚ï¿½ï¿½Ä‚Ìï¿½ï¿½ï¿½ï¿½Qï¿½bï¿½gï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚Í‘ï¿½Ï—Lï¿½Ó‹`ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><A HREF="http://arton.no-ip.info/diary/" TITLE=".NETŒn‹LŽ–Ž·•M‚à‘½‚¢arton‚³‚ñBŽdŽ–‚ÅJava‚àˆµ‚í‚ê‚Ä‚¢‚é‚Æ‚ÌŽ–BŽ„‚É‚Æ‚Á‚Ä‚Í FreePeek‚Æ‚¢‚¤‚Æ‚Ä‚à•Ö—˜‚Èƒ\ƒtƒg‚ÌìŽÒ‚³‚Ü‚Å‚·B‰H¶Í—m•‚¢‚ª‚Ò‚å‚ñ‡ƒRƒ“‚É‚Ä‰‚ß‚Ä‘Î–Ê‚µ‚Ü‚µ‚½B">arton</A>‚³‚ñ‚Æ ‹Zpî•ñ‚ðŒð—¬‚µ‚Ü‚µ‚½B(‚Æ‚¢‚¤‚©ˆê•û“I‚É î•ñ‚ð‚½‚­‚³‚ñ‹³‚¦‚Ä‚à‚ç‚¢‚Ü‚µ‚½B)</P>
+<P><A HREF="http://arton.no-ip.info/diary/" TITLE=".NETï¿½nï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½artonï¿½ï¿½ï¿½ï¿½Bï¿½dï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ÌŽï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ FreePeekï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½Ìï¿½Ò‚ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Bï¿½Hï¿½ï¿½ï¿½Í—mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‡ƒRï¿½ï¿½ï¿½É‚Äï¿½ï¿½ß‚Ä‘Î–Ê‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">arton</A>ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Zï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ð—¬‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‹³‚ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B)</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linux‚ð‘¼ƒVƒXƒeƒ€ã‚Å“®ì‚³‚¹‚é‚½‚ß‚Ì‰¼‘zƒ}ƒVƒ“‚ÌˆêŽí">coLinux</A>‚ÌƒXƒXƒ<BR>
-  coLinux‚ðƒfƒ‚‚µ‚Ä‚à‚ç‚¢‚Ü‚µ‚½B‚±‚ê‚Í‚·‚²‚¢‚ÆŽv‚¢‚Ü‚µ‚½B(coLinux‚ÌŽd—l‚É‚Â‚¢‚Ä‚Í’m‚Á‚Ä‚¢‚½‚Ì‚Å‚·‚ªAŽÀÛ‚ÉŽg‚Á‚Ä‚¢‚é‚Ì‚ðŒ©‚Ä ‚¨Š©‚ß‚³‚ê‚é‚Æ ‚±‚ê‚ªˆá‚Á‚ÄŒ©‚¦‚Ä‚­‚éE‚Í‚Á‚«‚è—‰ð‚Å‚«‚é‚à‚Ì‚È‚ñ‚Å‚·B‚Í‚¢B) ¡Œã‚ÌŽ„‚Ì—]—TŽžŠÔ‚É‚Â‚¢‚Ä Cygwin ‚É“ŠŽ‘‚µ‚æ‚¤‚ÆŽv‚Á‚ÄŒv‰æ‚µ‚Ä‚¢‚½ŽžŠÔ‚Í ‚·‚×‚Ä  coLinux‚ÉW’†‚³‚¹‚æ‚¤‚Æ‹­‚­ˆÓŽ¯‚³‚¹‚ç‚ê‚Ü‚µ‚½B
-  <LI>Sun Java Studio Creator ‚ÌƒXƒXƒ<BR>
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linuxï¿½ð‘¼ƒVï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì‰ï¿½ï¿½zï¿½}ï¿½Vï¿½ï¿½ï¿½Ìˆï¿½ï¿½">coLinux</A>ï¿½ÌƒXï¿½Xï¿½ï¿½<BR>
+  coLinuxï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(coLinuxï¿½ÌŽdï¿½lï¿½É‚Â‚ï¿½ï¿½Ä‚Í’mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Û‚ÉŽgï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½ï¿½ÄŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Eï¿½Í‚ï¿½ï¿½ï¿½ï¿½è—ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚È‚ï¿½Å‚ï¿½ï¿½Bï¿½Í‚ï¿½ï¿½B) ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ì—]ï¿½Tï¿½ï¿½ï¿½Ô‚É‚Â‚ï¿½ï¿½ï¿½ Cygwin ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½ÄŒvï¿½æ‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ ï¿½ï¿½ï¿½×‚ï¿½  coLinuxï¿½ÉWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Æ‹ï¿½ï¿½ï¿½ï¿½ÓŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>Sun Java Studio Creator ï¿½ÌƒXï¿½Xï¿½ï¿½<BR>
   <A HREF="http://sdc.sun.co.jp/javatools/jscreator/index.html">http://sdc.sun.co.jp/javatools/jscreator/index.html</A><BR>
-  <A HREF="http://arton.no-ip.info/diary/" TITLE=".NETŒn‹LŽ–Ž·•M‚à‘½‚¢arton‚³‚ñBŽdŽ–‚ÅJava‚àˆµ‚í‚ê‚Ä‚¢‚é‚Æ‚ÌŽ–BŽ„‚É‚Æ‚Á‚Ä‚Í FreePeek‚Æ‚¢‚¤‚Æ‚Ä‚à•Ö—˜‚Èƒ\ƒtƒg‚ÌìŽÒ‚³‚Ü‚Å‚·B‰H¶Í—m•‚¢‚ª‚Ò‚å‚ñ‡ƒRƒ“‚É‚Ä‰‚ß‚Ä‘Î–Ê‚µ‚Ü‚µ‚½B">arton</A>‚³‚ñ’¼X‚ÉASun Java Studio Creator‚Ìƒfƒ‚‚âà–¾‚ð‚µ‚Ä‚à‚ç‚¢‚Ü‚µ‚½B’p‚¸‚©‚µ‚È‚ª‚ç
-  Ž„ ‚æ‚¤‚â‚Á‚Æ Sun Java Studio Creator ‚ÉÚ‚µ‚Ü‚µ‚½B‚±‚ê‚Í—vƒ`ƒFƒbƒN‚Èƒc[ƒ‹‚Å‚ ‚é‚Æl‚¦‚Ü‚µ‚½BŽžŠÔ‚ðŠ„‚¢‚Ä ŒŸØ‚µ‚Ä‚Ý‚æ‚¤‚ÆŽv‚¢‚Ü‚µ‚½B
+  <A HREF="http://arton.no-ip.info/diary/" TITLE=".NETï¿½nï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½artonï¿½ï¿½ï¿½ï¿½Bï¿½dï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ÌŽï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ FreePeekï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½Ìï¿½Ò‚ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Bï¿½Hï¿½ï¿½ï¿½Í—mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‡ƒRï¿½ï¿½ï¿½É‚Äï¿½ï¿½ß‚Ä‘Î–Ê‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">arton</A>ï¿½ï¿½ï¿½ñ’¼Xï¿½ÉASun Java Studio Creatorï¿½Ìƒfï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½
+  ï¿½ï¿½ ï¿½æ‚¤ï¿½ï¿½ï¿½ï¿½ï¿½ Sun Java Studio Creator ï¿½ÉÚ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í—vï¿½`ï¿½Fï¿½bï¿½Nï¿½Èƒcï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø‚ï¿½ï¿½Ä‚Ý‚æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P>SAPƒWƒƒƒpƒ“‚ÌH‚³‚ñ‚ÆF‚³‚ñ‚Æ î•ñŒð—¬‚ð‚µ‚Ü‚µ‚½B</P>
+<P>SAPï¿½Wï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ð—¬‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>«ŠûŠÖ˜Aî•ñ<BR>
-  «Šû‰ïŠÙ“¹ê‚Åƒ^ƒCƒgƒ‹ƒzƒ‹ƒ_[‚ÆŽè‡‚¢‚ª‚Å‚«‚éA‚Á‚Ä‚¢‚¤ƒlƒ^‚ª Å‚à·‚èã‚ª‚è‚Ü‚µ‚½B
-  <LI>‚»‚Ì‘¼ƒ‚ƒƒ‚ƒc
-  <LI>‚Å‚àAŽå‚È˜b‘è‚Í«ŠûŠÖ˜Aî•ñ‚¾‚Á‚½‚æ‚¤‚È (Î)
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½Ö˜Aï¿½ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù“ï¿½ï¿½ï¿½Åƒ^ï¿½Cï¿½gï¿½ï¿½ï¿½zï¿½ï¿½ï¿½_ï¿½[ï¿½ÆŽè‡ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½lï¿½^ï¿½ï¿½ ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c
+  <LI>ï¿½Å‚ï¿½ï¿½Aï¿½ï¿½È˜bï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Ö˜Aï¿½ï¿½ñ‚¾‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ (ï¿½ï¿½)
 </UL>
-<P><FONT color="#ff0000">2006.06.10’Ç‹L</FONT> ŠÖ˜A‚·‚é‘¼‚Ì•û‚Ì“ú‹L</P>
+<P><FONT color="#ff0000">2006.06.10ï¿½Ç‹L</FONT> ï¿½Ö˜Aï¿½ï¿½ï¿½é‘¼ï¿½Ì•ï¿½ï¿½Ì“ï¿½ï¿½L</P>
 <UL>
-  <LI>‚¾‚ñ‚È‚Ì‚¨ŽdŽ– : 2006.05.25 - ‘æ3‰ñ Developers' Lounge<BR>
+  <LI>ï¿½ï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½dï¿½ï¿½ : 2006.05.25 - ï¿½ï¿½3ï¿½ï¿½ Developers' Lounge<BR>
   <A HREF="http://d.hatena.ne.jp/hasebean/20060525">http://d.hatena.ne.jp/hasebean/20060525</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apple HeaderDoc‚ð Windows‚ÅŽg‚¤</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apple HeaderDocï¿½ï¿½ Windowsï¿½ÅŽgï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaScript‚Ìƒ\[ƒXƒR[ƒhEƒRƒƒ“ƒg‚©‚ç APIƒŠƒtƒ@ƒŒƒ“ƒX‚ðŽ©“®¶¬‚³‚¹‚é‚½‚ß‚É Apple‚ªƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚µ‚Ä‚¢‚é HeaderDoc‚ð—˜—p‚µ‚Ä‚¢‚Ü‚·B<BR>
-HeaderDoc‚ð Windows‚Å“®ì‚³‚¹‚é‚É‚Í ‚¿‚å‚Á‚Æ‚µ‚½ƒRƒc‚ª•K—v‚È‚Ì‚ÅŠÈ’P‚Éƒƒ‚‚µ‚Ü‚·B<BR>
-¦’ˆÓ: Ž„‚Í Perl‚ð‘S‚­’m‚è‚Ü‚¹‚ñB¡‰ñ‰‚ß‚Ä—˜—p‚µ‚Ü‚µ‚½B‚±‚ÌŽ„‚Ì”»’f‚ª³‚µ‚¢‚±‚Æ‚Å‚ ‚é‚Ì‚©‚Ç‚¤‚© Ž©M‚ ‚è‚Ü‚¹‚ñB</P>
+<P>JavaScriptï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Eï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ APIï¿½ï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ Appleï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ HeaderDocï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+HeaderDocï¿½ï¿½ Windowsï¿½Å“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½ï¿½É‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Rï¿½cï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚ÅŠÈ’Pï¿½Éƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ Perlï¿½ï¿½Sï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ñ‰‚ß‚Ä—ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ì”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Apple HeaderDoc 8.0<BR>
   <A HREF="http://developer.apple.com/opensource/tools/headerdoc.html">http://developer.apple.com/opensource/tools/headerdoc.html</A>
-  <LI>ActivePerl 5.8.8.817 (Windows”Å)<BR>
-  <A HREF="http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html">http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html</A><BR>Windows‚Å Perl‚ð—˜—p‚·‚é‚½‚ß‚É ActivePerl‚ð—˜—p‚·‚é‚Ì‚ªˆê”Ê“I‚È‚±‚Æ‚Å‚ ‚é‚Æ•·‚«‚Ü‚µ‚½B
+  <LI>ActivePerl 5.8.8.817 (Windowsï¿½ï¿½)<BR>
+  <A HREF="http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html">http://www.forest.impress.co.jp/lib/stdy/program/progdevenv/activeperl.html</A><BR>Windowsï¿½ï¿½ Perlï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ ActivePerlï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Ê“Iï¿½È‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½Æ•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P>‚³‚ÄA‚±‚Ì‘g‚Ý‡‚í‚¹‚Å ‚·‚®“®‚«‚»‚¤‚È‚à‚Ì‚È‚Ì‚Å‚·‚¯‚ê‚Ç‚àAŽc”O‚È‚±‚Æ‚ÉˆêƒJŠ•ÏX‚ª•K—v‚Å‚µ‚½B‚±‚ê‚Í <STRONG>getpwuid</STRONG> ‚Æ‚¢‚¤–½—ß‚ª Windows”Å‚Ì ActivePerl‚É‚ÍˆÚA‚³‚ê‚Ä‚¢‚È‚¢‚½‚ß‚É•K—v‚È•ÏX‚Æl‚¦‚Ü‚·B•ÏX‰ÓŠ‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B<BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Aï¿½cï¿½Oï¿½È‚ï¿½ï¿½Æ‚Éˆï¿½Jï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ <STRONG>getpwuid</STRONG> ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ Windowsï¿½Å‚ï¿½ ActivePerlï¿½É‚ÍˆÚAï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ß‚É•Kï¿½vï¿½È•ÏXï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ÏXï¿½Óï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B<BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400s–Ú&gt; (•ÏX‘O)</TD>
+      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400ï¿½sï¿½ï¿½&gt; (ï¿½ÏXï¿½O)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -137,7 +137,7 @@ HeaderDoc‚ð Windows‚Å“®ì‚³‚¹‚é‚É‚Í ‚¿‚å‚Á‚Æ‚µ‚½ƒRƒc‚ª•K—v‚È‚Ì‚ÅŠÈ’P‚Éƒƒ‚‚µ‚Ü‚·
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400s–Ú&gt; (•ÏXŒã)</TD>
+      <TD bgcolor="#ffff00">aheaderDoc2HTML.pl &lt;400ï¿½sï¿½ï¿½&gt; (ï¿½ÏXï¿½ï¿½)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -153,31 +153,31 @@ HeaderDoc‚ð Windows‚Å“®ì‚³‚¹‚é‚É‚Í ‚¿‚å‚Á‚Æ‚µ‚½ƒRƒc‚ª•K—v‚È‚Ì‚ÅŠÈ’P‚Éƒƒ‚‚µ‚Ü‚·
     </TR>
   </TBODY>
 </TABLE>
-¦’P‚É getpwuid ‚Ì–½—ß‚ð–³‚­‚µ‚Ä‚µ‚Ü‚¤‚Ì‚ª–Ú“I‚Å‚·B</BLOCKQUOTE>
-<P>‚±‚Ì HeaderDoc‚Í JavaScriptˆÈŠO‚É‚à ”‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·BFXŽg‚¢ŸŽè‚ª‚ ‚è‚»‚¤‚Å‚µ‚ÄAŽ„‚É‚Æ‚Á‚Ä‚ÍŠú‘Ò‚ª‘å‚«‚¢ƒc[ƒ‹‚Ì‚Ð‚Æ‚Â‚Å‚·B</P>
-<P>c‚±‚ê‚ð‚«‚Á‚©‚¯‚ÉAPerl‚ð ­‚µ‚¾‚¯‚Å‚à‚¢‚¢‚©‚ç•×‹­‚µ‚Ä‚Ý‚æ‚¤‚©‚µ‚çA‚ÆŽv‚¢‚Ü‚µ‚½Bc</P>
-<P><FONT color="#ff00ff">ŠÖŒW‚·‚é“ú‹L</FONT></P>
+ï¿½ï¿½ï¿½Pï¿½ï¿½ getpwuid ï¿½Ì–ï¿½ï¿½ß‚ð–³‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ï¿½ï¿½Ú“Iï¿½Å‚ï¿½ï¿½B</BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ï¿½ HeaderDocï¿½ï¿½ JavaScriptï¿½ÈŠOï¿½É‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Fï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½è‚»ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ÍŠï¿½ï¿½Ò‚ï¿½ï¿½å‚«ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚Â‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉAPerlï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½c</P>
+<P><FONT color="#ff00ff">ï¿½ÖŒWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig060601.html">2006/06/01 “ú‹L: JavaScriptƒRƒƒ“ƒg‚©‚çƒhƒLƒ…ƒƒ“ƒg¶¬‚É JSDoc‚ð—˜—p‚·‚é</A><BR>
-  ‚»‚ÌŒã JavaScriptƒRƒƒ“ƒg‚©‚çƒhƒLƒ…ƒƒ“ƒg‚ðŽ©“®¶¬‚·‚éŽd‘g‚Ý‚É‚Â‚¢‚Ä HeaderDoc‚Å‚Í‚È‚­‚Ä JSDoc‚ðÌ—p‚·‚é•û‚ª‘Ã“–‚Æ”»’f‚µ‚Ü‚µ‚½B
+  <LI><A href="ig060601.html">2006/06/01 ï¿½ï¿½ï¿½L: JavaScriptï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JSDocï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½</A><BR>
+  ï¿½ï¿½ï¿½ÌŒï¿½ JavaScriptï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½gï¿½Ý‚É‚Â‚ï¿½ï¿½ï¿½ HeaderDocï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ JSDocï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã“ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>MYCOMƒWƒƒ[ƒiƒ‹: ­•{‚ªƒZƒLƒ…ƒA‚ÈŽŸ¢‘ãOSŠÂ‹«‚ÌŠJ”­‚É’…Žè - VM‚ÅˆÀ‘S«Šm•Û‚Ö<BR>
+  <LI>MYCOMï¿½Wï¿½ï¿½ï¿½[ï¿½iï¿½ï¿½: ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Zï¿½Lï¿½ï¿½ï¿½Aï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½OSï¿½Â‹ï¿½ï¿½ÌŠJï¿½ï¿½ï¿½É’ï¿½ï¿½ï¿½ - VMï¿½Åˆï¿½ï¿½Sï¿½ï¿½ï¿½mï¿½Û‚ï¿½<BR>
   <A HREF="http://journal.mycom.co.jp/news/2006/05/23/382.html">http://journal.mycom.co.jp/news/2006/05/23/382.html</A><BR>
-  ‹»–¡[‚¢Žæ‚è‘g‚Ý‚Å‚ ‚é‚ÆŽv‚¢‚Ü‚µ‚½B
-  <LI>Ubuntu Japanese Team: coLinux—pƒfƒBƒXƒNƒCƒ[ƒW‚ÌŽg‚¢•û<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Ý‚Å‚ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>Ubuntu Japanese Team: coLinuxï¿½pï¿½fï¿½Bï¿½Xï¿½Nï¿½Cï¿½ï¿½ï¿½[ï¿½Wï¿½ÌŽgï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.ubuntulinux.jp/download/HowToUseCoLinuxImage">http://www.ubuntulinux.jp/download/HowToUseCoLinuxImage</A><BR>
-  <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A>‚Ì <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linux‚ð‘¼ƒVƒXƒeƒ€ã‚Å“®ì‚³‚¹‚é‚½‚ß‚Ì‰¼‘zƒ}ƒVƒ“‚ÌˆêŽí">coLinux</A>‘Î‰ž‚É‚Â‚¢‚ÄA¥”ñˆê“x‚ÍŽŽ‚µ‚Ä‚Ý‚½‚¢‚ÆŽv‚Á‚Ä‚¢‚Ü‚·B
+  <A HREF="https://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½https://www.igapyon.jp/igapyon/diary///www.igapyon.jp/igapyon/diary/keyword/colinux.html" TITLE="Linuxï¿½ð‘¼ƒVï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì‰ï¿½ï¿½zï¿½}ï¿½Vï¿½ï¿½ï¿½Ìˆï¿½ï¿½">coLinux</A>ï¿½Î‰ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>
