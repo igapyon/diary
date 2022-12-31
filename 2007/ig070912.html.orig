@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/09/12 “ú‹L: Shibuya.trac ƒRƒ~ƒ…ƒjƒeƒB ”­‘« , Apache James ‚ÌŠÈ’Pƒƒ‚</TITLE>
-<META name="DESCRIPTION" content="æ“ú‚Ì Trac/TracŒŽ Off‚ðŽó‚¯‚ÄAShibuya.trac ‚ª”­‘«‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Shibuya.trac,James">
+<TITLE>2007/09/12 ï¿½ï¿½ï¿½L: Shibuya.trac ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½B ï¿½ï¿½ï¿½ï¿½ , Apache James ï¿½ÌŠÈ’Pï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½ Trac/Tracï¿½ï¿½ Offï¿½ï¿½ï¿½ó‚¯‚ÄAShibuya.trac ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Shibuya.trac,James">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/09/12 “ú‹L: Shibuya.trac ƒRƒ~ƒ…ƒjƒeƒB ”­‘« , Apache James ‚ÌŠÈ’Pƒƒ‚</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Shibuya.trac,James] æ“ú‚Ì Trac/TracŒŽ Off‚ðŽó‚¯‚ÄAShibuya.trac ‚ª”­‘«‚µ‚Ü‚µ‚½B</P>
+    <H2>2007/09/12 ï¿½ï¿½ï¿½L: Shibuya.trac ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½B ï¿½ï¿½ï¿½ï¿½ , Apache James ï¿½ÌŠÈ’Pï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Shibuya.trac,James] ï¿½ï¿½ï¿½ï¿½ï¿½ Trac/Tracï¿½ï¿½ Offï¿½ï¿½ï¿½ó‚¯‚ÄAShibuya.trac ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,32 +60,32 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Shibuya.trac ƒRƒ~ƒ…ƒjƒeƒB ”­‘«</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Shibuya.trac ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½B ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>æ“ú‚Ì Trac/TracŒŽ Off‚ðŽó‚¯‚ÄAShibuya.trac ‚ª”­‘«‚µ‚Ü‚µ‚½B<BR>
-Trac‚Ìî•ñŒðŠ·‚ðs‚¤‚½‚ß‚ÌƒRƒ~ƒ…ƒjƒeƒB‚ÅA‹Zp“I‚ÈƒfƒBƒXƒJƒbƒVƒ‡ƒ“A—˜—p‚·‚éÛ‚Ì”Y‚Ý‘Š’kA“Û‚Ý‰ïAƒJƒ“ƒtƒ@ƒŒƒ“ƒX‚ÌŠé‰æAŠJÃ‚ðs‚¢‚Ü‚·B
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ Trac/Tracï¿½ï¿½ Offï¿½ï¿½ï¿½ó‚¯‚ÄAShibuya.trac ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+Tracï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ß‚ÌƒRï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½Bï¿½ÅAï¿½Zï¿½pï¿½Iï¿½Èƒfï¿½Bï¿½Xï¿½Jï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Û‚Ì”Yï¿½Ý‘ï¿½ï¿½kï¿½Aï¿½Û‚Ý‰ï¿½Aï¿½Jï¿½ï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½ÌŠï¿½ï¿½Aï¿½Jï¿½Ã‚ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </P>
 <UL>
-  <LI>Shibuya.trac ƒRƒ~ƒ…ƒjƒeƒB<BR>
+  <LI>Shibuya.trac ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½B<BR>
   <A HREF="http://sourceforge.jp/projects/shibuya-trac/">http://sourceforge.jp/projects/shibuya-trac/</A><BR>
   <A HREF="http://sourceforge.jp/projects/shibuya-trac/wiki/">http://sourceforge.jp/projects/shibuya-trac/wiki/</A>
 </UL>
-<P>ŠF‚³‚ñ‚Ì‚²ŽQ‰Á‚ð‚¨‘Ò‚¿‚µ‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff00ff">ŠÖŒW‚·‚é“ú‹L</FONT></P>
+<P>ï¿½Fï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½ÖŒWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig070820.html">2007/08/20 “ú‹L: Trac / TracŒŽ OFF‰ï—“Œ‹ža’J 2007.08.31(‹à) 20:00-</A>
-  <LI><A href="../2008/ig080110.html">2008/01/10 “ú‹L: Shibuya.trac ƒ~[ƒeƒBƒ“ƒO1.0 (2008.01.19—–LF) , u‘æŽlŠú ’†«Šû‘S‘‘å‰ïE–¼lív‚ÉŽQí</A>
+  <LI><A href="ig070820.html">2007/08/20 ï¿½ï¿½ï¿½L: Trac / Tracï¿½ï¿½ OFFï¿½ï—ï¿½ï¿½ï¿½ï¿½ï¿½aï¿½J 2007.08.31(ï¿½ï¿½) 20:00-</A>
+  <LI><A href="../2008/ig080110.html">2008/01/10 ï¿½ï¿½ï¿½L: Shibuya.trac ï¿½~ï¿½[ï¿½eï¿½Bï¿½ï¿½ï¿½O1.0 (2008.01.19ï¿½ï¿½ï¿½Lï¿½F) , ï¿½uï¿½ï¿½lï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½lï¿½ï¿½vï¿½ÉŽQï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache James ‚ÌŠÈ’Pƒƒ‚</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache James ï¿½ÌŠÈ’Pï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache James ‚ðŠÈ’P‚É’²‚×‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P>Apache James ï¿½ï¿½ï¿½È’Pï¿½É’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>Apache James<BR>
   <A HREF="http://james.apache.org/">http://james.apache.org/</A>
@@ -94,50 +94,50 @@ Trac‚Ìî•ñŒðŠ·‚ðs‚¤‚½‚ß‚ÌƒRƒ~ƒ…ƒjƒeƒB‚ÅA‹Zp“I‚ÈƒfƒBƒXƒJƒbƒVƒ‡ƒ“A—˜—p‚·‚éÛ‚Ì
     <A HREF="http://james.apache.org/server/index.html">http://james.apache.org/server/index.html</A>
   </UL>
 </UL>
-<P>Œ»Žž“_‚ÌÅV”Å‚ÍA James v2.3.1 (Server)‚Å‚·B</P>
-<P><FONT color="#ff00ff">Microsoft Windows XP Pro ã‚ÅŽŽ—p‚·‚éÛ‚Ì’ˆÓ“_</FONT></P>
-<P>Windows XP Pro ‚Ì IIS‚Ì‚È‚©‚ÉASMTP ‰¼‘zƒT[ƒo‚ª‚ ‚èA‚±‚ê‚ª‹N“®‚µ‚Ä‚¢‚é‚ÆƒfƒtƒHƒ‹ƒg’l‚Å James‚Í“®ì‚µ‚Ü‚¹‚ñBƒ\ƒPƒbƒgƒ|[ƒgÕ“Ë‚Å
-James‚Ì‹N“®‚ÉŽ¸”s‚µ‚Ü‚·B</P>
-<P>IIS ‚Ì SMTP ‰¼‘zƒT[ƒo ‚Ì’âŽ~‚³‚¹•û</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ÌÅVï¿½Å‚ÍA James v2.3.1 (Server)ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">Microsoft Windows XP Pro ï¿½ï¿½ÅŽï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Û‚Ì’ï¿½ï¿½Ó“_</FONT></P>
+<P>Windows XP Pro ï¿½ï¿½ IISï¿½Ì‚È‚ï¿½ï¿½ÉASMTP ï¿½ï¿½ï¿½zï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ªï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½ï¿½ Jamesï¿½Í“ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½\ï¿½Pï¿½bï¿½gï¿½|ï¿½[ï¿½gï¿½Õ“Ë‚ï¿½
+Jamesï¿½Ì‹Nï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>IIS ï¿½ï¿½ SMTP ï¿½ï¿½ï¿½zï¿½Tï¿½[ï¿½o ï¿½Ì’ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</P>
 <OL>
-  <LI>ƒRƒ“ƒgƒ[ƒ‹ƒpƒlƒ‹: ŠÇ—ƒc[ƒ‹ ¨ ƒCƒ“ƒ^[ƒlƒbƒg ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“ ƒT[ƒrƒX
-  <LI>uŠù’è‚Ì SMTP ‰¼‘zƒT[ƒo[v‚ð’âŽ~‚·‚é
+  <LI>ï¿½Rï¿½ï¿½ï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½pï¿½lï¿½ï¿½: ï¿½Ç—ï¿½ï¿½cï¿½[ï¿½ï¿½ ï¿½ï¿½ ï¿½Cï¿½ï¿½ï¿½^ï¿½[ï¿½lï¿½bï¿½g ï¿½Cï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ ï¿½Tï¿½[ï¿½rï¿½X
+  <LI>ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ SMTP ï¿½ï¿½ï¿½zï¿½Tï¿½[ï¿½oï¿½[ï¿½vï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½
 </OL>
-<P>‚±‚ÌŽ–‘O€”õ‚ð‚µ‚Ä‚¨‚¯‚ÎAƒfƒtƒHƒ‹ƒg’l‚Å James‚ª“®ì‚·‚é‚ÆŽv‚¢‚Ü‚·B</P>
-<P>ƒ†[ƒU‚Ì’Ç‰Á•û–@‚È‚Ç‚Í‰º‹L‚ðŽQÆ</P>
+<P>ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ÎAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½ï¿½ Jamesï¿½ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½[ï¿½Uï¿½Ì’Ç‰ï¿½ï¿½ï¿½ï¿½@ï¿½È‚Ç‚Í‰ï¿½ï¿½Lï¿½ï¿½ï¿½Qï¿½ï¿½</P>
 <UL>
   <LI><A HREF="http://itpro.nikkeibp.co.jp/members/ITPro/oss/20040417/1/">http://itpro.nikkeibp.co.jp/members/ITPro/oss/20040417/1/</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore ŽÀ‘•’†</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail‚ÍAƒ[ƒ‹‘—ŽóM‚É‚Ü‚Â‚í‚é”–â‘è‚ð‰ðŒˆ‚·‚é‚½‚ß‚Ìƒ[ƒ‹ƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚¨‚æ‚ÑƒtƒŒ[ƒ€ƒ[ƒN‚Å‚·B">blancoMail</A>‚ÌƒRƒAAPI‚Å‚ ‚é <A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ƒ[ƒ‹‘—ŽóM‚ðˆÀ‘S‚ÅŠmŽÀ‚ÉŽÀŒ»‚·‚é‚½‚ß‚ÌƒRƒAƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B">blancoMailCore</A>‚Å‚·‚ªAŒ‹\
-‚¢‚ë‚¢‚ë‚ÈŽÀ‘•‚ð‚·‚é•K—v‚ª‚ ‚è‚»‚¤‚¾‚Æ‚¢‚¤‚±‚Æ‚ª‚í‚©‚Á‚Ä‚«‚Ü‚µ‚½B“Á‚ÉƒƒO‰ñ‚è‚âˆÙíŒn‚É‚Â‚¢‚ÄAƒ[ƒ‹‘—ŽóM‚Æ‚¢‚¤“Á«‚ª‚çA‚Ü‚  ‚Ù‚ñ‚Æ‚¤‚É
-‚¢‚ë‚¢‚ëˆ—‚ª•K—v‚ÈŒ©ž‚Ý‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailï¿½ÍAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½É‚Ü‚Â‚ï¿½é”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½https://www.igapyon.jp/ï¿½ï¿½B">blancoMail</A>ï¿½ÌƒRï¿½AAPIï¿½Å‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ÅŠmï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½Aï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">blancoMailCore</A>ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½\
+ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½è‚»ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Éƒï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Ùï¿½nï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ ï¿½Ù‚ï¿½Æ‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ë‚¢ï¿½ëˆï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ÈŒï¿½ï¿½ï¿½ï¿½Ý‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>Ziddy‚¿‚á‚ñ‚ÌuŽ„‚ðŽÐH‚É˜A‚ê‚Ä‚Á‚ÄvFNTTƒf[ƒ^ –LFƒZƒ“ƒ^[ƒrƒ‹ƒAƒlƒbƒNƒX•Ò<BR>
+  <LI>Ziddyï¿½ï¿½ï¿½ï¿½ï¿½Ìuï¿½ï¿½ï¿½ï¿½ï¿½ÐHï¿½É˜Aï¿½ï¿½Ä‚ï¿½ï¿½Ävï¿½FNTTï¿½fï¿½[ï¿½^ ï¿½Lï¿½Fï¿½Zï¿½ï¿½ï¿½^ï¿½[ï¿½rï¿½ï¿½ï¿½Aï¿½lï¿½bï¿½Nï¿½Xï¿½ï¿½<BR>
   <A HREF="http://japan.zdnet.com/sp/feature/ziddy/story/0,2000072837,20355952,00.htm">http://japan.zdnet.com/sp/feature/ziddy/story/0,2000072837,20355952,00.htm</A><BR>
-  ‚¿‚È‚Ý‚ÉŽ„‚Í 24FB32F, 9F, 7F‚ÌŒoŒ±‚à‚ ‚èB
-  <LI>Silverlight”­•\FMS‚ÌLinuxƒTƒ|[ƒg‚Í‰½‚ð•Ï‚¦‚éH<BR>
+  ï¿½ï¿½ï¿½È‚Ý‚ÉŽï¿½ï¿½ï¿½ 24Fï¿½B32F, 9F, 7Fï¿½ÌŒoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>Silverlightï¿½ï¿½ï¿½\ï¿½FMSï¿½ï¿½Linuxï¿½Tï¿½|ï¿½[ï¿½gï¿½Í‰ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½H<BR>
   <A HREF="http://www.atmarkit.co.jp/news/200709/07/silverlight.html">http://www.atmarkit.co.jp/news/200709/07/silverlight.html</A><BR>
-  Ž„‚Í Silverlight ‚É‘½‚­‚Ì‹»–¡‚ðŽ‚Á‚Ä‚¢‚Ü‚·B
-  <LI>Žq‹Ÿ‚¾‚¯‚Å‚Í‚È‚¢AƒtƒBƒ‹ƒ^ƒŠƒ“ƒOƒ\ƒtƒg‚Ì•K—v« - ‚¨‚¶‚¢‚¿‚á‚ñE‚¨‚Î‚ ‚¿‚á‚ñ‚ðƒlƒbƒg¼‹\‚©‚çŽç‚ê<BR>
+  ï¿½ï¿½ï¿½ï¿½ Silverlight ï¿½É‘ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Í‚È‚ï¿½ï¿½Aï¿½tï¿½Bï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½\ï¿½tï¿½gï¿½Ì•Kï¿½vï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Î‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://internet.watch.impress.co.jp/cda/special/2007/09/10/16842.html">http://internet.watch.impress.co.jp/cda/special/2007/09/10/16842.html</A><BR>
-  ¢‘Š‚ð‚ ‚ç‚í‚·A‹»–¡‚ð‚Ð‚­‹LŽ–‚Å‚·B
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚·ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð‚ï¿½ï¿½Lï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

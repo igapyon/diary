@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/12/10 “ú‹L: Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis
-‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</TITLE>
-<META name="DESCRIPTION" content="Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml ‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2008/12/10 ï¿½ï¿½ï¿½L: Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬</TITLE>
+<META name="DESCRIPTION" content="Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Åï¿½ï¿½Ì‹@ï¿½\ï¿½Æ‚ï¿½ï¿½ÄAsqlMap.xml ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚·ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -17,13 +17,13 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/12/10 “ú‹L: Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis
-‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml ‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B</P>
+    <H2>2008/12/10 ï¿½ï¿½ï¿½L: Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Åï¿½ï¿½Ì‹@ï¿½\ï¿½Æ‚ï¿½ï¿½ÄAsqlMap.xml ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚·ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,42 +62,42 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache iBatis ‚Ì sqlMap.xml ƒtƒ@ƒCƒ‹‚ð“ü—Í‚µ‚ÄAJavaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é blancoIBatis ‚Æ‚¢‚¤ƒvƒƒ_ƒNƒg‚ðV‹Kì¬‚µ‚Ü‚µ‚½BÅ‰‚Ì‹@”\‚Æ‚µ‚ÄAsqlMap.xml
-‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‹@”\‚ðŽÀ‘•‚µ‚Ü‚µ‚½B(Apache Antƒ^ƒXƒN‚Ì‚Ý‚Ì’ñ‹Ÿ‚Å‚·)<BR>
-# <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> ‚ÌŠù‘¶ŽÀ‘•‚ð—˜—p‚·‚é‚±‚Æ‚É‚æ‚èA‚Æ‚Ä‚à‘¦È‚Éì‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½B</P>
+<P>Apache iBatis ï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoIBatis ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Åï¿½ï¿½Ì‹@ï¿½\ï¿½Æ‚ï¿½ï¿½ÄAsqlMap.xml
+ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚·ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(Apache Antï¿½^ï¿½Xï¿½Nï¿½Ì‚Ý‚Ì’ñ‹Ÿ‚Å‚ï¿½)<BR>
+# <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> ï¿½ÌŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½È‚Éï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis ‚ðŽg‚¤‚ÆAsqlMap ‚Æ‚¢‚¤ XML ƒtƒ@ƒCƒ‹‚©‚çAŒŸõŒ‹‰Ê‚Ìs‚ð‚ ‚ç‚í‚·ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ÌƒNƒ‰ƒXEƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">blancoIBatis</A>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÆAsqlMap ï¿½Æ‚ï¿½ï¿½ï¿½ XML ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚·ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoIBatis</A>
 </UL>
-<P>Apache iBaits ‚ð—˜—p‚µ‚Ä‚¢‚ÄAŒŸõŒ‹‰Ê‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðŽ©‘O‚Å€”õ‚·‚é‚±‚Æ‚É•s–ž‚ðŠ´‚¶‚½‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñ‚©? ‚»‚Ì‹^–â‚Í‚Æ‚Ä‚à³‚µ‚¢‚à‚Ì‚Å‚·B‚»‚µ‚ÄAblancoIBatis
-‚ð—˜—p‚·‚é‚ÆA‚»‚¤‚¢‚Á‚½ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Í sqlMap.xml ƒtƒ@ƒCƒ‹‚É‹Lq‚³‚ê‚½ SQL•¶‚©‚çŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚é‚Ì‚Å‚·B‹Zp“I‚É‚ÍASQL•¶‚ÌŽÀsŒ‹‰Ê‚©‚ç“¾‚ç‚ê‚éî•ñ‚É‚æ‚Á‚ÄAƒtƒB[ƒ‹ƒh–¼‚¨‚æ‚ÑŒ^–¼‚ð‰ðŒˆ‚µ‚ÄŽÀŒ»‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>‚²‘¶’m‚©‚à’m‚ê‚Ü‚¹‚ñ‚ªAApache iBatis ‚ÌƒTƒuƒvƒƒ_ƒNƒg‚Æ‚µ‚Ä <A href="http://ibatis.apache.org/ibator.html">Apache IBATOR</A> ‚Æ‚¢‚¤Ž©“®¶¬Œn‚ª‚ ‚è‚Ü‚·B‚Æ‚±‚ë‚ªŽc”O‚È‚±‚Æ‚É IBATOR ‚Í DBƒXƒL[ƒ}‚©‚ç‚ÌŽ©“®¶¬‚ðƒTƒ|[ƒg‚·‚éƒvƒƒ_ƒNƒg‚Å‚·BsqlMap.xml
-ƒtƒ@ƒCƒ‹‚É‚©‚©‚ê‚½ SQL•¶‚©‚çŽ©“®¶¬‚ð‚¨‚±‚È‚¤‚à‚Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñBˆê•û‚Å iBatis ‚Ì—˜—pŽÒ‚Ì‘½‚­‚ÍADBƒXƒL[ƒ}‚©‚çŽ©“®¶¬‚³‚ê‚½
-SQL•¶‚Å–Ú“I‚ÌƒvƒƒOƒ‰ƒ€‚ðŽÀŒ»‚·‚é‚±‚Æ‚ª‚Å‚«‚éê‡‚Í­‚È‚¢‚æ‚¤‚Å‚·BSQL‚ðŽ©‘O‚ÅŽè‘‚«‚·‚é•K—v‚ª‚ ‚é‚©‚ç‚±‚» iBatis ‚ðÌ—p‚µ‚Ä‚¢‚é‚±‚Æ‚ª‘½‚¢‚©‚ç‚Å‚·BŽè‘‚«‚Å
-SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»‚·‚é‚Ì‚ª blancoIBatis ‚È‚Ì‚Å‚·B</P>
-<P>‚Æ‚Í‚¢‚¦A‚±‚Ìƒvƒƒ_ƒNƒg‚ÍA”ñí‚Éƒjƒbƒ`‚È‚Æ‚±‚ë‚ð‘_‚Á‚½‚à‚Ì‚Å‚·B‚Ù‚Æ‚ñ‚Ç‚Ìl‚É‚Í–ð‚É—§‚½‚È‚¢‚±‚Æ‚Å‚µ‚å‚¤B(‚È‚º‚È‚çA‘½‚­‚Ìl‚½‚¿‚ÍA‚â‚Í‚è•ÊŒn“‚ÌŽ©“®¶¬Œn‚ð—˜—p‚µ‚Ä‚¢‚é‚¾‚ë‚¤‚©‚ç‚Å‚·B‰½‚ÌŽ©“®¶¬Œn‚ÌŽx‰‡‚àŽó‚¯‚¸‚É
-¶‚Å iBatis ‚ð—˜—p‚µ‚Ä‚¢‚él‚Í­‚È‚¢A‚Å‚·‚æ‚Ë!) ‚»‚Ì‚½‚ßAŒ»ó‚Å‚Íà–¾‚à‚Ù‚Æ‚ñ‚Ç•t‚¯‚Ä‚¢‚Ü‚¹‚ñBˆê•û‚ÅAŒ»Žž“_‚Å‚Í ŽÀss” 200s’ö“x‚Ìƒvƒƒ_ƒNƒg‚È‚Ì‚ÅA‚à‚µ
-‚»‚Ì‹C‚É‚È‚ê‚Îƒ\[ƒXƒR[ƒh‚©‚çŠÈ’P‚ÉŽd—l‚ð—‰ð‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B(‚Æ‘z’è‚µ‚Ä‚¢‚Ü‚·‚ªA‚à‚µ blancoIBatis ‚Ö‚Ìƒj[ƒY‚ðŠ´‚¶‚él‚Í˜A—‚â—v–]‚ð‚¨Šñ‚¹‰º‚³‚¢B—v–]‚ª‘½‚¢‚æ‚¤‚Å‚µ‚½‚çAƒhƒLƒ…ƒƒ“ƒg‚È‚Ç‚ð‹­‰»‚µ‚Ä‚¢‚«‚Ü‚·)</P>
-<P>‚È‚¨AblancoIBatis ‚ÌŽ©“®¶¬‚ÍAiBatis ‚ÌŽd—lã‚Ì§–ñ‚©‚çAˆê•”•sŠ®‘S‚È‚à‚Ì‚Æ‚È‚è‚Ü‚·BsqlMap.xml ‚Å‚ÍA‚Ç‚¤‚µ‚Ä‚àî•ñ‚ª•s‘«‚µ‚Ä‚µ‚Ü‚¤ƒP[ƒX‚ª‚ ‚é‚Ì‚Å‚·B(sqlMap.xml
-‚Ì‹Lq“à—e‚É‚æ‚Á‚Ä‚ÍA‚Ù‚ÚŠ®‘S‚ÈŽ©“®¶¬‚àŽÀŒ»‚Å‚«‚Ü‚·‚ªc) ‚à‚µA‚æ‚èŠ®‘S‚ÈŽ©“®¶¬‚ð—˜—p‚µ‚½‚¢ê‡‚É‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>
-‚Ì—˜—p‚ðŒŸ“¢‚·‚é‚±‚Æ‚ð‹­‚­„§‚µ‚Ü‚·BiBatis ‚Æ blancoDb ‚Æ‚Í ‚©‚È‚èŽd—l‚ªŽ—‚Ä‚¢‚Ü‚·‚ªAblancoDb ‚Ì‚Ù‚¤‚ªA‚æ‚èŠ®‘S‚ÈŽ©“®¶¬ŠÂ‹«‚ðŽÀŒ»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</P>
+<P>Apache iBaits ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É•sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½? ï¿½ï¿½ï¿½Ì‹^ï¿½ï¿½Í‚Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄAblancoIBatis
+ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ sqlMap.xml ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‹Lï¿½qï¿½ï¿½ï¿½ê‚½ SQLï¿½ï¿½ï¿½ï¿½ï¿½çŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Zï¿½pï¿½Iï¿½É‚ÍASQLï¿½ï¿½ï¿½ÌŽï¿½ï¿½sï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ç“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ÄAï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑŒ^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAApache iBatis ï¿½ÌƒTï¿½uï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ <A href="http://ibatis.apache.org/ibator.html">Apache IBATOR</A> ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ªï¿½cï¿½Oï¿½È‚ï¿½ï¿½Æ‚ï¿½ IBATOR ï¿½ï¿½ DBï¿½Xï¿½Lï¿½[ï¿½}ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Å‚ï¿½ï¿½BsqlMap.xml
+ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ê‚½ SQLï¿½ï¿½ï¿½ï¿½ï¿½çŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ iBatis ï¿½Ì—ï¿½ï¿½pï¿½Ò‚Ì‘ï¿½ï¿½ï¿½ï¿½ÍADBï¿½Xï¿½Lï¿½[ï¿½}ï¿½ï¿½ï¿½çŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½
+SQLï¿½ï¿½ï¿½Å–Ú“Iï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ê‡ï¿½Íï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½BSQLï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ÅŽè‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ç‚±ï¿½ï¿½ iBatis ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½è‘ï¿½ï¿½ï¿½ï¿½
+SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ blancoIBatis ï¿½È‚Ì‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ÍAï¿½ï¿½ï¿½Éƒjï¿½bï¿½`ï¿½È‚Æ‚ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Ù‚Æ‚ï¿½Ç‚Ìlï¿½É‚Í–ï¿½ï¿½É—ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B(ï¿½È‚ï¿½ï¿½È‚ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ìlï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½Í‚ï¿½ÊŒnï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚¾ï¿½ë‚¤ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ÌŽxï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ iBatis ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½lï¿½Íï¿½ï¿½È‚ï¿½ï¿½Aï¿½Å‚ï¿½ï¿½ï¿½ï¿½!) ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßAï¿½ï¿½ï¿½ï¿½Å‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù‚Æ‚ï¿½Ç•tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½sï¿½sï¿½ï¿½ 200ï¿½sï¿½ï¿½ï¿½xï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ì‹Cï¿½É‚È‚ï¿½Îƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½È’Pï¿½ÉŽdï¿½lï¿½ð—‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Æ‘zï¿½è‚µï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ blancoIBatis ï¿½Ö‚Ìƒjï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½Í˜Aï¿½ï¿½ï¿½ï¿½vï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚¹‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½vï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½)</P>
+<P>ï¿½È‚ï¿½ï¿½AblancoIBatis ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍAiBatis ï¿½ÌŽdï¿½lï¿½ï¿½Ìï¿½ï¿½ñ‚©‚ï¿½Aï¿½ê•”ï¿½sï¿½ï¿½ï¿½Sï¿½È‚ï¿½ï¿½Ì‚Æ‚È‚ï¿½Ü‚ï¿½ï¿½BsqlMap.xml ï¿½Å‚ÍAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ñ‚ª•sï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B(sqlMap.xml
+ï¿½Ì‹Lï¿½qï¿½ï¿½ï¿½eï¿½É‚ï¿½ï¿½ï¿½Ä‚ÍAï¿½Ù‚ÚŠï¿½ï¿½Sï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½https://www.igapyon.jp/ï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>
+ï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BiBatis ï¿½ï¿½ blancoDb ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½È‚ï¿½dï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½AblancoDb ï¿½Ì‚Ù‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½èŠ®ï¿½Sï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ‚Ì JPetStore ‚Ì sqlMap.xml ‚©‚ç‚ÌŽ©“®¶¬—á</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache iBatis ï¿½ï¿½ JPetStore ï¿½ï¿½ sqlMap.xml ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2008.12.11’Ç‹L</FONT> iBatis ‚Ì ƒfƒ‚EƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Å‚ ‚é JPetStore ‚Ì sqlMap.xml ‚©‚ç ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðŽ©“®¶¬‚µ‚½Û‚Ì—á‚ðŽ¦‚µ‚Ü‚·B</P>
-<P>“ü—Í‚Æ‚È‚é sqlMap.xml ‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·BŽÀÛ‚É‚ÍŠô‚Â‚©‚Ì SQL ‚ª‹LÚ‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚±‚Å‚Í 1‚Â‚¾‚¯‚É’–Ú‚µ‚Ü‚·B</P>
+<P><FONT color="#ff0000">2008.12.11ï¿½Ç‹L</FONT> iBatis ï¿½ï¿½ ï¿½fï¿½ï¿½ï¿½Eï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ JPetStore ï¿½ï¿½ sqlMap.xml ï¿½ï¿½ï¿½ï¿½ ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½Í‚Æ‚È‚ï¿½ sqlMap.xml ï¿½ÍˆÈ‰ï¿½ï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Û‚É‚ÍŠï¿½Â‚ï¿½ï¿½ï¿½ SQL ï¿½ï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ 1ï¿½Â‚ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½Ú‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><STRONG>Item.xml (Ž©“®¶¬‚Å—˜—p‚³‚ê‚é“ü—Íî•ñ)</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>Item.xml (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½)</STRONG></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -114,7 +114,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
 
   &lt;typeAlias alias=&quot;item&quot; type=&quot;com.ibatis.jpetstore.domain.Item&quot;/&gt;
 
-  c—ªc
+  ï¿½cï¿½ï¿½ï¿½c
 
   &lt;cacheModel id=&quot;quantityCache&quot; type=&quot;LRU&quot;&gt;
     &lt;flushInterval hours=&quot;24&quot;/&gt;
@@ -122,7 +122,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
     &lt;property name=&quot;size&quot; value=&quot;100&quot;/&gt;
   &lt;/cacheModel&gt;
 
-  c—ªc
+  ï¿½cï¿½ï¿½ï¿½c
 
   &lt;select id=&quot;getItem&quot; resultClass=&quot;item&quot; parameterClass=&quot;string&quot; cacheModel=&quot;quantityCache&quot;&gt;
     select
@@ -147,7 +147,7 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
       and I.ITEMID = #value#
   &lt;/select&gt;
 
-  c—ªc
+  ï¿½cï¿½ï¿½ï¿½c
 
 &lt;/sqlMap&gt;</pre>
       </TD>
@@ -155,21 +155,21 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>‚±‚Ì sqlMap.xml ‚©‚çAˆÈ‰º‚Ì‚æ‚¤‚È Javaƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ sqlMap.xml ï¿½ï¿½ï¿½ï¿½Aï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ŒŸõŒ‹‰Ê‚Ì—ñ‚É‚Â‚¢‚Ä‚Ì—ñ–¼‚âŒ^î•ñ‚ª JavaDoc ‚É–„‚ßž‚Ü‚ê‚Ä‚¢‚é‚Ì‚ª“Á’¥‚Å‚·B
-  <LI>‚±‚ÌŽ©“®¶¬Œ‹‰Ê‚Ì—á‚Í PostgreSQL 8.3 ‚É‚¨‚¯‚éŽÀsŒ‹‰Ê‚Å‚·B‘¼‚Ì RDBMS ‚âˆÙ‚È‚éƒo[ƒWƒ‡ƒ“‚Å“®ì‚³‚¹‚é‚Æ Ž©“®¶¬Œ‹‰Ê‚É‚à•Ï‰»‚ª‚Ý‚ç‚ê‚éê‡‚ª‚ ‚è‚Ü‚·B
-  <LI>ŽÀÛ‚É‚ÍAAA
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½É‚Â‚ï¿½ï¿½Ä‚Ì—ñ–¼‚ï¿½^ï¿½ï¿½ï¿½ JavaDoc ï¿½É–ï¿½ï¿½ßï¿½ï¿½Ü‚ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½ï¿½ PostgreSQL 8.3 ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ê‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ RDBMS ï¿½ï¿½Ù‚È‚ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚É‚ï¿½ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½Û‚É‚ÍAï¿½Aï¿½A
   <UL>
-    <LI>JPetStore ‚Ì Item.xml ‚©‚ç‚Í 3‚Â‚Ì Javaƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚³‚ê‚Ü‚·B
-    <LI>Item.xml ‚Ì SQL‚»‚Ì‚à‚Ì‚É”÷–­‚ÈƒoƒO (‚ ‚¢‚Ü‚¢‚È—ñ) ‚ª‚ ‚Á‚½‚Ì‚ÅA‚»‚ê‚ðC³‚µ‚½ã‚Å“®ì‚³‚¹‚Ä‚¢‚Ü‚·B
+    <LI>JPetStore ï¿½ï¿½ Item.xml ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½Â‚ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>Item.xml ï¿½ï¿½ SQLï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚É”ï¿½ï¿½ï¿½ï¿½Èƒoï¿½O (ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½È—ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><STRONG>GetItemRow.java (Ž©“®¶¬‚³‚ê‚é Javaƒ\[ƒXƒR[ƒh)</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>GetItemRow.java (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h)</STRONG></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -178,641 +178,641 @@ SQL‚ð‘‚©‚È‚­‚Ä‚Í‚È‚ç‚È‚¢A‚»‚¤‚¢‚Á‚½l‚½‚¿Œü‚¯‚Ì Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»
     <TR>
       <TD>
       <PRE>/*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚èŽ©“®¶¬‚³‚ê‚Ü‚µ‚½B
+ * ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ blanco Frameworkï¿½É‚ï¿½èŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
  */
 package blanco.sample;
 
 import java.math.BigDecimal;
 
 /**
- * sqlMap id [getItem] ‚ÌŒŸõŒ‹‰Ê‚ÌsƒIƒuƒWƒFƒNƒgB\n &amp;lt;select id=&amp;quot;getItem&amp;quot; resultClass=&amp;quot;blanco.sample.GetItemRow&amp;quot; ...
+ * sqlMap id [getItem] ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìsï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½B\n &amp;lt;select id=&amp;quot;getItem&amp;quot; resultClass=&amp;quot;blanco.sample.GetItemRow&amp;quot; ...
  */
 public class GetItemRow {
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [itemid]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [itemid]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [itemid]ï¿½B
      */
     private String fItemid;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [listprice]ï¿½B
      *
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [listprice]B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [listprice]ï¿½B
      */
     private BigDecimal fListprice;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [unitcost]ï¿½B
      *
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [unitcost]B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [unitcost]ï¿½B
      */
     private BigDecimal fUnitcost;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [supplierid]ï¿½B
      *
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [supplierid]B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [supplierid]ï¿½B
      */
     private Integer fSupplierid;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.productId]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [product.productId]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [product.productId]ï¿½B
      */
     private String fProductProductId;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.name]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [product.name]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [product.name]ï¿½B
      */
     private String fProductName;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.description]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [product.description]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [255]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [product.description]ï¿½B
      */
     private String fProductDescription;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.categoryId]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [product.categoryId]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [product.categoryId]ï¿½B
      */
     private String fProductCategoryId;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [status]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [status]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [2]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [status]ï¿½B
      */
     private String fStatus;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute1]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute1]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [attribute1]ï¿½B
      */
     private String fAttribute1;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute2]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute2]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [attribute2]ï¿½B
      */
     private String fAttribute2;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute3]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute3]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [attribute3]ï¿½B
      */
     private String fAttribute3;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute4]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute4]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [attribute4]ï¿½B
      */
     private String fAttribute4;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute5]ï¿½B
      *
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
-     * ƒtƒB[ƒ‹ƒh: [attribute5]B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [attribute5]ï¿½B
      */
     private String fAttribute5;
 
     /**
-     * SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B
+     * SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [quantity]ï¿½B
      *
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
-     * ƒtƒB[ƒ‹ƒh: [quantity]B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h: [quantity]ï¿½B
      */
     private int fQuantity;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [itemid] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [itemid] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [itemid]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @param argItemid ƒtƒB[ƒ‹ƒh[itemid]‚ÉÝ’è‚·‚é’lB
+     * @param argItemid ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[itemid]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setItemid(final String argItemid) {
         fItemid = argItemid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [itemid] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [itemid] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [itemid]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [itemid]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[itemid]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[itemid]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getItemid() {
         return fItemid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [listprice] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [listprice] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [listprice]ï¿½B]ï¿½B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argListprice ƒtƒB[ƒ‹ƒh[listprice]‚ÉÝ’è‚·‚é’lB
+     * @param argListprice ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[listprice]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setListprice(final BigDecimal argListprice) {
         fListprice = argListprice;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [listprice] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [listprice] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [listprice]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [listprice]ï¿½B]ï¿½B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[listprice]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[listprice]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public BigDecimal getListprice() {
         return fListprice;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [unitcost] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [unitcost] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [unitcost]ï¿½B]ï¿½B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argUnitcost ƒtƒB[ƒ‹ƒh[unitcost]‚ÉÝ’è‚·‚é’lB
+     * @param argUnitcost ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[unitcost]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setUnitcost(final BigDecimal argUnitcost) {
         fUnitcost = argUnitcost;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [unitcost] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [unitcost] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [unitcost]B]B
-     * TYPE_NAME: [numeric]B
-     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [unitcost]ï¿½B]ï¿½B
+     * TYPE_NAME: [numeric]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [NUMERIC]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[unitcost]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[unitcost]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public BigDecimal getUnitcost() {
         return fUnitcost;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [supplierid] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [supplierid] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [supplierid]ï¿½B]ï¿½B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argSupplierid ƒtƒB[ƒ‹ƒh[supplierid]‚ÉÝ’è‚·‚é’lB
+     * @param argSupplierid ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[supplierid]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setSupplierid(final Integer argSupplierid) {
         fSupplierid = argSupplierid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [supplierid] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [supplierid] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [supplierid]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [supplierid]ï¿½B]ï¿½B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[supplierid]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[supplierid]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public Integer getSupplierid() {
         return fSupplierid;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.productId] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.productId] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.productId]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @param argProductProductId ƒtƒB[ƒ‹ƒh[product.productId]‚ÉÝ’è‚·‚é’lB
+     * @param argProductProductId ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.productId]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setProductProductId(final String argProductProductId) {
         fProductProductId = argProductProductId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.productId] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.productId] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.productId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.productId]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.productId]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.productId]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getProductProductId() {
         return fProductProductId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.name] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.name] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.name]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argProductName ƒtƒB[ƒ‹ƒh[product.name]‚ÉÝ’è‚·‚é’lB
+     * @param argProductName ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.name]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setProductName(final String argProductName) {
         fProductName = argProductName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.name] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.name] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.name]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.name]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.name]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.name]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getProductName() {
         return fProductName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.description] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.description] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.description]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [255]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argProductDescription ƒtƒB[ƒ‹ƒh[product.description]‚ÉÝ’è‚·‚é’lB
+     * @param argProductDescription ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.description]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setProductDescription(final String argProductDescription) {
         fProductDescription = argProductDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.description] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.description] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.description]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [255]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.description]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [255]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.description]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.description]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getProductDescription() {
         return fProductDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.categoryId] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.categoryId] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.categoryId]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @param argProductCategoryId ƒtƒB[ƒ‹ƒh[product.categoryId]‚ÉÝ’è‚·‚é’lB
+     * @param argProductCategoryId ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.categoryId]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setProductCategoryId(final String argProductCategoryId) {
         fProductCategoryId = argProductCategoryId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [product.categoryId] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [product.categoryId] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [product.categoryId]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [product.categoryId]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[product.categoryId]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[product.categoryId]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getProductCategoryId() {
         return fProductCategoryId;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [status] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [status] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [status]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [2]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argStatus ƒtƒB[ƒ‹ƒh[status]‚ÉÝ’è‚·‚é’lB
+     * @param argStatus ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[status]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setStatus(final String argStatus) {
         fStatus = argStatus;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [status] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [status] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [status]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [2]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [status]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [2]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[status]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[status]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getStatus() {
         return fStatus;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute1] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute1] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute1]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argAttribute1 ƒtƒB[ƒ‹ƒh[attribute1]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute1 ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute1]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setAttribute1(final String argAttribute1) {
         fAttribute1 = argAttribute1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute1] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute1] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute1]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute1]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute1]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute1]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getAttribute1() {
         return fAttribute1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute2] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute2] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute2]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argAttribute2 ƒtƒB[ƒ‹ƒh[attribute2]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute2 ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute2]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setAttribute2(final String argAttribute2) {
         fAttribute2 = argAttribute2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute2] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute2] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute2]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute2]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute2]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute2]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getAttribute2() {
         return fAttribute2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute3] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute3] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute3]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argAttribute3 ƒtƒB[ƒ‹ƒh[attribute3]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute3 ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute3]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setAttribute3(final String argAttribute3) {
         fAttribute3 = argAttribute3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute3] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute3] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute3]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute3]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute3]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute3]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getAttribute3() {
         return fAttribute3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute4] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute4] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute4]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argAttribute4 ƒtƒB[ƒ‹ƒh[attribute4]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute4 ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute4]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setAttribute4(final String argAttribute4) {
         fAttribute4 = argAttribute4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute4] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute4] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute4]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute4]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute4]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute4]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getAttribute4() {
         return fAttribute4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute5] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute5] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute5]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @param argAttribute5 ƒtƒB[ƒ‹ƒh[attribute5]‚ÉÝ’è‚·‚é’lB
+     * @param argAttribute5 ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute5]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setAttribute5(final String argAttribute5) {
         fAttribute5 = argAttribute5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attribute5] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [attribute5] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [attribute5]B]B
-     * TYPE_NAME: [varchar]B
-     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]B
-     * ƒTƒCƒY: [80]B
-     * NULL: [Nullable]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [attribute5]ï¿½B]ï¿½B
+     * TYPE_NAME: [varchar]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [VARCHAR]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [80]ï¿½B
+     * NULL: [Nullable]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[attribute5]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[attribute5]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public String getAttribute5() {
         return fAttribute5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [quantity] ‚Ì’l‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [quantity] ï¿½Ì’lï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [quantity]ï¿½B]ï¿½B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @param argQuantity ƒtƒB[ƒ‹ƒh[quantity]‚ÉÝ’è‚·‚é’lB
+     * @param argQuantity ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[quantity]ï¿½ÉÝ’è‚·ï¿½ï¿½lï¿½B
      */
     public void setQuantity(final int argQuantity) {
         fQuantity = argQuantity;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [quantity] ‚Ì’l‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h [quantity] ï¿½Ì’lï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [SQLŒŸõŒ‹‰Ê‚Ì—ñ: [quantity]B]B
-     * TYPE_NAME: [int4]B
-     * DATA_TYPE_DISPLAY_NAME: [INTEGER]B
-     * ƒTƒCƒY: [10]B
-     * NULL: [NoNulls]B
+     * ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ìï¿½ï¿½ï¿½: [SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½: [quantity]ï¿½B]ï¿½B
+     * TYPE_NAME: [int4]ï¿½B
+     * DATA_TYPE_DISPLAY_NAME: [INTEGER]ï¿½B
+     * ï¿½Tï¿½Cï¿½Y: [10]ï¿½B
+     * NULL: [NoNulls]ï¿½B
      *
-     * @return ƒtƒB[ƒ‹ƒh[quantity]‚©‚çŽæ“¾‚µ‚½’lB
+     * @return ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h[quantity]ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½B
      */
     public int getQuantity() {
         return fQuantity;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶Žš—ñ•\Œ»‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Ìƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * Žg—pã‚Ì’ˆÓ
+     * ï¿½gï¿½pï¿½ï¿½Ì’ï¿½ï¿½ï¿½
      * &lt;UL&gt;
-     * &lt;LI&gt;ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚Ý•¶Žš—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * &lt;LI&gt;ƒIƒuƒWƒFƒNƒg‚ªzŠÂŽQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚ÍŽg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * &lt;LI&gt;ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ÌƒVï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ÍˆÍ‚Ì‚Ý•ï¿½ï¿½ï¿½ï¿½ñ‰»‚Ìï¿½ï¿½ï¿½ï¿½ÎÛ‚Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
+     * &lt;LI&gt;ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½zï¿½ÂŽQï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍAï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ÍŽgï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      * &lt;/UL&gt;
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶Žš—ñ•\Œ»B
+     * @return ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½B
      */
     public String toString() {
         final StringBuffer buf = new StringBuffer();
@@ -842,7 +842,7 @@ public class GetItemRow {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

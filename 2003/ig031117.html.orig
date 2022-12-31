@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2003/11/17 “ú‹L: O-Rƒ}ƒbƒsƒ“ƒO’²¸‚É’…Žè , Sun Java System Application
-Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</TITLE>
-<META name="DESCRIPTION" content="a’J‚ÅƒƒV‚ðH‚¤‚·‚Ä‚«‚È“X‚ª‚³‚Á‚Ï‚è‚í‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½B , Apache Torque’²¸ŠJŽn">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2003/11/17 ï¿½ï¿½ï¿½L: O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½ï¿½ , Sun Java System Application
+Server 8 (J2EE) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½aï¿½Jï¿½Åƒï¿½ï¿½Vï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È“Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B , Apache Torqueï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½n">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:47+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,13 +15,13 @@ Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</TITLE>
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2003/11/17 “ú‹L: O-Rƒ}ƒbƒsƒ“ƒO’²¸‚É’…Žè , Sun Java System Application
-Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] a’J‚ÅƒƒV‚ðH‚¤‚·‚Ä‚«‚È“X‚ª‚³‚Á‚Ï‚è‚í‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½B , Apache Torque’²¸ŠJŽn</P>
+    <H2>2003/11/17 ï¿½ï¿½ï¿½L: O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½ï¿½ , Sun Java System Application
+Server 8 (J2EE) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½aï¿½Jï¿½Åƒï¿½ï¿½Vï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È“Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B , Apache Torqueï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½n</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@ Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@ Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,71 +60,71 @@ Server 8 (J2EE) –³žƒŠƒŠ[ƒX‰»</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Torque’²¸ŠJŽn</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache Torqueï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½n</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>O-Rƒ}ƒbƒsƒ“ƒO‚ð’²‚×‚Ä‚Ý‚æ‚¤‚ÆŒ¾‚¤Ž–‚ÅA“Œ‹ž‚Ì<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco FrameworkƒRƒ~ƒbƒ^‚Ì‚Ð‚Æ‚èB">ymoto</A>‚³‚ñ‚É <A href="http://db.apache.org/torque/">Apache Torque</A>‚Æ<A href="http://www.asahi-net.or.jp/~dp8t-asm/java/tools/Relaxer/index_ja.html">Relaxer</A>‚ð’²¸‚µ‚Ä‚à‚ç‚Á‚Ä‚¢‚Ü‚·B“ú‹LOFF‚Åƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ª˜b‘è‚É‹“‚ª‚Á‚Ä‚¢‚½‚Ì‚ÅA‚»‚Ì˜b‘è‚É—Ž‚¿’…‚«Aˆù‚Ý‰ï“I‚É‚Í
-Relaxer‚Å—Ž‚¿’…‚¢‚Ä‚¢‚½‚Ì‚Å‚·‚¯‚ê‚Ç‚à D‚Ý‚Æ‚¢‚¤‚©¨‚¢ Apache DB Project‚Ìˆê‚Â‚Å‚ ‚é
-Torque‚à‰Ÿ‚³‚¦‚Ä‚¨‚«‚½‚¢‚Æ‚¢‚¤Žv‚¢‚Å‚·Biƒgƒ‹ƒN‚Æ”­‰¹‚·‚é‚ç‚µ‚¢cj<BR>
-‚¿‚È‚Ý‚É Torque‚ÍTurbineƒtƒŒ[ƒ€ƒ[ƒN‚Ìˆê•”‚È‚Ì‚¾‚»‚¤‚ÈB</P>
-<P>‚Å <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco FrameworkƒRƒ~ƒbƒ^‚Ì‚Ð‚Æ‚èB">ymoto</A>‚³‚ñ‚É‚æ‚é‚Æ u‚Æ‚è‚ ‚¦‚¸ƒhƒLƒ…ƒƒ“ƒg‚ª­‚È‚¢v ‚Ì‚¾‚»‚¤‚Å‚·B‚P‚Â‘O‚Ìƒo[ƒWƒ‡ƒ“‚Å‚ ‚é3.0‚¾‚Æ
-‚¢‚­‚Â‚©ƒhƒLƒ…ƒƒ“ƒg‚ª‚ ‚é‚Ì‚¾‚»‚¤‚ÈBƒnƒcƒ‚ƒm‚ÅƒhƒLƒ…ƒƒ“ƒg–³‚µ‚¾‚Æ ‚¨–ñ‘©‚Ì wƒ\[ƒXƒR[ƒh‚ªƒhƒLƒ…ƒƒ“ƒgxó‘Ô‚Å‚Í ‚¿‚ÆƒLƒcƒC‚Æ‚¢‚¤‚±‚Æ‚ÅA‚Ü‚ 
-3.0‚Å‘Ã‹¦‚µ‚Ü‚· (‹êÎ)<BR>
-‚»‚ê‚Í‚Æ‚à‚©‚­ O-Rƒ}ƒbƒsƒ“ƒO‚È‚Ì‚© R-Oƒ}ƒbƒsƒ“ƒO(‚»‚ñ‚È—pŒê‚ÍŽÀ‚Í‘¶Ý‚µ‚Ü‚¹‚ñ) ‚È‚Ì‚©A‚Æ‚¢‚¤‚±‚Æ‚Å ƒS[ƒ‹‚ÍŠÔˆá‚¢‚È‚­“¯‚¶‚È‚Ì‚Å‚·‚ªA“r’†Œo‰ß‚Æ‚µ‚ÄA‚â‚Á‚Ï‚èƒf[ƒ^ƒx[ƒXŽwŒü‚ª‹­‚¢‚à‚Ì‚Ì•û‚ª
-Ž„‚ÍŽg‚¢ŸŽè‚ª—Ç‚¢‚ÆŽv‚Á‚Ä‚¢‚Ü‚·‚Ì‚ÅA‚»‚ê‚à‚ ‚è Torque‚ð‚Ë‚ç‚Á‚Ä‚¢‚Ü‚·B‚»‚ÌˆÓ}‚Í <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco FrameworkƒRƒ~ƒbƒ^‚Ì‚Ð‚Æ‚èB">ymoto</A>‚³‚ñ‚É‚à­‚µ‚¸‚Â—‰ð‚µ‚Ä‚à‚ç‚¢o‚¹‚½‚©‚È‚Á‚Ä‚¢‚¤–Í—l‚Å‚·B</P>
-<P>‚à‚µ Torque‚ªƒCƒP‚Ä‚¢‚½‚çA—ˆ”N—¬s‚ç‚·ƒAƒCƒeƒ€‚Ìˆê‚Â‚É‚µ‚æ‚¤‚ÆŽv‚¢‚Ü‚·B—¬s‚ç‚¹‚é‚Æ‚¢‚¦‚ÎA2003”N‚Í
-SWT‚ÆFOAF‚ª—¬s‚ç‚¹‚é‚±‚Æ‚ª•ø•‰‚Å‚µ‚½BSWT‚Í Eclipse‚ª—¬s‚Á‚½‚¨‚©‚°‚ÅŽ©“®“I‚É—¬s‚Á‚½Š´‚ª‚ ‚è‚Ü‚·BFOAF‚à
-ˆê‰ž—¬s‚Á‚½‚©‚µ‚ç‚ñBŽ„‚ª—¬s‚ç‚¹‚½‚Ì‚©‚Ç‚¤‚©‚Í‚³‚Ä‚¨‚«A‚Ü‚  —¬s‚é‚à‚Ì‚ð—\Œ©‚µ‚½
-‚Æ‚¢‚¤ˆÓ–¡‚Å‚Í ˆê‰ž¬Œ÷‚©‚µ‚ç‚ñB</P>
-<P><FONT color="#ff0000">2003.11.18</FONT> Apache Torque‚Í ƒ‰ƒCƒuƒ‰ƒŠ‚ª‚è‚ª‚èˆË‘¶‚Èƒ\[ƒXƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚é‚Ì‚ÅŒ¶–ÅBRelaxer‚Í Ž„‚ÌƒCƒ[ƒW (‚Æ‚¢‚¤‚©Ž„‚ªˆÈ‘Oì¬‚µ‚½O-Rƒ\[ƒXƒtƒ@ƒCƒ‹Ž©“®¶¬‚Ìƒ\[ƒXƒtƒ@ƒCƒ‹)‚É‚©‚È‚è‹ß‚¢‚Æ‚¢‚¤‚±‚Æ‚ª”»–¾BO-Rƒ}ƒbƒsƒ“ƒO‚Æ‚¢‚¤’PŒê‚Å‚­‚­‚ç‚ê‚é‚Æ‚Í‚¢‚¦AŽÀÛ‚É¶¬‚³‚ê‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Í‚»‚Ì“NŠw‚Íç·–œ•Ê‚Å‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚ð’ÉŠ´‚µ‚Ü‚µ‚½B<BR>
-c‚»‚ê‚É‚µ‚Ä‚à ¡‚Ì‚Æ‚±‚ë Relaxer‚ª¶¬‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚É insert‚âdelete‚Í‚ ‚é‚Ì‚É
-‚È‚º‚© update‚ªŒ©“–‚½‚è‚Ü‚¹‚ñB‚È‚ñ‚Å‚¾‚ë‚¤` (?)</P>
-<P>‚µ‚©‚µ‚Ü‚  ¡‚Ü‚Å O-Rƒ}ƒbƒsƒ“ƒO‚Á‚Ä –³Ž‹‚µ‚Ü‚­‚Á‚Ä‚¢‚Ü‚µ‚½‚ªA‚æ‚à‚âŽ„‚Ìƒj[ƒY‚É‚«‚í‚ß‚Ä‹ß‚¢ƒVƒƒ‚ƒm‚¾‚Á‚½‚Æ‚ícBˆêà‚É‚Í
-EJB‚ÉŒ¶–Å‚µ‚½JavaƒGƒ“ƒWƒjƒA‚ªO-Rƒ}ƒbƒsƒ“ƒO‚É‚È‚¾‚ê‚±‚ñ‚¾A‚»‚¤‚¢‚¤˜b‚à‚ ‚é‚Ì‚¾‚»‚¤‚ÈB#
-^‹U‚Í•s–¾ :-P</P>
-<P><FONT color="#ff0000">2005.02.14 ’Ç‹L</FONT> Œ‹‹Ç <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDB</A>‚Æ‚¢‚¤R-Oƒ}ƒbƒsƒ“ƒO‚É‚æ‚éƒAƒvƒ[ƒ`‚É—Ž‚¿’…‚«‚Ü‚µ‚½B</P>
+<P>O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ð’²‚×‚Ä‚Ý‚æ‚¤ï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkï¿½Rï¿½~ï¿½bï¿½^ï¿½Ì‚Ð‚Æ‚ï¿½B">ymoto</A>ï¿½ï¿½ï¿½ï¿½ï¿½ <A href="http://db.apache.org/torque/">Apache Torque</A>ï¿½ï¿½<A href="http://www.asahi-net.or.jp/~dp8t-asm/java/tools/Relaxer/index_ja.html">Relaxer</A>ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½LOFFï¿½Åƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Ì˜bï¿½ï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ý‰ï¿½Iï¿½É‚ï¿½
+Relaxerï¿½Å—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ ï¿½Dï¿½Ý‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Apache DB Projectï¿½Ìˆï¿½Â‚Å‚ï¿½ï¿½ï¿½
+Torqueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½iï¿½gï¿½ï¿½ï¿½Nï¿½Æ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½cï¿½j<BR>
+ï¿½ï¿½ï¿½È‚Ý‚ï¿½ Torqueï¿½ï¿½Turbineï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Ìˆê•”ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈB</P>
+<P>ï¿½ï¿½ <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkï¿½Rï¿½~ï¿½bï¿½^ï¿½Ì‚Ð‚Æ‚ï¿½B">ymoto</A>ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ ï¿½uï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½v ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Pï¿½Â‘Oï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½3.0ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBï¿½nï¿½cï¿½ï¿½ï¿½mï¿½Åƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ñ‘©‚ï¿½ ï¿½wï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½xï¿½ï¿½Ô‚Å‚ï¿½ ï¿½ï¿½ï¿½ÆƒLï¿½cï¿½Cï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAï¿½Ü‚ï¿½
+3.0ï¿½Å‘Ã‹ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ (ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½È‚Ì‚ï¿½ R-Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O(ï¿½ï¿½ï¿½ï¿½È—pï¿½ï¿½ÍŽï¿½ï¿½Í‘ï¿½ï¿½Ý‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½) ï¿½È‚Ì‚ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½Sï¿½[ï¿½ï¿½ï¿½ÍŠÔˆá‚¢ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½rï¿½ï¿½ï¿½oï¿½ß‚Æ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½Ï‚ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ì•ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ÍŽgï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Ç‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Torqueï¿½ï¿½ï¿½Ë‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌˆÓ}ï¿½ï¿½ <A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkï¿½Rï¿½~ï¿½bï¿½^ï¿½Ì‚Ð‚Æ‚ï¿½B">ymoto</A>ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¢ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ Torqueï¿½ï¿½ï¿½Cï¿½Pï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½sï¿½ç‚·ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½Ìˆï¿½Â‚É‚ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½sï¿½ç‚¹ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ÎA2003ï¿½Nï¿½ï¿½
+SWTï¿½ï¿½FOAFï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ç‚¹ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½BSWTï¿½ï¿½ Eclipseï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BFOAFï¿½ï¿½
+ï¿½ê‰žï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ç‚¹ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Ì‚ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ó–ï¿½ï¿½Å‚ï¿½ ï¿½ê‰žï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2003.11.18</FONT> Apache Torqueï¿½ï¿½ ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½ï¿½Ë‘ï¿½ï¿½Èƒ\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅŒï¿½ï¿½ÅBRelaxerï¿½ï¿½ ï¿½ï¿½ï¿½ÌƒCï¿½ï¿½ï¿½[ï¿½W (ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‘Oï¿½ì¬ï¿½ï¿½ï¿½ï¿½O-Rï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½)ï¿½É‚ï¿½ï¿½È‚ï¿½ß‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½BO-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Û‚Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ì“Nï¿½wï¿½Íç·ï¿½ï¿½ï¿½Ê‚Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ÉŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½cï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½ Relaxerï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ insertï¿½ï¿½deleteï¿½Í‚ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½È‚ï¿½ï¿½ï¿½ updateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½È‚ï¿½Å‚ï¿½ï¿½ë‚¤ï¿½` (?)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½ O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½âŽ„ï¿½Ìƒjï¿½[ï¿½Yï¿½É‚ï¿½ï¿½ï¿½ß‚Ä‹ß‚ï¿½ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½cï¿½Bï¿½ï¿½ï¿½ï¿½É‚ï¿½
+EJBï¿½ÉŒï¿½ï¿½Å‚ï¿½ï¿½ï¿½Javaï¿½Gï¿½ï¿½ï¿½Wï¿½jï¿½Aï¿½ï¿½O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½É‚È‚ï¿½ï¿½ê‚±ï¿½ñ‚¾Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈB#
+ï¿½^ï¿½Uï¿½Í•sï¿½ï¿½ :-P</P>
+<P><FONT color="#ff0000">2005.02.14 ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/gapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDB</A>ï¿½Æ‚ï¿½ï¿½ï¿½R-Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>uK‰ï‘O€”õ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½uï¿½Kï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡“ú‚ÍuK‰ï‚Ì‘O€”õì‹Æ‚É]Ž–‚·‚é—\’è‚Å‚·BI—¹‚µ‚½‚çŽÅŒö‰€‚ÌŽ––±Š‚É–ß‚è‚Ü‚·B<BR>
-<FONT color="#ff0000">22:37</FONT> Œ‹‹Ç 21Žž‚Ü‚ÅŒ»’n‚É‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Íuï¿½Kï¿½ï¿½Ì‘Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅŒï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É–ß‚ï¿½Ü‚ï¿½ï¿½B<BR>
+<FONT color="#ff0000">22:37</FONT> ï¿½ï¿½ï¿½ï¿½ 21ï¿½ï¿½ï¿½Ü‚ÅŒï¿½ï¿½nï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>—j“úŠ´Šo¬—</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ð“ú “Œ‹ž‚É—ˆ‚½‚Ì‚ÅA(•’i‚ÍŒŽ—j“ú‚É“Œ‹ž‚ÉˆÚ“®‚µ‚Ä‚¢‚é‚Ì‚Å) —j“úŠ´Šo‚ª¬—‚µ‚Ä‚¢‚Ü‚·B‚³‚Ä
-ƒWƒƒƒ“ƒvAƒWƒƒƒ“ƒvB</P>
+<P>ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É—ï¿½ï¿½ï¿½ï¿½Ì‚ÅA(ï¿½ï¿½ï¿½iï¿½ÍŒï¿½ï¿½jï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ÉˆÚ“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½) ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½
+ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Aï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>a’J‚ÅƒƒV</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½aï¿½Jï¿½Åƒï¿½ï¿½V</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹îê“Œ‘å‘O‚ÅŽdŽ–‚¾‚Á‚½‚Ì‚ÅAƒƒV‚Ía’J‚ÅH‚×‚æ‚¤‚ÆŽv‚Á‚Ä‚¢‚Ü‚µ‚½Bc ‚Æ‚±‚ë‚ª
-a’J‚Å ‚Ç‚ñ‚ÈH‚×•¨‰®‚ª‚ ‚é‚Ì‚© ‚³‚Á‚Ï‚è‚í‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½B—§‚¿H‚¢‹¼”ž‰®‚Ì‚æ‚¤‚È“X‚ÅH‚×‚Ü‚µ‚½B‚Ó`‚ÞA‰½‚©
-‚¨‹C‚É“ü‚èHŽ–“X‚ð’T‚³‚Ë‚ÎcB</P>
+<P>ï¿½ï¿½ê“Œï¿½ï¿½Oï¿½ÅŽdï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Vï¿½Íaï¿½Jï¿½ÅHï¿½×‚æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½c ï¿½Æ‚ï¿½ï¿½ë‚ª
+ï¿½aï¿½Jï¿½ï¿½ ï¿½Ç‚ï¿½ÈHï¿½×•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È“Xï¿½ÅHï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ó`ï¿½ÞAï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Cï¿½É“ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½Xï¿½ï¿½Tï¿½ï¿½ï¿½Ë‚Îcï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Œ‹é_‚³‚ñ‚ª‚Æ‚Ä‚à‚¨–Z‚µ‚¢‚²—lŽq</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ñ‚ª‚Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½q</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.hyuki.com/" TITLE="Ž„‚ª‚à‚Á‚Æ‚à‘¸Œh‚·‚éî•ñ‹Zpƒ‰ƒCƒ^[‚ÌŒ‹é‚³‚ÜB”Þ‚Ì‚í‚©‚è‚â‚·‚¢•¶Í‚Í Ž„‚½‚¿‚ª–¢’m‚Ìî•ñ‹Zp‚ÉÚ‚·‚éÛ‚É ‚Æ‚Ä‚à—E‹C‚Ã‚¯‚ç‚ê‚Ä‰ž‰‡‚³‚ê‚Ü‚·BŒ‹é_‚³‚ñ‚Ì‘Ð‚ª‚ ‚éƒWƒƒƒ“ƒ‹‚Å‚Í •K‚¸ ‚»‚ê‚ðw“ü‚µA‚Ü‚½l‚ÉŠ©‚ß‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B">Œ‹é_</A>‚³‚ñ‚ª ‚Æ‚Á‚Ä‚à‚¨–Z‚µ‚¢‚²—lŽqB“ú‹L‚É Keep Alive‚ª’£‚è•t‚¢‚Ä‚¢‚Ü‚µ‚½BAAA‚»‚ñ‚ÈŽ„‚àŽÀ‚Í–Z‚µ‚¢‚Ì‚Å‚·‚¯‚ê‚Ç‚à‚Ë‚ÁB</P>
+<P><A HREF="http://www.hyuki.com/" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ÌŒï¿½ï¿½é‚³ï¿½ÜBï¿½Þ‚Ì‚í‚©ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Ìï¿½ï¿½Zï¿½pï¿½ÉÚ‚ï¿½ï¿½ï¿½Û‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Eï¿½Cï¿½Ã‚ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½Kï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½lï¿½ÉŠï¿½ï¿½ß‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">ï¿½ï¿½ï¿½ï¿½_</A>ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½qï¿½Bï¿½ï¿½ï¿½Lï¿½ï¿½ Keep Aliveï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í–Zï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Ë‚ï¿½ï¿½B</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig031117.src.html' , result='ig031117.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig031117-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">•ÄƒTƒ“AJ2EE€‹’uJava System Application Server 8v‚ð–³žƒŠƒŠ[ƒX‚Ö</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>J2EE 1.4€‹’‚Ì‰»•i‚È‚ñ‚¾‚»‚¤‚ÈB‚µ‚©‚µ–³žƒŠƒŠ[ƒX‚Æ‚Íc Sunƒ³J2EEƒT[ƒoƒ\ƒtƒg‚ª–³ž‚Å—˜—p‰Â”\‚Æ‚¢‚¤‚Ì‚Í ‚Ç‚ñ‚ÈƒCƒ“ƒpƒNƒg‚â‚Ç‚ñ‚È‰e‹¿‚ª‚ ‚é‚Ì‚©‚µ‚ç‚ñB‚Æ‚Á‚Ä‚à‹»–¡[‚¢‚Å‚·B<LI><A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">“ú–{‚Å‚àBlog‚Ö‚ÌŠé‹ÆŽQ“ü‘ŠŽŸ‚®A¡Œã‚Ìs•û‚ÍH</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Ž„‚Ì“ú‹L‚àBlog‚É•ª—Þ‚³‚ê‚éA‚Ì‚©‚µ‚ç‚ñB‚È‚ ‚ñ‚ÄŽv‚Á‚½‚è‚µ‚ÄB‚»‚ê‚Í‚Æ‚à‚©‚­ Blog‚ªˆê”Ê‰»‚µ‚Ä‚¢‚­‚Ì‚©‚Ç‚¤‚©A‹»–¡[‚­ŠÏŽ@‚µ‚Ä‚¢‚Ü‚·B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">ƒI[ƒvƒ“ƒ\[ƒX‚Å“ú’†ŠØ‚ª˜AŒgA“ú—§E•xŽm’ÊENEC‘µ‚¢“¥‚Ý‚Ì‘“à’c‘Ì‚à</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚¢‚í‚ä‚éŠ¿ŽšŒ—‚Å—Í‚ð‡‚í‚¹‚ÄƒI[ƒvƒ“ƒ\[ƒX‚ÌŠ¿Žš‘Î‰ž‚È‚Ç‚ÉŽæ‚è‘g‚Þ‚±‚Æ‚Í ‚Æ‚Ä‚à‹»–¡[‚¢‚Å‚·B<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">NECAƒeƒŒƒrŽ‹’®^˜^‰æ‚Æ‰f‘œ”zM‹@”\‚ð”õ‚¦‚éPCIŠg’£ƒ{[ƒh‚ð”­”„</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚‰æŽ¿ƒ`ƒ…[ƒ“‚³‚ê‚½SmartVision HG2/RBSmartVision HG2‚ðŽ‚Á‚Ä‚¢‚éŽ„‚Æ‚µ‚Ä‚Í•¡ŽG‚È‹CŽ‚¿‚Å‚·B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">•Äƒ}ƒCƒNƒƒ\ƒtƒgA‘OŽl”¼Šú‹ÆÑ‚Ì“à–ó‚ðŒö•\</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ƒfƒXƒNƒgƒbƒv—pWindows‚âOffice‚É‰A‚è‚ªŒ©‚¦‚é‚Ì‚¾‚»‚¤‚ÈB‚µ‚©‚µ‚Ü‚  ‚à‚Ì‚·‚²‚­‹­‚¢‰ïŽÐ‚Å‚·‚ËB</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig031117-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">ï¿½ÄƒTï¿½ï¿½ï¿½AJ2EEï¿½ï¿½ï¿½ï¿½ï¿½uJava System Application Server 8ï¿½vï¿½ð–³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061990,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>J2EE 1.4ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½iï¿½È‚ñ‚¾‚ï¿½ï¿½ï¿½ï¿½ÈBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Æ‚Íc Sunï¿½ï¿½ï¿½ï¿½J2EEï¿½Tï¿½[ï¿½oï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½Â”\ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½Ç‚ï¿½ÈƒCï¿½ï¿½ï¿½pï¿½Nï¿½gï¿½ï¿½Ç‚ï¿½È‰eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">ï¿½ï¿½ï¿½{ï¿½Å‚ï¿½Blogï¿½Ö‚ÌŠï¿½ÆŽQï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½ÍH</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/media/story/0,2000047715,20062003,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½ï¿½Blogï¿½É•ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½ï¿½ï¿½ÄŽvï¿½ï¿½ï¿½ï¿½ï¿½è‚µï¿½ÄBï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ Blogï¿½ï¿½ï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÏŽ@ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å“ï¿½ï¿½ï¿½ï¿½Ø‚ï¿½ï¿½Aï¿½gï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½xï¿½mï¿½ÊENECï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ìï¿½ï¿½ï¿½ï¿½cï¿½Ì‚ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20062032,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½ï¿½ï¿½éŠ¿ï¿½ï¿½ï¿½ï¿½ï¿½Å—Í‚ï¿½ï¿½ï¿½ï¿½í‚¹ï¿½ÄƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÌŠï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½È‚Ç‚ÉŽï¿½ï¿½gï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">NECï¿½Aï¿½eï¿½ï¿½ï¿½rï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½^ï¿½ï¿½Æ‰fï¿½ï¿½ï¿½zï¿½Mï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PCIï¿½gï¿½ï¿½ï¿½{ï¿½[ï¿½hï¿½ð”­”ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/com/story/0,2000047668,20061996,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½æŽ¿ï¿½`ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½SmartVision HG2/Rï¿½BSmartVision HG2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éŽ„ï¿½Æ‚ï¿½ï¿½Ä‚Í•ï¿½ï¿½Gï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<LI><A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">ï¿½Äƒ}ï¿½Cï¿½Nï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½Aï¿½Oï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ÆÑ‚Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20061997,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½fï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½pWindowsï¿½ï¿½Officeï¿½É‰Aï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð‚Å‚ï¿½ï¿½ËB</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:47 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/12/18 “ú‹L: Java: JavaServer Faces (JSF) ‚ð—˜—p‚µ‚½ƒŠƒbƒ`‚È Web ‹Æ–±ƒVƒXƒeƒ€ŠJ”­</TITLE>
-<meta name="DESCRIPTION" content="‚Æ‚ ‚é Web ‹Æ–±ƒVƒXƒeƒ€ (100 lŒŽ’ö“x) ‚ð JavaServer Faces (JSF) ‚ð—˜—p‚µ‚ÄŠJ”­‚µ‚Ä‚¢‚Ü‚·B">
-<meta name="KEYWORDS" content="igapyon,JSP,JSF,Ajax,ƒmƒ“ƒvƒƒOƒ‰ƒ~ƒ“ƒO,blanco Framework,YUI">
+<TITLE>2009/12/18 ï¿½ï¿½ï¿½L: Java: JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½`ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½</TITLE>
+<meta name="DESCRIPTION" content="ï¿½Æ‚ï¿½ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ (100 ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½x) ï¿½ï¿½ JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ÄŠJï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<meta name="KEYWORDS" content="igapyon,JSP,JSF,Ajax,ï¿½mï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½O,blanco Framework,YUI">
 <meta name="GENERATOR" content="igapyon diary generator">
 <meta name="DATE" content="2010-09-27T20:42:50+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/12/18 “ú‹L: Java: JavaServer Faces (JSF) ‚ð—˜—p‚µ‚½ƒŠƒbƒ`‚È Web ‹Æ–±ƒVƒXƒeƒ€ŠJ”­</H2>
-    <P>[igapyon,JSP,JSF,Ajax,ƒmƒ“ƒvƒƒOƒ‰ƒ~ƒ“ƒO,blanco Framework,YUI] ‚Æ‚ ‚é Web ‹Æ–±ƒVƒXƒeƒ€ (100 lŒŽ’ö“x) ‚ð JavaServer Faces (JSF) ‚ð—˜—p‚µ‚ÄŠJ”­‚µ‚Ä‚¢‚Ü‚·B</P>
+    <H2>2009/12/18 ï¿½ï¿½ï¿½L: Java: JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½`ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½</H2>
+    <P>[igapyon,JSP,JSF,Ajax,ï¿½mï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½O,blanco Framework,YUI] ï¿½Æ‚ï¿½ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ (100 ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½x) ï¿½ï¿½ JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ÄŠJï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,51 +59,51 @@
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Java: JavaServer Faces (JSF) ‚ð—˜—p‚µ‚½ƒŠƒbƒ`‚È Web ‹Æ–±ƒVƒXƒeƒ€ŠJ”­</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Java: JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½`ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>‚Æ‚ ‚é Web ‹Æ–±ƒVƒXƒeƒ€ (100 lŒŽ’ö“x) ‚ð JavaServer Faces (JSF) ‚ð—˜—p‚µ‚ÄŠJ”­‚µ‚Ä‚¢‚Ü‚·B</p>
-<p>ƒT[ƒo[‚ÍA<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ƒx[ƒX‚Å‚·B</p>
+<p>ï¿½Æ‚ï¿½ï¿½ï¿½ Web ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ (100 ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½x) ï¿½ï¿½ JavaServer Faces (JSF) ï¿½ð—˜—pï¿½ï¿½ï¿½ÄŠJï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½Tï¿½[ï¿½oï¿½[ï¿½Íhttps://www.igapyon.jp/gapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½xï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B</p>
 <ul>
-  <li>JSF ˆ—: <A HREF="http://www.igapyon.jp/blanco/blancojsf.html" TITLE="blancoJsf ‚ðŽg‚¤‚ÆAJSFˆ—’è‹`‘‚ð“ü—Í‚µ‚ÄA‘Î‰ž‚·‚éJavaƒ\[ƒXƒR[ƒh‚¨‚æ‚Ñ XML ƒtƒ@ƒCƒ‹‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">blancoJsf</A>
-  <li>PDF ’ •[ì¬: <A HREF="http://www.igapyon.jp/blanco/blancopdf.html" TITLE="PDF ƒtƒ@ƒCƒ‹‚ðŠÈ’P‚É¶¬‚·‚é‚½‚ß‚Ì Java ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B">blancoPdf</A>
-  <li>ƒoƒbƒ`ˆ—: <A HREF="http://www.igapyon.jp/blanco/blancobatchprocess.html" TITLE="uƒoƒbƒ`ˆ—’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒbƒ`ˆ—‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoBatchProcess</A>
-  <li>DB “üo—Í: <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>
-  <li>CSV ƒtƒ@ƒCƒ‹“üo—Í: <A HREF="http://www.igapyon.jp/blanco/blancocsv.html" TITLE="uƒtƒ@ƒCƒ‹’è‹`‘(CSV)v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çACSVƒtƒ@ƒCƒ‹“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoCsv</A>
-  <li>ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg¶¬: <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="uƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoValueObject</A>
-  <li>ƒƒbƒZ[ƒWŠÇ—: <A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="uƒƒbƒZ[ƒW’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒƒbƒZ[ƒW‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoMessage</A>
-  <li>ƒƒOEƒƒbƒZ[ƒWŠÇ—: <A HREF="http://www.igapyon.jp/blanco/blancologmessage.html" TITLE="uƒƒOEƒƒbƒZ[ƒW’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒƒMƒ“ƒO‚ð‚¨‚±‚È‚¤‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoLogMessage</A>
-  <li>•¶Žš—ñƒOƒ‹[ƒvŠÇ—: <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="u•¶Žš—ñƒOƒ‹[ƒv’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çA•¶Žš—ñƒOƒ‹[ƒv ‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStringGroup</A>
-  <li>‚±‚êˆÈŠO‚Ì blanco Framework ƒvƒƒ_ƒNƒg‚É‚Â‚¢‚ÄA•K—v‚É‰ž‚¶‚Ä—˜—pB
+  <li>JSF ï¿½ï¿½ï¿½ï¿½: <https://www.igapyon.jp/pyon.jp/blanco/blancojsf.html" TITLE="blancoJsf ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÆAJSFï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ XML ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoJsf</A>
+  <li>PDF ï¿½ï¿½ï¿½[ï¿½ì¬: <https://www.igapyon.jp/pyon.jp/blanco/blancopdf.html" TITLE="PDF ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ Java ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">blancoPdf</A>
+  <li>ï¿½oï¿½bï¿½`ï¿½ï¿½ï¿½https://www.igapyon.jp/.igapyon.jp/blanco/blancobatchprocess.html" TITLE="ï¿½uï¿½oï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoBatchProcess</A>
+  <li>DB ï¿½ï¿½ï¿½oï¿½ï¿½:https://www.igapyon.jp/gapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>
+  <li>CSV ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/ww.igapyon.jp/blanco/blancocsv.html" TITLE="ï¿½uï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½(CSV)ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ACSVï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCsv</A>
+  <li>ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½https://www.igapyon.jp/tp://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="ï¿½uï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoValueObject</A>
+  <li>ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½https://www.igapyon.jp/w.igapyon.jp/blanco/blancomessage.html" TITLE="ï¿½uï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoMessage</A>
+  <li>ï¿½ï¿½ï¿½Oï¿½Eï¿½ï¿½ï¿½bï¿½Zï¿½https://www.igapyon.jp///www.igapyon.jp/blanco/blancologmessage.html" TITLE="ï¿½uï¿½ï¿½ï¿½Oï¿½Eï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoLogMessage</A>
+  <li>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[https://www.igapyon.jp//www.igapyon.jp/blanco/blancostringgroup.html" TITLE="ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½v ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStringGroup</A>
+  <li>ï¿½ï¿½ï¿½ï¿½ÈŠOï¿½ï¿½ blanco Framework ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Kï¿½vï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½B
 </ul>
-<p><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Ì‚¨‚©‚°‚ÅA‚©‚È‚è‘½‚­‚ÌŠ„‡‚Ìƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽÀŒ»‚Å‚«‚Ä‚¢‚Ü‚·B</p>
-<p>•\Ž¦‘w‚Í JSF + ƒ¿‚Å‚·BGlassFish ‚Ì JSP + JSF ‚ðƒx[ƒX‚ÉˆÈ‰º‚Ì‚à‚Ì‚ð‘g‚Ý‡‚í‚¹‚Ü‚·B</p>
+<p><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½È‚è‘½ï¿½ï¿½ï¿½ÌŠï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½\ï¿½ï¿½ï¿½wï¿½ï¿½ JSF + ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BGlassFish ï¿½ï¿½ JSP + JSF ï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ÉˆÈ‰ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½gï¿½Ýï¿½ï¿½í‚¹ï¿½Ü‚ï¿½ï¿½B</p>
 <ul>
   <li><a href="http://myfaces.apache.org/tomahawk/">Apache MyFaces Tomahawk</a>
   <ul>
-    <li>ŒJ‚è•Ô‚µ€–Ú
-    <li>ƒy[ƒWƒ“ƒO‹@”\
+    <li>ï¿½Jï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½
+    <li>ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½Oï¿½@ï¿½\
   </ul>
   <li><a href="http://www.primefaces.org/">PrimeFaces</a>
   <ul>
-    <li>Ajax ‚É‚æ‚éŽ©“®•âŠ® (Google ƒTƒWƒFƒXƒg‚Ì‚æ‚¤‚È‹@”\)
-    <li>ƒ_ƒCƒAƒƒO: 
+    <li>Ajax ï¿½É‚ï¿½éŽ©ï¿½ï¿½ï¿½âŠ® (Google ï¿½Tï¿½Wï¿½Fï¿½Xï¿½gï¿½Ì‚æ‚¤ï¿½È‹@ï¿½\)
+    <li>ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½O: 
   </ul>
 </ul>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ajax: PrimeFaces (YUI Library ƒx[ƒX)</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Ajax: PrimeFaces (YUI Library ï¿½xï¿½[ï¿½X)</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>‚±‚±‚Å“oê‚·‚é <a href="http://www.primefaces.org/">PrimeFaces</a> ‚Å‚·‚ªA‰æŠú“I‚É•Ö—˜‚Å‚·BK–x‚³‚ñ‚ª”­Œ©‚µ‚Ü‚µ‚½BK–x‚³‚ñ‚ÉŠ´ŽÓ‚Å‚·B<a href="http://developer.yahoo.com/yui/">YUI Library (Yahoo UI)</a> ‚ðA‚È‚ñ‚ÆA‚Ù‚Úƒmƒ“ƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Å JSP / JSF ‚Ö‚Æ‘g‚Ýž‚Þ‚±‚Æ‚ª‚Å‚«‚Ü‚·BJSF ƒ^ƒO‚ð‚¿‚å‚Ñ‚Á‚Æ‘‚­‚¾‚¯‚ÅA‚ ‚ñ‚È•Ö—˜‚È‹@”\‚Ì”X‚ª
-JSP ‚É‘g‚Ýž‚ß‚é‚Ì‚Å‚·‚à‚ÌBJavaScript ƒŒƒX‚Å <a href="http://developer.yahoo.com/yui/">YUI Library</a> ‚ª—˜—p‚Å‚«‚é‚Ì‚Í”ñí‚É‚ ‚è‚ª‚½‚¢‚Å‚·B</p>
-<p>U‚è•Ô‚Á‚Äl‚¦‚Ä‚Ý‚é‚ÆA‚±‚ÌŠJ”­‚É‚¨‚¢‚Ä Apache Struts ‚Å‚Í‚È‚­ JSF ‚ðÌ—p‚µ‚Ä‚¢‚½A‚Æ‚¢‚¤‚Ì‚ª‘å‚«‚È·‚ð¶‚ñ‚Å‚¢‚é‚±‚Æ‚ª‚í‚©‚è‚Ü‚·B‚±‚ñ‚È•Ö—˜‚Èƒc[ƒ‹‚ªAStruts
-ƒx[ƒXŠJ”­‚É‚¨‚¢‚Ä—˜—p‚Å‚«‚È‚¢‚Ì‚ÍŽc”O‚Å‚·BAjax ŠJ”­‚É‚ÍA‚Ç‚¤‚â‚ç Struts ‚Å‚Í‚È‚­ JSF ‚ªŒü‚¢‚Ä‚¢‚é‚æ‚¤‚ÉŽv‚¦‚Ä‚«‚Ä‚¢‚Ü‚·B</p>
+<p>ï¿½ï¿½ï¿½ï¿½ï¿½Å“oï¿½ê‚·ï¿½ï¿½ <a href="http://www.primefaces.org/">PrimeFaces</a> ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Iï¿½É•Ö—ï¿½ï¿½Å‚ï¿½ï¿½BKï¿½xï¿½ï¿½ï¿½ñ‚ª”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BKï¿½xï¿½ï¿½ï¿½ï¿½ÉŠï¿½ï¿½Ó‚Å‚ï¿½ï¿½B<a href="http://developer.yahoo.com/yui/">YUI Library (Yahoo UI)</a> ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ÆAï¿½Ù‚Úƒmï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ JSP / JSF ï¿½Ö‚Æ‘gï¿½Ýï¿½ï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½BJSF ï¿½^ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ‚ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½È•Ö—ï¿½ï¿½È‹@ï¿½\ï¿½Ìï¿½ï¿½Xï¿½ï¿½
+JSP ï¿½É‘gï¿½Ýï¿½ï¿½ß‚ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ÌBJavaScript ï¿½ï¿½ï¿½Xï¿½ï¿½ <a href="http://developer.yahoo.com/yui/">YUI Library</a> ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½Ì‚Í”ï¿½ï¿½É‚ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</p>
+<p>ï¿½Uï¿½ï¿½Ô‚ï¿½ï¿½Älï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ÆAï¿½ï¿½ï¿½ÌŠJï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ Apache Struts ï¿½Å‚Í‚È‚ï¿½ JSF ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½å‚«ï¿½Èï¿½ï¿½ð¶‚ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½È•Ö—ï¿½ï¿½Èƒcï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½AStruts
+ï¿½xï¿½[ï¿½Xï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÍŽcï¿½Oï¿½Å‚ï¿½ï¿½BAjax ï¿½Jï¿½ï¿½ï¿½É‚ÍAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ Struts ï¿½Å‚Í‚È‚ï¿½ JSF ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

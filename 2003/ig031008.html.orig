@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2003/10/08 “ú‹L: SELECT ‚È‚É‚ª‚µ FOR UPDATE‚ðJDBC APIŒo—R‚Å—˜—p‚·‚é•û–@</TITLE>
-<META name="DESCRIPTION" content="¡“ú‚Í‘ÐŽ·•MB‚Å‚à–¾“ú‚©‚ç“Œ‹žo’£‚Å‚·B’´–Z‚µ‚¢‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2003/10/08 ï¿½ï¿½ï¿½L: SELECT ï¿½È‚É‚ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½JDBC APIï¿½oï¿½Rï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ÐŽï¿½ï¿½Mï¿½Bï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç“Œï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:47+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2003/10/08 “ú‹L: SELECT ‚È‚É‚ª‚µ FOR UPDATE‚ðJDBC APIŒo—R‚Å—˜—p‚·‚é•û–@</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ¡“ú‚Í‘ÐŽ·•MB‚Å‚à–¾“ú‚©‚ç“Œ‹žo’£‚Å‚·B’´–Z‚µ‚¢‚Å‚·B</P>
+    <H2>2003/10/08 ï¿½ï¿½ï¿½L: SELECT ï¿½È‚É‚ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½JDBC APIï¿½oï¿½Rï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ÐŽï¿½ï¿½Mï¿½Bï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç“Œï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,18 +58,18 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SELECT ‚È‚É‚ª‚µ FOR UPDATE‚ðJDBC APIŒo—R‚Å—˜—p‚·‚é•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SELECT ï¿½È‚É‚ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½JDBC APIï¿½oï¿½Rï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡Œg‚í‚Á‚Ä‚¢‚éŽdŽ–‚Å J2EE PetStore‚Ìƒ\[ƒXƒtƒ@ƒCƒ‹‚É SELECT FOR UPDATE‚ÉŠÖ‚·‚é•…‚Á‚½‹LÚ‚ª‚ ‚è‚Ü‚µ‚½BƒhƒLƒ…ƒƒ“ƒg‚É‚Í
-•ÏX‚Ì‚½‚ß‚ÌŠeŽí‹LÚ‚ª‚ ‚é‚æ‚¤‚È‚Ì‚Å‚·‚ªA‚»‚à‚»‚à Å‘åŒö–ñ“I‚Èƒf[ƒ^ƒx[ƒX‚Å“®ì‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Å‚ ‚Á‚Ä—~‚µ‚¢‚à‚Ì‚Å‚·B<BR>
-‚ÅA‚±‚ê‚É‘Î‰ž‚·‚é‚½‚ß‚Ì•ÏX‚ðƒƒ‚‚ÁB</P>
-<P>‚»‚µ‚Ä PetStore‚É‚ÍŠÖ‚í‚ç‚¸ASELECT ‚È‚É‚ª‚µ FOR UPDATE‚ðJDBC‚Å—˜—p‚·‚é‚½‚ß‚Ì•û–@‚Íƒƒ‚‚Ì‰¿’l‚ª‘å‚¢‚É‚ ‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ J2EE PetStoreï¿½Ìƒ\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ SELECT FOR UPDATEï¿½ÉŠÖ‚ï¿½ï¿½é•…ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½É‚ï¿½
+ï¿½ÏXï¿½Ì‚ï¿½ï¿½ß‚ÌŠeï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å‘ï¿½ï¿½ï¿½ï¿½Iï¿½Èƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä—~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B<BR>
+ï¿½ÅAï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ PetStoreï¿½É‚ÍŠÖ‚ï¿½ç‚¸ï¿½ASELECT ï¿½È‚É‚ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½JDBCï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì•ï¿½ï¿½@ï¿½Íƒï¿½ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½lï¿½ï¿½ï¿½å‚¢ï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Microsoft SQL Server 2000‚Å‚Í SQL•¶‚É FOR UPDATE ‚Í—˜—p‚Å‚«‚Ü‚¹‚ñB<BR>
-¦<FONT color="#ff0000">2005.05.20’Ç‹L</FONT> SQL Server‚Ìê‡‚É‚Í WITH‹å‚ð—˜—p‚·‚é‚±‚Æ‚ª”»–¾BÚ‚µ‚­‚Í ŠÖ˜A‚·‚é“ú‹L‚Ì‰ÓŠ‚ÉÚ×‚È‹LÚ‚ª‚ ‚è‚Ü‚·B
-  <LI>Oracle 9i, PostgreSQL 8.0‚Ìê‡‚É‚ÍASQL•¶‚É FOR UPDATE‚ð–¾‹L‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+  <LI>Microsoft SQL Server 2000ï¿½Å‚ï¿½ SQLï¿½ï¿½ï¿½ï¿½ FOR UPDATE ï¿½Í—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½<FONT color="#ff0000">2005.05.20ï¿½Ç‹L</FONT> SQL Serverï¿½Ìê‡ï¿½É‚ï¿½ WITHï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½Ì‰Óï¿½ï¿½ÉÚ×‚È‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>Oracle 9i, PostgreSQL 8.0ï¿½Ìê‡ï¿½É‚ÍASQLï¿½ï¿½ï¿½ï¿½ FOR UPDATEï¿½ð–¾‹Lï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -77,121 +77,121 @@
     <TR>
       <TD>
       <pre>         stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-         rs = stmt.executeQuery(&quot;SELECT €–Ú1, c FROM •\–¼ <STRONG>DBŒÅ—L‚ÌXVƒƒbƒN\•¶</STRONG>&quot;);
+         rs = stmt.executeQuery(&quot;SELECT ï¿½ï¿½ï¿½ï¿½1, ï¿½c FROM ï¿½\ï¿½ï¿½ <STRONG>DBï¿½Å—Lï¿½ÌXï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½\ï¿½ï¿½</STRONG>&quot;);
          if (rs.next()) {
-             rs.updateInt(&quot;€–Ú1&quot;, ’l);
+             rs.updateInt(&quot;ï¿½ï¿½ï¿½ï¿½1&quot;, ï¿½l);
              rs.updateRow();
          }</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
-¦<FONT color="#ff0000">2004.03.13</FONT> ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“ŽÕ’fƒŒƒxƒ‹‚Æ‚¢‚¤‚à‚Ì‚ðÝ’è‚µ‚È‚¢‚ÆAŠú‘Ò‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“ŽÕ’fƒŒƒxƒ‹‚ÅŽÀs‚³‚ê‚Ü‚¹‚ñB<BR>
-¦<FONT color="#ff0000">2005.05.20</FONT> ‚È‚¨Aƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“ŽÕ’fƒŒƒxƒ‹‚ÍAƒfƒtƒHƒ‹ƒg‚ÅƒŠ[ƒhƒRƒ~ƒbƒg (TRANSACTION_READ_COMMITTED) ‚Å‚ ‚éê‡‚ª‘½‚¢‚Å‚·BƒŠ[ƒhƒRƒ~ƒbƒg‚Å‚ ‚ê‚ÎAƒŠ[ƒhƒRƒ~ƒbƒg‚Æ‚¢‚¤‹““®‚Ì”ÍˆÍ‚Å“KØ‚ÈsƒƒbƒN‚ªŠm•Û‚Å‚«‚Ü‚·)</BLOCKQUOTE>
-<P>‚½‚¾Aã‹Lƒ\[ƒXƒR[ƒh‚Í ƒRƒ“ƒpƒCƒ‹‚ª‚Å‚«‚È‚¢’P‚È‚éƒTƒ“ƒvƒ‹‚È‚Ì‚ÅA“®ì‚·‚é‚©‚Ç‚¤‚©‚É‚Â‚¢‚Ä‚Í•Ê‚ÌŽ‘—¿ (—á‚¦‚Î <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>ƒ`ƒ…[ƒgƒŠƒAƒ‹)‚È‚Ç‚ðŽQÆ‚­‚¾‚³‚¢B</P>
-<P><FONT color="#ff0000">2003.10.14</FONT> ŽR–{‚³‚ñ‚ÌŽw“E‚ð”½‰f</P>
-<P><FONT color="#ff0000">2004.03.05</FONT> <A HREF="http://arton.no-ip.info/diary/" TITLE=".NETŒn‹LŽ–Ž·•M‚à‘½‚¢arton‚³‚ñBŽdŽ–‚ÅJava‚àˆµ‚í‚ê‚Ä‚¢‚é‚Æ‚ÌŽ–BŽ„‚É‚Æ‚Á‚Ä‚Í FreePeek‚Æ‚¢‚¤‚Æ‚Ä‚à•Ö—˜‚Èƒ\ƒtƒg‚ÌìŽÒ‚³‚Ü‚Å‚·B‰H¶Í—m•‚¢‚ª‚Ò‚å‚ñ‡ƒRƒ“‚É‚Ä‰‚ß‚Ä‘Î–Ê‚µ‚Ü‚µ‚½B">arton</A>‚³‚ñ‚ÌƒcƒbƒRƒ~‚É‚æ‚èAwildcats‚³‚ñ‚ÌƒcƒbƒRƒ~‚É‹C‚ª•t‚«‚Ü‚µ‚½BOracle 9i ‚Í ­‚È‚­‚Æ‚à
-SQL•¶‚É FOR UPDATE‚ð‰Á‚¦‚é•K—v‚ª‚ ‚é‚±‚Æ‚ðA‚±‚±‚Å‰‚ß‚Ä’m‚è‚Ü‚µ‚½B<BR>
-<STRONG>c’†—ªc</STRONG></P>
+ï¿½ï¿½<FONT color="#ff0000">2004.03.13</FONT> ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Õ’fï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½Ý’è‚µï¿½È‚ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ò‚Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Õ’fï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ÅŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½<FONT color="#ff0000">2005.05.20</FONT> ï¿½È‚ï¿½ï¿½Aï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Õ’fï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ÍAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Åƒï¿½ï¿½[ï¿½hï¿½Rï¿½~ï¿½bï¿½g (TRANSACTION_READ_COMMITTED) ï¿½Å‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½hï¿½Rï¿½~ï¿½bï¿½gï¿½Å‚ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½[ï¿½hï¿½Rï¿½~ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì”ÍˆÍ‚Å“Kï¿½Ø‚Èsï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½mï¿½Û‚Å‚ï¿½ï¿½Ü‚ï¿½)</BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Lï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Pï¿½È‚ï¿½Tï¿½ï¿½https://www.igapyon.jp/Â‚ï¿½ï¿½Ä‚Í•Ê‚ÌŽï¿½ï¿½ï¿½ (ï¿½á‚¦ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½)ï¿½È‚Ç‚ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2003.10.14</FONT> ï¿½Rï¿½{ï¿½ï¿½ï¿½ï¿½ÌŽwï¿½Eï¿½ð”½‰f</P>
+<P><FONT color="#ff0000">2004.03.05</FONT> <A HREF="http://arton.no-ip.info/diary/" TITLE=".NETï¿½nï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½artonï¿½ï¿½ï¿½ï¿½Bï¿½dï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ÌŽï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ FreePeekï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½Ìï¿½Ò‚ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Bï¿½Hï¿½ï¿½ï¿½Í—mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‡ƒRï¿½ï¿½ï¿½É‚Äï¿½ï¿½ß‚Ä‘Î–Ê‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">arton</A>ï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~ï¿½É‚ï¿½ï¿½Awildcatsï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~ï¿½É‹Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BOracle 9i ï¿½ï¿½ ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½
+SQLï¿½ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ß‚Ä’mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+<STRONG>ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></P>
 
-<P><FONT color="#ff0000">2005.05.20’Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ÉŒg‚í‚Á‚Ä‚¢‚é‚¤‚¿‚ÉAFOR UPDATE‚Í ‚©‚È‚è”cˆ¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½BÅ‘åŒö–ñ”“I‚ÈŒ»ó‚¨‚æ‚ÑŒ‹˜_‚Æ‚µ‚Ä‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P><FONT color="#ff0000">2005.05.20ï¿½Ç‹L</FONT> <A HREFhttps://www.igapyon.jp/p/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ÉŒgï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚¤ï¿½ï¿½ï¿½ÉAFOR UPDATEï¿½ï¿½ ï¿½ï¿½ï¿½È‚ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Å‘ï¿½ï¿½ï¿½ñ”“Iï¿½ÈŒï¿½ï¿½ó‚¨‚ï¿½ÑŒï¿½ï¿½_ï¿½Æ‚ï¿½ï¿½Ä‚Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒXŒÅ—L‚ÌÝ’è‚ðs‚¢‚Ü‚·
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Å—Lï¿½ÌÝ’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½
   <UL>
-    <LI>SQL Server 2000‚Ìê‡‚É‚ÍAÚ‘±•¶Žš—ñ‚É“Á’è‚Ì•¶Žš—ñ (SelectMethod=cursor) ‚ð‰Á‚¦‚é•K—v‚ª‚ ‚è‚Ü‚·B
-    <LI>ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“ŽÕ’fƒŒƒxƒ‹‚É‚Â‚¢‚Ä‚ÍA‰½‚ªƒfƒtƒHƒ‹ƒg‚É‚È‚Á‚Ä‚¢‚é‚Ì‚©‚É‚Â‚¢‚Ä‚ÍŠm”F‚ð‚·‚é‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B‚È‚¨A‘½‚­‚ÌJDBCƒhƒ‰ƒCƒo‚Å‚ÍAƒŠ[ƒhƒRƒ~ƒbƒg‚ðƒfƒtƒHƒ‹ƒg‚Æ‚µ‚Ä‚¢‚éê‡‚ª‘½‚¢‚Å‚·BƒŠ[ƒhƒRƒ~ƒbƒg‚ÌƒŒƒxƒ‹‚É‚æ‚éƒƒbƒN‚Å—Ç‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü—˜—p‚·‚é‚Ì‚ð–³“ï‚ÆŽ„‚Íl‚¦‚Ä‚¢‚Ü‚·B
+    <LI>SQL Server 2000ï¿½Ìê‡ï¿½É‚ÍAï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ (SelectMethod=cursor) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Õ’fï¿½ï¿½ï¿½xï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍŠmï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½Å‚ÍAï¿½ï¿½ï¿½[ï¿½hï¿½Rï¿½~ï¿½bï¿½gï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½hï¿½Rï¿½~ï¿½bï¿½gï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½É‚ï¿½éƒï¿½bï¿½Nï¿½Å—Ç‚ï¿½ï¿½ê‡ï¿½É‚ÍAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì‚Ü‚Ü—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ì‚ð–³“ï¿½ÆŽï¿½ï¿½Ílï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
-  <LI>Ž©“®ƒRƒ~ƒbƒg‚ð off ‚ÉÝ’è‚µ‚Ü‚·B<BR>
-  —á Connection.<STRONG>setAutoCommit(false)</STRONG><BR>
-  ŽQl: setAutoCommit(false)‚ð–Y‚ê‚é‚ÆŒ‹‰ÊƒZƒbƒg‚ª•sŽv‹c‚È“®‚«‚ð‚µ‚Ä‚µ‚Ü‚¢‚Ü‚·B<BR>
-  ŽQl: ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“•ª—£ƒŒƒxƒ‹‚É‚Â‚¢‚Ä‚ÍAƒfƒtƒHƒ‹ƒg‚Ì’l‚Å‚ ‚é <STRONG>Connection.TRANSACTION_READ_COMMITTED</STRONG> ‚ðÌ—p‚µ‚Ü‚µ‚½BƒP[ƒXƒoƒCƒP[ƒX‚¾‚Æ‚ÍŽv‚¢‚Ü‚·‚ªA‘¬“x‚Æ‚ÌŒ“‚Ë‡‚¢‚âuˆÀ’è“xv‚È‚Ç‚ðl—¶‚·‚é•K—v‚ª‚ ‚é‚Å‚µ‚å‚¤‚ËB
-  <LI>ƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒXŒÅ—L‚Ì XVƒƒbƒN‚ÉŠÖ‚·‚é\•¶‚ð’Ç‰Á‚µ‚Ü‚·B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½~ï¿½bï¿½gï¿½ï¿½ off ï¿½ÉÝ’è‚µï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ Connection.<STRONG>setAutoCommit(false)</STRONG><BR>
+  ï¿½Qï¿½l: setAutoCommit(false)ï¿½ï¿½Yï¿½ï¿½ï¿½ÆŒï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½sï¿½vï¿½cï¿½È“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½Qï¿½l: ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì’lï¿½Å‚ï¿½ï¿½ï¿½ <STRONG>Connection.TRANSACTION_READ_COMMITTED</STRONG> ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Pï¿½[ï¿½Xï¿½oï¿½Cï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½Æ‚ÍŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½Æ‚ÌŒï¿½ï¿½Ëï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½xï¿½vï¿½È‚Ç‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ËB
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Å—Lï¿½ï¿½ ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ÉŠÖ‚ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   <UL>
     <LI>Oracle 9i , PostgreSQL 8.0 : FOR UPDATE
     <LI>Microsoft SQL Server 2000 : WITH (UPDLOCK)
-    <LI>¦JDBC API‚Ì‹LÚ‚Æ‚Í— • ‚ÉAFOR UPDATE‹å ‚â WITH‹å‚È‚Ç‚ð—p‚¢‚ÄXVƒJ[ƒ\ƒ‹‚Å‚ ‚éŽ|‚ð–¾Ž¦‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+    <LI>ï¿½ï¿½JDBC APIï¿½Ì‹Lï¿½Ú‚Æ‚Í—ï¿½ï¿½ï¿½ï¿½ÉAFOR UPDATEï¿½ï¿½ ï¿½ï¿½ WITHï¿½ï¿½È‚Ç‚ï¿½pï¿½ï¿½ï¿½ÄXï¿½Vï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½|ï¿½ð–¾Žï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
-  <LI>prepareStatement‚É‘Î‚µ‚ÄA<STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE</STRONG> ‚Ìƒtƒ‰ƒO‚ðƒZƒbƒg‚µ‚ÄŽÀs‚µ‚Ü‚·B(ƒXƒNƒ[ƒ‹‚Ì•ûŒü«‚É‚Â‚¢‚ÄA‚Ù‚Æ‚ñ‚Ç‚Ìê‡‚ÍResultSet.TYPE_SCROLL_INSENSITIVE
-  ‚ð‘I‘ð‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚·B‚È‚º‚È‚ç ŽÀs’†‚É‘¼‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ÌXVŒ‹‰Ê‚ðŒ‹‰ÊƒZƒbƒg‚É”½‰f‚³‚¹‚½‚¢‚Æ‚¢‚¤‹Ç–Ê‚Í­‚È‚¢‚¾‚ë‚¤‚©‚ç‚Å‚·B)<BR>
-  prepareStatement(SQL•¶, <STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE</STRONG>, <STRONG>ResultSet.CONCUR_UPDATABLE</STRONG>);
+  <LI>prepareStatementï¿½É‘Î‚ï¿½ï¿½ÄA<STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE</STRONG> ï¿½Ìƒtï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ÄŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Ù‚Æ‚ï¿½Ç‚Ìê‡ï¿½ï¿½ResultSet.TYPE_SCROLL_INSENSITIVE
+  ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½È‚ï¿½ï¿½È‚ï¿½ ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½É‘ï¿½ï¿½Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÌXï¿½Vï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½É”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ç–Ê‚Íï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ë‚¤ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B)<BR>
+  prepareStatement(SQLï¿½ï¿½, <STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE</STRONG>, <STRONG>ResultSet.CONCUR_UPDATABLE</STRONG>);
   <UL>
-    <LI>JDBCƒhƒ‰ƒCƒo‚É‚æ‚Á‚Ä‚ÍAResultSet.TYPE_FORWARD_ONLY ‚ð SENSITIVE‚Æ“¯‚¶ˆµ‚¢‚É‚µ‚Ä‚µ‚Ü‚¤‚à‚Ì‚ª‚ ‚è‚Ü‚·B—v’ˆÓ‚Å‚·B‚·‚È‚í‚¿Œ‹‰ÊƒZƒbƒg‚ª‘¼‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ÌXVŒ‹‰Ê‚ð”½‰f‚µ‚ÄAˆ—’†‚É‚Ç‚ñ‚Ç‚ñ•Ï‰»‚µ‚Ä‚¢‚«‚Ü‚·B
-    <LI>‚±‚Ì‚æ‚¤‚È‚±‚Æ‚©‚çA‚¶‚Â‚ÍXVƒJ[ƒ\ƒ‹‚Å‚ ‚Á‚Ä‚à–³‚­‚Ä‚à ResultSet.TYPE_SCROLL_INSENSITIVE ‚ÌŽw’è‚ð‚µ‚Ä‚¨‚­‚Ì‚ª–³“ï‚Æl‚¦‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B‚Â‚Ü‚è
-    ‚ ‚éŽž“_‚Å‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚Æ‚µ‚Ä‚ÌŒ‹‰ÊƒZƒbƒg(‚Â‚Ü‚èƒJ[ƒ\ƒ‹)‚ðˆÛŽ‚µ‚Ä‚¨‚­‚Ì‚ªAƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Æ‚µ‚ÄíŽ¯“I‚È‹““®‚ðs‚¤‚Æl‚¦‚é‚©‚ç‚Å‚·B(<FONT color="#ff0000">2005.05.24’Ç‹L</FONT>)
+    <LI>JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½É‚ï¿½ï¿½ï¿½Ä‚ÍAResultSet.TYPE_FORWARD_ONLY ï¿½ï¿½ SENSITIVEï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½Ó‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½È‚í‚¿ï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÌXï¿½Vï¿½ï¿½ï¿½Ê‚ð”½‰fï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Ç‚ï¿½Ç‚ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Â‚ÍXï¿½Vï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ ResultSet.TYPE_SCROLL_INSENSITIVE ï¿½ÌŽwï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Â‚Ü‚ï¿½
+    ï¿½ï¿½ï¿½éŽžï¿½_ï¿½Å‚ÌƒXï¿½iï¿½bï¿½vï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½Ä‚ÌŒï¿½ï¿½ÊƒZï¿½bï¿½g(ï¿½Â‚Ü‚ï¿½Jï¿½[ï¿½\ï¿½ï¿½)ï¿½ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Æ‚ï¿½ï¿½ÄíŽ¯ï¿½Iï¿½È‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½B(<FONT color="#ff0000">2005.05.24ï¿½Ç‹L</FONT>)
   </UL>
-  <LI>updateString ‚È‚Ç‚ðŒÄ‚Ño‚µ‚Ä—ñ‚ðXV‚µ‚Ü‚·B
-  <LI>ÅŒã‚É updateRow ‚ðŒÄ‚Ño‚µ‚ÄAs‚É‘Î‚·‚éXV‚ðs‚¢‚Ü‚·B
+  <LI>updateString ï¿½È‚Ç‚ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä—ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ÅŒï¿½ï¿½ updateRow ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ÄAï¿½sï¿½É‘Î‚ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ª—˜—p‚Å‚«‚é•û‚ÍAŽ©“®¶¬‚³‚ê‚é SimpleXXXXXUpdatableIterator.java
-‚Ì“à—e‚ð‚²——‚­‚¾‚³‚¢‚Ü‚¹B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SimpleXXXXXUpdatableIterator.java
+ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2004/ig040304.html">2004/03/04 “ú‹L: Oracle 9i JDBCƒhƒ‰ƒCƒo‚Å‚ÌFOR UPDATEƒJ[ƒ\ƒ‹</A>
-  <LI><A href="../2005/ig050429.html">2005/04/29 “ú‹L: Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</A>
+  <LI><A href="../2004/ig040304.html">2004/03/04 ï¿½ï¿½ï¿½L: Oracle 9i JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½Å‚ï¿½FOR UPDATEï¿½Jï¿½[ï¿½\ï¿½ï¿½</A>
+  <LI><A href="../2005/ig050429.html">2005/04/29 ï¿½ï¿½ï¿½L: Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‘ÐŽ·•Mƒ‚[ƒh</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ÐŽï¿½ï¿½Mï¿½ï¿½ï¿½[ï¿½h</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ð“ú‚©‚ç‘ÐŽ·•M‚É•œ‹A‚µ‚Ü‚µ‚½BŽdŽ–‚ªr‚ê‚Ü‚­‚èB<BR>
-‚µ‚©‚µ–¾“ú‚©‚ç‚Í“Œ‹žo’£ƒVƒŠ[ƒY‚Å‚·B¡“ú’†‚É‰½‚Æ‚©Žw’è‰ÓŠ‚Ü‚Å‚Í’Ee‚¹‚Ë‚ÎcB</P>
-<P><FONT color="#ff0000">13:37</FONT> ƒXƒ‰ƒ“ƒvB‚È‚ñ‚¾‚©Ž·•MƒXƒLƒ‹‚Æ‚¢‚¤‚©°‚Ì‹©‚Ñ‚ª‘S‚­–³‚¢B•¶Í‚ª—N‚¢‚Ä‚±‚È‚¢B‚®‚Í‚ ‚ ‚ ‚ ‚ ‚ ‚ B(‚µ‚©‚µ–¾“ú‚Í’©‚©‚ç“Œ‹ž‚ÉˆÚ“®‚¾‚à‚ñ‚È‚Ÿ)</P>
-<P><FONT color="#ff0000">16:20</FONT> ‚æ‚¤‚â‚Á‚ÆŽ·•MƒGƒ“ƒWƒ“‚ª‹N“®‚·‚éB‚à‚Í‚âŠ®‘S‚ÉŽè’x‚ê‚ÌŠ´‚ª‚ ‚é‚ªA‚±‚ê‚©‚çŠæ’£‚è‚Ü‚·B”R‚¦‚Ä‚«‚½`B‚ß‚ç‚ß‚çB‚Ï‚¿‚Ï‚¿B</P>
-<P><FONT color="#ff0000">21:08</FONT> ‚È‚ºŽ„‚ÍƒRƒ“ƒXƒ^ƒ“ƒg‚ÉŽ·•M‚Å‚«‚È‚¢‚Ì‚¾‚ë‚¤A‚Æ‘f–p‚È‹^–âB‚Æ‚è‚ ‚¦‚¸ ‚½‚Á‚½¡‚Í ’´ƒmƒŠƒmƒŠ‚Å‚· (‹êÎ)<BR>
-‚ ‚ ‚ÁAƒRƒ“ƒXƒ^ƒ“ƒg‚ÉŽdŽ–‚ð‹s‚µ‚Ä‚¢‚­”\—Í‚ªŽ„‚É‚ ‚ê‚Îc ‚»‚ê‚ÍŒˆ‚µ‚ÄŽ„‚Å‚Í–³‚¢‚æ‚È‚Ÿ
-(”šÎ)</P>
-<P><FONT color="#ff0000">23:08</FONT> ‚³‚·‚ª‚É‚¾‚ñ‚¾‚ñ ˆÓŽ¯‚ª‚à‚¤‚ë‚¤‚Æ‚µ‚Ä‚­‚éB‚±‚ê‚Í‚â‚Î‚¢B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‘ï¿½ÐŽï¿½ï¿½Mï¿½É•ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½dï¿½ï¿½ï¿½ï¿½ï¿½rï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í“ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½[ï¿½Yï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‰ï¿½ï¿½Æ‚ï¿½ï¿½wï¿½ï¿½Óï¿½ï¿½Ü‚Å‚Í’Eï¿½eï¿½ï¿½ï¿½Ë‚Îcï¿½B</P>
+<P><FONT color="#ff0000">13:37</FONT> ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Bï¿½È‚ñ‚¾‚ï¿½ï¿½ï¿½ï¿½Mï¿½Xï¿½Lï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½Ñ‚ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Í‚ï¿½ï¿½Nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Bï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í’ï¿½ï¿½ï¿½ï¿½ç“Œï¿½ï¿½ï¿½ÉˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½)</P>
+<P><FONT color="#ff0000">16:20</FONT> ï¿½æ‚¤ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½Mï¿½Gï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Í‚âŠ®ï¿½Sï¿½ÉŽï¿½xï¿½ï¿½ÌŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚ªï¿½Aï¿½ï¿½ï¿½ê‚©ï¿½ï¿½æ’£ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Rï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½`ï¿½Bï¿½ß‚ï¿½ß‚ï¿½Bï¿½Ï‚ï¿½ï¿½Ï‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">21:08</FONT> ï¿½È‚ï¿½ï¿½ï¿½ï¿½ÍƒRï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½gï¿½ÉŽï¿½ï¿½Mï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¤ï¿½Aï¿½Æ‘fï¿½pï¿½È‹^ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Å‚ï¿½ (ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Rï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½gï¿½ÉŽdï¿½ï¿½ï¿½ð‹sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½Í‚ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Îc ï¿½ï¿½ï¿½ï¿½ÍŒï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+(ï¿½ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">23:08</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ñ‚¾‚ï¿½ ï¿½ÓŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë‚¤ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í‚ï¿½Î‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒLƒƒƒvƒ`ƒƒ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Lï¿½ï¿½ï¿½vï¿½`ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒpƒ\ƒRƒ“ƒeƒŒƒr˜^‰æ•Ä¶•DVDì¬‚É—˜—p‚µ‚Ä‚¢‚éƒn[ƒhƒEƒFƒAEƒp[ƒc‚ð ‚´‚´‚Á‚Æƒƒ‚‚Á‚Ä‚¨‚«‚Ü‚·B</P>
+<P>ï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½eï¿½ï¿½ï¿½rï¿½^ï¿½æ•ï¿½Äï¿½ï¿½ï¿½DVDï¿½ì¬ï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½nï¿½[ï¿½hï¿½Eï¿½Fï¿½Aï¿½Eï¿½pï¿½[ï¿½cï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>NEC SmartVision HG2 [PK-VS/AG31/S] (\17,800.-)<BR>
   <A HREF="http://www.yodobashi.com/enjoy/more/i/11482956.html">http://www.yodobashi.com/enjoy/more/i/11482956.html</A><BR>
-  ’Êí‚Ì—\–ñ˜^‰æ•Ž‹’®‚É‚Í‚±‚ê‚ð—˜—p‚µ‚Ä‚¢‚Ü‚·B•’iŽB‚è—­‚ß‚é‚É‚ÍAƒn[ƒhƒEƒFƒAMPEG2ƒGƒ“ƒR[ƒ_“‹Ú‚Í•K{€–Ú‚Å‚µ‚½B‚Ü‚½A‚¨‚Ü‚©‚¹˜^‰æ‹@”\‚ª‘å•Ï‹C‚É“ü‚Á‚Ä‚¢‚Ü‚·BŽ„‚ÍƒNƒ‰ƒVƒbƒN‰¹ŠyƒWƒƒƒ“ƒ‹‚ðŽ‹’®‚µ‚½‚¢‚Ì‚Å‚·‚ªASmartVision‚ªŽ©“®“I‚ÉƒeƒŒƒr”Ô‘g•\‚ðƒ`ƒFƒbƒN‚µ‚Ä
-  ƒNƒ‰ƒVƒbƒN‰¹Šy‚ð ‚ª‚ñ‚ª‚ñŽ©“®˜^‰æ‚µ‚Ä‚­‚ê‚Ü‚·B‚à‚Ì‚®‚³‚ÈŽ„‚É‚Í‚Ò‚Á‚½‚è‚Å‚·B‹C‚É‚È‚é‰¹Ž¿‚È‚Ì‚Å‚·‚ªAMPEG-1
-  Audio Layer-2 48000Hz 224kbps ‚Å•Û‘¶‚µ‚Ä‚¢‚é–Í—l‚Å‚·BPCM‚ªƒIƒvƒVƒ‡ƒ“‚Å‘I‘ð‚Å‚«‚ê‚Î–ž“_‚È‚Ì‚Å‚·‚¯‚ê‚Ç‚à‚ËB‰æŽ¿‚Ì•û‚Í
-  •W€‚ª CBR‚Ì4000kbps‚Å‚ ‚é‚æ‚¤‚Å‚·BƒJƒXƒ^ƒ€‚Å‘I‘ð‰Â”\‚ÈVBR+4500kbpsÝ’è‚æ‚è‚àCBR‚ðŽg‚Á‚½•W€‰æŽ¿‚Ì•û‚ª‰æŽ¿Š´‚ªˆÀ’è‚µ‚Ä‚¢‚é‚æ‚¤‚ÉŽv‚¦‚Ü‚µ‚½B
+  ï¿½Êï¿½Ì—\ï¿½ï¿½^ï¿½æ•ï¿½ï¿½ï¿½ï¿½ï¿½É‚Í‚ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½iï¿½Bï¿½è—­ï¿½ß‚ï¿½É‚ÍAï¿½nï¿½[ï¿½hï¿½Eï¿½Fï¿½AMPEG2ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½_ï¿½ï¿½ï¿½Ú‚Í•Kï¿½{ï¿½ï¿½ï¿½Ú‚Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½Ï‹Cï¿½É“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÍƒNï¿½ï¿½ï¿½Vï¿½bï¿½Nï¿½ï¿½ï¿½yï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ASmartVisionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Éƒeï¿½ï¿½ï¿½rï¿½Ô‘gï¿½\ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
+  ï¿½Nï¿½ï¿½ï¿½Vï¿½bï¿½Nï¿½ï¿½ï¿½yï¿½ï¿½ ï¿½ï¿½ï¿½ñ‚ª‚ñŽ©“ï¿½ï¿½^ï¿½æ‚µï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ÈŽï¿½ï¿½É‚Í‚Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Cï¿½É‚È‚é‰¹ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½AMPEG-1
+  Audio Layer-2 48000Hz 224kbps ï¿½Å•Û‘ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½BPCMï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Å‘Iï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Î–ï¿½ï¿½_ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ËBï¿½æŽ¿ï¿½Ì•ï¿½ï¿½ï¿½
+  ï¿½Wï¿½ï¿½ï¿½ï¿½ CBRï¿½ï¿½4000kbpsï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½Å‘Iï¿½ï¿½ï¿½Â”\ï¿½ï¿½VBR+4500kbpsï¿½Ý’ï¿½ï¿½ï¿½ï¿½CBRï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½æŽ¿ï¿½Ì•ï¿½ï¿½ï¿½ï¿½æŽ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
   <LI>I-O DATA GV-1394TV (\31,800.-)<BR>
   <A HREF="http://www.iodata.co.jp/products/video/2003/gv-1394tv/index.htm">http://www.iodata.co.jp/products/video/2003/gv-1394tv/index.htm</A><BR>
-  ‚±‚ê‚Í‰i‹v•Û‘¶”ÅA‚Æ‚¢‚¤ì•i‚É‚Í ‚±‚¿‚ç‚Ìƒn[ƒhƒEƒFƒA‚ÅAVI•Û‘¶‚µ‚ÄŒãATMPGEnc
-  Plus 2.5‚ÅŽžŠÔ‚ð‚©‚¯‚Ä‚ä‚Á‚­‚è•ÒW•ƒGƒ“ƒR[ƒh‚µ‚½Œã ‰º‹L‚ÌƒyƒKƒVƒXŽÐ»‚Q»•i‚ð—p‚¢‚ÄDVD‰»‚ðs‚Á‚Ä‚¢‚Ü‚·B‚±‚ê‚ÍDV‹@Ší‚Æ‚µ‚Ä”FŽ¯‚³‚ê‚Ü‚·BƒS[ƒXƒgƒŠƒfƒ…[ƒT[‚â3ŽŸŒ³M†•ª—£‚È‚Ç
-  ‹@”\–žÚ‚Å‚·B‚±‚¿‚ç‚ÌŒn“Œo—R‚¾‚Æ ‰¹Ž¿‚ðPCM‚Ì‚Ü‚Ü ƒfƒOƒŒ[ƒh‚¹‚¸‚ÉDVD‰»‚Å‚«‚Ü‚·‚µA‚Ü‚½‰æŽ¿‚à
-  DVD—e—Êˆê”t‚ÌƒŒƒxƒ‹‚É VBR‚È‚èCBR‚È‚è‚ð‘I‘ð‚µ‚È‚ª‚ç ’²®‚·‚é‚±‚Æ‚ª‚Å‚«‚Ä
-  ‚Æ‚Ä‚à–ž‘«‚Å‚·B‚½‚¾‚µ ‚±‚¿‚ç‚ÌƒP[ƒX‚Å‚Í ‚Æ‚Á‚Ä‚àŽžŠÔ‚ª‚©‚©‚è‚Ü‚·B2ŽžŠÔì•i‚¾‚Á‚½‚ç
-  ƒRƒ“ƒsƒ…[ƒ^ã‚Å‚Ìˆ—‚ª ŠÛ‚P“ú‚©‚©‚è‚Ü‚·B(‚Ù‚ñ‚Æ‚¤‚ÉI) Å‹ß‚Í VBR‚æ‚è‚àCBR‚Å
-  ‚»‚Ì‘ã‚í‚è ‰æŽ¿’²®‚ð ‚ß‚¢ˆê”tŽžŠÔ‚ª‚©‚©‚éÝ’è‚É‚µ‚ÄMPEG2ì¬‚ðs‚Á‚½‚èA‚È‚Ç‚Æ‚¢‚¤Ý’è‚É‹»–¡‚ðŽ‚Á‚Ä‚¢‚Ü‚·B(VBR‚¾‚ÆÝ’è‚Ì’²®‚ÉŽ¸”s‚µ‚½‚ç
-  ’Êí‚ÌDVDƒvƒŒ[ƒ„[‚ÅÄ¶‚Å‚«‚È‚¢‚Ì‚Å‚Í‚È‚¢‚©‚ÆAÅ‹ß‹^‚Á‚Ä‚¢‚Ü‚·) CBR‚Å<STRONG>Å‚‰æŽ¿Ý’è</STRONG>‚É‚µ‚Ä‹C‡‚¢‚ÅMPEG2ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ðs‚¤‚ÆAŽÀÛ‚ÌÄ¶ŽžŠÔ‚Ì10”{‚à‚ÌŽžŠÔ‚ªƒGƒ“ƒR[ƒfƒBƒ“ƒO‚É•K—v‚É‚È‚è‚Ü‚·B‚Ñ‚Á‚­‚è‚Å‚·‚ËB‚¿‚È‚Ý‚É
-  ƒŠƒjƒAPCM‰¹Ž¿‚Å2ŽžŠÔ”Ô‘g‚ðDVD-R‚ÉÄ‚«•t‚¯‚é‚Æ ‰f‘œ‚Í 3500kbps’ö“x‚ÌŠ„‚è“–‚Ä‚É‚È‚è‚Ü‚·B720x480‚Å3500kbps‚¾‚Æ
-  ‚æ‚Á‚Û‚ÇMPEG2ƒGƒ“ƒR[ƒ_[ˆ—‚É‹C‡‚¢‚ª“ü‚Á‚Ä‚¢‚È‚¢‚ÆƒuƒƒbƒNƒmƒCƒY‚ª‚Î‚µ‚Î‚µ”­¶‚µ‚Ä‚µ‚Ü‚¢‚Ü‚·‚à‚Ì‚ËB
+  ï¿½ï¿½ï¿½ï¿½Í‰iï¿½vï¿½Û‘ï¿½ï¿½ÅAï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½É‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒnï¿½[ï¿½hï¿½Eï¿½Fï¿½Aï¿½ï¿½AVIï¿½Û‘ï¿½ï¿½ï¿½ï¿½ÄŒï¿½ATMPGEnc
+  Plus 2.5ï¿½ÅŽï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒWï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Ìƒyï¿½Kï¿½Vï¿½Xï¿½Ðï¿½ï¿½Qï¿½ï¿½ï¿½iï¿½ï¿½pï¿½ï¿½ï¿½ï¿½DVDï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½DVï¿½@ï¿½ï¿½Æ‚ï¿½ï¿½Ä”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Sï¿½[ï¿½Xï¿½gï¿½ï¿½ï¿½fï¿½ï¿½ï¿½[ï¿½Tï¿½[ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+  ï¿½@ï¿½\ï¿½ï¿½ï¿½Ú‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒnï¿½ï¿½ï¿½oï¿½Rï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PCMï¿½Ì‚Ü‚ï¿½ ï¿½fï¿½Oï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½DVDï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½æŽ¿ï¿½ï¿½
+  DVDï¿½eï¿½Êˆï¿½tï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ VBRï¿½È‚ï¿½CBRï¿½È‚ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½
+  ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒPï¿½[ï¿½Xï¿½Å‚ï¿½ ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B2ï¿½ï¿½ï¿½Ôï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½Å‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û‚Pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Ù‚ï¿½Æ‚ï¿½ï¿½ÉI) ï¿½Å‹ß‚ï¿½ VBRï¿½ï¿½ï¿½ï¿½CBRï¿½ï¿½
+  ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ ï¿½æŽ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß‚ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½É‚ï¿½ï¿½ï¿½MPEG2ï¿½ì¬ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½È‚Ç‚Æ‚ï¿½ï¿½ï¿½ï¿½Ý’ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B(VBRï¿½ï¿½ï¿½ÆÝ’ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½Êï¿½ï¿½DVDï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½ÅÄï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ÆAï¿½Å‹ß‹^ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½) CBRï¿½ï¿½<STRONG>ï¿½Åï¿½ï¿½æŽ¿ï¿½Ý’ï¿½</STRONG>ï¿½É‚ï¿½ï¿½Ä‹Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½MPEG2ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Û‚ÌÄï¿½ï¿½ï¿½ï¿½Ô‚ï¿½10ï¿½{ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ô‚ï¿½ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½É•Kï¿½vï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½È‚Ý‚ï¿½
+  ï¿½ï¿½ï¿½jï¿½APCMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ô”Ô‘gï¿½ï¿½DVD-Rï¿½ÉÄ‚ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½ï¿½ï¿½ï¿½ 3500kbpsï¿½ï¿½ï¿½xï¿½ÌŠï¿½ï¿½è“–ï¿½Ä‚É‚È‚ï¿½Ü‚ï¿½ï¿½B720x480ï¿½ï¿½3500kbpsï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½Û‚ï¿½MPEG2ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½_ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É‹Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Æƒuï¿½ï¿½ï¿½bï¿½Nï¿½mï¿½Cï¿½Yï¿½ï¿½ï¿½Î‚ï¿½ï¿½Î‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‚ËB
   <UL>
-    <LI>ƒyƒKƒVƒX TMPGEnc Plus 2.5 (\7,350.-)<BR>
+    <LI>ï¿½yï¿½Kï¿½Vï¿½X TMPGEnc Plus 2.5 (\7,350.-)<BR>
     <A HREF="http://www.pegasys-inc.com/j_tmpgenc.html">http://www.pegasys-inc.com/j_tmpgenc.html</A><BR>
-    AVI -&gt; MPEG•ÏŠ·‚Å—˜—p‚µ‚Ä‚¢‚éBCMƒJƒbƒg‚È‚Ç‚ð‚±‚±‚Ås‚Á‚Ä‚¢‚éB’è•]‚Ì‚ ‚éMPEG-2ƒGƒ“ƒR[ƒ_B
-    <LI>ƒyƒKƒVƒX TMPGEnc DVD Author 1.5 (\6,800.-)<BR>
+    AVI -&gt; MPEGï¿½ÏŠï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½BCMï¿½Jï¿½bï¿½gï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åsï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Bï¿½ï¿½]ï¿½Ì‚ï¿½ï¿½ï¿½MPEG-2ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½_ï¿½B
+    <LI>ï¿½yï¿½Kï¿½Vï¿½X TMPGEnc DVD Author 1.5 (\6,800.-)<BR>
     <A HREF="http://www.pegasys-inc.com/j_tmpg_author15.html">http://www.pegasys-inc.com/j_tmpg_author15.html</A><BR>
-    DVDƒI[ƒTƒŠƒ“ƒOƒ\ƒtƒgBDVDƒƒjƒ…[‚È‚Ç‚ð‚±‚±‚Åì¬‚·‚éBƒVƒ“ƒvƒ‹‚Å ‚©‚Â
-    Žg‚¢S’n‚ª—Ç‚¢BDVDÄ‚«•t‚¯‚Ü‚Å ‚±‚Ìƒ\ƒtƒg‚ÅŠ®Œ‹‚µ‚ÄŽÀŽ{‚Å‚«‚é“_‚àŠð‚µ‚¢B
+    DVDï¿½Iï¿½[ï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½\ï¿½tï¿½gï¿½BDVDï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åì¬ï¿½ï¿½ï¿½ï¿½Bï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    ï¿½gï¿½ï¿½ï¿½Sï¿½nï¿½ï¿½ï¿½Ç‚ï¿½ï¿½BDVDï¿½Ä‚ï¿½ï¿½tï¿½ï¿½ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½Ìƒ\ï¿½tï¿½gï¿½ÅŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½{ï¿½Å‚ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
   </UL>
-  <LI>120GB’ö“x‚ÌHDD<BR>
-  •¨—“I‚É OS‚È‚Ç‚Æ‚Í•Ê‚ÌHDD‚É˜^‰æƒf[ƒ^‚ð•ÛŽ‚·‚é‚Ì‚ª—Ç‚¢–Í—lB‚Ü‚½AŽw’è‰Â”\‚ÈÅ‘åƒNƒ‰ƒXƒ^ƒTƒCƒY(ƒAƒƒP[ƒVƒ‡ƒ“ƒ†ƒjƒbƒgƒTƒCƒY)‚ÅƒtƒH[ƒ}ƒbƒg‚µ‚Ä—˜—p‚µ‚Ä‚¢‚Ü‚·BNTFS‚È‚Ì‚Å64KB‚ªÅ‘å’l‚É‚È‚è‚Ü‚·B
-  <LI>ƒƒ‹ƒR(BUFFALO) DVM-4242IU2 [IEEE1394&amp;USB2.0‘Î‰žDVD}R/RWƒhƒ‰ƒCƒu] (\39,800.-)<BR>
+  <LI>120GBï¿½ï¿½ï¿½xï¿½ï¿½HDD<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ OSï¿½È‚Ç‚Æ‚Í•Ê‚ï¿½HDDï¿½É˜^ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½Í—lï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½wï¿½ï¿½Â”\ï¿½ÈÅ‘ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½Tï¿½Cï¿½Y(ï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½bï¿½gï¿½Tï¿½Cï¿½Y)ï¿½Åƒtï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BNTFSï¿½È‚Ì‚ï¿½64KBï¿½ï¿½ï¿½Å‘ï¿½lï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½R(BUFFALO) DVM-4242IU2 [IEEE1394&amp;USB2.0ï¿½Î‰ï¿½DVDï¿½}R/RWï¿½hï¿½ï¿½ï¿½Cï¿½u] (\39,800.-)<BR>
   <A HREF="http://buffalo.melcoinc.co.jp/products/catalog/item/d/dvm-4242iu2/index.html">http://buffalo.melcoinc.co.jp/products/catalog/item/d/dvm-4242iu2/index.html</A><BR>
-  }—¼•û‘Î‰ž{ŠO•t‚¯‚Ì‚à‚Ì‚Å w“ü“–Žž‚Å‚Íˆê”ÔˆÀ‚©‚Á‚½‚Å‚·B
+  ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½{ï¿½Oï¿½tï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Íˆï¿½Ôˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig031008.src.html' , result='ig031008.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig031008-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm">ƒNƒŠƒXƒ}ƒXƒvƒŒƒ[ƒ“ƒg‚É‚¢‚©‚ªH ƒ\ƒj[A‹ÆŠEÅ‘å‹‰‚ÌHDD“‹ÚDVDƒŒƒR[ƒ_[PSX‚ð”­•\</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚ ‚ ‚ÁB”„‚ê‚»‚¤B‚Æ‚¢‚¤‚© ‚Æ‚è‚ ‚¦‚¸ —~‚µ‚¢I (‹êÎ) ƒ\ƒj[‚¨“¾ˆÓ‚Ì‚¨‚Ü‚©‚¹˜^‰æ‹@”\‚Í–³‚¢–Í—lB<LI><A HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm">ƒfƒWƒ^ƒ‹•ú‘—‚Ìu‘PˆÓ‚Ì‰Rv‚Í‹–‚³‚ê‚é‚©</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ŒoÏŽY‹ÆŒ¤‹†ŠEãÈŒ¤‹†ˆõ‚Ì•û‚ª‘‚©‚ê‚½‹LŽ–BwuŽ©‹ÆŽ©“¾v‚Å‚·‚ÞBSƒfƒWƒ^ƒ‹‚Æ‚Íˆá‚Á‚ÄA’nã”gƒfƒWƒ^ƒ‹‚Í‘–¯‘Sˆõ‚É–À˜f‚ð‹y‚Ú‚·Bx‚ÌƒNƒ_ƒŠ‚ªà“¾—Í‚ ‚è‚Ü‚·B<LI><A HREF="http://pcweb.mycom.co.jp/news/2003/10/07/22.html">yCEATEC JAPAN 2003ƒŒƒ|[ƒgzâ‘º‹³ŽöAŒö‰‰‘O‚ÉˆÙ—á‚ÌuFAQv</A> <FONT size="-2"><A target="_blank" HREF="http://pcweb.mycom.co.jp/news/2003/10/07/22.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>TŠ§ƒ_ƒCƒ„ƒ‚ƒ“ƒh‚É ‚à‚Ì‚·‚²‚¢Œë‰ð‹LŽ–‚ªÚ‚Á‚½‚Ì‚¾‚»‚¤‚ÈB‚±‚ê‚Ì’ù³ƒvƒŒƒXƒŠƒŠ[ƒX(?) ƒRƒ“ƒsƒ…[ƒ^‚Ì‚±‚Æ‚ð—Ç‚­•ª‚©‚Á‚Ä‚¢‚È‚¢ˆê”Ê‘åOŽ†‹LŽÒ‚ª‹LŽ–‚ð‘‚­‚Æ ‚Æ‚ñ‚Å‚à‚È‚¢ŠÔˆá‚¢ (‚ ‚é‚¢‚ÍˆÓ}“I•œ“ˆÓ“I‚ÈŠÔˆá‚¢H) ‚ª”­¶‚·‚é‚Ì‚©‚µ‚çH Ž„‚É‚Í—‰ð•s”\B<LI><A HREF="http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html">ƒlƒbƒgƒ[ƒNƒGƒ“ƒWƒjƒA‚ð–ÚŽw‚¹I: ‚¢‚Üƒlƒbƒgƒ[ƒN‚Å‹‚ß‚ç‚ê‚é‹Zp‚Æ‚Í</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Å‹ß‚Ìƒlƒbƒgƒ[ƒNŠÖ˜A‹Zp‚É‚Í‘S‚­’Ç]‚Å‚«‚Ä‚¨‚è‚Ü‚¹‚ñB“úiŒŽ•à‚È‚ñ‚¾‚à‚ñB‚Å‚à TCP/IP‚É‚Ü‚Â‚í‚é‹Zp‚ªª‚Á‚±‚É‘¶Ý‚µ‚Ä‚¢‚é‚Æ‚¢‚¤“_‚Í Ì‚à¡‚à•Ï‚í‚è‚ ‚è‚Ü‚¹‚ñB‚»‚Ì“_‚¾‚¯‚ÍˆÀS‚Å‚«‚Ü‚·B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/">uJava‚ª—¬s‚Á‚Ä‚¢‚Ä‚àŠJ”­ŽÒ‚Í‚¢‚Â‚©4GL‚É–ß‚Á‚Ä‚­‚év</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Java‚ÍŠm‚©‚ÉA4GL‚Æ”ä‚×‚é‚Æ ‚¢‚­‚Â‚à–â‘è“_‚ªŒ©‚¦‚Ü‚·B‚½‚¾‚µ ‚¢‚í‚ä‚é4GLŒ¾Œê‚ª“‹Ú‚µ‚Ä‚¢‚é¶ŽY«Œüã‚Ì‚½‚ß‚ÌŽæ‚è‘g‚Ý‚ðJava‚ÉŽæ‚è‘g‚Þ‚±‚Æ‚Í‰Â”\‚¾‚µ ‚»‚¤‚¢‚Á‚½ƒpƒbƒP[ƒWƒ\ƒtƒg‚ÈŠJ”­ŠÂ‹«‚à ¡‚Ü‚ÅŠô‚Â‚àŒ©‚½‚±‚Æ‚ª‚ ‚è‚Ü‚·B‚Æ‚Ä‚àJava‚©‚ç]—ˆŒ^4GL‚Ö‚Ì‰ñ‹A‚ª‹N‚±‚é‚Æ‚Íl‚¦‚ç‚ê‚Ü‚¹‚ñB‚Þ‚µ‚ëJava‚É4GL“I—v‘f‚ð·‚èž‚ñ‚¾¤•i‚Í”„‚ê‚é‚¾‚ë‚¤‚ÆŽ„‚Í“Ç‚ñ‚Å‚¢‚é‚Ì‚Å‚·‚ªc<LI><A HREF="http://www.watch.impress.co.jp/game/docs/20030502/21th.htm">ƒTƒCƒo[ƒtƒƒ“ƒgAuA—ñŽÔ‚Ås‚±‚¤v‚ð6ŒŽ19“ú‚É”­”„</A> <FONT size="-2"><A target="_blank" HREF="http://www.watch.impress.co.jp/game/docs/20030502/21th.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Windows”Å‚Æ‚µ‚ÄA—ñŽÔ‚ª–ß‚Á‚Ä‚«‚½‚Ì‚¾‚»‚¤‚Å‚·I ‚Ñ‚Á‚­‚è‚Å‚·B‚Å‚àƒqƒ}‚ª–³‚¢‚©‚ç‚Æ‚Ä‚à—V‚×‚È‚³‚»‚¤‚Å‚·‚ªcB<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872">g˜a‰ðh‚Å}‚é‹£‡‚Â‚Ô‚µ--ƒgƒƒ“‚É‹ü‚µ‚½MS‚ÉƒŠƒiƒbƒNƒX‚Ì‰e</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>‚±‚Ì‹LŽ–’†‚Å‚ÍAŽQ‰Á”­•\‚Ì’x‚ê‚ðw‘åŠé‹Æ•ax‚Æ“Ç‚Ý‰ð‚¢‚Ä‚¢‚Ü‚·B<LI><A HREF="http://www.ochato.or.jp/">‚¨’ƒ‚Ì…}‘ŠÙ</A> <FONT size="-2"><A target="_blank" HREF="http://www.ochato.or.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>È‚ª‚½‚Ü‚É—˜—p‚·‚é}‘ŠÙB2003”N10ŒŽ1“úƒŠƒjƒ…[ƒAƒ‹ƒI[ƒvƒ“‚É‚Ä‰c‹ÆÄŠJB‚¸‚¢‚Ô‚ñ’·‚¢ŠÔAƒŠƒjƒ…[ƒAƒ‹ì‹Æ‚É‚Ä•ÂŠÙ‚µ‚Ä‚¢‚Ü‚µ‚½B–³Ž–‚ÉÄŠJ‚Å‚«‚Ä—Ç‚©‚Á‚½‚Å‚·B</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig031008-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm">ï¿½Nï¿½ï¿½ï¿½Xï¿½}ï¿½Xï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½gï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½H ï¿½\ï¿½jï¿½[ï¿½Aï¿½ÆŠEï¿½Å‘å‹‰ï¿½ï¿½HDDï¿½ï¿½ï¿½ï¿½DVDï¿½ï¿½ï¿½Rï¿½[ï¿½_ï¿½[PSXï¿½ð”­•\</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/tech/story/0,2000047674,20061280,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚»ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½I (ï¿½ï¿½ï¿½) ï¿½\ï¿½jï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ó‚Ì‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½@ï¿½\ï¿½Í–ï¿½ï¿½ï¿½ï¿½Í—lï¿½B<LI><A HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm">ï¿½fï¿½Wï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìuï¿½Pï¿½Ó‚Ì‰Rï¿½vï¿½Í‹ï¿½ï¿½ï¿½ï¿½ï¿½é‚©</A> <FONT size="-2"><A target="_blank" HREF="http://japan.cnet.com/news/pers/story/0,2000047682,20061108,00.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½oï¿½ÏŽYï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ÈŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Lï¿½ï¿½ï¿½Bï¿½wï¿½uï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½vï¿½Å‚ï¿½ï¿½ï¿½BSï¿½fï¿½Wï¿½^ï¿½ï¿½ï¿½Æ‚Íˆï¿½ï¿½ï¿½ÄAï¿½nï¿½ï¿½gï¿½fï¿½Wï¿½^ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½É–ï¿½ï¿½fï¿½ï¿½ï¿½yï¿½Ú‚ï¿½ï¿½Bï¿½xï¿½ÌƒNï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://pcweb.mycom.co.jp/news/2003/10/07/22.html">ï¿½yCEATEC JAPAN 2003ï¿½ï¿½ï¿½|ï¿½[ï¿½gï¿½zï¿½â‘ºï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ÉˆÙ—ï¿½ÌuFAQï¿½v</A> <FONT size="-2"><A target="_blank" HREF="http://pcweb.mycom.co.jp/news/2003/10/07/22.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½Tï¿½ï¿½ï¿½_ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X(?) ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ê‘ï¿½Oï¿½ï¿½ï¿½Lï¿½Ò‚ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ôˆá‚¢ (ï¿½ï¿½ï¿½é‚¢ï¿½ÍˆÓ}ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ó“Iï¿½ÈŠÔˆá‚¢ï¿½H) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½H ï¿½ï¿½ï¿½É‚Í—ï¿½ï¿½ï¿½sï¿½\ï¿½B<LI><A HREF="http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html">ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Gï¿½ï¿½ï¿½Wï¿½jï¿½Aï¿½ï¿½ÚŽwï¿½ï¿½ï¿½I: ï¿½ï¿½ï¿½Üƒlï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Å‹ï¿½ï¿½ß‚ï¿½ï¿½ï¿½Zï¿½pï¿½Æ‚ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://jibun.atmarkit.co.jp/lskill01/special/tonet01/nettrend01/nettrend01.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½Å‹ß‚Ìƒlï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Ö˜Aï¿½Zï¿½pï¿½É‚Í‘Sï¿½ï¿½ï¿½Ç]ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½È‚ñ‚¾‚ï¿½ï¿½ï¿½Bï¿½Å‚ï¿½ TCP/IPï¿½É‚Ü‚Â‚ï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½è‚ ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì“_ï¿½ï¿½ï¿½ï¿½ï¿½Íˆï¿½ï¿½Sï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/">ï¿½uJavaï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚Í‚ï¿½ï¿½Â‚ï¿½4GLï¿½É–ß‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½v</A> <FONT size="-2"><A target="_blank" HREF="http://itpro.nikkeibp.co.jp/free/NSW/NEWS/20030925/135044/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Javaï¿½ÍŠmï¿½ï¿½ï¿½ÉA4GLï¿½Æ”ï¿½×‚ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4GLï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½é¶ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ß‚ÌŽï¿½ï¿½gï¿½Ý‚ï¿½Javaï¿½ÉŽï¿½ï¿½gï¿½Þ‚ï¿½ï¿½Æ‚Í‰Â”\ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½\ï¿½tï¿½gï¿½ÈŠJï¿½ï¿½ï¿½Â‹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü‚ÅŠï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚Ä‚ï¿½Javaï¿½ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½^4GLï¿½Ö‚Ì‰ï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½Æ‚Ílï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Þ‚ï¿½ï¿½ï¿½Javaï¿½ï¿½4GLï¿½Iï¿½vï¿½fï¿½ð·‚èžï¿½ñ‚¾ï¿½ï¿½iï¿½Í”ï¿½ï¿½ï¿½é‚¾ï¿½ë‚¤ï¿½ÆŽï¿½ï¿½Í“Ç‚ï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½c<LI><A HREF="http://www.watch.impress.co.jp/game/docs/20030502/21th.htm">ï¿½Tï¿½Cï¿½oï¿½[ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Aï¿½uAï¿½ï¿½Ô‚Åsï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½6ï¿½ï¿½19ï¿½ï¿½ï¿½É”ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.watch.impress.co.jp/game/docs/20030502/21th.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>Windowsï¿½Å‚Æ‚ï¿½ï¿½ï¿½Aï¿½ï¿½Ô‚ï¿½ï¿½ß‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½I ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½qï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½Vï¿½×‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½cï¿½B<LI><A HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872">ï¿½gï¿½aï¿½ï¿½ï¿½hï¿½Å}ï¿½é‹£ï¿½ï¿½ï¿½Â‚Ô‚ï¿½--ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½MSï¿½Éƒï¿½ï¿½iï¿½bï¿½Nï¿½Xï¿½Ì‰e</A> <FONT size="-2"><A target="_blank" HREF="http://biztech.nikkeibp.co.jp/wcs/leaf/CID/onair/biztech/biz/269872">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Ì’xï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½Æ•aï¿½xï¿½Æ“Ç‚Ý‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<LI><A HREF="http://www.ochato.or.jp/">ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.ochato.or.jp/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2003</FONT><BR>ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ü‚É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½ÙB2003ï¿½N10ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Aï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½É‚Ä‰cï¿½ÆÄŠJï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ñ’·‚ï¿½ï¿½ÔAï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Aï¿½ï¿½ï¿½ï¿½Æ‚É‚Ä•ÂŠÙ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÉÄŠJï¿½Å‚ï¿½ï¿½Ä—Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:47 $</address>
 </BODY>
 </HTML>

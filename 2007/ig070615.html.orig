@@ -76,8 +76,8 @@
 <P>����� Developers' Lounge �ɑ����A�V�삳��ɂ�� XP�u�K�� �ɎQ�����āA���� �ǂ�ǂ� Ruby �Ƃ����p��Ŏv�l�����܂��Ă��Ă��܂��܂����B�X�ɁA�Ƃǂ߂������悤�ɁA�����ȏ���
 Ruby �̃G���^�[�v���C�Y�Ή��Ɍ������b��܂ŕ����y��ł��܂��B</P>
 <P>�����G���^�[�v���C�Y�^��n�Ƃ����p��𕷂��� �^����ɋC�ɂȂ�̂� SQL / �f�[�^�x�[�X���o�͂ł��BSQL�^�f�[�^�x�[�X������ �����[�V���i���f�[�^�x�[�X���S�̃G���^�[�v���C�Y�V�X�e���ɂ�����S�����Ȃ̂ł��B���� ActiveRecord�ł� �G���^�[�v���C�Y�ł̗��p�ɂ����č����ʂ����邾�낤�Ɨ\�z���Ă���̂ł��B</P>
-<P>Ruby + SQL + �f�[�^�x�[�X �̑g�ݍ��킹 + ���ɍv���ł��邱�� (�܂��<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�Ŏ����ł��邱��)
-�Ƃ����΁https://www.igapyon.jp/igapyon/diary/yon/diary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�c�[�� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> �� Ruby �ł̐V�K�񋟂ɂȂ�ł��傤�ˁBblancoDb
+<P>Ruby + SQL + �f�[�^�x�[�X �̑g�ݍ��킹 + ���ɍv���ł��邱�� (�܂��<A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�Ŏ����ł��邱��)
+�Ƃ����΁https://www.igapyon.jp/igapyon/diary/yon/diary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�c�[�� <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> �� Ruby �ł̐V�K�񋟂ɂȂ�ł��傤�ˁBblancoDb
 �� Ruby �� �� blancoDbRuby �A�A�A���O�͌��܂��Ă��܂��܂����B���O�����܂�A���̌ꊴ�������肭��΁A������ ���͂�ł��������������R�ł���(��)�B�Ƃ������ƂŁAblancoDbRuby
 �̌����ɒ��肵�܂����B</P>
 <P><FONT color="#ff00ff">blancoDbRuby ��{�d�l</FONT></P>
@@ -112,7 +112,7 @@ Ruby �̃G���^�[�v���C�Y�Ή��Ɍ������b��
 <UL>
   <LI>OpenOffice�x�[�X�̃I�t�B�X�f�[�^�ϊ��V�X�e�� - JODConverter 2.2.0�o��<BR>
   <A HREF="http://journal.mycom.co.jp/news/2007/06/07/009/index.html">http://journal.mycom.co.jp/news/2007/06/07/009/index.html</A><BR>
-  JOOConverter�� JODConverter�ւƖ��̕ύX�����Ƃ̂��Ƃł��B<A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org�o�R�� Excel�`���܂���PDF�`���̒��[���쐬����API�Z�b�g����уR�}���h��񋟂��܂��BOpenOffice.org�𗘗p���ăh�L�������g�`���ϊ��������s�������ꍇ�ɗL�v�ł��B">blancoReport</A> ����������d�l�͈͂�
+  JOOConverter�� JODConverter�ւƖ��̕ύX�����Ƃ̂��Ƃł��B<A HREF="https://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org�o�R�� Excel�`���܂���PDF�`���̒��[���쐬����API�Z�b�g����уR�}���h��񋟂��܂��BOpenOffice.org�𗘗p���ăh�L�������g�`���ϊ��������s�������ꍇ�ɗL�v�ł��B">blancoReport</A> ����������d�l�͈͂�
   �Ȃ񂾂����Ă���悤�Ɏv���܂����B
   <LI>Windows 98/Me�̃T�|�[�g�؂ꌜ�O: ���ˎs�A�w�Z�����ς�PC1000���KNOPPIX�ōĐ�<BR>
   <A HREF="http://www.atmarkit.co.jp/news/200706/06/matsudo.html">http://www.atmarkit.co.jp/news/200706/06/matsudo.html</A><BR>

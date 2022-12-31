@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/04/29 “ú‹L: Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</TITLE>
-<META name="DESCRIPTION" content="JDBCŒo—R‚Å Microsoft SQL Server 2000‚É‘Î‚µ‚Ä XVƒƒbƒN (FOR UPDATE‘Š“–) ‚Ì‘€ì‚ðŽÀŒ»‚·‚é‚½‚ß‚ÌŽè‡‚ð’²‚×‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,WITH,UPDLOCK,SQL,Server,2000,JDBC,SelectMethod,Cursor,blancoDb">
+<TITLE>2005/04/29 ï¿½ï¿½ï¿½L: Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</TITLE>
+<META name="DESCRIPTION" content="JDBCï¿½oï¿½Rï¿½ï¿½ Microsoft SQL Server 2000ï¿½É‘Î‚ï¿½ï¿½ï¿½ ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½N (FOR UPDATEï¿½ï¿½ï¿½ï¿½) ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌŽè‡ï¿½ð’²‚×‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,WITH,UPDLOCK,SQL,Server,2000,JDBC,SelectMethod,Cursor,blancoDb">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/04/29 “ú‹L: Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,WITH,UPDLOCK,SQL,Server,2000,JDBC,SelectMethod,Cursor,blancoDb] JDBCŒo—R‚Å Microsoft SQL Server 2000‚É‘Î‚µ‚Ä XVƒƒbƒN (FOR UPDATE‘Š“–) ‚Ì‘€ì‚ðŽÀŒ»‚·‚é‚½‚ß‚ÌŽè‡‚ð’²‚×‚Ü‚µ‚½B</P>
+    <H2>2005/04/29 ï¿½ï¿½ï¿½L: Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,WITH,UPDLOCK,SQL,Server,2000,JDBC,SelectMethod,Cursor,blancoDb] JDBCï¿½oï¿½Rï¿½ï¿½ Microsoft SQL Server 2000ï¿½É‘Î‚ï¿½ï¿½ï¿½ ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½N (FOR UPDATEï¿½ï¿½ï¿½ï¿½) ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌŽè‡ï¿½ð’²‚×‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,70 +60,70 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¢‚ÄXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ðŽÀŒ»‚·‚é‚½‚ß‚É‚ÍA‰º‹L‚Ì—v—Ì‚ª•K—v‚Å‚·B</P>
+<P>Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄXï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚É‚ÍAï¿½ï¿½ï¿½Lï¿½Ì—vï¿½Ì‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B</P>
 <OL>
-  <LI>“®ìŠm”FŠÂ‹«
+  <LI>ï¿½ï¿½ï¿½ï¿½mï¿½Fï¿½Â‹ï¿½
   <UL>
     <LI>Microsoft Windows 2000
-    <LI>Microsoft SQL Server 2000 SP3‚Ü‚½‚Í ‚»‚êˆÈ~
-    <LI>SQL Server 2000 Driver for JDBC Service Pack 3 (version 2.2.0040) ‚Ü‚½‚Í ‚»‚êˆÈ~<BR>
+    <LI>Microsoft SQL Server 2000 SP3ï¿½Ü‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È~
+    <LI>SQL Server 2000 Driver for JDBC Service Pack 3 (version 2.2.0040) ï¿½Ü‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È~<BR>
     <A href="http://www.microsoft.com/downloads/details.aspx?FamilyId=07287B11-0502-461A-B138-2AA54BFDC03A">http://www.microsoft.com/downloads/details.aspx?FamilyId=07287B11-0502-461A-B138-2AA54BFDC03A</A>
   </UL>
-  <LI>ƒf[ƒ^ƒx[ƒXÚ‘±•¶Žš—ñ‚É SelectMethod=cursor ‚ð‰Á‚¦‚é<BR>
-  ¦d—v: XVƒƒbƒN‚ðs‚¤‚©‚Ç‚¤‚©‚É‚©‚©‚í‚ç‚¸ASelectMethod=cursor ‚Íd—v‚ÈÝ’è’l‚Æ‚È‚è‚Ü‚·B<BR>
-  —á: jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=Northwind;<STRONG>SelectMethod=cursor</STRONG>
-  <LI>Ž©“®ƒRƒ~ƒbƒg‚ð off ‚ÉÝ’è‚·‚éB<BR>
-  —á Connection.<STRONG>setAutoCommit(false)</STRONG><BR>
-  ŽQl: setAutoCommit(false)‚ð–Y‚ê‚é‚ÆŒ‹‰ÊƒZƒbƒg‚ª•sŽv‹c‚È“®‚«‚ð‚µ‚Ä‚µ‚Ü‚¢‚Ü‚·B<BR>
-  ŽQl: ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“•ª—£ƒŒƒxƒ‹‚É‚Â‚¢‚Ä‚ÍAƒfƒtƒHƒ‹ƒg‚Ì’l‚Å‚ ‚é <STRONG>Connection.TRANSACTION_READ_COMMITTED</STRONG> ‚ðÌ—p‚µ‚Ü‚µ‚½BƒP[ƒXƒoƒCƒP[ƒX‚¾‚Æ‚ÍŽv‚¢‚Ü‚·‚ªA‘¬“x‚Æ‚ÌŒ“‚Ë‡‚¢‚âuˆÀ’è“xv‚È‚Ç‚ðl—¶‚·‚é•K—v‚ª‚ ‚é‚Å‚µ‚å‚¤‚ËB
-  <LI>WITH (UPDLOCK) ‚Ì‚æ‚¤‚Éƒe[ƒuƒ‹‚É‘Î‚µ‚Äƒqƒ“ƒg‚ð—^‚¦‚éB<BR>
-  ¦SQL Server 2000‚Å‚Í FOR UPDATE ‚Ì•¶–@‚Í—˜—p‚µ‚Ü‚¹‚ñ (—˜—p‚Å‚«‚Ü‚¹‚ñ)<BR>
-  ¦JDBC API‚Ì‹LÚ‚Æ‚Í— • ‚ÉAWITH‹å‚È‚Ç‚ð—p‚¢‚ÄXVƒJ[ƒ\ƒ‹‚Å‚ ‚éŽ|‚ð–¾Ž¦‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B<BR>
-  —á: FROM Customers <STRONG>WITH (UPDLOCK)</STRONG>
+  <LI>ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SelectMethod=cursor ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½dï¿½v: ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ç‚¸ï¿½ASelectMethod=cursor ï¿½Ídï¿½vï¿½ÈÝ’ï¿½lï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½: jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=Northwind;<STRONG>SelectMethod=cursor</STRONG>
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½~ï¿½bï¿½gï¿½ï¿½ off ï¿½ÉÝ’è‚·ï¿½ï¿½B<BR>
+  ï¿½ï¿½ Connection.<STRONG>setAutoCommit(false)</STRONG><BR>
+  ï¿½Qï¿½l: setAutoCommit(false)ï¿½ï¿½Yï¿½ï¿½ï¿½ÆŒï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½sï¿½vï¿½cï¿½È“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½Qï¿½l: ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì’lï¿½Å‚ï¿½ï¿½ï¿½ <STRONG>Connection.TRANSACTION_READ_COMMITTED</STRONG> ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Pï¿½[ï¿½Xï¿½oï¿½Cï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½Æ‚ÍŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½Æ‚ÌŒï¿½ï¿½Ëï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½xï¿½vï¿½È‚Ç‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ËB
+  <LI>WITH (UPDLOCK) ï¿½Ì‚æ‚¤ï¿½Éƒeï¿½[ï¿½uï¿½ï¿½ï¿½É‘Î‚ï¿½ï¿½Äƒqï¿½ï¿½ï¿½gï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½B<BR>
+  ï¿½ï¿½SQL Server 2000ï¿½Å‚ï¿½ FOR UPDATE ï¿½Ì•ï¿½ï¿½@ï¿½Í—ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)<BR>
+  ï¿½ï¿½JDBC APIï¿½Ì‹Lï¿½Ú‚Æ‚Í—ï¿½ï¿½ï¿½ï¿½ÉAWITHï¿½ï¿½È‚Ç‚ï¿½pï¿½ï¿½ï¿½ÄXï¿½Vï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½|ï¿½ð–¾Žï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½: FROM Customers <STRONG>WITH (UPDLOCK)</STRONG>
   <UL>
-    <LI>ŽQl <A HREF="http://www.coredevelopers.net/library/j2ee/locking/db.jsp">http://www.coredevelopers.net/library/j2ee/locking/db.jsp</A>
-    <LI>ŽQl <A href="http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/acdata/ac_8_con_7a_1hf7.asp">http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/acdata/ac_8_con_7a_1hf7.asp</A>
+    <LI>ï¿½Qï¿½l <A HREF="http://www.coredevelopers.net/library/j2ee/locking/db.jsp">http://www.coredevelopers.net/library/j2ee/locking/db.jsp</A>
+    <LI>ï¿½Qï¿½l <A href="http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/acdata/ac_8_con_7a_1hf7.asp">http://www.microsoft.com/japan/msdn/library/default.asp?url=/japan/msdn/library/ja/acdata/ac_8_con_7a_1hf7.asp</A>
   </UL>
-  <LI>prepareStatement‚É‘Î‚µ‚ÄA<STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE</STRONG> ‚Ìƒtƒ‰ƒO‚ðƒZƒbƒg‚µ‚ÄŽÀs‚·‚éB(ƒXƒNƒ[ƒ‹‚Ì•ûŒü«‚É‚Â‚¢‚ÄA‚Ù‚Æ‚ñ‚Ç‚Ìê‡‚ÍResultSet.TYPE_SCROLL_INSENSITIVE
-  ‚ð‘I‘ð‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚·B‚È‚º‚È‚ç ŽÀs’†‚É‘¼‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ÌXVŒ‹‰Ê‚ðŒ‹‰ÊƒZƒbƒg‚É”½‰f‚³‚¹‚½‚¢‚Æ‚¢‚¤‹Ç–Ê‚Í­‚È‚¢‚¾‚ë‚¤‚©‚ç‚Å‚·B)<BR>
+  <LI>prepareStatementï¿½É‘Î‚ï¿½ï¿½ÄA<STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE</STRONG> ï¿½Ìƒtï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ÄŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½B(ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Ù‚Æ‚ï¿½Ç‚Ìê‡ï¿½ï¿½ResultSet.TYPE_SCROLL_INSENSITIVE
+  ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½È‚ï¿½ï¿½È‚ï¿½ ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½É‘ï¿½ï¿½Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÌXï¿½Vï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½É”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ç–Ê‚Íï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ë‚¤ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B)<BR>
   iterator.prepareStatement(iterator.getQuery(), <STRONG>ResultSet.TYPE_SCROLL_INSENSITIVE</STRONG>, <STRONG>ResultSet.CONCUR_UPDATABLE</STRONG>);
   <UL>
-    <LI>ŽQl: Œ»ƒo[ƒWƒ‡ƒ“‚ÌJDBCƒhƒ‰ƒCƒo‚ÍAResultSet.TYPE_FORWARD_ONLY ‚¾‚Æ SENSITIVE‚Æ“¯‚¶‹““®‚ðs‚¤–Í—l‚Å‚·B‚·‚È‚í‚¿Œ‹‰ÊƒZƒbƒg‚ª‘¼‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ÌXVŒ‹‰Ê‚ð”½‰f‚µ‚ÄAˆ—’†‚É‚Ç‚ñ‚Ç‚ñ•Ï‰»‚µ‚Ä‚¢‚«‚Ü‚·B
-    <LI>ŽQl: ‚±‚Ì‚æ‚¤‚È‚±‚Æ‚©‚çAXVƒJ[ƒ\ƒ‹‚Å‚ ‚Á‚Ä‚à–³‚­‚Ä‚à ResultSet.TYPE_SCROLL_INSENSITIVE ‚ÌŽw’è‚ð‚µ‚Ä‚¨‚­‚Ì‚ª–³“ï‚Æl‚¦‚Ü‚·B‚Â‚Ü‚è ‚ ‚éŽž“_‚Å‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚Æ‚µ‚Ä‚ÌŒ‹‰ÊƒZƒbƒg(‚Â‚Ü‚èƒJ[ƒ\ƒ‹)‚ðˆÛŽ‚µ‚Ä‚¨‚­‚Ì‚ªAƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Æ‚µ‚ÄíŽ¯“I‚È‹““®‚ðs‚¤‚Æl‚¦‚é‚©‚ç‚Å‚·B(<FONT color="#ff0000">2005.05.24’Ç‹L</FONT>)
+    <LI>ï¿½Qï¿½l: ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ÍAResultSet.TYPE_FORWARD_ONLY ï¿½ï¿½ï¿½ï¿½ SENSITIVEï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½È‚í‚¿ï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÌXï¿½Vï¿½ï¿½ï¿½Ê‚ð”½‰fï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Ç‚ï¿½Ç‚ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>ï¿½Qï¿½l: ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½Xï¿½Vï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ ResultSet.TYPE_SCROLL_INSENSITIVE ï¿½ÌŽwï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Â‚Ü‚ï¿½ ï¿½ï¿½ï¿½éŽžï¿½_ï¿½Å‚ÌƒXï¿½iï¿½bï¿½vï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½Ä‚ÌŒï¿½ï¿½ÊƒZï¿½bï¿½g(ï¿½Â‚Ü‚ï¿½Jï¿½[ï¿½\ï¿½ï¿½)ï¿½ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Æ‚ï¿½ï¿½ÄíŽ¯ï¿½Iï¿½È‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½B(<FONT color="#ff0000">2005.05.24ï¿½Ç‹L</FONT>)
   </UL>
-  <LI>‚»‚êˆÈŠO‚É‚Â‚¢‚Ä‚ÍAˆê”Ê“I‚È JDBCƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Æ“¯‚¶B<BR>
-  updateString ‚È‚Ç‚ðŒÄ‚Ño‚µ‚½Œã‚É updateRow ‚ðŒÄ‚Ño‚µ‚Ü‚·B
+  <LI>ï¿½ï¿½ï¿½ï¿½ÈŠOï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½Ê“Iï¿½ï¿½ JDBCï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Æ“ï¿½ï¿½ï¿½ï¿½B<BR>
+  updateString ï¿½È‚Ç‚ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ updateRow ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </OL>
-<P>‹ï‘Ì“I‚È SQL•¶‚Í ‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½Ì“Iï¿½ï¿½ SQLï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
       <TD>
-      <pre>SELECT —ñ1, —ñ2, —ñ3 FROM Customers WITH (UPDLOCK) ORDER BY —ñ1</pre>
+      <pre>SELECT ï¿½ï¿½1, ï¿½ï¿½2, ï¿½ï¿½3 FROM Customers WITH (UPDLOCK) ORDER BY ï¿½ï¿½1</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>‚Ü‚½A“®ìƒTƒ“ƒvƒ‹‚É‚Â‚¢‚Ä‚Í <A href="http://sourceforge.jp/projects/blancofw/">blancoDbƒ`ƒ…[ƒgƒŠƒAƒ‹</A>‚É‹LÚ‚µ‚Ä‚¢‚Ü‚·B“–‘R‚Ì‚±‚Æ‚È‚ª‚çA‚±‚ÌƒTƒ“ƒvƒ‹‚Í <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>ƒx[ƒX‚Æ‚È‚Á‚Ä‚¢‚Ü‚·‚ªAˆê”Ê‚ÌJDBCƒvƒƒOƒ‰ƒ~ƒ“ƒO‚Ö‚Ì“Ç‚Ý‘Ö‚¦‚ÍA‚·‚®‚ÉŽÀŽ{‚Å‚«‚é‚±‚Æ‚Å‚µ‚å‚¤B</P>
-<P>c‚»‚ê‚É‚µ‚Ä‚àASQL Server 2000 ‚É‚¨‚¯‚é JDBCƒhƒ‰ƒCƒoŠÖ˜A‚Ìî•ñ‚ð’²‚×‚é‚Ì‚É‚ÍAŒ‹\ŽèŠÔ‚ª‚©‚©‚è‚Ü‚µ‚½Bî•ñ‚ª‹É’[‚É­‚È‚¢‚Å‚·Bã‹L‚Ì‚æ‚¤‚ÈŠî–{Œ`ƒ\[ƒXƒR[ƒh‚ð’²‚×‚é‚¾‚¯‚ÌŽè‡‚É
-4ŽžŠÔ‚à‚©‚©‚Á‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½B2005.04.29Žž“_‚É‚¨‚¢‚Ä Google‚ÅŒŸõ‚µ‚Ä‚àXVƒƒbƒN‚É‚Ü‚Â‚í‚éî•ñ‚Í‚Ù‚Æ‚ñ‚Ç–³‚©‚Á‚½‚Å‚·B( .NETƒx[ƒX‚Ì‚à‚Ì‚Í
-‚¢‚­‚Â‚©‚Á‚½‚Ì‚Å‚·‚ªc)</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ <A href="http://sourceforge.jp/projects/blancofw/">blancoDbï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½</A>ï¿½É‹Lï¿½https://www.igapyon.jp/ï¿½Aï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½xï¿½[ï¿½Xï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Ê‚ï¿½JDBCï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Ö‚Ì“Ç‚Ý‘Ö‚ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½{ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B</P>
+<P>ï¿½cï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ASQL Server 2000 ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½Ö˜Aï¿½Ìï¿½ï¿½ð’²‚×‚ï¿½Ì‚É‚ÍAï¿½ï¿½ï¿½\ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ñ‚ª‹É’[ï¿½Éï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½ÈŠï¿½{ï¿½`ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ð’²‚×‚é‚¾ï¿½ï¿½ï¿½ÌŽè‡ï¿½ï¿½
+4ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B2005.04.29ï¿½ï¿½ï¿½_ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ Googleï¿½ÅŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½É‚Ü‚Â‚ï¿½ï¿½ï¿½ï¿½Í‚Ù‚Æ‚ï¿½Ç–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B( .NETï¿½xï¿½[ï¿½Xï¿½Ì‚ï¿½ï¿½Ì‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½c)</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2004/ig040304.html">2004/03/04 “ú‹L: Oracle 9i JDBCƒhƒ‰ƒCƒo‚Å‚ÌFOR UPDATEƒJ[ƒ\ƒ‹</A>
-  <LI><A href="../2003/ig031008.html">2003/10/08 “ú‹L: SELECT ‚È‚É‚ª‚µ FOR UPDATE‚ðJDBC APIŒo—R‚Å—˜—p‚·‚é•û–@</A>
-  <LI><A href="../2006/ig061204.html">2006/12/04 “ú‹L: Microsoft SQL Server 2005 JDBC Driver 1.1 ƒŠƒŠ[ƒX / selectMethod=cursor‚Í
-  SQL Server 2005 JDBC Driver ‚Å‚à•K—v</A>
-  <LI><A href="../2006/ig060203.html">2006/02/03 “ú‹L: Microsoft SQL Server 2005 via JDBCƒhƒ‰ƒCƒo‚ð‘ÌŒ±</A>
+  <LI><A href="../2004/ig040304.html">2004/03/04 ï¿½ï¿½ï¿½L: Oracle 9i JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½Å‚ï¿½FOR UPDATEï¿½Jï¿½[ï¿½\ï¿½ï¿½</A>
+  <LI><A href="../2003/ig031008.html">2003/10/08 ï¿½ï¿½ï¿½L: SELECT ï¿½È‚É‚ï¿½ï¿½ï¿½ FOR UPDATEï¿½ï¿½JDBC APIï¿½oï¿½Rï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</A>
+  <LI><A href="../2006/ig061204.html">2006/12/04 ï¿½ï¿½ï¿½L: Microsoft SQL Server 2005 JDBC Driver 1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X / selectMethod=cursorï¿½ï¿½
+  SQL Server 2005 JDBC Driver ï¿½Å‚ï¿½ï¿½Kï¿½v</A>
+  <LI><A href="../2006/ig060203.html">2006/02/03 ï¿½ï¿½ï¿½L: Microsoft SQL Server 2005 via JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ÌŒï¿½</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

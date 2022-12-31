@@ -64,11 +64,11 @@
     </TR>
   </TBODY>
 </TABLE>
-<P>�ŋ� <A HRhttps://www.igapyon.jp/igapyon/diary/ary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�̓��������߂čl���������镡���̋@��𓾂܂����B���߂� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�̎d�l���v���N�����A������
+<P>�ŋ� <A HRhttps://www.igapyon.jp/igapyon/diary/ary/keyword/romap.html" TITLE="R/O�}�b�s���O�̒�`�������ɒ�߂܂��B">R/O�}�b�s���O</A>�̓��������߂čl���������镡���̋@��𓾂܂����B���߂� <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�̎d�l���v���N�����A������
 R/O�}�b�s���O�c�[���̉��L�̂悤�ȓ������Ċm�F���܂����B</P>
 <UL>
   <LI>(�p�t�H�[�}���X) JDBC�v���O���~���O�̃G�L�X�p�[�g���������菑��JDBC�v���O�����Ɠ����̃p�t�H�[�}���X����у������������������邱�Ƃ��ł���B<BR>
-  <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�� EC�T�C�g�����̃A�[�L�e�N�`�����̗p���Ă��܂��B
+  <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�� EC�T�C�g�����̃A�[�L�e�N�`�����̗p���Ă��܂��B
   <LI>(�f�[�^��) ��ʃf�[�^���������邱�Ƃ��\<BR>
   �Ⴆ�΁A�f�[�^�x�[�X�̌������ʂ� 1�s��1KB���x�̃f�[�^��100��������1000�����ɂ��� ���ɖ������Ȃ��f�[�^�������邱�Ƃ��ł��܂��B�s�v�c�Ȃ��ƂɁA������
   O/R�}�b�s���O�c�[���ł� ���������e�ʈȏ�̌��ʃZ�b�g�͈������Ƃ��ł��Ȃ��̂ł��B
@@ -78,7 +78,7 @@ R/O�}�b�s���O�c�[���̉��L�̂悤�ȓ������
 </UL>
 <P>�c�ƁA�����b�g��񋓂��܂������A���̔��� �Ⴆ�� blancoDb�ł͐������� R/O�}�b�s���O�ɂ����Ď菇�ɏ]���� close���\�b�h�̌Ăяo�����K�v�ƂȂ�܂��B����̓f�[�^�x�[�X�̌��ʃZ�b�g���f�[�^�x�[�X��ɕ����������߂ɕK�v�Ȏ葱���ł�����܂��BR/O�}�b�s���O��
 RDB�̋@�\��K�؂Ɉ����o�����ʁAclose���\�b�h�̌Ăяo���Ȃǂ̏������t�^�����̂ł��B�����̓g���[�h�I�t�Ȃ̂ł��傤����ǂ��c�B<BR>
-�����Ȃ݂� ����̉����􂪊F���ł���킯�ł�����܂���B�Ⴆ�� <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A>��blancoDb�Ƃ�g�ݍ��킹�ė��p���邱�Ƃɂ���āAclose���\�b�h�̌Ăяo�����g�����������\�[�X�R�[�h���ɉB�������邱�Ƃ��ł���o���������Ă��܂��B</P>
+�����Ȃ݂� ����̉����􂪊F���ł���킯�ł�����܂���B�Ⴆ�� <A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="�u�d��������`���v����сu�d����`���v�Ƃ��� Excel�u�b�N����AWeb�T�[�r�X�𗘗p���邽�߂̃\�[�X�R�[�h���������������܂��B">blancoSOAP</A>��blancoDb�Ƃ�g�ݍ��킹�ė��p���邱�Ƃɂ���āAclose���\�b�h�̌Ăяo�����g�����������\�[�X�R�[�h���ɉB�������邱�Ƃ��ł���o���������Ă��܂��B</P>
 <P>������ɂ��Ă� �i�j�K�V���̊ϓ_�������� �������Ȃ�B�����Ɏ��g��ł��āA���܂��� R/O�}�b�s���O�ł� ��ɋ������悤�ȓ�����D�悵�ăA�[�L�e�N�`��������Â��Ă���̂��A�Ȃ���Ă������ƂɎv�����߂��点�܂����B</P>
 <TABLE summary="mini title">
   <TBODY>
@@ -87,7 +87,7 @@ RDB�̋@�\��K�؂Ɉ����o�����ʁAclose���\�b�
     </TR>
   </TBODY>
 </TABLE>
-<P>�����A�t���[�����[�N�n��������Ƃ������ƂŁA�i��̖^����K�₵ <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�̐��������Ă��܂����B</P>
+<P>�����A�t���[�����[�N�n��������Ƃ������ƂŁA�i��̖^����K�₵ <A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�̐��������Ă��܂����B</P>
 <P>�b�̗��ꂩ��A���̖^���ɂČ��݊J����i�߂悤�Ƃ��Ă��郊�b�`�N���C�A���g�E�v���g�^�C�v�����܂����B���̃v���g�^�C�v�͐��������ł��B�������܂����B<BR>
 �v���W�F�N�g�̐������F��܂��B</P>
 <HR>

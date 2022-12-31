@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/11/23 “ú‹L: blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½</TITLE>
-<META name="DESCRIPTION" content="PHP”Å blancoDb‚Å‚ ‚é blancoDbPhp‚ðŽÀ‘•‚·‚é‚Ì‚Éæ—§‚¿A‚Ü‚¸‚Í Java”Å‚Ì blancoDb‚Å‚ ‚é blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/11/23 ï¿½ï¿½ï¿½L: blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="PHPï¿½ï¿½ blancoDbï¿½Å‚ï¿½ï¿½ï¿½ blancoDbPhpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Éæ—§ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ Javaï¿½Å‚ï¿½ blancoDbï¿½Å‚ï¿½ï¿½ï¿½ blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/11/23 “ú‹L: blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] PHP”Å blancoDb‚Å‚ ‚é blancoDbPhp‚ðŽÀ‘•‚·‚é‚Ì‚Éæ—§‚¿A‚Ü‚¸‚Í Java”Å‚Ì blancoDb‚Å‚ ‚é blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½B</P>
+    <H2>2006/11/23 ï¿½ï¿½ï¿½L: blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] PHPï¿½ï¿½ blancoDbï¿½Å‚ï¿½ï¿½ï¿½ blancoDbPhpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Éæ—§ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ Javaï¿½Å‚ï¿½ blancoDbï¿½Å‚ï¿½ï¿½ï¿½ blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,20 +60,20 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>PHP”Å <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚Å‚ ‚é <A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ì PHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDbPhp</A>‚ðŽÀ‘•‚·‚é‚Ì‚Éæ—§‚¿A‚Ü‚¸‚Í
-Java”Å‚Ì blancoDb‚Å‚ ‚é blancoDb Enterprise Edition‚Ì\‘¢®—‚É’…Žè‚µ‚Ü‚µ‚½B</P>
-<P>•’i‚Í Šù‘¶ƒ\[ƒXƒR[ƒh‚ð ‚Ù‚ñ‚Ì­‚µ‚¸‚Â•ÏX‚·‚é‚æ‚¤‚É‚µ‚Ä‚µ‚Ä‚¢‚Ü‚·BŒÀ‚ç‚ê‚½ŽžŠÔ‚Ì‚È‚©‚ÅŽŽŒ±‚ð‚¨‚±‚È‚¤•K—v‚È‚Ç‚©‚çA‹É—Í•ÏX“à—e‚ð­‚È‚­‚·‚é‚±‚Æ‚Í‘åØ‚È‚±‚Æ‚Å‚·B</P>
-<P>‚µ‚©‚µA¡‰ñ‚ÍA‹C‚É‚È‚Á‚Ä‚¢‚½‚Æ‚±‚ë‚âAŽŽ‚Ý‚Ä‚Ý‚½‚©‚Á‚½‚±‚Æ‚È‚ÇAƒ\[ƒXƒR[ƒh‚É‘å•‚È•ÏX‚ð‰Á‚¦‚Ä‚¢‚Ü‚·BJava”ÅA.NET Framework”Å‚Ì
-blancoDb‚ðì‚Á‚½‚¤‚¦‚Å ‚í‚©‚Á‚½‚±‚Æ‚Í‘½‚­‚ ‚è‚Ü‚·B¡“úˆê“ú‚©‚¯‚ÄA‚Ü‚¸‚Í‚¨‚¨‚´‚Á‚Ï•ÏXŽÀŽ{‚ð‚¨‚±‚È‚¢‚Ü‚µ‚½B‚Ü‚¾‚Ü‚¾ ‚â‚Á‚Ä‚Ý‚½‚¢ŽŽ‚Ý‚Í
-‚½‚­‚³‚ñŽc‚Á‚Ä‚¢‚Ü‚·B•ÏXŒã‚Ìƒ‚ƒWƒ…[ƒ‹‚É‚Â‚¢‚Ä­‚È‚¢ƒXƒL[ƒ}‚É‚æ‚é‘a’ÊƒŒƒxƒ‹‚ÌŽŽŒ±‚ð‚¨‚±‚È‚Á‚½‚Æ‚±‚ë‚Å‚ÍA]—ˆ”Å(1.6.9)‚Æ‘S‚­“¯‚¶ƒ\[ƒXƒR[ƒh‚ª¶¬‚³‚ê‚é‚Æ‚±‚ë‚Ü‚Å‚ÍŠm”F‚Æ‚è‚Ü‚µ‚½B</P>
-<P><FONT color="#ff0000">2006.11.25’Ç‹L</FONT> ƒ\[ƒXƒR[ƒh‚Ì“à—e‚É‚Â‚¢‚Ä ‚³‚ç‚É‘å•‚É•ÏX‚µ‚Ü‚µ‚½Bƒ\[ƒXƒtƒ@ƒCƒ‹‚ð®—‚µ‚½‚èAƒtƒB[ƒ‹ƒh•Ï”–¼‚ð’²®‚µ‚½‚è‚È‚ÇA‚¢‚í‚ä‚éƒŠƒtƒ@ƒNƒ^ƒŠƒ“ƒO‚ðŽÀŽ{‚µ‚Ü‚µ‚½BŽ„‚È‚è‚Ìƒ\[ƒXƒR[ƒh®—‚É‚æ‚èAŽ„‚É‚Æ‚Á‚Ä‚ÍA‚¸‚¢‚Ô‚ñƒ\[ƒXƒR[ƒh‚ÌŒ©’Ê‚µ‚ª—Ç‚­‚È‚Á‚½A‚ÆŠ´‚¶‚Ü‚·B<BR>
-•ÏXŒã‚Ìƒo[ƒWƒ‡ƒ“‚Í blancoDbEE (1.7.3) ‚Æ‚È‚è‚Ü‚·B‚±‚Ì 1.7.3 ‚ÍŠJ”­”Å‚Å‚·B‚½‚¾‚¢‚Ü•ÏX‚Ì^‚ÁÅ’†‚ÌƒŠƒrƒWƒ‡ƒ“‚Å‚·B’P‘ÌŽŽŒ±‚È‚Ç‚Í‘S‚­ŽÀŽ{‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB</P>
+<P>PHPï¿½ï¿½ <A HRhttps://www.igapyon.jp/.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒhttps://www.igapyon.jp/ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½Å‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚ï¿½ PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDbPhp</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Éæ—§ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½
+Javaï¿½Å‚ï¿½ blancoDbï¿½Å‚ï¿½ï¿½ï¿½ blancoDb Enterprise Editionï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ ï¿½Ù‚ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â•ÏXï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ô‚Ì‚È‚ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Kï¿½vï¿½È‚Ç‚ï¿½ï¿½ï¿½Aï¿½É—Í•ÏXï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Í‘ï¿½Ø‚È‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ÍAï¿½Cï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ý‚Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ÇAï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½É‘å•ï¿½È•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BJavaï¿½ÅA.NET Frameworkï¿½Å‚ï¿½
+blancoDbï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½í‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½Ü‚ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï•ÏXï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ÏXï¿½ï¿½Ìƒï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Äï¿½ï¿½È‚ï¿½ï¿½Xï¿½Lï¿½[ï¿½}ï¿½É‚ï¿½ï¿½aï¿½Êƒï¿½ï¿½xï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Å‚ÍAï¿½]ï¿½ï¿½ï¿½ï¿½(1.6.9)ï¿½Æ‘Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ü‚Å‚ÍŠmï¿½Fï¿½Æ‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2006.11.25ï¿½Ç‹L</FONT> ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì“ï¿½ï¿½eï¿½É‚Â‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½É‘å•ï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ð®—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ïï¿½ï¿½ï¿½ï¿½ð’²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ÇAï¿½ï¿½ï¿½ï¿½ï¿½éƒŠï¿½tï¿½@ï¿½Nï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½È‚ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Aï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÌŒï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Aï¿½ÆŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ÏXï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoDbEE (1.7.3) ï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ 1.7.3 ï¿½ÍŠJï¿½ï¿½ï¿½Å‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü•ÏXï¿½Ì^ï¿½ï¿½ï¿½Å’ï¿½ï¿½Ìƒï¿½ï¿½rï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½È‚Ç‚Í‘Sï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

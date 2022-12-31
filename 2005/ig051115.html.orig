@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/11/15 “ú‹L: blancoJUnit‚Ì’ñˆÄ , blancoApacheDistribution‚Ì\‘z</TITLE>
-<META name="DESCRIPTION" content="‚±‚±‚Ì‚Æ‚±‚ë blancoResourceBundle‚Ì•Ö—˜‚³‚ð‰ü‚ß‚ÄŽÀŠ´‚µ‚Ä‚¢‚Ü‚·B‰ä‚È‚ª‚ç ‚±‚ê‚Í•Ö—˜‚¾‚ÆŽv‚¢‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/11/15 ï¿½ï¿½ï¿½L: blancoJUnitï¿½Ì’ï¿½ï¿½ , blancoApacheDistributionï¿½Ì\ï¿½z</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½ blancoResourceBundleï¿½Ì•Ö—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Í•Ö—ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/11/15 “ú‹L: blancoJUnit‚Ì’ñˆÄ , blancoApacheDistribution‚Ì\‘z</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ‚±‚±‚Ì‚Æ‚±‚ë blancoResourceBundle‚Ì•Ö—˜‚³‚ð‰ü‚ß‚ÄŽÀŠ´‚µ‚Ä‚¢‚Ü‚·B‰ä‚È‚ª‚ç ‚±‚ê‚Í•Ö—˜‚¾‚ÆŽv‚¢‚Ü‚µ‚½B</P>
+    <H2>2005/11/15 ï¿½ï¿½ï¿½L: blancoJUnitï¿½Ì’ï¿½ï¿½ , blancoApacheDistributionï¿½Ì\ï¿½z</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½ blancoResourceBundleï¿½Ì•Ö—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Í•Ö—ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,85 +59,85 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoResourceBundle‚Éƒnƒ}‚Á‚Ä‚¢‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoResourceBundleï¿½Éƒnï¿½}ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="uƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚¨‚æ‚ÑƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒAƒNƒZƒX‚ð‚¨‚±‚È‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoResourceBundle</A> ‚ðŽg‚Á‚Ä‚¢‚ÄAƒˆ‚É•Ö—˜‚¾‚ÆŽv‚¢‚Ü‚µ‚½B<BR>
-Ž„Ž©g‚ª ’Pƒ‚Éˆ¤—pƒ†[ƒU‚Æ‚È‚è‚Ü‚µ‚½B‚±‚ê‚Í•Ö—˜‚Å‚·BƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Ì—˜—p‚Ì–Ê“|‚³‚ð ‚©‚È‚è‚Ì‚Æ‚±‚ë‚Ü‚ÅŽ•ž‚Å‚«‚Ü‚·B‚Þ‚µ‚ë ‚»‚ê‚çƒŠƒ\[ƒX‚ª ExcelƒuƒbƒN‚É‚«‚¿‚ñ‚Æ”[‚Ü‚Á‚Ä‚¢‚é‚±‚Æ‚É‚æ‚èŒ©’Ê‚µ‚ª‚©‚È‚è—Ç‚­‚È‚è‚Ü‚·B ‚ÍŽ„‚É‚Æ‚Á‚Ä•K{ƒAƒCƒeƒ€‚É‚È‚è‚Ü‚µ‚½B<BR>
-‚Æ‚¢‚¤‚±‚Æ‚ðˆÈ‘O‚É‚à“ú‹L‚É‘‚¢‚½‚æ‚¤‚È‹L‰¯‚ª ‚ ‚é‚æ‚¤‚ÈA–³‚¢‚æ‚¤‚Èc (‹êÎ)</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="ï¿½uï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½pï¿½eï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoResourceBundle</A> ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½É•Ö—ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ ï¿½Pï¿½ï¿½ï¿½Éˆï¿½ï¿½pï¿½ï¿½ï¿½[ï¿½Uï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í•Ö—ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Ì—ï¿½ï¿½pï¿½Ì–Ê“|ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È‚ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½Ü‚Åï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Þ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½çƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ”[ï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½èŒ©ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Ç‚ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½B ï¿½ÍŽï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä•Kï¿½{ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½È‘Oï¿½É‚ï¿½ï¿½ï¿½ï¿½Lï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÈAï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Èc (ï¿½ï¿½ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: ƒvƒƒWƒFƒNƒg’ñˆÄ: blancoJUnit</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½: blancoJUnit</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework Foundation‚Ìƒƒ“ƒo[‚É’ñˆÄ‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Framework Foundationï¿½Ìƒï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½É’ï¿½Ä‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>blancoJUnit<BR>JUnit—p‚ÌƒeƒXƒgƒR[ƒh‚ð“ü—Í‚Æ‚µ‚Ä Excel/xlsƒtƒ@ƒCƒ‹‚ÌŽŽŒ±€–Ú‘‚ðŽ©“®¶¬‚·‚é‚à‚Ì
+  <LI>blancoJUnit<BR>JUnitï¿½pï¿½Ìƒeï¿½Xï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½ï¿½ Excel/xlsï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 </UL>
-<P>ŽÀ‘•ã‚Ìƒ|ƒCƒ“ƒg‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ|ï¿½Cï¿½ï¿½ï¿½gï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <OL>
-  <LI>’Êí‚Ì <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework‚Ìƒvƒƒ_ƒNƒg‚ÆˆÙ‚È‚èAJavaƒ\[ƒXƒR[ƒh ‚à‚µ‚­‚Í JavaƒoƒCƒgƒR[ƒh ‚ð“ü—Í‚Æ‚µ‚Ü‚·B<BR>
-  ¦JUnit‚ð—p‚¢‚½ƒƒ\ƒbƒhƒŒƒxƒ‹‚ÌŽŽŒ±‚Ìê‡‚É‚ÍA‚ ‚­‚Ü‚Å‚àŒ³–{‚Í JUnitƒR[ƒh‚É‚È‚é‚Æ‘z’è‚µ‚Ü‚·BŠeŽíƒAƒmƒe[ƒVƒ‡ƒ“‚Í JUnitƒR[ƒh‚Ì‘‚©‚ê‚é‚±‚Æ‚Æ‘z‘œ‚µ‚Ü‚·B
-  <LI>JUnit‚ÌƒR[ƒh‚Ìƒƒ\ƒbƒh–¼‚Í JUnit‚ª’è‚ß‚éƒ‹[ƒ‹{ƒ¿‚É”[‚Ü‚é‚æ‚¤‚É‚µ‚Ü‚·B<BR>
-  ¦‚±‚Ìƒ‹[ƒ‹‚É‚æ‚è ŽŽŒ±‘ÎÛ‚¨‚æ‚ÑŽŽŒ±ŠÏ“_‚ð·‚èž‚Þ‚±‚Æ‚ªo—ˆ‚é‰Â”\«‚ðŠú‘Ò‚Å‚«‚Ü‚·B
-  <LI>JUnit‚ÌƒR[ƒh‚É‚ÍAmessage‚ð•t—^‚·‚é‚æ‚¤‚É‚µ‚Ü‚·B<BR>
-  ¦—á‚¦‚Î assertEquals‚ð—˜—p‚·‚éê‡‚É‚Í assertEquals(java.lang.String message, short
-  expected, short actual) ‚Ì‚æ‚¤‚É message•t‚«”Å‚ÌƒAƒT[ƒgƒƒ\ƒbƒh‚ð—˜—p‚·‚é‚æ‚¤‚É‚µ‚Ü‚·B‚±‚Ìmessage‚ª
-  ‚»‚Ì‚Ü‚ÜŽŽŒ±€–Ú‚Ì•¶Œ¾‚Ö‚Æ‚Â‚È‚°‚é‚±‚Æ‚ª‰Â”\‚Å‚·Bu[ŽŽŒ±ŠÏ“_] ŽŽŒ±“à—evAuŠú‘Ò’lvAuŽŽŒ±‘ÎÛv‚Ì‚R‚Â‚Ìî•ñ‚ªAclassƒtƒ@ƒCƒ‹‚©‚ç’Šo‰Â”\‚È‚Ì‚Å‚·B
-  <LI>BCEL‚È‚Ç‚ð—p‚¢‚Ä classƒtƒ@ƒCƒ‹‚ð‰ðÍ‚µAŽŽŒ±€–Ú‚Ìî•ñ‚ð’Šo‚µ‚Ü‚·B
-  <LI>JExcelApi‚Ü‚½‚Í <A HREF="http://ja.openoffice.org/" TITLE="Œ»ÝÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éƒI[ƒvƒ“ƒ\[ƒX‚É‚æ‚éƒIƒtƒBƒXƒXƒC[ƒgŽÀ‘•‚Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ˆÈ~‚Å‚ÍƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒg‚Æ‚µ‚Ä OpenDocument‚ðÌ—p‚µ‚Ä‚¢‚éB">OpenOffice.org</A> 2.0ƒlƒCƒeƒBƒuƒtƒ@ƒCƒ‹ + OpenOffice.org
-  API‚ð—p‚¢‚Ä Excel/xlsƒtƒ@ƒCƒ‹‚ðŽ©“®¶¬‚µ‚Ü‚·B
+  <LI>ï¿½Êï¿½ï¿½ <A Hhttps://www.igapyon.jp/n.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Frameworkï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ÆˆÙ‚È‚ï¿½AJavaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h ï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½JUnitï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½Ìê‡ï¿½É‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ JUnitï¿½Rï¿½[ï¿½hï¿½É‚È‚ï¿½Æ‘zï¿½è‚µï¿½Ü‚ï¿½ï¿½Bï¿½eï¿½ï¿½Aï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JUnitï¿½Rï¿½[ï¿½hï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Æ‘zï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>JUnitï¿½ÌƒRï¿½[ï¿½hï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½ï¿½ JUnitï¿½ï¿½ï¿½ï¿½ß‚éƒ‹ï¿½[ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½É”[ï¿½Ü‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½É‚ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÎÛ‚ï¿½ï¿½ï¿½ÑŽï¿½ï¿½ï¿½ï¿½Ï“_ï¿½ð·‚èžï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>JUnitï¿½ÌƒRï¿½[ï¿½hï¿½É‚ÍAmessageï¿½ï¿½tï¿½^ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½á‚¦ï¿½ï¿½ assertEqualsï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ï¿½ assertEquals(java.lang.String message, short
+  expected, short actual) ï¿½Ì‚æ‚¤ï¿½ï¿½ messageï¿½tï¿½ï¿½ï¿½Å‚ÌƒAï¿½Tï¿½[ï¿½gï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½messageï¿½ï¿½
+  ï¿½ï¿½ï¿½Ì‚Ü‚ÜŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚Ì•ï¿½ï¿½ï¿½ï¿½Ö‚Æ‚Â‚È‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½Bï¿½u[ï¿½ï¿½ï¿½ï¿½ï¿½Ï“_] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½vï¿½Aï¿½uï¿½ï¿½ï¿½Ò’lï¿½vï¿½Aï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ÎÛvï¿½Ì‚Rï¿½Â‚Ìï¿½ñ‚ªAclassï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ç’Šï¿½oï¿½Â”\ï¿½È‚Ì‚Å‚ï¿½ï¿½B
+  <LI>BCELï¿½È‚Ç‚ï¿½pï¿½ï¿½ï¿½ï¿½ classï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚Ìï¿½ï¿½ð’Šoï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>JExcelApiï¿½Ü‚ï¿½ï¿½ï¿½ <A HREF="http://ja.openoffice.org/" TITLE="ï¿½ï¿½ï¿½ÝÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Iï¿½tï¿½Bï¿½Xï¿½Xï¿½Cï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ï¿½È~ï¿½Å‚Íƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ OpenDocumentï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">OpenOffice.org</A> 2.0ï¿½lï¿½Cï¿½eï¿½Bï¿½uï¿½tï¿½@ï¿½Cï¿½ï¿½ + OpenOffice.org
+  APIï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excel/xlsï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </OL>
-<P>‚±‚ê‚É‚æ‚è’P‘ÌŽŽŒ±H’ö‚Ì‚¢‚¿‚Ô‚ª ­‚µ‚Å‚àƒ}ƒV‚É‚È‚ê‚Î—Ç‚¢‚È‚ A‚Æ–Ï‘z‚µ‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½}ï¿½Vï¿½É‚È‚ï¿½Î—Ç‚ï¿½ï¿½È‚ï¿½ï¿½Aï¿½Æ–Ï‘zï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2006/ig060114.html">2006/01/14 “ú‹L: blancoJUnitƒvƒƒWƒFƒNƒg Žn“®</A>
-  <LI><A href="ig051130.html">2005/11/30 “ú‹L: blanco’P‘ÌŽŽŒ±€–Ú•\Ž©“®¶¬(–¼ÌŒŸ“¢’†), blancoJUnit‚ÍŽÀŒ»‚·‚é•ûŒü« , ’©‚ÌNHKƒjƒ…[ƒX‚É‚ÄÃ‰ª‚ÌƒKƒ“ƒvƒ‰Hê‚ª•ú‰f</A>
-  <LI><A href="ig051221.html">2005/12/21 “ú‹L: blanco Framework‚ÌŽŸŠúƒ[ƒhƒ}ƒbƒvF’P‘ÌŽŽŒ±H’ö‚ÌŽ©“®‰»</A>
+  <LI><A href="../2006/ig060114.html">2006/01/14 ï¿½ï¿½ï¿½L: blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g ï¿½nï¿½ï¿½</A>
+  <LI><A href="ig051130.html">2005/11/30 ï¿½ï¿½ï¿½L: blancoï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½), blancoJUnitï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½NHKï¿½jï¿½ï¿½ï¿½[ï¿½Xï¿½É‚ÄÃ‰ï¿½ï¿½ÌƒKï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Hï¿½ê‚ªï¿½ï¿½ï¿½f</A>
+  <LI><A href="ig051221.html">2005/12/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½}ï¿½bï¿½vï¿½Fï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: \‘z: blancoƒoƒOŠÇ— , blancoŠJ”­i’»ŠÇ— (‚¢‚¸‚ê‚à‰¼Ì)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: ï¿½\ï¿½z: blancoï¿½oï¿½Oï¿½Ç—ï¿½ , blancoï¿½Jï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Ç—ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework‚ÌŠù‘¶ƒx[ƒX‚ð—˜—p‚µ‚½‚çA‰½‚©‚µ‚çƒgƒ‰ƒbƒLƒ“ƒO‚ª‰Â”\‚ÈƒVƒXƒeƒ€‚ª ”äŠr“IŒy”÷‚É‚Â‚­‚é‚±‚Æ‚ªo—ˆ‚é‚æ‚¤‚É–Ï‘z‚µ‚Ä‚¢‚Ü‚·BŠî–{§–ñEŽd—l‚Í‰º‹L‚Ì‚æ‚¤‚È‚à‚Ì‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Frameworkï¿½ÌŠï¿½ï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½bï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Â”\ï¿½ÈƒVï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½rï¿½Iï¿½yï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É–Ï‘zï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Eï¿½dï¿½lï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Eclipse‚Æ“‡‚³‚ê‚Ä‚¢‚é‚±‚Æ<BR>
-  ¦‘ã‘ÖƒpƒX‚Æ‚µ‚ÄAntƒ^ƒXƒN‚Í‰Â
-  <LI>ƒ}ƒNƒ‚ð‘S‚­ŠÜ‚Ü‚È‚¢ Excelƒtƒ@ƒCƒ‹‚Å‚ ‚é‚±‚Æ (d—v)<BR>
-  blanco‚Å‚Í JExcelApi‚© OpenOffice.org‚ð—p‚¢‚Ä“üo—Í‚ðs‚¤‚½‚ß
-  <LI>­‚È‚¢“ü—Í‚É‚æ‚é—lŽ®‚Å‚ ‚é‚±‚Æ (d—v)<BR>
-  “ü—Í€–Ú‚ª‘½‚¢‚Æ ¶ŽY«‚ªˆÛŽ‚Å‚«‚Ü‚¹‚ñ
-  <LI>’Pˆê‚ÌExcelƒtƒ@ƒCƒ‹‚ªŠeX Ž©—§‚µ‚Ä‚¢‚é‚±‚Æ<BR>
-  ‘I‘ð‚Íƒhƒƒbƒvƒ_ƒEƒ“ƒŠƒXƒg‚Å•\Œ»
+  <LI>Eclipseï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½ï¿½Öƒpï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½Antï¿½^ï¿½Xï¿½Nï¿½Í‰ï¿½
+  <LI>ï¿½}ï¿½Nï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Ü‚Ü‚È‚ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½ï¿½ (ï¿½dï¿½v)<BR>
+  blancoï¿½Å‚ï¿½ JExcelApiï¿½ï¿½ OpenOffice.orgï¿½ï¿½pï¿½ï¿½ï¿½Ä“ï¿½ï¿½oï¿½Í‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  <LI>ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Í‚É‚ï¿½ï¿½lï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½ï¿½ (ï¿½dï¿½v)<BR>
+  ï¿½ï¿½ï¿½Íï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ÛŽï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+  <LI>ï¿½Pï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½eï¿½X ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½<BR>
+  ï¿½Iï¿½ï¿½ï¿½Íƒhï¿½ï¿½ï¿½bï¿½vï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½Å•\ï¿½ï¿½
 </UL>
-<P>‚»‚ê‚ðƒx[ƒX‚ÉA—á‚¦‚ÎExcel‚ðƒx[ƒX‚É‚µ‚½ƒoƒOEƒgƒ‰ƒbƒLƒ“ƒOƒVƒXƒeƒ€‚ð–Ï‘z‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ÉAï¿½á‚¦ï¿½ï¿½Excelï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½Eï¿½gï¿½ï¿½ï¿½bï¿½Lï¿½ï¿½ï¿½Oï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½Ï‘zï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Œy—ÊƒoƒOŠÇ—ƒVƒXƒeƒ€
-  <LI>blancoƒx[ƒX
-  <LI>ƒoƒO•ªÍ‚Ì‚½‚ß‚Ì•K—v‚Èî•ñ‚ªÚ‚Á‚Ä‚¢‚é‚±‚Æ
+  <LI>ï¿½yï¿½Êƒoï¿½Oï¿½Ç—ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½
+  <LI>blancoï¿½xï¿½[ï¿½X
+  <LI>ï¿½oï¿½Oï¿½ï¿½ï¿½Í‚Ì‚ï¿½ï¿½ß‚Ì•Kï¿½vï¿½Èï¿½ñ‚ªÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½
 </UL>
-<P>‚¨‚È‚¶‚­AExcel‚ðƒx[ƒX‚É‚µ‚½ŠJ”­i’»ŠÇ—ƒVƒXƒeƒ€‚ð–Ï‘z‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½AExcelï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Ç—ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½Ï‘zï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ŠJ”­ŽÒ‚ÌŽ–¼‚ªƒVƒXƒeƒ€ã‚Åƒ†ƒj[ƒN‚É‚È‚Á‚Ä‚¢‚é‚±‚Æ
-  <LI>ƒ‚ƒWƒ…[ƒ‹–¼Eƒƒ\ƒbƒh–¼‚ªƒ†ƒj[ƒN‚ÈID‚Å•\Œ»‚Å‚«‚é‚±‚Æ
-  <LI>ƒoƒOŠÇ—‚Æ˜A“®‚·‚é‚±‚Æ
+  <LI>ï¿½Jï¿½ï¿½ï¿½Ò‚ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½jï¿½[ï¿½Nï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½
+  <LI>ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½[ï¿½Nï¿½ï¿½IDï¿½Å•\ï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½ï¿½
+  <LI>ï¿½oï¿½Oï¿½Ç—ï¿½ï¿½Æ˜Aï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½ï¿½
 </UL>
-<P>Œy—Ê‚Å‚‘¬‚ÅAƒXƒgƒŒƒX‚ª­‚È‚­AEclipse‚Æ“‡‚³‚ê‚Ä‚¢‚ÄAExcelƒuƒbƒNƒtƒ@ƒCƒ‹‚Æ‚µ‚Ä ƒƒ“ƒOƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚É‘Î‰ž‚·‚é‚±‚Æ‚ªd—v‚»‚¤‚Å‚·B‚Æ–Ï‘z’†cB</P>
+<P>ï¿½yï¿½Ê‚Åï¿½ï¿½ï¿½ï¿½ÅAï¿½Xï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½AEclipseï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAExcelï¿½uï¿½bï¿½Nï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½dï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Æ–Ï‘zï¿½ï¿½ï¿½cï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: \‘z: blancoApacheDistribution</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: ï¿½\ï¿½z: blancoApacheDistribution</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancoeclipsedistribution.html" TITLE="Eclipse SDK, Eclipse Œ¾ŒêƒpƒbƒN, ”–{‚Ìƒvƒ‰ƒOƒCƒ“ ‚ð WindowsƒCƒ“ƒXƒg[ƒ‰[Œ`Ž®‚Å’ñ‹Ÿ‚µ‚Ü‚·B">blancoEclipseDistribution</A> ‚ðŽÀÛ‚ÉŽg‚Á‚Ä‚¢‚ÄAŒø‰Ê‚ª‚©‚È‚è‚‚¢‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½BŽ„Ž©g‚ªÅ‘å‚Ìˆ¤—pƒ†[ƒU[‚Å‚µ‚å‚¤B‚¶‚á‚ ŽŸ‚É‚ÍA‚Æ‚¢‚¤‚±‚Æ‚ÅAblancoApacheDistribution
-‚Ý‚½‚¢‚È‚à‚Ì‚ª‚ ‚Á‚½‚ç•Ö—˜‚»‚¤‚¾‚È‚Ÿ‚ÆŽv‚¢‚Ü‚µ‚½BWindows—pƒCƒ“ƒXƒg[ƒ‰[‚Å Apache‚Ìƒ‚ƒWƒ…[ƒ‹ŒQ‚ð‘I‘ð‚µ‚È‚ª‚çHDD‚ÉƒRƒs[‚·‚é‚Æ‚¢‚¤‹@”\‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancoeclipsedistribution.html" TITLE="Eclipse SDK, Eclipse ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½N, ï¿½ï¿½ï¿½{ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ ï¿½ï¿½ Windowsï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½`ï¿½ï¿½ï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoEclipseDistribution</A> ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ÉŽgï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½È‚è‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Å‘ï¿½Ìˆï¿½ï¿½pï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½ï¿½á‚ ï¿½ï¿½ï¿½É‚ÍAï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAblancoApacheDistribution
+ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BWindowsï¿½pï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ Apacheï¿½Ìƒï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Qï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½HDDï¿½ÉƒRï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI>Apache HTTP Server
   <LI>Apache Tomcat
@@ -145,16 +145,16 @@
   <LI>Log4j
   <LI>Commons Logging
 </UL>
-<P>‚È‚Ç‚ð ‚ ‚éˆêŽž“_‚ð‚à‚Á‚ÄƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ðŽæ“¾‚µ‚Ä‚¨‚«A‚»‚ê‚ðƒCƒ“ƒXƒg[ƒ‰[‚ÌŒ`Ž®‚Å Distribution‰»‚·‚é‚Æ‚¢‚¤ ’Pƒ‚È‚à‚Ì‚Å‚·B</P>
-<P>‚±‚ÌƒCƒ“ƒXƒg[ƒ‰[‚É‚æ‚Á‚ÄƒRƒs[‚³‚ê‚é“à—e‚Í ‰º‹L‚Ì‚¢‚¸‚ê‚©‚É‚È‚é‚Æ‘z‘œ‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½È‚Ç‚ï¿½ ï¿½ï¿½ï¿½ï¿½êŽžï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄƒXï¿½iï¿½bï¿½vï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ÌŒ`ï¿½ï¿½ï¿½ï¿½ Distributionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½Pï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½É‚ï¿½ï¿½ï¿½ÄƒRï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ê‚©ï¿½É‚È‚ï¿½Æ‘zï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ApacheƒTƒCƒg‚©‚ç“¾‚ç‚ê‚é ZIPƒtƒ@ƒCƒ‹‚»‚Ì‚à‚Ì‚ð ƒCƒ“ƒXƒg[ƒ‹—pƒCƒ[ƒW‚Æ‚µ‚ÄHDD‚ÉƒCƒ“ƒXƒg[ƒ‹<BR>
-  ¨‚±‚Ì•û–@‚¾‚Æ ’P‚É ZIPƒtƒ@ƒCƒ‹‚ÌˆêŽ®‚ð ƒ_ƒEƒ“ƒ[ƒh‚Ì‘ã‚í‚è‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éA‚Æ‚¢‚¤—˜—pƒCƒ[ƒW‚É‚È‚è‚Ü‚·B
-  <LI>ApacheƒTƒCƒg‚©‚ç“¾‚ç‚ê‚½ZIPƒtƒ@ƒCƒ‹‚ðA‰½‚©‚µ‚ç‚Ìƒ‹[ƒ‹‚ðŒ³‚É‰ð“€‚µ‚È‚ª‚çHDD‚ÉƒCƒ“ƒXƒg[ƒ‹<BR>
-  ¨‚±‚Ì•û–@‚¾‚Æ Tomcat‚Ì‚æ‚¤‚È‚à‚Ì‚ð ‚Ü‚¶‚ß‚É (Windows NTƒT[ƒrƒX‚Æ‚µ‚Ä“o˜^‚È‚Ç‚Ì) ƒCƒ“ƒXƒg[ƒ‹‚ð‚·‚é•K—v‚ªo‚Ä‚«‚Ä‚µ‚Ü‚¢‚Ü‚·B
+  <LI>Apacheï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ï¿½ï¿½ ZIPï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½[ï¿½Wï¿½Æ‚ï¿½ï¿½ï¿½HDDï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ ï¿½Pï¿½ï¿½ ZIPï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌˆêŽ®ï¿½ï¿½ ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Ì‘ï¿½ï¿½ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½[ï¿½Wï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+  <LI>Apacheï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ê‚½ZIPï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‰ð“€‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½HDDï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ Tomcatï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Ì‚ï¿½ ï¿½Ü‚ï¿½ï¿½ß‚ï¿½ (Windows NTï¿½Tï¿½[ï¿½rï¿½Xï¿½Æ‚ï¿½ï¿½Ä“oï¿½^ï¿½È‚Ç‚ï¿½) ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½oï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

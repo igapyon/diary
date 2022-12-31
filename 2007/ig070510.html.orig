@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/05/10 “ú‹L: Java: ƒTƒ“ƒvƒ‹: ƒgƒŠƒvƒ‹DES ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»</TITLE>
-<META name="DESCRIPTION" content="Java‚Å ƒgƒŠƒvƒ‹DES (Triple DES) ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»ƒc[ƒ‹‚ÌƒgƒCƒvƒƒOƒ‰ƒ€‚ðŠÈ’P‚Éì‚Á‚Ä‚Ý‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="DES,DESede,ƒgƒŠƒvƒ‹DES,ˆÃ†‰»,Java,JSSE,JCA">
+<TITLE>2007/05/10 ï¿½ï¿½ï¿½L: Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Javaï¿½ï¿½ ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES (Triple DES) ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Ìƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½Éï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="DES,DESede,ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES,ï¿½Ãï¿½ï¿½ï¿½,Java,JSSE,JCA">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/05/10 “ú‹L: Java: ƒTƒ“ƒvƒ‹: ƒgƒŠƒvƒ‹DES ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»</H2>
-    <P>[DES,DESede,ƒgƒŠƒvƒ‹DES,ˆÃ†‰»,Java,JSSE,JCA] Java‚Å ƒgƒŠƒvƒ‹DES (Triple DES) ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»ƒc[ƒ‹‚ÌƒgƒCƒvƒƒOƒ‰ƒ€‚ðŠÈ’P‚Éì‚Á‚Ä‚Ý‚Ü‚µ‚½B</P>
+    <H2>2007/05/10 ï¿½ï¿½ï¿½L: Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½</H2>
+    <P>[DES,DESede,ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES,ï¿½Ãï¿½ï¿½ï¿½,Java,JSSE,JCA] Javaï¿½ï¿½ ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES (Triple DES) ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Ìƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½Éï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,22 +60,22 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: ƒTƒ“ƒvƒ‹: ƒgƒŠƒvƒ‹DES ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Java‚Å ƒgƒŠƒvƒ‹DES (Triple DES) ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»ƒc[ƒ‹‚ÌƒgƒCƒvƒƒOƒ‰ƒ€‚ðŠÈ’P‚Éì‚Á‚Ä‚Ý‚Ü‚µ‚½B‚±‚ê‚Ìƒ\[ƒXƒR[ƒh‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
-<P>ƒ|ƒCƒ“ƒg</P>
+<P>Javaï¿½ï¿½ ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES (Triple DES) ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Ìƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½Éï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½|ï¿½Cï¿½ï¿½ï¿½g</P>
 <UL>
-  <LI>JDK 5.0 ‚ÌAPI‚Ì‚Ý‚Å\¬
-  <LI>ˆÃ†‰»Œ®‚ð SHA-256ƒ_ƒCƒWƒFƒXƒg’l‚Åì¬<BR>
-  ’Z‚¢ˆÃ†‰»Œ®‚ÌŽí‚ÌŽí‚ð“ü—Í‚µ‚½‚Æ‚µ‚Ä‚àAƒ_ƒCƒWƒFƒXƒg’lÌ—p‚É‚æ‚Á‚Ä\•ª‚Èƒrƒbƒg’·‚ð“¾‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B
-  <LI>ƒpƒXƒ[ƒh‚ðŠÔˆá‚Á‚½ê‡‚É‚Í<STRONG>–³Œx‚Å³íI—¹</STRONG><BR>
-  ‘“–‚è‚É‚æ‚éƒpƒXƒ[ƒhƒNƒ‰ƒbƒN‚ÌƒŠƒXƒN‚ð’áŒ¸‰»‚·‚é‚½‚ß‚É•K—v‚È‚±‚Æ‚¾‚ÆŽ„‚Íl‚¦‚Ü‚µ‚½B
-  <LI>ƒgƒŠƒvƒ‹DESƒAƒ‹ƒSƒŠƒYƒ€Ì—p<BR>
-  AES‚Í Java 6ˆÈ~‚Å‚Ì’ñ‹Ÿ‚É‚È‚Á‚Ä‚¢‚Ü‚·BJDK 5.0‚ª‘S·‚ÌŒ»ó‚Å‚Í ƒgƒŠƒvƒ‹DESƒAƒ‹ƒSƒŠƒYƒ€‚ÌÌ—p‚ª‘Ã“–‚Æl‚¦‚Ü‚µ‚½B
-  <LI>TODO: ƒtƒ@ƒCƒ‹‚ªŠù‚É‘¶Ý‚·‚é‚Æ‚«‚Ì•œ†‰»‚É‚Â‚¢‚ÄAŒ»Ý‚Í‹­s‚·‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B<BR>
-  ‚±‚ê‚ÍAˆÙíI—¹ˆµ‚¢‚Æ‚·‚é‚Ì‚ª—Ç‚¢‚©‚à‚µ‚ê‚¢‚Ü‚¹‚ñB
+  <LI>JDK 5.0 ï¿½ï¿½APIï¿½Ì‚Ý‚Å\ï¿½ï¿½
+  <LI>ï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SHA-256ï¿½_ï¿½Cï¿½Wï¿½Fï¿½Xï¿½gï¿½lï¿½Åì¬<BR>
+  ï¿½Zï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ÌŽï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½_ï¿½Cï¿½Wï¿½Fï¿½Xï¿½gï¿½lï¿½Ì—pï¿½É‚ï¿½ï¿½ï¿½Ä\ï¿½ï¿½ï¿½Èƒrï¿½bï¿½gï¿½ï¿½ï¿½ð“¾‚é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ôˆï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ï¿½<STRONG>ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½Iï¿½ï¿½</STRONG><BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½Ìƒï¿½ï¿½Xï¿½Nï¿½ï¿½áŒ¸ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚É•Kï¿½vï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ÆŽï¿½ï¿½Ílï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DESï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Ì—p<BR>
+  AESï¿½ï¿½ Java 6ï¿½È~ï¿½Å‚Ì’ñ‹Ÿ‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BJDK 5.0ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½Å‚ï¿½ ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DESï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ÌÌ—pï¿½ï¿½ï¿½Ã“ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>TODO: ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ý‚Í‹ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½ï¿½ÍAï¿½Ùï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚¢ï¿½Ü‚ï¿½ï¿½ï¿½B
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -89,7 +89,7 @@
   <TBODY>
     <TR>
       <TD><pre>/**
- * ƒgƒŠƒvƒ‹DES (Triple DES) ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»ƒc[ƒ‹B
+ * ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES (Triple DES) ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½B
  */
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -113,33 +113,33 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESedeKeySpec;
 
 /**
- * ƒgƒŠƒvƒ‹DES (Triple DES) ƒAƒ‹ƒSƒŠƒYƒ€‚É‚æ‚éƒtƒ@ƒCƒ‹ˆÃ†‰»ƒc[ƒ‹B
+ * ï¿½gï¿½ï¿½ï¿½vï¿½ï¿½DES (Triple DES) ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ãï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½B
  * 
- * ƒtƒ@ƒCƒ‹‚ÌŠg’£Žq‚É‚æ‚èAˆÃ†‰»^•œ†‰»‚Ì”»’f‚ð‚¨‚±‚È‚¤‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B
+ * ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌŠgï¿½ï¿½ï¿½qï¿½É‚ï¿½ï¿½Aï¿½Ãï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
  * 
- * @author ˆÉ‰ê•qŽ÷
+ * @author ï¿½É‰ï¿½qï¿½ï¿½
  * @version 2007.05.10
  */
 public class BlancoDesede {
     /**
-     * —˜—p‚·‚éƒAƒ‹ƒSƒŠƒYƒ€B
+     * ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½B
      */
     private static final String ALGORITHM = &quot;DESede&quot;;
 
     /**
-     * ˆÃ†‰»Œã‚Ìƒtƒ@ƒCƒ‹‚É•t—^‚³‚ê‚é•¶Žš—ñB
+     * ï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½É•tï¿½^ï¿½ï¿½ï¿½ï¿½é•¶ï¿½ï¿½ï¿½ï¿½B
      */
     private static final String ENCRYPTED_FILE_EXT = &quot;.blancodesede&quot;;
 
     private static final String KEY_DIGEST_ALGORITHM = &quot;SHA-256&quot;;
 
     /**
-     * ƒpƒXƒ[ƒhBˆêŽž“I‚É‹L‰¯‚µ‚Ä‚¨‚­‚½‚ß‚É‚±‚ÌƒtƒB[ƒ‹ƒh•Ï”‚ð—˜—p‚µ‚Ü‚·B
+     * ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Bï¿½êŽžï¿½Iï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚É‚ï¿½ï¿½Ìƒtï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ïï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     private String fPass = null;
 
     /**
-     * ƒpƒXƒ[ƒh‚ðÝ’è‚µ‚Ü‚·B
+     * ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
      * 
      * @param argPass
      */
@@ -148,26 +148,26 @@ public class BlancoDesede {
     }
 
     /**
-     * ‚±‚Ìƒc[ƒ‹‚ÌŽg‚¢•ûà–¾‚Å‚·B
+     * ï¿½ï¿½ï¿½Ìƒcï¿½[ï¿½ï¿½ï¿½ÌŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
      */
     private static final void usage() {
         System.out.println(&quot;Usage:&quot;);
-        System.out.println(&quot;  ˆÃ†‰»: java BlancoDesede “ü—Íƒtƒ@ƒCƒ‹ password&quot;);
-        System.out.println(&quot;  •œ†‰»: java BlancoDesede “ü—Íƒtƒ@ƒCƒ‹&quot;
+        System.out.println(&quot;  ï¿½Ãï¿½ï¿½ï¿½: java BlancoDesede ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½ password&quot;);
+        System.out.println(&quot;  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: java BlancoDesede ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½&quot;
                 + ENCRYPTED_FILE_EXT + &quot; password&quot;);
-        System.out.println(&quot;¦ƒtƒ@ƒCƒ‹–¼‚É‚Í‹ó”’‚ðŠÜ‚Ü‚È‚¢‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B&quot;);
-        System.out.println(&quot;¦Šg’£Žq‚ª [&quot; + ENCRYPTED_FILE_EXT + &quot;]&quot;
-                + &quot; ‚Ìê‡‚É‚Í•œ†‰»ƒ‚[ƒh‚Æ”»’f‚µ‚Ü‚·B&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½É‚Í‹ó”’‚ï¿½ï¿½Ü‚Ü‚È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½qï¿½ï¿½ [&quot; + ENCRYPTED_FILE_EXT + &quot;]&quot;
+                + &quot; ï¿½Ìê‡ï¿½É‚Í•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
     }
 
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚ÌƒGƒ“ƒgƒŠƒ|ƒCƒ“ƒgB
+     * ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ÌƒGï¿½ï¿½ï¿½gï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½B
      * 
      * @param args
      */
     public static void main(final String[] args) {
         if (args.length &lt; 2) {
-            // ˆø”‚Ì”‚ª‘«‚è‚Ü‚¹‚ñB
+            // ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
             usage();
             return;
         }
@@ -177,42 +177,42 @@ public class BlancoDesede {
 
         final String inFileName = args[0];
 
-        System.out.println(&quot;ƒtƒ@ƒCƒ‹‚ðˆ—‚µ‚Ü‚·B“ü—Í[&quot; + inFileName + &quot;]&quot;);
+        System.out.println(&quot;ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½[&quot; + inFileName + &quot;]&quot;);
 
         if (new File(inFileName).exists() == false) {
-            System.out.println(&quot;Žw’è‚Ìƒtƒ@ƒCƒ‹[&quot; + inFileName + &quot;]‚ÍŒ©‚Â‚©‚è‚Ü‚¹‚ñBˆ—’†’f‚µ‚Ü‚·B&quot;);
+            System.out.println(&quot;ï¿½wï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + inFileName + &quot;]ï¿½ÍŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
             return;
         }
 
         try {
             if (inFileName.endsWith(ENCRYPTED_FILE_EXT) == false) {
-                System.out.println(&quot;  ƒ‚[ƒh:ˆÃ†‰»&quot;);
+                System.out.println(&quot;  ï¿½ï¿½ï¿½[ï¿½h:ï¿½Ãï¿½ï¿½ï¿½&quot;);
                 angou.encrypt(new File(inFileName), new File(inFileName
                         + ENCRYPTED_FILE_EXT));
             } else {
-                System.out.println(&quot;  ƒ‚[ƒh:•œ†‰»&quot;);
+                System.out.println(&quot;  ï¿½ï¿½ï¿½[ï¿½h:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&quot;);
                 angou.decrypt(new File(inFileName), new File(inFileName
                         .substring(0, inFileName.length()
                                 - ENCRYPTED_FILE_EXT.length())));
             }
 
-            System.out.println(&quot;ˆ—Š®—¹B&quot;);
+            System.out.println(&quot;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B&quot;);
         } catch (IOException e) {
-            System.out.println(&quot;“üo—Í—áŠO‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—’†’f‚µ‚Ü‚·B:&quot; + e.toString());
+            System.out.println(&quot;ï¿½ï¿½ï¿½oï¿½Í—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B:&quot; + e.toString());
             e.printStackTrace();
         }
     }
 
     /**
-     * —^‚¦‚ç‚ê‚½•¶Žš—ñ‚ð‚à‚Æ‚É”é–§Œ®‚ðì¬‚µ‚Ü‚·B
+     * ï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É”é–§ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param strKey
-     *            ”é–§Œ®‚ÌŽí‚Æ‚È‚é•¶Žš—ñB
+     *            ï¿½é–§ï¿½ï¿½ï¿½ÌŽï¿½Æ‚È‚é•¶ï¿½ï¿½ï¿½ï¿½B
      * @return
      */
     private SecretKey getSecretKey(final String strKey) {
-        // Œ®‚ÌŽí‚ðƒ_ƒCƒWƒFƒXƒg‰»‚µ‚ÄŒ®‚Æ‚µ‚Ä—˜—p‚µ‚Ü‚·B
-        // ƒ|ƒCƒ“ƒg: SHA-256‚Í32ƒoƒCƒg‚ ‚é‚Ì‚ÅADESede‚Å•K—v‚Æ‚È‚é24ƒoƒCƒg‚æ‚è’·‚¢‚Ì‚Å“s‡‚ª—Ç‚¢B
+        // ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½_ï¿½Cï¿½Wï¿½Fï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ÄŒï¿½ï¿½Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+        // ï¿½|ï¿½Cï¿½ï¿½ï¿½g: SHA-256ï¿½ï¿½32ï¿½oï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½Ì‚ÅADESedeï¿½Å•Kï¿½vï¿½Æ‚È‚ï¿½24ï¿½oï¿½Cï¿½gï¿½ï¿½è’·ï¿½ï¿½ï¿½Ì‚Å“sï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½B
         final byte[] digestedKey;
         try {
             final MessageDigest msgDigest = MessageDigest
@@ -221,11 +221,11 @@ public class BlancoDesede {
             digestedKey = msgDigest.digest();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒ_ƒCƒWƒFƒXƒg[&quot; + KEY_DIGEST_ALGORITHM
-                    + &quot;]Žæ“¾‚ÉŽ¸”s‚µ‚Ü‚µ‚½B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ï¿½_ï¿½Cï¿½Wï¿½Fï¿½Xï¿½g[&quot; + KEY_DIGEST_ALGORITHM
+                    + &quot;]ï¿½æ“¾ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot; + e.toString());
         }
 
-        // ŽÀÛ‚É—˜—p‚·‚éƒL[‚ðì¬‚µ‚Ü‚·B
+        // ï¿½ï¿½ï¿½Û‚É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Lï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
         final byte[] keySeed = new byte[24];
         for (int index = 0; index &lt; keySeed.length; index++) {
             keySeed[index] = digestedKey[index];
@@ -237,19 +237,19 @@ public class BlancoDesede {
             return factory.generateSecret(new DESedeKeySpec(keySeed));
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒAƒ‹ƒSƒŠƒYƒ€‚ÌŽæ“¾‚ÉŽ¸”s‚µ‚Ü‚µ‚½B:&quot;
+            throw new IllegalArgumentException(&quot;ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ÌŽæ“¾ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;”é–§Œ®‚ª•s³‚Å‚·B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ï¿½é–§ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½ï¿½B:&quot; + e.toString());
         } catch (InvalidKeySpecException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;”é–§Œ®‚ÌŽd—l‚ª•s³‚Å‚·B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ï¿½é–§ï¿½ï¿½ï¿½ÌŽdï¿½lï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½ï¿½B:&quot; + e.toString());
         }
     }
 
     /**
-     * ˆÃ†‰»‚ð‚¨‚±‚È‚¢‚Ü‚·B
+     * ï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param inFile
      * @param outFile
@@ -277,20 +277,20 @@ public class BlancoDesede {
             inStream.close();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒAƒ‹ƒSƒŠƒYƒ€‚ÌŽæ“¾‚ÉŽ¸”s‚µ‚Ü‚µ‚½B:&quot;
+            throw new IllegalArgumentException(&quot;ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ÌŽæ“¾ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot;
                     + e.toString());
         } catch (NoSuchPaddingException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒpƒfƒBƒ“ƒO•s³‚ÅŽ¸”s‚µ‚Ü‚µ‚½B:&quot;
+            throw new IllegalArgumentException(&quot;ï¿½pï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½sï¿½ï¿½ï¿½ÅŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;”é–§Œ®•s³‚ÅŽ¸”s‚µ‚Ü‚µ‚½B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ï¿½é–§ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ÅŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot; + e.toString());
         }
     }
 
     /**
-     * •œ†‰»‚ðs‚¢‚Ü‚·B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param inFile
      * @param outFile
@@ -316,20 +316,20 @@ public class BlancoDesede {
             outStream.close();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒAƒ‹ƒSƒŠƒYƒ€‚ÌŽæ“¾‚ÉŽ¸”s‚µ‚Ü‚µ‚½B:&quot;
+            throw new IllegalArgumentException(&quot;ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ÌŽæ“¾ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot;
                     + e.toString());
         } catch (NoSuchPaddingException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;ƒpƒfƒBƒ“ƒO•s³‚ÅŽ¸”s‚µ‚Ü‚µ‚½B:&quot;
+            throw new IllegalArgumentException(&quot;ï¿½pï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½sï¿½ï¿½ï¿½ÅŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot;
                     + e.toString());
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            throw new IllegalArgumentException(&quot;”é–§Œ®•s³‚ÅŽ¸”s‚µ‚Ü‚µ‚½B:&quot; + e.toString());
+            throw new IllegalArgumentException(&quot;ï¿½é–§ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ÅŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B:&quot; + e.toString());
         }
     }
 
     /**
-     * ƒXƒgƒŠ[ƒ€‚ðƒRƒs[‚µ‚Ü‚·B
+     * ï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param inStream
      * @param outStream
@@ -351,11 +351,11 @@ public class BlancoDesede {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff0000">2007.10.17’Ç‹L</FONT> ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Ì <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption" TITLE="ˆÃ†‰»E•œ†‰»‚ðŠÈ’P‚É—˜—p‚Å‚«‚é‚æ‚¤‚É‚·‚é‚½‚ß‚ÌJavaƒ‰ƒCƒuƒ‰ƒŠ(jarƒtƒ@ƒCƒ‹)‚Å‚·B
+<P><FONT color="#ff0000">2007.10.17ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½https://www.igapyon.jp/www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[https://www.igapyon.jp/Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption" TITLE="ï¿½Ãï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½É—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½é‚½ï¿½ß‚ï¿½Javaï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½(jarï¿½tï¿½@ï¿½Cï¿½ï¿½)ï¿½Å‚ï¿½ï¿½B
 ">blancoEncryption</A>
-‚Ö‚Æ”­“W‚µ‚Ü‚µ‚½B</P>
+ï¿½Ö‚Æ”ï¿½ï¿½Wï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

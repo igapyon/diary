@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/06/10 “ú‹L: Java: OpenOffice.org SDK‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="OpenOffice.org SDK ‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éÄ²ÌßÛ¸Ş×Ñ‚ğì‚è‚Ü‚µ‚½BƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh‚ğƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel">
+<TITLE>2005/06/10 ï¿½ï¿½ï¿½L: Java: OpenOffice.org SDKï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="OpenOffice.org SDK ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½Û¸ï¿½ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/06/10 “ú‹L: Java: OpenOffice.org SDK‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel] OpenOffice.org SDK ‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éÄ²ÌßÛ¸Ş×Ñ‚ğì‚è‚Ü‚µ‚½BƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh‚ğƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+    <H2>2005/06/10 ï¿½ï¿½ï¿½L: Java: OpenOffice.org SDKï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,OpenOffice.org,SDK,UNO,API,Excel] OpenOffice.org SDK ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½Û¸ï¿½ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDE–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ğg‚Á‚Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚Ìè‚É‚æ‚é Benten Ğ‰î‹L–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½É‚ï¿½ï¿½ Benten ï¿½Ğ‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,29 +60,29 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org SDK ‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚é‚½‚ß‚ÌƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenOffice.org SDK ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://ja.openoffice.org/" TITLE="Œ»İÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éƒI[ƒvƒ“ƒ\[ƒX‚É‚æ‚éƒIƒtƒBƒXƒXƒC[ƒgÀ‘•‚Ì‚Ğ‚Æ‚ÂBOpenOffice.org 2.0ˆÈ~‚Å‚ÍƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒg‚Æ‚µ‚Ä OpenDocument‚ğÌ—p‚µ‚Ä‚¢‚éB">OpenOffice.org</A> SDK ‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚é‚½‚ß‚ÌƒTƒ“ƒvƒ‹‚Å‚·B</P>
+<P><A HREF="http://ja.openoffice.org/" TITLE="ï¿½ï¿½ï¿½İÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Iï¿½tï¿½Bï¿½Xï¿½Xï¿½Cï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ğ‚Æ‚ÂBOpenOffice.org 2.0ï¿½È~ï¿½Å‚Íƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ OpenDocumentï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">OpenOffice.org</A> SDK ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://ja.openoffice.org/" TITLE="Œ»İÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éƒI[ƒvƒ“ƒ\[ƒX‚É‚æ‚éƒIƒtƒBƒXƒXƒC[ƒgÀ‘•‚Ì‚Ğ‚Æ‚ÂBOpenOffice.org 2.0ˆÈ~‚Å‚ÍƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒg‚Æ‚µ‚Ä OpenDocument‚ğÌ—p‚µ‚Ä‚¢‚éB">OpenOffice.org</A> 1.1.4 ‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚éB
-  <LI>uƒXƒ^[ƒgƒAƒbƒvv‚©‚çuOpenOfficev‚ğœ‹‚·‚éB
-  <LI>ƒ^ƒXƒNƒgƒŒƒC“à‚ÌuƒNƒCƒbƒN‹N“®v‚ğI—¹‚·‚éB
-  <LI>OpenOffice ‚ğ UNO‚Ìƒ|[ƒgƒ\ƒPƒbƒg•t‚«‚Å‹N“®‚·‚éB
+  <LI><A HREF="http://ja.openoffice.org/" TITLE="ï¿½ï¿½ï¿½İÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Iï¿½tï¿½Bï¿½Xï¿½Xï¿½Cï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ğ‚Æ‚ÂBOpenOffice.org 2.0ï¿½È~ï¿½Å‚Íƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ OpenDocumentï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">OpenOffice.org</A> 1.1.4 ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½uï¿½Xï¿½^ï¿½[ï¿½gï¿½Aï¿½bï¿½vï¿½vï¿½ï¿½ï¿½ï¿½uOpenOfficeï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½^ï¿½Xï¿½Nï¿½gï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìuï¿½Nï¿½Cï¿½bï¿½Nï¿½Nï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>OpenOffice ï¿½ï¿½ UNOï¿½Ìƒ|ï¿½[ï¿½gï¿½\ï¿½Pï¿½bï¿½gï¿½tï¿½ï¿½ï¿½Å‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
   <UL>
-    <LI>—á: &quot;C:\Program Files\OpenOffice.org1.1.4\program\soffice&quot; &quot;-accept=socket,port=8100;urp;&quot;
-    <LI><A href="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html">OOoLauncher‚É‚æ‚éUNO‚Ìƒ|[ƒgƒ\ƒPƒbƒg•t‚«‹N“®</A>‚Æ‚¢‚¤‹N“®•û–@‚à‘¶İ‚µ‚Ü‚·B
+    <LI>ï¿½ï¿½: &quot;C:\Program Files\OpenOffice.org1.1.4\program\soffice&quot; &quot;-accept=socket,port=8100;urp;&quot;
+    <LI><A href="http://hp.vector.co.jp/authors/VA027994/joo/jooconverter.html">OOoLauncherï¿½É‚ï¿½ï¿½UNOï¿½Ìƒ|ï¿½[ï¿½gï¿½\ï¿½Pï¿½bï¿½gï¿½tï¿½ï¿½ï¿½Nï¿½ï¿½</A>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½İ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
 </UL>
-<P>Šm”F‚É—˜—p‚µ‚½“®ìŠÂ‹«</P>
+<P>ï¿½mï¿½Fï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½</P>
 <UL>
-  <LI>Sun Java2 SDK 1.5.0_03 (Windows”Å)
-  <LI>OpenOffice.org 1.1.4 (Windows”Å)
+  <LI>Sun Java2 SDK 1.5.0_03 (Windowsï¿½ï¿½)
+  <LI>OpenOffice.org 1.1.4 (Windowsï¿½ï¿½)
 </UL>
-<P>“®ìğŒ</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</P>
 <UL>
-  <LI>OpenOffice.org SDK ‚Ö‚Ì jarƒtƒ@ƒCƒ‹‚ÉƒNƒ‰ƒXƒpƒX‚ª’Ê‚µ‚Ä‚ ‚é‚±‚Æ
+  <LI>OpenOffice.org SDK ï¿½Ö‚ï¿½ jarï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½ï¿½ï¿½Ê‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -97,8 +97,8 @@
     <TR>
       <TD>
       <pre>/*
- * OpenOffice.org: Excelƒtƒ@ƒCƒ‹‚ÌV‹Kì¬ƒTƒ“ƒvƒ‹
- * Copyright (C) 2005 ˆÉ‰ê•q÷ ì¬“ú: 2005/06/10
+ * OpenOffice.org: Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌVï¿½Kï¿½ì¬ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½
+ * Copyright (C) 2005 ï¿½É‰ï¿½qï¿½ï¿½ ï¿½ì¬ï¿½ï¿½: 2005/06/10
  */
 
 import java.io.File;
@@ -133,12 +133,12 @@ import com.sun.star.uno.XComponentContext;
  */
 public class OOoWriteExcelSample {
     /**
-     * UNOÚ‘±‚Å—˜—p‚·‚éÚ‘±æî•ñ
+     * UNOï¿½Ú‘ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     public static final String DEFAULT_CONNECTION_STRING = &quot;socket,host=localhost,port=8100,tcpNoDelay=1&quot;;
 
     /**
-     * UNOÚ‘±‚Å—˜—p‚·‚éƒ\ƒPƒbƒgƒRƒlƒNƒVƒ‡ƒ“
+     * UNOï¿½Ú‘ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½\ï¿½Pï¿½bï¿½gï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½
      */
     private XConnection connection = null;
 
@@ -151,14 +151,14 @@ public class OOoWriteExcelSample {
     }
 
     public void process() throws Exception {
-        System.out.println(&quot;ExcelƒuƒbƒN‚ğV‹Kì¬‚µ‚Äƒtƒ@ƒCƒ‹•Û‘¶‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Excelï¿½uï¿½bï¿½Nï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Äƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
 
         File fileTarget = new File(&quot;./sample.xls&quot;);
         if (fileTarget.exists()) {
             fileTarget.delete();
         }
 
-        System.out.println(&quot;OpenOffice‚ÉÚ‘±‚·‚é‚½‚ß‚Ì‘O€”õ‚ğÀ{‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;OpenOfficeï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì‘Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         XBridge bridge = createOOoBridge(DEFAULT_CONNECTION_STRING);
         if (bridge == null) {
             return;
@@ -167,12 +167,12 @@ public class OOoWriteExcelSample {
         if (desktop == null) {
             return;
         }
-        System.out.println(&quot;OpenOffice‚ÉÚ‘±‚·‚é‚½‚ß‚Ì‘O€”õ‚ªŠ®—¹‚µ‚Ü‚µ‚½.&quot;);
+        System.out.println(&quot;OpenOfficeï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì‘Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.&quot;);
 
         XComponentLoader componentLoader = (XComponentLoader) UnoRuntime
                 .queryInterface(XComponentLoader.class, desktop);
 
-        System.out.println(&quot;CalcƒhƒLƒ…ƒƒ“ƒg‚ğV‹Kì¬‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Calcï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         PropertyValue[] loadProps = new PropertyValue[1];
         loadProps[0] = new PropertyValue();
         loadProps[0].Name = &quot;Hidden&quot;;
@@ -183,13 +183,13 @@ public class OOoWriteExcelSample {
         XSpreadsheetDocument document = (XSpreadsheetDocument) UnoRuntime
                 .queryInterface(XSpreadsheetDocument.class, component);
 
-        System.out.println(&quot;CalcƒV[ƒg‚ğV‹Kì¬‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Calcï¿½Vï¿½[ï¿½gï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         XSpreadsheets sheets = document.getSheets();
         sheets.insertNewByName(&quot;Sheet1&quot;, (short) 0);
         XSpreadsheet sheet = (XSpreadsheet) UnoRuntime.queryInterface(
                 XSpreadsheet.class, sheets.getByName(&quot;Sheet1&quot;));
 
-        System.out.println(&quot;Sheet1‚ğƒAƒNƒeƒBƒu‚Éİ’è‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Sheet1ï¿½ï¿½ï¿½Aï¿½Nï¿½eï¿½Bï¿½uï¿½Éİ’è‚µï¿½Ü‚ï¿½.&quot;);
         XModel model = (XModel) UnoRuntime.queryInterface(XModel.class,
                 component);
         XController controller = model.getCurrentController();
@@ -197,22 +197,22 @@ public class OOoWriteExcelSample {
                 XSpreadsheetView.class, controller);
         view.setActiveSheet(sheet);
 
-        System.out.println(&quot;A1‚É’l‚ğƒZƒbƒg. (XTextŒo—R)&quot;);
+        System.out.println(&quot;A1ï¿½É’lï¿½ï¿½ï¿½Zï¿½bï¿½g. (XTextï¿½oï¿½R)&quot;);
         XText text = (XText) UnoRuntime.queryInterface(XText.class, sheet
                 .getCellByPosition(0, 0));
         text.setString(&quot;test&quot;);
 
-        System.out.println(&quot;A2‚É’l‚ğƒZƒbƒg. (setValueŒo—R)&quot;);
+        System.out.println(&quot;A2ï¿½É’lï¿½ï¿½ï¿½Zï¿½bï¿½g. (setValueï¿½oï¿½R)&quot;);
         sheet.getCellByPosition(0, 1).setValue(123456);
 
-        System.out.println(&quot;A3‚É’l‚ğƒZƒbƒg. (ƒZƒ‹‚ÌƒvƒƒpƒeƒBFormulaLocalŒo—R)&quot;);
+        System.out.println(&quot;A3ï¿½É’lï¿½ï¿½ï¿½Zï¿½bï¿½g. (ï¿½Zï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½pï¿½eï¿½BFormulaLocalï¿½oï¿½R)&quot;);
         XPropertySet prop = (XPropertySet) UnoRuntime.queryInterface(
                 XPropertySet.class, sheet.getCellByPosition(0, 2));
         prop.setPropertyValue(&quot;FormulaLocal&quot;, &quot;256,512&quot;);
         prop.setPropertyValue(&quot;CellBackColor&quot;, new Integer(0xC0C0C0));
 
         if (false) {
-            System.out.println(&quot;PropertySetInfo‚ğƒfƒoƒbƒO•\¦‚µ‚Ü‚·.&quot;);
+            System.out.println(&quot;PropertySetInfoï¿½ï¿½ï¿½fï¿½oï¿½bï¿½Oï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
             XPropertySetInfo propinfo = prop.getPropertySetInfo();
             Property[] props = propinfo.getProperties();
             for (int index = 0; index &lt; props.length; index++) {
@@ -223,8 +223,8 @@ public class OOoWriteExcelSample {
 
         Thread.sleep(2000);
 
-        System.out.println(&quot;CalcƒhƒLƒ…ƒƒ“ƒg‚ğw’è‚Ìƒtƒ@ƒCƒ‹(&quot; + fileTarget.getAbsolutePath()
-                + &quot;)‚É•Û‘¶ˆ—‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Calcï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½wï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½(&quot; + fileTarget.getAbsolutePath()
+                + &quot;)ï¿½É•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         XStorable storable = (XStorable) UnoRuntime.queryInterface(
                 XStorable.class, component);
 
@@ -236,20 +236,20 @@ public class OOoWriteExcelSample {
         storable.storeToURL(fileTarget.toURL().toString(), saveProps);
         component.dispose();
 
-        System.out.println(&quot;OpenOffice‚Ö‚ÌÚ‘±‚ÌŒãˆ—(UNOÚ‘±‚ÌƒNƒ[ƒYˆ—)‚ğÀ{‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;OpenOfficeï¿½Ö‚ÌÚ‘ï¿½ï¿½ÌŒãˆï¿½ï¿½(UNOï¿½Ú‘ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         connection.close();
 
-        System.out.println(&quot;ExcelƒuƒbƒN‚ğV‹Kì¬‚µ‚Äƒtƒ@ƒCƒ‹•Û‘¶‚Ìˆê˜A‚Ìˆ—‚ğI—¹‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;Excelï¿½uï¿½bï¿½Nï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Äƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Û‘ï¿½ï¿½Ìˆï¿½Aï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
     }
 
     /**
-     * OpenOffic‚Ö‚ÌƒuƒŠƒbƒWÚ‘±(UNOÚ‘±)‚ğƒI[ƒvƒ“‚µ‚Ü‚·
+     * OpenOfficï¿½Ö‚Ìƒuï¿½ï¿½ï¿½bï¿½Wï¿½Ú‘ï¿½(UNOï¿½Ú‘ï¿½)ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
      * 
-     * @param Ú‘±æî•ñ
+     * @param ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½
      * @return
      */
     public XBridge createOOoBridge(String connectionString) {
-        System.out.println(&quot;OpenOffic‚Ö‚ÌƒuƒŠƒbƒWÚ‘±(UNOÚ‘±)‚ğƒI[ƒvƒ“‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;OpenOfficï¿½Ö‚Ìƒuï¿½ï¿½ï¿½bï¿½Wï¿½Ú‘ï¿½(UNOï¿½Ú‘ï¿½)ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         try {
             XComponentContext localContext = Bootstrap
                     .createInitialComponentContext(null);
@@ -263,10 +263,10 @@ public class OOoWriteExcelSample {
             try {
                 connection = connector.connect(connectionString);
             } catch (NoConnectException ex) {
-                System.err.println(&quot;UNOÚ‘±‚É¸”s‚µ‚Ü‚µ‚½:&quot; + ex.toString());
+                System.err.println(&quot;UNOï¿½Ú‘ï¿½ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½:&quot; + ex.toString());
                 return null;
             } catch (ConnectionSetupException ex) {
-                System.err.println(&quot;UNOÚ‘±‚ÌƒZƒbƒgƒAƒbƒv‚É¸”s‚µ‚Ü‚µ‚½:&quot; + ex.toString());
+                System.err.println(&quot;UNOï¿½Ú‘ï¿½ï¿½ÌƒZï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½:&quot; + ex.toString());
                 return null;
             }
             XBridgeFactory bridgeFactory = (XBridgeFactory) UnoRuntime
@@ -276,19 +276,19 @@ public class OOoWriteExcelSample {
                                     localContext));
             return bridgeFactory.createBridge(&quot;&quot;, &quot;urp&quot;, connection, null);
         } catch (Exception ex) {
-            System.err.println(&quot;ƒuƒŠƒbƒWì¬ˆ—‘S”Ê‚ğ’Ê‚µ‚Ä—áŠO‚ª”­¶‚µ‚Ü‚µ‚½.:&quot; + ex.toString());
+            System.err.println(&quot;ï¿½uï¿½ï¿½ï¿½bï¿½Wï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½Ê‚ï¿½Ê‚ï¿½ï¿½Ä—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.:&quot; + ex.toString());
             return null;
         }
     }
 
     /**
-     * OpenOffice‚ÌƒfƒXƒNƒgƒbƒvƒCƒ“ƒXƒ^ƒ“ƒX‚ğì¬‚µ‚Ü‚·.
+     * OpenOfficeï¿½Ìƒfï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½Cï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½.
      * 
      * @param bridge
      * @return
      */
     public static Object createDesktopInstance(XBridge bridge) {
-        System.out.println(&quot;OpenOffice‚ÌƒfƒXƒNƒgƒbƒvƒCƒ“ƒXƒ^ƒ“ƒX‚ğì¬‚µ‚Ü‚·.&quot;);
+        System.out.println(&quot;OpenOfficeï¿½Ìƒfï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½Cï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
         try {
             XMultiComponentFactory serviceManager = (XMultiComponentFactory) UnoRuntime
                     .queryInterface(XMultiComponentFactory.class, bridge
@@ -303,7 +303,7 @@ public class OOoWriteExcelSample {
             return remoteServiceManager.createInstanceWithContext(
                     &quot;com.sun.star.frame.Desktop&quot;, remoteContext);
         } catch (Exception ex) {
-            System.err.println(&quot;OpenOffice‚ÌƒfƒXƒNƒgƒbƒvƒCƒ“ƒXƒ^ƒ“ƒXì¬‚É‚¨‚¢‚Ä—áŠO‚ª”­¶‚µ‚Ü‚µ‚½.:&quot;
+            System.err.println(&quot;OpenOfficeï¿½Ìƒfï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½Cï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½Xï¿½ì¬ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.:&quot;
                     + ex.toString());
             return null;
         }
@@ -314,47 +314,47 @@ public class OOoWriteExcelSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒh©“®¶¬‚ğå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A>Report‚ÌŠî‘b‹Zp’²¸‚Ì‰ß’ö‚ÅA’²‚×‚é•K—v‚ªo‚Ä‚«‚Ü‚µ‚½BOpenOffice.org SDK
-‚Ìî•ñ‚Í ‚Ü‚¾‚Ü‚¾•s‘«‹C–¡‚Å‚µ‚½B</P>
-<P><FONT color="#ff00ff">Ql‘—¿</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A>Reportï¿½ÌŠï¿½bï¿½Zï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅAï¿½ï¿½ï¿½×‚ï¿½Kï¿½vï¿½ï¿½ï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BOpenOffice.org SDK
+ï¿½Ìï¿½ï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½sï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Qï¿½lï¿½ï¿½ï¿½ï¿½</FONT></P>
 <UL>
   <LI>api: First Steps<BR>
   <A HREF="http://api.openoffice.org/docs/DevelopersGuide/FirstSteps/FirstSteps.htm#1+First+Steps">http://api.openoffice.org/docs/DevelopersGuide/FirstSteps/FirstSteps.htm#1+First+Steps</A>
   <LI>api: Module text<BR>
   <A HREF="http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html">http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html</A>
-  <LI>ã‹LAPI‚È‚Ç‚Ì“ú–{Œê–óƒTƒCƒg‚È‚Ç‚àQl‚É‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B‚µ‚©‚µ URL‚ğ¸”O‚µ‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½B
+  <LI>ï¿½ï¿½LAPIï¿½È‚Ç‚Ì“ï¿½ï¿½{ï¿½ï¿½ï¿½Tï¿½Cï¿½gï¿½È‚Ç‚ï¿½ï¿½Qï¿½lï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ URLï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">‘¼‚ÌAPI‚É‚æ‚é“¯—l‚ÌÀ‘•</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½APIï¿½É‚ï¿½é“¯ï¿½lï¿½Ìï¿½ï¿½ï¿½</FONT></P>
 <UL>
-  <LI><A href="ig050213.html">2005/02/13 “ú‹L: Java: Jakarta POI (HSSF) ‚ğ—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</A>
-  <LI><A href="ig050221.html">2005/02/21 “ú‹L: Java: JExcelApi (Java Excel API) ‚ğ—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</A>
+  <LI><A href="ig050213.html">2005/02/13 ï¿½ï¿½ï¿½L: Java: Jakarta POI (HSSF) ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
+  <LI><A href="ig050221.html">2005/02/21 ï¿½ï¿½ï¿½L: Java: JExcelApi (Java Excel API) ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
 </UL>
-<P><FONT color="#ff00ff">‚±‚Ì“ú‹L‚Ö‚ÌƒcƒbƒRƒ~</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Ö‚Ìƒcï¿½bï¿½Rï¿½~</FONT></P>
 <UL>
-  <LI><A href="http://d.hatena.ne.jp/a-san/20050614">a-san‚Ì“ú‹L: 2005/06/14: OpenOffice.org SDK ‚ğ—p‚¢‚½ Excelƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚é‚½‚ß‚ÌƒTƒ“ƒvƒ‹</A><BR>
-  ¦•â‘«: <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="’ml‚Ì“n•Ó‚³‚ñBˆÈ‘O‚Ìd–‚ÅƒrƒWƒlƒXƒp[ƒgƒi[‚Å‚µ‚½B‚»‚ÌÛ‚É‚Í “n•Ó‚`‚³‚ñ‚ÆŒÄ‚Î‚ê‚Ä‚¢‚Ü‚µ‚½B">a-san</A> ‚Í <A href="http://sourceforge.net/projects/jcom">JCom (Java-COM Bridge)</A> ‰Šúƒo[ƒWƒ‡ƒ“ŠJ”­Ò‚Æ‚¢‚¤l‚Å‚à‚ ‚è‚Ü‚·B
+  <LI><A href="http://d.hatena.ne.jp/a-san/20050614">a-sanï¿½Ì“ï¿½ï¿½L: 2005/06/14: OpenOffice.org SDK ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½</A><BR>
+  ï¿½ï¿½ï¿½â‘«: <A HREF="http://d.hatena.ne.jp/a-san/" TITLE="ï¿½mï¿½lï¿½Ì“nï¿½Ó‚ï¿½ï¿½ï¿½Bï¿½È‘Oï¿½Ìdï¿½ï¿½ï¿½Åƒrï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÛ‚É‚ï¿½ ï¿½nï¿½Ó‚`ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">a-san</A> ï¿½ï¿½ <A href="http://sourceforge.net/projects/jcom">JCom (Java-COM Bridge)</A> ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚Æ‚ï¿½ï¿½ï¿½ï¿½lï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><a href="../2009/ig091208.html">2009/12/08 “ú‹L: Java: iText ‚ğ—p‚¢‚½ PDF ƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</a>
-  <LI><A href="ig050612.html">2005/06/12 “ú‹L: Java: OpenOffice.org SDK‚ğ—p‚¢‚½ PDFƒtƒ@ƒCƒ‹‚ğV‹Kì¬‚·‚éƒTƒ“ƒvƒ‹</A>
-  <LI><A href="ig050614.html">2005/06/14 “ú‹L: OpenOffice.org SDK‚ÌAPI‚ª ‚È‚º‚ ‚Ì‚æ‚¤‚Èp‚ğ‚µ‚Ä‚¢‚é‚Ì‚©‚É‚Â‚¢‚Ä‚Ìƒƒ‚</A>
-  <LI><A href="ig050225.html">2005/02/25 “ú‹L: OpenOffice.org SDK‚Ö‚Ì“¹‚Ì‚è , KNOPPIX+WebƒT[ƒo‚ÅƒNƒ‰ƒbƒN‘Ï«‰^—p‚ª‰Â”\‚É</A>
+  <LI><a href="../2009/ig091208.html">2009/12/08 ï¿½ï¿½ï¿½L: Java: iText ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ PDF ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</a>
+  <LI><A href="ig050612.html">2005/06/12 ï¿½ï¿½ï¿½L: Java: OpenOffice.org SDKï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ PDFï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
+  <LI><A href="ig050614.html">2005/06/14 ï¿½ï¿½ï¿½L: OpenOffice.org SDKï¿½ï¿½APIï¿½ï¿½ ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½Èpï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Ìƒï¿½ï¿½ï¿½</A>
+  <LI><A href="ig050225.html">2005/02/25 ï¿½ï¿½ï¿½L: OpenOffice.org SDKï¿½Ö‚Ì“ï¿½ï¿½Ì‚ï¿½ , KNOPPIX+Webï¿½Tï¿½[ï¿½oï¿½ÅƒNï¿½ï¿½ï¿½bï¿½Nï¿½Ïï¿½ï¿½^ï¿½pï¿½ï¿½ï¿½Â”\ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>NEC‚ªƒnƒCƒGƒ“ƒhƒXƒgƒŒ[ƒW‚Å‘_‚¤u‘æ1ƒOƒ‹[ƒv“ü‚èv<BR>
+  <LI>NECï¿½ï¿½ï¿½nï¿½Cï¿½Gï¿½ï¿½ï¿½hï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½Wï¿½Å‘_ï¿½ï¿½ï¿½uï¿½ï¿½1ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½v<BR>
   <A HREF="http://www.atmarkit.co.jp/news/200506/10/nec.html">http://www.atmarkit.co.jp/news/200506/10/nec.html</A><BR>
-  ‚Æ‚Á‚Ä‚à‘å‚«‚ÈƒXƒgƒŒ[ƒWB–£—Í“I‚Å‚·B
+  ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½å‚«ï¿½ÈƒXï¿½gï¿½ï¿½ï¿½[ï¿½Wï¿½Bï¿½ï¿½ï¿½Í“Iï¿½Å‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

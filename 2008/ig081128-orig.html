@@ -67,17 +67,17 @@
 <P><A HREF="http://d.hatena.ne.jp/a-san/" TITLE="知人の渡辺さん。以前の仕事でビジネスパートナーでした。その際には 渡辺Ａさんと呼ばれていました。">a-san</A>の日記に触発され、また、とある局面で必要になったので、私も ざっくりと HTML パーサーを作ってみました。のべ
 2時間程度 かかりました。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A>
 </UL>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> の特徴は XML の SAX イベントハンドラ似の構造になっている点です。HTMLのパースのみに責務を限定し、それ以外の部分は別途自前で作るという哲学になっています。責務が限定されているので、パーサーそのものは
+<P><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> の特徴は XML の SAX イベントハンドラ似の構造になっている点です。HTMLのパースのみに責務を限定し、それ以外の部分は別途自前で作るという哲学になっています。責務が限定されているので、パーサーそのものは
 とてもシンプルです。ずっと このような仕様の HTML パーサーを作りたいと思っていて、あたためてきて、そして今回ようやく作ることができました。<BR>
 ※なお、現状では 仕様はかなり限定的です。HTMLのエンコーディング判定などは未実装です。一方で、簡単なテストの範囲では、一定の可逆性があることまでは確認しました。</P>
 <P>作るに至った、困った ある局面というのは、HTMLファイルの属性値に &quot; や ' が付いていない困ったものを、簡単にハンドリングできるようにするためです。というのも、このような規格外の
 HTML を JSP 化しようとすると、該当箇所でコンパイルエラーが発生してしまい、作業が止まってしまうので、このような自前のHTMLパーサーがどうしても必要になったのです。</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> を利用すると、ちょこっと (おそらく 20行ほど?) のコーディングを行うだけで、属性値が
+<P><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> を利用すると、ちょこっと (おそらく 20行ほど?) のコーディングを行うだけで、属性値が
 &quot; や ' で囲まれていないもの<STRONG>だけ</STRONG> &quot; を付与するというコーディングなどを簡単に行うことができます。、、、ええと、簡単に利用できるといっても、簡単に利用できるためには
 SAX イベントハンドリングのノウハウが必要になります。でも、SAX イベントハンドリングに慣れ親しんだ人は、少数派ですよね… (苦笑)<BR>
-まあ、思うに <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> は少数の人のための 超便利ツール、といったところです。また、<STRONG>似た</STRONG>ような哲学の HTMLパーサーは 他にも存在することは知っています。(似てはいるのですが、残念ながら、既存のプロダクトと 私の希望とは完全には一致しませんでした。)</P>
+まあ、思うに <A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser" TITLE="blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。">blancoHtmlParser</A> は少数の人のための 超便利ツール、といったところです。また、<STRONG>似た</STRONG>ような哲学の HTMLパーサーは 他にも存在することは知っています。(似てはいるのですが、残念ながら、既存のプロダクトと 私の希望とは完全には一致しませんでした。)</P>
 <HR>
 <address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>

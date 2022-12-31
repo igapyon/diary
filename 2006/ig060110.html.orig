@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/01/10 “ú‹L: Javassist ‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹ , blancoJUnit2Doc‚ª‘Ã“–‚È–¼Ì‚Å‚ ‚é‚©‚Ç‚¤‚©‚ðŒŸ“¢’†</TITLE>
-<META name="DESCRIPTION" content="Apache Jakarta BCEL‚Éˆø‚«‘±‚«A‚±‚ñ‚Ç‚Í Javassist‚ð‘ÌŒ±‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Javassist,ƒoƒCƒgƒR[ƒh">
+<TITLE>2006/01/10 ï¿½ï¿½ï¿½L: Javassist ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½ , blancoJUnit2Docï¿½ï¿½ï¿½Ã“ï¿½ï¿½È–ï¿½ï¿½Ì‚Å‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Apache Jakarta BCELï¿½Éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ Javassistï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Javassist,ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/01/10 “ú‹L: Javassist ‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹ , blancoJUnit2Doc‚ª‘Ã“–‚È–¼Ì‚Å‚ ‚é‚©‚Ç‚¤‚©‚ðŒŸ“¢’†</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Javassist,ƒoƒCƒgƒR[ƒh] Apache Jakarta BCEL‚Éˆø‚«‘±‚«A‚±‚ñ‚Ç‚Í Javassist‚ð‘ÌŒ±‚µ‚Ü‚µ‚½B</P>
+    <H2>2006/01/10 ï¿½ï¿½ï¿½L: Javassist ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½ , blancoJUnit2Docï¿½ï¿½ï¿½Ã“ï¿½ï¿½È–ï¿½ï¿½Ì‚Å‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Javassist,ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h] Apache Jakarta BCELï¿½Éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ Javassistï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,64 +59,64 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoJUnit2Doc‚Å—Ç‚¢‚©‚Ç‚¤‚©–¼‘O‚ðŒŸ“¢’†c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoJUnit2Docï¿½Å—Ç‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework‚ÌƒTƒuƒvƒƒWƒFƒNƒg‚Å‚ ‚é JUnit—pƒeƒXƒgƒP[ƒXEƒ\[ƒXƒR[ƒh‚©‚çƒhƒLƒ…ƒƒ“ƒg‚ðŽ©“®¶¬‚·‚éƒc[ƒ‹‚Ì–¼Ì‚É‚Â‚¢‚ÄAublancoJUnit2Docv‚Å—Ç‚¢‚©‚Ç‚¤‚©‚ðŒŸ“¢’†‚Å‚·B</P>
-<P>Ž„‚Éƒl[ƒ~ƒ“ƒO‚ÌƒZƒ“ƒX‚ª–³‚¢‚±‚Æ‚ªA‚ ‚ç‚½‚ß‚ÄŽÀŠ´‚³‚ê‚é¡“ú‚±‚Ì ‚Å‚·B</P>
-<P><FONT color="#ff0000">2006.01.14’Ç‹L</FONT> Œ‹‹Ç ƒvƒƒWƒFƒNƒg–¼‚Í blancoJUnit ‚É—Ž‚¿’…‚«‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Frameworkï¿½ÌƒTï¿½uï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½Å‚ï¿½ï¿½ï¿½ JUnitï¿½pï¿½eï¿½Xï¿½gï¿½Pï¿½[ï¿½Xï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Ì–ï¿½ï¿½Ì‚É‚Â‚ï¿½ï¿½ÄAï¿½ublancoJUnit2Docï¿½vï¿½Å—Ç‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½Éƒlï¿½[ï¿½~ï¿½ï¿½ï¿½Oï¿½ÌƒZï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ç‚½ï¿½ß‚ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2006.01.14ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½ ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ blancoJUnit ï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig060114.html">2006/01/14 “ú‹L: blancoJUnitƒvƒƒWƒFƒNƒg Žn“®</A>
-  <LI><A href="../2005/ig051221.html">2005/12/21 “ú‹L: blanco Framework‚ÌŽŸŠúƒ[ƒhƒ}ƒbƒvF’P‘ÌŽŽŒ±H’ö‚ÌŽ©“®‰»</A>
-  <LI><A href="../2005/ig051130.html">2005/11/30 “ú‹L: blanco’P‘ÌŽŽŒ±€–Ú•\Ž©“®¶¬(–¼ÌŒŸ“¢’†), blancoJUnit‚ÍŽÀŒ»‚·‚é•ûŒü« , ’©‚ÌNHKƒjƒ…[ƒX‚É‚ÄÃ‰ª‚ÌƒKƒ“ƒvƒ‰Hê‚ª•ú‰f</A>
-  <LI><A href="../2005/ig051115.html">2005/11/15 “ú‹L: blancoJUnit‚Ì’ñˆÄ , blancoApacheDistribution‚Ì\‘z</A>
+  <LI><A href="ig060114.html">2006/01/14 ï¿½ï¿½ï¿½L: blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g ï¿½nï¿½ï¿½</A>
+  <LI><A href="../2005/ig051221.html">2005/12/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½}ï¿½bï¿½vï¿½Fï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½</A>
+  <LI><A href="../2005/ig051130.html">2005/11/30 ï¿½ï¿½ï¿½L: blancoï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½), blancoJUnitï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½NHKï¿½jï¿½ï¿½ï¿½[ï¿½Xï¿½É‚ÄÃ‰ï¿½ï¿½ÌƒKï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Hï¿½ê‚ªï¿½ï¿½ï¿½f</A>
+  <LI><A href="../2005/ig051115.html">2005/11/15 ï¿½ï¿½ï¿½L: blancoJUnitï¿½Ì’ï¿½ï¿½ , blancoApacheDistributionï¿½Ì\ï¿½z</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BCELˆÈŠO‚ÌƒoƒCƒgƒR[ƒh‰ðÍƒc[ƒ‹‚ð‚´‚Á‚­‚è’²‚×‚Ä‚Ý‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>BCELï¿½ÈŠOï¿½Ìƒoï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½Íƒcï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è’²ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache Jakarta BCELˆÈŠO‚Ìƒc[ƒ‹‚ð—p‚¢‚½ƒoƒCƒgƒR[ƒh‰ðÍ‚É‚Â‚¢‚Ä‚à­‚µ’²‚×‚Ä‚Ý‚Ü‚µ‚½BƒoƒCƒgƒR[ƒh‰ðÍ‚Æ‚¢‚¤‚±‚Æ‚Å DI/AOPƒc[ƒ‹‚ð‚Ü‚¸‚´‚Á‚­‚è‚ÆŒ©‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B</P>
-<P>Seasar2‚ÍJavassist‚ð—p‚¢‚Ä‚¢‚é–Í—l‚Å‚·B</P>
+<P>Apache Jakarta BCELï¿½ÈŠOï¿½Ìƒcï¿½[ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½Í‚É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½Í‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ DI/AOPï¿½cï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>Seasar2ï¿½ï¿½Javassistï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/seasar/seasar2/lib/</A>
 </UL>
-<P>Spring Framework‚Í •µˆÍ‹C“I‚É‚Í CGLIB‚ð—p‚¢‚Ä‚¢‚é–Í—l‚Å‚µ‚½B(ƒEƒ‰‚ðŽæ‚Á‚Ä‚¢‚Ü‚¹‚ñ)</P>
+<P>Spring Frameworkï¿½ï¿½ ï¿½ï¿½ï¿½Í‹Cï¿½Iï¿½É‚ï¿½ CGLIBï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)</P>
 <UL>
   <LI><A HREF="http://forum.springframework.org/archive/index.php/t-10121.html">http://forum.springframework.org/archive/index.php/t-10121.html</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ‚ð‚´‚Á‚­‚è’²‚×‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è’²ï¿½×‚Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Seasar2‚ªÌ—p‚µ‚Ä‚¢‚é‚±‚Æ‚à‚ ‚èAJavassist‚ð ‚´‚Á‚­‚èŒ©‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B</P>
+<P>Seasar2ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½AJavassistï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½èŒ©ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://www.csg.is.titech.ac.jp/~chiba/javassist/">http://www.csg.is.titech.ac.jp/~chiba/javassist/</A>
-  <LI>ƒ‰ƒCƒZƒ“ƒX‚ÍMozilla Public License 1.1
-  <LI>JBoss Sponsored Open Source Projects‚ÉŠÜ‚Ü‚é‚Æ‚¢‚¤ˆÊ’u‚Ã‚¯‚Å‚ ‚é–Í—lB(JBossƒvƒƒWƒFƒNƒgƒTƒCƒg‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚µ‚½)
+  <LI>ï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½Mozilla Public License 1.1
+  <LI>JBoss Sponsored Open Source Projectsï¿½ÉŠÜ‚Ü‚ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ê’uï¿½Ã‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Í—lï¿½B(JBossï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)
 </UL>
-<P>‚Ü‚½A‚Í‚Ô‚³‚ñ‚Ì“ú‹LŒo—R‚Å Javassistƒ`ƒ…[ƒgƒŠƒAƒ‹‚É“ž’B‚µ‚Ü‚µ‚½B•×‹­‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½Ü‚ï¿½ï¿½Aï¿½Í‚Ô‚ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½oï¿½Rï¿½ï¿½ Javassistï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½É“ï¿½ï¿½Bï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½×‹ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Javassistƒ`ƒ…[ƒgƒŠƒAƒ‹<BR>
+  <LI>Javassistï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½<BR>
   <A HREF="http://www.smg.co.jp/seminar/techsquare/javassist01.html">http://www.smg.co.jp/seminar/techsquare/javassist01.html</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javassist ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>æ“ú‚Éˆø‚«‘±‚«A‚±‚ñ‚Ç‚Í Javassist ‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‚Ì‰ðÍ‚ð‘ÌŒ±‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½Éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ Javassist ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½Ì‰ï¿½Í‚ï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Javassist-3.1 RC2‚ð‚à‚¿‚¢‚ÄŠm”F‚µ‚Ü‚µ‚½B
+  <LI>Javassist-3.1 RC2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŠmï¿½Fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -131,7 +131,7 @@
     <TR>
       <TD>
       <pre>/**
- * Javassist‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹
+ * Javassistï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½
  */
 
 import java.io.BufferedInputStream;
@@ -148,13 +148,13 @@ import javassist.bytecode.MethodInfo;
 import javassist.bytecode.Opcode;
 
 /**
- * Javassist‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹
+ * Javassistï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½
  * 
  * @author IGA Tosiki
  */
 public class JavassistSample {
     /**
-     * ‰ðÍ‚ðs‚¢‚½‚¢ƒNƒ‰ƒXƒtƒ@ƒCƒ‹–¼‚ðŽw’è‚µ‚Ü‚·B
+     * ï¿½ï¿½Í‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B
      */
     private static final String CLASS_MODULE = &quot;./bin/JavassistSample.class&quot;;
 
@@ -175,7 +175,7 @@ public class JavassistSample {
             for (int index = 0; index &lt; listMethod.size(); index++) {
                 final MethodInfo methodInfo = (MethodInfo) listMethod
                         .get(index);
-                System.out.println(&quot;ƒƒ\ƒbƒh:&quot; + methodInfo.getName());
+                System.out.println(&quot;ï¿½ï¿½ï¿½\ï¿½bï¿½h:&quot; + methodInfo.getName());
                 final CodeAttribute ca = methodInfo.getCodeAttribute();
                 final byte[] codes = ca.getCode();
                 for (final CodeIterator ci = ca.iterator(); ci.hasNext();) {
@@ -364,7 +364,7 @@ public class JavassistSample {
                         System.out.println(&quot;  LOOKUPSWITCH&quot;);
                         break;
                     default:
-                        System.out.println(&quot;  ‚±‚ÌƒTƒ“ƒvƒ‹‚Å‚Í–¢‘Î‰ž‚ÌƒR[ƒh‚Å‚·:&quot; + opcode
+                        System.out.println(&quot;  ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚Í–ï¿½ï¿½Î‰ï¿½ï¿½ÌƒRï¿½[ï¿½hï¿½Å‚ï¿½:&quot; + opcode
                                 + &quot;(&quot; + Integer.toHexString(opcode) + &quot;)&quot;);
                         break;
                     }
@@ -380,22 +380,22 @@ public class JavassistSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig060106.html">2006/01/06 “ú‹L: Apache Jakarta BCEL‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹</A>
+  <LI><A href="ig060106.html">2006/01/06 ï¿½ï¿½ï¿½L: Apache Jakarta BCELï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework‚ÌƒoƒCƒgƒR[ƒh‰ðÍ‚É‚Í ‚Æ‚è‚ ‚¦‚¸ Apache Jakarta BCEL‚ðÌ—p‚·‚é‚±‚Æ‚É‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkï¿½Ìƒoï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½Í‚É‚ï¿½ ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ Apache Jakarta BCELï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ŒŸ“¢‚µ‚½Œ‹‰ÊAblanco Framework‚ÌƒoƒCƒgƒR[ƒh‰ðÍ‚Ì‚½‚ß‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚É‚Í Apache Jakarta BCEL‚ðÌ—p‚·‚é‚±‚Æ‚É‚µ‚Ü‚µ‚½B‚Æ‚¢‚¤‚Ì‚àAblanco
-Framework‚Å‚Íclassƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýo‚µ‚ªŽå‚½‚é–Ú“I‚Å‚ ‚èA‚µ‚©‚àBCEL‚Ì“Á’è‚Ì‹@”\‚ÉˆË‘¶‚·‚é‚Ì‚ª—Ç‚¢‚æ‚¤‚È‚Ì‚ÅAƒg[ƒ^ƒ‹“I‚É‚Í
-BCEL‚Ì—˜—p‚ª–]‚Ü‚µ‚¢‚Æ”»’f‚µ‚Ü‚·B‚±‚ê‚Í‘‡“I‚È‹@”\‚È‚Ç‚Ì”»’f‚É‚æ‚é‚à‚Ì‚Å‚Í‚È‚­A‚½‚Ü‚½‚ÜŽ„‚ªŽ‚Á‚Ä‚¢‚éƒj[ƒY‚É‘Î‚µ‚ÄBCEL‚Ì‹@”\‚âƒ‰ƒCƒZƒ“ƒX‚ªÅ‚àƒtƒBƒbƒg‚·‚é‚à‚Ì‚Æ”»’f‚µ‚½‚Ì‚É‰ß‚¬‚Ü‚¹‚ñB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÊAblanco Frameworkï¿½Ìƒoï¿½Cï¿½gï¿½Rï¿½[ï¿½hï¿½ï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ Apache Jakarta BCELï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ablanco
+Frameworkï¿½Å‚ï¿½classï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“Ç‚Ýoï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Å‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½BCELï¿½Ì“ï¿½ï¿½ï¿½Ì‹@ï¿½\ï¿½ÉˆË‘ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½æ‚¤ï¿½È‚Ì‚ÅAï¿½gï¿½[ï¿½^ï¿½ï¿½ï¿½Iï¿½É‚ï¿½
+BCELï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½]ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í‘ï¿½ï¿½ï¿½ï¿½Iï¿½È‹@ï¿½\ï¿½È‚Ç‚Ì”ï¿½ï¿½fï¿½É‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ÜŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½jï¿½[ï¿½Yï¿½É‘Î‚ï¿½ï¿½ï¿½BCELï¿½Ì‹@ï¿½\ï¿½âƒ‰ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Å‚ï¿½ï¿½tï¿½Bï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½Ì‚É‰ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

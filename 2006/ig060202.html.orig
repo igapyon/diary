@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/02/02 “ú‹L: SoapException , blancoCodeGenerator(DotNet)‚ÉƒAƒmƒe[ƒVƒ‡ƒ“‹@”\‚ð’Ç‰Á</TITLE>
-<META name="DESCRIPTION" content=".NET Framework ‚Ì WebƒT[ƒrƒX‚É‚¨‚¯‚éSOAP—áŠO‚ð’²‚×‚Ü‚µ‚½¨SoapException‚ªSOAP—áŠO‚ðŽÀŒ»‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/02/02 ï¿½ï¿½ï¿½L: SoapException , blancoCodeGenerator(DotNet)ï¿½ÉƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½</TITLE>
+<META name="DESCRIPTION" content=".NET Framework ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½SOAPï¿½ï¿½Oï¿½ð’²‚×‚Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½SoapExceptionï¿½ï¿½SOAPï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/02/02 “ú‹L: SoapException , blancoCodeGenerator(DotNet)‚ÉƒAƒmƒe[ƒVƒ‡ƒ“‹@”\‚ð’Ç‰Á</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] .NET Framework ‚Ì WebƒT[ƒrƒX‚É‚¨‚¯‚éSOAP—áŠO‚ð’²‚×‚Ü‚µ‚½¨SoapException‚ªSOAP—áŠO‚ðŽÀŒ»‚µ‚Ü‚·B</P>
+    <H2>2006/02/02 ï¿½ï¿½ï¿½L: SoapException , blancoCodeGenerator(DotNet)ï¿½ÉƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] .NET Framework ï¿½ï¿½ Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½SOAPï¿½ï¿½Oï¿½ð’²‚×‚Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½SoapExceptionï¿½ï¿½SOAPï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,44 +60,44 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SoapException: .NET Framework‚ÌWebƒT[ƒrƒX‚É‚¨‚¯‚éSOAP—áŠO</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SoapException: .NET Frameworkï¿½ï¿½Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½SOAPï¿½ï¿½O</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft .NET Framework‚ÌWebƒT[ƒrƒX‚É‚¨‚¯‚éSOAP—áŠO‚ª SoapException‚Éƒ}ƒbƒsƒ“ƒO‚³‚ê‚Ä‚¢‚é‚Æ‚¢‚¤‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B</P>
+<P>Microsoft .NET Frameworkï¿½ï¿½Webï¿½Tï¿½[ï¿½rï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½SOAPï¿½ï¿½Oï¿½ï¿½ SoapExceptionï¿½Éƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>.NET‚É‚¨‚¯‚é—áŠOˆ—<BR>
+  <LI>.NETï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.microsoft.com/japan/msdn/net/bda/exceptdotnet.asp">http://www.microsoft.com/japan/msdn/net/bda/exceptdotnet.asp</A>
 </UL>
-<P>WebƒT[ƒrƒX‚Ìƒƒ\ƒbƒh“à‚Å—áŠOˆ—‚ðs‚í‚È‚¢‚ÆAWebƒT[ƒrƒXƒRƒ“ƒeƒi‚É‚¨‚¢‚Ä SoapException‚É‹l‚ß‘Ö‚¦‚ç‚ê‚é‚Æ‚Ì‚±‚Æ‚Å‚·B</P>
+<P>Webï¿½Tï¿½[ï¿½rï¿½Xï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Å—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½È‚ï¿½ï¿½ÆAWebï¿½Tï¿½[ï¿½rï¿½Xï¿½Rï¿½ï¿½ï¿½eï¿½iï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ SoapExceptionï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoCodeGenerator, blancoCodeGeneratorDotNet‚ÉƒAƒmƒe[ƒVƒ‡ƒ“o—Í‹@”\‚ð’Ç‰Á</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoCodeGenerator, blancoCodeGeneratorDotNetï¿½ÉƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Í‹@ï¿½\ï¿½ï¿½Ç‰ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework: blancoCodeGenerator‚¨‚æ‚ÑblancoCodeGeneratorDotNet‚ª¶¬‚·‚é
-Java/C#.NETƒ\[ƒXƒR[ƒh‚ÉƒAƒmƒe[ƒVƒ‡ƒ“‹Lq‚ðo—Í‚·‚é‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½B<BR>
-‚±‚ê‚Íƒˆ‚É <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A> ‚ÌC#.NETƒ\[ƒXƒR[ƒhŽ©“®¶¬Žž‚É ƒAƒmƒe[ƒVƒ‡ƒ“‹Lq‚ª•K—v‚É‚È‚Á‚½‚©‚ç‚Å‚·B<BR>
-“¯‚¶‚­ blancoSOAP‚Ì“s‡‚ð‚«‚Á‚©‚¯‚ÉAblancoCodeGeneratorDotNet‚ÉƒI[ƒoƒ‰ƒCƒhCü‚ª‚Å‚«‚é‚æ‚¤‚È‹@”\’Ç‰Á‚ðŽÀŽ{‚µ‚Ü‚µ‚½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Framework: blancoCodeGeneratorï¿½ï¿½ï¿½ï¿½ï¿½blancoCodeGeneratorDotNetï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Java/C#.NETï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÉƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½qï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½https://www.igapyon.jp/.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A> ï¿½ï¿½C#.NETï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Aï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½qï¿½ï¿½ï¿½Kï¿½vï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoSOAPï¿½Ì“sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉAblancoCodeGeneratorDotNetï¿½ÉƒIï¿½[ï¿½oï¿½ï¿½ï¿½Cï¿½hï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½È‹@ï¿½\ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoValueObjectDotNet‚Ì—lŽ®‘Î‰ž</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoValueObjectDotNetï¿½Ì—lï¿½ï¿½ï¿½Î‰ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework: blancoValueObjectDotNet‚É‚Â‚¢‚Ä ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘(.net)‚É‘Î‰ž‚µ‚Ü‚µ‚½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Framework: blancoValueObjectDotNetï¿½É‚Â‚ï¿½ï¿½ï¿½ ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½(.net)ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘(.net)<BR>
+  <LI>ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½(.net)<BR>
   <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObjectDotNet/meta/template/BlancoValueObjectDotNetTemplate.xls">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoValueObjectDotNet/meta/template/BlancoValueObjectDotNetTemplate.xls</A><BR>
-  <FONT size="-1">‚±‚Ì’è‹`‘—lŽ®‚ð‚à‚Æ‚ÉƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg(Value Object)‚Ì C#.NETƒNƒ‰ƒXEƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚³‚ê‚Ü‚·BblancoValueObjectDotNet‚ªˆ—‚µ‚Ü‚·B</FONT>
+  <FONT size="-1">ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Éƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½g(Value Object)ï¿½ï¿½ C#.NETï¿½Nï¿½ï¿½ï¿½Xï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BblancoValueObjectDotNetï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</FONT>
 </UL>
-<P>ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘(.net)‚©‚ç C#.NET‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ªo—ˆ‚Ü‚·BblancoValueObjectDotNet‚Ì‹@”\‚Í’n–¡‚Å‚Í‚ ‚é‚Ì‚Å‚·‚ª
-Ž„‚É‚Æ‚Á‚Ä‚Í—L‰v‚È‚à‚Ì‚È‚Ì‚Å‚·B</P>
+<P>ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½(.net)ï¿½ï¿½ï¿½ï¿½ C#.NETï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BblancoValueObjectDotNetï¿½Ì‹@ï¿½\ï¿½Í’nï¿½ï¿½ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Í—Lï¿½vï¿½È‚ï¿½ï¿½Ì‚È‚Ì‚Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

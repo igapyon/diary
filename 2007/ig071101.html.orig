@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/11/01 “ú‹L: blancoMailCore (0.6.1) ƒŠƒŠ[ƒX , JavaMail 1.4.1 ƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="blanco Framework‚ÍAblancoMailCore ‰‚Ì³®”Å (0.6.1) ‚ğƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B , JavaMail 1.4.1‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2007/11/01 ï¿½ï¿½ï¿½L: blancoMailCore (0.6.1) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , JavaMail 1.4.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="blanco Frameworkï¿½ÍAblancoMailCore ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ (0.6.1) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , JavaMail 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/11/01 “ú‹L: blancoMailCore (0.6.1) ƒŠƒŠ[ƒX , JavaMail 1.4.1 ƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blanco Framework‚ÍAblancoMailCore ‰‚Ì³®”Å (0.6.1) ‚ğƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B , JavaMail 1.4.1‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½B</P>
+    <H2>2007/11/01 ï¿½ï¿½ï¿½L: blancoMailCore (0.6.1) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , JavaMail 1.4.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blanco Frameworkï¿½ÍAblancoMailCore ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ (0.6.1) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , JavaMail 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDE–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ğg‚Á‚Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚Ìè‚É‚æ‚é Benten Ğ‰î‹L–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½É‚ï¿½ï¿½ Benten ï¿½Ğ‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,43 +59,43 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore (0.6.1) ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoMailCore (0.6.1) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒh©“®¶¬‚ğå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ƒ[ƒ‹‘—óM‚ğˆÀ‘S‚ÅŠmÀ‚ÉÀŒ»‚·‚é‚½‚ß‚ÌƒRƒAƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B">blancoMailCore</A> ‰‚Ì³®”Å (0.6.1)
-‚ğƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ƒ[ƒ‹‘—óM‚ğˆÀ‘S‚ÅŠmÀ‚ÉÀŒ»‚·‚é‚½‚ß‚ÌƒRƒAƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B">blancoMailCore</A>‚Í ƒ[ƒ‹‘—óM‚ğˆÀ‘S‚ÅŠÈ’P‚É—˜—p‚Å‚«‚é‚æ‚¤‚É‚·‚é‚½‚ß‚ÌJavaƒ‰ƒCƒuƒ‰ƒŠ(jarƒtƒ@ƒCƒ‹)‚Å‚·B<BR>
-blancoMailCore‚Í“à•”“I‚É‚Í JavaMail API‚ğ—˜—p‚µ‚Ä‚¢‚Ü‚·B‚µ‚©‚µ blancoMailCore‚ğg‚¤‚Æ JavaMail API‚æ‚è‚à‚¸‚Á‚ÆŠÈ’P‚Éƒ[ƒ‹‘—óM‚ğ—˜—p‚Å‚«‚Ü‚·BblancoMailCore‚ª’ñ‹Ÿ‚·‚é‚¢‚­‚Â‚©‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚É’l‚ğİ’è‚µ‚Äƒƒ\ƒbƒh‚ğŒÄ‚Ño‚·‚¾‚¯‚ÅAŠÈ’P‚Éƒ[ƒ‹‘—óM‹@”\‚ğ—˜—p‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B<BR>
-¦‘¼‚Ì blanco Frameworkƒvƒƒ_ƒNƒgŒQ‚ÆˆÙ‚È‚èAblancoMailCore‚Íƒ\[ƒXƒR[ƒh©“®¶¬ˆ—Œn‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’Êí‚ÌÀsƒ‰ƒCƒuƒ‰ƒŠ‚É‚æ‚é’ñ‹Ÿ‚Æ‚È‚è‚Ü‚·B</P>
-<P>¡‰ñ‚ÌƒŠƒŠ[ƒX‚É‚¨‚¢‚ÄAŠî–{“I‚É‚Í JavaMail 1.4 ã‚ÅŒ±‚ğÀ{‚µ‚Ü‚µ‚½B‚½‚¾‚µAJavaMail 1.4.1‚Å‚àˆê’è—Ê‚Ì“®ìŠm”F‚ÍÀ{‚µ‚Ü‚µ‚½B</P>
-<P>JavaMail 1.4.1³®‘Î‰‚É‚Â‚¢‚Ä‚ÍAŒ±À{‚Ì‚¤‚¦ ‰ü‚ß‚ÄƒŠƒŠ[ƒX‚·‚é—\’è‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½https://www.igapyon.jp/ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½ÍA<A HREF="http://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ÅŠmï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½Aï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">blancoMailCore</A> ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ (0.6.1)
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancomailcore.html" TITLE="ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ÅŠmï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½Aï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">blancoMailCore</A>ï¿½ï¿½ ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ÅŠÈ’Pï¿½É—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½é‚½ï¿½ß‚ï¿½Javaï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½(jarï¿½tï¿½@ï¿½Cï¿½ï¿½)ï¿½Å‚ï¿½ï¿½B<BR>
+blancoMailCoreï¿½Í“ï¿½ï¿½ï¿½ï¿½Iï¿½É‚ï¿½ JavaMail APIï¿½ğ—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoMailCoreï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ JavaMail APIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŠÈ’Pï¿½Éƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ğ—˜—pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½BblancoMailCoreï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½é‚¢ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ìƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½É’lï¿½ï¿½İ’è‚µï¿½Äƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½È’Pï¿½Éƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½@ï¿½\ï¿½ğ—˜—pï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blanco Frameworkï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Qï¿½ÆˆÙ‚È‚ï¿½AblancoMailCoreï¿½Íƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Êï¿½Ìï¿½ï¿½sï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ñ‹Ÿ‚Æ‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½{ï¿½Iï¿½É‚ï¿½ JavaMail 1.4 ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AJavaMail 1.4.1ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ê‚Ì“ï¿½ï¿½ï¿½mï¿½Fï¿½Íï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>JavaMail 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Ì‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß‚Äƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail 1.4.1 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail 1.4.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaMail 1.4.1 ‚ª 2007.10.22•t‚ÅƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½B</P>
+<P>JavaMail 1.4.1 ï¿½ï¿½ 2007.10.22ï¿½tï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>JavaMail<BR>
   <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
 </UL>
-<P>‚Ü‚½A•¹‚¹‚Ä JavaBeans Activation Framework (JAF) ‚àƒŠƒrƒWƒ‡ƒ“ƒAƒbƒv‚³‚ê‚Ä‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JavaBeans Activation Framework (JAF) ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>JavaBeans Activation Framework (JAF)<BR>
   <A HREF="http://java.sun.com/products/javabeans/jaf/">http://java.sun.com/products/javabeans/jaf/</A>
 </UL>
-<P>blancoMailCore‚ÌŒ±‘ÎÛ‚ª‘‚¦‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½‚Å‚·cB</P>
-<P>‚³‚ÄA“Æ’f‚Æ•ÎŒ©‚É‚ÄAJavaMail 1.4.1 ‚Ì changelog‚ğd•ª‚Ä•ª—Ş‚µ‚Ä‚İ‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">‰ü‘P</FONT></P>
+<P>blancoMailCoreï¿½Ìï¿½ï¿½ï¿½ï¿½ÎÛ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½cï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÄAï¿½Æ’fï¿½Æ•ÎŒï¿½ï¿½É‚ÄAJavaMail 1.4.1 ï¿½ï¿½ changelogï¿½ï¿½ï¿½dï¿½ï¿½ï¿½Ä•ï¿½ï¿½Ş‚ï¿½ï¿½Ä‚İ‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½P</FONT></P>
 
 <UL>
   <LI>&lt;no id&gt; make sure Message-ID is really unique (GlassFish Issue 3064)<BR>
-  ƒƒbƒZ[ƒWID‰ü‘P‚Í ‹C‚É‚È‚è‚Ü‚·B
+  ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½WIDï¿½ï¿½ï¿½Pï¿½ï¿½ ï¿½Cï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
   <LI>&lt;no id&gt; fix performance bug in base64 encoder; now even faster!<BR>
-  base64ƒGƒ“ƒR[ƒ_‚ª‚‘¬‚É‚È‚Á‚½‚Æ‚¢‚¤‚Ì‚Í ‹C‚É‚È‚è‚Ü‚·B
+  base64ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½Cï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
   <LI>6431207 SMTP is adding extra CRLF to message content
   <LI>6447801 MimeBodyPart.writeTo reencodes data unnecessarily
   <LI>&lt;no id&gt; SSLSocketFactory should be used for imap and smtp STARTTLS
@@ -106,7 +106,7 @@ blancoMailCore‚Í“à•”“I‚É‚Í JavaMail API‚ğ—˜—p‚µ‚Ä‚¢‚Ü‚·B‚µ‚©‚µ blancoMailCore‚ğ
   <LI>&lt;no id&gt; support decoding multi-segment parameter names per RFC 2231
   <LI>&lt;no id&gt; do SMTP authentication if connect is called with username and password even if mail.smtp.auth is not set
 </UL>
-<P><FONT color="#ff00ff">ƒoƒOFIX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½oï¿½OFIX</FONT></P>
 <UL>
   <LI>4119871 MimeMessage.reply() should set the &quot;References&quot; header
   <LI>6447799 encoded text not decoded even when mail.mime.decodetext.strict is false
@@ -118,7 +118,7 @@ blancoMailCore‚Í“à•”“I‚É‚Í JavaMail API‚ğ—˜—p‚µ‚Ä‚¢‚Ü‚·B‚µ‚©‚µ blancoMailCore‚ğ
   <LI>&lt;no id&gt; MimeUtility.decodeText should not discard trailing whitespace
   <LI>&lt;no id&gt; MimeMultipart failed to parse stream before adding/removing body parts
 </UL>
-<P><FONT color="#ff00ff">IMAPŒn</FONT></P>
+<P><FONT color="#ff00ff">IMAPï¿½n</FONT></P>
 <UL>
   <LI>4107594	IMAP implementation should use the IDLE extension if available
   <LI>6228377	IMAPFolder's setFlags method handles user flags incorrectly
@@ -132,10 +132,10 @@ blancoMailCore‚Í“à•”“I‚É‚Í JavaMail API‚ğ—˜—p‚µ‚Ä‚¢‚Ü‚·B‚µ‚©‚µ blancoMailCore‚ğ
   <LI>&lt;no id&gt; fix bug in mapping IMAP UIDs to msgs when some msgs have been expunged
   <LI>&lt;no id&gt; if IMAP folder is open, assume it exists, don't ask again
 </UL>
-<P>ŠÈ’P‚É‚µ‚½‚Æ‚±‚ëAJavaMail 1.4.1‚ªƒŠƒŠ[ƒX‚³‚ê‚½‚Ì‚É‚à‚©‚©‚í‚ç‚¸AblancoMailCore‚Ì•K—v«‚ÍˆË‘R‚Æ‚µ‚Äc‚Á‚Ä‚¢‚é‚æ‚¤‚Å‚·B</P>
-<P>ŠmÀ‚Èƒ`ƒFƒbƒN‚Í‚µ‚Ä‚¢‚Ü‚¹‚ñ‚ªAJavaMail 1.4.1 ‚ÍƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÌÀ‘•‚ªu“KØ‚Èvd—l‚Ö‚Æ•ÏX‚³‚ê‚Ä‚¢‚é‚æ‚¤‚È’¼Š´‚ğó‚¯‚Ü‚µ‚½B‚±‚ê‚©‚çÚ‚µ‚­’²‚×‚Ü‚·‚ªAu“KØ‚ÉvÀ‘•‚³‚ê‚Ä‚¢‚é‚ÆA“ú–{‚ÌŒÃ‚¢ƒ[ƒ‰‚ª“KØ‚Éˆ—‚Å‚«‚È‚¢‰Â”\«‚ª‚ ‚é‚æ‚¤‚Év‚¢‚Ü‚·B</P>
+<P>ï¿½È’Pï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½AJavaMail 1.4.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ê‚½ï¿½Ì‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚¸ï¿½AblancoMailCoreï¿½Ì•Kï¿½vï¿½ï¿½ï¿½ÍˆË‘Rï¿½Æ‚ï¿½ï¿½Äcï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½mï¿½ï¿½ï¿½Èƒ`ï¿½Fï¿½bï¿½Nï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAJavaMail 1.4.1 ï¿½ÍƒGï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½Kï¿½Ø‚Èvï¿½dï¿½lï¿½Ö‚Æ•ÏXï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½È’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚©ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½uï¿½Kï¿½Ø‚Évï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½{ï¿½ÌŒÃ‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½Ø‚Éï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Évï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

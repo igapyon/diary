@@ -68,9 +68,9 @@
 </TABLE>
 <P>Apache iBatis の sqlMap.xml ファイルを入力して、Javaソースコードを自動生成する blancoIBatis というプロダクトを新規作成しました。最初の機能として、sqlMap.xml
 から、検索結果の行をあらわすバリューオブジェクトの Javaソースコードを自動生成する機能を実装しました。(Apache Antタスクのみの提供です)<BR>
-# <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> の既存実装を利用することにより、とても即席に作ることができました。</P>
+# <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> の既存実装を利用することにより、とても即席に作ることができました。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis を使うと、sqlMap という XML ファイルから、検索結果の行をあらわすバリューオブジェクトのクラス・ソースコードを自動生成することができます。">blancoIBatis</A>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis" TITLE="blancoIBatis を使うと、sqlMap という XML ファイルから、検索結果の行をあらわすバリューオブジェクトのクラス・ソースコードを自動生成することができます。">blancoIBatis</A>
 </UL>
 <P>Apache iBaits を利用していて、検索結果のバリューオブジェクトを自前で準備することに不満を感じたことはありませんか? その疑問はとても正しいものです。そして、blancoIBatis
 を利用すると、そういったバリューオブジェクトは sqlMap.xml ファイルに記述された SQL文から自動生成することができるのです。技術的には、SQL文の実行結果から得られる情報によって、フィールド名および型名を解決して実現しています。</P>
@@ -82,7 +82,7 @@ SQLを書かなくてはならない、そういった人たち向けの Javaソ
 生で iBatis を利用している人は少ない、ですよね!) そのため、現状では説明もほとんど付けていません。一方で、現時点では 実行行数 200行程度のプロダクトなので、もし
 その気になればソースコードから簡単に仕様を理解することもできます。(と想定していますが、もし blancoIBatis へのニーズを感じる人は連絡や要望をお寄せ下さい。要望が多いようでしたら、ドキュメントなどを強化していきます)</P>
 <P>なお、blancoIBatis の自動生成は、iBatis の仕様上の制約から、一部不完全なものとなります。sqlMap.xml では、どうしても情報が不足してしまうケースがあるのです。(sqlMap.xml
-の記述内容によっては、ほぼ完全な自動生成も実現できますが…) もし、より完全な自動生成を利用したい場合には、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>
+の記述内容によっては、ほぼ完全な自動生成も実現できますが…) もし、より完全な自動生成を利用したい場合には、<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>
 の利用を検討することを強く推奨します。iBatis と blancoDb とは かなり仕様が似ていますが、blancoDb のほうが、より完全な自動生成環境を実現することができます。</P>
 <TABLE summary="mini title">
   <TBODY>

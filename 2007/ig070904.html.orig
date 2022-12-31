@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/09/04 “ú‹L: Java: JavaMail ’²¸ , JavaMail‚É‚æ‚éƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="JavaMail‚ð’²¸‚µ‚Ü‚µ‚½B , ƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹‚É‚Â‚¢‚Ä SSL‚ ‚èA‚È‚µ‚Ì—¼•û‚ðŽŽì‚µ‚Ü‚µ‚½B‚Ü‚½“Y•tƒtƒ@ƒCƒ‹‚É‚Â‚¢‚Ä‚à’²‚×‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JavaMail,Java,mail,ƒ[ƒ‹,ƒTƒ“ƒvƒ‹,blancoMail">
+<TITLE>2007/09/04 ï¿½ï¿½ï¿½L: Java: JavaMail ï¿½ï¿½ï¿½ï¿½ , JavaMailï¿½É‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="JavaMailï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½ SSLï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JavaMail,Java,mail,ï¿½ï¿½ï¿½[ï¿½ï¿½,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,blancoMail">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/09/04 “ú‹L: Java: JavaMail ’²¸ , JavaMail‚É‚æ‚éƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JavaMail,Java,mail,ƒ[ƒ‹,ƒTƒ“ƒvƒ‹,blancoMail] JavaMail‚ð’²¸‚µ‚Ü‚µ‚½B , ƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹‚É‚Â‚¢‚Ä SSL‚ ‚èA‚È‚µ‚Ì—¼•û‚ðŽŽì‚µ‚Ü‚µ‚½B‚Ü‚½“Y•tƒtƒ@ƒCƒ‹‚É‚Â‚¢‚Ä‚à’²‚×‚Ü‚µ‚½B</P>
+    <H2>2007/09/04 ï¿½ï¿½ï¿½L: Java: JavaMail ï¿½ï¿½ï¿½ï¿½ , JavaMailï¿½É‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JavaMail,Java,mail,ï¿½ï¿½ï¿½[ï¿½ï¿½,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,blancoMail] JavaMailï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½ SSLï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,20 +60,20 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JavaMail ’²¸</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: JavaMail ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Ì <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail‚ÍAƒ[ƒ‹‘—ŽóM‚É‚Ü‚Â‚í‚é”–â‘è‚ð‰ðŒˆ‚·‚é‚½‚ß‚Ìƒ[ƒ‹ƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚¨‚æ‚ÑƒtƒŒ[ƒ€ƒ[ƒN‚Å‚·B">blancoMail</A> ‚ÉŠÖ‚µ‚Ä ãŽi‚Ì‹–‰Â‚ð“¾‚½‚Ì‚Å
-ŠJ”­‚É’…Žè‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚µ‚½B</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMail‚ÍAƒ[ƒ‹‘—ŽóM‚É‚Ü‚Â‚í‚é”–â‘è‚ð‰ðŒˆ‚·‚é‚½‚ß‚Ìƒ[ƒ‹ƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚¨‚æ‚ÑƒtƒŒ[ƒ€ƒ[ƒN‚Å‚·B">blancoMail</A> ‚ÌŠJ”­‚Éæ—§‚¿A‚Ü‚¸‚Í JavaMail‚ÌˆêŽŸî•ñŒ¹‚Í‰½‚©‚ð’²‚×‚Ü‚µ‚½B‚·‚é‚Æ “–‘R‚Å‚·‚ª Sun‚ÌƒTƒCƒg‚És‚«’…‚«‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½https://www.igapyon.jp/ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailï¿½ÍAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½É‚Ü‚Â‚ï¿½é”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Å‚ï¿½ï¿½B">blancoMail</A> ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ ï¿½ï¿½iï¿½Ì‹ï¿½ï¿½Â‚ð“¾‚ï¿½ï¿½Ì‚ï¿½
+ï¿½Jï¿½ï¿½ï¿½É’ï¿½ï¿½è‚·ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancomail.html" TITLE="blancoMailï¿½ÍAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½É‚Ü‚Â‚ï¿½é”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Å‚ï¿½ï¿½B">blancoMail</A> ï¿½ÌŠJï¿½ï¿½ï¿½Éæ—§ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ JavaMailï¿½ÌˆêŽŸï¿½ï¿½ñŒ¹‚Í‰ï¿½ï¿½ï¿½ï¿½ð’²‚×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Rï¿½Å‚ï¿½ï¿½ï¿½ Sunï¿½ÌƒTï¿½Cï¿½gï¿½Ésï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>JavaMail<BR>
   <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
 </UL>
-<P>Œ»Žž“_‚Å‚Í JavaMail API 1.4 ƒŠƒŠ[ƒX‚Æ‚Ì‹LÚ‚ª‚ ‚èAÅV”Å‚Í 1.4‚Æ‚Ì‚±‚Æ‚Å‚·B<BR>
-‚Ü‚½A2006.04.19Žž“_‚Å JavaMail‚ÍƒI[ƒvƒ“ƒ\[ƒX‰»‚³‚ê‚Ä‚¢‚é‚æ‚¤‚Å‚·BƒI[ƒvƒ“ƒ\[ƒX‰»‚É‚Â‚¢‚Ä‚Í ’m‚è‚Ü‚¹‚ñ‚Å‚µ‚½ (‚ ‚é‚¢‚Í–Y‚ê‹Ž‚Á‚Ä‚¢‚Ü‚µ‚½)B‚±‚Ì‚æ‚¤‚È‘f°‚ç‚µ‚¢ƒvƒƒ_ƒNƒg‚ªƒI[ƒvƒ“ƒ\[ƒX‰»‚³‚ê‚é‚±‚Æ‚ÍŠì‚Î‚µ‚¢‚±‚Æ‚Å‚·B</P>
-<P>‚»‚µ‚ÄAJavaMail‚É‚Â‚¢‚Ä‚Ì uŒöŽ®‚Èv ƒhƒLƒ…ƒƒ“ƒg‹y‚Ñƒ`ƒ…[ƒgƒŠƒAƒ‹‚É‚Â‚¢‚Ä‚Í‰º‹L‚É‚ ‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ JavaMail API 1.4 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Æ‚Ì‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÅVï¿½Å‚ï¿½ 1.4ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B<BR>
+ï¿½Ü‚ï¿½ï¿½A2006.04.19ï¿½ï¿½ï¿½_ï¿½ï¿½ JavaMailï¿½ÍƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½é‚¢ï¿½Í–Yï¿½ê‹Žï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)ï¿½Bï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‘fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ÍŠï¿½Î‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ÄAJavaMailï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Èv ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½yï¿½Ñƒ`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Í‰ï¿½ï¿½Lï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>JavaMail API documentation<BR>
   <A HREF="http://java.sun.com/products/javamail/javadocs/index.html">http://java.sun.com/products/javamail/javadocs/index.html</A>
@@ -84,21 +84,21 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail ‚ÌƒCƒ“ƒXƒg[ƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaMail‚Í ƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä—˜—p‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚·B (‘Šú‚É Java SE ‚É“‡‚³‚ê‚é‚±‚Æ‚ðŠó–]‚µ‚Ä‚¢‚Ü‚·)</P>
-<P>Œ»Žž“_‚Å‚Í ÅVˆÀ’è”Å‚Í ˆÈ‰º‚Ìƒo[ƒWƒ‡ƒ“‚Æ‚È‚è‚Ü‚·B</P>
+<P>JavaMailï¿½ï¿½ ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½B (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Java SE ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½ÅVï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½È‰ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>JavaMail 1.4
   <UL>
     <LI>URL <A HREF="http://java.sun.com/products/javamail/">http://java.sun.com/products/javamail/</A>
-    <LI>ƒo[ƒWƒ‡ƒ“: 1.4
-    <LI>ƒtƒ@ƒCƒ‹–¼: javamail-1_4.zip
-    <LI>ƒŠƒŠ[ƒX“ú•t: 2006.04.25
+    <LI>ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½: 1.4
+    <LI>ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½: javamail-1_4.zip
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½t: 2006.04.25
     
-    <LI>–Ú“–‚Ä‚Æ‚È‚éƒtƒ@ƒCƒ‹<UL>
+    <LI>ï¿½Ú“ï¿½ï¿½Ä‚Æ‚È‚ï¿½tï¿½@ï¿½Cï¿½ï¿½<UL>
       <LI>dsn.jar
       <LI>imap.jar
       <LI>mailapi.jar
@@ -107,30 +107,30 @@
     </UL>
   </UL>
 </UL>
-<P>JavaMail‚ð—˜—p‚·‚é‚½‚ß‚É‚ÍAJavaMail–{‘Ì‚Æ‚Í•Ê‚É JavaBeans Activation Framework (JAF) ‚ÆŒÄ‚Î‚ê‚é‚à‚Ì‚ª•K—v‚Å‚·B</P>
+<P>JavaMailï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚É‚ÍAJavaMailï¿½{ï¿½Ì‚Æ‚Í•Ê‚ï¿½ JavaBeans Activation Framework (JAF) ï¿½ÆŒÄ‚Î‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI>JavaBeans Activation Framework (JAF)
   <UL>
     <LI>URL: <A HREF="http://java.sun.com/products/javabeans/jaf/">http://java.sun.com/products/javabeans/jaf/</A>
-    <LI>ƒo[ƒWƒ‡ƒ“: 1.1
-    <LI>ƒtƒ@ƒCƒ‹–¼: jaf-1_1-fr.zip
+    <LI>ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½: 1.1
+    <LI>ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½: jaf-1_1-fr.zip
     
-    <LI>–Ú“–‚Ä‚Æ‚È‚éƒtƒ@ƒCƒ‹
+    <LI>ï¿½Ú“ï¿½ï¿½Ä‚Æ‚È‚ï¿½tï¿½@ï¿½Cï¿½ï¿½
     <UL>
       <LI>activation.jar
     </UL>
   </UL>
 </UL>
-<P>‚±‚±‚Å“¾‚ç‚ê‚½ƒtƒ@ƒCƒ‹‚É‚Â‚¢‚ÄAclasspath‚ª’Ê‚Á‚Ä‚¢‚é‚éêŠ‚ÉŠi”[‚µ‚Ü‚·B‚±‚ê‚Å JavaMail API ‚ª—˜—p‰Â”\‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ê‚½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAclasspathï¿½ï¿½ï¿½Ê‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½êŠï¿½ÉŠiï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ JavaMail API ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Â”\ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒVƒ“ƒvƒ‹‚È JavaMail ƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ JavaMail ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚±‚±‚Ü‚Å“¾‚ç‚ê‚½î•ñŒ¹‚È‚Ç‚ð‚à‚Æ‚ÉAŽ„‚È‚è‚É ƒVƒ“ƒvƒ‹‚È JavaMail ‚É‚æ‚éƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹‚ðì‚Á‚Ä‚Ý‚Ü‚µ‚½B</P>
-<P>‚Ü‚¸ SSL–³‚µ”Å‚Ìƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹‚ðì‚è‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å“ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ñŒ¹‚È‚Ç‚ï¿½ï¿½ï¿½ï¿½Æ‚ÉAï¿½ï¿½ï¿½È‚ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ JavaMail ï¿½É‚ï¿½éƒï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½Ü‚ï¿½ SSLï¿½ï¿½ï¿½ï¿½ï¿½Å‚Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -159,68 +159,68 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * ƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹B
+ * ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½B
  */
 public class SimpleSendMail {
-    // “ú–{Œêƒ[ƒ‹‚Ìê‡‚É‚Í ISO-2022-JP‚ªƒIƒXƒXƒB
-    // UTF-8‚¾‚ÆŽóMŽž‚É•¶Žš‰»‚¯‚µ‚Ä‚µ‚Ü‚¤ƒ[ƒ‰‚ª¢‚Ì’†‚É‚ÍˆË‘R‚Æ‚µ‚Ä‘¶Ý‚µ‚Ä‚¢‚Ü‚·B
+    // ï¿½ï¿½ï¿½{ï¿½êƒï¿½[ï¿½ï¿½ï¿½Ìê‡ï¿½É‚ï¿½ ISO-2022-JPï¿½ï¿½ï¿½Iï¿½Xï¿½Xï¿½ï¿½ï¿½B
+    // UTF-8ï¿½ï¿½ï¿½ÆŽï¿½Mï¿½ï¿½ï¿½É•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½É‚ÍˆË‘Rï¿½Æ‚ï¿½ï¿½Ä‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
     private static final String ENCODE = &quot;ISO-2022-JP&quot;;
 
     public static void main(final String[] args) {
-        System.out.println(&quot;ƒ[ƒ‹‘—MŠJŽn&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Jï¿½n&quot;);
 
         new SimpleSendMail().process();
 
-        System.out.println(&quot;ƒ[ƒ‹‘—MI—¹&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Iï¿½ï¿½&quot;);
     }
 
     public void process() {
         final Properties props = new Properties();
 
-        // Šî–{î•ñB‚±‚±‚Å‚Í nifty‚Ö‚ÌÚ‘±—á‚ðŽ¦‚µ‚Ü‚·B
+        // ï¿½ï¿½{ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ niftyï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
         props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.nifty.com&quot;);
         props.setProperty(&quot;mail.smtp.port&quot;, &quot;25&quot;);
 
-        // ƒ^ƒCƒ€ƒAƒEƒgÝ’è
+        // ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½Eï¿½gï¿½Ý’ï¿½
         props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
         props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
 
-        // ”FØ
+        // ï¿½Fï¿½ï¿½
         props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
 
         final Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(&quot;NIFTY‚ÌID&quot;, &quot;password&quot;);
+                return new PasswordAuthentication(&quot;NIFTYï¿½ï¿½ID&quot;, &quot;password&quot;);
             }
         });
 
-        // ƒfƒoƒbƒO‚ðs‚¢‚Ü‚·B•W€o—Í‚ÉƒgƒŒ[ƒX‚ªo‚Ü‚·B
+        // ï¿½fï¿½oï¿½bï¿½Oï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Wï¿½ï¿½ï¿½oï¿½Í‚Éƒgï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Ü‚ï¿½ï¿½B
         session.setDebug(true);
 
-        // ƒƒbƒZ[ƒW“à—e‚ÌÝ’èB
+        // ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½eï¿½ÌÝ’ï¿½B
         final MimeMessage message = new MimeMessage(session);
         try {
             final Address addrFrom = new InternetAddress(
-                    &quot;‘—MŽÒ›››@nifty.ne.jp&quot;, &quot;‘—MŽÒ‚Ì•\Ž¦–¼&quot;, ENCODE);
+                    &quot;ï¿½ï¿½ï¿½Mï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½@nifty.ne.jp&quot;, &quot;ï¿½ï¿½ï¿½Mï¿½Ò‚Ì•\ï¿½ï¿½ï¿½ï¿½&quot;, ENCODE);
             message.setFrom(addrFrom);
 
-            final Address addrTo = new InternetAddress(&quot;ŽóMŽÒ›››@gmail.com&quot;,
-                    &quot;ŽóMŽÒ‚Ì•\Ž¦–¼&quot;, ENCODE);
+            final Address addrTo = new InternetAddress(&quot;ï¿½ï¿½Mï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½@gmail.com&quot;,
+                    &quot;ï¿½ï¿½Mï¿½Ò‚Ì•\ï¿½ï¿½ï¿½ï¿½&quot;, ENCODE);
             message.addRecipient(Message.RecipientType.TO, addrTo);
 
-            // ƒ[ƒ‹‚ÌSubject
-            message.setSubject(&quot;‰‚ß‚Ä‚Ìƒ[ƒ‹&quot;, ENCODE);
+            // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Subject
+            message.setSubject(&quot;ï¿½ï¿½ï¿½ß‚Ä‚Ìƒï¿½ï¿½[ï¿½ï¿½&quot;, ENCODE);
 
-            // ƒ[ƒ‹–{•¶BsetText‚ð—p‚¢‚é‚Æ Ž©“®“I‚É[text/plain]‚Æ‚È‚éB
-            message.setText(&quot;‚±‚ñ‚É‚¿‚ÍB\n‚²‚«‚°‚ñ‚æ‚¤B\n‚³‚æ‚¤‚È‚çB&quot;, ENCODE);
+            // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½BsetTextï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½[text/plain]ï¿½Æ‚È‚ï¿½B
+            message.setText(&quot;ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ÍB\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½B\nï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½B&quot;, ENCODE);
 
-            // ‰¼‘Îô: ŠJŽn
-            // setText‚ðŒÄ‚Ño‚µ‚½Œã‚ÉAƒwƒbƒ_[‚ð 7bit‚Ö‚Æã‘‚«‚µ‚Ü‚·B
-            // ‚±‚ê‚ÍAˆê•”‚ÌƒP[ƒ^ƒCƒ[ƒ‹‚ª quoted-printable ‚ðˆ—‚Å‚«‚È‚¢‚±‚Æ‚Ö‚Ì‘Îô‚Æ‚È‚è‚Ü‚·B
+            // ï¿½ï¿½ï¿½Îï¿½: ï¿½Jï¿½n
+            // setTextï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉAï¿½wï¿½bï¿½_ï¿½[ï¿½ï¿½ 7bitï¿½Ö‚Æã‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            // ï¿½ï¿½ï¿½ï¿½ÍAï¿½ê•”ï¿½ÌƒPï¿½[ï¿½^ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ quoted-printable ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Ö‚Ì‘Îï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
             message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
-            // ‰¼‘Îô: I—¹
+            // ï¿½ï¿½ï¿½Îï¿½: ï¿½Iï¿½ï¿½
 
-            // ‚»‚Ì‘¼‚Ì•t‰Áî•ñB
+            // ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ì•tï¿½ï¿½ï¿½ï¿½ï¿½B
             message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
             message.setSentDate(new Date());
         } catch (MessagingException e) {
@@ -229,16 +229,16 @@ public class SimpleSendMail {
             e.printStackTrace();
         }
 
-        // ƒ[ƒ‹‘—MB
+        // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½B
         try {
             Transport.send(message);
         } catch (AuthenticationFailedException e) {
-            // ”FØŽ¸”s‚Í ‚±‚±‚É“ü‚è‚Ü‚·B
-            System.out.println(&quot;Žw’è‚Ìƒ†[ƒU–¼EƒpƒXƒ[ƒh‚Å‚Ì”FØ‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot;
+            // ï¿½Fï¿½ØŽï¿½ï¿½sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            System.out.println(&quot;ï¿½wï¿½ï¿½Ìƒï¿½ï¿½[ï¿½Uï¿½ï¿½ï¿½Eï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ì”Fï¿½Ø‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot;
                 + e.toString());
         } catch (MessagingException e) {
-            // smtpƒT[ƒo‚Ö‚ÌÚ‘±Ž¸”s‚Í ‚±‚±‚É“ü‚è‚Ü‚·B
-            System.out.println(&quot;Žw’è‚ÌsmtpƒT[ƒo‚Ö‚ÌÚ‘±‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot; + e.toString());
+            // smtpï¿½Tï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            System.out.println(&quot;ï¿½wï¿½ï¿½ï¿½smtpï¿½Tï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot; + e.toString());
             e.printStackTrace();
         }
     }
@@ -248,8 +248,8 @@ public class SimpleSendMail {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>ŽŸ‚É SSL‚ð—˜—p‚µ‚½”Å‚ðì‚è‚Ü‚µ‚½B(ã‹L‚Ìƒ\[ƒXƒR[ƒh‚É’Ç‹L‚µ‚½Œ`‚É‚È‚Á‚Ä‚¢‚Ü‚·B)<BR>
-smtpƒT[ƒo‚ÌÚ‘±î•ñ‚É‚æ‚Á‚Ä SSL–³‚µA—L‚è‚Ì ‚¢‚¸‚ê‚Ìƒ\[ƒXƒR[ƒh‚ð—˜—p‚·‚é‚Ì‚©‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ SSLï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½Lï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½É’Ç‹Lï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B)<BR>
+smtpï¿½Tï¿½[ï¿½oï¿½ÌÚ‘ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ SSLï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Lï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -278,74 +278,74 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * ƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹B
+ * ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½B
  */
 public class SimpleSendMail {
-    // “ú–{Œêƒ[ƒ‹‚Ìê‡‚É‚Í ISO-2022-JP‚ªƒIƒXƒXƒB
-    // UTF-8‚¾‚ÆŽóMŽž‚É•¶Žš‰»‚¯‚µ‚Ä‚µ‚Ü‚¤ƒ[ƒ‰‚ª¢‚Ì’†‚É‚ÍˆË‘R‚Æ‚µ‚Ä‘¶Ý‚µ‚Ä‚¢‚Ü‚·B
+    // ï¿½ï¿½ï¿½{ï¿½êƒï¿½[ï¿½ï¿½ï¿½Ìê‡ï¿½É‚ï¿½ ISO-2022-JPï¿½ï¿½ï¿½Iï¿½Xï¿½Xï¿½ï¿½ï¿½B
+    // UTF-8ï¿½ï¿½ï¿½ÆŽï¿½Mï¿½ï¿½ï¿½É•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½É‚ÍˆË‘Rï¿½Æ‚ï¿½ï¿½Ä‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
     private static final String ENCODE = &quot;ISO-2022-JP&quot;;
 
     public static void main(final String[] args) {
-        System.out.println(&quot;ƒ[ƒ‹‘—MŠJŽn&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Jï¿½n&quot;);
 
         new SimpleSendMail().process();
 
-        System.out.println(&quot;ƒ[ƒ‹‘—MI—¹&quot;);
+        System.out.println(&quot;ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Iï¿½ï¿½&quot;);
     }
 
     public void process() {
         final Properties props = new Properties();
 
-        // Šî–{î•ñB‚±‚±‚Å‚Í gmail‚Ö‚ÌÚ‘±—á‚ðŽ¦‚µ‚Ü‚·B
+        // ï¿½ï¿½{ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ gmailï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
         props.setProperty(&quot;mail.smtp.host&quot;, &quot;smtp.gmail.com&quot;);
-        // SSL—p‚Éƒ|[ƒg”Ô†‚ð•ÏXB
+        // SSLï¿½pï¿½Éƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½ï¿½ÏXï¿½B
         props.setProperty(&quot;mail.smtp.port&quot;, &quot;465&quot;);
 
-        // ƒ^ƒCƒ€ƒAƒEƒgÝ’è
+        // ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½Eï¿½gï¿½Ý’ï¿½
         props.setProperty(&quot;mail.smtp.connectiontimeout&quot;, &quot;60000&quot;);
         props.setProperty(&quot;mail.smtp.timeout&quot;, &quot;60000&quot;);
 
-        // ”FØ
+        // ï¿½Fï¿½ï¿½
         props.setProperty(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
 
-        // SSLŠÖ˜AÝ’è
+        // SSLï¿½Ö˜Aï¿½Ý’ï¿½
         props.setProperty(&quot;mail.smtp.socketFactory.class&quot;, &quot;javax.net.ssl.SSLSocketFactory&quot;);
         props.setProperty(&quot;mail.smtp.socketFactory.fallback&quot;, &quot;false&quot;);
         props.setProperty(&quot;mail.smtp.socketFactory.port&quot;, &quot;465&quot;);
 
         final Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(&quot;‘—MŽÒ›››@gmail.com&quot;, &quot;password&quot;);
+                return new PasswordAuthentication(&quot;ï¿½ï¿½ï¿½Mï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½@gmail.com&quot;, &quot;password&quot;);
             }
         });
 
-        // ƒfƒoƒbƒO‚ðs‚¢‚Ü‚·B•W€o—Í‚ÉƒgƒŒ[ƒX‚ªo‚Ü‚·B
+        // ï¿½fï¿½oï¿½bï¿½Oï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Wï¿½ï¿½ï¿½oï¿½Í‚Éƒgï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Ü‚ï¿½ï¿½B
         session.setDebug(true);
 
-        // ƒƒbƒZ[ƒW“à—e‚ÌÝ’èB
+        // ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½eï¿½ÌÝ’ï¿½B
         final MimeMessage message = new MimeMessage(session);
         try {
             final Address addrFrom = new InternetAddress(
-                    &quot;‘—MŽÒ›››@gmail.com&quot;, &quot;‘—MŽÒ‚Ì•\Ž¦–¼&quot;, ENCODE);
+                    &quot;ï¿½ï¿½ï¿½Mï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½@gmail.com&quot;, &quot;ï¿½ï¿½ï¿½Mï¿½Ò‚Ì•\ï¿½ï¿½ï¿½ï¿½&quot;, ENCODE);
             message.setFrom(addrFrom);
 
-            final Address addrTo = new InternetAddress(&quot;ŽóMŽÒ›››@gmail.com&quot;,
-                    &quot;ŽóMŽÒ‚Ì•\Ž¦–¼&quot;, ENCODE);
+            final Address addrTo = new InternetAddress(&quot;ï¿½ï¿½Mï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½@gmail.com&quot;,
+                    &quot;ï¿½ï¿½Mï¿½Ò‚Ì•\ï¿½ï¿½ï¿½ï¿½&quot;, ENCODE);
             message.addRecipient(Message.RecipientType.TO, addrTo);
 
-            // ƒ[ƒ‹‚ÌSubject
-            message.setSubject(&quot;‰‚ß‚Ä‚Ìƒ[ƒ‹&quot;, ENCODE);
+            // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Subject
+            message.setSubject(&quot;ï¿½ï¿½ï¿½ß‚Ä‚Ìƒï¿½ï¿½[ï¿½ï¿½&quot;, ENCODE);
 
-            // ƒ[ƒ‹–{•¶BsetText‚ð—p‚¢‚é‚Æ Ž©“®“I‚É[text/plain]‚Æ‚È‚éB
-            message.setText(&quot;‚±‚ñ‚É‚¿‚ÍB\n‚²‚«‚°‚ñ‚æ‚¤B\n‚³‚æ‚¤‚È‚çB&quot;, ENCODE);
+            // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½BsetTextï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½[text/plain]ï¿½Æ‚È‚ï¿½B
+            message.setText(&quot;ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ÍB\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½B\nï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½B&quot;, ENCODE);
 
-            // ‰¼‘Îô: ŠJŽn
-            // setText‚ðŒÄ‚Ño‚µ‚½Œã‚ÉAƒwƒbƒ_[‚ð 7bit‚Ö‚Æã‘‚«‚µ‚Ü‚·B
-            // ‚±‚ê‚ÍAˆê•”‚ÌƒP[ƒ^ƒCƒ[ƒ‹‚ª quoted-printable ‚ðˆ—‚Å‚«‚È‚¢‚±‚Æ‚Ö‚Ì‘Îô‚Æ‚È‚è‚Ü‚·B
+            // ï¿½ï¿½ï¿½Îï¿½: ï¿½Jï¿½n
+            // setTextï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉAï¿½wï¿½bï¿½_ï¿½[ï¿½ï¿½ 7bitï¿½Ö‚Æã‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            // ï¿½ï¿½ï¿½ï¿½ÍAï¿½ê•”ï¿½ÌƒPï¿½[ï¿½^ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ quoted-printable ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Ö‚Ì‘Îï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
             message.setHeader(&quot;Content-Transfer-Encoding&quot;, &quot;7bit&quot;);
-            // ‰¼‘Îô: I—¹
+            // ï¿½ï¿½ï¿½Îï¿½: ï¿½Iï¿½ï¿½
 
-            // ‚»‚Ì‘¼‚Ì•t‰Áî•ñB
+            // ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ì•tï¿½ï¿½ï¿½ï¿½ï¿½B
             message.addHeader(&quot;X-Mailer&quot;, &quot;blancoMail 0.1&quot;);
             message.setSentDate(new Date());
         } catch (MessagingException e) {
@@ -354,16 +354,16 @@ public class SimpleSendMail {
             e.printStackTrace();
         }
 
-        // ƒ[ƒ‹‘—MB
+        // ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½B
         try {
             Transport.send(message);
         } catch (AuthenticationFailedException e) {
-            // ”FØŽ¸”s‚Í ‚±‚±‚É“ü‚è‚Ü‚·B
-            System.out.println(&quot;Žw’è‚Ìƒ†[ƒU–¼EƒpƒXƒ[ƒh‚Å‚Ì”FØ‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot;
+            // ï¿½Fï¿½ØŽï¿½ï¿½sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            System.out.println(&quot;ï¿½wï¿½ï¿½Ìƒï¿½ï¿½[ï¿½Uï¿½ï¿½ï¿½Eï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ì”Fï¿½Ø‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot;
                 + e.toString());
         } catch (MessagingException e) {
-            // smtpƒT[ƒo‚Ö‚ÌÚ‘±Ž¸”s‚Í ‚±‚±‚É“ü‚è‚Ü‚·B
-            System.out.println(&quot;Žw’è‚ÌsmtpƒT[ƒo‚Ö‚ÌÚ‘±‚ÉŽ¸”s‚µ‚Ü‚µ‚½B&quot; + e.toString());
+            // smtpï¿½Tï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+            System.out.println(&quot;ï¿½wï¿½ï¿½ï¿½smtpï¿½Tï¿½[ï¿½oï¿½Ö‚ÌÚ‘ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot; + e.toString());
             e.printStackTrace();
         }
     }
@@ -373,51 +373,51 @@ public class SimpleSendMail {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>“–‰‘z‘œ‚µ‚Ä‚¢‚½‚æ‚è‚ÍA‚·‚ñ‚È‚è‚Æ“®ì‚³‚¹‚é‚±‚Æ‚ªo—ˆ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½È‚ï¿½Æ“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 
-<P>‚¿‚È‚Ý‚ÉAsession.setDebug(true) ‚ðŽw’è‚µ‚Ä ŽÀÛ‚ÌsmtpƒvƒƒgƒRƒ‹‚Ì‚â‚è‚Æ‚è‚ðŠÏŽ@‚·‚é‚±‚Æ‚Í ‚Æ‚Ä‚àd—v‚Å‚·B‚±‚ê‚Í
-JavaMail‚ð—˜—p‚µ‚ÄŽÀ‘•‚·‚él‚ÌÓ–±‚¾‚Æl‚¦‚Ü‚·B<BR>
-—á‚¦‚ÎA‚±‚ÌƒTƒ“ƒvƒ‹ƒ\[ƒX‚ÌŽÀs‚ðŽŽ‚·Û‚É‚ÍAƒfƒoƒbƒOƒgƒŒ[ƒX‚ð true ‚ÉŽw’è‚µ‚ÄA‚Ç‚Ì‚æ‚¤‚È‚â‚è‚Æ‚è‚ª smtpƒT[ƒo‚Æ‚ÌŠÔ‚Ås‚í‚ê‚Ä‚¢‚é‚Ì‚©‚ðŠÏŽ@‚·‚×‚«‚Å‚·B‚»‚µ‚Ä
-‘—Mæ‚Ìƒ[ƒ‹ƒ\ƒtƒg‘¤‚ÅŽÀÛ‚ÉŽóM‚³‚ê‚½ƒ[ƒ‹‚Ì“à—e‚ðƒ`ƒFƒbƒN‚·‚é‚±‚Æ‚à–Y‚ê‚Ä‚Í‚È‚è‚Ü‚¹‚ñBƒ[ƒ‹ƒ\ƒtƒg‚É‚æ‚Á‚Ä‚Í ŽÀÛ‚Ìƒ[ƒ‹‚Ìƒwƒbƒ_•”•ª‚ð•\Ž¦‚·‚é‹@”\‚ð”õ‚¦‚Ä‚¢‚Ü‚·‚Ì‚ÅAƒwƒbƒ_•”•ª‚Ì•\Ž¦‚ðON‚ÉÝ’è‚µ‚Ä
-ˆÓ}‚µ‚½‚Æ‚¨‚è‚Ìƒ[ƒ‹“d•¶‚ªŽóM‘¤‚É“Í‚¢‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ðŠm”F‚µ‚Ä‚¨‚«‚Ü‚µ‚å‚¤B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒŠƒ\[ƒX</FONT></P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚ÉAsession.setDebug(true) ï¿½ï¿½ï¿½wï¿½è‚µï¿½ï¿½ ï¿½ï¿½ï¿½Û‚ï¿½smtpï¿½vï¿½ï¿½ï¿½gï¿½Rï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ÏŽ@ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½dï¿½vï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½
+JavaMailï¿½ð—˜—pï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ÌÓ–ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½á‚¦ï¿½ÎAï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÌŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ÍAï¿½fï¿½oï¿½bï¿½Oï¿½gï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ true ï¿½ÉŽwï¿½è‚µï¿½ÄAï¿½Ç‚Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Æ‚è‚ª smtpï¿½Tï¿½[ï¿½oï¿½Æ‚ÌŠÔ‚Åsï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ÏŽ@ï¿½ï¿½ï¿½×‚ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Mï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½ÅŽï¿½ï¿½Û‚ÉŽï¿½Mï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Yï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½É‚ï¿½ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½Û‚Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Ìƒwï¿½bï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ÅAï¿½wï¿½bï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Ì•\ï¿½ï¿½ï¿½ï¿½ONï¿½ÉÝ’è‚µï¿½ï¿½
+ï¿½Ó}ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½É“Í‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½å‚¤ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
-  <LI>eˆ¤f‚ÅŠw‚Ô•¶ŽšƒR[ƒh‚Æ•¶Žš‰»‚¯‚ÌíŽ¯<BR>
+  <LI>ï¿½eï¿½ï¿½ï¿½fï¿½ÅŠwï¿½Ô•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½Æ•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌíŽ¯<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html">http://www.atmarkit.co.jp/fjava/rensai4/programer06/programer06_1.html</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig070905.html">2007/09/05 “ú‹L: Java: JavaMail‚É‚æ‚éƒVƒ“ƒvƒ‹‚Èƒ[ƒ‹ŽóMƒTƒ“ƒvƒ‹</A>
+  <LI><A href="ig070905.html">2007/09/05 ï¿½ï¿½ï¿½L: Java: JavaMailï¿½É‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail ƒ[ƒ‹‘—M‚ÌÛ‚Ì•¶Žš‰»‚¯</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaMail ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ÌÛ‚Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">2007.09.05’Ç‹L</FONT> ƒP[ƒ^ƒCƒ[ƒ‹‚È‚Ç‚Å‚ÍAContent-Transfer-Encoding ‚ª quoted-printable ‚Ì‚à‚Ì‚ð“KØ‚Éˆ—‚Å‚«‚È‚¢‚à‚Ì‚ª
-‘¶Ý‚µ‚Ü‚·B”äŠr“IV‚µ‚¢‹@Ží‚Å‚à ‚»‚Ì‚æ‚¤‚ÈŽÀ‘•‚Ì‚à‚Ì‚ª‚ ‚è‚Ü‚µ‚½B(‚»‚ê‚ª’[––‘¤‚Ì–â‘è‚È‚Ì‚©A’ÊMƒLƒƒƒŠƒA‘¤‚ÌƒT[ƒo‚Ì•ÏŠ·Žž‚Ì–â‘è‚È‚Ì‚©‚É‚Â‚¢‚Ä‚ÍAŽ„‚Í”cˆ¬‚µ‚Ä‚¢‚Ü‚¹‚ñ)<BR>
-‚±‚±‚Ü‚Å‚ÅŽ¦‚µ‚½ƒTƒ“ƒvƒ‹ƒŒƒxƒ‹‚Å‚àAquoted-printable ‚É‹Nˆö‚·‚éƒ[ƒ‹‚Ì•¶Žš‰»‚¯‘Îô‚É‚Â‚¢‚Ä‚Ìl—¶‚ª•K—v‚È‚Ì‚¾A‚Æ‚¢‚¤‚±‚Æ‚Å‚·
-(–â‘è‚ðŒ©‚Â‚¯‚½‚Ì‚ÅAƒTƒ“ƒvƒ‹ƒ\[ƒX‚É‚Í“––Ê‚Ì‘Îô‚ð ‚Ù‚Ç‚±‚µ‚Ü‚µ‚½)Bquoted-printable ‚ÌƒŒƒxƒ‹‚Åƒ_ƒ‚Æ‚È‚é‚ÆA“ïˆÕ“x‚ª‚‚¢‚Å‚·‚ËcB<BR>
-‚Æ‚è‚ ‚¦‚¸ quoted-printable ‚ðˆ—‚Å‚«‚È‚¢ƒ[ƒ‹ƒ\ƒtƒg‚È‚ñ‚Ä‚à‚Ì‚ªA‚¢‚Ü‚¾‚É¢‚Ì’†‚É‘½‚­‘¶Ý‚µ‚Ä‚¢‚é‚Ì‚¾A‚Æ‚¢‚¤‚Ì‚Í Ž„‚É‚Í
-‚Æ‚Ä‚àˆÓŠO‚Å‚µ‚½Bquoted-printable ‚È‚ñ‚Ä ‚©‚È‚èŒÃ‚¢ŽžŠú‚©‚ç‘¶Ý‚µ‚Ä‚¢‚½Žw’è“à—e‚¾‚Á‚½‚æ‚¤‚É‹L‰¯‚µ‚Ä‚¢‚é‚Ì‚Å‚·‚ªc (‚Å‚à
-‚±‚±‚Í ‚¤‚ëŠo‚¦‚Å‚·)</P>
+<P><FONT color="#ff0000">2007.09.05ï¿½Ç‹L</FONT> ï¿½Pï¿½[ï¿½^ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½È‚Ç‚Å‚ÍAContent-Transfer-Encoding ï¿½ï¿½ quoted-printable ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½Kï¿½Ø‚Éï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½rï¿½Iï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½ÈŽï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ê‚ªï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ì–ï¿½ï¿½È‚Ì‚ï¿½ï¿½Aï¿½ÊMï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌƒTï¿½[ï¿½oï¿½Ì•ÏŠï¿½ï¿½ï¿½ï¿½Ì–ï¿½ï¿½È‚Ì‚ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½Í”cï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å‚ï¿½ï¿½Aquoted-printable ï¿½É‹Nï¿½ï¿½ï¿½ï¿½ï¿½éƒï¿½[ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îï¿½É‚Â‚ï¿½ï¿½Ä‚Ìlï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½
+(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚Í“ï¿½ï¿½Ê‚Ì‘Îï¿½ï¿½ ï¿½Ù‚Ç‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)ï¿½Bquoted-printable ï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½Åƒ_ï¿½ï¿½ï¿½Æ‚È‚ï¿½ÆAï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ëcï¿½B<BR>
+ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ quoted-printable ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½È‚ï¿½Ä‚ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Éï¿½ï¿½Ì’ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½É‚ï¿½
+ï¿½Æ‚Ä‚ï¿½ï¿½ÓŠOï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bquoted-printable ï¿½È‚ï¿½ï¿½ ï¿½ï¿½ï¿½È‚ï¿½Ã‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‘¶ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½c (ï¿½Å‚ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Å‚ï¿½)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>“Y•tƒtƒ@ƒCƒ‹•t‚«‚Ì JavaMail ƒ[ƒ‹‘—MƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ JavaMail ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>“Y•tƒtƒ@ƒCƒ‹ˆ—‚É‚Â‚¢‚Ä ŠÈ’P‚ÉŽÀ‘•‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
-<P>‚±‚Á‚¿‚Ì•û‚Í ƒvƒŒ[ƒ“ƒeƒLƒXƒgƒ[ƒ‹‚Ì‘—M‚É”ä‚×‚é‚Æ ŽÀ‘•‚ª ‚â‚â–ï‰î‚Å‚µ‚½BAPIŽd—l‚Éƒgƒ‰ƒbƒv‚ª‚ ‚é‚æ‚¤‚ÉŠ´‚¶‚Ü‚µ‚½ (‹êÎ)B<BR>
-‚Ü‚ Aˆê“xì‚Á‚Ä‚µ‚Ü‚¤‚±‚Æ‚ª‚Å‚«‚½‚Ì‚ÅA‚ ‚Æ‚Ì‰ž—p‚Í ”äŠr“IŠÈ’P‚»‚¤‚Å‚·B</P>
+<P>ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½ ï¿½È’Pï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ ï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Mï¿½É”ï¿½×‚ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½BAPIï¿½dï¿½lï¿½Éƒgï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)ï¿½B<BR>
+ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Æ‚Ì‰ï¿½ï¿½pï¿½ï¿½ ï¿½ï¿½rï¿½Iï¿½È’Pï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">•ÏX“_‚Ì‚Ý</TD>
+      <TD bgcolor="#ffff00">ï¿½ÏXï¿½_ï¿½Ì‚ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -450,90 +450,90 @@ import javax.mail.internet.MimeMultipart;
 import javax.mail.internet.MimeUtility;
 import javax.mail.util.ByteArrayDataSource;
 
-c’†—ªc
+ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½c
 
-            // •ÏX“_: ‚±‚±‚©‚ç
-            // message.setText‚Ì‘ã‚í‚è‚ÉA“Y•tƒtƒ@ƒCƒ‹ˆ—‚ð‹Lq‚·‚é
+            // ï¿½ÏXï¿½_: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            // message.setTextï¿½Ì‘ï¿½ï¿½ï¿½ÉAï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½qï¿½ï¿½ï¿½ï¿½
 
             final Multipart multipart = new MimeMultipart();
 
-            // ƒeƒLƒXƒg•”•ª
+            // ï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½
             final MimeBodyPart textPart = new MimeBodyPart();
-            textPart.setText(&quot;‚±‚ñ‚É‚¿‚ÍB\n‚²‚«‚°‚ñ‚æ‚¤B\n‚³‚æ‚¤‚È‚çB&quot;, ENCODE);
+            textPart.setText(&quot;ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ÍB\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½B\nï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½B&quot;, ENCODE);
 
-            // TODO Content-Transfer-Encoding ‚Ì 7bit ‚Ö‚Ìã‘‚«‚ª•K—v‚©‚Ç‚¤‚©‚Í–¢’²¸B
+            // TODO Content-Transfer-Encoding ï¿½ï¿½ 7bit ï¿½Ö‚Ìã‘ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
             multipart.addBodyPart(textPart);
 
-            // “Y•tƒtƒ@ƒCƒ‹•”•ª
+            // ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             final BodyPart attachmentPart = new MimeBodyPart();
-            // í‚ÉƒoƒCƒiƒŠƒf[ƒ^‚Å‚ ‚é‚à‚Ì‚Æ‚µ‚Äƒtƒ@ƒCƒ‹‚ð“Y•t‚·‚éB
+            // ï¿½ï¿½Éƒoï¿½Cï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½Äƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Yï¿½tï¿½ï¿½ï¿½ï¿½B
             try {
                 attachmentPart.setDataHandler(new DataHandler(
                         new ByteArrayDataSource(new BufferedInputStream(
-                                new FileInputStream(&quot;“Y•tƒtƒ@ƒCƒ‹–¼.txt&quot;)),
+                                new FileInputStream(&quot;ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½.txt&quot;)),
                                 &quot;application/octet-stream&quot;)));
             } catch (IOException e) {
                 e.printStackTrace();
                 return;
             }
 
-            // “Y•tƒtƒ@ƒCƒ‹–¼‚ðƒZƒbƒg
-            // MimeUtility.encodeText ‚Í “Y•tƒtƒ@ƒCƒ‹–¼‚ÉasciiˆÈŠO‚Ì•¶Žš‚ª“ü‚éê‡‚Ì‘ÎôB
-            attachmentPart.setFileName(MimeUtility.encodeText(&quot;“Y•tƒtƒ@ƒCƒ‹–¼.txt&quot;, ENCODE, null));
+            // ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½g
+            // MimeUtility.encodeText ï¿½ï¿½ ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½asciiï¿½ÈŠOï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Ì‘Îï¿½B
+            attachmentPart.setFileName(MimeUtility.encodeText(&quot;ï¿½Yï¿½tï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½.txt&quot;, ENCODE, null));
             multipart.addBodyPart(attachmentPart);
 
             message.setContent(multipart);
 
-            // •ÏX“_: ‚±‚±‚Ü‚Å</pre>
+            // ï¿½ÏXï¿½_: ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>MimeUtility.encodeText ‚Ì“®‚«‚Í ‚Æ‚Ä‚à—Ç‚­‚Å‚«‚Ä‚¢‚Ü‚·B—^‚¦‚ç‚ê‚½•¶Žš—ñ‚É‚Â‚¢‚ÄAƒGƒ“ƒR[ƒh‚ª•K—v‚Èê‡‚Ì‚ÝƒGƒ“ƒR[ƒh‚µAƒGƒ“ƒR[ƒh‚ª•s—v‚Èê‡‚É‚Í
-ƒGƒ“ƒR[ƒh‚µ‚È‚¢A‚Æ‚¢‚¤Žd—l‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B‚±‚¤‚¢‚¤¬‚³‚È‹CŒ­‚¢‚ª ƒ[ƒ‹‘—M‚ÌŽÀ‘•‚É‚Í•K—v‚È‚Ì‚Å‚·I</P>
+<P>MimeUtility.encodeText ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Kï¿½vï¿½Èê‡ï¿½Ì‚ÝƒGï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Aï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½sï¿½vï¿½Èê‡ï¿½É‚ï¿½
+ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½È‚ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ÌŽï¿½ï¿½ï¿½ï¿½É‚Í•Kï¿½vï¿½È‚Ì‚Å‚ï¿½ï¿½I</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒhƒƒCƒ“•t‚«ƒzƒXƒg–¼‚ª—v‹‚³‚ê‚éê‡‚Ö‚Ì‘Î‰ž</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Ö‚Ì‘Î‰ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff00ff">–¢Šm”Fî•ñ</FONT></P>
-<P>ƒ[ƒ‹ƒT[ƒo‚É‚æ‚Á‚Ä‚ÍAƒhƒƒCƒ“•t‚«ƒzƒXƒg–¼‚ª—v‹‚³‚ê‚éê‡‚ª‚ ‚è‚Ü‚·BJavaMail ‚ÌƒfƒtƒHƒ‹ƒg‚Å‚Í ‚»‚ÌƒRƒ“ƒsƒ…[ƒ^‚ÌƒzƒXƒg–¼‚ªƒZƒbƒg‚³‚ê‚é‚Ì‚Å‚·‚ªA‚±‚ê‚ª
-ƒhƒƒCƒ“•t‚Å‚Í–³‚¢ê‡‚É ƒ[ƒ‹ƒT[ƒo‚Ö‚Ì HELLOƒRƒ}ƒ“ƒhŽž‚É‹‘”Û‚³‚ê‚éê‡‚ª‚ ‚é‚æ‚¤‚Å‚·B‚±‚Ìê‡‚É‚Í Ž©ƒzƒXƒg–¼‚ðƒhƒƒCƒ“•t‚«ƒzƒXƒg–¼‚É•Ï‚¦‚Ä‚â‚ê‚Î—Ç‚¢‚Å‚·BƒvƒƒpƒeƒB‚ÉƒzƒXƒg–¼‚ðƒZƒbƒg‚·‚é‚ÆA‚±‚Ì–â‘è‚ð‰ñ”ð‚Å‚«‚é‚æ‚¤‚Å‚·B(‚½‚¾‚µAŽ„‚ÍŽèŒ³‚ÉÄŒ»ŠÂ‹«‚ª–³‚¢‚Ì‚ÅŠm”F‚ðŽæ‚Á‚Ä‚¢‚Ü‚¹‚ñ)</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½</FONT></P>
+<P>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½É‚ï¿½ï¿½ï¿½Ä‚ÍAï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BJavaMail ï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ÌƒRï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Ìƒzï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚ª
+ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½Ö‚ï¿½ HELLOï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½É‹ï¿½ï¿½Û‚ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ìê‡ï¿½É‚ï¿½ ï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½É•Ï‚ï¿½ï¿½Ä‚ï¿½ï¿½Î—Ç‚ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½pï¿½eï¿½Bï¿½Éƒzï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÍŽèŒ³ï¿½ÉÄŒï¿½ï¿½Â‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅŠmï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)</P>
 <UL>
-  <LI>mail.smtp.localhost ƒvƒƒpƒeƒB: ‚±‚±‚É ƒhƒƒCƒ“•t‚«ƒzƒXƒg–¼‚ðƒZƒbƒgB
+  <LI>mail.smtp.localhost ï¿½vï¿½ï¿½ï¿½pï¿½eï¿½B: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½B
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>•¶Žš‰»‚¯‘Îô</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ISO-2022-JP ‚ÉŠÖ˜A‚µ‚Ä•¶Žš‰»‚¯‚É‘˜‹ö‚·‚éê‡‚ª‚ ‚è‚Ü‚·BMicrosoft Outlook‚Æ“¯“™‚Ì‹““®‚ð‚Ç‚¤‚µ‚Ä‚àŽÀŒ»‚µ‚½‚¢A‚»‚¤‚¢‚Á‚½ê‡‚É‚ÍAISO-2022-JP
-‚ð x-windows-iso2022jp ‚Æ‚µ‚Ä JavaVM‚²‚Æ“®ì‚³‚¹‚é‚Æ‚¢‚¤r‹Z‚ª‚ ‚è‚Ü‚·B</P>
+<P>ISO-2022-JP ï¿½ÉŠÖ˜Aï¿½ï¿½ï¿½Ä•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BMicrosoft Outlookï¿½Æ“ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍAISO-2022-JP
+ï¿½ï¿½ x-windows-iso2022jp ï¿½Æ‚ï¿½ï¿½ï¿½ JavaVMï¿½ï¿½ï¿½Æ“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½rï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="ig070427.html">2007/04/27 “ú‹L: Java: Outlook •—‚Ì JISƒR[ƒh (ISO-2022-JP) ‚ð—˜—p‚·‚é‚½‚ß‚Ì x-windows-iso2022jp
-  ‚Æ‚¢‚¤ƒGƒ“ƒR[ƒfƒBƒ“ƒO</A>
+  <LI><A href="ig070427.html">2007/04/27 ï¿½ï¿½ï¿½L: Java: Outlook ï¿½ï¿½ï¿½ï¿½ JISï¿½Rï¿½[ï¿½h (ISO-2022-JP) ï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ x-windows-iso2022jp
+  ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½O</A>
 </UL>
-<P>‚±‚Ì•û–@‚ð„§‚µ‚Ä‚¢‚é‚í‚¯‚Å‚Í–³‚¢‚Å‚·B‚µ‚©‚µA¢‚Ì’†‚É‚Í ‚Ç‚¤‚µ‚Ä‚à Outlook‚Æ‹““®‚ð‡‚í‚¹‚½‚¢‚Æ‚¢‚¤ƒj[ƒY‚ªˆÓŠO‚É‘½‚¢‚æ‚¤‚È‚Ì‚Å‚·cB</P>
+<P>ï¿½ï¿½ï¿½Ì•ï¿½ï¿½@ï¿½ð„ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½í‚¯ï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ì’ï¿½ï¿½É‚ï¿½ ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ Outlookï¿½Æ‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½í‚¹ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½jï¿½[ï¿½Yï¿½ï¿½ï¿½ÓŠOï¿½É‘ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‚Ì‚Å‚ï¿½ï¿½cï¿½B</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>GNU GPLv3 “ú–{Œê–ó<BR>
+  <LI>GNU GPLv3 ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½<BR>
   <A HREF="http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237">http://opentechpress.jp/opensource/article.pl?sid=07/09/02/130237</A><BR>
-  GNU GNU General Public Licenseƒo[ƒWƒ‡ƒ“3 (GPLv3)‚Ì“ú–{Œê‘S–ó‚Æ‚Ì‚±‚Æ‚Å‚·B
+  GNU GNU General Public Licenseï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½3 (GPLv3)ï¿½Ì“ï¿½ï¿½{ï¿½ï¿½Sï¿½ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

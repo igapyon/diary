@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/08/03 “ú‹L: Java: XMLƒtƒ@ƒCƒ‹‚ðŒø—¦“I‚Éì¬‚·‚é•û–@ (SAX2ƒx[ƒX)</TITLE>
-<META name="DESCRIPTION" content="Xerces-J‚ÌÛ‚É—˜—p‚µ‚Ä‚¢‚½ContentHandlerƒx[ƒX‚É‚æ‚éXMLì¬•û–@‚Ì Java API”Å‚Ìƒƒ‚‚Å‚·B , ƒoƒŠƒEƒ€‚É‚Ä‚æ‚ê‚æ‚ê‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/08/03 ï¿½ï¿½ï¿½L: Java: XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Éì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (SAX2ï¿½xï¿½[ï¿½X)</TITLE>
+<META name="DESCRIPTION" content="Xerces-Jï¿½ÌÛ‚É—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ContentHandlerï¿½xï¿½[ï¿½Xï¿½É‚ï¿½ï¿½XMLï¿½ì¬ï¿½ï¿½ï¿½@ï¿½ï¿½ Java APIï¿½Å‚Ìƒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B , ï¿½oï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½É‚Ä‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/08/03 “ú‹L: Java: XMLƒtƒ@ƒCƒ‹‚ðŒø—¦“I‚Éì¬‚·‚é•û–@ (SAX2ƒx[ƒX)</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Xerces-J‚ÌÛ‚É—˜—p‚µ‚Ä‚¢‚½ContentHandlerƒx[ƒX‚É‚æ‚éXMLì¬•û–@‚Ì Java API”Å‚Ìƒƒ‚‚Å‚·B , ƒoƒŠƒEƒ€‚É‚Ä‚æ‚ê‚æ‚ê‚Å‚·B</P>
+    <H2>2005/08/03 ï¿½ï¿½ï¿½L: Java: XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Éì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (SAX2ï¿½xï¿½[ï¿½X)</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Xerces-Jï¿½ÌÛ‚É—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ContentHandlerï¿½xï¿½[ï¿½Xï¿½É‚ï¿½ï¿½XMLï¿½ì¬ï¿½ï¿½ï¿½@ï¿½ï¿½ Java APIï¿½Å‚Ìƒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B , ï¿½oï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½É‚Ä‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,12 +59,12 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XMLƒtƒ@ƒCƒ‹‚ðŒø—¦“I‚Éì¬‚·‚é•û–@ (SAX2ƒx[ƒX)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Éì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (SAX2ï¿½xï¿½[ï¿½X)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>XMLƒtƒ@ƒCƒ‹‚ðSAX2ƒx[ƒX‚ÅŒø—¦“I‚Éì¬‚·‚é•û–@‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B<BR>
-‚±‚±‚µ‚Î‚ç‚­ ‚±‚Ì•û–@‚ª•ª‚©‚ç‚¸‚ÉA‚¸[‚Á‚Æ‹C‚É‚È‚Á‚Ä‚¢‚½‚Ì‚Å‚·B‚æ‚¤‚â‚­¡“ú ‚í‚©‚è‚Ü‚µ‚½B</P>
+<P>XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½SAX2ï¿½xï¿½[ï¿½Xï¿½ÅŒï¿½ï¿½ï¿½ï¿½Iï¿½Éì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚ç‚­ ï¿½ï¿½ï¿½Ì•ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚¸ï¿½ÉAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Æ‹Cï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½æ‚¤ï¿½â‚­ï¿½ï¿½ï¿½ï¿½ ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -78,8 +78,8 @@
     <TR>
       <TD>
       <pre>/*
- * ”ñí‚ÉƒVƒ“ƒvƒ‹‚ÅŒø—¦“I‚È SAX2ƒ‰ƒCƒ^[Eƒnƒ“ƒhƒ‰
- * Copyright (C) 2005 ‚¢‚ª‚Ò‚å‚ñ
+ * ï¿½ï¿½ï¿½ÉƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÅŒï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ SAX2ï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½Eï¿½nï¿½ï¿½ï¿½hï¿½ï¿½
+ * Copyright (C) 2005 ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½
  */
 
 import java.io.FileNotFoundException;
@@ -95,8 +95,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.AttributesImpl;
 
 /**
- * ”ñí‚ÉƒVƒ“ƒvƒ‹‚ÈSAX2ƒnƒ“ƒhƒ‰Eƒ‰ƒCƒ^[ &lt;br&gt;
- * ƒƒ‚ƒŠŒø—¦—Ç‚­XMLƒtƒ@ƒCƒ‹‚ðSAXƒx[ƒX‚Åì¬‚·‚éÛ‚É•K—v‚É‚È‚é•û–@‚Å‚·B
+ * ï¿½ï¿½ï¿½ÉƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½SAX2ï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Cï¿½^ï¿½[ &lt;br&gt;
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½SAXï¿½xï¿½[ï¿½Xï¿½Åì¬ï¿½ï¿½ï¿½ï¿½Û‚É•Kï¿½vï¿½É‚È‚ï¿½ï¿½ï¿½@ï¿½Å‚ï¿½ï¿½B
  * 
  * @author Tosiki Iga 2005.08.03
  */
@@ -107,7 +107,7 @@ public class SimpleSaxWriter {
         TransformerFactory tf = TransformerFactory.newInstance();
         SAXTransformerFactory saxTf = (SAXTransformerFactory) tf;
         TransformerHandler saxHandler = saxTf.newTransformerHandler();
-        saxHandler.setResult(new StreamResult(new FileOutputStream(&quot;‚í[‚­.xml&quot;)));
+        saxHandler.setResult(new StreamResult(new FileOutputStream(&quot;ï¿½ï¿½[ï¿½ï¿½.xml&quot;)));
 
         saxHandler.startDocument();
         AttributesImpl attributes = new AttributesImpl();
@@ -130,7 +130,7 @@ public class SimpleSaxWriter {
         attributes.addAttribute(&quot;http://www.w3.org/2000/xmlns/&quot;, &quot;xmlns&quot;,
                 &quot;xmlns&quot;, &quot;CDATA&quot;, &quot;&quot;);
         saxHandler.startElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;, attributes);
-        char[] charMsg = &quot;‚±‚ñ‚É‚¿‚Í&quot;.toCharArray();
+        char[] charMsg = &quot;ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½&quot;.toCharArray();
         saxHandler.characters(charMsg, 0, charMsg.length);
         saxHandler.endElement(&quot;&quot;, &quot;arg1&quot;, &quot;arg1&quot;);
         attributes = new AttributesImpl();
@@ -152,32 +152,32 @@ public class SimpleSaxWriter {
     </TR>
   </TBODY>
 </TABLE>
-¦<FONT color="#ff0000">2005.08.11’Ç‹L</FONT> .translate()‚ð—˜—p‚µ‚È‚¢‚Ì‚ÅAÅŒã‚Éƒ‰ƒCƒ^[‚ð–¾Ž¦“I‚ÉƒNƒ[ƒY‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B‚±‚Ì–â‘è‚Íã‹LƒR[ƒh‚É–¢”½‰f‚Å‚·B</BLOCKQUOTE>
-<P>‚±‚ÌSAX2ƒnƒ“ƒhƒ‰‚É‚æ‚éXMLì¬•û–@‚Í”ñí‚É‘åŽ–‚È‚à‚Ì‚Å‚·B­‚È‚­‚Æ‚àŽ„‚É‚Æ‚Á‚Ä‚Íd—v‚È”­Œ©‚Å‚µ‚½B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒŠƒ\[ƒX</FONT></P>
+ï¿½ï¿½<FONT color="#ff0000">2005.08.11ï¿½Ç‹L</FONT> .translate()ï¿½ð—˜—pï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅAï¿½ÅŒï¿½Éƒï¿½ï¿½Cï¿½^ï¿½[ï¿½ð–¾Žï¿½ï¿½Iï¿½ÉƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì–ï¿½ï¿½Íï¿½Lï¿½Rï¿½[ï¿½hï¿½É–ï¿½ï¿½ï¿½ï¿½fï¿½Å‚ï¿½ï¿½B</BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ï¿½SAX2ï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½É‚ï¿½ï¿½XMLï¿½ì¬ï¿½ï¿½ï¿½@ï¿½Í”ï¿½ï¿½É‘åŽ–ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Ídï¿½vï¿½È”ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding" TITLE="XML¨ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒgƒ}ƒbƒsƒ“ƒO‚ð‚¨‚±‚È‚¤‚½‚ß‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B">blancoXmlBinding</A><BR>
-  ‚±‚ÌƒTƒ“ƒvƒ‹‚ð”­“W‚³‚¹‚½“à—e‚Ì XML ˆ—ƒ‰ƒCƒuƒ‰ƒŠB
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding" TITLE="XMLï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ß‚Ìƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">blancoXmlBinding</A><BR>
+  ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ð”­“Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ XML ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig050802.html">2005/08/02 “ú‹L: ‚¤‚»SOAPƒT[ƒoEƒT[ƒuƒŒƒbƒgŽÀŒ»«‚Ì–Íõ</A>
+  <LI><A href="ig050802.html">2005/08/02 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½ï¿½SOAPï¿½Tï¿½[ï¿½oï¿½Eï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì–Íï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Œ’Nf’fƒoƒŠƒEƒ€Œø‰Ê</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Nï¿½fï¿½fï¿½oï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Œ’Nf’f‚ÅƒoƒŠƒEƒ€‚ð’¸‚«‚Ü‚µ‚½B<BR>
-ƒoƒŠƒEƒ€‚ÌŒã‚É‚¢‚½‚¾‚­ ‚Æ‚ ‚éùÜ‚ÌŒø‰Ê‚ª”²ŒQ‚Å‚µ‚ÄA¡“ú‚Í ‚à‚¤ƒ_ƒ‚Á‚Û‚¢‚Å‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½Nï¿½fï¿½fï¿½Åƒoï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ð’¸‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½oï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ÌŒï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ÌŒï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½Qï¿½Å‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2004/ig040519.html">2004/05/19 “ú‹L: FindBugs 0.7.3 ƒŠƒŠ[ƒX , “ú–{Œê‰»ƒpƒbƒ`‚ª•Ê“r’ñ‹Ÿ</A>
+  <LI><A href="../2004/ig040519.html">2004/05/19 ï¿½ï¿½ï¿½L: FindBugs 0.7.3 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½pï¿½bï¿½`ï¿½ï¿½ï¿½Ê“rï¿½ï¿½</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

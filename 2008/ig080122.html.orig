@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/01/22 “ú‹L: ƒ\ƒtƒgƒEƒFƒAŠJ”­‚ÉuHŽ–isŠî€v‚ð“±“üH , Eclipse 3.3—p‚Ì Language Pack</TITLE>
-<META name="DESCRIPTION" content="‹Zp•]˜_ŽÐ Engineer Mind Vol.8 ‚Ì p36‚ÉASI¿•‰ŠJ”­‚ÉuHŽ–isŠî€v‚ª 2009”N4ŒŽ‚©‚ç“K—p‚³‚ê‚é‚±‚Æ‚É‚È‚Á‚½‚Æ‹LÚ‚ª‚ ‚è‚Ü‚µ‚½B , blancoSvnConf‚Ìà–¾ƒy[ƒW‚ðì¬B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,HŽ–isŠî€">
+<TITLE>2008/01/22 ï¿½ï¿½ï¿½L: ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ð“±“ï¿½ï¿½H , Eclipse 3.3ï¿½pï¿½ï¿½ Language Pack</TITLE>
+<META name="DESCRIPTION" content="ï¿½Zï¿½pï¿½]ï¿½_ï¿½ï¿½ Engineer Mind Vol.8 ï¿½ï¿½ p36ï¿½ÉASIï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ï¿½ 2009ï¿½N4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , blancoSvnConfï¿½Ìï¿½ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ì¬ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/01/22 “ú‹L: ƒ\ƒtƒgƒEƒFƒAŠJ”­‚ÉuHŽ–isŠî€v‚ð“±“üH , Eclipse 3.3—p‚Ì Language Pack</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,HŽ–isŠî€] ‹Zp•]˜_ŽÐ Engineer Mind Vol.8 ‚Ì p36‚ÉASI¿•‰ŠJ”­‚ÉuHŽ–isŠî€v‚ª 2009”N4ŒŽ‚©‚ç“K—p‚³‚ê‚é‚±‚Æ‚É‚È‚Á‚½‚Æ‹LÚ‚ª‚ ‚è‚Ü‚µ‚½B , blancoSvnConf‚Ìà–¾ƒy[ƒW‚ðì¬B</P>
+    <H2>2008/01/22 ï¿½ï¿½ï¿½L: ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ð“±“ï¿½ï¿½H , Eclipse 3.3ï¿½pï¿½ï¿½ Language Pack</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€] ï¿½Zï¿½pï¿½]ï¿½_ï¿½ï¿½ Engineer Mind Vol.8 ï¿½ï¿½ p36ï¿½ÉASIï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ï¿½ 2009ï¿½N4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , blancoSvnConfï¿½Ìï¿½ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ì¬ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,52 +60,52 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒ\ƒtƒgƒEƒFƒAŠJ”­‚ÉuHŽ–isŠî€v‚ð“±“üH</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ð“±“ï¿½ï¿½H</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹Zp•]˜_ŽÐ Engineer Mind Vol.8 ‚Ì p36‚ÉASI¿•‰ŠJ”­‚ÉuHŽ–isŠî€v‚ª 2009”N4ŒŽ‚©‚ç“K—p‚³‚ê‚é‚±‚Æ‚É‚È‚Á‚½‚Æ‹LÚ‚ª‚ ‚è‚Ü‚µ‚½B<BR>
-’Pƒ‚ÉŠÇ—ƒRƒXƒg‘‚É‚È‚éƒŠƒXƒN‚ª—eˆÕ‚É—\Œ©‚³‚ê‚Ü‚·B­‚µ‚¸‚Â ‚±‚Ì•ÏX‚Ì‰e‹¿“à—e‚ð’²‚×‚Ä‚¨‚±‚¤‚ÆŽv‚¢‚Ü‚·B</P>
+<P>ï¿½Zï¿½pï¿½]ï¿½_ï¿½ï¿½ Engineer Mind Vol.8 ï¿½ï¿½ p36ï¿½ÉASIï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Éuï¿½Hï¿½ï¿½ï¿½iï¿½sï¿½î€ï¿½vï¿½ï¿½ 2009ï¿½N4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Pï¿½ï¿½ï¿½ÉŠÇ—ï¿½ï¿½Rï¿½Xï¿½gï¿½ï¿½ï¿½É‚È‚éƒŠï¿½Xï¿½Nï¿½ï¿½ï¿½eï¿½Õ‚É—\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì•ÏXï¿½Ì‰eï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ð’²‚×‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>SubversionƒŠƒ|ƒWƒgƒŠ’è‹`‚ÌÝ’èƒtƒ@ƒCƒ‹‚ð ExcelƒuƒbƒN‚©‚çŽ©“®¶¬‚·‚é blancoSvnConf</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Subversionï¿½ï¿½ï¿½|ï¿½Wï¿½gï¿½ï¿½ï¿½ï¿½`ï¿½ÌÝ’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½çŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoSvnConf</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>SubversionƒŠƒ|ƒWƒgƒŠ’è‹`‚ÌÝ’èƒtƒ@ƒCƒ‹‚ð ExcelƒuƒbƒN‚©‚çŽ©“®¶¬‚·‚é <A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="uSubversionƒŠƒ|ƒWƒgƒŠ’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚ð“ü—Í‚µ‚ÄASubversionÝ’èƒtƒ@ƒCƒ‹‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSvnConf</A>
-‚Ìà–¾ Webƒy[ƒW‚ðì¬‚µ‚Ü‚µ‚½B</P>
+<P>Subversionï¿½ï¿½ï¿½|ï¿½Wï¿½gï¿½ï¿½ï¿½ï¿½`ï¿½ÌÝ’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ Excelhttps://www.igapyon.jp/A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="ï¿½uSubversionï¿½ï¿½ï¿½|ï¿½Wï¿½gï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄASubversionï¿½Ý’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSvnConf</A>
+ï¿½Ìï¿½ï¿½ï¿½ Webï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="uSubversionƒŠƒ|ƒWƒgƒŠ’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚ð“ü—Í‚µ‚ÄASubversionÝ’èƒtƒ@ƒCƒ‹‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSvnConf</A>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancosvnconf.html" TITLE="ï¿½uSubversionï¿½ï¿½ï¿½|ï¿½Wï¿½gï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄASubversionï¿½Ý’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSvnConf</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.3 —p‚Ì Language Pack</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse 3.3 ï¿½pï¿½ï¿½ Language Pack</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‘‚­“oê‚µ‚Ä—~‚µ‚¢‚Å‚·B‚ÆŽv‚¢ ƒCƒ“ƒ^[ƒlƒbƒgŒŸõ‚µ‚½‚Æ‚±‚ëA‰º‹L‚Ìƒy[ƒW‚És‚«’…‚«‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ê‚µï¿½Ä—~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ÆŽvï¿½ï¿½ ï¿½Cï¿½ï¿½ï¿½^ï¿½[ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Lï¿½Ìƒyï¿½[ï¿½Wï¿½Ésï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>eclipse BUGS: Provide Language Packs for Eclipse 3.3<BR>
   <A href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=205732">http://bugs.eclipse.org/bugs/show_bug.cgi?id=205732</A>
 </UL>
-<P>‚»‚µ‚Ä Eclipse Babel Project ‚És‚«’…‚«‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse Babel Project ï¿½Ésï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Eclipse Babel Project<BR>
   <A HREF="http://www.eclipse.org/babel/">http://www.eclipse.org/babel/</A>
 </UL>
-<P>‚±‚Ìƒy[ƒW‚©‚ç download ƒy[ƒW‚És‚Á‚½‚Æ‚±‚ë‚É‚ ‚éARemo Lotsche‚³‚ñ‚Æ‚¢‚¤•û‚ªƒ|ƒXƒg‚³‚ê‚½ NL_Fragments_Eclipse_3_3.zip
-‚Æ‚¢‚¤ƒpƒbƒ`‚É‹»–¡‚ðŠ´‚¶‚Ü‚µ‚½B‚±‚ê‚ðƒx[ƒX‚É “ú–{Œê‰»‚ªŽÀŒ»‚Å‚«‚é‚Ì‚Å‚Í–³‚¢‚©‚Æl‚¦‚ç‚ê‚é‚©‚ç‚Å‚·B</P>
-<P><FONT color="#ff0000">2008.01.23’Ç‹L</FONT> ‚»‚¤‚Å‚Í‚È‚­‚Ä Eclipse Babel‚Ì“®‚«‚ð’Ç‚Á‚Ä‚¢‚½•û‚ª—Ç‚¢‚æ‚¤‚È‹C‚à‚µ‚Ä‚«‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ download ï¿½yï¿½[ï¿½Wï¿½Ésï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ARemo Lotscheï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½Xï¿½gï¿½ï¿½ï¿½ê‚½ NL_Fragments_Eclipse_3_3.zip
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½`ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½ ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2008.01.23ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ Eclipse Babelï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig080131.html">2008/01/31 “ú‹L: Eclipse SDK 3.3.1.1—p “ú–{Œê‰»Œ¾ŒêƒpƒbƒN (ƒT[ƒhƒp[ƒeƒB”Å) ƒ¿”ÅƒŠƒŠ[ƒX</A>
-  <LI><A href="ig080130.html">2008/01/30 “ú‹L: blancoEclipseBabel ‚É‚æ‚é Eclipse 3.3.1.1 “ú–{Œê‰»ƒpƒbƒN‚ÌŽ©“®¶¬</A>
-  <LI><A href="ig080129.html">2008/01/29 “ú‹L: blancoEclipseBabel ƒvƒƒWƒFƒNƒg‚ÌŽŽì</A>
+  <LI><A href="ig080131.html">2008/01/31 ï¿½ï¿½ï¿½L: Eclipse SDK 3.3.1.1ï¿½p ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½N (ï¿½Tï¿½[ï¿½hï¿½pï¿½[ï¿½eï¿½Bï¿½ï¿½) ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
+  <LI><A href="ig080130.html">2008/01/30 ï¿½ï¿½ï¿½L: blancoEclipseBabel ï¿½É‚ï¿½ï¿½ Eclipse 3.3.1.1 ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½pï¿½bï¿½Nï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>
+  <LI><A href="ig080129.html">2008/01/29 ï¿½ï¿½ï¿½L: blancoEclipseBabel ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ÌŽï¿½ï¿½ï¿½</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

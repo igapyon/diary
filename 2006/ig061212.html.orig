@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/12/12 “ú‹L: Sun Java SE 6 (JDK 1.6) ƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="Sun Java SE 6 (JDK 1.6) ‚ª³Ž®ƒŠƒŠ[ƒX‚Å‚·B , blanco Framework ‚Í ¡Œã‚Æ‚à ‚µ‚Î‚ç‚­‚ÌŠÔ‚Í Sun JDK 1.4.2 ‚ðƒrƒ‹ƒhŠÂ‹«‚Æ‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,JDK,SE,6,1.6">
+<TITLE>2006/12/12 ï¿½ï¿½ï¿½L: Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B , blanco Framework ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ÌŠÔ‚ï¿½ Sun JDK 1.4.2 ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,JDK,SE,6,1.6">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/12/12 “ú‹L: Sun Java SE 6 (JDK 1.6) ƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,JDK,SE,6,1.6] Sun Java SE 6 (JDK 1.6) ‚ª³Ž®ƒŠƒŠ[ƒX‚Å‚·B , blanco Framework ‚Í ¡Œã‚Æ‚à ‚µ‚Î‚ç‚­‚ÌŠÔ‚Í Sun JDK 1.4.2 ‚ðƒrƒ‹ƒhŠÂ‹«‚Æ‚µ‚Ü‚·B</P>
+    <H2>2006/12/12 ï¿½ï¿½ï¿½L: Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,JDK,SE,6,1.6] Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B , blanco Framework ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ÌŠÔ‚ï¿½ Sun JDK 1.4.2 ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,73 +59,73 @@
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java SE 6 (JDK 1.6) ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Sun Java SE 6 (JDK 1.6) ‚ª³Ž®ƒŠƒŠ[ƒX‚Å‚·B</P>
+<P>Sun Java SE 6 (JDK 1.6) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://java.sun.com/javase/6/">http://java.sun.com/javase/6/</A>
 </UL>
-<P>VƒŠƒŠ[ƒX‚ª–³Ž–‚ÉƒŠƒŠ[ƒX‚³‚ê‚½‚±‚Æ‚ð ‚Æ‚Ä‚àŠð‚µ‚­Žv‚¢‚Ü‚·BƒŠƒŠ[ƒXƒm[ƒg‚ðŒ©‚½‚Æ‚±‚ëA’n–¡‚¾‚¯‚ê‚Ç‘åØ‚È‹@”\‹­‰»‚Ì”X‚ªŽÀŽ{‚³‚ê‚Ä‚¢‚é‚à‚ÌŠ´‚¶‚Ü‚µ‚½B</P>
+<P>ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½mï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‘ï¿½Ø‚È‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ÌŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>MYCOMƒWƒƒ[ƒiƒ‹: SunAJava SE 6³Ž®ƒŠƒŠ[ƒX<BR>
+  <LI>MYCOMï¿½Wï¿½ï¿½ï¿½[ï¿½iï¿½ï¿½: Sunï¿½AJava SE 6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X<BR>
   <A HREF="http://journal.mycom.co.jp/news/2006/12/12/340.html">http://journal.mycom.co.jp/news/2006/12/12/340.html</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒŠƒ\[ƒX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
-  <LI><A href="http://itpro.nikkeibp.co.jp/article/COLUMN/20060929/249350/">“úŒoBP: ITPro: uJava SE 6Š®‘SU—ªv: ‘æ1‰ñ Java SE 6 Hard Days Night</A><BR>via <A href="http://javanews.jp/">JavaNews.jp</A>BJava / JDK ŠÖ˜A‚Ì‹LŽ–‚Å—L–¼‚È<A href="http://www.javainthebox.net/">ŸN’ë—Sˆê</A>‚³‚ñ‚ÌŽè‚É‚æ‚é‹LŽ–BƒpƒtƒH[ƒ}ƒ“ƒXƒvƒƒtƒ@ƒCƒ‹Œn‚Ì‹Lq‚à–L•x‚É‚ ‚è Ž„‚ÍŠ´“®‚µ‚Ü‚µ‚½B‚±‚Ì‹LŽ–‚ð“Ç‚ñ‚Å ¡‚·‚® Java SE 6 (JDK
-  1.6) ‚ðŽg‚¢‚½‚¢‹CŽ‚¿‚Å‚¢‚Á‚Ï‚¢‚É‚È‚è‚Ü‚µ‚½B(<FONT color="#ff0000">2006.12.16’Ç‹L</FONT>)
+  <LI><A href="http://itpro.nikkeibp.co.jp/article/COLUMN/20060929/249350/">ï¿½ï¿½ï¿½oBP: ITPro: ï¿½uJava SE 6ï¿½ï¿½ï¿½Sï¿½Uï¿½ï¿½ï¿½v: ï¿½ï¿½1ï¿½ï¿½ Java SE 6 Hard Days Night</A><BR>via <A href="http://javanews.jp/">JavaNews.jp</A>ï¿½BJava / JDK ï¿½Ö˜Aï¿½Ì‹Lï¿½ï¿½ï¿½Å—Lï¿½ï¿½ï¿½ï¿½<A href="http://www.javainthebox.net/">ï¿½Nï¿½ï¿½Sï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½Lï¿½ï¿½ï¿½Bï¿½pï¿½tï¿½Hï¿½[ï¿½}ï¿½ï¿½ï¿½Xï¿½vï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½nï¿½Ì‹Lï¿½qï¿½ï¿½ï¿½Lï¿½xï¿½É‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÍŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Java SE 6 (JDK
+  1.6) ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(<FONT color="#ff0000">2006.12.16ï¿½Ç‹L</FONT>)
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework‚Í ¡Œã‚Æ‚à‚µ‚Î‚ç‚­‚ÌŠÔ‚Í Sun JDK 1.4.2‚ðƒrƒ‹ƒhŠÂ‹«‚Æ‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ÌŠÔ‚ï¿½ Sun JDK 1.4.2ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Í ¡Œã‚Æ‚à ‚µ‚Î‚ç‚­‚ÌŠÔ‚Í Sun JDK 1.4.2 ‚ðƒrƒ‹ƒhŠÂ‹«‚Æ‚µ‚Ü‚·BŠJ”­ì‹Æ‚È‚Ç‚Í JDK 1.5 ‚â JDK 1.6‚È‚Ç‚ÅŽÀŽ{‚·‚é‰Â”\«‚ª‚‚¢‚Æ‚ÍŽv‚¢‚Ü‚·‚ªAÅI“I‚ÈƒŠƒŠ[ƒXƒ‚ƒWƒ…[ƒ‹‚Ìƒrƒ‹ƒhŠÂ‹«‚Í ¡Œã‚Æ‚àˆø‚«‘±‚« JDK 1.4.2 ‚Æ‚µ‘±‚¯‚é—\’è‚Å‚·BƒŠƒŠ[ƒXŠÂ‹«‚ð JDK 1.4.2 ‚Æ’è‚ß‚é‚±‚Æ‚É‚æ‚èAJDK 1.4.2‚ÅƒRƒ“ƒpƒCƒ‹‚¨‚æ‚ÑŽÀs‚ª‚Å‚«‚é‚±‚Æ‚ð•ÛØ‚Å‚«‚é‚±‚Æ‚Æ‚È‚èAƒƒŠƒbƒg‚Í‘å‚«‚¢‚Æl‚¦‚Ä‚¢‚Ü‚·B‚Ü‚½A¢‚ÌƒVƒXƒeƒ€ŠJ”­‚Ì‘½‚­‚ª JDK 1.4.2ƒx[ƒX‚ÅŽÀŽ{‚³‚ê‚Ä‚¢‚éŽÀî‚à”½‰f‚Å‚«‚Ä‚¢‚é‚Æl‚¦‚Ä‚¢‚Ü‚·B</P>
-<P>AAAÅ‚à‘å‚«‚È——R‚Ì‚Ð‚Æ‚Â‚Æ‚µ‚ÄAŽ„‚ª JDK 1.5ˆÈ~‚ÅŠg’£‚³‚ê‚½Œ¾ŒêŽd—l‚É ‚Ù‚Æ‚ñ‚Ç“éõ‚ß‚Ä‚¢‚È‚¢‚±‚Æ‚ª‹“‚°‚ç‚ê‚é‚©‚à’m‚ê‚Ü‚¹‚ñc (‹êÎ)<BR>
-‚Ü‚  Ž„‚ª JDK 1.5ˆÈ~‚ÌŠg’£Œ¾ŒêŽd—l‚ÉŠµ‚ê‚é‚©‚Ç‚¤‚©‚Í‚³‚Ä‚¨‚«A¢‚ÌƒVƒXƒeƒ€ŠJ”­‚Å JDK 1.4.2‚ª ‚Ù‚Æ‚ñ‚Ç—˜—p‚³‚ê‚È‚­‚È‚é‚Ü‚ÅAblanco
-Framework‚ÌÅIƒrƒ‹ƒhŠÂ‹«‚Í JDK 1.4.2‚Å‚ ‚è‘±‚¯‚é‰Â”\«‚ª‚‚¢‚Å‚·B(‚ß‚â‚·‚Æ‚µ‚ÄA‚³‚ç‚ÉŽŸ‚Ì JDK ƒƒWƒƒ[ƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚ª
-‚Ð‚Æ‚Â‚ÌƒtƒVƒ‚É‚È‚é‚æ‚¤‚È‹C‚ª‚µ‚Ü‚·B)</P>
-<P>‚¿‚È‚Ý‚É Ž„‚ª JDK 1.5 ‚Å‘‚¦‚½Žd—l‚Ì‚È‚©‚ÅA‚Æ‚Ñ‚Ê‚¯‚Ä—˜—p‚µ‚½‚¢–£—Í‚ÌŽd—l‚Í uThrowable causev‚Ìˆø”‚ª’Ç‰Á‚³‚ê‚½
-IllegalArgumentException‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ÌŠÔ‚ï¿½ Sun JDK 1.4.2 ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Jï¿½ï¿½ï¿½ï¿½Æ‚È‚Ç‚ï¿½ JDK 1.5 ï¿½ï¿½ JDK 1.6ï¿½È‚Ç‚ÅŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÍŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ÅIï¿½Iï¿½Èƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ìƒrï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JDK 1.4.2 ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Â‹ï¿½ï¿½ï¿½ JDK 1.4.2 ï¿½Æ’ï¿½ß‚é‚±ï¿½Æ‚É‚ï¿½ï¿½AJDK 1.4.2ï¿½ÅƒRï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑŽï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ÛØ‚Å‚ï¿½ï¿½é‚±ï¿½Æ‚Æ‚È‚ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½bï¿½gï¿½Í‘å‚«ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ JDK 1.4.2ï¿½xï¿½[ï¿½Xï¿½ÅŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Aï¿½Aï¿½Aï¿½Å‚ï¿½ï¿½å‚«ï¿½È—ï¿½ï¿½Rï¿½Ì‚Ð‚Æ‚Â‚Æ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ JDK 1.5ï¿½È~ï¿½ÅŠgï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½ ï¿½Ù‚Æ‚ï¿½Ç“ï¿½ï¿½ï¿½ß‚Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½c (ï¿½ï¿½ï¿½)<BR>
+ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½ï¿½ JDK 1.5ï¿½È~ï¿½ÌŠgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ÉŠï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ JDK 1.4.2ï¿½ï¿½ ï¿½Ù‚Æ‚ï¿½Ç—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½Ü‚ÅAblanco
+Frameworkï¿½ÌÅIï¿½rï¿½ï¿½ï¿½hï¿½Â‹ï¿½ï¿½ï¿½ JDK 1.4.2ï¿½Å‚ï¿½ï¿½è‘±ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B(ï¿½ß‚â‚·ï¿½Æ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ JDK ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½
+ï¿½Ð‚Æ‚Â‚Ìƒtï¿½Vï¿½ï¿½ï¿½É‚È‚ï¿½æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B)</P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚ï¿½ ï¿½ï¿½ï¿½ï¿½ JDK 1.5 ï¿½Å‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½Ì‚È‚ï¿½ï¿½ÅAï¿½Æ‚Ñ‚Ê‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ÌŽdï¿½lï¿½ï¿½ ï¿½uThrowable causeï¿½vï¿½Ìˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ê‚½
+IllegalArgumentExceptionï¿½ÌƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/lang/IllegalArgumentException.html#IllegalArgumentException(java.lang.String,%20java.lang.Throwable)">java.lang.IllegalArgumentException</A>
 </UL>
-<P>‚ ‚ AŽ„‚É‚Æ‚Á‚Ä Å‘å‚Ì–£—Í‚Ì JDK 1.5 V‹@”\‚Í IllegalArgumentException ‚Ì ‚±‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚È‚Ì‚Å‚· (!)
-‚µ‚©‚µ ¢‚ÌƒVƒXƒeƒ€ŠJ”­Œ»ê‚©‚ç JDK 1.4.2‚Ì—˜—p‚ªŽå—¬‚Å‚È‚­‚È‚é‚Ü‚ÅA‚±‚Ì–£—Í‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Ì—˜—p‚Í‰ä–‚Å‚· (‹êÎ)</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½ï¿½ ï¿½Å‘ï¿½Ì–ï¿½ï¿½Í‚ï¿½ JDK 1.5 ï¿½Vï¿½@ï¿½\ï¿½ï¿½ IllegalArgumentException ï¿½ï¿½ ï¿½ï¿½ï¿½ÌƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½È‚Ì‚Å‚ï¿½ (!)
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ JDK 1.4.2ï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½å—¬ï¿½Å‚È‚ï¿½ï¿½È‚ï¿½Ü‚ÅAï¿½ï¿½ï¿½Ì–ï¿½ï¿½Í‚ÌƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Ì—ï¿½ï¿½pï¿½Í‰ä–ï¿½Å‚ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2008/ig080318.html">2008/03/18 “ú‹L: blanco Framework ‚Í Java SDK 1.5.0 ‚ÉˆÚs‚µ‚Ü‚·</A>
-  <LI><A href="../2007/ig070808.html">2007/08/08 “ú‹L: Java: ƒTƒ“ƒvƒ‹: •¡”‚ÌƒXƒŒƒbƒh‚Ì‹¦’²“®ì</A>
+  <LI><A href="../2008/ig080318.html">2008/03/18 ï¿½ï¿½ï¿½L: blanco Framework ï¿½ï¿½ Java SDK 1.5.0 ï¿½ÉˆÚsï¿½ï¿½ï¿½Ü‚ï¿½</A>
+  <LI><A href="../2007/ig070808.html">2007/08/08 ï¿½ï¿½ï¿½L: Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒXï¿½ï¿½ï¿½bï¿½hï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework‚Í ˆê•”‚Ìƒvƒƒ_ƒNƒg‚ÉŒÀ‚Á‚Ä Eclipse 3.1ˆÈ~‚ðƒ^[ƒQƒbƒgŠÂ‹«‚Æ‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkï¿½ï¿½ ï¿½ê•”ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ÉŒï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse 3.1ï¿½È~ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Ì Eclipseƒvƒ‰ƒOƒCƒ“‚Í Šî–{“I‚É Eclipse 3.0ˆÈ~‚Å‚Ì“®ì‚ðƒ^[ƒQƒbƒg‚Æ‚µ‚Ä‚¢‚Ü‚·‚ªAˆê•”‚Ìƒvƒƒ_ƒNƒg‚ÉŒÀ‚Á‚Ä
-Eclipse 3.1ˆÈ~‚ðƒ^[ƒQƒbƒgŠÂ‹«‚Æ‚µ‚Ü‚·B‚Ù‚Æ‚ñ‚Ç‚Ì Eclipseƒvƒ‰ƒOƒCƒ“‚Í blanco Framework‚É‚æ‚Á‚Äƒ\[ƒXƒR[ƒh‚Ì‘å”¼‚ÍŽ©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B‚±‚ê‚ç‚Ìƒvƒƒ_ƒNƒg‚Í
-ˆø‚«‘±‚« Eclipse 3.0ˆÈ~‚ðƒ^[ƒQƒbƒgŠÂ‹«‚Æ‚µ‚Ü‚·B‚Æ‚±‚ë‚ª ‚²‚­ˆê•”‚Ì Eclipseƒvƒ‰ƒOƒCƒ“‚ÍA‚Î‚è‚Î‚èUIƒR[ƒfƒBƒ“ƒO‚ð”º‚¢‚Ü‚·B‚±‚ê‚ç‚Í
-Eclipse 3.0‚ðƒTƒ|[ƒg‚·‚é‚±‚Æ‚É‚æ‚éƒfƒƒŠƒbƒg‚ª‘å‚«‚¢‚Æ”»’f‚µ ƒ^[ƒQƒbƒg‚ð Eclipse 3.1ˆÈ~‚Æ‚·‚é‚à‚Ì‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½{ï¿½Iï¿½ï¿½ Eclipse 3.0ï¿½È~ï¿½Å‚Ì“ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ê•”ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ÉŒï¿½ï¿½ï¿½ï¿½ï¿½
+Eclipse 3.1ï¿½È~ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ù‚Æ‚ï¿½Ç‚ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ blanco Frameworkï¿½É‚ï¿½ï¿½ï¿½Äƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì‘å”¼ï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse 3.0ï¿½È~ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Â‹ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ª ï¿½ï¿½ï¿½ï¿½ï¿½ê•”ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ÍAï¿½Î‚ï¿½Î‚ï¿½UIï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ð”º‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Eclipse 3.0ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½ï¿½ Eclipse 3.1ï¿½È~ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>LinuxƒJ[ƒlƒ‹ƒ\[ƒXƒcƒŠ[‚ÉPS3—pƒR[ƒh‚ªŠÜ‚Ü‚ê‚éŽž‘ã</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Linuxï¿½Jï¿½[ï¿½lï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½cï¿½ï¿½ï¿½[ï¿½ï¿½PS3ï¿½pï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ü‚Ü‚ï¿½éŽžï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>LinuxƒJ[ƒlƒ‹ƒ\[ƒXƒcƒŠ[‚É SONY‚Ý‚¸‚©‚ç‚ÌŽè‚É‚æ‚é u–{‰Æ‚Ìv PlayStation 3 —p ƒ\[ƒXƒR[ƒh‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é‚Ì‚Å‚·‚Á‚ÄcB‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B¢‚ÍƒI[ƒvƒ“ƒ\[ƒX‚ÌŽž‘ã‚È‚Ì‚Å‚·‚ËcB</P>
+<P>Linuxï¿½Jï¿½[ï¿½lï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½cï¿½ï¿½ï¿½[ï¿½ï¿½ SONYï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ ï¿½uï¿½{ï¿½Æ‚Ìv PlayStation 3 ï¿½p ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ü‚Ü‚ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Äcï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÍƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÌŽï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½Ëcï¿½B</P>
 <UL>
-  <LI>LinuxƒJ[ƒlƒ‹‚ÉPS3—pƒR[ƒh‚ª“o˜^<BR>
+  <LI>Linuxï¿½Jï¿½[ï¿½lï¿½ï¿½ï¿½ï¿½PS3ï¿½pï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½oï¿½^<BR>
   <A HREF="http://journal.mycom.co.jp/news/2006/12/07/360.html">http://journal.mycom.co.jp/news/2006/12/07/360.html</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

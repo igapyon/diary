@@ -63,7 +63,7 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A href="ig051112.html">つい先日 β版として公開させていただいた</A> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に早速バグが見つかりました。</P>
+<P><A href="ig051112.html">つい先日 β版として公開させていただいた</A> <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に早速バグが見つかりました。</P>
 
 <UL>
   <LI>プログラマとSEのあいだ<BR>
@@ -73,12 +73,12 @@
 の名前変形ルーチンにバグが入っていたことでした。アンダーバーを含まない大文字だけで構成された列名があるばあいに、名前変形がうまく働いてくれないメソッドがありました。(さらに問題なことは
 それら名前変換メソッドが２個実装されていたことです) 次回リリース (1.4.0系)に向けて 名前変形に関して大幅な整理をおこなったのですが、その過程でバグを作り込んでしまいました。加えて
 名前変形ルーチンの試験観点が足りないことを反省しました。試験観点を見直します。<BR>
-※なお、このバグは <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> 1.2.0には含まれません。</P>
+※なお、このバグは <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> 1.2.0には含まれません。</P>
 <P>バグを報告していただき、どうもありがとうございました。また、お手をわずらわせてしまい、すみませんでした。</P>
 <P>このバグを修正した版をアップロードしておきました。加えて MySQL 5.0仮対応をピンポイントで追加しました。(blancoDbプラグインにおいて
 JDBCドライバのクラス名がドロップダウンで選択可能になりました＋α) ただし、依然として MySQLに対する包括的な試験は未実施です。</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.3.3 (Beta版)<BR>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.3.3 (Beta版)<BR>
   <A HREF="http://sourceforge.jp/projects/blancofw/">http://sourceforge.jp/projects/blancofw/</A>
 </UL>
 <TABLE summary="mini title">
@@ -89,7 +89,7 @@ JDBCドライバのクラス名がドロップダウンで選択可能になり�
   </TBODY>
 </TABLE>
 <P>同じく、[replace-link:blancoDb: Enterprise Edition と 生JDBC APIとの間での性能の差異についてご指摘を頂いたので、私の方でも比較を行ってみました。<BR>
-※そもそも blancoDbは 生JDBC APIコーディングを単に肩代わりするためのツールであるはずなので、<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>と生JDBC
+※そもそも blancoDbは 生JDBC APIコーディングを単に肩代わりするためのツールであるはずなので、<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>と生JDBC
 APIとの間で性能差がでるのだとしたら ゆゆしき問題なので、すぐに確認しました (苦笑)</P>
 <UL>
   <LI><FONT color="#ff00ff">関連するリソース</FONT>
@@ -110,7 +110,7 @@ APIとの間で性能差がでるのだとしたら ゆゆしき問題なので�
     を利用
   </UL>
   <LI>Sun JDK 5.0 + Windows XP SP2 + Pentium 4 2GHz + メモリ1GB
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.3.3 (Beta版)
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> Enterprise Edition 1.3.3 (Beta版)
 </UL>
 <P><STRONG><FONT color="#ff00ff">実行結果の比較表</FONT></STRONG></P>
 <BLOCKQUOTE>
@@ -160,7 +160,7 @@ APIとの間で性能差がでるのだとしたら ゆゆしき問題なので�
   ので、メソッドの積み上げ回数が少ない生JDBC APIを利用したケースのほうが いくぶん有利になったのではないかと思います。
   <LI>わざとPreparedStatementを破棄して繰り返しを行うと (予想通り) JDBC APIに比べてずいぶんと低速になりました。
 </UL>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> は 良くも悪くも 生JDBC APIを用いたJavaソースコードをツールとして自動生成するだけのツールであるので、生JDBC
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> は 良くも悪くも 生JDBC APIを用いたJavaソースコードをツールとして自動生成するだけのツールであるので、生JDBC
 APIより低速になることも、あるいは高速になることも無いと考えています。<BR>
 とはいえ、私が書いた検証用の Javaソースコードに私の無意識のうちにバイアスがかかっている可能性がありますね… (苦笑) 明日、いまいちど検証用コードの他人によるソースコードレビューを依頼してみます。</P>
 <P>実行速度比較に用いた手順やソースコードを下記に示します。</P>

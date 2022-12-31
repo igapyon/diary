@@ -73,7 +73,7 @@ blanco.log.logging.BlancoLogLog4jHandler クラス を作成しました。</P>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A>の blanco.log.logging.BlancoLogLog4jHandler クラスを利用すると、<A href="http://java.sun.com/javase/ja/6/docs/ja/api/java/util/logging/package-summary.html">java.util.logging</A> の出力を <A href="http://logging.apache.org/log4j/">Apache log4j</A> にリダイレクトすることができます。これにより、標準 Java API のみを利用して Apache log4j へのログ出力を実現することが出来るようになります。</p>
+<p><A HREF="https://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A>の blanco.log.logging.BlancoLogLog4jHandler クラスを利用すると、<A href="http://java.sun.com/javase/ja/6/docs/ja/api/java/util/logging/package-summary.html">java.util.logging</A> の出力を <A href="http://logging.apache.org/log4j/">Apache log4j</A> にリダイレクトすることができます。これにより、標準 Java API のみを利用して Apache log4j へのログ出力を実現することが出来るようになります。</p>
 <p>現在、多くの方々はロギングのインタフェースとして <A href="http://commons.apache.org/logging/">Apache Commons Logging</A> を利用しているのものと思います。でも、Apache Commons Logging を利用すると、Java ソースコードに org.apache.commons.logging.*
 の import文が必要になってしまいます。「ロギングはしておきたいのだけれども、Javaの import文に 標準 Java API以外のものが入るのは好ましくない」というジレンマを多くの方は感じていることでしょう。これを、blanco.log.logging.BlancoLogLog4jHandler
 は矛盾無く解決することが出来ます。</p>
@@ -223,7 +223,7 @@ public class Sample {
 <P>既に java.util.logging の利用を検討したことはあるのだけれども、java.util.logging のログハンドラの非力さが原因で利用を断念した人は多いのではいでしょうか。ログハンドラ部分は
 Apache log4j のほうが一日の長があり、また多機能であるのは確かなことです。そこで、java.util.logging を Apache
 Commons Logging の代わりに利用して、ロギングは Apache log4j を使ってしまうという、blanco.log.logging.BlancoLogLog4jHandler
-クラス の利用を提案します。是非 この機会に <A HREF="http://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A> の blanco.log.logging.BlancoLogLog4jHandler
+クラス の利用を提案します。是非 この機会に <A HREF="https://www.igapyon.jp/blanco/blancolog.html" TITLE="ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。">blancoLog</A> の blanco.log.logging.BlancoLogLog4jHandler
 クラス を利用して <A href="http://java.sun.com/javase/ja/6/docs/ja/api/java/util/logging/package-summary.html">java.util.logging</A>利用の検討をされることをおすすめします。</P>
 <TABLE summary="mini title">
   <TBODY>

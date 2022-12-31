@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/07/14 “ú‹L: blancoDb Enterprise Edition‚ÌAntƒ^ƒXƒN‚ðì¬ , ŠÂ‹«‚É‚æ‚è Class.getSystemResource()‚ª—˜—p‚Å‚«‚È‚¢Œc</TITLE>
-<META name="DESCRIPTION" content="blancoDb Enterprise Edition ‚É Antƒ^ƒXƒN‚ðV‹K’Ç‰Á‚µ‚Ä‚Ý‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/07/14 ï¿½ï¿½ï¿½L: blancoDb Enterprise Editionï¿½ï¿½Antï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½ì¬ , ï¿½Â‹ï¿½ï¿½É‚ï¿½ï¿½ Class.getSystemResource()ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½c</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Edition ï¿½ï¿½ Antï¿½^ï¿½Xï¿½Nï¿½ï¿½Vï¿½Kï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/07/14 “ú‹L: blancoDb Enterprise Edition‚ÌAntƒ^ƒXƒN‚ðì¬ , ŠÂ‹«‚É‚æ‚è Class.getSystemResource()‚ª—˜—p‚Å‚«‚È‚¢Œc</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blancoDb Enterprise Edition ‚É Antƒ^ƒXƒN‚ðV‹K’Ç‰Á‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
+    <H2>2005/07/14 ï¿½ï¿½ï¿½L: blancoDb Enterprise Editionï¿½ï¿½Antï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½ì¬ , ï¿½Â‹ï¿½ï¿½É‚ï¿½ï¿½ Class.getSystemResource()ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½c</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blancoDb Enterprise Edition ï¿½ï¿½ Antï¿½^ï¿½Xï¿½Nï¿½ï¿½Vï¿½Kï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,88 +59,88 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition‚ÌAntƒ^ƒXƒNì¬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Editionï¿½ï¿½Antï¿½^ï¿½Xï¿½Nï¿½ì¬</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚É‚¨‚¢‚Ä ƒ\[ƒXƒR[ƒh¶¬ƒRƒ}ƒ“ƒh‚ª Antƒ^ƒXƒN‰»‚µ‚Ä‚¢‚È‚¢‚Ì‚Í ‚ ‚Ü‚è‚É‚àƒ}ƒY‚¢‚¾‚ë‚¤‚Æ‚¢‚¤‘½”‚ÌŽw“E‚ðŽó‚¯‚Ü‚µ‚½B<BR>
-Žw“E‚Ì’Ê‚è‚È‚Ì‚ÅAAntƒ^ƒXƒN‰»‚ðŠÈ’P‚ÉŽÀ‘•‚µ‚Ü‚µ‚½B</P>
-<P>ŽQl‚É‚µ‚½ Ant‚ÌV‹Kƒ^ƒXƒNŠJ”­•û–@B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ Antï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½É‚ï¿½ï¿½}ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ë‚¤ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽwï¿½Eï¿½ï¿½ï¿½ó‚¯‚Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½wï¿½Eï¿½Ì’Ê‚ï¿½È‚Ì‚ÅAAntï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½Qï¿½lï¿½É‚ï¿½ï¿½ï¿½ Antï¿½ÌVï¿½Kï¿½^ï¿½Xï¿½Nï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½B</P>
 <UL>
-  <LI>—ITFJava TIPS -- Ant‚ÅŽg‚¤V‹Kƒ^ƒXƒN‚ðì¬‚·‚é<BR>
+  <LI>ï¿½ï¿½ITï¿½FJava TIPS -- Antï¿½ÅŽgï¿½ï¿½ï¿½Vï¿½Kï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/javatips/076jakarta003.html">http://www.atmarkit.co.jp/fjava/javatips/076jakarta003.html</A>
-  <LI>—ITFJava TIPS -- Ant‚ÅŽg‚¤V‹Kƒ^ƒXƒN‚Éƒpƒ‰ƒ[ƒ^‚ð“n‚·<BR>
+  <LI>ï¿½ï¿½ITï¿½FJava TIPS -- Antï¿½ÅŽgï¿½ï¿½ï¿½Vï¿½Kï¿½^ï¿½Xï¿½Nï¿½Éƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½nï¿½ï¿½<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/javatips/084jakarta007.html">http://www.atmarkit.co.jp/fjava/javatips/084jakarta007.html</A>
 </UL>
-<P>cŽÀ‘•‚Í ˆÓŠO‚É‚àŠÈ’P‚Å‚µ‚½BH‚í‚¸Œ™‚¢‚Å‚µ‚½ (‹êÎ)<BR>
-‚È‚ñ‚Ä ‚È‚ñ‚¾‚©‚ñ‚¾ì‹Æ‚µ‚Ä‚¢‚é‚¤‚¿‚ÉA‚Æ‚Ä‚à–éX‚©‚µ‚µ‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½ (”½È)</P>
-<P>blancoDb ‚Ì Antƒvƒ‰ƒOƒCƒ“‚É‚Â‚¢‚Ä‚ÍA‚Ü‚¾ L”Í‚ÈŽŽŒ±‚ÍŽÀŽ{‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB—˜—p‚É‚Â‚¢‚Ä‚ÍA‚µ‚Î‚ç‚­‚¨‘Ò‚¿‚­‚¾‚³‚¢B</P>
+<P>ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ÓŠOï¿½É‚ï¿½ï¿½È’Pï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½Hï¿½í‚¸ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)<BR>
+ï¿½È‚ï¿½ï¿½ ï¿½È‚ñ‚¾‚ï¿½ï¿½ñ‚¾ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚¤ï¿½ï¿½ï¿½ÉAï¿½Æ‚Ä‚ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½)</P>
+<P>blancoDb ï¿½ï¿½ Antï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½Ü‚ï¿½ ï¿½Lï¿½Í‚ÈŽï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½pï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½Î‚ç‚­ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ŠÂ‹«‚É‚æ‚è getSystemResource()‚ª—˜—p‚Å‚«‚È‚¢ƒP[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Â‹ï¿½ï¿½É‚ï¿½ï¿½ getSystemResource()ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Pï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Antƒ^ƒXƒN‰»‚É‚¨‚¢‚Ä blancoDbŒÅ—L‚Ì–â‘è‚¾‚Á‚½‚Ì‚ªAƒŠƒ\[ƒXƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÝŠÖ˜A‚É‚Â‚¢‚Ä‚Å‚·BClass.getSystemResource()‚Å‚Íƒ_ƒ‚ÅAthis.getClass()‚ð‘«‚ª‚©‚è‚ÉgetResourceAsStream()‚ðŒÄ‚Ño‚³‚È‚¢‚Æ‚¤‚Ü‚­‚¢‚©‚È‚¢ê‡‚ª‚ ‚è‚Ü‚·B(C³‰ÓŠ‚Í
-‹ï‘Ì“I‚É‚Í blancoIg‚É‚È‚è‚Ü‚·) jarƒtƒ@ƒCƒ‹“à‚©‚ç‚ÌƒŠƒ\[ƒX“Ç‚Ýž‚Ý‚Í Ì‚È‚ª‚ç‚É‰œ‚ª[‚¢‚Å‚·</P>
-<P>‚¿‚È‚Ý‚ÉA‚±‚Ì getSystemResource‚Å‚Í (“Á’èðŒ‰º‚É‚¨‚¢‚Ä) “Ç‚Ýž‚Ý‚ªŽ¸”s‚µA‚»‚¤‚Å‚Í‚È‚­‰½‚©‚µ‚ç(‚»‚µ‚Ä‚Ù‚Æ‚ñ‚Ç‚Ìê‡
-*.class) ‚ð‘«‚ª‚©‚è‚É getResouce‚µ‚È‚¢‚Æ *.classˆÈŠO‚Ìƒtƒ@ƒCƒ‹‚ª“Ç‚Ýž‚Ý‚Å‚«‚È‚¢Œ‚É‚Â‚¢‚Ä‚ÍAˆÓŠO‚È‚±‚Æ‚Å‚·‚ªAˆê•”‚ÌƒRƒA‚È
-Java‹ZpŽÒ‚µ‚©’m‚è‚Ü‚¹‚ñBŽ„Ž©gA‚È‚º‚±‚ê‚ªŽ¸”s‚·‚é‚Ì‚©‚É‚Â‚¢‚ÄAJavaVM‚ÌƒNƒ‰ƒXƒ[ƒ_[‚Ì“à•”ŽÀ‘•‚É“¥‚Ýž‚ñ‚¾³Šm‚Èà–¾‚Ío—ˆ‚Ü‚¹‚ñB</P>
-<P>‚±‚Ì–â‘è‚ÉŒ¾‹y‚µ‚Ä‚¢‚éƒy[ƒW‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P>Antï¿½^ï¿½Xï¿½Nï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ blancoDbï¿½Å—Lï¿½Ì–ï¿½è‚¾ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“Ç‚Ýï¿½ï¿½ÝŠÖ˜Aï¿½É‚Â‚ï¿½ï¿½Ä‚Å‚ï¿½ï¿½BClass.getSystemResource()ï¿½Å‚Íƒ_ï¿½ï¿½ï¿½ÅAthis.getClass()ï¿½ð‘«‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½getResourceAsStream()ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Cï¿½ï¿½ï¿½Óï¿½ï¿½ï¿½
+ï¿½ï¿½Ì“Iï¿½É‚ï¿½ blancoIgï¿½É‚È‚ï¿½Ü‚ï¿½) jarï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½[ï¿½Xï¿½Ç‚Ýï¿½ï¿½Ý‚ï¿½ ï¿½Ì‚È‚ï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½</P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚ÉAï¿½ï¿½ï¿½ï¿½ getSystemResourceï¿½Å‚ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½Ç‚Ýï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ù‚Æ‚ï¿½Ç‚Ìê‡
+*.class) ï¿½ð‘«‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ getResouceï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ *.classï¿½ÈŠOï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½Ý‚Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ÓŠOï¿½È‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ê•”ï¿½ÌƒRï¿½Aï¿½ï¿½
+Javaï¿½Zï¿½pï¿½Ò‚ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Aï¿½È‚ï¿½ï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAJavaVMï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½[ï¿½_ï¿½[ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½Ýï¿½ï¿½ñ‚¾ï¿½ï¿½mï¿½Èï¿½ï¿½ï¿½ï¿½Íoï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½Ì–ï¿½ï¿½ÉŒï¿½ï¿½yï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>Java Programming Primer<BR>
   <A HREF="http://homepage1.nifty.com/algafield/jpp.html">http://homepage1.nifty.com/algafield/jpp.html</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒŠƒ\[ƒX </FONT><FONT color="#ff0000">2005.07.15’Ç‹L</FONT> ‚±‚Ì–â‘è‚Ì–{Ž¿‚ÍA‚¶‚Â‚ÍƒNƒ‰ƒXƒ[ƒ_‚ÌƒCƒ“ƒXƒ^ƒ“ƒXˆá‚¢‚¾‚Á‚½–Í—l‚Å‚·B‚±‚ê‚ÅŽ„‚Ì“ª‚Ì’†‚Í‚©‚È‚è‚·‚Á‚«‚è‚Æ®—‚Å‚«‚Ü‚µ‚½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X </FONT><FONT color="#ff0000">2005.07.15ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½Ì–ï¿½ï¿½Ì–{ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½Â‚ÍƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½[ï¿½_ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½Xï¿½á‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÅŽï¿½ï¿½Ì“ï¿½ï¿½Ì’ï¿½ï¿½Í‚ï¿½ï¿½È‚è‚·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Saisse's Wiki: “ú‹L/2005-07-15<BR>
+  <LI>Saisse's Wiki: ï¿½ï¿½ï¿½L/2005-07-15<BR>
   <A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?%C6%FC%B5%AD%2F2005-07-15">http://www.saisse.jp/pukiwiki/pukiwiki.php?%C6%FC%B5%AD%2F2005-07-15</A><BR>
-  getClass().getClassLoader().getResourceAsStream(&quot;ƒtƒ@ƒCƒ‹–¼&quot;) ‚ÅŽæ“¾‰Â”\‚Æ‚Ì‚±‚Æ‚Å‚·B
+  getClass().getClassLoader().getResourceAsStream(&quot;ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½&quot;) ï¿½ÅŽæ“¾ï¿½Â”\ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B
 </UL>
-<P><A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?Saisse" TITLE="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹LƒEƒFƒuƒy[ƒW‚Ì“ÇŽÒ‚ÅA“Œ‹žOFF‰ïŽQ‰ÁŒoŒ±‚ð‚¨Ž‚¿‚Ì•ûB‚à‚Ì‚·‚²‚¢‚Ì‚ÍA‚¢‚ª‚Ò‚å‚ñ”z‰º‚ÅŽÀŠJ”­‚ðs‚Á‚½ŒoŒ±‚ª‚ ‚é‚Æ‚¢‚¤“_‚Å‚·B">Saisse</A>‚³‚ñA‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B</P>
+<P><A HREF="http://www.saisse.jp/pukiwiki/pukiwiki.php?Saisse" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Eï¿½Fï¿½uï¿½yï¿½[ï¿½Wï¿½Ì“ÇŽÒ‚ÅAï¿½ï¿½ï¿½ï¿½OFFï¿½ï¿½Qï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½zï¿½ï¿½ï¿½ÅŽï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½B">Saisse</A>ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Šâ’JG‚³‚ñ‚Ìƒy[ƒW</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½Jï¿½Gï¿½ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½W</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>getSystemResource()‚ÌŒ‚ÅŒ©‚½uJava Programming Primerv‚Ìƒy[ƒW‚É‚Â‚¢‚ÄAî•ñ‚ª[ŽÀ‚µ‚Ä‚¢‚ÄS‚É‹¿‚«‚Ü‚µ‚½B‚Ç‚È‚½‚ª‘‚¢‚Ä‚ç‚ê‚é‚Ì‚¾‚ë‚¤‚Æ’²‚×‚Ä‚Ý‚½‚Æ‚±‚ëA‚È‚ñ‚Æ
-‚ ‚Ì—L–¼‚Èƒ‰ƒCƒ^[‚³‚ñ‚Å‚ ‚éŠâ’JG‚³‚ñ‚ÌƒEƒFƒuƒy[ƒW‚Ìˆê•”•ª‚¾‚Á‚½‚Æ‚¢‚¤‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B</P>
+<P>getSystemResource()ï¿½ÌŒï¿½ï¿½ÅŒï¿½ï¿½ï¿½ï¿½uJava Programming Primerï¿½vï¿½Ìƒyï¿½[ï¿½Wï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ñ‚ª[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄSï¿½É‹ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ç‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¤ï¿½Æ’ï¿½ï¿½×‚Ä‚Ý‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½
+ï¿½ï¿½ï¿½Ì—Lï¿½ï¿½ï¿½Èƒï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Jï¿½Gï¿½ï¿½ï¿½ï¿½ÌƒEï¿½Fï¿½uï¿½yï¿½[ï¿½Wï¿½Ìˆê•”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Šâ’JG‚³‚ñ‚Ìƒy[ƒW<BR>
+  <LI>ï¿½ï¿½Jï¿½Gï¿½ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½W<BR>
   <A HREF="http://homepage1.nifty.com/algafield">http://homepage1.nifty.com/algafield</A>
 </UL>
-<P>Œ‹\‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½\ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseƒvƒ‰ƒOƒCƒ“ŠJ”­‹Zp‚É’—Í‚·‚é•ûŒü«‚Å</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Zï¿½pï¿½É’ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>–^Ž‚Æ‚¤‚Á‚¿[‚Æ‚Å˜b‚µ‚Ä‚¢‚ÄA‚Æ‚è‚ ‚¦‚¸Ž„‚ªŠÖ˜A‚·‚éƒŠƒ\[ƒX‚É‚Â‚¢‚ÄAEclipseƒvƒ‰ƒOƒCƒ“ŠJ”­‹Zp (+‘½­‚Ì CŒ¾Œê) ‚É‘Î‚µ‚ÄƒŠƒ\[ƒX‚ðW–ñ‚µ‚Ä‚¢‚­•ûŒü«‚Å
-(ŸŽè‚É) ‚Ü‚Æ‚Ü‚è‚Ü‚µ‚½B<BR>
-ç’k‚ß‚¢‚ÄAƒL[ƒ[ƒh‚Í DoD ‚ÆÝ’è‚µ‚Ü‚µ‚½BŽÀÛ‚Ì‚Æ‚±‚ë Eclipseƒvƒ‰ƒOƒCƒ“ŠJ”­‹Zp‚É‚Â‚¢‚Ä‚Í ‚©‚È‚è“ïˆÕ“x‚ª‚‚­A‚µ‚©‚µ‚»‚ê‚ÉŒ©‡‚¤‚¾‚¯‚ÌŒø‰Ê‚ª‚ ‚é‚æ‚¤‚É”»’f‚µ‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½^ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Æ‚Å˜bï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö˜Aï¿½ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½Xï¿½É‚Â‚ï¿½ï¿½ÄAEclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Zï¿½p (+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Cï¿½ï¿½ï¿½ï¿½) ï¿½É‘Î‚ï¿½ï¿½Äƒï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½Wï¿½ñ‚µ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½Ü‚Æ‚Ü‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½kï¿½ß‚ï¿½ï¿½ÄAï¿½Lï¿½[ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ DoD ï¿½ÆÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Û‚Ì‚Æ‚ï¿½ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Zï¿½pï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½È‚ï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É”ï¿½ï¿½fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig050708.html">2005/07/08 “ú‹L: Age of Eclipse Portal (ƒGƒNƒŠƒvƒXEƒ|[ƒ^ƒ‹Žž‘ã) ‚Ì“ž—ˆ</A>
+  <LI><A href="ig050708.html">2005/07/08 ï¿½ï¿½ï¿½L: Age of Eclipse Portal (ï¿½Gï¿½Nï¿½ï¿½ï¿½vï¿½Xï¿½Eï¿½|ï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½Ì“ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‹Zpƒƒ‚</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Zï¿½pï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>WebOTX‚Ì OLF/TP‚É‚Â‚¢‚Ä’²‚×‚Ä‚¢‚½‚çAJCA‚É‚½‚Ç‚è’…‚«‚Ü‚µ‚½B‚³‚ÄAJCA‚ð•×‹­‚µ‚È‚¢‚Æc</P>
+<P>WebOTXï¿½ï¿½ OLF/TPï¿½É‚Â‚ï¿½ï¿½Ä’ï¿½ï¿½×‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½AJCAï¿½É‚ï¿½ï¿½Ç‚è’…ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÄAJCAï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æc</P>
 <UL>
-  <LI>IBM dW : Java technology : JCAƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ð—‰ð‚·‚é<BR>
+  <LI>IBM dW : Java technology : JCAï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ð—‰ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www-6.ibm.com/jp/developerworks/java/041224/j_j-jca.html">http://www-6.ibm.com/jp/developerworks/java/041224/j_j-jca.html</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

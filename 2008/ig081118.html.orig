@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/11/18 “ú‹L: OpenSSO Enterprise 8.0 ’²¸</TITLE>
-<META name="DESCRIPTION" content="­‚µ‹C‡‚¢‚ð“ü‚ê‚Ä OpenSSO ‚ð’²¸‚µ‚Ä‚Ý‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="OpenSSO,OpenDS,LDAP,ƒVƒ“ƒOƒ‹,ƒTƒCƒ“ƒIƒ“,SSO,Sun">
+<TITLE>2008/11/18 ï¿½ï¿½ï¿½L: OpenSSO Enterprise 8.0 ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OpenSSO ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="OpenSSO,OpenDS,LDAP,ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½,ï¿½Tï¿½Cï¿½ï¿½ï¿½Iï¿½ï¿½,SSO,Sun">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/11/18 “ú‹L: OpenSSO Enterprise 8.0 ’²¸</H2>
-    <P>[OpenSSO,OpenDS,LDAP,ƒVƒ“ƒOƒ‹,ƒTƒCƒ“ƒIƒ“,SSO,Sun] ­‚µ‹C‡‚¢‚ð“ü‚ê‚Ä OpenSSO ‚ð’²¸‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
+    <H2>2008/11/18 ï¿½ï¿½ï¿½L: OpenSSO Enterprise 8.0 ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[OpenSSO,OpenDS,LDAP,ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½,ï¿½Tï¿½Cï¿½ï¿½ï¿½Iï¿½ï¿½,SSO,Sun] ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OpenSSO ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,71 +60,71 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenSSO Enterprise 8.0 ’²¸</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenSSO Enterprise 8.0 ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>­‚µ‹C‡‚¢‚ð“ü‚ê‚Ä OpenSSO ‚ð’²¸‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
-<P><FONT color="#ff0000">2008.11.18</FONT> Œ»Ý’²¸’†cBŒ‹\Žè‚±‚¸‚Á‚Ä‚¢‚Ü‚·BŒã“úXV—\’èB<BR>
-<FONT color="#ff0000">2008.12.18</FONT> Tomcat 6.0 ‚Å‚¤‚Ü‚­“®‚«‚Ü‚µ‚½B‚¢‚Â‚©‰É‚ª‚ ‚Á‚½‚çƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚ðXV‚µ‚½‚¢c<BR>
-2008.11.19’Ç‹L URL‚ªFQDN‚Å‹Lq‚·‚ê‚Î‰ðŒˆ‚·‚é‚©‚àc</P>
-<P>‚Æ‚è‚ ‚¦‚¸Au‚Ç‚ê‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚½‚ç—Ç‚¢‚Ì?v‚Æ‚¢‚¤‚±‚Æ‚Å‚ÍA<A href="http://blogs.sun.com/nickwooler/entry/opensso_express_from_the_trenches">ŠÖŒWŽÒ‚Ì blog ‚É‚æ‚é</A>‚ÆAˆÈ‰º‚Ì‚æ‚¤‚ÈˆÊ’u‚Ã‚¯‚É‚È‚Á‚Ä‚¢‚é‚æ‚¤‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OpenSSO ï¿½ð’²ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2008.11.18</FONT> ï¿½ï¿½ï¿½Ý’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½ï¿½ï¿½\ï¿½è‚±ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½\ï¿½ï¿½B<BR>
+<FONT color="#ff0000">2008.12.18</FONT> Tomcat 6.0 ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Â‚ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c<BR>
+2008.11.19ï¿½Ç‹L URLï¿½ï¿½FQDNï¿½Å‹Lï¿½qï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½c</P>
+<P>ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½uï¿½Ç‚ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½?ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ÍA<A href="http://blogs.sun.com/nickwooler/entry/opensso_express_from_the_trenches">ï¿½ÖŒWï¿½Ò‚ï¿½ blog ï¿½É‚ï¿½ï¿½</A>ï¿½ÆAï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½ÈˆÊ’uï¿½Ã‚ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>¤—pƒTƒ|[ƒg‚ª—˜—p‚Å‚«‚é‚Ì‚ª OpenSSO Enterprise ‚Å‚ ‚éB
+  <LI>ï¿½ï¿½ï¿½pï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ OpenSSO Enterprise ï¿½Å‚ï¿½ï¿½ï¿½B
   <UL>
-    <LI>‚½‚¾‚µ OpenSSO ˆÈŠO‚Ìƒvƒƒ_ƒNƒg‚àŠÜ‚Ü‚ê‚é–Í—lB
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OpenSSO ï¿½ÈŠOï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½ï¿½Ü‚Ü‚ï¿½ï¿½Í—lï¿½B
   </UL>
-  <LI>OpenSSO Express ‚ÍAˆê’èŠúŠÔ–ˆ‚ÉƒŠƒŠ[ƒX‚³‚ê‚é‚à‚ÌB
+  <LI>OpenSSO Express ï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½Ô–ï¿½ï¿½Éƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌB
 </UL>
-<P>‚Æ‚¢‚¤‚±‚Æ‚ÅAOpenSSO Enterprise ‚ð’²‚×‚Ä‚Ý‚Ü‚·B—á‚É‚æ‚Á‚Ä ƒ‚ƒWƒ…[ƒ‹ (opensso_enterprise_80.zip)
-‚ÌƒTƒCƒY‚Í 279MB ‚Æ‹‘å‚Å‚·B</P>
-<P>‚±‚ê‚ð Apache Tomcat 6.0 ‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚µ‚½B<BR>
-(¦Tomcat 5.5 ‚¾‚Æ‚¤‚Ü‚­“®‚«‚Ü‚¹‚ñ‚Å‚µ‚½BTomcat 6.0 ‚¾‚Æ ‚¤‚Ü‚­‚¢‚«‚Ü‚µ‚½)</P>
+<P>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAOpenSSO Enterprise ï¿½ð’²‚×‚Ä‚Ý‚Ü‚ï¿½ï¿½Bï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ (opensso_enterprise_80.zip)
+ï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ 279MB ï¿½Æ‹ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ Apache Tomcat 6.0 ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+(ï¿½ï¿½Tomcat 5.5 ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½BTomcat 6.0 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)</P>
 <UL>
   <LI>apache-tomcat-X.XX.X.exe
-  <LI>‚·‚×‚ÄƒfƒtƒHƒ‹ƒg‚ÅƒZƒbƒgƒAƒbƒvB
-  <LI>Windows XP SP3 ‚ÅŠm”F
+  <LI>ï¿½ï¿½ï¿½×‚Äƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÅƒZï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½B
+  <LI>Windows XP SP3 ï¿½ÅŠmï¿½F
   <LI>Java 1.5.0_15
 </UL>
-<P>OpenSSO Enterprise ‚ð‰ð“€‚µ‚ÄAˆÈ‰º‚Ì war ƒtƒ@ƒCƒ‹‚ðŽæ‚èo‚µ‚Ü‚·B‚»‚µ‚Ä‚±‚ê‚ðƒfƒvƒƒC‚µ‚Ü‚·B</P>
+<P>OpenSSO Enterprise ï¿½ï¿½ï¿½ð“€‚ï¿½ï¿½ÄAï¿½È‰ï¿½ï¿½ï¿½ war ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Œ³: opensso/deployable-war/opensso.war
-  <LI>æ: C:\Program Files\Apache Software Foundation\Tomcat 5.5\webapps
+  <LI>ï¿½ï¿½: opensso/deployable-war/opensso.war
+  <LI>ï¿½ï¿½: C:\Program Files\Apache Software Foundation\Tomcat 5.5\webapps
 </UL>
-<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso001.png" border="0"></BLOCKQUOTE>
-<P>warƒtƒ@ƒCƒ‹‚¾‚¯‚Å 70MB ’ö“x‚ÌƒTƒCƒY‚ª‚ ‚èAƒfƒvƒƒC‚É‚ÍŒ‹\ŽžŠÔ‚ª‚©‚©‚è‚Ü‚·B‚µ‚Î‚ç‚­‰ä–‚µ‚Ä‘Ò‚¿‚Ü‚·B</P>
-<P>ƒfƒvƒƒC‚ªI‚í‚Á‚½‚çAhttp://ƒ[ƒJƒ‹ƒzƒXƒg‚ÌƒzƒXƒg–¼:8080/opensso/ ‚ÉƒAƒNƒZƒX‚µ‚Ü‚·B<BR>
-¦localhost ‚¾‚Æ ‚¤‚Ü‚­“®‚©‚È‚¢ê‡‚ª‚ ‚è‚Ü‚·Bhosts ƒtƒ@ƒCƒ‹‚ð•ÒW‚µAƒ[ƒJƒ‹ƒzƒXƒg‚É–¼Ì‚ð•t‚¯‚Ä‚©‚ç“®ì‚³‚¹‚Ü‚·B</P>
-<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso002.png" border="0"></BLOCKQUOTE>
-<P>Ý’èƒIƒvƒVƒ‡ƒ“‚È‚é‘I‘ðŽˆ‚ª‚ ‚é‚Ì‚ÅA‚Æ‚è‚ ‚¦‚¸uƒfƒtƒHƒ‹ƒgÝ’è‚Ìì¬v‚ð‘I‘ð‚µ‚Ü‚·B</P>
-<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso003.png" border="0"></BLOCKQUOTE>
-<P>ƒpƒXƒ[ƒh‚ð“ü—Í‚µ‚Ü‚·B‚Æ‚è‚ ‚¦‚¸ amAdmin ‚É‚Í password ‚ðAUrlAccessAgent ‚É‚Í password2 ‚ðÝ’è‚µ‚Ü‚µ‚½B</P>
-<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso004.png" border="0"></BLOCKQUOTE>
-<P>ƒZƒbƒgƒAƒbƒvi’»‚ª•\Ž¦‚³‚ê‚Ü‚·B</P>
-<BLOCKQUOTE><IMG src="http://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso005.png" border="0"></BLOCKQUOTE>
-<P>‚±‚ê‚ª•\Ž¦‚³‚ê‚½‚çƒZƒbƒgƒAƒbƒvŠ®—¹‚Å‚·B</P>
+<BLOCKQUOTE><IMG src="https://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso001.png" border="0"></BLOCKQUOTE>
+<P>warï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 70MB ï¿½ï¿½ï¿½xï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½vï¿½ï¿½ï¿½Cï¿½É‚ÍŒï¿½ï¿½\ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Î‚ç‚­ï¿½ä–ï¿½ï¿½ï¿½Ä‘Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½fï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ahttp://ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½Ìƒzï¿½Xï¿½gï¿½ï¿½:8080/opensso/ ï¿½ÉƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½localhost ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bhosts ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ÒWï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½É–ï¿½ï¿½Ì‚ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç“®ï¿½ì‚³ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<BLOCKQUOTE><IMG src="https://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso002.png" border="0"></BLOCKQUOTE>
+<P>ï¿½Ý’ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ý’ï¿½Ìì¬ï¿½vï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<BLOCKQUOTE><IMG src="https://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso003.png" border="0"></BLOCKQUOTE>
+<P>ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ amAdmin ï¿½É‚ï¿½ password ï¿½ï¿½ï¿½AUrlAccessAgent ï¿½É‚ï¿½ password2 ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<BLOCKQUOTE><IMG src="https://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso004.png" border="0"></BLOCKQUOTE>
+<P>ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½iï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<BLOCKQUOTE><IMG src="https://www.igapyon.jp/igapyon/image/diary/2008/20081118opensso005.png" border="0"></BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ê‚ªï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 
-<P>‚¿‚È‚Ý‚É OpenSSO ‚ÌÝ’è‚ÍATomcat ‚ÅƒT[ƒrƒX‚ÅƒZƒbƒgƒAƒbƒv‚·‚é‚ÆAˆÓŠO‚ÈêŠ‚É•Û‘¶‚³‚ê‚Ü‚·B(‚¨‚»‚ç‚­‘¼‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒT[ƒo‚Å‚à“¯—l‚Æ‘z‘œ‚µ‚Ä‚¢‚Ü‚·)</P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚ï¿½ OpenSSO ï¿½ÌÝ’ï¿½ÍATomcat ï¿½ÅƒTï¿½[ï¿½rï¿½Xï¿½ÅƒZï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ÆAï¿½ÓŠOï¿½ÈêŠï¿½É•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ç‚­ï¿½ï¿½ï¿½ÌƒAï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½Å‚ï¿½ï¿½ï¿½ï¿½lï¿½Æ‘zï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½)</P>
 <UL>
   <LI>C:/Documents and Settings/LocalService/opensso<BR>
-  ‚±‚ÌƒtƒHƒ‹ƒ_[‚Í‰^‚ªˆ«‚¢‚±‚Æ‚É ‰B‚µƒtƒHƒ‹ƒ_[‚É‚ ‚½‚é‚Ì‚ÅAÝ’è‚ðƒŠƒZƒbƒg‚µ‚Ä‚©‚çƒZƒbƒgƒAƒbƒv‚µ‚½‚¢ê‡‚É˜T”‚‚·‚é‰Â”\«‚ª‚‚¢‚Å‚·Bˆê•û‚Å UNIX“I‚Él‚¦‚½‚çA‚±‚ÌêŠ
-  (ƒ†[ƒU‚Ì home’¼‰º) ‚Éì¬‚³‚ê‚é‚Ì‚à ”÷–­‚ÉŽ©‘R‚Å‚ ‚é‚æ‚¤‚É‚àŽv‚¦‚Ü‚·B
+  ï¿½ï¿½ï¿½Ìƒtï¿½Hï¿½ï¿½ï¿½_ï¿½[ï¿½Í‰^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½Bï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½[ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½Ý’ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É˜Tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ UNIXï¿½Iï¿½Élï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌêŠ
+  (ï¿½ï¿½ï¿½[ï¿½Uï¿½ï¿½ homeï¿½ï¿½ï¿½ï¿½) ï¿½Éì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½Rï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P>‚Ü‚½AƒfƒtƒHƒ‹ƒg‚ÌƒZƒbƒgƒAƒbƒv‚Å‚Í OpenDS ‚Ì LDAPƒ|[ƒg‚Í  50389 ‚ÉÝ’è‚³‚ê‚Ü‚·B’Êí‚Ì LDAP ‚Ìƒ|[ƒg”Ô†‚ÆˆÙ‚È‚é‚Ì‚Å’ˆÓ‚ª•K—v‚Å‚·B</P>
-<P><FONT color="#ff0000">2008.12.18’Ç‹L</FONT> ‚È‚¨AOpenSSO ‚Ìà–¾‚ÍANRI ‚Ì OpenStandia ‚ÌƒTƒCƒg‚Ìà–¾‚ª ‚Æ‚Ä‚à—Ç‚­‚Å‚«‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½Ü‚ï¿½ï¿½Aï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÌƒZï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½Å‚ï¿½ OpenDS ï¿½ï¿½ LDAPï¿½|ï¿½[ï¿½gï¿½ï¿½  50389 ï¿½ÉÝ’è‚³ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Êï¿½ï¿½ LDAP ï¿½Ìƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½ÆˆÙ‚È‚ï¿½Ì‚Å’ï¿½ï¿½Ó‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2008.12.18ï¿½Ç‹L</FONT> ï¿½È‚ï¿½ï¿½AOpenSSO ï¿½Ìï¿½ï¿½ï¿½ï¿½ÍANRI ï¿½ï¿½ OpenStandia ï¿½ÌƒTï¿½Cï¿½gï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://www.nri-aitd.com/openstandia/solution/sso/">http://www.nri-aitd.com/openstandia/solution/sso/</A>
 </UL>
-<P><FONT color="#ff00ff">ŽQl‚É‚µ‚½ƒŠƒ\[ƒX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Qï¿½lï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
   <LI><A HREF="http://puggle.jp/wiki.cgi?page=OpenSSOSetup">http://puggle.jp/wiki.cgi?page=OpenSSOSetup</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig081008.html">2008/10/08 “ú‹L: OpenSSO ƒƒ‚ , “Œ‹žŠ”Ž®Žsê “úŒo•½‹ÏŠ”‰¿ 9,203‰~ (I’l952‰~ˆÀ)</A>
+  <LI><A href="ig081008.html">2008/10/08 ï¿½ï¿½ï¿½L: OpenSSO ï¿½ï¿½ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ÏŠï¿½ï¿½ï¿½ 9,203ï¿½~ (ï¿½Iï¿½l952ï¿½~ï¿½ï¿½)</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

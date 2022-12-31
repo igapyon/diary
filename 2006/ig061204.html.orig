@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/12/04 “ú‹L: Microsoft SQL Server 2005 JDBC Driver 1.1 ƒŠƒŠ[ƒX / selectMethod=cursor‚Í
-SQL Server 2005 JDBC Driver ‚Å‚à•K—v</TITLE>
-<META name="DESCRIPTION" content="blancoDbPhp‚ÉŒü‚¯‚Äƒƒ‚ , SQL Server 2005 JDBC Driver‚É‚¨‚¢‚Ä‚à selectMethod=cursor ƒIƒvƒVƒ‡ƒ“‚Í•K—v‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/12/04 ï¿½ï¿½ï¿½L: Microsoft SQL Server 2005 JDBC Driver 1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X / selectMethod=cursorï¿½ï¿½
+SQL Server 2005 JDBC Driver ï¿½Å‚ï¿½ï¿½Kï¿½v</TITLE>
+<META name="DESCRIPTION" content="blancoDbPhpï¿½ÉŒï¿½ï¿½ï¿½ï¿½Äƒï¿½ï¿½ï¿½ , SQL Server 2005 JDBC Driverï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ selectMethod=cursor ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Í•Kï¿½vï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -17,13 +17,13 @@ SQL Server 2005 JDBC Driver ‚Å‚à•K—v</TITLE>
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/12/04 “ú‹L: Microsoft SQL Server 2005 JDBC Driver 1.1 ƒŠƒŠ[ƒX / selectMethod=cursor‚Í
-SQL Server 2005 JDBC Driver ‚Å‚à•K—v</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blancoDbPhp‚ÉŒü‚¯‚Äƒƒ‚ , SQL Server 2005 JDBC Driver‚É‚¨‚¢‚Ä‚à selectMethod=cursor ƒIƒvƒVƒ‡ƒ“‚Í•K—v‚Å‚·B</P>
+    <H2>2006/12/04 ï¿½ï¿½ï¿½L: Microsoft SQL Server 2005 JDBC Driver 1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X / selectMethod=cursorï¿½ï¿½
+SQL Server 2005 JDBC Driver ï¿½Å‚ï¿½ï¿½Kï¿½v</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blancoDbPhpï¿½ÉŒï¿½ï¿½ï¿½ï¿½Äƒï¿½ï¿½ï¿½ , SQL Server 2005 JDBC Driverï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ selectMethod=cursor ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Í•Kï¿½vï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@ SQL Server 2005 JDBC Driver ‚Å‚à•K—v</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@ SQL Server 2005 JDBC Driver ‚Å‚à•K—v</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,88 +62,88 @@ SQL Server 2005 JDBC Driver ‚Å‚à•K—v</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2005 JDBC Driver 1.1 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Microsoft SQL Server 2005 JDBC Driver 1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft SQL Server 2005 JDBC Driver 1.1‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½Bƒz[ƒ€ƒy[ƒW‚Å‚Í 2006.11.30“ú‚Ã‚¯‚É‚æ‚éƒŠƒŠ[ƒX‚Æ‚¢‚¤‚±‚Æ‚É‚È‚Á‚Ä‚¢‚Ü‚·B</P>
+<P>Microsoft SQL Server 2005 JDBC Driver 1.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½Å‚ï¿½ 2006.11.30ï¿½ï¿½ï¿½Ã‚ï¿½ï¿½É‚ï¿½éƒŠï¿½ï¿½ï¿½[ï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://www.microsoft.com/downloads/details.aspx?displaylang=ja&amp;FamilyID=6d483869-816a-44cb-9787-a866235efc7c">http://www.microsoft.com/downloads/details.aspx?displaylang=ja&amp;FamilyID=6d483869-816a-44cb-9787-a866235efc7c</A>
 </UL>
-<P>‚±‚ÌJDBCƒhƒ‰ƒCƒo‚ÍASQL Server 2005‚Ö‚ÌÚ‘±‚É‰Á‚¦ASQL Server 2000‚Ö‚ÌÚ‘±‚àƒTƒ|[ƒg‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ÍASQL Server 2005ï¿½Ö‚ÌÚ‘ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ASQL Server 2000ï¿½Ö‚ÌÚ‘ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JDBC: selectMethod=cursorƒIƒvƒVƒ‡ƒ“‚Í SQL Server 2005 JDBC Driver ‚É‚¨‚¢‚Ä‚à—LŒø‚Å‚· (‚»‚µ‚Ä•K—v‚Å‚·)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JDBC: selectMethod=cursorï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SQL Server 2005 JDBC Driver ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Lï¿½ï¿½ï¿½Å‚ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½Ä•Kï¿½vï¿½Å‚ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Microsoft SQL Server 2000 JDBC Driver‚Í selectMethod=cursor ƒIƒvƒVƒ‡ƒ“‚ð•t‚¯‚Ä ‚Í‚¶‚ß‚Ä
-•’Ê‚Ì’¼Š´“I‚È‹““®‚ð‚µ‚Ü‚·B‚±‚ê‚Í SQL Server + Java ‚Ì‘g‚Ý‡‚í‚¹‚ð‚·‚él‚É‚Æ‚Á‚Ä‚Í ‚æ‚­’m‚ç‚ê‚½–â‘è‚Å‚·B</P>
-<P><FONT color="#ff00ff">‹­‚­ŠÖ˜A‚·‚é‰ß‹Ž‚Ì“ú‹L</FONT></P>
+<P>Microsoft SQL Server 2000 JDBC Driverï¿½ï¿½ selectMethod=cursor ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ ï¿½Í‚ï¿½ï¿½ß‚ï¿½
+ï¿½ï¿½ï¿½Ê‚Ì’ï¿½ï¿½ï¿½ï¿½Iï¿½È‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ SQL Server + Java ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½æ‚­ï¿½mï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ß‹ï¿½ï¿½Ì“ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2005/ig050429.html">2005/04/29 “ú‹L: Java: Microsoft SQL Server 2000 + JDBC ‚É‚¨‚¯‚éXVƒƒbƒN‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚ÑXV‚ÌŽÀŒ»•û–@</A>
+  <LI><A href="../2005/ig050429.html">2005/04/29 ï¿½ï¿½ï¿½L: Java: Microsoft SQL Server 2000 + JDBC ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÑXï¿½Vï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</A>
 </UL>
-<P>SQL Server 2000 ‚Ì JDBCƒhƒ‰ƒCƒo‚ªƒfƒtƒHƒ‹ƒg‚Å’¼Š´‚Æ‚Í‘å‚«‚­ˆÙ‚È‚é‹““®‚ð‚·‚é‚±‚Æ‚Í ‚©‚Ë‚Ä‚æ‚è•sŽv‹c‚Å‚µ‚½B‚Æ‚±‚ë‚ªASQL
-Server 2005 JDBC Driver‚É‚¨‚¢‚Ä‚à ‚±‚Ì“_‚Í‰ü‘P‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ‚Å‚µ‚½BMicrosoft SQL Server 2005
-JDBC Driver ‚É‚¨‚¢‚Ä‚à  selectMethod=cursor ƒIƒvƒVƒ‡ƒ“‚ª“¯—l‚É•K—v‚Å‚ ‚é‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B‚±‚ÌƒIƒvƒVƒ‡ƒ“‚ð•t‚¯‚È‚¢‚ÆAŒ‹‰ÊƒZƒbƒg‚ðŽæ“¾‚·‚é‚Æ
-‚»‚Ì‘SŒ‚ðƒf[ƒ^ƒx[ƒX‚©‚çƒRƒs[‚·‚é‚æ‚¤‚È‹““®‚ð‚µ‚Ü‚·B‚±‚ê‚Í ’Êí‚Ìƒf[ƒ^ƒx[ƒXƒvƒƒOƒ‰ƒ~ƒ“ƒO‚ÉŠµ‚ê‚½l‚É‚Í‚Æ‚Ä‚àˆá˜aŠ´‚ðŠ´‚¶‚³‚¹‚é‹““®‚Å‚·B‚½‚Æ‚¦‚Î
-100–œŒ‚ÌŒ‹‰ÊƒZƒbƒg‚ðƒf[ƒ^ƒx[ƒXã‚É“¾‚½‚¾‚¯‚ÅA“à•”“I‚É‚Í ‚Ü‚¸100–œŒ‚ð ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêã‚Ö‚Ìƒf[ƒ^“]‘—‚ªŽn‚Ü‚Á‚Ä‚µ‚Ü‚¢‚Ü‚·B</P>
-<P>‚±‚ÌŒ»Û‚Í blancoDbDotNet (.NET Framework”Å blancoDb) ‚ÌŽŽŒ±‚ð‚µ‚Ä‚¢‚Ä OutOfMemoryError‚ª”­¶‚µ‚Ä
-‚Í‚¶‚ß‚Ä‹C‚ª‚Â‚«‚Ü‚µ‚½BblancoDb‚Í Šî–{“I‚É ‰½ç–œŒˆµ‚¨‚¤‚ª OutOfMemoryError‚Í”­¶‚µ‚È‚¢‚æ‚¤‚ÈƒA[ƒLƒeƒNƒ`ƒƒ‚ðÌ—p‚µ‚Ä‚¢‚Ü‚·B‚»‚ê‚È‚Ì‚É
-Microsoft SQL Server 2005 JDBC Driver ‚ðŒo—R‚µ‚ÄA’P‚È‚éƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ð‚¨‚±‚È‚Á‚½ ‚¾‚¯‚Å OutOfMemoryError‚ª”­¶‚µ‚Ä‚µ‚Ü‚Á‚½‚Ì‚Å‚·B‚±‚±‚Å
-‚æ‚¤‚â‚Á‚Æ ƒIƒvƒVƒ‡ƒ“‚ª 2005ƒhƒ‰ƒCƒo‚Å‚à•K—v‚¾‚Æ‚¢‚¤‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½BSQL Server 2005 JDBC Driver‚ª 2000—p‚Ìƒhƒ‰ƒCƒo‚Æ“¯—l‚É
-selectMethod=cursor‚ª•K—v‚¾‚Á‚½‚Ì‚Å‚·B(c blancoDb ‚Í ³‚µ‚­ŽÀ‘•‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ª‚í‚©‚Á‚Ä ‚Ù‚Á‚Æ‚µ‚Ü‚µ‚½B)</P>
-<P>‚»‚Ì‚æ‚¤‚È——R‚©‚çASQL Server 2000 / 2005 JDBC Driver ‚ð—˜—p‚µ‚Ä blancoDb‚Ìƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ð‚¨‚±‚È‚¤Û‚É‚Í
-selectMethod=cursor ‚ðƒf[ƒ^ƒx[ƒXÚ‘±ƒIƒvƒVƒ‡ƒ“‚É•t—^‚·‚é‚±‚Æ‚ð‹­‚­Š©‚ß‚Ü‚·B¶¬‘¬“x‚ª‘å•‚É‰ü‘P‚·‚éê‡‚ª‚ ‚è‚Ü‚·B</P>
-<P>‚»‚¤‚¢‚¦‚Î ADO.NET‚ÌƒfƒtƒHƒ‹ƒg‚à ƒf[ƒ^ƒx[ƒXƒJ[ƒ\ƒ‹‚ð—˜—p‚µ‚È‚¢‚Å ‚Ü‚¸‘SŒ“]‘—‚·‚éƒA[ƒLƒeƒNƒ`ƒƒ‚ªƒfƒtƒHƒ‹ƒg‚Å‚ ‚Á‚½‚æ‚¤‚È‹L‰¯‚ª
-‚Ó‚ç‚Ó‚ç‚Æ‚æ‚Ý‚ª‚¦‚è‚Ü‚·Bƒ}ƒCƒNƒƒ\ƒtƒgŒnƒf[ƒ^ƒx[ƒXAPI‚ðˆµ‚¤Û‚É‚ÍA‚±‚Ì“_‚ð‹C‚ð‚Â‚¯‚È‚¢‚Æ‚¢‚¯‚È‚¢‚Æ ‰ü‚ß‚ÄŽv‚¢’m‚è‚Ü‚µ‚½B</P>
+<P>SQL Server 2000 ï¿½ï¿½ JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å’ï¿½ï¿½ï¿½ï¿½Æ‚Í‘å‚«ï¿½ï¿½ï¿½Ù‚È‚é‹“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½Ë‚Ä‚ï¿½ï¿½sï¿½vï¿½cï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ªï¿½ASQL
+Server 2005 JDBC Driverï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½Ì“_ï¿½Í‰ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½BMicrosoft SQL Server 2005
+JDBC Driver ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½  selectMethod=cursor ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½É•Kï¿½vï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌƒIï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½È‚ï¿½ï¿½ÆAï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ì‘Sï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Êï¿½Ìƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ÉŠï¿½ï¿½ê‚½ï¿½lï¿½É‚Í‚Æ‚Ä‚ï¿½ï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‹“ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½
+100ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É‚ï¿½ ï¿½Ü‚ï¿½100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ìƒfï¿½[ï¿½^ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Û‚ï¿½ blancoDbDotNet (.NET Frameworkï¿½ï¿½ blancoDb) ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ OutOfMemoryErrorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Í‚ï¿½ï¿½ß‚Ä‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BblancoDbï¿½ï¿½ ï¿½ï¿½{ï¿½Iï¿½ï¿½ ï¿½ï¿½ï¿½ç–œï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OutOfMemoryErrorï¿½Í”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½ÈƒAï¿½[ï¿½Lï¿½eï¿½Nï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½È‚Ì‚ï¿½
+Microsoft SQL Server 2005 JDBC Driver ï¿½ï¿½ï¿½oï¿½Rï¿½ï¿½ï¿½ÄAï¿½Pï¿½È‚ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OutOfMemoryErrorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½æ‚¤ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2005ï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½Å‚ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BSQL Server 2005 JDBC Driverï¿½ï¿½ 2000ï¿½pï¿½Ìƒhï¿½ï¿½ï¿½Cï¿½oï¿½Æ“ï¿½ï¿½lï¿½ï¿½
+selectMethod=cursorï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B(ï¿½c blancoDb ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½ï¿½ï¿½ ï¿½Ù‚ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B)</P>
+<P>ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È—ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ASQL Server 2000 / 2005 JDBC Driver ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ blancoDbï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Û‚É‚ï¿½
+selectMethod=cursor ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½É•tï¿½^ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½å•ï¿½É‰ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ADO.NETï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Sï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½[ï¿½Lï¿½eï¿½Nï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½
+ï¿½Ó‚ï¿½Ó‚ï¿½Æ‚ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½}ï¿½Cï¿½Nï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½nï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½XAPIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ÍAï¿½ï¿½ï¿½Ì“_ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß‚ÄŽvï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PostgreSQL ‚Ì PHPƒCƒ“ƒ^ƒtƒF[ƒX‚Ìƒƒ‚</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PostgreSQL ï¿½ï¿½ PHPï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½Ìƒï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ì PHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDbPhp</A>‚ÌŽd—lô’è‚É‚Þ‚¯‚ÄA‚Ü‚¸‚ÍPostgreSQL ‚Ì PHPƒCƒ“ƒ^ƒtƒF[ƒX‚ð‚´‚Á‚­‚è’²‚×‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancodbphp.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚ï¿½ PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDbPhp</A>ï¿½ÌŽdï¿½lï¿½ï¿½ï¿½ï¿½É‚Þ‚ï¿½ï¿½ÄAï¿½Ü‚ï¿½ï¿½ï¿½PostgreSQL ï¿½ï¿½ PHPï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è’²ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>CXXII. PostgreSQL Functions<BR>
   <A HREF="http://www.php.net/manual/en/ref.pgsql.php">http://www.php.net/manual/en/ref.pgsql.php</A>
 </UL>
-<P><FONT color="#ff00ff">ŒŸõŒ^</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½^</FONT></P>
 <UL>
-  <LI>pg_send_query (ƒpƒ‰ƒ[ƒ^–³ƒNƒGƒŠ‚Ì”­s)<BR>
+  <LI>pg_send_query (ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½Nï¿½Gï¿½ï¿½ï¿½Ì”ï¿½ï¿½s)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-send-query.php">http://www.php.net/manual/en/function.pg-send-query.php</A>
-  <LI>pg_send_query_params (ƒpƒ‰ƒ[ƒ^•tƒNƒGƒŠ‚Ì”­s)<BR>
+  <LI>pg_send_query_params (ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½tï¿½Nï¿½Gï¿½ï¿½ï¿½Ì”ï¿½ï¿½s)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-send-query-params.php">http://www.php.net/manual/en/function.pg-send-query-params.php</A>
 </UL>
 <UL>
-  <LI>pg_get_result (Œ‹‰ÊƒZƒbƒg‚ÌŽæ“¾)<BR>
+  <LI>pg_get_result (ï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ÌŽæ“¾)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-get-result.php">http://www.php.net/manual/en/function.pg-get-result.php</A>
-  <LI>pg_fetch_object (ƒIƒuƒWƒFƒNƒg‚Æ‚µ‚ÄƒtƒFƒbƒ`)<BR>
+  <LI>pg_fetch_object (ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Æ‚ï¿½ï¿½Äƒtï¿½Fï¿½bï¿½`)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-fetch-object.php">http://www.php.net/manual/en/function.pg-fetch-object.php</A><BR>
-  ¦‚¢‚­‚Â‚©‚ÌƒtƒFƒbƒ`ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ª‚ ‚é‚Ì‚¾‚ªA‚±‚Ìƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ª Ž„‚É‚Í“éõ‚Ý‚»‚¤‚È‹C‚ª‚µ‚Ü‚µ‚½B
-  <LI>pg_field_is_null (NULL‚©‚Ç‚¤‚©‚Ì”»’è)<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ìƒtï¿½Fï¿½bï¿½`ï¿½tï¿½@ï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É‚Í“ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>pg_field_is_null (NULLï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-field-is-null.php">http://www.php.net/manual/en/function.pg-field-is-null.php</A><BR>
-  ¦ƒIƒuƒWƒFƒNƒg‚ÅƒtƒFƒbƒ`‚·‚ê‚Î NULL”»’è‚Í•s—v‚©‚à’m‚ê‚Ü‚¹‚ñB
+  ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Åƒtï¿½Fï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ NULLï¿½ï¿½ï¿½ï¿½Í•sï¿½vï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 </UL>
 <UL>
-  <LI>ƒƒ‚: PostgreSQL‚ÌPHPƒCƒ“ƒ^ƒtƒF[ƒX‚É‚¨‚¯‚éƒpƒ‰ƒ[ƒ^ƒNƒGƒŠ‚Í $1, $2 ‚Ì‚æ‚¤‚ÈŽw’è•û–@‚ª‚ ‚éB
+  <LI>ï¿½ï¿½ï¿½ï¿½: PostgreSQLï¿½ï¿½PHPï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½ï¿½ $1, $2 ï¿½Ì‚æ‚¤ï¿½ÈŽwï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">ŽÀsŒ^</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½sï¿½^</FONT></P>
 <UL>
-  <LI>pg_send_prepare (ŽÀsŒ^ƒNƒGƒŠ‚ÌƒvƒŠƒyƒA[)<BR>
+  <LI>pg_send_prepare (ï¿½ï¿½ï¿½sï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½yï¿½Aï¿½[)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-send-prepare.php">http://www.php.net/manual/en/function.pg-send-prepare.php</A>
-  <LI>pg_send_execute (ŽÀsŒ^ƒNƒGƒŠ‚Ì”­sBƒpƒ‰ƒ[ƒ^•t)<BR>
+  <LI>pg_send_execute (ï¿½ï¿½ï¿½sï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½Ì”ï¿½ï¿½sï¿½Bï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½t)<BR>
   <A HREF="http://www.php.net/manual/en/function.pg-send-execute.php">http://www.php.net/manual/en/function.pg-send-execute.php</A>
 </UL>
-<P><FONT color="#ff00ff">‹C‚É‚È‚Á‚½API</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Cï¿½É‚È‚ï¿½ï¿½ï¿½API</FONT></P>
 <UL>
-  <LI>pg_connection_busy ‚Æ‚¢‚¤ Ž„‚É‚Í—‰ð•s”\‚Èƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ª‚ ‚è‚Ü‚·B‚µ‚©‚à ‘½‚­‚ÌƒTƒ“ƒvƒ‹‚Å ‚±‚Ìƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚ðŒÄ‚Ño‚µ‚Ä‚¢‚Ü‚·B
+  <LI>pg_connection_busy ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É‚Í—ï¿½ï¿½ï¿½sï¿½\ï¿½Èƒtï¿½@ï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff0000">2006.12.29’Ç‹L</FONT> Œã“ú’k ‚»‚ÌŒãA<A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ì PHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDbPhp</A>‚Í PDOƒx[ƒX‚Ìƒf[ƒ^ƒx[ƒX“üo—Í‚ð‚¨‚±‚È‚¤‚æ‚¤‚É•ûj‚ª•ÏX‚³‚ê‚Ü‚µ‚½B</P>
+<P><FONT color="#ff0000">2006.12.29ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½k ï¿½ï¿½ï¿½https://www.igapyon.jp/.igapyon.jp/blanco/blancodbphp.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚ï¿½ PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDbPhp</A>ï¿½ï¿½ PDOï¿½xï¿½[ï¿½Xï¿½Ìƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É•ï¿½ï¿½jï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

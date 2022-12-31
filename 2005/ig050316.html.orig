@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/03/16 “ú‹L: blancoDb 0.5.0 EA1 ƒŠƒŠ[ƒXŠÖ˜Aì‹Æ‚É’…Žè</TITLE>
-<META name="DESCRIPTION" content="blancoDb EA1 (‘ŠúƒAƒNƒZƒX) ‚ÌƒŠƒŠ[ƒXŠÖ˜Aì‹Æ‚É’…ŽèŠJŽn‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/03/16 ï¿½ï¿½ï¿½L: blancoDb 0.5.0 EA1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Ö˜Aï¿½ï¿½Æ‚É’ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="blancoDb EA1 (ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½X) ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Ö˜Aï¿½ï¿½Æ‚É’ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/03/16 “ú‹L: blancoDb 0.5.0 EA1 ƒŠƒŠ[ƒXŠÖ˜Aì‹Æ‚É’…Žè</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blancoDb EA1 (‘ŠúƒAƒNƒZƒX) ‚ÌƒŠƒŠ[ƒXŠÖ˜Aì‹Æ‚É’…ŽèŠJŽn‚µ‚Ü‚·B</P>
+    <H2>2005/03/16 ï¿½ï¿½ï¿½L: blancoDb 0.5.0 EA1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Ö˜Aï¿½ï¿½Æ‚É’ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blancoDb EA1 (ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½X) ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Ö˜Aï¿½ï¿½Æ‚É’ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,33 +60,33 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb 0.5.0 EA1 (‘ŠúƒAƒNƒZƒX) ƒŠƒŠ[ƒXŠÖ˜Aì‹Æ‚ðŠJŽn‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb 0.5.0 EA1 (ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½X) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Ö˜Aï¿½ï¿½Æ‚ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> EA1‚É‚Â‚¢‚ÄAƒ\[ƒXƒR[ƒh‚¨‚æ‚Ñƒ[ƒhƒ‚ƒWƒ…[ƒ‹‚Æ‚µ‚Ä“à—e‚ªŒÅ‚Ü‚Á‚Ä‚«‚½‚Ì‚ÅA¡‚©‚çƒŠƒŠ[ƒXŠÇ—ŠÖ˜Aì‹Æ‚É’…Žè‚µ‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> EA1ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä“ï¿½ï¿½eï¿½ï¿½ï¿½Å‚Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½çƒŠï¿½ï¿½ï¿½[ï¿½Xï¿½Ç—ï¿½ï¿½Ö˜Aï¿½ï¿½Æ‚É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>blancoDb ‚¨‚æ‚Ñ blancoDbƒ`ƒ…[ƒgƒŠƒAƒ‹<BR>
+  <LI>blancoDb ï¿½ï¿½ï¿½ï¿½ï¿½ blancoDbï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½<BR>
   <A HREF="http://hp.vector.co.jp/authors/VA027994/blanco/blancodb.html">http://hp.vector.co.jp/authors/VA027994/blanco/blancodb.html</A>
 </UL>
-<P>‚È‚¨A¡‰ñ‚ÌƒŠƒŠ[ƒX‚Í EA1 (Early Access 1) ‚Æ‚¢‚¤‚±‚Æ‚ÅA‚Ç‚¤‚µ‚Ä‚à blancoDb‚ÉG‚Á‚Ä‚Ý‚½‚¢•¨D‚«‚Èl—p‚Ì‘ŠúƒAƒNƒZƒXƒvƒƒOƒ‰ƒ€‚Ì‚à‚Æ‚ÉƒŠƒŠ[ƒX‚³‚ê‚Ü‚·B‚Æ‚è‚ ‚¦‚¸A’m‚ç‚È‚¢l‚ª
-‚¿‚å‚±‚Á‚ÆŽŽ‚·‚±‚Æ‚·‚ç”ñí‚É¢“ï‚ÈƒhƒLƒ…ƒƒ“ƒgó‹µ‚Å‚ ‚é‚±‚Æ‚ðŽ„Ž©g‚ª”FŽ¯‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>‚Ü‚¸Ž„‚ª‚µ‚È‚­‚Ä‚Í‚È‚ç‚È‚¢‚±‚Æ‚ÍAŠÈ’Pƒ`ƒ…[ƒgƒŠƒAƒ‹Œn‚ÌƒhƒLƒ…ƒƒ“ƒgì¬‚É‚¢‚»‚µ‚Ý‚Ü‚·B‚à‚¤Žb‚­ ‚¨‘Ò‚¿‰º‚³‚¢‚Ü‚¹B</P>
+<P>ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ EA1 (Early Access 1) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ blancoDbï¿½ÉGï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dï¿½ï¿½ï¿½Èlï¿½pï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚Éƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½mï¿½ï¿½È‚ï¿½ï¿½lï¿½ï¿½
+ï¿½ï¿½ï¿½å‚±ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½Èƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ó‹µ‚Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ÍAï¿½È’Pï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½nï¿½Ìƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ì¬ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½ ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStruts Žd—lô’è‚Í ‚¤‚Á‚¿[‚ÉˆÏ‚Ë‚Ä‚«‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStruts ï¿½dï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ÉˆÏ‚Ë‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>blancoStruts‚ÌŽd—lô’è‚Í ‚¤‚Á‚¿[‚ÉˆÏ‚Ë‚Ä‚«‚Ü‚µ‚½BÅ’áƒŒƒxƒ‹‚ÌŽd—l‘‚ðì¬‚µ‚Ä ‚¤‚Á‚¿[‚É‚È‚·‚è‚Â‚¯‚Ü‚µ‚½B‚¤‚Á‚¿[‚Í Jakarta
-Struts‚Ìê–å‰Æ‚È‚Ì‚ÅA‚±‚Ì“_‚ÍˆÀS‚Å‚·B(‚Æ‚¢‚¤‚© Ž„‚Í Struts‚ð’m‚ç‚È‚³‚·‚¬‚Ü‚·)</P>
+<P>blancoStrutsï¿½ÌŽdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ÉˆÏ‚Ë‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Å’áƒŒï¿½xï¿½ï¿½ï¿½ÌŽdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½É‚È‚ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ Jakarta
+Strutsï¿½Ìï¿½ï¿½Æ‚È‚Ì‚ÅAï¿½ï¿½ï¿½Ì“_ï¿½Íˆï¿½ï¿½Sï¿½Å‚ï¿½ï¿½B(ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Strutsï¿½ï¿½mï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½)</P>
 <UL>
-  <LI>Jakarta Struts 1.1 ‚ªƒ^[ƒQƒbƒg
-  <LI>•\ŒvŽZƒ\ƒtƒg‚Åƒƒ^î•ñ‚ð‹Lq
+  <LI>Jakarta Struts 1.1 ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½g
+  <LI>ï¿½\ï¿½vï¿½Zï¿½\ï¿½tï¿½gï¿½Åƒï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½q
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>
