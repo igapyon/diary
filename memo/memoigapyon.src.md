@@ -7,15 +7,21 @@
 
 [Diary](${settings.baseurl}/)
 / [Facebook](https://www.facebook.com/igapyon)
+/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
+/ [Mastodon](@igapyon@vivaldi.net)
 / [Twitter](https://twitter.com/ToshikiIga)
 / [GitHub](https://github.com/igapyon)
-/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
+/ [Qiita](https://qiita.com/igapyon)
 / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
 / [OSDN](https://ja.osdn.net/users/iga/)
 
-[![いがぴょん](${settings.baseurl}/images/iga200306.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
+### 2016年頃
 
-↑最近は白髪が急速に増えていて、この画像とはかなり異なります。
+[![いがぴょん](${settings.baseurl}/images/iga201605.png "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
+
+### 2003年頃
+
+[![いがぴょん](${settings.baseurl}/images/iga200306.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
 
 ### 自分用の簡便リンク
 
