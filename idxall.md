@@ -38,6 +38,7 @@
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
+* [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
 * [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](2022/ig220901.html)
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
