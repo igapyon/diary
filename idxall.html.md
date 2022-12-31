@@ -2103,6 +2103,20 @@
 * [1996-08-30 diary: いがぴょんの日記...手前味噌、家庭内LAN](1996/ig960830.html)
 
 
+### 私について簡単説明
+
+本名: 伊賀 敏樹 （Tosiki Iga）
+
+[Diary](https://www.igapyon.jp/igapyon/diary/)
+/ [Facebook](https://www.facebook.com/igapyon)
+/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
+/ [GitHub](https://github.com/igapyon)
+/ [Qiita](https://qiita.com/igapyon)
+/ [Mastodon](https://social.vivaldi.net/@igapyon)
+/ [Twitter](https://twitter.com/ToshikiIga)
+/ [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
+/ [OSDN](https://ja.osdn.net/users/iga/)
+
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について

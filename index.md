@@ -54,29 +54,6 @@
 * [2021-05-13 diary: [Oiyokan] Supported HTTP method by Oiyokan v1.14](2021/ig210513.html)
 
 
-私のインターネットへのアンテナです。
-
-
-## 資料: いがぴょんのアンテナ
-
-よく参照させていただいている他の方の web サイトについて、RSS フィードさせていただいておりました。(現在は運用停止)
-
-
-<@rssfeed url="https://www.publickey1.jp/atom.xml" maxcount="7" />
-
-<@rssfeed url="http://www.hyuki.com/d/rss.xml" maxcount="3" />
-
-<@rssfeed url="https://queryfeed.net/twitter?q=%40hyuki&title-type=user-name-screen&geocode=" maxcount="10" />
-
-<@rssfeed url="http://rss.asahi.com/rss/asahi/newsheadlines.rdf" maxcount="7" />
-
-
-### 私むけ役立ちリンク
-
-* 翻訳
-  * [Google Translate](https://translate.google.com/)
-  * [英辞郎 on the WEB](http://eow.alc.co.jp/search?q=Apple)
-
 ### 私について簡単説明
 
 本名: 伊賀 敏樹 （Tosiki Iga）
