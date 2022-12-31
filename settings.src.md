@@ -19,10 +19,7 @@ ${setSourcebaseurl("https://github.com/igapyon/diary/blob/master")}
 ${setSitetitle("Igapyon Diary v3")}
 
 <#-- homepage main site -->
-${setBaseurl("http://www.igapyon.jp/igapyon/diary")}
-<#--
-${setBaseurl("http://igapyon.a.la9.jp/igapyon/diary")}
--->
+${setBaseurl("https://www.igapyon.jp/igapyon/diary")}
 
 <#-- github gh-pages site -->
 <#--

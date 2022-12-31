@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/keyword/servlet.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/servlet.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://www.igapyon.jp/igapyon/diary/keyword/servlet.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/servlet.src.md) 
 
 Servlet
 =====================================================================================================
-[![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 ## Servlet
 
@@ -32,5 +32,5 @@ Servlet
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CServlet%2CJava&text=Servlet&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Fservlet.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CServlet%2CJava&text=Servlet&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Fservlet.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

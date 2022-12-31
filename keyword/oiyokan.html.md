@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/keyword/oiyokan.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/oiyokan.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://www.igapyon.jp/igapyon/diary/keyword/oiyokan.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/oiyokan.src.md) 
 
 Oiyokan
 =====================================================================================================
-[![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 ## Oiyokan
 
@@ -14,7 +14,7 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 簡単に Oiyokan を試すには `Oiyokan Initializr` を利用するのが一番近道です。
 
-* Getting Started : [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](http://www.igapyon.jp/igapyon/diary/2021/ig210511.html)
+* Getting Started : [2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)](https://www.igapyon.jp/igapyon/diary/2021/ig210511.html)
 
 ### URL
 
@@ -53,5 +53,5 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COiyokan&text=Oiyokan&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Foiyokan.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COiyokan&text=Oiyokan&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Foiyokan.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

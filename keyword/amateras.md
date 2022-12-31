@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/keyword/amateras.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/amateras.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://www.igapyon.jp/igapyon/diary/keyword/amateras.html) / [source](https://github.com/igapyon/diary/blob/master/keyword/amateras.src.md) 
 
 Amateras
 =====================================================================================================
-[![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 ## Amateras
 
@@ -20,7 +20,7 @@ Amateras
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Amateras)
+* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Amateras)
 * [Search in Google](https://www.google.co.jp/#pws=0&q=Amateras+Java)
 * [Search in Twitter](https://twitter.com/search?q=Amateras+Java)
 
@@ -34,5 +34,5 @@ Amateras
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CAmateras%2Cgithub%2CApache%2COSS&text=Amateras&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Famateras.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2CAmateras%2Cgithub%2CApache%2COSS&text=Amateras&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fkeyword%2Famateras.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

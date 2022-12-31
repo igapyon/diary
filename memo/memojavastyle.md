@@ -1,8 +1,8 @@
-[top](../index.html) / [index](index.html) / [target](http://www.igapyon.jp/igapyon/diary/memo/memojavastyle.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memojavastyle.src.md) 
+[top](../index.html) / [index](index.html) / [target](https://www.igapyon.jp/igapyon/diary/memo/memojavastyle.html) / [source](https://github.com/igapyon/diary/blob/master/memo/memojavastyle.src.md) 
 
 資料: Java言語ソースファイルのスタイルおよび調整ツール
 =====================================================================================================
-[![いがぴょんの日記](http://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [old-v2](memojavastyle-orig.html)
 
@@ -100,5 +100,5 @@ echo checkstyle実行
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E8%B3%87%E6%96%99%3A+Java%E8%A8%80%E8%AA%9E%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%8A%E3%82%88%E3%81%B3%E8%AA%BF%E6%95%B4%E3%83%84%E3%83%BC%E3%83%AB&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemojavastyle.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E8%B3%87%E6%96%99%3A+Java%E8%A8%80%E8%AA%9E%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%8A%E3%82%88%E3%81%B3%E8%AA%BF%E6%95%B4%E3%83%84%E3%83%BC%E3%83%AB&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemojavastyle.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

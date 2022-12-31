@@ -111,8 +111,9 @@
 			<!-- run ant task -->
 			<!-- usage: mvn antrun:run -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>3.1.0</version>
 				<configuration>
 					<!-- generate keyword md file -->
 					<target>
@@ -128,7 +129,7 @@
 
 						<!-- Next -->
 
-						<!-- convert md to html and ftp -->
+						<!-- convert md to html -->
 						<property name="classpath" refid="maven.runtime.classpath" />
 
 						<echo>md2html</echo>
@@ -143,65 +144,11 @@
 								<pathelement path="${classpath}" />
 							</classpath>
 						</java>
-
-						<echo>transfer via ftp</echo>
-						<!-- replace here -->
-						<property name="ftp.server" value="FTPSERVER" />
-						<property name="ftp.remotedir" value="FTPREMOTEDIR" />
-						<property name="ftp.user" value="USER" />
-						<property name="ftp.pass" value="PASS" />
-						<!-- replace here -->
-
-						<ftp server="${ftp.server}" remotedir="${ftp.remotedir}"
-							userid="${ftp.user}" password="${ftp.pass}" passive="true"
-							retriesAllowed="3" verbose="true">
-							<fileset dir="target/md2html">
-								<include name="*.html" />
-								<include name="keyword/*.html" />
-								<include name="memo/*.html" />
-								<include name="images/*.*" />
-								<include name="1996/*.html" />
-								<include name="1997/*.html" />
-								<include name="1998/*.html" />
-								<include name="2000/*.html" />
-								<include name="2001/*.html" />
-								<include name="2002/*.html" />
-								<include name="2003/*.html" />
-								<include name="2004/*.html" />
-								<include name="2005/*.html" />
-								<include name="2006/*.html" />
-								<include name="2007/*.html" />
-								<include name="2008/*.html" />
-								<include name="2009/*.html" />
-								<include name="2010/*.html" />
-								<include name="2011/*.html" />
-								<include name="2012/*.html" />
-								<include name="2013/*.html" />
-								<include name="2014/*.html" />
-								<include name="2015/*.html" />
-								<include name="2016/*.html" />
-								<include name="2017/*.html" />
-								<include name="2018/*.html" />
-								<include name="2019/*.html" />
-								<include name="2020/*.html" />
-								<include name="2021/*.html" />
-								<include name="2022/*.html" />
-							</fileset>
-						</ftp>
 					</target>
 				</configuration>
 				<goals>
 					<goal>run</goal>
 				</goals>
-				<dependencies>
-					<!-- ant ftp dependency -->
-					<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-commons-net -->
-					<dependency>
-						<groupId>org.apache.ant</groupId>
-						<artifactId>ant-commons-net</artifactId>
-						<version>1.10.12</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
