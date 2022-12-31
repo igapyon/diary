@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/12/16 “ú‹L: .NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹AblancoDbDotNet ‰‚ÌŒöŠJƒAƒ‹ƒtƒ@”Å‚ðƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content=".NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚ ‚é blancoDbDotNet‚É‚Â‚¢‚ÄA‚Ü‚¸‚Í’Pˆê•\ƒŒƒxƒ‹‚Å“®ì‚·‚é‚æ‚¤‚É‚È‚Á‚½‚Ì‚ÅŒöŠJƒAƒ‹ƒtƒ@”Å‚Æ‚¢‚¤Œ`‚Å’ñ‹Ÿ‚µ‚Ü‚·BblancoDbDotNet‚Í ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ^ƒCƒv‚Ì R/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/12/16 ï¿½ï¿½ï¿½L: .NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½AblancoDbDotNet ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content=".NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbDotNetï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Ü‚ï¿½ï¿½Í’Pï¿½ï¿½\ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚Æ‚ï¿½ï¿½ï¿½ï¿½`ï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½BblancoDbDotNetï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½ R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/12/16 “ú‹L: .NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹AblancoDbDotNet ‰‚ÌŒöŠJƒAƒ‹ƒtƒ@”Å‚ðƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] .NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚ ‚é blancoDbDotNet‚É‚Â‚¢‚ÄA‚Ü‚¸‚Í’Pˆê•\ƒŒƒxƒ‹‚Å“®ì‚·‚é‚æ‚¤‚É‚È‚Á‚½‚Ì‚ÅŒöŠJƒAƒ‹ƒtƒ@”Å‚Æ‚¢‚¤Œ`‚Å’ñ‹Ÿ‚µ‚Ü‚·BblancoDbDotNet‚Í ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ^ƒCƒv‚Ì R/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚·B</P>
+    <H2>2005/12/16 ï¿½ï¿½ï¿½L: .NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½AblancoDbDotNet ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] .NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbDotNetï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Ü‚ï¿½ï¿½Í’Pï¿½ï¿½\ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚Æ‚ï¿½ï¿½ï¿½ï¿½`ï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½BblancoDbDotNetï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½ R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,73 +60,73 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>.NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹AblancoDbDotNet ‰‚ÌŒöŠJƒAƒ‹ƒtƒ@”Å‚ðƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>.NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½AblancoDbDotNet ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>.NET Framework—p‚ÌR/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚ ‚é blancoDbDotNet‚É‚Â‚¢‚ÄA‚Ü‚¸‚Í’Pˆê•\ƒŒƒxƒ‹‚Å“®ì‚·‚é‚æ‚¤‚É‚È‚Á‚½‚Ì‚ÅŒöŠJƒAƒ‹ƒtƒ@”Å‚Æ‚¢‚¤Œ`‚Å’ñ‹Ÿ‚µ‚Ü‚·BblancoDbDotNet‚Í
-ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ^ƒCƒv‚Ì R/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚·BC#ƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚³‚ê‚Ü‚·B</P>
+<P>.NET Frameworkï¿½pï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbDotNetï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Ü‚ï¿½ï¿½Í’Pï¿½ï¿½\ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅŒï¿½ï¿½Jï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚Æ‚ï¿½ï¿½ï¿½ï¿½`ï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½BblancoDbDotNetï¿½ï¿½
+ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½ R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BC#ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework<BR>
-  ¨uƒ_ƒEƒ“ƒ[ƒhv‚Ìƒy[ƒW‚©‚çƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚Ü‚·B
+  <LI><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Framework<BR>
+  ï¿½ï¿½ï¿½uï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½vï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P>Œ»ÝŽÀ‘•‚µ‚Ä‚¢‚ÄÅ‚àŒœ”O‚ðŠ´‚¶‚Ä‚¢‚é‚Æ‚±‚ë‚ÍACLOB/BLOB‘Î‰ž‚É‚Â‚¢‚Ä‚Å‚·BŽ„‚ÌADO.NET‚Ì’mŽ¯‚¾‚ÆAŒ»Ý‚Ì‹““®‚É‚ ‚é‚æ‚¤‚È C#‚Ìƒ\[ƒXƒR[ƒh‚Ì‚æ‚¤‚ÈŠ´‚¶‚É‚È‚è‚Ü‚·B‚±‚ê‚ª‚¢‚¢‚Ì‚©‚Ç‚¤‚©’P‘ÌŽŽŒ±‚Å‚àô‚Á‚Ä‚¢‚­—\’è‚Å‚·‚ªA‚³‚·‚ª‚ÉŽ„‚Í
-ADO.NET‚Ìê–å«‚ª’á‚¢‚ÈA‚ÆŽ©•ª‚ÅŽÀŠ´‚µ‚Ü‚µ‚½B<BR>
-blancoDbDotNet‚ðŽŽ—p‚µ‚Ä‚¢‚½‚¾‚«A–â‘è“_‚â‰ü‘P“_‚È‚Ç‚ð‚¨Šñ‚¹‰º‚³‚é•û‚Ì“oê‚µ‚Ä‚­‚¾‚³‚ê‚Î‚Æ‚Á‚Ä‚àŠð‚µ‚¢‚Å‚·BblancoDb‚ÌŽd—l‚ð’m‚Á‚Ä‚¢‚é•û‚È‚çA‚È‚ñ‚Æ‚©‹ì“®‚Å‚«‚é‚©‚ÆŽv‚í‚ê‚Ü‚·B‚È‚¨A‚¨Šñ‚¹‚¢‚½‚¾‚¢‚½‚²ˆÓŒ©‚È‚Ç‚Ì‘S‚Ä‚É‚Í‘Î‰ž‚Å‚«‚È‚¢‚Å‚ ‚ë‚¤‚±‚Æ‚Í‚²—¹³‰º‚³‚¢B</P>
-<P>‚±‚ê‚©‚çŽÀ‘•‚µ‚Ä‚¢‚­Œ»Ý‚Í–¢ŽÀ‘•‚Å‚ ‚é‹@”\‚É‚Â‚¢‚Ä‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ÝŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄÅ‚ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ÍACLOB/BLOBï¿½Î‰ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ADO.NETï¿½Ì’mï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ý‚Ì‹ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ C#ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì‚æ‚¤ï¿½ÈŠï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½
+ADO.NETï¿½Ìï¿½å«ï¿½ï¿½ï¿½á‚¢ï¿½ÈAï¿½ÆŽï¿½ï¿½ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+blancoDbDotNetï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½Pï¿½_ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ñ‚¹‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“oï¿½ê‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BblancoDbï¿½ÌŽdï¿½lï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Aï¿½È‚ï¿½Æ‚ï¿½ï¿½ì“®ï¿½Å‚ï¿½ï¿½é‚©ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ñ‚¹‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÓŒï¿½ï¿½È‚Ç‚Ì‘Sï¿½Ä‚É‚Í‘Î‰ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ë‚¤ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½@ï¿½\ï¿½É‚Â‚ï¿½ï¿½Ä‚Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>SQL’è‹`‘(*.xls)‚©‚çR/Oƒ}ƒbƒsƒ“ƒO‚ð¶¬‚·‚é‹@”\
+  <LI>SQLï¿½ï¿½`ï¿½ï¿½(*.xls)ï¿½ï¿½ï¿½ï¿½R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ð¶ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\
 </UL>
-<P>”N“à‚ÉƒŠƒŠ[ƒX‚·‚é—\’è‚Ì‰”Å‚Å‚ÍŽÀ‘•‚µ‚È‚¢—\’è‚Ì‹@”\‚Í‰º‹L‚Å‚·B</P>
+<P>ï¿½Nï¿½ï¿½ï¿½Éƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Ìï¿½ï¿½Å‚Å‚ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½\ï¿½ï¿½Ì‹@ï¿½\ï¿½Í‰ï¿½ï¿½Lï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‘Î‰ž<BR>
-  ¨ADO.NET‚ÌƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‘Î‰ž‚ª —Ç‚­•ª‚©‚ç‚È‚¢c(‹êÎ)
-  <LI>DBƒAƒNƒZƒX‚ÌƒƒMƒ“ƒO‹@”\<BR>
-  ¨Log4Net‚ð—p‚¢‚½ƒƒMƒ“ƒO‚ðŽÀ‘•‚·‚é—\’è‚Å‚·B
-  <LI>SQL Server 2000 + ADO.NET ˆÈŠO‚ÌŠÂ‹«‚Ö‚Ì‘Î‰ž<BR>
-  ¨Oracle + ODP.NET‚Ö‚Ì‘Î‰ž‚Í X‚ÉŽŸ‚Ì”Å‚Å‘Î‰ž‚·‚éŒv‰æ‚Å‚·B
-  <LI>blancoDb‚É‚Í‘¶Ý‚·‚é‹@”\‚È‚Ì‚Å‚·‚ªAƒXƒNƒ[ƒ‹•ûŒü‚ÌŽw’è‚âXV‰Â”\‘®«‚ÌŽw’è‹@”\‚Í’ñ‹Ÿ‚µ‚È‚¢—\’è‚Å‚·B‚±‚ê‚Í ADO.NET‚ÌŽd—l‚Ì“s‡AŽÀ‘•‚Å‚«‚È‚¢‚Æ”»’f‚µ‚Ä‚¢‚é‚½‚ß‚Å‚·B
+  <LI>ï¿½Xï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½Î‰ï¿½<BR>
+  ï¿½ï¿½ADO.NETï¿½ÌƒXï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½c(ï¿½ï¿½ï¿½)
+  <LI>DBï¿½Aï¿½Nï¿½Zï¿½Xï¿½Ìƒï¿½ï¿½Mï¿½ï¿½ï¿½Oï¿½@ï¿½\<BR>
+  ï¿½ï¿½Log4Netï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B
+  <LI>SQL Server 2000 + ADO.NET ï¿½ÈŠOï¿½ÌŠÂ‹ï¿½ï¿½Ö‚Ì‘Î‰ï¿½<BR>
+  ï¿½ï¿½Oracle + ODP.NETï¿½Ö‚Ì‘Î‰ï¿½ï¿½ï¿½ ï¿½Xï¿½ÉŽï¿½ï¿½Ì”Å‚Å‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½Å‚ï¿½ï¿½B
+  <LI>blancoDbï¿½É‚Í‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½@ï¿½\ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽwï¿½ï¿½ï¿½Xï¿½Vï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽwï¿½ï¿½@ï¿½\ï¿½Í’ñ‹Ÿ‚ï¿½ï¿½È‚ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ADO.NETï¿½ÌŽdï¿½lï¿½Ì“sï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚½ï¿½ß‚Å‚ï¿½ï¿½B
 </UL>
-<P>‰”Å‚ª‘Î‰ž‚·‚éƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Í‰º‹L‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½bï¿½gï¿½tï¿½Hï¿½[ï¿½ï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Microsoft SQL Server 2000 SP4ˆÈ~<BR>
-  ¨SQL Server 2005‚É‚Â‚¢‚Ä‚ÍA‚»‚ê—p‚ÌƒT[ƒrƒXƒpƒbƒN‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚©‚çŒŸ“¢‚µ‚Ü‚·B
+  <LI>Microsoft SQL Server 2000 SP4ï¿½È~<BR>
+  ï¿½ï¿½SQL Server 2005ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½pï¿½ÌƒTï¿½[ï¿½rï¿½Xï¿½pï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½çŒŸï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   <LI>VisualStudio .NET 2003<BR>
-  ¨VisualStudo .NET 2005‚É‚Í ‘å•Ï‹»–¡‚ðŽ‚Á‚Ä‚¢‚Ü‚·BADO.NET 2.0‚É‚Â‚¢‚Ä‚àA‚Ç‚Ì‚æ‚¤‚È“_‚ª‹­‰»‚³‚ê‚½‚Ì‚©‘å•ÏŠy‚µ‚Ý‚É‚µ‚Ä‚¢‚Ü‚·B‚Ü‚¸‚Í
-  SQL Server 2005‚ÌƒT[ƒrƒXƒpƒbƒN‚ªƒŠƒŠ[ƒX‚³‚ê‚é‚±‚Æ‚ð‘Ò‚¿‚Ü‚·B
+  ï¿½ï¿½VisualStudo .NET 2005ï¿½É‚ï¿½ ï¿½ï¿½Ï‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BADO.NET 2.0ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½Ç‚Ì‚æ‚¤ï¿½È“_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ï¿½ï¿½ï¿½ÏŠyï¿½ï¿½ï¿½Ý‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½ï¿½
+  SQL Server 2005ï¿½ÌƒTï¿½[ï¿½rï¿½Xï¿½pï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P>ŽÀs‚É‚Í‰º‹L‚ÌŠÂ‹«‚ª•K—v‚Å‚·B<BR>
-¦.NET Framework—p‚Ìƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É JavaŽÀsŠÂ‹«‚ª•K—v‚È‚Ì‚Í ŠJ”­ƒRƒXƒg‚â•ÛŽçƒRƒXƒg‚È‚Ç‚Ì–Ê‚©‚ç‚â‚Þ‚ð‚¦‚È‚¢‚±‚Æ‚Å‚·B\‚µ–ó‚È‚¢‚Å‚·‚ª‚²—¹³‰º‚³‚¢B</P>
+<P>ï¿½ï¿½ï¿½sï¿½É‚Í‰ï¿½ï¿½Lï¿½ÌŠÂ‹ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½.NET Frameworkï¿½pï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Javaï¿½ï¿½ï¿½sï¿½Â‹ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚ï¿½ ï¿½Jï¿½ï¿½ï¿½Rï¿½Xï¿½gï¿½ï¿½ÛŽï¿½Rï¿½Xï¿½gï¿½È‚Ç‚Ì–Ê‚ï¿½ï¿½ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Sun J2RE 1.4.2ˆÈ~
+  <LI>Sun J2RE 1.4.2ï¿½È~
   <LI>Apache Ant
-  <LI>blancoDbDotNet–{‘Ì
-  <LI>Microsoft SQL Server 2000—p JDBCƒhƒ‰ƒCƒo (‰pŒê”ÅÅV”Å‚ð—˜—p‚·‚é‚±‚Æ‚ð„§)
+  <LI>blancoDbDotNetï¿½{ï¿½ï¿½
+  <LI>Microsoft SQL Server 2000ï¿½p JDBCï¿½hï¿½ï¿½ï¿½Cï¿½o (ï¿½pï¿½ï¿½ÅÅVï¿½Å‚ð—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ð„ï¿½)
 </UL>
-<P>”N“à‚É‚ÍA‰”Å‚Ì’P‘ÌŽŽŒ±‚ªI—¹‚·‚é—\’è‚Å‚·B</P>
+<P>ï¿½Nï¿½ï¿½ï¿½É‚ÍAï¿½ï¿½ï¿½Å‚Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ˆäã‚ ‚¸‚ÝFƒXƒ^ƒWƒIƒWƒuƒŠì•i–¼‹ÈWuŒN‚ð‚Ì‚¹‚ÄEEE‚Í‚é‚©v:‰¹ŠyCD</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ã‚ ï¿½ï¿½ï¿½ÝFï¿½Xï¿½^ï¿½Wï¿½Iï¿½Wï¿½uï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÈWï¿½uï¿½Nï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ÄEï¿½Eï¿½Eï¿½Í‚é‚©ï¿½v:ï¿½ï¿½ï¿½yCD</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>}‘ŠÙ‚ÅŽØ‚è‚Ä‚«‚Ü‚µ‚½Bˆäã‚ ‚¸‚Ý‚³‚ñA‚Æ‚Á‚Ä‚à‚·‚Ä‚«‚Å‚·B</P>
+<P>ï¿½}ï¿½ï¿½ï¿½Ù‚ÅŽØ‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ã‚ ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ˆäã‚ ‚¸‚ÝFƒXƒ^ƒWƒIƒWƒuƒŠì•i–¼‹ÈWuŒN‚ð‚Ì‚¹‚ÄEEE‚Í‚é‚©v<BR>
+  <LI>ï¿½ï¿½ã‚ ï¿½ï¿½ï¿½ÝFï¿½Xï¿½^ï¿½Wï¿½Iï¿½Wï¿½uï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÈWï¿½uï¿½Nï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ÄEï¿½Eï¿½Eï¿½Í‚é‚©ï¿½v<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig051216.src.html' , result='ig051216.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/B00008CH2R/igapyondiary-22">amazon.co.jp: B00008CH2R</A>
 </UL>
-<P>ƒ‰ƒCƒuŽû˜^B‚·‚²‚­”ü‚µ‚¢‚Å‚·B</P>
-<P>‚¾‚ñ‚¾‚ñƒgƒgƒ‚ÌƒTƒ“ƒgƒ‰‚ª—~‚µ‚­‚È‚Á‚Ä‚«‚Ü‚µ‚½B“–‘R ˆäã‚ ‚¸‚Ý‚³‚ñ‚É‚æ‚é‰Ì‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½^ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ñ‚¾‚ï¿½gï¿½gï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½R ï¿½ï¿½ã‚ ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>‚Æ‚È‚è‚Ìƒgƒgƒ ƒTƒEƒ“ƒhƒgƒ‰ƒbƒNW<BR>
+  <LI>ï¿½Æ‚È‚ï¿½Ìƒgï¿½gï¿½ï¿½ ï¿½Tï¿½Eï¿½ï¿½ï¿½hï¿½gï¿½ï¿½ï¿½bï¿½Nï¿½W<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/B0002IJLAK/igapyondiary-22">amazon.co.jp: B0002IJLAK</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

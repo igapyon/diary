@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/10/05 “ú‹L: XML Schema ‘Î Java/C# Œ^ƒ}ƒbƒsƒ“ƒO</TITLE>
-<META name="DESCRIPTION" content="¢‚É‚ ‚é XML Schema‚Æ Java/C#‚Æ‚ÌŠÔ‚ÌŒ^ƒ}ƒbƒsƒ“ƒO‚ðŠÈ’P‚É’²‚×‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/10/05 ï¿½ï¿½ï¿½L: XML Schema ï¿½ï¿½ Java/C# ï¿½^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ XML Schemaï¿½ï¿½ Java/C#ï¿½Æ‚ÌŠÔ‚ÌŒ^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½È’Pï¿½É’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/10/05 “ú‹L: XML Schema ‘Î Java/C# Œ^ƒ}ƒbƒsƒ“ƒO</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ¢‚É‚ ‚é XML Schema‚Æ Java/C#‚Æ‚ÌŠÔ‚ÌŒ^ƒ}ƒbƒsƒ“ƒO‚ðŠÈ’P‚É’²‚×‚Ü‚µ‚½B</P>
+    <H2>2005/10/05 ï¿½ï¿½ï¿½L: XML Schema ï¿½ï¿½ Java/C# ï¿½^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ XML Schemaï¿½ï¿½ Java/C#ï¿½Æ‚ÌŠÔ‚ÌŒ^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½È’Pï¿½É’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,26 +60,26 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML Schema ‘Î Java/C#Œ^ƒ}ƒbƒsƒ“ƒO</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML Schema ï¿½ï¿½ Java/C#ï¿½^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚²‚­‚´‚Á‚­‚è‚ÆŠÈ’P‚É’²‚×‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŠÈ’Pï¿½É’ï¿½ï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Castor‚Ì xsd‚©‚çJava‚Ö‚Ìƒ}ƒbƒsƒ“ƒO<BR>
+  <LI>Castorï¿½ï¿½ xsdï¿½ï¿½ï¿½ï¿½Javaï¿½Ö‚Ìƒ}ï¿½bï¿½sï¿½ï¿½ï¿½O<BR>
   <A HREF="http://www.castor.org/xmlschema.html">http://www.castor.org/xmlschema.html</A>
-  <LI>.NET‚ÌXMLƒXƒL[ƒ} ƒf[ƒ^Œ^ƒ}ƒbƒsƒ“ƒO<BR>
+  <LI>.NETï¿½ï¿½XMLï¿½Xï¿½Lï¿½[ï¿½} ï¿½fï¿½[ï¿½^ï¿½^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O<BR>
   <A HREF="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconDataTypeSupportBetweenXSDTypesNETFrameworkTypes.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconDataTypeSupportBetweenXSDTypesNETFrameworkTypes.asp</A>
 </UL>
-<P>‚ ‚ÆAAxis‚ÌŒ^ƒ}ƒbƒsƒ“ƒO•\‚ð‚Ç‚±‚©‚ÅŒ©‚©‚¯‚½‚Ì‚Å‚·‚ªA‚·‚®‚É‚ÍŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ÆAAxisï¿½ÌŒ^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½\ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ÅŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML Schema‚ÌŠÈ’P“ü–åƒy[ƒW (‰pŒê”Å)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>XML Schemaï¿½ÌŠÈ’Pï¿½ï¿½ï¿½ï¿½yï¿½[ï¿½W (ï¿½pï¿½ï¿½ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Œ‹\‚æ‚­o—ˆ‚Ä‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½\ï¿½æ‚­ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>XML Schema Part 0: Primer Second Edition<BR>
   <A HREF="http://www.w3.org/TR/xmlschema-0/">http://www.w3.org/TR/xmlschema-0/</A>
@@ -88,33 +88,33 @@
   <LI>XML Schema Part 2: Datatypes Second Edition<BR>
   <A HREF="http://www.w3.org/TR/xmlschema-2/">http://www.w3.org/TR/xmlschema-2/</A>
 </UL>
-<P>‰pŒê‚Å‚·‚¯‚ê‚Ç‚àcB</P>
+<P>ï¿½pï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½cï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Compuware World 2005ŽQ‰Á</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Compuware World 2005ï¿½Qï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Compuware World 2005‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½B–Ú“I‚Í <A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>‚ÉŠÖ‚·‚éî•ñŽûW‚Å‚·BVantege‚â<A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>‚ÌƒZƒbƒVƒ‡ƒ“‚Î‚©‚è‘I‚ñ‚Å’®u‚µ‚Ä‚«‚Ü‚µ‚½B<A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>‚ÍA¡Œã ŽdŽ–‚Ìã‚Åˆµ‚Á‚Ä‚¢‚«‚½‚¢‚Æl‚¦‚ÄŒŸ“¢‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>Compuware World 2005ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ú“Iï¿½ï¿½ <A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½Å‚ï¿½ï¿½BVantegeï¿½ï¿½<A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>ï¿½ÌƒZï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½ï¿½Iï¿½ï¿½Å’ï¿½ï¿½uï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A href="http://www.compuware.co.jp/products/vantage/vantageanalyzer/">Vantage Analyzer</A>ï¿½ÍAï¿½ï¿½ï¿½ï¿½ ï¿½dï¿½ï¿½ï¿½Ìï¿½Åˆï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½ÄŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStruts‚ª—IT‚Ì‹LŽ–‚ÉÚ‚Á‚Ä‚¢‚Ü‚µ‚½ (‚Ñ‚Á‚­‚è)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStrutsï¿½ï¿½ï¿½ï¿½ITï¿½Ì‹Lï¿½ï¿½ï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="u‰æ–Ê’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAStruts—p‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStruts</A> ‚ª —IT‚Ì‹LŽ–‚ÉÚ‚Á‚Ä‚¢‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancostruts.html" TITLE="ï¿½uï¿½ï¿½Ê’ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AStrutsï¿½pï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStruts</A> ï¿½ï¿½ ï¿½ï¿½ITï¿½Ì‹Lï¿½ï¿½ï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>—IT: ƒ\[ƒXƒR[ƒhŽ©“®¶¬‹Zp‚ÌÅVó‹µ ‚Å‚«‚é‚¾‚¯ƒR[ƒh‚ð‘‚©‚È‚¢‚Æ‚¢‚¤”­‘z<BR>
+  <LI>ï¿½ï¿½IT: ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½pï¿½ÌÅVï¿½ï¿½ ï¿½Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½z<BR>
   <A HREF="http://www.atmarkit.co.jp/farc/special/auto/auto01.html">http://www.atmarkit.co.jp/farc/special/auto/auto01.html</A>
-  <LI>‚±‚ê‚Ì‚Qƒy[ƒW–Ú‚ÉÚ‚Á‚Ä‚¢‚Ü‚µ‚½B<BR>
+  <LI>ï¿½ï¿½ï¿½ï¿½Ì‚Qï¿½yï¿½[ï¿½Wï¿½Ú‚ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
   <A HREF="http://www.atmarkit.co.jp/farc/special/auto/auto02.html">http://www.atmarkit.co.jp/farc/special/auto/auto02.html</A>
 </UL>
-<P>‹LŽ–‚ÉŽæ‚èã‚°‚Ä‚¢‚½‚¾‚«A‘å•Ï‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·BŠ´ŽÓ‚µ‚Ü‚·B<A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="u‰æ–Ê’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAStruts—p‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStruts</A>‚Í ‚à‚¤­‚µŽè“ü‚ê‚ðs‚Á‚Ä‚©‚ç³Ž®”Å‚ðƒŠƒŠ[ƒX‚·‚é‚æ‚¤‚È’iŽæ‚è‚É‚µ‚½‚­Žv‚Á‚Ä‚¨‚è‚Ü‚·B‚Æ‚è‚ ‚¦‚¸‹ßX
-Eclipseƒvƒ‰ƒOƒCƒ“‰»‚É‘Î‰ž‚ð‚³‚¹‚é—\’è‚Å‚·B</P>
+<P>ï¿½Lï¿½ï¿½ï¿½ÉŽï¿½ï¿½ã‚°ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Ï‚ï¿½ï¿½è‚ªï¿½https://www.igapyon.jp/B<A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="ï¿½uï¿½ï¿½Ê’ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AStrutsï¿½pï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStruts</A>ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç³ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È’iï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ßX
+Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

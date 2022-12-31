@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/11/10 “ú‹L: GlassFish Server 2.1.1 ƒŠƒŠ[ƒX , ƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é</TITLE>
-<META name="DESCRIPTION" content="¢ŠÔ‚ÌƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍAƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é‚æ‚¤‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2009/11/10 ï¿½ï¿½ï¿½L: GlassFish Server 2.1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , ï¿½gï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½Íƒeï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½Ô‚Ìƒgï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½ÍAï¿½eï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/11/10 “ú‹L: GlassFish Server 2.1.1 ƒŠƒŠ[ƒX , ƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ¢ŠÔ‚ÌƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍAƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é‚æ‚¤‚Å‚·B</P>
+    <H2>2009/11/10 ï¿½ï¿½ï¿½L: GlassFish Server 2.1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , ï¿½gï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½Íƒeï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½Ô‚Ìƒgï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½ÍAï¿½eï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,11 +59,11 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1.1 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GlassFish Server 2.1.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>GlassFish Server 2.1.1 ‚ªƒŠƒŠ[ƒX‚³‚ê‚Ä‚¢‚Ü‚µ‚½B</P>
+<P>GlassFish Server 2.1.1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="https://glassfish.dev.java.net/downloads/v2.1.1-final.html">https://glassfish.dev.java.net/downloads/v2.1.1-final.html</A>
   <LI><A HREF="http://www.sun.com/software/products/appsrvr/">http://www.sun.com/software/products/appsrvr/</A>
@@ -71,25 +71,25 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½gï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½Íƒeï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¢ŠÔ‚ÌƒgƒbƒvEƒvƒƒOƒ‰ƒ}[‚ÍAƒeƒgƒŠƒX‚ð 1 ŽžŠÔ‚ÅŠJ”­‚Å‚«‚é‚æ‚¤‚Å‚·B<BR>
-š‚¿‚È‚Ý‚ÉAŽ„‚É‚ÍA‚»‚ñ‚ÈŒ|“–‚Í‚Å‚«‚Ü‚¹‚ñB</P>
-<P>‚»‚¤‚¢‚¦‚ÎAˆÈ‘O <A href="http://d.hatena.ne.jp/cypher256/">”Œ´(cypher256)</A> ‚³‚ñ‚Æ‚¨‰ï‚¢‚µ‚½Û‚ÉA<A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ƒvƒ‰ƒOƒCƒ““ú–{Œê‰»ƒvƒ‰ƒOƒCƒ“BAOP‚É‚æ‚èƒŠƒ\[ƒX•¶Žš—ñ‚ð“ú–{Œê‰»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">Pleiades</A> Œ´Œ`•”•ª (‚¿‚á‚ñ‚Æ‹@”\‚·‚é‚à‚Ì) ‚Í 3 ŽžŠÔ‚Å‘‚«‚ ‚°‚½‚ñ‚¾‚æA‚È‚ñ‚Ä‚¢‚¤¢ŠÔ˜b‚ðŒð‚í‚µ‚½‚±‚Æ‚ðŽv‚¢o‚µ‚Ü‚µ‚½B<BR>
-# ‚ ‚Ì‚æ‚¤‚È•¡ŽG‚È‚à‚Ì‚ð 3 ŽžŠÔ‚Å‘‚«ã‚°‚é‚Æ‚ÍA‚à‚Ì‚·‚²‚¢‚±‚Æ‚È‚ñ‚Å‚·B</P>
-<P>‚»‚¤‚¢‚¦‚ÎAŽ„Ž©gA<A HREF="http://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="JavaƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ð“ü—Í‚µ‚ÄAŒ¾ŒêƒpƒbƒN‚ðŽ©“®¶¬‚µ‚Ü‚·BŽå‚ÉAEclipse –{‘Ì‚ÌŒ¾ŒêƒpƒbƒN‚â Eclipseƒvƒ‰ƒOƒCƒ“‚ÌŒ¾ŒêƒpƒbƒN‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoNLpackGenerator</A> ‚ÌŒ´Œ`•”•ª‚É‚Â‚¢‚ÄA3 ŽžŠÔ‚Å‘‚«‚ ‚°‚½‚Ì‚Å‚µ‚½B‚»‚¤‚»‚¤A‚»‚Ì˜b‘è‚ÌŽž‚ÉA”Œ´‚³‚ñ‚Ì
-Plieades ŠJ”­”é˜b(?) ‚ð•·‚¢‚½‚Ì‚Å‚µ‚½B</P>
-<P>‚ ‚ AAA‰½‚©ƒAƒCƒfƒA‚ª—N‚¢‚½‚Æ‚«‚ÉA‚»‚ÌƒAƒCƒfƒA‚Ì—LˆÓ«‚ðŠm”F‚·‚é‚½‚ß‚É”ï‚â‚·‚±‚Æ‚ª‚Å‚«‚éŽžŠÔ‚ÍA‚¨‚¨‚Þ‚ËÅ‘å 3 ŽžŠÔ’ö“x‚Å‚·B‚»‚µ‚ÄA(Ž„‚É‚Æ‚Á‚Ä‚Í)
-W’†—Í‚ªŽ‘±‚·‚éŽžŠÔ‚àA‚â‚Í‚è ‚¨‚¨‚Þ‚ËÅ‘å 3 ŽžŠÔ’ö“x‚Å‚·B(1 ŽžŠÔ‚ªè‡’l‚É‚È‚é‚à‚Ì‚È‚Ì‚©‚Ç‚¤‚©‚Í‚³‚Ä‚¨‚«) ”ŽžŠÔ’ö“x‚Æ‚¢‚Á‚½ŒÀ’è‚³‚ê‚½ŽžŠÔ‚Ì’†‚ÅA‚ ‚é—LˆÓ«‚ð‚à‚Á‚½ƒvƒƒOƒ‰ƒ€‚ð‘‚«‚ ‚°‚é”\—Í‚ÍA‚È‚É‚©V‚µ‚¢ƒ‚ƒm‚ð¶‚Ýo‚·‚½‚ß‚É‚Íd—v‚È‚Ì‚Å‚ ‚ë‚¤‚È‚ŸA‚ÆA‚Ó‚ÆŽv‚¢‚Â‚­¡“ú‚±‚Ì B<BR>
-(‚Ù‚Ú“¯—l‚Ì“à—e‚ð‰ß‹Ž‚Ì“ú‹L‚É‘‚¢‚½‚æ‚¤‚È‹L‰¯‚ª—L‚é‚æ‚¤‚È–³‚¢‚æ‚¤‚Èc)</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½Ô‚Ìƒgï¿½bï¿½vï¿½Eï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½[ï¿½ÍAï¿½eï¿½gï¿½ï¿½ï¿½Xï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ý‚ÉAï¿½ï¿½ï¿½É‚ÍAï¿½ï¿½ï¿½ï¿½ÈŒ|ï¿½ï¿½ï¿½Í‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎAï¿½È‘O <A href="http://d.hatena.ne.jp/cypher256/">ï¿½ï¿½ï¿½ï¿½(cypher256)</A> ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ÉA<A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½BAOPï¿½É‚ï¿½èƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Pleiades</A> ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ 3 ï¿½ï¿½ï¿½Ô‚Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚¾‚ï¿½Aï¿½È‚ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô˜bï¿½ï¿½ï¿½ï¿½ï¿½í‚µï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½vï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+# ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È•ï¿½ï¿½Gï¿½È‚ï¿½ï¿½Ì‚ï¿½ 3 ï¿½ï¿½ï¿½Ô‚Åï¿½ï¿½ï¿½ï¿½ã‚°ï¿½ï¿½Æ‚ÍAï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îhttps://www.igapyon.jp/://www.igapyon.jp/blanco/blanconlpackgenerator.html" TITLE="Javaï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½pï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ÉAEclipse ï¿½{ï¿½Ì‚ÌŒï¿½ï¿½ï¿½pï¿½bï¿½Nï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½pï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoNLpackGenerator</A> ï¿½ÌŒï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄA3 ï¿½ï¿½ï¿½Ô‚Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ì˜bï¿½ï¿½ÌŽï¿½ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Plieades ï¿½Jï¿½ï¿½ï¿½ï¿½b(?) ï¿½ð•·‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Cï¿½fï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÉAï¿½ï¿½ï¿½ÌƒAï¿½Cï¿½fï¿½Aï¿½Ì—Lï¿½Óï¿½ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½é‚½ï¿½ß‚É”ï¿½â‚·ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½éŽžï¿½Ô‚ÍAï¿½ï¿½ï¿½ï¿½ï¿½Þ‚ËÅ‘ï¿½ 3 ï¿½ï¿½ï¿½Ô’ï¿½ï¿½xï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄA(ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½)
+ï¿½Wï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éŽžï¿½Ô‚ï¿½ï¿½Aï¿½ï¿½Í‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Þ‚ËÅ‘ï¿½ 3 ï¿½ï¿½ï¿½Ô’ï¿½ï¿½xï¿½Å‚ï¿½ï¿½B(1 ï¿½ï¿½ï¿½Ô‚ï¿½è‡’lï¿½É‚È‚ï¿½ï¿½ï¿½Ì‚È‚Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½Ô’ï¿½ï¿½xï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚³ï¿½ê‚½ï¿½ï¿½ï¿½Ô‚Ì’ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½Lï¿½Óï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Í‚ÍAï¿½È‚É‚ï¿½ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ð¶‚Ýoï¿½ï¿½ï¿½ï¿½ï¿½ß‚É‚Ídï¿½vï¿½È‚Ì‚Å‚ï¿½ï¿½ë‚¤ï¿½È‚ï¿½ï¿½Aï¿½ÆAï¿½Ó‚ÆŽvï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½B<BR>
+(ï¿½Ù‚Ú“ï¿½ï¿½lï¿½Ì“ï¿½ï¿½eï¿½ï¿½ï¿½ß‹ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½æ‚¤ï¿½È–ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Èc)</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2007/ig070702.html">2007/07/02 “ú‹L: FizzBuzz –â‘è - ƒm[ƒ}ƒ‹”Å</A>
+  <LI><A href="../2007/ig070702.html">2007/07/02 ï¿½ï¿½ï¿½L: FizzBuzz ï¿½ï¿½ï¿½ - ï¿½mï¿½[ï¿½}ï¿½ï¿½ï¿½ï¿½</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

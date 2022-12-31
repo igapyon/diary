@@ -88,13 +88,13 @@
 </TABLE>
 ※<FONT color="#ff0000">2004.03.13</FONT> トランザクション遮断レベルというものを設定しないと、期待のトランザクション遮断レベルで実行されません。<BR>
 ※<FONT color="#ff0000">2005.05.20</FONT> なお、トランザクション遮断レベルは、デフォルトでリードコミット (TRANSACTION_READ_COMMITTED) である場合が多いです。リードコミットであれば、リードコミットという挙動の範囲で適切な行ロックが確保できます)</BLOCKQUOTE>
-<P>ただ、上記ソースコードは コンパイルができない単なるサンプルなので、動作するかどうかについては別の資料 (例えば <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>チュートリアル)などを参照ください。</P>
+<P>ただ、上記ソースコードは コンパイルができない単なるサンプルなので、動作するかどうかについては別の資料 (例えば <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>チュートリアル)などを参照ください。</P>
 <P><FONT color="#ff0000">2003.10.14</FONT> 山本さんの指摘を反映</P>
 <P><FONT color="#ff0000">2004.03.05</FONT> <A HREF="http://arton.no-ip.info/diary/" TITLE=".NET系記事執筆も多いartonさん。仕事でJavaも扱われているとの事。私にとっては FreePeekというとても便利なソフトの作者さまです。羽生章洋＆いがぴょん合コンにて初めて対面しました。">arton</A>さんのツッコミにより、wildcatsさんのツッコミに気が付きました。Oracle 9i は 少なくとも
 SQL文に FOR UPDATEを加える必要があることを、ここで初めて知りました。<BR>
 <STRONG>…中略…</STRONG></P>
 
-<P><FONT color="#ff0000">2005.05.20追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に携わっているうちに、FOR UPDATEは かなり把握することができました。最大公約数的な現状および結論としては下記のようになります。</P>
+<P><FONT color="#ff0000">2005.05.20追記</FONT> <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に携わっているうちに、FOR UPDATEは かなり把握することができました。最大公約数的な現状および結論としては下記のようになります。</P>
 <UL>
   <LI>リレーショナルデータベース固有の設定を行います
   <UL>
@@ -123,7 +123,7 @@ SQL文に FOR UPDATEを加える必要があることを、ここで初めて知
   <LI>最後に updateRow を呼び出して、行に対する更新を行います。
 </UL>
 
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>が利用できる方は、自動生成される SimpleXXXXXUpdatableIterator.java
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>が利用できる方は、自動生成される SimpleXXXXXUpdatableIterator.java
 の内容をご覧くださいませ。</P>
 <P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>

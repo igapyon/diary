@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/09/09 “ú‹L: Java: ƒTƒ“ƒvƒ‹: ProgressService—˜—pƒTƒ“ƒvƒ‹ , SAX‚Ì‹ïÛ‰»ƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="SAX‚É‚Â‚¢‚Ä ‚ ‚é’ö“x ‹ïÛ‰»‚µ‚Ä‚¢‚­‚Æ¶Y«‚Æ•Ûç«‚ªŒüã‚·‚é‚Ì‚Å‚Í‚È‚¢‚©‚Æl‚¦‚Ä‚¢‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/09/09 ï¿½ï¿½ï¿½L: Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ProgressServiceï¿½ï¿½ï¿½pï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ , SAXï¿½Ì‹ï¿½Û‰ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="SAXï¿½É‚Â‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x ï¿½ï¿½Û‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½Yï¿½ï¿½ï¿½Æ•Ûç«ï¿½ï¿½ï¿½ï¿½ï¿½ã‚·ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/09/09 “ú‹L: Java: ƒTƒ“ƒvƒ‹: ProgressService—˜—pƒTƒ“ƒvƒ‹ , SAX‚Ì‹ïÛ‰»ƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] SAX‚É‚Â‚¢‚Ä ‚ ‚é’ö“x ‹ïÛ‰»‚µ‚Ä‚¢‚­‚Æ¶Y«‚Æ•Ûç«‚ªŒüã‚·‚é‚Ì‚Å‚Í‚È‚¢‚©‚Æl‚¦‚Ä‚¢‚Ü‚·B</P>
+    <H2>2005/09/09 ï¿½ï¿½ï¿½L: Java: ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½: ProgressServiceï¿½ï¿½ï¿½pï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ , SAXï¿½Ì‹ï¿½Û‰ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] SAXï¿½É‚Â‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x ï¿½ï¿½Û‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½Yï¿½ï¿½ï¿½Æ•Ûç«ï¿½ï¿½ï¿½ï¿½ï¿½ã‚·ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDE–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ğg‚Á‚Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚Ìè‚É‚æ‚é Benten Ğ‰î‹L–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½É‚ï¿½ï¿½ Benten ï¿½Ğ‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,16 +59,16 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse: Java: ProgressService—˜—pƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse: Java: ProgressServiceï¿½ï¿½ï¿½pï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒvƒƒOƒŒƒXƒ_ƒCƒAƒƒO‚ğ•\¦‚µ‚½‚©‚Á‚½‚Ì‚Å‚·‚ªAÅI“I‚É‚Í ProgressService‚ğ—˜—p‚·‚é‚±‚Æ‚É‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Xï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ÅIï¿½Iï¿½É‚ï¿½ ProgressServiceï¿½ğ—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">ProgressService—˜—pƒTƒ“ƒvƒ‹</TD>
+      <TD bgcolor="#ffff00">ProgressServiceï¿½ï¿½ï¿½pï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -76,8 +76,8 @@
   <TBODY>
     <TR>
       <TD>
-      <pre>ƒvƒ‰ƒOƒCƒ“ƒvƒƒWƒFƒNƒg
-Plug-in with a popup menu‚Å“®ìŠm”F
+      <pre>ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g
+Plug-in with a popup menuï¿½Å“ï¿½ï¿½ï¿½mï¿½F
 
     public void run(IAction action) {
         try {
@@ -87,12 +87,12 @@ Plug-in with a popup menu‚Å“®ìŠm”F
                                 throws InvocationTargetException,
                                 InterruptedException {
                             try {
-                                monitor.beginTask(&quot;‚¤‚»‚¤‚»ƒ^ƒXƒN&quot;, 100);
+                                monitor.beginTask(&quot;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Xï¿½N&quot;, 100);
                                 for (int index = 0; index &lt; 100; index++) {
                                     if (monitor.isCanceled()) {
                                         break;
                                     }
-                                    monitor.subTask(&quot;ˆ—[&quot; + index + &quot;]&quot;);
+                                    monitor.subTask(&quot;ï¿½ï¿½ï¿½ï¿½[&quot; + index + &quot;]&quot;);
                                     monitor.worked(1);
                                     Thread.sleep(50);
                                 }
@@ -112,25 +112,25 @@ Plug-in with a popup menu‚Å“®ìŠm”F
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>„‚Ì‹C‚Ì‚¹‚¢‚©‚à’m‚ê‚Ü‚¹‚ñ‚ªA‚±‚ÌProgressService‚ğ—˜—p‚·‚é‚½‚Ñ‚É 300KB’ö“x‚Ìƒƒ‚ƒŠƒŠ[ƒN‚ª”­¶‚µ‚Ä‚¢‚é‚æ‚¤‚È‹C‚ª‚µ‚Ü‚·B(Eclipse
-3.0.2‚¨‚æ‚Ñ Eclipse 3.1.0‚É‚¨‚¢‚Ä)<BR>
-‘¼‚Ì•û‚Å‚à“¯—l‚ÌŒ»Û‚Ì”­¶‚É¬Œ÷‚³‚ê‚½•û‚ÍA¥”ñ EclipseƒvƒƒWƒFƒNƒg‚ÉƒoƒO•ñ‚µ‚Ä‚¢‚½‚¾‚¯‚é‚ÆK‚¢‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½Ì‹Cï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½ï¿½ï¿½ï¿½ProgressServiceï¿½ğ—˜—pï¿½ï¿½ï¿½é‚½ï¿½Ñ‚ï¿½ 300KBï¿½ï¿½ï¿½xï¿½Ìƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(Eclipse
+3.0.2ï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse 3.1.0ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½lï¿½ÌŒï¿½ï¿½Û‚Ì”ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½Éƒoï¿½Oï¿½ñ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆKï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: SAX‚Ì‹ïÛ‰»</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: SAXï¿½Ì‹ï¿½Û‰ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>SAX‚Ì‹ïÛ‰»‚É‚Â‚¢‚ÄAblancoIgƒx[ƒX‚Åì‚µ‚Ü‚µ‚½B“ü—Íƒf[ƒ^‚ğ‚à‚Æ‚É SAXƒCƒ“ƒ^ƒtƒF[ƒX‚ğ‹ïÛ‰»‚µ‚Ü‚·B(XML‚ğè‚ª‚©‚è‚ÉƒAƒNƒZƒTƒ\[ƒXƒR[ƒh‚ğ¶¬‚·‚é‚Æ‚¢‚¤ƒXƒ^ƒCƒ‹‚ÍARelaxer‚Æ
-‚â‚â—‚½ƒAƒvƒ[ƒ`‚Æ‚È‚Á‚Ä‚¢‚é‚Æv‚í‚ê‚Ü‚·B)<BR>
-‚±‚ê‚ÍA®”õ‚µ‚Ä<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ğ—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ğ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A> ‚É‡—¬‚³‚¹‚Ä‚¢‚«‚Ü‚·B</P>
-<P>c€–Ú‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
+<P>SAXï¿½Ì‹ï¿½Û‰ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAblancoIgï¿½xï¿½[ï¿½Xï¿½Åï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Íƒfï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ SAXï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Û‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(XMLï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ÉƒAï¿½Nï¿½Zï¿½Tï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ğ¶ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½ÍARelaxerï¿½ï¿½
+ï¿½ï¿½â—ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ævï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B)<BR>
+ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/w.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ğ—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A> ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½cï¿½ï¿½ï¿½Ú‚Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ConcreteSax ‚Å ¡‚Í localName‚Å•ªŠò‚µ‚Ä‚¢‚Ü‚·‚ªA‚±‚ê‚ğqNameƒx[ƒX‚Å•ªŠò‚µ‚½‚Ù‚¤‚ª¸“x‚ªã‚ª‚é‚æ‚¤‚Él‚¦‚Ü‚·B(‚»‚ÌŒ‹‰Ê
-  •ªŠò‚ª ‚Ù‚Úƒ†ƒj[ƒN‚É‚È‚é‚Æl‚¦‚Ü‚·B)
-  <LI>¡‚ÍƒRƒ“ƒeƒ“ƒcƒnƒ“ƒhƒ‰‚ÌSAX‹ïÛ‰»‚¾‚¯‚Å‚·‚ªAƒRƒ“ƒeƒ“ƒcƒVƒŠƒAƒ‰ƒCƒU‚ÌSAX‹ïÛ‰»‚É‚à‰¿’l‚ª‚ ‚é‚Æl‚¦‚Ü‚·B
-  <LI>ƒTƒ“ƒvƒ‹ƒf[ƒ^‚ÌƒTƒCƒYŸ‘æ‚ÅAcharacters‚ªˆê”­ƒ‚[ƒh‚ ‚é‚¢‚ÍƒpƒPƒbƒgƒ‚[ƒh‚Æ•ªŠò‚µ‚Ä¶¬‚·‚×‚«‚Æl‚¦‚Ä‚¢‚Ü‚·B
+  <LI>ConcreteSax ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ localNameï¿½Å•ï¿½ï¿½ò‚µ‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½qNameï¿½xï¿½[ï¿½Xï¿½Å•ï¿½ï¿½ò‚µ‚ï¿½ï¿½Ù‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ã‚ªï¿½ï¿½æ‚¤ï¿½Élï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ ï¿½Ù‚Úƒï¿½ï¿½jï¿½[ï¿½Nï¿½É‚È‚ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B)
+  <LI>ï¿½ï¿½ï¿½ÍƒRï¿½ï¿½ï¿½eï¿½ï¿½ï¿½cï¿½nï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½SAXï¿½ï¿½Û‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Rï¿½ï¿½ï¿½eï¿½ï¿½ï¿½cï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Cï¿½Uï¿½ï¿½SAXï¿½ï¿½Û‰ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ÅAcharactersï¿½ï¿½ï¿½ê”­ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½é‚¢ï¿½Íƒpï¿½Pï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½hï¿½Æ•ï¿½ï¿½ò‚µ‚Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 <TABLE border="1">
   <TBODY>
@@ -175,33 +175,33 @@ import blanco.ig.generator.ImplementGenerator;
 import blanco.ig.service.ServiceClass;
 
 /**
- * ‰ğÍ—pXML‚ğ“ü—Í‚µ‚Ä‹ïÛ‰»SAX‚ğ¶¬‚µ‚Ü‚·B&lt;br&gt;
- * “ü—Í‚·‚é‰ğÍ—pXMLƒtƒ@ƒCƒ‹‚ÍAœ“ˆÓ“I‚È‚à‚Ì‚ğ€”õ‚µ‚Ü‚·BŒ»“_‚Å‚Í ‚©‚È‚èŒÀ’è“I‚È‚à‚Ì‚É‚È‚è‚Ü‚·B&lt;br&gt;
- * ‰¼’è1: ‰ğÍ—pXML‚ÌƒAƒgƒŠƒrƒ…[ƒg‚Í‚·‚×‚Äw’è‚³‚ê‚Ä—ˆ‚é‚à‚Ì‚Æ‰¼’è‚µ‚Ü‚·B&lt;br&gt;
- * ‰¼’è2: ˆÙ‚È‚éŠK‘w‚É‚¨‚¢‚Ä“¯‚¶–¼‘O‚ÌƒGƒ“ƒeƒBƒeƒB‚ª‘¶İ‚µ‚È‚¢‚à‚Ì‚Æ‰¼’è‚µ‚Ü‚·B&lt;br&gt;
- * ‰¼’è3: implements ContentHandler ‚ğŒ»ó‚Å‚Í¶¬Œãƒtƒ@ƒCƒ‹‚É’Ç‹L‚Ì•K—v‚ª‚ ‚è‚Ü‚·B&lt;br&gt;
- * Ql:http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/org/xml/sax/ContentHandler.html&lt;br&gt;
- * TODO: charaters‚É‚Â‚¢‚ÄAW–ñ‚ÌãŒÄ‚Ñ‚í‚¯‚ğs‚¤‚×‚«‚©‚Ç‚¤‚©‚ğl@B
+ * ï¿½ï¿½Í—pXMLï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‹ï¿½Û‰ï¿½SAXï¿½ğ¶ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Í—pXMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½Ó“Iï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Iï¿½È‚ï¿½ï¿½Ì‚É‚È‚ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½ï¿½ï¿½ï¿½1: ï¿½ï¿½Í—pXMLï¿½ÌƒAï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½gï¿½Í‚ï¿½ï¿½×‚Äwï¿½è‚³ï¿½ï¿½Ä—ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‰ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½ï¿½ï¿½ï¿½2: ï¿½Ù‚È‚ï¿½Kï¿½wï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ÌƒGï¿½ï¿½ï¿½eï¿½Bï¿½eï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½İ‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚Æ‰ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½ï¿½ï¿½ï¿½3: implements ContentHandler ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Íï¿½ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É’Ç‹Lï¿½Ì•Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&lt;br&gt;
+ * ï¿½Qï¿½l:http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/org/xml/sax/ContentHandler.html&lt;br&gt;
+ * TODO: charatersï¿½É‚Â‚ï¿½ï¿½ÄAï¿½Wï¿½ï¿½Ìï¿½Ä‚Ñ‚í‚¯ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½@ï¿½B
  * 
  * @author IGA Tosiki
  */
 public class BlancoXml2ConcreteSax {
     private static final NameAdjuster adjuster = new NameAdjuster();
 
-    // ‰ğÍ‚µ‚Ä‚¢‚éXMLƒtƒ@ƒCƒ‹‚ÌŠeíî•ñ‚ğ‹L‰¯‚µ‚Ü‚·B
+    // ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½XMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌŠeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
     /**
-     * ƒGƒŒƒƒ“ƒg‚ÌƒXƒ^ƒbƒN\‘¢‚ğ‹L‰¯‚µ‚Ü‚·B
+     * ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÌƒXï¿½^ï¿½bï¿½Nï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     private final Stack elementStack = new Stack();
 
     /**
-     * ƒGƒŒƒƒ“ƒg‚ğƒnƒbƒVƒ…ƒe[ƒuƒ‹Œ`®‚Å‹L‰¯‚µ‚Ü‚·B
+     * ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½nï¿½bï¿½Vï¿½ï¿½ï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Å‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     private final Hashtable currentElementHashtable = new Hashtable();
 
     /**
-     * “oê‚µ‚½ƒGƒŒƒƒ“ƒg‚·‚×‚Ä‚ğ‹L‰¯‚µ‚Ü‚·B
+     * ï¿½oï¿½ê‚µï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½×‚Ä‚ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     private final Hashtable totalElementHashtable = new Hashtable();
 
@@ -215,7 +215,7 @@ public class BlancoXml2ConcreteSax {
     }
 
     /**
-     * ƒ\[ƒXƒR[ƒh¶¬ˆ—‚ğÀs‚µ‚Ü‚·B
+     * ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param sourceFile
      * @param targetDirectory
@@ -227,25 +227,25 @@ public class BlancoXml2ConcreteSax {
         final ClassExpander classExpander = getClassExpander(sourceFile,
                 packageName, className);
 
-        // ÀÛ‚ÉJavaƒ\[ƒXƒR[ƒh‚ğ¶¬‚µ‚Ü‚·B
+        // ï¿½ï¿½ï¿½Û‚ï¿½Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ğ¶ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
         GeneratorSetting setting = new GeneratorSetting();
-        // o—ÍæƒfƒBƒŒƒNƒgƒŠ‚ğİ’è‚µ‚Ü‚·B
+        // ï¿½oï¿½Íï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½İ’è‚µï¿½Ü‚ï¿½ï¿½B
         setting.setWorkDirectory(targetDirectory);
         ImplementGenerator implementGenerator = new ImplementGenerator(
                 new ServiceClass(&quot;DummyService&quot;), setting);
-        // ì¬‚µ‚½ƒNƒ‰ƒX‚ğ“o˜^‚µ‚Ü‚·B
+        // ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
         implementGenerator.addMain(classExpander);
         try {
-            // ÀÛ‚Éƒ\[ƒXƒR[ƒh¶¬‚ğÀs‚µ‚Ü‚·B
+            // ï¿½ï¿½ï¿½Û‚Éƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
             implementGenerator.generate();
-            // System.out.println(&quot;ƒ\[ƒXƒR[ƒh¶¬‚ªŠ®—¹‚µ‚Ü‚µ‚½B&quot;);
+            // System.out.println(&quot;ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot;);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     /**
-     * ÀÛ‚ÌƒNƒ‰ƒX“WŠJ‚ğÀs‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Û‚ÌƒNï¿½ï¿½ï¿½Xï¿½Wï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      * 
      * @param sourceFile
      * @param packageName
@@ -260,26 +260,26 @@ public class BlancoXml2ConcreteSax {
             }
 
             protected void expandClassStruct() {
-                addFileComment(className + &quot;‹ïÛ‰»SAXƒNƒ‰ƒX&lt;br&gt;&quot;);
-                getJavaDoc().addLine(className + &quot;‹ïÛ‰»SAXƒNƒ‰ƒX&lt;br&gt;&quot;);
+                addFileComment(className + &quot;ï¿½ï¿½Û‰ï¿½SAXï¿½Nï¿½ï¿½ï¿½X&lt;br&gt;&quot;);
+                getJavaDoc().addLine(className + &quot;ï¿½ï¿½Û‰ï¿½SAXï¿½Nï¿½ï¿½ï¿½X&lt;br&gt;&quot;);
                 getJavaDoc().addLine(
-                        &quot;‚±‚ÌƒNƒ‰ƒX‚Í‰ğÍ—pXMLƒtƒ@ƒCƒ‹‚ğ“ü—Í‚Æ‚µ‚Ä‹ïÛ‰»SAXƒNƒ‰ƒX‚Æ‚µ‚Ä¶¬‚³‚ê‚Ü‚µ‚½B&lt;br&gt;&quot;);
-                getJavaDoc().addLine(&quot;‚±‚Ìƒ\[ƒXƒR[ƒh‚ÍblancoIg‚É‚æ‚è‹@ŠB“I‚É©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B&quot;);
+                        &quot;ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½Í‰ï¿½Í—pXMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½Ä‹ï¿½Û‰ï¿½SAXï¿½Nï¿½ï¿½ï¿½Xï¿½Æ‚ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&lt;br&gt;&quot;);
+                getJavaDoc().addLine(&quot;ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½blancoIgï¿½É‚ï¿½ï¿½@ï¿½Bï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
                 getJavaDoc()
                         .addLine(
-                                &quot;TODO implements ContentHandler ‚ğ‘‚«‰Á‚¦‚Ä‚­‚¾‚³‚¢B(blancoIg‚Ì•s‘«‹@”\‚Ö‚Ì‘Î‰‚Ì‚½‚ßB)&quot;);
+                                &quot;TODO implements ContentHandler ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B(blancoIgï¿½Ì•sï¿½ï¿½ï¿½@ï¿½\ï¿½Ö‚Ì‘Î‰ï¿½ï¿½Ì‚ï¿½ï¿½ßB)&quot;);
                 getJavaDoc().addLine(&quot;&quot;);
                 getJavaDoc().addLine(&quot;@author IGA Tosiki&quot;);
 
-                // TODO blancoIg‚Ìd—lã implements ContentHandler ‚ª‘«‚è‚Ü‚¹‚ñB
+                // TODO blancoIgï¿½Ìdï¿½lï¿½ï¿½ implements ContentHandler ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-                // ƒtƒB[ƒ‹ƒh•Ï”‚ğéŒ¾‚µ‚Ü‚·B
+                // ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ïï¿½ï¿½ï¿½éŒ¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                 PrivateField field1 = new PrivateField(new Type(
                         &quot;java.util.Stack&quot;), &quot;elmentStack&quot;) {
                 };
                 field1.setLiteralValue(&quot;new Stack()&quot;);
-                field1.getJavaDoc().addLine(&quot;ƒGƒŒƒƒ“ƒg‚ÌƒXƒ^ƒbƒN‚Å‚·&lt;br&gt;&quot;);
-                field1.getJavaDoc().addLine(&quot;XML‚ÌŠK‘w\‘¢‚ğ‹L‰¯‚µ‚Ü‚·B&quot;);
+                field1.getJavaDoc().addLine(&quot;ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÌƒXï¿½^ï¿½bï¿½Nï¿½Å‚ï¿½&lt;br&gt;&quot;);
+                field1.getJavaDoc().addLine(&quot;XMLï¿½ÌŠKï¿½wï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
                 addField(field1);
 
                 InputStream inStream = null;
@@ -296,21 +296,21 @@ public class BlancoXml2ConcreteSax {
                                 setFinal(true);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;ƒIƒŠƒWƒiƒ‹‚ÌstartElement‚ªŒÄ‚Ño‚³‚ê‚½‚Ì‚ÅA‹ïÛƒƒ\ƒbƒh‚ÉŒÄ‚Ñ‚í‚¯‚Ü‚·&quot;);
+                                                &quot;ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½ï¿½startElementï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ÅAï¿½ï¿½Ûƒï¿½ï¿½\ï¿½bï¿½hï¿½ÉŒÄ‚Ñ‚í‚¯ï¿½Ü‚ï¿½&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;–¼‘O‹óŠÔURI&quot;);
+                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½URI&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;uri&quot;));
-                                getJavaDoc().addParameter(&quot;localName&quot;, &quot;ƒ[ƒJƒ‹–¼&quot;);
+                                getJavaDoc().addParameter(&quot;localName&quot;, &quot;ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;localName&quot;));
-                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;Ú“ª«•t‚«‚ÌCü–¼&quot;);
+                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;ï¿½Ú“ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ÌCï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;qName&quot;));
                                 getJavaDoc()
-                                        .addParameter(&quot;atts&quot;, &quot;ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒŠƒXƒg&quot;);
+                                        .addParameter(&quot;atts&quot;, &quot;ï¿½Aï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½gï¿½Ìƒï¿½ï¿½Xï¿½g&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;org.xml.sax.Attributes&quot;), &quot;atts&quot;));
                             }
@@ -364,17 +364,17 @@ public class BlancoXml2ConcreteSax {
                                 setFinal(true);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;ƒIƒŠƒWƒiƒ‹‚ÌendElement‚ªŒÄ‚Ño‚³‚ê‚½‚Ì‚ÅA‹ïÛƒƒ\ƒbƒh‚ÉŒÄ‚Ñ‚í‚¯‚Ü‚·&quot;);
+                                                &quot;ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½ï¿½endElementï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ÅAï¿½ï¿½Ûƒï¿½ï¿½\ï¿½bï¿½hï¿½ÉŒÄ‚Ñ‚í‚¯ï¿½Ü‚ï¿½&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;–¼‘O‹óŠÔURI&quot;);
+                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½URI&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;uri&quot;));
-                                getJavaDoc().addParameter(&quot;localName&quot;, &quot;ƒ[ƒJƒ‹–¼&quot;);
+                                getJavaDoc().addParameter(&quot;localName&quot;, &quot;ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;localName&quot;));
-                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;Ú“ª«•t‚«‚ÌCü–¼&quot;);
+                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;ï¿½Ú“ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ÌCï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;qName&quot;));
                             }
@@ -388,7 +388,7 @@ public class BlancoXml2ConcreteSax {
                                                 &quot;if (currentElementOnStack.equals(localName) == false) {&quot;);
                                 getData()
                                         .addLine(
-                                                &quot;throw new SAXException(\&quot;XMLˆÙíBŠú‘Ò‚·‚éƒGƒŒƒƒ“ƒg[\&quot; + currentElementOnStack + \&quot;]‚Æƒ[ƒJƒ‹–¼[\&quot; + localName + \&quot;]‚Æ‚ª‚¸‚ê‚Ä‚¢‚Ü‚·.\&quot;);&quot;);
+                                                &quot;throw new SAXException(\&quot;XMLï¿½Ùï¿½Bï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½g[\&quot; + currentElementOnStack + \&quot;]ï¿½Æƒï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½[\&quot; + localName + \&quot;]ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½.\&quot;);&quot;);
                                 getData().addLine(&quot;}&quot;);
 
                                 Enumeration enumeration = totalElementHashtable
@@ -411,7 +411,7 @@ public class BlancoXml2ConcreteSax {
 
                                     getData().addLine(&quot;}&quot;);
                                 }
-                                getData().addLine(&quot;// ÅŒã‚Éƒ|ƒbƒv‚µ‚ÄŠK‘w‚ğ‚Ğ‚Æ‚Â–ß‚µ‚Ü‚·B&quot;);
+                                getData().addLine(&quot;// ï¿½ÅŒï¿½Éƒ|ï¿½bï¿½vï¿½ï¿½ï¿½ÄŠKï¿½wï¿½ï¿½ï¿½Ğ‚Æ‚Â–ß‚ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
                                 getData().addLine(&quot;_elmentStack.pop();&quot;);
                             }
                         });
@@ -421,19 +421,19 @@ public class BlancoXml2ConcreteSax {
                                 setFinal(true);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;ƒIƒŠƒWƒiƒ‹‚Ìcharacters‚ªŒÄ‚Ño‚³‚ê‚½‚Ì‚ÅA‹ïÛƒƒ\ƒbƒh‚ÉŒÄ‚Ñ‚í‚¯‚Ü‚·&quot;);
+                                                &quot;ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½ï¿½charactersï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ÅAï¿½ï¿½Ûƒï¿½ï¿½\ï¿½bï¿½hï¿½ÉŒÄ‚Ñ‚í‚¯ï¿½Ü‚ï¿½&quot;);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;char[]‚Å—^‚¦‚ç‚ê‚½ƒf[ƒ^‚ğString‚É‹l‚ß‘Ö‚¦‚½ã‚Å ŒÄ‚Ñ‚í‚¯‚ğs‚¢‚Ü‚·B&quot;);
+                                                &quot;char[]ï¿½Å—^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½fï¿½[ï¿½^ï¿½ï¿½Stringï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ä‚Ñ‚í‚¯ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;ch&quot;, &quot;XML•¶‘‚Ì•¶š&quot;);
+                                getJavaDoc().addParameter(&quot;ch&quot;, &quot;XMLï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(&quot;char[]&quot;), &quot;ch&quot;));
-                                getJavaDoc().addParameter(&quot;start&quot;, &quot;”z—ñ“à‚ÌŠJnˆÊ’u&quot;);
+                                getJavaDoc().addParameter(&quot;start&quot;, &quot;ï¿½zï¿½ï¿½ï¿½ï¿½ÌŠJï¿½nï¿½Ê’u&quot;);
                                 addArgument(new Value(new Type(&quot;int&quot;), &quot;start&quot;));
                                 getJavaDoc().addParameter(&quot;length&quot;,
-                                        &quot;”z—ñ‚©‚ç“Ç‚İæ‚é•¶š”&quot;);
+                                        &quot;ï¿½zï¿½ñ‚©‚ï¿½Ç‚İï¿½é•¶ï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(&quot;int&quot;), &quot;length&quot;));
                             }
 
@@ -472,19 +472,19 @@ public class BlancoXml2ConcreteSax {
                                 setFinal(true);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;ƒIƒŠƒWƒiƒ‹‚ÌignorableWhitespace‚ªŒÄ‚Ño‚³‚ê‚½‚Ì‚ÅA‹ïÛƒƒ\ƒbƒh‚ÉŒÄ‚Ñ‚í‚¯‚Ü‚·&quot;);
+                                                &quot;ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½ï¿½ignorableWhitespaceï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ÅAï¿½ï¿½Ûƒï¿½ï¿½\ï¿½bï¿½hï¿½ÉŒÄ‚Ñ‚í‚¯ï¿½Ü‚ï¿½&quot;);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;char[]‚Å—^‚¦‚ç‚ê‚½ƒf[ƒ^‚ğString‚É‹l‚ß‘Ö‚¦‚½ã‚Å ŒÄ‚Ñ‚í‚¯‚ğs‚¢‚Ü‚·B&quot;);
+                                                &quot;char[]ï¿½Å—^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½fï¿½[ï¿½^ï¿½ï¿½Stringï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ä‚Ñ‚í‚¯ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;ch&quot;, &quot;XML•¶‘‚Ì•¶š&quot;);
+                                getJavaDoc().addParameter(&quot;ch&quot;, &quot;XMLï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(&quot;char[]&quot;), &quot;ch&quot;));
-                                getJavaDoc().addParameter(&quot;start&quot;, &quot;”z—ñ“à‚ÌŠJnˆÊ’u&quot;);
+                                getJavaDoc().addParameter(&quot;start&quot;, &quot;ï¿½zï¿½ï¿½ï¿½ï¿½ÌŠJï¿½nï¿½Ê’u&quot;);
                                 addArgument(new Value(new Type(&quot;int&quot;), &quot;start&quot;));
                                 getJavaDoc().addParameter(&quot;length&quot;,
-                                        &quot;”z—ñ‚©‚ç“Ç‚İæ‚é•¶š”&quot;);
+                                        &quot;ï¿½zï¿½ñ‚©‚ï¿½Ç‚İï¿½é•¶ï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(&quot;int&quot;), &quot;length&quot;));
                             }
 
@@ -519,9 +519,9 @@ public class BlancoXml2ConcreteSax {
                         });
 
                         addMethod(new MethodExpander(&quot;setDocumentLocator&quot;) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
-                                getJavaDoc().addLine(&quot;‚±‚Ìƒƒ\ƒbƒh‚ğ–³‹‚·‚é‚½‚ß‚Ìƒƒ\ƒbƒh‚Å‚·B&quot;);
+                                getJavaDoc().addLine(&quot;ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ğ–³ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½Å‚ï¿½ï¿½B&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;org.xml.sax.Locator&quot;), &quot;locator&quot;));
                             }
@@ -531,7 +531,7 @@ public class BlancoXml2ConcreteSax {
                         });
 
                         addMethod(new MethodExpander(&quot;startPrefixMapping&quot;) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
@@ -546,7 +546,7 @@ public class BlancoXml2ConcreteSax {
                         });
 
                         addMethod(new MethodExpander(&quot;endPrefixMapping&quot;) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
@@ -559,7 +559,7 @@ public class BlancoXml2ConcreteSax {
                         });
 
                         addMethod(new MethodExpander(&quot;processingInstruction&quot;) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
@@ -574,7 +574,7 @@ public class BlancoXml2ConcreteSax {
                         });
 
                         addMethod(new MethodExpander(&quot;skippedEntity&quot;) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
@@ -596,7 +596,7 @@ public class BlancoXml2ConcreteSax {
                     }
 
                     /**
-                     * startElement‚ªŒÄ‚Ño‚³‚ê‚½Û‚ÉAˆê’Ê‚è‚Ìƒƒ\ƒbƒh‚Ìì¬‚ğs‚¢‚Ü‚·B
+                     * startElementï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ê‚½ï¿½Û‚ÉAï¿½ï¿½Ê‚ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½Ìì¬ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                      */
                     public void startElement(final String uri,
                             final String localName, final String qName,
@@ -607,32 +607,32 @@ public class BlancoXml2ConcreteSax {
                         currentElementHashtable.put(&quot;localName&quot;, localName);
 
                         if (totalElementHashtable.get(localName) != null) {
-                            // ‚·‚Å‚É“oê‚µ‚½ƒGƒŒƒƒ“ƒg‚Å‚·B
-                            // ˆ—‚ÍƒXƒLƒbƒv‚µ‚Ü‚·B
+                            // ï¿½ï¿½ï¿½Å‚É“oï¿½ê‚µï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½B
+                            // ï¿½ï¿½ï¿½ï¿½ï¿½ÍƒXï¿½Lï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                             return;
                         }
                         totalElementHashtable.put(localName, listAttr);
 
                         addMethod(new MethodExpander(&quot;startElement&quot;
                                 + adjuster.toClassName(localName)) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             protected boolean isAbstract() {
                                 return true;
                             }
 
                             public void setupSignature() {
                                 getJavaDoc().addLine(
-                                        &quot;startElement‚ªƒ[ƒJƒ‹–¼[&quot; + localName
-                                                + &quot;]‚ÅŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B&lt;br&gt;&quot;);
+                                        &quot;startElementï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½[&quot; + localName
+                                                + &quot;]ï¿½ÅŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&lt;br&gt;&quot;);
                                 getJavaDoc().addLine(
-                                        &quot;¦ƒ[ƒJƒ‹–¼‚Íƒƒ\ƒbƒh–¼‚ÉŠÜ‚Ü‚ê‚é‚Ì‚Åˆø”‚©‚ç‚Íœ‚©‚ê‚Ä‚¢‚Ü‚·B&quot;);
+                                        &quot;ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Íƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½ÉŠÜ‚Ü‚ï¿½ï¿½Ì‚Åˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;–¼‘O‹óŠÔURI&quot;);
+                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½URI&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;uri&quot;));
-                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;Ú“ª«•t‚«‚ÌCü–¼&quot;);
+                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;ï¿½Ú“ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ÌCï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;qName&quot;));
                                 final int attrLength = atts.getLength();
@@ -645,10 +645,10 @@ public class BlancoXml2ConcreteSax {
                                                             + adjuster
                                                                     .toClassName(atts
                                                                             .getLocalName(index)),
-                                                    &quot;ƒAƒgƒŠƒrƒ…[ƒg[&quot;
+                                                    &quot;ï¿½Aï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½g[&quot;
                                                             + atts
                                                                     .getLocalName(index)
-                                                            + &quot;]‚Ì’l‚ª“n‚³‚ê‚Ü‚·B&quot;);
+                                                            + &quot;]ï¿½Ì’lï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
                                     addArgument(new Value(new Type(
                                             &quot;java.lang.String&quot;), &quot;attr&quot;
                                             + adjuster.toClassName(atts
@@ -667,20 +667,20 @@ public class BlancoXml2ConcreteSax {
                                 return true;
                             }
 
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             public void setupSignature() {
                                 getJavaDoc().addLine(
-                                        &quot;endElement‚ªƒ[ƒJƒ‹–¼[&quot; + localName
-                                                + &quot;]‚ÅŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B&lt;br&gt;&quot;);
+                                        &quot;endElementï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½[&quot; + localName
+                                                + &quot;]ï¿½ÅŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&lt;br&gt;&quot;);
                                 getJavaDoc().addLine(
-                                        &quot;¦ƒ[ƒJƒ‹–¼‚Íƒƒ\ƒbƒh–¼‚ÉŠÜ‚Ü‚ê‚é‚Ì‚Åˆø”‚©‚ç‚Íœ‚©‚ê‚Ä‚¢‚Ü‚·B&quot;);
+                                        &quot;ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Íƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½ÉŠÜ‚Ü‚ï¿½ï¿½Ì‚Åˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
-                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;–¼‘O‹óŠÔURI&quot;);
+                                getJavaDoc().addParameter(&quot;uri&quot;, &quot;ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½URI&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;uri&quot;));
-                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;Ú“ª«•t‚«‚ÌCü–¼&quot;);
+                                getJavaDoc().addParameter(&quot;qName&quot;, &quot;ï¿½Ú“ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ÌCï¿½ï¿½ï¿½ï¿½&quot;);
                                 addArgument(new Value(new Type(
                                         &quot;java.lang.String&quot;), &quot;qName&quot;));
                             }
@@ -691,24 +691,24 @@ public class BlancoXml2ConcreteSax {
 
                         addMethod(new MethodExpander(&quot;characters&quot;
                                 + adjuster.toClassName(localName)) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             protected boolean isAbstract() {
                                 return true;
                             }
 
                             public void setupSignature() {
                                 getJavaDoc().addLine(
-                                        &quot;characters‚ªƒ[ƒJƒ‹–¼[&quot; + localName
-                                                + &quot;]‚ÅŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B&lt;br&gt;&quot;);
+                                        &quot;charactersï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½[&quot; + localName
+                                                + &quot;]ï¿½ÅŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&lt;br&gt;&quot;);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;‚à‚Æ‚Ìcharactersƒƒ\ƒbƒh‚Å‚Í char[]‚Å‚·‚ªAString‚É‹l‚ß‘Ö‚¦‚½ã‚Åƒƒ\ƒbƒh‚ªŒÄ‚Ño‚³‚ê‚Ü‚·B&quot;);
+                                                &quot;ï¿½ï¿½ï¿½Æ‚ï¿½charactersï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Å‚ï¿½ char[]ï¿½Å‚ï¿½ï¿½ï¿½ï¿½AStringï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
                                 getJavaDoc()
                                         .addParameter(&quot;data&quot;,
-                                                &quot;java.lang.StringŒ^‚É‹l‚ß‘Ö‚¦Ï‚İ‚Ì charactersƒCƒxƒ“ƒgƒf[ƒ^&quot;);
+                                                &quot;java.lang.Stringï¿½^ï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½Ï‚İ‚ï¿½ charactersï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½fï¿½[ï¿½^&quot;);
                                 addArgument(new Value(new Type(&quot;String&quot;),
                                         &quot;data&quot;));
                             }
@@ -719,7 +719,7 @@ public class BlancoXml2ConcreteSax {
 
                         addMethod(new MethodExpander(&quot;ignorableWhitespace&quot;
                                 + adjuster.toClassName(localName)) {
-                            // ƒƒ\ƒbƒh‚ÌƒVƒOƒjƒ`ƒƒw’è
+                            // ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ÌƒVï¿½Oï¿½jï¿½`ï¿½ï¿½ï¿½wï¿½ï¿½
                             protected boolean isAbstract() {
                                 return true;
                             }
@@ -727,18 +727,18 @@ public class BlancoXml2ConcreteSax {
                             public void setupSignature() {
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;ignorableWhitespace‚ªƒ[ƒJƒ‹–¼[&quot;
+                                                &quot;ignorableWhitespaceï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½ï¿½[&quot;
                                                         + localName
-                                                        + &quot;]‚ÅŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B&lt;br&gt;&quot;);
+                                                        + &quot;]ï¿½ÅŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&lt;br&gt;&quot;);
                                 getJavaDoc()
                                         .addLine(
-                                                &quot;‚à‚Æ‚Ìcharactersƒƒ\ƒbƒh‚Å‚Í char[]‚Å‚·‚ªAString‚É‹l‚ß‘Ö‚¦‚½ã‚Åƒƒ\ƒbƒh‚ªŒÄ‚Ño‚³‚ê‚Ü‚·B&quot;);
+                                                &quot;ï¿½ï¿½ï¿½Æ‚ï¿½charactersï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Å‚ï¿½ char[]ï¿½Å‚ï¿½ï¿½ï¿½ï¿½AStringï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B&quot;);
 
                                 addException(new Type(
                                         &quot;org.xml.sax.SAXException&quot;));
                                 getJavaDoc()
                                         .addParameter(&quot;data&quot;,
-                                                &quot;java.lang.StringŒ^‚É‹l‚ß‘Ö‚¦Ï‚İ‚Ì charactersƒCƒxƒ“ƒgƒf[ƒ^&quot;);
+                                                &quot;java.lang.Stringï¿½^ï¿½É‹lï¿½ß‘Ö‚ï¿½ï¿½Ï‚İ‚ï¿½ charactersï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½fï¿½[ï¿½^&quot;);
                                 addArgument(new Value(new Type(&quot;String&quot;),
                                         &quot;data&quot;));
                             }
@@ -799,10 +799,10 @@ public class BlancoXml2ConcreteSax {
     </TR>
   </TBODY>
 </TABLE>
-<P>¦‚±‚Ìƒ\[ƒXƒR[ƒh‚ÍŠJ”­“r’†’iŠK‚ÌƒAƒCƒfƒAƒŒƒxƒ‹‚Ì‚à‚Ì‚Å‚·BÅI“I‚È‚à‚ÌA‚ ‚é‚¢‚Í•Ûç‚³‚ê‘±‚¯‚Ä‚¢‚­‚à‚Ì‚Í <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒh©“®¶¬‚ğå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A>
-Framework“à‚Ì <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ğ—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ğ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A> ‚É‚ÄˆÛ‚³‚ê‚Ä‚¢‚­—\’è‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÍŠJï¿½ï¿½ï¿½rï¿½ï¿½ï¿½iï¿½Kï¿½ÌƒAï¿½Cï¿½fï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚Å‚https://www.igapyon.jp/ï¿½ê‘±ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A>
+Frameworkï¿½ï¿½ï¿½ï¿½ <https://www.igapyon.jp/pyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ğ—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A> ï¿½É‚ÄˆÛï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

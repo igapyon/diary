@@ -63,7 +63,7 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>というオープンソースは、主たる機能として Java/C#.NETソースコード自動生成をもっています。blanco
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>というオープンソースは、主たる機能として Java/C#.NETソースコード自動生成をもっています。blanco
 Frameworkを実際に実装したうえでの経験をもとに、ソースコード自動生成 (具体的には blancoCodeGenerator*) の部分に関して改善したいと考えていることをメモします。(今
 振り返った上で、思いつく改善点を挙げます)</P>
 <P><FONT color="#ff00ff">ソースコード自動生成クラスとソースコードデータ構造との分離</FONT></P>
@@ -94,10 +94,10 @@ Frameworkを実際に実装したうえでの経験をもとに、ソースコ�
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>というオープンソースは、主たる機能として Excel様式の賢い読み込みがあります。具体的には
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>というオープンソースは、主たる機能として Excel様式の賢い読み込みがあります。具体的には
 blancoCalcParser が該当します。この箇所について改善したいと考えていることをメモします。</P>
 <P>実は、いま時間が確保できるのであれば最初に改善したいもののひとつが Excel様式読込処理の箇所なのです。ここは 進捗上 追い詰められた状態において<STRONG>勢い</STRONG>で作りました。今ソースコードを見てみると はずかしい状態です。今までは 延べ 3日程度しか工数をかけられていないのです (そして、これは恥ずかしいソースコードに対する言い訳です)。<BR>
-ところが あそこの箇所は <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の心臓部みたいなところです。あそこのルーチンがあるから、blanco
+ところが あそこの箇所は <A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の心臓部みたいなところです。あそこのルーチンがあるから、blanco
 FrameworkのExcel読み込みが非常にシンプルで、そして<STRONG>賢い</STRONG>挙動をするようになっているのです。ああ、そんなところが あのような恥ずかしいコードに…。みなさま、スミマセン。そして、バグはなるべく早急に修正します。</P>
 <P>これは可能性が非常に低いアイデアです。もし私に時間的なある程度の余裕があれば、この箇所について別の抜本的な改善をおこないたいのです。Excel様式の読み込みについても、前述の<STRONG>オブジェクト指向</STRONG>が導入できれば非常に素晴らしいのだ、と考えています。Excel様式を継承して別のExcel様式を作成するのです。あるいは Excel様式から得られた内容を処理する箇所についても、これが継承とかできると画期的だろうと考えます。変更部分だけオーバライドして実装すると
 あたかも Excel様式が継承されたかのごとく振る舞うのです。Delphiの画面の継承のExcel様式版みたいなものです。ところが、これは もんのすごく頭の良い
@@ -110,7 +110,7 @@ FrameworkのExcel読み込みが非常にシンプルで、そして<STRONG>賢�
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のExcel様式は、見方を変えると オブジェクト指向における<STRONG>ステレオタイプ</STRONG>に該当するのだ、と捉えることが出来ます。(しかし、一般的な blanco Frameworkの説明をおこなうときには、なるべくオブジェクト指向的な用語を使った説明は<STRONG>行わない</STRONG>ように心がけています…)<BR>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>のExcel様式は、見方を変えると オブジェクト指向における<STRONG>ステレオタイプ</STRONG>に該当するのだ、と捉えることが出来ます。(しかし、一般的な blanco Frameworkの説明をおこなうときには、なるべくオブジェクト指向的な用語を使った説明は<STRONG>行わない</STRONG>ように心がけています…)<BR>
 設計や実装からステレオタイプを導出し、Excel様式に閉じこめることが出来れば そのまま新規のソースコード自動生成へとつながります。わたしは
 これを blanco様式の新規作成なのだととらています (該当する専門用語は決まっていません)。このExcel様式の導出が、blanco Frameworkを遂行するうえでもっとも難しい工程のひとつなのです。blanco
 Framework コミッタには Excel様式を決定する専門家がいます。(私ではない人物が担当しています。) それに比べて、ソースコード自動生成は

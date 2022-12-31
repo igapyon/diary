@@ -64,8 +64,8 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は <A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A> および
-<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A> について、VB.NET および PHPソースコード自動生成対応のベータ版を公開します。これにより、文字グループ定義書および文字列グループ定義書から
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> は <A HREF="https://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A> および
+<A HREF="https://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A> について、VB.NET および PHPソースコード自動生成対応のベータ版を公開します。これにより、文字グループ定義書および文字列グループ定義書から
 Java, C#.NET, JavaScript, VB.NET, PHPの5種類のソースコードを自動生成できるようになります。</P>
 <P>製造の過程で PHPの文字操作APIに 少しハマりました。strlenではなく、mb_strlen などの i18n系文字列操作APIを利用する必要があることを認識しました。C言語みたいなAPIセットですね。現時点では
 それら mb_がプレフィックスとして付与される i18n系APIを利用するソースコードを生成するように対応済みとなっています。</P>
@@ -76,7 +76,7 @@ Java, C#.NET, JavaScript, VB.NET, PHPの5種類のソースコードを自動生
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のプロダクト群のうち、Java, C#.NET, JavaScript, VB.NET, PHPの 5言語に対応した <A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>、<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A>、<A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>について、それらが Java, C#.NET, JavaScriptの3言語にのみ対応していた頃よりも、ソースコードの読解が随分と難しくなっています。なるべくシンプルに保ちたかったのですが、さすがに5言語対応となると やむをえないのかとも考えます。特に VB.NET対応がインパクト大きいです。VB.NETでは If xxx Then , End If などとなり、C言語を祖先とするプログラミング言語とはかなり異なるからです。これを吸収するための共通化が、結果的にソースコードの読みやすさを低下させています。</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A> のプロダクト群のうち、Java, C#.NET, JavaScript, VB.NET, PHPの 5言語に対応した <A HREF="https://www.igapyon.jp/blanco/blancomessage.html" TITLE="「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。">blancoMessage</A>、<A HREF="https://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。">blancoCharacterGroup</A>、<A HREF="https://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。">blancoStringGroup</A>について、それらが Java, C#.NET, JavaScriptの3言語にのみ対応していた頃よりも、ソースコードの読解が随分と難しくなっています。なるべくシンプルに保ちたかったのですが、さすがに5言語対応となると やむをえないのかとも考えます。特に VB.NET対応がインパクト大きいです。VB.NETでは If xxx Then , End If などとなり、C言語を祖先とするプログラミング言語とはかなり異なるからです。これを吸収するための共通化が、結果的にソースコードの読みやすさを低下させています。</P>
 <P>これから blanco Frameworkのソースコードを読みたいと思われた方は Java, C#.NET, JavaScriptの3言語にのみ対応していた頃のバージョンのソースコードを読まれるのが、まず全体像をつかむためには良いと思います。</P>
 <HR>
 <address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>

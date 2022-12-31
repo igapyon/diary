@@ -73,12 +73,12 @@
     </TR>
   </TBODY>
 </TABLE>
-<P>現状のハードウェアのスペックの都合から 私は 現実的な解として <A HREF="https://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A> への指向性を持っています。<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>などは
+<P>現状のハードウェアのスペックの都合から 私は 現実的な解として <A HREF="https://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A> への指向性を持っています。<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>などは
 R/Oマッピングを具現化した実装です。ちょっとした規模のシステムの際に、ターゲットが リレーショナルデータベースであり かつ SQL文でアクセスする以上、SQLを中心とした
-Javaオブジェクトへのマッピング (だから R/Oマッピング) という結論のもとに <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を作成しました。</P>
+Javaオブジェクトへのマッピング (だから R/Oマッピング) という結論のもとに <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を作成しました。</P>
 <P>でも 将来 メモリ搭載量が ペタのレベルになったり、あるいはハードディスクのアクセス速度が現在の 100倍から1000倍に向上する、あるいはそれに匹敵するような画期的なデータストアが登場すれば、R/Oマッピングではなくって、O/Rマッピング
 (そしてそれは 自動的に作成されたであろうSQL文を想定しています) というアプローチも現実的な使い勝手のある方法になるようにも考えられました。現在のハードウェア性能の都合
-<A HREF="https://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A> 指向性を持たざるをえず、従って <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> がもっとも現実的な解となるわけなのですが、いつ何時、ハードウェア性能が画期的に向上する、あるいは
+<A HREF="https://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oマッピングの定義をここに定めます。">R/Oマッピング</A> 指向性を持たざるをえず、従って <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A> がもっとも現実的な解となるわけなのですが、いつ何時、ハードウェア性能が画期的に向上する、あるいは
 リレーショナルデータベースを超える画期的なデータストアが登場するかも知れないのです。ピア・ツー・ピアという観点から 全く画期的なデータストアが登場するかも知れませんね。</P>
 <P>これはちょうど SQLやリレーショナルデータベースの歴史を思い起こすと理解しやすいです。SQLやリレーショナルデータベースといったものは、具体的な製品が登場してからも
 かなり長い間は、メモリ消費量の都合やハードウェア性能の都合などから、とても現実的な実用に耐えうるものではありませんでした。ところが、UNIXワークステーションが登場してダウンサイジングの時代が到来して、それまでも汎用機時代では想像できなかったほどのメモリとハードウェア処理能力が得られて、SQLやリレーショナルデータベースが現実的に利用可能な言語・アーキテクチャへと昇華したのです。ISAMベースの時代から

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/07/07 “ú‹L: blancoSOAP‚Ì .NET Framework‘Î‰ž‚ÍA.NET Framework 2.0ƒx[ƒX‚Ö‚ÆˆÚs‚µ‚Ü‚·</TITLE>
-<META name="DESCRIPTION" content="‘Î‰ž‚Ì‰ß’ö‚ÅA.NET Framework 1.1‚Æ .NET Framework 2.0‚Æ‚ÌŠÔ‚ÅAWebƒT[ƒrƒX‚ÌƒAƒmƒe[ƒVƒ‡ƒ“‚ªŒ€“I‚É•Ï‰»‚µ‚Ä‚¢‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/07/07 ï¿½ï¿½ï¿½L: blancoSOAPï¿½ï¿½ .NET Frameworkï¿½Î‰ï¿½ï¿½ÍA.NET Framework 2.0ï¿½xï¿½[ï¿½Xï¿½Ö‚ÆˆÚsï¿½ï¿½ï¿½Ü‚ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½Î‰ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅA.NET Framework 1.1ï¿½ï¿½ .NET Framework 2.0ï¿½Æ‚ÌŠÔ‚ÅAWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ÌƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/07/07 “ú‹L: blancoSOAP‚Ì .NET Framework‘Î‰ž‚ÍA.NET Framework 2.0ƒx[ƒX‚Ö‚ÆˆÚs‚µ‚Ü‚·</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ‘Î‰ž‚Ì‰ß’ö‚ÅA.NET Framework 1.1‚Æ .NET Framework 2.0‚Æ‚ÌŠÔ‚ÅAWebƒT[ƒrƒX‚ÌƒAƒmƒe[ƒVƒ‡ƒ“‚ªŒ€“I‚É•Ï‰»‚µ‚Ä‚¢‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚Å‚·B</P>
+    <H2>2006/07/07 ï¿½ï¿½ï¿½L: blancoSOAPï¿½ï¿½ .NET Frameworkï¿½Î‰ï¿½ï¿½ÍA.NET Framework 2.0ï¿½xï¿½[ï¿½Xï¿½Ö‚ÆˆÚsï¿½ï¿½ï¿½Ü‚ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½Î‰ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅA.NET Framework 1.1ï¿½ï¿½ .NET Framework 2.0ï¿½Æ‚ÌŠÔ‚ÅAWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ÌƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,30 +60,30 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoSOAP‚Ì .NET Framework‘Î‰ž‚ÍA.NET Framework 2.0ƒx[ƒX‚Ö‚ÆˆÚs‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoSOAPï¿½ï¿½ .NET Frameworkï¿½Î‰ï¿½ï¿½ÍA.NET Framework 2.0ï¿½xï¿½[ï¿½Xï¿½Ö‚ÆˆÚsï¿½ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚Ì .NET Framework‘Î‰ž‚ÍA.NET Framework 2.0ƒx[ƒX‚Ö‚ÆˆÚs‚µ‚Ü‚·B‘åã‚Ì–^ˆÄŒ‚ª
-.NET Framework 2.0ƒx[ƒX‚È‚Ì‚Å‚·‚ª <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚Ì‚Ý .NET Framework 1.1ƒTƒ|[ƒg‚ðI—¹‚³‚¹A.NET
-Framework 2.0ƒx[ƒX‚Ö‚Æƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚µ‚Ü‚·B</P>
-<P>‘Î‰ž‚Ì‰ß’ö‚ÅA.NET Framework 1.1‚Æ .NET Framework 2.0‚Æ‚ÌŠÔ‚ÅAWebƒT[ƒrƒX‚ÌƒAƒmƒe[ƒVƒ‡ƒ“‚ªŒ€“I‚É•Ï‰»‚µ‚Ä‚¢‚é‚±‚Æ‚ð’m‚è‚Ü‚µ‚½B‚Ñ‚Á‚­‚è‚Å‚·Bˆê•û‚Å ƒAƒmƒe[ƒVƒ‡ƒ“‚Ì•ÏX‚Í <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A> ‚ªƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚Æ‚¢‚¤ƒA[ƒLƒeƒNƒ`ƒƒ‚É‚æ‚è‹zŽû‚Å‚«‚é‚±‚Æ‚à•ª‚©‚è‚Ü‚µ‚½B</P>
-<P>‚¿‚È‚Ý‚É <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚Ì Java‘Î‰ž‚ÍAAxis2ƒx[ƒX‚Ö‚ÆˆÚs‚·‚é—\’è‚Å‚·B‚µ‚©‚µ‹ï‘Ì“I‚ÈƒXƒPƒWƒ…[ƒ‹‚ÍŒ»Žž“_‚Å‚Í
-‚ ‚è‚Ü‚¹‚ñB</P>
-<P>‚È‚¨AblancoDbDotNet‚¾‚¯‚ÍAæ“ú‚Ì“ú‹L‚É‘‚¢‚½‚æ‚¤‚É .NET Framework 1.1‚¨‚æ‚Ñ2.0‚Ì—¼•û‚ð‘Î‰ž‚µ‘±‚¯‚é‚±‚Æ‚Æ‚µ‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½ï¿½ .NET Frameworkï¿½Î‰ï¿½ï¿½ÍA.NET Framework 2.0ï¿½xï¿½[ï¿½Xï¿½Ö‚ÆˆÚsï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì–^ï¿½ÄŒï¿½ï¿½ï¿½
+.NET Framework 2.0ï¿½xï¿½[ï¿½Xï¿½È‚Ì‚Å‚ï¿½ï¿½https://www.igapyon.jp/igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½Ì‚ï¿½ .NET Framework 1.1ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A.NET
+Framework 2.0ï¿½xï¿½[ï¿½Xï¿½Ö‚Æƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Î‰ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅA.NET Framework 1.1ï¿½ï¿½ .NET Framework 2.0ï¿½Æ‚ÌŠÔ‚ÅAWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ÌƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½https://www.igapyon.jp/ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Aï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì•ÏXï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A> ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½[ï¿½Lï¿½eï¿½Nï¿½`ï¿½ï¿½ï¿½É‚ï¿½ï¿½zï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚ï¿½ <https://www.igapyon.jp/pyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½ï¿½ Javaï¿½Î‰ï¿½ï¿½ÍAAxis2ï¿½xï¿½[ï¿½Xï¿½Ö‚ÆˆÚsï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“Iï¿½ÈƒXï¿½Pï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÍŒï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½
+ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P>ï¿½È‚ï¿½ï¿½AblancoDbDotNetï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ .NET Framework 1.1ï¿½ï¿½ï¿½ï¿½ï¿½2.0ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="ig060609.html">2006/06/09 “ú‹L: blanco Framework‚Ì .NET Framework—p R/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚ ‚é blancoDbDotNet‚Ìƒ[ƒhƒ}ƒbƒv</A>
+  <LI><A href="ig060609.html">2006/06/09 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ï¿½ .NET Frameworkï¿½p R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbDotNetï¿½Ìƒï¿½ï¿½[ï¿½hï¿½}ï¿½bï¿½v</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>2006.07‚Í blancoSOAP‚É‰Ò“­‚ðU‚è•ª‚¯‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>2006.07ï¿½ï¿½ blancoSOAPï¿½É‰Ò“ï¿½ï¿½ï¿½Uï¿½è•ªï¿½ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>2006.07‚Í blancoSOAP‚É‰Ò“­‚ðU‚è•ª‚¯‚Ü‚·B“Á‚É .NET Framework‘Î‰ž•”•ª‚É’—Í‚·‚é‚±‚Æ‚É‚È‚éŒ©ž‚Ý‚Å‚·B</P>
+<P>2006.07ï¿½ï¿½ blancoSOAPï¿½É‰Ò“ï¿½ï¿½ï¿½Uï¿½è•ªï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ .NET Frameworkï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½Í‚ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚éŒ©ï¿½ï¿½ï¿½Ý‚Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

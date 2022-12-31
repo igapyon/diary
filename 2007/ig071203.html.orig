@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/12/03 “ú‹L: J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu</TITLE>
-<META name="DESCRIPTION" content="–¾“ú‚Í J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚·BJ2EE‚ÉŠÖ‚·‚éî•ñ‚ð®—‚·‚é‚Ì‚±‚Æ‚ð–Ú“I‚Æ‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2007/12/03 ï¿½ï¿½ï¿½L: J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½u</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BJ2EEï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ð®—ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/12/03 “ú‹L: J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] –¾“ú‚Í J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚·BJ2EE‚ÉŠÖ‚·‚éî•ñ‚ð®—‚·‚é‚Ì‚±‚Æ‚ð–Ú“I‚Æ‚µ‚Ü‚·B</P>
+    <H2>2007/12/03 ï¿½ï¿½ï¿½L: J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½u</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BJ2EEï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ð®—ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,43 +60,43 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½u</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>–¾“ú‚Í J2EE ‚ÌƒZƒ~ƒi[‚ðŽóu‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚·BJ2EE‚ÉŠÖ‚·‚éî•ñ‚ð®—‚·‚é‚Ì‚±‚Æ‚ð–Ú“I‚Æ‚µ‚Ü‚·B</P>
-<P>Ž„‚ª ‰‚ß‚Ä J2EE‚ÉŠÖ‚·‚éî•ñ‚ð“¾‚½‚Ì‚ÍAJavaWorld ‚ª‰‚ß‚Ä Java ‚Ì Enterprise”Å‚Æ‚¢‚¤‚à‚Ì‚ªŒv‰æ‚³‚ê‚Ä‚¢‚é‚Æ‚¢‚¤‚±‚Æ‚ð“ÁW‹LŽ–‚ÅÐ‰î‚µ‚Ä‚¢‚½†‚ðŒ©‚½Žž‚Å‚·B2000”N‚æ‚è‘O‚¾‚Á‚½‚©Œã‚¾‚Á‚½‚©‚Í‹L‰¯‚ª’è‚©‚Å‚Í‚ ‚è‚Ü‚¹‚ñB‚»‚±‚É‚Í
-ƒRƒ“ƒZƒvƒg‚ÉŠÖ‚·‚é’f•Ð“I‚Èî•ñ‚µ‚©Ú‚Á‚Ä‚¨‚ç‚¸ —Ç‚­ˆÓ–¡‚ª•ª‚©‚ç‚È‚©‚Á‚½‚Æ‹L‰¯‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>‚»‚ê‚©‚ç •ªŽž‚ªŒo‚¿AJ2EEŠÖ˜A‚Ìƒ‰ƒCƒ“ƒiƒbƒv‚à ‚©‚È‚è‘‚¦‚Ä‚«‚Ü‚µ‚½BJ2EE‚Ì”ÍˆÍ‚Ì’†‚Ö ‚¢‚ë‚¢‚ë‚È‹Zp‚ª‰Á‚í‚Á‚Ä‚«‚½‚æ‚¤‚É‹L‰¯‚µ‚Ä‚¢‚Ü‚·BWebƒT[ƒrƒX‚â
-JavaMail ‚à J2EE‚Ìˆê•”‚È‚Ì‚©‚È(?)B‚¿‚È‚Ý‚É Java 6‚ÈŽž‘ã‚Ì ƒCƒ}ƒhƒL‚Í uJava EEv‚ª³Ž®–¼Ì‚È‚ñ‚Å‚·‚æ‚ËB</P>
-<P>‚»‚ñ‚È‚±‚Æ‚ÅA‚à‚Í‚â ‚Ç‚±‚Ü‚Å‚ª J2EE‚È‚Ì‚©A‚»‚à‚»‚àJ2EE‚Æ‚Í‰½‚È‚Ì‚©AŽ„‚É‚Í®—‚Å‚«‚Ä‚¢‚Ü‚¹‚ñB‚ ‚ A‚»‚ê‚Æ‚¢‚¤‚Ì‚àA¢ŠÔ‚ÅEJB‚ª˜b‘è‚É‚È‚é•ª‘O‚ÌŽž“_‚©‚çAEJB‚ÌŽd—l‚ðŒ©‚ÄuEJB–o–Åv‚È‚ñ‚ÄŽ„‚ÍŒ¾‚Á‚Ä‚¢‚½‚¹‚¢‚©‚à’m‚ê‚Ü‚¹‚ñcBEJB‚ð‚«‚Á‚©‚¯‚ÉA—]Œv‚É
-J2EE‚ÌˆóÛ‚ªŽ„‚É‚Æ‚Á‚Ä‚Íˆ«‚©‚Á‚½‚æ‚¤‚È‹L‰¯‚ª‚ ‚è‚Ü‚·B</P>
-<P>‚Æ‚¢‚¤‚±‚Æ‚ÅA‚»‚±‚¢‚ç‚Ö‚ñ‚ð‰ðŒˆ‚·‚é‚Ì‚ª ¡‰ñ‚ÌƒZƒ~ƒi[Žóu‚Ì–Ú“I‚È‚Ì‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ J2EE ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BJ2EEï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ð®—ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß‚ï¿½ J2EEï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ð“¾‚ï¿½ï¿½Ì‚ÍAJavaWorld ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ Java ï¿½ï¿½ Enterpriseï¿½Å‚Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½vï¿½æ‚³ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Wï¿½Lï¿½ï¿½ï¿½ÅÐ‰î‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B2000ï¿½Nï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‹Lï¿½ï¿½ï¿½ï¿½ï¿½è‚©ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½
+ï¿½Rï¿½ï¿½ï¿½Zï¿½vï¿½gï¿½ÉŠÖ‚ï¿½ï¿½ï¿½fï¿½Ð“Iï¿½Èï¿½ñ‚µ‚ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¸ ï¿½Ç‚ï¿½ï¿½Ó–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½AJ2EEï¿½Ö˜Aï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½iï¿½bï¿½vï¿½ï¿½ ï¿½ï¿½ï¿½È‚è‘ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BJ2EEï¿½Ì”ÍˆÍ‚Ì’ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½È‹Zï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½
+JavaMail ï¿½ï¿½ J2EEï¿½Ìˆê•”ï¿½È‚Ì‚ï¿½ï¿½ï¿½(?)ï¿½Bï¿½ï¿½ï¿½È‚Ý‚ï¿½ Java 6ï¿½ÈŽï¿½ï¿½ï¿½ï¿½ ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½ ï¿½uJava EEï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚È‚ï¿½Å‚ï¿½ï¿½ï¿½ËB</P>
+<P>ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ÅAï¿½ï¿½ï¿½Í‚ï¿½ ï¿½Ç‚ï¿½ï¿½Ü‚Å‚ï¿½ J2EEï¿½È‚Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½J2EEï¿½Æ‚Í‰ï¿½ï¿½È‚Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½É‚Íï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ô‚ï¿½EJBï¿½ï¿½ï¿½bï¿½ï¿½É‚È‚éï¿½ï¿½ï¿½Oï¿½ÌŽï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½AEJBï¿½ÌŽdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ÄuEJBï¿½oï¿½Åvï¿½È‚ï¿½ÄŽï¿½ï¿½ÍŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½cï¿½BEJBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉAï¿½]ï¿½vï¿½ï¿½
+J2EEï¿½Ìˆï¿½Û‚ï¿½ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Íˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½ÌƒZï¿½~ï¿½iï¿½[ï¿½ï¿½uï¿½Ì–Ú“Iï¿½È‚Ì‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoBatchProcessŽŸŠú”Å ‘fˆÄ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoBatchProcessï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancobatchprocess.html" TITLE="uƒoƒbƒ`ˆ—’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒbƒ`ˆ—‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoBatchProcess</A>ŽŸŠú”Å‚Ì‘fˆÄ‚ðì¬‚µ‚Ü‚µ‚½B<BR>
-¦‚±‚Ìƒo[ƒWƒ‡ƒ“‚ÍŽŽì”Å‚Å‚·I ”jŠü‚·‚é‰Â”\«‚ª‚‚¢‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancobatchprocess.html" TITLE="ï¿½uï¿½oï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoBatchProcess</A>ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Ì‘fï¿½Ä‚ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½Å‚Å‚ï¿½ï¿½I ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
   <LI>blancoBatchProcess-0.3.0
   <UL>
-    <LI>ˆ—(Process)ƒCƒ“ƒ^ƒtƒF[ƒX‚ð”º‚Á‚½ˆ—‚É‚È‚é‚æ‚¤‚É•ÏXB
-    <LI>¡‰ñ‚Í Eclipseƒvƒ‰ƒOƒCƒ“”Å‚Íì¬‚µ‚Ä‚¢‚Ü‚¹‚ñB
-    <LI>’¼Ú SourceForge.jp‚©‚çƒ_ƒEƒ“ƒ[ƒh‚·‚é‚µ‚©“üŽè•û–@‚Í‚ ‚è‚Ü‚¹‚ñB
+    <LI>ï¿½ï¿½ï¿½ï¿½(Process)ï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½æ‚¤ï¿½É•ÏXï¿½B
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Å‚Íì¬ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+    <LI>ï¿½ï¿½ï¿½ï¿½ SourceForge.jpï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½é‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
   </UL>
   <LI>blancoAntTask-0.5.0
   <UL>
-    <LI>blancoBatchProcess-0.3.0‚É‘Î‰ž‚µ‚½”ÅB
+    <LI>blancoBatchProcess-0.3.0ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅB
   </UL>
 </UL>
-<P>“ïˆÕ“x‚ª‚‚­A‚Ü‚½ \‘z‚ªŒÅ‚Ü‚è‚«‚ç‚È‚©‚Á‚½‚½‚ßA‚Ç‚ñ‚Ç‚ñŒã‘—‚è‚µ‚Ä‚¢‚½ blancoProcess ‚Ö‚Æ‚Â‚È‚ª‚éƒCƒ“ƒ^ƒtƒF[ƒXEƒNƒ‰ƒX‚Ì\‘¢ŒŸ“¢‚Å‚·B<BR>
-‚»‚¤‚¢‚¦‚ÎAƒCƒ“ƒ^ƒtƒF[ƒX‚Í <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚É‚¨‚¢‚ÄA‚ ‚Ü‚è“oê‚µ‚Ä‚±‚È‚©‚Á‚½‹Zp‚¾‚È‚Ÿ (‹êÎ)</P>
+<P>ï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ ï¿½\ï¿½zï¿½ï¿½ï¿½Å‚Ü‚è‚«ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßAï¿½Ç‚ï¿½Ç‚ï¿½ã‘—ï¿½è‚µï¿½Ä‚ï¿½ï¿½ï¿½ blancoProcess ï¿½Ö‚Æ‚Â‚È‚ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½Eï¿½Nï¿½ï¿½ï¿½Xï¿½Ì\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎAï¿½Cï¿½ï¿½https://www.igapyon.jp/http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ü‚ï¿½oï¿½ê‚µï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½È‚ï¿½ (ï¿½ï¿½ï¿½)</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

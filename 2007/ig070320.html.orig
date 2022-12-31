@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/03/20 “ú‹L: blanco Framework ‚Í V‚½‚É Ruby ‚Æ Python ‚Ì ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚­—\’è</TITLE>
-<META name="DESCRIPTION" content="æ“úŠJÃ‚³‚ê‚½ OSC2007 Tokyo/Spring ‚É‚¨‚¢‚ÄAblanco Framework ‚Ì“WŽ¦‚ª Ruby ‚³‚ñ‚â Zope/Plone ‚³‚ñ‚Æ“¯‚¶“WŽ¦Žº‚Å‚ ‚Á‚½‚±‚Æ‚©‚ç‘Î‰ž‚ðŒŸ“¢ŠJŽn‚µ‚Ä‚¢‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ƒ\[ƒXƒR[ƒhŽ©“®¶¬">
+<TITLE>2007/03/20 ï¿½ï¿½ï¿½L: blanco Framework ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ Python ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½Jï¿½Ã‚ï¿½ï¿½ê‚½ OSC2007 Tokyo/Spring ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAblanco Framework ï¿½Ì“Wï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ï¿½ï¿½ï¿½ Zope/Plone ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/03/20 “ú‹L: blanco Framework ‚Í V‚½‚É Ruby ‚Æ Python ‚Ì ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚­—\’è</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ƒ\[ƒXƒR[ƒhŽ©“®¶¬] æ“úŠJÃ‚³‚ê‚½ OSC2007 Tokyo/Spring ‚É‚¨‚¢‚ÄAblanco Framework ‚Ì“WŽ¦‚ª Ruby ‚³‚ñ‚â Zope/Plone ‚³‚ñ‚Æ“¯‚¶“WŽ¦Žº‚Å‚ ‚Á‚½‚±‚Æ‚©‚ç‘Î‰ž‚ðŒŸ“¢ŠJŽn‚µ‚Ä‚¢‚Ü‚·B</P>
+    <H2>2007/03/20 ï¿½ï¿½ï¿½L: blanco Framework ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ Python ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blanco Framework,Ruby,Python,Excel,ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½] ï¿½ï¿½ï¿½ï¿½Jï¿½Ã‚ï¿½ï¿½ê‚½ OSC2007 Tokyo/Spring ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAblanco Framework ï¿½Ì“Wï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ï¿½ï¿½ï¿½ Zope/Plone ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,34 +60,34 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework ‚Í V‚½‚É Ruby ‚Æ Python ‚Ì ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚­—\’è</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ Python ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Í V‚½‚É Ruby ‚Æ Python ‚Ì ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚­‚±‚Æ‚ð•ûj‚Æ‚µ‚Ü‚·B</P>
-<P>æ“úŠJÃ‚³‚ê‚½ OSC2007 Tokyo/Spring ‚É‚¨‚¢‚ÄAblanco Framework ‚Ì“WŽ¦‚ª <A href="http://jp.rubyist.net/">“ú–{Ruby‚Ì‰ï</A>‚³‚ñ, <A href="http://zope.jp/">“ú–{Zopeƒ†[ƒU[‰ï</A>‚³‚ñ, <A href="http://plone.jp/">PloneŒ¤‹†‰ï</A>‚³‚ñ‚Æ“¯‚¶“WŽ¦Žº‚Å‚ ‚Á‚½‚±‚Æ‚©‚ç‘Î‰ž‚ðŒŸ“¢ŠJŽn‚µ‚Ü‚µ‚½B‚Ü‚½A<A href="http://zope.jp/">“ú–{Zopeƒ†[ƒU[‰ï</A>, <A href="http://plone.jp/">PloneŒ¤‹†‰ï</A>‚Ì•ûX‚Æ OSC2007 Tokyo/Spring§e‰ï‚Åe–r‚Å‚«‚½‚±‚Æ‚à d—v‚È ‚«‚Á‚©‚¯‚Æ‚È‚Á‚Ä‚¢‚Ü‚·BƒI[ƒvƒ“ƒ\[ƒX‚Á‚Ä ‘f°‚ç‚µ‚¢‚Å‚·‚ËB</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ Python ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½jï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½Jï¿½Ã‚ï¿½ï¿½ê‚½ OSC2007 Tokyo/Spring ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAblanco Framework ï¿½Ì“Wï¿½ï¿½ï¿½ï¿½ <A href="http://jp.rubyist.net/">ï¿½ï¿½ï¿½{Rubyï¿½Ì‰ï¿½</A>ï¿½ï¿½ï¿½ï¿½, <A href="http://zope.jp/">ï¿½ï¿½ï¿½{Zopeï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½, <A href="http://plone.jp/">Ploneï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½A<A href="http://zope.jp/">ï¿½ï¿½ï¿½{Zopeï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½</A>, <A href="http://plone.jp/">Ploneï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>ï¿½Ì•ï¿½ï¿½Xï¿½ï¿½ OSC2007 Tokyo/Springï¿½ï¿½ï¿½eï¿½ï¿½Åeï¿½rï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ ï¿½dï¿½vï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËB</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2006/ig061121.html">2006/11/21 “ú‹L: blanco Framework‚Í V‚½‚É VB.NET ‚¨‚æ‚Ñ PHP (php5) ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ü‚µ‚½</A>
+  <LI><A href="../2006/ig061121.html">2006/11/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP (php5) ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>—IT‹LŽ–’Ee</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ITï¿½Lï¿½ï¿½ï¿½Eï¿½e</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">22:36</FONT> —IT˜AÚ‹LŽ–‚ð ‚Â‚¢æ‚Ù‚Ç ’Ee‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚µ‚½B‚±‚ê‚©‚çŽÐ“àƒŒƒrƒ…[‰ñ——‚É‚©‚¯‚Ü‚·B<BR>
-c–ˆŒŽ‚Ì˜AÚ‹LŽ–‚Á‚Ä‘å•Ï‚Å‚·‚ËBˆê‰ñ•ª‚ªI‚í‚Á‚½‚ÆŽv‚Á‚½‚çA‚·‚®‚ÉŽŸ‚ÌYØ‚ª–K‚ê‚éA‚»‚ñ‚È‹C‚ª‚µ‚Ü‚·B<BR>
-‚ªcAŒ³‰ß‚¬‚ê‚Î”M‚³‚ð–Y‚ê‚é«•ª‚È‚Ì‚ÅA’Ee‚µ‚½“r’[ ‚ä‚é‚ñ‚Å‚µ‚Ü‚¢AŽŸ‚Ì‰ñ‚ÌŒ´e‚ðƒRƒcƒRƒc‚Æ‘‚«i‚ß‚é‚æ‚¤‚È‚±‚Æ‚Í ‚Å‚«‚È‚¢‚Ì‚Å‚· (‹êÎ)</P>
-<P><FONT color="#ff0000">22:41</FONT> ‚Æ‚Í‚¢‚¦ ¡‰ñ‚ÌŒ´e‚ª ‚Ü‚¾ AŒ³‚ð’Ê‰ß‚µ‚«‚Á‚Ä‚¢‚È‚¢ (ƒŒƒrƒ…[–ß‚µì‹Æ‚ªŽc‚Á‚Ä‚¢‚é) ‚Ì‚ÅAŽ–‘O‚É ŽŸ‰ñ‚Ìƒe[ƒ}^“à—e‚ðƒ`ƒFƒbƒN‚µ‚Ä‚¨‚±‚¤‚Æ
-(‚³‚·‚ª‚ÌŽ„‚à) Žv‚¢‚½‚¿‚Ü‚µ‚½B‚³‚ ‚ÄAŽŸ‰ñ‚Ì‚¨‘è–Ú‚Íc</P>
+<P><FONT color="#ff0000">22:36</FONT> ï¿½ï¿½ITï¿½Aï¿½Ú‹Lï¿½ï¿½ï¿½ï¿½ ï¿½Â‚ï¿½ï¿½ï¿½Ù‚ï¿½ ï¿½Eï¿½eï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚©ï¿½ï¿½Ð“ï¿½ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½ñ——‚É‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½Ì˜Aï¿½Ú‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ä‘ï¿½Ï‚Å‚ï¿½ï¿½ËBï¿½ï¿½ñ•ª‚ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ÌYï¿½Ø‚ï¿½ï¿½Kï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½cï¿½Aï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½Î”Mï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½é«ï¿½ï¿½ï¿½È‚Ì‚ÅAï¿½Eï¿½eï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ì‰ï¿½ÌŒï¿½ï¿½eï¿½ï¿½ï¿½Rï¿½cï¿½Rï¿½cï¿½Æï¿½ï¿½ï¿½ï¿½iï¿½ß‚ï¿½æ‚¤ï¿½È‚ï¿½ï¿½Æ‚ï¿½ ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">22:41</FONT> ï¿½Æ‚Í‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½eï¿½ï¿½ ï¿½Ü‚ï¿½ ï¿½Aï¿½ï¿½ï¿½ï¿½Ê‰ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ (ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½ß‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½cï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½) ï¿½Ì‚ÅAï¿½ï¿½ï¿½Oï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ìƒeï¿½[ï¿½}ï¿½^ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½) ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Ú‚Íc</P>
 <UL>
-  <LI>u•¶Žš‚É‚Â‚¢‚Ä‚ÌíŽ¯v ³‹K•\Œ» (java.util.regex) , •¶ŽšƒGƒ“ƒR[ƒh (java.nio.charset)
+  <LI>ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÌíŽ¯ï¿½v ï¿½ï¿½ï¿½Kï¿½\ï¿½ï¿½ (java.util.regex) , ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Rï¿½[ï¿½h (java.nio.charset)
 </UL>
-<P>‚±A‚±‚ê‚Í‚±‚ê‚ÍAAA‚Ü‚½ ŽèŠÔ‚Ì‚©‚©‚è‚»‚¤‚È‘è–Ú‚É‚È‚Á‚Ä‚¢‚Ü‚·B‘‚¢–Ú‚É ‚¿‚å‚Á‚Æ‚¸‚Âƒlƒ^‚ðo‚µ‚Ä‚¢‚±‚¤A‚ÆŽv‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ÍAï¿½Aï¿½Aï¿½Ü‚ï¿½ ï¿½ï¿½Ô‚Ì‚ï¿½ï¿½ï¿½ï¿½è‚»ï¿½ï¿½ï¿½È‘ï¿½Ú‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Âƒlï¿½^ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/11/21 “ú‹L: blanco Framework‚Í V‚½‚É VB.NET ‚¨‚æ‚Ñ PHP (php5) ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ü‚µ‚½</TITLE>
-<META name="DESCRIPTION" content="VB.NET ‚¨‚æ‚Ñ PHP ‚ÉV‚½‚É‘Î‰ž‚·‚é‚±‚Æ‚É‚æ‚èAblanco Framework‚Í Java / C#.NET / JavaScript / VB.NET / PHPŒ¾Œê‚Ìƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/11/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP (php5) ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP ï¿½ÉVï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ablanco Frameworkï¿½ï¿½ Java / C#.NET / JavaScript / VB.NET / PHPï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/11/21 “ú‹L: blanco Framework‚Í V‚½‚É VB.NET ‚¨‚æ‚Ñ PHP (php5) ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ü‚µ‚½</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] VB.NET ‚¨‚æ‚Ñ PHP ‚ÉV‚½‚É‘Î‰ž‚·‚é‚±‚Æ‚É‚æ‚èAblanco Framework‚Í Java / C#.NET / JavaScript / VB.NET / PHPŒ¾Œê‚Ìƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B</P>
+    <H2>2006/11/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP (php5) ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP ï¿½ÉVï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ablanco Frameworkï¿½ï¿½ Java / C#.NET / JavaScript / VB.NET / PHPï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,43 +60,43 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework‚Í V‚½‚É VB.NET ‚¨‚æ‚Ñ PHP (php5) ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Frameworkï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP (php5) ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Í V‚½‚É VB.NET ‚¨‚æ‚Ñ PHP (php5) ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ü‚µ‚½B</P>
-<P>VB.NET ‚¨‚æ‚Ñ PHP ‚ÉV‚½‚É‘Î‰ž‚·‚é‚±‚Æ‚É‚æ‚èAblanco Framework‚Í Java / C#.NET / JavaScript
-/ VB.NET / PHPŒ¾Œê‚Ìƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B<BR>
-blanco Framework‚ðŽg‚¤‚±‚Æ‚É‚æ‚èA‚Ð‚Æ‚Â‚ÌŠJ”­ƒvƒƒZƒX‚ð•¡”‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚É‚æ‚éƒVƒXƒeƒ€ŠJ”­‚É—˜—p‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚·B‚±‚Ì‚½‚ßAV‚½‚É‚QŒ¾Œê‚É‘Î‰ž‚µ‚½ˆÓ‹`‚Í‘å‚«‚¢‚Æl‚¦‚Ü‚·B</P>
-<P>¦2006.11.16Žž“_‚Å 5Œ¾Œê‘S‚Ä‚Ìƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚é‚Ì‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="u•¶Žš—ñ•ÏŠ·’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çA•¶Žš—ñ•ÏŠ·‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStringConverter</A>,
-<A HREF="http://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="u•¶ŽšƒOƒ‹[ƒv’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çA•¶ŽšƒOƒ‹[ƒv‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoCharacterGroup</A>, <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="u•¶Žš—ñƒOƒ‹[ƒv’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çA•¶Žš—ñƒOƒ‹[ƒv ‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStringGroup</A>,
-<A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="uƒƒbƒZ[ƒW’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒƒbƒZ[ƒW‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoMessage</A> ‚Ì4ƒvƒƒ_ƒNƒg‚Å‚·B‘Î‰žƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚É‚Â‚¢‚Ä‚ÍAŒÂ•Ê‚Ìƒvƒƒ_ƒNƒg‚Ìà–¾ƒy[ƒW‚ðŽQÆ‚­‚¾‚³‚¢B<BR>
-—˜—pŽÒ‚Ì—v–]‚Ì‹­‚¢ƒvƒƒ_ƒNƒg‚©‚çA‡ŽŸ‘Î‰žƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‚ð’Ç‰Á‚µ‚Ä‚¢‚­—\’è‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP (php5) ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>VB.NET ï¿½ï¿½ï¿½ï¿½ï¿½ PHP ï¿½ÉVï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Ablanco Frameworkï¿½ï¿½ Java / C#.NET / JavaScript
+/ VB.NET / PHPï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+blanco Frameworkï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½Aï¿½Ð‚Æ‚Â‚ÌŠJï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Zï¿½Xï¿½ð•¡ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßAï¿½Vï¿½ï¿½ï¿½É‚Qï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó‹`ï¿½Í‘å‚«ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½2006.11.16ï¿½ï¿½ï¿½_ï¿½ï¿½ 5ï¿½ï¿½ï¿½ï¿½Sï¿½Ä‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½https://www.igapyon.jp/ HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStringConverter</A>,
+<A HREF="https://www.igapyon.jp/blanco/blancocharactergroup.html" TITLE="ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½https://www.igapyon.jp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCharacterGroup</A>, <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½v ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStringGroup</A>,
+<A HREF="https://www.igapyon.jp/blanco/blancomessage.html" TITLE="ï¿½uï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoMessage</A> ï¿½ï¿½4ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Å‚ï¿½ï¿½Bï¿½Î‰ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½Â•Ê‚Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Ìï¿½ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½pï¿½Ò‚Ì—vï¿½]ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00"><STRONG>blanco Framework ‚É‚Â‚¢‚Ä</STRONG></TD>
+      <TD bgcolor="#ffff00"><STRONG>blanco Framework ï¿½É‚Â‚ï¿½ï¿½ï¿½</STRONG></TD>
     </TR>
   </TBODY>
 </TABLE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>blanco Framework‚ÍAExcelƒuƒbƒN—lŽ®‚ÌÝŒv‘‚ð“ü—Í‚µ‚Äƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚éƒc[ƒ‹ŒQ‚ÌW‚Ü‚è‚É‚æ‚éƒtƒŒ[ƒ€ƒ[ƒN‚Å‚·B<BR>
-      blanco Framework‚ð—˜—p‚·‚é‚±‚Æ‚É‚æ‚èAƒhƒLƒ…ƒƒ“ƒg‚©‚ç‘f‘‚­ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B<BR>
-      Šeƒc[ƒ‹‚Í‘aŒ‹‡‚Å•”•ª—˜—p‚ª‰Â”\‚Å‚·BSpring Framework ‚È‚Ç‘¼‚ÌƒtƒŒ[ƒ€ƒ[ƒN‚Æ•¹—p‚·‚é‚±‚Æ‚à‰Â”\‚Å‚·B<BR>
-      blanco Framework‚Ìƒvƒƒ_ƒNƒgŒQ‚ÍAEclipseƒvƒ‰ƒOƒCƒ“ ‚Ü‚½‚Í AntTask ‚ÌŒ`Ž®‚Å’ñ‹Ÿ‚³‚ê‚Ü‚·B</TD>
+      <TD>blanco Frameworkï¿½ÍAExcelï¿½uï¿½bï¿½Nï¿½lï¿½ï¿½ï¿½ÌÝŒvï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Äƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Qï¿½ÌWï¿½Ü‚ï¿½É‚ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Å‚ï¿½ï¿½B<BR>
+      blanco Frameworkï¿½ð—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+      ï¿½eï¿½cï¿½[ï¿½ï¿½ï¿½Í‘aï¿½ï¿½ï¿½ï¿½ï¿½Å•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½BSpring Framework ï¿½È‚Ç‘ï¿½ï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Æ•ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B<BR>
+      blanco Frameworkï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Qï¿½ÍAEclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½ï¿½ AntTask ï¿½ÌŒ`ï¿½ï¿½ï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2007/ig070320.html">2007/03/20 “ú‹L: blanco Framework ‚Í V‚½‚É Ruby ‚Æ Python ‚Ì ƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚­—\’è</A>
+  <LI><A href="../2007/ig070320.html">2007/03/20 ï¿½ï¿½ï¿½L: blanco Framework ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½ï¿½ Ruby ï¿½ï¿½ Python ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

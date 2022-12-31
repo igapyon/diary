@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/09/20 “ú‹L: Open Source Way 2005\‚µž‚Ý , blancoSOAP‘ŠúƒAƒNƒZƒX”ÅƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="Open Source Way 2005‚ð\‚µž‚Ý‚Ü‚µ‚½B‰“ú‚Ì10/06‚¾‚¯ŽQ‰Á‚µ‚Ü‚·B , ‹ïÛ‰»SAX (ConcreteSAX) ŽÀ‘•‚ª‚Å‚«‚ ‚ª‚Á‚½‚Ì‚ÅAblancoSOAP‚Ì‘ŠúƒAƒNƒZƒX”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/09/20 ï¿½ï¿½ï¿½L: Open Source Way 2005ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ , blancoSOAPï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="Open Source Way 2005ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½10/06ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B , ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAblancoSOAPï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/09/20 “ú‹L: Open Source Way 2005\‚µž‚Ý , blancoSOAP‘ŠúƒAƒNƒZƒX”ÅƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Open Source Way 2005‚ð\‚µž‚Ý‚Ü‚µ‚½B‰“ú‚Ì10/06‚¾‚¯ŽQ‰Á‚µ‚Ü‚·B , ‹ïÛ‰»SAX (ConcreteSAX) ŽÀ‘•‚ª‚Å‚«‚ ‚ª‚Á‚½‚Ì‚ÅAblancoSOAP‚Ì‘ŠúƒAƒNƒZƒX”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·B</P>
+    <H2>2005/09/20 ï¿½ï¿½ï¿½L: Open Source Way 2005ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ , blancoSOAPï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Open Source Way 2005ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½10/06ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B , ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAblancoSOAPï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,57 +59,57 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Open Source Way 2005: 10/06‚ðŽQ‰Á‚µ‚Ü‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Open Source Way 2005: 10/06ï¿½ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Open Source Way 2005‚Ì‰“ú(10/06)‚ð\‚µž‚Ý‚Ü‚µ‚½B</P>
+<P>Open Source Way 2005ï¿½Ìï¿½ï¿½ï¿½(10/06)ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Open Source Way 2005: 10/06<BR>
   <A HREF="http://osdn.jp/event/osway2005/">http://osdn.jp/event/osway2005/</A>
 </UL>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A> Framework‚ÅƒI[ƒvƒ“ƒ\[ƒX‚ÉŒg‚í‚Á‚Ä‚¢‚é‚½‚ßAƒI[ƒvƒ“ƒ\[ƒX‚ÉŠÖ‚·‚éŠeŽíŠÖ˜Aî•ñ‚ðŽæ“¾‚·‚é‚Ì‚ª–Ú“I‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A> Frameworkï¿½ÅƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÉŒgï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚½ï¿½ßAï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÉŠÖ‚ï¿½ï¿½ï¿½eï¿½ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ú“Iï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAP‘ŠúƒAƒNƒZƒX”ÅƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAPï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚Ì‘ŠúƒAƒNƒZƒX”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·BEclipseƒvƒ‰ƒOƒCƒ“‚ÌŒ`‘Ô‚É‚¨‚¢‚Ä”z•z‚µ‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BEclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ÌŒ`ï¿½Ô‚É‚ï¿½ï¿½ï¿½ï¿½Ä”zï¿½zï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>
 </UL>
-<P>‹ïÛ‰»SAX (ConcreteSAX ) ‚ÌŽÀ‘•—á‚ðŽ¦‚·‚Ì‚ªŽå‚½‚é‘_‚¢‚Å‚·BŽ„Ž©g‚ª ‹ïÛ‰»SAX‚ÌŽÀ‘•‚ð”M–]‚µ‚Ä‚¢‚é‚Ì‚ÅA‚±‚Ì‘ŠúƒAƒNƒZƒX”Å‚ð¡‚·‚®Žg‚¢Žn‚ß‚é—\’è‚Å‚·B‹ïÛ‰»SAX
-(ConcreteSAX ) ‚ð—˜—p‚·‚é‚ÆA”ñí‚É‚‘¬‚È XML“üo—Í‚ðŽÀŒ»‚·‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B‹ïÛ‰»SAX (ConcreteSAX )‚ª’ñ‹Ÿ‚·‚é‚Ì‚ÍASAX‚Ö‚ÌÅ’áŒÀ‚Ì‹ïÛ‰»Javaƒ\[ƒXƒR[ƒh‚Æ‚È‚è‚Ü‚·B‹ïÛ‰»SAX
-(ConcreteSAX )‚ð—˜—p‚·‚é‚±‚Æ‚É‚æ‚èAˆÀ‘S‚Å‚‘¬‚È XML“üo—Í‚ª‰Â”\‚É‚È‚é‚Ì‚Å‚·B“Á‚É SAXƒx[ƒX‚ÌXML‘‚«‚¾‚µ‚Íˆê”Ê‚Ì•û‚É‚Í‚ ‚Ü‚è’m‚ç‚ê‚Ä‚¢‚È‚¢‚Ì‚ÅŽc”O‚Å‚ ‚é‚ÆŽ„‚Íl‚¦‚Ä‚¢‚é‚Ì‚Å
-‹ïÛ‰»SAX (ConcreteSAX ) Javaƒ\[ƒXƒR[ƒh‚É‚æ‚Á‚ÄSAXƒx[ƒX‚ÌXML‘‚«‚¾‚µ‹@”\‚ªL‚­ˆê”Ê‚É’m‚ç‚ê‚é‚æ‚¤‚É‚È‚é‚±‚Æ‚ðŠú‘Ò‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>‚Æ‚¢‚¤‚Ì‚àAŽ„‚Í DOM‚É‚æ‚éXML“üo—Í‚Í”ñí‚ÉŠëŒ¯‚È‚à‚Ì‚Å‚ ‚é‚Æ”»’f‚µ‚Ä‚¢‚é‚©‚ç‚Å‚·BDOM‚É‚æ‚éXML“üo—Í‚Í XMLƒf[ƒ^‚ª–c‘å‚Å‚ ‚éê‡‚É
-ŽÀsŽžƒƒ‚ƒŠƒGƒ‰[‚ª”­¶‚·‚éƒŠƒXƒN‚ª‹}‘‚µ‚Ü‚·BŽÀsŽžƒƒ‚ƒŠƒGƒ‰[‚ª”­¶‚µ‚È‚¢‚Ü‚Å‚àADOMƒcƒŠ[‚ª¬’·‚µ‚Ä‚«‚½‚Æ‚«‚Ì«”\—ò‰»‚ÍAŽ„‚É‚ÍŽó‚¯“ü‚ê‚ç‚ê‚È‚¢‚±‚Æ‚ª‘½‚¢‚Ì‚Å‚·B(.NET‚ÌDOM‚ÍƒcƒŠ[‚ª¬’·‚µ‚Ä‚«‚½‚Æ‚«‚à”äŠr“I«”\—ò‰»‚ð”­¶‚³‚¹‚¸‚É“®ì‚·‚é‚Ì‚Å‚·‚¯‚ê‚Ç‚à‚ËcBŒ»Žž“_‚ÌJava‚É‚¨‚¯‚éˆê”Ê“I‚ÈDOMŽÀ‘•‚ÍAƒcƒŠ[‚ª¬’·‚µ‚½‚Æ‚«‚Ì«”\—ò‰»‚âƒƒ‚ƒŠŒø—¦‚Ìˆ«‚³‚Í–Ú‚É—]‚é‚Æ‚±‚ë‚ª‚ ‚é‚à‚Ì‚Æl‚¦‚Ä‚¢‚Ü‚·)</P>
-<P>¡‰ñ‚ÌƒŠƒŠ[ƒX‚Í‘ŠúƒAƒNƒZƒX”Å‚ÌˆÊ’u‚Ã‚¯‚Æ‚È‚Á‚Ä‚¢‚Ü‚·B‚Æ‚è‚ ‚¦‚¸ƒhƒLƒ…ƒƒ“ƒg‚È‚Ç‚ÍˆêØ‚Â‚¢‚Ä‚¢‚Ü‚¹‚ñBXMLƒ}ƒjƒA‚Ì•û‚Æ‚© SAXn—ûŽÒ‚Ì•û‚ª‘ŠúƒAƒNƒZƒX‚ðs‚¤‚±‚Æ‚ð”O“ª‚É’u‚¢‚Ä‚¢‚Ü‚·Bˆê•û
-n—û‚µ‚½SAXƒGƒ“ƒWƒjƒA‚Í ‚±‚±‚Å‚ ‚°‚é‚æ‚¤‚È ‹ïÛ‰»SAX (ConcreteSAX ) ‚Æ—ÞŽ—‚µ‚½ŽÀ‘•‚ðƒc[ƒ‹‚ð—˜—p‚·‚é‚©‚µ‚È‚¢‚©‚ÉŠÖ‚í‚ç‚¸ˆê”Ê“I‚ÈƒR[ƒfƒBƒ“ƒO‚Æ‚µ‚ÄŽÀŽ{‚µ‚Ä‚¢‚é‚à‚Ì‚Æl‚¦‚Ü‚·B‚Ù‚Æ‚ñ‚Ç‚Ìl‚Í
-SAX‚Ì charactersƒCƒxƒ“ƒg‚ÌW–ñˆ—ƒƒWƒbƒN‚ðA‹Æ–±ƒƒWƒbƒN‚Æ“¯‚¶ƒƒ\ƒbƒh“à‚É‚Í‘‚«‚½‚ª‚ç‚È‚¢‚Å‚µ‚å‚¤‚©‚çcB<BR>
-¦¢‚Á‚½‚±‚Æ‚ÉAJavaŒ¾Œê‚Å<STRONG><FONT color="#ff00ff">‚Ç‚ë‚Ç‚ë</FONT></STRONG>‚ÌXML“üo—ÍƒvƒƒOƒ‰ƒ€‚ð‘‚¢‚Ä‚¢‚éƒvƒ‚ÌXML‰®‚Ì‚Ù‚Æ‚ñ‚Ç‚Í DOM‚Å‚Í‚È‚­ SAX‚ð—˜—p‚µ‚Ä‚¢‚éŒ»ŽÀ‚ª‚ ‚è‚Ü‚·B«”\{ƒƒ‚ƒŠÁ”ï—Ê‚Ì“s‡‚©‚çAJava‚Å‚ÍDOM‚ª‹Æ–±ƒvƒƒOƒ‰ƒ€‚É‚¨‚¢‚Ä—˜—p•s‰Â”\‚Å‚ ‚é‹Ç–Ê‚ª‘½‚¢‚Ì‚Å‚·B‚Æ‚±‚ë‚ª¢‚Á‚½‚±‚Æ‚É¢ŠÔ‚ÌXML“ü–å‹LŽ–‚Í
-DOMƒx[ƒX‚Å‘‚©‚ê‚Ä‚¢‚éê‡‚ª‘½‚¢‚æ‚¤‚ÉŠ´‚¶‚ç‚ê‚Ü‚· (‹êÎ)</P>
-<P><FONT color="#ff0000">2005.09.21’Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚Ì ‹ïÛ‰»SAX (ConcreteSAX)‚É‚Â‚¢‚ÄA0.0.8ƒŠƒŠ[ƒX‚É‚¨‚¢‚Ä</P>
+<P>ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX ) ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½å‚½ï¿½ï¿½_ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ ï¿½ï¿½Û‰ï¿½SAXï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½]ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½nï¿½ß‚ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Û‰ï¿½SAX
+(ConcreteSAX ) ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ XMLï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX )ï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½Ì‚ÍASAXï¿½Ö‚ÌÅ’ï¿½ï¿½ï¿½Ì‹ï¿½Û‰ï¿½Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½Û‰ï¿½SAX
+(ConcreteSAX )ï¿½ð—˜—pï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½ï¿½Sï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ XMLï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½Â”\ï¿½É‚È‚ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ SAXï¿½xï¿½[ï¿½Xï¿½ï¿½XMLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íˆï¿½Ê‚Ì•ï¿½ï¿½É‚Í‚ï¿½ï¿½Ü‚ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅŽcï¿½Oï¿½Å‚ï¿½ï¿½ï¿½ÆŽï¿½ï¿½Ílï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX ) Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½É‚ï¿½ï¿½ï¿½ï¿½SAXï¿½xï¿½[ï¿½Xï¿½ï¿½XMLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½Ê‚É’mï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ DOMï¿½É‚ï¿½ï¿½XMLï¿½ï¿½ï¿½oï¿½Í‚Í”ï¿½ï¿½ÉŠëŒ¯ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½BDOMï¿½É‚ï¿½ï¿½XMLï¿½ï¿½ï¿½oï¿½Í‚ï¿½ XMLï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½cï¿½ï¿½Å‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½
+ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éƒŠï¿½Xï¿½Nï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ADOMï¿½cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ìï¿½ï¿½\ï¿½ò‰»‚ÍAï¿½ï¿½ï¿½É‚ÍŽó‚¯“ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B(.NETï¿½ï¿½DOMï¿½Íƒcï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Iï¿½ï¿½ï¿½\ï¿½ò‰»‚ð”­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ì‚·ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Ëcï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½Javaï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê“Iï¿½ï¿½DOMï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ìï¿½ï¿½\ï¿½ò‰»‚âƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½ï¿½Í–Ú‚É—]ï¿½ï¿½Æ‚ï¿½ï¿½ë‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½)</P>
+<P>ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Í‘ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½Å‚ÌˆÊ’uï¿½Ã‚ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½È‚Ç‚Íˆï¿½Ø‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½BXMLï¿½}ï¿½jï¿½Aï¿½Ì•ï¿½ï¿½Æ‚ï¿½ SAXï¿½nï¿½ï¿½ï¿½Ò‚Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½Oï¿½ï¿½ï¿½É’uï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½
+ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½SAXï¿½Gï¿½ï¿½ï¿½Wï¿½jï¿½Aï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX ) ï¿½Æ—ÞŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ç‚¸ï¿½ï¿½Ê“Iï¿½ÈƒRï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½Æ‚ï¿½ï¿½ÄŽï¿½ï¿½{ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ù‚Æ‚ï¿½Ç‚Ìlï¿½ï¿½
+SAXï¿½ï¿½ charactersï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ÌWï¿½ñˆ—ï¿½ï¿½ï¿½ï¿½Wï¿½bï¿½Nï¿½ï¿½ï¿½Aï¿½Æ–ï¿½ï¿½ï¿½ï¿½Wï¿½bï¿½Nï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½É‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½ï¿½cï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉAJavaï¿½ï¿½ï¿½ï¿½ï¿½<STRONG><FONT color="#ff00ff">ï¿½Ç‚ï¿½Ç‚ï¿½</FONT></STRONG>ï¿½ï¿½XMLï¿½ï¿½ï¿½oï¿½Íƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½ï¿½Ì‚Ù‚Æ‚ï¿½Ç‚ï¿½ DOMï¿½Å‚Í‚È‚ï¿½ SAXï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éŒ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½\ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì“sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AJavaï¿½Å‚ï¿½DOMï¿½ï¿½ï¿½Æ–ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½sï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½Ç–Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Éï¿½ï¿½Ô‚ï¿½XMLï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½
+DOMï¿½xï¿½[ï¿½Xï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2005.09.21ï¿½Ç‹L</FONT> <A HREFhttps://www.igapyon.jp/p/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½ï¿½ ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX)ï¿½É‚Â‚ï¿½ï¿½ÄA0.0.8ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½</P>
 <UL>
-  <LI>ƒŠƒo[ƒXSAX‚Ì‹ïÛ‰»SAX”Å‚ÌŽÀ‘•‚ªŠ®—¹‚µ‚Ü‚µ‚½B
-  <LI>JUnit‚ÌƒeƒXƒgƒP[ƒX Javaƒ\[ƒXƒR[ƒh‚à¶¬‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
+  <LI>ï¿½ï¿½ï¿½oï¿½[ï¿½XSAXï¿½Ì‹ï¿½Û‰ï¿½SAXï¿½Å‚ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>JUnitï¿½Ìƒeï¿½Xï¿½gï¿½Pï¿½[ï¿½X Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P>‚±‚ê‚Å<STRONG>Ž„Ž©g</STRONG>‚ª ConcreteSAX‚ð ‚æ‚èŠÈ•Ö‚É—˜—p‚·‚é‚±‚Æ‚ªo—ˆ‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½<STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½g</STRONG>ï¿½ï¿½ ConcreteSAXï¿½ï¿½ ï¿½ï¿½ï¿½È•Ö‚É—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAP‚Ì¡Œã‚Ì•ûj</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoSOAPï¿½Ìï¿½ï¿½ï¿½Ì•ï¿½ï¿½j</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹ïÛ‰»SAX (ConcreteSAX )‚ÌŽÀ‘•‚ª‚Å‚«‚ ‚ª‚Á‚½‚Ì‚ÅAŽŸ‚Í ƒŠƒo[ƒXSAX‚Ì‹ïÛ‰»SAX (ConcreteSAX )”Å‚ÉŽè‚ðõ‚ß‚é‚Ì‚©A‚ ‚é‚¢‚Í
-–{ŠÛ‚Å‚ ‚é ’´Œy—ÊSOAPŽÀ‘•‚ÌŽÀŒ»‚©A‚¢‚¸‚ê‚©‚ªƒ^[ƒQƒbƒg‚É‚È‚Á‚Ä‚­‚é‚Ì‚Å‚µ‚å‚¤B‚½‚¾‚µA¡T‚Í‚¢‚ë‚¢‚ë—\’è‚ª‚ ‚é‚Ì‚ÅA‚ ‚Ü‚èi’»‚Å‚«‚È‚¢‰Â”\«‚ª‚‚¢‚Å‚·B<BR>
-‚Æ‚è‚ ‚¦‚¸’´Œy—ÊSOAPŽÀ‘•‚ÌƒŒƒxƒ‹1 (SOAPŽÀ‘•‚ð¶ConcreteSAXƒx[ƒX‚ÅŽÀŒ»‚·‚é‚à‚Ì) ‚ÉŠÖ‚µ‚Ä‚ÍA‚»‚ñ‚È‚É‰Ò“­‚Í‚©‚©‚ç‚È‚¢Œ©’Ê‚µ‚È‚Ì‚ÅA‚»‚±‚©‚çŽè‚ð•t‚¯‚é‚Ì‚à‘Ã“–‚Å‚ ‚é‚æ‚¤‚Él‚¦‚ç‚ê‚Ü‚·B</P>
-<P><FONT color="#ff0000">2005.09.21’Ç‹L</FONT> ‚Æ‚è‚ ‚¦‚¸ POJO¶¬ƒR[ƒh‚Ì‹¤’Ê‰»‚ðæs‚µ‚ÄŽÀŽ{‚·‚é•K—v‚ªo‚Ä‚«‚½‚Ì‚ÅA<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="u“d•¶ˆ—’è‹`‘v‚¨‚æ‚Ñu“d•¶’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAWebƒT[ƒrƒX‚ð—˜—p‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh“™‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoSOAP</A>‚É POJO¶¬‚ÌŽd‘g‚Ý‚ð’Ç‰Á‚·‚é‚±‚Æ‚ðÅ—Dæ‚Æ‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½Û‰ï¿½SAX (ConcreteSAX )ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½oï¿½[ï¿½XSAXï¿½Ì‹ï¿½Û‰ï¿½SAX (ConcreteSAX )ï¿½Å‚ÉŽï¿½ï¿½ï¿½ï¿½ß‚ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½é‚¢ï¿½ï¿½
+ï¿½{ï¿½Û‚Å‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½yï¿½ï¿½SOAPï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Tï¿½Í‚ï¿½ï¿½ë‚¢ï¿½ï¿½\ï¿½è‚ªï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Ü‚ï¿½iï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yï¿½ï¿½SOAPï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½xï¿½ï¿½1 (SOAPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ConcreteSAXï¿½xï¿½[ï¿½Xï¿½ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ÉŠÖ‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½È‚É‰Ò“ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ã“ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½Élï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.09.21ï¿½Ç‹L</FONT> ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ POJOï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½Ì‹ï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ï¿½sï¿½https://www.igapyon.jp/ï¿½Ì‚ÅA<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="ï¿½uï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½Ñuï¿½dï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½AWebï¿½Tï¿½[ï¿½rï¿½Xï¿½ð—˜—pï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoSOAP</A>ï¿½ï¿½ POJOï¿½ï¿½ï¿½ï¿½ï¿½ÌŽdï¿½gï¿½Ý‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å—Dï¿½ï¿½Æ‚ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

@@ -70,11 +70,11 @@
   <A HREF="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc">http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/jexcelapi/blancoJxlPatch.doc</A>
 </UL>
 <P>���̃Z���ɂQ�o�C�g����(�Ƃ����\�����K�؂��ǂ����̓r�~���E�ł�����ǂ�) ��1���������܂܂�Ă��āA���������̕�������������ɍ��v����ꍇ�ɕ�����������Ƃ������ۂɑ΂���p�b�`�ł��B�ڍׂ͏�L�́u�p�b�`�쐬�菇�v�ɋL�q���Ă���܂��B<BR>
-����������A�p�b�`�K�p�� (���{�ꉻ�p�b�`�K�p��� JExcelApi 2.6)�� <A HREF="http://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="�u������O���[�v��`���v�Ƃ��� Excel�u�b�N����A������O���[�v �������\�[�X�R�[�h�������������܂��B">blancoStringGroup</A>�Ȃǂɓ����J�n���Ă��܂��B</P>
+����������A�p�b�`�K�p�� (���{�ꉻ�p�b�`�K�p��� JExcelApi 2.6)�� <A HREF="https://www.igapyon.jp/blanco/blancostringgroup.html" TITLE="�u������O���[�v��`���v�Ƃ��� Excel�u�b�N����A������O���[�v �������\�[�X�R�[�h�������������܂��B">blancoStringGroup</A>�Ȃǂɓ����J�n���Ă��܂��B</P>
 <P>����̃p�b�`�ɂ���āAJExcelApi 2.6�ɂ�������m�̓Ǎ����ɂ�������{��֘A�̕s��͑S�ĉ������ꂽ�ƍl���܂��B<BR>
 ���̒m�����ł́c�ł�����ǂ��B�]�� �]�܂���ɂ�����炸�AJExcelApi�ɏڂ����Ȃ��Ă��܂��� (���)</P>
-<P>����jar�t�@�C���� <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�̂��߂ɍ쐬���Ă�����̂ł��B������ ����ɉ����� JExcelApi
-2.6�̓��{�ꉻ�o�[�W�����Ƃ��Ă����݈Ӌ`������https://www.igapyon.jp/igapyon/diary/F="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u�����B���l�Ȃ��̂Ƃ��� Jakarta POI���m���Ă���B">JExcelApi</A>���[�����O���X�g�ɓ��������A���̃p�b�`�������łɐ����Ɏ�荞��ł��炦��悤�ȓw�͂����{����\��ł��B</P>
+<P>����jar�t�@�C���� <A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�̂��߂ɍ쐬���Ă�����̂ł��B������ ����ɉ����� JExcelApi
+2.6�̓��{�ꉻ�o�[�W�����Ƃ��Ă����݈Ӌ`������https://www.igapyon.jp/igapyon/diary/F="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Java�ŏ����ꂽMicrosoft Excel�t�@�C���Ȃǂɑ΂�����o�̓��C�u�����B���l�Ȃ��̂Ƃ��� Jakarta POI���m���Ă���B">JExcelApi</A>���[�����O���X�g�ɓ��������A���̃p�b�`�������łɐ����Ɏ�荞��ł��炦��悤�ȓw�͂����{����\��ł��B</P>
 <P><FONT color="#ff0000">2006.10.29�ǋL</FONT>: JExcelApi���~�Ȃǂ�K�؂Ɉ������Ƃ��o���Ȃ����́AJExcelApi��ύX�����Ƃ� (�{���I�ł͂Ȃ��̂���) ���܂�����􂪌�����܂����B�Ƃ肠����
 ���̑Ή����@�ɂĉ����������������Ƃ��܂��B</P>
 <P><FONT color="#ff00ff">�֘A������L</FONT></P>
@@ -88,7 +88,7 @@
     </TR>
   </TBODY>
 </TABLE>
-<P>���āAJExcelApi 2.6�̓��{��֘A�s������łɂ��āA���� <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�v���_�N�g�Q�ɂ����W�J����K�v������܂��B�s���n��̂ɂ͐��������x���K�v�ł���Ɨ\�����Ă��܂��B</P>
+<P>���āAJExcelApi 2.6�̓��{��֘A�s������łɂ��āA���� <A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A>�v���_�N�g�Q�ɂ����W�J����K�v������܂��B�s���n��̂ɂ͐��������x���K�v�ł���Ɨ\�����Ă��܂��B</P>
 <HR>
 <address><A HREF="../memo/memoigapyon.html">�����҂��ɂ���</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>

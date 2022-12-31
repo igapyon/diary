@@ -67,9 +67,9 @@
 <P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> 2.5.8 は Sun JDK 1.4.2_12 上で動作が異常である場合があるようです。</P>
 <P>原因を調査中です。Sun JDK 1.4.2_12より以前のJDKで この現象は発生しない場面を確認しています。どのリビジョンから この問題が顕在化しているのかは
 明確ではありません。一方で 現時点の最新版である <A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A> 2.6 において、同様の現象が発生するかどうかについても調査はできていません。</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の構成要素である多くのプロダクトは Excelからの読み込み処理のほとんどを JExcelApiに依存しています。このため、blanco
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>の構成要素である多くのプロダクトは Excelからの読み込み処理のほとんどを JExcelApiに依存しています。このため、blanco
 Frameworkプロダクトの多くが Sun JDK 1.4.2_12 において動作が不調という現象が発生する可能性があります。(ExcelからXMLファイルへの変換の過程で、内容が全く読み取られないという現象として現れています。)</P>
-<P><FONT color="#ff0000">2007.04.14追記</FONT> <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>では、この問題に対処するためのパッチ付 JExcelApiを配布しています。</P>
+<P><FONT color="#ff0000">2007.04.14追記</FONT> <A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。">blanco Framework</A>では、この問題に対処するためのパッチ付 JExcelApiを配布しています。</P>
 
 <TABLE summary="mini title">
   <TBODY>
@@ -86,7 +86,7 @@ Frameworkプロダクトの多くが Sun JDK 1.4.2_12 において動作が不�
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A> の .NET Framework SDK 2.0対応の過程で、Microsoft .NET
+<P><A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A> の .NET Framework SDK 2.0対応の過程で、Microsoft .NET
 Framework SDK 2.0の Webサービスにおけるバイナリ転送 (xsd:binary) を簡単に調べてもらいました。</P>
 <P><FONT color="#ff00ff">1 MBのバイナリデータ転送</FONT></P>
 <P>正常に転送することができました。</P>
@@ -120,7 +120,7 @@ maxRequestLengt属性はKB単位で指定するようです。</P>
 </BLOCKQUOTE>
 <P>詳細情報などは追えていません。少なくとも SoapException以外の例外が発生している模様です。</P>
 <P><FONT color="#ff00ff">全体的に</FONT></P>
-<P>XSDの binaryを用いることにより、.NET Framework 2.0の Webサービス実装においても、ある程度のサイズまでのバイナリ転送は容易に実現可能であることがわかりました。<A HREF="http://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>
+<P>XSDの binaryを用いることにより、.NET Framework 2.0の Webサービス実装においても、ある程度のサイズまでのバイナリ転送は容易に実現可能であることがわかりました。<A HREF="https://www.igapyon.jp/blanco/blancosoap.html" TITLE="「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。">blancoSOAP</A>
 が特に対応することなく .NET Framework 2.0上で Webサービスを駆動させることができるソースコードを生成できていたのは嬉しかったです。</P>
 <HR>
 <address><A HREF="../memo/memoigapyon.html">いがぴょんについて</A><BR>

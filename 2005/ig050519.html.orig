@@ -81,14 +81,14 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A> Framework�̊e�\���v�f�̌���� ���L�̂悤�ɂȂ�܂��B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco</A> Framework�̊e�\���v�f�̌���� ���L�̂悤�ɂȂ�܂��B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition : RC1<BR>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition : RC1<BR>
   Excel�u�b�N�ɏ����ꂽSQL���� DB���^�������ƂɁAJava/JDBC�p R/O�}�b�s���O�E�\�[�X�R�[�h�����������B
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancostruts.html" TITLE="�u��ʒ�`���v�Ƃ��� Excel�u�b�N����AStruts�p�̃\�[�X�R�[�h�������������܂��B">blancoStruts</A> : EA0<BR>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancostruts.html" TITLE="�u��ʒ�`���v�Ƃ��� Excel�u�b�N����AStruts�p�̃\�[�X�R�[�h�������������܂��B">blancoStruts</A> : EA0<BR>
   Jakarta Struts�p�\�[�X�R�[�h(Form��Action)�� Excel�l�����玩�������B<BR>
   ���łɎ���������A���݂��镡���̃v���W�F�N�g�ŗ��p����Ă��܂����A���Ԃ̓s���A�N����ʌ��J�����[�X�֘A��Ƃɒ���ł��Ă��܂���B
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org�o�R�� Excel�`���܂���PDF�`���̒��[���쐬����API�Z�b�g����уR�}���h��񋟂��܂��BOpenOffice.org�𗘗p���ăh�L�������g�`���ϊ��������s�������ꍇ�ɗL�v�ł��B">blancoReport</A> : �J����, ��������EA0 �����[�X(?)<BR>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancoreport.html" TITLE="OpenOffice.org�o�R�� Excel�`���܂���PDF�`���̒��[���쐬����API�Z�b�g����уR�}���h��񋟂��܂��BOpenOffice.org�𗘗p���ăh�L�������g�`���ϊ��������s�������ꍇ�ɗL�v�ł��B">blancoReport</A> : �J����, ��������EA0 �����[�X(?)<BR>
   Excel�Ńt�H�[�����쐬���AExcel���[�܂���PDF���[�̂��߂̃\�[�X�R�[�h�����������B
 </UL>
 <UL>
@@ -98,7 +98,7 @@
   Excel�݌v����Java�\�[�X�R�[�h�Ƃ̊Ԃ̘������`�F�b�N���Ă����Ƃ������ɂ̃c�[���B�d�l�݌v���c
   <LI>blancoFieldCopy : ���\�z�̂�<BR>
   Excel�l������POJO�Ԃ̃t�B�[���h�R�s�[�p���\�b�h���܂�Java�\�[�X�R�[�h����������
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancomessage.html" TITLE="�u���b�Z�[�W��`���v�Ƃ��� Excel�u�b�N����A���b�Z�[�W�������\�[�X�R�[�h�������������܂��B">blancoMessage</A> :���\�z�̂�<BR>
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancomessage.html" TITLE="�u���b�Z�[�W��`���v�Ƃ��� Excel�u�b�N����A���b�Z�[�W�������\�[�X�R�[�h�������������܂��B">blancoMessage</A> :���\�z�̂�<BR>
   Excel�l���̒��̃L�[�ƒl�����ƂɃv���p�e�B�t�@�C������������
 </UL>
 <TABLE summary="mini title">
@@ -108,10 +108,10 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition �̏o�׌���1 (RC1) ���쐬���܂����B�ȍ~�A��{�I��
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> Enterprise Edition �̏o�׌���1 (RC1) ���쐬���܂����B�ȍ~�A��{�I��
 �v���I�ȕs��ł���������C���𓀌����A�{�����[�X�Ɍ�������Ƃɒ��͂��Ă����܂��B<BR>
 �c�Ȃɂ͂Ƃ�����A�h�L�������g�ނ������Ȃ��Ă� (���)</P>
-<P><FONT color="#ff0000">2005.05.20�ǋL</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> �̗��p�҂���C�ɑ����Ă��܂����B�݂Ȃ���A�ǂ������肪�Ƃ��������܂��B����ƁA���܂ł͔������Ȃ�����
+<P><FONT color="#ff0000">2005.05.20�ǋL</FONT> <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A> �̗��p�҂���C�ɑ����Ă��܂����B�݂Ȃ���A�ǂ������肪�Ƃ��������܂��B����ƁA���܂ł͔������Ȃ�����
 (���܂ł� ���̃p�^�[���ɑg�ݍ��킳��Ȃ�����) �悤�ȃo�O���������Ă��܂��B�c������ �݂Ȃ���A�����f�����������Ă��܂��B<BR>
 ���Ȃ��Ƃ� �{�����[�X�̑O�� RC2�����[�X�͌o�R����K�v�����肻���ł� (T_T)</P>
 <TABLE summary="mini title">

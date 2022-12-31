@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/06/18 “ú‹L: 4th. Developers' Lounge (2006-06-15)‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</TITLE>
-<META name="DESCRIPTION" content="æT‚Ì–Ø—j“ú (06/15) ‚Éa’J‚Å‚¨‚±‚È‚í‚ê‚½ ‘æ4‰ñ Developers' Lounge ‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/06/18 ï¿½ï¿½ï¿½L: 4th. Developers' Lounge (2006-06-15)ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½Tï¿½Ì–Ø—jï¿½ï¿½ (06/15) ï¿½Éaï¿½Jï¿½Å‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ê‚½ ï¿½ï¿½4ï¿½ï¿½ Developers' Lounge ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/06/18 “ú‹L: 4th. Developers' Lounge (2006-06-15)‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] æT‚Ì–Ø—j“ú (06/15) ‚Éa’J‚Å‚¨‚±‚È‚í‚ê‚½ ‘æ4‰ñ Developers' Lounge ‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</P>
+    <H2>2006/06/18 ï¿½ï¿½ï¿½L: 4th. Developers' Lounge (2006-06-15)ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½Tï¿½Ì–Ø—jï¿½ï¿½ (06/15) ï¿½Éaï¿½Jï¿½Å‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ê‚½ ï¿½ï¿½4ï¿½ï¿½ Developers' Lounge ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,31 +60,31 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>4th. Developers' Lounge (2006-06-15)‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>4th. Developers' Lounge (2006-06-15)ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>æT‚Ì–Ø—j“ú (06/15) ‚Éa’J‚Å‚¨‚±‚È‚í‚ê‚½ ‘æ4‰ñ Developers' Lounge  ‚ÉŽQ‰Á‚µ‚Ä‚«‚Ü‚µ‚½</P>
-<P><A href="http://www.javainthebox.net/">ŸN’ë—Sˆê</A>‚³‚ñA<A href="http://www.ruimo.com/">‚é‚¢‚à</A>‚³‚ñ‚Æ‰‚ß‚Ä‚¨‰ï‚¢‚µ‚Ü‚µ‚½B<A HREF="http://arton.no-ip.info/diary/" TITLE=".NETŒn‹LŽ–Ž·•M‚à‘½‚¢arton‚³‚ñBŽdŽ–‚ÅJava‚àˆµ‚í‚ê‚Ä‚¢‚é‚Æ‚ÌŽ–BŽ„‚É‚Æ‚Á‚Ä‚Í FreePeek‚Æ‚¢‚¤‚Æ‚Ä‚à•Ö—˜‚Èƒ\ƒtƒg‚ÌìŽÒ‚³‚Ü‚Å‚·B‰H¶Í—m•‚¢‚ª‚Ò‚å‚ñ‡ƒRƒ“‚É‚Ä‰‚ß‚Ä‘Î–Ê‚µ‚Ü‚µ‚½B">arton</A>‚³‚ñ‚ðŠÜ‚ß ‘½‚­‚Ì•û‚Æ‚¨‰ï‚¢‚µ‚ÄA‚»‚µ‚ÄŠeŽíî•ñŒðŠ·‚ð‚µ‚Ä‚«‚Ü‚µ‚½B</P>
-<P>‚±‚±‚Ì˜b‚Ì‚È‚©‚ÅAƒ\[ƒXƒR[ƒhŽ©“®¶¬‚Ì˜b‘è‚ªo‚Ä‚«‚Ü‚µ‚½B‚»‚¤‚È‚é‚Æ ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚ ‚é <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>‚É‚Æ‚Á‚Ä”ñí‚Éƒ`ƒƒƒ“ƒX‚Å‚ ‚é‚Æl‚¦‚ç‚ê‚é‚Ì‚ÅA‚»‚ê‚Ìà–¾ƒz[ƒ€ƒy[ƒW‚ð®”õ‚µ‚æ‚¤‚ÆŽv‚¢‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½Tï¿½Ì–Ø—jï¿½ï¿½ (06/15) ï¿½Éaï¿½Jï¿½Å‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ê‚½ ï¿½ï¿½4ï¿½ï¿½ Developers' Lounge  ï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</P>
+<P><A href="http://www.javainthebox.net/">ï¿½Nï¿½ï¿½Sï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½A<A href="http://www.ruimo.com/">ï¿½é‚¢ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A HREF="http://arton.no-ip.info/diary/" TITLE=".NETï¿½nï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½artonï¿½ï¿½ï¿½ï¿½Bï¿½dï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ÌŽï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ FreePeekï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Èƒ\ï¿½tï¿½gï¿½Ìï¿½Ò‚ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Bï¿½Hï¿½ï¿½ï¿½Í—mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‡ƒRï¿½ï¿½ï¿½É‚Äï¿½ï¿½ß‚Ä‘Î–Ê‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">arton</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Æ‚ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ÄŠeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Ì˜bï¿½Ì‚È‚ï¿½ï¿½ÅAï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì˜bï¿½è‚ªï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½https://www.igapyon.jp/ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>ï¿½É‚Æ‚ï¿½ï¿½Ä”ï¿½ï¿½Éƒ`ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ð®”ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig060526.html">2006/05/26 “ú‹L: 3rd. Developers' Lounge‚ÉŽQ‰Á , Apple HeaderDoc‚ð Windows‚ÅŽg‚¤</A>
+  <LI><A href="ig060526.html">2006/05/26 ï¿½ï¿½ï¿½L: 3rd. Developers' Loungeï¿½ÉŽQï¿½ï¿½ , Apple HeaderDocï¿½ï¿½ Windowsï¿½ÅŽgï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>MYCOM: Core 2 Duo‘Î‰žƒ}ƒU[‚ª”­”„A‚Ü‚¸‚ÍASUS‚©‚ç2»•i<BR>
+  <LI>MYCOM: Core 2 Duoï¿½Î‰ï¿½ï¿½}ï¿½Uï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ASUSï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½i<BR>
   <A HREF="http://journal.mycom.co.jp/news/2006/06/16/404.html">http://journal.mycom.co.jp/news/2006/06/16/404.html</A><BR>
-  Core 2 Duoƒx[ƒX‚ÌPCŽ©ì‚ðŒŸ“¢‚µ‚Ä‚¢‚é‚Ì‚ÅA‚±‚Ìƒjƒ…[ƒX‚ª‹C‚É‚È‚è‚Ü‚µ‚½B
+  Core 2 Duoï¿½xï¿½[ï¿½Xï¿½ï¿½PCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Cï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

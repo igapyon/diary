@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2007/04/03 “ú‹L: blancoStringConverter‚ÉRuby, Python‘Î‰ž‚ð’Ç‰ÁŠJŽn</TITLE>
-<META name="DESCRIPTION" content="blancoStringConverter ‚É Ruby, Python ƒ\[ƒXƒR[ƒh‚ÌŽ©“®¶¬‘Î‰ž‚ð’Ç‰Á‚µ‚Ü‚µ‚½BŒ»Ý ƒAƒ‹ƒtƒ@”Å‚ÌƒXƒe[ƒ^ƒX‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blancoStringConverter,Ruby,Python,Ž©“®¶¬,Excel">
+<TITLE>2007/04/03 ï¿½ï¿½ï¿½L: blancoStringConverterï¿½ï¿½Ruby, Pythonï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½Jï¿½n</TITLE>
+<META name="DESCRIPTION" content="blancoStringConverter ï¿½ï¿½ Ruby, Python ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ÌƒXï¿½eï¿½[ï¿½^ï¿½Xï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blancoStringConverter,Ruby,Python,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Excel">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2007/04/03 “ú‹L: blancoStringConverter‚ÉRuby, Python‘Î‰ž‚ð’Ç‰ÁŠJŽn</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blancoStringConverter,Ruby,Python,Ž©“®¶¬,Excel] blancoStringConverter ‚É Ruby, Python ƒ\[ƒXƒR[ƒh‚ÌŽ©“®¶¬‘Î‰ž‚ð’Ç‰Á‚µ‚Ü‚µ‚½BŒ»Ý ƒAƒ‹ƒtƒ@”Å‚ÌƒXƒe[ƒ^ƒX‚Å‚·B</P>
+    <H2>2007/04/03 ï¿½ï¿½ï¿½L: blancoStringConverterï¿½ï¿½Ruby, Pythonï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½Jï¿½n</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blancoStringConverter,Ruby,Python,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Excel] blancoStringConverter ï¿½ï¿½ Ruby, Python ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ÌƒXï¿½eï¿½[ï¿½^ï¿½Xï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,19 +60,19 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStringConverter‚ÉRuby, Python‘Î‰ž‚ð’Ç‰ÁŠJŽn</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoStringConverterï¿½ï¿½Ruby, Pythonï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½Jï¿½n</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="u•¶Žš—ñ•ÏŠ·’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çA•¶Žš—ñ•ÏŠ·‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoStringConverter</A> ‚É Ruby, Python ƒ\[ƒXƒR[ƒh‚ÌŽ©“®¶¬‘Î‰ž‚ð’Ç‰Á‚µ‚Ü‚µ‚½BExcelƒuƒbƒN‚Ìî•ñ‚ð“ü—Í‚Æ‚µ‚Ä
-Ruby, Python ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚±‚ê‚Å‘Î‰ž‚·‚éƒ\[ƒXƒR[ƒhŽ©“®¶¬Œ¾Œê‚Í7Œ¾Œê‚É‚È‚è‚Ü‚·BŒ»Ý ˆê’Ê‚è‚ÌŽÀ‘•‚ªI‚í‚èAƒAƒ‹ƒtƒ@”Å‚ÌƒXƒe[ƒ^ƒX‚Æ‚µ‚ÄŒöŠJ‚µ‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff0000">2007.04.08’Ç‹L</FONT></P>
-<P>Ruby ‚â Python ‚É‚Â‚¢‚ÄÚ‚µ‚¢•û‚ÌƒŒƒrƒ…[‚ªŠñ‚¹‚ç‚ê‚é‚±‚Æ‚ðŠú‘Ò‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>ˆÈ‰º‚Ì ExcelƒuƒbƒN‚ð“ü—Í‚Æ‚µ‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancostringconverter.html" TITLE="ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoStringConverter</A> ï¿½ï¿½ Ruby, Python ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BExcelï¿½uï¿½bï¿½Nï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½ï¿½
+Ruby, Python ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Å‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ê‚ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Aï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Å‚ÌƒXï¿½eï¿½[ï¿½^ï¿½Xï¿½Æ‚ï¿½ï¿½ÄŒï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2007.04.08ï¿½Ç‹L</FONT></P>
+<P>Ruby ï¿½ï¿½ Python ï¿½É‚Â‚ï¿½ï¿½ÄÚ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ñ‚¹‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½È‰ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenKatakana2Hiragana.xls">“ü—Í‚Æ‚È‚é ExcelƒuƒbƒN</A>
+  <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/meta/program/BlancoStringConverterSampleZenKatakana2Hiragana.xls">ï¿½ï¿½ï¿½Í‚Æ‚È‚ï¿½ Excelï¿½uï¿½bï¿½N</A>
 </UL>
-<P>‚±‚ê‚É‘Î‰ž‚µ‚½ blancoStringConverter‚ªŽ©“®¶¬‚µ‚½ƒ\[ƒXƒR[ƒh‚ð‰º‹L‚ÉŽ¦‚µ‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ blancoStringConverterï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ÉŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.java?view=markup">Java</A>
   <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.cs/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.cs?view=markup">C#.NET</A>
@@ -81,10 +81,10 @@ Ruby, Python ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚±‚ê‚Å‘Î‰ž‚·‚éƒ\[ƒXƒR[ƒ
   <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.php/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.php?view=markup">PHP</A>
   <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.ruby/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.rb?view=markup">Ruby</A>
   <LI><A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoStringConverter/blanco.python/main/blanco/sample/stringconverter/SampleZenKatakana2HiraganaStringConverter.py?view=markup">Python</A><BR>
-  ¦ƒ|ƒCƒ“ƒgFPythonƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‚¨‚¢‚ÄA#end ‚Æ‚¢‚¤ƒRƒƒ“ƒg‚ð‘}“ü‚µ‚Ä‚¢‚Ü‚·B‚±‚ê‚Í blancoƒ\[ƒXƒR[ƒh¶¬‚ÌŽš‰º‚°‚Ì“s‡‚Å•K—v‚È‚Ì‚ÅA‚Æ‚è‚ ‚¦‚¸Œ»ó‚Å‚Í ‚»‚Ì‚Ü‚Üƒ\[ƒXƒR[ƒho—ÍŒ‹‰Ê‚É‰Á‚¦‚Ä‚¢‚Ü‚·B(‹Zp“I‚É‚ÍŽæ‚é‚±‚Æ‚à‰Â”\‚È‚Ì‚Å‚·‚ªAŒ»Žž“_‚Å‚Í blanco Framework ƒRƒ~ƒbƒ^‚½‚¿‚É‚Æ‚Á‚Ä‚Ì‰Â“Ç«‚Ì‚½‚ß‚É ‚±‚ê‚ðo—Í‚·‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B)
+  ï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½FPythonï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄA#end ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ blancoï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“sï¿½ï¿½ï¿½Å•Kï¿½vï¿½È‚Ì‚ÅAï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½Ì‚Ü‚Üƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½oï¿½ÍŒï¿½ï¿½Ê‚É‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Zï¿½pï¿½Iï¿½É‚ÍŽï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ blanco Framework ï¿½Rï¿½~ï¿½bï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Ì‰Â“Çï¿½ï¿½Ì‚ï¿½ï¿½ß‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

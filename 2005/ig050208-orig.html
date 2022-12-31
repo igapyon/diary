@@ -71,7 +71,7 @@ Thunderbird 1.0 利用開始</H2>
   <A HREF="http://www.ibatis.com/jpetstore/jpetstore.html">http://www.ibatis.com/jpetstore/jpetstore.html</A><BR>
   ざっと見たところ、Apacheライセンスである模様。
 </UL>
-<P>ここで、驚くべきものを見つけました。(というか、今まで目にしていたかも知れないけれど、意識にとどまって理解できたのが今回が初めてです) 「<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>」という データベース-SQLマッピングツールです。素朴に <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>の目指すところと似ていると感じました。<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> は blancoDbよりは実装が複雑で しかも手順が多いという欠点はあるものの、世のO-Rマッピングツールと比べれば 最もシンプルなもののひとつであるように感じられました。<BR>
+<P>ここで、驚くべきものを見つけました。(というか、今まで目にしていたかも知れないけれど、意識にとどまって理解できたのが今回が初めてです) 「<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>」という データベース-SQLマッピングツールです。素朴に <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>の目指すところと似ていると感じました。<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> は blancoDbよりは実装が複雑で しかも手順が多いという欠点はあるものの、世のO-Rマッピングツールと比べれば 最もシンプルなもののひとつであるように感じられました。<BR>
 、、、事前に <A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> の存在を知っていれば＆理解していれば、あるいは blancoDbは作っていなかったかも知れません。先日 おかもと様からツッコミを受けていたのは、このプロダクトだったかしら…
 そういえば 「iBATIS」という用語を聞いたような聞かなかったような…(苦笑) 。まあ blancoDbのほうが、よりシンプルで省力化されたアプローチであることは明らかで間違いないので、blancoDbの存在意義は確実に存在するのですけれどもね。</P>
 <P><FONT color="#ff0000">2005.02.09</FONT> おかもとさんからツッコミ<BR>
@@ -96,9 +96,9 @@ iBATISと共に、MiddlegenIDEは、これまた私好みな構造となって�
 (苦笑) MiddlegenIDEが 単独で動作するようになったら (Hibernateなどに全く依存しないような仕様になったら) 、おそらく
 blancoDbの設計思想に限りなく近くなるようにも思えます。</P>
 <P><FONT color="#ff0000">2005.02.09 追記</FONT> 今日、<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkコミッタのひとり。">ymoto</A>さんと宇都宮で一緒に昼飯を食べていたら、驚くべき事実が判明しました。なんでも、<STRONG>私の指示で</STRONG> 1年以上も前に 業務として MiddlegenIDEやHibernateなどのO-Rマッピング系ひととおりの機能検証を実施していたのだそうなのです。なんてことでしょう。私には全く記憶がありませんでした。(言われてすら、記憶が戻ってきません)
-そして、その時点での検証結果をもとに、どうやら <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を開発する方針を固めたような雰囲気です…。、、、わたしは普段から 3分程度しか記憶力がありません。しかし
+そして、その時点での検証結果をもとに、どうやら <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>を開発する方針を固めたような雰囲気です…。、、、わたしは普段から 3分程度しか記憶力がありません。しかし
 今回のこの事実は かなりショックでした。</P>
-<P><FONT color="#ff0000">2005.06.17追記</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>という JDBCからのメタ情報によって駆動するタイプ (すなわち<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に似た実装である) O/Rマッピング実装を見かけました。追加のメタ情報については、JavaDoc内のアノテーションを利用するようです。<BR>
+<P><FONT color="#ff0000">2005.06.17追記</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>という JDBCからのメタ情報によって駆動するタイプ (すなわち<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。">blancoDb</A>に似た実装である) O/Rマッピング実装を見かけました。追加のメタ情報については、JavaDoc内のアノテーションを利用するようです。<BR>
 ちなみに Volutaは <A href="http://cglib.sourceforge.net/">Code Generation Library (CGLib)</A> というライブラリをもちいてJavaソースコード生成を行っているのだそうです。</P>
 <TABLE summary="mini title">
   <TBODY>

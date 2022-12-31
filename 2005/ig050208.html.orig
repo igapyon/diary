@@ -71,7 +71,7 @@ Thunderbird 1.0 ���p�J�n</H2>
   <A HREF="http://www.ibatis.com/jpetstore/jpetstore.html">http://www.ibatis.com/jpetstore/jpetstore.html</A><BR>
   �����ƌ����Ƃ���AApache���C�Z���X�ł���͗l�B
 </UL>
-<P>�����ŁA�����ׂ����̂������܂����B(�Ƃ������A���܂Ŗڂɂ��Ă��������m��Ȃ�����ǁA�ӎ��ɂƂǂ܂��ė����ł����̂����񂪏��߂Ăł�) �u<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>�v�Ƃ��� �f�[�^�x�[�X-SQL�}�b�s���O�c�[���ł��B�f�p�� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�̖ڎw���Ƃ���Ǝ��Ă���Ɗ����܂����B<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> �� blancoDb���͎��������G�� �������菇�������Ƃ������_�͂�����̂́A����O-R�}�b�s���O�c�[���Ɣ�ׂ�� �ł��V���v���Ȃ��̂̂ЂƂł���悤�Ɋ������܂����B<BR>
+<P>�����ŁA�����ׂ����̂������܂����B(�Ƃ������A���܂Ŗڂɂ��Ă��������m��Ȃ�����ǁA�ӎ��ɂƂǂ܂��ė����ł����̂����񂪏��߂Ăł�) �u<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>�v�Ƃ��� �f�[�^�x�[�X-SQL�}�b�s���O�c�[���ł��B�f�p�� <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�̖ڎw���Ƃ���Ǝ��Ă���Ɗ����܂����B<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> �� blancoDb���͎��������G�� �������菇�������Ƃ������_�͂�����̂́A����O-R�}�b�s���O�c�[���Ɣ�ׂ�� �ł��V���v���Ȃ��̂̂ЂƂł���悤�Ɋ������܂����B<BR>
 �A�A�A���O�� <A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> �̑��݂�m���Ă���΁��������Ă���΁A���邢�� blancoDb�͍���Ă��Ȃ����������m��܂���B��� �������Ɨl����c�b�R�~���󂯂Ă����̂́A���̃v���_�N�g������������c
 ���������� �uiBATIS�v�Ƃ����p��𕷂����悤�ȕ����Ȃ������悤�ȁc(���) �B�܂� blancoDb�̂ق����A���V���v���ŏȗ͉����ꂽ�A�v���[�`�ł��邱�Ƃ͖��炩�ŊԈႢ�Ȃ��̂ŁAblancoDb�̑��݈Ӌ`�͊m���ɑ��݂���̂ł�����ǂ��ˁB</P>
 <P><FONT color="#ff0000">2005.02.09</FONT> �������Ƃ��񂩂�c�b�R�~<BR>
@@ -96,9 +96,9 @@ iBATIS�Ƌ��ɁAMiddlegenIDE�́A����܂����D�݂ȍ\���
 (���) MiddlegenIDE�� �P�Ƃœ��삷��悤�ɂȂ����� (Hibernate�ȂǂɑS���ˑ����Ȃ��悤�Ȏd�l�ɂȂ�����) �A�����炭
 blancoDb�̐݌v�v�z�Ɍ���Ȃ��߂��Ȃ�悤�ɂ��v���܂��B</P>
 <P><FONT color="#ff0000">2005.02.09 �ǋL</FONT> �����A<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Framework�R�~�b�^�̂ЂƂ�B">ymoto</A>����ƉF�s�{�ňꏏ�ɒ��т�H�ׂĂ�����A�����ׂ��������������܂����B�Ȃ�ł��A<STRONG>���̎w����</STRONG> 1�N�ȏ���O�� �Ɩ��Ƃ��� MiddlegenIDE��Hibernate�Ȃǂ�O-R�}�b�s���O�n�ЂƂƂ���̋@�\���؂����{���Ă����̂������Ȃ̂ł��B�Ȃ�Ă��Ƃł��傤�B���ɂ͑S���L��������܂���ł����B(�����Ă���A�L�����߂��Ă��܂���)
-�����āA���̎��_�ł̌��،��ʂ����ƂɁA�ǂ���� <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>���J��������j���ł߂��悤�ȕ��͋C�ł��c�B�A�A�A�킽���͕��i���� 3�����x�����L���͂�����܂���B������
+�����āA���̎��_�ł̌��،��ʂ����ƂɁA�ǂ���� <A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>���J��������j���ł߂��悤�ȕ��͋C�ł��c�B�A�A�A�킽���͕��i���� 3�����x�����L���͂�����܂���B������
 ����̂��̎����� ���Ȃ�V���b�N�ł����B</P>
-<P><FONT color="#ff0000">2005.06.17�ǋL</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>�Ƃ��� JDBC����̃��^���ɂ���ċ쓮����^�C�v (���Ȃ킿<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�Ɏ��������ł���) O/R�}�b�s���O�������������܂����B�ǉ��̃��^���ɂ��ẮAJavaDoc���̃A�m�e�[�V�����𗘗p����悤�ł��B<BR>
+<P><FONT color="#ff0000">2005.06.17�ǋL</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>�Ƃ��� JDBC����̃��^���ɂ���ċ쓮����^�C�v (���Ȃ킿<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="�uSQL��`���v�Ƃ��� Excel�u�b�N����A�f�[�^�x�[�X���o�͂̂��߂̃\�[�X�R�[�h�������������܂��B">blancoDb</A>�Ɏ��������ł���) O/R�}�b�s���O�������������܂����B�ǉ��̃��^���ɂ��ẮAJavaDoc���̃A�m�e�[�V�����𗘗p����悤�ł��B<BR>
 ���Ȃ݂� Voluta�� <A href="http://cglib.sourceforge.net/">Code Generation Library (CGLib)</A> �Ƃ������C�u��������������Java�\�[�X�R�[�h�������s���Ă���̂������ł��B</P>
 <TABLE summary="mini title">
   <TBODY>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/12/03 “ú‹L: blancoDbDotNet (blancoDb‚Ì .NET Framework”Å) »‘¢’…Žè</TITLE>
-<META name="DESCRIPTION" content="blancoDb Enterprise Edition‚Ì .NET Framework”Å‚Ì»‘¢‚É’…Žè‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/12/03 ï¿½ï¿½ï¿½L: blancoDbDotNet (blancoDbï¿½ï¿½ .NET Frameworkï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Editionï¿½ï¿½ .NET Frameworkï¿½Å‚Ìï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/12/03 “ú‹L: blancoDbDotNet (blancoDb‚Ì .NET Framework”Å) »‘¢’…Žè</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blancoDb Enterprise Edition‚Ì .NET Framework”Å‚Ì»‘¢‚É’…Žè‚µ‚Ü‚µ‚½B</P>
+    <H2>2005/12/03 ï¿½ï¿½ï¿½L: blancoDbDotNet (blancoDbï¿½ï¿½ .NET Frameworkï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blancoDb Enterprise Editionï¿½ï¿½ .NET Frameworkï¿½Å‚Ìï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,24 +60,24 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet (blancoDb‚Ì .NET Framework”Å)»‘¢’…Žè</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbDotNet (blancoDbï¿½ï¿½ .NET Frameworkï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Í blancoDbDotNet ‚Æ‚¢‚¤A<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>
-Enterprise Edition‚Ì .NET Framework”Å‚Ì»‘¢‚É’…Žè‚µ‚Ü‚µ‚½B</P>
-<P>JavaŒ¾ŒêŠJ”­‚É‚¨‚¢‚Ä blancoDb‚ªŠJ”­‚Ì¶ŽY«E•ÛŽç«‚ÉŠñ—^‚·‚éŒø‰Ê‚Ì‚Ù‚Ç‚ªŽÀÛ‚Ì”’l‚Æ‚µ‚ÄŽÀØ‚³‚ê‚Ä‚«‚½‚±‚Æ‚É‰Á‚¦A.NET Framework‚Ìƒf[ƒ^ƒx[ƒX“üo—ÍŽü‚è
-(ADO.NET‚Ü‚í‚è) ‚ÌƒR[ƒfƒBƒ“ƒO‚É‘Î‚·‚é•ÛŽç«‚ª”ñí‚Éˆ«‚¢‚Ì‚ð‰½‚Æ‚©‰ü‘P‚µ‚½‚¢A‚Æ‚¢‚¤‘¤–Ê‚Ì—¼•û‚©‚çŠJ”­‚ª‘Ã“–‚Å‚ ‚ë‚¤‚Æ‚ÌŒ‹˜_‚ð“¾‚½‚©‚ç‚Å‚·B</P>
-<P>‚Æ‚¢‚¤‚±‚Æ‚Å blancoDbDotNet‚Ì»‘¢‚É’…Žè‚µ‚Ü‚µ‚½B‚±‚ê‚ð”N“à‚ÉŽdã‚°‚é‚Æ‚¢‚¤‚Ì‚¾‚©‚çƒLƒrƒV‚¢ƒXƒPƒWƒ…[ƒ‹‚Å‚·‚Ë (‹êÎ)B‚È‚¨A”ï—p–Ê‚â•ÛŽç–Ê
-(•ÛŽç‚ðs‚¤‚Å‚ ‚ë‚¤Ž„‚ªJava‚Ì•û‚ª“¾ˆÓ) ‚È‚Ç‚Ì“s‡‚©‚ç blancoDbDotNet‚Ì‰Šú”Å‚Í JavaŒ¾Œê‚Å»ì‚·‚é‚±‚Æ‚É‚È‚è‚Ü‚µ‚½B<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco</A>
-Framework‚Æ‚¢‚¤ƒAƒvƒ[ƒ`‚ä‚¦‚ÉAŽÀ‘•Œ¾Œê‚ÆŽÀsŠÂ‹«‚Æ‚ÌŠÔ‚ÍØ‚ê‚Ä‚¢‚é‚©‚ç ‚±‚¤‚¢‚¤Œ|“–‚ª‰Â”\‚É‚È‚é‚Ì‚Å‚µ‚å‚¤B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/anco Framework</A>ï¿½ï¿½ blancoDbDotNet ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½A<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>
+Enterprise Editionï¿½ï¿½ .NET Frameworkï¿½Å‚Ìï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>Javaï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ìï¿½ï¿½Yï¿½ï¿½ï¿½Eï¿½ÛŽç«ï¿½ÉŠï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì‚Ù‚Ç‚ï¿½ï¿½ï¿½ï¿½Û‚Ìï¿½ï¿½lï¿½Æ‚ï¿½ï¿½ÄŽï¿½ï¿½Ø‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‰ï¿½ï¿½ï¿½ï¿½A.NET Frameworkï¿½Ìƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½ÍŽï¿½ï¿½ï¿½
+(ADO.NETï¿½Ü‚ï¿½ï¿½) ï¿½ÌƒRï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½É‘Î‚ï¿½ï¿½ï¿½ÛŽç«ï¿½ï¿½ï¿½ï¿½ï¿½Éˆï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ã“ï¿½ï¿½Å‚ï¿½ï¿½ë‚¤ï¿½Æ‚ÌŒï¿½ï¿½_ï¿½ð“¾‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ blancoDbDotNetï¿½Ìï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÉŽdï¿½ã‚°ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½rï¿½Vï¿½ï¿½ï¿½Xï¿½Pï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)ï¿½Bï¿½È‚ï¿½ï¿½Aï¿½ï¿½pï¿½Ê‚ï¿½ÛŽï¿½ï¿½
+(ï¿½ÛŽï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½ï¿½ë‚¤ï¿½ï¿½ï¿½ï¿½Javaï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½È‚Ç‚Ì“sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoDbDotNetï¿½https://www.igapyon.jp/ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco</A>
+Frameworkï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½ä‚¦ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½sï¿½Â‹ï¿½ï¿½Æ‚ÌŠÔ‚ÍØ‚ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½É‚È‚ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2006/ig060111.html">2006/01/11 “ú‹L: blancoDbDotNet Žd—lŠT—v (blancoDb‚Ì.NET Framework”Å)</A>
-  <LI><A href="../2006/ig060609.html">2006/06/09 “ú‹L: blanco Framework‚Ì .NET Framework—p R/Oƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚ ‚é blancoDbDotNet‚Ìƒ[ƒhƒ}ƒbƒv</A>
+  <LI><A href="../2006/ig060111.html">2006/01/11 ï¿½ï¿½ï¿½L: blancoDbDotNet ï¿½dï¿½lï¿½Tï¿½v (blancoDbï¿½ï¿½.NET Frameworkï¿½ï¿½)</A>
+  <LI><A href="../2006/ig060609.html">2006/06/09 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ï¿½ .NET Frameworkï¿½p R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbDotNetï¿½Ìƒï¿½ï¿½[ï¿½hï¿½}ï¿½bï¿½v</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

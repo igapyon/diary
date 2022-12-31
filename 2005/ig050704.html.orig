@@ -64,7 +64,7 @@
     </TR>
   </TBODY>
 </TABLE>
-<P>Java�ŏ����ꂽ�t���[��SQL���`���C�u�����ł���uBlancoSqlFormatter�v�ɂ��āA��������Ń����[�X�����Ă��������܂��B<A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> ��SQL���`���C�u�����ł��� <A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>�Ƃ��Ē񋟂���`�Ԃ����܂��B(<FONT color="#ff0000">2006.05.10�ǋL</FONT> ������ blancoCommons�ɓ������Ē񋟂���Ă��܂���)<BR>
+<P>Java�ŏ����ꂽ�t���[��SQL���`���C�u�����ł���uBlancoSqlFormatter�v�ɂ��āA��������Ń����[�X�����Ă��������܂��B<A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework �� �I�[�v���\�[�X�Œ񋟂���Ă��� blancoDb��blancoStruts�Ȃǂ̏W���̂ł��B��{�I�� Java�\�[�X�R�[�h�����������傽��ړI�Ƃ��܂��B">blanco Framework</A> ��SQL���`���C�u�����ł��� <A HREF="https://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>�Ƃ��Ē񋟂���`�Ԃ����܂��B(<FONT color="#ff0000">2006.05.10�ǋL</FONT> ������ blancoCommons�ɓ������Ē񋟂���Ă��܂���)<BR>
 �Â�����̒m�l�ł���n�Ӌ`�� (<A HREF="http://d.hatena.ne.jp/a-san/" TITLE="�m�l�̓n�ӂ���B�ȑO�̎d���Ńr�W�l�X�p�[�g�i�[�ł����B���̍ۂɂ� �n�ӂ`����ƌĂ΂�Ă��܂����B">a-san</A>)����ɂ��肢 (<STRONG><FONT color="#ff00ff">���˂���</FONT></STRONG>) ���ăx�[�X���C��������Ă��������܂����B�n�Ӌ`�����܁A���Z�����Ƃ���A��ς��肪�Ƃ��������܂��B���ꂾ���̂��̂� ���傢���ƍ���Ă��܂��n�ӂ���ɂ́A���������������Ă΂���ł��B(���Ȃ��Ƃ�
 <A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="�����҂��Ɋւ������">�����҂��</A>�ɂ͍�邱�Ƃ͏o���܂���)<BR>
 ���Ȃ݂ɁA�n�Ӌ`������͑�����(�����Ă����̂������͏d�v��) �I�[�v���\�[�X�E�\�t�g�E�F�A���J�����ꂽ���ł�����܂��B</P>
@@ -75,7 +75,7 @@ SQL���`���s�������Ƃ����J���Ҍ����
 <P><FONT color="#ff00ff">�擾���@</FONT></P>
 <P>���C�u�������W���[������у\�[�X�R�[�h�́A���L����_�E�����[�h���邱�Ƃ��ł��܂��B</P>
 <UL>
-  <LI>blanco Framework��: <A HREF="http://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>: blancoSqlFormatter-?.?.?-src.zip<BR>
+  <LI>blanco Framework��: <A HREF="https://www.igapyon.jp/blanco/blancosqlformatter.html" TITLE="SQL���𐮌`���邽�߂̃��C�u�����ł��B�P���ȍ\���Ȃ̂ŁA���Ȃ��̃A�v���P�[�V�����ɊȒP�ɑg�ݍ��ނ��Ƃ��o���܂��B">blancoSqlFormatter</A>: blancoSqlFormatter-?.?.?-src.zip<BR>
   <A HREF="http://sourceforge.jp/projects/blancofw/">http://sourceforge.jp/projects/blancofw/</A><BR>
   �����C�Z���X�� GNU LGPL���C�Z���X�̂��ƂŔz�z����܂��B
 </UL>

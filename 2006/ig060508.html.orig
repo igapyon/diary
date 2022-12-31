@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/05/08 “ú‹L: blancoDb Enterprise Edition 1.6.4 ³Ž®”Å ƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="blancoDbEE 1.6.4‚ð³Ž®”Å‚Æ‚µ‚ÄƒŠƒŠ[ƒX‚µ‚Ü‚·BRC3‚Æ‚µ‚ÄŒöŠJ‚µ‚Ä‚¢‚½‚à‚Ì‚ðA‚»‚Ì‚Ü‚Ü³Ž®”Åˆµ‚¢‚Æ‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/05/08 ï¿½ï¿½ï¿½L: blancoDb Enterprise Edition 1.6.4 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="blancoDbEE 1.6.4ï¿½ð³Žï¿½ï¿½Å‚Æ‚ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BRC3ï¿½Æ‚ï¿½ï¿½ÄŒï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ì‚Ü‚Üï¿½ï¿½ï¿½ï¿½Åˆï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/05/08 “ú‹L: blancoDb Enterprise Edition 1.6.4 ³Ž®”Å ƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blancoDbEE 1.6.4‚ð³Ž®”Å‚Æ‚µ‚ÄƒŠƒŠ[ƒX‚µ‚Ü‚·BRC3‚Æ‚µ‚ÄŒöŠJ‚µ‚Ä‚¢‚½‚à‚Ì‚ðA‚»‚Ì‚Ü‚Ü³Ž®”Åˆµ‚¢‚Æ‚µ‚Ü‚·B</P>
+    <H2>2006/05/08 ï¿½ï¿½ï¿½L: blancoDb Enterprise Edition 1.6.4 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blancoDbEE 1.6.4ï¿½ð³Žï¿½ï¿½Å‚Æ‚ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BRC3ï¿½Æ‚ï¿½ï¿½ÄŒï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ì‚Ü‚Üï¿½ï¿½ï¿½ï¿½Åˆï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,69 +60,69 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition 1.6.4 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition 1.6.4 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒI[ƒvƒ“ƒ\[ƒX‚ÅŒöŠJ‚³‚ê‚Ä‚¢‚éŠJ”­ƒtƒŒ[ƒ€ƒ[ƒN <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Ì R/Oƒ}ƒbƒsƒ“ƒO‚ð’S‚¤ƒc[ƒ‹‚Å‚ ‚é
-<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> Enterprise Edition 1.6.4 (Java”Å)‚ð³Ž®”Å‚Æ‚µ‚ÄƒŠƒŠ[ƒX‚µ‚Ü‚·B1.6.xŒn‚ÌÅVˆÀ’è”Å‚Æ‚¢‚¤ˆÊ’u‚Ã‚¯‚É‚È‚è‚Ü‚·B‚±‚ÌƒŠƒŠ[ƒX‚Í
-æ“ú‚æ‚è RC3‚Æ‚µ‚ÄŒöŠJ‚µ‚Ä‚¢‚½ƒtƒ@ƒCƒ‹‚ðA‚»‚Ì‚Ü‚Ü³Ž®”Åˆµ‚¢‚Æ‚·‚é‚à‚Ì‚Å‚·B</P>
-<P>1.4.1‚©‚ç 1.6.4‚Ü‚Å‚ÌŽå‚È•ÏX“_‚ðŽ¦‚µ‚Ü‚·B</P>
+<P>ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ÅŒï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Ä‚ï¿½https://www.igapyon.jp/ HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½ï¿½ R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½Sï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½
+<A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> Enterprise Edition 1.6.4 (Javaï¿½ï¿½)ï¿½ð³Žï¿½ï¿½Å‚Æ‚ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B1.6.xï¿½nï¿½ÌÅVï¿½ï¿½ï¿½ï¿½Å‚Æ‚ï¿½ï¿½ï¿½ï¿½Ê’uï¿½Ã‚ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ RC3ï¿½Æ‚ï¿½ï¿½ÄŒï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ì‚Ü‚Üï¿½ï¿½ï¿½ï¿½Åˆï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
+<P>1.4.1ï¿½ï¿½ï¿½ï¿½ 1.6.4ï¿½Ü‚Å‚ÌŽï¿½È•ÏXï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <OL>
-  <LI>ƒfƒbƒhƒƒbƒN‚¨‚æ‚Ñƒ^ƒCƒ€ƒAƒEƒg‚Ö‚Ì‘Î‰ž
+  <LI>ï¿½fï¿½bï¿½hï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Ñƒ^ï¿½Cï¿½ï¿½ï¿½Aï¿½Eï¿½gï¿½Ö‚Ì‘Î‰ï¿½
   <UL>
-    <LI>“Á’è‚ÌSQLState‚ª”­¶‚µ‚½ê‡‚É‚Í‘Î‰ž‚·‚é—áŠOƒNƒ‰ƒX‚Åƒ‰ƒbƒsƒ“ƒO‚·‚é‚æ‚¤‚É‹@”\’Ç‰Á‚µ‚Ü‚µ‚½B
-    <LI>—áŠOƒNƒ‰ƒX‚Æ‚µ‚Ä DeadlockExceptionATimeoutException‚ð’Ç‰Á‚µ‚Ü‚µ‚½B<BR>
-  ¦‚È‚¨A“––Ê‚Ì‚ ‚¢‚¾ ƒfƒbƒhƒƒbƒN‚¨‚æ‚Ñƒ^ƒCƒ€ƒAƒEƒg‚Ì“®ìŠm”F‚Í ‘ÎSQL Server‚É‚¨‚¢‚Ä‚Ì‚ÝŽÀŽ{‚³‚ê‚Ü‚·B
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½SQLStateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚Í‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Nï¿½ï¿½ï¿½Xï¿½Åƒï¿½ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‹@ï¿½\ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½ï¿½Oï¿½Nï¿½ï¿½ï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½ DeadlockExceptionï¿½ATimeoutExceptionï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ê‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½bï¿½hï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Ñƒ^ï¿½Cï¿½ï¿½ï¿½Aï¿½Eï¿½gï¿½Ì“ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ ï¿½ï¿½SQL Serverï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚Ì‚ÝŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
-  <LI>Microsoft SQL Server 2005‘Î‰ž
+  <LI>Microsoft SQL Server 2005ï¿½Î‰ï¿½
   <UL>
-    <LI>ŠeX‚ÌÚ‘±•¶Žš—ñ‚Í‰º‹L‚Ì’Ê‚è‚Å‚·B”÷–­‚ÉˆÙ‚È‚é‚Ì‚Å’ˆÓ‚ª•K—v‚Å‚·B
+    <LI>ï¿½eï¿½Xï¿½ÌÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Ì’Ê‚ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÉˆÙ‚È‚ï¿½Ì‚Å’ï¿½ï¿½Ó‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
     <UL>
       <LI>SQL Server 2005 : jdbcdriver=&quot;com.microsoft.sqlserver.jdbc.SQLServerDriver&quot;
       jdbcurl=&quot;jdbc:sqlserver://localhost
       <LI>SQL Server 2000 : jdbcdriver=&quot;com.microsoft.jdbc.sqlserver.SQLServerDriver&quot; jdbcurl=&quot;jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=Northwind;SelectMethod=cursor
     </UL>
   </UL>
-  <LI>—lŽ®‚Ì‰ü‘P
+  <LI>ï¿½lï¿½ï¿½ï¿½Ì‰ï¿½ï¿½P
   <UL>
-    <LI>SQL’è‹`‘‚ÉuSQL’è‹`EÚ×à–¾v‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-    <LI>‰pŒê”Å‚ÌSQL’è‹`‘‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
+    <LI>SQLï¿½ï¿½`ï¿½ï¿½ï¿½ÉuSQLï¿½ï¿½`ï¿½Eï¿½Ú×ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½pï¿½ï¿½Å‚ï¿½SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
   </UL>
-  <LI>‚»‚Ì‘¼‚Ì‰ü‘P
+  <LI>ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ì‰ï¿½ï¿½P
   <UL>
-    <LI>ƒ‰ƒ“ƒ^ƒCƒ€ƒpƒbƒP[ƒW‚Ì‹¤’Ê‰»‹@”\‚ð’Ç‰ÁB<BR>
-    ƒ‰ƒ“ƒ^ƒCƒ€ƒpƒbƒP[ƒW‚Ìo—Íæ‚É‚Â‚¢‚ÄŒÂ•Ê‚ÉÝ’è‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B
-    <LI>ƒWƒFƒlƒŒ[ƒVƒ‡ƒ“ƒMƒƒƒbƒvEƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ö‚Ì‘Î‰ž‚ð‹­‰»‚µ‚Ü‚µ‚½B<BR>
-    ƒf[ƒ^ƒx[ƒXƒRƒlƒNƒVƒ‡ƒ“AƒXƒe[ƒgƒƒ“ƒgAŒ‹‰ÊƒZƒbƒg‚ðprotected‰»‚µ‚Ü‚µ‚½B
-    <LI>JavaDoc‚ðŒ©’¼‚µAC³‚·‚×‚«“_‚ÍC³‚µ‚Ü‚µ‚½B
-    <LI>prepareStatement‚Ì‘®«•t‚«ƒƒ\ƒbƒh‚ðíœB‚±‚ê‚ÍSQL’è‹`‘‚©‚ç—^‚¦‚ç‚ê‚½‚à‚Ì‚Ì‚Ý‚ðŽg‚Á‚Ä‚à‚ç‚¤‚½‚ß‚Ì‚à‚Ì‚Å‚·B
-    <LI>Caller‚Ìexecuteƒƒ\ƒbƒh‚É‚Â‚¢‚Ä–ß‚è’l‚ªboolean‚É‚È‚é‚æ‚¤‚É•ÏX‚µ‚Ü‚µ‚½B
-    <LI>—áŠOˆ—‚Ì‰ü‘P<BR>
-    ¶¬Œãƒ\[ƒXƒR[ƒh‚É‚¨‚¯‚é—áŠO‚Ì•ÏŠ·‚É‚Â‚¢‚ÄA‚±‚ê‚ðƒƒ\ƒbƒh‚Æ‚µ‚Ä‹¤’Ê‰»‚µ‚Ü‚µ‚½B
-    <LI>(ValueObject)toStringƒƒ\ƒbƒh‚ªV‚½‚É¶¬‚³‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B
-    <LI>(plugin)‰EƒNƒŠƒbƒNƒƒjƒ…[‚ðœ‹ŽB(‹@”\‚ªŒ¸‚è‚Ü‚µ‚½)
-    <LI>(plugin)SQL’è‹`ˆê——‰»ˆ—‚Ì’S“–<BR>
-    ƒhƒLƒ…ƒƒ“ƒgˆê——‚Ì‚½‚ß‚Ì’†ŠÔƒtƒ@ƒCƒ‹ì¬ˆ—‚ðˆ—‚Ì—¬‚ê‚É’Ç‰Á‚µ‚Ü‚µ‚½B
-    <LI>(Antƒ^ƒXƒN) Antƒ^ƒXƒN‚Ìo—ÍæƒtƒHƒ‹ƒ_‚É‚Â‚¢‚ÄAblanco ‚ðƒfƒtƒHƒ‹ƒg’l‚Æ‚µ‚ÄÝ’è‚µ‚Ü‚µ‚½B‚Ü‚½AˆÀ‘S‚Ì‚½‚ß‚ÉAblancoì‹Æ—pƒtƒHƒ‹ƒ_(blanco)‚ª–¢Ý’è‚Ìê‡‚ÉA“KØ‚ÈƒƒbƒZ[ƒW‚ð”º‚Á‚ÄˆÙíI—¹‚·‚é‚æ‚¤‚É•ÏX‚µ‚Ü‚µ‚½B
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½Ì‹ï¿½ï¿½Ê‰ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½B<BR>
+    ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½Ìoï¿½Íï¿½É‚Â‚ï¿½ï¿½ÄŒÂ•Ê‚ÉÝ’ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½Wï¿½Fï¿½lï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½bï¿½vï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ö‚Ì‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+    ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Aï¿½ï¿½ï¿½ÊƒZï¿½bï¿½gï¿½ï¿½protectedï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>JavaDocï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½_ï¿½ÍCï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>prepareStatementï¿½Ì‘ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½íœï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ì‚Ì‚Ý‚ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¤ï¿½ï¿½ï¿½ß‚Ì‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B
+    <LI>Callerï¿½ï¿½executeï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½É‚Â‚ï¿½ï¿½Ä–ß‚ï¿½lï¿½ï¿½booleanï¿½É‚È‚ï¿½æ‚¤ï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½P<BR>
+    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Ì•ÏŠï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Æ‚ï¿½ï¿½Ä‹ï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>(ValueObject)toStringï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>(plugin)ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B(ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)
+    <LI>(plugin)SQLï¿½ï¿½`ï¿½ê——ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’Sï¿½ï¿½<BR>
+    ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ê——ï¿½Ì‚ï¿½ï¿½ß‚Ì’ï¿½ï¿½Ôƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—ï¿½ï¿½ï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>(Antï¿½^ï¿½Xï¿½N) Antï¿½^ï¿½Xï¿½Nï¿½Ìoï¿½Íï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½É‚Â‚ï¿½ï¿½ÄAblanco ï¿½ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½Æ‚ï¿½ï¿½ÄÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Sï¿½Ì‚ï¿½ï¿½ß‚ÉAblancoï¿½ï¿½Æ—pï¿½tï¿½Hï¿½ï¿½ï¿½_(blanco)ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Ìê‡ï¿½ÉAï¿½Kï¿½Ø‚Èƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ð”º‚ï¿½ï¿½ÄˆÙï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
   </UL>
-  <LI>•s‹ï‡C³
+  <LI>ï¿½sï¿½ï‡ï¿½Cï¿½ï¿½
   <UL>
-    <LI>SQL“ü—Íƒpƒ‰ƒ[ƒ^‚Å€–Ú”Ô†‚Ì‚Ý“ü—Í‚µ‚½Û‚ÉAã‚Ì€–Ú–¼‚ªˆø‚«Œp‚ª‚ê‚Äd•¡‚·‚é€–Ú–¼‚ª¶¬‚³‚ê‚Ä‚µ‚Ü‚¤ƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
-    <LI>’Pˆê•\‚É‚¨‚¢‚Äƒvƒ‰ƒCƒ}ƒŠƒL[‚ª–³‚¢•\‚É‘Î‚·‚é UPDATE‚ÆDELETE‚ð¶¬‚µ‚È‚¢‚æ‚¤‚ÉC³‚µ‚Ü‚µ‚½B
-    <LI>’Pˆê•\‚É‚¨‚¢‚ÄABINARY‚¨‚æ‚Ñƒ‰[ƒWTEXT‚É‘Î‚·‚é’Pˆê•\ƒAƒNƒZƒXŽ©“®¶¬‚É‚Â‚¢‚ÄAuˆês§–ñv‚ðOFF‚É‚·‚é‚æ‚¤‚ÉŽd—l‚ð•ÏX‚µ‚Ü‚µ‚½B<BR>
-    ‚±‚ê‚ÍAgetInputStream‚âgetReader‚ª getSingleRow“à‚Ìnextƒƒ\ƒbƒh‚Ì‚Q“xŒÄ‚Ño‚µ‚É‚æ‚Á‚Ä•Â‚¶‚Ä‚µ‚Ü‚¤‚Æ‚¢‚¤ŒÂX‚ÌJDBCƒhƒ‰ƒCƒo‚ÌŽÀ‘•ã‚Ì–â‘è‚É‘Î‰ž‚·‚é‚½‚ß‚Ì•ÏX‚Æ‚È‚è‚Ü‚·B‚Ü‚½A‚±‚ê‚ç‚ÌŒ^‚É‚Â‚¢‚Ä‚ÍASimple‚Ì’Pˆê•\Ž©“®¶¬‚Ì€–Ú—ñ‹“‚ÌÛ‚Ìˆµ‚¢‚ð’²®‚µ‚ÄAo—Í‚³‚ê‚é‚×‚«‚Å‚È‚¢ê‡‚É‚Í¶¬‚³‚ê‚È‚¢‚æ‚¤‚ÉC³‚µ‚Ü‚µ‚½B
-    <LI>ƒ}ƒbƒsƒ“ƒO‚É‚¨‚¢‚ÄAjava.sql.Types.VARBINARYAcase java.sql.Types.BOOLEAN<BR>
-    ‚Ì‹LÚ‚ª”²‚¯‚Ä‚¢‚½‰ÓŠ‚ª‚ ‚Á‚½‚Ì‚ÅA‚±‚ê‚ðC³‚µ‚Ü‚µ‚½B  
-    <LI>ƒƒ^î•ñŽûWŽž‚ÌƒRƒlƒNƒVƒ‡ƒ“‚É‚Â‚¢‚ÄAŽ©“®ƒRƒ~ƒbƒg‚ªON‚Ì‚Ü‚Ü‚É‚È‚Á‚Ä‚¢‚½‚Ì‚ÅA‚±‚ê‚ðOFFÝ’è‚Ö‚ÆC³‚µ‚Ü‚µ‚½B
-    <LI>PostgreSQL 8.1 (8.1.405)‚É‚¨‚¢‚ÄA•\‚ªˆê‚Â‚à–³‚¢ê‡‚É’Pˆê•\‚Ìî•ñŽûWŽž‚Énullƒ|ƒCƒ“ƒ^—áŠO‚ª”­¶‚·‚é•s‹ï‡‚ðC³‚µ‚Ü‚µ‚½B
-    <LI>‚Ð‚Æ‚Â‚à—ñ‚ªˆ—‚³‚ê‚È‚©‚Á‚½ê‡‚Ìˆ—’†’f‚ð®—‚µ‚Ü‚µ‚½B
-    <LI>ŒŸõŒ^SQL•¶‚ÌŽŽ‚µ‘Å‚¿‚Ì‚½‚ß‚É]—ˆ‚ÍString‚É‘Î‚µ‚Ä ]—ˆ‚Í &quot;&quot; ‚ðƒZƒbƒg‚µ‚Ä‚¢‚½‚Ì‚ðAnull‚Ö‚Æ•ÏX‚µ‚Ü‚µ‚½B<BR>
-    ‚±‚ê‚Í SQL Server 2005‚Ì uniqueidentifier—ñ‚Ìê‡‚É‚Í String‚ÅƒZƒbƒg‚·‚é‚Æ(ƒoƒCƒiƒŠ‚Ö‚Ì)•ÏŠ·ƒGƒ‰[‚ª”­¶‚µ‚Ä‚µ‚Ü‚¤‚Ì‚ð‰ñ”ð‚·‚é‚½‚ß‚Å‚·B‚È‚¨A•¶Žš—ñˆÈŠO‚É‚Â‚¢‚Ä‚ÍA0‚È‚Ç‚Ì’l‚ð–„‚ß‚½ã‚ÅŽŽ‚µ‘Å‚¿‚µ‚Ä‚¢‚Ü‚·B
+    <LI>SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Åï¿½ï¿½Ú”Ôï¿½ï¿½Ì‚Ý“ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Û‚ÉAï¿½ï¿½Ìï¿½ï¿½Ú–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ädï¿½ï¿½ï¿½ï¿½ï¿½é€ï¿½Ú–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½Pï¿½ï¿½\ï¿½É‚ï¿½ï¿½ï¿½ï¿½Äƒvï¿½ï¿½ï¿½Cï¿½}ï¿½ï¿½ï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½É‘Î‚ï¿½ï¿½ï¿½ UPDATEï¿½ï¿½DELETEï¿½ð¶ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½ÉCï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½Pï¿½ï¿½\ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄABINARYï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½[ï¿½WTEXTï¿½É‘Î‚ï¿½ï¿½ï¿½Pï¿½ï¿½\ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½uï¿½ï¿½sï¿½ï¿½ï¿½ï¿½vï¿½ï¿½OFFï¿½É‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽdï¿½lï¿½ï¿½ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+    ï¿½ï¿½ï¿½ï¿½ÍAgetInputStreamï¿½ï¿½getReaderï¿½ï¿½ getSingleRowï¿½ï¿½ï¿½ï¿½nextï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Ì‚Qï¿½xï¿½Ä‚Ñoï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ä•Â‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ÂXï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½Ì–ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì•ÏXï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÌŒ^ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍASimpleï¿½Ì’Pï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Ú—ñ‹“‚ÌÛ‚Ìˆï¿½ï¿½ï¿½ï¿½ð’²ï¿½ï¿½ï¿½ï¿½ÄAï¿½oï¿½Í‚ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½Å‚È‚ï¿½ï¿½ê‡ï¿½É‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½ÉCï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAjava.sql.Types.VARBINARYï¿½Acase java.sql.Types.BOOLEAN<BR>
+    ï¿½Ì‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Óï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B  
+    <LI>ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ÌƒRï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½~ï¿½bï¿½gï¿½ï¿½ONï¿½Ì‚Ü‚Ü‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½OFFï¿½Ý’ï¿½Ö‚ÆCï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>PostgreSQL 8.1 (8.1.405)ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½\ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É’Pï¿½ï¿½\ï¿½Ìï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½nullï¿½|ï¿½Cï¿½ï¿½ï¿½^ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï‡ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½Ð‚Æ‚Â‚ï¿½ï¿½ñ‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ð®—ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½^SQLï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ì‚ï¿½ï¿½ß‚É]ï¿½ï¿½ï¿½ï¿½Stringï¿½É‘Î‚ï¿½ï¿½ï¿½ ï¿½]ï¿½ï¿½ï¿½ï¿½ &quot;&quot; ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Anullï¿½Ö‚Æ•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+    ï¿½ï¿½ï¿½ï¿½ï¿½ SQL Server 2005ï¿½ï¿½ uniqueidentifierï¿½ï¿½Ìê‡ï¿½É‚ï¿½ Stringï¿½ÅƒZï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½oï¿½Cï¿½iï¿½ï¿½ï¿½Ö‚ï¿½)ï¿½ÏŠï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Å‚ï¿½ï¿½Bï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈŠOï¿½É‚Â‚ï¿½ï¿½Ä‚ÍA0ï¿½È‚Ç‚Ì’lï¿½ð–„‚ß‚ï¿½ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
 </OL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

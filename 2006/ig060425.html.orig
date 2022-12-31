@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/04/25 “ú‹L: JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†c uEffective JavaScriptv</TITLE>
-<META name="DESCRIPTION" content="JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/04/25 ï¿½ï¿½ï¿½L: JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½c ï¿½uEffective JavaScriptï¿½v</TITLE>
+<META name="DESCRIPTION" content="JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/04/25 “ú‹L: JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†c uEffective JavaScriptv</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†‚Å‚·B</P>
+    <H2>2006/04/25 ï¿½ï¿½ï¿½L: JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½c ï¿½uEffective JavaScriptï¿½v</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,63 +60,63 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†c: Effective JavaScript</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½c: Effective JavaScript</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JavaScriptŒ¾ŒêŽd—l‚ð•×‹­’†‚Å‚·BŒ»Žž“_‚Å‚Í uEffective JavaScriptv‚Æ‚¢‚¤ƒy[ƒW‚ðŽQl‚É‚µ‚È‚ª‚ç ­‚µ‚¸‚ÂŒ¾ŒêŽd—l‚ð—‰ð‚µ‚Â‚Â‚ ‚è‚Ü‚·Bˆóü‚µ‚ÄŽ‚¿•à‚¢‚ÄA‚»‚µ‚Ä­‚µ‚¸‚Â“Ç‚Ýi‚ß‚Ä‚¢‚Ü‚·B</P>
+<P>JavaScriptï¿½ï¿½ï¿½ï¿½dï¿½lï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½uEffective JavaScriptï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½Qï¿½lï¿½É‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂŒï¿½ï¿½ï¿½dï¿½lï¿½ð—‰ï¿½ï¿½ï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â“Ç‚Ýiï¿½ß‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>Effective JavaScript<BR>
   <A HREF="http://www.interq.or.jp/student/exeal/dss/ejs/">http://www.interq.or.jp/student/exeal/dss/ejs/</A><BR>
-  Œ¾ŒêŽd—l‚Ì‰ðà‚É’—Í‚µ‚½ JavaScript•W€‰ðàWebƒy[ƒWB
+  ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½Ì‰ï¿½ï¿½ï¿½É’ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ JavaScriptï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Webï¿½yï¿½[ï¿½Wï¿½B
 </UL>
-<P>‚±‚ÌuEffective JavaScriptv‚ÌƒTƒCƒg‚Í ‚Æ‚Ä‚à—Ç‚­‚Å‚«‚Ä‚¢‚ÄA‚»‚µ‚Ä‘å•Ï•‚¯‚ç‚ê‚Ä‚¢‚Ü‚·B‚±‚Ì‚æ‚¤‚È‘f°‚ç‚µ‚¢î•ñ‚ªŒöŠJ‚³‚ê‚Ä‚ç‚ê‚é‚±‚Æ‚ðŠ´ŽÓ‚µ‚Ü‚·BƒR[ƒfƒBƒ“ƒO‹K–ñì¬Žž‚ÌŽQl•¶Œ£‚Æ‚µ‚Ä‚àŠˆ—p‚Å‚«‚é‚Ì‚Å‚ÍA‚Æ‚àl‚¦‚Ä‚¢‚Ü‚·B</P>
-<P>c‚»‚Ì‚æ‚¤‚È‰c‚Ý‚Ì‚¤‚¦‚Å JavaScript‚ª—‰ð‚Å‚«‚½‚çA‹x‰É‚Ì‚ ‚¢‚¾‚ÉŽžŠÔ‚ðŠm•Û‚µ‚Ä <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>‚Ì JavaScriptŽ©“®¶¬‹@”\‚Ì’Ç‰Á‚ð‚È‚ñ‚Æ‚©ŽÀŒ»‚Å‚«‚é‚æ‚¤‚É‚È‚è‚½‚¢A‚Æ‘_‚Á‚Ä‚¢‚Ü‚·B<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>‚ª Œ»óƒTƒ|[ƒg‚µ‚Ä‚¢‚éJavaŒ¾ŒêEC#.NETŒ¾Œê‚Ìƒ\[ƒXƒR[ƒhŽ©“®¶¬‚É‰Á‚¦‚Ä JavaScriptƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðƒTƒ|[ƒg‚Å‚«‚½‚Æ‚µ‚½‚çA‘½ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê‘Î‰žƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Æ‚µ‚ÄA‚ ‚é‚¢‚Í‚»‚ÌƒCƒ“ƒ^ƒtƒF[ƒX‚Æ‚µ‚Ä ‚ ‚é’ö“x‰Û‘è‚ªŽ•ž‚Å‚«‚½ó‘Ô‚É“ž’B‚·‚éA‚ ‚é‚¢‚Í‘Ã“–«‚ªŽÀØ‚³‚ê‚½‚à‚Ì‚Æ”»’f‚Å‚«‚éA‚Ì‚©‚µ‚çH ‚È‚ ‚ñ‚Äl‚¦‚Ä‚¢‚Ü‚·B</P>
-<P>‚Æ‚è‚ ‚¦‚¸ JavaScript‚È‚ñ‚Å‚·‚ªAŽ„‚É‚Æ‚Á‚Ä‚Í ‚Æ‚Ä‚à“ï‚µ‚¢‚Å‚·B</P>
-<P><FONT color="#ff0000">2006.05.17’Ç‹L</FONT> JavaScriptƒ\[ƒXƒR[ƒhŽ©“®¶¬‚Í ³Ž®‚É <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>‚É‘g‚Ýž‚Ü‚ê‚é‚±‚Æ‚É‚È‚è‚Ü‚µ‚½BŒ»Ý <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>
-‚ÌÅVŠJ”­”Å‚É‚¨‚¢‚Ä JavaScriptŽ©“®¶¬‚É‚Â‚¢‚Ä‚Ì‹ï‘Ì“I‚ÈŽÀ‘•‚ªs‚í‚Â‚Â‚ ‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ÌuEffective JavaScriptï¿½vï¿½ÌƒTï¿½Cï¿½gï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Ä‘ï¿½Ïï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‘fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½ï¿½ñ‚ªŒï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ó‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Rï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½Kï¿½ï¿½ì¬ï¿½ï¿½ï¿½ÌŽQï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚ÍAï¿½Æ‚ï¿½ï¿½lï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½cï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‰cï¿½Ý‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ JavaScriptï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½https://www.igapyon.jp/Û‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaScript, VB.NET, PHP, Rhttps://www.igapyon.jp/ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>ï¿½ï¿½ JavaScriptï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½Ì’Ç‰ï¿½ï¿½ï¿½ï¿½È‚ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚è‚½ï¿½ï¿½ï¿½Aï¿½Æ‘_ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½EC#.NETï¿½ï¿½ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½ JavaScriptï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½Å‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½é‚¢ï¿½Í‚ï¿½ï¿½ÌƒCï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Û‘è‚ªï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚É“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½é‚¢ï¿½Í‘Ã“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø‚ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ì‚Æ”ï¿½ï¿½fï¿½Å‚ï¿½ï¿½ï¿½Aï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½H ï¿½È‚ï¿½ï¿½ï¿½Älï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ JavaScriptï¿½È‚ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2006.05.17ï¿½Ç‹L</FONT> JavaScriptï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/http://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaScript, Vhttps://www.igapyon.jp/on) ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>ï¿½É‘gï¿½Ýï¿½ï¿½Ü‚ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>
+ï¿½ÌÅVï¿½Jï¿½ï¿½ï¿½Å‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ JavaScriptï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Ì‹ï¿½Ì“Iï¿½ÈŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoCg‚É‚æ‚é blancoCg‚ÌŽ©“®¶¬</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blanco Framework: blancoCgï¿½É‚ï¿½ï¿½ blancoCgï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚ÉŒg‚í‚Á‚Ä‚¢‚ÄAu‚w‚w‚w‚É‚æ‚é ‚w‚w‚w‚ÌŽ©“®¶¬v‚Æ‚¢‚¤‚Ì‚ªŽÀŒ»‚Å‚«‚½‚Æ‚«‚Í ‚Æ‚Ä‚àŠð‚µ‚¢‚à‚Ì‚Å‚·BƒRƒ“ƒpƒCƒ‰‚ª
-ƒRƒ“ƒpƒCƒ‰Ž©g‚ðƒRƒ“ƒpƒCƒ‹‚µ‚Äƒrƒ‹ƒh‚³‚ê‚é‚Ì‚Í“–‘R‚Å‚ ‚é‚Ì‚Æ“¯—l‚ÉAƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒc[ƒ‹‚Í ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒc[ƒ‹‚É‚æ‚Á‚Äƒrƒ‹ƒh‚Å‚«‚é
-‚Æ‚¢‚¤‚Ì‚ÍŽÀŒ»‚³‚ê‚é‚×‚«Ž–€‚Ì‚Ð‚Æ‚Â‚È‚Ì‚Å‚·BDSL‚Í ‚»‚êŽ©g‚ª DSL‚Å‚ ‚èŽ©“®¶¬‚³‚ê‚é‚×‚«‚È‚Ì‚Å‚·B‚»‚ê‚Í ‚»‚ñ‚È‚É‚ÍŠÈ’P‚Å‚Í–³‚¢‚Å‚µ‚å‚¤‚ªA‚µ‚©‚µˆê•û‚Å’B¬‚Å‚«‚é‚Æ‚Æ‚Ä‚àŠð‚µ‚¢‚Ì‚Å‚·B</P>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A>‚Ì‚È‚©‚ÅŽ©ŒÈ‚ðŽ©“®¶¬‚Å‚«‚Ä‚¢‚é‚à‚Ì‚É‚Í‰º‹L‚Ì‚æ‚¤‚È‚à‚Ì‚ª‚ ‚è‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½ÉŒgï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½uï¿½wï¿½wï¿½wï¿½É‚ï¿½ï¿½ ï¿½wï¿½wï¿½wï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½
+ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Äƒrï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Í“ï¿½ï¿½Rï¿½Å‚ï¿½ï¿½ï¿½Ì‚Æ“ï¿½ï¿½lï¿½ÉAï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½ï¿½ ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Äƒrï¿½ï¿½ï¿½hï¿½Å‚ï¿½ï¿½ï¿½
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚Â‚È‚Ì‚Å‚ï¿½ï¿½BDSLï¿½ï¿½ ï¿½ï¿½ï¿½êŽ©ï¿½gï¿½ï¿½ DSLï¿½Å‚ï¿½ï¿½èŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È‚É‚ÍŠÈ’Pï¿½Å‚Í–ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å’Bï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Æ‚Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A>ï¿½Ì‚È‚ï¿½ï¿½ÅŽï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚É‚Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="uƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚¨‚æ‚ÑƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒAƒNƒZƒX‚ð‚¨‚±‚È‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoResourceBundle</A>‚É‚æ‚é<A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="uƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚¨‚æ‚ÑƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒAƒNƒZƒX‚ð‚¨‚±‚È‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoResourceBundle</A>‚ÌƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ÌŽ©“®¶¬
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="uƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoValueObject</A>‚É‚æ‚é<A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="uƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoValueObject</A>‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ÌŽ©“®¶¬B
-  <LI>blancoAntTask‚É‚æ‚éblancoAntTask ‚ÌAntƒ^ƒXƒN‚ÌŽ©“®¶¬B
-  <LI>blancoConstants‚É‚æ‚é blancoConstants‚Ì’è”ƒNƒ‰ƒX‚ÌŽ©“®¶¬B
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="ï¿½uï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½pï¿½eï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½https://www.igapyon.jp/ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoResourceBundle</A>ï¿½É‚ï¿½ï¿½<A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="ï¿½uï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½pï¿½eï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoResourceBundle</A>ï¿½Ìƒï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  <LI><A HREF="https://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="ï¿½uï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½https://www.igapyon.jp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoValueObject</A>ï¿½É‚ï¿½ï¿½<A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="ï¿½uï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoValueObject</A>ï¿½Ìƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>blancoAntTaskï¿½É‚ï¿½ï¿½blancoAntTask ï¿½ï¿½Antï¿½^ï¿½Xï¿½Nï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>blancoConstantsï¿½É‚ï¿½ï¿½ blancoConstantsï¿½Ì’è”ï¿½Nï¿½ï¿½ï¿½Xï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P>“Á‚É <A HREF="http://www.igapyon.jp/blanco/blancoresourcebundle.html" TITLE="uƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚¨‚æ‚ÑƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒAƒNƒZƒX‚ð‚¨‚±‚È‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoResourceBundle</A>‚ÌŽ©ŒÈ¶¬‚ª‚Å‚«‚½‚Æ‚«‚ÍŠð‚µ‚©‚Á‚½‚Å‚·B</P>
-<P>¡‚ÌŽ„‚ÌŽ©ŒÈ¶¬ƒ^[ƒQƒbƒg‚Í <A HREF="http://www.igapyon.jp/blanco/blancocg.html" TITLE="‚Æ‚Ä‚àŒy—Ê‚Èƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B ‘½‚­‚ÌƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) ‚Ìƒ\[ƒXƒR[ƒh¶¬‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B">blancoCg</A>‚Å‚·BblancoCgŽ©g‚Í <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="uƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚ðˆµ‚¤ƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoValueObject</A>‚ðŒo—R‚µ‚½
-blancoCg‚É‚æ‚éŽ©“®¶¬‹@”\‚ð—p‚¢‚Ä Ž©g‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒgŽ©“®¶¬‚ðŽÀŒ»‚µ‚Ä‚¢‚Ü‚·B‚µ‚©‚µ ‚±‚ê‚Í’¼Ú“I‚Å‚Í‚È‚¢‚Æl‚¦‚Ü‚·B’¼Ú“I‚ÈŽ©ŒÈƒ\[ƒXƒR[ƒh‚ÌŽ©“®¶¬‚ðŽÀŒ»‚·‚é‚Æ
-‚¢‚Á‚½‚¢‚Ç‚Ì‚æ‚¤‚È‰Û‘è‚È‚Ç‚ªŒ©‚Â‚©‚é‚Ì‚¾‚ë‚¤A‚Æ ‚Æ‚Ä‚à‹»–¡‚ðŽ‚¿A‚Ü‚½ ŽÀŒ»‚ð‘_‚Á‚Ä‚¢‚Ü‚·B‚Ü‚½A‚»‚êŽ©g‚à’P‘ÌŽŽŒ±‚Ìˆê•”‚½‚è“¾‚é‚Ì‚Å‚·Bc¡‚Í–Z‚µ‚¢‚Ì‚Å
-‚Æ‚Ä‚à’…Žè‚Å‚«‚Ü‚¹‚ñ‚¯‚ê‚Ç‚à‚ËcB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ <https://www.igapyon.jp/pyon.jp/blanco/blancoresourcebundle.html" TITLE="ï¿½uï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½pï¿½eï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½\ï¿½[ï¿½Xï¿½oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoResourceBundle</A>ï¿½ÌŽï¿½ï¿½Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÍŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ÌŽï¿½ï¿½Èï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/ttp://www.igapyon.jp/blanco/blancocg.html" TITLE="ï¿½Æ‚Ä‚ï¿½ï¿½yï¿½Ê‚Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (Java, C#.NET, JavaSchttps://www.igapyon.jp/y, Python) ï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoCg</A>ï¿½Å‚ï¿½ï¿½BblancoCgï¿½ï¿½ï¿½gï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancovalueobject.html" TITLE="ï¿½uï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½oï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoValueObject</A>ï¿½ï¿½ï¿½oï¿½Rï¿½ï¿½ï¿½ï¿½
+blancoCgï¿½É‚ï¿½éŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½gï¿½Ìƒoï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Í’ï¿½ï¿½Ú“Iï¿½Å‚Í‚È‚ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ú“Iï¿½ÈŽï¿½ï¿½Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚Ì‚æ‚¤ï¿½È‰Û‘ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¤ï¿½Aï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½êŽ©ï¿½gï¿½ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Ìˆê•”ï¿½ï¿½ï¿½è“¾ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½cï¿½ï¿½ï¿½Í–Zï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚¯‚ï¿½Ç‚ï¿½ï¿½Ëcï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: serialVersionUID‚Æ‚¢‚¤‚à‚Ì</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Java: serialVersionUIDï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Eclipse‚ðŽg‚Á‚Ä‚¢‚Ä userialVersionUIDv ‚ÉŠÖ‚·‚éŒx‚ðŒ©‚©‚¯‚é‚±‚Æ‚ª‚ ‚è‚Ü‚·B‚±‚ÌuserialVersionUIDv‚ÉŠÖ‚·‚éŒx‚ÌˆÓ–¡‚ðA‚Â‚¢Å‹ß
-‚æ‚¤‚â‚Á‚Æ—‰ðo—ˆ‚Ü‚µ‚½B(¡‚Ü‚Å‚Í ‚ ‚Ü‚è³Šm‚É”FŽ¯‚µ‚Ä‚¢‚Ü‚¹‚ñ‚Å‚µ‚½)</P>
+<P>Eclipseï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ ï¿½userialVersionUIDï¿½v ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌuserialVersionUIDï¿½vï¿½ÉŠÖ‚ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ÌˆÓ–ï¿½ï¿½ï¿½ï¿½Aï¿½Â‚ï¿½ï¿½Å‹ï¿½
+ï¿½æ‚¤ï¿½ï¿½ï¿½ï¿½Æ—ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ ï¿½ï¿½ï¿½Ü‚è³ï¿½mï¿½É”Fï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½)</P>
 <UL>
   <LI>Java 2 Platform SE 5.0: Serializable<BR>
   <A HREF="http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/io/Serializable.html">http://java.sun.com/j2se/1.5.0/ja/docs/ja/api/java/io/Serializable.html</A>
 </UL>
-<P>‚±‚Ì‹Lq‚É‚æ‚é‚Æ u‚·‚×‚Ä‚Ì’¼—ñ‰»‰Â”\ƒNƒ‰ƒX‚ª serialVersionUID ’l‚ð–¾Ž¦“I‚ÉéŒ¾‚·‚é‚æ‚¤‚ÉÝ’è‚·‚é‚±‚Æ‚ð‹­‚­‚¨Š©‚ßcv‚Æ‚Ì‚±‚Æ‚Å‚·BŒp³‚à‚Æ‚ÌƒNƒ‰ƒX‚ª’¼—ñ‰»‰Â”\‚Å‚ ‚éê‡‚ÉAŒp³æ‚à“–‘R’¼—ñ‰»‰Â”\‚É‚È‚é‚Ì‚ÅA‚»‚ÌŒ‹‰Ê
-‚±‚ÌŒx‚ª”­‚¹‚ç‚ê‚Ä‚¢‚é‚Ì‚Å‚µ‚½B</P>
-<P>‚Å‚ÍAŽÀÛ‚ÉuserialVersionUIDv‚É‰½‚Ì’l‚ðƒZƒbƒg‚µ‚Ä‚¨‚¯‚Î‚æ‚¢‚Ì‚©A‚Æ‚¢‚¤‚Ì‚Í ‚±‚ê‚Ü‚½”Y‚Ü‚µ‚¢–½‘è‚Å‚ ‚é‚±‚Æ‚ð‰ü‚ß‚Äl‚¦‚³‚¹‚ç‚ê‚Ü‚·Bƒo[ƒWƒ‡ƒ“”Ô†‚Æ‚¢‚¤‚±‚Æ‚Å1‚©‚ç‚Í‚¶‚Ü‚é˜A”Ô‚ðÌ”Ô‚µ‚Ä‚¢‚­‚Ì‚É‘Ã“–«‚ðŠ´‚¶‚ç‚ê‚Ü‚·Bˆê•û‚Å
-Š’è‚ÌŒvŽZƒ‹[ƒ`ƒ“‚ðŽ‚Á‚ÄIDÌ”Ô‚ð‚¨‚±‚È‚¤‚Æ‚¢‚¤‚Ì‚à ‚±‚ê‚Ü‚½‘Ã“–‚Å‚ ‚é‚æ‚¤‚É‚àŽv‚¦‚Ü‚·B’¼—ñ‰»‚ðŽÀÛ‚Éˆµ‚Á‚Ä userialVersionUIDv‚ðÝ’è‚·‚é•K—v‚ª‚ ‚éê–Ê‚É‘˜‚Á‚Ä‚¢‚È‚¢‚Ì‚ÅA‚Ç‚¤‚¢‚¤Ì”Ôƒ‹[ƒ‹‚ª—Ç‚¢‚Ì‚©AŽ„‚É‚Í
-‚Ü‚¾‚í‚©‚è‚Ü‚¹‚ñB</P>
+<P>ï¿½ï¿½ï¿½Ì‹Lï¿½qï¿½É‚ï¿½ï¿½ï¿½ ï¿½uï¿½ï¿½ï¿½×‚Ä‚Ì’ï¿½ï¿½ñ‰»‰Â”\ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ serialVersionUID ï¿½lï¿½ð–¾Žï¿½ï¿½Iï¿½ÉéŒ¾ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉÝ’è‚·ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßcï¿½vï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½Bï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ñ‰»‰Â”\ï¿½Å‚ï¿½ï¿½ï¿½ê‡ï¿½ÉAï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ñ‰»‰Â”\ï¿½É‚È‚ï¿½Ì‚ÅAï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ÌŒxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½Å‚ÍAï¿½ï¿½ï¿½Û‚ÉuserialVersionUIDï¿½vï¿½É‰ï¿½ï¿½Ì’lï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Î‚æ‚¢ï¿½Ì‚ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Yï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ß‚Älï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ôï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½1ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½Aï¿½Ô‚ï¿½ï¿½Ì”Ô‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚É‘Ã“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ÌŒvï¿½Zï¿½ï¿½ï¿½[ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IDï¿½Ì”Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ã“ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ñ‰»‚ï¿½ï¿½ï¿½ï¿½Û‚Éˆï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½userialVersionUIDï¿½vï¿½ï¿½Ý’è‚·ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚É‘ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì”Ôƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½É‚ï¿½
+ï¿½Ü‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

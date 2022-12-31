@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/12/29 “ú‹L: blancoDbPhpŒöŠJƒx[ƒ^”Å‚ÌƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="blanco Framework ‚Í SQL’è‹`‘‚©‚çPHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚éƒc[ƒ‹‚Å‚ ‚é blancoDbPhp‚ÌŒöŠJƒx[ƒ^”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2006/12/29 ï¿½ï¿½ï¿½L: blancoDbPhpï¿½ï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="blanco Framework ï¿½ï¿½ SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbPhpï¿½ÌŒï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/12/29 “ú‹L: blancoDbPhpŒöŠJƒx[ƒ^”Å‚ÌƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] blanco Framework ‚Í SQL’è‹`‘‚©‚çPHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚éƒc[ƒ‹‚Å‚ ‚é blancoDbPhp‚ÌŒöŠJƒx[ƒ^”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B</P>
+    <H2>2006/12/29 ï¿½ï¿½ï¿½L: blancoDbPhpï¿½ï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] blanco Framework ï¿½ï¿½ SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ blancoDbPhpï¿½ÌŒï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,42 +60,42 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbPhpŒöŠJƒx[ƒ^”Å‚ÌƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDbPhpï¿½ï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Í SQL’è‹`‘‚©‚çPHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚éƒc[ƒ‹‚Å‚ ‚é <A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ì PHPƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDbPhp</A>‚ÌŒöŠJƒx[ƒ^”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚µ‚½B</P>
-<P>blancoDbPhp‚Í <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ÌPHP”Å‚Å‚·B</P>
+<P><A HREF="https://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚https://www.igapyon.jp/rk</A> ï¿½ï¿½ SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodbphp.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚ï¿½ PHPï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDbPhp</A>ï¿½ÌŒï¿½ï¿½Jï¿½xï¿½[ï¿½^ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>blancoDbPhpï¿½ï¿½ <A HRhttps://www.igapyon.jp/.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ï¿½PHPï¿½Å‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒf[ƒ^ƒx[ƒX“üo—Í‚É PDO (PHP Data Object) ‚ð—˜—p‚·‚éƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-  <LI>SQL’è‹`‘‚¨‚æ‚Ñƒf[ƒ^ƒx[ƒXƒXƒL[ƒ}‚ð“ü—Í‚Æ‚µ‚ÄAPHPƒf[ƒ^ƒx[ƒX“üo—Íƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚Å‚«‚Ü‚·B<BR>
-  ƒ\[ƒXƒR[ƒhŽ©“®¶¬ƒAƒvƒ[ƒ`‚É‚æ‚Á‚ÄASQLƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚È‚Ç‚ÌƒZƒLƒ…ƒŠƒeƒBƒŠƒXƒN‚Ì‚Ù‚Æ‚ñ‚Ç‚ð–o–Å‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-  <LI>Œ»Ý PostgreSQL‚Å‚Ì‚Ý“®ìŠm”F‚ªŽÀŽ{‚³‚ê‚Ä‚¢‚Ü‚·B<BR>
-  PDOƒx[ƒX‚È‚Ì‚Å ‘¼‚ÌƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒX‚Å‚à“®ì‚·‚é‰Â”\«‚Í‚ ‚è‚Ü‚·B<BR>
-  ¨‘¼‚ÌƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒX‚Å‚Ì“®ìŠm”Fî•ñ‚ð‚¨Šñ‚¹‚¢‚½‚¾‚­‚±‚Æ‚ðŠú‘Ò‚µ‚Ü‚·BPostgreSQLã‚Å‚Ì“®ìŠm”Fî•ñ‚àŠ½Œ}‚µ‚Ü‚·B
-  <LI>Œ»Žž“_‚Å‚Í ³íŒn‚Ì‚ÝŽÀ‘•‚³‚ê‚Ä‚¢‚Ü‚·B<BR>
-  blancoDb‚Æ‚µ‚Ä‚Í ˆêˆÓ§–ñˆá”½‚È‚Ç‚ÌˆÙíŒn‚ð blanco“Á—L‚Ì—áŠO‚Ö‚Æ‹l‚ß‘Ö‚¦‚é‚Ì‚ª—¬‹V‚È‚Ì‚Å‚·‚ªAŒ»Žž“_‚Å‚Í PDO‚ª”­¶‚³‚¹‚½
-  PDOException—áŠO‚ª ‚»‚Ì‚Ü‚ÜƒXƒ[‚³‚ê‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B
-  <LI>ƒf[ƒ^ƒx[ƒX“üo—Í‚Í•¶Žš—ñ‚¨‚æ‚Ñ”’l‚Ì‚Ý‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B<BR>
-  “ú•tŒ^‚È‚Ç‚Í‘S‚­ŽŽŒ±‚µ‚Ä‚¢‚Ü‚¹‚ñB(‚»‚µ‚Ä‚¨‚»‚ç‚­ “KØ‚É‚Í“®ì‚µ‚È‚¢‚ÆŽv‚í‚ê‚Ü‚·)
+  <LI>ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚ï¿½ PDO (PHP Data Object) ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Xï¿½Lï¿½[ï¿½}ï¿½ï¿½ï¿½ï¿½Í‚Æ‚ï¿½ï¿½ÄAPHPï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Íƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½É‚ï¿½ï¿½ï¿½ÄASQLï¿½Cï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ÌƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ï¿½Xï¿½Nï¿½Ì‚Ù‚Æ‚ï¿½Ç‚ï¿½oï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½ï¿½ PostgreSQLï¿½Å‚Ì‚Ý“ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  PDOï¿½xï¿½[ï¿½Xï¿½È‚Ì‚ï¿½ ï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½Â”\ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Å‚Ì“ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚¹‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½BPostgreSQLï¿½ï¿½Å‚Ì“ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ï¿½nï¿½Ì‚ÝŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  blancoDbï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½Óï¿½ï¿½ï¿½á”½ï¿½È‚Ç‚ÌˆÙï¿½nï¿½ï¿½ blancoï¿½ï¿½ï¿½Lï¿½Ì—ï¿½Oï¿½Ö‚Æ‹lï¿½ß‘Ö‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Vï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ PDOï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  PDOExceptionï¿½ï¿½Oï¿½ï¿½ ï¿½ï¿½ï¿½Ì‚Ü‚ÜƒXï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Í•ï¿½ï¿½ï¿½ï¿½ñ‚¨‚ï¿½Ñï¿½ï¿½lï¿½Ì‚Ý‚É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½tï¿½^ï¿½È‚Ç‚Í‘Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ç‚­ ï¿½Kï¿½Ø‚É‚Í“ï¿½ï¿½ì‚µï¿½È‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½)
 </UL>
-<P>blancoDbPhp‚ÌŠJ”­‚É‚ ‚½‚Á‚Ä ‚²‹¦—Í‚¢‚½‚¾‚¢‚½ŠF—l‚ÉA‘å•ÏŠ´ŽÓ‚µ‚Ä‚¢‚Ü‚·B‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B<BR>
-ˆø‚«‘±‚« ‚»‚µ‚Ä‚±‚ê‚Ü‚ÅˆÈã‚É ‚Ý‚È‚³‚Ü‚©‚ç‚ÌƒtƒB[ƒhƒoƒbƒN‚ª blancoDbPhp‚Ì”­“W‚É•K—v‚Å‚·BƒtƒB[ƒhƒoƒbƒN‚ð ‚¨‘Ò‚¿‚µ‚Ä‚¨‚è‚Ü‚·B</P>
-<P><FONT color="#ff00ff">blancoDbPhpƒvƒ‰ƒOƒCƒ“ƒCƒ“ƒXƒg[ƒ‹‚ÉÛ‚µ‚Ä</FONT></P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>Œn‚ÌEclipseƒvƒ‰ƒOƒCƒ“‚ÌƒCƒ“ƒXƒg[ƒ‹‚ÍA‘¼‚Ì blanco Frameworkƒvƒƒ_ƒNƒgŒQ‚ÌƒCƒ“ƒXƒg[ƒ‹‚É”ä‚×‚Ä­‚µŽèŠÔ‚ª‚©‚©‚è‚Ü‚·B</P>
+<P>blancoDbPhpï¿½ÌŠJï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½lï¿½ÉAï¿½ï¿½ÏŠï¿½ï¿½Ó‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ÅˆÈï¿½ï¿½ ï¿½Ý‚È‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Ìƒtï¿½Bï¿½[ï¿½hï¿½oï¿½bï¿½Nï¿½ï¿½ blancoDbPhpï¿½Ì”ï¿½ï¿½Wï¿½É•Kï¿½vï¿½Å‚ï¿½ï¿½Bï¿½tï¿½Bï¿½[ï¿½hï¿½oï¿½bï¿½Nï¿½ï¿½ ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">blancoDbPhpï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ÉÛ‚ï¿½ï¿½ï¿½</FONT></P>
+<P><A HREF="https://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½nï¿½ï¿½Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ blanco Frameworkï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½Qï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½É”ï¿½×‚Äï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>blancoDbPhpƒvƒ‰ƒOƒCƒ“‚Í ‰ð“€‚µ‚Ä Eclipseƒvƒ‰ƒOƒCƒ“ƒtƒHƒ‹ƒ_‚É“WŠJ‚µ‚Ü‚·B
-  <LI>JDBCƒhƒ‰ƒCƒo‚ð ‰ð“€Œã‚Ì blancoDbPhpƒvƒ‰ƒOƒCƒ“‚Ì libƒtƒHƒ‹ƒ_‚ÉŠi”[‚µ‚Ü‚·B
-  <LI>•K—v‚É‰ž‚¶‚Ä METAFILE.MFƒtƒ@ƒCƒ‹‚ð•ÒW‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+  <LI>blancoDbPhpï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ ï¿½ð“€‚ï¿½ï¿½ï¿½ Eclipseï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½É“Wï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ ï¿½ð“€Œï¿½ï¿½ blancoDbPhpï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ libï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ÉŠiï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½Kï¿½vï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½ METAFILE.MFï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ÒWï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P>Ú‚µ‚¢î•ñ‚ªÚ‚Á‚½ƒ`ƒ…[ƒgƒŠƒAƒ‹‚ðì¬‚·‚éŒv‰æ‚Í‚ ‚è‚Ü‚·‚ªAŒ»Žž“_‚Å PHP”Å‚Ìƒ`ƒ…[ƒgƒŠƒAƒ‹‚Í‚ ‚è‚Ü‚¹‚ñBPHP”Åƒ`ƒ…[ƒgƒŠƒAƒ‹‚ª’ñ‹Ÿ‚³‚ê‚é‚Ü‚Å‚ÍA<A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/db/blancoDbTutorial.doc">blancoDb ƒ`ƒ…[ƒgƒŠƒAƒ‹</A>‚È‚Ç‚ðŽQl‚É Šæ’£‚Á‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B</P>
-<P><FONT color="#ff00ff">Ž©“®¶¬‚³‚ê‚éƒ\[ƒXƒR[ƒh‚Ì—á</FONT></P>
-<P>blancoDbPhp‚ðŽg‚¤‚Æ ‰º‹L‚Ì‚æ‚¤‚Èƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚±‚ê‚ç‚Í ƒf[ƒ^ƒx[ƒXƒXƒL[ƒ}‚©‚çŽ©“®¶¬‚³‚ê‚½‚à‚Ì‚Å‚·B(Simple‚©‚çŽn‚Ü‚é‚à‚Ì‚ÍASQL’è‹`‘‚Ì‹L“ü‚ð”º‚í‚¸‚ÉŽ©“®¶¬‚³‚ê‚½ƒ\[ƒXƒR[ƒh‚Å‚·)</P>
+<P>ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚ªÚ‚ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ PHPï¿½Å‚Ìƒ`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½BPHPï¿½Åƒ`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ÍA<A href="http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/*checkout*/blancofw/blancoMisc/doc/db/blancoDbTutorial.doc">blancoDb ï¿½`ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½Aï¿½ï¿½</A>ï¿½È‚Ç‚ï¿½ï¿½Qï¿½lï¿½ï¿½ ï¿½æ’£ï¿½ï¿½ï¿½ÄƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì—ï¿½</FONT></P>
+<P>blancoDbPhpï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½Èƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Xï¿½Lï¿½[ï¿½}ï¿½ï¿½ï¿½çŽ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B(Simpleï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½ï¿½ï¿½Ì‚ÍASQLï¿½ï¿½`ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ð”º‚í‚¸ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Å‚ï¿½)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">ŒŸõŒ^‚Ì—á</TD>
+      <TD bgcolor="#ffff00">ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Ì—ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -115,64 +115,64 @@ require_once('myapp/db/row/SimpleAuthorSelectRow.php');
 /*. require_module 'standard'; .*/;
 
 /**
- * SimpleAuthorSelectIteratorƒNƒ‰ƒX
+ * SimpleAuthorSelectIteratorï¿½Nï¿½ï¿½ï¿½X
  *
- * QueryIterator‚É‘®‚·‚éƒNƒ‰ƒX‚Å‚·B
- * ŒŸõŒ^SQL•¶‚ðƒ‰ƒbƒsƒ“ƒO‚µ‚ÄŠeŽíƒAƒNƒZƒT‚ð’ñ‹Ÿ‚µ‚Ü‚·B
- * ƒVƒ“ƒOƒ‹‘®«: —LŒø (Šú‘Ò‚·‚éˆ—Œ”‚Í1Œ)
+ * QueryIteratorï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½Å‚ï¿½ï¿½B
+ * ï¿½ï¿½ï¿½ï¿½ï¿½^SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ÄŠeï¿½ï¿½Aï¿½Nï¿½Zï¿½Tï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ * ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½Lï¿½ï¿½ (ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½)
  */
 class SimpleAuthorSelectIterator {
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚ª“à•”“I‚É—˜—p‚·‚éƒf[ƒ^ƒx[ƒXÚ‘±ƒIƒuƒWƒFƒNƒgB
+     * ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½B
      *
      *
-     * ƒf[ƒ^ƒx[ƒXÚ‘±ƒIƒuƒWƒFƒNƒg‚ÍƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Ìˆø”‚Æ‚µ‚ÄŠO•”‚©‚ç—^‚¦‚ç‚ê‚Ü‚·B
+     * ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ÍƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Ìˆï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÄŠOï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     protected /*.PDO.*/ $fConnection;
 
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚ª“à•”“I‚É—˜—p‚·‚éƒXƒe[ƒgƒƒ“ƒgƒIƒuƒWƒFƒNƒgB
+     * ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½B
      *
      *
-     * ‚±‚ÌƒIƒuƒWƒFƒNƒg‚Í“à•”“I‚É—˜—p‚³‚ê‚Ü‚·B
+     * ï¿½ï¿½ï¿½ÌƒIï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Í“ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     protected /*.PDOStatement.*/ $fStatement;
 
     /**
-     * Œ»ÝƒtƒFƒbƒ`‚µ‚Ä‚¢‚és‚Ì“à—eB
+     * ï¿½ï¿½ï¿½Ýƒtï¿½Fï¿½bï¿½`ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½sï¿½Ì“ï¿½ï¿½eï¿½B
      */
     protected /*.array.*/ $fCurrentRow;
 
     /**
-     * SimpleAuthorSelectIteratorƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Å‚·B
+     * SimpleAuthorSelectIteratorï¿½Nï¿½ï¿½ï¿½Xï¿½ÌƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Å‚ï¿½ï¿½B
      *
-     * ¦’ˆÓFƒNƒ‰ƒX‚ð—˜—pŒãAÅŒã‚É•K‚¸close()ƒƒ\ƒbƒh‚ðŒÄ‚Ño‚·•K—v‚ª‚ ‚è‚Ü‚·B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ÓFï¿½Nï¿½ï¿½ï¿½Xï¿½ð—˜—pï¿½ï¿½Aï¿½ÅŒï¿½É•Kï¿½ï¿½close()ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param PDO $connection ƒf[ƒ^ƒx[ƒXÚ‘±
+     * @param PDO $connection ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½
      */
     public /*.void.*/ function __construct(/*.PDO.*/ $connection) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.SimpleAuthorSelectIterator ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.SimpleAuthorSelectIterator ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[1]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if ($connection instanceof pdo.PDO === FALSE) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.SimpleAuthorSelectIterator ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[pdo.PDO]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . get_class($connection) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.SimpleAuthorSelectIterator ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[pdo.PDO]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . get_class($connection) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;fConnection = $connection;
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌŽæ“¾ƒƒ\ƒbƒh
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½ÌŽæ“¾ï¿½ï¿½ï¿½\ï¿½bï¿½h
      *
-     * ŽÀÛ‚ÉŽÀs‚·‚éSQL•¶‚ð–ß‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Û‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @return string ŽÀÛ‚ÉŽÀs‚³‚ê‚éSQL•¶
+     * @return string ï¿½ï¿½ï¿½Û‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½
      */
     public /*.string.*/ function getQuery() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getQuery ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getQuery ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $buf = 'SELECT ';
@@ -189,14 +189,14 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * —˜—p‚³‚ê‚Ä‚¢‚½ƒf[ƒ^ƒx[ƒXƒŠƒ\[ƒX‚ðŠJ•ú‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒNƒ‰ƒX‚Ì—˜—p‚ªI‚í‚Á‚½Û‚É•K‚¸‚±‚Ìƒƒ\ƒbƒh‚ðŒÄ‚Ño‚µ‚Ä‚­‚¾‚³‚¢B
+     * ï¿½Nï¿½ï¿½ï¿½Xï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É•Kï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      */
     public /*.void.*/ function close() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.close ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.close ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;fCurrentRow = NULL;
@@ -208,21 +208,21 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌƒvƒŠƒRƒ“ƒpƒCƒ‹‚É‘Š“–‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * “®“I‚É“à—e‚ª•Ï‰»‚·‚é‚æ‚¤‚ÈSQL‚ðŽÀs‚·‚é•K—v‚ª‚ ‚éê‡‚É‚Ì‚ÝA‚±‚¿‚ç‚Ìƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ü‚·B
-     * ¦SQL•¶‚»‚Ì‚à‚Ì‚ðƒpƒ‰ƒ[ƒ^‚Æ‚µ‚Ä—^‚¦‚é‚±‚Æ‚ª‚Å‚«‚ÄŽ©—R“x‚ª‚‚¢ˆê•ûASQLƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚ÆŒÄ‚Î‚ê‚éƒZƒLƒ…ƒŠƒeƒBƒz[ƒ‹‚ª”­¶‚·‚éŠëŒ¯‚ª‚ ‚é“_‚É’ˆÓ‚µ‚½ã‚Å—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
-     * “à•”“I‚É‚Í SQL•¶‚ðƒtƒB[ƒ‹ƒh•Ï”‚É‹L‰¯‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Iï¿½É“ï¿½ï¿½eï¿½ï¿½ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚Ì‚ÝAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Æ‚ï¿½ï¿½Ä—^ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ÄŽï¿½ï¿½Rï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ASQLï¿½Cï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½zï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëŒ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É’ï¿½ï¿½Ó‚ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É‚ï¿½ SQLï¿½ï¿½ï¿½ï¿½ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ïï¿½ï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param string $query —˜—p‚µ‚½‚¢ƒNƒGƒŠ(SQL•¶)
+     * @param string $query ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½Gï¿½ï¿½(SQLï¿½ï¿½)
      */
     public /*.void.*/ function prepareStatementSql(/*.string.*/ $query) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatementSql ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatementSql ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[1]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($query) !== 'string' &amp;&amp; gettype($query) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatementSql ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($query) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatementSql ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[string]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($query) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;close();
@@ -230,14 +230,14 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌƒvƒŠƒRƒ“ƒpƒCƒ‹‚ðŽÀŽ{‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ‚ ‚ç‚©‚¶‚ß—^‚¦‚ç‚ê‚Ä‚¢‚½ƒNƒGƒŠ(SQL•¶)‚ð—˜—p‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ß—^ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Nï¿½Gï¿½ï¿½(SQLï¿½ï¿½)ï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     public /*.void.*/ function prepareStatement() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatement ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.prepareStatement ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;close();
@@ -245,55 +245,55 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * ƒNƒGƒŠ‚É—^‚¦‚é“ü—Íƒpƒ‰ƒ[ƒ^‚ðƒZƒbƒg‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½É—^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param integer $inParamAuthorCode 'inParamAuthorCode' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[INTEGER]
+     * @param integer $inParamAuthorCode 'inParamAuthorCode' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[INTEGER]
      */
     public /*.void.*/ function setInputParameter(/*.int.*/ $inParamAuthorCode) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.setInputParameter ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.setInputParameter ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[1]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamAuthorCode) !== 'integer' &amp;&amp; gettype($inParamAuthorCode) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.setInputParameter ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[integer]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamAuthorCode) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.setInputParameter ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[integer]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamAuthorCode) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fStatement == NULL) {
             $this-&gt;prepareStatement();
         }
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamAuthorCode]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamAuthorCode]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamAuthorCode', $inParamAuthorCode, PDO::PARAM_INT);
     }
 
     /**
-     * ŒŸõŒ^ƒNƒGƒŠ‚ðŽÀs‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     public /*.void.*/ function executeQuery() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.executeQuery ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.executeQuery ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fStatement == NULL) {
             $this-&gt;prepareStatement();
         }
-        // TODO —áŠOˆ—‚ªŽÀ‘•‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+        // TODO ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
         $result = $this-&gt;fStatement-&gt;execute();
     }
 
     /**
-     * ƒJ[ƒ\ƒ‹‚ðŒ»Ý‚ÌˆÊ’u‚©‚ç1sŽŸ‚ÖˆÚ“®‚µ‚Ü‚·B
+     * ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ÌˆÊ’uï¿½ï¿½ï¿½ï¿½1ï¿½sï¿½ï¿½ï¿½ÖˆÚ“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
      *
-     * ƒVƒ“ƒOƒ‹‘®«‚ª—LŒø‚È‚Ì‚ÅƒXƒR[ƒv‚ðprotected‚Æ‚µ‚Ü‚·B
+     * ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½È‚Ì‚ÅƒXï¿½Rï¿½[ï¿½vï¿½ï¿½protectedï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @return boolean V‚µ‚¢Œ»Ý‚Ìs‚ª—LŒø‚Èê‡‚ÍTRUEA‚»‚êˆÈã‚Ìs‚ª‚È‚¢ê‡‚ÍFALSEB
+     * @return boolean ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ìsï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Èê‡ï¿½ï¿½TRUEï¿½Aï¿½ï¿½ï¿½ï¿½Èï¿½Ìsï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½FALSEï¿½B
      */
     protected /*.boolean.*/ function next() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.next ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.next ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fCurrentRow == NULL) {
@@ -309,17 +309,17 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * Œ»Ý‚Ìs‚Ìƒf[ƒ^‚ðƒIƒuƒWƒFƒNƒg‚Æ‚µ‚ÄŽæ“¾‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Ý‚Ìsï¿½Ìƒfï¿½[ï¿½^ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Æ‚ï¿½ï¿½ÄŽæ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒVƒ“ƒOƒ‹‘®«‚ª—LŒø‚È‚Ì‚ÅƒXƒR[ƒv‚ðprotected‚Æ‚µ‚Ü‚·B
-     * ‚±‚Ìƒƒ\ƒbƒh‚Ì‘ã‚í‚è‚É GetSingleRowƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
+     * ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½È‚Ì‚ÅƒXï¿½Rï¿½[ï¿½vï¿½ï¿½protectedï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ GetSingleRowï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      *
-     * @return SimpleAuthorSelectRow sƒIƒuƒWƒFƒNƒg
+     * @return SimpleAuthorSelectRow ï¿½sï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½g
      */
     protected /*.SimpleAuthorSelectRow.*/ function getRow() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getRow ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getRow ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $result = new SimpleAuthorSelectRow();
@@ -333,46 +333,46 @@ class SimpleAuthorSelectIterator {
     }
 
     /**
-     * Œ»Ý‚Ìs‚Ìƒf[ƒ^‚ðƒIƒuƒWƒFƒNƒg‚Æ‚µ‚ÄŽæ“¾‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Ý‚Ìsï¿½Ìƒfï¿½[ï¿½^ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Æ‚ï¿½ï¿½ÄŽæ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ‚±‚Ìƒƒ\ƒbƒh‚ð—˜—p‚·‚éê‡‚É‚ÍAnext()‚È‚Ç‚ÌƒJ[ƒ\ƒ‹‚ð‘€ì‚·‚éƒƒ\ƒbƒh‚Æ‚Í•¹—p‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍAnext()ï¿½È‚Ç‚ÌƒJï¿½[ï¿½\ï¿½ï¿½ï¿½ð‘€ì‚·ï¿½éƒï¿½\ï¿½bï¿½hï¿½Æ‚Í•ï¿½ï¿½pï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      *
-     * single‘®«‚ª—LŒø
-     * ŒŸõŒ‹‰Ê‚ª1ŒˆÈŠO‚Ìê‡‚É‚ÍANotSingleRowExceptionƒNƒ‰ƒX‚ð
-     * ”h¶‚µ‚½ƒNƒ‰ƒX‚Ì—áŠO‚ª”­¶‚µ‚Ü‚·B
+     * singleï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½1ï¿½ï¿½ï¿½ÈŠOï¿½Ìê‡ï¿½É‚ÍANotSingleRowExceptionï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½
+     * ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½Ì—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @return SimpleAuthorSelectRow sƒIƒuƒWƒFƒNƒg
+     * @return SimpleAuthorSelectRow ï¿½sï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½g
      */
     public /*.SimpleAuthorSelectRow.*/ function getSingleRow() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getSingleRow ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getSingleRow ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;next() == FALSE) {
-            throw new NoRowFoundException(&quot;s‚ªŒŸõ‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B&quot;);
+            throw new NoRowFoundException(&quot;ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B&quot;);
         }
 
         $result = $this-&gt;getRow();
 
         if ($this-&gt;next()) {
-            throw new TooManyRowsFoundException(&quot;1ŒˆÈã‚Ìs‚ªŒŸõ‚³‚ê‚Ü‚µ‚½B&quot;);
+            throw new TooManyRowsFoundException(&quot;1ï¿½ï¿½ï¿½Èï¿½Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B&quot;);
         }
 
         return $result;
     }
 
     /**
-     * ƒXƒe[ƒgƒƒ“ƒg (PDOStatement) ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½g (PDOStatement) ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ‚±‚Ìƒƒ\ƒbƒh‚ðŒÄ‚Ño‚·‚±‚Æ‚Í„§‚³‚ê‚Ü‚¹‚ñBˆê”Ê“I‚É Statement‚ð’¼Ú—˜—p‚·‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
+     * ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½Ê“Iï¿½ï¿½ Statementï¿½ð’¼Ú—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
      *
-     * @return PDOStatement StatementƒIƒuƒWƒFƒNƒg
+     * @return PDOStatement Statementï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½g
      */
     public /*.PDOStatement.*/ function getStatement() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getStatement ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorSelectIterator.getStatement ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         return $this-&gt;fStatement;
@@ -387,7 +387,7 @@ class SimpleAuthorSelectIterator {
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">ŽÀsŒ^‚Ì—á</TD>
+      <TD bgcolor="#ffff00">ï¿½ï¿½ï¿½sï¿½^ï¿½Ì—ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -408,59 +408,59 @@ require_once('myapp/db/exception/TooManyRowsModifiedException.php');
 /*. require_module 'standard'; .*/;
 
 /**
- * SimpleAuthorInsertInvokerƒNƒ‰ƒX
+ * SimpleAuthorInsertInvokerï¿½Nï¿½ï¿½ï¿½X
  *
- * QueryInvoker‚É‘®‚·‚éƒNƒ‰ƒX‚Å‚·B
- * ŽÀsŒ^SQL•¶‚ðƒ‰ƒbƒsƒ“ƒO‚µ‚ÄŠeŽíƒAƒNƒZƒT‚ð’ñ‹Ÿ‚µ‚Ü‚·B
- * ƒVƒ“ƒOƒ‹‘®«: —LŒø (Šú‘Ò‚·‚éˆ—Œ”‚Í1Œ)
+ * QueryInvokerï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½Å‚ï¿½ï¿½B
+ * ï¿½ï¿½ï¿½sï¿½^SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ÄŠeï¿½ï¿½Aï¿½Nï¿½Zï¿½Tï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ * ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½Lï¿½ï¿½ (ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½)
  */
 class SimpleAuthorInsertInvoker {
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚ª“à•”“I‚É—˜—p‚·‚éƒf[ƒ^ƒx[ƒXÚ‘±ƒIƒuƒWƒFƒNƒgB
+     * ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½B
      *
      *
-     * ƒf[ƒ^ƒx[ƒXÚ‘±ƒIƒuƒWƒFƒNƒg‚ÍƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Ìˆø”‚Æ‚µ‚ÄŠO•”‚©‚ç—^‚¦‚ç‚ê‚Ü‚·B
+     * ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ÍƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Ìˆï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÄŠOï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     protected /*.PDO.*/ $fConnection;
 
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚ª“à•”“I‚É—˜—p‚·‚éƒXƒe[ƒgƒƒ“ƒgƒIƒuƒWƒFƒNƒgB
+     * ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½gï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½B
      *
      *
-     * ‚±‚ÌƒIƒuƒWƒFƒNƒg‚Í“à•”“I‚É—˜—p‚³‚ê‚Ü‚·B
+     * ï¿½ï¿½ï¿½ÌƒIï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Í“ï¿½ï¿½ï¿½ï¿½Iï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     protected /*.PDOStatement.*/ $fStatement;
 
     /**
-     * SimpleAuthorInsertInvokerƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Å‚·B
+     * SimpleAuthorInsertInvokerï¿½Nï¿½ï¿½ï¿½Xï¿½ÌƒRï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^ï¿½Å‚ï¿½ï¿½B
      *
-     * ¦’ˆÓFƒNƒ‰ƒX‚ð—˜—pŒãAÅŒã‚É•K‚¸close()ƒƒ\ƒbƒh‚ðŒÄ‚Ño‚·•K—v‚ª‚ ‚è‚Ü‚·B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ÓFï¿½Nï¿½ï¿½ï¿½Xï¿½ð—˜—pï¿½ï¿½Aï¿½ÅŒï¿½É•Kï¿½ï¿½close()ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param PDO $connection ƒf[ƒ^ƒx[ƒXÚ‘±
+     * @param PDO $connection ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½
      */
     public /*.void.*/ function __construct(/*.PDO.*/ $connection) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.SimpleAuthorInsertInvoker ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.SimpleAuthorInsertInvoker ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[1]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if ($connection instanceof pdo.PDO === FALSE) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.SimpleAuthorInsertInvoker ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[pdo.PDO]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . get_class($connection) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.SimpleAuthorInsertInvoker ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[pdo.PDO]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . get_class($connection) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;fConnection = $connection;
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌŽæ“¾ƒƒ\ƒbƒh
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½ÌŽæ“¾ï¿½ï¿½ï¿½\ï¿½bï¿½h
      *
-     * ŽÀÛ‚ÉŽÀs‚·‚éSQL•¶‚ð–ß‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Û‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @return string ŽÀÛ‚ÉŽÀs‚³‚ê‚éSQL•¶
+     * @return string ï¿½ï¿½ï¿½Û‚ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½
      */
     public /*.string.*/ function getQuery() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.getQuery ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.getQuery ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $buf = 'INSERT ';
@@ -483,14 +483,14 @@ class SimpleAuthorInsertInvoker {
     }
 
     /**
-     * —˜—p‚³‚ê‚Ä‚¢‚½ƒf[ƒ^ƒx[ƒXƒŠƒ\[ƒX‚ðŠJ•ú‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒNƒ‰ƒX‚Ì—˜—p‚ªI‚í‚Á‚½Û‚É•K‚¸‚±‚Ìƒƒ\ƒbƒh‚ðŒÄ‚Ño‚µ‚Ä‚­‚¾‚³‚¢B
+     * ï¿½Nï¿½ï¿½ï¿½Xï¿½Ì—ï¿½ï¿½pï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É•Kï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      */
     public /*.void.*/ function close() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.close ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.close ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fStatement != NULL) {
@@ -500,21 +500,21 @@ class SimpleAuthorInsertInvoker {
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌƒvƒŠƒRƒ“ƒpƒCƒ‹‚É‘Š“–‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * “®“I‚É“à—e‚ª•Ï‰»‚·‚é‚æ‚¤‚ÈSQL‚ðŽÀs‚·‚é•K—v‚ª‚ ‚éê‡‚É‚Ì‚ÝA‚±‚¿‚ç‚Ìƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ü‚·B
-     * ¦SQL•¶‚»‚Ì‚à‚Ì‚ðƒpƒ‰ƒ[ƒ^‚Æ‚µ‚Ä—^‚¦‚é‚±‚Æ‚ª‚Å‚«‚ÄŽ©—R“x‚ª‚‚¢ˆê•ûASQLƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚ÆŒÄ‚Î‚ê‚éƒZƒLƒ…ƒŠƒeƒBƒz[ƒ‹‚ª”­¶‚·‚éŠëŒ¯‚ª‚ ‚é“_‚É’ˆÓ‚µ‚½ã‚Å—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
-     * “à•”“I‚É‚Í SQL•¶‚ðƒtƒB[ƒ‹ƒh•Ï”‚É‹L‰¯‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½Iï¿½É“ï¿½ï¿½eï¿½ï¿½ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚Ì‚ÝAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½ï¿½SQLï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Æ‚ï¿½ï¿½Ä—^ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ÄŽï¿½ï¿½Rï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ASQLï¿½Cï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Î‚ï¿½ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½zï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëŒ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É’ï¿½ï¿½Ó‚ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+     * ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É‚ï¿½ SQLï¿½ï¿½ï¿½ï¿½ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ïï¿½ï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param string $query —˜—p‚µ‚½‚¢ƒNƒGƒŠ(SQL•¶)
+     * @param string $query ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½Gï¿½ï¿½(SQLï¿½ï¿½)
      */
     public /*.void.*/ function prepareStatementSql(/*.string.*/ $query) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatementSql ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatementSql ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[1]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($query) !== 'string' &amp;&amp; gettype($query) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatementSql ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($query) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatementSql ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[string]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($query) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;close();
@@ -522,14 +522,14 @@ class SimpleAuthorInsertInvoker {
     }
 
     /**
-     * ƒNƒGƒŠ‚ÌƒvƒŠƒRƒ“ƒpƒCƒ‹‚ðŽÀŽ{‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ‚ ‚ç‚©‚¶‚ß—^‚¦‚ç‚ê‚Ä‚¢‚½ƒNƒGƒŠ(SQL•¶)‚ð—˜—p‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ß—^ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Nï¿½Gï¿½ï¿½(SQLï¿½ï¿½)ï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     public /*.void.*/ function prepareStatement() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatement ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.prepareStatement ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $this-&gt;close();
@@ -537,117 +537,117 @@ class SimpleAuthorInsertInvoker {
     }
 
     /**
-     * ƒNƒGƒŠ‚É—^‚¦‚é“ü—Íƒpƒ‰ƒ[ƒ^‚ðƒZƒbƒg‚µ‚Ü‚·B
+     * ï¿½Nï¿½Gï¿½ï¿½ï¿½É—^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * @param integer $inParamAuthorCode 'inParamAuthorCode' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[INTEGER]
-     * @param string $inParamAuthorName 'inParamAuthorName' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[VARCHAR]
-     * @param string $inParamAuthorNameKana 'inParamAuthorNameKana' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[VARCHAR]
-     * @param string $inParamDateOfBirth 'inParamDateOfBirth' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[DATE]
-     * @param integer $inParamGenderCode 'inParamGenderCode' SQL“ü—Íƒpƒ‰ƒ[ƒ^BDBã‚ÌŒ^‚Í[INTEGER]
+     * @param integer $inParamAuthorCode 'inParamAuthorCode' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[INTEGER]
+     * @param string $inParamAuthorName 'inParamAuthorName' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[VARCHAR]
+     * @param string $inParamAuthorNameKana 'inParamAuthorNameKana' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[VARCHAR]
+     * @param string $inParamDateOfBirth 'inParamDateOfBirth' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[DATE]
+     * @param integer $inParamGenderCode 'inParamGenderCode' SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½BDBï¿½ï¿½ÌŒ^ï¿½ï¿½[INTEGER]
      */
     public /*.void.*/ function setInputParameter(/*.int.*/ $inParamAuthorCode, /*.string.*/ $inParamAuthorName, /*.string.*/ $inParamAuthorNameKana, /*.string.*/ $inParamDateOfBirth, /*.int.*/ $inParamGenderCode) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 5) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ìƒpƒ‰ƒ[ƒ^‚Í[5]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[5]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamAuthorCode) !== 'integer' &amp;&amp; gettype($inParamAuthorCode) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[integer]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamAuthorCode) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½ï¿½1ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[integer]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamAuthorCode) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamAuthorName) !== 'string' &amp;&amp; gettype($inParamAuthorName) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamAuthorName) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½ï¿½2ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[string]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamAuthorName) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamAuthorNameKana) !== 'string' &amp;&amp; gettype($inParamAuthorNameKana) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ì3”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamAuthorNameKana) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½ï¿½3ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[string]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamAuthorNameKana) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamDateOfBirth) !== 'string' &amp;&amp; gettype($inParamDateOfBirth) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ì4”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamDateOfBirth) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½ï¿½4ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[string]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamDateOfBirth) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
         if (gettype($inParamGenderCode) !== 'integer' &amp;&amp; gettype($inParamGenderCode) !== 'NULL') {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ‚Ì5”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[integer]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($inParamGenderCode) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.setInputParameter ï¿½ï¿½5ï¿½Ô–Ú‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[integer]ï¿½^ï¿½Å‚È‚ï¿½ï¿½Ä‚Í‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . gettype($inParamGenderCode) . ']ï¿½^ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fStatement == NULL) {
             $this-&gt;prepareStatement();
         }
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamAuthorCode]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamAuthorCode]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamAuthorCode', $inParamAuthorCode, PDO::PARAM_INT);
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamAuthorName]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamAuthorName]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamAuthorName', $inParamAuthorName, PDO::PARAM_STR);
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamAuthorNameKana]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamAuthorNameKana]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamAuthorNameKana', $inParamAuthorNameKana, PDO::PARAM_STR);
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamDateOfBirth]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamDateOfBirth]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamDateOfBirth', $inParamDateOfBirth, PDO::PARAM_STR);
 
-        // SQL“ü—Íƒpƒ‰ƒ[ƒ^[inParamGenderCode]‚ðÝ’è‚µ‚Ü‚·B
+        // SQLï¿½ï¿½ï¿½Íƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^[inParamGenderCode]ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
         $this-&gt;fStatement-&gt;bindParam(':inParamGenderCode', $inParamGenderCode, PDO::PARAM_INT);
     }
 
     /**
-     * ŽÀsŒ^ƒNƒGƒŠ‚ðŽÀs‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½sï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒf[ƒ^ƒx[ƒX‚Ì§–ñˆá”½‚ª”­¶‚µ‚½ê‡‚É‚Í IntegrityConstraintException —áŠO‚ª”­¶‚µ‚Ü‚·B
+     * ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ìï¿½ï¿½ï¿½á”½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ï¿½ IntegrityConstraintException ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒVƒ“ƒOƒ‹‘®«‚ª—LŒø‚È‚Ì‚ÅƒXƒR[ƒv‚ðprotected‚Æ‚µ‚Ü‚·B
-     * ‚±‚Ìƒƒ\ƒbƒh‚Ì‘ã‚í‚è‚É ExecuteSingleUpdateƒƒ\ƒbƒh‚ð—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
+     * ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½È‚Ì‚ÅƒXï¿½Rï¿½[ï¿½vï¿½ï¿½protectedï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ ExecuteSingleUpdateï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      *
-     * @return integer ˆ—‚³‚ê‚½s”
+     * @return integer ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½sï¿½ï¿½
      */
     protected /*.int.*/ function executeUpdate() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.executeUpdate ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.executeUpdate ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         if ($this-&gt;fStatement == NULL) {
-            // PreparedStatement‚ª–¢Žæ“¾‚Ìó‘Ô‚È‚Ì‚ÅAExecuteNonQuery()ŽÀs‚Éæ—§‚¿PrepareStatement()ƒƒ\ƒbƒh‚ðŒÄ‚Ño‚µ‚ÄŽæ“¾‚µ‚Ü‚·B
+            // PreparedStatementï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½Ìï¿½Ô‚È‚Ì‚ÅAExecuteNonQuery()ï¿½ï¿½ï¿½sï¿½Éæ—§ï¿½ï¿½PrepareStatement()ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ÄŽæ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
             $this-&gt;prepareStatement();
         }
 
-        // TODO —áŠOˆ—‚ª“ü‚Á‚Ä‚¢‚Ü‚¹‚ñB
+        // TODO ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
         $result = $this-&gt;fStatement-&gt;execute();
         return $this-&gt;fStatement-&gt;rowCount();
     }
 
     /**
-     * ŽÀsŒ^ƒNƒGƒŠ‚ðŽÀs‚µ‚Ü‚·B
+     * ï¿½ï¿½ï¿½sï¿½^ï¿½Nï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ƒf[ƒ^ƒx[ƒX‚Ì§–ñˆá”½‚ª”­¶‚µ‚½ê‡‚É‚Í IntegrityConstraintException —áŠO‚ª”­¶‚µ‚Ü‚·B
+     * ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ìï¿½ï¿½ï¿½á”½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ï¿½ IntegrityConstraintException ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * single‘®«‚ª—LŒø
-     * ŽÀsŒ‹‰Ê‚ª1ŒˆÈŠO‚Ìê‡‚É‚ÍANotSingleRowExceptionƒNƒ‰ƒX‚ð
-     * ”h¶‚µ‚½ƒNƒ‰ƒX‚Ì—áŠO‚ª”­¶‚µ‚Ü‚·B
+     * singleï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½
+     * ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ê‚ï¿½1ï¿½ï¿½ï¿½ÈŠOï¿½Ìê‡ï¿½É‚ÍANotSingleRowExceptionï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½
+     * ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½Ì—ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      */
     public /*.void.*/ function executeSingleUpdate() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.executeSingleUpdate ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.executeSingleUpdate ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         $result = $this-&gt;executeUpdate();
 
         if ($result == 0) {
-            throw new NoRowModifiedException(&quot;s‚ªˆêŒ‚à•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B&quot;);
+            throw new NoRowModifiedException(&quot;ï¿½sï¿½ï¿½ï¿½êŒï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B&quot;);
         } else if ($result &gt; 1) {
-            $message = &quot;ˆêŒ‚ð’´‚¦‚és‚ª•ÏX‚³‚ê‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½B‰e‹¿‚Ì‚ ‚Á‚½Œ”:&quot; . $result;
+            $message = &quot;ï¿½êŒï¿½ð’´‚ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½eï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:&quot; . $result;
             throw new TooManyRowsModifiedException($message);
         }
     }
 
     /**
-     * ƒXƒe[ƒgƒƒ“ƒg (PDOStatement) ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½g (PDOStatement) ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
      *
-     * ‚±‚Ìƒƒ\ƒbƒh‚ðŒÄ‚Ño‚·‚±‚Æ‚Í„§‚³‚ê‚Ü‚¹‚ñBˆê”Ê“I‚É Statement‚ð’¼Ú—˜—p‚·‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
+     * ï¿½ï¿½ï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½Ê“Iï¿½ï¿½ Statementï¿½ð’¼Ú—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
      *
-     * @return PDOStatement StatementƒIƒuƒWƒFƒNƒg
+     * @return PDOStatement Statementï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½g
      */
     public /*.PDOStatement.*/ function getStatement() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìï¿½ï¿½Aï¿½^ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.getStatement ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: SimpleAuthorInsertInvoker.getStatement ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½[0]ï¿½Â‚Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ï¿½[' . func_num_args() .  ']ï¿½Â‚Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ð”º‚ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B');
         }
 
         return $this-&gt;fStatement;
@@ -660,7 +660,7 @@ class SimpleAuthorInsertInvoker {
 </TABLE>
 </BLOCKQUOTE>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>
