@@ -30,12 +30,13 @@
 
 ## 職業
 
+* 会社設立者のひとりであり取締役です。
 * 月給会社員です。
-* 東京・青山一丁目にある [株式会社ウィプロ・アピリオ](http://appirio.co.jp/) に勤務しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
+* [株式会社レザボア・コンサルティング](https://reservoir.design/) を運営しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6649888&lon=139.7024356&layers=00BFF)
 
 ## 職種
 
-* 情報処理技術者。Java言語および関連技術を得意とします。
+* 情報処理技術者。Java/Spring Boot、Salesforceカスタム開発、および関連技術を得意とします。
   * ソースコードや設定ファイルなどの自動生成系を得意としています。
 * テクニカルライターという役割も担います。
 * オープンソースへの関与
@@ -67,26 +68,15 @@
 
 * ヴァイオリン演奏 (弦楽四重奏およびオーケストラ)
 * オープンソース・プログラミング
+* 廉価音響機器機器
 * 日記エンジン開発 [igapyonv3](../keyword/igapyonv3.html)
 * 囲碁
   * 於：日本棋院
   * 2009.04 1級  
-  * 2008.10 初段で大会参加
-  * 2007.10  2級で大会参加
-  * 2007.09 2級
-  * 2007.04 4級
-  * 2007.02 6級
   * 2006.12 囲碁を始める
 * 将棋
   * 於：日本将棋連盟 東京将棋会館道場
   * 2008.04 1級
-  * 2006.12 2級
-  * 2006.09 4級
-  * 2006.05 6級
-  * 2007.10
-    * 久しぶりに将棋を指したところ、2級と認定していただきました。半年以上指していなかったのですが、意外にも棋力が残っていてびっくりしました。定跡を一切忘れてしまっていたので、逆に盤面に集中でき、功を奏したように感じました。また、囲碁が強くなった分、引きずられて将棋も強くなっているような気がしました。
-  * 2007.04
-    *子どもの趣味が囲碁に移り、それに合わせて私も囲碁に移ってしまい、将棋は ほとんど指していません。おそらく3級くらいまで技術が落ちています。
 * 参考
   * 中将棋 2008.01 初段
 
@@ -151,7 +141,8 @@
 
 ### ログ(主なもの)
 
-* [北区民オーケストラ](http://www.kitabunka.or.jp/kitaku_info/rlink/work-kumin-orchestra) (東京都) (2009-)
+* [NTTフィルハーモニー交響楽団](http://www.nttphil.org/) (東京都) (2013-)
+* [北区民オーケストラ](http://www.kitabunka.or.jp/kitaku_info/rlink/work-kumin-orchestra) (東京都) (2009...)
 * [戸田交響楽団](http://www.todakyo.com/) (2006)
 * [俊友会管弦楽団](http://www.shunyukai.jp/) (2004/09-2006/02)
 * [堺フィルハーモニー交響楽団](http://orchestra.musicinfo.co.jp/~sakai-ph/)
@@ -225,4 +216,4 @@
 ## この日記について
 
 * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COSS%2Cblancofw%2Cigapyonv3&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93+%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html) / [top](../index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
-* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 
+* 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

@@ -4,6 +4,24 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2022-12-31 diary: Diary title here</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2022/ig221231.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2022/ig221231.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
+    <title>2022-09-01 diary: 株式会社レザボア・コンサルティングを設立</title>
+    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2022/ig220901.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>http://www.igapyon.jp/igapyon/diary/2022/ig220901.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)</title>
     <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2022/ig220402.html" />
     <author>
@@ -118,24 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>http://www.igapyon.jp/igapyon/diary/2021/ig210513.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2021-05-12 diary: [Oiyokan] Unsupported features in Oiyokan v1.14</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2021/ig210512.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2021/ig210512.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2021-05-11 diary: [Oiyokan] Getting Started Oiyokan Initializr (v0.5)</title>
-    <link rel="alternate" href="http://www.igapyon.jp/igapyon/diary/2021/ig210511.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>http://www.igapyon.jp/igapyon/diary/2021/ig210511.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

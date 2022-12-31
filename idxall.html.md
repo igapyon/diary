@@ -37,6 +37,8 @@
 
 ### 全ての日記 ([Feed](http://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2022-12-31 diary: Diary title here](2022/ig221231.html)
+* [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](2022/ig220901.html)
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220305.html)
@@ -2106,4 +2108,4 @@
 ## この日記について
 
 * [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E6%97%A5%E8%A8%98%E3%82%92%E5%85%A8%E3%81%A6&url=http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fidxall.html) / [top](index.html) / [いがぴょんについて](http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
-* 本サイトの見解は、私 個人のものであり、Wipro は当個人的見解に一切責任を持ちません。 
+* 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 
