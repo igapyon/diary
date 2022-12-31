@@ -29,16 +29,11 @@
 
 [![いがぴょん](https://www.igapyon.jp/igapyon/diary/images/iga200306.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)
 
-### 自分用の簡便リンク
-
-* Google 検索: [いがぴょん](https://www.google.co.jp/#pws=0&q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93) / [igapyon](https://www.google.co.jp/#pws=0&q=igapyon) / [伊賀 敏樹](https://www.google.co.jp/#pws=0&q=%E4%BC%8A%E8%B3%80+%E6%95%8F%E6%A8%B9)
-* Twitter 検索: [いがぴょん](https://twitter.com/search?q=%23%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93) / [igapyon](https://twitter.com/search?q=%23igapyon) / [伊賀 敏樹](https://twitter.com/search?q=%E4%BC%8A%E8%B3%80+%E6%95%8F%E6%A8%B9)
-
 ## 職業
 
-* 会社設立者のひとりであり取締役です。
-* 月給会社員です。
-* [株式会社レザボア・コンサルティング](https://reservoir.design/) を運営しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6649888&lon=139.7024356&layers=00BFF)
+* [株式会社レザボア・コンサルティング](https://reservoir.design/) の設立者であり取締役です
+    * [会社所在地](https://www.google.co.jp/maps/@35.6649888,139.7024356,16z)
+* プログラマー、ITコンサルタントです
 
 ## 職種
 
@@ -74,7 +69,7 @@
 
 * ヴァイオリン演奏 (弦楽四重奏およびオーケストラ)
 * オープンソース・プログラミング
-* 廉価音響機器機器
+* 廉価音響機器いじり
 * 日記エンジン開発 [igapyonv3](../keyword/igapyonv3.html)
 * 囲碁
   * 於：日本棋院

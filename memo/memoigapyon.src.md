@@ -23,16 +23,11 @@
 
 [![いがぴょん](${settings.baseurl}/images/iga200306.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
 
-### 自分用の簡便リンク
-
-* Google 検索: <@linksearch title="いがぴょん" word="いがぴょん" /> / <@linksearch title="igapyon" word="igapyon" /> / <@linksearch title="伊賀 敏樹" word="伊賀 敏樹" />
-* Twitter 検索: <@linksearch title="いがぴょん" word="いがぴょん" engine="twitter" /> / <@linksearch title="igapyon" word="igapyon" engine="twitter" /> / <@linksearch title="伊賀 敏樹" word="伊賀 敏樹" engine="twitter" />
-
 ## 職業
 
-* 会社設立者のひとりであり取締役です。
-* 月給会社員です。
-* [株式会社レザボア・コンサルティング](https://reservoir.design/) を運営しています。<@linkmap word="会社所在地" lat="35.6649888" lon="139.7024356" />
+* [株式会社レザボア・コンサルティング](https://reservoir.design/) の設立者であり取締役です
+    * [会社所在地](https://www.google.co.jp/maps/@35.6649888,139.7024356,16z)
+* プログラマー、ITコンサルタントです
 
 ## 職種
 
@@ -68,7 +63,7 @@
 
 * ヴァイオリン演奏 (弦楽四重奏およびオーケストラ)
 * オープンソース・プログラミング
-* 廉価音響機器機器
+* 廉価音響機器いじり
 * 日記エンジン開発 [[igapyonv3]]
 * 囲碁
   * 於：日本棋院
