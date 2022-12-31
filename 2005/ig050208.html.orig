@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/02/08 “ú‹L: JPetStore 4 ¨ SQL Maps ¨ iBATIS ¨ MiddlegenIDE’²¸ , Mozilla
-Thunderbird 1.0 —˜—pŠJŽn</TITLE>
-<META name="DESCRIPTION" content="–^ŠÂ‹«‚É‚¨‚¢‚Ä Mozilla Thunderbird 1.0‚ð—˜—pŠJŽn‚µ‚Ü‚µ‚½B , SQL Maps‚Æ‚¢‚¤‚à‚Ì‚Ì‘¶Ý‚ð‰‚ß‚Ä”FŽ¯‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/02/08 ï¿½ï¿½ï¿½L: JPetStore 4 ï¿½ï¿½ SQL Maps ï¿½ï¿½ iBATIS ï¿½ï¿½ MiddlegenIDEï¿½ï¿½ï¿½ï¿½ , Mozilla
+Thunderbird 1.0 ï¿½ï¿½ï¿½pï¿½Jï¿½n</TITLE>
+<META name="DESCRIPTION" content="ï¿½^ï¿½Â‹ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ Mozilla Thunderbird 1.0ï¿½ð—˜—pï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , SQL Mapsï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ì‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ß‚Ä”Fï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,13 +16,13 @@ Thunderbird 1.0 —˜—pŠJŽn</TITLE>
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/02/08 “ú‹L: JPetStore 4 ¨ SQL Maps ¨ iBATIS ¨ MiddlegenIDE’²¸ , Mozilla
-Thunderbird 1.0 —˜—pŠJŽn</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] –^ŠÂ‹«‚É‚¨‚¢‚Ä Mozilla Thunderbird 1.0‚ð—˜—pŠJŽn‚µ‚Ü‚µ‚½B , SQL Maps‚Æ‚¢‚¤‚à‚Ì‚Ì‘¶Ý‚ð‰‚ß‚Ä”FŽ¯‚µ‚Ü‚µ‚½B</P>
+    <H2>2005/02/08 ï¿½ï¿½ï¿½L: JPetStore 4 ï¿½ï¿½ SQL Maps ï¿½ï¿½ iBATIS ï¿½ï¿½ MiddlegenIDEï¿½ï¿½ï¿½ï¿½ , Mozilla
+Thunderbird 1.0 ï¿½ï¿½ï¿½pï¿½Jï¿½n</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½^ï¿½Â‹ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ Mozilla Thunderbird 1.0ï¿½ð—˜—pï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , SQL Mapsï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ì‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ß‚Ä”Fï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -32,8 +32,8 @@ Thunderbird 1.0 —˜—pŠJŽn</H2>
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -50,7 +50,7 @@ Thunderbird 1.0 —˜—pŠJŽn</H2>
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,113 +61,113 @@ Thunderbird 1.0 —˜—pŠJŽn</H2>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JPetStore 4 ¨ SQL Maps ¨ iBATIS ¨ MiddlegenIDE</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JPetStore 4 ï¿½ï¿½ SQL Maps ï¿½ï¿½ iBATIS ï¿½ï¿½ MiddlegenIDE</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>æ“ú‚Ì ƒfƒuƒTƒ~2005‚Å JPetStore‚ªÐ‰î‚³‚ê‚Ä‚¢‚½‚Ì‚ÅA‹»–¡‚ª‚ ‚Á‚½‚Ì‚Å’²‚×‚Ä‚Ý‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½fï¿½uï¿½Tï¿½~2005ï¿½ï¿½ JPetStoreï¿½ï¿½ï¿½Ð‰î‚³ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å’ï¿½ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>iBATIS.com : JPetStore<BR>
   <A HREF="http://www.ibatis.com/jpetstore/jpetstore.html">http://www.ibatis.com/jpetstore/jpetstore.html</A><BR>
-  ‚´‚Á‚ÆŒ©‚½‚Æ‚±‚ëAApacheƒ‰ƒCƒZƒ“ƒX‚Å‚ ‚é–Í—lB
+  ï¿½ï¿½ï¿½ï¿½ï¿½ÆŒï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½AApacheï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½Å‚ï¿½ï¿½ï¿½Í—lï¿½B
 </UL>
-<P>‚±‚±‚ÅA‹Á‚­‚×‚«‚à‚Ì‚ðŒ©‚Â‚¯‚Ü‚µ‚½B(‚Æ‚¢‚¤‚©A¡‚Ü‚Å–Ú‚É‚µ‚Ä‚¢‚½‚©‚à’m‚ê‚È‚¢‚¯‚ê‚ÇAˆÓŽ¯‚É‚Æ‚Ç‚Ü‚Á‚Ä—‰ð‚Å‚«‚½‚Ì‚ª¡‰ñ‚ª‰‚ß‚Ä‚Å‚·) u<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>v‚Æ‚¢‚¤ ƒf[ƒ^ƒx[ƒX-SQLƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Å‚·B‘f–p‚É <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚Ì–ÚŽw‚·‚Æ‚±‚ë‚ÆŽ—‚Ä‚¢‚é‚ÆŠ´‚¶‚Ü‚µ‚½B<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> ‚Í blancoDb‚æ‚è‚ÍŽÀ‘•‚ª•¡ŽG‚Å ‚µ‚©‚àŽè‡‚ª‘½‚¢‚Æ‚¢‚¤Œ‡“_‚Í‚ ‚é‚à‚Ì‚ÌA¢‚ÌO-Rƒ}ƒbƒsƒ“ƒOƒc[ƒ‹‚Æ”ä‚×‚ê‚Î Å‚àƒVƒ“ƒvƒ‹‚È‚à‚Ì‚Ì‚Ð‚Æ‚Â‚Å‚ ‚é‚æ‚¤‚ÉŠ´‚¶‚ç‚ê‚Ü‚µ‚½B<BR>
-AAAŽ–‘O‚É <A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> ‚Ì‘¶Ý‚ð’m‚Á‚Ä‚¢‚ê‚Î•—‰ð‚µ‚Ä‚¢‚ê‚ÎA‚ ‚é‚¢‚Í blancoDb‚Íì‚Á‚Ä‚¢‚È‚©‚Á‚½‚©‚à’m‚ê‚Ü‚¹‚ñBæ“ú ‚¨‚©‚à‚Æ—l‚©‚çƒcƒbƒRƒ~‚ðŽó‚¯‚Ä‚¢‚½‚Ì‚ÍA‚±‚Ìƒvƒƒ_ƒNƒg‚¾‚Á‚½‚©‚µ‚çc
-‚»‚¤‚¢‚¦‚Î uiBATISv‚Æ‚¢‚¤—pŒê‚ð•·‚¢‚½‚æ‚¤‚È•·‚©‚È‚©‚Á‚½‚æ‚¤‚Èc(‹êÎ) B‚Ü‚  blancoDb‚Ì‚Ù‚¤‚ªA‚æ‚èƒVƒ“ƒvƒ‹‚ÅÈ—Í‰»‚³‚ê‚½ƒAƒvƒ[ƒ`‚Å‚ ‚é‚±‚Æ‚Í–¾‚ç‚©‚ÅŠÔˆá‚¢‚È‚¢‚Ì‚ÅAblancoDb‚Ì‘¶ÝˆÓ‹`‚ÍŠmŽÀ‚É‘¶Ý‚·‚é‚Ì‚Å‚·‚¯‚ê‚Ç‚à‚ËB</P>
-<P><FONT color="#ff0000">2005.02.09</FONT> ‚¨‚©‚à‚Æ‚³‚ñ‚©‚çƒcƒbƒRƒ~<BR>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚Å–Ú‚É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ÇAï¿½ÓŽï¿½ï¿½É‚Æ‚Ç‚Ü‚ï¿½ï¿½Ä—ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ñ‚ªï¿½ï¿½ß‚Ä‚Å‚ï¿½) ï¿½u<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A>ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½X-SQLï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½fï¿½pï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½Ì–ÚŽwï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ÆŽï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ÆŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> ï¿½ï¿½ blancoDbï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÌAï¿½ï¿½ï¿½ï¿½O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½cï¿½[ï¿½ï¿½ï¿½Æ”ï¿½×‚ï¿½ï¿½ ï¿½Å‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚Ì‚Ð‚Æ‚Â‚Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½ <A href="http://www.ibatis.com/common/sqlmaps.html">SQL Maps</A> ï¿½Ì‘ï¿½ï¿½Ý‚ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Îï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½é‚¢ï¿½ï¿½ blancoDbï¿½Íï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ—lï¿½ï¿½ï¿½ï¿½cï¿½bï¿½Rï¿½~ï¿½ï¿½ï¿½ó‚¯‚Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÍAï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½uiBATISï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ð•·‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È•ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Èc(ï¿½ï¿½ï¿½) ï¿½Bï¿½Ü‚ï¿½ blancoDbï¿½Ì‚Ù‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÅÈ—Í‰ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚Í–ï¿½ï¿½ç‚©ï¿½ÅŠÔˆá‚¢ï¿½È‚ï¿½ï¿½Ì‚ÅAblancoDbï¿½Ì‘ï¿½ï¿½ÝˆÓ‹`ï¿½ÍŠmï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ËB</P>
+<P><FONT color="#ff0000">2005.02.09</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ñ‚©‚ï¿½cï¿½bï¿½Rï¿½~<BR>
 <CITE>Subject:  iBATIS<BR>
-ˆÉ‰ê‚³‚ñ:<BR>
-‰ª–{‚Å‚·B‚²–³¹‘¿‚µ‚Ä‚¢‚Ü‚·B<BR>
-ˆÈ‘O“ú‹L‚É‘‚¢‚½‚Ì‚ÍiBATIS‚Å‚µ‚½BŠT—v‚à‘‚¢‚Ä‚¨‚¯‚Î—Ç‚©‚Á‚½‚Å‚·‚ËB‚·‚Ý‚Ü‚¹‚ñ...<BR>
-‚ ‚ÆAR-Oƒ}ƒbƒsƒ“ƒO‚ÉŽ—‚½ƒAƒvƒ[ƒ`‚Æ‚µ‚Ä‚ÍAƒŠƒo[ƒXƒGƒ“ƒWƒjƒAƒŠƒ“ƒO‚É‚æ‚éƒ{ƒgƒ€ƒAƒbƒvŠJ”­‚ª‚ ‚è‚Ü‚·B<BR>
-—á‚¦‚ÎAMiddlegenIDE‚Æ‚¢‚¤‚Ì‚ð—˜—p‚·‚é‚ÆA</CITE></P>
+ï¿½É‰ê‚³ï¿½ï¿½:<BR>
+ï¿½ï¿½ï¿½{ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½È‘Oï¿½ï¿½ï¿½Lï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½iBATISï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½Tï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Î—Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½...<BR>
+ï¿½ï¿½ï¿½ÆAR-Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ÉŽï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½Æ‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½oï¿½[ï¿½Xï¿½Gï¿½ï¿½ï¿½Wï¿½jï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½{ï¿½gï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½á‚¦ï¿½ÎAMiddlegenIDEï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ð—˜—pï¿½ï¿½ï¿½ï¿½ÆA</CITE></P>
 <UL>
   <LI><CITE>MiddlegenIDE<BR>
   <A HREF="http://ultimania.org/middlegenide/">http://ultimania.org/middlegenide/</A></CITE>
 </UL>
-<P><CITE>RDBM‚Ìƒe[ƒuƒ‹‚©‚ç‚ÌŠO•”ƒL[‚ÌŠÖ˜A“™‚ðŽ©“®“I‚É‰ðÍ‚µ‚ÄAHibernate‚Ìƒ}ƒbƒsƒ“ƒOƒtƒ@ƒCƒ‹,JavaƒNƒ‰ƒXAÝ’èƒtƒ@ƒCƒ‹‚ð¶¬‚µ‚Ä‚­‚ê‚Ü‚·B<BR>
-# X‚É‚¨‚Ü‚¯‚Åhibernate‚ÌŽÀs‚É•K—v‚Èjar‚Ü‚ÅƒZƒbƒgƒAƒbƒv‚µ‚Ä‚­‚ê‚Ü‚·B<BR>
-# ‚²‘¶’m‚©‚à’m‚ê‚Ü‚¹‚ñ‚ªAˆê‰žAŽ—‚½‚æ‚¤‚ÈƒAƒvƒ[ƒ`‚Æ‚¢‚¤‚±‚Æ‚ÅŒäŽQl‚Ü‚Å....<BR>
+<P><CITE>RDBMï¿½Ìƒeï¿½[ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŠOï¿½ï¿½ï¿½Lï¿½[ï¿½ÌŠÖ˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É‰ï¿½Í‚ï¿½ï¿½ÄAHibernateï¿½Ìƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½,Javaï¿½Nï¿½ï¿½ï¿½Xï¿½Aï¿½Ý’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ð¶ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+# ï¿½Xï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½hibernateï¿½ÌŽï¿½ï¿½sï¿½É•Kï¿½vï¿½ï¿½jarï¿½Ü‚ÅƒZï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+# ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½ê‰žï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÈƒAï¿½vï¿½ï¿½ï¿½[ï¿½`ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÅŒï¿½Qï¿½lï¿½Ü‚ï¿½....<BR>
 ----<BR>
-‰ª–{—²Žj</CITE></P>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚Æ‚Á‚Ä‚à—L‰v‚Èî•ñ‚ðA‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B‘S‘R’m‚è‚Ü‚¹‚ñ‚Å‚µ‚½B‚»‚µ‚ÄŽ„‚Ì“Ç‰ð•”FŽ¯”\—Í‚Ì’á‚³‚ð’p‚¶‚Ü‚·B<BR>
-iBATIS‚Æ‹¤‚ÉAMiddlegenIDE‚ÍA‚±‚ê‚Ü‚½Ž„D‚Ý‚È\‘¢‚Æ‚È‚Á‚Ä‚¢‚é‚æ‚¤‚ÉŠ´‚¶‚Ü‚·B‚±‚ê‚Í iBATISˆÈã‚É blancoDb‚ÉŽ—‚Ä‚¢‚Ü‚·
-(‹êÎ) MiddlegenIDE‚ª ’P“Æ‚Å“®ì‚·‚é‚æ‚¤‚É‚È‚Á‚½‚ç (Hibernate‚È‚Ç‚É‘S‚­ˆË‘¶‚µ‚È‚¢‚æ‚¤‚ÈŽd—l‚É‚È‚Á‚½‚ç) A‚¨‚»‚ç‚­
-blancoDb‚ÌÝŒvŽv‘z‚ÉŒÀ‚è‚È‚­‹ß‚­‚È‚é‚æ‚¤‚É‚àŽv‚¦‚Ü‚·B</P>
-<P><FONT color="#ff0000">2005.02.09 ’Ç‹L</FONT> ¡“úA<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco FrameworkƒRƒ~ƒbƒ^‚Ì‚Ð‚Æ‚èB">ymoto</A>‚³‚ñ‚Æ‰F“s‹{‚Åˆê‚É’‹”Ñ‚ðH‚×‚Ä‚¢‚½‚çA‹Á‚­‚×‚«Ž–ŽÀ‚ª”»–¾‚µ‚Ü‚µ‚½B‚È‚ñ‚Å‚àA<STRONG>Ž„‚ÌŽwŽ¦‚Å</STRONG> 1”NˆÈã‚à‘O‚É ‹Æ–±‚Æ‚µ‚Ä MiddlegenIDE‚âHibernate‚È‚Ç‚ÌO-Rƒ}ƒbƒsƒ“ƒOŒn‚Ð‚Æ‚Æ‚¨‚è‚Ì‹@”\ŒŸØ‚ðŽÀŽ{‚µ‚Ä‚¢‚½‚Ì‚¾‚»‚¤‚È‚Ì‚Å‚·B‚È‚ñ‚Ä‚±‚Æ‚Å‚µ‚å‚¤BŽ„‚É‚Í‘S‚­‹L‰¯‚ª‚ ‚è‚Ü‚¹‚ñ‚Å‚µ‚½B(Œ¾‚í‚ê‚Ä‚·‚çA‹L‰¯‚ª–ß‚Á‚Ä‚«‚Ü‚¹‚ñ)
-‚»‚µ‚ÄA‚»‚ÌŽž“_‚Å‚ÌŒŸØŒ‹‰Ê‚ð‚à‚Æ‚ÉA‚Ç‚¤‚â‚ç <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ðŠJ”­‚·‚é•ûj‚ðŒÅ‚ß‚½‚æ‚¤‚È•µˆÍ‹C‚Å‚·cBAAA‚í‚½‚µ‚Í•’i‚©‚ç 3•ª’ö“x‚µ‚©‹L‰¯—Í‚ª‚ ‚è‚Ü‚¹‚ñB‚µ‚©‚µ
-¡‰ñ‚Ì‚±‚ÌŽ–ŽÀ‚Í ‚©‚È‚èƒVƒ‡ƒbƒN‚Å‚µ‚½B</P>
-<P><FONT color="#ff0000">2005.06.17’Ç‹L</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>‚Æ‚¢‚¤ JDBC‚©‚ç‚Ìƒƒ^î•ñ‚É‚æ‚Á‚Ä‹ì“®‚·‚éƒ^ƒCƒv (‚·‚È‚í‚¿<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ÉŽ—‚½ŽÀ‘•‚Å‚ ‚é) O/Rƒ}ƒbƒsƒ“ƒOŽÀ‘•‚ðŒ©‚©‚¯‚Ü‚µ‚½B’Ç‰Á‚Ìƒƒ^î•ñ‚É‚Â‚¢‚Ä‚ÍAJavaDoc“à‚ÌƒAƒmƒe[ƒVƒ‡ƒ“‚ð—˜—p‚·‚é‚æ‚¤‚Å‚·B<BR>
-‚¿‚È‚Ý‚É Voluta‚Í <A href="http://cglib.sourceforge.net/">Code Generation Library (CGLib)</A> ‚Æ‚¢‚¤ƒ‰ƒCƒuƒ‰ƒŠ‚ð‚à‚¿‚¢‚ÄJavaƒ\[ƒXƒR[ƒh¶¬‚ðs‚Á‚Ä‚¢‚é‚Ì‚¾‚»‚¤‚Å‚·B</P>
+ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½j</CITE></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Lï¿½vï¿½Èï¿½ï¿½ï¿½ï¿½Aï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Sï¿½Rï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½Ì“Ç‰ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½\ï¿½Í‚Ì’á‚³ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+iBATISï¿½Æ‹ï¿½ï¿½ÉAMiddlegenIDEï¿½ÍAï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Dï¿½Ý‚È\ï¿½ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ iBATISï¿½Èï¿½ï¿½ blancoDbï¿½ÉŽï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½
+(ï¿½ï¿½ï¿½) MiddlegenIDEï¿½ï¿½ ï¿½Pï¿½Æ‚Å“ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ (Hibernateï¿½È‚Ç‚É‘Sï¿½ï¿½ï¿½Ë‘ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½ÈŽdï¿½lï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ç‚­
+blancoDbï¿½ÌÝŒvï¿½vï¿½zï¿½ÉŒï¿½ï¿½ï¿½È‚ï¿½ï¿½ß‚ï¿½ï¿½È‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.02.09 ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½A<A HREF="http://d.hatena.ne.jp/ymoto/" TITLE="blanco Frameworkï¿½Rï¿½~ï¿½bï¿½^ï¿½Ì‚Ð‚Æ‚ï¿½B">ymoto</A>ï¿½ï¿½ï¿½ï¿½Æ‰Fï¿½sï¿½{ï¿½Åˆêï¿½É’ï¿½ï¿½Ñ‚ï¿½Hï¿½×‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½Å‚ï¿½ï¿½A<STRONG>ï¿½ï¿½ï¿½ÌŽwï¿½ï¿½ï¿½ï¿½</STRONG> 1ï¿½Nï¿½Èï¿½ï¿½ï¿½Oï¿½ï¿½ ï¿½Æ–ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ MiddlegenIDEï¿½ï¿½Hibernateï¿½È‚Ç‚ï¿½O-Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½nï¿½Ð‚Æ‚Æ‚ï¿½ï¿½ï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½Ø‚ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½Bï¿½È‚ï¿½Ä‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½ï¿½É‚Í‘Sï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Aï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)
+ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ÌŽï¿½ï¿½_ï¿½Å‚ÌŒï¿½ï¿½ØŒï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½Æ‚ÉAï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½Å‚ß‚ï¿½ï¿½æ‚¤ï¿½È•ï¿½ï¿½Í‹Cï¿½Å‚ï¿½ï¿½cï¿½Bï¿½Aï¿½Aï¿½Aï¿½í‚½ï¿½ï¿½ï¿½Í•ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È‚ï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.06.17ï¿½Ç‹L</FONT> <A href="http://voruta.sourceforge.net/">Voruta</A>ï¿½Æ‚ï¿½ï¿½ï¿½ JDBCï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½^ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ä‹ì“®ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½v (ï¿½ï¿½ï¿½È‚í‚¿<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½) O/Rï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ç‰ï¿½ï¿½Ìƒï¿½ï¿½^ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAJavaDocï¿½ï¿½ï¿½ÌƒAï¿½mï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½È‚Ý‚ï¿½ Volutaï¿½ï¿½ <A href="http://cglib.sourceforge.net/">Code Generation Library (CGLib)</A> ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>–Ê”’‚»‚¤‚ÈVƒI[ƒvƒ“ƒ\[ƒXEƒvƒƒWƒFƒNƒg‚½‚¿</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Ê”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈVï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Eï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
   <LI>Jakarta Commons Transaction<BR>
   <A HREF="http://jakarta.apache.org/commons/transaction/">http://jakarta.apache.org/commons/transaction/</A><BR>
-  ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚É‹»–¡‚ð‚¸‚Á‚ÆŽ‚Á‚Ä‚¢‚éŽ„‚É‚Æ‚Á‚ÄA‚±‚ÌJakarta‚Ìƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“EƒvƒƒWƒFƒNƒg‚Í‚Æ‚Ä‚à‹»–¡—N‚«‚Ü‚·B
+  ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éŽ„ï¿½É‚Æ‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½Jakartaï¿½Ìƒgï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½Í‚Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   <LI>Mozilla Sunbird Project<BR>
   <A HREF="http://www.mozilla.org/projects/calendar/sunbird.html">http://www.mozilla.org/projects/calendar/sunbird.html</A><BR>
-  ƒJƒŒƒ“ƒ_ƒ\ƒtƒg‚È‚Ì‚¾‚»‚¤‚ÈBƒˆ‚É‹»–¡‚ ‚è‚Ü‚·B
+  ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½\ï¿½tï¿½gï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBï¿½ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Mozilla Thunderbird 1.0 —˜—pŠJŽn</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Mozilla Thunderbird 1.0 ï¿½ï¿½ï¿½pï¿½Jï¿½n</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>–^ŠÂ‹«‚É‚Ä Mozilla Thunderbird 1.0 (Windows”Å) ‚ðƒ[ƒ‹ƒNƒ‰ƒCƒAƒ“ƒg‚Æ‚µ‚Ä—˜—pŠJŽn‚µ‚Ü‚µ‚½B<BR>
-‚¢‚Ü‚¢‚¿A‚Ü‚¾‘Ì‚É‚È‚¶‚ñ‚Å‚¢‚Ü‚¹‚ñB‚½‚¾A‚´‚Á‚­‚è‚Æ—˜—p‚µ‚½Š´‚¶‚Å‚ÍAThunderbirdƒ[ƒ‹ƒNƒ‰ƒCƒAƒ“ƒg‚ÍŽ„‚ªƒ[ƒ‹ƒNƒ‰ƒCƒAƒ“ƒg‚Æ‚µ‚Ä—˜—p‚µ‚»‚¤‚Èˆê’Ê‚è‚Ì‹@”\‚ð‘S‚ÄŒ“‚Ë”õ‚¦‚Ä‚¢‚é‚Æ‚¢‚¤‚±‚Æ‚ª‚í‚©‚Á‚Ä‚«‚Ü‚µ‚½B<BR>
-ˆê”Ô‹Á‚¢‚½‚Ì‚Í LDAP‘Î‰ž‚Å‚·B‚±‚ê‚Í’ê”²‚¯‚É‹Á‚«‚Ü‚µ‚½B‚³‚Ü‚´‚Ü‚È‹Ç–Ê‚Å‰ž—p‚ª—˜‚«‚»‚¤‚Å‚·B‚È‚ñ‚½‚Á‚ÄAƒAƒhƒŒƒX’ ‚ðƒGƒNƒXƒ|[ƒg‚µ‚½‚ç ldiffŒ`Ž®‚¾‚Á‚½‚Ì‚Å‚·‚à‚Ì!
-ƒ[ƒJƒ‹ŠÂ‹«‚É OpenLDAPƒT[ƒo‚Æ‚©—§‚Ä‚ÄAThunderbird‚ðŽg‚Á‚½‚ç‚Æ‚¨‚à‚Á‚½‚¾‚¯‚ÅA‚æ‚¾‚ê‚ªƒ_ƒ‰ƒ_ƒ‰o‚Ä‚«‚Ü‚·B</P>
+<P>ï¿½^ï¿½Â‹ï¿½ï¿½É‚ï¿½ Mozilla Thunderbird 1.0 (Windowsï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½Jï¿½nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½Ì‚É‚È‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAThunderbirdï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èˆï¿½Ê‚ï¿½Ì‹@ï¿½\ï¿½ï¿½Sï¿½ÄŒï¿½ï¿½Ë”ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½Ô‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ LDAPï¿½Î‰ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í’ê”²ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚È‹Ç–Ê‚Å‰ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½È‚ñ‚½‚ï¿½ï¿½ÄAï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½Nï¿½Xï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ldiffï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½!
+ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½Â‹ï¿½ï¿½ï¿½ OpenLDAPï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ä‚ÄAThunderbirdï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅAï¿½æ‚¾ï¿½ê‚ªï¿½_ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>CNET Japan: ƒAƒ‹ƒtƒ@ƒVƒXƒeƒ€ƒYAƒI[ƒvƒ“ƒ\[ƒX‚ÌƒfƒXƒNƒgƒbƒv‰“Šu‘€ìƒ\ƒtƒg‚ðŒöŠJ<BR>
+  <LI>CNET Japan: ï¿½Aï¿½ï¿½ï¿½tï¿½@ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Yï¿½Aï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Ìƒfï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½ï¿½ï¿½J<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20080532,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20080532,00.htm</A><BR>
-  MultiVNC ‚Æ‚¢‚¤GNU GPLƒ‰ƒCƒZƒ“ƒX‚ÈƒAƒvƒŠ‚ðŒöŠJ‚µ‚½‚Ì‚¾‚»‚¤‚ÈBKNOPPIX‚Æ‘g‚Ý‡‚í‚¹‚ÄƒT[ƒrƒX”Ì”„‚ðs‚Á‚Ä‚¢‚­‚Æ‚Ì‚±‚ÆB‚·‚²‚¢‚È‚ŸB‚ ‚±‚ª‚ê‚Ü‚·B
-  <LI>CNET Japan: uˆê‘¾˜YƒVƒ‡ƒbƒNv‚Å–Â‚è‹¿‚­ƒ\ƒtƒgƒEƒFƒAŽY‹Æ‚Ö‚ÌŒxà<BR>
+  MultiVNC ï¿½Æ‚ï¿½ï¿½ï¿½GNU GPLï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ÈƒAï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBKNOPPIXï¿½Æ‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ÄƒTï¿½[ï¿½rï¿½Xï¿½Ì”ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½ÆBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>CNET Japan: ï¿½uï¿½ê‘¾ï¿½Yï¿½Vï¿½ï¿½ï¿½bï¿½Nï¿½vï¿½Å–Â‚è‹¿ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Yï¿½Æ‚Ö‚ÌŒxï¿½ï¿½<BR>
   <A HREF="http://japan.cnet.com/news/biz/story/0,2000050156,20080442,00.htm">http://japan.cnet.com/news/biz/story/0,2000050156,20080442,00.htm</A><BR>
-  ‚¨‚è‚µ‚àAŠCŠO‚Å‚Íƒ\ƒtƒgƒEƒFƒA“Á‹–‚»‚Ì‚à‚Ì‚Ì¥”ñ‚ª–â‚í‚ê‚Ä‚¢‚½‚èA‚ ‚é‚¢‚ÍƒI[ƒvƒ“ƒ\[ƒXŒü‚¯‚É“Á‹–‚ð–³žŒöŠJ‚µ‚Ä‚¢‚é‚Æ‚¢‚¤“®‚«‚ª‚ ‚é’†‚Å‚ÌA¡‰ñ‚Ì‘“à‚É‚¨‚¯‚éƒ\ƒtƒgƒEƒFƒA“Á‹–‚Ì”»—á‚Å‚ ‚é‚Ì‚ÅA‚Æ‚Ä‚àl‚¦‚³‚¹‚ç‚ê‚é‚à‚Ì‚ª‚ ‚è‚Ü‚·B
-  <LI>CNET Japan: MEƒPƒCƒp[--ƒI[ƒvƒ“ƒ\[ƒXŠv–½‚Ì^‚Á‚½‚¾’†‚Å<BR>
+  ï¿½ï¿½ï¿½è‚µï¿½ï¿½ï¿½Aï¿½Cï¿½Oï¿½Å‚Íƒ\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚Ìï¿½ï¿½ñ‚ª–ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½é‚¢ï¿½ÍƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ð–³ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é’†ï¿½Å‚ÌAï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½Æ‚Ä‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>CNET Japan: Mï¿½Eï¿½Pï¿½Cï¿½pï¿½[--ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½vï¿½ï¿½ï¿½Ì^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://japan.cnet.com/interview/story/0,2000050154,20080257,00.htm">http://japan.cnet.com/interview/story/0,2000050154,20080257,00.htm</A><BR>
-  ƒI[ƒvƒ“ƒ\[ƒX‚ª‚È‚ñ‚½‚é‚©‚ðl‚¦‚³‚¹‚Ä‚­‚ê‚éA‚·‚Î‚ç‚µ‚¢‹LŽ–‚Å‚·B
-  <LI>CNET Japan: Firefox‚Ìl‹Cã¸‘±‚­--IE‚ÌƒVƒFƒA‚ð‚³‚ç‚ÉNH<BR>
+  ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½È‚ñ‚½‚é‚©ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Î‚ç‚µï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+  <LI>CNET Japan: Firefoxï¿½Ìlï¿½Cï¿½ã¸ï¿½ï¿½ï¿½ï¿½--IEï¿½ÌƒVï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉNï¿½H<BR>
   <A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20080217,00.htm">http://japan.cnet.com/news/media/story/0,2000047715,20080217,00.htm</A>
-  <LI>—ITFƒIƒ‰ƒNƒ‹‚ÅLinuxŒü‚¯ƒf[ƒ^ƒx[ƒX‚ªL‚Ñ‚Ä‚¢‚é<BR>
+  <LI>ï¿½ï¿½ITï¿½Fï¿½Iï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½Linuxï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½Lï¿½Ñ‚Ä‚ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.atmarkit.co.jp/news/200501/25/oracle.html">http://www.atmarkit.co.jp/news/200501/25/oracle.html</A><BR>
-  uOracle Real Application ClustersviRACj‚ðLinux‚ÅŽg‚¤‚Ì‚ª‘‚¦‚Ä‚¢‚é‚Æ‚Ì‚±‚ÆB‚±‚Ì‘g‚Ý‡‚í‚¹AŽ„‚à‚¸[‚Á‚Æ’–Ú‚µ‚Ä‚¢‚½‚Ì‚Å‚·B‚Ü‚¾ŽÀ‹Æ–±‚É“K—p‚µ‚½‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñ‚¯‚ê‚Ç‚à‚ËB2-4ƒm[ƒh\¬‚ÌRAC\¬Linux‚ª‘‚¦‚Ä‚¢‚ÄAu‘Î‘O”N‚Å100“‚ÌL‚Ñv‚Æ‚©‚¢‚¤‹}¬’·‚È‚Ì‚¾‚»‚¤‚ÈB‚¤‚¤‚ÞA‚±‚ê‚©‚ç‚ÍLinux‚ÌŽž‘ã‚Å‚·‚È‚ŸB
-  <LI>ƒVƒXƒeƒ€Eƒ†[ƒU[ƒYEƒKƒCƒh: ƒIƒyƒŒ[ƒeƒBƒ“ƒOEƒVƒXƒeƒ€‚¨‚æ‚ÑƒfƒoƒCƒX - Korn ƒVƒFƒ‹ (POSIX ƒVƒFƒ‹) ƒRƒ}ƒ“ƒh<BR>
+  ï¿½uOracle Real Application Clustersï¿½vï¿½iRACï¿½jï¿½ï¿½Linuxï¿½ÅŽgï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½ÆBï¿½ï¿½ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Æ’ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Æ–ï¿½ï¿½É“Kï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚¯‚ï¿½Ç‚ï¿½ï¿½ËB2-4ï¿½mï¿½[ï¿½hï¿½\ï¿½ï¿½ï¿½ï¿½RACï¿½\ï¿½ï¿½Linuxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½uï¿½Î‘Oï¿½Nï¿½ï¿½100ï¿½ï¿½ï¿½ÌLï¿½Ñvï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈBï¿½ï¿½ï¿½ï¿½ï¿½ÞAï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ï¿½Linuxï¿½ÌŽï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½B
+  <LI>ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½Yï¿½Eï¿½Kï¿½Cï¿½h: ï¿½Iï¿½yï¿½ï¿½ï¿½[ï¿½eï¿½Bï¿½ï¿½ï¿½Oï¿½Eï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒfï¿½oï¿½Cï¿½X - Korn ï¿½Vï¿½Fï¿½ï¿½ (POSIX ï¿½Vï¿½Fï¿½ï¿½) ï¿½Rï¿½}ï¿½ï¿½ï¿½h<BR>
   <A HREF="http://publib16.boulder.ibm.com/doc_link/Ja_JP/a_doc_lib/aixuser/usrosdev/korn_posix_shell.htm">http://publib16.boulder.ibm.com/doc_link/Ja_JP/a_doc_lib/aixuser/usrosdev/korn_posix_shell.htm</A><BR>
-  KSH‚ÌƒRƒ}ƒ“ƒhƒŠƒtƒ@ƒŒƒ“ƒX
-  <LI>CNET Japan: ƒO[ƒOƒ‹AFirefox‚ÌŠJ”­Ó”CŽÒ‚ðÌ—p--u“ÆŽ©‚Ìƒuƒ‰ƒEƒUŠJ”­v‚Ì‰\‚Í–{“–‚©<BR>
+  KSHï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½X
+  <LI>CNET Japan: ï¿½Oï¿½[ï¿½Oï¿½ï¿½ï¿½AFirefoxï¿½ÌŠJï¿½ï¿½ï¿½Ó”Cï¿½Ò‚ï¿½ï¿½Ì—p--ï¿½uï¿½ÆŽï¿½ï¿½Ìƒuï¿½ï¿½ï¿½Eï¿½Uï¿½Jï¿½ï¿½ï¿½vï¿½Ì‰\ï¿½Í–{ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://japan.cnet.com/news/media/story/0,2000047715,20080255,00.htm">http://japan.cnet.com/news/media/story/0,2000047715,20080255,00.htm</A><BR>
-  IE‚Ìi‰»‚ªŠ®‘S’âŽ~‚µ‚Ä‚¢‚éŠÔ‚ÉAGoogle‚ªFirefox‚ðŽg‚Á‚Ä—h‚³‚Ô‚è‚ðŽdŠ|‚¯‚é–Í—lB
-  <LI>—ITFInsider's Eye --2005”NAMicrosoft‚ª’¼–Ê‚·‚é10‘å‰Û‘è<BR>
+  IEï¿½Ìiï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½~ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ô‚ÉAGoogleï¿½ï¿½Firefoxï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä—hï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½dï¿½|ï¿½ï¿½ï¿½ï¿½Í—lï¿½B
+  <LI>ï¿½ï¿½ITï¿½FInsider's Eye --2005ï¿½Nï¿½AMicrosoftï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½10ï¿½ï¿½Û‘ï¿½<BR>
   <A HREF="http://www.atmarkit.co.jp/fwin2k/insiderseye/20050126mschallenges10/mschallenges10.html">http://www.atmarkit.co.jp/fwin2k/insiderseye/20050126mschallenges10/mschallenges10.html</A><BR>
-  ‚È‚ñ‚¾‚©A‚·‚²‚¢‚±‚Æ‚ª‘‚©‚ê‚Ä‚¢‚Ü‚µ‚½B
-  <LI>Japan.internet.com LinuxToday - 2004”N‚Í Linux ‚Ì”N\\ƒf[ƒ^ƒZƒ“ƒ^[‚©‚ç‘gž‚Ý•ª–ì‚Ü‚ÅŠg‘å<BR>
+  ï¿½È‚ñ‚¾‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>Japan.internet.com LinuxToday - 2004ï¿½Nï¿½ï¿½ Linux ï¿½Ì”Nï¿½\ï¿½\ï¿½fï¿½[ï¿½^ï¿½Zï¿½ï¿½ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ý•ï¿½ï¿½ï¿½Ü‚ÅŠgï¿½ï¿½<BR>
   <A HREF="http://japan.internet.com/linuxtoday/20050125/5.html">http://japan.internet.com/linuxtoday/20050125/5.html</A><BR>
-  uNEC‚ª99.999“‚ÌLinuxƒx[ƒXcv‚ÌƒNƒ_ƒŠ‚Í‰Ž¨‚Å‚µ‚½B
-  <LI>Vine ‚Å GV-MVP/RX2W ‚É‚æ‚é“¯Žž˜^‰æ‚É¬Œ÷<BR>
+  ï¿½uNECï¿½ï¿½99.999ï¿½ï¿½ï¿½ï¿½Linuxï¿½xï¿½[ï¿½Xï¿½cï¿½vï¿½ÌƒNï¿½_ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>Vine ï¿½ï¿½ GV-MVP/RX2W ï¿½É‚ï¿½é“¯ï¿½ï¿½ï¿½^ï¿½ï¿½Éï¿½ï¿½ï¿½<BR>
   <A HREF="http://ysuzuki.tdiary.net/20050125.html#p02">http://ysuzuki.tdiary.net/20050125.html#p02</A>
-  <LI>VAƒŠƒiƒbƒNƒX‚ÆNTTƒf[ƒ^Ax86-64‘Î‰ž‚ÌLinuxƒJ[ƒlƒ‹ƒ_ƒ“ƒv‚ðGPL‚ÅŒöŠJ<BR>
+  <LI>VAï¿½ï¿½ï¿½iï¿½bï¿½Nï¿½Xï¿½ï¿½NTTï¿½fï¿½[ï¿½^ï¿½Ax86-64ï¿½Î‰ï¿½ï¿½ï¿½Linuxï¿½Jï¿½[ï¿½lï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½vï¿½ï¿½GPLï¿½ÅŒï¿½ï¿½J<BR>
   <A HREF="http://enterprise.watch.impress.co.jp/cda/software/2005/01/20/4388.html">http://enterprise.watch.impress.co.jp/cda/software/2005/01/20/4388.html</A><BR>
-  GNU GPLƒ‰ƒCƒZƒ“ƒX‰º‚ÅŒöŠJ‚Æ‚¢‚¤‚Ì‚Í ‚¤‚ê‚µ‚¢‚Å‚·B
+  GNU GPLï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ÅŒï¿½ï¿½Jï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ê‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

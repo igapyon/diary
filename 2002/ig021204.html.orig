@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2002/12/04 “ú‹L: Ž©‘î‚ªã‚ÌŠK‚©‚ç…˜R‚ê</TITLE>
-<META name="DESCRIPTION" content="C/C++—pMD5ŽÀ‘•‚ð’²¸">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2002/12/04 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½î‚ªï¿½ï¿½ÌŠKï¿½ï¿½ï¿½ç…ï¿½Rï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="C/C++ï¿½pMD5ï¿½ï¿½ï¿½ï¿½ï¿½ð’²ï¿½">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:46+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2002/12/04 “ú‹L: Ž©‘î‚ªã‚ÌŠK‚©‚ç…˜R‚ê</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] C/C++—pMD5ŽÀ‘•‚ð’²¸</P>
+    <H2>2002/12/04 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½î‚ªï¿½ï¿½ÌŠKï¿½ï¿½ï¿½ç…ï¿½Rï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] C/C++ï¿½pMD5ï¿½ï¿½ï¿½ï¿½ï¿½ð’²ï¿½</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,87 +59,87 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¡’©‹N‚«‚½‚çŽ©‘î‚ªã‚ÌŠK‘¤‚©‚ç…˜R‚ê‚µ‚Ä‚«‚Ü‚µ‚½</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½çŽ©ï¿½î‚ªï¿½ï¿½ÌŠKï¿½ï¿½ï¿½ï¿½ï¿½ç…ï¿½Rï¿½ê‚µï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>È‚ª‚Ñ‚Á‚­‚è‚µ‚Ä w‰J˜R‚èx‚ÆŒ¾‚Á‚Ä‚¢‚Ä Ž„‚à‚Ñ‚Á‚­‚è‚µ‚Ä‚¨‚«‚Ü‚µ‚½B‚È‚ñ‚Æ
-“ñŠK‚©‚ç…‚ª˜R‚ê‚¾‚µ‚Ä‚«‚Ä‚¢‚Ü‚·BƒgƒCƒŒ‚Æô–ÊŠ‚Ì“Vˆä‚©‚ç ‚Û‚½‚Û‚½A‚Ú‚½‚Ú‚½‚Æ…‚ª—Ž‚¿‚Ä‚«‚Ü‚·B“S‹ØƒRƒ“ƒNƒŠ[ƒg»ƒ}ƒ“ƒVƒ‡ƒ“‚È‚Ì‚Å‚·‚ªA‰J˜R‚è‚Æ‚Í‹Á‚«A‚ÆŽv‚¢‚Ü‚µ‚½
-(‚»‚ÌŽž“_‚Å‚ÍQ‚Ú‚¯‚Ä‚¢‚Ü‚µ‚½)<BR>
-Œã‚Å•ª‚©‚Á‚½‚Ì‚Å‚·‚ªAã‚ÌŠK‚Ìô‘ó‹@‚Ìƒz[ƒX‚ª‚Í‚¸‚ê‚½‚Æ‚Ì‚±‚ÆBã‚ÌŠK‚Ì‚²Ž©‘î‚Í‘åŽSŽ–‚É‚È‚Á‚Ä‚¢‚½‚»‚¤‚Å‚·B</P>
+<P>ï¿½È‚ï¿½ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½ï¿½ ï¿½wï¿½Jï¿½Rï¿½ï¿½xï¿½ÆŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½ï¿½
+ï¿½ï¿½Kï¿½ï¿½ï¿½ç…ï¿½ï¿½ï¿½Rï¿½ê‚¾ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½gï¿½Cï¿½ï¿½ï¿½Æï¿½ï¿½Êï¿½ï¿½Ì“Vï¿½ä‚©ï¿½ï¿½ ï¿½Û‚ï¿½ï¿½Û‚ï¿½ï¿½Aï¿½Ú‚ï¿½ï¿½Ú‚ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Sï¿½ØƒRï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Jï¿½Rï¿½ï¿½Æ‚Í‹ï¿½ï¿½ï¿½ï¿½Aï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½ÌŽï¿½ï¿½_ï¿½Å‚ÍQï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)<BR>
+ï¿½ï¿½Å•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ÌŠKï¿½Ìï¿½ï¿½ï¿½@ï¿½Ìƒzï¿½[ï¿½Xï¿½ï¿½ï¿½Í‚ï¿½ï¿½ê‚½ï¿½Æ‚Ì‚ï¿½ï¿½ÆBï¿½ï¿½ÌŠKï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Í‘ï¿½Sï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5ŽÀ‘•‚È‚Ç‚ð’²¸c</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>MD5ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ð’²ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Visual C++.NET‚É‚Í MD5 API‚ª–³‚¢‚Á‚Û‚¢‚Ì‚ÅA¢‚ÌMD5ŽÀ‘•‚ð‚´‚Á‚­‚èŒŸõ‚µ‚Ä‚Ý‚Ü‚µ‚½B</P>
+<P>Visual C++.NETï¿½É‚ï¿½ MD5 APIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½èŒŸï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>RFC1321-based (RSA-free) MD5 library<BR>
   <A HREF="http://sourceforge.net/projects/libmd5-rfc/">http://sourceforge.net/projects/libmd5-rfc/</A><BR>
-  zlib/libpng ƒ‰ƒCƒZƒ“ƒX‚ÈMD5ŽÀ‘•B
+  zlib/libpng ï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½ï¿½B
   <LI>Crypto++ Library 5.0<BR>
   <A HREF="http://www.eskimo.com/~weidai/cryptlib.html">http://www.eskimo.com/~weidai/cryptlib.html</A><BR>
-  ‘òŽR‚Ìƒ‰ƒCƒ“ƒiƒbƒv‚ªˆóÛ“IB
+  ï¿½ï¿½Rï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½iï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Û“Iï¿½B
   <LI>MD5 Homepage (unofficial)<BR>
   <A HREF="http://userpages.umbc.edu/~mabzug1/cs/md5/md5.html">http://userpages.umbc.edu/~mabzug1/cs/md5/md5.html</A><BR>
-  ‚±‚±‚ÉŽíX‚ÌŒ¾Œê—pMD5ŽÀ‘•‚ÌƒŠƒXƒg‚ªÚ‚Á‚Ä‚¢‚Ü‚µ‚½B
-  <LI>Visual C++‚É‚æ‚éMD5ŽÀ‘•<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½Xï¿½ÌŒï¿½ï¿½ï¿½pMD5ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>Visual C++ï¿½É‚ï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.langfine.com/rsa_md5.htm">http://www.langfine.com/rsa_md5.htm</A>
 </UL>
-<P>GZIP‚à’²‚×‚Ä‚Ý‚Ü‚µ‚½B‚±‚¿‚ç‚Í ‚Ç‚ñ‚Ò‚µ‚á‚Ý‚½‚¢‚ÈŠ´‚¶‚Ìƒy[ƒW‚ª‚ ‚è‚Ü‚µ‚½B‚ª
-‚Æ‚¤‚º‚ñ‚È‚ª‚çƒ‰ƒCƒZƒ“ƒX‚ªGNU GPL‚Å‚·B‚Ó`‚ÞB</P>
+<P>GZIPï¿½ï¿½ï¿½ï¿½ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç‚ï¿½Ò‚ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ÈŠï¿½ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½çƒ‰ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½GNU GPLï¿½Å‚ï¿½ï¿½Bï¿½Ó`ï¿½ÞB</P>
 <UL>
   <LI>The gzip home page<BR>
   <A HREF="http://www.gzip.org/">http://www.gzip.org/</A><BR>
-  GNU GPLƒ‰ƒCƒZƒ“ƒXB
+  GNU GPLï¿½ï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½B
 </UL>
-<P>MIME base64 ŽÀ‘•‚Í ‹C‚Ì—˜‚¢‚½‚à‚Ì‚Í‚ ‚è‚Ü‚¹‚ñ‚Å‚µ‚½B‚½‚¢‚µ‚½‚±‚Æ–³‚¢‚Ì‚ÅŽ©ì‚ÍŠÈ’P‚Å‚·‚ªA‚Å‚«‚ê‚ÎŽè‚ð”²‚«‚½‚¢
-(‹êÎ)</P>
+<P>MIME base64 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Cï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ–ï¿½ï¿½ï¿½ï¿½Ì‚ÅŽï¿½ï¿½ï¿½ÍŠÈ’Pï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Å‚ï¿½ï¿½ï¿½ÎŽï¿½ð”²‚ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½)</P>
 <HR>
-<P><STRONG><FONT color="#ff00ff">“ÇŽÒ‚Ìƒ^ƒL[‚³‚ñ‚©‚ç‚ÌƒcƒbƒRƒ~</FONT></STRONG><BR>
-‚Í‚¶‚ß‚Ü‚µ‚ÄBƒ^ƒL[‚Æ\‚µ‚Ü‚·B<BR>
-‚¢‚Â‚àŠy‚µ‚­”qŒ©‚³‚¹‚Ä‚¢‚½‚¾‚¢‚Ä‚¨‚è‚Ü‚·B</P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ÇŽÒ‚Ìƒ^ï¿½Lï¿½[ï¿½ï¿½ï¿½ñ‚©‚ï¿½Ìƒcï¿½bï¿½Rï¿½~</FONT></STRONG><BR>
+ï¿½Í‚ï¿½ï¿½ß‚Ü‚ï¿½ï¿½ÄBï¿½^ï¿½Lï¿½[ï¿½Æ\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Â‚ï¿½ï¿½yï¿½ï¿½ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Visual C++.NET‚ÅMD5ŽÀ‘•‚ª‚È‚¢‚Á‚Û‚¢‚Æ‚¢‚¤‚±‚Æ‚Å‚·‚ª‚¿‚á‚ñ‚Æ‚ ‚é‚æ‚¤‚Å‚·B<BR>
+  <LI>Visual C++.NETï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B<BR>
   <A HREF="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemSecurityCryptographyMD5CryptoServiceProviderClassTopic.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemSecurityCryptographyMD5CryptoServiceProviderClassTopic.asp</A>
 </UL>
-<P>“–•û‚ÅŽŽ‚µ‚Ä‚Í‚¢‚È‚¢‚Ì‚Å‚·‚ªA‚²ŽQl‚É‚È‚ê‚ÎK‚¢‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ÅŽï¿½ï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Qï¿½lï¿½É‚È‚ï¿½ÎKï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <HR>
-<P><FONT color="#ff0000">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-ATL Serverƒx[ƒX‚ÌMD5ŽÀ‘•‚Å‚·‚ËBƒcƒbƒRƒ~‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B<BR>
-”z•zŽü‚è‚Å ¡‰ñ‚ÌŽdŽ–ˆÄŒ“à—e‚É‡’v‚·‚é‚©‚Ç‚¤‚© ‚æ‚­‚æ‚­Œ©‚Ä‚Ý‚Ü‚·B(¡‰ñ‚Ì‚Í
-ƒNƒ‰ƒCƒAƒ“ƒg‚ª•s“Á’è‘½”‚Æ‚¢‚¤ƒn[ƒh‚ÈˆÄŒ‚È‚Ì‚Å ”z•z‚Ì•û–@‚ª ‹C‚É‚È‚é‚Æ‚±‚ë‚È‚Ì‚Å‚·)</P>
+<P><FONT color="#ff0000">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ATL Serverï¿½xï¿½[ï¿½Xï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËBï¿½cï¿½bï¿½Rï¿½~ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½zï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ÌŽdï¿½ï¿½ï¿½ÄŒï¿½ï¿½ï¿½ï¿½eï¿½Éï¿½ï¿½vï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ ï¿½æ‚­ï¿½æ‚­ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½sï¿½ï¿½ï¿½è‘½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½nï¿½[ï¿½hï¿½ÈˆÄŒï¿½ï¿½È‚Ì‚ï¿½ ï¿½zï¿½zï¿½Ì•ï¿½ï¿½@ï¿½ï¿½ ï¿½Cï¿½É‚È‚ï¿½Æ‚ï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½)</P>
 <HR>
-<P><STRONG><FONT color="#ff00ff">“ÇŽÒ‚Ì–Ø‘º‚³‚ñ‚©‚ç‚ÌƒcƒbƒRƒ~</FONT></STRONG><BR>–Ø‘º‚Å‚·B”N––‚ª‹ß‚­‚È‚é‚Æ‹C‚ª–Å“ü‚é‚Ì‚ÍŽ„‚¾‚¯?<BR>
+<P><STRONG><FONT color="#ff00ff">ï¿½ÇŽÒ‚Ì–Ø‘ï¿½ï¿½ï¿½ï¿½ñ‚©‚ï¿½Ìƒcï¿½bï¿½Rï¿½~</FONT></STRONG><BR>ï¿½Ø‘ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½È‚ï¿½Æ‹Cï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½Ì‚ÍŽï¿½ï¿½ï¿½ï¿½ï¿½?<BR>
 <BR>
-&gt;&gt;GZIP‚à’²‚×‚Ä‚Ý‚Ü‚µ‚½B</P>
+&gt;&gt;GZIPï¿½ï¿½ï¿½ï¿½ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>‚¨ŽdŽ–‚ÅzipŽg‚¤‚È‚ç‚ÎJava‚É‚àŽg‚í‚ê‚Ä‚¢‚é(?)zlib‚Å‚µ‚å‚¤B<BR>
+  <LI>ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½zipï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½Javaï¿½É‚ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½(?)zlibï¿½Å‚ï¿½ï¿½å‚¤ï¿½B<BR>
   <A HREF="http://www.gzip.org/zlib/">http://www.gzip.org/zlib/</A>
 </UL>
-<P># ‚Í‚¸‚µ‚Ä‚½‚ç‚²‚ß‚ñ‚È‚³‚¢B</P>
+<P># ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ç‚²ï¿½ß‚ï¿½È‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚ß‚¿‚á‚ß‚¿‚áƒqƒbƒg‚Å‚·B‚Æ‚Á‚Ä‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·Bzlib‚ÌZIP‚Ås‚«‚Ü‚·B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ß‚ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½qï¿½bï¿½gï¿½Å‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bzlibï¿½ï¿½ZIPï¿½Åsï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 4.1.12 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚Ý‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Tomcat 4.1.12 ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‰e‹¿‚ðŽó‚¯‚Ä Ž„‚à ‚Æ‚è‚ ‚¦‚¸’P‘Ì‚Å‚·‚ª Tomcat 4.1.12 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚Ý‚Ü‚µ‚½BWindows
-XP Pro + J2SE 1.4.0_01 ‚É exeƒ^ƒCƒv‚Ì”z•zƒ‚ƒWƒ…[ƒ‹‚ðŽg‚Á‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚µ‚½B‚Ü‚ A‚±‚ê‚ÍŠÈ’P‚ÉƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚½‚à‚Ì‚Å‚·‚ËBƒNƒŠƒbƒN”‰ñ‚ÅTomcat‚ªƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚·B<BR>
-‚Æ‚±‚ë‚ªƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄŽÀŽ{‚µ‚½‚Ì‚Í SampleƒT[ƒuƒŒƒbƒg‚ð“®‚©‚µ‚½‚¾‚¯ ‚Æ‚¢‚¤
-(‹êÎ) WinInetƒx[ƒX‚ÌC++ƒNƒ‰ƒCƒAƒ“ƒgŽÀ‘•‚ð‚µ‚æ‚¤‚Æ‚µ‚Ä‚¢‚é‚Ì‚Å‚·‚ªA‚»‚ê‚ÌŠÈ’PƒeƒXƒgƒT[ƒo‚Æ‚¢‚¤‚±‚Æ‚Å
-Tomcat‚ð“ü‚ê‚½‚Ì‚Å‚µ‚½B‚¿‚á‚ñ‚¿‚á‚ñB(‚Þ‚ë‚ñ ‚¢‚Â‚©ƒ}ƒWƒ‚É Tomcat‚ÆŒü‚«‡‚¤•K—v‚ª‚ ‚é‚æ‚¤‚ÉŽv‚¤‚Ì‚Å‚µ‚½)</P>
+<P>ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½Ì‚Å‚ï¿½ï¿½ï¿½ Tomcat 4.1.12 ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½BWindows
+XP Pro + J2SE 1.4.0_01 ï¿½ï¿½ exeï¿½^ï¿½Cï¿½vï¿½Ì”zï¿½zï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÄƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ÍŠÈ’Pï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËBï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Tomcatï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½Æ‚ï¿½ï¿½ë‚ªï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ Sampleï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½ð“®‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½ï¿½
+(ï¿½ï¿½ï¿½) WinInetï¿½xï¿½[ï¿½Xï¿½ï¿½C++ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ÌŠÈ’Pï¿½eï¿½Xï¿½gï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½
+Tomcatï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ñ‚¿‚ï¿½ï¿½B(ï¿½Þ‚ï¿½ï¿½ ï¿½ï¿½ï¿½Â‚ï¿½ï¿½}ï¿½Wï¿½ï¿½ï¿½ï¿½ Tomcatï¿½ÆŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽvï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½)</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig021204.src.html' , result='ig021204.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig021204-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">Java‚Ì—˜_‚ÆŽÀ‘H: ƒXƒŒƒbƒh‚Í‚Ç‚±‚ÖÁ‚¦‚½?</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RuntimeExceptionŒn—áŠO‚È‚Ç‚Å ƒXƒŒƒbƒh‚ª‰¹‚à‚È‚­Á‚¦‚Ä‚µ‚Ü‚¤–â‘è‚Ö‚ÌlŽ@B•ªÌ‚Å‚·‚ªŽ„‚à ‚±‚ê‚É”Y‚Ü‚³‚ê‚½‚±‚Æ‚ª‚ ‚è‚Ü‚·B(‚»‚ÌŽž‚Í ErrorŒn‚¾‚Á‚½‚Å‚·‚¯‚ê‚Ç‚à‚Ë)<LI><A HREF="http://www.mozilla.org/">Mozilla 1.2.1 ƒŠƒŠ[ƒX</A> <FONT size="-2"><A target="_blank" HREF="http://www.mozilla.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>‚³‚Ä ƒ_ƒEƒ“ƒ[ƒh‚Á<LI><A HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">WindowsƒT[ƒo‚ÍLinux‚æ‚èˆÀã‚ª‚èH</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Microsoft‚ªƒXƒ|ƒ“ƒT[‚Æ‚È‚Á‚½’²¸‚Ì•ñ‚Å‚Í Windows‚Ì•û‚ªˆÀã‚ª‚è‚È‚ñ‚Å‚·‚Á‚ÄB‰¿Ši–Ê‚Å‚Ì‘ˆ‚¢‚ÉŽ‚¿ž‚à‚¤‚Æ‚µ‚Ä‚¢‚é‚Ì‚Å‚·‚ËcB‚à‚Ì‚·‚²‚¢‚±‚Æ‚Å‚·B</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig021204-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">Javaï¿½Ì—ï¿½ï¿½_ï¿½ÆŽï¿½ï¿½H: ï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½Í‚Ç‚ï¿½ï¿½Öï¿½ï¿½ï¿½ï¿½ï¿½?</A> <FONT size="-2"><A target="_blank" HREF="http://www-6.ibm.com/jp/developerworks/java/021129/j_j-jtp0924.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>RuntimeExceptionï¿½nï¿½ï¿½Oï¿½È‚Ç‚ï¿½ ï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ö‚Ìlï¿½@ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½É”Yï¿½Ü‚ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ Errorï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½)<LI><A HREF="http://www.mozilla.org/">Mozilla 1.2.1 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A> <FONT size="-2"><A target="_blank" HREF="http://www.mozilla.org/">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>ï¿½ï¿½ï¿½ï¿½ ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½<LI><A HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">Windowsï¿½Tï¿½[ï¿½oï¿½ï¿½Linuxï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½H</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0212/03/xert_toc.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2002</FONT><BR>Microsoftï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Tï¿½[ï¿½Æ‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ñ‚Å‚ï¿½ Windowsï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½È‚ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ÄBï¿½ï¿½ï¿½iï¿½Ê‚Å‚Ì‘ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Ëcï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:46 $</address>
 </BODY>
 </HTML>

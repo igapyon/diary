@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/04/24 “ú‹L: Ubuntu 9.04 (Jaunty Jackalope) ³Ž®”ÅƒŠƒŠ[ƒX , GNU GPLv3 ‰ðà‘</TITLE>
-<META name="DESCRIPTION" content="¡A‚à‚Á‚Æ‚àŠˆ‹C‚Ì‚ ‚é Linux ƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â‚Å‚ ‚é Ubuntu ‚ÌÅVˆÀ’è”Å  9.04 ‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2009/04/24 ï¿½ï¿½ï¿½L: Ubuntu 9.04 (Jaunty Jackalope) ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X , GNU GPLv3 ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Cï¿½Ì‚ï¿½ï¿½ï¿½ Linux ï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚Â‚Å‚ï¿½ï¿½ï¿½ Ubuntu ï¿½ÌÅVï¿½ï¿½ï¿½ï¿½ï¿½  9.04 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/04/24 “ú‹L: Ubuntu 9.04 (Jaunty Jackalope) ³Ž®”ÅƒŠƒŠ[ƒX , GNU GPLv3 ‰ðà‘</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ¡A‚à‚Á‚Æ‚àŠˆ‹C‚Ì‚ ‚é Linux ƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â‚Å‚ ‚é Ubuntu ‚ÌÅVˆÀ’è”Å  9.04 ‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
+    <H2>2009/04/24 ï¿½ï¿½ï¿½L: Ubuntu 9.04 (Jaunty Jackalope) ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X , GNU GPLv3 ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Cï¿½Ì‚ï¿½ï¿½ï¿½ Linux ï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚Â‚Å‚ï¿½ï¿½ï¿½ Ubuntu ï¿½ÌÅVï¿½ï¿½ï¿½ï¿½ï¿½  9.04 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,31 +59,31 @@
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu 9.04 (Jaunty Jackalope) ³Ž®”ÅƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu 9.04 (Jaunty Jackalope) ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡A‚à‚Á‚Æ‚àŠˆ‹C‚Ì‚ ‚é Linux ƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â‚Å‚ ‚é <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> ‚ÌÅVˆÀ’è”Å 9.04
-‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Cï¿½Ì‚ï¿½ï¿½ï¿½ Linux ï¿½fï¿½Bï¿½Xï¿½https://www.igapyon.jp/igapyon/diary/tp://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> ï¿½ÌÅVï¿½ï¿½ï¿½ï¿½ï¿½ 9.04
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="http://journal.mycom.co.jp/news/2009/04/24/024/">ƒ}ƒCƒRƒ~: Ubuntu 9.04‚ª³Ž®ƒŠƒŠ[ƒX</A>
-  <LI><A href="http://www.ubuntulinux.jp/News/ubuntu904">Ubuntu Japanese Team: Ubuntu 9.04 ƒŠƒŠ[ƒX</A>
-  <LI><A href="http://sourceforge.jp/magazine/09/04/24/0234227">SF.jp: ‰pCanonicalAuUbuntu 9.04v³Ž®”ÅƒŠƒŠ[ƒX</A>
+  <LI><A href="http://journal.mycom.co.jp/news/2009/04/24/024/">ï¿½}ï¿½Cï¿½Rï¿½~: Ubuntu 9.04ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
+  <LI><A href="http://www.ubuntulinux.jp/News/ubuntu904">Ubuntu Japanese Team: Ubuntu 9.04 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
+  <LI><A href="http://sourceforge.jp/magazine/09/04/24/0234227">SF.jp: ï¿½pCanonicalï¿½Aï¿½uUbuntu 9.04ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GNU GPLv3 ’€ð‰ðà‘</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>GNU GPLv3 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>IPA ‚©‚ç GPL ver3 ‚Ì‰ðà‘‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
+<P>IPA ï¿½ï¿½ï¿½ï¿½ GPL ver3 ï¿½Ì‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="http://ossipedia.ipa.go.jp/doc/187/">IPA: GNU GPLv3 ’€ð‰ðà‘</A>
+  <LI><A href="http://ossipedia.ipa.go.jp/doc/187/">IPA: GNU GPLv3 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>
 </UL>
-<P>ŽžŠÔ‚ð‚Â‚­‚Á‚ÄA‚º‚Ð“Ç‚ñ‚Å‚Ý‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ð“Ç‚ï¿½Å‚Ý‚Ü‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/06/24 “ú‹L: JUnit‚©‚çPL/SQLƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚Í‰Â”\‚©H</TITLE>
-<META name="DESCRIPTION" content="ƒAƒCƒfƒA‚Ìƒƒ‚‚Å‚·BJUnit‚©‚çPL/SQL‚Å‘‚©‚ê‚½ƒ\[ƒXƒR[ƒh‚ÌƒeƒXƒeƒBƒ“ƒO‚Í‰Â”\‚©‚Ç‚¤‚©A‚É‚Â‚¢‚Ä‚Å‚·B ¨ ŽÀŠJ”­‚É JUnit‚©‚ç‚ÌPL/SQL’P‘ÌŽŽŒ±‚ðŽÀ‘•‚µA‚©‚È‚èŒø‰Ê‚ª‚‚¢‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JUnit,PL/SQL,ƒ†ƒjƒbƒgƒeƒXƒg,XP,’P‘ÌŽŽŒ±">
+<TITLE>2004/06/24 ï¿½ï¿½ï¿½L: JUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Rï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Í‰Â”\ï¿½ï¿½ï¿½H</TITLE>
+<META name="DESCRIPTION" content="ï¿½Aï¿½Cï¿½fï¿½Aï¿½Ìƒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BJUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ìƒeï¿½Xï¿½eï¿½Bï¿½ï¿½ï¿½Oï¿½Í‰Â”\ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½É‚Â‚ï¿½ï¿½Ä‚Å‚ï¿½ï¿½B ï¿½ï¿½ ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ JUnitï¿½ï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JUnit,PL/SQL,ï¿½ï¿½ï¿½jï¿½bï¿½gï¿½eï¿½Xï¿½g,XP,ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/06/24 “ú‹L: JUnit‚©‚çPL/SQLƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚Í‰Â”\‚©H</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,JUnit,PL/SQL,ƒ†ƒjƒbƒgƒeƒXƒg,XP,’P‘ÌŽŽŒ±] ƒAƒCƒfƒA‚Ìƒƒ‚‚Å‚·BJUnit‚©‚çPL/SQL‚Å‘‚©‚ê‚½ƒ\[ƒXƒR[ƒh‚ÌƒeƒXƒeƒBƒ“ƒO‚Í‰Â”\‚©‚Ç‚¤‚©A‚É‚Â‚¢‚Ä‚Å‚·B ¨ ŽÀŠJ”­‚É JUnit‚©‚ç‚ÌPL/SQL’P‘ÌŽŽŒ±‚ðŽÀ‘•‚µA‚©‚È‚èŒø‰Ê‚ª‚‚¢‚±‚Æ‚ª‚í‚©‚è‚Ü‚µ‚½B</P>
+    <H2>2004/06/24 ï¿½ï¿½ï¿½L: JUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Rï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Í‰Â”\ï¿½ï¿½ï¿½H</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,JUnit,PL/SQL,ï¿½ï¿½ï¿½jï¿½bï¿½gï¿½eï¿½Xï¿½g,XP,ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½] ï¿½Aï¿½Cï¿½fï¿½Aï¿½Ìƒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BJUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ìƒeï¿½Xï¿½eï¿½Bï¿½ï¿½ï¿½Oï¿½Í‰Â”\ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½É‚Â‚ï¿½ï¿½Ä‚Å‚ï¿½ï¿½B ï¿½ï¿½ ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ JUnitï¿½ï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½í‚©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,155 +59,155 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒAƒCƒfƒAƒƒ‚: JUnit‚©‚çPL/SQLƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚Í‰Â”\‚©H</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Aï¿½Cï¿½fï¿½Aï¿½ï¿½ï¿½ï¿½: JUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Rï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Í‰Â”\ï¿½ï¿½ï¿½H</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JUnit‚âDBUnit‚ð—˜—p‚µ‚Ä PL/SQLƒR[ƒh‚ð’P‘ÌŽŽŒ±‚Å‚«‚È‚¢‚©‚Ç‚¤‚©lŽ@’†‚Å‚·BJDBC‚ÌCallableStatementŒo—R‚ÅŒÄ‚Ño‚µ‚ÄŽŽŒ±‚·‚éA‚Æ‚¢‚¤‚ ‚ñ‚Î‚¢‚Å‚·BsetUp‚È‚Ç‚É‘O€”õ‚Æ‚µ‚Ä‚Ìƒe[ƒuƒ‹ƒf[ƒ^‚ð“Ç‚Ýž‚Ü‚¹‚ÄŽŽŒ±‚µ‚Ü‚·B<BR>
-AAA‚±‚ê‚Á‚Ä¢ŠÔˆê”Ê“I‚É ‚²‚­‚Ó‚Â`‚ÌƒAƒCƒfƒA‚È‚Ì‚©‚È‚ŸcB‚ÆA‚Ú`‚Á‚ÆlŽ@’†B</P>
-<P>Oracle‘¤‚ÌŠÂ‹«‚É‚Í‰½‚àƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚È‚¢‰Â”\«‚à‚ ‚é‚Ì‚ÅAPL/SQLƒlƒBƒeƒBƒu‚È’P‘ÌŽŽŒ±ƒc[ƒ‹‚Å‚Í“s‡‚ªˆ«‚¢‚æ‚¤‚É‘z‘œ‚µ‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff0000">2004.06.25 ’Ç‹L</FONT> Â–Ø~‚³‚ñ‚É Šî–{“I‚È CallableStatement‚ÌŽg‚¢ŸŽè‚ð’²‚×‚Ä‚à‚ç‚¢‚Ü‚µ‚½B</P>
+<P>JUnitï¿½ï¿½DBUnitï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ PL/SQLï¿½Rï¿½[ï¿½hï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½lï¿½@ï¿½ï¿½ï¿½Å‚ï¿½ï¿½BJDBCï¿½ï¿½CallableStatementï¿½oï¿½Rï¿½ÅŒÄ‚Ñoï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½Å‚ï¿½ï¿½BsetUpï¿½È‚Ç‚É‘Oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚Ìƒeï¿½[ï¿½uï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½Ç‚Ýï¿½ï¿½Ü‚ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½Aï¿½Aï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½Ôˆï¿½Ê“Iï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ó‚Â`ï¿½ÌƒAï¿½Cï¿½fï¿½Aï¿½È‚Ì‚ï¿½ï¿½È‚ï¿½ï¿½cï¿½Bï¿½ÆAï¿½Ú`ï¿½ï¿½ï¿½Ælï¿½@ï¿½ï¿½ï¿½B</P>
+<P>Oracleï¿½ï¿½ï¿½ÌŠÂ‹ï¿½ï¿½É‚Í‰ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAPL/SQLï¿½lï¿½Bï¿½eï¿½Bï¿½uï¿½È’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚Í“sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‘zï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2004.06.25 ï¿½Ç‹L</FONT> ï¿½Â–Ø~ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½{ï¿½Iï¿½ï¿½ CallableStatementï¿½ÌŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ð’²‚×‚Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://www.idevelopment.info/data/Programming/java/jdbc/PLSQL_and_JDBC/SUB_PLSQLAndJDBC.shtml">http://www.idevelopment.info/data/Programming/java/jdbc/PLSQL_and_JDBC/SUB_PLSQLAndJDBC.shtml</A>
 </UL>
-<P>ŽŸ‚ÍAPL/SQLƒR[ƒhã‚Å Java‚Æƒ}ƒbƒsƒ“ƒO‰Â”\‚Èˆø”‚ÌŒ^‚Ìô‚¢o‚µ‚Å‚·Bƒ|ƒCƒ“ƒg‚Í</P>
+<P>ï¿½ï¿½ï¿½ÍAPL/SQLï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ Javaï¿½Æƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½Â”\ï¿½Èˆï¿½ï¿½ï¿½ï¿½ÌŒ^ï¿½Ìô‚¢oï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½ï¿½</P>
 <UL>
-  <LI>java.sql.*ˆÈ‰º‚¾‚¯‚É§ŒÀ‚µ‚½”ÍˆÍ‚ÅAPL/SQL‘¤‚Ìˆø”‚ð‹K’è‚·‚×‚«‚©‚Ç‚¤‚©H
-  <LI>’P‘ÌŽŽŒ±s’ö‚È‚Ì‚¾‚©‚çoracle.*‚ð—˜—p‚µ‚Ä‚à—Ç‚¢A‚Æ”»’f‚µ‚Ä oracle.*‚ÌJDBC‚Ì”ÍˆÍ‚ÅAPL/SQL‘¤‚Ìˆø”‚ð‹K’è‚µ‚Ä‚à—Ç‚¢‚Ì‚©‚Ç‚¤‚©H
-  <LI>‚Ü‚Á‚½‚­JDBC‘¤‚©‚ç‚ÌŒÄ‚Ño‚µ‚ÉŒü‚¢‚Ä‚¢‚È‚¢ PL/SQL‘¤‚ÌŒ^‚Í‘¶Ý‚·‚é‚Ì‚©‚Ç‚¤‚©H
-  ‚½‚Æ‚¦‚Î”z—ñŒ^‚Æ‚©‚Í JDBC‚©‚çŒÄ‚Ño‚¹‚é‚Ì‚©H
+  <LI>java.sql.*ï¿½È‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍˆÍ‚ÅAPL/SQLï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½è‚·ï¿½×‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H
+  <LI>ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½oracle.*ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Aï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ oracle.*ï¿½ï¿½JDBCï¿½Ì”ÍˆÍ‚ÅAPL/SQLï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½è‚µï¿½Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H
+  <LI>ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ PL/SQLï¿½ï¿½ï¿½ÌŒ^ï¿½Í‘ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H
+  ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Î”zï¿½ï¿½^ï¿½Æ‚ï¿½ï¿½ï¿½ JDBCï¿½ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½H
 </UL>
-<P>‚È‚Ç‚È‚ÇB</P>
-<P><FONT color="#ff0000">2004.06.26’Ç‹L</FONT> Â–Ø~‚³‚ñ‚Éˆø‚«‘±‚«’²‚×‚Ä‚à‚ç‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½È‚Ç‚È‚ÇB</P>
+<P><FONT color="#ff0000">2004.06.26ï¿½Ç‹L</FONT> ï¿½Â–Ø~ï¿½ï¿½ï¿½ï¿½Éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Ä‚ï¿½ï¿½ç‚¢ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Java Programming Examples (JDBC‚É‚æ‚éPL/SQL ƒR[ƒ‹‚ÌƒTƒ“ƒvƒ‹)<BR>
+  <LI>Java Programming Examples (JDBCï¿½É‚ï¿½ï¿½PL/SQL ï¿½Rï¿½[ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½)<BR>
   <A HREF="http://www.idevelopment.info/data/Programming/java/PROGRAMMING_Java_Programming.shtml">http://www.idevelopment.info/data/Programming/java/PROGRAMMING_Java_Programming.shtml</A>
-  <LI>JDBC API “ü–å(SUN‚ÌƒTƒCƒg)<BR>
+  <LI>JDBC API ï¿½ï¿½ï¿½ï¿½(SUNï¿½ÌƒTï¿½Cï¿½g)<BR>
   <A HREF="http://java.sun.com/j2se/1.4/ja/docs/ja/guide/jdbc/getstart/GettingStartedTOC.fm.html">http://java.sun.com/j2se/1.4/ja/docs/ja/guide/jdbc/getstart/GettingStartedTOC.fm.html</A>
-  <LI>JUnit, JDBC, PL-SQL Procedures(JUnit, JDBC, PL/SQL@‚Å‚Ì‹LŽ–)<BR>
+  <LI>JUnit, JDBC, PL-SQL Procedures(JUnit, JDBC, PL/SQLï¿½@ï¿½Å‚Ì‹Lï¿½ï¿½)<BR>
   <A HREF="http://www.bikle.com/TThier/Languages/java/JUnitDemo/">http://www.bikle.com/TThier/Languages/java/JUnitDemo/</A>
-  <LI>Oracle‚Ì‚½‚ß‚ÌJava ŠJ”­‹Z–@(‚±‚Ì–{‚Ì‘æ‚RÍ‚Æ‘æ‚SÍ‚ðŒ©‚Ä‚Ý‚½‚¢BBB)<BR>
+  <LI>Oracleï¿½Ì‚ï¿½ï¿½ß‚ï¿½Java ï¿½Jï¿½ï¿½ï¿½Zï¿½@(ï¿½ï¿½ï¿½Ì–{ï¿½Ì‘ï¿½Rï¿½Í‚Æ‘ï¿½Sï¿½Í‚ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½Bï¿½Bï¿½B)<BR>
   <A HREF="http://www.pearsoned.co.jp/washo/db/wa_db34-j.html">http://www.pearsoned.co.jp/washo/db/wa_db34-j.html</A>
-  <LI>JDBCEORACLE ƒXƒgƒAƒhƒvƒƒV[ƒWƒƒƒR[ƒ‹iˆê‰žƒTƒ“ƒvƒ‹‚ªŒfÚ‚³‚ê‚Ä‚é‚Ì‚Åƒ`ƒFƒbƒNj<BR>
+  <LI>JDBCï¿½EORACLE ï¿½Xï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½Rï¿½[ï¿½ï¿½ï¿½iï¿½ê‰žï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½fï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½Ì‚Åƒ`ï¿½Fï¿½bï¿½Nï¿½j<BR>
   <A HREF="http://kamakura.cool.ne.jp/oppama/swjd/jdbccstmt.html">http://kamakura.cool.ne.jp/oppama/swjd/jdbccstmt.html</A>
-  <LI>SQLUnit Project Home Page(PL/SQL ‚É‚àŽg‚¦‚éUnitƒeƒXƒg‚Ì‚æ‚¤‚Å‚·BŽQl‚É‚È‚è‚»‚¤‚Å‚·)<BR>
+  <LI>SQLUnit Project Home Page(PL/SQL ï¿½É‚ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Unitï¿½eï¿½Xï¿½gï¿½Ì‚æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½Qï¿½lï¿½É‚È‚è‚»ï¿½ï¿½ï¿½Å‚ï¿½)<BR>
   <A HREF="http://sqlunit.sourceforge.net/">http://sqlunit.sourceforge.net/</A>
-  <LI>utPLSQLƒvƒƒWƒFƒNƒg‚Ö‚æ‚¤‚±‚»(PL/SQLƒfƒxƒƒbƒp[‚Ì‚½‚ß‚Ìƒ†ƒjƒbƒgƒeƒXƒgƒc[ƒ‹‚¾‚»‚¤‚Å‚·)<BR>
+  <LI>utPLSQLï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½Ö‚æ‚¤ï¿½ï¿½ï¿½ï¿½(PL/SQLï¿½fï¿½xï¿½ï¿½ï¿½bï¿½pï¿½[ï¿½Ì‚ï¿½ï¿½ß‚Ìƒï¿½ï¿½jï¿½bï¿½gï¿½eï¿½Xï¿½gï¿½cï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½)<BR>
   <A HREF="http://www.geocities.co.jp/SiliconValley-Oakland/8038/utplsql_sourceforge.html">http://www.geocities.co.jp/SiliconValley-Oakland/8038/utplsql_sourceforge.html</A>
 </UL>
-<P>Oracle9i JDBCŠJ”­ŽÒƒKƒCƒh‚¨‚æ‚ÑƒŠƒtƒ@ƒŒƒ“ƒX (‚±‚ê‚Íƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‰{——‚·‚é)</P>
+<P>Oracle9i JDBCï¿½Jï¿½ï¿½ï¿½ÒƒKï¿½Cï¿½hï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½X (ï¿½ï¿½ï¿½ï¿½Íƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ä‰{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)</P>
 <UL>
-  <LI>‘æ‚RÍ‚Éƒf[ƒ^Œ^‚Ìƒ}ƒbƒsƒ“ƒO‚ªÚ‚µ‚­ŒfÚ‚³‚ê‚Ä‚¢‚Ü‚·B
-  <LI>‘æ‚P‚XÍ‚É‚æ‚é‚ÆAJDBC‚ðŽg‚Á‚½PL/SQLƒXƒgƒAƒhƒvƒƒV[ƒWƒƒƒR[ƒ‹‚Å‚ÍAƒpƒ‰ƒ[ƒ^‚É
-  BooleanŒ^‚ðŠÜ‚ÞƒvƒƒV[ƒWƒƒ‚ÍƒR[ƒ‹‚Å‚«‚È‚¢‚æ‚¤‚Å‚·B
-  <LI>INTEGERŒ^‚Ìˆø”‚ðŽ‚ÂƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‚ðì¬‚µ‚ÄA‚»‚Ì’†‚ÅŠÔÚ“I‚ÉBooleanŒ^‚Ìƒpƒ‰ƒƒ^‚ðŽ‚ÂƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‚ðƒR[ƒ‹‚·‚é‚æ‚¤‚É‚µ‚Ä‰º‚³‚¢‚Æ‚ ‚è‚Ü‚·B—v‚·‚é‚ÉAINTEGERŒ^ƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‚ðì¬‚µ‚Äƒ‰ƒbƒv‚µ‚È‚³‚¢‚Æ‚Ì‚±‚Æ‚Å‚·B
+  <LI>ï¿½ï¿½Rï¿½Í‚Éƒfï¿½[ï¿½^ï¿½^ï¿½Ìƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½fï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½Pï¿½Xï¿½Í‚É‚ï¿½ï¿½ÆAJDBCï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½PL/SQLï¿½Xï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½Rï¿½[ï¿½ï¿½ï¿½Å‚ÍAï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½
+  Booleanï¿½^ï¿½ï¿½ï¿½Ü‚Þƒvï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½ÍƒRï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B
+  <LI>INTEGERï¿½^ï¿½Ìˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂƒXï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ì’ï¿½ï¿½ÅŠÔÚ“Iï¿½ï¿½Booleanï¿½^ï¿½Ìƒpï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ÂƒXï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½ï¿½ÉAINTEGERï¿½^ï¿½Xï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Äƒï¿½ï¿½bï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½B
 </UL>
 
 <HR>
-<P><FONT color="#ff0000">2004.06.25</FONT> ƒXƒK‚³‚ñ‚ÌƒcƒbƒRƒ~<BR>Subject:  [igapyon:01300] 2004/06/24 “ú‹L : JUnit ‚©‚ç PL/SQL ƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚Í‰Â”\‚©H<BR>
-ƒXƒK‚Å‚·B<BR>
+<P><FONT color="#ff0000">2004.06.25</FONT> ï¿½Xï¿½Kï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~<BR>Subject:  [igapyon:01300] 2004/06/24 ï¿½ï¿½ï¿½L : JUnit ï¿½ï¿½ï¿½ï¿½ PL/SQL ï¿½Rï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Í‰Â”\ï¿½ï¿½ï¿½H<BR>
+ï¿½Xï¿½Kï¿½Å‚ï¿½ï¿½B<BR>
 <BR>
-DAO ƒNƒ‰ƒX‚Ìƒƒ\ƒbƒh‚ð PL/SQL ‚Ìƒ‰ƒbƒp[‚ÆŒ©‚È‚µ‚ÄA’P‘ÌƒeƒXƒg‚ð‚â‚Á‚Ä‚¢‚Ü‚·B¡‚Ü‚³‚ÉB<BR>
-# PL/SQL ‚Ì’P‘ÌƒeƒXƒg‚Æ‚Í‚¢‚¦‚È‚¢‚©‚àB<BR>
-# –{”Ô‚Å‚à‚»‚Ì‚Ü‚ÜŽg‚¤ƒƒ\ƒbƒh‚Å‚·‚µB<BR>
+DAO ï¿½Nï¿½ï¿½ï¿½Xï¿½Ìƒï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ PL/SQL ï¿½Ìƒï¿½ï¿½bï¿½pï¿½[ï¿½ÆŒï¿½ï¿½È‚ï¿½ï¿½ÄAï¿½Pï¿½Ìƒeï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ÉB<BR>
+# PL/SQL ï¿½Ì’Pï¿½Ìƒeï¿½Xï¿½gï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B<BR>
+# ï¿½{ï¿½Ô‚Å‚ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚ÜŽgï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½Å‚ï¿½ï¿½ï¿½ï¿½B<BR>
 <BR>
-&gt; ‚Ü‚Á‚½‚­JDBC‘¤‚©‚ç‚ÌŒÄ‚Ño‚µ‚ÉŒü‚¢‚Ä‚¢‚È‚¢ PL/SQL‘¤‚ÌŒ^‚Í<BR>
-&gt; ‘¶Ý‚·‚é‚Ì‚©‚Ç‚¤‚©H‚½‚Æ‚¦‚Î”z—ñŒ^‚Æ‚©‚Í JDBC‚©‚çŒÄ‚Ño‚¹‚é‚Ì‚©H<BR>
+&gt; ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒÄ‚Ñoï¿½ï¿½ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ PL/SQLï¿½ï¿½ï¿½ÌŒ^ï¿½ï¿½<BR>
+&gt; ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Î”zï¿½ï¿½^ï¿½Æ‚ï¿½ï¿½ï¿½ JDBCï¿½ï¿½ï¿½ï¿½Ä‚Ñoï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½H<BR>
 </P>
 <UL>
-  <LI>RECORD Œ^‚Íƒ_ƒ‚Å‚·B
-  <LI>Ž„‚Ìó‹µ‚Å‚ÍAƒŒƒKƒV[‚È PL/SQL ‚ð‚»‚Ì‚Ü‚ÜŽg‚¤‚Æ‚¢‚¤‘O’ñ‚È‚Ì‚ÅAOBJECT
-Œ^‚É•ÏŠ·‚µ‚ÄŒÄ‚Ño‚·ƒ‰ƒbƒp[‚È PL/SQL ‚ðì‚è‚Ü‚µ‚½B<BR>
-  JPublisher ‚ÌƒhƒLƒ…ƒƒ“ƒg‚ÉÚ‚Á‚Ä‚¢‚é•û–@‚Å‚·B
-  <LI>OBJECT Œ^‚É‚Í java.sql.SQLData ‚ðŽÀ‘•‚µ‚½ƒNƒ‰ƒX‚ðŽg‚Á‚Ä‚¢‚Ü‚·B
-  <LI>TABLE Œ^‚É‚Í java.sql.ARRAY ‚ðŽÀ‘•‚µ‚½ƒNƒ‰ƒX‚ðŽg‚¤A‚Í‚¸ (–¢Šm”F)B
+  <LI>RECORD ï¿½^ï¿½Íƒ_ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½Ìó‹µ‚Å‚ÍAï¿½ï¿½ï¿½Kï¿½Vï¿½[ï¿½ï¿½ PL/SQL ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚ÜŽgï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½È‚Ì‚ÅAOBJECT
+ï¿½^ï¿½É•ÏŠï¿½ï¿½ï¿½ï¿½ÄŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½bï¿½pï¿½[ï¿½ï¿½ PL/SQL ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+  JPublisher ï¿½Ìƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Å‚ï¿½ï¿½B
+  <LI>OBJECT ï¿½^ï¿½É‚ï¿½ java.sql.SQLData ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>TABLE ï¿½^ï¿½É‚ï¿½ java.sql.ARRAY ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Aï¿½Í‚ï¿½ (ï¿½ï¿½ï¿½mï¿½F)ï¿½B
 </UL>
 <P>--------------------------------------------------------------<BR>
-ƒXƒK<BR>
+ï¿½Xï¿½K<BR>
 --------------------------------------------------------------</P>
 <HR>
-<P>‚±‚±‚©‚ç<A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚È‚é‚Ù‚ÇI ‚±‚Ìƒlƒ^‚ÍA’Êí‚Á‚Û‚­A‚»‚µ‚Ä ‚²‚­Ž©‘R‚Éƒj[ƒY‚Ì‚ ‚é˜b‘è‚¾‚Á‚½‚Ì‚Å‚·‚ËBˆÀS‚µ‚Ü‚µ‚½B</P>
-<P><FONT color="#ff0000">2005.06.17’Ç‹L</FONT> Œã“ú’k‚ð‹LÚ‚µ‚Ü‚·BŒ‹‹Ç JUnit‚©‚çPL/SQL‚ÌƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚É‚Â‚¢‚Ä<STRONG>–{ŠJ”­‚Å‚Î‚è‚Î‚è‚ÉŠˆ—p</STRONG>‚µ‚Ü‚µ‚½B¡Žv‚¦‚ÎAJUnit‚É‚æ‚é PL/SQL’P‘ÌŽŽŒ±‚Æ‚¢‚¤ŽŽŒ±•û–@–³‚µ‚Å‚ÍPL/SQLƒR[ƒh‚Ì’P‘ÌŽŽŒ±‚ÍŽÀŽ{‚ª”ñí‚É¢“ï‚Å‚ ‚Á‚½‚±‚Æ‚Æ‘z‘œ‚µ‚Ü‚·BJUnit‚©‚ç‚Ì
-PL/SQL’P‘ÌŽŽŒ±‚ª‰Â”\‚Å‚ ‚Á‚½‚Ì‚ÅAPL/SQL‚ÌŠeƒR[ƒh‚É‘Î‚·‚éŽŽŒ±‚ª‚Æ‚Ä‚àŽÀŽ{‚µ‚â‚·‚©‚Á‚½‚Å‚·B‚Ü‚½ JUnit‚©‚ç PL/SQL‚Ì’P‘½ŽŽŒ±‚ªŽÀŽ{‰Â”\‚Å‚ ‚é‚±‚Æ‚ªŽÀØ‚Å‚«‚½‚Ì‚ÅAPL/SQL‚ð¡Œã‚ÌƒVƒXƒeƒ€ŠJ”­‚É“±“ü‚µ‚â‚·‚­‚È‚è‚Ü‚µ‚½BPL/SQL‚Å’P‘ÌŽŽŒ±‚ªŽÀŽ{‚Å‚«‚éŠÂ‹«‚ð“¾‚é‚±‚Æ‚ª‚Å‚«‚½‚Ì‚ÅAPL/SQL‚Í—˜—p‚µ‚ª‚¢‚Ì‚ ‚é<STRONG>‘f°‚ç‚µ‚¢Œ¾Œê</STRONG>‚Æ‚¢‚¤ˆÊ’u‚Ã‚¯‚ÉŽ„‚Ì’†‚Å•Ï‚í‚è‚Ü‚µ‚½B</P>
-<P><FONT color="#ff0000">2005.06.14’Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> EE ‚É ƒXƒgƒAƒhƒvƒƒV[ƒWƒƒ‘Î‰ž‚ð‰Á‚¦‚éÛ‚É•K—v‚É‚È‚é‚Ì‚ÅAÄ“x‚±‚Ìƒy[ƒW‚ðƒ`ƒFƒbƒN‚µ‚Ü‚µ‚½BCallableStatement‚É‚Â‚¢‚Ä‚ÍA”‰ñ‚Ù‚ÇŽdŽ–‚Åˆµ‚Á‚½‚±‚Æ‚Í‚ ‚é‚Ì‚Å‚·‚ªA‚Ü‚¾Ž„‚Ì‘Ì‚É“éõ‚ñ‚Å‚¢‚È‚¢‚Ì‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlgapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½È‚ï¿½Ù‚ÇI ï¿½ï¿½ï¿½Ìƒlï¿½^ï¿½ÍAï¿½Êï¿½ï¿½ï¿½Û‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½Éƒjï¿½[ï¿½Yï¿½Ì‚ï¿½ï¿½ï¿½bï¿½è‚¾ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.06.17ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½kï¿½ï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ JUnitï¿½ï¿½ï¿½ï¿½PL/SQLï¿½ÌƒRï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½<STRONG>ï¿½{ï¿½Jï¿½ï¿½ï¿½Å‚Î‚ï¿½Î‚ï¿½ÉŠï¿½ï¿½p</STRONG>ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÎAJUnitï¿½É‚ï¿½ï¿½ PL/SQLï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½PL/SQLï¿½Rï¿½[ï¿½hï¿½Ì’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Æ‘zï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BJUnitï¿½ï¿½ï¿½ï¿½ï¿½
+PL/SQLï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAPL/SQLï¿½ÌŠeï¿½Rï¿½[ï¿½hï¿½É‘Î‚ï¿½ï¿½éŽŽï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Ü‚ï¿½ JUnitï¿½ï¿½ï¿½ï¿½ PL/SQLï¿½Ì’Pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Â”\ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ø‚Å‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAPL/SQLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â‚·ï¿½ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BPL/SQLï¿½Å’Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Å‚ï¿½ï¿½ï¿½Â‹ï¿½ï¿½ð“¾‚é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAPL/SQLï¿½Í—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½<STRONG>ï¿½fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</STRONG>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ê’uï¿½Ã‚ï¿½ï¿½ÉŽï¿½ï¿½Ì’ï¿½ï¿½Å•Ï‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2005.06.14ï¿½Ç‹L</FONT> <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> EE ï¿½ï¿½ ï¿½Xï¿½gï¿½Aï¿½hï¿½vï¿½ï¿½ï¿½Vï¿½[ï¿½Wï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É•Kï¿½vï¿½É‚È‚ï¿½Ì‚ÅAï¿½Ä“xï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BCallableStatementï¿½É‚Â‚ï¿½ï¿½Ä‚ÍAï¿½ï¿½ï¿½ï¿½Ù‚ÇŽdï¿½ï¿½ï¿½Åˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‘Ì‚É“ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‘Ð: ‚â‚³‚µ‚¢Oracle PL/SQL“ü–å</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½: ï¿½â‚³ï¿½ï¿½ï¿½ï¿½Oracle PL/SQLï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹}ç¯ PL/SQL‚Ì“ü–å‚ðs‚¤‚±‚Æ‚É‚È‚Á‚½‚Ì‚ÅA’è”Ô‚ÌPL/SQL“ü–å–{‚ð”~“c‹IˆÉ‘‰®‚Å”ƒ‚Á‚Ä‚«‚Ü‚µ‚½B</P>
+<P>ï¿½}ï¿½ PL/SQLï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½Ô‚ï¿½PL/SQLï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½~ï¿½cï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½Å”ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>‚â‚³‚µ‚¢Oracle PL/SQL“ü–å<BR>
+  <LI>ï¿½â‚³ï¿½ï¿½ï¿½ï¿½Oracle PL/SQLï¿½ï¿½ï¿½ï¿½<BR>
   
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig040624.src.html' , result='ig040624.html' -->
 <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4798102253/igapyondiary-22">amazon.co.jp: 4798102253</A>
 </UL>
-<P>‚¿‚È‚Ý‚É‚±‚Ì–{‚ÍAˆÈ‘O <A href="ig040420.html">Oracle Java Extreme 2004 (2004-04-23ŠJÃ)‚ÌJava Guru</A>‚É ƒpƒlƒŠƒXƒg‚Æ‚µ‚ÄŽ„‚Æˆê‚ÉŽQ‰Á‚³‚ê‚Ä‚ç‚ê‚½ˆêŽu’B–ç‚³‚Ü‚ª’˜ŽÒ‚³‚ñ‚Å‚·B“à—e‚ð“Ç‚ñ‚Å‚¢‚é‚ÆA‚ ‚½‚©‚à
-ˆêŽu‚³‚ñ‚ªŒê‚è‚©‚¯‚Ä‚­‚é‚æ‚¤‚ÈA‚»‚ñ‚ÈŠ´‚¶‚ª‚µ‚Ü‚µ‚½B<BR>
-•¶‘Ì‚ÌD‚Ý‚Æ‚Å‚à‚¢‚¤‚Ì‚Å‚µ‚å‚¤‚©AŒ‹\Ž„‚Ì•¶‘Ì‚ÌD‚Ý‚ÆŽ—‚Ä‚¢‚Ü‚·B‚Æ‚Ä‚à“Ç‚Ýi‚ß‚â‚·‚­Š´‚¶‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½È‚Ý‚É‚ï¿½ï¿½Ì–{ï¿½ÍAï¿½È‘O <A href="ig040420.html">Oracle Java Extreme 2004 (2004-04-23ï¿½Jï¿½ï¿½)ï¿½ï¿½Java Guru</A>ï¿½ï¿½ ï¿½pï¿½lï¿½ï¿½ï¿½Xï¿½gï¿½Æ‚ï¿½ï¿½ÄŽï¿½ï¿½Æˆêï¿½ÉŽQï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ê‚½ï¿½ï¿½uï¿½Bï¿½ç‚³ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½eï¿½ï¿½Ç‚ï¿½Å‚ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½uï¿½ï¿½ï¿½ñ‚ªŒï¿½è‚©ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÈAï¿½ï¿½ï¿½ï¿½ÈŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Ì‚ÌDï¿½Ý‚Æ‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Ì‚ÌDï¿½Ý‚ÆŽï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Æ‚Ä‚ï¿½ï¿½Ç‚Ýiï¿½ß‚â‚·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>WebƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒT[ƒoŽž‘ã‚É‚ÍAƒ~ƒhƒ‹ƒEƒFƒA‚Ìƒ\[ƒXƒR[ƒh‚Í•K{ƒAƒCƒeƒ€‚Å‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Webï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½~ï¿½hï¿½ï¿½ï¿½Eï¿½Fï¿½Aï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Í•Kï¿½{ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½Å‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚Ç‚¤‚àAJavaŒn‚ÌƒT[ƒoƒTƒCƒhŠJ”­‚É‚¨‚¢‚ÄŒ°’˜‚È‚æ‚¤‚ÉŠ´‚¶‚é‚±‚Æ‚Ìˆê‚Â‚ªAŠî–{“I‚Èƒ~ƒhƒ‹ƒEƒFƒA‚Íƒ\[ƒXƒR[ƒh‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é‚Æ‚¢‚¤‚Ì‚ª‚Æ‚Á‚Ä‚à‘åØ‚Å‚·BˆÙí‚ðƒ\[ƒXƒR[ƒh‚ð—p‚¢‚Ä‰ðÍ‚Å‚«‚é‚©‚ç‚Å‚·BEclipse‚ðŽg‚Á‚½‚çAŠÈ’P‚ÉƒXƒeƒbƒvƒCƒ“ŽÀs‚ª‰Â”\‚Å‚·‚à‚Ì‚ËBƒ\[ƒXƒR[ƒh‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚ÄA‚µ‚©‚àƒI[ƒvƒ“ƒ\[ƒX‚Æ‚¢‚¤Œ`‘Ô‚ðŽæ‚Á‚Ä‚¢‚é‚©‚ç‚±‚»A‚Í‚¶‚ß‚ÄJava‚ÅWebŠJ”­‚ª‰Â”\‚É‚È‚é‚æ‚¤‚Èc‚»‚ñ‚ÈˆóÛ‚ðŠ´‚¶‚éo—ˆŽ–‚ÉA¡“úAŽdŽ–‚Åo‰ï‚Á‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½AJavaï¿½nï¿½ÌƒTï¿½[ï¿½oï¿½Tï¿½Cï¿½hï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄŒï¿½ï¿½ï¿½ï¿½È‚æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Ìˆï¿½Â‚ï¿½ï¿½Aï¿½ï¿½{ï¿½Iï¿½Èƒ~ï¿½hï¿½ï¿½ï¿½Eï¿½Fï¿½Aï¿½Íƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ø‚Å‚ï¿½ï¿½Bï¿½Ùï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½pï¿½ï¿½ï¿½Ä‰ï¿½Í‚Å‚ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½BEclipseï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½È’Pï¿½ÉƒXï¿½eï¿½bï¿½vï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ì‚ËBï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Æ‚ï¿½ï¿½ï¿½ï¿½`ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ç‚±ï¿½ï¿½ï¿½Aï¿½Í‚ï¿½ï¿½ß‚ï¿½Javaï¿½ï¿½Webï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½É‚È‚ï¿½æ‚¤ï¿½Ècï¿½ï¿½ï¿½ï¿½Èˆï¿½Û‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½dï¿½ï¿½ï¿½Åoï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>j ’è”Ô‚Å‚´‚Ï‚½–{ ‘•â‰ü’ù”ÅŠ§s</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½j ï¿½ï¿½Ô‚Å‚ï¿½ï¿½Ï‚ï¿½ï¿½{ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅŠï¿½ï¿½s</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.hyuki.com/" TITLE="Ž„‚ª‚à‚Á‚Æ‚à‘¸Œh‚·‚éî•ñ‹Zpƒ‰ƒCƒ^[‚ÌŒ‹é‚³‚ÜB”Þ‚Ì‚í‚©‚è‚â‚·‚¢•¶Í‚Í Ž„‚½‚¿‚ª–¢’m‚Ìî•ñ‹Zp‚ÉÚ‚·‚éÛ‚É ‚Æ‚Ä‚à—E‹C‚Ã‚¯‚ç‚ê‚Ä‰ž‰‡‚³‚ê‚Ü‚·BŒ‹é_‚³‚ñ‚Ì‘Ð‚ª‚ ‚éƒWƒƒƒ“ƒ‹‚Å‚Í •K‚¸ ‚»‚ê‚ðw“ü‚µA‚Ü‚½l‚ÉŠ©‚ß‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B">Œ‹é_</A>‚³‚ñ‚ÌƒfƒUƒCƒ“ƒpƒ^[ƒ“–{‚ª‘•â‰ü’ù”Å‚Æ‚µ‚ÄŠ§s‚³‚ê‚Ü‚µ‚½B</P>
+<P><A HREF="http://www.hyuki.com/" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ÌŒï¿½ï¿½é‚³ï¿½ÜBï¿½Þ‚Ì‚í‚©ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Ìï¿½ï¿½Zï¿½pï¿½ÉÚ‚ï¿½ï¿½ï¿½Û‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Eï¿½Cï¿½Ã‚ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½Kï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½lï¿½ÉŠï¿½ï¿½ß‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">ï¿½ï¿½ï¿½ï¿½_</A>ï¿½ï¿½ï¿½ï¿½Ìƒfï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚Æ‚ï¿½ï¿½ÄŠï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>‘•â‰ü’ù”ÅJavaŒ¾Œê‚ÅŠw‚ÔƒfƒUƒCƒ“ƒpƒ^[ƒ““ü–å<BR>
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½ÅŠwï¿½Ôƒfï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://www.hyuki.com/dp/">http://www.hyuki.com/dp/</A>
 </UL>
-<P>ƒfƒUƒCƒ“ƒpƒ^[ƒ“‚ÉŠÖ‚í‚él‚É‹­‚­‚¨Š©‚ß‚µ‚½‚¢’è”Ô–{‚ª‘•â‰ü’ù‚³‚ê‚ÄŠ§s‚³‚ê‚½‚Ì‚Å‚·BŽ„‚Í”ñí‚ÉŠð‚µ‚¢‚Å‚·B‚Ü‚½A‰ü’ùì‹Æ‚ðs‚í‚ê‚½<A HREF="http://www.hyuki.com/" TITLE="Ž„‚ª‚à‚Á‚Æ‚à‘¸Œh‚·‚éî•ñ‹Zpƒ‰ƒCƒ^[‚ÌŒ‹é‚³‚ÜB”Þ‚Ì‚í‚©‚è‚â‚·‚¢•¶Í‚Í Ž„‚½‚¿‚ª–¢’m‚Ìî•ñ‹Zp‚ÉÚ‚·‚éÛ‚É ‚Æ‚Ä‚à—E‹C‚Ã‚¯‚ç‚ê‚Ä‰ž‰‡‚³‚ê‚Ü‚·BŒ‹é_‚³‚ñ‚Ì‘Ð‚ª‚ ‚éƒWƒƒƒ“ƒ‹‚Å‚Í •K‚¸ ‚»‚ê‚ðw“ü‚µA‚Ü‚½l‚ÉŠ©‚ß‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B">Œ‹é_</A>‚³‚ñ‚ÉŠ´ŽÓ‚µ‚Ü‚·B‚²‹ê˜J‚ð”º‚í‚ê‚½‚±‚Æ‚Å‚µ‚å‚¤B</P>
+<P>ï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½lï¿½É‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô–{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŠï¿½ï¿½sï¿½ï¿½ï¿½ê‚½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Í”ï¿½ï¿½ÉŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½sï¿½ï¿½ê‚½<A HREF="http://www.hyuki.com/" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ÌŒï¿½ï¿½é‚³ï¿½ÜBï¿½Þ‚Ì‚í‚©ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Ìï¿½ï¿½Zï¿½pï¿½ÉÚ‚ï¿½ï¿½ï¿½Û‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Eï¿½Cï¿½Ã‚ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½Kï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ï¿½lï¿½ÉŠï¿½ï¿½ß‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">ï¿½ï¿½ï¿½ï¿½_</A>ï¿½ï¿½ï¿½ï¿½ÉŠï¿½ï¿½Ó‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Jï¿½ð”º‚ï¿½ê‚½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>‚Í‚Ô‚³‚ñ–{</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Í‚Ô‚ï¿½ï¿½ï¿½{</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>‚¢‚«‚¢‚«‚·‚éŽdŽ–‚Æ‚â‚é‹C‚Ì‚Â‚­‚è•û -K‚¹‚ÈITƒp[ƒ\ƒ“‚É‚È‚é‚½‚ß‚Ì-<BR>
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Cï¿½Ì‚Â‚ï¿½ï¿½ï¿½ï¿½ -ï¿½Kï¿½ï¿½ï¿½ï¿½ITï¿½pï¿½[ï¿½\ï¿½ï¿½ï¿½É‚È‚é‚½ï¿½ß‚ï¿½-<BR>
   <A HREF="http://www.amazon.co.jp/exec/obidos/ASIN/4883731995/igapyondiary-22">amazon.co.jp: 4883731995</A><BR>
-  Web+DB PRESS‚Å‚¨‚È‚¶‚Ý‚Ì <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="î•ñ‹Zp‚ÌŠJ”­Œ»ê‚Å“­‚­¦˜r‹ZpŽÒ‚ÅAŠŽ‚Âî•ñ‹Zpƒ‰ƒCƒ^[‚ð‚³‚ê‚Ä‚¢‚é•ûB’¼Ú“I‚È–ÊŽ¯‚à‚ ‚è ‚Æ‚Ä‚à‹­‚¢‰e‹¿‚ð—^‚¦‚Ä–á‚Á‚Ä‚¢‚Ü‚·BFlash MX‚ð‹Æ–±ƒVƒXƒeƒ€‚ÅŽg‚¤‚Æ‚¢‚¤¢ŠE‚ÉŽ„‚ð‚¢‚´‚È‚Á‚½‚Ì‚à‰H¶‚³‚ñ ‚»‚Ìl‚Å‚·B">‰H¶Í—m</A>‚³‚ñ‚ª‘‚©‚ê‚½SE–{‚Å‚·BŒ‹\”„‚ê‚Ä‚¢‚é‚æ‚¤‚Å‚·B—Ç‚©‚Á‚½‚Å‚·‚ËB
+  Web+DB PRESSï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ý‚ï¿½ <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="ï¿½ï¿½ï¿½Zï¿½pï¿½ÌŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Zï¿½pï¿½Ò‚ÅAï¿½ï¿½ï¿½Âï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ú“Iï¿½È–ÊŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BFlash MXï¿½ï¿½ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÅŽgï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìlï¿½Å‚ï¿½ï¿½B">ï¿½Hï¿½ï¿½ï¿½Í—m</A>ï¿½ï¿½ï¿½ñ‚ªï¿½ï¿½ï¿½ï¿½ê‚½SEï¿½{ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ËB
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>–¾“ú‚Í‘åão’£‚Å‚·</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½Í‘ï¿½ï¿½oï¿½ï¿½ï¿½Å‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>–^ƒVƒXƒeƒ€‚Ì•ÏX‚ðs‚Á‚Ä‚«‚Ü‚·B<BR>
-c‚Æ‚±‚ë‚ÅÅ‹ßA˜A“ú‚ª”M‘Ñ–é‚Å‚·B–éA‚Ü‚Æ‚à‚É–°‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB‚Ó‚ç‚Ó‚ç‚Å‚·B</P>
+<P>ï¿½^ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Ì•ÏXï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½cï¿½Æ‚ï¿½ï¿½ï¿½ÅÅ‹ßAï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Ñ–ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Aï¿½Ü‚Æ‚ï¿½ï¿½É–ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½Ó‚ï¿½Ó‚ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <UL>
-  <LI>u‘gž‚Ýƒ\ƒtƒgƒEƒFƒAƒXƒLƒ‹•W€v‚Æ‚ÍH<BR>
+  <LI>ï¿½uï¿½gï¿½ï¿½ï¿½Ýƒ\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Xï¿½Lï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½vï¿½Æ‚ÍH<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20069399,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20069399,00.htm</A><BR>
-  ƒXƒLƒ‹•W€ƒVƒŠ[ƒYƒlƒ^‚Å‚·BŽ„A‚±‚¤‚¢‚¤ƒXƒLƒ‹•W€ƒlƒ^‚ªD‚«‚È‚Ì‚Å‚·B‚ÅA–Z‚µ‚¢‚Ì‚Å‚Æ‚è‚ ‚¦‚¸ƒƒ‚BŒã‚Å‚Ð‚Ü‚ð‚Â‚­‚Á‚Ä“Ç‚Ý‚½‚¢‚Ì‚¾‚ªc
-  <LI>ƒpƒtƒH[ƒ}ƒ“ƒXŒüã‚ÌÅ’ZƒR[ƒX‚ð’m‚é<BR>
+  ï¿½Xï¿½Lï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½[ï¿½Yï¿½lï¿½^ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Lï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½lï¿½^ï¿½ï¿½ï¿½Dï¿½ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½Bï¿½ÅAï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½Å‚Ð‚Ü‚ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ä“Ç‚Ý‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½c
+  <LI>ï¿½pï¿½tï¿½Hï¿½[ï¿½}ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ÌÅ’Zï¿½Rï¿½[ï¿½Xï¿½ï¿½mï¿½ï¿½<BR>
   <A HREF="http://www.atmarkit.co.jp/fdb/rensai/orasql01/orasql01_1.html">http://www.atmarkit.co.jp/fdb/rensai/orasql01/orasql01_1.html</A><BR>
-  ‚º‚ñ‚º‚ñ‚©‚ñ‚¯‚¢‚È‚¢‚Ì‚Å‚·‚ªAƒAƒQƒn‚³‚ñ‚Ì•û‚ªA‚±‚Ìƒrƒ‹‚Ì9ŠK‚É‚¢‚ç‚Á‚µ‚á‚é‚æ‚¤‚É•·‚«‚Ü‚µ‚½B(‹LŽ–‚ð‘‚¢‚½•û‚©‚Ç‚¤‚©‚Í’m‚è‚Ü‚¹‚ñ‚ª)
+  ï¿½ï¿½ï¿½ñ‚º‚ñ‚©‚ñ‚¯‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½Qï¿½nï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒrï¿½ï¿½ï¿½ï¿½9ï¿½Kï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Í’mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

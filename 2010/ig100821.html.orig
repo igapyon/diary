@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/08/21 “ú‹L: Ubuntu: dd ƒRƒ}ƒ“ƒh‚É‚æ‚é MBR ‚Ì‘Þ”ð•û–@</TITLE>
-<meta name="DESCRIPTION" content="Ubuntu 10.04 (x86) ‚Å MBR ‚ð‘Þ”ð‚·‚é•û–@‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B‚±‚ÌƒRƒ}ƒ“ƒh‚ÍAˆê”Ê“I‚È Linux ‚Å‚à—˜—p‚·‚é‚±‚Æ‚ª‰Â”\‚¾‚ÆŽv‚¢‚Ü‚·B">
-<meta name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2010/08/21 ï¿½ï¿½ï¿½L: Ubuntu: dd ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½É‚ï¿½ï¿½ MBR ï¿½Ì‘Þ”ï¿½ï¿½ï¿½@</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 10.04 (x86) ï¿½ï¿½ MBR ï¿½ï¿½Þ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÍAï¿½ï¿½Ê“Iï¿½ï¿½ Linux ï¿½Å‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<meta name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
 <meta name="DATE" content="2010-08-21T23:15:20+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/08/21 “ú‹L: Ubuntu: dd ƒRƒ}ƒ“ƒh‚É‚æ‚é MBR ‚Ì‘Þ”ð•û–@</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Ubuntu 10.04 (x86) ‚Å MBR ‚ð‘Þ”ð‚·‚é•û–@‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B‚±‚ÌƒRƒ}ƒ“ƒh‚ÍAˆê”Ê“I‚È Linux ‚Å‚à—˜—p‚·‚é‚±‚Æ‚ª‰Â”\‚¾‚ÆŽv‚¢‚Ü‚·B</P>
+    <H2>2010/08/21 ï¿½ï¿½ï¿½L: Ubuntu: dd ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½É‚ï¿½ï¿½ MBR ï¿½Ì‘Þ”ï¿½ï¿½ï¿½@</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Ubuntu 10.04 (x86) ï¿½ï¿½ MBR ï¿½ï¿½Þ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÍAï¿½ï¿½Ê“Iï¿½ï¿½ Linux ï¿½Å‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp ‚ð“Œ‹ž‚ÅŠJÃ! ŽcÈ‚í‚¸‚©B\žŠúŒÀ‚àŠÔ‹ßBŽQ‰ÁŠó–]ŽÒ‚Í¡‚·‚®\‚µž‚Ý‚ð!
+        Eclipse DemoCamp ï¿½ð“Œ‹ï¿½ï¿½ÅŠJï¿½ï¿½! ï¿½cï¿½È‚í‚¸ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‹ßBï¿½Qï¿½ï¿½ï¿½ï¿½]ï¿½Ò‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,12 +61,12 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: dd ƒRƒ}ƒ“ƒh‚É‚æ‚é MBR ‚Ì‘Þ”ð•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: dd ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½É‚ï¿½ï¿½ MBR ï¿½Ì‘Þ”ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> 10.04 (x86) ‚Å MBR ‚ð‘Þ”ð‚·‚é•û–@‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B‚±‚ÌƒRƒ}ƒ“ƒh‚ÍAˆê”Ê“I‚È Linux
-‚Å‚à—˜—p‚·‚é‚±‚Æ‚ª‰Â”\‚È‚±‚Æ‚ª‘½‚¢‚Å‚·B</p>
+<p><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> 10.04 (x86) ï¿½ï¿½ MBR ï¿½ï¿½Þ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÍAï¿½ï¿½Ê“Iï¿½ï¿½ Linux
+ï¿½Å‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</p>
 <blockquote>
 <table border="1">
   <tbody>
@@ -76,21 +76,21 @@
   </tbody>
 </table>
 </blockquote>
-<p>SystemRescueCd ‚É‚à“¯«‚³‚ê‚Ä‚¢‚Ü‚·B‚»‚µ‚ÄŽ„‚Í SystemRescueCd ‚Æ•¹‚¹‚Ä—˜—p‚·‚é‚±‚Æ‚ª‘½‚¢‚Å‚·B</p>
-<p><font color="#ff00ff">’ˆÓ“_</font></p>
+<p>SystemRescueCd ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ SystemRescueCd ï¿½Æ•ï¿½ï¿½ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</p>
+<p><font color="#ff00ff">ï¿½ï¿½ï¿½Ó“_</font></p>
 <ul>
-  <li>‚±‚ÌƒRƒ}ƒ“ƒh‚Íã‹‰ŽÒê—p‚Ì‚à‚Ì‚Å‚·B
-  <li>/dev/hda ‚Ì•”•ª‚ÍA—˜—pŠÂ‹«‚É‰ž‚¶‚Ä“K‹X“Ç‚Ý‘Ö‚¦‚é•K—v‚ª‚ ‚è‚Ü‚·B
-  <li>/mnt/back ‚ÍAƒoƒbƒNƒAƒbƒv—pƒfƒBƒXƒN‚ð‚±‚±‚Éƒ}ƒEƒ“ƒg‚µ‚½‚à‚Ì‚Æ‰¼’è‚µ‚½‹Lq‚Å‚·B
-  <li>‚±‚ÌƒRƒ}ƒ“ƒh‚Í—L‰v‚Å‚·‚ªA­‚µ‚Å‚àŠÔˆá‚Á‚½ŽÀs‚ÌŽd•û‚ð‚·‚é‚ÆA‚¨Žg‚¢‚ÌƒRƒ“ƒsƒ…[ƒ^ŠÂ‹«‚ð”j‰ó‚·‚é‰Â”\«‚ª”ñí‚É‚‚¢‚à‚Ì‚Å‚à‚ ‚è‚Ü‚·Bdd ƒRƒ}ƒ“ƒh‚â
-  MBR ‚È‚Ç‚É¸’Ê‚µ‚Ä‚¢‚È‚¢l‚Í —˜—p‚µ‚È‚¢‚±‚Æ‚ð‹­‚­Š©‚ß‚Ü‚·B
+  <li>ï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½Íã‹‰ï¿½Òï¿½pï¿½Ì‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B
+  <li>/dev/hda ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½pï¿½Â‹ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä“Kï¿½Xï¿½Ç‚Ý‘Ö‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <li>/mnt/back ï¿½ÍAï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½pï¿½fï¿½Bï¿½Xï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éƒ}ï¿½Eï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‰ï¿½ï¿½è‚µï¿½ï¿½ï¿½Lï¿½qï¿½Å‚ï¿½ï¿½B
+  <li>ï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½Í—Lï¿½vï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ôˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ÌŽdï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÌƒRï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Â‹ï¿½ï¿½ï¿½jï¿½ó‚·‚ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bdd ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½
+  MBR ï¿½È‚Ç‚Éï¿½ï¿½Ê‚ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½lï¿½ï¿½ ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ü‚ï¿½ï¿½B
 </ul>
-<p><font color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</font></p>
+<p><font color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</font></p>
 <ul>
-  <li><a href="ig100811.html">2010/08/11 “ú‹L: Linux: LiveCD: ‚Æ‚Ä‚à—D‚ê‚½ƒn[ƒhƒfƒBƒXƒNEƒ†[ƒeƒBƒŠƒeƒBuSystemRescueCdv</a>
+  <li><a href="ig100811.html">2010/08/11 ï¿½ï¿½ï¿½L: Linux: LiveCD: ï¿½Æ‚Ä‚ï¿½ï¿½Dï¿½ê‚½ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Eï¿½ï¿½ï¿½[ï¿½eï¿½Bï¿½ï¿½ï¿½eï¿½Bï¿½uSystemRescueCdï¿½v</a>
 </ul>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/08/21 23:15:20 $</address>
 </BODY>
 </HTML>

@@ -1207,7 +1207,7 @@
   
 * 2005.01 ノートン・システムワークス 2005 プレミア (Norton SystemWorks 2005 Premier)
   [amazon.co.jp: B000634MSW](http://www.amazon.co.jp/exec/obidos/ASIN/B000634MSW/igapyondiary-22)
-  私が愛用しているウイルス対策スイート パッケージソフト。更新期限が終了したのを期にバージョンアップしました。一番驚いたのが、SystemWorks 2005に 「Symantec Recovery Disk」という Microsoft Windowsベースの [LiveCD](http://www.igapyon.jp/igapyon/diary/keyword/livecd.html)が付属していたことです。WindowsベースでLiveCDが作成できるのだ、ということを見せつけられて、最近[LiveCD](http://www.igapyon.jp/igapyon/diary/keyword/livecd.html)に興味を持っていた私としてはいろんな意味でショックが大きかったです。ただ [KNOPPIX](http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html)に比べると Windowsベースの[LiveCD](http://www.igapyon.jp/igapyon/diary/keyword/livecd.html)は ずいぶんと起動に時間がかかりました。
+  私が愛用しているウイルス対策スイート パッケージソフト。更新期限が終了したのを期にバージョンアップしました。一番驚いたのが、SystemWorks 2005に 「Symantec Recovery Disk」という Microsoft Windowsベースの [LiveCD](https://www.igapyon.jp/igapyon/diary/keyword/livecd.html)が付属していたことです。WindowsベースでLiveCDが作成できるのだ、ということを見せつけられて、最近[LiveCD](https://www.igapyon.jp/igapyon/diary/keyword/livecd.html)に興味を持っていた私としてはいろんな意味でショックが大きかったです。ただ [KNOPPIX](https://www.igapyon.jp/igapyon/diary/keyword/knoppix.html)に比べると Windowsベースの[LiveCD](https://www.igapyon.jp/igapyon/diary/keyword/livecd.html)は ずいぶんと起動に時間がかかりました。
   
 * 2004.12 結婚祝いとして利用したコーヒーメーカ
   [amazon.co.jp: B0001CQ0R4](http://www.amazon.co.jp/exec/obidos/ASIN/B0001CQ0R4/igapyondiary-22)

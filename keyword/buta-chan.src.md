@@ -18,6 +18,6 @@
 
 ### 検索
 
-* <@linksearch title="Search 'Buta-chan' in google in-site" word="Buta-chan" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Buta-chan' in google in-site" word="Buta-chan" site="https://www.igapyon.jp/igapyon/diary/" />
 * <@linksearch word="Buta-chan" />
 * <@linksearch word="Buta-chan" engine="twitter" />

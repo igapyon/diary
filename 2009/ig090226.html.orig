@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/02/26 “ú‹L: Eclipse Classic (SDK) 3.4.2 ƒŠƒŠ[ƒX , OSC2009 Tokyo/Spring
-‚Ó‚è‚©‚¦‚è</TITLE>
-<META name="DESCRIPTION" content="Eclipse Classic (SDK) 3.4.2 ‚ª (“à•”Œü‚¯‚É) ƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2009/02/26 ï¿½ï¿½ï¿½L: Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , OSC2009 Tokyo/Spring
+ï¿½Ó‚è‚©ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -17,13 +17,13 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/02/26 “ú‹L: Eclipse Classic (SDK) 3.4.2 ƒŠƒŠ[ƒX , OSC2009 Tokyo/Spring
-‚Ó‚è‚©‚¦‚è</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Eclipse Classic (SDK) 3.4.2 ‚ª (“à•”Œü‚¯‚É) ƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
+    <H2>2009/02/26 ï¿½ï¿½ï¿½L: Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X , OSC2009 Tokyo/Spring
+ï¿½Ó‚è‚©ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -33,8 +33,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -51,7 +51,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -62,70 +62,70 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Classic (SDK) 3.4.2 ƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Eclipse Classic (SDK) 3.4.2 ‚ª (“à•”Œü‚¯‚É) ƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
-<P>‚Æ‚Í‚¢‚¦Aˆê”Êƒ†[ƒUŒü‚¯‚É‚ÍA‚Ü‚¾ƒŠƒŠ[ƒX‚Í’m‚µ‚È‚¢ó‘Ô‚Ì‚æ‚¤‚Å‚·B</P>
+<P>Eclipse Classic (SDK) 3.4.2 ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Êƒï¿½ï¿½[ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½Íï¿½ï¿½mï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ô‚Ì‚æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Eclipse Ganymede SR2 ƒrƒ‹ƒh‚Í–¢ƒŠƒŠ[ƒXó‘Ô‚Å‚·B<BR>
-  phoenix ‚É‚Â‚¢‚Ä‚à Ganymede SR1 ‚Ì‚Ü‚Ü‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B
-  <LI>ˆê”Êƒ†[ƒU‚ª–K‚ê‚éƒTƒCƒg‚ÍA‚Ü‚¾ ‹Œƒo[ƒWƒ‡ƒ“‚Ì Eclipse 3.4.1 ‚Ì‚Ü‚Ü‚Å‚·B
-  <LI>ƒ~ƒ‰[‚È‚Ç‚É‚Â‚¢‚ÄA‚±‚ê‚à–¢®”õ‚Å‚·B
+  <LI>Eclipse Ganymede SR2 ï¿½rï¿½ï¿½ï¿½hï¿½Í–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½Ô‚Å‚ï¿½ï¿½B<BR>
+  phoenix ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ Ganymede SR1 ï¿½Ì‚Ü‚Ü‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½ï¿½Êƒï¿½ï¿½[ï¿½Uï¿½ï¿½ï¿½Kï¿½ï¿½ï¿½Tï¿½Cï¿½gï¿½ÍAï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse 3.4.1 ï¿½Ì‚Ü‚Ü‚Å‚ï¿½ï¿½B
+  <LI>ï¿½~ï¿½ï¿½ï¿½[ï¿½È‚Ç‚É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
-<P>‚Æ‚è‚ ‚¦‚¸A‚±‚ê‚Å Eclipse SDK •”•ª‚É‚Â‚¢‚Ä‚Í–|–óì‹Æ’…Žè‰Â”\‚Èó‘Ô‚É‚È‚Á‚½‚Æ”»’f‚µ‚Ü‚·B<BR>
-‚±‚Ì–|–óŒ‹‰Ê‚ÍA<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse “ú–{Œê‰»Œ¾ŒêƒpƒbƒN (ƒT[ƒhƒp[ƒeƒB”Å)</A> ‚â <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ƒvƒ‰ƒOƒCƒ““ú–{Œê‰»ƒvƒ‰ƒOƒCƒ“BAOP‚É‚æ‚èƒŠƒ\[ƒX•¶Žš—ñ‚ð“ú–{Œê‰»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">Pleiades</A> A‚»‚µ‚ÄÅI“I‚É‚Í Eclipse Babel ‚È‚Ç‚©‚çŒöŠJ‚·‚é—\’è‚Å‚·B</P>
-<P><FONT color="#ff0000">2009-02-27’Ç‹L</FONT> Eclipse Ganymede SR2 ‚É‚Â‚¢‚Ä‚àAƒ~ƒ‰[‚És‚«“n‚è‚Â‚Â‚ ‚è‚Ü‚·Bƒgƒbƒvƒy[ƒW‚Í SR1 ‚Ì‚Ü‚ÜA‚Ü‚¾•ÏX‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ‚ªA‹ß‚¢‚¤‚¿‚Éˆê”Ê‚Ìl‚àƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚é‚æ‚¤‚É‚È‚é‚±‚Æ‚Å‚µ‚å‚¤B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ Eclipse SDK ï¿½ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Í–|ï¿½ï¿½ï¿½Æ’ï¿½ï¿½ï¿½Â”\ï¿½Èï¿½Ô‚É‚È‚ï¿½ï¿½ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Ì–|ï¿½óŒ‹‰Ê‚ÍA<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½N (ï¿½Tï¿½[ï¿½hï¿½pï¿½[ï¿½eï¿½Bï¿½ï¿½)</A> ï¿½ï¿½ <A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½BAOPï¿½É‚ï¿½èƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Pleiades</A> ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÄÅIï¿½Iï¿½É‚ï¿½ Eclipse Babel ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2009-02-27ï¿½Ç‹L</FONT> Eclipse Ganymede SR2 ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½~ï¿½ï¿½ï¿½[ï¿½Ésï¿½ï¿½ï¿½nï¿½ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½gï¿½bï¿½vï¿½yï¿½[ï¿½Wï¿½ï¿½ SR1 ï¿½Ì‚Ü‚ÜAï¿½Ü‚ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Éˆï¿½Ê‚Ìlï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚é‚±ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig090228.html">2009/02/28 “ú‹L: Eclipse Ganymede SR2 ƒŠƒŠ[ƒX</A>
+  <LI><A href="ig090228.html">2009/02/28 ï¿½ï¿½ï¿½L: Eclipse Ganymede SR2 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OSC2009 Tokyo/Spring ‚Ó‚è‚©‚¦‚è</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OSC2009 Tokyo/Spring ï¿½Ó‚è‚©ï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><STRONG><FONT color="#ff00ff">‚¨‰ï‚¢‚µ‚½•û</FONT></STRONG></P>
-<P>‚¢‚ë‚¢‚ë‚È•û‚É‚¨‰ï‚¢‚µ‚Ü‚µ‚½B‚±‚¤‚¢‚¤o‰ï‚¢‚ª‘òŽR‚ ‚é‚Ì‚ÍAƒI[ƒvƒ“ƒ\[ƒXEƒCƒxƒ“ƒg‚È‚ç‚Å‚Í‚Ì–£—Í‚Å‚·B</P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></STRONG></P>
+<P>ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½È•ï¿½ï¿½É‚ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï‚¢ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½Ì‚ÍAï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Eï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½È‚ï¿½Å‚Í‚Ì–ï¿½ï¿½Í‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="http://blogs.sun.com/katakai/">Masaki Katakai</A> ‚³‚ñ
-  <LI><A href="http://blogs.itmedia.co.jp/barbaro/">“¡ˆä“™</A>‚³‚ñ
-  <LI><A href="http://blogs.embarcadero.com/teamj/2009/02/12/385/">Jose Leon</A> ‚³‚ñ<BR>
-  ¨uƒXƒyƒCƒ“Œê‚Å‚Í blanco ‚Í”’‚¾‚æ!v‚Æ‚¢‚¤ƒcƒbƒRƒ~‚ð‚³‚ê‚Ä‚¢‚©‚ê‚Ü‚µ‚½B‚±‚ê‚ª‚à‚Á‚Æ‚àˆóÛ“I‚Å‚·B
-  <LI><A href="http://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8E%9F%E5%BE%B9">‹{Œ´“O</A>‚³‚ñ
-  <LI>‘¼‚É‚à‘½”‚Ì•ûXc (Žv‚¢o‚µ‚È‚ª‚çŽ·•M’†c)
+  <LI><A href="http://blogs.sun.com/katakai/">Masaki Katakai</A> ï¿½ï¿½ï¿½ï¿½
+  <LI><A href="http://blogs.itmedia.co.jp/barbaro/">ï¿½ï¿½ï¿½ä“™</A>ï¿½ï¿½ï¿½ï¿½
+  <LI><A href="http://blogs.embarcadero.com/teamj/2009/02/12/385/">Jose Leon</A> ï¿½ï¿½ï¿½ï¿½<BR>
+  ï¿½ï¿½ï¿½uï¿½Xï¿½yï¿½Cï¿½ï¿½ï¿½ï¿½Å‚ï¿½ blanco ï¿½Í”ï¿½ï¿½ï¿½ï¿½ï¿½!ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½cï¿½bï¿½Rï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Û“Iï¿½Å‚ï¿½ï¿½B
+  <LI><A href="http://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8E%9F%E5%BE%B9">ï¿½{ï¿½ï¿½ï¿½O</A>ï¿½ï¿½ï¿½ï¿½
+  <LI>ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Xï¿½c (ï¿½vï¿½ï¿½ï¿½oï¿½ï¿½ï¿½È‚ï¿½ï¿½çŽ·ï¿½Mï¿½ï¿½ï¿½c)
 </UL>
-<P>‚Ý‚È‚³‚ñA‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B</P>
+<P>ï¿½Ý‚È‚ï¿½ï¿½ï¿½Aï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <P><STRONG><FONT color="#ff00ff">Pleiades</FONT></STRONG></P>
-<P><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ƒvƒ‰ƒOƒCƒ““ú–{Œê‰»ƒvƒ‰ƒOƒCƒ“BAOP‚É‚æ‚èƒŠƒ\[ƒX•¶Žš—ñ‚ð“ú–{Œê‰»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">Pleiades</A> —˜—pŽÒ‚Ì•ûX‚©‚ç‚Ì‚²—v–] (‚Ì‚È‚©‚©‚çŽå‚È‚à‚Ì‚ðc)</P>
+<P><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½BAOPï¿½É‚ï¿½èƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Pleiades</A> ï¿½ï¿½ï¿½pï¿½Ò‚Ì•ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½vï¿½] (ï¿½Ì‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½c)</P>
 <UL>
-  <LI>u<A href="http://mergedoc.sourceforge.jp/jstyle.html">JStyle</A> ‚ð Windows ‚Åˆ¤—p‚µ‚Ä‚«‚Ü‚µ‚½BLinux ã‚Å‚à¥”ñŽg‚¢‚½‚¢‚Ì‚Å‘Î‰ž‚µ‚Ä‰º‚³‚¢!v‚Æ‚¢‚¤‚²ˆÓŒ©‚ª‘½”!
-  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ƒvƒ‰ƒOƒCƒ““ú–{Œê‰»ƒvƒ‰ƒOƒCƒ“BAOP‚É‚æ‚èƒŠƒ\[ƒX•¶Žš—ñ‚ð“ú–{Œê‰»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">Pleiades</A> All in One ‚É‚Â‚¢‚ÄAWindows ˆÈŠO‚Ì‘¼ OS ‘Î‰ž‚µ‚Ä—~‚µ‚¢B
+  <LI>ï¿½u<A href="http://mergedoc.sourceforge.jp/jstyle.html">JStyle</A> ï¿½ï¿½ Windows ï¿½Åˆï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BLinux ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½!ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÓŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!
+  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½BAOPï¿½É‚ï¿½èƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Pleiades</A> All in One ï¿½É‚Â‚ï¿½ï¿½ÄAWindows ï¿½ÈŠOï¿½Ì‘ï¿½ OS ï¿½Î‰ï¿½ï¿½ï¿½ï¿½Ä—~ï¿½ï¿½ï¿½ï¿½ï¿½B
   <UL>
-    <LI>Linux ”Å‚ª—~‚µ‚¢‚Å‚· (8 •[‚Ù‚Ç)B
-    <LI>Mac ”Å‚ª—~‚µ‚¢‚Å‚· (2 •[‚Ù‚Ç)B
-    <LI>¨‚È‚¨A‚±‚ÌŒ‚ÍA‹Zp“I‚É‚Í All in One ‚ð‰ð“€‚µ‚Ä SDK ‚ðã‘‚«‚µ‚½‚ç“®ì‚·‚é‚Æl‚¦‚Ü‚·B(‚©‚µ‚Í‚ç‚³‚ñ‚É‚¨•·‚«‚µ‚Ü‚µ‚½)
+    <LI>Linux ï¿½Å‚ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ (8 ï¿½[ï¿½Ù‚ï¿½)ï¿½B
+    <LI>Mac ï¿½Å‚ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ (2 ï¿½[ï¿½Ù‚ï¿½)ï¿½B
+    <LI>ï¿½ï¿½ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½ÌŒï¿½ï¿½ÍAï¿½Zï¿½pï¿½Iï¿½É‚ï¿½ All in One ï¿½ï¿½ï¿½ð“€‚ï¿½ï¿½ï¿½ SDK ï¿½ï¿½ï¿½ã‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç“®ï¿½ì‚·ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ç‚³ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)
   </UL>
-  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ƒvƒ‰ƒOƒCƒ““ú–{Œê‰»ƒvƒ‰ƒOƒCƒ“BAOP‚É‚æ‚èƒŠƒ\[ƒX•¶Žš—ñ‚ð“ú–{Œê‰»‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B">Pleiades</A> ‚Ì“®ì•s—Çƒlƒ^c (1 •[‚Ù‚Ç)B
+  <LI><A HREF="http://mergedoc.sourceforge.jp/pleiades.html" TITLE="Eclipse ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½BAOPï¿½É‚ï¿½èƒŠï¿½\ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B">Pleiades</A> ï¿½Ì“ï¿½ï¿½ï¿½sï¿½Çƒlï¿½^ï¿½c (1 ï¿½[ï¿½Ù‚ï¿½)ï¿½B
 </UL>
-<P>OSC —ˆêŽÒ‚ÌŒXŒü‚Æ‚µ‚Ä‚ÍAUbuntu ‚Ì“oê‚É‚æ‚Á‚Ä Windows ƒ†[ƒU‚©‚ç <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> ‚Ö‚ÌˆÚs‚ªŒ‹\Z“§‚µ‚Ä‚«‚Ä‚¢‚é‚æ‚¤‚ÉŠ´‚¶‚ç‚ê‚Ü‚µ‚½B‚Æ‚Í‚¢‚¦A‚±‚ê‚Í
-‚ ‚­‚Ü‚Å‚àAæ’[“I‚È‹ZpŽÒ‚Ì‘½‚­‚ª Windows ‚©‚ç Ubuntu ‚É—¬‚ê‚Ä‚¢‚éA‚Æ‚¢‚¤‚¾‚¯‚Ì˜b‚Å‚·Bˆê”Êƒ†[ƒU‚Í ‚Ü‚¾‚Ü‚¾‚±‚ê‚©‚ç‚Å‚µ‚å‚¤‚ËcB</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éî•ñ</FONT></P>
+<P>OSC ï¿½ï¿½ï¿½ï¿½Ò‚ÌŒXï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ÍAUbuntu ï¿½Ì“oï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> ï¿½Ö‚ÌˆÚsï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½Aï¿½ï¿½[ï¿½Iï¿½È‹Zï¿½pï¿½Ò‚Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ Windows ï¿½ï¿½ï¿½ï¿½ Ubuntu ï¿½É—ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì˜bï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Êƒï¿½ï¿½[ï¿½Uï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ê‚©ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½Ëcï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></P>
 <UL>
   <LI><A href="http://d.hatena.ne.jp/cypher256/20090227">C/pHeR Memo: 2009-02-27 Pleiades All in One (Eclipse 3.4.2 Ganymede SR2)</A>
 </UL>
 <P><STRONG><FONT color="#ff00ff">blanco Framework</FONT></STRONG></P>
-<P>’n–¡‚È‚ª‚ç‚à <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ‚Í ƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é blancoDb‚âblancoStruts‚È‚Ç‚ÌW‡‘Ì‚Å‚·BŠî–{“I‚É Javaƒ\[ƒXƒR[ƒhŽ©“®¶¬‚ðŽå‚½‚é–Ú“I‚Æ‚µ‚Ü‚·B">blanco Framework</A> ‚Ì’m–¼“x‚ª™X‚Éã‚ª‚Á‚Ä‚«‚½–Í—l‚Å‚·Bƒ†[ƒU‚Ì•ûXA‚Ç‚¤‚à‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B<BR>
-ˆê•ûA<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse “ú–{Œê‰»Œ¾ŒêƒpƒbƒN (ƒT[ƒhƒp[ƒeƒB”Å)</A> ‚Ö‚ÌŽæ‚è‘g‚Ý‚ª’m–¼“xŒüã‚É‘å‚«‚­‰e‹¿‚µ‚Ä‚¢‚é‚æ‚¤‚Å‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P>ï¿½nï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/blanco/blanco.ja.html" TITLE="blanco Framework ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ blancoDbï¿½ï¿½blancoStrutsï¿½È‚Ç‚ÌWï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½{ï¿½Iï¿½ï¿½ Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚½ï¿½ï¿½Ú“Iï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B">blanco Framework</A> ï¿½Ì’mï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Éã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½Uï¿½Ì•ï¿½ï¿½Xï¿½Aï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½A<A href="http://www.igapyon.jp/blanco/nlpack/eclipse/index.html">Eclipse ï¿½ï¿½ï¿½{ï¿½ê‰»ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½N (ï¿½Tï¿½[ï¿½hï¿½pï¿½[ï¿½eï¿½Bï¿½ï¿½)</A> ï¿½Ö‚ÌŽï¿½ï¿½gï¿½Ý‚ï¿½ï¿½mï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½É‘å‚«ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig090215.html">2009/02/15 “ú‹L: OSC2009 Tokyo/Spring —p‚ÌŽ‘—¿‚ðì¬ , iSCSI •×‹­ŠJŽn</A>
+  <LI><A href="ig090215.html">2009/02/15 ï¿½ï¿½ï¿½L: OSC2009 Tokyo/Spring ï¿½pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ , iSCSI ï¿½×‹ï¿½ï¿½Jï¿½n</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

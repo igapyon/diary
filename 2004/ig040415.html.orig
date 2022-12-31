@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/04/15 “ú‹L: FindBugs 0.7.2‚ð“ú–{ŒêŠÂ‹«‚Å³‚µ‚­“®‚©‚·•û–@</TITLE>
-<META name="DESCRIPTION" content="Java‚©‚çMACƒAƒhƒŒƒXŽæ“¾‚ÍŽ„‚É‚Æ‚Á‚Ä‚à•s–¾“_‚Å‚µ‚½ (Î)">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,MACƒAƒhƒŒƒX">
+<TITLE>2004/04/15 ï¿½ï¿½ï¿½L: FindBugs 0.7.2ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½Â‹ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</TITLE>
+<META name="DESCRIPTION" content="Javaï¿½ï¿½ï¿½ï¿½MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½æ“¾ï¿½ÍŽï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½sï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½)">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,MACï¿½Aï¿½hï¿½ï¿½ï¿½X">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 8.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/04/15 “ú‹L: FindBugs 0.7.2‚ð“ú–{ŒêŠÂ‹«‚Å³‚µ‚­“®‚©‚·•û–@</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,MACƒAƒhƒŒƒX] Java‚©‚çMACƒAƒhƒŒƒXŽæ“¾‚ÍŽ„‚É‚Æ‚Á‚Ä‚à•s–¾“_‚Å‚µ‚½ (Î)</P>
+    <H2>2004/04/15 ï¿½ï¿½ï¿½L: FindBugs 0.7.2ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½Â‹ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,MACï¿½Aï¿½hï¿½ï¿½ï¿½X] Javaï¿½ï¿½ï¿½ï¿½MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½æ“¾ï¿½ÍŽï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½sï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½)</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,55 +58,55 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[FindBugs]FindBugs 0.7.2 ‚ð“ú–{ŒêŠÂ‹«‚Å³‚µ‚­“®‚©‚·•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[FindBugs]FindBugs 0.7.2 ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½Â‹ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>FindBugs 0.7.2 (Œ»Žž“_‚Å‚ÌÅV”Å) ‚ð“ú–{ŒêŠÂ‹«‚Å³‚µ‚­“®‚©‚·‚½‚ß‚ÌƒŠƒ\[ƒXƒtƒ@ƒCƒ‹‚ªŒöŠJ‚³‚ê‚Ü‚µ‚½B</P>
+<P>FindBugs 0.7.2 (ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ÌÅVï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½Â‹ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ìƒï¿½ï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>FindBugs 0.7.2 “ú–{ŒêƒŠƒ\[ƒX (oku‚³‚ñ‚Ìƒy[ƒW)<BR>
+  <LI>FindBugs 0.7.2 ï¿½ï¿½ï¿½{ï¿½êƒŠï¿½\ï¿½[ï¿½X (okuï¿½ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½W)<BR>
   <A HREF="http://www.simeji.com/wiki/pukiwiki.php?FindBugs">http://www.simeji.com/wiki/pukiwiki.php?FindBugs</A>
 </UL>
-<P>‚±‚Ì“ú–{ŒêƒŠƒ\[ƒXƒtƒ@ƒCƒ‹‚ð—˜—p‚·‚é‚ÆAFindBugs 0.7.2 (Œ»Žž“_‚Å‚ÌÅV”Å)‚ªu³í‚Év—˜—p‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B‚æ‚©‚Á‚½A‚æ‚©‚Á‚½B</P>
+<P>ï¿½ï¿½ï¿½Ì“ï¿½ï¿½{ï¿½êƒŠï¿½\ï¿½[ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ÆAFindBugs 0.7.2 (ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ÌÅVï¿½ï¿½)ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½Évï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½æ‚©ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½æ‚©ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>FindBugs ‚ÌŽg—p–@ (“ú–{Œê–ó) (oku‚³‚ñ)<BR>
+  <LI>FindBugs ï¿½ÌŽgï¿½pï¿½@ (ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½) (okuï¿½ï¿½ï¿½ï¿½)<BR>
   <A HREF="http://www.simeji.com/findbugs/doc/manual_ja/index.html">http://www.simeji.com/findbugs/doc/manual_ja/index.html</A>
 </UL>
-<P>‚â‚Í‚è“ú–{Œê‚ÅƒhƒLƒ…ƒƒ“ƒg‚ª‚ ‚é‚Æ‚¤‚ê‚µ‚¢‚Å‚·B</P>
+<P>ï¿½ï¿½Í‚ï¿½ï¿½ï¿½{ï¿½ï¿½Åƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ê‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[ƒNƒGƒXƒg]Java‚©‚çMACƒAƒhƒŒƒX‚ðŽæ“¾‚·‚é•û–@ (Windows”Å)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>[ï¿½Nï¿½Gï¿½Xï¿½g]Javaï¿½ï¿½ï¿½ï¿½MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (Windowsï¿½ï¿½)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚¶‚Â‚Í Ž„‚Ì‹Î–±æ‚É‚Ä‚àA‚¨‚È‚¶˜b‘è‚ª‹“‚ª‚è‚Ü‚µ‚½B‚³‚ÄAJava‚©‚ç MACƒAƒhƒŒƒX‚ðŽæ“¾‚·‚é•û–@‚ÅA‚à‚Á‚Æ‚àƒGƒŒƒKƒ“ƒg‚È•û–@‚Á‚ÄA‚Ç‚ñ‚È•û–@‚È‚ñ‚Å‚µ‚å‚¤H</P>
+<P>ï¿½ï¿½ï¿½Â‚ï¿½ ï¿½ï¿½ï¿½Ì‹Î–ï¿½ï¿½ï¿½É‚Ä‚ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ï¿½bï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÄAJavaï¿½ï¿½ï¿½ï¿½ MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ÅAï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Gï¿½ï¿½ï¿½Kï¿½ï¿½ï¿½gï¿½È•ï¿½ï¿½@ï¿½ï¿½ï¿½ÄAï¿½Ç‚ï¿½È•ï¿½ï¿½@ï¿½È‚ï¿½Å‚ï¿½ï¿½å‚¤ï¿½H</P>
 <HR>
-<P><FONT color="#ff0000">2004.06.15</FONT> Senbei‚³‚ñ‚ÌƒcƒbƒRƒ~<BR>
-[igapyon:01289] 2004/04/15 “ú‹L :Java ‚©‚ç MACƒAƒhƒŒƒX‚ðŽæ“¾‚·‚é•û–@ (Windows”Å)<BR>
-‚±‚ñ‚É‚¿‚ÍA‚¢‚ª‚Ò‚å‚ñ‚³‚ñ•‚Ý‚È‚³‚ñB<BR>
-Œ–¼‚Ì‚æ‚¤‚ÉAƒ`ƒ‡ƒbƒgŽdŽ–‚Å•K—v‚É‚È‚Á‚Ä’T‚µ‚½‚Ì‚Å‚·‚ªŒ©‚Â‚©‚ç‚È‚©‚Á‚½‚Ì‚ÅiŽ„‚Ì’T‚µ•û‚ª‚í‚é‚¢‚Ì‚©‚àjAŽQl‚É‚È‚éƒy[ƒW‚ðŒ©‚È‚ª‚ç‘‚¢‚Ä‚Ý‚Ü‚µ‚½B</P>
+<P><FONT color="#ff0000">2004.06.15</FONT> Senbeiï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~<BR>
+[igapyon:01289] 2004/04/15 ï¿½ï¿½ï¿½L :Java ï¿½ï¿½ï¿½ï¿½ MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ (Windowsï¿½ï¿½)<BR>
+ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ñ‚³‚ñ•‚Ý‚È‚ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½ÉAï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½dï¿½ï¿½ï¿½Å•Kï¿½vï¿½É‚È‚ï¿½ï¿½Ä’Tï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Åiï¿½ï¿½ï¿½Ì’Tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚¢ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½jï¿½Aï¿½Qï¿½lï¿½É‚È‚ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ç‘ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A HREF="http://senbei.cocolog-nifty.com/diary/2004/06/mac.html">http://senbei.cocolog-nifty.com/diary/2004/06/mac.html</A>
 </UL>
-<P>‚Ü‚ŸA‚·‚Å‚É‚Ç‚Á‚©‚Ìƒy[ƒW‚ ‚Á‚½‚çA–Y‚ê‚Ä‚­‚¾‚³‚¢iÎj</P>
-<P><FONT color="#ff0000">2004.06.15</FONT> TANAKA‚³‚ñ‚ÌƒcƒbƒRƒ~<BR>
-‚±‚ñ‚É‚¿‚ÍB<BR>
-MACƒAƒhƒŒƒX‚ðŽæ“¾‚·‚é‚Ì‚ÉAƒlƒbƒg‚ÅŒ©‚Â‚¯‚½@ifconfig/ipconfig ‚ðŒÄ‚Ñ‚¾‚·ƒNƒ‰ƒX‚ðŽg‚Á‚Ä‚¢‚Ü‚·B<BR>
-E‚Á‚½Š‚ª•ª‚©‚ç‚È‚¢‚Ì‚Å‚·‚ªA“¯‚¶ƒR[ƒh‚ªŒ©‚Â‚©‚è‚Ü‚µ‚½B</P>
+<P>ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Å‚É‚Ç‚ï¿½ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Yï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Îj</P>
+<P><FONT color="#ff0000">2004.06.15</FONT> TANAKAï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~<BR>
+ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ÍB<BR>
+MACï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½Ì‚ÉAï¿½lï¿½bï¿½gï¿½ÅŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½@ifconfig/ipconfig ï¿½ï¿½ï¿½Ä‚Ñ‚ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://forum.java.sun.com/thread.jsp?thread=245711&amp;forum=4&amp;message=1279708">http://forum.java.sun.com/thread.jsp?thread=245711&amp;forum=4&amp;message=1279708</A>
 </UL>
 <HR>
-<P><FONT color="#ff00ff">ƒcƒbƒRƒ~</FONT></P>
+<P><FONT color="#ff00ff">ï¿½cï¿½bï¿½Rï¿½~</FONT></P>
 <UL>
-  <LI>suga : ƒVƒ“ƒvƒ‹‚É ARP ‚Ü‚½‚Í Proxy ARP —˜—p‚Éˆê•[ &gt; MAC ƒAƒhƒŒƒX (ŽÀ‘•‚Í•ª‚©‚è‚Ü‚¹‚ñ
+  <LI>suga : ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ ARP ï¿½Ü‚ï¿½ï¿½ï¿½ Proxy ARP ï¿½ï¿½ï¿½pï¿½Éˆï¿½[ &gt; MAC ï¿½Aï¿½hï¿½ï¿½ï¿½X (ï¿½ï¿½ï¿½ï¿½ï¿½Í•ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
   (^^;)
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A> suga‚³‚ñA“VËI –Ú‚©‚ç—Ø‚Å‚·B‚±‚ê‚Í‘f°‚ç‚µ‚¢Žd—l‚Å‚·Bc
-  ‚³‚ÄAŽ„‚É‚àŽÀ‘•‚Í•s–¾‚Å‚· (‹êÎ)
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A> sugaï¿½ï¿½ï¿½ï¿½Aï¿½Vï¿½ËI ï¿½Ú‚ï¿½ï¿½ï¿½Ø‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í‘fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½dï¿½lï¿½Å‚ï¿½ï¿½Bï¿½c
+  ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í•sï¿½ï¿½ï¿½Å‚ï¿½ (ï¿½ï¿½ï¿½)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

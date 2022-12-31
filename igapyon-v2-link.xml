@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <channel rdf:about="http://www.igapyon.jp/igapyon/diary/">
+  <channel rdf:about="https://www.igapyon.jp/igapyon/diary/">
     <title>いがぴょんの日記v2リンク集</title>
-    <link>http://www.igapyon.jp/igapyon/diary/</link>
+    <link>https://www.igapyon.jp/igapyon/diary/</link>
     <language>ja</language>
     <dc:date>2003-11-16</dc:date>
   </channel>
 
   <item>
     <title>いがぴょん</title>
-    <link>http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html</link>
     <description>いがぴょんに関する説明</description>
     <dc:date>2001-10-19</dc:date>
   </item>
 
   <item>
     <title>いがぴょんのウェブページ</title>
-    <link>http://www.igapyon.jp/igapyon/</link>
+    <link>https://www.igapyon.jp/igapyon/</link>
     <description>いがぴょんのウェブページです</description>
     <dc:date>2001-10-19</dc:date>
   </item>
 
   <item>
     <title>いがぴょんの日記ウェブページ</title>
-    <link>http://www.igapyon.jp/igapyon/diary/</link>
+    <link>https://www.igapyon.jp/igapyon/diary/</link>
     <description>いがぴょんの日記形式コラムウェブページです</description>
     <dc:date>2001-10-19</dc:date>
   </item>
 
   <item>
     <title>いがぴょんにメールを送る</title>
-    <link>http://www.igapyon.jp/igapyon/diary/memo/memoigamail.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/memo/memoigamail.html</link>
     <description>メールを送る方法の紹介です</description>
     <dc:date>2001-10-26</dc:date>
   </item>
@@ -214,14 +214,14 @@
 
   <item>
     <title>Jakarta POI</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html</link>
     <description>Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ</description>
     <dc:date>2005-02-19</dc:date>
   </item>
 
   <item>
     <title>JExcelApi</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html</link>
     <description>Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。</description>
     <dc:date>2005-02-21</dc:date>
   </item>
@@ -235,27 +235,27 @@
 
   <item>
     <title>いがぴょんQメーリングリスト</title>
-    <link>http://www.igapyon.jp/igapyon/q/igapyon-q.html</link>
+    <link>https://www.igapyon.jp/igapyon/q/igapyon-q.html</link>
     <description>初心者向けJava言語メーリングリスト</description>
     <dc:date>2001-07-27</dc:date>
   </item>
 
   <item>
     <title>いがぴょんの日記メーリングリスト</title>
-    <link>http://www.igapyon.jp/igapyon/diary/memo/memoigapyonml.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/memo/memoigapyonml.html</link>
     <description>いがぴょんの日記愛読者者向けメーリングリスト</description>
     <dc:date>2001-07-27</dc:date>
   </item>
 
   <item>
     <title>執筆中</title>
-    <link>http://www.igapyon.jp/igapyon/diary/memo/memohalfway.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/memo/memohalfway.html</link>
     <description>このコンテンツは執筆中または作成途上です</description>
     <dc:date>2005-01-31</dc:date>
   </item>
   <item>
     <title>作成途上</title>
-    <link>http://www.igapyon.jp/igapyon/diary/memo/memohalfway.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/memo/memohalfway.html</link>
     <description>このコンテンツは執筆中または作成途上です</description>
     <dc:date>2005-01-31</dc:date>
   </item>
@@ -283,7 +283,7 @@
 
 <!--  <item>
     <title>GlassFish</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/glassfish.html</link>
     <description>GlassFish は、Java EE 実装のオープンソース・アプリケーション・サーバです。Java EE プラットフォームには、JavaServer Pages (JSP)、JavaServer Faces (JSF)、Servlet、Enterprise JavaBeans (EJB)、Java API for Web Services(JAX-WS)、Java Architecture for XML Binding (JAXB) などが含まれます。</description>
     <dc:date>2009-03-08</dc:date>
   </item> -->
@@ -312,77 +312,77 @@
   <!-- キーワード。この取得はやはり自動化すべきか… -->
   <item>
     <title>Mozilla Firefox</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/firefox.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/firefox.html</link>
     <description>最近 世間での期待がもっとも集まっているオープンソースなウェブブラウザ実装のひとつ。</description>
     <dc:date>2004-11-15</dc:date>
   </item>
 
   <item>
     <title>KNOPPIX</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/knoppix.html</link>
     <description>最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。</description>
     <dc:date>2004-11-17</dc:date>
   </item>
 
   <item>
     <title>WINE</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/wine.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/wine.html</link>
     <description>Windowsエミュレータ実装のひとつ。</description>
     <dc:date>2004-11-23</dc:date>
   </item>
 
   <item>
     <title>bochs</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/bochs.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/bochs.html</link>
     <description>IA-32エミュレータ実装のひとつ。</description>
     <dc:date>2004-11-23</dc:date>
   </item>
 
   <item>
     <title>LDAP</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/ldap.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/ldap.html</link>
     <description>ディレクトリシステムのプロトコル。</description>
     <dc:date>2004-12-09</dc:date>
   </item>
 
 <!--  <item>
     <title>Debian</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/debian.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/debian.html</link>
     <description>最もフリーで そして最も注目されているLinuxディストリビューションのひとつ</description>
     <dc:date>2004-12-17</dc:date>
   </item> -->
 
 <!--  <item>
     <title>Ubuntu</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html</link>
     <description>DebianベースのLinuxディストリビューションのひとつ</description>
     <dc:date>2006-01-21</dc:date>
   </item> -->
 
   <item>
     <title>coLinux</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/colinux.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/colinux.html</link>
     <description>Linuxを他システム上で動作させるための仮想マシンの一種</description>
     <dc:date>2004-12-17</dc:date>
   </item>
 
   <item>
     <title>LiveCD</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/livecd.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/livecd.html</link>
     <description>1CD Linuxと呼ばれることもある。CDブートしてOS一式が利用可能になるというカラクリ。</description>
     <dc:date>2005-01-01</dc:date>
   </item>
 
 <!--  <item>
     <title>Eclipse</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/eclipse.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/eclipse.html</link>
     <description>Javaで書かれたオープンソースな統合開発環境。Java言語による開発において圧倒的なユーザの支持を得ています。</description>
     <dc:date>2002-10-25</dc:date>
   </item> -->
 
   <item>
     <title>EclipseInstaller</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/eclipseinstaller.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/eclipseinstaller.html</link>
     <description>Eclipseを簡便にセットアップするための支援ツール。</description>
     <dc:date>2005-03-28</dc:date>
   </item>
@@ -396,126 +396,126 @@
 
   <item>
     <title>OpenDocument</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/opendocument.html</link>
     <description>OpenOffice.org 2.0以降で採用されているドキュメントフォーマット。XMLの世界では有名なOASISという標準化団体によって標準化作業がおこなわれています。</description>
     <dc:date>2006-01-17</dc:date>
   </item>
 
   <item>
     <title>blanco</title>
-    <link>http://www.igapyon.jp/blanco/blanco.ja.html</link>
+    <link>https://www.igapyon.jp/blanco/blanco.ja.html</link>
     <description>blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。</description>
     <dc:date>2005-05-19</dc:date>
   </item>
 
 <!--  <item>
     <title>blanco Framework</title>
-    <link>http://www.igapyon.jp/blanco/blanco.ja.html</link>
+    <link>https://www.igapyon.jp/blanco/blanco.ja.html</link>
     <description>blanco Framework は オープンソースで提供されている blancoDbやblancoStrutsなどの集合体です。基本的に Javaソースコード自動生成を主たる目的とします。</description>
     <dc:date>2006-02-16</dc:date>
   </item> -->
 
   <item>
     <title>blancoAntTask</title>
-    <link>http://www.igapyon.jp/blanco/blancoanttask.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoanttask.html</link>
     <description>「AntTask定義書」という Excelブックから、Apache Ant で動作する Antタスクのためのソースコードを自動生成します。</description>
     <dc:date>2006-10-28</dc:date>
   </item>
 
   <item>
     <title>blancoBatchProcess</title>
-    <link>http://www.igapyon.jp/blanco/blancobatchprocess.html</link>
+    <link>https://www.igapyon.jp/blanco/blancobatchprocess.html</link>
     <description>「バッチ処理定義書」という Excelブックから、バッチ処理のためのソースコードを自動生成します。</description>
     <dc:date>2006-10-25</dc:date>
   </item>
 
 <!--  <item>
     <title>blancoCg</title>
-    <link>http://www.igapyon.jp/blanco/blancocg.html</link>
+    <link>https://www.igapyon.jp/blanco/blancocg.html</link>
     <description>とても軽量なソースコード自動生成ライブラリです。 多くのプログラミング言語 (Java, C#.NET, JavaScript, VB.NET, PHP, Ruby, Python) のソースコード生成に対応しています。</description>
     <dc:date>2006-04-17</dc:date>
   </item> -->
 
   <item>
     <title>blancoCharacterGroup</title>
-    <link>http://www.igapyon.jp/blanco/blancocharactergroup.html</link>
+    <link>https://www.igapyon.jp/blanco/blancocharactergroup.html</link>
     <description>「文字グループ定義書」という Excelブックから、文字グループを扱うソースコードを自動生成します。</description>
     <dc:date>2006-09-27</dc:date>
   </item>
 
   <item>
     <title>blancoCodeGenerator</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoCodeGenerator</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoCodeGenerator</link>
     <description>ソースコード自動生成ライブラリです。※旧世代のblanco Frameworkプロダクトは このライブラリを利用していました。これの代わりに blancoCgを利用することを推奨します。</description>
     <dc:date>2006-04-17</dc:date>
   </item>
 
   <item>
     <title>blancoCommons</title>
-    <link>http://www.igapyon.jp/blanco/blancocommons.html</link>
+    <link>https://www.igapyon.jp/blanco/blancocommons.html</link>
     <description>blanco Frameworkの共通処理を集めたライブラリです。基本的な共通処理のほかに、JExcelApi日本語化パッチ、Excelブック形式の賢い読み込みクラスライブラリ (blancoCalcParser) などが含まれます。</description>
     <dc:date>2005-06-28</dc:date>
   </item>
 
   <item>
     <title>blancoConstants</title>
-    <link>http://www.igapyon.jp/blanco/blancoconstants.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoconstants.html</link>
     <description>「定数定義書」という Excelブックから、定数クラスのソースコードを自動生成します。</description>
     <dc:date>2006-05-24</dc:date>
   </item>
 
   <item>
     <title>blancoCsv</title>
-    <link>http://www.igapyon.jp/blanco/blancocsv.html</link>
+    <link>https://www.igapyon.jp/blanco/blancocsv.html</link>
     <description>「ファイル定義書(CSV)」という Excelブックから、CSVファイル入出力のためのソースコードを自動生成します。</description>
     <dc:date>2005-05-19</dc:date>
   </item>
 
 <!--  <item>
     <title>blancoDb</title>
-    <link>http://www.igapyon.jp/blanco/blancodb.html</link>
+    <link>https://www.igapyon.jp/blanco/blancodb.html</link>
     <description>「SQL定義書」という Excelブックから、データベース入出力のためのソースコードを自動生成します。</description>
     <dc:date>2006-12-29</dc:date>
   </item> -->
 
 <!--  <item>
     <title>blancoDbDotNet</title>
-    <link>http://www.igapyon.jp/blanco/blancodbdotnet.html</link>
+    <link>https://www.igapyon.jp/blanco/blancodbdotnet.html</link>
     <description>「SQL定義書」という Excelブックから、データベース入出力のための C#.NETソースコードを自動生成します。</description>
     <dc:date>2006-10-25</dc:date>
   </item> -->
 
   <item>
     <title>blancoDbPhp</title>
-    <link>http://www.igapyon.jp/blanco/blancodbphp.html</link>
+    <link>https://www.igapyon.jp/blanco/blancodbphp.html</link>
     <description>「SQL定義書」という Excelブックから、データベース入出力のための PHPソースコードを自動生成します。</description>
     <dc:date>2006-12-29</dc:date>
   </item>
 
   <item>
     <title>blancoEclipseBabel</title>
-    <link>http://www.igapyon.jp/blanco/blancoeclipsebabel.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoeclipsebabel.html</link>
     <description>Eclipse Babel プロジェクトに参考日本語訳を提供することを目的とした実験プロジェクトです。</description>
     <dc:date>2008-01-29</dc:date>
   </item>
 
   <item>
     <title>BlancoEclipseDistribution</title>
-    <link>http://www.igapyon.jp/blanco/blancoeclipsedistribution.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoeclipsedistribution.html</link>
     <description>Eclipse SDK, Eclipse 言語パック, 数本のプラグイン を Windowsインストーラー形式で提供します。</description>
     <dc:date>2005-11-12</dc:date>
   </item>
 
   <item>
     <title>BlancoEclipseNls</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoEclipseNls</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoEclipseNls</link>
     <description>Eclipse NLS 定義書を入力して、Eclipse NLS のためのソースコードおよびプロパティファイルを自動生成します。</description>
     <dc:date>2009-05-18</dc:date>
   </item>
 
   <item>
     <title>blancoEncryption</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoEncryption</link>
     <description>暗号化・復号化を簡単に利用できるようにするためのJavaライブラリ(jarファイル)です。
 </description>
     <dc:date>2007-10-17</dc:date>
@@ -523,182 +523,182 @@
 
   <item>
     <title>blancoFixedLength</title>
-    <link>http://www.igapyon.jp/blanco/blancofixedlength.html</link>
+    <link>https://www.igapyon.jp/blanco/blancofixedlength.html</link>
     <description>「ファイル定義書(固定長)」という Excelブックから、固定長ファイル入出力のためのソースコードを自動生成します。</description>
     <dc:date>2006-04-09</dc:date>
   </item>
 
   <item>
     <title>blancoHtmlFormatter</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlFormatter</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlFormatter</link>
     <description>blancoHtmlFormatter は HTML を整形するための ツールです。</description>
     <dc:date>2008-12-15</dc:date>
   </item>
 
   <item>
     <title>blancoHtmlNormalizer</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlNormalizer</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlNormalizer</link>
     <description>blancoHtmlNormalizer は HTML を通常化するための ツールです。</description>
     <dc:date>2008-11-29</dc:date>
   </item>
 
   <item>
     <title>blancoHtmlParser</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoHtmlParser</link>
     <description>blancoHtmlParserは HTML を解析するための Javaライブラリ(jarファイル)です。</description>
     <dc:date>2008-11-28</dc:date>
   </item>
 
   <item>
     <title>blancoIBatis</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoIBatis</link>
     <description>blancoIBatis を使うと、sqlMap という XML ファイルから、検索結果の行をあらわすバリューオブジェクトのクラス・ソースコードを自動生成することができます。</description>
     <dc:date>2008-12-10</dc:date>
   </item>
 
   <item>
     <title>blancoJsf</title>
-    <link>http://www.igapyon.jp/blanco/blancojsf.html</link>
+    <link>https://www.igapyon.jp/blanco/blancojsf.html</link>
     <description>blancoJsf を使うと、JSF処理定義書を入力して、対応するJavaソースコードおよび XML ファイルを自動生成することができます。</description>
     <dc:date>2009-11-17</dc:date>
   </item>
 
   <item>
     <title>blancoLog</title>
-    <link>http://www.igapyon.jp/blanco/blancolog.html</link>
+    <link>https://www.igapyon.jp/blanco/blancolog.html</link>
     <description>ログにまつわるクラスを集めたクラスライブラリです。java.util.logging を Apache Commons Logging の代わりに利用できるようにするためのクラスなど幾つかの便利なクラスが含まれます。</description>
     <dc:date>2007-11-23</dc:date>
   </item>
 
   <item>
     <title>blancoLogMessage</title>
-    <link>http://www.igapyon.jp/blanco/blancologmessage.html</link>
+    <link>https://www.igapyon.jp/blanco/blancologmessage.html</link>
     <description>「ログ・メッセージ定義書」という Excelブックから、ロギングをおこなうためのソースコードを自動生成します。</description>
     <dc:date>2008-11-05</dc:date>
   </item>
 
   <item>
     <title>blancoMail</title>
-    <link>http://www.igapyon.jp/blanco/blancomail.html</link>
+    <link>https://www.igapyon.jp/blanco/blancomail.html</link>
     <description>blancoMailは、メール送受信にまつわる諸問題を解決するためのメールソリューションおよびフレームワークです。</description>
     <dc:date>2007-09-05</dc:date>
   </item>
 
 <!--  <item>
     <title>blancoMailCore</title>
-    <link>http://www.igapyon.jp/blanco/blancomailcore.html</link>
+    <link>https://www.igapyon.jp/blanco/blancomailcore.html</link>
     <description>メール送受信を安全で確実に実現するためのコアライブラリです。</description>
     <dc:date>2007-10-01</dc:date>
   </item> -->
 
   <item>
     <title>blancoMessage</title>
-    <link>http://www.igapyon.jp/blanco/blancomessage.html</link>
+    <link>https://www.igapyon.jp/blanco/blancomessage.html</link>
     <description>「メッセージ定義書」という Excelブックから、メッセージを扱うソースコードを自動生成します。</description>
     <dc:date>2006-10-03</dc:date>
   </item>
 
   <item>
     <title>blancoNLpackGenerator</title>
-    <link>http://www.igapyon.jp/blanco/blanconlpackgenerator.html</link>
+    <link>https://www.igapyon.jp/blanco/blanconlpackgenerator.html</link>
     <description>Javaアプリケーションを入力して、言語パックを自動生成します。主に、Eclipse 本体の言語パックや Eclipseプラグインの言語パックを自動生成します。</description>
     <dc:date>2008-02-23</dc:date>
   </item>
 
   <item>
     <title>blancoPdf</title>
-    <link>http://www.igapyon.jp/blanco/blancopdf.html</link>
+    <link>https://www.igapyon.jp/blanco/blancopdf.html</link>
     <description>PDF ファイルを簡単に生成するための Java ライブラリです。</description>
     <dc:date>2009-12-18</dc:date>
   </item>
 
   <item>
     <title>blancoReport</title>
-    <link>http://www.igapyon.jp/blanco/blancoreport.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoreport.html</link>
     <description>OpenOffice.org経由で Excel形式またはPDF形式の帳票を作成するAPIセットおよびコマンドを提供します。OpenOffice.orgを利用してドキュメント形式変換処理を行いたい場合に有益です。</description>
     <dc:date>2005-06-16</dc:date>
   </item>
 
 <!--  <item>
     <title>blancoResourceBundle</title>
-    <link>http://www.igapyon.jp/blanco/blancoresourcebundle.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoresourcebundle.html</link>
     <description>「リソースバンドル定義書」という Excelブックから、プロパティファイルおよびリソースバンドルアクセスをおこなうソースコードを自動生成します。</description>
     <dc:date>2005-08-24</dc:date>
   </item> -->
 
   <item>
     <title>blancoService</title>
-    <link>http://www.igapyon.jp/blanco/blancoservice.html</link>
+    <link>https://www.igapyon.jp/blanco/blancoservice.html</link>
     <description>「サービス定義書」という Excelブックから、Webアプリケーションサーバで動作する常駐プログラムのソースコードを自動生成します。</description>
     <dc:date>2006-10-20</dc:date>
   </item>
 
   <item>
     <title>blancoSOAP</title>
-    <link>http://www.igapyon.jp/blanco/blancosoap.html</link>
+    <link>https://www.igapyon.jp/blanco/blancosoap.html</link>
     <description>「電文処理定義書」および「電文定義書」という Excelブックから、Webサービスを利用するためのソースコード等を自動生成します。</description>
     <dc:date>2005-09-10</dc:date>
   </item>
 
   <item>
     <title>BlancoSqlEditorPlugin</title>
-    <link>http://www.igapyon.jp/blanco/blancosqleditorplugin.html</link>
+    <link>https://www.igapyon.jp/blanco/blancosqleditorplugin.html</link>
     <description>SQL文を整形するEcilpseプラグインです。Eclipse上で sql拡張子と関連づけられた SQLエディタとして動作します。</description>
     <dc:date>2005-08-02</dc:date>
   </item>
 
   <item>
     <title>blancoSqlFormatter</title>
-    <link>http://www.igapyon.jp/blanco/blancosqlformatter.html</link>
+    <link>https://www.igapyon.jp/blanco/blancosqlformatter.html</link>
     <description>SQL文を整形するためのライブラリです。単純な構造なので、あなたのアプリケーションに簡単に組み込むことが出来ます。</description>
     <dc:date>2006-05-10</dc:date>
   </item>
 
   <item>
     <title>blancoStringConverter</title>
-    <link>http://www.igapyon.jp/blanco/blancostringconverter.html</link>
+    <link>https://www.igapyon.jp/blanco/blancostringconverter.html</link>
     <description>「文字列変換定義書」という Excelブックから、文字列変換のためのソースコードを自動生成します。</description>
     <dc:date>2006-09-29</dc:date>
   </item>
 
   <item>
     <title>blancoStringGroup</title>
-    <link>http://www.igapyon.jp/blanco/blancostringgroup.html</link>
+    <link>https://www.igapyon.jp/blanco/blancostringgroup.html</link>
     <description>「文字列グループ定義書」という Excelブックから、文字列グループ を扱うソースコードを自動生成します。</description>
     <dc:date>2006-09-27</dc:date>
   </item>
 
   <item>
     <title>blancoStruts</title>
-    <link>http://www.igapyon.jp/blanco/blancostruts.html</link>
+    <link>https://www.igapyon.jp/blanco/blancostruts.html</link>
     <description>「画面定義書」という Excelブックから、Struts用のソースコードを自動生成します。</description>
     <dc:date>2005-05-19</dc:date>
   </item>
 
   <item>
     <title>blancoSvnConf</title>
-    <link>http://www.igapyon.jp/blanco/blancosvnconf.html</link>
+    <link>https://www.igapyon.jp/blanco/blancosvnconf.html</link>
     <description>「Subversionリポジトリ定義書」という Excelブックを入力して、Subversion設定ファイルを自動生成します。</description>
     <dc:date>2008-01-18</dc:date>
   </item>
 
   <item>
     <title>blancoValueObject</title>
-    <link>http://www.igapyon.jp/blanco/blancovalueobject.html</link>
+    <link>https://www.igapyon.jp/blanco/blancovalueobject.html</link>
     <description>「バリューオブジェクト定義書」という Excelブックから、バリューオブジェクトを扱うソースコードを自動生成します。</description>
     <dc:date>2006-04-28</dc:date>
   </item>
 
   <item>
     <title>blancoWebCrawler</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoWebCrawler</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoWebCrawler</link>
     <description>Web巡回ソフトのための基本ツールキットです。</description>
     <dc:date>2007-10-15</dc:date>
   </item>
 
   <item>
     <title>blancoXmlBinding</title>
-    <link>http://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding</link>
+    <link>https://www.igapyon.jp/blanco/blancodownload.html#blancoXmlBinding</link>
     <description>XML→バリューオブジェクトマッピングをおこなうためのライブラリです。</description>
     <dc:date>2006-05-03</dc:date>
   </item>
@@ -719,7 +719,7 @@
 
   <item>
     <title>R/Oマッピング</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/romap.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/romap.html</link>
     <description>R/Oマッピングの定義をここに定めます。</description>
     <dc:date>2005-05-10</dc:date>
   </item>
@@ -740,28 +740,28 @@
 
   <item>
     <title>トイプログラム</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/toyprog.html</link>
     <description>トイプログラム・デザインパターンの定義をここに定めます。</description>
     <dc:date>2005-06-13</dc:date>
   </item>
 
   <item>
     <title>マスカット</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/maskat.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/maskat.html</link>
     <description>マスカットは、Webブラウザ上で動作するAJAXベースのリッチクライアントを開発するオープンソース・フレームワークです。</description>
     <dc:date>2006-09-20</dc:date>
   </item>
 
   <item>
     <title>将棋</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/shogi.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/shogi.html</link>
     <description>将棋は日本版のチェスに相当するものです。</description>
     <dc:date>2006-10-11</dc:date>
   </item>
 
   <item>
     <title>囲碁</title>
-    <link>http://www.igapyon.jp/igapyon/diary/keyword/go.html</link>
+    <link>https://www.igapyon.jp/igapyon/diary/keyword/go.html</link>
     <description>囲碁は東アジアで古くから楽しまれているボードゲームです。</description>
     <dc:date>2007-04-06</dc:date>
   </item>

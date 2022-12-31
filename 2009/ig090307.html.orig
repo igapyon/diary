@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2009/03/07 “ú‹L: ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚Ä‚Ì GlassFish Server</TITLE>
-<META name="DESCRIPTION" content="Ž„‚É‚Æ‚Á‚Ä‚Ì ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚ÄAGlassFish ƒT[ƒo‚ª —L—Í‚ÈŒó•â‚Æ‚È‚è‚Â‚Â‚ ‚è‚Ü‚·BŽ„‚É‚Æ‚Á‚Ä‚Ì ŽŽ—p—p“r Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Æ‚µ‚ÄAApache Tomcat ‚ªŽx‚¦‚Ä‚­‚ê‚½‰ß‹Ž 7 ”N‚Æ“¯—lAGlassFish ‚ª¡Œã 7 ”NŠÔ‚ðŽx‚¦‚¤‚é‚¾‚¯‚ÌŽÀ—Í‚ð”é‚ß‚Ä‚¢‚é‚Ì‚©‚Ç‚¤‚©A‘ü¡lŽ@’†‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2009/03/07 ï¿½ï¿½ï¿½L: ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ GlassFish Server</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½ÄAGlassFish ï¿½Tï¿½[ï¿½oï¿½ï¿½ ï¿½Lï¿½Í‚ÈŒï¿½ï¿½Æ‚È‚ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½pï¿½pï¿½r Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ÄAApache Tomcat ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ê‚½ï¿½ß‹ï¿½ 7 ï¿½Nï¿½Æ“ï¿½ï¿½lï¿½AGlassFish ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 7 ï¿½Nï¿½Ô‚ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Í‚ï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½lï¿½@ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2009/03/07 “ú‹L: ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚Ä‚Ì GlassFish Server</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Ž„‚É‚Æ‚Á‚Ä‚Ì ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚ÄAGlassFish ƒT[ƒo‚ª —L—Í‚ÈŒó•â‚Æ‚È‚è‚Â‚Â‚ ‚è‚Ü‚·BŽ„‚É‚Æ‚Á‚Ä‚Ì ŽŽ—p—p“r Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Æ‚µ‚ÄAApache Tomcat ‚ªŽx‚¦‚Ä‚­‚ê‚½‰ß‹Ž 7 ”N‚Æ“¯—lAGlassFish ‚ª¡Œã 7 ”NŠÔ‚ðŽx‚¦‚¤‚é‚¾‚¯‚ÌŽÀ—Í‚ð”é‚ß‚Ä‚¢‚é‚Ì‚©‚Ç‚¤‚©A‘ü¡lŽ@’†‚Å‚·B</P>
+    <H2>2009/03/07 ï¿½ï¿½ï¿½L: ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ GlassFish Server</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½ÄAGlassFish ï¿½Tï¿½[ï¿½oï¿½ï¿½ ï¿½Lï¿½Í‚ÈŒï¿½ï¿½Æ‚È‚ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½pï¿½pï¿½r Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ÄAApache Tomcat ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ê‚½ï¿½ß‹ï¿½ 7 ï¿½Nï¿½Æ“ï¿½ï¿½lï¿½AGlassFish ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 7 ï¿½Nï¿½Ô‚ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Í‚ï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½lï¿½@ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,60 +60,60 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚Ä‚Ì GlassFish Server</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ GlassFish Server</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Ž„‚Í 2001”N‚±‚ë‚©‚ç  <A href="http://tomcat.apache.org/">Apache Tomcat</A> ‚ðˆ¤—p‚µ‚Ä‚«‚Ü‚µ‚½B‚¿‚å‚Á‚Æ‚µ‚½ Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Æ‚µ‚ÄATomcat ‚ÍŽèŒy‚Å ‚©‚Â ‚Æ‚Ä‚à•Ö—˜‚Å‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ 2001ï¿½Nï¿½ï¿½ï¿½ë‚©ï¿½ï¿½  <A href="http://tomcat.apache.org/">Apache Tomcat</A> ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ÄATomcat ï¿½ÍŽï¿½yï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><A href="http://www.igapyon.jp/igapyon/diary/2001/ig011023.html">2001/10/23 “ú‹L: SUN J2SE 1.3.1_01a , Apache Tomcat 3.3 ƒŠƒŠ[ƒX</A>
+  <LI><A href="https://www.igapyon.jp/igapyon/diary/2001/ig011023.html">2001/10/23 ï¿½ï¿½ï¿½L: SUN J2SE 1.3.1_01a , Apache Tomcat 3.3 ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
 </UL>
-<P>‚»‚Ì‚±‚ë‚©‚ç‚Â‚¢Å‹ß‚Ü‚ÅA‚¿‚å‚Á‚Æ‚µ‚½ Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚ª•K—v‚Èê‡‚É‚Í Tomcat ‚ð—˜—p‚µ‚Ä‚«‚Ü‚µ‚½B‚±‚ê‚Ü‚Å 7 ”NŠÔ‚Ù‚Çˆ¤—p‚µ‚Ä‚«‚½‚±‚Æ‚É‚È‚è‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ë‚©ï¿½ï¿½Â‚ï¿½ï¿½Å‹ß‚Ü‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½Kï¿½vï¿½Èê‡ï¿½É‚ï¿½ Tomcat ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ 7 ï¿½Nï¿½Ô‚Ù‚Çˆï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>Ž„‚ÍA‘¼‚Ìl‚ª ƒ|ƒXƒg Tomcat ‚Æ‚µ‚Ä—˜—p‚µ‚»‚¤‚È JBossAApache GeronimoASpringASeasar2 c ‚È‚Ç‚É‚Â‚¢‚ÄAŽŽ—p—p“r‚Å‚Í—˜—p‚µ‚½‚±‚Æ‚ª‚Ù‚Æ‚ñ‚Ç‚È‚¢‚Ì‚Å‚·B‚¸[‚Á‚Æ
-      ŽŽ—p—p“r‚Í Tomcat ‚¾‚Á‚½‚Ì‚Å‚·B<BR>
-      ‚±‚ê‚ÍAŽ„‚Í EJBADI/AOP ‚È‚Ç‚É‘Î‚µ‚ÄŠwKƒRƒXƒg‚ðÁ”ï‚µ‚Ä‚±‚È‚©‚Á‚½‚±‚Æ‚ªA‚»‚ê‚çƒ|ƒXƒg Tomcat Œó•âƒvƒƒ_ƒNƒg‚ð—˜—p‚µ‚Ä‚±‚È‚©‚Á‚½Œ´ˆö‚¾‚Æl‚¦‚ç‚ê‚Ü‚·B‚ ‚ A‚»‚¤‚¢‚¦‚ÎAŽ„‚Í‚»‚ê‚ç‚Ì—¬s‚ª·‚èã‚ª‚Á‚Ä‚¢‚éŠÔ‚ÉAƒ\[ƒXƒR[ƒhŽ©“®¶¬‚Ö‚ÌŽæ‚è‘g‚Ý‚â ƒ\ƒtƒgƒEƒFƒA‚Ì“ú–{Œê‰» (–|–óì‹Æ) ‚É’—Í‚µ‚Ä‚«‚Ä‚¢‚Ü‚·B</TD>
+      <TD>ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½Ìlï¿½ï¿½ ï¿½|ï¿½Xï¿½g Tomcat ï¿½Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ JBossï¿½AApache Geronimoï¿½ASpringï¿½ASeasar2 ï¿½c ï¿½È‚Ç‚É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½pï¿½pï¿½rï¿½Å‚Í—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ù‚Æ‚ï¿½Ç‚È‚ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½
+      ï¿½ï¿½ï¿½pï¿½pï¿½rï¿½ï¿½ Tomcat ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B<BR>
+      ï¿½ï¿½ï¿½ï¿½ÍAï¿½ï¿½ï¿½ï¿½ EJBï¿½ADI/AOP ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ÄŠwï¿½Kï¿½Rï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï‚µï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½Xï¿½g Tomcat ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Ì—ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ô‚ÉAï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö‚ÌŽï¿½ï¿½gï¿½Ý‚ï¿½ ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ì“ï¿½ï¿½{ï¿½ê‰» (ï¿½|ï¿½ï¿½ï¿½ï¿½) ï¿½É’ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>‚Æ‚±‚ë‚ªˆê•û‚ÅATomcat ‚Å‚Í —lX‚È‹@”\‚ª•s‘«‚·‚é‚Æ‚¢‚¤‹Ç–Ê‚ªŒ‹\o‚Ä‚«‚Ü‚µ‚½BƒfƒtƒHƒ‹ƒg‚Å‚Í JSP ‚Æ Servlet ‚ðƒzƒXƒg‚µ‚Ä‚­‚ê‚é‚Ì‚Å‚·‚ªA‚»‚ê‚¾‚¯‚Å‚Í‘«‚è‚È‚­‚È‚Á‚Ä‚«‚Ä‚µ‚Ü‚Á‚½‚Ì‚Å‚·B‚Þ‚ë‚ñ
-‚¢‚ë‚¢‚ë‚Èƒvƒƒ_ƒNƒg‚ð‘g‚Ý‡‚í‚¹‚Î‹@”\‚ð“üŽè‚Å‚«‚é‚Ì‚Å‚·‚ªA‚»‚Ìu‘g‚Ý‡‚í‚¹‚Ì–­v‚Ý‚½‚¢‚È‚à‚Ì‚É‚ÍA‚ ‚Ü‚èŽžŠÔ‚ð‚©‚¯‚½‚­‚È‚¢‚Æ‚¢‚¤Ž–î‚à‚ ‚è‚Ü‚·B</P>
-<P>Apache Tomcat ‚É‚Í”õ‚í‚Á‚Ä‚¢‚È‚¢A“Á‚É•K—v‚¾‚ÆŠ´‚¶‚ç‚ê‚½‚Ì‚ÍˆÈ‰º‚Ì‹@”\‚Å‚·B</P>
+<P>ï¿½Æ‚ï¿½ï¿½ë‚ªï¿½ï¿½ï¿½ï¿½ÅATomcat ï¿½Å‚ï¿½ ï¿½lï¿½Xï¿½È‹@ï¿½\ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ç–Ê‚ï¿½ï¿½ï¿½ï¿½\ï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½ JSP ï¿½ï¿½ Servlet ï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚¾ï¿½ï¿½ï¿½Å‚Í‘ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½Bï¿½Þ‚ï¿½ï¿½
+ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒvï¿½ï¿½ï¿½_ï¿½Nï¿½gï¿½ï¿½gï¿½Ýï¿½ï¿½í‚¹ï¿½Î‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìuï¿½gï¿½Ýï¿½ï¿½í‚¹ï¿½Ì–ï¿½ï¿½vï¿½Ý‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚É‚ÍAï¿½ï¿½ï¿½Ü‚èŽžï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>Apache Tomcat ï¿½É‚Í”ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½É•Kï¿½vï¿½ï¿½ï¿½ÆŠï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ÍˆÈ‰ï¿½ï¿½Ì‹@ï¿½\ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>Web ƒT[ƒrƒXEƒT[ƒo‹@”\
+  <LI>Web ï¿½Tï¿½[ï¿½rï¿½Xï¿½Eï¿½Tï¿½[ï¿½oï¿½@ï¿½\
 </UL>
-<P>‚»‚µ‚ÄAŽŸ‚É•K—v‚Æl‚¦‚ç‚ê‚Ä‚¢‚½‚Ì‚ÍˆÈ‰º‚Ì‹@”\‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½É•Kï¿½vï¿½Ælï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÍˆÈ‰ï¿½ï¿½Ì‹@ï¿½\ï¿½Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒƒbƒZ[ƒWEƒLƒ…[‹@”\
-  <LI>ƒVƒ“ƒOƒ‹EƒTƒCƒ“ƒIƒ“‹@”\
-  <LI>(‚»‚µ‚ÄA‚à‚µ‚©‚µ‚½‚ç) EJB ƒRƒ“ƒeƒi‹@”\
+  <LI>ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Eï¿½Lï¿½ï¿½ï¿½[ï¿½@ï¿½\
+  <LI>ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Eï¿½Tï¿½Cï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½@ï¿½\
+  <LI>(ï¿½ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) EJB ï¿½Rï¿½ï¿½ï¿½eï¿½iï¿½@ï¿½\
 </UL>
-<P>¦Å‹ß‚Ì Apache Tomcat ‚ÉA‚»‚Ì‚æ‚¤‚È‹@”\‚ª”õ‚í‚Á‚Ä‚¢‚é‚©‚Ç‚¤‚©‚É‚Â‚¢‚ÄAŽ„‚Í’mŒ©‚ ‚è‚Ü‚¹‚ñB</P>
-<P>‚»‚¤‚¢‚¤ƒj[ƒY‚Éƒsƒbƒ^ƒŠƒtƒBƒbƒg‚µ‚»‚¤‚ÈƒI[ƒvƒ“ƒ\[ƒX Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Æ‚µ‚Ä <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish ‚ÍAJava EE ŽÀ‘•‚ÌƒI[ƒvƒ“ƒ\[ƒXEƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Å‚·BJava EE ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚É‚ÍAJavaServer Pages (JSP)AJavaServer Faces (JSF)AServletAEnterprise JavaBeans (EJB)AJava API for Web Services(JAX-WS)AJava Architecture for XML Binding (JAXB) ‚È‚Ç‚ªŠÜ‚Ü‚ê‚Ü‚·B">GlassFish</A>
-‚ªD“K‚Å‚ ‚é‚à‚Ì‚ÆAÅ‹ßl‚¦‚Í‚¶‚ß‚Ä‚¢‚Ü‚·BWeb ƒT[ƒrƒX‹@”\AƒƒbƒZ[ƒWEƒLƒ…[‹@”\A‚»‚µ‚ÄƒAƒhƒIƒ“‚È‚ª‚ç ƒVƒ“ƒOƒ‹EƒTƒCƒ“ƒIƒ“‹@”\‚ª ƒI[ƒvƒ“ƒ\[ƒX
-‚©‚Â ‚²‚­ŠÈ’P‚É“üŽè‚Å‚«‚Ä—˜—p‚·‚é‚±‚Æ‚ª‚Å‚«‚é‚æ‚¤‚È‚Ì‚Å‚·B</P>
-<P>Ž„‚É‚Æ‚Á‚Ä‚Ì ƒ|ƒXƒg Apache Tomcat ‚Æ‚µ‚ÄAGlassFish ƒT[ƒo‚ª —L—Í‚ÈŒó•â‚Æ‚È‚è‚Â‚Â‚ ‚è‚Ü‚·BŽ„‚É‚Æ‚Á‚Ä‚Ì ŽŽ—p—p“r
-Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚Æ‚µ‚ÄAApache Tomcat ‚ªŽx‚¦‚Ä‚­‚ê‚½‰ß‹Ž 7 ”N‚Æ“¯—lAGlassFish ‚ª¡Œã 7 ”NŠÔ‚ðŽx‚¦‚¤‚é‚¾‚¯‚ÌŽÀ—Í‚ð”é‚ß‚Ä‚¢‚é‚Ì‚©‚Ç‚¤‚©A‘ü¡lŽ@’†‚Å‚·B
+<P>ï¿½ï¿½ï¿½Å‹ß‚ï¿½ Apache Tomcat ï¿½ÉAï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È‹@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½Í’mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½[ï¿½Yï¿½Éƒsï¿½bï¿½^ï¿½ï¿½ï¿½tï¿½Bï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈƒIï¿½[https://www.igapyon.jp/igapyon/diary/ï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ï¿½ <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/glassfish.html" TITLE="GlassFish ï¿½ÍAJava EE ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒIï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Eï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Å‚ï¿½ï¿½BJava EE ï¿½vï¿½ï¿½ï¿½bï¿½gï¿½tï¿½Hï¿½[ï¿½ï¿½ï¿½É‚ÍAJavaServer Pages (JSP)ï¿½AJavaServer Faces (JSF)ï¿½AServletï¿½AEnterprise JavaBeans (EJB)ï¿½AJava API for Web Services(JAX-WS)ï¿½AJava Architecture for XML Binding (JAXB) ï¿½È‚Ç‚ï¿½ï¿½Ü‚Ü‚ï¿½Ü‚ï¿½ï¿½B">GlassFish</A>
+ï¿½ï¿½ï¿½Dï¿½Kï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÆAï¿½Å‹ßlï¿½ï¿½ï¿½Í‚ï¿½ï¿½ß‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BWeb ï¿½Tï¿½[ï¿½rï¿½Xï¿½@ï¿½\ï¿½Aï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Eï¿½Lï¿½ï¿½ï¿½[ï¿½@ï¿½\ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÄƒAï¿½hï¿½Iï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ ï¿½Vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Eï¿½Tï¿½Cï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½X
+ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½É“ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½È‚Ì‚Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½|ï¿½Xï¿½g Apache Tomcat ï¿½Æ‚ï¿½ï¿½ÄAGlassFish ï¿½Tï¿½[ï¿½oï¿½ï¿½ ï¿½Lï¿½Í‚ÈŒï¿½ï¿½Æ‚È‚ï¿½Â‚Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚ï¿½ ï¿½ï¿½ï¿½pï¿½pï¿½r
+Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½Æ‚ï¿½ï¿½ÄAApache Tomcat ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ê‚½ï¿½ß‹ï¿½ 7 ï¿½Nï¿½Æ“ï¿½ï¿½lï¿½AGlassFish ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 7 ï¿½Nï¿½Ô‚ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Í‚ï¿½ï¿½ß‚Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½lï¿½@ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 </P>
-<P>‚±‚Ì‚æ‚¤‚È—L—p‚È Java ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒT[ƒo‚ðƒI[ƒvƒ“ƒ\[ƒX‚Å’ñ‹Ÿ‚µ‚Ä‚­‚ê‚Ä‚¢‚é ƒTƒ“Eƒ}ƒCƒNƒƒVƒXƒeƒ€ƒYŽÐ ‚¨‚æ‚Ñ GlassFish
-ŠÖŒWŽÒ‚ÌŠF—l‚ÉA‘½‚­‚ÌŠ´ŽÓ‚ðŽv‚¢‚Ü‚·B‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B</P>
-<P>AAAGlassFish ‚ÌƒIƒTƒJƒiEƒAƒCƒRƒ“‚ª–£—Í“I‚Å‚ ‚é‚±‚Æ‚ªAŽ„‚Ì”»’f‚É‰e‹¿‚ð—^‚¦‚Ä‚¢‚È‚¢‚±‚Æ‚É‚Â‚¢‚Ä‚Í”Û’è‚Å‚«‚Ü‚¹‚ñ (‹êÎ)</P>
-<P><FONT color="#ff00ff">ŠÖŒW‚·‚é“ú‹L</FONT></P>
+<P>ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½È—Lï¿½pï¿½ï¿½ Java ï¿½Aï¿½vï¿½ï¿½ï¿½Pï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Tï¿½[ï¿½oï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Å’ñ‹Ÿ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ ï¿½Tï¿½ï¿½ï¿½Eï¿½}ï¿½Cï¿½Nï¿½ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Yï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ GlassFish
+ï¿½ÖŒWï¿½Ò‚ÌŠFï¿½lï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½ÌŠï¿½ï¿½Ó‚ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Aï¿½Aï¿½AGlassFish ï¿½ÌƒIï¿½Tï¿½Jï¿½iï¿½Eï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í“Iï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ì”ï¿½ï¿½fï¿½É‰eï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚É‚Â‚ï¿½ï¿½Ä‚Í”Û’ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
+<P><FONT color="#ff00ff">ï¿½ÖŒWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig090303.html">2009/03/03 “ú‹L: GlassFish Server 2.1 ‚Æ JBoss 5.0.1.GA ‚ð‚´‚Á‚­‚è‘ÌŒ±</A>
-  <LI><A href="ig090302.html">2009/03/02 “ú‹L: GlassFish Server 2.1 ƒCƒ“ƒXƒg[ƒ‹Žè‡ (Windows ”Å)</A>
+  <LI><A href="ig090303.html">2009/03/03 ï¿½ï¿½ï¿½L: GlassFish Server 2.1 ï¿½ï¿½ JBoss 5.0.1.GA ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒï¿½</A>
+  <LI><A href="ig090302.html">2009/03/02 ï¿½ï¿½ï¿½L: GlassFish Server 2.1 ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½è‡ (Windows ï¿½ï¿½)</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖŒW‚µ‚»‚¤‚ÈƒŠƒ\[ƒX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ÖŒWï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èƒï¿½ï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
-  <LI><A href="http://www.itmedia.co.jp/enterprise/articles/0904/10/news022.html">ƒ}ƒsƒIƒ“AƒTƒ“»•i‚ÅƒVƒXƒeƒ€ŠÂ‹«‚Ì‹­‰»‚Æ‡—‰»‚ðŽÀŒ» (’n}ƒT[ƒrƒXƒVƒXƒeƒ€üV)</A><BR>
-  Mapion ‚ÌÄ\’z‚ð GlassFish + MySQL (Cluster Database) ‚Ì\¬‚ÅŽÀŽ{‚µ‚½‚Æ‚Ì‚±‚ÆB(<A href="http://d.hatena.ne.jp/ko-suga/20090410">via ‰ñ‚è“¹“ú‹L@‚Í‚Ä‚È</A>)
+  <LI><A href="http://www.itmedia.co.jp/enterprise/articles/0904/10/news022.html">ï¿½}ï¿½sï¿½Iï¿½ï¿½ï¿½Aï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ÅƒVï¿½Xï¿½eï¿½ï¿½ï¿½Â‹ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½nï¿½}ï¿½Tï¿½[ï¿½rï¿½Xï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½V)</A><BR>
+  Mapion ï¿½ÌÄ\ï¿½zï¿½ï¿½ GlassFish + MySQL (Cluster Database) ï¿½Ì\ï¿½ï¿½ï¿½ÅŽï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ì‚ï¿½ï¿½ÆB(<A href="http://d.hatena.ne.jp/ko-suga/20090410">via ï¿½ï¿½è“¹ï¿½ï¿½ï¿½L@ï¿½Í‚Ä‚ï¿½</A>)
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

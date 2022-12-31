@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/02/18 “ú‹L: Java: Jakarta POI (HSSF) ‚ð—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚Ì“à—e‚ð•ÏX‚·‚éƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="Jakarta POI‚ð—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚Ì“à—e‚ð•ÏX‚·‚éƒgƒCƒvƒƒOƒ‰ƒ€‚ðì‚è‚Ü‚µ‚½BƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,ƒTƒ“ƒvƒ‹,HSSF,POI,Excel.API">
+<TITLE>2005/02/18 ï¿½ï¿½ï¿½L: Java: Jakarta POI (HSSF) ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Jakarta POIï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,HSSF,POI,Excel.API">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/02/18 “ú‹L: Java: Jakarta POI (HSSF) ‚ð—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚Ì“à—e‚ð•ÏX‚·‚éƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,ƒTƒ“ƒvƒ‹,HSSF,POI,Excel.API] Jakarta POI‚ð—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚Ì“à—e‚ð•ÏX‚·‚éƒgƒCƒvƒƒOƒ‰ƒ€‚ðì‚è‚Ü‚µ‚½BƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+    <H2>2005/02/18 ï¿½ï¿½ï¿½L: Java: Jakarta POI (HSSF) ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,HSSF,POI,Excel.API] Jakarta POIï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,26 +60,26 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) ‚ð—p‚¢‚½Excelƒtƒ@ƒCƒ‹‚Ì“à—e‚ð•ÏX‚·‚éƒTƒ“ƒvƒ‹</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠ">Jakarta POI</A>‚ðŽg‚Á‚ÄExcelƒV[ƒg‚Ì“à—e‚ð•ÏX‚·‚éƒTƒ“ƒvƒ‹‚Å‚·B<BR>
-ˆ—‚Ì‰ß’ö‚ÅAExcelƒtƒ@ƒCƒ‹‚ð•Û‘¶‚·‚éÛ‚É‚Í•Ê–¼•Û‘¶‚µ‚Ä‚¢‚Ü‚·B</P>
-<P>Šm”F‚É—˜—p‚µ‚½“®ìŠÂ‹«</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½">Jakarta POI</A>ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Excelï¿½Vï¿½[ï¿½gï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ß’ï¿½ï¿½ÅAExcelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚Í•Ê–ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½mï¿½Fï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½</P>
 <UL>
-  <LI>Sun Java2 SDK 1.4.2_02 (Windows”Å)
+  <LI>Sun Java2 SDK 1.4.2_02 (Windowsï¿½ï¿½)
   <LI><A href="http://www.meisei-u.ac.jp/mirror/apache/dist/jakarta/poi/">Jakarta POI 2.5.1 final 20040804</A>
 </UL>
-<P>“®ìðŒ</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠ">Jakarta POI</A> ‚ÉƒNƒ‰ƒXƒpƒX‚ª’Ê‚µ‚Ä‚ ‚é‚±‚Æ
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½">Jakarta POI</A> ï¿½ÉƒNï¿½ï¿½ï¿½Xï¿½pï¿½Xï¿½ï¿½ï¿½Ê‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½
   <UL>
     <LI>poi-2.5.1-final-20040804.jar 
     <LI>poi-contrib-2.5.1-final-20040804.jar
   </UL>
-  <LI>inputExcel.xls ‚Æ‚¢‚¤Excelƒtƒ@ƒCƒ‹‚ªƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚É‘¶Ý‚·‚é‚±‚ÆB
-  <LI>Sheet1 ‚Æ‚¢‚¤ƒ[ƒNƒV[ƒg‚ª‘¶Ý‚µ‚ÄAE6 (6s5—ñ) ‚ÉŠù‚ÉƒZƒ‹‚ª‘¶Ý‚·‚é‚±‚ÆB
+  <LI>inputExcel.xls ï¿½Æ‚ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½gï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½é‚±ï¿½ÆB
+  <LI>Sheet1 ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½Vï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ÄAE6 (6ï¿½s5ï¿½ï¿½) ï¿½ÉŠï¿½ï¿½ÉƒZï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½é‚±ï¿½ÆB
 </UL>
 <BLOCKQUOTE>
 <TABLE border="1">
@@ -94,9 +94,9 @@
     <TR>
       <TD>
       <pre>/*
- * Jakarta POI —p‚¢‚½ Excelƒtƒ@ƒCƒ‹•ÏXƒTƒ“ƒvƒ‹
- * Copyright(C) 2005 ˆÉ‰ê•qŽ÷
- * ì¬“ú: 2005/02/18
+ * Jakarta POI ï¿½pï¿½ï¿½ï¿½ï¿½ Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÏXï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½
+ * Copyright(C) 2005 ï¿½É‰ï¿½qï¿½ï¿½
+ * ï¿½ì¬ï¿½ï¿½: 2005/02/18
  */
 
 import java.io.BufferedOutputStream;
@@ -113,40 +113,40 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 /**
- * Jakarta POI‚ðŽg‚Á‚ÄExcelƒtƒ@ƒCƒ‹‚É•ÏX‚ð‰Á‚¦‚Ü‚·B
+ * Jakarta POIï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
  * 
  * @author iga
  */
 public class PoiModifyExcelSample {
         /**
-         * “ü—Íƒtƒ@ƒCƒ‹‚Æ‚µ‚Ä—^‚¦‚éExcelƒtƒ@ƒCƒ‹‚Ìƒtƒ@ƒCƒ‹–¼
+         * ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä—^ï¿½ï¿½ï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
          */
         private static final String INPUT_FILE_EXCEL = &quot;inputExcel.xls&quot;;
 
         /**
-         * o—Íƒtƒ@ƒCƒ‹‚Æ‚µ‚Ä—^‚¦‚éPDFƒtƒ@ƒCƒ‹‚Ìƒtƒ@ƒCƒ‹–¼
+         * ï¿½oï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä—^ï¿½ï¿½ï¿½ï¿½PDFï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
          */
         private static final String OUTPUT_FILE_EXCEL = &quot;outputExcel.xls&quot;;
 
         public static void main(String[] args) {
-                System.out.println(&quot;Excelƒtƒ@ƒCƒ‹‚ð“Ç‚Ýž‚ñ‚Å“à—e‚ð•ÏX‚·‚éƒTƒ“ƒvƒ‹.&quot;);
+                System.out.println(&quot;Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½ï¿½Å“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½.&quot;);
                 FileInputStream inStream = null;
                 File fileInput = new File(INPUT_FILE_EXCEL);
                 if (fileInput.exists() == false) {
-                        System.out.println(&quot;“ü—Íƒtƒ@ƒCƒ‹[&quot; + fileInput.getAbsolutePath()
-                                        + &quot;]‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ.ˆ—‚ð’†’f‚µ‚Ü‚·.&quot;);
+                        System.out.println(&quot;ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.ï¿½ï¿½ï¿½ï¿½ï¿½ð’†’fï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
                         return;
                 }
                 if (fileInput.canRead() == false) {
-                        System.out.println(&quot;“ü—Íƒtƒ@ƒCƒ‹[&quot; + fileInput.getAbsolutePath()
-                                        + &quot;]‚ª“Ç‚Ýž‚Ý‰Â”\‚Å‚Í‚ ‚è‚Ü‚¹‚ñ.ˆ—‚ð’†’f‚µ‚Ü‚·.&quot;);
+                        System.out.println(&quot;ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]ï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½Ý‰Â”\ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.ï¿½ï¿½ï¿½ï¿½ï¿½ð’†’fï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
                         return;
                 }
                 try {
                         inStream = new FileInputStream(fileInput);
                 } catch (FileNotFoundException ex) {
-                        System.err.println(&quot;“ü—Íƒtƒ@ƒCƒ‹[&quot; + fileInput.getAbsolutePath()
-                                        + &quot;]‚ÌƒI[ƒvƒ“‚ÉŽ¸”s‚µ‚Ü‚µ‚½.:&quot; + ex.toString());
+                        System.err.println(&quot;ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileInput.getAbsolutePath()
+                                        + &quot;]ï¿½ÌƒIï¿½[ï¿½vï¿½ï¿½ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.:&quot; + ex.toString());
                         return;
                 }
 
@@ -154,39 +154,39 @@ public class PoiModifyExcelSample {
                 try {
                         hssfWorkbook = new HSSFWorkbook(inStream);
                 } catch (IOException ex) {
-                        System.err.println(&quot;Excel‚Ìƒtƒ@ƒCƒ‹Œ`Ž®‚ª•s³‚Å‚·.:&quot; + ex.toString());
+                        System.err.println(&quot;Excelï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Å‚ï¿½.:&quot; + ex.toString());
                         return;
                 }
 
-                System.out.println(&quot;ƒV[ƒg‚Ì“à—e‚É•ÏX‚ð‰Á‚¦‚Ü‚·.&quot;);
+                System.out.println(&quot;ï¿½Vï¿½[ï¿½gï¿½Ì“ï¿½ï¿½eï¿½É•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
                 HSSFSheet hssfSheet = hssfWorkbook.getSheet(&quot;Sheet1&quot;);
                 if (hssfSheet == null) {
-                        System.err.println(&quot;Žw’è‚ÌExcelƒV[ƒg‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½.&quot;);
+                        System.err.println(&quot;ï¿½wï¿½ï¿½ï¿½Excelï¿½Vï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½.&quot;);
                         return;
                 }
                 HSSFRow hssfRow = hssfSheet.getRow(5);
                 if (hssfRow == null) {
-                        System.err.println(&quot;Žw’è‚ÌExcels‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½. &quot;
-                                        + &quot;‚È‚¨As‚Í0ƒIƒŠƒWƒ“‚Æ‚È‚Á‚Ä‚¢‚Ü‚·B‚Â‚Ü‚è6s–Ú‚Í 5 ‚ÆŽw’è‚µ‚Ü‚·B&quot;);
+                        System.err.println(&quot;ï¿½wï¿½ï¿½ï¿½Excelï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½. &quot;
+                                        + &quot;ï¿½È‚ï¿½ï¿½Aï¿½sï¿½ï¿½0ï¿½Iï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Â‚Ü‚ï¿½6ï¿½sï¿½Ú‚ï¿½ 5 ï¿½ÆŽwï¿½è‚µï¿½Ü‚ï¿½ï¿½B&quot;);
                         return;
                 }
                 HSSFCell hssfCell = hssfRow.getCell((short) 4);
                 if (hssfCell == null) {
-                        System.err.println(&quot;Žw’è‚ÌExcel—ñ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½. &quot;
-                                        + &quot;‚È‚¨A—ñ‚Í0ƒIƒŠƒWƒ“‚Æ‚È‚Á‚Ä‚¢‚Ü‚·B‚Â‚Ü‚èE—ñ‚Í 4 ‚ÆŽw’è‚µ‚Ü‚·B&quot;);
+                        System.err.println(&quot;ï¿½wï¿½ï¿½ï¿½Excelï¿½ñ‚ªŒï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½. &quot;
+                                        + &quot;ï¿½È‚ï¿½ï¿½Aï¿½ï¿½ï¿½0ï¿½Iï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Æ‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Â‚Ü‚ï¿½Eï¿½ï¿½ï¿½ 4 ï¿½ÆŽwï¿½è‚µï¿½Ü‚ï¿½ï¿½B&quot;);
                         return;
                 }
 
                 hssfCell.setEncoding(HSSFCell.ENCODING_UTF_16);
-                hssfCell.setCellValue(&quot;’l‚ÌƒZƒbƒg&quot;);
+                hssfCell.setCellValue(&quot;ï¿½lï¿½ÌƒZï¿½bï¿½g&quot;);
 
-                System.out.println(&quot;ˆ—Œã‚ÌŒ‹‰Ê‚ðExcelƒtƒ@ƒCƒ‹‚É‘‚«ž‚Ý‚Ü‚·.&quot;);
+                System.out.println(&quot;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Ê‚ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚Ü‚ï¿½.&quot;);
                 File fileOutput = new File(OUTPUT_FILE_EXCEL);
                 if (fileOutput.exists()) {
-                        System.out.println(&quot;o—Íæƒtƒ@ƒCƒ‹‚ÍŠù‚É‘¶Ý‚µ‚Ä‚¢‚Ü‚·.Ž–‘Oíœˆ—‚ðs‚¢‚Ü‚·.&quot;);
+                        System.out.println(&quot;ï¿½oï¿½Íï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÍŠï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½.ï¿½ï¿½ï¿½Oï¿½íœï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½.&quot;);
                         if (fileOutput.delete() == false) {
-                                System.out.println(&quot;o—Íƒtƒ@ƒCƒ‹[&quot; + fileInput.getAbsolutePath()
-                                                + &quot;]‚ªŠù‚É‘¶Ý‚µ‚Ä‚¢‚½‚Ì‚ÅŽ–‘O‚Éíœ‚µ‚æ‚¤‚Æ‚µ‚Ü‚µ‚½‚ªíœ‚ÉŽ¸”s‚µ‚Ü‚µ‚½.&quot;);
+                                System.out.println(&quot;ï¿½oï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileInput.getAbsolutePath()
+                                                + &quot;]ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅŽï¿½ï¿½Oï¿½Éíœï¿½ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.&quot;);
                                 return;
                         }
                 }
@@ -196,7 +196,7 @@ public class PoiModifyExcelSample {
                         outStream = new BufferedOutputStream(new FileOutputStream(
                                         fileOutput));
                         hssfWorkbook.write(outStream);
-                        System.out.println(&quot;V‹Kì¬‚µ‚½ExcelƒuƒbƒN‚Ìƒtƒ@ƒCƒ‹•Û‘¶‚É¬Œ÷‚µ‚Ü‚µ‚½.&quot;);
+                        System.out.println(&quot;ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½ï¿½Excelï¿½uï¿½bï¿½Nï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Û‘ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.&quot;);
                 } catch (IOException ex) {
                         ex.printStackTrace();
                 } finally {
@@ -214,12 +214,12 @@ public class PoiModifyExcelSample {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">‘¼‚ÌJakarta POI‚ÌƒTƒ“ƒvƒ‹</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½Jakarta POIï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½</FONT></P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠ">Jakarta POI</A>
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½">Jakarta POI</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

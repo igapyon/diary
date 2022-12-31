@@ -8,6 +8,6 @@
 
 ### 検索
 
-* <@linksearch title="Search 'Thymeleaf' in google in-site" word="Thymeleaf" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Thymeleaf' in google in-site" word="Thymeleaf" site="https://www.igapyon.jp/igapyon/diary/" />
 * <@linksearch word="Thymeleaf" />
 * <@linksearch word="Thymeleaf" engine="twitter" />

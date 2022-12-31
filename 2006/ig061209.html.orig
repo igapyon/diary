@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/12/09 “ú‹L: The KGS Go Server</TITLE>
-<META name="DESCRIPTION" content="ˆÍŒé‚Ì–³—¿ˆÍŒé‘ÎíƒT[ƒrƒX‚ª ‚¢‚­‚Â‚©‚ ‚é‚Æ•·‚«‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="igapyon,KGS,GO,IGO,ˆÍŒé,ƒlƒbƒg,Œé,ƒlƒbƒgŒé,–³—¿">
+<TITLE>2006/12/09 ï¿½ï¿½ï¿½L: The KGS Go Server</TITLE>
+<META name="DESCRIPTION" content="ï¿½ÍŒï¿½Ì–ï¿½ï¿½ï¿½ï¿½ÍŒï¿½Îï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="igapyon,KGS,GO,IGO,ï¿½ÍŒï¿½,ï¿½lï¿½bï¿½g,ï¿½ï¿½,ï¿½lï¿½bï¿½gï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/12/09 “ú‹L: The KGS Go Server</H2>
-    <P>[igapyon,KGS,GO,IGO,ˆÍŒé,ƒlƒbƒg,Œé,ƒlƒbƒgŒé,–³—¿] ˆÍŒé‚Ì–³—¿ˆÍŒé‘ÎíƒT[ƒrƒX‚ª ‚¢‚­‚Â‚©‚ ‚é‚Æ•·‚«‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ü‚·B</P>
+    <H2>2006/12/09 ï¿½ï¿½ï¿½L: The KGS Go Server</H2>
+    <P>[igapyon,KGS,GO,IGO,ï¿½ÍŒï¿½,ï¿½lï¿½bï¿½g,ï¿½ï¿½,ï¿½lï¿½bï¿½gï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½] ï¿½ÍŒï¿½Ì–ï¿½ï¿½ï¿½ï¿½ÍŒï¿½Îï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -64,21 +64,21 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/go.html" TITLE="ˆÍŒé‚Í“ŒƒAƒWƒA‚ÅŒÃ‚­‚©‚çŠy‚µ‚Ü‚ê‚Ä‚¢‚éƒ{[ƒhƒQ[ƒ€‚Å‚·B">ˆÍŒé</A>‚Ì–³—¿ˆÍŒé‘ÎíƒT[ƒrƒX (ƒlƒbƒgŒé) ‚ª ‚¢‚­‚Â‚©‚ ‚é‚Æ•·‚«‚Ü‚µ‚½B‚±‚Ì‚È‚©‚Å Å‚àƒƒWƒƒ[‚È‚à‚Ì‚ÆŒ¾‚í‚ê‚Ä‚¢‚é‚à‚Ì‚Ì‚Ð‚Æ‚Â‚ðƒƒ‚‚µ‚Ü‚·B</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/go.html" TITLE="ï¿½ÍŒï¿½Í“ï¿½ï¿½Aï¿½Wï¿½Aï¿½ÅŒÃ‚ï¿½ï¿½ï¿½ï¿½ï¿½yï¿½ï¿½ï¿½Ü‚ï¿½Ä‚ï¿½ï¿½ï¿½{ï¿½[ï¿½hï¿½Qï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B">ï¿½ÍŒï¿½</A>ï¿½Ì–ï¿½ï¿½ï¿½ï¿½ÍŒï¿½Îï¿½Tï¿½[ï¿½rï¿½X (ï¿½lï¿½bï¿½gï¿½ï¿½) ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚È‚ï¿½ï¿½ï¿½ ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½È‚ï¿½ï¿½Ì‚ÆŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ì‚Ð‚Æ‚Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI><A href="http://www.gokgs.com/"><IMG src="http://files.gokgs.com/images/kgsIcon.png" border="0"></A><BR>
   <A href="http://www.gokgs.com/">The KGS Go Server</A>
 </UL>
-<P><FONT color="#ff0000">2007.02.21’Ç‹L</FONT> Ž„‚ªŠ´‚¶‚½ KGS‚Ì“Á’¥“™‚ðˆÈ‰º‚É‹LÚ‚µ‚Ü‚·B</P>
-<P><STRONG><FONT color="#ff00ff">KGS‚Ì“Á’¥</FONT></STRONG></P>
+<P><FONT color="#ff0000">2007.02.21ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ KGSï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‰ï¿½ï¿½É‹Lï¿½Ú‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><STRONG><FONT color="#ff00ff">KGSï¿½Ì“ï¿½ï¿½ï¿½</FONT></STRONG></P>
 <UL>
-  <LI>–³—¿‚Å—˜—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-  <LI>¢ŠE’†‚Ìl‚ª—˜—p‚µ‚Ä‚¢‚Ü‚·B<BR>
-  ‰pŒê‚Ìƒ`ƒƒƒbƒg‚ªƒjƒKƒe‚È•û‚Å‚àAhi (‚±‚ñ‚É‚¿‚Í) ‚Æ thx (‚ ‚è‚ª‚Æ‚¤) ‚¾‚¯‚ðŠo‚¦‚Ä‚¨‚¯‚Î ‰½‚Æ‚©‚È‚é‚æ‚¤‚Å‚·B
-  <LI>ãŽè‚Èl‚©‚ç ‰ºŽè‚Èl‚Ü‚Å •L‚¢‘w‚Ì•ûX‚ªŽQ‰Á‚µ‚Ä‚¢‚Ü‚·B
-  <LI>Javaƒx[ƒX‚Ì”ü‚µ‚¢GUI‚ðŽg‚Á‚Ä Œé‚ð‘Å‚Â‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-  <LI>ƒƒ{ƒbƒgŒéƒvƒƒOƒ‰ƒ€ (’ÊÌ ƒ{ƒbƒg) ‚ðŠJ”­‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚· (SDK‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚é)Bƒ{ƒbƒg‚Æ‘Îí‚·‚é‚±‚Æ‚à‰Â”\‚Å‚·B
-  <LI>SGF (Smart Game Format) ‚Æ‚¢‚¤Šû•ˆ‹¤’ÊƒtƒH[ƒ}ƒbƒg‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Ìlï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½pï¿½ï¿½Ìƒ`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½jï¿½Kï¿½eï¿½È•ï¿½ï¿½Å‚ï¿½ï¿½Ahi (ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½) ï¿½ï¿½ thx (ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½È‚ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½Èlï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Èlï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½wï¿½Ì•ï¿½ï¿½Xï¿½ï¿½ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>Javaï¿½xï¿½[ï¿½Xï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½GUIï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å‚Â‚ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½{ï¿½bï¿½gï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (ï¿½Êï¿½ ï¿½{ï¿½bï¿½g) ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½Å‚ï¿½ (SDKï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½)ï¿½Bï¿½{ï¿½bï¿½gï¿½Æ‘Îí‚·ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+  <LI>SGF (Smart Game Format) ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êƒtï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   <UL>
     <LI>Smart Game Format<BR>
     <A HREF="http://ja.wikipedia.org/wiki/Smart_Game_Format">http://ja.wikipedia.org/wiki/Smart_Game_Format</A>
@@ -87,38 +87,38 @@
     <A HREF="http://vof.jp/softsanpo/SGFnote/SGFUserGuide.html">http://vof.jp/softsanpo/SGFnote/SGFUserGuide.html</A>
   </UL>
 </UL>
-<P><STRONG><FONT color="#ff00ff">KGS‚ÌŽÀsŠÂ‹«</FONT></STRONG></P>
+<P><STRONG><FONT color="#ff00ff">KGSï¿½ÌŽï¿½ï¿½sï¿½Â‹ï¿½</FONT></STRONG></P>
 <UL>
-  <LI>KGS‚ÌƒNƒ‰ƒCƒAƒ“ƒg (CGoban 3) ‚ÌŽÀs‚É‚Í Java‰¼‘zƒ}ƒVƒ“‚ª•K—v‚Å‚·B
-  <LI>Java Web Startƒx[ƒX‚Å‹N“®‚·‚é‚Ì‚ªˆÀ’èŠ´‚ª‚ ‚é‚æ‚¤‚Å‚·BŽ„‚ÌŠÂ‹«‚Å‚ÍAJava Appletƒx[ƒX‚Ì‚à‚Ì‚ÍˆÀ’è‚µ‚Ä‹N“®‚Å‚«‚È‚¢ê‡‚ª‚ ‚è‚Ü‚µ‚½B
+  <LI>KGSï¿½ÌƒNï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½g (CGoban 3) ï¿½ÌŽï¿½ï¿½sï¿½É‚ï¿½ Javaï¿½ï¿½ï¿½zï¿½}ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
+  <LI>Java Web Startï¿½xï¿½[ï¿½Xï¿½Å‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½èŠ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ÌŠÂ‹ï¿½ï¿½Å‚ÍAJava Appletï¿½xï¿½[ï¿½Xï¿½Ì‚ï¿½ï¿½Ì‚Íˆï¿½ï¿½è‚µï¿½Ä‹Nï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><STRONG><FONT color="#ff00ff">KGS‚ÌƒCƒ“ƒXƒg[ƒ‹</FONT></STRONG></P>
+<P><STRONG><FONT color="#ff00ff">KGSï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½</FONT></STRONG></P>
 
-<P>Java Web Startƒx[ƒX‚Å—˜—p‚·‚éê‡‚É‚ÍAˆÈ‰º‚ÌŽè‡‚ð“¥‚Ý‚Ü‚·B</P>
+<P>Java Web Startï¿½xï¿½[ï¿½Xï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍAï¿½È‰ï¿½ï¿½ÌŽè‡ï¿½ð“¥‚Ý‚Ü‚ï¿½ï¿½B</P>
 <OL>
-  <LI>ƒgƒbƒvƒy[ƒW‚ÌuœƒNƒ‰ƒCƒGƒ“ƒg‚ÆSGFƒGƒfƒBƒ^‚Ìƒ_ƒEƒ“ƒ[ƒhv‚ð‘I‘ð‚·‚éB
-  <LI>uCGoban for Java Web StartvƒŠƒ“ƒN‚ð‰Ÿ‚µ‚Ä Java Web Startƒx[ƒX‚Å CGoban‚ð‹N“®‚·‚éB
+  <LI>ï¿½gï¿½bï¿½vï¿½yï¿½[ï¿½Wï¿½Ìuï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Cï¿½Gï¿½ï¿½ï¿½gï¿½ï¿½SGFï¿½Gï¿½fï¿½Bï¿½^ï¿½Ìƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½vï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½uCGoban for Java Web Startï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Java Web Startï¿½xï¿½[ï¿½Xï¿½ï¿½ CGobanï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 </OL>
-<P>ID (ƒAƒJƒEƒ“ƒg) Žæ“¾‚Ì‚½‚ß‚É‚ÍAƒCƒ“ƒ^[ƒlƒbƒgƒ[ƒ‹ƒAƒhƒŒƒX‚ª•K—v‚Æ‚È‚è‚Ü‚·B</P>
-<P><FONT color="#ff0000">2007.02.26’Ç‹L</FONT> KGS Go Server‚ÌŽg‚¢•û‚ðÐ‰î‚µ‚½ƒy[ƒW‚ðŒ©‚Â‚¯‚½‚Ì‚Å ‚±‚ê‚ðƒƒ‚‚µ‚Ü‚·B</P>
+<P>ID (ï¿½Aï¿½Jï¿½Eï¿½ï¿½ï¿½g) ï¿½æ“¾ï¿½Ì‚ï¿½ï¿½ß‚É‚ÍAï¿½Cï¿½ï¿½ï¿½^ï¿½[ï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Kï¿½vï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2007.02.26ï¿½Ç‹L</FONT> KGS Go Serverï¿½ÌŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð‰î‚µï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>KGS‚ÌŽg‚¢•û<BR>
+  <LI>KGSï¿½ÌŽgï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://nijiura5.web.fc2.com/kgs/index.html">http://nijiura5.web.fc2.com/kgs/index.html</A><BR>
-  KGS‚Ì ‚Ð‚Æ‚Æ‚¨‚è‚ÌŽg‚¢•û‚ª—‰ð‚Å‚«‚é‚æ‚¤‚È\¬‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B
+  KGSï¿½ï¿½ ï¿½Ð‚Æ‚Æ‚ï¿½ï¿½ï¿½ÌŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½È\ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff0000">2007.08.08’Ç‹L</FONT> KGS Go Server‚Å‚Ì’i‹‰ˆÊ‚Ì‘Î”ä•\‚ðŒ©‚Â‚¯‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ü‚·B</P>
+<P><FONT color="#ff0000">2007.08.08ï¿½Ç‹L</FONT> KGS Go Serverï¿½Å‚Ì’iï¿½ï¿½ï¿½Ê‚Ì‘Î”ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>KGS - ‘å’ËˆÍŒé‹³Žº ’i‹‰ˆÊ”äŠr•\<BR>
+  <LI>KGS - ï¿½ï¿½ËˆÍŒé‹³ï¿½ï¿½ ï¿½iï¿½ï¿½ï¿½Ê”ï¿½rï¿½\<BR>
   <A HREF="http://igo.myhome.cx/kgs/kgs_rank.html">http://igo.myhome.cx/kgs/kgs_rank.html</A>
 </UL>
-<P>“ú–{‚Ì’i‹‰‚Æ KGS ‚Å‚Ì’i‹‰‚Æ‚ÌŠÔ‚É‚ÍA‘å‚«‚È·‚ª‚ ‚è‚Ü‚·B‹Á‚©‚ê‚Ü‚¹‚Ê‚æ‚¤B</P>
-<P><STRONG><FONT color="#ff00ff">KGS‚ÌáŠQî•ñ</FONT></STRONG></P>
+<P>ï¿½ï¿½ï¿½{ï¿½Ì’iï¿½ï¿½ï¿½ï¿½ KGS ï¿½Å‚Ì’iï¿½ï¿½ï¿½Æ‚ÌŠÔ‚É‚ÍAï¿½å‚«ï¿½Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ê‚æ‚¤ï¿½B</P>
+<P><STRONG><FONT color="#ff00ff">KGSï¿½Ìï¿½Qï¿½ï¿½ï¿½</FONT></STRONG></P>
 <UL>
-  <LI><FONT color="#ff0000">2007.08.09’Ç‹L</FONT> ‚±‚±”“úAKGS Go Server‚ª•s’²‚É‚ÄÚ‘±•s”\‚Æ‚Ìî•ñ‚ð“¾‚Ü‚µ‚½B
-  <LI><FONT color="#ff0000">2007.08.10’Ç‹L</FONT> KGS Go Server‚ª•œŠˆ‚µ‚Ä‚¢‚Ü‚µ‚½B‚æ‚©‚Á‚½A‚æ‚©‚Á‚½B
+  <LI><FONT color="#ff0000">2007.08.09ï¿½Ç‹L</FONT> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AKGS Go Serverï¿½ï¿½ï¿½sï¿½ï¿½ï¿½É‚ÄÚ‘ï¿½ï¿½sï¿½\ï¿½Æ‚Ìï¿½ï¿½ð“¾‚Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <LI><FONT color="#ff0000">2007.08.10ï¿½Ç‹L</FONT> KGS Go Serverï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½æ‚©ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½æ‚©ï¿½ï¿½ï¿½ï¿½ï¿½B
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -64,7 +64,7 @@
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>では デフォルトでSystem.gc()が発生するような仕様になっています。この設定のままだと、Excelブックの読み込みの際にCPUを振り切ってしまう場合があります。</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>では デフォルトでSystem.gc()が発生するような仕様になっています。この設定のままだと、Excelブックの読み込みの際にCPUを振り切ってしまう場合があります。</P>
 <P>下記のようにGCをOFFにするオプション設定を行うことにより、この現象を発生させなくすることができます。(JExcelApi 2.5.7で確認を取りました)</P>
 <OL>
   <LI>WorkbookSettings settings = new WorkbookSettings();
@@ -72,7 +72,7 @@
   <LI>settings.setGCDisabled(true);
   <LI>workbook = Workbook.getWorkbook(new File(&quot;InputExcel.xls&quot;), settings);
 </OL>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>をご利用の方は、JExcelApi 2.5.7でのデフォルトはガベコレ自動実行である点にご注意くださいませ。</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html" TITLE="Javaで書かれたMicrosoft Excelファイルなどに対する入出力ライブラリ。同様なものとして Jakarta POIが知られている。">JExcelApi</A>をご利用の方は、JExcelApi 2.5.7でのデフォルトはガベコレ自動実行である点にご注意くださいませ。</P>
 <P><FONT color="#ff00ff">関連する日記</FONT></P>
 <UL>
   <LI><A href="ig050221.html">2005/02/21 日記: Java: JExcelApi (Java Excel API) を用いたExcelファイルを新規作成するサンプル</A>

@@ -22,7 +22,7 @@
     
   * メール本文に私の本名などを含んでください。そうしないとウイルス対策ソフトのメールフィルタによって メールが自動的に廃棄される可能性が高いです。
     
-  * [blanco Framework](http://www.igapyon.jp/blanco/blanco.ja.html) に関する質問などは、blanco Frameworkメーリングリスト宛に送付することを検討してください。
+  * [blanco Framework](https://www.igapyon.jp/blanco/blanco.ja.html) に関する質問などは、blanco Frameworkメーリングリスト宛に送付することを検討してください。
   
 
 その他のもの

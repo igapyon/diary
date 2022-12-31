@@ -21,7 +21,7 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ### 検索
 
-* <@linksearch title="Search 'Oiyokan' in google in-site" word="Oiyokan" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Oiyokan' in google in-site" word="Oiyokan" site="https://www.igapyon.jp/igapyon/diary/" />
 * <@linksearch word="Oiyokan" />
 * <@linksearch word="Oiyokan" engine="twitter" />
 

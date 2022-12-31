@@ -19,7 +19,7 @@ Apex
 
 ### 検索
 
-* [Search 'Apex' in google in-site](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apex)
+* [Search 'Apex' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apex)
 * [Search 'Apex' in google](https://www.google.co.jp/#pws=0&q=Apex)
 * [Search 'Apex' in twitter](https://twitter.com/search?q=%23Apex)
 

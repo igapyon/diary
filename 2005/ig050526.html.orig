@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/05/26 “ú‹L: blancoDb Enterprise Edition 1.0.0 ³Ž®”ÅƒŠƒŠ[ƒX</TITLE>
-<META name="DESCRIPTION" content="blancoDb Enterprise Edition (EE) ‰‚Ì³Ž®”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blanco,blancoDb,R/Oƒ}ƒbƒsƒ“ƒO">
+<TITLE>2005/05/26 ï¿½ï¿½ï¿½L: blancoDb Enterprise Edition 1.0.0 ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</TITLE>
+<META name="DESCRIPTION" content="blancoDb Enterprise Edition (EE) ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blanco,blancoDb,R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/05/26 “ú‹L: blancoDb Enterprise Edition 1.0.0 ³Ž®”ÅƒŠƒŠ[ƒX</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blanco,blancoDb,R/Oƒ}ƒbƒsƒ“ƒO] blancoDb Enterprise Edition (EE) ‰‚Ì³Ž®”Å‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·B</P>
+    <H2>2005/05/26 ï¿½ï¿½ï¿½L: blancoDb Enterprise Edition 1.0.0 ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blanco,blancoDb,R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O] blancoDb Enterprise Edition (EE) ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,72 +59,72 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) 1.0.0 ³Ž®”ÅƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) 1.0.0 ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> Enterprise Edition (ˆÈ~ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>) ‚É‚Â‚¢‚ÄA‰‚Ì³Ž®”Å‚Æ‚È‚é 1.0.0‚ðƒŠƒŠ[ƒX‚µ‚Ü‚·B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> Enterprise Edition (ï¿½È~ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>) ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Å‚Æ‚È‚ï¿½ 1.0.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> Enterprise Edition ƒz[ƒ€ƒy[ƒW<BR>
+  <LI><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> Enterprise Edition ï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½W<BR>
   <A HREF="http://hp.vector.co.jp/authors/VA027994/blanco/blancodb.html">http://hp.vector.co.jp/authors/VA027994/blanco/blancodb.html</A>
 </UL>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oƒ}ƒbƒsƒ“ƒO‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">R/Oƒ}ƒbƒsƒ“ƒO</A>‚Æ‚¢‚¤ƒ\ƒtƒgƒEƒFƒA‚Ì“Á’¥‚ª‚çA‚ ‚é’ö“xˆÈã‚ÌJava/JDBC/SQL‚ÌƒXƒLƒ‹EŽÀ–±ŒoŒ±‚ðŽ‚Á‚½•û‚É‚µ‚©‰¿’l‚ª–³‚¢‚¤‚¦‚É—‰ð‚à“ï‚µ‚¢‚Æl‚¦‚Ü‚·B‚­‚í‚¦‚ÄA‚Ü‚¾<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ÌƒhƒLƒ…ƒƒ“ƒg‚ÍŠî–{“I‚É•s‘«‚µ‚Ä‚¢‚Ü‚·B‚æ‚Ù‚ÇðŒ‚ª‚»‚ë‚í‚È‚¢‚Æ
-<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚ÌŽŽ—p‚Í“ï‚µ‚¢‚±‚Æ‚Å‚µ‚å‚¤B<BR>
-‚µ‚Î‚ç‚­‚Í blancoDb‚Í•ÏX‚ð“€Œ‹‚·‚é‚Â‚à‚è‚Å‚·B‚Å‚·‚Ì‚ÅAŠï“Á‚È•û‚ÌŽè‚É‚æ‚é blancoDbŽŽ—pƒŒƒ|[ƒg‚Ì‚½‚®‚¢‚ÌWebƒy[ƒW‚ª“oê‚µ‚Ä‚­‚ê‚é‚Ì‚ðŠú‘Ò‚µ‚Ü‚·c
-(‹êÎ)</P>
-<P>ˆê•û‚ÅA<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oƒ}ƒbƒsƒ“ƒO‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">R/Oƒ}ƒbƒsƒ“ƒO</A>‚ª–ð—§‚Â‚æ‚¤‚Èƒ^ƒCƒv‚Ìƒ\ƒtƒgƒEƒFƒAŠJ”­Œ»ê‚É‚¨‚¢‚Ä‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚Íâ‘å‚ÈŒø‰Ê‚ð”­Šö‚·‚é‚à‚Ì‚Æl‚¦‚Ü‚·B‚ ‚é’ö“xˆÈã‚Ì‹K–Í‚Ì“Á’è‚ÌƒVƒXƒeƒ€ŠJ”­Œ»ê‚É‚¨‚¢‚ÄA¶ŽY«ŒüãE•ÛŽç«Œüã‚Ì—¼–Ê‚©‚çŠmŽÀ‚Å”ò–ô“I‚È‰ü‘PŒø‰Ê‚ð‚à‚½‚ç‚µ‚Ä‚­‚ê‚é‚±‚Æ‚Å‚µ‚å‚¤B</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</A>ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Èï¿½ï¿½Java/JDBC/SQLï¿½ÌƒXï¿½Lï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï‚µï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½í‚¦ï¿½ÄAï¿½Ü‚ï¿½<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½Ìƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÍŠï¿½{ï¿½Iï¿½É•sï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½Ù‚Çï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½
+<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½ÌŽï¿½ï¿½pï¿½Í“ï‚µï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B<BR>
+ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ï¿½ blancoDbï¿½Í•ÏXï¿½ð“€Œï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½È•ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ blancoDbï¿½ï¿½ï¿½pï¿½ï¿½ï¿½|ï¿½[ï¿½gï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Webï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½oï¿½ê‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ü‚ï¿½ï¿½c
+(ï¿½ï¿½ï¿½)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÅA<Ahttps://www.igapyon.jp/igapyon/diary//diary/keyword/romap.html" TITLE="R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</A>ï¿½ï¿½ï¿½ð—§‚Â‚æ‚¤ï¿½Èƒ^ï¿½Cï¿½vï¿½Ìƒ\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ÍA<A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½Íï¿½ï¿½ÈŒï¿½ï¿½Ê‚ð”­Šï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Èï¿½Ì‹Kï¿½Í‚Ì“ï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ÛŽç«ï¿½ï¿½ï¿½ï¿½Ì—ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½Å”ï¿½ï¿½ï¿½Iï¿½È‰ï¿½ï¿½Pï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚µï¿½Ä‚ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½B</P>
 <HR>
-<P>¦ƒXƒiƒbƒvƒVƒ‡ƒbƒgŽæ“¾‚Ì–Ú“I‚à‚©‚Ë‚ÄAblancoDb‚Ìà–¾•¶‚ð ‚±‚±‚É“]Ú‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½Xï¿½iï¿½bï¿½vï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½æ“¾ï¿½Ì–Ú“Iï¿½ï¿½ï¿½ï¿½ï¿½Ë‚ÄAblancoDbï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É“]ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) ŠT—v</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoDb Enterprise Edition (EE) ï¿½Tï¿½v</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A> Enterprise Edition (ˆÈ~ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>)
-‚Í JavaŒ¾Œê/JDBC—p‚Ì <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/romap.html" TITLE="R/Oƒ}ƒbƒsƒ“ƒO‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">R/Oƒ}ƒbƒsƒ“ƒO</A>ƒc[ƒ‹ŽÀ‘•‚Ìˆê‚Â‚Å‚·B</P>
-<P><STRONG><FONT color="#ff00ff">—”OEŽv‘z</FONT></STRONG></P>
-<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="uSQL’è‹`‘v‚Æ‚¢‚¤ ExcelƒuƒbƒN‚©‚çAƒf[ƒ^ƒx[ƒX“üo—Í‚Ì‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ðŽ©“®¶¬‚µ‚Ü‚·B">blancoDb</A>‚Í‰º‹L‚Ì‚æ‚¤‚È—”O‚¨‚æ‚ÑŽv‘z‚ð“Á’¥‚Æ‚µ‚Ä‚¢‚Ü‚·B</P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A> Enterprise Edition (ï¿½È~ <A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>)
+ï¿½ï¿½ Javaï¿½ï¿½ï¿½ï¿½/JDBCï¿½https://www.igapyon.jp/igapyon/diary/gapyon/diary/keyword/romap.html" TITLE="R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">R/Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½O</A>ï¿½cï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìˆï¿½Â‚Å‚ï¿½ï¿½B</P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½Oï¿½Eï¿½vï¿½z</FONT></STRONG></P>
+<P><A HREF="http://www.igapyon.jp/blanco/blancodb.html" TITLE="ï¿½uSQLï¿½ï¿½`ï¿½ï¿½ï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Aï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½oï¿½Í‚Ì‚ï¿½ï¿½ß‚Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">blancoDb</A>ï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½È—ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ÑŽvï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-        <LI>’á‹@”\‚Å‚ ‚è‚Â‚Ã‚¯‚é<BR>
-  JDBCƒhƒ‰ƒCƒo‚ª’ñ‹Ÿ‚·‚é’á…€API‚Ì‹@”\«E“Á’¥‚ð–WŠQE‘jŠQ‚·‚é‚±‚Æ‚È‚­A<STRONG>‚»‚Ì‚Ü‚Ü</STRONG>Javaƒ\[ƒXƒR[ƒh‚Éƒ}ƒbƒsƒ“ƒO‚µ‚Ü‚·B‚±‚Ì‚±‚Æ‚É‚æ‚èAƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒX‚Ì‹@”\‚¨‚æ‚Ñ«”\‚ðÅ‘åŒÀˆø‚«o‚·‚±‚Æ‚ªo—ˆ‚Ü‚·Bƒc[ƒ‹‚Æ‚µ‚Ä‚Í’á‹@”\‚Å‚ ‚é‚±‚Æ‚É‚æ‚èA‚«”\‚É“®ì‚³‚¹‚é‚±‚Æ‚ª‚Å‚«A‚Ü‚½JDBC‚Ì‹@”\‚ðÅ‘åŒÀ—˜—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚à‚¿‚ë‚ñƒXƒNƒ[ƒ‹ƒJ[ƒ\ƒ‹‚âNULL‹–—e—ñ‘Î‰ž‚È‚ÇÅ’áŒÀ‚Ì‹@”\‚Í“–‘RƒTƒ|[ƒg‚µ‚Ü‚·B
-        <LI>Ž©—R“x‚Ì’á‚³<BR>
-  ƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒXã‚ÌŒ^‚ðJava‚Ì“Á’è‚ÌƒIƒuƒWƒFƒNƒgŒ^‚É‹­§“I‚Éƒ}ƒbƒsƒ“ƒO‚ðs‚¢‚Ü‚·BŒ^ƒ}ƒbƒv‚ÉŠÖ‚µ‚Ä‚Í‹É—ÍŽ©—R“x‚ð”rœ‚µ‚Ä‚¢‚Ü‚·B‚±‚Ì‚±‚Æ‚É‚æ‚èJDBCƒhƒ‰ƒCƒo‚ÌŽÀ‘•‚É‹Nˆö‚µ‚½JDBCƒŒƒxƒ‹‚Å‚ÌŒ^ƒ}ƒbƒsƒ“ƒO‚É‚æ‚é<STRONG>•s‹ï‡”­¶‚ðÅ¬ŒÀ‚É‚Æ‚Ç‚ß‚é</STRONG>‚±‚Æ‚ªo—ˆ‚Ü‚·B‰Á‚¦‚ÄŽ©—R“x‚ª’á‚¢‚½‚ß‚É ‹É‚ß‚Ä­‚È‚¢Ý’è‚É‚æ‚èƒ}ƒbƒsƒ“ƒO‚ðŽ©“®¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·BŒ´‘¥‚Æ‚µ‚Ä—ñ–¼‚âŒ^î•ñ‚ÍJDBCƒhƒ‰ƒCƒo‚©‚ç“¾‚ç‚ê‚éƒƒ^î•ñ‚ðŠˆ—p‚µ‚ÄŽ©“®“I‚ÉŒˆ’è‚µ‚Ü‚·BŽ©—R“x‚Ì’á‚³‚ä‚¦‚É”ñí‚ÉˆÀ‘S‚É“®ì‚³‚¹‚é‚±‚Æ‚à‚Å‚«‚Ü‚·BŒ^ƒ}ƒbƒvÏ‚Ý‚ÌJavaƒNƒ‰ƒX‚ª’ñ‹Ÿ‚³‚ê‚é‚±‚Æ‚É‚æ‚èAŽÀsŽžƒGƒ‰[‚Ì‰Â”\«‚ðŒƒŒ¸‚³‚¹‚Ü‚·B‘½‚­‚Ìê‡ Ž©—R“x‚Ì‚‚³‚ÍÝ’è‚ð‘‚â‚µ‚Ä•sŠmŽÀ«‚ð‰Ÿ‚µã‚°AŠeŽíƒgƒ‰ƒuƒ‹‚ð—U”­‚·‚é‚Ì‚Å‚·B
-        <LI>ƒJƒXƒ^ƒ}ƒCƒY‚Ì—eˆÕ‚³ (‚½‚¾‚µŒ»ƒo[ƒWƒ‡ƒ“‚Å‚Í –¢’B•”•ª‚ªŠÜ‚Ü‚ê‚é)<BR>
-  ƒJƒXƒ^ƒ}ƒCƒY‚Ì—eˆÕ‚³‚ð—”O‚Æ‚µ‚Ä‚¢‚Ü‚·BŠîŠ²ŒnE‘å‹K–ÍŠJ”­‚Å—˜—p‚³‚ê‚éÛ‚É‚ÍƒJƒXƒ^ƒ}ƒCƒY‚ª”­¶‚·‚é‚±‚Æ‚Å‚µ‚å‚¤B¶¬‚³‚ê‚éƒ\[ƒXƒR[ƒh‚É‚¢‚ë‚¢‚ëŽè‚ª‰Á‚í‚é‚Ì‚Í‚à‚¿‚ë‚ñ‚Ì‚±‚ÆAblancoDb‚Ìƒ\[ƒXƒR[ƒh‚»‚Ì‚à‚Ì‚É‚àƒJƒXƒ^ƒ}ƒCƒY‚ª“ü‚é‚±‚Æ‚ð‘z’è‚µ‚Ä‚¢‚Ü‚·B‚»‚¤‚¢‚Á‚½ƒJƒXƒ^ƒ}ƒCƒY‚Ì‚µ‚â‚·‚³‚ðŽÀŒ»‚·‚é‚½‚ß‚Ì•û–@‚Æ‚µ‚ÄA‹@”\‚ð‘‰Á‚³‚¹‚¸Ž©—R“x‚ð‘‚â‚³‚¸blancoDb‚»‚Ì‚à‚Ì‚Ì‹K–Í‚Ì”ì‘å‰»‚ð—}§‚µ‚Ä‚¢‚é‘¤–Ê‚à‚ ‚è‚Ü‚·BblancoDb‚Ì‹K–Í‚ª¬‚³‚¢‚±‚Æ‚ÍƒJƒXƒ^ƒ}ƒCƒYŽÀŽ{Œã‚ÌƒeƒXƒg‹K–Í‚ð—}§‚·‚é‚±‚Æ‚ào—ˆ‚Ü‚·B
+        <LI>ï¿½ï¿½@ï¿½\ï¿½Å‚ï¿½ï¿½ï¿½Â‚Ã‚ï¿½ï¿½ï¿½<BR>
+  JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½á…ï¿½ï¿½APIï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½Qï¿½Eï¿½jï¿½Qï¿½ï¿½ï¿½é‚±ï¿½Æ‚È‚ï¿½ï¿½A<STRONG>ï¿½ï¿½ï¿½Ì‚Ü‚ï¿½</STRONG>Javaï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Éƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½ï¿½Ñï¿½ï¿½\ï¿½ï¿½ï¿½Å‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½cï¿½[ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚Í’ï¿½@ï¿½\ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½É“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Aï¿½Ü‚ï¿½JDBCï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½Å‘ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ï¿½NULLï¿½ï¿½ï¿½eï¿½ï¿½Î‰ï¿½ï¿½È‚ÇÅ’ï¿½ï¿½ï¿½Ì‹@ï¿½\ï¿½Í“ï¿½ï¿½Rï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+        <LI>ï¿½ï¿½ï¿½Rï¿½xï¿½Ì’á‚³<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ÌŒ^ï¿½ï¿½Javaï¿½Ì“ï¿½ï¿½ï¿½ÌƒIï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½^ï¿½É‹ï¿½ï¿½ï¿½ï¿½Iï¿½Éƒ}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½^ï¿½}ï¿½bï¿½vï¿½ÉŠÖ‚ï¿½ï¿½Ä‚Í‹É—ÍŽï¿½ï¿½Rï¿½xï¿½ï¿½rï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚É‚ï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ÌŽï¿½ï¿½ï¿½ï¿½É‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Å‚ÌŒ^ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½<STRONG>ï¿½sï¿½ï‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½É‚Æ‚Ç‚ß‚ï¿½</STRONG>ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½Rï¿½xï¿½ï¿½ï¿½á‚¢ï¿½ï¿½ï¿½ß‚ï¿½ ï¿½É‚ß‚Äï¿½ï¿½È‚ï¿½ï¿½Ý’ï¿½É‚ï¿½ï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä—ñ–¼‚ï¿½^ï¿½ï¿½ï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½ï¿½ï¿½ç“¾ï¿½ï¿½ï¿½éƒï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½Iï¿½ÉŒï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Rï¿½xï¿½Ì’á‚³ï¿½ä‚¦ï¿½É”ï¿½ï¿½Éˆï¿½ï¿½Sï¿½É“ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½^ï¿½}ï¿½bï¿½vï¿½Ï‚Ý‚ï¿½Javaï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½Ì‰Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Ìê‡ ï¿½ï¿½ï¿½Rï¿½xï¿½Ìï¿½ï¿½ï¿½ï¿½ÍÝ’ï¿½ð‘‚â‚µï¿½Ä•sï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã‚°ï¿½Aï¿½eï¿½ï¿½gï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B
+        <LI>ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½Ì—eï¿½Õ‚ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Ü‚ï¿½ï¿½)<BR>
+  ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½Ì—eï¿½Õ‚ï¿½ï¿½ð—”Oï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½îŠ²ï¿½nï¿½Eï¿½ï¿½Kï¿½ÍŠJï¿½ï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Û‚É‚ÍƒJï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚Å‚ï¿½ï¿½å‚¤ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½É‚ï¿½ï¿½ë‚¢ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ÆAblancoDbï¿½Ìƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚É‚ï¿½ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½zï¿½è‚µï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½Ì‚ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì•ï¿½ï¿½@ï¿½Æ‚ï¿½ï¿½ÄAï¿½@ï¿½\ï¿½ð‘‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½xï¿½ð‘‚â‚³ï¿½ï¿½blancoDbï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚Ì‹Kï¿½Í‚Ì”ï¿½å‰»ï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‘¤ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BblancoDbï¿½Ì‹Kï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÍƒJï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½ï¿½ï¿½{ï¿½ï¿½Ìƒeï¿½Xï¿½gï¿½Kï¿½Í‚ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P><STRONG><FONT color="#ff00ff">“Á’¥</FONT></STRONG></P>
+<P><STRONG><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½</FONT></STRONG></P>
 <UL>
-        <LI>‚²‚­•’Ê‚ÌSQL•¶‚ª <STRONG>‚»‚Ì‚Ü‚Ü</STRONG>—˜—p‚Å‚«‚Ü‚·B<BR>
-  ƒ^[ƒQƒbƒgRDBŒü‚¯‚É€”õ‚³‚ê‚½SQL•¶‚ª ‚»‚Ì‚Ü‚Ü—˜—p‚Å‚«‚Ü‚·B“–‘R‚Ì‚±‚Æ‚Å‚·‚ªA•¡”•\‚ðŒ‹‡‚µ‚½ŒŸõ‚ª‰Â”\‚Å‚·B‚ ‚é’ö“x•¡ŽG‚ÈƒTƒuƒNƒGƒŠ‚âUNION•t‚«SQL•¶‚È‚Ç‚àA‚ ‚½‚è‚Ü‚¦‚Ì‚±‚Æ‚Å‚·‚ªA‚²‚­“–‘R‚Ì‚à‚Ì‚Æ‚µ‚Ä—˜—p‚Å‚«‚Ü‚·BSQL•¶‚Æ‚¢‚¤ŠÏ“_‚Å‚Í
-  blancoDb‚Í‹É‚ß‚ÄŽ©—R“x‚ª‚‚­‚È‚é‚æ‚¤ÝŒv‚³‚ê‚Ä‚¢‚Ü‚·B
-  <LI>‚²‚­•’Ê‚ÉJDBC API‚ðƒ‰ƒbƒsƒ“ƒO‚µ‚Ä‚¢‚Ü‚·B<BR>
-  ‚²‚­•’Ê‚Ì JDBCƒvƒƒOƒ‰ƒ~ƒ“ƒOEƒ\[ƒXƒR[ƒh‚ªŽ©“®¶¬‚³‚ê‚Ü‚·B‚±‚Ì‚½‚ßŠù‘¶‚ÌJDBCƒmƒEƒnƒE‚¨‚æ‚ÑƒXƒLƒ‹‚ª“]—p‚Å‚«AŠwKƒRƒXƒg‚ª‚Æ‚Ä‚à’á‚­‚È‚Á‚Ä‚¢‚Ü‚·B
-  <LI>ExcelƒuƒbƒNŒ`Ž®‚ÌSQL’è‹`‘‚É SQL•¶‚ÆSQL•¶‚Ì•t‰Áî•ñ‚ð‹LÚ‚·‚é‚±‚Æ‚É‚æ‚è“ü—Íƒƒ^î•ñ‚ðÝ’è‚µ‚Ü‚·B<BR>
-  Excel‚¨‚æ‚Ñ‚»‚ÌŒÝŠ·ƒ\ƒtƒg‚ð—p‚¢‚é‚¾‚¯‚Å“ü—Íƒƒ^î•ñ‚ðÝ’è‚Å‚«‚Ü‚·BXMLƒtƒ@ƒCƒ‹‚Í—˜—p‚µ‚Ü‚·‚ªA’P‚É’†ŠÔƒtƒ@ƒCƒ‹‚Æ‚µ‚Ä‚Ì‚Ý—˜—p‚µ‚Ä‚¢‚Ü‚·B
-  <LI>‚æ‚­‚ ‚è‚ª‚¿‚ÈJDBCƒvƒƒOƒ‰ƒ~ƒ“ƒO‚É‚¨‚¯‚é<STRONG>ƒoƒO‚ð—\–h</STRONG>‚·‚é‚½‚ß‚ÌŽd‘g‚Ý‚ð‚à‚Á‚Ä‚¢‚Ü‚·B
+        <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½SQLï¿½ï¿½ï¿½ï¿½ <STRONG>ï¿½ï¿½ï¿½Ì‚Ü‚ï¿½</STRONG>ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½^ï¿½[ï¿½Qï¿½bï¿½gRDBï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½SQLï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì‚Ü‚Ü—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Rï¿½Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Gï¿½ÈƒTï¿½uï¿½Nï¿½Gï¿½ï¿½ï¿½ï¿½UNIONï¿½tï¿½ï¿½SQLï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½Ì‚ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½BSQLï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ï“_ï¿½Å‚ï¿½
+  blancoDbï¿½Í‹É‚ß‚ÄŽï¿½ï¿½Rï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½æ‚¤ï¿½ÝŒvï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½JDBC APIï¿½ï¿½ï¿½ï¿½ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ JDBCï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßŠï¿½ï¿½ï¿½ï¿½ï¿½JDBCï¿½mï¿½Eï¿½nï¿½Eï¿½ï¿½ï¿½ï¿½ÑƒXï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½pï¿½Å‚ï¿½ï¿½Aï¿½wï¿½Kï¿½Rï¿½Xï¿½gï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½á‚­ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>Excelï¿½uï¿½bï¿½Nï¿½`ï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ SQLï¿½ï¿½ï¿½ï¿½SQLï¿½ï¿½ï¿½Ì•tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½Ú‚ï¿½ï¿½é‚±ï¿½Æ‚É‚ï¿½ï¿½ï¿½ï¿½Íƒï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B<BR>
+  Excelï¿½ï¿½ï¿½ï¿½Ñ‚ï¿½ï¿½ÌŒÝŠï¿½ï¿½\ï¿½tï¿½gï¿½ï¿½pï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½Å“ï¿½ï¿½Íƒï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½BXMLï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Í—ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Pï¿½É’ï¿½ï¿½Ôƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚Ì‚Ý—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½æ‚­ï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½JDBCï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½<STRONG>ï¿½oï¿½Oï¿½ï¿½\ï¿½h</STRONG>ï¿½ï¿½ï¿½é‚½ï¿½ß‚ÌŽdï¿½gï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
   <UL>
-    <LI>ˆêˆÓ§–ñˆá”½‚Í“Á•Ê‚È—áŠO‚Æ‚µ‚Äˆµ‚¤‚±‚Æ‚É‚æ‚èAˆêˆÓ§–ñˆá”½‚Ìˆ—–Y‚êƒoƒO‚ð—\–h‚Å‚«‚Ü‚·B
-    <LI>ŒŸõEŽÀsŒ‹‰Ê‚ª1Œ‚Å‚ ‚éSQL•¶‚É‚Â‚¢‚ÄAŽÀsŒ‹‰Ê‚ª1Œ‚Å‚È‚¢ê‡‚É‚Í—áŠO‚ð”­¶‚³‚¹‚é‚±‚Æ‚æ‚É‚èˆ—–Y‚êƒoƒO‚ð—\–h‚Å‚«‚Ü‚·B
-    <LI>ƒXƒe[ƒgƒƒ“ƒg‚ÌƒNƒ[ƒY–Y‚ê‚É‚Â‚¢‚ÄA‚±‚ê‚ðŒŸ’m‚µ‚ÄŒx‚ðo‚·‚±‚Æ‚É‚æ‚èƒNƒ[ƒY–Y‚êƒoƒO‚ð—\–h‚Å‚«‚Ü‚·B
-    <LI>SQLƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚ð”­¶‚³‚¹‚É‚­‚¢\‘¢‚É‚È‚Á‚Ä‚¢‚Ü‚·BblancoDb‚ð“±“ü‚·‚é‚±‚Æ‚Í <STRONG>SQLƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚Ì—\–h‚¨‚æ‚Ñ‘Îô‚Æ‚µ‚Ä”ñí‚É—LŒø</STRONG>‚Å‚·B
+    <LI>ï¿½ï¿½Óï¿½ï¿½ï¿½á”½ï¿½Í“ï¿½ï¿½Ê‚È—ï¿½Oï¿½Æ‚ï¿½ï¿½Äˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½Aï¿½ï¿½Óï¿½ï¿½ï¿½á”½ï¿½Ìï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½oï¿½Oï¿½ï¿½\ï¿½hï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ê‚ï¿½1ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½SQLï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ê‚ï¿½1ï¿½ï¿½ï¿½Å‚È‚ï¿½ï¿½ê‡ï¿½É‚Í—ï¿½Oï¿½ð”­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½É‚èˆï¿½ï¿½ï¿½Yï¿½ï¿½oï¿½Oï¿½ï¿½\ï¿½hï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>ï¿½Xï¿½eï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÌƒNï¿½ï¿½ï¿½[ï¿½Yï¿½Yï¿½ï¿½É‚Â‚ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ÄŒxï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½Nï¿½ï¿½ï¿½[ï¿½Yï¿½Yï¿½ï¿½oï¿½Oï¿½ï¿½\ï¿½hï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+    <LI>SQLï¿½Cï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ð”­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BblancoDbï¿½ð“±“ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ <STRONG>SQLï¿½Cï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì—\ï¿½hï¿½ï¿½ï¿½ï¿½Ñ‘Îï¿½Æ‚ï¿½ï¿½Ä”ï¿½ï¿½É—Lï¿½ï¿½</STRONG>ï¿½Å‚ï¿½ï¿½B
   </UL>
-  <LI>ƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒX‚Ì<STRONG>ƒJ[ƒ\ƒ‹</STRONG>‚ª—˜—p‚Å‚«‚Ü‚·B
-        <LI>(ƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒX‚ªƒTƒ|[ƒg‚µ‚Ä‚¢‚ê‚Î) FOR UPDATE‚ð”º‚Á‚½<STRONG>sƒƒbƒN</STRONG>‚ð”º‚Á‚½ŒŸõ‚¨‚æ‚Ñs‚ÌXV‚ª‰Â”\‚Å‚·B
-        <LI>ŽÀsŽž‚É“Á•Ê‚ÈƒNƒ‰ƒXƒ‰ƒCƒuƒ‰ƒŠ‚ð•K—v‚Æ‚µ‚Ü‚¹‚ñB¶¬‚µ‚½ƒ\[ƒXƒR[ƒh‚¾‚¯‚ÅŠ®Œ‹‚µ‚Ä“®ì‚µ‚Ü‚·B‚Ü‚½ƒ\[ƒXƒR[ƒhŽ©“®¶¬Žž‚É ‰ðŒˆ‰Â”\‚È‚à‚Ì‚ÍÅ‘åŒÀ‰ðŒˆ‚ðÏ‚Ü‚¹‚Ü‚·B‚±‚Ì‚±‚Æ‚É‚æ‚è<STRONG>ŽÀsŽžƒRƒXƒg‚ð‹É¬‰»</STRONG>‚·‚é‚±‚Æ‚ªŽÀŒ»‚Å‚«‚Ü‚·B
-  <LI>ŠîŠ²ŒnƒVƒXƒeƒ€ŠJ”­‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B<BR>
-  ŠîŠ²ŒnƒVƒXƒeƒ€ŠJ”­‚É‚¨‚¯‚éˆê”Ê“I‚ÈŠJ”­ƒvƒƒZƒX‚É‰ˆ‚Á‚½Œ`‚ÅÝŒv‚¨‚æ‚ÑŽÀ‘•‚³‚ê‚Ä‚¢‚Ü‚·B
+  <LI>ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½<STRONG>ï¿½Jï¿½[ï¿½\ï¿½ï¿½</STRONG>ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+        <LI>(ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½) FOR UPDATEï¿½ð”º‚ï¿½ï¿½ï¿½<STRONG>ï¿½sï¿½ï¿½ï¿½bï¿½N</STRONG>ï¿½ð”º‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñsï¿½ÌXï¿½Vï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+        <LI>ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½É“ï¿½ï¿½Ê‚ÈƒNï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ÅŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä“ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½È‚ï¿½ï¿½Ì‚ÍÅ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚É‚ï¿½ï¿½<STRONG>ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Rï¿½Xï¿½gï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½</STRONG>ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+  <LI>ï¿½îŠ²ï¿½nï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+  ï¿½îŠ²ï¿½nï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê“Iï¿½ÈŠJï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Zï¿½Xï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ÅÝŒvï¿½ï¿½ï¿½ï¿½ÑŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig050421.html">2005/04/21 “ú‹L: blancoDb Enterprise Edition 0.8.1 ƒÀ1ƒŠƒŠ[ƒX</A>
-  <LI><A href="ig050426.html">2005/04/26 “ú‹L: u’á‹@”\vEuŽ©—R“x‚Ì’á‚³v‚É‰¿’l‚ª‚ ‚é‚Æ‚¢‚¤ƒpƒ‰ƒ_ƒCƒ€ƒVƒtƒg</A>
-  <LI><A href="ig050317.html">2005/03/17 “ú‹L: blancoDb 0.5.0 EA1 (‘ŠúƒAƒNƒZƒXƒvƒƒOƒ‰ƒ€1) ƒŠƒŠ[ƒX</A>
-  <LI><A href="../2004/ig040121.html">2004/01/21 “ú‹L: ƒ\[ƒXƒR[ƒh¶¬ƒ^ƒCƒv‚ÌR-Oƒ}ƒbƒsƒ“ƒO‚ðŠJ”­‚µ‚Ü‚¹‚ñ‚©H</A>
+  <LI><A href="ig050421.html">2005/04/21 ï¿½ï¿½ï¿½L: blancoDb Enterprise Edition 0.8.1 ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
+  <LI><A href="ig050426.html">2005/04/26 ï¿½ï¿½ï¿½L: ï¿½uï¿½ï¿½@ï¿½\ï¿½vï¿½Eï¿½uï¿½ï¿½ï¿½Rï¿½xï¿½Ì’á‚³ï¿½vï¿½É‰ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½_ï¿½Cï¿½ï¿½ï¿½Vï¿½tï¿½g</A>
+  <LI><A href="ig050317.html">2005/03/17 ï¿½ï¿½ï¿½L: blancoDb 0.5.0 EA1 (ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½Zï¿½Xï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½1) ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X</A>
+  <LI><A href="../2004/ig040121.html">2004/01/21 ï¿½ï¿½ï¿½L: ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½R-Oï¿½}ï¿½bï¿½sï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚©H</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2010/08/22 “ú‹L: Ubuntu: Sun Java SE 6 ‚ð Ubuntu 10.04 ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é•û–@</TITLE>
-<meta name="DESCRIPTION" content="Ubuntu 10.04 ‚É Sun Java SE ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‚É‚ÍAƒ\ƒtƒgƒEƒFƒAEƒ\[ƒX‚ÉuCanonical ƒp[ƒgƒi[v‚ð’Ç‰Á‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B">
-<meta name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2010/08/22 ï¿½ï¿½ï¿½L: Ubuntu: Sun Java SE 6 ï¿½ï¿½ Ubuntu 10.04 ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</TITLE>
+<meta name="DESCRIPTION" content="Ubuntu 10.04 ï¿½ï¿½ Sun Java SE ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Eï¿½\ï¿½[ï¿½Xï¿½ÉuCanonical ï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<meta name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
 <meta name="DATE" content="2010-08-22T16:37:22+09:00">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2010/08/22 “ú‹L: Ubuntu: Sun Java SE 6 ‚ð Ubuntu 10.04 ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é•û–@</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Ubuntu 10.04 ‚É Sun Java SE ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‚É‚ÍAƒ\ƒtƒgƒEƒFƒAEƒ\[ƒX‚ÉuCanonical ƒp[ƒgƒi[v‚ð’Ç‰Á‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B</P>
+    <H2>2010/08/22 ï¿½ï¿½ï¿½L: Ubuntu: Sun Java SE 6 ï¿½ï¿½ Ubuntu 10.04 ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Ubuntu 10.04 ï¿½ï¿½ Sun Java SE ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Eï¿½\ï¿½[ï¿½Xï¿½ÉuCanonical ï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,11 +30,11 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010/Tokyo">
         Eclipse DemoCamps Helios 2010/Tokyo at 2010-09-06
         </A> <FONT color=#ff0000 size=-1>09/01</FONT><BR>
       <FONT size=-1>
-        Eclipse DemoCamp ‚ð“Œ‹ž‚ÅŠJÃ! ŽcÈ‚í‚¸‚©B\žŠúŒÀ‚àŠÔ‹ßBŽQ‰ÁŠó–]ŽÒ‚Í¡‚·‚®\‚µž‚Ý‚ð!
+        Eclipse DemoCamp ï¿½ð“Œ‹ï¿½ï¿½ÅŠJï¿½ï¿½! ï¿½cï¿½È‚í‚¸ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‹ßBï¿½Qï¿½ï¿½ï¿½ï¿½]ï¿½Ò‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½!
       </FONT></TD>
 
     </TR>
@@ -50,7 +50,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -61,17 +61,17 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: Sun Java SE ‚ð Ubuntu 10.04 ‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é•û–@</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ubuntu: Sun Java SE ï¿½ï¿½ Ubuntu 10.04 ï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<p><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianƒx[ƒX‚ÌLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Ubuntu</A> 10.04 ‚É Sun Java SE ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‚É‚ÍAƒ\ƒtƒgƒEƒFƒAEƒ\[ƒX‚ÉuCanonical
-ƒp[ƒgƒi[v‚ð’Ç‰Á‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B</p>
+<p><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/ubuntu.html" TITLE="Debianï¿½xï¿½[ï¿½Xï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Ubuntu</A> 10.04 ï¿½ï¿½ Sun Java SE ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½Eï¿½\ï¿½[ï¿½Xï¿½ÉuCanonical
+ï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <BLOCKQUOTE><img src="http://www.igapyon.jp/igapyon/image/diary/2010/20100822ubujdk001.png" border="0"><br>
-šã‹LƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚Ì ã 2 ‚Â‚É‚Â‚¢‚Äƒ`ƒFƒbƒN‚ð ON ‚É‚µ‚Ü‚·B<br>
-šu•Â‚¶‚évƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚µ‚Ä‚Í‚¶‚ß‚ÄAÝ’è•ÏX‚ª—LŒø‚É‚È‚è‚Ü‚·B</BLOCKQUOTE>
-<p>Sun Java JDK 6 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B<br>
-u’[––v‚©‚çˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ðŽÀs‚µ‚Ü‚·B</p>
+ï¿½ï¿½ï¿½ï¿½Lï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ ï¿½ï¿½ 2 ï¿½Â‚É‚Â‚ï¿½ï¿½Äƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ ON ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½ï¿½ï¿½uï¿½Â‚ï¿½ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ß‚ÄAï¿½Ý’ï¿½ÏXï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</BLOCKQUOTE>
+<p>Sun Java JDK 6 ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<br>
+ï¿½uï¿½[ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½È‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <blockquote>
 <table border="1">
   <tbody>
@@ -83,9 +83,9 @@
   </tbody>
 </table>
 </blockquote>
-<p>ƒCƒ“ƒXƒg[ƒ‹‚Ì‰ß’ö‚Åƒ‰ƒCƒZƒ“ƒX‡ˆÓ‚ÌŠm”F‰æ–Ê‚ªŒ»‚ê‚Ü‚·B“à—e‚ðŠm”F‚Ì‚¤‚¦ATAB ƒL[‚Æ ENTER ƒL[‚ð‰Ÿ‰º‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚ð‘±s‚µ‚Ü‚·B</p>
-<p>OpenJDK 6 ‚ª“ü‚Á‚Ä‚¢‚½‚çA‚»‚ê‚ðœ‹Ž‚µ‚Ü‚·B</p>
-<p>ƒCƒ“ƒXƒg[ƒ‹ŒãAˆÈ‰º‚Ì‚æ‚¤‚É•\Ž¦‚³‚ê‚½‚çƒCƒ“ƒXƒg[ƒ‹‚ÍŠ®¬‚Å‚·B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Ì‰ß’ï¿½ï¿½Åƒï¿½ï¿½Cï¿½Zï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Ó‚ÌŠmï¿½Fï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½eï¿½ï¿½ï¿½mï¿½Fï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ATAB ï¿½Lï¿½[ï¿½ï¿½ ENTER ï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ð‘±sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>OpenJDK 6 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½Aï¿½È‰ï¿½ï¿½Ì‚æ‚¤ï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ÍŠï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</p>
 <blockquote>
 <table border="1">
   <tbody>
@@ -100,38 +100,38 @@ Java HotSpot(TM) Server VM (build 16.3-b01, mixed mode)</pre>
   </tbody>
 </table>
 </blockquote>
-<p>šŽc‰Û‘è: ‚±‚ÌŽè‡‚ðŽÀŽ{‚·‚é‚ÆA‚È‚º‚© OpenJDK ‚ª‹­§“I‚ÉƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚é‚æ‚¤‚ÉŒ©‚¦‚Ü‚µ‚½B‚È‚º‚¾‚©AŒ»Žž“_‚Å‚Í‚í‚©‚Á‚Ä‚¢‚Ü‚¹‚ñB</p>
+<p>ï¿½ï¿½ï¿½cï¿½Û‘ï¿½: ï¿½ï¿½ï¿½ÌŽè‡ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ÆAï¿½È‚ï¿½ï¿½ï¿½ OpenJDK ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ÉƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚Í‚í‚©ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</p>
 <table summary="mini title">
   <tbody>
     <tr>
-      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Oracle GlassFish 3.0.1 ‚Æ OpenJDK 6 ‚Æ‚Ì‘Š«</strong></font></td>
+      <td bgcolor="#ff9900" valign="top"><font color="#ffffff" size="+1"><strong>Oracle GlassFish 3.0.1 ï¿½ï¿½ OpenJDK 6 ï¿½Æ‚Ì‘ï¿½ï¿½ï¿½</strong></font></td>
     </tr>
   </tbody>
 </table>
-<p>‚Ç‚¤‚àAOracle GlassFish 3.0.1 ‚Æ OpenJDK 6 ‚Æ‚Í‘Š«‚ªˆ«‚¢‚æ‚¤‚Å‚·B‚±‚Ì‘g‚Ý‡‚í‚¹‚¾‚Æ XML ‚Ü‚í‚è‚ÌƒGƒ‰[‚ª”­¶‚µ‚ÄŠÇ—ƒRƒ“ƒ\[ƒ‹‚ðŠJ‚­‚±‚Æ‚ª‚Å‚«‚È‚¢ê‡‚ª‚ ‚è‚Ü‚·B</p>
-<p>‚±‚ê‚ð‰ñ”ð‚·‚é‚É‚ÍAOpenJDK 6 ‚Ì‘ã‚í‚è‚É Sun Java 6 JDK ‚ð—˜—p‚·‚é•û–@‚ª‚ ‚è‚Ü‚·B</p>
+<p>ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½AOracle GlassFish 3.0.1 ï¿½ï¿½ OpenJDK 6 ï¿½Æ‚Í‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ï¿½ï¿½ï¿½ XML ï¿½Ü‚ï¿½ï¿½ÌƒGï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŠÇ—ï¿½ï¿½Rï¿½ï¿½ï¿½\ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
+<p>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAOpenJDK 6 ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ Sun Java 6 JDK ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</p>
 <TABLE summary="news">
   <TBODY>
     <TR>
-      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç</STRONG></FONT></TD>
+      <TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
 <ul>
-  <li>ƒjƒtƒeƒBA‹ZpŽÒŒü‚¯•×‹­‰ï‚Ì‰ïê’ñ‹Ÿ‚â“®‰æ”zM‹¦—Í‚È‚Ç‚ð–³—¿‚Ås‚¤u—niftyƒGƒ“ƒWƒjƒAƒTƒ|[ƒgvŠJŽn<br>
+  <li>ï¿½jï¿½tï¿½eï¿½Bï¿½Aï¿½Zï¿½pï¿½ÒŒï¿½ï¿½ï¿½ï¿½×‹ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½ñ‹Ÿ‚â“®ï¿½ï¿½zï¿½Mï¿½ï¿½ï¿½Í‚È‚Ç‚ð–³—ï¿½ï¿½Åsï¿½ï¿½ï¿½uï¿½ï¿½niftyï¿½Gï¿½ï¿½ï¿½Wï¿½jï¿½Aï¿½Tï¿½|ï¿½[ï¿½gï¿½vï¿½Jï¿½n<br>
   <A HREF="http://www.rbbtoday.com/article/2010/08/11/69814.html">http://www.rbbtoday.com/article/2010/08/11/69814.html</A><br>
-  OSS ƒRƒ~ƒ…ƒjƒeƒBW‰ï‚È‚Ç‚Å—˜—p‚µ‚Ä‚Ý‚½‚¢‚ÆŽv‚¢‚Ü‚µ‚½B
-  <li>ASCII.jp: Kindle/iPad‘Î‰žI“dŽq‘Ð‚Ìì‚è•û<br>
+  OSS ï¿½Rï¿½~ï¿½ï¿½ï¿½jï¿½eï¿½Bï¿½Wï¿½ï¿½È‚Ç‚Å—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+  <li>ASCII.jp: Kindle/iPadï¿½Î‰ï¿½ï¿½Iï¿½dï¿½qï¿½ï¿½ï¿½Ð‚Ìï¿½ï¿½ï¿½<br>
   <A HREF="http://ascii.jp/elem/000/000/543/543785/">http://ascii.jp/elem/000/000/543/543785/</A><br>
-  ‚Æ‚Ä‚à‹»–¡[‚¢‹LŽ–I
-  <li>ITPro: Œ©Ï‚à‚è2‰­‰~‚ÌIP“d˜b‚ð820–œ‰~‚Å\’z‚µ‚½H“cŒ§‘åŠÙŽs‚©‚çŠw‚×‚é‚±‚Æ yOSS ‚Ì“d˜bŒðŠ·‹@z<br>
+  ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½I
+  <li>ITPro: ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½~ï¿½ï¿½IPï¿½dï¿½bï¿½ï¿½820ï¿½ï¿½ï¿½~ï¿½Å\ï¿½zï¿½ï¿½ï¿½ï¿½ï¿½Hï¿½cï¿½ï¿½ï¿½ï¿½ÙŽsï¿½ï¿½ï¿½ï¿½wï¿½×‚é‚±ï¿½ï¿½ ï¿½yOSS ï¿½Ì“dï¿½bï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½z<br>
   <A HREF="http://itpro.nikkeibp.co.jp/article/OPINION/20090209/324420/">http://itpro.nikkeibp.co.jp/article/OPINION/20090209/324420/</A><br>
-  OSS “d˜bŒðŠ·‹@‚Æ‚¢‚¤ŠÏ“_‚Å‹»–¡[‚¢‚Å‚·B
-  <li>ITPro: ‚ä‚¤‚¿‚å‹âƒ_ƒEƒ“A^ˆö‚ÍØ‚è‘Ö‚¦Ž¸”s<br>
+  OSS ï¿½dï¿½bï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ï“_ï¿½Å‹ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+  <li>ITPro: ï¿½ä‚¤ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½Aï¿½^ï¿½ï¿½ï¿½ÍØ‚ï¿½Ö‚ï¿½ï¿½ï¿½ï¿½s<br>
   <A HREF="http://itpro.nikkeibp.co.jp/article/COLUMN/20100803/350962/">http://itpro.nikkeibp.co.jp/article/COLUMN/20100803/350962/</A>
 </ul>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/08/22 16:37:22 $</address>
 </BODY>
 </HTML>

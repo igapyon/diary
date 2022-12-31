@@ -13,6 +13,6 @@
 
 ### 検索
 
-* <@linksearch title="Search 'Apex' in google in-site" word="Apex" site="http://www.igapyon.jp/igapyon/diary/" />
+* <@linksearch title="Search 'Apex' in google in-site" word="Apex" site="https://www.igapyon.jp/igapyon/diary/" />
 * <@linksearch word="Apex" />
 * <@linksearch word="Apex" engine="twitter" />

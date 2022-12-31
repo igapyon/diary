@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/03/15 “ú‹L: ƒVƒ“ƒvƒ‹‚Èƒ_ƒEƒ“ƒ[ƒhƒT[ƒuƒŒƒbƒg‚Ì—Œ` , Jakarta POI‚ÌExcel‘‚«o‚µ‚Ì‹““®•sˆÀ’è‚É‹ê‚µ‚ß‚ç‚ê‚é</TITLE>
-<META name="DESCRIPTION" content="ƒVƒ“ƒvƒ‹‚È ƒ_ƒEƒ“ƒ[ƒhJava Servlet‚Ì—Œ`‚ðì‚è‚Ü‚µ‚½ , Jakarta POI ‚ÌŒ»sƒo[ƒWƒ‡ƒ“‚Å‚Í Excel‘‚«‚¾‚µ‚Ì‹““®‚ª”÷–­‚È‚æ‚¤‚Å‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,download,servlet,java">
+<TITLE>2005/03/15 ï¿½ï¿½ï¿½L: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Ìï¿½ï¿½` , Jakarta POIï¿½ï¿½Excelï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½É‹ê‚µï¿½ß‚ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hJava Servletï¿½Ìï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ , Jakarta POI ï¿½ÌŒï¿½ï¿½sï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ Excelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚æ‚¤ï¿½Å‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,download,servlet,java">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/03/15 “ú‹L: ƒVƒ“ƒvƒ‹‚Èƒ_ƒEƒ“ƒ[ƒhƒT[ƒuƒŒƒbƒg‚Ì—Œ` , Jakarta POI‚ÌExcel‘‚«o‚µ‚Ì‹““®•sˆÀ’è‚É‹ê‚µ‚ß‚ç‚ê‚é</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,download,servlet,java] ƒVƒ“ƒvƒ‹‚È ƒ_ƒEƒ“ƒ[ƒhJava Servlet‚Ì—Œ`‚ðì‚è‚Ü‚µ‚½ , Jakarta POI ‚ÌŒ»sƒo[ƒWƒ‡ƒ“‚Å‚Í Excel‘‚«‚¾‚µ‚Ì‹““®‚ª”÷–­‚È‚æ‚¤‚Å‚·B</P>
+    <H2>2005/03/15 ï¿½ï¿½ï¿½L: ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Ìï¿½ï¿½` , Jakarta POIï¿½ï¿½Excelï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½É‹ê‚µï¿½ß‚ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,download,servlet,java] ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hJava Servletï¿½Ìï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ , Jakarta POI ï¿½ÌŒï¿½ï¿½sï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ Excelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚æ‚¤ï¿½Å‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,11 +59,11 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒVƒ“ƒvƒ‹‚Èƒ_ƒEƒ“ƒ[ƒhƒT[ƒuƒŒƒbƒg‚Ì—Œ`</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Ìï¿½ï¿½`</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚Æ‚Á‚Ä‚àƒVƒ“ƒvƒ‹‚Èƒ_ƒEƒ“ƒ[ƒhƒT[ƒuƒŒƒbƒg‚Ì—Œ`‚ðì¬‚µ‚Ü‚µ‚½B‚±‚ê‚ðƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P>ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½Vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Èƒ_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Tï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½Ìï¿½ï¿½`ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -77,8 +77,8 @@
     <TR>
       <TD>
       <pre>/*
- * ‚·‚²‚­’Pƒ‚È Java Servlet‚É‚æ‚éƒ_ƒEƒ“ƒ[ƒh
- * Copyright (C) 2005 ‚¢‚ª‚Ò‚å‚ñ
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½ Java Servletï¿½É‚ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½h
+ * Copyright (C) 2005 ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½
  */
 
 import java.io.BufferedInputStream;
@@ -95,8 +95,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * ‚·‚²‚­ŠÈ’P‚È Java Servlet‚É‚æ‚éƒ_ƒEƒ“ƒ[ƒh &lt;br&gt;
- * ŽQl: http://www.ietf.org/rfc/rfc2616.txt
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½ï¿½ Java Servletï¿½É‚ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½h &lt;br&gt;
+ * ï¿½Qï¿½l: http://www.ietf.org/rfc/rfc2616.txt
  * 
  * @author t.iga
  * @version 2005.03.04
@@ -105,17 +105,17 @@ public class SimpleDownloadServlet extends HttpServlet {
         public static final String HOME_DIRECTORY = &quot;C:\\&quot;;
 
         /**
-         * &lt;code&gt;ENCODING&lt;/code&gt; HTML‚Åˆµ‚¤•¶ŽšƒR[ƒh‚ð—^‚¦‚Ü‚·B
+         * &lt;code&gt;ENCODING&lt;/code&gt; HTMLï¿½Åˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
          */
         public static final String ENCODING = &quot;ISO-2022-JP&quot;;
 
         /**
-         * HTML‚Ìƒ^ƒCƒgƒ‹
+         * HTMLï¿½Ìƒ^ï¿½Cï¿½gï¿½ï¿½
          */
-        public static final String HTML_TITLE = &quot;ƒ_ƒEƒ“ƒ[ƒh’†...&quot;;
+        public static final String HTML_TITLE = &quot;ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½...&quot;;
 
         /**
-         * Java Servlet‚ÌƒGƒ“ƒgƒŠƒ|ƒCƒ“ƒg‚Å‚·B
+         * Java Servletï¿½ÌƒGï¿½ï¿½ï¿½gï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½Å‚ï¿½ï¿½B
          * 
          * @see javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
          *      javax.servlet.http.HttpServletResponse)
@@ -124,7 +124,7 @@ public class SimpleDownloadServlet extends HttpServlet {
                         final HttpServletResponse response) throws ServletException,
                         IOException {
 
-                // JavaServlet‚É‚¨‚¢‚ÄAresponse‚©‚çŽæ“¾‚µ‚½writer, outStream‚ÍƒNƒ[ƒY‚µ‚Ü‚¹‚ñB
+                // JavaServletï¿½É‚ï¿½ï¿½ï¿½ï¿½ÄAresponseï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½writer, outStreamï¿½ÍƒNï¿½ï¿½ï¿½[ï¿½Yï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
                 PrintWriter writer = null;
                 OutputStream outStream = null;
 
@@ -135,29 +135,29 @@ public class SimpleDownloadServlet extends HttpServlet {
                         setResponseHeader(response, &quot;noname.html&quot;, -1);
                         writer = response.getWriter();
                         writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
-                                        + &quot;&lt;BODY&gt;&lt;P&gt;'filename'ƒpƒ‰ƒ[ƒ^Žw’è‚ðs‚Á‚Ä‚­‚¾‚³‚¢.&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;'filename'ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½wï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.&lt;/P&gt;&lt;/BODY&gt;&quot;);
                 } else if (fileCheck.exists() == false) {
                         setResponseHeader(response, &quot;notfound.html&quot;, -1);
                         writer = response.getWriter();
                         writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
-                                        + &quot;&lt;BODY&gt;&lt;P&gt;Žw’è‚Ìƒtƒ@ƒCƒ‹[&quot; + fileCheck.getAbsolutePath()
-                                        + &quot;]‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;ï¿½wï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½&lt;/P&gt;&lt;/BODY&gt;&quot;);
                 } else if (fileCheck.isDirectory()) {
                         setResponseHeader(response, &quot;notfound.html&quot;, -1);
                         writer = response.getWriter();
                         writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
-                                        + &quot;&lt;BODY&gt;&lt;P&gt;ƒfƒBƒŒƒNƒgƒŠ[&quot; + fileCheck.getAbsolutePath()
-                                        + &quot;]‚ªŽw’è‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚ÌƒvƒƒOƒ‰ƒ€‚Íƒtƒ@ƒCƒ‹‚µ‚©ƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚Ü‚¹‚ñ.&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]ï¿½ï¿½ï¿½wï¿½è‚³ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½.&lt;/P&gt;&lt;/BODY&gt;&quot;);
                 } else if (fileCheck.canRead() == false) {
                         setResponseHeader(response, &quot;notfound.html&quot;, -1);
                         writer = response.getWriter();
                         writer.write(&quot;&lt;HEAD&gt;&lt;TITLE&gt;&quot; + HTML_TITLE + &quot;&lt;/TITLE&gt;&lt;/HEAD&gt;&quot;
-                                        + &quot;&lt;BODY&gt;&lt;P&gt;Žw’è‚Ìƒtƒ@ƒCƒ‹[&quot; + fileCheck.getAbsolutePath()
-                                        + &quot;]‚Í“Ç‚Ýž‚Ý‚Å‚«‚Ü‚¹‚ñ&lt;/P&gt;&lt;/BODY&gt;&quot;);
+                                        + &quot;&lt;BODY&gt;&lt;P&gt;ï¿½wï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½[&quot; + fileCheck.getAbsolutePath()
+                                        + &quot;]ï¿½Í“Ç‚Ýï¿½ï¿½Ý‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½&lt;/P&gt;&lt;/BODY&gt;&quot;);
                 } else {
                         setResponseHeader(response, filename, (int) fileCheck.length());
 
-                        // ƒoƒbƒtƒ@ƒŠƒ“ƒO–³‚µ‚Åo—ÍƒXƒgƒŠ[ƒ€‚ðŽæ“¾‚µ‚Ü‚·.
+                        // ï¿½oï¿½bï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Åoï¿½ÍƒXï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Ü‚ï¿½.
                         outStream = response.getOutputStream();
 
                         InputStream inStream = null;
@@ -181,55 +181,55 @@ public class SimpleDownloadServlet extends HttpServlet {
         }
 
         /**
-         * Šî–{“I‚ÈƒŒƒXƒ|ƒ“ƒXƒwƒbƒ_[î•ñ‚ð•t—^‚µ‚Ü‚·B
+         * ï¿½ï¿½{ï¿½Iï¿½Èƒï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Xï¿½wï¿½bï¿½_ï¿½[ï¿½ï¿½ï¿½ï¿½tï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
          * 
          * @param response
-         *            ƒŒƒXƒ|ƒ“ƒXƒIƒuƒWƒFƒNƒg‚ð—^‚¦‚Ü‚·B
+         *            ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Xï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
          * @param filename
-         *            ƒtƒ@ƒCƒ‹–¼
+         *            ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
          * @param fileLength
-         *            ƒtƒ@ƒCƒ‹‚Ì’·‚³
+         *            ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½
          */
         private void setResponseHeader(final HttpServletResponse response,
                         String filename, final int fileLength) {
                 if (filename.endsWith(&quot;.pdf&quot;)) {
-                        // ƒuƒ‰ƒEƒU‚É PDF‚Æ”FŽ¯‚³‚¹‚Ü‚·B
+                        // ï¿½uï¿½ï¿½ï¿½Eï¿½Uï¿½ï¿½ PDFï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;application/pdf&quot;);
                 } else if (filename.endsWith(&quot;.xls&quot;)) {
-                        // Excel‚Æ”FŽ¯‚³‚¹‚Ü‚·B
+                        // Excelï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;application/vnd.ms-excel&quot;);
                 } else if (filename.endsWith(&quot;.xml&quot;)) {
-                        // XML‚Æ”FŽ¯‚³‚¹‚Ü‚·B
+                        // XMLï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;text/xml&quot;);
                 } else if (filename.endsWith(&quot;.html&quot;)) {
-                        // html‚Æ”FŽ¯‚³‚¹‚Ü‚·B
+                        // htmlï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;text/html; charset=&quot; + ENCODING);
                         response.addHeader(&quot;charset&quot;, ENCODING);
                 } else if (filename.endsWith(&quot;.txt&quot;)) {
-                        // ƒeƒLƒXƒg‚Æ”FŽ¯‚³‚¹‚Ü‚·B
+                        // ï¿½eï¿½Lï¿½Xï¿½gï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;text/plain&quot;);
                         response.addHeader(&quot;charset&quot;, ENCODING);
                 } else {
-                        // ‚»‚êˆÈŠO‚Ìê‡‚ÍƒoƒCƒiƒŠƒXƒgƒŠ[ƒ€‚Æ‚µ‚Ä‘—o‚µ‚Ü‚·B
+                        // ï¿½ï¿½ï¿½ï¿½ÈŠOï¿½Ìê‡ï¿½Íƒoï¿½Cï¿½iï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‘ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentType(&quot;application/octet-stream&quot;);
                 }
 
-                // TODO ŽŽŒ±“I‚É–„‚ßž‚Ý
+                // TODO ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½É–ï¿½ï¿½ßï¿½ï¿½ï¿½
                 filename = filename.replaceAll(&quot;/&quot;, &quot;&quot;);
                 response.addHeader(&quot;Content-Disposition &quot;, &quot;attachment; filename=\&quot;&quot;
                                 + filename + &quot;\&quot;&quot;);
-                System.out.println(&quot;ƒtƒ@ƒCƒ‹–¼[&quot; + filename + &quot;]&quot;);
+                System.out.println(&quot;ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½[&quot; + filename + &quot;]&quot;);
 
-                // Accept-Ranges‚Æ‚µ‚Änone‚ð•\–¾‚·‚éB
-                // AdobeReader 7.0‚Í ‚±‚ê‚ª–³‚¢‚Æ³í‚É“®ì‚µ‚È‚¢B
+                // Accept-Rangesï¿½Æ‚ï¿½ï¿½ï¿½noneï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+                // AdobeReader 7.0ï¿½ï¿½ ï¿½ï¿½ï¿½ê‚ªï¿½ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½É“ï¿½ï¿½ì‚µï¿½È‚ï¿½ï¿½B
                 response.addHeader(&quot;Accept-Ranges&quot;, &quot;none&quot;);
 
                 if (fileLength &gt; 0) {
-                        // ƒRƒ“ƒeƒ“ƒc‚Ì’·‚³‚ðƒZƒbƒg‚µ‚Ü‚·B
+                        // ï¿½Rï¿½ï¿½ï¿½eï¿½ï¿½ï¿½cï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                         response.setContentLength(fileLength);
                 }
 
-                // ƒLƒƒƒbƒVƒ…‚ð–³Œø‰»‚µ‚Ü‚·B
+                // ï¿½Lï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½ð–³Œï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
                 response.addHeader(&quot;Cache-Control&quot;, &quot;no-cache&quot;);
                 response.addHeader(&quot;Pragma&quot;, &quot;no-cache&quot;);
                 response.addHeader(&quot;Expires&quot;, &quot;0&quot;);
@@ -240,28 +240,28 @@ public class SimpleDownloadServlet extends HttpServlet {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="../2004/ig040317.html">2004/03/17 “ú‹L: Java Servlet‚ÌƒVƒ“ƒvƒ‹—Œ`ƒ\[ƒXƒR[ƒh‚Ì’T‹</A>
+  <LI><A href="../2004/ig040317.html">2004/03/17 ï¿½ï¿½ï¿½L: Java Servletï¿½ÌƒVï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½Ì’Tï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) ‚ÌExcel‘‚«o‚µ‚Ì‹““®‚É‹ê‚µ‚ß‚ç‚ê‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jakarta POI (HSSF) ï¿½ï¿½Excelï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½É‹ê‚µï¿½ß‚ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Java‚Å‘‚©‚ê‚½Microsoft Excelƒtƒ@ƒCƒ‹‚È‚Ç‚É‘Î‚·‚é“üo—Íƒ‰ƒCƒuƒ‰ƒŠ">Jakarta POI</A> ‚ÌŒ»sƒo[ƒWƒ‡ƒ“ (2.5.1) ‚Å‚Í Excel‘‚«‚¾‚µ‚Ì‹““®‚ª”÷–­‚Å‚ ‚é‚±‚Æ‚ª ‰ü‚ß‚Ä—Ç‚­•ª‚©‚è‚Ü‚µ‚½BExcelƒV[ƒg‚É‰æ‘œ‚ª“\‚è•t‚¢‚½‚à‚Ì‚ð‚¢‚ë‚¢‚ëˆ—‚·‚é‚Ì‚Å‚·‚ªAˆ—‚µ‚Ä‚¢‚éŠÔ‚É
-Excel‚Å‚ÍŠJ‚­‚±‚Æ‚ªo—ˆ‚È‚¢ƒtƒ@ƒCƒ‹‚ªo—ˆã‚ª‚Á‚Ä‚µ‚Ü‚¤ê‡‚ª‚ ‚è‚Ü‚µ‚½ (T_T)<BR>
-Excelƒtƒ@ƒCƒ‹Œ`Ž®‚Ì‹CŽ‚¿‚É‚È‚Á‚ÄA‰æ‘œƒf[ƒ^‚ðƒNƒŠƒbƒvƒ{[ƒh‚Éˆê’U‚½‚ßž‚ñ‚Å Excel‚ðÄ‹N“®‚µ‚Ä ’£‚è•t‚¯‚ÄA‚È‚Ç‚ðs‚Á‚Ä‚¤‚Ü‚­‚â‚é‚ÆAJakarta
-POI‚É‚æ‚é•ÏXˆ—Œã‚Å‚à Excel‚ÅŠJ‚­‚±‚Æ‚ªo—ˆ‚é xlsƒf[ƒ^ƒtƒ@ƒCƒ‹‚ªì¬‰Â”\‚ÈA‚»‚ñ‚È•sŽv‹c‚È‹““®‚É’¼–Ê‚µ‚Ü‚µ‚½BExcel‚Ìƒtƒ@ƒCƒ‹ƒtƒH[ƒ}ƒbƒg‚Á‚Ä•sŽv‹c‚ÈŠ´‚¶‚ª‚ ‚é‚æ‚¤‚ÅAƒZƒ‹‚Æ‚©Œrü‚Æ‚©‚àA‚Ð‚Æ‚Â‚ÌƒXƒ^ƒCƒ‹‚ð•¡ŽÊ‚µ‚ÄƒZƒ‹‚É“\‚è•t‚¯‚Ä‚¢‚é‚æ‚¤‚Èì‚è‚É‚È‚Á‚Ä‚¢‚ÄAPOI‚ðŽg‚¤‚Ð‚Æ‚Í
-‚»‚Ì“s‡‚É‡‚í‚¹‚½—˜—pŽè‡‚Éæ‚ç‚È‚¢‚Æ‚Ü‚¸‚¢‚æ‚¤‚Å‚·B“Á‚É‰æ‘œƒf[ƒ^‚Í Œ³ƒlƒ^{ƒŠƒ“ƒN‚ÌŒ`Ž®‚Å‚ ‚é‚æ‚¤‚È‚Ì‚ÅA‘€ì‚µ‚Ä‚¢‚é‰ß’ö‚Å ‚Ö‚ñ‚È‚±‚Æ‚É‚È‚é‚æ‚¤‚Å‚·BcŽ„‚Ì
-Jakarta POI‚ðˆµ‚¤ƒXƒLƒ‹‚É–â‘è‚ª‚ ‚é‰Â”\«‚à ‘½•ª‚É ‚ ‚è‚Ü‚·‚¯‚ê‚Ç‚à‚ËB</P>
-<P>‚Æ‚è‚ ‚¦‚¸¡Œã‚ÍA<A HREF="http://ja.openoffice.org/" TITLE="Œ»ÝÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éƒI[ƒvƒ“ƒ\[ƒX‚É‚æ‚éƒIƒtƒBƒXƒXƒC[ƒgŽÀ‘•‚Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ˆÈ~‚Å‚ÍƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒg‚Æ‚µ‚Ä OpenDocument‚ðÌ—p‚µ‚Ä‚¢‚éB">OpenOffice.org</A> SDK ‚Ì API‚É“Ë‚Á‘–‚Á‚Ä‚¢‚­—\’è‚Å‚·BOpenOffice.org
-SDK ‚Ì API‚Í ‚Æ‚Á‚Â‚«‚ªƒTƒCƒAƒN‚È‚Ì‚Å‚·‚ªA‚Ü‚  ‚¿‚á‚ñ‚ÆŒÄ‚Ño‚µ‚³‚Ö‚·‚ê‚Î‚¿‚á‚ñ‚Æ“®‚­‚Ì‚ÅA‚±‚ê‚Í‚¿‚å‚Á‚Æ‹C‡‚¢‚ð“ü‚ê‚Ä OpenOffice.org
-SDK ‚Æ^‚ÁŒüŸ•‰‚µ‚Ä‚Ý‚½‚¢‚Å‚·BAAA‚Ü‚ AŽžŠÔ‚ª‚ ‚ê‚Î‚Ì˜b‚Å‚·‚ªcB</P>
+<P><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/jakartapoi.html" TITLE="Javaï¿½Åï¿½ï¿½ï¿½ï¿½ê‚½Microsoft Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½È‚Ç‚É‘Î‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Íƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½">Jakarta POI</A> ï¿½ÌŒï¿½ï¿½sï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ (2.5.1) ï¿½Å‚ï¿½ Excelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ ï¿½ï¿½ï¿½ß‚Ä—Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BExcelï¿½Vï¿½[ï¿½gï¿½É‰æ‘œï¿½ï¿½ï¿½\ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ëˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ô‚ï¿½
+Excelï¿½Å‚ÍŠJï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½È‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ (T_T)<BR>
+Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ì‹Cï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½ÄAï¿½æ‘œï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½vï¿½{ï¿½[ï¿½hï¿½Éˆï¿½Uï¿½ï¿½ï¿½ßï¿½ï¿½ï¿½ï¿½ Excelï¿½ï¿½ï¿½Ä‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ÄAï¿½È‚Ç‚ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ÆAJakarta
+POIï¿½É‚ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ Excelï¿½ÅŠJï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ xlsï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½Â”\ï¿½ÈAï¿½ï¿½ï¿½ï¿½È•sï¿½vï¿½cï¿½È‹ï¿½ï¿½ï¿½ï¿½É’ï¿½ï¿½Ê‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BExcelï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½ï¿½ï¿½Ä•sï¿½vï¿½cï¿½ÈŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÅAï¿½Zï¿½ï¿½ï¿½Æ‚ï¿½ï¿½rï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ð‚Æ‚Â‚ÌƒXï¿½^ï¿½Cï¿½ï¿½ï¿½ð•¡ŽÊ‚ï¿½ï¿½ÄƒZï¿½ï¿½ï¿½É“\ï¿½ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½Èï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ÄAPOIï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ð‚Æ‚ï¿½
+ï¿½ï¿½ï¿½Ì“sï¿½ï¿½ï¿½Éï¿½ï¿½í‚¹ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½è‡ï¿½Éï¿½ï¿½È‚ï¿½ï¿½Æ‚Ü‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½É‰æ‘œï¿½fï¿½[ï¿½^ï¿½ï¿½ ï¿½ï¿½ï¿½lï¿½^ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ÌŒ`ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½È‚Ì‚ÅAï¿½ï¿½ï¿½ì‚µï¿½Ä‚ï¿½ï¿½ï¿½ß’ï¿½ï¿½ï¿½ ï¿½Ö‚ï¿½È‚ï¿½ï¿½Æ‚É‚È‚ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½Bï¿½cï¿½ï¿½ï¿½ï¿½
+Jakarta POIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Lï¿½ï¿½ï¿½É–ï¿½è‚ªï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ËB</P>
+<P>ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍA<A HREF="http://ja.openoffice.org/" TITLE="ï¿½ï¿½ï¿½ÝÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Iï¿½tï¿½Bï¿½Xï¿½Xï¿½Cï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ï¿½È~ï¿½Å‚Íƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ OpenDocumentï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">OpenOffice.org</A> SDK ï¿½ï¿½ APIï¿½É“Ë‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½BOpenOffice.org
+SDK ï¿½ï¿½ APIï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Tï¿½Cï¿½Aï¿½Nï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Ü‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÆŒÄ‚Ñoï¿½ï¿½ï¿½ï¿½ï¿½Ö‚ï¿½ï¿½ï¿½Î‚ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ OpenOffice.org
+SDK ï¿½Æ^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Aï¿½Aï¿½Aï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½Î‚Ì˜bï¿½Å‚ï¿½ï¿½ï¿½ï¿½cï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

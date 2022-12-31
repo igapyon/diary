@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/09/14 “ú‹L: Java: Unicode•¶šƒR[ƒho—ÍƒTƒ“ƒvƒ‹</TITLE>
-<META name="DESCRIPTION" content="‹v‚µ‚Ô‚è‚É•¶šƒR[ƒhƒlƒ^‚É‘˜‹ö‚µ‚½‚Ì‚ÅA‚±‚ê‚ğƒƒ‚‚µ‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,ƒTƒ“ƒvƒ‹,Unicode">
+<TITLE>2004/09/14 ï¿½ï¿½ï¿½L: Java: Unicodeï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½oï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½vï¿½ï¿½ï¿½Ô‚ï¿½É•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½lï¿½^ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,Unicode">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/09/14 “ú‹L: Java: Unicode•¶šƒR[ƒho—ÍƒTƒ“ƒvƒ‹</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,Java,ƒTƒ“ƒvƒ‹,Unicode] ‹v‚µ‚Ô‚è‚É•¶šƒR[ƒhƒlƒ^‚É‘˜‹ö‚µ‚½‚Ì‚ÅA‚±‚ê‚ğƒƒ‚‚µ‚Ü‚µ‚½B</P>
+    <H2>2004/09/14 ï¿½ï¿½ï¿½L: Java: Unicodeï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½oï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,Java,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½,Unicode] ï¿½vï¿½ï¿½ï¿½Ô‚ï¿½É•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½lï¿½^ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDE–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ğg‚Á‚Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚Ìè‚É‚æ‚é Benten Ğ‰î‹L–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚İ‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½É‚ï¿½ï¿½ Benten ï¿½Ğ‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,17 +59,17 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicode•¶šƒR[ƒh•œK</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Unicodeï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½K</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‹v‚µ‚Ô‚è‚É•¶šƒR[ƒhƒlƒ^‚É‘˜‹ö‚µ‚½‚Ì‚ÅAŒŸØ—p‚Ì<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ƒgƒCƒvƒƒOƒ‰ƒ€EƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì’è‹`‚ğ‚±‚±‚É’è‚ß‚Ü‚·B">ƒgƒCƒvƒƒOƒ‰ƒ€</A>‚ğ‚³‚­‚Á‚Æì¬‚µ‚Äƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B<BR>
-‚±‚ÌƒvƒƒOƒ‰ƒ€‚ÍAUnicode•¶š‚ğ”ÍˆÍw’è‚Åƒtƒ@ƒCƒ‹o—Í‚·‚é‚à‚Ì‚Å‚·B</P>
+<P>ï¿½vï¿½ï¿½ï¿½Ô‚ï¿½É•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½lï¿½^ï¿½É‘ï¿½https://www.igapyon.jp/igapyon/diary/.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æì¬ï¿½ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ÍAUnicodeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍˆÍwï¿½ï¿½Åƒtï¿½@ï¿½Cï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">UnicodeƒR[ƒh”ÍˆÍŒŸØƒgƒCƒvƒƒOƒ‰ƒ€</TD>
+      <TD bgcolor="#ffff00">Unicodeï¿½Rï¿½[ï¿½hï¿½ÍˆÍŒï¿½ï¿½Øƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -82,16 +82,16 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * UnicodeƒR[ƒhŒŸØƒNƒ‰ƒX
+ * Unicodeï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ØƒNï¿½ï¿½ï¿½X
  * @author iga
  */
 public class UnicodeCodeGen {
-    /** ƒ^[ƒQƒbƒg‚Æ‚·‚é•¶šƒR[ƒh */
+    /** ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Æ‚ï¿½ï¿½é•¶ï¿½ï¿½ï¿½Rï¿½[ï¿½h */
     private final static String CODE_PAGE = &quot;Unicode&quot;;
 
     /**
-     * Unicocd’l‚ğ‚à‚Á‚Ä‚Ç‚Ì•¶šƒR[ƒh‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚é‚©‚ğƒtƒ@ƒCƒ‹‚Éo—Í‚µ‚Ü‚·B
-     * ‚È‚¨Aƒtƒ@ƒCƒ‹‚É‚ÍUnicode‚ÌƒR[ƒh‚Å‘‚«o‚³‚ê‚é“_‚É’ˆÓ‚­‚¾‚³‚¢B
+     * Unicocdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ç‚Ì•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ÉŠï¿½ï¿½è“–ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éoï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½È‚ï¿½ï¿½Aï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚ï¿½Unicodeï¿½ÌƒRï¿½[ï¿½hï¿½Åï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É’ï¿½ï¿½Ó‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
      * @throws IOException
      */
     public static void generateCodeMap() throws IOException {
@@ -101,45 +101,45 @@ public class UnicodeCodeGen {
                 new BufferedOutputStream(
                     new FileOutputStream(&quot;UnicodeChar.txt&quot;));
 
-            writeLine(&quot;ššš•¶šƒR[ƒh”ÍˆÍŒŸØƒvƒƒOƒ‰ƒ€ššš&quot;, outStream);
+            writeLine(&quot;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ÍˆÍŒï¿½ï¿½Øƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&quot;, outStream);
             newLine(outStream);
             newLine(outStream);
 
-            writeLine(&quot;y”¼Šp‰pšz 0x41‚©‚ç0x5A ‚¨‚æ‚Ñ 0x61‚©‚ç0x7A&quot;, outStream);
+            writeLine(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½pï¿½ï¿½ï¿½z 0x41ï¿½ï¿½ï¿½ï¿½0x5A ï¿½ï¿½ï¿½ï¿½ï¿½ 0x61ï¿½ï¿½ï¿½ï¿½0x7A&quot;, outStream);
             newLine(outStream);
             writeUnicodeChar(0x41, 0x5A, outStream);
             writeUnicodeChar(0x61, 0x7A, outStream);
             newLine(outStream);
             newLine(outStream);
 
-            writeLine(&quot;y”¼Šp”šz 0x30‚©‚ç0x39&quot;, outStream);
+            writeLine(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½z 0x30ï¿½ï¿½ï¿½ï¿½0x39&quot;, outStream);
             newLine(outStream);
             writeUnicodeChar(0x30, 0x39, outStream);
             newLine(outStream);
-            writeLine(&quot;@¦“–‘R‚¾‚ªƒnƒCƒtƒ“‚¨‚æ‚ÑƒsƒŠƒIƒh‚ğŠÜ‚ñ‚Å‚¢‚È‚¢“_‚É’ˆÓ&quot;, outStream);
+            writeLine(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Cï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒsï¿½ï¿½ï¿½Iï¿½hï¿½ï¿½ï¿½Ü‚ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½_ï¿½É’ï¿½ï¿½ï¿½&quot;, outStream);
             newLine(outStream);
             newLine(outStream);
 
-            writeLine(&quot;y”¼ŠpƒJƒiz Unicode‚Å 0xFF66 ‚©‚ç 0xFF9F&quot;, outStream);
+            writeLine(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½z Unicodeï¿½ï¿½ 0xFF66 ï¿½ï¿½ï¿½ï¿½ 0xFF9F&quot;, outStream);
             newLine(outStream);
             writeUnicodeChar(0xFF66, 0xFF9F, outStream);
             newLine(outStream);
-            writeLine(&quot;@¦”¼ŠpƒJƒi‚Ì¬‚³‚¢š‚ÍŠÜ‚Ş“_‚É’ˆÓ&quot;, outStream);
+            writeLine(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍŠÜ‚Ş“_ï¿½É’ï¿½ï¿½ï¿½&quot;, outStream);
             newLine(outStream);
-            writeLine(&quot;@¦”¼ŠpƒJƒi‚Ì’·‰¹(ƒnƒCƒtƒ“‚É‚ ‚ç‚¸)‚ÍŠÜ‚Ş“_‚É’ˆÓ&quot;, outStream);
+            writeLine(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½Ì’ï¿½ï¿½ï¿½(ï¿½nï¿½Cï¿½tï¿½ï¿½ï¿½É‚ï¿½ï¿½ç‚¸)ï¿½ÍŠÜ‚Ş“_ï¿½É’ï¿½ï¿½ï¿½&quot;, outStream);
             newLine(outStream);
-            writeLine(&quot;@¦”¼Šp‹ó”’‚ğŠÜ‚Ü‚È‚¢“_‚É’ˆÓ&quot;, outStream);
+            writeLine(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ó”’‚ï¿½ï¿½Ü‚Ü‚È‚ï¿½ï¿½_ï¿½É’ï¿½ï¿½ï¿½&quot;, outStream);
             newLine(outStream);
             newLine(outStream);
 
-            writeLine(&quot;y”¼ŠpƒJƒi‚¨‚æ‚Ñ”¼ŠpƒJƒi‹å“Ç“_z Unicode‚Å 0xFF61 ‚©‚ç 0xFF9F&quot;, outStream);
+            writeLine(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½ï¿½ï¿½ï¿½Ñ”ï¿½ï¿½pï¿½Jï¿½iï¿½ï¿½Ç“_ï¿½z Unicodeï¿½ï¿½ 0xFF61 ï¿½ï¿½ï¿½ï¿½ 0xFF9F&quot;, outStream);
             newLine(outStream);
             writeUnicodeChar(0xFF61, 0xFF9F, outStream);
             newLine(outStream);
             newLine(outStream);
 
             writeLine(
-                &quot;y”¼Šp‰p”šz 0x30‚©‚ç0x39 ‚¨‚æ‚Ñ 0x41‚©‚ç0x5A ‚¨‚æ‚Ñ 0x61‚©‚ç0x7A&quot;,
+                &quot;ï¿½yï¿½ï¿½ï¿½pï¿½pï¿½ï¿½ï¿½ï¿½ï¿½z 0x30ï¿½ï¿½ï¿½ï¿½0x39 ï¿½ï¿½ï¿½ï¿½ï¿½ 0x41ï¿½ï¿½ï¿½ï¿½0x5A ï¿½ï¿½ï¿½ï¿½ï¿½ 0x61ï¿½ï¿½ï¿½ï¿½0x7A&quot;,
                 outStream);
             newLine(outStream);
             writeUnicodeChar(0x30, 0x39, outStream);
@@ -166,13 +166,13 @@ public class UnicodeCodeGen {
     }
 
     /**
-     * —^‚¦‚ç‚ê‚½ƒR[ƒh”ÍˆÍ‚ÌUnicode‚ğƒtƒ@ƒCƒ‹‚Éo—Í‚µ‚Ü‚·B
-     * ƒŠƒgƒ‹ƒGƒ“ƒfƒBƒAƒ“(little endian)‚ÅŠi”[‚µ‚Ü‚·
+     * ï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Rï¿½[ï¿½hï¿½ÍˆÍ‚ï¿½Unicodeï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éoï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½fï¿½Bï¿½Aï¿½ï¿½(little endian)ï¿½ÅŠiï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½
      * http://www.atmarkit.co.jp/icd/root/00/49717200.html
      * 
-     * @param min ‰ºŒÀ’l
-     * @param max ãŒÀ’l
-     * @param writer o—Íæƒ‰ƒCƒ^
+     * @param min ï¿½ï¿½ï¿½ï¿½ï¿½l
+     * @param max ï¿½ï¿½ï¿½ï¿½l
+     * @param writer ï¿½oï¿½Íæƒ‰ï¿½Cï¿½^
      * @throws IOException
      */
     public static void writeUnicodeChar(
@@ -181,7 +181,7 @@ public class UnicodeCodeGen {
         BufferedOutputStream outStream)
         throws IOException {
         for (int code = min; code &lt;= max; code++) {
-            // ƒŠƒgƒ‹ƒGƒ“ƒfƒBƒAƒ“‚Æ‚·‚é‚½‚ßƒrƒbƒgƒ}ƒXƒN
+            // ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½fï¿½Bï¿½Aï¿½ï¿½ï¿½Æ‚ï¿½ï¿½é‚½ï¿½ßƒrï¿½bï¿½gï¿½}ï¿½Xï¿½N
             byte lower = (byte) (code &amp; 0xFF);
             byte upper = (byte) ((code &amp; 0xFF00) &gt;&gt; 8);
             outStream.write((char) lower);
@@ -191,7 +191,7 @@ public class UnicodeCodeGen {
     }
 
     /**
-     * ‚Ps‚ğo—Í‚µ‚Ü‚·B
+     * ï¿½Pï¿½sï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
      * @param line
      * @param outStream
      * @throws IOException
@@ -205,8 +205,8 @@ public class UnicodeCodeGen {
     }
 
     /**
-     * ‰üs‚ğs‚¢‚Ü‚·B
-     * TODO:‰üsƒR[ƒh‚Ìˆ—‚ª­‚µ‚¤‚Ü‚­‚¢‚Á‚Ä‚¢‚Ü‚¹‚ñB
+     * ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * TODO:ï¿½ï¿½ï¿½sï¿½Rï¿½[ï¿½hï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
      * @param outStream
      * @throws IOException
      */
@@ -221,18 +221,18 @@ public class UnicodeCodeGen {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>ƒŠƒgƒ‹ƒGƒ“ƒfƒBƒAƒ“‚ÅŠi”[‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½fï¿½Bï¿½Aï¿½ï¿½ï¿½ÅŠiï¿½[ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
-  <LI>ƒŠƒgƒ‹ƒGƒ“ƒfƒBƒAƒ“<BR>
+  <LI>ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½fï¿½Bï¿½Aï¿½ï¿½<BR>
   <A href="http://www.atmarkit.co.jp/icd/root/00/49717200.html">http://www.atmarkit.co.jp/icd/root/00/49717200.html</A>
 </UL>
-<P>AAAÌ‚Ì“ú‹L‚Æ”ä‚×‚é‚ÆAƒJƒi‚Ì”ÍˆÍw’è‚Í‚Ç‚¤‚à•s“KØ‚Á‚Û‚¢‚Å‚·B‚±‚ê‚ÍÄ“xŒŸØ‚·‚é•K—v‚ª‚ ‚è‚»‚¤‚Å‚·B</P>
-<P>‚ ‚ÆA‚à‚Á‚Æ‚¨‚¨‚´‚Á‚Ï‚ÈÀ‘•‚àƒƒ‚‚µ‚Ä‚¨‚«‚Ü‚·B</P>
+<P>ï¿½Aï¿½Aï¿½Aï¿½Ì‚Ì“ï¿½ï¿½Lï¿½Æ”ï¿½×‚ï¿½ÆAï¿½Jï¿½iï¿½Ì”ÍˆÍwï¿½ï¿½Í‚Ç‚ï¿½ï¿½ï¿½ï¿½sï¿½Kï¿½Ø‚ï¿½ï¿½Û‚ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÍÄ“xï¿½ï¿½ï¿½Ø‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½è‚»ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">Unicode‚ÌƒR[ƒh‚ğŒŸØ‚·‚é‚½‚ß‚ÌƒgƒCƒvƒƒOƒ‰ƒ€ (‚¨‚¨‚´‚Á‚Ï”Å)</TD>
+      <TD bgcolor="#ffff00">Unicodeï¿½ÌƒRï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Ø‚ï¿½ï¿½é‚½ï¿½ß‚Ìƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï”ï¿½)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -246,7 +246,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 /**
- * UnicodeƒR[ƒhŒŸØƒNƒ‰ƒX
+ * Unicodeï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ØƒNï¿½ï¿½ï¿½X
  * @author iga
  */
 public class MojiCodeGen {
@@ -260,8 +260,8 @@ public class MojiCodeGen {
     }
 
     /**
-     * Unicocd’l‚ğ‚à‚Á‚Ä‚Ç‚Ì•¶šƒR[ƒh‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚é‚©‚ğƒtƒ@ƒCƒ‹‚Éo—Í‚µ‚Ü‚·B
-     * ‚È‚¨Aƒtƒ@ƒCƒ‹‚É‚Íƒ[ƒJƒ‹ƒ}ƒVƒ“‚ÌƒR[ƒh‚Å‘‚«o‚³‚ê‚é“_‚É’ˆÓ‚ª•K—v‚Å‚·B
+     * Unicocdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ç‚Ì•ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ÉŠï¿½ï¿½è“–ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éoï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * ï¿½È‚ï¿½ï¿½Aï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Íƒï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½}ï¿½Vï¿½ï¿½ï¿½ÌƒRï¿½[ï¿½hï¿½Åï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É’ï¿½ï¿½Ó‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
      * @throws IOException
      */
     public static void generateCodeMap() throws IOException {
@@ -272,11 +272,11 @@ public class MojiCodeGen {
                     new OutputStreamWriter(
                         new FileOutputStream(&quot;UnicodeCharList.txt&quot;)));
 
-            writer.write(&quot;ššš•¶šƒR[ƒh”ÍˆÍŒŸØƒvƒƒOƒ‰ƒ€ššš&quot;);
+            writer.write(&quot;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ÍˆÍŒï¿½ï¿½Øƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&quot;);
             writer.newLine();
             writer.newLine();
 
-            writer.write(&quot;y”¼Šp‰pšz 0x41‚©‚ç0x5A ‚¨‚æ‚Ñ 0x61‚©‚ç0x7A&quot;);
+            writer.write(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½pï¿½ï¿½ï¿½z 0x41ï¿½ï¿½ï¿½ï¿½0x5A ï¿½ï¿½ï¿½ï¿½ï¿½ 0x61ï¿½ï¿½ï¿½ï¿½0x7A&quot;);
             writer.newLine();
             writer.write(&quot;  [&quot;);
             writeUnicodeChar(0x41, 0x5A, writer);
@@ -286,33 +286,33 @@ public class MojiCodeGen {
             writer.newLine();
             System.out.println();
 
-            writer.write(&quot;y”¼Šp”šz 0x30‚©‚ç0x39&quot;);
+            writer.write(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½z 0x30ï¿½ï¿½ï¿½ï¿½0x39&quot;);
             writer.newLine();
             writer.write(&quot;  [&quot;);
             writeUnicodeChar(0x30, 0x39, writer);
             writer.write(&quot;]&quot;);
             writer.newLine();
-            writer.write(&quot;@¦ƒnƒCƒtƒ“‚¨‚æ‚ÑƒsƒŠƒIƒh‚ğŠÜ‚ñ‚Å‚¢‚È‚¢“_‚É’ˆÓ&quot;);
+            writer.write(&quot;ï¿½@ï¿½ï¿½ï¿½nï¿½Cï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñƒsï¿½ï¿½ï¿½Iï¿½hï¿½ï¿½ï¿½Ü‚ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½_ï¿½É’ï¿½ï¿½ï¿½&quot;);
             writer.newLine();
             writer.newLine();
             System.out.println();
 
-            writer.write(&quot;y”¼ŠpƒJƒiz Unicode‚Å 0xFF66 ‚©‚ç 0xFF9F&quot;);
+            writer.write(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½z Unicodeï¿½ï¿½ 0xFF66 ï¿½ï¿½ï¿½ï¿½ 0xFF9F&quot;);
             writer.newLine();
             writer.write(&quot;  [&quot;);
             writeUnicodeChar(0xFF66, 0xFF9F, writer);
             writer.write(&quot;]&quot;);
             writer.newLine();
-            writer.write(&quot;@¦”¼ŠpƒJƒi‚Ì¬‚³‚¢š‚ÍŠÜ‚Ş“_‚É’ˆÓ&quot;);
+            writer.write(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍŠÜ‚Ş“_ï¿½É’ï¿½ï¿½ï¿½&quot;);
             writer.newLine();
-            writer.write(&quot;@¦”¼ŠpƒJƒi‚Ì’·‰¹(ƒnƒCƒtƒ“‚É‚ ‚ç‚¸)‚ÍŠÜ‚Ş“_‚É’ˆÓ&quot;);
+            writer.write(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½Ì’ï¿½ï¿½ï¿½(ï¿½nï¿½Cï¿½tï¿½ï¿½ï¿½É‚ï¿½ï¿½ç‚¸)ï¿½ÍŠÜ‚Ş“_ï¿½É’ï¿½ï¿½ï¿½&quot;);
             writer.newLine();
-            writer.write(&quot;@¦”¼Šp‹ó”’‚ğŠÜ‚Ü‚È‚¢“_‚É’ˆÓ&quot;);
+            writer.write(&quot;ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ó”’‚ï¿½ï¿½Ü‚Ü‚È‚ï¿½ï¿½_ï¿½É’ï¿½ï¿½ï¿½&quot;);
             writer.newLine();
             writer.newLine();
             System.out.println();
 
-            writer.write(&quot;y”¼ŠpƒJƒi‚¨‚æ‚Ñ”¼ŠpƒJƒi‹å“Ç“_z Unicode‚Å 0xFF61 ‚©‚ç 0xFF9F&quot;);
+            writer.write(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½Jï¿½iï¿½ï¿½ï¿½ï¿½Ñ”ï¿½ï¿½pï¿½Jï¿½iï¿½ï¿½Ç“_ï¿½z Unicodeï¿½ï¿½ 0xFF61 ï¿½ï¿½ï¿½ï¿½ 0xFF9F&quot;);
             writer.newLine();
             writer.write(&quot;  [&quot;);
             writeUnicodeChar(0xFF61, 0xFF9F, writer);
@@ -321,7 +321,7 @@ public class MojiCodeGen {
             writer.newLine();
             System.out.println();
 
-            writer.write(&quot;y”¼Šp‰p”z 0x30‚©‚ç0x39 ‚¨‚æ‚Ñ 0x41‚©‚ç0x5A ‚¨‚æ‚Ñ 0x61‚©‚ç0x7A&quot;);
+            writer.write(&quot;ï¿½yï¿½ï¿½ï¿½pï¿½pï¿½ï¿½ï¿½z 0x30ï¿½ï¿½ï¿½ï¿½0x39 ï¿½ï¿½ï¿½ï¿½ï¿½ 0x41ï¿½ï¿½ï¿½ï¿½0x5A ï¿½ï¿½ï¿½ï¿½ï¿½ 0x61ï¿½ï¿½ï¿½ï¿½0x7A&quot;);
             writer.newLine();
             writer.write(&quot;  [&quot;);
             writeUnicodeChar(0x30, 0x39, writer);
@@ -340,10 +340,10 @@ public class MojiCodeGen {
     }
 
     /**
-     * —^‚¦‚ç‚ê‚½ƒR[ƒh”ÍˆÍ‚ÌUnicode‚ğƒtƒ@ƒCƒ‹‚Éo—Í‚µ‚Ü‚·B
-     * @param min ‰ºŒÀ’l
-     * @param max ãŒÀ’l
-     * @param writer o—Íæƒ‰ƒCƒ^
+     * ï¿½^ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Rï¿½[ï¿½hï¿½ÍˆÍ‚ï¿½Unicodeï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éoï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+     * @param min ï¿½ï¿½ï¿½ï¿½ï¿½l
+     * @param max ï¿½ï¿½ï¿½ï¿½l
+     * @param writer ï¿½oï¿½Íæƒ‰ï¿½Cï¿½^
      * @throws IOException
      */
     public static void writeUnicodeChar(
@@ -362,13 +362,13 @@ public class MojiCodeGen {
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI>2000/07/06 “ú‹L: JavaŒ¾ŒêƒRƒ“ƒo[ƒ^(ƒR[ƒh•ÏŠ·)‹““®’²¸ (v1)<BR>
+  <LI>2000/07/06 ï¿½ï¿½ï¿½L: Javaï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½oï¿½[ï¿½^(ï¿½Rï¿½[ï¿½hï¿½ÏŠï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (v1)<BR>
   <A HREF="http://www.nttd-bb.com/solution/igapyon1/ig000706.html">http://www.nttd-bb.com/solution/igapyon1/ig000706.html</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

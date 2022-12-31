@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2005/01/08 “ú‹L: Jasper, POI, jvmstat, jad‚È‚Ç‚È‚Ç</TITLE>
-<META name="DESCRIPTION" content="‚·‚Á‚²‚­–Ê”’‚»‚¤‚Èƒc[ƒ‹‚É•¡”Œg‚í‚Á‚Ä‚¢‚é‚Ì‚Å‚·‚ªA–Z‚µ‚­‚ÄŒÂX‚ðŒ@‚è‰º‚°‚Ä”cˆ¬‚·‚éƒqƒ}‚ª–³‚µB">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2005/01/08 ï¿½ï¿½ï¿½L: Jasper, POI, jvmstat, jadï¿½È‚Ç‚È‚ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èƒcï¿½[ï¿½ï¿½ï¿½É•ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ÄŒÂXï¿½ï¿½ï¿½@ï¿½è‰ºï¿½ï¿½ï¿½Ä”cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.1.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2005/01/08 “ú‹L: Jasper, POI, jvmstat, jad‚È‚Ç‚È‚Ç</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] ‚·‚Á‚²‚­–Ê”’‚»‚¤‚Èƒc[ƒ‹‚É•¡”Œg‚í‚Á‚Ä‚¢‚é‚Ì‚Å‚·‚ªA–Z‚µ‚­‚ÄŒÂX‚ðŒ@‚è‰º‚°‚Ä”cˆ¬‚·‚éƒqƒ}‚ª–³‚µB</P>
+    <H2>2005/01/08 ï¿½ï¿½ï¿½L: Jasper, POI, jvmstat, jadï¿½È‚Ç‚È‚ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èƒcï¿½[ï¿½ï¿½ï¿½É•ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ÄŒÂXï¿½ï¿½ï¿½@ï¿½è‰ºï¿½ï¿½ï¿½Ä”cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,30 +60,30 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jasper ‚Æ POI ‚ð’²‚×‚È‚­‚Ä‚Íc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Jasper ï¿½ï¿½ POI ï¿½ð’²‚×‚È‚ï¿½ï¿½Ä‚Íc</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Jasper‚ÆPOI‚ÉŒg‚í‚Á‚Ä‚¢‚é‚Ì‚ÅA‚±‚ê‚ç‚ðˆê’Ê‚è‚Í’²‚×‚Ä—‰ð‚µ‚Ä‚¨‚«‚½‚¢‚Å‚·BƒrƒWƒlƒXƒp[ƒgƒi[‚³‚ñ‚ª’²‚×‚½Œ‹‰Ê‚ðŒ©‚ÄKn‚µ‚½‚¢‚Ì‚Å‚·‚ªcB–Z‚µ‚·‚¬‚Ä’…Žè‚Å‚«‚Ä‚¨‚ç‚¸B</P>
-<P>‚»‚ê‚É‚µ‚Ä‚à Jasper‚àPOI‚à—Ç‚­‚Å‚«‚Ä‚¢‚Ü‚·‚ËB“Á‚ÉPOI‚ªExcelƒtƒ@ƒCƒ‹‚ð‚¿‚á‚ñ‚Æ“üo—Í‚Å‚«‚é‚Ì‚É‚Í‹Á‚«‚Ü‚µ‚½BJasper‚ªiText‚ðƒx[ƒX‚Å“®ì‚·‚é‚È‚ñ‚Ä‚Ì‚à‰‚ß‚Ä’m‚è‚Ü‚µ‚½B‚È‚¨
-Jasper‚ÌExcel’ •[o—Í‚É‚Í‚ª‚Á‚©‚è‚µ‚Ü‚µ‚½B</P>
+<P>Jasperï¿½ï¿½POIï¿½ÉŒgï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½Í’ï¿½ï¿½×‚Ä—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½rï¿½Wï¿½lï¿½Xï¿½pï¿½[ï¿½gï¿½iï¿½[ï¿½ï¿½ï¿½ñ‚ª’ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ÄKï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä’ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½ç‚¸ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ Jasperï¿½ï¿½POIï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ËBï¿½ï¿½ï¿½ï¿½POIï¿½ï¿½Excelï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½oï¿½Í‚Å‚ï¿½ï¿½ï¿½Ì‚É‚Í‹ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BJasperï¿½ï¿½iTextï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½È‚ï¿½Ä‚Ì‚ï¿½ï¿½ï¿½ï¿½ß‚Ä’mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½È‚ï¿½
+Jasperï¿½ï¿½Excelï¿½ï¿½ï¿½[ï¿½oï¿½Í‚É‚Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaƒpƒtƒH[ƒ}ƒ“ƒXƒ‚ƒjƒ^‚Ìƒ^ƒOƒC</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaï¿½pï¿½tï¿½Hï¿½[ï¿½}ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½jï¿½^ï¿½Ìƒ^ï¿½Oï¿½C</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¢‚Ì’†‚É‚Í•Ö—˜‚È‚à‚Ì‚à‚ ‚é‚à‚Ì‚Å‚·‚ËB</P>
+<P>ï¿½ï¿½ï¿½Ì’ï¿½ï¿½É‚Í•Ö—ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ËB</P>
 <UL>
   <LI>Sun: jvmstat<BR>
   <A HREF="http://java.sun.com/performance/jvmstat/">http://java.sun.com/performance/jvmstat/</A><BR>
-  3.0iJDK1.5‘Î‰ž)A2.0(JDK1.4.2‘Î‰ž)
+  3.0ï¿½iJDK1.5ï¿½Î‰ï¿½)ï¿½A2.0(JDK1.4.2ï¿½Î‰ï¿½)
   
 </UL>
-<P>ƒOƒ‰ƒtƒBƒJƒ‹Š´‚ ‚Ó‚ê‚éƒ‚ƒjƒ^ƒŠƒ“ƒO‚ª‚Å‚«‚é‚Ì‚ª ‚Æ‚Á‚Ä‚à‘f°‚ç‚µ‚¢‚Å‚·B(Ž©•ª‚Ì–³’m‚ð ­‚µ’p‚¶‚Ü‚µ‚½)</P>
-<P>‚ÅAŽg‚¢‚½‚¢‚Ì‚Å‚·‚ª ƒqƒ}‚ª‚È‚µB</P>
-<P>ŽQlURL</P>
+<P>ï¿½Oï¿½ï¿½ï¿½tï¿½Bï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó‚ï¿½éƒ‚ï¿½jï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½fï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½Ì–ï¿½ï¿½mï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)</P>
+<P>ï¿½ÅAï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ ï¿½qï¿½}ï¿½ï¿½ï¿½È‚ï¿½ï¿½B</P>
+<P>ï¿½Qï¿½lURL</P>
 <UL>
   <LI><A HREF="http://www.nminoru.jp/~nminoru/java/jvmstat/jvmstat.html">http://www.nminoru.jp/~nminoru/java/jvmstat/jvmstat.html</A>
   <LI><A HREF="http://www.mit.msn.to/devel/jvmstat.html">http://www.mit.msn.to/devel/jvmstat.html</A>
@@ -92,47 +92,47 @@ Jasper‚ÌExcel’ •[o—Í‚É‚Í‚ª‚Á‚©‚è‚µ‚Ü‚µ‚½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TODO: blanco‚ðãŽi‚Éà–¾‚·‚é‚±‚Æ</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>TODO: blancoï¿½ï¿½ï¿½ï¿½iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>blanco‚ðÌ—p‚·‚éƒƒŠƒbƒgEƒfƒƒŠƒbƒg‚ðãŽi‚Éà–¾‚µ‚È‚¢‚Æ‚¢‚¯‚È‚¢‚Ì‚¾‚ªAà–¾Ž‘—¿‚ðì¬‚·‚éƒqƒ}‚Í–³‚µB<BR>
-‚Æ‚è‚ ‚¦‚¸à–¾‚ÍŽ„‚ª’S“–‚·‚é‚Ì‚Å U—Ñ‚³‚ñ‚Í ƒAƒNƒVƒ‡ƒ“Žæ‚ç‚È‚­‚Ä‚à—Ç‚¢‚Å‚·B</P>
+<P>blancoï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½éƒï¿½ï¿½ï¿½bï¿½gï¿½Eï¿½fï¿½ï¿½ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½qï¿½}ï¿½Í–ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ Uï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½ ï¿½Aï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Gentoo Linux‚Á‚ÄA’†‹‰ŽÒ‚ÌLinux“ü–å‚É‚Í’š“x—Ç‚¢‚©‚àc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Gentoo Linuxï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½Linuxï¿½ï¿½ï¿½ï¿½É‚Í’ï¿½ï¿½xï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Gentoo Linux‚Á‚ÄA’†‹‰ŽÒ‚ÌLinux“ü–å‚É‚Í’š“x—Ç‚¢‚©‚àA‚È‚ ‚ñ‚ÄŠ´‚¶Žn‚ß‚Ü‚µ‚½B<BR>
-‚Æ‚è‚ ‚¦‚¸ Ž„‚ª Linux‚ðŠwK‚·‚é‚Ì‚É‚ÍA’š“x—Ç‚³‚»‚¤‚Å‚·B‚È‚É‚æ‚è‚àAƒCƒ“ƒXƒg[ƒ‰[‚ÌƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚ð\’z‚·‚é‚Æ‚¢‚¤Žx‰‡‚ª‚Ù‚Æ‚ñ‚Ç–³‚¢“_‚ª—Ç‚¢‚Å‚·BLinux‚Ìª‚Á‚±‚Ì•û‚©‚çŠwK‚·‚é‚Ì‚É‚Í‚Ò‚Á‚½‚è‚Á‚Û‚¢‚Å‚·B</P>
-<P>‚½‚¾‚µA‘Ð–³‚µ‚Å Gentoo Linux‚ðŠwK‚·‚é‚Ì‚Í“ïˆÕ“x‚ª‚‚»‚¤‚Å‚·B‰½‚©‘Ð‚ð—˜—p‚µ‚Ä Gentoo Linux‚ð“ü–å‚·‚é‚Ì‚ª‘Ã“–‚Èü‚È‚æ‚¤‚ÉŠ´‚¶‚Ä‚¢‚Ü‚·B‚Ü‚ A‚Æ‚è‚ ‚¦‚¸
-’¼‹ß‚Í Gentoo Linux‚ð•×‹­‚µ‚æ‚¤‚ÆŽv‚¢‚Ü‚·B(<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/debian.html" TITLE="Å‚àƒtƒŠ[‚Å ‚»‚µ‚ÄÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éLinuxƒfƒBƒXƒgƒŠƒrƒ…[ƒVƒ‡ƒ“‚Ì‚Ð‚Æ‚Â">Debian</A> Žg‚¢‚É‚È‚é“¹‚Ì‚è‚ÍŒ¯‚µ‚¢c)</P>
+<P>Gentoo Linuxï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½Linuxï¿½ï¿½ï¿½ï¿½É‚Í’ï¿½ï¿½xï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½È‚ï¿½ï¿½ï¿½ÄŠï¿½ï¿½ï¿½ï¿½nï¿½ß‚Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Linuxï¿½ï¿½ï¿½wï¿½Kï¿½ï¿½ï¿½ï¿½Ì‚É‚ÍAï¿½ï¿½ï¿½xï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½È‚É‚ï¿½ï¿½ï¿½ï¿½Aï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½Ìƒfï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½zï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Ù‚Æ‚ï¿½Ç–ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½BLinuxï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½Kï¿½ï¿½ï¿½ï¿½Ì‚É‚Í‚Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ð–ï¿½ï¿½ï¿½ï¿½ï¿½ Gentoo Linuxï¿½ï¿½ï¿½wï¿½Kï¿½ï¿½ï¿½ï¿½Ì‚Í“ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð‚ð—˜—pï¿½ï¿½ï¿½ï¿½ Gentoo Linuxï¿½ï¿½ï¿½ï¿½å‚·ï¿½ï¿½Ì‚ï¿½ï¿½Ã“ï¿½ï¿½Èï¿½ï¿½È‚æ‚¤ï¿½ÉŠï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ß‚ï¿½ Gentoo Linuxï¿½ï¿½×‹ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½https://www.igapyon.jp/igapyon/diary/n.jp/igapyon/diary/keyword/debian.html" TITLE="ï¿½Å‚ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ÄÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Linuxï¿½fï¿½Bï¿½Xï¿½gï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ï¿½">Debian</A> ï¿½gï¿½ï¿½ï¿½É‚È‚é“¹ï¿½Ì‚ï¿½ÍŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c)</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>JavaƒfƒRƒ“ƒpƒCƒ‰‚Ìƒ^ƒOƒC</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Javaï¿½fï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½Ìƒ^ï¿½Oï¿½C</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Jad‚Ìƒz[ƒ€ƒy[ƒW‚ªˆÚ“®‚µ‚Ä‚¢‚Ü‚µ‚½B</P>
+<P>Jadï¿½Ìƒzï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Home Page of Jad - the fast Java decompiler<BR>
   <A HREF="http://www.kpdus.com/jad.html">http://www.kpdus.com/jad.html</A>
 </UL>
-<P>‹C‚É‚È‚éƒfƒRƒ“ƒpƒCƒ‰‚àŒ©‚Â‚¯‚Ü‚µ‚½B</P>
+<P>ï¿½Cï¿½É‚È‚ï¿½fï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Java Optimize and Decompile Environment (JODE)<BR>
   <A HREF="http://jode.sourceforge.net/">http://jode.sourceforge.net/</A>
 </UL>
-<P>ŽQlƒŠƒ“ƒN</P>
+<P>ï¿½Qï¿½lï¿½ï¿½ï¿½ï¿½ï¿½N</P>
 <UL>
-  <LI>java‹tƒRƒ“ƒpƒCƒ‰<BR>
+  <LI>javaï¿½tï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½<BR>
   <A HREF="http://www.cipher.is.tsukuba.ac.jp/~kana/research/java_reverse/decompiler.htm">http://www.cipher.is.tsukuba.ac.jp/~kana/research/java_reverse/decompiler.htm</A>
 </UL>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

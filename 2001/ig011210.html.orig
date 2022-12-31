@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2001/12/10 “ú‹L: ¢ŠÔ‚ÌDBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹ŽÀ‘•‚ðŽŽ‚·</TITLE>
-<META name="DESCRIPTION" content="ƒtƒŠ[‚ÈDBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹ŽÀ‘•‚Ì‚¨Š©‚ß‚ð’Tõ¨PoolMan‚É—Ž‚¿’…‚«‚»‚¤‚Å‚·">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,ƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹,JDBC,PoolMan,ƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh,Oracle">
+<TITLE>2001/12/10 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Ô‚ï¿½DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ß‚ï¿½Tï¿½ï¿½ï¿½ï¿½PoolManï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½,JDBC,PoolMan,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h,Oracle">
 <META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.4.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:45+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -14,12 +14,12 @@
 <BODY bgcolor="#eeddcc"><TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2001/12/10 “ú‹L: ¢ŠÔ‚ÌDBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹ŽÀ‘•‚ðŽŽ‚·</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,ƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹,JDBC,PoolMan,ƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh,Oracle] ƒtƒŠ[‚ÈDBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹ŽÀ‘•‚Ì‚¨Š©‚ß‚ð’Tõ¨PoolMan‚É—Ž‚¿’…‚«‚»‚¤‚Å‚·</P>
+    <H2>2001/12/10 ï¿½ï¿½ï¿½L: ï¿½ï¿½ï¿½Ô‚ï¿½DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,ï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½,JDBC,PoolMan,ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h,Oracle] ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ß‚ï¿½Tï¿½ï¿½ï¿½ï¿½PoolManï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -29,8 +29,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -47,7 +47,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -58,101 +58,101 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Palm Desktop 4.0.1 ‚Éƒo[ƒWƒ‡ƒ“ƒAƒbƒv</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Palm Desktop 4.0.1 ï¿½Éƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½v</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Windows XP ã‚Å ‹Œƒo[ƒWƒ‡ƒ“‚Ì Palm HotSync‚ª’´CPUÁ”ï‚ð‚µ‚Ä‚µ‚Ü‚¤•s‹ï‡‚É‘Ï‚¦‚©‚Ë‚ÄA‚Â‚¢‚É
-Palm Desktop 4.0.1 ‚Ö‚Æƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚µ‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½B(—–\‚Èc) ‚Å‚à
-‚È‚ñ‚Æ‚È‚­‚¿‚á‚ñ‚Æ“®ì‚µ‚Ä‚¢‚Ü‚·B‚±‚ê‚Å CPUU‚èØ‚èƒoƒO‚ÉŠÖ‚µ‚Ä‚Í ”Ï‚í‚³‚ê‚¸‚ÉÏ‚Ý‚»‚¤‚Å‚·B‚È‚ñ‚½‚Á‚Ä
-Palm Desktop ‚Æ HotSync ‚Í Ž„‚É‚Æ‚Á‚Ä‚Æ‚Á‚Ä‚àd—v‚Èƒ\ƒtƒgƒEƒFƒA‚È‚ñ‚Å‚·‚à‚ÌB</P>
+<P>Windows XP ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Palm HotSyncï¿½ï¿½ï¿½ï¿½CPUï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½sï¿½ï‡ï¿½É‘Ï‚ï¿½ï¿½ï¿½ï¿½Ë‚ÄAï¿½Â‚ï¿½ï¿½ï¿½
+Palm Desktop 4.0.1 ï¿½Ö‚Æƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½\ï¿½Èc) ï¿½Å‚ï¿½
+ï¿½È‚ï¿½Æ‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ì‚µï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ CPUï¿½Uï¿½ï¿½Ø‚ï¿½oï¿½Oï¿½ÉŠÖ‚ï¿½ï¿½Ä‚ï¿½ ï¿½Ï‚í‚³ï¿½ê‚¸ï¿½ÉÏ‚Ý‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½È‚ñ‚½‚ï¿½ï¿½ï¿½
+Palm Desktop ï¿½ï¿½ HotSync ï¿½ï¿½ ï¿½ï¿½ï¿½É‚Æ‚ï¿½ï¿½Ä‚Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½dï¿½vï¿½Èƒ\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½È‚ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ÌB</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹ŽÀ‘• ‚ðŒy‚­’²‚×‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½yï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹‚Å‰½‚©ŽÀ‘•‚ª•K—v‚È‚Ì‚ÅA<BR>
-ŽèŽn‚ß‚É ‚©‚é`‚­ Avalon Excalibur: PoolŽÀ‘• ‚ð’­‚ß‚Ü‚µ‚½B‚Å‚à ‚¿‚å‚Á‚ÆDBƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹‚Æ‚µ‚Ä‚ÍŽg‚¢•¨‚É‚È‚è‚»‚¤‚É‚ ‚è‚Ü‚¹‚ñ‚Å‚µ‚½B</P>
+<P>ï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½Å‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½È‚Ì‚ÅA<BR>
+ï¿½ï¿½nï¿½ß‚ï¿½ ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ Avalon Excalibur: Poolï¿½ï¿½ï¿½ï¿½ ï¿½ð’­‚ß‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½DBï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ÍŽgï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚è‚»ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>Jakarta Avalon Excalibur: PoolŽÀ‘•<BR>
+  <LI>Jakarta Avalon Excalibur: Poolï¿½ï¿½ï¿½ï¿½<BR>
   <A HREF="http://jakarta.apache.org/avalon/excalibur/pool.html">http://jakarta.apache.org/avalon/excalibur/pool.html</A>
 </UL>
-<P>ŽŸ‚É Jakarta Commons ‚Ì DBCP‚ðŒ©‚Ä‚Ý‚Ü‚µ‚½B‚ª Œ»ó CVS‚Ì‚Ý‚Å‚Ì’ñ‹Ÿ‚È‚Ì‚ÅA‚±‚ê‚ÍƒXƒLƒbƒvB</P>
+<P>ï¿½ï¿½ï¿½ï¿½ Jakarta Commons ï¿½ï¿½ DBCPï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ CVSï¿½Ì‚Ý‚Å‚Ì’ñ‹Ÿ‚È‚Ì‚ÅAï¿½ï¿½ï¿½ï¿½ÍƒXï¿½Lï¿½bï¿½vï¿½B</P>
 <UL>
   <LI>Jakarta Commons: DBCP<BR>
   <A HREF="http://jakarta.apache.org/commons/index.html">http://jakarta.apache.org/commons/index.html</A>
 </UL>
-<P>cA‘fl–Ú‚É‚Í JakartaŒn‚Í ‚Ü‚¾‚Ü‚¾Žg‚¤‚±‚Æ‚ªo—ˆ‚éó‘Ô‚Æ‚Í Žv‚¦‚Ü‚¹‚ñB‚³‚ÄA‰H¶‚³‚ñ‚ª
-‰½‚©‚Ì‹LŽ–‚Å wƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹‚Í ‚±‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚ª‚¨Š©‚ßx ‚Æ‘‚©‚ê‚Ä‚¢‚½‚æ‚¤‚É‹L‰¯‚µ‚Ü‚·‚ªA‚»‚ê‚Í
-ˆê‘Ì‚Ç‚±‚¾‚Á‚½‚Å‚µ‚å‚¤‚©H # ˆÃ‚É•·‚¢‚Ä‚¢‚é‚Ì‚Å‚ ‚Á‚½c (Î)</P>
-<P><FONT color="#ff0000">2001/12/11</FONT> ƒXƒK‚³‚ñ‚©‚çƒcƒbƒRƒ~<BR>
-<CITE>ƒXƒK‚Å‚·B<BR>
-‰H¶‚³‚ñ‚Å‚È‚­‚ÄÏ‚Ý‚Ü‚¹‚ñ‚ª(Î)<BR>
-<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">WEB+DB PRESS Vol.5</A> ‚Ì‹LŽ–‚Å‰H¶‚³‚ñ‚ª PoolMan ‚ðÐ‰î‚³‚ê‚Ä‚¢‚Ü‚·‚ËB</CITE></P>
+<P>ï¿½cï¿½Aï¿½fï¿½lï¿½Ú‚É‚ï¿½ Jakartaï¿½nï¿½ï¿½ ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚Æ‚ï¿½ ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÄAï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½ï¿½ ï¿½wï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßx ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‹Lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ì‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½H # ï¿½Ã‚É•ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c (ï¿½ï¿½)</P>
+<P><FONT color="#ff0000">2001/12/11</FONT> ï¿½Xï¿½Kï¿½ï¿½ï¿½ñ‚©‚ï¿½cï¿½bï¿½Rï¿½~<BR>
+<CITE>ï¿½Xï¿½Kï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚È‚ï¿½ï¿½ÄÏ‚Ý‚Ü‚ï¿½ï¿½ï¿½(ï¿½ï¿½)<BR>
+<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">WEB+DB PRESS Vol.5</A> ï¿½Ì‹Lï¿½ï¿½ï¿½Å‰Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ PoolMan ï¿½ï¿½ï¿½Ð‰î‚³ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ËB</CITE></P>
 <UL>
   <LI><CITE>PoolMan Object Pooling Library and JDBC Driver<BR>
   <A HREF="http://www.codestudio.com/">http://www.codestudio.com/</A></CITE>
   <LI><CITE>PoolMan on SourceForge : LGPL</CITE><BR>
   <CITE><A HREF="http://sourceforge.net/projects/poolman/">http://sourceforge.net/projects/poolman/</A></CITE>
 </UL>
-<P><CITE>FX‚Èl‚ª‹“‚°‚ç‚ê‚Ä‚¢‚é‚Ì‚Å‚±‚ê‚Å‚Í‚È‚¢‚©‚ÆBŽ„‚ÍŽg‚Á‚½‚±‚Æ‚ª‚ ‚è‚Ü‚¹‚ñ‚¯‚ê‚ÇB<BR>
+<P><CITE>ï¿½Fï¿½Xï¿½Èlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ÆBï¿½ï¿½ï¿½ÍŽgï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚¯‚ï¿½ÇB<BR>
 <BR>
-# ‚Ü‚¾”ªŠ„•û–¢“Ç‚Å‚· &gt; Vol.5<BR>
-# ‚Æ‚¢‚¤‚©Œ»ÝŽR‚Ì‚æ‚¤‚ÈÏ“Ç‚ª(‹êÎ)</CITE></P>
-<P><FONT color="#ff0000">2001/12/11</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="î•ñ‹Zp‚ÌŠJ”­Œ»ê‚Å“­‚­¦˜r‹ZpŽÒ‚ÅAŠŽ‚Âî•ñ‹Zpƒ‰ƒCƒ^[‚ð‚³‚ê‚Ä‚¢‚é•ûB’¼Ú“I‚È–ÊŽ¯‚à‚ ‚è ‚Æ‚Ä‚à‹­‚¢‰e‹¿‚ð—^‚¦‚Ä–á‚Á‚Ä‚¢‚Ü‚·BFlash MX‚ð‹Æ–±ƒVƒXƒeƒ€‚ÅŽg‚¤‚Æ‚¢‚¤¢ŠE‚ÉŽ„‚ð‚¢‚´‚È‚Á‚½‚Ì‚à‰H¶‚³‚ñ ‚»‚Ìl‚Å‚·B">‰H¶Í—m</A>‚³‚ñ‚©‚çƒcƒbƒRƒ~<BR>
-<CITE>‰H¶—”M‚ª‚ ‚Á‚Ä’¾–v’†iŠF‚³‚ñ‚­‚ê‚®‚ê‚à‚¨‹C‚ð‚Â‚¯‚Äj‚Å‚·(^^;<BR>
-”@‚»‚ñ‚ÈŽ„‚ð–œ”ŽŒö‰€‚É˜A‚êo‚µ‚½‰ä‚ª‰Æ‚Ì•P‚Á‚Ä‚Î(T_T)<BR>
+# ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚Å‚ï¿½ &gt; Vol.5<BR>
+# ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÝŽRï¿½Ì‚æ‚¤ï¿½ÈÏ“Ç‚ï¿½(ï¿½ï¿½ï¿½)</CITE></P>
+<P><FONT color="#ff0000">2001/12/11</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="ï¿½ï¿½ï¿½Zï¿½pï¿½ÌŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Zï¿½pï¿½Ò‚ÅAï¿½ï¿½ï¿½Âï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ú“Iï¿½È–ÊŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BFlash MXï¿½ï¿½ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÅŽgï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìlï¿½Å‚ï¿½ï¿½B">ï¿½Hï¿½ï¿½ï¿½Í—m</A>ï¿½ï¿½ï¿½ñ‚©‚ï¿½cï¿½bï¿½Rï¿½~<BR>
+<CITE>ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä’ï¿½ï¿½vï¿½ï¿½ï¿½iï¿½Fï¿½ï¿½ï¿½ñ‚­‚ê‚®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½Äjï¿½Å‚ï¿½(^^;<BR>
+ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ÈŽï¿½ï¿½ð–œ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É˜Aï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ä‚ªï¿½Æ‚Ì•Pï¿½ï¿½ï¿½Ä‚ï¿½(T_T)<BR>
 <BR>
-&gt; ‰H¶‚³‚ñ‚Å‚È‚­‚ÄÏ‚Ý‚Ü‚¹‚ñ‚ª(Î)<BR>
-ƒtƒHƒ[‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·‚£`(^^)<BR>
+&gt; ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚È‚ï¿½ï¿½ÄÏ‚Ý‚Ü‚ï¿½ï¿½ï¿½(ï¿½ï¿½)<BR>
+ï¿½tï¿½Hï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½`(^^)<BR>
 <BR>
-&gt; WEB+DB PRESS Vol.5 ‚Ì‹LŽ–‚Å‰H¶‚³‚ñ‚ª PoolMan ‚ðÐ‰î‚³‚ê‚Ä‚¢‚Ü‚·‚ËB<BR>
-&gt; FX‚Èl‚ª‹“‚°‚ç‚ê‚Ä‚¢‚é‚Ì‚Å‚±‚ê‚Å‚Í‚È‚¢‚©‚ÆB<BR>
+&gt; WEB+DB PRESS Vol.5 ï¿½Ì‹Lï¿½ï¿½ï¿½Å‰Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ PoolMan ï¿½ï¿½ï¿½Ð‰î‚³ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ËB<BR>
+&gt; ï¿½Fï¿½Xï¿½Èlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ÆB<BR>
 <BR>
-‚Æ‚è‚ ‚¦‚¸AŽ„‚à‚ ‚¿‚±‚¿‚Å‚¨‘E‚ß‚³‚ê‚½•FX‚ÆŽŽ‚µ‚Ä‚Ý‚½‚Ì‚ÅA‚Ü‚¸‚Í‚±‚ê‚Å‘åä•v‚¾‚ÆŽv‚¢‚Ü‚·B<BR>
+ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Eï¿½ß‚ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Fï¿½Xï¿½ÆŽï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½Ì‚ÅAï¿½Ü‚ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Å‘ï¿½ï¿½vï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
 <BR>
-”@Oracle‚ÌJDBCƒhƒ‰ƒCƒo‚É‚à•W€‚Å‚Â‚¢‚Ä‚Ü‚·‚æ‚ËA‚Á‚Ä˜b‚Å‚Í‚È‚¢‚ñ‚Å‚µ‚å‚¤‚Ë(^^;<BR>
+ï¿½ï¿½ï¿½@Oracleï¿½ï¿½JDBCï¿½hï¿½ï¿½ï¿½Cï¿½oï¿½É‚ï¿½ï¿½Wï¿½ï¿½ï¿½Å‚Â‚ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½ï¿½ËAï¿½ï¿½ï¿½Ä˜bï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½ï¿½(^^;<BR>
 <BR>
-‚³‚ÄAAvalonŒn‚Æ‚¢‚¦‚ÎAÅ‹ß‚Ìƒ}ƒCƒu`ƒ€‚ÍC2iCocoon2j‚Å‚·B<BR>
-‚¢‚â`A–Ê”’‚¢I‚Â‚£‚©ŠyI•Ö—˜IÅ‚I@Ž„‚Ì‚æ‚¤‚É‹Zp3—¬Žè”²‚«1—¬‚ÌlŠÔ‚Ì‚½‚ß‚É‚ ‚é‚æ‚¤‚ÈŽd‘g‚Ý‚Å‚·(^^;<BR>
+ï¿½ï¿½ï¿½ÄAAvalonï¿½nï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ÎAï¿½Å‹ß‚Ìƒ}ï¿½Cï¿½uï¿½`ï¿½ï¿½ï¿½ï¿½C2ï¿½iCocoon2ï¿½jï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½`ï¿½Aï¿½Ê”ï¿½ï¿½ï¿½ï¿½Iï¿½Â‚ï¿½ï¿½ï¿½ï¿½yï¿½Iï¿½Ö—ï¿½ï¿½Iï¿½Åï¿½ï¿½Iï¿½@ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½É‹Zï¿½p3ï¿½ï¿½ï¿½è”²ï¿½ï¿½1ï¿½ï¿½ï¿½Ìlï¿½Ô‚Ì‚ï¿½ï¿½ß‚É‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÈŽdï¿½gï¿½Ý‚Å‚ï¿½(^^;<BR>
 <BR>
-&gt; # ‚Ü‚¾”ªŠ„•û–¢“Ç‚Å‚· &gt; Vol.5<BR>
-&gt; # ‚Æ‚¢‚¤‚©Œ»ÝŽR‚Ì‚æ‚¤‚ÈÏ“Ç‚ª(‹êÎ)<BR>
+&gt; # ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚Å‚ï¿½ &gt; Vol.5<BR>
+&gt; # ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÝŽRï¿½Ì‚æ‚¤ï¿½ÈÏ“Ç‚ï¿½(ï¿½ï¿½ï¿½)<BR>
 <BR>
-Å‹ßÏ“Ç‚ð•ª‚Æ‰ðÁ‚µ‚Ü‚µ‚½(^^)v@“Œ‹žE‘åã‚ð–ˆT‰•œ‚·‚é‚Ì‚ÅˆÚ“®ŽžŠÔ‚ÌŠÔ‚É•ª‚ÆÁ‰»‚µ‚Ü‚µ‚½‚Å‚·A‚Í‚¢B<BR>
-‚Æ‚¢‚¤‚í‚¯‚ÅA’¾–v‚µ‚Ü‚·BBB‚Å‚í‚Å‚íBBB</CITE></P>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚Ý‚È‚³‚Ü ‘‘¬‚ÌƒcƒbƒRƒ~‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B‚³‚Á‚»‚­ PoolMan 2.0.4 ‚ðŽŽ‚µ‚Ä‚Ý‚Ü‚·BŒ©‚Ä‚Ý‚½‚ç
-Œ»Žž“_‚Å 13,654ƒ_ƒEƒ“ƒ[ƒh‚à‚ ‚è‚Ü‚µ‚½B‚·‚²‚¢”‚¾‚È‚ŸB<BR>
-# ‚¿‚È‚Ý‚ÉAOracle JDBC ‚ÉƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹‚ªŽÀ‘•‚³‚ê‚Ä‚¢‚é‚Á‚Ä‚Ì‚Í ‘S‚­”cˆ¬‚Å‚«‚Ä‚Ü‚¹‚ñ‚Å‚µ‚½B<BR>
-AAA<BR>
-Cocoon2‚Í ‰H¶‚³‚ñ‚Ì‚±‚Æ‚¾‚©‚ç ‚«‚Á‚Æƒnƒ}‚Á‚Ä‚¢‚é‚Éˆá‚¢‚È‚¢‚ÆŽv‚Á‚Ä‚¨‚è‚Ü‚µ‚½B‚â‚Í‚èƒnƒ}‚Á‚Ä‚Ü‚µ‚½‚Ë
-(Î)<BR>
+ï¿½Å‹ßÏ“Ç‚ð•ï¿½ï¿½Æ‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½(^^)vï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ð–ˆTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅˆÚ“ï¿½ï¿½ï¿½ï¿½Ô‚ÌŠÔ‚Éï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Aï¿½Í‚ï¿½ï¿½B<BR>
+ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½í‚¯ï¿½ÅAï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Bï¿½Bï¿½Å‚ï¿½Å‚ï¿½Bï¿½Bï¿½B</CITE></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½Ý‚È‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒcï¿½bï¿½Rï¿½~ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ PoolMan 2.0.4 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ 13,654ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½B<BR>
+# ï¿½ï¿½ï¿½È‚Ý‚ÉAOracle JDBC ï¿½ÉƒRï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ì‚ï¿½ ï¿½Sï¿½ï¿½ï¿½cï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½Aï¿½Aï¿½A<BR>
+Cocoon2ï¿½ï¿½ ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Æƒnï¿½}ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Éˆá‚¢ï¿½È‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½Í‚ï¿½nï¿½}ï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½
+(ï¿½ï¿½)<BR>
 <BR>
-# ‚¿‚È‚Ý‚É‰ä‚ª‰Æ‚Ìƒ}ƒCƒu[ƒ€‚Í w‚ ‚â‚ß’r—V‰€’nx</P>
+# ï¿½ï¿½ï¿½È‚Ý‚É‰ä‚ªï¿½Æ‚Ìƒ}ï¿½Cï¿½uï¿½[ï¿½ï¿½ï¿½ï¿½ ï¿½wï¿½ï¿½ï¿½ï¿½ß’rï¿½Vï¿½ï¿½ï¿½nï¿½x</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PoolMan‚ðŽg‚Á‚Ä‚Ý‚é</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>PoolManï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P><FONT color="#ff0000">12/11 11:20 </FONT> PoolMan­‚µŽŽ‚µ’†c<BR>
-Web+DB Press Vol.3‚Í ”ƒ‚Á‚½‚Í‚¸‚È‚Ì‚Å‚·‚ªAŒ©‚Â‚¯‚é‚±‚Æ‚ªo—ˆ‚¸ (‹êÎ)</P>
+<P><FONT color="#ff0000">12/11 11:20ï¿½ï¿½</FONT> PoolManï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c<BR>
+Web+DB Press Vol.3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Â‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)</P>
 <UL>
-  <LI>JNDI–³‚µ‚Å“®ì‚·‚é‚Ì‚©‚Ç‚¤‚©ŽŽ‚µ’†B
-  <LI>Å’áŒÀ•K—v‚ÈJAR‚ÍAjta.jar, poolman.jar ‚Å‚ ‚é–Í—lB
+  <LI>JNDIï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ì‚·ï¿½ï¿½Ì‚ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+  <LI>ï¿½Å’ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½JARï¿½ÍAjta.jar, poolman.jar ï¿½Å‚ï¿½ï¿½ï¿½Í—lï¿½B
 </UL>
-<P>•K—v‚È•ÏX‚Í‰º‹L</P>
+<P>ï¿½Kï¿½vï¿½È•ÏXï¿½Í‰ï¿½ï¿½L</P>
 <UL>
-  <LI>Œ³ DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());<BR>
-  Œã DriverManager.registerDriver(new com.codestudio.sql.PoolMan());
-  <LI>Œ³ Connection conn=DriverManager.getConnection(DNS,USER,PASS);<BR>
-  Œã Connection conn=DriverManager.getConnection(&quot;jdbc:poolman&quot;);
+  <LI>ï¿½ï¿½ DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());<BR>
+  ï¿½ï¿½ DriverManager.registerDriver(new com.codestudio.sql.PoolMan());
+  <LI>ï¿½ï¿½ Connection conn=DriverManager.getConnection(DNS,USER,PASS);<BR>
+  ï¿½ï¿½ Connection conn=DriverManager.getConnection(&quot;jdbc:poolman&quot;);
 </UL>
-<P>‚Æ‚è‚ ‚¦‚¸‚Ì poolman.xml Ý’è‚Í‰º‹LB</P>
+<P>ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ poolman.xml ï¿½Ý’ï¿½Í‰ï¿½ï¿½Lï¿½B</P>
 <TABLE border="1">
   <TBODY>
     <TR>
@@ -179,24 +179,24 @@ Web+DB Press Vol.3‚Í ”ƒ‚Á‚½‚Í‚¸‚È‚Ì‚Å‚·‚ªAŒ©‚Â‚¯‚é‚±‚Æ‚ªo—ˆ‚¸ (‹êÎ)</P>
     </TR>
   </TBODY>
 </TABLE>
-<P>ƒfƒtƒHƒ‹ƒgÝ’è‚É‰Á‚¦‚ÄAŽŽ‚µ‚É nativeResults ‚¨‚æ‚Ñ maximumSoft ‚ð’Ç‰Á‚µ‚Ä‚Ý‚Ü‚µ‚½B<BR>
-‚½‚¾‚µAŒ»ó ‚¸‚Ú‚¸‚ÚINSERT‚ðs‚¤‚Æ OutOfMemoryError ‚ª”­¶‚µ‚Ä¢‚Á‚Ä‚¢‚Ü‚·Bƒ^ƒXƒNƒ}ƒl[ƒWƒƒ‚ðŒ©‚Ä‚¢‚é‚Æ
-‚¶‚í‚¶‚íƒƒ‚ƒŠŽg—p—Ê‚ª‘‚¦‚Ä‚¢‚Á‚ÄA‚Â‚¢‚É”j’]‚µ‚Ä OutOfMemoryError‚ª”­¶‚µ‚Ä‚µ‚Ü‚¢‚Ü‚·BƒRƒlƒNƒVƒ‡ƒ“ƒv[ƒ‹‚ðŽg‚í‚¸‚É¶‚Å—˜—p‚µ‚Ä‚¢‚½‚ç
-‚±‚ñ‚È‚±‚Æ–³‚¢‚Ì‚Å‚·‚ªcB‚³‚Ä Œ´ˆö‚Í‹C’·‚É’²¸‚·‚é‚µ‚©–³‚¢‚©‚µ‚çcB‚¿‚Æ‚Â‚Ü‚¸‚¢‚Ä‚¢‚Ü‚·B</P>
-<P><FONT color="#ff0000">2001/12/11 12:53</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="î•ñ‹Zp‚ÌŠJ”­Œ»ê‚Å“­‚­¦˜r‹ZpŽÒ‚ÅAŠŽ‚Âî•ñ‹Zpƒ‰ƒCƒ^[‚ð‚³‚ê‚Ä‚¢‚é•ûB’¼Ú“I‚È–ÊŽ¯‚à‚ ‚è ‚Æ‚Ä‚à‹­‚¢‰e‹¿‚ð—^‚¦‚Ä–á‚Á‚Ä‚¢‚Ü‚·BFlash MX‚ð‹Æ–±ƒVƒXƒeƒ€‚ÅŽg‚¤‚Æ‚¢‚¤¢ŠE‚ÉŽ„‚ð‚¢‚´‚È‚Á‚½‚Ì‚à‰H¶‚³‚ñ ‚»‚Ìl‚Å‚·B">‰H¶Í—m</A>‚³‚ñ‚©‚çƒcƒbƒRƒ~<BR>
-<CITE>‰H¶—‘S‘R•—Ž×‚ªŽ¡‚ç‚È‚¢A‚Å‚·B<BR>
+<P>ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ý’ï¿½É‰ï¿½ï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ nativeResults ï¿½ï¿½ï¿½ï¿½ï¿½ maximumSoft ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½INSERTï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ OutOfMemoryError ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½^ï¿½Xï¿½Nï¿½}ï¿½lï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½í‚¶ï¿½íƒï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½Â‚ï¿½ï¿½É”jï¿½]ï¿½ï¿½ï¿½ï¿½ OutOfMemoryErrorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Rï¿½lï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½í‚¸ï¿½Éï¿½ï¿½Å—ï¿½ï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ–ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í‹Cï¿½ï¿½ï¿½É’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½Bï¿½ï¿½ï¿½Æ‚Â‚Ü‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2001/12/11 12:53</FONT> <A HREF="http://d.hatena.ne.jp/habuakihiro/" TITLE="ï¿½ï¿½ï¿½Zï¿½pï¿½ÌŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Zï¿½pï¿½Ò‚ÅAï¿½ï¿½ï¿½Âï¿½ï¿½Zï¿½pï¿½ï¿½ï¿½Cï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ú“Iï¿½È–ÊŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BFlash MXï¿½ï¿½ï¿½Æ–ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÅŽgï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìlï¿½Å‚ï¿½ï¿½B">ï¿½Hï¿½ï¿½ï¿½Í—m</A>ï¿½ï¿½ï¿½ñ‚©‚ï¿½cï¿½bï¿½Rï¿½~<BR>
+<CITE>ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½Rï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Aï¿½Å‚ï¿½ï¿½B<BR>
 <BR>
-&gt; Web+DB Press Vol.3‚Í ”ƒ‚Á‚½‚Í‚¸‚È‚Ì‚Å‚·‚ªAŒ©‚Â‚¯‚é‚±‚Æ‚ªo—ˆ‚¸ <BR>
+&gt; Web+DB Press Vol.3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Â‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ <BR>
 <BR>
-‚¦‚Æ‚¦‚ÆA<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>‚Å‚·(^^;@®AVol.3‚É‚ÍAFlash‚ðWebƒNƒ‰ƒCƒAƒ“ƒg‚É‚·‚é‚Æ‚¢‚¤‹LŽ–‚ð‘‚¢‚Ä‚¢‚Ü‚·i‚ÅA‚±‚ê‚Í‚à‚¤‚·‚®Œ‹\–Ê”’‚¢‚à‚Ì‚ðŒöŠJ‚Å‚«‚é—\’è‚Å‚·jB<BR>
-”@é“`é“`(^^;</CITE></P>
-<P><FONT color="#ff00ff">‚±‚±‚©‚ç</FONT><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A><BR>
-‚ ‚ ‚ÁA3‚Æ5‚ðŒ©ŠÔˆá‚¦ (‹êÎ)B<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>‚Í ‰ïŽÐ‚Ìæ”y ƒqƒgƒ~‚³‚ñ‚ªw“ü‚µ‚½‚¾‚¯‚Å‚µ‚½‚©‚çAŽ„‚à ‚±‚ê‚ð‹@‚É”ƒ‚Á‚Ä‚Ý‚æ‚¤‚ÆŽv‚¢‚Ü‚·‚Å‚·BJDBCŽü‚è‚Ì—Ç‚¢‹LŽ–‚ª‚½‚­‚³‚ñÚ‚Á‚Ä‚¢‚Ü‚·‚ËB‚±‚ê‚Í”ƒ‚¢‚¾‚È‚ŸB</P>
+ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÆA<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>ï¿½Å‚ï¿½(^^;ï¿½@ï¿½ï¿½ï¿½AVol.3ï¿½É‚ÍAFlashï¿½ï¿½Webï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½É‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½iï¿½ÅAï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Ê”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Jï¿½Å‚ï¿½ï¿½ï¿½\ï¿½ï¿½Å‚ï¿½ï¿½jï¿½B<BR>
+ï¿½ï¿½ï¿½@ï¿½ï¿½`ï¿½ï¿½`(^^;</CITE></P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.htmlmemoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A><BR>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A3ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½Ôˆá‚¦ (ï¿½ï¿½ï¿½)ï¿½B<A href="http://www.gihyo.co.jp/wdpress/vol5index.html">Vol.5</A>ï¿½ï¿½ ï¿½ï¿½Ð‚Ìï¿½y ï¿½qï¿½gï¿½~ï¿½ï¿½ï¿½ñ‚ªwï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½É”ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Å‚ï¿½ï¿½BJDBCï¿½ï¿½ï¿½ï¿½Ì—Ç‚ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ËBï¿½ï¿½ï¿½ï¿½Í”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½B</P>
 
 <!-- Generated by JMdRdf (Java Midori Rdf) 1.7.1 Templete Processer Engine -->
 <!--     source='ig011210.src.html' , result='ig011210.html' -->
-<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>¢ŠÔ‚Ìƒjƒ…[ƒX‚©‚ç <FONT SIZE="-1">(<A HREF="ig011210-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">Mac OS X‚ÌJava 1.4‘Î‰ž‚Í2002”N5ŒŽ‚ÉƒvƒŒƒrƒ…[‚Å8ŒŽ‚É³Ž®”Å</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>2002/02 J2SE 1.3.1ƒAƒbƒvƒf[ƒg1 B2002/05 J2SE 1.3.1ƒAƒbƒvƒf[ƒg2B2002/02 J2SE 1.4B<LI><A HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">ŽÐ“à“dŽqƒ[ƒ‹‚Ìƒvƒ‰ƒCƒoƒV[‚ÍŒÀ’è“Ic“Œ‹ž’nÙ”»Œˆ</A> <FONT size="-2"><A target="_blank" HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Œë‚Á‚½ˆ¶æ‚É‚Í\•ª’ˆÓ‚µ‚Ü‚µ‚å‚¤B<LI><A HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">Windows NT Server 4.0C2003”N7ŒŽ‚É‘S–Êˆø‘Þ</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Windows NT 4.0 ‚Í ‚»‚±‚»‚±‹C‚É“ü‚Á‚Ä‚¢‚Ü‚µ‚½B</UL> <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<TABLE summary="mini title"><TBODY><TR><TD bgcolor="#44cc77" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½Ô‚Ìƒjï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ <FONT SIZE="-1">(<A HREF="ig011210-news.xml">RSS</A>)</FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT></STRONG></FONT></TD></TR></TBODY></TABLE><UL><LI><A HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">Mac OS Xï¿½ï¿½Java 1.4ï¿½Î‰ï¿½ï¿½ï¿½2002ï¿½N5ï¿½ï¿½ï¿½Éƒvï¿½ï¿½ï¿½rï¿½ï¿½ï¿½[ï¿½ï¿½8ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/macwire/0112/03/n_md_news3.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>2002/02 J2SE 1.3.1ï¿½Aï¿½bï¿½vï¿½fï¿½[ï¿½g1 ï¿½B2002/05 J2SE 1.3.1ï¿½Aï¿½bï¿½vï¿½fï¿½[ï¿½g2ï¿½B2002/02 J2SE 1.4ï¿½B<LI><A HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">ï¿½Ð“ï¿½ï¿½dï¿½qï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½oï¿½Vï¿½[ï¿½ÍŒï¿½ï¿½ï¿½Iï¿½cï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ù”ï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.yomiuri.co.jp/04/20011203i415.htm">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Í\ï¿½ï¿½ï¿½ï¿½ï¿½Ó‚ï¿½ï¿½Ü‚ï¿½ï¿½å‚¤ï¿½B<LI><A HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">Windows NT Server 4.0ï¿½C2003ï¿½N7ï¿½ï¿½ï¿½É‘Sï¿½Êˆï¿½ï¿½ï¿½</A> <FONT size="-2"><A target="_blank" HREF="http://www.zdnet.co.jp/news/0112/08/b_1207_03.html">(O)</A></FONT> <FONT COLOR="#ff0000" SIZE="-1">2001</FONT><BR>Windows NT 4.0 ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½É“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</UL> <HR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:45 $</address>
 </BODY>
 </HTML>

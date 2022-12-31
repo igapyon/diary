@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2006/01/14 “ú‹L: blancoJUnitƒvƒƒWƒFƒNƒg Žn“® , Ajax‚©‚çJSON‚Ö , OpenDocument, Ruby‚È‚Ç</TITLE>
-<META name="DESCRIPTION" content="JUnitƒeƒXƒgƒX[ƒcEƒ\[ƒXƒR[ƒh‚©‚ç’P‘ÌŽŽŒ±€–Ú•\‚ðŽ©“®¶¬‚È‚Ç‚ðŽÀŒ»‚·‚é blancoJUnitƒvƒƒWƒFƒNƒg‚ªŽn“®‚µ‚Ü‚µ‚½B , Ruby‚Æ‚¢‚¤ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blancoJUnit,JSON,Ajax">
+<TITLE>2006/01/14 ï¿½ï¿½ï¿½L: blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g ï¿½nï¿½ï¿½ , Ajaxï¿½ï¿½ï¿½ï¿½JSONï¿½ï¿½ , OpenDocument, Rubyï¿½È‚ï¿½</TITLE>
+<META name="DESCRIPTION" content="JUnitï¿½eï¿½Xï¿½gï¿½Xï¿½[ï¿½cï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , Rubyï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blancoJUnit,JSON,Ajax">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.3.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:49+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2006/01/14 “ú‹L: blancoJUnitƒvƒƒWƒFƒNƒg Žn“® , Ajax‚©‚çJSON‚Ö , OpenDocument, Ruby‚È‚Ç</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon,blancoJUnit,JSON,Ajax] JUnitƒeƒXƒgƒX[ƒcEƒ\[ƒXƒR[ƒh‚©‚ç’P‘ÌŽŽŒ±€–Ú•\‚ðŽ©“®¶¬‚È‚Ç‚ðŽÀŒ»‚·‚é blancoJUnitƒvƒƒWƒFƒNƒg‚ªŽn“®‚µ‚Ü‚µ‚½B , Ruby‚Æ‚¢‚¤ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê</P>
+    <H2>2006/01/14 ï¿½ï¿½ï¿½L: blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g ï¿½nï¿½ï¿½ , Ajaxï¿½ï¿½ï¿½ï¿½JSONï¿½ï¿½ , OpenDocument, Rubyï¿½È‚ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon,blancoJUnit,JSON,Ajax] JUnitï¿½eï¿½Xï¿½gï¿½Xï¿½[ï¿½cï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B , Rubyï¿½Æ‚ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,106 +60,106 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoJUnitƒvƒƒWƒFƒNƒg Žn“®</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½g ï¿½nï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>JUnitƒeƒXƒgƒX[ƒcEƒ\[ƒXƒR[ƒh‚©‚ç’P‘ÌŽŽŒ±€–Ú•\‚ðŽ©“®¶¬‚È‚Ç‚ðŽÀŒ»‚·‚é blancoJUnitƒvƒƒWƒFƒNƒg‚ªŽn“®‚µ‚Ü‚µ‚½B(–¼‘O‚Í Œ‹‹Ç
-blancoJUnit‚Ö‚Æ—Ž‚¿’…‚«‚Ü‚µ‚½B)</P>
-<P>Œ»Žž“_‚ÅA‚È‚ñ‚Æ‚È‚­“®ì‚·‚é‚à‚Ì‚ªo—ˆã‚ª‚è‚Ü‚µ‚½BŽÀŒ»«‚ÌŒŸØ‚ðs‚Á‚Ä‚¢‚é‚æ‚¤‚ÈˆÊ’u‚Ã‚¯‚Å‚·B‚Æ‚Í‚¢‚¦AJUnitƒ\[ƒXƒR[ƒh (ŽÀÛ‚É‚Í
-ƒNƒ‰ƒXƒtƒ@ƒCƒ‹^ƒoƒCƒgƒR[ƒh) ‚©‚çExcelƒuƒbƒN‚ªŠù‚ÉŽ©“®¶¬‚Å‚«‚Ä‚¢‚Ü‚·B<BR>
-‚ ‚Æ‚ÍAAntƒ^ƒXƒN‚È‚Ç‚Ì®”õ‚ª–¢ŽÀŽ{‚Å‚·BŒ»Žž“_‚Å‚Í JUnit‚©‚ç‚Ì‹N“®‚µ‚©‘¶Ý‚µ‚Ä‚¢‚Ü‚¹‚ñBŽ„ˆÈŠO‚Ìl‚ª ‚¿‚å‚Á‚ÆŽŽ‚·‚É‚Í ‚©‚È‚è•~‹‚ª‚‚¢‚Æl‚¦‚Ü‚·B</P>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚éƒ_ƒEƒ“ƒ[ƒh</FONT></P>
+<P>JUnitï¿½eï¿½Xï¿½gï¿½Xï¿½[ï¿½cï¿½Eï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ blancoJUnitï¿½vï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½Oï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+blancoJUnitï¿½Ö‚Æ—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ÅAï¿½È‚ï¿½Æ‚È‚ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½oï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½Ø‚ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÈˆÊ’uï¿½Ã‚ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Æ‚Í‚ï¿½ï¿½ï¿½ï¿½AJUnitï¿½\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½h (ï¿½ï¿½ï¿½Û‚É‚ï¿½
+ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½^ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h) ï¿½ï¿½ï¿½ï¿½Excelï¿½uï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Æ‚ÍAAntï¿½^ï¿½Xï¿½Nï¿½È‚Ç‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ JUnitï¿½ï¿½ï¿½ï¿½Ì‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÈŠOï¿½Ìlï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½É‚ï¿½ ï¿½ï¿½ï¿½È‚ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½h</FONT></P>
 <UL>
   <LI>blancoJUnit<BR>
   <A HREF="http://www.igapyon.jp/blanco/blancodownload.html#blancoJUnit">http://www.igapyon.jp/blanco/blancodownload.html#blancoJUnit</A>
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig060110.html">2006/01/10 “ú‹L: Jassist ‚ð—p‚¢‚½ƒNƒ‰ƒXƒtƒ@ƒCƒ‹(ƒoƒCƒgƒR[ƒh)‰ðÍƒTƒ“ƒvƒ‹ , blancoJUnit2Doc‚ª‘Ã“–‚È–¼Ì‚Å‚ ‚é‚©‚Ç‚¤‚©‚ðŒŸ“¢’†</A>
-  <LI><A href="../2005/ig051221.html">2005/12/21 “ú‹L: blanco Framework‚ÌŽŸŠúƒ[ƒhƒ}ƒbƒvF’P‘ÌŽŽŒ±H’ö‚ÌŽ©“®‰»</A>
-  <LI><A href="../2005/ig051130.html">2005/11/30 “ú‹L: blanco’P‘ÌŽŽŒ±€–Ú•\Ž©“®¶¬(–¼ÌŒŸ“¢’†), blancoJUnit‚ÍŽÀŒ»‚·‚é•ûŒü« , ’©‚ÌNHKƒjƒ…[ƒX‚É‚ÄÃ‰ª‚ÌƒKƒ“ƒvƒ‰Hê‚ª•ú‰f</A>
-  <LI><A href="../2005/ig051115.html">2005/11/15 “ú‹L: blancoJUnit‚Ì’ñˆÄ , blancoApacheDistribution‚Ì\‘z</A>
+  <LI><A href="ig060110.html">2006/01/10 ï¿½ï¿½ï¿½L: Jassist ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½tï¿½@ï¿½Cï¿½ï¿½(ï¿½oï¿½Cï¿½gï¿½Rï¿½[ï¿½h)ï¿½ï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½ , blancoJUnit2Docï¿½ï¿½ï¿½Ã“ï¿½ï¿½È–ï¿½ï¿½Ì‚Å‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</A>
+  <LI><A href="../2005/ig051221.html">2005/12/21 ï¿½ï¿½ï¿½L: blanco Frameworkï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½}ï¿½bï¿½vï¿½Fï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½</A>
+  <LI><A href="../2005/ig051130.html">2005/11/30 ï¿½ï¿½ï¿½L: blancoï¿½Pï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½), blancoJUnitï¿½ÍŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½NHKï¿½jï¿½ï¿½ï¿½[ï¿½Xï¿½É‚ÄÃ‰ï¿½ï¿½ÌƒKï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Hï¿½ê‚ªï¿½ï¿½ï¿½f</A>
+  <LI><A href="../2005/ig051115.html">2005/11/15 ï¿½ï¿½ï¿½L: blancoJUnitï¿½Ì’ï¿½ï¿½ , blancoApacheDistributionï¿½Ì\ï¿½z</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ruby‚Ö‚ÌŽæ‚è‘g‚Ý</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Rubyï¿½Ö‚ÌŽï¿½ï¿½gï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>¡“ú ƒnƒ‰‚³‚Ü‚ð’†S‚ÉW‚Ü‚Á‚Ä˜b‚µ‚Äˆù‚Ý‚Ü‚µ‚½B‚Ð‚³‚µ‚Ô‚è‚Éƒnƒ‰‚³‚Ü‚É‚¨‰ï‚¢‚µ‚Ü‚µ‚½B‚»‚ÌÈ‚Ì‚È‚©‚ÅARuby‚ÉŽæ‚è‘g‚Þ‚×‚«‚¶‚á‚È‚¢‚Ì‚©‚Æ‚ÌŽw“E^˜b‘è‚ªo‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ð’†Sï¿½ÉWï¿½Ü‚ï¿½ï¿½Ä˜bï¿½ï¿½ï¿½Äˆï¿½ï¿½Ý‚Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ð‚ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Éƒnï¿½ï¿½ï¿½ï¿½ï¿½Ü‚É‚ï¿½ï¿½ï‚¢ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÈ‚Ì‚È‚ï¿½ï¿½ÅARubyï¿½ÉŽï¿½ï¿½gï¿½Þ‚×‚ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½Æ‚ÌŽwï¿½Eï¿½^ï¿½bï¿½è‚ªï¿½oï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Ruby<BR>
   <A HREF="http://www.ruby-lang.org/ja/">http://www.ruby-lang.org/ja/</A>
 </UL>
-<P>Ž„‚ª Ruby‚ÉŽæ‚è‘g‚Þ‚ÆAŽ©“®“I‚É blanco Framework‚ÌRuby”Å‚ªo—ˆ‚éA‚Ì‚©‚µ‚ç??? Rails‚Æ‚Ì±‚Ý•ª‚¯‚Í??? ‚È‚Ç‚Æ‚Ú‚ñ‚â‚è‚Æ–Ï‘z‚µ‚Ä‚¢‚Ü‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ Rubyï¿½ÉŽï¿½ï¿½gï¿½Þ‚ÆAï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ blanco Frameworkï¿½ï¿½Rubyï¿½Å‚ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½Aï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½??? Railsï¿½Æ‚Ìï¿½ï¿½Ý•ï¿½ï¿½ï¿½ï¿½ï¿½??? ï¿½È‚Ç‚Æ‚Ú‚ï¿½ï¿½ï¿½Æ–Ï‘zï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ajax ‚©‚ç JSON‚Ö</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ajax ï¿½ï¿½ï¿½ï¿½ JSONï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>˜b‚Ì‚È‚©‚Å uAjax ‚©‚ç JSON‚Öv‚Æ‚¢‚¤˜b‘è‚ªo‚Ä‚¢‚Ü‚µ‚½BAjax‚Í XML‚ðDOMƒx[ƒX‚Åˆµ‚¤‚Ì‚Å ƒfƒƒŠƒbƒg‚ª‚ ‚é‚Æ‚ÌŽw“E‚ª‚ ‚éA‚Æ‚Ì‚±‚Æ‚Å‚·BJSON‚ÍŒy—Ê‚Å‚ ‚é‚¤‚¦‚É
-ECMA•W€‚Å‚à‚ ‚èA‚±‚ê‚©‚ç‚Í JSON‚É’–Ú‚µ‚Ä‚¢‚­•K—v‚ª‚ ‚é‚Ì‚Æ‚²Žw“E‚ðŽó‚¯‚Ü‚µ‚½B</P>
+<P>ï¿½bï¿½Ì‚È‚ï¿½ï¿½ï¿½ ï¿½uAjax ï¿½ï¿½ï¿½ï¿½ JSONï¿½Övï¿½Æ‚ï¿½ï¿½ï¿½ï¿½bï¿½è‚ªï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BAjaxï¿½ï¿½ XMLï¿½ï¿½DOMï¿½xï¿½[ï¿½Xï¿½Åˆï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÌŽwï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Æ‚Ì‚ï¿½ï¿½Æ‚Å‚ï¿½ï¿½BJSONï¿½ÍŒyï¿½Ê‚Å‚ï¿½ï¿½é‚¤ï¿½ï¿½ï¿½ï¿½
+ECMAï¿½Wï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ê‚©ï¿½ï¿½ï¿½ JSONï¿½É’ï¿½ï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½wï¿½Eï¿½ï¿½ï¿½ó‚¯‚Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>JSON<BR>
   <A HREF="http://www.crockford.com/JSON/">http://www.crockford.com/JSON/</A>
 </UL>
-<P>Ž„‚Ì’m‚ç‚È‚¢‚±‚Æ‚ª‘½‚¢‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½Ì’mï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenDocument (OpenOffice.org‚Ì•¶‘ƒtƒ@ƒCƒ‹) ‚Ö‚ÌŽæ‚è‘g‚Ý</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>OpenDocument (OpenOffice.orgï¿½Ì•ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½) ï¿½Ö‚ÌŽï¿½ï¿½gï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>blancoJUnit‚âblancoReport‚Í ’¼Ú“I‚É <A HREF="http://www.igapyon.jp/igapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0ˆÈ~‚ÅÌ—p‚³‚ê‚Ä‚¢‚éƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒgBXML‚Ì¢ŠE‚Å‚Í—L–¼‚ÈOASIS‚Æ‚¢‚¤•W€‰»’c‘Ì‚É‚æ‚Á‚Ä•W€‰»ì‹Æ‚ª‚¨‚±‚È‚í‚ê‚Ä‚¢‚Ü‚·B">OpenDocument</A>‚ðˆ—‚µ‚Ä‚¢‚Ü‚·Bblanco
-Framework‚ð’Ê‚¶‚Ä Œ‹‰Ê“I‚É OpenDocument‚Ì‘€ì‚â <A HREF="http://ja.openoffice.org/" TITLE="Œ»ÝÅ‚à’–Ú‚³‚ê‚Ä‚¢‚éƒI[ƒvƒ“ƒ\[ƒX‚É‚æ‚éƒIƒtƒBƒXƒXƒC[ƒgŽÀ‘•‚Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ˆÈ~‚Å‚ÍƒhƒLƒ…ƒƒ“ƒgƒtƒH[ƒ}ƒbƒg‚Æ‚µ‚Ä OpenDocument‚ðÌ—p‚µ‚Ä‚¢‚éB">OpenOffice.org</A>‚Ì‘€ì‚ÉÚ‚µ‚­‚È‚Á‚Ä‚¢‚Á‚Ä‚¢‚Ü‚·BExcel‚âWord‚Ì•¶‘ƒtƒ@ƒCƒ‹‚ð
-OpenDocumentŒo—R‚Åƒf[ƒ^ƒx[ƒX‚âƒtƒ@ƒCƒ‹ƒVƒXƒeƒ€‚ÖŠi”[‚È‚Ç‚·‚ê‚ÎAƒtƒ‹ƒeƒLƒXƒgŒŸõ‚È‚Ç‚Ì‹@”\‚Å‚ ‚Á‚Ä‚àŽ„‚ª•ÐŽèŠÔ‚ÅŠJ”­‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B<BR>
-ƒrƒWƒlƒXŠ¨‚Ì‚¢‚¢l‚È‚ç OpenDocument‚ðŠj‚É‚µ‚½ƒrƒWƒlƒX“WŠJ‚È‚Ç‚ð ‚Ù‚¢‚Ù‚¢‚Æ˜A‘z‚Å‚«‚é‚Ì‚Å‚µ‚å‚¤‚ËBŽ„‚É‚Í ‚È‚©‚È‚©Žv‚¢‚Â‚«‚Ü‚¹‚ñB</P>
+<P>blancoJUnitï¿½ï¿½blancoReportï¿½ï¿½ ï¿½ï¿½ï¿½Ú“https://www.igapyon.jp/igapyon/diary/gapyon/diary/keyword/opendocument.html" TITLE="OpenOffice.org 2.0ï¿½È~ï¿½ÅÌ—pï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½hï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½BXMLï¿½Ìï¿½ï¿½Eï¿½Å‚Í—Lï¿½ï¿½ï¿½ï¿½OASISï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½cï¿½Ì‚É‚ï¿½ï¿½ï¿½Ä•Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">OpenDocument</A>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bblanco
+Frameworkï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê“Iï¿½ï¿½ OpenDocumentï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ <A HREF="http://ja.openoffice.org/" TITLE="ï¿½ï¿½ï¿½ÝÅ‚ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½\ï¿½[ï¿½Xï¿½É‚ï¿½ï¿½Iï¿½tï¿½Bï¿½Xï¿½Xï¿½Cï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ð‚Æ‚ÂBOpenOffice.org 2.0ï¿½È~ï¿½Å‚Íƒhï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½Æ‚ï¿½ï¿½ï¿½ OpenDocumentï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½B">OpenOffice.org</A>ï¿½Ì‘ï¿½ï¿½ï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BExcelï¿½ï¿½Wordï¿½Ì•ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+OpenDocumentï¿½oï¿½Rï¿½Åƒfï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÖŠiï¿½[ï¿½È‚Ç‚ï¿½ï¿½ï¿½ÎAï¿½tï¿½ï¿½ï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚Ì‹@ï¿½\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐŽï¿½Ô‚ÅŠJï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½rï¿½Wï¿½lï¿½Xï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½lï¿½È‚ï¿½ OpenDocumentï¿½ï¿½ï¿½jï¿½É‚ï¿½ï¿½ï¿½ï¿½rï¿½Wï¿½lï¿½Xï¿½Wï¿½Jï¿½È‚Ç‚ï¿½ ï¿½Ù‚ï¿½ï¿½Ù‚ï¿½ï¿½Æ˜Aï¿½zï¿½Å‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ËBï¿½ï¿½ï¿½É‚ï¿½ ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½vï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒn[ƒhƒfƒBƒXƒNƒP[ƒXw“ü</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½wï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Ž©‘î‚ÌŒÃ‚¢ƒpƒ\ƒRƒ“‚ð”pŠü‚·‚é‚É‚ ‚½‚èAHDDÁ‹Ž‚Ì–Ú“I‚Åƒn[ƒhƒfƒBƒXƒNƒP[ƒX‚ðw“ü‚µ‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÌŒÃ‚ï¿½ï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½AHDDï¿½ï¿½ï¿½ï¿½ï¿½Ì–Ú“Iï¿½Åƒnï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI><FONT color="#ff0000">2006.01</FONT> NOVAC: HDD‚à‚Á‚Æ‚Í‚¢`‚éKIT Dual<BR>
-  3.5ƒCƒ“ƒ`‚Æ2.5ƒCƒ“ƒ`‚ÌHDD‚É—¼‘Î‰ž‚µ‚½ƒn[ƒhƒfƒBƒXƒNƒP[ƒXBUSB2.0/IEEE1394ƒCƒ“ƒ^ƒtƒF[ƒX‚ð‘•”õ‚ÂB137GB’´‚Ìƒhƒ‰ƒCƒu‘Î‰žB<BR>
+  <LI><FONT color="#ff0000">2006.01</FONT> NOVAC: HDDï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‚ï¿½ï¿½`ï¿½ï¿½KIT Dual<BR>
+  3.5ï¿½Cï¿½ï¿½ï¿½`ï¿½ï¿½2.5ï¿½Cï¿½ï¿½ï¿½`ï¿½ï¿½HDDï¿½É—ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½BUSB2.0/IEEE1394ï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½ð‘•”ï¿½ï¿½ÂB137GBï¿½ï¿½ï¿½Ìƒhï¿½ï¿½ï¿½Cï¿½uï¿½Î‰ï¿½ï¿½B<BR>
   <A HREF="http://www.novac.co.jp/products/hardware/nv-hd/nv-hd352w/index.html">http://www.novac.co.jp/products/hardware/nv-hd/nv-hd352w/index.html</A>
 </UL>
-<P>USB2.0^IEEE1394^3.5ƒCƒ“ƒ`^2.5ƒCƒ“ƒ`‚Æ‘Î‰žƒCƒ“ƒ^ƒtƒF[ƒX‚ª‘½‚­ ‚Æ‚Ä‚à•Ö—˜‚É—˜—p‚³‚¹‚Ä‚¢‚½‚¾‚¢‚Ä‚¢‚Ü‚·BƒfƒBƒXƒN—Ìˆæ‚Ìíœ‚É‚Í
-KNOPPIX + kdshred‚ð—˜—p‚µ‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">Ž¸”sƒƒ‚</FONT>: ƒn[ƒhƒfƒBƒXƒNƒP[ƒX‚»‚Ì‚à‚Ì‚Í Ž©‘î‚ÌŒÃ‚¢ƒpƒ\ƒRƒ“‚ÉÚ‘±‚µ‚½‚¤‚¦‚Åƒn[ƒhƒfƒBƒXƒNƒP[ƒX“à‚Ì”pŠüHDD‚ðÁ‹Ž‚µ‚Ü‚µ‚½BÅ‰‚Í‰½‚àl‚¦‚¸‚É USBƒ|[ƒg‚ÉÚ‘±‚µ‚½‚¤‚¦‚ÅÁ‹Ž‚ðŽÀs‚µ‚Ü‚µ‚½B‚Æ‚±‚ë‚ªA‚±‚ÌŽ©‘î‚ÌŒÃ‚¢ƒpƒ\ƒRƒ“‚Í
-USB 1.1‚Å‚ ‚Á‚½‚Ì‚ÅAƒn[ƒhƒfƒBƒXƒNÁ‹Ž‚ª‚Æ‚Ä‚à’á‘¬‚Å‚µ‚½B‚»‚±‚Å¡“x‚Í IEEE1394ƒ|[ƒg‚Éƒn[ƒhƒfƒBƒXƒNƒP[ƒX‚ðÚ‘±‚µ‚ÄÁ‹Ž‚ðŽÀs‚µ‚Ü‚µ‚½BUSB
-1.1‚æ‚è‚à IEEE1394Ú‘±‚Ì•û‚ª ‚Æ‚Ä‚à‚‘¬‚É HDDÁ‹Ž‚ðŽÀs‚·‚é‚±‚Æ‚ªo—ˆ‚Ü‚µ‚½B—˜_“I‚È”’l’Ê‚è‚Å‚·‚Ë (‹êÎ)Bw“ü‚µ‚½ƒn[ƒhƒfƒBƒXƒNƒP[ƒX‚ª
-USB1.1‚Æ IEEE1394‚Ì—¼•û‚É‘Î‰ž‚µ‚Ä‚¢‚é¤•i‚ÅA‚Æ‚Ä‚à•‚©‚è‚Ü‚µ‚½B‚±‚Ì‚¤‚ê‚µ‚¢ŒëŽZ‚ÍAw“üŽž“_‚Å‚Í ‘S‚­‚Ì‘z’èŠO‚Å‚µ‚½B</P>
+<P>USB2.0ï¿½^IEEE1394ï¿½^3.5ï¿½Cï¿½ï¿½ï¿½`ï¿½^2.5ï¿½Cï¿½ï¿½ï¿½`ï¿½Æ‘Î‰ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½tï¿½Fï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½Ö—ï¿½ï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½fï¿½Bï¿½Xï¿½Nï¿½Ìˆï¿½Ìíœï¿½É‚ï¿½
+KNOPPIX + kdshredï¿½ð—˜—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½</FONT>: ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½ ï¿½ï¿½ï¿½ï¿½ÌŒÃ‚ï¿½ï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åƒnï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½ï¿½ï¿½Ì”pï¿½ï¿½HDDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Åï¿½ï¿½Í‰ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ USBï¿½|ï¿½[ï¿½gï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ë‚ªï¿½Aï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ÌŒÃ‚ï¿½ï¿½pï¿½\ï¿½Rï¿½ï¿½ï¿½ï¿½
+USB 1.1ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ä‚ï¿½ï¿½á‘¬ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½xï¿½ï¿½ IEEE1394ï¿½|ï¿½[ï¿½gï¿½Éƒnï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BUSB
+1.1ï¿½ï¿½ï¿½ï¿½ IEEE1394ï¿½Ú‘ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ HDDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½_ï¿½Iï¿½Èï¿½ï¿½lï¿½Ê‚ï¿½Å‚ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)ï¿½Bï¿½wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Pï¿½[ï¿½Xï¿½ï¿½
+USB1.1ï¿½ï¿½ IEEE1394ï¿½Ì—ï¿½ï¿½ï¿½ï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é¤ï¿½iï¿½ÅAï¿½Æ‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ê‚µï¿½ï¿½ï¿½ï¿½Zï¿½ÍAï¿½wï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ ï¿½Sï¿½ï¿½ï¿½Ì‘zï¿½ï¿½Oï¿½Å‚ï¿½ï¿½ï¿½ï¿½B</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ƒn[ƒhƒfƒBƒXƒNÁ‹Žƒc[ƒ‹ ‚³‚ç‚É’Tõ(?)</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½É’Tï¿½ï¿½(?)</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>kdshred ‚Í‚©‚È‚è‹C‚É“ü‚è‚Ü‚µ‚½BKNOPPIXƒx[ƒX‚Å‹N“®‚µ‚ÄAkdshred‚ð‚Â‚©‚Á‚Ä‚·‚®‚É HDD‚ðÁ‹Ž‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·Bkdshred‚ÌCD-R‚Í‘åØ‚É’u‚¢‚Ä‚¨‚±‚¤‚ÆŽv‚¢‚Ü‚µ‚½B</P>
-<P>ˆê‰ž kdshredˆÈŠO‚É ‚Ç‚Ì‚æ‚¤‚È‚à‚Ì‚ª‚ ‚é‚Ì‚©‚ð’Tõ‚µ‚æ‚¤‚Æ‚µ‚Ä‚³‚ª‚µ‚Ä‚Ý‚½‚Æ‚±‚ëAƒtƒƒbƒs[ƒu[ƒg‰Â”\‚È BSDƒx[ƒX‚Ìƒc[ƒ‹‚ª‚ ‚é‚Æ‚¢‚¤‚±‚Æ‚ðŒ©‚©‚¯‚Ü‚µ‚½B</P>
+<P>kdshred ï¿½Í‚ï¿½ï¿½È‚ï¿½Cï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BKNOPPIXï¿½xï¿½[ï¿½Xï¿½Å‹Nï¿½ï¿½ï¿½ï¿½ï¿½ÄAkdshredï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ HDDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bkdshredï¿½ï¿½CD-Rï¿½Í‘ï¿½Ø‚É’uï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½ê‰ž kdshredï¿½ÈŠOï¿½ï¿½ ï¿½Ç‚Ì‚æ‚¤ï¿½È‚ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Aï¿½tï¿½ï¿½ï¿½bï¿½sï¿½[ï¿½uï¿½[ï¿½gï¿½Â”\ï¿½ï¿½ BSDï¿½xï¿½[ï¿½Xï¿½Ìƒcï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>wipe-out -- a freeware to erase data on hard drive<BR>
   <A HREF="http://www.wheel.gr.jp/~dai/software/wipe-out/">http://www.wheel.gr.jp/~dai/software/wipe-out/</A>
 </UL>
-<P>ŽžŠÔ‚ðì‚Á‚ÄŽŽ‚µ‚Ä‚Ý‚½‚¢‚ÆŽv‚¢‚Ü‚µ‚½B</P>
-<P>X‚É •Ê“à—e‚É‚ÄAƒn[ƒhƒfƒBƒXƒN‚ÌÁ‚µE•œŠˆ‚ÉŠÖ‚·‚éA‹C‚É‚È‚éƒy[ƒW‚ðŒ©‚©‚¯‚Ü‚µ‚½B</P>
+<P>ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ÄŽï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½Xï¿½ï¿½ ï¿½Ê“ï¿½ï¿½eï¿½É‚ÄAï¿½nï¿½[ï¿½hï¿½fï¿½Bï¿½Xï¿½Nï¿½Ìï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½Aï¿½Cï¿½É‚È‚ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
-  <LI>alectrope: HDD ‚Ìƒƒ“ƒeƒiƒ“ƒX‚Æ‚©<BR>
+  <LI>alectrope: HDD ï¿½Ìƒï¿½ï¿½ï¿½ï¿½eï¿½iï¿½ï¿½ï¿½Xï¿½Æ‚ï¿½<BR>
   <A HREF="http://alectrope.ddo.jp/mt/archives/2004/03/11/hdd_maintenance">http://alectrope.ddo.jp/mt/archives/2004/03/11/hdd_maintenance</A>
 </UL>
-<P>‹C‚É‚È‚éî•ñ‚ª‘òŽRÚ‚Á‚Ä‚¢‚Ü‚·BŽžŠÔ‚ðì‚Á‚Ä ‚±‚ê‚çî•ñ‚ðn“Ç‚µ‚½‚¢‚ÆŽv‚¢‚Ü‚µ‚½B</P>
+<P>ï¿½Cï¿½É‚È‚ï¿½ï¿½ñ‚ª‘ï¿½Rï¿½Ú‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:49 $</address>
 </BODY>
 </HTML>

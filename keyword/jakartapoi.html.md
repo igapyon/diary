@@ -24,7 +24,7 @@ Excelファイルの入出力に着眼して、いくつかのサンプル・ト
 
 ### 関連があるリソース
 
-* http://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html
+* https://www.igapyon.jp/igapyon/diary/keyword/jexcelapi.html
 
 ### URL
 
@@ -32,14 +32,14 @@ Excelファイルの入出力に着眼して、いくつかのサンプル・ト
 
 ### 検索
 
-* [Search 'Jakarta POI' in google in-site](https://www.google.co.jp/#pws=0&q=site:http%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apache+POI)
+* [Search 'Jakarta POI' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apache+POI)
 
 Last modified: $Date: 2018-04-18 $
 
 ### 日記
 
-* [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](http://www.igapyon.jp/igapyon/diary/2018/ig180418.html)
-* [2012-07-03 diary: [JakartaPOI]Apache POI の xlsx 作成サンプル](http://www.igapyon.jp/igapyon/diary/2012/ig120703.html)
+* [2018-04-18 diary: [Java][JakartaPOI] 大きな Excel ブックを Apache POI で作成](../2018/ig180418.html)
+* [2012-07-03 diary: [JakartaPOI]Apache POI の xlsx 作成サンプル](../2012/ig120703.html)
 
 
 

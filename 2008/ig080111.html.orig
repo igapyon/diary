@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2008/01/11 “ú‹L: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ‚Ì“®ì</TITLE>
-<META name="DESCRIPTION" content="Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ‚Ì‘g‚Ý‡‚í‚¹‚ÅAApache‚ÌƒoƒO‚ª‚ç‚Ý‚à‚ ‚èA‚©‚È‚è‹ê‚µ‚ß‚ç‚ê‚Ü‚µ‚½B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2008/01/11 ï¿½ï¿½ï¿½L: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ï¿½Ì“ï¿½ï¿½ï¿½</TITLE>
+<META name="DESCRIPTION" content="Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ÅAApacheï¿½Ìƒoï¿½Oï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ê‚µï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.0.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:50+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -16,12 +16,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2008/01/11 “ú‹L: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ‚Ì“®ì</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ‚Ì‘g‚Ý‡‚í‚¹‚ÅAApache‚ÌƒoƒO‚ª‚ç‚Ý‚à‚ ‚èA‚©‚È‚è‹ê‚µ‚ß‚ç‚ê‚Ü‚µ‚½B</P>
+    <H2>2008/01/11 ï¿½ï¿½ï¿½L: Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ï¿½Ì“ï¿½ï¿½ï¿½</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ÅAApacheï¿½Ìƒoï¿½Oï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ê‚µï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -31,8 +31,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -49,7 +49,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -60,24 +60,24 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ‚Ì“®ì</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) + ApacheDS 1.5.1 ï¿½Ì“ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ‚Ì‘g‚Ý‡‚í‚¹‚ÅAApache‚ÌƒoƒO‚ª‚ç‚Ý‚à‚ ‚èA‚©‚È‚è‹ê‚µ‚ß‚ç‚ê‚Ü‚µ‚½B</P>
-<P><FONT color="#ff00ff">ƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚à‚Ì</FONT></P>
+<P>Apache HTTP Server 2.2.6 + ApacheDS 1.5.1 ï¿½Ì‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ÅAApacheï¿½Ìƒoï¿½Oï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ê‚µï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P><FONT color="#ff00ff">ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</FONT></P>
 <UL>
   <LI>apache_2.2.6-win32-x86-no_ssl.msi
   <LI>apacheds-server-1.5.1-setup.exe<BR>
   + (default directory instance)
 </UL>
-<P><FONT color="#ff00ff">Apache HTTP Server ‘¤‚ÌÝ’è</FONT></P>
-<P>‚±‚¿‚ç‚ÍAApacheDS‚ÌƒfƒtƒHƒ‹ƒg’l‚ÆÚ‘±‚·‚é‚½‚ß‚Ì ‚Æ‚Ä‚àƒm[ƒ}ƒ‹‚ÈÝ’èB</P>
+<P><FONT color="#ff00ff">Apache HTTP Server ï¿½ï¿½ï¿½ÌÝ’ï¿½</FONT></P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍAApacheDSï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½ÆÚ‘ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚ï¿½ ï¿½Æ‚Ä‚ï¿½ï¿½mï¿½[ï¿½}ï¿½ï¿½ï¿½ÈÝ’ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">httpd.conf (‘O”¼)</TD>
+      <TD bgcolor="#ffff00">httpd.conf (ï¿½Oï¿½ï¿½)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -97,7 +97,7 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">httpd.conf (’†”Õ)</TD>
+      <TD bgcolor="#ffff00">httpd.conf (ï¿½ï¿½ï¿½ï¿½)</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -121,24 +121,24 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P><FONT color="#ff00ff">ApacheDS‚Ì•ÏX</FONT><BR>
-¦Apache HTTP Server‚ÌƒoƒO‚ð ApacheDS‘¤‚Å‹zŽû</P>
-<P>Apache HTTP Server ‚Ì mod_ldap.so, mod_authnz_ldap.so ‚¢‚¸‚ê‚©‚Ìƒ‚ƒWƒ…[ƒ‹‚É•s‹ï‡‚ª‚ ‚è‚Ü‚·B‚±‚ê‚Í—L–¼‚ÈŠù’mƒoƒO‚Å‚ ‚é–Í—l‚Å‚·B</P>
-<P>¡ CŒ¾Œê‚ÉŽæ‚è‘g‚ñ‚Å‚¢‚é‹C—Í‚ÆŽžŠÔ‚ª–³‚¢‚Ì‚ÅAApacheDS‚Éƒpƒbƒ`‚ð“K—p‚µ‚Ä–³—–î—“®ì‚³‚¹‚Ü‚µ‚½B</P>
-<P>ƒpƒbƒ`“K—pŒã‚Ìƒ[ƒhƒ‚ƒWƒ…[ƒ‹‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B<BR>
-¦jarƒtƒ@ƒCƒ‹‚Éƒ\[ƒXƒR[ƒh‚àŠÜ‚ß‚Ä‚ ‚è‚Ü‚·</P>
+<P><FONT color="#ff00ff">ApacheDSï¿½Ì•ÏX</FONT><BR>
+ï¿½ï¿½Apache HTTP Serverï¿½Ìƒoï¿½Oï¿½ï¿½ ApacheDSï¿½ï¿½ï¿½Å‹zï¿½ï¿½</P>
+<P>Apache HTTP Server ï¿½ï¿½ mod_ldap.so, mod_authnz_ldap.so ï¿½ï¿½ï¿½ï¿½ï¿½ê‚©ï¿½Ìƒï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½É•sï¿½ï‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Í—Lï¿½ï¿½ï¿½ÈŠï¿½ï¿½mï¿½oï¿½Oï¿½Å‚ï¿½ï¿½ï¿½Í—lï¿½Å‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ Cï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½gï¿½ï¿½Å‚ï¿½ï¿½ï¿½Cï¿½Í‚ÆŽï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAApacheDSï¿½Éƒpï¿½bï¿½`ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½Ä–ï¿½ï¿½ï¿½ï¿½î—ï¿½ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
+<P>ï¿½pï¿½bï¿½`ï¿½Kï¿½pï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÍˆÈ‰ï¿½ï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½jarï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éƒ\ï¿½[ï¿½Xï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ü‚ß‚Ä‚ï¿½ï¿½ï¿½Ü‚ï¿½</P>
 <UL>
-  <LI>ApacheDS 1.5.1 –³—–î—ƒpƒbƒ`<BR>
+  <LI>ApacheDS 1.5.1 ï¿½ï¿½ï¿½ï¿½ï¿½î—ï¿½pï¿½bï¿½`<BR>
   <A HREF="http://www.igapyon.jp/blanco/bin/shared-ldap-0.9.7.jar">http://www.igapyon.jp/blanco/bin/shared-ldap-0.9.7.jar</A>
   <UL>
-    <LI>‚±‚Ìƒ‚ƒWƒ…[ƒ‹‚ðˆÛŽƒƒ“ƒe‚·‚é—\’è‚Í‘S‚­‚ ‚è‚Ü‚¹‚ñB<BR>
-    ¨‚»‚à‚»‚à Apache HTTP Server ‚Ì mod_ldap.so, mod_authnz_ldap.so ‚ðC³‚·‚×‚«‚¾‚©‚ç‚Å‚·B
-    <LI>‚±‚Ìƒpƒbƒ`‚ð“K—p‚·‚é‚É‚Í ‚ ‚ç‚©‚¶‚ßuApache Directory Server - defaultvƒT[ƒrƒX‚ð’âŽ~‚µ‚Ä‚©‚çã‘‚«ƒRƒs[‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B<BR>
-    ?:\Program Files\Apache Directory Server\lib ‚Ì“¯–¼ƒ‚ƒWƒ…[ƒ‹‚ðã‘‚«‚µ‚Ü‚·B
+    <LI>ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½Í‘Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B<BR>
+    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Apache HTTP Server ï¿½ï¿½ mod_ldap.so, mod_authnz_ldap.so ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+    <LI>ï¿½ï¿½ï¿½Ìƒpï¿½bï¿½`ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½ï¿½É‚ï¿½ ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ßuApache Directory Server - defaultï¿½vï¿½Tï¿½[ï¿½rï¿½Xï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ã‘ï¿½ï¿½ï¿½Rï¿½sï¿½[ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+    ?:\Program Files\Apache Directory Server\lib ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ã‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
   </UL>
 </UL>
-<P>•ÏX‰ÓŠ‚Í‰º‹L‚Ì‚æ‚¤‚É‚È‚è‚Ü‚·B</P>
-<P>‘ÎÛ: org.apache.directory.shared.ldap.codec.LdapMessageGrammar</P>
+<P>ï¿½ÏXï¿½Óï¿½ï¿½Í‰ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½Îï¿½: org.apache.directory.shared.ldap.codec.LdapMessageGrammar</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -152,7 +152,7 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
     <TR>
       <TD>
       <pre>package org.apache.directory.shared.ldap.codec;
-         c’†—ªc
+         ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½c
                     // The current TLV should be a integer
                     // We get it and store it in sizeLimit
                     Value value = tlv.getValue();
@@ -172,13 +172,13 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
     </TR>
   </TBODY>
 </TABLE>
-¦sizeLimit‚ª•s³‚È’l‚Å‚ ‚Á‚Ä‚àA–³Ž‹‚µ‚Ä 100‚Æ‚¢‚¤‚±‚Æ‚É‚µ‚Ä‹­s“Ë”j‚³‚¹‚é•ÏX‚Å‚·B</BLOCKQUOTE>
-<P>‚±‚ê‚ð‹C‡‚¢‚ÅƒRƒ“ƒpƒCƒ‹ (MavenŠÂ‹«‚ð\’z‚·‚é‰É‚ª–³‚©‚Á‚½‚Ì‚ÅA’¼ÚŽè‚ÅƒRƒ“ƒpƒCƒ‹I)</P>
+ï¿½ï¿½sizeLimitï¿½ï¿½ï¿½sï¿½ï¿½ï¿½È’lï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 100ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½Ä‹ï¿½ï¿½sï¿½Ë”jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½B</BLOCKQUOTE>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ÅƒRï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ (Mavenï¿½Â‹ï¿½ï¿½ï¿½ï¿½\ï¿½zï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÅAï¿½ï¿½ï¿½ÚŽï¿½ÅƒRï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½I)</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“</TD>
+      <TD bgcolor="#ffff00">ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -190,51 +190,51 @@ LoadModule authnz_ldap_module modules/mod_authnz_ldap.so</pre>
 
 javac -classpath shared-asn1-codec-0.9.7.jar;slf4j-api-1.4.3.jar;shared-ldap-constants-0.9.7.jar;shared-ldap-0.9.7.jar;shared-asn1-0.9.7.jar org\apache\directory\shared\ldap\codec\*.java
 
-shared-ldap-0.9.7.jar ‚ÌŠY“–ƒpƒbƒP[ƒW‚ðƒRƒ“ƒpƒCƒ‹Œã‚Ì classƒtƒ@ƒCƒ‹‚Åã‘‚«B</pre>
+shared-ldap-0.9.7.jar ï¿½ÌŠYï¿½ï¿½ï¿½pï¿½bï¿½Pï¿½[ï¿½Wï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½pï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ classï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Åã‘ï¿½ï¿½ï¿½B</pre>
       </TD>
     </TR>
   </TBODY>
 </TABLE>
 </BLOCKQUOTE>
-<P>Java‚Á‚Ä ‚Æ‚Á‚Ä‚àŠÈ’P‚Å‚·‚ËB</P>
-<P><FONT color="#ff00ff">Apache + LDAP (ApacheDS) Ú‘±Šm”F‚É—˜—p‚µ‚½ƒ†[ƒU</FONT></P>
+<P>Javaï¿½ï¿½ï¿½ï¿½ ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½È’Pï¿½Å‚ï¿½ï¿½ËB</P>
+<P><FONT color="#ff00ff">Apache + LDAP (ApacheDS) ï¿½Ú‘ï¿½ï¿½mï¿½Fï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½U</FONT></P>
 <UL>
-  <LI>ƒAƒCƒ“ƒVƒ…ƒ^ƒCƒ“æ¶ (ApacheDS•‘®‚ÌƒTƒ“ƒvƒ‹ƒ†[ƒU)
+  <LI>ï¿½Aï¿½Cï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½æ¶ (ApacheDSï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½U)
   <UL>
-    <LI>ƒ†[ƒU: aeinstein
-    <LI>ƒpƒXƒ[ƒh: secret
+    <LI>ï¿½ï¿½ï¿½[ï¿½U: aeinstein
+    <LI>ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½h: secret
   </UL>
 </UL>
-<P><FONT color="#ff00ff">ŠÖŒW‚ ‚é‚Æl‚¦‚Ä‚¢‚éƒŠƒ\[ƒX</FONT></P>
+<P><FONT color="#ff00ff">ï¿½ÖŒWï¿½ï¿½ï¿½ï¿½Ælï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éƒŠï¿½\ï¿½[ï¿½X</FONT></P>
 <UL>
-  <LI><A href="http://blog.tsukuba-bunko.jp/ppoi/archives/2007/11/win32_apache_ht.html">‚Â‚­‚Î“ú‹L (‰¼): Win32”Å Apache HTTP Server 2.2.x ‚Å LDAP ”FØ‚Å‚«‚È‚¢</A><BR>
-  uApacheDS ‚Ì•û‚ÌƒƒO‚ðŒ©‚é‚ÆCLDAPƒƒbƒZ[ƒW‚Ìƒp[ƒY‚ÉŽ¸”s‚µ‚Ä‚é‚ñ‚ÅƒGƒ‰[‚È‚ñ‚¶‚á[‚Á‚Äo‚Ä‚¢‚éB”­¶‚µ‚Ä‚¢‚éƒGƒ‰[‚Í &quot;sizeLimit
-  ‚ª^‚Á“–‚È®”‚¶‚á‚È‚¢‚æ&quot; ‚Æ‚¢‚¤“à—eBv‚Æ‚Ì‹LÚ‚ª‚ ‚è‚Ü‚·BŽ„‚ª‘˜‹ö‚µ‚Ä‚¢‚é‚Ì‚Æ ‚Ü‚³‚É“¯‚¶Œ»Û‚Å‚·B
+  <LI><A href="http://blog.tsukuba-bunko.jp/ppoi/archives/2007/11/win32_apache_ht.html">ï¿½Â‚ï¿½ï¿½Î“ï¿½ï¿½L (ï¿½ï¿½): Win32ï¿½ï¿½ Apache HTTP Server 2.2.x ï¿½ï¿½ LDAP ï¿½Fï¿½Ø‚Å‚ï¿½ï¿½È‚ï¿½</A><BR>
+  ï¿½uApacheDS ï¿½Ì•ï¿½ï¿½Ìƒï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆCLDAPï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Ìƒpï¿½[ï¿½Yï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÅƒGï¿½ï¿½ï¿½[ï¿½È‚ñ‚¶‚ï¿½[ï¿½ï¿½ï¿½Äoï¿½Ä‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ &quot;sizeLimit
+  ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½&quot; ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½vï¿½Æ‚Ì‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ï¿½ ï¿½Ü‚ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚Å‚ï¿½ï¿½B
   <LI><A href="http://issues.apache.org/bugzilla/show_bug.cgi?id=43577">http://issues.apache.org/bugzilla/show_bug.cgi?id=43577</A>
-  <LI>‚±‚Ì–â‘è‚Ì”­’[‚ÍAsizeLimit‚Æ‚µ‚Ä -1 ‚ð”ò‚Î‚·‚æ‚¤‚ÈŽÀ‘•‚É‚È‚Á‚Ä‚¢‚é“_‚È‚Ì‚¾‚»‚¤‚Å‚·B•Ê‚ÌWebƒy[ƒW‚É‚ÄA-1 ‚Å‚Í‚È‚­ 0 ‚ð—^‚¦‚é‚Ì‚ª
-  LDAP“I‚É³‚µ‚¢Žd—l‚È‚Ì‚¾‚Æ‚Ì‹LÚ‚ª‚ ‚è‚Ü‚µ‚½B‚±‚ê‚ÍAApache‚ÌƒƒOã‚Å ldap_search_ext_s() ‚ªŽ¸”s‚·‚é‚Æ‚¢‚¤‚±‚Æ‚É‚æ‚Á‚Ä‹C‚ª‚Â‚«‚Ü‚·B(•¶Žš‰»‚¯‚ª‚ ‚è‚Ü‚·‚Ì‚Å‰ð“Ç‚ª–Ê“|‚È‚Ì‚Å‚·‚¯‚ê‚Ç‚àc)
+  <LI>ï¿½ï¿½ï¿½Ì–ï¿½ï¿½Ì”ï¿½ï¿½[ï¿½ÍAsizeLimitï¿½Æ‚ï¿½ï¿½ï¿½ -1 ï¿½ï¿½ï¿½Î‚ï¿½ï¿½æ‚¤ï¿½ÈŽï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½_ï¿½È‚Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Ê‚ï¿½Webï¿½yï¿½[ï¿½Wï¿½É‚ÄA-1 ï¿½Å‚Í‚È‚ï¿½ 0 ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½
+  LDAPï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½lï¿½È‚Ì‚ï¿½ï¿½Æ‚Ì‹Lï¿½Ú‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÍAApacheï¿½Ìƒï¿½ï¿½Oï¿½ï¿½ï¿½ ldap_search_ext_s() ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚ï¿½ï¿½ï¿½Ä‹Cï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ì‚Å‰ï¿½Ç‚ï¿½ï¿½Ê“|ï¿½È‚Ì‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½c)
 </UL>
-<P><FONT color="#ff00ff">ƒcƒbƒRƒ~</FONT></P>
+<P><FONT color="#ff00ff">ï¿½cï¿½bï¿½Rï¿½~</FONT></P>
 <UL>
   <LI><A HREF="http://tidus.ultimania.org/diary/?date=20080116#p01">http://tidus.ultimania.org/diary/?date=20080116#p01</A><BR>
-  (ˆø—p) Apache‚Æ‚­‚Ý‚ ‚í‚¹‚é‚È‚çAOpenDS‚Ì•û‚ªŠÈ’P‚¾‚ÆŽv‚¢‚Ü‚· ...
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="‚¢‚ª‚Ò‚å‚ñ‚ÉŠÖ‚·‚éà–¾">‚¢‚ª‚Ò‚å‚ñ</A>BOpenDS‚Å‚·‚ËB¡“x’²‚×‚Ä‚Ý‚Ü‚·B
+  (ï¿½ï¿½ï¿½p) Apacheï¿½Æ‚ï¿½ï¿½Ý‚ï¿½ï¿½í‚¹ï¿½ï¿½È‚ï¿½AOpenDSï¿½Ì•ï¿½ï¿½ï¿½ï¿½È’Pï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ ...
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html" TITLE="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½</A>ï¿½BOpenDSï¿½Å‚ï¿½ï¿½ËBï¿½ï¿½ï¿½xï¿½ï¿½ï¿½×‚Ä‚Ý‚Ü‚ï¿½ï¿½B
 </UL>
-<P><FONT color="#ff00ff">ŠÖ˜A‚·‚é“ú‹L</FONT></P>
+<P><FONT color="#ff00ff">ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½L</FONT></P>
 <UL>
-  <LI><A href="ig080115.html">2008/01/15 “ú‹L: Apache HTTP Server 2.2.6 ‚Ì LDAPÚ‘±•s‹ï‡‚Ö‚Ìƒpƒbƒ`</A><BR>
-  ‚±‚¿‚ç‚Ìƒpƒbƒ`‚ð“K—p‚·‚ê‚ÎA‚±‚±‚Ås‚Á‚Ä‚¢‚é‚æ‚¤‚È ApacheDS‚Ö‚Ìƒpƒbƒ`‚È‚ñ‚Ä‚à‚Ì‚Í•s—v‚É‚È‚è‚Ü‚·B
-  <LI><A href="ig080110.html">2008/01/10 “ú‹L: Shibuya.trac ƒ~[ƒeƒBƒ“ƒO1.0 (2008.01.19—–LF) , u‘æŽlŠú ’†«Šû‘S‘‘å‰ïE–¼lív‚ÉŽQí</A>
+  <LI><A href="ig080115.html">2008/01/15 ï¿½ï¿½ï¿½L: Apache HTTP Server 2.2.6 ï¿½ï¿½ LDAPï¿½Ú‘ï¿½ï¿½sï¿½ï‡ï¿½Ö‚Ìƒpï¿½bï¿½`</A><BR>
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒpï¿½bï¿½`ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½ï¿½ï¿½Åsï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½ ApacheDSï¿½Ö‚Ìƒpï¿½bï¿½`ï¿½È‚ï¿½Ä‚ï¿½ï¿½Ì‚Í•sï¿½vï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+  <LI><A href="ig080110.html">2008/01/10 ï¿½ï¿½ï¿½L: Shibuya.trac ï¿½~ï¿½[ï¿½eï¿½Bï¿½ï¿½ï¿½O1.0 (2008.01.19ï¿½ï¿½ï¿½Lï¿½F) , ï¿½uï¿½ï¿½lï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½lï¿½ï¿½vï¿½ÉŽQï¿½ï¿½</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) ‚ÌƒƒO‚ªc</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Apache HTTP Server 2.2.6 (Windows) ï¿½Ìƒï¿½ï¿½Oï¿½ï¿½ï¿½c</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>Apache HTTP Server 2.2.6 (Windows)‚ÌƒƒO‚Å‚·‚ªA“ú–{Œê‚ªŠÜ‚Ü‚ê‚éÛ‚É•¶Žš‰»‚¯‚µ‚Ä‚¢‚é‚æ‚¤‚ÉŒ©‚¦‚Ü‚·B<BR>
-‹C‚Ì‚¹‚¢‚©‚Ç‚¤‚©AŽžŠÔ‚ª‚È‚¢‚Ì‚Å’²‚×‚Ä‚¢‚Ü‚¹‚ñB</P>
+<P>Apache HTTP Server 2.2.6 (Windows)ï¿½Ìƒï¿½ï¿½Oï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½{ï¿½ê‚ªï¿½Ü‚Ü‚ï¿½ï¿½Û‚É•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½Cï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ô‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å’ï¿½ï¿½×‚Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</P>
 <BLOCKQUOTE>
 <TABLE border="1">
   <TBODY>
@@ -280,21 +280,21 @@ shared-ldap-0.9.7.jar ‚ÌŠY“–ƒpƒbƒP[ƒW‚ðƒRƒ“ƒpƒCƒ‹Œã‚Ì classƒtƒ@ƒCƒ‹‚Åã‘‚«B</
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD bgcolor="#ffff00">ŽÀsŒ‹‰Ê</TD>
+      <TD bgcolor="#ffff00">ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
 <TABLE border="1">
   <TBODY>
     <TR>
-      <TD>Œ ŒÀ‚ª•s\•ª‚Å‚·<BR>
-      ‚»‚Ì‚æ‚¤‚ÈƒIƒuƒWƒFƒNƒg‚Í‚ ‚è‚Ü‚¹‚ñ</TD>
+      <TD>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½\ï¿½ï¿½ï¿½Å‚ï¿½<BR>
+      ï¿½ï¿½ï¿½Ì‚æ‚¤ï¿½ÈƒIï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½</TD>
     </TR>
   </TBODY>
 </TABLE>
-¦‚»‚ê‚Á‚Û‚¢“ú–{Œê‚É•œŒ³‚³‚ê‚½‚Ì‚ðŒ©‚ÄA‚Ñ‚Á‚­‚è‚µ‚ÄA‚Ü‚½­‚µŠð‚µ‚©‚Á‚½‚Å‚·B</BLOCKQUOTE>
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½É•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ÄAï¿½Ñ‚ï¿½ï¿½ï¿½ï¿½è‚µï¿½ÄAï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</BLOCKQUOTE>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:50 $</address>
 </BODY>
 </HTML>

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML lang="ja">
 <HEAD>
-<TITLE>2004/09/30 “ú‹L: Sun J2SE 5.0³Ž®”ÅƒŠƒŠ[ƒX (JDK 1.5.0)</TITLE>
-<META name="DESCRIPTION" content="Sun‚©‚çÅV”ÅJavaŠJ”­EŽÀsŠÂ‹«‚ÉŠY“–‚·‚éJ2SE 5.0‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹–¼‚Íjdk1.5.0‚Æ‚¢‚¤A‹Œ—ˆ‚ÌJDK‚Æ‚¢‚¤–¼Ì‚¨‚æ‚Ñƒo[ƒWƒ‡ƒ“”Ô†‚ð“¥P‚µ‚Ä‚¢‚Ü‚·B">
-<META name="KEYWORDS" content="‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon">
+<TITLE>2004/09/30 ï¿½ï¿½ï¿½L: Sun J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X (JDK 1.5.0)</TITLE>
+<META name="DESCRIPTION" content="Sunï¿½ï¿½ï¿½ï¿½ÅVï¿½ï¿½Javaï¿½Jï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½sï¿½Â‹ï¿½ï¿½ÉŠYï¿½ï¿½ï¿½ï¿½ï¿½ï¿½J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jdk1.5.0ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JDKï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Ñƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ôï¿½ï¿½ð“¥Pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B">
+<META name="KEYWORDS" content="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon">
 <META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
 <META name="DATE" content="2010-09-27T20:42:48+09:00">
 <META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -15,12 +15,12 @@
 <TABLE border="0"><TBODY><TR>
   <TD valign="top">
     <A href="../memo/memoigapyon.html">
-      <IMG src="../../image/iga200306s.jpg" border="0" ALT="‚¢‚ª‚Ò‚å‚ñ‰æ‘œ(¬) 2003/06">
+      <IMG src="../../image/iga200306s.jpg" border="0" ALT="ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½æ‘œ(ï¿½ï¿½) 2003/06">
     </A>
   </TD>
   <TD valign="top">
-    <H2>2004/09/30 “ú‹L: Sun J2SE 5.0³Ž®”ÅƒŠƒŠ[ƒX (JDK 1.5.0)</H2>
-    <P>[‚¢‚ª‚Ò‚å‚ñ‚Ì“ú‹Lv2,diary,igapyon] Sun‚©‚çÅV”ÅJavaŠJ”­EŽÀsŠÂ‹«‚ÉŠY“–‚·‚éJ2SE 5.0‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½Bƒtƒ@ƒCƒ‹–¼‚Íjdk1.5.0‚Æ‚¢‚¤A‹Œ—ˆ‚ÌJDK‚Æ‚¢‚¤–¼Ì‚¨‚æ‚Ñƒo[ƒWƒ‡ƒ“”Ô†‚ð“¥P‚µ‚Ä‚¢‚Ü‚·B</P>
+    <H2>2004/09/30 ï¿½ï¿½ï¿½L: Sun J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X (JDK 1.5.0)</H2>
+    <P>[ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½Ì“ï¿½ï¿½Lv2,diary,igapyon] Sunï¿½ï¿½ï¿½ï¿½ÅVï¿½ï¿½Javaï¿½Jï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½sï¿½Â‹ï¿½ï¿½ÉŠYï¿½ï¿½ï¿½ï¿½ï¿½ï¿½J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jdk1.5.0ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½JDKï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½Ñƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ôï¿½ï¿½ð“¥Pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
   </TD>
 </TR></TBODY></TABLE>
 
@@ -30,8 +30,8 @@
   <TBODY>
     <TR>
 
-      <TD align="center">L: <A href="http://journal.mycom.co.jp/column/ide/091/">ƒCƒ}ƒhƒL‚ÌIDEŽ–î: Eclipseƒx[ƒX‚Ì“‡–|–óŠÂ‹«uBentenv‚ðŽg‚Á‚Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
-        <FONT size="-1">‚½‚°‚¼‚¤‚³‚ñ‚ÌŽè‚É‚æ‚é Benten Ð‰î‹LŽ–!</FONT></TD>
+      <TD align="center">ï¿½Lï¿½ï¿½: <A href="http://journal.mycom.co.jp/column/ide/091/">ï¿½Cï¿½}ï¿½hï¿½Lï¿½ï¿½IDEï¿½ï¿½ï¿½ï¿½: Eclipseï¿½xï¿½[ï¿½Xï¿½Ì“ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Â‹ï¿½ï¿½uBentenï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Ý‚æ‚¤</A> <FONT color="#ff0000" size="-1">09/27</FONT><BR>
+        <FONT size="-1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½É‚ï¿½ï¿½ Benten ï¿½Ð‰ï¿½Lï¿½ï¿½!</FONT></TD>
 
     </TR>
   </TBODY>
@@ -48,7 +48,7 @@
 <TABLE cellpadding="4">
   <TBODY>
     <TR bgcolor="#99ccff">
-      <TD><A href="../idxall.html">ƒCƒ“ƒfƒBƒbƒNƒXƒy[ƒW‚Ö–ß‚é</A></TD>
+      <TD><A href="../idxall.html">ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½bï¿½Nï¿½Xï¿½yï¿½[ï¿½Wï¿½Ö–ß‚ï¿½</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -59,68 +59,68 @@
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun J2SE 5.0³Ž®”Å (JDK 1.5.0) ³Ž®”ÅƒŠƒŠ[ƒX</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Sun J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (JDK 1.5.0) ï¿½ï¿½ï¿½ï¿½ï¿½Åƒï¿½ï¿½ï¿½ï¿½[ï¿½X</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‚Æ‚¤‚Æ‚¤ASun J2SE 5.0³Ž®”Å‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</P>
+<P>ï¿½Æ‚ï¿½ï¿½Æ‚ï¿½ï¿½ASun J2SE 5.0ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</P>
 <UL>
   <LI>Sun Java 2 Platform Standard Edition 5.0 (J2SE 5.0)<BR>
   <A HREF="http://java.sun.com/j2se/1.5.0/ja/download.html">http://java.sun.com/j2se/1.5.0/ja/download.html</A>
 </UL>
-<P>Windows”ÅALinux”ÅASolaris”Å‚ªƒ_ƒEƒ“ƒ[ƒhƒR[ƒi[‚ÉÚ‚Á‚Ä‚¢‚Ü‚·B</P>
-<P>JavaŒ¾Œê‚ÌŽd—l‚É‚¨‚¢‚Äd—v‚È’Ç‰ÁŽd—l‚ª‚È‚³‚ê‚Ä‚¢‚Ü‚·BŒ¾Œêƒ}ƒjƒA‚Í‚·‚®‚³‚Ü<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ƒgƒCƒvƒƒOƒ‰ƒ€EƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì’è‹`‚ð‚±‚±‚É’è‚ß‚Ü‚·B">ƒgƒCƒvƒƒOƒ‰ƒ€</A>‚ðì‚è‚½‚­‚È‚é‚æ‚¤‚ÈA‚»‚ñ‚ÈŽd—l‚ª‘«‚³‚ê‚Ä‚¢‚é‚Ì‚Å‚·B<BR>
-‚Ü‚½ASwingŠÖ˜A‚Å —lX‚ÈH•v‚ª‰Á‚¦‚ç‚ê‚Ä‚¢‚Ü‚·B</P>
-<P>“ä‚È‚Ì‚ÍA5.0‚Æ‚¢‚¤A¡‚Ü‚Å‚Í 1.1A1.2A1.3A1.4‚Æ—ˆ‚½ƒo[ƒWƒ‡ƒ“”Ô†‚ªA‚¢‚«‚È‚µ5.0‚Ö‚Æ”ò‚ñ‚Å‚¢‚é“_‚Å‚·B‚µ‚©‚µ
-ƒtƒ@ƒCƒ‹–¼‚Í —á‚¦‚Î Windows”Å‚È‚ç jdk-1_5_0-windows-i586.exe ‚Æ‚¢‚¤‹ï‡‚Åƒl[ƒ~ƒ“ƒO‚³‚ê‚Ä‚¢‚Ü‚·B(‚Þ‚µ‚ëAj2se‚Å‚Í‚È‚­A‹ŒÌˆµ‚¢‚Å‚ ‚é‚Í‚¸‚Ì
-jdk‚Æ‚¢‚¤–¼Ì‚ðƒtƒ@ƒCƒ‹–¼‚ÉÌ—p‚µ‚Ä‚¢‚é“_‚ªA‚±‚ê‚Ü‚½‹»–¡[‚¢‚Å‚·)</P>
-<P>‚´‚Á‚­‚è‚ÆƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚Ý‚é‚ÆAƒfƒtƒHƒ‹ƒg‚ÌƒCƒ“ƒXƒg[ƒ‹æƒtƒHƒ‹ƒ_‚ª•ÏX‚³‚ê‚Ä‚¢‚é“_‚É‹C‚ª•t‚«‚Ü‚·B</P>
+<P>Windowsï¿½ÅALinuxï¿½ÅASolarisï¿½Å‚ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Rï¿½[ï¿½iï¿½[ï¿½ÉÚ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>Javaï¿½ï¿½ï¿½ï¿½ÌŽdï¿½lï¿½É‚ï¿½ï¿½ï¿½ï¿½Ädï¿½vï¿½È’Ç‰ï¿½ï¿½dï¿½lï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½https://www.igapyon.jp/igapyon/diary/tp://www.igapyon.jp/igapyon/diary/keyword/toyprog.html" TITLE="ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Ì’ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É’ï¿½ß‚Ü‚ï¿½ï¿½B">ï¿½gï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½</A>ï¿½ï¿½ï¿½ï¿½è‚½ï¿½ï¿½ï¿½È‚ï¿½æ‚¤ï¿½ÈAï¿½ï¿½ï¿½ï¿½ÈŽdï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B<BR>
+ï¿½Ü‚ï¿½ï¿½ASwingï¿½Ö˜Aï¿½ï¿½ ï¿½lï¿½Xï¿½ÈHï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½È‚Ì‚ÍA5.0ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ü‚Å‚ï¿½ 1.1ï¿½A1.2ï¿½A1.3ï¿½A1.4ï¿½Æ—ï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ôï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½5.0ï¿½Ö‚Æ”ï¿½ï¿½Å‚ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½á‚¦ï¿½ï¿½ Windowsï¿½Å‚È‚ï¿½ jdk-1_5_0-windows-i586.exe ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï‡ï¿½Åƒlï¿½[ï¿½~ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Þ‚ï¿½ï¿½ï¿½Aj2seï¿½Å‚Í‚È‚ï¿½ï¿½Aï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½
+jdkï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ÉÌ—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½)</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½ÆAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÌƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½_ï¿½É‹Cï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
 <UL>
   <LI>?:\Program Files\Java\jdk1.5.0\
   <LI>?:\Program Files\Java\jre1.5.0\
 </UL>
-<P>‚±‚ê‚ÍŒ‹\ “Á’¥“I‚È‚Æ‚±‚ë‚Å‚Ì•ÏX‚ª‰Á‚¦‚ç‚ê‚Ä‚¢‚Ü‚·B</P>
-<P>‚ ‚ÆAuPublic JREv‚Æ‚¢‚¤•\Œ»‚Í‰‚ß‚Ä‚¨–Ú‚É‚©‚©‚Á‚½‚æ‚¤‚ÉŽv‚¢‚Ü‚·B</P>
-<P>‚ ‚ A¡‚·‚®‚à‚Á‚Æ“Ë‚Áž‚ñ‚ÅŒŸØ‚ðs‚¢‚½‚¢B‚»‚ñ‚ÈA‚Æ‚Ä‚àŠy‚µ‚»‚¤‚ÈÅV”Å‚Ì“oê‚Å‚·B<BR>
-‚Å‚àAŽdŽ–‚ª–Z‚µ‚¢‚Ì‚ÅƒgƒCƒvƒƒOƒ‰ƒ€‚ð‘‚¢‚Ä—V‚Ô‰É‚Í–³‚µc</P>
+<P>ï¿½ï¿½ï¿½ï¿½ÍŒï¿½ï¿½\ ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½È‚Æ‚ï¿½ï¿½ï¿½Å‚Ì•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ÆAï¿½uPublic JREï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Íï¿½ï¿½ß‚Ä‚ï¿½ï¿½Ú‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ÉŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ“Ë‚ï¿½ï¿½ï¿½ï¿½ï¿½ÅŒï¿½ï¿½Ø‚ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÈAï¿½Æ‚Ä‚ï¿½ï¿½yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈÅVï¿½Å‚Ì“oï¿½ï¿½Å‚ï¿½ï¿½B<BR>
+ï¿½Å‚ï¿½ï¿½Aï¿½dï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Åƒgï¿½Cï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä—Vï¿½Ô‰É‚Í–ï¿½ï¿½ï¿½ï¿½c</P>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 5.0 (JDK 1.5.0)‚ÌƒŠƒ“ƒNƒƒ‚</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>J2SE 5.0 (JDK 1.5.0)ï¿½Ìƒï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>J2SE 5.0 (JDK 1.5.0)‚Ì’Ç‰ÁŽd—l‚ðŠÈ•Ö‚É’m‚é‚É‚ÍA‰º‹L‚Ìƒy[ƒW‚ª Å‚à ‚¨‚·‚·‚ß‚Å‚·B</P>
+<P>J2SE 5.0 (JDK 1.5.0)ï¿½Ì’Ç‰ï¿½ï¿½dï¿½lï¿½ï¿½ï¿½È•Ö‚É’mï¿½ï¿½É‚ÍAï¿½ï¿½ï¿½Lï¿½Ìƒyï¿½[ï¿½Wï¿½ï¿½ ï¿½Å‚ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Å‚ï¿½ï¿½B</P>
 <UL>
-  <LI>J2SE 5.0 ŒÕ‚ÌŒŠ (ŸN’ë—Sˆê‚³‚ñ)<BR>
+  <LI>J2SE 5.0 ï¿½Õ‚ÌŒï¿½ (ï¿½Nï¿½ï¿½Sï¿½ê‚³ï¿½ï¿½)<BR>
   <A HREF="http://www5.airnet.ne.jp/sakuraba/java/laboratory/J2SE1.5/contents.html">http://www5.airnet.ne.jp/sakuraba/java/laboratory/J2SE1.5/contents.html</A><BR>
-  ‚·‚Î‚ç‚µ‚¢I ‚³‚­‚ç‚Î—lA—L‰v‚Èî•ñ‚ð ‚½‚¢‚Ö‚ñ‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B
+  ï¿½ï¿½ï¿½Î‚ç‚µï¿½ï¿½ï¿½I ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î—lï¿½Aï¿½Lï¿½vï¿½Èï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö‚ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 </UL>
-<P>JavaŒ¾Œê‚Æ‚µ‚ÄA‹v‚µ‚Ô‚è‚Ìƒtƒƒ“ƒeƒBƒAŠ´‚ ‚Ó‚ê‚éŠ´“®“I‚ÈV‹@”\’Ç‰Á‚É‚È‚è‚Ü‚·B‚ ‚ A‰É‚ª‚ ‚Á‚½‚ç¡‰ñ‚ÌJava‚ÌV‹@”\‚É‚Â‚¢‚Ä‚¶‚Á‚­‚è—V‚Ñ“|‚µ‚½‚¢‚Ì‚Å‚·‚ªcA‚Ë‚¥B</P>
-<P><FONT color="#ff0000">2004.10.17 ’Ç‹L</FONT></P>
+<P>Javaï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÄAï¿½vï¿½ï¿½ï¿½Ô‚ï¿½Ìƒtï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ó‚ï¿½éŠ´ï¿½ï¿½ï¿½Iï¿½ÈVï¿½@ï¿½\ï¿½Ç‰ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¡ï¿½ï¿½ï¿½Javaï¿½ÌVï¿½@ï¿½\ï¿½É‚Â‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½Ñ“|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½ï¿½ï¿½cï¿½Aï¿½Ë‚ï¿½ï¿½B</P>
+<P><FONT color="#ff0000">2004.10.17 ï¿½Ç‹L</FONT></P>
 <UL>
-  <LI>—IT: J2SE 5.0uTigerv‚Å‰½‚ª•Ï‚í‚é‚©H<BR>
+  <LI>ï¿½ï¿½IT: J2SE 5.0ï¿½uTigerï¿½vï¿½Å‰ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½é‚©ï¿½H<BR>
   <A HREF="http://www.atmarkit.co.jp/fjava/kaisetsu/j2eewatch06/j2eewatch06.html">http://www.atmarkit.co.jp/fjava/kaisetsu/j2eewatch06/j2eewatch06.html</A><BR>
-  ‹gì˜a–¤‚³‚ñ‚Ì‹LŽ–BƒRƒ“ƒpƒNƒg‚É‚Ü‚Æ‚Ü‚Á‚Ä‚¢‚ÄV‹@”\‚ð˜ëáÕ‚·‚é‚Ì‚É•Ö—˜‚Å‚·B
+  ï¿½gï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹Lï¿½ï¿½ï¿½Bï¿½Rï¿½ï¿½ï¿½pï¿½Nï¿½gï¿½É‚Ü‚Æ‚Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ÄVï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½Õ‚ï¿½ï¿½ï¿½Ì‚É•Ö—ï¿½ï¿½Å‚ï¿½ï¿½B
 </UL>
-<P>ƒjƒ…[ƒXƒŠƒ“ƒN</P>
+<P>ï¿½jï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½N</P>
 <UL>
-  <LI>ƒTƒ“A‘Ò–]‚ÌJava 2 Standard EditioniJ2SEj5.0‚ðƒŠƒŠ[ƒX<BR>
+  <LI>ï¿½Tï¿½ï¿½ï¿½Aï¿½Ò–]ï¿½ï¿½Java 2 Standard Editionï¿½iJ2SEï¿½j5.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½X<BR>
   <A HREF="http://japan.cnet.com/news/ent/story/0,2000047623,20074901,00.htm">http://japan.cnet.com/news/ent/story/0,2000047623,20074901,00.htm</A>
 </UL>
 <TABLE summary="mini title">
   <TBODY>
     <TR>
-      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>Ž©‘îPC‚ÌJ2SEŠÂ‹«‚ð J2SE 5.0 (JDK 1.5.0) ‚Éƒo[ƒWƒ‡ƒ“ƒAƒbƒv</STRONG></FONT></TD>
+      <TD bgcolor="#ff9900" valign="top"><FONT color="#ffffff" size="+1"><STRONG>ï¿½ï¿½ï¿½ï¿½PCï¿½ï¿½J2SEï¿½Â‹ï¿½ï¿½ï¿½ J2SE 5.0 (JDK 1.5.0) ï¿½Éƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½v</STRONG></FONT></TD>
     </TR>
   </TBODY>
 </TABLE>
-<P>‘‘¬AŽ©‘îPC‚ÌJ2SEŠÂ‹«‚ðAJ2SE 5.0 (JDK 1.5.0)‚Éƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚µ‚Ü‚µ‚½B‚·‚È‚í‚¿A‚±‚Ì“ú‹LƒVƒXƒeƒ€‚à
-JDK 1.5.0‚ðŽg‚Á‚Äì¬•XVˆ—‚³‚ê‚é‚æ‚¤‚É•ÏX‚³‚ê‚½A‚Æ‚¢‚¤‚±‚Æ‚É‚È‚è‚Ü‚·B<BR>
-•µˆÍ‹CAƒtƒ@ƒCƒ‹I/O‚ª‚‘¬‚É‚È‚Á‚½‚æ‚¤‚È‹C‚ª‚µ‚Ü‚·B(‚Ü‚ A‚±‚¤‚¢‚¤‚Ì‚ÍŽåŠÏ“I‚É‚Í”»’f‚¹‚¸‚ÉAƒxƒ“ƒ`ƒ}[ƒNƒvƒƒOƒ‰ƒ€‚È‚Ç‚ÅŒŸØ‚·‚×‚«‚È‚Ì‚Å‚µ‚å‚¤‚ªc‚Æ‚É‚©‚­ŽžŠÔ‚ª‚ ‚è‚Ü‚¹‚ñ‚Å‚·)</P>
-<P>c‹ó”’•¶Žš‚ðŠÜ‚ÞƒtƒHƒ‹ƒ_‚ð—˜—p‚µ‚Ä‚¢‚é“_‚É‚Í’ˆÓ‚ª•K—v‚Å‚·Bƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“‚ÅˆÍ‚Þ‚È‚Ç‚Ì‘Îô‚ð‘Å‚½‚È‚¢‚ÆA‚¤‚Ü‚­s‚©‚È‚¢ê‡‚ª‚ ‚é‚©‚ç‚Å‚·B‚Æ‚¢‚¤‚Ì‚àA‚¢‚«‚È‚è“ú‹LƒVƒXƒeƒ€‚ÌƒRƒ}ƒ“ƒhƒ‰ƒCƒ“BATƒvƒƒOƒ‰ƒ€‚ª‰e‹¿‚ðŽó‚¯‚½‚©‚ç‚Å‚·B</P>
+<P>ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½PCï¿½ï¿½J2SEï¿½Â‹ï¿½ï¿½ï¿½ï¿½AJ2SE 5.0 (JDK 1.5.0)ï¿½Éƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½È‚í‚¿ï¿½Aï¿½ï¿½ï¿½Ì“ï¿½ï¿½Lï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½
+JDK 1.5.0ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Äì¬ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É•ÏXï¿½ï¿½ï¿½ê‚½ï¿½Aï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½B<BR>
+ï¿½ï¿½ï¿½Í‹Cï¿½Aï¿½tï¿½@ï¿½Cï¿½ï¿½I/Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½È‹Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÍŽï¿½Ï“Iï¿½É‚Í”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ÉAï¿½xï¿½ï¿½ï¿½`ï¿½}ï¿½[ï¿½Nï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚ÅŒï¿½ï¿½Ø‚ï¿½ï¿½×‚ï¿½ï¿½È‚Ì‚Å‚ï¿½ï¿½å‚¤ï¿½ï¿½ï¿½cï¿½Æ‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Å‚ï¿½)</P>
+<P>ï¿½cï¿½ó”’•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Þƒtï¿½Hï¿½ï¿½ï¿½_ï¿½ð—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½_ï¿½É‚Í’ï¿½ï¿½Ó‚ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½Bï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½Iï¿½[ï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÅˆÍ‚Þ‚È‚Ç‚Ì‘Îï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ü‚ï¿½ï¿½sï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Lï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½BATï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B</P>
 <HR>
-<address><A HREF="../memo/memoigapyon.html">‚¢‚ª‚Ò‚å‚ñ‚É‚Â‚¢‚Ä</A><BR>
+<address><A HREF="../memo/memoigapyon.html">ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½</A><BR>
 Last modified: $Date: 2010/09/27 20:42:48 $</address>
 </BODY>
 </HTML>

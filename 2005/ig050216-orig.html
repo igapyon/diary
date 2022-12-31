@@ -66,13 +66,13 @@
 </TABLE>
 <P>Windows上のあるディレクトリと別のディレクトリを GNU/Linuxのコマンドの diff -urN を使って比較を取る必要がありました。</P>
 <OL>
-  <LI>まず、空いていたマシンを<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>を使って起動させます。
+  <LI>まず、空いていたマシンを<A HREF="https://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>を使って起動させます。
   <LI>次に、Windows XP SP2側のあるフォルダを共有フォルダ設定します。そしてそこに比較したいディレクトリを２つとも格納しておきます。
-  <LI><A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>側のマシンから <A href="../2004/ig041229.html">smbmountコマンド</A>を用いてマウントを行います。
+  <LI><A HREF="https://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>側のマシンから <A href="../2004/ig041229.html">smbmountコマンド</A>を用いてマウントを行います。
   <LI>コマンドラインから diff -urN ディレクトリ１ ディレクトリ2 を実行して 標準出力を別ファイルにリダイレクトします。
 </OL>
 <P>diff結果を得ることが出来たときは、本当に嬉しかったです。私の使っている範囲では、Cygwin Windows版のdiffでは うまくいかない事が何故か良くあります。そういう時は
-どうしても GNU/Linuxのdiffが使いたくなるものなのです。<A HREF="http://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>って、こういう時にとても便利ですね。空いているマシンをちょいと起動して
+どうしても GNU/Linuxのdiffが使いたくなるものなのです。<A HREF="https://www.igapyon.jp/igapyon/diary/keyword/knoppix.html" TITLE="最近 世間での期待がもっとも集まっているLinuxディストリビューションのひとつ。">KNOPPIX</A>って、こういう時にとても便利ですね。空いているマシンをちょいと起動して
 ネットワーク越しに diffコマンドが使えたときには、ほんとうに便利だと思いました。(かえってネットワーク越しだからこそ上手く行っているのかも知れませんね)</P>
 <P><FONT color="#ff0000">関連する日記</FONT></P>
 <UL>
