@@ -36,9 +36,9 @@
 
 ## 職業
 
-* 会社設立者のひとりであり取締役です。
-* 月給会社員です。
-* [株式会社レザボア・コンサルティング](https://reservoir.design/) を運営しています。[地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6649888&lon=139.7024356&layers=00BFF)
+* [株式会社レザボア・コンサルティング](https://reservoir.design/) の設立者であり取締役です
+    * [会社所在地](https://www.google.co.jp/maps/@35.6649888,139.7024356,16z)
+* プログラマー、ITコンサルタントです
 
 ## 職種
 
