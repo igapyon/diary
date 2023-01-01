@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2022](2022/index.html)
+[2023](2023/index.html)
+/ [2022](2022/index.html)
 / [2021](2021/index.html)
 / [2020](2020/index.html)
 / [2019](2019/index.html)
@@ -37,6 +38,7 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
 * [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
 * [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](2022/ig220901.html)
@@ -51,7 +53,6 @@
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](2021/ig210529.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
 * [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](2021/ig210515.html)
-* [2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理](2021/ig210514.html)
 
 
 ----------------------------------------------------------------------------------------------------
