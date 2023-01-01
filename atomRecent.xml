@@ -4,6 +4,15 @@
   <dc:creator>Toshiki Iga</dc:creator>
   <dc:language>ja_JP</dc:language>
   <entry>
+    <title>2023-01-01 diary: あけまして おめでとう ございます</title>
+    <link rel="alternate" href="https://www.igapyon.jp/igapyon/diary/2023/ig230101.html" />
+    <author>
+      <name>Toshiki Iga</name>
+    </author>
+    <id>https://www.igapyon.jp/igapyon/diary/2023/ig230101.html</id>
+    <dc:creator>Toshiki Iga</dc:creator>
+  </entry>
+  <entry>
     <title>2022-12-31 diary: 2022年の振返り</title>
     <link rel="alternate" href="https://www.igapyon.jp/igapyon/diary/2022/ig221231.html" />
     <author>
@@ -127,15 +136,6 @@
       <name>Toshiki Iga</name>
     </author>
     <id>https://www.igapyon.jp/igapyon/diary/2021/ig210515.html</id>
-    <dc:creator>Toshiki Iga</dc:creator>
-  </entry>
-  <entry>
-    <title>2021-05-14 diary: [Oiyokan] 技術者向け: OData v4: Apache Olingo の Filter Expression 処理</title>
-    <link rel="alternate" href="https://www.igapyon.jp/igapyon/diary/2021/ig210514.html" />
-    <author>
-      <name>Toshiki Iga</name>
-    </author>
-    <id>https://www.igapyon.jp/igapyon/diary/2021/ig210514.html</id>
     <dc:creator>Toshiki Iga</dc:creator>
   </entry>
 </feed>

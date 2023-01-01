@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2022](../2022/index.html)
+[2023](../2023/index.html)
+/ [2022](../2022/index.html)
 / [2021](../2021/index.html)
 / [2020](../2020/index.html)
 / [2019](../2019/index.html)

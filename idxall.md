@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2022](2022/index.html)
+[2023](2023/index.html)
+/ [2022](2022/index.html)
 / [2021](2021/index.html)
 / [2020](2020/index.html)
 / [2019](2019/index.html)
@@ -37,6 +38,7 @@
 
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
 * [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
 * [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](2022/ig220901.html)
