@@ -38,6 +38,7 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2023-01-05 diary: Diary title here](2023/ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
 * [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
@@ -52,7 +53,6 @@
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](2021/ig210605.html)
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](2021/ig210529.html)
 * [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
-* [2021-05-15 diary: [Oiyokan] Message list of Oiyokan v1.14](2021/ig210515.html)
 
 
 私のインターネットへのアンテナです。
@@ -83,6 +83,6 @@
 ## この日記について
 
 * ホームページ更新者: 伊賀 敏樹 / Tosiki Iga
-* [Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [Twitter](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / [OSDN](https://ja.osdn.net/users/iga/)
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2FREADME.html) / [top](index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* [Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [Post](https://post.news/igapyon) / [Twitter](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / [OSDN](https://ja.osdn.net/users/iga/)
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8v3%EF%BC%9A%E3%83%88%E3%83%83%E3%83%97&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2FREADME.html) / [top](index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 
