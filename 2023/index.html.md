@@ -5,7 +5,8 @@
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
-[2023](index.html)
+[2024](../2024/index.html)
+/ [2023](index.html)
 / [2022](../2022/index.html)
 / [2021](../2021/index.html)
 / [2020](../2020/index.html)
@@ -37,7 +38,10 @@
 
 ## いがぴょんの日記：2023年の日記
 
-* [2023-01-05 diary: Diary title here](ig230105.html)
+* [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](ig231217.html)
+* [2023-11-23 diary: SwitchBot Hub2 購入](ig231123.html)
+* [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](ig231002.html)
+* [2023-01-05 diary: Post ベータに参加](ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](ig230101.html)
 
 

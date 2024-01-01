@@ -4,7 +4,8 @@
 =====================================================================================================
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
-[2023](2023/index.html)
+[2024](2024/index.html)
+/ [2023](2023/index.html)
 / [2022](2022/index.html)
 / [2021](2021/index.html)
 / [2020](2020/index.html)
@@ -38,7 +39,12 @@
 
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2023-01-05 diary: Diary title here](2023/ig230105.html)
+* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K　購入](2024/ig240102.html)
+* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500　購入](2024/ig240101.html)
+* [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](2023/ig231217.html)
+* [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
+* [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
+* [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
 * [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
