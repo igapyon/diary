@@ -39,9 +39,10 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K　購入](2024/ig240102.html)
-* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500　購入](2024/ig240101.html)
+* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
+* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](2023/ig231217.html)
+* [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
@@ -53,7 +54,6 @@
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220305.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
-* [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
 
 
 私のインターネットへのアンテナです。

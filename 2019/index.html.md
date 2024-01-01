@@ -38,6 +38,7 @@
 
 ## いがぴょんの日記：2019年の日記
 
+* [2019-06-30 diary: Nature Remo 購入](ig190630.html)
 * [2019-05-21 diary: どうも体調すぐれず](ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](ig190518.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](ig190516.html)

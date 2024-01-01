@@ -39,6 +39,7 @@
 ## いがぴょんの日記：2023年の日記
 
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](ig231217.html)
+* [2023-11-24 diary: CLIP STUDIO PAINT 導入](ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](ig231002.html)
 * [2023-01-05 diary: Post ベータに参加](ig230105.html)

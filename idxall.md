@@ -39,9 +39,10 @@
 
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
-* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K　購入](2024/ig240102.html)
-* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500　購入](2024/ig240101.html)
+* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
+* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](2023/ig231217.html)
+* [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
@@ -99,6 +100,7 @@
 * [2020-04-26 diary: [Spring][Java] すごくシンプルな Spring Web + REST API + Jackson サンプル](2020/ig200426.html)
 * [2020-03-15 diary: オーダーメイド・バイオリン Alachi Souiti 2020（愛称 Rina）](2020/ig200315.html)
 * [2020-01-02 diary: [Java] vCard を Java で読み込むシンプルサンプル＋ライブラリ事情](2020/ig200102.html)
+* [2019-06-30 diary: Nature Remo 購入](2019/ig190630.html)
 * [2019-05-21 diary: どうも体調すぐれず](2019/ig190521.html)
 * [2019-05-18 diary: 新しい Amazon Fire 7 タブレット](2019/ig190518.html)
 * [2019-05-16 diary: [Java] Slack に IncomingWebhook でポストするシンプルサンプル](2019/ig190516.html)
