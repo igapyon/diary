@@ -41,6 +41,7 @@
 
 * [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
 * [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
+* [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](2023/ig231219.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](2023/ig231217.html)
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)

@@ -38,6 +38,7 @@
 
 ## いがぴょんの日記：2023年の日記
 
+* [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](ig231219.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](ig231217.html)
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](ig231123.html)
