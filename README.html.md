@@ -39,6 +39,7 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2024-01-01 diary: Diary title here](2024/ig240101.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
@@ -53,7 +54,6 @@
 * [2021-06-06 diary: [Oiyokan] Spring Boot プロジェクトに Oiyokan SDK を組み込む方法](2021/ig210606.html)
 * [2021-06-05 diary: [Oiyokan] YouTube: Getting Started with Oiyokan Initializr コンテンツ作成メモ](2021/ig210605.html)
 * [2021-05-29 diary: 主要RDB の JDBCドライバは Maven Repository からダウンロード可能](2021/ig210529.html)
-* [2021-05-16 diary: [Oiyokan] OData Edm to JDBC Types mapping of Oiyokan v1.14](2021/ig210516.html)
 
 
 私のインターネットへのアンテナです。

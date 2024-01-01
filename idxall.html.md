@@ -39,6 +39,7 @@
 
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
+* [2024-01-01 diary: Diary title here](2024/ig240101.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
 * [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
