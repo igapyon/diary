@@ -5,7 +5,8 @@
 [![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
-[2023](index.html)
+[2024](../2024/index.html)
+/ [2023](index.html)
 / [2022](../2022/index.html)
 / [2021](../2021/index.html)
 / [2020](../2020/index.html)
@@ -37,7 +38,7 @@
 
 ## いがぴょんの日記：2023年の日記
 
-* [2023-01-05 diary: Diary title here](ig230105.html)
+* [2023-01-05 diary: Post ベータに参加](ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](ig230101.html)
 
 
