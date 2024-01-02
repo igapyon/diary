@@ -43,7 +43,7 @@
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](ig231002.html)
-* [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) を本格利用開始](ig230730.html)
+* [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) その後](ig230730.html)
 * [2023-07-12 diary: 香害: 合成洗剤、柔軟剤、化粧品類などの合成香料](ig230712.html)
 * [2023-05-27 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) を本格利用開始](ig230527.html)
 * [2023-04-23 diary: 親族の家に leafee (ホームセキュリティサービス) を導入](ig230423.html)
