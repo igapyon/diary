@@ -2,7 +2,7 @@
 
 いがぴょんの日記：2022年の日記
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
 [2024](../2024/index.html)
@@ -44,6 +44,7 @@
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](ig220305.html)
+* [2022-01-02 diary: Canon EOS Kiss Digital X → Canon EOS Kiss M2](ig220102.html)
 
 
 ----------------------------------------------------------------------------------------------------

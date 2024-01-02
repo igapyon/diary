@@ -7,6 +7,10 @@
 
 [Diary](${settings.baseurl}/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [Post](https://post.news/igapyon) / [Twitter](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / [OSDN](https://ja.osdn.net/users/iga/)
 
+### 2023年頃
+
+[![いがぴょん](${settings.baseurl}/images/iga202308_256.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
+
 ### 2016年頃
 
 [![いがぴょん](${settings.baseurl}/images/iga201605.png "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)

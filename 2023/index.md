@@ -2,7 +2,7 @@
 
 いがぴょんの日記：2023年の日記
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
 [2024](../2024/index.html)
@@ -38,9 +38,18 @@
 
 ## いがぴょんの日記：2023年の日記
 
+* [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](ig231219.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](ig231217.html)
+* [2023-11-24 diary: CLIP STUDIO PAINT 導入](ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](ig231002.html)
+* [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) その後](ig230730.html)
+* [2023-07-12 diary: 香害: 合成洗剤、柔軟剤、化粧品類などの合成香料](ig230712.html)
+* [2023-05-27 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) を本格利用開始](ig230527.html)
+* [2023-04-23 diary: 親族の家に leafee (ホームセキュリティサービス) を導入](ig230423.html)
+* [2023-04-19 diary: 個人 MacBook Air (Retina, 13-inch, 2020) 購入](ig230419.html)
+* [2023-01-24 diary: VOICEPEAK 購入、セイルチェア導入](ig230124.html)
+* [2023-01-10 diary: ONTOMO MOOK これならできる スピーカー工作 2020 (マークオーディオ編) 組み立て](ig230110.html)
 * [2023-01-05 diary: Post ベータに参加](ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](ig230101.html)
 

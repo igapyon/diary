@@ -2,7 +2,7 @@
 
 いがぴょんの日記ウェブページv3：トップ
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 [2024](2024/index.html)
 / [2023](2023/index.html)
@@ -39,21 +39,21 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
-* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K　購入](2024/ig240102.html)
-* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500　購入](2024/ig240101.html)
+* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
+* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
+* [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](2023/ig231219.html)
 * [2023-12-17 diary: LTEモバイルルーター Aterm MR05LN 購入](2023/ig231217.html)
+* [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
+* [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) その後](2023/ig230730.html)
+* [2023-07-12 diary: 香害: 合成洗剤、柔軟剤、化粧品類などの合成香料](2023/ig230712.html)
+* [2023-05-27 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) を本格利用開始](2023/ig230527.html)
+* [2023-04-23 diary: 親族の家に leafee (ホームセキュリティサービス) を導入](2023/ig230423.html)
+* [2023-04-19 diary: 個人 MacBook Air (Retina, 13-inch, 2020) 購入](2023/ig230419.html)
+* [2023-01-24 diary: VOICEPEAK 購入、セイルチェア導入](2023/ig230124.html)
+* [2023-01-10 diary: ONTOMO MOOK これならできる スピーカー工作 2020 (マークオーディオ編) 組み立て](2023/ig230110.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
-* [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
-* [2022-12-31 diary: 2022年の振返り](2022/ig221231.html)
-* [2022-12-30 diary: 2022年のヘッドホン](2022/ig221230.html)
-* [2022-09-01 diary: 株式会社レザボア・コンサルティングを設立](2022/ig220901.html)
-* [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220402.html)
-* [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
-* [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220305.html)
-* [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
-* [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
 
 
 ----------------------------------------------------------------------------------------------------

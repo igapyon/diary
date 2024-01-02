@@ -2,7 +2,7 @@
 
 いがぴょんの日記：2024年の日記
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
 [2024](index.html)
@@ -38,8 +38,8 @@
 
 ## いがぴょんの日記：2024年の日記
 
-* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K　購入](ig240102.html)
-* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500　購入](ig240101.html)
+* [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](ig240102.html)
+* [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](ig240101.html)
 
 
 ----------------------------------------------------------------------------------------------------
