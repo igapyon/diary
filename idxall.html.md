@@ -61,6 +61,7 @@
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](2022/ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](2022/ig220305.html)
+* [2022-01-02 diary: Canon EOS Kiss Digital X → Canon EOS Kiss M2](2022/ig220102.html)
 * [2021-11-03 diary: バイオリン松脂 Parisian (パリジャン)、Merlot (メルロー)、Chardonnay (シャルドネ) 購入](2021/ig211103.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](2021/ig211024.html)
 * [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](2021/ig211023.html)
