@@ -2,7 +2,7 @@
 
 いがぴょんの日記：2010年の日記
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_256.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
 [2024](../2024/index.html)
