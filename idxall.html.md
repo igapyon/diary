@@ -46,6 +46,7 @@
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
+* [2023-01-24 diary: VOICEPEAK 購入、セイルチェア導入](2023/ig230124.html)
 * [2023-01-10 diary: ONTOMO MOOK これならできる スピーカー工作 2020 (マークオーディオ編) 組み立て](2023/ig230110.html)
 * [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
 * [2023-01-01 diary: あけまして おめでとう ございます](2023/ig230101.html)
