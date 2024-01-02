@@ -11,7 +11,7 @@
 
 本名: 伊賀 敏樹 / Tosiki Iga
 
-[Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / 
+[Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
 
 ### 2023年頃
 
