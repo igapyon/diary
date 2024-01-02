@@ -9,7 +9,7 @@
 
 ### 2023年頃
 
-[![いがぴょん](${settings.baseurl}/images/iga202308.png "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
+[![いがぴょん](${settings.baseurl}/images/iga202308_256.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
 
 ### 2016年頃
 
