@@ -46,6 +46,7 @@
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
+* [2023-08-27 diary: Wenzel Meinl 205 CLT」(クルスペ巻) を購入](2023/ig230827.html)
 * [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) その後](2023/ig230730.html)
 * [2023-07-12 diary: 香害: 合成洗剤、柔軟剤、化粧品類などの合成香料](2023/ig230712.html)
 * [2023-05-27 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) を本格利用開始](2023/ig230527.html)
@@ -53,7 +54,6 @@
 * [2023-04-19 diary: 個人 MacBook Air (Retina, 13-inch, 2020) 購入](2023/ig230419.html)
 * [2023-01-24 diary: VOICEPEAK 購入、セイルチェア導入](2023/ig230124.html)
 * [2023-01-10 diary: ONTOMO MOOK これならできる スピーカー工作 2020 (マークオーディオ編) 組み立て](2023/ig230110.html)
-* [2023-01-05 diary: Post ベータに参加](2023/ig230105.html)
 
 
 私のインターネットへのアンテナです。
