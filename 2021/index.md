@@ -38,6 +38,7 @@
 
 ## いがぴょんの日記：2021年の日記
 
+* [2021-11-03 diary: バイオリン松脂 Parisian (パリジャン)、Merlot (メルロー)、Chardonnay (シャルドネ) 購入](ig211103.html)
 * [2021-10-24 diary: CLASSIC PRO CPH7000 を購入](ig211024.html)
 * [2021-10-23 diary: 壁掛け電波時計購入: CITIZEN 8MY475-019](ig211023.html)
 * [2021-10-17 diary: 2021年に買った気になったものをメモ](ig211017.html)
