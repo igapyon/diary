@@ -40,7 +40,7 @@
 ### 全ての日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atom.xml))
 
 * [2024-07-07 diary: すでに夏まっさかり](2024/ig240707.html)
-* [2024-06-02 diary: オーダーメイド・ビオラ製作 - 裏板到着](2024/ig240602.html)
+* [2024-06-02 diary: ビオラ製作 - 裏板到着](2024/ig240602.html)
 * [2024-05-02 diary: オーダーメイド・ビオラ製作キックオフ](2024/ig240502.html)
 * [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
 * [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
