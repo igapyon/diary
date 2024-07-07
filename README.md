@@ -39,6 +39,9 @@
 
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
+* [2024-07-07 diary: すでに夏まっさかり](2024/ig240707.html)
+* [2024-06-02 diary: オーダーメイド・ビオラ製作 - 裏板到着](2024/ig240602.html)
+* [2024-05-02 diary: オーダーメイド・ビオラ製作キックオフ](2024/ig240502.html)
 * [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
 * [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
 * [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](2023/ig231219.html)
@@ -51,9 +54,6 @@
 * [2023-08-18 diary: Soditer USB タイプ C から 3.5mm ヘッドフォン オーディオ アダプタ 購入](2023/ig230818.html)
 * [2023-08-17 diary: プロフィール写真を更新](2023/ig230817.html)
 * [2023-08-16 diary: パソコン作業専用のメガネ](2023/ig230816.html)
-* [2023-08-15 diary: 自宅電子レンジ Toshiba ER-X18 購入](2023/ig230815.html)
-* [2023-07-30 diary: バイオリン松脂 Old Master Chardonnay (シャルドネ) および Merlot (メルロー) その後](2023/ig230730.html)
-* [2023-07-15 diary: チェロの松脂を、Old Master Parisian から、Old Master Chardonnay と Old Master Merlot のブレンドに変更](2023/ig230715.html)
 
 
 私のインターネットへのアンテナです。
