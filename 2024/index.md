@@ -39,8 +39,13 @@
 ## いがぴょんの日記：2024年の日記
 
 * [2024-07-07 diary: すでに夏まっさかり](ig240707.html)
+* [2024-06-27 diary: CORONA : CW-F1624R (WS) - ReLaLa（リララ） 導入](ig240627.html)
 * [2024-06-02 diary: ビオラ製作 - 裏板到着](ig240602.html)
+* [2024-05-19 diary: SONY WH-1000XM5 購入メモ](ig240519.html)
 * [2024-05-02 diary: オーダーメイド・ビオラ製作キックオフ](ig240502.html)
+* [2024-04-15 diary: ARCHISS AS-KBPD70/CBKN (青軸)](ig240415.html)
+* [2024-02-24 diary: macOS 用 Windows 風味スイッチャー - AltTab](ig240224.html)
+* [2024-02-23 diary: バイオリンでの使用弦＋馬毛＋松脂メモ](ig240223.html)
 * [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](ig240102.html)
 * [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](ig240101.html)
 

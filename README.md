@@ -40,8 +40,13 @@
 ### 比較的最近の日記 ([Feed](https://www.igapyon.jp/igapyon/diary/atomRecent.xml))
 
 * [2024-07-07 diary: すでに夏まっさかり](2024/ig240707.html)
+* [2024-06-27 diary: CORONA : CW-F1624R (WS) - ReLaLa（リララ） 導入](2024/ig240627.html)
 * [2024-06-02 diary: ビオラ製作 - 裏板到着](2024/ig240602.html)
+* [2024-05-19 diary: SONY WH-1000XM5 購入メモ](2024/ig240519.html)
 * [2024-05-02 diary: オーダーメイド・ビオラ製作キックオフ](2024/ig240502.html)
+* [2024-04-15 diary: ARCHISS AS-KBPD70/CBKN (青軸)](2024/ig240415.html)
+* [2024-02-24 diary: macOS 用 Windows 風味スイッチャー - AltTab](2024/ig240224.html)
+* [2024-02-23 diary: バイオリンでの使用弦＋馬毛＋松脂メモ](2024/ig240223.html)
 * [2024-01-02 diary: 自宅電話 Panasonic VE-GDL48DL-K 購入](2024/ig240102.html)
 * [2024-01-01 diary: 自宅プリンター CANON PIXUS XK500 購入](2024/ig240101.html)
 * [2023-12-19 diary: BearHorn BW-1100 導入 (Fostex FF105WK 活用)](2023/ig231219.html)
@@ -49,11 +54,6 @@
 * [2023-11-24 diary: CLIP STUDIO PAINT 導入](2023/ig231124.html)
 * [2023-11-23 diary: SwitchBot Hub2 購入](2023/ig231123.html)
 * [2023-10-02 diary: Yamaha AG06MK2 ホワイト 購入](2023/ig231002.html)
-* [2023-08-27 diary: Wenzel Meinl 205 CLT (クルスペ巻) を購入](2023/ig230827.html)
-* [2023-08-26 diary: Masiero Renato チェロ弦の上2本を Jargar Superior に変更](2023/ig230826.html)
-* [2023-08-18 diary: Soditer USB タイプ C から 3.5mm ヘッドフォン オーディオ アダプタ 購入](2023/ig230818.html)
-* [2023-08-17 diary: プロフィール写真を更新](2023/ig230817.html)
-* [2023-08-16 diary: パソコン作業専用のメガネ](2023/ig230816.html)
 
 
 私のインターネットへのアンテナです。
