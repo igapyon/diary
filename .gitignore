@@ -6,3 +6,11 @@ bin/
 *.log
 .project
 .DS_Store
+
+**/atom.xml
+**/atomRecent.xml
+idxall.html.md
+idxall.md
+**/index.html.md
+**/index.md
+
