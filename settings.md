@@ -15,7 +15,7 @@ This file is settings for [igapyonv3](keyword/igapyonv3.html).
 * baseurl: https://www.igapyon.jp/igapyon/diary
 * sourcebaseurl: https://github.com/igapyon/diary/blob/master
 * author: Toshiki Iga
-* generatetodaydiary: true
+* generatetodaydiary: false
 * convertmarkdown2html: false
 * duplicatefakehtmlmd: true
 * generatekeywordifneeded: true
