@@ -10,7 +10,7 @@ ${showSettings()}
 
 ${setVerbose("true")}
 ${setDebug("false")}
-${setGeneratetodaydiary("true")}
+${setGeneratetodaydiary("false")}
 ${setDuplicatefakehtmlmd("true")}
 ${setConvertmarkdown2html("false")}
 ${setGeneratekeywordifneeded("true")}
