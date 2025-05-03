@@ -12,6 +12,10 @@ Zoom H4essential を MacBook Air に接続して録音データをコピーし�
 録音された音源（32bit floatなど）を、標準的なCD音質（16bit/44.1kHz）に変換し、音量正規化も行います。
 
 ```
+ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
+```
+
+```
 ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm -ar 44100 -sample_fmt s16 250503_130527_TrMic-loudnorm.wav
 ```
 
