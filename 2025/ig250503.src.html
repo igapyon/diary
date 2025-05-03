@@ -1,4 +1,4 @@
-## Zoom H4essential 録音データを YouTube および m4a 形式に変換する手順 (1トラック版)
+## Zoom H4essential 録音データを YouTube および m4a 形式に変換する手順 (1トラック+2パス版)
 
 ### Zoom H4essential の録音データを MacBook Air にコピー
 
@@ -8,6 +8,14 @@ Zoom H4essential を MacBook Air に接続して録音データをコピーし�
 - 必要な .WAV ファイルをローカルにコピーします。
 
 ### フロート音源を CD 音源に変換
+
+#### レベル測定
+
+```
+ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
+```
+
+#### aaaaa
 
 録音された音源（32bit floatなど）を、標準的なCD音質（16bit/44.1kHz）に変換し、音量正規化も行います。
 
