@@ -45,6 +45,26 @@ ffmpeg -i 250503_130527_TrMic.WAV \
 
 - テーマ: クラシックの豊かな音の動きを保ちつつ、先生の小声を聞きやすくする
 
+出力
+
+```
+[Parsed_loudnorm_0 @ 0x7fa539105e40] rate=1411.0kbits/s speed=19.8x    
+Input Integrated:    -38.9 LUFS
+Input True Peak:     -10.7 dBTP
+Input LRA:            23.7 LU
+Input Threshold:     -51.5 LUFS
+
+Output Integrated:   -15.4 LUFS
+Output True Peak:     -1.5 dBTP
+Output LRA:           21.0 LU
+Output Threshold:    -27.6 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        -0.6 LU
+[out#0/wav @ 0x7fa539304dc0] video:0KiB audio:481482KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000045%
+size=  481483KiB time=00:46:35.00 bitrate=1411.2kbits/s speed=19.8x 
+```
+
 ### 必要に応じて複数ファイルを連結
 
 複数の wav ファイルを1つにまとめます。filelist.txt をシェル芸で作成すると少し幸せです。
