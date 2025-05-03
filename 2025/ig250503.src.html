@@ -38,7 +38,7 @@ ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
 
 ```
 ffmpeg -i 250503_130527_TrMic.WAV \
--af loudnorm=I=-16:TP=-1.5:LRA=14:measured_I=-38.93:measured_TP=-10.71:measured_LRA=23.70:measured_thresh=-51.49:offset=0.13:linear=true:print_format=summary \
+-af "loudnorm=I=-16:TP=-1.5:LRA=14:measured_I=-38.93:measured_TP=-10.71:measured_LRA=23.70:measured_thresh=-51.49:offset=0.13:linear=true, compand=attacks=0.3:decays=0.8:points=-60/-20|-40/-10|-20/-5|0/0" \
 -ar 44100 -sample_fmt s16 -c:a pcm_s16le \
 250503_130527_TrMic-loudnorm.wav
 ```
