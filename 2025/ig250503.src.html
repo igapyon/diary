@@ -78,9 +78,19 @@ ffmpeg -f concat -safe 0 -i filelist.txt -c copy 250429_125454_TrMic-concat.wav
 
 録音データを必要な範囲にトリミングします。
 
+concatした場合
+
 ```
 ffmpeg -ss 470  -t 4645 -i 250429_125454_TrMic-concat.wav -c copy 250429_TrMic-part1.wav
 ```
+
+concatしていない場合
+
+```
+ffmpeg -ss 470  -t 4645 -i 250503_130527_TrMic-loudnorm.wav -c copy 250503_TrMic-part1.wav
+```
+
+
 
 ### YouTube 形式に変換
 
