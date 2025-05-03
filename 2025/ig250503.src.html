@@ -37,14 +37,16 @@ ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
 録音された音源（32bit floatなど）を、標準的なCD音質（16bit/44.1kHz）に変換し、音量正規化も行います。
 
 ```
-ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
+ffmpeg -i 250503_130527_TrMic.WAV \
+-af loudnorm=I=-18:TP=-1.5:LRA=14:measured_I=-38.93:measured_TP=-10.71:measured_LRA=23.70:measured_thresh=-51.49:offset=0.13:linear=true:print_format=summary \
+-ar 44100 -sample_fmt s16 -c:a pcm_s16le \
+250503_130527_TrMic-loudnorm.wav
 ```
 
-```
-ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm -ar 44100 -sample_fmt s16 250503_130527_TrMic-loudnorm.wav
-```
+LRAを少し抑えつつ、音声全体のレベルを持ち上げる
 
-※ loudnorm は音量を適正化するためのフィルターです。
+- I=-18 は全体的に少し控えめなラウドネス（音質を崩さず音声を上げやすい）
+- LRA=14 はまだ自然な広がりを保ちつつ、極端な小声が聞こえやすくなる
 
 ### 必要に応じて複数ファイルを連結
 
