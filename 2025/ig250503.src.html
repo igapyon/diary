@@ -38,17 +38,16 @@ ffmpeg -i 250503_130527_TrMic.WAV -af loudnorm=print_format=json -f null -
 
 ```
 ffmpeg -i 250503_130527_TrMic.WAV \
--af loudnorm=I=-18:TP=-1.5:LRA=14:measured_I=-38.93:measured_TP=-10.71:measured_LRA=23.70:measured_thresh=-51.49:offset=0.13:linear=true:print_format=summary \
+-af loudnorm=I=-16:TP=-1.5:LRA=15:measured_I=-38.93:measured_TP=-10.71:measured_LRA=23.70:measured_thresh=-51.49:offset=0.13:linear=true:print_format=summary \
 -ar 44100 -sample_fmt s16 -c:a pcm_s16le \
 250503_130527_TrMic-loudnorm.wav
 ```
 
-LRAを少し抑えつつ、音声全体のレベルを持ち上げる
+- I=-16: 標準ラウドネスへ引き上げ
+- LRA=15: 依然としてクラシックらしい幅を持ちつつ、極端な小声を少し圧縮
+- これで先生の声が かなり聞こえやすくなるはず
 
-- I=-18 は全体的に少し控えめなラウドネス（音質を崩さず音声を上げやすい）
-- LRA=14 はまだ自然な広がりを保ちつつ、極端な小声が聞こえやすくなる
-
-### 必要に応じて複数ファイルを連結
+### 必要があれば複数ファイルを連結
 
 複数の wav ファイルを1つにまとめます。filelist.txt をシェル芸で作成すると少し幸せです。
 
