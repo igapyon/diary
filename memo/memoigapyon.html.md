@@ -2,24 +2,20 @@
 
 資料: いがぴょん について
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 いがぴょん(伊賀敏樹)とは誰かを紹介するページです。 
 [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2C%E4%BC%8A%E8%B3%80%E6%95%8F%E6%A8%B9&text=%E3%80%8C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html)
 
 ## 資料: いがぴょん について
 
-本名: 伊賀 敏樹 （Tosiki Iga）
+本名: 伊賀 敏樹 / Tosiki Iga
 
-[Diary](https://www.igapyon.jp/igapyon/diary/)
-/ [Facebook](https://www.facebook.com/igapyon)
-/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
-/ [GitHub](https://github.com/igapyon)
-/ [Qiita](https://qiita.com/igapyon)
-/ [Mastodon](https://social.vivaldi.net/@igapyon)
-/ [Twitter](https://twitter.com/ToshikiIga)
-/ [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
-/ [OSDN](https://ja.osdn.net/users/iga/)
+[Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
+
+### 2023年頃
+
+[![いがぴょん](https://www.igapyon.jp/igapyon/diary/images/iga202308_256.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)
 
 ### 2016年頃
 
@@ -37,7 +33,7 @@
 
 ## 職種
 
-* 情報処理技術者。Java/Spring Boot、Salesforceカスタム開発、および関連技術を得意とします。
+* 情報処理技術者。Java/Spring Boot、Salesforce カスタム開発、および関連技術を得意とします。
   * ソースコードや設定ファイルなどの自動生成系を得意としています。
 * テクニカルライターという役割も担います。
 * オープンソースへの関与
@@ -157,6 +153,7 @@
 
 ## 今年の抱負
 
+* 2024年 会社運営の安定そして成長
 * 2017年 健康第一
 * 2010年 Ubuntu を流行らせること。
 * 2009年 翻訳メモリ (TMX) を流行らせること。
@@ -216,5 +213,7 @@
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COSS%2Cblancofw%2Cigapyonv3&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93+%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* ホームページ更新者: 伊賀 敏樹 / Tosiki Iga
+* [Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / 
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%2COSS%2Cblancofw%2Cigapyonv3&text=%E8%B3%87%E6%96%99%3A+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93+%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2Fmemo%2Fmemoigapyon.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 

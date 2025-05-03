@@ -3,17 +3,13 @@
 
 ## 資料: いがぴょん について
 
-本名: 伊賀 敏樹 （Tosiki Iga）
+本名: 伊賀 敏樹 / Tosiki Iga
 
-[Diary](${settings.baseurl}/)
-/ [Facebook](https://www.facebook.com/igapyon)
-/ [LinkedIn](https://www.linkedin.com/in/toshikiiga)
-/ [GitHub](https://github.com/igapyon)
-/ [Qiita](https://qiita.com/igapyon)
-/ [Mastodon](https://social.vivaldi.net/@igapyon)
-/ [Twitter](https://twitter.com/ToshikiIga)
-/ [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
-/ [OSDN](https://ja.osdn.net/users/iga/)
+[Diary](${settings.baseurl}/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ)
+
+### 2023年頃
+
+[![いがぴょん](${settings.baseurl}/images/iga202308_256.jpg "いがぴょん")](${settings.baseurl}/memo/memoigapyon.html)
 
 ### 2016年頃
 
@@ -31,7 +27,7 @@
 
 ## 職種
 
-* 情報処理技術者。Java/Spring Boot、Salesforceカスタム開発、および関連技術を得意とします。
+* 情報処理技術者。Java/Spring Boot、Salesforce カスタム開発、および関連技術を得意とします。
   * ソースコードや設定ファイルなどの自動生成系を得意としています。
 * テクニカルライターという役割も担います。
 * オープンソースへの関与
@@ -151,6 +147,7 @@
 
 ## 今年の抱負
 
+* 2024年 会社運営の安定そして成長
 * 2017年 健康第一
 * 2010年 Ubuntu を流行らせること。
 * 2009年 翻訳メモリ (TMX) を流行らせること。

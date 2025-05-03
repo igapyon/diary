@@ -2,10 +2,13 @@
 
 いがぴょんの日記：2022年の日記
 =====================================================================================================
-[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga200306s.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
+[![いがぴょんの日記](https://www.igapyon.jp/igapyon/diary/images/iga202308_64.jpg "いがぴょん")](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) 日記形式でつづる [いがぴょん](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html)コラム ウェブページです。
 
 
-[2022](index.html)
+[2025](../2025/index.html)
+/ [2024](../2024/index.html)
+/ [2023](../2023/index.html)
+/ [2022](index.html)
 / [2021](../2021/index.html)
 / [2020](../2020/index.html)
 / [2019](../2019/index.html)
@@ -42,11 +45,14 @@
 * [2022-04-02 diary: 現時点(2022/04)の私の音響機器一式メモ (steinberg UR44C など)](ig220402.html)
 * [2022-03-12 diary: 現時点の私のヴァイオリン楽器構成 (Alachi Souiti 2020 など)](ig220312.html)
 * [2022-03-05 diary: 現時点(2022/03)の私の音響機器一式メモ (steinberg UR44C など)](ig220305.html)
+* [2022-01-02 diary: Canon EOS Kiss Digital X → Canon EOS Kiss M2](ig220102.html)
 
 
 ----------------------------------------------------------------------------------------------------
 
 ## この日記について
 
-* [Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A2022%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F2022%2Findex.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
+* ホームページ更新者: 伊賀 敏樹 / Tosiki Iga
+* [Diary](https://www.igapyon.jp/igapyon/diary/) / [Facebook](https://www.facebook.com/igapyon) / [LinkedIn](https://www.linkedin.com/in/toshikiiga) / [GitHub](https://github.com/igapyon) / [Qiita](https://qiita.com/igapyon) / [Mastodon](https://social.vivaldi.net/@igapyon) / [X(Twitter)](https://twitter.com/ToshikiIga) / [Amazon](https://www.amazon.co.jp/%E4%BC%8A%E8%B3%80-%E6%95%8F%E6%A8%B9/e/B004LTQWCQ) / 
+[Share on Twitter](https://twitter.com/intent/tweet?hashtags=igapyon%2Cdiary%2C%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93&text=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93%E3%81%AE%E6%97%A5%E8%A8%98%EF%BC%9A2022%E5%B9%B4%E3%81%AE%E6%97%A5%E8%A8%98&url=https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F2022%2Findex.html) / [top](../index.html) / [いがぴょんについて](https://www.igapyon.jp/igapyon/diary/memo/memoigapyon.html) / [Powered by Igapyonv3](https://github.com/igapyon/igapyonv3)
 * 本サイトの見解は、私 個人のものであり、株式会社レザボア・コンサルティング は当個人的見解に一切責任を持ちません。 
