@@ -12,11 +12,11 @@
 	<url>https://igapyon.github.io/igapyonv3/</url>
 
 	<dependencies>
-		<!-- for igapyonv3 igdiary plugin -->
+		<!-- for igapyonv3 igdiary -->
 		<dependency>
 			<groupId>jp.igapyon.diary</groupId>
 			<artifactId>igapyonv3</artifactId>
-			<version>1.9.2-SNAPSHOT</version>
+			<version>1.9.3-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -52,25 +52,6 @@
 
 	<build>
 		<plugins>
-			<!-- for igapyonv3 igdiary plugin -->
-			<plugin>
-				<groupId>jp.igapyon.diary.igapyonv3.plugin</groupId>
-				<artifactId>igapyonv3-maven-plugin</artifactId>
-				<version>1.5.4</version>
-				<configuration>
-					<basedir>${project.basedir}</basedir>
-					<outputhtmldir>${project.build.directory}/html</outputhtmldir>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>generate-resources</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
 			<!-- compile as JDK 1.8 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
