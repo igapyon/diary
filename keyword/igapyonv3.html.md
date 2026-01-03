@@ -165,7 +165,8 @@ Last modified: $Date: 2017-03-04 $
 
 `<@localyearlist />`
 
-[2025](../2025/index.html)
+[2026](../2026/index.html)
+/ [2025](../2025/index.html)
 / [2024](../2024/index.html)
 / [2023](../2023/index.html)
 / [2022](../2022/index.html)
