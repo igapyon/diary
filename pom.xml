@@ -16,7 +16,7 @@
 		<dependency>
 			<groupId>jp.igapyon.diary</groupId>
 			<artifactId>igapyonv3</artifactId>
-			<version>1.9.4-SNAPSHOT</version>
+			<version>1.9.5-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
