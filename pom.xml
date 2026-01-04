@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>igapyon.diary.ghpages</groupId>
 	<artifactId>IgapyonDiaryGhPages</artifactId>
-	<version>1.0.1</version>
+	<version>2.0.20260104.2</version>
 	<packaging>jar</packaging>
 
 	<name>IgapyonDiaryGhPages</name>
@@ -16,7 +16,7 @@
 		<dependency>
 			<groupId>jp.igapyon.diary</groupId>
 			<artifactId>igapyonv3</artifactId>
-			<version>2.0.20260104.1</version>
+			<version>2.0.20260104.2</version>
 		</dependency>
 
 		<!-- Apache FileUtils -->
@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.5</version>
+			<version>3.18.0</version>
 		</dependency>
 
 		<!-- normalize html tag -->
@@ -41,6 +41,13 @@
 			<groupId>org.ccil.cowan.tagsoup</groupId>
 			<artifactId>tagsoup</artifactId>
 			<version>1.2.1</version>
+		</dependency>
+
+		<!-- SLF4J simple logger to avoid "No SLF4J providers" warning -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.16</version>
 		</dependency>
 	</dependencies>
 
@@ -68,10 +75,21 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>3.1.0</version>
 				<configuration>
 					<mainClass>igapyon.diary.ghpages.App</mainClass>
 				</configuration>
+				<executions>
+					<execution>
+						<id>igdiary</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>jp.igapyon.diary.igapyonv3.IgDiaryProcessor</mainClass>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 
 			<!-- run ant task -->
@@ -80,12 +98,19 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>3.1.0</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant</artifactId>
+						<version>1.10.14</version>
+					</dependency>
+				</dependencies>
 				<configuration>
 					<!-- generate keyword md file -->
 					<target>
 						<property name="classpath" refid="maven.runtime.classpath" />
-						<echo>genkeywordmd</echo>
-						<echo message="runtime classpath: ${runtime_classpath}" />
+						<echo level="info">genkeywordmd</echo>
+						<echo level="info" message="runtime classpath: ${runtime_classpath}" />
 						<java
 							classname="jp.igapyon.diary.igapyonv3.indexing.keyword.KeywordMdTextGenerator">
 							<classpath>
@@ -98,7 +123,7 @@
 						<!-- convert md to html -->
 						<property name="classpath" refid="maven.runtime.classpath" />
 
-						<echo>md2html</echo>
+						<echo level="info">md2html</echo>
 						<mkdir dir="target/md2html" />
 						<java classname="jp.igapyon.diary.igapyonv3.md2html.IgapyonMd2Html">
 							<arg value="-s" />
