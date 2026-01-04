@@ -10,6 +10,7 @@
 - 生成と実行の入口:
   - `mvn install exec:java` で `igapyon.diary.ghpages.App` を実行。
   - `mvn antrun:run` でキーワード索引生成と Markdown→HTML 変換（`target/md2html`）。
+  - 実行時の例: `MAVEN_OPTS="-Djava.net.preferIPv4Stack=true" mvn clean install antrun:run`。
 - 依存と役割:
   - `jp.igapyon.diary:igapyonv3` を依存に持ち、`.src.md` → `.md` → `.html` 変換や索引生成を委譲。
   - `commons-io`/`commons-lang3`/`tagsoup` を利用して I/O、文字列処理、HTML 正規化を補助。
