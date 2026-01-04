@@ -14,12 +14,12 @@ CMS
 
 ### 特徴
 
-* TBD [Search in Google](https://www.google.co.jp/#pws=0&q=CMS)
+* TBD [Search in Google](https://www.google.com/search?q=CMS)
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+CMS)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=CMS)
+* [Search on Igapyon Diary](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Figapyon.github.io%2Fdiary%2F+CMS)
+* [Search in Google](https://www.google.com/search?q=CMS)
 * [Search in Twitter](https://twitter.com/search?q=%23CMS)
 
 ### 日記

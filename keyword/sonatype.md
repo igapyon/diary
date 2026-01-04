@@ -19,8 +19,8 @@ Sonatype
 
 ### 検索
 
-* [Search 'Sonatype' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Sonatype)
-* [Search 'Sonatype' in google](https://www.google.co.jp/#pws=0&q=Sonatype)
+* [Search 'Sonatype' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Figapyon.github.io%2Fdiary%2F+Sonatype)
+* [Search 'Sonatype' in google](https://www.google.com/search?q=Sonatype)
 * [Search 'Sonatype' in twitter](https://twitter.com/search?q=%23Sonatype)
 
 Last modified: $Date: 2017-02-03 $

@@ -10,8 +10,8 @@ tuneviolin
 
 (*) ここで書いてあることは、一般のヴァイオリン演奏従事者とは、かなり異なる考え方になっています。特殊です。一方、それによって私のヴァイオリンの音色は支えられています。
 
-* [Search 'tuneviolin' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+tuneviolin)
-* [Search 'tuneviolin' in google](https://www.google.co.jp/#pws=0&q=tuneviolin)
+* [Search 'tuneviolin' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+tuneviolin)
+* [Search 'tuneviolin' in google](https://www.google.com/search?q=tuneviolin)
 * [Search 'tuneviolin' in twitter](https://twitter.com/search?q=%23tuneviolin)
 
 ### 日記

@@ -19,8 +19,8 @@ Jersey
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Jersey)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=Jersey)
+* [Search on Igapyon Diary](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Jersey)
+* [Search in Google](https://www.google.com/search?q=Jersey)
 * [Search in Twitter](https://twitter.com/search?q=%23Jersey)
 
 Last modified: $Date: 2017-02-23 $

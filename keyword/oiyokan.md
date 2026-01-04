@@ -27,8 +27,8 @@ Apache Olingo / Spring Boot / h2 database ベースです。
 
 ### 検索
 
-* [Search 'Oiyokan' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Oiyokan)
-* [Search 'Oiyokan' in google](https://www.google.co.jp/#pws=0&q=Oiyokan)
+* [Search 'Oiyokan' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Oiyokan)
+* [Search 'Oiyokan' in google](https://www.google.com/search?q=Oiyokan)
 * [Search 'Oiyokan' in twitter](https://twitter.com/search?q=%23Oiyokan)
 
 ### 日記
