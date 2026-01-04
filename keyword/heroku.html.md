@@ -19,8 +19,8 @@ Heroku
 
 ### 検索
 
-* [Search 'Heroku' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Heroku)
-* [Search 'Heroku' in google](https://www.google.co.jp/#pws=0&q=Heroku)
+* [Search 'Heroku' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Heroku)
+* [Search 'Heroku' in google](https://www.google.com/search?q=Heroku)
 * [Search 'Heroku' in twitter](https://twitter.com/search?q=%23Heroku)
 
 ### 日記

@@ -17,7 +17,6 @@ igapyonv3
 
 [igapyonv3](igapyonv3.html) の利用例には以下のようなものがあります。
 
-* [https://igapyon.github.io/diary/](https://igapyon.github.io/diary/)
 * [https://www.igapyon.jp/i.../index.html](https://www.igapyon.jp/igapyon/diary/index.html)
 
 
@@ -107,11 +106,11 @@ Last modified: $Date: 2017-03-04 $
 #### 検索系
 
 * `<@linksearch word="いがぴょん" />`
-  * [Search 'いがぴょん' in google](https://www.google.co.jp/#pws=0&q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
-* `<@linksearch title="いがぴょん検索サイト内" word="いがぴょん" site="https://igapyon.github.io/diary/" />`
-  * [いがぴょん検索サイト内](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
-* `<@linksearch title="いがぴょんTwitter" word="伊賀敏樹" engine="twitter" />`
-  * [いがぴょんTwitter](https://twitter.com/search?q=%23%E4%BC%8A%E8%B3%80%E6%95%8F%E6%A8%B9)
+  * [Search 'いがぴょん' in google](https://www.google.com/search?q=%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
+* `<@linksearch title="いがぴょん検索サイト内" word="いがぴょん" site="https://www.igapyon.jp/" />`
+  * [いがぴょん検索サイト内](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2F+%E3%81%84%E3%81%8C%E3%81%B4%E3%82%87%E3%82%93)
+* `<@linksearch title="いがぴょんTwitter" word="伊賀" engine="twitter" />`
+  * [いがぴょんTwitter](https://twitter.com/search?q=%23%E4%BC%8A%E8%B3%80)
 
 #### SNS系
 
@@ -147,7 +146,7 @@ Last modified: $Date: 2017-03-04 $
 * `<@linkamazon title="JDBC本" dp="4839913935" />`
   * [JDBC本](https://www.amazon.co.jp/exec/obidos/ASIN/4839913935/igapyondiary-22)
 * `<@linkmap word="mapテスト" lat="35.6722478" lon="139.7214164" />`
-  * [地図で表示](https://openstreetmap.jp/map#zoom=17&lat=35.6722478&lon=139.7214164&layers=00BFF)
+  * [地図で表示](https://www.openstreetmap.org/?mlat=35.6722478&mlon=139.7214164#map=17/35.6722478/139.7214164)
 * `<@lastmodified date="2017-01-22" />`
   * Last modified: $Date: 2017-01-22 $
 
@@ -220,8 +219,8 @@ Last modified: $Date: 2017-03-04 $
 
 ### 検索
 
-* [Search 'igapyonv3' in Igapyon Diary site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
-* [Search 'igapyonv3' in google](https://www.google.co.jp/#pws=0&q=igapyonv3)
+* [Search 'igapyonv3' in Igapyon Diary site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Figapyon.github.io%2Fdiary%2F+igapyonv3)
+* [Search 'igapyonv3' in google](https://www.google.com/search?q=igapyonv3)
 * [Search 'igapyonv3' in twitter](https://twitter.com/search?q=%23igapyonv3)
 
 ### 日記
