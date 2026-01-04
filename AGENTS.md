@@ -1,0 +1,21 @@
+このリポジトリで分かったこと（最終）
+
+- 位置づけ:
+  - igapyonv3 本体を使って、実際の日記サイトを生成・公開するための運用リポジトリ。
+  - 本体ではなく利用側の構成で、生成処理を呼び出すための Maven プロジェクト。
+- コンテンツ構造:
+  - 年別ディレクトリ（1996〜2026）が日記本文の主要ソース。
+  - `memo`/`keyword` ディレクトリが補助コンテンツや索引用素材として同居。
+  - 生成済みの `idx*.md/html` や `index*.md/html` がルートに並ぶ運用スタイル。
+- 生成と実行の入口:
+  - `mvn install exec:java` で `igapyon.diary.ghpages.App` を実行。
+  - `mvn antrun:run` でキーワード索引生成と Markdown→HTML 変換（`target/md2html`）。
+- 依存と役割:
+  - `jp.igapyon.diary:igapyonv3` を依存に持ち、`.src.md` → `.md` → `.html` 変換や索引生成を委譲。
+  - `commons-io`/`commons-lang3`/`tagsoup` を利用して I/O、文字列処理、HTML 正規化を補助。
+- igapyonv3 の要点（外部情報）:
+  - Java 製の開発者向けオープンソース静的サイト/ブログジェネレータ。
+  - Maven プラグインとして提供され、Markdown/RSS/Freemarker/独自日記ディレクティブに対応。
+  - Markdown→HTML 変換が可能で、出力のカスタマイズがしやすい。
+  - GitHub Pages 向け出力は deprecated。
+  - デュアルライセンス: Apache 2 / LGPL。
