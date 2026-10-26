@@ -20,8 +20,8 @@ Java
 
 ### 検索
 
-* [Search 'Java' site=igapyon in google](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+Java)
-* [Search 'Java' in google](https://www.google.co.jp/#pws=0&q=Java)
+* [Search 'Java' site=igapyon in google](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Figapyon.github.io%2Fdiary%2F+Java)
+* [Search 'Java' in google](https://www.google.com/search?q=Java)
 * [Search 'Java' in twitter](https://twitter.com/search?q=%23Java)
 
 ### 日記

@@ -11,7 +11,6 @@
 
 [[igapyonv3]] の利用例には以下のようなものがあります。
 
-* <@link value="https://igapyon.github.io/diary/" />
 * <@link value="https://www.igapyon.jp/igapyon/diary/index.html" />
 
 <#-- これ以降は分割されたサブコンテンツの読み込みにより実現されます -->

@@ -32,7 +32,7 @@ Excelファイルの入出力に着眼して、いくつかのサンプル・ト
 
 ### 検索
 
-* [Search 'Jakarta POI' in google in-site](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apache+POI)
+* [Search 'Jakarta POI' in google in-site](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.igapyon.jp%2Figapyon%2Fdiary%2F+Apache+POI)
 
 Last modified: $Date: 2018-04-18 $
 

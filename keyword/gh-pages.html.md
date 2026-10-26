@@ -18,8 +18,8 @@ gh-pages
 
 ### 検索
 
-* [Search on Igapyon Diary](https://www.google.co.jp/#pws=0&q=site:https%3A%2F%2Figapyon.github.io%2Fdiary%2F+gh-pages)
-* [Search in Google](https://www.google.co.jp/#pws=0&q=gh-pages)
+* [Search on Igapyon Diary](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Figapyon.github.io%2Fdiary%2F+gh-pages)
+* [Search in Google](https://www.google.com/search?q=gh-pages)
 * [Search in Twitter](https://twitter.com/search?q=%23gh-pages)
 
 ### 日記
